@@ -1,5 +1,6 @@
 import iwbi, csv
 
+# datatype mapping from wdi config
 datatype_mapping = {'commonsMedia': 'http://wikiba.se/ontology#CommonsMedia' ,
                 'external-id': 'http://wikiba.se/ontology#ExternalId' ,
                 'geo-shape': 'http://wikiba.se/ontology#GeoShape',
@@ -30,12 +31,13 @@ with open('props.csv', 'r', encoding="utf-8") as csvfile:
 		for dtype in datatype_mapping:
 			if datatype_mapping[dtype] == prop['datatype']:
 				datatype = dtype
+				break
 
 		data = []
 
-		if prop['wd'].startswith("P"):
+		if prop['wd'].startswith("P"): # if csv has value for Wikidata equivalent
 			data.append(iwbi.wbi_datatype.ExternalID(value=prop['wd'], prop_nr="P1"))
-		if prop['formUrl'].startswith("http"):
+		if prop['formUrl'].startswith("http"): # if csv has value for formatter URL
 			data.append(iwbi.wbi_datatype.String(value=prop['formUrl'], prop_nr="P2"))
 
 
