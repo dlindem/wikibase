@@ -44,6 +44,7 @@ def itemwrite(iwbitem, statements, clear=False): # statements = {'append':[],'re
 	d = False
 	while d == False:
 		try:
+			print('Writing to iwbi...', end =" ")
 			r = iwbitem.write(is_bot=1)
 			d = True
 		except Exception:
@@ -51,12 +52,10 @@ def itemwrite(iwbitem, statements, clear=False): # statements = {'append':[],'re
 			print(ex)
 			if "wikibase-validator-label-with-description-conflict" in str(ex):
 				print('\nFound an ambiguous item label: same description conflict.')
-			presskey = input('Press 1 for retry, 0 for skip and continue without writing statements.')
+			presskey = input('Enter 0 for skipping and continue without writing statements, else retry writing.')
 			if presskey == "0":
 				d = True
 			# 	iwbitem.descriptions.set(language="eu", value="Beste pertsona bat")
-		try:
-			print('Successfully written to item: '+iwbitem.id)
-		except:
-			pass
+		print('Successfully written to item: '+iwbitem.id)
+
 	return iwbitem.id
