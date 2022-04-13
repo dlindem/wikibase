@@ -3,6 +3,9 @@ import inguma
 import json, re, traceback, csv, sys, time, requests, validators
 from pathlib import Path
 from urllib.parse import urlparse, urlunparse
+import urllib.request
+opener = urllib.request.build_opener()
+opener.addheaders = [('Accept', 'application/vnd.crossref.unixsd+xml')]
 
 def extra(fieldname, value):
 	global groupname
@@ -77,6 +80,7 @@ def extra(fieldname, value):
 			value = value.replace(" eta ",", ")
 			value = value.replace(", ",",")
 			names = value.split(",")
+			print('Editor names: '+ str(names))
 			for name in names:
 				if name.replace(" ","").isalpha():
 					statements['replace'].append(iwbi.String(value=name.strip(), prop_nr="P60"))
@@ -87,7 +91,22 @@ def extra(fieldname, value):
 		if isinstance(value, str) and len(value) > 5:
 			doi = re.search('10\.\d+/.*', value)
 			if doi:
-				statements['replace'].append(iwbi.ExternalID(value=doi.group(0).rstrip(), prop_nr="P21"))
+				puredoi = doi.group(0).rstrip()
+				print('Found DOI: '+puredoi+'...', end=" ")
+				statements['replace'].append(iwbi.ExternalID(value=puredoi, prop_nr="P20"))
+				try:
+					r = opener.open('http://dx.doi.org/'+puredoi)
+					# print(str(r.info()['Link']))
+					pdflink = re.search('<([^\>]+\.pdf)>', str(r.info()['Link']))
+					if pdflink:
+						print('Found PDF link at crossref: '+pdflink.group(1))
+						statements['append'].append(iwbi.URL(value=pdflink.group(1), prop_nr="P48", qualifiers=[iwbi.ExternalID(prop_nr="P20", value=puredoi)]))
+					else:
+						print('No full text link at crossref.')
+				except:
+					print('Error querying crossref.')
+
+
 
 
 	return statements
@@ -206,7 +225,7 @@ for entry in group:
 			pass # TBD: allow updated records override older version (check for conflicting changes in wikibase?)
 
 		# if input('Enter "0" for skipping this item, anything else for overriding it...') == "0":
-		continue
+		# continue
 		iwbitem = iwbi.wbi.item.get(entity_id=qidmapping[str(entry)])
 	# else:
 	# 	query = 'select ?wikibase_item where {?wikibase_item idp:P49 "'+str(entry['id'])+'".}'
