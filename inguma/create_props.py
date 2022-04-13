@@ -1,3 +1,4 @@
+# this worked with wbi v11
 import iwbi, csv
 
 # datatype mapping from wdi config
