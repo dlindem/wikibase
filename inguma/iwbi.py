@@ -34,11 +34,13 @@ PREFIX ino: <http://wikibase.inguma.eus/prop/novalue/>
 
 wd_user_agent = "http://wikibase.inguma.eus user DL2204bot david.lindemann@ehu.eus"
 
-def itemwrite(iwbitem, statements): # statements = {'append':[],'replace':[]}
+def itemwrite(iwbitem, statements, clear=False): # statements = {'append':[],'replace':[]}
+	if clear == True:
+		r = iwbitem.write(is_bot=1, clear=clear)
 	if len(statements['replace']) > 0:
 		iwbitem.claims.add(statements['replace'])
 	if len(statements['append']) > 0:
-		iwbitem.claims.add(statements['append'], action_if_exists=iwbi.ActionIfExists.APPEND)
+		iwbitem.claims.add(statements['append'], action_if_exists=ActionIfExists.APPEND)
 	d = False
 	while d == False:
 		try:
