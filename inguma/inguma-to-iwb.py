@@ -72,6 +72,7 @@ def extra(fieldname, value):
 
 	elif fieldname == "writerName":
 		if value:
+			print('writerName field literal: '+value)
 			value = value.strip().replace("\t","")
 			value = re.sub('\([^\)]+\)', '', value)
 			subregex = ['\.\.+ ?', '\([^\)]+\) ?', '\[[^\]]+\) ?', '[Ee]dito[^,: ]+[,: ]*', '[Aa]rgitar[^,: ]+[: ,]*', '[Kk]oord[^\.,: ]+[: ,]*', '[Ee]d\. ', '[Aa]rg\.']
@@ -94,20 +95,17 @@ def extra(fieldname, value):
 				puredoi = doi.group(0).rstrip()
 				print('Found DOI: '+puredoi+'...', end=" ")
 				statements['replace'].append(iwbi.ExternalID(value=puredoi, prop_nr="P20"))
-				try:
-					r = opener.open('http://dx.doi.org/'+puredoi)
-					# print(str(r.info()['Link']))
-					pdflink = re.search('<([^\>]+\.pdf)>', str(r.info()['Link']))
-					if pdflink:
-						print('Found PDF link at crossref: '+pdflink.group(1))
-						statements['append'].append(iwbi.URL(value=pdflink.group(1), prop_nr="P48", qualifiers=[iwbi.ExternalID(prop_nr="P20", value=puredoi)]))
-					else:
-						print('No full text link at crossref.')
-				except:
-					print('Error querying crossref.')
-
-
-
+				# try:
+				# 	r = opener.open('http://dx.doi.org/'+puredoi)
+				# 	# print(str(r.info()['Link']))
+				# 	pdflink = re.search('<([^\>]+\.pdf)>', str(r.info()['Link']))
+				# 	if pdflink:
+				# 		print('Found PDF link at crossref: '+pdflink.group(1))
+				# 		statements['append'].append(iwbi.URL(value=pdflink.group(1), prop_nr="P48", qualifiers=[iwbi.ExternalID(prop_nr="P20", value=puredoi)]))
+				# 	else:
+				# 		print('No full text link at crossref.')
+				# except:
+				# 	print('Error querying crossref.')
 
 	return statements
 
@@ -145,7 +143,16 @@ def get_authors(entry, statements):
 	inguma_authors = inguma.get_production_authors(entry)
 	for listpos in inguma_authors:
 		listposquali = iwbi.String(value=listpos, prop_nr="P36")
-		statements['replace'].append(iwbi.Item(value=personqid[str(inguma_authors[listpos])], prop_nr="P17", qualifiers=[listposquali]))
+		try:
+			statements['append'].append(iwbi.Item(value=personqid[str(inguma_authors[listpos])], prop_nr="P17", qualifiers=[listposquali]))
+		except:
+			print('Author ID is missing in persons_qidmapping. Will try to resolve via SPARQL.')
+			query = 'select ?wikibase_item where {?wikibase_item idp:P49 "persons:'+str(inguma_authors[listpos])+'".}'
+			bindings = iwbi.wbi_helpers.execute_sparql_query(query=query, prefix=iwbi.sparql_prefixes)['results']['bindings']
+			if len(bindings) > 0:
+				iwbqid = bindings[0]['wikibase_item']['value'].replace("http://wikibase.inguma.eus/entity/","")
+				print('Found wikibase item via SPARQL: This item is on IWB, qid is '+iwbqid)
+				statements['append'].append(iwbi.Item(value=iwbqid, prop_nr="P17", qualifiers=[listposquali]))
 	return statements
 
 # load knowledge areas
@@ -210,6 +217,11 @@ index = 0
 for entry in group:
 	index +=1
 
+	# for bridging aborted runs
+	# if index < :
+	# 	continue
+
+
 	# productions: exclude non-allowed production types
 	if groupname == "productions":
 		if inguma.mappings['item:ingumaProdType'][group[entry]['type']] == None:
@@ -225,8 +237,11 @@ for entry in group:
 			pass # TBD: allow updated records override older version (check for conflicting changes in wikibase?)
 
 		# if input('Enter "0" for skipping this item, anything else for overriding it...') == "0":
-		# continue
+		continue
 		iwbitem = iwbi.wbi.item.get(entity_id=qidmapping[str(entry)])
+		clear = True # This will delete all existing claims!!
+
+		#print(str(iwbitem.claims))
 	# else:
 	# 	query = 'select ?wikibase_item where {?wikibase_item idp:P49 "'+str(entry['id'])+'".}'
 	# 	bindings = iwbi.wbi_helpers.execute_sparql_query(query=query, prefix=iwbi.sparql_prefixes)['results']['bindings']
@@ -240,6 +255,7 @@ for entry in group:
 	if not iwbitem:
 		iwbitem = iwbi.wbi.item.new()
 		print('New item created.')
+		clear = False
 
 	# item labels
 	iwbitem = add_labels(groupname, group[entry], iwbitem)
@@ -257,9 +273,9 @@ for entry in group:
 
 	# productions and persons: get missing info from inguma
 	if groupname == "productions":
-		statements = get_authors(entry, statements)
-		statements = get_areas(entry, statements)
-		statements = get_orgs(group[entry], statements)
+		statements = get_authors(entry, statements) # author items
+		statements = get_areas(entry, statements) # knowledge area items
+		statements = get_orgs(group[entry], statements) # publisher item
 	# if groupname == "persons":
 	# 	statements = get_affiliations(entry, statements)
 
@@ -321,26 +337,7 @@ for entry in group:
 				statements['replace'] += extra_handled['replace']
 				statements['append'] += extra_handled['append']
 
-
-
-	#
-	# if len(statements['replace']) > 0:
-	# 	item.claims.add(statements['replace'])
-	# if len(statements['append']) > 0:
-	# 	item.claims.add(statements['append'], action_if_exists=iwbi.ActionIfExists.FORCE_APPEND)
-	# d = False
-	# while d == False:
-	# 	try:
-	# 		r = item.write()
-	# 		d = True
-	# 	except Exception:
-	# 		ex = traceback.format_exc()
-	# 		# print(ex)
-	# 		if "wikibase-validator-label-with-description-conflict" in str(ex):
-	# 			print('Found an ambigouus person name, but with different clearName.')
-	# 			item.descriptions.set(language="eu", value="Beste pertsona bat")
-	#print(str(statements))
-	qid = iwbi.itemwrite(iwbitem, statements, clear=True)
+	qid = iwbi.itemwrite(iwbitem, statements, clear=clear)
 	if entry not in qidmapping:
 		with open(groupmappingfile, 'a', encoding="utf-8") as txtfile:
 			txtfile.write(str(entry)+'\t'+qid+'\n')
