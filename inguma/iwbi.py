@@ -1,4 +1,5 @@
-import traceback, time, re
+import traceback, time, re, os
+from pathlib import Path
 from config_private import wb_bot_user
 from config_private import wb_bot_pwd
 from wikibaseintegrator import wbi_login, WikibaseIntegrator
@@ -12,6 +13,7 @@ from wikibaseintegrator.datatypes.url import URL
 from wikibaseintegrator.wbi_config import config as wbi_config
 from wikibaseintegrator import wbi_helpers
 from wikibaseintegrator.wbi_enums import ActionIfExists
+from wikibaseintegrator.models.claims import Claims
 
 
 wbi_config['MEDIAWIKI_API_URL'] = 'https://wikibase.inguma.eus/w/api.php'
@@ -35,8 +37,9 @@ PREFIX ino: <http://wikibase.inguma.eus/prop/novalue/>
 wd_user_agent = "http://wikibase.inguma.eus user DL2204bot david.lindemann@ehu.eus"
 
 def itemwrite(iwbitem, statements, clear=False): # statements = {'append':[],'replace':[]}
-	if clear == True:
-		r = iwbitem.write(is_bot=1, clear=clear)
+	if clear:
+		iwbitem.claims = Claims()
+	# 	r = iwbitem.write(is_bot=1, clear=clear)
 	if len(statements['replace']) > 0:
 		iwbitem.claims.add(statements['replace'])
 	if len(statements['append']) > 0:
@@ -44,8 +47,8 @@ def itemwrite(iwbitem, statements, clear=False): # statements = {'append':[],'re
 	d = False
 	while d == False:
 		try:
-			print('Writing to iwbi...', end =" ")
-			r = iwbitem.write(is_bot=1)
+			print('Writing to iwbi...')
+			r = iwbitem.write(is_bot=1, clear=clear)
 			d = True
 		except Exception:
 			ex = traceback.format_exc()
@@ -59,3 +62,16 @@ def itemwrite(iwbitem, statements, clear=False): # statements = {'append':[],'re
 		print('Successfully written to item: '+iwbitem.id)
 
 	return iwbitem.id
+
+def update_mapping(groupname):
+	print('\nWill now update Inguma database ID to Inguma Wikiase Qid mapping for group: '+groupname)
+	groupmappingfile = Path('D:/Inguma/content/'+groupname+'_qidmapping.csv')
+	groupmappingoldfile = Path('D:/Inguma/content/'+groupname+'_qidmapping_old.csv')
+	query = 'select ?id ?wikibase_item where {?wikibase_item idp:P49 ?id. filter regex (?id, "^'+groupname+':")}'
+	bindings = wbi_helpers.execute_sparql_query(query=query, prefix=sparql_prefixes)['results']['bindings']
+	if len(bindings) > 0:
+		os.rename(groupmappingfile, groupmappingoldfile)
+		with open(groupmappingfile, 'w', encoding="utf-8") as txtfile:
+			for binding in bindings:
+				txtfile.write(binding['id']['value'].replace(groupname+":","")+'\t'+binding['wikibase_item']['value'].replace("http://wikibase.inguma.eus/entity/","")+'\n')
+	return "Mapping for "+groupname+" updated and saved to file."
