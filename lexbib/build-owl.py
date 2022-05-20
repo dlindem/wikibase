@@ -4,6 +4,9 @@ import time
 from rdflib import Graph, Namespace, BNode, URIRef, Literal
 import lwbi
 
+entities_cache_file = 'D:/LexBib/lexmeta/entities-labels.json'
+statements_cache_file = 'D:/LexBib/lexmeta/statements.json'
+
 owl_header = """@prefix : <http://w3id.org/meta-share/lexmeta/> .
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
@@ -76,16 +79,16 @@ if presskey == "s":
 
 	entities = lwbi.wbi_helpers.execute_sparql_query(query=entities_labels_query, prefix=lwbi.sparql_prefixes)['results']['bindings']
 	print('Got '+str(len(entities))+' entities.')
-	with open('D:/LexBib/lexmeta/entities-labels.json', "w", encoding="utf-8") as f:
+	with open(entities_cache_file, "w", encoding="utf-8") as f:
 		json.dump(entities, f, indent=2)
 	statements = lwbi.wbi_helpers.execute_sparql_query(query=statements_query, prefix=lwbi.sparql_prefixes)['results']['bindings']
 	print('Got '+str(len(statements))+' statements.')
-	with open('D:/LexBib/lexmeta/statements.json', "w", encoding="utf-8") as f:
+	with open(statements_cache_file, "w", encoding="utf-8") as f:
 		json.dump(statements, f, indent=2)
 else:
-	with open('D:/LexBib/lexmeta/entities-labels.json', encoding="utf-8") as f:
+	with open(entities_cache_file, encoding="utf-8") as f:
 		entities =  json.load(f, encoding="utf-8")
-	with open('D:/LexBib/lexmeta/statements.json', encoding="utf-8") as f:
+	with open(statements_cache_file, encoding="utf-8") as f:
 		statements =  json.load(f, encoding="utf-8")
 
 wikibase = Namespace('https://lexbib.elex.is/entity/')
@@ -100,10 +103,6 @@ frbr = Namespace ('http://purl.org/vocab/frbr/core#')
 frbrer = Namespace('http://iflastandards.info/ns/fr/frbr/frbrer/')
 schema = Namespace('http://schema.org/')
 dct = Namespace('http://purl.org/dc/terms/')
-
-
-# lexdotop = Namespace ('http://lexbib.org/lexdo-top/')
-# lexterm = Namespace ('http://lexbib.org/terms#')
 
 graph = Graph()
 
@@ -121,8 +120,6 @@ graph.bind("frbr", frbr)
 graph.bind("frbrer", frbrer)
 graph.bind("schema", schema)
 graph.bind("dct", dct)
-# graph.bind("lexdo-top", lexdotop)
-# graph.bind("lexterm", lexterm)
 
 # create prop for wikibase equivalent entity
 graph.add((lexmeta.lexbibWikibaseEntity, rdf.type, URIRef('http://www.w3.org/2002/07/owl#ObjectProperty')))
