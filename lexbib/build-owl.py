@@ -38,7 +38,7 @@ owl_header = """@prefix : <http://w3id.org/meta-share/lexmeta/> .
 
 entities_labels_query = """# gets LexMeta OWL entities with labels and exact_matches
 
-select ?entity ?owl_entity ?owl_class ?exact_match ?owl_domain ?owl_range
+select ?entity ?owl_entity ?owl_class ?exact_match ?owl_domain ?owl_range ?owl_subPropOf
 (group_concat(distinct concat(?entityLabel,"@",lang(?entityLabel)) ;SEPARATOR="|") as ?entityLabels)
 (group_concat(distinct concat(?altLabel,"@",lang(?altLabel)) ;SEPARATOR="|") as ?entityAltLabels)
 
@@ -47,13 +47,14 @@ where {
           rdfs:label ?entityLabel.
   ?owl_statement lps:P42 ?owl_entity; lpq:P166 ?owl_class.
   optional {?owl_statement lpq:P167 ?exact_match}.
+  optional {?owl_statement lpq:P169 ?owl_subPropOf}.
   optional {?entity ldp:P168 ?domain. ?domain ldp:P42 ?owl_domain.}
   optional {?entity ldp:P48 ?range. ?range ldp:P42 ?owl_range.}
 
  optional {?entity skos:altLabel ?altLabel.}
   }
 
-group by ?entity ?owl_entity ?owl_class ?exact_match ?owl_domain ?owl_range ?entityLabels ?entityAltLabels
+group by ?entity ?owl_entity ?owl_class ?exact_match ?owl_domain ?owl_range ?owl_subPropOf ?entityLabels ?entityAltLabels
 
 """
 
@@ -106,7 +107,7 @@ dct = Namespace('http://purl.org/dc/terms/')
 
 graph = Graph()
 
-graph.parse(data=owl_header, format='turtle')
+# graph.parse(data=owl_header, format='turtle')
 
 graph.bind("lexbib", wikibase)
 graph.bind("wikidata", wikidata)
@@ -145,6 +146,9 @@ for entity in entities:
 
 	if 'exact_match' in entity:
 		graph.add((owl_entity, skos.exactMatch, URIRef(entity['exact_match']['value'])))
+
+	if 'owl_subPropOf' in entity:
+		graph.add((owl_entity, rdfs.subPropertyOf, URIRef(entity['owl_subPropOf']['value'])))
 
 	if 'owl_domain' in entity:
 		graph.add((owl_entity, rdfs.domain, URIRef(entity['owl_domain']['value'])))
