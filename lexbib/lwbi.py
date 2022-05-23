@@ -36,19 +36,19 @@ PREFIX lno: <https://lexbib.elex.is/prop/novalue/>
 
 wd_user_agent = "http://lexbib.elex.is user DavidLbot david.lindemann@ehu.eus"
 
-def itemwrite(iwbitem, statements, clear=False): # statements = {'append':[],'replace':[]}
+def itemwrite(lwbitem, statements, clear=False): # statements = {'append':[],'replace':[]}
 	if clear:
-		iwbitem.claims = Claims()
-	# 	r = iwbitem.write(is_bot=1, clear=clear)
+		lwbitem.claims = Claims()
+	# 	r = lwbitem.write(is_bot=1, clear=clear)
 	if len(statements['replace']) > 0:
-		iwbitem.claims.add(statements['replace'])
+		lwbitem.claims.add(statements['replace'])
 	if len(statements['append']) > 0:
-		iwbitem.claims.add(statements['append'], action_if_exists=ActionIfExists.APPEND)
+		lwbitem.claims.add(statements['append'], action_if_exists=ActionIfExists.APPEND)
 	d = False
 	while d == False:
 		try:
-			print('Writing to iwbi...')
-			r = iwbitem.write(is_bot=1, clear=clear)
+			print('Writing to lwbi...')
+			r = lwbitem.write(is_bot=1, clear=clear)
 			d = True
 		except Exception:
 			ex = traceback.format_exc()
@@ -58,20 +58,7 @@ def itemwrite(iwbitem, statements, clear=False): # statements = {'append':[],'re
 			presskey = input('Enter 0 for skipping and continue without writing statements, else retry writing.')
 			if presskey == "0":
 				d = True
-			# 	iwbitem.descriptions.set(language="eu", value="Beste pertsona bat")
-		print('Successfully written to item: '+iwbitem.id)
+			# 	lwbitem.descriptions.set(language="eu", value="Beste pertsona bat")
+		print('Successfully written to item: '+lwbitem.id)
 
-	return iwbitem.id
-
-def update_mapping(groupname):
-	print('\nWill now update Inguma database ID to Inguma Wikiase Qid mapping for group: '+groupname)
-	groupmappingfile = Path('D:/Inguma/content/'+groupname+'_qidmapping.csv')
-	groupmappingoldfile = Path('D:/Inguma/content/'+groupname+'_qidmapping_old.csv')
-	query = 'select ?id ?wikibase_item where {?wikibase_item idp:P49 ?id. filter regex (?id, "^'+groupname+':")}'
-	bindings = wbi_helpers.execute_sparql_query(query=query, prefix=sparql_prefixes)['results']['bindings']
-	if len(bindings) > 0:
-		os.rename(groupmappingfile, groupmappingoldfile)
-		with open(groupmappingfile, 'w', encoding="utf-8") as txtfile:
-			for binding in bindings:
-				txtfile.write(binding['id']['value'].replace(groupname+":","")+'\t'+binding['wikibase_item']['value'].replace("http://wikibase.inguma.eus/entity/","")+'\n')
-	return "Mapping for "+groupname+" updated and saved to file."
+	return lwbitem.id
