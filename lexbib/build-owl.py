@@ -36,9 +36,17 @@ owl_header = """@prefix : <http://w3id.org/meta-share/lexmeta/> .
                                        vann:preferredNamespaceUri <http://w3id.org/meta-share/lexmeta/> .
 """
 
+range_expr_header = """@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix lexmeta: <http://w3id.org/meta-share/lexmeta/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+"""
+
 entities_labels_query = """# gets LexMeta OWL entities with labels and exact_matches
 
-select ?entity ?owl_entity ?owl_class ?exact_match ?owl_domain ?owl_range ?owl_subPropOf
+select ?entity ?owl_entity ?owl_class ?exact_match ?owl_domain ?owl_range ?owl_range_expr ?owl_subPropOf
 (group_concat(distinct concat(?entityLabel,"@",lang(?entityLabel)) ;SEPARATOR="|") as ?entityLabels)
 (group_concat(distinct concat(?altLabel,"@",lang(?altLabel)) ;SEPARATOR="|") as ?entityAltLabels)
 
@@ -49,12 +57,13 @@ where {
   optional {?owl_statement lpq:P167 ?exact_match}.
   optional {?owl_statement lpq:P169 ?owl_subPropOf}.
   optional {?entity ldp:P168 ?domain. ?domain ldp:P42 ?owl_domain.}
-  optional {?entity ldp:P48 ?range. ?range ldp:P42 ?owl_range.}
+  optional {?entity lp:P48 ?range_statement. ?range_statement lps:P48 ?range. ?range ldp:P42 ?owl_range.
+  			optional {?range_statement lpq:P170 ?owl_range_expr .}}
 
  optional {?entity skos:altLabel ?altLabel.}
   }
 
-group by ?entity ?owl_entity ?owl_class ?exact_match ?owl_domain ?owl_range ?owl_subPropOf ?entityLabels ?entityAltLabels
+group by ?entity ?owl_entity ?owl_class ?exact_match ?owl_domain ?owl_range ?owl_range_expr ?owl_subPropOf ?entityLabels ?entityAltLabels
 
 """
 
@@ -154,7 +163,12 @@ for entity in entities:
 		graph.add((owl_entity, rdfs.domain, URIRef(entity['owl_domain']['value'])))
 
 	if 'owl_range' in entity:
-		graph.add((owl_entity, rdfs.range, URIRef(entity['owl_range']['value'])))
+		if 'owl_range_expr' in entity:
+			expr = range_expr_header+'<'+entity['owl_entity']['value']+'> rdfs:range '+entity['owl_range_expr']['value']+' .'
+			print(expr)
+			graph.parse(data=expr, format='turtle')
+		else:
+			graph.add((owl_entity, rdfs.range, URIRef(entity['owl_range']['value'])))
 
 	if 'owl_superclass' in entity:
 		graph.add((owl_entity, rdfs.range, URIRef(entity['owl_superclass']['value'])))
