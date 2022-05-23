@@ -141,6 +141,7 @@ mappings = {
 	"78": "P53_Q6595",
 	"79": "P53_Q6596",
 	"8": "P53_Q6597",
+	"80": "P53_Q6597", # "8" badirudi "80" bezala ere agertzen dela datuetan
 	"81": "P53_Q6598",
 	"82": "P53_Q6599",
 	"9": "P53_Q6600",
