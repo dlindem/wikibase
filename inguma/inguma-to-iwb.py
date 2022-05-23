@@ -58,13 +58,22 @@ def extra(fieldname, value):
 
 	elif fieldname == "isbn":
 		if value:
+			anormal = False
 			value = value.replace("-","").replace(" ","")
-			if len(value) == 10 and value.isdigit():
-				statements['append'].append(iwbi.ExternalID(value=value, prop_nr="P22"))
-			elif len(value) == 13 and value.isdigit():
-				statements['append'].append(iwbi.ExternalID(value=value, prop_nr="P21"))
+			if len(value) == 10 or len(value) == 13:
+				for i in range(len(value)):
+					if value[i-1] not in "0123456789X":
+						anormal = True
 			else:
+				anormal = True
+			if anormal:
 				print('*** ERROR: Anormal ISBN, cannot be processed: '+value)
+			else:
+				if len(value) == 10:
+					statements['append'].append(iwbi.ExternalID(value=value, prop_nr="P22"))
+				if len(value) == 13:
+					statements['append'].append(iwbi.ExternalID(value=value, prop_nr="P21"))
+				print('Found valid isbn: '+value)
 
 	elif fieldname == "year":
 		value = str(value)
@@ -93,7 +102,7 @@ def extra(fieldname, value):
 			doi = re.search('10\.\d+/.*', value)
 			if doi:
 				puredoi = doi.group(0).rstrip()
-				print('Found DOI: '+puredoi+'...', end=" ")
+				print('Found DOI: '+puredoi+'...')
 				statements['replace'].append(iwbi.ExternalID(value=puredoi, prop_nr="P20"))
 				# try:
 				# 	r = opener.open('http://dx.doi.org/'+puredoi)
@@ -110,13 +119,14 @@ def extra(fieldname, value):
 	return statements
 
 def add_labels(groupname, entryjson, iwbitem):
-	langs = ['eu', 'en']
+	langs = ['eu', 'en'] # by default, labels are set to Basque and English
 	aliases = None
 	if groupname == "persons":
 		label = entryjson['name'].strip()+' '+entryjson['surname'].strip()+' '+entryjson['secondSurname'].strip()
 		aliases = [entryjson['name'].strip()+' '+entryjson['surname'].strip(),entryjson['surname'].strip()+', '+entryjson['name'].strip()]
 	elif groupname == "productions":
-		label = entryjson['title']
+		label_encoded = entryjson['title'].encode("ascii", "ignore") # eliminate unicode characters like '\u2028'
+		label = label_encoded.decode()
 	elif groupname == "knowledge-areas":
 		langs = ['eu']
 		label = entryjson['knowledgeArea']
@@ -150,7 +160,7 @@ def get_authors(entry, statements):
 			query = 'select ?wikibase_item where {?wikibase_item idp:P49 "persons:'+str(inguma_authors[listpos])+'".}'
 			bindings = iwbi.wbi_helpers.execute_sparql_query(query=query, prefix=iwbi.sparql_prefixes)['results']['bindings']
 			if len(bindings) > 0:
-				iwbqid = bindings[0]['wikibase_item']['value'].replace("http://wikibase.inguma.eus/entity/","")
+				iwbqid = bindings[0]['wikibase_item']['value'].replace("https://wikibase.inguma.eus/entity/","")
 				print('Found wikibase item via SPARQL: This item is on IWB, qid is '+iwbqid)
 				statements['append'].append(iwbi.Item(value=iwbqid, prop_nr="P17", qualifiers=[listposquali]))
 	return statements
@@ -237,7 +247,8 @@ for entry in group:
 			pass # TBD: allow updated records override older version (check for conflicting changes in wikibase?)
 
 		# if input('Enter "0" for skipping this item, anything else for overriding it...') == "0":
-		continue
+		continue # continue: skip existing qid
+
 		iwbitem = iwbi.wbi.item.get(entity_id=qidmapping[str(entry)])
 		clear = True # This will delete all existing claims!!
 
@@ -252,97 +263,105 @@ for entry in group:
 	# 	press_key = input('No existing item found, also not by SPARQL. There will be created a new item, please confirm (y/n)')
 	# 	if press_key == "y":
 
-	if not iwbitem:
-		iwbitem = iwbi.wbi.item.new()
-		print('New item created.')
-		clear = False
+	try:
+		if not iwbitem:
+			iwbitem = iwbi.wbi.item.new()
+			print('New item created.')
+			clear = False
 
-	# item labels
-	iwbitem = add_labels(groupname, group[entry], iwbitem)
+		# item labels
+		iwbitem = add_labels(groupname, group[entry], iwbitem)
 
-	# item description
-	if "classdesc" in inguma.mappings[groupname]:
-		iwbitem.descriptions.set(language="eu", value=inguma.mappings[groupname]['classdesc'])
+		# item description
+		if "classdesc" in inguma.mappings[groupname]:
+			iwbitem.descriptions.set(language="eu", value=inguma.mappings[groupname]['classdesc'])
 
-	# claims
-	statements = {'append':[],'replace':[]}
+		# claims
+		statements = {'append':[],'replace':[]}
 
-	# 'instance of' statement
-	if "classqid" in inguma.mappings[groupname]:
-		statements['append'].append(iwbi.Item(value=inguma.mappings[groupname]['classqid'], prop_nr="P5"))
+		# 'instance of' statement
+		if "classqid" in inguma.mappings[groupname]:
+			statements['append'].append(iwbi.Item(value=inguma.mappings[groupname]['classqid'], prop_nr="P5"))
 
-	# productions and persons: get missing info from inguma
-	if groupname == "productions":
-		statements = get_authors(entry, statements) # author items
-		statements = get_areas(entry, statements) # knowledge area items
-		statements = get_orgs(group[entry], statements) # publisher item
-	# if groupname == "persons":
-	# 	statements = get_affiliations(entry, statements)
+		# productions and persons: get missing info from inguma
+		if groupname == "productions":
+			statements = get_authors(entry, statements) # author items
+			statements = get_areas(entry, statements) # knowledge area items
+			statements = get_orgs(group[entry], statements) # publisher item
+		# if groupname == "persons":
+		# 	statements = get_affiliations(entry, statements)
 
-	# other claims
-	for key, value in group[entry].items():
-		if key in inguma.mappings[groupname] and len(str(value)) > 0:
-			writevalue = str(value).strip().replace("\t","")
-			if inguma.mappings[groupname][key].startswith("str:"):
-				if writevalue != "None": # treat "None" as empty string
+		# other claims
+		for key, value in group[entry].items():
+			if key in inguma.mappings[groupname] and len(str(value)) > 0:
+
+				# clean value
+				writevalue_encoded = str(value).encode("ascii", "ignore")
+				writevalue = writevalue_encoded.decode()
+				writevalue = writevalue.strip().replace("\t","").replace("  "," ")
+
+				# actions depending on datatype defined in inguma.mappings
+				if inguma.mappings[groupname][key].startswith("str:"):
+					if writevalue != "None": # treat "None" as empty string
+						prop = inguma.mappings[groupname][key].split(':')[1]
+						statements['replace'].append(iwbi.String(value=writevalue, prop_nr=prop))
+
+				elif inguma.mappings[groupname][key].startswith("ext:"):
+					writevalue = str(value).strip().replace("\t","")
+					if writevalue != "None": # treat "None" as empty string
+						prop = inguma.mappings[groupname][key].split(':')[1]
+						statements['replace'].append(iwbi.ExternalID(value=writevalue, prop_nr=prop))
+
+				elif inguma.mappings[groupname][key].startswith("url:"):
 					prop = inguma.mappings[groupname][key].split(':')[1]
-					statements['replace'].append(iwbi.String(value=writevalue, prop_nr=prop))
+					if prop == "P24" and value.endswith('.pdf'):
+						prop = "P48" # download location instead of distribution location
+					url_parsed = urlparse(value.strip().replace("\t",""))
+					#print(str(url_parsed))
+					if url_parsed[0] == '':
+						url_parsed = url_parsed._replace(scheme='http')
+					url_unparsed = urlunparse(url_parsed)
+					if validators.url(url_unparsed):
+						statements['replace'].append(iwbi.URL(value=url_unparsed, prop_nr=prop))
+					else:
+						malformed_url_file = Path('D:/Inguma/content/'+groupname+'_malformed_url.csv')
+						groupmappingfile.touch(exist_ok=True) # if file does not exist
+						with open(malformed_url_file, "w") as txtfile:
+							if 'cleanTitle' in group[entry]:
+								itemlabel = group[entry]['cleanTitle']
+							elif 'cleanName' in group[entry]:
+								itemlabel = group[entry]['cleanName']
+							else:
+								itemlabel = iwbitem.label(language="eu")
+							txtfile.write(entry+'\t'+group[entry]['cleanTitle']+'\t'+value+'\t'+url_unparsed+'\n')
 
-			elif inguma.mappings[groupname][key].startswith("ext:"):
-				writevalue = str(value).strip().replace("\t","")
-				if writevalue != "None": # treat "None" as empty string
-					prop = inguma.mappings[groupname][key].split(':')[1]
-					statements['replace'].append(iwbi.ExternalID(value=writevalue, prop_nr=prop))
+				elif inguma.mappings[groupname][key].startswith("mon:"): # example: "mon:eu:P10" (productions title)
+					lang = inguma.mappings[groupname][key].split(':')[1]
+					prop = inguma.mappings[groupname][key].split(':')[2]
+					statements['replace'].append(iwbi.MonolingualText(text=writevalue, language=lang, prop_nr=prop))
 
-			elif inguma.mappings[groupname][key].startswith("url:"):
-				prop = inguma.mappings[groupname][key].split(':')[1]
-				if prop == "P24" and value.endswith('.pdf'):
-					prop = "P48" # download location instead of distribution location
-				url_parsed = urlparse(value.strip().replace("\t",""))
-				#print(str(url_parsed))
-				if url_parsed[0] == '':
-					url_parsed = url_parsed._replace(scheme='http')
-				url_unparsed = urlunparse(url_parsed)
-				if validators.url(url_unparsed):
-					statements['replace'].append(iwbi.URL(value=url_unparsed, prop_nr=prop))
-				else:
-					malformed_url_file = Path('D:/Inguma/content/'+groupname+'_malformed_url.csv')
-					groupmappingfile.touch(exist_ok=True) # if file does not exist
-					with open(malformed_url_file, "w") as txtfile:
-						if 'cleanTitle' in group[entry]:
-							itemlabel = group[entry]['cleanTitle']
-						elif 'cleanName' in group[entry]:
-							itemlabel = group[entry]['cleanName']
-						else:
-							itemlabel = iwbitem.label(language="eu")
-						txtfile.write(entry+'\t'+group[entry]['cleanTitle']+'\t'+value+'\t'+url_unparsed+'\n')
+				elif inguma.mappings[groupname][key].startswith("item:"):
+					maptable = inguma.mappings[groupname][key]
+					map = inguma.mappings[maptable][value].split('_')
+					#print(str(map))
+					prop = map[0]
+					writevalue = map[1]
+					statements['replace'].append(iwbi.Item(value=writevalue, prop_nr=prop))
 
-			elif inguma.mappings[groupname][key].startswith("mon:"): # example: "mon:eu:P10" (productions title)
-				lang = inguma.mappings[groupname][key].split(':')[1]
-				prop = inguma.mappings[groupname][key].split(':')[2]
-				writevalue = str(value).strip().replace("\t","")
-				statements['replace'].append(iwbi.MonolingualText(text=writevalue, language=lang, prop_nr=prop))
+				# extra treatments
+				elif inguma.mappings[groupname][key].startswith("extra:"):
+					extra_handled = extra(key, value)
+					statements['replace'] += extra_handled['replace']
+					statements['append'] += extra_handled['append']
 
-			elif inguma.mappings[groupname][key].startswith("item:"):
-				maptable = inguma.mappings[groupname][key]
-				map = inguma.mappings[maptable][value].split('_')
-				#print(str(map))
-				prop = map[0]
-				writevalue = map[1]
-				statements['replace'].append(iwbi.Item(value=writevalue, prop_nr=prop))
+		qid = iwbi.itemwrite(iwbitem, statements, clear=clear)
+		if entry not in qidmapping:
+			with open(groupmappingfile, 'a', encoding="utf-8") as txtfile:
+				txtfile.write(str(entry)+'\t'+qid+'\n')
+	except Exception as ex:
+		print('Error: ',str(ex))
 
-			# extra treatments
-			elif inguma.mappings[groupname][key].startswith("extra:"):
-				extra_handled = extra(key, value)
-				statements['replace'] += extra_handled['replace']
-				statements['append'] += extra_handled['append']
-
-	qid = iwbi.itemwrite(iwbitem, statements, clear=clear)
-	if entry not in qidmapping:
-		with open(groupmappingfile, 'a', encoding="utf-8") as txtfile:
-			txtfile.write(str(entry)+'\t'+qid+'\n')
-
-	#print('Finished writing entry with id '+str(entry)+', Qid: '+qid+'.\n')
+	print('Finished writing entry with id '+str(entry)+'\n')
 
 
 print('Finished processing '+groupname+'.')
