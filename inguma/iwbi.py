@@ -25,16 +25,16 @@ login_instance = wbi_login.Login(user=wb_bot_user, password=wb_bot_pwd)
 wbi = WikibaseIntegrator(login=login_instance)
 
 sparql_prefixes = """
-PREFIX iwb: <http://wikibase.inguma.eus/entity/>
-PREFIX idp: <http://wikibase.inguma.eus/prop/direct/>
-PREFIX ip: <http://wikibase.inguma.eus/prop/>
-PREFIX ips: <http://wikibase.inguma.eus/prop/statement/>
-PREFIX ipq: <http://wikibase.inguma.eus/prop/qualifier/>
-PREFIX ipr: <http://wikibase.inguma.eus/prop/reference/>
-PREFIX ino: <http://wikibase.inguma.eus/prop/novalue/>
+PREFIX iwb: <https://wikibase.inguma.eus/entity/>
+PREFIX idp: <https://wikibase.inguma.eus/prop/direct/>
+PREFIX ip: <https://wikibase.inguma.eus/prop/>
+PREFIX ips: <https://wikibase.inguma.eus/prop/statement/>
+PREFIX ipq: <https://wikibase.inguma.eus/prop/qualifier/>
+PREFIX ipr: <https://wikibase.inguma.eus/prop/reference/>
+PREFIX ino: <https://wikibase.inguma.eus/prop/novalue/>
 """
 
-wd_user_agent = "http://wikibase.inguma.eus user DL2204bot david.lindemann@ehu.eus"
+wd_user_agent = "https://wikibase.inguma.eus user DL2204bot david.lindemann@ehu.eus"
 
 def itemwrite(iwbitem, statements, clear=False): # statements = {'append':[],'replace':[]}
 	if clear:
@@ -47,7 +47,7 @@ def itemwrite(iwbitem, statements, clear=False): # statements = {'append':[],'re
 	d = False
 	while d == False:
 		try:
-			print('Writing to iwbi...')
+			print('Writing to inguma wikibase...')
 			r = iwbitem.write(is_bot=1, clear=clear)
 			d = True
 		except Exception:
@@ -73,5 +73,5 @@ def update_mapping(groupname):
 		os.rename(groupmappingfile, groupmappingoldfile)
 		with open(groupmappingfile, 'w', encoding="utf-8") as txtfile:
 			for binding in bindings:
-				txtfile.write(binding['id']['value'].replace(groupname+":","")+'\t'+binding['wikibase_item']['value'].replace("http://wikibase.inguma.eus/entity/","")+'\n')
+				txtfile.write(binding['id']['value'].replace(groupname+":","")+'\t'+binding['wikibase_item']['value'].replace("https://wikibase.inguma.eus/entity/","")+'\n')
 	return "Mapping for "+groupname+" updated and saved to file."
