@@ -2,7 +2,7 @@ from datetime import datetime
 import json
 import time
 from rdflib import Graph, Namespace, BNode, URIRef, Literal
-import lwbi
+import lwbi # that is my lexbib wikibase I/O bot, here used for sparql queries
 
 entities_cache_file = 'D:/LexBib/lexmeta/entities-labels.json'
 statements_cache_file = 'D:/LexBib/lexmeta/statements.json'
@@ -46,9 +46,11 @@ range_expr_header = """@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 entities_labels_query = """# gets LexMeta OWL entities with labels and exact_matches
 
-select ?entity ?owl_entity ?owl_class ?exact_match ?owl_domain ?owl_range ?owl_range_expr ?owl_subPropOf
+select ?entity ?owl_entity (group_concat(distinct str(?owl_class);SEPARATOR="|") as ?owl_classes)
+?exact_match ?owl_domain ?owl_range ?owl_range_expr ?owl_subPropOf
 (group_concat(distinct concat(?entityLabel,"@",lang(?entityLabel)) ;SEPARATOR="|") as ?entityLabels)
 (group_concat(distinct concat(?altLabel,"@",lang(?altLabel)) ;SEPARATOR="|") as ?entityAltLabels)
+(group_concat(distinct str(?close_match);SEPARATOR="|") as ?close_matches)
 
 where {
   ?entity lp:P42 ?owl_statement;
@@ -59,11 +61,15 @@ where {
   optional {?entity ldp:P168 ?domain. ?domain ldp:P42 ?owl_domain.}
   optional {?entity lp:P48 ?range_statement. ?range_statement lps:P48 ?range. ?range ldp:P42 ?owl_range.
   			optional {?range_statement lpq:P170 ?owl_range_expr .}}
+  optional {?entity lp:P74 [lps:P74 ?coll; prov:wasDerivedFrom [lpr:P108 ?close_match]] .
+            values ?coll {lwb:Q15469 lwb:Q14512} # lexInfo or GOLD
+			}
 
  optional {?entity skos:altLabel ?altLabel.}
   }
 
-group by ?entity ?owl_entity ?owl_class ?exact_match ?owl_domain ?owl_range ?owl_range_expr ?owl_subPropOf ?entityLabels ?entityAltLabels
+group by ?entity ?owl_entity ?owl_classes ?exact_match
+         ?owl_domain ?owl_range ?owl_range_expr ?owl_subPropOf ?entityLabels ?entityAltLabels ?close_matches
 
 """
 
@@ -113,6 +119,7 @@ frbr = Namespace ('http://purl.org/vocab/frbr/core#')
 frbrer = Namespace('http://iflastandards.info/ns/fr/frbr/frbrer/')
 schema = Namespace('http://schema.org/')
 dct = Namespace('http://purl.org/dc/terms/')
+ms = Namespace('http://w3id.org/meta-share/meta-share/')
 
 graph = Graph()
 
@@ -130,28 +137,32 @@ graph.bind("frbr", frbr)
 graph.bind("frbrer", frbrer)
 graph.bind("schema", schema)
 graph.bind("dct", dct)
+graph.bind("ms", ms)
 
-# create prop for wikibase equivalent entity
-graph.add((lexmeta.lexbibWikibaseEntity, rdf.type, URIRef('http://www.w3.org/2002/07/owl#ObjectProperty')))
+# create prop for wikibase equivalent entity (used for pointing to lexbib wikibase and for wikidata entities)
+graph.add((lexmeta.wikibaseEntity, rdf.type, URIRef('http://www.w3.org/2002/07/owl#ObjectProperty')))
 
 # create entities-labels derived from wikibase entities
 for entity in entities:
 
 	owl_entity = URIRef(entity['owl_entity']['value'])
 
-	graph.add((owl_entity, rdf.type, URIRef(entity['owl_class']['value'])))
+	if 'owl_classes' in entity:
+		for owl_class in entity['owl_classes']['value'].split("|"):
+			graph.add((owl_entity, rdf.type, URIRef(owl_class)))
 
-	for item in entity['entityLabels']['value'].split("|"):
-		label = item.split("@")[0]
-		labellang = item.split("@")[1]
-		graph.add((owl_entity, rdfs.label, Literal(label, lang=labellang)))
-		# graph.add((owl_entity, skos.prefLabel, Literal(label, lang=labellang)))
-
-	if 'entityAltLabels' in entity:
-		for item in entity['entityAltLabels']['value'].split("|"):
+	if entity['owl_entity']['value'].startswith("http://w3id.org/meta-share/lexmeta/"): # only write labels for entities in lexmeta ns
+		for item in entity['entityLabels']['value'].split("|"):
 			label = item.split("@")[0]
 			labellang = item.split("@")[1]
-			graph.add((owl_entity, skos.altLabel, Literal(label, lang=labellang)))
+			graph.add((owl_entity, rdfs.label, Literal(label, lang=labellang)))
+			# graph.add((owl_entity, skos.prefLabel, Literal(label, lang=labellang)))
+
+		if 'entityAltLabels' in entity:
+			for item in entity['entityAltLabels']['value'].split("|"):
+				label = item.split("@")[0]
+				labellang = item.split("@")[1]
+				graph.add((owl_entity, skos.altLabel, Literal(label, lang=labellang)))
 
 	if 'exact_match' in entity:
 		graph.add((owl_entity, skos.exactMatch, URIRef(entity['exact_match']['value'])))
@@ -165,7 +176,7 @@ for entity in entities:
 	if 'owl_range' in entity:
 		if 'owl_range_expr' in entity:
 			expr = range_expr_header+'<'+entity['owl_entity']['value']+'> rdfs:range '+entity['owl_range_expr']['value']+' .'
-			print(expr)
+			#print(expr)
 			graph.parse(data=expr, format='turtle')
 		else:
 			graph.add((owl_entity, rdfs.range, URIRef(entity['owl_range']['value'])))
@@ -173,7 +184,11 @@ for entity in entities:
 	if 'owl_superclass' in entity:
 		graph.add((owl_entity, rdfs.range, URIRef(entity['owl_superclass']['value'])))
 
-	graph.add((owl_entity, lexmeta.lexbibWikibaseEntity, URIRef(entity['entity']['value'])))
+	if 'close_matches' in entity:
+		for close_match in entity['close_matches']['value'].split("|"):
+			graph.add((owl_entity, skos.closeMatch, URIRef(close_match)))
+
+	graph.add((owl_entity, lexmeta.wikibaseEntity, URIRef(entity['entity']['value'])))
 
 #create entity relations and property-values derived from wikibase statements
 for statement in statements:
@@ -182,12 +197,12 @@ for statement in statements:
 	elif statement['obj_datatype']['value'] == "http://wikiba.se/ontology#WikibaseItem" and 'lexmeta_owl_obj' in statement:
 		graph.add((URIRef(statement['lexmeta_owl_subj']['value']), URIRef(statement['lexmeta_owl_prop']['value']), URIRef(statement['lexmeta_owl_obj']['value'])))
 	elif statement['obj_datatype']['value'] == "http://wikiba.se/ontology#ExternalId" and statement['edge']['value'] == "https://lexbib.elex.is/entity/P2":
-		graph.add((URIRef(statement['lexmeta_owl_subj']['value']), URIRef(statement['lexmeta_owl_prop']['value']), URIRef('http://www.wikidata.org/entity/'+statement['o']['value'])))
+		graph.add((URIRef(statement['lexmeta_owl_subj']['value']), lexmeta.wikibaseEntity, URIRef('http://www.wikidata.org/entity/'+statement['o']['value'])))
 
 
 
 
 
-graph.serialize(destination="D:/LexBib/lexmeta/lexmeta.ttl", format="turtle")
+graph.serialize(destination="D:/GitHub/LexMeta/lexmeta.ttl", format="turtle")
 
 print("Lexmeta TTL file updated.")
