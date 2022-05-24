@@ -2,6 +2,20 @@ import requests, json, time
 import config_private
 
 mappings = {
+"affiliations":
+{
+	"classqid": "Q6",
+	"id": "extra:",
+	#"name" and "description" are mapped to label / alias
+	"website": "url:P41"
+#	"type": "item:afftype" TODO !!!
+},
+# "item:afftype":
+# {
+# 	3 :
+# 	4 :
+# 	5 :
+# },
 "persons":
 {
 	"classqid": "Q5",
@@ -36,7 +50,7 @@ mappings = {
     "firstPage": "str:P27",
     "lastPage": "str:P28",
     "bookTitle": "str:P54",
-    "writerName": "extra:", # FEHLT
+    "writerName": "extra:", # TODO !!!
     "isbn": "extra:", # extra
     "doi": "extra:" # extra
 },
@@ -196,6 +210,28 @@ def get_production_knowlareas(prod_id):
 			print('Error downloading areas. Will retry in 2 sec...')
 			time.sleep(2)
 
+def get_person_affiliations(person_id):
+	r = ""
+	while '200' not in str(r):
+		print('Now downloading affiliation info for person '+person_id)
+		r = requests.get('https://www.inguma.eus/rest/rel-affiliation_person?search={"personId":'+int(person_id)+'}', auth=requests.auth.HTTPBasicAuth(config_private.inguma_api_user,config_private.inguma_api_pwd))
+		print(str(r))
+
+		print(r.json())
+		time.sleep(1)
+		affs = []
+		try:
+			print('Number of affiliations: '+str(len(r.json())))
+			for index in r.json():
+				affs.append(index['affiliationId'])
+			return affs
+		except:
+			if '204'in str(r):
+				print('Response "No content".')
+				return []
+			print('Error downloading areas. Will retry in 2 sec...')
+			time.sleep(2)
+
 def get_ingumagroup(groupname):
 	result = {}
 	page = 0
@@ -218,8 +254,4 @@ def get_ingumagroup(groupname):
 		json.dump(result, jsonfile, indent=2)
 	return(result)
 
-# result = get_ingumagroup('persons')
-# result = get_ingumagroup('productions')
-# result = get_ingumagroup('affiliations')
-# result = get_ingumagroup('knowledge-areas')
-# result = get_ingumagroup('organizations')
+print('inguma mappings and functions loaded.\n')
