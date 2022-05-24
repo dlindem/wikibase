@@ -293,7 +293,7 @@ for entry in group:
 
 		# other claims
 		for key, value in group[entry].items():
-			if key in inguma.mappings[groupname] and len(str(value)) > 0:
+			if key in inguma.mappings[groupname] and len(str(value).strip()) > 0:
 
 				# clean value
 				writevalue_encoded = str(value).encode("ascii", "ignore")
