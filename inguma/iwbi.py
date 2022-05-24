@@ -63,15 +63,4 @@ def itemwrite(iwbitem, statements, clear=False): # statements = {'append':[],'re
 
 	return iwbitem.id
 
-def update_mapping(groupname):
-	print('\nWill now update Inguma database ID to Inguma Wikiase Qid mapping for group: '+groupname)
-	groupmappingfile = Path('D:/Inguma/content/'+groupname+'_qidmapping.csv')
-	groupmappingoldfile = Path('D:/Inguma/content/'+groupname+'_qidmapping_old.csv')
-	query = 'select ?id ?wikibase_item where {?wikibase_item idp:P49 ?id. filter regex (?id, "^'+groupname+':")}'
-	bindings = wbi_helpers.execute_sparql_query(query=query, prefix=sparql_prefixes)['results']['bindings']
-	if len(bindings) > 0:
-		os.rename(groupmappingfile, groupmappingoldfile)
-		with open(groupmappingfile, 'w', encoding="utf-8") as txtfile:
-			for binding in bindings:
-				txtfile.write(binding['id']['value'].replace(groupname+":","")+'\t'+binding['wikibase_item']['value'].replace("https://wikibase.inguma.eus/entity/","")+'\n')
-	return "Mapping for "+groupname+" updated and saved to file."
+print('\niwbi engine loaded.\n')
