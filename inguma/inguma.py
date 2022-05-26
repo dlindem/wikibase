@@ -213,14 +213,13 @@ def get_production_knowlareas(prod_id):
 def get_person_affiliations(person_id):
 	r = ""
 	while '200' not in str(r):
-		print('Now downloading affiliation info for person '+person_id)
-		r = requests.get('https://www.inguma.eus/rest/rel-affiliation_person?search={"personId":'+int(person_id)+'}', auth=requests.auth.HTTPBasicAuth(config_private.inguma_api_user,config_private.inguma_api_pwd))
-		print(str(r))
+		print('Now downloading affiliation info for person '+str(person_id))
+		r = requests.get('https://www.inguma.eus/rest/rel-affiliation-person?search={"personId":'+str(person_id)+'}', auth=requests.auth.HTTPBasicAuth(config_private.inguma_api_user,config_private.inguma_api_pwd))
+		# print(str(r))
 
-		print(r.json())
-		time.sleep(1)
 		affs = []
 		try:
+			print(str(r.json()))
 			print('Number of affiliations: '+str(len(r.json())))
 			for index in r.json():
 				affs.append(index['affiliationId'])

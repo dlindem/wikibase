@@ -1,6 +1,6 @@
 import iwbi
 import inguma
-import json, re, traceback, csv, sys, time, requests, validators
+import json, re, traceback, csv, sys, time, requests, validators, os
 from pathlib import Path
 from urllib.parse import urlparse, urlunparse
 import urllib.request
@@ -14,6 +14,7 @@ def update_mapping(groupname):
 	query = 'select ?id ?wikibase_item where {?wikibase_item idp:P49 ?id. filter regex (?id, "^'+groupname+':")}'
 	bindings = iwbi.wbi_helpers.execute_sparql_query(query=query, prefix=iwbi.sparql_prefixes)['results']['bindings']
 	if len(bindings) > 0:
+		print('Found entities: '+str(len(bindings)))
 		os.rename(groupmappingfile, groupmappingoldfile)
 		with open(groupmappingfile, 'w', encoding="utf-8") as txtfile:
 			seen_inguma_id = []
@@ -27,7 +28,7 @@ def update_mapping(groupname):
 							print('*** The item to merge to is', re_binding['wikibase_item']['value'], '\n')
 							time.sleep(5)
 				else:
-					txtfile.write(binding['id']['value'].replace(groupname+":","")+'\t'++'\n')
+					txtfile.write(inguma_id.replace(groupname+":","")+'\t'+wikibase_id+'\n')
 	return "Mapping for "+groupname+" updated and saved to file."
 
 def extra(groupname, fieldname, value):
@@ -140,7 +141,7 @@ def extra(groupname, fieldname, value):
 
 	return statements
 
-def add_labels(groupname, entryjson, iwbitem):
+def add_labels(groupname, entryjson, iwbitem, statements):
 	langs = ['eu', 'en'] # by default, labels are set to Basque and English
 	aliases = None
 	if groupname == "affiliations":
@@ -148,6 +149,18 @@ def add_labels(groupname, entryjson, iwbitem):
 		if entryjson['description'].strip() != "Zentro teknologiko espezializatua":
 			aliases = [entryjson['description'].strip()]
 	if groupname == "persons":
+		if "(" in entryjson['secondSurname']:
+			try:
+				lifedates = re.search(' ?\(([^\)]+)\) ?', entryjson['secondSurname']).group(1)
+				print('Found lifedates: '+lifedates+', secondSurname is '+entryjson['secondSurname'])
+				entryjson['secondSurname'] = re.sub(r' ?\([^\)]+\) ?', entryjson['secondSurname'])
+				parseddates = re.search(r'([\w ]+)\-([\w ]*)')
+				if parseddates.group(1).strip().isdigit() and len(parseddates.group(1).strip()) == 4:
+					statements['replace'].append(iwbi.Time(time='+'+parseddates.group(1).strip()+'-01-01T00:00:00Z', precision=9, prop_nr="P44"))
+				if parseddates.group(2).strip().isdigit() and len(parseddates.group(2).strip()) == 4:
+					statements['replace'].append(iwbi.Time(time='+'+parseddates.group(2).strip()+'-01-01T00:00:00Z', precision=9, prop_nr="P45"))
+			except Exception as ex:
+				print('Error in lifedates parsing, secondSurname is '+entryjson['secondSurname']+': '+str(ex))
 		label = entryjson['name'].strip()+' '+entryjson['surname'].strip()+' '+entryjson['secondSurname'].strip()
 		aliases = [entryjson['name'].strip()+' '+entryjson['surname'].strip(),entryjson['surname'].strip()+', '+entryjson['name'].strip()]
 	elif groupname == "productions":
@@ -164,7 +177,7 @@ def add_labels(groupname, entryjson, iwbitem):
 		if aliases:
 			iwbitem.aliases.set(language=lang, values=aliases)
 	print('Item label is: '+label)
-	return iwbitem
+	return {'iwbitem': iwbitem, 'statements': statements}
 
 # load persons
 with open('D:/Inguma/content/persons_qidmapping.csv', 'r', encoding="utf-8") as txtfile:
@@ -216,7 +229,7 @@ with open('D:/Inguma/content/affiliations_qidmapping.csv', 'r', encoding="utf-8"
 			break
 		affqid[rowsplit[0]] = rowsplit[1]
 def get_affiliations(entry, statements):
-	person_affiliations = inguma.get_person_affiliations(str(entry['id']))
+	person_affiliations = inguma.get_person_affiliations(entry)
 	for aff in person_affiliations:
 		statements['replace'].append(iwbi.Item(value=affqid[str(aff)], prop_nr="P61"))
 	return statements
@@ -236,7 +249,7 @@ def get_orgs(entryjson, statements):
 	print('Found publisher: '+value)
 	return statements
 
-def update_group(groupname):
+def update_group(groupname, rewrite=False): # if rewrite=True is passed, existing wikibase items are checked and re-written
 	print('\nWill process group '+groupname+'...\n')
 	keypress = input('Press 1 for downloading new data from INGUMA, other keys for re-using existing file.')
 	if keypress == "1":
@@ -284,10 +297,11 @@ def update_group(groupname):
 				pass # TBD: allow updated records override older version (check for conflicting changes in wikibase?)
 
 			# if input('Enter "0" for skipping this item, anything else for overriding it...') == "0":
-			continue # continue: skip existing qid
+			if rewrite == False:
+				continue # continue: skip existing qid
 
 			iwbitem = iwbi.wbi.item.get(entity_id=qidmapping[str(entry)])
-			clear = True # This will delete all existing claims!!
+			clear = False # clear = True will delete all existing claims!!
 
 			#print(str(iwbitem.claims))
 		# else:
@@ -303,18 +317,20 @@ def update_group(groupname):
 		#try:
 		if not iwbitem:
 			iwbitem = iwbi.wbi.item.new()
-			print('New item created.')
+			print('This '+groupname+' id is not known; new item created.')
 			clear = False
 
+		# claims
+		statements = {'append':[],'replace':[]}
+
 		# item labels
-		iwbitem = add_labels(groupname, group[entry], iwbitem)
+		labels_added = add_labels(groupname, group[entry], iwbitem, statements)
+		iwbitem = labels_added['iwbitem']
+		statements = labels_added['statements']
 
 		# item description
 		if "classdesc" in inguma.mappings[groupname]:
 			iwbitem.descriptions.set(language="eu", value=inguma.mappings[groupname]['classdesc'])
-
-		# claims
-		statements = {'append':[],'replace':[]}
 
 		# 'instance of' statement
 		if "classqid" in inguma.mappings[groupname]:
@@ -328,7 +344,7 @@ def update_group(groupname):
 		if groupname == "persons":
 		 	statements = get_affiliations(entry, statements)
 
-		# other claims
+		# other claims (treated according to inguma.mappings)
 		for key, value in group[entry].items():
 			if key in inguma.mappings[groupname] and len(str(value).strip()) > 0:
 
