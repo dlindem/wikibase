@@ -1,3 +1,6 @@
+# This imports WikibaseIntegrator and customizes it for Inguma wikibase
+# WBI version 0.12 is used, see https://github.com/LeMyst/WikibaseIntegrator/tree/rewrite-wbi
+
 import traceback, time, re, os
 from pathlib import Path
 from config_private import wb_bot_user

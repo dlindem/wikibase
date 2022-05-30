@@ -1,6 +1,7 @@
 import requests, json, time
 import config_private
 
+# the mappings dict maps inguma api response keys to wikibase datatype and property
 mappings = {
 "affiliations":
 {
@@ -183,7 +184,7 @@ def get_production_authors(prod_id):
 			return authors
 		except:
 			if '204'in str(r):
-				print('Response "No content".')
+				print('Authors "no content".')
 				return {}
 			print('Error downloading authors. Will retry in 2 sec...')
 			time.sleep(2)
@@ -205,7 +206,7 @@ def get_production_knowlareas(prod_id):
 			return areas
 		except:
 			if '204'in str(r):
-				print('Response "No content".')
+				print('Knowledge Areas "no content".')
 				return []
 			print('Error downloading areas. Will retry in 2 sec...')
 			time.sleep(2)
@@ -226,7 +227,7 @@ def get_person_affiliations(person_id):
 			return affs
 		except:
 			if '204'in str(r):
-				print('Response "No content".')
+				print('Affiliations "No content".')
 				return []
 			print('Error downloading areas. Will retry in 2 sec...')
 			time.sleep(2)

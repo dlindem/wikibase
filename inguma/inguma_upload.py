@@ -291,7 +291,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 		iwbitem = None
 
 		if str(entry) in qidmapping:
-			print('entry id '+str(entry)+' corresponds to existing qid: '+qidmapping[str(entry)]+'.')
+			print(groupname+' id '+str(entry)+' maps to existing qid: '+qidmapping[str(entry)]+'.')
 
 			if 'lastModified' in group[entry]:
 				pass # TBD: allow updated records override older version (check for conflicting changes in wikibase?)
