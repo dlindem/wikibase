@@ -14,6 +14,7 @@ from wikibaseintegrator.wbi_config import config as wbi_config
 from wikibaseintegrator import wbi_helpers
 from wikibaseintegrator.wbi_enums import ActionIfExists
 from wikibaseintegrator.models.claims import Claims
+from wikibaseintegrator.models import Sense
 
 
 wbi_config['MEDIAWIKI_API_URL'] = 'https://qichwa.wikibase.cloud/w/api.php'
@@ -37,7 +38,7 @@ PREFIX qno: <https://qichwa.wikibase.cloud/prop/novalue/>
 
 wd_user_agent = "https://qichwa.wikibase.cloud user DL2204bot david.lindemann@ehu.eus"
 
-def itemwrite(qwbitem, statements, clear=False): # statements = {'append':[],'replace':[]}
+def itemwrite(qwbitem, statements, clear=False, retry_after=10): # statements = {'append':[],'replace':[]}
 	if clear:
 		qwbitem.claims = Claims()
 	# 	r = qwbitem.write(is_bot=1, clear=clear)
