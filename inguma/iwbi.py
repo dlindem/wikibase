@@ -53,6 +53,7 @@ def itemwrite(iwbitem, statements, clear=False): # statements = {'append':[],'re
 			print('Writing to inguma wikibase...')
 			r = iwbitem.write(is_bot=1, clear=clear)
 			d = True
+			print('Successfully written to item: '+iwbitem.id)
 		except Exception:
 			ex = traceback.format_exc()
 			print(ex)
@@ -61,8 +62,9 @@ def itemwrite(iwbitem, statements, clear=False): # statements = {'append':[],'re
 			presskey = input('Enter 0 for skipping and continue without writing statements, else retry writing.')
 			if presskey == "0":
 				d = True
+				return False
 			# 	iwbitem.descriptions.set(language="eu", value="Beste pertsona bat")
-		print('Successfully written to item: '+iwbitem.id)
+
 
 	return iwbitem.id
 
