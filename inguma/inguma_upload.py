@@ -10,7 +10,8 @@ opener.addheaders = [('Accept', 'application/vnd.crossref.unixsd+xml')]
 def update_mapping(groupname):
 	print('\nWill now update Inguma database ID to Inguma Wikiase Qid mapping for group: '+groupname)
 	groupmappingfile = Path('D:/Inguma/content/'+groupname+'_qidmapping.csv')
-	groupmappingoldfile = Path('D:/Inguma/content/'+groupname+'_qidmapping_old.csv')
+	date = time.strftime("%Y%m%d")
+	groupmappingoldfile = Path('D:/Inguma/content/'+groupname+'_qidmapping_old_'+date+'.csv')
 	query = 'select ?id ?wikibase_item where {?wikibase_item idp:P49 ?id. filter regex (?id, "^'+groupname+':")}'
 	bindings = iwbi.wbi_helpers.execute_sparql_query(query=query, prefix=iwbi.sparql_prefixes)['results']['bindings']
 	if len(bindings) > 0:
@@ -279,8 +280,8 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 		index +=1
 
 		# for bridging aborted runs
-		# if index < :
-		# 	continue
+		if index < 7755:
+			continue
 
 		# productions: exclude non-allowed production types
 		if groupname == "productions":
@@ -395,11 +396,16 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 
 				elif inguma.mappings[groupname][key].startswith("item:"):
 					maptable = inguma.mappings[groupname][key]
-					map = inguma.mappings[maptable][value].split('_')
-					#print(str(map))
-					prop = map[0]
-					writevalue = map[1]
-					statements['replace'].append(iwbi.Item(value=writevalue, prop_nr=prop))
+					print(value)
+					if value in inguma.mappings[maptable]:
+						for mappair in inguma.mappings[maptable][value].split("|"):
+							map = mappair.split('_')
+							#print(str(map))
+							prop = map[0]
+							writevalue = map[1]
+							statements['replace'].append(iwbi.Item(value=writevalue, prop_nr=prop))
+					else:
+						print('*** WARNING: Missing '+maptable+' maptable entry: '+str(value))
 
 				# extra treatments
 				elif inguma.mappings[groupname][key].startswith("extra:"):
@@ -408,7 +414,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 					statements['append'] += extra_handled['append']
 
 		qid = iwbi.itemwrite(iwbitem, statements, clear=clear)
-		if entry not in qidmapping:
+		if entry not in qidmapping and qid:
 			with open(groupmappingfile, 'a', encoding="utf-8") as txtfile:
 				txtfile.write(str(entry)+'\t'+qid+'\n')
 		#except Exception as ex:
