@@ -19,7 +19,7 @@ mappings = {
 # },
 "persons":
 {
-	"classqid": "Q5",
+	# "classqid": "Q5", # class is done depending on value in "gender" (see item:gender)
 	"classdesc": "Pertsona bat",
 	"id": "extra:",
 	"name": "str:P6",
@@ -31,9 +31,10 @@ mappings = {
 },
 "item:gender":
 {
-	"emakumezkoa": "P50_Q31",
-	"gizonezkoa": "P50_Q32",
-	"beste generoak": "P50_Q33"
+	"emakumezkoa": "P5_Q5|P50_Q31",
+	"gizonezkoa": "P5_Q5|P50_Q32",
+	"beste generoak": "P5_Q5|P50_Q33",
+	"erakundeak": "P5_Q6"
 
 },
 "productions":
@@ -220,14 +221,14 @@ def get_person_affiliations(person_id):
 
 		affs = []
 		try:
-			print(str(r.json()))
+			#print(str(r.json()))
 			print('Number of affiliations: '+str(len(r.json())))
 			for index in r.json():
 				affs.append(index['affiliationId'])
 			return affs
 		except:
 			if '204'in str(r):
-				print('Affiliations "No content".')
+				print('Affiliations "no content".')
 				return []
 			print('Error downloading areas. Will retry in 2 sec...')
 			time.sleep(2)
