@@ -8,10 +8,12 @@ entities_cache_file = 'D:/LexBib/lexmeta/entities-labels.json'
 statements_cache_file = 'D:/LexBib/lexmeta/statements.json'
 
 owl_header = """@prefix : <http://w3id.org/meta-share/lexmeta/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ms: <http://w3id.org/meta-share/meta-share/> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -26,11 +28,15 @@ owl_header = """@prefix : <http://w3id.org/meta-share/lexmeta/> .
 
 <http://w3id.org/meta-share/lexmeta/> rdf:type owl:Ontology ;
                                        owl:versionIRI <http://w3id.org/meta-share/lexmeta/0.0.1> ;
-                                       dc:description "LexMeta ontology for the description of lexica and dictionaries. Extends the MS and LexBib ontologies"@en ;
+									   bibo:status "Draft" ;
+									   dct:modified \""""+datetime.now().replace(microsecond=0).isoformat()+"""\" ;
+                                       dc:description "LexMeta, a metadata model for the description of human-readable and computational lexical resources in catalogues."@en ;
                                        dc:title "LexMeta ontology"@en ;
-                                       dct:creator "Christiane Klaes" ,
-                                                   "David Lindemann" ,
+									   dc:abstract "LexMeta is a metadata model for the description of human-readable and computational lexical resources in catalogues. Our initial motivation is the extension of the LexBib knowledge graph with the addition of metadata for dictionaries, making it a catalogue of and about lexicographical works. The scope of the proposed model, however, is broader, aiming at the exchange of metadata with catalogues of Language Resources and Technologies and addressing a wider community of researchers besides lexicographers. For the definition of the LexMeta core classes and properties, we deploy widely used RDF vocabularies, mainly Meta-Share, a metadata model for Language Resources and Technologies, and FRBR, a model for bibliographic records."@en ;
+                                       dct:creator "David Lindemann" ,
                                                    "Penny Labropoulou" ;
+									   dct:contributor "Christiane Klaes" ,
+									   			   "Katerina Gkirtzou" ;
                                        dct:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
                                        vann:preferredNamespacePrefix "lexmeta" ;
                                        vann:preferredNamespaceUri <http://w3id.org/meta-share/lexmeta/> .
@@ -123,7 +129,7 @@ ms = Namespace('http://w3id.org/meta-share/meta-share/')
 
 graph = Graph()
 
-# graph.parse(data=owl_header, format='turtle')
+graph.parse(data=owl_header, format='turtle')
 
 graph.bind("lexbib", wikibase)
 graph.bind("wikidata", wikidata)
@@ -154,6 +160,9 @@ for entity in entities:
 	if entity['owl_entity']['value'].startswith("http://w3id.org/meta-share/lexmeta/"): # only write labels for entities in lexmeta ns
 		for item in entity['entityLabels']['value'].split("|"):
 			label = item.split("@")[0]
+			if label == "wikidata entity": # lexbib:P2, on LexBib wikibase, is used for pointing to wikidata equivalents; here, it is extended to pointing back to LexBib Wikibase entities as well.
+				label = "wikibase entity"
+				graph.add((owl_entity, rdfs.comment, Literal("Points to an equivalent entity described on wikidata or another wikibase.", lang="en")))
 			labellang = item.split("@")[1]
 			graph.add((owl_entity, rdfs.label, Literal(label, lang=labellang)))
 			# graph.add((owl_entity, skos.prefLabel, Literal(label, lang=labellang)))
@@ -202,7 +211,12 @@ for statement in statements:
 
 
 
+graph.serialize(destination="D:/GitHub/LexMeta/lexmeta_interim.ttl", format="turtle")
 
-graph.serialize(destination="D:/GitHub/LexMeta/lexmeta.ttl", format="turtle")
+with open("D:/GitHub/LexMeta/lexmeta.ttl", "w", encoding="utf-8") as file:
+	file.write("@base <http://w3id.org/meta-share/lexmeta/> .\n")
+	with open("D:/GitHub/LexMeta/lexmeta_interim.ttl", "r", encoding="utf-8") as interimfile:
+		interim = interimfile.read().replace("lexmeta: a owl:Ontology", "<http://w3id.org/meta-share/lexmeta/> a owl:Ontology").replace("vann:preferredNamespaceUri lexmeta: ","vann:preferredNamespaceUri <http://w3id.org/meta-share/lexmeta/> ")
+	file.write(interim)
 
 print("Lexmeta TTL file updated.")
