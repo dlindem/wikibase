@@ -136,12 +136,14 @@ for skosrel in skosrels:
 	if subj_in_ns not in termlog:
 		termlog.append(subj_in_ns)
 		graph.add((subject, rdf.type, skos.Concept))
+		graph.add((subject, skos.inScheme, wikibase.Q70))
 
 	object = URIRef(skosrel['relterm']['value'])
 	object_in_ns = skosrel['relterm']['value'].replace('https://lexbib.elex.is/entity/', 'lwb:')
 	if object_in_ns not in termlog:
 		termlog.append(object_in_ns)
 		graph.add((object, rdf.type, skos.Concept))
+		graph.add((object, skos.inScheme, wikibase.Q70))
 
 	rel = relmapping[skosrel['skosrel']['value']]
 	graph.add((subject, rel, object))
