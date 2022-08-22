@@ -5,6 +5,7 @@ import os
 import csv
 import sys
 import json
+from wikibaseintegrator import wbi_helpers
 # import clbwbi
 
 def process_creator(ind1, subfields):
@@ -20,14 +21,23 @@ def process_creator(ind1, subfields):
 
 	for subfield in subfields:
 		code = subfield.attrib['code']
+		nkcr = subfield.text
 		if code == "7":
-			if subfield.text in creatorqid:
-				print('This creator is existing Qid '+creatorqid[subfield.text])
-				creatodata['qid'] = creatorqid[subfield.text]
+			if nkcr in creatorqid:
+				print('This creator is existing Qid '+creatorqid[nkcr])
+				creatordata['qid'] = creatorqid[nkcr]
 			else:
-				print('This creator will be created as new: '+subfield.text)
-				creatordata['statements']['replace'].append({'type':'ExternalID', 'value':subfield.text, 'prop_nr':'P8'})
-
+				print('This creator will be created as new: '+nkcr)
+				creatordata['statements']['replace'].append({'type':'ExternalID', 'value':nkcr, 'prop_nr':'P8'})
+				print('Querying Wikidata for NKCR AUT ID: '+nkcr+'...')
+				query = 'select ?wd where {?wd wdt:P691 "'+nkcr+'".}'
+				bindings = wbi_helpers.execute_sparql_query(query=query, endpoint="https://query.wikidata.org/sparql", user_agent="User:DL2204")['results']['bindings']
+				if len(bindings) > 0:
+					wdqid = bindings[0]['wd']['value'].replace("http://www.wikidata.org/entity/","")
+					print('Found wikidata item: '+wdqid)
+					creatordata['statements']['replace'].append({'type':"ExternalID", 'value':wdqid, 'prop_nr':"P1"})
+				else:
+					print('Nothing found on Wikidata for this NKCR AUT ID.')
 		if code == "4":
 			if subfield.text in roles:
 				creator_role_prop = roles[subfield.text]
@@ -51,13 +61,13 @@ def process_creator(ind1, subfields):
 				creatordata['statements']['replace'].append({'type':'Time', 'precision':11, 'time':'+'+deathyear+'-01-01T00:00:00Z', 'prop_nr':'P53'})
 
 	if creatordata['qid'] == False:
-		print('Will crate new creator item')
+		print('Will create new creator item')
 
 		# clbwbi.itemwrite(creatordata)
 		# return {'creator_qid':creatordata['qid'], 'creator_role_prop':creator_role_prop}
 	return {'creatordata':creatordata, 'creator_role_prop':creator_role_prop}
 
-marcxml_file = 'VuFindExport.xml'
+marcxml_file = 'data/VuFindExport.xml'
 xmlns = "{http://www.loc.gov/MARC21/slim}"
 try:
 	tree = ElementTree.parse(marcxml_file)
@@ -108,6 +118,7 @@ else:
 	print('Will proceed to load MARC21 XML.')
 
 count = 0
+issn_log = {}
 for record in root:
 	statements = {'append':[],'replace':[]}
 	clear = False
@@ -194,7 +205,43 @@ for record in root:
 			if transtitle:
 				pass # tbd. 246 is also transtitle
 
-print(str(statements))
+		# process 773
+		if tag == "773":
+			for subfield in datafield.findall(xmlns+"subfield"):
+				code = subfield.attrib['code']
+				# ISSN
+				if code == "x":
+					value = subfield.text
+					if "-" not in value.strip(): # normalize ISSN, remove any secondary ISSN
+						value = value.strip()[0:4]+"-"+value.strip()[4:9]
+					else:
+						value = value.strip()[:9]
+					print('Found issn: '+value)
+					if value in issn_log:
+						wdqid = issn_log[value]
+						print('ISSN already known as '+wdqid)
+					else:
+						print('Querying Wikidata for ISSN: '+value+'...')
+						query = 'select ?wd where {?wd wdt:P236 "'+value+'".}'
+						bindings = wbi_helpers.execute_sparql_query(query=query, endpoint="https://query.wikidata.org/sparql", user_agent="User:DL2204")['results']['bindings']
+						if len(bindings) > 0:
+							wdqid = bindings[0]['wd']['value'].replace("http://www.wikidata.org/entity/","")
+							print('Found wikidata item: '+wdqid)
+							wdquali = [{'type':'ExternalID','value':wdqid, 'prop_nr':"P1"}]
+							issn_log[value] = wdqid
+						else:
+							print('Nothing found on Wikidata for this ISSN.')
+							wdquali = []
+					statements['replace'].append({'type':'ExternalID', 'value':value, 'prop_nr':'P20', 'qualifiers':wdquali})
+		# process 020
+		if tag == "020":
+			for subfield in datafield.findall(xmlns+"subfield"):
+				code = subfield.attrib['code']
+				if code == "a":
+					pass
+					# process ISBN (TBD)
+
+	print('\nStatements: '+str(statements))
 	# for controlfield in record.findall(xmlns+"controlfield"):
 	# 	process_controlfield(
 	# 	tag=controlfield.attrib["tag"],
