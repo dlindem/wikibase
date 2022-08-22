@@ -39,18 +39,22 @@ PREFIX clbno: <https://czechlitbib.wikibase.cloud/prop/novalue/>
 
 wd_user_agent = "https://czechlitbib.wikibase.cloud user DL2204bot david.lindemann@ehu.eus"
 
-def packstatements(claims):
-	statements = []
-	for claim in claims:
+def packstatements(statements):
+	packed_statements = []
+	for statement in statements:
+		if "qualifiers" in statement:
+			packed_qualifiers = packstatements(statement['qualifiers'])
+		else:
+			packed_qualifiers = []
 		if statement['type'] == "String":
-			statements.append(String(value=claim['value'],prop_nr=claim['prop_nr']))
+			statements.append(String(value=claim['value'],prop_nr=claim['prop_nr']),qualifiers=packed_qualifiers)
 		elif statement['type'] == "Item":
-			statements.append(Item(value=claim['value'], prop_nr=claim['prop_nr']))
+			statements.append(Item(value=claim['value'], prop_nr=claim['prop_nr']),qualifiers=packed_qualifiers)
 		elif statement['type'] == "ExternalID":
-			statements.append(ExternalID(value=claim['value'],prop_nr=claim['prop_nr']))
+			statements.append(ExternalID(value=claim['value'],prop_nr=claim['prop_nr']),qualifiers=packed_qualifiers)
 		elif statement['type'] == "Time":
-			statements.append(Time(time=claim['time'], precision=claim['precision'], prop_nr=claim['prop_nr']))
-
+			statements.append(Time(time=claim['time'], precision=claim['precision'], prop_nr=claim['prop_nr']),qualifiers=packed_qualifiers)
+	return packed_statements
 
 def itemwrite(itemdata, clear=False): # statements = {'append':[],'replace':[]}
 	if itemdata['qid'] = False:
