@@ -19,6 +19,11 @@ if len(bindings) > 0:
 		print('\n'+str(qidnumlist))
 		toqid = "Q"+str(min(qidnumlist)) # toqid is the older item
 		fromqid = "Q"+str(max(qidnumlist)) # fromqid is the newer item
+		print('Will delete description of '+fromqid)
+		fromqiditem = iwbi.wbi.item.get(entity_id=fromqid)
+		print(str(fromqiditem.descriptions.get('eu')))
+		fromqiditem.descriptions.set(language="eu", value='', action_if_exists=iwbi.ActionIfExists.REPLACE)
+		fromqiditem.write()
 		print('Will merge '+fromqid+' to '+toqid)
-		presskey = input('Press any key to proceed.')
+		#presskey = input('Press any key to proceed.')
 		print(iwbi.wbi_helpers.merge_items(from_id=fromqid,to_id=toqid, login=iwbi.login_instance))
