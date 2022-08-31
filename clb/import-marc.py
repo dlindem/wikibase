@@ -7,6 +7,7 @@ import sys
 import json
 from wikibaseintegrator import wbi_helpers
 import clbwbi
+import langdetect
 
 def process_creator(ind1, subfields, clbrecord=None):
 	global creatorqid
@@ -151,6 +152,7 @@ for record in root:
 	titlelang = None
 	subtitle = None
 	transtitle = None
+	transtitlelang = None
 	clear = False
 	count += 1
 	print('\nNow processing record #'+str(count)+' with leader '+record.findall(xmlns+"leader")[0].text)
@@ -250,9 +252,8 @@ for record in root:
 			processed_creator = process_creator(ind1, datafield.findall(xmlns+"subfield"), clbrecord=record_id)
 			statements.append(processed_creator['creatorstatement'])
 			creator_ordinal[processed_creator['creator_role_prop']] += 1
-		# process title etc. (245)
+		# process title etc. (245, 246)
 		if tag == "245":
-
 			for subfield in datafield.findall(xmlns+"subfield"):
 				code = subfield.attrib['code']
 				titletext = re.sub(' ?/$','',subfield.text)
@@ -266,7 +267,11 @@ for record in root:
 					title += " "+titletext
 				if code == "b" and title and transtitle:
 					transtitle = titletext
-
+		if tag == "246":
+			for subfield in datafield.findall(xmlns+"subfield"):
+				code = subfield.attrib['code']
+				if code == "a":
+					transtitle = re.sub(' ?/$','',subfield.text)
 
 		# process 773
 		if tag == "773":
@@ -319,11 +324,18 @@ for record in root:
 	if title:
 		if not titlelang:
 			presskey = input('Error. no language for the title: '+title)
-		statements.append({'action':'replace','type':'Monolingualtext', 'lang': titlelang, 'value':title, 'prop_nr':'P6'})
+		statements.append({'action':'append','type':'Monolingualtext', 'lang': titlelang, 'value':title, 'prop_nr':'P6'})
 		itemlabels = [{'lang': titlelang, 'value': title}]
-	if transtitle:
-		pass # tbd. 246 is also transtitle
-	print('\nStatements: '+str(statements))
+		if transtitle:
+			transtitlelang = langdetect.langdetect(transtitle)
+			if not transtitlelang:
+				presskey = input('***WARNING: Could not detect language of translated title: '+transtitle)
+			else:
+				print('Detected translated title language '+transtitlelang+' for: '+transtitle)
+				statements.append({'action':'append','type':'Monolingualtext', 'lang': transtitlelang, 'value':transtitle, 'prop_nr':'P6'})
+				itemlabels.append({'lang': transtitlelang, 'value': transtitle})
+
+	# print('\nStatements: '+str(statements))
 
 	realitemqid = clbwbi.itemwrite({'qid': itemqid, 'labels': itemlabels, 'statements': statements})
 	if not itemqid:
