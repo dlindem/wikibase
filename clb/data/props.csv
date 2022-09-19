@@ -1,34 +1,50 @@
-prop,propLabel,datatype,wd,formUrl
+prop,propLabel,datatype,wd,formatterUrl
+P1,wikidata entity,http://wikiba.se/ontology#ExternalId,,
+P2,formatter url,http://wikiba.se/ontology#String,P1630,
+P3,equivalent property,http://wikiba.se/ontology#Url,P1628,
+P4,subclass of,http://wikiba.se/ontology#WikibaseItem,P279,
+P5,instance of,http://wikiba.se/ontology#WikibaseItem,P31,
 P6,title,http://wikiba.se/ontology#Monolingualtext,P1476,
-P10,place of publication,http://wikiba.se/ontology#WikibaseItem,P291,
-P11,publication language,http://wikiba.se/ontology#WikibaseItem,P407,
+P7,CLB record ID,http://wikiba.se/ontology#ExternalId,,https://vufind.ucl.cas.cz/Record/$1
+P8,NKCR AUT ID,http://wikiba.se/ontology#ExternalId,P691,https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=$1
+P10,Czech National Bibliography ID,http://wikiba.se/ontology#ExternalId,P3184,https://aleph.nkp.cz/F/?func=find-b&find_code=CNB&local_base=cnb&request=$1 
+P11,place of publication,http://wikiba.se/ontology#WikibaseItem,P291,
 P12,author,http://wikiba.se/ontology#WikibaseItem,P50,
 P13,editor,http://wikiba.se/ontology#WikibaseItem,P98,
+P14,series ordinal,http://wikiba.se/ontology#String,P1545,
 P15,publication date,http://wikiba.se/ontology#Time,P577,
+P16,source string literal,http://wikiba.se/ontology#String,,
 P17,DOI,http://wikiba.se/ontology#ExternalId,P356,https://doi.org/$1
 P18,ISBN-13,http://wikiba.se/ontology#ExternalId,P212,http://worldcat.org/isbn/$1
-P19,ISBN-10,http://wikiba.se/ontology#ExternalId,P957,
-P20,ISSN,http://wikiba.se/ontology#ExternalId,P236,
-P21,distribution location,http://wikiba.se/ontology#Url,P953,
-P22,volume,http://wikiba.se/ontology#String,P478,
-P23,issue,http://wikiba.se/ontology#String,P433,
-P25,is review of,http://wikiba.se/ontology#WikibaseItem,P6977,
-P26,reviewed in,http://wikiba.se/ontology#WikibaseItem,,
-P27,subject,http://wikiba.se/ontology#WikibaseItem,P921,
-P28,part of,http://wikiba.se/ontology#WikibaseItem,P361,
-P30,part of conference series,http://wikiba.se/ontology#WikibaseItem,,
-P31,has part,http://wikiba.se/ontology#WikibaseItem,P527,
-P32,ISO 639-3 code,http://wikiba.se/ontology#ExternalId,P220,http://lexvo.org/id/iso639-3/$1
-P33,series ordinal,http://wikiba.se/ontology#String,P1545,
-P35,publisher,http://wikiba.se/ontology#WikibaseItem,P123,
-P36,event,http://wikiba.se/ontology#WikibaseItem,,
-P39,ORCID,http://wikiba.se/ontology#ExternalId,P496,https://orcid.org/$1
-P43,wikimedia language code,http://wikiba.se/ontology#String,P424,
-P44,official website,http://wikiba.se/ontology#Url,P856,
-P46,part of journal,http://wikiba.se/ontology#WikibaseItem,,
-P51,VIAF ID,http://wikiba.se/ontology#ExternalId,P214,https://viaf.org/viaf/$1/
-P52,date of birth,http://wikiba.se/ontology#Time,P569,
-P53,date of death,http://wikiba.se/ontology#Time,P570,
-P62,OCLC,http://wikiba.se/ontology#ExternalId,P243,http://worldcat.org/oclc/$1
-P64,edition number,http://wikiba.se/ontology#String,P393,
-P113,download location,http://wikiba.se/ontology#Url,,
+P19,ISBN-10,http://wikiba.se/ontology#ExternalId,P957,http://worldcat.org/isbn/$1
+P20,ISSN,http://wikiba.se/ontology#ExternalId,P236,https://www.worldcat.org/issn/$1 
+P23,country of publication,http://wikiba.se/ontology#WikibaseItem,P953,
+P24,volume,http://wikiba.se/ontology#String,P478,
+P25,issue,http://wikiba.se/ontology#String,P433,
+P26,source URL,http://wikiba.se/ontology#Url,,
+P27,is review of,http://wikiba.se/ontology#WikibaseItem,P6977,
+P28,reviewed in,http://wikiba.se/ontology#WikibaseItem,,
+P29,subject,http://wikiba.se/ontology#WikibaseItem,P921,
+P30,part of,http://wikiba.se/ontology#WikibaseItem,P361,
+P31,download location,http://wikiba.se/ontology#Url,,
+P32,access location,http://wikiba.se/ontology#Url,,
+P33,has part,http://wikiba.se/ontology#WikibaseItem,P527,
+P34,ISO 639-3 code,http://wikiba.se/ontology#ExternalId,P220,http://lexvo.org/id/iso639-3/$1
+P35,page(s),http://wikiba.se/ontology#String,P304,
+P36,publisher,http://wikiba.se/ontology#WikibaseItem,P123,
+P37,event,http://wikiba.se/ontology#WikibaseItem,,
+P38,ORCID,http://wikiba.se/ontology#ExternalId,P496,https://orcid.org/$1
+P39,wikimedia language code,http://wikiba.se/ontology#String,P424,
+P40,official website,http://wikiba.se/ontology#Url,P856,
+P41,part of journal,http://wikiba.se/ontology#WikibaseItem,,
+P42,VIAF ID,http://wikiba.se/ontology#ExternalId,P214,https://viaf.org/viaf/$1/
+P43,date of birth,http://wikiba.se/ontology#Time,P569,
+P44,date of death,http://wikiba.se/ontology#Time,P570,
+P45,OCLC,http://wikiba.se/ontology#ExternalId,P243,http://worldcat.org/oclc/$1
+P46,edition number,http://wikiba.se/ontology#String,P393,
+P47,first name,http://wikiba.se/ontology#String,P735,
+P48,family name,http://wikiba.se/ontology#String,P734,
+P49,publication language,http://wikiba.se/ontology#WikibaseItem,P407,
+P50,abstract in language,http://wikiba.se/ontology#WikibaseItem,,
+P51,language of original,http://wikiba.se/ontology#WikibaseItem,,
+P52,UDC,http://wikiba.se/ontology#String,P8361,
