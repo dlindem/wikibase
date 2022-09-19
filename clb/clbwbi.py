@@ -50,7 +50,7 @@ def packstatements(statements, wbitem=None, qualifiers=False, references=False):
 			packed_qualifiers = []
 		if "references" in statement:
 			packed_references = packstatements(statement['references'], references=True)
-			print('FOUND REF',statement['references'])
+			# print('FOUND REF',statement['references'])
 		else:
 			packed_references = []
 		if statement['value'] == False: # novalue statement
@@ -75,6 +75,7 @@ def packstatements(statements, wbitem=None, qualifiers=False, references=False):
 			packed_statement = ExternalID(value=statement['value'],prop_nr=statement['prop_nr'],qualifiers=packed_qualifiers,references=packed_references)
 		elif statement['type'].lower() == "time":
 			packed_statement = Time(time=statement['value'], precision=statement['precision'], prop_nr=statement['prop_nr'],qualifiers=packed_qualifiers,references=packed_references)
+			#print('Time statement: '+str(packed_statement))
 		elif statement['type'].lower() == "monolingualtext":
 			packed_statement = MonolingualText(text=statement['value'], language=statement['lang'], prop_nr=statement['prop_nr'],qualifiers=packed_qualifiers,references=packed_references)
 		if not packed_statement:
