@@ -9,13 +9,6 @@ import json
 import time
 from data.marcmapping import mapping as marcmapping
 
-def get_subfields(datafield):
-    fields = {}
-    for field in datafield.findall("subfield"):
-        fields[field.attrib['code']] = field.text
-    #print(str(fields))
-    return fields
-
 with open('data/autconcepts_wikidata.csv', 'r') as csvfile:
     autconceptsmapping = csv.DictReader(csvfile)
     autconcepts = {}
@@ -66,7 +59,10 @@ for event, element in ET.iterparse(xml_file, events=["start"]):
             ind1 = datafield.attrib['ind1']
             ind2 = datafield.attrib['ind2']
             #print('Datafield',tag,ind1,ind2)
-            subfields = get_subfields(datafield)
+            subfields = {}
+            for field in datafield.findall(xmlns+"subfield"):
+                subfields[field.attrib['code']] = field.text
+
             if tag in marcmapping:
                 #print('Will try to process '+tag)
                 for action in marcmapping[tag]:
