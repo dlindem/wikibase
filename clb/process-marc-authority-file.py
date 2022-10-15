@@ -31,11 +31,11 @@ recordcount = 0
 conceptcount = 0
 allowed_recordtypes = {'ph', 'fd', 'ge', 'xx'}
 for event, element in ET.iterparse(xml_file, events=["start"]):
-    if element.tag == "record":
+    if element.tag == xmlns+"record":
         #print(ET.tostring(element, encoding="utf-8"))
         recordcount+=1
         conceptid = None
-        for controlfield in element.findall("controlfield"):
+        for controlfield in element.findall(xmlns+"controlfield"):
             tag = controlfield.attrib['tag']
             text = controlfield.text
             #print ("Controlfield", tag, text)
@@ -53,14 +53,15 @@ for event, element in ET.iterparse(xml_file, events=["start"]):
 
         if conceptid:
             conceptcount+=1
-            recordjson = {'type': recordtype}
+            print(conceptid)
+            recordjson = {}
         else:
             continue
 
         if conceptid in autconcepts:
             recordjson['wikidata'] = autconcepts[conceptid]
 
-        for datafield in element.findall("datafield"):
+        for datafield in element.findall(xmlns+"datafield"):
             tag = datafield.attrib['tag']
             ind1 = datafield.attrib['ind1']
             ind2 = datafield.attrib['ind2']
@@ -89,7 +90,8 @@ for event, element in ET.iterparse(xml_file, events=["start"]):
                         recordjson[action['target']] = [subfields[action['value']['sub']]]
                     else:
                         recordjson[action['target']].append(subfields[action['value']['sub']])
-
+        if len(recordjson) == 0:
+            continue
         with open('data/autconcepts.jsonl', 'a', encoding="utf-8") as jsonlfile:
             jsonlfile.write(conceptid+'@'+json.dumps(recordjson)+'\n')
             #time.sleep(1)
