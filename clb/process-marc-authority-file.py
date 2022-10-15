@@ -22,13 +22,14 @@ with open('data/autconcepts_wikidata.csv', 'r') as csvfile:
     for row in autconceptsmapping:
         autconcepts[row['nkcr']] = row['wd']
 
-xml_file = 'aut_xmpl.xml'
+xml_file = '/home/d3d/Downloads/aut_extract_150_151_155.xml'
+# xml_file = 'data/aut_xmpl.xml'
 # with open(extractxml_file, 'w') as outfile:
 #     outfile.write('<collection>\n')
 xmlns = "{http://www.loc.gov/MARC21/slim}"
 recordcount = 0
 conceptcount = 0
-recordtypes = {}
+recordtypes = set()
 for event, element in ET.iterparse(xml_file, events=["start"]):
     if element.tag == "record":
         #print(ET.tostring(element, encoding="utf-8"))
@@ -40,13 +41,19 @@ for event, element in ET.iterparse(xml_file, events=["start"]):
             #print ("Controlfield", tag, text)
             if tag == "001":
                 conceptid = text
+                if not text:
+                    print('Error: MARC record without controlfield 001 text value.')
+                    #print(ET.tostring(element).decode("utf-8"))
+                    #time.sleep(1)
+                    break
                 conceptcount+=1
                 recordtype = re.search(r'^[a-z]+',conceptid).group(0)
-                recordtype.add(recordtypes)
-        if not conceptid:
-            print('Error: Did not find concept ID in record '+str(recordcount))
+                recordtypes.add(recordtype)
+
+        if conceptid:
+            recordjson = {'type': recordtype}
+        else:
             continue
-        recordjson = {'type': recordtype}
 
         if conceptid in autconcepts:
             recordjson['wikidata'] = autconcepts[conceptid]
@@ -57,17 +64,17 @@ for event, element in ET.iterparse(xml_file, events=["start"]):
             ind2 = datafield.attrib['ind2']
             #print('Datafield',tag,ind1,ind2)
             subfields = get_subfields(datafield)
-            if tag in marcmapping[recordtype]:
-                print('Will try to process '+tag)
-                for action in marcmapping[recordtype][tag]:
+            if tag in marcmapping:
+                #print('Will try to process '+tag)
+                for action in marcmapping[tag]:
                     if action['value']['sub'] not in subfields:
-                        print('Failed to locate value for '+action['target']+' from datafield '+tag)
+                        #print('Failed to locate value for '+action['target']+' from datafield '+tag)
                         continue
                     if action['value']['ind1'] != ind1:
-                        print('Found non-matching ind1, skip this '+tag)
+                        #print('Found non-matching ind1, skip this '+tag)
                         continue
                     if action['value']['ind2'] != ind2:
-                        print('Found non-matching ind2, skip this '+tag)
+                        #print('Found non-matching ind2, skip this '+tag)
                         continue
                     if 'condition' in action:
                         if 'sub' in action['condition'] and action['condition']['sub'] in subfields:
