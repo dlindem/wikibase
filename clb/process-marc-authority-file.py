@@ -22,14 +22,14 @@ with open('data/autconcepts_wikidata.csv', 'r') as csvfile:
     for row in autconceptsmapping:
         autconcepts[row['nkcr']] = row['wd']
 
-xml_file = '/home/d3d/Downloads/aut_extract_150_151_155.xml'
+xml_file = '/home/d3d/Downloads/aut.xml'
 # xml_file = 'data/aut_xmpl.xml'
 # with open(extractxml_file, 'w') as outfile:
 #     outfile.write('<collection>\n')
 xmlns = "{http://www.loc.gov/MARC21/slim}"
 recordcount = 0
 conceptcount = 0
-recordtypes = set()
+allowed_recordtypes = {'ph', 'fd', 'ge', 'xx'}
 for event, element in ET.iterparse(xml_file, events=["start"]):
     if element.tag == "record":
         #print(ET.tostring(element, encoding="utf-8"))
@@ -46,11 +46,13 @@ for event, element in ET.iterparse(xml_file, events=["start"]):
                     #print(ET.tostring(element).decode("utf-8"))
                     #time.sleep(1)
                     break
-                conceptcount+=1
+
                 recordtype = re.search(r'^[a-z]+',conceptid).group(0)
-                recordtypes.add(recordtype)
+                if recordtype not in allowed_recordtypes:
+                    conceptid = None
 
         if conceptid:
+            conceptcount+=1
             recordjson = {'type': recordtype}
         else:
             continue
