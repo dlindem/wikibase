@@ -30,6 +30,8 @@ with open('data/languages_countries.json', 'r', encoding="utf-8") as file:
 
 def get_language(marc_language):
 	print('Getting codes for MARC language '+marc_language)
+	if marc_language == "und":
+		print('Language is "undefined" [und]!')
 	global languages_countries
 	global marc_languages
 	if marc_language in languages_countries['languages']:
@@ -37,6 +39,9 @@ def get_language(marc_language):
 
 	if marc_language not in marc_languages:
 		print('Language code '+marc_languages+' not found in marc-languges-wikidata.csv, abort.')
+		sys.exit()
+	if marc_languages[marc_language].startswith("Q") == False:
+		print('Language code '+marc_languages+' in marc-languges-wikidata.csv misses Wikidata alignment, abort. Please insert Wikidata Q-item ID in csv and retry.')
 		sys.exit()
 	print('Will create new language item.')
 	languagedata = {'qid':False, 'statements':[{'action':'append','type':'Item', 'value':'Q8', 'prop_nr':'P5'},{'action':'append','type':'String', 'value':marc_language, 'prop_nr':'P53'}]}
@@ -102,7 +107,7 @@ if root.tag != xmlns+"collection":
 	print('This input file is not MARC21 XML. Abort.')
 	sys.exit()
 else:
-	presskey = input('Will proceed to load MARC21 XML. Press "x" for not overwriting records existing on Wikibase, other keys will process all records')
+	presskey = input('Will proceed to load MARC21 XML. Press "x" for not overwriting records existing on Wikibase, other keys will process all records...\n')
 	if presskey == "x":
 		skipoverwrite = True
 	else:
@@ -475,7 +480,8 @@ for record in root:
 			if transtitle:
 				transtitlelang = langdetect.langdetect(transtitle)
 				if not transtitlelang:
-					presskey = input('***WARNING: Could not detect language of translated title: '+transtitle)
+					presskey = input('***WARNING: Could not detect language of translated title (will set it to English): '+transtitle)
+					transtitlelang = "en"
 				else:
 					print('Detected translated title language '+transtitlelang+' for: '+transtitle)
 					statements.append({'action':'append','type':'Monolingualtext', 'lang': transtitlelang, 'value':transtitle, 'prop_nr':'P6'})
@@ -485,7 +491,7 @@ for record in root:
 
 		# write record item
 		itemqid = clbwbi.itemwrite({'qid': itemqid, 'labels': itemlabels, 'statements': statements})
-		if itemqid not in recordqid:
+		if itemqid and itemqid not in recordqid:
 			with open('data/records_qidmapping.csv', 'a', encoding="utf-8") as file:
 				file.write(record_id+'\t'+itemqid+'\n')
 				recordqid[record_id] = itemqid
