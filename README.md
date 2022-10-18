@@ -8,3 +8,6 @@
  https://qichwa.wikibase.cloud
 ## Ahotsak Wikibase (Basque lexical data)
  https://datuak.ahotsak.eus
+## LexBib Wikibase (Knowledge Graph of the domain of Lexicography and Dictionary Research)
+ https://lexbib.elex.is
+ Older code is found at https://github.com/elexis-eu/elexifinder.
