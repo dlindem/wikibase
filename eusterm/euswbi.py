@@ -13,6 +13,7 @@ from wikibaseintegrator.datatypes.time import Time
 from wikibaseintegrator.datatypes.globecoordinate import GlobeCoordinate
 from wikibaseintegrator.datatypes.url import URL
 from wikibaseintegrator.wbi_config import config as wbi_config
+from wikibaseintegrator.wbi_config import config as wdi_config
 from wikibaseintegrator import wbi_helpers
 from wikibaseintegrator.wbi_enums import ActionIfExists, WikibaseSnakType
 from wikibaseintegrator.models.claims import Claims
@@ -26,20 +27,36 @@ login_instance = wbi_login.Login(user=wb_bot_user, password=wb_bot_pwd)
 wbi = WikibaseIntegrator(login=login_instance)
 
 sparql_prefixes = """
-PREFIX clbwb: <https://eusterm.wikibase.cloud/entity/>
-PREFIX clbdp: <https://eusterm.wikibase.cloud/prop/direct/>
-PREFIX clbp: <https://eusterm.wikibase.cloud/prop/>
-PREFIX clbps: <https://eusterm.wikibase.cloud/prop/statement/>
-PREFIX clbpq: <https://eusterm.wikibase.cloud/prop/qualifier/>
-PREFIX clbpr: <https://eusterm.wikibase.cloud/prop/reference/>
-PREFIX clbno: <https://eusterm.wikibase.cloud/prop/novalue/>
+PREFIX euswb: <https://eusterm.wikibase.cloud/entity/>
+PREFIX eusdp: <https://eusterm.wikibase.cloud/prop/direct/>
+PREFIX eusp: <https://eusterm.wikibase.cloud/prop/>
+PREFIX eusps: <https://eusterm.wikibase.cloud/prop/statement/>
+PREFIX euspq: <https://eusterm.wikibase.cloud/prop/qualifier/>
+PREFIX euspr: <https://eusterm.wikibase.cloud/prop/reference/>
+PREFIX eusno: <https://eusterm.wikibase.cloud/prop/novalue/>
 """
 
-# wikidata wbi setup
-wd_user_agent = "https://eusterm.wikibase.cloud user DL2204bot david.lindemann@ehu.eus"
+# setup wbi for wikidata as wdi
+wdi_config['MEDIAWIKI_API_URL'] = 'https://www.wikidata.org/w/api.php'
+wdi_config['SPARQL_ENDPOINT_URL'] = 'https://www.wikidata.org/sparql'
+wdi_config['WIKIBASE_URL'] = 'https://www.wikidata.org'
 
 wd_login_instance = wbi_login.Login(user=wd_user, password=wd_pwd)
 wdi = WikibaseIntegrator(login=wd_login_instance)
+
+wd_sparql_prefixes = """
+PREFIX wb: <https://www.wikidata.org/entity/>
+PREFIX wdt: <https://www.wikidata.org/prop/direct/>
+PREFIX wp: <https://www.wikidata.org/prop/>
+PREFIX wps: <https://www.wikidata.org/prop/statement/>
+PREFIX wpq: <https://www.wikidata.org/prop/qualifier/>
+PREFIX wpr: <https://www.wikidata.org/prop/reference/>
+PREFIX wno: <https://www.wikidata.org/prop/novalue/>
+"""
+
+wd_user_agent = "https://www.wikidata.org user DL2204bot david.lindemann@ehu.eus"
+
+
 
 # functions for interaction with wbi
 def packstatements(statements, wbitem=None, qualifiers=False, references=False):
@@ -72,7 +89,7 @@ def packstatements(statements, wbitem=None, qualifiers=False, references=False):
 			action = ActionIfExists.APPEND_OR_REPLACE
 		if statement['type'].lower() == "string":
 			packed_statement = String(value=statement['value'],prop_nr=statement['prop_nr'],qualifiers=packed_qualifiers,references=packed_references)
-		elif statement['type'].lower() == "item":
+		elif statement['type'].lower() == "item" or statement['type'].lower() == "wikibaseitem":
 			packed_statement = Item(value=statement['value'], prop_nr=statement['prop_nr'],qualifiers=packed_qualifiers,references=packed_references)
 		elif statement['type'].lower() == "externalid":
 			packed_statement = ExternalID(value=statement['value'],prop_nr=statement['prop_nr'],qualifiers=packed_qualifiers,references=packed_references)
