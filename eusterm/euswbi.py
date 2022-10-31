@@ -36,23 +36,23 @@ PREFIX euspr: <https://eusterm.wikibase.cloud/prop/reference/>
 PREFIX eusno: <https://eusterm.wikibase.cloud/prop/novalue/>
 """
 
-# setup wbi for wikidata as wdi
-wdi_config['MEDIAWIKI_API_URL'] = 'https://www.wikidata.org/w/api.php'
-wdi_config['SPARQL_ENDPOINT_URL'] = 'https://www.wikidata.org/sparql'
-wdi_config['WIKIBASE_URL'] = 'https://www.wikidata.org'
-
-wd_login_instance = wbi_login.Login(user=wd_user, password=wd_pwd)
-wdi = WikibaseIntegrator(login=wd_login_instance)
-
-wd_sparql_prefixes = """
-PREFIX wb: <https://www.wikidata.org/entity/>
-PREFIX wdt: <https://www.wikidata.org/prop/direct/>
-PREFIX wp: <https://www.wikidata.org/prop/>
-PREFIX wps: <https://www.wikidata.org/prop/statement/>
-PREFIX wpq: <https://www.wikidata.org/prop/qualifier/>
-PREFIX wpr: <https://www.wikidata.org/prop/reference/>
-PREFIX wno: <https://www.wikidata.org/prop/novalue/>
-"""
+# # setup wbi for wikidata as wdi
+# wdi_config['MEDIAWIKI_API_URL'] = 'https://www.wikidata.org/w/api.php'
+# wdi_config['SPARQL_ENDPOINT_URL'] = 'https://www.wikidata.org/sparql'
+# wdi_config['WIKIBASE_URL'] = 'https://www.wikidata.org'
+#
+# wd_login_instance = wbi_login.Login(user=wd_user, password=wd_pwd)
+# wdi = WikibaseIntegrator(login=wd_login_instance)
+#
+# wd_sparql_prefixes = """
+# PREFIX wb: <https://www.wikidata.org/entity/>
+# PREFIX wdt: <https://www.wikidata.org/prop/direct/>
+# PREFIX wp: <https://www.wikidata.org/prop/>
+# PREFIX wps: <https://www.wikidata.org/prop/statement/>
+# PREFIX wpq: <https://www.wikidata.org/prop/qualifier/>
+# PREFIX wpr: <https://www.wikidata.org/prop/reference/>
+# PREFIX wno: <https://www.wikidata.org/prop/novalue/>
+# """
 
 wd_user_agent = "https://www.wikidata.org user DL2204bot david.lindemann@ehu.eus"
 
