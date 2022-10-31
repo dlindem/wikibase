@@ -1,8 +1,74 @@
 import euswbi
-import json, re, time, csv, sys
+import json, re, time, csv, sys, requests
 
-#classes_to_consider = "euswb:Q4"  #"clbwb:Q17 clbwb:Q8"
-languages_to_consider = "'cs' 'en' 'de' 'pl'"
+def write_wdmapping(wdqid=None, wbqid=None):
+	with open('data/wdmapping.csv', 'a', encoding="utf-8") as csvfile:
+		csvfile.write(wbqid+'\t'+wdqid+'\n')
+
+def importitem(importqid, process_claims=True):
+
+	languages_to_consider = "eu es en de fr".split(" ")
+
+	print('Will get '+importqid+' from wikidata...')
+	# importitem = euswbi.wdi.item.get(entity_id=importqid, user_agent=euswbi.wd_user_agent)
+	# importitemjson = importitem.get_json()
+	apiurl = 'https://www.wikidata.org/w/api.php?action=wbgetentities&ids='+importqid+'&format=json'
+	#print(apiurl)
+	wdjsonsource = requests.get(url=apiurl)
+	if importqid in wdjsonsource.json()['entities']:
+		importitemjson =  wdjsonsource.json()['entities'][importqid]
+	else:
+		print('Error: Recieved no valid item JSON from Wikidata.')
+		return False
+
+	wbitemjson = {'labels':[], 'aliases':[], 'descriptions':[], 'statements':[]}
+	if importqid in itemwd2wb:
+		wbqid = itemwd2wb[importqid]
+		# wbitem = euswbi.item.get(entity_id=wbqid)
+	else:
+		wbqid = False
+
+	# process labels
+	for lang in importitemjson['labels']:
+		if lang in languages_to_consider:
+			wbitemjson['labels'].append({'lang':lang, 'value': importitemjson['labels'][lang]['value']})
+	# process aliases
+	for lang in importitemjson['aliases']:
+		if lang in languages_to_consider:
+			for entry in importitemjson['aliases'][lang]:
+				wbitemjson['aliases'].append({'lang':lang, 'value':entry['value']})
+	# process descriptions
+	for lang in importitemjson['descriptions']:
+		if lang in languages_to_consider:
+			wbitemjson['descriptions'].append({'lang':lang, 'value': importitemjson['descriptions'][lang]['value']})
+
+	# process claims
+	if process_claims:
+		for claimprop in importitemjson['claims']:
+			if claimprop in propwd2wb: # aligned prop
+				wbprop = propwb2wb[claimprop]
+				for claim in importitemjson['claims'][claimprop]:
+					claimval = claim['mainsnak']['datavalue']['value']
+					if propwbdatatype[wbprop] == "WikibaseItem":
+						if claimval['id'] not in itemwd2wb:
+							print('Will create a new item for this object property value: '+claimval['id'])
+							targetqid = item_import(claimval['id'], process_claims=False)
+						else:
+							targetqid = itemwd2wb[claimval['id']]
+							print('Will re-use an existing item for this object property value: '+claimval['id']+': '+targetqid)
+						statement = {'prop_nr':wbprop,'type':'Item','value':targetqid}
+					else:
+						statement = {'prop_nr':wbprop,'type':propwbdatatype[wbprop],'value':claimval}
+					statement['references'] = {'prop_nr':'P1','type':'externalid','value':importqid}
+				wbitemjson['statements'].append(statement)
+
+	wbitemjson['qid'] = wbqid
+	result = euswbi.itemwrite(wbitemjson)
+	if result not in itemwb2wd:
+		itemwb2wd[result] = importqid
+		itemwd2wb[importqid] = result
+		write_wdmapping(wdqid=importqid, wbqid=result)
+	return result
 
 # load item mappings from file
 with open('data/wdmapping.csv') as csvfile:
@@ -37,7 +103,3 @@ with open('data/wd_qid_to_import.txt', 'r') as file:
 for importqid in importqids:
 	if not re.search('^Q[0-9]+', importqid):
 		continue
-	print('Will get '+importqid+' from wikidata...')
-	importitem = euswbi.wdi.item.get(entity_id=importqid, user_agent=euswbi.wd_user_agent)
-	importitemjson = importitem.get_json()
-	print(str(importitemjson))
