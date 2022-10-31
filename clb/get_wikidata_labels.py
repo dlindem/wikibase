@@ -2,7 +2,7 @@
 
 import sys, clbwbi
 
-classes_to_consider = "clbwb:Q17 clbwb:Q8"
+classes_to_consider = "clbwb:Q4"  #"clbwb:Q17 clbwb:Q8"
 languages_to_consider = "'cs' 'en' 'de' 'pl'"
 
 print('Querying clb-lod Wikibase for items with P1 value')
@@ -19,7 +19,10 @@ count = 0
 for binding in bindings:
 	count += 1
 	clbwbqid = binding['item']['value'].replace('https://clb-lod.wikibase.cloud/entity/','')
-	clbwbitem = clbwbi.wbi.item.get(entity_id=clbwbqid)
+	if clbwbqid.startswith('Q'):
+		clbwbitem = clbwbi.wbi.item.get(entity_id=clbwbqid)
+	elif clbwbqid.startswith('P'):
+		clbwbitem = clbwbi.wbi.property.get(entity_id=clbwbqid)
 	print('['+str(count)+'] Processing clbwb '+clbwbqid+'...')
 	wdqid = binding['wduri']['value'].replace('http://www.wikidata.org/entity/','')
 	print('Querying Wikidata for wd:'+wdqid+'...')

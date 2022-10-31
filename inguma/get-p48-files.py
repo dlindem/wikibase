@@ -13,11 +13,12 @@ with open('D:/Inguma/failed_fulltext_downloads.csv','r',encoding="utf-8") as err
 
 with open('D:/Inguma/p48_items_artikuluak.csv', 'r', encoding="utf-8") as csvfile:
 	downloads = csv.DictReader(csvfile, delimiter=",")
-
+	count = 0
 	for download in downloads:
+		count += 1
 		durl = download['download']
 		items = download['items'].split('|')
-		print('\nNow processing: ',durl,str(items))
+		print('\n['+str(count)+'] Now processing: ',durl,str(items))
 		if len(items) == 1 and durl.endswith(".pdf"):
 			savename = items[0].replace('https://wikibase.inguma.eus/entity/','')+".pdf"
 			save_as = "D:/Inguma/fulltexts/"+savename
@@ -29,7 +30,7 @@ with open('D:/Inguma/p48_items_artikuluak.csv', 'r', encoding="utf-8") as csvfil
 				continue
 			try:
 				# Download from URL
-				with urlopen(durl) as file:
+				with urlopen(durl, timeout=20) as file:
 					content = file.read()
 				# Save to file
 				with open(save_as, 'wb') as writefile:
@@ -39,4 +40,4 @@ with open('D:/Inguma/p48_items_artikuluak.csv', 'r', encoding="utf-8") as csvfil
 			except Exception as x:
 				print('Error: ',str(x))
 				with open('D:/Inguma/failed_fulltext_downloads.csv','a',encoding="utf-8") as errorlog:
-					errorlog.write(str(datetime.now())+'\t'+items[0]+'\t'+durl+str(x)+'\n')
+					errorlog.write(str(datetime.now())+'\t'+items[0]+'\t'+durl+'\t'+str(x)+'\n')
