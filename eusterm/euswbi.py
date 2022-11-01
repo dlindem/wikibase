@@ -13,7 +13,6 @@ from wikibaseintegrator.datatypes.time import Time
 from wikibaseintegrator.datatypes.globecoordinate import GlobeCoordinate
 from wikibaseintegrator.datatypes.url import URL
 from wikibaseintegrator.wbi_config import config as wbi_config
-from wikibaseintegrator.wbi_config import config as wdi_config
 from wikibaseintegrator import wbi_helpers
 from wikibaseintegrator.wbi_enums import ActionIfExists, WikibaseSnakType
 from wikibaseintegrator.models.claims import Claims
@@ -81,7 +80,8 @@ def packstatements(statements, wbitem=None, qualifiers=False, references=False):
 		actions = {
 		'append': ActionIfExists.APPEND_OR_REPLACE,
 		'replace': ActionIfExists.REPLACE_ALL,
-		'force': ActionIfExists.FORCE_APPEND
+		'force': ActionIfExists.FORCE_APPEND,
+		'keep': ActionIfExists.KEEP
 		}
 		if 'action' in statement:
 			action = actions[statement['action']]
@@ -98,6 +98,8 @@ def packstatements(statements, wbitem=None, qualifiers=False, references=False):
 			#print('Time statement: '+str(packed_statement))
 		elif statement['type'].lower() == "monolingualtext":
 			packed_statement = MonolingualText(text=statement['value'], language=statement['lang'], prop_nr=statement['prop_nr'],qualifiers=packed_qualifiers,references=packed_references)
+		elif statement['type'].lower() == "url":
+			packed_statement = URL(value=statement['value'], prop_nr=statement['prop_nr'],qualifiers=packed_qualifiers,references=packed_references)
 		if not packed_statement:
 			print('***ERROR: Unknown datatype in '+str(statement))
 		# print(str(packed_statement))
@@ -133,16 +135,16 @@ def itemwrite(itemdata, clear=False): # statements = {'append':[],'replace':[]}
 			#print('Found wikidata label: ',lang,stringval)
 			euswbitem.labels.set(lang,stringval)
 	# altlabels
-	if 'altlabels' in itemdata:
-		langstrings = itemdata['altlabels']
+	if 'aliases' in itemdata:
+		langstrings = itemdata['aliases']
 		for langstring in langstrings:
 			lang = langstring['lang']
 			stringval = langstring['value']
 			#print('Found wikidata altlabel: ',lang,stringval)
 			euswbitem.aliases.set(lang,stringval)
 	# descriptions
-	if 'descs' in itemdata:
-		langstrings = itemdata['descs']
+	if 'descriptions' in itemdata:
+		langstrings = itemdata['descriptions']
 		for langstring in langstrings:
 			lang = langstring['lang']
 			stringval = langstring['value']
@@ -157,7 +159,7 @@ def itemwrite(itemdata, clear=False): # statements = {'append':[],'replace':[]}
 	while d == False:
 		try:
 			print('Writing to eusterm wikibase...')
-			r = euswbitem.write(is_bot=1, clear=clear)
+			r = euswbitem.write(clear=clear)
 			d = True
 			print('Successfully written to item: '+euswbitem.id)
 		except Exception:

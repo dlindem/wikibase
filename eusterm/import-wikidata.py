@@ -5,9 +5,14 @@ def write_wdmapping(wdqid=None, wbqid=None):
 	with open('data/wdmapping.csv', 'a', encoding="utf-8") as csvfile:
 		csvfile.write(wbqid+'\t'+wdqid+'\n')
 
-def importitem(importqid, process_claims=True):
+def importitem(importqid, process_claims=True, schemeqid=None):
 
 	languages_to_consider = "eu es en de fr".split(" ")
+	global itemwd2wb
+	global itemwb2wd
+	global propwd2wb
+	global propwb2wd
+	global propwbdatatype
 
 	print('Will get '+importqid+' from wikidata...')
 	# importitem = euswbi.wdi.item.get(entity_id=importqid, user_agent=euswbi.wd_user_agent)
@@ -21,12 +26,14 @@ def importitem(importqid, process_claims=True):
 		print('Error: Recieved no valid item JSON from Wikidata.')
 		return False
 
-	wbitemjson = {'labels':[], 'aliases':[], 'descriptions':[], 'statements':[]}
+	wbitemjson = {'labels':[], 'aliases':[], 'descriptions':[], 'statements':[{'prop_nr':'P1','type':'externalid','value':importqid}]}
+	if schemeqid:
+		wbitemjson['statements'].append({'prop_nr':'P6','type':'Item','value':schemeqid})
 	if importqid in itemwd2wb:
-		wbqid = itemwd2wb[importqid]
-		# wbitem = euswbi.item.get(entity_id=wbqid)
+		wbqid = itemwd2wb[importqid] # item exists
+		# return wbqid
 	else:
-		wbqid = False
+		wbqid = False # will create new item
 
 	# process labels
 	for lang in importitemjson['labels']:
@@ -36,6 +43,7 @@ def importitem(importqid, process_claims=True):
 	for lang in importitemjson['aliases']:
 		if lang in languages_to_consider:
 			for entry in importitemjson['aliases'][lang]:
+				# print('Alias entry: '+str(entry))
 				wbitemjson['aliases'].append({'lang':lang, 'value':entry['value']})
 	# process descriptions
 	for lang in importitemjson['descriptions']:
@@ -46,23 +54,30 @@ def importitem(importqid, process_claims=True):
 	if process_claims:
 		for claimprop in importitemjson['claims']:
 			if claimprop in propwd2wb: # aligned prop
-				wbprop = propwb2wb[claimprop]
+				wbprop = propwd2wb[claimprop]
 				for claim in importitemjson['claims'][claimprop]:
 					claimval = claim['mainsnak']['datavalue']['value']
 					if propwbdatatype[wbprop] == "WikibaseItem":
 						if claimval['id'] not in itemwd2wb:
-							print('Will create a new item for this object property value: '+claimval['id'])
-							targetqid = item_import(claimval['id'], process_claims=False)
+							print('Will create a new item for '+claimprop+' ('+wbprop+') object property value: '+claimval['id'])
+							targetqid = importitem(claimval['id'], process_claims=False)
 						else:
 							targetqid = itemwd2wb[claimval['id']]
 							print('Will re-use an existing item for this object property value: '+claimval['id']+': '+targetqid)
 						statement = {'prop_nr':wbprop,'type':'Item','value':targetqid}
 					else:
-						statement = {'prop_nr':wbprop,'type':propwbdatatype[wbprop],'value':claimval}
-					statement['references'] = {'prop_nr':'P1','type':'externalid','value':importqid}
+						statement = {'prop_nr':wbprop,'type':propwbdatatype[wbprop],'value':claimval,'action':'keep'}
+					statement['references'] = [{'prop_nr':'P1','type':'externalid','value':importqid}]
 				wbitemjson['statements'].append(statement)
+	# process sitelinks
+	# if 'sitelinks' in importitemjson:
+	# 	for site in importitemjson['sitelinks']:
+	# 		if site.replace('wiki', '') in languages_to_consider:
+	# 			wpurl = "https://"+site.replace('wiki', '')+".wikipedia.org/wiki/"+importitemjson['sitelinks'][site]['title']
+	# 			print(wpurl)
+	# 			wbitemjson['statements'].append({'prop_nr':'P7','type':'url','value':wpurl})
 
-	wbitemjson['qid'] = wbqid
+	wbitemjson['qid'] = wbqid # if False, then create new item
 	result = euswbi.itemwrite(wbitemjson)
 	if result not in itemwb2wd:
 		itemwb2wd[result] = importqid
@@ -72,12 +87,14 @@ def importitem(importqid, process_claims=True):
 
 # load item mappings from file
 with open('data/wdmapping.csv') as csvfile:
-	mappingcsv = csv.DictReader(csvfile)
+	mappingcsv = csvfile.read().split('\n')
 	itemwd2wb = {}
 	itemwb2wd = {}
-	for mapping in mappingcsv:
-		itemwb2wd[mapping['eusterm']] = mapping['wikidata']
-		itemwd2wb[mapping]['wikidata'] = mapping['eusterm']
+	for row in mappingcsv:
+		mapping = row.split('\t')
+		if len(mapping) == 2:
+			itemwb2wd[mapping[0]] = mapping[1]
+			itemwd2wb[mapping[1]] = mapping[0]
 
 # load prop mappings from sparql
 print('Querying eusterm Wikibase for properties with P1 wikidata alignment...')
@@ -97,9 +114,12 @@ for binding in bindings:
 	propwbdatatype[euswbqid] = binding['datatype']['value'].replace('http://wikiba.se/ontology#','')
 
 # load items to import
-with open('data/wd_qid_to_import.txt', 'r') as file:
-	importqids = file.read().split('\n')
+with open('data/wikidata-import.csv', 'r') as file:
+	importlist = csv.DictReader(file, delimiter="\t")
 
-for importqid in importqids:
-	if not re.search('^Q[0-9]+', importqid):
-		continue
+	for row in importlist:
+		if not re.search('^Q[0-9]+', row['Wikidata']):
+			continue
+		print('Will now import: '+str(row))
+		# presskey = input('Proceed?')
+		print('Successfully processed: '+importitem(row['Wikidata'], schemeqid=row['Scheme']))
