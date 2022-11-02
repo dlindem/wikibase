@@ -48,7 +48,8 @@ def importitem(importqid, process_claims=True, schemeqid=None):
 	# process descriptions
 	for lang in importitemjson['descriptions']:
 		if lang in languages_to_consider:
-			wbitemjson['descriptions'].append({'lang':lang, 'value': importitemjson['descriptions'][lang]['value']})
+			if {'lang':lang ,'value':importitemjson['descriptions'][lang]['value']} not in wbitemjson['labels']:
+				wbitemjson['descriptions'].append({'lang':lang, 'value': importitemjson['descriptions'][lang]['value']})
 
 	# process claims
 	if process_claims:
