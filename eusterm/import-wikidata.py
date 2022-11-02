@@ -2,8 +2,9 @@ import euswbi
 import json, re, time, csv, sys, requests
 
 def write_wdmapping(wdqid=None, wbqid=None):
-	with open('data/wdmapping.csv', 'a', encoding="utf-8") as csvfile:
-		csvfile.write(wbqid+'\t'+wdqid+'\n')
+	if wdqid and wbqid:
+		with open('data/wdmapping.csv', 'a', encoding="utf-8") as csvfile:
+			csvfile.write(wbqid+'\t'+wdqid+'\n')
 
 def importitem(importqid, process_claims=True, schemeqid=None):
 
@@ -31,7 +32,7 @@ def importitem(importqid, process_claims=True, schemeqid=None):
 		wbitemjson['statements'].append({'prop_nr':'P6','type':'Item','value':schemeqid})
 	if importqid in itemwd2wb:
 		wbqid = itemwd2wb[importqid] # item exists
-		# return wbqid
+		return wbqid
 	else:
 		wbqid = False # will create new item
 
@@ -80,7 +81,7 @@ def importitem(importqid, process_claims=True, schemeqid=None):
 
 	wbitemjson['qid'] = wbqid # if False, then create new item
 	result = euswbi.itemwrite(wbitemjson)
-	if result not in itemwb2wd:
+	if result and result not in itemwb2wd:
 		itemwb2wd[result] = importqid
 		itemwd2wb[importqid] = result
 		write_wdmapping(wdqid=importqid, wbqid=result)
