@@ -27,7 +27,9 @@ for pagelink in pagelinks:
 	gettexturl = 'https://'+wlang+'.wikipedia.org/w/api.php?action=parse&prop=text&page='+pagetitle+'&format=json'
 	pagetext = requests.get(url=gettexturl).json()['parse']['text']['*']
 	pagejson = requests.get(url='https://www.wikidata.org/w/api.php?action=wbgetentities&sites='+wlang+'wiki&format=json&titles='+pagetitle).json()
-	pageqid = wdjson['entities'].keys()[0]
+	pageqid = list(pagejson['entities'].keys())[0]
+	# print(str(pageqid))
+	# time.sleep(10)
 	links = re.findall('href="/wiki/([^"]*)"', pagetext.split('<ol class="references">')[0]) # wiki crossrefs in text body before the references section
 	#print(str(links))
 
@@ -44,7 +46,7 @@ for pagelink in pagelinks:
 				continue
 
 			apiurl = 'https://www.wikidata.org/w/api.php?action=wbgetentities&sites='+wlang+'wiki&format=json&titles='+linkpagetitle
-			#print(apiurl)
+			print(apiurl)
 			wdjsonsource = requests.get(url=apiurl)
 			wdjson =  wdjsonsource.json()
 			# with open('entity.json', 'w') as jsonfile:
