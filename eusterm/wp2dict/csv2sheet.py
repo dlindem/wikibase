@@ -11,7 +11,10 @@ def csv2sheet(title=None, csvpath=None):
 
 	spreadsheet = gc.create(title)
 	spreadsheet.share('david.lindemann.soraluze@gmail.com', perm_type='user', role='writer')
-
-	with open('csvpath', 'r') as file_obj:
+	print('Created and shared google sheet: '+title)
+	with open(csvpath, 'r') as file_obj:
 		csv_content = file_obj.read()
 		gc.import_csv(spreadsheet.id, data=csv_content)
+		print('Successfully imported csv into google sheet.')
+
+csv2sheet(title="wp2dict_es_Nutricion", csvpath="output/Nutrici%C3%B3n.es.csv")
