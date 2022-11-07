@@ -33,7 +33,8 @@ for pagelink in pagelinks:
 	links = re.findall('href="/wiki/([^"]*)"', pagetext.split('<ol class="references">')[0]) # wiki crossrefs in text body before the references section
 	#print(str(links))
 
-	with open('output/'+pagetitle+'.'+wlang+'.csv', 'w') as outfile:
+	outfilename = 'output/'+pagetitle+'.'+wlang+'.csv'
+	with open(outfilename, 'w') as outfile:
 		outfile.write("\t".join(header_entries)+'\n')
 
 		seenqid = [pageqid] # first line of result table will be the page qid itself, then the qids for blue links
@@ -104,6 +105,6 @@ for pagelink in pagelinks:
 				csvline += langval
 			outfile.write(csvline+"\n")
 	# send to google sheets
-	csv2sheet(title='wp2dict_'+wlang+'_'+pagetitle, csvpath=outfile)
+	csv2sheet(title='wp2dict_'+wlang+'_'+pagetitle, csvpath=outfilename)
 
 print('\nFinished.\n')
