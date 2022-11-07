@@ -17,4 +17,4 @@ def csv2sheet(title=None, csvpath=None):
 		gc.import_csv(spreadsheet.id, data=csv_content)
 		print('Successfully imported csv into google sheet.')
 
-csv2sheet(title="wp2dict_es_Nutricion", csvpath="output/Nutrici%C3%B3n.es.csv")
+# csv2sheet(title="wp2dict_es_Nutricion", csvpath="output/Nutrici%C3%B3n.es.csv")
