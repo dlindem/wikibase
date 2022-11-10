@@ -32,7 +32,7 @@ def importitem(importqid, process_claims=True, schemeqid=None):
 		wbitemjson['statements'].append({'prop_nr':'P6','type':'Item','value':schemeqid})
 	if importqid in itemwd2wb:
 		wbqid = itemwd2wb[importqid] # item exists
-		return wbqid
+		# return wbqid
 	else:
 		wbqid = False # will create new item
 
@@ -65,7 +65,7 @@ def importitem(importqid, process_claims=True, schemeqid=None):
 							targetqid = importitem(claimval['id'], process_claims=False)
 						else:
 							targetqid = itemwd2wb[claimval['id']]
-							print('Will re-use an existing item for this object property value: '+claimval['id']+': '+targetqid)
+							print('Will re-use an existing item for this object property value: wd:'+claimval['id']+' > eusterm:'+targetqid)
 						statement = {'prop_nr':wbprop,'type':'Item','value':targetqid}
 					else:
 						statement = {'prop_nr':wbprop,'type':propwbdatatype[wbprop],'value':claimval,'action':'keep'}
@@ -111,7 +111,10 @@ propwb2wd = {}
 propwbdatatype = {}
 for binding in bindings:
 	euswbqid = binding['item']['value'].replace('https://eusterm.wikibase.cloud/entity/','')
-	propwb2wd[euswbqid] = binding['wd']['value']
+	if euswbqid not in propwb2wd:
+		propwb2wd[euswbqid] = [binding['wd']['value']]
+	else:
+		propwb2wd[euswbqid].append(binding['wd']['value'])
 	propwd2wb[binding['wd']['value']] = euswbqid
 	propwbdatatype[euswbqid] = binding['datatype']['value'].replace('http://wikiba.se/ontology#','')
 
