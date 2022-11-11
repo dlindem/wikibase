@@ -34,7 +34,7 @@ for pagelink in pagelinks:
 	#print(str(links))
 
 	outfilename = 'output/'+pagetitle+'.'+wlang+'.csv'
-	with open(outfilename, 'w') as outfile:
+	with open(outfilename, 'w', encoding="utf-8") as outfile:
 		outfile.write("\t".join(header_entries)+'\n')
 
 		seenqid = [pageqid] # first line of result table will be the page qid itself, then the qids for blue links
