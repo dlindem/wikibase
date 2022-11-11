@@ -24,3 +24,7 @@ https://qichwa.wikibase.cloud
  https://lexbib.elex.is
  
  Older code related to LexBib wikibase is found at https://github.com/elexis-eu/elexifinder.
+ 
+### Eusterm Wikibase (Used in a course on Basque Terminology at UPV/EHU University of the Basque Country
+
+ https://eusterm.wikibase.cloud
