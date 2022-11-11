@@ -12,7 +12,7 @@ def csv2sheet(title=None, csvpath=None):
 	spreadsheet = gc.create(title)
 	spreadsheet.share('david.lindemann.soraluze@gmail.com', perm_type='user', role='writer')
 	print('Created and shared google sheet: '+title)
-	with open(csvpath, 'r') as file_obj:
+	with open(csvpath, 'r', encoding="utf-8") as file_obj:
 		csv_content = file_obj.read()
 		gc.import_csv(spreadsheet.id, data=csv_content)
 		print('Successfully imported csv into google sheet.')
