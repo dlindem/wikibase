@@ -1,0 +1,3030 @@
+[
+  {
+    "id": "1",
+    "eusterm": "apnea",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igeriketan burua uretan murgildu eta arnasari aldi batez eustea.",
+    "es": "apnea",
+    "fr": "apn\u00e9e",
+    "en": "apnoea; apnea"
+  },
+  {
+    "id": "2",
+    "eusterm": "arnas hartze",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "arnasgora",
+        "qual": "4"
+      },
+      {
+        "sin": "inspirazio",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "inspiraci\u00f3n",
+    "fr": "inspiration",
+    "en": "inhalation"
+  },
+  {
+    "id": "3",
+    "eusterm": "arnasbotatze",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "arnasbehera",
+        "qual": "4"
+      },
+      {
+        "sin": "espirazio",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "espiraci\u00f3n",
+    "fr": "expiration",
+    "en": "breathing out; exhalation"
+  },
+  {
+    "id": "4",
+    "eusterm": "benjamin kategoria",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gizonezkoetan 10 eta 12 urte arteko igerilariei eta emakumezkoetan 10 eta 11 urte artekoei dagokien adinkategoria.",
+    "es": "categor\u00eda benjam\u00edn",
+    "fr": "",
+    "en": ""
+  },
+  {
+    "id": "5",
+    "eusterm": "biraketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilariak noranzkoa aldatzea; igerilekuan, hondoko paretara iristean, edo, ur irekietan, ibilbideak hala eskatzen duenean egiten da.",
+    "es": "viraje",
+    "fr": "virage",
+    "en": "turn"
+  },
+  {
+    "id": "6",
+    "eusterm": "bulkada",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "impulso",
+    "fr": "impulsion",
+    "en": "push-off"
+  },
+  {
+    "id": "7",
+    "eusterm": "Espainiako Igeriketako Errege Federazioa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "Real Federaci\u00f3n Espa\u00f1ola de Nataci\u00f3n; RFEN",
+    "fr": "F\u00e9d\u00e9ration royale espagnole de natation",
+    "en": "Royal Spanish Swimming Federation"
+  },
+  {
+    "id": "8",
+    "eusterm": "Europako Igeriketa Liga",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "Liga Europea de Nataci\u00f3n; LEN",
+    "fr": "Ligue europ\u00e9enne de natation",
+    "en": "European Swimming League"
+  },
+  {
+    "id": "9",
+    "eusterm": "Euskadiko Igeriketa Federazioa",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "EIF",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "Federaci\u00f3n Vasca de Nataci\u00f3n; FVN",
+    "fr": "F\u00e9d\u00e9ration basque de natation",
+    "en": "Basque Swimming Federation"
+  },
+  {
+    "id": "14",
+    "eusterm": "helmuga-plaka",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Proba-amaieran igerilariek ukitu beharreko plaka, helmuga-horman egoten dena.",
+    "es": "placa de llegada",
+    "fr": "plaque d\u2019arriv\u00e9e",
+    "en": "arrival pad"
+  },
+  {
+    "id": "10",
+    "eusterm": "FINA",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "Nazioarteko Igeriketa Federazioa",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Igeriketaren arloko arauak ezartzen dituen nazioarteko erakundea.",
+    "es": "FINA; Federaci\u00f3n Internacional de Nataci\u00f3n",
+    "fr": "FINA; F\u00e9d\u00e9ration internationale de natation",
+    "en": "FINA; International Swimming Federation"
+  },
+  {
+    "id": "15",
+    "eusterm": "igeriketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur-kirola, distantzia jakin bat ahalik eta azkarren egitea helburu duena; hondoa ukitu gabe egiten da, besoen eta zangoen mugimendu errepikakorrak direla medio.",
+    "es": "nataci\u00f3n",
+    "fr": "natation",
+    "en": "swimming"
+  },
+  {
+    "id": "11",
+    "eusterm": "flotazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "flotaci\u00f3n",
+    "fr": "flottaison",
+    "en": "flotation"
+  },
+  {
+    "id": "12",
+    "eusterm": "Frantziako Igeriketa Federazioa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "Federaci\u00f3n Francesa de Nataci\u00f3n",
+    "fr": "F\u00e9d\u00e9ration fran\u00e7aise de natation; FNN",
+    "en": "French Swimming Federation"
+  },
+  {
+    "id": "16",
+    "eusterm": "igeriketa-klub",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "club de nataci\u00f3n",
+    "fr": "club de natation",
+    "en": "swimming club"
+  },
+  {
+    "id": "17",
+    "eusterm": "igerilari",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "nadador; nadadora",
+    "fr": "nageur; nageuse",
+    "en": "swimmer"
+  },
+  {
+    "id": "13",
+    "eusterm": "haur kategoria",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gizonezkoetan 15 eta 16 urte arteko igerilariei eta emakumezkoetan 14 eta 15 urte artekoei dagokien adinkategoria.",
+    "es": "categor\u00eda infantil",
+    "fr": "",
+    "en": ""
+  },
+  {
+    "id": "18",
+    "eusterm": "irteera-plataforma",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilekuaren ertzean kale bakoitzaren aurrean dagoen maila bakoitza. Igerilariek crawl-, bular-, eta tximeletaprobetako irteeran uretara jauzi egiteko erabiltzen dute, baita estilo libreko erreleboetako eta lau estiloetako probetako irteeretan ere.",
+    "es": "plataforma de salida; poyete de salida",
+    "fr": "bloc de d\u00e9part; plate-forme de d\u00e9part; plot de d\u00e9part",
+    "en": "starting block; starting platform"
+  },
+  {
+    "id": "19",
+    "eusterm": "junior kategoria",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gizonezkoetan 17 eta 18 urte arteko igerilariei eta emakumezkoetan 16 eta 17 urte artekoei dagokien adinkategoria.",
+    "es": "categor\u00eda junior",
+    "fr": "",
+    "en": ""
+  },
+  {
+    "id": "20",
+    "eusterm": "kategoria",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Nazioarteko igeriketa-federazioek igerilariak sexuaren eta adinaren arabera taldekatzean sortzen diren taldeetako bakoitza.",
+    "es": "categor\u00eda",
+    "fr": "cat\u00e9gorie",
+    "en": "category"
+  },
+  {
+    "id": "21",
+    "eusterm": "kategoria absolutu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "absolutu",
+        "qual": "iz."
+      },
+      {
+        "sin": "",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Gizonezkoetan 21 urtetik gorako igerilariei eta emakumezkoetan 20 urtetik gorakoei dagokien adinkategoria.",
+    "es": "categor\u00eda absoluta; absoluto",
+    "fr": "absolu",
+    "en": "absolute"
+  },
+  {
+    "id": "22",
+    "eusterm": "kategoria absolutu gazte",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gizonezkoetan 19 eta 20 urte arteko igerilariei eta emakumezkoetan 18 eta 19 urte artekoei dagokien adinkategoria.",
+    "es": "categor\u00eda absoluta joven",
+    "fr": "",
+    "en": ""
+  },
+  {
+    "id": "23",
+    "eusterm": "kimu kategoria",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gizonezkoetan 13 eta 14 urte arteko igerilariei eta emakumezkoetan 12 eta 13 urte artekoei dagokien adinkategoria. OHARRA: Euskadiko eta Nafarroako federazioen araberako definizioa.",
+    "es": "categor\u00eda alev\u00edn",
+    "fr": "",
+    "en": ""
+  },
+  {
+    "id": "24",
+    "eusterm": "master kategoria",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "25 urtetik gorako igerilariei dagokien adin-kategoria.",
+    "es": "categor\u00eda m\u00e1ster",
+    "fr": "ma\u00eetre; master",
+    "en": "master"
+  },
+  {
+    "id": "25",
+    "eusterm": "murgiltze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Uretara salto egitea, bertan urperatzeko.",
+    "es": "zambullida",
+    "fr": "plongeon",
+    "en": "plunge"
+  },
+  {
+    "id": "26",
+    "eusterm": "Nafarroako Igeriketa Federazioa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "Federaci\u00f3n Navarra de Nataci\u00f3n",
+    "fr": "F\u00e9d\u00e9ration navarraise de Natation",
+    "en": "Navarrese Swimming Federation  Nazioarteko Igeriketa"
+  },
+  {
+    "id": "27",
+    "eusterm": "podium",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igeriketako proba bakoitzean lehen hiru postuetan sailkatu diren igerilariak edo igerilari-taldeak saritzeko erabiltzen den bi edo hiru mailako egitura.",
+    "es": "podium; podio",
+    "fr": "podium; podium des vainqueurs",
+    "en": "podium; victory podium; winner\u2019s podium"
+  },
+  {
+    "id": "28",
+    "eusterm": "propultsio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Besoekin eta zangoekin uraren erresistentzia-indarra gainditzea, uretan aurrera egin ahal izateko.",
+    "es": "propulsi\u00f3n",
+    "fr": "propulsion",
+    "en": "propulsion"
+  },
+  {
+    "id": "29",
+    "eusterm": "urperatze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Uretan sartzea urez guztiz inguratuta geratu arte.",
+    "es": "inmersi\u00f3n",
+    "fr": "plong\u00e9e",
+    "en": "dive"
+  },
+  {
+    "id": "30",
+    "eusterm": "zangoetako flotagailu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "pull buoy",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Igerilariak besoak lantzeko erabiltzen duen flotagailu berezia, orkatilen, belaunen edo izterren artean eutsita erabiltzen dena.",
+    "es": "flotador de piernas; pull buoy",
+    "fr": "bou\u00e9e de traction",
+    "en": "pull-buoy; pull buoy"
+  },
+  {
+    "id": "31",
+    "eusterm": "zangokadarako ohol",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilariak zangoak lantzeko erabiltzen duen flotagailu zapala, eskuekin heltzen dena.",
+    "es": "tabla de piernas",
+    "fr": "planche \u00e0 battements",
+    "en": "kickboard"
+  },
+  {
+    "id": "32",
+    "eusterm": "bainujantzi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ba\u00f1ador; traje de ba\u00f1o",
+    "fr": "maillot de bain",
+    "en": "bathing costume; swimming costume; swimming suit"
+  },
+  {
+    "id": "33",
+    "eusterm": "ehun-material",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "material textil",
+    "fr": "mat\u00e9riau textile",
+    "en": "textile material"
+  },
+  {
+    "id": "34",
+    "eusterm": "hegal",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilariek janzten duten arrain-hegal itxurako oinetakoa. Azalera handiari esker urari emandako bulkadak indartsuagoak dira eta, hala, igerilariak bizkorrago mugi daitezke uretan.",
+    "es": "aleta",
+    "fr": "palme",
+    "en": "fin; flipper"
+  },
+  {
+    "id": "35",
+    "eusterm": "igeriketa-betaurrekoak",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "gafas de nataci\u00f3n",
+    "fr": "lunettes de natation",
+    "en": "swimming goggles; goggles"
+  },
+  {
+    "id": "36",
+    "eusterm": "igeriketa-txano",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "gorro de nataci\u00f3n",
+    "fr": "bonnet de natation",
+    "en": "swimming cap"
+  },
+  {
+    "id": "37",
+    "eusterm": "amaierako denbora",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilari batek edo igerilari-talde batek lasterketaren ibilbidea egiteko erabilitako denbora.",
+    "es": "tiempo final",
+    "fr": "temps \u00e0 l\u2019arriv\u00e9e; temps d\u2019arriv\u00e9e",
+    "en": "total time; finish time"
+  },
+  {
+    "id": "38",
+    "eusterm": "arbitro-batzorde",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "comit\u00e9 de \u00e1rbitros",
+    "fr": "comit\u00e9 des arbitres",
+    "en": "referee committee"
+  },
+  {
+    "id": "39",
+    "eusterm": "arbitro-epaile",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igeriketako proban edo lehiaketan erantzukizun eta erabakimen handiena duen arbitroa.",
+    "es": "juez \u00e1rbitro",
+    "fr": "juge-arbitre en chef",
+    "en": "chief referee"
+  },
+  {
+    "id": "40",
+    "eusterm": "azken irteera-eremu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilariak proba edo lehiaketa hasi aurretik elkartzen diren eremua. Lehen irteera-eremutik pasatzen dira bertara igerilariak.",
+    "es": "c\u00e1mara de salidas; \u00faltima c\u00e1mara de salidas",
+    "fr": "derni\u00e8re zone de rassemblement",
+    "en": "final call room; last marshalling area; last marshalling room"
+  },
+  {
+    "id": "41",
+    "eusterm": "azken zati",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "tramo final",
+    "fr": "parcours final",
+    "en": "final stretch; home stretch"
+  },
+  {
+    "id": "42",
+    "eusterm": "baja-fitxa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ficha de baja",
+    "fr": "formulaire de retrait",
+    "en": "withdrawal form"
+  },
+  {
+    "id": "43",
+    "eusterm": "banakako proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "proba indibidual",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba individual",
+    "fr": "\u00e9preuve individuelle",
+    "en": "individual event"
+  },
+  {
+    "id": "44",
+    "eusterm": "behin betiko zerrenda",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "listado definitivo",
+    "fr": "liste d\u00e9finitive",
+    "en": "final list"
+  },
+  {
+    "id": "45",
+    "eusterm": "behin-behineko zerrenda",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "listado provisional",
+    "fr": "liste provisoire",
+    "en": "provisional list"
+  },
+  {
+    "id": "47",
+    "eusterm": "dei",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Arbitro-epaileak igerilariei irteeraposiziora hurbiltzeko txistu-hotsen bidez ematen dien abisua.",
+    "es": "llamada; aviso",
+    "fr": "appel",
+    "en": "call"
+  },
+  {
+    "id": "48",
+    "eusterm": "denbora ofizial",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Kronometro elektronikoak erregistratutako eta arbitro-epaileak baliozkotzat emandako behin betiko denbora.",
+    "es": "tiempo oficial",
+    "fr": "temps officiel",
+    "en": "official time"
+  },
+  {
+    "id": "49",
+    "eusterm": "denbora partzial",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "tarteko denbora",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Igerilari batek lasterketaren zati jakin bat egiteko erabilitako denbora, lasterketa osoaren denboraz gain kronometratu dena.",
+    "es": "tiempo parcial",
+    "fr": "temps de passage; temps interm\u00e9diaire",
+    "en": "split time; split; lap time; intermediate time"
+  },
+  {
+    "id": "50",
+    "eusterm": "denbora-txartel",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Kronometratzaileek hartutako denbora jasotzeko dokumentua, igerilari batek proba egiteko behar izan duen denbora adierazten duena.",
+    "es": "tarjeta de tiempos",
+    "fr": "carte de temps",
+    "en": "timecard"
+  },
+  {
+    "id": "51",
+    "eusterm": "domina",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "medaila",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "medalla",
+    "fr": "m\u00e9daille",
+    "en": "medal"
+  },
+  {
+    "id": "52",
+    "eusterm": "entrenatzaile",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "",
+    "fr": "",
+    "en": "trenador tra\u00eeneur; coach"
+  },
+  {
+    "id": "53",
+    "eusterm": "erlojupeko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Banaka aterata, igerilariek ahalik eta denbora laburrenean egin beharreko proba kronometratua.",
+    "es": "contrarreloj",
+    "fr": "contre la montre",
+    "en": "time trial"
+  },
+  {
+    "id": "54",
+    "eusterm": "erlojupeko sistema",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "sistema contrarreloj",
+    "fr": "syst\u00e8me contre la montre",
+    "en": "time trial system"
+  },
+  {
+    "id": "55",
+    "eusterm": "erregelamendu tekniko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "reglamento t\u00e9cnico",
+    "fr": "r\u00e8glement technique",
+    "en": "technical regulation; technical rule"
+  },
+  {
+    "id": "46",
+    "eusterm": "berreste-fitxa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ficha de confirmaci\u00f3n",
+    "fr": "",
+    "en": ""
+  },
+  {
+    "id": "56",
+    "eusterm": "errelebo",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilari batek, errelebo-lasterketan dagokion ibilbide-zatia egin ondoren, taldekide batekin egiten duen txanda-aldaketa, azken horrek uretara jauzi egin eta dagokion zatia egin dezan.",
+    "es": "relevo",
+    "fr": "relais",
+    "en": "relay"
+  },
+  {
+    "id": "57",
+    "eusterm": "errelebo-fitxa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ficha de relevo",
+    "fr": "formulaire de relais",
+    "en": "relay declaration form"
+  },
+  {
+    "id": "58",
+    "eusterm": "errelebo-lasterketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilari batzuez osatutako taldeen arteko lasterketa, igerilari bakoitzak txandaka ibilbidearen zati proportzionala egitean datzana. Igerilekuko igeriketan, lau igerilarik edo gehiagok osatzen dute taldea; ur irekietako igeriketan, berriz, hiru igerilarik.",
+    "es": "prueba de relevos; relevos",
+    "fr": "course de relais; \u00e9preuve de relais",
+    "en": "relay event; relay race"
+  },
+  {
+    "id": "59",
+    "eusterm": "eskuzko kronometratzesistema",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Kale bakoitzean zenbait kronometratzailek eragiten dituzten erloju digitalen sistema. Ekipamendu elektronikoarekin eta ekipamendu erdiautomatikoarekin neurtutako denboretan akatsa dagoenean hartzen da denbora ofizialtzat sistema horren bidez neurtutako denbora.",
+    "es": "cron\u00f3metro manual; crono manual; equipo de clasificaci\u00f3n manual",
+    "fr": "syst\u00e8me de chronom\u00e9trage manuel",
+    "en": "manual timing system"
+  },
+  {
+    "id": "64",
+    "eusterm": "garaikur",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "trofeo",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "trofeo",
+    "fr": "troph\u00e9e",
+    "en": "trophy"
+  },
+  {
+    "id": "60",
+    "eusterm": "esprint",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Lasterketaren zati batean igerilari batek abiadura ahalik eta gehien handitzeko egiten duen ahalegina.",
+    "es": "esprint; sprint",
+    "fr": "sprint",
+    "en": "sprint"
+  },
+  {
+    "id": "66",
+    "eusterm": "helmuga-epaile",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilarien sailkapena iriste-ordenaren arabera zehazten duen epailea.",
+    "es": "juez de llegada",
+    "fr": "juge \u00e0 l\u2019arriv\u00e9e; juge d\u2019arriv\u00e9e",
+    "en": "finish judge"
+  },
+  {
+    "id": "61",
+    "eusterm": "ez agertze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "incomparecencia; no presentado",
+    "fr": "non-comparution",
+    "en": "non-appearance; failure to appear"
+  },
+  {
+    "id": "62",
+    "eusterm": "final",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "final",
+    "fr": "finale",
+    "en": "final"
+  },
+  {
+    "id": "63",
+    "eusterm": "freno-bainujantzi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilariak entrenamenduetan uraren erresistentzia handiagotzeko jantz dezakeen bainujantzi berezia.",
+    "es": "ba\u00f1ador de resistencia",
+    "fr": "maillot frein",
+    "en": "drag suit"
+  },
+  {
+    "id": "65",
+    "eusterm": "gertu!",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "prest!",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Irteera-epaileak igerilariei proba edo lehiaketa hasi aurretik irteerarako prest jar daitezela adierazteko erabiltzen duen esapidea.",
+    "es": "\u00a1preparados!",
+    "fr": "\u00e0 vos marques!",
+    "en": "take your marks!"
+  },
+  {
+    "id": "67",
+    "eusterm": "idazkaritza-mahai",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Idazkariak, epaileak eta lehiaketaren funtzionamendu zuzenaz arduratzen diren bestelako pertsonak biltzen diren mahaia, igerilekutik gertu kokatzen dena.",
+    "es": "mesa de secretar\u00eda",
+    "fr": "table du secr\u00e9tariat",
+    "en": "desk; secretary\u2019s table"
+  },
+  {
+    "id": "68",
+    "eusterm": "inskripzio-denbora",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "tiempo de inscripci\u00f3n",
+    "fr": "temps d\u2019inscription",
+    "en": "entry time"
+  },
+  {
+    "id": "69",
+    "eusterm": "iraupen-igerilari",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "800 m-ko edo gehiagoko probetan espezializatutako igerilaria.",
+    "es": "fondista; nadador de fondo; nadadora de fondo",
+    "fr": "nageur de fond; nageuse de fond; nageur de grand fond; nageuse de grand fond",
+    "en": "long-distance swimmer"
+  },
+  {
+    "id": "70",
+    "eusterm": "iritsiera",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilari batek probari dagokion distantzia amaitzean ukitze-plaka ukitzen duen unea.",
+    "es": "llegada",
+    "fr": "arriv\u00e9e",
+    "en": "finish"
+  },
+  {
+    "id": "71",
+    "eusterm": "irteera",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Irteera-seinalearen ondoren lehiakideek igeri egiteari ekitea.",
+    "es": "salida",
+    "fr": "d\u00e9part",
+    "en": "start"
+  },
+  {
+    "id": "72",
+    "eusterm": "irteera baliogabe",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Erregelamenduaren aurkako irteera, igerilari bat edo gehiago irteera-seinalea jo aurretik abiatzen direnean gertatzen dena. Arau-haustea egin duen igerilaria probatik kanporatua izan daiteke.",
+    "es": "salida falsa; salida nula",
+    "fr": "faux d\u00e9part",
+    "en": "false start"
+  },
+  {
+    "id": "73",
+    "eusterm": "irteera-epaile",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Lasterketari hasiera emateaz eta igerilarien irteeren egokitasuna bermatzeaz arduratzen den epailea.",
+    "es": "juez de salida",
+    "fr": "starter; juge au d\u00e9part",
+    "en": "starter"
+  },
+  {
+    "id": "74",
+    "eusterm": "irteera-posizio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilariek irteera-seinalearen zain dauden bitartean hartzen duten posizioa.",
+    "es": "posici\u00f3n de salida",
+    "fr": "position de d\u00e9part",
+    "en": "starting position"
+  },
+  {
+    "id": "75",
+    "eusterm": "irteera-seinale",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Irteera-epaileak lasterketaren hasiera adierazteko ematen duen seinalea.",
+    "es": "se\u00f1al de salida",
+    "fr": "signal de d\u00e9part",
+    "en": "starting signal"
+  },
+  {
+    "id": "76",
+    "eusterm": "irteerako pistola",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "irteera-pistola",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Irteera-epaileak igerilariei irteera adierazteko erabiltzen duen pistola, kronometro elektronikoarekin konektatuta egoten dena.",
+    "es": "pistola de salida",
+    "fr": "pistolet de d\u00e9part",
+    "en": "starting gun; starting pistol"
+  },
+  {
+    "id": "77",
+    "eusterm": "klub-ordezkari",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "delegado de club",
+    "fr": "d\u00e9l\u00e9gu\u00e9 de club",
+    "en": "club delegate"
+  },
+  {
+    "id": "78",
+    "eusterm": "kronometratzaile",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "cronometrador",
+    "fr": "chronom\u00e9treur",
+    "en": "timekeeper"
+  },
+  {
+    "id": "79",
+    "eusterm": "kronometratze automatikoko sistema",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Lehiaketan igerilari bakoitzaren denbora era automatikoan kontrolatzen duen gailu edo kronometro elektronikoa.",
+    "es": "cron\u00f3metro electr\u00f3nico de placa; crono electr\u00f3nico de placa; equipo electr\u00f3nico de clasificaci\u00f3n autom\u00e1tica",
+    "fr": "syst\u00e8me de chronom\u00e9trage automatique \u00e9lectronique",
+    "en": "automatic timing system; electronic touch pad timing system"
+  },
+  {
+    "id": "80",
+    "eusterm": "kronometro",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "cron\u00f3metro",
+    "fr": "chronom\u00e8tre",
+    "en": "chronometer"
+  },
+  {
+    "id": "81",
+    "eusterm": "lasterketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Distantzia jakin bat ahalik eta denbora laburrenean egitean datzan norgehiagoka.",
+    "es": "carrera",
+    "fr": "course",
+    "en": "race"
+  },
+  {
+    "id": "82",
+    "eusterm": "lasterketa-idazkari",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Lasterketan igerilariak antolatzeaz eta haien ongizatea bermatzeaz arduratzen den pertsona.",
+    "es": "secretario de la carrera; secretaria de la carrera",
+    "fr": "commis de course; commise de course",
+    "en": "clerk of the course; clerk of course"
+  },
+  {
+    "id": "83",
+    "eusterm": "lehen irteera-eremu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilariak proba edo lehiaketa hasi baino gutxienez 20 minutu lehenago biltzen diren eremua. Lasterketaidazkariak igerilarien presentzia egiaztatzen du bertan, eta epaileak, berriz, igerilariek lehiaketan erabiliko dituzten bainujantziak aztertzen ditu.",
+    "es": "prec\u00e1mara de salidas; prec\u00e1mara; primera c\u00e1mara de salidas",
+    "fr": "premi\u00e8re zone de rassemblement",
+    "en": "first marshalling area; first marshalling room; main call room; ready room"
+  },
+  {
+    "id": "84",
+    "eusterm": "lehiaketa-bainujantzi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ba\u00f1ador de competici\u00f3n",
+    "fr": "maillot de comp\u00e9tition",
+    "en": "competition suit"
+  },
+  {
+    "id": "85",
+    "eusterm": "lehiaketa-batzorde",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "comit\u00e9 de competici\u00f3n",
+    "fr": "comit\u00e9 de comp\u00e9tition",
+    "en": "competition committee"
+  },
+  {
+    "id": "86",
+    "eusterm": "lehiaketa-zuzendari",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "director t\u00e9cnico de la competici\u00f3n; director de competici\u00f3n",
+    "fr": "directeur de comp\u00e9tition",
+    "en": "competition director"
+  },
+  {
+    "id": "87",
+    "eusterm": "lehiatze-formula",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "f\u00f3rmula de competici\u00f3n",
+    "fr": "formule de comp\u00e9tition",
+    "en": "competition formula"
+  },
+  {
+    "id": "88",
+    "eusterm": "markagailu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Taula-formako gailua, elektronikoa orokorrean, proban edo lehiaketan parte hartzen ari diren igerilarien edo taldeen emaitzen berri ematen duena.",
+    "es": "marcador",
+    "fr": "tableau; tableau de marque",
+    "en": "scoreboard"
+  },
+  {
+    "id": "89",
+    "eusterm": "ohartarazpen-seinale",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "800 edo 1.500 m-ko lasterketa amaitzeko bi luze falta direla adierazteko egiten den soinua. Txilibitu batez edo kanpai batez egin ohi da.",
+    "es": "se\u00f1al de advertencia; se\u00f1al de aviso",
+    "fr": "signal d\u2019avertissement",
+    "en": "warning signal"
+  },
+  {
+    "id": "90",
+    "eusterm": "ordezkarien akreditazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "acreditaci\u00f3n de delegados",
+    "fr": "accr\u00e9ditation des d\u00e9l\u00e9gu\u00e9s",
+    "en": "delegate accreditation"
+  },
+  {
+    "id": "91",
+    "eusterm": "ordezko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Kanporaketa-lasterketan, finalisten ondorengo bi postuetan geratu diren bi igerilarietako bakoitza. Igerilariren batek ezingo balu igeri egin, ordezkoa lehiatuko litzateke finalean.",
+    "es": "suplente",
+    "fr": "rempla\u00e7ant",
+    "en": "alternate"
+  },
+  {
+    "id": "92",
+    "eusterm": "parte-hartzaileen zerrenda",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "listado de participantes",
+    "fr": "liste des participants",
+    "en": "participant list"
+  },
+  {
+    "id": "93",
+    "eusterm": "probaren programa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "programa de pruebas",
+    "fr": "programme de test",
+    "en": "test program"
+  },
+  {
+    "id": "94",
+    "eusterm": "sailkapen",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "clasificaci\u00f3n",
+    "fr": "classement",
+    "en": "classification; placing; ranking"
+  },
+  {
+    "id": "95",
+    "eusterm": "sari-banaketako eremu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Sari-banaketako zeremoniak egiteko erabiltzen den eremua.",
+    "es": "c\u00e1mara de premiaci\u00f3n",
+    "fr": "zone protocolaire",
+    "en": "award ceremony area; victory ceremony area"
+  },
+  {
+    "id": "96",
+    "eusterm": "sari-banaketako zeremonia",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ceremonia de entrega de los premios",
+    "fr": "c\u00e9r\u00e9monie de remise des prix",
+    "en": "award ceremony; victory ceremony; prize-giving ceremony"
+  },
+  {
+    "id": "97",
+    "eusterm": "txapeldun",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "campe\u00f3n",
+    "fr": "champion",
+    "en": "champion"
+  },
+  {
+    "id": "98",
+    "eusterm": "txapeldunorde",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "subcampe\u00f3n",
+    "fr": "deuxi\u00e8me au classement",
+    "en": "runner-up"
+  },
+  {
+    "id": "99",
+    "eusterm": "txapelketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "campeonato",
+    "fr": "championnat",
+    "en": "championship"
+  },
+  {
+    "id": "100",
+    "eusterm": "zigortu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "zehatu",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "sancionar",
+    "fr": "p\u00e9naliser",
+    "en": "sanction; penalize"
+  },
+  {
+    "id": "101",
+    "eusterm": "zona misto",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilariak lehiatu eta berehala joaten diren eremua; bertan komunikabide baimenduek elkarrizketa laburrak egiten dizkiete.",
+    "es": "zona mixta",
+    "fr": "zone neutre; zone mixte",
+    "en": "mixed zone"
+  },
+  {
+    "id": "102",
+    "eusterm": "aldebakarreko arnasketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Crawl igeriketa-estiloan, arnasa beti alde berean hartzean datzan arnasketamota.",
+    "es": "respiraci\u00f3n unilateral",
+    "fr": "respiration unilat\u00e9rale",
+    "en": "unilateral breathing; one-side breathing"
+  },
+  {
+    "id": "103",
+    "eusterm": "aldebiko arnasketa",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "arnasketa txandakatu",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Crawl igeriketa-estiloan, arnasa txandaka alde batera eta bestera hartzean datzan arnasketa-mota.",
+    "es": "respiraci\u00f3n bilateral; respiraci\u00f3n alternada",
+    "fr": "respiration bilat\u00e9rale; respiration alternative",
+    "en": "bilateral breathing; alternative breathing"
+  },
+  {
+    "id": "104",
+    "eusterm": "aldibereko besakada",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igeriketan besoak aldi berean mugituz egiten diren mugimendu ziklikoetako bakoitza. Tximeleta- eta bularestiloetan erabiltzen da.",
+    "es": "brazada simult\u00e1nea",
+    "fr": "brass\u00e9e simultan\u00e9e",
+    "en": "simultaneous stroke"
+  },
+  {
+    "id": "105",
+    "eusterm": "aldibereko zangokada",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igeriketan zangoekin aldi berean egiten diren mugimendu ziklikoetako bakoitza. Tximeleta- eta bularestiloetan erabiltzen da.",
+    "es": "batido simult\u00e1neo",
+    "fr": "battement simultan\u00e9",
+    "en": "simultaneous kick"
+  },
+  {
+    "id": "106",
+    "eusterm": "arnasketa frontal",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Bular eta tximeleta igeriketa-estiloetan erabiltzen den arnasketa-mota, aurrerantz begira arnastean datzana.",
+    "es": "respiraci\u00f3n frontal",
+    "fr": "respiration frontale",
+    "en": "frontal breathing"
+  },
+  {
+    "id": "107",
+    "eusterm": "beroketa",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "berotze",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Igeri egin aurretik egiten den ariketasorta. Muskuluak intentsitate handiko jarduera fisikorako prestatzea dute helburu ariketa horiek.",
+    "es": "calentamiento",
+    "fr": "\u00e9chauffement",
+    "en": "warm-up"
+  },
+  {
+    "id": "108",
+    "eusterm": "besakada",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igeriketan besoak mugituz egiten diren mugimendu ziklikoetako bakoitza.",
+    "es": "brazada",
+    "fr": "brass\u00e9e",
+    "en": "stroke"
+  },
+  {
+    "id": "109",
+    "eusterm": "besoa itzultze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Besakadaren trakzioaldia bukatzean, besoak besakada berriari ekin aurretik egiten duen mugimendua.",
+    "es": "recobro",
+    "fr": "retour du bras",
+    "en": "recovery"
+  },
+  {
+    "id": "110",
+    "eusterm": "bular-estiloko zangokada",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "bularkako zangokada",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "batido de braza; patada de braza",
+    "fr": "ciseau de brasse; battement de brasse",
+    "en": "breaststroke kick"
+  },
+  {
+    "id": "111",
+    "eusterm": "errekuperazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilaria, esfortzu fisikoa egin ondoren, aurreko egoerara itzultzea. Errekuperazio aktiboa eta pasiboa bereizten dira.",
+    "es": "recuperaci\u00f3n",
+    "fr": "r\u00e9cup\u00e9ration",
+    "en": "recovery"
+  },
+  {
+    "id": "112",
+    "eusterm": "erritmo",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ritmo",
+    "fr": "allure",
+    "en": "pace"
+  },
+  {
+    "id": "113",
+    "eusterm": "igeriketa-palak",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "palak",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "palas de nataci\u00f3n; palas",
+    "fr": "plaquettes de natation",
+    "en": "hand paddles"
+  },
+  {
+    "id": "114",
+    "eusterm": "igeriketa-ziklo",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilariaren besoek eta zangoek egiten dituzten mugimendu-ziklo osoetako bakoitza.",
+    "es": "ciclo de nado",
+    "fr": "cycle de nage",
+    "en": "swimming cycle"
+  },
+  {
+    "id": "115",
+    "eusterm": "irristatze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "deslizamiento",
+    "fr": "glissement",
+    "en": "slipping; slinding"
+  },
+  {
+    "id": "116",
+    "eusterm": "trakzio-fase",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilariak besoekin uraren aurka indarra egiten duen fasea, uraren erresistentzia gainditzea eta uretan aurrera egitea ahalbidetzen duena.",
+    "es": "tracci\u00f3n",
+    "fr": "phase de traction; traction",
+    "en": "pulling phase"
+  },
+  {
+    "id": "119",
+    "eusterm": "tximeleta-estiloko zangokada",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "tximeletakako zangokada",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "batido de mariposa; patada de delf\u00edn",
+    "fr": "battement de papillon; battement de dauphin",
+    "en": "butterfly kick"
+  },
+  {
+    "id": "120",
+    "eusterm": "zangokada",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igeriketan zangoak mugituz egiten diren mugimendu ziklikoetako bakoitza.",
+    "es": "batido",
+    "fr": "battement",
+    "en": "kick"
+  },
+  {
+    "id": "117",
+    "eusterm": "txandakako besakada",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igeri egitean besoek aldizkatuz egiten dituzten mugimendu ziklikoetako bakoitza. Crawl- eta bizkar-estiloetan erabiltzen da.",
+    "es": "brazada alterna",
+    "fr": "brass\u00e9e alternative",
+    "en": "alternating stroke"
+  },
+  {
+    "id": "118",
+    "eusterm": "txandakako zangokada",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igeriketan zangoak txandaka mugituz egiten diren mugimendu ziklikoetako bakoitza. Crawl- eta bizkar-estiloetan erabiltzen da.",
+    "es": "batido alterno",
+    "fr": "battement alternatif",
+    "en": "alternating kick"
+  },
+  {
+    "id": "121",
+    "eusterm": "berotze/errekuperatze igerileku",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilariek lehiatu aurretik berotzeko eta lehiatu ondoren errekuperatzeko erabiltzen duten igerilekua. Igeriketa sinkronizaturako edo jauzietarako igerilekua izan ohi da.",
+    "es": "piscina de calentamiento/ recuperaci\u00f3n",
+    "fr": "bassin d\u2019\u00e9chauffement/ r\u00e9cup\u00e9ration; piscine d\u2019\u00e9chauffement/r\u00e9cup\u00e9ration",
+    "en": "warm-up/recovery pool"
+  },
+  {
+    "id": "122",
+    "eusterm": "bira-kontagailu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilari bati 800 edo 1.500 m-ko proba amaitzeko falta zaizkion luzeen kopurua adierazten duen plaka laukizuzena.",
+    "es": "cuentavueltas; marcador de distancia parcial",
+    "fr": "carte de longueurs; plaque des longueurs; compteur des longueurs",
+    "en": "lap card; lap counter"
+  },
+  {
+    "id": "123",
+    "eusterm": "biraketa-plaka",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilekuan egiten diren probetan eta lehiaketetan, igerilariek biratzeko erabiltzen duten ukitze-plaka.",
+    "es": "placa de viraje",
+    "fr": "plaque de virage",
+    "en": "turning plate"
+  },
+  {
+    "id": "124",
+    "eusterm": "bizkar-estiloko biraketaadierazle",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "bizkarkako biraketa-adierazle",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "biraketa-adierazle (4) Igerilekua bi hondoko paretetatik 5 m-ko distantziara zabaletara zeharkatzen duten bandera-lerroetako bakoitza. Bizkar-estiloko igerian doazen igerilariei amaierako pareta gertu dutela ohartarazteko balio du.",
+    "es": "indicador de viraje de espalda; indicador de viraje",
+    "fr": "rep\u00e8re de virage de dos",
+    "en": "backstroke turn indicator"
+  },
+  {
+    "id": "125",
+    "eusterm": "helmuga-horma",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "helmuga-pareta",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Proba baten amaierako pareta.",
+    "es": "pared de llegada",
+    "fr": "mur des arriv\u00e9es; mur d\u2019arriv\u00e9e",
+    "en": "finish wall"
+  },
+  {
+    "id": "126",
+    "eusterm": "hondartza",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilekua inguratzen duen eremu irristagaitza, 2,5 m-ko zabalera izaten duena.",
+    "es": "playa",
+    "fr": "plage",
+    "en": "beach"
+  },
+  {
+    "id": "127",
+    "eusterm": "hondoko horma",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "hondoko pareta",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Igerilekua luzetara mugatzen duten bi paretetako bakoitza.",
+    "es": "pared de fondo",
+    "fr": "mur d\u2019extr\u00e9mit\u00e9",
+    "en": "end wall"
+  },
+  {
+    "id": "128",
+    "eusterm": "igerileku",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "piscina",
+    "fr": "piscine",
+    "en": "pool; swimming pool"
+  },
+  {
+    "id": "129",
+    "eusterm": "igerilekuaren hondo",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "fondo de la piscina",
+    "fr": "fond du bassin; fond de la piscine",
+    "en": "bottom of the pool; floor of the pool"
+  },
+  {
+    "id": "130",
+    "eusterm": "irteera baliogabearen soka",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Irteeratik 15 m-ra igerilekua zabaletara zeharkatzen duen soka, uraren gainean esekita egoten dena. Irteeran irregulartasunen bat izanez gero, uretara erorarazten da igerilariak geldiarazteko.",
+    "es": "cuerda de salida nula",
+    "fr": "corde de faux d\u00e9part; corde de signalisation de faux d\u00e9part",
+    "en": "false start rope; false start recall rope"
+  },
+  {
+    "id": "131",
+    "eusterm": "irteerako helduleku",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Bizkar-estiloko probetako zein lau estiloetako errelebo-probetako irteeretan erabiltzen den heldulekua, irteera-plataformaren azpialdean kokatzen dena.",
+    "es": "barra de salida; agarradero",
+    "fr": "poign\u00e9e de d\u00e9part; barre de d\u00e9part",
+    "en": "handgrip; starting grip; starting rail"
+  },
+  {
+    "id": "132",
+    "eusterm": "kale",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilekuak luzetara izaten dituen korridore-itxurako ataletako bakoitza, kortxo-ilarek banatua egoten dena eta 2-2,5 m-ko zabalera izaten duena.",
+    "es": "calle",
+    "fr": "couloir; ligne d\u2019eau; couloir de nage",
+    "en": "lane"
+  },
+  {
+    "id": "133",
+    "eusterm": "kale-lerro",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "hondoko marra",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Igerilekuaren hondoan kale bakoitzaren erdian margotutako luzetarako marra. Igerilariei zuzen igeri egitea errazten die.",
+    "es": "l\u00ednea de calle; l\u00ednea de fondo",
+    "fr": "ligne de couloir; ligne de fond",
+    "en": "bottom line; lane line"
+  },
+  {
+    "id": "134",
+    "eusterm": "kale-zenbaki",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "n\u00famero de calle",
+    "fr": "num\u00e9ro du couloir",
+    "en": "lane number"
+  },
+  {
+    "id": "135",
+    "eusterm": "kortxo-ilara",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Kaleak mugatzen dituzten pieza zirkularren zerrenda bakoitza.",
+    "es": "corchera",
+    "fr": "corde de couloir; ligne de flotteurs; marque de couloir",
+    "en": "lane marker; lane rope; racing line; racing lane"
+  },
+  {
+    "id": "136",
+    "eusterm": "lehiaketa-igerileku",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "piscina de competici\u00f3n",
+    "fr": "bassin de comp\u00e9tition; bassin sportif",
+    "en": "competition pool"
+  },
+  {
+    "id": "137",
+    "eusterm": "sakonera handiko igerileku",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "piscina profunda",
+    "fr": "piscine profonde",
+    "en": "deep swimming pool"
+  },
+  {
+    "id": "138",
+    "eusterm": "sakonera txikiko igerileku",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "piscina poco profunda",
+    "fr": "piscine peu profonde",
+    "en": "shallow swimming pool"
+  },
+  {
+    "id": "139",
+    "eusterm": "abiadura-igerilari",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "50 eta 100 m-ko probetan espezializatutako igerilaria.",
+    "es": "nadador de velocidad; nadadora de velocidad; velocista",
+    "fr": "nageur de vitesse; nageuse de vitesse; sprinter",
+    "en": "sprint swimmer; sprinter"
+  },
+  {
+    "id": "140",
+    "eusterm": "berdinketa hauste",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "desempate",
+    "fr": "barrage",
+    "en": "play-off"
+  },
+  {
+    "id": "141",
+    "eusterm": "biraketa-epaile",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Proban zehar egiten diren biraketak erregelamenduarekin bat datozela bermatzeaz arduratzen den epailea.",
+    "es": "juez de virajes",
+    "fr": "juge de virages; inspecteur des virages; contr\u00f4leur des virages",
+    "en": "turn judge; turning judge"
+  },
+  {
+    "id": "142",
+    "eusterm": "bizkar-estiloko 100 m-ko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "100 m bizkar",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de 100 m espalda; 100 m espalda",
+    "fr": "\u00e9preuve de 100 m dos; 100 m dos",
+    "en": "100 m backstroke event; 100 m backstroke"
+  },
+  {
+    "id": "143",
+    "eusterm": "bizkar-estiloko 200 m-ko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "200 m bizkar",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de 200 m espalda; 200 m espalda",
+    "fr": "\u00e9preuve de 200 m dos; 200 m dos",
+    "en": "200 m backstroke event; 200 m backstroke"
+  },
+  {
+    "id": "144",
+    "eusterm": "bizkar-estiloko 50 m-ko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "50 m bizkar",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de 50 m espalda; 50 m espalda",
+    "fr": "\u00e9preuve de 50 m dos; 50 m dos",
+    "en": "50 m backstroke event; 50 m backstroke"
+  },
+  {
+    "id": "145",
+    "eusterm": "bular-estiloko 100 m-ko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "100 m bular",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de 100 m braza; 100 m braza",
+    "fr": "\u00e9preuve de 100 m brasse; 100 m brasse",
+    "en": "100 m breaststroke event; 100 m breaststroke"
+  },
+  {
+    "id": "146",
+    "eusterm": "bular-estiloko 200 m-ko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "200 m bular",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de 200 m braza; 200 m braza",
+    "fr": "\u00e9preuve de 200 m brasse; 200 m brasse",
+    "en": "200 m breaststroke event; 200 m breaststroke"
+  },
+  {
+    "id": "150",
+    "eusterm": "estilo libreko 100 m-ko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "100 m libre",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de 100 m libres; 100 m libres",
+    "fr": "\u00e9preuve de 100 m nage libre; 100 m nage libre eestyle",
+    "en": "100 m freestyle event; 100 m"
+  },
+  {
+    "id": "153",
+    "eusterm": "estilo libreko 4 x 200 m errelebo-proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "4 x 200 m libre",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de relevos 4 x 200 m libres; 4 x 200 m libres",
+    "fr": "\u00e9preuve de relais 4 x 200 m nage libre; 4 x 200 m nage libre",
+    "en": "4 x 200 m freestyle relay event; 4 x 200 m freestyle"
+  },
+  {
+    "id": "157",
+    "eusterm": "estilo libreko 800 m-ko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "800 m libre",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de 800 m libres; 800 m libres",
+    "fr": "\u00e9preuve de 800 m nage libre; 800 m nage libre eestyle",
+    "en": "800 m freestyle event; 800 m"
+  },
+  {
+    "id": "147",
+    "eusterm": "bular-estiloko 50 m-ko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "50 m bular",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de 50 m braza; 50 m braza",
+    "fr": "\u00e9preuve de 50 m brasse; 50 m brasse",
+    "en": "50 m breaststroke event; 50 m breaststroke"
+  },
+  {
+    "id": "151",
+    "eusterm": "estilo libreko 200 m-ko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "200 m libre",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de 200 m libres; 200 m libres",
+    "fr": "\u00e9preuve de 200 m nage libre; 200 m nage libre eestyle",
+    "en": "200 m freestyle event; 200 m"
+  },
+  {
+    "id": "154",
+    "eusterm": "estilo libreko 4 x 50 m errelebo-proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "4 x 50 m libre",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de relevos 4 x 50 m libres; 4 x 50 m libres",
+    "fr": "\u00e9preuve de relais 4 x 50 m nage libre; 4 x 50 m nage libre",
+    "en": "4 x 50 m freestyle relay event; 4 x 50 m freestyle"
+  },
+  {
+    "id": "158",
+    "eusterm": "estilo-epaile",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Proba bati dagokion igeriketaestiloaren arauak betetzen direla bermatzeaz arduratzen den epailea.",
+    "es": "juez de estilos",
+    "fr": "juge de nages; juge de nage",
+    "en": "judge of strokes; strokes judge; judge of stroke"
+  },
+  {
+    "id": "152",
+    "eusterm": "estilo libreko 4 x 100 m errelebo-proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "4 x 100 m libre",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Lau igerilariko taldeetan antolatutako errelebo-lasterketa; bertan, igerilari bakoitzak nahi duen igeriketa-estiloan egiten ditu dagozkion 100 metroak. Normalean, crawl estiloa aukeratzen dute igerilariek.",
+    "es": "prueba de relevos 4 x 100 m libres; 4 x 100 m libres",
+    "fr": "\u00e9preuve de relais 4 x 100 m nage libre; 4 x 100 m nage libre",
+    "en": "4 x 100 m freestyle relay event; 4 x 100 m freestyle"
+  },
+  {
+    "id": "155",
+    "eusterm": "estilo libreko 400 m-ko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "400 m libre",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de 400 m libres; 400 m libres",
+    "fr": "\u00e9preuve de 400 m nage libre; 400 m nage libre eestyle",
+    "en": "400 m freestyle event; 400 m"
+  },
+  {
+    "id": "148",
+    "eusterm": "errekor",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Mota jakineko igeriketa-proban lortutako emaitzarik onena. Igeriketan, ur gezatakoak bakarrik izan daitezke errekor.",
+    "es": "r\u00e9cord",
+    "fr": "record",
+    "en": "record"
+  },
+  {
+    "id": "149",
+    "eusterm": "estilo libreko 1.500 m-ko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "1.500 m libre",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de 1500 m libres; 1500 m libres",
+    "fr": "\u00e9preuve de 1 500 m nage libre; 1 500 m nage libre eestyle",
+    "en": "1,500 m freestyle event; 1,500 m"
+  },
+  {
+    "id": "156",
+    "eusterm": "estilo libreko 50 m-ko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "50 m libre",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de 50 m libres; 50 m libres",
+    "fr": "\u00e9preuve de 50 m nage libre; 50 m nage eestyle",
+    "en": "50 m freestyle event; 50 m"
+  },
+  {
+    "id": "159",
+    "eusterm": "FINA puntuazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Puntuazio-sistema ofiziala, igeriketako proba desberdinen edo sexu desberdineko igerilarien emaitzak alderatzea ahalbidetzen duena.",
+    "es": "puntuaci\u00f3n FINA",
+    "fr": "notation FINA",
+    "en": "FINA scoring"
+  },
+  {
+    "id": "160",
+    "eusterm": "FINA taula",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Taula ofiziala, proba desberdinen eta sexu zein adin desberdinetako igerilarien artean alderaketak egitea ahalbidetzen duena.",
+    "es": "tabla FINA",
+    "fr": "table FINA",
+    "en": "FINA table"
+  },
+  {
+    "id": "161",
+    "eusterm": "finalaurreko",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "finalerdi",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Probaren azken-aurreko fasea; bertan erabakitzen da finalerako zein igerilari edo talde sailkatuko diren.",
+    "es": "semifinal",
+    "fr": "demi-finale",
+    "en": "semifinal"
+  },
+  {
+    "id": "162",
+    "eusterm": "gutxieneko marka",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "marka minimo",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Zenbait lehiaketa garrantzitsutan parte hartu ahal izateko, olinpiar jokoetan besteak beste, igerilariek aurreko probaren batean lortu beharreko marka.",
+    "es": "marca m\u00ednima",
+    "fr": "performance minime",
+    "en": "minimum performance"
+  },
+  {
+    "id": "163",
+    "eusterm": "iraupen ertaineko igerilari",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "200 eta 400 m-ko probetan espezializatutako igerilaria.",
+    "es": "mediofondista; nadador de medio fondo; nadadora de medio fondo",
+    "fr": "nageur de demi-fond; nageuse de demi-fond",
+    "en": "middle-distance swimmer"
+  },
+  {
+    "id": "164",
+    "eusterm": "kanpai",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "txilin",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Igeriketa-lehiaketetan, 800 eta 1.500 m-ko probetako azken bi luzeak markatzeko erabiltzen den perkusioinstrumentua.",
+    "es": "campana",
+    "fr": "cloche",
+    "en": "bell"
+  },
+  {
+    "id": "165",
+    "eusterm": "kanporaketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igeriketako probetan finalean parte hartuko duten finalistak zein izango diren erabakitzeko antolatzen diren serieetako bakoitza.",
+    "es": "eliminatoria",
+    "fr": "\u00e9liminatoire",
+    "en": "preliminary; prelim"
+  },
+  {
+    "id": "166",
+    "eusterm": "kronometratze erdiautomatikoko sistema",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Irteera-epaileak aktibatuta abiarazten den eta arduradun batek botoi bati sakatuz geldiarazten den kronometro elektroniko mota. Sailkapen automatikorako ekipamendu elektronikoak emandako denborak errorea duenean hartzen da ofizialtzat sistema horren bidez neurtutako denbora.",
+    "es": "equipo electr\u00f3nico de clasificaci\u00f3n semiautom\u00e1tica; cron\u00f3metro electr\u00f3nico de pera; crono electr\u00f3nico de pera",
+    "fr": "syst\u00e8me de chronom\u00e9trage semi-automatique",
+    "en": "semi-automatic timing system"
+  },
+  {
+    "id": "167",
+    "eusterm": "lau estiloetako 100 m-ko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "100 m lau estiloak",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de 100 m estilos; 100 m estilos",
+    "fr": "\u00e9preuve de 100 m quatre nages; 100 m quatre nages",
+    "en": "100 m medley event; 100 m medley"
+  },
+  {
+    "id": "168",
+    "eusterm": "lau estiloetako 200 m-ko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "200 m lau estiloak",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de 200 m estilos; 200 m estilos",
+    "fr": "\u00e9preuve de 200 m quatre nages; 200 m quatre nages",
+    "en": "200 m medley event; 200 m medley"
+  },
+  {
+    "id": "171",
+    "eusterm": "lau estiloetako 400 m-ko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "400 m lau estiloak",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de 400 m estilos; 400 m estilos",
+    "fr": "\u00e9preuve de 400 m quatre nages; 400 m quatre nages",
+    "en": "400 m medley event; 400 m medley"
+  },
+  {
+    "id": "169",
+    "eusterm": "lau estiloetako 4 x 100 m-ko errelebo-proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "4 x 100 m lau estiloak",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Lau igerilariko taldeetan antolatutako errelebo-lasterketa, igerilari bakoitzak 100 m igeriketa-estilo desberdin batean egitean datzana.",
+    "es": "prueba de relevos 4 x 100 m estilos; 4 x 100 m estilos",
+    "fr": "\u00e9preuve de relais 4 x 100 m quatre nages; 4 x 100 m quatre nages",
+    "en": "4 x 100 m medley relay event; 4 x 100 m medley"
+  },
+  {
+    "id": "172",
+    "eusterm": "luze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "largo",
+    "fr": "longueur; longueur de bassin",
+    "en": "lap"
+  },
+  {
+    "id": "170",
+    "eusterm": "lau estiloetako 4 x 50 m-ko errelebo-proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "4 x 50 m lau estiloak",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de relevos 4 x 50 m estilos; 4 x 50 m estilos",
+    "fr": "\u00e9preuve de relais 4 x 50 m quatre nages; 4 x 50 m quatre nages",
+    "en": "4 x 50 m medley relay event; 4 x 50 m medley"
+  },
+  {
+    "id": "173",
+    "eusterm": "markarik onen",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "mejor marca",
+    "fr": "meilleure marque",
+    "en": "best mark; seed time"
+  },
+  {
+    "id": "174",
+    "eusterm": "serie",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Lehiaketaren fase edo kanporaketa berean jokatzen diren lasterketetako bakoitza.",
+    "es": "serie",
+    "fr": "s\u00e9rie",
+    "en": "heat"
+  },
+  {
+    "id": "175",
+    "eusterm": "serieburu-sistema",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "zerrendaburu-sistema",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "sistema cabeza de serie",
+    "fr": "syst\u00e8me t\u00eate de s\u00e9rie",
+    "en": "seeded competitor system"
+  },
+  {
+    "id": "176",
+    "eusterm": "tximeleta-estiloko 100 m-ko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "100 m tximeleta",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de 100 m mariposa; 100 m mariposa",
+    "fr": "\u00e9preuve de 100 m papillon; 100 m papillon",
+    "en": "100 m butterfly event; 100 m butterfly"
+  },
+  {
+    "id": "177",
+    "eusterm": "tximeleta-estiloko 200 m-ko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "200 m tximeleta",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de 200 m mariposa; 200 m mariposa",
+    "fr": "\u00e9preuve de 200 m papillon; 200 m papillon",
+    "en": "200 m butterfly event; 200 m butterfly"
+  },
+  {
+    "id": "178",
+    "eusterm": "tximeleta-estiloko 50 m-ko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "50 m tximeleta",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "prueba de 50 m mariposa; 50 m mariposa",
+    "fr": "\u00e9preuve de 50 m papillon; 50 m papillon",
+    "en": "50 m butterfly event; 50 m butterfly"
+  },
+  {
+    "id": "179",
+    "eusterm": "ukitze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilariaren hatza ukitze-plakaren gainazalera iristea.",
+    "es": "toque",
+    "fr": "contact",
+    "en": "touch"
+  },
+  {
+    "id": "180",
+    "eusterm": "ukitze-panel",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "ukitze-plaka",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Igerilekuaren hondoko paretetan kale bakoitzean kokatzen den panel laukizuzena, kronometratze elektronikoko sistema bati konektatua dagoena. Denbora partziala eta helmuga-denbora erregistratzeko erabiltzen da.",
+    "es": "panel de toque; placa de contacto",
+    "fr": "panneau de touche; plaque de contact",
+    "en": "contact pad; touch pad"
+  },
+  {
+    "id": "181",
+    "eusterm": "biraketa irregular",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igeriketa-erregelamenduarekin bat ez datorren biraketa.",
+    "es": "viraje irregular",
+    "fr": "virage irr\u00e9gulier; virage incorrect",
+    "en": "turn against the rules"
+  },
+  {
+    "id": "182",
+    "eusterm": "bizkar-estilo",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "bizkarkako estilo",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Ahoz gora jarrita txandakako besakadak eta txandakako zangokadak ematean datzan igeriketa-estiloa.",
+    "es": "espalda",
+    "fr": "dos",
+    "en": "backstroke"
+  },
+  {
+    "id": "183",
+    "eusterm": "bular-estilo",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "bularkako estilo",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Ahuspez jarrita aldibereko besakada eta zangokada simetrikoak ematean datzan igeriketa-estiloa, igel baten igeri egiteko modua gogora dakarrena.",
+    "es": "braza",
+    "fr": "brasse",
+    "en": "breaststroke"
+  },
+  {
+    "id": "184",
+    "eusterm": "crawl-estilo",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ahuspez jarrita txandakako besakadak eta txandakako zangokadak ematean datzan igeriketa-estiloa.",
+    "es": "crol",
+    "fr": "crawl",
+    "en": "crawl; crawl stroke"
+  },
+  {
+    "id": "185",
+    "eusterm": "estilo libre",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igerilariek nahi duten igeriketa-estiloan egin dezaketen proba- edo lehiaketamota.",
+    "es": "estilo libre",
+    "fr": "nage libre",
+    "en": "freestyle"
+  },
+  {
+    "id": "186",
+    "eusterm": "estilo-aldaketako biraketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "viraje de cambio de estilo",
+    "fr": "virage de changement de style de nage",
+    "en": "swimming style change turn"
+  },
+  {
+    "id": "187",
+    "eusterm": "igeriketa-estilo",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Nazioarteko Igeriketa Federazioaren araudiak bereizten dituen igeri egiteko moduetako bakoitza, besokadak eta zangokadak era jakin batean koordinatzen dituena. Lau igeriketaestilo erabiltzen dira: crawl, bularestiloa, tximeleta-estiloa eta bizkarestiloa.",
+    "es": "estilo de nataci\u00f3n",
+    "fr": "style de nage",
+    "en": "swimming stroke"
+  },
+  {
+    "id": "188",
+    "eusterm": "lau estiloak",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "estiloak",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Distantzia osoaren laurden bakoitza estilo batean egitean datzan igeriketa-proba. Lehen laurdena tximeleta-estiloan osatzen da, bigarrena bizkar-estiloan, hirugarrena bular-estiloan eta laugarrena estilo librean. Edonola ere, lau estiloetako banakako zein taldekako probetan estilo libreari dagokion zatia ezin da bizkar-, bular- zein tximeleta-estiloan osatu.",
+    "es": "estilos; estilos individual",
+    "fr": "quatre nages",
+    "en": "medley relay"
+  },
+  {
+    "id": "189",
+    "eusterm": "tximeleta-estilo",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "tximeletakako estilo",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Ahuspez jarrita aldibereko besakadak eta aldibereko zangokadak ematean datzan igeriketa-estiloa, izurde baten igeri egiteko modua gogora dakarrena.",
+    "es": "mariposa",
+    "fr": "papillon",
+    "en": "butterfly"
+  },
+  {
+    "id": "190",
+    "eusterm": "hornidura-haga",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "anoa-haga",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Ur irekietako igeriketa-lasterketan igerilaria edariz eta janariz hornitzea ahalbidetzen duen gailua. Makila fin bat da funtsean, eta puntan du edaria edo janaria sartzeko egitura.",
+    "es": "p\u00e9rtiga de avituallamiento",
+    "fr": "perche de ravitaillement",
+    "en": "provisioning stick; provisioning pole"
+  },
+  {
+    "id": "191",
+    "eusterm": "ibilbide",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igerilariak egiten duen bidea. Probaren ibilbidea (ibilbide ofiziala) baino luzeagoa izan ohi da, igerilariek ez baitute ibilbide guztiz zuzena egiten.",
+    "es": "ruta",
+    "fr": "route",
+    "en": "course"
+  },
+  {
+    "id": "192",
+    "eusterm": "marea",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "itsasaldi",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "marea",
+    "fr": "mar\u00e9e",
+    "en": "tide"
+  },
+  {
+    "id": "193",
+    "eusterm": "olatuak",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "uhinak",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "oleaje",
+    "fr": "houle",
+    "en": "swell"
+  },
+  {
+    "id": "194",
+    "eusterm": "ontzi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "embarcaci\u00f3n",
+    "fr": "bateau; embarcation",
+    "en": "craft; boat"
+  },
+  {
+    "id": "195",
+    "eusterm": "ur irekiak",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Igeriketa-probetarako erabiltzen den jatorri naturaleko ur-masa; hau da, itsasoa, ibaia, aintzira edo ubidea.",
+    "es": "aguas abiertas",
+    "fr": "eau libre; eau ouverte",
+    "en": "open water"
+  },
+  {
+    "id": "196",
+    "eusterm": "ur-laster",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "corriente",
+    "fr": "courant",
+    "en": "current"
+  },
+  {
+    "id": "197",
+    "eusterm": "biraketa-epaileen plataforma",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "plataforma de jueces de virajes",
+    "fr": "plate-forme des juges de virage",
+    "en": "turn judge platform"
+  },
+  {
+    "id": "198",
+    "eusterm": "biratze-buia",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketa-lehiaketetan, igerilariek bira egin dezaten ainguratuta jartzen den kolore bereziko buia markaduna.",
+    "es": "boya de giro; boya de cambio de direcci\u00f3n",
+    "fr": "bou\u00e9e de virage",
+    "en": "turn buoy"
+  },
+  {
+    "id": "199",
+    "eusterm": "dartsena",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur nabigagarrietan kokatutako ontziraleku finkoa edo plataforma flotatzailea, ur irekietako igerilariek lasterketak hasteko edo amaitzeko edo hornidura-plataforma gisa erabil dezaketena.",
+    "es": "d\u00e1rsena",
+    "fr": "bassin; darse",
+    "en": "dock"
+  },
+  {
+    "id": "200",
+    "eusterm": "flotazio-gailu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "dispositivo de flotaci\u00f3n",
+    "fr": "dispositif de flottaison",
+    "en": "buoyancy device"
+  },
+  {
+    "id": "201",
+    "eusterm": "gidatze-buia",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "tarteko buia",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Ur irekietako igeriketa-lehiaketetan, biratze-buien artean kokatutako buia, igerilariari jarraitu beharreko norabidea adierazten diona.",
+    "es": "boya gu\u00eda; boya intermedia",
+    "fr": "bou\u00e9e interm\u00e9diaire",
+    "en": "intermediate buoy"
+  },
+  {
+    "id": "202",
+    "eusterm": "igerilarien eremu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "zona de nadadores; zona de nadadoras",
+    "fr": "zone des nageurs; zone des nageuses",
+    "en": "swimmer zone"
+  },
+  {
+    "id": "203",
+    "eusterm": "nabigatze-eremu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "zona de navegaci\u00f3n",
+    "fr": "zone des bateaux suiveurs",
+    "en": "escort craft zone"
+  },
+  {
+    "id": "204",
+    "eusterm": "plataforma finko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "plataforma fija",
+    "fr": "plate-forme fixe",
+    "en": "fixed platform"
+  },
+  {
+    "id": "205",
+    "eusterm": "probaren ibilbide",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "ibilbide ofizial",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Probaren edo lasterketaren antolatzaileek zehaztutako ibilbidea. Igerilariek benetan egiten duten ibilbidea luzeagoa izan ohi da, igerilariek ez baitute ibilbide guztiz zuzena egiten.",
+    "es": "recorrido",
+    "fr": "itin\u00e9raire; parcours",
+    "en": "itinerary; route"
+  },
+  {
+    "id": "206",
+    "eusterm": "zirkuitu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketa-lasterketa egiteko aurrez finkatutako ibilbide berezia, abiapuntuan amaitu ohi dena.",
+    "es": "circuito",
+    "fr": "circuit",
+    "en": "circuit"
+  },
+  {
+    "id": "207",
+    "eusterm": "10 km-ko lineako proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "lineako 10 km",
+        "qual": "4"
+      },
+      {
+        "sin": "10 km linean",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "10 km en l\u00ednea",
+    "fr": "10 km en ligne",
+    "en": "10 km in line"
+  },
+  {
+    "id": "208",
+    "eusterm": "25 km-ko lineako proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "lineako 25 km",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "(4)",
+    "es": "25 km en l\u00ednea",
+    "fr": "25 km en ligne",
+    "en": "25 km in line"
+  },
+  {
+    "id": "209",
+    "eusterm": "3 km-ko lineako proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "lineako 3 km",
+        "qual": "4"
+      },
+      {
+        "sin": "3 km linean",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "3 km en l\u00ednea",
+    "fr": "3 km en ligne",
+    "en": "3 km in line"
+  },
+  {
+    "id": "210",
+    "eusterm": "3 x 3 km-ko erlojupeko errelebo-proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "erlojupeko erreleboak 3 x 3 km",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "relevos 3 x 3 km contrarreloj",
+    "fr": "relais 3 x 3 km contre la montre",
+    "en": "relay 3 x 3 km time trial"
+  },
+  {
+    "id": "211",
+    "eusterm": "3 x 5 km-ko erlojupeko errelebo-proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "erlojupeko erreleboak 3 x 5 km",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "relevos 3 x 5 km contrarreloj",
+    "fr": "relais 3 x 5 km contre la montre",
+    "en": "relay 3 x 5 km time trial"
+  },
+  {
+    "id": "212",
+    "eusterm": "5 km-ko erlojupeko proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "erlojupeko 5 km",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "5 km contrarreloj",
+    "fr": "5 km contre la montre",
+    "en": "5 km time trial"
+  },
+  {
+    "id": "213",
+    "eusterm": "5 km-ko lineako proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "lineako 5 km",
+        "qual": "4"
+      },
+      {
+        "sin": "5 km linean",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "5 km en l\u00ednea",
+    "fr": "5 km en ligne",
+    "en": "5 km in line"
+  },
+  {
+    "id": "214",
+    "eusterm": "7,5 km-ko lineako proba",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "lineako 7,5 km",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "(4)",
+    "es": "7,5 km en l\u00ednea",
+    "fr": "7,5 km en ligne",
+    "en": "7,5 km in line"
+  },
+  {
+    "id": "215",
+    "eusterm": "arau-hauste",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "infracci\u00f3n",
+    "fr": "infraction",
+    "en": "infraction"
+  },
+  {
+    "id": "216",
+    "eusterm": "atzean geratu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketan, igerilari batek edo gehiagok, lasterketaren zati bat beste parte-hartzaile batzuekin batera taldean egin ondoren, talde horren paretik atzerantz aldendu.",
+    "es": "descolgarse",
+    "fr": "d\u00e9coller; \u00eatre l\u00e2ch\u00e9",
+    "en": "drop behind"
+  },
+  {
+    "id": "217",
+    "eusterm": "atzera-kontaketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "cuenta atr\u00e1s",
+    "fr": "compte \u00e0 rebours",
+    "en": "countdown"
+  },
+  {
+    "id": "218",
+    "eusterm": "bandera gorri",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketan, igerilariak arau-hauste bat egiten duen bigarren aldian epaileak erakusten dion bandera, igerilaria deskalifikatzea dakarrena. Igerilariaren zenbakia duen txartela erakusten dio banderarekin batera.",
+    "es": "bandera roja",
+    "fr": "drapeau rouge",
+    "en": "red flag"
+  },
+  {
+    "id": "219",
+    "eusterm": "bandera hori",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketan, igerilariak arau-hauste bat lehenengoz egiten duenean epaileak erakusten dion bandera. Igerilariaren zenbakia duen txartela erakusten dio banderarekin batera.",
+    "es": "bandera amarilla",
+    "fr": "drapeau jaune",
+    "en": "yellow flag"
+  },
+  {
+    "id": "220",
+    "eusterm": "baselina",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Uretan disolbaezina den substantzia koipetsua, ur irekietako igerilarien azala urraduretatik eta/edo ur hotzetatik babesteko erabiltzen dena. Lanolina ere erabil daiteke helburu berarekin.",
+    "es": "vaselina",
+    "fr": "vaseline",
+    "en": "vaseline"
+  },
+  {
+    "id": "221",
+    "eusterm": "bertan behera uzte",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "erretiratze",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "abandono",
+    "fr": "abandon",
+    "en": "withdrawal"
+  },
+  {
+    "id": "222",
+    "eusterm": "betebeharrak",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "requisitos",
+    "fr": "contraintes",
+    "en": "requirements"
+  },
+  {
+    "id": "223",
+    "eusterm": "bira",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "buelta",
+        "qual": "4"
+      },
+      {
+        "sin": "itzuli",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Ur irekietako igeriketa-lasterketan, behin baino gehiagotan egin behar den ibilbide zirkularreko zati edo aldi bakoitza.",
+    "es": "vuelta",
+    "fr": "tour",
+    "en": "lap"
+  },
+  {
+    "id": "224",
+    "eusterm": "denbora-mugaz kanpo",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "fuera de tiempo",
+    "fr": "hors de la limite de temps",
+    "en": "out of time limit"
+  },
+  {
+    "id": "225",
+    "eusterm": "distantzia luzeko igeriketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ibilbidea gehienez ere 10 km-koa duen ur irekietako igeriketa.",
+    "es": "nataci\u00f3n de larga distancia; larga distancia",
+    "fr": "nage de longue distance; nage de grand fond",
+    "en": "long-distance swimming"
+  },
+  {
+    "id": "226",
+    "eusterm": "elementu lagungarriak",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketa-lasterketa egiteko behar diren ontziak eta bitarteko sanitarioak.",
+    "es": "elementos auxiliares",
+    "fr": "\u00e9l\u00e9ments auxiliaires",
+    "en": "auxiliary elements"
+  },
+  {
+    "id": "227",
+    "eusterm": "erantzukizun zibileko aseguru",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "seguro de responsabilidad civil",
+    "fr": "assurance de la responsabilit\u00e9 civile",
+    "en": "liability insurance; public liability insurance"
+  },
+  {
+    "id": "228",
+    "eusterm": "eskolta-ontzi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketa-lehiaketan, lasterketa-epaileak esleitu zaion igerilariari jarraitzeko eta begiratzeko erabiltzen duen ontzia. Igerilariaren ordezkaria ere joan daiteke ontzian lasterketa-epailearekin batera.",
+    "es": "barco de escolta; embarcaci\u00f3n acompa\u00f1ante de seguridad; embarcaci\u00f3n de escolta de seguridad",
+    "fr": "bateau d\u2019escorte; bateau escorteur",
+    "en": "escort safety craft"
+  },
+  {
+    "id": "229",
+    "eusterm": "estrategia",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "estrategia",
+    "fr": "strat\u00e9gie",
+    "en": "strategy"
+  },
+  {
+    "id": "230",
+    "eusterm": "gehieneko denbora",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketa-lasterketan, irabazlea helmugara iritsi ondoren gainerako igerilariek proba amaitzeko duten denbora maximoa.",
+    "es": "tiempo l\u00edmite",
+    "fr": "limite de temps; temps limite",
+    "en": "time limit"
+  },
+  {
+    "id": "231",
+    "eusterm": "harrapatu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketan, igerilari bat bere aurretik doan beste igerilari edo igerilari-talde batenganaino iritsi.",
+    "es": "",
+    "fr": "rattraper",
+    "en": "gancharse catch up"
+  },
+  {
+    "id": "232",
+    "eusterm": "helmuga",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "meta",
+    "fr": "arriv\u00e9e",
+    "en": "finish"
+  },
+  {
+    "id": "233",
+    "eusterm": "hidratazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketa-lasterketan, igerilariak edariak hartzea gorputzeko ehunetan oreka hidrikoa mantentzeko.",
+    "es": "hidrataci\u00f3n",
+    "fr": "hydratation",
+    "en": "hydration"
+  },
+  {
+    "id": "234",
+    "eusterm": "hipertermia",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketa-lasterketetan edo entrenamenduetan, igerilariaren gorputz-tenperatura gehiegi igotzea. Eguraldi beroaren, uraren tenperatura altuaren, intsolazio-maila altuaren, hezetasunaren eta abarren ondorioz gertatu ohi da.",
+    "es": "hipertermia",
+    "fr": "hyperthermie",
+    "en": "hyperthermia"
+  },
+  {
+    "id": "235",
+    "eusterm": "hipotermia",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketan, igerilariaren gorputz-tenperatura 35 \u00baC-tik behera jaistea. Uraren zein haizearen tenperatura baxuen eta esfortzu fisiko handiaren konbinazioaren ondorioz gertatu ohi da.",
+    "es": "hipotermia",
+    "fr": "hypothermie",
+    "en": "hypothermia"
+  },
+  {
+    "id": "236",
+    "eusterm": "hornidura-plataforma",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "anoa-plataforma",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "Ur irekietako igeriketa-lehiaketan, entrenatzaileek igerilariei elikagaia edo edaria emateko erabiltzen duten ontzia edo bestelako egitura flotatzailea.",
+    "es": "plataforma de avituallamiento",
+    "fr": "ponton de ravitaillement",
+    "en": "feeding station; feeding pontoon; feeding platform"
+  },
+  {
+    "id": "237",
+    "eusterm": "igeriketa-maratoi",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "maratoi",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Ibilbidea 10 km-tik gorakoa duen ur irekietako igeriketako lasterketa-mota.",
+    "es": "marat\u00f3n de nataci\u00f3n; marat\u00f3n",
+    "fr": "natation marathon; marathon",
+    "en": "marathon swimming; marathon"
+  },
+  {
+    "id": "238",
+    "eusterm": "igerilari deskalifikatu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "nadador descalificado; nadadora descalificada",
+    "fr": "nageur disqualifi\u00e9; nageuse disqualifi\u00e9e",
+    "en": "disqualified swimmer"
+  },
+  {
+    "id": "239",
+    "eusterm": "igerilari erretiratu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "nadador retirado; nadadora retirada",
+    "fr": "nageur retir\u00e9; nageuse retir\u00e9e",
+    "en": "retired swimmer"
+  },
+  {
+    "id": "240",
+    "eusterm": "igerilari federatu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "nadador federado; nadadora federada",
+    "fr": "nageur f\u00e9d\u00e9r\u00e9; nageuse f\u00e9d\u00e9r\u00e9e",
+    "en": "federated swimmer"
+  },
+  {
+    "id": "241",
+    "eusterm": "igerilari federatugabe",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "nadador no federado; nadadora no federada",
+    "fr": "nageur non f\u00e9d\u00e9r\u00e9; nageuse non f\u00e9d\u00e9r\u00e9e",
+    "en": "non federated swimmer"
+  },
+  {
+    "id": "242",
+    "eusterm": "igerilari-zenbakiaren txartel",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketa-lehiaketan, igerilariak arau-haustea egiten duenean epaileak dagokion koloreko banderarekin batera erakusten dion txartela, igerilariaren zenbakia idatzia duena.",
+    "es": "cartulina con el n\u00famero del nadador; cartulina con el n\u00famero de la nadadora",
+    "fr": "carte portant le num\u00e9ro du nageur; carte portant le num\u00e9ro de la nageuse",
+    "en": "card bearing the swimmer\u2019s number"
+  },
+  {
+    "id": "243",
+    "eusterm": "ihes egin",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketan, igerilari batek, erritmoa azkartuta, berarekin batera igerian doazen gainerako igerilariei aurrea hartu.",
+    "es": "escaparse",
+    "fr": "\u00e9chapper; faire la diff\u00e9rence; faire le trou",
+    "en": "breakaway; make a break"
+  },
+  {
+    "id": "244",
+    "eusterm": "istripu-aseguru",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "seguro de accidentes",
+    "fr": "assurance contre les accidents; assurance-accidents",
+    "en": "accident insurance"
+  },
+  {
+    "id": "245",
+    "eusterm": "kargu-hartze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "amonestaci\u00f3n",
+    "fr": "avertissement",
+    "en": "warning"
+  },
+  {
+    "id": "246",
+    "eusterm": "kolpe",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "golpe",
+    "fr": "coup",
+    "en": "hit"
+  },
+  {
+    "id": "247",
+    "eusterm": "lanolina",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Uretan disolbaezina den substantzia koipetsua, ur irekietako igerilarien azala urraduretatik eta/edo ur hotzetatik babesteko erabiltzen dena. Artilea duten animalietatik erauzten da. Baselina ere erabil daiteke helburu berarekin.",
+    "es": "lanolina",
+    "fr": "lanoline",
+    "en": "lanolin"
+  },
+  {
+    "id": "248",
+    "eusterm": "lasterketa-epaile",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "juez de carrera",
+    "fr": "juge de bateau; juge de course",
+    "en": "race judge"
+  },
+  {
+    "id": "249",
+    "eusterm": "lasterketako ofizial",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketa-lasterketa hasi aurretik probaren ibilbidea ikuskatzeaz arduratzen den pertsona. Ibilbidea erregelamenduarekin bat datorrela bermatzeaz arduratzen da.",
+    "es": "oficial de la carrera",
+    "fr": "officiel de parcours",
+    "en": "course officer"
+  },
+  {
+    "id": "250",
+    "eusterm": "lehiakide-zenbaki",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "lasterketako zenbaki",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Ur irekietako lasterketa hasi aurretik igerilariaren besoetan, bizkarrean eta eskumuturrean tinta beltz erdiiraunkorrarekin idazten den zenbakia. Igerilaria uretan erraz identifikatzea du helburu.",
+    "es": "n\u00famero de competidor; n\u00famero de carrera",
+    "fr": "num\u00e9ro de course",
+    "en": "race number; competitor number"
+  },
+  {
+    "id": "251",
+    "eusterm": "markaketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketa-lehiaketan, tinta disolbaezinez zenbaki bat idaztea igerilariaren bizkarrean, besoan eta eskuan. Zenbaki horrek igerilaria identifikatzen du lehiaketa horretan.",
+    "es": "marcaje",
+    "fr": "marquage",
+    "en": "marking"
+  },
+  {
+    "id": "252",
+    "eusterm": "mikrotxip",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako kronometratzeteknologiako txip berezia, ur irekietako igeriketako olinpiar jokoetan eta txapelketa nagusietan ezinbestekoa dena. Igerilariek bi mikrotxip eramaten dituzte, bat eskumutur bakoitzean.",
+    "es": "microchip",
+    "fr": "puce \u00e9lectronique",
+    "en": "microchip"
+  },
+  {
+    "id": "253",
+    "eusterm": "neopreno",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "neopreno",
+    "fr": "combinaison n\u00e9opr\u00e8ne",
+    "en": "neoprene"
+  },
+  {
+    "id": "254",
+    "eusterm": "ofizial mediko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketa-lehiaketaren alderdi medikoaz arduratzen den pertsona.",
+    "es": "oficial m\u00e9dico",
+    "fr": "officiel m\u00e9dical",
+    "en": "medical officer"
+  },
+  {
+    "id": "255",
+    "eusterm": "ontzi ofizial",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "embarcaci\u00f3n oficial",
+    "fr": "bateau officiel",
+    "en": "official craft"
+  },
+  {
+    "id": "256",
+    "eusterm": "orientazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "orientaci\u00f3n",
+    "fr": "orientation",
+    "en": "orientation"
+  },
+  {
+    "id": "257",
+    "eusterm": "segurtasuneko ofizial",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketa-lehiaketaren segurtasunaz arduratzen den pertsona.",
+    "es": "oficial de seguridad",
+    "fr": "officiel de s\u00e9curit\u00e9",
+    "en": "safety officer"
+  },
+  {
+    "id": "258",
+    "eusterm": "talde",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "grupo",
+    "fr": "groupe",
+    "en": "team"
+  },
+  {
+    "id": "259",
+    "eusterm": "txistu-hots",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "pitido",
+    "fr": "coup de sifflet",
+    "en": "whistle"
+  },
+  {
+    "id": "260",
+    "eusterm": "ur irekietako igeriketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Jatorri naturaleko ur-masetan (ibai, aintzira, itsaso edo ubideetan) egiten den igeriketa-proba edo igeriketalehiaketa.",
+    "es": "nataci\u00f3n en aguas abiertas",
+    "fr": "natation en eau libre",
+    "en": "open water swimming"
+  },
+  {
+    "id": "261",
+    "eusterm": "zeharkaldi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketan, ur-masaren edo haren zati baten bi mugen arteko distantzia ahalik eta denbora gutxienean igerian zeharkatzean datzan lehiaketa.",
+    "es": "traves\u00eda",
+    "fr": "travers\u00e9e",
+    "en": "crossing"
+  },
+  {
+    "id": "262",
+    "eusterm": "ibilbidetik desbideratu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "desviarse de la trayectoria",
+    "fr": "se d\u00e9vier de la trajectoire",
+    "en": "deflect from the trajectory; deviate from the trajectory"
+  },
+  {
+    "id": "263",
+    "eusterm": "lerro zuzen",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketa-lasterketan, puntu jakin batera iristeko biderik zuzenena, nahiz eta ez duen zertan azkarrena izan ur-lasterren eta olatuen ondorioz.",
+    "es": "l\u00ednea recta",
+    "fr": "ligne droite",
+    "en": "beeline"
+  },
+  {
+    "id": "264",
+    "eusterm": "ubera baliatze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ur irekietako igeriketa-lehiaketetan, beste igerilari baten atzetik igeri egitea hark sortutako uberaz baliatzeko.",
+    "es": "nadar a los pies; drafting",
+    "fr": "prendre le sillage",
+    "en": "drafting; chopper"
+  }
+]
