@@ -26,12 +26,14 @@ for pagelink in pagelinks:
 	print('\nProcessing '+pagetitle+', language '+wlang+'...\n')
 	gettexturl = 'https://'+wlang+'.wikipedia.org/w/api.php?action=parse&prop=text&page='+pagetitle+'&format=json'
 	pagetext = requests.get(url=gettexturl).json()['parse']['text']['*']
+	print(pagetext)
 	pagejson = requests.get(url='https://www.wikidata.org/w/api.php?action=wbgetentities&sites='+wlang+'wiki&format=json&titles='+pagetitle).json()
 	pageqid = list(pagejson['entities'].keys())[0]
 	# print(str(pageqid))
 	# time.sleep(10)
-	links = re.findall('href="/wiki/([^"]*)"', pagetext.split('<ol class="references">')[0]) # wiki crossrefs in text body before the references section
-	#print(str(links))
+	links = [pagetitle]
+	links += re.findall('href="/wiki/[^ ]+ title="([^"]+)"', pagetext.split('<ol class="references">')[0]) # wiki crossrefs in text body before the references section
+	print(str(links))
 
 	outfilename = 'output/'+pagetitle+'.'+wlang+'.csv'
 	with open(outfilename, 'w', encoding="utf-8") as outfile:
