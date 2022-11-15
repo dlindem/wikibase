@@ -6,7 +6,7 @@ def write_wdmapping(wdqid=None, wbqid=None):
 		with open('data/wdmapping.csv', 'a', encoding="utf-8") as csvfile:
 			csvfile.write(wbqid+'\t'+wdqid+'\n')
 
-def importitem(importqid, process_claims=True, schemeqid=None):
+def importitem(importqid, process_claims=True, schemeqid=None, instanceqid=None):
 
 	languages_to_consider = "eu es en de fr".split(" ")
 	global itemwd2wb
@@ -30,6 +30,8 @@ def importitem(importqid, process_claims=True, schemeqid=None):
 	wbitemjson = {'labels':[], 'aliases':[], 'descriptions':[], 'statements':[{'prop_nr':'P1','type':'externalid','value':importqid}]}
 	if schemeqid:
 		wbitemjson['statements'].append({'prop_nr':'P6','type':'Item','value':schemeqid})
+	if instanceqid:
+		wbitemjson['statements'].append({'prop_nr':'P5','type':'Item','value':instanceqid})
 	if importqid in itemwd2wb:
 		wbqid = itemwd2wb[importqid] # item exists
 		# return wbqid
@@ -121,10 +123,13 @@ for binding in bindings:
 # load items to import
 with open('data/wikidata-import.csv', 'r') as file:
 	importlist = csv.DictReader(file, delimiter="\t")
-
+	seenqid = []
 	for row in importlist:
 		if not re.search('^Q[0-9]+', row['Wikidata']):
 			continue
+		if row['Wikidata'] in seenqid:
+			continue
 		print('Will now import: '+str(row))
 		# presskey = input('Proceed?')
-		print('Successfully processed: '+importitem(row['Wikidata'], schemeqid=row['Scheme']))
+		print('Successfully processed: '+importitem(row['Wikidata'], schemeqid=row['Scheme'], instanceqid="Q199"))
+		seenqid.append(row['Wikidata'])
