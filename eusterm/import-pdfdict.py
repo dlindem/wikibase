@@ -1,5 +1,9 @@
 import euswbi
 import json, re, time, sys
+eginda = """
+
+"""
+eginlist = eginda.split('\n')
 
 arloa = "mendizaletasuna"
 schemeqid = "Q197"
@@ -11,7 +15,11 @@ with open('pdf2dict/'+arloa+'.json', 'r') as jsonfile:
 	for entry in source:
 		itemdata = {'qid':False, 'statements':[], 'labels':[], 'aliases':[]}
 		# id
-		itemdata['statements'].append({'type':'string', 'prop_nr':'P15', 'value':arloa+'_'+entry['id'].rjust(3, '0'),
+		termid = arloa+'_'+entry['id'].rjust(3, '0')
+		if termid in eginlist:
+			print('Skip',termid)
+			continue
+		itemdata['statements'].append({'type':'string', 'prop_nr':'P15', 'value':termid,
 		'references':[{'type':'item','prop_nr':'P17','value':refqid}]})
 		# scheme
 		itemdata['statements'].append({'type':'item', 'prop_nr':'P6', 'value':schemeqid})
