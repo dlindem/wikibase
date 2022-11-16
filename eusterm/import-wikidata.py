@@ -67,7 +67,7 @@ def importitem(importqid, process_claims=True, schemeqid=None, instanceqid=None)
 							targetqid = importitem(claimval['id'], process_claims=False)
 						else:
 							targetqid = itemwd2wb[claimval['id']]
-							print('Will re-use an existing item for this object property value: wd:'+claimval['id']+' > eusterm:'+targetqid)
+							print('Will re-use existing item as property value: wd:'+claimval['id']+' > eusterm:'+targetqid)
 						statement = {'prop_nr':wbprop,'type':'Item','value':targetqid}
 					else:
 						statement = {'prop_nr':wbprop,'type':propwbdatatype[wbprop],'value':claimval,'action':'keep'}
@@ -131,5 +131,5 @@ with open('data/wikidata-import.csv', 'r') as file:
 			continue
 		print('Will now import: '+str(row))
 		# presskey = input('Proceed?')
-		print('Successfully processed: '+importitem(row['Wikidata'], schemeqid=row['Scheme'], instanceqid="Q199"))
+		print('Successfully processed: '+importitem(row['Wikidata'], schemeqid=row['Scheme'], instanceqid=None))
 		seenqid.append(row['Wikidata'])
