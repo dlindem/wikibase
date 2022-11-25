@@ -73,15 +73,18 @@ for pagelink in pagelinks:
 						result['sitelinks'][langsite.replace('wiki','')] = wdjson['entities'][wdid]['sitelinks'][langsite]['title'].replace(' ','_')
 
 				if 'claims' in wdjson['entities'][wdid]:
-					if 'P361' in wdjson['entities'][wdid]['claims']:
-						for claim in wdjson['entities'][wdid]['claims']['P361']:
-							result['part_of'].append('https://wikidata.org/wiki/'+claim['mainsnak']['datavalue']['value']['id'])
+					# if 'P361' in wdjson['entities'][wdid]['claims']:
+					# 	for claim in wdjson['entities'][wdid]['claims']['P361']:
+					# 		if 'datavalue' in claim['mainsnak']:
+					# 			result['part_of'].append('https://wikidata.org/wiki/'+claim['mainsnak']['datavalue']['value']['id'])
 					if 'P31' in wdjson['entities'][wdid]['claims']:
 						for claim in wdjson['entities'][wdid]['claims']['P31']:
-							result['instance_of'].append('https://wikidata.org/wiki/'+claim['mainsnak']['datavalue']['value']['id'])
+							if 'datavalue' in claim['mainsnak']:
+								result['instance_of'].append('https://wikidata.org/wiki/'+claim['mainsnak']['datavalue']['value']['id'])
 					if 'P279' in wdjson['entities'][wdid]['claims']:
 						for claim in wdjson['entities'][wdid]['claims']['P279']:
-							result['subclass_of'].append('https://wikidata.org/wiki/'+claim['mainsnak']['datavalue']['value']['id'])
+							if 'datavalue' in claim['mainsnak']:
+								result['subclass_of'].append('https://wikidata.org/wiki/'+claim['mainsnak']['datavalue']['value']['id'])
 
 			#print(str(result))
 			if not re.search(r'^Q[0-9]+', wdid): # exclude non-valid Qid
