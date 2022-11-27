@@ -27,15 +27,18 @@ mappings = {
 	"secondSurname": "extra:", # extra
 	"cleanName": "ext:P3",
 	"oRCIDCode": "ext:P39",
-	"generoa": "item:gender"
+	"generoa": "item:gender",
+	"erakundeaDa": "item:erakundeaDa"
+},
+"item:erakundeaDa":
+{
+	1 : "P5_Q6",
+	0 : "P5_Q5"
 },
 "item:gender":
 {
 	"emakumezkoa": "P5_Q5|P50_Q31",
 	"gizonezkoa": "P5_Q5|P50_Q32",
-	"beste generoak": "P5_Q5|P50_Q33",
-	"erakundeak": "P5_Q6"
-
 },
 "productions":
 {
@@ -52,7 +55,7 @@ mappings = {
     "firstPage": "str:P27",
     "lastPage": "str:P28",
     "bookTitle": "str:P54",
-    "writerName": "extra:", # TODO !!!
+    "writerName": "extra:",
     "isbn": "extra:", # extra
     "doi": "extra:" # extra
 },
