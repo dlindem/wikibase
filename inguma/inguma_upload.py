@@ -1,4 +1,4 @@
-import iwbi
+import iwbiv1
 import inguma
 import json, re, traceback, csv, sys, time, requests, validators, os
 from pathlib import Path
@@ -13,7 +13,7 @@ def update_mapping(groupname):
 	date = time.strftime("%Y%m%d")
 	groupmappingoldfile = Path('D:/Inguma/content/'+groupname+'_qidmapping_old_'+date+'.csv')
 	query = 'select ?id ?wikibase_item where {?wikibase_item idp:P49 ?id. filter regex (?id, "^'+groupname+':")}'
-	bindings = iwbi.wbi_helpers.execute_sparql_query(query=query, prefix=iwbi.sparql_prefixes)['results']['bindings']
+	bindings = iwbiv1.wbi_helpers.execute_sparql_query(query=query, prefix=iwbiv1.sparql_prefixes)['results']['bindings']
 	if len(bindings) > 0:
 		print('Found entities: '+str(len(bindings)))
 		os.rename(groupmappingfile, groupmappingoldfile)
@@ -35,7 +35,7 @@ def update_mapping(groupname):
 def extra(groupname, fieldname, value):
 	statements = {'append':[],'replace':[]}
 	if fieldname == "id":
-		statements['replace'].append(iwbi.String(value=groupname+':'+str(value).strip(), prop_nr="P49"))
+		statements['replace'].append(iwbiv1.String(value=groupname+':'+str(value).strip(), prop_nr="P49"))
 	elif fieldname == "address":
 		value = value.strip().replace("\t","")
 		r = requests.get('https://nominatim.openstreetmap.org/search?q="'+value+'"&format=json')
@@ -44,24 +44,25 @@ def extra(groupname, fieldname, value):
 			lat = r.json()[0]['lat']
 			lon = r.json()[0]['lon']
 			print('Got as first OSM result these coords:',str(lat),str(lon))
-			references = [[iwbi.String(value=value, prop_nr="P55")]]
-			statements['replace'].append(iwbi.GlobeCoordinate(prop_nr = "P57", latitude = float(lat), longitude = float(lon), references=references))
+			references = [[iwbiv1.String(value=value, prop_nr="P55")]]
+			statements['replace'].append(iwbiv1.GlobeCoordinate(prop_nr = "P57", latitude = float(lat), longitude = float(lon), references=references))
 		else:
 			print('Did not find coords on OSM for this address literal.')
-		statements['replace'].append(iwbi.String(value=value, prop_nr="P55")) # address literal
+		statements['replace'].append(iwbiv1.String(value=value, prop_nr="P55")) # address literal
 	elif fieldname == "secondSurname":
 		value = value.strip().replace("\t","")
-		namedate = re.search(r'^([^\(]+)\((\d+) ?\- ?(\d+)\)',value)
-		if not namedate:
-			statements['replace'].append(iwbi.String(value=value, prop_nr="P9"))
-		else:
-			statements['replace'].append(iwbi.String(value=namedate.group(1).strip(), prop_nr="P9"))
-			if namedate.group(2):
-				statements['replace'].append(iwbi.Time(time='+'+namedate.group(2)+'-01-01T00:00:00Z', precision=9, prop_nr="P44"))
-				print('Found birth year in second surname, processed it.')
-			if namedate.group(3):
-				statements['replace'].append(iwbi.Time(time='+'+namedate.group(3)+'-01-01T00:00:00Z', precision=9, prop_nr="P45"))
-				print('Found death year in second surname, processed it.')
+		statements['replace'].append(iwbiv1.String(value=value, prop_nr="P9"))
+		# namedate = re.search(r'^([^\(]+)\((\d+) ?\- ?(\d+)\)',value)
+		# if not namedate:
+		# 	statements['replace'].append(iwbiv1.String(value=value, prop_nr="P9"))
+		# else:
+		# 	statements['replace'].append(iwbiv1.String(value=namedate.group(1).strip(), prop_nr="P9"))
+		# 	if namedate.group(2):
+		# 		statements['replace'].append(iwbiv1.Time(time='+'+namedate.group(2)+'-01-01T00:00:00Z', precision=9, prop_nr="P44"))
+		# 		print('Found birth year in second surname, processed it.')
+		# 	if namedate.group(3):
+		# 		statements['replace'].append(iwbiv1.Time(time='+'+namedate.group(3)+'-01-01T00:00:00Z', precision=9, prop_nr="P45"))
+		# 		print('Found death year in second surname, processed it.')
 	elif fieldname == "issn":
 		if value:
 			if "-" not in value.strip(): # normalize ISSN, remove any secondary ISSN
@@ -69,14 +70,14 @@ def extra(groupname, fieldname, value):
 			else:
 				value = value.strip()[:9]
 			print('Found issn: '+value)
-			statements['replace'].append(iwbi.ExternalID(value=value, prop_nr="P23"))
+			statements['replace'].append(iwbiv1.ExternalID(value=value, prop_nr="P23"))
 			print('Querying Wikidata for ISSN: '+value+'...')
 			query = 'select ?wd where {?wd wdt:P236 "'+value+'".}'
-			bindings = iwbi.wbi_helpers.execute_sparql_query(query=query, endpoint="https://query.wikidata.org/sparql", user_agent=iwbi.wd_user_agent)['results']['bindings']
+			bindings = iwbiv1.wbi_helpers.execute_sparql_query(query=query, endpoint="https://query.wikidata.org/sparql", user_agent=iwbiv1.wd_user_agent)['results']['bindings']
 			if len(bindings) > 0:
 				wdqid = bindings[0]['wd']['value'].replace("http://www.wikidata.org/entity/","")
-				print('Found wikidata item: '+iwbqid)
-				statements['replace'].append(iwbi.ExternalID(value=wdqid, prop_nr="P1"))
+				print('Found wikidata item: '+wdqid)
+				statements['replace'].append(iwbiv1.ExternalID(value=wdqid, prop_nr="P1"))
 			else:
 				print('Nothing found on Wikidata for this ISSN.')
 
@@ -94,14 +95,14 @@ def extra(groupname, fieldname, value):
 				print('*** ERROR: Anormal ISBN, cannot be processed: '+value)
 			else:
 				if len(value) == 10:
-					statements['append'].append(iwbi.ExternalID(value=value, prop_nr="P22"))
+					statements['append'].append(iwbiv1.ExternalID(value=value, prop_nr="P22"))
 				if len(value) == 13:
-					statements['append'].append(iwbi.ExternalID(value=value, prop_nr="P21"))
+					statements['append'].append(iwbiv1.ExternalID(value=value, prop_nr="P21"))
 				print('Found valid isbn: '+value)
 
 	elif fieldname == "year":
 		value = str(value)
-		statements['replace'].append(iwbi.Time(time='+'+value+'-01-01T00:00:00Z', precision=9, prop_nr="P19"))
+		statements['replace'].append(iwbiv1.Time(time='+'+value+'-01-01T00:00:00Z', precision=9, prop_nr="P19"))
 
 	elif fieldname == "writerName":
 		if value:
@@ -117,7 +118,7 @@ def extra(groupname, fieldname, value):
 			print('Editor names: '+ str(names))
 			for name in names:
 				if name.replace(" ","").isalpha():
-					statements['replace'].append(iwbi.String(value=name.strip(), prop_nr="P60"))
+					statements['replace'].append(iwbiv1.String(value=name.strip(), prop_nr="P60"))
 				else:
 					print('*** ERROR: unprocessable editor name literal: '+name+' in: '+value)
 
@@ -127,14 +128,14 @@ def extra(groupname, fieldname, value):
 			if doi:
 				puredoi = doi.group(0).rstrip()
 				print('Found DOI: '+puredoi+'...')
-				statements['replace'].append(iwbi.ExternalID(value=puredoi, prop_nr="P20"))
+				statements['replace'].append(iwbiv1.ExternalID(value=puredoi, prop_nr="P20"))
 				# try:
 				# 	r = opener.open('http://dx.doi.org/'+puredoi)
 				# 	# print(str(r.info()['Link']))
 				# 	pdflink = re.search('<([^\>]+\.pdf)>', str(r.info()['Link']))
 				# 	if pdflink:
 				# 		print('Found PDF link at crossref: '+pdflink.group(1))
-				# 		statements['append'].append(iwbi.URL(value=pdflink.group(1), prop_nr="P48", qualifiers=[iwbi.ExternalID(prop_nr="P20", value=puredoi)]))
+				# 		statements['append'].append(iwbiv1.URL(value=pdflink.group(1), prop_nr="P48", qualifiers=[iwbiv1.ExternalID(prop_nr="P20", value=puredoi)]))
 				# 	else:
 				# 		print('No full text link at crossref.')
 				# except:
@@ -157,9 +158,9 @@ def add_labels(groupname, entryjson, iwbitem, statements):
 				entryjson['secondSurname'] = re.sub(r' ?\([^\)]+\) ?', entryjson['secondSurname'])
 				parseddates = re.search(r'([\w ]+)\-([\w ]*)')
 				if parseddates.group(1).strip().isdigit() and len(parseddates.group(1).strip()) == 4:
-					statements['replace'].append(iwbi.Time(time='+'+parseddates.group(1).strip()+'-01-01T00:00:00Z', precision=9, prop_nr="P44"))
+					statements['replace'].append(iwbiv1.Time(time='+'+parseddates.group(1).strip()+'-01-01T00:00:00Z', precision=9, prop_nr="P44"))
 				if parseddates.group(2).strip().isdigit() and len(parseddates.group(2).strip()) == 4:
-					statements['replace'].append(iwbi.Time(time='+'+parseddates.group(2).strip()+'-01-01T00:00:00Z', precision=9, prop_nr="P45"))
+					statements['replace'].append(iwbiv1.Time(time='+'+parseddates.group(2).strip()+'-01-01T00:00:00Z', precision=9, prop_nr="P45"))
 			except Exception as ex:
 				print('Error in lifedates parsing, secondSurname is '+entryjson['secondSurname']+': '+str(ex))
 		label = entryjson['name'].strip()+' '+entryjson['surname'].strip()+' '+entryjson['secondSurname'].strip()
@@ -192,17 +193,17 @@ with open('D:/Inguma/content/persons_qidmapping.csv', 'r', encoding="utf-8") as 
 def get_authors(entry, statements):
 	inguma_authors = inguma.get_production_authors(entry)
 	for listpos in inguma_authors:
-		listposquali = iwbi.String(value=listpos, prop_nr="P36")
+		listposquali = iwbiv1.String(value=listpos, prop_nr="P36")
 		try:
-			statements['append'].append(iwbi.Item(value=personqid[str(inguma_authors[listpos])], prop_nr="P17", qualifiers=[listposquali]))
+			statements['append'].append(iwbiv1.Item(value=personqid[str(inguma_authors[listpos])], prop_nr="P17", qualifiers=[listposquali]))
 		except:
 			print('Author ID is missing in persons_qidmapping. Will try to resolve via SPARQL.')
 			query = 'select ?wikibase_item where {?wikibase_item idp:P49 "persons:'+str(inguma_authors[listpos])+'".}'
-			bindings = iwbi.wbi_helpers.execute_sparql_query(query=query, prefix=iwbi.sparql_prefixes)['results']['bindings']
+			bindings = iwbiv1.wbi_helpers.execute_sparql_query(query=query, prefix=iwbiv1.sparql_prefixes)['results']['bindings']
 			if len(bindings) > 0:
 				iwbqid = bindings[0]['wikibase_item']['value'].replace("https://wikibase.inguma.eus/entity/","")
 				print('Found wikibase item via SPARQL: This item is on IWB, qid is '+iwbqid)
-				statements['append'].append(iwbi.Item(value=iwbqid, prop_nr="P17", qualifiers=[listposquali]))
+				statements['append'].append(iwbiv1.Item(value=iwbqid, prop_nr="P17", qualifiers=[listposquali]))
 	return statements
 
 # load knowledge areas
@@ -217,7 +218,7 @@ with open('D:/Inguma/content/knowledge-areas_qidmapping.csv', 'r', encoding="utf
 def get_areas(entry, statements):
 	inguma_areas = inguma.get_production_knowlareas(entry)
 	for area in inguma_areas:
-		statements['replace'].append(iwbi.Item(value=areaqid[str(area)], prop_nr="P59"))
+		statements['replace'].append(iwbiv1.Item(value=areaqid[str(area)], prop_nr="P59"))
 	return statements
 
 # load affiliations
@@ -232,7 +233,7 @@ with open('D:/Inguma/content/affiliations_qidmapping.csv', 'r', encoding="utf-8"
 def get_affiliations(entry, statements):
 	person_affiliations = inguma.get_person_affiliations(entry)
 	for aff in person_affiliations:
-		statements['replace'].append(iwbi.Item(value=affqid[str(aff)], prop_nr="P61"))
+		statements['replace'].append(iwbiv1.Item(value=affqid[str(aff)], prop_nr="P61"))
 	return statements
 
 # load organizations
@@ -246,7 +247,7 @@ with open('D:/Inguma/content/organizations_qidmapping.csv', 'r', encoding="utf-8
 		orgqid[rowsplit[0]] = rowsplit[1]
 def get_orgs(entryjson, statements):
 	value = orgqid[str(entryjson['organizationId'])]
-	statements['replace'].append(iwbi.Item(value=value, prop_nr="P37"))
+	statements['replace'].append(iwbiv1.Item(value=value, prop_nr="P37"))
 	print('Found publisher: '+value)
 	return statements
 
@@ -279,9 +280,9 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 	for entry in group:
 		index +=1
 
-		# for bridging aborted runs
-		if index < 7755:
-			continue
+		# # for bridging aborted runs
+		# if index < 7755:
+		# 	continue
 
 		# productions: exclude non-allowed production types
 		if groupname == "productions":
@@ -301,13 +302,13 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 			if rewrite == False:
 				continue # continue: skip existing qid
 
-			iwbitem = iwbi.wbi.item.get(entity_id=qidmapping[str(entry)])
+			iwbitem = iwbiv1.wbi.item.get(entity_id=qidmapping[str(entry)])
 			clear = False # clear = True will delete all existing claims!!
 
 			#print(str(iwbitem.claims))
 		# else:
 		# 	query = 'select ?wikibase_item where {?wikibase_item idp:P49 "'+str(entry['id'])+'".}'
-		# 	bindings = iwbi.wbi_helpers.execute_sparql_query(query=query, prefix=iwbi.sparql_prefixes)['results']['bindings']
+		# 	bindings = iwbiv1.wbi_helpers.execute_sparql_query(query=query, prefix=iwbiv1.sparql_prefixes)['results']['bindings']
 		# 	if len(bindings) > 0:
 		# 		iwbqid = bindings[0]['wikibase_item']['value'].replace("http://wikibase.inguma.eus/entity/","")
 		# 		print('Found wikibase item via SPARQL: This item is on IWB, qid is '+iwbqid)
@@ -317,7 +318,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 
 		#try:
 		if not iwbitem:
-			iwbitem = iwbi.wbi.item.new()
+			iwbitem = iwbiv1.wbi.item.new()
 			print('This '+groupname+' id is not known; new item created.')
 			clear = False
 
@@ -335,7 +336,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 
 		# 'instance of' statement
 		if "classqid" in inguma.mappings[groupname]:
-			statements['append'].append(iwbi.Item(value=inguma.mappings[groupname]['classqid'], prop_nr="P5"))
+			statements['append'].append(iwbiv1.Item(value=inguma.mappings[groupname]['classqid'], prop_nr="P5"))
 
 		# productions and persons: get missing info from inguma
 		if groupname == "productions":
@@ -358,13 +359,13 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 				if inguma.mappings[groupname][key].startswith("str:"):
 					if writevalue != "None": # treat "None" as empty string
 						prop = inguma.mappings[groupname][key].split(':')[1]
-						statements['replace'].append(iwbi.String(value=writevalue, prop_nr=prop))
+						statements['replace'].append(iwbiv1.String(value=writevalue, prop_nr=prop))
 
 				elif inguma.mappings[groupname][key].startswith("ext:"):
 					writevalue = str(value).strip().replace("\t","")
 					if writevalue != "None": # treat "None" as empty string
 						prop = inguma.mappings[groupname][key].split(':')[1]
-						statements['replace'].append(iwbi.ExternalID(value=writevalue, prop_nr=prop))
+						statements['replace'].append(iwbiv1.ExternalID(value=writevalue, prop_nr=prop))
 
 				elif inguma.mappings[groupname][key].startswith("url:"):
 					prop = inguma.mappings[groupname][key].split(':')[1]
@@ -376,7 +377,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 						url_parsed = url_parsed._replace(scheme='http')
 					url_unparsed = urlunparse(url_parsed)
 					if validators.url(url_unparsed):
-						statements['replace'].append(iwbi.URL(value=url_unparsed, prop_nr=prop))
+						statements['replace'].append(iwbiv1.URL(value=url_unparsed, prop_nr=prop))
 					else:
 						malformed_url_file = Path('D:/Inguma/content/'+groupname+'_malformed_url.csv')
 						groupmappingfile.touch(exist_ok=True) # if file does not exist
@@ -392,7 +393,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 				elif inguma.mappings[groupname][key].startswith("mon:"): # example: "mon:eu:P10" (productions title)
 					lang = inguma.mappings[groupname][key].split(':')[1]
 					prop = inguma.mappings[groupname][key].split(':')[2]
-					statements['replace'].append(iwbi.MonolingualText(text=writevalue, language=lang, prop_nr=prop))
+					statements['replace'].append(iwbiv1.MonolingualText(text=writevalue, language=lang, prop_nr=prop))
 
 				elif inguma.mappings[groupname][key].startswith("item:"):
 					maptable = inguma.mappings[groupname][key]
@@ -403,7 +404,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 							#print(str(map))
 							prop = map[0]
 							writevalue = map[1]
-							statements['replace'].append(iwbi.Item(value=writevalue, prop_nr=prop))
+							statements['replace'].append(iwbiv1.Item(value=writevalue, prop_nr=prop))
 					else:
 						print('*** WARNING: Missing '+maptable+' maptable entry: '+str(value))
 
@@ -413,7 +414,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 					statements['replace'] += extra_handled['replace']
 					statements['append'] += extra_handled['append']
 
-		qid = iwbi.itemwrite(iwbitem, statements, clear=clear)
+		qid = iwbiv1.itemwrite(iwbitem, statements, clear=False)
 		if entry not in qidmapping and qid:
 			with open(groupmappingfile, 'a', encoding="utf-8") as txtfile:
 				txtfile.write(str(entry)+'\t'+qid+'\n')
