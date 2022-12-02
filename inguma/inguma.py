@@ -254,7 +254,7 @@ def get_ingumagroup(groupname):
 		for entry in r.json():
 			result[entry['id']] = entry
 
-	with open('data/'+groupname+'.json', 'w') as jsonfile:
+	with open('content/'+groupname+'.json', 'w') as jsonfile:
 		json.dump(result, jsonfile, indent=2)
 	return(result)
 
