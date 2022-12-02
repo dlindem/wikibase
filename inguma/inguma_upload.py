@@ -301,7 +301,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 	if keypress == "1":
 		group = inguma.get_ingumagroup(groupname)
 	else:
-		with open('data/'+groupname+'.json', 'r') as jsonfile:
+		with open('content/'+groupname+'.json', 'r') as jsonfile:
 			group = json.load(jsonfile)
 
 	groupmappingfile = Path('data/'+groupname+'_qidmapping.csv')
