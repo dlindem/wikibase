@@ -1,3 +1,5 @@
+# here, the source is not the usual csv but a txt that contains Q-ID
+
 import euswbi
 import json, re, time, csv, sys, requests
 
