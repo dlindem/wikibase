@@ -8,10 +8,10 @@ opener = urllib.request.build_opener()
 opener.addheaders = [('Accept', 'application/vnd.crossref.unixsd+xml')]
 
 def update_mapping(groupname):
-	print('\nWill now update Inguma database ID to Inguma Wikiase Qid mapping for group: '+groupname)
-	groupmappingfile = Path('D:/Inguma/content/'+groupname+'_qidmapping.csv')
+	print('\nWill now update Inguma database ID -- Inguma Wikibase Qid mapping for group: '+groupname)
+	groupmappingfile = Path('data/'+groupname+'_qidmapping.csv')
 	date = time.strftime("%Y%m%d")
-	groupmappingoldfile = Path('D:/Inguma/content/'+groupname+'_qidmapping_old_'+date+'.csv')
+	groupmappingoldfile = Path('data/'+groupname+'_qidmapping_old_'+date+'.csv')
 	query = 'select ?id ?wikibase_item where {?wikibase_item idp:P49 ?id. filter regex (?id, "^'+groupname+':")}'
 	bindings = iwbiv1.wbi_helpers.execute_sparql_query(query=query, prefix=iwbiv1.sparql_prefixes)['results']['bindings']
 	if len(bindings) > 0:
@@ -84,21 +84,21 @@ def extra(groupname, fieldname, value):
 	elif fieldname == "isbn":
 		if value:
 			anormal = False
-			value = value.replace("-","").replace(" ","")
+			value = value.replace("-","").replace(" ","").replace("\t","")
 			if len(value) == 10 or len(value) == 13:
 				for i in range(len(value)):
 					if value[i-1] not in "0123456789X":
 						anormal = True
 			else:
 				anormal = True
-			if anormal:
-				print('*** ERROR: Anormal ISBN, cannot be processed: '+value)
-			else:
+			if not anormal:
 				if len(value) == 10:
 					statements['append'].append(iwbiv1.ExternalID(value=value, prop_nr="P22"))
 				if len(value) == 13:
 					statements['append'].append(iwbiv1.ExternalID(value=value, prop_nr="P21"))
 				print('Found valid isbn: '+value)
+			else:
+				print('*** ERROR: Anormal ISBN, cannot be processed: '+value)
 
 	elif fieldname == "year":
 		value = str(value)
@@ -109,7 +109,7 @@ def extra(groupname, fieldname, value):
 			print('writerName field literal: '+value)
 			value = value.strip().replace("\t","")
 			value = re.sub('\([^\)]+\)', '', value)
-			subregex = ['\.\.+ ?', '\([^\)]+\) ?', '\[[^\]]+\) ?', '[Ee]dito[^,: ]+[,: ]*', '[Aa]rgitar[^,: ]+[: ,]*', '[Kk]oord[^\.,: ]+[: ,]*', '[Ee]d\. ', '[Aa]rg\.']
+			subregex = ['\.\.+ ?', '\([^\)]+\) ?', '\[[^\]]+\) ?', '[Ee]dito[^,: ]+[,: ]*', '[Aa]rgitar[^,: ]+[: ,]*', '[Kk]oor[^\.,: ]+[: ,]*', '[Ee]d\. ', '[Aa]rg\.']
 			for regex in subregex:
 				value = re.sub(regex, '', value)
 			value = value.replace(" eta ",", ")
@@ -140,8 +140,52 @@ def extra(groupname, fieldname, value):
 				# 		print('No full text link at crossref.')
 				# except:
 				# 	print('Error querying crossref.')
+	elif fieldname == "issue": # first number will be "volume", second number "issue" (except for double volumes)
+		volume = None
+		volume_re = re.search('^ ?(\d+)', value)
+		issue_re = re.search('^ ?\d+[^\d]+(\d+)', value)
+		double_vol_re = re.search('^ ?(\d+)\-(\d+)', value)
+		if double_vol_re:
+			if int(double_vol_re.group(2)) - int(double_vol_re.group(1)) == 1: # double vol. like "21-22"
+				volume = double_vol_re.group(1)+"-"+double_vol_re.group(1)
+		if not volume:
+			if volume_re:
+				volume = volume_re.group(1)
+		if issue_re:
+			issue = issue_re.group(1)
+		else:
+			issue = None
+		if volume:
+			statements['replace'].append(iwbiv1.String(value=volume, prop_nr="P26"))
+		if issue:
+			statements['replace'].append(iwbiv1.String(value=issue, prop_nr="P25"))
+
+	elif fieldname == "url":
+		if '.pdf' in value: # download location (pdf download) instead of distribution location (landing page)
+			value = re.search('^.+\.pdf',value).group(0) # cut off anything after the ".pdf"
+			prop = "P48"
+		else:
+			prop = "P24"
+		url_processed = process_url(value)
+		if url_processed:
+			statements['replace'].append(iwbiv1.URL(value=url_processed, prop_nr=prop))
 
 	return statements
+
+def process_url(value, ingumaitem=None):
+	url_parsed = urlparse(value.replace("\t","").strip())
+	#print(str(url_parsed))
+	if url_parsed[0] == '':
+		url_parsed = url_parsed._replace(scheme='http')
+	url_unparsed = urlunparse(url_parsed)
+	if validators.url(url_unparsed):
+		return url_unparsed
+	else:
+		malformed_url_file = Path('data/'+'malformed_url.csv')
+
+		with open(malformed_url_file, "w") as txtfile:
+			txtfile.write(str(ingumaitem)+'\t'+value+'\t'+url_unparsed+'\n')
+		return None
 
 def add_labels(groupname, entryjson, iwbitem, statements):
 	langs = ['eu', 'en'] # by default, labels are set to Basque and English
@@ -182,7 +226,7 @@ def add_labels(groupname, entryjson, iwbitem, statements):
 	return {'iwbitem': iwbitem, 'statements': statements}
 
 # load persons
-with open('D:/Inguma/content/persons_qidmapping.csv', 'r', encoding="utf-8") as txtfile:
+with open('data/persons_qidmapping.csv', 'r', encoding="utf-8") as txtfile:
 	rows = txtfile.read().split("\n")
 	personqid = {}
 	for row in rows:
@@ -207,7 +251,7 @@ def get_authors(entry, statements):
 	return statements
 
 # load knowledge areas
-with open('D:/Inguma/content/knowledge-areas_qidmapping.csv', 'r', encoding="utf-8") as txtfile:
+with open('data/knowledge-areas_qidmapping.csv', 'r', encoding="utf-8") as txtfile:
 	rows = txtfile.read().split("\n")
 	areaqid = {}
 	for row in rows:
@@ -222,7 +266,7 @@ def get_areas(entry, statements):
 	return statements
 
 # load affiliations
-with open('D:/Inguma/content/affiliations_qidmapping.csv', 'r', encoding="utf-8") as txtfile:
+with open('data/affiliations_qidmapping.csv', 'r', encoding="utf-8") as txtfile:
 	rows = txtfile.read().split("\n")
 	affqid = {}
 	for row in rows:
@@ -237,7 +281,7 @@ def get_affiliations(entry, statements):
 	return statements
 
 # load organizations
-with open('D:/Inguma/content/organizations_qidmapping.csv', 'r', encoding="utf-8") as txtfile:
+with open('data/organizations_qidmapping.csv', 'r', encoding="utf-8") as txtfile:
 	rows = txtfile.read().split("\n")
 	orgqid = {}
 	for row in rows:
@@ -257,10 +301,10 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 	if keypress == "1":
 		group = inguma.get_ingumagroup(groupname)
 	else:
-		with open('D:/Inguma/content/'+groupname+'.json', 'r') as jsonfile:
+		with open('data/'+groupname+'.json', 'r') as jsonfile:
 			group = json.load(jsonfile)
 
-	groupmappingfile = Path('D:/Inguma/content/'+groupname+'_qidmapping.csv')
+	groupmappingfile = Path('data/'+groupname+'_qidmapping.csv')
 	groupmappingfile.touch(exist_ok=True) # if file does not exist
 	with open(groupmappingfile, 'r', encoding="utf-8") as txtfile:
 		listraw = txtfile.read().split('\n')
@@ -280,9 +324,9 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 	for entry in group:
 		index +=1
 
-		# # for bridging aborted runs
-		# if index < 7755:
-		# 	continue
+		# for bridging aborted runs
+		if index < 154:
+			continue
 
 		# productions: exclude non-allowed production types
 		if groupname == "productions":
@@ -303,7 +347,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 				continue # continue: skip existing qid
 
 			iwbitem = iwbiv1.wbi.item.get(entity_id=qidmapping[str(entry)])
-			clear = False # clear = True will delete all existing claims!!
+			clear = True # clear = True will delete all existing claims!!
 
 			#print(str(iwbitem.claims))
 		# else:
@@ -348,7 +392,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 
 		# other claims (treated according to inguma.mappings)
 		for key, value in group[entry].items():
-			if key in inguma.mappings[groupname] and len(str(value).strip()) > 0:
+			if key in inguma.mappings[groupname] and value and len(str(value).strip()) > 0:
 
 				# clean value
 				writevalue_encoded = str(value).encode("ascii", "ignore")
@@ -369,26 +413,9 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 
 				elif inguma.mappings[groupname][key].startswith("url:"):
 					prop = inguma.mappings[groupname][key].split(':')[1]
-					if prop == "P24" and value.endswith('.pdf'):
-						prop = "P48" # download location instead of distribution location
-					url_parsed = urlparse(value.strip().replace("\t",""))
-					#print(str(url_parsed))
-					if url_parsed[0] == '':
-						url_parsed = url_parsed._replace(scheme='http')
-					url_unparsed = urlunparse(url_parsed)
-					if validators.url(url_unparsed):
+					url_processed = process_url(value, ingumaitem = groupname+' '+entry['id'])
+					if url_processed:
 						statements['replace'].append(iwbiv1.URL(value=url_unparsed, prop_nr=prop))
-					else:
-						malformed_url_file = Path('D:/Inguma/content/'+groupname+'_malformed_url.csv')
-						groupmappingfile.touch(exist_ok=True) # if file does not exist
-						with open(malformed_url_file, "w") as txtfile:
-							if 'cleanTitle' in group[entry]:
-								itemlabel = group[entry]['cleanTitle']
-							elif 'cleanName' in group[entry]:
-								itemlabel = group[entry]['cleanName']
-							else:
-								itemlabel = iwbitem.label(language="eu")
-							txtfile.write(entry+'\t'+group[entry]['cleanTitle']+'\t'+value+'\t'+url_unparsed+'\n')
 
 				elif inguma.mappings[groupname][key].startswith("mon:"): # example: "mon:eu:P10" (productions title)
 					lang = inguma.mappings[groupname][key].split(':')[1]
@@ -414,7 +441,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 					statements['replace'] += extra_handled['replace']
 					statements['append'] += extra_handled['append']
 
-		qid = iwbiv1.itemwrite(iwbitem, statements, clear=False)
+		qid = iwbiv1.itemwrite(iwbitem, statements, clear=clear)
 		if entry not in qidmapping and qid:
 			with open(groupmappingfile, 'a', encoding="utf-8") as txtfile:
 				txtfile.write(str(entry)+'\t'+qid+'\n')
