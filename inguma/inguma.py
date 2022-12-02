@@ -49,9 +49,9 @@ mappings = {
     "type": "item:ingumaProdType",
     "year": "extra:",
     "shu": "item:UDC",
-    "url": "url:P24",
+    "url": "extra:",
     "organizationId": "", # this is done in get_orgs
-    "issue": "str:P26",
+    "issue": "extra:",
     "firstPage": "str:P27",
     "lastPage": "str:P28",
     "bookTitle": "str:P54",
@@ -254,7 +254,7 @@ def get_ingumagroup(groupname):
 		for entry in r.json():
 			result[entry['id']] = entry
 
-	with open('D:/Inguma/content/'+groupname+'.json', 'w') as jsonfile:
+	with open('data/'+groupname+'.json', 'w') as jsonfile:
 		json.dump(result, jsonfile, indent=2)
 	return(result)
 
