@@ -53,7 +53,7 @@ def itemwrite(iwbitem, statements, clear=False): # statements = {'append':[],'re
 			print('Writing to inguma wikibase...')
 			r = iwbitem.write(is_bot=1, clear=clear)
 			d = True
-			print('Successfully written to item: '+iwbitem.id)
+			print('Successfully written to item: '+iwbitem.id+', clear '+str(clear))
 		except Exception:
 			ex = traceback.format_exc()
 			print(ex)
