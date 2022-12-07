@@ -60,18 +60,19 @@ def importitem(importqid, process_claims=True, schemeqid=None):
 			if claimprop in propwd2wb: # aligned prop
 				wbprop = propwd2wb[claimprop]
 				for claim in importitemjson['claims'][claimprop]:
-					claimval = claim['mainsnak']['datavalue']['value']
-					if propwbdatatype[wbprop] == "WikibaseItem":
-						if claimval['id'] not in itemwd2wb:
-							print('Will create a new item for '+claimprop+' ('+wbprop+') object property value: '+claimval['id'])
-							targetqid = importitem(claimval['id'], process_claims=False)
+					if 'datavalue' in claim['mainsnak']:
+						claimval = claim['mainsnak']['datavalue']['value']
+						if propwbdatatype[wbprop] == "WikibaseItem":
+							if claimval['id'] not in itemwd2wb:
+								print('Will create a new item for '+claimprop+' ('+wbprop+') object property value: '+claimval['id'])
+								targetqid = importitem(claimval['id'], process_claims=False)
+							else:
+								targetqid = itemwd2wb[claimval['id']]
+								print('Will re-use an existing item for this object property value: wd:'+claimval['id']+' > eusterm:'+targetqid)
+							statement = {'prop_nr':wbprop,'type':'Item','value':targetqid}
 						else:
-							targetqid = itemwd2wb[claimval['id']]
-							print('Will re-use an existing item for this object property value: wd:'+claimval['id']+' > eusterm:'+targetqid)
-						statement = {'prop_nr':wbprop,'type':'Item','value':targetqid}
-					else:
-						statement = {'prop_nr':wbprop,'type':propwbdatatype[wbprop],'value':claimval,'action':'keep'}
-					statement['references'] = [{'prop_nr':'P1','type':'externalid','value':importqid}]
+							statement = {'prop_nr':wbprop,'type':propwbdatatype[wbprop],'value':claimval,'action':'keep'}
+						statement['references'] = [{'prop_nr':'P1','type':'externalid','value':importqid}]
 				wbitemjson['statements'].append(statement)
 	# process sitelinks
 	# if 'sitelinks' in importitemjson:
@@ -128,4 +129,4 @@ with open('data/wikidata-import-allq.txt', 'r') as file:
 
 		print('Will now import: '+qid)
 		# presskey = input('Proceed?')
-		print('Successfully processed: '+importitem(qid, schemeqid="Q202"))
+		print('Successfully processed: '+importitem(qid, schemeqid="Q205"))
