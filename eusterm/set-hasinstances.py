@@ -1,5 +1,6 @@
+import re
+
 import euswbi
-import json, re, time, csv, sys, requests
 
 # load item mappings from file
 with open('data/wdmapping.csv') as csvfile:
@@ -21,7 +22,8 @@ with open('data/wd-hasinstance.csv') as csvfile:
 		wditems = re.findall('Q[0-9]+', mapping[1])
 		for wditem in wditems:
 			if wditem not in itemwd2wb:
-				print('Error: this item does not exist on Wikibase: '+wditem)
+				print('Error: this item does not exist on Wikibase: ' + wditem)
 			else:
-				euswbi.itemwrite({'qid':itemwd2wb[wditem], 'statements':[{'type':'item','value':wbitem,'prop_nr':'P5'}]})
-				print('Successfully set ',wbitem,' instance of ',itemwd2wb[wditem])
+				euswbi.itemwrite(
+					{'qid': itemwd2wb[wditem], 'statements': [{'type': 'item', 'value': wbitem, 'prop_nr': 'P5'}]})
+				print('Successfully set ', wbitem, ' instance of ', itemwd2wb[wditem])
