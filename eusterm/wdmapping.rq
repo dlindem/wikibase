@@ -1,0 +1,13 @@
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX euswb: <https://eusterm.wikibase.cloud/entity/>
+PREFIX eusdp: <https://eusterm.wikibase.cloud/prop/direct/>
+PREFIX eusp: <https://eusterm.wikibase.cloud/prop/>
+PREFIX eusps: <https://eusterm.wikibase.cloud/prop/statement/>
+PREFIX euspq: <https://eusterm.wikibase.cloud/prop/qualifier/>
+PREFIX euspr: <https://eusterm.wikibase.cloud/prop/reference/>
+PREFIX eusno: <https://eusterm.wikibase.cloud/prop/novalue/>
+
+select  ?wikibase ?wikidata
+where { ?item eusdp:P1 ?wikidata . filter (regex (str(?item), "Q"))
+       bind (strafter(str(?item), "https://eusterm.wikibase.cloud/entity/") as ?wikibase)
+      } order by xsd:integer(strafter(?wikibase,"Q"))
