@@ -54,7 +54,7 @@ with open(config_private.datafolder+'logs/errorlog_'+infilename+'_'+time.strftim
 			# zotitemstatement = None
 
 			item = data[index]
-			print(str(item))
+			# print(str(item))
 			lexBibID = item['lexBibID']
 			print('LexBibID is '+lexBibID)
 			itemdata = {'qid': lexBibID, 'statements':[], 'labels':[]}
