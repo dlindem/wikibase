@@ -325,7 +325,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 		index +=1
 
 		# for bridging aborted runs
-		if index < 154:
+		if index < 40075:
 			continue
 
 		# productions: exclude non-allowed production types
@@ -424,7 +424,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 
 				elif inguma.mappings[groupname][key].startswith("item:"):
 					maptable = inguma.mappings[groupname][key]
-					print(value)
+					print(maptable,value)
 					if value in inguma.mappings[maptable]:
 						for mappair in inguma.mappings[maptable][value].split("|"):
 							map = mappair.split('_')
