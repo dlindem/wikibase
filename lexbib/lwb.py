@@ -1,3 +1,5 @@
+# This is the old version of the LexBib Wikibase bot, using single api calls for every action through mwclient
+
 import mwclient
 import json
 import urllib.parse
@@ -41,7 +43,7 @@ wdisetup = None # If WDI is needed, login is done.
 site = mwclient.Site('lexbib.elex.is')
 def get_token():
 	global site
-	
+
 	# lwb login via mwclient
 	while True:
 		try:
