@@ -5,6 +5,7 @@ import traceback
 import time
 import sys
 import os
+import csv
 import json
 import re
 import unidecode
@@ -18,8 +19,14 @@ import lwb, lwbi
 import config_private
 from pyzotero import zotero
 pyzot = zotero.Zotero(1892855,'group',config_private.zotero_api_key) # Zotero LexBib group
+linked_done = {}
+legacy_qid = None
 
-def zotero_export(infile=None)
+
+def zotero_export(infile=None):
+	global linked_done
+	global legacy_qid
+
 	if not infile:
 		# ask for file to process
 		print('Please select Zotero export JSON to be processed.')
@@ -74,8 +81,7 @@ def zotero_export(infile=None)
 
 	# load zotero-to-wikibase link-attachment mapping
 
-	linked_done = {}
-	with open(config_private.datafolder+'mappings/linkattachmentmappings.jsonl', encoding="utf-8") as jsonl_file:
+	with open(config_private.datafolder+'linkattachmentmappings.jsonl', encoding="utf-8") as jsonl_file:
 		mappings = jsonl_file.read().split('\n')
 		count = 0
 		for mapping in mappings:
@@ -102,7 +108,8 @@ def zotero_export(infile=None)
 	for item in data:
 		print("\nItem ["+str(itemcount+1)+"] of "+str(data_length)+": "+item['title'])
 
-		p100set = None
+		p100set = False
+		dictDistrset = False
 		bibItemQid = define_uri(item)
 
 		if bibItemQid in done_items:
@@ -125,26 +132,23 @@ def zotero_export(infile=None)
 		zotitemid = re.search(r'items/(.*)', item['id']).group(1)
 
 		# get language codes and assign to item, title
-		if 'language' not in item:
-			print('This item has no language, fatal error: '+item['id'])
-			item['language'] = "en"
-
-		itemlangiso3 = langmapping.getiso3(item['language'])
-		if itemlangiso3 == "nor":
-			itemlangiso3 = "nbo" # "Norwegian (mixed) to Norwegian (Bokmal)"
-		labellang = langmapping.getWikiLangCode(itemlangiso3)
-		itemlangqid = langmapping.getqidfromiso(itemlangiso3)
-		abslangqid = itemlangqid
-		statements.append({"prop_nr":"P11","type":"item","value":itemlangqid})
-		if 'title' in item:
-			titletext = item['title']
-		else:
-			titletext = ''
-		statements.append({"prop_nr":"P6","type":"monolingualtext","value":titletext, "lang":labellang})
+		if 'language' in item:
+			itemlangiso3 = langmapping.getiso3(item['language'])
+			if itemlangiso3 == "nor":
+				itemlangiso3 = "nbo" # "Norwegian (mixed) to Norwegian (Bokmal)"
+			labellang = langmapping.getWikiLangCode(itemlangiso3)
+			itemlangqid = langmapping.getqidfromiso(itemlangiso3)
+			abslangqid = itemlangqid
+			statements.append({"prop_nr":"P11","type":"item","value":itemlangqid})
+			if 'title' in item:
+				titletext = item['title']
+			else:
+				titletext = ''
+			statements.append({"prop_nr":"P6","type":"monolingualtext","value":titletext, "lang":labellang})
 
 		# look at other zotero properties and write RDF triples
 
-		# lexbib zotero tags can contain statements (:shortcode[SPACE] for property, and value).
+		# lexbib zotero tags can contain statements (:propertyshortcode[SPACE]value).
 		# If Q-ID as value, and that item does not exist, it is created.
 		if "tags" in item:
 			for tag in item['tags']:
@@ -253,10 +257,17 @@ def zotero_export(infile=None)
 						statements.append({"prop_nr":"P5","type":"item","value":"Q18"})
 					elif type == "DictionaryDistribution":
 						statements.append({"prop_nr":"P5","type":"item","value":"Q24"}) # LCR distribution
-					elif type == "e-Dict":
+						dictDistrset = True
+					elif type == "CD-ROM":
 						#lexbibClass = "Q13" # this overrides "Q3"
-						p100set = True # this overrides "book" (Zotero type computer program is mapped to book)
+						p100set = "P91_CDROM" # this overrides P100 "book" (Zotero type software is mapped to book)
 						statements.append({"prop_nr":"P100","type":"item","value":"Q13"})
+						statements.append({"prop_nr":"P91","type":"item","value":"Q14545"})
+					elif type == "online-dict":
+						pass # TBD
+						# #lexbibClass = "Q13" # this overrides "Q3"
+						# p100set = "P91_CDROM" # this overrides P100 "book" (Zotero type software is mapped to book)
+						# statements.append({"prop_nr":"P100","type":"item","value":"Q13"}, {"prop_nr":"P91","type":"item","value":"Q14545"})
 					elif type == "Community":
 						statements.append({"prop_nr":"P5","type":"item","value":"Q26"})
 
@@ -285,6 +296,8 @@ def zotero_export(infile=None)
 				statements.append({"prop_nr":"P100","type":"item","value":"Q19"})
 			elif item['type'] == "book":
 				statements.append({"prop_nr":"P100","type":"item","value":"Q28"})
+				if dictDistrset:
+					statements.append({"prop_nr":"P91","type":"item","value":"Q32770"}) # dictionary book publication
 			elif item['type'] == "chapter":
 				statements.append({"prop_nr":"P100","type":"item","value":"Q29"})
 			elif item['type'] == "motion_picture": # videos
@@ -400,46 +413,46 @@ def zotero_export(infile=None)
 		# creators
 
 		if "author" in item:
-			write_creatortriples("P12", item['author'])
+			write_creatortriples("P12", item['author'], creatorvals)
 		elif ("author" not in item) and ("editor" in item):
-			write_creatortriples("P13", item['editor'])
+			write_creatortriples("P13", item['editor'], creatorvals)
 
 		# Extra field, can contain a wikipedia page title, used in Elexifinder project as first-author-location-URI
 
 		if "extra" in item:
-			wppage = urllib.parse.unquote(item['extra'].replace("\n","").replace(" ","").split(";")[0].replace("http://","https://"))
+			# wppage = urllib.parse.unquote(item['extra'].replace("\n","").replace(" ","").split(";")[0].replace("http://","https://"))
+			#
+			# if "https://en.wikipedia.org/wiki/" in wppage:
+			# 	print('Found authorloc wppage: '+wppage)
+			# 	# check if this location is already in LWB, if it doesn't exist, create it
+			# 	wppagetitle = wppage.replace("https://en.wikipedia.org/wiki/","")
+			# 	if wppagetitle not in wikipairs:
+			# 		wdjsonsource = requests.get(url='https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&format=json&titles='+wppage)
+			# 		wdjson =  wdjsonsource.json()
+			# 		entities = wdjson['entities']
+			# 		for wdid in entities:
+			# 			print("found new wdid on wikidata"+wdid+" for AUTHORLOC "+wppage)
+			# 			placeqid = lwb.wdid2lwbid(wdid)
+			# 	else:
+			# 		wdid = wikipairs[wppagetitle]
+			# 		placeqid = lwb.wdid2lwbid(wdid)
+			# 	if placeqid:
+			# 			print("This is a known authorloc: "+placeqid)
+			# 	else:
+			# 		print("This is a place unknown to LWB, will be created: "+wppagetitle)
+			# 		placeqid = lwb.newitemwithlabel("Q9", "en", wppagetitle)
+			# 		wdstatement = lwb.stringclaim(placeqid, "P2", wdid)
+			# 		wpstatement = lwb.stringclaim(placeqid, "P66", wppage)
+			# 		lwb.save_wdmapping({"lwbid": placeqid, "wdid": wdid})
+			# 		lwb.wdids[placeqid] = wdid
+			# 		new_places.append({"placeQid":placeqid,"wppage":wppage, "wdid":wdid})
+			# 	statements.append({"prop_nr":"P29","type":"item","value":placeqid})
+			#
+			#
+			# else:
+			# 	print('Found NO authorloc wppage.')
 
-			if "https://en.wikipedia.org/wiki/" in wppage:
-				print('Found authorloc wppage: '+wppage)
-				# check if this location is already in LWB, if it doesn't exist, create it
-				wppagetitle = wppage.replace("https://en.wikipedia.org/wiki/","")
-				if wppagetitle not in wikipairs:
-					wdjsonsource = requests.get(url='https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&format=json&titles='+wppage)
-					wdjson =  wdjsonsource.json()
-					entities = wdjson['entities']
-					for wdid in entities:
-						print("found new wdid on wikidata"+wdid+" for AUTHORLOC "+wppage)
-						placeqid = lwb.wdid2lwbid(wdid)
-				else:
-					wdid = wikipairs[wppagetitle]
-					placeqid = lwb.wdid2lwbid(wdid)
-				if placeqid:
-						print("This is a known authorloc: "+placeqid)
-				else:
-					print("This is a place unknown to LWB, will be created: "+wppagetitle)
-					placeqid = lwb.newitemwithlabel("Q9", "en", wppagetitle)
-					wdstatement = lwb.stringclaim(placeqid, "P2", wdid)
-					wpstatement = lwb.stringclaim(placeqid, "P66", wppage)
-					lwb.save_wdmapping({"lwbid": placeqid, "wdid": wdid})
-					lwb.wdids[placeqid] = wdid
-					new_places.append({"placeQid":placeqid,"wppage":wppage, "wdid":wdid})
-				statements.append({"prop_nr":"P29","type":"item","value":placeqid})
-
-
-			else:
-				print('Found NO authorloc wppage.')
-
-			oclc_re = re.search(r'OCLC: (\d+)',item['extra'])
+			oclc_re = re.search(r'OCLC: ?(\d+)',item['extra'])
 			if oclc_re:
 				oclc = oclc_re.group(1)
 				statements.append({"prop_nr":"P62","type":"string","value":oclc})
@@ -453,27 +466,25 @@ def zotero_export(infile=None)
 		print('Triples for bibimport.py successfully defined.')
 		itemcount += 1
 
-
-
 	print(str(json.dumps(lwb_data)))
 	# with open(infile.replace('.json', '_lwb_import_data.json'), 'w', encoding="utf-8") as json_file: # path to result JSON file
 	# 	json.dump(lwb_data, json_file, indent=2)
 	print("\n=============================================\nFinished. "+infile.replace('.json', '_lwb_import_data.jsonl')+". Finished.")
-	print("Now you probably will run bibimport, update placemapping, grobidupload\n")
-	print('New places:')
-	print(str(new_places))
-	with open('newplaces.json', 'a', encoding="utf-8") as placesfile:
-		json.dump(new_places, placesfile, indent=2)
+	print("Don't forget to run grobidupload.\n")
 
-	# save known wikipedia-wikidata mappings to file
-	with open(config_private.datafolder+'mappings/wppage-wdid-mappings.json', 'w', encoding="utf-8") as mappingfile:
-		json.dump(wikipairs, mappingfile, ensure_ascii=False, indent=2)
-	print('\nsaved known Wikipedia-Wikdiata mappings.')
+	# print('New places:')
+	# print(str(new_places))
+	# with open('newplaces.json', 'a', encoding="utf-8") as placesfile:
+	# 	json.dump(new_places, placesfile, indent=2)
+	#
+	# # save known wikipedia-wikidata mappings to file
+	# with open(config_private.datafolder+'mappings/wppage-wdid-mappings.json', 'w', encoding="utf-8") as mappingfile:
+	# 	json.dump(wikipairs, mappingfile, ensure_ascii=False, indent=2)
+	# print('\nsaved known Wikipedia-Wikdiata mappings.')
 
 	return outfilename
 
 # define LexBib BibItem URI
-
 def define_uri(item):
 	# get LWB v2 legacy Qid, if any
 	global linked_done
@@ -620,7 +631,7 @@ def define_uri(item):
 				try:
 					attkey = r.json()['successful']['0']['key']
 					linked_done[bibItemQid] = {"itemkey":zotitemid,"attkey":attkey}
-					with open(config_private.datafolder+'mappings/linkattachmentmappings.jsonl', 'a', encoding="utf-8") as jsonl_file:
+					with open(config_private.datafolder+'linkattachmentmappings.jsonl', 'a', encoding="utf-8") as jsonl_file:
 						jsonline = {"bibitem":bibItemQid,"itemkey":zotitemid,"attkey":attkey}
 						jsonl_file.write(json.dumps(jsonline)+'\n')
 					print('Zotero item link attachment successfully written and bibitem-attkey mapping stored; attachment key is '+attkey+'.')
@@ -632,47 +643,52 @@ def define_uri(item):
 	return bibItemQid
 
 # write creator triples
-def write_creatortriples(prop, val):
-	global creatorvals
+def write_creatortriples(prop, val, creatorvals):
+
 	listpos = 0
 	for creator in val:
 		listpos += 1
-		if "literal" in creator: # this means there is no firstname-lastname but a single string (for Orgs):
-			pass # TBD
+		if "literal" in creator:
+			creator['family'] = creator['literal'] # this means there is no firstname-lastname but a single string (for Orgs)
+		if "non-dropping-particle" in creator:
+			creator["family"] = creator["non-dropping-particle"]+" "+creator["family"]
+		if creator["family"] == "Various":
+			creator["given"] = "Various"
+
+		creatorqualis = [{"prop_nr":"P33","type":"string","value":str(listpos)}]
+		if 'given' in creator:
+			if creator['given'] != "":
+				creatorqualis += [{"prop_nr":"P38","type":"string","value":creator["given"]+" "+creator["family"]},
+				{"prop_nr":"P40","type":"string","value":creator["given"]},
+				{"prop_nr":"P41","type":"string","value":creator["family"]}]
+			else:
+				creatorqualis.append({"prop_nr":"P38","type":"string","value":creator["family"]})
 		else:
-			if "non-dropping-particle" in creator:
-				creator["family"] = creator["non-dropping-particle"]+" "+creator["family"]
-			if creator["family"] == "Various":
-				creator["given"] = "Various"
-
-			creatorvals.append({
-			"prop_nr": prop,
-			# "type": "string",
-			# "value": creator["given"]+" "+creator["family"],
-			# "type": "novalue",
-			# "value": "novalue",
-			"type": "item",
-			"value": False,
-			"qualifiers": [
-			{"prop_nr":"P33","type":"string","value":str(listpos)},
-			{"prop_nr":"P38","type":"string","value":creator["given"]+" "+creator["family"]},
-			{"prop_nr":"P40","type":"string","value":creator["given"]},
-			{"prop_nr":"P41","type":"string","value":creator["family"]}
-			]
-			})
+			creatorqualis.append({"prop_nr":"P38","type":"string","value":creator["family"]})
+		creatorvals.append({
+		"prop_nr": prop,
+		# "type": "string",
+		# "value": creator["given"]+" "+creator["family"],
+		# "type": "novalue",
+		# "value": "novalue",
+		"type": "item",
+		"value": False,
+		"qualifiers": creatorqualis
+		})
 
 
-def wikibase_import(infilename=None):
+def wikibase_import(infile=None):
 
-	if not infilename:
+	if not infile:
 		# open and load input file
 		print('Please select post-processed Zotero export JSON to be imported to lexbib.elex.is.')
 		#time.sleep(2)
 		Tk().withdraw()
 		infile = askopenfilename()
-		infilename = os.path.basename(infile)
 
-	print('This file will be processed: '+infilename)
+
+	print('Starting wikibase upload. This file will be processed: '+infile)
+	infilename = os.path.basename(infile)
 	try:
 		with open(infile, encoding="utf-8") as f:
 			jsonlines = f.read().split('\n')
@@ -798,15 +814,21 @@ def wikibase_import(infilename=None):
 
 ###################
 
-choice = input("""\nZotero to Wikibase export script. What do you want?
+choice = input("""\nZotero to Wikibase export script.
+
+HAVE YOU SYNCED YOUR LOCAL ZOTERO TO THE ZOTERO CLOUD???
+
+What do you want?
 1. Process Zotero JSON export file and upload to Wikibase
 2. Upload Zotero output processed in a previous run (import data file)
 3. Only process Zotero JSON output
 [Type choice number and press ENTER]\n\n""")
 
 if choice == "1":
-	wikibase_import(zotero_export)
+	wikibase_import(infile=zotero_export())
 elif choice == "2":
 	wikibase_import()
 elif choice == "3":
 	print('\n Import data successfully stored in '+zotero_export())
+
+print('Finished.')
