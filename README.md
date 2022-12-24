@@ -28,3 +28,7 @@ https://qichwa.wikibase.cloud
 ### Eusterm Wikibase (Used in a course on Basque Terminology at UPV/EHU University of the Basque Country
 
  https://eusterm.wikibase.cloud
+ 
+### Kurdish Wikibase (Kurdish lexical data)
+
+ https://kurdish.wikibase.cloud
