@@ -57,7 +57,7 @@ def packstatements(statements, wbitem=None, qualifiers=False, references=False):
 			if statement['value'] == False: # novalue statement
 				statement['value'] == None
 				snaktype = WikibaseSnakType.NO_VALUE
-							
+
 		actions = {
 		'append': ActionIfExists.APPEND_OR_REPLACE,
 		'replace': ActionIfExists.REPLACE_ALL,
@@ -69,7 +69,7 @@ def packstatements(statements, wbitem=None, qualifiers=False, references=False):
 		else:
 			action = ActionIfExists.APPEND_OR_REPLACE
 		if statement['type'].lower() == "string":
-			packed_statement = String(value=statement['value'],prop_nr=statement['prop_nr'],qualifiers=packed_qualifiers,references=packed_references)
+			packed_statement = String(value=statement['value'].strip(),prop_nr=statement['prop_nr'],qualifiers=packed_qualifiers,references=packed_references)
 		elif statement['type'].lower() == "item" or statement['type'].lower() == "wikibaseitem":
 			packed_statement = Item(value=statement['value'], prop_nr=statement['prop_nr'],qualifiers=packed_qualifiers,references=packed_references)
 		elif statement['type'].lower() == "externalid":
@@ -143,7 +143,7 @@ def itemwrite(itemdata, clear=False): # statements = {'append':[],'replace':[]}
 	d = False
 	while d == False:
 		try:
-			print('Writing to eusterm wikibase...')
+			print('Writing to LexBib Wikibase...')
 			r = lwbitem.write(clear=clear)
 			d = True
 			print('Successfully written to item: '+lwbitem.id)
