@@ -63,7 +63,7 @@ token = get_token()
 def load_legacyID():
 	legacyID = {}
 	try:
-		with open(config_private.datafolder+'mappings/legacymappings.jsonl', encoding="utf-8") as jsonl_file:
+		with open(config_private.datafolder+'legacymappings.jsonl', encoding="utf-8") as jsonl_file:
 			mappings = jsonl_file.read().split('\n')
 			count = 0
 			for mapping in mappings:
@@ -88,7 +88,7 @@ legacyID = load_legacyID()
 def load_wdmappings():
 	wdids = {}
 	try:
-		with open(config_private.datafolder+'mappings/lwb_wd.jsonl', encoding="utf-8") as f:
+		with open(config_private.datafolder+'lwb_wd.jsonl', encoding="utf-8") as f:
 			mappings = f.read().split('\n')
 			count = 0
 			for mapping in mappings:
@@ -110,33 +110,33 @@ def load_wdmappings():
 	return wdids
 wdids = load_wdmappings()
 
-def load_wppageplaces():
-	wpplaces = {}
-	try:
-		with open(config_private.datafolder+'mappings/wppage_lwbplace.jsonl', encoding="utf-8") as f:
-			mappings = f.read().split('\n')
-			count = 0
-			for mapping in mappings:
-				count += 1
-				if mapping != "":
-					try:
-						mappingjson = json.loads(mapping)
-						#print(mapping)
-						wpplaces[mappingjson['wppage']] = mappingjson['lwbid']
-					except Exception as ex:
-						print('Found unparsable mapping json in wppage_lwbplace.jsonl line ['+str(count)+']: '+mapping)
-						print(str(ex))
-						pass
-	except Exception as ex:
-		print ('Error in load_wppageplaces function.')
-		print (str(ex))
-
-	print('Known wikipedia places loaded.')
-	return wpplaces
+# def load_wppageplaces():
+# 	wpplaces = {}
+# 	try:
+# 		with open(config_private.datafolder+'mappings/wppage_lwbplace.jsonl', encoding="utf-8") as f:
+# 			mappings = f.read().split('\n')
+# 			count = 0
+# 			for mapping in mappings:
+# 				count += 1
+# 				if mapping != "":
+# 					try:
+# 						mappingjson = json.loads(mapping)
+# 						#print(mapping)
+# 						wpplaces[mappingjson['wppage']] = mappingjson['lwbid']
+# 					except Exception as ex:
+# 						print('Found unparsable mapping json in wppage_lwbplace.jsonl line ['+str(count)+']: '+mapping)
+# 						print(str(ex))
+# 						pass
+# 	except Exception as ex:
+# 		print ('Error in load_wppageplaces function.')
+# 		print (str(ex))
+	#
+	# print('Known wikipedia places loaded.')
+	# return wpplaces
 
 # Adds a new lexbibUri-qid mapping to legacyID.jsonl mapping file
 def save_legacyID(legid,lwbid):
-	with open(config_private.datafolder+'mappings/legacymappings.jsonl', 'a', encoding="utf-8") as jsonl_file:
+	with open(config_private.datafolder+'legacymappings.jsonl', 'a', encoding="utf-8") as jsonl_file:
 		jsonline = {"legacyID":legid,"lwbid":lwbid}
 		jsonl_file.write(json.dumps(jsonline)+'\n')
 		global legacyID
@@ -144,7 +144,7 @@ def save_legacyID(legid,lwbid):
 
 # Adds a new lwbqid-wdqid mapping to wdmappings.jsonl mapping file
 def save_wdmapping(mapping): # example {"lwbid": "P32", "wdid": "P220"}
-	with open(config_private.datafolder+'mappings/lwb_wd.jsonl', 'a', encoding="utf-8") as jsonl_file:
+	with open(config_private.datafolder+'lwb_wd.jsonl', 'a', encoding="utf-8") as jsonl_file:
 		jsonl_file.write(json.dumps(mapping)+'\n')
 	global wdids
 	wdids[mapping['lwbid']] = mapping['wdid']
