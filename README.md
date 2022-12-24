@@ -18,6 +18,8 @@ https://qichwa.wikibase.cloud
 ### Ahotsak Wikibase (Basque lexical data)
 
  https://datuak.ahotsak.eus
+ 
+ Older code related to Ahotsak wikibase is found at https://github.com/dlindem/ahotsak-wikibase.
 
 ### LexBib Wikibase (Knowledge Graph of the domain of Lexicography and Dictionary Research)
 
@@ -25,7 +27,7 @@ https://qichwa.wikibase.cloud
 
  Older code related to LexBib wikibase is found at https://github.com/elexis-eu/elexifinder.
 
-### Eusterm Wikibase (Used in a course on Basque Terminology at UPV/EHU University of the Basque Country
+### Eusterm Wikibase (Used in a course on Basque Terminology at UPV/EHU)
 
  https://eusterm.wikibase.cloud
 
