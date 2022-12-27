@@ -21,7 +21,7 @@ import logging
 import config_private
 
 # Properties with constraint: max. 1 value
-card1props = ['P6']
+card1props = ['P6', 'P10']
 
 # Logging config
 logging.basicConfig(filename='data/logs/kwb.log', filemode='a', format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%d-%m-%y %H:%M:%S')
@@ -601,7 +601,7 @@ def newsense(lid, glosses, nodupcheck = None):
 	global token
 
 	# duplicate check to be adapted:
-	
+
 	# existingforms = {}
 	# request = site.get('wbgetentities', ids=lid)
 	# if "success" in request:
@@ -845,7 +845,7 @@ def updateclaim(s, p, o, dtype): # for novalue: o="novalue", dtype="novalue"
 		for claim in claims[p]:
 			statementcount += 1
 			guid = claim['id']
-			#print(str(claim['mainsnak']))
+			# print(str(claim['mainsnak']))
 			if claim['mainsnak']['snaktype'] == "value":
 				foundo = claim['mainsnak']['datavalue']['value']
 				if isinstance(foundo, dict) and 'id' in foundo: # foundo is a {} with "id" as key in case of datatype wikibaseItem
@@ -900,7 +900,7 @@ def updateclaim(s, p, o, dtype): # for novalue: o="novalue", dtype="novalue"
 							print('Wb remove duplicate claim for '+s+' ('+p+') '+str(o)+': success.')
 							foundobjs.remove(foundo)
 					elif not returnvalue:
-						print('('+p+') is a max 1 prop. Will write statement.')
+						print('('+p+') is cardinality 1. Will update claim value.')
 						while True:
 							try:
 								results = site.post('wbsetclaimvalue', token=token, claim=guid, snaktype="value", value=value)
