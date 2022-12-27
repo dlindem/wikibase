@@ -30,11 +30,13 @@ with open('data/lexical-entry.csv') as incsv:
 				labellang = "sdh" # sdh-latn is represented as sdh
 			languages.append(labellang.replace('-arab','').replace('-latn',''))
 			lemmas[labellang] = label['label']
+			print('Lemma languages for this lexeme: '+str(set(languages)))
 			if len(list(set(languages))) > 1:
-				print('Error: more than one lemma language')
+				print('Error: more than one lemma language') # TBD
 				sys.exit()
-
-		lexeme = kwbi.wbi.lexeme.new(lexical_category="Q3", language=langmapping.wikilang_to_qid[languages[0]])
+			wikilangtowrite = list(set(languages))[0]
+		print('Will write lemma '+lemmas[labellang]+' (spelling variant '+labellang+') for wikilanguage '+wikilangtowrite)
+		lexeme = kwbi.wbi.lexeme.new(lexical_category="Q3", language=langmapping.wikilang_to_qid[wikilangtowrite])
 		for labellang in lemmas:
 			lexeme.lemmas.set(language=labellang, value=lemmas[labellang])
 
