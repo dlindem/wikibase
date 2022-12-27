@@ -600,6 +600,8 @@ def newlexeme(lemma, lang, pos):
 def newsense(lid, glosses, nodupcheck = None):
 	global token
 
+	# duplicate check to be adapted:
+	
 	# existingforms = {}
 	# request = site.get('wbgetentities', ids=lid)
 	# if "success" in request:
