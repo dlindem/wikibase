@@ -516,7 +516,7 @@ def getclaims(s, p):
 		# get claims and put in claimcache
 		done = False
 		while (not done):
-			# print('Getting existing claims for '+s+'...')
+			#  print('Getting existing claims for '+s+'...')
 			try:
 				request = site.get('wbgetclaims', entity=s)
 
