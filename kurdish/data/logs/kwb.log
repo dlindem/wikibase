@@ -482,3 +482,903 @@ mwclient.errors.APIError: ('invalid-snak', 'Invalid snak data.', 'See https://ku
 27-12-22 20:40:59 - WARNING - Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes.
 27-12-22 20:40:59 - WARNING - Main-account login via "action=login" is deprecated and may stop working without warning. To continue login with "action=login", see [[Special:BotPasswords]]. To safely continue using main-account login, see "action=clientlogin".
 27-12-22 20:59:07 - ERROR - Unforeseen exception: 404 Client Error: Not Found for url: https://kurdish.wikibase.cloud/w/api.php
+27-12-22 21:31:20 - ERROR - Unforeseen exception: 404 Client Error: Not Found for url: https://kurdish.wikibase.cloud/w/api.php
+27-12-22 21:57:28 - ERROR - Unforeseen exception: 404 Client Error: Not Found for url: https://kurdish.wikibase.cloud/w/api.php
+27-12-22 23:08:13 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+27-12-22 23:28:11 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+27-12-22 23:34:06 - ERROR - Claim creation L27997 (P10) Q10 failed, will try again...
+Traceback (most recent call last):
+  File "/home/david/GitHub/wikibase/kurdish/kwb.py", line 932, in updateclaim
+    request = site.post('wbcreateclaim', token=token, entity=s, property=p, snaktype="value", value=value, bot=1)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 245, in post
+    return self.api(action, 'POST', *args, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 285, in api
+    info = self.raw_api(action, http_method, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 437, in raw_api
+    res = self.raw_call('api', data, retry_on_error=retry_on_error,
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 409, in raw_call
+    stream.raise_for_status()
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://kurdish.wikibase.cloud/w/api.php
+27-12-22 23:42:30 - ERROR - Claim creation L14697 (P10) Q10 failed, will try again...
+Traceback (most recent call last):
+  File "/home/david/GitHub/wikibase/kurdish/kwb.py", line 932, in updateclaim
+    request = site.post('wbcreateclaim', token=token, entity=s, property=p, snaktype="value", value=value, bot=1)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 245, in post
+    return self.api(action, 'POST', *args, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 285, in api
+    info = self.raw_api(action, http_method, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 437, in raw_api
+    res = self.raw_call('api', data, retry_on_error=retry_on_error,
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 409, in raw_call
+    stream.raise_for_status()
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://kurdish.wikibase.cloud/w/api.php
+27-12-22 23:51:51 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+27-12-22 23:55:40 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 00:34:49 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 00:39:16 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 00:42:41 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 01:09:23 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 01:25:36 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 01:25:48 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 01:30:11 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 01:48:01 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 01:48:16 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 01:52:01 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 01:58:21 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 02:09:12 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 02:14:11 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 02:18:19 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 02:21:15 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 02:24:22 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 02:28:53 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 02:29:52 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 02:35:39 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 03:01:32 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 03:14:09 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 03:14:48 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 03:34:48 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 03:44:07 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 03:55:49 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 03:55:57 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 03:57:22 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 03:58:27 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 04:01:56 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 04:08:58 - ERROR - Claim creation L29795-S1 (P6) SKurdishLexicon/ku_1319077149_sense failed, will try again...
+Traceback (most recent call last):
+  File "/home/david/GitHub/wikibase/kurdish/kwb.py", line 932, in updateclaim
+    request = site.post('wbcreateclaim', token=token, entity=s, property=p, snaktype="value", value=value, bot=1)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 245, in post
+    return self.api(action, 'POST', *args, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 285, in api
+    info = self.raw_api(action, http_method, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 437, in raw_api
+    res = self.raw_call('api', data, retry_on_error=retry_on_error,
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 409, in raw_call
+    stream.raise_for_status()
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://kurdish.wikibase.cloud/w/api.php
+28-12-22 04:09:07 - ERROR - Claim creation L11418-S1 (P9) L29795-S1 failed, will try again...
+Traceback (most recent call last):
+  File "/home/david/GitHub/wikibase/kurdish/kwb.py", line 932, in updateclaim
+    request = site.post('wbcreateclaim', token=token, entity=s, property=p, snaktype="value", value=value, bot=1)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 245, in post
+    return self.api(action, 'POST', *args, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 285, in api
+    info = self.raw_api(action, http_method, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 437, in raw_api
+    res = self.raw_call('api', data, retry_on_error=retry_on_error,
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 409, in raw_call
+    stream.raise_for_status()
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://kurdish.wikibase.cloud/w/api.php
+28-12-22 04:09:11 - ERROR - Claim creation L11418-S1 (P9) L29795-S1 failed, will try again...
+Traceback (most recent call last):
+  File "/home/david/GitHub/wikibase/kurdish/kwb.py", line 932, in updateclaim
+    request = site.post('wbcreateclaim', token=token, entity=s, property=p, snaktype="value", value=value, bot=1)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 245, in post
+    return self.api(action, 'POST', *args, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 285, in api
+    info = self.raw_api(action, http_method, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 437, in raw_api
+    res = self.raw_call('api', data, retry_on_error=retry_on_error,
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 409, in raw_call
+    stream.raise_for_status()
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://kurdish.wikibase.cloud/w/api.php
+28-12-22 04:16:44 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 04:24:54 - ERROR - Unforeseen exception: 404 Client Error: Not Found for url: https://kurdish.wikibase.cloud/w/api.php
+28-12-22 04:25:29 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 04:30:30 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 04:31:56 - ERROR - Claim creation L29894-S1 (P6) SKurdishLexicon/ku_1345176763_sense failed, will try again...
+Traceback (most recent call last):
+  File "/home/david/GitHub/wikibase/kurdish/kwb.py", line 932, in updateclaim
+    request = site.post('wbcreateclaim', token=token, entity=s, property=p, snaktype="value", value=value, bot=1)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 245, in post
+    return self.api(action, 'POST', *args, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 285, in api
+    info = self.raw_api(action, http_method, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 437, in raw_api
+    res = self.raw_call('api', data, retry_on_error=retry_on_error,
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 409, in raw_call
+    stream.raise_for_status()
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://kurdish.wikibase.cloud/w/api.php
+28-12-22 04:32:00 - ERROR - Claim creation L29894-S1 (P6) SKurdishLexicon/ku_1345176763_sense failed, will try again...
+Traceback (most recent call last):
+  File "/home/david/GitHub/wikibase/kurdish/kwb.py", line 932, in updateclaim
+    request = site.post('wbcreateclaim', token=token, entity=s, property=p, snaktype="value", value=value, bot=1)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 245, in post
+    return self.api(action, 'POST', *args, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 285, in api
+    info = self.raw_api(action, http_method, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 437, in raw_api
+    res = self.raw_call('api', data, retry_on_error=retry_on_error,
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 409, in raw_call
+    stream.raise_for_status()
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://kurdish.wikibase.cloud/w/api.php
+28-12-22 04:32:04 - ERROR - Claim creation L29894-S1 (P6) SKurdishLexicon/ku_1345176763_sense failed, will try again...
+Traceback (most recent call last):
+  File "/home/david/GitHub/wikibase/kurdish/kwb.py", line 932, in updateclaim
+    request = site.post('wbcreateclaim', token=token, entity=s, property=p, snaktype="value", value=value, bot=1)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 245, in post
+    return self.api(action, 'POST', *args, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 285, in api
+    info = self.raw_api(action, http_method, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 437, in raw_api
+    res = self.raw_call('api', data, retry_on_error=retry_on_error,
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 409, in raw_call
+    stream.raise_for_status()
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://kurdish.wikibase.cloud/w/api.php
+28-12-22 04:43:19 - ERROR - Unforeseen exception: HTTPSConnectionPool(host='kurdish.wikibase.cloud', port=443): Read timed out. (read timeout=30)
+28-12-22 04:44:30 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 04:44:42 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 04:44:46 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 04:51:11 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 05:03:43 - ERROR - Claim creation L22582-S1 (P6) SKurdishLexicon/fa_2915725168_sense failed, will try again...
+Traceback (most recent call last):
+  File "/home/david/GitHub/wikibase/kurdish/kwb.py", line 932, in updateclaim
+    request = site.post('wbcreateclaim', token=token, entity=s, property=p, snaktype="value", value=value, bot=1)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 245, in post
+    return self.api(action, 'POST', *args, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 285, in api
+    info = self.raw_api(action, http_method, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 437, in raw_api
+    res = self.raw_call('api', data, retry_on_error=retry_on_error,
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 409, in raw_call
+    stream.raise_for_status()
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://kurdish.wikibase.cloud/w/api.php
+28-12-22 05:05:20 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 05:11:52 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 05:13:22 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 05:29:04 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 05:30:37 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 05:34:28 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 05:40:10 - ERROR - Claim creation L19766-S1 (P6) SKurdishLexicon/fa_2205187243_sense failed, will try again...
+Traceback (most recent call last):
+  File "/home/david/GitHub/wikibase/kurdish/kwb.py", line 932, in updateclaim
+    request = site.post('wbcreateclaim', token=token, entity=s, property=p, snaktype="value", value=value, bot=1)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 245, in post
+    return self.api(action, 'POST', *args, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 285, in api
+    info = self.raw_api(action, http_method, **kwargs)
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 437, in raw_api
+    res = self.raw_call('api', data, retry_on_error=retry_on_error,
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/mwclient/client.py", line 409, in raw_call
+    stream.raise_for_status()
+  File "/home/david/GitHub/wikibase/wbienv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://kurdish.wikibase.cloud/w/api.php
+28-12-22 05:41:52 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 05:46:47 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 05:50:25 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 05:51:21 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 05:53:25 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 05:54:15 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 05:58:16 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 06:02:09 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 06:11:14 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 06:14:11 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 06:14:27 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 06:19:24 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 06:23:32 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 06:27:09 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 06:30:28 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 06:34:31 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 07:00:38 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 07:09:01 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 07:27:09 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 07:27:29 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 07:57:05 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 08:00:33 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 08:01:32 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 08:21:08 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 08:34:13 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 08:34:47 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 08:38:46 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 08:41:42 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 08:48:13 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 09:04:01 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 09:06:51 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 09:10:09 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 09:15:56 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 09:24:23 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 09:34:34 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 10:01:13 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 10:02:59 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 10:09:46 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 10:19:26 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 10:29:14 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 10:42:18 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 10:47:16 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 11:10:33 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 11:10:50 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 11:15:29 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 11:15:57 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 11:25:34 - WARNING - Received 502 response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+. Retrying in a moment.
+28-12-22 11:38:06 - WARNING - Subscribe to the mediawiki-api-announce mailing list at <https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/> for notice of API deprecations and breaking changes.
+28-12-22 11:38:06 - WARNING - Main-account login via "action=login" is deprecated and may stop working without warning. To continue login with "action=login", see [[Special:BotPasswords]]. To safely continue using main-account login, see "action=clientlogin".
