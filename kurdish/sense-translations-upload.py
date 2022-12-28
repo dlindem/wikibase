@@ -18,7 +18,7 @@ def get_lemmas(lemmas_from_csv):
 		# lemmas.append({labellang:{'language': labellang, 'value': label['label']}})
 	return {'lemmas':lemmas, 'wikilangtowrite':wikilangtowrite}
 
-
+source_resource = 'Q10' # ID of the source dictionary, for references and P10 statements
 
 with open('data/lexeme-mapping.csv') as mappingcsv:
 	mappingrows = mappingcsv.read().split('\n')
@@ -46,7 +46,7 @@ with open('data/sense-translations.csv') as incsv:
 		if count < start:
 			continue
 
-		print('\nWill process now entry csv line ['+str(count)+']\n')
+		print('\nWill now process entry csv line ['+str(count)+']\n')
 
 		sourcelexeme = entry['sourcelexeme'].replace('https://github.com/sinaahmadi/', '')
 		sourcesense = entry['sourcesense'].replace('https://github.com/sinaahmadi/', '')
@@ -60,32 +60,38 @@ with open('data/sense-translations.csv') as incsv:
 			print('Error: Target lexeme not found in Wikibase: '+targetlexeme)
 			sys.exit()
 
+		# add "described in" links to lexemes
+		describedin1 = kwb.updateclaim(lexeme_map[sourcelexeme], 'P10', source_resource, 'item')
+		describedin2 = kwb.updateclaim(lexeme_map[targetlexeme], 'P10', source_resource, 'item')
+
 		if targetsense in sense_map:
 			targetsense_entity_id = sense_map[targetsense]
 			print('This sense exists already: '+targetsense)
-
 		else: # create new sense and save its ID mapping
 			print('This sense must be created: '+targetsense)
 			lemmas = get_lemmas(entry['sourcelemmas'])
 			targetsense_entity_id = kwb.newsense(lexeme_map[targetlexeme], lemmas['lemmas'])
-			sinastatement = kwb.stringclaim(targetsense_entity_id, "P6", targetlexeme)
-			with open('data/sense-mapping.csv', 'a') as mappingcsv:
-				mappingcsv.write(targetsense+'\t'+targetsense_entity_id+'\n')
+		with open('data/sense-mapping.csv', 'a') as mappingcsv:
+			mappingcsv.write(targetsense+'\t'+targetsense_entity_id+'\n')
+		sense_map[targetsense] = targetsense_entity_id
+		sinastatement = kwb.updateclaim(targetsense_entity_id, "P6", targetsense, "externalid")
 
 		if sourcesense in sense_map:
 			sourcesense_entity_id = sense_map[sourcesense]
-			print('This sense exists already: '+sourcesense+'\n')
-
+			print('This sense exists already: '+sourcesense)
 		else: # create new sense and save its ID mapping
 			print('This sense must be created: '+sourcesense)
 			lemmas = get_lemmas(entry['targetlemmas'])
 			sourcesense_entity_id = kwb.newsense(lexeme_map[sourcelexeme], lemmas['lemmas'])
-			sinastatement = kwb.stringclaim(sourcesense_entity_id, "P6", sourcelexeme)
-			with open('data/sense-mapping.csv', 'a') as mappingcsv:
-				mappingcsv.write(sourcesense+'\t'+sourcesense_entity_id+'\n')
+		with open('data/sense-mapping.csv', 'a') as mappingcsv:
+			mappingcsv.write(sourcesense+'\t'+sourcesense_entity_id+'\n')
+		sense_map[sourcesense] = sourcesense_entity_id
+		sinastatement = kwb.updateclaim(sourcesense_entity_id, "P6", sourcesense, "externalid")
 
 		# write translation links between senses
 		statement1 = kwb.updateclaim(targetsense_entity_id, "P9", sourcesense_entity_id, "sense")
+		kwb.setref(statement1, 'P10', source_resource, 'item')
 		statement2 = kwb.updateclaim(sourcesense_entity_id, "P9", targetsense_entity_id, "sense")
+		kwb.setref(statement2, 'P10', source_resource, 'item')
 
 		print('Finished processing line ['+str(count)+'].')
