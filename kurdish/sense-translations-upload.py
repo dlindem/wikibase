@@ -3,7 +3,7 @@ import kwb
 import csv, json, sys, time
 # from data import langmapping
 
-def get_lemmas(lemmas_from_csv):
+def get_csvlemmas(lemmas_from_csv):
 	lemmas = {}
 	for label in json.loads(lemmas_from_csv):
 		languages = []
@@ -64,24 +64,30 @@ with open('data/sense-translations.csv') as incsv:
 		describedin1 = kwb.updateclaim(lexeme_map[sourcelexeme], 'P10', source_resource, 'item')
 		describedin2 = kwb.updateclaim(lexeme_map[targetlexeme], 'P10', source_resource, 'item')
 
+		lemmas = get_csvlemmas(entry['sourcelemmas'])
 		if targetsense in sense_map:
 			targetsense_entity_id = sense_map[targetsense]
 			print('This sense exists already: '+targetsense)
+			oldlemmas = kwb.get_glosses(targetsense_entity_id)
+			lemmas.update(oldlemmas)
+			targetsense_entity_id = kwb.editsense(targetsense_entity_id, lemmas['lemmas'])
 		else: # create new sense and save its ID mapping
 			print('This sense must be created: '+targetsense)
-			lemmas = get_lemmas(entry['sourcelemmas'])
 			targetsense_entity_id = kwb.newsense(lexeme_map[targetlexeme], lemmas['lemmas'])
 		with open('data/sense-mapping.csv', 'a') as mappingcsv:
 			mappingcsv.write(targetsense+'\t'+targetsense_entity_id+'\n')
 		sense_map[targetsense] = targetsense_entity_id
 		sinastatement = kwb.updateclaim(targetsense_entity_id, "P6", targetsense, "externalid")
 
+		lemmas = get_csvlemmas(entry['targetlemmas'])
 		if sourcesense in sense_map:
 			sourcesense_entity_id = sense_map[sourcesense]
 			print('This sense exists already: '+sourcesense)
+			oldlemmas = kwb.get_glosses(sourcesense_entity_id)
+			lemmas.update(oldlemmas)
+			sourcesense_entity_id = kwb.editsense(sourcesense_entity_id, lemmas['lemmas'])
 		else: # create new sense and save its ID mapping
 			print('This sense must be created: '+sourcesense)
-			lemmas = get_lemmas(entry['targetlemmas'])
 			sourcesense_entity_id = kwb.newsense(lexeme_map[sourcelexeme], lemmas['lemmas'])
 		with open('data/sense-mapping.csv', 'a') as mappingcsv:
 			mappingcsv.write(sourcesense+'\t'+sourcesense_entity_id+'\n')
