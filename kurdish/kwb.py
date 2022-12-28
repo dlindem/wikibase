@@ -638,13 +638,55 @@ def newsense(lid, glosses, nodupcheck = None):
 			# 	updateclaim(formid,"P1",wdform_id,"string")
 			return senseid
 		else:
-			print('Form creation failed, will try again...')
+			print('Sense creation failed, will try again...')
 			time.sleep(2)
 			done += 0.2
 	print('kwb.newsense failed 5 times.')
 	logging.error('kwb.newsense failed 5 times.',lid,str(glosses))
 	return False
 
+# gets existing sense glosses
+def get_glosses(senseid):
+	lid = re.search('^L\d+', senseid).group(0)
+	request = site.get('wbgetentities', ids=lid)
+	if "success" in request:
+		try:
+			for sense in request['entities'][lid]['senses']:
+				if sense['id'] == senseid:
+					return sense['glosses']
+		except Exception as ex:
+			print('Get glosses failed for: '+senseid+'\n'+str(ex))
+			sys.exit()
+
+# edits sense glosses
+def editsense(senseId, glosses):
+	global token
+
+	data = {"glosses":glosses}
+	print(str(data))
+	done = 0
+	while done < 1:
+		try:
+			senseedit = site.post('wbleditsenseelements', token=token, format="json", senseId=senseId, bot=1, data=json.dumps(data))
+		except Exception as ex:
+			if 'Invalid CSRF token.' in str(ex):
+				print('Wait a sec. Must get a new CSRF token...')
+				token = get_token()
+			else:
+				print(str(ex))
+				time.sleep(4)
+				done += 0.2
+			continue
+		#print(str(sensecreation))
+		if senseedit['success'] == 1:
+			return senseId
+		else:
+			print('Sense edit failed, will try again...')
+			time.sleep(2)
+			done += 0.2
+	print('kwb.senseedit failed 5 times.')
+	logging.error('kwb.newsense failed 5 times.',lid,str(glosses))
+	return False
 
 # creates a new form
 def newform(lid, form, gram=None, wdform_id=None, nodupcheck = None):
