@@ -839,6 +839,7 @@ def setclaimvalue(guid, value, dtype):
 				token = get_token()
 			elif 'unresolved-redirect' in str(ex):
 				print("This points to a redirected item's statement, skipped.")
+				break
 			else:
 				print('Claim update failed... Will try again.')
 				time.sleep(4)
