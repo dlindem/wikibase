@@ -615,7 +615,7 @@ def newsense(lid, glosses, nodupcheck = None):
 	# 		print('Get existing forms operation failed for: '+lid) #,str(ex))
 
 	data = {"glosses":glosses}
-	print(str(data))
+	# print(str(data))
 	done = 0
 	while done < 1:
 		try:
