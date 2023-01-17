@@ -55,7 +55,7 @@ mappings = {
     "firstPage": "str:P27",
     "lastPage": "str:P28",
     "bookTitle": "str:P54",
-    "writerName": "extra:",
+#    "writerName": "extra:",
     "isbn": "extra:", # extra
     "doi": "extra:" # extra
 },
@@ -81,7 +81,7 @@ mappings = {
 	'phd': "P58_Q13",
 	'article': "P58_Q9",
 	'course': None,
-	'introduction': None,
+	'introduction': "P58_Q20", # !! so far, only employed for IkerGazte
 	'book': "P58_Q10",
 	'translation': None,
 	'conference': None,
