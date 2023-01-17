@@ -1,4 +1,4 @@
-import iwbi, iwbbasicclient
+import iwbi, iwb
 import time
 
 print('Will get redirect item data via SPARQL...\n')
@@ -21,7 +21,7 @@ count = 0
 for row in bindings:
 	print('\n'+str(amount-count)+' items left:')
 	print('Will update '+row['source_item']['value']+' '+row['prop_nr']['value']+' > '+row['target_item']['value'])
-	iwbbasicclient.setclaimvalue(row['statementid']['value'], row['target_item']['value'], "item")
+	iwb.setclaimvalue(row['statementid']['value'], row['target_item']['value'], "item")
 	count += 1
 	time.sleep(0.1)
 print('\n Finished.')
