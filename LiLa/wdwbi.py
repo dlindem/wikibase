@@ -21,7 +21,7 @@ from wikibaseintegrator.models.claims import Claims
 wbi_config['MEDIAWIKI_API_URL'] = 'https://www.wikidata.org/w/api.php'
 wbi_config['SPARQL_ENDPOINT_URL'] = 'https://www.wikidata.org/sparql'
 wbi_config['WIKIBASE_URL'] = 'https://www.wikidata.org'
-wbi_config['USER_AGENT']= "User DL2204 david.lindemann@ehu.eus"
+wbi_config['USER_AGENT']= "User DL2204bot david.lindemann@ehu.eus"
 
 
 login_instance = wbi_login.Login(user=wb_bot_user, password=wb_bot_pwd)
