@@ -3,22 +3,26 @@
 
  Any feedback or contribution to improve the code towards something more generic is warmly welcome (you will find clumsy code, and some things could be done in much smarter ways ;-), I hope it provides at least useful reference to how things can be done).
 
+### LiLa (Latin lexical data, directly on Wikidata)
+
+ Scripts in this folder upload manually validated datasets stemming from the Linking Latin project ([LiLa](https:lila-erc.eu)) directly to Wikidata.
+
 ### CLB-LOD Wikibase (Czech Literary Bibliography MARC data)
 
  https://clb-lod.wikibase.cloud
 
 ### Inguma Wikibase (Basque scientific articles metadata)
 
-https://wikibase.inguma.eus
+ https://wikibase.inguma.eus
 
 ### Quichwabase (Quechua lexical data)
 
-https://qichwa.wikibase.cloud
+ https://qichwa.wikibase.cloud
 
 ### Ahotsak Wikibase (Basque lexical data)
 
  https://datuak.ahotsak.eus
- 
+
  Older code related to Ahotsak wikibase is found at https://github.com/dlindem/ahotsak-wikibase.
 
 ### LexBib Wikibase (Knowledge Graph of the domain of Lexicography and Dictionary Research)
