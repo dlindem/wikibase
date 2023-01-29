@@ -21,13 +21,14 @@ for item in bindings:
 	count += 1
 	distrqid = item['uri']['value'].replace('https://lexbib.elex.is/entity/','')
 	title = item['title']['value']
-	print('\nNow processing:',distrqid,title)
+
 	if 'lcr' in item:
 		lcrqid = item['lcr']['value'].replace('https://lexbib.elex.is/entity/','')
-		print('Found P55 link for this dictionary distribution. LCR is '+lcrqid)
+		# print('Found P55 link for this dictionary distribution. LCR is '+lcrqid)
 	else:
-		print('No P55 link for this dictionary distribution. Will create a new Q4 item.')
+		print('No P55 link for '+distrqid,title+' dictionary distribution. Will create a new Q4 item.')
 		lcrqid = lwbi.itemwrite({'qid':False,
 		'labels': [{'lang': 'en', 'value': title}],
+		'descriptions': [{'lang':'en', 'value': 'a lexical-conceptual resource'}],
 		'statements': [{'prop_nr': 'P5', 'type': 'item', 'value':'Q4'},
 					   {'prop_nr': 'P55', 'type': 'item', 'value':distrqid}]})
