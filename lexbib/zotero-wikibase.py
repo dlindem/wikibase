@@ -306,6 +306,10 @@ def zotero_export(infile=None):
 				statements.append({"prop_nr":"P100","type":"item","value":"Q31"})
 			elif item['type'] == "thesis":
 				statements.append({"prop_nr":"P100","type":"item","value":"Q32"})
+			elif item['type'] == "manuscript":
+				statements.append({"prop_nr":"P100","type":"item","value":"Q66"})
+				if dictDistrset:
+					statements.append({"prop_nr":"P91","type":"item","value":"Q66"})
 
 		# Zotero ID, and, as qualifiers: abstract info, PDF ant TXT file attachments
 
@@ -414,7 +418,8 @@ def zotero_export(infile=None):
 
 		if "author" in item:
 			write_creatortriples("P12", item['author'], creatorvals)
-		elif ("author" not in item) and ("editor" in item):
+		#elif ("author" not in item) and ("editor" in item): # this writes no editor when there is an author
+		if 'editor' in item:
 			write_creatortriples("P13", item['editor'], creatorvals)
 
 		# Extra field, can contain a wikipedia page title, used in Elexifinder project as first-author-location-URI
@@ -733,26 +738,26 @@ def wikibase_import(infile=None):
 				# if 'lexBibClass' in item and item['lexBibClass'].startswith("Q"):
 				# 	classStatement = lwb.updateclaim(lexBibID,"P5",item['lexBibClass'],"item")
 				if len(item['creatorvals']) > 0:
-					creatortype = item['creatorvals'][0]['prop_nr'] # assumes that only one creator type is passed by zotexport.property
-					#print('creator type is '+creatortype)
-					# existingcreators = lwb.getclaims(lexBibID,creatortype)[1]
-					try:
-						existingcreators = lwbitem.claims.get(creatortype)
-					except:
-						existingcreators = []
-					#print('existingcreators: '+str(existingcreators))
-					existinglistpos = []
-					if len(existingcreators) > 0:
-						for existingcreator in existingcreators:
-							try:
-								listposquali = existingcreator.qualifiers.get('P33')
-								if listposquali[0].datavalue['value']:
-									#print(str(existingcreator))
-									existinglistpos.append(listposquali[0].datavalue['value'])
-							except:
-								pass
-					print('existing creator listpos: '+str(existinglistpos))
 					for creatorstatement in item['creatorvals']:
+						creatortype = creatorstatement['prop_nr']
+						#print('creator type is '+creatortype)
+						# existingcreators = lwb.getclaims(lexBibID,creatortype)[1]
+						try:
+							existingcreators = lwbitem.claims.get(creatortype)
+						except:
+							existingcreators = []
+						#print('existingcreators: '+str(existingcreators))
+						existinglistpos = []
+						if len(existingcreators) > 0:
+							for existingcreator in existingcreators:
+								try:
+									listposquali = existingcreator.qualifiers.get('P33')
+									if listposquali[0].datavalue['value']:
+										#print(str(existingcreator))
+										existinglistpos.append(listposquali[0].datavalue['value'])
+								except:
+									pass
+						print('existing creator '+creatortype+' listpos: '+str(existinglistpos))
 						write_creator = True
 						if creatorstatement['value'] == False and "qualifiers" in creatorstatement: # the typical zotero literal output from zotexport.py
 							if 'qualifiers' in creatorstatement:
