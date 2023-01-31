@@ -1,7 +1,7 @@
 import qwbi
 import csv, time
 
-with open('done-lemma-uploads.csv', 'r', encoding="utf-8") as donefile:
+with open('data/done-lemma-uploads.csv', 'r', encoding="utf-8") as donefile:
     done_csv = donefile.read().split('\n')
     done_items = {}
     for item in done_csv:
@@ -49,5 +49,5 @@ with open('lemma-upload.csv', encoding="utf-8") as csvfile: # source file
         statements['replace'].append(qwbi.Item(value="Q9", prop_nr="P7"))
 
         lexeme_id = qwbi.itemwrite(newlexeme, statements, clear=False)
-        with open('done-lemma-uploads.csv', "a", encoding="utf-8") as donefile:
+        with open('data/done-lemma-uploads.csv', "a", encoding="utf-8") as donefile:
             donefile.write(id+'\t'+lexeme_id+'\n')
