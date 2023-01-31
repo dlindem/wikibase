@@ -1,7 +1,7 @@
 import qwbi
 import csv, time
 
-with open('done-lemma-uploads.csv', 'r', encoding="utf-8") as donefile:
+with open('data/done-lemma-uploads.csv', 'r', encoding="utf-8") as donefile:
     done_csv = donefile.read().split('\n')
     existing_lexemes = {}
     for item in done_csv:
