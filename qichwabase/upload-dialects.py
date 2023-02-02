@@ -19,7 +19,9 @@ with open('data/MASTER_dialects_upload.csv', encoding='utf8') as csvfile:
 		del row['id']
 		if interimid not in idmap:
 			print('Fatal error: lexeme does not exist: '+interimid)
-			input('Enter to continue')
+			with open('data/missing-lexemes.txt', 'a') as missingfile:
+				missingfile.write(interimid+'\n')
+			# input('Enter to continue')
 			continue
 		lid = idmap[interimid]
 		if lid in donelist:
@@ -40,7 +42,7 @@ with open('data/MASTER_dialects_upload.csv', encoding='utf8') as csvfile:
 				for item in row:
 					if row[item] == value:
 						writedict[writeval].append(item)
-		print('\n['+str(count)+'] Will write to '+lid+' ('+interimid+'):',str(writedict))
+		print('\n['+str(count)+'] Will write to '+lid+' (with csv id '+interimid+'):',str(writedict))
 
 		lexeme = qwbi.wbi.lexeme.get(entity_id=lid)
 		statements = []
@@ -54,8 +56,19 @@ with open('data/MASTER_dialects_upload.csv', encoding='utf8') as csvfile:
 
 		for statement in statements:
 			lexeme = qwbi.packstatements([statement], wbitem=lexeme)
+		done = False
+		while not done:
+			try:
+				lexeme.write()
+				done = True
+			except Exception as ex:
+				if "404 Client Error" in str(ex):
+					print('Got 404... will wait 10 sec. and try again.')
+					time.sleep(10)
+				else:
+					print("strex: "+str(ex))
+					sys.exit()
 
-		lexeme.write()
 		with open('data/done-dialect-uploads.txt', 'a') as logfile:
 			logfile.write(lexeme.id+'\n')
 		print('Success for '+lexeme.id)
@@ -67,4 +80,3 @@ with open('data/MASTER_dialects_upload.csv', encoding='utf8') as csvfile:
 		#
 		# writerow = {tuple(value) : set(key) for key, value in reverserow.items()}
 		# print(str(writerow))
-
