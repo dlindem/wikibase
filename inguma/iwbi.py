@@ -74,7 +74,7 @@ def packstatements(statements, wbitem=None, qualifiers=False, references=False):
 		else:
 			packed_references = []
 		if statement['value'] == False: # novalue statement
-			statement['value'] == None
+			statement['value'] = None
 			snaktype = WikibaseSnakType.NO_VALUE
 		else:
 			snaktype = WikibaseSnakType.KNOWN_VALUE
