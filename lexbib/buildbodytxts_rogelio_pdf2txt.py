@@ -1,4 +1,5 @@
 
+
 import re
 import json
 import os
@@ -12,11 +13,20 @@ import json
 import requests
 import config
 import nlp
+import lwb
 import time
 
+langmap = {
+}
+
+
 # load bodytxt collection built in previous iterations
-with open(config.datafolder+'bodytxt/bodytxt_collection.json', encoding="utf-8") as infile:
-	bodytxtcoll = json.load(infile)
+try:
+	with open('D:/Rogelio/bodytxt_collection_rogelio.json', encoding="utf-8") as infile:
+		bodytxtcoll = json.load(infile)
+except:
+	print('Failed to load json infile. Starting from scratch.')
+	bodytxtcoll = {}
 
 #get bibitems to process
 query = """
@@ -32,25 +42,23 @@ select
 (sample(?txtfolder) as ?txt)
 (sample(?pdffolder) as ?pdf)
 ?zotero
-?isolang
-?abstractLang
+?lang
 
 where
 {
   #BIND(lwb:Q1605 as ?bibItem)
 
   ?bibItem ldp:P5 lwb:Q3 .
-  filter not exists {?bibItem ldp:P100 lwb:Q24.} # exclude dictionaries (only allow metalexicography)
-  ?bibItem ldp:P11 ?lang . ?lang ldp:P32 ?isolang .
-  #filter(?lang = lwb:Q201 || ?lang = lwb:Q204) # English or Spanish only
-  # ?bibItem ldp:P85 ?coll . # Items with Elexifinder collection only
+  filter not exists{?bibItem ldp:P100 lwb:Q30.} # no videos
+  ?bibItem ldp:P11 ?lang .
+  filter(?lang = lwb:Q204 || ?lang = lwb:Q201) # Spanish and English only
+  #?bibItem ldp:P85 ?coll . # Items with Elexifinder collection only
   ?bibItem lp:P16 ?zoterostatement .
   ?zoterostatement lps:P16 ?zotero .
  OPTIONAL{?zoterostatement lpq:P70 ?pdffolder .}
  OPTIONAL{?zoterostatement lpq:P71 ?txtfolder .}
- OPTIONAL{?zoterostatement lpq:P105 ?abstractLang . filter(?abstractLang = lwb:Q201)}
  }
-group by ?bibItem ?txt ?pdf ?zotero ?isolang ?abstractLang
+group by ?bibItem ?txt ?pdf ?zotero ?lang
 """
 print(query)
 
@@ -59,7 +67,7 @@ print("Waiting for SPARQL...")
 sparqlresults = sparql.query(url,query)
 print('\nGot bibItem list from LexBib SPARQL.')
 
-sourcecount = {'failed':0,'manual_txt':0,'grobid':0,'zotero_pdf2text':0,'zotero_abstract':0,'zotero_title':0, 'zotero_english_abstract':0}
+sourcecount = {'failed':0,'manual_txt':0,'grobid':0,'zotero_pdf2text':0,'zotero_abstract':0,'zotero_title':0}
 
 #go through sparqlresults
 rowindex = 0
@@ -72,9 +80,9 @@ for row in sparqlresults:
 
 	# check if already processed
 	# if bibItem in bodytxtcoll:
-	# 	if bodytxtcoll[bibItem]['source'] == 'manual_txt':
-	# 		print(bibItem+' is in bodytxtcoll already with manual txt, skipped.')
-	# 	continue
+	# 	if bodytxtcoll[bibItem]['source'] == 'zotero_pdf2text':
+	# 		print(bibItem+' is in bodytxtcoll already as zotero_pdf2text, skipped.')
+	# 		continue
 
 	if item[1]:
 		txtFolder = item[1]
@@ -86,46 +94,60 @@ for row in sparqlresults:
 		pdfFolder = None
 	zotItem = item[3]
 	if item[4]:
-		lang = item[4].replace("https://lexbib.elex.is/entity/","")
+		if item[4] in langmap:
+			lang = langmap[item[4]]
+		else:
+			p32claims = lwb.getclaims(item[4].replace("https://lexbib.elex.is/entity/",""),"P32")[1]
+			print(str(p32claims))
+			lang = p32claims['P32'][0]['mainsnak']['datavalue']['value']
+			print('Found and mapped new language '+lang)
+			time.sleep(2)
+			langmap[item[4]] = lang
 	else:
 		lang = None
-	enAbstract = False
-	if item[5] == "https://lexbib.elex.is/entity/Q201":
-		enAbstract = True
 
 	# load txt. Try (1), txt file manually attached to Zotero item (excluding manually attached pdf2text and grobidbody files), (2) GROBID body TXT, (3) pdf2txt Zotero cache file, (4) abstract, (5) title
 
 	bodytxt = None
 	bodytxtsource = None
 
-	#check if manual txt is available. Files named "pdf2text.txt" are not manual txts and are excluded
-	if txtFolder:
-		path = "D:/Zotero/storage/"
-		print('TxtFolder contains: '+str(os.listdir(path+txtFolder)))
-		for file in os.listdir(path+txtFolder):
-			if file.endswith("pdf2text.txt") or file.endswith("grobidbody.txt") or file.endswith("zotero-ft-cache"):
-				continue
-			print("Found manually attached txt file: "+path+txtFolder+'/'+file)
-			with open(path+txtFolder+'/'+file, "r", encoding="utf-8", errors="ignore") as txtfile:
-				bodytxt = txtfile.read().replace('\r', ' ').replace('\n', ' ')
-				bodytxtsource = "manual_txt"
-			break
-
-	if bodytxt == None and pdfFolder:
-		#check if grobid output is available
+	if pdfFolder:
 		try:
-			path="D:/LexBib/zot2wb/grobid_download/"
+			path = "D:/Zotero/storage/"
 			pdfFolder = pdfFolder.replace("http://lexbib.org/zotero/","")
-			for file in os.listdir(path+pdfFolder):
-				if file.endswith(".tei.xml"):
-					print('Found grobid TEI XML')
-					bodytxt = nlp.getgrobidbody(path+pdfFolder+'/'+file)
-					bodytxtsource = "grobid"
-					break
+			shutil.copytree(path+pdfFolder,"D:/Rogelio/pdffolders/"+pdfFolder)
+			print('Found and copied PDF folder: '+pdfFolder)
 		except Exception as ex:
-			print('Access to Grobid output failed. '+str(ex))
+			print('Copying file failed. '+str(ex))
 
-	if bodytxt == None and pdfFolder:
+	#check if manual txt is available. Files named "pdf2text.txt" are not manual txts and are excluded
+	# if txtFolder:
+	# 	path = "D:/Zotero/storage/"
+	# 	print('TxtFolder contains: '+str(os.listdir(path+txtFolder)))
+	# 	for file in os.listdir(path+txtFolder):
+	# 		if file.endswith("pdf2text.txt") or file.endswith("grobidbody.txt") or file.endswith("zotero-ft-cache"):
+	# 			continue
+	# 		print("Found manually attached txt file: "+path+txtFolder+'/'+file)
+	# 		with open(path+txtFolder+'/'+file, "r", encoding="utf-8", errors="ignore") as txtfile:
+	# 			bodytxt = txtfile.read().replace('\r', ' ').replace('\n', ' ')
+	# 			bodytxtsource = "manual_txt"
+	# 		break
+
+	# if bodytxt == None and pdfFolder:
+	# 	#check if grobid output is available
+	# 	try:
+	# 		path="D:/LexBib/zot2wb/grobid_download/"
+	# 		pdfFolder = pdfFolder.replace("http://lexbib.org/zotero/","")
+	# 		for file in os.listdir(path+pdfFolder):
+	# 			if file.endswith(".tei.xml"):
+	# 				print('Found grobid TEI XML')
+	# 				bodytxt = nlp.getgrobidbody(path+pdfFolder+'/'+file)
+	# 				bodytxtsource = "grobid"
+	# 				break
+	# 	except Exception as ex:
+	# 		print('Access to Grobid output failed. '+str(ex))
+
+	if pdfFolder:
 		#check out zotero full text cache
 		try:
 			path = "D:/Zotero/storage/"
@@ -135,63 +157,47 @@ for row in sparqlresults:
 					print("Found Zotero full text cache file")
 					print(path+pdfFolder+'/'+file)
 					with open(path+pdfFolder+'/'+file, "r", encoding="utf-8", errors="ignore") as txtfile:
-						bodytxt = txtfile.read().replace('\n', ' ')
+						bodytxt = txtfile.read() # .replace('\n', ' ')
 						bodytxtsource = "zotero_pdf2text"
 						break
 		except Exception as ex:
 			print('Access to Zotero Full Text cache failed. '+str(ex))
 
-	if bodytxt == None and zotItem:
-		# check if abstract is available from Zotero. *** TBD: ":abstractLanguage"
-		print('Will now try to get abstract text from Zotero...')
-		#time.sleep(2)
-		try:
-			request_uri = "https://api.zotero.org/groups/1892855/items/"+zotItem
-			r = requests.get(request_uri)
-			#print(str(r.json()))
-			if 'abstractNote' in r.json()['data']:
-				bodytxt = r.json()['data']['abstractNote'].replace("\n", " ")
-				bodytxtsource = "zotero_abstract"
-				print('Took Zotero abstract as bodytxt')
-			if bodytxt == None or len(str(bodytxt)) < len(r.json()['data']['title']): #if abstract field was empty or shorter than item title
-				bodytxt = r.json()['data']['title']
-				bodytxtsource = "zotero_title"
-				print('Took Zotero title as bodytxt')
-		except Exception as ex:
-			print('Access to Zotero API failed. '+str(ex))
-			time.sleep(4)
+	# if bodytxt == None and zotItem:
+	# 	# check if abstract is available from Zotero. *** TBD: ":abstractLanguage"
+	# 	print('Will now try to get abstract text from Zotero...')
+	# 	#time.sleep(2)
+	# 	try:
+	# 		request_uri = "https://api.zotero.org/groups/1892855/items/"+zotItem
+	# 		r = requests.get(request_uri)
+	# 		#print(str(r.json()))
+	# 		if 'abstractNote' in r.json()['data']:
+	# 			bodytxt = r.json()['data']['abstractNote'].replace("\n", " ")
+	# 			bodytxtsource = "zotero_abstract"
+	# 			print('Took Zotero abstract as bodytxt')
+	# 		if bodytxt == None or len(str(bodytxt)) < len(r.json()['data']['title']): #if abstract field was empty or shorter than item title
+	# 			bodytxt = r.json()['data']['title']
+	# 			bodytxtsource = "zotero_title"
+	# 			print('Took Zotero title as bodytxt')
+	# 	except Exception as ex:
+	# 		print('Access to Zotero API failed. '+str(ex))
+	# 		time.sleep(4)
 
 	if bodytxt:
 		bodytxt = nlp.check_encoding(bodytxt, txtname=bibItem)
-		if lang in list(nlp.sp.keys()):
-			bodylemclean = nlp.lemmatize_clean(bodytxt, lang=lang)
-		else:
-			print('Language '+lang+' not implemented in nlp.py, will check for English abstract.')
-			if enAbstract:
-				print('Will now try to get abstract text from Zotero...')
-				#time.sleep(2)
-				try:
-					request_uri = "https://api.zotero.org/groups/1892855/items/"+zotItem
-					r = requests.get(request_uri)
-					#print(str(r.json()))
-					if 'abstractNote' in r.json()['data']:
-						enabstxt = r.json()['data']['abstractNote'].replace("\n", " ")
-						bodytxtsource = "zotero_english_abstract"
-						bodylemclean = nlp.lemmatize_clean(enabstxt, lang="eng")
-						print('Took Zotero English abstract for bodylem, not replacing non-English bodytxt.')
-				except Exception as ex:
-					print('Access to Zotero API failed. '+str(ex))
-					time.sleep(4)
-			else:
-				print('No English abstract. Skipped lemmatization.')
-				bodylemclean = None
-		bodytxtcoll[bibItem] = {'zotItem': zotItem, 'source': bodytxtsource, 'lang': lang, 'bodytxt': bodytxt, 'bodylemclean' : bodylemclean}
+		#bodylemclean = nlp.lemmatize_clean(bodytxt, lang="spa")
+		bodytxtcoll[bibItem] = {'lexbibEntity':'https://lexbib.elex.is/entity/'+bibItem, 'pdfFolder': pdfFolder, 'zotItem': zotItem, 'source': bodytxtsource, 'lang': lang, 'bodytxt': bodytxt} #, 'bodylemclean' : bodylemclean}
 	else:
 		bodytxtsource = "failed"
-		with open('D:/LexBib/bodytxt/bodytxt_failed.txt', 'a', encoding="utf-8") as failed_list:
+		with open('D:/Rogelio/bodytxt_rogelio_failed.txt', 'a', encoding="utf-8") as failed_list:
 			failed_list.write(bibItem+'\n')
 
 	sourcecount[bodytxtsource] += 1
+
+	# save txt for Rogelio
+	if bodytxt:
+		with open('D:/Rogelio/pdf2text/'+bibItem+'.txt', 'w', encoding="utf-8") as target_txt:
+			target_txt.write(bodytxt)
 
 	# # communicate with Zotero, write Qid to "archive location"
 	# zotapid = zotItem.replace("http://lexbib.org/zotero/", "https://api.zotero.org/groups/1892855/items/")
@@ -266,9 +272,10 @@ for row in sparqlresults:
 	# 	#time.sleep(5)
 
 
-with open(config.datafolder+'bodytxt/bodytxt_collection.json', 'w', encoding="utf-8") as json_file: # path to result JSON file
+with open('D:/Rogelio/bodytxt_collection_rogelio.json', 'w', encoding="utf-8") as json_file: # path to result JSON file
 	json.dump(bodytxtcoll, json_file, indent=2)
-with open(config.datafolder+'bodytxt/bodytxt_sourcecount.json', 'w', encoding="utf-8") as json_file: # path to result JSON file
+with open('D:/Rogelio/bodytxt_sourcecount.json', 'w', encoding="utf-8") as json_file: # path to result JSON file
 	json.dump(sourcecount, json_file, indent=2)
 print('\n\nFinished writing output files. Bodytxtcoll has now '+str(len(bodytxtcoll))+' bodytxt items.')
+
 print('Used sources: '+str(sourcecount))
