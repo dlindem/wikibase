@@ -53,6 +53,5 @@ def check_encoding(txt, txtname="unknown"):
 		return txt
 	else:
 		print('Will change encoding of '+txtname+' from '+encoding['encoding']+' to utf-8...')
-		time.sleep(0.5)
 		return txtenc.decode(encoding['encoding'])
 
