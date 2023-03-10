@@ -13,7 +13,7 @@ with open('data/done-lemma-uploads.csv', 'r', encoding="utf-8") as donefile:
     print('\nThere are '+str(len(done_items))+' already uploaded items.')
     time.sleep(2)
 
-with open('pos-mapping.csv', 'r', encoding="utf-8") as posfile:
+with open('data/pos-mapping.csv', 'r', encoding="utf-8") as posfile:
     pos_csv = csv.DictReader(posfile, delimiter="\t")
     pos_mapping = {}
     for item in pos_csv:
@@ -22,7 +22,7 @@ with open('pos-mapping.csv', 'r', encoding="utf-8") as posfile:
     print('\nThere are '+str(len(pos_mapping))+' POS mappings.')
     time.sleep(2)
 
-with open('lemma-upload.csv', encoding="utf-8") as csvfile: # source file
+with open('data/lemma-upload.csv', encoding="utf-8") as csvfile: # source file
     rows = csv.DictReader(csvfile, delimiter="\t")
 
     for row in rows:

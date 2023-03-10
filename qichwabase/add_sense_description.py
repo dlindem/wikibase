@@ -13,7 +13,7 @@ with open('data/done-lemma-uploads.csv', 'r', encoding="utf-8") as donefile:
     print('\nThere are '+str(len(existing_lexemes))+' already uploaded lexemes.')
     time.sleep(2)
 
-with open('done-sense-descriptions.csv', 'r', encoding="utf-8") as donefile:
+with open('data/done-sense-descriptions.csv', 'r', encoding="utf-8") as donefile:
     done_csv = donefile.read().split('\n')
     done_items = {}
     for item in done_csv:
@@ -25,7 +25,7 @@ with open('done-sense-descriptions.csv', 'r', encoding="utf-8") as donefile:
     print('\nThere are '+str(len(done_items))+' already uploaded sense descriptions.')
     time.sleep(2)
 
-with open('sense-description-upload.csv', encoding="utf-8") as csvfile: # source file
+with open('data/sense-description-upload.csv', encoding="utf-8") as csvfile: # source file
     rows = csv.DictReader(csvfile, delimiter="\t")
 
     for row in rows:
@@ -60,7 +60,7 @@ with open('sense-description-upload.csv', encoding="utf-8") as csvfile: # source
         lexeme.senses.add(sense)
 
         lexeme.write()
-        with open('done-sense-descriptions.csv', "a", encoding="utf-8") as donefile:
+        with open('data/done-sense-descriptions.csv', "a", encoding="utf-8") as donefile:
             donefile.write(id+'\t'+lexeme.id+'\n')
         print('Finished writing to '+lexeme.id)
         time.sleep(1)
