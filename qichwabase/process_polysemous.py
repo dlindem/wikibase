@@ -1,19 +1,10 @@
-import qwbi
-import csv, time
 
-with open('data/done-sense-descriptions.csv', 'r', encoding="utf-8") as donefile:
-    done_csv = donefile.read().split('\n')
-    done_items = {}
-    for item in done_csv:
-        try:
-            done_items[item.split('\t')[0]] = item.split('\t')[1]
-        except:
-            pass
-    # print(str(done_items))
-    print('\nThere are '+str(len(done_items))+' existing sense descriptions.')
-    time.sleep(2)
+import csv, time, json
 
-with open('data/MASTER_french_italian_upload.csv', encoding="utf-8") as csvfile: # source file
+with open('data/qichwabase_monosemous.json', 'r', encoding="utf-8") as jsonfile:
+    source = json.load(jsonfile)['results']['bindings']
+
+with open('data/m.csv', encoding="utf-8") as csvfile: # source file
     rows = csv.DictReader(csvfile, delimiter="\t")
 
     for row in rows:
