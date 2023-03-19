@@ -18,25 +18,25 @@ from wikibaseintegrator.wbi_enums import ActionIfExists, WikibaseSnakType
 # from wikibaseintegrator.models.claims import Claims
 
 
-wbi_config['MEDIAWIKI_API_URL'] = 'https://kurdish.wikibase.cloud/w/api.php'
-wbi_config['SPARQL_ENDPOINT_URL'] = 'https://kurdish.wikibase.cloud/query/sparql'
-wbi_config['WIKIBASE_URL'] = 'https://kurdish.wikibase.cloud'
+wbi_config['MEDIAWIKI_API_URL'] = 'https://kurdi.wikibase.cloud/w/api.php'
+wbi_config['SPARQL_ENDPOINT_URL'] = 'https://kurdi.wikibase.cloud/query/sparql'
+wbi_config['WIKIBASE_URL'] = 'https://kurdi.wikibase.cloud'
 
 login_instance = wbi_login.Login(user=wb_bot_user, password=wb_bot_pwd)
 
 wbi = WikibaseIntegrator(login=login_instance)
 
 sparql_prefixes = """
-PREFIX kwb: <https://kurdish.wikibase.cloud/entity/>
-PREFIX kdp: <https://kurdish.wikibase.cloud/prop/direct/>
-PREFIX kp: <https://kurdish.wikibase.cloud/prop/>
-PREFIX kps: <https://kurdish.wikibase.cloud/prop/statement/>
-PREFIX kpq: <https://kurdish.wikibase.cloud/prop/qualifier/>
-PREFIX kpr: <https://kurdish.wikibase.cloud/prop/reference/>
-PREFIX kno: <https://kurdish.wikibase.cloud/prop/novalue/>
+PREFIX kwb: <https://kurdi.wikibase.cloud/entity/>
+PREFIX kdp: <https://kurdi.wikibase.cloud/prop/direct/>
+PREFIX kp: <https://kurdi.wikibase.cloud/prop/>
+PREFIX kps: <https://kurdi.wikibase.cloud/prop/statement/>
+PREFIX kpq: <https://kurdi.wikibase.cloud/prop/qualifier/>
+PREFIX kpr: <https://kurdi.wikibase.cloud/prop/reference/>
+PREFIX kno: <https://kurdi.wikibase.cloud/prop/novalue/>
 """
 
-wd_user_agent = "https://kurdish.wikibase.cloud user DavidLbot"
+wd_user_agent = "https://kurdi.wikibase.cloud user DavidLbot"
 
 # functions for interaction with wbi
 def packstatements(statements, wbitem=None, qualifiers=False, references=False):
@@ -56,7 +56,7 @@ def packstatements(statements, wbitem=None, qualifiers=False, references=False):
 		snaktype = WikibaseSnakType.KNOWN_VALUE
 		if 'value' in statement:
 			if statement['value'] == False: # novalue statement
-				statement['value'] == None
+				statement['value'] = None
 				snaktype = WikibaseSnakType.NO_VALUE
 
 		actions = {
