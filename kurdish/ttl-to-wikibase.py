@@ -1,4 +1,5 @@
 from rdflib import Graph, URIRef
+import kwbi, time, sys # kwbi is the customized wikibaseIntegrator 12.0 engine
 
 # load existing lexemes lookup table
 with open('data/lexeme-mapping.csv') as mappingcsv:
@@ -9,6 +10,7 @@ with open('data/lexeme-mapping.csv') as mappingcsv:
 		if len(mapping) == 2:
 			lexeme_map[mapping[0]] = mapping[1]
 
+# maps source TTL object property value to kurdi.wikibase item
 ontology_map = {
     "http://www.lexinfo.net/ontology/2.0/lexinfo#noun": "Q6",
     "http://www.lexinfo.net/ontology/2.0/lexinfo#verb": "Q7",
@@ -20,10 +22,12 @@ ontology_map = {
     "http://www.lexinfo.net/ontology/2.0/lexinfo#plural": "Q13"
 }
 
+# maps lexvo language uri to kurdi.wikibase language item
 isolang_map = {
     "www.lexvo.org/page/iso639-3/kmr": "Q14"
 }
 
+# maps TTL langstring language to wikilanguage. While proper Kurdish variety language code is not implemented, we use ku-latn / ku-arab for all Kurdish varieties here
 wikilang_map = {
     "kmr-latn": "ku-latn",
     "en": "en"
@@ -62,11 +66,12 @@ for entry in entries:
     lemma = entry.lemma
     language = isolang_map[entry.language]
     pos = ontology_map[entry.pos]
-    print(f'[{str(entrycount)}] Now processing entry with original URI {entryuri}, lemma {lemma}, pos {pos}.')
+    print(f'[\n{str(entrycount)}] Now processing entry with original URI {entryuri}: lemma {lemma}, pos {pos}.')
     if entryuri in lexeme_map:
         lexeme = kwbi.lexeme.get(entity_id=lexeme_map[entryuri])
     else:
         lexeme = kwbi.lexeme.new(language=language, lexical_category=pos)
+    lexeme.lemmas.set(language=wikilang_map[entry.lemlang], value=lemma)
 
     sensecount = 0
     for senseuri in entry.senses.split(' '):
