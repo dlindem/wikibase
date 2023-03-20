@@ -14,13 +14,14 @@ from wikibaseintegrator.models import Reference, References, Form, Sense
 from wikibaseintegrator.wbi_config import config as wbi_config
 from wikibaseintegrator import wbi_helpers
 from wikibaseintegrator.wbi_enums import ActionIfExists, WikibaseSnakType
-
-# from wikibaseintegrator.models.claims import Claims
+from wikibaseintegrator.models.claims import Claims
+from wikibaseintegrator.models.qualifiers import Qualifiers
 
 
 wbi_config['MEDIAWIKI_API_URL'] = 'https://kurdi.wikibase.cloud/w/api.php'
 wbi_config['SPARQL_ENDPOINT_URL'] = 'https://kurdi.wikibase.cloud/query/sparql'
 wbi_config['WIKIBASE_URL'] = 'https://kurdi.wikibase.cloud'
+wbi_config['MAXLAG'] = 0
 
 login_instance = wbi_login.Login(user=wb_bot_user, password=wb_bot_pwd)
 
@@ -36,7 +37,7 @@ PREFIX kpr: <https://kurdi.wikibase.cloud/prop/reference/>
 PREFIX kno: <https://kurdi.wikibase.cloud/prop/novalue/>
 """
 
-wd_user_agent = "https://kurdi.wikibase.cloud user DavidLbot"
+wd_user_agent = "https://kurdi.wikibase.cloud user DavidLBot"
 
 # # functions for interaction with wbi
 # def packstatements(statements, wbitem=None, qualifiers=False, references=False):
@@ -144,7 +145,7 @@ wd_user_agent = "https://kurdi.wikibase.cloud user DavidLbot"
 # 	d = False
 # 	while d == False:
 # 		try:
-# 			print('Writing to eusterm wikibase...')
+# 			print('Writing to kwbi wikibase...')
 # 			r = kwbitem.write(clear=clear)
 # 			d = True
 # 			print('Successfully written to item: '+kwbitem.id)
