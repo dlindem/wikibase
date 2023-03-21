@@ -21,46 +21,58 @@ ontology_map = {
 	"<http://www.lexinfo.net/ontology/2.0/lexinfo#preposition>": "Q10",
 	"<http://www.lexinfo.net/ontology/2.0/lexinfo#conjunction>": "Q11",
 	"<http://www.lexinfo.net/ontology/2.0/lexinfo#interjection>": "Q24",
+	"<http://www.lexinfo.net/ontology/2.0/lexinfo#numeral>": "Q25",
+	"<http://www.lexinfo.net/ontology/2.0/lexinfo#pronoun>": "Q26",
 	"<http://www.lexinfo.net/ontology/2.0/lexinfo#singular>": "Q12",
 	"<http://www.lexinfo.net/ontology/2.0/lexinfo#plural>": "Q13",
 	"<http://www.lexinfo.net/ontology/2.0/lexinfo#feminine>": "Q22",
-	"<http://www.lexinfo.net/ontology/2.0/lexinfo#masculine>": "Q23"
+	"<http://www.lexinfo.net/ontology/2.0/lexinfo#masculine>": "Q23",
+	"<http://www.lexinfo.net/ontology/2.0/lexinfo#circumposition>": "Q27",
+	"<http://www.lexinfo.net/ontology/2.0/lexinfo#interrogativeParticle>": "Q28",
+	"<http://www.lexinfo.net/ontology/2.0/lexinfo#cliticness>": "Q29",
+	"<http://www.lexinfo.net/ontology/2.0/lexinfo#superlative>": "Q30",
+	"<http://www.lexinfo.net/ontology/2.0/lexinfo#particle>": "Q31"
 }
 
 # maps lexvo language uri to kurdi.wikibase language item
 isolang_map = {
-	"<http://www.lexvo.org/page/iso639-3/kmr>": "Q14"
+	"<http://www.lexvo.org/page/iso639-3/kmr>": "Q14",
+	"<http://www.lexvo.org/page/iso639-3/sdh>": "Q33",
 }
 
 # maps TTL langstring language to wikilanguage. While proper Kurdish variety language code is not implemented, we use ku-latn / ku-arab for all Kurdish varieties here
 wikilang_map = {
 	"kmr-latn": "ku-latn",
+	"sdh-latn": "ku-latn",
+	"sdh-arab": "ku-arab",
+	"ku-arab": "ku-arab",
+	"fa": "fa",
 	"en": "en"
 }
+ttlfile = "data/Southern_Kurdish_new.ttl"
+dictitem = "Q32"
+
 
 g = Graph()
-g.parse("kurdish/data/Kurmanji_new.ttl")
+g.parse(ttlfile)
 print('TTL loaded.')
 namespaces = {} # build the ns prefix object for rdflib sparql initNs
 for ns_prefix, namespace in g.namespaces():
 	namespaces[ns_prefix] = URIRef(namespace)
 
-# dct:language <www.lexvo.org/page/iso639-3/kmr> ;
-#  ontolex:writtenRep "gav"@kmr-latn ;
-#  lexinfo:partOfSpeech lexinfo:noun ;
-#  lexinfo:gender lexinfo:feminine ;
-
 # get entry level information
 entry_query = """
-SELECT DISTINCT ?entryuri (lang(?lemma) as ?lemlang) ?lemma ?pos ?language ?gender (group_concat(?sense) as ?senses) (group_concat(?form) as ?forms) 
+SELECT DISTINCT ?entryuri (lang(?lemma) as ?lemlang) (group_concat(distinct concat(?lemma,"@",lang(?lemma));SEPARATOR="|") as ?lemmas) ?pos ?language ?gender 
+				(group_concat(distinct ?sense) as ?senses) #(group_concat(distinct ?form) as ?forms) 
 WHERE {
 	?entryuri a ontolex:LexicalEntry ; rdfs:label ?lemma ;
-			dct:language ?language ;
-			lexinfo:partOfSpeech ?pos . 
+			dct:language ?language .
+			optional { ?entryuri lexinfo:partOfSpeech ?pos .} 
 			optional { ?entryuri lexinfo:gender ?gender . }
 			optional { ?entryuri ontolex:sense ?sense . }
-			optional { ?entryuri ontolex:canonicalForm|ontolex:form ?form . }
-} group by ?entryuri ?lemlang ?lemma ?pos ?language ?gender ?senses ?forms"""
+		#	optional { ?entryuri ontolex:canonicalForm|ontolex:form ?form . }
+} group by ?entryuri ?lemmas ?pos ?language ?gender ?senses #?forms
+"""
 print('Getting entries info with sparql...')
 entries = g.query(entry_query, initNs=namespaces)
 entrycount = 0
@@ -68,20 +80,29 @@ entrycount = 0
 for entry in entries:
 	entrycount += 1
 	entryuri = str(entry.entryuri)
-	lemma = str(entry.lemma)
+	lemmas = str(entry.lemmas)
 	language = isolang_map[entry.language.n3()]
-	pos = ontology_map[entry.pos.n3()]
-	print(f'\n[{str(entrycount)}] Now processing entry with original URI {entryuri}: lemma {lemma}, pos {pos}.')
-	time.sleep(0.2)
+	if entry.pos:
+		pos = ontology_map[entry.pos.n3()]
+	else:
+		pos = "Q19"
+	print(f'\n[{str(entrycount)}] Now processing entry with original URI {entryuri}: lemmagroup {lemmas}, pos {pos}.')
+
 	if entryuri in lexeme_map:
+		continue
 		lexeme = kwbi.wbi.lexeme.get(entity_id=lexeme_map[entryuri])
 		print('Found this lexeme on wikibase: ' + lexeme.id)
 		# print(str(lexeme.get_json()))
-		continue
 	else:
+		time.sleep(0.2)
 		lexeme = kwbi.wbi.lexeme.new(language=language, lexical_category=pos)
-	lexeme.lemmas.set(language=wikilang_map[str(entry.lemlang)], value=lemma)
+	for lem_lang in lemmas.split('|'):
+		lem_lang_split = lem_lang.split('@')
+		lemlang = wikilang_map[lem_lang_split[1]]
+		lemtext = lem_lang_split[0]
+		lexeme.lemmas.set(language=lemlang , value=lemtext)
 	lexeme.claims.add(kwbi.URL(prop_nr='P11', value=str(entryuri)))
+	lexeme.claims.add(kwbi.Item(prop_nr='P10', value=dictitem))
 	if entry.gender:
 		lexeme.claims.add(kwbi.Item(prop_nr='P13', value=ontology_map[entry.gender.n3()]))
 
@@ -131,36 +152,37 @@ for entry in entries:
 			lexeme.senses.add(newsense)
 	print(f'    Added {str(sensecount)} senses to the lexeme.')
 
-	formcount = 0
-	for formuri in entry.forms.split(' '):
-	    if not formuri.startswith('http'):
-	        continue
-	    print('  Processing form: '+formuri)
-	    formcount += 1
-	    # get form level information
-	    form_query = """
-	      SELECT DISTINCT ?formuri (lang(?wrep) as ?wreplang) ?wrep ?number ?gender WHERE {
-	      BIND(<""" + formuri + """> as ?formuri)
-	         ?formuri ontolex:writtenRep ?wrep.
-	         optional { ?formuri lexinfo:number ?number . }
-	         optional { ?formuri lexinfo:gender ?gender . }
-	         # case, etc. should go here
-	      } group by ?formuri ?wreplang ?wrep ?number ?gender"""
-
-	    forms = g.query(form_query, initNs=namespaces)
-	    for form in forms:
-	        grammatical_features = []
-	        if form.number:
-	            grammatical_features.append(ontology_map[form.number.n3()])
-	        if form.gender:
-	            grammatical_features.append(ontology_map[form.gender.n3()])
-	        newform = kwbi.Form()
-	        newform.grammatical_features = grammatical_features
-	        newform.representations.set(language=wikilang_map[str(form.wreplang)], value=str(form.wrep)) # we assume here cardinality 1 for ontolex:writtenRep
-	        newform.claims.add(kwbi.URL(prop_nr='P11', value=formuri))
-	        lexeme.forms.add(newform)
-	print(f'    Added {str(formcount)} forms to the lexeme.')
-
+	# formcount = 0
+	#
+	# for formuri in entry.forms.split(' '):
+	# 	if not formuri.startswith('http'):
+	# 		continue
+	# 	print('  Processing form: '+formuri)
+	# 	formcount += 1
+	# 	# get form level information
+	# 	form_query = """
+	# 	  SELECT DISTINCT ?formuri (lang(?wrep) as ?wreplang) ?wrep ?number ?gender WHERE {
+	# 	  BIND(<""" + formuri + """> as ?formuri)
+	# 		 ?formuri ontolex:writtenRep ?wrep.
+	# 		 optional { ?formuri lexinfo:number ?number . }
+	# 		 optional { ?formuri lexinfo:gender ?gender . }
+	# 		 # case, etc. should go here
+	# 	  } group by ?formuri ?wreplang ?wrep ?number ?gender"""
+	#
+	# 	forms = g.query(form_query, initNs=namespaces)
+	# 	for form in forms:
+	# 		grammatical_features = []
+	# 		if form.number:
+	# 			grammatical_features.append(ontology_map[form.number.n3()])
+	# 		if form.gender:
+	# 			grammatical_features.append(ontology_map[form.gender.n3()])
+	# 		newform = kwbi.Form()
+	# 		newform.grammatical_features = grammatical_features
+	# 		newform.representations.set(language=wikilang_map[str(form.wreplang)], value=str(form.wrep)) # we assume here cardinality 1 for ontolex:writtenRep
+	# 		newform.claims.add(kwbi.URL(prop_nr='P11', value=formuri))
+	# 		lexeme.forms.add(newform)
+	# print(f'    Added {str(formcount)} forms to the lexeme.')
+	#
 
 
 	done = False
