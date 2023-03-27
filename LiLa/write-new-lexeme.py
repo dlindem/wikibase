@@ -6,7 +6,7 @@ import csv, time, json, sys
 with open('logs/done_new_items.txt', 'r', encoding="utf-8") as logfile:
 	done_items = logfile.read().split('\n')
 
-with open('new_latin_lexemes.json', 'r', encoding="utf-8") as jsonfile:
+with open('data/new_latin_lexemes.json', 'r', encoding="utf-8") as jsonfile:
 	data = json.load(jsonfile)
 	count = 0
 	for item in data:

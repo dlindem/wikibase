@@ -6,7 +6,7 @@ import csv, time
 with open('logs/done_items.txt', 'r', encoding="utf-8") as logfile:
 	done_items = logfile.read().split('\n')
 
-with open('wikidata_lila_alignment_1st_batch.csv', 'r', encoding="utf-8") as csvfile:
+with open('data/wikidata_lila_alignment_1st_batch.csv', 'r', encoding="utf-8") as csvfile:
 	mappings = csv.DictReader(csvfile, delimiter=",")
 	count = 0
 	for mapping in mappings:
