@@ -31,7 +31,10 @@ for wn31norm in wd_wn:
         lilalookup = wn30num + "-" + wn30pos
         if lilalookup in lila_wn:
             print('Found ',str(lila_wn[lilalookup]))
-            found_mappings[wd_wn[wn31norm]['wd_item']] = {'lilalem': lila_wn[lilalookup]['lemma_id'], 'lilasense': lila_wn[lilalookup]['sense']}
+            found_mappings[wd_wn[wn31norm]['wd_item']] = {
+                'lilalem': lila_wn[lilalookup]['lemma_id'],
+                'lilasense': lila_wn[lilalookup]['sense'],
+                'wn30': lila_wn[lilalookup]['synset']}
 
 print(f'Found {str(len(found_mappings))} mappings.')
 
