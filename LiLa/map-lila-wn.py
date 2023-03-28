@@ -53,7 +53,7 @@ for wn31 in wd_wn:
                 }
             else:
                 found_mappings_without_lexeme[wd_wn[wn31]['wd_item']] = {
-                    'lilalem': lilalem,
+                    'lilalem': lila_wn[wn30]['lemma_id'],
                     'lilasense': lila_wn[wn30]['sense'],
                     'wn30': lila_wn[wn30]['synset'],
                     'wn31': 'http://wordnet-rdf.princeton.edu/rdf/id/' + wn31
