@@ -6,11 +6,12 @@ from config_private import wb_bot_user, wb_bot_pwd
 from wikibaseintegrator import wbi_login, WikibaseIntegrator
 # from wikibaseintegrator.datatypes.string import String
 from wikibaseintegrator.datatypes.externalid import ExternalID
-# from wikibaseintegrator.datatypes.item import Item
+from wikibaseintegrator.datatypes.item import Item
 # from wikibaseintegrator.datatypes.monolingualtext import MonolingualText
 # from wikibaseintegrator.datatypes.time import Time
 # from wikibaseintegrator.datatypes.globecoordinate import GlobeCoordinate
-# from wikibaseintegrator.datatypes.url import URL
+from wikibaseintegrator.datatypes.url import URL
+from wikibaseintegrator.models import Reference, References, Form, Sense
 from wikibaseintegrator.wbi_config import config as wbi_config
 # from wikibaseintegrator import wbi_helpers
 # from wikibaseintegrator.wbi_enums import ActionIfExists, WikibaseSnakType
