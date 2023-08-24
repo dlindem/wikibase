@@ -210,7 +210,7 @@ def newitemwithlabel(lwbclasses, labellang, label): # lwbclass: object of 'insta
 						done = True
 						print('Instance-of-claim creation for '+qid+': success. Class is '+lwbclass)
 						#time.sleep(1)
-				except:
+				except Exception as ex:
 					print('Claim creation failed, will try again...')
 					if "Invalid CSRF token" in str(ex):
 						print('Wait a sec. Must get a new CSRF token...')
@@ -403,6 +403,8 @@ def stringclaim(s, p, o):
 			if 'Invalid CSRF token.' in str(ex):
 				print('Wait a sec. Must get a new CSRF token...')
 				token = get_token()
+			if 'Must be at least one character long' in str(ex):
+				return False
 			else:
 				print('Claim creation failed, will try again...\n'+str(ex))
 				time.sleep(4)
@@ -515,7 +517,9 @@ def getclaims(s, p):
 
 		# get claims and put in claimcache
 		done = False
-		while (not done):
+		count = 0
+		while count < 4 and done == False:
+			count += 1
 			print('Getting existing claims for '+s+'...')
 			try:
 				request = site.get('wbgetclaims', entity=s)
@@ -547,6 +551,9 @@ def getclaims(s, p):
 						continue
 				print('Getclaims operation for',s,p,' failed, will try again...\n'+str(ex))
 				time.sleep(4)
+		if not done:
+			print('Getclaims operation failed. Item may not exist.')
+			return False
 	if p == True: # return all claims
 		print('Will return all claims.')
 		return (s, claimcache['claims'])
@@ -641,6 +648,8 @@ def updateclaim(s, p, o, dtype): # for novalue: o="novalue", dtype="novalue"
 
 	# check existing claims
 	claims = getclaims(s,p)
+	if not claims:
+		return False
 	s = claims[0]
 	claims = claims[1]
 	#print(str(claims))
@@ -729,7 +738,7 @@ def updateclaim(s, p, o, dtype): # for novalue: o="novalue", dtype="novalue"
 	if o not in foundobjs and value not in foundobjs: # must create new statement
 
 		count = 0
-		while count < 5:
+		while count < 3:
 			count += 1
 			try:
 				if dtype == "novalue":
@@ -782,13 +791,15 @@ def setclaimvalue(guid, value, dtype):
 				print('Wait a sec. Must get a new CSRF token...')
 				token = get_token()
 			else:
-				print('Claim update failed... Will try again. Result was: '+str(results))
+				print('Claim update failed... Will try again.')
 				time.sleep(4)
 
 
 # set a Qualifier
 def setqualifier(qid, prop, claimid, qualiprop, qualio, dtype):
 	global token
+	guidfix = re.compile(r'^(Q\d+)\-')
+	claimid = re.sub(guidfix, r'\1$', claimid)
 	if dtype == "string" or dtype == "url":
 		qualivalue = '"'+qualio.replace('"', '\\"')+'"'
 	elif dtype == "item" or dtype =="wikibase-entityid":
