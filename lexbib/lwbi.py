@@ -1,4 +1,4 @@
-import traceback, time, re, os
+import traceback, time, re, os, requests
 from pathlib import Path
 from config_private import wb_bot_user
 from config_private import wb_bot_pwd
@@ -13,6 +13,7 @@ from wikibaseintegrator.datatypes.url import URL
 from wikibaseintegrator.wbi_config import config as wbi_config
 from wikibaseintegrator import wbi_helpers
 from wikibaseintegrator.wbi_enums import ActionIfExists, WikibaseSnakType
+from config import props_wd_wb
 
 # from wikibaseintegrator.models.claims import Claims
 
@@ -160,5 +161,80 @@ def itemwrite(itemdata, clear=False): # statements = {'append':[],'replace':[]}
 
 
 	return lwbitem.id
+
+def importitem(importqid, process_claims=True, classqid=None):
+	languages_to_consider = "eu es en de fr".split(" ")
+	
+	print('Will get ' + importqid + ' from wikidata...')
+	
+	apiurl = 'https://www.wikidata.org/w/api.php?action=wbgetentities&ids=' + importqid + '&format=json'
+	# print(apiurl)
+	wdjsonsource = requests.get(url=apiurl)
+	if importqid in wdjsonsource.json()['entities']:
+		importitemjson = wdjsonsource.json()['entities'][importqid]
+	else:
+		print('Error: Recieved no valid item JSON from Wikidata.')
+		return False
+
+	wbitemjson = {'labels': [], 'aliases': [], 'descriptions': [],
+				  'statements': [{'prop_nr': 'P2', 'type': 'externalid', 'value': importqid}]}
+
+	# ontology class
+	if classqid:
+		wbitemjson['statements'].append({'prop_nr': 'P5', 'type': 'Item', 'value': classqid})
+
+	# process labels
+	for lang in importitemjson['labels']:
+		if lang in languages_to_consider:
+			wbitemjson['labels'].append({'lang': lang, 'value': importitemjson['labels'][lang]['value']})
+	# process aliases
+	for lang in importitemjson['aliases']:
+		if lang in languages_to_consider:
+			for entry in importitemjson['aliases'][lang]:
+				# print('Alias entry: '+str(entry))
+				wbitemjson['aliases'].append({'lang': lang, 'value': entry['value']})
+	# process descriptions
+	for lang in importitemjson['descriptions']:
+		if lang in languages_to_consider:
+			if {'lang': lang, 'value': importitemjson['descriptions'][lang]['value']} not in wbitemjson['labels']:
+				wbitemjson['descriptions'].append(
+					{'lang': lang, 'value': importitemjson['descriptions'][lang]['value']})
+
+	# process claims
+	if process_claims:
+		for claimprop in importitemjson['claims']:
+			if claimprop in props_wd_wb:  # aligned prop
+				wbprop = props_wd_wb[claimprop]
+				for claim in importitemjson['claims'][claimprop]:
+					claimval = claim['mainsnak']['datavalue']['value']
+					claimtype = claim['mainsnak']['datavalue']['type']
+					# if propwbdatatype[wbprop] == "WikibaseItem":
+					# 	if claimval['id'] not in itemwd2wb:
+					# 		print(
+					# 			'Will create a new item for ' + claimprop + ' (' + wbprop + ') object property value: ' +
+					# 			claimval['id'])
+					# 		targetqid = importitem(claimval['id'], process_claims=False)
+					# 	else:
+					# 		targetqid = itemwd2wb[claimval['id']]
+					# 		print('Will re-use existing item as property value: wd:' + claimval[
+					# 			'id'] + ' > eusterm:' + targetqid)
+					# 	statement = {'prop_nr': wbprop, 'type': 'Item', 'value': targetqid}
+					# else:
+					statement = {'prop_nr': wbprop, 'type': claimtype, 'value': claimval,'action': 'keep'}
+					statement['references'] = [{'prop_nr': 'P2', 'type': 'externalid', 'value': importqid}]
+				wbitemjson['statements'].append(statement)
+	# process sitelinks
+	if 'sitelinks' in importitemjson:
+		for site in importitemjson['sitelinks']:
+			if site.replace('wiki', '') in languages_to_consider:
+				wpurl = "https://"+site.replace('wiki', '')+".wikipedia.org/wiki/"+importitemjson['sitelinks'][site]['title']
+				print(wpurl)
+				wbitemjson['statements'].append({'prop_nr':config.wd_sitelinks_prop,'type':'url','value':wpurl})
+
+	wbitemjson['qid'] = False  # if False, then create new item
+	result_qid = itemwrite(wbitemjson)
+	print('Wikidata item import successful.')
+	return result_qid
+
 
 print('\nlwbi engine loaded.\n')
