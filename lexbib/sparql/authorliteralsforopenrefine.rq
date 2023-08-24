@@ -1,0 +1,19 @@
+PREFIX rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX wdno: <https://www.wikidata.org/prop/novalue/>
+PREFIX lno: <https://lexbib.elex.is/prop/novalue/>
+PREFIX lwb: <https://lexbib.elex.is/entity/>
+PREFIX ldp: <https://lexbib.elex.is/prop/direct/>
+PREFIX lp: <https://lexbib.elex.is/prop/>
+PREFIX lps: <https://lexbib.elex.is/prop/statement/>
+PREFIX lpq: <https://lexbib.elex.is/prop/qualifier/>
+PREFIX lpr: <https://lexbib.elex.is/prop/reference/>
+
+select *
+where {
+  ?bibItem lp:P12|lp:P13 ?creatorstatement .
+  ?creatorstatement lpq:P33 ?listpos ;
+                    lpq:P38 ?fullName .
+optional {?creatorstatement lpq:P40 ?givenName.}
+optional {?creatorstatement lpq:P41 ?lastName .}
+  filter not exists {?creatorstatement lps:P12|lps:P13 ?creatoritem.}
+  }
