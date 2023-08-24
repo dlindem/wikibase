@@ -1,0 +1,21 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX wdno: <http://www.wikidata.org/prop/novalue/>
+PREFIX lno: <https://lexbib.elex.is/prop/novalue/>
+PREFIX lwb: <https://lexbib.elex.is/entity/>
+PREFIX ldp: <https://lexbib.elex.is/prop/direct/>
+PREFIX lp: <https://lexbib.elex.is/prop/>
+PREFIX lps: <https://lexbib.elex.is/prop/statement/>
+PREFIX lpq: <https://lexbib.elex.is/prop/qualifier/>
+PREFIX lpr: <https://lexbib.elex.is/prop/reference/>
+
+select ?order (strafter(str(?lexbib_prop), "https://lexbib.elex.is/entity/") as ?prop) ?propLabel ?datatype ?wikidata_prop
+
+where {
+  ?lexbib_prop rdf:type <http://wikiba.se/ontology#Property> ;
+         wikibase:propertyType ?dtype ;
+         rdfs:label ?propLabel . filter (lang(?propLabel)="en")
+         bind (strafter(str(?dtype),"http://wikiba.se/ontology#") as ?datatype)
+  OPTIONAL {{?lexbib_prop ldp:P2 ?wikidata_prop.}UNION{?lexbib_prop ldp:P95 ?super_prop. ?super_prop ldp:P2 ?wikidata_prop.}}
+
+  BIND (xsd:integer(strafter(str(?lexbib_prop), "https://lexbib.elex.is/entity/P")) as ?order )
+} group by ?order ?lexbib_prop ?propLabel ?datatype ?wikidata_prop  order by ?order
