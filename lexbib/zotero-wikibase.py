@@ -16,7 +16,7 @@ import collections
 # import eventmapping
 import langmapping
 import lwb, lwbi
-import config_private
+import config_private, config
 from pyzotero import zotero
 pyzot = zotero.Zotero(1892855,'group',config_private.zotero_api_key) # Zotero LexBib group
 linked_done = {}
@@ -292,14 +292,20 @@ def zotero_export(infile=None):
 		if "type" in item and (not p100set): # ; p100set=True skips type setting
 			if item['type'] == "paper-conference":
 				statements.append({"prop_nr":"P100","type":"item","value":"Q27"})
+				if dictDistrset:
+					statements.append({"prop_nr":"P91","type":"item","value":"Q27"}) # conference paper
 			elif item['type'] == "article-journal":
 				statements.append({"prop_nr":"P100","type":"item","value":"Q19"})
+				if dictDistrset:
+					statements.append({"prop_nr":"P91","type":"item","value":"Q19"}) # journal article
 			elif item['type'] == "book":
 				statements.append({"prop_nr":"P100","type":"item","value":"Q28"})
 				if dictDistrset:
 					statements.append({"prop_nr":"P91","type":"item","value":"Q32770"}) # dictionary book publication
 			elif item['type'] == "chapter":
 				statements.append({"prop_nr":"P100","type":"item","value":"Q29"})
+				if dictDistrset:
+					statements.append({"prop_nr":"P91","type":"item","value":"Q29"}) # book chapter
 			elif item['type'] == "motion_picture": # videos
 				statements.append({"prop_nr":"P100","type":"item","value":"Q30"})
 			elif item['type'] == "speech":
@@ -309,7 +315,11 @@ def zotero_export(infile=None):
 			elif item['type'] == "manuscript":
 				statements.append({"prop_nr":"P100","type":"item","value":"Q66"})
 				if dictDistrset:
-					statements.append({"prop_nr":"P91","type":"item","value":"Q66"})
+					statements.append({"prop_nr":"P91","type":"item","value":"Q66"}) # manuscript
+			elif item['type'] == "entry-encyclopedia":
+				statements.append({"prop_nr":"P100","type":"item","value":"Q68"})
+				if dictDistrset:
+					statements.append({"prop_nr":"P91","type":"item","value":"Q68"}) # Wikipedia Article
 
 		# Zotero ID, and, as qualifiers: abstract info, PDF ant TXT file attachments
 
@@ -413,49 +423,17 @@ def zotero_export(infile=None):
 			statements.append({"prop_nr":"P15","type":"time", "time":timestr,"precision":precision})
 		if "edition" in item:
 			statements.append({"prop_nr":"P64","type":"string","value":item['edition']})
-
+		if "publisher-place" in item:
+			statements.append({"prop_nr": "P14", "type": "string", "value": item['publisher-place']})
 		# creators
 
-		if "author" in item:
-			write_creatortriples("P12", item['author'], creatorvals)
-		#elif ("author" not in item) and ("editor" in item): # this writes no editor when there is an author
-		if 'editor' in item:
-			write_creatortriples("P13", item['editor'], creatorvals)
+		for role in config.creator_roles:
+			if role in item:
+				write_creatortriples(config.creator_roles[role], item[role], creatorvals)
 
 		# Extra field, can contain a wikipedia page title, used in Elexifinder project as first-author-location-URI
 
 		if "extra" in item:
-			# wppage = urllib.parse.unquote(item['extra'].replace("\n","").replace(" ","").split(";")[0].replace("http://","https://"))
-			#
-			# if "https://en.wikipedia.org/wiki/" in wppage:
-			# 	print('Found authorloc wppage: '+wppage)
-			# 	# check if this location is already in LWB, if it doesn't exist, create it
-			# 	wppagetitle = wppage.replace("https://en.wikipedia.org/wiki/","")
-			# 	if wppagetitle not in wikipairs:
-			# 		wdjsonsource = requests.get(url='https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&format=json&titles='+wppage)
-			# 		wdjson =  wdjsonsource.json()
-			# 		entities = wdjson['entities']
-			# 		for wdid in entities:
-			# 			print("found new wdid on wikidata"+wdid+" for AUTHORLOC "+wppage)
-			# 			placeqid = lwb.wdid2lwbid(wdid)
-			# 	else:
-			# 		wdid = wikipairs[wppagetitle]
-			# 		placeqid = lwb.wdid2lwbid(wdid)
-			# 	if placeqid:
-			# 			print("This is a known authorloc: "+placeqid)
-			# 	else:
-			# 		print("This is a place unknown to LWB, will be created: "+wppagetitle)
-			# 		placeqid = lwb.newitemwithlabel("Q9", "en", wppagetitle)
-			# 		wdstatement = lwb.stringclaim(placeqid, "P2", wdid)
-			# 		wpstatement = lwb.stringclaim(placeqid, "P66", wppage)
-			# 		lwb.save_wdmapping({"lwbid": placeqid, "wdid": wdid})
-			# 		lwb.wdids[placeqid] = wdid
-			# 		new_places.append({"placeQid":placeqid,"wppage":wppage, "wdid":wdid})
-			# 	statements.append({"prop_nr":"P29","type":"item","value":placeqid})
-			#
-			#
-			# else:
-			# 	print('Found NO authorloc wppage.')
 
 			oclc_re = re.search(r'OCLC: ?(\d+)',item['extra'])
 			if oclc_re:
@@ -672,10 +650,6 @@ def write_creatortriples(prop, val, creatorvals):
 			creatorqualis.append({"prop_nr":"P38","type":"string","value":creator["family"]})
 		creatorvals.append({
 		"prop_nr": prop,
-		# "type": "string",
-		# "value": creator["given"]+" "+creator["family"],
-		# "type": "novalue",
-		# "value": "novalue",
 		"type": "item",
 		"value": False,
 		"qualifiers": creatorqualis
