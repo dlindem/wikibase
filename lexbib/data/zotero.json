@@ -1,0 +1,4260 @@
+{
+  "filename": "zotero.json",
+  "mapping:" {
+  "artwork": {
+    "bibtypeqid": null,
+    "fields": {
+      "title": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "abstractNote": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "artworkMedium": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "medium"
+      },
+      "artworkSize": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "date": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "language": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "shortTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "archive": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "archiveLocation": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "libraryCatalog": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "callNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "url": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Url"
+      },
+      "accessDate": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "rights": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "extra": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      }
+    },
+    "creatorTypes": {
+      "artist": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem",
+        "primary": true
+      },
+      "contributor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      }
+    },
+    "audioRecording": {
+      "bibtypeqid": null,
+      "fields": {
+        "title": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "abstractNote": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "audioRecordingFormat": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String",
+          "baseField": "medium"
+        },
+        "seriesTitle": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "volume": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "numberOfVolumes": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "place": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "label": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String",
+          "baseField": "publisher"
+        },
+        "date": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "Time"
+        },
+        "runningTime": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "language": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        },
+        "ISBN": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "ExternalId"
+        },
+        "shortTitle": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "archive": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "archiveLocation": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "libraryCatalog": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "callNumber": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "url": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "Url"
+        },
+        "accessDate": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "rights": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "extra": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        }
+      },
+      "creatorTypes": {
+        "performer": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem",
+          "primary": true
+        },
+        "contributor": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        },
+        "composer": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        },
+        "wordsBy": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        }
+      }
+    },
+    "bill": {
+      "bibtypeqid": null,
+      "fields": {
+        "title": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "abstractNote": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "billNumber": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String",
+          "baseField": "number"
+        },
+        "code": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "codeVolume": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String",
+          "baseField": "volume"
+        },
+        "section": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "codePages": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String",
+          "baseField": "pages"
+        },
+        "legislativeBody": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String",
+          "baseField": "authority"
+        },
+        "session": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "history": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "date": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "Time"
+        },
+        "language": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        },
+        "url": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "Url"
+        },
+        "accessDate": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "Time"
+        },
+        "shortTitle": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "rights": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "extra": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        }
+      },
+      "creatorTypes": {
+        "sponsor": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem",
+          "primary": true
+        },
+        "cosponsor": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        },
+        "contributor": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        }
+      },
+      "blogPost": {
+        "bibtypeqid": null,
+        "fields": {
+          "title": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "abstractNote": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "blogTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "publicationTitle"
+          },
+          "websiteType": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "type"
+          },
+          "date": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "url": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Url"
+          },
+          "accessDate": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "language": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "shortTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "rights": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "extra": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          }
+        },
+        "creatorTypes": {
+          "author": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem",
+            "primary": true
+          },
+          "commenter": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "contributor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          }
+        }
+      },
+      "book": {
+        "bibtypeqid": null,
+        "fields": {
+          "title": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "abstractNote": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "series": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "seriesNumber": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "volume": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "numberOfVolumes": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "edition": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "place": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "publisher": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "date": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "numPages": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "language": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "ISBN": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "ExternalId"
+          },
+          "shortTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "url": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Url"
+          },
+          "accessDate": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "archive": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "archiveLocation": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "libraryCatalog": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "callNumber": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "rights": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "extra": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          }
+        },
+        "creatorTypes": {
+          "author": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem",
+            "primary": true
+          },
+          "contributor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "editor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "translator": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "seriesEditor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          }
+        }
+      },
+      "bookSection": {
+        "bibtypeqid": null,
+        "fields": {
+          "title": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "abstractNote": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "bookTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "publicationTitle"
+          },
+          "series": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "seriesNumber": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "volume": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "numberOfVolumes": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "edition": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "place": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "publisher": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "date": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "pages": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "language": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "ISBN": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "ExternalId"
+          },
+          "shortTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "url": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Url"
+          },
+          "accessDate": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "archive": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "archiveLocation": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "libraryCatalog": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "callNumber": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "rights": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "extra": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          }
+        },
+        "creatorTypes": {
+          "author": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem",
+            "primary": true
+          },
+          "contributor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "editor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "bookAuthor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "translator": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "seriesEditor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          }
+        }
+      },
+      "case": {
+        "bibtypeqid": null,
+        "fields": {
+          "caseName": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "title"
+          },
+          "abstractNote": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "court": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "authority"
+          },
+          "dateDecided": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "date"
+          },
+          "docketNumber": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "number"
+          },
+          "reporter": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "reporterVolume": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "volume"
+          },
+          "firstPage": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "pages"
+          },
+          "history": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "language": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "shortTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "url": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Url"
+          },
+          "accessDate": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "rights": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "extra": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          }
+        },
+        "creatorTypes": {
+          "author": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem",
+            "primary": true
+          },
+          "counsel": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "contributor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          }
+        }
+      },
+      "computerProgram": {
+        "bibtypeqid": null,
+        "fields": {
+          "title": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "abstractNote": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "seriesTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "versionNumber": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "date": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "system": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "place": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "company": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "publisher"
+          },
+          "programmingLanguage": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "ISBN": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "ExternalId"
+          },
+          "shortTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "url": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Url"
+          },
+          "rights": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "archive": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "archiveLocation": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "libraryCatalog": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "callNumber": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "accessDate": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "extra": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          }
+        },
+        "creatorTypes": {
+          "programmer": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem",
+            "primary": true
+          },
+          "contributor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          }
+        }
+      },
+      "conferencePaper": {
+        "bibtypeqid": null,
+        "fields": {
+          "title": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "abstractNote": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "date": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "proceedingsTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "publicationTitle"
+          },
+          "conferenceName": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "place": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "publisher": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "volume": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "pages": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "series": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "language": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "DOI": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "ExternalId"
+          },
+          "ISBN": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "ExternalId"
+          },
+          "shortTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "url": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Url"
+          },
+          "accessDate": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "archive": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "archiveLocation": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "libraryCatalog": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "callNumber": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "rights": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "extra": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          }
+        },
+        "creatorTypes": {
+          "author": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem",
+            "primary": true
+          },
+          "contributor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "editor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "translator": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "seriesEditor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          }
+        }
+      },
+      "dataset": {
+        "bibtypeqid": null,
+        "fields": {
+          "title": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "abstractNote": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "identifier": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "number"
+          },
+          "type": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "versionNumber": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "date": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "repository": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "publisher"
+          },
+          "repositoryLocation": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "place"
+          },
+          "format": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "medium"
+          },
+          "DOI": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "ExternalId"
+          },
+          "citationKey": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "url": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Url"
+          },
+          "accessDate": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "archive": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "archiveLocation": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "shortTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "language": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "libraryCatalog": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "callNumber": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "rights": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "extra": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          }
+        },
+        "creatorTypes": {
+          "author": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem",
+            "primary": true
+          },
+          "contributor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          }
+        }
+      },
+      "dictionaryEntry": {
+        "bibtypeqid": null,
+        "fields": {
+          "title": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "abstractNote": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "dictionaryTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "publicationTitle"
+          },
+          "series": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "seriesNumber": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "volume": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "numberOfVolumes": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "edition": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "place": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "publisher": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "date": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "pages": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "language": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "ISBN": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "ExternalID"
+          },
+          "shortTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "url": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Url"
+          },
+          "accessDate": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "archive": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "archiveLocation": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "libraryCatalog": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "callNumber": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "rights": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "extra": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          }
+        },
+        "creatorTypes": {
+          "author": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem",
+            "primary": true
+          },
+          "contributor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": Item,"
+          },
+          "editor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "translator": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "seriesEditor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          }
+        }
+      },
+      "document": {
+        "bibtypeqid": null,
+        "fields": {
+          "title": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "abstractNote": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "publisher": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "date": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "language": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "shortTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "url": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Url"
+          },
+          "accessDate": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "archive": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "archiveLocation": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "libraryCatalog": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "callNumber": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "rights": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "extra": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          }
+        },
+        "creatorTypes": {
+          "author": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem",
+            "primary": true
+          },
+          "contributor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "editor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "translator": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "reviewedAuthor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          }
+        }
+      },
+      "email": {
+        "bibtypeqid": null,
+        "fields": {
+          "subject": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "title"
+          },
+          "abstractNote": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "date": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "shortTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "url": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Url"
+          },
+          "accessDate": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "language": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "rights": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "extra": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          }
+        },
+        "creatorTypes": {
+          "author": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem",
+            "primary": true
+          },
+          "contributor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "recipient": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          }
+        }
+      },
+      "encyclopediaArticle": {
+        "bibtypeqid": null,
+        "fields": {
+          "title": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "abstractNote": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "encyclopediaTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "publicationTitle"
+          },
+          "series": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "seriesNumber": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "volume": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "numberOfVolumes": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "edition": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "place": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "publisher": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "date": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "pages": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "ISBN": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "externalId"
+          },
+          "shortTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "url": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Url"
+          },
+          "accessDate": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "language": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "archive": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "archiveLocation": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "libraryCatalog": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "callNumber": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "rights": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "extra": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          }
+        },
+        "creatorTypes": {
+          "author": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem",
+            "primary": true
+          },
+          "contributor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "editor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "translator": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "seriesEditor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          }
+        }
+      },
+      "film": {
+        "bibtypeqid": null,
+        "fields": {
+          "title": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "abstractNote": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "distributor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "publisher"
+          },
+          "date": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "genre": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "type"
+          },
+          "videoRecordingFormat": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "medium"
+          },
+          "runningTime": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "language": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "shortTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "url": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Url"
+          },
+          "accessDate": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "archive": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "archiveLocation": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "libraryCatalog": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "callNumber": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "rights": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "extra": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          }
+        },
+        "creatorTypes": {
+          "director": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem",
+            "primary": true
+          },
+          "contributor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "scriptwriter": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "producer": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          }
+        }
+      },
+      "forumPost": {
+        "bibtypeqid": null,
+        "fields": {
+          "title": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "abstractNote": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "forumTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "publicationTitle"
+          },
+          "postType": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "type"
+          },
+          "date": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "language": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "shortTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "url": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Url"
+          },
+          "accessDate": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "rights": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "extra": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          }
+        },
+        "creatorTypes": {
+          "author": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem",
+            "primary": true
+          },
+          "contributor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          }
+        }
+      },
+      "hearing": {
+        "bibtypeqid": null,
+        "fields": {
+          "title": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "abstractNote": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "committee": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "place": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "publisher": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "numberOfVolumes": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "documentNumber": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "number"
+          },
+          "pages": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "legislativeBody": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String",
+            "baseField": "authority"
+          },
+          "session": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "history": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "date": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "language": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "shortTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "url": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Url"
+          },
+          "accessDate": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "rights": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "extra": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          }
+        },
+        "creatorTypes": {
+          "contributor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem",
+            "primary": true
+          }
+        }
+      },
+      "instantMessage": {
+        "bibtypeqid": null,
+        "fields": {
+          "title": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "abstractNote": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "date": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "language": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "shortTitle": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "url": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Url"
+          },
+          "accessDate": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "Time"
+          },
+          "rights": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          },
+          "extra": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "String"
+          }
+        },
+        "creatorTypes": {
+          "author": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem",
+            "primary": true
+          },
+          "contributor": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          },
+          "recipient": {
+            "wbprop": null,
+            "wdprop": null,
+            "dtype": "WikibaseItem"
+          }
+        }
+      }
+    },
+    "interview": {
+      "bibtypeqid": null,
+      "fields": {
+        "title": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "abstractNote": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "date": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "Time"
+        },
+        "interviewMedium": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String",
+          "baseField": "medium"
+        },
+        "language": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        },
+        "shortTitle": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "url": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "Url"
+        },
+        "accessDate": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "Time"
+        },
+        "archive": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "archiveLocation": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "libraryCatalog": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "callNumber": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "rights": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "extra": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        }
+      },
+      "creatorTypes": {
+        "interviewee": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem",
+          "primary": true
+        },
+        "contributor": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "Item
+        },
+        "interviewer": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        },
+        "translator": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        }
+      }
+    },
+    "journalArticle": {
+      "bibtypeqid": null,
+      "fields": {
+        "title": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "abstractNote": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "publicationTitle": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "volume": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "issue": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "pages": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "date": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "Time"
+        },
+        "series": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "seriesTitle": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "seriesText": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "journalAbbreviation": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "language": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        },
+        "DOI": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "ExternalId"
+        },
+        "ISSN": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "ExternalId
+        },
+        "shortTitle": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "url": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "Url"
+        },
+        "accessDate": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "Time"
+        },
+        "archive": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "archiveLocation": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "libraryCatalog": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "callNumber": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "rights": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "extra": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        }
+      },
+      "creatorTypes": {
+        "author": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem",
+          "primary": true
+        },
+        "contributor": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        },
+        "editor": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        },
+        "translator": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        },
+        "reviewedAuthor": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        }
+      }
+    },
+    "letter": {
+      "bibtypeqid": null,
+      "fields": {
+        "title": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "abstractNote": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "letterType": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String",
+          "baseField": "type"
+        },
+        "date": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "Time"
+        },
+        "language": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        },
+        "shortTitle": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "url": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "Url"
+        },
+        "accessDate": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "archive": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "archiveLocation": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "libraryCatalog": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "callNumber": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "rights": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "extra": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        }
+      },
+      "creatorTypes": {
+        "author": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem",
+          "primary": true
+        },
+        "contributor": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        },
+        "recipient": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        }
+      }
+    },
+    "magazineArticle": {
+      "bibtypeqid": null,
+      "fields": {
+        "title": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "abstractNote": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "publicationTitle": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "volume": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "issue": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "date": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "Time"
+        },
+        "pages": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "language": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        },
+        "ISSN": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "ExternalId"
+        },
+        "shortTitle": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "url": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "Url"
+        },
+        "accessDate": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "Time"
+        },
+        "archive": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "archiveLocation": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "libraryCatalog": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "callNumber": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "rights": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        },
+        "extra": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "String"
+        }
+      },
+      "creatorTypes": {
+        "author": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem",
+          "primary": true
+        },
+        "contributor": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        },
+        "translator": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        },
+        "reviewedAuthor": {
+          "wbprop": null,
+          "wdprop": null,
+          "dtype": "WikibaseItem"
+        }
+      }
+    }
+  },
+  "manuscript": {
+    "bibtypeqid": null,
+    "fields": {
+      "title": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "abstractNote": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "manuscriptType": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "type"
+      },
+      "place": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "date": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "numPages": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "language": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "shortTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "url": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Url"
+      },
+      "accessDate": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "archive": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "archiveLocation": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "libraryCatalog": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "callNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "rights": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "extra": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      }
+    },
+    "creatorTypes": {
+      "author": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem",
+        "primary": true
+      },
+      "contributor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "translator": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      }
+    }
+  },
+  "map": {
+    "bibtypeqid": null,
+    "fields": {
+      "title": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "abstractNote": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "mapType": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "type"
+      },
+      "scale": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "seriesTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "edition": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "place": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "publisher": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "date": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "language": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "ISBN": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "ExternalID"
+      },
+      "shortTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "url": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Url"
+      },
+      "accessDate": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "archive": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "archiveLocation": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "libraryCatalog": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "callNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "rights": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "extra": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      }
+    },
+    "creatorTypes": {
+      "cartographer": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem",
+        "primary": true
+      },
+      "contributor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "seriesEditor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      }
+    }
+  },
+  "newspaperArticle": {
+    "bibtypeqid": null,
+    "fields": {
+      "title": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "abstractNote": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "publicationTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "place": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "edition": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "date": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "section": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "pages": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "language": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "shortTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "ISSN": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "ExternalId"
+      },
+      "url": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Url"
+      },
+      "accessDate": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "archive": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "archiveLocation": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "libraryCatalog": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "callNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "rights": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "extra": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      }
+    },
+    "creatorTypes": {
+      "author": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem",
+        "primary": true
+      },
+      "contributor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "translator": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "reviewedAuthor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      }
+    }
+  },
+  "note": {
+    "bibtypeqid": null,
+    "fields": {
+    },
+    "creatorTypes": {
+    }
+  },
+  "patent": {
+    "bibtypeqid": null,
+    "fields": {
+      "title": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "abstractNote": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "place": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "country": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "assignee": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "issuingAuthority": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "authority"
+      },
+      "patentNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "number"
+      },
+      "filingDate": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "pages": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "applicationNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "priorityNumbers": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "issueDate": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time",
+        "baseField": "date"
+      },
+      "references": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "legalStatus": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "status"
+      },
+      "language": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "shortTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "url": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Url"
+      },
+      "accessDate": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "rights": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "extra": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      }
+    },
+    "creatorTypes": {
+      "inventor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem",
+        "primary": true
+      },
+      "attorneyAgent": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "contributor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      }
+    }
+  },
+  "podcast": {
+    "bibtypeqid": null,
+    "fields": {
+      "title": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "abstractNote": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "seriesTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "episodeNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "number"
+      },
+      "audioFileType": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "medium"
+      },
+      "runningTime": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "url": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Url"
+      },
+      "accessDate": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "language": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "shortTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "rights": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "extra": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      }
+    },
+    "creatorTypes": {
+      "podcaster": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem",
+        "primary": true
+      },
+      "contributor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "guest": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      }
+    }
+  },
+  "preprint": {
+    "bibtypeqid": null,
+    "fields": {
+      "title": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "abstractNote": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "genre": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "type"
+      },
+      "repository": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "publisher"
+      },
+      "archiveID": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "number"
+      },
+      "place": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "date": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "series": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "seriesNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "DOI": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "ExternalId"
+      },
+      "citationKey": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "url": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Url"
+      },
+      "accessDate": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "archive": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "archiveLocation": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "shortTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "language": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "libraryCatalog": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "callNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "rights": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "extra": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      }
+    },
+    "creatorTypes": {
+      "author": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem",
+        "primary": true
+      },
+      "contributor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "editor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "translator": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "reviewedAuthor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      }
+    }
+  },
+  "presentation": {
+    "bibtypeqid": null,
+    "fields": {
+      "title": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "abstractNote": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "presentationType": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "type"
+      },
+      "date": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "place": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "meetingName": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "url": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Url"
+      },
+      "accessDate": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "language": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "shortTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "rights": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "extra": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      }
+    },
+    "creatorTypes": {
+      "presenter": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem",
+        "primary": true
+      },
+      "contributor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      }
+    }
+  },
+  "radioBroadcast": {
+    "bibtypeqid": null,
+    "fields": {
+      "title": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "abstractNote": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "programTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "publicationTitle"
+      },
+      "episodeNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "number"
+      },
+      "audioRecordingFormat": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "medium"
+      },
+      "place": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "network": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "publisher"
+      },
+      "date": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "runningTime": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "language": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "shortTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "url": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Url"
+      },
+      "accessDate": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "archive": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "archiveLocation": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "libraryCatalog": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "callNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "rights": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "extra": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      }
+    },
+    "creatorTypes": {
+      "director": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem",
+        "primary": true
+      },
+      "scriptwriter": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "producer": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "castMember": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "contributor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "guest": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      }
+    }
+  },
+  "report": {
+    "bibtypeqid": null,
+    "fields": {
+      "title": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "abstractNote": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "reportNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "number"
+      },
+      "reportType": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "type"
+      },
+      "seriesTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "place": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "institution": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "publisher"
+      },
+      "date": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "pages": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "language": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "shortTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "url": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Url"
+      },
+      "accessDate": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "archive": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "archiveLocation": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "libraryCatalog": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "callNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "rights": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "extra": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      }
+    },
+    "creatorTypes": {
+      "author": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem",
+        "primary": true
+      },
+      "contributor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "translator": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "seriesEditor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      }
+    }
+  },
+  "standard": {
+    "bibtypeqid": null,
+    "fields": {
+      "title": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "abstractNote": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "organization": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "authority"
+      },
+      "committee": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "type": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "number": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "versionNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "status": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "date": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "publisher": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "place": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "DOI": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "ExternalId"
+      },
+      "citationKey": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "url": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Url"
+      },
+      "accessDate": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "archive": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "archiveLocation": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "shortTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "numPages": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "language": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "libraryCatalog": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "callNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "rights": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "extra": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      }
+    },
+    "creatorTypes": {
+      "author": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem",
+        "primary": true
+      },
+      "contributor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      }
+    }
+  },
+  "statute": {
+    "bibtypeqid": null,
+    "fields": {
+      "nameOfAct": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "title"
+      },
+      "abstractNote": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "code": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "codeNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "publicLawNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "number"
+      },
+      "dateEnacted": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time",
+        "baseField": "date"
+      },
+      "pages": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "section": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "session": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "history": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "language": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "shortTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "url": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Url"
+      },
+      "accessDate": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "rights": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "extra": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      }
+    },
+    "creatorTypes": {
+      "author": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem",
+        "primary": true
+      },
+      "contributor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      }
+    }
+  },
+  "thesis": {
+    "bibtypeqid": null,
+    "fields": {
+      "title": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "abstractNote": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "thesisType": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "type"
+      },
+      "university": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "publisher"
+      },
+      "place": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "date": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "numPages": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "language": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "shortTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "url": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Url"
+      },
+      "accessDate": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "archive": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "archiveLocation": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "libraryCatalog": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "callNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "rights": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "extra": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      }
+    },
+    "creatorTypes": {
+      "author": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem",
+        "primary": true
+      },
+      "contributor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      }
+    }
+  },
+  "tvBroadcast": {
+    "bibtypeqid": null,
+    "fields": {
+      "title": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "abstractNote": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "programTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "publicationTitle"
+      },
+      "episodeNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "number"
+      },
+      "videoRecordingFormat": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "medium"
+      },
+      "place": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "network": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "publisher"
+      },
+      "date": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "runningTime": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "language": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "shortTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "url": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Url"
+      },
+      "accessDate": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "archive": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "archiveLocation": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "libraryCatalog": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "callNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "rights": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "extra": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      }
+    },
+    "creatorTypes": {
+      "director": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem",
+        "primary": true
+      },
+      "scriptwriter": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "producer": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "castMember": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "contributor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "guest": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      }
+    }
+  },
+  "videoRecording": {
+    "bibtypeqid": null,
+    "fields": {
+      "title": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "abstractNote": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "videoRecordingFormat": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "medium"
+      },
+      "seriesTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "volume": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "numberOfVolumes": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "place": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "studio": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "publisher"
+      },
+      "date": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "runningTime": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "language": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "ISBN": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "ExternalId"
+      },
+      "shortTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "url": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Url"
+      },
+      "accessDate": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "archive": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "archiveLocation": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "libraryCatalog": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "callNumber": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "rights": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "extra": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      }
+    },
+    "creatorTypes": {
+      "director": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem",
+        "primary": true
+      },
+      "scriptwriter": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "producer": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "castMember": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "contributor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      }
+    }
+  },
+  "webpage": {
+    "bibtypeqid": null,
+    "fields": {
+      "title": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "abstractNote": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "websiteTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "publicationTitle"
+      },
+      "websiteType": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String",
+        "baseField": "type"
+      },
+      "date": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "shortTitle": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "url": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Url"
+      },
+      "accessDate": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "Time"
+      },
+      "language": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "rights": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      },
+      "extra": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "String"
+      }
+    },
+    "creatorTypes": {
+      "author": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem",
+        "primary": true
+      },
+      "contributor": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      },
+      "translator": {
+        "wbprop": null,
+        "wdprop": null,
+        "dtype": "WikibaseItem"
+      }
+    }
+  }
+}
+}
