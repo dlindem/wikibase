@@ -745,14 +745,14 @@ def getWikiLangCode(iso3):
 #
 # csv is created with this query:
 #
-# PREFIX ldp: <http://lexbib.elex.is/prop/direct/>
+# PREFIX ldp: <https://lexbib.elex.is/prop/direct/>
 # select ?iso3 ?langqid where {?langqid ldp:P32 ?iso3 . }
 
 with open(config_private.datafolder+'lwb_iso3.csv', 'r') as csvfile:
 	mappings = csv.DictReader(csvfile)
 	iso3toQid = {}
 	for mapping in mappings:
-		iso3toQid[mapping['iso3']] = mapping['langqid'].replace("http://lexbib.elex.is/entity/","")
+		iso3toQid[mapping['iso3']] = mapping['langqid'].replace("https://lexbib.elex.is/entity/","")
 
 def getqidfromiso(iso3):
 	global iso3toQid
