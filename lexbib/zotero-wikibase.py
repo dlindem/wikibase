@@ -73,7 +73,7 @@ def zotero_export(infile=None):
 
 	# load list of already exported PDFs
 
-	with open('D:/LexBib/zot2wb/attachment_folders.csv', 'r', encoding="utf-8") as f:
+	with open(config_private.datafolder+'attachment_folders.csv', 'r', encoding="utf-8") as f:
 		rows = csv.reader(f, delimiter = "\t")
 		attachment_folder_list = {}
 		for row in rows:
@@ -657,7 +657,6 @@ def write_creatortriples(prop, val, creatorvals):
 
 
 def wikibase_import(infile=None):
-
 	if not infile:
 		# open and load input file
 		print('Please select post-processed Zotero export JSON to be imported to lexbib.elex.is.')
