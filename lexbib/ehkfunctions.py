@@ -6,7 +6,7 @@ import sparql
 import lwb
 import lwbi
 import config
-from zoterobot import getcitation
+import zoterobot
 
 def inverseprops(props=None): # props is a list of pairs (each pair in a list). if no list is passes, all props with inverseprop relation set are processed.
 	if not props:
@@ -202,7 +202,7 @@ def lcrwikilist():
 			distlist_unsorted.append({'distqid': distdata[0], 'distzot': distdata[1], 'distyear': distdata[2]})
 		distlist = sorted(distlist_unsorted, key=lambda d: d['distyear'])
 		for dist in distlist:
-			citation = getcitation(dist['distzot'])
+			citation = zoterobot.getcitation(dist['distzot'])
 			output += f"\n{stars}* {dist['distyear']}: {citation} [https://www.zotero.org/groups/1892855/lexbib/items/{dist['distzot']}/item-details Zotero]"
 
 	pagecreation = lwb.site.post('edit', token=lwb.token, contentformat='text/x-wiki', contentmodel='wikitext',
@@ -218,23 +218,24 @@ def lcrwikipage():
 	# 	lex_works_values += 'lwb:'+lex_work+' '
 	# print(lex_works_values)
 	query = """select distinct ?work ?workLabel (group_concat(distinct ?zot_about_work) as ?zot_subj_work) ?wikipage 
-	?lcr (year(?creationdate)as ?creationyear) 
+	?lcr (year(?creationdate)as ?creationyear) (group_concat(distinct ?zot_about_lcr) as ?zot_subj_lcr)
 	?dist ?dist_zot (group_concat(distinct ?zot_about_dist) as ?zot_subj_dist) ?bibtypeLabel ?pubyear where {
-
-	  { ?work ldp:P118 ?lcr.
-	   optional {?work ldp:P75/ldp:P16 ?zot_about_work.}
-	   ?work ldp:P165 ?wikipage.} union {
-	    ?lcr ldp:P4 lwb:Q4; ldp:P165 ?wikipage. }
+      # values ?work {lwb:Q16236} # test work Larramendi
+	  ?work ldp:P118 ?lcr.
+ 	   optional {?work ldp:P75/ldp:P16 ?zot_about_work.}
+	   ?work ldp:P165 ?wikipage. 
 	  ?lcr lp:P55 ?diststatement.
-	  ?diststatement lpq:P91 ?bibtype ; lpq:P126 ?pubyear. 
-	  optional {?diststatement lps:P55 ?dist.
+	  ?diststatement lpq:P91 ?bibtype .
+      optional {?diststatement lpq:P126 ?pubyear. }
+	  optional {?diststatement lps:P55 ?dist.}
+      optional {?lcr ldp:P75/ldp:P16 ?zot_about_lcr.}
 	    optional {?dist ldp:P16 ?dist_zot.}
 	     optional {?dist ldp:P75/ldp:P16 ?zot_about_dist.}
-	  } 
+	  
 	  optional {?lcr ldp:P181 ?creationdate.}
 	  SERVICE wikibase:label { bd:serviceParam wikibase:language "eu,en". }}
 	group by ?work ?workLabel ?zot_subj_work ?wikipage 
-	?lcr ?firstyear ?creationdate 
+	?lcr ?creationdate ?zot_subj_lcr
 	?dist ?dist_zot ?zot_subj_dist ?bibtypeLabel ?pubyear
 	order by ?work ?lcr ?dist  """
 
@@ -246,7 +247,7 @@ def lcrwikipage():
 	lcr = None
 	dist = None
 	for row in r['results']['bindings']:
-		# print(str(row))
+		print(str(row))
 		if row['work']['value'] != work:  # new work
 			lcrcount = 0
 			work = row['work']['value']
@@ -255,7 +256,7 @@ def lcrwikipage():
 			print(f'\nWill process work {workid}...')
 			output[wikipage] = "= " + row['workLabel']['value'] + " =\n\n"
 			output[
-				wikipage] += f"Hiztegigintza proiektu hau [[Item:{workid}|{workid}]] entitateak deskribatzen du, ondorengo bertsioak biltzen dituena:\n\n"
+				wikipage] += f"Hiztegigintza proiektu hau [[Item:{workid}|{workid}]] entitateak deskribatzen du. Jarraian zerrendatutako bertsioak ditu.\n\n"
 			# +" =\n\nHemen WORK informazioa.\n\n"
 
 			if len(row['zot_subj_work']['value']) > 1:
@@ -271,7 +272,7 @@ def lcrwikipage():
 
 			# get lcr info
 			lcr_info = ""
-			query = """select ?lcr (group_concat(distinct ?zot_about_lcr) as ?zot_subj_lcr) ?prop ?propLabel ?range (strafter(str(?type), "http://wikiba.se/ontology#") as ?proptype) ?value ?valueLabel where {
+			query = """select ?lcr ?lcrLabel (group_concat(distinct ?zot_about_lcr) as ?zot_subj_lcr) ?prop ?propLabel ?range (strafter(str(?type), "http://wikiba.se/ontology#") as ?proptype) ?value ?valueLabel where {
 					  bind(lwb:""" + lcrid + """ as ?lcr)
 	                 { {?prop ldp:P168 lwb:Q4.} # props with domain LCR
 	                  union
@@ -287,7 +288,7 @@ def lcrwikipage():
 	                   optional {?lcr ldp:P75/ldp:P16 ?zot_about_lcr.}
 
 	                  SERVICE wikibase:label { bd:serviceParam wikibase:language "eu,en". }
-					  } group by ?lcr ?zot_subj_lcr ?prop ?propLabel ?range ?type ?value ?valueLabel 
+					  } group by ?lcr ?lcrLabel ?zot_subj_lcr ?prop ?propLabel ?range ?type ?value ?valueLabel 
 					  order by ?lcr ?range"""
 			# print(query)
 			r2 = lwbi.wbi_helpers.execute_sparql_query(query, prefix=config.lwb_prefixes)
@@ -306,21 +307,21 @@ def lcrwikipage():
 						propval = f"[[Item:{targetlcr}|{targetlcr}]]"
 					elif proprow['proptype']['value'] == "WikibaseItem":
 						propval = f"[[Item:{proprow['value']['value'].replace(config.entity_ns, '')}|{proprow['valueLabel']['value']}]]"
-					else:
-						propval = proprow['value']['value']
+					elif proprow['proptype']['value'] == "Time":
+						propval = proprow['value']['value'][0:4] # year only
 					lcr_info += f"* {proprow['propLabel']['value']}: {propval}\n"
 
 			if len(row['zot_subj_dist']['value']) > 1:
 				output[wikipage] += "\nBertsio honi buruzkoak:\n"
 				for zotid in row['zot_subj_dist']['value'].split(' '):
-					about_lcr += "* " + getcitation(zotid) + "\n"
+					about_lcr += "* " + zoterobot.getcitation(zotid) + "\n"
+			lcryear = row['pubyear']['value']+', ' if 'pubyear' in row else ""
 
-			output[
-				wikipage] += f"\n=={str(lcrcount)}. bertsioa ([[Item:{lcrid}|{lcrid}]])==\n\n{lcr_info}{about_lcr}\nBertsio honen argitalpena(k):\n"
+			output[wikipage] += f"\n=={str(lcrcount)}. {proprow['lcrLabel']['value']} ({lcryear}[[Item:{lcrid}|{lcrid}]])==\n\n{lcr_info}{about_lcr}\nBertsio honen argitalpenak:\n"
 		dist = row['dist']['value']
 		distid = dist.replace(config.entity_ns, '')
 		if 'dist_zot' in row:
-			citation = getcitation(row['dist_zot']['value'])  # .replace(config.entity_ns+distid,'')
+			citation = zoterobot.getcitation(row['dist_zot']['value'])  # .replace(config.entity_ns+distid,'')
 			output[wikipage] += f"* ({row['bibtypeLabel']['value']}, ''{row['pubyear']['value']}'':) {citation}\n"
 		else:
 			output[wikipage] += f"* {row['bibtypeLabel']['value']}: Ikus [[Item:{distid}|{distid}]].\n"
