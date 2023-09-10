@@ -15,7 +15,7 @@ def getcitation(zotitemid):
 		print(f"Will take citation from cache: {zotitemid}")
 		return citations_cache[zotitemid]
 	print(f'Will now get citation for Zotero ID {zotitemid}')
-	zotapid = 'https://api.zotero.org/groups/'+zotero_group_id+'/items/'+zotitemid
+	zotapid = 'https://api.zotero.org/groups/'+str(zotero_group_id)+'/items/'+zotitemid
 	attempts = 0
 	while attempts < 5:
 		attempts += 1
