@@ -18,4 +18,12 @@
 # https://en.wikipedia.org/wiki/Outline_of_literature
 # https://en.wikipedia.org/wiki/Literature
 # https://es.wikipedia.org/wiki/Hinduismo
-https://en.wikipedia.org/wiki/Outline_of_video_games
+# https://en.wikipedia.org/wiki/Outline_of_video_games
+# https://en.wikipedia.org/wiki/Whale
+# https://en.wikipedia.org/wiki/Sustainability
+# https://en.wikipedia.org/wiki/List_of_colors_(alphabetical)
+# https://en.wikipedia.org/wiki/Cooking
+# https://en.wikipedia.org/wiki/Party
+# https://eu.wikipedia.org/wiki/Bertsolaritza
+# https://en.wikipedia.org/wiki/Clothing
+# https://en.wikipedia.org/wiki/Basketball
