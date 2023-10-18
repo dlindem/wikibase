@@ -1,0 +1,2 @@
+- #propietate
+  [[puzkar]]ren aurkakoa

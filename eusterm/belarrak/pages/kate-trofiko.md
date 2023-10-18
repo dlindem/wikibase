@@ -1,0 +1,2 @@
+# Kate-trofikoa
+Kate-trofikoa elikadura sare batean dauden loturen sekuentzia lineala da, sareko beste espezierik jaten ez duen espezie batetik hasi eta sareko beste inork jaten ez duen espezieraino iristen dena.

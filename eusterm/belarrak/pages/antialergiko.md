@@ -1,0 +1,2 @@
+- #propietate
+  [[alergia]] txikitzen duena

@@ -1,0 +1,2 @@
+- #propietate
+  [[espasmo]]en aurkakoa

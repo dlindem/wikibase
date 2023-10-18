@@ -1,0 +1,2 @@
+- #propietate
+  [[antsietate]]aren aurkakoa

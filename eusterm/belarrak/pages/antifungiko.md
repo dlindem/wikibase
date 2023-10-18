@@ -1,0 +1,2 @@
+- #propietate
+  [[onddo]]en aurkakoa

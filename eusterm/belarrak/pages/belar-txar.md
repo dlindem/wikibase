@@ -1,0 +1,1 @@
+- Belar-txarra deitzen zaie bere kabuz azkar hazten diren belarrei. Berez izen aproposagoa litzake "belar-azkarra".

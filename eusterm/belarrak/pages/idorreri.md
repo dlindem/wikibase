@@ -1,0 +1,2 @@
+- #gaitz 
+  > **es.**: estreñimiento

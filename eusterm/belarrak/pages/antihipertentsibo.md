@@ -1,0 +1,2 @@
+- #propietate
+- [[presio arterial]]a txikitzen duena

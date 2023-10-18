@@ -1,0 +1,1 @@
+15-25ºC-ko tenperatura.

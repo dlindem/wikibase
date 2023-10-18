@@ -1,0 +1,1 @@
+- [[almendra]]tik ateratako [[olio]]a

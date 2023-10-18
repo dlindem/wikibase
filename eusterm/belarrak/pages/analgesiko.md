@@ -1,0 +1,2 @@
+- #propietate
+  [[min]]aren aurkakoa

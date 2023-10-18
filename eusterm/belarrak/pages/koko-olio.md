@@ -1,0 +1,1 @@
+- [[koko]]tik ateratako [[olio]]a

@@ -1,0 +1,2 @@
+- #propietate
+  [[infekzio]]en aurkakoa

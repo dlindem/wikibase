@@ -1,0 +1,1 @@
+- > Tentuz erabili behar da beti, edozein esentzia-olio dosi handietan kaltegarria delako

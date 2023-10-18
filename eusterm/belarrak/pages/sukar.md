@@ -1,0 +1,2 @@
+- #gaitz
+  > Sukarraren aurkako propietatea

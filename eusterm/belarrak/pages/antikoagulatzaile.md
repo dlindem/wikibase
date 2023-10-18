@@ -1,0 +1,2 @@
+- #propietate
+- [[odol]]aren [[koagulazio]]a txikitzen duena, odola likidoagoa eginez, ez hain lodia.
