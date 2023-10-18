@@ -129,4 +129,4 @@ with open('data/wikidata-import-allq.txt', 'r') as file:
 
 		print('Will now import: '+qid)
 		# presskey = input('Proceed?')
-		print('Successfully processed: '+importitem(qid, schemeqid="Q205"))
+		print('Successfully processed: '+importitem(qid, schemeqid="Q3766"))

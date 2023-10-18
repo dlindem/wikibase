@@ -11,13 +11,15 @@ def write_wdmapping(wdqid=None, wbqid=None):
 			csvfile.write(wbqid + '\t' + wdqid + '\n')
 
 
-def importitem(importqid, process_claims=True, schemeqid=None, instanceqid=None):
+def importitem(importqid, wbqid=False, process_claims=False, process_labels=True, process_aliases=True, process_defs=True, schemeqid=None, instanceqid=None): #process_claims can be a list with allowed wb properties
 	languages_to_consider = "eu es en de fr".split(" ")
 	global itemwd2wb
 	global itemwb2wd
 	global propwd2wb
 	global propwb2wd
 	global propwbdatatype
+
+	allowed_props_to_import = ['P29', 'P5', 'P4', 'P3']
 
 	print('Will get ' + importqid + ' from wikidata...')
 	# importitem = euswbi.wdi.item.get(entity_id=importqid, user_agent=euswbi.wd_user_agent)
@@ -37,34 +39,37 @@ def importitem(importqid, process_claims=True, schemeqid=None, instanceqid=None)
 		wbitemjson['statements'].append({'prop_nr': 'P6', 'type': 'Item', 'value': schemeqid})
 	if instanceqid:
 		wbitemjson['statements'].append({'prop_nr': 'P5', 'type': 'Item', 'value': instanceqid})
-	if importqid in itemwd2wb:
-		wbqid = itemwd2wb[importqid]  # item exists
-	# return wbqid
-	else:
-		wbqid = False  # will create new item
+	if not wbqid and importqid in itemwd2wb:
+		wbqid = itemwd2wb[importqid]  # item exists and is in mapping file
 
 	# process labels
-	for lang in importitemjson['labels']:
-		if lang in languages_to_consider:
-			wbitemjson['labels'].append({'lang': lang, 'value': importitemjson['labels'][lang]['value']})
+	if process_labels:
+		for lang in importitemjson['labels']:
+			if lang in languages_to_consider:
+				wbitemjson['labels'].append({'lang': lang, 'value': importitemjson['labels'][lang]['value']})
 	# process aliases
-	for lang in importitemjson['aliases']:
-		if lang in languages_to_consider:
-			for entry in importitemjson['aliases'][lang]:
-				# print('Alias entry: '+str(entry))
-				wbitemjson['aliases'].append({'lang': lang, 'value': entry['value']})
+	if process_aliases:
+		for lang in importitemjson['aliases']:
+			if lang in languages_to_consider:
+				for entry in importitemjson['aliases'][lang]:
+					# print('Alias entry: '+str(entry))
+					wbitemjson['aliases'].append({'lang': lang, 'value': entry['value']})
 	# process descriptions
-	for lang in importitemjson['descriptions']:
-		if lang in languages_to_consider:
-			if {'lang': lang, 'value': importitemjson['descriptions'][lang]['value']} not in wbitemjson['labels']:
-				wbitemjson['descriptions'].append(
-					{'lang': lang, 'value': importitemjson['descriptions'][lang]['value']})
-
+	if process_defs:
+		for lang in importitemjson['descriptions']:
+			if lang in languages_to_consider:
+				if {'lang': lang, 'value': importitemjson['descriptions'][lang]['value']} not in wbitemjson['labels']:
+					wbitemjson['descriptions'].append(
+						{'lang': lang, 'value': importitemjson['descriptions'][lang]['value']})
 	# process claims
 	if process_claims:
 		for claimprop in importitemjson['claims']:
 			if claimprop in propwd2wb:  # aligned prop
 				wbprop = propwd2wb[claimprop]
+				# delete the following two lines for importing all aligned properties' values
+				if isinstance(process_claims, list):
+					if wbprop not in process_claims:
+						continue
 				for claim in importitemjson['claims'][claimprop]:
 					claimval = claim['mainsnak']['datavalue']['value']
 					if propwbdatatype[wbprop] == "WikibaseItem":
@@ -72,7 +77,7 @@ def importitem(importqid, process_claims=True, schemeqid=None, instanceqid=None)
 							print(
 								'Will create a new item for ' + claimprop + ' (' + wbprop + ') object property value: ' +
 								claimval['id'])
-							targetqid = importitem(claimval['id'], process_claims=False)
+							targetqid = importitem(claimval['id'], process_claims=False) # property target object to be imported without statements
 						else:
 							targetqid = itemwd2wb[claimval['id']]
 							print('Will re-use existing item as property value: wd:' + claimval[
@@ -132,16 +137,16 @@ for binding in bindings:
 	propwd2wb[binding['wd']['value']] = euswbqid
 	propwbdatatype[euswbqid] = binding['datatype']['value'].replace('http://wikiba.se/ontology#', '')
 
-# load items to import
-with open('data/wikidata-import.csv', 'r') as file:
-	importlist = csv.DictReader(file, delimiter="\t")
-	seenqid = []
-	for row in importlist:
-		if not re.search('^Q[0-9]+', row['Wikidata']):
-			continue
-		if row['Wikidata'] in seenqid:
-			continue
-		print('Will now import: ' + str(row))
-		# presskey = input('Proceed?')
-		print('Successfully processed: ' + importitem(row['Wikidata'], schemeqid=row['Scheme'], instanceqid=None))
-		seenqid.append(row['Wikidata'])
+# # load items to import
+# with open('data/wikidata-import.csv', 'r') as file:
+# 	importlist = csv.DictReader(file, delimiter="\t")
+# 	seenqid = []
+# 	for row in importlist:
+# 		if not re.search('^Q[0-9]+', row['Wikidata']):
+# 			continue
+# 		if row['Wikidata'] in seenqid:
+# 			continue
+# 		print('Will now import: ' + str(row))
+# 		# presskey = input('Proceed?')
+# 		print('Successfully processed: ' + importitem(row['Wikidata'], process_claims=['P5'], schemeqid=row['Scheme'], instanceqid=None))
+# 		seenqid.append(row['Wikidata'])
