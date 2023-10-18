@@ -10,7 +10,7 @@ import requests
 import sys
 import unidecode
 # import sparql
-import logging
+# import logging
 # import romanize3
 # hebrewdict = romanize3.__dict__['heb']
 # from wikidataintegrator import wdi_core, wdi_login
@@ -24,7 +24,7 @@ import config_private
 card1props = ['P6', 'P10']
 
 # Logging config
-logging.basicConfig(filename='data/logs/euswb.log', filemode='a', format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%d-%m-%y %H:%M:%S')
+# logging.basicConfig(filename='data/logs/euswb.log', filemode='a', format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%d-%m-%y %H:%M:%S')
 
 # #WDI setup
 # def wdi_setup():
@@ -295,7 +295,7 @@ def setlabel(s, lang, val, type="label", set=False):
 				token = get_token()
 			elif 'Unrecognized value for parameter "language"' in str(ex):
 				print('Cannot set label in this language: '+lang)
-				logging.warning('Cannot set label in this language: '+lang)
+				# logging.warning('Cannot set label in this language: '+lang)
 				break
 			elif 'unresolved-redirect' in str(ex):
 
@@ -318,11 +318,11 @@ def setlabel(s, lang, val, type="label", set=False):
 					continue
 			else:
 				print('Label set operation '+s+' ('+lang+') '+str(val)+' failed, will try again...\n'+str(ex))
-				logging.error('Label set operation '+s+' ('+lang+') '+str(val)+' failed, will try again...', exc_info=True)
+				# logging.error('Label set operation '+s+' ('+lang+') '+str(val)+' failed, will try again...', exc_info=True)
 				time.sleep(4)
 	# log.add
 	print ('*** Label set operation '+s+' ('+lang+') '+str(val)+' failed up to 5 times... skipped.')
-	logging.warning('Label set operation '+s+' ('+lang+') '+str(val)+' failed up to 5 times... skipped.')
+	# logging.warning('Label set operation '+s+' ('+lang+') '+str(val)+' failed up to 5 times... skipped.')
 	return False
 
 #create string (or url) claim
@@ -345,7 +345,7 @@ def setdescription(s, lang, val):
 				token = get_token()
 			elif 'Unrecognized value for parameter "language"' in str(ex):
 				print('Cannot set description in this language: '+lang)
-				logging.warning('Cannot set description in this language: '+lang)
+				# logging.warning('Cannot set description in this language: '+lang)
 				break
 			elif 'already has label' in str(ex) and 'using the same description text.' in str(ex):
 				# this is a hot candidate for merging
@@ -359,11 +359,11 @@ def setdescription(s, lang, val):
 				break
 			else:
 				print('Description set operation '+s+' ('+lang+') '+val+' failed, will try again...\n'+str(ex))
-				logging.error('Description set operation '+s+' ('+lang+') '+val+' failed, will try again...', exc_info=True)
+				# logging.error('Description set operation '+s+' ('+lang+') '+val+' failed, will try again...', exc_info=True)
 				time.sleep(4)
 	# log.add
 	print ('*** Description set operation '+s+' ('+lang+') '+val+' failed up to 5 times... skipped.')
-	logging.warning('Description set operation '+s+' ('+lang+') '+val+' failed up to 5 times... skipped.')
+	# logging.warning('Description set operation '+s+' ('+lang+') '+val+' failed up to 5 times... skipped.')
 	return False
 
 claimcache = {"item": None, "claims": None}
@@ -504,7 +504,7 @@ def newsense(lid, glosses, nodupcheck = None):
 			time.sleep(2)
 			done += 0.2
 	print('euswb.newsense failed 5 times.')
-	logging.error('euswb.newsense failed 5 times.',lid,str(glosses))
+	# logging.error('euswb.newsense failed 5 times.',lid,str(glosses))
 	return False
 
 
@@ -554,7 +554,7 @@ def newform(lid, form, gram=None, wdform_id=None, nodupcheck = None):
 			time.sleep(2)
 			done += 0.2
 	print('awb.newform failed 5 times.'+lid+','+form+','+str(gram)+','+wdform_id)
-	logging.error('awb.newform failed 5 times.'+lid+','+form+','+str(gram)+','+wdform_id)
+	# logging.error('awb.newform failed 5 times.'+lid+','+form+','+str(gram)+','+wdform_id)
 	return False
 
 
@@ -589,7 +589,7 @@ def updateform(form_id, form, gram=None, wdform_id=None):
 			time.sleep(2)
 			done += 0.2
 	print('awb.updateform failed 5 times.'+form_id+','+form+','+str(gram)+','+wdform_id)
-	logging.error('awb.updateform failed 5 times.'+form_id+','+form+','+str(gram)+','+wdform_id)
+	# logging.error('awb.updateform failed 5 times.'+form_id+','+form+','+str(gram)+','+wdform_id)
 	return False
 
 #remove form
@@ -618,7 +618,7 @@ def removeform(form_id):
 			time.sleep(2)
 			done += 0.2
 	print('awb.removeform failed 5 times.'+form_id)
-	logging.error('awb.removeform failed 5 times.'+form_id)
+	# logging.error('awb.removeform failed 5 times.'+form_id)
 	return False
 
 #update claims
@@ -805,11 +805,11 @@ def updateclaim(s, p, o, dtype): # for novalue: o="novalue", dtype="novalue"
 					token = get_token()
 				else:
 					print('Claim creation failed, will try again...\n'+str(ex))
-					logging.error('Claim creation '+s+' ('+p+') '+str(o)+' failed, will try again...\n', exc_info=True)
+					# logging.error('Claim creation '+s+' ('+p+') '+str(o)+' failed, will try again...\n', exc_info=True)
 					time.sleep(4)
 
 		print ('*** Claim creation operation '+s+' ('+p+') '+str(o)+' failed 5 times... skipped.')
-		logging.warning('Claim creation operation '+s+' ('+p+') '+str(o)+' failed 5 times... skipped.')
+		# logging.warning('Claim creation operation '+s+' ('+p+') '+str(o)+' failed 5 times... skipped.')
 		return False
 	else:
 		print('*** Unknown error in euswb.updateclaim function, parameters were:',s, p, str(o), dtype)
@@ -918,7 +918,7 @@ def setqualifier(qid, prop, claimid, qualiprop, qualio, dtype):
 									print('Qualifier set ('+qualiprop+') '+qualivalue+': success.')
 									return True
 								print('Qualifier set failed, will try again...')
-								logging.error('Qualifier set failed for '+prop+' ('+qualiprop+') '+qualivalue+': '+str(ex))
+								# logging.error('Qualifier set failed for '+prop+' ('+qualiprop+') '+qualivalue+': '+str(ex))
 								time.sleep(2)
 
 						except Exception as ex:
@@ -934,7 +934,7 @@ def setqualifier(qid, prop, claimid, qualiprop, qualio, dtype):
 				print('Qualifier set ('+qualiprop+') '+qualivalue+': success.')
 				return True
 			print('Qualifier set failed, will try again...')
-			logging.error('Qualifier set failed for '+prop+' ('+qualiprop+') '+qualivalue+': '+str(ex))
+			# logging.error('Qualifier set failed for '+prop+' ('+qualiprop+') '+qualivalue+': '+str(ex))
 			time.sleep(2)
 
 	except Exception as ex:
@@ -979,14 +979,14 @@ def setref(claimid, refprop, refvalue, dtype):
 				print('The statement already has a reference (with the same hash)')
 				#time.sleep(1)
 			else:
-				logging.error('Unforeseen exception: '+str(ex))
+				# logging.error('Unforeseen exception: '+str(ex))
 				print(str(ex))
 				time.sleep(5)
 			return False
 
 
 		print('Reference set failed, will try again...')
-		logging.error('Reference set failed for '+prop+' ('+refprop+') '+refvalue+': '+str(ex))
+		# logging.error('Reference set failed for '+prop+' ('+refprop+') '+refvalue+': '+str(ex))
 		time.sleep(2)
 
 
