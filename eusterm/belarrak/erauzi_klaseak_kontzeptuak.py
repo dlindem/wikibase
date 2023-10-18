@@ -42,4 +42,4 @@ for kontzeptua in kontzeptua_guztiak:
         kontzeptuak_md_gabe.append(kontzeptua)
 
 with open('klaseak_kontzeptuak.json', 'w', encoding="utf-8") as jsonfile:
-    json.dump({'klaseak':klase_guztiak, 'kontzeptuak':kontzeptua_guztiak, 'kontzeptuak_orrialderik_gabe':kontzeptuak_md_gabe}, jsonfile, indent=2)
+json.dump({'klaseak':klase_guztiak, 'kontzeptuak':kontzeptua_guztiak, 'kontzeptuak_orrialderik_gabe':kontzeptuak_md_gabe}, jsonfile, indent=2)
