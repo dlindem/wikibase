@@ -27,3 +27,4 @@
 # https://eu.wikipedia.org/wiki/Bertsolaritza
 # https://en.wikipedia.org/wiki/Clothing
 # https://en.wikipedia.org/wiki/Basketball
+https://en.wikipedia.org/wiki/Strength_training
