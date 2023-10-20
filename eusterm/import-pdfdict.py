@@ -5,15 +5,17 @@ eginda = """
 """
 eginlist = eginda.split('\n')
 
-arloa = "mendizaletasuna"
-schemeqid = "Q197"
-refqid = "Q195" # UZEI dict.
+arloa = "soziolinguistika"
+schemeqid = "Q5144"
+refqid = "Q5145" # UZEI dict.
 
 # load items to import
 with open('pdf2dict/'+arloa+'.json', 'r') as jsonfile:
 	source = json.load(jsonfile)
 	for entry in source:
-		itemdata = {'qid':False, 'statements':[], 'labels':[], 'aliases':[]}
+		if int(entry['id']) < 306:
+			continue
+		itemdata = {'qid':False, 'statements':[], 'labels':[], 'aliases':[], 'descriptions':[]}
 		# id
 		termid = arloa+'_'+entry['id'].rjust(3, '0')
 		if termid in eginlist:
@@ -39,8 +41,14 @@ with open('pdf2dict/'+arloa+'.json', 'r') as jsonfile:
 			itemdata['statements'].append({'type':'string', 'prop_nr':'P13', 'value':entry['eusdef']})
 		langs = ['es', 'fr', 'en']
 		for lang in langs:
-			langentry = entry[lang].split('; ')
-			itemdata['labels'].append({'lang':lang, 'value':langentry.pop(0)})
-			for alias in langentry:
-				itemdata['aliases'].append({'lang':lang, 'value':alias})
+			if entry[lang] != "":
+				langentry = entry[lang].split('; ')
+				itemdata['labels'].append({'lang':lang, 'value':langentry.pop(0)})
+				for alias in langentry:
+					itemdata['aliases'].append({'lang':lang, 'value':alias})
+		for lang in langs:
+			langdefentry = entry[lang+'def']
+			if langdefentry != "":
+				itemdata['descriptions'].append({'lang':lang, 'value':langdefentry})
+
 		euswbi.itemwrite(itemdata)
