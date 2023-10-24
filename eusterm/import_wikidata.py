@@ -89,12 +89,12 @@ def importitem(importqid, wbqid=False, process_claims=False, process_labels=True
 					statement['references'] = [{'prop_nr': 'P1', 'type': 'externalid', 'value': importqid}]
 				wbitemjson['statements'].append(statement)
 	# process sitelinks
-	# if 'sitelinks' in importitemjson:
-	# 	for site in importitemjson['sitelinks']:
-	# 		if site.replace('wiki', '') in languages_to_consider:
-	# 			wpurl = "https://"+site.replace('wiki', '')+".wikipedia.org/wiki/"+importitemjson['sitelinks'][site]['title']
-	# 			print(wpurl)
-	# 			wbitemjson['statements'].append({'prop_nr':'P7','type':'url','value':wpurl})
+	if 'sitelinks' in importitemjson:
+		for site in importitemjson['sitelinks']:
+			if site.replace('wiki', '') in languages_to_consider:
+				wpurl = "https://"+site.replace('wiki', '')+".wikipedia.org/wiki/"+importitemjson['sitelinks'][site]['title'].replace(" ","_")
+				print(wpurl)
+				wbitemjson['statements'].append({'prop_nr':'P7','type':'url','value':wpurl})
 
 	wbitemjson['qid'] = wbqid  # if False, then create new item
 	result = euswbi.itemwrite(wbitemjson)
@@ -137,16 +137,16 @@ for binding in bindings:
 	propwd2wb[binding['wd']['value']] = euswbqid
 	propwbdatatype[euswbqid] = binding['datatype']['value'].replace('http://wikiba.se/ontology#', '')
 
-# # load items to import
-# with open('data/wikidata-import.csv', 'r') as file:
-# 	importlist = csv.DictReader(file, delimiter="\t")
-# 	seenqid = []
-# 	for row in importlist:
-# 		if not re.search('^Q[0-9]+', row['Wikidata']):
-# 			continue
-# 		if row['Wikidata'] in seenqid:
-# 			continue
-# 		print('Will now import: ' + str(row))
-# 		# presskey = input('Proceed?')
-# 		print('Successfully processed: ' + importitem(row['Wikidata'], process_claims=['P5'], schemeqid=row['Scheme'], instanceqid=None))
-# 		seenqid.append(row['Wikidata'])
+# load items to import
+with open('data/wikidata-import.csv', 'r') as file:
+	importlist = csv.DictReader(file, delimiter="\t")
+	seenqid = []
+	for row in importlist:
+		if not re.search('^Q[0-9]+', row['Wikidata']):
+			continue
+		if row['Wikidata'] in seenqid:
+			continue
+		print('Will now import: ' + str(row))
+		# presskey = input('Proceed?')
+		print('Successfully processed: ' + importitem(row['Wikidata'], process_claims=['P5'], schemeqid=row['Scheme'], instanceqid=None))
+		seenqid.append(row['Wikidata'])
