@@ -23,7 +23,7 @@ for mdfile in fitxategiak:
     # print(f"Orain prozesatzen: {mdfile}")
     with (open('belarrak/pages/' + mdfile, 'r', encoding="utf-8") as file):
         content = file.read()
-        landarea = mdfile.replace('.md','')
+        landarea = mdfile.replace('.md', '')
         lresult = {}
         good_result = False
         for obj_prop in obj_props:
@@ -31,12 +31,15 @@ for mdfile in fitxategiak:
             if regex:
                 good_result = True
                 print(f"{landarea}: {obj_prop}: {regex.group(1)}")
-                lresult[obj_prop] = {'property': obj_props[obj_prop], 'literal':regex.group(1), 'object':lit_ent[regex.group(1)]}
+                lresult[obj_prop] = {'property': obj_props[obj_prop], 'literal': regex.group(1),
+                                     'object': lit_ent[regex.group(1)]}
         regex = re.search(rf"\+ \*\*Espeziea\*\*([^\n]*)\n", content)
         if regex:
             good_result = True
-            print(f"{landarea}: Espeziea: {regex.group(1)}")
-            lresult['Espeziea'] = {'prop_nr': "P49", 'literal': regex.group(1)}
+            literal = re.sub(r':? *_ *', '', regex.group(1))
+            if len(literal) > 0:
+                print(f"{landarea}: Espeziea: {literal}")
+                lresult['Espeziea'] = {'prop_nr': "P49", 'literal': literal}
         if good_result:
             lresult['subject'] = lit_ent[landarea]
             result[landarea] = lresult
