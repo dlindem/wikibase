@@ -2,7 +2,7 @@ import sys, os, json, csv, time, re
 
 sys.path.insert(1, os.path.realpath(os.path.pardir))
 os.chdir(os.path.realpath(os.path.pardir))
-# import euswb
+import euswbi
 
 with open('belarrak/belarrak_literalak_entitateak.csv', 'r', encoding="utf-8") as csvfile:
     csvrows = csv.reader(csvfile)
@@ -31,7 +31,7 @@ for mdfile in fitxategiak:
             if regex:
                 good_result = True
                 print(f"{landarea}: {obj_prop}: {regex.group(1)}")
-                lresult[obj_prop] = {'property': obj_props[obj_prop], 'literal': regex.group(1),
+                lresult[obj_prop] = {'prop_nr': obj_props[obj_prop], 'literal': regex.group(1),
                                      'object': lit_ent[regex.group(1)]}
         regex = re.search(rf"\+ \*\*Espeziea\*\*([^\n]*)\n", content)
         if regex:
@@ -44,7 +44,17 @@ for mdfile in fitxategiak:
             lresult['subject'] = lit_ent[landarea]
             result[landarea] = lresult
 
-# "Espeziea": "P49"
-
 with open('belarrak/espezie_datuak.json', 'w', encoding="utf-8") as jsonfile:
     json.dump(result, jsonfile, indent=2)
+
+for entry in result:
+    print(f"Orain prozesatzen: {str(result[entry])}")
+    statements = [{'type':'item', 'prop_nr':'P5', 'value': 'Q3746'}] # instance of landare
+    for relation in result[entry]:
+        print(relation)
+        if relation in ['Ordena', 'Familia', 'Generoa']:
+            statements.append({'type':'item', 'prop_nr':result[entry][relation]['prop_nr'], 'value': result[entry][relation]['object']})
+        elif relation == "Espeziea":
+            statements.append({'type': 'string', 'prop_nr': result[entry][relation]['prop_nr'],
+                               'value': result[entry][relation]['literal']})
+    euswbi.itemwrite({'qid':result[entry]['subject'], 'statements':statements})

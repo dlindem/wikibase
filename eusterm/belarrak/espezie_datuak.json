@@ -1,83 +1,39 @@
 {
-  "apio": {
+  "ezkai": {
     "Ordena": {
-      "property": "P46",
-      "literal": "apiales",
-      "object": "Q4698"
+      "prop_nr": "P46",
+      "literal": "lamiales",
+      "object": "Q4877"
     },
     "Familia": {
-      "property": "P47",
-      "literal": "apiaceae",
-      "object": "Q4685"
+      "prop_nr": "P47",
+      "literal": "lamiaceae",
+      "object": "Q4889"
     },
     "Generoa": {
-      "property": "P48",
-      "literal": "apium",
-      "object": "Q4696"
+      "prop_nr": "P48",
+      "literal": "thymus",
+      "object": "Q5077"
     },
     "Espeziea": {
       "prop_nr": "P49",
-      "literal": "Apium graveolens"
+      "literal": "Thymus vulgaris"
     },
-    "subject": "Q5975"
-  },
-  "kamamila arrunt": {
-    "Ordena": {
-      "property": "P46",
-      "literal": "asterales",
-      "object": "Q4738"
-    },
-    "Familia": {
-      "property": "P47",
-      "literal": "asteraceae",
-      "object": "Q4715"
-    },
-    "Generoa": {
-      "property": "P48",
-      "literal": "matricaria",
-      "object": "Q4730"
-    },
-    "Espeziea": {
-      "prop_nr": "P49",
-      "literal": "Matricaria chamomilla[^etim.], sin.Matricaria recutita"
-    },
-    "subject": "Q5976"
-  },
-  "pareta-belar": {
-    "Ordena": {
-      "property": "P46",
-      "literal": "rosales",
-      "object": "Q4794"
-    },
-    "Familia": {
-      "property": "P47",
-      "literal": "urticaceae",
-      "object": "Q4804"
-    },
-    "Generoa": {
-      "property": "P48",
-      "literal": "parietaria",
-      "object": "Q4807"
-    },
-    "Espeziea": {
-      "prop_nr": "P49",
-      "literal": "Parietaria officinalissin.Parietaria erecta"
-    },
-    "subject": "Q5977"
+    "subject": "Q5005"
   },
   "baratxuri": {
     "Ordena": {
-      "property": "P46",
+      "prop_nr": "P46",
       "literal": "asparagales",
       "object": "Q4841"
     },
     "Familia": {
-      "property": "P47",
+      "prop_nr": "P47",
       "literal": "amaryllidaceae",
       "object": "Q4860"
     },
     "Generoa": {
-      "property": "P48",
+      "prop_nr": "P48",
       "literal": "allium",
       "object": "Q4836"
     },
@@ -89,17 +45,17 @@
   },
   "mendazuri": {
     "Ordena": {
-      "property": "P46",
+      "prop_nr": "P46",
       "literal": "lamiales",
       "object": "Q4877"
     },
     "Familia": {
-      "property": "P47",
+      "prop_nr": "P47",
       "literal": "lamiaceae",
       "object": "Q4889"
     },
     "Generoa": {
-      "property": "P48",
+      "prop_nr": "P48",
       "literal": "mentha",
       "object": "Q4878"
     },
@@ -109,209 +65,103 @@
     },
     "subject": "Q4899"
   },
-  "dragoi-mutur": {
+  "kamamila arrunt": {
     "Ordena": {
-      "property": "P46",
-      "literal": "lamiales",
-      "object": "Q4877"
-    },
-    "Familia": {
-      "property": "P47",
-      "literal": "plantaginaceae",
-      "object": "Q4898"
-    },
-    "Generoa": {
-      "property": "P48",
-      "literal": "antirrhinum",
-      "object": "Q4918"
-    },
-    "Espeziea": {
-      "prop_nr": "P49",
-      "literal": "Antirrhinum majus"
-    },
-    "subject": "Q5980"
-  },
-  "pasmo-belar": {
-    "Ordena": {
-      "property": "P46",
-      "literal": "ericales",
-      "object": "Q4923"
-    },
-    "Familia": {
-      "property": "P47",
-      "literal": "primulaceae",
-      "object": "Q4931"
-    },
-    "Generoa": {
-      "property": "P48",
-      "literal": "lysimachia",
-      "object": "Q4924"
-    },
-    "Espeziea": {
-      "prop_nr": "P49",
-      "literal": "Lysimachia arvensissin.Anagallis arvensis"
-    },
-    "subject": "Q5051"
-  },
-  "andura": {
-    "Ordena": {
-      "property": "P46",
-      "literal": "dipsacales",
-      "object": "Q4934"
-    },
-    "Familia": {
-      "property": "P47",
-      "literal": "adoxaceae",
-      "object": "Q4939"
-    },
-    "Generoa": {
-      "property": "P48",
-      "literal": "sambucus",
-      "object": "Q4940"
-    },
-    "Espeziea": {
-      "prop_nr": "P49",
-      "literal": "Sambucus ebulus"
-    },
-    "subject": "Q5035"
-  },
-  "tipulin": {
-    "Ordena": {
-      "property": "P46",
-      "literal": "asparagales",
-      "object": "Q4841"
-    },
-    "Familia": {
-      "property": "P47",
-      "literal": "amaryllidaceae",
-      "object": "Q4860"
-    },
-    "Generoa": {
-      "property": "P48",
-      "literal": "allium",
-      "object": "Q4836"
-    },
-    "Espeziea": {
-      "prop_nr": "P49",
-      "literal": "Allium schoenoprasum"
-    },
-    "subject": "Q5982"
-  },
-  "txikoria-belar": {
-    "Ordena": {
-      "property": "P46",
+      "prop_nr": "P46",
       "literal": "asterales",
       "object": "Q4738"
     },
     "Familia": {
-      "property": "P47",
+      "prop_nr": "P47",
       "literal": "asteraceae",
       "object": "Q4715"
     },
     "Generoa": {
-      "property": "P48",
-      "literal": "taraxacum",
-      "object": "Q4962"
+      "prop_nr": "P48",
+      "literal": "matricaria",
+      "object": "Q4730"
     },
     "Espeziea": {
       "prop_nr": "P49",
-      "literal": "Taraxacum officinale"
+      "literal": "Matricaria chamomilla[^etim.], sin.Matricaria recutita"
     },
-    "subject": "Q4867"
+    "subject": "Q5976"
+  },
+  "malba zuri": {
+    "Ordena": {
+      "prop_nr": "P46",
+      "literal": "malvales",
+      "object": "Q4772"
+    },
+    "Familia": {
+      "prop_nr": "P47",
+      "literal": "malvaceae",
+      "object": "Q4774"
+    },
+    "Generoa": {
+      "prop_nr": "P48",
+      "literal": "althaea",
+      "object": "Q5000"
+    },
+    "Espeziea": {
+      "prop_nr": "P49",
+      "literal": ": Althaea officinalis"
+    },
+    "subject": "Q4775"
   },
   "kandida": {
     "Ordena": {
-      "property": "P46",
+      "prop_nr": "P46",
       "literal": "saccharomycetales",
       "object": "Q5011"
     },
     "Familia": {
-      "property": "P47",
+      "prop_nr": "P47",
       "literal": "saccharomycetaceae",
       "object": "Q5010"
     },
     "Generoa": {
-      "property": "P48",
+      "prop_nr": "P48",
       "literal": "candida",
       "object": "Q5009"
     },
     "subject": "Q4768"
   },
-  "intsusa beltz": {
+  "apio": {
     "Ordena": {
-      "property": "P46",
-      "literal": "dipsacales",
-      "object": "Q4934"
+      "prop_nr": "P46",
+      "literal": "apiales",
+      "object": "Q4698"
     },
     "Familia": {
-      "property": "P47",
-      "literal": "adoxaceae",
-      "object": "Q4939"
+      "prop_nr": "P47",
+      "literal": "apiaceae",
+      "object": "Q4685"
     },
     "Generoa": {
-      "property": "P48",
-      "literal": "sambucus",
-      "object": "Q4940"
+      "prop_nr": "P48",
+      "literal": "apium",
+      "object": "Q4696"
     },
     "Espeziea": {
       "prop_nr": "P49",
-      "literal": "Sambucus nigra"
+      "literal": "Apium graveolens"
     },
-    "subject": "Q4868"
-  },
-  "marrubi": {
-    "Ordena": {
-      "property": "P46",
-      "literal": "rosales",
-      "object": "Q4794"
-    },
-    "Familia": {
-      "property": "P47",
-      "literal": "rosaceae",
-      "object": "Q5052"
-    },
-    "Generoa": {
-      "property": "P48",
-      "literal": "fragaria",
-      "object": "Q5053"
-    },
-    "subject": "Q4886"
-  },
-  "ezkai": {
-    "Ordena": {
-      "property": "P46",
-      "literal": "lamiales",
-      "object": "Q4877"
-    },
-    "Familia": {
-      "property": "P47",
-      "literal": "lamiaceae",
-      "object": "Q4889"
-    },
-    "Generoa": {
-      "property": "P48",
-      "literal": "thymus",
-      "object": "Q5077"
-    },
-    "Espeziea": {
-      "prop_nr": "P49",
-      "literal": "Thymus vulgaris"
-    },
-    "subject": "Q5005"
+    "subject": "Q5975"
   },
   "garraiska": {
     "Ordena": {
-      "property": "P46",
+      "prop_nr": "P46",
       "literal": "lamiales",
       "object": "Q4877"
     },
     "Familia": {
-      "property": "P47",
+      "prop_nr": "P47",
       "literal": "lamiaceae",
       "object": "Q4889"
     },
     "Generoa": {
-      "property": "P48",
+      "prop_nr": "P48",
       "literal": "melissa",
       "object": "Q5113"
     },
@@ -321,19 +171,169 @@
     },
     "subject": "Q5985"
   },
+  "marrubi": {
+    "Ordena": {
+      "prop_nr": "P46",
+      "literal": "rosales",
+      "object": "Q4794"
+    },
+    "Familia": {
+      "prop_nr": "P47",
+      "literal": "rosaceae",
+      "object": "Q5052"
+    },
+    "Generoa": {
+      "prop_nr": "P48",
+      "literal": "fragaria",
+      "object": "Q5053"
+    },
+    "subject": "Q4886"
+  },
+  "pasmo-belar": {
+    "Ordena": {
+      "prop_nr": "P46",
+      "literal": "ericales",
+      "object": "Q4923"
+    },
+    "Familia": {
+      "prop_nr": "P47",
+      "literal": "primulaceae",
+      "object": "Q4931"
+    },
+    "Generoa": {
+      "prop_nr": "P48",
+      "literal": "lysimachia",
+      "object": "Q4924"
+    },
+    "Espeziea": {
+      "prop_nr": "P49",
+      "literal": "Lysimachia arvensissin.Anagallis arvensis"
+    },
+    "subject": "Q5051"
+  },
+  "txikoria-belar": {
+    "Ordena": {
+      "prop_nr": "P46",
+      "literal": "asterales",
+      "object": "Q4738"
+    },
+    "Familia": {
+      "prop_nr": "P47",
+      "literal": "asteraceae",
+      "object": "Q4715"
+    },
+    "Generoa": {
+      "prop_nr": "P48",
+      "literal": "taraxacum",
+      "object": "Q4962"
+    },
+    "Espeziea": {
+      "prop_nr": "P49",
+      "literal": "Taraxacum officinale"
+    },
+    "subject": "Q4867"
+  },
+  "tipulin": {
+    "Ordena": {
+      "prop_nr": "P46",
+      "literal": "asparagales",
+      "object": "Q4841"
+    },
+    "Familia": {
+      "prop_nr": "P47",
+      "literal": "amaryllidaceae",
+      "object": "Q4860"
+    },
+    "Generoa": {
+      "prop_nr": "P48",
+      "literal": "allium",
+      "object": "Q4836"
+    },
+    "Espeziea": {
+      "prop_nr": "P49",
+      "literal": "Allium schoenoprasum"
+    },
+    "subject": "Q5982"
+  },
+  "intsusa beltz": {
+    "Ordena": {
+      "prop_nr": "P46",
+      "literal": "dipsacales",
+      "object": "Q4934"
+    },
+    "Familia": {
+      "prop_nr": "P47",
+      "literal": "adoxaceae",
+      "object": "Q4939"
+    },
+    "Generoa": {
+      "prop_nr": "P48",
+      "literal": "sambucus",
+      "object": "Q4940"
+    },
+    "Espeziea": {
+      "prop_nr": "P49",
+      "literal": "Sambucus nigra"
+    },
+    "subject": "Q4868"
+  },
+  "pareta-belar": {
+    "Ordena": {
+      "prop_nr": "P46",
+      "literal": "rosales",
+      "object": "Q4794"
+    },
+    "Familia": {
+      "prop_nr": "P47",
+      "literal": "urticaceae",
+      "object": "Q4804"
+    },
+    "Generoa": {
+      "prop_nr": "P48",
+      "literal": "parietaria",
+      "object": "Q4807"
+    },
+    "Espeziea": {
+      "prop_nr": "P49",
+      "literal": "Parietaria officinalissin.Parietaria erecta"
+    },
+    "subject": "Q5977"
+  },
+  "dragoi-mutur": {
+    "Ordena": {
+      "prop_nr": "P46",
+      "literal": "lamiales",
+      "object": "Q4877"
+    },
+    "Familia": {
+      "prop_nr": "P47",
+      "literal": "plantaginaceae",
+      "object": "Q4898"
+    },
+    "Generoa": {
+      "prop_nr": "P48",
+      "literal": "antirrhinum",
+      "object": "Q4918"
+    },
+    "Espeziea": {
+      "prop_nr": "P49",
+      "literal": "Antirrhinum majus"
+    },
+    "subject": "Q5980"
+  },
   "kurkuma": {
     "Ordena": {
-      "property": "P46",
+      "prop_nr": "P46",
       "literal": "zingiberales",
       "object": "Q5126"
     },
     "Familia": {
-      "property": "P47",
+      "prop_nr": "P47",
       "literal": "zingiberaceae",
       "object": "Q5119"
     },
     "Generoa": {
-      "property": "P48",
+      "prop_nr": "P48",
       "literal": "curcuma",
       "object": "Q5120"
     },
@@ -345,5 +345,27 @@
   },
   "erruda": {
     "subject": "Q5986"
+  },
+  "andura": {
+    "Ordena": {
+      "prop_nr": "P46",
+      "literal": "dipsacales",
+      "object": "Q4934"
+    },
+    "Familia": {
+      "prop_nr": "P47",
+      "literal": "adoxaceae",
+      "object": "Q4939"
+    },
+    "Generoa": {
+      "prop_nr": "P48",
+      "literal": "sambucus",
+      "object": "Q4940"
+    },
+    "Espeziea": {
+      "prop_nr": "P49",
+      "literal": "Sambucus ebulus"
+    },
+    "subject": "Q5035"
   }
 }

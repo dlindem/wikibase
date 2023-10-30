@@ -4,10 +4,10 @@
   
   ![]()**
   
-  Ordena**: *[[malvales]]*
-  **Familia**: *[[malvaceae]]*
-  **Generoa**: *[[althaea]]*
-  **Espeziea**: *Althaea officinalis*
+  + **Ordena**: [[malvales]]
+  + **Familia**: [[malvaceae]]
+  + **Generoa**: [[althaea]]
+  + **Espeziea**: Althaea officinalis
   
   > Ez nahastu [[malba]]rekin
   
