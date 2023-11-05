@@ -4,6 +4,7 @@ import requests
 
 import euswbi
 
+allowed_props_to_import = ['P50', 'P5', 'P4', 'P3']
 
 def write_wdmapping(wdqid=None, wbqid=None):
 	if wdqid and wbqid:
@@ -19,7 +20,7 @@ def importitem(importqid, wbqid=False, process_claims=False, process_labels=True
 	global propwb2wd
 	global propwbdatatype
 
-	allowed_props_to_import = ['P29', 'P5', 'P4', 'P3']
+
 
 	print('Will get ' + importqid + ' from wikidata...')
 	# importitem = euswbi.wdi.item.get(entity_id=importqid, user_agent=euswbi.wd_user_agent)
@@ -148,5 +149,5 @@ with open('data/wikidata-import.csv', 'r') as file:
 			continue
 		print('Will now import: ' + str(row))
 		# presskey = input('Proceed?')
-		print('Successfully processed: ' + importitem(row['Wikidata'], process_claims=['P5'], schemeqid=row['Scheme'], instanceqid=None))
+		print('Successfully processed: ' + importitem(row['Wikidata'], process_claims=allowed_props_to_import, schemeqid=row['Scheme'], instanceqid=None))
 		seenqid.append(row['Wikidata'])
