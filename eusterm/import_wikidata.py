@@ -4,7 +4,7 @@ import requests
 
 import euswbi
 
-allowed_props_to_import = ['P50', 'P5', 'P4', 'P3']
+allowed_props_to_import = ['P5', 'P4', 'P3']
 
 def write_wdmapping(wdqid=None, wbqid=None):
 	if wdqid and wbqid:
@@ -12,7 +12,7 @@ def write_wdmapping(wdqid=None, wbqid=None):
 			csvfile.write(wbqid + '\t' + wdqid + '\n')
 
 
-def importitem(importqid, wbqid=False, process_claims=False, process_labels=True, process_aliases=True, process_defs=True, schemeqid=None, instanceqid=None): #process_claims can be a list with allowed wb properties
+def importitem(importqid, wbqid=False, process_claims=False, process_labels=True, process_aliases=True, process_defs=True, process_sitelinks=True, schemeqid=None, instanceqid=None): #process_claims can be a list with allowed wb properties
 	languages_to_consider = "eu es en de fr".split(" ")
 	global itemwd2wb
 	global itemwb2wd
@@ -20,7 +20,8 @@ def importitem(importqid, wbqid=False, process_claims=False, process_labels=True
 	global propwb2wd
 	global propwbdatatype
 
-
+	if wbqid:
+		wb_existing_item = euswbi.wbi.item.get(wbqid)
 
 	print('Will get ' + importqid + ' from wikidata...')
 	# importitem = euswbi.wdi.item.get(entity_id=importqid, user_agent=euswbi.wd_user_agent)
@@ -45,16 +46,31 @@ def importitem(importqid, wbqid=False, process_claims=False, process_labels=True
 
 	# process labels
 	if process_labels:
-		for lang in importitemjson['labels']:
-			if lang in languages_to_consider:
-				wbitemjson['labels'].append({'lang': lang, 'value': importitemjson['labels'][lang]['value']})
+		for lang in languages_to_consider:
+			if wbqid:
+				existing_preflabel = wb_existing_item.labels.get(lang)
+			else:
+				existing_preflabel = None
+			if lang in importitemjson['labels']:
+				if existing_preflabel and importitemjson['labels'][lang]['value'] != existing_preflabel:
+					wbitemjson['aliases'].append({'lang': lang, 'value': importitemjson['labels'][lang]['value']})
+				elif not existing_preflabel:
+					wbitemjson['labels'].append({'lang': lang, 'value': importitemjson['labels'][lang]['value']})
 	# process aliases
 	if process_aliases:
-		for lang in importitemjson['aliases']:
-			if lang in languages_to_consider:
+		for lang in languages_to_consider:
+			if wbqid:
+				existing_aliases = wb_existing_item.aliases.get(lang)
+				if not existing_aliases:
+					existing_aliases = []
+				for alias in existing_aliases:
+					wbitemjson['aliases'].append({'lang': lang, 'value': alias.value})
+			else:
+				existing_aliases = []
+			if lang in importitemjson['aliases']:
 				for entry in importitemjson['aliases'][lang]:
-					# print('Alias entry: '+str(entry))
-					wbitemjson['aliases'].append({'lang': lang, 'value': entry['value']})
+					if entry['value'] not in existing_aliases:
+						wbitemjson['aliases'].append({'lang': lang, 'value': entry['value']})
 	# process descriptions
 	if process_defs:
 		for lang in importitemjson['descriptions']:
@@ -90,12 +106,13 @@ def importitem(importqid, wbqid=False, process_claims=False, process_labels=True
 					statement['references'] = [{'prop_nr': 'P1', 'type': 'externalid', 'value': importqid}]
 				wbitemjson['statements'].append(statement)
 	# process sitelinks
-	if 'sitelinks' in importitemjson:
-		for site in importitemjson['sitelinks']:
-			if site.replace('wiki', '') in languages_to_consider:
-				wpurl = "https://"+site.replace('wiki', '')+".wikipedia.org/wiki/"+importitemjson['sitelinks'][site]['title'].replace(" ","_")
-				print(wpurl)
-				wbitemjson['statements'].append({'prop_nr':'P7','type':'url','value':wpurl})
+	if process_sitelinks:
+		if 'sitelinks' in importitemjson:
+			for site in importitemjson['sitelinks']:
+				if site.replace('wiki', '') in languages_to_consider:
+					wpurl = "https://"+site.replace('wiki', '')+".wikipedia.org/wiki/"+importitemjson['sitelinks'][site]['title'].replace(" ","_")
+					print(wpurl)
+					wbitemjson['statements'].append({'prop_nr':'P7','type':'url','value':wpurl})
 
 	wbitemjson['qid'] = wbqid  # if False, then create new item
 	result = euswbi.itemwrite(wbitemjson)
@@ -138,16 +155,33 @@ for binding in bindings:
 	propwd2wb[binding['wd']['value']] = euswbqid
 	propwbdatatype[euswbqid] = binding['datatype']['value'].replace('http://wikiba.se/ontology#', '')
 
-# load items to import
-with open('data/wikidata-import.csv', 'r') as file:
-	importlist = csv.DictReader(file, delimiter="\t")
+# # load items to import
+# with open('data/wikidata-import.csv', 'r') as file:
+# 	importlist = csv.DictReader(file, delimiter="\t")
+# 	seenqid = []
+# 	for row in importlist:
+# 		if not re.search('^Q[0-9]+', row['Wikidata']):
+# 			continue
+# 		if row['Wikidata'] in seenqid:
+# 			continue
+# 		print('Will now import: ' + str(row))
+# 		# presskey = input('Proceed?')
+# 		print('Successfully processed: ' + importitem(row['Wikidata'], process_claims=allowed_props_to_import, schemeqid=row['Scheme'], instanceqid=None))
+# 		seenqid.append(row['Wikidata'])
+
+# load openrefine alignment CSV
+with open('data/wd_to_eusterm.csv', 'r', encoding='utf-8') as csvfile:
+	importlist = csv.DictReader(csvfile, delimiter=",")
 	seenqid = []
 	for row in importlist:
-		if not re.search('^Q[0-9]+', row['Wikidata']):
-			continue
-		if row['Wikidata'] in seenqid:
-			continue
-		print('Will now import: ' + str(row))
-		# presskey = input('Proceed?')
-		print('Successfully processed: ' + importitem(row['Wikidata'], process_claims=allowed_props_to_import, schemeqid=row['Scheme'], instanceqid=None))
-		seenqid.append(row['Wikidata'])
+		eustermid = row['concept'].replace('https://eusterm.wikibase.cloud/entity/','')
+		print(f"\nWill now process {eustermid}")
+		for key in row:
+			if key.lower().startswith('wikidata'):
+				wdqid = row[key].strip()
+				if wdqid.startswith('Q'):
+					if wdqid not in seenqid:
+						print(
+							'Successfully processed: ' + str(importitem(wdqid, wbqid=eustermid, process_claims=False,
+																	schemeqid=None, instanceqid=None, process_defs=True, process_aliases=True, process_labels=True, process_sitelinks=False)))
+						seenqid.append(wdqid)
