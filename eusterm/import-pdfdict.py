@@ -1,20 +1,23 @@
 import euswbi
 import json, re, time, sys
-eginda = """
-
+eginda = """336
+337
+338
+339
+340
 """
 eginlist = eginda.split('\n')
 
-arloa = "soziolinguistika"
-schemeqid = "Q5144"
-refqid = "Q5145" # UZEI dict.
+arloa = "musika"
+schemeqid = "Q6745"
+refqid = "Q6746" # UZEI dict.
 
 # load items to import
-with open('pdf2dict/'+arloa+'.json', 'r') as jsonfile:
+with open('pdf2dict/indarkeria.json', 'r') as jsonfile:
 	source = json.load(jsonfile)
 	for entry in source:
-		if int(entry['id']) < 306:
-			continue
+		# if int(entry['id']) < 306:
+		# 	continue
 		itemdata = {'qid':False, 'statements':[], 'labels':[], 'aliases':[], 'descriptions':[]}
 		# id
 		termid = arloa+'_'+entry['id'].rjust(3, '0')
@@ -38,7 +41,7 @@ with open('pdf2dict/'+arloa+'.json', 'r') as jsonfile:
 			'qualifiers':[{'type':'string','prop_nr':'P18','value':entry['eustermqual']}]})
 
 		if len(entry['eusdef']) > 1:
-			itemdata['statements'].append({'type':'string', 'prop_nr':'P13', 'value':entry['eusdef']})
+			itemdata['statements'].append({'type':'string', 'prop_nr':'P13', 'value':entry['eusdef'], 'references':[{'type':'item','prop_nr':'P17','value':refqid}]})
 		langs = ['es', 'fr', 'en']
 		for lang in langs:
 			if entry[lang] != "":
