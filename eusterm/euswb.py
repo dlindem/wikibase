@@ -821,8 +821,10 @@ def setclaimvalue(guid, value, dtype):
 	guidfix = re.compile(r'^(Q\d+)\-')
 	guid = re.sub(guidfix, r'\1$', guid)
 	print('Will now set value "'+value+'" to guid '+guid)
-	if dtype == "item" or dtype =="wikibase-entityid":
+	if dtype.lower() == "item" or dtype =="wikibase-entityid":
 		value = json.dumps({"entity-type":"item","numeric-id":int(value.replace("Q",""))})
+	elif dtype.lower() == "string":
+		value = '"'+value.replace('"', '\\"')+'"'
 	else:
 		print('This item type is still not implemented in "euswb.setclaimvalue": '+dtype)
 		sys.exit()
@@ -842,6 +844,7 @@ def setclaimvalue(guid, value, dtype):
 				break
 			else:
 				print('Claim update failed... Will try again.')
+				print(str(ex))
 				time.sleep(4)
 
 
