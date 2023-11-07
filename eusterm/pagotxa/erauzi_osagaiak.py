@@ -43,3 +43,10 @@ with open('errezetak.csv', 'w') as csvfile:
                 line += f"\t\"{osagai}\""
         line += '\n'
         csvfile.write(line)
+
+with open('osagaiak_openrefine.csv', 'w') as csvfile2:
+    for errezeta in errezetak:
+        if errezeta['osagaiak']:
+            for osagai in errezeta['osagaiak']:
+                line = f"{errezeta['title_url']}\t\"{osagai}\"\n"
+                csvfile2.write(line)
