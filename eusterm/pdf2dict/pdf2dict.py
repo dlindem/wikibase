@@ -1,6 +1,6 @@
 import re, time, json, sys
 
-with open('indarkeria.txt') as infile:
+with open('GorputzHezkuntza.txt') as infile:
 	sarrerak = infile.read().split("@")
 
 languages = ['es', 'fr', 'en']
@@ -22,7 +22,7 @@ for sarrera in sarrerak:
 		result['eustermqual'] = id_and_eusterm.group(3)
 		print('Found eustermqual',result['eustermqual'])
 	if id_and_eusterm.group(4):
-		eusdefline = id_and_eusterm.group(4)
+		eusdefline = id_and_eusterm.group(4).strip()
 		print('eusdef:'+eusdefline)
 		#OHARRA
 	# if id_and_eusterm.group(5):
@@ -93,5 +93,5 @@ for sarrera in sarrerak:
 
 	resultdict.append(result)
 
-with open('indarkeria.json', 'w') as outfile:
+with open('GorputzHezkuntza.json', 'w') as outfile:
 	json.dump(resultdict, outfile, indent=2)
