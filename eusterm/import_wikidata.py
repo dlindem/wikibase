@@ -22,6 +22,8 @@ def importitem(importqid, wbqid=False, process_claims=False, process_labels=True
 
 	if wbqid:
 		wb_existing_item = euswbi.wbi.item.get(wbqid)
+	else:
+		wb_existing_item = None
 
 	print('Will get ' + importqid + ' from wikidata...')
 	# importitem = euswbi.wdi.item.get(entity_id=importqid, user_agent=euswbi.wd_user_agent)
@@ -43,6 +45,7 @@ def importitem(importqid, wbqid=False, process_claims=False, process_labels=True
 		wbitemjson['statements'].append({'prop_nr': 'P5', 'type': 'Item', 'value': instanceqid})
 	if not wbqid and importqid in itemwd2wb:
 		wbqid = itemwd2wb[importqid]  # item exists and is in mapping file
+		wb_existing_item = euswbi.wbi.item.get(wbqid)
 
 	# process labels
 	if process_labels:
@@ -52,9 +55,10 @@ def importitem(importqid, wbqid=False, process_claims=False, process_labels=True
 			else:
 				existing_preflabel = None
 			if lang in importitemjson['labels']:
-				if existing_preflabel and importitemjson['labels'][lang]['value'] != existing_preflabel:
-					wbitemjson['aliases'].append({'lang': lang, 'value': importitemjson['labels'][lang]['value']})
-				elif not existing_preflabel:
+				if existing_preflabel:
+					if importitemjson['labels'][lang]['value'] != existing_preflabel:
+						wbitemjson['aliases'].append({'lang': lang, 'value': importitemjson['labels'][lang]['value']})
+				else:
 					wbitemjson['labels'].append({'lang': lang, 'value': importitemjson['labels'][lang]['value']})
 	# process aliases
 	if process_aliases:
@@ -155,33 +159,33 @@ for binding in bindings:
 	propwd2wb[binding['wd']['value']] = euswbqid
 	propwbdatatype[euswbqid] = binding['datatype']['value'].replace('http://wikiba.se/ontology#', '')
 
-# # load items to import
-# with open('data/wikidata-import.csv', 'r') as file:
-# 	importlist = csv.DictReader(file, delimiter="\t")
-# 	seenqid = []
-# 	for row in importlist:
-# 		if not re.search('^Q[0-9]+', row['Wikidata']):
-# 			continue
-# 		if row['Wikidata'] in seenqid:
-# 			continue
-# 		print('Will now import: ' + str(row))
-# 		# presskey = input('Proceed?')
-# 		print('Successfully processed: ' + importitem(row['Wikidata'], process_claims=allowed_props_to_import, schemeqid=row['Scheme'], instanceqid=None))
-# 		seenqid.append(row['Wikidata'])
-
-# load openrefine alignment CSV
-with open('data/wd_to_eusterm.csv', 'r', encoding='utf-8') as csvfile:
-	importlist = csv.DictReader(csvfile, delimiter=",")
+# load items to import
+with open('data/wikidata-import.csv', 'r') as file:
+	importlist = csv.DictReader(file, delimiter=",")
 	seenqid = []
 	for row in importlist:
-		eustermid = row['concept'].replace('https://eusterm.wikibase.cloud/entity/','')
-		print(f"\nWill now process {eustermid}")
-		for key in row:
-			if key.lower().startswith('wikidata'):
-				wdqid = row[key].strip()
-				if wdqid.startswith('Q'):
-					if wdqid not in seenqid:
-						print(
-							'Successfully processed: ' + str(importitem(wdqid, wbqid=eustermid, process_claims=False,
-																	schemeqid=None, instanceqid=None, process_defs=True, process_aliases=True, process_labels=True, process_sitelinks=False)))
-						seenqid.append(wdqid)
+		if not re.search('^Q[0-9]+', row['Wikidata']):
+			continue
+		if row['Wikidata'] in seenqid:
+			continue
+		print('Will now import: ' + str(row))
+		# presskey = input('Proceed?')
+		print('Successfully processed: ' + importitem(row['Wikidata'], process_claims=allowed_props_to_import, schemeqid=row['Scheme'], instanceqid=None))
+		seenqid.append(row['Wikidata'])
+
+# # load openrefine alignment CSV
+# with open('data/wd_to_eusterm.csv', 'r', encoding='utf-8') as csvfile:
+# 	importlist = csv.DictReader(csvfile, delimiter=",")
+# 	seenqid = []
+# 	for row in importlist:
+# 		eustermid = row['concept'].replace('https://eusterm.wikibase.cloud/entity/','')
+# 		print(f"\nWill now process {eustermid}")
+# 		for key in row:
+# 			if key.lower().startswith('wikidata'):
+# 				wdqid = row[key].strip()
+# 				if wdqid.startswith('Q'):
+# 					if wdqid not in seenqid:
+# 						print(
+# 							'Successfully processed: ' + str(importitem(wdqid, wbqid=eustermid, process_claims=False,
+# 																	schemeqid=None, instanceqid=None, process_defs=True, process_aliases=True, process_labels=True, process_sitelinks=False)))
+# 						seenqid.append(wdqid)
