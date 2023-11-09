@@ -57,7 +57,7 @@ def importitem(importqid, process_claims=True, schemeqid=None):
 	# process claims
 	if process_claims:
 		for claimprop in importitemjson['claims']:
-			if claimprop in propwd2wb: # aligned prop
+			if claimprop in propwd2wb and claimprop in ['P3','P4','P5']: # aligned prop
 				wbprop = propwd2wb[claimprop]
 				for claim in importitemjson['claims'][claimprop]:
 					if 'datavalue' in claim['mainsnak']:
@@ -122,11 +122,12 @@ for binding in bindings:
 	propwbdatatype[euswbqid] = binding['datatype']['value'].replace('http://wikiba.se/ontology#','')
 
 # load items to import
-with open('data/wikidata-import-allq.txt', 'r') as file:
+with open('data/Dantza-motak.csv', 'r') as file:
 	importlist = re.findall('Q[0-9]+', file.read())
-
+	seen_qid = []
 	for qid in importlist:
-
-		print('Will now import: '+qid)
-		# presskey = input('Proceed?')
-		print('Successfully processed: '+importitem(qid, schemeqid="Q3766"))
+		if qid not in seen_qid:
+			print('Will now import: '+qid)
+			# presskey = input('Proceed?')
+			print('Successfully processed: '+importitem(qid, schemeqid="Q6770"))
+		seen_qid.append(qid)
