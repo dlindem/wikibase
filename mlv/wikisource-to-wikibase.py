@@ -54,4 +54,4 @@ for number in numbered_tokens:
 								'descriptions': [{'lang': 'eu', 'value': '#'+number+' '+texttitle}],
 								'statements': statements}) # write to new Q-item
 
-	
+
