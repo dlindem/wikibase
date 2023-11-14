@@ -2,8 +2,8 @@
   Bibliografia: [https://tiendahusqvarna.com/blog/ruda/](https://tiendahusqvarna.com/blog/ruda/)
   [https://hiztegiak.elhuyar.eus/es_eu/ruda](https://hiztegiak.elhuyar.eus/es_eu/ruda)**
 - #landare #sendabelar
-  > **eu.**: __  
-  > **es.**: __
+  > **eu.**
+  > **es.**
   
   ![]()
   

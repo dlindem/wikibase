@@ -1,0 +1,3569 @@
+[
+  {
+    "id": "1",
+    "eusterm": "aplikazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "aplicaci\u00f3n",
+    "esdef": "",
+    "fr": "application",
+    "frdef": "",
+    "en": "application",
+    "endef": ""
+  },
+  {
+    "id": "2",
+    "eusterm": "aplikazio mugikor",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "app",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Telefono mugikorretan, tabletetan eta antzeko gailu mugikorretan exekutatzeko bereziki diseinatutako aplikazioa.",
+    "es": "aplicaci\u00f3n m\u00f3vil; app",
+    "esdef": "",
+    "fr": "application mobile; appli",
+    "frdef": "",
+    "en": "mobile application; app",
+    "endef": ""
+  },
+  {
+    "id": "3",
+    "eusterm": "atari",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "portal",
+    "esdef": "",
+    "fr": "portail",
+    "frdef": "",
+    "en": "portal",
+    "endef": ""
+  },
+  {
+    "id": "4",
+    "eusterm": "audioblog",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Audio-fitxategiak argitaratzeko eta partekatzeko helburu nagusia duen bloga. Sarrera bakoitzean audio- fitxategi bat gehitu ohi da; gehienetan, etiketatua.",
+    "es": "audioblog",
+    "esdef": "",
+    "fr": "blogue audio",
+    "frdef": "",
+    "en": "audioblog",
+    "endef": ""
+  },
+  {
+    "id": "5",
+    "eusterm": "batzaile",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "agregatzaile",
+        "qual": "4"
+      },
+      {
+        "sin": "RSS irakurle",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Harpidetutako hainbat informazio- kanal automatikoki arakatu eta bertako edukia erakusten eta antolatzen duen aplikazio edo webgunea.",
+    "es": "agregador; lector RSS",
+    "esdef": "",
+    "fr": "agr\u00e9gateur; lecteur RSS",
+    "frdef": "",
+    "en": "feed aggregator; RSS reader",
+    "endef": ""
+  },
+  {
+    "id": "6",
+    "eusterm": "bideoblog",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "Vlog",
+        "qual": "4"
+      },
+      {
+        "sin": "Vblog",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Bideoak argitaratzeko eta partekatzeko helburu nagusia duen bloga. Sarrera bakoitzean bideo bat gehitu ohi da; gehienetan, etiketatua.",
+    "es": "Videoblog; Vlog; Vblog",
+    "esdef": "",
+    "fr": "blogue Vid\u00e9o",
+    "frdef": "",
+    "en": "Video blog; Vlog; Vblog",
+    "endef": ""
+  },
+  {
+    "id": "7",
+    "eusterm": "blog",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "weblog",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Webgune pertsonal edo kolektiboa, aldizka-aldizka eguneratzen dena erabiltzaileak idatzitako sarrera edo artikuluen bitartez. Sarrera edo artikulu horiek kronologikoki ordenatuta eskaintzen dira, berrienetik zaharrenera, eta bisitariek iruzkinak egin ditzakete.",
+    "es": "blog; weblog",
+    "esdef": "",
+    "fr": "blogue",
+    "frdef": "",
+    "en": "blog; weblog",
+    "endef": ""
+  },
+  {
+    "id": "8",
+    "eusterm": "blog korporatibo",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "blog corporativo",
+    "esdef": "",
+    "fr": "blogue d\u2019entreprise",
+    "frdef": "",
+    "en": "corporate blog",
+    "endef": ""
+  },
+  {
+    "id": "9",
+    "eusterm": "blog pertsonal",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "blog personal",
+    "esdef": "",
+    "fr": "blogue personnel",
+    "frdef": "",
+    "en": "personal blog",
+    "endef": ""
+  },
+  {
+    "id": "10",
+    "eusterm": "blog-plataforma",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "plataforma de blogs",
+    "esdef": "",
+    "fr": "plateforme de blogues",
+    "frdef": "",
+    "en": "blog platform",
+    "endef": ""
+  },
+  {
+    "id": "11",
+    "eusterm": "folksonomia",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Edukia era kolaboratiboan eta hierarkizaziorik gabe sailkatzeko prozedura, egindako sailkapenak beste erabiltzaileekin partekatzeko aukera ematen duena. Sare sozialeko inguruneetan erabiltzen da, hala nola Delicious edo Diigo (estekak), Flickr edo lnstagrarn (argazkiak), Youtube (bideoak) eta antzekoetan.",
+    "es": "folcsonom\u00eda",
+    "esdef": "",
+    "fr": "folksonomie",
+    "frdef": "",
+    "en": "folksonorny",
+    "endef": ""
+  },
+  {
+    "id": "12",
+    "eusterm": "folksonomia estu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Erabiltzaile bakoitzak bere edukiak baino etiketatzen ez dituen folksonomia. Ondorioz, elementu bakoitza pertsona bakarrak etiketatzen du. Folksonomia estuaren adibide gisa, Flickr aipa daiteke: erabiltzaile bakoitzak berak igotako irudiak baino ez ditu etiketatzen.",
+    "es": "folcsonom\u00eda estrecha",
+    "esdef": "",
+    "fr": "folksonomie \u00e9troite",
+    "frdef": "",
+    "en": "narrow folksonomy",
+    "endef": ""
+  },
+  {
+    "id": "13",
+    "eusterm": "folksonomia zabal",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Erabiltzaile guztiek eduki guztietan etiketak gehitzeko aukera eskaintzen duen folksonomia. Ondorioz, erabiltzaile askok elementu berbera etiketa dezakete, eta elementu horren informazioa osatuz joango da. Folksonomia zabalaren adibide ezaguna Delicious da.",
+    "es": "folcsonom\u00eda amplia",
+    "esdef": "",
+    "fr": "folksonomie g\u00e9n\u00e9rale",
+    "frdef": "",
+    "en": "broad folksonomy",
+    "endef": ""
+  },
+  {
+    "id": "14",
+    "eusterm": "foro",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Interneten eztabaidak edo iritzi-trukea egiteko webgunea, erabiltzaileek gai bati buruz idatzitako mezuak eta erantzunak jasotzen dituena.",
+    "es": "foro",
+    "esdef": "",
+    "fr": "forum",
+    "frdef": "",
+    "en": "forum",
+    "endef": ""
+  },
+  {
+    "id": "15",
+    "eusterm": "fotoblog",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Argazkiak argitaratzeko eta partekatzeko helburu nagusia duen bloga. Sarrera bakoitzean argazki bat gehitu ohi da; gehienetan, etiketatua.",
+    "es": "fotoblog",
+    "esdef": "",
+    "fr": "blogue photo; photoblogue",
+    "frdef": "",
+    "en": "photoblog",
+    "endef": ""
+  },
+  {
+    "id": "16",
+    "eusterm": "geolokalizazioko sare sozial",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "geolokalizazioko gizarte-sare",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Leku edo puntu konkretuak koordenatu-sistema jakin batean kokatzeko aukera eskaintzen duen sare soziala.",
+    "es": "red social de geolocalizaci\u00f3n",
+    "esdef": "",
+    "fr": "r\u00e9seau social de g\u00e9olocalisation",
+    "frdef": "",
+    "en": "geolocation social network",
+    "endef": ""
+  },
+  {
+    "id": "17",
+    "eusterm": "linklog",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Estekak partekatzeko helburu nagusia duen bloga. Sarrera bakoitzean esteka bat gehitu ohi da.",
+    "es": "linklog",
+    "esdef": "",
+    "fr": "linklog",
+    "frdef": "",
+    "en": "linklog",
+    "endef": ""
+  },
+  {
+    "id": "18",
+    "eusterm": "markatzaile sozial",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Internet bidez estekak bildu, sailkatu eta partekatzeko aukera ematen duen lineako zerbitzua. Zerbitzu hori eskaintzen duen plataforma ezagun bat Delicious da.",
+    "es": "marcador social",
+    "esdef": "",
+    "fr": "marque-page social; partage de signets",
+    "frdef": "",
+    "en": "social bookmarking",
+    "endef": ""
+  },
+  {
+    "id": "19",
+    "eusterm": "mikroblog",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Karaktere-kopuru laburreko sarrerak idazteko blog-sistema berezia. Twitter da era horretako zerbitzu ezagunena.",
+    "es": "microblog",
+    "esdef": "",
+    "fr": "microblogue",
+    "frdef": "",
+    "en": "microblog",
+    "endef": ""
+  },
+  {
+    "id": "20",
+    "eusterm": "mikroblog-plataforma",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "plataforma de microblogs",
+    "esdef": "",
+    "fr": "plateforme de microblogues",
+    "frdef": "",
+    "en": "microblog platform",
+    "endef": ""
+  },
+  {
+    "id": "21",
+    "eusterm": "moblogging",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gailu mugikorren bidez blogak idazteko, eguneratzeko eta irakurtzeko jarduera.",
+    "es": "moblogging",
+    "esdef": "",
+    "fr": "blogage mobile",
+    "frdef": "",
+    "en": "moblogging",
+    "endef": ""
+  },
+  {
+    "id": "22",
+    "eusterm": "multimedia-plataforma",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "plataforma multimedia",
+    "esdef": "",
+    "fr": "plateforme multim\u00e9dia",
+    "frdef": "",
+    "en": "multimedia platform",
+    "endef": ""
+  },
+  {
+    "id": "23",
+    "eusterm": "plataforma",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Softwareko eta hardwareko hainbat modulu eta eginbide funtzionatzeko erabiltzen den sistema.",
+    "es": "plataforma",
+    "esdef": "",
+    "fr": "plateforme",
+    "frdef": "",
+    "en": "platform",
+    "endef": ""
+  },
+  {
+    "id": "24",
+    "eusterm": "posta-zerrenda",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "banaketa-zerrenda",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Helbide elektronikoen zerrenda, izen bakar baten bidez identifikatua eta helbide elektroniko propioa duena. Mezu bat bidaltzen denean zerrendaren helbidera, zerrendakide guztiei birbidaltzen zaie.",
+    "es": "lista de correo; lista de distribuci\u00f3n",
+    "esdef": "",
+    "fr": "liste de diffusion; liste de distribution",
+    "frdef": "",
+    "en": "mailing list; distribution list",
+    "endef": ""
+  },
+  {
+    "id": "25",
+    "eusterm": "sare sozial",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "gizarte-sare",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "1. Interneteko plataforma bat erabiliz informazioa partekatzen eta trukatzen duten internautek eratutako komunitatea. 2. Internauten komunitate batek informazioa partekatzeko eta trukatzeko erabiltzen duen Interneteko plataforma.",
+    "es": "red social",
+    "esdef": "",
+    "fr": "r\u00e9seau social",
+    "frdef": "",
+    "en": "social network",
+    "endef": ""
+  },
+  {
+    "id": "26",
+    "eusterm": "sare sozial bertikal",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "gizarte-sare bertikal",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Erabiltzaileak eduki-mota edo gai jakin batekin harremanetan jartzen dituen sarea. Eduki horiek izan daitezke, adibidez: argazkiak (Flickr, Instagram), bideoak (YouTube, Vimeo), musika (Spotify) eta aurkezpenak (Scribd, SlideShare).",
+    "es": "red social vertical",
+    "esdef": "",
+    "fr": "r\u00e9seau social vertical",
+    "frdef": "",
+    "en": "vertical social network",
+    "endef": ""
+  },
+  {
+    "id": "27",
+    "eusterm": "sare sozial horizontal",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "gizarte-sare horizontal",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Era guztietako edukia partekatuz harreman horizontala edo parekoa bideratzen duen sarea, adibidez: Facebook, Google plus, Tuenti eta Twitter.",
+    "es": "red social horizontal",
+    "esdef": "",
+    "fr": "r\u00e9seau social horizontal",
+    "frdef": "",
+    "en": "horizontal social network",
+    "endef": ""
+  },
+  {
+    "id": "28",
+    "eusterm": "sare sozial mugikor",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "gizarte-sare mugikor",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "red social m\u00f3vil",
+    "esdef": "",
+    "fr": "r\u00e9seau social mobile",
+    "frdef": "",
+    "en": "mobile social network",
+    "endef": ""
+  },
+  {
+    "id": "29",
+    "eusterm": "splog",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "spam blog",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Webgune jakin batzuk sustatzeko helburu hutsa duen bloga. Webgune horiek bilatzaileetan duten posizioa hobetu nahi izaten dute, gero bertan bisitarien arabera ordaintzen duten publizitate-iragarkiak argitaratzeko asmoz.",
+    "es": "splog; spam blog",
+    "esdef": "",
+    "fr": "splogue",
+    "frdef": "",
+    "en": "splog; spam blog",
+    "endef": ""
+  },
+  {
+    "id": "30",
+    "eusterm": "talde-blog",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "blog kolektibo",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Blogari bakarra izan ordez hainbat blogarik idatziz osatzen duten bloga.",
+    "es": "blog colectivo",
+    "esdef": "",
+    "fr": "blogue collectif",
+    "frdef": "",
+    "en": "group blog; collaborative blog",
+    "endef": ""
+  },
+  {
+    "id": "31",
+    "eusterm": "tumblelog",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "tlog",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Egitura txikiko blog-mota, gai edo hari zehatzik gabe egilearen gogoeta laburrak, irudiak, bideoak edo bestelako edukiak argitaratzen dituena.",
+    "es": "tumblelog; tlog",
+    "esdef": "",
+    "fr": "tumblelog",
+    "frdef": "",
+    "en": "tumblelog; tlog",
+    "endef": ""
+  },
+  {
+    "id": "32",
+    "eusterm": "web-aplikazio",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "web-app",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Web-arakatzaile bat erabiliz urrutiko zerbitzari batean exekuta daitekeen aplikazioa.",
+    "es": "aplicaci\u00f3n web",
+    "esdef": "",
+    "fr": "application Web",
+    "frdef": "",
+    "en": "web application; web-based application; web app",
+    "endef": ""
+  },
+  {
+    "id": "33",
+    "eusterm": "wiki",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Hainbat erabiltzailek web- nabigatzailearen bidez edita dezaketen web-aplikazioa. Erabiltzaileek modu sinkronoan edo asinkronoan bertako orriak nahi bezala sortu, aldatu eta editatzeko aukera dute.",
+    "es": "Wiki",
+    "esdef": "",
+    "fr": "Wiki",
+    "frdef": "",
+    "en": "Wiki",
+    "endef": ""
+  },
+  {
+    "id": "34",
+    "eusterm": "a bildu (iz.)",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Hainbat sare sozialetan goitizenaren edo erabiltzaile-izenaren hasiera adierazteko erabiltzen den ikurra:",
+    "es": "arroba",
+    "esdef": "",
+    "fr": "arobase; arrobe; a commercial",
+    "frdef": "",
+    "en": "at sign",
+    "endef": ""
+  },
+  {
+    "id": "35",
+    "eusterm": "administratzaile",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "administrador",
+    "esdef": "",
+    "fr": "administrateur",
+    "frdef": "",
+    "en": "administrator",
+    "endef": ""
+  },
+  {
+    "id": "36",
+    "eusterm": "aipu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Sare sozialetan erabiltzaile-izen bat gehitua duen mezu edo argitalpena. Erabiltzaile jakin bati zuzentzeko edo erreferentzia egiteko erabiltzen da.",
+    "es": "menci\u00f3n",
+    "esdef": "",
+    "fr": "mention",
+    "frdef": "",
+    "en": "mention",
+    "endef": ""
+  },
+  {
+    "id": "37",
+    "eusterm": "alboko barra",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Sare sozialaren orri edo horma nagusiaren alboan dagoen barra, hainbat funtzio eta aukera eskaintzen dituena.",
+    "es": "barra lateral",
+    "esdef": "",
+    "fr": "barre lat\u00e9rale",
+    "frdef": "",
+    "en": "sidebar",
+    "endef": ""
+  },
+  {
+    "id": "38",
+    "eusterm": "album",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Erabiltzaile batek sare sozial batean eratzen duen irudi- edo argazki- bilduma, normalean gai bati buruzkoa.",
+    "es": "album",
+    "esdef": "",
+    "fr": "album",
+    "frdef": "",
+    "en": "album",
+    "endef": ""
+  },
+  {
+    "id": "39",
+    "eusterm": "antolatzaile",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Facebookeko hitzordu bat antolatzen duen erabiltzailea.",
+    "es": "organizador",
+    "esdef": "",
+    "fr": "h\u00f4te",
+    "frdef": "",
+    "en": "host",
+    "endef": ""
+  },
+  {
+    "id": "40",
+    "eusterm": "argitalpen",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Sare sozialen bidez argitara ematen den testua, bidalketa edo bestelako edukia.",
+    "es": "publicaci\u00f3n",
+    "esdef": "",
+    "fr": "publication",
+    "frdef": "",
+    "en": "publication",
+    "endef": ""
+  },
+  {
+    "id": "41",
+    "eusterm": "atzeko planoko irudi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "imagen de fondo",
+    "esdef": "",
+    "fr": "image d\u2019arri\u00e8re-plan",
+    "frdef": "",
+    "en": "background image",
+    "endef": ""
+  },
+  {
+    "id": "42",
+    "eusterm": "avatar",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Sare sozial bateko erabiltzaile baten profilaren adierazpen gra\u00f1koa. Edozein irudi erabil badaiteke ere, profila pertsona bati badagokio, ohikoa izaten da pertsonaren argazkiren bat erabiltzea, eta, marka edo zerbitzu bati badagokio, logotipoa.",
+    "es": "avatar",
+    "esdef": "",
+    "fr": "avatar",
+    "frdef": "",
+    "en": "avatar",
+    "endef": ""
+  },
+  {
+    "id": "43",
+    "eusterm": "bertikono",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "kaomoji",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Emotikono-mota berezia, jatorriz Japoniakoa, aurpegiaren irudia bertikalean irudikatzen duena; hau da, ez da burua albo batera okertu behar aurpegia ikusteko: adibidez, O_o harridura adierazteko edo >_< mina adierazteko.",
+    "es": "verticono; kaomoji",
+    "esdef": "",
+    "fr": "e'motic\u00f3ne japonaise",
+    "frdef": "",
+    "en": "verticon; kaomoji",
+    "endef": ""
+  },
+  {
+    "id": "44",
+    "eusterm": "bideotxat",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Txat-mota berezia, Internet bidez audioa eta bideoa erabiliz zuzenean berriketan aritzeko aukera ematen duena.",
+    "es": "Videochat",
+    "esdef": "",
+    "fr": "Videochat; Vid\u00e9obavardage",
+    "frdef": "",
+    "en": "Videochat",
+    "endef": ""
+  },
+  {
+    "id": "45",
+    "eusterm": "bigarren mailako konexio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "LinkedInen moduko sare sozialetan, erabiltzaile baten lehen mailako konexio baten konexioa.",
+    "es": "conexi\u00f3n de segundo grado",
+    "esdef": "",
+    "fr": "connexion du deuxi\u00e8me degr\u00e9",
+    "frdef": "",
+    "en": "second-degree connection",
+    "endef": ""
+  },
+  {
+    "id": "46",
+    "eusterm": "bio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Erabiltzaileak profilean bere buruaren aurkezpen gisa idazten duen esaldi edo idazki laburra.",
+    "es": "bio",
+    "esdef": "",
+    "fr": "bio",
+    "frdef": "",
+    "en": "bio",
+    "endef": ""
+  },
+  {
+    "id": "47",
+    "eusterm": "birtxio",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "birtuit",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Beste erabiltzaile batek lehenago bidalitako txio bat errepikatuz bidaltzen den tXioa.",
+    "es": "retuit",
+    "esdef": "",
+    "fr": "retweet",
+    "frdef": "",
+    "en": "retweet",
+    "endef": ""
+  },
+  {
+    "id": "48",
+    "eusterm": "birtxiokatu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "birtuiteatu",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Beste erabiltzaile batek lehenago bidalitako txio bat errepikatzen duen txioa bidali.",
+    "es": "retuitear",
+    "esdef": "",
+    "fr": "retweeter",
+    "frdef": "",
+    "en": "retweet",
+    "endef": ""
+  },
+  {
+    "id": "49",
+    "eusterm": "bitcoin",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Satoshi Nakamotok sorturiko kriptodirua.",
+    "es": "bitcoin",
+    "esdef": "",
+    "fr": "bitcoin",
+    "frdef": "",
+    "en": "bitcoin",
+    "endef": ""
+  },
+  {
+    "id": "50",
+    "eusterm": "blogari",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Blog batean idazten duen pertsona.",
+    "es": "bloguero",
+    "esdef": "",
+    "fr": "blogueur",
+    "frdef": "",
+    "en": "blogger",
+    "endef": ""
+  },
+  {
+    "id": "51",
+    "eusterm": "blokeatu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Twitterren moduko sare sozialetan, erabiltzaile batek beste erabiltzaile bati bere jarraitzaile izatea eragotzi. Hortaz, erabiltzaile blokeatuak ezingo ditu blokeatzailearen txioak zuzenean jaso.",
+    "es": "bloquear",
+    "esdef": "",
+    "fr": "bloquer",
+    "frdef": "",
+    "en": "block",
+    "endef": ""
+  },
+  {
+    "id": "52",
+    "eusterm": "cashtag",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Twitterren, balore-burtsako konpainien emaitzak ikusteko erabiltzen den ikurra. Traolaren erabilera eta funtzio berak ditu, eta konpainiaren laburduraren aurrean jartzen da; adibidez, $GOOG, Google konpainiari buruzko informazioa eskuratzeko.",
+    "es": "cashtag",
+    "esdef": "",
+    "fr": "cashtag",
+    "frdef": "",
+    "en": "cashtag",
+    "endef": ""
+  },
+  {
+    "id": "53",
+    "eusterm": "emoji",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Telefono adimendunen bidezko mezularitzan edo web bidezko komunikazioetan erabiltzen den ideograma edo irudi estandarizatua, jatorriz Japoniakoa eta emotikonoen antzeko funtzioa betetzen duena.",
+    "es": "emoji",
+    "esdef": "",
+    "fr": "emoji",
+    "frdef": "",
+    "en": "emoji",
+    "endef": ""
+  },
+  {
+    "id": "54",
+    "eusterm": "emotikono",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "ASCII karaktereekin egindako irudia, albo batetik begiratuta giza aurpegiaren itxura duena. Aurpegiaren espresioarekin bidaltzaileak bere gogo- aldartea adierazten du: adibidez, :) alaitasuna adierazteko, edo :( tristura adierazteko.",
+    "es": "emoticono",
+    "esdef": "",
+    "fr": "frimousse; \u00e9motic\u00f3ne",
+    "frdef": "",
+    "en": "emoticon",
+    "endef": ""
+  },
+  {
+    "id": "55",
+    "eusterm": "erabiltzaile-interfaze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "interfaz de usuario",
+    "esdef": "",
+    "fr": "interface utilisateur",
+    "frdef": "",
+    "en": "user interface",
+    "endef": ""
+  },
+  {
+    "id": "56",
+    "eusterm": "erabiltzaile-izen",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "nombre de usuario",
+    "esdef": "",
+    "fr": "nom d\u2019utilisateur",
+    "frdef": "",
+    "en": "user name",
+    "endef": ""
+  },
+  {
+    "id": "57",
+    "eusterm": "erabiltzaile-zerrenda",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "lista de usuarios",
+    "esdef": "",
+    "fr": "liste d\u2019utilisateurs",
+    "frdef": "",
+    "en": "user list",
+    "endef": ""
+  },
+  {
+    "id": "58",
+    "eusterm": "etiketa",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "tag",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "Datu edo elementu bati atxikitzen zaion identi\u00f1katzailea. Kontzeptu, leku, erabiltzaile edo kategoria jakin batekin lotzen ditu irudiak, bideoak, testuak edo estekak, elementu hori deskribatuz eta haren berreskuratzea ahalbidetuz.",
+    "es": "etiqueta",
+    "esdef": "",
+    "fr": "\u00e9tiquette; tag",
+    "frdef": "",
+    "en": "tag",
+    "endef": ""
+  },
+  {
+    "id": "59",
+    "eusterm": "etiketatze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "etiquetado",
+    "esdef": "",
+    "fr": "\u00e9tiquetage",
+    "frdef": "",
+    "en": "tagging",
+    "endef": ""
+  },
+  {
+    "id": "60",
+    "eusterm": "eztabaida-hari",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Posta-zerrenda edo foroetan, mezu bati erantzunez bidalitako mezu-katea, jatorrizko mezua ere hartzen duena.",
+    "es": "hilo de discusi\u00f3n",
+    "esdef": "",
+    "fr": "fil de discussion",
+    "frdef": "",
+    "en": "discussion thread",
+    "endef": ""
+  },
+  {
+    "id": "61",
+    "eusterm": "favstar",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Erabiltzaile askok gogokotzat markatu duten tXioa idatzi duen erabiltzailea.",
+    "es": "favstar",
+    "esdef": "",
+    "fr": "favstar",
+    "frdef": "",
+    "en": "favstar",
+    "endef": ""
+  },
+  {
+    "id": "62",
+    "eusterm": "follow friday",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Twitterren, ostiraletan gertatu ohi den fenomeno berezia: norberari aipagarriak iruditzen zaizkion erabiltzaileak gomendatzen dira, Jifollowfriday edo #FF traol-hitza erabiliz.",
+    "es": "follow friday",
+    "esdef": "",
+    "fr": "follow friday",
+    "frdef": "",
+    "en": "follow friday",
+    "endef": ""
+  },
+  {
+    "id": "63",
+    "eusterm": "galeria",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Elementu multimedien sail bat erakusten duen leihoa edo menua. Elementu horiek irudiak, soinuak edo bideoak izan daitezke, besteak beste.",
+    "es": "galer\u00eda",
+    "esdef": "",
+    "fr": "galerie",
+    "frdef": "",
+    "en": "gallery",
+    "endef": ""
+  },
+  {
+    "id": "64",
+    "eusterm": "geoetiketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Geoetiketatzeko erabiltzen den etiketa edo markatzaile berezia, informazio geografikoa biltzen duena.",
+    "es": "geoetiqueta",
+    "esdef": "",
+    "fr": "geotag; balise de g\u00e9olocalisation",
+    "frdef": "",
+    "en": "geotag",
+    "endef": ""
+  },
+  {
+    "id": "65",
+    "eusterm": "geoetiketatze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Fitxategietako metadatuetan geoetiketak gehitzeko prozesua. Etiketa berezi horietan, informazio geografikoa zehazten duten datuak biltzen dira, hala nola geolokalizazioa errazteko koordenatuak.",
+    "es": "geoetiquetado",
+    "esdef": "",
+    "fr": "g\u00e9omarquage; balisage g\u00e9ographique",
+    "frdef": "",
+    "en": "geotagging",
+    "endef": ""
+  },
+  {
+    "id": "66",
+    "eusterm": "geolokalizazio",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "georreferentziazio",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Leku edo puntu konkretu bat koordenatu-sistema jakin batean kokatzeko teknika.",
+    "es": "geolocalizaci\u00f3n; georreferenciaci\u00f3n",
+    "esdef": "",
+    "fr": "g\u00e9olocalisation; ge'or\u00e9f\u00e9rencement",
+    "frdef": "",
+    "en": "geolocation; georeferencing",
+    "endef": ""
+  },
+  {
+    "id": "67",
+    "eusterm": "gogoko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Interes berezikotzat edo gogoan hartzekotzat markatzen den txioa.",
+    "es": "favorito",
+    "esdef": "",
+    "fr": "favori",
+    "frdef": "",
+    "en": "favorite",
+    "endef": ""
+  },
+  {
+    "id": "68",
+    "eusterm": "goitizen",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "nick",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "Interneteko erabiltzaile batek bere buruari ematen dion izena, beste erabiltzaile batzuekin komunikatzeko erabiltzen duena.",
+    "es": "nick",
+    "esdef": "",
+    "fr": "pseudonyme; surnom",
+    "frdef": "",
+    "en": "nickname; nick",
+    "endef": ""
+  },
+  {
+    "id": "69",
+    "eusterm": "harpidetza",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "subscripci\u00f3n",
+    "esdef": "",
+    "fr": "abonnement",
+    "frdef": "",
+    "en": "subscription",
+    "endef": ""
+  },
+  {
+    "id": "70",
+    "eusterm": "helbide elektroniko",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "posta elektronikoko helbide",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "direcci\u00f3n de correo electr\u00f3nico",
+    "esdef": "",
+    "fr": "adresse de courrier \u00e9lectronique",
+    "frdef": "",
+    "en": "electronic mail address; e-mail address",
+    "endef": ""
+  },
+  {
+    "id": "71",
+    "eusterm": "hirugarren mailako konexio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Linkedlnen moduko sare sozialetan, erabiltzaile baten bigarren mailako konexio baten konexioa.",
+    "es": "conexi\u00f3n de tercer grado",
+    "esdef": "",
+    "fr": "connexion du troisi\u00e8me degr\u00e9",
+    "frdef": "",
+    "en": "third\u2014degree connection",
+    "endef": ""
+  },
+  {
+    "id": "72",
+    "eusterm": "hitzordu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Facebooken moduko sare sozialetan, erabiltzaile batek sortzen duen orri berezia; lagunei ekitaldi edo gertaera jakin baten berri emateko eta bertarako gonbita zabaltzeko erabiltzen da.",
+    "es": "evento",
+    "esdef": "",
+    "fr": "\u00e9v\u00e9nement",
+    "frdef": "",
+    "en": "event",
+    "endef": ""
+  },
+  {
+    "id": "73",
+    "eusterm": "horma",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Facebooken moduko sare sozialetan, erabiltzaile baten prol'ilean dagoen atal nagusia. Argitaratzen dituen sarrera edo eguneratzeak biltzen ditu, eta lagunek iruzkinak edo estekak parteka ditzakete bertan.",
+    "es": "muro",
+    "esdef": "",
+    "fr": "mur",
+    "frdef": "",
+    "en": "wall",
+    "endef": ""
+  },
+  {
+    "id": "74",
+    "eusterm": "iruzkin",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Erabiltzaile batek blog edo sare sozial bateko sarrera bati erantzunez idazten duen testua.",
+    "es": "comentario",
+    "esdef": "",
+    "fr": "commentaire",
+    "frdef": "",
+    "en": "comment",
+    "endef": ""
+  },
+  {
+    "id": "75",
+    "eusterm": "izu-botoi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Sare sozial batzuetan haur eta nerabeak babesteko ezarri den sistema. Haur edo nerabeenganako abusuren bat detektatzen bada sarean, baliabide hori erabil daiteke agintariei lehenbailehen horren berri emateko.",
+    "es": "bot\u00f3n del p\u00e1nico",
+    "esdef": "",
+    "fr": "bouton d\u2019alarme",
+    "frdef": "",
+    "en": "panic button",
+    "endef": ""
+  },
+  {
+    "id": "76",
+    "eusterm": "jakinarazpen",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "noti\u00f1caci\u00f3n; alerta",
+    "esdef": "",
+    "fr": "noti\ufb01cation",
+    "frdef": "",
+    "en": "noti\ufb01cation",
+    "endef": ""
+  },
+  {
+    "id": "77",
+    "eusterm": "jarraitu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Twitterren moduko sare sozialetan, beste erabiltzaile baten txioak jasotzeko harpidetuta egon.",
+    "es": "seguir",
+    "esdef": "",
+    "fr": "\u00eatre abonn\u00e9",
+    "frdef": "",
+    "en": "follow",
+    "endef": ""
+  },
+  {
+    "id": "78",
+    "eusterm": "jarraitzaile",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Twitterren moduko sare sozialetan, beste erabiltzaile baten txioak jasotzeko harpidetuta dagoen erabiltzailea.",
+    "es": "seguidor",
+    "esdef": "",
+    "fr": "abonn\u00e9",
+    "frdef": "",
+    "en": "follower",
+    "endef": ""
+  },
+  {
+    "id": "79",
+    "eusterm": "jarraitzeari utzi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Twitterren moduko sare sozialetan, erabiltzaile batekiko harpidetza eten eta haren txioak jasotzeari utzi.",
+    "es": "dejar de seguir",
+    "esdef": "",
+    "fr": "se d\u00e9sabonner",
+    "frdef": "",
+    "en": "unfollow",
+    "endef": ""
+  },
+  {
+    "id": "80",
+    "eusterm": "joerako gai",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "uneko gai",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Twitterren moduko sare sozialetan, une jakin bateko txioetan gehien aipatzen den gaia edo hitz-multzoa.",
+    "es": "tendencia del momento; tema del momento",
+    "esdef": "",
+    "fr": "tendance; sujet tendance",
+    "frdef": "",
+    "en": "trending topic",
+    "endef": ""
+  },
+  {
+    "id": "81",
+    "eusterm": "joko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "juego",
+    "esdef": "",
+    "fr": "jeu",
+    "frdef": "",
+    "en": "game",
+    "endef": ""
+  },
+  {
+    "id": "82",
+    "eusterm": "kanal",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "canal",
+    "esdef": "",
+    "fr": "canal",
+    "frdef": "",
+    "en": "channel",
+    "endef": ""
+  },
+  {
+    "id": "83",
+    "eusterm": "kide",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "miembro",
+    "esdef": "",
+    "fr": "membre",
+    "frdef": "",
+    "en": "member",
+    "endef": ""
+  },
+  {
+    "id": "84",
+    "eusterm": "komunitate-kudeatzaile",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "community manager",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Interneteko komunitateak sortu, kudeatu eta dinamizatzeko ardura duen pertsona edo enpresa baten edota marka baten ospe digitala kudeatu eta zaintzen duen pertsona.",
+    "es": "gestor de comunidades; community manager",
+    "esdef": "",
+    "fr": "gestionnaire de communaut\u00e9",
+    "frdef": "",
+    "en": "community manager",
+    "endef": ""
+  },
+  {
+    "id": "85",
+    "eusterm": "konexio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Linkedlnen moduko sare sozialetan, erabiltzaile batekin harremana eratua duen erabiltzailea.",
+    "es": "conexi\u00f3n",
+    "esdef": "",
+    "fr": "connexion",
+    "frdef": "",
+    "en": "connection",
+    "endef": ""
+  },
+  {
+    "id": "86",
+    "eusterm": "kontaktu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Sare sozial baten bidez beste erabiltzaile batekin harremana eratu duen erabiltzailea. Sare sozial batzuek izen berezia ematen diote bertako kontaktuari (adibidez, Facebooken \u00ablagun\u00bb deitzen zaie).",
+    "es": "contacto",
+    "esdef": "",
+    "fr": "contact",
+    "frdef": "",
+    "en": "contact",
+    "endef": ""
+  },
+  {
+    "id": "87",
+    "eusterm": "kontu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "crabiltzaile\u2014kontu",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Sare sozialetako erabiltzaile batek sarean eskura duen informazio-atal berezia, erabiltzaile horri dagokiona. Erabiltzaile-izen eta pasahitz baten bidez sartzen da atal horretara, eta era pertsonalizatuan kudea dezake.",
+    "es": "cuenta; cuenta de usuario",
+    "esdef": "",
+    "fr": "compte; compte utilisateur",
+    "frdef": "",
+    "en": "account; user account",
+    "endef": ""
+  },
+  {
+    "id": "88",
+    "eusterm": "kontu egiaztatu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Kontu-erabiltzailearen identitatea egiaztatua duen kontua. Kontu egiaztatuetan ikono berezi bat jarri ohi da (adibidez, ikur urdin argi bat Twitterren), kontu faltsua ez dela adierazteko.",
+    "es": "cuenta veri\ufb01cada",
+    "esdef": "",
+    "fr": "compte v\u00e9ri\ufb01\u00e9",
+    "frdef": "",
+    "en": "veri\ufb01ed account",
+    "endef": ""
+  },
+  {
+    "id": "89",
+    "eusterm": "kontu faltsu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "cuenta falsa",
+    "esdef": "",
+    "fr": "faux compte",
+    "frdef": "",
+    "en": "fake account",
+    "endef": ""
+  },
+  {
+    "id": "90",
+    "eusterm": "kontu korporatibo",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "cuenta corporativa",
+    "esdef": "",
+    "fr": "compte d\u2019entreprise",
+    "frdef": "",
+    "en": "corporate blog",
+    "endef": ""
+  },
+  {
+    "id": "91",
+    "eusterm": "kontu ofizial",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "cuenta o\ufb01cial",
+    "esdef": "",
+    "fr": "compte of\ufb01ciel",
+    "frdef": "",
+    "en": "of\ufb01cial account",
+    "endef": ""
+  },
+  {
+    "id": "92",
+    "eusterm": "kontu pertsonal",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "cuenta personal",
+    "esdef": "",
+    "fr": "compte personnel",
+    "frdef": "",
+    "en": "personal account",
+    "endef": ""
+  },
+  {
+    "id": "93",
+    "eusterm": "kriptodiru",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Trukerako baliabide digitala, Interneteko transakzioetan diruaren funtzioa betetzen duena. Kriptografia erabiltzen da diru-sorrera eta eragiketak bermatzeko. Sortu zen lehen kriptodirua bitcoina da.",
+    "es": "criptomoneda; criptodivisa",
+    "esdef": "",
+    "fr": "crypto-monnaie",
+    "frdef": "",
+    "en": "cryptocurrency",
+    "endef": ""
+  },
+  {
+    "id": "94",
+    "eusterm": "lagun",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Facebooken, beste erabiltzaile baten kontaktu-zerrendan dagoen erabiltzailea. Lagun izateko, eskaera bidaltzen da, eta beste profilak onartu egin behar du eskaera hori; horrela, bien artean harremana eratu eta edukiak partekatu ahal izango dituzte.",
+    "es": "amigo",
+    "esdef": "",
+    "fr": "ami",
+    "frdef": "",
+    "en": "friend",
+    "endef": ""
+  },
+  {
+    "id": "95",
+    "eusterm": "lagun-zerrenda",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "lista de amigos",
+    "esdef": "",
+    "fr": "liste d\u2019amis",
+    "frdef": "",
+    "en": "list of friends",
+    "endef": ""
+  },
+  {
+    "id": "96",
+    "eusterm": "lehen mailako konexio",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "konexio zuzen",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Linkedlnen moduko sare sozialetan, erabiltzaile batekin harreman zuzena eratua duen konexio edo erabiltzailea.",
+    "es": "conexi\u00f3n de primer grado; conexi\u00f3n directa",
+    "esdef": "",
+    "fr": "connexion du premier degr\u00e9",
+    "frdef": "",
+    "en": "direct connection",
+    "endef": ""
+  },
+  {
+    "id": "97",
+    "eusterm": "mashup",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Eduki berri bat sortzeko beste web- aplikazio batzuetako edukia erabiltzen duen webgune edo web-aplikazioa.",
+    "es": "mashup",
+    "esdef": "",
+    "fr": "mashup",
+    "frdef": "",
+    "en": "mashup",
+    "endef": ""
+  },
+  {
+    "id": "98",
+    "eusterm": "meme",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Sare sozialen edo posta elektronikoaren bidez hedapen zabal eta lasterra duen umorezko mezu sinplea; gehienetan, jatorrizko irudi, bideo edo testu baten aldaera satirikoa behin eta berriz eginez transmititzen da.",
+    "es": "meme",
+    "esdef": "",
+    "fr": "meme internet",
+    "frdef": "",
+    "en": "meme",
+    "endef": ""
+  },
+  {
+    "id": "99",
+    "eusterm": "mezu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "mensaje",
+    "esdef": "",
+    "fr": "message",
+    "frdef": "",
+    "en": "message",
+    "endef": ""
+  },
+  {
+    "id": "100",
+    "eusterm": "mezu pribatu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "mezu zuzen",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Sare sozial bateko bi erabiltzaileren arteko mezua, haiek bakarrik irakur dezaketena.",
+    "es": "mensaje privado; mensaje directo",
+    "esdef": "",
+    "fr": "message priv\u00e9; message directe",
+    "frdef": "",
+    "en": "private message; direct message",
+    "endef": ""
+  },
+  {
+    "id": "101",
+    "eusterm": "ohar-taula elektroniko",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "BBS",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "tabl\u00f3n de anuncios electr\u00f3nico; BBS",
+    "esdef": "",
+    "fr": "babillard \u00e9lectronique; BBS",
+    "frdef": "",
+    "en": "Bulletin Board System; BBS",
+    "endef": ""
+  },
+  {
+    "id": "102",
+    "eusterm": "orri",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Facebooken moduko sare sozialetan, enpresa, erakunde edo pertsona publiko batek sor dezakeen espazio berezia. Helburu espezi\u00f1koak izateaz gainera, taldeek edo pro\u00f1lek ez bezalako aukerak eskaintzen ditu.",
+    "es": "pagina",
+    "esdef": "",
+    "fr": "page",
+    "frdef": "",
+    "en": "page",
+    "endef": ""
+  },
+  {
+    "id": "103",
+    "eusterm": "orri ofizial",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "pagina o\ufb01eial",
+    "esdef": "",
+    "fr": "page of\ufb01cielle",
+    "frdef": "",
+    "en": "of\ufb01cial page",
+    "endef": ""
+  },
+  {
+    "id": "104",
+    "eusterm": "pasahitz",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "contrase\u00f1a",
+    "esdef": "",
+    "fr": "mot de passe",
+    "frdef": "",
+    "en": "password",
+    "endef": ""
+  },
+  {
+    "id": "105",
+    "eusterm": "permalink",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Blog-sarrera batera bideratzen duen URL esteka iraunkorra. Sarrera blogeko orrialde nagusitik desagertu eta artxiboetara pasatu eta gero ere esteka ez da aldatzen, eta, horregatik, erraztu egiten du sarrera hori beste blog eta webguneetan modu egonkorrean estekatzea edota geroago berreskuratzeko gordetzea.",
+    "es": "permalink",
+    "esdef": "",
+    "fr": "permalien",
+    "frdef": "",
+    "en": "permalink",
+    "endef": ""
+  },
+  {
+    "id": "106",
+    "eusterm": "pingback",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Webgune bateko artikulu edo dokumentu baterako esteka bat jartzen denean webgune horren egileek jakinarazpen bat jasotzeko balio duen sistema. Horri esker, egileak erraz jakingo du bere edukia nor eta non estekatzen ari den.",
+    "es": "pingback",
+    "esdef": "",
+    "fr": "pingback",
+    "frdef": "",
+    "en": "pingback",
+    "endef": ""
+  },
+  {
+    "id": "107",
+    "eusterm": "podcast",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Web-jario edo sindikazio-sistema baten bidez multimedia-fitxategiak (audioak, bideoak) banatzeko sistema. Erabiltzaileak Etxategi horiek jasoko ditu, eta nahi duenean erreproduzitzeko aukera izango du.",
+    "es": "podcast",
+    "esdef": "",
+    "fr": "podcast; baladodiffusion",
+    "frdef": "",
+    "en": "podcast",
+    "endef": ""
+  },
+  {
+    "id": "108",
+    "eusterm": "posta elektroniko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "correo electr\u00f3nico",
+    "esdef": "",
+    "fr": "courrier \u00e9lectronique",
+    "frdef": "",
+    "en": "electronic mail; e-mail",
+    "endef": ""
+  },
+  {
+    "id": "109",
+    "eusterm": "profil",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Sare sozial bateko erabiltzaile batek bere buruaz eskaintzen dituen datu pertsonalen edo bestelako datuen multzoa, sare horretan duen identitatea nolabait eratzen duena.",
+    "es": "perfil",
+    "esdef": "",
+    "fr": "profil",
+    "frdef": "",
+    "en": "profile",
+    "endef": ""
+  },
+  {
+    "id": "110",
+    "eusterm": "profil korporatibo",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "perlil corporativo",
+    "esdef": "",
+    "fr": "profil d\u2019entreprise",
+    "frdef": "",
+    "en": "corporate pro\ufb01le",
+    "endef": ""
+  },
+  {
+    "id": "111",
+    "eusterm": "profil pertsonal",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "perlil personal",
+    "esdef": "",
+    "fr": "pro\ufb01l personnel",
+    "frdef": "",
+    "en": "personal pro\ufb01le",
+    "endef": ""
+  },
+  {
+    "id": "112",
+    "eusterm": "rage comic",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Interneteko fenomeno berezia; emozioak irudikatzen dituzten karikaturazko aurpegi batzuk erabiltzean datza.",
+    "es": "rage comic",
+    "esdef": "",
+    "fr": "rage comic",
+    "frdef": "",
+    "en": "rage comic",
+    "endef": ""
+  },
+  {
+    "id": "113",
+    "eusterm": "RSS",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "XML lengoaian oinarritutako fitxategi- formatua, web-jario bidez sarean informazioa banatzeko erabilia.",
+    "es": "RSS",
+    "esdef": "",
+    "fr": "RSS",
+    "frdef": "",
+    "en": "RSS",
+    "endef": ""
+  },
+  {
+    "id": "114",
+    "eusterm": "saio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "sesi\u00f3n",
+    "esdef": "",
+    "fr": "session",
+    "frdef": "",
+    "en": "session",
+    "endef": ""
+  },
+  {
+    "id": "115",
+    "eusterm": "sarrera",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "artikulu",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Blog batean idazten den testu sinatua, normalean argitalpen-data zehaztua duena. Bloga sarrera edo artikuluak idatzi ahala eguneratzen da, eta sarrera bakoitzak iruzkinak jaso ditzake.",
+    "es": "entrada; art\u00edculo",
+    "esdef": "",
+    "fr": "billet",
+    "frdef": "",
+    "en": "post; entry",
+    "endef": ""
+  },
+  {
+    "id": "116",
+    "eusterm": "streaming",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "datu-korronte",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Internet bidez audioa edo bideoak era jarraituan transmititzeko teknika; hau da, hartzaileak fitxategia erreproduzi dezake ordenagailura guztiz deskargatua izan gabe.",
+    "es": "streaming",
+    "esdef": "",
+    "fr": "diffusion en \ufb02ux; streaming",
+    "frdef": "",
+    "en": "streaming",
+    "endef": ""
+  },
+  {
+    "id": "117",
+    "eusterm": "talde",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Facebook edo Linkedlnen moduko sare sozialetan, administratzaile batek gai bati buruzko interakzioa pizteko sortzen duen orria. Erabiltzaileak orri horretara batu daitezke, talde horretako kide egiteko.",
+    "es": "grupo",
+    "esdef": "",
+    "fr": "groupe",
+    "frdef": "",
+    "en": "group",
+    "endef": ""
+  },
+  {
+    "id": "118",
+    "eusterm": "testu-koadro",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "cuadro de texto",
+    "esdef": "",
+    "fr": "zone de texte",
+    "frdef": "",
+    "en": "text box",
+    "endef": ""
+  },
+  {
+    "id": "119",
+    "eusterm": "trackback",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "atzeraesteka",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Blog batean beste blog bateko edukia gehitzen denean ezar daitekeen esteka berezia. Blogean esteka hori ezarriz, bere testu bat aipatu dela adierazten duen abisua jasoko du jatorrizko blogak. Normalean, jatorrizko testua duen blog-sarreraren iruzkinetan gehitzen da automatikoki abisu hori.",
+    "es": "trackback; retroenlace",
+    "esdef": "",
+    "fr": "r\u00e9trolien",
+    "frdef": "",
+    "en": "trackback",
+    "endef": ""
+  },
+  {
+    "id": "120",
+    "eusterm": "traol",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Twitterren moduko sare sozialetan, traol-hitz edo hashtag baten hasiera adierazteko erabiltzen den ikurra: #.",
+    "es": "almohadilla; hash",
+    "esdef": "",
+    "fr": "croisillon",
+    "frdef": "",
+    "en": "hash",
+    "endef": ""
+  },
+  {
+    "id": "121",
+    "eusterm": "traol-hitz",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "traol",
+        "qual": "4"
+      },
+      {
+        "sin": "hashtag",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "Twitterren moduko sare sozialetan, traol (#) ikurraz hasita idazten den karaktere-segida, mezua etiketatzeko erabiltzen dena. Karaktere-segida horretan klik eginez, traol-hitz bera duten mezuak berreskura daitezke. Gai zehatz baten inguruan aritzeko erabiltzen da.",
+    "es": "etiqueta; hashtag",
+    "esdef": "",
+    "fr": "mot-diese; hashtag",
+    "frdef": "",
+    "en": "hashtag",
+    "endef": ""
+  },
+  {
+    "id": "122",
+    "eusterm": "twitstar",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Twitterren bidez ospe handia lortu duen pertsona, jarraitzaile asko izan ohi dituena.",
+    "es": "twitstar",
+    "esdef": "",
+    "fr": "twitstar",
+    "frdef": "",
+    "en": "twitstar",
+    "endef": ""
+  },
+  {
+    "id": "123",
+    "eusterm": "txat",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "chat",
+    "esdef": "",
+    "fr": "dialogue en ligne; bavardage",
+    "frdef": "",
+    "en": "chat",
+    "endef": ""
+  },
+  {
+    "id": "124",
+    "eusterm": "txat-gela",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "sala de chat",
+    "esdef": "",
+    "fr": "bavardoir; salle de conversation",
+    "frdef": "",
+    "en": "chat room",
+    "endef": ""
+  },
+  {
+    "id": "125",
+    "eusterm": "txateatu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "txatean jardun",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "chatear",
+    "esdef": "",
+    "fr": "dialoguer en ligne",
+    "frdef": "",
+    "en": "chat",
+    "endef": ""
+  },
+  {
+    "id": "126",
+    "eusterm": "txio",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "tuit",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Twitterren idatzitako mezu laburra, 140 karakterera mugatua.",
+    "es": "tuit",
+    "esdef": "",
+    "fr": "tweet; gazouillis",
+    "frdef": "",
+    "en": "tvveet",
+    "endef": ""
+  },
+  {
+    "id": "127",
+    "eusterm": "txiokatu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "tuiteatu",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Twitterren txio bat edo tXioak idatzi.",
+    "es": "tuitear",
+    "esdef": "",
+    "fr": "twitter; gazouiller",
+    "frdef": "",
+    "en": "tweet",
+    "endef": ""
+  },
+  {
+    "id": "128",
+    "eusterm": "txiolari",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "tuitlari",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Twitterren tXioak idazten dituen erabiltzailea.",
+    "es": "tuitero",
+    "esdef": "",
+    "fr": "twitteur",
+    "frdef": "",
+    "en": "twitter",
+    "endef": ""
+  },
+  {
+    "id": "129",
+    "eusterm": "web-interfaze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "interfaz web",
+    "esdef": "",
+    "fr": "interface web",
+    "frdef": "",
+    "en": "web interface",
+    "endef": ""
+  },
+  {
+    "id": "130",
+    "eusterm": "web-jario",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Webgune batean egindako eguneratzeen informazio laburtua jasotzen duen fitxategia. Erabiltzaileak bere agregatzailean jaso dezake, baldin eta jario horretara harpidetuta badago.",
+    "es": "fuente web",
+    "esdef": "",
+    "fr": "\ufb01l d\u2019actualit\u00e9",
+    "frdef": "",
+    "en": "feed; web feed",
+    "endef": ""
+  },
+  {
+    "id": "131",
+    "eusterm": "web-orri",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "p\u00e1gina web",
+    "esdef": "",
+    "fr": "page web",
+    "frdef": "",
+    "en": "web page",
+    "endef": ""
+  },
+  {
+    "id": "132",
+    "eusterm": "web-sindikazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Harpidetza egiten duten erabiltzaileei webgune bateko eduki eguneratuak automatikoki jario bidez banatzen dizkien sistema.",
+    "es": "sindicaci\u00f3n web",
+    "esdef": "",
+    "fr": "syndication de contenu Web",
+    "frdef": "",
+    "en": "web syndication",
+    "endef": ""
+  },
+  {
+    "id": "133",
+    "eusterm": "webcast",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Web bidez audioak edo bideoak eskaintzeko prozedura. Datu- korrontearen teknologia erabiltzen du, fitxategi horiek zuzenean edo geroago erreproduzitzeko.",
+    "es": "webcast; difusi\u00f3n por web",
+    "esdef": "",
+    "fr": "webdiffusion",
+    "frdef": "",
+    "en": "webcast",
+    "endef": ""
+  },
+  {
+    "id": "134",
+    "eusterm": "widget",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Aplikazio edo programa txikia, gailu mugikorretik, ordenagailuko mahaigainetik edo webgune batetik erraz ireki daitekeena. Informazio jakin bat kontsultatzeko edo maiz erabiltzen den funtzio bat modu sinplean erabiltzeko balio du.",
+    "es": "widget",
+    "esdef": "",
+    "fr": "widget",
+    "frdef": "",
+    "en": "widget",
+    "endef": ""
+  },
+  {
+    "id": "135",
+    "eusterm": "zale",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "fan",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Facebookeko orri batek duen jarraitzailea. Orri hori atsegin izateko botoiari emanez bihurtzen da erabiltzaile bat zale.",
+    "es": "admirador; fan",
+    "esdef": "",
+    "fr": "fan",
+    "frdef": "",
+    "en": "fan",
+    "endef": ""
+  },
+  {
+    "id": "136",
+    "eusterm": "zirkulu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Google plus sare sozialean, erabiltzaile baten kontaktu jakin batzuk biltzen dituen taldea, harremanak eta edukiak partekatzeko bidea ematen duena.",
+    "es": "C\u00edrculo",
+    "esdef": "",
+    "fr": "cercle",
+    "frdef": "",
+    "en": "Circle",
+    "endef": ""
+  },
+  {
+    "id": "137",
+    "eusterm": "zirriborro",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Argitaratzeko sisteman sartu den baina oraindik argitaratu ez den sarrera, artikulu edo mezua. Geroago zuzendu edo hobetzeko asmoa dagoenean gorde ohi da sistema horretan.",
+    "es": "borrador",
+    "esdef": "",
+    "fr": "brouillon",
+    "frdef": "",
+    "en": "draft",
+    "endef": ""
+  },
+  {
+    "id": "138",
+    "eusterm": "adware",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "publizitate-software",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Sistema informatiko batean sartu eta automatikoki iragarki bat exekutatzen edo bistaratzen duen softwarea.",
+    "es": "adware; software de publicidad",
+    "esdef": "",
+    "fr": "logiciel publicitaire",
+    "frdef": "",
+    "en": "adware",
+    "endef": ""
+  },
+  {
+    "id": "139",
+    "eusterm": "Aitortu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "BY",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Creative Commons lizentzietan erabiltzen den klausuletako bat; edukien egile edo iturriak aipatu beharra ezartzen du.",
+    "es": "Atribuci\u00f4n; BY",
+    "esdef": "",
+    "fr": "Paternit\u00e9; BY",
+    "frdef": "",
+    "en": "Attribution; BY",
+    "endef": ""
+  },
+  {
+    "id": "140",
+    "eusterm": "autentifikazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "autenticaci\u00f4n",
+    "esdef": "",
+    "fr": "authenti\ufb01cation",
+    "frdef": "",
+    "en": "authentication",
+    "endef": ""
+  },
+  {
+    "id": "141",
+    "eusterm": "azken erabiltzaile",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "usuario \ufb01nal",
+    "esdef": "",
+    "fr": "utilisateur \ufb01nal",
+    "frdef": "",
+    "en": "\ufb01nal user",
+    "endef": ""
+  },
+  {
+    "id": "142",
+    "eusterm": "azpiegitura zerbitzu gisa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "infraestructura como servicio",
+    "esdef": "",
+    "fr": "infrastructure en tant que service",
+    "frdef": "",
+    "en": "infrastructure as a service; laaS",
+    "endef": ""
+  },
+  {
+    "id": "143",
+    "eusterm": "bat-bateko mezularitza",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "mensajer\u00eda instant\u00e1nea",
+    "esdef": "",
+    "fr": "messagerie instantan\u00e9e",
+    "frdef": "",
+    "en": "instant messaging",
+    "endef": ""
+  },
+  {
+    "id": "144",
+    "eusterm": "bezero",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Zerbitzari bati konektatuta, hari informazioa, zerbitzuak edo bestelako baliabideak eskatzen dizkion programa informatikoa.",
+    "es": "cliente",
+    "esdef": "",
+    "fr": "client",
+    "frdef": "",
+    "en": "client",
+    "endef": ""
+  },
+  {
+    "id": "145",
+    "eusterm": "bezero mugikor",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Telefono, tableta edo antzeko gailu mugikor batean instalatuta dagoen programa bezeroa; aplikazioak programatzeko interfazea erabiltzen du sare sozial batera konektatzeko.",
+    "es": "cliente m\u00f3vil",
+    "esdef": "",
+    "fr": "client mobile",
+    "frdef": "",
+    "en": "mobile client",
+    "endef": ""
+  },
+  {
+    "id": "146",
+    "eusterm": "bideo biral",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Sare sozialen edo posta elektronikoaren bidez hedapen zabal eta lasterra duen bideoa.",
+    "es": "video Viral",
+    "esdef": "",
+    "fr": "Vid\u00e9o Virale",
+    "frdef": "",
+    "en": "viral video",
+    "endef": ""
+  },
+  {
+    "id": "147",
+    "eusterm": "bideoak ostatatzeko zerbitzu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "servicio de alojamiento de Videos",
+    "esdef": "",
+    "fr": "service de h\u00e9bergement de Vid\u00e9os",
+    "frdef": "",
+    "en": "video hosting service",
+    "endef": ""
+  },
+  {
+    "id": "148",
+    "eusterm": "birbideratze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "redireccionamiento",
+    "esdef": "",
+    "fr": "redirection",
+    "frdef": "",
+    "en": "redirection",
+    "endef": ""
+  },
+  {
+    "id": "149",
+    "eusterm": "bisita",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Internautak orri batean egiten duen sartu-irten bakoitza.",
+    "es": "visita",
+    "esdef": "",
+    "fr": "Visite",
+    "frdef": "",
+    "en": "Visit",
+    "endef": ""
+  },
+  {
+    "id": "150",
+    "eusterm": "blogosfera",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Blogek, blogariek eta haien arteko konexio eta interakzioek osatutako komunitate edo sistema.",
+    "es": "blogosfera",
+    "esdef": "",
+    "fr": "blogosph\u00e8re",
+    "frdef": "",
+    "en": "blogosphere",
+    "endef": ""
+  },
+  {
+    "id": "151",
+    "eusterm": "copyfree",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "copyfree",
+    "esdef": "",
+    "fr": "copyfree",
+    "frdef": "",
+    "en": "copyfree",
+    "endef": ""
+  },
+  {
+    "id": "152",
+    "eusterm": "copyleft",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "copyleft",
+    "esdef": "",
+    "fr": "copyleft",
+    "frdef": "",
+    "en": "copyleft",
+    "endef": ""
+  },
+  {
+    "id": "153",
+    "eusterm": "copyright",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "copyright",
+    "esdef": "",
+    "fr": "copyright",
+    "frdef": "",
+    "en": "copyright",
+    "endef": ""
+  },
+  {
+    "id": "154",
+    "eusterm": "cracker",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Sistema informatiko bateko segurtasun- sisteman baimenik gabe sartzen saiatzen den pertsona. Crackerraren asmoa, gehienetan, onuraren bat lortzea edo protesta egitea izan ohi da; askotan, lizentziapeko softwarean aldaketak egiten dituzte lizentziarik gabe erabili eta banatzeko.",
+    "es": "cracker",
+    "esdef": "",
+    "fr": "cracker",
+    "frdef": "",
+    "en": "cracker",
+    "endef": ""
+  },
+  {
+    "id": "155",
+    "eusterm": "Creative Commons",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Irabazi-asmorik gabeko erakundea, sormenezko lanak teknologia berrien bidez partekatzeko tresna juridiko berriak (CC lizentziak) eratu dituena. Lau klausula bereizten ditu: Aitortu (BY), EzKomertziala (NC), LanEratorririkGabe (ND) eta PartekatuBerdin (SA). Eta, klausula horien konbinazioz, sei lizentzia-mota eskaintzen dira, egileak publikoari eman nahi dizkion eskubideak hauta ditzan: CC BY, CC BY\u2014SA, CC BY- ND, CC BY\u2014NC, CC BY\u2014NC-SA eta CC BY\u2014NC-ND.",
+    "es": "Creative Commons",
+    "esdef": "",
+    "fr": "Creative Commons",
+    "frdef": "",
+    "en": "Creative Commons",
+    "endef": ""
+  },
+  {
+    "id": "156",
+    "eusterm": "datu irekiak",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "datos abiertos",
+    "esdef": "",
+    "fr": "donn\u00e9es ouvertes",
+    "frdef": "",
+    "en": "open data",
+    "endef": ""
+  },
+  {
+    "id": "157",
+    "eusterm": "datuak babeste",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "datu-babes",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "protecci\u00f3n de datos",
+    "esdef": "",
+    "fr": "protection des donn\u00e9es",
+    "frdef": "",
+    "en": "data protection",
+    "endef": ""
+  },
+  {
+    "id": "158",
+    "eusterm": "eduki",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "contenido",
+    "esdef": "",
+    "fr": "contenu",
+    "frdef": "",
+    "en": "content",
+    "endef": ""
+  },
+  {
+    "id": "159",
+    "eusterm": "eduki ireki",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "eduki libre",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Berrerabiltzeko, berriro banatzeko edo bertsioak egiteko eskubideei buruz lege-murrizketarik ez duen edozein eduki: testua, irudia, argazkia edo bestelakoa.",
+    "es": "contenido abierto; contenido libre",
+    "esdef": "",
+    "fr": "contenu libre",
+    "frdef": "",
+    "en": "open content; free content",
+    "endef": ""
+  },
+  {
+    "id": "160",
+    "eusterm": "eduki-editore",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "eduki-arduradun",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Komunitate birtual batentzat informazioa bilatu, hautatu, editatu, antolatu eta partekatzeaz arduratzen den pertsona.",
+    "es": "responsable de contenidos",
+    "esdef": "",
+    "fr": "editeur de contenu",
+    "frdef": "",
+    "en": "content curator",
+    "endef": ""
+  },
+  {
+    "id": "161",
+    "eusterm": "eduki-edizio",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "edukiez arduratze",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Interneten eskaintzen diren eduki guztietatik abiatuta, komunitate birtual batentzat garrantzitsua den informazioa bilatu, hautatu, editatu, antolatu eta partekatzea.",
+    "es": "curaci\u00f3n de contenidos",
+    "esdef": "",
+    "fr": "e'dition de contenu; curation de contenu",
+    "frdef": "",
+    "en": "content curation",
+    "endef": ""
+  },
+  {
+    "id": "162",
+    "eusterm": "edukiak kudeatzeko sistema",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "sistema de gesti\u00f3n de contenidos",
+    "esdef": "",
+    "fr": "syst\u00e8me de gestion de contenu",
+    "frdef": "",
+    "en": "content management system; CMS",
+    "endef": ""
+  },
+  {
+    "id": "163",
+    "eusterm": "edukien kudeaketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "gesti\u00f3n de contenidos",
+    "esdef": "",
+    "fr": "gestion de contenu",
+    "frdef": "",
+    "en": "content management",
+    "endef": ""
+  },
+  {
+    "id": "164",
+    "eusterm": "eguneratu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "actualizar",
+    "esdef": "",
+    "fr": "mettre a jour",
+    "frdef": "",
+    "en": "update",
+    "endef": ""
+  },
+  {
+    "id": "165",
+    "eusterm": "ekitaldien zuzeneko emanaldi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "retransmisi\u00f3n de eventos en directo",
+    "esdef": "",
+    "fr": "retransmission d\u2019\u00e9v\u00e9nements en direct",
+    "frdef": "",
+    "en": "broadcasting of live events",
+    "endef": ""
+  },
+  {
+    "id": "166",
+    "eusterm": "erabilera-arau",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "norma de uso",
+    "esdef": "",
+    "fr": "conditions d\u2019utilisation",
+    "frdef": "",
+    "en": "term of use",
+    "endef": ""
+  },
+  {
+    "id": "167",
+    "eusterm": "erabilgarritasun",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Webgune edo programa informatiko baten egokitasuna. Erabilgarritasuna neurtzeko, erabilera errazten eta atsegin egiten duten hainbat ezaugarri hartzen dira kontuan, hala nola diseinua, edukiak, nabigazioa eta abar.",
+    "es": "usabilidad",
+    "esdef": "",
+    "fr": "usabilit\u00e9",
+    "frdef": "",
+    "en": "usability",
+    "endef": ""
+  },
+  {
+    "id": "168",
+    "eusterm": "erabiltzaile",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "usuario",
+    "esdef": "",
+    "fr": "utilisateur",
+    "frdef": "",
+    "en": "user",
+    "endef": ""
+  },
+  {
+    "id": "169",
+    "eusterm": "erabiltzaile aurreratu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "usuario avanzado",
+    "esdef": "",
+    "fr": "utilisateur avance",
+    "frdef": "",
+    "en": "advanced user",
+    "endef": ""
+  },
+  {
+    "id": "170",
+    "eusterm": "esteka",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "enlace; v\u00ednculo",
+    "esdef": "",
+    "fr": "lien",
+    "frdef": "",
+    "en": "link",
+    "endef": ""
+  },
+  {
+    "id": "171",
+    "eusterm": "estekatu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "enlazar; Vincular",
+    "esdef": "",
+    "fr": "lier",
+    "frdef": "",
+    "en": "link",
+    "endef": ""
+  },
+  {
+    "id": "172",
+    "eusterm": "ezarpenak",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "configuraci\u00f3n",
+    "esdef": "",
+    "fr": "param\u00e8tres",
+    "frdef": "",
+    "en": "settings",
+    "endef": ""
+  },
+  {
+    "id": "173",
+    "eusterm": "EzKomertziala",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "NC",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Creative Commons lizentzietan erabiltzen den klausuletako bat; edukien erabilera komertziala egin eta irabazi ekonomikoak lortzea galarazten du.",
+    "es": "NoCornercial; NC",
+    "esdef": "",
+    "fr": "Pas d\u2019utilisation commerciale; NC",
+    "frdef": "",
+    "en": "NonCommercial; NC",
+    "endef": ""
+  },
+  {
+    "id": "174",
+    "eusterm": "fitxategiak transferitzeko protokolo",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "FTP",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Sarean konektatutako ordenagailu batetik bestera fitxategiak bidaltzeko erabiltzen den sare-protokoloa.",
+    "es": "protocolo de transferencia de frcheros; FTP",
+    "esdef": "",
+    "fr": "protocole de transfert de \ufb01chier; FTP",
+    "frdef": "",
+    "en": "File Transfer Protocol; FTP",
+    "endef": ""
+  },
+  {
+    "id": "175",
+    "eusterm": "FTP bezero",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "cliente FTP",
+    "esdef": "",
+    "fr": "client FTP",
+    "frdef": "",
+    "en": "FTP client",
+    "endef": ""
+  },
+  {
+    "id": "176",
+    "eusterm": "FTP zerbitzari",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "servidor FTP",
+    "esdef": "",
+    "fr": "serveur FTP",
+    "frdef": "",
+    "en": "FTP server",
+    "endef": ""
+  },
+  {
+    "id": "177",
+    "eusterm": "gailu mugikor",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "dispositivo m\u00f3vil",
+    "esdef": "",
+    "fr": "appareil mobile",
+    "frdef": "",
+    "en": "mobile device",
+    "endef": ""
+  },
+  {
+    "id": "178",
+    "eusterm": "gako-hitz",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "palabra clave",
+    "esdef": "",
+    "fr": "mot-cl\u00e9",
+    "frdef": "",
+    "en": "key word",
+    "endef": ""
+  },
+  {
+    "id": "179",
+    "eusterm": "gordailu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "errepositorio",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "repositorio",
+    "esdef": "",
+    "fr": "d\u00e9p\u00f4t",
+    "frdef": "",
+    "en": "repository",
+    "endef": ""
+  },
+  {
+    "id": "180",
+    "eusterm": "hackeatu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "hackear",
+    "esdef": "",
+    "fr": "bidouiller; fouiner",
+    "frdef": "",
+    "en": "hacker",
+    "endef": ""
+  },
+  {
+    "id": "181",
+    "eusterm": "hacker",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "pirata informatiko",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Ordenagailu bateko segurtasun- sisteman baimenik gabe sartzen saiatzen den pertsona. I\u2014Iackerraren asmoa, gehienetan, sistemaren ahultasuna agerian uztea eta bere trebezia erakustea izaten da; ez du crackerrak izaten duen asmo edo izaera kriminala.",
+    "es": "hacker; pirata inform\u00e1tico",
+    "esdef": "",
+    "fr": "bidouilleur; fouineur; pirate informatique",
+    "frdef": "",
+    "en": "hacker",
+    "endef": ""
+  },
+  {
+    "id": "182",
+    "eusterm": "har",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Sistema informatiko batean sartu, bere burua bikoiztu eta konektatuta dauden sistema eta ordenagailuetara barreiatzen den softwarea.",
+    "es": "gusano",
+    "esdef": "",
+    "fr": "ver",
+    "frdef": "",
+    "en": "worm",
+    "endef": ""
+  },
+  {
+    "id": "183",
+    "eusterm": "hodei-konputazio",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "hodei-informatika",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Informazio, tresna eta bestelako baliabide informatikoak Interneteko espazio birtual batean biltegiratzeko eta erabiltzeko sistema.",
+    "es": "computaci\u00f3n en la nube; inform\u00e1tica en la nube",
+    "esdef": "",
+    "fr": "informatique en nuage",
+    "frdef": "",
+    "en": "cloud computing",
+    "endef": ""
+  },
+  {
+    "id": "184",
+    "eusterm": "identitate digital",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Pertsona batek Interneten bidez proiektatzen duen identitate birtuala. Interneten duen jardueraren bitartez eta gainerako erabiltzaileek pertsona horrekin duten interakzioen bidez osatzen eta formatzen da haren identitate digitala.",
+    "es": "identidad digital",
+    "esdef": "",
+    "fr": "identit\u00e9 num\u00e9rique",
+    "frdef": "",
+    "en": "digital identity",
+    "endef": ""
+  },
+  {
+    "id": "185",
+    "eusterm": "ikaskuntza-ingurune pertsonal",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "PLE",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Pertsona batek ikaskuntza-prozesu pertsonalerako erabiltzen dituen tresnen, informazio-iturrien, konexioen eta jardueren multzoa; barnean hartzen ditu sare sozialak eta Web 2.0 teknologiak: blogak, Wikiak, batzaileak eta abar.",
+    "es": "entorno personal de aprendizaje; PLE",
+    "esdef": "",
+    "fr": "environnement d\u2019apprentissage personnel; EAP",
+    "frdef": "",
+    "en": "personal learning environment; PLE",
+    "endef": ""
+  },
+  {
+    "id": "186",
+    "eusterm": "ikaskuntza-komunitate birtual",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Irakasleak eta ikasleak elkarrekin komunikatzeko eta lan egiteko eratutako komunitate birtuala.",
+    "es": "comunidad Virtual de aprendizaje",
+    "esdef": "",
+    "fr": "communaut\u00e9 Virtuelle d\u2019apprentissage",
+    "frdef": "",
+    "en": "Virtual learning community",
+    "endef": ""
+  },
+  {
+    "id": "187",
+    "eusterm": "informazioa berrerabiltze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "reutilizaci\u00f3n de informaci\u00f3n",
+    "esdef": "",
+    "fr": "r\u00e9utilisation de l\u2019information",
+    "frdef": "",
+    "en": "reuse of information",
+    "endef": ""
+  },
+  {
+    "id": "188",
+    "eusterm": "internauta",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "zibernauta",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Internet erabiltzen duen pertsona.",
+    "es": "internauta; cibernauta",
+    "esdef": "",
+    "fr": "internaute; cybernaute",
+    "frdef": "",
+    "en": "internaut; cybernaut",
+    "endef": ""
+  },
+  {
+    "id": "189",
+    "eusterm": "Internet",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "TCP/IP protokoloen bidez ordenagailuak edo sareak zuzenean konektatzen dituen sare informatiko deszentralizatu eta erraldoia, mundu osoan hedatua dagoena.",
+    "es": "Internet",
+    "esdef": "",
+    "fr": "Internet",
+    "frdef": "",
+    "en": "Internet",
+    "endef": ""
+  },
+  {
+    "id": "190",
+    "eusterm": "Interneten ostatatzeko zerbitzu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "servicio de alojamiento de Internet",
+    "esdef": "",
+    "fr": "service de h\u00e9bergement en Internet",
+    "frdef": "",
+    "en": "Internet hosting service",
+    "endef": ""
+  },
+  {
+    "id": "191",
+    "eusterm": "iragarki-banda",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "banner",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "pancarta; banner",
+    "esdef": "",
+    "fr": "banni\u00e8re publicitaire; bandeau publicitaire",
+    "frdef": "",
+    "en": "advertising banner; banner",
+    "endef": ""
+  },
+  {
+    "id": "191",
+    "eusterm": "irudiak ostatatzeko zerbitzu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "servicio de alojamiento de im\u00e1genes",
+    "esdef": "",
+    "fr": "service de h\u00e9bergement d\u2019images",
+    "frdef": "",
+    "en": "image hosting service",
+    "endef": ""
+  },
+  {
+    "id": "193",
+    "eusterm": "jabetza intelektual",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Legeak sorkuntza edo lan baten autoreari aitortzen dizkion eskubideen multzoa. Eskubide horiei esker, autoreak lan hori argitaratzeko, aldatzeko edo ustiatzeko ahalmena du.",
+    "es": "propiedad intelectual",
+    "esdef": "",
+    "fr": "proprie't\u00e9 intellectuelle",
+    "frdef": "",
+    "en": "intellectual property",
+    "endef": ""
+  },
+  {
+    "id": "194",
+    "eusterm": "jabetza publiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "dominio p\u00fablico",
+    "esdef": "",
+    "fr": "domaine public",
+    "frdef": "",
+    "en": "public domain",
+    "endef": ""
+  },
+  {
+    "id": "195",
+    "eusterm": "kode ireki",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "c\u00f3digo abierto",
+    "esdef": "",
+    "fr": "code source ouvert",
+    "frdef": "",
+    "en": "open source code",
+    "endef": ""
+  },
+  {
+    "id": "196",
+    "eusterm": "kodea berrerabiltze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "reutilizaci\u00f3n de c\u00f3digo",
+    "esdef": "",
+    "fr": "r\u00e9utilisation de code",
+    "frdef": "",
+    "en": "code reuse",
+    "endef": ""
+  },
+  {
+    "id": "197",
+    "eusterm": "komunikabide sozial",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Interneten eta Web 2.0 teknologien bitartez erabiltzen diren komunikazio- plataformetako bakoitza; erabiltzaileek edukiak sortu, editatu, argitaratu eta trukatu egin ditzakete plataforma horietan, elkarren artean komunikatzeko.",
+    "es": "medio social; medio de comunicaci\u00f3n social",
+    "esdef": "",
+    "fr": "me'dia social",
+    "frdef": "",
+    "en": "social medium",
+    "endef": ""
+  },
+  {
+    "id": "198",
+    "eusterm": "komunitate birtual",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Interneten edo bestelako sare telematiko baten bidez interesak, edukiak eta iritziak partekatzen dituzten erabiltzaileen multzoa.",
+    "es": "comunidad Virtual",
+    "esdef": "",
+    "fr": "communaut\u00e9 virtuelle",
+    "frdef": "",
+    "en": "Virtual community",
+    "endef": ""
+  },
+  {
+    "id": "199",
+    "eusterm": "kontua ireki",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "abrir una cuenta",
+    "esdef": "",
+    "fr": "ouvrir un compte",
+    "frdef": "",
+    "en": "open an account",
+    "endef": ""
+  },
+  {
+    "id": "200",
+    "eusterm": "kontua itxi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "cerrar una cuenta",
+    "esdef": "",
+    "fr": "fermer un compte",
+    "frdef": "",
+    "en": "close an account",
+    "endef": ""
+  },
+  {
+    "id": "201",
+    "eusterm": "kontua pertsonalizatze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "personalizaci\u00f3n de cuenta",
+    "esdef": "",
+    "fr": "personnalisation de compte",
+    "frdef": "",
+    "en": "account customization",
+    "endef": ""
+  },
+  {
+    "id": "202",
+    "eusterm": "kontuen kudeaketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "gesti\u00f3n de cuentas",
+    "esdef": "",
+    "fr": "gestion des comptes",
+    "frdef": "",
+    "en": "account management",
+    "endef": ""
+  },
+  {
+    "id": "203",
+    "eusterm": "krakeatu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "crackear",
+    "esdef": "",
+    "fr": "craquer",
+    "frdef": "",
+    "en": "crack",
+    "endef": ""
+  },
+  {
+    "id": "204",
+    "eusterm": "LanEratorririkGabe",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "ND",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Creative Commons lizentzietan erabiltzen den klausuletako bat; edukiak partekatzen uzten du, baldin eta edukian inongo aldaketarik egiten ez bada.",
+    "es": "NoDerivadas; ND",
+    "esdef": "",
+    "fr": "Pas de modi\ufb01cation; ND",
+    "frdef": "",
+    "en": "NoDerivativeWorks; NoDerivs; ND",
+    "endef": ""
+  },
+  {
+    "id": "205",
+    "eusterm": "leecher",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Programak eta fitxategiak behera kargatzeko edo partekatzeko foroetan besteek egindako ekarpenak eskertu gabe baliatzen dituen erabiltzailea, trukean ekarpenik egiten ez duena.",
+    "es": "leecher",
+    "esdef": "",
+    "fr": "leecher",
+    "frdef": "",
+    "en": "leecher",
+    "endef": ""
+  },
+  {
+    "id": "206",
+    "eusterm": "lizentzia ireki",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Edukien autoreen aitortza egitearekin bat eduki horiek kopiatzeko, aldatzeko edo berriro banatzeko baimena ematen duen lizentzia. Mota honetako lizentziak zehaztea izan da Creative Commons erakundearen helburua.",
+    "es": "licencia abierta",
+    "esdef": "",
+    "fr": "licence ouverte",
+    "frdef": "",
+    "en": "open content license",
+    "endef": ""
+  },
+  {
+    "id": "207",
+    "eusterm": "Iuser",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Informatika-erabiltzaile adituen arteko hizkeran, haiek bezainbesteko ezagutza informatikoak ez dituen erabiltzaile arrunta. Ingelesezko looser (galtzaile, frakasatu) eta user (erabiltzaile) batzetik sortua.",
+    "es": "luser",
+    "esdef": "",
+    "fr": "luser",
+    "frdef": "",
+    "en": "luser",
+    "endef": ""
+  },
+  {
+    "id": "208",
+    "eusterm": "malware",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "software gaizto",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Sistema informatiko batean sartzeko eta hura nolabait hondatzeko helburua duen softwarea.",
+    "es": "malware; software malicioso",
+    "esdef": "",
+    "fr": "logiciel malveillant; maliciel",
+    "frdef": "",
+    "en": "malware; malicious software",
+    "endef": ""
+  },
+  {
+    "id": "209",
+    "eusterm": "marketin biral",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Sare sozialek eskaintzen dituzten ezaugarriez baliatzen den marketineko teknika edo prozedura berezia. Publizitatu nahi den produktu, zerbitzu, ideia edo mezu bati sare sozialen bidez hedapen zabal eta lasterra ematean datza.",
+    "es": "marketing viral",
+    "esdef": "",
+    "fr": "marketing Viral",
+    "frdef": "",
+    "en": "Viral marketing",
+    "endef": ""
+  },
+  {
+    "id": "210",
+    "eusterm": "netiketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Interneteko erabiltzaileek bete beharreko gizabidezko edo kortesiazko arauen multzoa; adibidez, mezu iraingarririk edo hizkera desegokirik ez erabiltzea, formatu egokiak erabiltzea eta abar.",
+    "es": "netiqueta",
+    "esdef": "",
+    "fr": "ne'tiquette",
+    "frdef": "",
+    "en": "netiquette",
+    "endef": ""
+  },
+  {
+    "id": "211",
+    "eusterm": "newbie",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Internet bidezko jokoetan edo komunitateetan hasi berria den pertsona. Nolabaiteko arazoak sor ditzake komunitatearen ohiturak edo arauak ez ezagutzeagatik.",
+    "es": "newbie",
+    "esdef": "",
+    "fr": "newbie",
+    "frdef": "",
+    "en": "newbie",
+    "endef": ""
+  },
+  {
+    "id": "212",
+    "eusterm": "ontologia",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ontologia",
+    "esdef": "",
+    "fr": "ontologie",
+    "frdef": "",
+    "en": "ontology",
+    "endef": ""
+  },
+  {
+    "id": "213",
+    "eusterm": "ospe digital",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Pertsona, enpresa edo marka baten ospeak edo estimuak Interneten duen isla.",
+    "es": "reputaci\u00f3n digital",
+    "esdef": "",
+    "fr": "r\u00e9putation en ligne; cyber- r\u00e9putation; web-r\u00e9putation",
+    "frdef": "",
+    "en": "digital reputation; online reputation",
+    "endef": ""
+  },
+  {
+    "id": "214",
+    "eusterm": "parekoen sare",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "P2P sare",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Internet bidez konektatzeko sare-mota: ez dago zerbitzari zentralik, ez eta bezero finkorik ere, konektatutako nodo guztiek elkarren bezero eta zerbitzari gisa funtzionatzen baitute txandaka.",
+    "es": "red de pares; red P2P",
+    "esdef": "",
+    "fr": "r\u00e9seau pair-a-pair; r\u00e9seau poste \u00e0 poste; r\u00e9seau P2P",
+    "frdef": "",
+    "en": "peer-to-peer network; P2P network",
+    "endef": ""
+  },
+  {
+    "id": "215",
+    "eusterm": "PartekatuBerdin",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "SA",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Creative Commons lizentzietan erabiltzen den klausuletako bat; edukiak jatorrizko lizentzia berarekin erabili beharra zehazten du.",
+    "es": "Compartirlgual; SA",
+    "esdef": "",
+    "fr": "Partage des conditions initiales \u00e0 l\u2019identique; SA",
+    "frdef": "",
+    "en": "ShareAlike; SA",
+    "endef": ""
+  },
+  {
+    "id": "216",
+    "eusterm": "phising",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Pertsona edo erakunde baten identitatea iruzur bidez ordeztuz, informazio kon\u00f1dentziala ilegalki eskuratzea.",
+    "es": "phising",
+    "esdef": "",
+    "fr": "phising",
+    "frdef": "",
+    "en": "phising",
+    "endef": ""
+  },
+  {
+    "id": "217",
+    "eusterm": "plataforma zerbitzu gisa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "plataforma como servicio",
+    "esdef": "",
+    "fr": "plate-forme en tant que service",
+    "frdef": "",
+    "en": "platforrn as a service; PaaS",
+    "endef": ""
+  },
+  {
+    "id": "218",
+    "eusterm": "pribatutasun",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "privacidad",
+    "esdef": "",
+    "fr": "con\ufb01dentialit\u00e9",
+    "frdef": "",
+    "en": "privacy",
+    "endef": ""
+  },
+  {
+    "id": "2",
+    "eusterm": "1 9 prosumitzaile",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Web 2.0-ren eta sare sozialen erabiltzailea, aldi berean produktore eta kontsumitzaile dena. Web 2.0 zerbitzuetan eta sare sozialetan bi alderdiak batu ohi dituzte erabiltzaileek. OHARRA: \u00abProduktore\u00bb eta \u00abkontsumitzaile\u00bb hitzen uztarketaz osatutako terminoa da.",
+    "es": "prosumidor",
+    "esdef": "",
+    "fr": "prosommateur",
+    "frdef": "",
+    "en": "prosumer",
+    "endef": ""
+  },
+  {
+    "id": "220",
+    "eusterm": "protokolo",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "protocolo",
+    "esdef": "",
+    "fr": "protocole",
+    "frdef": "",
+    "en": "protocol",
+    "endef": ""
+  },
+  {
+    "id": "221",
+    "eusterm": "ransomware",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Sistema informatiko batean sartu eta sistema horretako parte edo fitxategi batzuetarako sarbidea oztopatzen duen softwarea; erreskate bat eskatzen du oztopoa askatzeko.",
+    "es": "ransomware",
+    "esdef": "",
+    "fr": "ransomware; rangongiciel",
+    "frdef": "",
+    "en": "ransomware",
+    "endef": ""
+  },
+  {
+    "id": "222",
+    "eusterm": "sarbide ireki",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "acceso abierto",
+    "esdef": "",
+    "fr": "libre acc\u00e8s",
+    "frdef": "",
+    "en": "open access",
+    "endef": ""
+  },
+  {
+    "id": "223",
+    "eusterm": "sare profesionaleko zerbitzu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "servicio de red profesional",
+    "esdef": "",
+    "fr": "r\u00e9seautage professionnel",
+    "frdef": "",
+    "en": "professional network service",
+    "endef": ""
+  },
+  {
+    "id": "224",
+    "eusterm": "sare sozialeko zerbitzu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "gizarte-sareko zerbitzu",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "servicio de red social",
+    "esdef": "",
+    "fr": "r\u00e9seautage social",
+    "frdef": "",
+    "en": "social networking service",
+    "endef": ""
+  },
+  {
+    "id": "225",
+    "eusterm": "sare-sozialeko ingurune",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "gizarte-sareko ingurune",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Erabiltzaileak sare sozial baten bidez komunikatzen eta interakzioan ibiltzen diren ingurune edo espazio birtuala.",
+    "es": "entorno de red social",
+    "esdef": "",
+    "fr": "environnement de r\u00e9seautage social",
+    "frdef": "",
+    "en": "social networking environment",
+    "endef": ""
+  },
+  {
+    "id": "226",
+    "eusterm": "sarearen neutraltasun",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Telekomunikazio-sare batean informazioa lehentasun-irizpiderik edo sarrera-debekurik gabe berdintasunez zabaltzean datzan printzipioa.",
+    "es": "neutralidad de la red",
+    "esdef": "",
+    "fr": "neutralit\u00e9 du r\u00e9seau",
+    "frdef": "",
+    "en": "net neutrality",
+    "endef": ""
+  },
+  {
+    "id": "227",
+    "eusterm": "software libre",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "software libre",
+    "esdef": "",
+    "fr": "logiciel libre",
+    "frdef": "",
+    "en": "free software",
+    "endef": ""
+  },
+  {
+    "id": "228",
+    "eusterm": "softwarea zerbitzu gisa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "software como servicio",
+    "esdef": "",
+    "fr": "logiciel en tant que service",
+    "frdef": "",
+    "en": "software as a service; SaaS",
+    "endef": ""
+  },
+  {
+    "id": "229",
+    "eusterm": "spam",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Hartzaileak eskatu gabe jasotzen duen mezu edo edukia, gehienetan publizitatea, zabalkunde handia izan dezan sare sozialen edo posta elektronikoaren bidez etengabe bidaltzen dena.",
+    "es": "spam",
+    "esdef": "",
+    "fr": "spam; polluriel",
+    "frdef": "",
+    "en": "spam",
+    "endef": ""
+  },
+  {
+    "id": "230",
+    "eusterm": "spyware",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "software espioi",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Sistema informatiko batean sartu, bertako informazioa bildu eta, jabearen baimenik gabe, informazio hori kanpora transmititzen duen softwarea.",
+    "es": "spyware; software esp\u00eda",
+    "esdef": "",
+    "fr": "logiciel espion",
+    "frdef": "",
+    "en": "spyware",
+    "endef": ""
+  },
+  {
+    "id": "231",
+    "eusterm": "tableta",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ordenagailu eramangarri txikia, telefono adimendunak baino handiagoa eta ukipen-pantailaz hornitua.",
+    "es": "tableta",
+    "esdef": "",
+    "fr": "tablette",
+    "frdef": "",
+    "en": "tablet",
+    "endef": ""
+  },
+  {
+    "id": "232",
+    "eusterm": "telefono adimendun",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "smartphone",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "tel\u00e9fono inteligente; smartphone",
+    "esdef": "",
+    "fr": "telephone intelligent; ordiphone",
+    "frdef": "",
+    "en": "smartphone",
+    "endef": ""
+  },
+  {
+    "id": "233",
+    "eusterm": "trol",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Sare sozial, foro edo Interneteko bestelako komunitate batean, gainerako erabiltzaileak probokatzeko eta gogaitzeko asmoz edo besterik gabe ondo pasatzeko asmoz mezu probokatzaileak edo interesik gabekoak plazaratzen aritzen den pertsona.",
+    "es": "trol",
+    "esdef": "",
+    "fr": "troll",
+    "frdef": "",
+    "en": "troll",
+    "endef": ""
+  },
+  {
+    "id": "234",
+    "eusterm": "troleatu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "trolear",
+    "esdef": "",
+    "fr": "troller",
+    "frdef": "",
+    "en": "troll",
+    "endef": ""
+  },
+  {
+    "id": "235",
+    "eusterm": "URLa laburtze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "reducci\u00f3n de URL",
+    "esdef": "",
+    "fr": "r\u00e9duction d\u2019URL",
+    "frdef": "",
+    "en": "URL shortening",
+    "endef": ""
+  },
+  {
+    "id": "236",
+    "eusterm": "URLa laburtzeko zerbitzu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "servicio de reducci\u00f3n de URL",
+    "esdef": "",
+    "fr": "service de r\u00e9duction d\u2019URL",
+    "frdef": "",
+    "en": "URL shortening service",
+    "endef": ""
+  },
+  {
+    "id": "237",
+    "eusterm": "Web |.0",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Erabiltzaileei eduki estatikoak pasiboki kontsumitzeko aukera besterik ematen ez dien web-zerbitzuen multzoa. Nolabait, Interneteko lehen belaunaldia eratzen du. Web 2.0 erako zerbitzuen aurrekoa da, hau da, interakzioa eta parte-hartzea ezartzen dituen zerbitzuen aurrekoa.",
+    "es": "Web LO",
+    "esdef": "",
+    "fr": "Web LO",
+    "frdef": "",
+    "en": "Web LO",
+    "endef": ""
+  },
+  {
+    "id": "238",
+    "eusterm": "Web 2.0",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Erabiltzaileen artean lankidetza, interakzioa eta informazio-trukea bideratzen dituzten web-zerbitzuen multzoa. Haientzat sortu diren eduki estatikoak pasiboki kontsumitzeaz gainera, erabiltzaileak berak ere eduki- sortzaile dira eredu honetan. Mota honetakoak dira, besteak beste, sare sozialeko zerbitzuak, Wikiak, blogak edo folksonomiak. Nolabait, Interneteko bigarren belaunaldia eratzen du.",
+    "es": "Web 2.0",
+    "esdef": "",
+    "fr": "Web 2.0",
+    "frdef": "",
+    "en": "Web 2.0",
+    "endef": ""
+  },
+  {
+    "id": "239",
+    "eusterm": "Web 3.0",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Web\u2014sarea datu-base handitzat hartuta, informazio semantikoa eta adimen artifizialaren teknologiak aplikatzeko asmoa luketen web-zerbitzuen multzoa. Nolabait, Interneteko hirugarren belaunaldia eratzen du.",
+    "es": "Web 3.0",
+    "esdef": "",
+    "fr": "Web 3.0",
+    "frdef": "",
+    "en": "Web 3.0",
+    "endef": ""
+  },
+  {
+    "id": "240",
+    "eusterm": "web korporatibo",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "web corporativo",
+    "esdef": "",
+    "fr": "web d\u2019entreprise",
+    "frdef": "",
+    "en": "corporate web",
+    "endef": ""
+  },
+  {
+    "id": "241",
+    "eusterm": "web semantiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "web semantica",
+    "esdef": "",
+    "fr": "web s\u00e9mantique",
+    "frdef": "",
+    "en": "semantic web",
+    "endef": ""
+  },
+  {
+    "id": "242",
+    "eusterm": "web sozial",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "gizarte\u2014web",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "web social",
+    "esdef": "",
+    "fr": "web social",
+    "frdef": "",
+    "en": "social web",
+    "endef": ""
+  },
+  {
+    "id": "243",
+    "eusterm": "web-analitika",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Webgune batek jasotako bisiten datuak bildu eta analizatzeko tekniken multzoa. Erabiltzaileen ezaugarriak eta portaera aztertzea izan ohi da helburua.",
+    "es": "anal\u00edtica web",
+    "esdef": "",
+    "fr": "analyse Web",
+    "frdef": "",
+    "en": "Web analytics",
+    "endef": ""
+  },
+  {
+    "id": "244",
+    "eusterm": "web-nabigatzaile",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "web-arakatzaile",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "navegador web",
+    "esdef": "",
+    "fr": "navigateur web",
+    "frdef": "",
+    "en": "web browser",
+    "endef": ""
+  },
+  {
+    "id": "245",
+    "eusterm": "web-ostatatze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "alojamiento web",
+    "esdef": "",
+    "fr": "h\u00e9bergement web",
+    "frdef": "",
+    "en": "web hosting",
+    "endef": ""
+  },
+  {
+    "id": "246",
+    "eusterm": "web-zerbitzu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "servicio web",
+    "esdef": "",
+    "fr": "service web",
+    "frdef": "",
+    "en": "web service",
+    "endef": ""
+  },
+  {
+    "id": "247",
+    "eusterm": "webgune",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "sitio web",
+    "esdef": "",
+    "fr": "site web",
+    "frdef": "",
+    "en": "website; site",
+    "endef": ""
+  },
+  {
+    "id": "248",
+    "eusterm": "World Wide Web",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Internet bidez atzi daitezkeen eta elkarren artean estekatuta dauden hipertestu-dokumentuak banatzeko sistema. Web-nabigatzaileak erabiliz, testua, irudia, bideoak eta bestelako edukia duten web-orriak ikus ditzake erabiltzaileak, eta batetik bestera nabiga dezake hiperesteken bitartez.",
+    "es": "World Wide Web",
+    "esdef": "",
+    "fr": "World Wide Web",
+    "frdef": "",
+    "en": "World Wide Web",
+    "endef": ""
+  },
+  {
+    "id": "249",
+    "eusterm": "zerbitzari",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "servidor",
+    "esdef": "",
+    "fr": "serveur",
+    "frdef": "",
+    "en": "server",
+    "endef": ""
+  },
+  {
+    "id": "250",
+    "eusterm": "ziberjazarpen",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "cyberbullying",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Pertsona edo giza talde bat sare sozialen bitartez jazartzea, sare horietan irainak edo bestelako ekintza erasokorrak barreiatuz.",
+    "es": "ciberacoso; ciberbullying",
+    "esdef": "",
+    "fr": "cyberharcelement",
+    "frdef": "",
+    "en": "cyberbullying",
+    "endef": ""
+  }
+]

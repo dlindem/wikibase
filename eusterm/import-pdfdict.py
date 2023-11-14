@@ -8,12 +8,12 @@ eginda = """336
 """
 eginlist = eginda.split('\n')
 
-arloa = "gorputzhezkuntza"
-schemeqid = "Q6771"
-refqid = "Q7064" # UZEI dict.
+arloa = "sare_sozialak"
+schemeqid = "Q5964"
+refqid = "Q7631" # UZEI dict.
 
 # load items to import
-with open('pdf2dict/GorputzHezkuntza.json', 'r') as jsonfile:
+with open('pdf2dict/sare_sozialak.json', 'r') as jsonfile:
 	source = json.load(jsonfile)
 	for entry in source:
 		# if int(entry['id']) < 306:

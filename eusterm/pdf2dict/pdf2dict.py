@@ -1,6 +1,6 @@
 import re, time, json, sys
 
-with open('GorputzHezkuntza.txt') as infile:
+with open('sare_sozialak.txt') as infile:
 	sarrerak = infile.read().split("@")
 
 languages = ['es', 'fr', 'en']
@@ -34,14 +34,14 @@ for sarrera in sarrerak:
 	# split1 = body.split('%')
 	# eusdeflines = split1[0].split('\n')
 
-	if eusdefline.startswith('©'):
+	if eusdefline.startswith('$'):
 
 		for singroup in eusdefline.split(']'):
 			print(str(singroup))
 			sinpair = singroup.split(' [')
 			print(str(sinpair))
 
-			sin = sinpair[0].replace('©','').replace(';','').strip()
+			sin = sinpair[0].replace('$','').replace(';','').strip()
 			if len(sinpair) == 1:
 				continue
 			result['sins'].append({'sin':sin,'qual':sinpair[1]})
@@ -93,5 +93,5 @@ for sarrera in sarrerak:
 
 	resultdict.append(result)
 
-with open('GorputzHezkuntza.json', 'w') as outfile:
+with open('sare_sozialak.json', 'w') as outfile:
 	json.dump(resultdict, outfile, indent=2)

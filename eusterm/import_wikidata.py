@@ -159,19 +159,19 @@ for binding in bindings:
 	propwd2wb[binding['wd']['value']] = euswbqid
 	propwbdatatype[euswbqid] = binding['datatype']['value'].replace('http://wikiba.se/ontology#', '')
 
-# # load items to import
-# with open('data/wikidata-import.csv', 'r') as file:
-# 	importlist = csv.DictReader(file, delimiter=",")
-# 	seenqid = []
-# 	for row in importlist:
-# 		if not re.search('^Q[0-9]+', row['Wikidata']):
-# 			continue
-# 		if row['Wikidata'] in seenqid:
-# 			continue
-# 		print('Will now import: ' + str(row))
-# 		# presskey = input('Proceed?')
-# 		print('Successfully processed: ' + importitem(row['Wikidata'], process_claims=allowed_props_to_import, schemeqid=row['Scheme'], instanceqid=None))
-# 		seenqid.append(row['Wikidata'])
+# load items to import
+with open('data/wikidata-import.csv', 'r') as file:
+	importlist = csv.DictReader(file, delimiter="\t")
+	seenqid = []
+	for row in importlist:
+		if not re.search('^Q[0-9]+', row['Wikidata']):
+			continue
+		if row['Wikidata'] in seenqid:
+			continue
+		print('Will now import: ' + str(row))
+		# presskey = input('Proceed?')
+		print('Successfully processed: ' + importitem(row['Wikidata'], process_claims=allowed_props_to_import, schemeqid=row['Scheme'], instanceqid=None))
+		seenqid.append(row['Wikidata'])
 
 # # load openrefine alignment CSV
 # with open('data/wd_to_eusterm.csv', 'r', encoding='utf-8') as csvfile:
@@ -190,4 +190,4 @@ for binding in bindings:
 # 																	schemeqid=None, instanceqid=None, process_defs=True, process_aliases=True, process_labels=True, process_sitelinks=False)))
 # 						seenqid.append(wdqid)
 
-print('Successfully processed: ' + importitem("Q842254", wbqid="Q6757", process_claims=allowed_props_to_import, schemeqid=None, instanceqid=None))
+# print('Successfully processed: ' + importitem("Q842254", wbqid="Q6757", process_claims=allowed_props_to_import, schemeqid=None, instanceqid=None))
