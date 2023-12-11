@@ -1,0 +1,5878 @@
+[
+  {
+    "id": "1",
+    "eusterm": "behe-atal",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "tren inferior",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "2",
+    "eusterm": "biraketa-ardatz",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "eje de rotaci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "3",
+    "eusterm": "enbor",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "tronco",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "4",
+    "eusterm": "gihar",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "masa magra",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "5",
+    "eusterm": "giltzadura",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "artikulazio",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "articulaci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "6",
+    "eusterm": "goi-atal",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "tren superior",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "7",
+    "eusterm": "gorputzaren aurretik atzerako ardatz",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Irudizko lerro zuzena, plano frontalaren perpendikularra eta gorputzaren grabitate-zentrotik pasatzen dena.",
+    "es": "eje anteroposterior del cuerpo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "8",
+    "eusterm": "gorputzaren luzetarako ardatz",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Irudizko lerro zuzena, plano horizontalaren perpendikularra eta gorputzaren grabitate-zentrotik pasatzen dena.",
+    "es": "eje longitudinal del cuerpo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "9",
+    "eusterm": "gorputzaren zeharkako ardatz",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Irudizko lerro zuzena, plano sagitalaren perpendikularra eta gorputzaren grabitate-zentrotik pasatzen dena.",
+    "es": "eje transversal del cuerpo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "10",
+    "eusterm": "hezur",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "hueso",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "11",
+    "eusterm": "kartilago",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "cart\u00edlago",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "12",
+    "eusterm": "lotailu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ligamento",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "13",
+    "eusterm": "muskulu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "muskulu eskeletiko",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "m\u00fasculo; m\u00fasculo esquel\u00e9tico",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "14",
+    "eusterm": "muskulu abduktore",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "muskulu urruntzaile",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "m\u00fasculo abductor; m\u00fasculo separador",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "15",
+    "eusterm": "muskulu aduktore",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "muskulu hurbiltzaile",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "m\u00fasculo aductor; m\u00fasculo aproximador",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "16",
+    "eusterm": "muskulu agonista",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "m\u00fasculo agonista",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "17",
+    "eusterm": "muskulu antagonista",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "m\u00fasculo antagonista",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "18",
+    "eusterm": "muskulu sinergista",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "m\u00fasculo sinergista",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "19",
+    "eusterm": "muskulu-masa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "masa muscular",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "20",
+    "eusterm": "muskulu-zuntz",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "zuntz muskular",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "fibra muscular",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "21",
+    "eusterm": "pelbis-zoru",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "suelo p\u00e9lvico",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "22",
+    "eusterm": "plano frontal",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Giza gorputza aurreko eta atzeko aldeetan zatitzen duen planoa; abdukzio eta adukzioko mugimenduak plano horretan gertatzen dira.",
+    "es": "plano frontal",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "23",
+    "eusterm": "plano horizontal",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "zeharkako plano",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Giza gorputzaren enborra goiko eta beheko zatietan banatzen duen planoa; plano horretan gertatzen dira errotazioko mugimenduak.",
+    "es": "plano horizontal; plano transversal",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "24",
+    "eusterm": "plano sagital",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gorputza eskuineko eta ezkerreko aldeetan banatzen duen planoa; plano horretan gertatzen dira flexioa eta estentsioa.",
+    "es": "plano sagital",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "25",
+    "eusterm": "tendoi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "tend\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "26",
+    "eusterm": "abiadura",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "velocidad",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "27",
+    "eusterm": "albo batera aldentze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "separaci\u00f3n lateral",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "28",
+    "eusterm": "albo-flexio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "flexi\u00f3n lateral",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "29",
+    "eusterm": "antebertsio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gorputzaren zeharkako ardatza mugimendu-ardatz gisa hartuz, gerritik gorako zatia aurrerantz eramatean datzan mugimendua.",
+    "es": "anteversi\u00f3n; flexi\u00f3n hacia delante",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "30",
+    "eusterm": "arintasun",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gorputzak espazioan duen jarrera eta norabidea abiadura egokiarekin aldatzeko ahalmena. Horretarako, hainbat gaitasun (koordinazioa, abiadura, indarra eta malgutasuna) modu harmoniatsuan konbinatzen dira.",
+    "es": "agilidad",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "31",
+    "eusterm": "arnas maiztasun",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "arnasketaren maiztasun",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "Minutuko ematen diren arnas zikloen kopurua, hau da zenbat arnas hartze eta arnasbotatze egiten diren minutu batean. Ariketa fisikoarekin aldatu egiten da arnas maiztasuna, baina egoera normalean adin-tarte bakoitzak du bere maiztasun propioa (70 ziklo/ min 5 urteko umeentzat, 55 ziklo/min 12-13 urteko gazteentzat eta 40-45 ziklo/min 25-30 urteko helduentzat).",
+    "es": "frecuencia respiratoria",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "32",
+    "eusterm": "automatismo",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "keinu automatiko",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "automatismo; gesto autom\u00e1tico",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "33",
+    "eusterm": "azelerazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "aceleraci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "34",
+    "eusterm": "begi-eskuen arteko koordinazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "coordinaci\u00f3n \u00f3culo-manual",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "35",
+    "eusterm": "begi-oinen arteko koordinazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "coordinaci\u00f3n \u00f3culo-p\u00e9dica",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "36",
+    "eusterm": "bihotz-maiztasun",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "bihotz-taupaden maiztasun",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "Bihotzak minutuko egiten dituen taupaden kopurua. Bihotz-taupaden edo bihotz-zikloen osagaien erregulartasuna ere hartzen ditu kontuan.",
+    "es": "frecuencia cardiaca bihotz-taupaden maiztasun Ik. bihotz-maiztasun",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "37",
+    "eusterm": "doitasun",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Mugimendu bat denborazko eta espaziozko zehaztasun jakin batzuetan egiteko ezaugarria.",
+    "es": "precisi\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "38",
+    "eusterm": "erlaxatu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "relajarse",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "39",
+    "eusterm": "erlaxazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "relajaci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "40",
+    "eusterm": "erreakzio-ahalmen",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "erreakzionatzeko gaitasun",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "capacidad de reacci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "41",
+    "eusterm": "errendimendu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Kirol-ekintza baten edo jarduera fisiko baten emaitza, une jakin batean. Parametro fisikoak zein fisiologikoak erabiliz neurtu edo agerian jar daiteke: esate baterako, minutuko arnas bolumena edo bihotz-maiztasuna, mugitutako halteren pisua edo proba jakin batean lortutako emaitza.",
+    "es": "rendimiento",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "42",
+    "eusterm": "erresistentzia aerobiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "resistencia aer\u00f3bica",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "43",
+    "eusterm": "erresistentzia anaerobiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "resistencia anaer\u00f3bica",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "44",
+    "eusterm": "erresistentzia-indar",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "fuerza resistencia",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "45",
+    "eusterm": "erretrobertsio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gorputzaren zeharkako ardatza mugimendu-ardatz gisa hartuz, gerritik gorako zatia atzerantz eramatean datzan mugimendua.",
+    "es": "retroversi\u00f3n; extensi\u00f3n hacia atr\u00e1s",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "46",
+    "eusterm": "errotazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "rotaci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "47",
+    "eusterm": "esku nagusi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "mano dominante",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "48",
+    "eusterm": "espazio-denboren egituraketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "es estructuraci\u00f3n espacio-temporal",
+    "es": "",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "49",
+    "eusterm": "espirazio",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "arnasbotatze",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "espiraci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "50",
+    "eusterm": "estentsio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "extensi\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "51",
+    "eusterm": "estimulu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "est\u00edmulo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "52",
+    "eusterm": "flexio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "flexi\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "53",
+    "eusterm": "flexionatu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "flexionar",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "54",
+    "eusterm": "gaitasun fisikoak",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "ahalmen fisikoak",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "aptitud",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "55",
+    "eusterm": "gaitasun pertzeptiboak",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "aptitud",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "56",
+    "eusterm": "gaitasun psikomotorrak",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "aptitud",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "57",
+    "eusterm": "garapen motor",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "desarrollo motor",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "58",
+    "eusterm": "giltzadura-mugikortasun",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "artikulazioen mugikortasun",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Hezur-giltzaduren eta bizkarrezurraren prestazio eta ezaugarrietan oinarrituz mugimenduak sortzeko gaitasuna. Giltzaduren forma eta egiturak eta muskulu, tendoi eta lokailuen luzera eta elastikotasunak osatzen dute mugikortasunaren oinarria.",
+    "es": "movilidad articular",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "59",
+    "eusterm": "gorputz-enborraren bihur- dura",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "torsi\u00f3n del tronco",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "60",
+    "eusterm": "gorputz-eskema",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "esquema corporal",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "61",
+    "eusterm": "gorputz-irudi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "imagen corporal",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "62",
+    "eusterm": "gorpuztasun",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "corporalidad",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "63",
+    "eusterm": "grabitate-zentro",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gorputzaren pisu osoa, edo gorputz- atal batena, kontzentratzen duen puntu teorikoa, normalean pelbis inguruan kokatu ohi dena. Gorputzeko puntu horretan orekatzen dira goiko eta beheko masak.",
+    "es": "centro de gravedad",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "64",
+    "eusterm": "hazkunde-erritmo",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ritmo de crecimiento",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "65",
+    "eusterm": "ibili",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "caminar; marchar",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "66",
+    "eusterm": "ikuseremu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "ikusmen-eremu",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "campo visual",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "67",
+    "eusterm": "ikuspen periferiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "visi\u00f3n perif\u00e9rica; visi\u00f3n marginal",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "68",
+    "eusterm": "indar",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "fuerza",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "69",
+    "eusterm": "indar esplosibo",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "fuerza explosiva",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "70",
+    "eusterm": "indar maximo",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "fuerza m\u00e1xima",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "71",
+    "eusterm": "inspirazio",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "arnas hartze",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "inspiraci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "72",
+    "eusterm": "interakzio",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "elkarrekintza",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "interacci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "73",
+    "eusterm": "kirol-hastapen",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "kirolean haste",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "iniciaci\u00f3n deportiva",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "74",
+    "eusterm": "koordinazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gorputzak edo gorputz-atal batek ekintza jakin bat modu orekatuan, harmonikoki eta eraginkortasunez egiteko duen gaitasuna.",
+    "es": "coordinaci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "75",
+    "eusterm": "laneko kargak",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "lan-kargak",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "cargas de trabajo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "76",
+    "eusterm": "lateralitate",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gorputzaren alde bat besteari nagusitzea zeregin motorrak egitean. Hazkunde neurologikoko prozesu bat da, eta eboluzio bati esker albo bateko gorputz-atal bat kontrako aldeko atalari nagusitzen zaio, modu naturalean, ariketa fisikoaren bidez zuzendua nahiz indartua izan daitekeen arren.",
+    "es": "lateralidad",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "77",
+    "eusterm": "lokomozio-aparatu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "aparato locomotor",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "78",
+    "eusterm": "malgutasun",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Giltzadura bat, minik edo deserosotasunik sentitu gabe, bere mugimendu-zabaltasunik handienean mugitzeko gaitasuna. Ikertzaile edo aditu batzuek malgutasuna oinarrizko gaitasun fisikotzat jotzen dute; beste batzuentzat, ordea, bigarren mailako gaitasun motorra da, edo gainerako gaitasunak errazten dituen osagaia, mugimenduak erregulatu eta doitzera mugatzen delako.",
+    "es": "flexibilidad",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "79",
+    "eusterm": "mekanismo erreflexu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "mecanismo reflejo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "80",
+    "eusterm": "motrizitate",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gizabanakoak, gainerako animalia- espezie gehienek bezala, mugimendu autogenoak sortzeko duen gaitasuna.",
+    "es": "motricidad",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "81",
+    "eusterm": "mugimendu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Norabide desberdinetan diharduten bi indar edo gehiagoren lehiaren ondorioz gertatzen den fenomenoa, espazioan gorputzak lekuz aldatzen direnean gauzatzen dena.",
+    "es": "movimiento",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "82",
+    "eusterm": "muskulu-uzkurdura",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Muskulu baten ertzak edo muturrak laburtzearen ondorioa, estimulu egoki batek, bulkada nerbiosoak normalean, sortua.",
+    "es": "contracci\u00f3n muscular",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "83",
+    "eusterm": "muskulu-uzkurdura isometriko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "contracci\u00f3n muscular isom\u00e9trica",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "84",
+    "eusterm": "muskulu-uzkurdura isotoniko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "contracci\u00f3n muscular isot\u00f3nica",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "85",
+    "eusterm": "muskuluen elastikotasun",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Muskuluak luzatu eta berriro bere hasierako atseden-jarrerara itzultzeko duen ahalmena, luzatzea eragin duen indarra amaitu ondoren, betiere luzatze hori gehiegizkoa izan ez bada.",
+    "es": "elasticidad muscular",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "86",
+    "eusterm": "neke",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Prozesu fisiologiko batek maila jakin batean funtzionatzen jarraitzeko duen ezintasuna eta/edo gorputz osoak aurrez ezarritako ariketa-intentsitate bati eusteko duen ezintasuna.",
+    "es": "fatiga",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "87",
+    "eusterm": "O2-kontsumo",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "oxigeno-kontsumo",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "consumo de O2",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "88",
+    "eusterm": "oin nagusi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "pie dominante",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "89",
+    "eusterm": "oinarrizko gaitasun fisiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "es cualidad f\u00edsica b\u00e1sica",
+    "es": "",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "90",
+    "eusterm": "oreka",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "equilibrio",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "91",
+    "eusterm": "orientazio espazial",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "orientaci\u00f3n espacial",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "92",
+    "eusterm": "oxigeno-bolumen",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "volumen de ox\u00edgeno",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "93",
+    "eusterm": "oxigeno-zor",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "deuda de ox\u00edgeno",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "94",
+    "eusterm": "pertzepzio",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "hautemate",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "percepci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "95",
+    "eusterm": "portaera",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "comportamiento",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "96",
+    "eusterm": "portaera motor",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "jokabide motor",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "conducta motriz",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "97",
+    "eusterm": "pronazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Eskuen barne-errotazioa, gorputzaren erdiko marra edo lerrorantz, eskuak aurrera begirako jarreratik abiatuz.",
+    "es": "pronaci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "98",
+    "eusterm": "pultsazio minutuko",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "p/m",
+        "qual": "4"
+      },
+      {
+        "sin": "taupada minutuko",
+        "qual": "3"
+      },
+      {
+        "sin": "t/m",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "pulsacion",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "99",
+    "eusterm": "pultsometro",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "puls\u00f3metro; puls\u00edmetro",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "100",
+    "eusterm": "sinergia muskular",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "sinergia muscular",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "101",
+    "eusterm": "supinazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Besaurrearen mugimendua, eskua barrutik kanporantz birarazten duena, esku-ahurrak aurrealderantz erakutsiz.",
+    "es": "supinaci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "102",
+    "eusterm": "tentsio muskular",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "tensi\u00f3n muscular",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "103",
+    "eusterm": "tonu muskular",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "muskulu-tonu",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "tono muscular",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "104",
+    "eusterm": "tonu postural",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "tono postural",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "105",
+    "eusterm": "uzkurtu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "contraerse",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "106",
+    "eusterm": "zangokaden luzera",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "es amplitud de la zancada",
+    "es": "",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "107",
+    "eusterm": "zurruntze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "agarrotamiento",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "108",
+    "eusterm": "abdominal (iz.)",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "abdominal",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "109",
+    "eusterm": "abiapuntuko jarrera",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "abiatzeko jarrera",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "posici\u00f3n de partida",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "110",
+    "eusterm": "adierazkortasun",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "expresividad",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "111",
+    "eusterm": "ahoz beherako etzanera",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "ahuspezko etzanera",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Sostenguko oinarria kokotsak, bularrak, eta izterren, belaunen nahiz oinen aurrealdeak osatzen duten etzateko modua.",
+    "es": "tumbado boca abajo; dec\u00fabito prono; dec\u00fabito ventral",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "112",
+    "eusterm": "ahoz gorako etzanera",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Sostenguko oinarria garondoak, bizkarrak, ipurmasailek, eta izterren, hanken nahiz oinen atzealdeak (orpoek alegia) osatzen duten etzateko modua.",
+    "es": "tumbado boca arriba; dec\u00fabito supino; dec\u00fabito dorsal",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "113",
+    "eusterm": "aireko itzulipurdi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "voltereta en el aire",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "114",
+    "eusterm": "aireratze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "despegue",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "115",
+    "eusterm": "akrobazia",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "acrobacia",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "116",
+    "eusterm": "albo-gurpil",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "rueda lateral",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "117",
+    "eusterm": "albo-iraulketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "volteo lateral",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "118",
+    "eusterm": "albo-lekualdatze",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "alboranzko desplazamendu",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "es desplazamiento lateral",
+    "es": "",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "119",
+    "eusterm": "albo-makurdura",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "albora makurtze",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "inclinaci\u00f3n lateral alboranzko desplazamendu Ik. albo-lekualdatze",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "120",
+    "eusterm": "aldagela",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "vestuario",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "121",
+    "eusterm": "alderantzizko bermatze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "es apoyo invertido; pino",
+    "es": "",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "122",
+    "eusterm": "apar-gomazko bloke",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "bloque de espuma; bloque de gomaespuma",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "123",
+    "eusterm": "aparatuko ariketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ejercicio en aparato",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "124",
+    "eusterm": "ariketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ejercicio",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "125",
+    "eusterm": "ariketa estatiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ejercicio est\u00e1tico",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "126",
+    "eusterm": "artaziak egin",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "hacer tijeras",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "127",
+    "eusterm": "atsedeneko jarrera",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "posici\u00f3n de descanso",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "128",
+    "eusterm": "atzeranzko itzulipurdi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "voltereta atr\u00e1s",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "129",
+    "eusterm": "aulki suediar",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "banku suediar",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "banco sueco",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "130",
+    "eusterm": "aurkari",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Talde baten kontra ari den beste taldea (edo talde horretako jokalaria).",
+    "es": "adversario; contrario; oponente",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "131",
+    "eusterm": "aurrerantz murgildu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "lanzarse hacia delante",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "132",
+    "eusterm": "aurreranzko itzulipurdi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "voltereta adelante",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "133",
+    "eusterm": "baldartasun motor",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "torpeza motriz",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "134",
+    "eusterm": "baloi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "bal\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "135",
+    "eusterm": "baloi medizinal",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Larruzko, gomazko edo plastikozko objektu esferikoa, 1 kg-tik 5 kg-ra bitarteko pisua izan ohi duena. Indarra lantzeko erabiltzen da, ariketa globalen nahiz ariketa lokalizatuen bidez batez ere goiko gorputz-adarretako muskulutaldeak, baina baita enborrekoak eta zangoetakoak ere, lantzeko.",
+    "es": "bal\u00f3n medicinal",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "136",
+    "eusterm": "baloia atzerantz birarazi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "rodar el bal\u00f3n hacia atr\u00e1s",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "137",
+    "eusterm": "baloia aurrerantz birarazi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "rodar el bal\u00f3n hacia delante",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "138",
+    "eusterm": "baloia botatu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "botar el bal\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "139",
+    "eusterm": "baloia jaurti",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "lanzar el bal\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "140",
+    "eusterm": "baloia lurretik birarazi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "hacer rodar el bal\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "141",
+    "eusterm": "banakako kirol",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "deporte individual",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "142",
+    "eusterm": "barra finko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gizonezkoen gimnastika artistikoan erabiltzen den aparatua: 2,75 m-ko altuera duten bi euskarri finkoren gainean ezarritako altzairuzko barra zilindrikoa da, eta 2,40 m-ko luzera eta 28 mm-ko zabalera ditu.",
+    "es": "barra fija",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "143",
+    "eusterm": "behaketa-erregistro",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "registro de observaci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "144",
+    "eusterm": "belauniko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "de rodillas; arrodillado",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "145",
+    "eusterm": "beldurra kentzeko koltxoi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "es colchoneta quitamiedos",
+    "es": "",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "146",
+    "eusterm": "bermatzeko oin",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "pie de apoyo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "147",
+    "eusterm": "beso egile",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "brazo ejecutante; brazo ejecutor",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "148",
+    "eusterm": "beso jaurtitzaile",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "brazo lanzador",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "149",
+    "eusterm": "besoak eta zangoak txanda- katze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "alternancia brazo-pierna",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "150",
+    "eusterm": "besoak luzatu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "besoak zabaldu",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "extender los brazos",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "151",
+    "eusterm": "bira",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "itzuli",
+        "qual": "4"
+      },
+      {
+        "sin": "biraketa",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "Gorputzaren luzetarako ardatzaren inguruan, inolako puntu finkorik mantendu gabe, gorputz osoaren lekualdatzea dakarren mugimendu zirkularra. Eskuinaldera edo ezkerraldera egin daiteke.",
+    "es": "giro; vuelta",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "152",
+    "eusterm": "biratu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "bira egin",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "girar",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "153",
+    "eusterm": "bizkarra kakotu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "arquear la espalda",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "154",
+    "eusterm": "borondatezko mugimendu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "nahitako mugimendu",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "movimiento voluntario",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "155",
+    "eusterm": "bote",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "bote",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "156",
+    "eusterm": "bulkada",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "impulso",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "157",
+    "eusterm": "bulkada hartu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "tomar impulso",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "158",
+    "eusterm": "bulkada-fase",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "fase de impulso; fase de batida",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "159",
+    "eusterm": "defentsa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "defensa",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "160",
+    "eusterm": "desplazamendu-abiadura",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "lekualdatze-abiadura",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "velocidad de desplazamiento",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "161",
+    "eusterm": "diagonal",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "diagonal",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "162",
+    "eusterm": "egite",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ejecuci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "163",
+    "eusterm": "epaile",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "juez",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "164",
+    "eusterm": "eraginkortasun",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "eficacia",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "165",
+    "eusterm": "eraso",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ataque",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "166",
+    "eusterm": "eraztunak",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gizonezkoen gimnastika artistikoan erabiltzen den aparatua: portiko moduko bat da, bertatik bi kable daude esekita, eta haietako bakoitzak 18 cmko diametroa eta 28 mm-ko lodiera dituen uztai bati eusten dio.",
+    "es": "anillas",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "167",
+    "eusterm": "eredu motor",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "patr\u00f3n motor",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "168",
+    "eusterm": "erorketa-fase",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "fase de ca\u00edda",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "169",
+    "eusterm": "erreakzio-abiadura",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "velocidad de reacci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "170",
+    "eusterm": "errelebo",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "relevo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "171",
+    "eusterm": "errepikapen",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "repetici\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "172",
+    "eusterm": "esfortzu fisiko",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "ahalegin",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "esfuerzo f\u00edsico",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "173",
+    "eusterm": "eskailera bertikal",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "escalera vertical",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "174",
+    "eusterm": "eskailera horizontal",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "escalera horizontal",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "175",
+    "eusterm": "eskuen gaineko bermatze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "es apoyo de manos",
+    "es": "",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "176",
+    "eusterm": "espazioaren okupazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ocupaci\u00f3n del espacio",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "177",
+    "eusterm": "etxeko talde",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "equipo local",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "178",
+    "eusterm": "fantasiazko jolas",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "juego de fantas\u00eda",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "179",
+    "eusterm": "frisbee",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "frisbee",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "180",
+    "eusterm": "geldialdi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "parada",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "181",
+    "eusterm": "gimnasio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Kirolarien entrenamendurako beharrezkoak diren gimnastikako tresnekin hornitua dagoen kirol- instalazioa.",
+    "es": "gimnasio",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "182",
+    "eusterm": "gimnasta",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "gimnasta",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "183",
+    "eusterm": "gimnastika",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ariketa fisiko sistematizatuen bitartez gorputza arindu, malgutu eta indartzeko artea; aparatu edo tresnekin nahiz gabe egin daiteke.",
+    "es": "gimnasia",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "184",
+    "eusterm": "gimnastika artistiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gimnastikako diziplina, hainbat aparatutan ariketak egitean datzana.",
+    "es": "gimnasia art\u00edstica",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "185",
+    "eusterm": "gimnastika erritmiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gimnastikako, balleteko eta dantzako elementuak konbinatzen dituen gimnastikako diziplina; ariketak musikaz lagunduta egiten dira, bakarka nahiz taldeka, eta soka, uztaia, baloia, mazoak edo xingola erabiltzen dira. Jatorrian emakumeen diziplina izan den arren, azken urteotan gizonezkoak ere aritzen dira gimnastika erritmikoan. es gimnasia r\u00edtmica",
+    "es": "",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "186",
+    "eusterm": "gimnastikako aparatu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gimnastika artistikoan, ariketak egiteko erabiltzen diren tresnetako bakoitza. Emakumeetan paralelo asimetrikoak, oreka-barra, jauzi- zaldia eta zorua bereizi ohi dira, eta gizonezkoetan, berriz, jauzi-zaldia, barra finkoa, zaldi arkuduna, zorua, eraztunak eta paraleloak.",
+    "es": "aparato de gimnasia",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "187",
+    "eusterm": "gimnastikako taula",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "ariketen taula",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "tabla de gimnasia; tabla de ejercicios",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "188",
+    "eusterm": "goma elastiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "goma el\u00e1stica",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "189",
+    "eusterm": "gora egin",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "trepar",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "190",
+    "eusterm": "gorputz-adierazpen",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "expresi\u00f3n corporal",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "191",
+    "eusterm": "gorputzeko higiene",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "higiene corporal",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "192",
+    "eusterm": "harrera",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "hartze",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "recepci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "193",
+    "eusterm": "hautazko ariketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ejercicio libre",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "194",
+    "eusterm": "hegaldi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "vuelo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "195",
+    "eusterm": "hegaldi-fase",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "fase de vuelo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "196",
+    "eusterm": "herri-kirol jaialdi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "festival de deporte popular",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "197",
+    "eusterm": "horma-barrak",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Pareta baten kontra ezarritako zurezko sare-modukoa. 1 m-ko zabalera duten hiru gorputzez osatua dago, eta gorputz bakoitzak 10 maila ditu. Malgutasuna lantzeko, abdominalak egiteko edota giza gorputzaren muskulatura indartzeko erabiltzen da.",
+    "es": "espalderas",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "198",
+    "eusterm": "ibilaldi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Luzera eta intentsitate oso aldakorreko txango edo paseoa.",
+    "es": "marcha",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "199",
+    "eusterm": "ibilaldi neurtu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "marcha regulada",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "200",
+    "eusterm": "ibilbide",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "recorrido; trayectoria",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "201",
+    "eusterm": "ibilbideari aurrea hartu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "anticiparse a la trayectoria",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "202",
+    "eusterm": "ibilketa atletiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Lekualdatze-modalitate bat: bi oinetako batek beti egon behar du zoruarekin kontaktuan, eta, gorputzaren grabitatezentroa bermatze-oinaren ardatzaren gainetik pasatzen den arte, zango hori ezin da belaunetik flexionatu.",
+    "es": "marcha atl\u00e9tica",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "203",
+    "eusterm": "igotzeko soka",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "cuerda de trepa",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "204",
+    "eusterm": "ilara",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "errenkada",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "hilera",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "205",
+    "eusterm": "imitaziozko jolas",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "juego de imitaci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "206",
+    "eusterm": "indargetze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "amortiguaci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "207",
+    "eusterm": "iraulketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gorputz osoa bere zeharkako ardatzaren gainean lekuz aldatzea eragiten duen mugimendu zirkularra, ardatz horizontalean gertatzen dena. Aurreranzko nahiz atzeranzko iraulketa izan daiteke.",
+    "es": "volteo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "208",
+    "eusterm": "itu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "blanco; diana",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "209",
+    "eusterm": "itzulipurdi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Zeharkako ardatzaren inguruan eta eskuak, bizkarra eta burua bermatuz egindako 360\u00ba-ko biraketa. Aurrerantz nahiz atzerantz egin daiteke.",
+    "es": "voltereta",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "210",
+    "eusterm": "jarrera",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "actitud",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "211",
+    "eusterm": "jarrera",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "posizio",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Gimnastikan gorputza ezartzeko erabiltzen diren oinarrizko moduetariko bakoitza. Gorputz- adarren, enborraren edo buruaren posizioa aldatuz, gainerako abiatzeko jarrerak sortzen dira: tente edo zutikakoa, belaunikokoa, eseritakoa, etzanekoa eta esekitakoa.",
+    "es": "posici\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "212",
+    "eusterm": "jarrera horizontal",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "etzanera",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "posici\u00f3n horizontal",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "213",
+    "eusterm": "jausleku",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "erortzeko hobi",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "foso de ca\u00edda",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "214",
+    "eusterm": "jauzi",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "salto",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "salto",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "215",
+    "eusterm": "jauzi egin",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "salto egin",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "saltar",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "216",
+    "eusterm": "jauzi nagusi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gimnastikan, gorputzaren zeharkako ardatzaren inguruan airean biraketa osoa egitean datzan ariketa; edozein aparatutan egin daiteke.",
+    "es": "mortal; salto mortal",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "217",
+    "eusterm": "jauzi nagusi bikoitz",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "doble salto mortal",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "218",
+    "eusterm": "jauzi nagusi hirukoitz",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "triple salto mortal",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "219",
+    "eusterm": "jauzi-zaldi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gimnastika artistikoan, gainetik jauzi egiteko erabiltzen den gimnastikako aparatua. Larruz estalitako egurrezko gorputz bat da, altueran erregulatzeko modua ematen duten euskarrien gainean bermatua. Hainbat neurritakoa izan daitekeen arren, hauek dira lehiaketa ofizialetako neurriak: 120 cm-ko luzera, 95 cm-ko zabalera, eta 135 cm-ko altuera.",
+    "es": "caballo de saltos; potro",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "220",
+    "eusterm": "jauziak lotze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "enlac",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "221",
+    "eusterm": "joko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Lehiaketa-sistemaren edo zoriaren ondorioz irabazlea eta galtzailea sortzen dituen jarduera arautua.",
+    "es": "juego",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "222",
+    "eusterm": "joko-eremu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "espacio de juego; terreno de juego",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "223",
+    "eusterm": "jolas",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "jostaketa",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "Olgeta edo atsegin hartzea beste helbururik ez duen jarduera fisiko edo mentala, arautua nahiz arautu gabea.",
+    "es": "juego",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "224",
+    "eusterm": "jolas funtzional",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "juego funcional",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "225",
+    "eusterm": "jolastoki",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "jolasleku",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "patio de recreo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "226",
+    "eusterm": "kanpoko talde",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "equipo visitante",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "227",
+    "eusterm": "keinu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "gesto",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "228",
+    "eusterm": "keinu esplosibo",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "keinu bizi",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "gesto explosivo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "229",
+    "eusterm": "keinu-abiadura",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "velocidad gestual",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "230",
+    "eusterm": "kirol",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "deporte",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "231",
+    "eusterm": "kirol aurreko joko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "juego predeportivo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "232",
+    "eusterm": "kirol-gimnastika",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "gimnasia deportiva",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "233",
+    "eusterm": "kirol-ikaskuntza",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "aprendizaje deportivo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "234",
+    "eusterm": "kirol-instalazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "instalaci\u00f3n deportiva",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "235",
+    "eusterm": "kirol-irakaskuntza",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ense\u00f1anza deportiva",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "236",
+    "eusterm": "kirol-jai",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "fiesta deportiva",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "237",
+    "eusterm": "kirol-joko",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "kirol-jolas",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "juego deportivo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "238",
+    "eusterm": "kirol-pista",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "pista deportiva; pista de deportes",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "239",
+    "eusterm": "kokoriko",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "pikotxean",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "en cuclillas",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "240",
+    "eusterm": "koltxoneta",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "colchoneta",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "241",
+    "eusterm": "kontraeraso",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "contraataque",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "242",
+    "eusterm": "lankidetza-jolas",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "juego cooperativo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "243",
+    "eusterm": "lasterka egin",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "korrika egin",
+        "qual": "4"
+      },
+      {
+        "sin": "laster egin",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "es correr",
+    "es": "",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "244",
+    "eusterm": "lasterketa",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "korrikaldi",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "carrera",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "245",
+    "eusterm": "lasterketa lasai",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "korrikaldi suabe",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "carrera suave",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "246",
+    "eusterm": "lasterketarako korridore",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "es pasillo de carrera",
+    "es": "",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "247",
+    "eusterm": "lau hankan",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "katamarka",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "a cuatro patas; en cuadripedia",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "248",
+    "eusterm": "lau hankan ibili",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "lau oinean ibili",
+        "qual": "4"
+      },
+      {
+        "sin": "katamarrean ibili",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "gatear; andar a gatas",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "249",
+    "eusterm": "lehia",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "competencia",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "250",
+    "eusterm": "lehiaketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "competici\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "251",
+    "eusterm": "lehiazko jolas",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "juego competitivo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "252",
+    "eusterm": "lekualdatze",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "lekualdaketa",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Aurrerantz, atzerantz, zeharka eta abar emandako pausoak, norabide jakin batean mugitzeko modua ematen dutenak. Ondorengoak izaten dira, normalean, gehien erabiliak: ibilketa edo ibilera; lasterketa; lau oinean ibiltzea; narrasean, herrestan edo arrastaka ibiltzea; gora egitea eta lerradura.",
+    "es": "desplazamiento",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "253",
+    "eusterm": "lerradura",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "deslizamiento",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "254",
+    "eusterm": "lerro",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "fila",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "255",
+    "eusterm": "luzatu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "estirarse",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "256",
+    "eusterm": "malabarismo",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "malabarismo; juegos malabares",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "257",
+    "eusterm": "manipulazioak",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "manipulaciones",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "258",
+    "eusterm": "marruskadura",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Kontaktuan dauden bi azalen artean sortzen den indarra. Azal bat bestearen gainean lerratzeari edota elkarren aurka biratzeari kontra egiten dio indar horrek",
+    "es": "rozamiento",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "259",
+    "eusterm": "martxan jartze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "puesta en acci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "260",
+    "eusterm": "mazo",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gimnastika erritmikoan, egurrez edo material sintetikoz egindako birla- itxurako eskuzko aparatua, luzeran 40-50 cm-koa eta pisuan gutxienez 150 g-koa.",
+    "es": "maza",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "261",
+    "eusterm": "minitramp",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "mini-tramp",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "262",
+    "eusterm": "mugikortasun-ariketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ejercicio de movilidad",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "263",
+    "eusterm": "mugimendu erritmiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "movimiento r\u00edtmico",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "264",
+    "eusterm": "mugimendu pendular",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "pendulu-mugimendu",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "movimiento pendular",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "265",
+    "eusterm": "mugimendu zirkular",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "movimiento circular",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "266",
+    "eusterm": "mugimenduen arintasun",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "soltura de los movimientos",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "267",
+    "eusterm": "mugimenduen kateamendu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "es encadenamiento de movimientos",
+    "es": "",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "268",
+    "eusterm": "nahitaezko ariketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ejercicio obligatorio",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "269",
+    "eusterm": "narrasean ibili",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "herrestan ibili",
+        "qual": "4"
+      },
+      {
+        "sin": "arrastaka ibili",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "es andar a rastras",
+    "es": "",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "270",
+    "eusterm": "norabide-aldaketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "cambio de direcci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "271",
+    "eusterm": "ohe elastiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "cama el\u00e1stica",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "272",
+    "eusterm": "oin-puntetan",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "hanka-puntetan",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "de puntillas",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "273",
+    "eusterm": "oinarrizko abilezia motor",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "oinarrizko trebetasun motor",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Bere ekintzak eraginkortasun, adimen eta trebezia-maila handiarekin egiten dituen kirolariaren kualitatea.",
+    "es": "habilidad motriz b\u00e1sica; destreza motriz b\u00e1sica oinarrizko trebetasun motor Ik. oinarrizko abilezia motor",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "274",
+    "eusterm": "oldar",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "batida",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "275",
+    "eusterm": "oreka-barra",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Emakumeen gimnastika artistikoan erabiltzen den aparatua: aluminiozko barra horizontal bat da, larruz edo material sintetikoz estalia, 5 m luze eta 10 cm zabal, lurretik 1,20 m-ko altueran kokatua, eta zertxobait inklinatutako bi euskarriren gainean ezarria.",
+    "es": "barra de equilibrio",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "276",
+    "eusterm": "paralelo asimetrikoak",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "barra paralelo asimetrikoak",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Emakumeen gimnastika artistikoan erabiltzen den aparatua: zuntz edo egurrezko bi barra dira, 2,40 m-ko luzera eta 42-48 mm-ko diametroa dutenak, elkarrekiko paraleloan eta altuera diferenteetan kokatuak, eta bina euskarri finkoren gainean bermatzen dira.",
+    "es": "paralelas asim\u00e9tricas; barras paralelas asim\u00e9tricas",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "277",
+    "eusterm": "paraleloak",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "barra paraleloak",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Gizonezkoen gimnastika artistikoan erabiltzen den aparatua: zuntz edo egur leundu, gogor eta elastikozko bi barra dira, 3,50 m-ko luzera dutenak, elkarrekiko paraleloan eta bata bestetik 42-52 cm-ra kokatuak, eta altuera erregulagarriko bina euskarriren gainean bermatzen dira.",
+    "es": "paralelas; barras paralelas",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "278",
+    "eusterm": "partida",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "partido; encuentro",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "279",
+    "eusterm": "pertzepziozko trebetasun",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "es habilidad perceptiva",
+    "es": "",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "280",
+    "eusterm": "pika",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "pica",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "281",
+    "eusterm": "pilota",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "pelota",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "282",
+    "eusterm": "pirueta",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gorputzaren luzetarako ardatzaren inguruan 360\u00ba-ko bira bat edo gehiago egitean datzan ariketa gimnastikoa.",
+    "es": "pirueta",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "283",
+    "eusterm": "plantxa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Hanka bat jaso eta gorputza kontrako noranzkoan inklinatzean datzan ariketa gimnastikoa. Hankaren jarrera eta igoeraren arabera, izan daiteke bizkarplantxa (hanka aurrerantz eta gorputza atzerantz), aurpegi-plantxa (gorputza aurrerantz eta hanka atzerantz) eta albo-plantxa (gorputza alde baterantz eta hanka kontrako alderantz).",
+    "es": "plancha",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "284",
+    "eusterm": "plinto",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Zenbait ariketa fisiko ikasi eta egiteko erabili ohi den aparatua, hainbat moduluz osatua: moduluak bata bestearen gainean jarriz, altuera diferenteak lortzen dira.",
+    "es": "plinton; plinto",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "285",
+    "eusterm": "posizio-aldaketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "permuta",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "286",
+    "eusterm": "postura",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "postura",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "287",
+    "eusterm": "presionatu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "zanpatu",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "presionar",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "288",
+    "eusterm": "proba fisiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "prueba f\u00edsica",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "289",
+    "eusterm": "progresio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "progresi\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "290",
+    "eusterm": "pultsazioak hartu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "taupadak hartu",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "coger las pulsaciones",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "291",
+    "eusterm": "punteria",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "punter\u00eda",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "292",
+    "eusterm": "puntuazio-sistema",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "sistema de puntuaci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "293",
+    "eusterm": "rol-banaketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "reparto de roles",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "294",
+    "eusterm": "saltometro",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "salt\u00f3metro",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "295",
+    "eusterm": "saskiratze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "canasta",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "296",
+    "eusterm": "sokan gora egin",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "soka igo",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "trepar la soga",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "297",
+    "eusterm": "sokasaltoan aritu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "saltar a la comba; saltar a la cuerda",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "298",
+    "eusterm": "sokasaltoko soka",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "cuerda de saltar",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "299",
+    "eusterm": "sostenguko oinarri",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "base de sustentaci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "300",
+    "eusterm": "talde-estrategia",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "estrategia de conjunto",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "301",
+    "eusterm": "talde-kirol",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "deporte de equipo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "302",
+    "eusterm": "taldekide",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "compa\u00f1ero de equipo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "303",
+    "eusterm": "tatami",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "tatami",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "304",
+    "eusterm": "teknikaren ikaskuntza",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "teknika ikaste",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "aprendizaje de la t\u00e9cnica",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "305",
+    "eusterm": "test-bateria",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "test-andana",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "bater\u00eda de tests",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "306",
+    "eusterm": "topaketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "meeting; reuni\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "307",
+    "eusterm": "tranpolin",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "jauzi egiteko tranpolin",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Gimnastika artistikoan, hainbat tresnatara sartzeko unean kirolariaren bulkada handitzeko erabiltzen den aparatua.",
+    "es": "trampol\u00edn; trampol\u00edn de salto",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "308",
+    "eusterm": "trebetasun motor",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "destreza motriz",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "309",
+    "eusterm": "trosta",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "trote",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "310",
+    "eusterm": "trostan",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "al trote",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "311",
+    "eusterm": "trostan ibili",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "trotar",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "312",
+    "eusterm": "txapelketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "campeonato",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "313",
+    "eusterm": "txingoka",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "a la pata coja",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "314",
+    "eusterm": "uzkurdura",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "contracci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "315",
+    "eusterm": "uztai",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gimnastika erritmikoan, eskuz erabiltzeko aparatua, 80-90 cm-ko diametroa eta gutxienez 300 g-ko pisua duen egurrezko edo plastikozko eraztun batez osatua.",
+    "es": "aro",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "316",
+    "eusterm": "zaldi arkudun",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gizonezkoen gimnastika artistikoan erabiltzen den aparatua: ohiko jauzi- zaldi estandar bat da, eta muturretatik 11 cm-ko distantziara 45-50 cm-ko altuera duten bi arku eransten zaizkio. es caballo con arcos",
+    "es": "",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "317",
+    "eusterm": "zaldi-jauzi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "salto del potro",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "318",
+    "eusterm": "zangalatrau eserita",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "sentado a horcajadas",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "319",
+    "eusterm": "zango batekin oldar egin",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "batir con una pierna",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "320",
+    "eusterm": "zango biekin oldar egin",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "batir con ambas piernas",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "321",
+    "eusterm": "zango flexionatu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "pierna flexionada",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "322",
+    "eusterm": "zango-gurutzatze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "cruce de piernas",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "323",
+    "eusterm": "zango-jaurtitze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "lanzamiento de la pierna",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "324",
+    "eusterm": "zangoak gurutzatuta eserita",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "sentado con piernas cruzadas",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "325",
+    "eusterm": "zangokaden maiztasun",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "frecuencia de la zancada",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "326",
+    "eusterm": "zeregin motor",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "ataza motor",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Gorputz-hezkuntzan eta kirolean ikasleei agintzen zaizkien ariketa fisikoak; horietan, alderdi funtzional hutsez gain pertzepzio edo ezagutza- mailako bestelako helburuak ere garatu eta lantzen dira.",
+    "es": "tarea motriz",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "327",
+    "eusterm": "zinta",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "xingola",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "cinta",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "328",
+    "eusterm": "zintzilikatu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "eseki",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "suspenderse; colgarse",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "329",
+    "eusterm": "zirkuitu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "circuito",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "330",
+    "eusterm": "zirkundukzio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Gorputz-atal baten edo gehiagoren desplazamendu zirkularra; besoak nahiz hankak hedatuta daudela, flexio, estentsio, abdukzio, adukzio eta errotazioko mugimenduak konbinatuz lortzen da.",
+    "es": "circunducci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "331",
+    "eusterm": "zoru",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "suelo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "332",
+    "eusterm": "zoruko ariketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ejercicio de suelo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "333",
+    "eusterm": "zubia egin",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "hacer el puente",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "334",
+    "eusterm": "zutikako jarrera",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "tenteko jarrera",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "Ohiko ariketa gimnastikoetan erabiltzen den funtsezko jarrera, gainerako jarrera guztien abiapuntua: zutik, oinak elkarren ondoan bilduta eta zuzen, enborra zuzen, burua aurrera begira eta besoak enborrari itsatsita.",
+    "es": "posici\u00f3n de firmes",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "335",
+    "eusterm": "akidura",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "akitze",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Muskulu batek jarduerari eusteko duen erabateko ezintasuna.",
+    "es": "agotamiento ariketa abdominal hipopresibo Ik. hipopresibo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "336",
+    "eusterm": "azterketa mediko",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "mediku-azterketa",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "reconocimiento m\u00e9dico",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "337",
+    "eusterm": "bibrazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "vibraci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "338",
+    "eusterm": "bihurritu (iz.)",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "esguince; torcedura",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "339",
+    "eusterm": "eroriko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ca\u00edda",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "340",
+    "eusterm": "esfortzu-proba",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "prueba de esfuerzo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "341",
+    "eusterm": "eskoliosi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "escoliosis",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "342",
+    "eusterm": "estropezu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "behaztopa",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "tropez\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "343",
+    "eusterm": "fisura",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "pitzadura",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "fisura",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "344",
+    "eusterm": "gainentrenamendu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "sobreentrenamiento",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "345",
+    "eusterm": "gainkarga",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "sobrecarga",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "346",
+    "eusterm": "gainluzatze",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "gaintiramendu",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "sobreestiramiento",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "347",
+    "eusterm": "hezur-haustura",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "fractura de un hueso",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "348",
+    "eusterm": "hiperaktibitate",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "hiperactividad",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "349",
+    "eusterm": "hipertrofia",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "hipertrofia",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "350",
+    "eusterm": "hipopresibo",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "ariketa abdominal hipopresibo",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "es hipopresivo; ejercicio abdominal hipopresivo",
+    "es": "",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "351",
+    "eusterm": "jarrerazko akats",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "akats postural",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "vicio postural",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "352",
+    "eusterm": "kontraktura muskular",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "muskuluaren kontraktura",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "contractura muscular",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "353",
+    "eusterm": "lepoko zartako",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "latigazo cervical",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "354",
+    "eusterm": "lokadura",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "luxaci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "355",
+    "eusterm": "lordosi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "lordosis",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "356",
+    "eusterm": "masaje",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Muskuluak igurtzi, estutu edo kolpekatzean datzan praktika terapeutikoa. Muskuluak egoera hoberenean mantentzeko, nahiz tonifikatu, erlaxatu edota lesio baten ondotik suspertu eta egoera normala berreskuratzeko egin ohi da.",
+    "es": "masaje",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "357",
+    "eusterm": "muskulaturaren hipertonia",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "es hiperton\u00eda de la musculatura",
+    "es": "",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "358",
+    "eusterm": "muskulu-lesio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "lesi\u00f3n muscular muskuluaren kontraktura Ik. kontraktura muskular",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "359",
+    "eusterm": "muskuluetako arranpa",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "muskulu-kalanbre",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "calambre muscular",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "360",
+    "eusterm": "talka",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "choque",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "361",
+    "eusterm": "tendinitis",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "tendinitis",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "362",
+    "eusterm": "zaintiratu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "tir\u00f3n muscular; distensi\u00f3n muscular",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "363",
+    "eusterm": "zifosi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "cifosis",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "364",
+    "eusterm": "zuntz-haustura",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "rotura de fibras; desgarro muscular",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "365",
+    "eusterm": "zurruntasun",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "rigidez",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "366",
+    "eusterm": "3. adinekoentzako gimnastika",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "es gimnasia para la 3\u00aa edad",
+    "es": "",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "367",
+    "eusterm": "aerobic",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Hogei bat minutuz gutxienez, modu erritmiko, jarraitu eta atseginean egindako ariketa-konbinazioen seriea. Aerobic hitzak, berez, \u00aboxigenoarekin\u00bb esan nahi du; edozein jarduera aerobikok gizabanakoari dakarkion ahaleginak oxigenoa erabiltzea eskatzen du energia lortzeko, eta horrek gorputzaren arnas eta bihotz-gaitasuna hobetzeko modua ematen du.",
+    "es": "aerobic",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "368",
+    "eusterm": "aisialdiko jarduera",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "olgeta-jarduera",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "actividad recreativa",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "369",
+    "eusterm": "aisialdiko kirol",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "deporte recreativo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "370",
+    "eusterm": "aplikazio-ariketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ejercicio de aplicaci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "371",
+    "eusterm": "aquafitness",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "aquafitness",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "372",
+    "eusterm": "aquagym",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "uretako gimnastika",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "",
+    "es": "aquagym",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "373",
+    "eusterm": "aquarunning",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "aquarunning",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "374",
+    "eusterm": "ariketa fisiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ejercicio f\u00edsico",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "375",
+    "eusterm": "asimilazio-ariketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ejercicio de asimilaci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "376",
+    "eusterm": "atsedenaldi",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "atseden",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Entrenamenduetan, gorputzeta kiroljarduerarik gabeko tartea. Atseden- garaiak saioen arteko erregenerazio- maila bizkortzen du, nekea arinduz, segidan karga edo esfortzu handiagoak egitea ahalbidetzen du, eta lesioak agertzeari aurrea hartzeko modua ematen digu.",
+    "es": "reposo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "377",
+    "eusterm": "aurkakotasuneko kirol",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "aurkakotasun-kirol",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "deporte de oposici\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "378",
+    "eusterm": "beroketa",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "berotze",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Ariketa-saio baten aurretik egiten den jarduera fisikoa, intentsitate ertain edo moderatukoa, ondoren egingo diren lan gogorragoetarako prestatzeko gorputza.",
+    "es": "calentamiento",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "379",
+    "eusterm": "berotze-ariketa",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "ejercicio de calentamiento",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "380",
+    "eusterm": "besoa armatu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "armar el brazo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "381",
+    "eusterm": "egoera motor",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "situaci\u00f3n motriz",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "382",
+    "eusterm": "egokitzapen fisiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Sasoi fisikoaren maila jakin bat lortzeko, mantentzeko edo hobetzeko helburuarekin egiten den entrenamendu-prozesua.",
+    "es": "acondicionamiento f\u00edsico",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "383",
+    "eusterm": "entrenamendu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Pertsonaren gaitasun fisikoak, koordinaziokoak eta psikikoak mailarik gorenean garatzeko asmoz egiten den lan-prozesu jarraitua, kirol-errendimendu maximoa lortzera bideratua.",
+    "es": "entrenamiento",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "384",
+    "eusterm": "entrenamenduaren periodizazio",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "entrenamendua zatikatze",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "periodizaci\u00f3n del entrenamiento",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "385",
+    "eusterm": "errekuperazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Kirola praktikatzean esfortzu bat egin ondoren, kirolariak sasoi fisiko egokia berreskuratzea.",
+    "es": "recuperaci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "386",
+    "eusterm": "eskola-kirol",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "deporte escolar",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "387",
+    "eusterm": "fartlek",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Metodo jarraituaren barruan sartzen den entrenamendu-modua: askotariko intentsitate, distantzia eta erritmoak txandakatzen dira etenik gabeko ahaleginaren barruan, inolako atsedenik gabe eta tartean gimnastikako ariketarik egin gabe.",
+    "es": "fartlek",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "388",
+    "eusterm": "fitness",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Ariketaeta jarduera-multzoa, pertsona bati bizi-kalitate hoberena izateko modua ematea bilatzen duen egoera lantzera bideratua.",
+    "es": "fitness",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "389",
+    "eusterm": "forma fisiko",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "sasoi",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Kirolari baten gaitasun fisiko eta psikomotorra. Prestakuntza fisiko egokia beharrezkoa da forma fisikoa hobetzeko, hau da, ariketa fisikoak ahalik eta eraginkortasun handienez egiteko eta lesioei aurrea hartzeko.",
+    "es": "condici\u00f3n f\u00edsica; forma f\u00edsica",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "390",
+    "eusterm": "giltzadurak askatu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "soltar articulaciones",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "391",
+    "eusterm": "Gorputz Hezkuntza",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "Educaci\u00f3n F\u00edsica",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "392",
+    "eusterm": "Gorputz Hezkuntza Berezi",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "es Educaci\u00f3n F\u00edsica Especial",
+    "es": "",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "393",
+    "eusterm": "Gorputz Hezkuntzako saio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "sesi\u00f3n de Educaci\u00f3n F\u00edsica",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "394",
+    "eusterm": "guztiontzako kirol",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "deporte para todos",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "395",
+    "eusterm": "intentsitate baxuko gimnastika",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "gimnasia de baja intensidad",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "396",
+    "eusterm": "interval training",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Esfortzuen artean atsedenaldiak tartekatuz, lana eta atsedena txandakatzen dituen entrenamendu- sistema. Horrek, ahalegin bakoitzaren ondotik nolabait errekuperatu, eta errepikapen bakoitzean nahi den intentsitatearekin lan egiteko modua ematen dio gorputzari.",
+    "es": "interval training",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "397",
+    "eusterm": "jarduera fisiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "actividad f\u00edsica",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "398",
+    "eusterm": "jazz-dantza",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "danza-jazz",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "399",
+    "eusterm": "kirol egokitu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "deporte adaptado",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "400",
+    "eusterm": "kirol hezitzaile",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "deporte educativo",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "401",
+    "eusterm": "kirol osasungarri",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "deporte salud",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "402",
+    "eusterm": "kirol-jarduera fisiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "actividad f\u00edsico-deportiva",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "403",
+    "eusterm": "lankidetzako kirol",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "lankidetza-kirol",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "",
+    "es": "deporte de cooperaci\u00f3n",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "404",
+    "eusterm": "lasterketa jarraitu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "carrera continua",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "405",
+    "eusterm": "luzatze",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "luzaketa",
+        "qual": "3"
+      },
+      {
+        "sin": "tiramendu",
+        "qual": "3"
+      }
+    ],
+    "eusdef": "Gorputz-atalak beren mugimendu- zabaltasunik handienean hedatzea, muskulatura eta giltzadurak ondorengo esfortzurako ahalik eta modurik hoberenean prestatzeko.",
+    "es": "estiramiento",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "406",
+    "eusterm": "muskuluak bigundu",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "desentumecer m\u00fasculos",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "407",
+    "eusterm": "natura-inguruneko jarduerak",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "es actividad",
+    "es": "en el medio natural",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "408",
+    "eusterm": "Oinarrizko Gorputz Hezkuntza",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "Educaci\u00f3n F\u00edsica de Base",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "409",
+    "eusterm": "Pilates",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "Pilates",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "410",
+    "eusterm": "prestakuntza fisiko",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "Kirol-entrenamenduaren prozesua osatzen duten zatietako bat: bere helburua kirolariaren ezaugarri fisikoak hobetzea da, ondoren errendimendu hobea lortzeko.",
+    "es": "preparaci\u00f3n f\u00edsica",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "411",
+    "eusterm": "spinning",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "spinning",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "412",
+    "eusterm": "stretching",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "stretching",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "413",
+    "eusterm": "trebatze",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "adiestramiento",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "414",
+    "eusterm": "uretako errehabilitazio",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "rehabilitaci\u00f3n acu\u00e1tica",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "415",
+    "eusterm": "zirkuituko entrenamendu",
+    "eustermqual": "4",
+    "sins": [
+      {
+        "sin": "circuit training",
+        "qual": "4"
+      }
+    ],
+    "eusdef": "Jatorrian, modu zirkularrean ezarritako etapa edo estazioak banan-banan pasatzean datzan entrenamenduko metodoa. Gaur egun, gorputz-atalak lantzeko, askotariko ariketak egiten dira, jarraian edo txandaka, indarra eta erresistentzia aldi berean lantzeko.",
+    "es": "circuit training; entrenamiento en circuito",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  },
+  {
+    "id": "416",
+    "eusterm": "zirkuituko lan",
+    "eustermqual": "4",
+    "sins": [],
+    "eusdef": "",
+    "es": "trabajo en circuito",
+    "esdef": "",
+    "fr": "",
+    "frdef": "",
+    "en": "",
+    "endef": ""
+  }
+]
