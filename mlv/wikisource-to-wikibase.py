@@ -14,7 +14,7 @@ where {
         xdp:P147 ?token_forma ;
         xdp:P148 ?token_zbk ;
        
-} order by xsd:integer(?token_zbk)"""
+} order by xsd:float(?token_zbk)"""
 r = xwbi.wbi_helpers.execute_sparql_query(query, prefix=config.sparql_prefixes)
 
 print(f"\nFound {str(len(r['results']['bindings']))} existing tokens for this text ({textitem})\n")

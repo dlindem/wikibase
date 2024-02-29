@@ -2,6 +2,8 @@ import re, json
 import urllib.request
 from nltk.tokenize import word_tokenize
 
+# get pdf index from https://eu.wikisource.org/wiki/Azkoitiko_Sermoia?action=raw
+
 project_name = "Larramendi_1737_Azkoitiko_Sermoia"
 
 wikisource_pages = ["Orrialde:Larramendi_1737_Azkoitiko_Sermoia.pdf/1", "Orrialde:Larramendi_1737_Azkoitiko_Sermoia.pdf/2"]
@@ -15,7 +17,8 @@ for page in wikisource_pages:
     text += wikitext + " "
 
 print(text)
-paragrafoak = re.findall(r"\{\{aingura\|[0-9]+\}\}[^\{]+", text.replace('\n',''))
+text = re.sub(' +', ' ',text.replace('\n',' '))
+paragrafoak = re.findall(r"\{\{aingura\|[0-9]+\}\}[^\{]+", text)
 print(str(paragrafoak))
 
 number = 0
