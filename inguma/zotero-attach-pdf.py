@@ -1,11 +1,9 @@
 import json, csv, requests, sys, re, time
 import config_private, iwbi
 
-with open('data/ikergazte-doi-url-pdf.json') as jsonfile:
-	doi_pdf = json.load(jsonfile)
-
-with open('data/ikergazte-zot-doi-wikibase.csv') as csvfile:
+with open('data/ikergazte-wb-pdf-zotst-zot.csv) as csvfile:
 	entries = csv.DictReader(csvfile)
+
 	for entry in entries:
 		qid = entry['wikibase']
 		zotid = entry['zotero']
