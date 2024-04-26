@@ -210,7 +210,7 @@ def add_labels(groupname, entryjson, iwbitem, statements):
 		label = entryjson['name'].strip()+' '+entryjson['surname'].strip()+' '+entryjson['secondSurname'].strip()
 		aliases = [entryjson['name'].strip()+' '+entryjson['surname'].strip(),entryjson['surname'].strip()+', '+entryjson['name'].strip()]
 	elif groupname == "productions":
-		label_encoded = entryjson['title'].encode("ascii", "ignore") # eliminate unicode characters like '\u2028'
+		label_encoded = entryjson['title'][:249].encode("ascii", "ignore") # eliminate unicode characters like '\u2028'
 		label = label_encoded.decode()
 	elif groupname == "knowledge-areas":
 		langs = ['eu']
@@ -297,7 +297,8 @@ def get_orgs(entryjson, statements):
 
 def update_group(groupname, rewrite=False): # if rewrite=True is passed, existing wikibase items are checked and re-written
 	print('\nWill process group '+groupname+'...\n')
-	keypress = input('Press 1 for downloading new data from INGUMA, other keys for re-using existing file.')
+	# keypress = input('Press 1 for downloading new data from INGUMA, other keys for re-using existing file.')
+	keypress = 0
 	if keypress == "1":
 		group = inguma.get_ingumagroup(groupname)
 	else:
@@ -325,8 +326,8 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 		index +=1
 
 		# for bridging aborted runs
-		if index < 40075:
-			continue
+		# if index < 40075:
+		# 	continue
 
 		# productions: exclude non-allowed production types
 		if groupname == "productions":
@@ -413,9 +414,9 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 
 				elif inguma.mappings[groupname][key].startswith("url:"):
 					prop = inguma.mappings[groupname][key].split(':')[1]
-					url_processed = process_url(value, ingumaitem = groupname+' '+entry['id'])
+					url_processed = process_url(value, ingumaitem = groupname+' '+str(entry))
 					if url_processed:
-						statements['replace'].append(iwbiv1.URL(value=url_unparsed, prop_nr=prop))
+						statements['replace'].append(iwbiv1.URL(value=url_processed, prop_nr=prop))
 
 				elif inguma.mappings[groupname][key].startswith("mon:"): # example: "mon:eu:P10" (productions title)
 					lang = inguma.mappings[groupname][key].split(':')[1]
@@ -445,6 +446,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 		if entry not in qidmapping and qid:
 			with open(groupmappingfile, 'a', encoding="utf-8") as txtfile:
 				txtfile.write(str(entry)+'\t'+qid+'\n')
+		time.sleep(0.2)
 		#except Exception as ex:
 			#print('Error: ',str(ex))
 

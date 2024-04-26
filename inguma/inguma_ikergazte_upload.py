@@ -337,7 +337,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 			if not group[entry]['doi']:
 				continue
 			print(str(group[entry]['doi']))
-			if 'ikergazte' not in group[entry]['doi']:
+			if 'ikergazte.v' not in group[entry]['doi']:
 				continue
 
 			doi = group[entry]['doi'].replace('https://dx.doi.org/','')

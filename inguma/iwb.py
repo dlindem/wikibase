@@ -151,4 +151,49 @@ def setqualifier(qid, prop, claimid, qualiprop, qualio, dtype):
 				print('Error: '+str(ex))
 				time.sleep(5)
 
+def stringclaim(s, p, o):
+	global token
+
+	done = False
+	value = '"'+o.replace('"', '\\"')+'"'
+	while (not done):
+		try:
+			request = site.post('wbcreateclaim', token=token, entity=s, property=p, snaktype="value", value=value, bot=1)
+			if request['success'] == 1:
+				done = True
+				claimId = request['claim']['id']
+				print('Claim creation done: '+s+' ('+p+') '+o+'.')
+				#time.sleep(1)
+		except Exception as ex:
+			if 'Invalid CSRF token.' in str(ex):
+				print('Wait a sec. Must get a new CSRF token...')
+				token = get_token()
+			if 'Must be at least one character long' in str(ex):
+				return False
+			else:
+				print('Claim creation failed, will try again...\n'+str(ex))
+				time.sleep(4)
+	return claimId
+
+def removeclaim(guid):
+	global token
+	guidfix = re.compile(r'^(Q\d+)\-')
+	guid = re.sub(guidfix, r'\1$', guid)
+	done = False
+	while (not done):
+		try:
+			results = site.post('wbremoveclaims', claim=guid, token=token)
+			if results['success'] == 1:
+				print('Wb remove claim for '+guid+': success.')
+				done = True
+		except Exception as ex:
+			print('Removeclaim operation failed, will try again...\n'+str(ex))
+			if 'Invalid CSRF token.' in str(ex):
+				print('Wait a sec. Must get a new CSRF token...')
+				token = get_token()
+			if 'invalid-guid' in str(ex):
+				print('The guid to remove was not found.')
+				done = True
+			time.sleep(4)
+
 print('IWB basic client (mwclient) loaded.')
