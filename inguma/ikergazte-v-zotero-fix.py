@@ -67,15 +67,15 @@ def zotero_update_item(zotitem):
 		else:
 			return f"Unknown error updating *** <code><a href=\"{zotitem['links']['alternate']['href']}\" target=\"_blank\">{zotitem['key']}</a></code>: Reload records to be exported from Zotero."
 
-with open('data/done_pdf_attachments.txt', 'r') as donefile:
+with open('data/nullbyte_qid.txt', 'r') as donefile:
 	donelist = donefile.read().split('\n')
-	doneitems = {}
-	for item in donelist:
-		try:
-			doneitems[(item.split('\t')[0])] = {'zot': item.split('\t')[1], 'att': item.split('\t')[2]}
-		except:
-			pass
-	print(f"List of done items: {doneitems}")
+	# doneitems = {}
+	# for item in donelist:
+	# 	try:
+	# 		doneitems[(item.split('\t')[0])] = {'zot': item.split('\t')[1], 'att': item.split('\t')[2]}
+	# 	except:
+	# 		pass
+	# print(f"List of done items: {doneitems}")
 
 with open('data/ikergazte-v-doi-pdf.csv') as csvfile:
 	wikibase_csv = csv.DictReader(csvfile)
