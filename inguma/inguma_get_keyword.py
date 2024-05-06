@@ -1,6 +1,6 @@
 import re, os
 
-keyword = "Mitxelena"
+keyword = "Michelena"
 
 path = '/media/david/FATdisk/Inguma/processed_pdf/'
 for filename in os.listdir(path):
