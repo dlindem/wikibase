@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Gertuko biotinilazioa E2F7 transkripzio faktorearen interaktoma deskribatzeko estrategia gisa: TurboID sistemaren garapena</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ekaitz</forename><surname>Madariaga</surname></persName>
+							<email>ekaitz.madariaga@ehu.eus</email>
+							<affiliation key="aff0">
+								<orgName type="department">Antropologia Fisikoa eta Animalien Fisiologia saila</orgName>
+								<orgName type="institution">Euskal Herriko Unibertsitatea</orgName>
+								<address>
+									<settlement>Genetika</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">UPV/EHU</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">D</forename><surname>Sutherland</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Center for Cooperative Research in Biosciences (CICbioGUNE)</orgName>
+								<orgName type="institution">Basque Research and Technology Alliance (BRTA)</orgName>
+								<address>
+									<region>Derio</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jone</forename><surname>Mitxelena</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Antropologia Fisikoa eta Animalien Fisiologia saila</orgName>
+								<orgName type="institution">Euskal Herriko Unibertsitatea</orgName>
+								<address>
+									<settlement>Genetika</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">UPV/EHU</orgName>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">IKERBASQUE</orgName>
+								<orgName type="department" key="dep2">Basque Foundation for Science</orgName>
+								<address>
+									<settlement>Bilbao</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ana</forename><forename type="middle">M</forename><surname>Zubiaga</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Antropologia Fisikoa eta Animalien Fisiologia saila</orgName>
+								<orgName type="institution">Euskal Herriko Unibertsitatea</orgName>
+								<address>
+									<settlement>Genetika</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">UPV/EHU</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Gertuko biotinilazioa E2F7 transkripzio faktorearen interaktoma deskribatzeko estrategia gisa: TurboID sistemaren garapena</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.26876/ikergazte</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-04-30T15:48+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>E2F7</term>
+					<term>interactome</term>
+					<term>proximity biotinylation</term>
+					<term>TurboID</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena</head><p>E2F transkripzio faktoreek (E2F1-8) prozesu biologiko eta gaixotasun ugaritan parte hartzen dute. E2F7ri dagokionez, bere funtzio nagusia geneen adierazpena erreprimitzea dela deskribatu dugu, baina bere ekintza-mekanismoa ezagutzeke dago. Lan honetan, E2F7ren interaktoreak aztertzeko TurboID biotina ligasaren bidezko proteinen gertuko biotinilazio-sistema baten garapena deskribatzen dugu. Horretarako, TurboID-E2F7 ekoizten duten zelula-lerro egonkorrak garatu ditugu. Gure datuek berretsi dute TurboID-E2F7 fusio-proteina zelulen nukleoan kokatzen dela batik bat, E2F7 proteina basatia bezala. Aldiz, bere interaktoreak zitoplasman zein nukleoan daudela ikusi dugu. Gainera, lan honetan garatu den estrategia E2F7ren interaktoreak identifikatzeko sistema baliagarria dela frogatu dugu.</p><p>Hitz gakoak: E2F7, interaktoma, proteinen gertuko biotinilazioa, TurboID.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>E2F transcription factors (E2F1-8) play an important role in several biological processes and diseases. Regarding E2F7, we have shown that its main role is to repress expression of protein-and microRNA-coding genes, but little is known about its mechanism. In this work, we describe the development of a proximity biotinylation approach based on the TurboID biotin ligase in order to study E2F7 interactors. With this aim, we generated stable cell lines that express TurboID-E2F7 in response to doxycycline. Our data confirm that TurboID-E2F7 localizes mainly in the nucleus, similarly to the wild-type E2F7, and describe the presence of E2F7 interactors in both the nucleus and the cytoplasm. In addition, we show that the TurboID strategy is suitable for identification of E2F7 interactors.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Sarrera eta motibazioa</head><p>Ziklo zelularra zelulen hazkuntza eta proliferazioa kontrolatzen duen prozesu konplexua da. Ziklo zelularraren disfuntzioak minbizia eta bestelako patologia latzen sorrera ekar dezake eta, beraz, modu zorrotzean erregulatuta egon behar da. Zikloaren garapena puntu zehatzetan konprobatzen da (ingelesezko checkpoint-etan), ziklo zelularraren progresio egokia bermatzen dutenak. Zikloaren proteina erregulatzaile nagusien artean, E2F transkripzio faktoreak daude <ref type="bibr" target="#b6">(Kent eta Leone, 2019;</ref><ref type="bibr" target="#b15">Rubin et al., 2020)</ref>. E2F faktoreek arautzen duten bidezidorrak ia minbizi mota guztietan mutatuta daude, hala nola bularreko, birikako eta prostatako minbizietan, eta kasu guztietan E2Fren menpeko geneen erregulazioa galduta dagoela ikusi da <ref type="bibr" target="#b5">(Hamidi et al., 2022;</ref><ref type="bibr" target="#b6">Kent eta Leone, 2019)</ref>. E2F familia zortzi genez (E2F1-8) osatuta dago eta, besteak beste, DNAren bikoizketan eta ziklo zelularraren garapenean parte hartzen duten geneen adierazpena kontrolatzen dute <ref type="bibr" target="#b5">(Hamidi et al., 2022;</ref><ref type="bibr" target="#b6">Kent eta Leone, 2019;</ref><ref type="bibr" target="#b14">Mitxelena et al., 2018)</ref>. E2F transkripzio faktore guztiek sekuentziahomologia oso altua dute, batez ere DNAri batzeko domeinuan (DBD). Hala ere, E2F proteina bakoitzak bere elementu bereizgarriak izan ditzake, eta horren arabera bi talde nagusitan banatu daitezke: E2F klasikoak (E2F1-6) eta E2F atipikoak (E2F7-8) <ref type="bibr" target="#b4">(de Bruin et al., 2003;</ref><ref type="bibr" target="#b10">Lammens et al., 2009)</ref>.</p><p>Bi talde hauen ezberdintasun nagusia DBD bakarraren (E2F klasikoen kasuan) edo bi DBDren presentzian (E2F atipikoetan) oinarritzen da. Horretaz gain, E2F1-5 kideek erretinoblastoma familiako (RB) proteinekin elkarrekiteko transaktibazio domeinu bat dute haien sekuentzian. E2Fak RB proteinarekin batera haien itu-geneen promotoreetara lotuta daude, bi proteina hauen IkerGazte, 2023 Osasun Zientziak arteko elkarrekintzak E2Fen aktibitatea ekiditen duelarik. Ziklo zelularrean zehar RBn gertatutako itzulpen-osteko eraldaketek RB-E2F elkarrekintza apurtzea eragiten dute. Horren ondorioz, E2F faktoreek gene ugarien adierazpena induzitzeko gaitasuna eskuratzen dute, DNAren bikoizketa eta zikloaren progresioa sustatzen duten funtsezko geneena bereziki <ref type="bibr" target="#b6">(Kent eta Leone, 2019)</ref>.</p><p>E2F transkripzio faktoreak hainbat proteinekin lotzen dira beraien itu-geneen adierazpena erregulatzeko. E2F klasikoek haien transaktibazio domeinua erabiltzen dute kromatina-eraldatze konplexu ezberdinak gene ituetara bideratzeko, hauek konplexu aktibatzaileak (kromatinaren "irekiera" eragiten dutenak) edo errepresoreak (kromatinaren kondentsazioa bideratzen dutenak) izan daitezkeelarik. E2F atipikoak, aldiz, gene adierazpenaren erregulatzaile negatibo moduan deskribatu dira orokorrean, baina haien ekintza-mekanismoaren zehaztasunak gutxi ezagutzen dira. Beraz, E2F transkripzio faktoreek zelulen prozesu anitzetan parte hartzen dutela kontuan hartuta E2F atipikoen ekintza-mekanismoa ezagutzeak berebiziko garrantzia du.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Arloko egoera eta ikerketaren helburuak</head><p>E2F atipikoek ez dute transaktibazio domeinurik, eta beraz, gene adierazpenaren erregulazioan bestelako mekanismoak erabiltzen dituztela proposatu da. Ikerketa batzuek E2F7ren eta CTBP proteinen (CTBP1 eta CTBP2, c-terminal binding protein) arteko interakzioa deskribatu dute <ref type="bibr" target="#b12">(Liu et al., 2013;</ref><ref type="bibr" target="#b16">Zhao et al., 2014)</ref>. CTBP proteinek transkripzioaren errepresioa bideratzen dute erreklutatzen dituzten histona-eraldatzaile konplexuen bitartez, eta E2F7k burututako erregulazio genikoaren bitartekari gisa proposatu dira <ref type="bibr" target="#b12">(Liu et al., 2013;</ref><ref type="bibr" target="#b16">Zhao et al., 2014)</ref>.</p><p>E2F7ren ekintza-mekanismoa ezagutzeko nahian, afinitatezko-purifikazioa eta masaespektrometria konbinatzen dituen estrategia proteomikoak burutu dira aurretik <ref type="bibr" target="#b12">(Liu et al., 2013)</ref>. Afinitatezko-purifikazioa eta masa-espektrometria bidezko identifikazioa proteinen interaktomak (proteina batekin elkarrekiten duen proteina multzoa) aztertzeko ohiko prozedura da, eta nahiz eta emaitza baliagarriak eman, baditu bere mugak. Askotan ikergai den proteinaren eta bere interaktoreen arteko elkarrekintza oso ahula edo denbora laburretan gertatzen da, eta maiz afinitate-prozesuan zehar galtzen dira. Honek E2F7ren interaktoreen identifikazioan eragin zuzena izan dezake, ziklo-zelularrean zehar gertatzen diren elkarrekintzak prozesu zehatzetan modu dinamikoan ematen baitira. Hala, arazo hauek gainditzeko estrategia ezberdinak garatu dira azkenengo urteetan, eta hauen artean proteinen gertuko biotinilazioa dago. Sistema honetan interesezko proteina biotina ligasa batekin fusionatzen da, zeinak, biotinilazio deritzon prozesuan bere inguruko proteinei biotina taldeak gehitzen dien <ref type="bibr" target="#b9">(Kimmel et al., 2022)</ref>. Horrela, interesezko proteinaren interaktoreak biotinaz markatuko dira, eta espezifikoki purifikatu ostean, masa -espektrometriaz identifika daitezke (1. irudia). Urteetan zehar biotina ligasa ezberdinak erabili dira eta sintetikoki eraldatu dira haien aktibitate-denbora murrizteko. Aldaketa hauen emaitza TurboID izeneko biotina ligasa izan da <ref type="bibr" target="#b1">(Branon et al., 2018)</ref>. Entzima honek bere inguruko proteinak denbora laburretan (2-4 ordu) biotinilatzen ditu, eta, beraz, TurboID prozesu dinamiko eta laburretan inplikatuta dauden proteinak identifikatzeko erreminta moduan erabili daiteke <ref type="bibr" target="#b3">(Cho et al., 2020)</ref>.</p><p>E2F transkripzio faktoreek zelulen oinarrizko prozesuak erregulatzen dituzte eta gaixotasun ezberdinen garapenean parte har dezakete. Horregatik, proteina hauen ekintza-mekanismoa ezagutzea garrantzitsua da. Lan honen helburu nagusia TurboID biotina ligasaren bidezko E2F7 proteinaren interaktoreak identifikatzeko estrategia garatzea da, zelula -lerroaren ekoizpenetik sistemaren funtzionamendu egokia frogatu arte.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Ikerketaren muina</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">TurboID zelula egonkorren lorpena lentibirusak erabiliz</head><p>Lan honetarako U2OS osteosarkoma zelulak erabiltzea erabaki da, U2OS zelula-lerroaren erabilera ziklo zelularraren eta E2Fen biologia aztertzeko oso hedatua baita.</p><p>Ikerketa honetan, interesezko proteina eraldatuak adierazteko U2OS zelula-lerro egonkorrak ekoiztu dira. Horretarako lentibirusak erabili dira, ostalariaren genoman haien karga genetikoa txertatzen duten erretrobirus mota bat. Urteetan zehar biologia molekularrean lentibirus eraldatuak erabili dira gene exogenoak interesezko organismoetan txertatzeko <ref type="bibr" target="#b13">(Milone eta O'Doherty, 2018)</ref>. Birus hauen manipulazioan biosegurtasuna bermatzeko, birus ez-erreplikatiboak eratzeko behar diren osagai guztiak bi plasmido ezberdinetan kodetuta daude (hots, plasmido paketatzailea eta estalkia osatzeko plasmidoa). Plasmido hauek interesezko proteina kodetzen duen bektore lentibiralarekin (pTRIPZ) batera HEK293-FT zelula paketatzaileetan transfektatzen dira. Zelula paketatzaileak birusaren elementu guztiak ekoiztuko ditu, eta konstruktua daramaten birusak haien medio zelularrera askatuko dituzte. Beraz, medio zelular hau itu-zelulei (U2OS zelulei) gehitu dakieke infekzioa gerta dadin. pTRIPZ bektoreak, interesezko sekuentziaz gain puromizinaren aurkako erresistentzia genea ere kodetzen duenez, infektatutako zelulak, eta beraz, interesezko sekuentzia integratu duten zelulak hautesteko, puromizina antibiotikoa erabili daiteke (2. irudia).</p><p>Sistema lentibiral hau erabilita bi zelula-lerro ezberdin ekoiztu ziren. Lehenengoan, E2F7ren sekuentzia kodetzailea FLAG etiketarekin markatutako TurboID proteinarekin batera fusionatu da (FLAG-TurboID-E2F7). Zelula hauek E2F7rekin elkarreragiten duten proteinak identifikatzeko erabiliko da. Beste zelulek, soilik FLAGekin markatutako TurboID entzima adierazten dute (FLAG-TurboID), eta sistemaren kontrol negatibo moduan erabiliko dira; hau da, TurboID entzimak bere kabuz modu inespezifikoan biotinaz markatzen dituen proteinen informazioa emango dute. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">FLAG-TurboID-E2F7 nukleoan kokatzen da eta bereziki nukleoko proteinak biotinilatzen ditu</head><p>Behin interesezko proteinen adierazpena induzitu zitekeela konprobatu zelarik, FLAG-TurboID-E2F7ren kokapen azpizelularra aztertu zen. E2F7 nagusiki nukleoan kokatzen den proteina bat izanda, FLAG-TurboID proteina-fusioak E2F7ren kokapena aldatzen ez duen frogatzeko fluoreszentziazko entseguak burutu ziren. Horretarako, U2OS FLAG-TurboID edo FLAG-TurboID-E2F7 zelulak biotinarekin, doxiziklinarekin edo bien konbinazioarekin tratatu ziren eta, horren ostean, formaldehidoarekin fixatu ziren. Gainadierazitako proteina FLAG-aren aurkako antigorputzaren bidez detektatu zen, eta biotina, berriz, estraptabidina-FITCren bidez. Estreptabidinak biotina modu espezifikoan ezagutzen du, eta FITC fluoroforoarekin konjugat uta dagoenez zuzenean detektatu daiteke fluoreszentzia-mikroskopioan (seinale berdea). Anti-FLAG antigorputzaren seinalea ikustarazteko anti-sagu-AlexaFluor594 (Invitrogen) antigorputza erabili zen (seinale gorria). Mikroskopiorako muntaketa egiteko eta nukleoak tindatzeko VectaShield-DAPI (VectorLabs) erabili zen eta laginak Leica DMI 6000B fluoreszentzia -mikroskopio bidez aztertu ziren.</p><p>Immunofluoreszentiazko irudiek, aurretik burututako western plapaketa moduan, FLAG-TurboID eta FLAG-TurboID-E2F7 proteinen adierazpena soilik doxiziklina gehitutako baldintzetan gertatzen dela erakutsi zuten. FLAG-TurboID-E2F7 proteina batez ere nukleoan kokatzen da, FLAG-TurboID, aldiz, zelula osoan zehar banatzen da (4. irudia). Biotinaren seinaleari dagokionez, biotinilazioa soilik doxiziklina eta biotina gehitutako baldintzan ikustarazi zen, TurboID entzimaren aktibitatea biotina exogenoaren gehipenaren menpekoa dela adieraziz. Gainera, biotinaren seinaleak FLAG seinalearen antzeko banaketa jarraitzen du. Hala ere, FLAG-TurboID-E2F7ren biotinilazioa gehien bat nukleoan gertatzen den arren, zitoplasman seinale berdea ere ikus daiteke. Honek adierazi lezake E2F7k nukleoko proteinekin elkarreragiteaz gain, zelulako beste konpartimentuko proteinekin ere elkartu daitekeela.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">irudia. FLAG-TurboID, FLAG-TurboID-E2F7 eta biotinilatutako proteinen kokapen azpizelularra.</head><p>FLAG-TurboID eta FLAG-TurboID-E2F7 zelulak adierazitako baldintzetan doxiziklinarekin (Dox) 10 orduz tratatu ziren 100 ng/mL eta 500 ng/mL kontzentrazioetan, hurrenez hurren. Biotina 50 μM kontzentrazioan 2 orduz gehitu zen. Gainadierazitako proteinak anti-FLAG antigorputzaren bidez (F1804, Sigma Aldrich, seinale gorria) detektatu ziren. Biotina detektatzeko, estreptabidina-FITC erabili zen (554060, BD biosciences, seinale berdea). Nukleoa DAPI erabilita ikustarazi zen (fluoreszentzia urdina). Eskala-barra: 20 μm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">TurboID sistema egokia da E2F7ren interaktoreak detektatzeko</head><p>Behin FLAG-TurboID-E2F7 proteinaren kokapen zelularra egiaztatuta, ekoiztutako proteinen gertuko biotinilazio-sistemaren egokitasuna frogatu zen. Horretarako, FLAG-TurboID eta FLAG-TurboID-E2F7 zeluletan biotinilatutako proteinak purifikatu eta E2F7ren interaktore ezagunak diren CTBP1/2 proteinen presentzia aztertu zen. Hala, zelula-lerro bakoitzaren lau 15 cm-tako plaka erein ziren. Hauetako biri doxiziklina gehitu zitzaien 10 orduz (100 ng/mL-tan FLAG-TurboIDrentzat eta 500 ng/mL FLAG-TurboID-E2F7rentzat), eta plaka guztiei biotina (50 μM) gehitu zitzaien proteina erauzi baino 2 ordu lehenago.</p><p>Proteinak 8 M urea eta %1 SDS (PBStan) disoluzioan erauzi ziren. Lisatuen biskositatea sonikazio bitartez murriztu eta 13.000 rpm-tan zentrifugatu ziren 30 minutuz giro tenperaturan. Gainjalkinetan biotinilatutako proteinak modu espezifikoan purifikatzeko estreptabidina bidezko afinitate-purifikazioa erabili zen, ingelesez pull-down deritzon prozesuan. Pull-down entsegua aurretik argitaratutako metodologia jarraituz burutu zen <ref type="bibr" target="#b0">(Barroso-Gomila et al., 2021)</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Ondorioak</head><p>E2F7ren ekintza-mekanismoa ezezaguna den arren, zelulen funtsezko prozesuetan eta patologia ugaritan parte hartzen duela jakina da. Horregatik, E2F7ren funtzioetan elkarlanean aritzen diren proteinak (bere interaktoreak) zeintzuk diren ezagutzeak zelulen biologia eta gaixotasun ezberdinen garapena hobeto ulertzen lagundu dezake. E2F7ren interaktoma ezagutzeko TurboID biotina ligasaren bidezko proteinen gertuko biotinilazio estrategia garatu dugu lan honetan. Sistema hau doxiziklinaren menpekoa da, eta doxiziklinaren presentzian FLAG-TurboID (kontrol negatiboa) eta FLAG-TurboID-E2F7 proteinak adierazten dituzten zelula-lerro egonkorrak eratu ditugu.</p><p>E2F7 basatiaren kokapen azpizelularrarekin bat eginez, FLAG-TurboID-E2F7 nukleoan kokatzen da nagusiki. Biotinilazio nabariena konpartimentu honetan detektatu da, E2F7ren interaktore nagusiak nukleoan kokatzen direla adieraziz. Hala ere, immunofluoreszentzia entseguetan, zelula hauetako zitoplasman ere detektatu dugu biotinilazio seinalea, E2F7k zitoplasman dauden proteinekin elkarreragin dezakeela adieraziz. Pull-down entseguek ekoiztutako TurboID sistema E2F7ren interaktoreak identifikatzeko baliagarria dela frogatzen dute. Izan ere, FLAG-TurboID-E2F7 proteina, baina ez FLAG-TurboID kontrol negatiboa, E2F7ren interaktore ezagunak den CTBP1/2 espezifikoki biotinilatzeko gai dela frogatu dugu. Emaitza hauek FLAG-TurboID-E2F7 zelulen egokitasunaren adierazle dira, lan honetan ekoiztutako sistemak E2F7ren interaktore berriak identifikatzeko aukera ematen duela erakutsiz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Etorkizunerako planteatzen den norabidea</head><p>Lan honetan E2F7ren interaktoreak identifikatzeko sistema bat martxan jarri da. Hala, ikerketa honetan aztertutako baldintzak erabiliz, hurrengo urratsa pull-down entseguak eskala handiago batean gauzatzea izango litzateke. Esperimentu hauetatik lortutako laginak masa -espektrometrian aztertu litezke, orain arte ezezagunak diren E2F7 interaktoreak identifikatzeko xedearekin. Bestalde, lan honetan burututako esperimentuek adierazten duten moduan, E2F7 bereziki proteina nuklear moduan deskribatu den arren, zitoplasman ere interaktoreen seinalea aurki daitekeela ikusi dugu. Hala, etorkizuneko esperimentuetan zitoplasman aurkitu dugun biotinilazioa benetan E2F7ren interaktoreen seinalea dela konprobatu genezake, eta horrela izatekotan, E2F7ri funtzionalki nola erlazionatuta dauden aztertu. Gainera, TurboID-k duen biotinilazio-gaitasun azkarraz baliatuta, E2F7ren interaktore "puntualak" deskribatzeko erabil liteke. Adibidez, E2F transkripzio faktoreek ziklo zelularreko fasearen arabera proteina-konplexu ezberdinekin asoziatu daitezkeela ikusi da. Horrela, FLAG-TurboID-E2F7 zelulak ziklo zelularreko fase ezberdinetan sinkronizatu litezke, zikoaren fase bakoitzean E2F7 zein proteinekin aritzen den elkarlanean aztertzeko aukera eskainiz.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>2. irudia. Plasmidoen egitura eta zelula-lerroen lorpena.Interesezko proteina kodetzen duen bektore lentibirala lentibirusa ekoizteko behar diren elementuak kodetzen dituen plasmido paketatzailearekin eta estalkia osatzeko plasmidoarekin batera transfektatzen dira zelula paketatzaileetan (HEK293-FT). Zelula hauek haien medio zelularrera askatuko dituzte interesezko genea daukaten lentibirusak. Lentibirusak dituen medio zelularra itu-zelulak (U2OS zelulak) infektatzeko erabiltzen da, eta interesezko genea itu-zeluletan integratu dela ziurtatzeko puromizina antibiotikoa gehitzen da hautespena burutzeko. PuroR: Puromizinaren aurkako erresistentzia-genea. rtTA: Doxiziklinaren menpeko alderantzizko proteina transaktibatzailea. FLAG-TurboID eta FLAG-TurboID-E2F7 proteinen adierazpena eta hauek burututako biotinilazioa modu induzigarrian gertatzen da pTRIPZ bektore lentibiralak, interesezko proteinaren sekuentzia kodetzaileaz eta puromizinaren aurkako erresistentziaz (PuroR) gain, konstruktuaren adierazpena induzitzeko elementuak ere baditu. Izan ere, interesezko genearen adierazpena tet-on sistemaren bidezkoa da. Sistema honetan, interesezko genearen adierazpena doxiziklinaren menpekoa den promotore baten bidez erregulatuta dago. Egoera basalean, rtTA proteina ez da gai tet promotorera lotzeko, baina tetraziklina familiako antibiotikoak gehitzean (doxiziklina, kasu), tetraziklina rtTAra lotzen da, bere konformazioa aldatuz. Konformazio aldaketa honek rtTA aktibatzen du, promotorera lotzea ahalbidetuz eta itu-proteinaren adierazpena induzituz (3a. irudia).Behin FLAG-TurboID eta FLAG-TurboID-E2F7 zelula-lerroak ekoiztuta, interesezko proteinak modu induzigarrian ekoizten zituzten frogatu zen. Horretarako, FLAG-TurboID eta FLAG-TurboID-E2F7 zelulak doxiziklina kontzentrazio eta inkubazio-denbora ezberdinekin tratatu eta proteina erauzi zen. Ikerketa-taldean burututako froga ezberdinek FLAG-TurboID-E2F7 lerroan doxiziklina tratamendu egokiena 10 ordukoa (500 ng/mL-ko kontzentrazioan) dela adierazi dute (3b. irudia eta erakutsi gabeko datuak). FLAG-TurboID eta FLAG-TurboID-E2F7 sistemak konparagarriak izateko, antzeko biotinilazio-maila aurkeztu behar dute. Hala, FLAG-TurboID zelulei doxiziklina kontzentrazio ezberdinak gehitu zitzaizkien 10 orduz. Proteina eta biotinilazio-maila Western plapaketa bitartez konprobatu zen (3b. irudia). Diseinat utako konstruktuak FLAG etiketarekin markatuta daudenez, haien adierazpen egokia FLAG etiketaren aurkako antigorputza erabilita konprobatu zen. FLAG-TurboID eta FLAG-TurboID-E2F7 proteinak soilik doxiziklina gehitutako baldintzetan adierazten dira, beraz, adierazpena modu induzigarrian ematen da doxiziklinaren menpe (3b. irudia). Bestalde, doxiziklina kantitatearen handipenak biotinilazio-maila areagotzen du FLAG-TurboID zeluletan, seinale maximoa 300 ng/mL-ko baldintza izanik. FLAG-TurboID-E2F7ren biotinilazio-profilarekin konparatuta, FLAG-TurboIDren kasuan baldintza antzekoena 100 ng/mL da. Hau horrela, lan honetan burututako hurrengo esperimentuetan FLAG-TurboID eta FLAG-TurboID-E2F7 zelulentzat 100 ng/mL-ko eta 500 ng/mL-ko doxiziklina kontzentrazioak erabiltzea erabaki da, hurrenez hurren. 3. irudia. FLAG-TurboID eta FLAG-TurboID-E2F7 proteinen adierazpena eta biotinilizazioa doxiziklinak aktibatutako tet-on sistemaren bitartez induzitu daitezke. (A) tet-on sistemaren funtzionamenduaren eskema. Egoera basalean (doxiziklinaren gabezian), konstitutiboki ekoizten den rtTA proteina ezin da tet promotorera batu. Doxiziklina edo bestelako tetraziklinak gehitzean rtTAk konformazioz aldatzen du eta tet promotorera batzen da, itu-genearen adierazpena induzituz. (B) Doxiziklinak FLAG-TurboID (40 KDa) eta FLAG-TurboID-E2F7 (150 KDa) proteinen adierazpena eta hauek burututako biotinilizazioa induzitzen du. Biotina 50 μM 2 orduz eta doxiziklina 10 orduz gehitu zen adierazitako kontzentrazioetan.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>Alde batetik, zeluletatik erauzitako proteinarekin Western plapaketa burutu zen anti-biotina eta anti-FLAG antigorputzak erabilita. Honek, FLAG-TurboID eta FLAG-TurboID-E2F7ren adierazpena eta laginen biotinilazioa egokia zela adierazi zuen (5a. irudia). Bestetik, purifikazioaren aurreko proteina erauzkinaren frakzio bat (input-a) eta estreptabidina bihitxoekin purifikatutako laginak (pull-down laginak, PD) aztertu ziren Western plapaketa bidez, E2F7 eta CTBP1/2 proteinen maila aztertu nahian (5b. irudia). E2F7 detektatzeko anti-E2F7 antigorputza erabili zen, eta beraz, E2F7 endogenoa (•) eta FLAG-TurboID-E2F7 (O) ezagutzeko gai da, input-etan ikus daitekeen moduan. PD-etako laginetan E2F7 seinalea soilik FLAG-TurboID-E2F7 adierazitako baldintzan detektatu zen, FLAG-TurboID-E2F7 bere burua biotinilatzeko gai dela adieraziz. CTBP1/2 proteina FLAG-TurboID-E2F7 laginean identifikatu zen espezifikoki. FLAG-TurboID kontrolean, aldiz, ez zen CTBP1/2rik ageri, esperotako moduan, CTBP1/2 E2F7ren interaktore ezaguna baita. Datu hauek adierazten dute garatutako U2OS FLAG-TurboID-E2F7 sistema E2F7ren interaktoreak modu espezifikoan identifikatzeko eta purifikatzeko balio duela. 5. irudia. FLAG-TurboID-E2F7 sistema E2F7rekin elkarrekiten duten proteinak identifikatzeko hurbilketa egokia da. FLAG-TurboID eta FLAG-TurboID-E2F7 zelulak adierazitako baldintzetan doxiziklinarekin (Dox) 10 orduz tratatu ziren 100 ng/mL eta 500 ng/mL kontzentrazioetan, hurrenez hurren. Biotina 50 μMko kontzentrazioan 2 orduz gehitu zen. (A) FLAG-TurboIDren eta FLAG-TurboID-E2F7ren biotinilazio-maila antzekoak dira doxiziklina gehitutako laginetan. (B) FLAG-TurboID eta FLAG-TurboID-E2F7 doxiziklinarekin edo doxiziklina gabe tratatutako laginen biotinaren aurkako pull-down-a (PD). E2F7ren forma endogenoa (•) eta gainadierazitakoa (FLAG-TurboID-E2F7, O) detektatu ziren anti-E2F7 antigorputza (sc-32574, Santa Cruz) erabiliz. CTBP1/2ren kasuan (sc-17759, Santa Cruz), input eta PD laginentzat esposiziodenbora ezberdineko argazkiak erakusten dira.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">. Irudia: TurboID estrategiaren funtzionamendu eskematikoa. X itu-proteinak bere interaktore (int) ezberdinekin elkarrekiten du, eta biotina gehitzean, X proteinari lotuta dagoen TurboID biotina ligasak inguruko proteinei biotina-taldeak gehituko die 2-4 orduz. Biotinilatutako proteinak espezifikoki purifikatu eta masaespektrometria bidez identifika daitezke.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">IkerGazte, 2023Osasun Zientziak</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Identification of proximal SUMO -dependent interactors using SUMO-ID</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Barroso-Gomila</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Trulsson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Muratore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Canosa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Merino -Cacho</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Cortazar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Pérez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Azkargorta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Iloro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Carracedo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Aransay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Elortza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Mayor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C O</forename><surname>Vertegaal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Barrio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Sutherland</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-021-26807-6</idno>
+		<ptr target="https://doi.org/10.1038/s41467-021-26807-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature communications</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">6671</biblScope>
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Efficient proximity labeling in living cells and organisms with TurboID</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Branon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Bosch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">D</forename><surname>Udeshi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Svinkina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Feldman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Perrimon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">Y</forename><surname>Eta Ting</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Biotechnology</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="880" to="887" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1038/nbt.4201</idno>
+		<ptr target="https://doi.org/10.1038/nbt.4201" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Proximity labeling in mammalian cells with TurboID and split-TurboID</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">F</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Branon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">D</forename><surname>Udeshi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">Y</forename><surname>Ting</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41596-020-0399-0</idno>
+		<ptr target="https://doi.org/10.1038/s41596-020-0399-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Protocols</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="3971" to="3999" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Identification and characterization of E2F7, a novel mammalian E2F family member capable of blocking cellular proliferation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>De Bruin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Maiti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Jakoi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Timmers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Buerki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Eta Leone</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M308105200</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M308105200" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Biological Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">278</biblScope>
+			<biblScope unit="issue">43</biblScope>
+			<biblScope unit="page" from="42041" to="42049" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Targeting E2F Sensitizes Prostate Cancer Cells to Drug -Induced Replication Stress by Promoting Unscheduled CDK1 Activity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hamidi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Eriz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Fernandez-Ares</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Aurrekoetxea</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Aspichueta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Iglesias-Ara</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Eta Zubiaga</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/cancers14194952</idno>
+		<ptr target="https://doi.org/10.3390/cancers14194952" />
+	</analytic>
+	<monogr>
+		<title level="j">Cancers</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page">4952</biblScope>
+			<date type="published" when="2022" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The broken cycle: E2F dysfunction in cancer</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">N</forename><surname>Kent</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Eta Leone</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41568-019-0143-7</idno>
+		<ptr target="https://doi.org/10.1038/s41568-019-0143-7" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Cancer</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="326" to="338" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ikergazte</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">2023</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Osasun Zientziak</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Proximity-dependent biotinylation approaches to study apicomplexan biology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kimmel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kehrer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Frischknecht</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Eta Spielmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/mmi.14815</idno>
+		<ptr target="https://doi.org/10.1111/mmi.14815" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="553" to="568" />
+			<date type="published" when="2022" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Atypical E2Fs: New players in the E2F transcription factor family</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Lammens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Leone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eta De</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Veylder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cell Biology</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="111" to="118" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1016/j.tcb.2009.01.002</idno>
+		<ptr target="https://doi.org/10.1016/j.tcb.2009.01.002" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Interaction of E2F7 transcription factor with E2F1 and c-terminal-binding protein (CtBP) provides a mechanism for E2F7 -dependent transcription repression</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Shats</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">P</forename><surname>Angus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Gatza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nevins</forename><surname>Eta</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M113.467506</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M113.467506" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">288</biblScope>
+			<biblScope unit="issue">34</biblScope>
+			<biblScope unit="page" from="24581" to="24589" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note>J. R.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Clinical use of lentiviral vectors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Milone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Doherty</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41375-018-0106-0</idno>
+		<ptr target="https://doi.org/10.1038/s41375-018-0106-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Leukemia</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1529" to="1541" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">An E2F7-dependent transcriptional program modulates DNA damage repair and genomic stability</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Apraiz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Vallejo-Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>García-Santisteban</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Fullaondo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Alvarez-Fernández</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Malumbres</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Eta Zubiaga</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gky218</idno>
+		<ptr target="https://doi.org/10.1093/nar/gky218" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="4546" to="4559" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Integrating Old and New Paradigms of G1/S Control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Rubin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Sage</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Eta Skotheim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molcel.2020.08.020</idno>
+		<ptr target="https://doi.org/10.1016/j.molcel.2020.08.020" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Cell</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="183" to="192" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">CtBP2 proteome: Role of CtBP in E2F7-mediated repression and cell proliferation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Subramanian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Vijayalingam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Eta Chinnadurai</surname></persName>
+		</author>
+		<idno type="DOI">10.18632/genesandcancer</idno>
+		<ptr target="https://doi.org/10.18632/genesandcancer" />
+	</analytic>
+	<monogr>
+		<title level="j">Genes &amp; cancer</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="31" to="40" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eskerrak</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ana Maria Zubiagak Espainiako</forename><surname>Jaurlaritzako</surname></persName>
+		</author>
+		<title level="m">Ministerio de Ciencia e Innovación, PID2021-122922OB-I00) eta Eusko Jaurlaritzako Hezkuntza Saileko (IT1547-22) diru-laguntzak jaso ditu</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Jone Mitxelenak Ikerbasque research fellow (2020) kontratua dauka. Ekaitz Madariaga Eusko Jaurlaritzako doktoretza aurreko diru-laguntza baten jabea da</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

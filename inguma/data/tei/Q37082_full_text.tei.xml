@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Hegaztien dibertsitatea Bizkaiko baso natural eta landaketa exotikoetan</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Unai</forename><surname>Sertutxa</surname></persName>
+							<email>unai.sertutxa@ehu.eus</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Euskal Herriko Unibertsitatea (UPV/EHU)</orgName>
+								<address>
+									<settlement>Landareen Biologia eta Ekologia saila</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lorena</forename><surname>Peña</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Euskal Herriko Unibertsitatea (UPV/EHU)</orgName>
+								<address>
+									<settlement>Landareen Biologia eta Ekologia saila</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ibone</forename><surname>Ametzaga</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Euskal Herriko Unibertsitatea (UPV/EHU)</orgName>
+								<address>
+									<settlement>Landareen Biologia eta Ekologia saila</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Unai</forename><surname>Ortega</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Euskal Herriko Unibertsitatea (UPV/EHU)</orgName>
+								<address>
+									<settlement>Landareen Biologia eta Ekologia saila</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Hegaztien dibertsitatea Bizkaiko baso natural eta landaketa exotikoetan</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.26876/ikergazte</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-04-30T15:49+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Hitz gakoak: biodibertsitate</term>
+					<term>eukalipto</term>
+					<term>pinu</term>
+					<term>espezie autoktono</term>
+					<term>baso egitura Keywords: biodiversity</term>
+					<term>eucalyptus</term>
+					<term>pine</term>
+					<term>native species</term>
+					<term>forest structure</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena</head><p>Eukalipto landaketen azalera hazi egin da Euskal Herrian azken hamarkadetan. Galizian eta Portugalen egindako ikerketek erakutsi dute eukalipto landaketek hegaztien dibertsitate baxua dutela. Euskal Herrian, ordea, oso informazio gutxi dago gaiaren inguruan. Ikerketa honetan, hegaztien identifikazio eta kontaketa bidez, Bizkaiko hiru baso sistema garrantzitsuenak konparatu dira: baso naturalak (baso mixto atlantikoak eta haritz kandudunez osatutako hariztiak), eukalipto landaketak eta pinu landaketak. Gainera, hegaztietan eraginak dituzten basoen ezaugarriak identifikatu dira. Gure emaitzen arabera, hegazti dibertsitatea altuagoa da basoetan landaketetan baino eta zuhaitzen dentsitateak eta altuerak, eta landare aberastasunak hegaztien dibertsitatean eragina dute.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>The area of eucalyptus plantations is increasing in the Basque Country the last decades. In Galicia and Portugal researches have shown that avian diversity is lower in those plantations. However, there is lack of information on the subject in the Basque Country. In our study, we compare the most important forest systems of Biscay: natural forests, eucalyptus plantations and pine plantations. Besides, we identified forest characteristics that affect birds. Our results show that avian diversity is higher in natural forests than in plantations and that tree density and height, and plant richness are important factors to explain bird diversity in forest systems.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Sarrera eta motibazioa</head><p>Baso landaketen azalera handitzen doa mundu mailan <ref type="bibr" target="#b33">(Wang et al., 2021a)</ref> eta baso naturalen eta haien biodibertsitatearen kontserbaziorako arazo handienetako bat da gaur egun <ref type="bibr" target="#b32">(Wang et al., 2021b)</ref>. Lur erabileraren aldaketa horrek gizakioi eragiten digu, baso naturalek, landaketek baino ekosistemen zerbitzu gehiago eskaintzen dizkigutelako <ref type="bibr" target="#b27">(Onaindia et al., 2018)</ref>. Europa mailan, aldaketa horiek pairatu dituen zonaldeetako bat da Iberiar Penintsulako iparraldea, non zuhaitz formazioen gehiengoa baso landaketak diren, batez ere pinu eta eukaliptoak <ref type="bibr" target="#b10">(De la Hera et al., 2013)</ref>. Euskal Herrian adibidez, paisaiaren aldaketa handia izan da, garaiko eta lekuko beharrizanen arabera. XVI. mendetik aurrera, eremuan eman den deforestazioa hazi egin zen batez ere ontzigintza eta industriarengatik <ref type="bibr">(Aragón, 1988;</ref><ref type="bibr" target="#b14">Garayo, 1993)</ref>. XIX. mendean, deforestazioaren inguruko kezka asko handitu zen Euskal Herrian eta basoak berreskuratzeko asmoz zuhaitzak landatzen hasi ziren, espezie autoktono eta exotikoak erabiliaz. Pinu en moduko espezie batzuen hazkuntza azkarrak probetxua ateratzeko aukera zabaldu zuen eta horien landaketak asko hazi ziren XIX eta XX. mendeetan, batez ere Pinus radiata D. Don espeziearenak <ref type="bibr" target="#b24">(Michel, 2006)</ref>. Hori dela eta, pinu landaketak dira gaur egungo paisaiaren ezaugarri nabarmenena.</p><p>Euskal Herrian, pinu landaketen eragin ekologikoak aztertuak izan dira. Esaterako, lur zoruan <ref type="bibr" target="#b12">(Edeso et al., 1998)</ref> eta biodibertsitatean <ref type="bibr">(Amezaga eta Onaindia, 1997</ref>) efektu kaltegarriak izan ditzaketela ikusi da. Pinuen azikulen deskonposaketa geldoak materia o rganikoa metatzea eragiten du eta elikagaien zikloa ez ixtea eragin dezake horrek <ref type="bibr">(Barraqueta eta Basagoiti, 1988)</ref>. Ondorioz, lurzoruko elikagaien gutxitzea eragin dezakete . Paisaian eta ingurumenean (lurzoruaren propietateen alterazioa edo lurraren higadura esaterako) dituzten inpaktuengatik, baso landaketen kudeaketa iraunkorra ez dela esan daiteke <ref type="bibr">(Ainz, 2008)</ref>. Hala ere, beste ikerketa batzuek defendatzen dute baso naturalen eta pinu landaketen biodibertsitateen arteko desberdintasunak ez direla hain handiak <ref type="bibr" target="#b23">(Martin de Agar et al., 1992)</ref> eta sarritan pinu landaketak aukera ona direla baso natural autoktonoen berreskurapena bultzatzeko <ref type="bibr" target="#b26">(Onaindia et al., 2013)</ref>, landaketa horien oihanpean hazten diren landareak baso naturaletako espezi eak direlako <ref type="bibr" target="#b7">(Brockerhoff et al., 2003)</ref>.</p><p>Eucalyptus generoko espezieak asko erabili dira azken urteetan Euskal Herriko landaketetan, daukaten errentagarritasunagatik. Zuhaitz horiek hazkuntza oso azkarra dute <ref type="bibr">(Veiras eta Soto, 2011)</ref>, pinuena baino azkarragoa, eta egur aproposa lortzen da batez ere papera egiteko <ref type="bibr" target="#b15">(García, 2015)</ref>. Hori dela eta, eukalipto landaketen azalera asko hazi da Euskal Autonomia Erkidegoan azken hamarkadetan (10.405 hektareatik 1996an, 24.771 hektareara 2021ean).</p><p>Eukalipto landaketen eragin ekologikoak ere aztertuak izan dira munduan zehar. Kasu askotan, eragin kaltegarriak dituztela frogatu da. Hegaztien, landareen eta makroornogabeen dibertsitate eta ugaritasunak eukalipto landaketetan baso naturaletan baino baxuagoak direla egiaztat u da adibidez <ref type="bibr" target="#b20">(Larrañaga et al., 2009;</ref><ref type="bibr" target="#b6">Bas et al., 2018;</ref><ref type="bibr" target="#b17">Goded et al., 2019)</ref>. Gainera, baso helduak behar dituzten espezieentzako oso desegokiak direla jakina da <ref type="bibr" target="#b4">(Ashman et al., 2020)</ref>, mozketa txanda oso laburrak (12-15 urte) dituzten zuhaitzak direlako <ref type="bibr">(Veiras eta Soto, 2011)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Arloko egoera eta ikerketaren helburuak (Azpiatalak eta zerrendak)</head><p>Bizkaian, 2022an, lege-luzamendu bat jarri zen martxan, eukaliptoen landaketa debekatzen duena 2026 arte. Tarte horretan, eukaliptoen eraginak aztertu eta horiek eremuan nola joka dezaketen aztertzea ezinbestekoa da. Iberiar Penintsulako beste leku batzuetan, hots, Portugalen eta Galizian, ikerketa asko eraman dira aurrera, baina Euskal Herrian gutxiago dira landaketa horien inguruan eginiko ikerketak <ref type="bibr" target="#b13">(Elosegi et al., 2020)</ref>. Beraz, informazio eta datu gehiago eskaintzea ezinbestekoa da kudeaketa egoki bat diseinatu ahal izateko.</p><p>Gorago aipatu denez, pinu landaketak dira paisaiaren ezaugarri nagusia. Azken urteetan, pinuen gaixotasunek eraginda, eukaliptoengatik ordezkatuak izan dira hektarea asko. Horregatik, bien arteko konparaketa egitea interesgarria izan daiteke, ematen ari diren aldaketen ondorioak hobeto ulertzeko. Izan ere, ikerketa gutxik hartzen dituzte kontuan landaketa ezberdinen artean dauden aldeak <ref type="bibr" target="#b9">(Calviño-Cancela, 2013)</ref>. Horrez gain, eremuko landaretza potentziala ere kontutan hartzea interesgarria izan daiteke, habitat naturalekin konparaketa egin ahal izateko. Kasu honetan, baso mixto atlantikoak eta hariztiak dira landaretza potentziala <ref type="bibr">(Loidi e t al., 2011)</ref>.</p><p>Bizkaiko hiru baso sistema garrantzitsuenen (baso naturalak, eukalipto landaketak eta pinu landaketak) hegazti dibertsitateen artean dauden ezberdintasunak ezagutzea eta baso barruan hegazti espezieen dibertsitatean eta ugaritasunean eragiten duten faktore garrantzitsuenak identifikatzea dira ikerketaren helburuak. Gaiarekin lotutako bibliografia jarraituz, gure hipotesien arabera, basoetan landaketetan baino dibertsitate eta ugaritasun altuagoak aurkituko dira eta basoaren egiturarekin loturiko aldagaiak izango dira horietan eragingo duten faktore garrantzitsuenak.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Ikerketaren muina</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Metodologia</head><p>Ikerketa Bizkaia probintzian egin zen. Bizkaiak 2.217 km 2 -ko azalera du eta %59,5a zuhaitz formazioz osaturik dago <ref type="bibr">(HAZI, 2022)</ref>. Zuhaitz formazioen %49,8a pinuz estalita dago, arruntena Pinus radiata izanik, pinuen %87,2a betetzen duena. Eukalipto landaketek %16,5a estaltzen dute, Eucalyptus globulus (eukaliptoen %50,8) eta Eucalyptus nitens (eukaliptoen %45) espezieak izanik garrantzitsuenak. Azkenik, baso naturalek zuhaitz formazioen %24,1a betetzen dute. Horietatik, %52,2a baso mixto atlantikoak betetzen du eta %9,7a haritz kandudunez osatutako hariztiak (HAZI, 2022), ikerketa honetan erabili direnak.</p><p>10 hirukote aukeratu ziren, bakoitza sistema bateko partzela batez osatua: baso autoktonoak (baso edo baso natural moduan ere testuan), Eucalyptus generoko espezien landaketak (eukalipto landaketa eta eukaliptadi moduan ere testuan) eta Pinus radiata espeziearen landaketak (pinu landaketa edo pinudi moduan ere testuan). Gutxienez 20 hektareako partzelak aukeratu ziren, bakoitzean bi puntutan lagintzeko eta ertz-efektua ahalik eta gehien murrizteko. Hirukote bereko partzelen arteko tamaina ezberdintasunak ahalik eta gehien murriztu ziren (partzela handienaren eta txikienaren artean 14 ha baino gutxiagoko aldea denetan, 8,95 ± 3,52 bataz beste) eta beraien arteko distantzia txikia zutenak aukeratu ziren (10 km-ko distantzia baino gutxiago beti, 6,05 ± 1,65 km bataz beste). Zeuden aukeretatik zoriz 10 hirukote hautatu ziren.</p><p>Partzela bakoitzean bi puntu ezarri ziren laginketetarako, gutxienez partzelaren ertzetik 100 mra eta gutxieneko 250 m-ko distantziarekin puntuen artean, elkarren arteko berdintasunak ahalik eta gehien gutxitzeko. Puntu bakoitzean hegaztiak, landareak eta lurzorua lagindu ziren.</p><p>Hegaztien laginketak 2021eko bi garai ezberdinetan egin ziren, udaberri amaieran (maiatzaekaina) eta uda amaieran (abuztu-iraila), garai ezberdinetako datuak edukitzeko. Puntu eta garai bakoitzean 10 minutuko laginketak egin ziren, 25 m-ko erradioko distantzian ikusi eta entzundako hegazti guztiak apuntatuz <ref type="bibr" target="#b29">(Proença et al., 2010)</ref>. Laginketa guztiak egunsentia eta 11:00ak tartean egin ziren, hegaztientzako desegokiak diren fenomeno meteorologikoak saihestuz, hots, euria edo haizea. Hirukote berdineko 6 puntuak (2 puntu 3 partzelatan) egun berean lagindu ziren eta egun bakoitzean sistema mota lagintzeko ordena aldatu egiten zen, eguneko orduaren efektua ezabatzeko.</p><p>Landare baskularren eta lurzoruaren laginketak 2021eko ekaina eta urria artean egin ziren. Lehenengo, partzela bakoitzeko puntu bat lagindu zen eta partzela guztiak lagindu ostean, bigarren puntua lagindu zen denetan. Hirukote bakoitzeko laginketak gehienez bi eguneko tartean egin ziren, garaiaren efektua gutxitzeko.</p><p>Puntu bakoitzean 50 m-ko bi trantsektu jarri ziren perpendikularki, gurutze baten forman <ref type="bibr">(Brower eta Zar, 1979)</ref>. Horietako bat aldaparekiko paraleloan kokatu zen eta bestea perpendikularrean. Trantsektu bakoitzean, 5 laukizuzen formako partzela txiki sortu ziren, 5x2 m-koak (10 m 2 ), 5 m-ko distantzia utziz batetik bestera eta erdikoa partekatzen zuten (9 laukizuzen guztira, 90 m 2 ).</p><p>Basoaren estruktura trantsektu bertikaleko 15, 30 eta 45 metroetan neurtu zen, point centered quarter method (puntu zentro karratu metodoa) erabiliaz <ref type="bibr">(Brower eta Zar, 1979)</ref>. Zuhaitzen altuera eta diametroa neurtu ziren, eta dentsitatea kalkulatzeko erdiko punturainoko distantzia. Eredu bayestar hierarkikoak sortu ziren dibertsitate eta aberastasunean eragiten duten efektu esanguratsuak identifikatzeko. Hierarkia jatorriko ordenatuari aplikatu zitzaion, sistema mota aldagai bezala erabiliaz, hau da, baso sistema bakoitzak balio bat hartzen du jatorriko ordenatuarentzako. Ereduak sortzeko hurrengo aldagaiak erabili ziren: landare aberastasuna (LA, landare espezie kopurua), zuhaitzen dentsitatea (ZD, hektareako zuhaitz kopurua), zuhaitzen altuera (ZA), lurzoruaren pH-a (pH), lurzoruko materia organiko kantitatea (MO), ur masa hurbilenerako distantzia (UR) eta altitudea (ALT). Horietatik abiatuta, eredu sinpleagoak sortu ziren esangura gutxien zuten aldagaiak eta beraien parametroak baztertuaz (parametroari 0 balioa emanaz). Ugaritasunaren kasuan poisson banaketa erabili zen, datuen izaera naturalagatik (kontaketak) eta banaketa horretara hurbiltzen zirelako datuak. Aberastasunaren kasuan, ordea, banaketa normala erabili zen, datuak banaketa honetara hurbiltzen zirelako. Informazio gutxiko 'prior'-ak erabili ziren parametroen ondorengo banaketak lortzeko.</p><p>Bakoitzaren "Deviance Information Criterion" (DIC) eta "Posterior predictive loss" (D ∞ ) kalkulatu eta konparatu ziren eredu aukeraketa egiteko. Ereduen konparaketa eta aukeraketa egiterako orduan, DIC eta D ∞ -ren balioa zenbat eta baxuagoa izan orduan eta hobea izango da eredua beste batzuekin alderatuz. Aukeratutako azken ereduaren sinesgarritasun tarteak (credible intervals, CI, %95) kalkulatu ziren aldagai esanguratsuak identifikatzeko (aldagaien β parametroa hartzen da kontuan, 0 balioa lorturiko tarteen artean ez badago, eragin esanguratsua dela esan nahi du).   <ref type="bibr" target="#b6">(Bas et al., 2018;</ref><ref type="bibr" target="#b17">Goded et al., 2019;</ref><ref type="bibr" target="#b29">Proença et al., 2010)</ref>, baita Urdaibain ere (De la <ref type="bibr" target="#b10">Hera et al., 2013)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Emaitzak eta eztabaida</head><p>Baso eta pinu arteko desberdintasunak txikiagoak izan ziren baso eta eukali ptoenak baino. Ikerketa eremuan, pinu partzela asko baztertuta utzi dira azken hamarkadetan, jabeen belaunaldi aldaketa eman ez delako <ref type="bibr" target="#b24">(Michel, 2006)</ref>. Ondorioz, segida naturalak aurrera egiten du <ref type="bibr">(Onaindia eta Mitxelena, 2009</ref>) eta pinudien oihanpean espezie autoktonoak hazten dira <ref type="bibr" target="#b22">(López-Marcos et al., 2020)</ref>, bertako hegaztientzako erakargarriagoak direnak <ref type="bibr" target="#b17">(Goded et al., 2019)</ref>.</p><p>Horrez gain, gure emaitzen arabera, pinu landaketek eukaliptoek baino habitat hobea eskaintzen dute hegaztientzat eremu honetan, espezieen aberastasun eta ugaritasuna altuagoa izan baitzen. Hortaz, pinua eukaliptoagatik ordezkatzean, pinudietan egon daitekeen aberastasuna galtzeko arriskua dago. Basoaren egiturak hegaztietan eragina duela ikusi da beste lan batzuetan ere <ref type="bibr" target="#b10">(De la Hera et al., 2013)</ref>. Arrazoietako bat egiturak landareetan duen eragina izan daiteke. Izan ere, z uhaitzen dentsitate handiak baliabideen erabilgarritasuna gutxitzen du eta konpetentzia asko handitzen da landareentzako <ref type="bibr" target="#b11">(Duan et al., 2019)</ref>, horien aberastasuna gutxituz. Landare espezie gehiago dagoen lekuetan, hegaztiek elikagaiak lortzeko aukera gehiago dituzte <ref type="bibr" target="#b29">(Proença et al., 2010)</ref> e ta hegazti aberastasuna handitzen du orokorrean. Zuhaitz eta landare belarkara espezie asko egoteak, esaterako, hegaztien aberastasuna igotzen du basoetan <ref type="bibr" target="#b16">(Gil-Tena et a., 2008;</ref><ref type="bibr" target="#b17">Goded et al., 2019)</ref>. Hortaz, landare eta hegazti aberastasunak lotura estua dute baso ekosistemetan.</p><p>Aipatu bezala, landaketetan baso naturaletako zuhaitzak berez hazteko aukera dago. Hala ere, landaketak mozterakoan arraseko mozketa bezalako metodoak erabiltzen direnean, bertako landareak galdu egiten dira, landaketaren hasierako puntura bueltatuz. Gainera, zuhaitzak mozten direnez, eremu horietan zuhaitz zaharrak agertzea arraroa izaten da. Espezie batzuek, Sitta europaea kasu, zuhaitz zahar horiek behar izaten dituzte bizi ahal izateko <ref type="bibr" target="#b30">(Sánchez-Oliver et al., 2014)</ref>; horregatik, landaketak espezie horientzako kaltegarriak izaten dira zenbait kasutan <ref type="bibr" target="#b4">(Ashman et al., 2020)</ref>.</p><p>Hegaztien aberastasunean pH-ak eragina duela erakusten dute gure emaitzek. Lurzoruaren propietate garrantzitsua da pH-a, lurzoruaren emankortasuna eta prozesu biogeokimikoak erregulatzen baititu <ref type="bibr" target="#b18">(Hong et al., 2019)</ref> eta landareentzako eskuragarri dauden lurzoruko elikagaietan eragiten du. Elikagaiak maila desegokietan agertzea eragin dezake adibidez, lurzoruan defizientzia edo toxizitatea sortuz; eta, muturreko balioek lurzoruaren egitura alda dezakete <ref type="bibr" target="#b19">(Ibarra et al., 2009)</ref>. Ondorioz, landare konposizioa pH-arekin aldatu egiten da, elikagaien erabilgarritasuna aldatzen delako hain zuzen <ref type="bibr">(Pabian eta Brittingham, 2012)</ref>. Gure emaitzetan ikusi dugunaren antzera, pH balio altuagoak hegazti espezie kopuru altuagoekin lotu dira, landaretzan duen eraginagatik <ref type="bibr">(Pabian eta Brittingham, 2012)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Ondorioak</head><p>Bizkaiko landaketa nagusienetan hegazti aberastasun eta ugaritasun gutxiago dago baso natural autoktonoetan baino. Azken horiek, habitat egokia eskaintzen dute baso-hegaztientzako; eta horregatik, dauden basoak babestea ezinbesteko helburu eta ekintza izan beharko litzateke kudeaketan. Horrez gain, pinu landaketetan, eukaliptoetan baino aberastasun eta ugaritasun handiagoak daudela diote gure emaitzek. Ematen ari den aldaketen markoan, kudeaketaren inguruko gogoeta egin behar dugu gizartean eta baso landaketen kudeatzeko modua ondo aukeratu behar da: zein espezie erabili, nola eta non landatu, zuhaitzak nola moztu... Kudeaketa ir aunkor bat lortzeko nahitaezkoa da ekosistema eta bizidun autoktonoak babestu eta laguntzea.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Etorkizunerako planteatzen den norabidea</head><p>Lan honetan hegaztien dibertsitatea izan da ardatza, baso sistema ezberdinen eta basoaren ezaugarriek dituzten efektuak ikusteko. Beste talde batzuen (landareak esaterako) biodibertsitatean ematen diren efektuak aztertzea garrantzitsua eta interesgarria izango litzateke, lan honetan lorturiko emaitzak beste talde batzuetan ematen diren jakiteko eta informazioa osatzeko. Garrantzitsuak izan daitezkeen beste faktore batzuk kontuan hartzea interesgarria izan daiteke ere, esaterako, paisaiak hegaztietan izan dezakeen efektua aztertzea. Bestalde, espezieen konposizioa begiratzea garrantzitsua da, espezie bakoitzaren portaerak ezagutzeko; bai sistemen aurrean, baita basoen ezaugarrien aurrean. <ref type="bibr">Ainz, M. J. (2008)</ref>. El monocultivo de pino radiata en el País Vasco: origen y claves de permanencia de un sistema de explotación contrario al desarrollo sostenible, Estudios Geográficos, 265, 335-356.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Erreferentziak</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>5 laukizuzenetan lurzorua jaso zen pH-a eta materia organiko kantitatea neurtzeko. 25 g lur 50 g ur nahastu eta pH-a neurtu zen. Gainontzeko lurzoru-lagina lehortu eta pisatu ostean, muflan erre zen 24 orduz 400 ºC-tan. Galdutako pisua materia organiko kantitatea zen. Laukizuzen guztietan landare-konposizioa lagindu zen. Ikusitako espezieak identifikatu ziren Aizpuru et al. (2000)-en gakoa jarraituz. Analisi estatistiko guztiak JAGS (4.3.1 bertsioa) eta Rstudio (2022.12.0 bertsioa) programen bidez egin ziren. Hegazti aberastasuna (HA, puntuan kontatutako espezie kopurua) eta ugaritasuna (HU, puntuan kontatutako indibiduo kopurua) erabili ziren menpeko aldagai gisa. Bi aldagaien normaltasuna eta homozedastizitatea berrikusi ostean, ANOVA proba egin zen aldagai bakoitzarentzat, aldagai aske gisa sistema hartuta. Tukey postHoc proba erabili zen aldeak bakarka aztertzeko.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>Aldagai guztiak biltzen zituzten ereduak sortu ziren bi menpeko aldagaiak azaltzeko (hegazti aberastasun eta ugaritasuna): HA = α E,B,P + β LA *LA + β ZD *ZD + β ZA *ZA + β pH *pH + β MO *MO+ β UR *UR+ β ALT *ALT + ε HU = α E,B,P + β LA *LA + β ZD *ZD + β ZA *ZA + β pH *pH + β MO *MO+ β UR *UR+ β ALT *ALT + ε IkerGazte, 2023 Zientziak eta Natura Zientziak , non α ordenatuen jatorria den, sistema bakoitzarentzako balio bat duena (E: eukalipto, B: baso eta P: pinu), β i i aldagaiaren malda parametroa den eta ε ereduaren errorea.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>1948 hegazti kontatu ziren guztira, 454 eukaliptoetan, 670 pinuetan eta 824 basoetan. 33 hegazti espezie identifikatu ziren guztira, 20 eukalipto partzeletan, 25 pinuetan eta 31 basoetan. Horietatik, 8 espezie aurkitu ziren basoetan soilik: Alcedo atthis, Anthus trivialis, Cettia cetti, Motacilla cinerea, Phoenicurus ochruros, Poecile palustris, Sitta europaea eta Turdus viscivorus. 2 espezie aurkitu ziren landaketetan soilik: Carduelis carduelis (bi landaketetan) eta Dendrocopos major (pinu landaketetan soilik). Hegaztien ugaritasunean (F = 49,07, p &lt; 0,001) eta aberastasunean (F = 23,25, p &lt; 0,001) desberdintasun esanguratsuak aurkitu ziren sistemen artean (1. irudia). Hegazti aberastasuna eta ugaritasuna baxuagoa izan zen landaketetan basoetan baino, eta eukaliptoetan pinuetan baino (1. taula). 1. taula. Tukey probarekin lortutako ezberdintasunen behe eta goi-balioak eta p balioa binakako konparaketa bakoitzerako. B: basoak, E: eukaliptadiak eta P: pinudiak. Behe eta goi-balioen artean 0 balioa ez badago, ezberdintasuna esanguratsua da (p &lt; 0,05).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>Lau eredu sortu ziren hegazti aberastasunean eragiten duten aldagaiak aztertzeko. Eredu guztien DIC balioak 266,9 eta 268,2 artean egon ziren. Bi puntu baino gutxiagoko aldea ez da nahiko ereduen desberdinketa egiteko. Hortaz, D ∞ balio baxuena zuen (548,674) eredua aukeratu zen (LA, ZD, ZA eta pH aldagaiak zituen eredua). Sistemen artean ez ziren ezberdintasun esanguratsuak aurkitu (α E : 8,963 eta 10,779; α B : 9,487 eta 10,985; α P : 9,421 eta 11,174 balioen artean). Hori dela eta, eredu berri bat sortu zen, hierarkiarik gabekoa, sistemaren efektua kenduz. Eredu berriaren DIC eta D ∞ balioak baxuagoak izan zirenez (265,754 eta 531,935 hurrenez hurren), hierarkiarik gabeko eredu berri hau aukeratu zen. Eredu horren arabera, hegaztien aberastasunean eragin esanguratsu handieneko aldagaia zuhaitz dentsitatea izan zen (2. irudia). Zuhaitzen altuerak eta pH-ak ere eragin esanguratsua izan zuten; ez ordea, landare aberastasunak, nahiz eta eredua sortzeko baliagarria zen aldagaia izan (2. irudia). Hegaztien ugaritasunari dagokionez, DIC eta D ∞ balio baxuenak lortu zituen eredua aukeratu zen, 385,78 eta 3945,614 hurrenez hurren. Beraz, hegaztien aberastasunerako erabilitako eredu berdina erabili zen hegaztien ugaritasunerako. Hierarkia gabeko eredua sortu zen sistemen arteko ezberdintasunak kontuan hartu behar ziren konprobatzeko. Hala ere, eredu berri horrek DIC eta D ∞ altuagoak izan zituzten (389,341 eta 4092,845 hurrenez hurren). Beraz, eredu berria baztertu eta hierarkiadun eredua erabili zen analisirako, hau da, sistema kontuan hartzen duen eredua. Kasu horretan, eragin esanguratsu bakarra zuhaitzen dentsitatea izan zen (2. irudia). Gainontzekoak ez ziren esanguratsuak izan, nahiz eta pH-aren eta landare aberastasunaren kasuetan hurbil egon.2. irudia. Bi ereduetan lortutako parametroen estimazioen balioak: puntuak bataz bestekoa irudikatzen du eta lerroek lortutako balioen sinesgarritasun tarteak (CI, %95; 0 balioa ikutzen ez duten parametroek eragin esanguratsua dute). Ezkerrean hegazti aberastasunari (HA) dagokion ereduaren parametroen estimazioak ageri dira eta eskuman hegazti ugaritasunari (HU) dagokion ereduarenak.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Aberastasun eta ugaritasunak handiagoak izan ziren basoetan landaketetan baino. Beraz, baso naturalek hegazti espezieentzako habitat egokiagoa eskaintzen dutela esan daiteke. Lortutako emaitzak beste ikerketa batzuetan lortutako emaitzekin bat datoz. Esaterako, baso autoktono eta eukaliptoen arteko desberdintasunak Galizian eta Portugalen ikusi izan dira</figDesc><table><row><cell></cell><cell>Sistema pareak</cell><cell>Behe-balioa</cell><cell>Goi-balioa</cell><cell>p balioa</cell></row><row><cell>Hegazti</cell><cell>E -B</cell><cell>-6,429</cell><cell>-3,071</cell><cell>&lt; 0,001</cell></row><row><cell>aberastasuna</cell><cell>P -B</cell><cell>-3,829</cell><cell>-0,471</cell><cell>0,009</cell></row><row><cell></cell><cell>P -E</cell><cell>0,921</cell><cell>4,279</cell><cell>0,001</cell></row><row><cell>Hegazti</cell><cell>E -B</cell><cell>-23,015</cell><cell>-13,985</cell><cell>&lt; 0,001</cell></row><row><cell>ugaritasuna</cell><cell>P -B</cell><cell>-12,215</cell><cell>-3,185</cell><cell>&lt; 0,001</cell></row><row><cell></cell><cell>P -E</cell><cell>6,285</cell><cell>15,315</cell><cell>&lt; 0,001</cell></row><row><cell cols="5">1. irudia. Hiru sistemen (baso, eukaliptadi eta pinudi) hegazti aberastasun eta ugaritasunaren arteko</cell></row><row><cell></cell><cell></cell><cell cols="2">ezberdintasunak.</cell><cell></cell></row></table><note></note></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Aizpuru</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Aseginolaza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">M</forename><surname>Uribe-Echebarría</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Urrutia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Zorrakin</surname></persName>
+		</author>
+		<title level="m">Claves ilustradas de la flora del País Vasco y territorios limítrofes</title>
+		<meeting><address><addrLine>Vitoria-Gasteiz</addrLine></address></meeting>
+		<imprint>
+			<publisher>Servicio Central de Publicaciones del Gobierno Vasco</publisher>
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The effect of evergreen and deciduous coniferous plantations on the field layer and seed bank of native woodlands</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Amezaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Onaindia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecography</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="308" to="318" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Atmospheric deposition and canopy interactions for conifer and deciduous forests in Northern Spain</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Amezaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gonzalez Arias</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Domingo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Echeandia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Onaindia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Water, Air, and Soil Pollution</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="303" to="313" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Labores forestales en Gipuzkoa durante los siglos XVI-XVIII, Zainak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Aragón</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="111" to="126" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Understanding the role of plantations in the abundance of an arboreal folivore</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">R</forename><surname>Ashman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Rendall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R E</forename><surname>Symonds</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Whisson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Landscape Urban Planning</title>
+		<imprint>
+			<biblScope unit="volume">193</biblScope>
+			<biblScope unit="page">103684</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Producción de hojarasca y aporte de nutrientes en plantaciones de Pinus radiata en el País Vasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Barraqueta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Basagoiti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">II Congreso Mundial Vasco)</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="411" to="426" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+	<note>Biología ambiental: actas del Congreso de biología ambiental</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Biodiversidad en plantaciones de eucalipto y en robledales del sur de Galicia: plantas y aves</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Bas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Guitián</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ssobral</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Cient. Compostelana (Bioloxia)</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="71" to="81" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Diversity and succession of vascular understory plants in exotic Pinus radiata plantation forests in New Zealand</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G</forename><surname>Brockerhoff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Ecroyd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Lleckie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">O</forename><surname>Kimberley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Forest Ecology and Management</title>
+		<imprint>
+			<biblScope unit="volume">185</biblScope>
+			<biblScope unit="page" from="307" to="326" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Field and laboratory methods for general ecology: Wm. C. Brown Company publisher</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Brower</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Zar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1979" />
+			<pubPlace>Dubuque, Iowa</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Effectiveness of eucalypt plantations as a surrogate habitat for birds</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Calviño-Cancela</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="volume">310</biblScope>
+			<biblScope unit="page" from="692" to="699" />
+		</imprint>
+		<respStmt>
+			<orgName>Forest Ecology and Management</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Exotic tree plantations and avian conservation in northern Iberia: a view from a nest-box monitoring study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>De La Hera</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Arizaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Galarza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Biodiversity and Conservation</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="153" to="163" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Effects of Planting Density on Soil Bulk Density, pH and Nutrients of Unthinned Chinese Fir Mature Stands in South Subtropical Region of China</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Forests</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="351" to="367" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Manejo de explotaciones forestales y pérdida de suelo en zonas de elevada pendiente del País Vasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Edeso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Merino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>González</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Marauri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cuaternario y Geomorfología</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="105" to="116" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Efectos ambientales de las plantaciones de eucaliptos en Euskadi y la península ibérica</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Elosegi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Cabido</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Larrañaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Arizaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Munibe, Cienc. nat</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="111" to="136" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">La Política Forestal en el Régimen Foral Vasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Garayo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Revista Internacional de los Estudios Vascos</title>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="63" to="79" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Modelización del crecimiento y la producción de plantaciones de Eucalyptus globulus Labill. en el noroeste de España (doktorego tesia): Departamento de Enxeñaría Agroforestal Escola Politécnica Superior</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>García</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<pubPlace>Lugo</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Relationships between forest landscape structure and avian species richness in NE Spain</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gil-Tena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Torras</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Saura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ardeola</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="27" to="40" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Effects of eucaliptus plantations on avian and herb species richness and composition in North -West Spain</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Goded</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ekroos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Domínguez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">G</forename><surname>Azcárate</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Guitián</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">G</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">e00690. HAZI fundazioa</title>
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">19</biblScope>
+		</imprint>
+	</monogr>
+	<note>El bosque vasco en cifras 2021</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Environmental controls on soil pH in planted forest and its response to nitrogen deposition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Research</title>
+		<imprint>
+			<biblScope unit="volume">172</biblScope>
+			<biblScope unit="page" from="159" to="165" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Distribución espacial del pH de los suelos agrícolas de Zapopan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Ibarra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">R</forename><surname>González</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">G</forename><surname>Flores</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Díaz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Agricultura Técnica en México</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="267" to="276" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Impacts of Eucalyptus globulus plantations on physiology and population densities of invertebrates inhabiting Iberian Atlantic Streams</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Larrañaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Basaguren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Pozo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Review of Hydrobiology</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="497" to="511" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Loidi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Biurrun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Campos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>García-Mijangos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Herrera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskal Herriko Unibertsitatea</title>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Can mixed pine forests conserve understory richness by improving the establishment of understory species typical of native oak forests?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>López-Marcos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">B</forename><surname>Turrión</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Bravo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Martínez-Ruiz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Forest Science</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="15" to="29" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Environmental effects of Pinus radiata D. Don plantations in the Basque Country (Spain)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Martin De Agar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">I</forename><surname>De Pablo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">D</forename><surname>Pineda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Atauri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Jover</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Prieto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">F</forename><surname>Schmitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Ugarte</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Latasa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Garcis</surname></persName>
+		</author>
+		<editor>A., Teller.</editor>
+		<editor>P., Mathy</editor>
+		<editor>J. N. R., Jeffers</editor>
+		<imprint>
+			<date type="published" when="1992" />
+			<publisher>Springer</publisher>
+			<biblScope unit="page" from="871" to="873" />
+			<pubPlace>Dordrecht, Herbehereak</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Responses of forest Ecosystems to environmental changes</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">El Pino Radiata en la Historia Forestal Vasca: Análisis de un proceso de forestalismo intensivo</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Michel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aranzadi Zientzi Elkartea</title>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Potential use of pine plantations to restore native forests in a highly fragmented river basin</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Onaindia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Forest Science</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="305" to="312" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Can understorey native woodland plant species regenerate under exotic pine plantations using natural succession?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Onaindia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Ametzaga-Arregi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>San Sebastián</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Rodríguez-Loinaz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Peña</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">G</forename><surname>Alday</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="volume">308</biblScope>
+			<biblScope unit="page" from="136" to="144" />
+		</imprint>
+		<respStmt>
+			<orgName>Forest Ecology and Management</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Land use efficiency through analysis of agrological capacity and ecosystem services in an industrialized region</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Onaindia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Peña</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Fernández De Manuel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Rodríguez-Loinaz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Madariaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Palacios-Agúndez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Ametzaga-Arregi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Land Use Policy</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="650" to="661" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Soil calcium and forest birds: indirect links between nutrient availability and comunity composition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Pabian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Brittingham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecosystems</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="748" to="760" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Plant and bird diversity in natural forests and in native and exotic plantations in NW Portugal</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Proença</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Guilherme</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Vicente</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Oecologica</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="219" to="226" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Differential effects of local habitat and landscape characteristics on bird communities in Mediterranean afforestations motivated by the EU Common Agrarian Policy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Sánchez-Oliver</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Rey Benayas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Carrascal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="135" to="143" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">La conflictidad de las plantaciones de eucalipto en España</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X;</forename><surname>Veiras</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Soto</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<publisher>Greenpeace, Madril</publisher>
+			<pubPlace>y Portugal</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A global meta-analysis of the impacts of tree plantations on biodiversity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Global Ecology and Biogeography</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Forest conversion to plantations: A meta-analysis of consequences for soil and microbial properties and functions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Xiang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ouyang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Global Change Biology</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="5643" to="5656" />
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eskerrak</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">David Ruari eskerrak eman nahi dizkiogu laginketak egiten laguntzeagatik. Lan hau Euskal Herriko Unibertsitateak (UPV/EHU) finantziatua izan da</title>
+		<imprint/>
+	</monogr>
+	<note>ikertzaileak prestatzeko kontratazio deialdiko diruaren bidez (PIF20/27</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

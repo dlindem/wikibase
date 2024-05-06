@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Hizkuntza aldakortasun geo-soziolinguistikoa Arratian</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Naia</forename><surname>Eguskiza</surname></persName>
+							<email>eguskiza.n@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">EUDIA ikerketa taldeko kidea. Hizkuntza eta Literaturaren Didaktika Saila (EHU</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Hizkuntza aldakortasun geo-soziolinguistikoa Arratian</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.26876/ikergazte.ii.01</idno>
+					<note>IkerGazte, 2017 Giza Zientziak</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-04-26T13:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Hitz gakoak: Hizkuntza aldakortasuna</term>
+					<term>soziolinguistika</term>
+					<term>geolinguistika Keywords: language variation</term>
+					<term>sociolinguistics</term>
+					<term>geolinguistics</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena</head><p>Lan honek hizkuntza aldakortasun geo-soziolinguistikoa izango du aztergai Arratiako herrietan. Helburuak lortzeko datuak galdetegi baten bidez bilduko dira: eskualde horretan gaur egun belaunaldi desberdinetako hiztunen artean dagoen hizkuntza aldakortasuna ikertzeko balio izango digutenak. Ezaugarriok fonologiari, izen-morfologiari, aditz-morfologiari eta sintaxiari dagozkienak izango dira. Hautatutako ezaugarriak 48 lekukoren grabaketetan ikertuko dira. Zortzi lekukorekin egingo da lan herri bakoitzean: 1950-1965 urteen bitartean jaiotako emakume birekin eta gizonezko birekin eta 1985-2000 urteen bitartean jaiotako beste bina emakume eta gizonekin. Guztira beraz, 6.720 datutik gorako corpusa osatuko dugu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>The aim of this paper is to analyse the regional linguistic variation of the Euskera language in the villages of Arratia. For this project we will gather all the necessary data through a questionnaire that will enable us to investigate the current linguistic variety among speakers of different generations and gender. These features match the scope of phonology, nominal morphology, verbal morphology and syntax. The characteristic features selected will be analysed through recordings made to 48 people. Eight people in each place: two women and two men born between 1950 and 1965, and two women and two men born between 1985 and 2000. We will build, therefore, a corpus with over 6,720 data.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Sarrera eta motibazioa</head><p>Animalien erreinuarekin antzekotasunak aurkitu gura izatekotan hizkuntzaren aldaketa, adaptazioa, kameleoienarekin egin genezake. Kameleoiek egoeran aldatzeko abilezia daukate, ingurugiroarekin bat egitekoa. Hizkuntzek antzera egiten dutena badakigu, denborarekin aldatuz datoz. Egoera berrietara moldatuz, hiztun berrien mingainetara ohituz.</p><p>Euskara hezkuntza formalean irakasten hasi izanak, estandarrak, asfaltoak, IKT berriek, globalizazioak… daragite aldakuntzan. "All languages change through time. We do not really know why this is, but it is a characteristic of all human languages. They also change in different ways in different places" <ref type="bibr">(Trudgill, 2003:7)</ref>.</p><p>Baina zeintzuk dira aldaketa horiek dakartzaten tendentziak, joerak? Zeintzuk dira horren erantzule? Euskara estandarrak bere funtzioa daukan honetan, zelako eragina dauka horrek Arratiako berbakeran? Igorre eremuko erdigune sozioekonomikoa eta kulturala izanik ere, ba al dauka eragin linguistiko esanguratsurik hizkeraren aldaketan? Eta aldaketa hori esponentziala al da?</p><p>Doktoretza tesi izango den honen helburua planteatutako galdera horiei erantzunak aurkitzea izango da. Eta artikulu edo lantxo honen bidez Arratiako hizkuntza aldakortasun geo-soziolinguistikoa jasotzeko, aztertzeko eta ondorioak aurkezteko egingo den bidea azalduko da. Lanaren helburua Arratiako herrietako belaunaldi biko andrazkoen eta gizonezkoen arteko bariazio geosoziolinguistikoa aztertzea da, hots, geografiaren, adinaren eta generoaren arabera dagoen aldakortasuna ikertzea. Izan ere, hizkuntza "ez da monolitikoa. Hizkuntza aldakorra da" (Martínez, 2010:86). Horregatik, beharrezko irizten diogu Arratiako hizkera bere aldakortasunean aztertzeari.</p><p>Arratia osatzen duten herrietako euskara bildu, aztertu eta datuok euren artean erkatu egingo ditugu, Igorre Arratiako erdigunea izanik, gainontzekoetan daukan eragina aztertuz <ref type="bibr">(Iglesias, 2015)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Arloko egoera eta ikerketaren helburuak</head><p>Bizkaiko hegoaldean dagoen Arratia deituriko eremu geografikoko euskara barietatea, Bonapartek (1863-1869), mendebaldekoen artean sailkatu zuen. Beranduago, Zuazok <ref type="formula">(2008)</ref> Atzerrian, aspaldidanik utzi izan zaio soziolinguistikari ikerketa esparruan eremu nabarmena. Euren ekarpenengatik mundu mailan ezagun dira <ref type="bibr" target="#b2">Blommaert (2010)</ref>, Eckert <ref type="formula">(2000)</ref>, Labov <ref type="formula">(2001)</ref>, <ref type="bibr" target="#b23">Tagliamonte (2012</ref><ref type="bibr">) eta Trudgill (1983</ref>, beste batzuen artean. Azken horrek, honela definitzen du soziolinguistika: "Sociolinguistics is the science which deals with the relationship between language and society. It is therefore a very broad topic, encompassing the study of social dialects, language attitudes, stylistic variation, conversational interaction, multilingualism, language change, and much more" <ref type="bibr">(Trudgill, 1984:2.or</ref>  <ref type="bibr" target="#b11">(Garmendia, 2008;</ref><ref type="bibr" target="#b15">Iglesias 2014;</ref><ref type="bibr" target="#b6">Ensunza, 2015;</ref><ref type="bibr" target="#b17">Lujanbio, 2016)</ref>. Orain artean trazatutako bide honetan ezin utzi aipatu barik, doktoretza tesi honen zuzendaria den Iñaki Gaminderen ekarpen guztiak, zein Gotzon Aurrekoetxearenak. Hala ere, osotasunean Arratia inguruko herrien arteko hizkuntza aldakortasuna aztertzea eta beronek eskolan daukan lekua ikertzeke dagoenez, hori da behar honen xedea, etapa honetarako eta baita etorkizunera begira ere, dagoen gabezia hori asebetetzea.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Ikerketaren muina</head><p>Atal honetan bariazio geo-soziolinguistikoa ikertzeko erabiliko dugun metodologia, horretarako sortu eta erabiliko dugun galdetegia eta corpusa adieraziko dira.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Metodologia eta corpusa</head><p>Hainbat dira ikerketa soziolinguistikoak edota dialektologikoak egiteko metodoak eta moduak.</p><p>Tagliamontek (2012) hizkuntza aldakortasuna eta bariazioa aztertzeko prozedura honela aurkezten du: 1) Observation, 2) identification, 3) reconnaissance, 4) Systematic Exploratory Observation, 5) test hypotheses, claims and observations, 6) interpret and explain the variable patterns, social and linguistic.</p><p>Guk ere, hizkuntzaren aldakortasuna aztertzen diharduten beste ikertzaile askoren legez eredu hori jarraitzearen hautua egin dugu eta antzera egingo dugu behar. Behaketarekin hasita hizkuntza aldakortasuna ikertzeko beharrezkotzat jotzen ditugun ezaugarriak identifikatu eta aukeratuko ditugu.</p><p>Aldakortasuna non gertatzen den zehaztuko dugu (reconnaissance). Formen inbentarioa egingo dugu ondoren, aldakortasun noiz, zeren araberakoa den eta nork darabilen zehaztuz.  <ref type="bibr" target="#b15">(Iglesias, 2014;</ref><ref type="bibr" target="#b14">Hualde, 1997</ref><ref type="bibr" target="#b14">Hualde, , 2006</ref><ref type="bibr" target="#b8">Gaminde 2007</ref><ref type="bibr" target="#b8">Gaminde , 2011</ref>. Intonazioari dagokionez, sistema konplexu dinamikotzat hartuta, esaldi mailako osagai prosodikoak eta testu mailakoak bereiz aztertuko dira <ref type="bibr" target="#b8">(Gaminde, 2010;</ref><ref type="bibr" target="#b14">Hualde, 2011;</ref><ref type="bibr" target="#b5">Elordieta, 2008;</ref><ref type="bibr" target="#b13">Gussenhoven, 2002;</ref><ref type="bibr" target="#b22">Pierrehumbert. 1980;</ref><ref type="bibr" target="#b16">Ladd, 1996)</ref>. Azterketaren oinarria f0 kurben analisi fonetikoa izango da. Esaldi mailako aldagaiak (esaldiaren gailurra eta muga tonuak: L, LH, H, HL) eta sintagma mailako aldagaiak (sintagmaren gailurrak eta aditzaren gailurrak) zehaztuko dira.</p><p>Izen morfologiari dagozkien aldagaiak postposizioen inbentariokoak eta euron erabileren arabera aztertuko dira <ref type="bibr" target="#b15">(Iglesias, 2014;</ref><ref type="bibr" target="#b8">Gaminde, 2007;</ref><ref type="bibr" target="#b25">Zuazo, 1998)</ref>. Aditz morfologian, galdekizuna prestatzean gauza bera egingo da, hots, aditz ez jokatuen eta jokatuen aldagaiak zehaztuko dira euren erabilerarako <ref type="bibr" target="#b0">(Arregi &amp; Nevins, 2006;</ref><ref type="bibr" target="#b10">Gaminde, Romero &amp; Legarra, 2012)</ref>. Adizkien aldakien azterketa morfofonologikoan oinarrituko gara. Adizki bakoitzak daukan probabilitatea kalkulatuko dugu eta morfemen eta arau fonologikoen agerpenen maiztasunetan oinarrituko gara <ref type="bibr" target="#b9">(Gaminde &amp; Eguskiza, 2017)</ref>.</p><p>Azkenik, sintaxian lehenengo eta behin galdekizuna zehazteko testu corpusa batuko da aurre inkesta gisa, jakiteko zein den bertan aldaketa prozesuan dagoena, era berean dagoen bibliografia arakatuko da hori erabakitzeko <ref type="bibr" target="#b8">(Gaminde, 2007;</ref><ref type="bibr" target="#b10">Gaminde, Romero &amp; Legarra, 2012)</ref>.</p><p>Esan bezala, 6.720 datutik gorako corpusa osatuko dugu. Horretarako, datu guztiak .wav formatuan jasoko ditugu. Gero, datuok, Praat <ref type="bibr" target="#b3">(Boersma &amp; Weenik, 2016)</ref>   <ref type="bibr" target="#b1">(Aurrekoetxea, Fernandez, Aguirre, Ruiz &amp; Sanchez, 2013)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Ondorioak</head><p>Azken lerrook, lan honetan proposatutakoa egin ostean ondorioak zelan aurkeztuko ditugun azaltzeko erabiliko ditugu. Planteatutako eta proposatutako datuon analisien bidez zein esparruk dakarren aldaketarik nabarmenena antzemango dugu, ez baitugu uste denek aldaketa-erritmo bera dakartenik. Eta zein den eraginik handiena daukan faktorea ere (herria, generoa, belaunaldia) zehaztuko dugu, kasuan kasuan.</p><p>Gainera, informatzaileen azken sailkapena ere egingo dugu. Informatzaileen erantzunekin ezaugarri guztiak barnebilduko dituen matrizea osatuko dugu eta multzokatze azterketa eta dimentsio aniztunen eskala erabilita informatzaileak sailkatuko ditugu. Horrela ikusiko dugu informatzaileak multzokatuta, bananduta edo nahastatuta agertzen diren herrien, generoen eta belaunaldien arabera ala ez.</p><p>Honek guzti honek Arratiako berbakerak ia zelako aldaketa dakarren ikusteko balioko digu, noiz gertatzen den, zeren araberakoa den eta nork darabilen argituko baitugu, aldagai-ereduak interpretatuz eta azalduz (hizkuntz-aldagaiak eta gizarte-aldagaiak).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Etorkizunerako planteatzen den norabidea</head><p>Datozen urteetarako zeregina hezkuntzarekin lan hau uztartzea izango da. Horretarako, Arratiako herri eskoletan elkarrizketak burutuko dira, hizkuntza aldakortasuna zelan ulertzen eta antzematen duten aztertzeko, Arratiako hizkuntza eta hezkuntza lotuz <ref type="bibr" target="#b12">(Goikoetxea, 2003;</ref><ref type="bibr" target="#b19">Maia, 2000)</ref>. Arratiako eskoletan bertako hizkuntza aldakortasuna erabiltzen den edo erabili beharko litzatekeen aztertu eta gogoeta egingo dugu, Lehen Hezkuntzako mailetan. "Puntu honetan axola diguna da eskolan onartu edo bultzatu behar den hizkera erabakitzeko orduan ea nolako tokia eskaintzen zaion hizkuntzaren aldagarritasun topikoari" <ref type="bibr">(Maia, 2000, 284.or.)</ref>.</p><p>Trudgillek <ref type="bibr">(1983)</ref>, eskolek hiru jarrera eta jokamolde har ditzaketela diosku: elimination approach, bi-dialectalism eta appreciation of dialectal differences. Lehenengoak, dialektoaren ezaugarrien ezabatzea dakar, bigarrenak, estandarra eta norberaren jatorrizko dialektoa onesten ditu, eta hirugarren eta azkenak, hiztun bakoitzak bere aldaera erabil dezakeela dio zuzenketarik jaso barik. Eredu horretan oinarrituz, eskoletara joko dugu Trudgillek (1983) azaltzen dituen hiru ereduetako zeini atxikitzen zaion Arratiako herri eskoletako bakoitza ezagutzeko eta ostean, azken balorazioak, gogoetak eta hobetzeko iradokizunak luzatuko ditugu. Ailegatzen garen puntutik aurrera baita, etorkizunera begirako zeregin berriak proposatuz.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>). Mundu mailan baita, sano prestigiodunak dira, NWAV (New Ways of Analyzing Variation), ICLaVE (The International Conference on Language Variation in Europe) eta Methods kongresuak ere. Gure artera etorririk eta euskarari dagokionean, aldakortasunaren ikuspegitik egindako ikerketa gehienak maila diatopikoan egin dira, euskararen aldakortasuna geografikoki landuz, herriz herriko aldeari erreparatuz, eta ez horrenbestean aldakortasun soziolinguistikoari dagokionean. Hala ere, aldakortasun soziolinguistikoarenganako interesa eta ardura gurean ere apurka indarra hartuz dator, batetik EUDIA ikerketa-taldearen argitalpenei esker; eta, bestetik, master lanen, tesien eta ikerketa lanei esker</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>Hipotesiak eta behaketen frogatzea etorriko da gero eta azkenik, aldagai-ereduak interpretatu eta azalduko ditugu (hizkuntza aldagaiak eta gizarte-aldagaiak). Aldakortasuna sistematikoki eta ezaugarri berdinak lekuko guztiengan behatzeko, itzulpen eta interpretazio bidezko galdetegia osatuko da. Galdetegi horren xedea erantzun zehatzak biltzea da, gerora, elkarren artean konparagarriak izango diren datuak lortzeko. Egia da, datuak jasotzeko bide bat baino gehiago egon badagoena: elkarrizketa gidatua eta behatzaileak bideratutakoa, lekukoa bere ingurune sozial eta naturalean aztertzea (familiartean, lagunartean) edota hizkuntza erabilera publikoan behatzea. Hala ere, hemen, ahalik eta informaziorik zehatzenaren bila jo asmoz, galdetegi itxi bat planteatzen dugu. Fonologia arloko ezaugarriak multzo nagusi bitan banatzen dira: alde batetik, arlo segmentala dugu (bokalak eta kontsonanteak) eta, bestetik, arlo suprasegmentala (azentua eta intonazioa). Lan honetan denak landuko ditugu. Arlo segmentalean, fonemen inbentarioa eta arau fonologiko nagusiak deskribatzeaz gain, beharrezkoa denean azterketa akustikoak ere egingo ditugu Praat programa erabiliz (Boersma &amp; Weenik, 2016) 1 . Azentuari dagokionez, bertako arau nagusiak ere aztertuko dira</figDesc><table><row><cell>Lekuko bakoitzak 140 ezaugarriri emango die erantzuna. Arratiako 6 herritan (Lemoa, Igorre,</cell></row><row><cell>Dima, Artea, Zeanuri eta Zeberio) 8 lekuko grabatuko ditugu: herri bakoitzean 1950-1965 urteen</cell></row><row><cell>bitartean jaiotako andrazko bi eta gizonezko bi eta 1985-2000 urteen tartean jaiotako beste andrazko bi</cell></row><row><cell>eta gizonezko bi, beraz, 48 lekuko guztira. Ondorioz, 6.720 datutik gorako corpusa osatuko dugu.</cell></row><row><cell>Lekukoak aukeratzerakoan, ama herrikoa bertakoa izatea eta aita Arratiakoa izatea jagongo da, ahalik</cell></row><row><cell>eta interferentzia gutxieneko hiztunak izan daitezen. Ondorengo hizkuntza aldagaiak planteatuko</cell></row><row><cell>zaizkien testuinguru linguistiko ezberdinetan agertuko dira.</cell></row><row><cell>Galdetegian jaso eta aztertuko diren ezaugarriak fonologiari, izen-morfologiari, aditz-morfologiari</cell></row><row><cell>eta sintaxiari dagozkienak izango dira.</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>programarekin anotatu transkribatu eta analizatu egingo ditugu. Horrela, egingo dugu lan ahalik eta transkripziorik zehatzenak eta objektiboenak eskaintzeko. Datu base bat ere sortuko dugu, non datu guztiak sartuko ditugun. Bertan, aurretiaz zehaztutako faktoreen arabera antolatuko ditugu datuok: geografikoki, belaunaldien arabera eta generoen arabera. Datuok metodo kuantitatiboaren bidez aztertuko ditugu, soziolinguistikako datuak interpretatzeko eta joerak antzemateko darabilen metodologiari jarraituz. Gainera SPSS (Statistical Package for the Social Sciences) programa estatistikoa ere erabiliko da, datu base handiekin lan egiteko interface erabilerraza baitauka. Datuok mapetan ere islatuko ditugu, aldakortasuna erakusteko. Diatech erabiliko dugu horretarako</figDesc><table /><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">Hemendik berreskuratua: www.praat.org/</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A distributed Morphlogy Analysis of Present Tense Auxiliaries in Zamudio Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Arregi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Nevins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskalingua</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="146" to="156" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Aurrekoetxea</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Aguirre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Sanchez</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/llc/fqs049</idno>
+		<title level="m">Diatech: A new tool fpr dialectology. Literary and Linguistic Computing</title>
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Blommaert</surname></persName>
+		</author>
+		<title level="m">The sociolinguistics os Globalization</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Praat: doing phonetics by computer (Version 5.418)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Boersma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Weenik</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note>Computer program</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Carte des sept provinces basques montrant la délimitation actuelle de l&apos;euscara et sa division en dialectes, sous-dialectes et variétés, Standford&apos;s Geographical Establishment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">L</forename><surname>Bonaparte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Linguistic Variation as Social Practise</title>
+		<editor>London. Eckert, P.</editor>
+		<meeting><address><addrLine>Blackwell, Oxford</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2000" />
+			<biblScope unit="page" from="1863" to="1869" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Euskal azentu eta intonazioari buruzko ikerketa: status quaestionis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Elordieta</surname></persName>
+		</author>
+		<idno>24/06/2012</idno>
+		<ptr target="http://www.elebilab.com/documentos/archivos/publicaciones/1_Elordieta--Koldo%20Mitxelena%20Katedrarako.pdf" />
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Busturialdeko euskararen hizkuntza-aldakortasuna denboran eta espazioan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ensunza</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note>Doktoretzatesia</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Upv/Ehu</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Noraka euskal azentuak?&quot; in G. Aurrekoetxea eta I. Gaminde (Koor.), Prosodiaz eta Hezkuntzaz I</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Gaminde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bizkaiko Gazteen Prosodiaz: Euskaraz eta Gaztelaniaz</title>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="page" from="63" to="85" />
+		</imprint>
+	</monogr>
+	<note>Bilbo: UPV/EHU</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gaminde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Eguskiza</surname></persName>
+		</author>
+		<title level="m">Arratiako gazteen aditz laguntzaileen bariazioaz. (Agertzeko)</title>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Gaminde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Legarra</surname></persName>
+		</author>
+		<title level="m">Gramatika eta Hizkuntza Bariazioa Bermeon</title>
+		<meeting><address><addrLine>Bermeo, Bermeoko Udala eta Campos Hegaluzea</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Hizkuntza aldakortasuna Zaldibiako euskaran: ikuspegi soziolinguistikoa in euskalgintza XXI. Mendeari buruz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Garmendia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskatzaindiaren nazioarteko XV.Biltzarra, Bilbo, Euskaltzaindia</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="2" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Euskalkia eta hezkuntza, dakigunetik ez dakigunera euskal diglosia irazian</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Goikoetxea</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<pubPlace>Bilbo, Euskaltzaindia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Intonation and Interpretation: Phonetics and Phonology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Gussenhoven</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Speech Prosody 2002, International Conference</title>
+		<imprint>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Hitz-mailako prosodiaren azterketa eta tipologia: zenbait ondorio euskararen hezkuntzarako&quot; in G. Aurrekoetxea eta I. Gaminde (Koor.), Prosodiaz eta Hezkuntzaz I</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Hualde</surname></persName>
+		</author>
+		<ptr target="Jardunaldiak.UPV/EHU" />
+	</analytic>
+	<monogr>
+		<title level="j">Oienart</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="149" to="177" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note>Estado actual de las investigaciones sobre la acentuación en lengua Vasca</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Igorreko hizkeraren azterketa dialektologikoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Iglesias</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note>Doktoretza-tesia</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Principles of linguistic change. Social factors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Upv/Ehu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Labov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Oxford</forename><surname>Blackwell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">R</forename><surname>Ladd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Intonational phonology, Crambridge</title>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Hizkuntza-aldakortasuna euskaran. Nafarroa ipar-mendebaldeko bi udalerritan egindako azterketa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Lujanbio</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note>Doktoretza-tesia</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Upv/Ehu</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Eskolako hizkera ereduaz, euskara batuaren eta euskalkiaren arteko harremanen testuinguruan (eta Bizkaiko eta Nafarroako eskualde banatan eginiko azterketa enpirikoa, euskarazko ereduko geletan)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Maia</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note>Doktoretza-tesia</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Upv/Ehu</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Hizkuntzaren aldakortasuna in Soziolinguistika eskuliburua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">V</forename><surname>Martinez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eusko Jaurlaritza</title>
+		<imprint>
+			<biblScope unit="page" from="83" to="121" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">The phonetics and phonology of English intonation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Pierrehumbert</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+	<note>Doktoretza-tesia</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Tagliamonte</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+			<publisher>Variationist Sociolinguistics. Change, Observation, Interpretation, Wiley-Blackwell</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Trudgill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edward</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>London</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">A glossary of sociolinguistics</title>
+		<imprint>
+			<publisher>Oxford University Press on Demand</publisher>
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+	<note>Language in the British isles</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Zuazo</surname></persName>
+		</author>
+		<title level="m">Euskalkiak, euskararen dialektoak</title>
+		<meeting><address><addrLine>Euskalkiak, gaur, FLV; Elkar, Donostia; Elkar, Donostia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Euskalkiak</publisher>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="191" to="233" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eskerrak</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Eskerren azken atal hau tesi honen zuzendaria den Iñaki Gaminderi zuzendua da batik bat. Bere neurririk gabeko laguntasunagatik. Bidenabar, eskerrak ere EUDIA ikerketa-taldeko kide guztiei</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Ikerketa hau IT1028/16 proiektuaren (Eusko Jaurlaritzaren dirulaguntzarekin) eta GIU 16/22 proiektuaren barruan (Euskal Herriko Unibertsitatearen dirulaguntzarekin) egin da</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>***</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

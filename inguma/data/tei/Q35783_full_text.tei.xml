@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.26876/ikergazte.i.04</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-04-26T13:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Vowel Raising</term>
+					<term>Vowel Nasalization</term>
+					<term>Basque</term>
+					<term>Sound Change</term>
+					<term>Phonology</term>
+					<term>Phonetics</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IkerGazte, 2015 Giza zientziak</head><p>[õ] sudurkarituaren igoera ekialdeko euskalkietan Egurtzegi, A.  Euskal Herriko Unibertsitatea (UPV/EHU)   ander.egurtzegi@ehu.es</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena</head><p>Lan honetan euskarazko /o/ erdiko atzeko bokalaren igoera aztertzen da. Bilakabide hau fonetikoki sudurkarituriko [õ]-ren igoera bezala deskriba daitekeela proposatuko da. Hots-eredu hau batez ere zubereran eta erronkarieren garatu zen, nahiz eta ekialdeko beste euskalkietan ere aurki daitekeen. Hots aldaketa hau sudurkaritasunaren berezko anbiguotasun fonetikoaren bitartez azaltzea proposatuko da, ambigutasun hau F1-en eremuan "formante sudurkariak" gehitzeak eragiten duela. Laburbilduz, lan honek deskribapen fonologikoak erraz azaltzen ez duen baina fonetikoki arazorik gabe azal daitekeen hots-eredu bat aurkezten du, fonetikaren garrantzia ikerketa historiko eta fonologikoan azpimarratzen delarik.</p><p>Hitz gakoak: bokal igoera, bokalen sudurkaritasuna, euskara, hots aldaketa, fonologia, fonetika.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>In this paper I analyze the raising of the mid back vowel /o/ in Basque. I will propose that this process is more accurately described as raising of phonetically nasalized [õ]. This sound pattern is primarily found in Zuberoan and Roncalese, although it is present, to a lesser degree, in other eastern Basque dialects. This sound change is accounted for by means of the phonetic ambiguity in vowel height inherent to nasalization. This ambiguity is caused by the addition of "nasal formants" to the F1 space. In short, this paper analyzes a sound pattern that cannot be easily accounted for by means of phonological description but is straightforwardly explained in phonetic terms, emphasizing the importance of phonetics in historical and phonological research.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Sarrera</head><p>Euskalki moderno guztiek 5 bokal "kardinalak" /a, e, i, o, u/ dituzte, hauei zubereran seigarren bokal kualitate kontrastibo bat -/y/ goiko bokal biribildu aitzinatua, alegia-gehitu behar zaiela. Bokal hau beste euskalkietako /u/-ri dagokio sistematikoki eta segmentu horretatik erator daiteke konparazio dialektalaren bidez. Halere, /u/-tik ezberdin daiteke, testuinguru fonologiko zenbaitek aitzineratzea eragotzi zutelako (cf. <ref type="bibr" target="#b24">Egurtzegi 2014</ref><ref type="bibr">Egurtzegi , 2015</ref> eta zubereraren barnean /u/ berriak sortu zirelako zenbait /o/-ren igoeraren ondorioz.</p><p>Esan bezala, /o/ orokorraren zenbait adibide /u/ bihurtu ziren zubereraz. Bokal igoera hau ekialdeko gainontzeko euskalkietan ezaguna da, bertan oso esporadikoa izan arren. Nahiz eta zuberera eta erronkarieran igoera prozesu hau oso emankorra izan zen, ez zen sistematikoa izan bertan ere. Hedapen lexikoaren <ref type="bibr">(Labov 1994: 542)</ref> ondorioz, prozesuak salbuespenak ditu, bai igoera jasan ez duten item lexikoetan eta baita hizkera zenbaitetan baino igo ez diren hitzetan <ref type="bibr">(cf. konpasionea, gizun vs. gizon, etab)</ref>. Nahiz eta hots aldaketa hau bibliografian ezaguna den (cf. <ref type="bibr" target="#b17">Mitxelena 1977</ref><ref type="bibr" target="#b17">Mitxelena [2011</ref><ref type="bibr">Martínez-Areta 2013: 62;</ref><ref type="bibr">Zuazo 2008: 44-45, etab.)</ref>, aurreko autoreek ez dituzte bilakabide honen testuinguru fonologikoak zehaztu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Arloko egoera eta ikerketaren helburuak</head><p>Mitxelenari jarraikiz, 1 aurreko autoreek zuberera modernoak /o/-ren ordezko /u/ erakusten duen testuinguru fonologikoak /n/ aurretik eta "zehazteko zailak diren beste zenbait testuinguruetan" kokatu izan dituzte (cf. <ref type="bibr">Egurtzegi 2013: 132;</ref><ref type="bibr">Martínez-Areta 2013: 62;</ref><ref type="bibr">Zuazo 2008: 44-45, etab.)</ref>. Prozesu hau baldintzatu zuen testuinguru fonetikoa, beraz, ez da bibliografian orain arte nahi genukeen punturaino zehaztua izan.</p><p>Lan honen helburu nagusia zubereraren /o/-ren igoerari eta bilakabide honen testuinguruei dagozkien deskribapenak berrikusi eta sendotzea da. Horretarako, aurreko bibliografia berrikustearekin batera, autore eta garai ezberdinetako testu zuberotarretan dagozkigun hotsereduen adibideak identifikatu eta analizatu dira. Honakoa modu aleatorioan hautatutako Orotariko Euskal Hiztegiaren <ref type="bibr">(Euskaltzaindia 1987</ref><ref type="bibr">(Euskaltzaindia -2005</ref> 500 orrialde baino gehiago ikuskatu ostean eraman da aurrera. Ikerketa horren ondorioz sortutako korpusetik hartutako hitz zerrenda 3.1 atalean aurkezten da.</p><p>Analisi berri bat aurkeztearekin batera, lan honek deskripziotik haratago joatea du helburu, azalpenerako ahalegin bat aurkeztuaz. 3.2 atalean, landutako bokal igoera prozesuaren eragilea bilatzeko proposamen bat garatuko da, sorburu hau fonetikoki beha daitezkeen fenomenoetan oinarrituko delarik.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">[õ]-ren igoera euskaraz eta munduko beste hainbat hizkuntzan</head><p>Lan honetan proposaturiko analisi berriaren arabera, /o/-ren igoera esporadikoak fonetikoki sudurkaritua den edozein /o/ erasan dezake. Hau da, o &gt; u igoerak kontsonante sudurkari baten inguruan egotearen ondorioz fonetikoki sudurkariturik dauden /o/-ak eragiten ditu, [õ] &gt; [ũ] aldaketa sinple bat proposatzeko aukera ematen digularik.</p><p>Nahiz eta bilakabide hau ekialdeko euskalki guztietan aurki daitekeen, ikerketa honetan zubereraren adibideak erabili dira, dagokigun prozesua euskalki horretan besteetan baino emankorrago izan zelako.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">/o/-ren igoeraren testuinguruak zubereraz</head><p>Atal honetan kontsonante sudurkari ezberdinen alboan gertatutako igoerak zerrendatzen dira. Esan bezala, zubereraz [õ] &gt; [ũ] igoera gertatu zela proposatuko da lan honetan. Honek esan nahi du /o/-ren igoera bokal hau edozein kontsonante sudurkarirekin kontaktuan egonda gerta zitekeela (edozein sudurkarirekin kontaktuan egoteak fonetikoki sudurkaritu baitezake edozein bokal euskaraz) eta baita bokala bera kontrastiboki sudurkaritua zenean ere (/õ/, cf. Egurtzegi 2014). Bi testuinguru talde hauek oinarritzat hartuta (i.e. kontsonante sudurkariaren presentzia dagoen edo bokala bera sudurkaria den), lotutako bi bokal igoera prozesu deskribatuko ditugu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.1">/o/-ren igoera kontsonante sudurkari batekin kontaktuan</head><p>Igoeraren testuinguru fonologikoak, beraz, kontsonante sudurkari guztiekiko kontaktua hartzen du barne, kontsonante hauek bai bokalaren aurretik bai ostean izan daitezkeela. Bilakabide hau, zubereraz indar gehien izan duen arren, iparraldeko beste euskalkietan ere aurki daiteke.</p><p>(1) [n]ren inguruan: Azken adibide taldeak igoera trabari sudurkariei lotzen ez zaiela erakusten du, sudurkaritasunari berari baizik, edozein [õ] igo daitekeelarik. (5) adibide taldeak /ɦ/ laringal sudurkarituarekin (cf. Egurtzegi 2014) kontaktuan dauden bokalak batzen baititu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.2">/õ/-ren igoera sistematikoa zubereran</head><p>Azkenik, /'õ/-ren igoera sistematikoaren adibideak ere ematen dira. Igoera hau bokal azentudunean baino ez zen gertatu, bokal fonologikoki sudurkaritu guztiak azentudunak baitira zubereraz, kasu gehienetan hitzaren amaieran daudelarik <ref type="bibr" target="#b24">(Egurtzegi 2014</ref>  <ref type="bibr">(Beddor et al. 1986</ref><ref type="bibr">: 198-199, ikusi Beddor 1982</ref> hizkuntza bakoitzaren erreferentzietarako). <ref type="bibr">Beddor-ek (1982)</ref> bokal oral eta nasalen arteko altuera ezberdintasunak erakusten dituzten 75 hizkuntza zerrendatzen ditu. <ref type="bibr" target="#b2">Bhat (1975</ref><ref type="bibr" target="#b9">), Foley (1975</ref>, <ref type="bibr" target="#b19">Ruhlen (1978)</ref> eta <ref type="bibr">Schourup-en (1973)</ref> ere antzeko ikerketak aurki daitezke.</p><p>Zehatzago, holandesean (germaniarra), batak-ean (malayo-polinesiarra), eta khoekhoe edo nama khoe hizkuntzan testuinguruak sudurkarituriko /o/ eta /ɔ/ atzeko bokal ertainak igo ziren edozein kontsonante sudurkariren inguruan zeudenean <ref type="bibr">(Beddor et al. 1986: 199)</ref>. Bilakabide hau gorago ekialdeko euskalkientzako deskribatu dudan berbera da.</p><p>Bokal altu sudurkarituak jaitsi eta bokal baxu sudurkarituak igotzen diren bitartean, azterketa tipologikoak bi hots-eredu erakusten ditu erdiko bokal sudurkarituentzat <ref type="bibr">(Beddor et al. 1986</ref><ref type="bibr">: 199, cf. Beddor 1982</ref><ref type="bibr" target="#b14">and Maddieson 1984</ref>, sudurkaritasunaren jatorria beste segmentu bat den edo ez emaitzan eragina izan dezakeela. Erdiko bokalak jaitsi ohi dira inguruan segmentu sudurkaririk ez dagoenean, baina segmentu sudurkariekin kontaktuan daudenean igo egiten dira.</p><p>Oharpen honen ondorio izan daiteke (1-5)ko /o/ sudurkarituaren igoera orokorra eta (6)ko hitz amaierako /õ/ azentudunaren igoera sistematikoa bilakabide ezberdinak direla, erlazionaturik dauden arren. Honakoa prozesuen distribuzio dialektalari lot dakioke, /o/-ren igoera orokorra ekialdean hedatua dagoen bitartean /õ/-ren igoera zubereraz baino ez baita gertatzen (cf. Egurtzegi 2013: 126-127).</p><p>Badago azterketa tipologikoetatik atera daitekeen erdiko bokal sudurkarituei dagokien aipatu beharreko beste asimetria bat: aitzineko erdiko bokalak jaitsi ohi dira erdiko atzeko bokalak igo ohi diren bitartean. Ekialdeko euskalkien kasuan ere, /o/ erdiko atzeko bokala igotzen da, aitzineko /e/ bere horretan geratzen delarik.</p><p>Munduko hizkuntza askotan aurki daitekeen bilakabidea izanda, hots-eredu honentzako azalpen fonetikoki natural bat dagoela pentsa daiteke. Bibliografian murrizketa artikulatorio, akustiko eta hautematezkoak aipatzen dira bilakabide honentzako (ikus <ref type="bibr">Beddor et al. 1986</ref> ikuspuntu bakoitzaren inguruko bibliografiarentzako).</p><p>Akustikoki, altuera anbiguitatea ahokatze sudurkariari egotzi ohi zaio. Bi traktuen ahokatzeak polo-zero bikote bat gehitzen dio espektru bokalikoaren frekuentzia baxuenei (cf. <ref type="bibr" target="#b8">Fant 1960)</ref>. Polo sudurkariak (formante sudurkaria) eta zero sudurkariak batak bestea ezeztatzen dute, baina egiterakoan lehenengo formantea (F1) aldatzen dute. Aldaketa hau handitu egiten da produkzioan izandako ahokatze mailarekin batera, honekin formante sudurkaria gailentzen baita. <ref type="bibr">Beddor et al.-ek (1986)</ref> F1-en frekuentziaren aldaketa hau bokal ezberdinetan irudikatzen duten grafikoak ematen dituzte. Formante sudurkariaren frekuentzia F1-ena baino baxuagoa da beheko bokaletan eta F1 baino altuagoa goiko bokaletan, honakoa azterketa tipologikotik ateratako deskribapen orokorrei egokitzen zaiela: bai goiko eta baita beheko bokal sudurkarituak erdikotzat hautematen dira <ref type="bibr" target="#b21">(Wright 1980</ref><ref type="bibr">, cf. Beddor et al. 1986</ref>.</p><p>Aipatu diren erdiko bokalen asimetriei dagokienez, <ref type="bibr">Beddor-ek (1982)</ref>   <ref type="bibr">Beddor et al. 1986</ref>).</p><p>Bokal sudurkarituen altuera anbiguitatea erakusten duten hautemate esperimentuak egon dira. <ref type="bibr">Krakow et al.-ek (1988)</ref> ingelesa ama hizkuntzatzat zuten entzuleek bokal sudurkarituak haien ordain ahokarien altuera ezberdinekin hautematen zituztela erakutsi zuten, bokalak /n/-ren aurrean zeudenean izan ezik, kokapen horretan sudurkaritasuna testuinguru fonologikoari egozten zietelako, pentsatzekoa denez. Esperimentu honek entzuleek, sudurkaritasunaren iturria aurkitzeko ezintasunaren aurrean, bokalen sudurkaritasuna bokal ahokarien altuera ezberdintasun bezala interpreta dezaketela erakusten du, bokal sudurkari fonemikorik ez duten hizkuntzetan batez ere. Hautemate anbiguitate honek sudurkaritze kontrastiboaren sorreran garrantzia izan dezake:</p><p>One account of phonemicisation of vowel nasalisation with concomitant nasal consonant loss is that the perceptual salience of vowel nasality increased as the perceptual salience of the conditioning nasal consonant decreased (see <ref type="bibr" target="#b11">Kawasaki 1986)</ref>. However, at the transition stage, distinctive vowel nasalisation is not fully integrated into the language. If listeners do not expect non-contextual nasal vowels but also do not perceive the now weakened nasal consonant, then they might attribute the acoustic effects of vowel nasalisation to either (a) nasal coupling, (b) change in tongue configuration, or (c) both nasal coupling and change in tongue configuration. Under these conditions, we would expect /VN/ or /NV/ to result historically in (a) /V ͂ / with nasalisation but no height change, (b) /V'/ with height change but no nasalisation, or (c) /V ͂ '/ with height change and nasalisation. <ref type="bibr">(Beddor et al. 1986: 211)</ref>.</p><p>Nahiz eta autoreek azkenengo aukera tipologikoki ez ohikoagotzat aurkezten duten, frantsesaren kasua aipatzen dute, zeinetan beheko bokal sudurkarituak testuinguruak sudurkarituriko erdiko bokaletatik garatzen diren. <ref type="bibr">Beddor et al.-ek (1986: 211)</ref> jaitsiera eta sudurkaritze kontrastiboaren arteko kronologia erlatiboan kontsentsurik ez dagoela aipatzen dute <ref type="bibr">(cf. Entenman 1977;</ref><ref type="bibr" target="#b10">Haden eta Bell 1964;</ref><ref type="bibr" target="#b15">Martinet 1965;</ref><ref type="bibr" target="#b18">Pope 1934)</ref>, bi aldaketak batera gertatu zirela iradokiz.</p><p>Zubereran gertatutako hitz amaierako /'õ#/ sudurkaritu azentudunaren garapena antzerakoa dela proposatzen dugu. Nahiz eta lotuta egon daitezkeen, /'õ#/ &gt; /'ũ#/ igoera eta [õ] &gt; [ũ] orokorragoa prozesu ezberdinak dira. Literatura fonetikoak testuinguruak sudurkarituriko bokalen igoera eta testuingururik gabeko bokal sudurkariena bereizten ditu (cf. <ref type="bibr">Beddor et al. 1986</ref>), eta bi igoera prozesuek isoglosa ezberdinak erakusten dituzte ekialdeko euskalkietan:</p><p>[õ]-ren igoera iparralde zabalean aurki daitekeen bitartean, /õ/-ren igoera zubereraz baino ez zen gertatu (cf. <ref type="bibr" target="#b17">Mitxelena 1977</ref><ref type="bibr" target="#b17">Mitxelena [2011</ref><ref type="bibr" target="#b24">Egurtzegi 2014)</ref>. <ref type="bibr">Krakow et al.-en (1988)</ref> hautemate esperimentuak sudurkaritasun kontrastiborik ez duten hizkuntzetan testuinguru ahokarietan dauden bokal sudurkarituen anbiguotasuna handia dela iradokitzen du, eta honakoa zubereraren sudurkaritasun fonemikoa /'õ#/ &gt; /'ũ#/ igoerarekin batera garatzearekin bat dator. /'õ#/ &gt; /'ũ#/ igoeraren izaera sistematikoa testuinguru honen berrinterpretazio ezetimologikorako joera handiagoaren ondorio izan daiteke <ref type="bibr" target="#b12">(Krakow et al. 1988</ref>).</p><p>Erdiko atzeko bokalen igoerak bi prozesu ezberdinetan bereizi ditugu: [õ] &gt; [ũ] igoera orokorragoa, ekialdeko euskalki askotan aurki daitekeena, eta /'õ#/ &gt; /'ũ#/ hitz amaierako (fonemikoki) sudurkarituriko erdiko atzeko bokalaren igoera. Bokal sudurkarituen igoera F1-en eremuan gehitzen diren bi formante sudurkarien gehiketak sorturiko anbiguotasunaren ondorioa dela aldeztu da, honek bokalen altueran aldaketak ekar ditzakeelako <ref type="bibr">(Beddor et al. 1986</ref>), batez ere bokalen sudurkaritasun kontrastiborik ez duten hizkuntzetan. Hots-eredu honen orokortzeetan ikus daitekeen hots aldaketaren norabidea bokalen astuntasun zentroen neurketekin bat dator <ref type="bibr" target="#b0">(Beddor 1982)</ref>. /'õ#/ &gt; /'ũ#/ aldaketaren izaera sistematikoa hots-eredu honetan testuinguru sudurkaririk ez egotearen ondorio izan daiteke, honek bokalen sudurkaritasun kontrastiborik ez duten hizkuntzetan entzuleak sudurkaritasunaren ondoriozko bariazio fonetikoa ahoari balegokio bezala berranalizatzea errazten baitu <ref type="bibr" target="#b12">(Krakow et al. 1988</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Ondorioak</head><p>Lan honetan ekialdeko euskalkietako atzeko erdiko bokal sudurkarituaren igoera landu da.</p><p>[õ]-ren igoerak bi azpi-prozesu ezberdinetan bereizi dira: ekialdeko zenbait euskalkitara zabaldutako [õ] &gt; [ũ] eta zubereraz baino gertatu ez zen hitz amaierako /'õ#/ &gt; /'ũ#/.</p><p>Bokal sudurkarituen igoera F1-en eremuan gehitzen diren bi formante sudurkarien gehiketak sorturiko anbiguotasunaren ondorioa dela aldeztu da, anbiguotasun honek entzulearen berrinterpretazioaren ostean bokalen altueran aldaketak ekar ditzakeelako <ref type="bibr">(Beddor et al. 1986</ref>). Aldaketa hauek batez ere euskararen kasuan bezala bokaletan sudurkaritasun oposaketa indartsurik ez duten hizkuntzetan gertatzen dira. Hots-eredu honen orokortzeetan ikus daitekeen hots aldaketaren norabidea bokalen astuntasun zentroen neurketekin bat dator <ref type="bibr" target="#b0">(Beddor 1982)</ref>.</p><p>/'õ#/ &gt; /'ũ#/ aldaketaren izaera sistematikoa hots-eredu honetan testuinguru sudurkari kontsonantikorik ez egotearen ondorio izan daiteke, honek entzulearen sudurkaritasunaren ondoriozko bariazio fonetikoa ahoari balegokio bezala berranalizatzea errazten baitu bokalen sudurkaritasun kontrastiboaren presentzia handirik ez duten hizkuntzetan <ref type="bibr" target="#b12">(Krakow et al. 1988</ref>).</p><p>Zubereraren sudurkaritasunaren domeinu mugatuak, aurretik gertatutako aitzineratzeak <ref type="bibr" target="#b24">(Egurtzegi 2014</ref><ref type="bibr">(Egurtzegi , 2015</ref> /u/-ren eremuan utzitako lekuarekin batera, [õ] bokal sudurkarituaren igoera erraztu du.</p><p>Honenbestez, aurreko lanetan guztiz azaldu gabe geratu zen bilakabide fonologiko bat ikerketa fonetikoaren bidez hobeto uler daitekeela erakutsi nahi izan dugu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Etorkizunerako planteatzen den norabidea</head><p>Lan honek (eta aurreko zenbaitek, cf. Egurtzegi 2014) ikerketa fonetikoak hizkuntza baten garapen historikoa aztertzerakoan izan dezakeen garrantzia erakutsi nahi izan dute. Ikuspegi fonetiko batek ez du soilik fonologia klasikoak eskainitako azalpenak fintzeko balio, arazo zaharrak konpondu zein bide berriak irekitzeko erabili daitekeen baliabidea izan daiteke ere. Ikerketa honetan erabilitako ikuspegia euskararen historian arazoak sortu izan dituzten beste hainbat gaiei ere aplika dakioke.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>.2 Bokalen sudurkaritasuna eta bokalen altuera</head><label></label><figDesc>). (6) adibide taldeak fonologikoki sudurkarituak diren bokalen igoerak erakusten ditu. (6)-ko adibideek interes berezia dute, /õ/ eta /ũ/ fonemak /ũ/-ren alde neutralizatzea ekarri duen hots aldaketa erregular bat erakusten baitute (cf. Egurtzegi 2014). /õ/ kontrastiboki sudurkarituak garatu zituzten euskal hitzetaz gain, /õ/ &gt; /ũ/ gaskoieratik hartutako hitzetan ere sistematikoa izan zen. Bilakabide hau zubereraz baino ez zen gertatu. Aurkeztu berri diren [õ] &gt; [ũ] bokal igoeraren adibideek ez dute /u/ &gt; /y/ aitzineratzea (cf. Egurtzegi 2014, 2015) jasan. Honek pentsarazten du /u/ &gt; /y/ igoera prozesua gertatu zenean hitz hauetako bokalak oraindik erdiko bokalak zirela (hau da, /o/ ziren eta ez /u/). Ondorioz, bokal igoera bilakabide hau /u/-ren aitzineratzearen ostekoa (edo, gehienez, garaikidea) dela esan genezake. Espero genezakeen bezala, testuinguru sudurkarian kokaturiko *u etimologikoa beste edozein /u/-ren modu berean aitzineratu zen, cf. lagün, egün, zordün, nüzü, mündü, müga, lüma, etab. Bai bokal sudurkarituen igoera eta baita jaitsiera ere hots-eredu tipologikoki ezagunak dira. Beste hizkuntza askoren artean hurrengoetan aurki daitezke: frantses eta portuges erromantzeetan, irlandes eta bretoi zeltiarretan, bengali, maithili eta hindi indo-arioetan, eta beste zenbait hizkuntza indoeuroparretan armeniera eta holandesa kasu. Hizkuntza indoeuroparretatik kanpo, swahili bantu hizkuntzan, ewe bezalako beste Niger-Congo hizkuntzetan, havigannada (havyaka kannada) dravidikoan, mixtekiar eta zapotekiar otomangeetan, shiriana eta asháninka arawaka hizkuntzetan, seneca irokesean, Ginea Berriko fore eta gadsup hizkuntzetan, kiowa-apatxe athabaskarrean, inuit eskimo-aleutean eta Ipar Amerikako yuchi eta haida isolatuetan gertatzen dira bokal sudurkarituen igoera zein jaitsierak</figDesc><table><row><cell>(6) Hitz amaierako /õ/ azentudunen igoera erregularra:</cell></row><row><cell>ardũ, salũ, arratũ, leɦũ, arrazũ.</cell></row><row><cell>3</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">"Las condiciones del cierre de *o en u [...] no pueden precisarse tanto como las de *u &gt; ü"<ref type="bibr" target="#b17">(Mitxelena 1977</ref><ref type="bibr" target="#b17">(Mitxelena [2011</ref>: 43).</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Phonological and phonetic effects of nasalization on vowel height . Doktorego tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">S</forename><surname>Beddor</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1982" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Minnesota, Indiana University Linguistics Club-ak berrargitaratua</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Perceptual constraints and phonological change</title>
+	</analytic>
+	<monogr>
+		<title level="j">Phonology</title>
+		<editor>-------------, R.A. Krakow eta L.M. Goldstein</editor>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="197" to="217" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Two Studies on Nasalization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">N S</forename><surname>Bhat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Nasálfest: Papers from a Symposium on Nasals and Nasalization</title>
+		<editor>C.A. Ferguson, L.M. Hyman eta J.J. Ohala</editor>
+		<meeting><address><addrLine>Standford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Standford University Press</publisher>
+			<date type="published" when="1975" />
+			<biblScope unit="page" from="27" to="48" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Basque and Proto-Basque. Language-Internal and Typological Approaches to Linguistic Reconstruction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Egurtzegi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">M. Martínez-Areta (arg.)</title>
+		<meeting><address><addrLine>Peter Lang, Frankfurt am Main</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="119" to="172" />
+		</imprint>
+	</monogr>
+	<note>Phonetics and Phonology. Mikroglottika 5</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Towards a phonetically grounded diachronic phonology of Basque . Doktorego tesia</title>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>Euskal Herriko Unibertsitatea</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Zubereraren /y/: bere sorrera eta hedapenaren inguruan</title>
+	</analytic>
+	<monogr>
+		<title level="m">Eridenen du zerzaz kontenta. Sailkideen omenaldia Henrike Knörr irakasleari</title>
+		<editor>R. Gómez eta M.J. Ezeizabarrena</editor>
+		<meeting><address><addrLine>Bilbo</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1947" />
+		</imprint>
+	</monogr>
+	<note>UPV/EHUren Argitalpen Zerbitzua</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">The development of nasal vowels. Doktorego tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Entenman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1977" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Texas at Austin</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Euskaltzaindia</surname></persName>
+		</author>
+		<ptr target="http://www.euskaltzaindia.net/oeh" />
+		<title level="m">Orotariko Euskal Hiztegia</title>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+	<note>Euskaltzaindia, Bilbo</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Acoustic theory of speech production</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Fant</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1960" />
+			<pubPlace>Mouton, The Hague</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Nasalization as Universal Phonological Process</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Foley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Nasálfest: Papers from a Symposium on Nasals and Nasalization</title>
+		<editor>C.A. Ferguson, L.M. Hyman eta J.J. Ohala</editor>
+		<meeting><address><addrLine>Standford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Standford University Press</publisher>
+			<date type="published" when="1975" />
+			<biblScope unit="page" from="197" to="212" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Nasal vowel phonemes in French</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">F</forename><surname>Haden</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Bell</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lingua</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="62" to="69" />
+			<date type="published" when="1964" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Phonetic explanation for phonological universals: the case of distinctive vowel nasalization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Kawasaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Experimental phonology</title>
+		<editor>J.J. Ohala</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1986" />
+			<biblScope unit="page" from="81" to="103" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Coarticulatory influences on the perceived height of nasal vowels</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Krakow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">S</forename><surname>Beddor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Goldstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Fowler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Acoustical Society of America</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="1146" to="1158" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Labov</surname></persName>
+		</author>
+		<title level="m">Principles of Linguistic Change</title>
+		<meeting><address><addrLine>Blackwell, Oxford</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+	<note>Internal Factors</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Maddieson</surname></persName>
+		</author>
+		<title level="m">Patterns of Sounds</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Martinet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Les voyelles nasales du français</title>
+		<imprint>
+			<date type="published" when="1965" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="117" to="122" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Basque and Proto-Basque. Language-Internal and Typological Approaches to Linguistic Reconstruction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Martínez-Areta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">M. Martínez-Areta (arg.)</title>
+		<meeting><address><addrLine>Peter Lang, Frankfurt am Main</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="31" to="87" />
+		</imprint>
+	</monogr>
+	<note>Basque Dialects. Mikroglottika 5</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<title level="m">Fonética histórica vasca (Luis Michelena. Obras Completas VI, ASJUren Gehigarriak, 59)</title>
+		<meeting><address><addrLine>Donostia-San Sebastián</addrLine></address></meeting>
+		<imprint>
+			<publisher>Gipuzkoako Foru Aldundia</publisher>
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">From Latin to Modern French</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">K</forename><surname>Pope</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1934" />
+			<publisher>Manchester University Press</publisher>
+			<pubPlace>Manchester</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Nasal Vowels</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ruhlen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Universals of Human Language</title>
+		<editor>J.H. Greenberg, C.A. Ferguson eta E.A. Moravcsik</editor>
+		<meeting><address><addrLine>Standford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Standford University Press</publisher>
+			<date type="published" when="1978" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="203" to="242" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A Cross-Language Study of Vowel Nasalization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Schourup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Ohio State Working Papers in Linguistics</title>
+		<imprint>
+			<date type="published" when="1973" />
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="190" to="221" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">The Behavior of Nasalized Vowels in the Perceptual Vowel Space</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wright</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1980" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="127" to="163" />
+		</imprint>
+		<respStmt>
+			<orgName>Report of the Phonology Laboratory (University of California Berkeley</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Zuazo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<pubPlace>Elkar, Donostia-San Sebastián</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Euskalkiak. Euskararen dialektoak</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eskerrak</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Historia de la Lengua Vasca y Lingüística Histórico-Comparada&quot; (IT698-13) eta Ministeritzako &quot;Monumenta Linguae Vasconum (IV): Textos Arcaicos Vascos y Euskera Antiguo&quot; (FFI2012-37696) ikerketa egitasmoen eta UPV/EHU-ko UFI 11/14-aren diru-lagunatza jaso du. Juliette Blevins, Joseba Lakarra eta José Ignacio Hualderi eskerrak ematen dizkiet aurreko bertsio bati egindako iruzkinengatik</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lan</forename><surname>Hau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Egurtzegi</forename></persName>
+		</author>
+		<idno>da. Lan honek Eusko Jaurlaritzako ikertzaileen prestakuntza programaren (2010-385</idno>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note>eta baita ebaluatzaile anonimo bati ere. Geratu diren akatsak nireak dira, noski</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

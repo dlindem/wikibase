@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">III. IKERGAZTE NAZIOARTEKO IKERKETA EUSKARAZ 2019ko maiatzaren 27, 28 eta 29 Baiona, Euskal Herria OSASUN ZIENTZIAK E2F7 proteinaren karakterizazioa DNAren konponketa eta ezegonkortasun genomikoaren modulatzaile gisa</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Antolatzailea</forename><forename type="middle">:</forename></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Udako Euskal Unibertsitatea (UEU)</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jon</forename><surname>Vallejo-Rodríguez</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Iraia García-Santisteban</orgName>
+								<address>
+									<addrLine>Asier Fullaondo, Monica Álvarez-Fernández, Marcos Malumbres eta Ana Zubiaga</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jone</forename><surname>Mitxelena</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Iraia García-Santisteban</orgName>
+								<address>
+									<addrLine>Asier Fullaondo, Monica Álvarez-Fernández, Marcos Malumbres eta Ana Zubiaga</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aintzane</forename><surname>Apraiz</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Iraia García-Santisteban</orgName>
+								<address>
+									<addrLine>Asier Fullaondo, Monica Álvarez-Fernández, Marcos Malumbres eta Ana Zubiaga</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">III. IKERGAZTE NAZIOARTEKO IKERKETA EUSKARAZ 2019ko maiatzaren 27, 28 eta 29 Baiona, Euskal Herria OSASUN ZIENTZIAK E2F7 proteinaren karakterizazioa DNAren konponketa eta ezegonkortasun genomikoaren modulatzaile gisa</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.26876/ikergazte.iii.0</idno>
+					<note>99-105 or.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-04-26T13:10+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena</head><p>E2F7 proteinaren ekarpena tumoreen garapenean ez da oraindik guztiz zehaztua izan. Lan honetan E2F7k egonkortasun genomikoaren mantentzean parte hartzen duen gene multzo baten adierazpena erreprimitzen duela erakusten dugu erreplikazio urkilaren aurrerapena oztopatzen duten DNAren kalteen aurrean. E2F7ren isilarazpenak 53BP1 fokoen eta aberrazio kromosomikoen murriztapena eragiten du interstrand cross-link (ICL) lesioen eragileak diren tratamenduen ostean. Azkenik, errekonbinazio-akastun zeluletan, E2F7ren azpiadierazpenak kimioterapiarekiko erresistentzia ematen duela iradokitzen duten frogak aurkezten ditugu. Hau guztia kontutan hartuz, gure datuek integritate genomikoaren mantenuan eta DNAren koponketaren erregulazioan laguntzen duen E2F7ren menpeko programa transkripzional bat dagoela erakusten dute. Hitz gakoak: E2F7, DNAren konponketa, egonkortasun genomikoa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>The contribution of the atypical E2F7 to tumor development is still poorly defined. Here we show that E2F7 represses the expression of a set of genes involved in the maintenance of genomic stability, upon induction of DNA lesions that interfere with replication fork progression. Acute depletion of E2F7 leads to a reduction in 53BP1 and to fewer chromosomal aberrations following treatment with agents that cause interstrand cross-link (ICL) lesions but not upon ionizing radiation. Finally, we present evidence that downregulation of E2F7 confers an increased resistance to chemotherapy in recombination-deficient cells. Taken together, our results reveal an E2F7-dependent transcriptional program that contributes to the regulation of DNA repair and genomic integrity. Keywords: E2F7, DNA damage repair and genomic integrity.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Sarrera eta motibazioa</head><p>Gaur egun herrialde garatuetan, minbizia da gaixotasunek sortutako heriotzen artean bigarren kausa. Minbizia oso erlazionatuta dago populazioak jasaten duen zahartze prozesuarekin eta urtero kasu gehiago diagnostikatzen dira. Minbizi ezberdinen ezaugarriei buruz gero eta gehiago dakigun arren, banakoen artean dauden ezberdintasunek zaila egiten dute gaixotasun honetarako tratamendu orokor bat garatzea. Horregatik, tratamendu egokiago bat lortzeko, funtsezkoa da tumorearen garapen eta mantentzean parte hartzen duten erregulatzaile berrien identifikazioa.</p><p>Ehun normal edo zelula talde normal batetik tumore kaltegarri bat garatzeko prozesu molekular ugari eman behar dira. Tumoreak oso heterogeneoak direla esan dugun arren, badira bere garapenean zehar lortzen dituzten ezaugarri komunak. Horiek Hanahan eta Weinberg-ek deskribatu zituzten 2000. urtean "Minbiziaren markak" bezala ("Hallmarks of Cancer") definituz. 2011. urtean marka hauek berrikusiak izan ziren honako hauek definituz: mugagabeki erreplikatu, proliferazio seinaleak sustatu, inhibizio seinaletatik ihes egin, heriotza zelularretik ihes egin, ehunen inbasioa eta metastasia, angiogenesia induzitu, metabolismo energetikoa birprogramatu, immunitate sistemaren suntsipena ekidin, ezegonkortasun genomikoa eta mutazioak eta hantura sustatu. Marka hauen erregulazioaren ikerketa garrantzi handikoa izan da azken urteotan minbiziaren kontrako tratamenduak hobetzeko.  <ref type="bibr" target="#b6">(Morgunova et al., 2015)</ref> eta transkripzio faktore bezala, euren funtzio nagusia geneen erregulazio transkripzionala burutzean datza. Ohiko E2Fak sakonki aztertuak izan dira minbiziaren garapenarekin erlazionatuta. Adibidez, E2F1, 2 eta 3 proteinen gainadierazpenak ziklo zelularraren azelerazioa dakar, tumorearen garapena bultzatuz <ref type="bibr">(Johnson eta Schneider-Broussard, 1998)</ref>. Gainera, E2F1ren gainadierazpena metastasi arrisku handiago batekin korrelazionatu da melanoma kasuetan <ref type="bibr" target="#b0">(Alla et al., 2010)</ref>. Bestalde E2F1en adierazpena heriotza zelularraren erregulazioarekin erlazionatu da baita ere <ref type="bibr" target="#b1">(Ginsberg, 2002)</ref>. Bestalde, ezohiko E2F proteinen papera tumoreen garapenean ez da hain sakonki aztertua izan.</p><p>Minbiziaren garapenean ezohiko E2F proteinen funtzioa aztertzeko gure taldeak E2F7 proteina hautatu zuen osteosarkoma modelo batean. E2F7ren adierazpena isilarazita duten eta isilarazi gabeko U2OS zelula populazioetan estrategia transkriptomiko bat jarraitu zen bi baldintza hauen arteko geneen adierazpenean dauden desberdintasunak neurtzeko. Honela, E2F7k, transkripzio faktore bezala, erregulatutako geneen identifikazioa lortu zen bere funtzioa hobeto karakterizatuz. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Helburua</head><p>Lan honek E2F7k tumoreen garapenean duen funtzioan sakontzea dauka helburu nagusitzat. Bereziki E2F7k DNAren konponketan izan ahal duen funtzioan tratamendu kimioterapikoen ostean Fanconi Anemia bidezidorra erregulatuz. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Ikerketaren muina</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">E2F7ren erregulazioa tratamendu kimioterapikoen ostean</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">E2F7ren funtzioa DNAren konponketan tratamendu kimioterapikoen ostean</head><p>Ikusi dugu E2F7k DNAren konponketa geneen adierazpena erregulatzen duela. Jarraian, E2F7k DNAren konponketa prozesua bera erregulatzen duen ala ez jakin nahi izan genuen. Galdera hau erantzuteko, DNAren konponketaren bi markatzaile analizatu genituen.</p><p>Alde batetik 53BP1 proteinaren fokuak aztertu genituen. 53BP1 proteina DNAren konponketa prozesuan konponketa lekuetan lokalizatzen den proteina gako bat da. Ikusi genuen MMC eta CSP tratamenduan ostean, 53BP1 fokuen kopurua areagotu egiten zela (4A. irudia). Berriz, E2F7ren isilarazpenak foku hauen kopurua txikitzen zuen MMC eta CSPrekin tratatutako zeluletan (4A. irudia), konponketa handiago bat iradokiz. Bestalde, aberrazio kromosomikoak aztertu genituen; bai apurketa kromosomikoak, bai kromosoma erradialak (4B. irudia). Aberrazio kromosomiko hauek ohikoak dira ICL edo aduktuak sortzen dituzten tratamenduen ostean. Ikus dezakegu MMC tratamenduaren ostean zelulen %40ak mota bateko edo besteko aberrazio kromosomikoren bat aurkezten zutela (4B. irudia). Berriz, E2F7ren isilarazpenak, ehuneko hau erdira gutxitu egiten zuen (4B. irudia).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">irudia. E2F7ren isilarazpenak foku kopurua eta aberrazio kromosomikoak murriztapen ditu.(A)</head><p>E2F7ren adierazpena isilarazita duten <ref type="formula">(siE2F7)</ref>   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">E2F7ren funtzioa egonkortasun genomikoan</head><p>Jakina da errekonbinazio homologoaren prozesuko akatsek ezegonkortasun genomikoa eragiten dutela, azken hau tumoreen garapenerako beharrezkoa den markatzaileetariko bat izanik. Egoera hau ohikoa da bularreko minbizi kasuen BRCA2 genearen mutazioak direla eta. Kasu hauetan, BRCA2 aktibo ez dagoenez, DNAren kaltea PARP1 bidezidorraren bitartez konpontzen da. Beraz, BRCA2defizienteak diren zelula hauek PARP1en inhibitzaileekiko oso sentikorrak dira <ref type="bibr" target="#b3">(Lord &amp; Ashworth, 2017)</ref>.</p><p>E2F7k errekonbinazio homologoan eragiten duen errepresioa ikusita, BRCA2rako defizienteak diren zeluletan E2F7 isilaraziz gero, zelula hauek PARP1en inhibitzaileen aurrean erresistenteagoak diren jakin nahi izan genuen.</p><p>Capan-1 zelulak erabili genituen BRCA2ren defizientzia daramaten zelula modelo gisa <ref type="bibr" target="#b4">(McCabe et al., 2005)</ref> eta ikusi genuen entsegu klonogeniko bat erabiliz, zelula hauek sentikorrak direla Olaparib (PARP1en inhibitzailea) kontzentrazio gorakorretara (6. irudia. Etenik gabeko marra). Berriz, E2F7ren isilarazpenak sentikortasun hau gutxitzen zuen kolonia tratamenduaren ostean kopurua areagotuz (6. irudia). Beraz, esan dezakegu, E2F7ren isilarazpenak zelula hauei PARP1en inhibizioaren aurrean erresistentzia ematen diela. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Ondorioak</head><p>E2F7k, DNAren kaltearen ondoren, konponketa geneak erreprimitzen dituela ikusi dugu eta beraz, E2F7k DNAren konponketa prozesua erreprimitzen duela ondoriozta dezakegu, zehazki, errekonbinazio homologoa. Gainera, E2F7ren ausentziak, errekonbinazio homologo ezegokia burutzen duten zeluletan, egonkortasun genomikoa ziurtatuko luke, kimioterapiaren aurreko erresistentzia areagotuz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Etorkizunerako planteatzen den norabidea</head><p>Lan honek E2F7ren funtzio berri bat erakusten du DNAren konponketaren erregulatzaile bezala tratamendu kimioterapikoen aurrean. Aurkikuntza berri honek zenbait erronka berri planteatzen ditu.</p><p>Alde batetik oso interesgarria izango litzateke, tratamendu hauen aurrean, E2F7ren lokalizazioa aztertzea. DNAren konponketarako oso garrantzitsua da proteinen kokapen espaziala, beraz aztertzeke dago ea E2F7k konponketa proteina hauekin kolokalizatzen duen ala ez.</p><p>Beste aldetik oso interesgarria izango litzateke deskribatutako efektu hau ziklo zelularrean aztertzea.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>eta isilarazi gabeko (siNT) U2OS zelulak CSP eta MMCrekin tratatu ziren. 24 ordu eta gero, 53BP1en aurkako antigorputz espezifiko batekin tindatu ziren eta foku kopurua zenbatu zen. (B) E2F7ren adierazpena isilarazita duten eta isilarazi gabeko U2OS zelulak MMCrekin tratatu ziren. 24 ordu eta gero "metaphase spread" protokoloa jarraitu zen aberrazio kromosomikoak mikroskopiaz aztertzeko. *: p&lt;0.05, ***:p&lt;0.01</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>6</head><label></label><figDesc>. irudia. E2F7ren isilarazpenak egonkortasun genomikoa bermatzen du BRCA2-defizienteak diren zeluletan. Entsegu klonogenikoak burutu ziren siNT eta siE2F7rekin transkeftatutako Capan-1 zeluletan. Zelula hauek 10 μM eta 30μM Olaparibaz tratatu ziren. *: p&lt;0.05.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>IkerGazte, 2019 Osasun Zientziak 2. Arloko egoera eta ikerketaren helburuak</head><label></label><figDesc>da E2F transkripzio faktoreen familia minbiziaren zenbait ezaugarriren erregulatzailea dela. E2F familiako proteinak bi taldetan banatzen dira: ohiko (E2F1, 2, 3a, 3b, 4, 5 eta 6) eta ezohiko E2Fak (E2F7 eta 8)</figDesc><table><row><cell>Jakina</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>1. irudia. E2F7 isilarazita eta E2F7 isilarazigabeko zelulen konparaketa transkriptomikoa. Gene</head><label></label><figDesc></figDesc><table><row><cell cols="3">ezberdinen taldekatze funtzionala DAVID tresna bioinformatikoarekin burutu zen.</cell></row><row><cell>U2OS zelulak</cell><cell>Geneen adierazpenaren analisia</cell><cell>E2F7 erregulatutako bidezidorrak</cell></row><row><cell>Kontrol zelulak</cell><cell></cell><cell></cell></row><row><cell>(siNT)</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>• E2F/RB bidezidorra</cell></row><row><cell></cell><cell></cell><cell>• BARD1 bidezidorra</cell></row><row><cell></cell><cell></cell><cell>• ATR bidezidorra</cell></row><row><cell></cell><cell></cell><cell>• Fanconi Anemia</cell></row><row><cell></cell><cell></cell><cell>bidezidorra</cell></row><row><cell>E2F7ren</cell><cell></cell><cell></cell></row><row><cell>isilarazpena</cell><cell></cell><cell></cell></row><row><cell>(siE2F7)</cell><cell></cell><cell></cell></row></table><note>Esperimentuaren datuak analizatuz, E2F7k erregulatutako zenbait bidezidor identifikatu ziren. Lehenik eta behin E2F/RB bidezidorra identifikatu zen. Deskribatutakoaren arabera, E2Fak beraien artean erregulatzen dira, eta beraz emaitza hau esperimentuaren balidazio gisa hartu genuen. E2F7k erregulatutako beste bidezidorren artean DNAren konponketarekin zerikusia duten hiru identifikatu ziren: BARD1 bidezidorra, ATR bidezidorra eta Fanconi Anemiaren bidezidorra. Hauetatik Fanconi Anemiaren bidezidorra aukeratu genuen azterketa sakonago bat burutzeko tumoreen garapenean duen garrantzia dela eta. Bidezidor honek tratamendu kimioterapikoak sortzen dituzten aduktuen (ICL edo Insterstrand crosslink deiturikoak) konponketa gauzatzen du errekonbinazio homologoaren bitartez (Wang eta Gautier, 2010).</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>E2F7k DNA konponketa geneen errepresioa burutzen du tratamendu kimioterapikoen aurrean.</head><label></label><figDesc>Tratamendu kimioterapikoen ostean E2F7ren funtzioa aztertzeko, lehenengo eta behin E2F7ren adierazpena aztertu genuen Mitomycin C (MMC) eta Cisplatin (CSP) konposatuekin trataturiko U2OS zeluletan. E2F7ren adierazpena areagotuta zegoen bai MMC, bai CSP tratamenduen ostean (2. irudia). Emaitza honek E2F7ren funtzio ezezagun bat iradoki zuen tratamendu hauek DNAn eragindako kaltearen aurrean. E2F7ren funtzio hau hobeto deskribatzeko, analisi transkriptomikoan identifikatutako geneen adierazpena aztertu genuen CSP tratamenduarekin. Gene hauek DNAren konponketan parte hartzen duten proteinak kodetzen dituzte. Bereziki Fanconi anemiaren bidezidorraren geneak aztertu genituen (FANCE, FANCI eta BRIP1) baina baita beste konponketa geneak ere (RAD51, BARD1 eta CTIP). U2OS asinkronoak siNT eta siE2F7rekin transfektatuta izan ziren. Gero, 8 μM CSPrekin tratatuak izan ziren 24 orduz. Azkenik, aztertutako geneen adierazpena RT-qPCRren bidez neurtu zen EIF2C2 genea kontrol bezala erabiliz. UT: tratatu gabeko zelulak. *: p&lt;0.05.</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>IkerGazte, 2019</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Osasun Zientziak</cell></row><row><cell cols="15">2. irudia. E2F7ren gainadierazpena tratamendu kimioterapikoen aurrean. U2OS asinkronoak 250</cell></row><row><cell cols="15">Nm MMC eta 8 μM CSPrekin tratatuak izan ziren 24 orduz. Azkenik, E2F7ren adierazpena RT-</cell></row><row><cell></cell><cell cols="13">qPCRren bidez neurtu zen EIF2C2 genea kontrol bezala erabiliz. *: p&lt;0.05.</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>RNAm maila erlatiboak</cell><cell>0 1 2 3 4</cell><cell></cell><cell></cell><cell></cell><cell>* E2F7</cell><cell></cell><cell>* *</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">Untreated Tratamendu</cell><cell cols="3">Mitomycin C Mitomycin C Cisplatin Cisplatin</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">gabekoak</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>2,5</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">siNT UT</cell><cell>siNT CSP</cell><cell cols="2">siE2F7 CSP</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>maila erlatiboak</cell><cell>1 1,5 2</cell><cell>*</cell><cell>*</cell><cell>*</cell><cell>*</cell><cell>*</cell><cell>*</cell><cell>*</cell><cell>*</cell><cell>*</cell><cell>*</cell><cell>*</cell><cell>*</cell><cell>*</cell></row><row><cell>RNAm</cell><cell>0,5</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>0</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell cols="2">E2F7 UT CSP</cell><cell cols="2">RAD51 UT CSP</cell><cell cols="2">FANCE UT CSP</cell><cell>FANCI UT CSP</cell><cell cols="2">BRIP1 UT CSP</cell><cell cols="2">BARD1 UT CSP</cell><cell cols="2">CTIP UT CSP</cell></row><row><cell></cell><cell></cell><cell cols="2">E2F7</cell><cell cols="2">RAD51</cell><cell cols="2">FANCE</cell><cell>FANCI</cell><cell cols="2">BRIP1</cell><cell cols="2">BARD1</cell><cell cols="2">CTIP</cell></row></table><note>Gene multzo hauen adierazpena gutxituta zegoen tratamenduaren ostean siNT UT zelulak (tratatu eta isilarazi gabeak) eta siNT CSP zelulak (isilarazi gabeak baina tratatuak) konparatuz (3. irudia). Berriz, E2F7 isilaraztean tratatutako zeluletan (siE2F7 CSP), aztertutako gene guztien adierazpena areagotzen zen E2F7ren falta zela eta (3. irudia). Beraz, ondorioztatu genuen tratamendu kimioterapikoak E2F7ren igoera bat eragiten zuela eta igoera honek DNAren konponketan garrantzitsuak diren geneen adierazpena gutxitzen zuela, E2F7 gene hauen adierazpenaren errepresioegilea bezala identifikatuz.3. irudia.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>DR-GFP sistema duten U2OS zelulak bektore hutsa eta E2F7ren gainadierazpenaren bektorearekin transkektatu ziren. Bestalde, beste zelula batzuk isilarazpen kontrolarekin eta E2F7ren isilarazpenarekin transfektatu ziren. GFP positiboak ziren zelulen kopurua fluxu zitometriaz neurtu ziren errekonbinazio homologoaren efizientzia neurtuz. *: p&lt;0.05.</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>*</cell></row><row><cell></cell><cell></cell><cell>140</cell><cell></cell></row><row><cell>Errekonbinazio</cell><cell>homologoaren efizientzia</cell><cell>20 40 60 80 100 120</cell><cell></cell></row><row><cell></cell><cell></cell><cell>0</cell><cell></cell></row><row><cell></cell><cell></cell><cell>pCMV Bektore</cell><cell>pE2F7 E2F7ren</cell><cell>siCTRL Isilarazpen</cell><cell>siE2F7 E2F7ren</cell></row><row><cell></cell><cell></cell><cell>hutsa</cell><cell>gainaderazpena</cell><cell>kontrola</cell><cell>isilarazpena</cell></row><row><cell cols="5">Bi emaitza hauek iradoki zuten E2F7ren isilarazpenak zelulen DNAren konponketa gaitasuna</cell></row><row><cell cols="5">areagotzen duela, beraz E2F7k konponketa hau erreprimitzen du. Gure hurrengo galdera E2F7k</cell></row><row><cell cols="5">konponketa prozesuaren ze pausoan daukan efektu hau izan zen. Sarreran esan dugun bezala, ICL edo</cell></row><row><cell cols="5">aduktu hauen konponketarako Fanconi Anemiaren bidezidorra erabiltzen da, eta bidezidor honen</cell></row><row><cell cols="5">azken pausua, eta garrantzitsuenetarikoa, errekonbinazio homologoa (EH) burutzea da. Beraz, E2F7k</cell></row><row><cell cols="5">errekonbinazio homologoan izan dezakeen efektua aztertzeko esperimentu bat proposatu genuen.</cell></row></table><note>Errekonbinazio homologoa aztertzeko fluoreszentzian oinarritutako sistema bat erabili genuen, DR- GFP sistema. Sistema honekin, errekonbinazio homologoa zuzen burutu duen zelula bat, zelula fluoreszente bat bezala detekta dezakegu. DR-GFP sistema erabilita ikusi genuen E2F7ren gainadierazpenak errekonbinazio homologoaren efizientzia jaisten zuela (5. Irudia). Berriz, E2F7ren isilarazpenak, prozesu honen efizientzia areagotzen zuen. Emaitza hauekin ondoriozta dezakegu E2F7k errekonbinazio homologoa erreprimitzen duela.5. irudia. E2F7k errekonbinazio homologoa erreprimitzen du.*</note></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Alla</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Engelmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Niemetz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Pahnke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kunz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">M</forename><surname>Pützer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">E2F1 in Melanoma Progression and Metastasis</title>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="127" to="133" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">E2F1 pathways to apoptosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Ginsberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Letters</title>
+		<imprint>
+			<biblScope unit="volume">529</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="122" to="127" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Role of E2F in cell cycle control and cancer</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">G</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Schneider-Broussard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Bioscience : A Journal and Virtual Library</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="447" to="455" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">PARP inhibitors: Synthetic lethality in the clinic</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Lord</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ashworth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">355</biblScope>
+			<biblScope unit="issue">6330</biblScope>
+			<biblScope unit="page" from="1152" to="1158" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Mccabe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Lord</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">N J</forename><surname>Tutt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M B</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">C M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ashworth</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">BRCA2-deficient CAPAN-1 cells are extremely sensitive to the inhibition of Poly (ADP-Ribose) polymerase: an issue of potency</title>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Biology &amp; Therapy</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="934" to="940" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Structural insights into the DNA-binding specificity of E2F family transcription factors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Morgunova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Jolma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Dave</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Schmierer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Popov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Taipale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">10050</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The Fanconi anemia pathway and ICL repair: implications for cancer therapy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Gautier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Critical Reviews in Biochemistry and Molecular Biology</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="424" to="463" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eskerrak</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Jon Vallejo-Rodríguezek UPV/EHU-ko diru laguntza predoktorala jaso du (PIF</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jon</forename><surname>Ikerketa Honen Emaitzak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Vallejo-Rodríguezen Tesi Doktoralaren Ondorio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Dira</surname></persName>
+		</author>
+		<idno>SAF2012-33551 and SAF2015- 67562-R) eta UPV/EHU-ko (UFI11/20</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Ana María Zubiagak Espainiako Jaurlaritzako</title>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Ministerio de Ciencia e Innovación</note>
+	<note>diru laguntzak jaso ditu</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

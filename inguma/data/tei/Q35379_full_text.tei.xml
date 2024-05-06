@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A(ha)l, mugaz gaindiko partikula</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Duhalde de Serra</orgName>
+								<address>
+									<settlement>Monforte</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A(ha)l, mugaz gaindiko partikula</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.26876/ikergazte.iv.01.03</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-04-26T13:09+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>al and ahal particles</term>
+					<term>dialectal variation</term>
+					<term>syntax</term>
+					<term>interpretation</term>
+					<term>grammaticalization</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena</head><p>Artikulu honetan erdialdeko al eta Lapurdi itsas hegiko ahal partikulen azterketaren lehenengo emaitzak dakartzagu. Lehenik, bi partikulen propietateei begiratu diegu, erabilera, funtzioa eta testuinguru sintaktikoa zehaztuz. Ondotik, gramatikalizazioaren ikuspegitik, ahal eta al partikulak erlazionatzeko argudioak azaldu ditugu, Lapurdi itsas hegiko datuen azterketak duen interesa azpimarratuz. Azkenik, hemen aurkezten dugun hipotesia berretsi ahal izateko, etorkizunean datu berrien jasotzeko inkesta-motaren diseinua proposatu dugu.</p><p>Hitz gakoak: al eta ahal partikulak, aldakortasun dialektala, sintaxia, interpretazioa, gramatikalizazioa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>In this article we present the first results of our research about the particles al used in the Basque central dialect and ahal present also in questions on the Lapurdian coast. First, we look at the properties of the two particles and determine their use, function and syntactic context. Furthermore, we provide arguments for the relation of both particles considering a grammaticalization path such as ahal &gt; al; indeed, the data from the Lapurdian coast would be essential for the understanding of the whole process. Finally, in order to confirm the hypothesis presented here, we design a type of questionnaire to gather new data in the future.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Aitzin solasa</head><p>Galderetan bi partikula modal baliatzen dira batez ere: al eta ote. Hala ere, hainbat iturrik <ref type="bibr" target="#b14">(Euskaltzaindia, 1987;</ref><ref type="bibr">Mitxelena eta Sarasola, 2016)</ref> agerian uzten dutenez, ahal ere galderetan erabil daiteke. Interesgarria da partikula horren erabilera idazle lapurtarrengan <ref type="bibr" target="#b22">(Larzabal, 1991</ref><ref type="bibr" target="#b22">(Larzabal, , 1992a</ref><ref type="bibr" target="#b22">(Larzabal, , 1992b</ref><ref type="bibr" target="#b35">Treku, 2006)</ref>, hainbat kasutan erdialdeko aletik hurbil baitago. Zoritxarrez, erabilera hori ez da deskribatu, ezta ikertu ere.</p><p>Izan ere, gaur egungo hizkeren biltzea eta aztertzea premiazkoa da, hala nola Ipar Euskal Herrian, hainbat arrazoirengatik aldatzen ari baitira; horien artean, bizi molde aldaketak, euskara batuaren eragina edo inguruko euskal hizkeren eragina zein frantsesaren eragina aipagarriak dira. Dialektologoek hizkera hauen deskribatzeko premia azpimarratu dute, konparazione, <ref type="bibr">Zuazok (2006: 99)</ref>: Ipar Euskal Herrikoa da denetan ezezagunena, eta galbide lasterrean doazkigu alderdi hartako hizkerak. Edo berdintzen, galtzen ez direnak. Saio honetan, Lapurdi itsas hegiko euskarari buruzko datu berriak ekarri nahi ditugu eta hauen azterketak dakarren interesa azpimarratu.</p><p>Euskalkien sailkapenerako abiaburu dugu Bonapartek XIX. mendean eginiko ikerlana. Sailkapen honetan, lapurtera euskalkian berezko lapurtera -Donibane Lohizuneko, Sarako eta Ainhoako euskarak biltzen dituena-eta lapurtera hibridoa -Arrangoitzen mintzatua-bereizten dira <ref type="bibr" target="#b9">(Bonaparte, 1991</ref><ref type="bibr" target="#b9">(Bonaparte, [1869</ref>. <ref type="bibr">Vinsonek (1907: 629)</ref> Zuazok urteetan landu duen euskalkien sailkapenean nafar-lapurtera euskalkiaren barnean bi azpieuskalki bereizten ditu <ref type="bibr" target="#b37">(Zuazo, 1998</ref><ref type="bibr" target="#b37">(Zuazo, , 2003</ref><ref type="bibr" target="#b37">(Zuazo, , 2008</ref><ref type="bibr" target="#b37">(Zuazo, , 2014</ref>: sortaldekoa eta sartaldekoa. Azken azpieuskalki honek Lapurdi mendebaleko herriak hartzen ditu <ref type="bibr">(Zuazo, 2014: 133</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Ikerketaren helburuak</head><p>Arestian erran bezala, beraz, galderetan ahal partikulak duen erabilerari arretaz begiratuko diogu ikerketa honetan eta berorrek erdialdeko al partikularekin duen harremanari hain zuzen. Hasteko, errepara diezaiogun Lapurdi itsas hegian lekukotzen den erabilerari; horretarako, sortzez azkaindarra den Larzabalen <ref type="bibr">(1991, 1992a, 1992b)</ref> lanetako adibideak baliatuko ditugu. Hona adibide zenbait:</p><p>(1) Aditu dituzu tuta horiek, eta norentzat diren ba ahal dakizu?... <ref type="bibr" target="#b22">(Larzabal, 1991)</ref> (2) Orai, aski miatu ahal nauzu? (ibidem) (3) (Obedituz) Ba, ez bainakien nola egin: bi paperak barnean ezarri ditut... Ontsa egin ahal dut?</p><p>Adibide horietan ahal partikula agertzen zaigu eta lehenengo begiradan erdialdeko al partikula ekar diezagukete burura, grafiak albo batera utzita. Hala ere, hiru propietatetan nabaritzen da ahal eta al partikulen artean badagoela aldea.</p><p>Lehena kopurua da: al partikula erruz azaltzen da erdialdeko euskalkian polaritatezko galderetan (informazioa eskuratu nahi duten galderetan, eskaeretan, harridura-galderetan...); Lapurdiko itsas hegian kopuru askoz txikiagoan lekukotzen da ahal eta baiezko galdera mota jakinetan, orain aditzera emanen dugun bezala.</p><p>Bigarrena funtzioa da: partikula horiek erabiltzeko baldintzak bertsuak diren zehaztea da ikerketa honen helburua; hala ere, beroriek agertzen direneko testuinguruek salatu egiten dute ez dutela funtzio bera betetzen. Izan ere, Monforteren (2020b: 165) arabera, alek ez dakar ñabardura semantikorik eta hizketa-ekintzari eragiten dio zuzenean; ahalek, ordea, modalitateari egiten dio ekarpena, ote partikula epistemikoak bezala, eta horregatik dira bere balizko testuinguruak mugatuagoak. Zer-nolako interpretazioa gehi liezaioke perpausari? Gure hipotesia da ahalek deklaratiboetan duen ekarpena atxikitzen duela galderetan, baina hiztunarekin gabe, entzulearekin dago lotuta; beraz, (2) bezalakoetan honako interpretazioa dago:</p><p>(4) Nik uste dut aski miatu nauzula eta jakin nahi dut ea zuk ere bat egiten duzun proposizioarekin 2 .</p><p>Hirugarrena testuinguru sintaktikoa da. De Rijk (2008: 442) eta bertze hainbatek <ref type="bibr">(Euskaltzaindia, 1987: 512;</ref><ref type="bibr" target="#b25">Monforte, 2018)</ref> adierazten dute al galdera zuzenetan ez ezik, zehar galderetan ere erabil daitekeela. Ikergai dugun ahal horrek mendeko testuinguruetan agertzeko murriztapena bide du. Ez dirudi ezaugarri horrek zerikusia duenik partikula motarekin, hots, partikula epistemikoa izatearekin, ote azal baitaiteke mendeko perpausetan. Aitzitik, bere interpretazio eta funtzioak mugatuko lituzkete bere balizko testuinguru sintaktikoak, zehar galderetan nekez txerta baitaiteke ahalen ekarpena, entzuleak proposizioarekin engaiamendu maila handia duen ala ez galdetzea alegia.</p><p>Horiexek dira bi partikula horien arteko desberdintasun nabarmenenak. Dena den, bertze arlo batzuei ere begiratu beharko litzaieke. Errate baterako, prosodia ere ikertzekoa da: galdera partikula duten testuinguruetan beheranzko intonazioa dago perpausaren amaieran; al partikularik gabekoetan, berriz, amaieraren intonazioa goranzkoa da <ref type="bibr" target="#b2">(Aurrekoetxea et al., 2011;</ref><ref type="bibr" target="#b0">Alberdi, 2014</ref>  <ref type="bibr" target="#b36">(Zuloaga &amp; Duhalde, 2019)</ref>. Hurrengo atalean aurkeztuko dugu a) euskarazko partikula modalen analisi diakronikoaz zer proposatu den, b) zer argudio ditugun ahal eta al erlazionatzeko, eta c) Lapurdi itsas hegiko datuek zer ekarpen egin dezaketen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Gramatikalizazioa</head><p>Azken urteotan partikula modalen garapen historikoaren gaiari heldu zaio euskalaritzan <ref type="bibr" target="#b21">(Lakarra, 2019;</ref><ref type="bibr">Monforte, 2020a</ref><ref type="bibr">Monforte, , 2020b</ref>. Autore horiek proposatzen dute hainbat partikula modal aditzetatik eratorriak direla, ahal, ei, omen eta ote hain zuzen; bertzalde, Monfortek (2020b) argudiatzen du al galdera partikula ahal partikula epistemikotik datorrela, kanpo eta barne ebidentzietan oinarrituta. Aitzinetik erran bezala, artikulu honetan partikula bi horien analisira mugatuko gara; beraz, errepara diezaiogun haien gramatikalizazioari.</p><p>Hasteko, argi dezagun zer den gramatikalizazioa. Lan-ikerketetan fenomeno linguistikotzat hartzen bada ere, Heinek (2003: 578) gogorarazten digu gramatikalizazioa teoria linguistiko bat dela. Teoria hori arduratzen da hizkuntz-kategoriak nola sortu, nola aldatu eta nola garatzen diren azaltzeaz. Horrelako garapen baten adibidea ingelesezko will hitzean atzematen dugu: hitz hori aditz modala zen, baina egun geroaldia markatzeko baliatzen dute hiztunek <ref type="bibr">(Heine 2003: 585-586)</ref>; erraterako:</p><p>(6) will (eus. 'nahi izan') &gt; will (eus. '-ren/ko') Gure gaiaren harira, ahal partikula epistemikoa ahal aditz modalarekin historikoki lotuta omen dago, forman ez ezik, erranahiaren aldetik ere hurbil baitaude. Izan ere, partikula modalak epistemikotasuna adierazten du eta aditz modala, oinarrizko modalitateaz gain, epistemikoa ere izan daiteke. Hori ez da harritzekoa, modalak polifuntzionalak izaten baitira, Balzak (2018: 100-101) dioen bezala. Are gehiago, de Haan &amp; Hansenek (apud Balza, 2018: 101) polifuntzionaltasun hori gramatikalizazio graduarekin lotzen dute eta egoera horixe ikusten dugu bi ahal hauen artean; hots, adiera zehazgaitz eta subjektiboagoa duen ahal partikula modala objektiboagoa izan daiteken aditz modalaren gramatikalizazioaren emaitza da semantika lausotze eta interpretazio pragmatikoak ugaltzearen ondorioz <ref type="bibr">(Monforte, 2021)</ref>. Partikula modal batek askotako ekarpena izatea kategoria horren kideen ezaugarria da <ref type="bibr">(Bayer &amp; Obenauer, 2011: 454;</ref><ref type="bibr" target="#b8">Biberauer &amp; Sheehan, 2011;</ref><ref type="bibr">Struckmeier, 2014: 17;</ref><ref type="bibr">Badan, 2020: 305)</ref>  </p><p>Bukatzeko, ematen du ahal partikula epistemikoa al galdera partikula bihurtu dela. Horren aldeko ebidentziak tipologian aurkitzen ditugu. Ezaguna da gramatikalizazio mota hau bertze hainbat hizkuntzatan: alemanez <ref type="bibr" target="#b6">(Bayer, 2012;</ref><ref type="bibr" target="#b28">Pankau, 2018)</ref>, ladineraz <ref type="bibr" target="#b18">(Hack, 2014)</ref>, errumanieraz <ref type="bibr" target="#b16">(Farkas, 2017)</ref> eta japonieraz <ref type="bibr" target="#b20">(Kinuhata, 2012)</ref>. Errate baterako, ladinerazko partikula pok hiztunaren jarrera adierazten du Valtellina, Val Camonica, Val Giudicarie, Anpezzo eta Valsuganako hizkeretan <ref type="bibr">(Hack, 2014: 56)</ref>, baina markatzaile sintaktiko gisa funtzionatzen du Brat/Cazet eremuko hizkeran (ibidem: 69).</p><p>Horrez gain, barne ebidentziak ere badaude: lehenik, ahalek badu ekarpen interpretatiboa, alek, aldiz, ez, hizketa-ekintza mota markatzeaz arduratzen bide baita; bigarrenik, historikoki zaharragoa da ahal, XV. mendetik lekukotzen baita, al, ordea, XIX. mendearen amaieratik; azkenik, eremu geografiko murritzagoa du alek ahalek baino, erdialdeko euskalkian bakarrik erabiltzen baita.</p><p>Hala ere, gramatikalizazio prozesu horretan hainbat hutsune daude. Horietako bat hauxe da: nola pasatu zen ahal perpaus deklaratiboetatik galderetara eta nola zabaldu zen guztiz azken horretan? Alde batetik, aintzat hartu behar dugu Euskaltzaindiaren (1987: 513) ildotik ahal galdera erretorikoetan eta euskalki guztietan erabil daitekeela <ref type="bibr">(Monforte, 2020b: 174-177)</ref> eta, bertze alde batetik, gogoan izan behar dugu Lapurdiko testigantza idatzietan ahal agertzen dela erretorikoak ez diren galderetan ere (1-3). Gainera, testuinguru deklaratiboetako partikula epistemikoak galderetan erabiltzea ohikoa da hizkuntzartekoan <ref type="bibr">(Bhadra, 2017: 83;</ref><ref type="bibr">Döring, 2007: 101;</ref><ref type="bibr">Faller, 2002: 230)</ref>. Gauzak horrela, ahal partikula galderetan azaltzea ez da bitxia; dena den, bertze galdera bat datorkigu burura: nola hedatu zen polaritatezko galdera motetan zehar? Horretarako galdera erretorikoetako funtzioari eta Lapurdiko testigantzetakoari begiratu behar zaie, ahal partikula epistemikoari ekarpenetik abiatuta. Azken honek bertze galdera bat dakarkigu: zer harreman dago Lapurdin galderetan erabiltzen den ahal horren eta erdialdeko euskalkian ohikoa den al galdera partikularen artean? Partikula bera ote da?</p><p>Galdera hauek erantzuteko honako hipotesia hartzen dugu abiapuntu: ahal partikula epistemikoaren bitartez hiztunak proposizioarekiko engaiamendu maila adierazten du <ref type="bibr">(Monforte, 2020b: 185)</ref>; ekarpen bertsua galderetara zabaldu zen, baina, ohikoa denez, entzulearen jarrerari begira, hiztunarenari gabe. Badirudi interpretazio horrek Lapurdiko testigantzetan badirauela; alabaina, nekez sumatzen da erdialdeko erabileretan. Eremu horri begira, partikula (ia) guztiz orokortuko zen pragmatikoki eta horrek ekarriko zuen polaritatezko galdera mota gehiagotan agertzea erdialdeko euskalkian inon baino. Hona gramatikalizazio prozesua laburbilduta:</p><p>(10) ahal aditz modala &gt; ahal partikula epistemikoa dekl &gt; ahal partikula epistemikoa gald &gt; al galdera partikula Hipotesi hori berresteko asmoz, datuak bilduko ditugu bai literaturan, bai elkarrizketen bidez. Hurrengo atalean metodologiari begiratuko diogu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Etorkizunean egin beharrekoak: inkestak</head><p>Hemen aipagai dugun partikularen erabileraren ezagutza eta dakargun hipotesia berretsi ahal izateko, datu gehiagoren beharra dugula argi dugu. Gure esku diren lanak bereziki baliagarriak zaizkigu horretarako, hala nola dialektologiako lan monografikoak, zein datu-baseak. Bertzetik, gure eskualdeko idazleen lanak ere aintzat hartu behar ditugu. Zehazki, XX. mende hastapenetik gaur egun arteko idazkiei begiratuko diegu. Gainera, ahozko mintzaira islatu nahi duten eta, beraz, ingurune naturalean ahal partikularen erabileraren berri eman ahal diguten lan literarioez interesatuko gara bereziki, hots, antzerkiez zein elkarrizketa zatiak dauzkaten eleberriez.</p><p>Gure eskualdeko idatzizko iturriak arakatzeaz gain, partikularen ahozko erabileraren berresteko eta datu berrien biltzeko asmoa dugu. Horretarako, baitezpadakoa izanen zaigu lekukoengana jotzea. Dialektologian usaiakoak diren irizpide zehatzak erabiliko ditugu lekukoen hautatzeko <ref type="bibr">(Camino, 2009: 295-308;</ref><ref type="bibr">Chaurand, 1972: 189-190;</ref><ref type="bibr">Sanchís Guarner, 1953: 57)</ref>; hots, adinekoak izatea, inkesta egiten den herri horretan beti bizi izanak izatea, ahalaz bi burasoak eta ezkontidea herri horretakoak izatea, guti eskolatuak. Funtsean, aldaki lokalen erakusgarri fidagarriak eskaintzeko gai diren berriemaileak bilatzen eta grabatzen ahaleginduko gara.</p><p>Iturri idatzietan bildu datuak eta erabilerak abiapuntutzat hartuz, elkarrizketak bi helbururekin eginen dira; alde batetik, partikularen ezaugarri sintaktikoak eta fonologiko-prosodikoak biltzeko, eta, bertze alde batetik, erabilera pragmatikoa argitzeko. Gipuzkoako, Lapurdi itsas hegiko zein Lapurdi erdialdeko hiztunak elkarrizketatzeko asmoa dugu; eremu bakoitzeko launa berriemailerekin -bi gizon eta bi emazte-solastatzea pentsatu dugu. Inkestak oren bateko luzera izanen du, hogei minutuko hiru zati hain zuzen ere: 1) hizketa librea; 2) komikien bitarteko inkesta bideratua; 3) iritzi gramatikalari buruzko inkesta.</p><p>Hizketa  <ref type="bibr">(Monforte, 2020b)</ref>. Iritzi gramatikalen eta, partikularki, erranaldien egokitasuna neurtzeko Likert eskala erabiliko dugu; beraz, gramatika sortzailean erabili ohi den gramatikala/ez-gramatikala binomiotik aldenduko gara, hizkuntza naturalen aldakortasuna islatzeko mugak baititu <ref type="bibr">(Brandner, 2012: 122)</ref>.</p><p>Geuk sorturiko istorioak lekukoei komiki bidez aurkeztuko zaizkie eta horien sortzeko euskarri digitala erabiliko da. Honela, Pixton webguneak eskaintzen dituen ahalbideei esker sortuko dira komikiaren irudiak (https://www.pixton.com). Erran gabe doa partikula espero dugun testuinguruak azalarazteko helburuarekin asmatuko dela istorioa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">irudia. Inkestetarako komikiak</head><p>Lehenik, lekukoari erraldiak modu kontrolatuan sortzeko helburua duen ariketa proposatuko zaio. Komikiaren irudiak erabiliz, eszenak tokiko aldaeran kontatuko zaizkio, estandarrarekin edo inguruko hizkerekin interferentziak saihesteko. Kontakizunaren gidoia aitzinetik grabatuko da, tokiko laguntzaile batekin, edo inkestatzailea bertako hizkeraren jabe baldin bada, zuzenean kontatuko du, eszena jakin batzuk izan ezik. Horietan, partikula erabiltzea espero den testuinguruan hain zuzen ere, berriemaileari hutsunea betetzeko eskatuko zaio.</p><p>Bertze alde batetik, lekukoaren iritzi gramatikalen biltzeko helburua duen ariketa eginen dugu. Hemen ere, komikiaren laguntzarekin, hiztunari istorioa bertako aldaeran kontatuko zaio eta kontakizunean zehar entzuniko esaldi batzuen egokitasunari buruz daukan iritzia eskatuko zaio, zuzentzat zein onartezintzat edo okertzat dituenak zehaztu ditzan. Gainera, testuingurua aintzat hartuz, esaldia nola formulatuko lukeen ere galdetuko zaio.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Ondorioak</head><p>Dialektologoek azpimarratu bezala, Lapurdi itsas hegiak erdialdeko hizkerekin duen lotura nabarmendu izan da. Hori gogoan eta eremu horretan ahal galdera ez-erretorikoetan ere erabiltzen dela aintzat hartuta, gure galdera izan da ea erdialdeko ezaugarritzat hartu den al partikula hara hedatu ote den ala kostatarraren garapen beregaina den. Galdera hori erantzun nahian, Lapurdi itsas hegian agertzen den partikulari hurbiletik begiratu diogu eta agerian geratu da badela aldea al partikularekin konparatuz gero, sintaktikoki ez ezik, pragmatikoki ere. Azken partikula horren gramatikalizazioa aintzat harturik, gure hipotesia da ahal &gt; al bilakabidearen tarteko fasea dela ahal lapurtarra. Hipotesi hori berresteko, Lapurdiko hiztunak elkarrizketatuko ditugu etorkizunean.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>, bertzeak bertze, sailkapen hau aintzat hartu zuen, Azkaine, Bidarte, Biriatu, Donibane Lohizune, Getaria, Hendaia, Urruña eta Ziburu, Lapurdi itsas bazterreko lapurteran kokatuz. Azken sailkapenetan ere, nahiz eta ikuspuntuak eta proposamenak ezberdinak izan, aipagarria iruditzen zaigu dialektologoek Lapurdi itsas hegiko hizkeraren nortasuna agerian eman izana. Aurrekoetxeak, Gamindek, Ormaetxeak eta Videgainek (2019) proposatu euskalkien sailkapenean, Ipar Euskal Herri osoa hartzen duen ekialdeko dialektoaren barnean hiru azpieuskalki nabarmentzen dituzte eta horietarik bat dugu itsasaldeko azpieuskalkia.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>Gipuzkoako, baina baita Bizkaiko euskalkien eragina ere azpimarratzen du Donibane Lohizuneko mintzairaren fonologian zein morfologian (ibidem: 224).Lan honetan, ahal 1 partikula izanen dugu aztergai, Lapurdi itsas hegiko euskaran. Bertan bildu ditugun datu berriak aurkeztu ondotik, erdialdeko hizkeretan ezaguna den al partikularen funtzioekin alderatuko dugu, mintzaira bakoitzeko erabilera zehaztuz. Hemen aurkezten dugun lana lehen urratsa baita, etorkizunean egin beharreko lanak zehaztuko ditugu. Horien artean, datu gehiago biltzeko asmoz, bertako lekukoekin egin genezakeen inkesta-mota diseinatzen ahaleginduko gara.</figDesc><table /><note>). Sailkapen honetan ere kostatar hizkeraren nortasuna nabarmentzen da: erdialdeko euskararen eta nafar-lapurtarraren arteko lotura egiten du (ibidem: 142). Bidasoaren bertze aldeko hizkerekin lotura hau azpimarratzen du Gimet donibandarrak (1950) ere, Donibane Lohizuneko euskarari eskaintzen dion artikuluan. Izan ere,</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>). Antzeko egoera aurkitzen dugu ote duten galderetan eta badirudi ahalen kasuan patroi bera agertzen dela Getarian bildu dugun ondoko galderan: 1 Lan hau errazago irakurtzeko eta ulertzeko honako hautua egin dugu: partikula epistemikoaz ari garenean, ahal grafia hobetsiko dugu, nahiz eta partikula epistemikoaren al grafiak ere tradizio idatzi luzea duen; aldiz, al grafia baliatuko dugu erdialdeko euskalkira mugatua den galdera partikulaz ari garenean. 2 Berrikusle batek galdetzen du ea egoera berean erabil litekeen erdialdeko al. Batetik, Hego Euskal Herrian oro har bertze baliabide bat erabiltzen da horrelako testuinguruetan, ezta? partikula alegia; bertzetik, al partikula testuinguru gehiagotan azaltzen den arren, nekez erabiliko litzateke declarative rising questions delakoetan (Monforte, 2020b). Hala ere, ikerketa honen helburua horixe da: argitzea ea zein den partikula bien arteko aldea. Gauzak horrela, ez du ematen alderik dagoenik; hala ere, arlo horiek Lapurdi itsas hegiko hizkeran hobeki aztertu behar ditugulakoan gaude. Hortik abiaturik, ikertu nahiko genuke ea ahal eta al partikulen arteko harremana zein den: batetik, ea partikula bera diren ala jatorri beretik eratorri eta erlazionaturik dauden bi partikula beregainak diren; eta, bertzetik, ea erdialdeko ezaugarritzat hartzen den al partikula ekialderago hedatu den. Izan ere, konbergentzia-fenomenoa ikus daiteke Gipuzkoako ipar-ekialdeko eta Lapurdi kostaldeko euskararen artean, hala nola berrikuntza fonologiko zenbaitetan</figDesc><table><row><cell>(5)</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>libreak hiztuna eroso jartzeko helburua izanen du, baita bere profila berrestea eta zehaztea ere -noiz eta non sortua den, burasoak eta ezkontidea nongoak dituen, bertzeak bertze-. Bigarren eta hirugarren zatia, berriz, partikularen erabileran zentratuko da. Datozen lerroetan inkestaren diseinua zehaztuko dugu. Partikula erabiltzera bideratzen duten testuinguruak sortzeko eta lekukoen iritzi gramatikalak biltzeko, istorio laburrak diseinatuko ditugu, Matthewsonen (2004) eta Burtonen eta Matthewsonen (2015) metodologiatik inspiratuz. Zehaztu nahi dugu inkesta teknika honek partikulen inguruko datuak biltzeko abantailak erakutsi dituela</figDesc><table /><note></note></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Alberdi</surname></persName>
+		</author>
+		<title level="m">Ahoskera. Eusko Jaurlaritzaren Argitalpen Zerbitzu Nagusia</title>
+		<meeting><address><addrLine>Vitoria-Gasteiz</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Aurrekoetxea</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Gaminde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Ormaetxea</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Videgain</surname></persName>
+		</author>
+		<title level="m">Euskalkien sailkapen berria. Euskal Herriko Unibertsitatea</title>
+		<meeting><address><addrLine>Bilbo</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Corpus based prosodic variation in Basque: y/n questions marked with the particle al</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Aurrekoetxea</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Gaminde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Iglesias</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Estudios de Fonética Experimental</title>
+		<imprint>
+			<biblScope unit="page" from="11" to="31" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Italian discourse markers: the case of guarda te</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Badan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Studia Lingüística</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="303" to="336" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Balza</surname></persName>
+		</author>
+		<title level="m">Syntactic structure and modal interpretation: the case of Basque behar. UPV/EHU</title>
+		<meeting><address><addrLine>Vitoria-Gasteiz</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>Doktorego tesia</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bayer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H.-G</forename><surname>Obenauer</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/tlir.2011.013</idno>
+		<ptr target="http://dx.doi.org/10.1515/tlir.2011.013" />
+	</analytic>
+	<monogr>
+		<title level="m">Discourse Particles, Clause Structure, and Question Types</title>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="449" to="491" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">From modal particle to interrogative marker: a study of German denn</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bayer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">L. Brugé (arg.), Functional Heads. The Cartography of Syntactic Structures</title>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2012" />
+			<biblScope unit="page" from="13" to="28" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Evidentiality and questions: Bangla at the interfaces</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Bhadra</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+			<pubPlace>New Brunswick, NJ</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Rutgers University</orgName>
+		</respStmt>
+	</monogr>
+	<note>Doktorego tesia</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Introduction: particles through a modern syntactic lens</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Biberauer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Sheehan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Linguistic Review</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="387" to="410" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Le verbe basque en tableaux</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L.-L</forename><surname>Bonaparte</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/lnc3.320</idno>
+		<ptr target="https://doi.org/10.1002/lnc3.320" />
+	</analytic>
+	<monogr>
+		<title level="m">Syntactic Microvariation</title>
+		<editor>Opera Omnia Vasconice I. Euskaltzaindia, Bilbo. Brandner, E.</editor>
+		<imprint>
+			<date type="published" when="1869" />
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="113" to="130" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Targeted construction storyboards in semantic fieldwork</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Burton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Matthewson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Methodologies in semantic fieldwork</title>
+		<editor>M. R. Bochnak &amp; L. Matthewson</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="135" to="156" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Dialektologiatik euskalkietara tradizioan gaindi</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Camino</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<pubPlace>Elkar, Donostia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Introduction à la dialectologie française</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Chaurand</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1972" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>Bordas, Paris-Bruxelles-Montréal. de Rijk, Rudolf; Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Standard Basque: A progressive grammar</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Döring</surname></persName>
+		</author>
+		<title level="m">Zur Kontextverschiebung bei deutschen Diskurspartikeln. Humboldt-Universität zu Berlin</title>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note>Master amaierako lana</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Euskaltzaindia</surname></persName>
+		</author>
+		<title level="m">Euskal gramatika. Lehen urratsak II. Euskaltzaindia, Bilbo</title>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Semantics and pragmatics of evidentials in Cuzco Quechua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Faller</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<pubPlace>Palo Alto, CA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Stanford University</orgName>
+		</respStmt>
+	</monogr>
+	<note>Doktorego tesia.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Going beyond the prototypical: Special interrogatives and special declaratives</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">F</forename><surname>Farkas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Stanford Colloquium</title>
+		<meeting><address><addrLine>Stanford</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+		<respStmt>
+			<orgName>Stanford University</orgName>
+		</respStmt>
+	</monogr>
+	<note>2017ko abenduaren 8an aurkeztua</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Dialecte basque de la région de St</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Gimet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Jean-De-Luz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eusko Jakintza</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="221" to="250" />
+			<date type="published" when="1950" />
+		</imprint>
+	</monogr>
+	<note>Le Kostatar</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The particle po in the varieties of Dolomitic Ladin-grammaticalisation from a temporal adverb into an interrogative marker</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">M</forename><surname>Hack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Studia Lingüística</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="49" to="76" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">The handbook of historical linguistics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Heine</surname></persName>
+		</author>
+		<editor>B. D. Joseph &amp; R. Janda</editor>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Blackwell Publishing</publisher>
+			<biblScope unit="page" from="575" to="601" />
+			<pubPlace>Malden / Oxford / Melbourne / Berlin</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Grammaticalization</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Historical development from subjective to objective meaning: Evidence from the Japanese question particle ka</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kinuhata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of pragmatics</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">6-7</biblScope>
+			<biblScope unit="page" from="798" to="814" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Bon-/bor-/bol-familiaren berreraiketarako (II): Etimologia, partikulen historiaurrea eta hots-lege batzuen irregularitateez</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bihotz ahots. M.L. Oñederra irakaslearen omenez</title>
+		<editor>I. Epelde &amp; O. Jauregi</editor>
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="page" from="377" to="396" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Piarres Larzabal idazlanak II</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Larzabal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Piarres Larzabal idazlanak III. Elkar</title>
+		<meeting><address><addrLine>Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="volume">Elkar, Donostia. -------------</biblScope>
+		</imprint>
+	</monogr>
+	<note>Piarres Larzabal idazlanak IV. Elkar</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">On the methodology of semantic fieldwork</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Matthewson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International journal of American linguistics</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="369" to="415" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Sarasola</surname></persName>
+		</author>
+		<title level="m">Orotariko euskal hiztegia. Euskaltzaindia, Bilbo</title>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Question particles in Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Monforte</surname></persName>
+		</author>
+		<idno type="DOI">10.5565/rev/isogloss.48</idno>
+		<ptr target="https://doi.org/10.5565/rev/isogloss.48" />
+	</analytic>
+	<monogr>
+		<title level="j">Isogloss. A Journal on Variation of Romance and Iberian Languages</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="29" to="53" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Fontes Linguae Vasconum 50 urte: Ekarpen berriak euskararen ikerketari/Nuevas aportaciones al estudio de la lengua vasca</title>
+		<idno type="DOI">10.35462/fontes50urte.28</idno>
+		<ptr target="https://doi.org/10.35462/fontes50urte" />
+		<editor>E. Santazilia, D. Krajewska, E. Zuloaga &amp; B. Ariztimuño</editor>
+		<imprint>
+			<date type="published" when="2020" />
+			<publisher>UPV/EHU</publisher>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="437" to="451" />
+			<pubPlace>Nafarroako Gobernua, Iruña; Vitoria-Gasteiz</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Galderetako -a, al eta ote partikulak euskaraz. Sintaxia, mikroaldakortasuna eta interpretazioa. Doktorego tesia</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">The development of modal particles and its implication in the syntax: the case of Basque ahal</title>
+		<imprint>
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+	<note>UPV/EHUko izkribua</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The Syntax of &apos;n in North East Berlin German</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Pankau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Recent Issues in the Syntax of Questions</title>
+		<imprint>
+			<publisher>Konstantzako Unibertsitatea, Konstantza</publisher>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>2018ko urriaren 8-10ean aurkeztua</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Syntactic change: A minimalist approach to grammaticalization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Roussou</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Roberts</surname></persName>
+		</author>
+		<title level="m">Diachronic syntax</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Sanchís Guarner</surname></persName>
+		</author>
+		<title level="m">La cartografía lingüística en la actualidad y el Atlas de la Península Ibérica. Instituto Miguel de Cervantes</title>
+		<imprint>
+			<publisher>Madril</publisher>
+			<date type="published" when="1953" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Struckmeier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Ja doch wohl C? Modal Particles in German as C-related elements</title>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="16" to="48" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Vinson</surname></persName>
+		</author>
+		<title level="m">Spécimens de variétés dialectales basques</title>
+		<imprint>
+			<date type="published" when="1907" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="129" to="135" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">RIEV</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="211" to="223" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Zavala</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Treku</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Treku</surname></persName>
+		</author>
+		<title level="m">Mattin bertsularia. Auspoa Argitaletxea &amp; Gipuzkoako Foru Aldundia</title>
+		<meeting><address><addrLine>Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Linguistic features across political borders: the case of Basque dialects in France and Spain</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Zuloaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Duhalde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">10th International Conference on Language Variation and Change (ICLAVE -10) biltzarrean aurkeztutako lana. Leewarden</title>
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="page" from="6" to="26" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Deba ibarreko euskara. Dialektologia eta tokiko batua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Zuazo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Euskalkiak, gaur&quot;, Fontes Linguae Vasconum</title>
+		<editor>Euskalkiak. Elkar</editor>
+		<meeting><address><addrLine>Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">78</biblScope>
+		</imprint>
+	</monogr>
+	<note>Euskalkiak, herriaren lekukoak</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Eskerrak Lan honek honako ikerketa-proiektuen laguntza izan du: Basque in the Making: a Historical Look at a Language Isolate</title>
+		<idno>ANR-17-CE27-0011-01</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Euskarazko zenbait partikula funtzionalen azterketa (modala, ezezkoa, konplementatzailea) (PGC2018-100686-B-I00) eta Monumenta Linguae Vasconum 5: periodización y cronología (MINECO, FFI2016-76032-P)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

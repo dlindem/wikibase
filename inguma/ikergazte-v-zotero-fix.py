@@ -67,8 +67,7 @@ def zotero_update_item(zotitem):
 		else:
 			return f"Unknown error updating *** <code><a href=\"{zotitem['links']['alternate']['href']}\" target=\"_blank\">{zotitem['key']}</a></code>: Reload records to be exported from Zotero."
 
-with open('data/nullbyte_qid.txt', 'r') as donefile:
-	donelist = donefile.read().split('\n')
+
 	# doneitems = {}
 	# for item in donelist:
 	# 	try:
@@ -82,7 +81,7 @@ with open('data/ikergazte-v-doi-pdf.csv') as csvfile:
 
 	count = 0
 	for entry in wikibase_csv:
-		# doi_wb[entry['doi_link']] = {'wikibase_item':entry['wikibase_item'], 'inguma_link':entry['inguma_link']}
+		doi_wb[entry['doi_link']] = {'wikibase_item':entry['wikibase_item'], 'inguma_link':entry['inguma_link']}
 		qid = re.search('^Q\d+', entry['zot_st']).group(0)
 
 
@@ -90,12 +89,12 @@ with open('data/ikergazte-v-doi-pdf.csv') as csvfile:
 
 		count += 1
 		print(f"[{count}] {qid}")
-		if qid in doneitems:
-			if entry['pdf'] != doneitems[qid]['att']:
-				print(f"Found bad attachment {entry['pdf']}")
-				iwb.removeclaim(entry['zot_st'])
-			else:
-				print(f"Found good attachment {entry['pdf']}")
+		if qid in nullbytelist:
+			# if entry['pdf'] != nullbytelist[qid]['att']:
+			# 	print(f"Found bad attachment {entry['pdf']}")
+			# 	iwb.removeclaim(entry['zot_st'])
+			# else:
+			# 	print(f"Found good attachment {entry['pdf']}")
 
 
 	# for entry in pyzot.items(tag='ikergazte-fix'):

@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Auxinak induzitutako degron (AID) sistemaren garapena funtzio ezezaguna duen proteina baten testuinguruan</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">García-Aldama</forename></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">;</forename><surname>De La Iglesia</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Zientzia eta Teknologia Fakultatea</orgName>
+								<orgName type="institution">Antropologia Fisikoa eta Animalien Fisiologia Saila</orgName>
+								<address>
+									<settlement>Genetika</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Universidad del País Vasco / Euskal Herriko Unibertsitatea (UPV/EHU</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">;</forename><surname>Fullaondo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Zientzia eta Teknologia Fakultatea</orgName>
+								<orgName type="institution">Antropologia Fisikoa eta Animalien Fisiologia Saila</orgName>
+								<address>
+									<settlement>Genetika</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Universidad del País Vasco / Euskal Herriko Unibertsitatea (UPV/EHU</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">;</forename><surname>Mitxelena</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Zientzia eta Teknologia Fakultatea</orgName>
+								<orgName type="institution">Antropologia Fisikoa eta Animalien Fisiologia Saila</orgName>
+								<address>
+									<settlement>Genetika</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Universidad del País Vasco / Euskal Herriko Unibertsitatea (UPV/EHU</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Basque Foundation for Science</orgName>
+								<address>
+									<settlement>Ikerbasque, Bilbo</settlement>
+									<region>Bizkaia</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eta</forename><surname>Zubiaga</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Zientzia eta Teknologia Fakultatea</orgName>
+								<orgName type="institution">Antropologia Fisikoa eta Animalien Fisiologia Saila</orgName>
+								<address>
+									<settlement>Genetika</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Universidad del País Vasco / Euskal Herriko Unibertsitatea (UPV/EHU</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename></persName>
+						</author>
+						<title level="a" type="main">Auxinak induzitutako degron (AID) sistemaren garapena funtzio ezezaguna duen proteina baten testuinguruan</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.26876/ikergazte</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-04-26T13:09+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>degron</term>
+					<term>protein degradation</term>
+					<term>auxin</term>
+					<term>genome editing</term>
+					<term>TEDC2</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena</head><p>Auxinak induzitutako degron (AID) sistema proteinen kantitatearen murrizketa modu kontrolatuan lortzeko teknologia da, proteinen funtzioa aztertzeko aukera ematen duena. AID sistemari esker, mAID domeinua fusionatuta duten proteinak modu azkarrean degradatu daitezke, auxina molekula gehituz gero. Auxina degradazio sistemaren aktibatzaile gisa erabiltzen da eta sistemaren kontrola ahalbidetzen du. Lan honetan, AID sistema martxan jartzea lortu da TEDC2 genearen funtzioa ikertzeko asmoz. TEDC2 endogenoari mAID-mClover3 etiketa gehitu zaio CRISPR/Cas9 teknologia erabilita eta TEDC2-mAID-mClover3 fusio proteina eratu da. TEDC2-mAID-mClover3 zentrioloetan kokatzen dela frogatu dugu, eta auxina gehitzean proteina modu kontrolatuan degradatzea lortu da.</p><p>Hitz gakoak: degron, proteinen degradazioa, auxina, genomaren edizioa, TEDC2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>Auxin induced degron (AID) system is a technology that allows the conditional depletion of a protein, being particulary useful for the functional analysis of uncharacterised proteins. In cells expressing the OsTIR1 plant protein, it is possible to degrade mAID-fused proteins with a very short half-time in the presence of auxin. In this work, we have successfully developed the AID system using TEDC2 gene as an example, thanks to its tagging with mAID-mClover3 by CRISPR/Cas9. In this way, TEDC2 has turned out to be located in the centrioles and, at the same time, it has been possible to achieve its depletion by the addition of auxin.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Sarrera eta motibazioa</head><p>Giza Genoma Proiektuari (GGP) esker, gizakiaren genoman 20.000-25.000 gene aurkitu ziren <ref type="bibr" target="#b7">(Naidoo et al., 2011)</ref>, zelulen funtzionamenduaren eta oinarrizko egituren arduradunak direnak. Aldi berean, GGPak genetzat hartzeko baldintzak betetzen zituzten beste DNA eskualde batzuk identifikatzeko aukera eman zuen, nahiz eta benetako geneak zirenetz jakin ez. Sekuentzia horiek, teorikoki itzuliak izateko potentzialtasuna dutenak, ORF (Irakurtarau Irekia) izenarekin ezagutzen dira. Transkriptomika esperimentuek ORF horien mRNA molekulak identifikatu dituzte eta proteomikakoek ORF horiei dagozkien peptidoak ere, beraz, ORF batzuetarako, froga nahiko daude benetazko gene funtzionalak direla esateko. Hala ere, askoren funtzioa ezezaguna da oraindik.</p><p>Geneen funtzioa karakterizatzeko gehien erabiltzen den estrategia, genearen isilarazpena da <ref type="bibr" target="#b1">(Alberts et al., 2002)</ref>. Isilarazpena, orokorrean knock-down izenarekin ezagutzen dena, gene produktuak modu itzulgarrian ezabatzeko aukera ematen duen metodologia da. Horrela, isilarazpenaren ondorioz aldatzen den prozesu biologikoak ideia bat ematen digu isilarazitako genearen funtzioaz. Klasikoki interferentziazko RNAk (iRNA) erabili dira geneen adierazpenmaila murrizteko zeluletan aldaketa genetikorik eragin gabe <ref type="bibr" target="#b0">(Agrawal et al., 2003)</ref>. iRNA molekulen efektua intereseko genearen mRNA degradatzerakoan lortzen da. Denborarekin gene horren produktu proteikoa desagertuko da, proteina sintetizatzeko beharrezkoa den mRNA ez dagoelako. Teknika erraza izan arren, zenbait muga aurkezten ditu: askotan isilarazpen partzialak lortzen dira, off-target efektuak gertatzen dira interesekoa ez den genea isalarazten denean, isilarazpena iragankorra da eta iRNA bide endogenoaren neurriz gaineko aktibazioak albo-ondorioak eragin ditzake <ref type="bibr" target="#b3">(Fellmann eta Lowe, 2014)</ref>.</p><p>iRNA teknikaren mugak gainditzeko asmoz, azken hamarkadetan geneen adierazpena guztiz ezabatzeko teknika berriak agertu dira. Horien artean, Clustered Regularly Interspaced Short Palindromic Repeats/CRISPR-Associated Protein-9 nuclease (CRISPR/Cas9) nabarmentzen da. Genomak editatzeko teknika honek knockout deituriko lerro zelularrak sortzeko aukera ematen du, non intereseko genearen adierazpena erabat desagertarazten den <ref type="bibr" target="#b6">(Mali et al., 2013)</ref>. Hala ere, gene batzuk zelulen bideragarritasunerako funtsezkoak dira edo garrantzi handiko prozesuetan inplikatuta daude, hala nola ziklo zelularrean, eta beraz, ezin daitezke modu iraunkorrean isilarazi <ref type="bibr" target="#b8">(Natsume et al., 2016)</ref>. Kasu hauetan, proteina kantitatearen murrizketa baldintzatua baliagarria izan daiteke analisi funtzionalak egiteko.</p><p>Proteina kantitatearen murrizketa baldintzatua degron izeneko domeinu desegonkortzaile bat fusionatuz lor daiteke. Hainbat degron domeinu mota daude, modu ezberdinetan kontrolatu daitezkeenak, hala nola, beroa edo molekula txikiak erabilita <ref type="bibr" target="#b5">(Kanemaki, 2013)</ref>. Existitzen diren degron teknologien artean, auxinak induzitutako degron (AID) teknologia dago <ref type="bibr" target="#b9">(Nishimura et al., 2009)</ref>, arrozaren TIR1 (OsTIR1) proteinan eta mini-AID (mAID) izeneko degron domeinuan oinarritzen dena (1. irudia). OsTIR1 proteina SCF (Skp1-Cullin-F-box) ubikitina ligasa konplexuaren parte da, eta aktibatzeko auxinaren beharra du. Behin aktibo, mAID domeinua duten proteinetara lotu eta poliubikitinatu ondoren, proteosomara bideratuko ditu, bertan degradatuak izan daitezen. Hortaz, intereseko proteinari mAID domeinua fusionatuko balitzaio, posiblea litzateke modu induzigarri, itzulgarri eta azkarrean proteina ezabatzea, 10-20 minutuko bataz besteko bizitzarekin <ref type="bibr" target="#b4">(Holland et al., 2012)</ref>.</p><p>1. irudia. AID sistemaren funtzionamendua. Auxina dagoenean, SCF ubikitina ligasak mAID domeinua duten proteinak poliubikitinatuko ditu, ondoren proteosoman degradatuko direnak.</p><p>Lan honen helburua AID sistema martxan jartzea da, funtzio ezezaguneko proteina bat aztertzeko asmoz. Adibide bezala, TEDC2 (Tubulina Epsilon eta Delta Konplexu 2) genea aukeratu da, lehenago C16orf59 deiturikoa. Momentuz, informazio gutxi dago ORF honi buruz, bakarrik dakigu gainadieraztean zentrioloetan kokatzen dela eta bere knockout-ak zentrioloetako ezegonkortasuna eragiten duela <ref type="bibr" target="#b2">(Breslow et al., 2018)</ref>.</p><p>AID sistemak TEDC2rekin arraskasta izanez gero, metodologia klasikoen bitartez aztertzeko zailak diren funtzio ezezaguneko ORFak karakterizatzeko ate berri bat irekiko litzateke.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Arloko egoera eta ikerketaren helburuak</head><p>Lan honen helbururik garrantzitsuena ORF baten funtzioa aztertu ahal izateko AID sistema martxan jartzea da. Kasu honetan, TEDC2 genearen produktu endogenoa fluoreszentziarekin markatuko da. Aldi berean, TEDC2 endogenoa mAID domeinuarekin fusionatuko da degradazio induzigarria eta itzulgarria lortzeko. Artikulu honetan AID sistemaren garapenerako metodologia zehatza azalduko da, beharrezkoak diren zelulen lorpenarekin hasita, sistemaren funtzionamendua ziurtatzeko analisietara iritsi arte. Gainera, TEDC2 endogenoaren kokapen zelularra zehaztuko da.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Ikerketaren muina</head><p>3.1. DLD1 OsTIR TEDC2-mAID-mClover3 zelulen lorpena CRISPR/Cas9 erabiliz AID sistema martxan jartzeko, jadanik OsTIR1 transgenea genoman sartuta zuten DLD1 zelulak aukeratu ziren. Zelula hauek ondesteko minbizi batetik eratorritako giza-zelulak dira, kariotipo egonkorra mantentzeagatik nabarmentzen direnak. mAID domeinua TEDC2 proteinari fusionatu ahal izateko, CRISPR/Cas9 erabili zen. Horretarako, gRNA molekula bat diseinatu zen, TEDC2ren amaierako kodoiaren alboan kokatzen den sekuentzia batekiko osagarria. BbsI murrizketa-entzima erabilita, gRNA hori, Cas9 entzima kodetzen duen pX330 plasmidoaren barruan txertatu zen. Zelula homozigotoen kopurua aberasteko asmoz erabili zen estrategia ondorengoa izan zen: Zelula homozigotoek TEDC2 alelo biak etiketatuta dituztenez, espero da beraien mClovererrek ematen duen fluoreszentzia-seinalea bikoitza izatea. Beraz, fluoreszentzia-seinale handia duten zelulak aukeratuz, zelula horiek homozigotoak izateko aukerak emendaturik daude. Achucarro zentroko Cell Sorting zerbitzua erabiliz, fluoreszentzia-seinale berde altuena zuten zelulak aukeratu ziren. Zelula horietatik hasita mugako-diluzio bat burutu zen 96-putzuko plaketan, hau da, putzuko zelula bakarra ereinik. Zelulak bi astez utzi ziren hazten eta zelula-kopuruak handitu ahala plaka handiagoetara pasatu ziren.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">PCR bidezko klonen karakterizazioa</head><p>Gehien hazi ziren klonak karakterizatzeko, haien DNA genomikoa DirectPCR (Viagen Biotech) izeneko lisi tanpoiarekin eta K proteinasa (0,4 mg/ml) gehituz erauzi zen, 55 o C 6h eta 85 o C 45min inkubazio-denborak erabiliz. Behin DNA genomikoa erauzita, PCRa burutu zen hiru hasle ezberdinekin: "A", TEDC2ren azken exoira lotzen dena; "B", TEDC2ren 3'UTRarekiko osagarria dena; eta "C", mClover sekuentziara lotzeko gai dena (3A. irudia). Hortaz, zelula batek TEDC2 genea etikatuta badauka, "A" eta "C" hasleek 624 base-pareko (bp) PCR produktu bat emango lukete. Berriz, TEDC2 basatia kontserbatzen duten zeluletan, "A" eta "B" hasleak erabilita, 344 bp-ko banda bat anplifikatuko litzateke. Printzipioz, "AB" hasleek badute etiketatutako TEDC2 geneari lotzeko gaitasuna, baina PCRan ez da anplifikaziorik lortzen orokorrean, produktua handiegia delako (3861bp).</p><p>PCR erreakzioa aurrera eramateko ondoko baldintzak erabili ziren: 50ng DNA genomiko, 0,2µM "A" haslea, 0,3µM "B" haslea, 0,1µM "C" haslea, 0,5mM dNTPak, 50mU/µl DreamTaq polimerasa (Thermo Fisher), <ref type="table">Taq</ref>  Anplifikatuak %1,5 agarosadun geletan migratu ziren (3B. irudia). Espero bezala, DNArik gabeko kontrol negatiboak (Ø) ez zuen inolako bandarik aurkeztu, kutsadurarik ez egotearen seinale. Bestalde, eraldatu gabeko DLD1 OsTIR1 zelulek TEDC2 alelo basatiaren banda baino ez zuten aurkeztu (344bp). Hortaz, erabilitako bi kontrolak esperotako emaitza eman zuten. Aztertutako zelula-klon guztiek 624bp-ko banda erakutsi zuten, CRISPR/Cas9 teknikaren bitartez etiketa gehituta zutenaren froga. Gainera, 344bp-ko banda aurkeztu ez zutenez, homozigotoak direla ondorioztatu genuen, hau da, TEDC2ren bi aleloek mAID-mClover3-Higro R etiketa zutela.</p><p>Emaitza hauek sistema prest zegoela adierazi zuten. Honek ahalbidetuko luke bai TEDC2ren kokapena finkatzea eta bai klon hauei auxina gehituz gero, TEDC2ren degradazioa bultzatzea.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">TEDC2-mAID-mClover3ren kokapenaren eta degradazioaren azterketa fluoreszentziako mikroskopia erabilita</head><p>TEDC2 proteinaren kokapen zelularra ikuskatzeko, zelulak mikroskopioan behatzeko prestatu ziren. TEDC2 endogenoa mClover3-rekin markatuta zegoenez mClover detektatzen zuen antigorputza erabili zen tindaketan. Zelulak -20 o C metanolarekin fixatu ziren 5minutuko izotz inkubazioarekin, zitoeskeletoaren egitura zuzena mantentzeko. Fixatu ondoren, zelulak ordu batez blokeatu ziren %3 BSA zuen PBStan. Blokeatu eta gero, immunofluoreszentzia tindaketarako bi antigorputz erabili ziren, anti-GFP (PABG1; Chromotek), mClover3 detektatzen zuena, eta anti-Zentrina-2 (04-1624; Millipore), zentrioloen mutur distalaren markatzailea dena. Antigorputzak ordubetez inkubatu ziren, eta ondoren antigorputz sekundarioekin inkubazio berdina egin zen. Kasu honetan anti-sagu-AlexaFluor594 (Invitrogen) eta anti-untxi-AlexaFluor488 (Invitrogen), zentrina eta mClover3 tindatzeko, hurrenez hurren. Mikroskopiorako muntaketa egiteko VectaShield-DAPI (VectorLabs) erabili zen. Laginak Nikon Eclipse E400 fluoreszentzia-mikroskopioarekin aztertu ziren.</p><p>Mikrografietan seinale berdea (TEDC2 seinalea) eta gorria (zentrina-2 seinalea) batera ikusten ziren (4. irudia). Hortaz, TEDC2 endogenoa, ordura arte ez zena inoiz ikusi (antigorputzik ez baitago), zentrioloetan kokatzen zela frogatu ahal izan zen; etiketa fluoreszente batekin gainadieraztean ikusi zen bezala <ref type="bibr" target="#b2">(Breslow et al., 2018)</ref>. Hala ere, zentrinaren eta TEDC2ren arteko kolokalizazioa partziala baino ez zen, TEDC2k zentrinak baino kokapen proximalagoa zuela zirudielako, zentrina zentrioloen atal distalean aurkitzen den proteina baita. Beraz, TEDC2 zentrioloen atal proximalean kokatzen dela ondorioztatu daiteke. Gainera, zentriolo bikote osoa berdez ikusteak adierazten du TEDC2 kokatzen dela ama eta alaba diren zentriolo parean.</p><p>Auxinak induzitutako TEDC2ren murrizketa aztertzeko, mikroskopiako esperimentua errepikatu zen. Kasu honetan bi lagin jarri ziren, bata auxinarik gabe eta bestea 500µM auxinarekin, eta 24 ordu ondoren, mikroskopiako prestaketa egin zen. Lagin bi hauen analisirako baldintza berdinak erabili ziren (600ms-tako esposaketa eta 4.5 gain). Emaitza argia zen: TEDC2 endogenoa guztiz degradatzen zen auxina gehitzerakoan, seinale berdea ia osorik desagertzen zelako (5A. irudia). Hortaz, AID sistema TEDC2 zentrioloetatik oso modu eraginkorrean degradatzeko gai da. Grafikoan (5B. irudia) ikusten den moduan (Fiji softwararen bidezko fuoreszentziaren kuantifikazioa erabiliz), auxinak kontroleko hondo-zarataren pareko maila batera jaisten du TEDC2ren seinalea. Emaitza hauetatik atera daitekeen ondorio nagusia ondokoa da: ezezaguna den edozein proteina endogeno CRISPR/Cas9 erabiliz markatu daiteke, eta gainera, mAID-rekin etiketa izanik, modu eraginkorrean eragin daiteke bere degradazioa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">TEDC2-mAID-mClover3ren degradazioaren baieztapena fluxu-zitometroaren bitartez</head><p>Mikroskopiazko analisiaz gain, AID sistemaren efizientzia fluxu-zitometroaren bitartez frogatu zen ere (6. irudia). Horretarako, eraldatu gabeko DLD1 OsTIR zelulak (kontrola) eta TEDC2 etiketatuta zuten zelula monoklonal homozigotoak plakeatu ziren, bi putzu bakoitzeko. Horietako batean 500µM auxina gehitu zen, beste putzuan tratamendurik ez. 24h geroago, zelulak %70 etanoleko PBStan fixatu ziren 4 o C-tara. 10 minutuko inkubazioa eta gero, Attune NxT Flow (Invitrogen/Thermo Fisher) zitometrotik pasatu ziren, laserrak seinale berdea detektatzeko (λex: 488 ± 5 nm) baldintzak erabiliz. Guztira, 2x10 4 zelula inguru aztertu ziren.</p><p>Kontrolean, zelulen %6,69-ak fluoreszentzia berdearen seinale positiboa agertzen zuen, eta auxina gehitzerakoan antzera mantendu zen portzentajea (%9,27 positiboak). DLD1 OsTIR TEDC2-mAID-mClover3 zeluletan, ordea, seinale berdea %66,00-ra igo zen, etiketa fluoreszentea edukitzearen ondorio. Gainera, zelula hauek auxinarekin tratatzean seinale berdearen galera handia nabaritu zen, %24,06ra jaitsi baitzen, kontrolean gertatzen ez zena. Hortaz, auxinak TEDC2-mAID-mClover3ren proteinaren mailaren degradazioa eragiten du modu nabarmenean, mikroskopiako emaitzekin bat datorrena.</p><p>6. irudia. DLD1 TEDC2-mAID-mClover3 zelulen seinale berdea % 66,00-tik % 24,06-ra murrizten da auxinarekin, kontrolean ezberdintasunak askoz txikiagoak izanda. Lan honen bitartez, AID sistemak ORFak aztertzeko balio duela frogatu da lehenengo aldiz. Bestalde eta adibide bezala, TEDC2 proteina endogenoaren kokapen fisiologikoa zentrioloak direla frogatu da, gainadierazpenarekin aurkitu zen berdina <ref type="bibr" target="#b2">(Breslow et al., 2018)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Ondorioak</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Etorkizunerako planteatzen den norabidea</head><p>TEDC2rekin jarraituz, etorkizuneko lan batean proteina horren funtzioa zein den ikertu beharko litzateke, baita zer nolako erlazioa daukan zentrioloen egonkortasunarekin. Interesgarria izango litzateke TEDC2ren degradazioaren zinetika bat egitea epe labur eta luzean, proteina horren faltak denboran zehar eragiten duen fenotipoa aztertzeko. Era berean, ziklo zelularrean zehar zer nolako erregulazioaren menpe dagoen ikertu daiteke. Bestalde, TEDC2k parte-hartzen duen bidezidorra zehazteko, bere interaktoreak ezagutzea lagungarria izan liteke, GFP-Trap bidezko mClover3-ren immunoprezipitazioarekin eta masa espektrometroarekin proteomika esperimentua eginez zehaztu litezkeenak. Azkenik, behin AID sistema optimizatuta, edozein ORF klona liteke TEDC2rekin burututako antzeko azterketa sakona eta zehatza egiteko.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>polimerasa tanpoia (20mM Tris-HCl pH 8,4, 50mM KCl), 0,5mM MgCl2 eta 0,13M betaina; 50µl-tan. Anplifikazioa burutzeko Veriti Thermal Cycler (Applied Biosystems) termozikladorea erabili zen 30 zikloz: 95 o C 1min, 60 o C 1min eta 72 o C 40s-ko baldintzak erabilita. Kontrol gisa, jatorrizko DLD1 OsTIR1 zeluletatik erauzitako DNA genomikoa eta DNArik gabeko laginak erabili ziren.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>AID sistema, CRISPR/Cas9rekin batera, oso tresna erabilgarria da edozein generen funtzioa aztertzeko. Izan ere, funtzio ezezaguneko ORFak karakterizatzeko abantaila asko aurkezten ditu, besteak beste: Gene endogenoa proteina fluoreszente batekin markatzen bada, modu erraz batean detektatu daiteke. mClover3ren (edo beste etiketa fluoreszente baten) seinalea mikroskopiarekin eta zitometroarekin detektagarria da, eta horrek analisi funtzionalen azterketa errazten du.  Lortutako proteinaren degradazioa espezifikoa eta azkarra da eta, CRISPR/Cas9 knockout-ak ez bezala, induzigarria eta itzulgarria ere.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Zientziak eta Natura Zientziak</head><label></label><figDesc>Plasmido horrez gain, bigarren plasmido bat ere diseinatu zen CRISPR/Cas9 sisteman erabiltzeko. Bigarren plasmido horretarako, TEDC2ren amaierako kodoitik ur gora eta ur behera dauden 200 nukleotidoak aukeratu ziren, pCEFL plasmidoaren barruan sartu zirenak AgeI eta NotI murrizketa-entzimak erabilita. Hurrengo pausua, mAIDren sekuentzia kodetzailea pCEFL plasmidoan sartzea izan zen. Horretarako, intereseko DNA egitura PCR bidez klonatu zen, mAID domeinuaz aparte beste bi elementu zituena: mClover proteina fluoreszentearen genea eta higromizinarekiko erresistentzia-genea. Lortutako DNA sekuentzia (mAID-mClover3-Higro R ) pCEFL plasmidoaren barruan sartu zen BamHI murrizketa-entzima erabilita. Behin klonazioekin amaituta, DLD1-OsTIR1 zelulak diseinatutako bi plasmidoekin (pX330 eta pCEFL) transfektatu ziren (2. irudia). Modu horretan zera espero da, pX330 plasmidotik transkribatutako gRNAk, Cas9 entzima TEDC2ren azken exoira gidatzea, eta entzimak DNAa moztea. Sortutako bi muturrak berriro lotzeko, eta beraz, DNA egitura konpontzeko, zelulak pCEFL plasmidoa erabiliko luke txantiloi gisa, bere baitan TEDC2ren azken 200 nukleotidoak eta 3'UTRaren (untranslated region) lehenengo 200 nukleotidoak baitaude. Konponketaren ondorioz mAID-mClover-Higro R etiketa TEDC2 genearen atzean ezarriko litzateke, horrela fusio-proteina bat sortuz, TEDC2-mAID-Clover-Higro R , hau da, TEDC2 gene etiketatua, eta baita higromizinarekiko erresistentzia ematen duen genea ere. Transformatutako zelulen hautespena burutzeko, zelulak higromizinarekin tratatu ziren (100µg/ml). TEDC2 genea etiketatua zuten zelulak antibiotikoarekiko erresistenteak izango lirateke eta beraz horiek soilik haziko lirateke. DLD1 zelulak diploideak direnez, biziraun dezaketen zelulak bi motatakoak izan daitezke: homozigotoak (TEDC2ren alelo biak etiketa daramatenak) edo heterozigotoak (alelo bakarra etiketatua eta bestea alelo basatia dutenak). 2. irudia. DLD1 OsTIR1 zelulak eraldatzeko erabilitako CRISPR/Cas9 sistema. gRNAk TEDC2ren azken exoira gidatuko du Cas9 bertan mozteko. Sortutako kaltea konpontzeko, zelulak pCEFL plasmidoa erabiliko du txantiloi gisa eta mAID-mClover3-Higro R TEDC2ren ostean sartuko da.</figDesc><table><row><cell>IkerGazte, 2021</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>IkerGazte, 2021 Zientziak eta Natura Zientziak 5</head><label></label><figDesc>. irudia. Auxina gehitzean TEDC2 endogenoa degradatzen da. A. 40x handipenarekin ateratako argazkiak: 600ms esposizioarekin kanal berdea, 600ms gorria eta 10ms urdina. Eskala-barra:10µm; zoom-a 600nm. B. Seinale berdearen intentsitatea hondo-zarataren aurka.</figDesc><table /><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">. irudia. Klonen DNArekin burututako PCRa. A. TEDC2 basatia (Wt) eta TEDC2-mAID-mClover3 bereizteko diseinatutako hasleak eta horiekin esperotako anplikoiak. B. Etiketarik gabeko DLD1 zeluletan (Wt) TEDC2 basatiaren banda (344bp) bakarrik agertzen den bitartean, aukeratutako hiru klonek 624bp-ko banda aurkezten dute, eta beraz, TEDC2-mAID-mClover3 fusio-proteinarako homozigotoak dira.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">. irudia. TEDC2 endogenoa zentrioloetan kokatzen da. Argazkiak 40x handipenarekin atera ziren: 600ms esposizioarekin kanal berdea, 600ms gorria eta 10ms urdina. Eskala-barra: 10µm. Gezi horiek zentriolo bikoteak nabarmentzen dituzte. TEDC2k zentrinak baino kokapen proximalagoa dauka ama eta alaba zentrioloetan.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Agrawal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">V N</forename><surname>Dasaradhi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Mohmmed</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Malhotra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">K</forename><surname>Bhatnagar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Mukherjee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">RNA interference: biology, mechanism and applications</title>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="657" to="685" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Alberts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Raff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Walter</surname></persName>
+		</author>
+		<title level="m">Molecular biology of the cell</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Garland Science</publisher>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A CRISPR-based screen for Hedgehog signaling provides insights into ciliary function and ciliopathies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">K</forename><surname>Breslow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hoogendoorn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Kopp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Morgens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">K</forename><surname>Vu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">T</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Bassik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">V</forename><surname>Nachury</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Genetics</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="460" to="471" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Stable RNA interference rules for silencing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Fellmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">W</forename><surname>Lowe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Cell Biology</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="10" to="18" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Inducible, reversible system for the rapid and complete degradation of proteins in mammalian cells</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Holland</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Fachinetti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Cleveland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">49</biblScope>
+			<biblScope unit="page" from="3350" to="3357" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Frontiers of protein expression control with conditional degrons, Pflugers Archive</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">T</forename><surname>Kanemaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Physiology</title>
+		<imprint>
+			<biblScope unit="volume">465</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="419" to="425" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">RNA-guided human genome engineering via Cas9</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Mali</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Esvelt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Aach</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Guell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Dicarlo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Norville</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">M</forename><surname>Church</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">339</biblScope>
+			<biblScope unit="issue">6121</biblScope>
+			<biblScope unit="page" from="823" to="826" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Human genetics and genomics a decade after the release of the draft sequence of the human genome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Naidoo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Pawitan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Soong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">N</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Ku</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Human Genomics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="577" to="622" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Rapid protein depletion in human cells by auxin-inducible degron tagging with short homology donors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Natsume</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kiyomitsu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Saga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kanemaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Reports</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="210" to="218" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">An auxin-based degron system for the rapid depletion of proteins in nonplant cells</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Nishimura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Fukagawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Takisawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kakimoto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kanemaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Methods</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="917" to="922" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Ana María Zubiagak Espainiako Jaurlaritzako (Ministerio de Ciencia e Innovación RTI2018-097497-B-I00) eta Eusko Jaurlaritzako (Hezkuntza Saila. Erref.:IT1257-19) dirulaguntzak jaso ditu. Alejandro García-Aldama Eusko Jaurlaritzako doktoretza aurreko dirulaguntza baten jabea da (PRE 2020) eta Endika De La Iglesiak Espainiako Jaurlaritzako doktoretza aurreko dirulaguntza jaso du</title>
+	</analytic>
+	<monogr>
+		<title level="m">Eskerrak eta oharrak DLD1 OsTIR1 zelulak Daniele Fachinettiren eskutik lortu ditugu</title>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>Jone Mitxelenak Ikerbasque research fellow (2020) doktoretza ondoko kontratua dauka</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

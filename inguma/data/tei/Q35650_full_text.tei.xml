@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Aditza+izena konbinazioen itzulpen automatikoa, arau linguistikoen bidez</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2017">2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Uxoa</forename><surname>Iñurrieta</surname></persName>
+							<email>usoa.inurrieta@ehu.eus</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">IXA taldea</orgName>
+								<orgName type="institution" key="instit2">EHU *Bartzelonako Unibertsitatea</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Itziar</forename><surname>Aduriz</surname></persName>
+							<email>itziar.aduriz@ub.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">IXA taldea</orgName>
+								<orgName type="institution" key="instit2">EHU *Bartzelonako Unibertsitatea</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arantza</forename><surname>Díaz De Ilarraza</surname></persName>
+							<email>a.diazdeilarraza@ehu.eusgorka.labaka@ehu.eus</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">IXA taldea</orgName>
+								<orgName type="institution" key="instit2">EHU *Bartzelonako Unibertsitatea</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gorka</forename><surname>Labaka</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">IXA taldea</orgName>
+								<orgName type="institution" key="instit2">EHU *Bartzelonako Unibertsitatea</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kepa</forename><surname>Sarasola</surname></persName>
+							<email>kepa.sarasola@ehu.eus</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">IXA taldea</orgName>
+								<orgName type="institution" key="instit2">EHU *Bartzelonako Unibertsitatea</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Aditza+izena konbinazioen itzulpen automatikoa, arau linguistikoen bidez</title>
+					</analytic>
+					<monogr>
+						<meeting> <address><addrLine>Giza Zientziak</addrLine></address>
+						</meeting>
+						<imprint>
+							<date type="published" when="2017">2017</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.26876/ikergazte.ii.01</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-04-26T13:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Hitz gakoak: Fraseologia</term>
+					<term>Hizkuntzalaritza Konputazionala</term>
+					<term>Unitate Fraseologikoak</term>
+					<term>izen+aditz konbi- nazioak</term>
+					<term>Itzulpen Automatikoa</term>
+					<term>euskara</term>
+					<term>gaztelania Keywords: Phraseology</term>
+					<term>Computational Linguistics</term>
+					<term>Multiword Expressions</term>
+					<term>Verb+Noun Combina-tions</term>
+					<term>Machine Translation</term>
+					<term>Basque</term>
+					<term>Spanish</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena</head><p>Lan honek aditza+izena motako Unitate Fraseologikoak (UF) eta itzulpen automatikoa ditu aztergai. Gaztelaniazko UF sorta bat eta haien euskarazko ordainak aztertu ondoren, azterketa horretatik ateratako informazio linguistikoa Matxin itzultzaile automatikoaren sisteman sartu dugu, itzulpen-kalitatean zer eragin duen ikusteko. Bai metrika automatikoek eta bai eskuzko ebaluazioak argi erakutsi dute informazio linguistikoak sistemaren emaitzak hobetzen dituela.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>This paper presents an analysis of verb+noun Multiword Expressions (MWEs) in Machine Translation (MT). After analysing a number of Spanish MWEs and their Basque translations, linguistic data was added into an MT system, namely Matxin, to see to what extent it affected translation quality. Both automatic evaluation metrics and a human evaluation showed that MWE-specific information improves the system's results.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Sarrera</head><p>Hizkuntza bat baino gehiago hitz egiten ditugunok aspaldi ikasia dugu dena ezin dela hitzez hitz itzuli hizkuntza batetik bestera. Hizkuntzaren arabera, ideiak era batera edo bestera adierazten dira, eta batean naturala dena, sarritan, oso arrotza -edo are ulergaitza-gerta daiteke beste batean.</p><p>(1) Euskaraz: arreta jarri Gaztelaniaz: prestar atención (lit.: arreta mailegatu) Frantsesez: faire attention (lit.: arreta egin) Ingelesez: pay attention (lit.: arreta ordaindu)</p><p>Horixe gertatzen da hizkuntzek bere-bereak dituzten hitz-konbinazio batzuekin, Unitate Fraseologikoekin (UF). Hiztunok inongo arazorik gabe erabiltzen ditugu ondo ezagutzen ditugun hizkuntzetan, baina osaera aldetik badituzte berezitasunak: batzuetan, esanahia ez da barruko hitzen esanahien batura izaten (hanka sartu); beste batzuetan, ez dituzte hitz-konbinazio arrunten ezaugarri morfosintaktiko berberak (lo egin, eta ez *loa egin); eta, beste askotan, hitz batekin beste hitz jakin batzuk bakarrik erabiltzen ditugu, nahiz eta esanahi bera adieraz lezaketen beste hainbat ezagutu (ondorioak atera, eta ez ondorioak egin/erauzi...).</p><p>Testuetan etengabe erabiltzen dira UFak, bai ahoz eta bai idatziz; atzerriko hizkuntzak ikastean edo hizkuntzak ordenagailu bidez prozesatzean, ordea, arazo-iturri izaten dira. Begira zer-nolako esaldiak sortzen dituzten itzultzaile automatikoek batzuetan, UFren bat itzultzeko eskatzen badiegu:</p><p>(2) Itzulgaia: El plazo vence la semana que viene.</p><p>Itzulpen automatikoa: Epea datorren astean garaituko du. Itzulpen-proposamena: Epea datorren astean amaituko da.</p><p>(3) Itzulgaia: Las ingenieras llevaron el proyecto a cabo. Itzulpen automatikoa: Ingeniariek proiektua eraman zuten kabora. Itzulpen-proposamena: Ingeniariek proiektua burutu zuten.</p><p>Lan honetan, gaztelaniazko aditza+izena motako UFez (1-3 adibideak) eta haien euskararako itzulpenaz arituko gara. UFen eta itzulpen automatikoaren alorreko ikerketa zertan den labur azaldu ostean (2. atala), Matxin itzultzaile automatikoak nola funtzionatzen duen deskribatuko dugu, bai eta gaur egun UFak nola tratatzen dituen ere (3. atala). Gero, ataza horretan sortzen zaizkion arazoak konpontzeko zer egiten ari garen azalduko dugu (4. atala): itzulpen zuzenak sortzeko zer informazio linguistiko duen beharrezkoa gure ustez, eta informazio hori erabilita zer emaitza lortu ditugun orain arte.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Unitate Fraseologikoak eta itzulpen automatikoa: orain arteko ikerketa</head><p>UFak fenomeno arazotsua dira Hizkuntzaren Prozesamendurako; hitz batez baino gehiagoz osatuta daude, baina ez dira beti konposizionalak esanahiari dagokionez eta, hortaz, hitz-konbinazio osoa hartu behar da kontuan hizkuntza-tresna aurreratuek ondo prozesa ditzaten <ref type="bibr" target="#b13">(Sag et al., 2002)</ref>. Halako hitz-konbinazioak testuetan identifikatze hutsa nahiko lan nekeza izaten da, askotan ezaugarri morfosintaktiko malguak izaten dituztelako eta, ondorioz, ez delako nahikoa hiztegietan begiratu eta hitz batez baino gehiagoz osatutako sarrerak testuetan hitz-segida finkoak balira bezala bilatzea. UF batzuk -artikulu honetan hizpide izango ditugun aditza+izena konbinazioak, kasu-beste batzuk baino malguagoak izaten dira morfosintaktikoki <ref type="bibr">(Iñurrieta et al., 2016b)</ref>, eta horrek bereziki zailtzen du haien prozesamendua.</p><p>Era askotara sailkatu izan badira ere, esaldien parte diren UFen artean 1 , bi mota nagusi bereizi ohi dira: lokuzioak eta kolokazioak <ref type="bibr" target="#b11">(Pastor, 1996;</ref><ref type="bibr" target="#b17">Urizar, 2012)</ref>. Lokuzioetan, konbinazio osoaren esanahia ez da barruko hitzen esanahien batura izaten, opakoagoak edo gardenagoak izan daitezkeen arren; multzo horretakoak dira, adibidez, adarra jo eta burua hautsi. Kolokazioak, berriz, gardenak izaten dira, baina esanahiaren pisurik handiena bi hitzetako batek izan ohi du -Melc'uk-en arabera (1995), oinarri ak-, eta hitz horrek aukeratzen du zein beste hitzekin konbinatu daitekeen beste esanahi jakin bat adieraztekozein kolokaturekin, alegia-; hori gertatzen da, esate baterako, honako hauetan: izerdia bota, pozez zoratu, interesa piztu.</p><p>Bestalde, badira UF batzuk aditz arinekin osatzen direnak 2 . Oso aditz arruntak izaten dira normalean -egin, hartu, eman...-, eta konbinazioen barruan esanahia "arindu"egiten zaie <ref type="bibr" target="#b19">(Zabala, 2004)</ref>, hau da, haien esanahiak pisua galtzen du, eta izenari aditz-izaera emateko balio dute nolabait. Hala, aditz horien ezaugarri semantikoak desberdinak izaten dira esanahi osoa dutenean eta arinak direnean <ref type="bibr" target="#b12">(Rodríguez eta García Murga, 2003)</ref>; eginen esanahia, adibidez, ez da berbera ohea egin (osoa) edo solas egin (arina) esatean. Halako konbinazioak oso ohikoak dira euskaraz, eta, besteak beste, inguruko hizkuntzetan aditz bakarrez adierazten diren ekintza asko adierazteko erabiltzen dira: lan egin, lo hartu, hitz eman...</p><p>Zenbaitek hitz elkartuen multzoan sartu izan badituzte ere, joera nagusia halakoak hitz-konbinaziotzat hartzea da, elkarketatik bereiz (Azkarate, 1990). <ref type="bibr">Jackendoff-en arabera (1997)</ref>, hiztun batek ezagutzen dituen UFen kopurua eta hitz soilena oso antzekoak dira, eta etengabe agertzen dira testuetan. Hiztegiek, ordea, oso UF gutxi jasotzen dituzte, eta lokuzioak izaten dira gehien-gehienak. Dena dela, dezente ikertu da azken hamarkadotan testuetatik UFak automatikoki erauzteko teknikak garatzeko <ref type="bibr" target="#b2">(Gurrutxaga, 2015;</ref><ref type="bibr">Ramisch, 2015)</ref>, eta UFak bereziki lantzen dituzten hiztegiak ere gehiagotu egin dira. Horren adierazgarri dira, adibidez, gaztelaniazko kolokazioen DiCE hiztegia (Alonso Ramos, 2006) eta ingelesezko kolokazioen Oxford Collocations Dictionary <ref type="bibr" target="#b0">(Deuter, 2008)</ref>.</p><p>Hizkuntza bakoitzak bere UFak izan ohi ditu, eta gehienetan ezin izaten dira hizkuntza batetik bestera hitzez hitz itzuli, batez ere sorburu-eta helburu-hizkuntzak oso tipologia desberdinetakoak direnean <ref type="bibr" target="#b14">(Sanz, 2015;</ref><ref type="bibr">Iñurrieta et al., 2016a)</ref>. Hori hala izanik ere, sortzen diren baliabide gehienak elebakarrak dira, hizkuntzak ikasten ari direnei edo idazketarako laguntza behar dutenei zuzenduak. UFen alderdi elebiduna, ordea, oso gutxi ikertu da orain arte, eta are gutxiago ikuspuntu konputazionaletik.</p><p>Gaur egun, bi motatako itzultzaile automatikoak dira ohikoenak: estatistikan oinarritutakoak eta erregeletan oinarritutakoak. Lehenengoek corpus paralelo erraldoietatik ikasten dutenez, zeharka bada ere, kontuan hartzen dute informazio fraseologikoa <ref type="bibr" target="#b15">(Seretan, 2014)</ref>. Euskara bezalako hizkuntza txikietarako, berriz, egokiagoak dira bigarren multzokoak, corpus paraleloak txiki samarrak baitira estatistikaren bidez kalitatezko itzulpen automatikoak lortzeko. Bestalde, erregeletan oinarritutako sistemek arau linguistikoak eta hiztegi elebidun orokorrak izaten dituzte oinarrian, eta horiek bakarrik ez dira nahikoa UFak zuzen itzultzeko; emaitza txukunak lortu ahal izateko, behar-beharrezkoa dute UFen inguruko informazio gehigarria <ref type="bibr" target="#b18">(Wehrli et al., 2009;</ref><ref type="bibr" target="#b3">Iñurrieta et al., 2017)</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Matxin itzultzaile automatikoa</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Aditza+izena konbinazioak itzultzeko metodo berria</head><p>Aurreko ataleko 4-6 adibideek erakutsi bezala, UFak ondo itzultzeko, Matxinek behar-beharrezkoa du informazio linguistikoa. Batetik, hiztegi-sarrera diren UFak itzulgaian identifikatu ahal izateko, nola erabiltzen diren jakin beharra du sistemak. Eta, bestetik, UF horien euskarazko ordaina zein den eta nola erabiltzen den ere zehaztu behar zaio.</p><p>Informazio hori guztia itzulpen-prozesuaren lehen eta bigarren faseetan gehitzea proposatzen dugu lan honetan: gaztelaniazko UFen identifikazioari dagokiona, analisian; eta euskarazko ordainei dagokiena, berriz, transferentzian. Datozen azpiataletan azalduko dugu bi ataza horietarako zer ezaugarri linguistikori begiratu diogun, bai eta zer emaitza lortu ditugun ere.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Gaztelaniazko aditza+izena UFen identifikazioa</head><p>Lehenago aipatu bezala, Matxinek, gaur egun, oso era sinplean tratatzen ditu UFak, eta, malgutasun morfosintaktikoa kontuan hartzen ez duenez, UFen aldaera asko ez ditu identifikatzen. Begira zer gertatzen den honako adibide honetan:</p><p>(7) Itzulgaia: Estoy de acuerdo. Estoy muy de acuerdo.</p><p>Itzulpen automatikoa: Bat nator. Oso nago akordiotik.</p><p>Hiztegian badagoenez estar de acuerdo sarrera, lehen esaldian ondo identifikatu da UFa, hitz guztiak jarraian, hurrenkera berean eta -aditzaren flexioa gorabehera-forma berean ageri direlako. Bigarrenean, aldiz, aditzaren eta preposizio-sintagmaren artean beste hitz bat ageri denez, ez da UFrik identifikatu eta, ondorioz, esaldia oso trakets ekarri da euskarara.</p><p>Hala ere, zabalegi jokatzea ere ez da komenigarria, posible baita UF ez diren hitz-konbinazio asko UFtzat hartzea. Adibidez, esaldian UFko izena eta aditza agertzen ote diren bakarrik begiratuta, sistemak ez luke bereiziko 8. adibideko bi esaldien arteko aldea. Ezaugarri horien arabera, UFak hiru multzotan sailkatzen dira datu-basean: finkoak 5 , erdi-finkoak eta malguak. Multzo horien arabera, teknika bat edo beste aplikatzen da UFak identifikatu ahal izateko. Itzulgaia automatikoki analizatzean (3. atala), esaldietan UFrik badagoen begiratzen da, Konbitzulen laguntzaz:</p><p>• UFa erdi-finkoa denean, datu-basean zehaztutako ezaugarriei begiratzen zaie. Adibidez, dar voces konbinaziorako, Konbitzulek Matxini aginduko dio izen-sintagma pluralean dagoenean eta aditzaren objektua denean bakarrik hautemateko. Hala, dar voces UFa identifikatuko du honako esaldiotan:</p><p>(9) Iban dando voces por la calle. Daban siempre voces por la calle. Con las voces que daban, se les oía desde la calle. Baina ez besteotan:</p><p>(10) Fueél quien dio la voz a varios personajes televisivos. Hace falta dar la voz de alarma. El objetivo de la iniciativa es dar voz a los que no la tienen.</p><p>• Konbinazioa guztiz malgua denean, berriz, sistemak begiratzen du ea aditzak eta izenak erlazio zuzena duten analisi-zuhaitzean, hau da, ea izen-sintagma aditzaren subjektua, objektua edo modifikatzailea den. Hala, lehen ez bezala, fijar un plazo UFa ondo identifikatu ahal izango da esaldi hauetan guztietan: (11) Fijaron el plazo de inscripción. Mañana fijarán un nuevo plazo.</p><p>Los plazos deben ser fijados con antelación.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Aditza+izena UFen euskaratzea</head><p>Behin UFak identifikatutakoan, Matxini informazioa eman behar zaio euskarara nola ekarri behar diren jakin dezan. Batzuetan nahikoa da aditzari eta izenari zer ordain eman behar zaion zehaztea; beste batzuetan, informazio gramatikala da kontuan hartu beharrekoa; eta beste batzuetan, bai bata eta bai bestea.</p><p>Identifikaziorako informazioarekin egin bezala, itzulpenari dagokion informazioa ere Konbitzul datubasean gorde dugu. Honako ezaugarri hauei begiratu diegu:</p><p>• Izen-sintagmaren kasu-edo postposizio-markari • Izen-sintagman ager daitezkeen determinatzaileei • Izen-sintagmaren numeroari eta mugatasunari • Izen-sintagmaren eta aditzaren arteko erlazioari • UFtik kanpoko elementuen kasu-edo postposizio-markei Informazio gramatikalik aldatu behar ez denean, nahikoa da UFko aditzari eta izenari zer ordain dagozkien zehaztea. Honako esaldi honetan, adibidez, aditzaren ordaina aldatu behar da: esnaturen ordez, piztu.</p><p>(12) Itzulgaia: El tema despertó interés.</p><p>Itzulpen automatikoa: Gaiak interesa esnatu zuen. Itzulpen-proposamena: Gaiak interesa piztu zuen.</p><p>Lexikoaren ordez gramatika denean tratatu beharrekoa, arau gehigarriak sartu behar dira sisteman. Esate baterako, 13. adibidean, ez da beharrezkoa lexikoa aldatzea, baina euskarazko izen-sintagmaren postposizio-marka -kasu honetan, instrumentala-zehaztu beharra dago, ez baita Matxinek gaztelaniazko preposizioari defektuz emango liokeena -kasu honetan, soziatiboa-.</p><p>(13) Itzulgaia: Lo trata con respeto.</p><p>Itzulpen automatikoa: Errespetuarekin tratatzen du. Itzulpen-proposamena: Errespetuz tratatzen du.</p><p>Azkenik, badira UF batzuk bai tratamendu lexikala eta bai gramatikala behar dutenak, 14. adibidean gertatzen den bezala:</p><p>(14) Itzulgaia: La echan en falta.</p><p>Itzulpen automatikoa: Faltan botatzen dute. Itzulpen-proposamena: Haren falta sumatzen dute.</p><p>Batetik, aditzari ez zaio ohiko ordainik eman behar echar en falta UFa itzultzeko: botaren ordez, sumatu. Bestetik, preposizioari ez zaio postposiziorik eman behar ordaintzat, baizik eta kasu absolutiboari dagokion marka; eta, gainera, gaztelaniazko esaldian objektu zuzenaren funtzioa betetzen duena izensintagmaren modifikatzaile bihurtzen da euskaraz, eta genitibo-marka jarri behar zaio.</p><p>Informazio hori guztia arauen bidez gehitu dugu Matxinen sisteman, eta, jarraian, lagin batekin probak egin eta sistema ebaluatu dugu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">Emaitzak</head><p>Proposatzen dugun metodoa Matxinentzat lagungarria den ala ez jakiteko, linguistikoki aztertutako 92 UF hartu -gure datuen arabera gaztelaniazko testuetan maizen agertzen direnak-, eta haiei buruzko informazioa sartu dugu sisteman. Gaztelaniaren eta euskararen artean itzulitako testuak biltzen dituen corpus paralelo batetik, UFetako izena eta aditza barne hartzen dituzten esaldiak hautatu ditugu, eta 1.991 esaldi-pareko azpicorpus bat osatu dugu. Corpus hori oinarri hartuta, bi eratara ebaluatu dugu jatorrizko sistemaren eta berriaren arteko aldea: metrika automatikoak erabiliz eta eskuz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.1">Metrika automatikoak</head><p>Metrika bat baino gehiago dago itzultzaile automatikoen kalitatea neurtzeko. Guk honako hiru hauek aukeratu ditugu:</p><p>• BLEU <ref type="bibr" target="#b10">(Papineni et al., 2002)</ref>, itzulpen automatikoaren alorreko ebaluazio-metrikarik ezagunena.</p><p>Sistemaren erantzunak esaldika hartu, eta ereduzko itzulpenekin (corpus paralelokoekin) alderatzen ditu. Sorburu-hizkuntzako esaldiak zatikatzen joaten da -lehenengo, hitz bakarra; gero, bi hitzeko multzoak, etab.-, eta zati horiei corpusean eman zaizkien itzulpenak bilatzen ditu, aztertzeko zenbateraino diren antzekoak sistemaren itzulpenak eta eskuzkoak.</p><p>• NIST <ref type="bibr" target="#b1">(Doddington, 2002</ref> </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>( 8 )•</head><label>8</label><figDesc>Iban dando voces por la calle. ('Kalean oihuka ari ziren') Las voces le dieron una pista. ('Ahotsek arrasto bat eman zioten') Beraz, beharrezkoa da malgutasun morfosintaktikoa kontuan hartzea, baina oreka bilatu behar da metodo malguegien eta zurrunegien artean. Horretarako, Konbitzul datu-basean 4 , izenez eta aditzez osatutako UF sorta bati buruzko informazio linguistikoa gorde dugu. Honako ezaugarri hauek aztertu ditugu: Determinatzaileak izen-sintagman: ager daitezke? Beti dira zehaztuak/zehaztugabeak ala bietakoak izan daitezke? • Izen-sintagmaren numeroa: beti da singularra/plurala ala batera zein bestera erabiltzen da? • Modifikatzaileak izen-sintagman: ager daitezke? (adjektiboak etab.) • Izen-edo preposizio-sintagmak betetzen duen funtzioa: objektua, subjektua ala modifikatzailea? • Aditzaren eta izen-edo preposizio-sintagmaren bereizgarritasuna: ager daiteke beste hitzen bat bi elementuen artean? (adberbioak etab.) • UFko osagaien hurrenkera: beti finkoa da ala alda daiteke? (galderetan etab.)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Matxin erregeletan oinarritutako itzultzaile automatiko bat da(Mayor et al., 2009), eta gaztelaniatik euskarara itzultzen du. Hiru fasetan egiten du lan:1. Analisia. Gaztelaniazko itzulgaia automatikoki analizatzen da, Freeling tresna erabiliz(Padró eta   Morfeus prozesatzaile morfologikoa(Aduriz et al., 1999)  erabiltzen da azken ataza honetarako.Hortaz, Matxinen sistemak bi oinarri nagusi ditu: arau linguistikoak eta hiztegiak. Bi oinarri horiek bakarrik, ordea, gehienetan ez dira nahikoa izaten Unitate Fraseologikoak zuzen itzultzeko. Hona hemen adibide batzuk:(4) Itzulgaia: Deberán prestar atención al problema.Itzulpen automatikoa: Arreta mailegatu behar izango diote arazoari.Batetik, sistemaren hiztegi elebiduna mugatua da, eta oso maiz erabiltzen diren UF asko eta asko ez ditu jasotzen, 4. adibideko prestar atención kasu. Bestetik, hiztegian dauden UFei ematen zaien tratamendua ere mugatua da, oso sinplea, eta ez dabil beti ondo.Izan ere, gaur egun, hitz batez baino gehiagoz osatutako hiztegi-sarrerak hitz bakarra balira bezala prozesatzen dira, hitz-segida finkotzat. Hori dela-eta, cubrir una plaza kolokazioa hiztegian badago ere, 5. adibidean ez da ondo itzuli, ez delako hiztegi-sarreran bezala agertzen, baizik eta pluralean eta aurretik adjektibo bat eta artikulu zehaztu bat dituela. Horixe gertatzen da beste UF asko eta askorekin ere, morfosintaktikoki malguak direlako eta sistema ez dagoelako malgutasun hori tratatzeko prestatuta.Bestelakoa da 6. adibidean dagoen arazoa. Perder los estribos UFa hiztegi-sarreran bezalaxe ageri da esaldian, eta sistemak ondo identifikatu du, baina ez du kontuan hartu euskarazko ordainaren informazio linguistikoa. Horregatik sortu du itzulpen okerra; hura bere onetik atera zen behar zuen euskaraz.</figDesc><table /><note>Stanilovsky, 2012). Analisi horretatik, informazio morfologikoa eta sintaktikoa lortzen da: hitzak zer morfemaz osatuta dauden, nola multzokatzen diren 3 , hitz-multzoek zer erlazio duten euren artean... Gaztelaniazko esaldiaren errepresentazio abstraktua lortzen da fase honetan.2. Transferentzia. Analisian lortutako informazioa euskarara ekartzen da, baina oraindik ere era abstraktuan. Batetik, hiztegi elebidunen bidez, gaztelaniazko osagai lexikoei euskarazko ordainak ematen zaizkie, eta bestetik, gramatika-egitura ere transferitzen da. Bereziki gaztelaniatik euska- rara itzultzean egin beharreko hainbat aldaketa ere fase honetan egiten dira, preposizio-postposizio egokitzapena kasu.3. Sorkuntza. Euskarazko hitzak sintagmatan antolatu, eta sintagmei euskarazko hurrenkera ematen zaie lehenik. Gero, euskarazko elementu lexikoei eta haien informazio linguistikoari forma eman, eta euskarazko esaldia sortzen da.(5) Itzulgaia: Cubrieron todas las plazas. Itzulpen automatikoa: Plaza guztiak estali zituzten.(6) Itzulgaia: Ella perdió los estribos. Itzulpen automatikoa: Hark nor bere onetik atera zuen.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>Metrika automatikoak erabiltzeaz gain, eskuzko ebaluazio kualitatiboa ere egin dugu, eta hortik atera ditugu ondoriorik interesgarrienak. Bi sistemek desberdin itzulitako esaldi sorta erakusgarri bat hartu, eta hiru ebaluatzaileri eman diegu: (A) hizkuntzalari bati, (B) itzultzaile bati eta (C) euskaraz eta gaztelaniaz arazorik gabe egin arren hizkuntza-ikasketa bereziturik ez duen hiztun bati. Gaztelaniazko esaldi bakoitzarekin batera sistema baten eta bestearen itzulpenak erakutsi, eta aukeratzeko eskatu diegu: lehena hobea den, bigarrena hobea den, ala biak diren maila berekoak. Emaitzak 2. taulan jaso ditugu.Ebaluatzaileen erantzunei begiratuta, hobekuntza nabaria da jatorrizko sistematik berrira. Baina beste zerbait ere iradokitzen dute: adituak direnentzat begi-bistakoak diren hobekuntzak ez direla hain Dena dela, euskara normalizazio-prozesuan egonik, ez da harritzekoa UF batzuen aurrean hiztun guztiek sentipen berbera ez izatea. Esate baterako, kontraesan gehien sortu dituen konbinazioa dar pasos izan da: Matxinen jatorrizko sistemak urratsak eman itzultzen zuen, eta Konbitzuleko informazioa darabilenak, berriz, pausoak eman. Euskarazko tradizioan urratsak egin zein pausoak eman erabili izan dira, urratsak emanen agerpen bakanen bat ere badagoen arren -Orotariko Euskal Hiztegiaren arabera<ref type="bibr" target="#b8">(Mitxelena, 1987)</ref>, hegoaldeko autore moderno batzuen testuetan-. Gaur egungo testuetan begiratuta ere, lehen biak dira usuen agertzen direnak, baina hirugarrena ere nahiko sarri errepikatzen da.Beraz, ez da harritzekoa adituek pausoak eman aukeratu izana, baina ezta beste hiztun batzuei urratsak eman normal-normala iruditzea ere. Horrelakoetan ere hobekuntza badagoela uste dugu guk, nahiz eta hiztun guztientzat begi-bistakoa ez izan. Beraz, oro har, sistema hobetu dela ulertu dugu honako kasuotan: hiru ebaluatzaileek sistema berriaren alde egin dutenean, bik berriaren alde egin eta hirugarrenak bi sistemak berdintzat jo dituenean, eta A eta B ebaluatzaileek sistema berriaren alde egin eta kontraesana C ebaluatzaileak sortu duenean. Horiek guztiak batuta, hobekuntza osoa % 78,6koa dela ondorioztatu daiteke eskuzko ebaluaziotik. 5 Ondorioak eta etorkizuneko lanak Matxin itzultzaile automatikoak oso era sinplean tratatzen ditu UFak, eta horrek oso itzulpen traketsak sorrarazten dizkio sarri. Lan honetan, aditza+izena motako UFak automatikoki itzultzean sortzen diren zailtasunak aztertu ditugu, eta zailtasun horiei aurre egiteko metodo bat proposatu dugu. Batetik, gaztelaniazko UFak identifikatzen laguntzeko, haien malgutasun morfosintaktikoa aztertu eta hainbat datu sartu ditugu sisteman: numeroa eta determinatzaileak zenbateraino diren aldakorrak, izensintagman modifikatzailerik sar ote daitekeen, etab. Bestetik, identifikatutako UFak euskarara ekartzeko, bi eratako informazioari begiratu diogu: lexikalari eta gramatikalari. Aztertutako datuak Matxinentzat lagungarriak ote ziren jakiteko, 92 UFri buruzko informazioa sartu dugu sisteman, eta 1.991 esaldiko corpusa itzuliarazi diogu. Metrika automatikoek zein eskuzko ebaluazioak argi erakutsi dute Matxinen itzulpenak hobetu egiten direla UFei buruzko informazio linguistikoa gehitzean: BLEUn lortutako marka % 3,02 igotzen da, eta giza ebaluatzaileen lanetik ondorioztatu daiteke hobekuntza % 78,6koa izan dela. Aurrera begira, Konbitzul datu-basea elikatzen jarraitzea da gure asmo nagusia. Horretarako, UFak bereziki lantzen dituzten baliabideak eta corpus paraleloak ustiatuko ditugu, eta eskuz egin dugun azterketa linguistikoa era erdi-automatikoan egin ote daitekeen ere ikertuko dugu. Bestalde, interesgarria litzateke informazio semantikoa sakonago aztertzea ere, orain arte ezaugarri morfosintaktikoei eman baitiegu garrantzia batik bat. Erreferentziak Aduriz, Itziar, Eneko Agirre, Izaskun Aldezabal, Xabier Arregi, Jose Mari Arriola, Xabier Artola, Koldo Gojenola, Montse Maritxalar, Kepa Sarasola, eta Miriam Urkia. 1999. MORFEUS: Euskararako analizatzaile morfosintaktikoa. Barne-txostena, UPV/EHU/LSI/TR. Alonso Ramos, Margarita. 2006. Glosas para las colocaciones en el diccionario de colocaciones del español. Diccionario y Fraseología. ed. by M. Alonso Ramos 59-88.</figDesc><table><row><cell>Sistema</cell><cell>A</cell><cell>B</cell><cell>C</cell></row><row><cell cols="4">Matxin-UF hobea 77,50% 77,50% 46,50%</cell></row><row><cell>Matxin hobea</cell><cell>8%</cell><cell cols="2">6,50% 40,50%</cell></row><row><cell>Maila berekoak</cell><cell>14,50%</cell><cell>16%</cell><cell>13%</cell></row><row><cell cols="4">2 Taula: Eskuzko ebaluazioaren emaitzak, anotatzailearen arabera</cell></row><row><cell cols="4">agerikoak hizkuntza-ikasketa bereziturik ez duten hiztunentzat. Izan ere, esaldi guztien % 43,52k kon-</cell></row><row><cell cols="4">traesanak sortu dituzte hiru ebaluatzaileen artean, baina horietako % 78,57tan C anotatzailea izan da</cell></row><row><cell cols="3">esaldia desberdin ebaluatu duena, esaldi guztien % 33tan, alegia.</cell><cell></cell></row><row><cell cols="4">). BLEUn oinarrituta dago, baina beste ezaugarri bat ere hartzen du</cell></row><row><cell cols="4">kontuan: ebaluatzen dituen hitz multzoen maiztasuna. Hitz multzo jakin bat zenbat eta arraroagoa</cell></row><row><cell cols="4">izan ereduzko corpusean, sistemaren itzulpena zuzena bada, orduan eta pisu handiagoa ematen dio,</cell></row><row><cell cols="4">eta alderantziz -zenbat eta ohikoagoa izan, orduan eta pisu txikiagoa-.</cell></row><row><cell cols="4">• TER (Snover et al., 2006). Metrika honek ere sistemaren emaitzak ereduzko itzulpenekin aldera-</cell></row><row><cell cols="4">tzen ditu, baina beste era batera egiten ditu kalkuluak: itzulpen automatikotik eskuzkora iristeko</cell></row><row><cell cols="4">egin beharreko moldaketa-kopuruaren arabera. Hortaz, BLEUn eta NISTen ez bezala, zenbat eta</cell></row><row><cell cols="4">txikiagoa izan TERen balioa, itzulpen automatikoaren kalitatea orduan eta hobea dela esan nahi du.</cell></row><row><cell cols="4">Hiru ebaluazio-metriken emaitzak hobetzen dira UFei buruzko informazioa sisteman gehitu ondoren</cell></row><row><cell cols="4">(ikus 1. taula), baina BLEU neurriak erakusten du alderik handiena bi sistemen artean, % 3,02koa (0,22</cell></row><row><cell>puntu).</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Sistema</cell><cell cols="3">BLEU NIST TER</cell></row><row><cell>Matxin-UF</cell><cell>7,50</cell><cell>3,90</cell><cell>84,27</cell></row><row><cell>Matxin</cell><cell>7,28</cell><cell>3,88</cell><cell>84,36</cell></row><row><cell cols="4">1 Taula: BLEU, NIST eta TER emaitzak, Matxinen UFei buruzko ezagutza gehituta eta gehitu gabe</cell></row><row><cell cols="4">Dena dela, kontuan hartu behar da erabili dugun corpusa esperimentu honetarako sortu dugula espres-</cell></row><row><cell cols="4">ki, landutako konbinazioen itzulpena aztertzeko. Corpus orokor handiago bat erabiliko bagenu, 92 UFek</cell></row><row><cell cols="4">askoz ere agerpen gutxiago izango lituzkete, eta, ziur asko, metrika automatikoetan lortutako hobekuntza</cell></row><row><cell cols="2">oso txikia -ia hautemanezina-izango litzateke.</cell><cell></cell><cell></cell></row><row><cell>4.3.2 Eskuzko ebaluazioa</cell><cell></cell><cell></cell><cell></cell></row></table><note>Azkarate, Miren. 1990. Hitz elkartuak euskaraz . Deustuko Unibertsitatea, Filosofi-Letren Fakultatea.</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">Bestelakoak dira Enuntziatu Fraseologikoak (paremiak eta errutinazko formulak), esaldi osoak eratzen baitituzte<ref type="bibr" target="#b17">(Urizar, 2012)</ref>: zozoak beleari, ipurbeltz; egun on; zer moduz?...2 Aditz arindun konbinazioak, oro har, kolokazioen azpimultzotzat jotzen dira<ref type="bibr" target="#b2">(Gurrutxaga, 2015)</ref>, baina bada lokuziotzat hartzen dituenik ere<ref type="bibr" target="#b17">(Urizar, 2012)</ref>.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">Hizkuntzalaritza konputazionalean, sintaxi mailako hitz-multzoei chunk deitzen zaie; sintagmen antzekoak dira.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">http://ixa2.si.ehu.eus/konbitzul 5 Aditza+izena konbinazioak bereziki malguak izaten dira, eta ez dugu guztiz finkoa denik aurkitu landu ditugunen artean.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Oxford Collocations Dictionary: for students of English</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Margaret</forename><surname>Deuter</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>Oxford University Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Automatic evaluation of machine translation quality using n-gram cooccurrence statistics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">George</forename><surname>Doddington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the second international conference on Human Language Technology Research</title>
+		<meeting>the second international conference on Human Language Technology Research</meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann Publishers Inc</publisher>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="138" to="145" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Idiomatikotasunaren karakterizazio automatikoa: izena+aditza konbinazioak . Doktorego-tesia, Informatika Fakultatea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Antton</forename><surname>Gurrutxaga</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<pubPlace>UPV/EHU, Donostia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Rule-based translation of spanish verb+noun combinations into basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Uxoa</forename><surname>Iñurrieta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Itziar</forename><surname>Aduriz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 13th Workshop on Multiword Expressions</title>
+		<meeting>the 13th Workshop on Multiword Expressions</meeting>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>Arantza Díaz de Ilarraza, Gorka Labaka, eta Kepa Sarasola</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Izen+aditz konbinazioen itzulpenaz eta tratamendu konputazionalaz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">--</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Itziar</forename><surname>Aduriz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="237" to="249" />
+			<pubPlace>Senez</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Arantza Díaz de Ilarraza, Gorka Labaka, eta Kepa Sarasola</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Using linguistic data for english and spanish verb-noun combination identification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">--</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arantza</forename><surname>Díaz De Ilarraza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gorka</forename><surname>Labaka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kepa</forename><surname>Sarasola</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Itziar</forename><surname>Aduriz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Eta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Carroll</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The 26th International Conference on Computational Linguistics (COLING 2016): Technical Papers</title>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="857" to="867" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Gorka Díaz de Ilarraza, Arantza adn Labaka, Mikel Lersundi, eta Kepa Sarasola. 2009. Matxin, euskararako lehenengo itzultzaile automatikoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ray</forename><forename type="middle">;</forename><surname>Jackendoff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Mayor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñaki</forename><surname>Aingeru</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Alegria</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>MIT Press</publisher>
+			<biblScope unit="page">37</biblScope>
+			<pubPlace>Cambridge; Senez</pubPlace>
+		</imprint>
+	</monogr>
+	<note>The Architecture of the Language Faculty</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Igor</forename><surname>Melcuk</surname></persName>
+		</author>
+		<title level="m">Phrasemes in language and phraseology in linguistics. Idioms: Structural and psychological perspectives</title>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="167" to="232" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Orotariko euskal hiztegia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Freeling 3.0: Towards wider multilinguality</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lluís</forename><surname>Padró</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Evgeny</forename><surname>Eta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Stanilovsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 8th International Conference on Language Resources and Evaluation (LREC 2012</title>
+		<meeting>the 8th International Conference on Language Resources and Evaluation (LREC 2012</meeting>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="page" from="2473" to="2479" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">BLEU: a method for automatic evaluation of machine translation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kishore</forename><surname>Papineni</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Salim</forename><surname>Roukos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Todd</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wei-Jing</forename><surname>Zhug</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics</title>
+		<meeting>the 40th Annual Meeting of the Association for Computational Linguistics</meeting>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="311" to="318" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Manual de fraseología española</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Corpas</forename><surname>Pastor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Multiword Expressions Acquisition</title>
+		<meeting><address><addrLine>Madrid. Ramisch, Carlos</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Izen+ egin predikatuak euskaraz. Euskal gramatikari eta literaturari buruzko ikerketak XXI. mendearen atarian</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sonya</forename><surname>Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Fernando García</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Murga</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="417" to="436" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Multiword expressions: A pain in the neck for nlp</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ivan</forename><forename type="middle">A</forename><surname>Sag</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Timothy</forename><surname>Baldwin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francis</forename><surname>Bond</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ann</forename><surname>Copestake</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dan</forename><surname>Eta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Flickinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Intelligent Text Processing and Computational Linguistics</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="1" to="15" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Unitate Fraseologikoen itzulpena: alemana-euskara. Doktorego-tesia, Letren Fakultatea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zuriñe</forename><surname>Sanz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<pubPlace>UPV/EHU, Gasteiz</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">On collocations and their interaction with parsing and translation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Violeta</forename><surname>Seretan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Informatics</title>
+		<imprint>
+			<publisher>Multidisciplinary Digital Publishing Institute</publisher>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="11" to="31" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A study of translation edit rate with targeted human annotation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><surname>Snover</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bonnie</forename><surname>Dorr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Linnea</forename><surname>Micciulla</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Eta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Makhoul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of association for machine translation in the Americas</title>
+		<meeting>association for machine translation in the Americas</meeting>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="volume">200</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Euskal lokuzioen tratamendu konputazionala. Doktorego-tesia, Informatika Fakultatea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ruben</forename><surname>Urizar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+			<pubPlace>UPV/EHU, Donostia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Collocations in a rule-based mt system: A case study evaluation of their translation adequacy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><surname>Wehrli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Violeta</forename><surname>Seretan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luka</forename><surname>Nerima</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lorenza</forename><surname>Eta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Russo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Los predicados complejos en vasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Igone</forename><surname>Zabala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Las fronteras de la composición en lenguas románicas y en vasco</title>
+		<imprint>
+			<publisher>Deustuko Unibertsitatea</publisher>
+			<date type="published" when="2004" />
+			<biblScope unit="page" from="publikazio" to="zerbitzua" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eskerrak</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+				<idno>TIN2013-46616-C2-1-R) eta TADEEP (TIN2015-70214-P</idno>
+		<title level="m">SKATeR (TIN2012-38584-C06-02), EXTRECM</title>
+		<imprint/>
+		<respStmt>
+			<orgName>Lan hau Ekonomia eta Lehiakortasun Ministerioak Uxoa Iñurrietari emandako diru-laguntza bati esker egin dugu</orgName>
+		</respStmt>
+	</monogr>
+	<note>proiektuen barruan</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
