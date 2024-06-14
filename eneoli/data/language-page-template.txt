@@ -73,16 +73,16 @@ where {
 PREFIX enwb: <https://eneoli.wikibase.cloud/entity/>
 PREFIX endp: <https://eneoli.wikibase.cloud/prop/direct/>
 
-select ?lexical_entry ?lemma ?sense ?sense_gloss ?concept ?conceptLabel (iri(concat(str(wd:),?wd)) as ?wikidata)
+select ?lexical_entry ?lemma ?posLabel ?sense ?sense_gloss ?concept ?conceptLabel (iri(concat(str(wd:),?wd)) as ?wikidata)
 
 where {
-  ?lexical_entry a ontolex:LexicalEntry; dct:language enwb:@wikibase_item; wikibase:lemma ?lemma; ontolex:sense ?sense.
+  ?lexical_entry a ontolex:LexicalEntry; dct:language enwb:@wikibase_item; wikibase:lemma ?lemma; wikibase:lexicalCategory ?pos; ontolex:sense ?sense.
   optional {?sense endp:P12 ?concept. optional {?sense skos:definition ?sense_gloss.}
   optional {?concept endp:P1 ?wd.}
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en,fr". }}
   }
 </sparql>
 
-''This page will be updated automatically, don't edit it (last edited on June 14, 2024).
+''This page will be updated automatically, don't edit it (last edited on June 14, 2024).''
 
-For discussion in the group working on this language, you may use [[Talk:NeoVoc/language/@langwikicode]].''
+''For discussion in the group working on this language, you may use [[Talk:NeoVoc/language/@langwikicode]].''
