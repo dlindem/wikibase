@@ -1,0 +1,65 @@
+{
+  "lemmas": {
+    "fr": {
+      "language": "fr",
+      "value": "agglutination"
+    }
+  },
+  "language": "Q98",
+  "forms": [],
+  "senses": [
+    {
+      "glosses": {
+        "fr": {
+          "language": "fr",
+          "value": "fusion en une seule unit\u00e9 de deux ou plusieurs morph\u00e8mes originairement distincts"
+        }
+      },
+      "claims": {
+        "P12": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12",
+              "datatype": "wikibase-item",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1108,
+                  "id": "Q1108"
+                },
+                "type": "wikibase-entityid"
+              }
+            },
+            "type": "statement",
+            "rank": "normal"
+          }
+        ]
+      },
+      "add": ""
+    }
+  ],
+  "type": "lexeme",
+  "claims": {
+    "P5": [
+      {
+        "mainsnak": {
+          "snaktype": "value",
+          "property": "P5",
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "value": {
+              "entity-type": "item",
+              "numeric-id": 13,
+              "id": "Q13"
+            },
+            "type": "wikibase-entityid"
+          }
+        },
+        "type": "statement",
+        "rank": "normal"
+      }
+    ]
+  },
+  "lexicalCategory": "Q20"
+}
