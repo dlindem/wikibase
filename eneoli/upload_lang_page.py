@@ -16,7 +16,7 @@ def get_token():
 	# get token
 	csrfquery = site.api('query', meta='tokens')
 	token = csrfquery['query']['tokens']['csrftoken']
-	print("Got fresh CSRF token for lexbib.elex.is.")
+	print("Got fresh CSRF token for eneoli wikibase.")
 	return token
 token = get_token()
 

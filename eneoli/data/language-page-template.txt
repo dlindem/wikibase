@@ -1,19 +1,21 @@
 = NeoVoc for @langname =
 == Workflow steps ==
-=== Concepts Multilingual equivalents ===
-We create concepts starting from terms that we collect in French or English (i.e., results of ENEOLI WG1 Task 1). That is, entities describing concepts will have only French or English equivalents in the beginning. In order to ease the manual provision of equivalents in more languages, and in order to get drafted concept glosses (=very short definitions, just for word sense discrimination), we get what is there for the concept on Wikidata.
+=== Concepts and multilingual equivalents ===
+The list of terms in French (i.e., results of ENEOLI WG1 Task 1.1) has been uploaded to Wikibase. For each of these terms, we create a new concept entity. That is, entities describing concepts will have only French equivalents in the beginning. In order to ease the manual provision of equivalents (an equivalent is a term in another language representing the same concept) in more languages, and to get drafted glosses (glosses are very short sense definitions, used for a human user to discriminate word senses)), we automatically import what is there for the concept on Wikidata.
 
-First goal is the validate all concept labels that have been imported for your language from Wikidata. For this, Use the second query, and see a list of concept entries that contain a warning attached to the label of your language. Click on the ID of the entry (first column), and decide:
-* If the imported label is fine, remove the warning (click "edit" next to the "equivalent" in your language, and send the "warning" qualifier to the trash, and save).
-* If the imported label is to be replaced, replace it by clicking "edit" next to the "equivalent" in your language, and correct the label. Also, send the Wikidata warning to the trash before saving.
-* If, in addition to a drafted equivalent, you find a gloss (short description) in the upper "description" section, please review also that. If you regard it unappropriate, please edit it; you can provide a gloss if there is nothing, if you want (you are encouraged to do so, but the labels are more important than the glosses).
-* From time to time, the label in the upper part of the entry ("labels" section) will be updated according to what you enter as "equivalent" in your language in the "statements" section. That means, you don't have to edit the equivalent manually in both places; ''the "equivalent" in the "statements" section is the one we will use.''
+The first goal is to validate all multilingual equivalents that have been imported for @langname from Wikidata. For this, use the second query on this page, and see a list of entries that contain a warning attached to the label of @langname. Click on the ID of the entry (first column), and decide:
+* If the imported equivalent is fine, remove the warning (click "edit" next to the equivalent in @langname, send the "warning" qualifier to the trash, and save).
+* If the imported equivalent is to be replaced, replace it by clicking "edit" next to the "equivalent" in @langname, and correct the label. Also, send the Wikidata warning to the trash before saving.
+* If, in addition to a drafted equivalent, you find a gloss (short description) in the upper "description" section, please review also that. If you regard it as inappropriate, please edit it; you can provide a gloss if there is nothing if you want (you are encouraged to do so, but the equivalents are more important than the glosses).
+* From time to time, the label in the upper part of the entry ("labels" section) will be updated according to what you enter as "equivalent" in @langname in the "statements" section. That means you don't have to edit the equivalent manually in both places; the "equivalent" in the "statements" section is the one we will use. The reason why we have to enter new equivalents in the “statements” section (instead of simply adding labels in the “labels” section) is that we want to make statements about these equivalents (for example, where we have found the equivalent).
 
-Second goal will be to provide missing equivalents in your language. For this, use the first query. The first lines are those that are still not defined. To define an equivalent, enter the entry page by clicking on the ID in the first row, and click on "add value" in the "equivalents" property section.
+The second goal will be to provide missing equivalents in @langname. For this, use the first query on this page. The first lines are those that are still not defined. To define an equivalent, enter the entry page by clicking on the ID in the first column, and click on "add value" in the “statements" section, where values for the “equivalents" property are listed (e.g., for example at https://eneoli.wikibase.cloud/wiki/Item:Q1083#P57) .
 === Linguistic description (lexicographical view) ===
-For concept labels in your language where you have removed the warning, or where you have provided an equivalent in the "statements" section of the concept entity page, we will create a dictionary entry. The linguistic discription of the term will go there.
+For concept equivalents in @langname where you have removed the warning, or where you have provided an equivalent in the "statements" section of the entity page, we will create a dictionary entry. The linguistic description of the term will go there.
 * We will soon decide on the type of information to be collected in each term's dictionary entry.
-
+* The meta-terminology used for this task might be unusual for terminologists and/or lexicographers; for obvious reasons, we tend to call things how they are called on a Wikibase. May this very short glossary be helpful:
+** “concept entry”: On a Wikibase, an entity URI starting with “Q” describes an ontological concept (an entry in a concept-centered termbase), which is “labelled” with one preferred label and several “alternative” labels. Wikibase labels are not supposed to be terms, at least not on Wikidata; they are strings that users might want to enter in a search when trying to find the concept entry. That allows fuzzyness and redundancy. We enter our exact and validated terms (the multilingual equivalents that denote the concept we have in front of us) in the “statements” section, where we can further describe them.
+** “lexeme entry”: On a Wikibase, lexical dictionary-like entries (lemma-centered entries that offer a linguistic description) are by default modelled according to Ontolex-Lemon. Their URI starts with an “L”. Each Lexeme entity has “Sense” and “Form” subentities; these are displayed on the same entity page (e.g. https://eneoli.wikibase.cloud/wiki/Lexeme:L1). The “sense” section lists dictionary senses, the “forms” section lists (inflected) word forms together with a morphological description of the form (on Wikibase called “grammatical features”, like genitive, plural, etc.). Lexeme entries do not have labels, they have lemmata associated to language codes instead (they can have more than one, look at https://www.wikidata.org/wiki/Lexeme:L791). The further linguistic description of the lexeme consists in statements attached at the appropriate level (entry, sense, form). Most important for us is that dictionary senses will be linked to ontology items. This link in Ontolex is referred to as ontolex:reference, on Wikidata as http://www.wikidata.org/entity/P5137, and on our Wikibase as https://eneoli.wikibase.cloud/entity/P12 (“concept for this sense”). This is what links lexical entries to concept entries; exploiting that link, data involving concept entries and lexical entries can be brought together.
 == See the content of NeoVoc for @langname ==
 === All NeoVoc concept entries ===
 <sparql tryit="1">
@@ -25,22 +27,22 @@ PREFIX enp: <https://eneoli.wikibase.cloud/prop/>
 PREFIX enps: <https://eneoli.wikibase.cloud/prop/statement/>
 PREFIX enpq: <https://eneoli.wikibase.cloud/prop/qualifier/>
 
-select ?concept ?label_mylang ?warning ?descript_mylang (iri(concat(str(wd:),?wd)) as ?wikidata) ?label_en ?descript_en ?label_fr ?descript_fr
+select ?concept ?equiv_mylang ?warning ?descript_mylang (iri(concat(str(wd:),?wd)) as ?wikidata) ?label_en ?descript_en ?label_fr ?descript_fr
 
 where {
   ?concept endp:P5 enwb:Q12. # instances of "NeoVoc Concept"
   optional {?concept endp:P1 ?wd.}
   optional {?concept rdfs:label ?label_en. filter(lang(?label_en)="en")}
   optional {?concept rdfs:label ?label_fr. filter(lang(?label_fr)="fr")}
-  optional {?concept enp:P57 ?label_st. ?label_st enps:P57 ?label_mylang. filter(lang(?label_mylang)="@langwikicode")
-           optional {?label_st enpq:P58 ?warning.}}
+  optional {?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)="@langwikicode")
+           optional {?equiv_st enpq:P58 ?warning.}}
   optional {?concept schema:description ?descript_en. filter(lang(?descript_en)="en")}
   optional {?concept schema:description ?descript_fr. filter(lang(?descript_fr)="fr")}
   optional {?concept schema:description ?descript_mylang. filter(lang(?descript_mylang)="@langwikicode")}
 
-} order by lcase(?label_mylang)
+} order by lcase(?equiv_mylang)
 </sparql>
-=== NeoVoc entries with labels for @langname that still have warnings ===
+=== NeoVoc entries with equivalents for @langname that still have warnings ===
 <sparql tryit="1">
 #title: NeoVoc concepts with warnings on @langname labels.
 
@@ -50,20 +52,45 @@ PREFIX enp: <https://eneoli.wikibase.cloud/prop/>
 PREFIX enps: <https://eneoli.wikibase.cloud/prop/statement/>
 PREFIX enpq: <https://eneoli.wikibase.cloud/prop/qualifier/>
 
-select ?concept ?label_mylang ?warning ?descript_mylang (iri(concat(str(wd:),?wd)) as ?wikidata) ?label_en ?descript_en ?label_fr ?descript_fr
+select ?concept ?equiv_mylang ?warning ?descript_mylang (iri(concat(str(wd:),?wd)) as ?wikidata) ?label_en ?descript_en ?label_fr ?descript_fr
 
 where {
   ?concept endp:P5 enwb:Q12. # instances of "NeoVoc Concept"
   optional {?concept endp:P1 ?wd.}
   optional {?concept rdfs:label ?label_en. filter(lang(?label_en)="en")}
   optional {?concept rdfs:label ?label_fr. filter(lang(?label_fr)="fr")}
-  ?concept enp:P57 ?label_st. ?label_st enps:P57 ?label_mylang. filter(lang(?label_mylang)="@langwikicode")
-           optional {?label_st enpq:P58 ?warning.}
+  ?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)="@langwikicode")
+           ?equiv_st enpq:P58 ?warning.
   optional {?concept schema:description ?descript_en. filter(lang(?descript_en)="en")}
   optional {?concept schema:description ?descript_fr. filter(lang(?descript_fr)="fr")}
   optional {?concept schema:description ?descript_mylang. filter(lang(?descript_mylang)="@langwikicode")}
 
-} order by lcase(?label_mylang)
+} order by lcase(?equiv_mylang)
+</sparql>
+=== Only those NeoVoc entries with equivalents in @langname (without warnings) ===
+<sparql tryit="1">
+#title: NeoVoc concepts validated @langname equivalents.
+
+PREFIX enwb: <https://eneoli.wikibase.cloud/entity/>
+PREFIX endp: <https://eneoli.wikibase.cloud/prop/direct/>
+PREFIX enp: <https://eneoli.wikibase.cloud/prop/>
+PREFIX enps: <https://eneoli.wikibase.cloud/prop/statement/>
+PREFIX enpq: <https://eneoli.wikibase.cloud/prop/qualifier/>
+
+select ?concept ?equiv_mylang ?descript_mylang (iri(concat(str(wd:),?wd)) as ?wikidata) ?label_en ?descript_en ?label_fr ?descript_fr
+
+where {
+  ?concept endp:P5 enwb:Q12. # instances of "NeoVoc Concept"
+  optional {?concept endp:P1 ?wd.}
+  optional {?concept rdfs:label ?label_en. filter(lang(?label_en)="en")}
+  optional {?concept rdfs:label ?label_fr. filter(lang(?label_fr)="fr")}
+  ?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)="@langwikicode")
+           filter not exists {?equiv_st enpq:P58 ?warning.}
+  optional {?concept schema:description ?descript_en. filter(lang(?descript_en)="en")}
+  optional {?concept schema:description ?descript_fr. filter(lang(?descript_fr)="fr")}
+  optional {?concept schema:description ?descript_mylang. filter(lang(?descript_mylang)="@langwikicode")}
+
+} order by lcase(?equiv_mylang)
 </sparql>
 === NeoVoc lexical entries in @langname ===
 * We will create these after providing equivalents in the concept entries
@@ -79,10 +106,10 @@ where {
   ?lexical_entry a ontolex:LexicalEntry; dct:language enwb:@wikibase_item; wikibase:lemma ?lemma; wikibase:lexicalCategory ?pos; ontolex:sense ?sense.
   optional {?sense endp:P12 ?concept. optional {?sense skos:definition ?sense_gloss.}
   optional {?concept endp:P1 ?wd.}
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en,fr". }}
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "@langwikicode,en,fr". }}
   }
 </sparql>
 
-''This page will be updated automatically, don't edit it (last edited on June 14, 2024).''
+''This page will be updated automatically, don't edit it (last edited on July 13, 2024).''
 
-''For discussion in the group working on this language, you may use [[Talk:NeoVoc/language/@langwikicode]].''
+''For discussion in the group working on @langname, you may use this page: [[Talk:NeoVoc/language/@langwikicode]].''
