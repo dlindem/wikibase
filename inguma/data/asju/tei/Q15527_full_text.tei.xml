@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ANUARIO DEL SEMINARIO DE FILOLOGÍA VASCA «JULIO DE URQUIJO» International Journal of Basque Linguistics and Philology Herskarien ustezko ahoskabetasun asimilazioa 1 eta euskal herskari zaharren gauzatzea* The alleged voicelessness assimilation and the realization of Old Basque stops</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2018">2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ander</forename><surname>Egurtzegi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Studia Philologica et Diachronica in honorem Joakin Gorrotxategi Vasconica et Aquitanica Joseba A. Lakarra -Blanca Urgell</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Unibertsitatea -IPS-LMU</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">ANUARIO DEL SEMINARIO DE FILOLOGÍA VASCA «JULIO DE URQUIJO» International Journal of Basque Linguistics and Philology Herskarien ustezko ahoskabetasun asimilazioa 1 eta euskal herskari zaharren gauzatzea* The alleged voicelessness assimilation and the realization of Old Basque stops</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="page" from="189" to="206"/>
+							<date type="published" when="2018">2018</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1387/asju.20198</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:21+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Proto-Basque</term>
+					<term>stops</term>
+					<term>laryngeal features</term>
+					<term>assimilation</term>
+					<term>metathesis</term>
+					<term>aspiration</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In Basque, a sequence of an onset voiced stop followed by an onset (aspirated) voiceless stop in the next syllable is resolved with devoicing of the first of these stops. This typologically uncommon sound pattern has been described as assimilation of voicelessness, but I propose that it affects aspiration instead. This approach accounts for the distribution of the aspirated stops as well as for the blocking contexts, and gives rise to new questions regarding the realization of old Basque stops. The modern Basque stop opposition is usually described as voiced vs. plain voiceless. Nevertheless, most authors reconstruct a different system. In this paper, I reconstruct two series of stops: a voiceless aspirated series (specified for [spread glottis]) and an unaspirated series (laryngeally neutral) that is realized as unaspirated voiceless stops word initially and passively voiced stops in medial position.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena</head><p>Euskaraz, herskari ahoskabe (hasperendun) batek jarraituriko herskari ahostun bat horren eraginez ahoskabetu daiteke. Tipologikoki arraroa den aldaketa hau ahoskabetasunaren asimilazio bezala deskribatua izan da. Honakoan, aldaketaren oinarria hasperenketan dagoela proposatzen dut. Analisi honek, aurrekoek ez bezala, herskarien hasperenketaren kokapen aldaketaren eta hots aldaketa galarazi zuten testuinguruen berri ematen du eta euskal herskari zaharren inguruko galdera berriak sortzen ditu. Herskarien egungo oposizioa ahostun vs. ahoskabe bezala deskribatzen dugu. Hala ere, autore * Eskerrik hoberenak zor zaizkio Joseba Lakarrari lan honen lehen bertsioari egindako zuzenketengatik. Geratu diren akats guztiak nireak dira. Ikerketa hau MINECO (FFI2016-76032-P; FFI2015-63981-C3-2), Eusko Jaurlaritza (IT769/13) eta Alexander von Humboldt fundazioaren finantziazioarekin burutu da.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Hitz gakoak: aitzineuskara, herskariak, ezaugarri laringalak, asimilazioa, metatesia, hasperenketa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sarrera</head><p>Liburu honetan parte hartu dugun askok irakasle izan genuen Joakin Gorrotxategiri eskainitako lan labur honetan euskararen fonologia historikoan behin eta berriro ukitu izan den gai bat landuko dut nik ere: euskal herskarien arteko oposaketa. <ref type="bibr">Martinetek (1950</ref><ref type="bibr">Martinetek ( [1964</ref>) lehendabizi eta <ref type="bibr">Mitxelenak (1957</ref><ref type="bibr">Mitxelenak ( [2011</ref><ref type="bibr">Mitxelenak ( ], 1977</ref><ref type="bibr">Mitxelenak ( [2011</ref>) gero fortis vs. lenis bezala definitu zuten oposaketa hura ondorengo zenbait autorek modu ezberdinean analizatu zuten <ref type="bibr" target="#b51">(Trask 1985</ref><ref type="bibr" target="#b19">, Hualde 1997</ref><ref type="bibr" target="#b15">, 1999</ref>, nahiz eta Traskek gero atzera egin zuen <ref type="bibr">(1997)</ref>. Honetan, euskal herskari zaharren izaera hobeto zehaztera eraman dezaketen zenbait ohar ekarri nahi nituzke, besteren edota nire hurrengo lanen batean zabalago lantzeko aukera irekia utziaz.</p><p>Lantxo hau herskari zaharren inguruan ditudan ideiak garatzen lagundu ninduen prozesuari buruz hitz eginaz hasiko dut, herskarien ustezko ahoskabetasun asimilazioari buruz, hain zuzen. Ondoren, <ref type="bibr">Martinet, Mitxelena eta</ref> Lakarraren herskarien inguruko ekarpenak nire hipotesira hurbilduko ditut, Joakin Gorrotxategik <ref type="bibr">(1984, etab.)</ref> inork baino gehiago landu duen akitaniera labur ukitzearekin batera.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hizkuntzalaritzaren adarren garapena: tipologia eta fonetika fonologia diakronikoan</head><p>Euskarak zenbait hots-eredu bitxi ditu. Batzuk egiazki bitxiak dira, beste zenbait lehendabiziko aldiz ikertu zirenean antzeko prozesuen berri ez genuelako ziren bitxi, nahiz eta orain, hizkuntzalaritzaren garapena medio, ezagunago egiten zaizkigun. Honen adibide argiena, *n &gt; /h/ bilakabidea da. Mitxelenak <ref type="bibr">(1950 [2011]</ref>) prozesu hau lehendabiziko aldiz proposatu zuenean, ez zuen proposamen honen aldeko paralelo tipologikorik ezagutzen. Hala ere, berreraiketaren metodologia klasikoa lagun, bere garaikideen (eta ondorengo batzuen, cf. Trask 1997) iritziaren kontra proposamen hori egiteko ausardia izan zuen, garaian *n &gt; /h/ bezala proposatu bazuen ere. Urteak pasa dira, eta orduan pentsaezina zen prozesu horrek orain berari buruzko artikulu ugari dauzka, hari espezifikoki dagokion izen kurioso bat (rhinoglottophilia hain zuzen ere, cf. <ref type="bibr">Matisoff 1976)</ref>, eta beste zenbait hizkuntzatan ere antzerako hotseredu paraleloak ezagutzen ditugu <ref type="bibr">(cf. Blevins 2004;</ref><ref type="bibr">Igartua 2009</ref><ref type="bibr">Igartua , 2015</ref><ref type="bibr" target="#b11">Egurtzegi 2014)</ref>. Gaur egun agian esan genezake, euskara beraren kasuari buruz Mitxelenak zioen bezala, egiazki arraroa dena ez litzatekeela *n &gt; /h/ prozesua izango, baizik eta / h/ berak egun arte iraun izana: /h/ eta /h/-ren arteko oposaketa argia munduko beste ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 189-206 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20198 bi hizkuntzatan baino ez da dokumentatzen, beste bitan dagokion hizkuntzaren oposaketa fonologikoen analisi posible bat den bitartean <ref type="bibr">(Egurtzegi 2018)</ref>. Beste kasu zenbaitetan, euskararen hots-eredu bitxiak gure zain gelditzen dira, azalpen hobe bat noiz etorriko. Nahiz eta autore askok gaia landu duten, zubereraren u-aitzineratzearen testuinguru fonologikoaren parte diren segmentuak batzen dituen eta aitzineratzea blokeatzeko arrazoiren bat ematen duen azalpenik ez da luzaroan proposatu. Aurreko lan batean <ref type="bibr">(Egurtzegi 2017)</ref>, arazo honentzako azalpen posible bat fonetikan aurkitu genuen, aurretik etorritako autoreek baliaturiko fonologiak ez baitzuen konponbide errazik eskaintzen. Hots-eredu jakin honentzako, aitzineratzea eragozten duten /ɾ, s̺ , ʦ̺ , rt h , rt, rd/ segmentuen ahoskerak eskatzen dituen mihi-puntaren mugimendu zehatzak ebakitzeko mihiaren gorputzaren atzekaldeko kokapen bat (/u/-ren eremuan, alegia) beharrezkoa dela proposatu genuen. Hipotesi honek ez ditu bakarrik ustez horren ezberdinak diren testuinguruak bateratzen, testuinguru hauek koartikulazioaren bitartez aitzineratzea zergatik eragoz dezaketen proposatzen du, segmentu hauek mihi puntaren mugimendu finen bidez ebakitzeko mihiaren atzekaldea /u/-ren (eta, ondorioz, ez /y/-ren) eremuan kokatu behar den heinean.</p><p>Saio honetan aurkeztuko dudan proposamena bi joera hauen ildotik doa: arrazoibide fonologikoen bitartez lortutako guztiz asetzen ez gaituen azalpen bat baino ez duen hots-eredu batentzat baliabide fonetikoen bitartez eta hizkuntz tipologiaren laguntzaz azalpen posible berri bat aurkitzea dut helburu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Euskal herskarien ustezko ahoskabetasun asimilazioa</head><p>Mitxelenak (1977) erakutsi zuen bezala, euskaraz #DV(C).T (h) V-sekuentzietan (D: herskari ahostun bat, T: herskari ahoskabe bat) aldakortasun dialektala ikus daiteke. Hizkera zenbaitetan sekuentzia hau #DV(C).T (h) V-bezala mantentzen da hitz jakin batean, baina beste hizkera batean aipatutako sekuentzia #T (h) V(C).TV-bezala ager daiteke. Bilakabide hau maileguetan (1) argi ikusten da, baina zenbait euskal hitzetan (2) ere ager daiteke:</p><p>(1) *D &gt; T (h) /_V(C).T (h) V(C) maileguetan <ref type="bibr">teka, piper, pipi, pote, pake, pekatu, kolpe, korputz, korte, parkatu, kortina, katea, kitarra, katu, kutun, kipula, katazka, katilu, kupel, etab.</ref> (2) *D &gt; T (h) /_V(C).T (h) V(C) ondare zaharreko hitzetan titi, <ref type="bibr">kalte, kolko, koipe, kalpar, kurpil, kirten, kurtu, kokotx, 12 koipe, kotor, pikor (cf. bihi)</ref>, etab.</p><p>Ustezko asimilazio hau bilakabide esporadikoa da: aurreko adibideak euskalki ezberdinetatik hartu dira, ez dira euskalki guztietan berdin agertzen. Modu berean, irudiz egitura egokia duten zenbait hitzek ez du bilakabide hau jasan, gertu edo bete kasu. Azkenik, adierazgarria dirudi adibideetan kasu gehienetan g-&gt; k-aldaketa gertatzea, nahiz eta agian ez den horren harrigarri hitz hasierako *d-&gt; l-bihurtu zela buruan izanda <ref type="bibr">(Mitxelena 1977</ref><ref type="bibr" target="#b42">(Mitxelena [2011</ref> bikotean ikus daiteke, baina ez dut beste bikote argirik ezagutzen, agian ordurako *d-&gt; l-euskal hitzetan osatua edo oso aurreratua zegoelako <ref type="bibr">(Lakarra 2006)</ref>. Nahiz eta urrutiko ahots asimilazioak batere ohikoak ez izan, kontaktuan gertaturiko kasu asko aurki daitezke literatura fonologikoan. Errusieraz (cf. <ref type="bibr" target="#b26">Jakobson 1978</ref><ref type="bibr" target="#b17">, Hayes 1984</ref>, kontaktuan dauden obstruente taldeek ahots berdina izan behar dute halabeharrez. Hau da, bata bestearen ostean dauden obstruente guztiak ahostun edo ahoskabeak izan behar dira, azken kontsonanteak aurreko obstruenteen ahotsa ezartzen duelarik. Hots-eredu hau aurrizkien gehiketaren edota hitz amaierako ahoskabetzearen ondoriozko [voice] ezaugarriaren aldaketetan ikus daiteke, (3) adibideak erakusten duen bezala.</p><p>(3) Ahots adostasuna errusieraz <ref type="bibr" target="#b26">(Jakobson 1978;</ref><ref type="bibr" target="#b47">Padgett 2012)</ref> ot-vzloma odvzlóma</p><formula xml:id="formula_0">'lapurretatik' ot-vzrýva odvzrýva 'eztanda batetik' pojezd-a pojist 'trena (gen./nom.sg.)' v j izg-a v j isk 'oihu (gen./nom.sg.)' izb-a isp 'hut (nom.sg./gen.pl.)'</formula><p>Hala ere, euskararen kasua oso bestelakoa da. Errusieraren kasuarekiko gutxienez lau ezberdintasun garrantzitsu aipa daitezke, aurrerago besteren bat aipatuko dudan arren. Hasteko, bi segmenturen arteko «asimilazio» baten antzeko bilakabide bat erakusten du euskarak, eta ez kontaktuan dauden kontsonanteen arteko ezaugarri adostasun (edo feature agreement) moduko hots-eredu bat. Bigarren, euskaraz «asimilatu» egiten diren kontsonanteen artean bokal bat dago beti, batzuetan baita beste kontsonante bat ere, errusieraz kontsonanteak kontaktuan dauden bitartean. Hirugarren, euskaraz herskariak baino ez dira «asimilatzen», beste obstruenteak ez dira modu horretan aldatzen. 23 Azkenik, errusieraz ez bezala, euskarazko bilakabidean ahoskabetasuna baino ez da «asimilatzen», ahotsa sekula ez.</p><p>Euskal bilakabidearen azken zehaztasun hau bereziki deigarri egin daiteke fonologikoki pentsatu ordez fonetikoki pentsatzen badugu: ahotsa ahots-korden bibrazio periodikoa dela gogoan badugu, eta ahoskabetasuna bibrazio periodiko horren falta bada, zelan proposa dezakegu zerbaiten gabezia asimila daitekeela? Fonologikoki ezaugarri mailan gertatutako [voice]-en hedapen baten bidez errazago azal daitekeenez, euskararen kasuan «asimilatutako» herskarien arteko kontakturik ez egoteak ezberdintasun nabaria suposatzen du. Nire uste apalean, euskararen fonologia historikoan orain arte eztabaidatu ez den proposamen honek hipotesi alternatibo bat eskatzen du, eta ezin ozenago.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hipotesi alternatiboa: hasperentasunaren metatesia</head><p>Proposamen alternatibo honen bila, bilakabide honen emaitzetan normalean aipatzen ez diren ezaugarri pare bati so egingo diegu. Alde batetik, markagarria egi-  <ref type="formula">(4)</ref>.</p><formula xml:id="formula_1">(4) DV(C).T h V(C) &gt; T h V(C).TV(C) hasperentasunaren metatesi bezala barkha(tü) &gt; pharka(tü) gorphutz &gt; khorputz gathea &gt; khatea bipher &gt; phiper</formula><p>Aurreko proposamenek alternantzia hau asimilazio bidezko lehendabiziko herskariaren ahoskabetze eta beranduagoko hasperentzea proposatuz azaltzen zuten, horren osteko bi herskarien hasperenen disimilazioarekin. Hala ere, disimilazio hau euskaraz espero ez den norantzan gertatuko litzateke (hil + herri -&gt; ilherri vs. *p h ip h er &gt; phiper, cf. Egurtzegi 2014: §4.45). Beste modu batean esanda, <ref type="bibr">Mitxelenak (1977</ref><ref type="bibr">Mitxelenak ( [2011</ref>) «ahoskabetasunaren asimilazio» honen ondorioz sorturiko TV(C)TV-tankerako hitz hauentzako murriztapen bat proposatu zuen: hitz jakin batean bi herskari ahoskabe agertzen direnean, lehendabizikoa bakarrik izan daiteke hasperendun, bi hasperen segmental hitz berean agertzen direnean lehendabizikoa galdu eta bigarrena gordetzen den bitartean.</p><p>Lan honetan, aldi berean fonetikoki ulertzeko oso zaila den eta hasperenei dagokien murriztapenetan asimetria bat sortzen duen Mitxelenaren proposamena baztertu eta hipotesi berri bat proposatu nahi nuke: lehendabiziko herskariaren hasperena bigarren herskariari zegokion etimologikoki, baina hasperentasunaren (edo VOT luzearen) ezaugarri mailako hautemate metatesi baten ondoren (cf. <ref type="bibr">Blevins &amp; Garrett 2004</ref><ref type="bibr" target="#b11">, Egurtzegi 2011</ref>) lehendabiziko herskarira igaro da bigarren herskaria hasperenik gabe uztearekin batera (cf. Egurtzegi 2014: 39, 25. oinoharra).</p><p>Hautemate metatesi <ref type="bibr">(Blevins &amp; Garrett 2004</ref><ref type="bibr" target="#b11">, Egurtzegi 2011</ref><ref type="bibr" target="#b11">, 2014</ref>2) kasu bat balitz, hiztunak /gathea/ ahoskatzerakoa [g°a̤ te̤ a] bezalako zerbait ebakiko luke, hasperena ahoskatuz baina bere kokapenean anbiguitatea sortuz. Horren antzeko produkzio bat entzutean, entzuleak [g°a̤ tea] entzutearen ondorioz hitza /k h atea/ bezala berrinterpreta lezake. Jakina, metatesiaren hipotesia ez da asimilazio + disimilazioaren hipotesitik gehiegi aldentzen, nahiz eta bi gauza hobetzen dituen hipotesi horren aldean: batetik, pausu bakarrean Mitxelenak bi pausuren bidez lortutako emaitza lortzen du eta, bestetik, /h/-ren kasuan kontrako norantzan (aurrerakari vs. atzerakari) doan disimilazio moduko murriztapena ekiditen du. Hala ere, hipotesi honen ekarpen nagusia ez da bilakabide honentzako berreraiketa ekonomikoago bat aurkitu izana, baizik eta, gorago aurreratu bezala, fonetikoki ulertzeko oso zaila den ahoskorden bibrazio gabeziaren asimilazioa baztertzea eta horren ordez bilakabide hau neurtzeko askoz errazagoa den hasperentasunaren kokapenaren berrinterpretazioan oinarritzea.</p><p>Honetaz gain, proposamen berri honen aldeko beste ezaugarri bat ekarriko dut, aurreko literaturan aipatu gabe pasa dena, dakidan heinean. Honakoa bilakabide honetan ikus daitekeen beste murriztapen bat da: txistukari batek ustezko asimilazio prozesua neurri batean eragotzi dezakeela dirudi (5). Murriztapen hau ahoskabetasunaren asimilazioaren ikuspuntutik ulertzeko oso zaila izan daitekeen bitartean, bilakabidearen abiapuntua hasperentasunean oinarriturik askoz errazago uler daiteke. Euskaraz (ingelesez bezala, esaterako), txistukarien osteko herskari ahoskabeek ez dute sekula hasperenik izaten <ref type="bibr">(Mitxelena 1977</ref><ref type="bibr" target="#b42">(Mitxelena [2011</ref>). Hemen aurkeztutako hipotesiaren arabera hasperentasuna denez bilakabide honen eragile originala, hasperenik ez duten herskariek ez dute bilakabide hau eragingo ahoskabeak izan arren. Honen beste adibide bat aditz trinkoetako hitz erdiko herskariak izan daitezke. Hauek, aditz nagusietakoak ez bezala, ez dira sekula hasperendunak eta ez dute bilakabide hau gertarazten. Hauen adibide dira dator, dakar eta dakusa bezalako aditz formak, azentuera ezberdinarengatik edo hasperenik erakusten ez dutenak (cf. ethorri, ekharri eta ikhusi) eta sekula **thator, **thakar edo **thakusa bihurtzen ez direnak. <ref type="bibr">34</ref> Ezaugarri mailako hasperenaren metatesia ez da munduko hizkuntzen artean ezezaguna. Mota ezberdinetako zenbait adibide ekarriko ditut hona. Hasperenaren berrinterpretazio sekuentziala hizkuntza ezberdin askotan testigatuta dago, bai hasperena segmentutik ezaugarrira pasa diren kasuetan eta baita, euskararen kasuan proposatu dudan bezala, herskari baten ezaugarri bat izan eta beste herskari batera mugitu izan den kasuetan. </p><formula xml:id="formula_2">(6) Pāli (Cardona &amp; Luraghi 2011) Sanskrito Pāli paścāt *pahcāt pacchā 'gero' hasta- *hahta- hattha- 'esku' skandha- *hkandha- khandha- 'sorbalda' Snāti *hnāti nhāyati 'bainatzen du'<label>(7)</label></formula><formula xml:id="formula_3">) casco [ˈkahko] → [ˈkak h o] 'kasko' caspa [ˈkahpa] → [ˈkap h a] 'zahia' pasta [ˈpahta] → [ˈpat h a] 'pasta' estaba [ehˈtaβa] → [eˈt h aβa] 'zegoen' estado [ehˈtaðo] → [eˈt h aðo] 'egoera, estatu' estanco [ehˈtaŋko] → [eˈt h aŋko] 'estanko' pestaña [pehˈtaɲa] → [peˈt h aɲa] 'betile'</formula><p>Ikus daitekeenez, etimologikoki kokapen jakin batean dagoen hasperen bat egokitzen ez zaion beste kokapen batean berranaliza daiteke, bai segmentu bezala eta baita herskari baten ezaugarri bezala ere. Euskaraz ere /h/ segmentalen metatesien kasuak ezagutzen ditugu, hara non lat. arēna &gt; harea edota hon-etsi &gt; onhetsi (cf. <ref type="bibr">Lakarra 2009</ref><ref type="bibr">Lakarra , 2015</ref><ref type="bibr" target="#b11">Egurtzegi 2011)</ref>.</p><p>Laburbilduz, hipotesi honek DVT h V sekuentzietatik T h VTV sekuentzietara heltzeko modu berri bat aurkezten du, aurreko autoreek proposaturiko ezaugarri baten (ahotsa) gabeziaren asimilazioa eta espero ez den norantzan gertatutako disimilazio baten erabilera saihestuz. Honekin batera, proposamen berri honek bilakabide hau **DVST h V testuinguruan ez agertzea aurreikusten du, aurreko proposamenek ez bezala. Hipotesi honek ezaugarri bat bigarren silabatik lehendabizikora mugitu dela proposatzen duenez, bigarren silabako azentueraren aurrekoa izan daiteke, nahiz eta ez den halabeharrez horrela izan behar, hitz hasierako kokapenaren berezko prominentzia prosodikoa dela eta (ikus Egurtzegi eta Elordieta 2013 azentuera ezberdinen kronologia baterako).</p><p>Hala eta guztiz ere, kontu bat geratzen zaigu argitzeke euskararen hasperentasunaren metatesiaren kasuan: agian hasierako herskari ahostuna hasperentasun edo VOT luzearen metatesiaren ondorioz ahoskabetu zitekeen, baina ezaugarri mailako hasperena bertan berrinterpretatua izatea herskaria aurretiaz ahoskabea izatearen seinale bezala ere interpreta daiteke. Lehendabiziko aukera posible den arren (euskararen garai honetarako breathy voice ezaugarria duten herskari ahostunak berreraikitzen ez ditugun heinean), bigarren aukera, fonetikoki askoz errazagoa dirudiena, noraino den posible ikusiko dugu hurrengo ataletan, eta horrek zuzenean fortis/lenis auzira eramango gaitu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Euskal herskari zaharren oposaketa: aurreko proposamenak</head><p>Euskal herskarien izaeraren inguruan luze eta anitz idatzi da. Indar handiena izan duen proposamena Martinetena da <ref type="bibr">(1950 [1964]</ref>), neurri handi batean Mitxelenak <ref type="bibr">(1957 [2011], 1977 [2011]</ref>) onartu eta ozen eta txistukarietara zabaldu zuelako.</p><p>Martinetek <ref type="bibr">(1950 [1964]</ref>) aintzineuskararen herskarien oposaketarentzat danesarentzako proposatu zuen sistemaren oposaketa analogo bat proposatu zuen: fortis eta lenis segmentuen arteko oposaketa bat, alegia. Proposamen honek berreraiketa- rako garrantzia handia izan dezakeen inplikazio bat dakar: aitzineuskararen leherkariek kokapenaren araberako gauzatze fonetiko ezberdinak zituzten. Nahiz eta adierazpen hau horren berritzailea ez izan (euskara modernoan, gazteleran bezala, herskari ahostunak hurbilkari bezala ahoskatzen dira kokapen askotan, cf. Hualde 1991: 101-102), <ref type="bibr">Martinetek (1950</ref><ref type="bibr">Martinetek ( [1964</ref>) kokapenaren araberako ahoskeren proposamen bat eskaintzen du, (12)n erakusten dena.</p><p>(12) Martinetek <ref type="bibr">(1950 [1964]</ref>) proposaturiko herskarien ahoskera Fonema Hitz hasiera (azentuduna) Bokalartea (azentugabea)</p><formula xml:id="formula_4">/b/ [b̥ -] [-β̞ -] /t/ [t h -] [-t-] / [-d̥ -] /d/ [d̥ -] [-ð̞ -] /k/ [k h -] [-k] / [-g°-] /g/ [g°-] [-γ̞ -]</formula><p>Aurreko atalean ikusi dugun bilakabidea buruan, bereziki interesgarria egiten da Martineten <ref type="bibr">(1950 [1964]</ref>) proposamenean hitz hasierako lenis herskariak fonetikoki ahoskabeak izatea, berak ez baitzuen aurreko bilakabidea buruan hipotesi hau garatu zuenean. Martinetek ahoskabetasun hau berreraikitzeko arrazoien artean, esaterako, <ref type="bibr">Egurtzegi eta Elordietak (2013)</ref> baztertutako hitz hasierako azentuera demarkatiboa zegoen.</p><p>Orokorrean teoria estandartzat dugun honetaz gain, gutxienez beste bi proposamen aurkeztu izan dira, <ref type="bibr">Traskena (1985)</ref> eta <ref type="bibr">Hualderena (1997</ref><ref type="bibr">Hualderena ( , 1999</ref>. Proposamen hauek ez dira arazorik gabe onartuak izan: Lakarrak (2003: 284-287) bien kontra egiten du, autore biek berreraiketan erabilitako datuen zahartasuna auzipean jarriz.</p><p>Lehendabiziko proposamen berria Traskek (1985) aurkeztu zuen, baina autoreak berak atzera egin zuela argi uzten du bere hurrengo lanetan <ref type="bibr" target="#b51">(Trask 1997)</ref>. <ref type="bibr">Trasken (1985)</ref> proposamenaren arabera, aitzineuskarak geminatu/soil oposaketa izan zuen.</p><p>Traskek <ref type="bibr">(1985)</ref> arazoak ikusten zituen euskaraz fortis/lenis sistema hitz erdira mugaturik egotean. Traskek (1985: 887) aurkezten duen bigarren arazo bat hitz elkarketan gertatutako neutraltzeetan (e.g. errege + bide → erret bide &gt; errepide) datza. <ref type="bibr">Lakarrak (2003: 285)</ref> gogorarazten digunez, hitz elkartu hauek ez ziren aitzineuskaran sortu eta ezta akitanieraren garaian ere, euskara batu zaharrean baizik. Nahiz eta argia den hitz elkartu hauen sorrera akitanieraren ostekoa dela (eta ez gure eraren aurretik gertatutakoa), <ref type="bibr">Martinetek (1950</ref><ref type="bibr">Martinetek ( [1964</ref>) proposatu eta Mitxelenak <ref type="bibr">(1957 [2011]</ref>) zabaldu zuen fortis/lenis oposaketaren amaieraren data ez da horren argia. Mitxelenak zabaldutako fortis/lenis oposaketa inoiz euskararen sistema fonologikoaren parte izan bazen, ez da arrazoirik ikusten oposaketa hau konposatu hauen sorreraren garairako iharturik egoteko: ikus, esaterako, ardandegi, mingain, euskaldun edota galbae bezalako konposatuak, zeintzuek erakusten duten Mitxelenak <ref type="bibr">(1957 [2011]</ref>) berreraikitako oposaketa desegin zuten *n &gt; h̃ eta *l &gt; ɾ prozesuak oraindik gertatu ez zirela. Honek ez du esan nahi Trasken argudioa pisuduna iruditzen zaidanik: ez da ikusten zergatik fortis/lenis hizkuntza batean, berez, ezin daitekeen horrelako neutraltzerik gertatu eta, are gutxiago, Hualdek <ref type="formula">(2006)</ref>   <ref type="bibr">Hualderen (1997</ref><ref type="bibr">Hualderen ( , 1999</ref> proposamena ere aipatu behar da. Hualderen oinarrizko ideia, hots, testigaturik dugun sistematik gehiegi ez aldentzea, ideia ona izan ohi da maiz, eta aurrerago nik ere ideia hori jarraituko dut, neurri batean bederen. Arazo nagusia aldaketak azaltzeko proposatzen dituen argudioetan ikusten dut, Lakarrak (2003) bezala, zentzu zenbaitetan. Aurretik aipatutako ez partikulaz (&lt; *eze) gain, Hualdek hitz amaierako herskari ahoskabeek hurrengo hitzaren hasierako herskari ahostuna ahoskabetu dezaketela proposatzen du. Halere, aitzineuskaraz ez da hitz amaierako kokapenean herskaririk berreraikitzeko arrazoi gehiegirik (cf. <ref type="bibr" target="#b3">Artiagoitia 1990</ref><ref type="bibr">Artiagoitia , 1993</ref>. Esate baterako, Hualdek (1997) -tik atzizkia erabiltzen du bere proposamenean, eta atzizkia -tika bezala testigaturik dago. Honen bidez esan nahi da prozesu hauek garai hurbilago batean gertatu zirela, eta ez aitzineuskaraz.</p><p>Honekin batera, hitz hasierako herskari ahoskabedun forma berritzaileen fonologizazio prozesuan ikusten dut arazorik handiena. Hualdek (1997: 419) menditik dator → menditi tator, gathiak bezala → gathia pezala, ez gara → ezkara, etab. bezalako kontsonante taldeak proposatzen ditu hitz hasierako ahoskabetzen iturburu bezala. Hemen bi arazo nagusi ikusten ditut. Alde batetik, bi hitzen artean gertatutako prozesuetan hitz hauek bata bestearen ostean oso frekuentzia altuarekin agertzen ohi dira kasuan kasuko hizkuntzan. Honakoa bilakabide lenitiboetan ikus daiteke maiz (usted, musde eta blimey bezalako egitura kontraktoetan bezala). Hualdek proposaturiko bilakabide jakin honetan, inoiz gertatu izan balitz, ahoskabetze prozesuak frekuentzia altuenarekin herskariz bukatutako hitz baten ondoren herskari ahostunez hasten diren hitzak izan beharko lituzke helburu. Horien adibide ezinhobea da Hualdek berak aipatutako menditik dator → menditi tator. Esango genuke dator hitza segmentu jakin baten ostean agertzen bada beste edozein segmentu baino maizago segmentu hau -tik atzizkiaren /k/ herskari ahoskabe belarra izan behar duela. Jakina denez, dator &gt; tator ahoskabetzea hizkuntzaren barietate askotan topa daiteke, baina horietako batean ere ez dira **berandu tator bezalako formak aurkitzen. Honekin adierazi nahi da horren frekuentzia handiarekin testuinguru aproposean dagoen hitz baten ahoskabetzea sekula fonologizatu ez bada testuinguru aldakorragoetan aurkitzen diren hitzetan gertatu izana zail ikusten dela.</p><p>Bestetik </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Euskal herskari zaharren izaeraren bila</head><p>Hualdek (1997: 423) bere proposamena aldezteko esaten duen bezala, oposaketa bat ez da hitzaren kokapen guztietan modu berean gauzatu behar, eta ezaugarri ezberdinek garrantzia ezberdina izan dezakete oposizioaren barnean hitzean duten kokapenaren arabera. Izan ere, <ref type="bibr">Martineten (1950</ref><ref type="bibr">Martineten ( [1964</ref>) fortis/lenis oposaketaren proposamenaren oinarrietako bat honakoa hitzaren kokapen ezberdinetan modu ezberdinean gauzatzea da. Hala ere, gaur egungo euskarak erakusten duenez, ahostun/ ahoskabe oposaketen kasuan ere ezaugarri ezberdinek garrantzia ezberdina izan dezakete kokapenaren arabera, eta segmentuen gauzatze fonetikoa ere ezberdina izan daiteke. Sistema zahar baten berreraiketa zehatz batean gauzatze fonetikoekiko hurbilpenak bilatu beharko genituzkeelakoan nago, hortik sistema osoaren ezagutza zehatzagoa lortuko baikenuke. Ez nuke, beraz, fortis/lenis vs. ahostun/ahoskabe auziaren eztabaida terminologikoan besterik gabe erori nahi: garrantzia handiena herskarien posizioaren araberako gauzatzeari dagokiola esango nuke. Honekin batera, ahoskabeei buruz egiterakoan, proposamen gehienek *p herskari ezpainkari ahoskabea berreraiketatik kanpo uzten dute <ref type="bibr">Mitxelena (1977</ref><ref type="bibr" target="#b42">Mitxelena ( [2011</ref>) jarraituz. Lan honetan ez da *p-ren egoeraren inguruko proposamenik aurkeztuko, herskari ahoskabe edo fortisen seriearen gauzatze fonetikoari buruz hausnartzea baino ez baitut helburu.</p><p>Amaieratik hastearren edo, ez dut hitz bukaerako herskariei buruz gehiegi esango. Horren atzean arrazoi bat baino ez dago: ez dut uste aitzineuskarak hitz amaierako herskaririk zuenik. Ez da ideia originala, <ref type="bibr">Artiagoitiak (1990</ref><ref type="bibr">Artiagoitiak ( , 1993</ref> azaldu zuen egungo euskaran ditugun /t#/ eta /k#/ gutxiak aurreko *-da eta *-ga-tik datozela. Gainera, garapen hau, ziurrenik, ez zen duela horrenbeste bukatu: euskalki modernoetan bart ~ barda moduko alternantziak aurki daitezke eta erronkarierak eta Oihenart zuberotarrak ahoskabetu gabeko dud bezalako forma bokalgabeen bidez tarteko pausua erakusten digute (cf. Hualde 2017). Agian, behin behinekoz, bokal hauen galera euskara batu zaharraren amaiera aldera koka daiteke, euskalki guztietan gertatu arren ez zelako hitz guztietan berdin gertatu (cf. barda) eta honen osteko ahoskabetzea berantiarra izan ahal zitekeelako. Ez dut beste hitz amaierako herskari ahostunik ezagutzen, eta hitz amaierako /p#/ hitz fonosinboliko gutxi batzuetara mugatzen da.</p><p>Egungo ahoskabeei dagokienez, hitzaren kokapen gehienetan berdin ahoskatzen zirela proposatuko dut: aitzineuskararen ahoskabeak hasperendunak zirela, alegia. Honakoa proposatzeko arrazoi onak aurki daitezke euskararen historian zehar. Hasteko, herskari ahoskabeen hasperentasuna gordetzen duten euskalkietan honakoa bai hitz hasieran (khatiña, khe, etab.) eta baita hitz erdian (ethorri, ikhusi, etab.) ere ager daiteke. Denboran atzera joanda, akitanieraz <ref type="bibr" target="#b14">(Gorrotxategi 1984)</ref> ere herskari zenbait hasperenarekin agertzen dira izkiriaturik, eta beste zenbait &lt;tt&gt; edo &lt;cc&gt; bezalako grafema segidekin, zeintzuk agian herskari hasperendunak adierazteko ere erabil zitezkeen (cf. <ref type="bibr">Mitxelena 1954</ref><ref type="bibr" target="#b42">Mitxelena [2011</ref><ref type="bibr">Mitxelena ], 1957</ref><ref type="bibr" target="#b42">Mitxelena [2011</ref> (13) Herskari ahoskabe hasperendun potentzialak akitanieraz <ref type="bibr" target="#b14">(Gorrotxategi 1984</ref><ref type="bibr" target="#b2">, Ariztimuño 2011</ref> etab.</p><p>Markagarri gerta daiteke hitz hasieran herskari hasperendunik ez agertzea, baina badirudi aipatu ditugun bi idazkerak (&lt;tt&gt; eta &lt;cc&gt; kontsonante bikoitzak eta &lt;th&gt;, alegia) bakarrik hitz erdian baliatzen zirela, beraz ezin dezakegu ondorio handiagorik erraz atera. 8 Modu berean, aipatu behar da herskari hasperendunak hitz erdian ere ez zirela beti idazten (Baisothar, Honthar vs. Harontarris, Halscotarris), eta ondorioz, akitanierari buruz dakigun gutxia kontuan izanda, ezin daiteke baztertu garai eta hizkera honetan idatzirik agertzen diren baino askoz herskari gehiagok hasperentasuna izatea. Egiantzekotasun handiarekin esan dezakegun gauza bakarra hurrengoa da: orduan ere herskari ahoskabe hasperendunak hizkuntzaren parte zirela, gutxienez hitz erdian.</p><p>Akitanieraren dokumentazio eskasa gaur egungo euskalki zenbaitetara heldu zaigun ebidentziarekin batera jarrita, ez dirudi arrazoi gehiegirik dugunik Martinetek bezala bokal arteko hasperentasunik gabeko herskari ahoskabe edo indartsuak berreraikitzeko. Beste moduko ebidentzia lortu bitartean, ezin dezaket (nolabaiteko) kontinuismoa ez den beste berreraiketarik proposatu serie honentzako.</p><p>Hitz hasieran, ordea, herskari ahoskabe edo indartsuak ez dira batere ohikoak euskaraz: aurki daitezkeen arteko portzentai handi bat (4) adibidean proposatutako bidetik lortu dira, beste asko mailegu berantiarren bitartez, eta euskal hitzak diruditen zenbaitek ondo azaltzen ez dakigun bariazioa erakusten dute <ref type="bibr">(gar ~ kar, ge ~ ke, gorotz ~ korotz, etab.)</ref>. Hala ere, hitz hasierako herskari ahoskabeen falta honentzako <ref type="bibr">Martinetek (1950</ref><ref type="bibr">Martinetek ( [1964</ref>) hipotesi bat aurkeztu zuen aspaldi: hitz hasierako herskari ahoskabe edo bortitzak lehendabizi frikari eta gero hasperen bihurtu ziren sistematikoki (T h &gt; h /#_). Hipotesi honek hitz hasierako herskari serie hau aipatutako bilakabideari dagokion garaian hasperenduna izatea suposatzen du. Nahiz eta hasiera batean Martinetek <ref type="bibr">(1950 [1964]</ref>) aurkeztutako ebidentzia eskasa izan eta Mitxelenak <ref type="bibr">(1957 [2011], 1977 [2011]</ref>) eskainitakoa ez askoz hobea, 9 hurrengo autore zenbaitek hipotesia onartu eta ebidentzia berria aurkezten dute: ikus, esaterako, Lakarrak (2018) proposatzen dituen hitz bikoteak: hartu -ekharri, <ref type="bibr">hor -ethorri, hur -ithurri, huts -ikhusi, hasi -ikhasi, etab</ref> Herskari ahoskabe edo bortitzekin amaitu aurretik, <ref type="bibr">Mitxelenak (1977</ref><ref type="bibr">Mitxelenak ( [2011</ref>) fortis/lenis auzira ekarritako ohar bat komentatu nahi nuke. Bai latinetik edota erromantzeetatik mailegatutako hitzetan eta baita euskal konposatuetan ere, bi herskariek osatutako kontsonante taldeak bortitz edo ahoskabearen bidez sinplifikatu izan dira euskaraz, bai jatorriz ahoskabeak zirenean eta baita ahostunak zirenean ere: a bbas &gt; apaiz, cobdiçia &gt; gutizia, sabbatu &gt; zapatu, etab. Hizkuntza zenbaitetan, herskari taldeetan (bai ahoskabe eta baita ahostunetan ere) bi segmentuen artean hersketa osoa gertatzen da. Hersketa hau pertzeptualki nabaria da eta entzule euskaldunak, bere aukera fonotaktikoen artean horrelako talderik ez balu, bokalartean dituen egiazko herskari bakarrekin (hots, ahoskabe edo bortitzekin) identifika litzake bi serieak, ahotsari garrantzia handiegirik eman gabe.</p><p>Martinetek <ref type="bibr">(1950 [1964]</ref>) proposaturiko herskarien gauzatze fonetikoarekin egokitzapen hau posible da, ahostun edo leneak bokalartean hurbilkari bezala ebakitzen direlako eta bokal artean fonetikoki herskariak diren bakarrak ahoskabe edo bortitzak direlako. Hala ere, kontuan izan behar dugu adierazpen hau modu berean gaur egungo herskari sistemaren barnean ere bete daitekeela (berreraikitako herskarien eta gaur egunekoen ahoskerak ez baitira oso ezberdinak bokalartean), honek leiho oso zabal bat uzten digula mailegu hauek datatzerako orduan: batzuk oso zaharrak izan daitezke, bai, baina beste zenbait uste baino berriagoak.</p><p>Martinetek <ref type="bibr">(1950 [1964]</ref>) berreraikitako bokalarteko hasperen gabeko herskari ahoskabeak hasperendunengatik aldatuta ere aurretik aipatutakoa ez da gehiegi aldatzen: fonetikoki bokal arteko herskari bakarrak izango lirateke oraindik. Hala ere, herskari geminatuen eta herskari hasperendunen arteko erlazioa aipagarria izan daiteke, hizkuntza zenbaitetan herskarien hasperena geminatuetatik garatu baita. Islandieraz, esaterako, herskarien aurrehasperena / h p h t h k/ historikoki /p: t: k:/ geminatuetatik sortu zen <ref type="bibr" target="#b15">(Hansson 2001)</ref>, eta baita italieraren zenbait barietatetan ere <ref type="bibr" target="#b50">(Stevens 2010)</ref>. <ref type="bibr">10</ref> Egungo euskal ahostunen kasuan, ordea, ezin daiteke izaera fonetiko berbera berreraiki hitz hasiera eta hitzaren erdian, ahoskabeen seriean proposatu dudan bezala. Izan ere, gaur egungo euskaraz, herskari ahostunak hurbilkari bezala gauzatzen dira bokalartean eta urkarien ostean (/ld/ -&gt; [l̪ d] taldea kenduta), sudurkarien ostean herskari ahostun bezala ahoskatzen diren bitartean. Pentsa liteke Erdi Aroan ere antzeko ebakera izango zutela, zenbait kasutan bokalartean garai goiztiarretik galtzen zirelako (cf. xi-xiii mendeetako Soracoiz (&lt; Sorabakoitz), Echarri/Echerri (&lt; Etxeberri), Sorauren (&lt; Soraguren), etab.; <ref type="bibr">Mitxelena 1977</ref><ref type="bibr" target="#b42">Mitxelena [2011</ref>: 186). Kontrako ebidentziaren faltan, eta ahoskera honen bidez aurretik aipatutako latin eta erromantzetik hartutako maileguetan ikusten diren zenbait egokitzapen azal daitekenez, ez da arrazoirik ikusten Martineten <ref type="bibr">(1950 [1964]</ref>) berreraiketaren garaitik onartzen den aukera honekin ez jarraitzeko.</p><p>Hitz hasierako lenis seriearen izaera fonetikoa guztien artean zehazteko zailena izan daiteke, nahiz eta gainontzekoak ere errazegiak ez izan. Kasu honetan, gehien erabili izan den ebidentzia latin eta erromantzetik mailegatutako hitz guztiak mende askotan 10 Herskarien aurre eta post-hasperena ez dira oso ezberdinak, eta batak bestera eraman dezake (11) adibidean erakusten den bezala. Herskarien aurre eta post-hasperena batera agertzen dira islandiera, faroesa, mendebaldeko norbegiera, Eskoziako gaelikoa, irlandesa, ingush eta ojibwa bezalako hizkuntzetan. Kasu horietan guztietan ez dago bi serieen arteko oposaketarik <ref type="bibr">(Kehrein 2002: 110</ref> (14) -ST-taldea akitanieraz <ref type="bibr" target="#b14">(Gorrotxategi 1984;</ref><ref type="bibr" target="#b2">Ariztimuño 2011)</ref> Andoxponni, (Pi?)andosponnii, Andostenno, Andostonnis, <ref type="bibr">Estenconis, Harspi, Torsteginno, Harbelesteg[, Aherbelste, Astoillunno, Alardosto, Belexconis, Bihoscinis, Halsconis, Halscotarris, Talsconis, Nescato, Silexconis, Herauscorritsehe, etab.</ref> Gaur egun euskalki gehienetan ikus daitekeen sudurkari osteko neutralizazioa, ordea, ez litzateke herskari sistema zaharraren parte izango. Hasteko, akitanieraz ez da ahostunaren aldeko neutralizazioaren ebidentzia argirik ikusten (ikus ahoskabea erakusten duten Honthar, <ref type="bibr">Harontarris, Cisonten, Estenconis, etab.)</ref>. Gainera, ekialdeko euskalki modernoek ez dute neutralizazio hau erakusten <ref type="bibr">(onki, -ntik, -mentu, etab., cf. Lakarra 2014)</ref>.</p><p>Laburbilduz, lan honek proposatzen duen sistema berria <ref type="formula">(15)</ref>  Ikus daitekeenez, herskarien kokapen-araberako ahoskeren hipotesi berria ez zait Martineten sistematik gehiegi aldendu. Izan ere, hitz hasierako kokapenak ez du ezberdintasunik erakusten, eta hitz erdian (edo bigarren silaban) Martinetek <ref type="bibr">(1950 [1964]</ref>) proposatutako herskari ahoskabe edo ahoskabetuei VOT luzeagoa (hau da, hasperena) baino ez diet gehitu. Modu berean, proposatu dudan sistema hau ekialdeko euskalki modernoen oposaketatik oso urruti ere ez dago: ezberdintasun handiena hitz hasierako herskari ahostunen ahoskeran dago, zeinentzako, Martinetek bezala, ahoskabetze fonetiko bat proposatu dudan. Ahoskabetze fonetikoaren maila ez da definitzeko erraza, baina hitz hasierako ahoskabetze honek (4) adibidean deskribatutako ustezko ahoskabetasun asimilazioa askoz hobeto ulertzen laguntzen du. Proposamen honek Martineten herskari fortisak herskari ahoskabe hasperendun bezala berreraikitzen ditu kokapen guztietan, sistema zerbait sinplifikatuz, Martineten lenisentzako proposamena ebidentzia gehiagorekin berresten duen bitartean.</p><p>Behin aitzineuskararen herskari sistemaren izaera fonetiko berria zehaztu ondoren, bi herskari serieak zein ezaugarrik bereizten dituen zehazten saia gaitezke. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>Errealismo laringalaren (laryngeal realism, cf. Iverson &amp; Salmons 1995; Jessen &amp; Ringen 2002; Honeybone 2005; Beckman, Helgason, McMurray &amp; Ringen 2011 eta Beckman, Jessen &amp; Ringen 2013) arabera, korrespondentzia zuzena gorde behar</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 189-206 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20198 gehienek sistema ezberdin bat berreraikitzen dute. Lan honetan, bi herskari serie berreraikitzen ditut: herskari ahoskabe hasperendunak ([spread glottis] ezaugarria dutenak) eta hasperenik gabeko serie bat (espezifikazio laringalik gabekoa), hitz hasieran hasperenik gabeko herskari ahoskabe bezala gauzatzen zena eta hitz erdian pasiboki ahostundu egiten zena.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>). Korrespondentzia hau theka : leka</figDesc><table /><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 189-206 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20198</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>Aldaketarik erakusten ez duten txistukaridun hitzak gaztaina, gazta, gazte, guzti, gostu, gaizto, gastu, gaztelu, bazter, buztan, distira, dastatu, beste (baina cf. bertze), bost (baina cf. bortz), busti (baina cf. musti), etab.</figDesc><table /><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 189-206 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20198 (5)</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>.20198 kabetzen erabilpena kronologia arazo argia dirudi Mitxelenaren *eze berreraiketa onartzen dugun heinean. Gainera, gogorarazi behar da erret-bide 'errepide' konposatua b-herskari ahostunarekin agertzen dela testu zaharrenetan, bigarren herskariaren ahoskabetzea testu zaharrenen (eta, ondorioz, euskara batu zaharraren) ostekoa izan daitekeela erakutsiz.Bestalde,</figDesc><table><row><cell>proposatu bezala beste elementu bat (bere kasuan, glotal bat) konposatuaren bi elementuen artean sartuta. Lakarrak (2003: 285) Trasken (1985) arazoen artean aipatzen duen ez-en ondoriozko ahos-</cell></row></table><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 189-206 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>, Hualdek aipatutako kontaktuan dauden bi herskarien ondoriozko ahoskabetzeetan, eta baita konposizioan gertatutako ahoskabetzeetan (erret bide &gt; errepide, bait-gara → baikara) eta maileguetan (cobdiçia &gt; gutizia, sabbatu &gt; zapatu) ere, lehendabiziko ahoskabea galdu egiten da bigarrenaren ahoskabetzearekin batera. Ahoskabetze prozesuaren parte izanda, eta hitz hasierako T-/D-aldakortasun dialektala dugunez, agian nolabaiteko hitz amaierako -T/-Ø bariazioa esperoko genukeen, nahiz eta oso neurri txikian izan. Oker egon ninteke, baina ez dut horrelako aldaeren berririk, are gutxiago zaharrak diruditenak. Berriro ere, gogoan izan erret bide45 kon- .20198    posatua testu zaharrenetan aurki daitekeela konposatuaren lehen elementuaren azken herskaria gordetzen duela eta bigarren elementuaren herskari ahostuna ahoskabetzerik gabe azaltzen dela.</figDesc><table /><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 189-206 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head></head><label></label><figDesc>). Zenbaitetan herskari pre-hasperendunak herskari post-hasperendunen aldaerak dira eta beste batzuetan geminatuenak. /www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20198 eta txistukari osteko hurbilkari ahostunak gutxi batzuk baino ez dira eta ez dirudite zaharregiak (cf. desberdin, desgogo vs. deskana, destaña, etab. aurrizki berarekin). Testigaturik dugun hizkuntzaren egoera zaharrenera joanda, akitanierara alegia, Ariztimuñok (2011) bilduriko 579 erregistro dituen datu baseak ez du &lt;sb&gt;, &lt;sd&gt;, &lt;sg&gt;, &lt;xb&gt;, &lt;xd&gt; edo &lt;xg&gt; sekuentzien adibiderik eta agertzen diren -ST-sekuentzietan ez da sekula (13) adibidean zerrendaturiko herskarien hasperena markatzeko baliabiderik erabiltzen. (14) adibideak erakusten ditu sekuentzia hau duten hainbat hitz.</figDesc><table><row><cell>ISSN: 0582-6152 -e-ISSN: 2444-2992 http:/</cell><cell>ASJU 52-1/2 (2018), 189-206</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">Kokotx hitza erreduplikazio bat izan daiteke eta okotx aldaera ere badu, zaharragoa izan daitekeena hasierako herskaria berrezarria bada.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">Hala ere, euskaraz badugu errusieraren kasuaren antzekoa izan daitekeen beste bilakabide bat: esnatu, asmo eta desgogo [ez̺ natu], [az̺ mo] eta [dez̺ γ̞ oγ̞ o] ahoskatzen dira, kontsonante talde osoa ahostuna dela. Modu berean, aurrerago landuko dugun txistukarien osteko herskarien ahoskabetzearekin ere konpara daiteke (ez + dakit -&gt; eztakit, etab.).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">Hala ere, euskaraz ahoskabetze esporadikoak gertatu dira hitz hasieran. Alde batetik, maileguen kasuan, birmailegaketaren bidez azal litezkeen ahoskabetzeak ditugu (koroa, kartzela, kurutze, etab.). Bestetik, horren erraz azal ez daitezkeen aldaerak ditugu zenbait euskal hitzetan (gar ~ kar, ge ~ ke, gorotz ~ korotz, etab.) eta baita maileguetan ere(pidaia, kaiola, etab.). Beraz, ezin dugu baztertu ahoskabetzea errazten duen testuingururik gabe sortu den eta etimologikoa ez den hitz hasierako herskari ahoskaberik aurkitu daitekeenik datuen artean. Kontrako kasua ere, hots, oso berandu hartutako hitzetan hitz hasierako herskariaren ahostuntzea, aurkitu daiteke. Mitxelenak(1957 [2011]) bi kasu hauen erakusle bezala gabarra &gt; kabarra eta corbata &gt; gorbata aipatzen ditu.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">Eta baita erret ihera ere, erret bide fosildutako hitz bat ez dela erakutsiz.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">Adibide honetan (eta beste zenbaitetan, e.g. Herauscorritsehe,Hehelpo, Hahanni, Hahanten,  Serhuhoris, Abisunhari, etab.)  ikus daitekeenez, akitanieraz segmentu hasperendunak ez ziren lehendabiziko bi silabetara ezta hitz bakoitzeko bakar batera mugatzen. Murriztapen hori euskara batu zaharraren ondoren garatu bide zen<ref type="bibr" target="#b13">(Egurtzegi &amp; Elordieta 2013)</ref>. 6 Gorrotxategiren (1984) arabera, iberikoa izango litzateke akitaniarren ahotan, deklinabideko geminazioarengatik.7 Erriappo lau aldiz agertzen da, kasu bakarrean &lt;pp&gt;-rekin. Priapo-tik etor liteke<ref type="bibr" target="#b14">(Gorrotxategi 1984)</ref>.8Gogoan izan, hala ere, Mitxelenak (1977) aipatutako Talsco vs. Halsco, zeinak ez dakigun herskari hasperendun bat edo hots aldaketa bat (*Th &gt; h) erakusten duen. 9Esate baterako, Mitxelenak (1977) aipatutako erronkarieraren erakusleek (kaur, kori, kura, etab.) duten hitz hasierako herskari ahoskabea berrikuntza moderno bat dela dakigu orain (cf. Lakarra 2014).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="11">Ikerketa sakonago batean argigarria izan daiteke ahostunarekin ematen diren bi adibide hauek (Gison eta Borconnis) eremu berean agertu izana, hots, Saint-Bertrand-de-Comminges-en.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12">Pentsa daiteke euskaraz hizkuntza mota aldatzeak herskarien hasperenaren garrantzi kontrastiboa murriztea ekar zezakela. Honakoa hitz hasieran serie hasperenduna galtzearen epe luzeko ondorio bezala ikus daiteke, eta honi euskarak erromantzeekin izandako kontaktu luzearen ondoriozko eragina gehitu behar zaio.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"> <ref type="bibr">Martinetek (1950</ref><ref type="bibr">Martinetek ( [1964</ref><p>) proposaturiko hitz hasierako berreraiketak neutralizazioa ulertzen asko laguntzen du. Izan ere, hitz hasierako herskari hasperendunen galeraren ostean aitzineuskaraz geratu ziren herskari bakarrak ahostun ahoskabetuak baziren (herskariaren amaierarekin batera hasten zen VOT-arekin edota VOT negatibo laburrarekin), euskararen hitz hasierako herskari serie bakarraren ahoskera garai horretan latinak edota erromantzeak zituen bi herskari serieetatik hurbil kokatuko litzateke, herskarien bokalarteko ahoskeretarik baino askoz hurbilago. Egoera berezi honek mailegaketan ikus daitekeen hitz hasierako herskarien neutralizazioa azaltzen lagunduko luke. Akitanierak ere berreraiketa honen aldeko ebidentzia xumea eskaintzen du. Izan ere, akitaniera izkiriatu zutenek, sistematizitate eza eta ahoskabeekiko joera erakusten dituzte hitz hasierako zenbait herskari ahostunetan. Honen adibide argiena gizon hitza dugu, zeina lau aldiz agertzen den eta horietako bakar batean G-erakusten duen (Cison, Cisonten, Cissonbonnis eta Gisondoni), baina Mitxelenak proposaturiko **p eza onartuta besteren bat ere aurki daiteke (Porconi, Porconis eta Borconis, esaterako). 11 Berreraiketa honen aldeko hirugarren arrazoi bat aurreratu dut gorago: lan honen lehen zatian argudiatu bezala, aurkeztu dudan herskarien ustezko ahoskabetasun asimilazioaren analisi berriak, aurrekoak ez bezala fonetikoki naturala denak, hitz hasierako herskarien ahoskabetasun fonetikoaren alde argudiatzen du.</p><p>Mitxelenak <ref type="bibr">(1977 [2011]</ref>: 200) adierazten duen bezala, Martineten <ref type="bibr">(1950 [1964]</ref>) berreraiketa onartuko badugu (eta ondorioz honakoa ere, hitz hasierako kokapenean bi proposamenak berdinak baitira), hitz hasieran herskari hasperendunak *h bihurtu zirela eta herskari ahoskabetuak ahostundu zirela, erromantzeetako herskarietara hurbilduz, onartu beharko genuke.</p><p>Amaitzeko, proposamen honek txistukarien osteko bi herskari serieen arteko neutralizazioa aurreikusten du. Izan ere, euskaraz, txistukarien osteko testuinguruan dauden herskari ahoskabeek hasperena galtzen dute, herskari ahostunak ahoskabetzen diren bitartean. Proposamen honen arabera hitz erdiko herskari ahoskabe edo fortisak orokorrean hasperendunak zirenez, txistukarien osteko kokapenean bi serientzako emaitza berbera espero da: hasperenik gabeko herskari ahoskabeak. Neutraltze hau zehatz datatzea zail izan daitekeen arren, oso garai zaharretik (ia) gaur egun arte indarrean egon dela proposa daiteke: alde batetik, txistukarien osteko herskari ahoskabeak testurik zaharrenetatik agertzen zaizkigu (hasperenik erakutsi gabe); bestetik, egungo euskalkietan ez da hasperena erakusten duen txistukari osteko herskari ahoskaberik </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ondorioak</head><p>Lan honek bi atal ditu. Hasteko, fonetikoki ulertzeko oso zaila zen bilakabide batentzako bide alternatibo bat proposatu dut: [voice] ezaugarriaren gabeziaren asimilazio bezala ulertu behar zen bilakabidea (edo, are okerrago, ahotskorden bibrazio ezaren asimilazioa) saihestu dut bai euskaraz eta baita beste hizkuntza askotan ere deskribaturik dagoen ezaugarri mailako hasperenaren metatesi (edo [spread glottis]) bezala azaltzea proposatuta. Azalpen berri honek beste bi abantaila ekarri ditu: alde batetik, hasperenaren distribuzioan deskribatutako asimetriarentzako (hots, hasperen segmentalaren kasuan disimilazioa atzerakoi eta herskari ahostunen ezaugarriaren kasuan aurrerakoi gertatzea) azalpen bat eskaintzen du; bestetik, hitz hasierako lenis seriearen gauzatze fonetiko ahoskabe edo ahoskabetuaren aldeko ebidentzia eskaintzen du. Ebidentzia berri hau baliatuta, aurretik ezagutzen genituen beste zenbait adierazpen ordenan jarri ditut aitzineuskararen herskarien izaera fonetikoa hobeto definitzeko asmoarekin. Lan honetan proposatu den sistema ez da Martinetek proposatu zuenaren guztiz berdina, eta ez da gaur egungo sistematik gehiegi aldentzen. Aurkeztu dudan proposamenaren arabera, lehendabiziko herskari seriea ahoskabe hasperendun bezala gauzatzen zen bai hitz hasieran eta baita bokalartean ere, bigarren seriea hitz hasieran ahostun ahoskabetu bezala eta bokalartean hurbilkari bezala gauzatzen zen bitartean. Txistukari osteko bi serieen arteko neutralizazioa sistema horren parte zela proposatu dut.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20198</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20198" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Proposamen berri honetan deskribaturiko sisteman, beraz, bi serieen arteko oposizioa ez da gaur egun aurkitzen dugun sistemarena, nahiz eta honakoa ere ezaugarri laringaletan oinarritzen den: lehendabiziko serieak VOT positiboa duen bitartean, bigarren serian VOT-a herskariarekin batera doa hitz hasieran, bokalartean herskariaren espirantizazioa gertatzen delarik. Errealismo laringalaren proposamenen arabera, lan honetan berreraiki den herskarien oposizioa fonologikoki [spread glottis] ezaugarrian datza (hasperenaren metatesian fonologikoki lekuz aldatzen den ezaugarria</title>
+		<imprint/>
+	</monogr>
+	<note>hain zuzen. gaztelera edota gaur egungo euskararen herskarien oposaketak [voice] ezaugarrian oinarritzen diren bitartean</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Antzinateko euskal idazkunak eta aitzineuskararen berreraiketa: corpusa, analisia eta ondorioak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Ariztimuño</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Master amaierako lan argitaragabea. Gasteiz: UPV/EHU</title>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Sobre la estructura de la sílaba en (proto)vasco y algunos fenómenos conexos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Artiagoitia</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="327" to="349" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+				<title level="m">Generative Studies in Basque linguistics. Amsterdam: John Benjamins</title>
+		<editor>J.I. Hualde &amp; J. Ortiz de Urbina</editor>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="263" to="287" />
+		</imprint>
+	</monogr>
+	<note>Syllable Structure in Basque and Proto-Basque</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Rate effects on Swedish VOT: Evidence for phonological overspecification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Beckman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Helgason</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Mcmurray</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp; C</forename><surname>Ringen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Phonetics</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="39" to="49" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">«Empirical evidence for laryngeal features: Aspirating vs. true voice languages»</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Jessen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp; C</forename><surname>Ringen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Linguistics</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="259" to="284" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Evolutionary Phonology. The emergence of sound patterns</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Blevins</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The evolution of metathesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">A</forename><surname>Garrett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Phonetically based phonology</title>
+		<editor>B. Hayes, R. Kirchner &amp; D. Steriade</editor>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2004" />
+			<biblScope unit="page" from="117" to="156" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Indo-Aryan languages</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Cardona</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">S</forename><surname>Luraghi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Comrie (arg</title>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="373" to="379" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">The World&apos;s major languages (2. arg.)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Comrie</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<publisher>Routledge</publisher>
+			<pubPlace>London &amp; New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Euskal metatesiak: abiaburua haien ikerketarako</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Egurtzegi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Towards a phonetically grounded diachronic phonology of Basque. Doktorego tesi argitaragabea. Gasteiz: UPV/EHU</title>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="1" to="79" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Phonetically conditioned sound change: Contact induced /u/-fronting in Zuberoan Basque</title>
+		<idno type="DOI">10.1075/dia.34.3.02egu-</idno>
+		<ptr target="https://doi.org/10.1075/dia.34.3.02egu-" />
+	</analytic>
+	<monogr>
+		<title level="m">Modern Zuberoan Basque</title>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">56</biblScope>
+		</imprint>
+	</monogr>
+	<note>inprimategian</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Euskal azentueren historiaz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">&amp;amp; G</forename><surname>Egurtzegi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Elordieta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Koldo Mitxelena Katedraren III. biltzarra [«Koldo Mitxelena</title>
+		<editor>R. Gómez, J. Gorrochategui, J. A. Lakarra &amp; C. Mounole</editor>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="163" to="186" />
+		</imprint>
+	</monogr>
+	<note>Gasteiz: UPV/EHU</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Estudio sobre la onomástica indígena de Aquitania. Bilbo: UPV/ EHU</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Gorrotxategi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Remains of a submerged continent: preaspiration in the languages of Northwest Europe</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Hansson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">L. Brinton (arg.), Historical Linguistics</title>
+		<meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Benjamins</publisher>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="157" to="173" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20198</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20198" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The phonetics and phonology of Russian voicing assimilation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Hayes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Language sound structure</title>
+		<editor>M. Aronoff &amp; R. T. Oehrle</editor>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT</publisher>
+			<date type="published" when="1984" />
+			<biblScope unit="page" from="318" to="328" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">«Diachronic evidence in segmental phonology: the case of obstruent laryngeal specifications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Honeybone</surname></persName>
+		</author>
+		<editor>M. van Oostendorp &amp; J. van de Weijer</editor>
+		<imprint>
+			<date type="published" when="2005" />
+			<publisher>Mouton de Gruyter</publisher>
+			<biblScope unit="page" from="317" to="352" />
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+	<note>The internal organization of phonological segments</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Basque Phonology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Hualde</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="411" to="424" />
+			<pubPlace>London &amp; New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Pre-Basque plosives</title>
+	</analytic>
+	<monogr>
+		<title level="m">Grammatical analyses in Basque and Romance linguistics. Amsterdam: Benjamins</title>
+		<editor>J. Franco, A. Landa &amp; J. Martín</editor>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="77" to="104" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Andolin gogoan: Essays in honour of Professor Eguzkitza</title>
+		<editor>B. Fernández &amp; I. Laka</editor>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="497" to="511" />
+		</imprint>
+		<respStmt>
+			<orgName>University of the Basque Country</orgName>
+		</respStmt>
+	</monogr>
+	<note>Laringalak eta euskal azentuaren bilakaera</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Erronkarieraren garapen fonologiko dialektalaz</title>
+	</analytic>
+	<monogr>
+		<title level="m">Gotzon Aurrekoetxea lagunarterik hara. Bilbo: UPV/EHU</title>
+		<editor>A. Iglesias &amp; A. Ensunza</editor>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page" from="175" to="194" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">«La aspiración de origen nasal en la evolución fonológica del euskera: un caso de &quot;rhinoglottophilia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Igartua</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">», ASJU</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="171" to="189" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Diachronic effects of rhinoglottophilia, symmetries in sound change and the curious case of Basque»</title>
+	</analytic>
+	<monogr>
+		<title level="j">Studies in Language</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="635" to="663" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Aspiration and laryngeal representation in Germanic</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">K J C</forename><surname>Iverson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Salmons</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phonology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="369" to="396" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Jakobson</surname></persName>
+		</author>
+		<title level="m">Mutual assimilation of Russian voiced and voiceless consonants», Studia Linguistica</title>
+		<imprint>
+			<date type="published" when="1978" />
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="107" to="110" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">&amp;amp; C</forename><surname>Jessen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ringen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Laryngeal features in German</title>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1" to="30" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Phonological representation and phonetic phasing: Affricates and laryngeals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Kehrein</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>Max Niemeyer</publisher>
+			<pubPlace>Tübingen</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N.-K. ; «</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Korean</surname></persName>
+		</author>
+		<title level="m">Comrie (arg.)</title>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="765" to="780" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">«Hacia un nuevo paradigma etimológico vasco: forma canónica, filología y reconstrucción</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="261" to="391" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Notas sobre iniciales, cambio tipológico y prehistoria del verbo vasco</title>
+	</analytic>
+	<monogr>
+		<title level="m">R.L. Trasken oroitzapenetan ikerketak euskalaritzaz eta hizkuntzalaritza historikoaz</title>
+		<editor>J. Lakarra &amp; J. I. Hualde</editor>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="561" to="621" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">«*h 3 &gt; h 1 , *h 2 &gt; h 1 eta horiei datxezkien zenbait fenomenoz</title>
+	</analytic>
+	<monogr>
+		<title level="j">Lapurdum</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="211" to="231" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Gogoetak euskal dialektologia diakronikoaz: Euskara batu zaharra berreraiki beharraz eta haren banaketaren ikerketaz</title>
+	</analytic>
+	<monogr>
+		<title level="m">Euskal dialektologia: Lehena eta oraina. Bilbo: UPV/EHU</title>
+		<editor>I. Epelde</editor>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="155" to="241" />
+		</imprint>
+	</monogr>
+	<note>ASJUren Gehigarriak, 69</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+				<title level="m">Eridenen du zerzaz kontenta: sailkideen omenaldia Henrike Knörr irakasleari</title>
+		<editor>M. J. Ezeizabarrena &amp; R. Gómez</editor>
+		<imprint>
+			<date type="published" when="1947" />
+			<biblScope unit="page" from="349" to="378" />
+		</imprint>
+	</monogr>
+	<note>Bilbo: UPV/EHU</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Euskararen historiaurrea</title>
+	</analytic>
+	<monogr>
+		<title level="m">Euskararen historia. Gasteiz: Eusko Jaurlaritza</title>
+		<editor>J. Gorrotxategi, I. Igartua &amp; J. A. Lakarra</editor>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="23" to="229" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp; I. Ruiz</forename><surname>Arzalluz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note>Luis Michelena. Obras completas [OC</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><surname>Donostia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bilbao</surname></persName>
+		</author>
+		<title level="m">ASJUren Gehigarriak, 15 lib.; Gipuzkoako Foru Aldundia, Eusko Jaurlaritza &amp; UPV/EHU</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Martinet</surname></persName>
+		</author>
+		<idno>370-388. Berna: ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2</idno>
+		<title level="m">De la sonorisation des occlusives initiales en basque</title>
+		<imprint>
+			<date type="published" when="1950" />
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="189" to="206" />
+		</imprint>
+	</monogr>
+	<note>Économie des changements phonétiques</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20198</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20198" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Gazteleraz: Martinet, A. 1974, «La reconstrucción estructural: las oclusivas del vasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Francke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Economía de los cambios fonéticos. Tratado de fonología diacrónica</title>
+		<imprint>
+			<biblScope unit="page" from="524" to="550" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Matisoff</surname></persName>
+		</author>
+		<title level="m">Rhinoglottophilia: the mysterious connection between nasality and glottality</title>
+		<editor>Ch. A. Ferguson, L. M. Hyman &amp; J. J. Ohala</editor>
+		<meeting><address><addrLine>Standford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Standford University Press</publisher>
+			<date type="published" when="1975" />
+			<biblScope unit="page" from="265" to="287" />
+		</imprint>
+	</monogr>
+	<note>Nasálfest: Papers from a symposium on nasals and nasalization</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">De fonética vasca: la aspiración intervocálica</title>
+		<editor>J. A. Lakarra &amp; Í. Ruiz Arzalluz</editor>
+		<imprint>
+			<date type="published" when="1950" />
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="3" to="20" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Obras completas</title>
+		<editor>J. A. Lakarra &amp; Í. Ruiz Arzalluz</editor>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="197" to="243" />
+			<date type="published" when="1954" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Estructuralismo e historia</title>
+	</analytic>
+	<monogr>
+		<title level="m">Miscelánea homenaje a André Martinet</title>
+		<editor>Berrargitaratua: J. A. Lakarra &amp; Í. Ruiz Arzalluz</editor>
+		<meeting><address><addrLine>La Laguna</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1957" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="57" to="91" />
+		</imprint>
+		<respStmt>
+			<orgName>Universidad de La Laguna</orgName>
+		</respStmt>
+	</monogr>
+	<note>Las antiguas consonantes vascas</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+				<title level="m">Fonética histórica vasca</title>
+		<editor>J. A. Lakarra &amp; Í. Ruiz Arzalluz</editor>
+		<meeting><address><addrLine>Donostia-San Sebastian</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1961" />
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+	<note>Publicaciones del Seminario «Julio de Urquijo». Obras completas 6</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">The handbook of historical linguistics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Ohala</surname></persName>
+		</author>
+		<editor>B. Joseph &amp; R. Janda</editor>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Wiley-Blackwell</publisher>
+			<biblScope unit="page" from="669" to="686" />
+			<pubPlace>Malden</pubPlace>
+		</imprint>
+	</monogr>
+	<note>«Phonetics and historical phonology</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The role of prosody in Russian voicing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Padgett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Prosody matters: Essays in honor of Elisabeth Selkirk</title>
+		<editor>T. Borowsky, S. Kawahara, T. Shinya &amp; M. Sugahara</editor>
+		<imprint>
+			<publisher>Equinox Publishing</publisher>
+			<date type="published" when="2012" />
+			<biblScope unit="page" from="181" to="207" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Synchronic and diachronic factors in the change from preaspiration to post-aspiration in Andalusian Spanish</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">&amp;amp; J</forename><surname>Ruch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Harrington</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wocn.2014.02.009</idno>
+		<ptr target="https://doi.org/10.1016/j.wocn.2014.02.009" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Phonetics</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="12" to="25" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">On the origin of post-aspirated stops: production and perception of /s/ + voiceless stop sequences in Andalusian Spanish</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-&amp;amp; S</forename><surname>Peters</surname></persName>
+		</author>
+		<idno type="DOI">10.5334/labphon.2</idno>
+		<ptr target="https://doi.org/10.5334/labphon.2" />
+	</analytic>
+	<monogr>
+		<title level="j">Laboratory Phonology</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1" to="36" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">«How widespread is preaspiration in Italy? A preliminary acoustic phonetic overview</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Stevens</surname></persName>
+		</author>
+		<editor>S. Schötz and G. Ambrazaitis</editor>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="97" to="102" />
+		</imprint>
+		<respStmt>
+			<orgName>Lund: Lund University</orgName>
+		</respStmt>
+	</monogr>
+	<note>Working papers of the Department of Linguistics and Phonetics</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">On the reconstruction of Pre-Basque Phonology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Trask</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Symbolae L. Mitxelena (2 lib.). Vitoria-Gasteiz: UPV/EHU</title>
+		<editor>J. L. Melena</editor>
+		<meeting><address><addrLine>London, New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="1985" />
+			<biblScope unit="page" from="885" to="891" />
+		</imprint>
+	</monogr>
+	<note>The History of Basque</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">«A typological view of metathesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Ultan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1971" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1" to="44" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Ander Egurtzegi Institute for Phonetics and Speech Processing</title>
+		<imprint/>
+	</monogr>
+	<note>IPS</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

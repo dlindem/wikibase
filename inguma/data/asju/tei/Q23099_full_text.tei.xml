@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="id">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julen</forename><surname>Manterola</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>UPV/EHU</roleName><forename type="first">Agirre</forename></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sarrera</surname></persName>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>-A EUSKAL ARTIKULU DEFINITUAREN GAINEAN ZENBAIT OHAR</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Lan honek egun "artikulu definitu" gisa izendatzen dugun elementua du aztergai, euskalki guztietan garai historikoan aurkitzen dugun eta izen sintagma osoaren atzean ezartzen den -a. Morfema hau ikuspegi diakronikotik aztertuko dugu. Horretarako gai honetan etorkizuneko ikerlerroak zein izan daitezkeen ezarriko dugu, eta arlo horietako zenbaitetan egindako urratsak aurreratuko.</p><p>Lehenik behar genuke hasi zehaztuaz artikulu definitu bat zer den. Lan horretan hasi bezain laster ageri dira horrelako kategoria bat ezaugarritzen dauzkagun arazoak: parekotzat, balio berekotzat jo nahi ditugun elementuen artean hizkuntza-arteko dibertsitateak parekatze hau zailtzen du, artikulu definituaren hizkuntza-arteko ezaugarritze batua konplikatuz; hizkuntza bateko eta besteko artikuluen erabil eremua ez da berdina izaten, dela egitura sintaktikoan artikulua daramaten izen sintagmen funtzio diferentearengatik (subjektu, objektu, esaldi pre-/postposizional batean…), dela artikulua daraman izenaren izaera semantikoa medio (izen zenbakarria den, zenbakaitza 2 …). Bestalde, egoera ñabar hau areagotzeko, hor dugu artikulu horien jatorriak ekartzen duen irizpide gehigarria: munduan diren artikulu definitu guztiak ez dira erakusle urrunetik heldu, hauxe baldin bada ere jatorririk ezagunena eta tipikoena, mendebaldeko hizkuntzetan bederen. Frajzyngier-ek (1996) gogoratzen duen bezala, aditzak ere izan daitezke horien sorburu, Afrikako hizkuntza txadikoetan gertatutakoa frantsesez erdibidean geratu den dire aditzaren gramatikalizaziorekin parekatuz (gogoan izan, espainolez ere nola har lezakeen balio anaforikoa decir aditzak berak, dicha casa bezalako adibideetan); halaber, Masicak (1986) iradokitzen duen bezala, Asiako hizkuntzetan hain hedatuak diren klasifikatzaileek ere balezakete zerikusirik definitutasunaren markatzean, izan ere hango zenbait hizkuntzatan, bengali indo-iraniarra kasurako, eta kontzeptuen arteko hurbiltasunaren adibide, inoiz klasifikatzaileak "definitutasun partikulak" deitu izan baitira. 1 Egilea Eusko Jaurlaritzako doktoreak prestatzeko diru-laguntzen programaren barrenean dago, eta hona eskerra. Era berean, lan honen gainean zenbait ohar eginez lagundu nauten Céline Mounole eta Joseba Lakarra eskertu nahi nituzke. 2 Bi termino hauek, zenbakarri eta zenbakaitz, espainolez erabili izan diren concreto eta de masa terminoen baliokide gisa erabiltzen ditut, Euskaltzaindiak (1993: 41) ematen duen bezala. [ASJU, XL, 2006, 651-676]</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="id">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Hau guztiau ezinbesteko lan suertatzen bada ere, hots, artikulu definitu kategoriaren ezaugarriztatze eta xedatzearena, seguraski ere definitutasunaren teoria batez lagundua lihoakena, guk soilik -a morfemaren bilakaera diakronikoaren berri ematen saiatzea dugu xede; hori dela eta, guk erabiliko dugun "artikulu definitu" terminoa, edo hobe esan "artikulu" terminoa, erabat neutroa izango da inongo teoriarekiko hemen.</p><p>Euskarazko artikulu definituaren kasuan egokia izan liteke abiapuntu neutro hau, izan ere aspaldi ohartarazia baita -a horren balioa definitutasun markatzaile hutsarena baino haratago doala. Maila deskriptiboan ari dela hala dio <ref type="bibr">Traskek (2003: 119)</ref>:</p><p>The label 'definite article' is misleading, since this article is of much broader use than the English definite article.</p><p>Egungo euskarak duen -a morfemaren inguruko zenbait gai jorratuko da ondorengo ataletan, hortaz. Ez dugu horietan sakon joko, baina haietako bakoitza artikuluaren gainean egin daitezkeen azterketen lan ildo bezala aurkeztu nahi dugu; horregatik ondorengo ataletan ikusiko duguna ez da izango arazo baten inguruko arrazoibide bete eta borobila; aitzitik, ikusiko duguna zenbait auzi desberdinen gaineko ohar multzoa izango da. Ondoko atalean, bigarrenean, artikuluen gainean ezarri diren analisi sinkronikoek diakroniarekin zein lotura duketen argitzen saiatuko naiz, hein batean, bederen; hirugarren atalean bigarrenean emandako lotura eta irizpideak egungo aldaera dialektologikoen argitara ikusi nahiko ditut. Laugarrenean erronkarierazko erakusleen gaineko ohar bat emango dut, eta ondoren postposizio sisteman artikulua nola hedatu den aztertzera joko dut. Bosgarren atalean laburpen ttiki bat emango dut.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Ikuspegi sinkronikoa eta diakronikoa</head><p>Artikuluen tipologia egiteko hurbilketez ari denean, bi modu nagusi aipatzen ditu <ref type="bibr">Himmelmannek (2001)</ref>: batetik definitutasuna adierazteko hizkuntza naturalek darabiltzaten estrategia gramatikalen zerrendatzea egiten duena, definitutasunaren eta erreferentziaren gaineko teoria, esan dezagun sinkroniko, bat eraikiz <ref type="bibr" target="#b23">(Masica 1986</ref> horren adibide izan liteke), eta bestetik artikuluak historikoki beste nonbaitetik eratorritako elementu gisa aztertzen dituena, hau da, erakusleek eta bestek izenen ondoko funtzioetan jasaten duten gramatikalizazio bilakaeraren faseak ezarri nahi dituena. Horra, bada, artikuluen tipologia egiteko bi modu; bada, hala ere, artikulu definitua aztertzeko beste modu bat gutxienez, tradizio sortzailetik heldu dena, eta artikulu definituak izen sintagmaren egitura funtzionalean zein toki duen zehazten saiatzen dena. 3 Lan sinkroniko hauetan, euskarazko izen sintagmen egitura zertan den zehazten saiatzen direnen artean, Artiagoitiaren lanak <ref type="bibr">(1998,</ref><ref type="bibr">2003)</ref> ditugu ezinbesteko aipagai, guk aztergai dugun -a horren zenbait gorabehera azaleratuz.  <ref type="bibr" target="#b3">Artiagoitia (1998)</ref> lanean euskal izen sintagma (IS hemendik aurrera) <ref type="bibr" target="#b0">Abney (1987)</ref>k ingelesezkoa aztertzeko erabili zuen determinatzaile sintagma (DS hemendik aurrera) kategoria funtzionalaren arabera aztertzen du Artiagoitiak. 2003ko lanean, aldiz, Longobardiren lanak lagun, determinatzailearen eta izenaren arteko beste kategoria funtzional bat proposatzen du, ingelesarekin eta italierarekin euskarazko DS batzuek duten jokabide ezberdinaren bidetik; jokabide ezberdin hau normalean zera da, beste hizkuntzek artikulurik ez duten tokian euskarak artikuludun sintagmak agertzea.</p><p>Hizkuntzen arteko alde hau adibideztatzeko bi izen motari begiratzen zaie bereziki: izen zenbakaitz singularrei (ardoa, ura… bezalakoak), eta pluraleko izen zenbakarriei <ref type="bibr">(aulkiak, trenak, autoak…)</ref>. Ondoko perpausak ematen dira irakurketa ezberdinen gorabeherak aurkezteko; bere (8)koak errepikatzen ditut hemen, bere glosekin, eta etzanean ematen ditut aipagai diren DS-ak:</p><p>(1) a. Trenak heldu dira. a'. ** Tren heldu dira. 4 '(The) trains arrived' b. Ardoa edan dut. b'. ** Ardo edan dut. 'I drank (the) wine' Ikusten dugun bezala a'. eta b'.-ko perpausak ez dira gramatikalak, ez baitute inongo determinatzaile edo artikulurik. Baina orain eztabaidarako inportanteagoa dena zera da: Artiagoitiak dioen bezala, hizki etzanetan diren sintagma hauen interpretazio bikoitzaren berri ematen dute glosek, eta "specific description" gisa zein "existentially quantified expression" gisa irakur daitezke, Artiagoitiaren terminoetan. Hots, irakurketetako bat definitua da eta bestea indefinitua, edo, nahiago bada, inongo terminologiatan sartu gabe, bata artikulu definituarekin itzultzen da gainerako hizkuntzetan eta bestea batere gabe. Kontua da bitxia dela irakurketa existentziala edo indefinitua hartzea berez definitua markatzen duen morfema batek; auzi honetara italieraren eta ingelesaren adibideak dakartza autoreak, gogoratuz irakurketen arteko aldeak morfologian ere islatzen direla hizkuntza hauetan, irakurketa definituarentzat artikulu definitua erabiliz eta existentzialarentzat [Ø] artikulu nuloa. Honen aurrean aukeretako bat zera da, esatea euskarazko -a-k beste hizkuntza horietako bi morfemen funtzioa biltzen dituela bere baitan, morfema bakarrean. Baina, era berean, gogoratzen du euskaraz ere (aipatzen dituen italieran eta ingelesean bezala) kanpo-argumentuek ez dutela interpretazio existentzialik onartzen, honako perpausak adibide (bere (10b.)):</p><p>(2) Trenek aurreratu gaituzte.</p><p>'**(the) trains have passed us'</p><p>(2)ko euskarazko esaldia eta ingelesezko glosa irakurketa bakarraren lekuko, ondorioztatzen du erromantzeko eta ingeleseko murriztapen sintaktiko beretsuak dituela artikuludun euskal IS-k, baina paradoxikoki artikulua agertzen duela euskarak murriztapen horrek kanpo uzten dituen inguru sintaktikoetan ere (barne argumentuetan, alegia, (1)en ikusi bezala). Hau moldatzeko, eta Longobardi eta erromantzea zein ingelesa jarraituz, egitura bana ematen du interpretazio bakoitzeko, irakurketa existentzialarentzako D gunea hutstzat joz. Horrela (bere (11) eta (12)): a. Irakurketa existentziala / indefinitua, "I drunk wine"eko objektuak duena. b. Irakurketa espezifikoa / definitua, "I drunk the wine"eko objektuak duena. a. Irakurketa existentziala / indefinitua, "I saw trains"eko objektuak duena edo "Trains arrived"eko subjektuak duena. b. Irakurketa espezifikoa / definitua, "I saw the trains"ko objektuak duena. edo "The trains arrived"eko subjektuak duena.</p><p>Agerikoa da, beti bezala, arazoa da zergatik irakurketa existentzialeko XS (proiekzio funtzional ezezagun) hori morfologikoki DS oso baten berdina den azalean, zergatik diren isomorfiko; hots, arazoa irakurketa existentzialetako XS hori ezaugarritzen, edo zer den esaten saiatzen garenean dator. Aukerei begira, XS hori IS hutsa izan litekeela dio, edo bestelako buru funtzionalen bat, izenarekin zerikusia daukana. Lehen aukera baztertzen du, bigarrenarekin aurrera joz, baina aukera logiko gisa agertze hutsa sintomatiko deritzogu, IS hutsaren aukera ere ez baita, beharbada, hain urruneko kontua, beherago ikusiko dugun bezala.</p><p>Bi puntutan laburbil dezakegu Artiagoitiaren lanaren gaineko oraingo gure interesa:</p><p>1. Irakurketa bikoitz horrentzako proposatzen diren bi egiturentzako ebidentzia gisa kuantifikazio existentzialaren gaineko murriztapen sintaktikoa erabiltzen da: <ref type="formula">(2)</ref>  <ref type="formula">(6)</ref> adibideek irakurketa aukera pare-parekoak dituzte, bietako (a.)n DS-k irakurketa bakar, definitua hartzen baitu, eta (b.)n DS-k biak onartzen baititu. Ikus ditzagun, baina, (7)n emango ditudan esaldiak, (6)koen pareko direnak oro har, elementuen hurrenkeran izan ezik. Hona hitz hurrenkera kanonikoaren araberako (6)ko esaldien moldaketa:</p><p>(7) a. Gizona tren horretan iritsi da.</p><p>b. Ardoa tren horretan iritsi da.</p><p>Alde nagusia (6b.)tik (7b.)rako honetan dugu: ez dut beharbada oso termino ortodoxotan formalizatuko, baina itxura guzien arabera, DS aditzetik urrutiago, kanpora atera ahala, irakurketa existentziala galtzen da. Honi begira, seguraski gorde genezake kanpo-argumentuen murriztapenera eraman gaituen intuizioa, eta bide horretatik beste hauek ere azaldu. Ez dugu hemen, hala ere, fenomenologia honen azalpena ematen hasteko asmorik, noski topiko eta galdegai kontuak sartu beharko -A EUSKAL ARTIKULU DEFINITUAREN GAINEAN ZENBAIT OHAR 655 bailirateke jokoan; era berean, ez dugu adibide hauen araberako egitura proposamenik egingo DS-ri dagokionez, helburua ez baita oraingoz hori, izenen hautaketan bestelako irizpideak ere aintzat har daitezkeela gogoratzea baizik.</p><p>Dena dela ere, adibide hauek berresten dute atal honetan adierazi nahi izan duguna, hots, irakurketa aukerei dagokienez izen ezberdinen arteko aldeak azaleratzea, ikusten den bezala (5a.), (6a.) eta (7.a)ko gizona-k beti irakurketa bera baitu, ardoa bere konparagaiak ez-bezala. b) Lehenago ere aurreratu dugu, baina modu esplizitoagoan gogoratzekoa da, izena biltzen duen DS-ren funtzio sintaktikoaren arabera ere irakurketak aldatzen direla. Adibide hauetan, Artiagoitiak bere lanean agertu duen kanpo-argumentuaren gaineko murriztapenaz gain, barne-argumentuaren gaineko murriztapena ere agertzen da:</p><p>(8) a. Julenek autoa erosi du.</p><p>b. Autoa etorri da.</p><p>(8a.)ko autoa-k bi irakurketak dituen bitartean (8b.)koak bakarra onartzen du, erreferentzia definituarena, hain zuzen ere. Bi perpaus hauekin, beraz, ikusten dugu nola DS berak, subjektu edo objektu gisa aritu, interpretazio diferenteak hartzen dituen. Orain, barne/kanpo argumentuen terminologiara itzultzen bagara, ikusten dugu (8a.) zein (8b.)ko autoa barne-argumentua dela bietan, irakurketa diferenteekin batean eta bestean. Hau dena gogoan hartuz, beraz, kanpo-argumentuen murriztapena osatu beharko da, beharbada, ez baitira soilean horiek irakurketa bakarreko murriztapena dutenak; era berean, aipatu ditugun barne-argumentu horietan behintzat egiletasuna, jasaletasuna eta halakoak hartu beharko dira irizpide seguru aski, (8)k iradokitzen duen bezala bai baita alderik argumentuaren rol tematikoa "aktiboagoa" edo "pasiboagoa" den, 7 egiletasun mailari gagozkiolarik, jakina.</p><p>Atal honetan eztabaidara ekarri ditudan datu gehigarrien azalpenik ez dut eman, ez behintzat beharko nukeen moduan, Artiagoitiak darabiltzan egiturazko eta proiekzio funtzionalen terminoetan; baina atal honen helburua ez zen hori, eta bertan gogora ekarri nahi izan dudan gauza bakarra ondokoa da: artikulu definitudun (-a-dun) DS-en irakurketak (bere erreferentzialtasunari dagokionez) hainbat faktoreren araberakoak direla, horien artean DS horretan biltzen den izenaren izaeraren araberakoa eta baita DS horrek perpausean hartzen duen funtzio sintaktikoaren araberakoa ere. Puntu horiek ere aintzat hartzekoak izango dira, beraz, egungo euskal DS-ren egitura funtzionala ezaugarritze aldera, baina baita, orain ikusiko dugun bezala, artikulu definituak IS ezberdinen artean izan duen hedapen diakronikoa arakatzeko tenorean ere. Horretara joko dugu orain.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Greenberg (1978) eta Company (1991)</head><p>Egungo euskal artikulu "definituak" duen jokabidea, bestalde, erakusleak artikulu "bihurtzen" dituen prozesuaren puntu bateko isla gisa ikusi beharrean gaude. Bilakaera horrengatik ditugu, besteak beste, hizkuntzen arteko artikuluen erabilera diferenteak, baita antzekoenetan ere; ikus Artiagotiak berak <ref type="bibr">(1998 eta 2003)</ref> ematen dituen ingelesaren eta erromantzearen adibideak, biak ere elkarrengandik hurbilago euskararengandik baino, artikulu definituen jokabideaz denaz bezainbatean, bederen. Hizkuntzen arteko alde hauen iturria bakoitzaren garapen diakroniko diferentean ezarriko dugu guk; honek, argi da, artikulu definituaren definizioa zailtzen du, gogoan hartuta gainera kontzeptu hori Europako hizkuntzetatik abiatutakoa dela. Horrela, bada, zenbait hizkuntzatan artikulua ba ote zen ezartzeko, jadanik bere gramatiketan kontzeptu hori onartua zuten hizkuntzetara jo izan da, Europakoetara, alegia (ingelesa, frantsesa, kasurako). Artikulu definituaren kategoria hori, beraz, hizkuntza-arteko erkaketatik etorri da zenbait horietan; adibide onak dira auzi honetarako Montagnais hizkuntza algonkiarra <ref type="bibr" target="#b6">(Cyr 1993)</ref>, non artikulua zer den eta zer ez den arazoaren muina jotzen den, eta txinera bera, <ref type="bibr" target="#b17">Huang (1999)</ref> lanean jorratutakoa. Bi hizkuntza hauetan abiapuntua bera da, hizkuntza horietako gramatiketan ez baita inoiz artikulu definituaren kategoriarik aitortzen; hartara, Cyr-ek "cross linguistic quantification" delakoaren bitartez, eta Huang-ek antzeko irizpideak erabilita, ezartzen dute bere hizkuntzetan erakusletzat jo izan dena askotan artikulu definitua dela soilik, berau hartzen duten egiturak eta hedadurak beste hizkuntzetako artikuluarekin baitira parekagarri, eta ez erakusleekin. Lan hauen hazia, atal honetako gai nagusira itzuliz, Greenbergek (1978) emandako erakusle/artikulu definitu/izen markatzaile morfemen bilakaeraren ezaugarritzean aurki dezakegu. Bertan hiru aro proposatzen dira hasieran erakusle zen morfema horren hedapenean, lau aro, aintzat hartzen badugu zero aroa erakuslearena dela. Bilakaera honen "bukaera", inon bukaerarik bada, hirugarren aroan ezartzen du, non behialako erakuslea izen guztietan ageri den marka hutsa baino ez den, hauen izentasuna baino adierazten ez duena. Honen adibide hausa hizkuntza txadikoa litzateke, Nigeria eta Nigeren hitz egiten dena; bertan izenen %99ak amaierako bokal luze bat erakusten du, garai bateko artikuluaren aztarna. Eman dezagun horren adibideren bat, bokal laburreko bertsioa ere baduen izen batena, esanguratsuagoa daitekeelakoan: beti ere Greenbergi jarraiki, gàmbóó hitza bikien ondoren jaiotako umea adierazteko erabiltzen den izen arrunta da eta Gàmbó, aldiz, izen arrunt horren bertsio bokal luze gabea, ume horri eman dakiokeen izen berezia. Esanguratsua da izen berezia izatea bokal laburra daukana, hain zuzen ere halakoak, pertsona izenak, izaten baitira artikulua hartzeko zailtasun handienetakoak dituztenak hizkuntza guztietan oro har, bere berezko definitutasuna medio. 8 Era berean adierazgarri suertatzen da horrelakoez gain mailegu berriak izatea bokal luzerik gabekoak, azaleraziz izen horiei ez zaiela inongo artikulurik ezartzen beste izen zaharretan artikuluaren konzientzia ere galdua baita. 9 IS-ek, beraz, bere baitan dute txertatua garai bateko erakusle/artikulu definitua halako hizkuntzetan. Tarteko aroak ezaugarritzeko, I eta II deitzen dituena, egitura diferenteak ekartzen ditu gogora, eta horietan izenen forma artikuludunak edo artikulugabeak nagusitzen diren begiratzen, esaterako esaldi existentzialen subjektuak, predikatuak… Arazoa da II. aro hori ezaugarritzean modu negatiboan egiten duela gehienetan, esanez zein egituratan artikulua EZ den agertzen. Arazo honen harira gogora ekarri beharra dugu artikuluaren hedapenaz ari garenean asumitzen duguna: artikulua egitura eta sintagma batzuetatik besteetara hedatu dela, eta, beraz, aro diferenteetan hedadura diferenteak izan dituela. Era berean, pentsatzekoa da prozesu horren garai batzuetan artikulua hartu zuten egiturek, hurrengoetan ere hala gorde dutela, pixkan pixkana IS gehienetara zabalduz. Horrela bada, arestian aipatu dugun ezaugarritze negatiboak nahasmena ekar lezake, I eta II aroetako ezaugarriak nahasiz. Kontuak kontu, eta ikusita euskarak zein egituratan erakusten dituen artikuludun formak ondoriozta dezakegu Greenbergen araberako II.etik III. arorako horretan dagoela gure hizkuntza.</p><p>Baina aro eta sailkapenak baino, ezinbestean hertsiak direnak, beti da interesgarriago gauzak nola gertatu diren zehatz agertu eta deskribatzea, eta zein arrazoi eta jarraibide segitzen duen morfema horrek egituratik egiturara eta funtzio sintaktikotik funtzio sintaktikora hedatzean. Honetarako baditugu hizkuntza batetik bestera errepikatuak ikusten ditugun patroiak, hasieran erakusle zen elementu horren gramatikalizazio eta hedapenaren bilakaerarenak, eta hartara espainolaren, frantsesaren, suomieraren eta txineraren artikuluen garapenaren arteko antzekotasunak ikus ditzakegu. Companyk (1991) horrelakoen sistematizazioa egin zuen Erdi Aroko espainolarentzako, bi irizpide nagusi bereiziz espainolaren artikulu definituaren zabaltzerako: batetik IS-ek zuten funtzio sintaktikoarena, eta bestetik IS horietako buru zen izenaren izaera semantikoarena. Bigarren irizpideari jarraiki, ikusi zuen eskala moduko baten arabera zabaldu zela artikulua; izen zenbakarriak berak aztergai dituen mendeetarako artikulua txertatua dute, eta ondoko izen mota hauetan hurrenkera jakin hau izan zuen artikuluaren hedatzeak:</p><p>1. Lehenik giza izen generikoetara zabaldu zen (moros, maestros…). 2. Gero erreferentzia bakarreko izenetara (infierno, paraíso, sol…). 3. Azkenik izen abstraktuetara eta zenbakaitzetara, egun ere bariazioan direnak (fuego, alma…).</p><p>Bestalde, perpauseko funtzioaren arabera, eta izenarentzat subjektu, objektu eta preposizio sintagma posizioak hartuz aintzat, ondorio du subjektu posizioa izan zela artikuluaren zabaltzearen bultzatzaile. Momentu berean, <ref type="bibr">Huang-ek (1999)</ref> txinerazko artikuluarentzako objektua ematen du aldaketaren abiagune; 10 dena den, garrantzizkoa dena hemen zera da, perpausean IS-k duen funtzioak baduela artikulu definituaren hedapenean zeresana, eta hobeki azaldu beharreko gertakaria dugula hau ere. 658</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Sinkronia eta diakronia</head><p>Aurreko bi azpiataletan, artikulu definituaren alderdi sinkronikoaz arduratzen zena bata, eta alderdi diakronikoaz bestea, bi irizpide nagusi eman ditugu berorren azterketarako ezinbesteko suertatzen direnak: batetik ikusi dugu izenen izaera semantikoari begiratzeak zein esangura duen bai determinatzaile sintagmaren egiturazko azterketa sinkronikoarentzako bai artikuluaren hedatzea diakronikoki horren arabera neurtzeko. Bestetik agerian utzi dugu ikuspegi diakronikoan zein sinkronikoan izena hartzen duen determinatzaile sintagmaren funtzio sintaktikoak ere eragina duela artikuluaren jokabide sinkroniko zein hedatze diakronikoan.</p><p>Ikusi dugunez, deskripzio sinkroniko batek zenbait irizpide gehigarri ere bere barrenean hartu beharko luke, hain zuzen ere artikulu definituaren hedatze diakronikoan ere esanguratsu direnak. Hortxe sinkroniaren eta diakroniaren banaezina.</p><p>Bada ahantzi gabe gogoratu nahi nukeen azken gauza bat: joera diakroniko gisa Greenbergek zera aipatzen du, hasieran artikulu definitudun diren izenek izen sintagma huts izaten bukatzen dutela, garai bateko artikulua izen markatzaile soila delarik izen horietan (hausa hizkuntza afrikarra eman dugu 2.2. atalean). Bestalde ikusi dugu, Artiagoitiak gerora baztertzen badu ere, izen artikuludun zenbaitentzako badela, egituraren arabera, beroriek IS huts gisa analizatzeko aukera logikoa. Pentsa genezake aukera hau arestian aipatutako joera diakronikoaren isla izatea, DS-ren egitura analizatzeko aukera onena ez bada ere. Honen guztiaren erakusle, beharbada, zenbait hizkeratan gerta daitezkeenak ditugu, mendebaldeko IS-k artikuludun eta erakusledun batera izan ahal izatea, kasurako, baina baita Bidasoa aldean entzun daitezkeenak ere, laguna bat eta halakoen modukoak. Nago, Artiagoitiaren analisietan ere, horrelakoak modu bakarrean analiza daitezkeela eta hain zuzen "artikuludun" izena IS huts gisa hartuz dela modu hori, bestelako proiekzio funtzionalik behar izan gabe.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Artikuluaren hedatzerako ebidentzia dialektologiatik: Ekialdeko euskarak</head><p>Oraintxe berean aipatu dugun Bidasoa aldeko gertaera lokal horretaz gain, badugu euskal dialektologian orain arte aipatutakoen erakusle zabalago eta hedapen handiagokorik; adibiderik agerikoena ekialdeko euskaretan artikulu definituarekin gertatzen (ez) direnetan dugu. Gauza jakina da ekialdeko euskara horietan artikulua gutxiago erabiltzen dela, edo, esan dezagun bestela, mendebaldean -a ezarriko litzatekeen hainbat testuingurutan ekialdean ez dela jartzen. Honen muturreko adibide gisa erronkarierazko zitazio formak aipa ditzakegu, non, beste euskalki guztietan ez bezala, edozeren izenaz galdetuz gero artikulurik gabeko formak ematen zituzten, Traskek (1997: 200) aipatzen duen bezala; adibideetarako Mariano Mendigachak Azkueri bidaltzen zizkion gutunetara jo daiteke, Irigoyenek (1957) argitara emanak.</p><p>Eman dezagun orain ekialdean gertatzen direnen berri, zehazki Behe Nafarroako 11 datuak ekarriz gogora, aurreko ataletan agertutakoei bestelako adibideak gehi-tzeko; hartara ikusiko dugu nola bariazio diatopikoak ere lehen aipatu ditugun irizpide gehigarrien balioa berresten duen. Esaldi existentzialak, predikatuak eta objektu pluralen gorabeherak aipatuko ditugu banaka: Berriz ere dugu hemen izenaren izaera semantikoaren araberako banaketa. Bide batez, bitxia dena da horrelako egitura batean subjektuak artikulua hartzea, goiko ogia adibide, <ref type="bibr">Milsark-ek (1977)</ref> definitutasunaren murriztapenarekin gogoratzen duen bezala horietan espresio definituak baztertzen baitira.</p><p>Zer gertatzen da ekialdeko hizkeretan, iparraldekoak esaterako? Horrelako adibideak aurki ditzakegu:</p><p>(10) a. Bada jende kanpinean. <ref type="bibr">12</ref> b. Bada toki kanpinean. <ref type="bibr">660</ref> Ikusten da, mendebaldean artikulua hartuko luketen bi izen ez-zenbakarrik hizkera hauetan ez dute artikulurik hartzen, Milsarken (eta beste hainbaten) arabera espero genukeen bezalaxe, bestalde. Hau kontuan hartuta, pentsatu beharrekoa da halakoetan ageri den artikulua ez dela zinezko artikulu definitua, beste zerbait baizik. Horrexen isla beharko genuke ikusi Artiagoitiaren analisia, honek -a determinatzailea ez den buru funtzional batean ezarri beharrean kausitzen duenean bere burua.</p><p>2) Predikatuak. Hauetan ere aurrekoaren antzeko zerbait gertatzen da: mendebaldean artikuludun formak ditugun bitartean, ekialdean ez da hala; Greenbergek (1978: 67) dioenaren arabera, bestalde, II aroko hizkuntzetan izen predikatuek ez dute artikulurik hartzen, ezta predikatu adjektiboek ere. Ikus dezagun, beraz, zer gertatzen den gure datuekin (etzanean interesaren gune den sintagma):  <ref type="formula">(13)</ref>ri begira batek galde lezake zein joko duen adjektibo bakoitzaren izaerak; azken galdera hau <ref type="bibr" target="#b24">Milsark (1977)</ref>ko lanetik eratortzen da zuzenean. Bertan, esaldi existentzialen ezaugarritzerako, berorietan zein sintagma mota diren zilegi aztertzen da, azkenerako zenbatzaile "ahul" eta "gogor" deitzen dituenen arteko ("weak" eta "strong") aldea esanguratsutzat joz (gogoan izan artikulu definitua "gogor"tzat hartzen duela, beronen existentzialetako subjektuan agertzeko ezintasuna agertuz horrela). Era berean, gogora ekartzen du "There Insertion" onartzen duten predikatuetan (hots, esaldi existentzialetan predikatu izan daitezkeenetan) badela adjektiboaren izaeraren araberako muga bat: behin-behineko egoera adierazten dutenak (gaixorik, harrituta…) onargarriak dira esaldi horietan, baina denboran zehar dirauen ezaugarria adierazten dutenak ez (argia, altua…). Pentsatzekoa da esaldi existentzialetarako ingelesez agertzen den murriztapen modu honek badezakeela zerikusirik izan artikuluaren hedapenean jokoan diren irizpideekin. Berriz ere izango genuke, hortaz, izen mota baten barrenean, adjektiboetan kasu honetan, artikuluaren hedatzea azaltzeko garrantziazko datekeen banaketa, kategoria honetan bi adjektibo talde bereiztuz. Dena dela ere, aiher naiz horrelakoak zenbat eta ekialderago jo, zubererara, alegia, zalantza gutxiago ematen dutela, forma artikulugabeak nagusi baitira. Ez dugu hemen alde ttiki hauen guztien azterketa xehekatua burutuko, baina argi da, (12) eta (13)ren arteko bariazioari begira ikusmiran jartzen zaigu etorkizunean egin beharreko lana, hizkeraz hizkerako artikuluaren erabileraren xehetasunak biltzearena, alegia.</p><p>3) Objektu pluralak. Kasu honetan objektu pluralez hitz egin beharrean gaude, izan ere, barne argumentuaren etiketa ez baita egoki. Artiagoitiaren lanean barne argumentuak ziren irakurketa bikoitza zutenak (trenak heldu dira eta trenak ikusi ditut bezalako adibideetan), baina orain aipagai ditudan eta pluralei dagozkien fenomenoak aditz transitibo zenbaiten objektuetan baizik ez dira gertatzen. Onena adibideekin abiatzea izango da:</p><p>(14) a. Bertsu kantatzen ari izan gira.</p><p>b. Bertsien kantatzen ari izan gira.</p><p>Egia da mendebaldean ere (14a.)koen antzekoak ere baditugula, onddo biltzera joan gara eta halakoak, baina nago aski eihartua dela horien erabilera; aldiz, (14)ko adibideetan, badirudi eman ditugun bi adibideen arteko kontrastea produktiboa dela, hots, a.ko irakurketa bakarra existentziala litzateke, eta b.koak, mendebaldean ez bezala, irakurketa bakarra izango luke, definitua berau. Bada egitura modu honi egin beharreko zenbait ohar, hala ere: itxura guztien arabera, aditz izenekin baizik ezin da kontraste hau egin, aditzaren aspektua ez-burutua denetan, beraz. Hau horrela gertatzea aise uler daiteke <ref type="bibr" target="#b15">Hopper &amp; Thompson (1980)</ref>en ematen duten eskalaren arabera, non izenen definitutasuna eta aditzen aspektua harremantzen diren; harreman honetan aditzaren aspektu ez-burutuak bere objektuaren irakurketa ezdefinitua bultzatzen du eta ez-markatuenetzat jotzen. Horrelako testuinguruak dira, dirudienez, inongo definitutasun markarik hartzen ez dutenak, edo gutxienean beranduen hartzen dutenak, ekialdeko euskara hauek erakusten duten bezala. Azke-nik, honen guztiaren argitara pluralaren jatorrizko zentzua irakurketa definituarena zela pentsatzeko bidean jar gaitezke, datu hauek irakurketa existentziala beranduagoko zen ebidentzia gisa hartuta.</p><p>Ez da bete-beteko azterketa izan hau, bai baitira noski beste hainbat egitura eta testuinguru artikulu definituaren hedatzean esanguratsu direnak, baina balio bezate euskalkien arteko alde hauek artikulu definituaren hedatzearen xehetasunak argitzeko, askotan, ikusi dugun bezala, aldeak zinez txikiak baitira, eta aldaketa mikroparametrikoaren isla. Bada, beraz, lana testuinguruz testuinguru, irizpidez irizpide -a horren hedadura ondo ezartzen, prozesu diakronikoen ondorio gisa agertu eta egungo egoera sinkronikoa azaltzeko. Era berean, eztabaidara ekarri ditugun testuinguru edo irizpide gutxi hauek gauza bat adierazten dute, eta zera da, artikulu definituaren zabaltzea mendebaldeko euskalkietatik ekialdekoetara izan zela; honen haritik joko dugu hurrengo atalaren hasieran, beste zenbait arazo eta puntu interesgarri plazaratuz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Euskarazko artikulu definitua mendebaldetik ekialdera zabaldu zen</head><p>Gorago ere esan dugu euskaraz, beste hizkuntza askotan bezala, artikulu definitua erakusle urrunetik eratortzen dela diakronian. Ez da, hala ere, honako hau hipotesi arazorik gabea, ez eta bakarra ere; bai, ordea, arazoak arazo, egiantzekoena. *(h)a(r) erakusle urrunean ikusten dugunean egungo artikulu definituaren jatorria (besteak beste Trask 1997), ezin ahantz dezakegu jatorri horren inguruko zenbait auzi argitu beharko dugula, besteak beste berreraikitzen dugun erakusle hori noizkoa den, eta noizkoa Traskek supletibotzat eta beste batzuek <ref type="bibr" target="#b1">(Altuna &amp; Azkarate 2001)</ref> forma indartutzat jotzen duten hura, bizkaieraz ez beste euskalkietako forma. Artikuluaren jatorria erakusle urrunari estu lotzen zaion neurrian, erakusle urrunaren kontu hauek ere ezinbestean aipatu beharrekoak dira, gutxienean. Baina bada beste kontu bat, orain eta hemen bertan sakonago aztertuko duguna, erakuslearen eta artikuluaren arteko harremanean zeresana duena eta artikuluaren hedatze geografiko progresiboaren berri eman liezagukeena. Jo dezagun erronkarierak eskaintzen dituen datuetara, horixe baita oraingoan arduratuko gaituen arazoa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Erronkarierazko erakusle herskari ahoskabedunak</head><p>Erronkarierak erakusleetan ageri dituen herskari ahoskabeak zaharrenetzat jotzen baditugu, nola azaltzen dugu gramatikalizazio prozesuan bi hotsen artean suertatuko litzatekeen herskari ahoskabe hori erortzea (**etxe ka(r) &gt; etxea, **lan ka(r) &gt; lana)? Hona, argigarri daitekelakoan, herskari horietaz emandako iritziak:</p><p>[…] Aquí unos dialectos navarros, más conservadores al parecer, tienen una oclusiva dorsal inicial que falta en los demás: ronc. kaur, sal. kau, ronc. sal. kori, kura <ref type="bibr">[…]</ref>. Es natural pensar que la conservación de la inicial sólo era regular cuando se empleaban como adjetivos e iban unidos estrechamente al nombre precedente.</p><p>[…] En a.-nav. de Elcano, tanto los adverbios como los pronombres tienen inicial vocálica: or 'ahí', ori 'ese' 'usted', pero mai-goi 'esa mesa' <ref type="bibr">(Mitxelena 1961: 247</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Eta Traskena:</head><p>The Pyrenean dialects have kau(r), kori, kura, or gau(r), gori, gura for the demonstratives. There is no trace of such initial velars elsewhere, and these forms are mysterious. Michelena in several places concludes that the Pyrenean forms are conservative, and that all other varieties have lost the velars, but not everyone is convinced this is the right interpretation, and some would see the velars as representing some kind of reinforcing particle <ref type="bibr">(Trask 1997: 198)</ref>.</p><p>Bi aipamen hauek aintzat hartuta, argi da zein den eztabaidagune honetara ekarri nahi dudan arazoa: herskari ahoskabe horiek zaharrenak baldin badira, nola gertatu zen zehazki artikulurako bilakaera *ka(r) batetik (eta ez *ha(r) batetik!) ikusita ez dugula egungo artikuluaren erabileran hasierako hots horren inongo aztarnarik? Ez dirudi Mitxelenak kontu honi garrantziarik ematen dionik <ref type="bibr">(Mitxelena (1979: 451)</ref>):</p><p>Admitida la identidad inicial de demostrativos y artículos vascos […] los últimos sufren un cierto número de modificaciones […]: 2) la aspiración, de acuerdo con una regla más general que no conoce excepción, desaparece, de modo que hay -or y también, con otro pronombre -ori / hori, al igual que el alto navarro de Elcano distinguía -au, -o(r)i, artículos, de -gau, -gori, adjetivos demostrativos […].</p><p>Horra. Arazoa aurkeztuta, beronentzako zein irtenbide logiko atxeman dezakegun dugu hurrengo ekinbidea; hartara gogoratu zaizkidan hiru agertu nahi nituzke hemen, baina, jakina, baliteke besterik ere izatea: 1) Artikulua ez da *ha(r) bezalako zerbaitetik heldu. Hortaz, beste nonbaitetik bilatu beharrean gaude artikuluaren jatorria: -de Rijk (1992)ko *da(n)? Interpretazioak honakoa beharko luke: *da erakusle bat izan zen garai batean. Hau oso kontuz hartzeko eta garatzeko hipotesia da. -Bestalde, hor dago -aga ere, Mitxelenak berak noizbait behintzat aukera posible gisa azaltzen duena <ref type="bibr">(Mitxelena 1971: 146)</ref>:</p><p>[…] mis ideas no son nada claras en cuanto a la relación posible de -aga con el artículo singular, cuyo origen demostrativo es bien conocido. Jatorri alternatibo bakoitzaren aldeko eta aurkakoak hobeto adierazi behar dira hemen; hauek, bestalde, momentuan burura datozkidanak eta literaturan aurkitutakoak dira, baina horrek ez du esan nahi bakarrak direnik, ezta egokienak eta posibleenak ere.</p><p>2) Edo proposatu behar dugu ezaugarri hau mendebaldetik ekialdera zabaldu zela (honek euskalki bakoitzaren egituratzean dituen inplikazio guztiekin). Hots, mendebaldetik hasi zenean, erakuslearen gramatikalizazioa hasierako herskari hori galdua zuten formetatik abiatu zen, ha(r) hasperendun formetatik adibidez (ikus Eranskinean hasperen horren zenbait lekuko); hortik abiatuta, errezagoa da ulertzea edozein gramatikalizazio prozesutan gertatzen den morfemaren higadura fonetikoa, hasperena baita egungo egoerara iristeko galdu behar dena, eta ez bokal artean galtzeko zailago dirudien herskari ahoskabea (-k-). Horrela, erronkarierara artikulua iritsi zenerako erabat morfema beregain gisa ailegatu zela pentsatu behar dugu, erakuslearekin loturarik gabekoa. Hipotesi honek aldeko du egun euskalkiek erakusten duten egoera, ekialdeko euskaretako hainbat adibide artikulugabe azalduko bailitzateke honela, hirugarren atalean agertu ditugunak, kasurako. Beste gainerakoan, horrelako hipotesian sakontzeak euskar(ar)en banaketa soziogeografikoan eta bere historia-aurrean bideak irekitzen ditu.</p><p>3) Beste aukera da, Mitxelenaren goiko aipamen horretan ageri denaren aurka, Erronkariko erakusle herskaridunak (kaur, kori…) berriagoak izatea, nolabaiteko fortizio baten ondorio; Traskek <ref type="formula">(1997)</ref>   <ref type="bibr" target="#b25">(Mitxelena 1954</ref><ref type="bibr">(Mitxelena , 1961</ref>: Halsco, Talsco… Ikusteko dago bi hauetako alternantzia herskarien kokagune guztietara zabaldua zen.</p><p>Erronkarierazko erakusle herskaridunek mahaigainean jartzen duten arazoa moldatzeko emandako hiru aukeretatik bigarrena da egiantz handiena erakusten duena, besteak beste elkarrekiko independiente diren argudioak erabil ditzakegulako berori indartzen. Laburbilduz, bigarren aukera honek erakusletiko jatorriaren alde egiten du, orain arteko tradizioan aldarrikatu izan den bezala, eta artikuluaren mendebaldetik ekialderako hedatzearen ideia azterketaren jomugan ezartzen du. Beste aukerak izan badirela ahantzi gabe, hauxe hartuko dugu abiaburu eta neurri, beraz, hizkuntzaren beste hainbat alderdi aztertzeko tenorean, ondoren hizpide izango duguna, kasurako: mendebaldetik ekialderako zabaltze horretan nola txertatu zen artikulua postposizio sisteman?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Artikuluaren hedatzea eta postposizio sistema</head><p>Has dezadan atal hau <ref type="bibr">Mitxelenaren aipu batekin (1981: 48-49)</ref>, ondoren argitu nahi dudan auziaren muina aipatzen baitu bete-betean; atal honetan zehar ikusiko dugu gure ekarpenak zertan moldatzen dituen bertan adieraziak:</p><p>Hay, de todos modos, un argumento interno que aboga también por una fecha no remota [pluralaz ari da]. En vizcaíno, como se sabe, se cumple, en los temas nominales en -a, cierto fenómeno de acomodación (disimilatoria), cuando el artículo determinado sigue a esa vocal: de domeka «domingo», tendremos domekea «el domingo», erg. domekeak, etc. Pero esto, de manera por demás curiosa, sólo se cumple en singular, con la señalada excepción del locativo: domekaan, de donde domekan, pero nunca **-ean. De modo que, mientras de erg. sing. domeka + -a + -k sale domekeak, de abs. y erg. pl. domeka + ak […] no se sigue más que domekaak y, por contracción, domekak. Caben otras explicaciones desde el punto de vista descriptivo: no sólo caben sino que sin duda son necesarias. Pero no invalidan, ni pueden hacer concurrencia, a las explicaciones históricas que aquí se reducirían a afirmar que el plural, como el locativo sing., se formó en vasco en época ya tardía, cuando la ley que convertía a -a + -a en -ea, etc., ya no era operante.</p><p>Aipu hau abiaburu, 15 ezinbesteko aipagarri suertatzen da artikuluak deklinabide sistemaren osaeran izan zuen jokoa. Atal honetan, esan bezala, postposizio lokatiboaren inguruko bi auzi argitzen saiatuko naiz, bata Mitxelenak "señalada excepción" izendatzen duen hori, hots, lokatibozko postposizioak mendebaldeko euskaretan absolutiboak eta bestek lege duten disimilazioa ez erakustea (aldapea baina aldapan), eta bestea kontsonantez bukatzen diren izenetan lokatibozko postposizioak hartzen duen -e-epentetikoaren auzia (mendi-an baina lan-e-an), de Rijken (1981) eta besteren proposamenak gogoratuz.</p><p>Auziari sarrera emateko, kasu eta postposizioen artean lehenik egin litekeen banaketa seguraski artikuludun eta artikulugabeak bereiztearena da, eta bakoitzak artikuluarekiko zein jokaera duen ikustea. Egin daitekeen oinarrizko banaketa honakoa da: absolutiboak, ergatiboak, datiboak eta genitiboak artikuluarekiko "jarrera" bera dute. Besteei dagokienez, leku-kasuetan bereziki (lokatiboa, ablatiboa, adlatiboa) gauzak ez dira horren garbi: artikulugabe edo artikuludun diren ez da horren erraz erabakitzen. Instrumentala, bi komitatiboak (-rekin, -gaz) eta oro har genitiboaren gainean eraikiak direnak alde batera utziko ditugu oraingoz. 16 666 Ondorengo bi azpi-ataletan arestian aipatutako lokatiboaren inguruko bi auzi horiek xeheki aztertzen saiatuko gara; horretarako -e-epentetikoarenarekin hasiko gara, eta 4.2.2. azpi-atalean Mitxelenaren aipuan adierazitakoa jorratuko dugu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.1.">Lokatibozko *-eCan forma berreraikiarentzako proposamen berria</head><p>Esan bezala, leku kasuetan bada zenbait gorabehera artikuluaz denaz bezainbatean: hasteko adlatibo arruntaren ondoan, -ra(t), baditugu Nafarroan -arat bezalakoak eta Zuberoan -alat bezalakoak. Oraingoan, dena dela ere, ez gara adlatibozko postposizioaz arituko, lokatiboa baitugu ikusmiran.</p><p>Lokatiboaz aritzeak luzeago joko du: ez da beti horren gauza segurutzat eman lokatibodun sintagmetan ageri den -a-hori artikulua dela (mendi-a-n, lan-e-a-n…). Mitxelenak, aipuan ikusi dugu, artikulutzat du lokatiboan agertzen den hori, baina Jacobsen, de Rijk eta Traskentzat, adibidez, -a-hori beste zerbaiten aztarna da, eta ez da artikulu definitua. Azken autore hauen proposamenaren nondik norakoa emango dut, eta azalduko nondik nora datorren haien ideia hori. Mahaigainean jartzen duten arazoaren abiaburua kontsonantez bukatzen diren izenek lokatiboa hartzen dutenean ageri den -e-epentetiko horren azalpena bilatu nahi horretan datza: ibarr-e-an, zuhaitz-e-an, lan-e-an bezalako adibideak dituzte hizpide, baso-an, etxe-an bezalakoen ondoan, bokalez bukatutako izenen gainean egindako lokatibozko sintagmak. Banaketa osagarri honi begira, beraz, <ref type="bibr" target="#b19">Jacobsen (1977</ref><ref type="bibr" target="#b34">), de Rijk (1981</ref> eta Traskek (1997) lokatiboaren morfemak *-Can formakoa behar zuela (C = kontsonante ezezaguna) aldarrikatzen dute. ibarrean &lt; iba-rreCan batetik eratorri beharko dugu, hortaz, eta basoan &lt; basoCan batetik. Arazoa balizko kontsonante horren nolakotasuna erabakitzerakoan heldu da: haiek -g-dela erabakitzen dute, hartara izen bizidunetan ikusten dugun lokatibo markarekin parekatuz (gizon-a-ren-gan bezalakoekin). Analisi honen arabera etxe-anen ageri den -a-, hortaz, ez da artikulu definitua, jatorrizko formaren aztarna baizik (etxe-gan &gt; etxe-_an &gt; etxe-Øan, gerora etxe-a-n gisa interpretatu dena). Baina proposamen hau ez da arazorik gabea; analisiaren puntu honetan bi gogoratuko ditut nik, Traskek (1997) berak ere aipatuak:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Nola azal toponimoetako formak Maulen eta Irunen bezalakoak izatea?</head><p>Haiek berreraikitako *-gan lokatibo horren arabera existitzen ez diren **Maulean, **Irunean behar genituzke, *Maule-gan eta *Irun-e-gan balizko protoformetatik eratorriak. Traskek honi zera erantzuten dio, toki izenetan agertzen den -n hori lokatibo zaharrago bat dela, toponimoetan gorde den arkaismoa. Argitu dugu (horren esperantza dut behintzat) lokatiboetan dugun -a-hori ere artikulua dela, eta ez *-gan bezalako zerbaiten aztarna. Jar gaitezen orain atal honetako izenburuan adierazten den txandakatzeari begira, 4.2. atalari hasiera eman dion Mitxelenaren aipuan ere jasotakoa: mendebaldeko hizkeretan, hortaz, -a-z bukatzen diren izenek artikulua hartzen dutenean zenbait disimilazio bilakaera agertzen dute, eta horrela aldapa + a &gt; aldapea 19 bezalako absolutiboak ditugu; bestalde, hasieran aipatu bezala, ergatiboak, genitiboak eta baita datiboak ere jokabide bera erakusten dute. Arazoa begien bistakoa da: zergatik ez da disimilazioaren emaitzarik agertzen lokatiboan, artikuluaren gainean eraikia bada? Hemen lokatibozko postposizioaren bilakaera diakroniko zehatza proposatzeko premia gailentzen da; horretarako deskriba dezadan xehean xehe orain artean bistaraturiko aukera: Jakina, horrelako proposamena egiteak berehalako inplikazioak ditu alde batean baino gehiagotan: hasteko, pentsatu beharrekoa da han eta hartan-en arteko harremana zein den zehazki, kronologikoa bereziki, bietan zaharragoa zein den erabakitzeko. Ez dirudi astakeria pentsatzea han, gerora adberbio gisa espezializatu bada ere, garai batean erakuslearen forma lokatiboa zela, Diesselen lanak <ref type="bibr">(1997,</ref><ref type="bibr">1999)</ref> lagun. Horrela bada, hartan egungo erakuslearen lokatiboa forma berriagotzat ematea ez da zaila, -ta-hori tarteko gainera. <ref type="bibr">21</ref> Hobeto azaltzeko geratuko litzateke berreraikitzean beti ematen den erakuslearen bukaerako -r hori, zenbait arazo eman bailezake agian. Baina ez dugu oraingoz horretan sakonduko. Itxura guztien arabera, eta aldarrikatu nahi genukeen bezala, <ref type="formula">(17)</ref>  Hemen irudikatu nahi izan dudana zera da, postposizio sintagma lokatibo definituaren garapena, beti ere absolutibozko sintagma definituak erakusten duen bilakaeraren kronologia erlatiboarekiko. Pluralarentzat pentsatu izan den bezala (ikus atal oso honi hasiera eman dion Mitxelenaren aipua) lokatibo definitua ere beranduagoko, edo bestela nahi bada, artikulu absolutibo singularra baino gramatikalizazio maila apalagoko kontua da; taulako lehen lerroan adierazi dugun hirugarren garaitik laugarrenerakoan dago gakoa, izan ere garai horretan gertatzen baita absolutiboan Bizkai-Gipuzkoetako disimilazio ezaguna. Lokatiboaren lerroan, aldiz, ikusten dugu ez dela orduan horrelakorik gertatzen, izena eta erakuslearen arteko muga oraindik aski nabaria zela suposatu behar baitugu. Jakina, esan gabe doa honen arabera lokatibozko erakusle urrunak (han-ek) denbora luzeagoan gorde zuela bere izaera morfologiko izenarekiko berezia. Gogoratu beharrekoa da, halaber, absolutibo definitua eratzean gertatzen den hasperenaren galerak ez duela zertan bat egin hasperenaren galera orokorragoarekin, gauza jakina baita gramatikalizazio prozesuetan horrelako izaera fonologikoaren higatzeak edo leuntzeak arruntak direla.</p><p>Osa dezagun orain 2.1.1. ataleko arazoa argituko duen taula, 1. taulan eman ditugun garai erlatibo horiek errespetatuz; bigarren taula honetan, berriz ere, lehen lerroan garaiak adierazten dituzten zenbakiak jarri ditugu, bigarrenean absolutibozko formak, eta hirugarrenean lokatibozkoak; aldatzen den gauza bakarra zera da, bilakaera zein izen motari ezartzen diogun, hemen, esan bezala, kontsonantez bukatzen diren izenak izango baititugu jokoan:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Taula</head><p>Absolutibo eta lokatiboaren bilakaerak, kontsonantez bukatutako izenekin Espero dut bigarren taula honekin 4.2.1. atalean eman dudan arazoa ez dela honezkero arazo, gertaera bakoitzaren kronologia erlatiboa ondo zehaztuz gero argi geratzen baita absolutiboarentzako ez dugula zertan espero lokatiboan gertatzen dena. Horrela bada, bai kontsonantez bukatzen diren izenentzako bai mendebaldean -a bukaera duten izenentzako kronologia erlatibo bateratu bat eskaini dut, bi kasuetan ikusi izan diren gorabeherak ondo azaltzen dituena. Eman dezagun azken taula bat, aurreko bien batuketa baino ez dena, kronologia erlatibo bateratuak eskaintzen dituen azalpenak hobeto irudikatzeko xedez (ikus 3. taula).</p><p>Egia esan, lokatibo eta absolutibozko formen arteko garapen erlatiboa inportanteagoa da garai bakoitzarentzako eman dugun formaren sorrera eta iraupen erreala baino, bereziki hirugarren garaitik laugarrenerako jauzian, non -a-z bukatutako izenen absolutibozko formetan disimilazioa gertatzen den; honekin batean, aintzat hartu behar den puntu nagusia zera da, garai horietan lokatibozko erakuslea, postposizio lokatibo definitua emango zuena, aski beregaina zela, ez erabat IS-n txertatua. Bertatik literaturan aipatu izan den plurala eta lokatiboa beranduagokoak diren intuizioa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Taula</head><p>Kontsonantez zein -a-z bukatutako izenen bilakaera Azkenaurreko ohar gisa, 1. taulako datuak mendebaldeko gertaerak azaltzeko helburuz osatu den neurrian, emandako azalpen osoa euskara horientzako bete-beteko argibidea dugu. Euskara horietan dugu hiru izen motaren araberako banaketa osagarria: kontsonantez bukatzen diren izenak (lan), -a-z bukatzen direnak (aldapa) eta beste edozein bokalez bukatzen direnak (baso, mendi). Beste euskarak, -a-z bukatzen diren hitzekin disimilaziorik erakusten ez duten neurrian, bilakaera horrekiko indiferenteak dira; era berean, nago 2. taulan emandako bilakaera euskalki guztietan berdintsu gertatu zela.</p><p>Atal honetako azken oharra, aspalditxo hitz emana baitut, "zintzilik" utzi ditudan salbuespen horietaz arduratuko da. Badirudi badela hitz zenbait artikulu definitua hartzeko trabak dituztenak: absolutiboan 4.2.2. atalean gogoratutako aita, ama, aitite, amama eta lokatiboan 4.2.1.eko etxen~etxean, etxera~etxeara, soiñen. 23 Honetarako emango dudan azalpena hitz hauen izaera semantikoan bilatuko dut. Ez da, noski, nik aurkitutako azalpena; aitzitik, beste hizkuntzetako lekukotzek indartuko duten patroi ezaguna dugu hau. Izan ere, ikusten dugu hitz hauek erreferentzia bakarreko edo edute besterenezina adierazten dutenak direla; horrelaxe aurkeztuak heldu dira Himmelmann (1998) bezalakoen lanetan, eta halaxe eman digu aditzera Companyk ere (1991), gaztelaniazko erreferentzia bakarreko izenak artikulua beranduen hartzen dutenen artean daudela gogoratzean (ikus gorago, 2.2. atalean artikuluaren hedatzerako emandako eskala). Ez ahantz, bestalde, errege hitza nola erabili izan den euskal tradizio eta literaturan, Etxeparerekin hasita: artikulurik gabe eman izan da, eta zer, hain zuzen ere, gure errege baino adierazpide erreferentzia bakarrekoagorik? Hona hemen salbuespen horiek modu bateratuan azalduak, artikulu definituaren hedatzeaz hizkuntza-artean azalerazitako bilakabide orokorren argitara. Honenbestez, uste dut bizkaierazko baten dela salbuespen hauetan okerren azaldu dudana; ez dut oraingoz azalpen zehatzik buruan, baina agian ez gara oso urrun ibiliko berori artikulu indefinitu gisa hartzen badugu zenbatzaile baino, eta hortik artikulu definituarekin ezin elkartua.</p><p>Hona bada, atal honetan ikusi dugun bezala, artikuluaren zabaltzearen azterketak nolako laguntza ekartzen duen euskal deklinabidearen gorabeherak argitzen. Azterketa postposizioz postposizioz egin beharrekoa da, bakoitzaren nondik nora-koa xedatzeko; ez gara orain horretan arituko, baina balio beza lokatiboarekin burutu dugun saiotxoak bide horretan hasierako urrats gisa. Bukatzeko, gogoratu nahi nuke deklinabide sisteman artikuluaren hedatzea ezin dela aztertu gorago bezala, testuinguruka egin dugunean bezala; Himmelmann (1998)ri jarraiki, ondo ikusten da postposizioen (eta preposizioen) artean ere badela hierarkia jakin bat definitutasun markak hartzeko tenorean, eta askotan marka hori gabeak markadunak baino zaharragoak izan daitezkeela, baina baita alderantziz ere. Honetan guztian etorkizuneko lanetan sakondu beharko dugu, ezinbestean, seguraski bertan baitugu euskalkien arteko bariazio interesgarri eta ez erabat sakonki aztertua.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Laburbilduz</head><p>Lan honen arrazoibidearen ildoak ideia ezagun orokor baten gainean eraikiak dira: euskarazko artikulu definitua mendebaldetik ekialdera hedatu zen. 24 Bigarren atalean zabaltze horren patroien berri eman eta euskal artikulu definituaz egiten diren analisi sinkronikoekin uztartu nahi izan dut, azpimarratuz bi analisi mota horietan, sinkronikoa eta diakronikoa, izen mota eta testuinguru sintaktiko berberak har daitezkela irizpide. Hirugarren atalean "diakronia sinkronikoari" begira jarri gara ondoren, esan nahi baita egun euskarak dituen aldaera dialektologikoei begira, ikusiz horietan ere irizpide beretsuak har zitezkeela aldaerak azaltzeko. Azkenik, laugarren atalean bi ohar ematen ditut: bata erronkarierazko erakusle herskari ahoskabedunez, zeintzuen arabera mendebaldetik ekialderako artikuluaren zabaltzea berresten den, eta bestea postposizio sisteman zabaltze hori nola gertatu zen argitu nahian, lokatibozkoan bereziki sakonduz, zenbait lanetan berreraiki izan den *-gan lokatiboa baztertuz eta -g-ren ordez postulatu beharreko kontsonantea -h-zela aldarrikatuz.</p><p>Nolanahi ere den hori guztia, bada beste ildo nagusi bat gai hau diakroniaren ikuspegitik aztertzen dugunean, lan honetan batere jorratu ez duguna: artikuluaren beraren sorreraren auzia da, barruan beste hainbat azpi-atal biltzen dituena. Artikulu definitua bezalako zerbait agertzearen motibazioa, horrelako kategoria funtzional berri bat sortzeko hizkuntzak bere garaian eskaintzen zuen testuinguru tipologikoa, artikulu definitua agertu baino lehenagoko definitutasuna markatzeko moduak zein izan ote zitezkeen… horrelako galderetan sakontzeak hizkuntzaren egitura orokorraren berri asko eman diezaguke, eta guk lantxo honetan hartu dugun ildoaren ezinbesteko osagarria izan behar dira halako hausnartzeak. Oraingoz, baina, ez da horretarako parada izango lan honetan, eta hurrengoetan argitara emango ditudan ideietan espero dut ildo horri ekin eta emaitza interesgarriak ekartzea.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>nahi genuke, modu labur batean, egituraren azterketa sinkroniko baten eta bilakaera diakronikoaren arteko harreman zertan den, eta bateko eta besteko emaitzak nola uztar eta ez hain modu diferentean uler daitezkeen.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>-</head><label></label><figDesc>Esan bezala, izen artikuludunaren gainean -n gehituz eratu zen postposizio hau. Hona bilakaera kronologikoa, laburbilduz eta zenbait pausoren abstrakzio eginez: (15) etxe + ha &gt; etxea etxea + n &gt; etxean baina (16) aldapa + ha &gt; aldapea aldapea + n &gt; **aldapean Lokatiboa izen artikuludunaren gainean eraiki izan balitz disimilazio gertaera horiek berdin-berdin erakutsi beharko lituzke, (16)ko adibideak adierazi nahi duen bezala; argi da horrelako azalpen bat ez dela baliagarria, egun aldapean bezalako lokatiborik ez baita entzuten. 20 Honek tinko segitzen duen galdera berriz ere pausatzera garamatza: zein izan zen lokatibozko postposizio definituaren eraketa zehatza? Hona bada gure hipotesia, (15) eta (16)k asegabe utzi duten galdera erantzuteko dakardana: -Lokatibozko postposizio definitua izen hutsaren gainean lokatibozko erakuslea gehituz eratu zen. Hona eskema, berriz ere tarteko pausoen abstrakzio eginez: (17) etxe + han &gt; etxean (18) aldapa + han &gt; aldapan -A EUSKAL ARTIKULU DEFINITUAREN GAINEAN ZENBAIT OHAR 669</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Ohar orokor gisa, azken bi puntu hauek ere barne hartzen dituena, gogoratu beharrekoa da DS-en egituren proposamen hau bi izen mota jakinen gainean eraiki dela, zenbakaitzak eta pluralezkoak soilik aintzat hartuta, hain zuzen.</figDesc><table><row><cell cols="4">2.1.1. Artiagoitia (2003)ren proposamenarentzako datu gehigarriak</cell><cell></cell></row><row><cell cols="5">Bada Artiagoitia (2003) lanean esplizitoki agertzen ez den auzi zenbait DS arti-</cell></row><row><cell cols="5">kuludun, artikulugabe eta haien irakurketa aukeren inguruan. Adibide zehatzen bi-</cell></row><row><cell cols="5">(3) a. tartez agerrarazten saiatuko naiz. DS a) Badirudi irakurketa aukerak izenaren izaera semantikoaren araberakoak ere b. DS</cell></row><row><cell>badirela:</cell><cell>XS</cell><cell>D</cell><cell>XS</cell><cell>D</cell></row><row><cell cols="2">ardoa (5) a. Gizona 5 iritsi da.</cell><cell>Ø</cell><cell>ardo b. Ardoa 6 iritsi da.</cell><cell>a</cell></row><row><cell cols="5">Bi adibide hauetan aldagai bakarra izenen (gizona, ardoa) izaera semantikoa da:</cell></row><row><cell cols="5">(5a.)n izena zenbakarria da eta irakurketa bakarra bideratzen du; eta (5b.)n, aldiz,</cell></row><row><cell cols="4">izena zenbakaitza da, eta bi irakurketak onartzen ditu.</cell><cell></cell></row><row><cell cols="5">(4) a. Bada horrelako adibideen harian aipatzekoa den beste kontu bat, ez seguru aski DS b. DS hemen agertu nahi dugun ideia nagusiarekin zerikusi zuzena duena baina bai, be-</cell></row><row><cell cols="5">XS harbada, barne eta kanpo argumentuen arteko irakurketa ezberdinen auzian zere-D XS D sana eman lezakeena; izan bezate ondoko adibideok eztabaidan sartu berri diren da-</cell></row><row><cell>tuen balioa:</cell><cell>trenak</cell><cell>Ø</cell><cell>tren</cell><cell>ak</cell></row><row><cell cols="3">(6) a. Tren horretan gizona iritsi da.</cell><cell cols="2">b. Tren horretan ardoa iritsi da.</cell></row><row><cell>(5) eta</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note>ko adibideko kanpo-argumentuan gaineko irakurketa bakar horri be- giratuko diogu. 2. Bi egitura horiek proposatzearekin batera etortzen den XS horren izaeraren auzia, eta IS gisa hartzearen aukerari erreparatuko diogu.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>1) Esaldi existenzialak. Hauetan badirudi badela lehenago aipatutako izen zenbakarrien eta zenbakaitzen arteko aldea. Hualde &amp; Ortiz de Urbina (2003) lanean bitan aipatzen dira, gutxienez, egitura existentzialak, behin artikuluaren gorabeherez ari direla, eta beste behin esaldi existentzialen deskribapena emateko tenorean. Bi hauek aipatzen ditut bietan adibide modu diferenteak ematen baitira existentzialei dagokienez. Eman ditzagun Trasken lan horretako hitzak (2003: 119-20): The label 'definite article' is misleading, since the article is of much broader use than the English definite article. It occurs: […] (e) in an NP which is the subject of a non-negative existencial sentence […] (73) Ogi-a dago mahaian Eta esaldi existentzialak direnean hizpide Etxeparek (2003: 368) du hitza:</figDesc><table><row><cell cols="2">Existential sentences are constructed with the verb egon in most Basque dia-</cell></row><row><cell>lects:</cell><cell></cell></row><row><cell>[…] (513) b. Gizon bat atean dago.</cell><cell></cell></row><row><cell cols="2">Bi hauetarik ondorioa argia da, esaldi existentzialeko subjektua den IS-ren izena</cell></row><row><cell cols="2">zenbakaitza baldin bada artikulua hartzen du, baina ez zenbakarria baldin bada</cell></row><row><cell>(mendebaldean bederen):</cell><cell></cell></row><row><cell>(9) a. **Gizona dago gelan.</cell><cell>vs. a'. Gizon bat dago gelan.</cell></row><row><cell>b. **Liburua dago gelan.</cell><cell>vs. b'. Liburu bat dago gelan.</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>zenbateraino gauzak berdinak diren, baina balio bezate hauek artikuluaren agertzearen aldagarritasunaren adierazle. Hauen baiezko ordainak, beste hainbeste egitura esanguratsu bezala, kanpo uzten ditut oraingoan, besteak beste luze joko bailuke egitura eta testuinguru esanguratsu guztien zerrenda eman eta adibideztatzeak. Etorkizunik hurbileneko lana da hau, argi da. Bestalde, gogora ekarri nahi nuke ezezkako esaldiak, denbora hipotetikoak eta abarrek izenen erreferentzialitatearen gainean duten eragina (Hopper &amp; Thompson 1980), eta hartara Greenbergek berak ezezkako esaldiei esangura berezia ematen die artikuludun-artikulugabe formez ari denean. Segi dezagun, bada, adibide gehiagorekin: (13) Predikatu adjektiboa II a. Etxea handia da. vs. a'. ?Etxea handi da. Ekialdean b. Etxea handia da. Mendebadean Ikusten dugun bezala, predikatuaren gune izena denean ez da duda handirik: ekialdean forma artikulugabea eman dezakete eta mendebaldean ez. Aldiz, adjektiboa denean predikatu gauzak ez dira horren garbi ageri (ekialdeko erabileraz ari naiz, jakina, mendebaldean, b.koak, beti forma artikuluduna baititugu). (12) eta (13)ko adibideekin erakutsi nahi izan dut, beraz, ekialde horretan egun dugun ba-riazioa adjektiboen eta artikuluen arteko elkarreragintzari dagokionez. Ez dut orain sakonduko zeri egotz dakiokeen adjektiboen arteko jokaera diferentea; baliteke, lehen esan bezala, ezezkako esaldiek eragina izatea horretan, baina (12) eta</figDesc><table><row><cell>(11) Izen predikatua</cell><cell></cell></row><row><cell>a. Jon mediku da.</cell><cell>Ekialdean</cell></row><row><cell>b. Jon medikua da.</cell><cell>Mendebaldean</cell></row><row><cell>(12) Predikatu adjektiboa I</cell><cell></cell></row></table><note>a. Ez da polit (horren egitea). vs. a'. ?Ume hori ez da polit. 13 Ekialdean b. Ez da polita (hori egitea). vs. b'. Ume hori ez da polita. Mendebaldean Ezezkako adibideak dakarzkit hona hauek baitira eskura ditudan datuak; ez da- kit baiezko esaldietan</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>). Baina, 247. orrialdeko oharra En a.-nav. de Elcano tienen en cambio inicial vocálica tanto el demostrativo de 3.ª pers. en función de artículo como los otros dos en el mismo empleo: ene eriáu, nere escuáu […].</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>aukera hau aipatzen du, herskari horiek azaltzeko eman izan diren hipotesien barrenean. Galdera, hemen ere, zuzena da: zein hotsetatik abiatu zen balizko fortitio hori? Hasperenetik ala aezkerazko erakusleetan ikusten ditugun herskari ahostunetatik (gau, gori…)? 14 Kontuak kontu, hemengo sakoneko eztabaida, ikusten da, erakusleentzako forma zaharrak berreraikitzearena da, izan ere, Traskek gogoratzen duen bezala, ez baita hau oraindik erabakia eta aho-batez onartzen den auzia.</figDesc><table><row><cell>Agertu nahi izan dudan arazo honetan bada, azkenik, gogoratu beharreko zen-</cell></row><row><cell>bait datu, herskari ahoskabe eta forma hasperendunen arteko balizko alternantzia-</cell></row><row><cell>ren eta forma batzuen edo besteren antzinatasunaren adierazgarri:</cell></row><row><cell>-Egungo euskaran topatzen ditugun Zuberoako Gamereko Etxeberriko Karbia</cell></row><row><cell>(cf. Urkulu ondoko Harpea, berdina esanahiz) eta beharbada Peña Karria (ar-</cell></row><row><cell>tikuluarekin!) mendiaren izena.</cell></row><row><cell>-Egungo euskaratik atzera joz gero, hor ditugu Akitanierazko datuei begira ai-</cell></row><row><cell>patutakoak</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>Mendebaldeko euskaretan: absolutiboa aldapea, lokatiboa aldapan 18</figDesc><table><row><cell>668</cell><cell></cell></row><row><cell>4.2.2.</cell><cell>tela (ikus, argigarri, Angos (2005: 82)ko oinoharra). Ez dira, gainera, no-</cell></row><row><cell></cell><cell>lanahiko hitzak, Himmelmannek (1998) adierazten duen bezala halakoak</cell></row><row><cell></cell><cell>izaten baitira artikulu definitua hartzeko lan handienak dituztenak hizkun-</cell></row><row><cell></cell><cell>tza-arteko alderaketan; gogoan har Himmelmannek berak ematen duen ze-</cell></row><row><cell></cell><cell>rrenda, ingeleseko eta alemanierako forma artikulugabeekikoa: at home, zu</cell></row><row><cell></cell><cell>Hause… Eman dezagun, horretan ari garela, azken salbuespen bat, -a-gabe-</cell></row><row><cell></cell><cell>koa, alegia: Tartasek (1666: 41) soiñen darabilenean kurutzia soiñen ka-</cell></row><row><cell></cell><cell>rreiatu bezalako esaldietan ez du -ian (soiñian) forma orokorra ematen; de</cell></row><row><cell></cell><cell>Rijkek berak (1981: 93) adibide hau ekartzen du gogora, baita modu ilun</cell></row><row><cell></cell><cell>eta lauso batean azaldu ere: "[…] soiñen testu inguru honetan soiñian baino</cell></row><row><cell></cell><cell>artezago eta aproposago zirudiolako edo". Atal honen bukaeran espero dut</cell></row><row><cell></cell><cell>azalpen labur baina egokiago bat ematea horrelakoentzako eta baita aurre-</cell></row><row><cell></cell><cell>rago ikusiko ditugun beste salbuespenentzako ere. Oraingo honetan ere</cell></row><row><cell></cell><cell>Traskek ez du urrutiago jotzen, etxen formarentzako azalpena inguruko hiz-</cell></row><row><cell></cell><cell>kuntza erromantzeen eraginean bilatzen baitu, baina ez du baten formaz</cell></row><row><cell></cell><cell>deus esaten, ezta erronkarierazko adlatiboaz eta Tartasen horretaz ere.</cell></row><row><cell cols="2">Auzia honela aurkeztuta, aitortu beharrean gaude ez dugula ez bi lokatibo pro-</cell></row><row><cell cols="2">posatu nahi ez baten eta etxen bezalakoak ondo azaldu gabe utzi nahi. Hipotesi al-</cell></row><row><cell cols="2">ternatibo baten bila, egin dezagun de Rijkek eta bestek proposatzen dutenaren</cell></row><row><cell cols="2">aurka, baina ez erabat: onar dezagun hor, tartean, kontsonanteren bat behar ge-</cell></row><row><cell cols="2">nuela, lan-e-an bezalakoetako loturazko -e-hori azaltzeko, baina esan dezagun tar-</cell></row><row><cell cols="2">teko kontsonante hori ez zela -g-, hasperena baizik (ikus, gainera, Oñederraren</cell></row><row><cell cols="2">2005eko lanean -g-honek, maila sinkronikoan bederen, aurkezten dituen arazoak</cell></row><row><cell cols="2">zorrotz zerrendatuak). Hasperena artikuluaren jatorri beretik azaltzen da, *ha(r)</cell></row><row><cell cols="2">erakusleko hasierako soinu horretatik eratortzen baita 17 (ikus Eranskinean /h/ ho-</cell></row><row><cell cols="2">rren aztarnak). Gure ustez hipotesi honek aldeko du jatorri ezagun batean topatzen</cell></row><row><cell cols="2">duela kontsonante ezezagun hori, eta jakina, bertatik jarraitzen da lokatiboetako -a-</cell></row><row><cell cols="2">horiek artikulua edo artikuluarekin harremandutako zerbait direla. Buka dezagun,</cell></row><row><cell cols="2">baina, proposamen berri hau dakarren atal hau beronentzako arazo den zerbaitekin:</cell></row><row><cell cols="2">-Zergatik eragiten ditu jatorrizko balizko hasperenak emaitza diferenteak ab-</cell></row><row><cell cols="2">solutibozko eta lokatibozko formetan? Hots, zergatik dugun lokatibozko la-</cell></row><row><cell cols="2">nean baina ez absolutibozko **lanea, lan + ha(r) batetik eratorri nahi izan</cell></row><row><cell cols="2">duguna beti.</cell></row><row><cell cols="2">Arazo hau gogoan hartuta jo dezagun hurrengo atalera. Bertan beste auzi jakin</cell></row><row><cell cols="2">bat deskribatuko dugu, eta espero dut 4.2.3. atalean aurretik azaleratutako bi kontu</cell></row><row><cell cols="2">horiek modu bateratu batean azalduko ditudala. Baina, deus aurreratu gabe, ager De Rijkentzako, berriz, leku izenek ez dute -ga-hori, berezkoa baitute "lekutasuna". dezadan zein den bigarren kontu hori.</cell></row><row><cell cols="2">2. Baditugu, bestalde, Bizkaia aldeko baten eta ekialdeko (ipar Euskal Herria</cell></row><row><cell></cell><cell>eta Erronkari gutxienez) etxen forma ustez arkaikoak. Argudiaketaren ildo</cell></row><row><cell></cell><cell>beretik ditugu artikuludun eta artikulugabeko formen arteko txandakatzeak:</cell></row><row><cell></cell><cell>iparraldeko etxen niz ("nire etxean") baina Sophieren etxian, adibidez. Bada,</cell></row><row><cell></cell><cell>halaber, orain berean aipatu dugun erronkarieraz ere pare-pareko zerbait ad-</cell></row><row><cell></cell><cell>latibozko postposizioan, non forma orokorra -ara izaki etxera bezalakoak</cell></row><row><cell></cell><cell>erabiltzen diren norberaren etxea denean aipagai, eta etxeara bezalakoak bes-</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>Ikusi dugu, 4.2.1. atalean, zein zen arazoa: hasperena proposatzen bagenuen lan-e-an bezalakoen -e-epentetiko horiek azaltzeko, absolutibozko formak, lana eta ez **lanea, 22 "desazaltzen" genituen. Bestalde, 4.2.2. atalean ikusi dugu, mendebaldeko disimilaziodun formei jarraiki, hobe genuela lokatibozko postposizio definitua lokatibozko eraskusle zaharraren (han) gainean eratzea, absolutiboaren gainean eraikitzea baino. Bi auzi hauek elkarren osagarriak izan daitezke, eta batetik ateratzen ditugun ondorioak bestearentzako suposa dezakegun bilakaerari ondo egokitzen zaizkiola uste dugu; uztar ditzagun biak kronologia erlatibo zehatza eskainiz. Lehendabizi mendebaldeko euskaretan gertatutakoa irudikatuko dugu; lehen lerroan garaiak zenbakitu ditut, bigarrenean absolutiboaren bilakaera garai horietako bakoitzean eta azken lerroan lokatiboarena:</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">eta (18) adibideetan emandako lo-</cell></row><row><cell cols="7">katibozko postposizio definitua eratzeko modua egokiagoa da absolutibozko forma-</cell></row><row><cell cols="6">ren gainean eraikitzea baino, (15) eta (16) adibideetan irudikatua.</cell></row><row><cell cols="7">Lokatiboari eskainiko diodan azken atalean, hurrengoan, hemengo proposa-</cell></row><row><cell cols="7">mena (esan bezala (17) eta (18)koa) 4.2.1. atalaren bukaeran agertu dugun arazoa-</cell></row><row><cell cols="4">rekin uztartu nahiko dut. Jo dezagun horretara.</cell><cell></cell><cell></cell></row><row><cell cols="6">4.2.3. Lokatibo eta absolutibo definituen bilakaera kronologiko erlatiboa</cell></row><row><cell></cell><cell></cell><cell></cell><cell>1. Taula</cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="5">Mendebaldeko absolutibo eta lokatiboaren bilakaerak, bukaeran -a duten izenekin</cell></row><row><cell></cell><cell>1</cell><cell>2</cell><cell>3</cell><cell>4</cell><cell>5</cell><cell>6</cell></row><row><cell>ABS.</cell><cell cols="4">aldapa ha &gt; aldapa a &gt; aldapaa &gt; aldapea</cell><cell>…</cell><cell>…</cell></row><row><cell cols="7">LOK. (aldapa han) &gt; (aldapa han) &gt; aldapa han &gt; aldapahan &gt; aldapaan &gt; aldapan</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">Hizkuntzalaritzako tradizio honen bidetik bestelako lanak ere egin izan dira, umearen jabekuntza prozesua eta gramatikalizazio diakronikoarena paraleloan ezarriz. Honetan adibide esanguratsua da bi alor horiek determinatzaile sintagmarekiko aztertzen dituen<ref type="bibr" target="#b33">Osawa (2003)</ref> lana.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">Bi izarrekin adieraziak ematen ditut forma ez gramatikalak (**) eta bakarrarekin forma berreraikiak (*).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">Bide batez, adibide honen arabera aurrera genezake barne-argumentuetan ere, zenbait kasutan, badela irakurketa bakarraren, definituaren aldeko murriztapena artikuludun DSetan. 6 Adibide honetan ardoa-ren tokian jendea jarri ahal izateak, irakurketak berdin gordez, erakusten du auzia zertan datzan, edo zertan ez datzan bederen, horrela ikusten baitugu bizidun/ez-bizidun kontua ez dela.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">Interesgarria izan liteke, halaber, ikustea Silversteinek (1976)n proposatzen duen bizitasun ("animacy hierarchy") eskalak ba ote duen horrelakoetan inongo eraginik.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8">Euskaraz, egun horrelakorik ez badugu ere, gogora ekarri beharrean gaude Kapanagak, Betolatzak eta bestek erabiltzen zituztenak, Franziskua, Iesusa bezalakoak. Mitxelenak (1955) eta Lakarrak (1983) biltzen dituzte horien zenbait lekukotasun. Bide batez, mendebaldeko adibideak hauek, gorago aurreratu bezala artikulua lehenik zabaldu zen eskualdea. 9 Ez dakit zenbateraino egoera berdinaren adierazle diren hiztun gazte zenbaitengan aditu daitezkeenak, zenbait hitz berri eta mailegaturekin egiten direnak: nahi duzu jogur? bezalakoak, edo askoz esanguratsuago, Bergarako hiztun bati entzundako parea: ipini tele baina ipini telebisiñua.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10">Bi hizkuntzen arteko alde hau hitz ordenaren ezberdintasunen arabera azal liteke, beharbada: espainolaren artikulua zabaltzen ari denean SOA &gt; SAO hurrenkera aldaketa gertatzen ari dela aitortzen du Companyk berak, eta txinerarentzako, aldiz, SAO &gt; SOArako aldaketa dugu, bestelako lanetan ere ikus dezakegun bezala,<ref type="bibr" target="#b21">Li &amp; Thompson (1974</ref><ref type="bibr" target="#b22">, 1975</ref>, adibidez.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="11">Eskerrak eman nahi dizkiot Maitena Xohobigarati datuon juzkuak segurtatzeko emandako laguntzarengatik.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12">Egia esan, hemen adibideztatzen dudan ekialdearen eta mendebaldearen arteko aldean askoz xehetasun gehiago eman behar dira; esate baterako, nire informatzailearen arabera honako pareak geneuzkake izen zenbakaitzentzat:(i) a. Bada leku.b. Lekia bada.Orden aldaketak eragindako gorabeherez gain, hona esaldi existentzialetako izen zenbakarriekin gertatzen dena:(ii) a. Gizona bada han. b. ** Bada gizona. c. Bada gizon bat. / Gizon bat bada.Honek guztiak agerian utzi besterik ez du egiten horrelako datuen gainean egin beharreko bilketa eta lana.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="13">Ez-gramatikaltasunaren adierazle diren izartxoak ezarri beharrean galdera ikurra erabili dut predikatuen adibide hauetan, informatzaileak txartzat ematen baditu ere, adierazi nahi izan baitut ekialderagoko euskaretan, zubereraz alegia, erabat onak direla esaldi hauek. Ikus Álvarez (1977) euskalki honen gaineko zenbait xehetasunerako. Honek, berriz ere, agerian uzten du datuen bilketa sistematiko baten beharra, testuinguruz testuinguru eta euskalkiz euskalki.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14">Eskerrak eman nahi nizkioke Jose Ignacio Hualderi herskari ahostunen aukera hau ere kontuan hartzekoa dela aipatzeagatik.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="15">Ez dakit zenbateraino den zilegi honela planteatzea, baina ezin al liteke pentsa, absolutibo pluralarentzako eta lokatibo singularrarentzako Mitxelenak dioen bezala, -a+-a&gt;ea disimilazioa ez duten euskalkiek ere beranduagokoa dutela artikulua? Edo luzaroagoan gorde zutela hasperena? Dena dela erantzuna, aieru hau ondo lihoake artikulua mendebaldetik ekialdera zabaldutako zerbaiten gisa ikusi nahi badugu. 16 Instrumentalak egun aldaerak baditu (eskuz, eskuaz), baina seguraski definitu/indefinitu kontrastea egiteko. -rekin komitatiboak, genitiboaren gainean eraikia den neurrian, ez du harekiko alderik erakusten. -gaz komitatiboa interesgarriagoa izan daiteke, beharbada: artikulua darama, eta gainera mendebaldeko euskaretan gertatzen den artikuluaren disimilazioa erakusten du; gero ikusiko dugu zertan den garrantzitsu hauxe.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="17">Puntu honetan tentagarria izan liteke zubereraz aurki daitezkeen epentesirik gabeko formak, goizan vs. goizean orokorra, mendebaldetik ekialderako artikuluaren hedatzearen seinale gisa ikusteko. Hala izan bazen, artikulua ekialde "urrun" hartara iritsi zenerako ez zuen batere hasperenaren zantzurik izango eta hartara ez zuen inongo epentesirik eragingo. "Tamalez", itxura guztien arabera zubererazko forma hauek berrikuntzak baizik ez dira, Tartas eta Oihenarten lekukotza lagun, hauek -ean formakoak baizik ez baitituzte.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="18">Eskerrak eman nahi dizkiot Andoni Rodriguezi datuon juzkuak segurtatzeko emandako laguntzarengatik. Era berean, datu hauen herriz herriko berri zehatza eskaini eta erraztu didan Ignazio Carrera ere eskertu nahi nuke. 19 Bada arau morfonologiko hau (Oñederraren terminoetan) betetzen ez duen zenbait hitz; eman ditzadan Oñederrak berak (2005: 393) gogoratzen dituenak: ama, aita, amama, aitita. 4.2.1. atalean emandako salbuespenekin batean (etxen, soiñen) saiatuko naiz hauek ere azaltzen 4.2. atal honen bukaeran. 20 Entzun entzun, zenbait tokitan, eta beharbada zenbait hiztun gazteren ahotan entzun daitezke, baina hiztunek eurek esaten dute disimilaziorik gabeko forma nahiago dutela. Bestalde, testuetan ageri den forma zaharrena zein den ez da dudarik. Egun horrelakoak aditzea analogia huts batez uler daiteke.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="21">Horrelako egoeraren aurrean zinez esanguratsuak dirateke han bertan eta han berean bezalako bikoteak. Markel Lizasoaini eskertzen diot ohar hau. 22 Egia da, halere, eta lehenago arazoa aurkezterakoan ez dut aipatu, badela zenbait adibide horrelako itxura erakusten dutenak: Altsasu ondoko Ibarrea toponimoa da bat, eta Orpustanek (1999) lekukotzen duen 1060ko aranea bestea, gogoratuz 828ko aranna baten berri ere ematen duela (kronologia erlatibo bitxia bien artekoa, bide batez). Orpustanekin arazoa da, halere, ez duela zehatz adierazten non aurkitutakoak diren aipatzen dituen formak; irakur Salaberriren (1999) iruzkina. Nolanahi ere den, ez da orain lekua eta garaia horrelako adibideen esanguratasunaren alde edo aurka egiteko.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="23">Ezin bikoteak bete-betekoak izan, dirudienez Tartasek (1666) ez baitu soiñian bezalakorik erabiltzen; gure burua zuritzeko esan beharra dago, halere, testu horretan ez dugula soiñ hitzaren beste adibiderik topatu.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="24">Honetaz ari garenean, aintzat hartu beharra dugu abstrakzio maila batekin egin behar dela gogoeta, ez baitakigu zehatz orain 1500 urteko euskalkien konfigurazioa eta elkarren arteko harremana zein zen; horregatik, neurri batean anakroniko suerta baliteke ere, egungo egoera linguistikoaren koordenada geografikoak erabiltzen ditugu garai bateko gertaerez aritzeko.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="25">Ricardo Gómez, Joseba Lakarra, Céline Mounole eta Blanca Urgelli datu hauen gaineko eztabaida eskertu nahi diet.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>(v) -heta: Erroheta, Bagoheta, Azazaheta, Gazaheta, Sansoheta...</p><p>Hauetarik ondoriozta liteke 1) -eta atzizkia ez dela latinetik mailegatua, eta 2) erakusletiko jatorria onartuta, -ta-bakartu genezakeela, leku-kasuetakoarekin harremanduz (har-ta-n).</p><p>(vi) -hen: Arbelgoihen, Goiahen...</p><p>Hauetan jatorria beharbada argiagoa da, beti onartua izan baita genitibo superlatiboarena, lehen adibidean bai, bederen.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">The English noun phrase in its sentential aspect. MITko doktorego tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Abney</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">L&apos;emploi de l&apos;indéfini en souletin</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Altuna</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Azkarate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Donostia: Elkarlanean. Álvarez, J. L</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="29" to="55" />
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+	<note>FLV</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Erronkariera (I). Gramatika. Donostia: Hiria Liburuak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Angos</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Determinatzaile sintagmaren hipotesia euskal gramatikan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Artiagoitia</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="33" to="61" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The functional structure of the Basque noun phrase</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>__</surname></persName>
+		</author>
+		<idno>73-90. Bilbo: EHU-UPV</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ASJUren Gehigarriak XLIV</title>
+		<editor>X. Artiagoitia, Goenaga, P. &amp; Lakarra, J. A. (arg.): Erramu Boneta: Fetschrift for Rudolf P. G. de Rijk</editor>
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">La extensión del artículo en el español medieval</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Company</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RPh XLIV</title>
+		<imprint>
+			<biblScope unit="page" from="402" to="426" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Cross-linguistic quantification: definite articles vs demonstratives</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Cyr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Language Sciences</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="195" to="229" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The diachronic reanalysis of demonstratives in cross-linguistic perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Diessel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chicago Linguistic Society</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="83" to="97" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The morphosyntax of demonstratives in synchrony and diachrony</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>__</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">LT</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1" to="49" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Valency and argument structure in the Basque verb</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Etxepare</surname></persName>
+		</author>
+		<editor>Hualde &amp; Ortiz de Urbina</editor>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="363" to="426" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Euskal Gramatika Laburra: Perpaus Bakuna. Bilbo: Euskaltzaindia</title>
+	</analytic>
+	<monogr>
+		<title level="j">Euskaltzaindia</title>
+		<imprint>
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">On sources of demonstratives and anaphors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Frajzyngier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Studies in anaphora. Typological studies in language</title>
+		<meeting><address><addrLine>Amsterdam-Philadelphia</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Benjamins</publisher>
+			<date type="published" when="1996" />
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="169" to="203" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">How does a language acquire gender markers?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Greenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Greenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Moravcsik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Universals of Human Languages</title>
+		<meeting><address><addrLine>Stanford; Stanford U. P</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1978" />
+			<biblScope unit="volume">III</biblScope>
+			<biblScope unit="page" from="47" to="82" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Regularity in irregularity: article use in adpositional phrases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">P</forename><surname>Himmelmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Linguistic Typology</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="315" to="53" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Articles</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>__ ; Haspelmath</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>König</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Oesterreicher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Raible</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Language Typology and Language Universals</title>
+		<meeting><address><addrLine>Berlin-New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Walter de Gruyter</publisher>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="831" to="872" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Transitivity in grammar and discourse</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Hopper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lg</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="251" to="99" />
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">A grammar of Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Hualde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ortiz De Urbina</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Mouton de Gruyter</publisher>
+			<pubPlace>Berlin-New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The emergence of a grammatical category definite article in spoken Chinese</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sh</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Pragmatics</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="77" to="94" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Cartas de Mariano Mendigacha a D. Resurrección María de Azkue, escritas en vascuence roncalés y en castellano</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Irigoyen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskera</title>
+		<imprint>
+			<biblScope unit="volume">II</biblScope>
+			<biblScope unit="page" from="119" to="70" />
+			<date type="published" when="1957" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The Basque locative suffix</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">H</forename><surname>Jacobsen</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">A</forename><surname>Douglass</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Etulain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">H</forename><surname>Jacobsen</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Anglo-American contributions to Basque studies: Essays in honor of Jon Bilbao</title>
+		<imprint>
+			<date type="published" when="1977" />
+			<biblScope unit="page" from="163" to="68" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Oharrak zenbait arkaismoz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="43" to="68" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">An explanation of word order change SVO--&gt; SOV</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ch</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Foundations of Language</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="201" to="215" />
+			<date type="published" when="1974" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The semantic function of word order: a case study in Mandarin</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>__ &amp;amp; __</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Conference on word order and word order change</title>
+		<meeting><address><addrLine>Li, Ch; Austin-London</addrLine></address></meeting>
+		<imprint>
+			<publisher>University of Texas Press</publisher>
+			<date type="published" when="1975" />
+			<biblScope unit="page" from="163" to="95" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Definiteness-marking in South Asian languages</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Masica</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Krishnamurti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">South Asian languages: Structure, Convergence and Diglossia</title>
+		<meeting><address><addrLine>Delhi</addrLine></address></meeting>
+		<imprint>
+			<publisher>Motilal Banarsidass</publisher>
+			<date type="published" when="1986" />
+			<biblScope unit="page" from="125" to="171" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Toward an explanation of certain peculiarities of the existential construction in English</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">L</forename><surname>Milsark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Linguistic Analysis 3</title>
+		<imprint>
+			<date type="published" when="1977" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="29" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">De onomástica aquitana</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pirineos</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="409" to="55" />
+			<date type="published" when="1954" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>__</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Franziskua</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jesusa</forename><forename type="middle">&amp;quot;</forename><surname>Peria</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bap</forename><surname>Xi</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page" from="113" to="128" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Fonética histórica vasca 2ª edición, corregida y aumentada</title>
+	</analytic>
+	<monogr>
+		<title level="m">Textos arcaicos vascos</title>
+		<meeting><address><addrLine>Donostia</addrLine></address></meeting>
+		<imprint>
+			<publisher>EHU</publisher>
+			<date type="published" when="1961" />
+		</imprint>
+		<respStmt>
+			<orgName>__</orgName>
+		</respStmt>
+	</monogr>
+	<note>Anejos de ASJU, IV. San Sebastián: Diputación de Gipuzkoa</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Toponimia, léxico y gramática</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>__</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1971" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="141" to="67" />
+		</imprint>
+	</monogr>
+	<note>Mitxelena, K.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Miscelánea filológica vasca IV</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>__</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1979" />
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="435" to="63" />
+		</imprint>
+	</monogr>
+	<note>Mitxelena, K.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Palabras y textos. Gasteiz: EHU Argitarapen Zerbitzua</title>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Fonologiaren mugak: alabea eta birjinak elexan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Oñederra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Etxeberria</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Knörr</surname></persName>
+		</author>
+		<idno>379-97. Bilbo: Euskaltzaindia</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Nerekin yaio nun. Txillardegiri omenaldia. IKER-17</title>
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Orpustan</surname></persName>
+		</author>
+		<title level="m">La langue basque au Moyen Âge (IX-XV siècles). Baigorri: Izpegi</title>
+		<imprint>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Syntactic parallels between ontogeny and philogeny</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Osawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lingua</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="3" to="47" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Euskal morfologiaren zenbait gorabehera</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">P G</forename><surname>De Rijk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Euskal linguistika eta literatura: bide berriak</title>
+		<meeting><address><addrLine>Bilbo</addrLine></address></meeting>
+		<imprint>
+			<publisher>Deustuko Unibertsitatea</publisher>
+			<date type="published" when="1981" />
+			<biblScope unit="page" from="83" to="101" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Nunc&apos; Vasconice</title>
+	</analytic>
+	<monogr>
+		<title level="m">ASJU XXVI-3</title>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="695" to="724" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Reseña</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Salaberri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Orpustan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">La langue basque au Moyen Âge (IX-XV siècles)</title>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="205" to="209" />
+		</imprint>
+	</monogr>
+	<note>RIEV 44.1</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Onsa hilzeco bidia. www.armiarma.com web-guneko bertsio informatikoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Tartas</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1666" />
+			<publisher>Josu Lavinek paratua</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">The noun phrase: nouns, determiners and modifiers; pronouns and names</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Trask</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>Hualde &amp; Ortiz de Urbina</publisher>
+			<biblScope unit="page" from="113" to="70" />
+			<pubPlace>London-New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>The History of Basque</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Hierarchy of features and ergativity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Silverstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M W</forename><surname>Dixon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Grammatical categories in Australian aboriginal languages</title>
+		<imprint>
+			<date type="published" when="1976" />
+			<biblScope unit="page" from="112" to="71" />
+		</imprint>
+	</monogr>
+	<note>Canberra: Australian Institute of Aboriginal Studies</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

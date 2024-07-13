@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">PERIFRASI ZAHARRA MENDEBALDE ETA ERDIALDEKO EUSKARA ZAHARREAN: AZTERKETA KUANTIFIKATIBOA ETA PROPOSAMEN BERRIA</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Céline</forename><surname>Mounole</surname></persName>
+						</author>
+						<title level="a" type="main">PERIFRASI ZAHARRA MENDEBALDE ETA ERDIALDEKO EUSKARA ZAHARREAN: AZTERKETA KUANTIFIKATIBOA ETA PROPOSAMEN BERRIA</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>Euskal Herriko Uniber tsitea-Bordeaux 3</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In the history of the occidental and central dialects of Basque, the verbal periphrases composed by the verbal stem / or the participle and the auxiliaries *edin, *ezan, egin have undergone a change in the form of their principal verb. Up to now, the bascologists have presented this modification as a generalization of the use of the participle within these three periphrases. However, the 15 th , 16 th , 17 th and 18 th century texts' data seem to show different tendencies depending on the auxiliaries and the periods. The periphrasis based on the auxiliaries *edin and *ezan have generalized the use of the participle at different times, and the egin auxiliary based one seems to have always employed the participle as its main verb. Thus, these data give us good evidence for proposing that these three periphrases appeared and further grammaticalized on the basis of two different structures: (i) verbal stem + auxiliary (periphrases with the auxiliaries *edin and *ezan), (ii) participle + auxiliary (periphrasis with the auxiliary egin). Furthermore, the [participle + egin] periphrasis has little by little replaced the [verbal stem + *ezan] one in those dialects. In the occidental varieties of Basque this change was accomplished as soon as the 18 th century, whereas in the central dialects both transitive constructions still are in complementary distribution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="0.">Sarrera 1</head><p>Euskararen ezaugarri tipologiko azpimarragarrienetarik bat da adi tz trinko guti, eta perifrasi asko duela. xvi. mendean jadanik hala zen, nahiz eta garai hartan gaur egun baino trinko gehixeago erabil tzen zen (Lafon 1944). Hori hala izanik, guziz beharrezkoa ikusten dugu euskal adi tzaren muinean diren egitura perifrastiko desberdinen azterketa diakroniko sakon baten buru tzea.</p><p>Ai tzineko lan batean proposatu dugu gure perifrasi guziak ez direla garai berekoak, eta gramatikalizazio prozesu desberdinen bidez sortu zirela <ref type="bibr" target="#b31">(Mounole 2006)</ref>. Orduan aitzinatu genuen [adi tzoina/partizipioa + *edin, *ezan, egin] egitura lekukoturik dauzkagun perifrasi guzien artean zaharrena zela.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Lan honetan, perifrasi zaharra sakonkiago aztertu nahi dugu mendebalde eta erdialdeko hizkera zaharretan, ekialdean ez bezala, *ezan lagun tzaile iragankorraz gain, egin erabil tzen dutelako eta adi tzoinaren ordez partizipioa. Horrez gain, perifrasi zaharrak hizkera horietan izan dituen erabileren argi tzeko helburua dugu.</p><p>Horretarako, bizkaiera, arabera eta gipuzkeraren 1500etik 1745-50era bitarteko testuen azterketa sistematikoa burutu dugu. Beharrezkoa iduritu zaigularik nafarrerazko datuak ere sartu ditugu eta epea 1800 arte luzatu. Bizkitartean, azken hauek osagarri gisa baizik ez zaizkigu agertuko ikerketa honen helburu nagusia baita perifrasi zaharraren azterketa testu zaharrenetarik 1745 arte, mendebalde eta erdialdeko euskalkietan. Bistan dena, beste lan batean ekialdeko datuak hauei uztartuko dizkiegu perifrasi zaharraren historiaren ikuspegi osoago baten izateko.</p><p>Laburbilduz, gure lanaren ikuspegia diatopikoa da, erran nahi baita euskalkien diakronian gertatu aldaketak eta garapenak ahal bezain zehazki deskribatu nahi direla, hizkun tzaren diakroniaren hobeki ezagu tzeko. Horretarako, testuen azterketa sistematikoak nahitaezkoak dira ikerketa sakona egin nahi bada.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. Helburuak eta metologia</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Helburuak</head><p>Lan honek hiru helburu nagusi ditu. Lehenik, mendebalde eta erdialdeko euskalkietako perifrasi zaharrean gertatu diren adi tzoinaren ordezka tze eta partizipioaren heda tzea xeheki aztertu nahi dira, perifrasiz perifrasi, euskalkiz euskalki, mendez mende. Hortik, espero dugu ordezka tzearen joera orokorrak marrazten ahalko ditugula.</p><p>Bigarren helburua da perifrasi iragankorrean gertatu den aldaketaren argi tzea. Ezaguna da mendebalde eta erdialdeko euskalki zaharrek adi tzoina/partizipioa + *ezan eta adi tzoina/partizipioa + egin perifrasiak dituztela, adi tzoina/partizipioa + *edin perifrasiaren kide iragankor gisa. *Ezan lagun tzailearekilako egitura euskalki zahar guzietan aurki tzen da eta orduan ikusi nahi dugu ustez berriagoa den egin lagun tzailearekilako perifrasia nola heda tzen den gure testu zaharretan xv eta xviii. mendeen artean.</p><p>Hirugarrenik, perifrasi zaharraren erabilerak eta balioak aztertuko ditugu, mendez mende.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Metodologia eta corpusa</head><p>Helburu hauek gidaturik, testuen azterketa sistematikoa burutu dugu, bakoi tzean aurki tzen zen perifrasi zaharra bilduz eta haren erabileraren arabera sailkatuz. Hona bereizi ditugun erabilera desberdinak. Terminologia hau bera erabiliko dugu testu osoan, baita tauletan ere: a) aoristo arrunta: perpaus nagusietako aoristoko perifrasiak: ad. Iaygui cidi naguia, erra cizan uria RS 294. b) mendeko aoristoa: mendeko perpausetan ager tzen diren tempus iraganeko egiturak: erlatiboak gu erredimietaco, eta salvaetaco etorri cidina legues mundura Viva Jesus 2, konpletiboak: Nahi ez neuke mundu guztiagaitirren zuregaz ene sekretoa deskubri lidin bapere Lazarraga 1144v, edo nalak: Inork ezautu ez legianzat kendu eben bere jaztekoak Lazarraga 1147r. c) orain erlatiboa: mul tzo horretan, tempus oraineko perpaus erlatiboak sartu ditugu: Sar dina gueben lecuan bere caltean RS 209. d) orain nala eta konpletiboa: tempus oraineko perpaus nalak <ref type="bibr">(-n, -tzat-dunak)</ref>:</p><p>Artu egizu esporzu zugaz asegin ar dezadan ga txori repara dezadan Lazarraga 1201v; eta konpletiboak <ref type="bibr">(-n, -la-dunak)</ref>: Jainkoari nai ez dakiola zu joan da ni eben gera nadila Lazarraga 1151v. e) orain zirkunstan tziala edo denborazkoa: mendeko perpaus denborazkoetan -ean a tzizkiarekin ager tzen diren perifrasiak tempus orainean nola iraganean: Biur nadinean serbiduko zaut Lazarraga 1147r, Bere ugazabari lizenzia eskatu egionean joan zidin Lazarraga 1146v. f ) geroaldia: tempus oraineko perifrasiak, geroaldiaren balioarekin, -te, -ke a tzizkidunak eta gabeak: Uzqur baquio ecachari, sendaquique eguzquiari RS 251; galdu çe eguic aldia, ta ydoro dayc naya RS 336. g) poten tziala: potentzial guziak (oraina, iragana, hipotetikoa), -te, -ke a tzizkiekin edo gabe: Mayacean berarra luce da eta sendo, eguitayaren orçac ebagui leydi ondo RS 268. h) agintera: agintera adierazten duten perifrasiak: açerrian lurra garraz, hoña ybini eguic baraz RS 9. i) baldin tza: baldin tza adierazten dutenak (errealak eta irrealak): aspertu banequio, asper lequiquet RS 10.</p><p>Gero, partizipioa eta adi tzoinaren arteko lehia azter tzen baitugu, partizipio mota desberdinak bereizi ditugu: (i) -i a tzizkia dutenak, (ii) -tu a tzizkia dutenak, (iii) eta partizipio marka berezirik ez dutenak, edo partizipio eta adi tzoinaren arteko bereizketarik ez dutenak. Hauek dira -n, -o, -gi, -ki 2 a tzizkiez buka tzen direnak eta hil, gorde, bota, bete bezalakoak. Partizipio mota horiek erro gisa izendatu ditugu gure tauletan. Taulei berei dagokienez, adi tzoinaren azpian, -i eta -tu-k erran nahi dute, -i eta -tu eroria duten adi tzoinak (etor, har tipokoak), partizipioaren azpian berriz, +i eta +tu, a tzizki horiek darama tzaten partizipiozko formak (etorri, hartu tipokoak).</p><p>Corpus-ari dagokionez, en tseatu gara ahal zen corpusik zabalena har tzera, datuak ahal bezain esangura tsuak izateko gisan. Bizkaiera, gipuzkera eta araberaren xvi, xvii eta xviii. mendeko testu hauek erabili ditugu, (ho ts, perifrasi zaharra darabilten hauek): 3  <ref type="bibr" target="#b29">(Lekuona 1973</ref>) -Ber tsu elebidunak <ref type="bibr" target="#b15">(Iraizoz 1976</ref>) -Catecismo alto navarro <ref type="bibr">(Irigarai 1961)</ref> II. Adi tzoina vs partizipioa</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Orain arte</head><p>Perifrasi zaharra nasaiki ager tzen zaigu testu zaharrenetan indikatibo, poten tzial, agintera, baldin tza eta subjuntiboetan. xvi. mendean, euskalki guziek adi tzoina / partizipioa + *edin, *ezan perifrasiak erabil tzen dituzte. Hauez gain, mendebalde eta erdialdeko euskalkiek adi tzoina / partizipioa + egin perifrasia dute, eta ekialdekoek adi tzoina + *iro egitura. <ref type="bibr" target="#b48">4</ref> xvi. mendean, ekialdeko euskalkiek adi tzoina baizik ez dute erabil tzen perifrasi zaharrean, mendebalde eta erdialdekoek adi tzoinaz gain partizipioa ere erabil dezaketelarik. Orduz geroztik, mendebalde eta erdialdeko euskalki gehienetan, adi tzoinaren erabilpena desagertu da perifrasi horretarik eta partizipioa orokortu. xx. mendeko biz kaie raz, adi tzoina aginterazko egitura lexikalizatu zenbaitetan baizik ez da aurkitzen: geldi bedi ondo, ken ortik, or konpon Mari Anton, alda, aida adi (unaiek behiei), eba (ebagi -ren adi tzoina, karta jokalariek Elan txoben) <ref type="bibr">(Azkue 1924</ref><ref type="bibr" target="#b7">(Azkue , 1935</ref>. <ref type="bibr">Lakarrak (1985)</ref> partizipioaren heda tzea azter tzen du bizkaiera zaharreko testuetan. Ondoriozta tzen du xv. mendean adi tzoina oraino nagusi zela, xvi. mendean partizipioa heda tzen hasi zela, xviii. menderako adi tzoinak perifrasi horietarik aldebat desagertuak izan arte. Bestalde, erakusten du gipuzkeraz, partizipioaren heda tzea berantago gertatu zela. Bizkitartean, proposa tzen du gi puz ke raz ko doktrinetan aurkitzen diren adi tzoin gehienak ez direla hizkun tzaren sistema emankorraren erakusgarri fidelak, baizik eta erlixiozko hizkun tzaren fosilak:</p><p>Egia da Zegamako dotrinan (1741) 25 adibideetarik soilik 9tan dugula -tu eta Irazustarenean (1739) soilik 29tarik 9tan, baina ene ustez, -Ø-ren adibide gehienak erlijio hizkun tzako fosil tzat jo behar ditugu; Oikiako Agirreren lekukotasunak <ref type="bibr">(1749</ref><ref type="bibr">( , ikus Lakarra 1987</ref>, aldiz, garbi diosku oso bestela zeudela gauzak ekialderago: lehendabiziko 25 orrietan aurki tzen diren 16 adibideetarik erregutu deguizula (9) da -tu daraman bakarra <ref type="bibr">(Lakarra 1996: 188).</ref> Araberari dagokionez, Zuazok (1998b) erakusten du Betola tza eta Landucciok ez dutela adi tzoin bihirik ere erabil tzen, garai hartako bizkaierazko testuetan nasaiki aurkitzen delarik. Hortik ondoriozta tzen du adi tzoinen ez erabil tzea Arabako euskararen ezaugarria izan litekeela:</p><p>Adi tz oina behin ere ez azal tzea da Arabako lekukoen beste ezaugarrietako bat. xvi-xvii. mendeetakoek ere ez zuten erabili, nahiz eta garai hartako Bizkai-Gipuzkoetakoek ezaguna zuten; cf. RS, Garibai, Fr. Juan Zumarragakoa… <ref type="bibr">(Lakarra 1986: 665)</ref>. Betola tzaren adibide ugarietan partizipioa ager tzen da (Zuazo 1997), eta baita DLC-koetan ere: gauça erraz conbatidu ditena; ossatu diten gauçea. Partizipioa erabili zuen Gamizek ere, nahiz eta guarda zaitela Jaincoac jarri zuen behin. G. de Albenizen i tzulpenean partizipioaren adibide ugari daude, baina veguira zazu, beguira eguizu ere tartean dira fosil an tzera. Badirudi, beraz, adi tz oinak beranduago arte iraun zuela Arabako ekialdean bizirik. Gaurregun ere arrunt samarrak dira, Burundan, Urdiainen jaso ditudan afal tzaun 'afal dezagun', ken adi 'ken adi' horren lekuko <ref type="bibr">(Zuazo 1998a: 162)</ref> Gure corpus-aren azterketa burutu ondoan, i tzuliko gara euskalari horien hipotesietara (II, 3.2.).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Corpusaren azterketaren emai tzak euskalkiz euskalki</head><p>Zati honetan, bizkaiera, arabera, eta gipuzkeraren xv eta xviii. mendeen arteko datuak berriz hartuko ditugu lagun tzaileka eta mendeka ikusteko partizipioaren hedatzea gisa eta une beretan gerta zitekeen lagun tzaile eta euskalki guzietan.</p><p>Horretarako, euskalki bakoi tzaren datuak xeheki aztertuko ditugu (2.1., 2.2., 2.3.) eta horren ondotik datu guziak baturik, ondorio orokorrak eskainiko ditugu <ref type="bibr">(3.)</ref>. Osagarri gisa, nafarreraren datu zenbait aipatuko dugu <ref type="bibr">(3.4.)</ref>. Lehenik, 1. taulak erakusten digun bezala, *edin lagun tzailea adi tzoinarekin erabil tzen da gehienetan xvi. mendea ai tzineko testuetan: 25 adi tzoin vs 10 partizipioko propor tzioa dugu erran nahi baita % 71,4 adi tzoin vs % 28,6 partizipio. Zehazkiago, partizipioa -i-z duten adi tzoinik ez du, eta orduan, -tu-dun formak baizik ez baditugu konpara tzen, 25 adi tzoin vs 4 partizipioko oposaketa dugu, erran nahi baita % 86,2 adi tzoin vs % 13,8 partizipio. Erran gabe doa datuen gisa horretan irakur tzeak handi tzen duela adi tzoinaren nagusitasuna partizipioaren aldera. Aditzoina da nagusi erabilpen guzietan (ikus eranskineko 1.taula): aoristoan (7 adi tzoin vs 0 partizipio), orainaldi erlatiboan (2 adi tzoin vs 0 partizipio), aginteran (12 aditzoin vs partizipio 1), baldin tzan (3 adi tzoin vs 2 partizipio). Interesgarri iduri tzen zaigu azpimarra tzea ez dugula partizipioaren erabilpena baldin tza lezakeen eragilerik ikusten. Bi aldiz erabil tzen da baldin tzan eta behin aginteran.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">*edin lagun tzailearekilako egitura</head><p>Egoera horrek hala irauten du xvi. mendean (ho ts, Zumarragaren gutun-ean), partizipioa -tu-z duten formak konpara tzen baditugu adi tzoina nagusi baita: 4 adi tzoin vs partizipio 1. Partizipioaren erabilera bakar hura aginteran egiten da.</p><p>xvii. mendean egoera arras iraulia da partizipioaren erabilpena nagusi baita: 16 aditzoin vs 64 partizipio, ho ts, % 80 partizipio vs % 20 adi tzoineko propor tzioak ditugu.</p><p>-tu-z bukatu partizipioak eta -tu &gt; zero duten adi tzoinak her tsikiago konpara tzen baditugu, ikusten dugu joera bera dugula, erran nahi baita partizipioa -tu-z duten aditzak maizago agertuko zaizkigula partizipio gisa adi tzoin gisa baino: 47 partizipio vs 16 adi tzoin, erran nahi baita % 74,6 partizipio vs % 25,4 adi tzoin. Partizipioa da nagusi erabilera guzietan: orain erlatiboan (3 partizipio vs 0 adi tzoin), orain final eta konpletiboetan (9 partizipio vs adi tzoin 1), orain zirkunstan tzialetan (2 partizipio vs 0 aditzoin), poten tzialean (7 partizipio vs 0 adi tzoin), aginteran (17 partizipio vs 7 adi tzoin), baldin tzan (3 partizipio vs adi tzoin 1). Salbuespena ekar tzen digun bakarra aoristoa da, partizipio baino adi tzoin gehiago ekar tzen baitu: 6 adi tzoin vs 4 partizipio. <ref type="bibr" target="#b49">5</ref> Gehitu behar da aginterak, nahiz eta partizipioa nagusi izan, adi tzoin andana bat ekar tzen digula. <ref type="bibr">6</ref> xviii. menderako, adi tzoinaren erabilpena egitura horretarik desagertua bide da bizkaierazko hizkera gehienetan. Arzadun 1731, Urkizu 1737 Durangaldekoek ez dute sekulan erabil tzen, 7 eta Arrasateko Bandoan (1705) ere *edin lagun tzailea partizipioarekin baizik ez da ager tzen. Bizkitartean, Arrasate inguruko Barrutiaren antzerkian adi tzoina nasaiki ager tzen zaigu egitura iragangai tzean (ikus eranskineko 10. taula). Partizipioa -tu-z duten formak konpara tzen baditugu, testu horretan, <ref type="bibr" target="#b49">5</ref> Erran behar dugu adi tzoinaren 6 agerraldi horietarik lau Veguiacaz maitasunezko kantuan egiten direla, lauetan gauza bera errepika tzen baita leloan: errencore andiac eneçitean. <ref type="bibr">6</ref> Gorago ikusi dugu (II,1) Lakarrak proposa tzen duela gipuzkera zaharreko testuetan ager tzen diren adi tzoinek ez duketela adi tzoinaren emankortasuna erakusten, hauetan, adi tzoina erlixiozko egitura fosilizatuetan aurki tzen delakoan. Erran behar dugu xvii. mendeko bizkaieraz adi tzoina ager tzekotan, ez dela baitezpada erlixiozko testuetan egiten, corpus-ean ditugun mota horretako bost testuen artean Bulda eta Amiletak ez baitute sekulan adi tzoinik erabil tzen *edin lagun tzailearekin, eta Kapanaga (aditzoin 1 vs 23 partizipio), Viva Jesus (2 adi tzoin (bata aoristoan, eta bestea aginteran vs 8 partizipio) eta Zubia-Lezamiz-ek (adi tzoin 1 vs 4 partizipio) arras salbuespen gisa erabil tzen baitute. Alderan tziz, testu laikoek dizkigute adi tzoin gehienak ekar tzen: Veguiacaz maitasuneko kantua (6 adi tzoin (5 aoristoan eta 1 aginteran) vs 0 partizipio), Egiaren Kanta (2 adi tzoin (bata aoristoan eta bestea baldin tzan) vs 5 partizipio), Mikoleta (2 adi tzoin aginteran vs 2 partizipio aoristoan), Ber tso Bizkaitarrak <ref type="formula">(3 adi</ref>  Gipuzkerazko xvi. mendeko testu bakarra Salmo Miserere da <ref type="bibr" target="#b1">(Akesolo 1982)</ref>. Bertan, *edin 3 aldiz ager tzen zaigu aginteran, adi tz nagusia bi aldiz erroa eta behin partizipioa izanik (Ez kendu, jauna begiok niganik, kendu ez zaiteala presenziatik <ref type="bibr">24-25. l)</ref> xvii. mendean, berriz, adi tzoina nagusi da egitura horretan. -tu-dun formak konpara tzen baditugu, 3 adi tzoin vs partizipio 1-eko propor tzioa dugu. xvi. eta xvii. mendeetako corpusa biziki mugatua izanik, ez dugu aski daturik zehazki erran ahal izateko partizipioa zer kontestutan erabil tzen den gehien.</p><p>xviii. mendean, berriz, ikusten dugu adi tzoina oraino nagusi dela, nahiz eta partizipioaren erabilpena hedatu den: -tu-dun partizipioak ain tzat harturik 34 aditzoin vs 27 partizipioko propor tzioa dugu. Bizkitartean, xviii. mendeko bost testuetako datuak aldera tzen baditugu, ikusten dugu hiru joera nagusi marrazten direla (ikus eranskineko 10.taula). Beti ere partizipioa -tu-z duten formak harturik, (i) partizipioa nagusi dutenak: O txoa Arin, 17 partizipio vs 2 adi tzoineko proportzioarekin, (ii) adi tzoina nagusi baina partizipioa ere indar tsu: Irazusta 4 adi tzoin vs 3 partizipio, Zegamako dotrina 6 adi tzoin vs 3 partizipio, Kardabera tz 7 aditzoin vs 3 partizipio; (iii) adi tzoina baizik ez (edo salbuespen batekin): Goierriko platika 4 adi tzoin vs 0 partizipio, Oikiako dotrina 11 adi tzoin vs partizipio 1. Horrek erakusten du adi tzoinaren ordezka tze prozesua ez dela abiadura berean gertatu gipuzkeraren hizkera desberdinetan (berantago (II.3.2), i tzuliko gara auzi horretara). Adi tzoinaren erabilerari dagokionez ez dugu joera argirik ikusi adi tzoinaren edo partizipioaren alde perifrasiaren erabilpen edo balio desberdinetan (ikus eranskineko 3.taula).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.4.">Orokorkiago</head><p>Bi mul tzo, bi joera orokor ikusten ditugu partizipioaren heda tzean *edin laguntzailearekilako perifrasian. Lehenik, bizkaiera eta arabera bat datoz haien datuetan, bietan xvi. mendean adi tzoina oraino nagusiki erabil tzen baita *edin lagun tzailearekin -xv. mendeko bizkaierazko testuetan bezala tsu-. Bizkaierazko testuek erakusten digute xvii. mendean egoera iraul tzen dela, 10 orduan partizipioak adi tzoinak baino gehiago erabil tzen baitira egitura horretan. xviii. menderako aldaketa kasik burutua da, Araban adi tzoin bat baizik ez baita aurki tzen, eta bizkaieraz, Barrutiaren kasuaz aparte, partizipioa orokortu baita *edin lagun tzailearekilako perifrasian. <ref type="bibr">11</ref>  xvi. mendean, adi tzoina da nagusi *ezan lagun tzailearekin. Propor tzio hauek ditugu: 12 adi tzoin vs partizipio 1, erran nahi baita agerraldien % 92,3an adi tzoina erabil tzen dela. Salbuespen bakar hori aoristoan aurki tzen dugu: jusga zinzaenak benzutu zinzan (Salmo Miserere 12).</p><p>xvii. mendean, adi tzoinak segi tzen du nagusi izaten, 7 adi tzoin vs partizipio 1-eko propor tzioa baitugu. Partizipioa erabil tzen duen egitura bakarra aginterazkoa da eta I tziarko Amari eskaini ber tsoetan aurki tzen dugu: Aditu i tza tzu (1. l.). <ref type="bibr">13</ref> xviii. mendean, partizipioa -tu-z duten adi tzak harturik, iduri luke adi tzoina nagusi dela, 107 adi tzoin vs 57 partizipioko propor tzioa baitugu, ho ts, % 65,2 adi tzoin vs % 34,8 partizipio. Bizkitartean, testuak banaka har tzen ditugularik, ikusten dugu berriz ere joera desberdinak ditugula testu batetik bestera. O txoa Arinen testuan partizipioa da nagusi, 24 partizipio vs 3 adi tzoineko propor tzioarekin, Irazusta (17 aditzoin vs 8 partizipio), Zegamako doktrina (14 adi tzoin vs 8 partizipio), Goierri ko Platika (6 adi tzoin vs 2 partizipio), Oikiako doktrina (36 adi tzoin vs 9 partizipio) eta Kardabera tzen (31 adi tzoin vs 6 partizipio), adi tzoina nagusi delarik *ezan lagun tzailearekin ere. Iduri luke xviii. mendean adi tzoinaren ordezka tzeak abiadura desberdinak izan dituela Gipuzkoako eremu desberdinetan (ikus beherago II.3.2). Adi tzoina edo partizipioaren arteko txandaketaz kontestuaren arabera, ez dugu ingurune baldin tza tzailerik ikusi bata edo bestearen alde egiten duena testu guzietan (ikus eranskineko 8.taula). Halere, azpimarratu beharra dugu Zegamako doktrinaren kasuan, *ezan-en agerraldi guziak baturik adi tzoina nagusi izanik ere, poten tzialean partizipioa dela nagusi (5 partizipio vs adi tzoin 1). Gauza bera erran dezakegu Oikiako doktrinaz poten tzialean 2 partizipio vs adi tzoin 1-eko propor tzioa baitu. O txoa Arinen testuan berriz, adi tzoina bi kontestutan baizik ez da ager tzen: orain finaletan (adi tzoin 1 vs 8 partizipio) eta aginteran (2 adi tzoin vs 9 partizipio).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.4.">Orokorkiago</head><p>*Ezan lagun tzaileari dagokionez, ikusten dugu xvi. mendean adi tzoina nagusi dela lau eremuetan. Hiru guneetako datuak baturik, 58 adi tzoin vs 2 partizipioko oposaketa ager tzen zaigu. Salbuespen bata RS-en dugu (Eznea, guria ta odola erorrean atera neban ta ezer yrabaci ez neçan 513), eta bestea Salmo Miserere-n (juzga zinzaenak benzutu zinzan). Interesgarri iduri tzen zaigu azpimarra tzea partizipioaren bi erabilpen horiek aoristoaren balioa dutela, eta bietarik bat -i a tzizkidun partizipioa dela.</p><p>xvii. mendean joera hori denetan manten tzen da, bizkaiera eta araberak adi tzoina baizik ez baitute erabil tzen *ezan lagun tzailearekin, eta gipuzkerak partizipio bat baizik ez baitu eskain tzen adi tzoin orokortuaren ondoan.</p><p>Gorago erran bezala, partizipioaren heda tzea egitura horretan xviii. mendean hasten da egiazki, gipuzkeraz eta araberaz.</p><p>Erran behar dugu bi joera desberdin ikusten ditugula perifrasi horren adi tz nagusiaren aldaketaren prozesuan. Lehenik, bizkaiera eta araberaren xvi eta xvii. mendeetako datuak har tzen baditugu ikusten dugu bi mende hauen artean partizipioa orokor-tzen dela *edin lagun tzailearekin, *ezan-ekin adi tzoina baizik ez daitekeelarik erabil. Beherago ikusiko dugun bezala (IV. zatia), bizkaiera eta araberazko lehenbiziko testuez geroztik egin lagun tzailea *ezan baino gehiago erabil tzen da, eta iduri luke *ezan-ekilako perifrasia, emankortasun oro galdurik, gisa batean fosilizatu dela, horrek edozein aldaketa ezinezko bilakatu baitu. xviii. mendean, egoera horrek oraino segi tzen du ekialdeko bizkaieraz, Barrutiak *ezan erabil tzen baitu aginteran, 14 beti adi tzoinarekin. Bizkaieraren mendebalde eta erdialdeko hizkerek, berriz, *ezan lagun tzailea ez dute gehiago erabil tzen -egin-ek ordezkaturik-eta erran genezake hauen kasuan adi tzoina *ezan-ekin batean desagertu dela. Araberazko testuez den bezenbatean, Gamizek egin baizik ez du erabiltzen eta Albenizek egiten dituen *ezan-en hiru agerraldietarik bietan partizipioa erabiltzen du, seguraski beste egiturekilako analogiaz (ikus beherago (II.3.2). <ref type="bibr">15</ref> Gipuzkeraz berriz, partizipioaren heda tzea xviii. mendean eta momentu berean gertatu da *edin eta *ezan-ekilako egituretan. Garai hartan *ezan oraino emankorra zen eta iduri luke emankortasun horrek aldaketa analogikoendako aukerak zabaldu zituela. <ref type="bibr">16</ref> Azkenik, ikusten dugun bezala, azterketa xehe horrek nekez uzten du pasa tzera partizipioa nondik eta nora heda zitekeen. Iduri luke momentu berean hedatu dela perifrasiaren funtzio/balio guzietara. xvi. mendeko araberazko testuek ere erakusten digute egin-ek *ezan-en alderantzizko joera duela, erran nahi baita gehienetan partizipioa erabil tzen duela adi tz nagusi gisa. -tu-dun formak baizik ez baditugu konpara tzen propor tzio hauek ditugu: 65 partizipio vs 2 adi tzoin, erran nahi baita % 97 partizipio vs % 3 adi tzoin. Ager tzen zaizkigun bi forma adi tzoindunak aginterazkoak dira, eta Lazarragarenak: Arta lastoa agin egizu 1183r, begira egizu 1185r. Berantago i tzuliko gara horretara (II. 2.3.4).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Egin lagun tzailearekilako egitura</head><p>xvii. mendean, Portalen testuan egin lagun tzailea bi aldiz ager tzen zaigu aginteran erabilirik, baina bietan partizipiozko markarik ez duten adi tzekin (jan, egin).</p><p>xviii. mendean ere partizipioa da nagusi, bi agerpen baizik ez ditugularik aditzoinarekin: -tu-dun partizipioak konparaturik, 14 partizipio vs 2 adi tzoineko proportzioa dugu. Adi tzoinaren adibideak aginteran aurki tzen ditugu, bata Albenizen doktrinan (1778) (beguira eguizu nola zeure Jaungoicoac dei eguiten dezun zure vici gaistoaren contu ematera 167), bestea Gamizen olerkietan (guardazaitela Jaincoac 516). Berantago i tzuliko gira horretara (2.3.4). xvi. mendeko testu laburrean, egin bi aldiz baizik ez zaigu ager tzen. Bietan partizipioa dugu adi tz nagusi gisa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.3.">Gipuzkera</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9.">taula</head><p>xvii. mendean, egin gehixeago ager tzen zaigu. Partizipioa -tu-z duten formak aintzat harturik, ikusten dugu adi tzoina nagusi dela: 3 adi tzoin ditugu eta partizipio bakar bat ere ez. Dudarik gabe, datu harrigarria zaigu gainerateko euskalkietan kontrako joera dugunaz geroz. Geroxeago i tzuliko gara puntu horretara (II.2.3.4).</p><p>xviii. mendean, berriz, partizipioa nagusi da egitura horretan. Partizipioa -tu-z duten formak konparaturik ondoko propor tzioak ditugu: 32 partizipio vs 6 adi tzoin, ho ts, partizipioa % 84,2an erabil tzen da. Testu gehienak bat datoz joera horrekin (O txoa Arin eta Kardabera tzek adi tzoin bana ekar tzen dute) salbu Zegamako doktrina, horretan adi tzoina baizik ez baita erabil tzen (4 adi tzoin vs 0 partizipio) (Ikus beherago II.2. <ref type="bibr">3.4)</ref>. Partizipioaren ager tzearen ingurune baldin tza tzaileei buruz, erran behar dugu, bi aldiz aginteran aurki tzen dugula, lau aldiz mendeko perpausetan (3 aldiz orainaldian eta behin iraganean). Bizkitartean, hain datu guti izanik, zaila iduri tzen zaigu joera horien egi absolutu tzat har tzea.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.4.">Orokorkiago</head><p>Egin lagun tzaileak guziz alderan tzizko garapena erakusten du. Hastapenetik partizipioa du nagusi eta adi tzoina salbuespen. Mende eta eremu guzietako -tu-dun aditzen datuak bildurik, ikusten dugu agerraldien % 94,3an partizipioa dugula, eta % 5,7an baizik ez adi tzoina.</p><p>Gure ustez, datu hauek erakusten digute egin lagun tzailearekilako perifrasiaren jatorrizko forma [partizipioa + egin] gisakoa zela, eta adi tzoinaren erabilera egitura horretan bigarrenkaria dela, *edin eta bereziki *ezan lagun tzaileekilako analogiaz sortua. <ref type="bibr">17</ref> Ikus di tzagun euskararen historian egin lagun tzailearekin adi tzoina erabil tzen duten 15 adibideak: Salbuespen horietarik 9 aginteran dira (erdia baino gehiago), 4 mendeko perpaus batean (bat iraganean eta hiru orainaldian), 1 aoristoan eta beste 1 poten tzialean. Argi da ez dela orokor tze handirik egiten ahal. Halere, azpimarratu nahi dugu Lazarragaren bi adibideak errexki azal tzen ahal direla. Gorago erran dugun bezala (II.2.1.2), Lazarragaren testuan, adi tzoin &gt; partizipio ordezka tzea biziki ai tzinatua da *edin-en erabilera guzietan, salbu aginteran, non adi tzoinak biziki indar tsu dirauen (25 adi tzoin vs 4 partizipio). Gainera, testu horretan, *ezan-ek aginteran, beste erabileretan bezala, adi tzoina baizik ez du erabil tzen. Erran gabe doa presio analogikoaren argumentua biziki tentagarria eta posiblea dela egin-ekin ager tzen diren bi adi tzoinen azal tzeko. Albenizen aginterazko formari dagokionez, egin eta *ezan adi tzoin berarekin batera ager tzen dira ahapaldi berean, horrek ere analogiaren azalpena esangura tsu egiten baitu egin-ekin dugun adi tzoinaren esplika tzeko: Beguira eguizu nola zeure Jaungoicoac dei eguiten dezun zure vici gaistoaren contu ematera. Veguira zazu cein zuzena dan Jaun guà (Albeniz 167).</p><p>Beste adibideen tzat ere analogiaren presioa ikusten dugu eragile bakar bezala, nahiz eta datu faltarengatik ez dugun analogiaren iturburu eta norabide zuzenik proposa tzen ahal. Bizkitartean, uste dugu *edin baino gehiago *ezan lagun tzailearekiko analogiak egin bul tza zezakeela adi tzoinaren erabil tzera, alde batetik bi lagun tzaile iragankorrak lehian bai tziren, eta bestetik adi tzoina *ezan-en egituran baita hobekien mantendu berant arte. Guziz azpimarra tzekoa iduri tzen zaigu egin-ekin adi tzoina erabil tzen duten testu gehienek 18 *ezan emankorki erabil tzen dutela, eta frangotan adi tzoinarekin: RS, Azpeitiko gutunak, O txoa Arin, Lazarraga, Albeniz, Zegamako doktrina (ikus eranskineko 10. taula). Azken hunen kasua harrigarria da -tu-dun formak konparatzen baditugu adi tzoina baizik ez baitu erabil tzen egin lagun tzailearekin. Alderantziz, ez dugu adi tzoinik aurki tzen egin lagun tzailearekin *ezan erabil tzen ez duten autoreen testuetan: VJ (14 partizipio vs 0 adi tzoin), Egiaren Kanta (6 partizipio vs 0 adi tzoin), Kapanaga (59 partizipio vs 0 adi tzoin), Amileta (8 partizipio vs 0 adi tzoin), Bulda (3 partizipio vs 0 adi tzoin), Zubia-Lezamiz (5 partizipio vs 0 adi tzoin) (ikus eranskineko 10. taula).</p><p>Bestalde, Abendañokoaren eresiaren kasuan, adi tzoina errimarengatik izan genezake. Normalean, gisa horretako azalbideak saihesten dira, ezin pen tsatua baita poesietan gramatikaren kontra doazen egituren erabil tzea. Bizkitartean, kasu honetan, egitura hori ez zitakeen hain bi txia, horren ondoan adi tzoina eta *ezan-ekilako egiturak ere oraindik bizirik baziren poten tzialaren adierazteko.</p><p>Azkenik, erran behar dugu, adi tzoinaren 15 agerraldietarik 4 baizik ez direla xvi. mendekoak, edo bestela erranik, agerraldi gehienak modernoak direla (xviixviii. mendeetakoak).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Ondorioak</head><p>Hiru eremuetako datuek material berri andana bat eskain tzen digute, ondorio handikoa baita adi tz mul tzoaren historiarako. Lehenik, ondorio ba tzuk aterako ditugu partizipioa -i-z duten adi tzoinen desager tzeaz, eta bigarrenik, en tseatuko gara partizipioa -tu-z duten adi tzoinen ordezka tze prozesuaren argi tzera.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Partizipioa -i-z duten adi tzoinen desager tzeaz</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.1.">Bizkaiera, arabera, gipuzkera</head><p>Taulek argi erakusten dute adi tzoina erabil tzekotan partizipioa -tu-z dutenak erabiltzen direla. xvi, xvii, xviii. mendeetako bizkaiera, arabera eta gipuzkerazko testuetako adi tzoin guziak bildurik 339 agerraldi zenbatu ditugu. Horietarik 337, ho ts, % 99,4a partizipioa -tu-z duten formak dira (ho ts, -tu &gt; Ø tipokoak), partizipioa -i-z duten aditzoinen bi agerraldi baizik ez dugularik aurki tzen (-i &gt; Ø motakoak), 19 agerraldi guzien % 0,6a osa tzen baitute: ez azauenac eros aala RS 101, az ezac er[r]oya RS 136. Ohar gaitezen bi agerraldi horiek *ezan lagun tzailearekin egiten direla. Horrek ez gaitu batere harri tzen zeren eta, gorago ikusi dugun bezala (II.2.2.4) *edin ez bezala, *ezan laguntzaileak ez baitu partizipiorik har tzen hiru eremuetako testu zaharrenetan. Bestalde, RS testuan ditugu, ho ts, xvi. mendea baino lehenagoko euskaran ida tzia den testu batean. Artetik errateko, ez da testu horretan lekuko tzen den lehenbiziko ezaugarri arkaikoa (ikus <ref type="bibr">Lakarra 1995)</ref>. Hori hala izanik, ez zaigu biziki arrisku tsu iduri tzen erratea xvi. menderako partizipioa -i-z duten adi tzoinak mendebalde (bizkaiera eta arabera) eta erdialdeko hizkeretarik desagertuak zirela. Beste manera batez erranik, ordurako, -i a tzizkiak emankortasun oro galdua zuen eta hiztunen gramatikan -tu baizik ez zen geldi tzen partizipiozko a tzizki gisa.</p><p>Buka tzeko, datu horrek behar tzen gaitu Catigatu ninduçun maitasunezko poesiaren beste irakurketa baten proposa tzera. Poesia xvii. mendekoa da, eta ondoko leloa du:</p><p>Catigatu ninduçun librea ninçana Niças eras daiçu gura doçuna <ref type="bibr">Satrustegi (1978a, b)</ref>, <ref type="bibr" target="#b16">Irigoien (1978)</ref> eta <ref type="bibr" target="#b40">Sarasola (1983)</ref> bat datoz errateko bigarren lerroan erasi adi tzaren adi tzoina dugula egin lagun tzailearekin jokaturik, eta orduan niças eras daiçu gura doçuna lerroak «nitaz erranen duzu nahi duzuna» erran nahi duela.</p><p>Bizkitartean, gure ustez, irakurketa horrek arazo frango ditu, hiztegia, grafia, semantika, morfologia eta sintaxi historikoaren ikuspegietarik. Lan honetan, lehenbiziko hiru ikuspegiak bazterturik, morfologia eta sintaxi historikoak baizik ez ditugu aipatuko. Ikusi berri dugun bezala, partizipioa -i-z duten adi tzoinak xvi. menderako desagertuak ziren, eta orduan biziki zaila iduri tzen zaigu gisa horretako forma baten a tzematea xvi. mendean, eta are gehiago xvii.enean (poesiaren data). Gainera, egin lagun tzailea adi tzoinarekin erabil tzea ere bi txi iduri tzen zaigu. Gorago ikusi dugun bezala (II.3.2), hori biziki gauza arraroa da, salbuespenaren mailakoa, bizkaierazko testu zaharretan partizipioa nagusi baita perifrasi horretan. Bi arrazoin horiek aski pisuzkoak iduri tzen zaizkigu irakurketa zaharraren bazter tzeko eta beste baten bila abia tzeko.</p><p>Gure irakurketa berriak proposa tzen du eras hori erraz gisa irakur tzea, eta horren ondorioz, daizu adi tz trinkoaren adi tzondo gisa: Niçaz erras daiçu gura doçuna «Nitaz erraz egin dezakezu / eginen duzu nahi duzuna». Bide batez olerkiaren sen tsuari dagokionez, aise hobeki heldu da leloan bahituak maitaleari erran diezaion nahi duena egiteko, ber tsoetan gelditu gabe galdegiten diolarik hartaz zer eginen duen. Azkenik, erran behar da erraz adberbioaren erabilpena biziki arrunta dela mendebaldean gisa horretako egituretan. Hona adibide pare bat Lazarragaren testutik ateraiak: Nik au erraz daiket ene partez… 1185r, gugaz etorri nai badozu erraz daizu ekusi… 1159r.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.2.">Ekialdeko hizkerak</head><p>Nahiz eta lan honen helburua mendebalde eta erdialdeko hizkeren azterketa den, garran tzi tsua iduri tzen zaigu, ekialdeko hizkeren lekukotasunaren gehi tzea, gertakari horren ikuspegi osoago baten emateko.</p><p>Goi Nafarrera erdialdeko testuetan, -i-rik gabeko adi tzoinak ager tzen zaizkigu han hemenka. Partizipioa -i-z duten adi tzoinak konparaturik (ho ts, -i &gt; Ø tipokoak), ondoko propor tzioak ditugu: Ezkurra (1610) *edin adi tzoin 1 vs 0 partizipio, Elizalde (1610) *erazan adi tzoin 1 vs 0 partizipio, Beriain (1621) *ezan 2 adi tzoin vs 11 partizipio, *erazan 3 adi tzoin vs partizipio 1, Elizalderen gutunak (1693, 1699) *ezan adi tzoin 1 vs partizipio 1, Elizalde (1735) *edin adi tzoin 1 vs 3 partizipio eta *ezan adi tzoin 1 vs 4 partizipio, Ororbiako predikuak *ezan 4 adi tzoin vs 4 partizipio, Morentin zaharra *edin adi tzoin 1 vs 0 partizipio, *ezan 6 adi tzoin vs 4 partizipio, Morentin gaztea *ezan adi tzoin 1 vs 2 partizipio. Datu horiek erakusten digute, -i-rik gabeko adi tzoinak oraino erabil tzeagatik, gal tzen ari direla, eta ager tzen zaizkigun soilak salbuespenak direla. Nafarrerazko corpusaren adi tzoinak batera harturik, ikusten dugu -i &gt; Ø pairatu dutenek adi tzoinen % 5,2a baizik ez dutela errepresenta tzen, ho ts -tu &gt; Ø duten adi tzoinak direla nagusi % 94,8an. Gehitu behar dugu ez dugula desberdintasun nabarmenik ikusten xvii eta xviii. mendeko testuen artean, bi gizaldi horietan -i &gt; Ø berdin tsu erabil tzen baita, salbuespen gisa alegia.</p><p>Bizkitartean, ez dugu egoera bera Nafarroa osoan. xviii. mendean, Zarai tzu eta Erronkarin -i partizipiozko a tzizkia oraino emankorra da, eta sistematikoki eror tzen da *edin, *ezan eta *iro lagun tzaileekin. <ref type="bibr">20</ref> Halaber, Lapurdi, Nafarroa Beherea eta Zuberoan, partizipioa -i-z duten aditzoinak oraino bizirik dira, baita partizipio vs adi tzoinaren arteko oposaketa ere (etorri vs etor). Are gehiago, hain da emankorra -i partizipiozko a tzizkia, non -ki a tzizkiko -i-a partizipiozko a tzizki gisa berranalisatu eta eror tzen den adi tzoina erabil tzekotan: ausik, ebak, jarraik, aurdik…(ikus 2. oinoharra). 21</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Kronologia eta heda tze geografikoa</head><p>Orain arte uste genuenaren kontra, adi tzoinaren desager tzea ez da nola nahizka gertatu, ez eta manera batera tsu batez ere lagun tzaile guzietan. Azterketa sistematiko honek erakusten digu joera desberdinak ditugula lagun tzaile batetik bestera, eta garai batetik bestera.</p><p>Datuen azterketak bul tza tzen gaitu ondoko ondorioen atera tzera:  <ref type="bibr" target="#b14">(Inza 1922</ref><ref type="bibr" target="#b46">, Zuazo 1994</ref>. e) Azkenik, gorago ikusi dugun bezala, Zuazok proposa tzen du adi tzoinaren ez erabil tzea Arabako euskararen ezaugarri bat dela. Betola tzak partizipioa baizik ez du erabil tzen egin-ekin -mendebaldeko testu guztietan bezala-eta *edin -en 5 agerraldietatik 3tan partizipio marka berezirik ez duten adi tz nagusiak ditugu (erro gisa dei tzen ditugunak), eta -i a tzizkidun partizipio bat eta -tu a tzizkidun partizipio bat (ikus eranskineko 10. taula). Ho ts, hauen artean forma bat baizik ez zitekeen ager adi tzoinarekin, *edin lagun tzailearekin erabiltzen den -tu partizipioduna hain zuzen. Erran gabe doa datuak gisa horretan ikusirik ondorio ororen atera tzeko aukera arras murrizten dela. Jadanik erran dugun bezala, *edin partizipioarekin behin ager tzeak ez du erran nahi Betolatzak ez zuela adi tzoinik erabil tzen. Hortik, bor txatuegi iduri tzen zaigu, aditzoina ez erabil tzea Araberaren ezaugarria dela proposa tzea. <ref type="bibr">24</ref> Gure lanak deitzen du partizipioaren heda tzea beste manera batez kon tsidera tzea, behin eta berriz errepikatu dugun bezala, adi tzoinaren desager tzea ez delako gisa berean gertatu laguntzaile guzietan. 25 23 «Dada la temática me asaltó la sospecha de que pudiera ser un texto compuesto por el P. Mendiburu o el P. Cardaveraz; pero la caligrafía es diferente a la de ambos, lo que no empece que fuera compuesto por alguno de ellos, en cualquiera de sus misiones populares del Goyerri, y copiado luego por algún otro clérigo de la zona y hasta corregido y ampliado más tarde de otra mano.» <ref type="bibr">(Murugarren 1984: 187)</ref>. <ref type="bibr">24</ref> Gainera, bestalde Lazarragaren datuek ere bul tza tzen gaituzte adi tzoinaren desager tze prozesuaren beste manera batez ikustera. <ref type="bibr">25</ref> Adi tzoinaren desager tzea bere osotasunean uler tzeko perifrasien datu hauei eratorpen morfologikoan gertatu den adi tzoinaren ordezka tzearen datuak gehitu beharko zaizkie. Bestetik, partizipioaren heda tzearen kokapen geogra koa azalduko luke adi tzoinaren ordezka tzea egin-ekilako perifrasia duten euskalkietan baizik ez baita gertatu. <ref type="bibr">28</ref> Proposamen horren hirugarren abantaila da hiru lagun tzaileen artean partizipioaren heda tzean diren asimetriak esplika tzen dituela. [Partizipioa + egin] perifrasia gisa horretan sortu bazen, ez dugu partizipioaren heda tzearen beharrik forma horren erabilpenen azal tzeko. Aldiz, erraten ahalko dugu perifrasi berri hau hedatu zen heinean, partizipioa beste egituretara zabaldu zela. Gainera iduri luke datuak bat datozela gure azalpenarekin. xviii. mendeko datuen ezaugarriak ere kuru tza tzen baditugu, ikusten dugu egin erabil tzen dutenek partizipioa nagusitu dutela *edin lagun tzailearekin (O txoa Arin, Gamiz), bainan *ezan oraindik nagusi dutenek 29 aditzoina nagusi dutela *edin-ekilako perifrasian (Irazusta, Barrutia, Goierriko platika, Kardabera tz, Zegamako eta Oikiako doktrinak) (ikus eranskineko 10. taula). Hurrunago joanik, *ezan galdua dutenek *edin-ekin partizipioa orokortua dute -adi tzoina ager tze kotan bigarrenkaria da-: <ref type="bibr">Kapanaga</ref> ez zaigu gehiegizkoa iduri tzen erratea mendebaldeko hizkera askotan adi tzoinaren desager tzea *ezan-en desager tzearekin batean gertatu dela, edo egin-ekilako perifrasiaren orokor tzearekin.</p><p>*Ezan lagun tzailea, berriz, berex geldi tzen da, biziki berant arte ez zaiolako partizipiorik hedatu eta adi tzoina a txiki baitu. Erran genezake, egitura fosilizaturik gelditu dela, eta horrek ezinezko bilakatu duela partizipioa egitura horretara heda tzea. Berantago ikusiko dugun bezala (IV.1), xvi. mendeaz geroz, bizkaieraz eta araberaz -gipuzkeraz ez bezala-*ezan-ek posizio bigarrenkaria du sisteman, egitura nagusia [adi tz nagusi + *edin] iragangai tz vs [partizipio + egin] iragankor izanik. Sistemak *ezan bazterturik uzten du erabilpen mugatu eta espezifikoekin, horrek fosiliza tzea esplika bailezake. Buka tzeko, testu zaharrenetan *ezan-ek aldaketa guziri hermetikoa iduri badu, xviii. mendean, bizirik den tokietan (ikus gipuzkera eta Albeniz) partizipioa heda tzen zaio. Bistan dena, gogoan a txiki behar da heda tzea ez dela gisa berean gauzatu garai eta eremu guzietan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Datu osagarria: nafarrera</head><p>Gure azterketari osotasun baten emateko garran tzizkoa iduri tzen zaigu nafarrerazko datu zenbaiten aipa tzea. Izan ere, nafarreraz ere han-hemenka gertatu da partizipioaren heda tzea *edin eta *ezan lagun tzaileekilako egituretan. Bizkitartean, delako aldaketa biziki modernoa da, xviii. mendearen bigarren partekoa baita, eta biziki mugatua, bi ibarretan baizik ez baitugu aurkitu azkarki hedaturik, hala nola Ororbian, Iruñerrian (Orobiako izkribuak, Satrustegi 1987) eta Gesalazko ibarrean, Muzkin (Morentintarren predikuak, <ref type="bibr" target="#b29">Lekuona 1973)</ref>.</p><p>Azpimarratu behar dugu Elizalde ere sor tzez Muzkikoa zela, Morentintarrak bezalaxe. Bizkitartean, harrigarria da Elizalde eta Morentintarren artean dugun desberdintasuna perifrasi zaharraren adi tz nagusiaren erabileran (ikus eranskineko 10. taula). Erran bezala, Elizaldek, xviii. mendearen lehenbiziko aldian, ez du sekulan partizipiorik erabil tzen, Morentintarrek, berriz, 50 urte berantago maiz erabil tzen dutelarik. Azken bi hauen artean ere desberdintasun interesgarri bat dugu adi tzoin eta partizipioaren arteko txandaketan. Zaharrak gazteak baino gutiago erabil tzen du partizipioa. Partizipioa -tu-z duten adi tzak konparaturik, ondoko propor tzioak ditugu: Morentin zaharra (1777, 1787) *edin 4 adi tzoin vs 6 partizipio, *ezan 22 adi tzoin vs 22 partizipio; Morentin gaztea (d.g., 1791) *edin 2 adi tzoin vs 8 partizipio, *ezan 7 adi tzoin vs 16 partizipio. *ezan lagun tzailearekin, partizipio bezainbat adi tzoin erabiltzen du zaharrak, gazteak berriz, adi tzoin baino partizipio gehiago. Baliteke bi autore horien arteko desberdintasunak erakustea belaunaldi batetik bestera partizipioaren heda tzea indartu zela. Zori txarrez, ibar horretako euskara desagertua da eta ez dugu gertakari horren ondoko egoeraren deskribapenik eskain tzen ahal. Gisa berean, Ororbiako testuan (1758) *edin 24 adi tzoin vs 6 partizipio eta *ezan 34 adi tzoin vs 9 partizipioko propor tzioak ditugu (beti ere partizipioa -tu-z duten formak konparaturik), eta ez dugu geroztikako lekukotasunik. <ref type="bibr">30</ref> Testu horiek ai tzin, partizipioa zinez salbuespen gisa ager tzen zaigu, han-hemenka: Nafarrerazko lehen sermoia (1729) (*edin 3 adi tzoin vs partizipio 1), Larrasoañako hi tzaldia (*edin 8 adi tzoin vs partizipio 1), E txarriko idazkia (1762) (*edin 3 adi tzoin vs partizipio 1; *ezan (4 adi tzoin vs partizipio 1), Inzako izkribua (1772) (*edin 8 aditzoin vs partizipio 1). Salbuespen batez aparte, partizipioa maiz erabil tzen dutenek ere (Morentin eta Ororbiako predikuak) ez dute sekulan erabil tzen aginteran *edin lagun tzailearekin. 31 *Ezan lagun tzailearekin, berriz, partizipioa aginteran ere erabil liteke. <ref type="bibr">32</ref> Ikusten dugun bezala, goi nafarreraren min tzo ba tzuetan ere gertatu da partizipioaren heda tzea*ezan eta *edin lagun tzaileekilako egituretara. Bizkitartean, gertakari hau bizkaiera, arabera eta gipuzkeraz baino berantago gertatu da, eta biziki berrikuntza lokala da, erran nahi baita, ez dela batere hedatu. Partizipioaren heda tzearen nondik norakoari buruz, erran genezake ez dugula ai tzineko kasuetan bezain argi ikusten zein izan liteke horren eragilea. Baliteke xviii. mendearen bigarren zatian arrunt orokortua zen perfektuzko perifrasiak eragina izanik euskara modernoan arras bigarren ka ria eta biziki espezializatua den perifrasi zaharrean. Azkenean, ikusten dugu joera desberdinak, indar desberdinak emai tza beraren eragile gertatu direla lau euskal ki mota hauetan. perifrasiek leku zabala dute xvi. mendeko euskararen adi tz sisteman. Ba tzuetan perifrasi aspektual gisa ager tzen zaizkigu (aoristoa adierazten dutelarik), beste ba tzuetan berriz, perifrasi modal gisa (agintera, subjuntiboa, edo poten tziala adierazten dutelarik). xvii. mendean aldaketa handi bat gerta tzen da sisteman eta ordutik ai tzina moduaren adierazteko baizik ez dira erabil tzen (poten tziala, agintera, baldin tza, subjuntiboa).</p><p>Zati honetan perifrasi horiek testuetan dituzten erabilera guziak aztertuko ditugu, eta saiatuko gara ikusten nolako aldaketak pairatu dituzten xvi. mendetik xviii. mendera bitartean mendebalde eta erdialdeko euskalkietan. Horretarako, berriz ere, lagun tzaile bakoi tza bederazka aztertuko dugu. <ref type="bibr">31</ref> Datu hau bat dator Arabako testuetan xvi. mendean dugun joerarekin. Autore nafartarrek partizipioa kontestu hauetan erabil tzen dute *edin lagun tzailearekin: Larrasoañako eskuikribua 1 aginteran; Inzako izkribuan 1 poten tzialean, E txarriko idazkian 1 poten tzialean, Nafarrerazko 1.sermoian 2 potentzialean, Ororbiako predikuak 2 iraganeko mendeko konpletibo eta finaletan, 1 oraineko mendeko konpletibo eta finaletan, 2 poten tzialean, Morentin zaharra 1 iraganeko mendeko konpletibo eta finaletan, 1 oraineko mendeko konpletibo eta finaletan, 2 poten tzialean, 2 baldin tzan; Morentin gaztea 7 oraineko mendeko konpletibo eta finaletan eta 1 poten tzialean. <ref type="bibr">32</ref> Bizkitartean desberdintasun ohargarri bat dago bi Morentintarren artean: Morentin zaharrak (1777, 1787) partizipioa adi tzoina bezainbat aldiz erabil tzen badu *ezan lagun tzailearekin, aginteran adi tzoina partizipioa baino aise gehiago erabil tzen du: 22 adi tzoin vs 6 partizipio. Morentin gazteak (d.g., 1791), berriz, aginteran, partizipioa adi tzoina baino gehiago erabil tzen du *ezan lagun tzailearekin (5 adi tzoin vs 11 partizipio). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">*edin lagun</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Zer testuk eta euskalkik erabil tzen duen</head><p>*edin euskalki guzietan ager tzen zaigu, bai lan honetan deskriba tzen ditugun bizkaiera, arabera eta gipuzkeran, baita ekialdekoetan ere (Goi Nafarrera, Zuberera, Behe Nafarrera, Lapurtera). Izan ere, hura da perifrasi zaharreko lagun tzaile iragangaitz bakarra. Euskalkien arteko batasun horrek bul tza tzen gaitu pen tsa tzera *edin la gun tzailea re ki la ko egitura Mi txelenak (1981) proposatu Euskara Batu Zaharre koa dela (edo hau baino lehenagokoa) eta [adi tzoina + *edin] gisa sortu eta hedatu zela. Berantago, euskalki ba tzuek aldatuko zuten, partizipioa hedatuz adi tzoinaren ordez, edo aldatu gabe a txikiz (formalki bederen).</p><p>Ikus eranskinean *edin lagun tzailearekilako perifrasia erabil tzen duten testuen zerrenda.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Adi tzoina +*ezan</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Egituraren balioa</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.1.">Bizkaiera</head><p>Bizkaieraren historian, *ezan-ek xv. mendean du agerraldi gehien <ref type="formula">(25)</ref> Bizkaiera eta araberaz bezala, gipuzkeraz ere xvi. mendean *ezan-ekilako perifrasia aginteran erabil tzen da nagusiki (% 47a). Aoristoak, berriz, propor tzio tipia du (agerraldien % 5,9a). xvii. mendean, joera bera manten tzen da, *ezan aginteran baita gehien ager tzen (agerraldien % 85,8a). xviii. mendean *ezan-ek jarrai tzen du indar tsu izaten (305 agerraldi), eta xvi. mendean zituen erabilera berdin tsuak ditu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.4.">Laburbil tzeko: *ezan-en erabilpenak</head><p>Laburbil tzeko, erran behar dugu bi joera nagusi, bi mul tzo ikusten ditugula *ezan la gun tzaileaz egina den erabileran: (i) arabera eta bizkaiera, (ii) gipuzkera. Lehenbiziko mul tzoan, xvi. mendeaz geroztik *ezan lagun tzaileak biziki erabilera mugatua du: bizkaie rak aoristoan eta aginteran baizik ez du erabil tzen, eta araberak agintera, aoristoa eta oraineko konpletibo eta finaletan. Aoristoaren desager tzearekin, erabilera posible horiek oraino gehiago murriztuko dira: xviii. mendean, bizkaieraz aginteran baizik ez da aur ki tzen 33 eta araberaz aginteran eta orainaldiko mendeko perpaus finaletan.</p><p>Gipuzkeraz berriz, *ezan-ek aise balio gehiago har di tzake: aoristoa, agintera eta orain konpletibo eta nalaz gain, orain zirkunstan tziala, poten tziala eta baldin tza 34 ere adieraz baiti tzake. Gainera, xviii. mendean segi tzen du xvi. mendean bezain garran tzi tsu izaten, haren erabilera eremua ez baita murriztu (salbu aoristoan bistan dena).</p><p>Bizkitartean, bada ezaugarri bat hiru euskalkiak ba tzen dituena: hiruetan, proportzionalki eta mendez mende *ezan lagun tzailea aginteraren adierazteko da gehien erabil tzen. Buka tzeko, *ezan ez da sekulan erabil tzen bizkaiera, arabera eta gipuzkeraz orainaldiko erlatiboetan ez eta geroaldiaren adierazteko ere.</p><p>Hona Alabaina, azalpen hau [egin lagun tzailea bizkaierari mailegatu zi tzaiolakoa] G-ren historiaz dakigun apurraren kontra doa eta GZ-eko testuen lekukotasunaren mezprezu nabarmena dugu. Ez dago euskalki horretako testuak arreta apur batekin irakur tzea baino -eta, jakina denez, egiteko horrek ez du asti gehiegi eska tzen-subjuntibo, inperatibo eta ahaleran zen asimetriaz jabe tzeko; ho ts, adizkiak bi osagai (nork-zer) ala hiru (nork-nori-zer) izan, kontuak aski ezberdin zihoazen; halaber, adizkia singularrekoa edo ani tzezkoa zen erro berezia hartu ohi zuen. Zeha tzago, bi osagaiko adizkietarako egin zein *ezan-en formak hauta zitezkeen nor singularra bazen; nor ani tza bazen *ezanenak erabili ohi ziren, eta egin-enak hiru osagaikoetan <ref type="bibr">(Lakarra 1996: 183).</ref> Bizkitartean, eraku tsi nahi dugu xviii. mendean ez dugula joera bakar bat aurkitzen gipuzkerazko testu guzietan. a) Otxoa Arin O txoa Arinekoaren testuan, ikusten dugu egin dela nagusi erabilpen guzietan salbu aginteran, bertan *ezan-ek erabilpen gehiago baitu (*ezan 19 vs egin 17). Bizkitartean, *ezan-en erabilpenak espezializatuak dira. Izan ere, nor-nork sailean egin eta *ezan erabiltzen dira, baina objektua pluralean delarik *ezan baizik ez da erabil tzen, salbuespenak salbuespen bistan dena, egin behin ager tzen bai tzaigu objektu pluralarekin (i tzuli egui tza tzu geugana ceure begui misericordiazcoac 8). Nor-nori-nork sailari dagokionean, berriz, erran daiteke egin-en ardurakoa dela (14 agerraldi) nor singularra ala plurala izan, *ezan behin baizik ez zaigulako ager tzen hiruper tsonal gisa: Testimonio falsoric inori jaso ez diozagula 4.</p><p>Nor-nork: egin eta *ezan agintera: nor singularra: egin 6, *ezan 12; nor plurala egin 1 (i tzuli egui tza tzu geugana ceure begui misericordiazcoac 8), *ezan 7. -mendeko perpausak: nor singularra: egin 13; *ezan 7; nor plurala: *ezan 6. -poten tziala: nor singularra: *ezan 2, egin 17; nor plurala: *ezan 9.</p><p>Nor-nori-nork: egin agintera: egin 10 agerraldi, horietarik batek nor plurala izanik (barcatu eguizcu tzu gueurẽ zorrac 1), -mendeko perpausak: egin 2 agerraldi, *ezan agerraldi 1. -poten tziala: egin agerraldi 1. -hipotetikoa: egin agerraldi 1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>b) Zegamako doktrina</head><p>Zegamako doktrinan *ezan aurki tzen dugu nor-nork saileko erabilera gehienetan, nor argumentua singularrean edo pluralean izan (31 agerraldi). Egin behin baizik ez da erabil tzen sail horretan, objektu singularrarekin hain zuzen. Nor-nori-nork sailean, berriz, egin baizik ez da erabil tzen:</p><p>Nor-nork: *ezan eta egin -agintera: nor singularra: *ezan 11; nor plurala *ezan 2 -poten tziala: nor singularra: *ezan 6 -mendeko perpausak: nor singularra *ezan 9 agerraldi, egin agerraldi 1; nor plurala *ezan 3.</p><p>Nor-nori-nork: egin -agintera: egin 4 agerraldi, horietarik bik nor plurala izanik (bar(ca) eguizcuzu 1v, 41v) -mendeko perpausak: egin 3 c) Goierriko platika Goierriko platikan *ezan lagun tzaile biper tsonal gisa erabil tzen da, objektua singularra edo plurala izan. Nor-nori-nork sailari dagokionez, agerraldi bat baizik ez dugu, eta egin lagun tzailearekin egiten da.</p><p>Nor-nork: *ezan -agintera: nor singularra: *ezan 9, nor plurala *ezan 1 -poten tziala: nor singularra: *ezan 5 -mendeko perpausak: nor singularra: *ezan 3, nor plurala 2</p><p>Nor-nori-nork: egin -agintera: nor singularra: *egin 1 d) Oikiako dotrina Oikiako doktrinan, *ezan baizik ez da erabil tzen lagun tzaile biper tsonal gisa, bai objektu singularra, baita pluralarekin ere. Nor-nori-nork sailari dagokionez, *ezan eta egin erabil tzen dira, bien artean, egin piska bat gehiago erabil tzen delarik (egin 10 vs *ezan 8):</p><p>Nor-nork: *ezan -agintera: nor singularra: *ezan 19 agerraldi, nor plurala *ezan 7 agerraldi. -poten tziala: nor singularra: *ezan 11 agerraldi, nor plurala *ezan 2 agerraldi. -mendeko perpausak: nor singularra *ezan 26 agerraldi, nor plurala *ezan 5.</p><p>Nor-nori-nork: egin eta *ezan -agintera: *ezan 2 (biek nor plurala dute: barca zaizquiguzu guri gure Zorrac 3, 31); egin 3 agerraldi. -poten tziala: *ezan 1 -mendeko perpausak: *ezan 5 agerraldi (horietarik bik nor plurala dute), egin 7 (horietarik batek nor plurala du).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>e) Irazusta</head><p>Irazustaren testuan, *ezan da nagusi eta egin-ek biziki erabilpen bigarrenkariak ditu. *ezan erabil tzen da nor-nork sailean, aginteran, mendeko perpaus naletan eta poten tzialean. Egin behin baizik ez dugu aurki tzen nor-nork sailean, aginteran hain zuzen (eman eguizu 3). Nor-nori-nork sailari dagokionez, aginteran egin da nagusi (7 agerraldi) eta *ezan bigarrenkari (agerraldi bat). Bizkitartean, mendeko perpaus naletan *ezan, egin baino bi aldiz gehiago erabil tzen da lagun tzaile hiruper tsonal gisa: 4 agerraldi vs 2 agerraldi. Nor-nork: *ezan nagusi -aginteran: *ezan 28 agerraldi, nor singularra izan ala plurala, vs egin 1. -mendeko perpaus naletan: *ezan 9. -poten tziala: *ezan 4.</p><p>Nor-nori-nork: *ezan eta egin -aginteran: egin 8 agerraldi, vs *ezan 1.</p><p>-mendeko perpaus naletan: *ezan 4 agerraldi, vs egin 2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>f ) Kardabera tz</head><p>Kardabera tzen testuan *ezan lagun tzailea da perifrasi horretan emankorki erabil tzen den lagun tzaile bakarra bai biper tsonal, baita hiruper tsonal gisa ere. Egin behin baizik ez da ager tzen, nor-nork sailean eta mendeko perpaus batean, hain zuzen: Alaba ezazu, Maria, beti /Jainkoa gure ordean: / Ofendi ez daigun, artu gai tzazu / betiko zure mendean (16.o).</p><p>Nor-nork: *ezan nagusi -agintera: nor singularra: *ezan 17 agerraldi, nor plurala *ezan 2 -poten tziala: nor singularra: *ezan 19 agerraldi, nor plurala *ezan 2; -mendeko perpausak: nor singularra: *ezan 23 agerraldi, egin agerraldi 1; nor plurala *ezan 1.</p><p>Nor-nori-nork: *ezan -agintera: *ezan 9 agerraldi -poten tziala: *ezan 6 agerraldi -mendeko perpausak: *ezan 8 agerraldi.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>g) Laburbilduz</head><p>Hiru joera nagusi ikusten ditugu egin eta *ezan lagun tzaileen espezializazioan.  <ref type="bibr">35</ref> Hirugarren joera Kardabera tzek berak marrazten du *ezan baizik ez baitu erabil tzen bai nor-nork baita nor-nori-nork sailean ere (salbuespen bat baizik ez nor-nork sailean). <ref type="bibr">35 E txaidek (1984)</ref> azpimarra tzen du *ezan hiruper tsonal gisa a txiki tzekotan, autoreek aginteran a txiki dutela: «Gipuzkoako autoretan bi adi tz-erroak bildu ditugu, -eza eta -egi-alegia, elkarren arteko borroka nabari dadin. Irakurleak konproba dezakeenez, borroka honetan, nahiz eta beti a tzeraka, inperatiboan eu tsi zaio sendoenik -eza-adi tz-erroari. Agirre Asteasukoak, esate baterako, aginkorrean (inperatiboan) bakarrik darabil, eta ez beti.» <ref type="bibr">(E txaide 1984: 601)</ref>. Hau gertakari berantiarra bide da aztertu ditugun testuen artean Barrutiaren testuan baizik ez baitugu ikusi gisa horretako daturik.</p><p>Iduri luke kasu honetan ere mendebaldetik ekialderako gradazio batez min tza gaitezkeela, zenbat eta mendebalderago egin gehiago erabil tzen baita (biper tsonal eta hiruper tsonal gisa), edo zenbat eta ekialderago gutiago (salbuespen bat izan ezik Kardabera tzek *ezan baizik ez baitu erabil tzen).</p><p>Egin-en espezializazioaren kronologiari buruz, erran behar dugu xvii. mendeko bi testu soltetan egin lagun tzaile hiruper tsonal gisa baizik ez zaigula ager tzen: Bretainako Kantua Jaungoicoa debeela herreguten / deguiola eman 15-16; Azpeitiko gutunak esan dit escribi deguiçudala çuri 31-32, esan dit gaztiga deguiçudala nayztebala monja ceran 63-64, ondo esan eguioçu beti 12. xvi. mendeko Salmo Miserere testuan ere joera bera aurki tzen dugu: bekatu mutastoa kendu eguidazu 6, Zeure Semearen Aita eternoa, biurtu egidazu konsolazioa 37. <ref type="bibr">36</ref> Euskara modernoan, berriz, Azkueren arabera (1932) *ezan gipuzkerazko hizkera guzietan a txiki da joko biper tsonaletan, salbu Azkoitia eta Legazpin. Hiruper tsonaletan, berriz, egin erabil tzen da Gipuzkoa osoan, salbu Astigarraga eta Oiar tzunen:</p><p>En cambio en las flexiones meramente objetivas, que son las del Paradigma XXXVIII, se conserva íntegro el núcleo za fuera de Azkoitia y Legazpia. «Beba yo» es edan dezadan y siguen las demás persona sedan zak, zan, beza y dezala; edan dezagun, zazu, zazue, y bezate o dezatela. <ref type="bibr">(Azkue 1932: 145)</ref>.</p><p>En las flexiones receptivas de subjuntivo correspondientes al paradigma XLI, el auxiliar bizkaino egin ha usurpado el puesto de ezan. Sólo en Astigarraga y Oyarzun vive el núcleo za. En los demás al efecto consultados, se oyen ejemplos como eman daiodala o deiodala 'que yo se lo dé', eman daiozula o deiozula 'que vos se lo deís'. <ref type="bibr">(Azkue 1932: 147-48)</ref> E txaidek (1984), Azkueren aipua berriz harturik, erraten digu Astigarraga eta Oiar tzu nez gain, ondoko herrietan ere *ezan lagun tzaileak bizirik dirauela NNN sailean: Amezketa, Abalzizketa, Orendain, Al tzo, Lizar tza, Gaztelu, Orexa, Leaburu, Ibarra, Belaun tza, Berrobi, Elduaien, Berastegi, Urnieta, Ernani, Errenteria, Lezo, Pasaia, Irun eta Ondarribia. Eta gainera tzen du:</p><p>Uste dut Naparro-mugaldeko herriotan gehiago edo gu txiago (baiñan, gero eta gu txiago) oraindik zenbait kasutan kon tserba tzen dutela «-za» adi tzerroa. Hontaz gaiñera esango nuke aginkorreko forma ba tzuek (za(i)dazu/za(i)dak, zaiozu/zaiok, zaizkidazu/zaizkidak, zaizkiozu/zaizkiok…) naiz-ta galurrean, Oria'ko ibarluzera guzian erabil tzen direla oraindik Alegi'tik Orio'raiño eta erabil tzen eztuenari ere oso ezagun eta e txeko egiten zaizkio. Baiñan, Azkue'k dion bezala, aztarrenak besterik eztira geldi tzen. Beraz, bildurrik gabe esan diteke gaur Gipuzkoa'n erabil tzen diren datiboko adi tzerroak «egin»etik atereak direla (E txaide 1984: 622, 1. oinoharra) <ref type="bibr">36</ref> Ahapaldi honetan aipatu txandaketak ez dira euskararen historian adi tz nagusiaren egitura argumentalak baldin tzatu ordezka tze bakarrak. Oroit gaitezen goi nafarrera erdialdeko bost testutan *ezanen ordez *erazan lagun tzailea erabil tzen dela hiruper tsonal gisa (Eta Jaincoac parcaderozola Migueli TAV 60), <ref type="bibr">Beriain (1621)</ref>, Hervas-en Aita Gurea (Oroz Arizcuren 1980), Katexima zatiak 1614 b.l. <ref type="bibr">(Sarasola 1990: 251-257</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Zer testuk eta euskalkik erabil tzen duten</head><p>Hasi ai tzin, oroitarazi nahi dugu *ezan lagun tzailea Euskal Herri osoan lekukotzen dela eta haren desager tzea gertakari modernoa bide dela. Hori hala izanik, [aditzoina + *ezan] perifrasiaren sorrera Mi txelenak <ref type="bibr">(1981)</ref> proposatu Euskara Batu Zaharraren garaikoa edo lehenagokoa datekeela uste dugu. Horren ondotik ba tzuek a txik zezaketen (ekialdeko euskalkiak), ba tzuek egin-ekin ordezka eta osoki bazter (bizkaiera eta arabera), beste ba tzuek lagun tzaile zaharra eta berria batera erabil zitzaketelarik (erdialdeko euskalkiak).</p><p>*Ezan lagun tzaile gisa erabil tzen duten testuen zerrenda tze arruntik ezin liteke egin, ez baita gisa berean erabil tzen testu guzietan, ba tzuetan emankorra baita, beste ba tzuetan sasi-emankorra edo bigarrenkaria, eta bestetan guziz eiharturik eta espresio lexikalizatuetan ager tzen baita. Hiru adibideetarik biga aginteran ager tzen dira. Ez da dudarik Albenizen testuan ere *ezan emankortasunik gabeko lagun tzaile gisa ager tzen zaigula. <ref type="bibr">37</ref> Arrasateko an tzerkiaren kasua berezia da zeren eta alde batetik aginteran baizik ez baita erabil tzen eta bestetik forma nagusia ez izanagatik, oraino emankorra baita (*ezan 10 agintera vs egin 16 agintera). Gainera, inguru eta garai bereko testuetan ez dugu *ezan-en arrastorik. Oroit Zuazok (2006) proposatzen duela Barrutiak ez zukeela Arrasate inguruko hizkeran ida tzi (ikus II. 2. 1. 1.).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1.">Erabil tzen dutenak</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.">Erabil tzen ez dutenak</head><p>*Ezan erabil tzen ez duten testuen zerrenda egitean, argi izan behar da erabilpen eza bi arrazoin nagusirengatik dukegula: (i) kasualitatez ez baita lekuko tzen testua laburra izanik; (ii) hizkerak bere sistematik kanpo u tzia baitu, egin-ekin ordezkaturik.</p><p>Egoera hala izanik, erabaki dugu *ezan erabil tzen ez duten testuak bi taldetan bana tzea. Gure ustez testua laburregia izanik trenka tzen ahal ez diren kasuak <ref type="formula">(</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.4.">Laburbil tzeko: egin-en erabilpenak</head><p>Euskalki bakoi tzaren azterketatik garbi geldi tzen da gutienez xviii. mendera arte bi joera desberdin ditugula egin lagun tzailearen aldera. Bizkaiera eta arabera bat datoz egin-i ematen dioten lehentasunean: xvi. mendeaz geroz, bi euskalki horietan egin-ek, *ezan-ek baino erabilera gehiago du, eta *edin-ekilako perifrasiaren kide iragankor bakarra da erabilera gehienetan. Gipuzkeraren egoera nahiko desberdina da. xvi. mendean, *ezan-ek ditu egitura iragankorraren erabilera gehienak bete tzen. xvii. mendean, egin, *ezan-en maila berera hel tzen da, 40 eta xviii. mendean gaindi tzen du Otxoa Arinen testuan. Irazusta, Oikiako eta Zegamako doktrinak, Goierriko platika eta Kardabera tzen testuetan, berriz, egin bigarrenkaria da. Euskara modernoaren datuei dagokienez, Yrizarrek (1991) poten tziala eta subjuntiboa aztertu ondoan, ondorioztatu du subjuntiboan egin Azpeitia eta Zegama in-39 Datu hauek ez datoz bat Bonapartek Zegaman ikusi zuenarekin. Haren datuen arabera, potentzialean egin baizik ez da erabil tzen Zegamako azpi euskalkian: «En el subdialecto de Cegama, no se emplean más que estos últimos [gi-dunak] en los modos potenciales y cuando el régimen indirecto entra en el terminativo ocurre lo mismo con el subjuntivo y el imperativo» <ref type="bibr" target="#b45">(Yrizar 1991</ref><ref type="bibr">(Yrizar : 1094</ref>. Hiru bide ditugu gure eta haren datuen arteko batasun ezaren esplika tzeko: edo mende batez lagun tzaile aldaketa gertatu zen poten tzialean, edo Zegamako dotrina gisa izendatua dena ez zen arras bertako euskaran ida tzia izan, edo Bonaparteren afirmazioa borobilegia da, Yrizarrek jadanik sumatu zuen bezala: «la afirmación de Bonaparte, según la cual, en la variedad de Cegama no se emplean más que estas formas vizcaínas parece demasiado rotunda -al menos para el momento presente-ya que actualmente algunos pueblos de la zona oriental de dicha variedad emplean, en el potencial, formas guipuzcoanas». <ref type="bibr" target="#b45">(Yrizar 1991</ref><ref type="bibr">(Yrizar : 1101</ref> 40 Bizkitartean, erran behar da xvii. menderako frango gramatikalizatua zitekeela, Inzako Joan de Sendoren deklarazioan ikusten dugun bezala lagun tzailearen kontrakzioa gertatu baita: Micheto veguirayçu cer ariçaren sorguina çarela esaten badeçu errecoçaytue <ref type="bibr">(Sarasola 1990: 242)</ref>. Oroit gaitezen gisa horretako higadurak soilik posible direla perifrasia biziki gramatikalizatua delarik. guruetan baizik ez dela erabil tzen, poten tzialean Gipuzkoako eremu gehiago hunki tzen duelarik. <ref type="bibr">41</ref> Buka tzeko, azpimarratu behar da gipuzkeraren historian egin lagun tzailearekilako perifrasia ez zaigula sekulan ager tzen geroaldiaren balioarekin. <ref type="bibr">42</ref> Hona, laburbildurik, egin-en erabilera desberdinak, euskalkiz euskalki eta mendez mende: a) Bizkaiera, arabera eta gipuzkeraz aurki tzen diren erabilerak: </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Zer testuk erabil tzen duen</head><p>Egin-en kasuan fiteago egiten da erabil tzen ez duten testuen zerrenda, <ref type="bibr">43</ref>   <ref type="bibr">(Irigoien 1961: 161).</ref> ba tzuetan aurki tzen da: 45 sácame de esta pena / erran egidazu / este corazón mío / saldua daukazu ? <ref type="bibr">(Iraizoz 1976: 74)</ref>.</p><p>Bizkitartean, azpimarratu behar da ez dakigula xuxen bi testu horiek nork ida tziak diren, eta are garran tzi tsuago, biek biziki euskara nahasia dutela. Hona zer dioten bi ediziogileek:</p><p>No es fácil identificar el dialecto. Algunas frases delatan el vascuence circumpamplonés, pero no es navarro meridional típico, a pesar de encontrarse egun por gaur, sandua por saindua, siñestatcen por siñesten, yayo por sortu; <ref type="bibr">ortci, alaber, mandamentu, mantenimentu, guenuen, etc. En cambio oraiñ, lentabicico, lujuriazgo, etc., despistan completamente. […]</ref> Este original manuscrito es muy interesante por la mezcla no acostumbrada de formas del navarro meridional con el septentrional <ref type="bibr">(Irigarai 1961: 161-162)</ref> El euskera de los versos es bastante mezclado; no es altonavarro de Beriayn, que escribió sus obras en Uterga no lejos de Legarda, ni el de Elizalde, originario de aquella zona de Navarra, ni menos aún el de Lizarraga el Elcano. Hay por una parte erran, dut, nazela (nazala, naizela), por otra dezu, dezula, zera (=zara), ezertan (deusetan), gaiso (eri=enfermo), arkitu (aunque también Elizalde escribe arkitu, contra Lizarraga y otros manuscritos de aquel tiempo que dicen aurkitu) <ref type="bibr">(Iraizoz 1976: 73)</ref> Dudarik gabe, bi testu horietan ez da goi nafarrera erdialdeko euskara erabil tzen, eta ezaugarri nahasketek bul tza tzen gaituzte pen tsara tzera tran tsi tzio hizkerak direla, Gipuzkoa edo Arabarekin muga egiten duten herrietako hizkerak.</p><p>Bestalde, ohartarazi behar dugu, bi adibide horiek aginterazkoak eta nor-norinork sailekoak direla. Gaur egun ere Burundako euskaran ingurune mugatu horietan beretan aurki tzen dugu egin lagun tzailearekilako perifrasia:</p><p>Gu txienez ere E txarrira bitarteko eremuan bizirik dago egin erroa. Beronen erabilera aginte erara eta datiboarekin komunztadura egiten den esapideetan dago, hala ere, mugatua. Izagirrek Al tsasun jasotakoak dira ondoko hauek: aginduyozubei katilu-gariya; eskauyozubei Santatriai; galdaiyóla bérai 'que se lo pregunte'; autziyozu bákin. Tankera honetakoak ziren Portalek eta Gamizek erabili zituztenak eta gaurregun bertan ere ez dira batere arro tzak Gipuzkoan barrena oso eremu zabalean <ref type="bibr">(Zuazo 1994: 335</ref>  <ref type="bibr" target="#b14">Inza 1922</ref><ref type="bibr" target="#b46">, Zuazo 1994</ref>.</p><p>Azkenik, proposa tzen dugun heda tzea bat dator gorago eman dugun partizipioaren heda tzearen eszenarioarekin (II.3.2.). Dena den, batasun hori arras espero izatekoa zen, partizipioak adi tzoina perifrasi berriaren analogiaz ordezkatu zuelako hipotesia asumi tzen genuenaz geroz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. Proposamen berria perifrasien historiarako</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Partizipioa + egin perifrasia</head><p>Datuek erakusten diguten bezala, gure testu zaharrenez geroz [partizipioa + egin] perifrasia dugu mendebalde eta erdialdeko euskalkietan. Lekukotasun zaharrenen datuak ai tzinagoko egoeren salataritzat har tzen ditugu, eta horrek bul tza tzen gaitu pentsa tzera egitura partizipioan oinarriturik sortu zela, eta ez orain arte uste izan den bezala adi tzoinean oinarriturik.</p><p>Haren gramatikalizazio prozesua aztertu ai tzin, erran behar dugu gure lehenbiziko testuetarako biziki gramatikalizatua dela, bizkitartean, *edin eta *ezan lagun tzaileekin egiten diren perifrasiak baino aise gutiago. Hainbat hizkun tzalarik azpimarratu duten bezala <ref type="bibr">(Heine 1993</ref><ref type="bibr">, Anderson 2005</ref>, perifrasi baten gramatikalizazio prozesuaren ondorioz lagun tzaile gisa erabil tzen den adi tza ez da gehiago ager tzen adi tz beregain 50 Azpimarratu nahi dugu Oikiako doktrinaren datua biziki interesgarria iduri tzen zaigula, Larramendirenganik urrun baita. <ref type="bibr">51</ref> Goierriko Platikak ere O txoa Arinen alderan tzizko joera erakusten du. Bizkitartean, gorago ikusi dugun bezala (II.3.2.), testu horrek arazo filologiko larria ekar tzen digu, eta orduan, testuaren jatorria argi tzen ez zaigun bitartean, nahiago dugu bazterrean u tzi. gisa -edo trinkoki jokaturik-eta haren forma ez-finituak ere gal tzen dira. Hori da hain zuzen *edin eta *ezan adi tzek erakusten diguten egoera. Ez dugu haien forma ez-finituen arrastorik, eta biziki urriki ager tzen zaizkigu adi tz trinko gisa: (i) *edinen ahurtara bat adibide dugu 52 eta *ezan-en bat baizik ez. <ref type="bibr">53</ref> Egin adi tzari dagokionez, gaur egun oraino trinkoki erabil tzen da, eta haren forma ez-finituak ere ezagu tzen ditugu, horrek erakusten baitu *ezan eta *edin lagun tzaileekilako egiturak baino gutiago gramatikalizatua dela.</p><p>Bestalde, partizipioa + egin egitura beste biak baino berriagoa da. Lehenbiziko argumentua partizipioaren eratorpenak eskain tzen digu. Partizipioa adi tzoinetik era torria da, adi tzoinari partizipio a tzizkiak gehiturik <ref type="bibr">(-i, -tu)</ref>. Gure ustez, horrek erakusten du partizipioa adi tzoina baino berriagoa dela, eta hortik partizipioa adi tz nagusi gisa duen perifrasia, adi tzoina adi tz nagusi gisa duena baino berriagoa dela. Bigarren argumentua, sintaktikoa da. Euskara historikoan adi tzoina / partizipioa + *edin / *ezan egiturak ez dira sekulan ager tzen orainaldiko perpaus nagusietan. <ref type="bibr">54</ref> Ezaguna da hizkun tza baten aditz sistema alda tzen delarik egitura zaharrak erabilera bigarrenkarietara buruz bul tza tzen direla -mendeko perpausak adibidez-, berriagoak perpaus asertiboetan ager tzen direlarik <ref type="bibr" target="#b10">(Bybee 2002</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Perifrasiaren gramatikalizazioa</head><p>Perifrasi horren sor tze eta gramatikalizazio prozesuei dagokienez, uste dugu egitura biperpausdun gisa sortu zela, partizipioak (1), edo partizipioa buru duen perpaus osagarri ez-nituak (2) egin adi tz nagusiaren osagarri fun tzioa bete tzen zutelarik:</p><p>( Berantago, egitura perpaus bakardun gisa berranalisa zitekeen, partizipioa perifrasiko adi tz nagusi gisa berranalisatuz eta egin horren lagun tzaile gisa <ref type="bibr" target="#b47">(3)</ref>. Prozesu horrek argumentu egituraren berrantolaketa ekar zezakeen, handik ai tzina, perpaus osagarrian partizipioaren osagarria zena, perifrasi osoaren osagarri bilaka bai tzitekeen <ref type="formula">(4)</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Fokoaren hipotesia</head><p>Uste dugu mendebaldeko euskaran [adi tzoina + *edin] egitura iragangai tzaren kide iragankor gisa ager tzen zaigun partizipioa + egin perifrasia focus egitura gisa sortu zela. Hastapen batean, egitura horren bitartez, adi tzaren galdegaitasuna markatuko zen, eta kontestu hauetan, [adi tzoina + *ezan] perifrasia ordezkatuko zuen: *Jaungoikoak mundua KREATU zegian (egitura markatua) vs Jaungoikoak mundua krea zezan (egitura ez markatua) Denborarekin, egitura horren erabilera heda zitekeen eta haren jatorrizko esanahi markatua higa. Azkenean, egitura ez-markatu gisa berranalisaturik, [adi tzoina + *ezan] perifrasiaren pareko bilaka zitekeen eta emeki-emeki haren lekua har zezakeen: Jaungoikoak mundua kreatu zegian (egitura ez-markatua) = Jaungoikoak mundua krea zezan (egitura ez-markatua) Bi argumentu nagusi ditugu hipotesi horren alde. Lehenik, uste dugu esplikatu behar dela zergatik bigarren egitura iragankor bat sortu zen. Bigarren egitura bat egitura zaharrenaren sinonimo her tsi gisa agertu zela pen tsa tzea hizkun tzaren ekonomiaren kontra doa. Bigarrenik, biziki gauza arrunta da munduko hizkun tzetan egin adi tza erabil tzea adi tzaren galdegaitasunaren adierazteko <ref type="bibr">(Creissels 2006: 114)</ref>. Gaur egungo inglesean aurki tzen dugu, eta iduri luke Wolofaren historian ere an tzeko garapena gertatu zela <ref type="bibr">(Nouguier 2002): 57</ref> John went to the market (egitura ez-markatua) vs John did go to the market (egitura fokalizatua) Fun tsean, hori bera a tzematen dugu bizkaiera modernoan, zeinetan egin partizipioa ager tzen den partizipioa eta lagun tzailearen artean:</p><p>Peiok e txea saldu dio anaiari (egitura ez-markatua) vs Peiok e txea SALDU egin dio anaiari (egitura fokalizatua) Gure proposamena kontuan harturik, erran nahi luke bizkaiera modernoak aditzaren galdegaitasunaren marka tzeko egitura bat sortu duela garai urrun batean erabili zuen estrategia berriz baliaturik. Erran behar dugu momentuz zaila egiten zaigula bi egitura fokal-en arteko lotura kronologiko zuzen baten ikustea, edo bigarrena lehena desagertu bezain laster agertu zela erratea, gaur egun bizkaierak erabil tzen duen egitura aski berria bide delako. 58 Dena den hau ere guziz azter tzekoa da oraino.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI. Ondorioak</head><p>Ikerketa hori euskarazko adi tz mul tzoaren garapen historikoari buruz buru tzen ari naizen tesi doktoralaren zatiño bat baizik ez da. Gai horrekin hasi nin tzelarik, berehala ohartu nin tzen bi gauzez: lehenik, euskal adi tza frango ikertua izan dela, bai sinkronikoki baita diakronikoki ere, baina ikerle gehienek adi tz trinkoen morfologia abera tsak liluraturik, perifrasiak biziki azaletik aipa tzen dituztela. Alta, gorago erran dugun bezala, gure testu zaharrenez geroz, perifrasiak adi tz sistemaren forma garrantzi tsuenak dira, haren biho tzean koka tzen baitira. Beraz, egoera horretaz jabeturik, erabaki nuen perifrasien azter tzeari lo tzea, eta orduan ohartu nin tzen bigarren gauza garran tzi tsuaz: perifrasi guziak ez direla garai berekoak eta denek ez dituztela pairatu gramatikalizazio eta garapen berak.</p><p>Ai tzineko lan batean <ref type="bibr" target="#b31">(Mounole 2006)</ref>, sistemako perifrasi garran tzi tsuenak aztertu ditugu eta proposatu dugu hauen artean [adi tzoina / partizipioa *edin, *ezan, egin] perifrasia zaharrena bide dela, eta hura eta trinkoak ai tzineko garai zaharretako adi tz sistemaren arrasto bakarrak direla. Ondorioztatu dugu, gaur egun adi tz sistemaren forma nagusiak diren [partizipioa + izan / *edun] eta [adi tz izena inesiboan (-ten, -tzen) + izan / *edun] perifrasiak berriak direla. de conjugaison de V2. Contrairement à Robert qui pose que comme pour les autres conjugaisons en d le verbe à identifier sous ces formes est identique, nous préférons poser que l'Emphatique du verbe a pu à l'origine être composé du verbe def 'faire', qui de part sa valeur sémantique permet d'expliquer les fonctions d'emphase de cette conjugaison, même si synchroniquement un tel découpage n'est pas possible» <ref type="bibr">(Nouguier 2002: 41)</ref>. <ref type="bibr">58</ref> Garai zaharrenetan lau testutan baizik ez dugu aurki tzen egin-ekin sor tzen den egitura analitikoa: Betola tza (1596), Viva Jesus, Egiaren Kanta (1650), Mikoleta (1653). (Betola tzak perpaus ez-finituetan ezeztapenean bigarrena juramenturik egin ez eitea, bostgarrena iñor hil ez eitea, Seigarrena luxuriazko pekatuetan jausi ez eitea…, Viva Jesus-ek aini tz erabil tzen du perpaus finitu eta ez finituetan, baiezko eta ezezkako kontestuetan: oherean jaiguieyten garenean 3, yteundu eyten deuzut 4, sinistu eiten dot 8, bostgarrenac [aguinetan dau] iñoc iñoz ez hileiten 12, Egiaren Kantak (1650), perpaus ez-finituetan, ezezkako eta baiezko kontestuetan: cegaiti eugui daben humildadea / merecidu ez eiteco ango placea 21-22, Mutil picaroac janci eiteco 114, Francesay paguea eguin eiteco 114, Mikoletak (1753) behin baizik ez du erabil tzen, baiezkako perpaus finitu batean: escuetan emon eytendeusat 28.</p><p>Lan honetan, perifrasi zaharrenaren azterketa burutu nahi izan dugu euskalkiz euskalki dituen aldaerak eta desberdintasunak arda tz harturik, haren garapena hobeki uler tzeko asmoz. Mendebalde eta erdialdeko testuen azterketarekin hasi gara hauek baitira aldaketa ekarri dutena. Erran bezala, adi tzoinaz gain, partizipioa erabil tzen dute, eta *ezan lagun tzaile iragankorraz gain, egin. Testuen azterketa sistematikoa berriz ere sorpresa eta erakaskin tza handikoa izan da. Ikusi dugun bezala, partizipioaren heda tzea ez da nolanahizka gertatu lagun tzaile bakoi tzak garapen desberdin bat pairatu duelako. Mendebaldean egin-ek partizipioa baizik ez du erabil tzen eta hortik ondorioztatu dugu [partizipioa + egin] gisa sor zitezkeela. *ezan-ek berriz, ez du partizipioaren heda tzerik pairatu, aldaketa oro gertatu ai tzin desagertu baita. Azkenean erran genezake*edin-ek baizik ez duela partizipioaren heda tzea ezagutu mendebaldeko testuetan (Araba eta Bizkaia </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>[</head><label></label><figDesc>Adi tzoina + *edin, *ezan] eta [partizipioa + egin]</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>eskematikoki: a) Araba, Bizkaia, eta Gipuzkoan aurki tzen diren erabilpenak: • Aoristo: (i) bizkaiera: xv eta xvii. mendeetan, (ii) arabera: xvi. mendean, (iii) gipuzkera: xvi eta xvii. mendeetan. • Orain konpletibo eta nala: (i) bizkaiera: arrastorik ez, (ii) arabera: 6 agerraldi, (iii) gipuzkeraz aurki tzen dugu xvi eta xviii. mendeetan. • Agintera: (i) bizkaiera: xvi, xvii eta xviii. mendeetan, (ii) arabera: xvi eta xviii. mendeetan, (iii) gipuzkera: xvi, xvii eta xviii. mendeetan. b) Araba eta Bizkaian ez, baina Gipuzkoan bai: • Orain zirkunstan tziala: (i) bizkaiera: ez dugu horren arrastorik, (ii) arabera: arrastorik ez, (iii) gipuzkeraz, 3 agerraldi xvi. mendean. • Poten tziala: (i) bizkaiera: ez dugu horren arrastorik, (ii) arabera: arrastorik ez, (iii) gipuzkera: xviii. mendean. • Baldin tza: (i) bizkaiera: ez dugu horren arrastorik, (ii) arabera: arrastorik ez, (iii) gipuzkera: xvii. mendean. c) Arrastorik ez bizkaieraz, araberaz, ezta gipuzkeraz ere: • Orain erlatiboa: (i) bizkaiera: ez dugu horren arrastorik, (ii) arabera: arrastorik ez, (iii) gipuzkeraz ere ez. • Geroaldia: (i) bizkaiera: ez dugu horren arrastorik, (ii) arabera: arrastorik ez (iii) gipuzkera: arrastorik ez. 3.1.5. *ezan-en erabilpen mugatua: egitura argumentala Ezaguna da *ezan eta egin-en erabilpenak adi tz nagusiaren argumentu egituraren arabera espezializatu direla. Bizkaierazko testu zaharrenetan *ezan ez da sekulan agertzen lagun tzaile hiruper tsonal gisa, horretarako egin erabil tzen baita. Lakarrak (1996) erakusten duen bezala, gipuzkeraz, berriz, xviii. mendean, *ezan lagun tzaile bipertsonal gisa erabil tzen da objektu singular eta pluralekin, eta egin biper tsonal gisa objektu singularrekin, eta hiruper tsonal gisa.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>), Elizalde 1610 (Mi txelena 1990: 115-117), Juan Irañetaren gutuna (Mi txelena 1990: 60). Bestalde, indikatibozko hiruper tsonaletan ere txandaketak baditugu: O txoa Arinek *eradun laguntzailea erabil tzen du objektua pluralean delarik eta -i-lagun tzailea gainerateko kasu guzietan; eta ekialdeko hizkerek -i-erabil tzen dute datibozko argumentua 3. per tsonakoa delarik, eta *eradun gainerateko kasuetan.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>a) Lagun tzaile emankor gisa erabil tzen dutenak Bizkaiera • Arrasateko erreketa (*ezan 3 vs egin 0: *ezan 1 aoristo mendeko, 2 agintera) • RS (*ezan 21 vs egin 25: *ezan 5 aoristo, 16 agintera; egin 2 aoristo, oraina erlatibo 1, oraina geroaldia 8, agintera 13, baldin tza 1) • Garibairen errefrauak (*ezan 1 vs egin 1: *ezan aoristo, egin orain erlatibo bat) Arabera xvi. menderako *ezan-ek emankortasuna eta nagusitasuna jadanik galduak zituen. Gipuzkera (denak salbu O txoa Arin) • Miserere (xvi.) (*ezan 17 vs egin 2) • Tolosako Ber tso Iraingarriak (*ezan 2 vs egin 1)Bretainako Kantua (egin 1) • Ave Maria (*ezan 1 vs egin 0) • Isastiren Salvea (*ezan 2 vs egin 0) • Azpeitiko gutunak (*ezan 5 vs egin 3) • I tziarko Amaren ber tsuak (*ezan 2 vs egin 0) • Lardizabalen gutuna (*ezan 2 vs egin 0) • Irazusta (xviii) (*ezan 46 vs egin 10) • Zegamako doktrina (*ezan 31 vs egin 4) • Oikiako doktrina (*ezan 78 vs egin 10) • Goierriko platika (*ezan 19 vs egin 1) • Kardabera tz (*ezan 87 vs egin 1) b) Lagun tzaile sasi emankor edo bigarrenkari gisa erabil tzen dutenak Bizkaiera • Barrutia (*ezan 10 vs egin 20): *ezan agintera 10; egin aoristo mendeko 1, oraina nala 2, poten tziala 1, agintera 16. 37 Arabera • Lazarraga (*ezan 30 vs egin 114): *ezan agintera 8, aoristo nala 1, oraina nala 6, agintera 15; egin aoristo arrunta 13, mendeko aoristoa 10, aoristo nala 9, aoristo zirkunstan tziala 7, oraina nala 14, geroaldia 1, poten tziala 11, agintera 49. Gipuzkera • O txoa Arin (*ezan 44 vs egin 59): *ezan oraina nala 14, poten tziala 11, agintera 19; egin aoristo nala 4, oraina nala 14, poten tziala 23, agintera 17, bal din tza 1. Halere erran behar da aginteran egin baino gehiago erabil tzen duela. c) Lagun tzaile eihartu eta expresio lexikalizatuetan erabil tzen dutenak • Mikoleta (*ezan 3 vs egin 31): *ezan aoristo 1, 2 agintera; egin 4 aoristo, oraina erlatiboa 1, oraina nala 8, oraina geroaldia 4, poten tziala 3, agintera 11. Mikoletak *ezan lagun tzaile eihartu gisa erabil tzen du, aginteran bi aldiz eta aoristoan behin: garvi essasus 29, Sufriessazu Poesiak 34, Nic vostac contaninçean 22. Hiruetan adi tzoina erabil tzen da. • Kapanaga (*ezan 1 vs egin 175): *ezan agintera 1; egin mendeko aoristoa 5, oraina erlatiboa 4, oraina nala eta konpletiboak 59, oraina zirkunstan tziala 8, geroaldia 2, poten tziala 12, agintera 84, baldin tza 1). Kapanagak egin du lagun tzaile nagusia. *Ezan-en erabilpen biziki lexikalizatua egiten du: arreçaçu 153. Erabilpen bakar horretan adi tzoina erabil tzen da. • Amilleta (*ezan 1 vs egin 10): *ezan agintera 1; egin oraina erlatiboa 1, oraina nalak 7, agintera 2). Amilletak ere egin du lagun tzaile nagusia. *ezan-en erabilpena arras lexikalizatua egiten zaigu: libra gaiçaçu gueure Jauna eta Jaungoicoa 2. Erabilpen bakar horretan adi tzoina erabil tzen da. Arabera • Albeniz (xviii.) (*ezan 3, egin 14): *ezan agintera 2, oraina nala 1; egin oraina nala 3, agintera 11): Beguira zazu 167, admitidu zazu 173, barcatu dichadala neure becatuac 168.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>a) taldean sartu ditugu, eta testuaren luzetasunarengatik eta egin lagun tzailearen erabilera zabalarengatik lagun tzaile aldaketa iradoki tzen dutenak (b) taldean. a) Ezin trenkatuzko kasuak • Martin Ibañez (egin 1, aoristo part.) • San Fran tz. 3. ordena erregela (egin 1, baldin tza) • Abendañoko Pedroren lam. (egin 1, poten tziala) • Zumarragaren gutuna (egin 1, oraina nala) • Maitasunezko veguiacaz (egin 1, aoristo arrunta) • Mendietaren kuadroa (egin 1, aoristo arrunta) • Ber tso Bizkaitarrak (egin 2, geroaldia eta poten tziala) b) Aldaketa pairatu duketenak • Viva Jesus (egin 21, aoristo arrunta 4, mendeko aoristoa 1, oraina nala 4, poten tziala 1, agintera 7, baldin tza 4) • Egiaren Kanta (egin 13, aoristo arrunta, aoristo mendeko 5, geroaldia 1, poten tziala 1, agintera 3, baldin tza 2) • Zubia-Lezamiz (egin 8, poten tziala 1, agintera 6, baldin tza 1) • Bulda Bizkaitarrez (egin 8, poten tziala 8) • Arzadun (1731) • Urkizu (1737) Arabera • Betola tza (egin 12) 38 • Portal (1610) (egin 3) • Gamiz (xviii) (egin 8) Dudarik gabe, hauei gehi tzen ahal zaizkie *ezan arras guti eta espresio lexikalizatuetan erabil tzen duten testuak: • Mikoleta (*ezan 3 vs egin 31) • Kapanaga (*ezan 1 vs egin 175) • Amilleta (*ezan 1 vs egin 10) • Albeniz (xviii.) (*ezan 3, egin 14)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Isastiren Salvea (TAV 3.2.12) -Azpeitiako gutunak (Contr. 5.2.9., 258-262) -Fran tziskanoen predikua sorginkeriaren kontra 1648 (TAV 3.2.13, 165-167) -I tziarko Amaren ber tsuak (Contr. 1. oinoharra, 210-211) -Lardizabalen gutunak (Contr. 5.2.9., 263.o.) -Bretainako Kantua (Contr. 5.1.1., 211-216) TAV 3.1.13, 100-101) -XV. mendeko gutuna (Contr. 4.2.1., 209) • xvi. mendea: -Utergako ezkon tza fedea (1547) (Contr. 5.2.2, 237-238 ) -Erronkarierazko testu zaharra (1569) (Contr. 5.2.3., 239-240) -Aita Gurea zaharra (xvi.) (Satrustegi 1990) • xvii. mendea: -Iruñeko olerki sariak, Aldaz (1610) (TAV 3.1.20, 111-118) -Iruñeko olerki sariak, Ezkurra (1610 (TAV 3.1.20, 111-118) Iloben arteko korresponden tzia (Contr. 5.2.9., 275-76) -J. Elizalderen gutunak (1693, 1699) (Contr. 5.2.9., 271-274)</figDesc><table><row><cell>Bizkaiera</cell></row><row><cell>• xvi. mendea baino lehenagokoak: -Martin Ibañez (TAV 3.2.4, 74.) -Milia Lasturkoaren eresia (TAV 3.1.5, 75-79) -Abendaño (TAV 3.1.6, 79-81) -Arrasateko erreketa (TAV 3.1.7., 81-88) -San Fran tziskoren 3. ordena (TAV 3.2.2, 142-144) -Henao-Bizkaiko elizkizunak (TAV 3.3.1.16, 173) -Garibai 1571 (Urquijo 1919) -Refranes y Sentencias 1596 (Lakarra 1995) • xvii. mendeko testuak -Zumarragaren gutuna 1537 (Contr. 5.2.1, 231-236 ) • xvii. mendeko testuak -Maitasunezko kantua Veguiacaz 1609 (TAV 3.1.22, 122-123) -Maitasunezko poesia Catigatu ninduçun (Contr. 5.1.4., 222.o) -Mendietaren kuadroa 1609 (Contr. 5.2.7., 248-250) -Viva Jesus (Mi txelena 1954) -Egiaren Kanta 1650 (Urgell 1996) -Mikoleta 1653 -Kapanaga 1656 -Amiletaren doktrina 1680 (Arejita &amp; Alberdi 1985) -Ber tso Bizkaitarrak 1688 (Lakarra 1984) -Bulda bizkaitarrez (Lakarra 1985) -Zubia-Lezamiz 1691 (TAV 138-9; TAV 162; TAV 167-168; Contr. 5.2.11, 280-289) • xviii. mendeko testuak: -Gabonetako ikuskizuna (Lakarra 1983) -Arrasateko bandoa deser tzioez 1705 (Ozaeta 1992) • xviii. mendea: -O txoa Arin 1713 -Irazusta 1739 -Zegamako doktrina 1741 (Ondarra 1984) -Kardabera tz 1744 (Hidalgo, d.g.) -Goierriko platika (Murugarren 1984) -Oikiako doktrina 1759 (Lakarra 1987) Arabera • xvi. mendea: -Betola tza 1596 (Mi txelena 1955) -Landuccio 1562 (Agud &amp; Mi txelena 1958) -Lazarraga d.g. (Landaren edizio elektronikoa) • xvii. mendea: -Portal 1610 (TAV 3.1.21, 118-122) • xviii. mendea: -Gamiz (Goikoe txea 1998) -Albeniz 1778 (Altuna 1995, 1998) Nafarrera • xvi. mendea ai tzin: -Beriain (1621) • xviii. mendea: -Nafarrerazko lehen sermoia (1729) (Ondarra 1981) -Elizalde (1735) -Larrasoañako hi tzaldia (ETZ 57-60) -E txalarreko dotrina (1749) (ETZ 78-80) -Inzako izkribua (1772) (ETZ 131-133) -E txarriko idazkia (1762) (ETZ 122-128) -Orrioko elizgutuna (1750) (ETZ 80-81) -Ororbia (1758) (ETZ 91-111) -Morentin zaharra (1777; 1787) (Lekuona 1973) -Kondestablearen Kantua (1494) (-Ansaren paperak (Urrizola) (E TZ 50-52) -Morentin gaztea (d.g.; 1791)</cell></row><row><cell>Gipuzkera</cell></row><row><cell>• xvi. mendea:</cell></row><row><cell>-Salmo Miserere (Akesolo 1982)</cell></row><row><cell>• xvii. mendea:</cell></row><row><cell>-Tolosako Ber tso Iraingarriak (TAV 3.1.25 127-131)</cell></row><row><cell>-Isastiren errefrauak (TAV 3.3.3., 176-183)</cell></row><row><cell>-Ave Maria (TAV 3.2.10 162)</cell></row></table><note>Erroxarioko liburua (1737), (ii) arabera: Iturbe Kuartetak (1658), Contr. 224-231, Urrexolako kantua (1388-1401) TAV 69-73; (iii) gipuzkera: Beotibarko kantua (1321-XVI), TAV 66-69, Juan Lazkano- ren kantua (1476), TAV 99-100, Bretainako Kantua (1590 b.l.), Contr. 211-216, Xanfarron Jaunaren kantua (1545) TAV 105-106, Ezkon tza hi tz emaiteak 1557, TAV 149-154, Debako seroraren gutuna (Azkoitia 1596), ETZ 31-35.--Iruñeko olerki sariak, Elizalde (1610) (TAV 3.1.20, 111-118) -Sueskunekoaren zor tziduna (c.1625) (TAV 3.1.19, 110-111) -Katexima Zatiak (1614 b.l.) (Contr. 5.2.8., 251-257) -Lei tza: apezaren auzia (1626) (E TZ 45-47) -Philippe A-ren herio tzean (1665) (TAV 3.1.28, 136-138) -Izeba-</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>adi tzoin vs 12 partizipioko propor tzioa dugu, erran nahi baita % 58,6 adi tzoin eta % 41,4 partizipio, xvii. mendeko datuen arabera gibelera egitea li tzatekeena. Bi partizipio moten datuak baturik (-tu eta -i-dunak) 39 adi tzoin vs 39 partizipioko propor tzioa dugu. Partizipioa -tu -z duten adi tzoinak eta partizipioak konpara tzen baditugu, 39 adi tzoin vs 26 partizipioko propor tzioa dugu, erran nahi baita % 60 adi tzoin vs % 40 partizipio. Bizkitartean, ohartarazi behar da ditugun xvi. mendeko araberazko hiru testuek joera desberdinak erakusten dituztela (ikus eranskineko 10. taula). Betola tzak ez du adi tzoinik erabil tzen ez *edin-ekin, ezta egin-ekin ere. *Edin-ekilako perifrasian 3 erro eta -i-dun eta -tu-dun partizipioen erabilera bana du (Lelengo bostac dirà necessidadecoac, edo errecibiduric, edo deseaduric ceinzuc bagaric ezin yñor salvadu leytequean; etorri bidi gugana çure Ereynua). Landucciok *edin-ekilako egitura bi aldiz erabil tzen du, bietan partizipioarekin (gauça erraz combatidu ditena; ossatu diten gauçea). Orduan, adi tzoina nagusi da Lazarragaren testuan (-tu-dunak konparaturik 39 adi tzoin vs 23 partizipio), ez aldiz Betola tza, eta Landucciorenetan.9   Bizkitartean, iduri luke erabilera guziak ez datozela bat orokor tze horrekin (ikus eranskineko 4. taula). Aginteran adi tzoina oraino nagusi da kasu gehienetan, horretan8 «Bere jatorriaren eta bere hizkeraren artean ez dut ikusten erabateko desadostasunik, baina ez zait iduri tzen erabili zuen hizkera erabat Arrasatekoa edo Aramaiokoa zenik. Arrasaten baditugu Barrutiaren aurreko lekukotasunak, eta horiekin alderatuta, desberdin jokatu zuen […] bere alderdiko lekuko garaikideen aldean arkaista azal tzen zaigu: txistukariak gehienbat ondo bereizi zituen, ablatiboko -rean eta -reanik a tzizki zaharrak erabili zituen, *ezan erroko adizkiak sarri erabili zituen, eta adi tz oina ere maiz baliatu zuen.» (Zuazo 2006: 1028). *ezan-en erabilpen ezaz (ikus beherago III.3.2).25 adi tzoin vs 4 partizipioko propor tzioa baitugu, eta oraina naletan manten tzen da baina propor tzio txikiago batekin 3 adi tzoin vs 2 partizipioko. Alderan tziz, aoristo arruntean (4 adi tzoin vs 9 partizipio), mendeko perpausetako aoristoan (4 adi tzoin vs 5 partizipio) eta poten tzialean (adi tzoin 1 vs 6 partizipio), partizipioa da nagusi eta adi tzoina ahul. Ez da dudarik datu hori garran tzi handikoa dela gure tzat zeren eta erran nahi bailuke adi tzoina aginteran galdu dela azkenik, edo bestela erranik, aginteran dela hobekien mantendu.xviii. mendean berriz, 3 -tu-dun partizipio ager tzen zaizkigu eta adi tzoinik ez.</figDesc><table><row><cell>Zuazok (2006) jadanik aipatuak ditu Barrutiaren testuaren desberdintasunak Arra-</cell></row><row><cell>sate aldeko beste testuen aldera. Haren ustez, Barrutiak Gabonetako Ikuskizuna tes-</cell></row><row><cell>tuan erabili zuen hizkera ez da arras Aramaio edo Arrasate ingurukoa. 8 Edozein kasu-</cell></row><row><cell>tan, ez da dudarik adi tzoinaren desager tzeak abiadura desberdinak pairatu dituzkeela</cell></row><row><cell>hizkera batetik bestera. Berantago i tzuliko gara auzi horretara (II.3.2).</cell></row><row><cell>2.1.2. Arabera</cell></row><row><cell>2. taula Adi tzoina vs partizipioa araberaz Arabera *edin adi tzoin partizipio -i -tu + i + tu 16. mendea -39 13 26 17. mendea ----18. mendea --2 3 xvi. mendeko araberazko testuetan, adi tzoina nagusi da *edin lagun tzailearekilako erro 23 -5 3. taula Adi tzoina vs partizipioa gipuzkeraz Gipuzkera *edin adi tzoin partizipio erro -i -tu + i + tu 16. mendea ---1 2 17. mendea -3 -1 2 perifrasian. 2.1.3. Gipuzkera 18. mendea -34 13 27 80</cell></row><row><cell>tzoin -hiruak</cell></row><row><cell>aginteran-vs 2 partizipio).</cell></row></table><note>7 Bi testu horiek ez ditugu sartu gure datutegian.179 Bizkitartean, beherago ikusiko dugun bezala (II.3.2), Betola tza eta Landucciok biziki corpus mu- gatua eskain tzen digute, eta *edin-ekin -tu-dun partizipioa hiru aldiz erabil tzeak ez du erran nahi ez zu- tela adi tzoinik erabil tzen. Gauza bera erran genezake,</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>Oi aldioneri albanegui empara / Barriz enendorque Aramaioco contrara Abendaño TAV 3.1.6, 79.o.</figDesc><table /><note>Lapurrac ona dau ucoa, uca eyquec gaxtoa RS 203. Arta lastoa agin egizu Lazarraga 1183r. Begira egizu Lazarraga 1185r. Illac aguin ceguian, viciac bere naya 50 «El muerto mando, y el vivo hizo lo que quiso» (Isastiren errefrauak). Esan dit escribi deguiçudala çuri Azpeitiako gutunak 31-2. Esan dit gaztiga deguiçudala nayztebala monja ceran Azpeitiako gutunak 63-4. Beguira eguizu nola zeure Jaungoicoac dei eguiten dezu zure vici gaistoaren contu ematera Albeniz167. guardazaitela Jaincoac Gamiz 516. eta guero ecusi, ta goza zeguian bera betico Ceruan O txoa Arin 11.augmenta deigun gracia Zegamako doktrina 55v. cer escatcen dezu… ? Jaungoicoac barca deguigula Zegamako doktrina 41v. bar(ca) eguizcuzu Zegamako doktrina 1v. barca eguizguzu gueren zorrac Zegamako doktrina 41v. Ofendi ez daigun, artu gai tzazu Zegamako doktrina 16r.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>a) Adi tzoinaren ordezka tze eta desager tzea, eta partizipioaren heda tzea, *edin eta *ezan lagun tzaileekilako egituretan baizik ez da gertatu. Euskara historikoan egin lagun tzailea kasik beti ager tzen da partizipioarekin, hura baita haren adi tz nagusi arrunta. Izatekotan, egin-en kasuan adi tzoinaren heda tzeaz min tzatu behar gintazke, beste egiturekilako analogiaz gertatua. b) Ordezka tzea ez zen une ezta gisa berean ere gertatu *edin eta *ezan laguntzaileekilako egituretan. Mendebaldean, xvi. mendean partizipioa *edin-ekilako egiturara heda tzen hasia da, eta xvii. mendean haren adi tz nagusi maizena da. xviii. mendean adi tzoina egitura iragangai tzetarik desagertua da mendebaldeko hizkeretan (Barrutia salbu). *Ezan-ek adi tzoina du nagusi eta gehienetan forma posible bakarra bizkaieraz eta araberaz xviii. mendea arte. Beste manera batez erranik, bi euskalki horietan, adi tzoinaren ordezka tzea lehenago gertatu zen *edin lagun tzailearekin, *ezan lagun tzailearekin baino. c) Ordezka tzea ez zen une berean gertatu euskalki guzietan. Salbuespenak salbuespen, xviii. menderako adi tzoina erabilpen perifrastikoetarik desagertua da bai araberaz baita bizkaieraz ere (berriz ere Barrutia salbuespena izanik). Gipuzkeraz berriz, adi tzoina bizkaieraz eta araberaz baino berantago galdu zen, eta bereziki une berean *edin eta *ezan lagun tzaileetan. 22 xvii. mendean aditzoina oraino nagusi da *edin eta *ezan-ekin, eta egoera horrek hala irauten du xviii. mendean ere gipuzkerazko autore gehienen testuetan (Zegamako eta Oikiako doktrinak, Kardabera tz, Irazusta, Goierriko platika). Arrasate inguruko Barrutiaren testua fun tsean bat dator xviii. mendeko gipuzkerazko testu horiekin, horretan ere adi tzoinak indar tsu irauten baitu *edin eta *ezanekin. Horrek erakusten du partizipioaren heda tzeak, euskalki batetik bestera ez ezik, euskalki berean ere abiadura desberdinak pairatu dituela. d) Partizipioaren heda tze geografikoari dagokionez, proposa tzen dugu mendebaldetik ekialdera gertatu zela. Bizkaiko eta Arabako mendebaldetik, Bizkaiko 21 Orain arte bildu dugun salbuespen bakarra u tzi adi tzarena da, ez baitu berezko adi tzoinik Leizarragaren testuan: Moysesen eta Profetén exẽplura predika tzẽ çutẽ doctrinarẽ memorioa bethiereco u tzi leçatençat (Advertimendua 262); Orduan u tzi ceçã eguitera (Mat.IV, 15). Ez uquitu (Zarau tzeko e txea, Isastiren arabera «es decir, 'no toquéis', aludiendo a las tres ortigas que figuran en el escudo» TAV 170), Jo eta eragoçi (Andoaingo Lizaurtarren dibisa, «dar y desgranar» TAV 170). Aditzoina Isastiren errefrau batean baizik ez dugu aurki tzen perpaus jokatugabe batean: 3 alaba gaizqui ezcondua ichera biur «La hija mal casada a casa buelbe». ekialdera (Barrutia), eta Gipuzkoa eta Nafarroara buruz. Gipuzkoaren barnean ere gisa bereko mugimendua ikusten dugu (Oikiako doktrina, Irazusta, Kardabera tz vs O txoa Arin). Halere, erran behar dugu traba ba tzuk baditugula hipotesi horren egia absolutu tzat har tzeko. Lehenik, Goierriko platika eta Zegamako doktrina, ez datoz batere bat O txoa Arinen datuekin, adi tzoina nagusi baitute perifrasi zaharrean. Batasun falta hori ere aurkituko dugu *ezan / egin lagun tzaileen arteko txandaketa aztertuko dugularik (ikus IV.1). Dena den jakin behar liteke xuxen Goierriko platika gisa izendatua izan den testua nongo min tzoan ida tzia den. Ez dezagun ahan tz Murugarrenek (1984) berak ere ez zuela argi editatu zuen testuaren autorea jatorriz Goierritarra zenez. 23 Bestalde, oroit gaitezen Zegama Burundatik hurbil dela, ho ts, adi tzoina eta *ezan ongi a txiki dituen eremu batetik</figDesc><table /><note>22 Gipuzkeraz, dibisa zaharretako perpaus jokatugabeetan partizipioa baizik ez dugu aurki tzen:</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head>3.3. Datuetatik ondorioetara: proposamena</head><label></label><figDesc>Gogoan ditut adi tz izenen eta faktitiboen eratorpena: quenduten dituçala 98, asiten da 145 (Kapanaga 1656), eta etorriarazi tipokoak. Bestalde, erran behar da gure testu zaharrenez geroz, bizkaiera eta nafarreraz, bi adi tz nagusi lagun tzaile bakar batekin koordina tzen direlarik, lagun tzailetik hurbilen dena adi tzoinean ager tzen bada, bestea partizipiozko forman ager tzen dela: Beriain (1621) alauadezagun eta ceruiçatu 10, Ycusi eta adoradezaten eta alabatu 86v; Orrioko elizgutuna (1750) leitu eta publica dezela 81, Manatcentugu […] leitu eta publicadezatela 81; Ororbiako predikuak (1758): Alquetu eta confundi ceiste 108, Manaçen geitu Aite eta Amac honrratu, obeditu, eta errespeta çazquigule 105, O txoa Arin (1713) eta guero ecusi, ta goza zeguian bera betico Ceruan 11. Koordinazioan bi adi tzoin ekar tzen dituzten bakarrak dira lapurtera, behe nafarrera eta zuberera eta Irigaraik argitaratu zuen goi nafarrerazko katexima (1961): Onrra, eta errespetadezagula; Alcha edo gora ezdiozogula (Irigarai 1961: 172-173), Ioannes esteca ceçan eta presondegian eçar (Leizarraga, Mat. XIV,3). TAV 170, Garibai G. 139-34 Bergara, ceñatu eta aygara 'Bergara, Datuek erakusten diguten bezala, *edin eta *ezan-ekilako perifrasiek partizipioaren heda tzea pairatu dute beren egituraren baitan. Suposa tzen dugu hastapen batean [aditzoina + *edin] eta [adi tzoina + *ezan] gisa sortu eta erabili zirela eta berantago partizipioak adi tzoinaren lekua hartu zuela. Proposamen hori bat dator datuek erakusten diguten hedatzearekin, eta ekialdean ditugun egiturekin. Izan ere, ekialdeko euskalkietan partizipioa ez da hedatu bi egitura horietara gaur egun ere adi tzoinarekin erabil tzen baitira. 26 Orduan, laburbil tzeko, [adi tzoina + *edin] eta [adi tzoina + *ezan] Mi txelenaren Euskara Batu Zaharrekoak dirateke (Mi txelena 1981), euskalki guzien amankomuneko perifrasiak, denboran ai tzinatu ahala, euskalki bakoi tzak bere barne sisteman aldatu dituenak, besteak beste partizipioa hedatuz, edo aldatu gabe mantendu dituenak, adi tzoina baizik ez onartuz. Egin lagun tzailearekin egiten den perifrasia berriz, ikusi dugun bezala, partizipioarekin erabil tzen da nagusiki eta adi tzoina salbuespen gisa ager tzen zaigu egitura horretan. Horrek bul tza tzen gaitu pen tsa tzera [partizipioa + egin] gisa sortu, 27 hedatu, erabili zela, tarteka, *edin eta *ezan-en egiturekilako presio analogikoengatik adi tzoina egokitu zi tzaiolarik (hiru mendez 15 adibide, agerraldien % 5,7a). Proposamen horrek hiru abantaila ditu. Alde batetik, bide bat ematen digu *edin eta *ezan-ekilako egituretan gertatu den aditzoinaren ordezka tzearen uler tzeko: [partizipioa + egin] perifrasia sortu eta hedatu ahala, beste perifrasiek, indar analogikoengatik, partizipioa beren egituretara heda zezaketen.</figDesc><table /><note>Perpaus jokatugabeetan, partizipioa da nagusi: Ez uquitu (Zarau tzeko e txe bateko dibisa), Jo eta era- gotci (Andoaingo Lizaurtarren dibisa)</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head>,</head><label></label><figDesc>VJ, Amileta, Zubia-Lezamiz. Orduan, Santíguate, y pasa' (Urkijok zeñatu eta igara gisa zuzen tzen duena), Lazarraga Ez begiok espilurean kendu 1153v, Ez artu penarik 1171v, Ez artu fantasiarik 1173v. Kontestu horretan, adi tzoina erabil tzen dute Ber tso Bizkaitarrek Bedeinca erri geurea 15, eta Garibaik 3 alaba gaizqui ezcondua ichera biur «La hija mal casada a casa buelbe». Barrutiak, berriz, badu bietarik: partizipioa: ez arren ucatu 146, bekatariak ez desechadu Xaun onen amorioa 162, guchiagaiti parkatu 427, eta adi tzoina expresio lexikalizatuetan: adi, adi 467, 470, or konpon ! 263. 26 Nafarreraren hizkera ba tzuk salbuespen (ikus II.3.4.).</figDesc><table /><note>27 V. zatian proposamen bat eginen dugu [partizipioa + egin] perifrasiaren sor tze eta gramatikaliza- zio prozesuei buruz.28 Nafarreraren kasua aparte tratatuko dugu, euskalki horretan partizipioaren heda tzea gertakari modernoa baita eta testu gutitan ager tzen baita (ikus II.3.4.).29 Beherago (IV.1) i tzuliko gira *ezan eta egin lagun tzaile iragankorren arteko lehia eta hautaketari buruz.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head></head><label></label><figDesc>Joera horrek hala jarrai tzen du xvii. mendean, aginteran baita gehien ager tzen (agerraldien % 33,1), aoristoa, bigarren posizioan geldi tzen delarik (agerral dien % 16,1a). *edin-ekilako egitura orainaldiko erlatibozko perpausetan ere ager tzen zaigu xv eta xvii. mendeetan, an tzeko agerraldi kopuruarekin (xv.enean 7 eta xvii.enean 6). xviii. mendean berriz, erabilpen horren lekukotasun bat baizik ez dugu. Geroaldiari dagokionez, xv. eta xvii. mendeetan ager tzen da, pareko erabilpen kopuruarekin (bina agerraldi), eta xviii. menderako desagertua da. Erran behar da xv. mendean aoristoak, xvii. mendean baino leku gehiago duela sisteman, agerraldien % 25,5a baitugu batean, eta % 16,1a bestean. Bestalde, xvii. mendean perifrasi horrek xvi. mendean baino erabilera gehiago du (orain erlatiboa, orain zirkunstan tziala, poten tziala). Halere, jadanik erran dugun bezala, horrek ez du erran nahi erabilera horiek ez zirela posible xv eta xvi. mendeetan. Ez dezagun ahan tz corpusa aise zabalagoa dela xvii. mendean, xv eta xvi. mendeetan baino. Orain konpletibo eta nala: (i) bizkaiera: xvi, xvii eta xviii. mendeetan, (ii) arabera: xvi. mendean baizik ez da aurki tzen, (iii) gipuzkera: xviii.</figDesc><table><row><cell>tzailearekilako egitura 2.1. Egituraren balioa 2.1.1. Bizkaieraz 10. taula *edin-ekilako egituraren balioa bizkaieraz mendez mende Bizkaiera *edin Bataz bestekoak xv.m xvi.m xvii.m xviii.m (47ag.) (6ag.) (124ag.) (49ag.) Aoristoa (arrunta) % 25,5 -% 16,1 -Mendeko aoristoa % 2,1 -% 2,4 -Oraina: erlatiboa % 14,9 -% 4,8 % 2,0 Oraina: nalak -% 16,7 % 19,3 % 14,3 Oraina: zirkunstan tzialak --% 4,9 -Geroaldia % 4,3 -% 1,6 -Poten tziala --% 12,1 % 2,0 Agintera % 40,4 % 66,6 % 33,1 % 73,5 Baldin tza % 12,8 % 16,7 % 5,6 % 8,2 OROTARA % 100,0 % 100,0 % 100,0 % 100,0 xv. mendean, perifrasi iragangai tza gehiago erabil tzen da aginteraren adie-razteko (agerraldien % 40,4a) aoristo arruntaren adierazteko baino (agerral-11. taula *edin-ekilako egituraren balioa araberaz mendez mende *edin Arabera Bataz bestekoak xvi.m xvii.m xviii.m (101ag.) (0ag.) (10ag.) Aoristoa (arrunta) % 29,7 --Mendeko aoristoa % 12,9 --Oraina: erlatiboa --% 20,0 Oraina: nalak % 7,9 --Oraina: zirkunstan tzialak % 2,0 --OROTARA % 100,0 % 100,0 % 100,0 xvi. mendean, aoristoak agerraldien % 29,7a bil tzen du, aginterak agerraldien % 39,6a bil tzen duelarik. Bizkaieraren kasuan bezala, bi erabilpen horiek dira garran tzi gehien dutenak, beren maiztasunari dagokionez. Hauez aparte, aurki tzen dugu iraganeko mendeko perpausetan (% 13,1a), orainaldiko perpaus finaletan (% 8,1a) eta zirkunstan tzialetan (% 2a), eta geroaldi (% 1a) eta poten tzialetan (% 5,1a). xvii. mendean ez da egitura iragangai tzaren lekukotasunik. xviii. mendean, aoristoa desagertua da eta perifrasia aginteran (agerraldien 12. taula *edin-ekilako egituraren balioa gipuzkeraz mendez mende Gipuzkera *edin Bataz bestekoak xvi.m xvii.m xviii.m (3ag.) (6ag.) (154ag.) Aoristoa (arrunta) -% 50,0 -Aoristoa nala --% 1,9 Oraina: erlatiboa --% 0,7 Oraina: nalak --% 25,3 Oraina: zirkunstan tzialak ---Geroaldia ---Poten tziala --% 38,3 2.1.4. Orokor tzeko: *edin -en erabilpenak Hiru euskalkiak bat datoz *edin-en erabilpenetan. Alabaina, garai eta euskalki batetik bestera corpusaren nasaitasuna edo oparotasuna biziki gorabehera tsua izanik, euskalkiek erabilera ba tzuk mende batean edo bestean baizik ez dituzte lekuko tzen. Bistan dena, horrek ez du erran nahi beste mendeetan ere ez zirela posible. Euskararen historian *edin lagun tzailearekilako perifrasia, ondoko balioekin ager-tzen zaigu bizkaiera, arabera eta gipuzkeraz: aoristoa (Unaiac aserra citean, gaztac aguer citean Isasti 81), orain erlatiboa (sar dina gueben lecuan bere caltean RS 209 'El que mendean baizik ez. • Poten tziala: (i) bizkaiera: xvii eta xviii. mendeetan, xv eta xvi. mendeetan ez dugu horren arrastorik, (ii) arabera: xvi. mendean baizik ez dugu aurki tzen, (iii) gipuzkera: xviii. mendean baizik ez dugu aurki tzen. • Agintera: (i) bizkaiera: xv, xvi, xvii eta xviii. mendeetan, (ii) arabera: xvi eta xvii. mendeetan baizik ez dugu aurki tzen, (iii) gipuzkera: xvi, xvii, eta xviii. mendeetan aurki tzen dugu. Bizkaiera eta araberaz bai, baina gipuzkeraz erabil tzen ez direnak: • Orain zirkunstan tziala: (i) bizkaiera: xvii. mendean baizik ez dugu aurki tzen. xv, xvi eta xviii. mendeetan ez dugu horren arrastorik, (ii) araberaz xvii. mendean baizik ez dugu aurki tzen. xvi eta xviii. mendeetan ez dugu horren arrastorik, dien % 25,5a). 2.1.2. Arabera Oraina: geroaldia % 1,0 --Poten tziala % 6,9 --Agintera % 39,6 -Agintera % 100,0 % 50,0 (iii) gipuzkera: ez da horren arrastorik. % 32,5 Baldin tza --• Geroaldia: (i) bizkaieraz: xv eta xvii. mendeetan. xviii. mendean ez dugu % 1,3 gehiago horren arrastorik, (ii) Araberan: xvi. mendean baizik ez dugu aurki-% 60,0 Baldin tza --OROTARA % 100,0 % 100,0 % 100,0 tzen, xviii. mendean ez dugu gehiago horren arrastorik, (iii) gipuzkera: ez da % 20,0 horren arrastorik.</cell></row><row><cell>% 60a), eta orainaldiko erlatiboan (% 20a) eta baldin tzan (% 20a) erabiltzen da. entrare en lugar vedado, en su daño'), orain konpletibo eta nala (Jainkoari nai ez</cell></row><row><cell>Ikusten dugun bezala, mende horretan perifrasia hain guti era bil tzea, neurri handi dakiola zu joan da ni eben gera nadila Lazarraga 1151v), poten tziala (Sekula barriz ezin</cell></row><row><cell>batean corpusaren izari tikitik heldu da. neinde zure aurrean agirtu Lazarraga 1179v), agintera (sekula gustian gloria izan bidi</cell></row><row><cell>Miserere 43). Bizkaieraz eta araberaz bai, baina gipuzkeraz lekuko tzen ez direnak dira</cell></row><row><cell>orainaldiko zirkunstan tzialak (bearda jaquin eranzuten iteundu daquionean Guizonari, 2.1.3. Gipuzkera Andrearin, Mutilcoari, edo Nescatilleari, Viva Jesus 4), geroaldia (Eguin ta aguindu ta</cell></row><row><cell>Gipuzkeraren corpusa mugatua da eta orduan aski zaila da ondorioen atera tzea. ez ayte galdu RS 462) eta baldin tza (Paciencia sufriduagaz iaaten emon ezpadeguioe bere</cell></row><row><cell>xvi. mendean 3 agerraldi baizik ez ditugu, hiruak aginteran. xvii. mendean berriz, gustura Kapanaga 127 'si no le dieren a comer a su gusto'). Erran bezala, lekukotasun</cell></row><row><cell>6 agerraldi ditugu, erdia aoristoaren adierazteko eta beste erdia aginteraren adie-faltak ez du erran nahi erabilera horiek ez zirela posible.</cell></row><row><cell>razteko. xviii. mendean, corpus zabalagoa dugu: agerraldi gehienetan *edin lagun-Bizkaiera, arabera, eta gipuzkeraz erabil tzen direnak:</cell></row><row><cell>tzailearekilako egitura poten tzialean (% 38,3), baita aginteran (% 32,5), eta tempus • Aoristo: (i) bizkaiera xv eta xvii. mendeetan, (ii) arabera: xvi. mendean baizik oraineko mendeko final eta konpletiboetan ere (% 25,3) dugu. ez, (iii) gipuzkera: xvii. mendean baizik ez.</cell></row></table><note>xviii. menderako aoristoaren balioa desagertua da eta aginteran dugu nagusiki aurki tzen (agerraldien % 78,2a).• Orain erlatiboa: (i) bizkaiera xv, xvii eta xviii. mendeetan (ez dugu horren arrastorik xvi. mendean), (ii) arabera: horren arrastorik ez xvi eta xvii. men- deetan, xviii. mendean, aldiz, ager tzen da, (iii) gipuzkera: xviii. mendean bai- zik ez.•• Baldin tza: (i) bizkaiera: xv, xvi, xvii eta xviii. mendeetan, nahiz eta xviii. men- dean beste bietan baino gutiago, (ii) Arabera: xviii. mendean baizik ez dugu aurki tzen, (iii) gipuzkera: ez dugu horren arrastorik.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head></head><label></label><figDesc>, xvii. mendean 5 eta xviii.ean 10 agerraldi baizik ez dituelarik. Aoristoa eta agintera dira haren bi funtzio nagusiak, bien artean agintera delarik hiru mendeetan agerraldi gehien ekar tzen duena: xvi. mendean agerraldien % 72a, xvii. mendean, agerraldien % 80a, xviii. mendean, agerraldien % 100a. Araberaren corpusaren izaria biziki desberdina da mende batetik bestera. Halere, erran daiteke ditugun datu soil horiek bizkaieraren datuekin bat egiten dutela. Bizkaieraz bezala, araberaz ere *ezan-ek xvi. mendean du agerraldi gehien (30). Mende horretan, agintera (agerraldien % 50a), aoristoa (agerraldien % 26,7a) eta orainaldiko perpaus naletan (% 20a) erabil tzen da. xviii. mendean, aoristoko erabilpenak desagertuak dira, eta aginteran (agerraldien % 66,7a), eta orainaldiko mendeko naletan baizik ez da ager tzen (agerraldien % 33,3a).</figDesc><table><row><cell></cell><cell cols="2">13. taula</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="8">*ezan-ekilako egituraren balioa bizkaieraz mendez mende</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="3">Bataz bestekoak</cell><cell></cell><cell></cell></row><row><cell>Bizkaiera</cell><cell cols="2">xv.m</cell><cell>xvi.m</cell><cell></cell><cell cols="2">xvii.m</cell><cell cols="2">xviii.m</cell></row><row><cell>3.1.3. Gipuzkera</cell><cell cols="2">(25ag.)</cell><cell>(0ag.)</cell><cell></cell><cell cols="2">(5ag.)</cell><cell cols="2">(10ag.)</cell></row><row><cell>Aoristoa (arrunta)</cell><cell cols="2">% 24,0</cell><cell>-</cell><cell cols="3">% 20,0</cell><cell></cell><cell>-</cell></row><row><cell>Mendeko aoristoa</cell><cell cols="2">% 4,0 15. taula</cell><cell>-</cell><cell></cell><cell>-</cell><cell></cell><cell></cell><cell>-</cell></row><row><cell cols="8">Oraina: erlatiboa *ezan-ekilako egituraren balioa gipuzkeraz mendez mende ---</cell><cell>-</cell></row><row><cell>Oraina: nalak Oraina: zirkunstan tzialak Geroaldia Gipuzkera *ezan Poten tziala</cell><cell>----</cell><cell>xvi.m (17ag.)</cell><cell cols="3">--Bataz bestekoak ----xvii.m --(14ag.)</cell><cell cols="2">xviii.m (305ag.)</cell><cell>----</cell></row><row><cell>Agintera Aoristoa (arrunta)</cell><cell cols="2">% 72,0 % 5,9</cell><cell>-</cell><cell cols="5">% 80,0 % 100,0 % 7,1 -</cell></row><row><cell>Baldin tza Aoristoa nala</cell><cell>-</cell><cell>% 11,7</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell cols="2">% 1,6</cell><cell>-</cell></row><row><cell>Oraina: erlatiboa</cell><cell></cell><cell>-</cell><cell></cell><cell>-</cell><cell></cell><cell>-</cell><cell></cell></row><row><cell>OROTARA Oraina: nalak</cell><cell cols="8">% 100,0 % 100,0 % 100,0 % 100,0 % 17,7 -% 35,1</cell></row><row><cell cols="2">Oraina: zirkunstan tzialak</cell><cell>% 17,7</cell><cell></cell><cell>-</cell><cell></cell><cell cols="2">% 0,3</cell></row><row><cell>Geroaldia</cell><cell></cell><cell>-</cell><cell></cell><cell>-</cell><cell></cell><cell>-</cell><cell></cell></row><row><cell>Poten tziala 3.1.2. Arabera Agintera</cell><cell></cell><cell>-% 47,0</cell><cell cols="2">-% 85,8</cell><cell></cell><cell cols="2">% 22,3 % 40,7</cell></row><row><cell>Baldin tza</cell><cell cols="2">14. taula -</cell><cell></cell><cell>% 7,1</cell><cell></cell><cell>-</cell><cell></cell></row><row><cell cols="8">*ezan-ekilako egituraren balioa arabera mendez mende OROTARA % 100,0 % 100,0 % 100,0</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="3">Bataz bestekoak</cell><cell></cell><cell></cell></row><row><cell>Arabera *ezan</cell><cell></cell><cell>xvi.m</cell><cell></cell><cell>xvii.m</cell><cell></cell><cell cols="2">xviii.m</cell></row><row><cell></cell><cell></cell><cell>(30ag.)</cell><cell></cell><cell>(0ag.)</cell><cell></cell><cell>(3ag.)</cell><cell></cell></row><row><cell>Aoristoa (arrunta)</cell><cell></cell><cell cols="2">% 26,7</cell><cell>-</cell><cell></cell><cell>-</cell><cell></cell></row><row><cell>Mendeko aoristoa</cell><cell></cell><cell>% 3,3</cell><cell></cell><cell>-</cell><cell></cell><cell>-</cell><cell></cell></row><row><cell>Oraina: erlatiboa</cell><cell></cell><cell>-</cell><cell></cell><cell>-</cell><cell></cell><cell>-</cell><cell></cell></row><row><cell>Oraina: nalak</cell><cell></cell><cell cols="2">% 20,0</cell><cell>-</cell><cell></cell><cell cols="2">% 33,3</cell></row><row><cell cols="2">Oraina: zirkunstan tzialak</cell><cell>-</cell><cell></cell><cell>-</cell><cell></cell><cell>-</cell><cell></cell></row><row><cell>Geroaldia</cell><cell></cell><cell>-</cell><cell></cell><cell>-</cell><cell></cell><cell>-</cell><cell></cell></row><row><cell>Poten tziala</cell><cell></cell><cell>-</cell><cell></cell><cell>-</cell><cell></cell><cell>-</cell><cell></cell></row><row><cell>Agintera</cell><cell></cell><cell cols="2">% 50,0</cell><cell>-</cell><cell></cell><cell cols="2">% 66,7</cell></row><row><cell>Baldin tza</cell><cell></cell><cell>-</cell><cell></cell><cell>-</cell><cell></cell><cell>-</cell><cell></cell></row><row><cell>OROTARA</cell><cell></cell><cell cols="6">% 100,0 % 100,0 % 100,0</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head></head><label></label><figDesc>Lehenik, gipuzkera mendebaldekoek, erran nahi baita O txoa Arin, Zegamako dotrina eta Goierriko platika, *ezan eta egin erabil tzen dituzte nor-nork sailean, eta egin baizik ez nor-nori-nork sailean. Gehitu behar dugu Zegamako doktrina eta Goierriko platikak egin behin baizik ez dutela erabil tzen nor-nork sailean, O txoa Arinek frango eta sistematikoki erabil tzen duelarik objektu singularrekin. Beraz egin nor-nork sailean objektu singularrekin erabil tzen delako datua O txoa Arinen testuan baizik ez da aurki tzen. Bigarren joerak ipar-ekialdeko bi testu besarka tzen ditu: Oikiako doktrina, Irazustaren doktrina. Hauetan, nor-nork sailean *ezan baizik ez da erabil tzen eta nornori-nork sailean, egin eta *ezan.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head>4. Partizipioa + egin 17. taula Egin</head><label></label><figDesc>-ekilako egituraren balioa araberaz mendez mende Taulak erakusten digun lehen gauza da egin gipuzkeraz, mendebaldeko euskalkietan baino mugatuagoa dela. xvi. mendean, aginteran baizik ez da aurki tzen *ezan aoristoan, iraganeko mendeko perpausetan, orainaldiko naletan eta zirkunstan tzialetan, eta aginteran erabil tzen delarik. xvii. mendean, berriz, bi lagun tzaile iragankorrek erabilpen berak dituzte: aoristoa, agintera eta baldin tza. xviii. mendean, egin-ek, *ezan-ek baino erabilera gehiago du: iraganeko mendeko perpausak, orainaldiko nalak, poten tziala, agintera eta baldin tza, *ezan-ek orainaldi nala, poten tziala eta agintera baizik ez dituelarik adierazten. Halere, bereizketa txiki bat egin behar dugu gure corpuseko xviii. mendeko bost testuen artean. Deskribatu dugun egoera bat dator O txoa Arinen testuarekin, ez aldiz Irazusta, Kardabera tz, eta Zegama eta Oikiako doktrinen datuekin, hauek ez baitute sekulan egin erabil tzen poten tzialean. 39 Gehitu behar da bost testu horiek *ezan erabil tzen dutela lagun tzaile iragankor emankor bakar gisa, egin aginteran edota mendeko perpaus naletan baizik ez dutelarik agerrarazten</figDesc><table><row><cell>(Zegamako doktrina, Irazusta, Oikiako doktrinak bietan, eta Goierriko platika eta</cell></row><row><cell>Kardabera tzek soilik aginteran).</cell></row><row><cell>Azkenik, gipuzkeraz ere egin lagun tzailearekilako perifrasia aginteran da gehien aurki-</cell></row><row><cell>tzen: xvi. mendean agerraldien % 100a, xvii. mendean % 71,4a, eta xviii. mendean,</cell></row><row><cell>% 37,1a.</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14"><head></head><label></label><figDesc>horiekin batera egin-enak ere aurkeztu ditugu. Dena berriz errepikatu gabe, oroitaraziko dugu gipuzkeraz egin-ek NNN sailaren ardura osoa duela O txoa Arinen testuan, Goierriko platikan eta Zegamako doktrinan, eta *ezan-ekin ardura partekatua Irazusta, Oikiako dotrina eta Kardabera tzen hizkeretan. Nor-Nork sailari dagokionez, O txoa Arinen testuan bi lagun tzaileak erabil tzen dira. Bizkitartean, *ezan-ek objektu pluralen ardura osoa du -salbuespen batez aparte-eta objektu singularrekin egin da nagusi (*ezan 21 vs egin 36).</figDesc><table><row><cell>• Aoristo: (i) bizkaieraz xv eta xvii. mendeetan, (ii) arabera: xvi. mendean,</cell></row><row><cell>(iii) gipuzkeraz: xvii. mendean.</cell></row><row><cell>• Oraina konpletibo eta nala: (i) bizkaieraz: xvi., xvii., xviii. mendee-</cell></row><row><cell>tan, (ii) arabera: xvi eta xviii. mendeetan, (iii) gipuzkeraz aurki tzen dugu</cell></row><row><cell>xviii. mendean.</cell></row><row><cell>• Poten tziala: (i) bizkaieraz: xv, xvii eta xviii. mendeetan, (ii) arabera: xvi eta</cell></row><row><cell>xviii. mendeetan, (iii) gipuzkera: xviii. mendean.</cell></row><row><cell>• Agintera: (i) bizkaiera: xv, xvii eta xviii. mendeetan, (ii) arabera: xvi, xvii</cell></row><row><cell>eta xviii. mendeetan, (iii) Gipuzkera: xvi, xvii eta xviii. mendeetan.</cell></row><row><cell>• Baldin tza: (i) bizkaieraz: xv eta xvii. mendeetan, (ii) arabera: xviii. men-</cell></row><row><cell>dean, (iii) gipuzkera: xvii eta xviii. mendeetan.</cell></row><row><cell>b) Bizkaieraz bai, gipuzkeraz eta araberaz tran tsitiboekin ez (araberaz intran-</cell></row><row><cell>tsitiboekin bai aldiz):</cell></row><row><cell>• Orain erlatiboa: (i) bizkaieraz: xv eta xvii. mendeetan, (ii) arabera: arrasto-</cell></row><row><cell>rik ez, (iii) gipuzkeraz: lekukotasunik ez.</cell></row><row><cell>• Orain zirkunstan tziala: (i) bizkaieraz: xvii. mendean, (ii) arabera: arrastorik</cell></row><row><cell>ez, (iii) gipuzkera: lekukotasunik ez.</cell></row><row><cell>c) Bizkaieraz eta Araberan bai, gipuzkeraz ez:</cell></row><row><cell>• Geroaldia: (i) bizkaieraz: xv eta xvii. mendeetan, (ii) arabera: xvi. mendean,</cell></row><row><cell>(iii) gipuzkeraz: arrastorik ez.</cell></row><row><cell>4.1.5. Egin-en erabilpen mugatua: egitura argumentala</cell></row><row><cell>Gorago (II, 3.1.5) aipatu ditugu gipuzkeraz ager tzen diren *ezan-en erabilera</cell></row><row><cell>mugatuak, eta</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_15"><head></head><label></label><figDesc>erabiltzen dutenena baino. xv-xvi, xvii eta xviii. mendeetako bizkaiera, arabera eta gipuzkerak erabil tzen dute, eta nahiz eta haren erabilpenak murri tzagoak izan xvi. mendean, xvii eta xviii. mendeetan baino, euskalkien arteko batasun horrek erakusten du haren sor tze eta gramatikalizazio prozesuak xvi. mendea baino aise lehenagokoak direla. Gainera, erran behar dugu *ezan-en kasuan ez bezala, egin erabil tzen ez duten testuak biziki laburrak direla eta hortik ez dela ondorioztatzen ahal lagun tzaile horren erabil tzeko ezintasuna. Beste manera batez erranik, ez dugu aurki tzen, ez Bizkaian, ez Araban, ezta Gipuzkoan ere testu luzerik non ez den batere erabil tzen. Halere, zalan tza bat izan genezake Arrasateko Erreketaren testuarekin. Egin erabil tzen ez dutenen artean testu luzeena da eta gainera *ezan 4 aldiz erabil tzen du (2 aldiz aginteran eta bi aldiz aoristo mendekoan). Egin erabiltzeko uzkurtasun hori bat etorriko li tzateke hiru mende berantagoko Arrasateko hizkeraren ezaugarriekin. Gorago ikusi dugun bezala, xviii. mendean, *ezan oraino indar tsu dago Barrutiaren testuan, eta ez da erabat lehertua izan egin-en Nada podemos decir de su origen, sino que perteneció al Padre Muniozguren, del Convento de Carmelitas de Pamplona, de cuyos papeles lo salvó el P. L. de perdida segura, y lo encaminó a la Biblioteca de la Diputación de Guipúzcoa, donde se encuentra actualmente»</figDesc><table><row><cell>heda tzearen ondorioz.</cell></row><row><cell>IV.1-n ikusiko dugun bezala, xv. mendean egin apal hasten bada ere, jadanik</cell></row><row><cell>errotua da euskalki guzi horietan eta ondoko mendeetan zabalduz joanen da eten</cell></row><row><cell>gabe.</cell></row><row><cell>Buka tzeko, erran behar dugu egin lagun tzailearekilako perifrasia bi aldiz</cell></row><row><cell>aurkitu dugula goi nafarrerazko bi testutan. Lehenbizikoa, Irigaraik publikatu</cell></row><row><cell>ustez xviii. mendekoa den goi nafarrerazko katexima batean da. 44 Alabaina,</cell></row><row><cell>behin baizik ez da erabil tzen katexima osoan, aginteran, eta datiboarekilako</cell></row><row><cell>komunztadurarekin: Eracu tsi eguiguzu Jessus zure sabeleco fructu bedeicatua (Salbea,</cell></row><row><cell>163. o). Gainerateko kasu guzietan *ezan erabil tzen da, nor-nork, nola nor-nori-</cell></row><row><cell>nork sailetan, zazpigarrena niori deus ebasi eztiozogula (Amar Manamentuak</cell></row><row><cell>164. o), á bada señora gure Abogada i tzuli die tzaguzu zure begui misericordiazco-</cell></row><row><cell>orieq gugana (Salbea, 163.o). Bigarrena, Iraizoz-ek argitara eman ber tso elebidun</cell></row><row><cell>43 Egin-ekilako perifrasia erabil tzen ez duten testuak dira: (i) bizkaieraz: Milia Lastur, Arrasateko Er-</cell></row><row><cell>reketa, Henao-Bizkaiko elizkizunak, Catigatu ninduçun maitasunezko kantua, (ii) gipuzkeraz: Ave Ma-</cell></row><row><cell>ria, Isastiren Salvea, I tziarko Amaren ber tsuak, Lardizabalen gutuna.</cell></row></table><note>44 «No hay fecha ni indicación ninguna, pero podría ser muy bien de finales del siglo xviii […]</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_16"><head></head><label></label><figDesc>). Laburbil tzeko, partizipioa + egin perifrasia arabera, bizkaiera eta gipuzkeraz aurki tzen dugu frango nasaiki. Gainera, xviii. mendeaz geroz nafarreraren hizkera zenbaitetara ere hedatu bide da. Alabaina, gipuzkera eta araberaren mugan diren nafarreraren hizkeretan baizik ez da ager tzen eta horietan ere biziki erabilera eta ager baldin tza mugatuak ditu. 21. taula Lagun tzaile iragankorraren erabilpena gipuzkeraz vs egin % 20). xvii. mendean, egin hasten da heda tzen, nahiz eta *ezan -ek oraino garran tzi handia duen sisteman: aoristo arruntean eta baldin tzan biak berdin dira agerraldien % 50na bil tzen baitute. Aginteran, berriz, *ezan da nagusi: *ezan % 70,6 vs egin % 29,4. Azkenik, xviii. mendean joera desberdinak ditugu testuen arabera. Datu orokorrak ain tzat harturik, ikusten dugu testu guzietan *ezan dela gehien erabiltzen dena, salbu O txoa Arinen doktrinan: Irazusta *ezan 46 vs egin 10, Zegamako doktrina *ezan 31 vs egin 8, Goierriko platika *ezan 19 vs egin 1, Oikiako dotrina *ezan 78 vs egin 10, Kardabera tz *ezan 87 vs egin 1 vs O txoa Arin *ezan 44 vs egin 59 (ikus eranskineko 10. taula). Bizkitartean, erabilerak banaka harturik, ikusten dugu oraina naletan eta aginteran *ezan dela nagusi testu guzietan, O txoa Arinen doktrina barne. Gainerateko erabilera guzietan (iraganeko mendeko perpausak, poten tziala eta baldin tza) O txoa Arinek egin du gehien erabil tzen, eta Zegama eta Oikiako doktrinak, Goierriko platika, Irazusta eta Kardabera tz-ek *ezan (poten tziala, iraganeko mendeko perpausak, orain zirkunstan tziala). Gehitu behar dugu *ezan nagusiki erabil tzen duten horiek egin bi kontestutan baizik ez dutela balia tzen, hauetan ere *ezan nagusi izanik: orain konpletibo / naletan, eta aginteran. lekukotasunek erakusten digute, xv eta xvi. mendeetan, *ezan lagun tzaileak egin-ek baino aise funtzio gutiago har di tzakeela. Bi eremu horietan, aoris toan -perpaus nagusian ala mendekoan-orainaldiko perpaus finaletan, eta aginteran baizik ez da ager tzen. Aoristoa desagertu delarik, *ezan-en ager tzeko aukerak gehiago mugatu dira: xviii. mendean aginteran baizik ez dugu aurki tzen bizkaieraz, eta aginteran eta oraina finaletan araberaz. Ohartarazi behar dugu, xv. mendeko biz kaie raz ko testuetan, *ezan lagun tzaileak har di tzakeen balio guti horietan egin baino gehiago erabil tzen dela, hauetan beretan egin nagusi delarik Lazarragaren testuan. Nahiz eta konparaketa her tsi baten buru tzeko araberaren xv. mendeko eta bizkaieraren xvi.mendeko testu luzeak behar genituzkeen datu horrek egin laguntzailearen he da tzea ren nondik norakoaren berri ematen digu. Lan honetan ez dugu aipa tzen ekialdeko euskalkiek balia tzen duten [adi tzoina + *iro] perifrasia. Beherago errepikatuko dugun bezala, perifrasi horren erabilera [partizipioa + egin] egiturarena baino aise mugatuagoa da. 47 Halaber, haren egituraren gramatikalizazioa ai tzinatua zen, beherago (V) ikusiko dugun bezala. Izan ere, iduri luke hiru ingurune horiek (aoristoa, orainaldiko perpaus konpletibo/finalak, eta agintera) kon tserba tzaileenak izan direla eta egin azkenik hedatu dutenak. Hauez gain, testu zaharrenetan, Bizkaiko eta Arabako hizkerek egin oraina erlatibo, orain konpletibo eta finala, orain zirkunstan tziala, (ho ts orainaldiko mendeko erabilpen guziak), geroaldia, poten tziala, eta baldin tzan 48 erabil tzen dute, erran nahi baita, *ezan erabil litekeen eta ezin erabil litekeen inguruneetan. Beste manera batez erranik, jadanik xv-xvi. mendeetan, egin-ek *edin-en erabilpen berak ditu bizkaiera eta araberaz, edo haren kide iragankor perfektua da. Gipuzkera bat dator heda tze horrekin, nahiz eta beranduago gertatu den. xvi. mendean *ezan da nagusi euskalki horretan, eta xvii. mendean egin hasten da ager tzen aoristo, agintera eta baldin tzaren eremuetan. Gorago ikusi dugun bezala, xviii. mendean garapen desberdinak ditugu gipuzkeraren hizkera desberdinetan. Egin gehien hedatua duen autorearen testua har tzen badugu (O txoa Arinena) ikusten dugu egin-ek *ezan-en erabilera berak dituela gehi biga: iraganeko mendeko perpausak eta baldin tza. Beste manera batez erranik, O txoa Arinen testuan *ezan mantendu da orainaldiko mendeko konpletibo eta nala, eta aginteran hain zuzen ere, bizkaieraz eta araberaz bezala. Hauez gain O txoa Arinek poten tzialean ere erabil tzen du. Gainerateko gipuzkerazko testuetan, *ezan nagusi da denetan eta egin bi kontestutan baizik ez dugu aurki tzen: oraina konpletibo eta naletan, eta aginteran, hain justu bizkaieraz, araberaz eta O txoa Arinen testuan *ezan mantendu den inguruneetan. Momentuz ez dugu azalpen egokirik aurkitu datu bi txi eta kontragarri horren esplika tzeko. Halere, nahiz eta joera orokorrak eta ingurune kon tserba tzaileak ikus litezkeen, gure testuak laburregi eta bereziki berantiarregiak dira garapena urra tsez urra ts deskribatu ahal izateko, eta egitura berria nola sor eta hortik nola heda zitekeen ikusteko (hortaz ikus V). Gorago erran dugun bezala, xvi. menderako [partizipio + egin] egitura jadanik on tsa nkatua zen -bizkaieraz eta araberaz, gutienez-. Bukatu nahi genuke erranez ez dugula dudarik xv-xvi. mendeetan soilik [partizipioa + egin] egituraren bidez adieraziak diren balio guziak egun batez [aditzoina + *ezan] gisa adierazi zirela mendebaldeko euskalkietan (ikus erdialdeko eta ekialdeko lekukotasunak). Azterketa luze horren ondotik, proposa tzen dugu egin-ekilako perifrasia mendebaldean sortu eta ekialdera hedatu zela, edo [adi tzoina + *ezan] egituraren ordezkatzea mendebaldetik ekialdera hedatu zela. 49 Maila desberdinak ikusten ditugu heda-48 Noiz arte iraun du gisa horretako baldin tzak? Gamizek perifrasi zaharra baizik ez du erabil tzen horretarako: albanei ni orr egon 516; videa ezpadaigu galdu / guero i tsulceco a tzera 516; Ifinbazadiz seria / gucia da ilundu 514; Ezpazaiste bigundu / galduric nago 514. 49 Gure hipotesia bat dator Lakarrak (1996) bizkaieraz gertatu *ezan lagun tzailearen galerari buruz proposa tzen duenarekin: «Testuen kokapen seguru edo gu txi-gora beherakoa kontuan izanik, iduri tzen zait galera hegoaldetik ifarreran tz eta ekialderan tz heda zitekeela: hara nola gu txi tzen diren agerraldiak Kapanaga eta Durangaldeko ondorengoen eta, bereziki, RS eta Mikoletaren artean. Hipotesi honen alde, erdialdeko tzat dugun BB-k ez du agerraldi bakar bat, eta batez ere, luzeago, zaharrago eta beste ezaugarri ba tzutan arkaiko gisa ager tzen zaizkigun hegoaldeko VJ eta EK-ek ere ez, galera hortik abiatuaren seinale, ene ustez» (Lakarra 1996: 185). tze horretan. Lehenik, nabarmena da arabera eta bizkaiera, eta gipuzkeraren arteko desberdintasuna, azken horrek egin-ekilako egitura xviii. mendetik goiti baizik ez duelako azkarki heda tzen. Gipuzkoaren muga politikoa zedarri gisa ikus genezake [adi tzoina +*ezan] egituraren manten tzean xviii. mendean. Muga horretatik ezker direnek *ezan arrunt u tzia dute; muga eskuin dutenek, berriz, oraindik bizirik daukate. Bestalde, bizkaieraren beraren barnean ere, [partizipioa + egin] perifrasia goizik heda zitekeen -xv mendea ai tzin-mendebaldeko hizkeretara, eta berantago ekialdekoetara (xviii. m.) (ikus Arrasateko Erreketa, Barrutia). Ekialdeko bizkaieraren datuak bat datoz O txoa Arin Goierriko idazlearen datuekin, Goierriko gipuzkeraz ere aldaketa xviii. mendean baizik ez bai tzitekeen gerta. Mendebaldetik ekialderako heda tzearen hirugarren maila gipuzkeraren barnean dugu. Izan ere, gipuzkera mendebaldeko hizkerek eta kasu honetan Ordiziako euskarak (O txoa Arin) egin lagun tzailearekilako egitura azkarki hedatua du, ekialdean, erran nahi baita, Hernialdean (Irazusta), Oikian (Oikiako doktrina) 50 eta Hernanialdean (Kardabera tz) *ezan oraino nagusi delarik ingurune guzietan. Ho ts, zenbat eta ipar ekialderago joan, orduan eta egin-ekilako perifrasia gutiago agertu. Bizkitartean, oraino esplika tzekoa da Goierrin gerta tzen den batasun falta O txoa Arin (egin nagusi) eta Zegamako doktrinaren artean (*ezan nagusi). 51 Jadanik erran dugu Zegamako euskararen datuak esplika litezkeela Burundarekin eta euskara nafartarrarekin duen hurbiltasunaren bidez, bertan *ezan baita nagusi (ikus</figDesc><table><row><cell>2. Orokorkiago</cell></row><row><cell>Gorago erran dugun bezala (III.3.2), badirudi euskalki guzietan aurki tzen dugun</cell></row><row><cell>[adi tzoina + *ezan] egitura Mi txelenak (1981) proposatu Euskara Batu Zaharraren</cell></row><row><cell>garaikoa dela, eta handik ai tzina euskalkiek garapen desberdinak pairarazi zizkiotela,</cell></row><row><cell>ba tzuek lagun tzaile bakar tzat mantenduz (ekialdeko euskalkiak), 46 beste ba tzuek</cell></row><row><cell>[partizipio + egin] gisako egitura bat sortuz eta emeki-emeki haren ordez hedatuz.</cell></row><row><cell>Garapen luze horretan ikusi dugu gure lehenbiziko lekukotasunetarako egin-eki-</cell></row><row><cell>lako perifrasiaren erabilpena franko hedatua zela 47 Bizkaiko, Arabako eta Gipuz-</cell></row><row><cell>koako eremuetan, alabaina, maila desberdinetan, horrek bul tza tzen baikaitu mailaka-</cell></row><row><cell>tze kronologiko eta geografiko desberdinen proposa tzera, haren heda tze eta *ezan-en</cell></row><row><cell>desager tze prozesuetan.</cell></row><row><cell>Bi joera, bi mul tzo bereizi behar dira: (i) bizkaiera eta arabera, (ii) gipuzkera. Biz-</cell></row><row><cell>kaiera eta araberaren 3. Heda tze geografikoa</cell></row></table><note>46</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_17"><head></head><label></label><figDesc>). Egin perpaus nagusietan ager tzeak eraku ts lezake haren berritasuna beste bi perifrasien aldera.55  Azkenik, perifrasi horrek euskalkietan duen banaketak haren berritasunaren alde egiten du. Erran bezala, mendebaldean eta erdialdean baizik ez da aurki tzen, horrek bul tza tzen baikaitu pen tsa tzera Mi txelenak(1981)  proposatu Euskara Batu Zaharraren ondotik sortu zela. Erran behar da Lakarrak (1996) proposa tzen duela Euskara Batu Zaharretik heldu perifrasia dela, hautu desberdinek eragin baitute mendebaldean egin eta ekialdean *ezan a txiki tzea. Honen egoera konpara tzen du lagun tzaile hiruper tsonalen kasuarekin: mendebaldean eu tsi da nagusi eta erdialdean -i-baina han-hemenka *eradun lagun tzailearen arrastoak ditugu (O txoa Arin, Lazarraga); ekialdean berriz, *eradun da nagusi baina -i-lagun tzailearen arrastoak ere badira. Bizkitartean, partizipioa + egin perifrasiaren eta lagun tzaile hiruper tsonalen egoerak ez zaizkigu arras konparagarriak iduri tzen. Alde batetik, [partizipioa + egin] bizkaieraz, araberaz eta gipuzkeraren hizkera ba tzuetan baizik ez dugu aurki tzen, ekialdean ez delarik sekulan lekuko tzen. Bestetik, gipuzkeraz berant heda tzen da. Dudarik gabe, kronologiak xorroxtu behar ditugu. Baliteke perifrasi hori ez dela Mitxelenaren Euskara Batu Zaharrekoa, baizik eta berantagoko «mendebaldeko Euskara Batu Zaharrekoa» 56 (cf. Lakarra &amp; Urgell 2008). 52 Besteak beste, Viva Jesus testuan (xvii.m): yru personaetaric cein zidin guizon ? 5 53 Eguin ezazu çerbait Nagussi andiarequin, estezala anbat esqu, egun oro eguiten deu discretu berriac ('ez dezala izan hainbeste eskubide, eskusar tze…') (Contr. 263) 54 Mendeko perpausetan ditugu beti, salbu poten tzialean. Bizkitartean, azken honen kasua piska bat desberdina izanik beste lan batean aipatuko dugu.55  Perpaus nagusietan ager tzen zaigu geroaldiaren adierazteko. Bizkitartean, geroaldiaren balioa poten tzialetik eratorria baldin bada (oroit forma bera dugula bi balioendako), argumentu honek ez digu balioko, poten tzialezko perifrasiak aparte tratatu behar baitira.</figDesc><table /><note>56 Euskara Batu Zaharretik gertatu banaketa bitarraren adar bat (mendebalde vs ekialde).</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_20"><head></head><label></label><figDesc>). Buka tzeko, azterketa hori ondorio handikoa da gure perifrasi zaharraren ezagutza eta kronologiarako. Perifrasi hau, guregana heldu diren formen artean zaharrena da, bizkitartean, garai modernoetan aldaketa eta berrantolaketa handiak pairatu ditu mendebalde eta erdialdeko euskalkietan. [Adi tzoina + *edin, *ezan] formak Mitxelenaren (1981) Euskara Batu Zaharrekoak bide dira, ez aldiz [partizipioa + egin] ezta partizipioaren erabilera *edin lagun tzailearekin ere. [Partizipioa + egin] perifrasia, euskalkien lehenbiziko banaketaren ondotik sor zitezkeen, eta haren heda tzea [aditzoina +*ezan] perifrasiaren ordez, berant gerta zitezkeen, gure lanaren IV. zatian ikusi dugun bezala. Horren harira, oroitarazi nahi dugu askotan irakur tzen den ez bezala, menbalde eta erdialdeko euskalkietan ez dela lagun tzaile ordezka tzea gertatu baizik eta perifrasi ordezka tzea, [adi tzoina + *ezan] perifrasiaren ordez [partizipioa + egin] perifrasia bere osotasunean hedatu baita. Ondoko hilabeteetan, perifrasi horrek ekialdean izan duen garapena aztertuko dugu eta lan honi uztartuko. Badakigu han perifrasiak ez duela aldaketarik ezagutu bere egiturari dagokionez: partizipioa ez zaio hedatu, eta ez du lagun tzaile aldaketarik pairatu. Ho ts, mendebaldean baino arkaizanteagoa da. Halere, [adi tzoina + *iro] gisako perifrasi bat badu testu zaharrenetan poten tziala eta geroaldiaren balioekin, heldu diren asteetan testuz testu aztertuko baitugu. Textos Arcaicos Vascos, ikus Mi txelena [1964] 1990.Contr.: «Contribución al estudio y edición de textos antiguos vascos», ikus<ref type="bibr" target="#b40">Sarasola [1983</ref>.  E TZ: Euskal Testu Zaharrak, ikus Satrustegi 1987 </figDesc><table><row><cell>*edin Egin *ezan erazan</cell><cell cols="5">VII. Laburdurak eta bibliografia Adi tzoina vs partizipioa: *ezan-ekilako egitura *ezan OROTARA 2 14 1 XVI. mendean 0 agerraldi Aoristoa (arrunta) Mendeko aoristoa Oraina: erlatiboa Oraina: nalak Oraina: zirkunstan tzialak Geroaldia Poten tziala Agintera Baldin tza *ezan bizkaieraz *ezan adi tzoin partizipio --i -tu + i + tu XVIII. mendean 10 agerraldi Aoristoa (arrunta) Aoristo erlatiboa Oraina erlatiboa Oraina: nala eta konpl. Oraina: zirkunstan tzialak Geroaldia Poten tziala Agintera 10 Baldin tza OROTARA -10 --3. taula Adi tzoina vs partizipioa: egin-ekilako egitura *egin OROTARA -2 6 10 XVI. mendean agerraldi 1 Aoristoa (arrunta) Mendeko aoristoa Oraina: erlatiboa Oraina: nala eta konpl. 1 Oraina: zirkunstan tzialak Geroaldia Poten tziala Agintera Baldin tza *egin bizkaieraz *egin adi tzoin partizipio -i -tu + i + tu XVIII. mendean 27 agerraldi Aoristoa (arrunta) Aoristo erlatiboa 1 Oraina erlatiboa Oraina: nala eta konpl. 7 Oraina: zirkunstan tzialak Geroaldia Poten tziala Agintera 1 8 Baldin tza 1 OROTARA --2 16 aditzoina partizipio erro aditzoina TAV: 2. taula *ezan bizkaieraz adi tzoin partizipio -i -tu + i + tu XV. mendean 25 agerraldi Aoristoa (arrunta) 1 1 Mendeko aoristoa 1 Oraina: erlatiboa Oraina: nalak Oraina: zirkunstan tzialak Geroaldia Poten tziala Agintera 2 1 2 Baldin tza XVII. mendean 5 agerraldi Aoristoa (arrunta) 1 Mendeko aoristoa Oraina: erlatiboa Oraina: nala eta konpl. Oraina: zirkunstan tzialak Geroaldia Poten tziala Agintera 4 Baldin tza OROTARA -5 --*egin bizkaieraz adi tzoin partizipio -i -tu + i + tu XV. mendean 29 agerraldi Aoristoa (arrunta) 1 Mendeko aoristoa 2 Oraina: erlatiboa Oraina: nalak 1 Geroaldia 2 Poten tziala 1 Agintera 1 3 6 Baldin tza Baldin tza 2 2 OROTARA --38 109 partizipio 1 Poten tziala 3 14 Agintera 22 35 erro Oraina: zirkunstan tzialak XVII. mendean 272 agerraldi Aoristoa (arrunta) 1 5 Mendeko aoristoa 1 4 Oraina: erlatiboa 1 1 Oraina: nala eta konpl. 6 45 Oraina: zirkunstan tzialak 2 1 Geroaldia 2 aditzoina partizipio erro</cell><cell>8 erro -12 erro 1 1 7 9 erro 4 4 -erro 1 1 6 3 1 125 4 58 10 5 6 4 27 5 6</cell></row><row><cell></cell><cell>OROTARA OROTARA</cell><cell>--</cell><cell>--</cell><cell>--</cell><cell>-1</cell><cell>-</cell></row><row><cell></cell><cell>Nafarrera</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">-ki-ri dagokionez,Lafittek (1978)  azpimarratu bezala, ekialdeko euskalkietan, -ki &gt; -k bihur tzen da adi tzoinean: aurdik, ausik, ebak, edek, edok, e txek, iradok, igurik, idek, jarraik, a txik. Salbuespen gisa ematen ditu eraiki, hunki, ilki, iraki, iraungi, jaiki, jauki, aurizki, eta  erraten autore modernoek lehenbiziko taldeko adi tzoinak -ki gisa buka tzen dituztela, bigarren mul tzoarekilako analogiaz. Guk, al de ran tziz ko ustea dugu, erran nahi baita aurdik, ausik, idek, jarraik bezalako adi tzoinak berriak direla, etorri &gt; etor gisako adi tzekilako analogiaz sortuak. Erran gabe doa adi tz guzti horiek stem + -ki gisa eratuak direla, eta ez stem + -k + -i (partizipiozko marka). Berantago i tzuliko gara auzi horretara (II.3.1).<ref type="bibr" target="#b47">3</ref> Orduan, ondoko testuak ez ditugu sartu gure datu basean perifrasi zaharra ez baitute erabil tzen: (i) bizkaiera: Olasoko kantua (XV. m.) TAV3.1.8, 88-90, Errodrigo Zaratekoaren eresia (c. 1448; 1574   inguruko kronika batetik bildua)<ref type="bibr" target="#b6">(Arriolabengoa 1996)</ref>, Abendaño txearen herio tzea(1468)(Arriolabengoa 1996), Sandailia (XV. m), TAV 92-97, Salinaseko Kondearen kantua TAV 97-98, Lopez Harokoaren eresia (1497-1511), TAV 101-102.o, Peru txoren kantua (1536) TAV 102-105, Jacob Gevarakoaren ehorz ke tak TAV 144-146, Zure vegui ederroc 'Ramilletes de Madrid' TAV 123-125, Fabri de Peyrasc-en laudorioa (1638) TAV 131-132, A tseyn andia da amore eutea (1665), Contr. 220, Arrasateko ahapaldia (1682), Contr. 206; Ozaeta 1992, Arzadun Doctrina christianeen explicacioa (1731), Urkizu</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">Azken hau zeharka baizik ez dugu aipatuko lan honetan.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10">xvii. mendeko araberazko testu bakarrean (Portal 1610), ez dugu *edin lagun tzailearekilako perifrasiaren lekukotasunik.11  Berex uzten ditugu Azkuek xx. mendean bildu zituen geldi bedi ondo, aida adi tipoko egitura fosilizatuak, ez direlakoan hizkun tzaren sistema emankorraren miraila fidelak. 12 xvi. mendeko testu bakarrean *ezan lagun tzailea ez da erabil tzen.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="13">Joseba Lakarrak ohartarazten didan bezala, ez dakigu xuxen ber tso horiek noizkoak diren eta baliteke pen tsatu baino modernoagoak izatea.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="17">Datuak gisa horretan aztertu ondoan Azkueren alderan tzizko iri tzikoak gara, adi tz nagusiaren forma zuzena eta jatorrizkoari buruz: «Por la flexión subjuntiva correspondiente a «para que nos libre» dice siempre Betolaza libradu gagizan y no libra gagizan que sería lo correcto…»(Azkue 1935: 72).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="18">Abendañokoaren kantua, eta Gamiz eta Isastiren testuak aparte u tzirik.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="19">Azkue, RS-en azterketa buruturik, jadanik ohartu zen gisa horretako adi tzoinen urritasunaz: «Que así como hay en el libro de Refranes, según se ha visto, diez y ocho verbos indeterminados por ausencia del sufijo -tu, sólo hay uno (el del ejemplo núm.9 az por azi criar) que pierda la determinante -i en los mismos modos imperativo, subjuntivo y potencial.»(Azkue 1935: 72). Halere guk bigarren bat a tzeman dugu RS testuan berean.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="20">Joera hori argiki ikusten da Zarai tzuerazko 1790eko predikuetan<ref type="bibr" target="#b41">(Satrustegi 1985)</ref>, eta Erronkarierazko lehenbiziko doktrinean<ref type="bibr" target="#b13">(Gómez 1991)</ref>. Bi testu horiek ez ditugu sartu gure datu basean.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="30">Morentintarren kasuan ez bezala, badakigulako tz biak sor tzez Muzkiarrak zirela, ez dakigu Ororbian predikatu ziren testuak egiazki herri horretako euskaran ida tziak ote diren. Orduan, ez diegu prediku horiei Morentintarren testuei bezalako garran tzi tsua emanen garapen honetan.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="33">Gainera ez dezagun ahan tz *ezan-en erabilpen horiek Arrasate inguruko Barrutiarenak direla, gainerateko autoreek ez baitute sekulan erabil tzen (Arzadun, Urkizu…).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="34">Geroago (IV.1) ikusiko dugun bezala, bizkaieraz eta araberaz egin lagun tzaileak baizik ez di tzake har azken bi balio horiek (poten tziala eta baldin tza).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="38">Betola tzaz ere zalan tza izan genezake, alde batetik corpus mugatua duelako (egin 12 aldiz baizik ez du erabil tzen), eta bestetik mende berean Lazarragak erabil tzen duelako. Bizkitartean, ez dakigu Betola tzak bere herriko min tzoan ida tzi zuen, luzaz kanpoan egon zenaz geroz (Kalahorran…).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="41">«Los resultados obtenidos en esta investigación confirman, en lo fundamental, la afirmación de Bonaparte referente al hecho de que el empleo -en el subjuntivo y los demás modos de este tipo-de formas verbales de estructura vizcaína no es inususal en el dialecto guipuzcoano, sobre todo en la variedad de Azpeitia. Los datos recogidos por nuestros colaboradores han permitido conocer con detalle la extensión real de este fenómeno y confirmar que, en el momento actual, sigue persistiendo en la zona occidental de la variedad de Azpeitia y en varios pueblos de la de Cegama, especialmente asimismo de su parte occidental.Mucho más profunda es la penetración de las formas verbales del potencial de estructura vizcaína, sobre todo en la variedad de Cegama, […] ya que actualmente algunos pueblos de la zona oriental de dicha variedad emplean, en el potencial, formas guipuzcoanas.»<ref type="bibr" target="#b45">(Yrizar 1991</ref>(Yrizar  : 1101.42  Ezta egin trinkoki jokatua delarik ere (ikus RS 34 zaran bat daguianac bi day 'Quien hiziere un cesto hará dos').</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="45">Ber tso horiek eskuz ida tziak dira 1745ean Madrilen argitaratu aritmetikako liburu bateko sar orrian. Liburua Legardako e txe batean aurkitu zen. Liburuaren hastapenean ager tzen denaren arabera, haren jabe desberdinak ere inguru horretakoak bide ziren (Legarda, Zizur, Azterain).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="57">«Etant donné la position des marques de conjugaison par rapport au prédicat, il est possible de supposer qu'une forme qui reste à identifier est issue des marques de l'Emphatique du verbe qui a pu former un prédicat complexe à une certaine époque et conserver la position des élémen ts: V1 marques</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">1512</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>xv. mendeaz geroz, egin-ek biziki erabilera zabala du bizkaieraz eta *ezan-ek baino funtzio gehiago bete di tzake. Ikusi dugun bezala, *ezan aginteran eta aoristoan baizik ez da erabil tzen, egin-ek bi hauez gain, orain erlatiboa, orain nala eta konpletiboa, orain zirkunstan tziala, geroaldia, poten tziala eta baldin tza ere adieraz di tzakeelarik. Aztergai diren hiru mendeetan, egin lagun tzailearekilako perifrasia gehien bat erabiltzen da aginteraren adierazteko.</p><p>xvi. mendean frango erabil tzen da geroaldiaren adierazteko. Bizkitartean, erabilera hori gutituko da xvii. mendean (erabilpenen % 3a), xviii. mendean desagertua izateko. Azpimarratu behar da propor tzionalki xvi. mendean guti erabil tzen dela aoristoaren balioarekin (agerraldien % 6,7a) eta are gutiago xvii. mendean <ref type="bibr">(% 4,1a)</ref>.</p><p>xvii eta xviii. mendeetan, aginteraz gain, egin-ekilako perifrasia asko erabil tzen da orainaldiko mendeko perpausetan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.2.">Arabera</head><p>Araberaz ere, egin lagun tzaileak *ezan-ek baino erabilera zabalagoa du. *ezan aoristoan, iraganeko mendeko perpausetan, orainaldi naletan eta aginteran aurkitzen dugu, egin-ek hauez gain geroaldia, poten tziala eta baldin tza ere adierazten dituelarik. Taula horiek erakusten digute lagun tzaile ordezka tzea nola gerta zitekeen xvi eta xviii. mendeen artean. Berehala erran behar dugu maila desberdinak ditugula euskalki batetik bestera, horrek bul tza tzen baikaitu kronologia desberdinen ikustera.</p><p>Lehenik, bizkaieraz, xv. mendean *ezan-ek egin-en aldera duen nagusitasuna argia da, aoristoan (*ezan % 75 vs egin % 25), eta aginteran (*ezan % 58,1 vs egin % 41,9). Mendeko perpausetako aoristoan (*ezan % 33,3 vs egin % 66,7) egin da nagusi eta orain erlatiboan, orain finalean, geroaldian, poten tzialean eta baldin tzan hura baizik ez da erabil tzen. xvii. menderako, *ezan-en ordezka tzea franko ai tzinatua da: bi ingurunetan baizik ez dugu aurki tzen, aoristo arruntean, eta aginteran, bi horietan ere egin nagusi izanik (*ezan % 8,3 vs egin % 91,7; *ezan % 3,4 vs egin % 96,6, hurrenez hurren). Gainerateko erabilera guziak, egin-ekin baizik ez dira ager tzen: aoristoa mendeko perpausetan, orain erlatiboa, orain finala, orain zirkunstan tziala, geroaldia, poten tziala eta baldin tza. xviii. mendean, *ezan aginteran baizik ez dugu aurki tzen Barrutiaren testuan, berriz ere, egin baino aise gutiago erabilirik (*ezan % 38,5 vs egin % 61,5). Ez dezagun ahan tz bizkaieraren hizkera batetik bestera desberdintasunak daudela, Urkizu <ref type="formula">(1737) eta</ref> Arzadunek <ref type="formula">(1731)</ref>  Oraina: erlatiboa <ref type="bibr">3 3</ref> Oraina: nala eta konpl.  </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Agud</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mi Txelena</surname></persName>
+		</author>
+		<title level="m">Dictionarium linguae cantabricae (1562), in Knörr &amp; Zuazo (arg</title>
+		<imprint>
+			<date type="published" when="1958" />
+			<biblScope unit="page" from="201" to="334" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">«Amaseigarren mendeko euskerazko Miserere bat</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Akesolo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1982" />
+			<biblScope unit="volume">166</biblScope>
+			<biblScope unit="page" from="37" to="47" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">«Hegoaldeko Goinafarrera zaharra: adi tz lagun tzaileekiko ezaugarri zenbait</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Aldai</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="263" to="274" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Acto contriciocoa erio tzaco orduracò: Garcia de Albeniz araiarraren ara be razko eskuizkribua (1778)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Altuna</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="83" to="132" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">«Garcia de Albeniz araiarraren eskuizkribua</title>
+	</analytic>
+	<monogr>
+		<title level="m">Knörr &amp; Zuazo (arg</title>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="107" to="123" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Amiletaren dotrinea (xvii. mendea)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Arejita</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Alberdi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskeraren Iker-Atalak</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="7" to="68" />
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">«Erdi Aroko Kanta ezezagunak Ibargüen-Cachopin kronikan (1570-1620)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Arriolabengoa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="71" to="98" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Euskera 4-6. -, 1932, Verbo guipuzkoano: apéndice de la Morfología vasca, Bilbo: Editorial Vasca</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Azkue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Morfología vasca</title>
+		<imprint>
+			<date type="published" when="1935" />
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1" to="2" />
+		</imprint>
+	</monogr>
+	<note>Evolución de la lengua vasca</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Tratado de como se ha de oyr missa: escrito en romance, y bascuence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Beriain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">1621</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>lenguages de este Obispado de Pamplona</orgName>
+		</respStmt>
+	</monogr>
+	<note>Iruñea</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Le verbe basque en tableaux accompagné de notes grammaticales, selon les hui ts dialectes de l&apos;euskara</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">L</forename><surname>Bonaparte</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1869" />
+			<publisher>Strangeways &amp; Walden</publisher>
+			<pubPlace>Londres</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Main clauses are innovative, subordinate clauses are conservative: Consequences for the nature of constructions», Complex sentences in grammar and discourse: Essays in honor of Sandra A. ompson</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bybee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Benjamins</title>
+		<editor>J. Bybee, M. Noonan</editor>
+		<imprint>
+			<biblScope unit="page" from="1" to="17" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">(e)za adi tzerroa datiboko adi tz-jokoetan autoreetan zehar</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Creissels</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskera</title>
+		<editor>Lavoisier. E txaide, J., 1984, «-</editor>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="601" to="730" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note>Syntaxe générale: une introduction typologique</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Goikoe Txea</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Olerkiak</surname></persName>
+		</author>
+		<title level="m">Knörr &amp; Zuazo (arg</title>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="511" to="516" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">«Erronkarierazko dotrina argitaragabe bat: edizioa eta azterketa, in Lakarra (arg</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Gómez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="page" from="375" to="426" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Inza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskera III</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="3" to="42" />
+			<date type="published" when="1922" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Iraizoz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De</surname></persName>
+		</author>
+		<title level="m">Versos euskéricos del siglo xviii</title>
+		<imprint>
+			<date type="published" when="1976" />
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="65" to="75" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">«Canción antigua de amor vizcaína</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Irigoien</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1978" />
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="453" to="459" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kapanaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Txoa De</surname></persName>
+		</author>
+		<title level="m">Exposición breve de la doctrina christiana compuesta por el P. M. Geronimo de Ripalda de la compañia de Iesus</title>
+		<imprint>
+			<date type="published" when="1656" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Cristavaren bici tza (B. Hidalgoren edizioa)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kardaberaz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1744" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">&amp;amp; K</forename><surname>Knörr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Zuazo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>Euskal Azterlan Bilduma</publisher>
+			<pubPlace>Gasteiz</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Araberaren lekukoak</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Le système du verbe basque au XVIème siècle</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Lafon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Vasconiana Iker 11. Bilbo: Euskal tzaindia</title>
+		<meeting><address><addrLine>Bordeaux</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1943" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">«Acto para la Nochebuena, Texto y traducción</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ZZEE, Gabonetako ikuskizuna, Gasteiz</title>
+		<imprint>
+			<date type="published" when="1983" />
+			<biblScope unit="page" from="75" to="126" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">282-292. -, 1985b «xvii. mendeko bulda bat bizkaieraz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename><surname>Ber Tso Bizkaitarrak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">; «-Tu Vs Ø Bizkaiera</forename><surname>Zaharrean</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Symbolae L. Mitxelena, Gasteiz</title>
+		<editor>J. L. Melena</editor>
+		<imprint>
+			<date type="published" when="1688" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1045" to="1054" />
+		</imprint>
+	</monogr>
+	<note>ASJU</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+				<title level="m">Memoriae L. Mitxelena Magistri Sacrum. ASJU-ren Gehigarriak</title>
+		<imprint>
+			<publisher>Donostia</publisher>
+			<date type="published" when="1986" />
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="639" to="682" />
+		</imprint>
+	</monogr>
+	<note>Bizkaiera zaharra euskalkien artean</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+				<title level="m">Refranes y Sentencias (1596): Ikerketak eta edizioa</title>
+		<meeting><address><addrLine>Bilbo</addrLine></address></meeting>
+		<imprint>
+			<publisher>Euskal tzaindia</publisher>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Studies on Basque and Historical Linguistics in honor to R. L. Trask-Ikerketak Euskalaritzaz eta Hizkuntzalaritza Historikoaz Larry Trasken Oroitzapenetan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">J I</forename><surname>Hualde</surname></persName>
+		</author>
+		<idno>UPV/EHU (= ASJU 40</idno>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">«Hausturak nonahi, noiznahi, zenbanahi: gogoetak euskal dialektologia diakronikoaz», Aldaketak, aldaerak, bariazioak euskaran eta euskal testugin tzan, Baiona IKER-CNRS-ak antolatu mintegia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>-&amp;amp; Urgell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>esku orria</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">1729, El impossible vencido. Arte de la lengua bascongada, Salamanca. Faksimila Hordago</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Larramendi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1979" />
+			<pubPlace>Donostia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lazarraga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Perez De</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eskuizkribua</title>
+		<imprint>
+			<date type="published" when="1564" />
+		</imprint>
+	</monogr>
+	<note>Iñigo Landaren edizio elektronikoa</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">«Textos vascos del siglo xviii, en tierra de Estella</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lekuona</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1973" />
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="369" to="390" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Un catecismo vizcaíno del siglo xvii</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mi Txelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">La doctrina christiana de Betolaza»</title>
+		<meeting><address><addrLine>Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1954" />
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="5" to="201" />
+		</imprint>
+		<respStmt>
+			<orgName>ASJU-ren gehigarriak XI</orgName>
+		</respStmt>
+	</monogr>
+	<note>Textos arcaicos vascos</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Mounole</surname></persName>
+		</author>
+		<title level="m">Quelques remarques à propos de l&apos;histoire des périphrases basques</title>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="725" to="740" />
+		</imprint>
+	</monogr>
+	<note>Lakarra &amp; Hualde (arg</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">*iro lagun tzailearekilako perifrasia testuz testu</title>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>presta tzen</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">«Una plática del Goyerri</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Murugarren</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="185" to="197" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Relations entre fonctions syntactiques et fonctions sémantiques en wolof, Doktore tzako tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Nouguier</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+		</imprint>
+		<respStmt>
+			<orgName>Université Lumière Lyon 2</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Primer sermón en vascuence navarro (1729)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Ondarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="147" to="173" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+	<note>«Zegamako Doctrina Christiana (1741)</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Doctrina Christianaren explicacioa Villa Franca Guipuzcoaco onetan euscaraz itceguitendan moduan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>O Txoa Arin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">1713</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">«Vicisitudes de un padrenuestro en vasco del s. xvii</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Oroz Arizcuren</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1980" />
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="3" to="23" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ozaeta</surname></persName>
+		</author>
+		<title level="m">Arrasateko testu zahar bi</title>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="793" to="800" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">«Nafarroako hizkerak», Euskal dialektologiako kongresua, ASJU-ren gehigarriak XXVIII</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Pagola</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="255" to="296" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Contribución al estudio y edición de textos antiguos vascos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Sarasola</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983" />
+			<biblScope unit="page" from="205" to="351" />
+			<pubPlace>Donostia</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>ASJU-ren gehigarriak XI</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">«Poesia sentimental en dialecto vizcaíno (s. xviii)», FLV 28, 63-65. -, 1978b, «Niças en el poema vizcaino del siglo xvii</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Satrustegi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Textos salacencos del año 1780», Symbolae L. Mi txelena</title>
+		<imprint>
+			<date type="published" when="1978" />
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="37" to="48" />
+		</imprint>
+	</monogr>
+	<note>Iruñea: Euskal tzaindia. -, 1990, «Texto vasco del Padrenuestro en versión del s. xvi</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Trask</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<pubPlace>Londres, Routledge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">«Para la historia del sustantivo verbal en vasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Urgell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Lakarra &amp; Hualde (arg</title>
+		<imprint>
+			<date type="published" when="1986" />
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="921" to="948" />
+		</imprint>
+	</monogr>
+	<note>«Egiaren kantaz: I. testua eta iruzkinak</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Urkijo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De</surname></persName>
+		</author>
+		<title level="m">Los refranes de Garibay</title>
+		<meeting><address><addrLine>Donostia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Martin, Mena &amp; Comp</publisher>
+			<date type="published" when="1919" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">«Sobre la extensión del subjuntivo y del potencial vizcaínos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Yrizar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Lakarra (arg</title>
+		<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="page" from="1093" to="1104" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Zabala</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donostia</forename><surname>Zuazo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Burundako Hizkera</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">»</forename><surname>Gómez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Lakarra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Arabera</surname></persName>
+		</author>
+		<title level="m">Betola tzaren hizkeraz», in Knörr &amp; Zuazo (arg</title>
+		<meeting><address><addrLine>Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="1005" to="1029" />
+		</imprint>
+	</monogr>
+	<note>Knörr &amp; Zuazo (arg. in Lakarra &amp; Hualde (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Zubia-Lezamiz; (iv) xviii. mendea: Gabonetako ikuskizuna, Arrasateko bandoa desertzioez • Gipuzkera: (i) xvi. mendea: Salmo Miserere; (ii) xvii. mendea: Isastiren errefrauak, Ave Maria, Fran tziskanoen Predikua sorginkeriaren kontra, I tziarko Amaren ber tsuak, (iii) xviii. mendea: O txoa Arin, Irazusta, Goierriko platika, Zegamako doktrina, Oikiako doktrina, Kardabera tz • Arabera: (i) xvi. mendea: Lazarraga, Landuccio</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Viva</forename><surname>Jesus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Egiaren</forename><surname>Kanta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mikoleta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Kapanaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ber</forename><surname>Amileta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bulda</forename><surname>Tso Bizkaitarrak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bizkaitarrez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">*edin lagun tzailearekiko perifrasia erabil tzen duten testuen zerrenda: • Bizkaiera: (i) xvi. mendea ai tzin: Milia Lastur, Arrasateko erreketa</title>
+		<imprint/>
+	</monogr>
+	<note>Henao-Bizkaiko elizkizunak, Refranes y Sentencias, Garibairen errefrauak; (ii) xvi. mendea: Zumarragaren gutuna; (iii) xvii. mendea: Maitasunezko kantua Veguiacaz, Maitasunezko kantua Catigatu ninduçun. Betola tza; (ii) xviii. mendea: Gamiz, Albeniz</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Lezamiz; (iv) xviii. mendea: Barrutia, Arzadun, Urkizu • Arabera: (i) xvi. mendea: Lazarraga, Betola tza; (ii) xvii. mendea: Portal, (iii) xviii. mendea: Gamiz, Albeniz • Gipuzkera: (i) xvi. mendea: Salmo Miserere; (ii) xvii. mendea: Tolosako irainak, Isastiren errefrauak, Azpeitiko gutunak, Fran tziskotarren predikua sorginkeriaren kontra, Bretainako kantua, (iii) xviii. mendea: O txoa Arin, Irazusta, Zegamako doktrina, Oikiako doktrina</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Viva</forename><surname>Jesus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Egiaren</forename><surname>Kanta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mikoleta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Kapanaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ber</forename><surname>Amileta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bulda</forename><surname>Tso Bizkaitarrak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Egin lagun tzailearekiko perifrasia erabil tzen duten testuen zerrenda • Bizkaiera: (i) xvi. mendea ai tzin: Martin Ibañez</title>
+		<imprint/>
+	</monogr>
+	<note>Abendañok Pedroren eresia, San Fran tziskoren 3. ordenako erregela, Refranes y Sentencias, Garibairen errefrauak; (ii) xvi. mendea: Zumarragaren gutuna; (iii) xvii. mendea: Maitasunezko kantua Veguiacaz, Mendietaren kuadroa. Goierriko platika (agerraldi bat baizik ez. Kardabera tz (agerraldi bat baizik ez</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Egin lagun tzailearekiko perifrasia erabil tzen ez duten testuen zerrenda • Bizkaiera: (i) xvi. mendea ai tzin: Milia Lastur, Arrasateko Erreketa, Henao-Bizkaiko elizkizunak; (ii) xvii. mendea: Maitasunezko kantua Catigatu ninduçun</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">(i) xvii. mendea: Ave Maria, Isastiren Salvea, I tziarko Amaren bertsuak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">•</forename><surname>Gipuzkera</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Lardizabalen gutuna</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

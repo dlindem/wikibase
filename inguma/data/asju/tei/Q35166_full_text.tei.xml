@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Beste aditz laguntzaile ditrantsitibo bat Gipuzkoa mendebaldean: -ag-erroko formen jatorria eta garapena 1 Another ditransitive auxiliary verb in western Gipuzkoa: the origin and development of -ag-root forms</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Borja</forename><surname>Ariztimuño Lopez</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universidad del País Vasco/Euskal Herriko Unibertsitatea (UPV/EHU)</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Beste aditz laguntzaile ditrantsitibo bat Gipuzkoa mendebaldean: -ag-erroko formen jatorria eta garapena 1 Another ditransitive auxiliary verb in western Gipuzkoa: the origin and development of -ag-root forms</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="volume">2020</biblScope>
+							<biblScope unit="issue">1-2</biblScope>
+							<biblScope unit="page" from="265" to="278"/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:41+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>auxiliary verbs</term>
+					<term>ditransitives</term>
+					<term>western Gipuzkoan</term>
+					<term>Alavese</term>
+					<term>philology</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In this paper I will deal with an auxiliary verb that appears only in the varieties of western Gipuzkoa (e.g. Otxoa Arin's diago), with two main goals: on the one hand, to make the first classification of all the documented forms (including some previously unidentified ones), and on the other, to establish the relationship between these forms and the equally little studied ones of Lazarraga's jago type, presenting a proposal on their origin and development. Thus, through the philological study of the texts and internal reconstruction, it can be concluded that in the Basque language of the northeastern Araba and the Deba basin, characteristic ditransitive forms of the verb *edun developed which historically show a root -ag-and always agree with the third person dative. Laburpena: Artikulu honetan Gipuzkoa mendebaldeko hizkeretan baizik ageri ez den aditz laguntzaile batez arituko naiz (adib. Otxoa Arinen diago 'dio'), bi helburu nagusirekin: batetik, lehen aldiz forma dokumentatu guztiak sailkatzea (orain arte identifikatu ez diren zenbait barne), eta bestalde, adizki horien eta orobat gutxi aztertu diren Lazarragaren jago 'dio' erakoen arteko harremana argitzea, guztien sorreraren eta garapenaren gaineko proposamen bat eginez. Hala, testuen azterketa filologikoa eta barne-berreraiketa baliatuz ondoriozta daiteke ezen Araba ipar-ekialdeko eta �e barroaren inguruko eus-ipar-ekialdeko eta �e barroaren inguruko eus-eta �e barroaren inguruko eus-�e barroaren inguruko eus-inguruko euskaran *edun-en forma ditrantsitibo bereziak garatu zirela, zeinek bilakaera fonologiko baten ondorioz -ag-erroa erakusten duten, eta betiere 3. pertsonako datibo-komunztadura. Hitz GAkOAk: aditz laguntzaileak, ditrantsitiboak, Gipuzkoa mendebaldeko euskara, Arabako euskara, filologia.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Sarrera</head><p>artikulu honetan orain arte ongi deskribatu gabeko aditz laguntzaile batez arituko naiz (-ag-erroa erakusten duten formak), bi helburu nagusirekin: batetik ( § 2), dokumentatu diren adizki guztiak biltzea eta sailkatzea, eta bestetik ( § 3), haren sorreraren eta garapenaren gaineko proposamen bat egitea (ariztimuño 2021a lanaren ildotik).</p><p>izan ere, testu eta lekukotza ezberdinetako forma guztiok ez dira lehenago aztertu, eta aipatu izan direnak ere ez dira elkarrekin lotu; hau da, inork ez ditu adizki guztiak identifikatu, ezta ezaguturikoak aditz beraren aldaeratzat hartu ere. ondorioz, ez zaio arreta nahikoa eskaini adizki berezion osaerari, eta haien hedadura zehazteke egon da.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Adizki berezi batzuen hatzean 2</head><p>Beste lan batean (ariztimuño 2021a), Lazarragaren ñagon 'nion' adizkia (1) 3 eta haren paradigma aztertu ditut, lehenik irakurketa horixe (eta ez Bilbao eta besteren [2020] &lt;nagon&gt;) defendatuz, 4 eta ondoren bere testuinguru paradigmatiko eta diatopikoan kokatuz, egundaino gorde diren oñatiko xao 'dio' eta antzuola-Bergara aldeko jao 'dio' erako adizkiekin lotuz, lehenago Lazarragak berak darabiltzan jago 'dio' (2) erako beste adizkiekin hainbatek egin bezala <ref type="bibr">(cf. uribe-etxebarria 2008; zuazo 2012; aldai 2013)</ref>.</p><p>(1) Egun ascotan nic eguin ñagon / modu ascotan erregua <ref type="bibr">(Laz,</ref><ref type="bibr">a21,</ref><ref type="bibr">(5)</ref><ref type="bibr">(6)</ref> (2) Semeric badeu esaten jago: / «Aita, eguidac jaquea» <ref type="bibr">(Laz,</ref><ref type="bibr">a24,</ref><ref type="bibr">(99)</ref><ref type="bibr">(100)</ref> Halaber, adizkion osaera azaltzeko saio batzuk laburbildu eta, behin-behinean, <ref type="bibr">Lafonek (1961: 427)</ref> oñatiko eta Bergarako formetarako proposatutako etimologiarekin bat egin dut, xehetasunak xehetasun.</p><p>Labur azaltzeko, ikuspegi horren arabera, adizkiok *edun-en forma ditrantsitiboak dira, oinarrizko dau formari hasierako morfemaren palatalizazio-bidezko da-2 artikuluan zehar adizkiak baino ez ditut aipatuko gehienetan, haien euskara batuko ordainarekin batera; adizkiok beren testuinguruan eta sailkaturik ikusteko, jo beza irakurleak 1. eta 2. eranskinetara.</p><p>Bestalde, testuan zehar nahiz eranskinetan laburdura hauek erabili dira testuak aipatzeko: amilD = amilletaren <ref type="bibr">dotrina, 1677 (arejita &amp; alberdi 1983)</ref>; anzD = antzuolako dotrina, 1825 (uribe-etxebarria 2008); azkS = Larramendiren azkoitiko sermoia, 1737 <ref type="bibr">(Lakarra 1985)</ref>; azpGut = azpeitiko gutunak, &lt; 1740 <ref type="bibr">(madariaga et al. 2009</ref>); BK = Bretainiako kantua, 1590 <ref type="bibr">(Sarasola 1983: 78)</ref>; DebS = Debako seroraren gutuna, 1596 <ref type="bibr">(Satrustegi 1987: 31-34</ref>; Gidor Bilbao, joseba Lakarra eta Dorota Krajewska prestatzen ari diren edizioko zuzenketak kontuan harturik; EKC = Euskal Klasikoen Corpusa (eHu); elgB = Domingo irureren elgoibarko bertsoak, 1677 (azpiazu 1988); errGut = errezilgo gutunak, 1622 <ref type="bibr">(Sarasola 1983: 124-128)</ref>; Laz = Lazarraga, ca. 1600 <ref type="bibr">(Bilbao et al. 2020)</ref>; LD = Loiolako dotrina, ca. 1750 (altuna 1995); oa = otxoa arinen <ref type="bibr">dotrina, 1713</ref><ref type="bibr" target="#b12">(oregi 1972</ref><ref type="bibr">altuna 1992;</ref><ref type="bibr">aranburu, Bidegain, idiakez &amp; rezola 1999)</ref>; rosGut = ros erronkariarraren gutunak, 1616-1617 (Gidor Bilbao eta joseba Lakarra prestatzen ari diren edizioa kontsultatzeko aukera izan dut); Sas = estibaliz <ref type="bibr">Sasiola, ca. 1600</ref><ref type="bibr">(Bilbao et al. 2020</ref>; SGK = Segurako gabon-kantak, 1705 <ref type="bibr" target="#b6">(Lekuona 1954)</ref>; SumB = azkoitiko mojen ordenantzak edo <ref type="bibr">Sumario brebea, 1614</ref><ref type="bibr">Sumario brebea, (urkizu 2009</ref> 3 testuan aipatutako adibideek zenbaketa-hurrenkera arruntari jarraitzen diote, nahiz eta eranskinetan berriz agertzen diren, bertan dagokien zenbakiarekin. 4 esan nahi baita, adizki hori ñ-z interpretatzeko argudio linguistikoak ez ezik, &lt;ñ&gt; irakurtzeko grafiazko frogak aurkeztuz.</p><p>https://doi.org/10.1387/asju.23057 tibo-marka eta amaieran 3. pertsonaren datibo-komunztadura erantsiz sortuak: *djau-o &gt; *jawo &gt; jao. oraingo honetan, baina, lekukotasun gehigarri batzuk aurkeztuko ditut, sarreran esan bezala, inoiz lehenago aztertu edo arestian aipatu ditudanekin lotu izan ez direnak.</p><p>Hala, Lazarragaren ñagon adizkiak jago erakoak aztertzera eraman ninduen bezala, otxoa arinen diagola 'diola' (3) adizkia izan da ikerketa-saio honen abiarazlea.</p><p>(3) escatcen diagola Jaungoicoari (oa, 132) 5 adizki hori (hurrengo azpiatalean aipatuko ditudanak bezala) ez dut ezein ikerketatan aztertua ikusi, autorearen beraren adizkien sailkapenetan izan ezik, eta haietan oker azterturik edo sailkaturik beti (cf. azken proposamen horri dagokionez, ordea, egileak berak ikusi zuen ezen berak aztergai zuena objektu singularrarekiko *eradun-en adizki bakarra litzatekeela gipuzkeraren corpus osoan: arazoaren irtenbidea -iau-(&lt; -irau-) erroa daraman forma batetik abiatzea izan zitekeen, objetu singularraz gipuzkeran halako beste ezer ez izatea oztopo larria ez balitz: lehen eremutik urrutien, di(g)o baizik ez. 12 Honako mapa honetan argiago ikus daiteke -g-dun lekukotasun guztien banaketa (rosGut-ekoak salbu):</p><formula xml:id="formula_0">diraue &gt; diaue &gt; diague &gt; digue (</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">irudia</head><p>-g-dun adizkien banaketa diatopikoa</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Ondorioak</head><p>Honenbestez, azalpen ekonomikoena bi adizki multzo bereiztea dela pentsatzen dut: alde batetik -i(n)-errodunak (di(g)o erakoak) genituzke, 13 eta bestetik, *edun erroaren forma datiboduntzat jotzen ditudanak (diago, jago), ariztimuño (2021a) artikuluan jago-rentzat proposatutako etimologia diago aldaerara hedatuaz.</p><p>Lehendabizikoen kasuan (4), batik bat Deba ibarreko hizkeretan, baina baita hortik kanpo ere (cf. rosGut), -g-epentetikoa sartu zen 3. pertsona singularreko datibokomunztadura zuten adizkietan, eta toki batzuetan (azkoitia-azpeitia inguruan, adibidez) pluralekoetan ere bai, beharbada analogiaz. 14 Bigarren multzokoen kasuan <ref type="formula">(5)</ref> Dena den, gogoan eduki behar da mendebaldean orokorra dela joat 'diat' (eta cf. oñatin eta Bizkai hego-mendebaldean erabiltzen den iraganeko ñoan 'nian'); halaber, Gipuzkoako testuetan ez da ezezaguna da-→ dia-baliabidea (esaterako, otxoa arinen badiakit, Lubietaren diaramaio edo Larramendiren diakart; ik. ariztimuño 2021b).</p><p>Hortaz, har bitez *dj-eta *nj-berreraiketak adizkien hasierako kontsonanteak aldarazi zituen elementu palatal baten presentziaren konbentziozko adierazle huts gisa, eta ez bilakaera fonetiko zehatzaren proposamentzat; ezta diago erakoen zahartasun erlatibo handiagoaren aldekotzat ere. <ref type="bibr">16</ref> Berrikusle anonimoetako baten ustez, mendebaldeko euskara zaharrean jada *neb-zatekeen forma komuna (RSko neuen eta martin portalen neuan, esaterako, ez dira argiak, bokalarteko &lt;u&gt; batek /b/ ere adieraz baitzezakeen testu haietan) eta, hala izatera, (5)-eko berreraiketa oztopatuko omen luke.</p><p>Haatik, eta aurrerago aurkeztuko ditudan bestelako azalbideak (analogia, partizipio berria) alde batera utzirik, nago ez ote dugun orobat *neu-tik abiatu behar mendebaldeko euskararen barneko neban/ neben banaketa azaltzeko, bigarrena *neu-(e)n berreraikirik (alegia, -an → -n alomorfo aldaketaz eta horren ondoko bokal epentetikoaz). 17 ikus aurreragoko azalpenak erro-aurreko bokalez.</p><p>https://doi.org/10.1387/asju.23057 erroaren ezkerretara gehitu den morfologiazko ekaiari dagokionez, berriz, bi modutara azal liteke (bien arteko muga lausoa bada ere): edo maila morfosintaktikoan gertatzen zen argumentu-gehiketa (dator → datorkio bezala), edo lexikalizaturiko oinarri baten gainean eratzen ziren adizkiak (*eradun-en adizkien modura; cf. mounole 2015); demagun, *jadun moduko partizipio batetik (cf. Lazarragaren jagin bera). edonola ere, iraganeko forman ere ageri den a-azaltzeko beharrezkoa da *da-morfema edo haren arrasto morfofonologikoa, (5)-eko *njeau-n islatzen den bezala (cf. jakan <ref type="bibr">'zitzaion' bera;</ref><ref type="bibr">eta, RSko bagineakike 'bagenekike' eta kidekoez, mitxelena 1954: 132-133)</ref>.</p><p>adizkien eskuinaldera itzuliaz, eta lexikalizaturiko aditz batean pentsatuz gero, epentesia forma jokatugabeetan sor zitekeen (*jadun &gt; *ja.(b)un &gt; *jagun), 18 eta hortik adizki jokatuek *-agu.o &gt; *-agwo &gt; -ago bilakaera izan; alabaina, formon hedadura murritzak eta aldaerek pentsarazten didate berrikuntza (zahar) lokal baten aurrean gaudela, eta ez ondare zahar komuneko partizipio baten forma jokatuen aurrean. <ref type="bibr">19</ref> Kontuan hartu behar da, dena den, tartean diren bilakabide morfofonologikoak antzinakoak direla (beharbada komunak, aurrizkiak direnez) eta herri batzuetan hitano alokutiboko formetan iraun dutela (izan ere, datibo-eta alokutibo-komunztaduraren arteko loturaren beste adibide bat da).</p><p>Horrenbestez, esan liteke ezen, zedarritutako eremu hartan, 20 noizbait *edun-en 3sg pertsonako formaren gainean datibo-gehitzeko bideak erabiltzen hasi zirela; ordea berrikuntzak ez bide zuen arrakasta handiagorik izan eta, geografian ez ezik, paradigman ere ez zatekeen osoki hedatu.</p><p>Postscriptum artikulua amaiturik zegoela, 1515 inguruko azkoitiko poemen (azkpo) aurkikuntzaren berri jakinarazi zuten hedabideetan. testu hartan, ediziogileek &lt;Vitarteco em(an) ni[...]gon&gt; transkribatu duten pasarte iluna ageri da, zeina &lt;Vitarteco em[en] ni[a]gon&gt; zuzendu eta osatzea proposatu duten, 'bien bitartean hemen nagon [noka]' ulerturik (ros 2020).</p><p>testuaren azterketa sakonago bat beharrezko bada ere, 21 baliteke egiazki artikulu honetan hizpide izan dugun aditz laguntzailearen zorioneko beste lekukotasun bat izatea azken hitz hori; areago, Lazarragaren ñagon adizkiarekin bat letorkeen eta jago : diago bikotearen argitan azkoitian esperoko genukeen forma lekukotzen du, hain zuzen: niagon.</p><p>Hortaz, nire proposamena da azkpo-ko lekukotasuna &lt;Vitarteco eman nj[a] gon&gt; ('bitarteko eman nion') osatzea, non bitarteko hitza '(zerbait lortzeko) bide' gisa ulertu behar bide den; kasu honetan, penitentzia betetzeko edo ezartzeko modua izan liteke, testua nola interpretatzen den (esaldia ez baitago osorik).</p><p>Bibliografia aldai, Gontzal. 2013. Sasiola vs. Lazarraga: acerca del euskera del texto de estibaliz Sasiola.</p><p>Lapurdum 17. 7-29. https://doi.org/10. <ref type="bibr">4000/lapurdum.2400</ref><ref type="bibr">. altuna, Fidel. 1995</ref>. <ref type="bibr">ASJU 29(2)</ref>. <ref type="bibr">611-649. altuna, patxi. 1992</ref>  <ref type="bibr">(1947</ref><ref type="bibr" target="#b16">-2008</ref><ref type="bibr">), 117-140. Bilbo: upV/eHu. ariztimuño, Borja. 2020</ref><ref type="bibr">[2022</ref>. ohar filologikoak azkoitiko testu aurkitu berriaz: irakurketa proposamena. ASJU 54(1-2 </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>, aldiz, *edun-en 3. pertsonako datibo-komunztaduradun formak ziratekeen, araba ipar-ekialdetik Debagoiena bitartean (ariztimuño 2021a) eta, aldirietan, Goierri mendebaldetik azkoitia eta elgoibarreraino erabiltzen bide zirenak:(4) dio &gt; digo die → dige (5) *da(d)u-→ *djau-o &gt; ... &gt; *djago &gt; jago, diago 15 (→ jage, diage) *ne(d)u-16 → *njeau-o(-n) 17 &gt; ... &gt; *njagon &gt; ñagonBilakabide morfofonologikoari dagokionez, ariztimuño (2021a)-ko proposamenean sakonduz, erroaren aurreko zatia eta ondokoa bereizi behar dira, bai kokalekuagatik eta parte hartzen duten morfemengatik, bai horien kronologia erlatiboagatik. erroaren ostekotik hasita, ditugun lekukotasunetatik ezin dugu zehaztasun handiagorik atera, baina badira bi aukera, gutxienez: i) *-au.(b)o &gt; *-augo &gt; -ago; ii) *-a. wo (&gt; *-abo &gt; *-a.o?) &gt; -ago. Datibo-pluraleko formak azaltzeko lehen bideak dirudi egiantzekoena, baina izan litezke singularrekoekiko analogiaz sortuak ere.13  Lakarra (2008a: 479-482)  lanaz geroztik ez baita zalantzarik halakoak ez direla *edun-etik eratorriak, baizik eta *enin 'eman' berreraiki genezakeen aditzetik. 14 epentesi bera dakusagu mendibururen lanetan (EKC) eta Larramendiren gramatikan, *ezan laguntzailearen formetan: diezagón, ciezagón, etab.(Larramendi 1729: 114).15  Lan honetan ez naiz sartuko j-~di-(eta ñ-) horien jatorri eta garapen fonetiko zehatza zein den (ikus ariztimuño 2015); analogiaz ere sor zitezkeen forma berriak.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>. -g-dun adizki ditrantsitiboen corpusa zedarritzen</head><label></label><figDesc></figDesc><table><row><cell>2. oin-oharrean aipaturiko bibliografia eta</cell></row><row><cell>Dodgson 1913). 6</cell></row><row><cell>2.1Lazarragaren eskuizkribuaren edizioan, Bilbaok eta bestek (2020) jago eta digo</cell></row><row><cell>'dio' erako adizkiak parekatzen dituzte, aldaera gisa nonbait. alabaina, ediziogileek</cell></row><row><cell>aipatzen dituzten testuetako batzuetan (SumB, LD, oa) ez dira digo erakoak soilik</cell></row><row><cell>ageri, baizik eta jago-ren antz handiagoa duten eta, dakidala, inork lehenago elkarre-</cell></row><row><cell>kin lotu ez dituen beste batzuk: diago 'dio' erakoak, hain zuzen (ikus 1. eranskineko</cell></row><row><cell>16-19 eta 31-32 adibideak).</cell></row><row><cell>aipatzekoa da ezen testuon transkripzio, edizio eta azterketa bakoitzean ere</cell></row><row><cell>ez direla besteetan ageri diren forma bereziak aipatzen, eta gehienek di(g)o erako-</cell></row><row><cell>tzat hartu izan dituztela, esplizituki edo haiekin batera emanik zerrendan (zalan-</cell></row><row><cell>tzaz bada ere; cf. aranburu et al. 1999: 102). Fidel altunak, aldiz, LDko digue 'die'</cell></row><row><cell>adizkia *eradun-etik erator zitekeela planteatu zuen, tarteko *diau-formaren bidez</cell></row><row><cell>(altuna 1995: 623).</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>. Formen sailkapenaz gehiago ikusi</head><label></label><figDesc>altuna 1995: 623). aciertua conseguitceco gauza importanciazco onetan, conveni izango zayo Christaubari bere bacartasunera retiraturic oracio eguitea, eta exercicio santu orretan egunen batzuec, edo gauren batzuec empleatcea, aldian bein edolarican ordubat, edo orduerdi bat egunean, edo gaubean bere aldera artuaz, escatcen diagola Jaungoicoari aldeban humildaderic andienaz, Fedeaz, eta esperantza firmeaz, bere socorru divinoac, eta hasistenciaric andienac, aen medioz ecarri ditzan memoriara bere culpa eta pecatuen numeroa, eta circustancia guciac, batere ezcutaduric guelditu ez daguicoan moduan (oa, 131-132; letra beltza eta etzana nireak [BaL]) jakina, artikulu honetan objektu singularreko adibide gehiago aurkezten dudanez gero, batek pentsa lezake altunak aipatzen zuen forma ez zatekeela horren ezohikoa; haatik, ja-hasieradun adizki zaharren paralelismoak eta pluraleko formetan -r-a gorde izanak haiekiko lotura zailtzen du. era berean, bilakaera horren azken pausoa (dia-&gt; di-) garai horretan (ca. 1750) egiantzekoa izan baliteke ere, 7 kontuan hartu behar da digo erakoak xvi. mendetik daudela dokumentaturik, 8 eta xvii. mendearen hasieran ere diago eta digo formak ageri direla. altunaren proposamenera itzuliz, badirudi LDko digue 'die' adizkiko azken zatia bi silabakotzat hartzen duela (/di.gu.e/), baina autoreak berak berariaz baztertzen du digoe &gt; digue aukera ere, digue 'digute' formarekin nahastuko litzatekeela-eta, bai eta, agidanez, oe &gt; ue aldaketa ez zatekeelako gertatu (testuan ez da halakorik). izan ere, SumB-an ere dokumentaturik daude dige 'die' 9 eta diage 'die' 10 (1. eranskineko 11 eta 18 adibideak). Hortaz, badirudi hiru forma bereizi behar direla, gutxienez: jago, diago eta di(g)o. amaitzeko, lehenago inon aipaturik ikusi ez ditudan forma berezi batzuk ere bildu ditut, zeinak jago/diago erakoen alokutiboko formak direla uste baitut: alde batetik, Bährren, irizarren eta EHHA dialektologia-lanetako elgoibarko eta Legazpiko formak ditugu (3. eranskineko iii. eta iv. taulak); bestetik, SGKetako zegoat 'zioat' eta zegoe 'ziotek' (41-42). den bezala, testu zaharrenetatik di(g)o, diago eta jago erako adizkiak ditugu, maiz horietako bi autore beraren testuan (diago/di(g)o, jago/dio, baina ez **diago/jago). 11 zalantza egin liteke digo non sailkatu (dio-rekin ala diago-rekin), baina, datuen argitan, orain arte egin den bezala, dio-ren aldaeratzat jo dut hemen. izan ere, diago eta digo aldaeratzat hartzeak arazo kronologiko eta diatopikoak lituzke: datu urriek marrazten dituzten isoglosek iradokitzen dutenez, bazen gune bat non jago (eta dio) erabili zen; ondokoetan, diago (eta di(g)o; cf. oa, SumB, LD); eta, 7 ordurako (xviii. mendearen hasieratik) aditz laguntzaileon forma aski higatuak bazirelako zantzu argiak baitaude; cf. 1716ko Lasarteko bertsoetako diuscu 'dizkigu' (Satrustegi 1983), irazustaren testuan -iu-erakoak arau, bai eta otxoa arinen diutzudan higatua, nahiz eta dirautzut osoa ere ageri den. izan ere, ia osoak dira Larramendik bere gramatikan jaso zituen diauzcat 'dizkiot' etab. (1729: 116) eta hiztegian, azpeiti-azkoitiko hizkerez aritzean, dirautzat 'dizkiot' eta dirauzkit 'dizkit' «bereziak» aipatu zituen (1745: 30); halaber, azpGut-etan dirauzan 'dizkion' aurkitzen dugu. testuak baditu zenbait arazo interpretazioan (eta ziurrenik transkripzioan). oro har grafia eguneraturik ageri bada ere, badu grafia zaharraren adibiderik, eta &lt;digue&gt; izan liteke bat, beharbada ediziogileak /gu.e/ interpretatu zuelako; beste aukera bat litzateke egiazki /gue/ &lt; /goe/ izatea (nahiz eta halako beste bokal aldaketarik ez den testu osoan), edo bestela &lt;u&gt; pro &lt;o&gt; akatsa, eta beraz, egiazki &lt;digoe&gt; irakurri behar izatea. EKCaren arabera, xix. mendera arte (agirre asteasukoaren eta Klaudio otaegi zegamarraren testuetan) ez da beste dige-rik agertzen, baina, ikusi dugunez, LD-n ere bada.</figDesc><table><row><cell>2.2</cell></row></table><note>8 Baita ekialderago ere (ikus 1. eranskineko 14-15 adibideak).910 Diago erako adizkiek sortutako harriduraren eta nahasmenduaren beste erakusgarri bat dugu Fi- del altunak adizki honezaz dioena: «adiera berekoa da halaber, hutsa ez bada, erantzun honetan bertan beherago den diaguenac 'dienak'» (altuna 1995: 640, 118. oin-oh.; letra beltza nirea da [BaL]).11 Bildutako aldaera guztiak hobeto kokatzeko, ikus 1. eta 2. eranskinak.https://doi.org/10.1387/asju.23057</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>3. eranskina. Lekukotasun modernoak (Bähr 1927-1928; Irizar 1991, 1992; Euskaltzaindia 2014)</head><label></label><figDesc>). 1-18. https://doi.org/10.1387/asju.23317. ariztimuño, Borja. 2021a. Lazarragaren eskuizkribuko &lt;nagon&gt; adizkia: grafia-kontu bat baino gehiago. Uztaro 118. 81-92. ariztimuño, Borja. 2021b. Garibairen errefrauetako diago: euskara, zakurrak, eta ustekabeko beste etimologia batzuk. FLV 131. 47-59. https://doi.org/10.35462/flv131.2. azpiazu, jose antonio. 1988. palabras y textos vascos antiguos. Eusko Ikaskuntza: Hizkuntza eta Literatura 7. 7-14. Bähr, Gerhard. 1927-28. estudio sobre el verbo guipuzcoano. RIEV 17 eta hh. Bilbao, Gidor, ricardo Gómez, joseba a. Lakarra, julen manterola, Céline mounole &amp; Blanca urgell. 2020. Lazarraga eskuizkribuaren edizioa eta azterketa, 2 lib. Bilbo: upV/eHu. Bonaparte, Louis-Lucien. 1869. Le verbe basque en tableaux (Berrargit. faksim. Opera omnia vasconice, 1. lib., 221-242. Bilbo: euskaltzaindia, 1991). Dodgson, edward Spencer. 1913. an analytical and quotational index to the 353 forms of the verb which occur in the catechism of j. ochoa de arin. Hermathena 17(39). 219-243. euskal Herriko unibertsitatea (upV/eHu). d.g. Euskal Klasikoen Corpusa (EKC). http:// www.ehu.eus/ehg/kc/ (2020/12/07). euskaltzaindia. 2014. Euskal Herri Hizkeren Atlasa [EHHA], 4. lib. Bilbo: euskaltzaindia. irizar, pedro. 1991. Morfología del verbo auxiliar guipuzcoano. Bilbo: euskaltzaindia. irizar, pedro. 1992. Morfología del verbo auxiliar vizcaino. Bilbo: euskaltzaindia. Lafon, rené. 1961. Sur les formes verbales basques qui contiennent un indice datif (Berrargit. in jean Haritschelhar &amp; piarres Charritton (arg.), Vasconiana (Iker 11), 411-420. Bilbo: euskaltzaindia, 1999). Lakarra, joseba a. 1985. Literatur gipuzkerarantz. Larramendiren azkoitiko sermoia (1737). ASJU 19(1). 235-281. Lekukotasunak aldaeraka eta testu/autoreka (kronologikoki, 1625 &lt;) Zalantza egin badaiteke ere, testuan esan bezala, nire ustez diago erakoekin batera sailkatzekoak dira sGK-ko adizkiak (41-42), erroaren aurrean e-baitute, ez di(g)o-tik abiatuta esperoko litzatekeen i-. https://doi.org/10.1387/asju.23057 3. taula -g-dun eta j-dun lekukotasunak paradigma barruan 26</figDesc><table><row><cell cols="7">2. eranskina. Lekukotasun zaharren taulak</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">1. taula</cell></row><row><cell></cell><cell cols="7">Lekukotasunak aldaeraka eta testu/autoreka (kronologikoki, &lt; 1625) 24 hari haiei</cell></row><row><cell></cell><cell>nik</cell><cell cols="5">AzkPo digot (Debs, sas, rosGut, Azks, BK DebS Laz AzpGut)</cell><cell>Sas</cell><cell>SumB</cell><cell>RosGut</cell><cell>ErrGut</cell></row><row><cell>dio-die-</cell><cell></cell><cell></cell><cell cols="2">jagot (Laz) ñagon (Laz)</cell><cell cols="2">P (P) 24</cell><cell>P</cell></row><row><cell>digo-</cell><cell></cell><cell></cell><cell cols="2">P jaot (AnzD)</cell><cell>P</cell><cell></cell><cell>P</cell><cell>P</cell><cell>P</cell></row><row><cell>dige-</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>?</cell></row><row><cell>diago-</cell><cell></cell><cell>P</cell><cell cols="2">zegoat (sGK)</cell><cell></cell><cell></cell><cell>P</cell></row><row><cell>diage-</cell><cell cols="2">hark</cell><cell cols="4">digo (sas, sumB, ElgB, OA, Azks)</cell><cell>P dige (sumB?, LD)</cell></row><row><cell>jago-</cell><cell></cell><cell></cell><cell cols="4">P çigon (rosGut), cigon (OA, Azks)</cell></row><row><cell>jage-</cell><cell></cell><cell></cell><cell cols="3">diago (sumB, OA)</cell><cell></cell><cell>diage (sumB, LD)</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">jago (Laz)</cell><cell></cell><cell></cell><cell>jage (AmilD), jae (AnzD)</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">jao (AnzD)</cell><cell></cell><cell></cell></row><row><cell></cell><cell>guk</cell><cell></cell><cell></cell><cell></cell><cell cols="2">2. taula</cell><cell>jaegu (AnzD)</cell></row><row><cell></cell><cell cols="5">zu(e)k digoçu (sas), digozue (Azks)</cell><cell></cell></row><row><cell></cell><cell></cell><cell cols="3">AmilD jaozu (AnzD) ElgB</cell><cell>SGK</cell><cell>OA</cell><cell>AzkS</cell><cell>AzpGut</cell><cell>LD</cell><cell>AnzD</cell></row><row><cell>dio-die-</cell><cell cols="2">haiek</cell><cell cols="3">digoe (BK, sumB, OA, Azks) cigoen (OA)</cell><cell>P P</cell><cell>P P</cell><cell>P</cell></row><row><cell>digo-dige-</cell><cell></cell><cell></cell><cell cols="2">P jagoe (AmilD)</cell><cell></cell><cell>P</cell><cell>P</cell><cell>P</cell><cell>P</cell></row><row><cell>diago-diage-</cell><cell></cell><cell></cell><cell cols="2">zegoe (sGK)</cell><cell>P 25</cell><cell>P</cell><cell>P</cell></row><row><cell>jago-</cell><cell></cell><cell>P</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>P</cell></row><row><cell>jage-</cell><cell></cell><cell>P</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>P</cell></row><row><cell></cell><cell cols="2">i) Oñati</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>ii) Bergara-Antzuola</cell></row><row><cell></cell><cell cols="3">Orainaldia</cell><cell>3sg dat</cell><cell></cell><cell></cell><cell>Orainaldia</cell><cell>3sg dat</cell></row><row><cell></cell><cell cols="2">1sg erg</cell><cell></cell><cell>xa(o)t</cell><cell></cell><cell></cell><cell>1sg erg</cell><cell>jat</cell></row><row><cell></cell><cell cols="2">2sg (hi) erg</cell><cell></cell><cell cols="2">xa(o)k, xa(o)n</cell><cell></cell><cell>2sg (zu) erg</cell><cell>jatzu</cell></row><row><cell></cell><cell cols="3">2sg (zu) erg</cell><cell>xatzu</cell><cell></cell><cell></cell><cell>3sg erg</cell><cell>ja(o)</cell></row><row><cell></cell><cell cols="2">3sg erg</cell><cell></cell><cell>xao</cell><cell></cell><cell></cell><cell>1pl erg</cell><cell>jau</cell></row><row><cell></cell><cell cols="2">1pl erg</cell><cell></cell><cell>xau(gu)</cell><cell></cell><cell></cell><cell>2pl erg</cell><cell>jatzue</cell></row><row><cell></cell><cell cols="2">2pl erg</cell><cell></cell><cell>xatzue</cell><cell></cell><cell></cell><cell>3pl erg</cell><cell>jaue</cell></row><row><cell></cell><cell cols="2">3pl erg</cell><cell></cell><cell>xaue</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>ASJU, 2020, 54 (1-2), 265-278</cell></row></table><note>24 'Eman' adierako aditz trinko gisa.25</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">Hona hemen pasarte osoa, non bidenabar ikus baitaiteke objektu pluralarekiko komunztadurarik eza aztergai dugun adizkian:</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6">Honela dio ikertzaile ingelesak: «Diagola 59, is possibly meant for dagoala without dative or accusative, leaving these to be understood from escatcen»(Dodgson 1913: 243).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12">Kontuan hartu behar da dio inoiz orokorra zatekeela eta han-hemenka kontsonante epentetikoa garatu bide zuela; bereziki arestian aipatu Gipuzkoako alderdian, baina baita handik kanpo ere, rosGut testuak erakusten duen bezala (ikus 1. eranskineko [14-15] adibideak).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="18">Lakarrak ezagun-en etimologian proposatzen duenaren antzera: ezagun &lt; eza.un &lt; *ezadun &lt; *e-da-zun(Lakarra 2008b: 330, 87. oin-oh.; Lakarra, manterola &amp; Segurola 2019: 206-207, s.v. ezagun). eta cf., agian, Damaso intzak Dorraon entzundakotzat jasotako egon 'ukan' &lt; *edun (apud mitxelena 1958: 229).19  Halaber, berrikusle anonimoetako batek adierazi didan moduan, adizki laguntzaileok zuzenean *jadun edo *jagun aditz zahar batetik gramatikalizatu balira, testu zaharretan haren erabilera trinkoren bat agertzea espero genezakeen, gainerako hiru laguntzaile ditrantsitibo zaharragoen kasuan bezala (*edutsi, *enin, *eradun; cf. mounole 2015).20  Berrikusle anonimoetako batek markatu bezala, testuek erakusten duten hedadurak berrikuntzaren sorburua Gasteiz izan zela pentsaraz dezake. 21 ikus orain ale honetako ariztimuño(2020 [2022]) lana.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="22">Eranskin honetan -g-kontsonante epentetikoa duten 1625 arteko lekukotasun guztiak bildu ditut; bai -i(n)-errokoak, bai *edun erroko datibodunak (*jadun). Horiez gain, orain arte bildu gabe egon direnez eta haien berezitasuna dela-eta, 1625etik aurrerako *jadun-en adizkiak ere jaso ditut jarraian.Bestalde, lan honetan ez dut Garibairen diago aipatu, litekeena delako beste erro batetikoa izatea (ikus Ariztimuño 2021b).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="23"> Arejitak eta Alberdik (1985: 24)  &lt;guztiai&gt; transkribatu zuten lectio facilior eginez, ziurrenik jagoe adizkia izan-en datibodun formatzat edukitzeak hartaraturik (cf.Zuazo 2012: 126; Aldai 2013:  22). Hala ere, faksimilean argi ikusten da bestela ere testuinguruak eskatzen duen ergatiboko &lt;c&gt;-a (ik. Ariztimuño 2021a: 91).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="26">�igo erakoen kasuan, 1625 arteko guztiak eta, ondoren, diago erakoak ere badituzten testuetan agertzen direnak baino ez ditut jaso.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="27">Hau da Lazarragaren ñagon adizkitik gertuen dagoen lekukotasun modernoa.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>(1) Guztioec digoe borondatez seguicen <ref type="bibr">(BK,</ref><ref type="bibr">3)</ref> (2) Abbade guztiac daode procisioan / Mila bendicio egozten digoela <ref type="bibr">(BK,</ref><ref type="bibr">1)</ref> (3) he[n]y eun ecj egina <ref type="bibr">[ga]</ref> </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.23057</idno>
+		<ptr target="https://doi.org/10.1387/asju.23057" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Aitzineuskararen gramatikarantz: malkar eta osinetan zehar</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<idno>451-490. Bilbo: UPV/EHU</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Gramatika jaietan. Patxi Goeneagaren omenez</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">51</biblScope>
+		</imprint>
+	</monogr>
+	<note>Xabier Artiagoitia &amp; Joseba Andoni Lakarra</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Temas para un prólogo: Forma canónica, tipología holística diacrónica y reconstrucción del protovasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oihenart</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="277" to="347" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Euskal Hiztegi Historiko-Etimologikoa (EHHE-200). Bilbo: Euskaltzaindia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note>Julen Manterola &amp; Iñaki segurola</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">El impossible vencido: arte de la lengua bascongada. salamanca</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Manuel</forename><surname>Larramendi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1729" />
+			<publisher>Antonio Joseph Villargordo Alcaráz</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">1745. �iccionario trilingüe del castellano, bascuence y latin. Donostia: Bartholome riesgo y Montero</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Manuel</forename><surname>Larramendi</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Gabon-kantak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Manuel</forename><surname>Lekuona</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1954" />
+		</imprint>
+	</monogr>
+	<note>Egan 5-6. 9-44</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Azpiazu &amp; Jerardo Elortza. 2009. xviii. eta xix. mendeetako Azpeitiko euskal testu batzuk</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juan</forename><surname>Madariaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jose</forename><surname>Antonio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FLV</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="5" to="45" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<title level="m">Nota sobre algunos pasajes de los Refranes y Sentencias de 1596 (Berrargit. in Joseba A. Lakarra &amp; Iñigo ruiz Arzalluz (arg.), Luis Michelena. Obras completas Xi</title>
+		<imprint>
+			<date type="published" when="1954" />
+			<biblScope unit="page" from="131" to="139" />
+		</imprint>
+	</monogr>
+	<note>Donostia &amp; Gasteiz: Gipuzkoako Foru Aldundia &amp; UPV/EHU</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<title level="m">Introducción (Berrargit. in Joseba A. Lakarra &amp; Iñigo ruiz Arzalluz (arg.), Luis Michelena. Obras completas Xii</title>
+		<imprint>
+			<date type="published" when="1958" />
+			<biblScope unit="page" from="202" to="232" />
+		</imprint>
+	</monogr>
+	<note>ASJUren Gehigarriak 55</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><surname>Donostia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gasteiz</surname></persName>
+		</author>
+		<title level="m">Gipuzkoako Foru Aldundia &amp; UPV/EHU</title>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Datibo-komunztaduraz eta laguntzaile hirupertsonalen diakroniaz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Céline</forename><surname>Mounole</surname></persName>
+		</author>
+		<idno>473-490. Bilbo: UPV/EHU</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Beatriz Fernández &amp; Pello salaburu (arg.), ibon Sarasola, Gorazarre. Homenatge, Homenaje</title>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Otxoa-Arinen &apos;Doctrina&apos; -(1713). FLV 12</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Josu</forename><surname>Oregi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1972" />
+			<biblScope unit="page" from="353" to="370" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Ene laztan gozo ederra</title>
+		<idno>Ander. 2020</idno>
+		<ptr target="http://oinati.gi-puzkoakultura.net/eu/kontserbaturiko-dokumentuak/26/219.html(2020/12/07" />
+	</analytic>
+	<monogr>
+		<title level="m">Filologia azterketa</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Contribución al estudio y edición de textos antiguos vascos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ibon</forename><surname>Sarasola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="69" to="212" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">In Euskaltzaindia (arg.), Piarres Laffiteri omenaldia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jose</forename><surname>Satrustegi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Maria</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bilbo: Euskaltzaindia. satrustegi, Jose Maria. 1987. Euskal testu zaharrak (Euskararen Lekukoak 13). Iruñea: Euskaltzaindia</title>
+		<imprint>
+			<date type="published" when="1983" />
+			<biblScope unit="page" from="571" to="581" />
+		</imprint>
+	</monogr>
+	<note>Lasarteko bertso paper zahar bat (1716)</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Euskerazko doktrinia Anzuelako berba moduan (1825)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Oxel</forename><surname>Uribe-Etxebarria</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="139" to="209" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Un texto olvidado del siglo xvii</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patri</forename><surname>Urkizu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>Sumario Brebea... (Azkoitia, 1614</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Revista de lenguas y literaturas catalana, gallega y vasca 14</title>
+		<idno type="DOI">10.5944/rllcgv.vol.14.2009.5949</idno>
+		<ptr target="https://doi.org/10.5944/rllcgv.vol.14.2009.5949" />
+		<imprint>
+			<biblScope unit="page" from="207" to="217" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Arabako euskara. Donostia: Elkar</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Zuazo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Egun ascotan nic eguin ñagon / modu ascotan erregua (Laz, A21:5) (22) çaguita çorroz bat ifini ñagon / berar gaxtoaz ganchitua</title>
+		<idno type="DOI">10.1387/asju.23057(20)itaunduñagonporidadean/bestedonzellabateri</idno>
+		<ptr target="28)ezgueiagoezjagotjoco/contereagazatea" />
+	</analytic>
+	<monogr>
+		<title level="m">Erançun ñagon: «Ni noçun guero (...) (Laz, B21:97) (25) inori emun bajagot bere, / ez nago damu jaquinic (Laz, A23:59) (26) Jaun Cerucoay emaiten jagot / oy asco gueraciaric (Laz, A23:1) (27) Gabetan barriz ez jagot joco / laztanai biguelea</title>
+		<meeting><address><addrLine>Laz, A7; Laz, A21; Laz, A21; Laz, A24; Laz, A24</addrLine></address></meeting>
+		<imprint>
+			<biblScope unit="page">23</biblScope>
+		</imprint>
+	</monogr>
+	<note>) bere cençuna ifini ñagon / promesa ascoz pobladu</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A27a:39) (30) Semeric badeu esaten jago: / «Aita, eguidac jaquea» (Laz, A24:99) 1625 &lt; (31) edo gaubean bere aldera artuaz, escatzen diagola Jaungoicoari aldeban humildaderic andienaz</title>
+	</analytic>
+	<monogr>
+		<title level="m">Juramentu eguiten jagot / obian daçan amari</title>
+		<meeting><address><addrLine>Laz</addrLine></address></meeting>
+		<imprint>
+			<publisher>OA</publisher>
+			<biblScope unit="page">132</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Ceiñec onrracen ditu aita eta ama? r. Obedecicen diguenac, eta nesesidadean socorricen dituanac, eta bear dan reverencia ecarten diaguenac</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename></persName>
+		</author>
+		<imprint>
+			<publisher>LD</publisher>
+			<biblScope unit="page">22</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">cegati da glorificadorea. r. cerren vere gracian ilten diranai emoten jaguen gloria</title>
+		<imprint>
+			<publisher>AmilD</publisher>
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">23 aurpegui modubat ecusico jagoe. r. ez jauna viciaq aleguerea ta ilac aserrea</title>
+		<imprint>
+			<pubPlace>AmilD, 6</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Escritura sagraduan daguana eta Jaungoicuac Eliziari rebeladu jaon guztian</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jauna</forename><surname>Bai</surname></persName>
+		</author>
+		<imprint>
+			<publisher>AnzD</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Cer oracino esaten jaozu principalmente Maria Santisimari?</title>
+		<imprint>
+			<publisher>AnzD</publisher>
+			<biblScope unit="page">21</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Eguin biar jaegu oracino Santuay ere?</title>
+		<imprint>
+			<publisher>AnzD</publisher>
+			<biblScope unit="page">22</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+				<title level="m">Ceiñec honratzen ditu gurasuac? -Obedecitzen jaenac, socorritzen dituanac eta reverenciatzen dituanac</title>
+		<imprint>
+			<publisher>AnzD</publisher>
+			<biblScope unit="page">24</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">]</forename><surname>Ba[y</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Jauna</surname></persName>
+		</author>
+		<title level="m">confesorec billatuco jao erremediua (AnzD, 32v) -eg-(&lt; -(e)ag-?) (41) ardiaz kontu dadukala / esan zegoat Gatxi&apos;ri (sGK</title>
+		<imprint>
+			<biblScope unit="page">16</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Bere aldean omen-zeatuk / astoarekin idia; / oetxek biok jango zegoe / oeko lasto guztia (sGK</title>
+		<imprint>
+			<biblScope unit="page">35</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

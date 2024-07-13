@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Perpaus erlatiboen balio semantikoa euskal gramatika-azterlanetan Semantic value of relative clauses in Basque grammatical studies</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Biguri</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universidad del País Vasco/Euskal Herriko Unibertsitatea (UPV/EHU)</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Perpaus erlatiboen balio semantikoa euskal gramatika-azterlanetan Semantic value of relative clauses in Basque grammatical studies</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="volume">2020</biblScope>
+							<biblScope unit="issue">1-2</biblScope>
+							<biblScope unit="page" from="225" to="250"/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:41+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This article analyzes the descriptions made in the Basque grammatical studies on the semantic value of the relative clauses (RC). In these studies, more attention has been paid to the mechanisms and rules of the relative, with special attention to the cases that may be easier relativized, than to the semantic classification between restrictive and nonrestrictive RC. Some studies consider that restrictive and nonrestrictive RC are also syntactically and formally differentiated, but others argue that there are no syntactic differences between them, so that the semantic value of RC can only be differentiated according to the nature of nouns modified by the relative.</p><p>This paper describes these studies and, based on examples of classical authors and others drawn from the comparison of the original modern Basque literature works with their translations into Spanish. Consequently, some of these descriptions are partial: they exclude the different types of appositive RC, by not taking into account the diachronic evolution of relativation and the influence of early 20th century purism, which had a great impact on Basque letters in the 20th century and on the literature of the 21st century. KEywoRdS: nonrestrictive relative clauses, relative clauses, restrictive relative clauses, semantic value.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena: Euskal gramatika-lanetan perpaus erlatiboen (PE) balio semantikoaz egindako deskriba</head><p>penak aztertzen ditu artikuluak. Horietan, PE esplikatibo eta espezifikatiboen arteko banaketa semantikoari baino arreta gehiago eskaini zaie erlatibo arruntaren mekanismoei, bereziki aztertu delarik zein diren errazago erlatiba daitezkeen kasuak. Aldiz, arreta txikiagoa eskaini zaio banaketa semantikoari, eta gainera bibliografian desadostasun handiak daude puntu horretan: batzuek esplikatibo eta espezifikatiboak sintaktikoki eta formalki ere bereizten direla uste duten arren, beste batzuek diote haien artean alde sintaktikorik ez dagoela, eta, beraz, erlatiboaren izenaren arabera soilik bereiz daitekeela PEen balio semantikoa. Artikuluan, deskribapen horiek azaldu eta, idazle klasiko batzuen adibideetan eta zenbait euskal idazleren jatorrizkoak gaztelaniazko itzulpenekin erkatuz ateratako adibideetan oinarrituta, ondorioztatzen dugu azalpen horietako batzuk partzialak direla, bazterrean uzten dituztelako PE apositibo mota desberdinak eta ez dutelako kontuan hartzen erlatibakuntzak izan duen bilakaera diakronikoa eta, batez ere, xx. mende hasieratik aurrerako garbizaletasunaren eragina. Hitz gAkoAk: erlatiboa, erlatibo ez-murrizgarria, erlatibo murrizgarria, erlatibozko perpausak.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Euskarazko erlatiboen sailkapen semantikoaren arazoa</head><p>gaztelaniaren -eta inguruko hizkuntza indoeuroparren-erlatibo sistema eta euskarazkoa ikertzen duten azterlanak erkatzerakoan, bada perpaus erlatiboen (PE) sailkapenari dagokion alde nabarmen bat: erlatibakuntza azaltzerakoan, lehendabizikoaren gramatiketan toki handia eskaintzen zaio erlatiboaren sailkapen semantikoari, hau da, PE espezifikatiboen eta esplikatiboen arteko bereizketa tradizionalari; euskal gramatiketan eta euskarazko perpaus erlatiboei buruzko ikerlanetan, aldiz, sailkapen edo banaketa horrek askoz toki txikiagoa aurkitu ohi du, euskal erlatiboaren beste arazo batzuen aurrean.</p><p>Horrela, batez ere de <ref type="bibr">Rijken (1972)</ref> tesian -euskal erlatiboari buruzko azterketen aitzindaria-, baina baita oyharçabalen <ref type="bibr">(1987)</ref> eta <ref type="bibr">Cid-en (1994)</ref> tesietan eta EgLU-Ven ere erlatibakuntzaz egiten den azterketan, arreta handiagoa ipintzen zaie erlatibo arrunta delakoaren mekanismo edo arauei, bereziki aztertzen baita zein diren erlatiba daitezkeen kasuak, 1 eta, EgLU-Ven «erlatibatzeko eskala» deitzen dena; hau da, PEetan izen ardatzarekin batera hark duen kasu-marka ere isildurik gertatzen denez, arreta handiagoz aztertu da zein diren errazkiago erlatiba daitezkeen kasuak eta zein nekezago.</p><p>Bestalde, euskal gramatika-liburu eta -lanetan erlatiboen banaketa edo balio semantikoari arreta txikiagoa eskaintzeaz gainera, PE esplikatibo eta espezifikatiboen arteko bereizketaren arazoan desadostasun handiak daude gaia jorratu dutenen artean, baita euskal erlatiboen ezaugarri formalei (puntuazioa edo intonazioa, adibidez) dagokienez ere.</p><p>Batetik ditugu <ref type="bibr" target="#b32">Villasante (1976</ref><ref type="bibr">) -eta, harekin batera, Mitxelena-, Arejita (1978</ref><ref type="bibr">) eta goenaga (1980</ref>, zeinek bai onartzen baitute euskaraz ere semantikoki ez ezik, baita sintaktikoki edo formalki ere bereizten direla PE espezifikatiboak eta esplikatiboak, lehendabiziko sailekoei -n erlatibo deitzen ditugunak egokituz, eta bigarrenei, aldiz, EgLU-Vek zein erlatibo deitzen dituenak.</p><p>Bestetik, de Rijk eta oyharçabal ez dira iritzi berekoak, eta, haien ustez, klausula murrizgarrien eta ez-murrizgarrien arteko diferentzia sintaktikorik ez dago, erlatiboaren izen ardatzaren nolakoaren arabera bakarrik bereiz baitaitezke: hala, ardatza izen propioa, izenordain pertsonala edo erreferentzia bakarreko izen arruntak badira, PEak ez-murrizgarriak baino ezin dira izan.</p><p>Esan bezala, Villasantek eta Mitxelenak, Arejitak eta goenagak bai uste dute euskaraz ere formalki bereiz daitezkeela perpaus erlatibo murrizgarri eta ez-murrizgarriak.</p><p>Villasantek (1976: 71) euskararen eta gaztelaniaren erlatibakuntzari buruz egiten duen azterketa konparatuan gili gayak <ref type="bibr">(1973)</ref> gaztelaniarentzat egiten duen sailkapen bikoitz ohikotik abiatzen da, argi utziz -n erlatiboari buruz ematen duen deskribapena PE espezifikatiboei dagokiela:</p><p>En vasco (fuera del caso en que se recurre al anafórico zein) estas explicativas no tienen nada que ver con las auténticas oraciones adjetivas. Estudiaremos la construc-ción de estas explicativas al tratar de las Causales y Consecutivas y asimismo al tratar del prefijo bait-. Aquí nos limitamos, pues, a las especificativas. geroago, zein/non erlatiboari buruzko atalean, aditzera ematen du ezen prozedura honek «vale únicamente para las adjetivas explicativas, o sea, para las no restrictivas» <ref type="bibr">(Villasante 1976: 87)</ref>.</p><p>Mitxelenak ere antzeko iritzia zuela erakusten du <ref type="bibr">Villasantek (1976: 213)</ref>, orripeko ohar batean zehazki; bertan, bait-aurrizkiaz mintzatuz, Mitxelenak aditzera ematen du aurrizki horrek PE ez-murrizgarriak egiteko funtzionatzen duela: «lo que está claro es que introduce relativas no restrictivas, como dicen en inglés»; eta horren adibide gisa, erdarazko Los hombres, que venían cansados, entraron en casa esaldia honela ematen du euskaraz: gizonak, nekatuak baitzetozen, etxean sartu ziren. Beraz, nolabait iradokitzen du -n erlatiboak balio soilik murrizgarria duela (Los hombres que venían cansados (y solo ellos) entraron en casa adibidea ipintzen du, aurrekoarekin kontrajarrita, baina ez du espresuki ematen azken honen euskarazko itzulpena).</p><p>bait erlatiboaren kasuan, ordea, ez dirudi gauzak hala direnik, ez behintzat lafitteren (1944: 406) gramatikak dakarren adibide ezagunaren argitan (gizon bat ikusi dut, ez baitzuen ilhe ondorik ere = J'ai vu un homme qui n'avait pas un seul cheveu), edo de <ref type="bibr">Rijkek (1980: 532)</ref> jasotzen dituen leizarragaren adibideak ikusita; Hidalgok (2003: 50-52) ere konklusio berbera ateratzen du <ref type="bibr" target="#b6">Camino (1997)</ref> eta <ref type="bibr">Estornésen (1985)</ref> lanetako adibideetan oinarrituta: «[...] bait-erlatiboen kasuan ere ezin liteke esan predikatu hauek soilik erlatibo ez-murriztaileak osatzeko erabiltzen direnik». <ref type="bibr">Arejitak (1978: 133)</ref> ere aipatzen du zein/non erlatiboa «euskal idazle klasikoek esplikatibo edo ez-murrizgarriak egiteko» erabili dutela, bide batez erantsiz ahozko euskaran ez dela erabiltzen.</p><p>goenagak <ref type="bibr">(1980: 293-294</ref>) ere modu berean sailkatzen ditu euskararen bi erlatibo mota horiek, honela definitzen dituelarik erlatibo murrizgarriak: orain arte aztertu ditugun erlatiboak erlatibo murrizgarriak edo restriktiboak deitzen ditugu. Izan ere, nik honako hau esaten badut: Etorri ziren lagunek galdera bat egin ziguten, lagunek osatzen duten multzotik etorri zirenen azpimultzoa hartu dut kontutan. Hortaz, ez naiz lagun guztiez ari, etorri zirenez bakarrik baizik. Horregatik, era honetako erlatiboak mugaketa bat, murrizte bat egiten dutenez, erlatibo murrizgarriak deitzen ditugu.</p><p>Bestalde, zein/non erlatiboa ez-murrizgarritzat jotzen du, bidenabar esanez «forma hauek ez dutela oso fama ederra, baina agian erabilgarriak» direla eta idazle zaharrengan oso normalak zirela: galdetzaileaz baliatuz sortzen ditugun erlatibo berezi hauek erlatibo ez-restriktiboak edo ez-murrizgarriak deitzen ditugu. Ez dute mugaketarik egiten. Egiten dutena hau da: aurreko izen sintagmari buruzko informazioa nolabait gehitu, esplikatu.</p><p>Bestalde, espresuki ez bada ere, nolabait aditzera ematen du zein den bi PE motak formalki bereizteko modua: batetik, esplikatiboek eten bat tartekatzen dutela, eta, bestetik, ISaren eskuinetara joaten direla; hartara, beheko (1) perpausaz dio erlatiboa koma artean doala eta izen ardatzari buruzko xehetasun batzuk ematen dizkigula, perpaus koordinatu batekin nolabait parekatuz: «Perpausak esaten diguna hau da: Piramideetan agertzen dela hori eta Piramideak Faraonek egin zituela». 2 (1) Piramidetan, zein eragin baitzituen Faraonek, agertzen da hori Aldiz, (2) esaldia murrizgarria dela dio, komarik ez dagoelako eta ISaren ezkerretara doalako, esanez «Piramideen multzotik Faraonek eragin zituenak bakarrik» hartzen direla hemen kontuan.</p><p>(2) Faraonek eragin zituen Piramidetan agertzen da hori Alabaina, zein/non erlatiboaren bereizketa formalari dagokionez, eta puntuazioari goazkiolarik zehazki, ez dirudi goenagak dioen bezain argi daudenik gauzak, ez behintzat euskal idazle klasikoei begiratzen badiegu. 3 EgLU-Ven ikus daitekeen bezala, euskal tradizio literarioan, koma duten zein/non erlatibo ez-murrizgarriekin batera komarik ez dutenak ere aurkitzen dira maiz:</p><p>(  <ref type="bibr">Alberdi &amp; garcíak (1996)</ref>, bai eta Euskaltzaindiaren Euskal gramatikak (EgLU-V) eta Cid (SEg)-ek 4 ere, ez dute ikusten horrelako oposizio sintaktikorik euskaraz; hauen arabera, euskaraz ere badago oposizio semantiko hori, baina berau ez da forma-desberdintasun sintaktiko garbi batean islatzen, ez erlatibo arruntean ez eta zein/non erlatiboan ere.</p><p>Horrela, -n erlatiboari dagokionez, bi balioak dituela diote autore horiek; hau da, -n erlatiboa perpaus murrizgarriak eta ez-murrizgarriak egiteko erabil daitekeela. de <ref type="bibr">Rijk (1972: 154)</ref> izan zen jarrera hau defendatu zuen lehena, baina izen propioetara mugatuz, nahiz eta bere tesian, egia esanda, apenas ematen zaion lekurik euskarazko PEen balio semantikoari, eta esaten den ia bakarra da euskaraz erlatibo «espezifikatibo» eta «apositibo»-en artean inolako desberdintasun sintaktikorik ez duela aurkitu: what about the distinction between restrictive and apositive relative clauses, so important in the grammar of English and other Indo-European languages? I can be quite brief here: I am unaware of any syntactic differences in Basque between these two types of relative clauses [...] In Basque, like everywhere else, a relative clause that modifies a noun phrase with an underlying (i.e. deictic) demonstrative element must be non-restrictive. when certain quantifiers, like guzti 'all' and bakoitz 'each' occur associated with the head noun phrase, the relative clause can only be restrictive. Apart from this, however, my investigations have failed to show any differences in syntactic behavior between the two. In particular, there is no difference in intonation between restrictive and apositive relative clauses in Basque.</p><p>Baieztapen hori sostengatzeko, ordea, argudio bakarra eskaintzen du: euskaraz posible dela -n erlatibo arrunta izen propio bati itsastea, inguruko hizkuntzetan erlatibo esplikatiboari dagokion funtzio batekin. onartzen du hainbat gramatikatan ez dela ontzat jotzen egitura hori, adibide gisa jarriz lardizabalen (1856) gramática Vascongadako baieztapen hau: «Cuando el nombre que viene con relativa de persona que hace, es nombre propio de hombre o de muger, no se hace en Vascuence la oración por relativo, sino por otros modos equivalentes […]». <ref type="bibr">5</ref> Baina de Rijkek ez du aintzat hartzen baieztapen hori, esanez bere informatzaileetako inork ez zituela txartzat hartu (9) moduko esaldiak, eta honelakoak erabiltzen dituzten liburu batzuetatik ateratako adibide gehiago eskaintzen ditu. de <ref type="bibr">Rijken (1980: 532)</ref> artikuluan, ordea, zehaztasun garrantzitsu bat topatzen da aurrerago, haren arabera bai baitirudi -n erlatiboaren balio bikoitz hori izen propioen kasuetarako bakarrik ikusten duela, eta, esan bezala, ISan erakuslea duten izen arruntetarako soilik; eta zein/non erlatiboari, bestalde, balio ez-murrizgarria soilik egozten dio; izan ere, leizarragaren zein erlatiboaz mintzo delarik, esaten du «erlatiboa mugagabea eta ez mugatua dela adierazi nahi duenean» beti zein hitzaz baliatzen dela ondoko kasu honetan bezala:</p><p>(16) [...] emanen draucat iatera vicitzeco arboretik cein baita Iaincoaren paradisoaren erdian.</p><p>Interesgarria da baieztapen hori arrazoitzeko darabilen argudioa, hots, leizarragak -n erlatibo arrunta erabili balu, «beste zenbait tokitan ere bizitzeko arboreak daudela pentsa zitekeela, erlatiboa mugaturik bezala hartu ezkeroz» (de Rijk 1980: 532); horren arabera, erlatibo arruntak balio murrizgarria du bigarren adibide honetan. Bide batez, artikulugileak zein erlatiboaz ematen duen interpretazioa ez da hain segurua: Bibliako pasarte horren gaztelaniazko bertsioetara joz gero, koma-etenarekin eta etenik gabe ikusiko ditugu itzulpen desberdin ugari, eta euskarazko itzulpen modernoetan, erlatibo klasiko honen arbuioarekin jarraituz, erlatibo arrunta topatzen dugu. <ref type="bibr">6</ref> Adibide horiekin de Rijkek aurre egin zien bere tesiko baieztapena zalantzan jartzen zutenei. goenagak (1980: 294), adibidez, uste du era honetako PEak ezin zaizkiola «izen berezi bati erantsi izen hau nolabait arrunt bihurtu gabe» ez eta izenordain pertsonal bati ere, eta horregatik txarrestekoa dela (17) esaldia:</p><p>(17) nik hain ongi ezagutzen zaitudan zu hemen ari zara nire kontra. goenagak ez du eskaintzen arrunt bihurtutako izen propio batez osaturiko perpausen adibiderik, baina pentsa liteke izen propioaren ondoko aposizioan izen arrunt edo izenondoren bat duten kasuez ari dela. Horixe dateke, hain zuzen, EgLU-Vek dakarren (18) adibidea, zeina jartzen baita gramatika horretan adibide gisa -n erlatiboak balio ez-murrizgarria ere baduela frogatzeko:</p><p>(18) Aspaldi ezagutzen duzun Maddi nire arrebak esango dizu hori. garziak (1997: 396-397) ere agramatikaltzat jotzen du -n erlatiboak izen propio soil bati lotzea, eta, hartara, desegokia deritzo (19) esaldiari.</p><p>(19) Euskararen alde hainbeste lan egin zuen Mitxelenari omenaldia egingo diote bihar bere herrian.</p><p>goenagak iradoki bezala, haren iritziz ere izen propioak aposizioan izen arrunt edo adjektibo bat daramanean bakarrik dira onargarriak horrelako perpausak, honako honetan bezala:</p><p>(20) Euskararen alde hainbeste lan egin zuen Mitxelena euskalari gogoratuari omenaldia egingo diote bihar bere herrian.</p><p>nire ustez, hori berrestera dator <ref type="bibr" target="#b23">Krajewska (2017)</ref>, bere tesian erlatiboei buruzko lanerako osatu zuen xix. mendera arteko corpusarekin, nahiz berak kontrako iritzia erakutsi. 7 Izan ere, Krajewskak ontzat jotzen duen arren erlatibo ez-murrizgarrietan izan propioak izan daitezkeela ardatz, bere corpusean agertzen diren Izen Aurreko erlatiboa daramaten izen propioen adibideen artean, behin bakarrik ageri da izen propioa soilik (Belapeyreren katexima), eta beste hiru adibidetan izen propioa izen arrunt aposatu batekin ageri da; bide batez, hiru adibideak autore berberarenak dira: Joanes Haranburu, Debozino escuarra <ref type="formula">(1635)</ref> [-n erlatiboa + izen propioa] egitura horrekin jarraituz, egia da erabiltzen dela gaur egun euskaraz, erruz erabili ere, euskarazko ahozko hedabideetan bereziki; baita euskal literatura garaikidean ere, baina ezin esan daiteke erabilera oso hedatua duenik, nire aurreko lan batean <ref type="bibr" target="#b5">(Biguri, 2016)</ref> landutako corpusetik ondoriozta daitekeen bezala: izan ere, corpus horretan, kanonikotzat jo genitzakeen hamar euskal idazleren hamar eleberritan, zazpi aldiz bakarrik agertzen zen prozedura hori, corpuseko hamar liburuetatik hirutan soilik, 8 eta, gainera, gehienak eleberri bakarrean. <ref type="bibr">9</ref> Egia da, orobat, EgLU-Vek onargarritzat jotzen duela erlatibozko sintagmen ardatzetan «izen bereziak» ere agertzea, nahiz ematen duen adibidean izen propioa ez den soil-soilik agertzen, adjektibo batez eta erakusle batez lagunduta baizik (orok miresten dugun Axular handi hark bazioen…), eta beharbada bi osagai horietan dago gakoa. Baina, Krajewskak euskal idazle klasikoen erlatiboekin egindako corpusak erakusten digu oso erabilera mugatua duela, klasiko gehienek zein erlatiboa erabiltzen baitzuten askoz maizago horrelako kasuetarako. Haren corpusean, gutxienez 77 kasutan agertzen da izen propioa + zein erlatiboa egitura, zeinak argi eta garbi frogatzen baitu erlatibo mota hau hobesten zutela euskal idazle klasikoek izen propioei itsasteko.</p><p>Izan ere, ez litzateke ahaztu behar xx. mendeko garbizaletasunak indar handiz gaitzetsi zuela zein erlatiboen erabilera, eta, nire ustez, horrek ekarri du, neurri handi batean, [-n erlatiboa + izen propioa] egituraren hedapen modernoa. Esanguratsua izan liteke Biguriren corpusean (2016) egitura hori erabiltzen duten hiru idazle garaikideetatik bi corpus horretan bildu diren bi idazle belaunaldietatik gazteenekoak izatea; horrek, beharbada, bide ematen du hipotesi bezala pentsatzeko egitura horrek garai oso berrietan hartu duela are indar handiagoa; nolanahi, hipotesi hori baieztatu edo ezeztatzeko, azterketa sakonagoa egin beharko da.</p><p>Bestalde, nire lan horretako emaitzen barruko puntu berean jasotako datuen arabera, ardatz bezala izen propio bat (edo izen propioa + aposatutako izen arrunta) duen -n erlatiboaren erabileraz denaz bezainbatean, badirudi arrazoi aski dagoela ondorioztatzeko euskal idazleek egitura hori gehiago erabiltzeko joera izaten dutela izen ardatz horrek absolutiboa ez beste kasu-atzizki bat daramanean; 10 eta, aldiz, erlatibozko aposizioa gehiago erabiltzeko joera izaten dutela ardatza den ISa absolutiboan doanean. <ref type="bibr">11</ref>  Izan ere, gaztelaniazko erlatibo esplikatiboaren antzera izen sintagma baten eskuineranzko adarkadura edo hedapena egin nahi denean, zein/non erlatiboa erabili nahi ez bada, erlatibozko aposizioaren bidea besterik ez da geratzen, edo beste egitura sintaktiko batzuk, kausazko perpausak adibidez, besteak beste, hauek klausula erlatibo esplikatiboen antz handia baitute formalki eta, askotan, semantikoki ere. Baina erlatibozko aposizioaren kasuan ere, nik aztertutako corpuseko idazleek absolutiboan dauden ISekin erabiltzen dute batez ere, aposizio kasu guztietatik % 82,3an, hain zuzen; oso gutxi erabiltzen dute egitura apositiboa ISak absolutiboa ez beste kasuatzizki bat daramanean.</p><p>Puntu horri buruzko eztabaida alde batera utzita, esan beharra dago de Rijken (1972) azterketa -n erlatibora mugatuta dagoela eta ez duela PE espezifikatibo eta esplikatiboen arteko bereizketan gehiago sakontzen, aipatu dugun baieztapenaz landa.</p><p>oyharçabalek <ref type="bibr">(1987: 192)</ref> de Rijken baieztapena onartu ez ezik, azterketa sakonagoa ere egin zuen bere tesian. Haren arabera, Il est évident qu'en basque, comme en français, il est possible de distinguer entre les deux types de relatives, mais il n'en résulte pas que chaque type renvoie à un marqueur spécifique, et plus généralement, à des descriptions structurales différentes. <ref type="bibr" target="#b17">Henry (1975)</ref>, <ref type="bibr" target="#b14">Fuchs &amp; Milner (1979)</ref> eta le goffic (1979) ikertzaile frantsesei jarraituz, oyharçabalek <ref type="bibr">(1987: 197)</ref> bi erlatibo moten arteko bereizketa tradizionala zalantzan jarri eta aditzera ematen du euskaraz bereizketa hori ezin dela egin, ez behintzat egitura edo sintaxi mailan. Bereziki interesgarria da euskararen eta ingeles, frantses eta gaztelaniaren erlatibakuntza-sistema konparatuz dioena:</p><p>Il faut ensuite définir comment le basque rend ce qui correspondrait dans une langue comme l'anglais, le français ou l'espagnol, à chacun des deux types. En effet, il pourrait se produire simplement que par exemple tel type de relative de ces langues ne soit pas rendu par une construction relative.</p><p>lafittek (1944: 896. zkia.) bere gramatikan egin zuen beste baieztapen ezagunaren ildo beretik doa: le basque ne se prête pas beaucoup à la traduction des phrases françaises pleines de propositions relatives. Il vaut mieux renoncer à rendre littéralement de pareils textes et se décider à les transposer selon une autre syntaxe. nire ustez, baieztapen horietan arazoa da euskararen pertsonifikazio bat (le basque rend, le basque ne se prête pas) egiten dela, gure hizkuntzari buruzko irudi sinkroniko eta geldia emanez, ontzat emandako ideologia garbizalean oinarriturik, argi baitago euskal idazle klasiko gehienek arazorik ez zutela hizkuntza horietako PEak egitura erlatiboekin euskaratzeko.</p><p>zein/non erlatiboari gagozkiolarik ere, <ref type="bibr">Alberdik &amp; garcíak (1996: 260)</ref>, EgLU-Vn bezala, ontzat ematen dute oyharçabalen iritzia: «euskaraz sintaxi-mailan ez dago horrelako bereizketarik egiterik», hots, erlatibo hau zentzu murrizgarriarekin eta ez-murrizgarriarekin erabili dela euskal literatura klasikoan, baina bereizketa semantiko horri ez dagokiola halako bereizketa formalik, komaren erabilera edo erabilerarik eza ez datorrelako bat erlatiboaren balio ez-murrizgarriarekin eta balio murrizgarriarekin hurrenez hurren, nahiz eta «oro har horrela egiten den» eta «egitura hau maizenik erlatibo ez-murriztailea adierazteko erabiltzen den arren».</p><p>Horixe frogatzen du Krajewskak (2017: 121) bere tesian, testurik zaharrenetatik hasiz eta xx. menderaino egindako azterketan, zehaztasun handiz frogatuz bere corpuseko zein erlatiboen % 81,7 ez-murrizgarriak direla eta % 18,3, berriz, murrizgarriak.</p><p>EgLU-Ven sakon aztertzen da euskarazko PE espezifikatibo eta esplikatiboen sailkapena -baina murrizgarriak eta ez-murrizgarriak terminoak erabiliz-, bai erlatibo arruntaren balioa aztertzen duenean, bai eta zein/non erlatiboaren balioa azaltzen duenean ere. «Balio» hitza azpimarratu nahi dut, gainera, EgLUk egiten duena ez baita berez erlatiboaren sailkapen taxonomikoa, erlatibo murrizgarriak eta ez-murrizgarriak bereiziz, ezpada -n erlatiboaren eta zein/non erlatiboaren balio edo ulerbide desberdinei buruzko aipamen hutsa. gramatika horren arabera, erlatiboaren balio murrizgarriak eta ez-murrizgarriak topa daitezke erlatibo arrunt edo -n erlatiboan bezala, baita zein/non erlatiboan ere. Hurrengo ataletan, gramatika honetan euskarazko erlatibo mota bakoitzaz egiten den deskribapena azalduko dut, nik aztertutako corpusean topatu nituen erabilera desberdinekin erkaturik.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">-n erlatiboa eta haren balio semantikoa</head><p>EgLU-Ven arabera, -n erlatiboaren balio semantiko bien arteko aldeak ez du inolako isla edo agerbide formal edo sintaktikorik; gaztelaniazko erlatiboari buruzko sailkapen ohikoan ez bezala, euskaraz formak edo sintaxiak ez dituzte bi erlatibo mota horiek bereizten, zentzuak eta izen ardatzaren erreferentzia mugatu edo ez mugatuak baizik, de Rijkek zioen bezala. Horrela, (29) perpauseko erlatiboa murrizgarria dela dio, erlatiboak IS subjektuaren erreferentzia murrizten duelako, hots, predikazioa zein gizoni dagokion zehazten duelako. EgLUren arabera, erlatibo horrek balio murrizgarria du, bai eta mugagarria ere, izen ardatz hori mugatua delako.</p><p>(29) goizean etxe aurrean zurekin mintzatu den gizonak esango zizun hori Aldiz, prozedura berberarekin egindako ondoko beste perpausak, zeinean mendekoa izen propio bati eransten zaion, zentzu ez-murrizgarria eta ez-mugagarria duke, izen propioa bera delako izen ardatzaren erreferentzia murrizten eta mugatzen duena (mugatze hori izanik izen propioen «ezaugarri nagusia»):</p><p>(30) Aspaldi ezagutzen duzun Maddi nire arrebak esango dizu hori. gaztelaniaz, noski, esplikatiboarekin itzuli behar da nahitaez: Eso te lo dirá mi hermana Maddi, a quien conoces desde hace tiempo. Bidenabar, EgLUko liburuki honetan ez da espresuki aipatzen -n erlatiboa izen propioei itsatsi ahal zaienik, eta puntu honetan euskal gramatikarien artean dagoen desadostasuna ebazteko, goiko adibide hori ez da erabat argia, izen propioa aposatutako izen arrunt bati lotuta doalako, egitura hori onargarria iruditzen zaielarik, gorago ikusi bezala, aposiziorik gabeko egituraren zuzentasuna ukatzen duten batzuei.</p><p>Hirugarrenik, PEak balio murrizgarri baina ez-mugagarria izan omen dezake, izen ardatza bera ondo mugatuta ez dagoenean, honako kasuan bezala, zeinean artikulu zehaztugabea erabiltzen baita:</p><p>(31) Etorri ziren aspaldi ezagutzen nituen lagun batzuk.</p><p>Azken kasu batean, eta hemen EgLUk pauso bat gehiago ematen du de Rijken teoriak baino, erlatibo ez-murrizgarria izen propio bati ez, baizik substantibo arrunt bati ere erantsia ager daiteke, substantibo horrek «balio generikoa» badu:</p><p>(32) zuk ongi ezagutzen dituzun euskal liburu zaharrak irakurri behar nituzke.</p><p>EgLUren arabera, perpaus horrek bi ulerbide izan ditzake: batean, murrizgarria, ISak ez duenean delako «balio orokor» hori eta, beraz, mendeko perpausak izen ardatza identifikatzeko funtzioa duenean (adibide honetan, esaleak aipatzen dituen liburuak zehazki solaskideak ongi ezagutzen dituen euskal liburu zaharrak soilik direnean, ez beste euskal liburu zahar batzuk); kasu honetan, gaztelaniazko itzulpena (Debería leer los viejos libros vascos que tú conoces bien) PE espezifikatiboa izango da.</p><p>Aldiz, perpaus horrek berak interpretazio ez-murrizgarria izango du izen ardatzak «balio generikoa» duenean, inolako azpimultzorik egin ezin denean, alegia. Eg LUren arabera, kasu honetan, «hiztunak dio irakurtzeko dituela euskal liburu zaharrak, hauek orokorki harturik, eta haietan bereizkuntzarik egin gabe. Esaten du, bestalde, solaslagunak ongi ezagutzen dituela obra horiek, baina xehetasun hori emanez, ez du zehazki mugatzen sail berezi bat euskal liburu zaharren artean». Hemen, gaztelaniazko itzulpenean erlatibo esplikatiboa erabili behar da: Debería leer los viejos libros vascos, que tú conoces bien.</p><p>Adibideko esaldiaren balio semantiko bikoitz hori komunikazio-ekintzan parte hartzen duten igorlearen eta hartzailearen testuinguru-jakintzan oinarritzen du, beraz, EgLUk; elkarrizketa-testuinguru batean, gainera. Eta, egia izan arren testuinguruak asko laguntzen duela komunikazio-ekintza horretako zertzeladak argitzen, arazo handiagoa izango da antzeko testuinguru argigarririk ez dagoenean, eta halakoetan, eta helburu informatiboa duten testuak direnean bereziki, nekez onartzekoak izan litezke (edo izan beharko lukete) era horretako esaldi ustez anbiguoak; hori gertatzen da, nire ustez, <ref type="bibr">Alberdik &amp; Sarasolak (2001: 208)</ref>, EgLUren deskribapena ontzat emanez, dakarten adibide batekin, zeinak, haien arabera, balio murrizgarria eta ezmurrizgarria izan baitezake aldi berean:</p><p>(33) greban dauden langileek hitzarmena sinatu dute enpresako zuzendaritzarekin.</p><p>Horrenbestez, gaztelaniaz sintaxiaren bitartez egin ohi den murrizgarria / ez-murrizgarria bereizketa ezingo litzateke egin euskaraz erlatibo arruntarekin, bestelako testuingururik ezean; albiste baten lerroburuan adibidez, hartzaileak ezingo luke ulertu esaldiaren egiazko zentzua albistearen garapenean informazio guztia jaso arte; era honetako baieztapenek, nire ustez, azterketa luze eta zabalagoa beharko lukete.</p><p>EgLUn eta beste lan teoriko batzuetan ontzat eman den erlatiboari buruzko azalpen hau gutxi gorabehera bat dator gaztelaniari buruz Aleták <ref type="bibr">(1987,</ref><ref type="bibr">1990</ref>) egiten duenarekin, eta kontraesanean sartzen da nire ustez RAEk eta beste hizkuntzalari batzuek egiten duten teorizazioarekin eta, bereziki, gaztelaniazko erlatiboaren sailkapen ohikoaren kontrako teoriei ematen dieten erantzunarekin.</p><p>Bestalde, euskal gramatikarien artean, bada behintzat -n erlatibo arruntaren ustezko balio semantiko bikoitz hori zalantzan jartzen duenik. garzia (1997: 384), adibidez, ez dago ados teoria horrekin, bere ustez egitura honek PE murrizgarri edo zehaztaileak egiteko baino ez duelako balio. Horrela, onartzen du gaur egun askotan topatzen direla holako erlatiboak (batez ere «den» forma darabiltenak izen propioari halako atribuzio bat egiteko) izen propio bati erantsita, baina okertzat hartzen ditu. «Hankasartze»-tzat jotzen du, bestalde, Axularren adibide bat erlatibo murrizgarria semantikoki interpretazio zehaztaile edo murrizgarririk onartzen ez duen izen ardatz bati eransten diona:</p><p>Kargatu zituen hanbat manamenduz, sakrifizioz eta zirimonia suertez, hekin batean khen zedin, hanbat kalteren eta damuren haste eta pitzgarri den alfertasuna. (Axular § 13) los cargó con tantos mandamientos, sacrificios y clases de ceremonias para que con todo ello se evitase la ociosidad, que es principio e incentivo de tantos perjuicios y daños.</p><p>garziaren ustez, izen ardatzeko hitz giltzarri hori amaierako posizioan uzteagatik egingo zukeen Axularrek arau-hauste hori, helburu erretorikoarekin, bestela espero izatekoa baitzen, lapurtarraren sisteman, beste forma hau: nolanahi, garziarentzat, kasu honetan interesgarriena da adibide hori besterik ez duela aurkitu gero osoan, adibide bat bakarrik, alegia.</p><p>Bestalde, ez du onartzen balio generikoa duten izenei itsatsitako erlatiboez EgLUk dioena, hots, ez-murrizgarriak direla. Haren ustez, «artikulu determinatuz osaturiko izen sintagma baten osagai diren -n erlatibo-perpausek zentzu zehaztailea dute berez» (1997: 384), baita esaldiak zentzu orokorra duenean ere, (36) adibidean bezala:</p><p>(36) Txikitan beti negarrez dabilen haurra operako kantaria izan ohi da handitzean.</p><p>Haren arabera, zehaztapena hizkuntzaren oinarrizko operazioa da eta hizkuntza guztiek garatu dituzte hori bideratzeko egiturak, eta euskarak -n erlatiboa du horretarako. Erlatibo ez-murrizgarri edo esplikatiboak, aldiz, kutsu formalagoa du eta hizkera idatzian finkatu da batez ere hizkuntza askotan, baina, nolanahi, bestelako perpaus ez-menderatuz ordezka daiteke.</p><p>Hain iritzi kontrajarriak egonik prozedura honen zuzentasunari buruz, azterketa sakona behar duen ikergaia iruditzen zait, gaur egungo euskara idatzian -bai eta ahozkoan ere-oso zabalduta baitago erabilera hori. nik aztertutako corpusa bera da horren froga, honelako egiturak sorburu-testu askotan agertzen baitira, H. Canoren liburutik ateratako binomio hau lekuko:</p><p>Bere miopiarako aski graduatuak ez ziruditen betaurreko zikinen gainetik begiratu zion medikuak.</p><p>El médico le miró por encima de sus gafas, que parecían de poca graduación para su miopía.</p><p>Esaldi honen testuinguruan, erlatiboaren ardatzak («betaurreko zikinak») ez du balio anaforikorik; lehenago aipatu ez denez, ardatza ez dago identifikatuta eta, beraz, garziaren ustez, esaldi hori oker osatuta dago; ziur aski determinatzaile zehaztugabea izan balu (bere miopiarako aski graduatuak ez ziruditen betaurreko zikin batzuen gainetik), esaldiak ez zuen arazorik izango, baina, tamalez, azkenaldian asko hazi da honelako testuinguruetan determinatzaile zehaztugabea (bat, bereziki) gaitzesten duen joera eta, nire ustez, horrek areago nahasten du honi buruz egiten den azterketa. Izan ere, euskarazko bertsioan aurrekaria ondo zehaztuta dago genitiboaren bidez, eta gaztelaniaz ere okerra izango litzateke le miró por encima de las gafas que parecían de poca graduación <ref type="bibr">[...]</ref> esatea, baina ez de unas gafas que parecían <ref type="bibr">[...]</ref>. gorago esan bezala, erlatibo arruntaren erabilera garziaren ustez oker honen zabalkundearen arrazoia ISaren kasu-markan dago, absolutiboan ez egoteagatik, horrek deseroso bihurtzen baitu jende askoren estiloan ISari atxikitako hedapen apositiboa.</p><p>Bestalde, EgLUn aipatutako «balio generiko» hori duen adibiderik ere bada nik aztertutako corpusean, Atxagaren zazpi etxe Frantzian liburuko binomio hau, esaterako:</p><p>Arrautzaren barruan pixkanaka heltzen doazen mamba sugearen kumeak bezala, <ref type="bibr">[...]</ref> Como la cría de la serpiente mamba, que no madura sino lentamente en el cascarón, <ref type="bibr">[...]</ref> Alabaina, adibide honen balio generikoa EgLUk dakarren esaldikoa baino argiagoa da, nire ustez, ez baitirudi Atxagaren esaldia irakurrita ondoriozta daitekeenik mamba sugearen kumeen multzoaren barruan azpimultzo bat egon daitekeenik ezaugarri horrekin; aldiz, EgLUko esaldiaren zentzua jakitea ezinezkoa da solaskideetako bat izan ezean eta ezagutza kontestuala eduki ezean; hau da, erlatiboaren izen ardatza zehatz mugatuta egon ezean. Har dezagun, adibidez, Canoren adibide hau:</p><p>Barkamenaz aritu ziren egun hartan. lotsaz eta erruaz. Bere burua eskultore baldar bihurtu zuen Enola gayko kopilotuaz.</p><p>Aquel día hablaron del perdón. del copiloto del Enola gay, a quien le dio por convertirse en un torpe escultor.</p><p>Hemen ere, irakurleak baduke ezagutza nahikorik jakiteko hegazkin batek kopilotu bakarra izaten duela, eta, ondorioz, izen ardatz horri lotzen zaion erlatiboak balio esplikatiboa duela, ez duela inolako zehaztapenik egiten.</p><p>Beste modu bat ere badago izen ardatza mugatzeko: erakuslearen bidez, hain zuzen. Holakoetan, nik aztertutako corpusean behintzat, beti erlatibo murrizgarriak erabiltzeko joera dago; gaztelaniaz, berriz, erlatibo murrizgarrietan eta ez-murrizgarrietan topatzen dugu erakuslea, koma edo etena egon edo ez; hori gertatzen da, adibidez, lertxundiren ondoko binomioan:</p><p>Ezin zion iruzurra beste ordainik itzuli adiskidetasun huts garbia eskaintzen zion emakume hari. no podía pagar a aquella mujer, que le ofrecía una inmaculada amistad gratuita, con otra moneda que el engaño.</p><p>Testuinguruaren arabera izen ardatzaren mugaketa berezkoa duten hitzak ere badaude, adibidez askok zalantzazkotzat joko luketen ondokoa bezalako adibideetan (Cano) ere:</p><p>Ez omen zeuden senarra berrogeita zazpi egun lehenago azken aldiz ikusi zuen amarekin erabat ados.</p><p>Al parecer, no estaban del todo de acuerdo con su madre, que había visto por última vez a su marido hacía cuarenta y siete días.</p><p>Euskarazkoan, EgLUk esango lukeen bezala, izen arrunta ondo mugatuta dago (ama hori bat baino ezin baita izan, «bere ama»), baina ziur nago euskal hiztun askorentzat esaldi hori ez dela hain ohikoa, behintzat, beren euskaran. <ref type="bibr">12</ref> Ikusi ditugun iritzi kontrajarriak ikusita, oso argigarria iruditzen zait euskal tradizio literario «zaharrera» begiratzea, erlatibo arrunta nagusiki zein balio semantikorekin erabiltzen zen jakiteko; eta hor, Krajewskak emandako datu numerikoek tarte oso txikia uzten diote zalantzari: berak proposaturiko terminologia erabiliz, euskal idazle zaharren testuetako izen aurreko -n erlatiboak % 97,8an dira murrizgarriak (2017: 61); eta nik erantsiko nuke gainerako % 2,2 horretako adibideak, ustez ez-murrizgarri direnak, ez direla hain argiak ere, gorago esandako arrazoiengatik. datu horiei jarraituz, euskal gramatika modernoetan zalantzarik gabe jaso beharko litzateke euskal tradizio literarioan erlatibo arruntak balio murrizgarri edo zehaztailearekin erabiltzen zirela, balio esplikatibo edo ez-murrizgarriarentzat zein/non erlatiboak utziz (baina ez, ordea, azken mota hau balio ez-murrizgarriarekin soilik erabiliz, ikusi den bezala), harik eta xx. mende hasierako garbizaleek bigarren prozedura hau gaitzetsi eta erabilera idatzitik ere luzarorako desagerraraztea lortu zuten arte. Hala balitz, aztertu beharrekoa litzateke ea euskal erlatiboaren inguruan ikusi ditugun desadostasunak eta dauden zalantzazko erabilerak ez ote diren erlatibo apositiboen gaitzespenaren ondorio, zeinarengatik lehenagoko tradizio idatzian zein/non erlatibo horrek betetzen zuen funtzio ez-murrizgarria betetzeko eginkizuna -n erlatiboak bereganatu baitu, ikusi ditugun ondorioekin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Erlatibozko aposizioa eta haren balio semantikoa</head><p>nire azterlaneko corpuserako hautatu nituen jatorrizko testuetan, aposizioak askotan agertzen dira gaztelaniazko erlatibo esplikatiboen bidez itzulita, eta horregatik iruditzen zait egitura honi buruzko azalpenean sakontzea merezi duela.</p><p>Hidalgok <ref type="formula">(2002)</ref> gogoratzen duenez, egitura hau ere izan zen xx. mendeko garbizaleen gaitzespenaren jomuga, beste egitura sintaktiko batzuekin batera, Azkue eta Altuberengandik hasita, eta haien eragina mende horretan zehar eta geroago ere nabaritu da. Halere, ukaezina da guztientzat oso egitura erabilia dela ahozko nahiz idatzizko euskaran. <ref type="bibr">13</ref> Bestalde, euskal gramatika lanetan erlatibo apositiboaz egin diren azterketetan ere azalpen kontrajarriekin egiten dugu topo, eta, horrela, euskarazko eta gaztelaniazko erlatiboari buruzko sintaxi-azterketa konparatiboa egitea eta bi sistema sintaktikoen arteko baliokidetasunak ateratzea ez da oso erraza gertatzen. gainera, erlatibo apositiboaren izenaren barruan, askotariko egiturak sartu dira maiz sail berean, berez funtzionamendu desberdina izan arren. <ref type="bibr">Adibidez, Hidalgok (2002: 18)</ref> hiru mota bereizten ditu: a) -n atzizki bidez aposatutako erlatibo substantibatuak; b) soilik bait-partikula bidez aposatutakoak (bait erlatiboa); eta c) galdetzaile 14 bidez aposatutako erlatiboak (zein/non erlatiboa). nolanahi, bere konklusioa da balio murrizgarria eta ez-murrizgarria duten adibideak topatu dituela bere corpusean, banaketa parekatu samarrarekin.</p><p>Alabaina, EgLU-Vek ez du ontzat jotzen terminologia hori, edo Hidalgoren bereizketa hori bederen, eta, aldiz, «perpaus erlatibo arruntak aposizioan» deritzan atalean (EgLU-V: 213-214), bi erabilera mota bereizten ditu: «alboko aposizio arruntak» eta «aposizioko perpaus erlatibo gibeleratuak». a) Alboko aposizio arrunta: IS bati aposatuta doan beste sintagma bat da, barruan PE arrunt bat duena; aipatu gramatikan esaten da aposizioko sintagmak ez ohi duela ageriko ardatzik izaten, kanpoko ardatza baizik, hori izanik lehen sintagma edo aposizioaren ezkerrean dagoena; horrela, (42) adibidean, gizon hura ISa da askotan gure aitarekin mintzatzen zena sintagma apositiboko erlatiboaren kanpoko ardatza.</p><p>(42) gizon hura, askotan gure aitarekin mintzatzen zena, oso handia zen Bide batez esanda, nire aurreko azterketan <ref type="bibr" target="#b5">(Biguri, 2016)</ref>  Are gehiago, gramatika horretan eta aipatu arauan ere, komunztadura hori beharrezkotzat jotzen da, ahozko euskarari edo ahozkotik hurbileko erregistroari mugatuta utziz komunztadurarik eza. Bide batez, bi testu horietan jasotzen diren era honetako adibide komunztatu gabeak ez dira inondik ere onenak erabilera ez gomendagarri horren lekuko gisa; batez ere lehenengoa, Mayi Ariztiaren Amattoren uzta liburuko 16. orritik ateratakoa; izan ere, adibide horretako esaldia gaizki ulertuta dago puntuazio okerraren eraginez, aposiziotzat jotzen den segmentua ez baita aposizioa, objektu zuzena baizik, frantsesezko bertsioan argi ikusten den bezala: Euskaltzaindiaren gramatikaren liburuki honetan, ordea, ez da argitzen honelako aposizioek balio murrizgarria ala ez-murrizgarria duten, baina EgLU-ien, aldiz, badirudi ez-murrizgarritzat hartzen direla. Izan ere, bertan, «Aposizioak eta kasu markak» deritzan atalean (EgLU i: 208), esaten da aposizioa dagoenean gehienetan aski izaten dela kasu-marka aposizioko ISak bakarrik hartzea, ondoko adibidean bezala:</p><p>(45) Canpion, euskaltzale fin hark, esaten zuen… Baina, jarraitzen du esaten bi sintagmei erantsi dakiekeela kasu-marka bi sintagmen artean eten handiagoa dagoenean, «eta egiazki aposizio ez-murrizgarria denean», ematen dituen adibideen artean erlatibo apositibo bat egonik: nire aurreko lanean <ref type="bibr" target="#b5">(Biguri, 2016)</ref> interesatzen zitzaizkidanak gaztelaniazko itzulpenetako erlatibo esplikatiboek corpuseko euskarazko STetan dituzten baliokidetasun testualak zirenez gero, argi utzi behar dut euskarazko erlatibo gibeleratuak ez zirela agertzen nire azterketan, ez direlako gaztelaniazko PE esplikatiboen baliokide, erlatibo espezifikatiboen baliokide baizik, eta, gainera, zenbatzaile zehaztugabea duten ISei itsatsitako erlatiboen adibideak ez nituelako sartu corpusean. Beraz, erlatibo apositiboetan zentratuko naiz, eta hauei buruz idatzi diren beste ikerlan apurretan egiten den azterketa ekarriko dut hona.</p><p>Horrela, garziak (1997: 381) dio era honetako PE aposatuak anbiguoak izaten direla, bi interpretazio onartzen dituztelako, bata zehaztailea (murrizgarria, alegia), erlatiboaren erreferentea zehazki identifikatzeko funtzioa dutenean, eta bestea esplikatibo hutsa, funtzio hori ez dutenean. Horrela, (50) perpausa zehaztailea izango da perpausean aipatzen den haur horren unibertso kontestualean haur desberdin guztien artetik beti negarrez ari denaz bakarrik egiten duenean atribuzioa.</p><p>(50) Haur bat, beti negarrez dabilena, etxean geratu da gaur <ref type="bibr">16</ref> de <ref type="bibr">Rijk-ek (1972: 168-171)</ref> aztertzen dituenean, PEen luze-laburrari soilik begiratzen dio, esanez honelako erlatibo libreak (free relative clauses) erlatibo ohikoak baino onargarriagoak izaten direla PEak oso luzeak direnean. Baina dakartzan adibideetan ez du puntuazioaren ustezko balio bereizleari buruzko aipamenik egiten; are gehiago, adibide horietan koma dutenak besterik ez daude. oyharçabalek (1985: 119-120), bide beretik, perpaus horien ugaritasuna aipatzen du, batez ere erlatibo luzeekin eta ahozko hizkerarekin edo haurren hizkerarekin lotuz. orpustanek (1997: 83-85) erlatibo luze eta konplexuetan bakarrik ikusten ditu erabilgarri erlatibo gibeleratuak, eta arrazoi estilistiko indartsuek bakarrik zuritu ditzaketela dio.</p><p>Kasu horretan, gaztelaniazko itzulpenean, un niño, el (niño) que siempre está llorando <ref type="bibr">[...]</ref> aurkituko genuke, erreferentearen zehaztasuna artikulu determinatuaren bidez mugatuta dagoelarik; 17 hots, erlatiboaren aurrekaria bikoitza denean. Bestetik, goiko esaldiko erlatiboa esplikatibo hutsa izango da izen ardatzaren identifikazioa zehazteko helburua ez duenean, aurrekaria bakarra denean, eta erlatiboak bigarren atribuzio bat edo atribuzio zirkunstantzial bat erantsi besterik egiten ez duenean; kasu honetan, gaztelaniaz mendeko perpausak ez luke artikulu determinaturik edukiko buruan: un niño, que siempre está llorando, <ref type="bibr">[…]</ref>. nolanahi, holakoen ordez, zein/non edo bait erlatiboen erabilera zuhurragotzat jotzen du, egitura horiek ezbairik gabe zentzu ez-murrizgarrian interpreta daitezkeen bakarrak direlako eta erlatibo libreak osatzeko balio ez dutelako. geroagoko lan batean ere (garzia 2014: 90-91), zalantzagarritzat ematen du erlatibozko aposizio ez-murrizgarrien erabilera, aurrekaria ondo zehaztuta dagoenean, hala nola zuzendaria, oso jatorra dena adibidean; zuzena izatekotan, haren arabera, izenordain erlatiboa erabili beharra dago: zuzendaria, zeina oso jatorra baita. <ref type="bibr">Kaltzakortak (1997: 66)</ref>, bere aldetik, beti zehaztailetzat jotzen ditu holako erlatibo apositiboak, aurrekaria identifikatzeko soilik balio dutelakoan; are gehiago, haren ustez euskaraz erlatibo esplikatiborik ez dagoenez gero, gaitzestekoa iruditzen zaio erlatibo apositiboak zentzu esplikatiboan erabiltzea, esanez funtzio horretarako aproposagoak direla euskarak zentzu kausala emateko dituen beste baliabideak, -eta eta bait-bereziki, «esangura kausalekoak» diren gaztelaniazko erlatibo esplikatiboak itzultzeko.</p><p>nire aurreko laneko corpusean <ref type="bibr" target="#b5">(Biguri 2016)</ref>, erlatibozko aposizio honen erabilera binomio guztien % 15 ingurukoa zen. Ez da oso ehuneko handia, eta argi eta garbi esan nahi du corpuseko idazleek beste egitura sintaktiko batzuk nahiago dituztela aposizioaren gainetik, baina, halere, berau agertzen den 68 binomioetako askotan, aurrekaria ondo zehaztuta dagoelarik erabilia dago, batzuek ez gomendagarritzat edo okertzat jotzen duten moduan. Jakina, holako aposizioak beti gaztelaniaz PE esplikatibo bezala itzultzen dira, zalantzarik gabe bi prozedurek antz handia dutelako esaldian duten kokapenagatik, formagatik eta funtzioagatik. orain ikusiko dugun bezala, nire corpusean aposizio-tipologia gehiago topatu nituen EgLUn aipatzen diren «aposizioko perpaus erlatibo» edo «alboko aposizio arrunt» horiek baino. Izan ere, gaztelaniazko itzulpenetako erlatibo esplikatiboen bitartez erdaratzen ziren bai barruan PE bat zuten aposizioak eta baita aposizio soilak deitu nituenak ere, hots, barruan inolako PErik ez dutenak. Eta, bestalde, lehengoen artean, IS apositiboa hiru modutara osatuta egon daiteke, PEari itsasten zaion osagaiaren arabera: a) PE + mugatzailea:</p><p>Tipologia honetan, PEko aditza jokatuta edo jokatu gabe egon daiteke: </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">zein/non erlatiboa eta haren balio semantikoa</head><p>Erlatibo honi eskainitako zatian, EgLUk erlatiboaren «balioaz» jarraitzen du hitz egiten, aditzera emanez ikertzaileak bat datozela esatean zein/non erlatiboak errazki hartzen duela balio ez-murrizgarria; 18 hala ere, berehala erakusten du holako erlatiboetan balio murrizgarria duten adibideak ere topa daitezkeela euskal literatura tradizioan, anitz aldiz, «zenbaitek bestelako interpretazioa egin izan badute ere» -argitu gabe nor diren zenbait horiek, baina Villasantez eta goenagaren gramatika bideetan liburuaz ari da, ezbairik gabe-. Horrela, adibidez, (56)-(57) esaldietako PEak murrizgarriak dira, aurrekariak ez baitu berezko erreferentziarik, ez eta balio generikorik ere.</p><p>(56) Hau da atheka zeinetarik iragan behar baita (J. Etcheberri Sarakoa). (57) zeren hauk dira leihoak eta portaleak, zeinetarik bekhatu guztiak [...] arimen barrena sartzen baitira (Axular) gorago esan bezala, kontuan hartzekoa da bigarren adibidean koma bidezko etenak ez duela balio, gaztelaniaz bezala, erlatibo mota biak bereizteko; EgLUn behintzat ez da espresuki halakorik aipatzen, ez eta aztertzen ere puntuazioak berez balio ote duen ala ez horretarako, goenagak uste zuen bezala, ala, besterik gabe, pentsatu behar dugun euskaraz denbora luzez ez dela egon puntuazioari dagokionez ere arau finkoak ezartzen zituen erakunde edo gramatikarik, eta horri egotzi behar zaiola komaren kasuan ere ikusten dugun asistematikotasuna.</p><p>EgLUn, erlatibo arrunterako proposatzen zen +/-murrizgarritasuna eta +/-mugagarritasuna bereizketak zein/non erlatiborako ere balio duela esaten da, baina oso baldintza korapilatsuak jarriz ez-murrizgarri baina mugagarri tasunak dituzten adibideetarako; aurrekariak balio generikoa badu, onargarritzat jotzen du:</p><p>(58) gizonek, zein baitira oro elkarren bete, elkar errespetatu behar lukete.</p><p>EgLUren arabera, esaldi hau ontzat eman daiteke «gizon» horiek gizon guztiak badira, multzo osoa adierazten badu. Aldiz, txartzat hartzen du esaldi berbera, balio generikorik ez badu eta aurrekariak aipatzen duen kategoriaren azpimultzo bati buruz ari bada; eta gure aurrean mintzatu diren gizonek perpausaren esanahi berbera ematen dio kasu horri, modu nahiko zalantzagarrian, adibide apositiboko aurrekariak balio anaforiko garbia duelako, eta ustezko baliokideak ez. <ref type="bibr">19</ref> Erlatibo hauek onargarriak izateko beste baldintza bat aurrekariak berezko erreferentzia izatea da, ondoko esaldian bezala:</p><p>(59) zeren bekhatua baita Jainkoaren kontra, zein baita infinitu <ref type="formula">(</ref> Alegia, azken adibidea onargarritzat jotzen du izenordain erlatiboak kasu-marka duelako, eta, beraz, ez luke onargarritzat joko halakorik ez balu; nire ustez, ordea, Axularren liburutik irten gabe topa daitezke horrelako baldintzak betetzen ez dituzten adibideak ere:</p><p>(63) zeren bekhaturik gabe zeneundenean egin zinituen obra onak, zein baitziren obra biziak, eta gero bekhatu egiteaz hildu eta iraungi zirenak, kofesatzeaz pitzten, eta koberatzen baitira.</p><p>gramatikariek diotena albo batera utzi eta nire aurreko laneko corpusera itzuliz, lehendabizi aipatu beharreko datua da erlatibo mota hau 14 binomiotan baino ez nuela aurkitu, corpus osoko binomio guztietatik % 3,2an besterik ez, eta aztertutako hamar liburuetatik seitan bakarrik, ale bakarrarekin horietatik hirutan; oso erabilera urria, beraz. Bi liburutan bakarrik topatu nuen proportzio apur bat esanguratsuagoan, M. onaindiaren eta I. zalduaren liburuetan, hain zuzen ere. Tesian iradokitzen nuen bezala, halako belaunaldi-banaketa baten zantzuak daudeke erlatibo mota honen erabileraren maiztasunean, bai baitirudi nire corpusean bildu nituen bi idazle-belaunaldietatik zaharrenekoek apur bat gehiago erabiltzen dutela gazteenekoek baino, kopuru absolututan; baina, halere, adibide gutxiegi dira baieztapen biribilik egin ahal izateko.</p><p>Erlatibo mota honen erabileraren maiztasunean bai egon daiteke euskarazko jatorrizko testuen eta euskarara itzulitako testuen arteko desberdintasunik, bai behintzat Sanchok (2015) bere doktore-tesian lortutako datuen arabera; 20 bertan, errusieratik euskarara itzulitako 12 liburu aztertu zituen, errusierazko PEak nola euskaratuta dauden ikusteko, eta corpuserako bildu zituen 2.402 erlatiboetatik 225 ziren zein/non motakoak, haien proportzioa PE guztietatik % 13koa izanik. nabarmena da, bi corpusak konparatuz, euskal itzultzaileek askoz ere gehiago erabil-tzen dutela erlatibo mota hau euskal idazleek baino, eta, hortaz, esan daiteke baieztatzen dela gaur egungo euskaran halako kanon sintaktiko bikoitza erabiltzen dela, erlatibakuntza apositibo gutxikoa jatorrizko testuetarako eta alderantzizkoa itzulpenetarako.</p><p>Kanon sintaktiko bikoitz hori espresuki aldeztu dute zein/non erlatiboaren erabilera testu teknikoetarako eta, bereziki, itzulpenetarako gomendatzen dutenek, adibidez, <ref type="bibr">Alberdi &amp; garciak (1996)</ref>, <ref type="bibr">Alberdi &amp; Sarasolak (2001)</ref> edo HAEE-IVAP erakundeak berak <ref type="formula">(2003)</ref>, hau bezalakoak idazten dituztenean: <ref type="bibr">[...]</ref> uste dugu egitura honek azterketa zehatzagoa behar duela; are gehiago, kontuan hartzen bada baliabide hau testu tekniko askotan eta itzulpengintzan oro har giltza izan daitekeela erdara batzuetako «periodo» luzeak egokitzapen larregi barik emateko eta bestelako zailtasun sintaktikoak gainditzeko. <ref type="bibr">(Alberdi &amp; garcía 1996: 131)</ref> Ikusten den bezala, euskararen baliabide sintaktiko honek kanpoko sintaxi-eredu batekin lotuta egoten jarraitzen du oraindik, itzulpeneko euskararekin. nire iritziz, horrelako kanon bikoitza izatea ez da komenigarria, ez euskararentzat ezta euskarazko itzulpenek euskal literatura-sisteman duten harrera eta ospearen aldetik ere.</p><p>Kontu hori alde batera utzita, eta euskarazko erlatiboen balio semantikoari buruzko atal hau bukatzeko, badago azken datu esanguratsu bat; nik aztertutako corpusean erlatibo mota hau duten 14 binomioetatik 5etan, non erlatibagailua da erabiltzen dena, eta zein, aldiz, nagusiki genitiboaren formarekin bakarrik, zeinaren forma singularrarekin gehienbat. Alegia, erlatibo mota honek oso agerraldi gutxi izateaz gain, oso funtzio gutxitan erabiltzen da, bi kasu horietara mugatuta.</p><p>Bestalde, balio semantikoari eta komaren erabilerari dagokienez, adibide guztiak, eta, beraz, autore guztiak bat datoz: 14 binomioetako zein/non erlatibo guzti-guztiak murrizgarriak dira eta guzti-guztietan puntuazio-etena dago kanpoko izen arda-murrizgarriak dira eta guzti-guztietan puntuazio-etena dago kanpoko izen ardatzaren eta mendeko perpausaren artean, kasu gehienetan koma, eta binomio batean parentesia.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Konklusioak</head><p>Artikulu honetan, euskarazko gramatika-lanetan erlatiboak nola sailkatu eta deskribatu diren aztertu dugu. Azterketa horretan aditzera eman dut erlatibakuntzari buruzko gramatika-lan zaharrenetan nagusi zen garbizaletasun sintaktikoaren eraginez euskal erlatiboari buruz egin diren deskribapen modernoak partzialak direla nire ustez, nahiko bazterturik uzten dituztelako erlatibo apositibo mota desberdinak -zein/non erlatiboa bereziki-, nahiz eta euskara idatziaren historian tradizio luze-zabala eduki literatura-euskalki guztietan. Bestalde, ikusi dugu gramatikarien lan modernoenetan garrantzi handiagoa eman zaiola erlatibo arrunta deitzen denaren mekanismo edo arauak aztertzeari eta bereziki zein kasu diren erlatibagarri argitzeari, erlatiboaren balio semantikoari baino, eta, gainera, honi dagokionez, desadostasunak ere badaudela oraindik ere aztertzaileen artean, baita ezaugarri formalei dagokienez ere. Bestalde, gramatika-lan modernoago hauetako ikerketen konklusioetan, esango nuke ez direla behar bezain kontuan hartzen erlatibakuntzak euskaraz izan duen bilakaera diakronikoa eta xix. mendearen bukaeratik aurrerako garbizaletasun sintaktikoaren eragina, guztiz erabakigarria izan dena xx. mendeko euskal letretan eta baita xxi. mendeko literatura garaikidean, idatzizko eta ahozko erabileran eta baita erlatiboa eskoletan irakasteko moduan ere. Faktore erabakigarri hori albora utzita, gehiago aztertzeko modukoa iruditzen zaigu guri ere lan horietan euskarazko erlatiboaren balio semantikoaz esaten den zerbait, alegia, bereizketa semantikoak ez duela bereizketa formalik, gaztelaniaren kontrara.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>(</head><label></label><figDesc>35) […] hekin batean alfertasuna khen zedin, zein baita hanbat kalteren eta […].</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>gramatika Sortzailearen azterbideari jarraituz, goenagak (1980: 295) hau dio espresuki: «Hizkuntzalariak ados daude erlatibo murrizgarriak, edo restriktiboak, perpaus txertatuak, menpekoak diren bezala, beste hauek, funtsean perpaus koordinatuak direla». gero, bi erlatibo mota hauek egitura mailan duten desberdintasuna irudikatzen du bakoitzari dagokion zuhaitzarekin. (1987: 208) jada adierazi zuen bere desadostasuna horretaz, eta geroago Alberdik eta garcíak (1996: 259) hainbat autore klasikoren eta euskalki desberdinetako adibide ugarirekin berretsi dute jarrera hori. Bidenabar, bitxia da Villasantek erlatibo mota honen erabilera soilik ez-murrizgarriaren aldeko jarrera izatea, Axularren ondoko adibideok gaztelaniara itzuli zituenean erabili zituen erlatibo murrizgarriak ikusita:</figDesc><table><row><cell>(8)</cell><cell></cell></row><row><cell>Badira bisera batzuk, begi-or-</cell><cell>Existen unas gafas, unos anteo-</cell></row><row><cell>dethaillu batzuk, zeiñek gauzak di-</cell><cell>jos que hacen que las cosas aparezcan</cell></row><row><cell>ren baiño handiago, iduri arazitzen</cell><cell>más grandes de lo que son.</cell></row><row><cell>baitituzte. (Axular  § 94)</cell><cell></cell></row><row><cell>zeren nolako baita lurra, zeineta-</cell><cell>Tal y como es la tierra por la que</cell></row><row><cell>rik iragaiten baita ura, halako gertha-</cell><cell>pasa el agua, así viene a resultar esta.</cell></row><row><cell cols="2">tzen baita ura ere. (Axular  § 143) 3) Komarekin: Purgatorio handi eta sendagarri bat du gizon pazientziatsuak, zeren hauk dira leihoak eta Porque estas son las ventanas y zeinak bidegabeztatua denean damu geiago baitu bertzeren maliziaz bere portaleak, zeiñetarik bekhatu guz-portales por los que entran en el alma atsekabez baino (Pouvreau). tiak, eta guztiz ere haragiarenak, ari-todos los pecados, y particularmente (4) Komarik gabe: [...] baña balitz garizuman zeinetan ezin egon leitekian lexi-Komaren agerpena dela eta, Alberdik eta garcíak (1996: 260) bai diote erlatibo  § 256) bia egin baga, orduban agindu leijo[...] (Astarloa). man barrena sartzen baitira. (Axular los de la carne.</cell></row><row><cell cols="2">murrizgarriak eta ez-murrizgarriak bereizteko irizpide gisa erabil daitekeela oro har, Beste alde batetik, PE espezifikatibo eta esplikatiboen banaketa sintaktiko eta for-goenagak esandako zentzuan, baina, halere, komaren erabilera ez dela sistematikoa, mala defenditzen duten aipatutako autoreen aurrez aurre, beste batzuek, de Rijkek eta haiek aztertutako corpusean badirela komadun erlatibo «murriztaileak» eta koma-rik gabeko «ez-murriztaileak». orobat, komaz gainera, bestelako puntuazio zeinuak (1980), oyharçabalek (1987) eta</cell></row><row><cell cols="2">darabiltzaten adibideak ere ematen dira artikulu horretan, besteak beste puntu eta</cell></row><row><cell>koma, bi puntuak eta are puntua ere:</cell><cell></cell></row><row><cell cols="2">(5) […] bizitzau akabau ezkero, izango dala beste betiko bat, edo iños akabauko</cell></row><row><cell cols="2">eztana: zeinetan egongo dirian, Jangoikoa Jangoiko dan arte guztiyan (…)</cell></row><row><cell>(Catllo)</cell><cell></cell></row><row><cell cols="2">(6) […] ikuskera negargarri onetan ziñozan, arik eta Beronike andra errukiorrak</cell></row><row><cell cols="2">garbitu artean bere izaratxoak; zeinetan, erruki ardurazko onen orde sariz,</cell></row><row><cell cols="2">itxi zeuntzan zeure arpegiko antz-irudiak. (Añibarro)</cell></row><row><cell cols="2">(7) Handik heldu da halaber, gezur erraitea, elkharren ez sinhestea, eta fidantza</cell></row><row><cell cols="2">gabe, bethi gogan behartsu ibiltzea. zein baita kalte handia, elkharren ar-</cell></row><row><cell>tean bizi behar dutenentzat. (Axular)</cell><cell></cell></row><row><cell cols="2">Bestetik, zalantzan jarri beharrekoa da aurreko autoreen deskribapenetako abia-</cell></row><row><cell cols="2">puntua ere, hots zein/non erlatiboak balio ez-murrizgarria duela soilik; oyharçaba-</cell></row></table><note>23 Bai eta garai modernoagoetan ere, aurrean jaso dugun lafitteren adibidea bera delarik froga: gi- zon bat ikusi dut, ez baitzuen ilhe ondorik ere = J'ai vu un homme qui n'avait pas un seul cheveu.lek</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>Iainko aitaren ontasunetik sorthu zaren seme Iesu Kristo errege Iauna. (23) gaztigatuko zuten zuk debotki errezibitu duzun Maria Madalena bekhatore nigartia. (24) Kondenatuko zuten zuk miserikordioski barkhatzen diozun iondone Petri zeure diszipulu bekatzaillea. zalantzazkoa izan daiteke adibide horien artekotzat jotzea IA erlatiboa Jainkoa izenari itsatsita erakusten duten adibideak, izena berez ez baita propioa, itsatsita daraman mugatzailea lekuko; lau dira guztira Krajewskak aurkitutako kasuak: …] eta adora zezaten throno gainean iarririk dagoen Iainkoa, zioitela, Amen, Halleluia. (leizarraga) (28) o Israel ezinago photerus ziren Jinkua, arima fidelen huniala erakarlia […] (Maister)</figDesc><table><row><cell>(27) [</cell></row><row><cell>:</cell></row><row><cell>(21) Jinkoari eskerren emaiteko harganik ükhen dütien honez; erakusteko ere</cell></row><row><cell>saintü, egin direla hontan ohereskatzen deriogün Jesü-Kristen merexiez […]</cell></row><row><cell>(22) (25) […] zeren azkar beita houra jujaturen dian Jinkoa […] (Intxauspe)</cell></row><row><cell>(26) […] eta adoratu zien tronoan jarririk den Jinkoa, ziolarik: Amen. Alleluia</cell></row><row><cell>[…] (Intxauspe)</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>Esango nuke horrek harreman zuzena duela nire aurreko azterketako euskal idazleek zein/non erlatiboa gutxi erabiltzeko duten jarrerarekin. H. Cano, twist; A. lertxundi, Azkenaz beste; eta M. onaindia, gilen garateako Batxilera. 9 twist liburuan, hain zuzen. nolabait, idazle horren estiloaren ezaugarri sintaktikoetako bat dela esan liteke. 10 Iban zaldua idazlearen Etorkizuna liburutik ateratako esaldi hau izan daiteke diodanaren adibide: Bere ondoan esertzen den Elenaren zeregina izaten da hori. Autoreak berak egindako itzulpenean, Eso suele hacerlo Elena, que se sienta en la mesa contigua.</figDesc><table /><note>811 zalduaren beraren adibide bat: Bainugela, beste zenbait auzokiderekin konpartitzen dudana, kan- poan dago. gaztelaniazko bertsioan: El baño, que comparto con otros vecinos, está fuera.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>EgLU-Ven datorren bigarren adibidea, J.M. Hiribarren olerkariarena, bada zuzena, eta ez da kasu bakarra Eskaldunac poeman, baina, nire iritziz, ezin da besterik gabe baztertu bertsokera-beharrak edo zortziko txikiaren neurriak eragindakoa izatea.</figDesc><table><row><cell>)</cell><cell></cell></row><row><cell>gure Jainkoak, beti xuxen dabi-</cell><cell>Comme le bon dieu toujours,</cell></row><row><cell>lana, ongi gidatzen baitu, suertatu</cell><cell>guide bien celui qui marche droit, il</cell></row><row><cell>zen konde hori kaperat ailiatzea…</cell><cell>advint que ce comte arriva à la cha-</cell></row><row><cell></cell><cell>pelle.</cell></row><row><cell cols="2">zoritxarrez, ulerbide oker hau eta adibide hauxe bera jaso dute gero beste lan eta</cell></row><row><cell cols="2">gramatika anitzek, hala nola Hualde eta ortiz de Urbinak (2003: 804) eta Euskal-</cell></row><row><cell>tzaindiaren 109. arauak 15 ere.</cell><cell></cell></row><row><cell>Bestalde,</cell><cell></cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>garziak dioen bezala, aposizioak hemen aurrekariaren erreferentzia zehazten du, Meredid hori identifikatzeko funtzioa du. gaztelaniaz, aldiz, itzulpen nolabait parafrastikoa da; itzultzaileak ez du ipini Meredid, la poeta que era veinte años más joven que Doris, esaldiaren testuinguruan aurretiaz identifikatuta edo zehaztuta dagoelako, eta zehaztapenaren erredundantziak oker sintaktikoa eragingo lukeelako.Honelako egiturek balio semantiko anbiguoa dute; adibide honetan, aposizioak balio esplikatiboa izan behar du, non eta ez den esan nahi Bilbo izan zela predikazioan esaten den ezaugarria duen hiri bakarra. Bada, ulerbide oker horixe da, hain zuzen, gaztelaniaz ematen dena; ondo itzultzekotan, artikulua kendu beharra zegoen: Bilbao, (ciudad) que resistió[...].Hemen ere ekuazio bat egiten da: Elizabeth Macklin idazlea = nire liburua itzuli duena. Erlatiboak balio zehaztailea du, aurrekaria identifikatzeko. gaztelaniaz, bi itzulpen posible ditu euskarazko esaldiak, bata esplikatiboa artikulurik gabe, binomioko xede-testuan bezala, eta bestea espezifikatiboa, artikuluarekin: La escritora Elizabeth Macklin, la que ha traducido al inglés[...]. Bide batez esanda, bi itzulpen horiek posible izango lirateke gaztelaniaz, nahiz eta semantikoki eta formalki desberdinak izan.Euskarazko aposizio mota honi buruzko azalpena bukatzeko, bada datu esanguratsu bat: nik osatutako corpuseko idazleek aurrekaria kasu absolutiboan dagoenean erabiltzen dute batez ere erlatibozko aposizioa, horrelako adibide guztietatik % 82,3an zehazki. Beraz, oso gutxi erabiltzen dute aurrekariaren kasu-marka beste bat denean; halakoetan, beste egitura sintaktiko batzuetara jotzen dute, eta, erlatiboa aukeratzen dutenean, erlatibo arrunta hautatzen dute nagusiki, eta ez zein/non erlatiboa.</figDesc><table><row><cell cols="3">Kontuan hartuta gelak hogei bat metro koadro besterik ez duela: bainugela, beste zenbait auzokidere-kin konpartitzen dudana, kanpoan Ikusi dugun bezala, aposatutako ISan izen arrunta duten euskarazko egitura hauen El cuarto apenas tiene quince metros cuadrados: el baño, que com-itzulpenarekin kontu handiz ibili beharra dago; bestela, K. Uriberen Bilbao-New York-parto con otros vecinos, está fuera, al final de un largo pasillo. Bilbao liburuaren itzulpenean topatu nuena bezalako okerrak gerta daitezke:</cell></row><row><cell>(54)</cell><cell>dago, korridore luze baten amaie-ran. (I. zaldua, Etorkizuna) nor zen bera? Bera Cocó zen, Cocó Van Thiegel, Belgikako arma-dako soldadu izandakoa gaztetan [...] Ikara zion maxa hari! (B. Atxaga, non eta Bilbon, faxisten erasoei urtebetez eutsi zien hirian, Francok dagoeneko ez duela etsairik argi eta garbi utzi nahi dute agintariek. Mi-laka eta milaka lagun atera direla zazpi etxe Frantzian) kalera hura agurtzera.</cell><cell>las autoridades pretender dejar Él, Cocó Van Thiegel, que en sus claro que Franco ya no tiene ene-años de juventud había servido en el migos. Precisamente en Bilbao, en ejército belga [...] se amilanaba ante la ciudad que resistió durante un año aquel pueblerino. los ataques del ejército nacional. Mi-les de personas han salido a la calle</cell></row><row><cell></cell><cell></cell><cell>a vitorearlo.</cell></row><row><cell cols="2">b) PE + erakuslea:</cell><cell></cell></row><row><cell>(52)</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Horra zein etekin emango di-</cell><cell>Ésas serán para ti tus merca-</cell></row><row><cell></cell><cell>zuten urreek, gaztetandik ardu-</cell><cell>derías, por las que te has fatigado</cell></row><row><cell cols="3">raz zaindu dituzun horiek. (A. ler-Aposizio ekuazionala egon daiteke, orobat, aposizioko erlatiboak mugatzailea eta desde tu juventud. txundi, Azkenaz beste) kasu-marka daramatzanean, liburu bereko beste binomio honetan bezala:</cell></row><row><cell cols="2">(55) c) PE + izen arrunta: Bai, Elizabeth Macklin idazleak, (53) nire liburua itzuli duenak, berarekin</cell><cell>la escritora Elizabeth Macklin, que ha traducido al inglés un libro</cell></row><row><cell></cell><cell>Meredid Puw dadies idazle ga-joatera gonbidatu ninduen.</cell><cell>la poeta galesa Meredid Puw mío, me invitó a ir con ella.</cell></row><row><cell></cell><cell>lestarra ez zetorren bat. Meredi-</cell><cell>dadies no estaba de acuerdo. Me-</cell></row><row><cell></cell><cell>dek, Doris baino hogei urte gaztea-</cell><cell>redid, que era veinte años más joven</cell></row><row><cell></cell><cell>goa zen poetak, ez zuen onartu nahi</cell><cell>que Doris, no quería acatar el des-</cell></row><row><cell></cell><cell>halabeharra. (K. Uribe, Bilbao-New</cell><cell>tino.</cell></row><row><cell></cell><cell>York-Bilbao)</cell><cell></cell></row><row><cell cols="3">lau adibide hauen argitan, garbi dago lehen bietako erlatiboak balio ez-murrizga-</cell></row><row><cell cols="3">rriarekin erabilita daudela. Beste bi adibideen kasuan, aldiz, aposizioak balio zehaz-</cell></row><row><cell cols="3">tailea du, aposizio ekuazionalak baitira, nahiz eta, seguru aski, idazleek balio ez-mu-</cell></row><row><cell cols="3">rrizgarriko aposizio modura erabili nahi zituzten.</cell></row><row><cell cols="3">garziak (2014: 82) honelako aposizioei «aposizio-tarteki ekuazionalak» deitzen</cell></row><row><cell cols="3">die, «berdintzazko ekuazio baten tankerako zerbait» dagoelako haien azpian; (53) adi-</cell></row><row><cell cols="3">bidearen kasuan, honako esaldia balitz bezala da: Meredidek, (hots,) Doris baino hogei</cell></row><row><cell cols="2">urte gazteagoa zen poetak [...].</cell><cell></cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>Sagarrá ceñac min eguin didan, gazíeguí zan eta Min eguindidán sagarrá, gazieguí da, bien itzulpena izanik, autorearen arabera, La manzana que me hizo mal era agria demasiadamente. gertatzen da erlatibo mota hau izen propio bati itsatsita doanean ere; holakoetan, erlatiboak balio ez-murrizgarria du EgLU-Ven (236) arabera, aurrekariak «hartatik kanpo baitu bere berezko erreferentzia», ondoko kasuetan bezala: (60) Samuelek ikusi zuenean Eliab, haurrideetarik zaharrena, zeina baitzen gizon handi eta iduri ederreko bat, erran zioen Jainkoari (B. larreguy). (61) Baña balitz garizuman zeinetan ezin egon leitekian lexibia egin baga, orduban agindu leijo [...] (P. Astarloa).</figDesc><table><row><cell>Axular) 18 Krajewskak (2017: 61) balio numerikoen bitartez berretsi du hori euskal testu zaharren corpu-seko adibideetan, zeren haren azterketaren arabera % 81,7 ez-murrizgarriak baitira, eta murrizgarriak, beraz, % 18,3. 19 Puntu honetan, gogoratzekoa da larramendik (1856: 152) balio osokotzat eta baliokidetzat ema-onargarriak izen propioak direlako aurrekariak. Bide batez, puntuazioari dagokionez, EgLUk dakartzan adibide gehientsuenetan etena dago aurrekariaren eta erlatiboaren artean, koma nagusiki, baina baita puntu eta koma ere. Eta aukerako azken baldintza izenordainak kasu adberbial baten marka bat eduki-tzea da, honakoan bezala: (62) zeren hauk dira leihoak eta portaleak, zeinetarik bekhatu guztiak [...] ari-ten zituela ondoko bi esaldiak: Berdin Hemen ere, bi adibideak ez-murrizgarritzat eta +mugagarritzat jotzen dira, baina men barrena sartzen baitira. (Axular)</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">SEgen esaten den bezala (http://www.ehu.eus/seg/morf/5/5), euskaraz argi bereizi behar dira kasuak (absolutiboa, ergatiboa, datiboa eta genitiboa) eta postposizio itsatsiak(soziatiboa, ablatiboa, adlatiboa, inesiboa, etab.).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">Cid, Carlos [s.a.] «Perpaus erlatiboak zer diren», Sareko Euskal gramatika (SEg). http://www. ehu.eus/seg/morf/5/20/4/1 (2021/02/20).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5"> Aipu hau, berez, larramendirengandik hartu zuen lardizabalek (1856: 152), adibide berberak erabiliz, de Rijkek berak geroago (1980: 530) jaso zuen bezala; eta, xx. mendean, Etxaidek (1912: 55) ere jaso zuen. Bide batez, interesgarria da azpimarratzea larramendik -ez eta lardizabalek ere-ez duela esaten ez dela erabili behar egitura hori -horrek iradoki zezakeelarik erabili bai erabiltzen zela-, euskaraz ez dela erabiltzen baizik -nolabait euskararen eta inguruko hizkuntzen arteko desberdintasun bat aipatuz bezala-.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6">El que tiene oído, oiga lo que el Espíritu dice á las iglesias. Al que venciere, daré á comer del árbol de la vida, el cual está en medio del paraíso de Dios (Reina Valera Antigua, 1960), baina El que tiene oído, oiga lo que el Espíritu dice a las iglesias. Al que venza le daré de comer del árbol de la vida que está en medio del paraíso de Dios (Reina Valera Actualizada, 2015). Ikus https://www.biblegateway.com/verse/es/Apocalipsis%202:7 [Kontsulta-data: 2016-04-20]. Bide batez, Bibli Elkartearen euskarazko bertsioan erlatibo arruntaz ageri da: Jainkoaren paradisuan dagoen bizi-arbolako fruituetatik emango diot jaten; ikus http://www.biblija.net/ biblija.cgi?m=Ap+2%2C1-7&amp;id34=1&amp;pos=0&amp;set=21&amp;l=eu [Kontsulta-data: 2016-04-20].</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">Izan ere, autore honek ontzat ematen du de Rijk eta oyharçabalen planteamendua: «Jakina denez, euskarak ez ditu erlatibo murrizgarriak eta ez-murrizgarriak gramatikalki bereizten, eta egitura bera erabiltzen da, murrizgarritasuna gorabehera» (2017: 60).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12">Axularren adibide bat ekar daiteke gogora: «[...] azkenean bere ama propioaz amurustu zela: bere ama bera, zeiñen sabeletik iltki baitzen, demandatu zuela» (Axular § 232)</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="13">Tradizio idatzian baino gehiago, esango nuke, zein/non egitura gaitzetsiaren lekua hartu baitu. 14 Hidalgoren terminologia erabiliz.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="15">Euskaltzaindia, 109. araua (Komunztadura aposizioetan). https://www.euskaltzaindia.eus/dok/ arauak/Araua_0109.pdf (2021/02/20).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="17">Bide batez, gaztelaniaren gramatiketan bada era honetako PEak hirugarren erlatibo mota bat («relativo apositivo», hain zuzen) direla defenditu duenik<ref type="bibr" target="#b26">(Martínez 1989</ref>(Martínez   edo ojea 1992, baina beste autore batzuek horri ihardetsi diote erreferente edo ardatza elidituta duen erlatibo murrizgarri bat besterik ez dela.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="20">Alabaina, datu hori ez zuen sartu tesian, berak eskaini digu pertsonalki.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">] bait-/-n» egitura</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xabier &amp;amp; Julio</forename><surname>Alberdi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>García</surname></persName>
+		</author>
+		<ptr target="bilbo:uPV/eHukoargital-penzerbitzua" />
+	</analytic>
+	<monogr>
+		<title level="m">igone zabala ( koord.), Testu-loturarako baliabideak: euskara teknikoa</title>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="131" to="167" />
+		</imprint>
+	</monogr>
+	<note>«Zein [...</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Euskal estilo libururantz. Gramatika, estiloa eta hiztegia. bilbo: uPV/eHuko argitalpen zerbitzua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xabier</forename><forename type="middle">&amp;amp;</forename><surname>Alberdi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sarasola</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Contribución al estudio de las oraciones de relativo en español. zaragoza: universidad de zaragoza</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Enrique</forename><surname>Aletá</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="doktore" to="tesia" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Estudio sobre las oraciones de relativo. zaragoza: universidad de zaragoza</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Enrique</forename><surname>Aletá</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Euskal gramatikaren ingurukoak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adolfo</forename><surname>Arejita</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskal Joskera</title>
+		<editor>l.</editor>
+		<imprint>
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+	<note>zugaza editor</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Euskararen eta gaztelaniaren arteko itzulpenaren estilistika konparatu baterako materialak: perpaus erlatibo esplikatiboak euskaratik gaztelaniara eginiko literatura-itzulpenetan. gasteiz: uPV/eHuko doktore-tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Biguri</surname></persName>
+		</author>
+		<ptr target="https://addi.ehu.es/handle/10810/32669" />
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Aezkoako euskararen azterketa dialektologikoa. iruñea: nafarroako gobernua, Hezkuntza eta kultura saila</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñaki</forename><surname>Camino</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Tipología de la relativización en vasco, checo y español: cotejo de las lenguas románicas, eslavas y vasca respecto a ciertos fenómenos relativos. madril: universidad autónoma de madrid, doktore-tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carlos</forename><surname>Cid</surname></persName>
+		</author>
+		<ptr target="https://repositorio.uam.es/handle/10486/12113" />
+		<imprint>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carlos</forename><surname>Cid</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>s.a.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Sareko Euskal Gramatika (SEG)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Perpaus Erlatiboak Zer Diren</surname></persName>
+		</author>
+		<ptr target="http://www.ehu.eus/seg/morf/5/20/4/1(2021/02/20" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">G</forename><surname>De Rijk</surname></persName>
+		</author>
+		<title level="m">Studies in Basque Syntax: Relative Clauses. boston: massachusetts institute of technology</title>
+		<imprint>
+			<date type="published" when="1972" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">erlatiboak idazle zaharrengan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">G</forename><surname>De Rijk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">estornes, José. 1985. zoilo&apos;ren uzta. zaraitzu&apos;ko uskara. Fontes Linguae Vasconum</title>
+		<imprint>
+			<date type="published" when="1980" />
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="45" to="46" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Euskal Gramatika Lehen Urratsak I (mendeko perpausak). EGLU-I. bilbo: euskaltzaindia</title>
+		<imprint>
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Euskal Gramatika Lehen Urratsak V (Mendeko perpausak-1). EGLU-V. bilbo: euskaltzaindia</title>
+		<imprint>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Joskera lantegi. oñati: Haee-iVaP. garzia garmendia, Juan. 2014. Esaldiaren antolaera. Funtzio informatiboak gako</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine &amp;amp; Judith</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Milner</surname></persName>
+		</author>
+		<ptr target="bilbo:uPV/eHukoargitalpenzerbitzua" />
+		<imprint>
+			<date type="published" when="1979" />
+		</imprint>
+	</monogr>
+	<note>À propos des relatives. Paris: selaF. garzia garmendia, Juan</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Esbozo de una nueva gramática de la lengua española. madril: real academia española &amp; espasa-Calpe</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gili Gaya</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Gramatika bideetan. Donostia: erein</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patxi</forename><surname>Goenaga</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Constructions relatives et articulations discoursives</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><surname>Henry</surname></persName>
+		</author>
+		<idno type="DOI">10.3406/lgge.1975.2613</idno>
+		<ptr target="https://doi.org/10.3406/lgge.1975.2613" />
+	</analytic>
+	<monogr>
+		<title level="j">Langages</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="81" to="98" />
+			<date type="published" when="1975" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Herri Arduralaritzaren Euskal Erakundea (HAEE-IVAP). 2003. galdezka. Euskarazko zalantzei erantzunez. donostia: Administrazioa Euskaraz</title>
+		<imprint>
+			<publisher>HAEE-IVAP</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">] erlatibo aposatuak. Izen ardatzaren eskuin hedatzen diren erlatiboak euskaraz (II)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Victor</forename><surname>Hidalgo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="17" to="83" />
+		</imprint>
+	</monogr>
+	<note>Uztaro 42</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">zein… (eta bait-) erlatiboak. Izen ardatzaren eskuin hedatzen diren erlatiboak euskaraz (III). Fontes Linguae Vasconum 92</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Victor</forename><surname>Hidalgo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="19" to="56" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">A grammar of Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">José</forename><surname>Hualde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp; Jon Ortiz De</forename><surname>Ignacio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Urbina</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>walter de gruyter</publisher>
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Erdarazko relatibo esplikatibo mota bat euskaratzen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mitxel</forename><surname>Kaltzakorta</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="59" to="67" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Euskararen sintaxi diakronikorantz: egitura konplexuak. gasteiz: UPV/EHUko doktore-tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dorota</forename><surname>Krajewska</surname></persName>
+		</author>
+		<ptr target="https://addi.ehu.es/handle/10810/26877" />
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">grammaire basque (navarro-labourdin littéraire). donostia: Elkar</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pierre</forename><surname>Lafitte</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1944" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">1856. gramática Vascongada. donostia: Imprenta Baroja. le goffic, Pierre. 1979. Propositions relatives, identification et ambiguïté, ou: Pour en finir avec les deux types de relatives. DRLAV. Documentation et Recherche en Linguistique Allemande Vincennes 21</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francisco</forename><surname>Lardizabal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ignacio</surname></persName>
+		</author>
+		<idno type="DOI">10.3406/drlav.1979.951</idno>
+		<ptr target="https://doi.org/10.3406/drlav.1979.951" />
+		<imprint>
+			<biblScope unit="page" from="135" to="145" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">El pronombre, ii: Numerales, indefinidos y Relativos. Madril: Arco libros</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">José</forename><surname>Martínez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Antonio</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Los sintagmas relativos en inglés y en español</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ana</forename><surname>Ojea</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+		<respStmt>
+			<orgName>Universidad de oviedo</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Basque et Français. Méthode abrégée de traduction. Baigorri: Izpegi</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jean-Baptiste</forename><surname>Orpustan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Étude descriptive de constructions complexes en basque: propositions relatives, temporelles, conditionnelles et concessives</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Beñat</forename><surname>Oyharçabal</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="CnRSko doktore" to="tesia" />
+			<pubPlace>Paris</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Nueva gramática de la lengua española</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Real Academia Española</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>Madril: Espasa</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Errusierazko perpaus erlatiboen euskaratzea. Hizkuntza-sistematik itzultzailearen estilora. gasteiz: UPV/EHUko doktore-tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iker</forename><surname>Sancho</surname></persName>
+		</author>
+		<ptr target="https://addi.ehu.es/handle/10810/15905" />
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Sintaxis de la oración compuesta. oñati: Ed</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luis</forename><surname>Villasante</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+	<note>Franciscana Aránzazu</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

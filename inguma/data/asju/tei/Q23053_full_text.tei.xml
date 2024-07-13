@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EREDU LATINDARRAREN ERAGINA EUSKAL DEKLINABIDEAREN XIX. MENDEKO DESKRIBAPENETAN</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ricardo</forename><surname>Gómez</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universidad del País Vasco/Euskal Herriko Unibertsitatea -JUMI)</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">EREDU LATINDARRAREN ERAGINA EUSKAL DEKLINABIDEAREN XIX. MENDEKO DESKRIBAPENETAN</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>T his paper explores the traces of the influence of the Latin grammatical tradition on the 19th-century descriptions of the Basque declension. F or the purposes of the paper I describ e that influence according to the following features: (1) the two-way distinction between singular and plural, with no mention of the indefinite number or mugagabe, and (2) the adaptat ion of the Basque case system to the six Latin cases. In the first d ecades of the 19th century, authors like Astarloa, Humboldt and Darrigol proposed some new ways of describing the Basque declension, w hich achieved a considerable success. Nev ertheless, the weight of the Latin model remained strong, a nd it is clear that most of the 19thcentury Basque grammarians who followed the Latin model were directly inf luenced by Larra men di: Garay de Monglave, Blanc, Lardizabal and Ribáry. However, some of the authors discussed here do not reveal such an influence: Hiriart and Gèze.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>garren taldekoei buruz zerbait aurki daiteke <ref type="bibr">Gómezen (2003a</ref><ref type="bibr">Gómezen ( , 2007</ref> lanetan. Garaian garaiko mugak baditu ere, zerrenda honetan ez genuke ahaztu behar Campiónek bere gramatikako "Historia y crítica de la declinación bascongada" atalean <ref type="bibr">(1884: 177-191)</ref> eskaini zuen goiko lan gehienen eta besteren baten analisi aitzindaria. Nolanahi ere den, euskal deklinabidearen historiografia osoa oraindik idatzi gabe dago eta iruditzen zait Oyharçabalek ezarritako sailkapena horretarako abiapuntu egokia izan litekeela.</p><p>Artikulu honen helburua, ordea, ez da hain handia, askoz xede apalagoa baitu: xix. mendeko euskal gramatika-lanetan, eredu latindarrak deklinabidearen aurkezpenetan utzi zituen azken aztarnak agerraraztea. Pentsa liteke xix. mendean euskal gramatikagintza latinaren eraginetik aske zela; izan ere, gramatika arrazionalistatik zetozen analisiak ordurako aski hedatuta zeuden, bereziki Iparraldeko gramatikarien artean (cf. <ref type="bibr">Gómez 2007)</ref>, eta, bestalde, Astarloa, Humboldt eta batik bat Darrigolen lanek latinarenaz bestelako ereduak eskaini zituzten euskararen kasu-sistema deskribatzeko, hasierako sailkapenean ikusi dugun bezala.</p><p>Hala eta guztiz ere, gauza ezaguna da Larramendiren eragina xix. mendearen amaiera arte luzatu zela, hala euskara idatzian (cf., besteak beste, <ref type="bibr" target="#b39">Pagola 1984</ref><ref type="bibr">, La karra 1985</ref><ref type="bibr" target="#b42">, Sarasola 1986</ref>) nola hiztegigintzan (cf. <ref type="bibr">Sarasola 1998;</ref><ref type="bibr" target="#b44">Urgell 2000</ref><ref type="bibr" target="#b44">Urgell , 2002</ref>. Baina Larramendiren itzala ez zen nagusi gertatu euskal gramatikagintzaren esparruan, agian bertan ez dugulako hain nabarmenki kausitzen Urgellek (2000: xvii) euskal kulturaz aipatzen duen geldialdia. Izan ere, xix. mendearen lehen hamarkadetan, esan bezala, Astarloaren Apologíak (1803), Humboldten Berichtigungen und <ref type="bibr">Zusätze-k (1817)</ref> eta batik bat Darrigolen Dissertation-ek (1827), bere txikian, Larramendiz bestelako ereduak eskaini zituzten, bereziki Iparraldeko eta atzerriko euskalarien artean arrakasta izan zutenak. Horiek horrela, latinaren eragina nabarmena da oraindik Larramendiren itzalpean ondu ziren xix. mendeko gramatiketan (Garay de Monglave 1828, <ref type="bibr">Blanc 1854</ref><ref type="bibr">, Lard izabal 1856</ref><ref type="bibr" target="#b41">, Ribáry 1866</ref><ref type="bibr">[1877</ref>), baina baita, itxuraz bederen, itzal horretatik kanpo dauden beste zenbaitetan ere <ref type="bibr">(Hiriart 1840</ref><ref type="bibr" target="#b12">, Gèze 1873</ref>. Artikulu honetan, aipatu gramatikari horiek euskararen kasu-sistema nola deskribatu zuten gaingiroki aztertuko dut eta bakoitzak proposatutako deklinabide-paradigmari arre ta berezia eskainiko diot. Berariaz artikulutik kanpo utzi dut Añibarroren gramatika (ca. 1804), mende hasierako lana izanik orain goz ez baitzuen Astarloa, Humboldt edo Darrigolen erreferentzia, Larramendirenari kontrajartzeko.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Latinaren eredua</head><p>Eredu latindarra -"greko-latindarra" eta "klasikoa" ere deitua-Europako Mendebaldeko gramatika-tradizioaren oinarrian dago. Gómez Asenciok (2001) gaztelaniaren gramatikei buruz ohartarazi duen moduan, nekez aurki dezakegu euskal gramatikagintzan ere latinaren ereduaren eraginetik guztiz aske dagoen lanik edo auto re rik. Izan ere, zeri deitzen diogu gramatika batek "latinaren ereduaren eragina" izateari? Eskuarki, halako baieztapenak egin izan dira, adibidez, euskal gramatika batean latinaren sei kasuak agertzen direnean, edo latinaren gramatiketan ohikoak diren aditz-denboren eta moduen sailkapenak erabiltzen direnean. <ref type="bibr">Baina, era berean, genitibo, numero, adjektibo, superlatibo, komunztadura,</ref>   <ref type="bibr">(ik., halaber, Gómez 2007</ref><ref type="bibr">(ik., halaber, Gómez : xxxiii-xxxiv, 2008</ref>. Larramendi, aldiz, irizpide funtzionalaz baliatu zen deklinabidearen paradigmak eratzeko; hau dela eta, latinaren sei kasuak gordetzen saiatu zen, baina kasu bakoitzean ahalik eta euskarazko marka gehienak sartu zituen (ik., halaber, <ref type="bibr">Gómez 1991</ref><ref type="bibr">Gómez , 2007</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Larramendiren deklinabide-paradigma</head><p>Atal honetan Larramendiren gramatikako lehenengo deklinabide-paradigmak aurkeztuko ditut, hurrengo ataletan aztertuko ditugun autoreen analisiekin erkatu ahal izateko. Izan ere, xix. mendean latinaren ereduari jarraitu zioten autore gehienek, neurri handi batean, Larramendiren eskema hartu zuten aintzat. Areago, zenbaitek osoki hartu eta itzuli besterik ez zuten egin, berehala ikusiko dugunez. Hurrengo paradigmak egoki ulertzeko, oroit bedi Larramendiren iritziz euskaran artikulua deklinatzen dela (cf. <ref type="bibr" target="#b19">Gómez 2001</ref><ref type="bibr">Gómez , 2007</ref>; beraz, haren gramatikan agertzen diren aurreneko bi paradigmak gainerakoen oinarri izango diren artikulu singular eta pluralarenak dira:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Singular.</head><p>Plural. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nom</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Charpentier (1823)</head><p>Johann von Charpentier geologo saxoniarrak Baigorriko hizkeraren deskribapen bat utzi zigun eskuizkribu autografo batean, amaitu gabe gelditu zen Pirinioei buruzko monografia batean sartzeko asmoz. Eskuizkribua, Hurchek (2002) argitaratua, gramatika labur batez eta 1.400 bat sarrerako hiztegi batez osatuta dago; xehetasunetarako, ik. <ref type="bibr">Hurch (2002: 113-124</ref>  <ref type="bibr" target="#b8">(Charpentier 1823</ref><ref type="bibr" target="#b8">(Charpentier [2002</ref> Charpentierrek kasuak eta postposizioak bereizten ditu, bigarren sailean lekudenborazko atzizki batzuk <ref type="bibr">(an, etan; baithan; goa, koa; at, rat, tara; era, tera; eco; taco)</ref> eta bestelakoren bat <ref type="bibr">(gabe, quin, z, gaindi) sartuz (1823 [2002: 128-129]</ref>). 2 Irizpide hori buruan, aise ohartzen da ablatiboaren barnean kokatu duen -ganik, kasu-atzizkia baino, postposizioa izatetik hurbilago dagoela: "Der Ablativ ganic scheint eher eine Postposition, als eine wirkliche Casusendigung zu seyn" <ref type="bibr">(1823 [2002: 127]</ref>).</p><p>Artikulu mugatuaren eta izen berezien paradigmak aurkeztu ondoren, Charpentierrek artikulu mugagabeari eskainitako atal bat dakar ("Declination des unbestimmten Artikels"), bokatiboa ez gainerako kasuak agerraraziz:</p><formula xml:id="formula_0">Nom. Oguiric, Brod Harag&lt;u&gt;iric, Fleisch Gasnic, Käse Gatcic, Salz Gen.</formula><p>Oguieco, __ Haraguieco, __ Gasneco, __ Gatceco, __ Dat.</p><p>Oguiri, __ Haraguiri, __ Gasneri, __ Gatceri, __ Acc.</p><p>Oguiric, __ Haraguiric, __ Gasnic, __ Gatcic, __ Abl.</p><p>Oguitic, __ Haraguitic, __ Gasnitic, __ Gatcitic, __ <ref type="bibr" target="#b8">(Charpentier 1823</ref><ref type="bibr" target="#b8">(Charpentier [2002</ref> Hurchek ohartarazi bezala <ref type="formula">(2002: 122)</ref>, deklinabide mugagabea erakusteko Charpentierrek izen zenbakaitzak hautatzen ditu eta paradigma mugaturako, ordea, pertso na-izenak (aita, ama). Zernahi gisaz, Charpentier ez bide da konturatzen euskaran mugatu / mugagabe bereizketa ezin dela alemanez artikulu zehaztu / zehaztugabe bereizketarekin parekatu, paradigma bakoitzari ezarritako izenburuek aditzera ematen duten bezala.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Garay de Monglave (1828)</head><p>Eugène Garay de Monglave faltsutzaile ospetsuak gramatika izengabe bat aurkeztu zuen 1828an Parisen deitu zen Volney Sarira; eskuizkribua egun Frantziako Institutuan gordetzen da. 3 Deklinabidearen aurkezpen orokorra "Le substantif" atalaren barruan dago eta eskuizkribuko 25-31. orrialdeak hartzen ditu. Hona hemen Garay de Monglavek ematen dituen lehenengo deklinabide-paradigmak, Larramendirenetatik zuzen-zuzenean hartuak: Aitarenarenarenganicacoarenarena, celui de celui de celui de celui de celui du pere, &amp;c. <ref type="bibr">(Harriet 1741: 449)</ref> Sixiéme degré du nominatif.</p><p>Sing. nominatif aitarenarenarenganicacoarenarena, celui de celui de celui de celui de celui du père. génit -aitarenarenarenganicacoarenarenaren, de celui de celui de celui de celui de celui du père. dat. -aitarenarenarenganicacoarenarenari, à celui de celui de celui de celui de celui du père. abl. -aitarenarenarenganicacoarenarenarequin, avec celui de celui de celui de celui de celui du père.</p><p>(Garay de Monglave 1828: 31)</p><p>Horrekin ixten du Garay de Monglavek substantiboari buruzko atala. Hurrengo orrialdeetan Larramendiren gramatikako atal gehiago kopiatzen ditu eta horietan ere deklinabide-paradigmak agertzen dira, izenordainenak kasu, 48. orrialdean adi tza ri buruzko atala hasi arte.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Hiriart (1840)</head><p>Hiriart eskola-maisu baionarrak oinarrizko gramatika didaktiko bat ondu zuen, helburu praktiko garbi batekin: maisu-maistrei gramatikako eskolak prestatzen laguntzea (1840: v). Horregatik, hitzaurrean, euskara sakonkiago ezagutu nahi dutenei Lécluse eta Darrigolen gramatiketara jotzea gomendatu zien:</p><p>Si les Amateurs désiraient connaître un peu à fond les nuances de la Langue Basque, je leur conseillerais de recourir à la Grammaire de M. Lecluse, ainsi qu'à la savante dissertation de M. l'abbé Darrigol, ancien Supérieur du Grand Séminaire de Bayonne. <ref type="bibr">(Hiriart 1840: iv)</ref> Berez bi obra daude Hiriarten liburuaren barruan, bakoitzak oso ezaugarri desberdinak dituela: batetik, "Introduction à la Langue Française et à la Langue Basque" (i-xii eta 1-169. or.), funtsean deklinabide eta aditz paradigmez osatua; bestetik, "Grammaire française par demandes et par réponses, Faisant suite à l'Introduction à la Langue Basque et à la Langue Française, destinée spécialement pour les Écoles du Pays Basque" (171-219. or.), galde-erantzunen bidez antolatutako definizio eta "dotrina" gramatikalak biltzen dituena.</p><p>Euskararen izen morfologiari eskainitako zati handienean, sei kasuko paradigmak aurkezten ditu Hiriartek (1840: 1-28 Paradigma horien ondoan, Hiriartek ez du inolako oharrik egiten kasuen erabilera azaltzeko. Baina hitzaurrean ergatibotasunari buruzko azalpen labur bat ematen du, eredu latindarrean oinarritzen diren beste euskal gramatika batzuetan dagoenaren antzekoa, aldeak alde (cf. Larramendi 1729: 4):</p><p>Dans une Proposition, un substantif terminé en ac, prouve qu'il est un sujet singulier d'un Verbe actif, tandis que la même terminaison en ac, pourra être le nominatif pluriel d'un verbe passif ou intransitif, etc. La terminaison ec remplit le rôle d'un sujet pluriel d'un Verbe actif. <ref type="bibr">(Hiriart 1840: vii)</ref> Hala eta guztiz ere, izen morfologiari buruzko orrialdeen ama ieran Hiriartek ohar bat gaineratzen du, non bestelako ikuspegi bat aurkezten digun, hamabi edo hamahiru kasuko zerrenda posible dela adieraziz, baina kasuen izenik eman gabe:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>OBSERVATION.</head><p>On doit avoir remarqué dans les exercises de cet Opuscule, que j'ai suivi, quant aux déclinaisons, le système de nos devanciers; mais on verra par les désinences du nom ce-après décliné, qu'on pourrait porter le nombre des cas au lieu de six, à douze ou treize; il est permis de désirer que quelque bon génie s'avise de nous imposer la dénomination et le nombre des cas à cet égard. <ref type="bibr">(Hiriart 1840: 42)</ref> Eta jarraian paradigma hau eskaintzen du:  <ref type="bibr">á, ác, arén, aréna, arí, aréntzat, á, ó, á, aréquin, agátic, agábe, án, eán, agán,</ref>   <ref type="bibr">ác, en, ena, enac, ai, entzat, ac, ó, á, acquin, acgatic, acgabe, etan,</ref> les. des. aux, pour les. les. ô. avec les. par les. sans les. dans les. <ref type="bibr">(Blanc 1854: 10)</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Lardizabal (1856)</head><p>Franko idatzi da Lardizabalen gramatikak Larramendirenari zor dionaz eta zor horren arrazoiez; azkenak, nik dakidala, <ref type="bibr" target="#b32">Mujika (2006</ref><ref type="bibr">) eta Oyharçabal (2006</ref>  Ribáry ez da hor gelditzen eta hurrengo orrialdeetan <ref type="bibr">(1866 [1877: 19-20]</ref>) "erlazio-atzizki" eta postposizioen zerrenda luze bat ematen du, kasu adberbialak beste era batean antolatuz. Erlazio-hizki gehienei deitura bat jartzen die, bakoitzaren frantsesezko itzulpenak gehitzen ditu eta inoiz hungarierazko ordainekin osatzen ditu; ondoren euskarazko adibideak eta haien frantsesezko itzulpenak datoz. Aurkezpen hau gehiago ez luzatzearren, ez dut zerrenda osoa hona ekarriko; aldiz, interesgarria iruditzen zait haren aurretik zerrenda aurkezteko Ribáryk dioena: Je vois, dans la partie de mes grammaires consacrée à la syntaxe, à propos de la préposition et de l'article français et espagnol de, des qui, nous le savons, ne sont pas seulement des expressions de génitif, mais correspondant dans les idiomes de notre famille [hots, uralikoak] 11 soit à divers suffixes relatifs, soit à divers mots de relations (postpositions), -que les grammairiens, ne sachant pas se reconnaître au milieu des suffixes analogues de la langue basque, les ont traités comme des postpositions et des adverbes. <ref type="bibr">(1866 [1877: 18])</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9.">Gèze (1873)</head><p>Louis Gèze frantsesaren gramatikan eredu latindarraren e ragin apalagoa aurkitzen dugu. Alde batetik, deklinabide mugagabea eta mugatua bereizten ditu (1873: 11) 12 eta, bestetik, guztira hamalau kasu aurkezten ditu. Zernahi gisaz, hamalau kasu horiek latinaren sei kasuko eskemari egokitzen dizkio: "Nous distinguons quatorze cas: trois nominatifs, un vocatif, deux génitifs, quatre datifs, deux accusatifs et deux ablatifs" <ref type="bibr">(Gèze 1873: 7)</ref>. Ohartarazi behar da nominatibo eta akusatibo "dubitatif" deitzen dituenak -partitiboa, alegia-mugagabean baizik ez dituela sartzen, espero bezala, eta bokatiboa, aldiz, mugatu singular eta pluralean. Horiek horrela, Gèze-ren paradigma mugagabean hamahiru kasu agertzen dira, eta mugatuetan hamabi.</p><p>Ondorioz, Gèzeren paradigmetan ikusmolde morfologikoaren eta eredu la tin darraren arteko konbinaketa bat aurkitzen dugu, hurrengo tauletako lehen eta bigarren zutabeetan aski ongi islatzen den bezala: </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>pertsona edo aditz-modu bezalako adigai teorikoak eta terminoak erabiltzea ere latindar gramatikaren eraginaren barruan sartzen da, eta ez gara halakoez hain erraz ohartzen. Zernahi gisaz, artikulu honetan aztertuko ditudan gramatikariei dagokienez, "latinaren ereduaren eragina" lehenengo adieran erabiliko dut eta, ondorioz, latinaren ereduaren eragina iritziko diot funtsean bi numero eta sei kasuko paradigma gordetzeari.</figDesc><table><row><cell>xix. mendea arte euskal gramatikagintzaren ekoizpena eredu klasikoaren menpe</cell></row><row><cell>dago, Europako Mendebaldean bezala. Halakoxeak agertzen zaizkigu, esaterako,</cell></row><row><cell>Oihe nar ten (1638/1656) eta Larramendiren (1729) lanak, garai hartako gramatika-</cell></row><row><cell>lanik garrantzitsuenak. Oso kasu bakanetan lortu zuten autoreok latinaren eta Ber-</cell></row><row><cell>piz kun de ko gramatikagintza arruntaren ereduetatik aldentzea eta euskararen azterketa</cell></row><row><cell>beregaina erdiestea. Latinaren ereduari jarraitu zioten euskalariek, ezinbestean, zailta-</cell></row><row><cell>sun nabarmenak izan zituzten euskal gramatikaren zenbait ezaugarri egoki des kri ba-</cell></row><row><cell>tze ko, baita sarriegi haietaz konturatzeko ere. Izen morfologiari dagokionez, eredu la-</cell></row><row><cell>tindarrak muga aski estuak ezartzen zituen: bi numero -singularra eta plurala-eta</cell></row><row><cell>sei kasuko deklinabidea eskaintzen zituen izenaren flexioa deskribatzeko. Hortaz, eus-</cell></row><row><cell>kararen paradigma mugagabea, morfologia ergatiboa, partitiboa eta kasu adberbia-</cell></row><row><cell>lak -leku-denborazkoak, instrumentala, destinatiboa, soziatiboa, etab.-azaltzea ez</cell></row><row><cell>zaizkie erraz gertatuko euskal gramatikari zaharrei. Ildo honetan, Oyharçabalek (1993,</cell></row><row><cell>1994) ederki aztertu eta konparatu zituen Oihenarten eta Larramendiren lanek arazo</cell></row><row><cell>hauei emandako irtenbideak: Funtsean, irizpide morfologiko edo formalari jarraituz,</cell></row><row><cell>Oihenartek kasuen eta hizkien arteko bana-banako egokitasuna ezarri zuen</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>). Charpentierrek ez du bere lanean euskal iturririk aipatzen eta, beraz, ezin dugu ziur jakin aurreko gramatika-lanak eza gu tzen zituen, nahiz eta Hurchek (2002: 123, 159. oh.) iradokitzen duen Humboldt (1817) ezagut zezakeela. Eredu latindarrari jarraitzen dioten euskal gramatikari gehienek bezala -Mikoleta litzateke salbuespen ezagunena (cf. Alberdi 1989)-, Charpentierrek egungo absolutiboa eta ergatiboa nominatiboaren barruan sartzen ditu, subjektuek har di tza keten kasuak baitira. Halarik ere, antzematen dien aktibo/pasibo bereizketak gidaturik, Charpentier ez bide da konturatzen nominatibo "pazientea" eta akusatiboa formalki berdinak direla; ohar bedi hautatu dituen adibideetan eraikuntza ergatiboek ez dutela ageriko objekturik (cf. Hurch 2002: 121): Der Nominativ in ac u. ec ist handelnd, der in a und ac (im Plural) ist leidend. Z.B. Aitac maitatcen du, der Vater liebt Aitec ikhusten dute, die Väter sehen Aita maitatu da, der Vater wird geliebt Aitac ikhusi dire, die Väter werden gesehen.</figDesc><table><row><cell cols="5">Deklinabidearen paradigmetan latinaren sei kasuak erabiltzen ditu, baina ez dugu</cell></row><row><cell cols="5">Larramendiren kasu-sistemaren zantzurik aurkitzen, ez bada paradigmari emandako</cell></row><row><cell cols="4">izenburuan ("Artikulu mugatuaren deklinabidea"):</cell><cell></cell></row><row><cell></cell><cell></cell><cell cols="3">Declination des bestimmten Artikels</cell></row><row><cell></cell><cell></cell><cell>Singularis</cell><cell></cell><cell>Singularis</cell></row><row><cell>Nom.</cell><cell>Aitac-Aita</cell><cell>der Vater</cell><cell>Amac-ama</cell><cell>die Mutter</cell></row><row><cell>Gen.</cell><cell>Aitaren</cell><cell>(man spricht aitain) des__</cell><cell>Amaren</cell><cell>(man spricht amain) der __</cell></row><row><cell>Dat.</cell><cell>Aitari</cell><cell>dem __</cell><cell>Amari</cell><cell>der __</cell></row><row><cell>Acc.</cell><cell>Aita</cell><cell>den __</cell><cell>Ama</cell><cell>die __</cell></row><row><cell>Voc.</cell><cell>Aita</cell><cell>oh __</cell><cell>Ama</cell><cell>oh __</cell></row><row><cell>Abl.</cell><cell>Aitaganic</cell><cell>von dem __</cell><cell>Amaganic</cell><cell>von der __</cell></row><row><cell></cell><cell></cell><cell>Pluralis</cell><cell></cell><cell>Pluralis</cell></row><row><cell>Nom.</cell><cell>Aitec-Aitac</cell><cell>die Väter</cell><cell>Amec-Amac</cell><cell>die Mütter</cell></row><row><cell>Gen.</cell><cell>Aiten</cell><cell>der __</cell><cell>Amen</cell><cell>der __</cell></row><row><cell>Dat.</cell><cell>Aiter</cell><cell>den __</cell><cell>Amer</cell><cell>den __</cell></row><row><cell>Acc.</cell><cell>Aitac</cell><cell>die __</cell><cell>Amac</cell><cell>die __</cell></row><row><cell>Voc.</cell><cell>Aitac</cell><cell>oh __</cell><cell>Amac</cell><cell>oh __</cell></row><row><cell>Abl.</cell><cell>Aitenganic</cell><cell>(man spr. aitetaic) von den</cell><cell>Amenganic</cell><cell>(m. spr. ametaic) von den</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">(Charpentier 1823 [2002: 126])</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>edo behin ia hitzez hitz errepikatu ere. Halaber, hortik aurrera Larramendiren gramatikari hertsiki atxikitzen zaio, bai paradigmetan baita azalpenetan ere: Jauna izenaren paradigma, "De otros artículos del Nombre" atala (1729: 8-11), "Declinación del nombre acompañado" atalaren hasiera (1729: 15-16) 5 eta "De los nombres proprios, y de su declinación" atala (1729: 18-19) aurkitzen ditugu Garay de Monglaverenean frantsesera itzuli, egokitu edo laburtuak.Baina eskuizkribuko 29. orrialdearen amaieratik 31.aren amaierara, berriz, iturria aldatzen du eta Harrieten nominatiboaren sei graduak kausitzen ditugu(Harriet  1741: 446-449), nahiz eta oraingoan Garay de Monglavek ahalegin bat egiten duen Harrieten paradigmak osatzeko. Ikus ditzagun, konparazio baterako, nola azaltzen diren lehenengo eta seigarren graduak bi gramatiketan:Premier degré singulier.Aita, aitac, pere le pere, aitaren du pere, &amp;c. voyez page 8. &amp; 11.</figDesc><table><row><cell cols="2">Singulier.</cell><cell>Sixiéme degré.</cell><cell>Pluriel.</cell></row><row><cell>nominatif. á, ác, le la</cell><cell></cell><cell cols="2">nominatif. ac, les.</cell></row><row><cell cols="2">génitif --arén, aréna, du, de le, de la.</cell><cell cols="2">génitif --en, ena, enac, des.</cell></row><row><cell cols="2">datif --arí, aréntzat, à, au, pour.</cell><cell cols="2">datif --ai, entzat, 4 aux, pour les.</cell></row><row><cell>accusatif --á, le la</cell><cell></cell><cell cols="2">accusatif --ac, les.</cell></row><row><cell>vocatif --ó, á. -</cell><cell></cell><cell cols="2">vocatif --ó, á. -</cell></row><row><cell cols="2">ablatif --aréquin -avec le ou la</cell><cell cols="2">ablatif --acquin -avec les</cell></row><row><cell cols="2">agátic -par le ou la</cell><cell></cell><cell>acgatic -par les</cell></row><row><cell cols="2">agábe -sans le ou la</cell><cell></cell><cell>acgabe -sans les</cell></row><row><cell cols="3">án, eán, agán, dans ou en le ou la</cell><cell>etan, dans ou en les.</cell></row><row><cell></cell><cell></cell><cell cols="2">(Garay de Monglave 1828: 25-26)</cell></row><row><cell></cell><cell></cell><cell>4</cell></row><row><cell cols="4">Jarraian, Garay de Monglavek Larramendiren oharrak (1729: 4-7) errepikatzen</cell></row><row><cell cols="4">ditu, inoiz (Harriet 1741: 446-447)</cell></row><row><cell></cell><cell cols="3">Premier degré du nominatif.</cell></row><row><cell cols="2">Singulier. nominatif aita le père</cell><cell></cell></row><row><cell cols="3">génitif --aitaren du père</cell></row><row><cell>datif --</cell><cell>aitari au père</cell><cell></cell></row><row><cell cols="3">ablatif --aitarequin du père ou avec le père</cell></row><row><cell></cell><cell></cell><cell></cell><cell>(Garay de Monglave 1828: 30)</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>Nominativo . . . . el, la . . . . . . . . . . . . . a, ac (1) Genitivo . . . . . . . de el, de la . . . . . . . . . aren lo de el, lo de la . . . . . arena los de el, los de la . . . arenac Dativo . . . . . . . . á, á el, á la . . . . . . . . . ari para el, para la . . . . . arentzat . . . . . . . arentzaco . . . . . . . arendaco. Acusativo . . . . . . el, la . . . . . . . . . . . . . a Vocativo (sin artículo) . . . . . . . . . . . . . . a Ablativo . . . . . . . con el, con la . . . . . . . arequin . . . . . . . agaz . . . . . . . . . . . arequí. por el, por la . . . . . . . agatic . . . . . . . . agaiti . . . . . . . . . . agatic. sin el, sin la . . . . . . . . agabe, abague . . abaga, abagaric . . . agabe, abague. en el, en la . . . . . . . . an, ean, agan numero plural. Nominativo . . . . los, las . . . . . . . . . . . . ac Genitivo . . . . . . . de los, de las . . . . . . . en lo de los, lo de las . . . ena los de los, los de las . . enac Dativo . . . . . . . . á, á los, á las . . . . . . . ai para los, para las . . . . entzat . . . . . . . . entzaco . . . . . . . . . endaco. Acusativo . . . . . . los, las . . . . . . . . . . . . ac Vocativo (sin artículo) . . . . . . . . . . . . . . ac Ablativo . . . . . . . con los, con las . . . . . acquin . . . . . . . . aecaz, acaz . . . . . . aequí. por los, por las . . . . . acgatic . . . . . . . . acgaiti . . . . . . . . . acgatic. sin los, sin las . . . . . . acgabe, acbague . acbaga, acbagaric. . acgabe, acbague. en los, en las . . . . . . . etan, acgan Ferencz Ribáry hungariarrak, euskaraz ia ezer jakin gabe, euskal gramatika bat argitaratu zuen 1866an, bere ama-hizkuntzan idatzia, baina ezagunago bihurtu zen urte batzuk geroago Vinsonek prestatutako frantsesezko itzulpenari esker. Bestalde, Vinsonek itzulpena osatu zuen hitzaurre batekin, ohar sorta luze batekin eta biblio-grafia eranskin batekin. Ribáryren datu-iturri nagusiak Larramendi eta Lardizabalen Pluriel.</figDesc><table><row><cell>Nomin.</cell><cell>ečeak</cell><cell></cell><cell>kuttnä</cell></row><row><cell cols="4">Gén. Dat. dira. Deklinabidearen paradigmak eta oharrak aurkezterakoan, Lardizabalek Larra-ečeen, ečeena, ečeenak kuttnen izan ečeaí, ečeencat kuttnendi Acc. ečeak kuttnen mendirenak osatzen, egokitzen eta berrantolatzen ditu, gauza gutxi erantsiz. Hala, ar-Soc. ečeakkin kuttnen marhta tikulu singularraren eta pluralaren deklinabideari dagozkion paradigmetan, gipuzke-Caus. ečeakgatik kuttnen pačk razko "artikuluei" bizkaierazkoak eta nafarrerazkoak gehitzen dizkie, desberdinak Carit. ečeakgabe -direnean; gainera, Larramendik ezarritako azentuak kentzen ditu eta itzulpenen an-Loc. ečeetan kuttnen-esa tolamendua zertxobait zehazten du: (Ribáry 1866 [1877: 17-18])</cell></row><row><cell cols="4">numero singular. Guipuzcoa. Ribáryk adie razten du euskal gramatikariek -frantses eta espainiarrek, dio be-Vizcaya. Navarra. rak-egun kasu adberbialak deitzen ditugunak ablatiboaren barruan sartu dituztela</cell></row><row><cell cols="4">eta, ondorioz, ez dutela ulertu benetako erlazio-atzizkiak direla (1866 [1877: 18]).</cell></row><row><cell cols="4">Aurreko gramatikariei leporatzen dien okerrari erantzuteko, erlazio-atzizkien honako</cell></row><row><cell cols="2">taula hau proposatzen du: 9 10</cell><cell></cell></row><row><cell></cell><cell></cell><cell cols="2">ait "père", aitá "le père" 9</cell></row><row><cell></cell><cell></cell><cell>Singulier.</cell><cell>Pluriel.</cell></row><row><cell></cell><cell>aitárekin</cell><cell>avec le père</cell><cell>áitakkin</cell></row><row><cell></cell><cell>aitagátik</cell><cell>par le -</cell><cell>áitakgatik</cell></row><row><cell></cell><cell>aitagábe</cell><cell>sans le -</cell><cell>áitakgabe</cell></row><row><cell></cell><cell cols="2">aitán, aitean dans le -aitagán.</cell><cell>áitetan</cell></row><row><cell></cell><cell>aitaz</cell><cell>sur le -</cell><cell>aitakaz</cell></row><row><cell></cell><cell>aitez</cell><cell>avec le -</cell><cell>aitakez</cell></row><row><cell></cell><cell>aitez</cell><cell>du (ex) -</cell><cell>aitakez 10</cell></row><row><cell></cell><cell></cell><cell cols="2">(Ribáry 1866 [1877: 18])</cell></row><row><cell></cell><cell></cell><cell></cell><cell>(Lardizabal 1856: 2)</cell></row><row><cell cols="2">8. Ribáry (1866 [1877])</cell><cell></cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">Ez ditu postposizio guztiak zerrendatu nahi, bere ustez erabilienak direnak baizik: «Es giebt eine ziemlich große Anzahl von diesen Postpositionen; allein die am häufigsten vorkommenden sind folgende»<ref type="bibr" target="#b8">(Charpentier 1823</ref><ref type="bibr" target="#b8">(Charpentier [2002</ref>). 3 Beste lan batean (Gómez 2003b) 1829ko Volney Sariari eta bertan parte hartu zuten gramatikei buruzko xehetasunak eman nituen. Orduan adierazi nuen Garay de Monglavek, funtsean, Larramendiren eta Harrieten gramatiketatik kopiatu zuela. Orain gehitu ahal dut gutxienez D'Alembert eta Dideroten Entziklopediatik ere hartu bide zuela ezer. Esaterako, gramatikaren zatiketari dagokiona honela dator Garay de Monglaveren eskuizkribuan (1828: 25): «ce qui partage naturellement l'art de parler en deux parties la lexicologie et la syntaxe»; geroxeago lexikologia deskribatzen du: «La lexicologie consiste à expliquer tout ce qui concerne la connaissance des mots». Eta hauxe dakar Entziklopediako «Grammaire» artikuluak (VII, 843): «ce qui partage naturellement le traité de la parole en deux parties, qui sont la Lexicologie &amp; la Syntaxe»; eta geroxeago: «L'office de la Lexicologie est don c d'expliquer tout ce qui concerne la connoissance des mots». Garay de Monglaveren gramatikaren ediziorako uzten ditut iturri hauen eta aurki nitzakeen gainerakoen berri zehatza ematea.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">Ezkizkribuan entzac.5  Hemen sartzen du Garay de Monglavek izenari buruzko atal osoan aurki daitekeen pasarte original bakarra, itxuraz bederen (1828: 29): «On doit à ce dernier [= Baltasar Etxabe] une prosopopée originale, dans laquelle il reproche aux descendants des Espagnols, établis au Méxique, de n'avoir pas adopté la langue basque, mère de la castillane, pour se différencier de la mère-patrie. Le grammairien semble déjà présager dans cet écrit l'urgence d'une rupture politique. Malheureusement on ne répand pas aussi facilement une langue dans un pays qu'on y établit des académies et des collèges. On sait les vains efforts de Guillaume de Nassau [= Willem Frederik van Oranje-Nassau (1772-1843)] pour naturaliser le hollandais dans la Belgique, et l'on rit encore du fameux decret du docteur Francia [= José Gaspar Rodríguez de Francia (1766-1840)] ordonnant, sous peine de mort, à tout le Paraguay de parler la langue des sauvages guaranis».</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6">Blancen lanaren kritika garaikideen artean, cf., esaterako, Vinsonen hau (1877: 118): «la traduction de Blanc, écourtée, est assez défectueuse et la correction du livre laisse beaucoup à désirer. Ainsi à la p. 102 on lit cette affreuse bourde: "le verbe naizó naz"; il fallait "naiz ou naz"; ó esp. vaut "ou" disjonctif français». Honen antzeko zerbait errepikatuko du Vinsonek bere bibliografian (1891-98: 51d).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">Talde mordvinikoan bi dialekto daude, erzya eta moksha (ik, besteak beste, Raun 1988); zenbaitek bi hizkuntza berezitzat hartu dituzte, bakoitzak bere aldaera estandarra izanik. 8 Jatorrizkoan eceá.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9">Vinsonek paradigmaren oinarria zuzentzen du ohar batean (1877: 102): «Nous avons déjà vu que "père" est aita (note 17)». Eta aurreragoko ohar horretan hauxe dakar (1877: 101): «"Père" se dit aita et non ait; cf. aita bat "un père"; aita "le père" est pour aita-a, comme le prouve la variété dialectale aitea où l'a thématique est affaibli en e devant l'article a».10  Oraingoan ere Vinsonek Ribáryren huts batzuk zuzentzen ditu ohar batean (1877: 102): «Le suffixe z dans son emploi le plus général marque l'instrumental.aitaz est l'instrum. sing. déf. "par le père"; aitez l'in défini "par père"; aitez est aussi la forme tronquée du défini pluriel "par les pères".aitakaz et aitakez n'existent pas».</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="11">Garai hartan eta geroago ere ohi zenez, Ribáryk hizkuntza uralikoak altaikoen barruan sailkatzen zituen. 12 Hala eta guztiz ere, orrialde batzuk gorago, numeroari buruz aritzean, beste hauxe dio: «Il y a en basque comme en français deux nombres, le singulier et le pluriel» (1873: 7).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="13">Ohar bedi ez duela aditzetan komunztadura datiboa markatzen.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>gramatikak izan ziren eta euskararen gaineko hausnarketetarako <ref type="bibr">Mahn-en liburuxka (1875)</ref> erabili zuen, ordea.</p><p>Deklinabideari dagokionez, Ribáryk ere adierazten du euskaran kasu-markak artikuluari -zehazki, "le pronom démonstrarif de la troisième personne, qui joue le rôle <ref type="bibr">de l'article" (1866 [1877: 15]</ref>)-eransten zaizkiola, Larramendik uste zuenaren antzera. Singularra eta plurala bakarrik bereizten dituenez, Vinsonek ohar batean leporatzen dio mugagabeaz ez konturatzea:</p><p>16. C'est là une des plus sérieuses erreurs de M. R. Il y a au contraire en basque une double déclinaison, la définie qui consiste dans la suffixation de l'article décliné et qui a par conséquent un singulier et un pluriel, et l'indéfinie qui est produite par l'union directe au thème des particules dérivatives et n'est pas susceptible de pluralité. <ref type="bibr">(Vinson 1877: 101)</ref> Ribáry, lehenik, Larramendiren paradigmetan oinarritzen da, latinaren sei kasuak aurkeztuz: Nolanahi ere den, Gèze-k bereizten dituen kasuak latinaren eskemari egokitzean eta kasu bakoitzaren zeregina azaltzean, batez ere irizpide semantiko-funtzionala du buruan (1873: 7-10). Irizpide semantikoa bereziki nabarmena da genitiboaren eta ablatiboaren azalpenetan; irizpide funtzionala, aldiz, nominatibo eta akusatiboarenetan. Gramatikaren helburu didaktikoari dagokionez, sarri frantsesezko ordainak dira haren erreferentzia nagusiak, baina ez bakarrak. Datiboari buruzko azalpenetan, aipa tu berri ditudan irizpide guztiak konbinatzen zaizkigu:</p><p>IV. Les datifs expriment les différents rapports marqués en général en français par la préposition à.</p><p>Le datif est dit simple quand il indique une simple transmission; ex.: je dis à l'homme, gizounari erraiten dut; tu donnes à l'enfant, haurrari emaiten duzu; <ref type="bibr">13</ref> Il est dit de situation quand il indique une situation, un temps; ex.: je suis à Bayonne, Bayounan niz; à midi, eguerditan;</p><p>Ce cas exprime aussi la préposition dans; Il est dit de direction quand il indique mouvement vers un lieu, mais pour en revenir promptement ou ne faire qu'y passer; ex.: je vais à l'église (faire une petite prière), elizala banoa;</p><p>Il est dit de changement quand il indique mouvement vers un lieu pour s'y établir, ou du moins y faire un séjour; ex.: je vais à l'église (pour assister à tout l'office), elizalat banoa. <ref type="bibr">(Gèze 1873: 8-9)</ref> Artikulu honen helburua eredu latindarraren aztarnak erakustea besterik ez denez, ez dut Gèzek euskal deklinabideari buruz egiten duen analisi osoa azalduko. Amaitzeko, beraz, aipa dezadan laburki zer gehiago aurkitzen dugun Gèzeren gramatikan deklinabidearen inguruan: izen arrunten deklinabide-paradigmak <ref type="bibr">(12-19. or.)</ref> eta aldaketa morfonologikoen edo eufonien zerrenda (19-20. or.), izen berezien . Azken ohar hauetan askotariko gaiak jorratzen ditu: bizidunen atzizki bereziak; Jinco, etche eta erregue izenen deklinabide berezia; noiz erabili behar den paradigma mugagabea,</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">noiz mugatua eta noiz izen bereziena; frantsesezko de preposizioaren funtzioak; izenlagunen eraikuntza eta, azkenik, izen sintagmaren barruan gerta daitekeen mugatzailearen elipsia</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Études grammaticales sur la langue euskarienne</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Abbadie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">J A</forename><surname>Th</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Chaho</surname></persName>
+		</author>
+		<editor>A. Bertrand</editor>
+		<imprint>
+			<date type="published" when="1836" />
+			<pubPlace>Paris</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">«Ohar batzuk euskal deklinabidearen historiografiarako</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Alberdi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="67" to="90" />
+		</imprint>
+	</monogr>
+	<note>berrargit. in Gómez &amp; Lakarra (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">A</forename><surname>Añibarro</surname></persName>
+		</author>
+		<title level="m">Gramática Bascongada. L. Villasante (arg.), ASJU</title>
+		<meeting><address><addrLine>eta ASJU-ren Gehigarriak, 6, Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1970" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="3" to="169" />
+		</imprint>
+	</monogr>
+	<note>ca. 1804</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Apología de la lengua bascongada. Madril: G. Ortega [berrargit. faksim. Bilbo: Amigos del Libro Vasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">P</forename><surname>Astarloa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Valentzia: Librerías «París-Valencia</title>
+		<imprint>
+			<date type="published" when="1803" />
+		</imprint>
+	</monogr>
+	<note>Sevilla: Extramuros</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Grammmaire de la langue basque, d&apos;après celle du P. Manuel de Larramendi intitulée El imposible vencido</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S.-H</forename><surname>Blanc</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Lyon-Paris: S. H. Blanc et C ie</publisher>
+			<biblScope unit="volume">1854</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Gramática de los cuatro dialectos literarios de la lengua euskara</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Campión</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tolosa: E. López [berrargit. faksim. Bilbo: LGEV</title>
+		<imprint>
+			<date type="published" when="1884" />
+		</imprint>
+	</monogr>
+	<note>2 lib.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">1836, «Grammaire euskarienne</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Chaho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Abbadie &amp; Chaho</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="184" />
+		</imprint>
+	</monogr>
+	<note>51-234</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Charpentier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paradigmen</forename><surname>Baskischer Declinationen Und Conjugationen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Nebst Einem Kleinen Wörterverzeichnisse</surname></persName>
+		</author>
+		<title level="m">der zu Saint Etienne (Donostiÿ) Hauptdorf des Thales von Baigorrÿ bei Saint-Jean-Pied-De-Port üblichen Mundart (Biblioteka Jagiellonska: Coll.ling.quart. 44). Krakovia [ik. Hurch (arg.)</title>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="111" to="172" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Dissertation critique et apologétique sur la langue basque, par un ecclésiastique du diocèse de Bayonne</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-P</forename><surname>Darrigol</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Baiona: Duhart-Fauvet</title>
+		<imprint>
+			<date type="published" when="1827" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">«Correcciones y adiciones a la 1.ª Sección del segundo volumen de la obra intitulada el Mithridates sobre la Lengua Cantábrica o Vasca por Guillermo de Humboldt en Berlín año de 1817, en la Librería de Voss</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Gárate</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="87" to="126" />
+		</imprint>
+	</monogr>
+	<note>ik. Humboldt (1817)</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Analyse raisonée du systême grammatical de la langue basque (Archives de l&apos;Institut de France: Prix Volney, 40H10)</title>
+		<imprint>
+			<biblScope unit="page" from="Eskuizkribu argitaraga" to=" bea" />
+			<pubPlace>Paris</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Garay de Monglave, E.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Éléments de grammaire basque, dialecte souletin, suivi d&apos;un vocabulaire basque-français &amp; français-basque. Baiona: V ve Lamaignère [berrargit. faksim. Donostia: Hordago</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Gèze</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1873" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">«La aportación de W. von Humboldt a la gramática vasca</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Gómez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="607" to="622" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">«Artículo y &quot;artículo&quot; en la tradición gramatical vasca</title>
+	</analytic>
+	<monogr>
+		<title level="m">Maquieira, Martínez Gavilán &amp; Villayandre (arg</title>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="page" from="465" to="478" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Astarloaren ekarpena euskal gramatikaren ikerketetan</title>
+	</analytic>
+	<monogr>
+		<title level="m">Darrigolen gramatikaz</title>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="139" to="156" />
+		</imprint>
+	</monogr>
+	<note>ASJU</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Basque and (Paleo)Hispanic Studies in the wake of Michelena&apos;s work</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the First Conference of the Koldo Mitxelena Chair</title>
+		<editor>J. Gorrochategui</editor>
+		<meeting>the First Conference of the Koldo Mitxelena Chair<address><addrLine>Vitoria-Gasteiz</addrLine></address></meeting>
+		<imprint>
+			<publisher>UPV/EHU</publisher>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="389" to="404" />
+		</imprint>
+	</monogr>
+	<note>Lau gramatika eta sari bat</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">XIX. mendeko euskal gramatikagintzari buruzko ikerketak</title>
+		<imprint>
+			<date type="published" when="2007" />
+			<publisher>UPV/EHU</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Euskalaritzaren historiaz, I: XVI-XIX. mendeak (ASJU-ren Gehi garriak, 25)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-&amp;amp; J</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Gipuzkoako Foru Aldundia &amp; UPV/EHU</title>
+		<meeting><address><addrLine>Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">«Lo latino en las gramáticas del español</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Gómez Asencio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Maquieira, Martínez Gavilán &amp; Villayandre (arg.)</title>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="page" from="35" to="54" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Gramatica escuaraz eta francesez, composatua francez hitzcunça ikhasi nahi dutenen faboretan. Baiona: Fauvet Alarguna eta</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Harriet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Fauvet</title>
+		<imprint>
+			<date type="published" when="1741" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">1840, Introduction à la langue française et à la langue basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hiriart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Baiona: V ve Cluzeau</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Berichtigungen und Zusätze zum ersten Abschnitte des zweiten Bandes des Mithridates über die Cantabrische oder Baskische Sprache</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Humboldt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Von</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Vossische Buchhandlung</title>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1817" />
+		</imprint>
+	</monogr>
+	<note>Garateren gazt. itz. (1933-34)</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Hurch</surname></persName>
+		</author>
+		<title level="m">Die baskischen Materialien aus dem Nachlaß Wilhelm von Humboldts. Astarloa, Charpentier, Fréret, Aizpitarte und anderes</title>
+		<meeting><address><addrLine>Paderborn</addrLine></address></meeting>
+		<imprint>
+			<publisher>Schöningh</publisher>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Lécluse-ren euskal gramatika. Euskalaritzaren historiarako lanabesak (I)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Larramendiren hiztegigintzaren inguruan</title>
+		<imprint>
+			<date type="published" when="1985" />
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="813" to="916" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">B</forename><surname>Urgell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Lécluseren hiztegia. Euskalaritzaren historiarako lanabesak (II)</title>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="99" to="211" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Donostia: I. R. Baroja [berrargit. faksim. Donostia: Gipuzkoako Foru Aldundia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">I</forename><surname>Lardizabal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Gramática vascongada</title>
+		<imprint>
+			<date type="published" when="1856" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">1729, El impossible vencido. Arte de la lengua bascongada. Salamanca: A. J. Villagorde [berrargit. faksim. Donostia: Hordago</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Larramendi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1979" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">1826, Manuel de la langue basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Lécluse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Toulouse: J. M. Douladoure; Baiona: L. M. Cluzeau [berrargit. in Lakarra (1987) eta Lakarra &amp;</title>
+		<meeting><address><addrLine>Urgell</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Avec une introduction que traite de l&apos;étude de la langue basque et en même temps contient une description et caractéristique d&apos;elle</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">A F</forename><surname>Mahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RIEV</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="562" to="568" />
+			<date type="published" when="1875" />
+		</imprint>
+	</monogr>
+	<note>Berlin: Dümmler [bada fr. itz. «Monuments de la langue basque</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Actas del II Congreso Internacional de la Sociedad Española de Historiografía Lingüística, León, 2-5 de marzo de 1999</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Maquieira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">M</forename><surname>M.ª D. Martínez Gavilán</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Villayandre</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Arco/Libros</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Modo Breue de aprender la lengua Vizcayna (British Museum: Harl. 6314)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Mikoleta</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1653" />
+			<pubPlace>Londres</pubPlace>
+		</imprint>
+	</monogr>
+	<note>ik. Zelaieta</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">«Lardizabalen gramatika. Larramendirenaren bertsio &quot;didaktikoa&quot;», in F. I. Lardizabal, Gramática vascongada. Donostia: Gipuzkoako Foru Aldundia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Mujika</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="283" to="301" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Oihenart</surname></persName>
+		</author>
+		<idno>1638 [1656</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Notitia utriusque Vasconiae tum Ibericae tum Aquitanicae</title>
+		<editor>S. Cramoisy. Bigarren argit. emendatua</editor>
+		<meeting><address><addrLine>Paris; Vitoria-Gasteiz</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="page">1656</biblScope>
+		</imprint>
+	</monogr>
+	<note>Eusko Legebiltzarra</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">«Les travaux de grammaire basque avant Larramendi (1729)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Oyharçabal</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="59" to="73" />
+		</imprint>
+	</monogr>
+	<note>berrargit. in Gómez &amp; Lakarra, arg. 1992, 91-105</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Les premières analyses des particularités morphosyntaxiques du basque au 17ème siècle</title>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="265" to="284" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Oihenart</surname></persName>
+		</author>
+		<title level="m">Oihenarten Lau garren Mendeurrena (Iker, 8). Bilbo: Euskaltzaindia</title>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="27" to="47" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Abbadieren euskal gramatikari buruzko ideiak eta ordu arteko euskal gramatikagintza», in Antoine d&apos;Abbadie 1897-1997. Congrès International. Eusko Ikaskuntza. Ezohizko Kongresua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Hendaia &amp; Bilbo: Eusko Ikaskuntza &amp; Euskaltzaindia</title>
+		<meeting><address><addrLine>Hendaye-Sare</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="431" to="451" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Lardizabalen gramatikaren iturri, ezaugarri eta helburuak</title>
+	</analytic>
+	<monogr>
+		<title level="j">Euskera</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="105" to="118" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Pagola</surname></persName>
+		</author>
+		<title level="m">Neologismos en los Juegos Florales</title>
+		<imprint>
+			<date type="published" when="1984" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="53" to="160" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The Uralic Languages: Description, History and Foreign Influences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Raun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Mordvin Language», in D. Sinor (arg.)</title>
+		<meeting><address><addrLine>Leiden &amp; New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Brill</publisher>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="96" to="110" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Essai sur la langue basque. Paris: F. Vieweg. Vinsonek hungarieratik itzulia eta oharrez osatua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Ribáry</surname></persName>
+		</author>
+		<idno>1866 [1877</idno>
+		<imprint>
+			<date type="published" when="1866" />
+			<biblScope unit="page" from="426" to="474" />
+		</imprint>
+	</monogr>
+	<note>Hungarierazko lehen edizioa: «A baszk nyelv ismertetése</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Sarasola</surname></persName>
+		</author>
+		<title level="m">Larramendiren eraginaz eta</title>
+		<imprint>
+			<date type="published" when="1986" />
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="313" to="325" />
+		</imprint>
+	</monogr>
+	<note>Gómez &amp; Lakarra (arg</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Euskal hiztegigintza XX. mendea arte</title>
+		<editor>UPV/EHU. Katedrarako txosten argitaragabea</editor>
+		<imprint>
+			<date type="published" when="1998" />
+			<pubPlace>Vitoria-Gasteiz</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Larramendiren Hiztegi Hirukoitzaren osagaiez</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Urgell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskal Lexikografia</title>
+		<editor>UPV/ EHU. Doktorego tesi argitaragabea</editor>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>UPV/EHU</publisher>
+		</imprint>
+	</monogr>
+	<note>Irakaskuntza proiektu argitaragabea</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Urte</surname></persName>
+		</author>
+		<title level="m">Grammaire Cantabrique Basque (Antso Jakituna Fundazioa: ZRV 3470)</title>
+		<editor>ik. W. Webster</editor>
+		<meeting><address><addrLine>Vitoria-Gasteiz</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1712" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">1877, «Avant-propos» eta «Notes complémentaires</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Vinson</surname></persName>
+		</author>
+		<idno>x-xxv eta 99-119</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Ribáry 1866</title>
+		<imprint>
+			<biblScope unit="volume">1877</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Essai d&apos;une bibliographie de la langue basque</title>
+		<idno>1891-98</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Donostia: Gipuzkoako Foru Aldundia</title>
+		<editor>Maisonneuve [berrargit. faksim. liburuki bakarrean, J. Urquijoren oharrekin eta K. Mitxelenaren sarrerarekin (ASJU-ren Gehigarriak</editor>
+		<meeting><address><addrLine>Paris</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1984" />
+			<biblScope unit="volume">9</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Grammaire Cantabrique Basque faite par Pierre d&apos;Urte</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Webster</surname></persName>
+		</author>
+		<editor>Bagnères-de-Bigorre: D. Barot</editor>
+		<imprint>
+			<date type="published" when="1900" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Rafael Mikoletaren era llaburra</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Zelaieta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bilbo: AEK</title>
+		<imprint>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUSKARA BATUAREN GARAPEN LEXIKO-DISKURTSIBOA: BATASUNETIK ANIZTASUN FUNTZIONALERANTZ</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Agurtzane</forename><surname>Elordui</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universidad del País Vasco/Euskal Herriko Unibertsitatea)</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Igone</forename><surname>Zabala</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universidad del País Vasco/Euskal Herriko Unibertsitatea)</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">EUSKARA BATUAREN GARAPEN LEXIKO-DISKURTSIBOA: BATASUNETIK ANIZTASUN FUNTZIONALERANTZ</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In the decade of the sixties, the main concern of the experts in Basque language was how to unite the speech community. However, after forty years of Standard Basque, the objective is to develop a language that is well adapted to each register. The lexis is the key in the functional development that the adaptation to each register requires, and that is exactly what we shall study in this work. We shall analyse, from the point of view of functional diversity, the methodology of the Standard Basque Dictionary, the purpose of which is to organize the standard Basque lexicon. We reach the conclusion that Standard Basque has taken certain steps to get closer to the functional variability desideratum. However, we have also detected methodological practices that may be an obstacle in this functional development. As a result, we draw up the outline of the methodological changes that would be required to accommodate linguistic norms to the variation at the register level.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="0.">Sarrera* 1</head><p>Euskararen estandarizazio prozesua xx. mendearen bigarren erdian jarri zen abian, eta mende erdi horren barruan euskarak erregistro formaletan erronka handiei egin behar izan die aurre: hezkuntza-sisteman irakaskuntzaren behikulaziorako hizkuntza izateari, batetik, eta informazioaren eta komunikazioaren gizarteak ekarri dituen komunikazio-egoeren dibertsifikazio-beharrei, bestetik. Erronka horiei aurre egin nahian, estandar sortu berria hainbat erabilera-esparru berritan erabiltzen hasi da, eta esparru horietako erregistro-eskakizunei egokitzeko baliabide lexiko eta diskurtsiboez hornitu behar izan da. Gertaera horien ondorioz, estandarizazioan bereizi ohi diren prozesuak, hasiera-hasieratik gainezarri dira euskararen kasuan: aldi berean gertatu dira Euskara Batuaren kodifikazioa, ezarpena eta esparruz esparruko elaborazio funtzionala edo modernizazioa. Aldiberekotasun horrek zaildu ditu nabarmenki prozesu horietan guztietan egin behar diren corpus-normalizaziorako jarduerak, eta atzeratu du euskarak ezinbesteko duen aniztasun funtzionalera heltzeko irizpideak adostea eta sendotzea. * Lan honek hiru egitasmo lotzen ditu 2008 urtean aurrera eramandako GARATERM proiektua (EJIE07/07), 2009 eta 2010 urteetan aurrera eramango den EBALUA (EHU 08/53) proiektua eta 2007-2010 urte-tartean gauzatzen ari den RICOTERM-3 (HUM 2007-65966-021 FILO) proiektua.</p><p>[ASJU, XLIII, 2009, 231-246]   </p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Baina ahaleginak egin egin dira, zalantza handirik gabe. Lan honen lehen atalean azalduko dugunez, 1968an euskararen estandar baturako oinarriak jarri zirenetik hona, Euskaltzaindiak urrats sendoak eman ditu euskara estandarraren hiz kun tzaereduaren inguruko gogoetan: zenbaitetan abiatu du gogoeta hori eta, beste askotan, bideratu du euskararen corpusaren normalizazioan diharduten beste erakunde eta aditu batzuek hasitako eztabaida.</p><p>Hirurogeiko hamarkadan euskararen estandarizazioaren kezka nagusia zen euskal komunitatea nola trinkotu, nola batu; azken hamarkadetan, aldiz, estandarizazio prozesuaren erronka nagusia da nola lortu nonahi, noiznahi eta zernahirako erabil daitekeen euskara, testuinguruak eta helburu komunikatiboak bereizten dituen euskara, alegia. Gaur egun, hor dago hizkuntza-ereduaren inguruko eztabaidaren muina: zein urrats eman behar dira euskara egokia lortzeko, erregistroz erregistro euskarak egin behar duen egokitze hori bideratzeko eta ez oztopatzeko?</p><p>Eztabaida horri heldu-leku askotatik ekin dakioke eta guk nahiago izan dugu batasunerako arautik beretik hastea, arau akademikoak baitira aniztasun funtzionalaren erreferentzia-ardatza. Lan honetan hurrengo galdera hau erantzuten saiatu gara: Batasunerako Euskaltzaindiak proposatu duen araudiak, onartu eta bideratzen du aniztasun funtzionala? Gure azterketan Euskaltzaindiak plazaratu duen azken arauan jarri dugu arreta, arau lexikoan, edo Hiztegi Batuan. Bi arrazoi nagusik eraman gaituzte erabaki horretara: batetik gogoan izan dugu lexikoa erregistroz erregistroko aldakortasunaren gakoetako bat dela eta, beraz, Hiztegi Batuak arreta berezia jarri behar duela aldakortasun horretan. Bigarren arrazoia, gaiaren gaurkotasuna izan da. Estandarraren gramatikalizazioarekin lotutako urrats garrantzitsuenak aspaldian eman ziren eta, espero zitekeen bezala, garaiko kezka eta testuinguruetatik abiatuta eman ziren arau horiek. Azken hamarkada hauetan, aldiz, lexikalizazioa da euskararen kodifikazioaren arreta-gune nagusia eta hiztegiaren kodifikazioak ezin ditu saihestu oraingo kezkak eta erronkak: hiztegiaren kodifikazioan ezin da ahaztu euskararen garapen funtzionalak ezinbestekoa duen hiztegiaberastasuna.</p><p>Gure azterketan, aniztasun funtzionalera hurbiltzen gaituzten aurrerapausoak hauteman ditugu Hiztegi Batuan, baina baita, gure ustez, bide horretan oztopo izan daitezkeen praktika metodologikoak ere. Bien inguruan arituko gara lan honen bigarren atalean eta, bide batez, saiatuko gara azaltzen gure ustez erregistroz erregistroko aniztasuna kontuan hartzen duen batasunerako arautzeak ezinbestez ekarri behar dituen zenbait aldaketa metodologiko.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Batasunetik aniztasun funtzionalerantz</head><p>1968an euskararen estandar baturako oinarriak jarri zirenetik hona, urrats sendoak eman ditu Euskaltzaindiak euskara estandarraren hizkuntza-ereduaren inguruko gogoetan. Hurrengo ataletan hizkuntza-ereduaren gogoeta horretan batasunetik aniztasun funtzionalera Euskaltzaindiak egin duen ibilbidearen gida-lerro nagusiak azalduko ditugu: hizkuntza-ereduaren gogoeta piztu duten kezkak, corpus-normalizazioan ezarri diren helburuak eta helburu horietara heltzeko ezarri diren irizpide nagusiak, hain zuzen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1.">Euskara batzea euskal komunitatea trinkotze aldera</head><p>xx. mendearen erdialdean euskararen komunitatea hainbat komunitatetan zatikatuta zegoen, eta komunitate horietako hiztunen arteko komunikazioa errazteko eta bideratzeko, eta horrela euskal komunitatea trinkotzeko, hil ala bizikotzat hartu zen hiztun guztientzat balio zezakeen erreferentziazko hizkuntza-eredu bat izatea, estandar batu bat izatea alegia.</p><p>Halako hizkuntza-eredu bat finkatzeko saio ugari egon ziren euskararen historian zehar xvi. mendetik (ik. <ref type="bibr" target="#b26">Zuazo 1988</ref><ref type="bibr" target="#b26">Zuazo , 2005</ref>, baina 1968ra arte ez zen lortu estandar horren kodifikaziorako oinarrizko irizpideak finkatzea. Hirurogeiko hamarkadan, eta bereziki 1968an, Arantzazuko Biltzarrean, ezarri ziren estandarraren grafizaziorako eta gramatikalizaziorako irizpideak. Mitxelenak (1968) proposatutako irizpide soziolinguistiko eta linguistikoetatik abiatuta aukeratu zen Euskara Baturako eredu konposizionalaren profila, eta irizpide horietan oinarritu ziren Euskaltzaindiak geroko hamarkadetan estandarrerako hartutako erabakiak ere <ref type="bibr" target="#b25">(Villasante 1994)</ref>.</p><p>Mitxelenaren irizpideetan bi ardatz nagusi bereiz daitezke: batetik, irizpide soziolinguistikoak, bereziki komunitatearen trinkotzearekin lotuak eta, bestetik, irizpide historikoak. Irizpide soziolinguistikoek izan zuten lehentasuna euskararen estandarizaziorako hautapen-fasean, batez ere eredu konposizionala erabakitzeko orduan eta eredu horren profila definitzeko orduan ere. Mitxelenak proposatu bezala, euskararen trinkotze prozesua aurrera eramateko epizentrotzat erdiko euskalkiak (gipuzkera, lapurtera eta goi-nafarrera) hartu ziren. Bestalde, euskal komunitatearen trin ko tzera ko eragozpenik handiena iparraldearen eta hegoaldearen artean zegoen haustura zen, eta horri erreparatu behar zion Euskara Batuaren diseinuak.</p><p>Irizpide historikoek garrantzi handia izan zuten kodifikazioaren lan teknikoa egiteko unean. Mitxelenak argi ikusten zuen euskara batu idatzia euskarak tradizio idatzian landutako baliabide diskurtsiboetatik abiatu behar zela: «Euskara idatziaz ari garenez gero, hedadura zabalago hori hitzek euskal-literaturan euskal-irakurgaietan, duten eta izan dutena da» <ref type="bibr" target="#b17">(Mitxelena 1968)</ref>. Baina, hala ere, euskal komunitatea trinkotzeak zuen erabateko lehentasuna Mitxelenaren batasunean. Literatur tradizioaren ekarpenean ere irizpide diasistemikoak ezarri behar zuen iparra: literatur tradizioan eginiko aukeren artean hizkuntzaren egitura globalizatzaileei eman behar zitzaien lehentasuna. Mitxelenak 1968an euskararen estandarizaziorako proposatu zuen ardatz berritzaileena ere, ildo horretatik zihoan: antzinako euskararekin loturiko ardatzak euskara bat eta batua zen garaiko euskara hartzen zuen erreferente garran tzitsu tzat <ref type="bibr" target="#b17">(Mitxelena 1979</ref><ref type="bibr" target="#b25">, Villasante 1994</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2.">Euskara Batua, tradizioaren bideetatik</head><p>Laurogeita hamarreko hamarkadarako ortografia eta oinarrizko morfologia (aditzjokadura eta izen-sintagmaren jokadura) finkatzeko gomendio-multzoak emanak zeuden. Hori zen garai hartan Euskara Batua, idazketa-eredu bat, besterik ez (Oyharça bal 1993). Joskerarekin eta lexikoarekin loturiko gomendio eta arauak hamarkada horretan ematen hasi ziren. Ordurako euskara estandarra ezarrita zegoen normalizaziorako gako diren erabilera-eremuetan, alegia, irakaskuntzan, administrazioan eta komunikabideetan, neurri handiagoan edo txikiagoan eta, hain zuzen, esparru horie-tan izandako erabileraren ebaluazioak ekarritako kezka berriek gidatu zuten urte horietako corpusaren normalizazioa. Garai hartan, euskararen kalitatearen eztabaidak zuzentasunean jarri zuen arreta, gramatika-zuzentasunean nagusiki. Euskaltzaindiak 75. urteurrena ospatzeko 1994an Leioan egin zuen bil tzarrean eta, urte berean, Euskaltzaindiko Jagon Sailak euskararen erabilera zuzenari buruz egin zituen jardunaldietan, agerian geratu zen euskararen batasunak ez ezik, euskararen erabilera zuzenak ere kezkatzen zuela Euskaltzaindia.</p><p>Euskaltzaindiak 1994an Leioan egin zuen biltzarra, eta bereziki joskerari begira Gramatika Batzordeak eginiko proposamenak, Euskara Batuaren ezarpenaren ebaluaziotik abiatuta egin ziren, eta ezarpenaren hasierako diagnosiek agertzen zuten egoera kezkagarriari erantzutea zuten helburu. Une hartako kezka Euskara Batuaren esparrua gainditu eta euskara osora zabaldu zen: «hemen auzian dagoena ez da batasuna, hizkuntza bera baizik» esaten digu Salaburuk biltzar hartan batasunaren erronka berriak aldarrikatzeko orduan <ref type="bibr">(Salaburu 1994: 682)</ref>. Tradizio idatzi eta mintzatutik urruntzen zen Euskara Batua, eta Euskaltzaindiak, batasuna bi de ra tze ko arauak ez ezik, hiztunen gaitasun ezaren ondorioz zabaltzen zihoazen egitura ez-gramatikalak zuzentzeko arauak ere proposatu behar zituen (Gramatika <ref type="bibr" target="#b11">Batzordea 1994)</ref>. Arautegi Berrian estandarraren gramatikalizaziorako eman ziren arau zuzentzaile horietan, beraz, irizpide historikoek eta haietan tradizio idatziak hartu zuten lehentasunezko lekua. Era berean, Hiztegigintza Batzordeak aurrera eramandako Orotariko Euskal Hiztegia (OEH) hartu zen abiapuntu nagusitzat 1995etik ka le ra tzen hasi zen Hiztegi Baturako ere <ref type="bibr" target="#b0">(Aduriz 1994</ref><ref type="bibr" target="#b20">, Salaburu 2008</ref>.</p><p>Baina Euskara Batuaren erabileraren diagnosiek bestelako gogoetak ere ekarri zituzten laurogeita hamarreko hamarkadan: Euskara Batuaren jatortasun eta bizitasun falta horien artean nabarmena. Jatortasun faltak, euskararen estandarizazioaren hasieratik bizirik izan den gogoeta berpiztu zuen: euskalkiek Euskara Batuari egin ziezaioketen ekarriaren inguruko gogoeta hain zuzen. Horren adibide argiak dira 1996an Aitzolen mendeurrena ospatzeko Jagon Sailak antolatutako jardunaldiak. Jardunaldi horietan Beñat Oyharçabalek azpimarratzen du beste behin ere Eus kaltzain diak hizkuntza-ereduaren garapenean euskalkiek izan behar duten ekarriaz duen iritzia: «Hiztegiaren aldetik hitz guztiak, euskalki guztietakoak, onartzen dituela, euskal altxorrekoak diren ber, inongo hitzik baztertu gabe» eta muga mota bera edo bertsua ikusten duela estilistikako kontuetan ere: Euskararen joskera errespetatzen den puntutik, nork bere esku baitu adierazpideak eta esamoldeak euskalkitik hartzeko aukera.</p><p>Urrunago doa Euskaltzaindia Euskara Batuaren eta euskalkien arteko hartu-emanaz egindako adierazpenetan, berariaz aldarrikatzen baitu Euskara Batuko eta eus kalkie ta ko adierazpideek, idatzizkoek nahiz ahozkoek, elkarren aberasgarri izan behar dutela: euskalkietako formek berezko bidea izan behar dutela Euskara Batuko baliabideen artean, besteak beste, hiztegian, sintaxian eta esapideen arloan (Eus kal tzaindia 2004: 4).</p><p>Laurogeita hamarreko hamarkadan, beraz, Euskara Batuaren hizkuntza-ereduak bi ezaugarri zituen jomugan: zuzena eta jatorra izan behar zuen. Idatzizko tradizioa eta euskalkietako ahoz ahoko tradizioa ziren erreferentzia-ardatz nagusiak.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3.">Euskara Batua nonahi, noiznahi eta zernahirako</head><p>Irizpide berri bat sartu da azken hamarkada honetan euskararen kalitatearen eztabaidan: euskarak zuzena eta jatorra behar du, baina baita egokia ere. Hala esaten digu Jagon saileko Joxe Ramon Zubimendik (1997), lehenagotik kazetaritzaren testuetarako proposatutakoa jasoz <ref type="bibr">(Zubimendi eta Esnal 1992)</ref>. Egokitasunaren ezaugarria aldarrikatu beharrak hamarkadaren amaierako kezka bati erantzuten dio beste behin ere, euskarazko testuen komunikagarritasunik ezari hain zuzen ere. Euskara Batuak komunikatiboa izan behar du, behar komunikatiboetara egokitzen den euskara. Eta horretarako malgua izan behar duela esaten digu Zubimendik: «mailaz mailako errejistroak eta lekuan lekuko berezitasunak onartu eta bideratzeko bezain malgua», aniztasun funtzionalaren ikuspegitik, oinarrizko ideia bat gaineratzen du «funtsezko batasunak ez baitu galarazi behar aniztasun oparoa (errejistro, berezitasun eta estilo ezberdinen emankortasuna)» <ref type="bibr">(Zubimendi 1997: 708)</ref>.</p><p>Ikuspegi berri horrek bere isla izan du Euskaltzaindiaren arautegian eta erakundearen zenbait sailek, bereziki Jagon Sailak, abian jarri dituzten ekimenetan. Arautegian adibide, gure ustez, eredugarria ematen digu Euskaltzaindiak 1998an Euskara Batuaren Ahoskera Zaindua gizarteratzen duenean. Aniztasuna hizkuntzaren biziiturri tzat jotzen du arau honek, eta lehenengo eta behin ahoskeraren arau zainduak euskararen aniztasunean izan behar duen lekua zedarritzen ahalegintzen da. 12 Euskara Batuaren barruan ahoskera modu bat baino gehiago egon daitekeela onartzen du eta azpimarratzen du hizketa, oro har eta Euskara Batuaren barruan ere, testuinguruari (egoera, gaia, entzulearen ezaugarriak, hizketa-lagunen arteko distantzia) egokitu behar zaiola.</p><p>Erregistroz erregistro Euskara Batuak izan behar duen egokitzeaz eta Euskara Batua eta euskalkiek izan beharreko osagarritasun funtzionalaz gogoeta egitea da, bestalde, Euskaltzaindiko Jagon Sailaren gaur egungo zeregin garrantzitsuenetako bat, oraindik orain batez ere aldakortasunaren ardatz dialektalaz aritu bada ere. Horren adibide aipagarria da Jagon Sailak Euskal Herriko Ikastolen Konfederazioarekin batera argitaratu berri duen lana <ref type="bibr" target="#b3">(Barrios et al. 2008)</ref>.</p><p>Atalaren ondorio gisa esan daiteke, beraz, 1968tik Euskaltzaindiak abian jarri edo bideratu duen hizkuntza-ereduaren inguruko gogoetak kezka soziolinguistikoak izan dituela beti pizgarri eta motor nagusi: hirurogeiko hamarkadan euskal komunitatea nola trinkotu, nola batu zen kezka nagusia. Azken hamarkada hauetan, nola erantzun eraginkortasunez egun euskarak irabazi dituen erabilera-esparru guztietako komunikazio-egoeren eskakizunei, euskara batzen duen idazkera-eredutik abiatuta eta, ahozko eta idatzizko tradizioa ere aintzat hartuta. Gaur egun, hor dago hizkuntzaereduaren inguruko eztabaidaren muina: zein irizpide teoriko eta metodologiko lehenetsi behar dira Euskara Batuak mailaz mailako erregistroen eta lekuan lekuko berezitasunen arabera egin behar duen egokitze hori bideratzeko eta ez oztopatzeko?; zein irizpide teoriko eta metodologiko lehenetsi behar dira funtsezko batasunak euskarak ezinbesteko duen aniztasun oparoa ez galarazteko?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Aniztasun funtzionala ahalbidetzen duen batasuna</head><p>Galdera zailak dira aipatu horiek, eta oraindik orain ezinezkoa zaigu guztiei batera eta sendoki erantzutea. Urratsez urrats joan behar da gogoeta honetan, eta guri euskararen batasunerako eta kodifikaziorako Euskaltzaindiak proposatu duen arauditik hastea iruditu zaigu zentzuzkoena. Hurrengo hauek dira, gure ustez, Euskara Batu egokira heltzeko ezinbestez erantzun behar ditugun abiapuntuko galderak: Batasunerako Euskaltzaindiak proposatu duen araudiak, onartu eta bideratzen ditu aniztasun dialektala eta funtzionala? Garapen hori bideratzeko bezain malguak dira batasunerako arauak?</p><p>Gure azterketak Euskaltzaindiak argitaratu duen azken araudian jarriko du arreta, araudi lexikoan, hain zuzen. Lexikoak aldakortasun handia azaltzen du erregistroz erregistro eta, horregatik, Hiztegi Baturako ematen den araudiak arreta berezia jarri beharko luke, gure iritziz, aldakortasunean: aldakortasun dialektalean eta funtzionalean. Ardatz funtzionalean, hizkuntzaren hiztegiak esparru askotariko komunikazioalorretako gaiei eta gai horietara hurbiltzeko askotariko moduei erantzuteko baliabideak izan behar ditu, baita diskurtsoa solaskideen aditutasun mailaren arabera eta komunikazio-egoeraren formaltasun mailaren arabera egokitzeko baliabideak ere. Ardatz dialektalean, bestalde, hartzailearen ezaugarri dialektalei erantzun behar die aldakortasunak: jatorri geografiko eta soziala eta adin desberdinetako hartzaileen hiztegi-premiei erantzun behar die.</p><p>Estandarraren kodifikazioaren eta elaborazio funtzionalaren artean egon behar duen harremanaren inguruko gogoeta honek interes handiagoa du gaur egun lexikoan gramatikaren beste atal batzuetan baino. Izan ere, une honetan urrats berriak ematen ari da Euskaltzaindia Hiztegi Batuaren araugintzan: Hiztegi Batuaren bigarren itzulian abiatu da, 55.000 sarrerako helmuga ezarri duelarik <ref type="bibr" target="#b20">(Salaburu 2008)</ref> eta, Euskaltzaindiaren Hiztegian, Hiztegi Batuko lehen 20.000 sarrerak gramatika-informazioz, adierez eta definizioz hornitzeko asmoa du <ref type="bibr" target="#b21">(Sarasola 2007)</ref>.</p><p>Une honetan, beraz, beharrezkoa ikusten dugu guztion aho-lumetan dagoen egokitasunak ezinbestez eskatzen duen hiztegi-aberastasunaz gogoeta egitea, baita hiztegi-aberastasun hori Hiztegi Batuak tratatzen duen moduaz ere. Bi alderdi interesatu zaizkigu bereziki: batetik, erabileraren deskripzioan esparruz esparruko berezitasunak onartzeko eta bideratzeko egin diren ahaleginak (corpusen eta sarreren hautapenean, batez ere) eta, bestetik, hiztegi-aldakortasunaren kudeaketarako ezarri diren irizpideak (tradizioa, egungo erabilera, iparralde-hegoalde lotura…). Azterketa honetan, aniztasun funtzionalera hurbiltzen gaituzten aurrerapausoak hauteman ditugu, baina baita, gure ustez, bide horretan oztopo izan daitezkeen praktika metodologikoak ere. Bien inguruan arituko gara hurrengo ataletan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Hiztegi Batua aniztasun funtzionalaren mesedetan</head><p>Euskara administrazioan, komunikabideetan eta maila guztietako esparru akademikoetan ezarri da azken hamarkadetan 1968an ezin aurreikus zitekeen sendotasunarekin. Denominazio berrien premia eta adierazpide berrien bilaketa dira hiztegiaren garapenaren motorrak, eta zalantza-izpirik ez dago motor horiek etengabe aritu direla lanean euskarak bere historia osoan baino erabilera-esparru berri gehiago irabazi dituen berrogei urte hauetan.</p><p>Alor horietan guztietan ikusi da Euskara Batua ardatz dialektalean garatzeko beharra. Komunikabideetako komunikazio-egoeretan hartu-eman arrakastatsua izateko, adibidez, ezinbesteko ikusi da xede-taldearen soslai dialektala kontuan har tzea: hartzaile potentzialaren adin taldea eta bereziki jatorri geografikoa izan dira gogoan <ref type="bibr" target="#b15">(Larrinaga 2004</ref><ref type="bibr" target="#b4">, Berria 2006</ref> Azkenik, mundu akademikoari dagokionez, egun zalantzarik ez dago progresiboa izan behar duela eskolan, bereziki eremu euskaldunagoetan, ikasleak diskurtso orokor informaletik diskurtso formal espezializaturako egin behar duen iragateak. Eta ikasleek aukera nahikoa izan behar dutela etxetik daramatzaten baliabideetatik hasita, formaltasun eta espezializazio maila desberdinetako erregistroak identifikatzeko eta garatzeko <ref type="bibr" target="#b6">(Elordui 2006</ref><ref type="bibr" target="#b3">, Barrios et al. 2008</ref>  <ref type="bibr">Mat., Log.; numero Gram.)</ref>. Bestalde, hiztegi-aldakortasunaren kudeaketarako ezinbestekoa den informazioa es kaintzen digu Hiztegi Batuak, hiztegi-elementuek ekoizpen berrietan duten erabileraren berri ematen digunean: adibidez, zaharkituta edota gutxi erabilitako hitzak mar katzen dituenean (narritamendu Zah.; niketz g.er.: mila goraintzi, niketz, atezainari; betiraunde iz. g.g.er. 'betikotasuna').</p><p>Azkenik esan behar da aldakien banaketa dialektal eta geografikoen des krip zioa egiten duenean ez ezik, aldakiak mugatzen dituenean ere, ekarpen handia egiten duela Hiztegi Batuak aniztasun funtzionala lortze aldera, beti ere kontuan hartuta hiztegi-aniztasun sistematikoa dela xedea, ez edonolako aldakortasuna. Une honetan euskarak bizi duen asistematikotasunaren harmonizazioak abiapuntu sendoa behar du eta, ildo honetatik ere, ekarri garrantzitsua egiten du Hiztegi Batuak. Horren 3 Aukera batu egokia markatzeko h. (hobe) ikurra erabiltzen du Hiztegi Batuak euskalki-markaren ondoren. Marka hori nahasgarria da, ordea, erabiltzaileentzat askotan. Izan ere, batzuetan ez dago garbi «hobe» zeri dagokion: hobe estilo zainduari begira? hobe xede-talde orokorrei begira? hobe euskara batua erabiltzen den edozein testuingurutarako? 4 Hala ere, ez dirudi ekoizpena hartzaileen profil dialektalari egokitzen laguntzea denik Hiztegi Batuaren xedeen artean; Euskaltzaindiak berak (Hiztegi Batua, 482) esaten digunez, «euskalki hitz» horien erabilera mugatuaz ohartarazi du dialekto marka horien bidez. Ez da akademiaren helburua hiztegi batuaren barruko aukera geografikoak harmonizatzea. Hori argi ikusten dugu informazio dialektala gizarterako duen moduan. Ez dira beti jasota egoten Hiztegi Batuan beste dialekto edota eremu geografikoetan erabiltzen diren sinonimoak edota erdisinonimoak, eta jasota badaude ere, ez daude elkarren ondoan jarrita (erremolatxa Heg. Beta vulgaris; eratxiki, eratxikitzen. Ipar, du ad.). Horrela, berea ez den dialekto baten baliokidea bilatu nahi duen erabiltzaileak ez dauka modurik baliokide hori aurkitzeko, aldez aurretik forma ezagutzen ez duenez gero (poxelagarri Ipar.). adibide adierazgarrienak hiztegiko arau ortografikoak dira (gaiso* e. gaixo; hanitz* e. anitz; mobitu*e. mugitu; neumonia* e. pneumonia; odi* e. hodi). Arau horiek balio handikoak dira erredundantzia asistematikoa ordenatzeko eta mesedegarriak dira, beraz, aniztasun funtzional sistematikoa bideratzeko. Era berean, komunikazioarazoei azkar eta eraginkortasunez erantzun behar dieten hiztun talde batzuen (zientzialariak, kazetariak, merkatariak, hiztun arruntak…) bat-bateko sorre ra neologikoa mugatzeko Euskaltzaindiak egiten dituen proposamenek (adibidez, bulegogizon* e. bulegari; artxibari* e. artxibozain; espia* e. espioi) ere, ezinbestekotzat ditugu aldakortasun asistematiko hori ordenatze aldera.</p><p>Laburbilduz, Hiztegi Batuak sarrerei buruz eskaintzen duen informazio soziopragmatikoa (hiztegi-baliabideen hedapen geografiko eta pragmatiko-funtzionala) eta aldakortasun asistematikoa antolatzeko egiten dituen aukerak eta ko di fi ka tzen dituen arauak funtsezkoak dira euskararen erregistroz erregistroko garapena eta finkapena posible izan daitezen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Hiztegi Batuak aniztasun funtzionala ez oztopatzeko zenbait aldaketa metodologiko</head><p>Aipatu ditugun onura horiek guztiak, eta ziurrenik gehiago, aitortu behar zaizkio Hiztegi Batuari. Ezin da ukatu hiztegi honek bere ekarpena egiten duela aniztasun funtzionala ordenatzeko xedean. Nolanahi ere, ez dirudi hiztegiaren elaborazio-prozesuaren urrats guztietan (deskripzioan eta araugintzan) aniztasun funtzionala gogoan izan denik. Hortik datoz, gure iritziz, zenbait alderdi metodologikotan an tzema ten ditugun hutsuneak, ekarpen hori mugatu eta garapen funtzionala oztopatu ere egin lezaketenak. Hori saihesteko, ikuspegi funtzionala lehenetsi beharko litzateke, gure ustez: bai kodifikazioaren aurretiko deskripzioan (corpusen zein sarreren hautapenean, eta sarrera horien erabileraren deskripzioan ere), eta bai kodifikazioan irizpide desberdinei ematen zaien lehentasunetan ere.</p><p>Hiru ataletan antolatuko dugu gure gogoeta: a) hiztegia aberasteko egin den sarreren eta adieren hautapenean eta sarrera horietan ematen den informazioan; b) erreferentziatzat hartzen diren corpusen hautapenean eta c) hiztegi-aldakortasuna kudeatzeko lehenesten diren irizpideetan.  <ref type="bibr">(Urrutia 2005: 54)</ref>. Baina 2007an oraindik orain unibertsitateko jakintza-alorren kasuan berrehu na berba nabarmenenak biltzen hastea da helburua, beti ere unibertsitateko terminologia biltzea helburu duen batzordearen buru Xabier Kintanaren arabera <ref type="bibr">(Kintana 2007: 276)</ref>.</p><p>Edozelan ere, aipatu premia eta lan talde horiek ez ditu aipatzen ere une honetan Hiztegi Batuko 2. itzuliaren batzordearen burua den Salaburuk Hiztegi Batuaren bigarren itzuliaren helburuez eta iturriez hitz egiten digunean <ref type="bibr">(Salaburu 2008: 56-57</ref> Erabaki metodologiko hori dela-eta, bigarren itzulian Hiztegi Batuak jomugan dituen 35.000 sarrera berriak aukeratzeko orduan, berriro ere OEHra jotzen du nagusiki (12.000 sarrera inguru) eta neurri txikiagoan xx. mendeko corpusera (9.800 sarrera inguru). Gainerako sarrerak osatzeko Sarasolaren Euskal Hiztegian oinarritu da Euskaltzaindia <ref type="bibr">(Salaburu 2008: 58)</ref>.</p><p>Hiztegi Batuan behar duen hitza aurkitzen ez duen erabiltzaileak beste hiztegi edota corpus batera jo dezake argibide bila edo, bestela, bere sena erabiliz konpon dezake hiztegi-baliabide horren falta. Baina ondorio larriagoak izan ditzake zenbait sarrerak adiera eta erabilera guztiak zehaztuta ez izateak. Izan ere, Hiztegi Batuaren sarrera asko eta asko bukatu gabe daude eta osatzen doaz bigarren itzulian. Adibidez, akabatu aditzaren sarrera honelakoa zen 2000 urteko argitalpenean: «akabatu, akaba, akabatzen du ad. 'hil'». 2008. urtean, sareko Hiztegi Batua kontsultatuz gero, aldiz, honela kodifikatuta aurkituko dugu sarrera: «akabatu, akaba, aka batzen. 1 du ad. 'animaliak bortxaz hil'. 2 da/du ad. 'amaitu, bukatu'. 3 du ad. 'azken ukituak egin'». Hiztegiaren erabiltzaileak pentsa lezake hiztegian zehaztuta ez dauden adiera edota erabilerak baztertzen ari dela Hiztegi Batua. Adibidez, 2000ko arauaren aplikazioak ekar lezake akabatu aditzaren zenbait adiera, oraingo itzulian onartuta daudenak, zuzentzea eta erabileratik baztertzea. Izan ere, arauaren halako interpretazio batera eramaten gaituzte Hiztegi Batuak berak ematen dituen argibideek: «Orobat, beharrezko ikusi denean, hitzen erabilera zuzenaz ere egin dira oharrak, zuzenean nahiz zeharka. Esaterako, akabatu-ri 'hil' adiera ezarri zaionean, uste dugu irakurle zuhurrak horren bes tez 'amaitu' adieran onartzen ez dela ulertuko duela. Hiztegi honek, arau kontu guztiak bezala, letra eta espiritua du. Esan gabe doa Hiz-tegi Batu hau ontzean erabili dugun filosofia dela, batez ere, euskaldunek aintzat hartzea nahi genukeena» <ref type="bibr">(Euskaltzaindia 2000: 484)</ref>.</p><p>Euskararen garapen funtzionala ez oztopatzeari begira, oso garrantzitsua iruditzen zaigu azpimarratzea Hiztegi Batua bukatu gabe dagoela, eta oso arriskutsua deritzogula hiztegian zehaztuta dagoen "letraz" harantzago doan "espiritua" edo "filosofia" erabiltzea, horren bitartez euskarak garatu duen edo gara lezakeen bide bat mozteko arriskua egon daitekeenean, edo egon ote daitekeen jakin gabe. Euskaltzaindiak berak esaten digunez, argi geratu beharko litzateke «Hiztegian jasotzen ez diren hitzei buruz (…) Euskaltzaindiak ez dituela oraingoz onartzen, baina ezta gaitzesten ere.» <ref type="bibr">(Euskaltzaindia 2000: 481)</ref>. Baina baieztapen hori osatu beharko litzateke adierei eta erabilerei dagokienez ere: Hiztegian jasotzen ez diren adierei eta erabilerei buruz ere, Euskaltzaindiak ez ditu oraingoz onartzen, baina ezta gaitzesten ere. b) Arau lexikoak eman ahal izateko Hiztegi Batuko lan-taldeak erabiltzen dituen corpusak esplizituki azaltzen dira hiztegi honen sarrerako argibideetan: tradizio idatziko eta egungo erabileraren berri ematen diguten OEH eta EEBS corpusak. Oraingo erabilera, beraz, kontuan hartzen da Hiztegi Batuko lehen itzulian, eta bigarrenean. Baina erabakietan ez dirudi pisu bera ematen zaienik OEHri eta EEBSri. Honela mintzatzen da, adibidez, Pello Salaburu EEBSren inguruan <ref type="bibr">(Salaburu 2008: 58)</ref>: «xx. mendeko corpus-ari dagokionez, erran beharra da corpus hori ez dela erreferentziazkoa, aleatorioa baita, estatistikoa, nahi bada. Ez da kontuan izan testuen kalitatea, erabiltzen den euskararen kalitatea, testuak beste irizpide batzuen arabera hautatu baitira. Horrek ere bere mugak ditu, nahiz holako corpusak egitea aski arrunta den bertze hizkuntzetan ere». <ref type="bibr">67</ref> Honelako baieztapen batek agerian uzten du teorian oraingo erabileraren berri eman behar zuen EEBSa gutxietsita dagoela hiztegia arautzen duen batzordean. Egungo erabilera egiaztatzeko, Ereduzko Prosa Gaur corpusa nahiago dute. <ref type="bibr">Salabururen (2008: 56)</ref> hurrengo deskripzioa nahikoa argigarria da zentzu horretan: «Gaur egungo prosa Ereduzko Prosa Gaur izeneko EHUk bildu duen corpusean (http:// www.ehu.es/euskara-orria/euskara/ereduzkoa/) oinarritzen da. Ko me ni garria denez zertaz hitz egiten ari garen garbi izatea, esan beharra da corpus hau 2000-2006 urteetako epean argitaratu diren liburu eta prentsako artikuluetan oinarritzen dela. Corpus aukeratua da, txukun idatzitako testuak biltzen ditu, modernoa da, eta orotara 25 milioi inguru hitz biltzen ditu».</p><p>Baieztapen horretan ondo islatzen da egungo erabilera tratatzeko Hiztegi Batuak duen modua: aldez aurretik ereduzkotzat hartzen diren testuetan agertzen diren formak, adierak eta erabilerak bakarrik hartzen dira kontuan. Ibon Sarasolak diseina-6 Azpimarratu behar dugu corpusen hizkuntzalaritzan «erreferentziazko corpusak» ez direla definitzen Salaburuk egiten duen bezala testuen kalitatearen arabera. Hona hemen <ref type="bibr">Sinclair-en (1996)</ref> definizioa: «A reference corpus is one that is designed to provide comprehensive information about a language. It aims to be large enough to represent all the relevant varieties of the language, and the characteristic vocabulary, so that it can be used as a basis for reliable grammars, dictionaries, thesauri and other language reference materials. The model for selection usually defines a number of parameters that provide for the inclusion of as many sociolinguistic variables as possible and prescribes the proportions of each text type that are selected. A large reference corpus may have a hierarchically ordered structure of components and subcorpora».</p><p>tutako Ereduzko Prosa Gauren batez ere literatura-ekoizpen ereduzkoak, itzul pen ereduzkoak eta kazetaritzako testu ereduzkoak biltzen dira. Ereduzko corpus horretan ez-ikusia egiten zaio euskararen erregistroen garapenerako Euskaltzaindiak berak <ref type="bibr" target="#b3">(Barrios et al. 2008</ref>) funtsezkotzat hartzen duen erabilera-esparru bateko ekoizpenari, esparru akademikoetako ekoizpenari hain zuzen. Lehen hezkuntzatik unibertsitateraino doazen irakaskuntza maila desberdinetan berrogei urte hauetan egin diren ekoizpenak, deskripzioaren prozesutik bertatik kontuan ez hartzea erabaki da.</p><p>Jarrera hori zuzenean islatzen da 2000ko Hiztegi Batuaren zenbait sarreratan eskaintzen den erabileraren deskripzioan, araua bera eman aurretik eskaintzen den deskripzioan alegia. Esate baterako, lengoaia sarrera honela dago kodifikatuta Hiztegi Batuan: «lengoaia Zah. h. mintzaira, hizkuntza». Arauaren lehen zatian agertzen den informazioak (Zah.) oraingo erabileraren deskripzioa behar luke izan, ezin da besterik izan. Baina deskripzio horrek ez ditu nonbait kontuan hartzen EEBS corpusean azaltzen diren 134 agerpenak, ez eta guztiok dakigun bezala, informatikaren alorreko testuetan, adibidez, hitz horrek erabilera handia duela. 78 Hiztegi-sarrera honetan, deskripzio oker baten bidez ezkutuko preskripzioa ere egiten da, alegia, azaldu gabe zaharkitutzat hartzen dira egungo erabileretan ondo sustraitutako zenbait erabilera. Antzeko zerbait esan dezakegu karratu sarrerari buruz. Honela kodifikatuta dator Hiztegi Batuan: «karratu Ipar. izond. 'koadroa'». Baina corpusetara jo beharrik ere ez dugu jakiteko hegoaldean, esparru akademikoan, orain arte behintzat, erro karra tu, ixa karratu, zentimetro karratu, eta horrelako adierazpideak baino ez direla erabili.</p><p>Hiztegiaren sarrera horietan esparru akademikoan egon den garapenari ez-ikusia egiten zaio. Baztertze hori, gure iritziz, behar den azterketa eta diagnosia egin gabe egin da; aurreiritzietan oinarrituta eta esparru horietan nahikoa esperientzia linguistikoa izan gabe. Hiztegi-elementu berri horien deskripzioa egin ondoren, haietako asko baztertzea erabaki lezake, seguruenik, Euskaltzaindiak: hiztegi-elementuek bete behar dituzten baldintza minimoak betetzen ez badituzte, adibidez. Baina deskripzio horretan, inolako zalantzarik gabe, asko izango dira egungo premiei eran tzu ten dieten formak, esanahiak eta erabilera berriak, eta horiek aniztasun funtzionalean egin duten eta egin dezaketen ekarpena funtsezkotzat jotzen dugu egokitasuna eta erregistroz erregistroko aniztasun funtzionala helburu duen estandarizazio prozesu batean.</p><p>Euskaltzaindiak oso kontuan hartu beharko lituzke, bestalde, horrelako erabakiek izan dezaketen kostu soziolinguistikoa. Lehen hezkuntzatik unibertsitateraino doazen irakaskuntza maila desberdinak gakoa izan dira eta dira euskararen estandarizazio prozesuan: euskal hiztunen kopuru handiena gaur egun 24 adinera arteko tartean 89 kokaturik dago (Eusko Jaurlaritzaren Kultura <ref type="bibr" target="#b10">Saila 2008</ref>  <ref type="bibr" target="#b20">(Salaburu 2008)</ref>.</p><p>Tradizioa gidari izan behar da euskararen kodifikazioan eta oro har estandarizazioan. Horretan ez dugu guk ere zalantzarik. Guztiz bat gatoz Mitxelenarekin defendatzen duenean Euskara Batuaren abiapuntua tradizioan erabilitako baliabide lexiko eta diskurtsiboak izan behar direla. Baina, Mitxelenak berak gogorarazten digunez, ezin dugu ahaztu hizkuntza bizia hitz berrien premian dela beti, eta area go berrogei urtean inoiz ez bezalako garapen funtzionala bizi izan duen gurea bezalako hizkuntza. Garapen funtzionalean gertatzen den lehian tradizio idatziko hitz askok eta askok, eta hitzak eratzeko euskarak dituen arauek ere lehiatu dute, eta emaitza batzuk eman dituzte oraingo erabileretan. Une honetan, testuinguru guztietara egokitzen den euskara jomugan dugularik, garrantzi handia eman beharko litzaioke emaitza horien deskripzioari. Egia da garapen lexiko-diskurtsibo honi hasiera eman aurretik hiztun guztiok tradizio idatziko hitz guztiak ezagutu izan bagenitu, agian, garapenaren emaitza bestelakoa izan zatekeela, baina oraingo unean beren bidea egin ez duten hitzen aldeko gurutzadak abiatzeak euskararen garapen eta egonkortze funtzionalari mesede gutxi egiten diola uste dugu. Emankorragoa litzateke gure iritziz, une honetan, oraingo ekoizpen estrategikoetan azaltzen den hiztegiaren deskripziotik abiatzea, eta tradizioarena erkaketa-corpus bezala erabiltzea, arauei begira askotariko informazioa baliatze aldera.</p><p>Proposamen hori bereziki kontuan hartzekoa da esparru akademikoetako eta askotariko esparru espezializatuetako lexikoaz dihardugunean. Erabilera-esparru berri hauetako baldintza semantiko-pragmatikoak tradizio idatziko testuak sortu zirenekoak ez bezalakoak dira, eta horrek berez dakar tradizioko hiztegi-baliabideak oso labur geratzea, eta garapen funtzionala tradizioaren bideetatik urruntzea. Esparru hauetan tradizioak ezin du eduki esparru orokorretan duen pisu bera (Mendiguren <ref type="bibr" target="#b16">Bereziartu 1996</ref><ref type="bibr" target="#b2">, Azkue et al. 2001</ref><ref type="bibr" target="#b7">, Elosegi 2002</ref><ref type="bibr" target="#b12">, Gurrutxaga et al. 2004</ref>.</p><p>Ondorio gisa esan daiteke, beraz, tradizio idatziaren eta egungo erabileraren irizpideen aplikazioak berez eskatzen duela azterbide egokiak erabakitzea. Arau estandarrak, erregistroz erregistroko aniztasuna helburu badu, ezinbestekoa du hiztegielementu batek tradizioan ez ezik erabilera berrietan ere dituen formak, adierak eta, zalantzarik gabe, erabilerak deskribatzea. Eta horrek ezinbestez dakar egokitze metodologikoa. Erregistroen garapena helburu duten irizpide soziolinguistiko eta pragmatikoak integratu behar lirateke Hiztegi Batuaren lan-prozeduran: erreferentzia-corpusak aukeratzeko orduan, corpusen aldakien artean lehentasunak jartzeko orduan eta, zer esanik ez, tradizioa eta oraingo erabilera aztertzeko bideetan ere.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Ondorioak</head><p>1968an euskararen batasunerako Mitxelenak proposatu zituen hastapeneko irizpideak onartu zirenetik hona, ibilbide luze eta korapilatsu baina, aldi berean, oparoa egin du Euskara Batuak. Berrogei urte hauetan, eta bereziki euskarak irabazi dituen erabilera-esparru berrietan, komunikazio-eskakizun berriei erantzun behar izan zaie eta, horretarako, baliabide lexiko eta diskurtsibo berriez hornitu behar izan da euskara: neologia formal eta semantikoa baliatu dira inoiz baino gehiago eta, askotan, euskalkietako baliabideak berrantolatu behar izan dira komunikazio-eskakizun horiei erantzuteko.</p><p>Euskaltzaindia Euskara Batuaren ezarpenari begira izan da beti, eta hain zuzen ere ezarpenaren diagnosiek piztu dute maiz Akademiak gidatu duen kalitatearen inguruko eztabaida: laurogeita hamarreko hamarkadan, euskararen zuzentasun eta jatortasun falta ziren kezka nagusiak eta, azken hamarkada honetan, aldiz, euskararen komunikagarritasunik eza. Euskara komunikatiboa izateko, euskara egokia behar da: askotariko komunikazio-eskakizunen premiei egokitzen zaien euskara. Kalitatearen azken ezaugarri horretan, hain zuzen, jarri dugu arreta lan honetan, eta arau akademikoa aniztasunaren erreferentzia-ardatz nagusia delarik, hurrengo galdera honi erantzuten saiatu gara: Batasunerako Euskaltzaindiak proposatu duen araudiak, onartu eta bideratu egiten du erregistroz erregistro garatu den eta gara litekeen aniztasun funtzionala?</p><p>Euskaltzaindia azkenaldi honetan lantzen ari den arauan, arau lexikoan, oinarri tu dugu gure azterketa. Gure ondorioa izan da Hiztegi Batuak funtsezko ekarpena egiten duela aldakortasun dialektal eta funtzionala ordenatzeko xedean. Nolanahi ere, hiztegiaren elaborazio-prozesua aztertu dugunean, antzeman ditugu garapen funtzionalaren helburuari laguntzeko saihestu beharko liratekeen zenbait arazo metodologiko, gure ustez ekarpen hori mugatu eta garapen funtzionala oztopatu ere egin lezaketenak. Euskararen garapen lexiko-diskurtsiboa bideratzeko, har mo ni za tze ko eta, batez ere, ez oztopatzeko, funtsezkotzat jotzen dugu es tan darra ren arau tzeak ikuspegi funtzionala aintzat hartzea. Hiztegi Batuaren lan-prozeduran irizpide soziopragmatikoen falta hauteman dugu bai corpusen aukeraketan, bai hiztegi-sarreren, adieren eta erabileren hautapenean eta deskripzioan, eta bai tradizioaren eta oraingo erabileren azterbideetan ere.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>). Kasu batzuetan, xede-talde zabalena da helburua (Euskadi Irratiko albistegietan, esaterako). Horrelako kasuetan geografikoki markatuak diren formak saihestu dira eta forma orokorrenak lehenetsi. Baina beste kasu batzuetan, bereziki tokian tokiko komunikabideen kasuan, ezaugarri geografikoetara hurbiltzea izan da helburu nagusia, hartzaile horientzako ulergarritasuna eta konplizitatea ziurtatu nahian. Komunikabideetako hartzailearen parte-hartze zuzenarekin areagotu da azken joera hori (Etxebarria 1994), eta orain dik gehiago areagotuko da telebistaren digitalizazioak eta multimedia euskarrien erabilerak dakartzaten aldaketekin. 23 Komunikabideetan egokitze horren aldeko apustu garbia egin dute. Erabileraeremu bietan defendatzen da hiztegi mailan Euskara Batuaren filosofia irekiari jarraitze ko interesa: «Euskara batua ez da hizkera itxia eta zurruna. Hiztun bakoitzak bere hizkerako hitz, lokuzio, esapide eta egiturekin aberats dezake» (EITBren Hizkuntza Funtsak, Larrinaga 2004). Administrazioaren munduan ere euskalki bateko eta besteko hitzak eta joskerako egiturak erabiltzea ontzat ematen dute: «Argi izan behar dugu Hiztegi Batua euskalki guztietako hitzek osatzen dutela: barik esaterako, gabe bezain batua da, nahiz eta Bizk. (bizkaierazkoa) marka duen. Ona da gure hiztegia hornitzeko (…)» (HAEE-IVAP 2005), eta tokian tokiko administrazioetan lexikoa hartzailearen soslai geografikoari egokitzea defendatzen dute.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>). Zeregin horretan Euskara Batuaren barruan tokian tokiko aldaerak garatzeko urrats garrantzitsuak eman dira, eta oraindik ere urrats asko eman behar dira. Ardatz funtzionalean, Euskara Batuak erronka erraldoiei egin behar izan die aurre azken hamarkadetan. Mundu modernoaren denetariko jakintza-alorretako kontzeptu eta objektuetarako denominazioak sortu behar izan dira. Formaltasun eta espezializazio maila desberdinetako egoeretarako askotariko adierazpideak garatu behar izan dituzte euskal hiztunek eguneroko bizitzan, komunikabideetan, administrazioan eta esparru akademikoetan euskaraz jardun ahal izateko. Hiztegiaren aberaste hori egiteko hizkuntza guztietan ohikoak diren bideak erabili dira: hizkuntzaren hiztegi-ondareko elementuei esanahia zabaldu, espezializatu edota orokortu; maileguak hartu; eraketa morfologikoa (eratorpena eta hitz-elkarketa) edota sintagmatikoa baliatu. Gure lexikoiaren aberaste azkar honetan neologia formal eta semantikoa inoiz baino gehiago erabili behar izan dituzte hiztegigileek, itzultzaileek, idaz leek eta irakasleek. Hiztegi Batuak kontuan hartzeko ekarpenak egin ditu euskararen garapen dialektal eta funtzional horretan euskalkiek egin behar duten ekarria egituratzeko eta bermatzeko. Lehenengo eta behin, eta espero zitekeenez, Hiztegi Batuan ahalegin berezia egin da hartzaile potentzial zabalena xede hartzen den kasuetarako, hots, geografikoki ez markatuak, orokorrenak, diren formei lehentasuna eman behar zaien kasuetarako. Hiztegi Batuaren helburu nagusietako bat da horrelako kasuetarako aukera batu egokien berri ematea. 34 Baliabide lexiko orokorren kodifikazioa funtsezkoa da aldakortasunaren antolakuntzan laguntzeko, aldakortasuna egituratzen duen erreferentzia-ardatza eskaintzen baitu. Bestalde, informazio ugari ematen du Hiztegi Batuak hitzen hedapen geografikoaz eta hainbat kasutan, ez beti, hitz horien esanahiaz ere (besta iz. Ipar. eta Naf. 'jaia'; bestainez lok. Zub. 'bestela'; ezko 2 izond. Bizk. 'hezea'; osotoro Gip. 'osoki'; fruta iz. Heg.; jabal Ipar.; kristandade Bizk.). Lexikoaren ezaugarri geografikoen inguruko informazio horrek lagundu ahal dio bere ekoizpena hartzaileen profil dialektalari egokitu nahi dion igorleari, kasuan kasurako behar diren baliabide lexikorik egokienak aukera ditzan. Bestalde, hiztegi-elementu horien esanahia eskaintzeak informazio baliotsua ematen dio bere euskalkikoak ez diren baliabideak deskodifikatu behar dituen hartzaileari ere. 45 Ardatz funtzionalean ere, bere ekarpena egin du Hiztegi Batuak. Erregistroen eta erabilera-alorren inguruko informazioa eskaintzen du: batetik, formaltasun eta adierazkortasun mailei buruzkoa (gaitzerizko iz. Jas.; exkax izond. Adkor.; gonazale izond. Lgart.) eta, bestetik, zenbait hitzen kasuan, jakintza-alorrei buruzkoa ere ematen digu (magnitude Fis.; diferentzial 1 iz. Teknol. (ibilgailuen mekanismoa). 2 izond. Mat.: kalkulu diferentziala; ebaketa iz.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>a) Sarreren eta adieren hautapenari dagokionez, zalantzarik ez dago aurretik kodifikatutako baliabide lexikoak izan behar zirela Hiztegi Batuaren abiapuntua eta, zentzu horretan, kodifikazioan Euskaltzaindiaren lehen eginkizuna zela tradizio idatziko hiztegi-ondarea aztertzea eta lehenago emandako arau lexikoak berrikus tea. Horixe egin du Euskaltzaindiak Hiztegi Batuaren lehen itzulian (Euskaltzaindia 2000: 481). 56 Erabaki metodologiko horri zentzuzkoa deritzogu duela zenbait hamarkada hasi zen Hiztegi Batuaren lehen itzuliaren elaborazioan. Baina ezin da ukatu prozedura kontu horrek eragin handia duela Hiztegi Batuaren egungo erabilgarritasunean eta ezinbestez hiztegiaren garapenean. Izan ere, eguneroko bizitzan ezinbestekoak ditugun milaka hitz, adiera eta erabilera ez daude islatuta hiztegian. Nolanahi ere, bigarren itzulian, gure ustez, salto kualitatiboa eman behar zuen Euskaltzaindiak sarreren eta adieren iturriei begira. Erabateko lehentasuna eman behar zien erabiltzaileek egun dituzten beharrei. Egia da Iturenen 2000. urteko bileran egin zen eztabaidaren ondoren erabaki zela Hiztegi Batuan egun edozein erabiltzailek behar dituen kontzeptu moderno eta espezializatu batzuk sartu behar zirela</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>). Guztiz alderantziz, argi azaltzen digu Salaburuk Hiztegi Batua batez ere iturri historikoetan oinarritzen dela eta iturri horiek direla sarreren hautapenean ardatz nagusiak gaur egun ere: «Ez haietan bakarrik baina batez ere haietan, eta zehazkiago esateko OEHk eskaintzen dituen datuetan. Hor ager daitezke gaur egun hilik egon daitezkeen sarrerak, eta bestetik, idazleek behar dituzte eguneroko jardueran hitz berriak, egungo gizarte modernoa etengabe eskatzen dizkien hitz eta sarrera berriak esan nahi dut. Eta hitz hauek ez daude OEH-n».</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>). Hiztun hauetako zati handi batek ikasketa guztiak egin ditu euskaraz, eta denetariko gai akademikoei buruzko inputa jaso du esparru akademikoan. Hiztun hauen errepertorio linguis-7 ZT corpusean 79 agerpen ditu lengoaia hitzak, eta Salaburuk (2008) ereduzkotzat jotzen duen Ereduzko prosa gaur corpusean 91 agerraldi ditu. Gaur egun, 16 eta 24 urtekoen artean elebidunak % 57,5 dira eta 25 eta 34 urtekoen artean % 44,5. Elebidunen ehunekorik txikienak, aldiz, 35 urtetik gorakoen artean daude, elebidunen ehunekoa EAEko batez bestekoaren azpitik dago, bereziki 50 eta 64 urteko helduen artean (% 21,2).tikoaren zati handienetako bat osatzen dute esparru akademikoan izan duten esperientzia linguistikoaren bitartez bereganatu dituzten elementu horiek guztiek.Esparru akademikoetako erabilera kontuan ez hartzeak, beraz, hainbat hitzetarako dakar ehunka mila hiztunen ezagutza lexikoa aintzat ez hartzea eta Hiztegi Batuak ematen duen deskripzioa okerra eta nahasgarria izatea. Horrek ziurtasun eza eragiten du hiztunengan eta, bestalde, corpus-normalizazioaren jardun osoari eragiten dio. Izan ere, ez dugu ahaztu behar Hiztegi Batua erreferentziazko hiztegia dela erabilera-esparru zainduetan ari diren erabiltzaileentzat eta abiapuntutzat hartzen dutela lexikoaren garapena kudeatzeko sortu diren batzorde guztiek eta, oro har, euskararen kalitatearen kontrolerako sortu den batzorde-sareak (EIMA, EHUko Euskara Zerbitzua, Terminologia Batzordea, besteak beste). Hiztegi Batuak duen eragina, beraz, ez da mugatzen erabilera orokorretara; guztiz alderantziz, erabateko eragina du esparru espezializatuen lexikoaren garapenean ere. c) Hiztegi-aldakortasuna kudeatzeko lehenesten diren irizpideetan ere, aldaketa nabarmena ekarri beharko luke, gure ustez, aniztasun funtzionala bideratu nahi duen Hiztegi Batuak. Hiztegiaren aurkezpenean (Euskaltzaindia 2000) azaltzen zaigunez, euskal komunitatea trinkotzea -bereziki iparraldeko eta hegoaldeko komunitateen arteko haustura linguistikoa ez areagotzea-eta batuaren hiztegia tradizioaren bideetatik eramatea dira aldakortasuna kudeatzeko orduan ezarri diren helburu nagusiak. Tradizioaren gaiari helduko diogu azken atal honetan, hori lehenetsi baita Hiztegi Baturako aldaerak proposatzeko orduan</figDesc><table /><note>8 Hona hemen IV. Inkesta Soziolinguistikoaren (Eusko Jaurlaritzaren Kultura Saila 2008) datuak:</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">Ikus. 87. arauko Ahoskeraren aniztasuna eta arauen malgutasuna: Arauak nola ulertu behar diren atala.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">Ikus aldaketa horietaz<ref type="bibr" target="#b1">Amezaga &amp; Arana (2008)</ref>.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">Salaburuk (2008) Hiztegi Batuaren lehen itzuliaren (2000) iturriak zerrendatzen ditu: Batasunerako Hiztegia (1968); H letraren ortografi arauak (1979), Zortzi urte arteko Ikastola Hiztegia (1975), Matematika Hiztegia (1978), Merkatalgo Izendegia (1984), Maileguzko hitz berriei buruz Euskaltzaindiaren erabakiak (1986). Iturri horietaz gain, Orotariko Euskal Hiztegia (OEH) eta XX. mendeko corpusa edo egungo Euskarararen Bilketa-lan Sistematikoa (EEBS) (maiztasun handieneko 5.200 lemak) ere erabili dituzte Hiztegi Batuaren lehen itzuliaren sarrerak erabakitzeko.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Hiztegi Batua Lantzeko irizpideak: aurkezpen-hitzak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Aduriz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskera</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="1087" to="1110" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Telebistaren digitalizazioa eta euskara», Hedabideak eta Euskara Plangintza</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Amezaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">E</forename><surname>Arana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bat Soziolinguistika Aldizkaria</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="37" to="49" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">«Nolako hiztegi batua behar du xxi. mendeko euskaldunak?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Azkue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Etxeberria</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gurrutxaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Mujika</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">S</forename><surname>Barandiaran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Euskaltzaindiaren Nazioarteko XV. Bil tzarra (Bilbo-Baiona)</title>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Barrios</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Osa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Muñoa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Elorza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp; K</forename><surname>Boan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+		<respStmt>
+			<orgName>Zenbait orientabide erregistroen trataeraz, Bilbo: Euskaltzaindia, Jagon Saila</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Berria</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Berria</publisher>
+			<pubPlace>Estilo Liburua, Andoain</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">EITBrako hizkuntza funtsak (EITBren administrazio kontseiluak 2005ean onartua)</title>
+	</analytic>
+	<monogr>
+		<title level="j">EITB</title>
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">«Eskolaren hizkuntza-eredua harreman-sareen trinkotzearen ikuspegitik», Unibertsitate aurreko hizkuntza ereduen balorazioa eta proposamenak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Elordui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bat Soziolinguistika Aldizkaria</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="141" to="160" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">«Euskara zientifikoa Natur Zientzietan: sena eta sonaren artean orekan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Elosegi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="135" to="146" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">«Hizkuntz egokitasuna Euskal Telebistako saioetan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Etxebarria</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskera</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="267" to="270" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Adierazpena: Euskalkien erabileraz irakaskuntzan, komunikabideetan eta administrazioan», 137 araua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hiztegi</forename><surname>Batua</surname></persName>
+		</author>
+		<ptr target="&lt;http://www.euskaltzaindia.net/arauak&gt;" />
+	</analytic>
+	<monogr>
+		<title level="j">Euskaltzaindia</title>
+		<imprint>
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note>Euskera 45:2. Bilbo: Euskaltzaindia</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eusko Jaurlaritzako Kultura</forename><surname>Saila</surname></persName>
+		</author>
+		<ptr target="&lt;http://www.euskara.euskadi.net/r332288/es/contenidos/noticia/albis17_366_mapa_09_04/eu_soziolin/adjuntos/IV.%20Inkesta%20Soziolinguistikoa.pdf&gt;" />
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>IV Inkesta Soziolinguistikoa</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gramatika</forename><surname>Batzordea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Gramatika Batzordearen Jardunaldiak</title>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="833" to="968" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gurrutxaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Jauregi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp; A</forename><surname>Mujika</surname></persName>
+		</author>
+		<title level="m">Zuzenketen Kudeaketa eta Hizkuntz Zerbi tzuak</title>
+		<meeting><address><addrLine>Senez</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2004" />
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="163" to="190" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Haee-Ivap</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<publisher>HAEE-IVAP</publisher>
+			<pubPlace>Vitoria-Gasteiz</pubPlace>
+		</imprint>
+	</monogr>
+	<note>IVAPeko estilo-liburua</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">«Zientzia, teknologia eta kultura hitzak Euskaltzaindiaren hiztegiaren bigarren itzulian» in Euskaltzaindiaren XV</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Kintana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Barne Jardunaldiak</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="275" to="277" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note>Euskera</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Larrinaga</surname></persName>
+		</author>
+		<title level="m">Hizkuntzalariak telebistagintzan</title>
+		<meeting><address><addrLine>Senez</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2004" />
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="145" to="151" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">«Euskararen hizkuntz ereduaz eta kalitateaz zenbait gogoeta</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mendiguren</forename><surname>Bereziartu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskera</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="583" to="604" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Euskal hitzen jatorri eta itxura desberdinaz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ortografia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskera</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="341" to="348" />
+			<date type="published" when="1968" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Oyharçabal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Aitzolen Mendeurrena eta II. Jagon Jardunaldiak</title>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="511" to="515" />
+		</imprint>
+	</monogr>
+	<note>Euskara batuari iparraldetik behatuz</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">«Euskararen erabilera zuzena Euskaldunon Egunkariaren ikuspegitik: arloz arlo</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Petrirena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskera</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="263" to="266" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Salaburu</surname></persName>
+		</author>
+		<title level="m">Espezialitate Hizkerak eta Terminologia-III: Espezialitate-hizkeren didaktika eta komunikazioa</title>
+		<editor>I. Ugarteburu eta P. Salaburu</editor>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="55" to="74" />
+		</imprint>
+	</monogr>
+	<note>Leioa: UPV/EHUko Argitalpen Zerbitzua</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">«Euskaltzaindiaren Hiztegia egitasmoa» in Euskaltzaindiaren XV</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Sarasola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Barne Jardunaldiak</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="177" to="187" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note>Euskera</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Sinclair</surname></persName>
+		</author>
+		<ptr target="&lt;http://www.ilc.cnr.it/EAGLES96/corpustyp/corpustyp.html&gt;" />
+		<title level="m">EAGLES Preliminary recommendations on Corpus Typology</title>
+		<imprint>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">«Hizkuntza orokorra-xede berezietarako hizkerak Hiztegi Batuaren zeregina</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Urrutia</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="49" to="60" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Azkarate</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp; X</forename><surname>Kintana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Hiztegigintzaz» (separata)</title>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">46</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Villasante</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Euskara Batuaren filosofiaz</title>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="647" to="673" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Euskararen batasuna</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Zuazo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskara Batua. Ezina ekinez egina</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="1988" />
+			<publisher>Elkar</publisher>
+		</imprint>
+	</monogr>
+	<note>Euskaltzaindia. Iker</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">«Euskararen kalitatea: zuzentasuna eta egokitasuna</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Zubimendi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskera</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="705" to="709" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">P</forename><surname>Esnal</surname></persName>
+		</author>
+		<title level="m">Idazkera-liburua</title>
+		<imprint>
+			<publisher>Eusko-Jaurlaritza</publisher>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

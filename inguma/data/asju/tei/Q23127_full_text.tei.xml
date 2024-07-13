@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Irudiak eta emaileak</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xabier</forename><surname>Artiagoitia</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">EHU-Gasteiz</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Irudiak eta emaileak</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:29+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This article analyzes Basque irudi (= 'seem') verbs within a generative framework andproposes that the ergative pattern displayed by this class of' verbs arises because ofthe inherent lexical feature [-absolu-tive}. Irudi verbs also confirm Chomsky's (1995)  contention that interpretable features ((jJand EPPfeatures)  can be checked more than once but non-interpretable features like Case just once. The proposal accounts for the otherwise surprising properties of irudi verbs. First, their subjects bear ergative case when they have a predicate complement yet they resist a transitive analysis: the predicate cannot display object agreement with the verb, cannot be switched to genitive in derived nominals, cannot take part in TO-GEN constructions, and cannot be affected by derivational affixes possible with transitive verbs; all these are expected ifthe deep complement ofirudi verbs is simply a small clause. The subject's ergative case is a result ofthe feature [-absolutiveL which overrides the value that Basque generally sets for the Obligatory Case Parameter tvhen there is a single argument, and activates the case feature of Tense; hence, we find ergative in the absence of absolutive. The featlire [-absolutive} correctly predicts that irudi verbs cannot tolerate impersonal constructions with the verb izan. Seconc£ when they select a finite complement clause, irudi verbs alternate between an impersonal reading and an ergative subject that is disputably raised from the complement clause. I defend that irudi verbs remain monoargumental when selecting a finite clause,' the subject position is filled by either an expletive ergative, or by an argument raised from the embedded subject position. The raising option is analyzed as an instance of Ura's (1996)  copy-raising. Basque has both the expletive, non-raising, ojJtion and the raising, more costly, derivation; the latter is less economical and hence preferred by a smaller number ofspeakers.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Irudi aditzak aipatzen ditudalarik, honako hauek dauzkat gogoan:</p><p>(1) a. Jonek dotore ematen du jaka horrekin. b. Horrela jantzita, gizona ematen duzu (EH: 215)</p><p>(2) a. J onek pertsona argia eta azkarra dirudi. b. Ez dakit aberatsa ote zaren, baina aberatsa dirudizu.</p><p>(3) a. Plazak arroltze bat iduri du, erdian zabal, bi muturretan hertsi <ref type="bibr">(EH: 401)</ref> b. Arbolen adarrek hilak iduri zuten (ibidem)</p><p>Bereziki adizki trinkoak onartzen dituen irudi aditzaz beraz ari naiz, beronen antzekotzat daukadan iduri + ukan egituraz, hala nola hegoaldean erabiltzen den eman aditzaren erabilera jakin batez. Aditzok, nik dakidala behintzat, erabilera nagusi bi dauzkate: bata arestian ikusi dugu; (1)-(3) horietako adibideetan, NOR-NORK jokoa egiten du aditzak, eta ustezko NOR hori izen edo adjektibo predikatu bat izaten da sarri: dotore, gizona, pertsona argia eta azkarra, aberatsa, arroltze bat eta hilak. Zorrotzagoa izanez gero, esango nuke era biko predikatuak edo aurkitu ahal ditugula hor: adjektibo-sintagma zein bestelako sintagma modura gauzatzen diren egoeramailako predikatuak, eta determinatzaile-sintagma bezala gauzatu ohi diren izaki-mailako predikatuak. Lehenak, denboran mugatuak diren ezaugarri iragankorrei, eta bigarrenak, aitzitik, ezaugarri iraunkorrei, berezkoei, dagozkie. Goiko adibideei lotuz: (la) perpaus horretan, esaterako, iruditzen zaigu Joneren dotorezia jaka jakin bati lotutakoa dela, Jone jaka horrekin dotore dago antza, orokorrean zarpail samarra izan litekeen arren; (2)-ko adibideetan, berriz, Joneren argitasuna eta azkartasuna edo aberastasuna berezko ezaugarri bezala, denboran irauten duten ezaugarrien antzera sumatzen ditugu.</p><p>Esan ere, esan behar dugu DS predikatuen azpian izenak zein adjektiboak ezkutatu daitezkeela:</p><p>(4) a. Jonek {azkarra, tentela, jatorra... } dirudi b. Jonek {bertsolaria, ertzaina, sendagilea ... } dirudi Artikulurik ez daramaten bestelako predikatuen artean, kategoria bat baino gehiagokoak daudela egiaztatzen dugu: <ref type="bibr" target="#b3">(5)</ref> Argazki honetan ... a. Jonek dotore ematen du b. Jonekpozik ematen du c. futbol zelaiak hutsik ematen du (partizipioa + -tal-rik) (postposizio-sintagma)</p><p>d. ]onek nekatuta ematen du e. ]onek sutan ematen du f. Ezjakin batek gaizki ematen du gauzak nolanahi esaten (EH: 215) (aditzondoa) <ref type="bibr">31</ref> Interesgarria litzateke predikatu mota hauen guztien kategoria argitu eta zehaztea, baina arazo horri ez diogu hemen orain helduko. 2 Artikulu hau idazteko orduan, autore honek ez dauka argi banan-banako korrespondentziarik ote dagoen aditz bakoitzaren eta predikatu motaren artean: eman aditzak era bietako predikatuak (DS predikatuak eta beste guztiak) onartzen dituen bitartean, ez du ematen hala denik irudi aditzaren kasuan:</p><p>(6) a. ]onek {azkarra, tentela, bertsolari (on)-a, maisua ... } ematen du b. ?Jonek {haurdun, pozik, sutan... } dirudi Edozelan ere, argi utzi nahi dut (6b) bezalako perpausen estatusa ikerkizun dagoela, eta euskalkiz euskalki eta hizkeraz hizkera begiratu beharko liratekeela datuak (neurri handi batean euskara batuarenak benetakoak ez direlako, noski).3</p><p>Irudi aditz hauen bigarren erabilera mendeko perpaus konpletiboekin ikusten dugu:</p><p>(7) a. Ematen du Jone gaixorik dagoela c. Iduri du Jone eri dela b. Badirudi Jone gaixorik dagoela Norbera tentatuta ere egon daiteke honelako perpausetan benetako egitura inpertsona! baten aurrean gaudela eta, beraz, aditzarekin komunztadura egiten duen NORK hori ezinezkoa dela esateko. Baina, hain zuzen ere, hortxe dago gakoa: hiztun batzuek horrelakoak (i.e. «Jonek ematen du gaixorik dagoela») onartuko dituzte, eta beste batzuek, berriz, ez. Gai hau deskribapen mailan bertan aIdez aurretik argitzerik ez dagoeIa eta, oraingoz aIde batera utziko dut, artikulu honen laugarren atalera arte.</p><p>Artikulua honela antolatu dut: lehenbizi, bigarren atalean, irudi aditzen kide direnak gramatika sortzailean nola aztertu izan diren ikusiko dugu, aditzok perpaus osagarriak eta predikatu osagarri soilak hartzen dituzteneko kasu biak bereiziaz; ohiko azterbidearen arabera, aditzok argumentu bakarra eduki ohi dute beste hizkuntzetan, eta ez diote euren subjektuari inolako theta-rolik ezartzen. Ondoren, euskaraz gauzak nola diren argitzen ahaleginduko naiz: hirugarren atalean, aditzok predikatu osagarria dutenean funtsean egitura iragankorrak ez direla erakutsiko dut, eta beste hizkuntzetarako proposatu izan den azterbide berdina proposatuko dut. Laugarren atalean, aldiz, aditz hauek perpaus osagarriak hautatzen dituztenean zer gertatzen den begiratuko dugu, eta euskaldunen artean komunztaduraren alorrean sumatzen diren joera nabarren berri emango dut. Joera nabar horiek berebiziko interesa daukate gramatika unibertsalaren ikuspegitik, baina aldi berean hirugarren atalean emandako azterbide horretan daukate iturburu. Hitz gutxitan esanda, artikulu honetan euskarazko irudi aditzak ingelesezko seem horren antzekoak direla erakutsiko dut, baina aldi berean saio bat egingo dut euskaraz ergatiboa, are perpaus osagarrietan, zer dela-eta agertzen den azaltzeko. Azalpen saio horretan giltzarria irudi aditzen [-ABS] tasuna izango da, beronek eragiten baitu ergatiboa agertzea.</p><p>Artikulu hau idazterakoan, Chomskyk <ref type="bibr" target="#b10">(1986</ref><ref type="bibr">, Chomsky eta Lasnik 1993</ref> sustatzen duen eta Hatsarreak eta Parametroak (HH eta pp aurrerantzean) izenaz ezaguna den ikerketa esparruaren barruan kokatzen dut neure burua; hartara, azken helburua biologiatik emanda datorkigun hizkuntz sena edo gaitasuna (Gramatika Unibertsala ere deitua) azaltzea delarik, hizkuntza bakoitza hiztun batek atzeman duen gaitasun horren gauzapentzat, barne jakintzatzat jotzen dut. Barne jakintza horren osagai gisa, hizkuntzen funtsezko berdintasuna azaltzen duten hatsarre orokorrak aurkituko ditugu, hala nola hizkuntzen arteko aldeen berri ematen duten aukera mugatu gutxi batzuk, parametro deituak; parametro hauek eskuarki buru funtzional eta tasun morfologikoen esparrukoak izaten dira. Lan honetan, euskarazko egitura jakin bat hartzen dut hizpide, eta egitura hori Gramatika Unibertsalaren testuinguran kokatzen eta azaltzen saiatuko naiz. Irakurleari ohartarazi behar diot ez ditudala aintzat hartu Chomskyk Egitasmo Minimalistaren izenburupean berriki proposatuko hainbat berrikuntza (bereziki 2000, 2001 lanetan).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">lrudi aditzak gramatika sortzailean</head><p>Irudi aditzak tradizio sortzailean gutxi gorabehera raising verbs direlakoei, hots igoera-aditzei, dagozkie. Igoera-aditz hauetan ere, predikatu osagarriak eta perpaus osagarriak, biak, aurkitzen ditugu; gauzak horrela bikoizketa txiki bat egingo dugu, azalpena errazte aldera: lehenengo, osagarria perpaus oso bat denean gauzak nola diren ikusiko dugu eta, ondoren, predikatu osagarria sintagma arrunta denean zer gertatzen den gainbegiratuko dugu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Igoera aditzen perpaus osagarriak</head><p>Igoera-aditzek mendeko perpaus jokatugabe bat hartzen dutelarik osagarri, mendeko perpauseko subjektuak, bere perpausean kasu subjektiborik jaso ezinik, goiko, perpaus nagusiko, inflexioarekin egiten du komunztadura:</p><p>(8) a. seems Uohn to be happy] (S-Egitura,oinarrizkoa)4 'dirudi John zoriontsua izatea' 4 Itzulpenak ia-ia hitzez hitz egin ditut, zentzuari larregi begiratu barik. b. Johni seems [ t i to be happy] (A-Egitura, eratorria) 'John-ek dirudi zoriontsua izatea' c. * it seems Qohn to be happy] 'badirudi John zoriontsua izatea'</p><p>Honelakoetan subjektuaren igoeraz hitz egiten dute ikertzaileek: mendeko perpausaren subjektuak kasu arrazoiengatik igotzen du perpaus nagusira, bere perpausean dagoen INF jokatugabeak, ingelesez behintzat, ezin baitio kasu subjektiborik ezarri; baina mendeko perpaus hori jokatua izanik ez dago horrelako arazorik, eta perpaus nagusiko subjektu gunea izenordain betegarri batek beteko du, ez argumentu batek:</p><p>(9) a. it seems that John is happy (erkatu 8c-rekin) 'badirudi John zoriontsua dela' b. *Someone seems that John is happy 'baten batek dirudi John zoriontsua dela' c. *Johni seems that t i is happy 'Johnek dirudi zoriontsua dela' Ikusten dugunez, perpaus nagusiaren subjektu gunea argumentu baliorik ez duen it izenordainak bete behar du, zeren bestela, gune hori argumentu berri batek betez gero, emaitza erabat txartzen da (=9b); jokatu gabeko perpaus osagarrien kasuan ez bezala, mendeko subjektuak perpaus nagusiaren subjektu gunea betetzeak (= 9c) emaitza okerrak sortzen ditu. Arrazoia da ingelesez, beheko subjektuak bere perpausean behin kasua jasoz gero, ez dagoela arrazoirik goiko perpauseko subjektu gunera mugitzeko.</p><p>Arestiko <ref type="formula">(</ref> The cat DSak, hartara, bere 8-rola, bere interpretazio berezia, beheko gunean (aztarna dagoen gunean alegia) jasotzen duo Gauzak horrela irudikatuz, jakina, igoera analisia onartzen ari gara. c. Hirugarrenez, ingelesari dagokionez behintzat, there izenordain betegarriarekin beste argudio bat eraiki daiteke. Izenordain hau bakarrik izaten da posible existentziazko aditzen subjektu modura, baina ez bestelako predikatu batzuen subjektu edo osagarri modura:</p><p>(15) a. There {was/ arose / occurred} an unfortunate incident 'there {izan/ sortu/ gertatu} zen zoritxarreko ezbehar bat' b. *1 don't want to talk about there 'ez dut there-ri buruz hitz egin nahi' C. * There hurt me d. *John gave there to Mary 'there-k mindu egin ninduen' 'John-ek Mary-ri there eman zion' (adibideak <ref type="bibr">Radford (1988: 440)</ref> lanetik hartuak) Eta, interesgarriro, posible da seem bezalako aditz baten subjektu modura, baldin eta mendeko perpausean existentziazko aditz bat badago:</p><p>(16) There seems to have {been / *seen} an accident <ref type="bibr">(Radford 1988: 440)</ref> 'there-k dirudi istripua {gertatu izana / ikusia izatea}' Hipotesi hutsez, pentsa liteke (16)-ko perpausaren analisia ez dela igoera egitura bat, kontrol egitura bat baino, baina Radford-ek gogoratzen duenez, there izenordainak ez dauka kontrolatzeko gaitasunik:</p><p>(17) * There can't be peace without [PRO being war first] <ref type="bibr">(Radford 1988: 440)</ref> 'there ezin da egon bakea lehenago guda egon gabe'</p><p>Hartara, errazagoa da besterik gabe <ref type="formula">(16)</ref> Seem eta horrelako aditzen osagarria perpaus bat izan beharrean predikatu hutsa denean ere, subjektuaren igoeraz hitz egiten da gutxienez <ref type="bibr">Stowell-en (1978</ref><ref type="bibr">Stowell-en ( , 1981</ref>  Puntu honetara etorrita, arazo edo galdera garrantzitsu eta deseroso batekin egiten dugu topo: izan aditzaren antzera aztertu behar ditugu irudi aditzarekin sortzen diren egitura predikatibo arruntak? Baietz edo ezetz erantzunda ere, nola azaldu behar dugu ergatiboa agertzea irudi aditzekin? Zein ondorio dauka honek guztiak ergatibitatea bera ulertu eta azaltzerakoan?</p><p>Galdera honi erantzuten (edo erantzuten saiatzen) jarraian hasiko naiz, baina aurreratu dezadan ondorioa: irudi aditzek ere perpaus txikia har dezakete osagarri, eta beraz, ergatiboaren agerpenak ez du zerikusirik izango iragankortasunaren kontzeptuarekin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Irudi aditzak eta argumentutasuna</head><p>Esana dugu artikulu ho'nen sarreran bertan irudi aditzak nor-nork aditzak direla; Bestela esanda: hizkuntza nominatiboetan, kasu objektiboa (eskuarki akusatiboa deituta) agertzeko, ezinbestekoa dugu kasu subjektiboa ere agertzea; hizkuntza ergatiboetan, aitzitik, kasu subjektiboa (eskuarki ergatiboa deituta) agertzeko, kasu objektiboaren beharra dago. Ergatibitatearen ikuspegi honek, beraz, ergatiboaren beraren agerpena absolutiboa agertzearen baldintzapean ipintzen duo Euskararen ergatibitatearen ikuspegi honi beste batzuk kontrajarri ohi zaizkio: beste autore batzuendako <ref type="bibr" target="#b38">(Levin 1983</ref><ref type="bibr" target="#b45">, Ortiz de Urbina 1989</ref><ref type="bibr">, Holmer 1999</ref> ergatibo atzizkiak ergatibodun determinatzaile-sintagma hau S-Egituran aditzaren kanpo argumentua dela (ez aditzaren osagarria) adierazten du, baina ez nahitaez argumentu edo DS bi daudenik; beste autore batzuek, berriz, aditz bakoitzaren hiztegiko aukeratzat, berezko kasutzat jotzen dute ergatiboa agertzea (Oyhar~abal 1992). Teoriak teoria, eta Lakaren Nahitaezko Kasuaren Parametroa funtsean zuzentzat joko dudan arren, ez dagokigu orain auzia erabakitzea,9 baina bai irudi aditzen kasuan argumentu bi daudelako hipotesia eta kanpo argumentu bat dagoelako hipotesia, biak, erratuak direla erakustea. Ikus dezagun zergatik.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.2.]onek zintzoa dirudi bezalakoetan argumentu bi zergatik ez dauden</head><p>Irudi aditzek osagarri predikatu soila hartzen duten kasuetan ergatiboa <ref type="bibr">(NORK)</ref>  Onartu behar dugu eratorpen morfologiaren datu hauek kontu handiz hartu behar direla: ezaguna da eratorpen morfologiaren arauetan salbuespenak egon ohi direla. Baina, bestaldetik, gaur egungo euskaran hitz eratorrien alorrean aditz atzizki emankorrik badago, horiek -garri eta -t(z)aile dira; zentzu horretan, argumentu-egituraren aldetik behar diren baldintzak betez gero, ez dugu espero salbuespen asko egoterik. Bere laburtasunean edo urritasunean bada ere, -garri eta -t(z)aile I-le atzizkien ingu-. ruko datu hauek iradokitzen dute, hurrenez hurren, irudi aditzetan egiazko argumentu bi ez daudela eta azaleko subjektua ez dela aditzaren beraren kanpo argumentua.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Irudi aditzak eta zenbait egitura inpertsonal</head><p>Aditz baten subjektua aditzaren kanpo argumentua ez dela erakusteko erabiltzen izan den beste test bat hautazko pro pluralaren interpretazioa da <ref type="bibr" target="#b9">(Belleti eta Rizzi 1988)</ref>. Subjektua isilean gorde dezaketen hizkuntzetan, hau da pro drop hizkuntzetan, hirugarren pertsona pluraleko subjektu isilak hautazko interpretazioa ('baten bat') eduki dezake, baina aukera hau kanpo argumentua daukaten aditzetara mugatzen cia antza. Esaterako:</p><p>(49) a. Udaletxetik deitu dute (aguazila izan da, seguru) b. Nire lagun bat atxilotu dute (diotenez, Guardia Zibila izan da) c. Lurrera erori dira (* ]osu izan da, seguru)</p><p>Adibideotan, erori aditz ez-akusatiboak ez du onartzen pro ("haiek") subjektu plural horren inttrpretazio hautazko hori, baina bai deitu bezalako aditz ez-ergatibo batek edo atxilotu-ren moduko aditz irangakor arrunt batek. Zer dugu irudi aditzekin?</p><p>Etxe horretan aberatsak ematen dute (* seme nagusia da, seguru)</p><p>Itxura batera, irudi-aditzak kanpo argumenturik ez daukaten aditzen taldera lerratzen dira. Test honekiko behintzat, ez du ematen irudi-ren subjektua aditzaren beraren kanpo argumentutzat jo behar dugunik. Bakarka hartuta, test hau ez da agian esanguratsuegia, baina orain arteko beste argudio guztiekin batera ikusita, berriro egiaztatzen dugu irudi-aditzak ezin direla aditz iragankor edo ez-ergatibo arruntzat jo.IS Beste egitura inpertsonal batzuk izan aditzarekin egiten direnak ditugu (Albizu 2001); hor bereizi ohi dira, beste hizkuntza batzuetan bezala, inpertsonal generikoak (denbora bururatu bati lotuta ez daudenak) eta existentziazko inpertsonalak (denbora bururatu bati lotuta daudenak eta subjektu gisa egiazko pertsonaren bat edo beste inplikatzen dutenak). Adibide bina eman ditzagun: Lehen adibide bikotean ez dugu aditzera ematen inor jakinik dagoela Camilleriren nobelak irakurtzen edo Euskal Herriaz hitz egiten, baina bigarren bikotean inplizitua da baten batek irakurri egin zituela nobelak edota hitz egin egin zuela Euskal Herriari buruz. Aditz ezakusatiboen ezaugarria da lehen tankerakoak, existentzialak, baino ez dituztela onartzen: Irudi aditzen azken ezaugarri honen berri emateak luze joko luke, egitura inpertsonalen azterketa orokorra beharko genukeeIako, eta gure asmoa artikulu honetan apaIagoa da; irakurle saiatuak Albizuren lanera (ale honetan) jo dezake argibide bila. Dena deIa, iruditzen zait datu hauek, irudi aditzak ohiko aditz irangakorretatik eta are aditz ezergatiboetatik urrun daudela agerian ipintzen duten neurrian, nabarmendu beharrekoak direla.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6.">Azalpen baterantz</head><p>Irudi aditzek predikatu osagarri soila hartzen duten kasuen (alegia ] onek zintzoa dirudi bezalakoen) azterketa iragankorra edota ezergatibo hutsa baztertu dugularik, hasierako arazora itzultzen gara: ergatiboaren beraren agerpena aIde batera utzita, ez dugu arrazoi sendorik izan edo egon aditzekiko egitura kopulatiboak eta]onek zintzoa dirudi bezaIakoak modu banatan aztertzeko. Ezberdintasun bat badago gutxienez: irudi aditzak perpaus osoak ere har ditzakeela osagarri, eta izan aditzak, berriz, ez. <ref type="bibr">16</ref> Dena den, irudi aditzen perpaus osagarrien estatusa bera nahiko argi ez dagoela-eta, euren azterketa Iaugarren atalera arte atzeratu dugu. Oraingoz behintzat, honexek ardura digu: ezin dugu ziurtatu predikatu soilak hartzen dituzten irudi aditzak eta izan aditzak ezberdin aztertu behar direIa. Hortaz, hiztegi sarrera honetan pentsatu behar dela ematen du: Alegia, irudi aditzak lexikoki absolutiboa ezin ezartzeko moduan adierazten edo markatzen direla eta, ondorioz, Dnb buruari dagokion kasu tasuna pizten dela esaten ari gara. ]akina, NOR saileko aditzen kasuan, NOR hori absolutiboan ageri da, baina hor ez dugu zertan proposatu kasu absolutiboa aditz bakoitzarentzat hiztegian zehazten denik: horrelakoetan aditz bakoitzaren argumentu ezaugarrietatik Nahitaezko Kasuaren Parametroak zuzenean zehazten du DS argumentu bakar bat egonda argumentu horri A buruak ezartzen duen egiturazko kasua ezarri behar zaiola, aditza zeinahi dela ere. IS Ikus dezagun argiago arbola-diagrama baten bidez proposamenaren nondik norakoa: Ikusten denez, berezitzat jo daiteke eman aditzaren irudi erabilera hau, ez baitu onartzen wan aditzak adiera arruntean onartzen duen datibodun sinragma; era berean, irudi aditza NOR-NORI iruditu bihurtzen da datiboa agertarazi nahi dugun bezain laster. Zeharka bada ere, datu hauek irudi aditzen hiztegi mailako berezitasunaren zantzutzat har daitezke; alegia, ez dira erabat erregularrak, eta aIde horretatik ez da harritzekoa hiztegian berezko tasunen bat edukitzea. <ref type="bibr">21</ref> Hemengo azterbide xumeak, bestalde, irudi aditzen hainbat ezaugarri ondo aurreikusten ditu: -garri atzizkiarekiko jokabidea espero izatekoa da, hor aditzak ez daukalako bi argumenturik, bakarra (= perpaus txikia) baizik; beste horrenbeste esan daiteke -t(z)aile atzizkiarekiko jokabideaz: aditzaren beraren kanpo argumenturik ezean, aditzak ezin onartuko du atzizki hau. Gainera, atzizki honen kasuan, *bertsolariaren ematealemailea bezalakoe.n ezgramatikaltasunerako bigarren arrazoia ere nahiko argi ikusten dugu: izenek berezko kasu genitiboa ezartzeko, kasua ezartzen dioten sintagma horri theta-rola ere ezarri behar diote Chomskyren (1986) Uniformetasunaren Baldintzagatik, eta kasu hauetan ez dute bertsolaria predikatua theta-markatzen, perpaus txiki osoa baino. 22 Komunztadurarenaldetik ere, hor DS argumentu bakarra dago, eta ez dago, beraz, komunztadura bi DSrekin egiterik. 23</p><p>Labur esanda: ergatiboa gorabehera, ez dugu argudio sendorik aurkitzen NOR-NORK tankerakotzat jo ohi direnJonek zintzoa dirudi bezalako perpausetan bi argumentu (ergatiboa eta absolutiboa) daudenik edota ergatiboa aditzaren beraren benetako kanpo argumentu bati dagokionik pentsatzeko. Areago: predikatuak kasu absolutiborik ere ez duela jasotzen ematen duo Hortaz, hipotesirik huts edo soile~a onartu dugu: hipotesi horrek irudi aditzak beste hizkuntzetako antzeko egiturekin berdintzen ditu, eta neurri batean izanlegon aditzekin ere parekatzen. Testuinguru honetan azalkizun geratu da ergatiboaren beraren agerpena, eta hori irudi aditzen hiztegiko tasun baten ondoriotzat jo dugu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Irudi aditzak eta perpaus konpletiboak</head><p>Irudi aditzek predikatu osagarria daukaten egiturak aztertutakoan, sasoia da perpaus osagarriak azter ditzagun. Atal honetan lehenbizi (4.1. azpiatalean) arazoaren muina eta aurretik izan diren euskarazko ikerketak azaltzen ditut; ondoren, galdeketa batetik ateratako emaitzak, beronen ondorioak, eta neure analisia emango ditut 4.2, 4.3 eta 4.4. azpiataletan, hurrenez hurren.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Aurrekariak eta arazoak</head><p>Irudi aditzen perpaus osagarrien funtsezko arazoa Axularren harako esaldi hark laburbiltzen du ondoen: 21 Euskaraz ez bezala, gaztelaniaz datiboarekiko bateraezintasuna predikatu motaren arabera erabakitzen da; ikus honetaz <ref type="bibr" target="#b65">Torrego (1996)</ref>. <ref type="bibr">22</ref> Egia esan, DS predikatuek kasua behar ez badute, azalpen hau lekuz kanpo legoke (cf. Chomsky 1986). <ref type="bibr">23</ref> Albizuren <ref type="formula">(2001)</ref>  Grain zehatz-mehatz errepikatuko ez ditugun argudioetan oinarrituta, SaIaburuk, arrazoiz nire ustez; baztertu egiten du (62a-b) adibideak ingeIesezko igoera-aditzen kide zuzentzat jotzea; izan ere, irakurleak aise egiazta dezakeenez (ikus artikuluaren 2.1. azpiatala), horrelakoetan jokatu gabeko perpausak ageri dira ingeIesez, baina jokatuak ageri dira euskaraz. Salabururen ustez, euskarazko datuok iradokitzen dute iduri du aditz iragankor arrunta deIa, nahiz eta beharbada hurbil dagoen kontrol aditza izatetik: itxura batean irudi aditzaren subjektu den horrek maiz (baina ez beti) kontrolatu egin behar du mendeko perpauseko DS isilen bat, hutsune horren erreferentziakidea izan behar duo 24 Salaburuk ez ditu irudi aditzen predikatu osagarri soilak aztertzen. Salabururen azterbideak, hala ere, badauka zalantzazko puntu bat; ondoko (63ab) adibideetan, (63) a. iduri du haur honi goxokiak eman dizkiotela b. iduri du apaiz hau apezpiku egingo dutela <ref type="bibr">(Salaburu 1987c: 75)</ref> ageriko subjekturik ezean, iduri du horren subjektuak honako subjektuaren parekoa behar luke:</p><p>(64) esan du haur honi goxokiak eman dizkiotela Alegia, benetako argumentua den hirugarren pertsona ergatibo singular bat ulertu beharko genuke, egiazko 'hark' bat alegia. Salaburuk berak aitortzen duenez, gauzak ez dira horrela, eta (63)-koak bezalako adibideetan «halako egitura inpertsonal bat edo izango genuke» (1987c: 79). Inpertsonaltasun honek, nahi gabe, ingelesezko it izenordain betegarria gogorarazten digu. Hartara, litekeena da (63)-ko adibideetan azken batean perpaus argumentu bakarra egotea; subjektu gunean nahikoa genuke (it horren antzerakoa den) hirugarren pertsonako halako izenordain ergatibo betegarri bat dagoela suposatzea. Eta honekin lotzen dut irudi aditzez arduratu izan den beste ikertzaile baten aipamena.</p><p>Oyhar~abalek (1992: 325), hain zuzen ere suposizio horren kontra hitz egiten du; harentzat, kasu ergatiboa hiztegitik zehaztuta datorren berezko kasua da eta aditz bakoitzak theta-rol jakin bat ezarri behar du kasu ergatiboa esleitzeko; hortaz, ezinezkoa da azterbide honetan subjektu ergatiboa aditz baten hiztegi-edo argumentuezaugarrietatik at agertzea, betegarri huts modura. (63)-ko adibideetan, subjektu ergatiborik balego, are betegarri hutsa izanda ere, Oyhar~abalek ergatiboaren eta aditzen theta-markatzearen artean ezartzen duen banan-banakotasuna urratuko litzateke, Chomskyren (1986) Uniformetasun Baldintza bera alegia. Gauzak horrela, Oyhar~abalek (63)-ko adibideak eguraldi aditzen antzekotzat (cf. euria egin du) jotzen ditu, eta nolabaiteko sasiargumentua dagoela ematen du aditzera.</p><p>Salaburu eta Oyhar~abal ikerlarien ekarpenak ohargarri badira ere, nire uste apalean, hainbat eragozpen daude lehenaren datuak eta bestearen azterbidea bere horretan eta besterik gabe onartzeko; hau dela eta, duela bi urte hiztun batzuen artean galdeketa bat egitea erabaki nuen. Galdeketa horietaz hitz egin aurretik baina, laburlabur azalduko ditut aipatutako autore bi horien ekarpenetan sumatu uste ditudan hutsuneak.</p><p>Lehenbiziko hutsunea datuetan dago: galdeketa bera egin baino lehen konturatu nintzenez, hiztun guztiek ez dituzte Salaburuk emandako adibideak onartzen; are gehiago, hiztun askok (62a-b) adibideak onar ditzakete (62c-d) adibideak eurak onartu gabe. Gainera, badira (62a-b-c-d) adibideak eurak onartu gabe ere honelako adibide bat onartzen duten hiztunak: Bigarren arazoa (63)-ko adibideek erakutsi dute. Adibide horietan zaila da irudi aditza argumentu bikoa dela defendatzea, euskaraz isilkako subjektua dugunean subjektua agerian jar baitaiteke eskuarki:</p><p>(66) a. berak esan du haur honi goxokiak eman dizkiotela (cf. 64) b. * berak iduri du haur honi goxokiak eman dizkiotela (* = 63a adibidearen interpretazio berdinarekin) Beraz, (63)-n, aukera bi daude: edo ez dago subjekturik eta alde horretatik irudi aditza hor argumentu bakarrekoa da; edo badago subjektua, baina subjektu isil hori betegarri hutsa da, ingelesezko it horren modukoa. Subjektu horren agerpena Islapen Hatsarre Zabalduak, perpausaren [espez, DNB] gunea beterik behar duela dioen baldintza alegia, eragingo luke, ezerk eragitekotan. Ondorioz, (62)-ko datuak eta euren azalpena onartuta ere, ezin ditugu (63)-koak era berean azaIdu; besteIa esanda: Salaburuk dioen bezala iduri aditzak (62)-n argumentu bi dauzkala onartuko bagenu ere, (63)-n ezin esan liteke gauza bera.</p><p>Hirugarrenez, erakuts daiteke eguraIdi aditzen subjektua sasiargumentua dela, baina (63)-ko adibideetako subjektua, subjekturik bada behintzat, ez deIa sasiargumentua. Sasiargumentuek ezin dute erreferentziarik eduki, baina beste argumentu edo sasiargumentu bat kontrolatzeko ahalmena daukate ora har. Euskaraz ere berdin ikusten dugu: Adibideotan, proE izenordain isilak e subjektu isilaren erreferentzia (edo erreferentziarik eza) kontrola dezake; mitologiaren inguruko sinesmenak aIde batera utzita, ez dugu aipatzen nork egiten duen euria edo eIurra, baina paradoxikoki elurra egiten duenak hotza egiten duena izan behar duo EguraIdi aditzetan falta den subjektu hori neurri batean ez da argumentua (ezin aipatuzkoa da eta!), baina neurri bertsuan bada argumentua, erreferentzia kontrolatzeko gaitasuna erakusten duen neurrian. Hortixek datorkio sasiargumentu deitura (Chomsky 1981ez gero </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Irudi aditzei buruzko datu berriak</head><p>Arestiko aurrekari guztiekin, orain dela urte bi galdetegi bat banatu nuen Gasteizko EHU-ko Filologia eta Geografi-Historia Fakultatean Euskal Filologiako laugarren urteko ikasleen artean, eta hemeretzi lagunek, hamalau euskaldun zahar eta bost euskaldun berri, erantzun zuten, guztiak 21-24 urte bitartekoak. Galdetegiaren hasierako asmoa lar anbiziotsua zen: irudi aditzek nolako predikatu osagarriak onartzen dituzten aztertzea; eman, dirudi (eta, ahal zela, iduri du) aditzen artean batetik bestera predikatu osagarrien araberako aldeak dauden egiaztatzea; perpaus osagarrien eta perpaus nagusiko komunztadura ergatiboaren arteko lotura argitzea; ergatiboaren agerpena eta sintaxi-hurrenkeraren arteko loturarik dagoen ikustea. Galdetegiak 29 x 3 perpaus zeuzkan, 29 galdera aditz bakoitzeko <ref type="bibr">(dirudi, eman, iduri du)</ref>. Ikertzaile honen esperientziarik ezak eta ikasle batzuen arreta faltak galdetegiaren balioa gutxitu zuten: adibide batzuk ez zeuden seguru asko ondo pentsatuta; dirudi adizki trinkoa dela ez zen behar bezala aintzat hartu galdetegia osatzerakoan; ikasle batzuek dirudi eta eman aditzei zegozkien adibideak ere epaitu zituzten, bietako bat ez dutela erabiltzen aitortu arren. Errakuntza hauen jakitun, 1999ko maiatzan aurreko galdetegiaren antzeko beste bat banatu nuen sidelez e-posta zerrendan, eta zazpi lagunek erantzun zuten; oraingoan, galdetegiak 19 perpaus zeuzkan, denak eman aditzarekin egindakoak, eta erantzule bakoitzari adibideak bere hizkerara egokitzeko eskatzen zitzaion. Ikergai dugun puntuari dagokionez, bigarren galdetegi honetako adibideak eta lehenengokoak berdinak ziren, txikikeria bat edo beste aIde batera utzita; bizpahiru adibide moldatu edo hobetu egin nituen bigarren galdetegirako, eta ondoren datozen azalpenetan argitzen dut zein diren adibideok. Determinatzaile-sintagmaren igoeraren analisia justifikatzeko ohiko argudio ezagunak eman daitezke: arestiko (80) eta (81) erabat baliokideak dira igotako DSaren kasua aIde batera utzita, eta hiztun ia guztiek errefusatzen dute (81)-eko adibidea argumentu bi baIeuzka bezala eraikitzea; gainera, irudi aditzaren subjektu nor ageri den, mendeko perpausaren arabera erabakitzen da. Baina beste datu bi, gogobetegarriagoak zalantzarik gabe, eman ditzakegu igoera-analisia justifikatzeko: (2.1. azpi-taIean azaldutako) zenbatzaileen interpretazio bikoitza, eta egitura kausatiboak. Bata eta bestea azter ditzagun.</p><p>Artikulu honen 2.1. azpiatalean azaldu dugunez, subjektuaren igoera gertatzen delarik zenbatzaiIedun izen-sintagma batek interpretazio edo irakurketa bi eragiten ditu, hasierako gunean edo igotako gunean interpretatzen den. lrudi aditzetan ageri diren ergatiboak mendeko perpausetik igo badira, orduan espero dugu zenbatzaile bat dagoelarik perpausak anbiguoak izatea, zenbatzailea jatorrizko gunean (mendeko perpausean) edo igoeraren osteko gunean (perpaus nagusian) interpretatzen den. Nire informatzaileek hala baieztatzen dute. Ikus:</p><p>(85) Talde honetan [baten batek]i [KonpS t i nirekin minduta dagoela] ematen du Perpaus honen esanahia berdin izan daiteke «itxura denez baten bat nirekin minduta dagoela» zein «badago pertsona jakin bat itxura guztien arabera nirekin haserre dagoena». Lehen interpretazioan eman aditzak besarkadura dauka baten bat zenbatzailearen gainean (berau aztarnaren lekuan interpretatzen da-eta); bigarrenean, zenbatzaileak dauka besarkadura eman aditzaren gainean (zenbatzailea goiko perpausaren subjektu gunean interpretatzen da).33 Ohar zaitez, irakurle, mugimendurik ezean bigarren interpretazioa besterik ez genukeeIa izango. Zeharkako froga garrantzitsu bat badaukagu, hortaz, igoera analisia ontzat emateko. <ref type="bibr">34</ref> Bigarrenez, arestiko (81)-eko adibideen igoera-analisia beste datu batek berresten du: <ref type="bibr">Kaynek (1975</ref><ref type="bibr">) eta Torregok (1996</ref> nabarmendu duten bezala, aditz arazIeak eta igoera-aditzak bateraezinak izaten dira; arrazoia ez dago argi, baina aditz arazlearen osagarria subjektu-igoerarako lekurik uzten ez duen AS soila izateagarik gerta liteke bateraezintasun hori. Hartara, honelako egitura batek ezinezkoa izan beharko du:</p><p>(86) [AS Jonek [KonpS t nekatuta dagoela] eman]AS + arazi 33 Interpretazio biak gaitzak dira «harrapatzen», baina ohartxo honek lagun dezake biak bereizten. J0 dezagun Clemente entrenatzaileak prentsa irakurri duela, eta susmo txarra hartu duela. Aldageletan, hurrengo entrenamendu saioa hasi aurretik, arestiko perpausa esan lezake, amaiera banarekin:</p><p>(i) Talde honetan baten batek [t nirekin minduta dagoela] ematen du; a. minduta dauden guztiak altxatu, eta zergatik dauden minduta azaldu dezatela nahi dut, guztion aurrean. b. minduta dagoen hori altxatu bedi, eta zergatik dagoen minduta azaldu dezala nahi dut, guztion aurrean. Lehen testuinguruan, entrenatzaileak susmatu du baten bat minduta egon daitekeela, baina ez daki nor den edo diren. Bigarrenean, entrenatzaileak susmatu du pertsona jakin bat dagoela minduta, eta nahi du pertsona jakin horrek azalpenak ematea. <ref type="bibr">34</ref> Elordietak ere (2001) antzeko datuak ematen ditu Nor-Nori-Nork aditzetako ergatibo-absolutibodatibo hurrenkera eratorriaz; mugidaren ondorioz, zenbatzaileren bat biltzen duen DS absolutibo batek irakurketa bi eduki ditzake. riaren (core gramar eta periphery ingelesez) arteko bereizketa. Lehena, Gramatika U nibertsalaren gauzapen zehatz bat da, hiztun idealizatu batek barneratu duen hizkuntz jakintza multzo trinkoa; bigarrena, berriz, jakintza horretan ageri diren salbuespenak, hizkuntzaren historiaren ondorio hutsak izan daitezkeen bitxikeriak, eskolaratzean ikasitako egitura bereziak, eta abar. Baliteke irudi aditzen jokabidearen zati handi bat periferikoa izatea, aditzok gramatikaren ingurumariarekin elkartu ohi diren ezaugarri askotxo agertzen dute-eta: hiztun askok argi eta garbi aitortzen dute irudi aditza bera (edo aditz joko gehiena behintzat) eskolan ikasi dutela; sarri, hizkera bereko hiztunak ez dira ados jartzen irudi edo eman aditzak erabiltzen dituzten erabakitzerakoan; eta bata edo bestea erabilita ere, zalantzak eta desadostasunak ageri dira halako predikatu osagarria zilegi den edo ez erabakitzerakoan. Ergatibokomunztaduraren aurrean sumatzen diren aukera horiek guztiak ere periferikotasun honen zantzutzat har litezke, beraz.</p><p>Amaitu, apaltasun ohar batekin amaitu nahi dut: lan honen luzeak aditzera eman dezakeenaren kontra, (gramatikaren ikerketan ohi den bezala) gehiago da jakinkizuna jakinekoa baino, eta hemen egin dudan urratsa gehiago jakiteko norabide horretan kokatzen dut. Neure proposamena Nahitaezko Kasuaren Parametroa zuzentzat jo nahian garatu dut, baina, berez, parametro hori berori okerra izan liteke. Edozelan ere, parametro horrek iradokitzen duen joeraren aurka doa ergatibodun irudi aditzak iragangaiztzat jotzea. Azken finean, Nahitaezko Kasuaren Parametroak autreikusten du euskara bezalako hizkuntza (ustez) ergatibo batean ez direla Burzioren orokorpenaren eraginak antzemango; orokorpen horren arabera, kasu objektiboa ezartzeko, kanpo eta barne argumentua behar dira, eta argumentu hakarra egonik, kasu subjektiboa ezarriko da; kasu subjektiboa, hortaz, ez du objektiboaren agerpenak baldintzatzen. Euskarak, orokorrean, parametroaren kontrako balioa dauka, eta kasu objektiboa ezartzeko, nahikoa da argumentu bakarra izatea; kasu subjektiboa agertzeko, argumentu hi behar dira; kasu subjektiboa kasu objektiboaren agerpenak baldintzatzen duo Irudi aditzak salbuespen dira honetan,37 hain zuzen ere Burzioren orokorpena beteaz jokatzen dutelako. Baina, aurreko paragrafoaren amaieran iradoki dudan moduan, aditzok gramatikaren ingurumarian kokatzen hadira, ez da harritzekoa parametroaren joeratik aldentzea: periferikoak izatearen ondorio zuzena litzateke jokabide hori. Bibliografia Albizu, P., 2001, «Sobre la distribuci6n sintactica de las formas finitas del verba vasco: condicionamiento lexico y sintactico», ASjU-ko ale honetan, 67-108.</p><p>Artiagoitia, X., 1995, «Garri atzizkiaren izaera bikoitzaz: zergatik den maitagarria bezain mingarria», ASjU 29: 2, 355-405. _ , 2000, «Eratorpen morfologia: oharrak aditz ezergatiboei buruz», Udako Euskal Unibertsitatean irakurritako txostena.</p><p>37 Salbuespen egoeran egon daitezkeen gainerako aditzen azterketa zorrotza beharko genuke: etsi, /untzionatu, irakin, iraun, kurritu ... Hauetariko batzuk iragankor hutsak dira beharbada, eta beste batzuk, zerrendaren laburra ikusita behintzat, erabat periferikoak. Irakin aditzaren kasuan, nik neuk bidezkoa ikusten dut, irudi aditzen moduan, [-ABS] tasunaren bidez aztertzea.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>(</head><label></label><figDesc>51) a. Camilleriren nobelak erraz irakurtzen dira b. Espainian asko hitz egiten cia Euskal Herriari buruz c. Camilleriren nobelak ugari irakurri ziren iaz d. Atzoko irratsaioan asko hitz egin zen Euskal Herriari buruz15  Beste kontu bat cia hautazko interpretazioaren ezintasun hau nola azaldu behar den; Belleti eta Rizzirentzat kanpo-argumentu bat ez edukitzearen ondorio bada ere,Pesetsky-rentzat (1995)  egilerik ezaren zantzua baino ez cia.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>(</head><label></label><figDesc>52) a. Bide honetatik arinago joaten da b. * Atzo hamarretan batzarra egin zen eta gero Moyua Plazara joan zen (adibideak Albizuren lanetik moldatuak) Irudi-aditzek, beren aldetik, ez dituzte onartzen ez inpertsonal generikoak ez exis-tentziaIak: (53) a. * Gorbata jantzita, dotore {ematenl iruditzen} da b. * Bizarrik gabe gazteagoa {ematenl iruditzen} da c. * Urte luze batez, zoriontsua {eman I irudi} zen Euskal Herrian</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>Jonek zintzoa ematen dit b. *Jonek zintzoa.dirudit Uonek zintzoa] perpaus txikia izango genuke oinarrian,19 eta horixe litzateke eman aditzaren argumentu eta osagarri bakarra.Jone hori ergatiboa duelarik agertzeko arrazoia eman aditzaren hiztegi sarreran adierazitako bereizgarria litzateke: honelakoetan, eman aditzaren [-ABS] tasunak kasu absoluriboa indargabetzen du eta, espero litekeen absolutiboaren ordez, perpaus txikiaren DS subjektua ergatiboa erkatzera behartzen du. 20 Egin dugun proposamena arrazoitzeko orduan, beste datu bat ere gogoratu behar da: irudi aditzek ez dutela datiboa onartzen, hainbar NOR-NaRK aditz arruntek ez bezala, eta datiboa onartzekotan NOR-NOR! modura jokatzen dute. Hona hemen adibideak: (58) a. Jonek zintzoa ematen du baina (59) a. Jonek zintzoa dirudi baina cf. c. Jone zintzoa iruditzen zair</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>(</head><label></label><figDesc>65) ]onek nekatuta dagoela ematen du Hain zuzen ere, Axularren (eta Mitxelenaren edo Hiriart-Urrutyren) adibidearen antzekoa den hau hiztun gehienek onartzen dute, Salaburuk emandako (62a-b-c-d) adibideak onartu ez arren. Honek guztiak esan nahi du Salabururen azterbidea ezin dela egia osoa izan, edo ezin dela euskara osoaren egia izan behintzat. (pro == e) (pro == e)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>(</head><label></label><figDesc>67) a. ezin du elurra egin hotzik egin gabe. a'. ezin du proE elurra egin [e hotzik egin gabe] b. euria egingo du eguna argitu baino lehen. b'. proE euria egingo du [e eguna argitu baino lehen]</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>1. Sarrera* Artikulu honetan irudi aditzak deituko ditudanak aztertuko ditut, aSIDO birekin aztertu ere: batetik, ingeles edota gaztelaniazko antzeko egiturekin dauzkaten kidetasunak eta aldeak agertu nahi ditut, eta, bestetik, orain arte euskal gramatikan aditzok bazter batean llzteko izan dugun joera aldatu eta daukaten garrantzia azpimarratu nahi nuke. Ikerketa hau Eusko Jaurlaritzaren PI-1999-18 ikerketa-proiektuaren barman burutu da. Neure esker Dna erakutsi nahi diet honako lagunei: Jose Ignacio Hualderi, irudi aditzetan interesa piztu izanagatik; Benat Oyhar&lt;;abal, Itziar Laka, Koldo Zuazo eta Marijo Ezeizabarrenari zenbait datu argitzeaga-(adjektibo soila) (izena + egoerazko partitiboa)l (adjektiboa + egoerazko partitiboa)</figDesc><table /><note>*</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>Pozik eta hutsik bezalakoak: aditzondo argitzat eta nekatuta aditzondo itxurakotzat, biak nolabaiteko adberbiotzat beraz, jotzen ditu Euskaltzaindiak (1993); pozik bera adjektibotzat jotzen dute Zabalak eta Odriozolak (1994) beste lan batean; de Rijkek (1995) espreski baztertzen du egoerazko partitibodun hitzak adjektibotzat jotzea, eta adberbiotzat jotzen ditu; nik neuk, egoerazko -ik hau eta -ta nolabaiteko postposiziotzat jotzen ditut beste lan batean; pozik bezalakoetan partitiboa nolabaiteko postposiziotzat jotzea de Rijken beraren (1972) jatorrizko ikuspegia da. Nire ustez, egitura ihartuak Esaterako, Iparraldeko hiztunek ez dute eman adiera honetan erabiltzen; gure aitak (Basauri) biak erabiltzen ditu; baina mendebaleko hiztun batzuek esan izan didate ez dutela ez bata ez bestea erabiltzen.</figDesc><table /><note>2badira ere, -ik duten predikatuak [Pos[AdjS] Po] edo [Pos[IS] Po] postposizio-sintagma zurruntzat jo daitezke, poz-pozik J bakar-bakarrik eta abarrek bihotz-bihotzez J bete-betean hauen jokabide morfologikoa duten heinean. Banaketaren aldetik ere, bakar-bakarrik eta abar ez dira determinatzaile-sintagmak.3</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>. _ seems [the cat to be out of the bag] 'dirudi katua poltsatik kanpo egoteab . The cat i seems [~i to be out of the bag]</figDesc><table><row><cell>c. __ seems [the egg to be rotten]</cell></row><row><cell>'dirudi arroltzea ustelduta egotea' d. * __ seems [the hypothesis to be rotten] 'dirudi hipotesia ustelduta egotea' 1 (14') a+ Izan ere, ondo pentsatuz gero, bitxia litzateke aditz baten subjektu nor ager-(A-Egitura, eratorria) (S-Egitura, oinarrizkoa) tzen den mendeko perpaus osagarriaren barneko predikatuak erabakitzea. Eskuar-'katuak dirudi poltsatik kanpo egotea'</cell></row><row><cell>ki, ez dugu horrelakorik ikusten:</cell></row><row><cell>(11) a. John says that the hypothesis is true</cell></row><row><cell>'Johnek dio hipotesia egia dela' b. * The fish says that the hypothesis is true</cell></row><row><cell>'arrainak dio hipotesia egia dela'</cell></row><row><cell>(lIb) adibidea bitxia da arrainek ez dutelako hitz egiten ... baina agi denez say</cell></row><row><cell>'esan' aditzak erabakitzen du nolakoa behar duen subjektua (hots, biziduna eta</cell></row><row><cell>mintzoduna), eta zeintzuk murriztapen thematiko ezartzen dizkion; (10)-eko adi-</cell></row><row><cell>bideetan, beheko predikatua da murriztapen horien guztien erantzule eta iturri,</cell></row><row><cell>eta horrexegatik proposatzen dute ikerlari askok beheko (= mendeko) perpause-</cell></row><row><cell>tik igotzen dela subjektua.</cell></row><row><cell>b. Bigarrenez, clausal idioms direlakoen batasun semantiko-thematikoak eman</cell></row><row><cell>ohi dira argudio modura; Radford-ek (1988) gogoratzen digun bezala, badira</cell></row><row><cell>ingelesez subjektua ere barruan biltzen duten esaerak:</cell></row><row><cell>(12) a. The .cat is out of the bag</cell></row><row><cell>'Katua poltsatik kanpo dago' = sekretua jakitera eman da (nahi gabe)</cell></row><row><cell>b. The fur will fly</cell></row><row><cell>predikatua zein (S-Egitura) 'Larruak hegan egingo du' hori den aintzat hartu ondoren, noski: (10) a. The hypothesis seems to be true 'hipotesiak dirudi egia izatea' b. * The egg seems to be true 'arroltzeak dirudi egia izatea' c. The egg seems to be rotten 'arroltzeak dirudi ustelduta egotea' d. * The hypothesis seems to be rotten (A-Egitura)</cell></row><row><cell>'hipotesiak dirudi ustelduta egotea' berori perpaus nagusiko subjektu bilakatu eta esapidearen esanahiari eusteko:</cell></row><row><cell>Murriztapen thematiko horiek errazago azaltzen dira, noski, mendeko perpausa-(14) The cat seems to be out of the bag</cell></row><row><cell>ren barrukotzat hartuta: 'katuak dirudi poltsatik irtetea' [= badirudi sekretua jakinarazi dela]</cell></row><row><cell>(10') a. _ seems [the hypothesis to be true] Gertakari honek, jakina, azalpen erraza dauka baldin eta (14)-ko egitura egitura 'dirudi hipotesia egia izatea' eratorria dela, eta S-Egituran hiztegitik bertatik esaera osorik txertatu dela esaten b. * _ seems [the egg to be true] 'dirudi arroltzea egia izatea' badugu:</cell></row></table><note>8b) adibidearen igoera-analisia eskuarki hainbat argudiorekin defendatu ohi da. . Berrikus ditzagun argudio horiek (cf. Radford 1988: 435hh eta 1997: 175hh): a. John subjektuak dauzkan murriztapen semantiko-thematikoak [to be happy] predikatutik datozkiola, eta ez seem aditzetik; izan ere, edozein determinatzaile- sintagma izan liteke seem aditzaren subjektu, beheko (mendeko)= borroka hasiko da Berez, the cat DSak galdu egiten du bere esanahi idiomatikoa beste edozein adi- tzen subjektua denean: (13) The cat is anxious [PRO to be out of the bag] Hor, perpausak katuak poltsatik irten nahi du (hitzez hitz: katua irrikitan dago pol- ,tsatik ateratzeko) beste esanahirik ezin du eduki. Ematen du beraz [the cat ... out of the bag] esaera osorik gordetzen dela hiztegian, multzo zurrun eta ihartu bat bezala edo. Multzo hori zatitu edo bereiziz gero, (13) adibidean gertatzen dena alegia, galdu egiten da esapidearen interpretazioa. Zer gertatzen da esaera osoa seem bezalako aditz baten osagarri denean? Ba, hor, ez dagoela arazorik the cat</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>Alegia, egitura bietan aditzaren osagarri den perpaus txiki batekin abiatuko ginateke: there dugunean, subjektu logikoa perpaus txikiaren barnean gelditzen da; osterantzean, perpaus txikiko subjektuak gora igo, eta (espez, INF} gunea beteko duo Hartara, arestiko hiztegi sarrera ingeleseko seem aditzari dagokionez, beste honekin osatu beharko litzateke: . kategoria-hautapena: perpaus txikia (dagokion kategoriakoa: AdjS ... ) Zenbait aditzek (cf. sound') bigarren aukera hau baizik ez daukate, baina seem edo appear bezalakoek, berriz, aukera biak (19 eta 25) onartzen dituzte.Ingelesezko (eta gaztelaniazko) igoera-aditzak Hatsarreak eta Parametroak ikermoldean nola aztertu izan diren ikusi ondoren, gatozen orain euskarazko irudi aditzen egoera aztertzera.3. lrudi aditzak eta euren garrantziaEuskarazko irudi aditzek, predikatu osagarri soila hartzen dutelarik, izan/egon Semaforoa dotore dagoHau da: izan edo egon aditzaren subjektu edozein DS izan daitekeen neurri bertsuan esan dezakegu edozein DS izan daitekeela irudi aditzen subjektu; murriztapen ia bakarra 7 predikatuak ezartzen duen theta-rol edo interpretazioarekin bat etortzea da:Perpaus kopulatiboen kasuan, azaleko subjektuak eta predikatuak S-Egituran perpaus txikia osatzen dutelako jarrera hartu ohi da tradizio sortzailean (bereziki Stowell 1978tik aurrera), eta berdin egin izan da euskaraz ere (cf. Rodanoren haraindiko ertzean oina tinkatu dutJainkoa lagun(EH: 714)   g. bera sendagile, bera erizain(EH: 231) h. Gau hartan esnatu egin zen, ahoa lehor, eta baso bat ur edatera... (HG: 63) Horretaz gain, perpaus txikiaren barruko DS horrek Uztardura Teoriarako subjektu legez funtziona dezake, eta subjektu jokabide hau nolabaiteko perpaus baten aldeko argudiotzat jotzen da: 8 (30) a. Luisek [Amaia bere buruarekin haserre] ikusten du b. * Luisek [Amaiai berarekini haserre] ikusten du Arestiko adibide hauetan guztietan, perpaus txikiaz, aditz eta inflexiorik gabeko perpaus antzekoaz alegia, hitz egiterik dagoen neurrian, izan eta egon aditzen beraien osagarri izan daitezkeen egitura berdinak aurkitzen ditugu. (30a-b) adibideetan nabarmena da lehenean Amaia eta bere buruarekin nahitaez direla lagun bera eta bigarrenean Amaia eta berarekin ezin direla lagun bera izan. Datuek erakusten digute kako arteko perpaus txikia bera dela Uztardura Teoriak (A eta B hatsarreek zehazkiago) aintzat hartzen duen eremu hurbila.</figDesc><table><row><cell cols="4">kopulatiboek dauzkatenen antzeko murriztapen thematikoak dauzkate subjektuari</cell></row><row><cell>dagokionez:</cell><cell></cell><cell></cell></row><row><cell>(26) a. ]onek zintzoa dirudi b. * Mahaiak zintzoa dirudi</cell><cell></cell><cell>a'. Jone zintzoa da b'. * Mahaia zintzoa da</cell><cell>eta</cell></row><row><cell cols="4">Burzioren (1986) lanez geroztik. Alegia, honako egitura eratorriak ontzat ematen dira: (22) a. Johni seems [t i happy] b. Johni is [t i happy] Azaleko subjektuak S-Egituran predikatuarekin halako osagai trinkoa osatzen duela aldarrikatu izan dute arestian aipaturiko au!oreek. Batez ere, teoria barruko arrazoinamenduak erabili dira; S-Egituran subjektuak eta predikatuak osatzen duten perpaus txiki hori osagai beregain modura ikusten da batzuetan: (23) a. I consider Dohn stupid] c. I want [you by my side] 'John ergela begitantzen zaie 'Zu neure ondoan nahi zaitue b. Uohn happy]? I have never seen that. 'John zoriontsu? Sekula ez dut horrelakorik ikusi' Bestetik, Burziok existentziazko predikatuetako alternantzia hauek: (24) a. Three students are in the garden b. There are three students in the garden c. Amaiak dotore ematen du d. * Semaforoak dotore ematen du c'. Amaia dotore dago d'. * Zabala 1993):</cell></row><row><cell>'him ikasle baratzean daude' (28) a. _ Uone zintzoa] da</cell><cell>c. _</cell><cell>'badaude him ikasle baratzean' [Amaia irakasle] dago</cell></row><row><cell cols="2">S-Egiturako egitura berarekin lotzen ditu: b. _ [Amaia haserre] dago d. _</cell><cell cols="2">[zinema aretoak etxetik gertu] daude</cell></row><row><cell cols="4">(24) c. _ are [three students in the garden] Izan ere, Done zintzoaJ, [Amaia haserre, irakasleJ, [zinema aretoak etxetik gertu)</cell></row><row><cell cols="4">'dira hiru ikasle baratzean' bezalako perpaus txikiak euskaraz ere ikusten ditugu osagai modura, noiz aditz batek</cell></row><row><cell cols="3">azpikategorizatuak (29a-c), noiz osagai beregain modura (29d-h):</cell></row><row><cell>(29) a. lone zintzoa iruditzen zait</cell><cell></cell><cell></cell></row><row><cell cols="3">b. zinema aretoak etxetik gertu nahi ditut</cell></row><row><cell cols="2">c. Amaia fisika-irakasle ipini dute</cell><cell></cell></row><row><cell cols="3">d. zinema aretoak etxetik gertu !? Bai zera! (25) seem: a. argumentu-egitura: -8, proposizioa 6 e. Zer nahi dugun!? Amaia irakasle!</cell></row></table><note>b(27) a. Mahaiak burdinazkoa dirudi a'. Mahaia burdinazkoa da b. Semaforoak izorratuta ematen du b'. Semaforoa izorratuta dago Ikusten denez, ez daukagu eragozpen handirik traba egiten zuten arestiko (= 26ko) subjektuei egokia den predikatu bat aurkitzeko.7 Aide txiki bat badago izan/egon eta irudi aditzen artean; irudi aditzek postposizio sintagma banaka batzuk baino ez dituzte onartzen, eta izan/ egon bikoteak gehiago: (i) Ana {etxean, zurekin, dirurik gabe} {dago, cia} (ii) Anak {*etxean, *zurekin, ??dirurik gabe} {ematen du} Ingelesez ere badira antzeko murrizketak (Stowell 1983); dena dela, murrizketok argitzea lan honen mugetatik kanpo gelditzen da.f.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>Gauzak nahiko laburtuz, gogora ekarri behar dugu ergatibitatearen ikuspegi hau azken finean Lakaren (1993a) Nahitaezko Kasu Parametroarena bera dela: ora har argumentu biko perpausetan hizkuntza guztiak berdinak dira eta argumentu bakarrekoetan .bereizten dira; hizkuntza ergatiboetan, argumentu bakarreko perpausen subjektuak aditzari dagokion kasua (objektiboa) azalduko du, eta hizkuntza nominatiboetan, argumentu bakarreko perpausen subjektuak DNB buruari dagokiona (subjektiboa) agertuko du:</figDesc><table><row><cell>40</cell><cell></cell><cell>XABIER ARTIAGOITIA</cell></row><row><cell>(31)</cell><cell>Nahitaezko Kasuaren Parametroa</cell></row><row><cell></cell><cell cols="2">ekonomia: argumentu bat~kasu bat</cell></row><row><cell></cell><cell>a. hizkuntza nominatiboetan:</cell><cell>isiotu DNB buruaren Kasu-tasuna</cell></row><row><cell></cell><cell>(DS bakarra = kasu subjektiboa)</cell></row><row><cell></cell><cell>b. hizkuntza ergatiboetan:</cell><cell>jsiotu Aditz buruaren Kasu-tasuna</cell></row><row><cell></cell><cell>(DS bakarra = kasu objektiboa)</cell></row><row><cell></cell><cell></cell><cell>(Laka 1993a: 169 lanetik moldatua)</cell></row><row><cell cols="3">Latina da lehenaren adibidea, eta euskara bigarrenarena:</cell></row><row><cell cols="2">(32) fatina</cell><cell>euskara</cell></row><row><cell></cell><cell>a. mulier mulierem vide</cell><cell>c. emakumeak emakumea ikusi du</cell></row><row><cell></cell><cell>b. mulier (*mulierem) cade</cell><cell>d. emakumea (*emakumeak) erori da</cell></row><row><cell></cell><cell></cell><cell>(Laka (1993a) lanetik moldatua)</cell></row></table><note>pentsa liteke, besterik gabe, 'predikatua =-nor' eta 'subjektua = nork' parekatuz gero, funtsean irudi aditzek partaide edo argumentu bi dauzkatela, eta ez bat, eta horrega- tik agertu behar dutela ergatiboa eta guzti. Aditzaren argumentu zentzu sintaktikoan ulertzen da hemen: aditzak berariaz eskatzen duen eta harengandik 8-rola jasotzen duen sintagmatzat jotzen dut.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>eta predikatua (zorioneko NOR hori) argumentu bereizi bi direla aldarrikatzeak azaldu gabe uzten du izan eta horrelakoetan zergatik ez den berdin gertatzen, eta, horrenbestez, zergatik ezin duen subjektuak ergatiboan agertu: (33) a. *]onek azkarra da b. ]onek azkarra dirudi B,alizko erantzunak bilatzen hasiz gero, erantzunetariko bat hauxe izan liteke: (33a)-n benetako DS argumentu bakarraJone dela, eta euskaraz argumentu bakarra dagoelarik, argumentu horrek kasu absolutiboa hartzen duela; hipotesi honetan, jakina, Done azkarra] perpaus txiki hori izan-en argumentutzat har liteke, baina ez DS argu-mentutzat, eta horregatik ez luke kasua hartuko; eta hipotesi berean, [azkarra] predikatuak berak ere ez luke kasu absolutiborik hartuko.Zorrotz aztertuta, baina, erantzun honek ez du gauza handirik azaltzen: izan ere, izan aditzerako egiten ditugun suposizio berdinak egin genitzake irudi-rako, bereziki ezaugarri thematikoei erreparatuta aditz biak antzekoak direla ikusi ondoren. Hala ere, batetik besterako aldea hor dago, temati: batak ergatiboa hartzen du, eta besteak ez.Irudi aditzen ergatiboa iragankortasunaren bidez azaltzeko saio horrek, gainera, beste hainbat hutsune ditu. Esaterako: sarreran ikusi dugunez, irudi aditzek askotan ez dute DS predikatu bat edukitzen osagarri, beste era bateko predikatua baino:(34) Jonek {dotore, pozik, nekatuta, gaizki ... } ematen du Hemen ]onek ergatiboan agertu beharra nekez defenda liteke predikatu osagarria absolutiboan agertu beharragatik: egiazko izen-sintagmarik (= DSrik) ezean, oso zaila da absolutiboa dagoenik esatea. Datu hau garrantzi handikoa da. IQ Bigarrenez, DS predikatu osagarri bat dagoelarik ere, DS horrek ez du jokatzen ohiko argumentuen erara: batetik, ezin du jabetza-genitiboan agertu aditzetik eratorritako izenaren osagarri agertzen denean, eta bestetik ezin du aditz batetik eratorritako hitz elkartu sintetiko batean parte hartu. Puntu honetan kontraste nabarmena dago eman aditzaren egiazko erabilera iragankorraren eta irudi erabileraren artean:Odolaren emailelemate bezalakoak zilegi izateko baldintza jabetza-genitiboan agertzen den izen-sintagma dagokion (kasu honetan eman) aditzaren argumentua izatea da; (36b) adibidearen argitara, ez dirudi bertsolaria DS eman aditzaren argumentu denik. Bestalde, odol-emaile eta berri-emaile bezalakoak zilegi izateko, izen elkartuaren lehen osagaiak aditzaren barne argumentua behar du; (36c) adibideak erakusten du bertsolaria ez dela orduan eman aditzaren barne argumentua. Bistan denez, bertsolaria bezalako DS predikatu batek ez du ohiko DS argumentuek bezala jokatzen, eta orduan nekez esan daiteke]onek bertsolaria enzaten du horretan]one argumentu bat eta bertsolaria beste bat denik: kontuak ez zaizkigu garbi ateratzen. Beste horrenbeste esan dezakegu]onek bertsolaria dirudi bezalakoez, *bertsolariaren iruditze amaigabea, *bertsolari-iruditzaile, *bertsolari-irudile adibide okerrak lekuko.Hirugarrenez, datu nahiko erabakigarria eman dezakegu argumentu biren hipotesia atzera botatzeko: predikatuek, are DS kategoriakoak izanda ere, ezin dute aditzarekin komunztatu, benetako argumentu absolutiboak izatera esperoko genukeenaren kontra:(37) a. ]onek eta Mirenek bertsolariak ematen dute b. *Jonek eta Mirenek bertsolariak ematen dituzte cf. c. Jonek begiak emango lituzke alabaren bizia salbatzeko d. * Erretratu honetan Jonek ni ematen nau 11 (38) a. Bizitzaren pausoek pertsonen kontrako mina leherkariak dirudite (HG: 42) b. * ... mina leherkariak dirudizkite c. {dirudigu / *dirudizkigu}, {dirudizu / *dirudizkizu}, ... d. *nirudizu, *hirudigu... Adibide hauek guztiek, (37b) eta (38b) adibideek batik bat, agerian uzten dute auziaren muina: bertsolariak eta mina leherkariak predikatu osagarri pluralek ezin dute pluraleko komunztadura eduki aditzarekin; bitxia bada ere, predikatu bezala pertsona-izenordain bat erabiliz gero ere (= 37d, 38c-d), ez dago komunztadurarik, seguruenera benetako argumenturik ere ez dagoelako. 12 Honetan ere, bat datoz irudi eta izan (cf. Zabala 1993): (39) a. Ni zu banintz... b. Haiek ez dira gu, eta gu ez gara haiekOrokorrean, ez eman aditzak ez irudi aditzak ez dute numero edo pertsona komunztadurarik agertzen zorioneko NOR horri dagokionez; eta irudi-ren adizki trinkoetan ere, NORK saila besterik ez da aldatzen (38)-k aditzera ematen duenez. Kontuan hartuta gaur egun euskalari gehienek(Euskaltzaindia 1987, Oyhar~abal 1989,  Laka 1993b<ref type="bibr" target="#b23">, G6mez eta Sainz 1995</ref><ref type="bibr" target="#b21">, Fernandez 1997</ref><ref type="bibr" target="#b44">, Ormazabal &amp; Romero 1998</ref> hirugarren pertsonako NOR absolutibo singularraren komunztadura markatzatd utela, ez dago arrazoirik]onek zintzoa dirudi bezalakoetan DS argument.u bi daudela pentsatzeko, edo predikatuak inolako komunztadurarik egiten duela pentsatzeko, predikatu hori DS kategoriakoa izanda ere.Hartara, irudi aditzen subjektuak eta predikatu osagarriak nolabaiteko perpaus txikia osatzen dutelako hipotesia ez da hain bitxia egiten; hori bai, ergatiboa zergatik azaltzen den argitu gabe daukagu oraindik.3.3.]onek zintzoa dirudi bezalakoetan absolutiborik zergatik ez dagoenAurreko azpiatalean suposizio bat eginez jokatu dugu: argumentu batek kasua eta komunztadura, biak, behar dituelakoa alegia.]onek zintzoa dirudi bezalakoetan, erakutsi dugu zintzoa hori ez dela ohiko argumentu bat eta ez duela aditzarekin komunztatzen; ondorioz, kasurik ere ez daukala esan genezake. Baina arrazoiak daude komunztadura eta kasua gauza bi direla pentsatzeko: Oyhar~abalek (1993a), esaterako, argi asko erakutsi du euskarazko adizki alokutiboetan ageri den hi edo zu horiek ez 11 Honako hau ere ez da oso borobila:(i) ? Erretratu honetan Jonek ni ematen du Baina, aukeran, (i) adibide hau nabarmen hobeagoa da testuko (37d) hori baino. . *ez du dirurik zoriontasuna erosten direla argumentuak eta ez dutela kasurik, komunztaduran parte hartzen duten arren. Gauzak horrela, norbaitek arrazoitu lezake]onek zintzoa dirudi edo]onek dotore ematen du perpausetan, zintzoa eta dotore predikatuek eurek jasotzen dutela kasu absolutiboa, komunztadurarik ez dagoen arren, eta horregatik dagoela subjektua ergatiboan.Argudioak ematea nahiko zaila den arren, aukera hori hiru arrazoirengatik baztertu daiteke. 13 Lehenik, berriro ere, izan eta egon aditzekin egiten dugu topo: hauetan ere predikatuak kasu absolutiboa jasoko luke, eta orduan esperoko genuke irudi aditzetan bezala subjektua ergatiboan azaltzea, hain zuzen ere gertatzen denaren kontrakoa, zeharo kontrakoa.Bigarrenez, jakina da determinatzaile partitiboa kasu absolutiboan (&lt;&lt;NOR») baino ez dela azaltzen euskaraz:(40) a. Jonek ez du dirurik ematen b. Ez da dirurik etorri Irudi aditzekin, berriz, ezinezkoa da DS predikatuak determinatzaile partitiboarekin azaltzea, egiazko kasu absolutiboa jasotzekotan esperoko genukeen bezala, eta honetan izan aditzak bezala jokaten dute: 14 (41) a. Jonek ez du inola ere zintzoa ematen baina a'. *Jonek ez du inola ere zintzorik ematen b. J one ez da inola ere zintzoa baina b'..*Jone ez da inola ere zintzorik Hirugarrenez, eta azkenez, Iparraldeko TO-GEN egiturek bide ematen digute predikatuek kasurik ez daramatela erakusteko; ezaguna da aditz iragankorren osagarriek aukeran daukatela jabetza-genitiboan azaltzea nominalizazioetan:(42) a. Deliberatu dugu zuk sagarrak biltzea b. Deliberatu dugu zuk sagarren biltzea Alternatzia honen interpretazio bat hauxe izan daiteke: jabetza-genitiboa abstraktuki ezarritako kasu absolutiboa gauzatzeko aldaera bat baino ez dela. Testuinguru honetan, jakingarria da Iparraldean erabiltzen den iduri izan aditzarekin zer gertatzen den. Hara:(43) a. On da epaile batek zintzo iduri izaitea b. * On da epaile batek zintzoaren iduri izaitea Ikusten denez, TO-GEN egitura ezinezkoa dugu iduri ukan aditzarekin, predikatuak kasu absolutiboa edukiz gero espero zitekeenaren kontra; hartara, komunztaduraren al~rrekoa ez den beste arrazoi bat badaukagu irudi aditzen predikatu osagarriak kasurik jasotzen ez duela pentsatzeko.13  Oro har, predikatuek kasurik behar ez dutela aldarrikatu ohi da HH eta pp ereduan(ef. Chomsky  1986<ref type="bibr" target="#b43">, Moro 1997</ref>). Baina ikus 10. oharra. .4. Eratorpen atzizkiak eta irudi aditzak Irudi aditzen argumentu ezaugarriak aztertzeko, eratorpen morfologiaren datuetara jo dezakegu, eta hor ere emaitzak adierazgarriak dira. Atzizki bi aztertuko ditugu. Irudi aditzen kasuan argumentu bi ez daudelako ondoriora heltzen gara berriro -garri atzizkiaren azterketaren eskutik: Artiagoitia (1995) lanean garri atzizkia argumentu biko aditzek onartzen dutela aldarrikatzen dut; aditza iragankor arrunta izan daiteke (cf. 44a) edo barne argumentu bikoa (cf. 44b): Gatozen orain -le eta -t(z)aile atzizkien azterketara. Irudi aditzaren kasuan, datu gehigarri bat eman daiteke ergatiboan azaltzen den DS hori aditzaren kanpo argumentua ere ez dela argudiatzeko: Azkaratek (1995) eta Artiagoitiak (2000) euskarazko -le eta -t(z)aile atzizkiek aditz oinarria dutelarik aditz horrek kanpo argumentuduna izan behar duela erakutsi dute. Hots:Adibideotan sumatzen dugunez, aditzak ez du zertan iragankorra izan: eskiatu edo kolaboratu, ez dugu ezer eskiatzen edo kolaboratzen, eta hala ere -tzaile atzizkia onartzen dute aditzok. Ekialdekoak diren NOR saileko mintzatu, jazarri eta jarraiki aditzen kasuan, beste horrenbeste esan daiteke. Kanpo argumentu argia daukaten baina osagarririk ez daukaten aditz hauei aditz ezergatiboak deritze gramatika sortzailean.Hortaz, galdera honi erantzun behar diogu: aditz ezergatiboak ote dira eztabaidagai ditugun irudi aditz hauek? Irudi aditza bera ikusita, ematen du -tzaile edo-Ie atzizkiak ez direla onargarriak, nahiz eta atzizkiok eskuarki kanpo argumentua daukan ia edozein aditzek onartzen dituen:(47) *iruditzaile, *irudile Eman-en kasuan, jakina, emailehitzazeharoarruntada.baina aditzaren erabilera iragankorraren bidez azaltzen da; emaile izenak ez dauka zerikusirik zintzoa edo bertsolaria ematearekin, odola, dirua edo berriak ematearekin (hau da, eman iragankorrarekin) baino:(48) a. odol emaile, diru emaile, berri emaile .</figDesc><table><row><cell>(44) a. ikusi~ikusgarri</cell><cell cols="2">b. mindu~mingarri</cell></row><row><cell cols="3">Proposamen horren argitara, hauxe egiaztatzen dugu: irudi edo eman aditzek ez</cell></row><row><cell cols="2">dutela horrelakorik onartzen. Ikusi bestela:</cell><cell></cell></row><row><cell>(45) a. *irudigarri, *emangarri</cell><cell cols="2">b. *ergel-irudigarri, *bertsolari-emangarri</cell></row><row><cell cols="3">Hau da, *ergel-irudigarri Cergela ematen edo emanarazten duen zera') edo *bertso-</cell></row><row><cell cols="3">lari-emangarri ('bertsolaria ematen edo emanarazten duen zera') bezalako hitzak ezi-</cell></row><row><cell>nezkoak dira.</cell><cell></cell><cell></cell></row><row><cell cols="3">(35) a. Jonek odola ematen du b. odolaren {ematea, emailea} c. Jone odol-emailea da (46) a. kolaboratu~kolaboratzaile (36) a. Jonek bertsolaria ematen du f. hartu~hartzaile b. eskiatu~eskiatzaile g. ikusi~ikusle b. * bertsolariaren {ematea, emailea} c. mintzatu~mintzatzaile h. izan~*izale c. * J one bertsolari-emailea da d. jarraiki~jarraikitzaile l. erori~*erorle</cell></row><row><cell>e. jazarri~jazarle</cell><cell>J. jaio</cell><cell>---=-*jaiotzaile</cell></row></table><note>12 Ez gara esaten ari euskaraz argumentuek soilik komunztatzen dutenik, argumentu direnek komunz- tatu beharra daukatela baino (ikus, hala ere, Ormazabal eta Romero 1998). Argumentu ez direnek ere komunztatu dezakete aditzarekin, adizki alokutiboetan esaterako (Oyharc;abal 1993a): be~auetan mintzaidearekiko komunztadura dago, baina mintzaidea ez da aditzaren argumentua.c14 Irakurleari gogorarazten diot batetik zintzoal zintzorik bikoteetan determinatzaile sintagmak eta, bes- tetik, hutsik J pozik... bezalako egoerazko partitiboetan postposizio-sintagmak bereizten ditudala, de Rijk (1972) lanean bezala. (41)-eko epaiak lehenari dagozkio. Hala ere, onartu behar da predikatuak eta partitiboa ezin elkartzea, kasu arazoagatik barik, partitiboari egotzi ohi zaion zenbatzaile izaera- gatik gerta litekeela.3b. odola eman, dirua eman, berriak eman .</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>Perpaus txiki hori, printzipioz, DS kategoriakoa izan claiteke aditz bietarako, eta hizkeren arabera eta aditzaren arabera, bai AdjS, bai IS hutsa, bai postposizio-sintagma, bai partizipioa izan daitezke.</figDesc><table><row><cell cols="4">Eta ergatiboa, beraz, zergatik agertzen da? Puntu honetan kontserbadore joka-</cell></row><row><cell cols="4">tuko dugu, eta ergatiboa irudi edo eman aditzaren hiztegiko tasun bereziren baten</cell></row><row><cell cols="4">ondoriotzat joko dugu. Nola eman aditzera berezitasun hori? Erabat baztertuko dut</cell></row><row><cell cols="4">aditzok [+ERG] tasuna daukatela esatea: Nahitaezko Kasuaren Parametroa bere horre-</cell></row><row><cell cols="4">tan hartuta, kasu ergatiboa kasu subjektiboa litzateke zentzu abstraktu batean,</cell></row><row><cell cols="4">DNB (= denbora) buru funtzionalari lotua, eta horrenbestez ez dugu espero aditza-</cell></row><row><cell cols="4">ren hiztegi sarreran buru funtzionalaren ezaugarri bat aipatuta agertzea. Zein beste</cell></row><row><cell cols="4">aukera gelditzen zaigu? Nahitaezko Kasuaren Parametroari eutsi nahi bacliogu</cell></row><row><cell cols="4">behintzat, aukera bat hauxe izan daiteke: jo dezagun aditzok duten ikasi beharreko</cell></row><row><cell cols="4">tasuna [-ABS] dela, kasu absolutiborik ez dutela ezartzen alegia. Hau da:</cell></row><row><cell cols="2">(55) irudi/eman: [-ABS]</cell><cell></cell></row><row><cell></cell><cell>a. argumentu-egitura:</cell><cell cols="2">-8, proposizioa</cell></row><row><cell></cell><cell>b. kategoria-hautapena:</cell><cell></cell><cell>perpaus txikia (DS, AdjS, IS ... )</cell></row><row><cell cols="4">Hiztegiko aurkezpen horrekin, perpaus txikiaren barruko subjektua hiztegitik</cell></row><row><cell cols="4">bertatik itzalita datorren absolutibo kasua erkatu ezinean gelditzen da, nahiz eta,</cell></row><row><cell cols="4">berez, DS argumentu bakarra egonik, aditzak absolutiboa ezarri beharko lukeen</cell></row><row><cell cols="4">(izan-ek bezala). Horren ondorioz, kasu absolutiborik ezean, Denbora buru funtzio-</cell></row><row><cell cols="4">nalak ezartzen cluen kasu subjektiboa (ergatiboa alegia) isiotu behar da eta horixe</cell></row><row><cell cols="3">erkatuko du subjektuak. Eskematikoki:</cell></row><row><cell>(56)</cell><cell>baldin eta</cell><cell cols="2">orduan</cell></row><row><cell></cell><cell cols="3">A [-ABS]~isiotu Dnb buruaren Kasu tasuna (ergatiboa)</cell></row><row><cell cols="2">(54) irudi/eman:</cell><cell></cell></row><row><cell></cell><cell cols="2">a. argumentu-egitura: -8,</cell><cell>proposizioa17</cell></row><row><cell></cell><cell>b. kategoria-hautapena:</cell><cell></cell><cell>perpaus txikia</cell></row><row><cell cols="2">16 egon aditzak, ostera, bai:</cell><cell></cell></row><row><cell></cell><cell cols="3">(i) (Ba)nago etorriko dela (EH: 205)</cell></row><row><cell cols="2">17 Ikus 6. oharra.</cell><cell></cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>60) Orai badirudi euskarak ahalke dela, arrotz dela, eztela iendartean ausart, entregu, bithore eta ez trebe (Ax 10) Hots: zer deIa eta ageri da euskara DS ergatiboan dela aditzaren subjektu bada? Dirudi-rekin komunztatzen duenez, aditz honek ergatibodun subjektua bera eta perpaus osagarria, argumentu bi hortaz, dauzkala ondorioztatu behar ote dugu, artikulu honetan orain arte eraman dugun ildoaren kontra? Edo euskarak hori, dirudi-rekin PelIo Salaburu dugu arazo honetaz arduratu den euskaIari ia bakarra, eta ardura hori lan bitan(1987c, 1987d)  azaldu du, lehenean batez ere. Salabururen iritzian euskaraz irudi aditzak (edo zehatzago iduri du, horixe baita berak aipatzen duen aldaera) benetan hartzen ditu argumentu bi perpaus osagarriak hautatzen dituenean;24 berezitasun modura, bai, egia da iduri aditzarekin komunztatzen duen DS argumentuak erreferentziakide modura uIertzen den hutsune bat eduki ohi duela mendeko perpausean, baina berau gertatzea ez omen da nahitaezkoa, (62c-d) adibideak lekuko: Iehen argumentua haur hau eta apaiz hau ditugu, eta bigarrena perpaus osoa (050a); interpretazio naturalenean behintzat, mendeko perpausetan haur hau datibo gisa eta apaiz hau absolutibo gisa ulertuko ditugu hurrenez hurren, isilkako DS bezaIa. Beheragoko (c-d) adibideetan, berriz, ez dugu mendeko perpausetan apaiz hau eta Fraga DS horien erreferentziakidea den sintagma-hutsunerik sumatzen.</figDesc><table><row><cell cols="3">komunztatu arren, beheko perpausetik mugitutako, igotako, izen-sintagmatzat jo</cell></row><row><cell cols="3">behar dugu, ingeIesez bezaIa? Axularrena bitxikeria ez dela argi uzteko, komeni da</cell></row><row><cell cols="3">gogoratzea ez direIa horrelako adibideak falta geroagoko Iiteratur tradizioan:</cell></row><row><cell cols="3">(61) a. Eskeini digun ingurutxoko dantzariek prozesio batean dabiltzala dirudi-</cell></row><row><cell>te, edo meza nagusia ematen. (MEIG I: 165)</cell><cell></cell></row><row><cell cols="3">b. (Espainolek) iduri dute ez dakitela borrokatzen elgar sangratu gabe. O.</cell></row><row><cell>Hiriart Urruty: 10)</cell><cell></cell></row><row><cell cols="3">c. ('duela') hitz horrek iduri du eskuara deIa. O. Hiriart Urruty: 85)</cell></row><row><cell>Dakidala, (62) a. Haur honek iduri du goxokiak eman dizkiotela</cell><cell></cell></row><row><cell>b. Apaiz honek iduri du Apezpiku egingo dutela</cell><cell cols="2">(SaIaburu 1987c: 75)</cell></row><row><cell cols="2">c. Apaiz honek iduri du Apezpikua oso haserre dagoela</cell><cell>(ibidem: 77)</cell></row><row><cell cols="2">d. Fragak iduri du F. Gonzalezek berriz ere irabazi duela</cell></row><row><cell></cell><cell cols="2">(Salaburu 1987d: 124)</cell></row><row><cell>Salabururen arabera, lehen bi adibideetan, iduri-ren</cell><cell></cell></row></table><note>arabera, euskarazko perpaus inpertsonaletan aditzak beti ezarri behar du kasua; irudi aditzak [-ABS] direnez, hots aditza kasuari dagokionez indargabetuta dagoenez, nire predikzioa cia aditzok ez dutela egitura inpertsonalik onartuko. Predikzioa, ikusi dugunez, guztiz betetzen da. Zehaztasunetarako, ikus Artiagoitia (2001).(</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>P~OE badirudi nekatuta zaudeIa [e Ianari ekin baino Iehen] (proE = e) subjektua ekin aditzaren subjektu gisa ulertuta. 25 Perpausa ondo legoke, jakina, . zaude-ren subjektua eta ekin-ena erreferentziakidetzat hartuz gero (&lt;&lt;zuk zeuk lanari ekin baino lehen»). Datu hauek, orduan, iradokitzen dute ematen du eta dirudi aditzen subjektua, ustezko subjektua oraingoz, ez dela ez benetako argumentua ez sasiargumentua. Irudi aditzen perpaus osagarriei dagokienez, argumentu bakarrean pentsatzen hasi behar dugula ematen du, pace Islapen Hatsarre Zabaldua.</figDesc><table><row><cell>). (63)-ko adibideak bezalakoetan, berriz, subjektu gunean horrelako sasiargumenturik ez dagoela froga daiteke, horko subjektuak beste bat kontrolatzeko gaitasunik ez dau-kan neurrian. Hona hemen: (68) a. Jone zintzoa dela ematen du Jone bera ezagutu ondoren a'. *proEJone zintzoa deIa ematen du [e Jone bera ezagutu ondoren] (proE =e) b. badirudi nekatuta zaudela lanari ekin baino Iehen tikatik argi geratzen dira honako puntuak: (a) ez dago eredu bateraturik euskal hiz-tunen artean irudi aditzen perpaus osagarriei dagokienez; (b) arestiko (63)-koak bezalako perpausetan perpaus osagarria da itxura batean irudi aditzaren argumentu bakarra; (c) oraindik zehazteke dauden zenbait testuinguru eta hizkeratan, irudi adi-tzarekin komunztatzen duen subjektu ergatiboa azaltzen duten adibideak aurkitzen ditugu, eta berauek azalpenen bat behar dute; (d) azalpenak, nolanahi ere den, ez dauka zerikusi zuzenik ingelesezko (edo gaztelania-frantsesezko) igoera-egiturekin, b. * Laburbildu dezagun. Aurretik izan diren ikerketen azterketatik eta berauen kri-eta aIde horretatik Salaburuk eta Oyharc;abalek arrazoia daukate erabat.</cell></row></table><note>(68a) adibidean ematen duenak ('emaileak' !?) ezin du ezagutu aditzaren subjektua izan; alegia, perpausak ez du esan nahi «norberak/batek aditzera ematen du Jone zintzoa dela norberak/batek Jone ezagutu ondoren», baizik eta «itxura da Jone zintzoa dela norberakJone bera ezagutu ondoren». Era berean, (68b) adibidea gaizki dago dirudi-ren</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head></head><label></label><figDesc>Aipatu ditudan zailtasun eta gabezia hauek gorabehera, hemen galdetegiaren emaitzak plazaratzen ditut, nire ustez datu gehienak nahiko argiak eta esanguratsuak direlako eta, metodologia-oztopo guztien gainetik, jakitera emateko modukoak begitantzen zaizkidalako. Espreski adierazi ezean, ulertu behar da eman aditzaz diogunak berdin-berdin balio duela dirudi aditzerako. Ondorioak Ondorio modura, nik neuk behintzat, gutxienez lau (agian bost) hiztun mota bereizi behar direla ikusten dut: a. Mutur batean irudi aditzen perpaus osagarrietan ergatiborik agertzea onartzen ez duten hiztunak daude. Galdeketan zehar lau hiztun aurkitzen ditugu sistematikoki ergatiboari ihes egiten diotenak. Hiztunok ez dute hemen aipatutako adibideetarik (69-72) bat bera ere onartzen; berauen gramatikan badirudi irudi aditzek ingelesez bezala edo jokatzen dutela perpaus jokatuak osagarri hautatzen dituztenean.b. Beste mutur batean, Salaburuk deskribatutako hiztun mota dago, baina gutxiengo bakartia da; izan ere, inkestatutako hiztunetatik bakarra dugu Salaburuk deskribatu bezala zehatz-mehatz jokatzen duena. Hiztun horrek hemen aipatu diren adibide guzti-guztiak onartzen ditu. Hiztun mota honendako esan beharko da irudi aditzak argumentu bi eduki ditzakeela. , eta errefusatzen dituztenak. 28 Edozelan ere, korrespon-proposizioa buruak ezarri behar duen kasu ergatiboa (eta Chomskyren arabera (1995: 4. kapitulua) izen-tasuna) izenordain betegarri baina isil batek jasoko duo Hau da: (80) a. proEbet Uone zintzoa dela] dirudi b. proEbet Uone zintzoa dela] ematen du Horko pro E hau ingelesezko it horren guztizko kidea genuke, perpausak behar duen subjektutasuna erkatzea beste helbururik ez daukan betegarria. Egia da zaila dela ikusten ez den izenordain bat badagoela onartzea, baina bestetik pentsatzekoa da ez dela kasualitatea aditzok aditz laguntzailetzat edun hartzea, ergatibodun DSren bat Suppose that a language were to allow the construction (56) [= INF seems that John is intelligent], but with only agreement checked in the embedded clause, not Case. Then raising should be possible~[... ] RaisingJohn to matrix subject, we derive (57) [= John INF seems that t is intelligent], again with double agreement and double satisfaction of the Extended Projection Principle, but with only one Case relation: in the matrix clause. [...] 30 Baina, era berean, edun aditz laguntzaileak ez du absolutiborik clagoenik inplikatzen, 3.2. azpiatalean esan cludan bezala.</figDesc><table><row><cell>Erantzunak aipatzerakoan, batez ere euskaldun zaharrak diren hiztunen emaitzak aipatuko ditut: 14 lehen galdetegian eta 7 bigarrenean; 21 beraz. Hiztunei, kasu guztietan perpausak ontzat, zalantzazko-tzat (?), oso zalantzazkotzat (??), eta onartezintzat (*) jotzen zituzten adierazteko eskatu nien. Hona galdetegi hartatik harira datozen adibideak 26 eta beraien inguruko iruzki-nak dakartzat. A eta B hizkiak galdetegiei dagozkie; hartara "A + B U adierazteak per-pausak galdetegi bietan dagoela esan nahi du; A edo B soilak perpausak galdetegi bakarrean agertu zirela adierazten duo a. ergatiboa agertzeaz. Hona hemen erabilitako perpausak: (69) a. Jonek ematen du nekatuta dagoela (A + B) b. ]onek nekatuta dagoela ematen du (A + B) Perpausokin egiaztatu nahi nuen ea hiztunek benetan onartzen duten ustez men-deko perpausaren subjektua denak irudi aditzarekin komunztatzea. Horretarako, mendeko perpausean absolutiboa behar duen argumentu bat erabili dut, ergati-boduna izanik irudi aditzarekin duela komunztadura argitze aldera. Lehen adibi-dea 21 lagunetatik Ilk onartzen dute arazorik gabe, eta bigarrena 15 lagunek. Perpaus bien kasuan, lau lagunek besterik ez diote erabat onartezinak ('*') direla. b. ergatiboa hirugarren pertsonatik kanpo agertzeaz. Perpausokin egiaztatu nahi nuen ea mendeko perpausaren ustezko subjektua denak irudi aditzarekin komunztatu deza-keen hirugarren pertsona izan gabe. Hemen nabaria da lehen galdetegian ez nuela asmatu perpaus egokiak osatzerakoan, eta horregatik daude aldeak galdetegi bate-tik bestera, adibideak aldatu ditugun seinale: (70) a. zuk nekatuta zaudela ematen duzu (A) b. nekatuta zaudela ematen duzu (B) c. ematen duzu nekatuta zaudela CB) d. zuk zeuk ere, ematen duzu nekatuta zaudela (A + B) Erantzunak interesgarriak dira oso: A galdetegia erantzun zuten halnalau euskal-dun zaharren artean 11 lagunek onartezina ('*') iritzi zioten (70a) adibideari; 11 lagun horietariko 9k, hala ere, ontzat eman zuten (69b) adibidea. B galdetegiko (70b) adibidea zazpi lagunetik bik onartzen dute eta (70c) adibidea, berriz, hiruk. Kontuan hartuta B galdetegian zazpitik hiru lagunek onartzen zituztela (69a-b) adibideak, ez dago hainbesteko aldea hirugarren pertsonaren eta bigarrenaren artean, baina aIde txikia egon, badago: (69a) adibidea zalantzazkotzat ('?') duten B galdetegiko bi lagunek eurek zeharo onartezinak deritzete (70b-c) adibideei. (70d) adibidea, azkenik, 21 lagunetatik 10ek onartzen dute, ia hiztunen erdiak galdetegi biak batera hartuta. A galdetegian nabarmena da (70a) eta (70d) adibi-deen arteko desoreka: lehena 14/2k besterik ez dute onartzen; bigarrena, berriz, 14/7k. Ematen du, beraz, hemengo (70a) adibidea desegokia dela, zeren euskarak, pro-drop hizkuntza izanda, ez du ageriko subjektua (bereziki pertsona-izenordai-na) larregi maite, subjektua aipatzeko arrazoirik (fokoa, mintzagaia) ez badago behintzat; (70a) adibidearen ordez (70b) adibidea eman bagenu, onarpen indizea handiagoa izan zitekeen beharbada (70d-ren emaitzak ikusita batez ere). c. irudi aditzak argumentu birekin. Hurrengo perpausa irudi aditzak argumentu bi edukiko balitu bezala dago eratuta: (71) ]onek Ana haurdun dagoela ematen du (A + B) Hemen erantzunak nahiko esanguratsuak dira: 21 lagunetatik bakarrak onartzen du adibidea; gainerakoen artean, 19 lagunek onartezina ('*') deritzote adibidea-ri,27 eta beste batek oso zalantzazkoa ('??'). d. mendeko perpauseko ustezko argumentuak irudi aditzaren subjektu. Ondorengo adi-bideen bidez egiaztatu nahi izan nuen ea zenbat hiztunek onartzen duten irudi aditzaren subjektu gisa mendeko perpausetik mugitua dirudien eta subjektua ez den DS absolutibo edo datibo bat. Hirugarren pertsonak eta bigarrenak zertan berdin jokatu ez dutela eta, biekin osatu genituen adibideak: (72) a. ]onek ematen du norbaitek min egin diola (A + B) b. Jonek ematen du norbaitek jo egin duela (A + B) c. Ematen duzu norbaitek min egin dizula (A + B) d. Ematen duzu norbaitek jo egin zaituela (A + B) Oraingo emaitzak azpimarratzekoak dira berriz ere: 21etatik 6 lagunek onartzen dituzte arazorik gabe (72a) eta (72b) adibideak, baina kopurua 2tara jaisten da (72c) eta (72d) adibideetan. Edozelan ere, (72a-b) versus (72c-d) kontraste hone-tan sistematikoa da harreman bat: lehen bikotea onartu arren bigarrena onartzen ez duten hiztunek eurek onartu egiten dituzte lehenagoko (70d) bezalakoak. Xehekiago: A galdetegian hiru hiztun daude egoera horretan, eta hirurek onar-tzen dute (70d) adibidea bera; egia da horietariko bik ez dutela (70a) onartzen, baina ikusi dugunez horren arrazoia adibide horren desegokitasuna bera izan lite-ke. B galdetegian hizkun bakarra dago (72a-b) onartu bai, baina (72c) zalantzan ('?') eta (72d) oso zalantzan ('??') dauzkana; hiztun horrek, hala ere, erabat onar-tzen ditu (70b) eta (70d) adibideak, (70c) oso zalantzazkotzat ('??') daukan arren. Honek guztiak esan nahi du mendeko perpausean ustezko subjektua den bigarren pertsona batek irudi aditzarekin komunztatzeak ez dakarrela nahitaez jatorriz datiboa edo osagarri absolutiboa den bigarren pertsona batek ere komunztatzea. (= 69a) (= 70b) (= 70c) (= 71) (= 72a) 4.3. c. Hirugarren hiztun multzo bat ergatiboa hirugarren pertsonan eta subjektua izanda bakarrik azaltzea onartzen dutenek osatzen dute. Hiztunok honelako para-digma bat edo osatzen dute: (73) a. Jonek nekatuta dagoela ematen du b. * nekatuta zaudela ematen duzu c. * ematen duzu nekatuta zaudela d. * ]onek Ana haurdun dagoela ematen du e. *Jonek ematen du norbaitek min egin diola Hiruzpalau hiztunek dute honelako joera bat. d. Laugarren hiztun multzoa ergatiboa hirugarren pertsonan eta bestela onartzen dutenek osatzen dute (zazpi denetara); hala ere, ez dute onartzen irudi aditza argu-mentu bikotzat jotzea: (74) a. ]onek nekatuta dagoela ematen du. b. nekatuta zaudela ematen duzu c. ematen duzu nekatuta zaudela d. *Jonek Ana haurdun dagoela ematen du (= 69a) (= 70b) (= 70c) (= 71) Hiztun hauen erdiak baino gehiagok onartzen dute mendeko subjektua ez den argumentu bat ergatiboan agertzea, baina hirugarren pertsonakoa izan behar du: (75) a. ]onek ematen du norbaitek min egin diola (= 72a) b. * Ematen duzu baten batek min egin dizula (= 72c) Tamalez, puntu honetan A eta B galdetegietako adibideak batetik bestera pixka bat aldatu izanak laugarren hiztun multzo honen izaera iluntzen eta desitxuratzen du; beharbada, zentzuzkoagoa litzateke multzo hau bitan banatzea: (75a) bezala-duen moduan. 30 Gakoa, saltsa honetan, galdera honetara laburbiltzen da: zerk egiten du zilegi hiz-tun askorentzat betegarri horren ordez ageriko subjektu bat agertzea? Puntu honeta-ra iritsita, irakurle, erantzuna euskaratik kanpo bilatu beharko dugu. Lehenengo eta behin, badirudi mendeko perpauseko DS batek aukera daukala goiko perpauseko, perpaus nagusiko, DNB buruari egotzi ohi zaizkion izen-tasuna eta kasu-tasuna erkatzeko: (81) a. ]onek [t zintzoa dela] dirudi b. Jonek [t zintzoa dela] elnaten du Kasu honetan, ingelesez ez bezala, ezin dugu esan mugimendu hori beheko per-pausean kasua ezin jasotzeagatik gertatu dela; izan ere, (81)-eko perpausak esaten dituenak (80)-koak ere esaten eta onartzen ditu sarri. Subjektu-igoerarako joera edo aukera hau ez omen da hain bitxia hizkuntzarteko ikuspegitik (cf. Grosu eta Horvath 1984, Ura 1996); izan ere, Urak igoera perpaus jokatuetan gertatzen den dozenatik gora hizkuntza aipatzen ditu. Uraren igbo hiz-kuntzaren adibide pare hau ikus dezagun: (82) a. 6 df m ka Eze huru Ada bera dirudi niri -la ikusi hitzez hitz: «niretzat badirudi Ezek Ada ikusi zuela» b. Eze df ID ka 6 huru Ada dirudi niri -la bera ikusi hitzez hitz: «niretzat Ezek dirudi Ada ikusi zuela» (Ura 1996: 72) Ikusten denez, igbo hizkuntzan, mendeko subjektuak, bere perpausetik igo, eta goragoko perpausaren subjektu modura jokatzen du mendeko perpausean halako kopia bat utziz. Bestetik, Chomskyk berak (1995: 285), tasun formalen eztabaidaren testuinguruan, horrelako egoera bat aurreikusten du: koak onartzen dituztenakdagoelarik erabiltzen den aditz laguntzailea hain zuzen, Albizuk (2001) argudiatu (83)</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">Xehetasunetarako ikus<ref type="bibr" target="#b40">May (1977</ref>May ( , 1985, eta<ref type="bibr" target="#b26">Hornstein (1995</ref>Hornstein ( , 1999. Zenbatzaileen interpretazio bikoitz honen aurka Chomsky bera (1995: 327) mintzatzen cia; ikus baita<ref type="bibr" target="#b37">Lasnik (1999)</ref> ere.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6"> Chomskyk (1981: 10Sh)  proposizio deitzen die Uohn sad] bezalako perpaus txikiei seem aditzak hautapen bakarra daukala azpimarratzeko. Nik neuk, aukeran, ezaugarria eta egoera hartuko nituzkeen perpaus txikiak dauzkan rol semantikoak izendatzeko; izaki eta egoera mailako predikatuei dagozkie deiturok. [Seem + predikatu osagarria] egituretan igoerarik ez dagoela defendatzen duen ikuspegi baterako, ikus<ref type="bibr" target="#b68">Williams (1983</ref>Williams ( , 1994.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8"> Zabalak dioenez (1993: 329hh), osagaitasunaren aldeko argudioak ez dira beti garden-gardenak. Haren lanera jo bedi zehaztasun gehiagoren bila.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9">Nire iritzi apalean,jonek zintzoa dirudi bezalakoak arazo dira printzipioz Laka, Levin, Ortiz de Urbina eta Holmer ikertzaileentzat, bai eta, gero esango dudanagatik, Oyhar~abalentzatere. Guztientzat dira arazo, beraz.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10">Beste hizkuntza batzuetan litekeena da DS predikatuek kasuaren beharra izatea. Hizkuntza horietan egitura kopulatiboak iragankorrak ei dira. Ikus honetaz<ref type="bibr" target="#b39">Maling eta Sprouse (1995)</ref>. Euskaraz, hala ere, predikatua DS, AdjS, IS edo Po-S izan, subjektuaren kasua ez da aldatzen.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="18">Nahitaezko Kasuaren Parametroa abiapuntutzat hartu dudan arren, baliteke ergatiboa iragankortasunarekin hertsiki lotu beharrean aditz bakoitzaren hiztegiko hautua izatea (cf. Oyhar~abal1992) edo S-Egiturako gune jakin bati atxikitzea (cf.<ref type="bibr" target="#b38">Levin 1983)</ref>. Hemen aldarrikatzen ari naizen bakarra hauxe da: irudi eta eman aditzen kasuan behintzat, aditz horien berorien hiztegiko bereizgarritzat jotzen dudala ergatiboarekin azaltzea, eta aditzok ez diotela ergatiboaren ohiko moldeari jarraitzen.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="19">Perpaus txikien azterbide ugarien artean hautatzerakoan neutrala naiz, eta hotrexegatik «perpaus txiki» soil batez bataiatu dut hotko osagaia: subjektua espezifikatzaile zein adjunktutzat hat daiteke. Perpaus txikirik gabeko azterbide baterako, ikus<ref type="bibr" target="#b68">Williams (1983</ref>Williams ( , 1994). 20 A eta Asp bereizten dituen azterbide batean, Asp burua da kasu absolutiboaren iturria. AIde horretatik, irudi aditzen bereizgarria Asp ardatzik ez edukitzea izan liteke. Hipotesi hotretan, NOR saileko aditzak eta irudi aditzak bereizteko, NOR saileko aditzek Asp burua badaukatela esan beharko genuke (cf. Laka 2000; Chomskyk (1995: 4. kap.) kontrako iritzia du).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="25">(68b) horren ordez, beste adibide hau ere eman liteke: (i) Badirudi busti egin zarela euria bota aurretik Hor ere, dirudi-ren subjektu horrek ('dirudienak') ez dauka gaitasunik bota adit4aren subjektua kontrolatzeko. Bestela esanda: (67)-an ez bezala, kasu honetan dirudiena eta euria botatzen duena ez datoz bat.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="27">Baten batek bekokia zimurtuko du honelako adibide bitxia ikusita; baina ondo pentsatuz gero, ez du zertan bitxia izan eman aditzak argumentu bi edukiz gero. Esanahia zera litzateke: «Jonen edo Joneren incurak edo haren inguruko zerbaitek (pozik, kezkatuta... dagoelako, umeez hitz egiten hasi delako) adierazi-edo egiten du Ana haurdun dagoela». Jakina, bitxia iruditzen bazaizu, irakurle, zuretako aditz honek argumentu bi onartze n ez dituelako izango da.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="28">Badago hiztun bat (74d) onartu gabe (75a) eta (75b), biak, onartzen dituena. Beronentzat argumentu-igoerak ez dauka inolako murriztapenik.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">[-NZ] 1\[ +DNB] tasunen bidez adierazi liteke (cf.<ref type="bibr" target="#b18">Emonds 1992)</ref>.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="31"> Draren (1996)  arabera, hizkuntzak. banatzen dituen parametroa hauxe da: igotzen den DSek izenordain-kopia bat uzten duen edo ez. Euskaraz, (81)-eko «t» hori mugitutako DS-arenpro antzeko kopia hutsa litzateke; Draren arabera, iF mailan horrek erkatzen du mendeko perpausean dagokion kasutasun ahula.32  Aitor dezadan igoera-eredu batzuk (e.g. 75a, ingelesezko super-igoera bezalakoak) azaldu gabe uzten ditudala. Hone(an interesa duenak U ra(1994, 1996)  lanetara jo beharko luke.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>{perpaus txikia, KonpS} dentzia argi bat aurkitzen dugu laugarren multzo honetan: hiztunek (75a) bezalakoak onartuz gero (74b-c) adibideak ere onartuko dituzte.</p><p>Aurreko multzoetan joera nabaria daukaten hiztunak aipatu ditut bakar-bakarrik; besteen kasuan, datuak nahasiagoak dira eta aparteko azterketa mereziko lukete. Lehen begiratu batean eta azterketa sakonago baten zain, esan behar dut ez dagoela hiztun motaren eta euskalkiaren arteko harreman zuzenik: Salaburuk deskribatu bezala jokatzen duen hiztun bakarra mendebalekoa da; galdetegia erantzun zuten bi nafarrak lehen multzoko hiztunak ditugu, Salaburuk deskribatu zuen eredutik urrunen dagoen multzoa hain zuzen ere. Mendebaleko eta erdialdeko hiztunen artean ere denetariko joerak ikusten dira. Lehen galdetegian parte hartu zuten euskaldun berri gehienek (5/4), bestalde, lehen joera daukate, argi eta garbi.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Perpaus osagarriak eta subjektu-igoera</head><p>Amaitze aldera, artikulu honen hirugarren atalean eman dugun irudi aditzen hiztegi sarrera ekarri behar dugu gogora:  <ref type="bibr">1989,</ref><ref type="bibr">1995)</ref>, eta merezi luke agian azterketa sakonagoa, baina oraingoan hemen datu bat egiaztatzera mugatuko naiz: Chomskyren arabera, Gramatika U nibertsalean, ekonomikoagoak dira mugimendurik gabeko egiturak mugimendua dakartenak baino. Aide horretatik, (80)-ko egiturak, perpaus egitura elkartzea besterik eskatzen ez dutenak, ekonomikoagoak dira subjektuaren mugimendua edo igoera duten (81)-eko adibideak baino. Beraz, mailakatzeak bat egiten du ekonomiarekin: zenbat eta egitura ekonomikoagoa, orduan eta onarpen zabalagoa; zenbat eta pausu gehiago, orduan eta onarpen urriagoa. 32</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Datuek egitura ezinezkoa dela egiaztatzen dute: (87) a. * zuzendariak ]oneri [KonpS t nekatuta dagoela] emanarazi dio b. * zuzendariak]oneri</title>
+		<imprint/>
+	</monogr>
+	<note>KonpS t nekatuta dagoela. irudiarazi dio</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">adibidea ez da gramatikala, eta (87b) ere ez; ez behintzat lehenaren kidetzat ulertuta.3 5 Igoera aditzak ez diren adirz iragankor arruntekin, ez dago arazorik, eta AS barruan sortu ohi den ergatiboa daribo bihurtzen da: (88) a</title>
+		<idno>AS Jonek [KonpS (bera) nekatuta dagoela] esan]AS + arazi b. Zuzendariak ]oneri [KonpS (bera) nekatuta dagoela] esanarazi dio</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Laburbilduz</surname></persName>
+		</author>
+		<title level="m">zenbatzaileen jokabidea, eta aditz arazleekiko bateraezintasuna. 36 Kontu asko geratzen dira ikerkizun</title>
+		<imprint/>
+	</monogr>
+	<note>baina gure ekarpena hementxe amaituko dugu</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Hainbat argudio (predikatuen izaera nabarra, komunztadurarik eza, eratorpen morfologiarekiko jokabidea, TO-GEN egiturak eta abar) eman dugu irudi aditzen predikatu osagarria aditzaren barne argumentu absolutiboa delako hipotesia baztertzeko, eta predikatu osagarri horrek eta subjektuak osatzen duten perpaus txikia proposatu dugu irudi aditzen osagarri bakartzat. lrudi aditzetan ergatibo kasu marka agertzea aditzok hiztegitik zehaztuta dakarten</title>
+	</analytic>
+	<monogr>
+		<title level="m">Amaiera lrudi aditzen azterketa amaitutzat jotzen dut</title>
+		<imprint/>
+	</monogr>
+	<note>Laburbil dezagun, bada: artikulu honetan erakutsi dut irudi aditzak ez direla iragankorrak edota ezergatiboak (aktiboak), euren subjektua ergatiboa eta guzti azaleratzen den arren. ABS} tasunaren eta Nahitaezko Kasu Parametroaren ondoriotzat jo dugu</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">irudi aditzek perpaus osagarriak hautatzen dituztelarik, perpaus nagusiaren subjektua proE delakoaren, hots subjektu betegarri baten, bidez adierazi beharrean mendeko perpauseko DS baten igoeraren bidez adierazten dute, hartara ekonomikoagoa dirudien bidea (izenordain betegarri bat txertatzea) saihestuz. DSaren igoera hori aldatu egiten da hiztunik hiztun eta hiztun multzo bat baino gehiago dago, azaldu dugunez. Igoera-eredu bat baino gehiago izatea ere deigarria da: zer dela eta hain jokabide nabarra? Nire irudipena da gertakari honen atzean Hatsarreak eta Parametroak ikermoldean egiten den bereizketa bat datzala: gramatika-funtsaren eta gramatikaren inguruma-35 (87b) adibidea bera ondo dago</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Azkenik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">jakina, «zuzendariak bultzatu du Jone (bera) nekatuta dagoela uste izatera» irakurketarekin, baina horren azpian «Joneri (bera) nekatuta dagoela iruditzen zaio» dago</title>
+		<imprint/>
+	</monogr>
+	<note>inolako igoerarik gabe</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Hemen esaera bi hartu ditut eta dagokien igoeradun adibidea osatu dut; emaitza nahiko eskasa da: i. a. Hor etxian aspaldixan apopillo ugari dabil (= sagu ugari dago) b. ?? Apopilluek hemen ibili badabizela emoten dabe ii. a. Goizeko hamaiketan arnasia gastau jako (= hil da) b</title>
+	</analytic>
+	<monogr>
+		<title level="m">Itxura denez, clausal idioms direlakoen argudioak ez du balio euskaraz</title>
+		<imprint/>
+	</monogr>
+	<note>* Ez dakigu seguru bafia arnasiak emoten dau gastau jakola</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Neure esker ona erakutsi nahi diot Koldo Zuazori datu hauek argitzeagatik</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Features and Projections in French and Spanish</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>__</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Seemingly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Herschensohn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Zagona</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mallen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Essays in honor o/Heles Contreras</title>
+		<meeting><address><addrLine>Philadelphia</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Benjamins</publisher>
+			<biblScope unit="page" from="1" to="22" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Sobre los compuestos de tipo &apos;sustantivo + sust/adj deverbal&apos; en euskera</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Azkarate</surname></persName>
+		</author>
+		<editor>P. Goenaga</editor>
+		<imprint>
+			<date type="published" when="1995" />
+			<publisher>De Grammatica Generativa</publisher>
+			<biblScope unit="page" from="39" to="50" />
+			<pubPlace>Donostia</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>ASJU-ren Gehigarriak</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Belleti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Rizzi</surname></persName>
+		</author>
+		<title level="m">Psych verbs and Theta Theory</title>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="291" to="352" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Burzio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Italian Syntax. A Governraent and Binding Approach</title>
+		<editor>Reidel. Chomsky, N.</editor>
+		<imprint>
+			<date type="published" when="1981" />
+			<publisher>Foris</publisher>
+		</imprint>
+	</monogr>
+	<note>Lectures on Government and Binding</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Knowledge o/Language</title>
+		<imprint>
+			<date type="published" when="1986" />
+			<publisher>Praeger</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">The ft1inimalist Program</title>
+		<imprint>
+			<date type="published" when="1995" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Minimalist Inquiries: the Framework</title>
+		<editor>R. Martin, D. Michaels eta J</editor>
+		<imprint>
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Uriagereka</surname></persName>
+		</author>
+		<title level="m">Step by Step. Essays on Minimalist Synfax in Honor 0/ Howard Lasnik</title>
+		<meeting><address><addrLine>Cambridge MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT Press</publisher>
+			<biblScope unit="page" from="89" to="155" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">M. Kenstowicz (arg.), Ken Hale. A Life in Language</title>
+		<meeting><address><addrLine>Cambridge MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT Press</publisher>
+			<date type="published" when="2001" />
+			<biblScope unit="page" from="1" to="52" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Principles and Parameters Theory», in)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eta</forename><forename type="middle">H</forename><surname>__</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lasnik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Syntax. An International Handbook 0/ Contemporary Research</title>
+		<editor>acobs, A. von Stechow, W. Sternefeld eta T. Vennemann</editor>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>WaIter de Gruyter</publisher>
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Constituent Permutation and Verb Movement in Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Elordieta</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+		<respStmt>
+			<orgName>Leiden Universityko doktorego tesia</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">The Autonomy of the (Syntactic) Lexicon and Syntax: Insertion Conditions for Derivational and Inflectional Morphemes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Emonds</surname></persName>
+		</author>
+		<editor>Lakarra eta Ortiz de Urbina</editor>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="91" to="118" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Euskal Gramatika. Lehen Urratsak-II</title>
+		<imprint>
+			<date type="published" when="1987" />
+			<publisher>Bilbo: Euskaltzaindia</publisher>
+		</imprint>
+	</monogr>
+	<note>Euskaltzaindia</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Euskttl Gramatika Laburra: Perpaus Bakuna, Bilbo: Euskaltzaindia</title>
+	</analytic>
+	<monogr>
+		<title level="j">_</title>
+		<imprint>
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Egiturazko kasuaren erkaketa euskaraz, EHUko doktorego tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Fernandez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Sintaxis y Cognici6n: Introducci6n al conocimiento, el procesamiento y los dejicits sintacticos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fernandez Lagunilla</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Anula</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<publisher>Madril: S{ntesis</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">On the Origin of the Finite Forms of the Basque Verb</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>G6mez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Sainz</surname></persName>
+		</author>
+		<editor>1. Hualde, J. A. Lakarra eta R. L. Trask</editor>
+		<imprint>
+			<date type="published" when="1995" />
+			<publisher>John Benjamins</publisher>
+			<biblScope unit="page" from="235" to="74" />
+			<pubPlace>Amsterdam</pubPlace>
+		</imprint>
+	</monogr>
+	<note>arg.), Towards a History 0/ the Basque language</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">Etaj</forename><surname>Grosu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Horvath</surname></persName>
+		</author>
+		<title level="m">The GB theory and raising in Rumanian</title>
+		<imprint>
+			<date type="published" when="1984" />
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="348" to="53" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Gontzetarik jalgiaraziak, I. Caminoren edizioa, Zarautz: Klasikoak. Holmer, A., 1999, «An active analysis of Basque ergativity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Hiriart Urruty</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="189" to="225" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Logical Form</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Hornstein</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<publisher>Blackwell</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Minimalism and quantifier raising</title>
+		<editor>S. D. Epstein eta N. Hornstein</editor>
+		<meeting><address><addrLine>Cambridge MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT Press</publisher>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="45" to="75" />
+		</imprint>
+	</monogr>
+	<note>Working Minimalism</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Hualde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eta</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Urbina</forename><surname>Ortiz De</surname></persName>
+		</author>
+		<title level="m">Generative Studies in Basque Linguistics, Amsterdam: John Benjamins</title>
+		<imprint>
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Hamabi galdera pianoari</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">K</forename><surname>Igerabide</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<publisher>Alberdania</publisher>
+			<pubPlace>Zarautz</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Kayne</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1975" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>French Syntax, Cambridge MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Laka</surname></persName>
+		</author>
+		<title level="m">Pt!&apos;pers on Case &amp; Agreement I, Cambridge MA: MIT Working Papers in Linguistics</title>
+		<editor>J. Bobaljik eta C. Phillips</editor>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="149" to="72" />
+		</imprint>
+	</monogr>
+	<note>Unergatives that assign Ergative, Unaccusatives that assign Accusative</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The Structure of Inflection: A case study in XO syntax</title>
+	</analytic>
+	<monogr>
+		<title level="j">_</title>
+		<editor>Hualde eta Ortiz de Urbina</editor>
+		<imprint>
+			<biblScope unit="page" from="21" to="70" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Burzio&apos;s Generalization and its Image in the Mirror», in E. Reuland (arg.) Arguments and Case</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thetablind</forename><surname>__</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Case</surname></persName>
+		</author>
+		<imprint>
+			<publisher>John Benjamins</publisher>
+			<biblScope unit="page" from="103" to="132" />
+			<pubPlace>Amsterdam</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">]</forename><surname>Lakarra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eta</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Urbina</forename><surname>Ortiz De</surname></persName>
+		</author>
+		<title level="m">Syntactic Theory and Basque Syntax, Donostia: ASJU-ren Gehigarriak 27</title>
+		<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Lasnik</surname></persName>
+		</author>
+		<title level="m">Chains of Arguments</title>
+		<editor>S. D. Epstein eta N. Hornstein</editor>
+		<meeting><address><addrLine>Cambridge MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT Press</publisher>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="189" to="215" />
+		</imprint>
+	</monogr>
+	<note>Working Minimalism</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">On the nature of Ergativity, MIT-ko doktorego tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Levin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Structural Case, Specifier-Head Relations, and the Case of Predicate NPs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Maling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Sprouse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Studies in Comparative Germanic Syntax</title>
+		<editor>H. Haider, S. Olsen, eta S. Vikner</editor>
+		<meeting><address><addrLine>Dordrecht</addrLine></address></meeting>
+		<imprint>
+			<publisher>Kluwer</publisher>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="167" to="86" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">The Grammar of Quantification, MIT-ko doktorego tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>May</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+				<title level="m">Logical Form. Its Structure and Derivation</title>
+		<meeting><address><addrLine>Cambridge MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT Press</publisher>
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Euskal idazlan guztiak I</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+			<publisher>Klasikoak</publisher>
+			<pubPlace>Bilbao</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Moro</surname></persName>
+		</author>
+		<title level="m">The Raising of Predicates</title>
+		<meeting><address><addrLine>Cambridge: Cambridge U. P</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">On the Syntactic Nature of the me-lui and the Person-Case Constraint</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ormazabal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Romero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASjU</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="415" to="448" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ortiz De Urbina</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+			<publisher>Foris</publisher>
+			<pubPlace>Dordrecht</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Parameters in the Grammar of Basque</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Datibo komunztaduraren gainean</title>
+		<editor>R. G6mez eta J. Lakarra</editor>
+		<meeting><address><addrLine>Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="579" to="88" />
+		</imprint>
+		<respStmt>
+			<orgName>ASJU-ren gehigarriak</orgName>
+		</respStmt>
+	</monogr>
+	<note>__</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">«Izenordain espletiboak eta euskal aditzaren morfologia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Oyhan;Abal</surname></persName>
+		</author>
+		<editor>P. Salaburu</editor>
+		<imprint>
+			<date type="published" when="1989" />
+			<biblScope unit="page" from="109" to="119" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Structural Case and Inherent Case Marking: Ergaccusativity in Basque</title>
+		<editor>Lakarra eta Ortiz de Urbina</editor>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="309" to="351" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">«Verb agreement with Non Arguments: On allocutive agreem_ent</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">_</forename></persName>
+		</author>
+		<editor>Hualde eta Ortiz de Urbina</editor>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="89" to="114" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">«Notion d&apos;objet et cas absolutif en basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">_</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Le gre des langues</title>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="30" to="49" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Contribution de la comparaison typologique aune analyse des rapports ergativite-(in)transitivite en basque</title>
+	</analytic>
+	<monogr>
+		<title level="m">La langue basqtte parmi les autres (Influences et comparaison), Baigorri: Izpegi</title>
+		<editor>J-B. Orpustan</editor>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="115" to="163" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Pesetsky</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<publisher>!vIIT Press</publisher>
+			<pubPlace>Zero Syntax, Cambridge MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Radford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Transformational Grammar</title>
+		<meeting><address><addrLine>Cambridge: Cambridge U.P. __; Cambridge U .P</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rijk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De</surname></persName>
+		</author>
+		<title level="m">Partitive Assignment in Basque</title>
+		<imprint>
+			<date type="published" when="1972" />
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="130" to="73" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Basque manner adverbs and their genesis</title>
+	</analytic>
+	<monogr>
+		<title level="j">ASjU</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="53" to="82" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Salaburu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<publisher>EHU</publisher>
+			<pubPlace>Sintaxi Arazoak, Donostia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">_</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">(</forename><surname>Arg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskal Morfosintaxia eta Fonologia. Eztabaida gaiak</title>
+		<imprint>
+			<date type="published" when="1987" />
+			<publisher>EHU</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">_</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">1987c</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename><surname>Is-Aren Mugimendua</surname></persName>
+		</author>
+		<editor>P. Salaburu</editor>
+		<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="65" to="80" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">_</forename><surname>Euskal Perpausaren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Egitura</surname></persName>
+		</author>
+		<editor>P. Salaburu</editor>
+		<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="103" to="131" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title level="m" type="main">Sintaxi teoria eta euskara</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">_</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">(</forename><surname>Arg</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+			<publisher>EHU</publisher>
+			<pubPlace>Donostia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Sarasola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskal Hiztegia</title>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Kutxa</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Stowell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CLS</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="458" to="71" />
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+	<note>What was there before there was there</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<title level="m" type="main">Origins of Phrase Structure, MIT-ko doktorego tesia</title>
+		<imprint>
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Subjects across categories</title>
+		<imprint>
+			<date type="published" when="1983" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="285" to="312" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Torrego</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Experiencers and Raising Verbs</title>
+		<editor>R. Freidin</editor>
+		<meeting><address><addrLine>Dordrecht</addrLine></address></meeting>
+		<imprint>
+			<publisher>Kluwer</publisher>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="101" to="121" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">«Varieties of raising and the feature-based bare phrase structure theory</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Ura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">MIT occasional papers in Linguistics</title>
+		<meeting><address><addrLine>Cambridge MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>MITWPL</publisher>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">7</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<monogr>
+		<title level="m" type="main">Multiple Feature-Checking&quot; A Theory ofGrammatical Function Splitting, MIT-ko doktorego tesia</title>
+		<imprint>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Williams</surname></persName>
+		</author>
+		<title level="m">Against Small Clauses</title>
+		<imprint>
+			<date type="published" when="1983" />
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="287" to="308" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Thematic Structure in Syntax</title>
+		<meeting><address><addrLine>Cambridge MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT Press</publisher>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<monogr>
+		<title level="m" type="main">Predikazioaren Teoriak Gramatika Sortzailean (Euskararen kasua) , EHUko doktorego tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Zabala</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Adjektiboen&apos; eta &apos;adberbioen&apos; arteko muga zehatzik eza</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>__</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Odriozola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASjU</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="525" to="566" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

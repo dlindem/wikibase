@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ANUARIO DEL SEMINARIO DE FILOLOGÍA VASCA «JULIO DE URQUIJO» International Journal of Basque Linguistics and Philology Eguraldiaren gramatika euskaraz eta Gramatikaren Teoria Meteorological expressions in Basque grammar and the Theory of Grammar Iñigo Arteatx</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andra</forename><surname>Begoñako</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mari</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xabier</forename><surname>Artiagoitia</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Studia Philologica et Diachronica in honorem Joakin Gorrotxategi Vasconica et Aquitanica Joseba A. Lakarra -Blanca Urgell</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Irakasleen Unibertsitate Eskola</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">UPV/EHU</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">ANUARIO DEL SEMINARIO DE FILOLOGÍA VASCA «JULIO DE URQUIJO» International Journal of Basque Linguistics and Philology Eguraldiaren gramatika euskaraz eta Gramatikaren Teoria Meteorological expressions in Basque grammar and the Theory of Grammar Iñigo Arteatx</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1387/asju.20192</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:21+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>weather</term>
+					<term>grammar</term>
+					<term>typology</term>
+					<term>syntax Laburpena* 1</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This article makes two claims with respect to meteorological expressions in Basque grammar: firstly, it shows that, in the light of Eriksen, <ref type="bibr" target="#b17">Kittilä and Kolehmainen's (2010)</ref> crosslinguistic typology of metereological expressions, Basque resorts to the so-called argument type (and less frequently to the predicate-argument split type) when coding precipitation and dynamic events and to both the argument and the predicate type when coding other methereological events; it is worth noting that Basque uses transitive structures in many cases, a rare feature typologically speaking. Secondly, regarding two key issues in the study of weather predicates within Generative Grammar, the article claims (a) that Basque supports the view that both lexicalizations of weather verbs (unacussative and unergative/transitive) are possible across languages, as argued by Bleotu (2015); and (b) that the empy pro subject of Basque transitive weather constructions has the features of a quasi-argument <ref type="bibr" target="#b16">(Chomsky 1981</ref><ref type="bibr" target="#b25">, Krejci 2014</ref> rather than those of an expletive.</p><p>Artikulu honek bi ekarpen esanguratsu egiten ditu euskarazko eguraldi espresioen alorrean: batetik, erakusten du Eriksen, Kittilä eta Kolehmainen (2010)  tipologia lanaren argitara euskarak eguraldi espresioetan joera duela argumentu tipora jotzeko prezipitazio * Artikulu honetan honako laburdurak erabili dira: A = aditz, a = aditz txikia, Adj = adjektibo, ART = artikulu, D = determinatzaile, DNB = denbora, ESP = espletibo, PART = partitibo, PT = perpaus txikia.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"> <ref type="bibr" target="#b16">(Chomsky 1981</ref><ref type="bibr" target="#b25">, Krejci 2014</ref><p>.</p><p>Hitz gakoak: eguraldia, gramatika, tipologia, sintaxia.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sarrera</head><p>Eguraldiari buruzko espresioak gure egunerokotasunaren parte dira: euria ari du, bero handia egiten du gaur, ematen du ekaitza dakarrela hitzetik hortzera darabiltzagu ezpainetan. Halako espresioen aurrean normala dirudi honelako galderak egiteak: nork edo zerk dakar ekaitza?, nork edo zerk egiten du bero? Izan ere, bada herri uste bat dioena nolabaiteko izaki jainkotiarren bat ezkutatzen dela halako espresioetan. Baina horrela izatera, zergatik ez da aipatzen? Galderoi tonu orokorrago bat emanez: zertan dira eguraldi espresioen berezitasunak, euskarazkoenak eta beste hizkuntzetakoenak?</p><p>Erakutsiko dugun moduan, euskarazkoen antzeko eguraldi espresioak ohikoak dira gainontzeko hizkuntzetan ere, eta haietan ere, euskaraz aurkitzen ditugun ezaugarriak errepikatzen dira. Ezaugarri horien artean, honako hauek daude, besteak beste: itxura iragangaitza eta iragankorra duten espresioak topatzea, maiz ageriko subjekturik ez izatea, edota izenordain ustez betegarriren batek betetzea subjektu posizio hori <ref type="bibr">(il, it, es, hann…)</ref>. Edozelan ere, badirudi subjektua izendatzearen gaineko murrizketaren jatorria ez dagoela balizko tabu zaharren batean, eguraldi espresioen berezko ezaugarri tipologiko orokorretan baino.</p><p>Ondorengo orrialdeetan, beraz, eguraldiari lotutako egituren ezaugarrietan sakonduko dugu. Horretarako, lehenengo atalean, euskarazko eguraldi espresio ohikoenak zerrendatu eta sailkatuko ditugu. Bigarren atalean, zenbait egilek (ik. bereziki Eriksen, <ref type="bibr" target="#b17">Kittilä eta Kolehmainen 2010</ref><ref type="bibr" target="#b12">, 2012</ref> hainbat hizkuntzatan oinarriturik proposatutako eguraldi espresioen tipologia jasoko dugu eta euskara tipologia horretara nola egokitzen den aztertuko dugu. Hirugarren atalean, Gramatika Teoriara hurbilduko gara eta orain arte gramatika sortzailean eguraldi aditzen izaera lexikoaz eta eguraldi aditzen subjektuaren izaeraz egin diren zenbait proposamen eta eztabaida berrikusiko ditugu, laugarren atalean euskarak eztabaida horietara egin dezakeen ekarpena azaltzeko. Bosgarren atalean, azkenik, lanaren ondorio nagusiak jasotzen ditugu. <ref type="bibr">Etxepareren (2003: 377-8)</ref> salbuespenarekin -salbuespen laburra-, eguraldi predikatuen aipamen gutxi aurkitzen dira euskal gramatikako liburuetan. Hemen, hutsune hori betetzen ahaleginduko gara, eguraldiari edo meteorologiari lotutako ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 33-60 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20192 egituren aurkezpen xume bat eginez eta laugarren atalean plazaratuko dugun sintaxi formaleko eztabaidarako oinarriak ezarri nahian. Irizpide formalei jarraitu diegu aurkezpen honetan. Horien arabera, honako multzo hauek berezi ahal ditugu, abiapuntu gisa:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Euskaraz eguraldiaz jarduteko dauden aditzen eta espresioen deskribapena</head><p>(1) a. Aditz soila <ref type="bibr">: leitu, argitu, ilundu, gautu, atertu, hoztu, epeldu, lainotu,</ref>  Ondorengo lerroetan, zerrendatutako espresioetarako lehen hurbilketa bat egingo dugu, haien aditz motan oinarrituta.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1.">Aditz iragangaitza duten espresioak</head><p>Nahiz eta (1a) adibidean ageri diren aditz gehienek forma iragankorra izan (atertu du, hoztu du…), Sarasolaren (2007) arabera, horietako batzuek nor saileko erabilera ere onartzen dute; tartean, argitu, ilundu edo gautu aditzek:</p><p>(2) a. (eguna) argitu / ilundu da.</p><p>b. Gautu da, dagoeneko.</p><p>Antzeko zerbait gertatzen zaigu egin aditzarekin ere: aditz honekin eraikitako espresio gehienek forma iragankorra daukate (euria egin du, hotz egiten du…). Hala ere, bada nor motako aditza onartzen duenik ere:</p><p>( Laburbilduz, aditz iragangaitza hartzen duten eguraldi espresioak aurki ditzakegu aditz soila hartzen duten egitura batzuetan (1a), eta [DS + A] egitura duten zenbait perpausetan -dela aditz kopulatibodun egituretan (1b,c) dela beste aditz batzuekin (1f)-.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2.">Aditz iragankorra duten espresioak</head><p>Aurrekoekin batera, aditz iragankorra erabiltzen duten ondoko eguraldi espresioak daude. Lehenik eta behin, eta 1.1. azpiatalaren hasieran aipatu dugun moduan, aditz soilak ditugu. Gehienek forma iragankorra dute, arestian esan bezala -horien artean, (2) adibidean jasotako argitu, ilundu, gautu aditzekin osatutako egiturek-:</p><p>(7) a. Asko argitu/ilundu du.</p><p>b. Gautu du. c. Leitu egin du gauean.</p><p>Aditz iragankorrak biltzen dituen beste egitura bat ere aurreratu dugu 1.1. azpiatalean; egin aditzarekin osatutako egiturak, hain zuzen ere:</p><p>(8) a. Euria egin du.</p><p>b. Elur asko egin zuen bart. c. Hotz handia egingo du gaur.</p><p>Baina egin aditzaz gain, baditugu beste aditz batzuk ere eguraldi izen jakin batzuekin lotzen direnak erabilera iragankorrean, (1f) tankerako zenbait aditzekin gertatzen den bezala (nabaria den moduan, altxatu aditzak erabilera iragankorra zein iragangaitza onartzen ditu, esanahi berdintsuarekin; alderatu ondoko (9b) eta arestian emandako (6b) adibidea):</p><p>(9) a. Euria mugituko du laster.</p><p>b. Haize zakarra altxatu du. c. Zaparrada ederra bota zuen atzo. d. Euria dakar.</p><p>Beharbada, erabilera iragankor deigarriena ari aditzaren kasuan aurkitzen dugu. Izan ere, nahiz eta badakigun badirela hiztunak ari aditzari erabilera iragankorra eman diezaioketenak <ref type="bibr" target="#b18">(Etxepare 2003;</ref><ref type="bibr" target="#b35">Ortiz de Urbina 2003)</ref>, halako erabilerarik onartzen ez duten hiztunek ere ontzat ematen dute aditz laguntzaile iragankorra erabiltzea ari aditzarekin eguraldi espresioen kasuan. Baina, ari aditzaren erabilera iragankor hori oso hedatuta egon arren, gaur egun, erabilera iragangaitza ere ez da ezohikoa, Orotariko Euskal Hiztegian egiazta dezakegun moduan. Bide beretik, ondoko (10b) adibidean ikusten den moduan, hasi aditzak ere laguntzaile iragankorra edo iragangaitza har dezake: Proposatutako sailkapenetik abiatuta, hurrengo ataletan beste hizkuntza batzuetarako egindako proposamenen argitara aztertuko ditugu emandako adibideak, eta euskarak eguraldi espresioen gaineko eztabaidari egin diezaiokeen ekarpena jasotzen ahaleginduko gara. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Eguraldi espresioak eta hizkuntza tipologia</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Eriksen, Kittilä eta Kolehmainen (2010) lanaren proposamena</head><p>Eguraldi espresioen azterketan aitzindari izan nahi duen lan batean, Eriksen, K ittilä eta Kolehmainenek eguraldi espresioen ezaugarrien hausnarketa orokor bat plazaratzen dute, lehenik eta behin. Ondoren, 25 bat hizkuntzaren datuak jasotzen dituen artikulu horretan, batetik, eguraldi espresioen tipologiarako hurbilketa bat proposatzen dute, zenbait urte lehenago Ruwetek (1986) egin bezala; eta, bestetik, hizkuntzen behin-behineko tipologia bat ere proposatzen dute, eguraldi espresioei dagokienez betiere.</p><p>Euren ustez, eguraldi espresioen bereizgarria egiazko partaideen edo argumentuen gabezia da: ustezko argumentuok, sarri askotan, edo osagarri kognatuetatik hurbil egoten dira (cf. llover una lluvia fina); edo erabat inespezifikoak izaten dira, egiazko partaidea eguraldiaren gertaera bera balitz bezala; edo zehazten zailak diren rol semantikoak edukitzen dituzte. Honen guztiaren ondorio nagusia da eguraldi espresioak predikatu hutsaren bidez adieraz daitezkeela maiz, argumenturik gabe; eta are ustezko argumentuak (hodeia, zerua) ageri direnean ere, argumentuok ez omen dauzkate benetako argumentuen ohiko ezaugarri pragmatikoak. Eguraldi aditzetan noizbehinka sumatzen den jainkoen eta antzekoen agerpena, egile antzean betiere, sinesmen erlijiotsuek posible egiten duten kasu bakanetara mugatzen omen da, eguraldi espresioen ohiko, edo berezko, egoera inpertsonaltasuna da-eta.</p><p>Eguraldi espresioen tipologiari dagokionez, Eriksen, Kittilä eta Kolehmainenek (2010) hirukoizketa bat planteatzen dute, kontuan hartuta eguraldiaren fenomenoa predikatuak berak adierazten duen (batez ere, aditzak, baina ez ezinbestean), argumentuak adierazten duen edo bien artean banatzen den.</p><p>Tipo predikatiboan, gertaera meteorologikoa predikatuak adierazten du nagusiki, eta predikatuaren balentziaren araberako sailkapen hau proposatzen dute: a) Tipo atrantsitiboa: hots, predikatua da nahitaezko elementu bakarra (kopularekin agian) eta ez dago argumenturik. <ref type="bibr">Mettouchi eta Toscok (2011: 315)</ref>  (15) kun harmaa taivas alkoi vihmoa vettä (finlandiera) noiz gris zeru hasi zirimiri-egin ura 'Zeru grisak ura zirimiri egiteari ekin zionean' <ref type="bibr">(EKK 2010: 578)</ref> Tipo predikatiboen sailkapen hau gehiago korapilatzen da predikatua bera aditza, adjektiboa edo adberbioa den, noski.</p><p>Argumentu motako tipoan, argumentua da meteorologia gertaera deskribatzen duena eta predikatua arina izaten da, pisu semantiko gutxikoa alegia. Bi azpitipo dira nabarmentzekoak: argumentu iragangaitzekoa (aditz arin bat ageri ohi da), eta existentziazkoa. Lehenari prozesuaren atzeratze partziala deitzen diote <ref type="bibr">Mettouchi eta Toscok (2011: 313)</ref>; bigarrena, aldiz, prozesuaren erabateko atzeratze gisa aurkezten dutenarekin pareka dezakegu <ref type="bibr">(Mettouchi eta</ref>  Tipo erdibituan, ostera, gertaeraren alderdi banari egiten diote erreferentzia argumentuak eta predikatuak:</p><p>(18) Plonȃ cu grundinȃ (errumaniera) prezipitazioa ari du -ekin txingor 'txingorra da' (lit: 'txingorrarekin ari du') <ref type="bibr">(EKK 2010: 585)</ref> Eguraldi espresioen tipologia baten lehen hurbilketa egin ondoren, Eriksen, Kittilä eta Kolehmainenek hizkuntzen tipologia moduko bat proposatzen dute, hainbat abiapuntutatik: hizkuntza guztietan aurkitzen dira eguraldiarekin zerikusia duten izakiak izendatzeko izen sintagmak edo argumentu tipoko beste espresio batzuk; tipo predikatiboak hizkuntzarik hizkuntza alda daitezke; azkenik, dena delako arrazoiagatik, prezipitazio gertaerek argumentu tipoak izatera jotzen duten bitartean, tenperatura gertaerek tipo predikatibora jotzen dute.</p><p>Prezipitazio kodetzeari dagokionez, Eriksen, Kittilä eta Kolehmainen hizkuntzalariek argudiatzen dute continuum moduko bat dagoela hizkuntzen artean: badira argumentu tipoaren bidez soilik adierazten duten hizkuntzak (cf. errusiera), badira -erdian-argumentu-predikatu tipoaren bidez adierazten dutenak (esaterako finlandiera, non jatorrizko mugimendu aditza prezipitazio aditz orokorra bihurtu den), eta badira, azkenik, predikatu tipoaren bidez adierazten dutenak (hizkuntza erromantzeak eta germaniarrak). Nolanahi ere, hipotesia da aldaketa diakronikorik izatekotan, hain zuzen ere norabide horretan geratzen dela prezipitazio gertaerei dagokienez: argumentu tipotik predikatu tipora. Nonbait, prezipitazio gertaerak eurak dira, eguraldi espresiorik tipikoenak diren arren, predikatu antzean gauzatzeari muzin gehien egiten diotenak eta horrek euren bereizgarriren batengatik behar du izan.</p><p>Azkenik, beste bi parametro edo joera orokor ere aipatzen dituzte Eriksen, Kittilä eta Kolehmainenek (2010) hizkuntzen tipologian: normalean, hizkuntza batek predikatu tipoa hautatzen badu, modu egonkorrean hautatuko du; hala gertatzen ei da hizkuntza germaniarretan, tipo espletiboa orokorra baita. Bigarren joera, dagoeneko zeharka aipatua, hau da: prezipitazio kodetzea hizkuntzarik hizkuntza aldatzen den arren, tenperatura gertaerek predikatu tipora jotzen dutela.</p><p>Berrikiago argitaratutako lan batean (Eriksen, Kittilä eta Kolehmainen 2012), arestiko hiru hizkuntzalariek antzeko gaiak darabiltzate, baina bertan saio berezia egiten dute eguraldi gertaeren tipologia garatuago bat aurkeztu eta tipologia hori, behin-behinean bada ere, hizkuntza tipologiarekin lotzeko: gertaera dinamikoak (prezipitazioa eta prezipitaziorik gabekoak -trumoi, haize eta antzekoak-) eta gertaera estatikoak (tenperatura, atmosfera eta argi baldintzak) bereizten dituzte. Aurrekoan bezalatsu, aipatzen dute prezipitaziozko gertaera dinamikoetan hizkuntzek joera dutela kodetze bakar eta jakin bat hautatzeko, gainerako gertaera dinamikoetan zertan jarraitu ez dutena; gertaera estatikoetan, bestalde, hizkuntza gehienek tipo predikatibora jotzen omen dute, eta hizkuntzen arteko aldakortasuna tipo predikatiboen artean aukeretariko bat hautatzera bideratuko litzateke. Bigarren tankerako adibidean, kopularen laguntzarekin bada ere, izen edo adjektibo predikatu soil batek osatzen du eguraldi espresioa (tipo atrantsitiboa); lehen tankerako adibideetan ere, tipo atrantsitiboaren aurrean gaude ezbairik gabe, aditzak adierazten baitu eguraldi aldaketa. Zalantza gelditzen da, berriro ere, euskararen prodrop izaerarekin: nor-nork sailekoa izanik, hoztu du horrek subjektu isil bat izan lezake; era berean, oskarbi dago horretan, baliteke subjektu bat izatea, formalki sarritan subjektu lexikorik sumatzen ez den arren; izan ere, zerua ilun/oskarbi dago, eguna hotz dago bezalakoak ez dira batere bitxiak egiten.</p><p>Tenperatura adieraztearekin lotzen diren bestelako espresioek, aitzitik, bai jarraitzen diote argumentu tipoari, atzera ere, egin aditz arina erabiliz: </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Gramatika Teoria eta eguraldi fenomenoak</head><p>Behin eguraldi espresioen tipologiaren ekarpena eta euskarak tipologia horretan duen kokapena aztertuta, gramatika sortzailearen barruan izan diren eztabaidagai biren errepasoa egingo dugu atal honetan: batetik, ea eguraldi aditzak nolakokotzat, ezakusatibotzat edo ezergatibotzat, jo behar diren; eta, bestetik, ea eguraldi aditzetan sumatzen den subjektua egiazko espletibotzat har daitekeen edo ez.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Aditz ezakusatiboen vs ezergatiboen auzia</head><p>Azpiatal honetan, Gramatika Teorian eguraldi aditzen izaera lexiko-semantikoaz izan diren ikuspegi nagusiak jorratu eta izango ditugu hizpide. Laburzurrean: batetik, Ruwetek <ref type="bibr">(1988,</ref><ref type="bibr">1991)</ref> frantses hizkuntzan oinarrituta defendatzen duen eguraldi aditzen ezakusatibitatearen hipotesia eta berorren kritika <ref type="bibr" target="#b36">(Paykin 2002</ref><ref type="bibr">(Paykin , 2003</ref><ref type="bibr">(Paykin , 2010</ref>; bestetik, hizkuntzaren arabera, eguraldi aditzak batera zein bestera azter daitezkeela diotenen ikuspegiak arakatuko ditugu; bereziki, <ref type="bibr">Beninça &amp; Cinque (1992)</ref> eta <ref type="bibr">Bleoturen (2012</ref><ref type="bibr" target="#b13">, 2013</ref><ref type="bibr" target="#b26">, 2015</ref><ref type="bibr">) lanak, Manenteren (2007</ref><ref type="bibr" target="#b31">, 2008</ref> ekarpena ahaztu gabe. Ezergatibo/ezakusatibo alternantzia horretan, substantzia isurtzen duten aditzekiko paralelismoa sumatzen duen Krejciren (2014) lana ere aipatuko dugu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.1.">Eguraldi aditzak, ezakusatibo?</head><p>Ruwetek <ref type="bibr">(1988,</ref><ref type="bibr">1991)</ref>   <ref type="bibr">(Ruwet 1991: 152)</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>c) Estraposizioa</head><p>Aditz ezakusatiboen subjektuak modu naturalean ager daitezke estraposizioetan, «indefinizio efektuarekin» (cf. 28a), eta beste horrenbeste gertatzen omen da eguraldi espresioekin, interpretazio metaforikoarekin (28b) edo gabe (28c):</p><p>(28) a. Il est arrivé plusieurs individus étranges. b. Il pleut des pierres.</p><p>'Iritsi dira zenbait lagun arrotz' 'Harriak botatzen ari da' c. Il a plu toute la journée une petite pluie fine.</p><p>'Egun osoan euri mehe arina bota du' <ref type="bibr">(Ruwet 1991: 152)</ref> Italieraz, pareko kasuetan, aditz laguntzailea essere da eta partizipioak komunztadura egiten du generoan eta numeroan estraposizioan dagoen subjektuarekin:</p><p>(29) a. È piovuta / *ha piovuto una pioggerella fina fina. da du 'Zirimiri mehe-mehea bota du' b. Sono piovuti /*ha /*hano piovuto sassi. dira du dute 'harriak bota ditu' (hitzez hitz: harriak euritu dira) <ref type="bibr">(Ruwet 1991: 154)</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>d) il izenordaina</head><p>Eguraldi espresioetan ageri den il izenordaina beste egitura batzuetan ere azaltzen da (il y a du vent, il fait chaud, il est tard…). <ref type="bibr">Guéron-ek (1986)</ref>  'Maxek bizitzia bitxia bizi du' <ref type="bibr">(Paykin 2010: 256)</ref> Paykinek zera nabarmentzen du: Ruweten azalpenaren arabera, lehenengo adibideko une pluie froide sintagma aditzaren barne argumentu gisa atxikitzen zaio egiturari, baina hark ezin dionez kasu akusatiboa esleitu, subjektu posiziora mugitzen da (eta emandako adibidean, estraposatuta agertzen zaigu). Baina, izatez, objektu kognatuek -bigarren adibideko une drolê de vie-kasu akusatiboa jasotzen dute, eta ez dira mugitzen subjektu posiziora, subjektu posizio hori beteta dagoelako. Are gehiago, <ref type="bibr" target="#b32">Marantz (1984)</ref> gogora ekarrita, Paykinek espresuki jasotzen du objektu kognatuak hartzeko gaitasuna ezakusatiboak ez diren aditzetara mugatzen dela (Paykin 2010: 256).</p><p>Ruwetek adberbioekin lotuta aurkezten duen argudioari ere heltzen dio Paykinek (gogora dezagun Ruwetek azaltzen duela ez dela gertatzen subjektu eta adberbioen arteko alternantziarik eta bai, ordea, objektu eta adberbioen artekoak; hain zuzen ere, eguraldi espresioen kasuan bezala). Paykin ere bat dator Ruwetekin eguraldi espresioetako zenbait izen sintagmak nolabaiteko adberbio izaera dutela, ugaritasuna adieraziz:</p><p>(36) a. Il pleut des cordes.</p><p>'Bota ahala da euria' (hitzez hitz: kordelak botatzen ari da) b. It is raining cats and dogs.</p><p>'Bota ahala da euria' (hitzez hitz: katuak eta txakurrak botatzen ari da) <ref type="bibr">(Paykin 2010: 257)</ref> Horren erakusgarri da sintagma horiek intentsitatea adierazten duten adberbioekin ordezka daitezkeela, perpausaren zentzuari eutsita:</p><p>(37) a. Il pleut violemment.</p><p>b. It is raining heavily. 'Bortizki ari du euria' 'Ugari ari du euria' <ref type="bibr">(Paykin 2010: 257)</ref> Hala ere, Paykinen (2010: 257) esanetan, perpaus ezakusatiboetan ez da horrelako alternantziarik antzematen:</p><p>(38) a. Il est tombé {des feuilles/*abondamment}.</p><p>'Erori dira orbelak / ugari' b. There fell {leaves/*abundantly}.</p><p>'Erori dira orbelak / ugari' (Paykin 2010: 256) Beraz, esan dezakegu Ruwetek proposatzen duen eguraldi aditzen ezakusatibitatearen azterbidea ez dela lehen begiratu batean behintzat eman dezakeen bezain sendoa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.2.">Bestelako hurbilketak: eguraldi aditzak noiz ezergatibo, noiz ezakusatibo</head><p>Ruwetek bezala, <ref type="bibr">Benincà eta Cinquek (1992)</ref>  Berrikiago, <ref type="bibr">Bleotuk (2012</ref><ref type="bibr">Bleotuk ( , 2013</ref><ref type="bibr">Bleotuk ( , 2015</ref> egitura lexikoaren ikuspuntutik aztertu izan ditu eguraldi espresioak eta aditzak, berauek mugimendu aditz gisa deskribatuz. Egile honen arabera, eguraldi aditzek jokabide anbiguoa daukate ezakusatibotasunaren eta ezergatibotasunaren artean, hizkuntzatik hizkuntzara eta are hizkuntza beraren barruan ere. Esaterako, une batean eguraldi aditzak, ikuspuntu semantikotik, ezakusatiboak direla iradoki arren <ref type="bibr">(Bleotu 2013: 51)</ref>, emaitzak nabarrak dira behin oinarri hartuta <ref type="bibr">Levin &amp; Rappaportek (1995)</ref>  Azkenik, Krejciren (2014) lana aipatu behar dugu: berarentzat, eguraldi aditzek (prezipitazio aditzek bai behintzat, adibide gehienak tankera horretakoak baitira) gertu-gertutik jarraitzen diete sustantzia isurtzeko aditzei: berauek bezalaxe, iturria edo isurlea theta-rola duen subjektudun egitura ezergatiboa txandakatu egiten da isuritako substantzia bera subjektutzat duen egitura ezakusatiboarekin. <ref type="bibr">Levinek (2015)</ref> ere bat egiten du azterbide horrekin. Ondoko adibideok Krejcirenak (2014) dira:</p><p>(49) a. The well gushed (oil) 'Putzuak olioa galdu zuen txorrotadaka' b. It rained (icy water) '(ur izoztua) bota zuen' c. Oil gushed from the well 'Olioa putzutik irteten zen txorrotadaka' d. Icy water rained from the sky 'Ur izoztua etorri zen zerutik'</p><p>Krejciren ustez, aditz mota biek osagarri kognatua edukitzeko aukerak berretsi egingo luke (50) adibideetako egituren izaera ezergatiboa:</p><p>(50) a. The well gushed (a huge gush/oil).</p><p>'Putzuak txorrotadaka galdu zuen (txorratada handi bat/ olioa)' b. It rained (a heavy rain/a heavy shower) '(euri sendoa / zaparrada handi bat) bota zuen' Suma daitekeenez, Krejcik (2014) eguraldi aditzen eta sustantzia isurtze aditzen arteko paralelismoa baliatzen du eguraldi aditzen subjektuari iturriaren theta rola esleitzeko eta, bide batez, subjektuaren argumentu izaeraren alde egiteko.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Eguraldi espresioen subjektuaren gaineko eztabaida</head><p>Eguraldi espresioen subjektuaren izaeraren inguruan, bi jarrera nagusi izan dira gramatika teorian: subjektuari, normalean, izaera betegarri hutsa esleitzen diotenak, theta-rolik edo interpretaziorik gabea <ref type="bibr">(Ruwet 1991)</ref>; eta subjektuari nolabaiteko argumentu izaera aitortzen diotenak, bestetik <ref type="bibr" target="#b15">(Bolinger 1973</ref><ref type="bibr" target="#b16">, Chomsky 1981</ref>. Bigarren ildo honetakoen artean, theta-rol horren kalifikazioak pizten du eztabaidarik handiena.</p><p>Eguraldi espresioetan, ohikoa dugu betegarri itxura duen subjektua izatea <ref type="bibr">(pro, it, il, ça, es, das…</ref> Horrela, sasiargumentu kontzeptua proposatzen digu eguraldi espresioetako subjektua sailkatzeko <ref type="bibr">(Chomsky 1981: 325)</ref>; sasiargumentuek ez dute erreferentziarik, baina rol tematikoa jasotzen dute. Bide beretik, Rizzik (1986: 528) ere «eguratsa» gisa itzul daitekeen rol tematikoa (atmospheric) esleitzen dio eguraldi espresioetan ageri den it izenordainari.</p><p>Ruwetek <ref type="formula">(</ref> <ref type="bibr">1991: 130)</ref>, ordea, aurretik Chomskyk eta Rizzik egindako proposamenari aurre eginez, defendatzen du ezinezkoa dela, zenbaitetan, perpaus nagusiko subjektua menpeko PRO elementuaren aitzindari izatea, ez bada aditz nagusiaren eduki semantiko osoa bereganatzen duela. Horren alde aipatzen du ondokoak bezalako adibideen arteko aldea, argudiatuz il izenordainak berak ez diola inolako ekarpenik egiten perpausen interpretazio semantikoari. Halako perpausen kasuan, proposatzen du perpaus nagusi osoa dela menpeko PROren aitzindaria, eta il izenordaina, betegarri hutsa.</p><p>(52) a. Il a plu pendant des semaines sans inonder le pays.</p><p>'Euria egin du asteetan herrialdea urez bete gabe' b. #Il a gélé/eclairé/tonné pendant des semaines sans inonder le pays.</p><p>'Izotza egin / tximista jo/ trumoia jo du asteetan herrialdea urez bete gabe' Ruweten (1991: 142) aburuz, ez dago nahikoa arrazoi ohiko izenordain betegarritik bereizteko eguraldi espresioetako subjektuetan ageri diren izenordainak. Iritzi berekoa da, Alba-Salas (2004) ere; egile honek bere egiten du <ref type="bibr">Postal eta Pullumen (1988)</ref> proposamena, defendatuz izenordain betegarriak azpikategorizatutako posizioetan ager daitezkeela, eta ez dela ezinbestekoa argumentuak rol tematikoa jasotzea sintaktikoki zilegiztatzeko. <ref type="bibr">Benincà eta Cinquek (1992)</ref>, berriz, aurreko atalean deskribatu dugun Perpaus Txikiaren azterbidean jartzen dute arreta. Hala ere, sasiargumentuaz hitz egiten dute perpaus nagusiko subjektuari egitean erreferentzia, hartara, Chomskyk eta Rizzik aurkeztutako ereduarekin lerratuz, eta Ruweten proposamenari buruzko erreferentzia ohar batera mugatuta <ref type="bibr">(Benincà eta Cinque 1992: 160</ref>  <ref type="bibr">(Bleotu 2013: 55)</ref>. Hartara, eguraldi aditzetako it subjektuari balio semantiko edo θ-rol bereizia esleitzen dio, egiturari atxiki zaion posizioaren arabera ([espez, A] edo <ref type="bibr">[espez, a]</ref>).</p><p>Berrikiago, Krejcik (2014) lan labur batean nahiko ondo laburbiltzen ditu eguraldi aditzetako it izenordaina argumentutzat, eta ez betegarri hustzat, jotzeko arrazoiak (Chomskyk (1981) aipatutako kontrol aukeraz gain). Jarraian aipatzen diren adibide guztiak <ref type="bibr" target="#b25">Krejci (2014)</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Euskararen ekarpena eta lekua eguraldi kontuen inguruko eztabaida teorikoetan</head><p>Atal honetan, euskarak aurretik aipatu ditugun eztabaida bien argitara egin dezakeen ekarpena jarriko dugu mahai gainean: eguraldi predikatuen izaera lexikoa eta eguraldi predikatuetako subjektuaren nolakotasuna.</p><p>Eguraldi aditzen inguruko eztabaidari dagokionez, gure ustez, argi dago euskarak eguraldi espresioetan parafrasi ezakusatiboak eta iragankorrak, argiak kasu bietan, erakusten dituela aldi berean, eta alde horretatik, Bleotuk <ref type="bibr">(2012,</ref><ref type="bibr">2013,</ref><ref type="bibr">2015)</ref>  Prezipitazio predikatuen alorrean, badu euskarak berezitasun bat aldameneko hizkuntzetatik aldentzen duena: esana dugu eguraldi aditzen eztabaidan <ref type="bibr">(Beninça &amp; Cinque 1992</ref><ref type="bibr" target="#b12">, Bleotu 2012</ref><ref type="bibr" target="#b13">, 2013</ref><ref type="bibr" target="#b26">, 2015</ref><ref type="bibr" target="#b25">, Krejci 2014</ref><ref type="bibr" target="#b26">, Levin 2015</ref> nagusiki rain eta snow bezalako ingelesezko aditzak darabiltzatela sarritan; bada, euskaraz predikatuok ez dira aditz gisa lexikalizatzen. Alegia, Eriksen eta abarren tipologiaren harira esan dugun bezala, euskarak prezipitazio fenomenoak argumentu tipoaren bidez kodetzen ditu eta ez dira ? euritu, ? elurtu, *txingortu, *kazkabartu bezalako aditzak aise gauzatzen. Eta gauzatzekotan, ez dute, normalean, prezipitazio adierarik:  <ref type="formula">(2016)</ref>, hala ere, badakar euritu aditza Euskaltzaindiaren Hiztegia delakoaren bigarren edizioan (ez lehenengoan), 'euria egiten hasi, euria egin' adierarekin. Nolanahi ere: Egungo Testuen Corpusa delakoan euritu aditzak dituen 11 agerraldietatik bitan besterik ez dauka 'euria egin' adiera argia: esaterako, Herria astekarian («Bigarren maileko finalarentzat aldiz euriturik, oraino jokatzekoa da kaseta hau egitean». Ibarrola -Ezcurra II, Bego, «Pilota» (2004-08-12, 7. orr.). Beste bitan hitz jolasak dira, esanahi berezirik gabekoak: Jon Suduperen «… "ezerezak ezerezten du" eta antzeko bitxikeriak, "euriak euritzen du" esatea adinako tontakeriak iruditzen zitzaizkion», Berria, 2010-11-28; Itxaro Bordaren «euria euriaren euritik euritzen doa», Boga-boga, 2012; beste bitan Koldo Izagirreren arestiko (62b) adibidearekin egiten dugu topo <ref type="bibr">(Vladimir, 2003</ref><ref type="bibr">, eta Sua nahi, Mr Churchill?, 2005</ref>, liburuetan ageri baita), non 'euriz zipriztindu, busti' esan nahi duen. Itxaro Bordaren beste adibide batean (hots: «Konplexuek labakitu neskari, hedoiak euritzen ziren uneak amodiozko lantzer-izpi iruditzen zitzaizkion», Itxaro <ref type="bibr">Borda, Zeruetako Erresuma, 2005, 137.</ref> or.) esan liteke euritu-k 'euri bihurtu' esan nahi duela. Labur esanda: ez dirudi euritu aditza idatziz asko erabiltzen denik 'euria egin' esateko, 'prezipitazio' adierarekin alegia.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 33-60 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20192 gertaerak eta gertaera dinamikoak adieraztekoan eta argumentu tipoa eta predikatu tipoa baliatzen dituela gainerako eguraldi gertaeretan; azpimarratzekoa da euskarak zenbait kasutan NOR-NORK motako egitura iragankorrak baliatzen dituela tipo bietan, tipologikoki bakana dena. Bestetik, Gramatika Teorian izan diren eztabaidagai nagusi biri dagokienez, erakusten dugu (a) euskaran eguraldi aditzak noiz ezakusatibo noiz ezergatibo zein iragankor izan daitezkeela Bleotuk (2015) oro har iradoki duen bezala; eta (b) egitura iragankorretan sumatzen den pro subjektu isila ez dela espletiboa, eta hurbil dagoela egiazko argumentua izatetik</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>lan-brotu… b. DS + aditz kopulatiboa (izan): euria / elurra / txingorra / kazkabarra / inetazia / lanparra / izotza / gaua … da c. Adj/izena + aditz kopulatiboa (egon): sargori dago / ilun dago / hotz dago / (zerua) oskarbi dago / lainotuta dago / ater(r)i dago... d. DS + aditz progresiboa (ari): euria / elurra… ari du. e. DS/izena + aditz ahula (egin): euria / elurra / hotz / bero… egiten du, gaua egin da, ostots egin du f. DS + aditza (mugitu / ibili / altxatu / zabaldu / ekarri / lehertu…): euria mugitu du / haizea dabil / haizea altxatu du / eguna argitu du / eguna zabaldu du / eguna ilundu du / euria dakar / ekaitza lehertu da / trumoia jo du / oinaztuak jo du… g. Eguraldi espresioa biltzen duten kontrol itxurako egiturak: euria egin nahi du (=euri itxura dauka), hemen badaki elurra egiten (=elur asko egin ohi du)</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>Baina [DS A] egitura duten eguraldi espresioak ez dira aditz kopulatiboa dutenetara mugatzen, (1f) sailaren arabera moldatutako adibideok erakusten duten bezala:(6) a. Haizea dabil.b. Haizea altxatu da. c. Ekaitza lehertu da.</figDesc><table><row><cell>3) a. Gaua egin da.</cell><cell>b. Eguna egin zaigu.</cell></row><row><cell cols="2">Aditz kopulatiboa hartzen duten egituretan, bestalde, argi dago aditz iragangaitza izango dugula; hala gertatzen da DS + izan aditzarekin osatutakoetan:</cell></row><row><cell>(4) a. Euria da.</cell><cell>b. Gaua da.</cell></row><row><cell cols="2">Eta beste horrenbeste daukagu izen/adjektibo + egon aditzarekin osatutakoetan ere. Hauek predikazio ezebentibotzat jotzen ditu Etxeparek (2003: 377) eguraldi adi-tzei buruzko aipamen laburrean:</cell></row><row><cell>(5) a. Hotz dago. c. Ateri dago.</cell><cell>b. (zerua) oskarbi dago.</cell></row></table><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 33-60 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20192</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>Eguraldi espresioen aditz forman oinarritutako deskribapen hau amaitzeko, kontrol egitura diruditen beste espresio batzuk ditugu:(11) a. Inguru honetan badaki euria egiten (= sarri egin ohi du euria) b. Ez du euririk egin nahi (= ez du euririk egiten)</figDesc><table><row><cell cols="3">c. Euria egin nahian dabil (= euri itxura dauka) d. Kostatzen zaio euria {egiten/egitea} (= ez du euririk egiten)</cell></row><row><cell cols="3">Orain artekoan oinarrituta, eta eguraldi espresioen aditz motak irizpide hartuta, ondoko sailkapena egin dezakegu, laburpen gisa:</cell></row><row><cell></cell><cell>1. taula</cell><cell></cell></row><row><cell></cell><cell>aditz soilean oinarritutako egu-raldi espresio batzuk</cell><cell>Gautu da.</cell></row><row><cell>Forma iragangaitza duten eguraldi espresioak</cell><cell>[DS + izan] egituradunak [I/Adj + egon] egituradunak</cell><cell>Euria da. Hotz dago.</cell></row><row><cell></cell><cell>eguna/gaua egin espresioa</cell><cell>Gaua egin da.</cell></row><row><cell></cell><cell>egin aditzarekin osatutako aditz konposatu gehienak</cell><cell>Euria egin du.</cell></row><row><cell>Forma iragankorra duten eguraldi espresioak</cell><cell>aditz soilean oinarritutako egu-raldi espresio gehienak</cell><cell>Asko hoztu du.</cell></row><row><cell></cell><cell>ari aditzarekin osatutako es-presioak</cell><cell>Euria ari du.</cell></row><row><cell>Hiztunaren edo hizkeraren ara-bera, forma bat edo bestea har de-</cell><cell>aditz soilean oinarritutako zenbait eguraldi espresio</cell><cell>Gautu du/da dagoeneko.</cell></row><row><cell>zaketen aditzak</cell><cell>hasi aditzarekin osatutakoak</cell><cell>Euria hasi du/da.</cell></row><row><cell>Kontrol egitura itxurakoak</cell><cell></cell><cell></cell></row><row><cell>(kontrol aditzaren arabera, lagun-</cell><cell></cell><cell>Hemen badaki euria egiten.</cell></row><row><cell>tzaileak forma bat edo beste har-</cell><cell></cell><cell>Kosta egiten zaio euria egiten.</cell></row><row><cell>tuko du).</cell><cell></cell><cell></cell></row><row><cell>1 2</cell><cell></cell><cell></cell></row><row><cell>(10) a. Euria ari du/da.</cell><cell cols="2">b. Euria hasi du/da.</cell></row></table><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 33-60 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20192</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>Azkenik, espero litekeen bezala, argumentu-predikatu motako tipoan, eguraldi gertaeraren adierazpena predikatuaren eta argumentuaren artean banatzen da; hor ere egoera bi bereizten dituzte Eriksen, Kittilä eta Kolehmainenek: batean, kognatuen tipoan, bai argumentuak bai predikatuak gertaera berari egiten diote erreferentzia (forma hau daMettouchi eta Toscok (2011: 311)  antzemate global esaten diotena):</figDesc><table><row><cell cols="2">(17) thato e thato (toqabaqita hizkuntza austronesiarra) eguzkia da distiratu 'eguzkia distiratzen ari da'</cell><cell>(EKK 2010: 584)</cell></row><row><cell></cell><cell>Tosco 2011: 315):</cell></row><row><cell>(16) a. Pi-ka /n-wun-I / wupak-i o-nta (koreera) euri elur txingor dator 'euria / elurra / txingorra dator'</cell><cell cols="2">b. Akpɔkpɔ tin (Afrikako gungbe hizkuntza) hodei existitu 'hodeia existitzen da' (hodeitsu dago) (EKK 2010: 581-2)</cell></row><row><cell></cell><cell></cell><cell>20192</cell></row></table><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 33-60 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>Euskaraz, prezipitazioari begira bagabiltza behintzat, argumentu tipoko egiturak dira lehen atalean aipatutako hauek, nahiz eta lehen begiratuan,Eriksen, Kittilä eta   Kolehmainenek tipo atrantsitiboan sailkatutako espresioen antz handia izan:(19) [{euria, elurra, txingorra…}] DS da Alegia, eguraldi gertaera izen sintagmak kodetzen du nagusiki hemen, kopula hutsarekin, eta badirudi tipo existentzialekoa dugula, ezezkoan eta galderetan partitiboa erabiltzen den neurrian: 3 (20) a. Goizean euria izan da, baina orain arratsaldean ez da euririk. b. Euririk izan da maiatz osoan aurten? Arreta merezi du, edozelan ere, izan aditza soilik erabiltzeak, gaur egun ohikoa baita perpaus existentzialetan egon aditza ere erabiltzea. Bestetik, esan liteke argumentu tipoaren aurrean gaudela atzera ere prezipitazio espresioak egin eta ari aditzekin eraikitzen direnean, aditz horiek predikatu arinak badira behintzat. Arazoa da, ordea, Eriksen, Kittilä eta Kolehmainenek (2010) aurreikusitako tipologian ez bezala, euskaraz espresiook itxura iragankorra dutela baina ageriko subjekturik gabe: (21) a. [{euria, elurra, txingorra…}] DS egin zuen b. [{euria, elurra, txingorra…}] DS ari du Izan ere, lehen atalean esan den bezala (cf. 10a), ari aditzarekin osatutako eguraldi espresioek nahitaezkoa omen dute *edun laguntzailea erabiltzea, bestela ari aditzarekin halakorik erabiliko ez luketen hiztunen artean ere. Euskara pro-drop hizkuntza izanik, ez dago hain argi hemen subjektua espletibotzat har litekeen edo ez; subjektu isila espletibotzat hartu edo ez, azpitipo iragankorraren kasu tipikoaren aurrean geundeke, Eriksen, Kittilä eta Kolehmainen autoreen arabera ohiz kanpokoa dena. 4 Hirugarren atalean (3.2 azpiatalean) bueltatuko gara egitura iragankorretako subjektu isilaren kontu honetara. Prezipitazioen espresioaren barruan, bada beste espresio sorta bat argumentu predikatu tipo mistotik hurbilago dirudiena; lehen ataleko (1f)-n aipatutako batzuk hain zuzen ere: (22) a. [{euria, elurra, txingorra…}] DS {bota, mugitu} du b. [{euria, elurra, txingorra…}] DS dakar Hauetan nekez esango genuke aditzak arinak eta esanahi berezirik gabekoak direnik. Bota, mugitu, ekarri aditz irangakorrak dira, mugimenduzkoak, eta ematen du lehen biek 'prezipitatu' adiera hartzen dutela eta bigarrenak 'prezipitazioren bat ira-.20192garri' adiera hartzen duela. Alde horretatik, Eriksen, Kittilä eta Kolehmainenek aipatzen duten tipo erdibituaren aurrean geundeke.<ref type="bibr" target="#b1">5</ref> Prezipitazio gertaeretatik kanpo ari garela, «nahitaezko elementu bakarra predikatua duen argumenturik gabeko egitura» definizioa oso ondo egokitzen zaie lehen atalean aurkeztu ditugun (1a) multzoko egiturei; baita (1c) adibideetakoei ere, egileek espresuki aipatzen baitute kopularen aukera(Eriksen, Kittilä eta Kolehmainen 2010: 572):(23) a. {Hoztu, atertu…} du.b. {oskarbi, ilun, ateri, sargori, hotz…} dago. 6</figDesc><table /><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 33-60 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20192 2.2. Euskarak tipologia horretan duen lekuazISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 33-60 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>(24) a. {Hotz, bero} egiten du. b. {Hotz, bero} handia egiten du Alegia, prezipitazioa kodetzeko moldera ere jotzen dugu tenperaturarekin, nahiz eta kasu honetan, IS biluzia ere ager daitekeen. Baina adjektiboen aukerak berretsi egiten du hotz eta bero izen direla, ez adjektibo, (24b) adibidean sumatzen den moduan. Azkenik, Eriksen, Kittilä eta Kolehmainenek (2010) egoeraren aldaketekin eta eguneko mementu aldaketekin zerikusia duten espresioak bereiz aipatzen ez badituzte ere, geuk aipatu behar ditugu; euskaraz hauetako gehienak aditzarekin adierazten dira, eta predikatu tipoaren aurrean gaude, hortaz: 5 Eriksen, Kittilä eta Kolehmainenen (2012) lanari kasu eginez gero, ez-prezipitaziozko gertaera dinamikoak ere aipatu beharko lirateke hemen: haizea, trumoia, tximista. Hauekin ere ematen du tipo mistoa aurkitzen dugula; haize-rekin bai behintzat: (i) a. *Haizea da, %haizea {egin, ari} du (argumentu tipoa) / *haizatu du (predikatu tipoa) b. *Haizea dabil / haizea atera du / haizea jaiki da Hala ere, trumoi eta tximista fenomenoekin badirudi argumentu-predikatu tipo mistoa (cf. iia) ez ezik argumentu tipoa ere posible dela (iib): (ii) a. Tximista erori da, trumoia(k) jo du b. Trumoia da, tximistak izan dira, tximista eta trumoia ari zuen… Hori horrela bada, Eriksen eta abarren susmoa (EKE 2012) ez da guztiz berresten: prezipitaziorik gabeko gertaera dinamiko hauek prezipitaziozko gertaera dinamikoetan bezala edo nahiko antzera kodetzen ditugu euskaraz, nahiz eta tipo mistoan ageri diren aditzak bat ez datozen (bota, mugitu vs jo, erori, altxatu). 25) a. {atertu, argitu, ilundu} du b. (eguna, eguraldia) {atertu, argitu, ilundu} du c. (eguna) gautu da Hauetako gehienak nor-nork aditzak direnez, balirudike tipo espletiboaren aurrean -edo (25b)-ren kasuan, iragankor eta espletiboaren aurrean-gaudela, baldin eta subjektu formalik beharko balitz. Baina aditz gutxi batzuek nor erabilera soila daukate; kasuotan, ustezko pro izenordain bat benetako DS argumentuarekin txandakatuko litzateke (tipo iragangaitzaren eta espletiboaren artean mugituaz). Laburbilduz, Eriksen, Kittilä eta Kolehmainen hizkuntzalariek (2010, 2012) planteatzen duten tipologiatik abiatuta, euskarak ohikoa du prezipitazio gertaeretan argumentu tipora jotzea (bide bakarra ez bada ere). Tenperatura gertaeretan ere, bai predikatu tipora (cf. ilun, oskarbi dago) bai argumentu tipora (cf. hotz handia egiten du) jotzen du. Aldiz, predikatu tipoa da ohikoena eguraldiaren eta eguneko uneen aldaketak adierazteko orduan. Eztabaida nagusia subjektu formalek sortzen dute: batetik, ilun dago bezalakoetan, subjektu formalik suposatu beharra dago?; bestetik, nornork itxura (ustez iragankorra) duten predikatu tipoetan, subjektu formalik badago? Baiezkoan, zein ezaugarri ditu? Hurrengo 3.2 eta 4. ataletan helduko diogu berriro gai honi.</figDesc><table /><note>6 Egia da ez dago berorik bezalako adibideak zuzenak direla, baina ematen du perpaus existentzial normalak izan daitezkeela ezezkoan; [izena/adj egon] egituran, oro har, artikulurik gabeko predikatuak agertzen dira. Horregatik uste dugu egitura hau predikatu motakoa dela.ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 33-60 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20192(</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>egitura ezakusatiboa proposatzen du eguraldi espresioetarako, eta zazpi argudio nagusi eskaintzen ditu bere proposamenaren alde; bereziki, frantsesez eta italieraz antzemandako ezaugarrietan oinarrituta. Ruweten lana ezinbesteko erreferentzia bilakatu da ondorengo lanetan, eta gu ere hark emandako argudioak aurkeztetik hasiko gara. Avoir aditz laguntzailea Frantsesezko eguraldi aditzek avoir (*edun) laguntzailea hartzen dute (26a), ez dena oso adierazgarria. Baina italieraz, eguraldi aditz batzuek avere (*edun) zein essere (izan) har dezakete, (26b) eta (26c) adibideetan jaso dugun moduan:</figDesc><table><row><cell>(26) a. Il a plu. 'Euria {egin du / izan da}' c. è piovuto, è nevicato 'Euria / elurra {egin du / izan da}'</cell><cell>b. ha piovuto, ha nevicato 'Euria / elurra {egin du / izan da}' (Ruwet 1991: 152)</cell></row><row><cell>b) Parafrasiak</cell><cell></cell></row><row><cell cols="2">Il pleut, il neige, eta abarren parafrasi naturalenek aditz ezakusatiboak hartzen di-tuzte:</cell></row><row><cell>(27) a. La pluie/la neige/la grêle tombe.</cell><cell></cell></row></table><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 33-60 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20192 a)b. Le vent souffle.'Euria / elurra / izotza jausten ari da' 'Haizea dabil'</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head></head><label></label><figDesc>Il pleut une pluie froide. b. Max vit une drôle de vie. 'Euri hotza ari du'</figDesc><table><row><cell cols="3">e) Subjektu agenteak eguraldi espresioetan</cell></row><row><cell cols="3">Badira zenbait adibide eguraldi espresioetan subjektu lexikoa azaltzen dutenak. Horien izaera kausatiboa hipotesi ezakusatiboaren aldeko argudio gisa balia liteke:</cell></row><row><cell>(30) a. Zeus pleut. 'Zeusek euria ari du'</cell><cell cols="2">b. L'hiver sibérien a gelé le sol. 'Siberiako neguak lurra izoztu du' (Ruwet 1991: 155-6)</cell></row><row><cell>f) Objektu kognatuak</cell><cell></cell></row><row><cell cols="3">Objektu kognatuek aditzaren forma eta esanahia errepikatzen dute; zenbait hiz-kuntzatan, baliabide hori ohikoa da eguraldi espresioak eratzeko (turkiera, erru-siera…). Frantsesez ere, posible dira halako egiturak: 7</cell></row><row><cell cols="3">(31) Il a plu une petite pluie fine. 'Euri txiki mehea bota du' (hitzez hitz: euri txiki mehea euritu du) (Ruwet 1991: 157)</cell></row><row><cell cols="2">g) Objektu/adberbio alternantziak</cell></row><row><cell cols="3">Subjektu/adberbio alternantziak ez dira gramatikalak (cf. 32); objektu/adberbio alternantziak bai, ordea (cf. 33); eta beste horrenbeste gertatzen da eguraldi espre-sioekin (cf. 34):</cell></row><row><cell cols="3">(32) a. De promptes réactions sont rares. 'Erreakzio azkarrak bakanak dira' b. *A promptes réactions est rare / sont rares. 'Erreakzio azkarretan bakana da / bakanak dira'</cell></row><row><cell cols="3">(33) a. Les canons tiraient des boulets rouges. 'Kainoiek bola gorriak jaurtikitzen zituzten' b. Les canons tiraient a boulets rouges. 'Kainoiek bola gorriekin jaurtikitzen zituzten?'</cell></row><row><cell cols="2">(34) a. Il a plu de grosses gouttes 'Tanta lodiak bota ditu'</cell><cell>b. Il a plu à grosses gouttes. 'Tanta lodiekin egin du euria' (Ruwet 1991: 161)</cell></row><row><cell cols="3">dioenez, il y a egiturak ezakusatiboak dira, eta emandako adibideetan, faire aditzak izaera ezakusa-tiboa du. Honaino Ruweten proposamena eta haren argudioak laburtu ditugu. Proposamen ezakusatiboari aurre eginez, berriz, Paykinen (2003, 2010) lanak dauzkagu. Egileak Ruwetek erabilitako argudioak aztertzen ditu, objektu kognatuen argudioan eta objektu/adberbio alternantzian oinarritutako argudioan arreta jarrita. Lehenari dagokionez, Paykinek (2010: 255) argudiatzen du Ruwetek erabilitako az-terbidean bertan dagoela kontraesana. Horretarako, ondoko perpausak jartzen ditu adibide:</cell></row></table><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 33-60 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20192ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 33-60 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20192 (35) a.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head></head><label></label><figDesc>ere italierazko essere / avere aditz laguntzaileen alternantziari heltzen diote.Perlmutterrek (1978)  proposatutako ezakusatibo/ezergatibo alternantzia baztertu barik, egileok perpaus txikian oinarritutako irtenbidea proposatzen dute. Helburua da argitzea zein irizpideren arabera aukeratzen duten italierazko eguraldi espresioek aditz laguntzailea eta, aldi berean, proposamena Cinqueren bidetik jotzen du Manentek ere, 2007ko artikuluan; horrela, frantsesez soilik kasu batzuetan posible den eguraldi espresioetako ça subjektua egitura ezakusatiboarekin lotzen du, eta gauza bera egiten du italieraz essere laguntzailea hartzen duten egiturekin. Frantsesezko il izenordaina azaltzen duten eguraldi espresioen kasuan, anbiguotasuna ikusten du egitura ezakusatiboaren eta ezergatiboaren artean(Manente 2007: 87). Azkenik, italierazko avere aditza egitura ezergatiboarekin lotzen du. Azalpen gisa, bere egiten du Benincà eta Cinqueren azterbidea, eta Perpaus Txikiaren nolakotasunean oinarritzen ditu deskribatutako ezaugarriak:</figDesc><table><row><cell cols="2">bateragarri egitea Bakerren (1988) Rol Tematikoen Esleipenaren Uniformetasuna-ren Hatsarrearekin. Proposatutako azterbideak ezinbestean dakar berekin aztertutako eguraldi espresioak mugimendu aditz gisa interpretatzea adiera ezakusatiboan (Be-nincà &amp; Cinque 1991: 160). Aintzat hartuta italieraz eguraldi aditzek soilik onar-tzen dutela norabidezko preposizio-sintagma essere laguntzailea dutenean, Benincà eta Cinquek argudiatzen dute, Hoekstra eta Mulder (1990) lanaren azterbideari ja-rraituz, italierazko eguraldi aditzek jokabide ezakusatiboa dutela kasu batzuetan, eta ezergatiboa beste batzuetan. Aldaera ezakusatiboan aditzaren osagarri Perpaus Txiki bat legoke, zeinaren barrutik subjektua mugitzen den:</cell></row><row><cell>(39) [DS i [INFL [AS A [ PT t i PrepS lok ]]]]</cell><cell></cell></row><row><cell cols="2">Analisi honek azaldu nahi du zergatik lotzen den essere laguntzailearen aukera Prep-Sintagma lokatiboa agertzearekin:</cell></row><row><cell>(40) pro ci {è, *ha} piovuto [ PrepS sulla testa] 'Euria egin digu buruaren gainean'</cell><cell>(Benincà &amp; Cinque 1991: 158)</cell></row><row><cell cols="2">Hartara, eguraldi aditzek bi analisi izango lituzkete eta aldaera ezakusatiboa (essere aditz laguntzailearen erabileran gauzatua) mugimenduzko aditza izatearekin legoke lotuta; bereziki, prezipitazio aditzek lexikalizatzen dutena. Benincà &amp; (41) a 1 . Ça i /il i a plu [ PT t i Ø lok ] b 1 . Il i a plu [ PT PRO i PrepS lok ] a 2 . pro i e piovuto [ PT t i Ø lok ] b 2 . pro i ha piovuto [ PT PRO i PrepS lok ] 'Euria egin du'</cell></row><row><cell cols="2">Aurreragoko beste lan batean, Manentek (2008: 136) alde batera uzten du Per-paus Txikian oinarrituako azterbidea, Hale eta Keyserren (1993) AS hedatuaren bi-detik jota. Egileak egitura bat proposatzen du, non aditzak bat egiten duen eguraldi izenen batekin, eguraldi aditza sortzeko (Manente 2008: 142), perpaus nagusiko sub-jektua [Espez aS] posizioan kokatuta:</cell></row><row><cell cols="2">(42) a. aS [ pro [ aº ha piovuto i [ AS (pioggia) [ A' [ Aº t i [ PrepS-lok Ø/(a Roma)]]]]]] b. aS [ il [ aº a plu [ AS (pluie) [ A' [ Aº t i [ PrepS-lok Ø/(à Rome)]]]]]]</cell></row><row><cell></cell><cell>20192</cell></row></table><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 33-60 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head></head><label></label><figDesc>/www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20192 188), azkenik, Hale eta Keyserren (2002) azterbidea zertxobait moldatuz, Ramchand-en (2008a, 2008b) ikuspegia erabiltzeko proposamena egiten du, cause eta fall 'erori' buru arinen ordez Init(iator) eta Proc(ess) buruak erabilita. 8</figDesc><table><row><cell cols="2">botasun testak (i.e. there erakuslearen subjektu erabilera, lokatiboa alderantzikatzea, erresultatiboak, partizipioaren adjektibo erabilera): b. hay nubes / C'è un freddo bestiale fuori 'Hotz itzela egiten du kanpoan' (Bleotu 2013: 50)</cell></row><row><cell cols="2">(43) a. *There rained heavily yesterday 'there euria ugari egin zuen atzo' b. *Outside snowed heavily 'Kanpoan elurra ugari egin zuen' c) eguraldi aditzetako subjektuen izaera nabarra: kasu batzuetan, subjektuak es-pletiboak edo balio errefentzialik gabekoak badira ere, beste batzuetan, era-kusleak, pertsona izenordain bizidunak eta are eguraldi fenomenoaren iturria edo testuingurua suma daitezke: c. *It drizzled wet 'Zirimiria egin zuen bustita (geratzeraino)' d. It drizzled itself wet 'bere burua zirimiria egin zuen bustita (geratzeraino)' e. *The snowed snow 'elur elurtua' (Bleotu 2013: 51) Hots, egiazko ezakusatiboek ez bezala, eguraldi aditzek ez dute there egitura-rik onartzen, ez dute lokatibo alderantzikatzean parte hartzen eta ez dute partizi-pioa izen sintagma barruko modifikatzailetzat hartzen; aitzitik, ezakusatiboek bezala eta ezergatiboek ez bezala, ez dute sasi-erresultatiboen egitura bihurkaria onartzen; baina ezta benetako egitura erresultatiboa ere, aditz ezergatiboek bezalaxe, kasu ho-(47) a. Il pleut (frantsesa) 'euria da' b. Das regnet ja nicht mehr! (lagunarteko alemaniera) hau euria egin PART gehiago 'Ez da euririk gehiago!' c. Hann er farinn adh rign (islandiera) bera da hasi euria egin 'Kaka zaharra, euria da atzera ere!' (lit: bera euria egiten hasi da) d. Tuo pilvi satta pian (finlandiera) hodei hori prezipitatu laster 'Hodei horrek euria egingo du laster' (Bleotu 2013: 49) netan. Era berean, italieraz, esaterako, essere eta avere aditz laguntzaile biak onartzen dituzte, arestian esan bezala (cf. Beninça eta Cinque 1992), jokabide bikoitzaren erakusgarri. Eguraldi aditzen (eta, oro har, predikatuen) jokabide bikoitza datu gehiagok ere berresten dute, Bleoturen arabera: a) noiz edo behin ikusten den kausatibo aldizkatzea (cf. God rained a heavy rain / it rained); Nabartasun hori ondo ezkontzen omen da kasu batzuetan aditza edo predikatua ezakusatiboa eta besteetan ezergatibo edo kausatiboa izatearekin. Argudio hauetan oinarrituta eta aditzen osaketarako Hale &amp; Keyserrek (2002) plazaratutako konflazio edo bategite teoriari jarraituz, ondoko egiturak aurkezten dizkigu Bleotuk (2012, 2013); (a) egitura interpretazio ezakusatiborako eta (b) egi-tura interpretazio ezergatibo edo kausatiborako. Alegia, autoreak ontzat ematen du ezergatiboak nolabaiteko iragankorrak direlako hipotesia: b) hizkuntzen arteko bariazioa, non argi eta garbi egiaztatzen den hizkuntza ba-(48) a. A tzuetan eredu ezakusatiboa gailentzen dela (cf. txinera, finlandiera) baina beste batzuetan parafrasi ezergatibo eta iragankorrak ere badaudela (cf. ita-B A liera, espainiera). Txineraz ez omen dago eguraldi aditzik, eta erori aditzaren baliokidea orokortu da: (44) a. Jintian xia yu b. Dongtian xia xue (txinera) gaur erori euria negu A fall I rain erori elurra 'Gaur euria da' 'Neguan elurra egiten du' (Bleotu 2013: 50) b. A</cell></row><row><cell cols="2">Finlandieraz, berriz, sataa aditzak jatorriz 'erori' esan nahi zuen, baina gaur it A egun, 'prezipitatu' adiera hartu du (Eriksen, Kittilä eta Kolehmainen 2010): (45) a. Sataa (vet-tä) cause A b. Sataa lun-ta prezipitatu ura prezipitatu elurra 'Euria da' 'Elurra da' (Bleotu 2013: 51) A fall I rain</cell></row><row><cell cols="2">ingeleserako proposatutako ezakusati-Eguraldi aditzak dituzten hizkuntzetan ere, parafrasi ezakusatibo eta ira-gankor-kausatiboak egoten dira: (46) a. hace viento, sol… / Fa freddo 'Hotz egiten du' Hartara, unibertsalki era bikoak izan litezke eguraldi aditzak: edo ezakusatiboak edo iragankorrak; ingelesezko it espletiboari ere izaera bikoitza esleitzen dio: noiz thema argumentua ordezkatuko luke, noiz eragilea edo cause argumentua. Ohiko pe-rifrasiek (hay nubes vs hace calor) egitura berdinei jarraituko liekete. Bleotuk (2015:</cell></row><row><cell>ISSN: 0582-6152 -e-ISSN: 2444-2992 ISSN: 0582-6152 -e-ISSN: 2444-2992 http://www.ehu.es/ojs/index.php/ASJU/ ISSN: 0582-6152 -e-ISSN: 2444-2992 http:/</cell><cell>ASJU 52-1/2 (2018), 33-60 20192 ASJU 52-1/2 (2018), 33-60 DOI: https://doi.org/10.1387/asju.20192 ASJU 52-1/2 (2018), 33-60</cell></row></table><note>http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head></head><label></label><figDesc>/www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20192 ohiko betegarrietatik bereizten dituena. Horrela, Bolingerren (1973) ustez, ingelesezko it izenordaina ez da semantikoki hutsa; nolabaiteko «ingurugiroa» islatzen du. Aurrerago, kontrol harremanak aztertzean, Chomskyk (1981: 324) menpeko PRO kontrolatzeko gaitasuna esleitzen dio ingelesezko perpaus nagusiko it izenordainari:</figDesc><table><row><cell>). Hasieratik igarri izan da subjektu horrek ezaugarri bereziak dituela, ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 33-60 http:/(51) It sometimes rains after [PRO snowing] 'Batzuetan pro euria egiten du [PRO elurra egin ostean]'</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14"><head></head><label></label><figDesc>). Ildo beretik egiten du bide Manentek ere, 2007ko artikuluan. Egileak frantsesezko ça izenordaina aztertzen du bereziki, eta izaera lokatiboa atxikitzen dio, deskribatutako gertaera atmosferikoaren leku edo egoera aldaketarekin lotuz. Aldi berean, eta italierari erreferentzia eginez, defendatzen du essere laguntzailea hartzen duten eguraldi espresioek ere noranzkotasuna adierazten dutela eta frantsesezko ça egituren pareko direla (Manente 2007: 89), iradokiz, horrela, essere laguntzailedun perpausetako pro subjektuak ere izaera lokatiboa duela (eta horrenbestez, avere laguntzailedun perpausetako pro subjektutik bereiziz). Tesi lanean, berriz, baztertu egiten du ça egituren auzia, eta pro, il eta it sasiargumentu gisa aurkezten ditu, eta kausa edo eragile gisa deskribatzen ditu, Hale &amp; Keyserren egiturara egokituta (Manente 2008: 141). /www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20192 Bleotuk (2012: 78) sasiargumentu gisa deskribatzen du ingelesezko eguraldi espresioetako it subjektua, eta it betegarritik bereizten du, Chomskyk deskribatutako kontrol harremanei azalpena ematearren. Lehenengoa aditz sintagmaren barneko posizio batean txertatzen omen zaio egiturari, eta bigarrena, berriz, [espez, KonpS] posizioan, nahiz eta biak mugitzen diren [espez, DnbS] posiziora, EPP tasunaren ondorioz. Aurrerago, Manenteri kritika eginez, proposatzen du sasiargumentu horiek egitura ezergatiboetan soilik jokatzen dutela eragile (cause) gisa, eta ez-eragile gisa, egitura ezakusatiboetan</figDesc><table><row><cell>ISSN: 0582-6152 -e-ISSN: 2444-2992 http:/</cell><cell>ASJU 52-1/2 (2018), 33-60</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_15"><head></head><label></label><figDesc>/www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20192 c) Lehenago aipatu den moduan eta bestek (e.g. Stalmaszczyk 1996) iradoki bezala, eguraldi aditzetako it benetako subjektu lexiko batekin txandakatu daiteke batzuetan, adiera kausatiboan behintzat: (55) a. The clouds rained blood, the skies rained ice It i only began to rain in earnest just as we got to the gate. Very thoughtful of it i , I'm sure! (Hilda Lessways, Arnold Bennett 1911) 'Atera iritsi gineneantxe pro i hasi zen euria serio egiten. Oso arduratsua bere i aldetik, seguru nago' b. *It i seemed that Mary jogged. How thoughtful of it i ! 'pro i Mirenek lasterketa egin zuela iruditu zuen. Oso kontsideratua bere i aldetik' Argudio hauek guztiek iradokiko lukete ingelesezko eguraldi aditzetako it izenordainaren estatusa argumentu batena dela, ez benetako betegarri batena; izan ere, balio erreferentziala izan dezakeela esatera iristen da Krejci. 10 Antzeko suposizioak egiten dituzte Svenoniusek (2002) eta Holmberg eta Nikkanenek(2002), bigarren hauek finlandieraren subjektuak aztertu ondoren. Theta-rolari dagokionez, 3.1 azpitalararen amaieran aipatu dugunez, Krejcik (2014) iturri edo isurle theta-rola proposatzen du eguraldi aditzetako it honetarako, sustantzia isurtzeko aditzekiko paralelismoa dagoela argudiatuz. Hori bai, aipatu behar da adibide ia guztietan prezipizitazio aditzez (rain, snow) diharduela.</figDesc><table><row><cell>lanetik datoz: a) Eguraldi aditzetako it subjektua kontrol aditz baten menpe egon daiteke eta normalean, kontrol egiturek murriztapen semantikoak ezartzen dizkiete beren mendeko subjektuei: (53) a. it tried [ _to rain] today but the sun came out 'Euria egiten saiatu da gaur baina eguzkia irten da' b. The first in ten summers that if refused [ _ to rain] 'Lehenenego aldia da hamar urtean euria egiteari muzin egin diola' c. *It tried/refused [ _ to seem that Mary jogged] 'Muzin egin dio/ saiatu egin da Maryk korrika egin duela iruditzeari' Ez da gauza bera gertatzen igoera aditzetako it subjektu betegarriarekin. Stal-maszczyk-ek (1996: 245) ere antzeko oharrak egiten ditu. 9 b) Helburuzko perpausetako subjektua kontrola dezake eguraldi aditzetako sub-jektuak, benetako betegarri batek ez bezala: (54) a. It rains [ _ to turn you numb] 'Euria egiten du zu hozminduta uzteko' b. *It only seems that Mary jogged [ _ to annoy us] 'Bakar-bakarrik iduri du Maryk lasterka egin duela gu izorratzeko' 9 Hona haren adibideak, non ikusten den weather-it theta-markatutako posizioetan ager daitekeela, benetako betegarriak ez bezala: i(i) a. John forced it to rain by using cloud-seeding techniques 'Jonek euria egitera behartu zuen hodei-sortze teknikak erabiliz' b. A rise in air pressure prevented it from raining 'Aire presioaren igoerak euria egitea saihestu zuen' (ii) a. *John forced it to seem that he is funny 'Jonek barregarria dela iruditzera behartu zuen' b. *John prevented it from seeming that Mary is funny 'Jonek Mary barregarria dela iruditzea saihestu zuen' ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 33-60 b. *That fact seemed that Mary jogged 'Kontuak Maryk lasterka egin zuela zirudien' Ikusten denez, betegarri hutsekin ez da halako aukerarik. d) Eguraldi aditzek osagarri kognatuak har ditzakete eta, Burzioren (1986) oro-korpenaren arabera, horrek esan nahi du subjektu thematikoak izan ditzake-tela: (56) a. it rained a light thin rain, it rained a few drops of rain 'Euri mehe arina egin zuen, euri tanta gutxi batzuk bota zituen' b. *it seemed Mary's jogging 'Mirenen lasterketa iruditu zuen' e) Azkenik, eguraldi aditzeko subjektua aginteran ere ager omen daiteke, be-netako betegarriak ez bezala, eta diskurtsoan atzerako erreferentzia egin ahal zaio: (57) a. Please, don't rain 'Mesedez, ez euririk egin' b. *Please don't seem that Mary jogged 'Mesedez, ez iruditu Mirenek korrika egin zuenik' http:/'Hodeiek odola bota zuten, zeruek izotza bota zuten' (58) a. ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 33-60</cell></row></table><note>http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20192</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_16"><head></head><label></label><figDesc>duten aditzen artean ere bietako joerak, alegia nor vs nor-nork txandakatzeak, egiaztatzen dira, nahiz eta nor-nork motako aditzak gailentzen diren edo sarriago aurkitzen diren euskararen barruan, arestian (2.2. atalean) argitu dugun bezala: (61) a. eguna argitu {da / du} b. asko freskatu / epeldu du c. gauean, izoztu egingo du d. arratsalderako, atertu egingo du Gure ustez, txandakatze hauek berauek ere eredu ezakusatiboaren eta iragankorraren arteko lehiaren islatzat har daitezke.</figDesc><table><row><cell>mendutako bikoiztasun orokorrari eusten diola:</cell><cell>nabar-</cell></row><row><cell>(59) itxura ezakusatiboko predikatuak a. euria da</cell><cell>b. ilun, oskarbi dago</cell></row><row><cell cols="2">(60) itxura irangakorreko predikatuak a. euria egin du eta laster txingorra bota lezake b. hotz ala bero egiten du? c. eguraldi ona egingo du bihar d. euria {dakar/ ari du}</cell></row><row><cell cols="2">Horretan, euskara ez da gehiegi aldentzen aldameneko hizkuntza erromantzeeta-tik (cf. gaztelaniaz, frantsesa, italiera). Eguraldiaren aldaketa adierazten</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_17"><head></head><label></label><figDesc>a. gauak mendiak elurtu ditu = gauak mendiak elurrez estali ditu b. gorputz osoa leiho eurituen antzera pikorreztatua, (Koldo Izagirre, Sua nahi MrChurchill?, 2005: 144) = euriz busti edo estalitako leihoen antzera Egiari zor, onartu behar da, Orotariko Euskal Hiztegira joz gero, elurtu-ren «elurra egin» erabilera aurkitzen dela, baina Iparraldeko autore bakan batzuetara mugatzen da (Duvoisin, Harriet eta Lhanderen hiztegietan besterik ez omen da lekukotzen); era berean, euritu aditza ere ageri da bertan, baina berau ere ez da oso erabilia: Orotariko Euskal Hiztegiaren arabera, bizpahiru aldiz lekukotzen da (Leizarragarengan, Duvoisinengan eta Jokin Lizarragaren kopletan, esaterako) eta esanguratsua deritzogu Sa-ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 33-60 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20192 rasolak (2007) aditz hau Euskal Hiztegian jaso ez izanari. 11 Nolanahi ere, *txingortu, *inatazitu, *kazkabartu, *babazuzatu, *zirimiritu, *langartu aditzak ez dira existitzen edo ez dira batere ohikoak eta (guk kontsultatuko) hiztunek, behintzat, errefusatu egiten dituzte. Gauzak horrela, gure ustez, nahiko segurua da esatea euskarak ez duela, berez, prezipitazio predikuetan aditzetara jotzen; interesgarria litzateke, noski, hutsune sistematiko honen zergatia aztertzea. Alde horretatik, Krejcik (2014) arrazoi badu eta prezipitazio aditzak sustantzia isurtzeko aditzen talde berean sartu behar badira, ez da batere harritzekoa ingelesezko gush, drip, bleed, seep aditzen kidetzat (edo gaztelaniazko chorrear, gotear, sangrar, filtrarse aditzen kidetzat) euskaraz aditz lexikorik ez aurkitzea, prezipitaziorako aurkitzen ez den bezala. Eguraldi espresioetako subjektuaren eztabaidari gagozkiola, iruditzen zaigu parafrasi eta aditz iragankorretako subjektuak argumentu izaerara hurbiltzen (eta betegarri edo espletibo hutsetik urruntzen) duten ezaugarriak dauzkala. Batetik, Artiagoitia (2001) lanean esaten den bezala, Chomskyk (1981) iradokitako kontrol aukera dago: (63) pro i ezin du elurra egin [subj i hotzik egin gabe] (Artiagoitia 2001: 16) Alegia, elurra egiten duenak hotz egiten duen bera izan behar du; lehen subjektuak bigarrenaren erreferentzia kontrolatzen du. Bestetik, Krejcik (2014) nabarmendutako testak ere hor ditugu: a) Eguraldi aditz iragankorretako subjektu isila kontrol aditz baten menpeko izan daiteke: (64) a. pro i badaki [ subj i elurra egiten] b. gaur pro i ez du [ subj i euririk egin] nahi baina ez pro i du [subj i eguna argitu] nahi ere c. Kostatzen zaio pro i {subj i euria egiten/egitea} Eman edo irudi bezalako igoera aditzen subjektu betegarria ezin da, aitzitik, kontrolatuta egon: (65) a. * pro i badaki [pro i Jon nekatuta dagoela ematen] b. * pro i ez du [pro i Jon nekatuta dagoela eman] nahi</figDesc><table /><note>11 Euskaltzaindiak</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">Aldiz, badirudi badagoela nolabaiteko murrizketa amaitu aditzarekiko(Arteatx 2011: 234). Dena dela, murrizketa horren arrazoietan sakontzea lan honen mugetatik haratago doa; izan ere, amaitu aditzak berak du izaera berezia, beste testuinguru batzuetan ere deskribatu izan den moduan(Goenaga  1984; Artiagoitia 2003;<ref type="bibr" target="#b6">Arteatx 2011)</ref>.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">Aipatzekoa da prezipitaziorik ezak (ateri izan) ez duela prezipitazio-espresioen moduan jokatzen:(i) Ez da ateri(*rik).4  Argumentu tipoko azpitipo iragankorrean nekez agertzen omen dira egiazko bi argumentu eta ohikoena azaleko iragankortasuna da,Eriksen, Kittilä eta Kolehmainen (2012: 390)  lanean argitzen duten bezala. Baina subjektu isila argumentua bada, segituko genuke azpitipo irangakorra edukitzen, modu nabarmenagoan.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">Bereziki, subjektuak modifikatzaileren bat hartzen badu eta estraposizioan badago.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8">Eguraldi parafrasietan erori eta egin aditzak ez ezik beste batzuk ere ageri direla eta, Bleotuk bukatzen du defendatzen aditz horiek guztiakLevin eta Rappaportek (1998)  proposaturiko oinarrizko predikatu gutxi batzuetan deskonposatu beharko liratekeela (BE, COME, CAUSE). Esaterako, fall 'erori' bera = come [to be down] litzateke (i.e. behean izatera iritsi), eta abar. Zati hau, dena dela, garatu gabe uzten du.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10">'What rains?' galderaren desegokitasuna it izenordainak denotatum edo erreferente bakarra izatearekin lotzen du; izan ere, galderak erreferente bat baino gehiagoren aukera zabaltzen du, eta alde horretatik galdera desegokia (infelicitous) litzateke.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"> <ref type="formula">(2014)</ref> <p>aipatzen duen osagarri kognatuen testak, berriz, ez du euskararako funtzionatzen, noski; baina beronen azalpena oso sinplea da: euskaraz parafrasi iragankorretan aditz arin bat eta osagarri lexiko bat izaten da, nekez aurkitzen dugu predikatu osoa aditz bihurturik. <ref type="bibr">12</ref> Arestiko arrazoi hauengatik guztiengatik badirudi euskarazko eguraldi aditz edo espresio iragankorretan dauden pro subjektu isilek argumentu edo sasiargumentu baten itxura handiagoa dutela aditz inpertsonaletako pro betegarriena baino. Beste espresio batzuek ere antzeko oihartzuna daukate (cf. elur itxura dauka = elurra egingo du). Are gehiago: (64) eta (66)-ko adibideei erreparatuta, badirudi pro horrek hirugarren pertsona singularra eta biziduna behar duela, beste hizkuntzetan geratzen den bezala (cf. faroera, islandiera; <ref type="bibr" target="#b17">Eriksen, Kittilä eta Kolehmainen 2010</ref><ref type="bibr" target="#b26">, 2015</ref>. Hori bai, argi utzi nahi dugu hemen dioguna egitura iragankorretako pro subjektu isil ergatiboari dagokiola, eta eztabaida honetatik kanpo -eta aurreragoko ikergai modura-geratzen da euria da eta oskarbi dago bezalako espresioen subjektuen azterketa. <ref type="bibr">12</ref> Gainerakoan, ingelesez posible diren askotariko osagarriak posible dira euskaraz ere:</p><p>(i) it rained a light/heavy rain = euri mehea/sendoa egin zuen Nolanahi ere, hizkeraren batean euritu du esango balitz, «odola euritu zuen», «euri mehea euritu zuen» bezalakoak ez lirateke harrigarri egingo. Koldo Zuazoren (k.p.) arabera, uritu du posible da Sarako hizkeran. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Iñigo Arteatx</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20192</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20192" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Ondorioak Lehenengo atalean azaldu dugun moduan, ikuspegi formaletik, zazpi multzotan sailka ditzakegu euskarazko eguraldi espresioak: a</title>
+		<imprint/>
+	</monogr>
+	<note>aditz soila (lainotu</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+				<title level="m">DS + aditz osoa</title>
+		<imprint/>
+	</monogr>
+	<note>euria dakar</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Argumentu tiporako joera dugu, orobat, tenperatura gertaeretan ere (hotz (handia) egiten du), nahiz eta hor predikatu tipoa ere sumatzen den (oskarbi/hotz dago). Eguraldiaren, tenperaturaren eta uneen aldaketarekin, berriz, predikatu tipoa da ohikoena (atertu, hoztu, ilundu…); multzo honetan, ordea, arraroa da prezipitazio aditzik aurkitzea; beharbada, euskaraz sustantzia isurtzeko aditzik ez den arrazoi beragatik</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kittilä</forename><surname>Eriksen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eta Kolehmainenen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">deskribaketaren arabera aztertzen baditugu euskal eguraldi espresioak, argumentu tiporako joera antzematen dugu</title>
+		<meeting><address><addrLine>Krejci</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note>nabarmen, prezipitazio gertaeretan -dela izaera existentzialaz (euria da), dela itxura iragankorraz (euria egin du, elurra ari du). zuzen badago. Azkenik, argumentu predikatu tipo mistoko adibideak ere baditugu (euria mugitu du. eguna zabaldu du. euria dakar</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Aditzetan ere, nor-nork motakoak ohikoagoak izan arren, nor eta nor-nork motakoak ere badira; beharbada, eredu ezakusatiboaren eta iragankorraren arteko lehiaren isla dugu hau. Azkenik, eguraldi espresioen subjektuari dagokionez, euskarazko egitura iragankorren azterketan oinarrituta, esan dezakegu nahikoa arrazoi dugula pentsatzeko izenordain betegarri</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ezakusatibotasun/Ezergatibotasunaren Auziari Dagokionez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Egitura Ezakusatibo Eta Iragankorretara Jotzen Duela Eguraldi Espresioen Kasuan</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>soila gabe argumentu osoa daukagula subjektu posizioan</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">«Lexically selected expletives: evidence from Basque and Romance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bibliografia</forename><surname>Alba-Salas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SKY Journal of Linguistics</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="35" to="100" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Euskarazko egitura jokatugabeak: -t(z)en morfemadun perpaus osagarrien azterketa sintaktikoa, UPV/EHUko doktorego tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Arteatx</surname></persName>
+		</author>
+		<ptr target="&lt;http://www.euskara.euskadi.net/appcont/tesisDoctoral/PDFak/Inigo_Arteatx_TESIA.pdf&gt;" />
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">«Seemingly ergative and ergatively seeming</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Artiagoitia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Features and interfaces in Romance: essays in honor of Heles Contreras. Amsterdam: John Benjamins</title>
+		<editor>J. Herschensohn, E. Mallen eta K. Zagona</editor>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="page" from="1" to="22" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">A grammar of Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename><surname>Complementation</surname></persName>
+		</author>
+		<editor>J. I. Hualde eta J. Ortiz de Urbina</editor>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Mouton de Gruyter</publisher>
+			<biblScope unit="page" from="634" to="709" />
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20192</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20192" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Incorporation. Theory of grammatical function changing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+			<publisher>University of Chicago Press</publisher>
+			<pubPlace>Chicago</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">De la musique à la linguistique. Hommages à Nicolas Ruwet. Ghent: Communication &amp; Cognition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Benincà</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Cinque</surname></persName>
+		</author>
+		<ptr target="&lt;http://arcaold.unive.it/bitstream/10278/1314/1/verbsmeteor.pdf&gt;" />
+		<editor>L. Tasmowski eta A. Zribi-Hertz</editor>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="155" to="171" />
+		</imprint>
+	</monogr>
+	<note>Sur l&apos;ambiguité structurale des verbs météorologiques en italien</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Bleotu</surname></persName>
+		</author>
+		<title level="m">Proceedings of the First Central European Conference in Linguistics for Postgraduate Students</title>
+		<editor>B. Surányi eta D. Varga</editor>
+		<meeting>the First Central European Conference in Linguistics for Postgraduate Students<address><addrLine>Piliscsaba</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="page" from="59" to="81" />
+		</imprint>
+		<respStmt>
+			<orgName>Pázmány Péter Catholic University</orgName>
+		</respStmt>
+	</monogr>
+	<note>Why does it always rain on me? On weather verbs</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">There is a Light That Sometimes Goes Out in Weather Verbs</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 4th Austrian Students&apos; Conference of Linguistics</title>
+		<editor>I. Windhaber eta P. Anreiter</editor>
+		<meeting>the 4th Austrian Students&apos; Conference of Linguistics<address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge Scholars Publishing</publisher>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="47" to="63" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Towards a Theory of Denominals in English and Romanian, Università Ca&apos; Foscari-ko doktorego tesia</title>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">«Ambient it is meaningful too</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Bolinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Linguistics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="261" to="270" />
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+	<note>Burzio, L.. Italian Syntax. Dordrecht: Reidel</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Chomsky</surname></persName>
+		</author>
+		<title level="m">Lectures on Government and Binding. Dordrecht: Foris</title>
+		<imprint>
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The linguistics of weather: Cross linguistic patterns of meteorological expressions»</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Eriksen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kittilä</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Kolehmainen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The world is raining: Meteorological predicates and their subjects», in M.-L. Helasvuo &amp; T. Huumo (arg.), Subjects in constructions -canonical and non-canonical. Amsterdam: John Benjamins</title>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="205" to="228" />
+		</imprint>
+	</monogr>
+	<note>Weather and Language</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Valency and argument structure in the Basque Verb</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Etxepare</surname></persName>
+		</author>
+		<editor>J. I. Hualde eta J. Ortiz de Urbina</editor>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Mouton de Gruyter</publisher>
+			<biblScope unit="page" from="363" to="446" />
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+	<note>A Grammar of Basque</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Euskaltzaindiaren Hiztegia, 2. arg. Bilbo: Euskaltzaindia. Goenaga, P., 1984, Euskal sintaxia; konplementazioa eta nominalizazioa, UPV/EHUko doktorego tesia</title>
+	</analytic>
+	<monogr>
+		<title level="j">Euskaltzaindia</title>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">«Le verbe &quot;avoir&quot;», in P. Coopmans, I. Bordelois eta B. D. Smith (arg.), Formal Parameters of Generative Grammar II</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Guéron</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1986" />
+			<publisher>ICG Printing</publisher>
+			<pubPlace>Going Romance. Dordrecht</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">On argument structure and the lexical expression of syntactic relations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Hale</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Keyser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The view from Buiding 20: Essays in linguistics in honor of Sylvain Bromberger</title>
+		<editor>K. Hale eta S. R. Keyser</editor>
+		<meeting><address><addrLine>Cambridge MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT Press</publisher>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="53" to="109" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Prolegomenon to a Theory of Argument Structure</title>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Hoekstra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Mulder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Unergatives as copular verbs; locational and existential predication</title>
+		<imprint>
+			<date type="published" when="1990" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1" to="79" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Holmberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Nikkanen</surname></persName>
+		</author>
+		<title level="m">Expletives, Subjects, and Topics in Finnish», in P. Sevenonius (arg.), Subjects, Expletives, and the EPP</title>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="71" to="105" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Krejci</surname></persName>
+		</author>
+		<idno type="DOI">10.3765/exabs.v0i0.2405&gt;</idno>
+		<ptr target="http://dx.doi.org/10.3765/exabs.v0i0.2405&gt;" />
+		<title level="m">What is Raining? English Weather &quot;it&quot; Revisited», LSA Annual Meeting Extended Abstracts 5</title>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">«Event encoding in a crosslinguistic perspective IV: talking about the weather</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Levin</surname></persName>
+		</author>
+		<idno>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2</idno>
+		<ptr target="&lt;http://web.stanford.edu/~bclevin/lsa15weather.pdf&gt;" />
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="33" to="60" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20192</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20192" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Unaccusativity: At the Syntax-Lexical Semantics Interface</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Rappaport</forename><surname>-Eta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hovav</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Building verb meanings</title>
+	</analytic>
+	<monogr>
+		<title level="m">The Projection of Arguments: Lexical and Compositional Factors</title>
+		<editor>M. Butt eta W. Geuder</editor>
+		<meeting><address><addrLine>Stanford, CSLI publications</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="97" to="134" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">On the locative component of the French weather -ça</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Manente</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="75" to="91" />
+			<pubPlace>Probus</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">L&apos;Aspect, Les auxiliaires &apos;être&apos; et &apos;avoir&apos; et l&apos;Hypothèse Inaccusative dans une perspective comparative français/italien</title>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+		<respStmt>
+			<orgName>Università Ca&apos; Foscari &amp; Université de Paris VIII-ko doktorego tesia</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">On the Nature of Grammatical Relations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">P</forename><surname>Marantz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Impersonal congurations and theticity. The case of meteorological predications in Afroasiatic</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Mettouchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Tosco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Impersonal Constructions: A cross-linguistic perspective. Amsterdam: John Benjamins</title>
+		<editor>A. Malchukov eta A. Siewierska</editor>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="307" to="322" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<ptr target="&lt;http://euskaltzaindia.eus/oeh&gt;" />
+	</analytic>
+	<monogr>
+		<title level="j">Orotariko Euskal Hiztegia</title>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">«Periphrastic constructions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ortiz De Urbina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">A grammar of Basque</title>
+		<editor>J. I. Hualde eta J. Ortiz de Urbina</editor>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Mouton de Gruyter</publisher>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="284" to="299" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Paykin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Evénements, états et substances : un essai météorologique</title>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="183" to="199" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+				<title level="m">Noms et verbes meteorologiques: des matieres aux evenements</title>
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+		<respStmt>
+			<orgName>Université de Lille III-ko doktorego tesia</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+				<title level="m">Il pleut des idées reçues: NP Expansions of Weather Verbs», Lingvisticae Investigationes</title>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="253" to="266" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">«Impersonal Passives and the Unaccusative Hypothesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Perlmutter</surname></persName>
+		</author>
+		<ptr target="http://dx.doi.org/10.3765bls.v4i0.2198&gt;" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Annual Meeting of the Berkeley Linguistics Society</title>
+		<meeting>the Annual Meeting of the Berkeley Linguistics Society</meeting>
+		<imprint>
+			<date type="published" when="1978" />
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="157" to="188" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">M</forename><surname>Postal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">K</forename><surname>Pullum</surname></persName>
+		</author>
+		<ptr target="&lt;www.jstor.org/stable/4178599&gt;" />
+	</analytic>
+	<monogr>
+		<title level="m">Expletive Noun Phrases in Subcategorized Positions»</title>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="635" to="670" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Verb meaning and the lexicon: A first-phase syntax</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Ramchand</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+				<idno type="DOI">10.7557/12.139&gt;</idno>
+		<ptr target="http://dx.doi.org/10.7557/12.139&gt;" />
+		<title level="m">Lexical Items in Complex Predications: Selection as Underassociation</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="115" to="141" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">«Null objects in Italian and the theory of pro</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Rizzi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Linguistic Inquiry</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="501" to="557" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Ruwet</surname></persName>
+		</author>
+		<idno type="DOI">10.7202/602560ar&gt;</idno>
+		<ptr target="http://dx.doi.org/10.7202/602560ar&gt;" />
+		<title level="m">Note sur les verbes météorologiques</title>
+		<imprint>
+			<date type="published" when="1986" />
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="43" to="55" />
+		</imprint>
+	</monogr>
+	<note>Revue québécoise de linguistique</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Weather Verbs and the Unaccusative Hypothesis», in C. Kirschner eta J. DeCesaris (arg.) Studies in Romance Linguistics</title>
+	</analytic>
+	<monogr>
+		<title level="m">Syntax and Human Experience</title>
+		<meeting><address><addrLine>Amsterdam; Chicago</addrLine></address></meeting>
+		<imprint>
+			<publisher>University of Chicago Press</publisher>
+			<date type="published" when="1989" />
+			<biblScope unit="page" from="313" to="345" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Euskal Hiztegia, 2. arg. Donostia: Elkar</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Sarasola</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The argument status of it and English weather predicates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Stalmaszcyk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Kognitive Aspekte der Sprache</title>
+		<editor>K. A. Sroka</editor>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Mouton de Gruyter</publisher>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="243" to="249" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Svenonius</surname></persName>
+		</author>
+		<title level="m">P. Sevenonius (arg.), Subjects, Expletives, and the EPP</title>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="4" to="27" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20192</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20192" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Erabilitako corpusak</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

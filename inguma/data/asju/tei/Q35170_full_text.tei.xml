@@ -1,0 +1,1886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mikoletaren 1653ko elkarrizketa itzulien espainolezko jatorrizkoez, eta haien (in)dependentzia mailaz jatorrizko hizkuntzaren aldean About the Spanish originals of Mikoleta&apos;s translated dialogues of 1653, and their (in)dependence level with respect to the original language</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bittor</forename><surname>Hidalgo</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eizagirre</forename></persName>
+						</author>
+						<title level="a" type="main">Mikoletaren 1653ko elkarrizketa itzulien espainolezko jatorrizkoez, eta haien (in)dependentzia mailaz jatorrizko hizkuntzaren aldean About the Spanish originals of Mikoleta&apos;s translated dialogues of 1653, and their (in)dependence level with respect to the original language</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="volume">2020</biblScope>
+							<biblScope unit="issue">1-2</biblScope>
+							<biblScope unit="page" from="123" to="176"/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:41+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Mikoleta</term>
+					<term>dialogues of 1653</term>
+					<term>Minsheu</term>
+					<term>source text</term>
+					<term>translation</term>
+					<term>fidelity</term>
+					<term>dependency</term>
+					<term>flexibility HItz gAkoAk: Mikoleta</term>
+					<term>1653ko elkarrizketak</term>
+					<term>Minsheu</term>
+					<term>sorburu testua</term>
+					<term>itzulpena</term>
+					<term>fideltasuna</term>
+					<term>mendekotasuna</term>
+					<term>malgutasuna</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Once established that the Mikoleta's manuscript we know is from the hands of Mr. Sainthill (Hidalgo to appear a; Ibarra &amp; Hidalgo 2020<ref type="bibr" target="#b118">[2022</ref>), the aim of the research work shown in the article has been to establish as accurately as possible the original text of the translated dialogues of Mikoleta, so that we could reflect in detail on the reliability and value of the language of the translation as evidence of the language of the time and place (Hidalgo to appear b). And for that, first, we compared Mikoleta's Spanish manuscript with its possible sources, specifying their differences, and especially emphasizing the influence of these differences on the Basque translation. Secondly, we compared the similarities and significant differences between the Basque text and the possible Spanish original, to get a clearer idea of the translation models and procedures used by Mikoleta, and thus of the level of fidelity, dependence, flexibility, freedom of the target language outcome compared to the source language texts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena</head><p>: Behin finkatuta ezagutzen dugun Mikoletaren eskuizkribua Sainthill jaunaren eskukoa dela (Hidalgo argitaratzeko a; Ibarra &amp; Hidalgo 2020 [2022]), artikuluan erakutsitako ikerketa lanaren helburu izan da ahalik eta zehatzen finkatzea Mikoletak itzulitako elkarrizketen jatorrizko testua, ondoren xehe hausnartu ahal izateko hauen itzulpen hizkeraren fidagarritasunaz eta balioaz garaiko eta inguruko hizkeraren lekuko gisa (Hidalgo argitaratzeko b). Horretarako, lehenik, elkarrekin konparatuz Mikoletarenetiko espainolezko eskuizkribua honen aukerako iturriekin, zehaztuz hauekiko aldeak, eta bereziki azpimarratuz aldeok bide duten eragina euskarazko itzulpenean. Bigarrenik, elkarrekin parekatuz euskarazko testuaren eta balizko espainolezko jatorrizkoaren hainbat parekotasun eta alde nabarmen, ideia argiagoa egiteko Mikoletak erabilitako itzulpen eredu eta prozedurez, eta hala, xede hizkuntzako emaitzaren fideltasun, mendekotasun, malgutasun, askatasun mailaz, sorburu hizkuntzako testuen aldean.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Sarrera</head><p>Modu laburra Bizkaiko hizkuntza ikasteko eskuizkribua, 1 rafael Mikoletak konposaturikoa, azal nagusian argi aldarrikatzen duen gisan, Bilbon datatua da 1653. urtean, eta itxura guztien arabera Samuel Sainthill jaunak orduan kopiatu eta (berehala edo) Ingalaterrara eramana (Hidalgo argitaratzeko a), 1661. urtean honek Sir thomas Browne-ri eskaini eta bidalia, 2 eta geroztik ere beti han egona itxuraz. Eskuizkribuak 15 orri ditu -28 orrialde idatzi-: gramatika ataltxo bat hasieran 5 orrialdetan, hiztegi atala segidan 10 orrialdetan, eta beste orrialde batean erakutsi ondoren euskal poesiaren bi eredu, amaieran ematen du Elkarrizketak izena duen atala, 7 orrialde testu bete, izenburu hutsa hartzen duen orrialde osoaz gain (Diálogos, espainolez eta pluralean). Elkarrizketak bi zutabetan ematen dira, ezkerrean jatorrizko espainolez eta parean eskuinean Mikoletaren euskarazko itzulpenaren kopia. 3</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1.">Ikerketa lanaren asmoa eta bideak</head><p>Mikoletaren testuak behar bezala aztertu eta ulertu ahal izateko -bereziki pasarte zail eta ilunenak-, eta hauek modu egokian baliatu ahal izateko garaiko eta inguruko euskara eredua areago ezagutzeko, komeni da, testua bera zehatzago aztertu aurretik, 4 hau lehenik ahalik eta zehatzen kokatzea bere sorkuntza testuinguruan. Eta Mikoletak euskaraz ematen duen testu nagusia itzulpena izaki, kezka berezia sortzen da zenbateraino ote zaion testua fidel Mikoletaren berezko hizkera ereduari, zenbateraino islatzen ote duen garaiko eta inguruko euskara eredua. Edota zenbateraino behartu ote duen edo ote zezakeen ezagutzen dugun xede hizkuntza euskarako testu itzulia Mikoletak bere itzulpenerako erabilitako testuaren jatorrizko hizkuntza moldeak, sorburu hizkuntzak, emaitza hainbat aldenduz Mikoletaren edo/eta garaiko eta inguruko euskararen moldeetatik.</p><p>Horregatik da komenigarri ahalik eta zehatzen ezagutzea:</p><p>1. zein izan zen edo izan zitekeen Mikoletak itzulpena gauzatzeko erabili zuen jatorrizko testua -ez baitago garbi-, horren aukera posibleak aztertuz. Soilik hortik abiatuta uler litekeelako euskarazko ordaina behar bezala (2. atala).</p><p>2. zein itzulpen eredu, zein prozedura erabiltzen duen (edo dituen) Mikoletak bere lanean, itzulpen lan guztiak bezala bi muturren artean mugi litekeena baliokidetza parametroetan: 5 a) Edo, jatorrizko testuari eta hizkuntza moldeari -espainolari-lotueneko hitzez hitzeko edo itzulpen literaleko eredu-prozedurak erabiliz, urrunagoak gertatu ohi litezkeenak xede hizkuntza euskarazko moldeetatik. b) Edota, jatorrizko testuaren eta hizkuntzaren urrunagoko zentzuz zentzuko edo itzulpen moldea erabiliz, itzulpen librea, egokitzapena edo moldaketa ere bihur litekeena, seguru asko hurbilagokoa xede hizkuntza euskararen moldeekiko, eta hurbiltasun horretan itzulpen idiomatikotzat edo jo litekeena.</p><p>Hau da, bi eredu mutur horien artean, zein fidelitate, mendekotasun, malgutasun eta askatasun neurri darabiltzakeen Mikoletak bere itzulpenean jatorrizko testuaren aldean. Eta horretarako estu konparatuko ditugu espainolezko jatorrizkoa eta euskarazko ordaina, beren hurbiltasunetan eta bereziki beren urruntzeetan <ref type="bibr">(3. atala)</ref>.</p><p>Bi gai edo galdera hauei erantzuten saiatu nahi izan du ikerketa lanak eta nahi du artikuluak.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2.">Mikoletaren elkarrizketa itzulien asmoez</head><p>ulertzeko zein itzulpen ereduren artean mugi litekeen Mikoleta bere lanean, garrantzizkoa da jakitea, edo ulertzen saiatzea, Mikoletak zein jarrerarekin, zein asmorekin ekiten dion bere itzulpen lanari. Oinarrizko galderak: norentzat pentsatzen duen itzultzea eta zertarako. Horrek baldintzatuko duelako edo baldintza lezakeelako aukeraturiko itzulpen eredua.</p><p>Mikoletaren lan osoaren egiturak argi erakusten du asmoa izenburu beretik hasita: euskara i(ra)kasteko metodo edo modu labur bat prestatu (nahi) du espainoletik abiatuta -beraz, espainol hiztunarentzat-, 6 garairako Europan beste hainbat hizkuntzaren arteko parekatzeak agertu izan zirenen itxurakoa bidaiarien eta merkatarien erabilerarako. 7 5 Halako itzulpen eredu/prozeduren arteko aldeak ezagun dira azken 2.000 urtean Mendebaldean, grezieratik latinerako itzultze lanen inguruan, zizeronen garaitik (K.a. 106-43) eta jeronimoren (~342/347-420) Bibliaren itzulpenen ingurutik (txinan bestetik). zabal eta xehe azaldu ohi dira azken hirurogei urteetako itzulpen ikasketen eskuliburuetan (ik. berrienen artean Baker 2001; <ref type="bibr" target="#b139">Munday [2008</ref><ref type="bibr" target="#b139">Munday [ ] 2016</ref><ref type="bibr">pym [2010</ref><ref type="bibr" target="#b141">] 2014</ref><ref type="bibr">rizzi, lang &amp; pym 2019)</ref>. <ref type="bibr">6</ref> Bada susmorik pentsatzeko lana pertsona jakinen batentzat prestatu ote zuen <ref type="bibr">(zelaieta 1988: 136)</ref>, nola zehatz aipatzen duenean V(ues(tr)a) M(erced), poesiak aurkeztu ondoren dioenean <ref type="bibr">(1653: 10r; 1988: 194)</ref>: «Estos dos son como dixe los dos generos de poesia, para que si alguna vez fuere Vm. tentado de alguna locura poetica en nro. Idiomá, no ygnore el estilo». nahiz oro har hartzaile orokorrari zuzentzen zaion <ref type="bibr">(1653: 4r; 1988: 158)</ref> Elkarrizketek ere helburu hori dukete: espainol hiztunari erakustea (ez itxuraz Bilboko edo Euskal Herrikoari), hizkuntza horretatik abiatuta, nola eman litezkeen edota eman ohi diren euskaraz, modu behintzat ulergarri batean, jatorriz espainolez emanik dauden elkarrizketa batzuk, suposatuko denak ohiko-edo hizkuntza molde batean emanak direla -eta elkarrizketon kasuan beste autore batzuek ere eman eta itzuli dituzten moduan ingeles, frantses, italiera edo alemanez; ik. 2. atala-, aurretiko gramatika eta hiztegi ataletan emaniko edukien erabilera ariketa eta adibide praktiko.</p><p>Helburu honek hainbat ezaugarri kontuan hargarri ezar liezazkioke itzulpen lanari:</p><p>-Batetik, ez dirudi Mikoletak -h.d. itzultzaileak-interes handirik izan lezakeenik moldatzeko, aldatzeko edo zuzentzeko berak jaso duen elkarrizketen espainolezko eredua, ez eta berau bere Bilboko-edo moduetara hurbiltzeko, ez direlako bertakoak -ez ere euskaldunak-lanaren balizko hartzaileak. Suposatu behar, beraz, jatorrizko eredua litzatekeela bere horretan hurbilena balizko espainol hiztun hartzailearentzat. 8 Eta hala argitaratu dute hau espainolez aldaketa soilik grafikoz-edo testuon ingelesezko, frantsesezko eta italierazko garaiko itzultzaileek (2.1 eta 2.2 atalak), <ref type="bibr">9</ref> Mikoletaren lanaren aurretik. -Bestetik, halako lan didaktikoetan legez, itzulpenaren helburua ez da itzulpenaren xede hizkuntzako hiztuna -ohiko itzulpenean legez-, baizik eta, esanguratsu, itzulpenaren sorburu hizkuntzakoa. nondik itzulpenaren helburua ez den xede hizkuntzako hiztunak zentzuz-edo behar bezala uler dezan jatorrizko testua (hau ezertarako ezagutu beharrik gabe -horregatik egin ohi dira itzulpenak gehienean-), baizik eta, bestela, sorburu hizkuntzako hiztunak, zeinak berez (biziki) ongi ezagutzen eta ulertzen bide duen sorburu testua, modu errazean ikasi ahal izan dezan nola esan lezakeen xede hizkuntzan jatorrizko testua edo haren antzekoena (behintzat xede hizkuntzako hiztunek ulertu ahal izan diezaioten moduan). Baina eta horretarako, gainera, baliatu ahal izanda bere ikasketa prozesuan bi hizkuntzetako testuen arteko begi bistako konparaketa estua (aurretiko azalpen lexiko eta gramatikalen laguntza ere baliatuta).</p><p>Ikuspegi horrek ziur aski eraman lezake itzultzailea oro har itzultze eredu literalago bat erabiltzera -hizkuntzen arteko hitzez hitzezko edo konparaketa erraztuko lukeena-, libreago bat baino -hizkuntzen arteko konparaketa zailduko lukeena-. nahiz aldi berean itzultzaileak beti dukeen ere joera emaniko xede hizkuntzako eredua ahalik eta hurbilenekoa izan dadin xede hizkuntzako hiztunek darabiltenetik, hiztun horiek ulertu beharko dioten neurrian sorburu hizkuntzako hiztunari. Itzultzaileak bikoiztasun horretan jokatu beharko du betiko legez, eta Mikoletak ere bai (3. atala).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3.">Mikoletarenetiko eskuizkribua ez da testu amaitu bat</head><p>Ezagutzen dugun Mikoletaren eskuizkribuaren kopia bereziki da txukuna, baina hau Sainthillena da, ez Mikoletarena. Eta inoiz aipatu den arren eskuizkribuak dirudiela «inprentara eramateko moduan» prestatua, ez dirudi artean prest zegoenik. jada zioen dodgsonek <ref type="bibr" target="#b126">(Mikoleta [1653]</ref> 1897: 21): «El manuscrito de Micoleta no ha sido revisado por el autor, si este conocía bien los idiomas Castellano y Bascuence». Eta Mikoletak ezagutzen zituen, ustez ondo, bi hizkuntzok <ref type="bibr">(Hidalgo argitaratzeko a, b)</ref>.</p><p>Izan ere, hiztegi atalean bada euskarara itzuli gabeko hitzik, hauei dagozkien hutsuneak errespetatuta, gutxi badira ere. Elkarrizketetan ere bada juan jaunaren hizketaldi bat itzuli gabea hutsunea errespetatuta. Elkarrizketen itzulpenak maiz dirudi (Hidalgo argitaratzeko b) (oso) zatika egina, hainbatetan loturak ere behar bezala landu gabeak esaldien artean, are zentzu kontraesanak isuriak… Ohiko ezaugarriak denak, noski, halako lan baten eginbidean, baina ez lan amaitu batean. Eta kasuan artean da lana azken orraztu, gainbegiratu edo zuzenketa faltan.</p><p>Hala, Mikoletaren itzulpen testuei ere bereziki begiratu behar zaie tentuz azken emaitza borobildua ez diratekeen neurrian. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Mikoletaren elkarrizketetako espainol originalaren inguru</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Mikoletaren espainolezko elkarrizketek Minsheuren argitalpenetako bat dute zuzeneko oinarri (eta ez beste argitaratzaileenik)</head><p>ziur pentsa liteke Mikoletarenetiko eskuizkribuan jasoak diren espainolezko elkarrizketak Minsheuren bi argitalpenetako batetik direla ekarriak, eta ez elkarrizketok ezagutu zituzten aipatuetako beste batetik.</p><p>Arrazoi nagusia: soilik Minsheuren argitalpenek aipatzen dute lehen elkarrizketaren barne, biek berdin (7), 24 1599-03-10eko data (ikuzleak -Alonso zerbitzariaren nagusi peruren-arropak garbitzera eraman bide zituen egunekoa), eta Mikoletarenetiko eskuizkribuak ere data berori jasotzen du espainolez zein euskarara itzulia.</p><p>1653 aurretiko aipatu beste argitalpen guztiek beste data bat aipatzen dute, denek ere hurbilagoa beren argitalpen urtetik.  <ref type="bibr">(Mikoleta 1653: 12v;</ref><ref type="bibr">1988: 199)</ref>. Eta ingelesa ezagututa ere (garaiko Bilbon merkataritza tarteko, bada harreman nabarmena ingeles hiztunekin), ez da uste izatekoa Mikoletak hura hobeto ezagut zezakeenik espainola baino, eta kasurik hoberenean inoiz ingelesa argigarri gertatu balekio ere espainolezkoa hobeto ulertzeko, ez dirudi ere inondik ingelesezko itzulpena jo litekeenik Mikoletaren itzulpenaren abiapuntu, eragile edo baldintzatzaile. Horregatik ez dugu hemen aipatuko.  <ref type="bibr">196, berroago, 211 yrrugareneraco, 215 deunguearri, 216 yrru, 218 amayrrugayti, 219</ref> yrru (pero en el apartado «Modo de contar», 'tres' yru, 'treze' amayru, y en el voc. 'tercera cosa' yrugarrena), 237 berragas. En cuanto a las formas del pronombre de 3.ª persona leemos en el ms. cinco veces berrori, representando caso absoluto por una berori en 143, y que representa un dativo, y cuatro berrorec por una berorec, cuando las formas esperadas hubieran sido berori y berorrec respectivamente. dada la frecuencia relativamente muy alta de las formas anóma las <ref type="bibr">[…]</ref> Halako ugariez gain aipagarria da ere nola eskuizkribuan euskaraz argi irakurtzen den «Martien amargaun egunean», espainolezko «en 10 de Marzo» emateko. Eta hala transkribatu dute transkribatzaile guztiek, salbu Sarasolak, zeinak zentzu onez interpretatu duen amargaun &lt; amargaren -begi bistara irakurtzen den u-ren bi makiletako lehena r gisa interpretatuz eta bigarrena e, biak ere guztiz estilizatuak-. <ref type="bibr">50</ref>   <ref type="bibr">(Minsheu 4;</ref><ref type="bibr">Mikoleta 1653: 13r;</ref><ref type="bibr" target="#b66">1988: 204)</ref> úvo → vuo 'hubo' ≈ 'tuvo',… -jatorrizko i-ak y bihurtuz (hitz barruan eta kontsonante aurrean edo): <ref type="bibr">(Minsheu 2, 5;</ref><ref type="bibr">Mikoleta 1653: 12v, 13v;</ref><ref type="bibr">1988: 199, 208</ref>) límpia(s) → lympia(s), baina bertan pixka bat lehenago límpia → limpia <ref type="bibr">(Minsheu 5;</ref><ref type="bibr">Mikoleta 1653: 13v;</ref><ref type="bibr" target="#b70">1988: 208)</ref>; <ref type="bibr">(Minsheu 6;</ref><ref type="bibr">Mikoleta 1653: 14r;</ref><ref type="bibr" target="#b70">1988: 208)</ref> avéis → aueys (baina gramatika atalean aueis bitan); <ref type="bibr">(Minsheu 6;</ref><ref type="bibr">Mikoleta 1653: 14r;</ref><ref type="bibr">1988: 209)</ref> aceitúnas → azeytunas. Edo alderantziz, y → i <ref type="bibr">(Minsheu 8;</ref><ref type="bibr">Mikoleta 1653: 15r;</ref><ref type="bibr">1988: 214)</ref>: Llamáys → llamaís. -jatorrizko x grafiak j emanez <ref type="bibr">(Minsheu 2;</ref><ref type="bibr">Mikoleta 1653: 12v;</ref><ref type="bibr">1988: 199)</ref> enxúta → enJuta, edo alderantziz <ref type="bibr">(Minsheu 1;</ref><ref type="bibr">Mikoleta 1653: 12v;</ref><ref type="bibr" target="#b61">1988: 200)</ref> járro → xarro (nahiz bestela oro har gorde j → j Minsheuren grafiak -baina mujer → muger beheraxeago-). -Minsheuk ez dituen h-ak emanez hainbat hitzetan: <ref type="bibr">(Minsheu 1, 6;</ref><ref type="bibr">Mikoleta 1653: 12r, 13v;</ref><ref type="bibr">1988: 196, 208</ref>) óra/ora → hora; <ref type="bibr">(Minsheu 7;</ref><ref type="bibr">Mikoleta 1653: 14r;</ref><ref type="bibr">1988: 210)</ref> orden → horden; <ref type="bibr">(Minsheu 2;</ref><ref type="bibr">Mikoleta 1653: 12v;</ref><ref type="bibr">1988: 199)</ref> (no ſe) a (de mentar la ſóga) → (no se) ha (de mentar La Soga). Edo alderantziz <ref type="bibr">(Minsheu 6;</ref><ref type="bibr">Mikoleta 1653: 14r;</ref><ref type="bibr" target="#b70">1988: 208)</ref>: hondill → ondilla. -Arrunki q(ua…) → q(ua…) emanez, baina inoiz q → c ere <ref type="bibr">(Minsheu 2;</ref><ref type="bibr">Mikoleta 1653: 12v;</ref><ref type="bibr">1988: 199)</ref> Quales → Cuales.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.3.">Erabili zituen Mikoletak Minsheuren ingelesezko itzulpenak?</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Alde nabarmenak Mikoletaren espainolezko elkarrizketen eta</head><p>Halako alde oro har «kaotikoen» aurrean zaila da pentsatzea Mikoletarenetiko eskuizkribua edo honen jatorrizkoa egin duenak Minsheurena bere hartan kopiatu nahi zezakeenik, ez «bere sistema propiora» ekarri nahi zuenik, nahiz inoiz sistematikoa ere irudi lezakeen aldaketa edo egokitzapenen batek, nola: jatorrizko i → j bihurtuz I(uan) → J(uan) izenean (passim�, edo j → j mantenduz Minsheurenean hala ematen den hiru kasuetan Juan/juan → Juan. edota Minsheuk dituen j / g aldaketak muger (3 bider� / mujer (2 bider�, 5etan muger emanez. ortografia aldeetan ere aipa litezke Mikoletarenetiko eskuizkribuan egiten zaizkien zuzenketak Minsheuren bi argitalpenetan ere espainolez akats-edo diren hainbat formari. Hala, Minsheuren vejo → viejo <ref type="bibr">(Minsheu 3;</ref><ref type="bibr">Mikoleta 1653: 12v;</ref>: 201 -nahiz vejo ere aukerakoa izan garaian-�, llevér capa → llevar capa, ʃa puerta → la puerta, per motejarme → por motejar me, Mucacho → Muchacho, que ne mujer límpia ʃon → q e de muger lympia son, lienco → lienço, tome vs.ms. → tome vm <ref type="bibr">(Minsheu 5;</ref><ref type="bibr">Mikoleta 1653: 13v;</ref> Ezagutzen dugun Mikoletaren kopian, berriz, nahiz maiz zeinu diakritikoak ez diren ondo bereizten paperaren edo tintaren bestelako marketatik, ez da halako tileten islarik apenas. Aldiz, i gaineko puntuak maiz ageri dira tilet moduan-edo, eta a askoren gainean antzeman liteke tilet bitxi zentzu gabekorik(-edo) <ref type="bibr">(diá, aquellá, ventaná, entrá, Honrrá, Calçámelas, toallá…)</ref>, are e-ren baten gainean ere tarteka.</p><p>Eta harrigarria da horren ezaugarri tipografiko desberdin kaotikoak aurkitzea eskuizkribuan, kopiagilearen beste sistematikotasun propioren ezean. parekotasun tipografiko handiagoa espero zatekeen kopia jatorrizko testu inprimatuaren begi bistan egina balitz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.3.">ondorio: Mikoletak ez bide zuen zuzenean erabili Minsheuren testu inprimatua bere itzulpena burutzeko</head><p>Atalean zehar aipatu zertzelada eta bitxitasunek garamatzate pentsatzera Mikoletak ez bide zuela zuzenean erabili Minsheu-Corroren elkarrizketen kopia inprimatu bat bere itzulpen lana burutzeko, baizik eta tarteko beste (eskuzko) kopia hainbat laxoa, jada desberdintasunak zituena testu inprimatuaren aldean, zeinetako hainbat, kasuan-kasuan adierazi moduan, islatuak ageri diren euskarazko itzulpenean, eta laguntzen hau hobeto interpretatzen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Mikoletaren lotura eta askatasuna elkarrizketako espainol originala itzultzeko</head><p>1.2 atalean aipatu ditugu Mikoletaren itzulpenak erakuts zitzakeen zenbait ezaugarri berezi lanaren asmo didaktikoa kontuan, berezko xede hartzailea ez bide delako xede hizkuntzako hiztuna, baizik sorburu hizkuntzakoa, eta honek bultza zezakeelako itzultzailea itzultze eredu literalago bat aukeratzera, hizkuntzen arteko hitzez hitzezko edo konparaketa errazteko asmoz, libreago bat baino, hizkuntzen arteko konparaketa zail zezakeena. nahiz aldi berean itzultzaileak balituzkeen arrazoiak itzultze eredu libreagoa aukeratzeko ere, ez horren lotua jatorrizko testuaren letrari, idiomatikoagoa, egokituagoa xede hizkuntzara, lanaren azken helburua denez xede hizkuntzan komunikatzen gaitzea sorburu hizkuntzako hiztuna.</p><p>Eta baieztatuko dugu Mikoletaren itzulpena oso fidela zaiola (bere) jatorrizko testuari, baliokidetza parametroetan. Ez duela testuaren esanahiarekiko inongo aldaketarik, 56 ez esanahi eransketa, ez ezabatze esanguratsurik, ez jatorrizko testuaren inongo glosatzerik, ez moldaketarik, nahiz badiren hainbat aldaketa, eransketa, ezabaketa txiki, atal honetan jasoko ditugunak, oro har arrazoi bateko edo besteko egokitzapentzat jo behar direnak, horien zergatia beti ere putatiboa izanen bada ere.</p><p>Atalean ez da gure asmoa Mikoletaren hizkera edo euskara aztertzea, 57 baizik zenbait ezaugarri aipatzea hainbat adieraz edo sala lezaketenak elkarrizketen itzulpenaren lotura, fideltasun, mendekotasun edo askatasun neurria jatorrizko testuarekiko eta hizkuntza espainolarekiko. Eta hala nolabait neurtu ahal izan hauen balizko fideltasun maila xede hizkuntza euskararekiko, ideia bat egiten lagunduko diguna bertako hizkeraren fidagarritasunaz garaiko eta inguruko hizkeraren lekuko gisa.</p><p>Hasteko, komeni da gogoratzea zeinahi itzulpenek duela nahitaez berekin oinarrizko eta ezinbesteko mendekotasun maila jatorrizko testuarekiko eta honen hizkuntzaren moldeekiko, nondik beti neurriko prebentzioa itzulpen testu bat beste gabe hartzeko xede hizkuntzako lekuko neutro gisa. nahiz eta mendekotasun maila hori, itzulpen hizkeraren arroztasun neurria xede hizkuntzako ohiko moldeen aldean, ez den inoiz errazegia juzgatzen, itzulpenaren momentu beretik kontaktu estuan jartzen direnez gero hizkuntzak. Are gutxiago delako hizkuntzak aurretik baldin badira jada kontaktuan -eta kontaktu estuan-, nola den kasua Mikoletaren garaiko Bilboko euskara eta espainolaren artean (Sainthillek ere lekukotu gisa 1661ean Sir thomas Browneri egin gutunean).</p><p>Kasuan, gainera, 1.3 atalean ohartu moduan, Mikoletarena ezin liteke hartu obra amaitu, borobildutzat, baizik eta nolabaiteko eraikitze prozesuan dagokeena artean, artean azken berrikusterik gabea. gehi ezagutzen dugun eskuizkribua Sainthillen eskukoa izateak -eta ez zuzenean Mikoletarena-eransten duen lekukotzaren erabateko segurantza eza.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Mikoletaren poesietako itzulpen espainola</head><p>Elkarrizketetako itzulpenei begiratu aurretik, interesekoa da ohartxo bat egitea Mikoletaren lanean erakusten diren euskarazko bi poesien espainolezko itzulpenei. 58 56 nahiz halako txikiren bat baden Minsheuren espainolezko testuaren eta Mikoletarenaren artean (gero euskarazko itzulpenean ere islatuak), nola 2.4.1.1.1 atalean aipatu despachar/despechar bikote kontrajarriaren neutralizazioa despachar-en alde, edota ir a la iglesia → oir misa moldaketaren kasua (hala moduzko bakarra). <ref type="bibr">57</ref>  Badira bitxitasun gehiago, eta zalantza oinarritua egin liteke itzulpenak izan ote duen fideltasun nahi, asmorik edo aukerarik -nork egin ote duen-.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Mikoletaren elkarrizketetako itzulpenen baldintza ez da hitzez hitzeko erabateko fideltasuna</head><p>Hala ematen dute aditzera ondoko ataletako ezaugarriek. 59 H.d. 'aurretik aipatu zeloekin/jelosiarekin'.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1.">Hitzak, esamoldeak, are esaldiak falta litezke</head><p>zenbaitetan euskaraz ez da ematen, ez itzulirik, ez ordezko egokitzapen-edo moldez, espainolez baden zenbait hitz, esamolde -are esaldi-, dela itzultzaileak ahaztu dituelako, euskaraz ordain zuzenik aurkitu ez duelako, beharrezkoak jo ez ditue-lako…, nahiz esan behar den halakoak, itzulpenaren bolumenean, gutxien direla. Hala, esateko, desagertzen dira tarteka: a) Esanahi beteko hitzak -seguru asko garaian ordezko zuzenik gabeak <ref type="bibr">euskaraz-, nola: hidalgo (1653: 12r; 1988: 196 -</ref>  <ref type="bibr">çíertu-), tambien (1653: 12v, 13r; 1988: 201, 204), aun (1653: 14r, 14v; 1988: 208, 211 -</ref> -que el hombre la quiera, esaldi desagertua: «a qualquiera hora que el hombre la quiera la hallara guisadá» → «[ø] edo-Seyn ordutan ydoro days gui-guisonac-gui-Sadoric» 'edozein ordutan idoro dagitza / idoroko ditu gizonak gisaturik <ref type="bibr">' (1653: 13v; 1988: 208</ref>). e) Are zuzenduz espainolezko jatorrizkoan ulergaitz edo akats diren esamoldeak: -«dos mesas de manteles» 60 → «Samau bisuc» 'zamau bitzuk <ref type="bibr">' (1653: 15r; 1988: 213)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.">zenbait eransketa</head><p>Inoizka jatorrizkoan ez dauden morfemak, partikulak, aditzak… eransten dira euskaraz <ref type="bibr">(-gu-, bada, ni, zeren, bete, [h]au, [h]ori, egotea, etorriak, naizen, diren…)</ref>. Hala zenbait adibide: <ref type="bibr">tzuk' (1653: 13r; 1988: 203</ref>  <ref type="bibr">-(1653: 14v; 1988: 212)</ref>.</p><formula xml:id="formula_0">-«trae [ø] vnos pasteles» → «Ekargussu pastel basuc» 'Ekarzkiguzu pastel ba</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.3.">Aldaketa eta egokitzapen ugari</head><p>Hainbat maiz aldatzen dira jatorrizko espainolezko hitz eta esamoldeak euskarazko antzeko baliokideez, jakinaren gainean eginez ihes aukerako itzulpen zuzenagoari, agian euskarazkoa egokiagoa edo bereziagoa iruditu zaiolako, itzulpen zuzena 60 Itxuraz (ongi edo literalki ongi) ulertuz Mikoletak 'bi mahai bete zamau' edo. Beste hizkuntzetako itzultzaileek, espainolezko esamoldea akastzat hartuta testuinguruan, 'bi mahai-zamau'-edo ('dos manteles de mesa') ulertzen eta zuzentzen dute itzulpenean, nahiz espainolezkoa bere jatorrizkoan gorde (Minsheuk eta Oudinek) edo zuzendu (Franciosinik). Hala Minsheuk <ref type="formula">(8)</ref>  -ama → atso/kriada/aina: espainolezko ama emateko ('ama de llaves <ref type="bibr">'-edo, 'etxezain', 'giltzari'�, bitan asso 'atso' ematen du (1653: 12r, 14r; 1988: 196, 210�, behin criada (1653: 12r; 1988: 197�, beste behin, akats, aina 'inude' (1653: 14v; 1988</ref>  <ref type="bibr">' (1653: 12r; 1988: 197)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Mikoletaren segizioez eta segizio ezaz jatorrizko espainolezko hitzen ordenamenduari esaldian</head><p>Azken azpiatalean jaso ditugu Mikoletaren itzulpeneko esaldietan zenbait sintagma solte edo libreren ordena aldaketa arbitrarioak-edo, neurri batean ere adieraz lezaketenak Mikoletaren nolabaiteko jokabide askea hitzen ordenaren kontuan, estu lotu beharrik gabe jatorrizko espainolezkoari. Hala, lehenik esan behar da Mikoletak oro har bere horretan gordetzen dituela euskarazko hitzen ohiko ordenamenduak, bai sintagma barruetan zein esaldiko sintagma desberdinen artean ere. Baina aldi berean esan behar da horrek ez duela esan nahi: -Batetik, Mikoletaren euskarazko sintagmen ordenamenduak eredu bakarra jarraitzen duenik, eta are gutxiago soilik jarraitzen duenik gure artean Azkue-Altubez geroztik sakratutzat defendatu ohi den eredua (aditza atzean -amaieran mendeko esaldian-, galdegaia aditz aurrean lege apokrifoa, mendeko esaldiak aurre menderatzailerik gabeak, erlatiboak eta -(e)ko osagarriak soilik beren izen buruen aurretik…). -Baina ezta ere, bestetik, Mikoleta erabateko menpekotasunez lotzen zaionik jatorrizko espainolezko ordenamenduari bere esaldi ordenamenduan.</p><p>Hala ondoren hainbat ezaugarri konparatu desberdin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.1.">Mikoletaren aditz atzeratzeak euskaraz, espainolezkoen aldean</head><p>Mikoletak maiz atzeratzen ditu euskaraz jatorrizko espainolezko aditzak, oso bereziki esaldi osagai laburrak tarteko, espainolezko [aditz 1 + osagai-labur-2 ] moduko egitura maiz bihurtuz euskaraz [osagai-labur-2 + aditz 1 ] (/ aditz lokuzio), esaldiko beste osagaiei, baldin badira, jatorrizko leku bera emanez oro har, euskarazko ohiko modu batean. 65 Hala: a) Esaldi nagusi baiezkoetan (ondoko zenbait adibidek badu aurretik ze, zeren itxurako partikula mendekotzailea, beste mendekotzailerik eragin gabe aditzean):</p><p>-«(tu) adiuinas 1 tu prouecho 2 » → «(Seuc) seure prouechua 2 Vstiosu 1 '(zeuk) zeure probetxua 2 (≈ probetxura) uste duzu 1 (≈ pentsatzen duzu) <ref type="bibr">' (1653: 12r; 1988: 198)</ref>. -«(ya yo) he beuido 1 vna vez 2 » → «(nic ya) be y n 2 edandot 1 » '(nik ja) behin 2 edan dut 1 <ref type="bibr">' (1653: 13r; 1988: 203)</ref>. -«(el agua) esta 1 elada 2 (enel Xarro)» → «(Vra)ley-eguinic 2 dago 1 » (Xarroan) '(ura) lei eginik 2 dago 1 (txarroan) <ref type="bibr">' (1653: 12v; 1988: 200</ref>). -«Es 1 verdad 2 » → «Eguia 2 da 1 » 'Egia 2 da 1 ' <ref type="bibr">(1653: 13v; 1988: 206)</ref>. -«(la meʃsa) esta 1 puesta 2 » → «(Maya) Ymíníríc 2 dago 1 » '(Mahaia) ipinirik 2 dago 1 ' <ref type="bibr">(1653: 13v; 1988: 206</ref>). -«Beʃso 1 (a Vm.) la mano 2 » → «Escuetan 2 emon [muin] eyten deusat 1 » 'Eskuetan 2 muin egiten deutsat/diot 1 ' (1653: 14r; 1988: 208). -«hare 1 la raçon 2 » → «Errazoea 2 eguingo dot 1 » 'Arrazoia 2 (≈ arrazoizkoa dena) egingo dut 1 <ref type="bibr">' (1653: 14r; 1988: 208)</ref>. <ref type="bibr">65</ref> Halako bikote jokoetan oinarritu ohi dute galdegai lege apokrifoa berau defendatu duten Azkue-Altubek eta geroztiko jarraitzaileek. Ordea, jabetu beharra dago gauza bat dela euskal aditzak joera iza-eta geroztiko jarraitzaileek. Ordea, jabetu beharra dago gauza bat dela euskal aditzak joera izatea bigarren-edo, enklitiko edo atono agertzeko, intonazio/informazio multzo prosodiko berean ondoretik erantsita beste osagai (oro har labur) eta tonikoago bati -edo elkarketan toniko bihurtuko denari-, wackernagelen legearen antzekoari-edo jarraiki, eta beste gauza bat, joera horretatik oker eratortzea galdegai lege orokor nahikoa, eta gutxitan baino ez ohi dena betetzen bikote baldintza labur horietatik kanpo -salbu eta apropos betearazi nahi izan denean-. gogoratu behar ere zein argi zioen Mitxelenak (1953: 460): «labur esateko, Altube jaunak finkatutako legeak, euskarak gorde behar lituzkeenak izango dira agian, baina ez euskarak gorde eta gordetzen dituenak».</p><p>-«Esta 1 muy bíen 2 » → «ondo 2 dago 1 (Ori)» 'ondo 2 dago 1 (hori) <ref type="bibr">' (1653: 14r; 1988: 210)</ref>. 66 -«(Este mi criado s or . d. juan) es 1 como malilla 2 » → «(Ene mutila d. joan Xauna) malillea leguez 2 da 1 » '(Ene mutila, d. joan jauna,) malila (≈ komodina) legez[koa] 2 da 1 ' (1653: 14r; 1988: 211). -«(que el de raxa) es 1 delgado 2 (para este frio que Haze)» → «(Serren EraXaʃscoa,) megach 2 da 1 (ossonegasco)» '(zeren erraxazkoa) mehats 2 da 1 (hotz honegazko/honekiko [≈ honetarako]) <ref type="bibr">' (1653: 12v; 1988: 200)</ref>. -«(que) es 1 tríste cosa 2 (la Soledad)» → «(se) gausa balsa 2 da 1 (bacartasuna)» '(ze) gauza beltza 2 da 1 (bakartasuna) <ref type="bibr">' (1653: 13v; 1988: 205)</ref>. -«(que) píca 1 la pímíentá 2 » → «(se) píperac 2 piquetan Xoc 1 » '(ze) piperrak 2 pikatzen jok/dik 1 (≈ du) <ref type="bibr">' (1653: 14r; 1988: 208)</ref>. -«(que) hago 1 del 2 , (loque quiero)» → «(Serren) berragas 2 eytendot 1 (gura <ref type="bibr">[do]</ref> dana)» 'zeren beragaz/berarekin 2 egiten dut 1 (gura dudana) <ref type="bibr">' (1653: 14r; 1988: 211</ref>  <ref type="bibr">' (1653: 12r; 1988: 197</ref>). -«Está 1 enjuta 2 ?» → «Sicu 2 dago 1 ?» 'Siku 2 dago 1 ? <ref type="bibr">' (1653: 12v; 1988: 199)</ref>. -«Estan 1 Lympías 2 ?» → «garuiric 2 dagos 1 ?» 'garbirik 2 dagoz/daude 1 ? <ref type="bibr">' (1653: 12v; 1988: 199</ref>). -«(VM d .) esta 1 bueno 2 ?» → «(Seure mecede Ori) ondo 2 dago 1 ?» '(zeure mesede hori) ondo 2 dago 1 ? <ref type="bibr">' (1653: 12v; 1988: 202</ref> -«da me 1 entre tanto 2 (el espejo)» → «artean 2 yndasu 1 (espilluá)» 'artean 2 indazu/emadazu 1 (ispilua)!' <ref type="bibr">(1653: 12v; 1988: 200)</ref>. -«(Corre,) abre 1 presto 2 » → «(Soas,) carran 2 yricaʃsu 1 » '(zoaz!) karran/karraderan 2 irikazu / ireki ezazu 1 !' <ref type="bibr">(1653: 13r; 1988: 202</ref>). -«pongamos lo 1 en el arca 2 » → «Caxan 2 gordebite 1 » 'kaxan 2 gorde bitez 1 !' <ref type="bibr">(1653: 15r; 1988: 214)</ref>.</p><p>-«quando el hombre tiene muchos críados» → «dauquan-ean guísonac criadu asco» 'daukanean gizonak kriadu/zerbitzari asko <ref type="bibr">' (1653: 14v; 1988: 211)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.4.">Mikoleta jatorrizko espainolezko esaldien ordenamendu bertsua ematen</head><p>nolanahi, Mikoletak maiz jarraitzen du espainolezko jatorrizko esaldi nagusi zein menpekoen ordenamendu eredua, batez ere esaldi luze eta konplexuagoetan -baina ez bakarrik-, inolako kezkarik gabe aditz nagusia atzeratzeko esaldi horietan, edota balizko galdegai legea gordetzeko, nahiz aldi berean maiz atzeratu -ez beti-esaldi nagusi barruko menpeko esaldi laburreko aditza, ikusi moduan (3.3.1). Hala, baiezko adierazpen esaldi nagusietan, galderetan, aginduetan, eta are mendeko esaldietan, nola ondoko adibide sailkatuetan: a) Baiezko adierazpen esaldi laburretan: -«ya esta buená esta agua» → «ya dago Ondo Vrau» 'ja dago ondo ur hau <ref type="bibr">' (1653: 12v; 1988: 201</ref>  <ref type="bibr">(1653: 12v; 1988: 199)</ref>.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>pentsa liteke Mikoletak ezagutu ere bide zuela Minsheuren testu inprimatuetakoren bat, eta bertako ingelesezko itzulpenak ere. Berdina da Mikoletarenetikoan espainolezko eta euskarazko testuen antolaketa bi zutabetan ezker eskuin eta Minsheuk dakarrena ingeles eta espainol artean. Baina hori da itxurazko lan gehienek erakutsi ohi duten antolamendua. Bestelakoan ez dugu inongo aztarnarik sumatzeko Mikoletak uler ote zezakeen Minsheuren ingelesa, eta ez dugu ere sumatu halako batere arrastorik itzulpenaren azterketa zehatzean (Hidalgo argitaratzeko b), nahiz euskarazko pasarte ilunenetan konparatu ditugun hauek beren pareko ingelesezko itzulpenekin (eta are aipatu beste hizkuntzetakoekin).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>: «el que Con cuidado notáre loque queda Explicado podrá Hablar bien Vasquenze ett.ª». Mikoletarenetiko aipuetan eman dugu lehenik eskuizkribuaren orrialdea, 1653: … (nondik beti aipua), eta zelaietaren 1988ko argitalpenekoa -sarean eta testu espainolak eta euskarazkoak parean dituena-, nahiz ortografia aldeak dituen.</figDesc><table /><note>7 Euskaraz ere, eta argitaraturik, Voltoirek (c. 1620) lyonen inprimatua, euskaraz, espainolez eta frantsesez, geroztik ere behin baino gehiagotan berrargitaratua.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>. Oudin, Luna, Franciosiniren, Minsheuren elkarrizketak Mikoletarenen aurretik</head><label></label><figDesc>Hasieratik argitu behar da ez dakigula zehatz Mikoletak zein jatorrizko testu erabili zuen itzulpena burutzeko. Ezagutzen dugun eskuizkribuan duguna da Sainthill jaunak nonbaitetik eginiko espainolezko testu baten kopia euskarazko itzulpenaren Mikoletarenetiko espainolezko elkarrizketok, jada iradokitzen du Sainthill jaunak aipatu 1661eko eskutitzean ote diren «Minsheu jaunaren Hiztegikoen berdi-nak», 10 eta hala errepikatzen du geroztik behin eta berriro dodgson jaunak (hasieran Minsheuren 1623ko argitalpena aipatuz -bigarrena-, gerora 1599ko lehena). Hala ere, ez dira guztiz berdinak Mikoletarenetiko eskuizkribuko espainolezko elkarrizketak eta Minsheu jaunarenak. nahiz ia berdinak izan, aldeak dituzte. Hala, eta kontuan harturik Mikoletaren eskuizkribuaren 1653ko dataren aurretik beste zenbait autorek ere hainbat aldiz argitaratu zituztela espainolezko elkarrizketak, bakoitzak bere aldaketa(txo)ekin, zalantza egin liteke, egin izan da, Mikoletak berea konposatzeko zuzenean erabili bide zuen espainolezko jatorrizko testuaz (cf.Spanish and English… (391 or., gehi aurretiko beste 12); bigarrena, A Spanish grammar…, amaieran errefrau bilduma batez zenbait testu espainoletatik jasoak (84 or., gehi aurretiko beste 8). Azkenik, aipatu Elkarrizketak (68 or., gehi aurretiko beste 4). Badirudi (ik. Suárez 2018: 237) orduan liburuki batean argitaratu zela Hiztegia, eta aparte, beste bigarren batean batera koadernatuak, gramatika eta Elkarrizketak (nahiz bakoitza bere orrialde zenbakitze propioz); baina hau ezin izan dugu ziurtatu, sarean 1599koa soilik elkarrizketen atala dagoelako, eta hiru atalen argitalpena osorik bakarrik 1623koa -hau jada liburuki bakarrean argitaratu bide zena-. 13 Cidek hipotesi arrazoitua egiten du elkarrizketen sortzaile izan ote zen Antonio del Corro (Sevilla, 1527-londres, 1591), Espainiako fraide jeronimotarra, protestante luterano eta kalbinista, 1557-, 1527-londres, 1591), Espainiako fraide jeronimotarra, protestante luterano eta kalbinista, 1557tik Espainiatik deserriratua, eta 1569tik londresen finkatua 1591n hil zen arte. nahiz ez den ezagun Corro jaunaren jatorrizko halako idazkirik, bai hauen aipamenak Corroren 1586ko Reglas gramatica-les… liburuarekin batera argitaratzekoak bide ziren hala moduzko «elkarrizketa batzuk», azkenean argitaratu ez bide zirenak «langileen zabarkeria» tarteko (1586: sarrerako eskaintza, v zbgb.).Elkarrizketak Minsheuk berak berrargitaratu zituen bere bizitza garaian 1623an, 14 zenbait aldaketa txikirekin konposizioan, ingeles -batez ere-eta espainol ortografia eguneratuz, edo aurreko akatsen bat zuzenduz. 15 ez dirudi Elkarrizketak ingalaterran berriro argitaratu zirenik 1706ra arte(Cid 2001: 18; Foulché-Delbosc 1919:  77-80�. �aina espainolezkoek arrakasta berezia ezagutu zuten bere aldetik, eta aur-�. �aina espainolezkoek arrakasta berezia ezagutu zuten bere aldetik, eta aurkitu ere beste zabaltze biderik europan, Mikoletaren lanaren dataren aurretik ere, Frantzian, Herbehereetan eta italian behintzat(lakarra 1993: 55-58; Cid 2001: 18- 29�. 16  �eraz, izatez, hauek ere izan zitezkeen berez Mikoletarenen jatorri. Diálogos de Minsheu tuvieron una nueva edición inglesa en 1623, simple reimpresión de la primera». eta oin oharrean eransten: «aunque Foulché-Delbosc (al. M. Gauthier�, la cataloga como edición exenta, se trata en realidad de una reimpresión que, como la ed. de 1599, agrupa, con portadas distintas, el Diccionario, la Gramática y los aipagarri da gure kasuan Cesar oudin ere hezia izan bide zela aipatu nafarroako errege Henrike iii.aren gortean -gerora Frantziako Henrike iV.a ere-, eta jardun zuela honen «secretaire interprete du roy ez langues Germanique, italienne et espagnolle. a paris» gisa, aitortzen duen legez bere 1597ko Grammaire… liburuaren izenburuan.</figDesc><table><row><cell>-juan de luna (1575?-1645), espainol protestante parisen atzerriratuak,</cell></row><row><cell>1619an argitaratu zituen lehen aldiz 5 elkarrizketa propio -Oudinenean ai-</cell></row><row><cell>patuak-, eta hauei erantsi, 6.etik 12.era, Minsheuren 7ak, berak ere orto-</cell></row><row><cell>grafia propioz -garaikotuagoz-edo, Oudinenaren antzekoago (ez berdin), eta</cell></row><row><cell>Minsheurenaren nahikoa desberdin-, eta bestelako nahikoa aldaketa gehia-</cell></row><row><cell>gorekin 19 -«corregidos, y emendados» dio berak-, eta ez Minsheurena-</cell></row><row><cell>ren modu «korronpituetan» «[que se] pensara ser su autor algun Vizcayno»</cell></row><row><cell>, esateko, lakarra (1619a: 7-8, 1619b: 10-13). 20 lunak 1621ean berrargitaratu zituen elkarriz-</cell></row><row><cell>1993: 58). ketak soilik espainolez, 1619a-ko inprimatze eta orrialde zenbakitze berberez</cell></row><row><cell>john Minsheu jaun ingelesak (1560-1627) 11 londresen eta lehen aldiz 1599an argitaratu zituen, espainolez eta ingelesez, Pleasant and Delightfull Dialogues in Spa-nish and English izenpeko 7 elkarrizketa bizi. 12 Elkarren parean, begi bistakoa da Mi-koletaren eskuizkribuko espainolezko elkarrizketak zuzen darraizkiela Minsheurenei, (nahiz Samuel thiboust-en «dendan»), errefrau eta abesti gortesau bilduma erantsita. Azkenik, 1625ean argitaratzen ditu berriro espainolez eta frantsesez bere 5 elkarrizketak, eta ondoren Minsheurenak zenbakitze propioz -frantse-2.2Dakigula, beste hiru autorek argitaratu zituzten espainolez Minsheuren elkarriz-sez Cesar Oudinenen bertsioan-, gehi goian aipatu Oudinen 1622ko erans-</cell></row><row><cell>nahiz Mikoletarenek soilik hartzen duten Minsheuren lehen elkarrizketaren parterik ketak Mikoletaren eskuizkribuaren 1653ko dataren aurretik (eta hauen itzulpenak kinak. 21</cell></row><row><cell>handiena, honen lehen 9/10ak eskas, jatorrizkoaren lehen 8 orrialdeak osatzera iritsi ere frantsesez, italieraz eta are alemanez�. Hamar argitalpen ezagutzen ditugu: Cesar -lorenzo Franciosinik ere (1600?-1645?) 1626an argitaratu zituen Minsheuren</cell></row><row><cell>gabe, Minsheuren elkarrizketek denera hartzen dituzten 68 orrialdeetatik. Ez dakigu oudin frantsesarenetiko bost, juan de luna espainolaren bi, eta lorenzo Franciosini 7 elkarrizketak -Oudinenetiko bertsioa, dio Cidek (2001: 19)-, gehi Ou-</cell></row><row><cell>Mikoletak itzulia luzeagoa ote zen, eta hau guganaino ez den iritsi, edota soilik zuen italiarrarenetiko hiru. dinek 1622an erantsi 8.a eta Nomenclatorra, denak espainolez eta toskaneraz</cell></row><row><cell>itzulia Sainthill jaunak kopiaturiko eskuizkribu zatia. (≈ italieraz edo). 1638an egiten du 2. argitalpena, orduan errefrau bilduma bat</cell></row><row><cell>Espainolezko elkarrizketok Minsheu jaunak lehen aldiz 1599an argitaratu bide gehituta, eta honen berrargitalpena egiten da 1648an. 22</cell></row><row><cell>bazituen ere ingelesezko itzulpenekin batera, ziur jotzen da (Cid 2001) elkarrizketak 1653tik aurrera badira Minsheuren elkarrizketen hainbat argitalpen gehiago Eu-aurretik sortuak zirela espainolez -jatorrizko espainol hiztun batek, ohartuz batez ropan, 23 baina hauek ezin izan dira Mikoletarenen jatorrizko. Bestalde, ziurrak ba-ere elkarrizketek darakutsaten hizkera espainol bizia-, eta soilik gero itzuliak ingele-dira ere aipatu argitalpenak Mikoletaren lanaren aurretik (agian gehiago ere, baina sera, itxuraz Minsheu jaunak berak. 13 ez dirudi), pentsa liteke, inprimaturiko argitalpenez gain, bestela ere zabaldu ote zi-ezker emana, desberdintasunak dituena jatorrizko Minsheurenekoen aldean (2.4 beste 5 ren elkarrizketak eskuzko kopietan, hauen arrakastaren fruitu -Mikoletaren eskuiz-atala), baina zehatz ez dakiguna nondik egina den: elkarrizketa propio emanez bi hizkuntzetan. azkenik, 1650ean argitaratuko kribuan bezala-, eta hauek eskuz esku igaro, eta halakoren bat izan agian Mikoleta-</cell></row><row><cell>a) Beharbada Mikoletak berak antzera euskarazko testuaren alboan idatzitako 10 «[t]he Dialogues [Mikoletarenak] which I thinck are the same with those in Minshewes [sic] Dictio-ditu oudinen 1622ko 8 elkarrizketak honen seme antoinek, lau hizkuntzatan ren eskuetara heldu zena, eta ez kopia inprimatua. Edonola ere, uste dut badaukagula nary». (dodgson 1899: 201; Hidalgo argitaratzeko a). emanak, frantses eta espainolaz gain, alemana eta italiera gehituta, eta jatorriz-esatea (2.3 atala) Mikoletarenetiko espainolezko eskuizkribuaren oinarrian behintzat kopia batetik -aukera probable(en)a eskuizkribuaren bistara-, baina zeinak jada aldeak bide zituen Mikoletak itzulpenerako erabilitakotik, h.d. itzulpena koekiko zenbait aldaketarekin. 18 zuzenean dagoela Minsheuren 1599 edo 1623ko argitalpenetako bat, eta ez aipatu</cell></row><row><cell>burutu eta gero gertatuak, direla Mikoletak berak eraginak, Sainthillek… besteetakoren bat, nahiz hura ere ez izan guztiz fidela Minsheurenei.</cell></row><row><cell>(2.4.1.3 atala). Edota,</cell></row><row><cell>b) Mikoletak bere itzulpenerako erabili bide zuen aurretiko beste eskuzko kopia</cell></row><row><cell>jatorrizkoago batetik, jada desberdintasunak zituena Minsheurenekoen aldean</cell></row><row><cell>(2.4 atala), eta zeinen kopian are alde gehiago pilatu ziren -baina ez da pro-</cell></row><row><cell>bableena-. 19 Cidek (2001: 19-28) nahikoa sistematikoki jasotzen ditu alde horiek Minsheuren jatorrizkoen</cell></row><row><cell>Diálo-eta lunaren aldaketen artean, besteak beste lunaren argitalpena nabarmen urruntzen dutenak Mikoleta-Hirugarren aukerarik ere ezin bazter liteke. Baina ezinbestekoa da dugun Miko-gos». Nolanahi, 1623ko berrinprimatzeak baditu aldaketak eta zuzenketak ortografian -batez ere ingelesez-koan-eta konposizioan 1599koaren aldean (ik. besteak beste 2.3.2 atalean aipatuak, eta zenbait ikusgarri ren espainolezkotik, nahiz inoizka soilik biok erakutsi berdin, ez Minsheuk, ez Oudin eta ez Franciosini-renetikoek dituzten aldaerak. letaren espainolezko eskuizkribuaren aldeak xehe ezagutzea Minsheurenen aldean amaierako Eranskinetan). 20 1619ko argitalpen honek bi modu ditu, biak ere parisen Miguel danielen etxean, eta biak kon-(2.4 atala) Mikoletaren euskarazko testuaren ezaugarriak hobekien ulertzeko (3. atala, 16 argitalpen eta berrargitalpenen zerrenda exhaustibo(ago�a-edo, in Foulché-Delbosc (1919: posizio tipografiko berberekoak, nahiz orrialde zenbatze desberdinekoak. Batean (1619a) soilik espaino-eta bereziki Hidalgo argitaratzeko b). Eta nahiz jarraituko dugun zehatz ezagutu gabe Egin dira 77-80�. lez ematen dira elkarrizketak, denera 464. or. zenbatu, eta bestean (1619b, 589. or. zenbatu), berriz, es-Mikoletak itzulpenean erabili zuen espainolezko eredua, honetara hurbiltzen emango bestelako hipotesiak ere, eta bada aipatu Cidena zalantzan jartzen duenik ere (Suárez 2018: 237-8). Ai-painolez ezkerreko orrialdean eta frantsesez eskuinekoan (Minsheuren elkarrizketen frantsesezko bertsioa ditugu atal honen jarraikoak. pagarri, Corro jauna denbora batez izan bide zen 1559an nafarroako Erresumako gortean joana III.a Oudinena).</cell></row><row><cell>Albreteko (1528-1572) erreginarekin (1555-1572), zeinak hurrengo 1560ko urtean aitortu zuen jen-1528-1572) erreginarekin (1555-1572), zeinak hurrengo 1560ko urtean aitortu zuen jen-) erreginarekin (1555-1572), zeinak hurrengo 1560ko urtean aitortu zuen jen-21 lunaren lan hauen eta besteren berri zehatzago, in Andrés (2015).</cell></row><row><cell>daurrean bere sinesmen kalbinista, eta leizarragari agindu Itun Berriaren itzulpena, 1571n argitara-22 Aipatu Oudin, luna, zein Franciosinirenetiko argitalpen guztiak aurkitu ditugu sarean. 2.1. Minsheuren elkarrizketak tua. Corro jaunak aitortzen du (1586: sarrerako eskaintza, iv zbgb.) berak frantsesa ikasten ziharduen 23 lakarrak dioen moduan (1993: 58): «Foulche-delbosc-ek 27 edizio oso aipatzen ditu jose Maria</cell></row><row><cell>bitartean jardun zuela espainola irakasten joana erreginaren seme Henrikeri (1553-1610), nafarroako Sbarbi-ren 1874koa baino lehen; ez da zer pentsa horiek direnik izandako guztiak. zatikazkoak, elkarriz-</cell></row><row><cell>errege Henrike III.a izango zena (1572-1610), eta Frantziako Henrike IV.a bihurtuko (1589-1610), bila bai ibili keta solteenak (Cesar Oudin-ek bere gramatikaren edizio anitzetan ezarri zuen 3.a, demagun) ez bide zi-</cell></row><row><cell>meza bat gorabehera. garen arren-. ren urri izan».</cell></row></table><note>11 Minsheu jaunaren inguruko berri zehatzago, in Salmon (2003).12 Elkarrizketa hauek 1599an Minsheuren beste bi libururekin batera argitaratu bide ziren: A Dic- tionarie in-Cesar oudinek 17 (1560?-1625� 1608an berrargitaratu zituen lehenengo aldiz Minsheuren 7 elkarrizketak espainolez, ortografia aldatu propio, jatorrizkoaren nahikoa desberdinez (garaikotuagoz, seguru asko�, eta hauen ondoan elkarriz- keten itzulpen frantsesa, berak egina. 1611n berrargitaratuko ditu, eta 1622an berriro (orduan bere kabuz ekarritako beste 8. elkarrizketa bat erantsiz bi hiz- kuntzetan, eta amaieran Nomenclator hiztegitxoa�. 1622ko lan hau 1625ean berrargitaratuko du juan de lunak, oudinen lanaren aurretik bere14 orduan itxuraz azaleztapen bakarraren barne 1599ko beste bi liburuekin batean josia (Hiztegia eta Gramatika�, nahiz bakoitzak jarraitu zuen izaten bere orrialde zenbakitze propioa.15 Cidek berrinprimatze soiltzat jotzen du (2001: 18�: «los1718 j. sevillak oudinen obraren nahikoa argitalpen goiztiar gehiago aipatzen ditu (1993: 367�: «esta traducción alcanzó gran éxito en su época, como se refleja en las diez reediciones que se hicieron desde 1608 hasta 1615». �aina ez dugu hauen batere arrastorik topatu, aipatu 1611koaz gain -</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>1� cerceganíllo 28 darabilte haize izen(cf. lat. cercius &lt; circius,  esp. cierzo�, eta Mikoletarenetikoak (1653: 12r; 1988: 197� çerçeganillo.  barrer� jatorri bereko barraiatu aipatzen dute euskaraz eta barreatu, zeinen barratu aldaera ugari den OEHn (s.v. barreiatu�.</figDesc><table><row><cell>fiaren bat: (1599c: 3) (El) ʃeñor (don Iuan) → (1623c: 3) (El) Señór (don Iuan) -Minsheurenek (�este -Mikoletarenetikoan (1653: 13r; 1988: 202) señor-, baina Mikoletarenetikoan</cell></row><row><cell>argitalpen guztiek (o: 3, l: 104, F: 9� zarzaganillo -ohiko(ago�a edo-. kaotikoa da maiuskula eta minuskulen erabilera nahasia; (1599c: 4) aſentáda la ta-</cell></row><row><cell>-akats-edo, Minsheurenetan (7� barraremos bitxia ematen da («regarémos y ba-raçéa → (1623c: 4) aſcentáda la taraçéa -Mikoletarenetikoan (1653: 13r; 1988:</cell></row><row><cell>rrarémos éʃte apoʃénto»�, eta Mikoletarenetikoan ere hala errepikatzen (1653: 205): assentadá la tarazea-. 31 Akats zuzenketaren bat (1599c: 7) çiera (aquel co-14v; 1988: 212� barraremos. 29 �este guztiek (o: 18, l: 120, F: 25� ohiko ba-fre) → (1623c: 7) çierra (aquel cofre) -Mikoletak bezala (1653: 14r; 1988: 210)-.</cell></row><row><cell>rreremos diote. Eta gehiago, konposizio tipografikoaren aldeak: lerro banaketa desberdinak, letra zu-</cell></row><row><cell>-Minsheu (7� eta Mikoletarenetikoek (1653: 14v; 1988: 212� diote «el diablo zen eta etzanen banaketa desberdinak…; baina halakoak ez dira islatzen Mikoletare-</cell></row><row><cell>(se� buelue» (Mikoletak se bihurkaria gabe�, eta esaldia ematen duten o eta lk netiko eskuizkribuan.</cell></row><row><cell>(o: 17, l: 120�, berriz, «el diablo se torna». esanguratsua da (Fk ez du ematen Bada nolanahi Minsheuren 1623ko espainolezko testuan konposizio akastun na-</cell></row><row><cell>esaldia�. bari bat, eſſa compariciónes, 1599ko eſſaſ comparaciónes-en aldean, zeinetan 1599-Hala 1607ko urtea aipatzen dute Oudinen 1608, 1611 eta 1625eko argitalpenek, eta lunarenek ere. Oudinen 1622koak urte hauxe aipatzen du, eta 1650ekoak, 1649koa. Franciosinirenetiko hirurek 1625eko urtea aipatzen dute. Soilik Minsheuren argitalpenen erabilera zuzen edo zeharkako-tik ezagut liteke Mikoletak jasotzen duen data. Mikoletarenetiko elkarrizketek beste (o: 17, F: 25� tileta gorabehera: «eſſo lo hará». nean, milla ta bost eun ta laurogue ta emerecico vrtean». 25 bezala�, eta Mikoletarenetikoak ere «eſſo haralo» (1653: 14v; 1988: 212�; (1653: 14v; 1988: 212-3): «Martien amargaun [&lt; amargaren ≈ [h]amargarren] egu--Minsheuk dio «Éſſo hará lo» (1599c: 7�, «Eſſo hará lo» (1623c: 7, lunak data bat jasoko zuketen oinarrian beste argitalpen bat balute, ezin Minsheurenetikoa koari jarraikitzen zaion Mikoletarenetikoa, eta ez 1623koari. Baina akatsa hain na-�este antzekotasun berezi batzuk, berriz, soilik Minsheu eta Mikoletarenetikoe-barmena izanik 1623ko espainolezkoan, arrunta litzateke zeinahi kopiatzaileren tan ageri badira ere, ez dirateke horren esanguratsuak, garaiko espainolezko aldaera zuzenketa automatikoa-edo irudikatzea 1599koaren alde-edo, eta Mikoletarenetikoa-behintzat aukerakoak-edo izan litezkeelako, batzuk zein besteak. Hala, esateko (gra-ren eta 1599koaren berdintasuna ezin eman liteke ezeren froga ziurtzat. Hala diote fiak grafia�: Minsheurenek eta Mikoletarenetikoak:</cell></row><row><cell>-Minsheu (7� eta Mikoletarenetikoak (1653: 14v; 1988: 212� diote «a puerta</cell></row><row><cell>2.3.1. Beste zenbait antzekotasun Mikoletaren espainolezko elkarrizketa eta Minsheuk çerrada»; (o: 17, l: 120�, berriz, «de puerta cerrada» (Fk ez du ematen esal-</cell></row><row><cell>argitaratukoen artean (eta ez beste argitaratzaileek) dia�.</cell></row><row><cell>-Minsheu (3� eta Mikoletarenetikoak (1653: 13r; 1988: 202� diote «Corre, nahikoa bide dateke goikoa Mikoletaren eta Minsheuren espainolezko elkarriz-keten arteko lotura zuzena finkatzeko, baina badira ere beste ezaugarri bitxi batzuk abre presto»; (o: 7, l: 108, F: 14� «Corre abrele presto».</cell></row><row><cell>soilik Minsheuren argitalpenetan ageri direnak -ez besteetan-, eta Mikoletareneti-ezinezkoa da Minsheu eta Mikoletarenetiko testuen artean halako parekotasu-</cell></row><row><cell>koan errepikatzen, aurreko ustea ziurtatzera letozkeenak. nak irudikatzea, ez balitz Minsheuren argitalpenetako bat Mikoletarenetikoaren jato-</cell></row><row><cell>Batzuk nahikoa esanguratsuak, ondoko laurak bezala (lehen hirurak, gainera, gu-rrizko eredua.</cell></row><row><cell>txienez «bitxi» edo are akats diratekeen neurrian garaiko espainolez ere):</cell></row><row><cell>-Minsheurenek diote bitxi edo (1) «Mas vale que miénto yo, que no el año», 2.3.2. Ezin jakin Minsheuren 1599ko argitalpena ala 1623koa den Mikoletaren</cell></row><row><cell>emanez miento aditza indikatiboan, eta hala errepikatzen Mikoletarenetikoan espainolezko elkarrizketen oinarrian</cell></row><row><cell>(1653: 12r; 1988: 197): «Mas vale que miento yo q ς no el año». 26 Beste argital-Minsheuren 1599 eta 1623ko argitalpenak ez dira berdinak, ez konposizio ti-pen guztiek darabilte subjuntiboa (Oudin 1608: 2; luna 1619a: 103; Francio-pografikoan, ez ortografian, ez ingelesez -batez ere-, eta ez espainolezko aldee-sini 1626: 8): 27 mienta/miẽta. tan. �aina Mikoletarenetiko kopiaren laburrean zaila da bereizi ahal izatea bi argi-</cell></row><row><cell>talpenetako zeinetan izan lezakeen oinarria Mikoletaren jatorrizkoak, bi argitalpenak</cell></row><row><cell>berdinak ez diren arren, bien arteko desberdintasunak oso txikiak direlako. 30 Gra-</cell></row><row><cell>28 Hitza espainiako raeren CORDE corpusean 1599ko agerpen honetan jasotzen da soilik. Zarza-</cell></row><row><cell>ganillo, berriz, hirutan (gaurko DRAEk bezala�. Corominas-pascualen hiztegi kritiko etimologikoan ere</cell></row><row><cell>soilik azken aldaera hau aipatzen da, nahiz jatorrian cerce-aldaera izan aukerakoa.</cell></row><row><cell>29 esanahi bereko latin verrere-tik. CORDEn ez da batere barrer = barrar aldaera lekukotasunik;</cell></row><row><cell>baina Corominas &amp; pascualek (1991-1997: s.v. 30 ik. adibide eranskinean Minsheuren Lehen elkarrizketaren 1599 eta 1623ko hasieren faksimile</cell></row><row><cell>konparatuak espainolez eta ingelesez, hainbat konposizio aldaketa sumatzeko (lerrokatze aldeak, letra ti-</cell></row><row><cell>pografia, grafiak…�.</cell></row></table><note>-«(no me traygáys) eſſaſ comparaciónes» (Minsheu 1599c: 2).-«(no me traygáys) eſſa compariciónes» (Minsheu 1623c: 2).-«(no me traygás [sic]) eſsaſ comparaçiónes»</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Minsheuren jatorrizkoen artean ziur</head><label></label><figDesc>izanik ere Mikoletarenetiko espainolezko elkarrizketen jatorria Minsheurenetan -eta ez besteetan-, badira baten eta besteen artean alde nabarmenak, argitu beharrekoak, Mikoletaren itzulpena baldintza lezaketen neurrian. Eta Mikoletak inongo interesik izan ezta ere jatorrizko espainolezko testua aldatzeko eta, aldiz, bai agian bere hartan gordetzeko, kontuan hartu behar da, zeinahi kopia lanek duela berarekin akats aukera, guztiz fidel izan nahirik ere, eta kasuan Minsheuren eta Mikoletaren espainolezko elkarrizketen kopiaren arteko aldeak izan litezke: -Itzulpena burutu eta gero gertatuak, itzulpenerako erabilitako jatorrizkoa kopiatzean, direla Sainthill jaunak eraginak ezagutzen dugun kopian, 32 edo lehe-Bestetik, guztiz ohargarria da, susmagarria, horren alde ikaragarria eta kaotikoa aurkitzea Minsheuren eta Mikoletarenetiko espainolezko testuen artean, ortografian, tipografian eta puntuazio marketan, Mikoletarenetiko kopia zuzenean egina izan zedin Minsheuren jatorrizkoen begien bistan. 33 noski, Corro edota Minsheuren Ingalaterrako xvi. mende amaierako espainolaren sistema 32 ziur-edo dakigunez gero, ezagutzen dugun eskuizkribua Sainthillen eskukoa dela, eta ez Mikoletarenekoa (Ibarra &amp; Hidalgo 2020 [2022]; Hidalgo argitaratzeko a). 33 Oso bitxia da, esaterako, Mikoletarenetiko kopian zenbat aldiz falta diren galdera zeinuak (?) espainolez (eta euskaraz ere), Minsheurenean inoiz falta ez direnean amaieran -ingelesezko moduan galdera zeinu bakarra galde amaieran-. Minsheuren 1623ko argitalpenean oso argiak dira galde zeinuak. 1599koan, berriz, -ezagutzen dugun kopian-ez da horren argia galdera zeinuaren tipoa, eta maiz, gainera, ez da behar bezala inprimatua ageri. Baina ez dirudike horrek zerikusirik izan lezakeenik Mikoletarenetiko galde zeinuen galera ohargarrian. ortotipografikoak ez du zertan bat etorri Mikoletaren xvii. mende erdi aldeko Bilbokoarekin -oro har, Mikoletarenetiko espainolaren ortografia gehienean hurbilagokoa da (garaikotuagoa?), Oudin, luna edo Franciosinirenek darabiltenetik, Corro eta Minsheurenetatik baino-, baina hainbestekoak dira aldeak Minsheu eta Mikoletarenetiko ortografien artean, eta batez ere horren kaotikoak eta sistematizazio gabeak (ik. 2.4.2 atala), non… …non garamatzaketen pentsatzera -aipatu beste testu aldaketa nabarmenak ere kontuan-, Mikoletak itzulpenerako erabilitako espainolezko elkarrizketen jatorrizkoa ere ez ote zen beste eskuizkribu bat, ez Minsheurenak zehatz fidel kopiatu nahiz egina, ez behintzat ziur eskuizkribu ondoren zuzendua jatorrikoen aldean. Eta aldeak halakoak dira, eta hain kaotikoak, non, bitxi balirudike ere, are pentsa litekeen ez ote ziren testu horiek transmisio katearen uneren batean ahoz diktatuak izan, eta hala jasota, paperean idatziak, Mikoletak edo dena delakoak: -delakoaren eredu -kasuan deseredu-eta uneko irizpide ortotipografiko kaotikoen arau. Garaiko espainolaren aukeren artekoak edo atalean aipaturiko aldaerek indartuko lukete hipotesia, ezagutzen dugun Mikoletarenetiko espainolezko testua -eta Mikoletak itzulpenerako erabilitako espainolezko jatorrizkoa ere-ote den fideltasun kontu osorik gabe egindako kopia bat, ez Minsheurenen bistara zuzendutakoa, agian ahoz diktatu, eta belarriz jaso eta idatzitako testua. 2.4.1.1.1. Hitz aldaketa edota nahaste esanguratsuak (eta gaizki ulertuak edo) ondoko bi adibideek erakutsiko lukete Mikoletak itzultzeko darabilen espainolezko kopiak jadaneko bazituela akats horiek espainolez, biek ere bere isla dutelako Mikoletaren euskarazko testuan. eta ez genituzke Mikoletaren itzulpen horiek ere esperoko berak egin izan balu zuzenean itzulpena Minsheuren testuen gainean. Hala: Mikoletak, edo honen jatorrizko testuak, ez dute bereizten jatorrizkoaren ironia despatxatu eta despetxatu-ren artean. eta horrek esan nahi luke Mikoletak itzulpenerako erabilitako kopian ere despachan zegoela (ezagutzen dugunean bezala�, edota behintzat Mikoletak despachan ulertu zuela hartan, eta hala igaro zela ezagutzen dugun sainthillen kopiara, zein euskarazko itzulpenera. -aora → ara: Gaur eguneko espainolezko ahora → ara bihurtua. Corominaspascualek ez du biltzen espainolez ara aldaera ahora esanahian, bai katalanez eta okzitanieraz. Ara bada gaur ere oraindik espainolez ahora ahoskatzeko modu arruntetako bat. Mikoletak bere idazlanean beste hiru bider behintzat darabil aora hitza (&lt; ahora�, bitan elkarrizketetan (baliokide, batean orayn ematen du, bestean [h]au erakuslea�. aipatu kasuan ez du halako itxuran itzultzen, eta ez dirudi ere (hala� ulertzen duenik. Minsheuk 1599an dio (6, eta antzera oudinek eta Franciosinik grafia gorabehera; lunak ez ditu ematen lehen bi hitzak�: «Aora ſeñór [1623koan Señór] bien eſtá lo hecho, (no mas que perderémos la gana de el comér�». Hiztunak aditzera eman nahi du asko jan dutela jada aurretik eta ez duela gehiago nahi. Mikoletarenetikoak (beste hainbat aldaketarekin; 1653: 14r; 1988: 210�, berriz: «Ara señor, bien está lo hecho, (no mas que perdaremos la gana de comer�». eta euskaraz: «Ea Xauna, au ondo eguinda, (es gueyago serren galdugueiñ Xateco gurea�» 'Ea [sic] jauna! Hau ondo eginda. (ez gehiago zeren galdu ge[g]in/genegike // galduko genuke jateko gura�'. testuinguruan ahora (&gt; ara� horrek denborazko balioa, eta nolabait adbertsatiboa har lezake (DRAE� -aurreko egoerarekiko kontrajartze (cf. ahora bien�-, eta zail dirudi kasuan baliokide jotzea euskaraz ea partikula -harridurazko, desideratibo, galderazko… (cf. OEH, s.v. ea�-. Hala, izan liteke Mikoletak ez ondo ulertu izana jada berak erabilitako Minsheuren espainolezko elkarrizketen kopian aurkituriko ara hori, eta kontua nolabait konpondu nahi izana euskaraz ea partikula erabilita modu etereo ez oso ortodoxo batean. 35 Minsheuk (4� (eta besteek antzera� diote: «(De que madéra es?�… la blánca es marfíl». Mikoletarenetikoak (1653: 13r; 1988: 204�: «la blanca de Marfíl». euskaraz, ez kopularik, ez izenlagun atzizkirik: «suría Marfila» 'zuria marfila'. -la → esa: Minsheuk (7� (eta besteek antzera� diote: «cierra la puérta». Mikoletarenetikoak (1653: 14v; 1988: 212�, berriz: «çíerra essa puerta». euskaraz erakuslerik gabe edo: «ysí eguíssu atea» 'itxi egizu/ezazu atea'. -a → de: Minsheuk (6� (eta besteek antzera� diote: «den nos a bevér» [1623koan Den…]. Mikoletarenetikoak (1653: 14r; 1988: 210�, berriz: «Den los de beber». euskaraz: «�etor edaten» (aurrerago 2.4.1.2.2 atalean, nos → los aldaketa zentzugabeaz�. -ni → y: Minsheuk (6� (eta besteek antzera� diote: «que (ni� por yr a la ygléſia ni dar çevada, (no ſe pierde jornada�» (Minsheuk lehen ni-a barik�. Mikoletarenetikoak, berriz, ez lehena ez bigarrena (1653: 14r; 1988: 210�: «que por oyr Míſsa y dar ceuada» (ik. beherago ere�. -que → de: Minsheuk (8� (eta besteek antzera� diote: «no ay aquí mas que ocho». Mikoletarenetikoak (1653: 14v; 1988: 213�: «no ay aquí mas de ocho». euskaraz «sorçí Vaxe» 'zortzi baizen' (agian itzulpena burutu ondoko kopi(et�ako aldaera?�. -quartillo → quarto: Minsheuk (4� (eta besteek antzera� diote: «vn quartillo de cabríto aſſádo». Mikoletarenetikoak (1653: 13r; 1988: 203�: «un quarto». euskaraz ere lauren 'laurden', ez laurdentxo edo antzeko. Minsheuk (7� (eta besteek antzera� diote Lee la pues. Mikoletarenetikoak (1653: 14v; 1988: 212�, Lé la pues. -despensero → dispensero: Minsheuk (7� (eta besteek antzera� despensero. Mikoletak (1653: 14v; 1988: 211�, ezohikoagoa den (CORDE� dispensero bide dio 38 (euskaraz dispenseru�. -adónde → donde: Minsheuk (eta besteek antzera� 5 aldiz darabilte adónde galdegilea eta behin de donde. Mikoletarenetikoak gordetzen du de donde, eta kasu ohargarria bide da Minsheuk (1� emaniko «tu adevínas 40 a tu provécho» esaldia. Mikoletarenetikoan (1653: 12r; 1988: 198�: «tu adíuínas tu prouecho» (ilunxeagoa edo�, bidean a preposizioa galduta (tu prouecho bihurtua aditz objektu zuzen, eta ez Minsheureneko moduzko adizlagun a tu provecho�. testuinguruan, alonso zerbitzariak aurretik dio: «araynguino estago yñor Xayguíríc» 'oraindino ez dago inor jaikirik/jagirik', eta peru jaunak erantzuten aipatu esaldia, adierazi nahian zerbitzariak hori esaten, pentsatzen edo uste duela; h.d. horrela iragartzen edo asmatzen duela, berari hala komeni zaiolako, berak ere artean bere lanetara jaiki behar ez izateko edo. 41 Mikoletak uste 'pentsatu' aditza ematen du euskaraz ordezko, eta honen objektu zuzen seure prouechua: «seuc seure prouechua Vstiosu» 'zeuk zeure probetxua uste duzu' (ilunxea edo�. euskaraz ere esaldia ulergarriagoa litzateke seguru asko seure prouechua objektu zuzen ordez, moduzko adizlagun gisa eman izan balitz Zeuk zeure probetxuan/probetxura uste duzu (hori -oraindik ez dela inor jaikirik izango-). eta pentsa ere liteke Mikoletak ez ote zuen euskaraz esaldia modu argiagoan eman, berak erabilitako Minsheuren espainolezko kopian jada a preposiziorik gabe jasotzen zelako zeure probetxua objektu zuzen gisa. Ez da hau, hala ere, espainolezko a preposizioaren galera bakarra Mikoletarenetikoan. Aurretik dio (1653: 12r; 1988: 196) -espainolez akats jo beharko litzatekeena-: «abre aquellá ventaná, ver sí es de diá». Minsheuk (1) eta beste guztiek ohiko a ver diotenean. Euskaraz modu zuzen batean emana: «eguna den Ecussu» 'eguna den ikusazu!'. baina bai euskaraz: «seruietanau […] paxe, ta salsaynsat ta basuetan…» 'zerbitzatzen nau […] paje, eta zaldizaintzat eta batzuetan…'. Beraz, pentsa liteke galera ote den itzuli ondoko kopi(et)ako aldaera. ) (eta besteek antzera) diote: «de ſuerte que quiere. v.m. dezír». Mikoletak (1653: 13v; 1988: 206), berriz: «de ſuerte que Vm quiere deçír». Kasuan euskaraz ez du ematen Vm-ren ordezkorik: «Orelan esanguradau» 'Horrela esan gura du'. -Minsheuk (5) (eta besteek antzera) diote: «ſe pueden ſentar vs. ms. a almorzar». Mikoletarenetikoan (1653: 13v; 1988: 206), berriz: «pueden Vms. sentarʃe a almorçar». -Minsheuk (8) (eta beste gehienek antzera) diote: «que nada falta». Hiru kasuetan bat datoz Mikoletaren euskarazko eta espainolezko aditz denborak, jatorrizko espainolezkoetakoak ez direnak, nondik pentsatu behar aldaketa horiek jadaneko bide zirela Mikoletak itzulpenerako erabilitako jatorrizko espainolezkoan. Minsheuk (5-6) (eta besteek antzera) diote orainaldian janariaz ari: «a qual quier, ora que el hombre la quiera la halla guiſada». Mikoletak Minsheuk (6) (eta besteek antzera) diote lehenaldian: «por dezír tréze díxo tres». Mikoletarenetikoak, berriz, orainaldian: «por dezír treze diçe tres». Euskaraz ere orainaldian: «yrrugayti, diño ala yrru» 'Hirugatik, dioela hiru'. deabrua berriro itzultzen ote den ate horretara, hau behin itxia aurkituz gero', jatorrizko espainolaren esanahia alderantzizkoa denean 'deabruak alde egiten duela ate itxi baten aurrean'. 44 Euskaraz ere ez da erabat argitzen esaldia, nahiz hurbilagoa dirudien jatorrizko espainolezko aipatu az-Minsheurenetan (7) (eta besteek antzera) etxekoandre zerbitzariari errespetuzko 3. pertsonan zuzentzen zaio beti morroia: «Ama, trayga vn caldéro de água…». Eta segidan: «Aguarde, ſacaré la memoria…». zelaietak, guk bezala, baxa. nolanahi, x hori ez da seguru asko jatorrizko eskuizkribuko segidako bi r-ren irakurketa edo kopia gaiztoa baino (barra → baxa). garbitu, ez jaitsi edo: «garbitu ta componídu daguiala guelau» 'garbitu eta konpondu dagiala/dezala gela hau'. -disputa → disputos: Minsheuk (6) (eta besteek antzera) diote: «Señór, contra guʃtos no ay diʃpúta». Mikoletarenetikoak, berriz, akats nabarmen (1653: 14r; 1988: 209): «Señór, contra guʃtos no ay diʃpútos». 48 -labandéra → lauendera: lau aldiz ematen da jatorrizko labandéra → lauandera Mikoletarenetikoan. Behin lauendera akats (1653: 15r; 1988: 213): «pues quatro fáltan a la labandéra» → «pues quatro faltan a la Lauendera».Orain arteko ikerlariek azpimarratu bezala, bitxia da Mikoletarenetiko euskarazko testuetan topatzen den nahastea bokal arteko r soil eta rr bikoitzen grafian.Mitxelenak dio (1964: 135, 2011): «El ms. se caracteriza […] también por el intercambio, mal explicado, de r y rr». Sarasolak zabalago (1983: 208):Hay que señalar en este sentido que es frecuente en el ms. r por rr y viceversa. […] de las segundas tenemos 83 erroan, 172 berre,</figDesc><table><row><cell>-cualquier → cualquiera: Minsheuk (6) (eta besteek antzera): a qual quier ora,</cell></row><row><cell>modu neutro konkordantzia gabean. Mikoletarenetikoak (1653: 13v; 1988:</cell></row><row><cell>208): A qualquiera hora.</cell></row><row><cell>Mikoletarenean lehena berdin ematen da errespetuzko 3. pertsonan (besteetan</cell></row><row><cell>4.1 atalean testu aldaketak erakusten dituztenak, eta 2.4.2 atalean orto(tipo)grafia alde nabarme-nak. 34 2.4.1. testu aldaketa ohargarriak Hiru ataletan bereizi ditugu: -garaiko espainolaren aukeren artekoak-edo izan litezkeenak, nahita edo nahi-gabe eraginiko egokitzapentzat jo litezkeenak, eta eragina izan lezaketenak eus-karazko itzulpenean (2.4.1.1). -garaiko espainolean ere akats edo bitxikeria idiosinkratiko izan litezkeen hain-bat testu aldaketa, zerbait iradoki lezaketenak jatorrizko eskuizkribuaren egi-learen hizkuntza ezaugarriez, eta agian eragina izan lezaketenak euskarazko itzulpenean (2.4.1.2). -Soilik itzulpena burutu ondorengo akats edo aldaketa diruditenak, ez dute-lako utzi itzulpenean aurretikoak izan balira ezinbestean edukiko zuketen isla (2.4.1.3). 2.4.1.1.2. Hitz aldaketa (egokitzapen ?) ohargarriak ondoren jasotakoak egokitzapen baliokide litezke, nahiz ez diogun halako alda-keta asmo kontzienterik atzeman Mikoletari. izan litezke nahigabe burututako alda-ketak, kopiagilearen epe laburreko memoria jokoan, edota fideltasun asmo osorik ga-beko kopiatze lanaren adibide. -al almuérzo → a almorzar: Minsheuk (8� (eta besteek antzera� diote: «para que os ayudára al almuérzo». Mikoletarenetikoak (1653: 15r; 1988: 214�, be-rriz: «paraque os ayudara a almorzar». euskaraz, almorzetan, nondik agian pentsa litekeen aldaketa jadaneko zela Mikoletak itzulpenerako erabilitako ja-torrizko espainolezkoan. -sonezito → sonito: Mikoletarenetikoak (1653: 13v; 1988: 205� sonito bitxia dio, 36 Minsheuk (4� (eta beste guztiek� sonezito diotenean. euskaraz os chu bat 'hostxo' dio, beharbada itzulpena burutu ondoko kopi(et�ako aldaera (?�. ondokoa, berriz, zalantza gabe da aldaketa kontzientea, garaiko arima katoliko batek eragina. 2.4.1.1.3. Zenbait aldaketa (egokitzapen?) foniko-grafiko edo ohargarri �eharbada adieraz lezaketenak jatorrizko kopiagile baten espainolaren bereizgarri-rik: -I(uan) → J(uan): Minsheuk (eta beste guztiek� idazten dute Iuan; 37 Mikoleta-renetikoak, beti Juan. -amenecido → amanecido: Minsheuk (1� (eta lunak, 102 -CORDEk jaso adibide bakarra-� diote amenecido; Mikoletarenetikoak (1653: 12r; 1988: 196�, ohiko amanecido (oudin eta Franciosinirenetikoek bezala�. -durmiéndo → dormiendo: Minsheuk (1� (eta besteek antzera� diote (erabiliago den [CORDE]� durmiéndo; Mikoletarenetikoak (1653: 14r; 1988: 210�, dor-miendo. -judío → judeo: Minsheuk (4� (eta besteek antzera� diote judío; Mikoletarene-tikoak (1653: 13r; 1988: 203�, judeo (garaian bestela lekukotu gabea espaino-lez [CORDE]�. -adere-→ adre-: Minsheuk (2, 4� (eta besteek antzera� diote adereçárme/ade-reçádo; Mikoletarenetikoak (1653: 12v, 13r; 1988: 200, 204�, ez hain erabili (CORDE� adreZarme/adreſsado. 3 bider ere bai adonde: «Adonde Fue Hecho?», «Adonde yremos[?]», «Adonde la tíenes[?]». �itan donde hutsa aldatzen (1653: 13v, 13v; 1988: 206, 207 -Minsheu 5, 5-�: «Y adónde le hallarémos…?» → «Y donde hallaremos… [?]», «De adonde truxíſte eſtos paſtéles?» → «Dedonde truxistes estos pasteles?». -ansi → assi: Minsheuk (eta besteek antzera� 3 bider darabilte ansi; Mikoletare-netikoak bitan, eta hirugarrenean assi, zein den bestela ere ohiko forma Miko-letarenetiko eskuizkribuan (1653: 14v; 1988: 211 -Minsheu (6�-�: «Anʃi es verdád» → «Assí es Verdad». -al → a el: Minsheuk (eta besteek antzera� diote «al que díze» (Franciosinirene-tikoek «à lo que dize»�. Mikoletarenetikoak, «a el que diçe». 2.4.1.1.4. Hitz galera ohargarriak 39 Hainbat, itzulpena burutu aurretikoak diruditenak, euskaraz ere gertatzen diren neurrian: -a → ø: -es → ø: Minsheuk (4) (eta besteek antzera) diote: «(de que madéra es?) … éʃta négra es evano». Mikoletarenetikoak (1653: 13r; 1988: 204): «…esta ne-gra Ebano». Euskaraz ere aditz kopularik gabe: «balsau Ebanua» 'beltz hau eba-noa', nondik pentsa litekeen hitza jadaneko falta ote zen Mikoletak bere itzul-penerako erabilitako jatorrizko espainolezkoan. -de → ø: Minsheuk (6) (eta besteek antzera) diote: «yo guſto mas de bevér por eſta copa». Mikoletarenetikoak galtzen du preposizioa (1653: 14r; 1988: 208): «yo gusto mas beber por esta copa». Euskara ez da argigarria: «nic guradot edan…» 'nik gura dut edan…'. bere itzulpenerako erabilitako jatorrizko espainolezkoan. -y → ø: Aldi pare batean behintzat Mikoletarenetikoak ez du ematen espaino-lezko y juntagailua kopian. Hala, Minsheuk (8) (eta besteek antzera) diote: «dos eʃcofiétas y quatro tocadóres», Mikoletak juntagailu gabe (1653: 15r; 1988: 213): «dos escofietas, quatro tocadores». Euskaraz ere juntagailu barik: «Cofia bi, tocadorearic lau» 'kofia bi, tokadoreetarik lau'. 2.4.1.1.5. Hitz eransketa (egokitzapen?) esanguratsu-edo batzuk 42 Baten bat itzulpena burutu aurretikoak dirudiena, euskaraz ere argi ematen den neurrian: -ø → de: Minsheuk (1) (eta besteek antzera) diote: «(El [veſtido] de velárte, que dízen que) es hónra y provécho». Mikoletarenetikoak (1653: 12r; 1988: 198): «(El de Velarté, que diçen que) es de Honrrá y prouecho». Euskaraz atribuzio soil, moduzko-edo partikularik gabe: «(… díñoe) dala prouechua ta Hon-drea» '(… diote) dela probetxua eta ondra'. 2.4.1.1.6. zenbait hitz ordena aldaketa (egokitzapen?) aukerako (epe laburreko memoriaren amarru?) Aipatu dugu 2.4.1.1.2 atalean Si fuéra, v.m. → VM fueſse aldaketa, eta antzera ondokoak: -Minsheuk (5Mikoletare-netikoak (1653: 15r; 1988: 214), berriz: «que no falta nadá» (bigarren ukazio partikula erantsita, espainolez ohi bezala, euskaraz ezinbesteko). Euskaraz no-lanahi: «Eser Falta baga» 'ezer falta gabe'. 2.4.1.1.7. Singular/plural aukerako-edo aldaketa zenbait (egokitzapen? / akats?) 2.4.1.1.8. Aditz denbora aldaketa aukerakoak (egokitzapenak?, epe laburreko memoriaren amarru?) 2.4.1.2. garaiko espainolean ere akats edo bitxikeria idiosinkratiko izan litezkeen hainbat testu aldaketa, beharbada kopiagilearen hizkera ezaugarriak isla litzaketenak Ondoren aipatuko ditugunek ere (aurreko ataleko hainbatek bezala) erakuts le-zakete kopiagile baten espainolaren (Bilbo edo) inguruko zenbait hizkera ezaugarri, Mikoletarenean ageri diren aldaerak akats edo bitxikeria diratekeen neurrian garaiko espainolaren erabilera zabalagoen aldean, eta bereziki Minsheuk, Oudin, luna edota Franciosiniren aldaeren parean, nahiz berez ezin jakin dugun aldaera Mikoletari da-gokion, Sainthilli edo beste inori. Hala: 2.4.1.2.1. genero aldaketa ohargarri batzuk Ezin esan halako genero nahasketak euskararen eragin direnik, baina aukera bat da: Minsheuk (7) (eta besteek antzera) diote, konkordantzia bera gordeaz: «eſſa no ſe puede llamár falta sino sobra». Mikoletarenetikoak, berriz, aurreko solo-ren adberbiotasunari edo jarraiki, esso dio neutro (1653: 14v; 1988: 212): «esso no sepuede llamár falta». -el → lo: Minsheuk zaharki-edo dio (7): «Éſſo hará lo, por el bien que le ſábe el vino». Oudinek eta Franciosinik ere gordetzen dute el bien konkordantzia maskulino bitxia-edo. 43 Mikoletarenetikoak, berriz, zuzentzen du el maskulino hori gaur egun jada ohikoago den lo neutroa emateko (1653: 14v; 1988: 211): «Esso, haralo por lo bíen que le saue el víno» (lunak ere kasuan lo ematen du, Oudin ere zuzenduz). 2.4.1.2.2. Izenordain eta artikulu galera, aldaketa eta eransketa ohargarri batzuk Ezin esan berriro halako antzekoak euskararen eragin direnik, baina aukera plau-sible bat da: -lo hago → hago: Minsheuk (3) (eta besteek antzera) diote: «(para dezír la verdád,) yo mas lo hágo [goizean goiz jaikitzea] por entendér en mis negó-cios». Mikoletak, berriz, bitxi falta du objektu zuzeneko izenordaina (1653: 13r; 1988: 203): «(para dezir la Verdad) yo mas hago por entender en mís ne-goçíos». Euskaraz: «(Eguía esateco,) [ø] gueyago eytendot elduteco neure Sere-guinay» '(Egia esateko,) gehiago egiten dut heltzeko neure zereginei'. -al → a: Minsheuk (3) (eta Oudin eta Franciosinik) diote: «Muy al servicio de v.m.». Mikoletak (1653: 13r; 1988: 202) (eta lunak): «Muy a Serviçio de VM», nahiz ondoren hurrengo esaldiaren hasieran bertan ematen duen Mikoletak: «al servicio de VM» (Minsheuk, Oudin eta Franciosinik bezala -v.m.-, eta soilik lunak a ſeruicio). -dormirme → dormir: Minsheuk dio (1) (nahikoa bitxi, Oudin eta Francio-sinirenetikoek bezala): «Sé, que no ſoy elefante que tengo de dormírme en pie». Mikoletarenetikoak (1653: 12r; 1988: 197): «Sé que no soy elefante que tengo de Dormir en pie». -se vuelve (/torna) → vuelve: Minsheuk (7) (eta antzera Oudin eta lunak) da-itxietarik bihurtzen da deabrua' (agian Mikoletak erabilitako jatorrizkoak jada falta zuen se bihurkaria?). -levantar(se) → el levantar: Minsheurenean (3) nahikoa bitxi ematen da on-doko esaldian levantar aditz soila subjektu mugagabe: «(que para la ſalúd,) es bueno levantár de mañána». Horren bitxi non beste guztiek antzera eransten dioten aditz subjektuari se bihurkaria: «es bueno levantarse de mañana». Miko-letarenean, aldiz, soilik el artikulua eransten zaio aditzari modu bitxian garaiko espainolerako (eta ez, esaterako, garaiko euskararako), hala (1653: 13r; 1988: 202): «es bueno, el leuantar de mañana». Euskaraz noski artikuluz: «goxeti Xayguitea dala ona oʃsa-sunensaco» 'goizetik jaikitzea/jagitea dela ona osasuna-rentzako'. Ondoko aldaera, berriz, akats bihurtzen da testuinguruan: 2.4.1.2.3. Adizki pertsona edo denbora komunztadura arazoak Izan litezkeenak kopiatzailearen hizkeraren ezaugarri. ar-tean sistematizatzen ari diren morfema aldeak?). -truxiste → truxistes: Minsheuk (5) (eta besteek antzera) diote: «de adonde truxíste eſtos paſteles?». Mikoletarenean (1653: 13v; 1988: 207), berriz: «de-donde truxistes estos pasteles?». Agian Bilbo inguruko espainolaren ereduan, are gaur egun mantentzen den modu batean. ohi bezala): «Ama traygá un caldero de aguá», baina hurrengoan 2. pertsona singularrean (1653: 14v; 1988: 212): Aguarda (etxekoandre zerbitzaria mo-rroiari zuzentzen zaion estiloan). Euskaraz: ecarsu 'ekarzu' eta Ychosu 'itxoizu / itxoin ezazu'. Bi estiloen arteko nahastea da, hau norena den ez badakigu ere. -llamarádes → llamariades: Minsheuk (8) (eta besteek antzera) adizki zaharki-tua darabilte: «(Como me llamáys para que os ayúde a ésto,) no me Llamará-des (para que os ayudára al almuerzo)» -nahiz lunak llamarías modernoa-. Mikoletarenak (1653: 15r; 1988: 214): no me llamariades are bitxiagoa. Eus-karaz esseyn (guey emon) 'ez ze[g]in(ke) / zenegien / zenegike / zenuen / zenuke / (zenidan / zenidake) (gei / dei emon / eman(go) / egin(go))'. 45 -tráenos → traernos: Minsheuk (3) (eta besteek antzera) diote: «(Mucácho·[sic]) tráe nos de almorzar». Mikoletarenetikoak, akats bitxi-edo (1653: 13r; 1988: 203): «(Muchácho) traernos de almorçar», ez horren ezohiko balizko errespe-tuzko-edo traednos baten ordezko balitz, baina euskaraz hitanoz: «Mutíl Ecar-guc almorzua» 'Mutil, ekarguk almortzua'. 2.4.1.3. Itzulpena burutu ondoko kopi(et)ako akats edo aldaketa diratekeenak goragoko adibideen artean hainbat aipatu ditugu itzulpena burutu ondoko izan zitezkeen akats edo aldaerak. Ondokoetan ere bada arrazoirik pentsatzeko halakoak ote diren, euskaraz zuzen islatzen diren neurrian Minsheuren espainolezko jatorrizko aldaerak, eta ez itzulpena burutu ondoko kopi(et)akoak. Hala: -este aposento → [ø] → gela hau: Minsheuk (4) (eta besteek antzera) diote: jauna!'. -mejor → ø: Minsheuk (5) (eta besteek antzera) diote: «lo mejór que yo les hallo es…»; Mikoletarenetikoan (1653: 13v; 1988: 208), berriz, soilik: «lo [ø] que yo hallo es…». Euskaraz nolanahi ematen da [h]obea espainolez falta duen me-jor horren pare: «ydarayten doda n obea dá…» 'Edireten/idorotzen dudan ho-be[ren]a da…'. 46 -barra → baxa: Minsheuk (7) (eta besteek antzera) diote: «llama al áma que barra y componga eſte apoſento». Mikoletarenetikoak, berriz, akats (1653: 14r; 1988: 210): «llama al Ama, que baxa…». 47 Mikoletak euskaraz argi dio 45 Adizkiaren aipamen zabalagoa, in Hidalgo (argitaratzeko b). 49 -peyne → pene: Minsheuk (2) (eta besteek antzera) peyne diotenean, Mikole-tarenetikoak pene (1653: 12v; 1988: 201) -bestela lekukotu gabea espaino-lez-. Euskaraz orrazi. -esa → esta: Minsheuk (2) (eta besteek antzera) diote: «Éſſa es vna de las tres coſas». Mikoletak (1653: 12v; 1988: 199): «Esta es Vna de las tres coſas». Eta euskaraz ori, eta ez [h]au. -aquella → esa: Minsheuk (6) (eta besteek antzera) diote: «por aquella taça llana». Mikoletarenetikoan (1653: 14r; 1988: 209), berriz: «por eſsa taza llana». Euskaraz, hala ere, «araco taza launti» 'harako taza lautik', eta ez horko edo. rabilte se bihurkaria ondoko esaldian: «que a puérta çerrada el diablo ken esanahitik, dioenean: «serren ate ysietaric, biortuten da diabrua» 'zeren ate 2.4.1.3.1. -r-/ -rr-nahasteak bokal artean euskaraz</cell></row></table><note>nagokoak -Mikoletak edo inork tarteko beste kopiarik egin izan balu-, Mi- koletak itzulpenerako erabilitako testu -fidel(ago)a edo-aldatuaz. Halakoek ez lukete islarik izanen euskarazko itzulpenean.-Edota, izan litezke aurretikoak ere, jada zeudekeenak Mikoletak bere itzulpena egiteko erabili zuen Minsheuren testuen kopiaren batean -berau aurretik zu- zenean Mikoletak egina izan edo beste zeinahik-, eta dagoeneko kopia hori izatea akastuna, edo ez fidela Minsheurenekiko -eta bada hala pentsatzeko arrastorik-. Halakoek isla lukete euskarazko itzulpenean. Eta itzulpena burutu eta gero eragindako akatsez gain (ik. 2.4.1.3 atala), bada susmorik irudikatzeko Mikoletak itzulpenerako erabilitako espainolezko jatorrizkoan bazela jada Minsheuren jatorrizko elkarrizketen aldean zenbait akats edo alde, nekez izan litezkeenak Sainthillen azken kopiakoak. Halakoen artean: -Batetik, hainbatetan testu aldaketa nabarmenak gertatzen direlako (hitz ga- lerak, eransketak, antzeko hitzen arteko aukerako aldaketa sinonimotzakoak- edo, hitzen ordenaren aldaketak…), ez diratekeenak akats -akats handi behintzat-garaiko espainolerako, baizik aukerako aldaera edo egokitzapen (2.4.1.1 eta 2.4.1.2 atalak). Eta aldaketa hauetako zenbait argi-edo islatzen da Mikoletaren euskarazko itzulpenean, nondik eratorri ahal den aldaera jada bide zegoela Mikoletak itzulpenerako erabilitako kopian (kasuan kasu aipa- tuko dugu ondoko adibideen artean).--Halakoaren epe laburreko memoriaren jukutriak pairatuz -nondik agian ba- liokidetzako egokitzapenak, akats (handiegi behintzat) ez diren testu aldaketa nabarmenak-. -gero, Minsheuren jatorrizko argitalpenik zuzenean erabili gabe, batzuen eta besteen arteko aldeak zuzentzeko edo gutxitzeko inongo interesik gabe. Ondoren biltzen ditugu halako aldeen adibide esanguratsuak, zeinen artean eus- karazko itzulpenean ere isla dutenak, kasuan kasu aipatzen ditugunak: 2.�ittor HiDalGo eizaGirre ASJU, 2020, 54 (1-2), 123-176 2.4.1.1.-despechan → despachan: aldaera ohargarrienetakoa, Minsheuk (3� (eta beste guztiek ere� diote: «si señór deʃpéchan me». Mikoletarenetikoan (1653: 13r; 1988: 203�, aldiz: «si señor, despachan me». espainolezko despechar/despachar aditzen arteko aldea. kasuan Mikoletak despatxatu ulertzen eta itzultzen duena euskaraz ('zerbitzatu; (kontuak� konpondu/bideratu'�, eta ez, berriz, Minsheu- ren jatorrizko despetxatu (cf. OEH, s.v. despitatu 'haserretu, sumindu; deses- peratu' -nola ere beste hizkuntzetako itzulpenetan-�. Minsheuren (eta bes- teen, grafia aldeak gorabehera� ondokoa da jatorrizko segida, lehenik despachan aditza erabiliz ('zerbitzatu'�, eta ondoren despechan ironiaz ('haserrarazi'�: «Cómo anʃi no despáchan a v.m?» galderari erantzun: «si señór despéchan me». Mikoletaren despachan me ez da ondo lotzen peru jaunaren aurreko kexarekin negozioak txarto doazkiolako. Dio Mikoletak euskaraz: «-selan alan estaude despachetan orren meçede orí[?] / -�ay Xauna etendaude» 'zelan hala ez dute despatxatzen horren mesede hori? / -�ai, jauna! Egiten dute'; h.d., 'bai, despa- txatzen/zerbitzatzen naute'.-fuera → fuese: Minsheuk (2� (eta beste guztiek antzera, grafia gorabehera� diote: «(eſſo fuéra,� si fuéra, v.m. perſóna soſpechóſa». Mikoletarenetikoak, aldiz, baliokide, baina desberdin (1653: 12v; 1988: 199�: «(esso fuera� si VM fueſse persona sospechosa». kopiatzailearen memoria laburraren amarru? -ohart bedi ere ordena aldaketa (eta are tipografikoa�: fuera, v.m. → VM fueſse-.-es → de:-ir a la iglesia → oír misa: Minsheuk (6� (eta besteek antzera� diote: «por yr a la ygléʃia». Mikoletarenetikoak, berriz, dio, aldaketa idiosinkratikoagoan nonbait (1653: 14r; 1988: 210�: «por Oyr Míſsa», euskaraz ere ematen dena «Missa ensunagatí» 'Meza entzunagatik'.-Lee → Lé:-el → ø: Minsheurenek (6) diote: «perderémos la gana de el comér» (Oudinek (15) eta Franciosinik (23) del comer). Mikoletak (1653: 14r; 1988: 210): «per- daremos la gana de Comer» -lunak ere (118) de comer-. Euskaraz Xateco gurea 'jateko gura'. -muy → ø (bis): Minsheuk dio (2): «quel de ráxa es muy delgádo» (eta beste guztiek ere muy); Mikoletak muy gabe (1653: 12v; 1988: 200): «que el de raxa es delgado». Euskaraz: «Serren EraXaſcoa, megach da» 'zeren erraxaz- koa mehats da'. Hurrena dio Minsheuk (4) (eta besteek antzera): «eſtá muy curióſo, (y muy bien aſentáda la taraçéa)»; Mikoletak muy gabe (1653: 13r; 1988: 205): «esta curíoʃo, (y muy bíen assentadá la tarazea)». Euskaraz, «Se Curioſoro dagoã (ta se ondo…)» 'ze kurioso[ro] dagoen (eta ze ondo)'. Hauetan euskaraz ere ez da ematen muy-ren itxurako graduatzailerik (baina ez da ematen Mikoletak elkarrizketetan espainolez muy bai jasotzen duen beste 9 aldietan ere). -bien → ø: Minsheuk (2) (eta besteek antzera) diote: «mira bien ſi tiénen (algun púnto ſuelto las médias)». Mikoletarenetikoak galtzen du adberbioa (1653: 12v; 1988: 199): míra sí tienen… Euskaraz ere ez du ageri bien horren or- dezko zuzenik: adísate badauque 'adi [egon] zaitez // begira ezazu [ea] badau- katen', nondik pentsa litekeen hitza jadaneko falta ote zen Mikoletak bere itzulpenerako erabilitako jatorrizko espainolezkoan. -largo → ø: Minsheuk (3) (eta besteek antzera) diote: ferreruélo lárgo. Mikole- tak (1653: 12v; 1988: 201) Ferreruelo soilik. Euskaraz ere ez da «luzerik», non- dik pentsa litekeen hitza jadaneko falta ote zen Mikoletaklehenago, Minsheuk (7) (eta besteek antzera -lunak izan ezik-) diote: «me sirve […] de paje, y de lacayo, y a vezes de…». Mikoletarenetikoak ez du ema- ten lehen juntagailua espainolez (1653: 14v; 1988: 211): «de paje, de lacayo, y…»;-ø → el (2): Minsheuk (2) (eta besteek antzera) diote: «Dáme priméro aguamá- nos». Mikoletarenetikoan (1653: 12v; 1988: 200): «da me primero el agua ma- nos». Beharbada ezezagun-edo irudituta aguamanos-en izen erabilera. Euskaraz ere artikuluz objektua ohiko moduan: «yndasu, lenago vra escuetaraco» 'in- dazu/emadazu lehenago ura eskuetarako'. Antzera gero, Minsheurenean (7) hombre mugagabea ematen da ondoko esal- dian (bitxi-edo are garaiko espainolerako ere): «quando hombre tiene muchos criádos». Bitxi nonbait Mikoletarenetikoarentzat ere, el artikulua eransten du (1653: 14v; 1988: 211): «quando el hombre tiene muchos críados» (Oudinek eta Franciosinik bezalatsu; lunak arazoa saihesten du: quando ay emanda). Euskaraz, guisonac 'gizonak'. -ø → bien: Minsheuk (5) (eta besteek antzera) diote: «ſe pueden ſentar vs. ms.» Mikoletarenetikoan (1653: 13v; 1988: 206), berriz: «bien pueden Vms. sen- tarʃe». Euskaraz ere badu ordainik bien adberbioak: «erasti Xarridites seure mesedeac» 'errazti/errazki jarri ditez/daitezke zeure/zeuen mesedeak', nondik pentsatu behar aldaketa hori ere jadaneko zela Mikoletak bere itzulpenerako erabilitako jatorrizko espainolezkoan. -ø → que a // ø → a: Minsheuk (eta besteek antzera) diote (aipu gisa): «porque dízen a buen comér o mal comér, tres vézes ſe a de bevér». Mikoletak lotuneak eransten dizkio (1653: 14r; 1988: 209): «porque dicen que a buen comer O a mal comer tres vezes se ade beber».-las manos → la mano: Minsheuk (6) (eta besteek antzera) diote pluralean: «Beſo, a, v.m. las manos». Mikoletak singularrean (1653: 14v; 1988: 208): «Beſso a Vm. la mano». Euskaraz ere escuetan plurala; beraz, izan liteke itzul- pena burutu ondoko kopi(et)ako aldaera. -cosa → cosas: Minsheuk (7) (eta besteek antzera) diote singularrean: «nunca házen cóʃa a deréchas». Mikoletarenetikoak, berriz, plurala (beharbada ondoko adizlagun pluralaren eragin?) (1653: 14v; 1988: 211): «nunca hazen cosas a de- rechas». Euskaraz partitiboan: «estaude gausaric eguiten artez» 'ez dute gauza- rik egiten artez'. -lechuguilla → lechuguillas: Minsheuk (eta besteek antzera) diote singularrean: «(camiſas con ſus cuellos) de lechuguilla». Mikoletarenetikoak plural bitxian -akats?-(1653: 14v; 1988: 212-3): «(camissas Con sus cuellos) de Lechugui- llas». Euskaraz plural: Lechuguillascoacas 'letxugilazkoekin', nondik aldea izan litekeen itzulpena burutu aurretikoa.-busca → buscaba: Minsheuk (2) (eta besteek antzera) diote orainaldian: «el hombre buſca con gran cuydádo…». Mikoletarenetikoan (1653: 12v; 1988: 199), berriz: «el hombre buscava, con gran cuydádo…» (agian aurreko decía adizkiaren eraginez). Euskaraz ere lehenaldian: «aditu joeala guisona» 'aditu zihoala // adi egon // kezkatu ohi zela/zena gizona'. -halla → hallará:(1653: 13v; 1988: 208): «A qualquiera, hora que el hombre la quíera la hallara guisadá» (agian aurreko la quiera-ren eraginez…, nahiz berez ezin jakin Mi- koletarena subjuntibo den -hallara-, edo etorkizun -hallará-). Euskaraz etorkizuna: Ydoro days 'idoro dagitza // idoroko ditu'.-dijo → dice:-ellas → ellos: Minsheuk (2) (eta besteek antzera) diote: «-Aun no ha traydo las camíças la labandéra. / -pues, hide púta, yd por éllas», erakuslearen ko- munztadura femeninoa eginez alkandorekin. Mikoletarenetikoak, ohargarri, ez du genero konkordantzia (1653: 12r; 1988: 198): «-Aun no Ha traydo Las camíſsas la lauandera. / -pues Hideputa yd por ellos». -sola → solo: Minsheuk (7) (eta besteek antzera) diote: «ſola vna falta tiene», adjektibo aurreratu eta izenaren arteko konkordantzia femeninoa gordeaz. Mi- koletarenetikoak, berriz, solo forma maskulinoa darabil, sola adjektiboa adber- bio-edo bihurtuta, eta hala genero konkordantziarik gabe (1653: 14v; 1988: 211): «solo vna Falta tíene». Euskaraz adberbioz: «faltabat dau bacarríc» 'falta bat du bakarrik'. -esa → eso: Eta artean falta berorretaz ari direla,-le (≈ la) hallaremos → hallaremos: Minsheurenetan (5) espainolezko leismoz galdetzen da genero konkordantziarik gabe: «y adónde le hallaremos que ſea buena?» (emazteez ari da orokorrean), eta beste autoreek (antzera) zuzentzen dute esaldia la izenordain femeninoz: «y adonde la hallaremos que sea buena?». Mikoletak berriro falta du bitxi objektu zuzeneko izenordaina, ez bat, ez beste (1653: 13v; 1988: 206): «y donde hallaremos q ς . sea buena[?]». -los puede → puede: Minsheuk (5) (eta besteek antzera) diote pastelez ari di- relarik: «Bien los puede. v.m. comér ſin aſco que ne·[sic (&lt; de)]) mujer límpia ſon». Mikoletarenak berriro falta du objektu zuzeneko izenordaina, nahiz on- doko kausa esaldiarekiko aurrekari falta eragin (1653: 13v; 1988: 208): «Bien puede Vm comer sin aſco q ς . de·muger lympia Son». -les hallo → hallo: Minsheuk (5) (eta besteek antzera) diote, artean pastelez ari direlarik: «(Muy bien me ſáben,) y lo mejór que yo les hallo [pastelei] es ſer comída tan acorrída, que…». Mikoletarenetikoak falta du nori datibozko ize- nordaina, nahiz horrela subjektu erreferentziarik gabe utzi ondoko atribuzio esaldiko ser 'izan' aditza (1653: 13v; 1988: 208): «(Muy bien me sauen) y lo que yo hallo es ser comida tan acorida que…».ſe bue- lue» (ſe torna diote Oudin eta lunak -Franciosinik ez du ematen esaldia-). Mikoletarenetikoak ez du ematen se bihurkaria (1653: 14v; 1988: 212): «que a puerta çerrada el diablo buelue», eta hala ulergarritasun arazoa eragiten, li- rudikeen neurrian '-dennos → denlos: Minsheuk (6) (eta besteek antzera) diote: «den nos a bevér otras ſendas de la calabriáda». Mikoletarenetikoak, berriz, akats bete aldatzen du nori izenordain datiboa (1653: 14r; 1988: 210): «Den los de beber…», tes- tuinguruan guztiz zentzugabe bihurtuz aldaketa (itzulpena burutu ondoko ko- pi(et)ako akats?). Euskaraz ilundua geratzen da aldea, eman aditzaren ordez, etorri darabilelako datiborik gabe emana: Betor edaten (nahiz honen azpian ar- tean samurrago irudika litekeen Betor(kigu) edaten! itxurakorik, ez Betor(kie) edaten!). Agian zuen jada akatsa Mikoletak erabilitako jatorrizkoak.-traigáis → traigas: Minsheuk (2) (eta besteek antzera) diote: «no os he dícho, que no me traygáys éſſas comparaciones». Mikoletarenetikoak, berriz, aditza 2. perts. singularrean komunztatzen du (1653: 12v; 1988: 199): «no os he dícho, que no me traygas eſsas comparaçíones» (agian Mikoletaren euskaran artean ez direlako sistematikoki bereizten adizkietan zu eta zuek pertsonen-aguarde → aguarda:«Que bien adereçádo tiene v.m. éste aposénto ʃeñór don·P». Mikoletareneti- koak, berriz, objektu zuzenaren falta nabarmenean (1653: 13r; 1988: 204): «Que bíen adreʃsado tiene VM d [ø] señór D.·Pedro». Baina euskaraz objektu zu- zen eta guzti: «Se galantic dauco guelau Berrorec d. p. Xauná» 'ze galant[ik] daukan gela hau berorrek, d. p.46 Mikoletaren balizko [h]obea ← [h]obe[ren]a-z, ik. Hidalgo (argitaratzeko b).47 Eskuidatziak garbia dirudien arren, Sarasolak baxe transkribatzen du, Sanperek baje, dodgsonek haje.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>r soileko amargaren grafiak bat egingo luke Sainthillen ohiko r / rr nahasmenean, [h]amargarren interpretatzeko. dela homografiaz gustos → disputos, dela (Sainthillen edo) a-ren irakurketa edo zuzenketa zatitu gaiztoa (o + s/ʃ). �itxi, espainolez antzeko bi «nahaste» kasu baino ez dira gertatzen, eta biak ere garaiko espainolezko aukeren artekoak edo. nahaste bakarra bokal artean rr bikoitzaren ordez r bakuna emanda, (estatistikoki� erabilera urriko acorrida hitzean (Minsheu (6�, eta besteek ere hala�, Mikoletarenetiko eskuizkribuan r bakunez emana, acorida (1653: 13v; 1988: 208�. 51 �este behin honrra, ematen da r bikoitzez honen soinu gogorra azpimarratuz, hain ezohiko ez dena garaiko espainolean, 52 nahiz r bakunez ematen duten Minsheuk (1�, zein oudinek (1608: 15�, edo Franciosinik (1626: 9�, baina honrra oudinen 1611tik aurrerakoek, edo lunak (1619: 104�. euskarazko grafietako r / rr nahasmen ugaria (eta espainolezko testuko nahasmen eza edo ia�, agian uler liteke errazago eskuizkribuaren kopian irudikatuz euskara -gehiegi-ezagutzen ez duen sainthill ingeles hiztuna (Hidalgo argitaratzeko a; ibarra &amp; Hidalgo 2020 [2022]�, ingelesez bokal arteko r / rr grafia aldaerak ez duenez islatzen r leun, ttak soinua /ɾ/, r gogor dardarkaritik /r/, zeinahi ere delarik jatorrizko ingelesean halako fonemen errealizazio modua. �aina hala izanik ere ez da ulergarriegia grafia soilik euskaraz nahastea -bestela pentsatu behar sainthillek (era-bat� menderatzen zuela fonema bereizketa hori espainolez, baina ez euskaraz-. ohartzekoa da antzeko nahastea ematen bide dela joan amenduzkoaren c. 1568ko epitafioan, (testuaren� neurri txikiagoan bada ere. Hala dio sainz pezonagak (2006: 65�: «arazoak sortu ditu ere grafema berezi baten erabilerak, R moduan irudikatu dugunarenak. Grafema hori maiz agertzen da dokumentu zaharretan dardarkari anitza adierazteko, 53 baina testu honetan bai dardarkari bakuna bai dardarkari anitzaren lekua betetzen du erregela edo eginbide barik». Hala, esateko, orçiriq, ERiciric, oRoyturic, baina EgociRic, ysuriRic, eta belduRequi, elcaRequi, baina horrac (= honrak 'ondrak'�, arrece (= harretxe (?� 'harri etxe'�, çaRayz quiDate (= zarraizki-date�. �eraz, pentsatu behar ote dugu bokal arteko r/rr nahaste hori Mikoletaren euskaratikoa dela? �aina Mitxelenak argi dio (1977: 327, 2011: Vi, 269�: «[t]anto los textos como otros testimonios nos garantizan que todos los dialectos vascos han conocido en tiempos modernos una oposición r / R entre dos fonemas de articulación apical. […] la oposición sólo alcanza plena validez entre vocales». 54 2.4.2. Orto(tipo)grafia alde ikaragarri nabarmen eta kaotikoak Minsheuren jatorrizkoen eta Mikoletarenetiko eskuizkribuko elkarrizketen artean atalaren asmoa ez da Mikoletarenetiko elkarrizketen ortotipografia ezaugarriak erakustea. ez eta ere hau xehe konparatzea Minsheurenetikoarekin (eta honen aldeekin 1599 eta 1623 artean�. lehen lanak luze joko luke. konparaketak are luzeago. 51 espainolezko CORDEn bada r bakarreko acorer/acorido… adibiderik, beti oso proportzio txikian bada ere (6 agerpen ditu acorer aditzak, 1.007 acorrer-ek�. 52 CORDEn 5.388 agerpen ditu honrra-k eta 22.145 honra-k. edo are jatorrizko hitzetan: ageri/agerri... lan horrek ez liguke askoz argi gehiago emango segidan aipatuko ditugun ezaugarri nagusien inguruan, eta ez luke interes handiagorik gure kasuan, behin ziurtatuta-edo ezagutzen dugun eskuizkribuaren kopia, eta beraz azken ezaugarri ortotipografikoak, ez direla Mikoletarenak, baizik Sainthill jaunarenak (Hidalgo argitaratzeko a; Iba-</figDesc><table><row><cell>�ittor HiDalGo eizaGirre</cell></row><row><cell>argi-53 Garaiko espainolezko testuetan bezala (-�H-ebaluatzaile anonimoetako batek gogorarazi be-taratzeko a, b). zala�. 54 nahiz halakoetan ere baden inoiz bikoiztasunik morfema-edo amaierako r-a «neutraldua» ger-tatzen denean bokal artean hitz barruan, nola 3. pertsonako (h)ar-erakusle singularretiko formetan: (h)arek/(h)arrek, (h)ari/(h)arri, (h)arekin/(h)arrekin, (h)arentzat/(h)arrentzat…; zer izenordainarekin: zeri/zerri, zeren/zerren, zerekin/zerrekin…; plater, plazer bezalako maileguekin: platerak/platerrak, pla-Hala, oro har, Mikoletarenetiko eskuizkribuaren ortotipografiaren gainean, esan liteke: 1. (Batere edo) Sistematizaziorik gabea dela bere barne ezaugarri aldagarrietan. 2. Kaotikoa eta inolako harreman zuzenik gabea gertatzen dela (halako ezaugarri aldagarrietan) Minsheuren jatorrizko elkarrizketen pareko konparazioan. Bai ortografian (oro har seguru asko garaikideagoa Minsheurena baino, eta hur-bilagoa Oudin, luna, Franciosinirenetikoetatik; ik. 2.4.2.1 atala), eta bai tipografian (2.4.2.2 atala). 2.4.2.1. ortografia alde kaotiko nabarmenak Minsheu eta Mikoletarenetikoaren artean zerei/plazerrei…; rra &amp; Hidalgo 2020 [2022]). Hainbat aipagarri, adibide:</cell></row><row><cell>ASJU, 2020, 54 (1-2), 123-176</cell></row></table><note>4849 zelaietak aurreko beste guztiek bezala oker, lauandera transkribatu badute ere.50 Agian estilizatuagoak Sainthillek testuaren 1661eko «perfekzionamenduen» artean (Hidalgo-nahasmena batez ere txistukarien grafian gertatzen da (s / ſ / ss / c / ç / z), eta ez da Minsheurenekiko korrelaziorik batere. Minsheuren zeinahi s / ſ / ss / c / ç / z bihur liteke Mikoletarenean zeinahi s / ſ / ss / c / ç / z, nola (Minsheu 1; Mikoleta 1653: 12r; 1988: 196) cinco → çinco, eta segidan bertan alderantziz çinco → cinco… nahaste amaiezinean.-Erabatekoa da ere nahastea u / v / b grafietan, zeinahik adieraz lezakeelarik zer- nahi, eta Minsheurenekiko korrelazioa kaotikoa, nola una → vna eta bertan alderantziz vna → una… (passim);</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>Mikoletak konposaturiko lanean ematen direlarik, nahiz itzulpenean baden nahikoa bitxikeria zalantza egiteko. Betiere kontuan izanik daukagun eskuizkribua Sainthill jaunaren eskukoa dela, eta kasuan ez dugula inolako modurik bereizteko soilik honenak izan litezkeen aldaketak eta akatsak.Hauek oso askatasun eta alde handia erakusten dute euskarazko jatorrizkoekiko, eta izan liteke jarrera adierazgarri, nahiz horrek ez duen berez esan nahi berdin gertatuko denik alderantzizko itzulpenetan. Ondoren adibide nabarmenen batzuk.Hala dio Amoren kontentuak poesiaren hasierak euskaraz esaldi nagusi, subjektu eta aditz pluralez, eta aldiz itzulpenak, oso libre, mendeko esaldiz, eta subjektu eta Serren da dustis aengogorra / seyn diamantesco arria» → «Que es del todo mas duro / que la piedra del diamante» 'zeren da guztiz haren/hain gogorra / zein diamantezko harria'.</figDesc><table><row><cell>adizki singularrez (1653: 10v; 1988: 192):</cell></row><row><cell>-«(Amoren contentuac /) estaude Yrautén» → «(El contento del ámor) / que no</cell></row><row><cell>dura» '(Amore[ar]en kontentuek /) ez dute irauten'.</cell></row><row><cell>poesia berean, glosa libre baino askoz gehiagokoan, 1. pertsonako subjektuak eze-</cell></row><row><cell>rezetik asmatuaz espainolezko itzulpenean segidako bi adibideetan -bietan ere na-</cell></row><row><cell>barmen itzulpen okerrean-(1653: 10v; 1988: 194):</cell></row><row><cell>-«Onegas amoreac / dau gogaytuten» → «Con estos amores / estoy rauiando»</cell></row><row><cell>'Honegaz/Honekin 59 amoreak / du gogaitzen'.</cell></row><row><cell>-«Contentu ysanic (/ esta yñor Xoango amorea ganic)» → «Contento he</cell></row><row><cell>sido (/ noa de yr ninguno del amor)» 'Kontentu/pozik izanik (/ ez da inor</cell></row><row><cell>joango…)'.</cell></row><row><cell>Bigarren poesiaren hasierak bigarren pertsonako objektu esanguratsua (te edo)</cell></row><row><cell>falta du espainolez (1653: 10v; 1988: 192):</cell></row><row><cell>-«dempora baten on oynerechu» → «En vn tíempo quíçe bíen» 'denbora baten</cell></row><row><cell>on ohi neritzun / iritzi nizun'.</cell></row><row><cell>Ondoren, espainolez nori datibo bat (me) eransten da euskarazkoan ez dena</cell></row><row><cell>(1653: 10v; 1988: 193):</cell></row><row><cell>-«Alper alperíc ymínícosu» → «En valde en valde me has deponer» 'Alfer-alferrik</cell></row><row><cell>ipiniko [du]zu'.</cell></row><row><cell>Euskarazko berdintasun konparaketa (hain… zein) bihurtuz espainolez desber-</cell></row><row><cell>dintasun konparaketa (más… que) (1653: 10v; 1988: 193):</cell></row><row><cell>-«</cell></row><row><cell>Azterketa, bakoitzak bere neurrian, in pagola (2002), gonzález (2017) eta Hidalgo (argitara-</cell></row><row><cell>tzeko b).</cell></row></table><note>58 Mikoletak eginak bide direlakoan,</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head></head><label></label><figDesc>ingelesez, two table clothes. Oudinek (31) frantsesez, mahaia alboratuz, Deux nappes. Franciosinik (27) espainolekoa ere zuzentzen du italierazkoaz gain, Dos mãtéles de Mesa → Due touaglie da tauola. lunak (122) espainolezkoa ere zuzentzen du hala moduz, Dos tablas de manteles, eta balirudike horrelako zerbait emanez zuzentzen duela ere Mikoletak esamoldea, zamau bitzuk emanez 'zamau multzo bi'. 61 Bitxia da sintagma bi mugatzailez emana, izenean eta adjektiboan (adiskidea onena). Espainolezko jatorrizkoak berdintasunezko konparazioa dakar (tan amigo dellos), eta ez superlatiboa (el más amigo edo). Adiskide-ren azken a izan liteke Sainthillen kopiatze akats. Edo izan liteke Mikoletak onena adjektiboa bigarren pauso batean erantsi izana, hasieran soilik adiskidea eman ondoren mugatzaile eta guzti (espainolezkoan ez dagoenez zuzenean on esanahikorik). Cf. beherago ere pastelerea garui enerean 'pastelera garbienetik/garbienagandik'. a mugatzailearen halako eransketa bitxi gehiagoren bat ere bada Mikoletaren itzulpenean (Hidalgo argitaratzeko b). ezagutzen ez duelako edo gustatzen ez zaiolako, edota beste gabe sinonimotzakoak bide direlako testuinguruan (eta horrek ere adieraz lezake Mikoletak itzulpenean hartzen duen askatasun neurria�. Hala, modu desberdinetakoak:</figDesc><table><row><cell>a� Menpeko esaldiak nagusi bihurtuz (ik. ere 3.2.1.c atalean aipatuak�:</cell></row><row><cell>-«(solo vna falta tíene. / -Qual es[?] /� -que es grandissímo enemigo del</cell></row><row><cell>aguá» → «(faltabat dau bacarríc. / -seyñ dá[?]� / -Da Vren arerío andia»</cell></row><row><cell>'(falta bat du bakarrik. / -zein da?� / -Da uraren arerio handia' (1653:</cell></row><row><cell>14v; 1988: 211�.</cell></row><row><cell>-«De ſuerte que Vm quiere deçir…» → «orelan esanguradau…» 'Horrela</cell></row><row><cell>esan gura du…' (1653: 13v; 1988: 206�.</cell></row><row><cell>-«a mi me parece que (lo mejor que tiene� es…» → «Enesat (daucan obena�</cell></row><row><cell>da…» 'Enetzat (daukan hoberena� da' (1653: 13v; 1988: 205�.</cell></row><row><cell>b� Hitz eta esamolde aldaketa eta egokitzapenak egiten dira, euskaraz ordezko</cell></row><row><cell>egokirik aurkitu ez duelako, apetaz, are nahasirik... (adibide batzuk�:</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head></head><label></label><figDesc>hijo → gizakume (halako lekukotza bakarra OEHn, s.v.�: «el pareçe buen hijo» → «berac dirudí guiça-çume ona» '�erak dirudi gizakume ona' (1653: 14v; 1988: 211�. -ropa blanca / ropa (de mi amo) → trapu (1653: 14v; 1988: 212�: 62 «esta ropa blanca (que traxo la lauanderá�» → «onaco trapu (Yqusleac 63 ecarri-62 Garaian trapu hitzak ez du gaur egun duen zentzu peioratiboa (OEHk eta ehk oraingoz jasotzen duten bakarra�, baizik 'oihal, zapi' zentzua. Hala darabilte (OEH� frai juan zumarragakoak lepatrapu (1537�, e. sasiolakoak «bularterian trapua zuri, labradurak urrean» (~1567�, eta iparraldean ere hainbatek: «kapa, buruko trapua eta gerrikoa oihal beretik egiten zituzten» (Haranburu 1635�… Gerora bereganatu bide du zentzu peioratibo hutsa trapu lohi, traputzar, trapu zahar, trapu zikin… erabileren bidetik. 63 eskuizkribuan argi Yquileac, jada sarasolak arrazoiz (1983: 210� Yqusleac 'ikuzleak' zuzentzea proposatzen duena. ditusánac)», «la ropa (de mi amo que llevó la lauandera)» → «(ene [u]gasaben) trapu(ycusleac eroan eguisanena)» '(ene ugazabaren) trapu (ikuzleak eroan egizanena/zituenena)'. -tan amigo → adiskide[a] onena (goraxeago aipatua): berdintasunezko konparazioa tan ordezkatuz on adjektiboarekin superlatiboan (su criado Alonso, y vn su amígo llamado don juan, y una Ama» → «peru Xauna derechan Vategas, vere oʃseyñ Alonʃso en artean ta bere adísquíde derechala joane Xauna; eta asso bategas» 'peru jauna deritzan bategaz/batekin, bere otsein Alontsoren artean eta bere adiskide deritzala/deritzana joane jauna, eta atso bategaz/batekin'. -Espainolezko y konjuntzio koordinatzailearen lekua aldatuaz euskaraz: • «Leuantate y abre aquella ventana, ver [sic] sí es de diá» → «Saycora, [ø] yricasu araco ventanea; ta eguna den Ecussu» 'jaiki/jagi gora, irikazu / ireki ezazu harako bentanea/leihoa, eta eguna den ikusazu' (1653: 12r; 1988: 196). • «La colorada es caoba de la Hauana y esta negra Ebano [ø] la blanca de marfil» → «Sur gorri au da Hauanaco Caobea, [ø] balsau Ebanua ta Suría Marfila» 'zur gorri hau da Habanako kaoba, baltz/beltz hau ebanoa eta zuria marfila' (1653: 13r; 1988: 204). De donde Vuo VM. esta Tapiceria / -señor, de Flandes Vino» → «-nondic Ysanditu oren Meçede orec Tapiz Hoc? / -Xauna Flandesíc etorrí sireá» 'nondik izan ditu horren Mesede horrek tapiz hauek? / -jauna, Flandestik etorri ziren' (1653: 13r; 1988: 204�. -«(Y lo [mejor] que Yo hallo es� ser comida tan acorida que a qualquiera hora que el hombre la quiera la hallara guisadá» → «(ta Ydarayten doda n obea [sic] dá,� díreala aen Xateco prestá se edo-seyn ordutan Ydoro days</figDesc><table><row><cell>: 210�. -nublado → iluna: «señor, nublado» → «Yluna, xauna» (1653: 12r; 1988: 197�, nahiz segidan bertan ematen duen nubes → odeyac 'hodeiak'. -porque → zelan: kausazko galdegilea moduzko, «pues porque madruga… [?]» → «�ada selan xayguitenda…[?]» '�ada zelan jaikitzen/jagiten da…?' (1653: 13r; 1988: 202�. -miseria → horrelako gauza: «nunca Yo míro en míserias» → «es nax ni adí-tuten orelaco gausetará» 'ez naiz ni aditzen / adi egoten // ez dut begiratzen horrelako gauzetara' (1653: 13v; 1988: 208�. -no → bai: «(-�ebera VM otrá…� -No que no soy tan…» → «(-edan-daysu ostera…� -Bayse enas, orren…» '(-edan dagizu / edango duzu ostera…� -Bai, ze ez naiz horren…' (1653: 13r; 1988: 203�. -esas → horrelako: «eʃsas comparaciones» → «orrelaco comparaçíñoyríc» 'ho-rrelako konparaziorik' (1653: 12v; 1988: 199�. -1653: 13v; 1988: 208). -«por entender en mís negocíos» → «elduteco neure Ser eguinay» 'heltzeko neure zereginei' (1653: 13r; 1988: 203). -lo hecho → hau: «bien esta lo hecho» → «au ondo Eguinda» 'Hau ondo egin da' (1653: 14r; 1988: 210). -anda [interj.] → esak: Espainolezko anda harridura-edo interjekzioa 64 Mi-koletak esan aditz deklaratibo bihurtzen du, ondoko galderaren sarrera (1653: 15r; 1988: 213): «Anda, que valen quatro escarpínes…[?]» → «Esac, ser montadaude lau escarpiña…[?]» 'Esak! zer munta daude/dute lau es-karpin…[?]'. -refrán → esan daroena: «como diçe el Refran» → «Esan daroen aleguez» 'Esan daroaten(a) / ohi duten(a) legez' (1653: 13r; 1988: 203). -obligar → izan: «como la razon me obliga» → «dana aleguez Errazoea» 'den(a) legez arrazoia' (1653: 13v; 1988: 207). c) Erlazio morfemen aldaketa eta egokitzapenak: -y → -kin: espainolezko y konjuntzio koordinatzailea euskaraz bi kasutan emanez -gaz '-kin' atzizki soziatibo bidez, eta konjuntzioz eman ordez, ga-raiko euskarako moduetako batean: • «…esta todo y tambien el pe[y]ne» → «…dago dustia orraziagas» '… dago guztia orraziarekin' (1653: 12v; 1988: 201). • Bitxiago (1653: 12r; 1988: 196): «entre vn hidalgo llamado Don Pe-d� singularrak plural bihurtuz: -«-guisonac guisadoric» '(eta edireten/idorotzen dudan hobe[ren]a da,� direla haren/hain jateko presta/prest ze edozein ordutan idoro dagitza / idoroko ditu / idoro ditzake gizonak gisaturik' -jatorrizkoa janariaz ari delarik, singular; itzulpena testuinguruko pastelez ari bide da, plural-(1653: 13v; 1988: 208�. -«a Puerta çerrada» → «ate yxietaric» 'itxietarik' (1653: 14v; 1988: 212�. e� aditz denbora edo moduak aldatuz: -Geroa presente bihurtuz: «no estara nadie en pie» → «estago yñor Xay-guíríc» 'ez dago inor jaikirik/jagirik' (1653: 12r; 1988: 197�. -Geroa aginte bihurtuz: aueys de sauer → Xaquín eguísu 'jakin egizu/ezazu' (1653: 14r; 1988: 208�. f� euskarazko esamolde idiomatikoago, idiosinkratikoago edo gustuagokoak era-biliz: -Esaldi osagarri zuzena bihurtuz harridurazko zehar osagarri: «Cíerto qué esta curiofo» → «Se Curioʃoro dagoá» 'ze kurioso(ro) dagoen!' (1653: 13r; 1988: 205). -Moduzko esaldia adberbio bihurtuz: «Al Servicio de VM como estu-viere» → «Edo selan seruietaco berrori» 'Edozelan zerbitzatzeko beror(r)i' (1653: 13r; 1988: 202). -Esamolde adberbialak aditz bilakatuz (1653: 13r; 1988: 202): Muy a servi-cio / Al servicio → seruietaco 'zerbitzatzeko'. -«(por la muger lo díçe Vm.) -Por la mísma» → «(Emasteagaytí diño be-rrorec.) -ori ta berrori» '(Emazteagatik dino/dio berorrek.) -Hori eta berrori' (1653: 13v; 1988: 205). -«Y aun anda Vm d . (en lo cíerto)» → «Aesganean sagos (çíertuan)» 'Harez/ Horrez gain, zagoz/zaude (ziertoan)' (1653: 14v; 1988: 211). g) Ordena aldaketa arbitrarioak: hainbatetan arbitrarioki aldatzen dira esaldian jatorrizko eta itzulitako sintagmen ordenak arrazoi agerikorik gabe (nola ez den itzulpenaren garun-edo joera automatikoa jatorrizko hizkuntzan amaie-ran emandako, ikusitako edo sentitutakoa, lehenik itzultzeko xede hizkun-tzan, eta ondoren aurrekoak). Ondokoak bezalakoak: -«el relox y la mañana (no andan a vna)» → «goxa ta Herloxuá (estabilsas ba-terá? [sic])» 'goiza eta erlojua (ez dabiltza batera)' (1653: 12r; 1988: 196). -«(que es de) Honrrá y prouecho» → «(dala) prouechua ta Hondrea» '(dela) probetxua eta ondra' (1653: 12r; 1988: 198). -«canas y cuernos (no Vienen…)» → «adarrac eta vlla vrdinac (estoaz eto-dro, y �ittor HiDalGo eizaGirre rri…)» 'adarrak eta ile urdinak (ez doaz / ohi dira etorri…)' (1653: 12v; -Ekarri aditza erabiliz eguraldi esamoldeetan egin-edo aditzaren itzul-1988: 201). pen -bestela gutxi lekukotua [cf. OEH, s.v. ekarri]-(1653: 12r; 1988: -«Aun no Ha traydo las camíʃsas la lauandera» → «Ycusleac aranguíno 197�: «Que dia Haze?» → «se egun dacarr?» 'ze egun dakar?', «Haze estítu ecarri alcandorac» 'Ikuzleak oraindino ez ditu ekarri alkandorak' Frio?» → «osíc bacarr?» 'Hotzik badakar?'; (1653: 12v; 1988: 200�: (1653: 12r; 1988: 198). «(señal…� de que Haze Frio» → «(señale…� oss dacarená» '(seinale…� -«(míra sí tienen) algun punto Suelto Las medías» → «(adisate badauque) hotz dakarrena'. calzerdiac puncturic ascaturic» '(Adi [egon] zaitez / Begira ezazu badauka--Norako 'zertara(ko�': «A que tan de mañana[?]» → «Noraco aen goxetíc[?]» ten) galtzerdiek punturik askaturik' (1653: 12v; 1988: 199). 'Norako haren/hain goizetik?' (1653: 12r; 1988: 197�. Norako izan 'nora -«(que tengo) mucho q ς . Hazer oy» → «(serren daucat) gaurr, asco Ser-joango': Adonde yremos[?] → Norako gara[?] 'norako gara?' (1653: 14r; eguín» '(zeren daukat) gaur asko zeregin' (1653: 12r; 1988: 197). 1988: 210�. -Hara (hemen) non (esaldi nagusia menpeko bihurtuz�: «aquí viene ya la -«Señor, nublado» → «Yluna, xauna» 'Iluna, jauna</cell></row><row><cell>lauandera» → «Ara emen non datorre ycuslea» 'Hara hemen non datorren</cell></row><row><cell>ikuzlea' (1653: 12r; 1988: 198�.</cell></row><row><cell>-Esanik dago 'jakina, noski' (OEHn hala aipatu gabea�: «pues no se Entiende</cell></row><row><cell>(que ade ser mala�» → «Esanic dago estala (deunguea yʃango�» 'Esanik dago</cell></row><row><cell>ez dela (deunga izango�' (1653: 13v; 1988: 206�.</cell></row><row><cell>-Norentzat: «a mi me parece que…» → «Enesat…» 'Enetzat…' (1653: 13v;</cell></row><row><cell>1988: 205�.</cell></row><row><cell>-kausazko esaldia helburuzko bihurtuz: «(da me…� que quiero adrezarme</cell></row><row><cell>la barba» → «(yndasu…� daguida ondo ymini biʃsarrau» '(indazu/ema-</cell></row><row><cell>dazu…� dagidan/dezadan ondo ipini bizar hau' (1653: 12v; 1988: 200�.</cell></row><row><cell>ASJU, 2020, 54 (1-2), 123-176</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head></head><label></label><figDesc>Frío 2 ?» → «osíc 2 bacarr 1 ?» 'Hotzik 2 badakar 1 ?</figDesc><table><row><cell>).</cell></row><row><cell>b) Esaldi nagusi galdezkoetan (nahiz adibideetan soilik aditz trinkoak ageri di-</cell></row><row><cell>ren, eta hauetan are eta nabarmenagoa da, adizki konposatuetan baino, 'biga-</cell></row><row><cell>rren' enklitiko agertzeko joera, eta hainbat bitxiagoa -ez ezinezkoa-esaldi</cell></row><row><cell>buruan agertzekoa):</cell></row><row><cell>-«Haze 1</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head></head><label></label><figDesc>). c) Esaldi nagusi ezezkoan ere ez da etsian jarraitzen jatorrizkoaren ordenamendua, eta osagai (laburr)a tartekatzen da aditz laguntzaile eta nagusiaren artean: -«no se píerde jornadá» → «esta víderíc galsayten» 'ez da biderik galtzen' (1653: 14r; 1988: 210). -«(O s r .) no díga Vm eʃso» → «(Xauna) sebeguí orí esan» '(jauna!) Ez begi/ beza hori esan!'(1653: 13v; 1988: 205).</figDesc><table /><note>d) Aginduetan ere tarteka:</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14"><head></head><label></label><figDesc>). -«ya me voy parando Víejo» → «ya noa Sarr tuas» 'ja noa zahartuaz' (1653:  12v; 1988: 201). -«El y las sillas viníeron de Sala(man)ca» → «Au tá síllac etorsan Salamancaric» 'Hau eta sillak zetozen / etorri zirenSalamancatik' (1653: 13v;<ref type="bibr" target="#b14">1988: 205)</ref>. -«yo he dado aora en esta» → «nic emon dot orayn onetán» 'nik eman dut orain honetan' (1653: 13v; 1988: 206). -«yo lo Hare ansí» → «nic eguingodot alán» 'nik egingo dut hala' (1653: 14r; 1988: 211). -«El Pareçe buen hijo» → «berac dirudí guiça-çume Ona» 'Berak dirudi gizakume ona' (1653: 14v; 1988: 211). Vn çerçeganíllo entrá por la Ventana que corta las narizes» → «AXechu ozbat sarsayten dá, ventanatíc, ebaguíten dau(s)ela surrac» 'Haizetxo hotz bat sartzen da bentanatik ebakitzen dauzela/dituela sudurrak' (1653: 12r; 1988: 197). -«yo mas Hago por entender en mís negocíos» → «gueyago eytendot elduteco neure Ser eguinay» 'gehiago egiten dut heltzeko neure zereginei' (1653: 13r; 1988: 203). -«Aquí vera vm d . vn bufete mejor labrado» → «Emen Ecussíco dau Seure meçede Oréc bufete bat obetu eguinic» 'Hemen ikusiko du zeure mesede horrek bufete bat hobeto eginik' (1653: 13r; 1988: 205). -«(A mi me pareçe que) lo mejor que tiene es estar sin ella» → «(Enesat) daucan obena da aymbaga egotea» 'Enetzat daukan hoberena da hainbarik (≈ hura gabe) egotea' (1653: 13v; 1988: 205). -«de ſuerte que Vm quíere deçír q ς . la muger entonçes es buena (quando esta muerta)» → «Orelan esanguradau, Emastea dalá oná (beaturic dago án orduan)» 'Horrela esan gura du emaztea dela ona (behaturik dagoen orduan)' (1653: 13v; 1988: 206). 3.3.5.1.1. -(e)ko izenlagunak izen buruaren aurretik edo ezkerretik nolabait sailka litezkeenak: a) -(e)ko izenlagun egitura erakusleetatik abiatuak, espainolezko jatorrizkoan erakusle soilak baino ez direnak. -(e)ko egitura hauek guztiak ematen dira euskaraz izen buruaren aurretik, ezkerretik. Hala (grafiak eguneraturik): Espainolezko [izen + de…] ohiko egiturak, euskaraz [-(e)ko + izena] emanak: -«caoba de la Hauana» → «Hauanaco Caobea» 'Habanako kaoba' (1653: 13r; 1988: 204). -«dos almohadas de cama» → «oeco cochina bi» 'oheko kuxin bi' (1653: 14v; 1988: 213). -«(en [el año]) de 1599» → «milla ta bost eun ta laurogue ta emerecico vrtean» 'mila eta bostehun eta laurogeita hemeretziko urtean' (1653: 14v; 1988: 212). -«la gana de comer» → «Xateco gurea» 'jateko gura' (1653: 14r; 1988: 210). b.1. Espainolezko izen + de… ohiko materia-edo egiturak, euskaraz -(e)zko + izena…: 74 -«el Sayo de Velarte» → «Velartesco Xaquea» 'Belartezko jaka' (1653: 12v; 1988: 200). -«copa de Vidrio» → «vídríosco copa» 'bidriozco kopa' (1653: 14r; 1988: 209). )zko atzizki bidezkoak: espainolezko [izen + de…] ohiko materia-edo egiturak, euskaraz [izena + -(e)zko…], bestela ere ohikoak direnak izenaren ondoren emanak, baina Mikoletaren adibideotan nabarmena da -(e)zko… osagaion arroztasuna-edo ohiko hizkerarako, eta seguru asko horrek ere badu eragina kasuko ordenamendu, beti posiblean: -«las calças de tercíopelo acuchillado» → «Fraca tercíopelo acuchilladuscoac» 'Fraka tertziopelo akutxiladuzkoak (≈ belus kutxilloz/labanaz leunduak)'</figDesc><table><row><cell>b) Baiezko adierazpen (edo galdera) esaldi luze, konplexuagoetan batez ere -are hauetako menpekoetan-: nea (1653: 12r; 1988: 196), [h]arako taza (1653: 14r; 1988: 209), [h]onako au-men 'antxume' (1653: 14r; 1988: 209), [h]arako kofrea (1653: 14r; 1988: 210), [h]onako trapu (1653: 14v; 1988: 212). Edo: [h]orrelako konparazinoirik (1653: 12v; 1988: 199), [h]orrelako gausetara (1653: 13v; 1988: 208) (← aquella ven-tana, esa taza…, esas comparaciones…). -«[h]arako benta-b) 3.3.5.1.2. -(e)ko izenlagunak izen buruaren ondoretik / eskuinetik</cell></row><row><cell>nolabait sailkatuak:</cell></row><row><cell>a) nabarmenenak -(e</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8">nahiz Mikoletaren espainol eredua ziur hainbat desberdina izan elkarrizketok 75 urte aurretik asmatu bide zituen sevillarraren hizkeraren aldean (2.2), ez dirudi Mikoletaren helburuetan dagokeenik hizkera hori «eguneratzea». 9 Salbu lunak, zeinak argi adierazten duen elkarrizketok «zuzentzeko» asmoa (ik. 2.2 atalean).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="31">Aldaketa eta eguneratze gehiago itxuraz ingelesezko aldean, zeinetan askeago sentitu bide den Minsheu (edo garaiko argitaratzailea) halakoak eragiteko, nola ondoko adibideak Eranskinean jasotako 1. orrialdearen lehen heren eskasetik, edota ondoko 4. orrialdeko adibide nabarmenean: -(1599c: 1): &amp; / nurʃe / strooken / strooke / ʃunne // (1599c: 4): «I praie you hartelie master Iohn». -(1623c: 1): and / nurse / strucken / strucke / Sunne // (1623c: 4): «I pray you heartily Maʃter Iohn».</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="34">Bizcarrondok (2002: 236-237) jasotzen ditu alde horietako batzuk, eta batzuk iruzkintzen ere (2002: 224), baina ez dira aldeak sistematizatzen, ez erabiltzen Bilboko xvii. mendeko erromantzearen berezitasunak aipatzeko.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="35">Minsheuk ingelesez (6� Well Sir ematen du Ahora Señor hori, oudinek (1608: 15� frantsesez bitxiago Orsus Monſieur, eta Franciosinik itxuraz ildo beretik (1626: 23� Horsù Signore (orsus zein horsù biak zaharkituak eta itxuraz latinezko hoc 'hau' + versus 'norantz'etikoak ('(etorri� hona(ntz�', ≈ 'tira, bai zera'�. akademia frantseseko hiztegiak dio gaur egun: «or sus se dit familièrement pour exciter, pour encourager, pour exhorter».</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">�ittor HiDalGo eizaGirre ASJU, 2020, 54 (1-2), 123-176</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="36">nahiz raeren CORDE corpusean jasotzen den hitzaren halako beste agerpen bat 1500 ingurukoa.37  Minsheuk, hala ere, hirutan ematen du juan/Juan izena jotaz; 47 aldiz I maiuskulaz, ondo kontatu badugu.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="38">transkribatzaile guztiek ematen dute dispensero, nahiz zalantza ere egin litekeen ez ote den despensero. 39 ik. ere 2.4.1.2.2 atal bereziagoan. 40 Minsheuk eta beste guztiek ematen dute adevinas/adeuinas. soilik Mikoletarenetikoak adiuinas. 41 Minsheuk ingelesez dio (1�: «thou doest [1623an doeʃt] propheʃie for thine owne behoofe». oudinek (1608: 3�: «tu deuines à ton profit». Franciosinik (1626: 9�: «tu l'indouìni a vtil tuo».</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="42">Ik. ere besteren bat 2.4.1.2.2 atal bereziagoan.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="43">nahiz aldatzen duten aurreko hará lo horren ordena, lo hara aukerakoa emanez (lunak haralo gorde du).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="44">Ingelesezko eta frantsesezko itzulpenek ere ulertu bezala. Hala Minsheuk (7): «for at a locked doore, de diuell himʃelfe [1623an: himselfe] goeth his way». Oudinek (1608: 17): «car de porte fermée le diable s'en retourne».</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="55">Hainbesteraino non sanperek, sarasolak eta zelaietak zuzentzen duten eta echadme eman -ez Dodgsonek-.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="64">Minsheuk (8) ingelesez literalki ematen du go! Oudinek frantsesez (19): C'est bien à propos. Franciosinik italieraz (27): Hibò (cf. oibò/ohibò, gaitzespen edo ezespen interjekzio).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="66">«Bikote» segida berdinean ematen da euskaraz lehentxeago esamolde bertsua, espainolezkoak euskarazkoaren ordena duelarik: «bien esta (lo hecho)» → «(au) ondo Eguin da» '(hau) ondo egin da' (1653:  14r; 1988: 210).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="69">Batzuetan -ez beti-galdegai lege apokrifoaren defendatzaileek proposatu gisa.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="70">esaldiaren joskera nolanahi bitxia / iluna / berezia da euskaraz. eztabaidarako Hidalgo (argitaratzeko b�.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="74">poesietan ere bada halakorik: «diamantesco arria» 'diamantezko harria', «nigasco on erechía» 'nirekiko oniritzia'.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>ASJU, 2020, 54 (1-2), 123-176 b.1. non erlatibo bidez (Hara hemen non…) -jatorrizko espainolean erlatiborik gabe-: -«aquí viene ya la lauandera» → «Ara emen non datorre ycuslea» 'Hara hemen <ref type="bibr">[lekua]</ref> non datorre <ref type="bibr">[n]</ref> ikuzlea <ref type="bibr">' (1653: 12r; 1988: 198)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Ondorioz: itzulpen oso fidela, zenbait ezaugarri ohargarrirekin</head><p>Atalean zehar aipaturiko alde, eransketa, galera, oro har, txiki guztiak kontuan, eta ere hitzen ordenamenduaren gaineko oharrak, esan behar: </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Eta mendeko esaldi erlazio-atzizkidunetan (bereziki</title>
+		<imprint/>
+	</monogr>
+	<note>labur direnetan): e.1. -(e)la osagarridunetan</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">• «(como</forename><surname>Díxíste</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>que Ha dadó 1 Las cinco 2 [?]» → «(nolan esandou [sic</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Se díce que…) Son 1 tres malas cucas 2 » → «(Esan daroe,…) Yru cuca gaysto 2 díreala 1 » &apos;(Esan daroate / ohi dute…) hiru kuka (≈ gozoki) gaizto 2 direla 1 &apos; (1653: 13v</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">•</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page">206</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">-t(z)eko atzizkidun helburuzkoak</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Dormir 1 en pie 2 » → «oyñen ganean 2 loo eteco 1</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>• «de</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>oinen gainean 2 lo egiteko 1 &apos; (1653: 12r; 1988: 197</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+				<idno>Arrazoia- rekin 2 konplitzeko 1 &apos; (1653: 13v; 1988: 207</idno>
+		<title level="m">• «por cumplir 1 con la razon 2 » → «Errazoeagas</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">dezir 1 la Verdad 2 » → «Eguia 2 esateco 1</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">• «</forename><surname>Para</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+	<note>esateko 1 &apos; (1653: 13r; 1988: 203</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">• «para ser 1 bien seruído 2 » → «ondo seruidua 2 ysayteco 1 » &apos;ondo zerbitzatua 2 izateko 1 &apos; (1653: 14v</title>
+		<imprint>
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">os ayude 1 a esto 2 » → «onetan 2 vrgasteco 1 » &apos;honetan 2 urgazteko 1</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>• «paraque</surname></persName>
+		</author>
+		<idno>1653: 15r; 1988: 214). 67</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">«Muy a Serviçio 1 de VM 2 » → «Seure mecede ori 2 seruietaco 1 » &apos;zeure mesede hori 2 zerbitzatzeko 1</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Baita Ere</surname></persName>
+		</author>
+		<idno>1653: 12v; 1988: 202</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">• «las que estan 1 entérradas 2 » → «beaturíc 2 dagos anac 1 » &apos;behaturik 2 dagozanak / daudenak 1 &apos; (1653: 13v</title>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page">206</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">• «quien mande 1 en ella mas que Yo 2 » → «neuc baño 2 aguíndu dayaná 1</title>
+		<imprint/>
+	</monogr>
+	<note>neuk baino [gehiago] 2 agindu dagiana/dezana 1 &apos; (1653: 13v; 1988: 207</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">leuantar 1 de mañana 2 » → «goxeti 2 Xayguítea 1 » &apos;goizetik 2 jaikitzea/jagitea 1</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">• «</forename><surname>El</surname></persName>
+		</author>
+		<idno>1653: 13r; 1988: 202). 68</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">• «</forename><surname>Meter</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>en caʃsá 2 » → «esean 2 Sartu 1 » &apos;etxean 2 sartu 1 &apos; (1653: 13r; 1988: 203</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">1 sín ella 2 » → «aymbaga 2 egotea 1 » &apos;hainbarik 2 (≈ hura gabe) egotea 1 &apos; (1653: 13v</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>• «estar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="0205" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>• «encomendarnos</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+	<note>2 gomendatu 1 &apos; (1653: 14r; 1988: 210</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">«para que os ayudara a almorzar» → «vrgasteco almorzetan» &apos;urgazteko almortzatzen&apos;. 68 nahiz izenburuan oso antzeko «para Leuantarse 1 por La mañana 2 » sintagma osagai ordena horretantxe ematen duen euskaraz ere «Xayguíteco 1 goxean 2</title>
+		<idno>nahiz segidan bertan egitura (ia) berdinean alderantzizko ordenamendua ematen duen (1653: 15r; 1988: 214</idno>
+		<imprint/>
+	</monogr>
+	<note>Jagiteko 1 goizean 2 &apos; (1653: 12r; 1988: 196</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+				<idno>Meza 2 entzunaga- tik 1 &apos; (1653: 14r; 1988: 210</idno>
+		<title level="m">• «por oyr 1 Mífsa 2 » → «Míssa</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Atzeratzen ere posizio bikoitzeko partikulak (baizen, nola, bi…) -aurretik ere aukerakoak euskaraz-, eta ez bakarrik sintagma laburrak lotzean: f.1</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>• «como Vn Cuerno» → «adarra Nola</surname></persName>
+		</author>
+		<idno>1653: 12v; 1988: 199</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nola</forename><surname>• «como Para Vn Hidalgo Pobre» → «escutaripobre Bat En Sat</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>ezkutari pobre batentzat nola&apos; (1653: 13r; 1988: 204</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">el rey con Sus alcaualas» → «Erreguec bere alcaualacas nolá</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>• «como</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Erregek bere alkabalakaz/alkabalekin nola&apos; (1653: 13v; 1988: 206</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">esso no sepuede llamar falta) Sino Sobra» → «(Ori es ta faltea,) sobrea baxe» &apos;(hori ez da falta,) sobra baizen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">•</forename></persName>
+		</author>
+		<idno>1653: 14v; 1988: 212</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>• «no Ay Aquí Mas De Ocho» → «estago Emen Sorçí Vaxe</surname></persName>
+		</author>
+		<idno>dago hemen zortzi baizen&apos; (1653: 14v; 1988: 213</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">3. bi zenbatzailea -oraindik gaur egun bezala mendebaldean</title>
+		<imprint/>
+	</monogr>
+	<note>lehen eremu zabalagoan</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">dos almohadas de cama, dos pares de calçones» → «ysara bi oeco cochiña bi, pare bi fraca» &apos;Izara bi, oheko kuxin bi</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">• «dos</forename><surname>Sabanas</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>pare bi praka&apos; (1653: 14v; 1988: 213</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Mikoleta espainolezko esaldiak eta esaldi zatiak iraultzen atzekoz aurrera Beste zenbaitetan Mikoletak atzekoz aurrera iraultzen du euskaraz jatorrizko espainolezko [osagai-labur-1 + aditz (/aditz lokuzio) + osagai-labur-2 ] ordena, hau alderantziz bihurtuz euskaraz [osagai-labur-2 + aditz (/aditz lokuzio) + osagai-labur-1 ] edo, beste osagaiei lekua gordez oro har, euskarazko ohiko modu batean ere. 69 Hala nola, esaterako, ondoko adibideetan: -«todo 1 esta aquí 2 » → «Emen 2 dago deustia 1</title>
+		<imprint/>
+	</monogr>
+	<note>dago guztia 1 &apos; (1653: 15r; 1988: 214</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Jubon 1 me traes antes 2 (que la camiʃsa)» → «Lenago 2 dacarʃu Jupoea 1 , (alcandorea baño)» &apos;Lehenago 2 dakarzu jipoia 1 (alkandora baino)&apos; (1653: 12r</title>
+		<imprint>
+			<date type="published" when="0198" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+				<title level="m">«En los oJos 1 deues tu 2 de tener (las nubes)» → «</title>
+		<imprint/>
+	</monogr>
+	<note>Seuc edo 2 dauca[su]s beguíetan 1 (odeyac)» &apos;zeuk edo 2 daukazuz/dauzkazu begietan 1 (hodeiak)&apos; (1653: 12r; 1988: 197</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hidalgo</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+			<biblScope unit="page" from="123" to="176" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Jauna 2 biz bedeinkatu(a) 1 &apos; (1653: 13r; 1988: 203�. -(Mendeko esaldietan ere� «(porque diçen los Medicos,� que para la Salud 1 es bueno, el leuantar de mañana 2 » → «(serren díñoe doctoreac,� goxeti Xayguitea 2 dala ona oʃsasunensaco 1 » &apos;(zeren diote doktoreek� goizetik jaikitzea/jagitea 2 dela ona osasunarentzako 1</title>
+		<idno>tartean: (que…) es 1 bueno 2 → dala 1 ona 2 -(1653: 13r</idno>
+	</analytic>
+	<monogr>
+		<title level="m">ere� «bendito 1 sea dios 2 » → «Jauna 2 bis bedeyncatu 1</title>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page">202</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">-«que el çielo yo le Veo claro» → «serren nic dacust arguíríc çerua» &apos;zeren nik dakusat argirik zerua&apos; (1653: 12r; 1988: 197�. -«que a puerta çerrada el diablo buelue» → «serren ate ysietaric, biortuten da díabrua» &apos;zeren ate itxietarik, bihurtzen da deabrua&apos; (1653: 14v; 1988: 212�. -«(esso fuera� si VM. Fueʃse persona sospechosa» → «(ori lisate� valiz sure meçedeori persona sospechaCoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mikoletak Aditzak Aurreratzen Ere Ditu Euskarara Itzulitako Esaldietan Tarteka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hala Ere</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mikoletak Aurreratzen Ere Ditu Aditzak Euskarazko Esaldian Jatorrizko Espainolezkoen Aldean</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Hartu begi/beza berorrek bere lekua&apos; (1653: 13v; 1988: 207�. -«pues daca la Fuente» → «Ecasu bada Vaziñá</title>
+		<imprint/>
+	</monogr>
+	<note>Falta bat du bakarrik&apos; (1653: 14v; 1988: 211�. -«pues Hideputa yd por ellos» → «Oa vada esque ardí semé orí» &apos;Hoa bada eske, ahardi seme hori&apos; (1653: 12r; 1988: 198�. -«essa salud Tengan sela ellos» → «Beuque eurac oʃsasun orí» &apos;Beukate eurak osasun hori&apos; (1653: 13r; 1988: 202�. -«Vm. tome su lugar» → «Artubegui berrorec berre lecua. Hori litzateke� balitz zure mesede hori pertsona sospetxakoa&apos; (1653: 12v; 1988: 199�</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">«(esta es Vna de las tres coʃas� que Ganaza dezía, que el hombre buscava con gran cuydado» → «(orí da bat Yru gausetaríc� esan Eroena Ganasac adituJoe a la guísona, cuydadu ascogas» &apos;(Hori da bat hiru gauzetarik� esan eroena / ohi zuena Ganasak aditu / adi egon joeala/zihoala / ohi zela/zena gizona kuidado askorekin</title>
+		<idno>1653: 12v; 1988: 199�. 70</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">«como la razon me obliga» → «dana aleguez errazoea» &apos;den(a) legez</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-«sí</forename><surname>Su Muger Se Los Pone» → «ymíníten Badeuʃas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Emasteac</surname></persName>
+		</author>
+		<idno>arrazoia&apos; (1653: 13v</idno>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page">207</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">«(aueys de sauer� que Yo Soy muy buen borracho» → «(Xaquín eguísu� naxala ni, ordi oná» &apos;(jakin egizu/ezazu� naizela ni hordi ona&apos; (1653: 14r</title>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="208" to="209" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Oh sí por ay lo echa Vm yo obedesco en su caʃsa y Fuera» → «Ortí badaroa sure meçedeorec, níc obedietendot eʃean ta ateti» &apos;Hortik badaroa zure mesede horrek nik obeditzen dut etxean eta atetik</title>
+		<idno>1653: 13v; 1988: 207</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Ay diçe nra Madre Çelestína que esta corruptá la letrá» → «Or díño gure amá Çelestínác dago ala letrea, corumpíduric» &apos;Hor dio gure ama zelestinak dagoela letra korronpiturik</title>
+		<idno>1653: 14r; 1988: 209</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">«El me sirue de mayordomo de repostero de maestre sala, de…» → «Onec seruietanau mayordomusat, maestre sala-sat…» &apos;Honek zerbitzatzen nau / balio dit maiordomotzat</title>
+		<imprint/>
+	</monogr>
+	<note>maestresalatzat…&apos; (1653: 14v; 1988: 211</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Hori egin dagi / egingo du gozo deritzalako ardoari</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename><surname>Esso Haralo Por Lo Bíen Que Se Le Saue El Víno» → «orí</surname></persName>
+		</author>
+		<idno>1653: 14v; 1988: 212</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">que dé quenta dellos» → «ycuslearí escatuconax emondagui ala Contua» &apos;Ikuzleari eskatuko naiz/diot eman dagiela/dezala kontua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«a La Lauendera Pedír Le He</surname></persName>
+		</author>
+		<idno>1653: 15r; 1988: 213</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>«que Vestido Se Quiere Poner Vm D ?» → «</surname></persName>
+		</author>
+		<title level="m">Seyn soyñeco aʃseguín dau ymíní Seure meçede Orec?» &apos;zein soineko atsegin du ipini zeure mesede horrek?&apos; (1653: 12r</title>
+		<imprint>
+			<date type="published" when="0198" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Baiezko adierazpen (edo galdera) esaldi luze, konplexuagoetan batez ere -are hauen menpekoetan-, aditza esaldi hasieran emanez ere -are aditz trinkoak ere-: -«Bebera VM. otrá que no le Hará mal» → «Edandaysu ostera, se esteysu gachic</title>
+		<imprint/>
+	</monogr>
+	<note>Edan dagizu / Edango duzu, ostera, ze ez degizu / dizu egingo gaitzik&apos; (1653: 13r; 1988: 203</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Atengo me a el que diçe que más vale (solo que mal acompañado)» → «Banagoc oni, diño anari, obedala (bacarríc egotea, lagun deungueagas baño)» &apos;Banagokio honi, dioenari, hobe dela (bakarrik egotea</title>
+		<imprint/>
+	</monogr>
+	<note>lagun deungarekin baino)&apos; (1653: 13v; 1988: 206</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">con ella como el rey con Sus alcaualas» → «ta Vrtengodosu Orregas Erreguec bere alcaualacas nolá</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«y Se Saldra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Vm</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Eta irtengo duzu/zara horrekin Errege bere alkabalekin nola&apos; (1653: 13v; 1988: 206</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Son tres malas cucas)» → «Esan daroe</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Se Díçe</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Esan daroate / ohi dute ([…] hiru kuka gaizto direla)&apos; (1653: 13v; 1988: 206</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+				<title level="m">Quiere VM ponerse borzeguíes?» → «Nai dau Ymíní borzegueríc?» &apos;Nahi du ipini bortzegirik?&apos; (1653: 12v</title>
+		<imprint>
+			<date type="published" when="0200" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-«tengo</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Vm</surname></persName>
+		</author>
+		<title level="m">» &apos;Joango naiz laguntzen beror(r)i?&apos; (1653: 14r; 1988: 210)</title>
+		<imprint/>
+	</monogr>
+	<note>» → «Xoangonas Laguenetan berrorí</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename><surname>Digo Señor Que Cada Loco Con Su Tema</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">» → «díñot</forename><surname>Xauna</surname></persName>
+		</author>
+		<title level="m">ero-bacochá bere erasunagas» &apos;Diot, jauna</title>
+		<imprint/>
+	</monogr>
+	<note>ero bakoitza bere er(ot)asunarekin&apos; (1653: 13v; 1988: 206</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">«(Que) es grandissimo enemigo del aguá» → «Da vren arerio andia</title>
+		<idno>Da uraren arerio handia&apos; (1653: 14v; 1988: 211</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Mendeko esaldietan (batez ere luze, konplexuagoetan, baina ez bakarrik) eta aditza esaldi hasieran emana bada ere -are aditz trinkoak ere-: -«que para mi estos son los dias que deuemos (meter en caʃsá)» → «segayti eneʃsat oneyc dira egunac beardoguʃanac (esean Sartu)» &apos;zergatik enetzat honek/hauek dira egunak behar doguzanak/ditugunak</title>
+		<idno>1653: 13r</idno>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="202" to="203" />
+		</imprint>
+	</monogr>
+	<note>etxean sartu</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«q Σ Yo Tomare El Mio» → «se</surname></persName>
+		</author>
+		<idno>ze neuk hartuko dut neurea&apos; (1653: 13v; 1988: 207</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«que Me Quiero Levantar» → «serren Guradot Xayguí</surname></persName>
+		</author>
+		<idno>gura dut jaiki/ jagi&apos; (1653: 12r; 1988: 197</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">-«que diçen que es de Honrrá y prouecho» → «serren díñoe dala prouechua ta Hondrea» &apos;zeren diote dela probetxua eta ondra&apos; (1653: 12r</title>
+		<imprint>
+			<date type="published" when="0198" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title level="m" type="main">que para la Salud es bueno, el leuantar de mañana» → «Serren díñoe doctoreac, goxeti Xayguitea dala ona oʃsa-sunensaco» &apos;zeren diote doktoreek goizetik jaikitzea/jagitea dela ona osasunarentzako</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«porque Diçen Los Medicos</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>1653: 13r; 1988: 202</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title level="m" type="main">-«que es mas calíente para por la mañana» → «serren da berroago goXetaraco» &apos;zeren da beroago goizetarako</title>
+		<idno>1653: 14r; 1988: 208). 71</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">→ «serren (diño) 72 amayrrugayti, diño ala yrru» &apos;zeren (dio) hamairugatik</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«que Por Dezír Treze</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Tres</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>dioela hiru&apos; (1653: 14r; 1988: 209</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«que Les Tengamos En La Cama» → «daucagusalá 73 Oéan</surname></persName>
+		</author>
+		<idno>daukaguzala / dauzkagula / eduki ditzagula ohean&apos; (1653: 13r; 1988: 203</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">«(que) a ser mas (no valiera nada)» → «(se) balis obago (es leuque montaco eser)» &apos;(ze) balitz hobeago</title>
+		<imprint/>
+	</monogr>
+	<note>ez luke montako [≈ balioko] ezer)&apos; (1653: 14v; 1988: 211</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«para Leuantarse Por La Mañana» → «xayguíteco Goxean</surname></persName>
+		</author>
+		<idno>Jagi- teko goizean&apos; (1653: 12r</idno>
+		<imprint>
+			<date type="published" when="0196" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«para Ver Si Falta Algo» → «ecusteco Eser Faltaden</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>ikusteko ezer falta den&apos; (1653: 14v; 1988: 212</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title level="m" type="main">Errespetatuz euskaraz ere -esaldi nagusi zein menpekoetan-(gaur egun ere ohiko legez), garaiko espainolean artean ohiko diren aditza bigarren ordenamenduak (gehienak gaur egun bitxiak -ez guztiak</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<monogr>
+		<title level="m" type="main">estas ʃanas 1 estan 2 » → «baya onec osoric 1 dagos 2 » &apos;baina hauek osorik 1 dagoz/daude 2 &apos; (1653: 12v</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«pero</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="0200" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<title level="m" type="main">): «y aun es 1 mas Saludable 2 que lo tínto» → «ta osasunsuago 2 dá 1 gorría baño</title>
+		<idno>Baina segidan egitura bertsuan aditza atzeratuz (1653: 14r</idno>
+		<imprint>
+			<date type="published" when="0208" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<title level="m" type="main">Eskuizkribuan gainetik ezabatu itxuran ageri da gure parentesi arteko diño hori, eta Sarasolak baino ez du transkribatzen, nahiz esaldian ondo joka lezakeen bere papera kausazko esaldiaren aditz nagusi gisa (≈ &apos;zeren dio</title>
+		<imprint/>
+	</monogr>
+	<note>gure ama zelestinak] hamahirugatik dioela hiru&apos;</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title level="m" type="main">zelaietak bakarrik transkribatzen du daucagusala, eta nik ere hori iragarri dut eskuizkribuan (nahiz hitzaren goiko aldeak moztua dirudien, eta hala balizko a horren gain aldea itxi gabea). Besteek daucagusula diote, baina hizkiak a-ren itxitura itxuratzen du garbi</title>
+		<imprint/>
+	</monogr>
+	<note>hitz bereko beste bi u-ek ez bezala</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Juan 1 es 2 » → «D</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-«</forename><surname>El</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Juan Jauna</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">2</biblScope>
+		</imprint>
+	</monogr>
+	<note>Juan Jauna 1 da 2 &apos; (1653: 13r; 1988: 202</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<monogr>
+		<title level="m" type="main">Flandes 1 Víno 2 » → «Flandesíc 1 etorrí síreá 2 » &apos;Flandesik/Flandestik 1 etorri ziren 2 &apos; (1653: 13r</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«de</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="0204" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<monogr>
+		<title level="m" type="main">1 pueden 2 Vms. sentarʃe 2 a almorçar» → «erasti 1 xarrídítes 2 Seure mesedeoc almorzetan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«bien</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Errazti 1 jar daitezke 2 zeure mesedeok almortzatzen&apos; (1653: 13v; 1988: 206</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<monogr>
+		<title level="m" type="main">«Muchas 1 ay 2 , muy buenas» → «Asco 1 dago 2 , onac diréaníc</title>
+		<imprint/>
+	</monogr>
+	<note>Asko 1 dago 2 , onak direnetarik/direnak&apos; (1653: 13v; 1988: 206</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+				<title level="m">-«pues quatro 1 faltan 2 » → «Bada Lau</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+	<note>Bada lau 1 falta dira 2 &apos; (1653: 15r; 1988: 213</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<monogr>
+		<title level="m" type="main">de muger lympía 1 Son 2 » → «Se andrá garuienac 1 dirá 2 » &apos;ze andre garbiarenak 1 dira 2 &apos; (1653: 13v</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«q Σ</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="0208" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«que</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>«Yrru bider 1 edangodalá 2 » &apos;Hiru bider 1 edango dela 2 &apos; (1653: 14r; 1988: 209</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<monogr>
+		<title level="m" type="main">ESan Leye 2 obato» &apos;daukaguzala / dauzkagula / eduki ditzagula ohean 1 esan legite/ legikete / esango lukete 2 hobeto</title>
+		<idno>1653: 13r; 1988: 203</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<monogr>
+				<title level="m">-«si ella 1 los perdio 2 » → «berac 1 galdu baditus 2</title>
+		<imprint/>
+	</monogr>
+	<note>berak 1 galdu baditu 2 &apos; (1653: 15r; 1988: 213</note>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<monogr>
+		<title level="m" type="main">Aqui 1 estan 2 » → «Emen 1 dagos 2</title>
+		<imprint/>
+	</monogr>
+	<note>Hemen 1 dagoz/daude 2 &apos; (1653: 12v; 1988: 199 -eta beste 4 bider-</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<monogr>
+		<title level="m" type="main">Hemen 1 daukat 2 faltrikeran&apos; (1653: 12r</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Faltriqueran</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="0196" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<monogr>
+		<title level="m" type="main">Aqui 1 esta 2 todo» → «Emen 1 dago 2 dustia</title>
+		<imprint/>
+	</monogr>
+	<note>Hemen 1 dago 2 guztia&apos; (1653: 15r; 1988: 213</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<monogr>
+		<title level="m" type="main">(e)ko izenlagunen eta erlatibozko esaldien kokaguneak izenaren aurretik eta ondoretik</title>
+		<idno>3.5. -</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<monogr>
+		<title level="m" type="main">izenlagunen eta erlatibozko esaldien kokapenak hauen izen buruaren ezker edo eskuin, jatorrizko espainolezkoen aldean, itzulpenen balizko mendekotasun mailaren neurri bat gehiago legez jatorrizko hizkuntzarekiko. 3.3.5.1. -(e)ko izenlagunen kokaguneak izen buruaren aurretik eta ondoretik Bi kokaguneetan agertzen baitira: Aurretik edo ezkerretik (3.3.5.1.1 atala), oro har sintagma sinpleenetan, ohikoenetan (are -(e)zko atzizkidunetan). Ondoretik edo eskuinetik</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Azkenik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ditugu Mikoletaren</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>oro har sintagma luzeago. konplexuago edo ezohikoagoetan</note>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«con Sus Cuellos De Lechugillas ; » → «euren Idun Lechuguillascoacas</surname></persName>
+		</author>
+		<idno>toles/izur/alozekin&apos; (1653: 14v; 1988: 213</idno>
+		<ptr target="renidun/lepoletxugilazkoakaz/letxugilazkoekin(≈letxugila" />
+		<imprint/>
+	</monogr>
+	<note>cf. esp. lechuguilla</note>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<monogr>
+		<title level="m" type="main">Ondoko adibidean interpreta liteke -(e)zko izenlaguna, ez izen buru soilaren ondoren emana, baizik eta nor izen sintagma indeterminatuaren ondorengo. Bigarrenean itxuraz izen sintagma determinatuaren ondoren: -«dos pares de calçones de Lienço» → «pare bi fraca miesascoac</title>
+		<imprint/>
+	</monogr>
+	<note>pare bi fraka mihisezkoak&apos; (1653: 14v; 1988: 213</note>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">» → «sombrerua</forename><surname>-«un Sombrero De Fieltro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Fieltroʃcoa</surname></persName>
+		</author>
+		<idno>fel- trozkoa&apos; (1653: 12v</idno>
+		<imprint>
+			<date type="published" when="0201" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<monogr>
+				<title level="m">Ondoko adibidean ere berdin interpreta liteke -(e)ko izenlaguna, ez izen buru soilaren ondoren emana, baizik eta nor izen sintagma indeterminatuaren ondorengo. Bigarrenean izen sintagma agian determinatuaren ondoren (-(r)entzat destinatiboaren gainean osatua</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<monogr>
+		<title level="m" type="main">-«media dozena de panizuelos de narizes» → «dozena erdi bocader surretacoac» &apos;dozena erdi bokader (≈ mokader/mokanes)</title>
+		<idno>sudurretakoak&apos; (1653: 15r; 1988: 213</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«tiempo De Gorra» → «demporea Gorra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Enʃaco</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>denbora gorr(ar)entzako&apos; (1653: 12v; 1988: 201</note>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<monogr>
+				<title level="m">Beste bitan darabil Mikoletak -(e)ko egitura izen buruaren ondoretik emana, behin jatorrizko espainolezko adjektibo baten ordez, eta beste behin izen konposatu baten truke</title>
+		<imprint/>
+	</monogr>
+	<note>kasuan destinatiboaren gainean osatua</note>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">» → «persona</forename><surname>-«persona Sospechosa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sospechacoa</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>pertsona sospetxakoa&apos; (1653: 12v; 1988: 199</note>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«el Agua Manos» → «vra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Escuetaraco</surname></persName>
+		</author>
+		<idno>eskuetarako&apos; (1653: 12v</idno>
+		<imprint>
+			<date type="published" when="0200" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<monogr>
+		<title level="m" type="main">Erlatibozko esaldi izen burudunen kokaguneak haren aurretik eta ondoretik Halako erlatiboak ere bi kokaguneetan agertzen baititu Mikoletak: Aurretik edo ezkerretik (3.3.5.2.1 atala), gutxiagotan, oro har esaldi sintagma sinpleak-edo. Ondoretik edo eskuinetik, gehiagotan</title>
+		<imprint/>
+	</monogr>
+	<note>oro har esaldi sintagma luzeago edo konplexuagoetan (3.3.5.2.2 atala</note>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<monogr>
+		<title level="m" type="main">Erlatibozko esaldiak izen buruaren aurretik edo ezkerretik a) Badira halakoak espainolezko erlatiboen itzulpen zuzen: -«lo meJor que tiene» → «daucan obena</title>
+		<idno>3.5.2.1</idno>
+		<imprint/>
+	</monogr>
+	<note>daukan hoberena&apos; (1653: 13v; 1988: 205</note>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<monogr>
+				<title level="m">donde hallaremos) q ς . sea buena[?]» → «(ta non ydorocogu) ona ysandinbat</title>
+		<imprint/>
+	</monogr>
+	<note>Eta non idoroko [du]gu) ona izan dadin bat?&apos; (1653: 13v; 1988: 206</note>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<monogr>
+		<title level="m" type="main">-«de la mas límpía pastelera que aY en la Ciudad» → «Vrian dan pastelerea garui enerean» 75 &apos;Hirian den pastelera garbienetik/garbienagandik&apos; (1653: 13v</title>
+		<imprint>
+			<date type="published" when="0207" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<monogr>
+		<title level="m" type="main">Eta baita ere jatorrizko espainolezko adjektibo edo partizipioen ordezko: -«las coʃas a ello pertenecientes» → «ari dagocasan gausená» &apos;hari dagokazan/ dagozkion gauzena&apos; (1653: 12r</title>
+		<imprint>
+			<date type="published" when="0196" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«entre Vn Hidalgo Llamado Don Pedro» → «peru Xauna Derechan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Vategas</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>peru jauna deritzan batekin&apos; (1653: 12r; 1988: 196</note>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<monogr>
+		<title level="m" type="main">Erlatibozko esaldiak izen buruaren ondoretik edo eskuinetik a) Espainolezko erlatiboen itzulpen zuzen (edo partizipio baten), edo asmatu erantsiak: -«estos son los dias que deuemos meter en caʃsa» → «oneyc dira egunac beardoguʃanac Esean sartu» &apos;honek/hauek dira egunak behar doguzanak/ditugunak</title>
+		<idno>3.5.2.2</idno>
+		<imprint/>
+	</monogr>
+	<note>etxean sartu&apos; (1653: 13r; 1988: 203</note>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«esta Ropa Blanca Que Traxo La Lauanderá» → «onaco Trapu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Yquileac</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>honako trapu ikuzleak ekarri dituzanak/dituenak&apos; (1653: 14v; 1988: 212</note>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename><surname>La Ropa De Mi Amo Que Lleuó La Lauandera» → «ene</surname></persName>
+		</author>
+		<idno>u]gasaben trapuycus- leac eroan eguisanena» &apos;ene ugazabaren trapu ikuzleak eroan egizanena/zi- tuenena&apos; (1653: 14v; 1988: 212</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<monogr>
+		<title level="m" type="main">«Esta es Vná de Las tres coʃas que ganaza dezía» → «Ori da bat Yru gausetaríc esan eroena ganasac» &apos;Hori da bat hiru gauzetarik esan eroana / ohi zuena ganasak</title>
+		<imprint/>
+	</monogr>
+	<note>1653: 12v; 1988: 199</note>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<monogr>
+		<title level="m" type="main">«(Señal…) y aun de que HaZe Frio» → «(Señale…) bayta oss dacarená» &apos;(Seinale…) baita hotz dakarrena&apos; (1653: 12v</title>
+		<imprint>
+			<date type="published" when="0200" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-«muchas Ay Muy Buenas» → «asco Dago</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>onak direnetarik/direnak&apos; (1653: 13v; 1988: 206</note>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<monogr>
+		<title level="m" type="main">(e)la atzizki bidez osatuak ere (nor kasuan): -«vn su amígo llamado don juan» → «bere adísquíde derechala joane Xauna» &apos;bere adiskide deritzala/deritzana joane jauna&apos; (1653: 12r</title>
+		<idno>a.1. -</idno>
+		<imprint>
+			<date type="published" when="0196" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<monogr>
+		<title level="m" type="main">«Vn çerçeganíllo entrá por la Ventana que corta las narizes» → «AXechu ozbat sarsayten dá ventanatíc, ebaguíten dausela surrac» &apos;Haizetxo hotz bat sartzen da bentanatik, ebakitzen dauzela/dituela/ dituena sudurrak</title>
+		<idno>1653: 12r; 1988: 197</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<monogr>
+		<title level="m" type="main">Aquí esta el estuche donde esta todo» → «Aramen Estuchea, non dago dustia» &apos;Hara hemen estutxea</title>
+		<imprint/>
+	</monogr>
+	<note>non dago[en] guztia&apos; (1653: 12v; 1988: 201</note>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<monogr>
+		<title level="m" type="main">Mikoletak a mugatzailea eransten dio bitxi izenari (pastelera + a &gt; pastelerea) adjektiboaren aurretik. Cf. ere gorago, adiskidea onena (3.2.2 atalean oharra)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<monogr>
+		<title level="m" type="main">ere ez oro har eskaintzea euskarazko testu nahikoa natural eta egokia, itxuraz garai eta inguruaren lekuko</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<monogr>
+		<title level="m" type="main">espainolezko sorburuko testua finkatze alde erakutsitako xehetasunek zein sorburu eta xede hizkuntzako testuen arteko xehetasunen alderatzeek hainbat laguntzen duketelakoan Mikoletaren itzulpen elkarrizketen ulertze zuzenagoan (ik. Hidalgo argitaratzeko b�</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<title level="a" type="main">Routledge Encyclopedia of Translation Studies. new York &amp; londres: routledge. �izcarrondo, Gema. 2002. romance en �ilbao durante el siglo xvii: Modo breve de aprender la lengua vizcayna de r. de Micoleta. in adolfo arejita, ana elejabeitia, Carmen isasi &amp; juan otaegi (koord.�, Bilbao, el espacio lingüístico. Simposio 700 aniversario = Bilboren 700</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gabriel</forename><surname>Bibliografia Andrés</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Juan De Luna</surname></persName>
+		</author>
+		<ptr target="https://revistas.unav.edu/index.php/rilce/article/view/239.�aker" />
+	</analytic>
+	<monogr>
+		<title level="m">el papel de la imprenta y sus textos didáctico-literarios: Coloquio y Diálogos familiares. Rilce. Revista de Filología Hispánica 31(1�. 5-21</title>
+		<meeting><address><addrLine>Mona</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="page" from="219" to="237" />
+		</imprint>
+	</monogr>
+	<note>Hizkuntza gunea. Sinposioa. �ilbo: Deustuko unibertsitatea</note>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<analytic>
+		<title level="a" type="main">leve introducción a unos diálogos hispano-ingleses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jesús</forename><surname>Cid</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Antonio</surname></persName>
+		</author>
+		<ptr target="https://cvc.cervantes.es/literatura/clasicos/dialogos_minsheu/introduccion/default.htm" />
+	</analytic>
+	<monogr>
+		<title level="j">Pleasant and Delightfull Dialogues in Spanish and English</title>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note>Madril: instituto Cervantes</note>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Coromines</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+			<publisher>Madril: Gredos</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<monogr>
+		<title level="m" type="main">Reglas gramaticales para aprender la lengua Española y Francesa, confiriendo la una con la otra, según el orden de las partes de la oratión Latinas. oxford: joseph �arnes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Antonio</forename><surname>Corro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Del</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1586" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edward</forename><surname>Dodgson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Spencer</surname></persName>
+		</author>
+		<title level="m">1899. Mr. sainthill and his �asque studies. Notes and Queries 9</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="201" to="202" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+	<monogr>
+		<title level="m" type="main">Diálogos de antaño. Revue Hispanique 45</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Raymond</forename><surname>Foulché-Delbosc</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1919" />
+			<biblScope unit="page" from="34" to="238" />
+		</imprint>
+	</monogr>
+	<note>Marcel Gauthier</note>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+	<analytic>
+		<title level="a" type="main">Diálogos apazibles, compuestos en castellano, y traduzidos en Toscano</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lorenzo</forename><surname>Franciosini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Dialoghi piacevoli, composti in castigliano, e tradotti in Toscano. Venezia: Giacomo sarzina</title>
+		<imprint>
+			<date type="published" when="1626" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+	<monogr>
+		<title level="m" type="main">Bilboko euskararen ikuspegi diakroniko bat Mikoletaren inguruan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gonzalez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b114">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eurasiatik</surname></persName>
+		</author>
+		<idno>2017/05/01</idno>
+		<ptr target="http://eurasiatik.eu/pDF/Mik-azterketa.pdf" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b115">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">�ittor</forename><surname>Hidalgo</surname></persName>
+		</author>
+		<title level="m">Mikoletaren 1653ko Modu laburraz eta honen kopiagile samuel sainthillez</title>
+		<imprint>
+			<biblScope unit="page" from="1626" to="1708" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b116">
+	<monogr>
+		<title level="m" type="main">1653 -�ilbo hiriburuko prosa, Mikoletaren (1611-1671� elkarrizketak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">�ittor</forename><surname>Hidalgo</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>eta bi poesiak�</note>
+</biblStruct>
+
+<biblStruct xml:id="b117">
+	<monogr>
+		<title level="m" type="main">~1620 -Donibane lohitzune eta ziburuko merkatari elkarrizketak -Voltoire</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">�ittor</forename><surname>Hidalgo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Prestatzen</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b118">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ibarra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hidalgo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022" />
+			<biblScope unit="page">2020</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b119">
+	<analytic>
+		<title level="a" type="main">Mikoleta eta sainthillen eskuizkribuen azterketa konparatua</title>
+		<idno type="DOI">10.1387/asju.23299</idno>
+		<idno>1-2�. 177-223</idno>
+		<ptr target="https://doi.org/10.1387/asju.23299" />
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b120">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><surname>Lakarra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Andoni</surname></persName>
+		</author>
+		<ptr target="http://www.euskara.euskadi.eus/appcont/tesisdoctoral/pdFak/joseba_lakarra_tESIA.pdf.lakarra" />
+	</analytic>
+	<monogr>
+		<title level="m">joseba Andoni. 1997. Hizkuntz eskuliburuen tradizioa Euskal Herrian: I. L&apos;interprect ou traduction du François, Espagnol &amp; Basque (~1620)</title>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1" to="66" />
+		</imprint>
+	</monogr>
+	<note>xviii. mendeko hiztegigintzaren etorkiez. gasteiz: upV/ EHuko doktoretza tesia</note>
+</biblStruct>
+
+<biblStruct xml:id="b121">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><surname>Lakarra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Andoni</surname></persName>
+		</author>
+		<title level="m">L&apos;interprect ou traduction du François, Espagnol &amp; Basque (~1620): II: Elkarrizketak. ASJU</title>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="493" to="568" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b122">
+	<monogr>
+		<title level="m" type="main">Diálogos familiares, en los quales se contienen los discursos, modos de hablar, proberuios, y palabras Españolas más comunes: Muy vtiles y prouechosos, para los que quieren aprender la lengua Castellana</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juan</forename><forename type="middle">De</forename><surname>Luna</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>1619a</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Miguel daniel</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b123">
+	<monogr>
+		<title level="m" type="main">Diálogos familiares, en los quales se contienen los discursos… / Dialogues familiers, où sont contenus les discours… paris: Miguel daniel</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juan</forename><surname>Luna</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1619" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b124">
+	<monogr>
+		<title level="m" type="main">Modo breue de aprender la lengua Vizcayna -Compuesto por el l do Rafael Micoleta, presbyt o de la muy leal y noble Villa de Bilbao -1653. Eskuizkribua (British library: Harley MS 6314). londres</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mikoleta</surname></persName>
+		</author>
+		<idno>rafael. 1653</idno>
+		<imprint/>
+	</monogr>
+	<note>British libraryko eskuizkribuaren fotokopia deustuko unibertsitatearen liburutegian (809.169.1-5-024 M 65 r)</note>
+</biblStruct>
+
+<biblStruct xml:id="b125">
+	<monogr>
+		<title level="m" type="main">1653] 1880a. Modo breve… Revista de Ciencias Históricas 2</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rafael</forename><surname>Mikoleta</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page" from="122" to="156" />
+		</imprint>
+		<respStmt>
+			<orgName>Salvador Sanpere i Miquelen argit.</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b126">
+	<monogr>
+		<title level="m" type="main">Modo breve… girona: Imp. y librería de V. dorca (Salvador Sanpere i Miquelen argit</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rafael</forename><surname>Mikoleta</surname></persName>
+		</author>
+		<ptr target="http://w390w.gipuzkoa.net/wAS/COrp/dBK-VisorBibliotecawEB/visor.do?ver&amp;amicus=170452" />
+		<imprint>
+			<date type="published" when="1653" />
+			<biblScope unit="page">1880</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b127">
+	<monogr>
+		<title level="m" type="main">Modo breve… girona: Imp. y librería de V[icente] dorca (Salvador Sanpere i Miquelen argit</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rafael</forename><surname>Mikoleta</surname></persName>
+		</author>
+		<idno>1653] 1880c</idno>
+		<ptr target="http://w390w.gipuzkoa.net/wAS/COrp/dBK-VisorBibliotecawEB/visor.do?ver&amp;amicus=25746" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b128">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rafael</forename><surname>Mikoleta</surname></persName>
+		</author>
+		<editor>1897. Modo breve… Sevilla: F. p. díaz (Edward S. dodgsonen argit.</editor>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b129">
+	<monogr>
+		<title level="m" type="main">A Dictionarie in Spanish and English… londres</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Minsheu</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Edmund Bollifant</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b130">
+	<monogr>
+		<title level="m" type="main">A Spanish grammar… londres: Edmund Bollifant</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Minsheu</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b131">
+	<analytic>
+		<title level="a" type="main">Pleasant and Delightfull Dialogues in Spanish and English: Profitable to the Learner, and not vnpleasant to any other Reader</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Minsheu</surname></persName>
+		</author>
+		<ptr target="https://cvc.cervantes.es/literatura/clasicos/dialogos_minsheu/default.htm.)" />
+	</analytic>
+	<monogr>
+		<title level="m">By John Minsheu Professor of Languages in London. londres: Edmund Bollifant. (Argit. elektr. Madril: Instituto Cervantes</title>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b132">
+	<analytic>
+		<title level="a" type="main">A Dictionary in Spanish and English</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Minsheu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">londres: Iohn Haviland</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b133">
+	<monogr>
+		<title level="m" type="main">A Spanish grammar… londres: Iohn Haviland</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Minsheu</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b134">
+	<monogr>
+		<title level="m" type="main">Pleasant and Delightfull Dialogues in Spanish and English… londres</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Minsheu</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Iohn Haviland</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b135">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Berrargit. oC XI</title>
+		<imprint>
+			<date type="published" when="1953" />
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="277" to="296" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b136">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">textos arcaicos vascos. Madril: Minotauro. (Berrargit. in Mitxelena &amp; Sarasola</title>
+		<imprint>
+			<date type="published" when="1964" />
+			<biblScope unit="page" from="1" to="197" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b137">
+	<monogr>
+		<title level="m" type="main">obras completas (ASJUren gehigarriak 54-68), 15 lib. donostia &amp; gasteiz: «julio urkixo» Euskal Filologi Mintegia, gipuzkoako Foru Aldundia &amp; upV/ EHu (joseba A. lakarra &amp; Iñigo ruiz Arzalluzen argit</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b138">
+	<monogr>
+		<title level="m" type="main">textos arcaicos vascos. Contribución al estudio y edición de textos arcaicos vascos (ASJUren gehigarriak 11). donostia: gipuzkoako Foru Aldundia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo &amp;amp; Ibon</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sarasola</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b139">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeremy</forename><surname>Munday</surname></persName>
+		</author>
+		<title level="m">Introducing translation studies. londres &amp; new york: routledge</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">4</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b140">
+	<monogr>
+		<title level="m" type="main">1597. grammaire et observations de la langue espagnolle recueillies et mises en françois</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cesar</forename><surname>Oudin</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>paris: Marc Orry (2. argit. 1604; 3. argit. 1606</note>
+</biblStruct>
+
+<biblStruct xml:id="b141">
+	<analytic>
+		<title level="a" type="main">Diálogos muy apazibles, escritos en lengua española, y traduzidos en francés. Dialogues fort plaisans, escrits en langue espagnolle, et traduicts en françois… paris: Marc Orry. pagola, rosa Miren</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cesar</forename><surname>Oudin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Exploring translation theories. londres: routledge. rizzi, Andrea</title>
+		<editor>Adolfo Arejita, Ana Elejabeitia, Carmen Isasi &amp; juan Otaegi</editor>
+		<imprint>
+			<date type="published" when="1608" />
+		</imprint>
+	</monogr>
+	<note>Bilbao, el espacio lingüístico. Simposio 700 aniversario = Bilboren 700. urteurrena. Hizkuntza gunea. Sinposioa, 201-218. Bilbo: deustuko unibertsitatea. pym, Anthony. Birgit lang &amp; Anthony pym. 2019. What is translation History?: a trust-based approach. londres: palgrave pivot</note>
+</biblStruct>
+
+<biblStruct xml:id="b142">
+	<analytic>
+		<title level="a" type="main">Hemen natza ortzirik. joan Amenduzekoaren epitafioa (c. 1568). Edizio kritikoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sainz Pezonaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sancho el Sabio</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="57" to="90" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b143">
+	<monogr>
+		<title level="m" type="main">Some notes on the life and work of john Minsheu</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vivian</forename><surname>Salmon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="1560" to="1627" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b144">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Historiographia Linguistica</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="259" to="272" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b145">
+	<analytic>
+		<title level="a" type="main">Contribución al estudio y edición de textos arcaicos vascos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ibon</forename><surname>Sarasola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mitxelena &amp; Sarasola</title>
+		<imprint>
+			<publisher>Berrargit</publisher>
+			<date type="published" when="1983" />
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="69" to="212" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b146">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Samuel</forename><surname>Sainthill</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1661" />
+		</imprint>
+	</monogr>
+	<note>1661eko martxoan Sir thomas Browneri zuzendutako eskutitza] (ik. dodgson 1899; Hidalgo argitaratzeko a</note>
+</biblStruct>
+
+<biblStruct xml:id="b147">
+	<analytic>
+		<title level="a" type="main">Fuentes paremiológicas francesas y españolas de la primera mitad del siglo xvii</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julia</forename><surname>Sevilla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Revista de Filología Románica</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="361" to="373" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b148">
+	<analytic>
+		<title level="a" type="main">César Oudín -diálogos muy apacibles</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Suárez</forename><surname>Figaredo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Enrique</forename></persName>
+		</author>
+		<ptr target="https://parnaseo.uv.es/lemir/revista/revista22/textos/3_Oudin.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">Lemir</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="235" to="354" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b149">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Voltoire</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>c. 1620</note>
+</biblStruct>
+
+<biblStruct xml:id="b150">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jacob</forename><surname>Wackernagel</surname></persName>
+		</author>
+		<idno>1892] 2020</idno>
+		<ptr target="http://hedatuz.euskomedia.org/2237/1/07133214.pdf.zelaieta" />
+		<title level="m">Über ein gesetz der indogermanischen Wortstellung. Berlin: language Science press. zelaieta, Angel. 1988. rafael Micoleta Çamudio: Modo breu[e] de aprender la lengua vizcayna. Bilbao 1653. Hizkuntza eta Literatura</title>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="133" to="214" />
+		</imprint>
+	</monogr>
+	<note>Rafael Mikoletaren era llaburra. Bilbo: AEK</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Euskararen zatiketa informazionalaren eredu baterantz</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="1996">1996</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">[</forename><surname>Asju</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Xxx-I</surname></persName>
+						</author>
+						<title level="a" type="main">Euskararen zatiketa informazionalaren eredu baterantz</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="page" from="195" to="218"/>
+							<date type="published" when="1996">1996</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The purpose of this paper! is to develop a model of informational segmentation for Basque on the basis of Asher's (1993)  Segmented Discourse Representation Theory (SDRT). A new theory of the categories focus and informational theme is proposed which distinguishes between main focus and main theme. It is also shown that the means to codify these notions in Basque are mainly neutral word order and movement of constituents (to preverbal position, and to initial and final position in the sentence). Finally, we analyze (by means offormal restrictions) the interaction between informational segmentation and two types of contexts: questionanswer pairs and corrections.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sarrera</head><p>Diskurtsua (edo elkarrizketa) perpaus 2 segida bat baino gehiago da. Badago perpausetik goragoko zenbait egitura, perpausak bata bestearekin erlazionatzen dituena eta multzoari koherentzia ematen diona. Hauen artean aipagarriak dira espazio eta denborazko egiturak edo erlazio anaforiko konplexuak.</p><p>Diskurtsuari gehitzen diogun perpaus berri bakoitzak diskurtsu erlazio baten bidez lotuta joan behar duela postulatzen badugu, beste diskurtsu egitura bat sortzen da. Eredu hau eraikitzeko bi gauza zehaztu behar dugu: aIde batetik, perpaus berri bat ainguratzeko perpaus horrek bete behar dituen baldintzak zeintzu diren; eta beste aldetik, bi perpausen artean diskurtsu erlazio konkretu bat dagoela ondorioztatzeko zein murrizketa ezartzen dugun.</p><p>Diskurtsuaren koherentzia arakatzeko beste era bat diskurtsuan informazio "berria" eta "ezaguna" nola sartzen diren modelizatzea da. Hiztunak zerbaiti buruz hitz egiten duela esaten dugu intuitiboki, hau da, gaia aukeratu eta gai horren gainean (1) Lan hau Euskal Gobernuaren ikerlariak prestatzeko beka bati esker egina da; eta PI 94/95 UPV 003.230-HA0074 ikerketa proiektuaren barman sartzen da. Artikuluaren euskara zuzentzen eta terminologia lantzen eman dugun denboragatik Kepa Kortari mila esker.</p><p>(2) Perpaus ingelesezko sentence edo gaztelerazko oration adierazteko erabiliko dugu (alor sintaktiko eta semantikoa) --esaldi, berriz, utterance edo proferencia adierazteko (alor pragmatikoa). informazio apur bat ematen duela. Era berdinean, entzuleak gaia eta informazio berriaren nozioak erabiliko ditu esaldi berria eta aurreko diskurtsuaren arteko erlazioa finkatzeko (eta prozesamendu eraginkorragoa egiteko ere). Informazio unitateak bidaltzeko esaldiak erabiltzen ditugula kontuan hartzen badugu, argi dago orduan bereizkera hori (gaia eta informazio berriaren artekoa) esaldiei dagokiela. Horrek esan nahi du testuinguru batean dagoen edozein esaldik zatiketa informazional zehatza izango duela eta, zatiketa informazional ezberdin bat erabiliz gero, esaldia ez dela onargarria izango.</p><p>Guzti honen interesa esalditik goragoko egitura guzti hauek estuki erlazionatuta egotean datza. Esate baterako, elementu anaforiko batek erreferentetzat aurrekari konplexu bat -esaldi bat baino gehiagotik eraikia-izateko, aurrekaria sortzen duten esaldien artean diskurtsu erlazio konkretuak egon behar dira (zehaztasun gehiagorako ikus <ref type="bibr" target="#b9">Asher 1993)</ref>.</p><p>Era berdinean, egitura informazional eta diskurtsu erlazioen arteko elkarrekintza konplexua da. Elkar-murrizketa hau da lan honetan arakatu nahi duguna, euskaraz nola gauzatzen den bereziki. AIde batetik, diskurtsu erlazio baten bidez lotuta dauden bi esaldi daukagu. Bai lehenengo esaldiaren edukinak eta bai postulatutako diskurtsu erlazioak bigarren perpausaren zatiketa informazionalaren berri emango digute. Beste aldetik, zatiketa informazional mota bat dagoela postulatzeak diskurtsu erlazio konkretu bat ondorioztatzean lagunduko gaitu.</p><p>Proposamen honek euskararen zatiketa informazionalaren hurbilpen berri bat suposatzen duo Orain arte alor honetako lan gehienak (hau da, euskarazko gai eta fokuari buruzkoak) Chomskyren eskolako tradizioan eginak dira. Hori dela eta, hurbilpen sintaktikoak proposatu dituzte, orokorrean zuhaitz sintaktikoan aditzaren ezkerraldean "foku" deitzen dioten adabegi bat sartuz eta osagai dislokatuak (esaldiaren hasieran edo amaieran ager litezkeenak) klausula nagusitik at paratuz (esate baterako, <ref type="bibr" target="#b14">Donzeaud 1972</ref><ref type="bibr">, de Rijk 1978</ref><ref type="bibr">, Goenaga 1980</ref><ref type="bibr" target="#b33">, Rebuschi 1983</ref><ref type="bibr" target="#b11">, Azkarate et al. 1981</ref><ref type="bibr" target="#b15">, Eguzkitza 1986</ref><ref type="bibr">, edo Ortiz de Urbina 1983</ref><ref type="bibr" target="#b30">, 1989</ref>. Aitzitik, hemen hartutako ikuspuntua pragmatikoa da eta bere ondorioetariko bat da maila sintaktikoan zatiketa informazionala anbiguoa dela. Sintaxi, prosodia eta lexikoiak esaldi bakoitzerako egitura informazional potentzialen multzo txiki bat mugatzen dutela proposatuko dugu eta diskurtsuak multzo horretatik elementu egokia erabakitzen duela.</p><p>Ikuspegi sintaxizale honen barman, kontsiderazio hauei neurri batean ihes egiten dien lan bat <ref type="bibr" target="#b16">Elorrieta (1993)</ref> da. Zatiketa informazionala azaltzeko hartzen duen perspektiba <ref type="bibr">Lambrechten (1994)</ref> hurbilpen pragmatikoa eta <ref type="bibr" target="#b31">Osa (1990)</ref>, <ref type="bibr">Ortiz de Urbina (1986)</ref>   <ref type="bibr" target="#b9">Asher (1993)</ref>. DRTren sarrera bat <ref type="bibr">Korta eta Larrazabalen (1993)</ref>   <ref type="bibr" target="#b9">(Asher 1993</ref> Eta ME zuhaitzen arteko isomorfismoaren hedapenaren definizioa (Asher (draft)): <ref type="bibr">DEFINIZIOA:</ref> u'-k hedatzen du u:tb-+t a , non u tb ME zuhaitz batetik t a ME zuhaitz baterako isomorfismoa baita, baldin eta soilik baldin b osatzen duen Cb DRS predikatibo eta partzialen multzotik a osatzen duen Ca DRS predikatibo eta partzialen multzorako funtzioa bada ut, non (i) "x ECb, u'(x) eta x tipo semantiko bera daukaten, (ii) "x ECb, baldin x-ek b ME zuhaitzaren y adabegi bati baldintzak ezartzen badizkio, orduan u'(x)-ek baldintzak: ezarri behar dizkio u'(y) adabegiari.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Argumentu-rolak ere sartu behar ditugu</head><p>Orain arte SDR'Tk aditza eta bere argumentuen egitura argumentu guztiek aditzarekin erlazio bera izango balute bezala formaldu du, argumentu-rola edo paper semantikoa kontuan hartu barik (jakina denez, lehen mailako logikak: ere horrela (4) A azpiDRSen multzoa da eta £ menpekotasun erlazioa. funtzionatzen du). Hala ere, beste esparru logiko batzuetan egitura logiko aberatsagoa sartu izan da. Situazioen teoriak (ikus Devlin 1991, beste batzuren artean) aditzaren argumentu bakoitza rol batez hornitzen du, argumentuen artean bereiztu ahal izatea lortuz. Esate baterako, 'erosi' aditza ondorengo rolekin etorriko da: eroslea, saltzailea, salneurria, erositakoa, denbora eta espazioa. Argumentu-rolak ez dira ez kategoria sintaktiko ezta rol tematiko. Rol tematikoen teorien (Fillmore 1968, <ref type="bibr" target="#b21">Jackendoff 1972</ref><ref type="bibr">edo Bresnan 1983</ref> helburua rol multzo txiki bat finkatzea da -gaia, esperimentatzailea, agentea eta abar. Rol hauek argumentu-rolen abstrakzio bat dira, hauek predikatu bakoitzaren araberakoak baitira. Baina, nahiz eta erakargarria izan, ez dugu rol tematikoen teoriarik erabiliko oso problematikoak direlako, oraindik ez baitago akordiorik zenbat rol tematiko dagoen ezta zeintzu diren erabakitzeko.</p><p>Ikusiko dugunez, zatiketa informazionala eredutzeko argumentu-rolak behar beharrezkoak dira: perpausen edukin proposizionalen arteko erlazio zuzenak formaltzeko eta, bereziki, osagai anaforiko edo eliptikoak edo 'perspektiba aldaketak' agertzen direnean. Argumentu-rolen informazioa lexikoian agertuko da (aditzen sarreretan zehazki) eta DRS eta SDRStan heredatuko da.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Zatiketa informazionala</head><p>Dirudienez, elkarrizketa bezalako elkartruke batean partehartzaileek egituratuta dagoen informazioa igortzen dute. Egituraketa hau "rheme-theme", "topic-comment", "focus-bakground", "focus of attention" eta abar deitua izan da.</p><p>Gai nozioa (edo "background~' edo arreta fokua) normalean "zeri buruz" ideiaren inguruan definitua izan da, bai ikuspegi linguistiko batetik -esaldia zeri buruz deneta bai kognitibotik -hiztunak esaldi hori esatean zeri buruz hitz egiten duen eta, beraz, hiztunak daukan entzulearen eredua nola oraingotzen den. Beste aldetik, foku nozioa (iruzkin, eta abar) benetan informatiboa izatea edo informazio berria kodifikatzearen ideiarekin dago lotuta. Hemen zerbait zehaztu behar dugu: berria dena ez da informazioa berez, baizik eta zein informaziok zein rol betetzen duen. Hau garbi ikusten da hurrengo adibidean:</p><p>(1) A: Nork deitu zuela esan zuen Arantzak? B: Berak deitu zuela esan zuen.</p><p>Adibide honetako erantzunean berak da fokua eta izenordain honek Arantza dauka erreferentziatzat (irakurketa batean). Berria dena ez da entitatea -bai galderan eta bai erantzunean agertzen baita-, informazio horrek esaldian betetzen, duen papera baizik.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Zatiketa informazionalaren kontzeptualizaziorako aurreko hurbilpenak</head><p>Egitura informazionalaren arazoari buruzko literaturan fenomeno hau interpretazio prozesu maila guztietan kokatu izan da. Osagai sintaktikoan (ikus, adibidez, <ref type="bibr" target="#b35">Sgall et al. 1986</ref><ref type="bibr">edo Steedm~n 1991</ref>, <ref type="bibr">semantikoan (von Stechow 1981</ref><ref type="bibr">, Krifka 1992</ref><ref type="bibr" target="#b18">, von Fintel 1994</ref><ref type="bibr">edo Rooth 1985</ref><ref type="bibr" target="#b34">, 1992</ref> eta pragmatikoan <ref type="bibr">(Vallduvf 1990</ref><ref type="bibr">edo Lambrecht 1994</ref>, bi bakarrik aipatzeko), osagaien arteko elkarrekintza hierarkikoago edo kooperatiboagoak proposatuz. Hauetariko hurbilpen batzuk berrikusiko ditugu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hurbilpen semantikoak</head><p>Tradizionalki zatiketa informazionala benetako fenomeno pragmatikoen artean sartu izan da -hau da, egia-baldintzen gainean eraginik ez daukaten horietakoak eta, zentzu orokor batean, testuinguru linguistiko eta extralinguistikoarekin, eta hiztun eta entzulearen uste, intentzio eta helburuekin ere, zerikusirik daukatenak.</p><p>Ikuspuntu hau zalantzan jartzen duen lehendabizikoetako artikulu bat seguraski <ref type="bibr" target="#b21">Jackendoff (1972)</ref> da. Lan honetan egileakftkuarekin elkartzearen ideia aurkezten du only, even edo also bezalako elementuen azalpen bat emateko. Dirudienez, elementu hauen eragina normalean fokua izaten da; hau da, osagai fokalizatuarekin elkartzen dira. Ingelesez, eskema prosodiko ezberdinek (ondorioz foku informazional ezberdinak dituztenak)5 fokuarekin elkartze ezberdinak eragin ditzakete eta hauek egia-baldintza ezberdinak dauzkatenez, fenomeno hau semantikoki azaltzea komenigarria zela pentsatu zuten.</p><p>Hau da, esate baterako, Roothek (1985) hartutako perspektiba. ,Bere tesi doktorala hurrengo adibidearekin hasten da: 6</p><p>(2) a. I only introduced BILL to Sue.</p><p>b. I only introduced Bill to SUE.</p><p>Honako iruzkinarekin: "Suppose I introduced Bill and Tom to Sue and performed no other introductions. Then (a) is false and (b) is true".</p><p>Roothek Chomskyren eskolako GBn egiten du lan eta bere proposamena Forma Logikoaren mailan egiten du; hain zuzen ere, bigarren d~notazio bat gehitzea -ohiko denotazio semantikoaren ondoan-, fokuaren balio semantikoa delakoa, eta horren bidez perpausaren interpretazioan zatiketa informazionalaren ekarpena ezaugarritzea. Bigarren denotazio honen interpretazioa elementu fokalizatutik abstraituz lortzen dugun proposamen multzoa da. Adibidez:</p><p>(3) Nor etorri da?</p><p>Arantza etorri da.</p><p>Fokuaren balio semantikoa = {xl'x etorri da'} Eta multzo honen estensioa murrizketa pragmatikoak erabiliz lortuko da. Balio hau fokuarekin elkartutako elementuen eragina ezagutzeko erabiliko da, baita zatiketa informazionalaren zerikusirik daukaten aditz elipsiaren aurrekaria edo anaforak ebazteko ere.</p><p>Baina hurbilpen hau bi arazo nagusirekin topatu da, bata enpiriko eta bestea (5) Ingelesak foku inforrnazionala nagusiki prosodiaren bidez markatzen duo (6) N otazioa: letra handiek esaldiaren azentu nagusia rnarkatzen dute eta, beraz, informazionalki osagai fokalizatua (normalean osagai fokalizatuaren zati bat) dena. teorikoa. AIde batetik, badira perpaus batzuk non only (eta gauza bera beste elementu batzurekin) osagai fokalizatuarekin elkartuta ez doan. SDRTren hipotesia da esaldi hauek diskurtsutik heredatutako beste elkartze bat errespetatzen dutela. Ikus dezagun adibide bat <ref type="bibr">(Vallduvl 1990</ref>) puntu hau argitzeko:</p><p>(4) A: When I was in China 1 lived only Ion RICE/.</p><p>B: Gee, glad I wasn~t there. III couldn't live only on rice.</p><p>(B)n, onlyren eragina on rice da; haatik azentu fokala I izenordainean dago. Baina onlyren lehen agerpena (A)n gertatzen da eta, esaldi horretan ere, bere eragina on rice da. Eta (A)n on rice azentu nagusia badauka eta fokua informazionala bada. Hau bezalako kontradibideek arazo larria suposatzen dute semantika eta fooologia elkartzeko. Hemen azaltzeko espazio nahikorik ez dugun arren, SDRTn posible da egitura heredatu hau formalki berreskuratzea; ez, berriz, Roothen teorian.</p><p>Roothen (eta edonoren) proposamen semantikoak beste problema teoriko larri bati egin behar dio aurre. Gricegandik geroztik esan dezakegu ikertzaile komunitatean badagoela nahikoa adostasunik semantika ahalik eta garbi eta sinpleena eraikitzeko. Beraz, teorikoki ez dirudi interes handia daukanik azaltzekotan bakarrik perpaus multzo txiki bat azalduko lukeen mekanismo orokor bat sartzea semantikan; multzo txiki hori fokuarekin elkartzen den partikularen bat daukaten esaldiek osatuko lukete, partikula horren eragina fokua denean benetan. Hori dela eta, informatics 7 eta semantikaren arteko elkarrekintza arakatzeko (zeharkakoa den) beste metodo bat erabiltzea hobe dela pentsatzen dugu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>H urbilpen sintaktikoak</head><p>Zatiketa informazionalaren fenomenora egindako beste hurbilpen bat <ref type="bibr" target="#b37">Steedman (1995)</ref>  Haatik, Vallduvfren proposamenak zenbait arazo izan dezake. Ingeleserako proposatu definizio operazionalek ez digute metodo bat ematen edozein esaldiaren zatiketa informazionala identifikatzeko. Horrela, esate baterako, "FRE'D ate the beans" esaldiak bi egitura informazional ezberdin izan dezake eta teoria honetan ezin dugu isolatu: 8 (a)/FRED/ ate the beans, (b)/FRED ate/ the beans.</p><p>Horrez gain, galdetzen badugu: "What about the beans?", erantzuna (b)n agertzen den esaldia izan daiteke eta orduan "the beans" izango da erantzunaren gaia -hau da, lotura, Vallduvfren hurbilpenean-, baina "the beans" esaldiaren amaieran agertzen da (bere definizio operazionala hautsiz). Beraz, ingeleserako proposatu loturaren definizioa ez da beti betetzen (eta ondorioz buztanarena ere ez). Bestalde, definizio kognitiboek Heim-en artxibu aldatze semantikan bakarrik daukate zentzua. Hau oso problematikoa izan daiteke, semantika hau esaldien edukin semantikoa eta informazio pragmatikoaren arteko erlazioa arakatzeko ez baita egokia. 9 Ezta sintaxi eta pragmatikaren arteko erlazioa argitzeko ere. Lan hau SDRTren antzeko diskurtsu teoria batek egin dezake.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Euskararen fokura egindako aurreko hurbilpen batzuk</head><p>Euskarazko fokuaren arazoa aztertzen duten lan gehienak Severo Altuberen (1929) lana eta bere elemento inquirido <ref type="bibr">(Mitxelenak (1981)</ref> galdegaia deitu zuena) aipatzen hasten dira. Sarreran esan dugunez, alor honetan egindako lan gehienak sintaxian eginak dira (gramatika sortzaile eta trans/ormatzailean edo bere ondorengoa den gobernu eta uztarduraren teorian). Hori dela eta, oso errepaso laburra egingo dugu, sakondu barik, lan honetan zatiketa informazionala zer den argitzea interesatzen zaigulako eta jatorriz fenomeno pragmatikoa dela suposatu dugulako. Fenomeno hau euskaraz (katalanez bezalaxe) nagusiki sintaktikoki kodifikatzen denez aIde sintaktikoa ukitu behar da, baina iturburuan gertakari pragmatikoa dela eta sintaxiak normalean anbiguotasun gabeko zatiketarik emango ez digula ahaztu barik.</p><p>Horrezaz gain, lehendabizi, kontzeptualki garbia den zatiketa informazionalaren teoria bat eraiki beharra dago eta, gero, hizkuntza naturalek nozio horiek kodifikatzeko erabiltzen dituzten mekanismoak aztertu. Gure ustez, diskurtsua arakatzen duen teoria pragmatiko on bat eduki barik ezinezkoa da foku eta gaiaren kodifikazioaren teoria sintaktiko erabilgarri bat formulatzea eta, seguraski, fenomenoa bere azalpen maila egokian planteatu ondoren, maila sintaktiko horretan formulatuak izan diren mekanismo batzuk premiagabekoak agertuko dira.</p><p>Proposamen sintaktikoak.' <ref type="bibr" target="#b14">Donzeaud (1972)</ref>, <ref type="bibr">de Rijk (1978)</ref>, <ref type="bibr">Goenaga (1980)</ref>, <ref type="bibr" target="#b11">Azkarate et al. (1981)</ref>, <ref type="bibr" target="#b33">Rebuschi (1983)</ref>, <ref type="bibr" target="#b15">Eguzkitza (1986</ref><ref type="bibr">) edo Ortiz de Urbinak (1983</ref><ref type="bibr" target="#b30">, 1989</ref>, beste batzuren artean, hurbilpen sintaktikoa egin dute. Oso orokorrean, zuhaitz sintaktikoan aditzaren ezkerraldean "foku" deitzen dioten adabegi bat proposatu dute. Elementu bat bere posizio neutrotik aterea badago eta perpausaren aditzaren aurrean azaltzen bada, foku posizio hori bete egiten da. Bestela posizio sintaktiko hori hutsik geratzen da. Horietariko proposamen batzuek gai posizio sintaktiko bat ere identifikatu dute: klausula nagusitik at dago eta ezkerralderantz dislokatutako elementuek betetzen dute.</p><p>Proposamen sintaktiko eta pragmatikoa.· Elorrieta <ref type="bibr">(1993)</ref> Zatiketa informazionala tratatzeko Lambrechten (1994) hurbilpen pragmatiko eta <ref type="bibr" target="#b31">Osa (1990)</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Esaldi bat izanik} sintaxiak (prosodia eta lexikoiarekin batera) egitura injormazional potentzialen (PoS) multzo bat ematen duo</head><p>Inforrnazio sintaktikoan (eta prosodiko eta lexikoan) oinarrituta, zatiketa informazionalaren eraiketa prozedura bat suposatzen cia, non, edozein esaldi izanik, emaitza egitura informazional potentzialen multzo txiki bat izango baita. Multzo hau elementu bakarrekoa -singletona-baldin bada, hau da, sintaxia (prosodia eta lexikoiarekin batera) nahikoa baldin bada esaldi baten zatiketa informazionala anbiguotasun barik erabakitzeko, orduan informazio hori erabiliko dugu esaldia diskurtsura lotzen duen diskurtsu erlazioaren gainean murrizketak inposatzeko. Baina askotan multzo horrek elementu bat baino gehiago izango duo Orduan zatiketa informazional egokia erabakitzeko diskurtsuaren informazioa erabili beharko dugu.</p><p>Hizkuntza ingelesean badago adibide asko, zatiketa informazionalaren elementu baten -foku ala gaia-eraiketa sintaktikoa (GB edo LFGn) problematikoa dutena. <ref type="bibr">IO</ref>  <ref type="bibr">Asher eta G6mez Txurrukaren (1996)</ref> txostenean (gutxienez) elementu bat beti eraikigarria dela suposatu genuen. Suposaketa hau behean daukagun bigarren hipotesiaren aldeko argudio interesgarri bihurtzen da, horrez gain, nahitanahiez eraikigarria dena zatiketaren elementu nagusia dela suposatzen badugu. Aztertu dugun ingelesaren zatian betetzen dira suposaketa hauek. Euskara konfigurazionala dela kontsideratuz (Ortiz de Urbina 1986, Salaburu 1986 edo Eguzkitza 1986) eta GB (LFG edo antzekoa) erabiliz, euskararentzat ondorio bera atera dezakegu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Diskurtsu ikuspuntutik bi egitura injormazional mota daude: joku eta gai nagusiak</head><p>Egitura informazional bakarra ala mota ezberdinak ote dauden, nahasketa handia dago oraindik ere gaurko ikerkuntzan. Esate baterako, Vallduvfk (Vallduvf1990) ez du ikusten bere hiru kategorien konbinaketak baino egitura mota gehiagoren beharrik. <ref type="bibr">Bestalde, Lambrechtek (Lambrecht (1994)</ref>) gutxienez hiru proposatzen ditu: guztia foku) gai-iruzkin etajoku estua (eta mota gehiago dagoela baieztatzen du).</p><p>Diskurtsu ikuspegitik, esaldi batzuk fokuaren inguruan eta beste batzuk gaiaren inguruan egituratuta daudela esan dezakegu. Esaldi bakoitzak informazionalki ele-(10) Esate baterako: "/MARY ate/ the beans u adibidean fokua, "MARY ate U , ez da eraikigarria (aditz sintagma apurtzen delako). Eta "Mary ate/the BEANSr adibidean eraikigarria ez dena gaia da. mentu nagusi bat dauka, diskurtsuak emana: gaia izan daiteke (eta gainontzekoa iruzkin, elementu rhematiko edo nahi duzun bezala deitu) edo fokua izan daiteke (eta osagarria background, proposamen ireki aurresuposatua edo elementu tematikoak izango dira). Honek esan nahi du diskurtsu ikuspuntu batetik lau kategoria informazional ezberdin onartu behar ditugula: gaia (intuitiboki "zeri buruz"), fokua (informazio berria), elementu rhematikoak (gaiaren osagarri) eta elementu tematikoak (fokuaren osagarri). Kategoria hauekin propietate ezberdinak dauzkaten bi zatiketa informazional mota eraikitzen dira:</p><p>• gai nagusiaren egitura: (gai)+elementu rhematikoak -(konfigurazionalitatea+GB suposatuz) sintaktikoki gaia da eraikigarria -diskurtsuak entitate bat (edo batzuk) ematen du • foku nagusiaren egitura: foku+(elementu tematikoak) -(konfigurazionalitatea+GB suposatuz) sintaktikoki fokua da eraikigarria -diskurtsuak situazioa11 ematen du (ez osorik behar bada), hau da, egitura bat; eta eIementu tematikoek -agertzen badira-horren zati bat kopiatzen dute. Elementu tematikoen eta diskurtsuaren zati baten arteko situazio identitate irizpide batek funzionatzen duo Ikusten dugunez, foku nagusiaren egitura gai nagusiarena baino askoz murriztuagoa dago. Euskaraz, hain aipatua den galdegaiak foku nagusiaren egiturak sortzen ditu.</p><p>Hirugarren hipotesia diskurtsuaren egitura eta zatiketa informazionala lotzeko behar dugu. Hain zuzen ere, esaldi baten egitura informazional mota ezagutzeak lagunduko gaitu, aIde batetik, zatiketa informazional potentzialen multzotik elementu bat aukeratzen eta, beste aldetik, diskurtsu erlazioa mugatzen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Esaldi bat/oku nagusia edo gai 12agusia izatea eta esaldi hori diskurtsuari lotzen dion diskurtsu erlazio mota erlazionatuta daude</head><p>Esate baterako, esaldi bat Zuzenketa baldin bada orduan nahitanahiez foku nagusiaren egitura izango da. Galdera Erantzun Pareei (QAPs) buruzko arazoa konplexuagoa da (behean ikusiko dugun bezala galdera mota ezberdinek sistematikoki zatiketa ezberdinak sortzen dituzte). Eta nahiz eta hemen lantzeko tokirik ez izan, gauza bera gertatzen da beste erIazioekin (Narrazio, Laborazio, Kontraste, Segida eta abar).</p><p>Proposamen hau ez dago oraindik guztiz finkatuta baina dagoeneko zenbait abantail ikus dezakegu:</p><p>(1) Diskurtsu erlazioen saiIkapen bat lortzen dugu eta informazio hori diskurtsuaren eredu bat sortzean erabil daiteke.</p><p>(2) (Euskaraz, konfigurazionalitatea+GB suposatuz) elementu nagusia sin-(11) Situazioaren ideia situazioen teoriarena da. Ikus <ref type="bibr" target="#b13">Devlin (1991)</ref>, beste batzuren artean.</p><p>taktikoki eraikigarria dela jakiteak posibilitate batzuk baztertzen laguntzen digu.</p><p>(3) Gaia eta elementu tematikoen artean bereiztuz, diskurtsuaren gaia eta esaldiaren gaiaren arteko erlazioa aztertzeko aukera gehiago dauzkagu (momentuz, diskurtsuaren gaiaren eraikuntza problema larria da edozein teoriarentzat).</p><p>Horrezaz gain, eta orain ikusiko dugunez, proposamen honen aIde euskaratik ere zenbait oinarri enpiriko datorkigu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Euskararen zatiketa informazionalaren kodiftkazioa</head><p>Hizkuntza ezberdinek mekanismo ezberdinak erabiltzen dituzte foku eta gaia kodifikatzeko. Adibidez: katalanak batez ere dislokazioak erabiltzen ditu; esan dugunez, ingeIesak prosodia; bestalde, japoniera edo ketxuak atzizkien bidez kodifikatzen dute hau; frantsesak, berriz, bereziki esaldi pitzatuak 12 erabiltzen ditu; eta euskarak, hungariera edo afghanierak bezala, batez ere hitzordena medio lortzen du informazio hau igortzea. Sintaxiak (prosodia eta lexikoiarekin batera) zatiketa informazionala anbiguotasun gabe ez duela markatzen izan da gure hipotesia. Beraz, ezagutza iturri hauek erabili ondoren, tipikoki, edozein esaldi izanik, egitura informazional potentzialen -multzo (PoS) txiki bat lortuko dugu. Eta posibilitate horien artean bat aukeratzeko diskurtsuaren informaziora jo beharko dugu. Laugarren atalean bi diskurtsu erlaziotarako ikusiko dugu hau, Zuzenketa eta Galde-Erantzun Pareetarako hain zuzen ere. Atal honetan euskarak PoS multzoa lortzeko erabiltzen duen hitzordena arakatuko dugu. Eta (3.2)an, berriz, proposatutako bi zatiketa inforrnazional motaren euskarazko (perpaus maiIako) kodifikazioa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Euskararen hitzordena</head><p>Euskararen hitzordenaren arazoa oso eztabaidatua izan da, azken hogei urteotan proposamen ezberdinak, eta kontrajarriak ere, egon direlarik. Atal honen helburua oso orokorrak diren ezaugarri batzuk aurkeztea da, euskal hizkuntzalari batzuen laguntzaz baliatuz (Elorrietaren (1993) lanaz bereziki). Finkatu nahi dugu, aIde (12) Ingelesez "It-clefts" deitzen direnak. batetik, zein zentzutan esan daitekeen hitzordena libre deIa eta, beste aldetik, hitzordena libre izateak ordena neutroaren ideia ez dueIa oztopatzen.</p><p>Askotan aipatu izan den euskararen berezitasun bat bere hitzordena motarena da. 5intaktikoki, hitzordena librea da esaldiaren beheko maiIan; hau da, sintagmak esaldiaren edozein lekutan koka daitezke. MaiIa honetan ez dago murrizketarik (salbuespen batzuk alboan utzita) eta, beraz, sintaxiak sintagmen posizioa ez duela mugatzen esan dezakegu orokorki.</p><p>Bestalde, hitzordena sintagmaren barruan ez da libre, maila honetan ordena estua baitago. Beste ezaugarriren artean, esate baterako: ezin dugu sintagmaren elementuen artean beste sintagma baten osagairik jarri; genitiboak normalean izenaren aurrean doaz; adjektiboak, berriz, izenaren ondoan kokatzen dira, eta abar.</p><p>Baina, nahiz eta sintaktikoki ordena "librea izan, zenbait ikertzaile oinarrizko ordena baten aIde agertu da. Hauen iritziz, hitzordena neutro hau testuinguru "neutro" batean 13 agertzen dena (esate baterako, liburu edo artikuku baten hasieran) izango Iitzateke. Kontuan hartu behar da oinarrizko ordena edo ordena neutroaren nozioa pragmatikoa dela: sintaktikoki (sintagmaren goragoko mailan eta salbuespen batzurekin) ordena ez dago murriztuta, baina testuinguruak mugatzen duo Beste batzuren artean ordena neutro hauek proposatu izan dira: 14 -Lafitte <ref type="formula">(1962)</ref> Ondoko adibidean <ref type="bibr" target="#b31">(Osa 1990)</ref>  (14) Seguraski gaztelera eta frantsesaren eraginak zenbait ondorio izan du euskararen hitzordenean (hizkuntza hauek kasu askotan alderantzizko ordena erabiltzen baitute). Eragin horren ondorioz, baliteke beste ordena neutro ezberdinak sortu izana.</p><p>(15) N otazioa: zatiketa informazionalerako" aditzaren posizioa garrantzitsua denez, letra etzanez markatuko dugu. izateko. Eta horietariko batzuk agertzen badira, orduan modu adberbioa aditzaren alboan joan behar da:</p><p>(6) A: Galarzak erraz partidua irabazi du. <ref type="bibr" target="#b31">(Osa (1990)</ref> Esaldi honetan modu adberbio eta aditzaren artean partidua dago eta, horrexegatik, ezin da esan ordena neutroa dagoenik, hau da, ezin da izan "2er gertatu da?" galderaren erantzuna (bai, berriz, "2er irabazi du Galarzak erraz?" galderarena). Hortaz, pragmatikak hitzordena estuki murrizten duo Eta murrizketak jartzerakoan, fenomeno pragmatikoen artean, faktorerik garrantzitsuenetariko bat zatiketa informazionala dela suposatuko dugu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Egitura informazionala euskaraz: foku eta gai nagusiaren egiturak</head><p>Ikuspegi pragmatiko batetik bi egitura informazional bereiz dezakegu: foku nagusiaren eta gai nagusiaren zatiketak. Euskarak bi zatiketa hauei jartzen dizkien murrizketak ikusiko ditugu jarraian. Gure ustez, egitura informazional pragmatikoei perpaus mailan ez dagokie nahitanahiezko kodifikazio zehatz bat. Egitura informazional mota erabakitzean diskurtsuak eta testuinguru orokorrak (eta eraginkortasun irizpideak) gidatuko dute entzulea. Ondorioz, atal honetan ikusiko dugun egitura sintaktiko eta informazional arteko. erlazioak salbuespenak izan ditzake.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gai nagusiaren egitura: (gai)+elementu rhematikoak</head><p>Dagoeneko dakigunez, gaia testuinguruak ematen digu eta entitate bat (edo batzuk) izango da. Eliptikoa izan daiteke baina berreskuratu beharko da diskurtsuaren koherentzia aztertzerakoan. Agertzen bada, esaldiaren aurrekaldean (normalean) edo atzekaldean (murriztuago) kokatuta egongo da eta, lehenengo kasuan, geldiune prosodiko batek fokutik banan dezake (baina hizkuntza idatzian ez da normalean komarik agertuko).</p><p>Elementu rhematikoek ordena neutroa errespetatzen dute. Gaiak, berriz, ez du errespetatu behar (horregatik, hain zuzen ere, perpausaren aurrean edo amaieran ager daiteke). Batzutan, osagai bat baino gehiagok osatzen du gaia: orduan zerrenda-entonazioa 16 <ref type="bibr" target="#b15">(Eguzkitza 1986</ref>) agertzen da osagai hauek ahoskatzean (hau da, osagaien artean geldiune prosodikoak gauzatzen dira). Jabier Elorrietaren (1993) adibide bat erabiliko dugu ezaugarri hauek erakusteko: </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Foku nagusiaren egiturak: foku+ (elementu tematikoak)</head><p>Dakigunez, egitura mota hau diskurtsuak gogorki mugatzen du: situazioa eta bere egitura gehiena emana dago. Hiztunak, egitura mota hau erabiltzen badu, emandako situazioan hutsune bat (edo batzuk) bete edo aldatu egingo duo Sintaktikoki, fokua aditzaren aurrean agertzen da; hau da, mugimendu baten bitartez elementu fokalizatua(k) bere posizio neutrotik irten eta aditzaren aurrean kokatzen d(ir)a. Metodo honen bidez edozein osagai fokaliza daiteke. Lehen bezala, osagai tematikoak edozein ordenetan ager daitezke; zerrenda-entonazioak markatzen du osagai bakoitzaren statusa. Honetan ere Elorrietaren (1993) adibide batez baliatuko gara:</p><p>(9) Zer ekarri diozu semeari gaur goizean? a. Semeari* gaur goizean* /liburu berria/ ekarri diot. b. Nik* /liburu berria/ ekarri diot semeari gaur goizean. c. /Liburu berria/ ekarri diot nik semeari gaur goizean.</p><p>(9)-n agertzen diren erantzunak onargarriak dira testuinguru horretan, osagai fokalizatua aditzaren aurrean agertzen baita. Zerrenda-entonazioa (a)-n eta aditzaren osteko material tematikoa (b, c)-n ikus ditzakegu. Aditzaren ondoan material tematikoa agertzea ez dirudi problematikoa denik (aitzitik, gai nagusiaren egituretan, gaia aditzaren ostean agertzea murriztuago dago). Hurrengo adibidean (9)-n azaltzen diren esaldiek hemen zatiketa informazional desberdina daukatela erakusten da (nahiz eta foku nagusiaren egiturak izaten jarraitu).</p><p>(10) Zer egin diozu semeari gaur goizean? a. Semeari* gaur goizean* /liburu berria ekarri diotl. b. Nik* /liburu berria ekarri diot/ semeari gaur goizean. c. /Liburu berria ekarri diot/ nik semeari gaur goizean.</p><p>Foku nagusiaren egituren barnean, aditza bakarrik fokalizatu nahi denean beste aditz bat agertzen da, egin, aditz faltsua deitua izan dena. Era honetan, aditz nagusiaren edukin semantikoa bakarrik fokalizatzen da (marka aspektualak aditz faltsuari eransten zaizkiolarik).</p><p>(11) A: Ekainaren 4ean oporretara joango zarela entzun dut. B: Ez, 4ean letorri/ egingo naiz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Zatiketa informazionalaren integrazioa SDRTn</head><p>Atal honetan zatiketa informazionala eta hi diskurtsu erlazioren arteko elkarrekintza erakusten da. SDRT barnean elkarrekintza hori formalizatzen duten murrizketak definitzen dira eta euskarazko adibide batzurekin nola funtzionatzen duten ikusiko da.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Galde-Erantzun Pareak (QAPs)</head><p>QAP diskurtsu erlazioa tipikoki elkarrizketetan agertzen da. Elementu Galdekariren bat daukaten galderekin (EG-galderak) arituko gara <ref type="bibr">(nor, zer, eta abar</ref>  (22) (iii)n, eman dugun Zuzenketaren Semantika kontuan hartuta, erredundantzia dago baina (ii) espezifikoagoa da.</p><p>(23) Hau da, t zuhaitzean b DRSa a DRSari lotua izateko. (24) "Ez" Zuzenketa sartzen duen edozein diskurtsu partikula izan daiteke ("hori ez da egia", "hori gezurra da", "zer diozu?" eta abar).</p><p>Has gaitezen hurrengo adibidea formalizatzen:</p><p>(23) A: Pasa den udan ArantzakJoni euskara irakatsi zion. B: Ez, orain dela hiru urte irakatsi zion.</p><p>Perpausen mailan informazioaren prozesamenduak ondorengo. DRSak ematen dizkigu:</p><p>A:a x,v z e,t(e) e-irakatsi(irakasleak:x, ikaslea:y, irakatsitakoa:z) Arantza(x) Jon(y) euskara(z) pasa den uda(t(e)) B:b</p><p>x' ,v' z' e' ,tee') </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ondorioak</head><p>Foku eta gaiari egindako hurbilpen ezberdinek hizkuntza naturalaren fenomeno desberdinen azalpena izan dute helburu. Horien artean, entitate erreferentzialen stutus kognitiboa, fenomeno sintaktikoak (mugimenduak batez ere) edo fokua eraginpean hartzen duten (seguraski, kontrako informaziorik ezean) operadoreen arakaketa aipa dezakegu bereziki. Hemen egiten dugun proposamena diskurtsuaren koherentziak motibatzen duo Diskurtsuaren koherentzia ikertzen duen teoria bat, SDRT, erabili dugu, diskurtsu erlazioak (erretorikoak eta estrukturalak) bere interesgune direlarik. Zatiketa informazional eta diskurtsu erlazioen artean garrantzizko elkarrekintza dagoenez, perspektiba hau justifikatuta dago.</p><p>Bestalde, SDRT barnean informazio sintaktiko, semantiko eta pragmatikoaren arteko erlazio konplexuak eredutu ahal dira. Hau daukan egituragatik da posible: (i)</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>): t = &lt;A, d-S&gt;4 eta t' = &lt;A', d-s&gt; bi zuhaitz izanik, u: t~t' Atik A'rako zuhaitz isomorfismo bat dela esaten dugu baldin eta soilik baldin u bijekzioa bada eta "'la, bEA (asb baldin eta soilik baldin u(a)Su(b)).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>(8) Notazioa: bi barraren artean, /.../, material fokalizatua agertuko da.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>Hitzordena erabiliz hiztunak entzuleari fokua zein osagai den eta gaia zein jakiteko giltza sintaktiko garrantzitsu bat ematen dio. Hiztunak hitzordena erabiltzeaz gain prosodia eta erabaki lexikalak ere usatzen ditu. Ikusiko dugunez, geldiune prosodikoak erabiltzen dira material tematiko eta fokalaren artean bereizteko eta elementu tematikoak (bat baino gehiago daudenean) bata bestetik banantzeko.. Azentu nagusiek, nahiz eta euskalkien artean ezberdintasunak egon eta gai honi buruz datu gutxi izan, batzutan fokua markatzen dutela eta kontrastasun ideia batekin lotuta daudela ematen duo Erabaki lexikalei buruz hemen ez dugu ezer esango.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>: S Adb Oze Ozu Pred A -Rijk (1969): 5 Ozu A -Osa (1990): (5) Ozu A (5) (hau da, subjektua ordena neutroan bai lehenengo posizioan eta bai aditzaren ostean ager daiteke, subjektuaren joera lehenengo posizioan agertzea izan arren).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>Zuzenketaren Sernantika: Zuzenketa(A:a, B:b)20~b eta a inkonsistenteak: dira eta Oraingotu(t, B:b, B:b') eta b' = rowaAb, non row eta A proposamenen arteko operadoreak diren, v,.,.pe"'" vp eta V(pAq)~(Vp&amp;V q) baliokoak direIarik.Zuzenketen gaineko murrizketa: badago u:tb~ta isomorfismo partzialaren u' hedapen bat, non(i) u'(Foku(b» = X (ii) u'(EIem tem(b» == aminus X, non ematen duten informazioa situazio berari buruzkoa den (hortaz, konsistentea). Horrezaz gain, u'(elem tem(b» maximala da. 21 (iii) eta situazioari (hau da, EIem tem(b) eta a minus X) X eta Foku(b) gehitzen badizkiogu muItzo inkonsistentea lortzen baitugu. 22 DICE 1. Zuzenketa legea: «t, a, b&gt;23 eta Zuzenketen-gaineko-murrizketabete(a, b» Zuzenketa(a, b). AIdi berean, Zuzeketen gainean lege monotono bat postula dezakegu: DICE 2. Zuzenketa legea: «t, a, b&gt; &amp; Ez24 (b»~Zuzenketa(a, b) (20) Non A eta B elkarrizketako solaskideak diren eta a eta b, berriz, DRSak. (21) Maximalizazioa beharrezkoa da X zuzena lortzeko. (ii) behin-behinekoa da: situazio identitate irizpide bat behar dugu.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>e'-irakatsi(irakasleak:x', ikaslea:y', irakatsitakoa:z') urte(t(e~)) Eta hurrengo egitura informazional potentzialen multzoa lortzen dugu: PoS = {bl: /orain dela hiru urte/ irakatsi zion, b2: /orain dela him urte irakatsi zion/} hau da: Z1 25 (bl) : Foku(bl) = {orain dela hiru urte(te')}, Elem tem(bl) = {e' -irakatsi(irakaslea:x', ikaslea:y~, irakatsitakoa: z')} ZI(b2) : Foku(b2) = {e'-irakatsi(irakaslea:x', ikaslea:y~, irakatsitakoa: z'), orain dela hiru urte(te')}, Elem tem(b2) = 0 Eta orain arrazonamendu ez-monotonoa hasten da: u'(orain dela hiru urte(te')) = pasa den uda(te) (ii) u'( e'-irakatsi(irakaslea:x', ikaslea:y', irakatsitakoa: z')) = {e-irakatsi(irakaslea:x, ikaslea:y, irakatsitakoa: z'), Arantza(x), Jon(y), euskara(z)} situazio identitatea: e' =e, x' =x, y' =y, z' =z (iii) eta gehitzen badiogu {orain dela hiru urte(te'), pasa den uda(te)} (25) Zatiketa Informazionala. (i) u'(Jone(x'»~Uxue(x) (ii) u'( e'-lortu(lortzailea: x', lortutakoa: y'), te'&lt;orain) = {konputagailua(y), e-eskuratu(eskuratzailea: x; eskuratutakoa: y), te&lt;orain)} situazio identitatea: ve'-lortu=ve-eskuratu, x' =x, y' =y=konputagailua, te=te' Hemen, eskuratuk eta lortuk estentsio bera izan dezaketela (eta beraz, argumentuen arteko erlazioa) lexikoian dagoen tipo semantikoen sailkapen batek esango digu. (iii) eta gehitzen badiogu Uone(x'), Uxue(x)} multzo inkonsistente bat lortzen dugu: x=x' eta]one(x') = Uxue(x) (25) A: Uxuek]one jo zuen B: Ez, ]onek Uxue jo zuen Uxuejo(jotzailea:y',joa:x') t e' &lt;orain Foku(b)= Uone(y'), Uxue(x'), jotzailea: y', joa:x'} Ele tem(b)= {e' -jo(jotzailea:y', joa:x'), t' &lt;orain} u'(Foku (b»= Uone(y), Uxue(x), jotzailea:x, joa: y)} u'(Ele tem(b)= {e-jo(jotzailea:x, joa:y), t' &lt;orain} situazio identitatea: t=t', e' =e eta Foku(b) eta u'(Foku(b» sartzen badugu: jotzailea=y' =]one=x= Uxue joa=y=]one=x' =Uxue (inkonsistentzia)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>eta abarren hurbilpen sintaktikoak dira. Elorrietak proposatzen duenez, euskarak (baiezko perpausetan) foku eta gaia kodifikatzeko nagusiki bi egitura sintaktiko erabiltzen ditu. AIde batetik, osagaien ordena neutroa, guztia foku eta predikatu-foku egiturak (Lambrechten sailkapena erabiliz) kodifikatuko lituzkeena eta, bestalde, ordena neutroaren mugimenduak, non fokua aditzaren aurrera eta gaia fokuaren aurrera joaten den. Horrez gain, aipatu behar da egileak lortzen duela zatiketa informazionalaren deskribapena, here konplexutasun guztian, eta proposamen sintaktikoen errepaso zehatza egitea. Era zehatz eta sistematiko batean edukin semantiko eta diskurtsu egituraren arteko elkarrekintzaren deskribapenaz arduratzen da. Zehaztasunak (Asher 1993)an azaltzen dira. Grosz eta Sidner (1986) eta Mann eta Thompsonen (1987) Rhetorical Structure Theoryren (RST) tradizioan kokatzen da, non testu batetik eta diskurtsu erlazioak erabiliz, bata bestearekin erlazionatuta dauden proposizio multzo bat ateratzen dugun. SDRTn egitura hau eraikitzeko blokeak DRS segmentatuak dira; errekurtsiboki definitzen direnak DRS eta diskurtsu erlazio binakoak erabiliz. Diskurtsu erlazioaren kalkulua cia, hain zuzen ere, ezagutza iturri ezberdin batzuk erahiltzea eskatzen duena. Batzutan 'giltzak' agertzen dira, esate baterako, bi DRSren arteko diskurtsu erlazioa mugatzen duen diskurtsu partikularen bat. Baina sarritan ez da giltza nabarmenik egongo eta behin-behineko eta guztiz fidagarriak ez diren beste ezagutza iturri batzuk erabili beharko ditugu. Ezagutza iturrien arteko</figDesc><table><row><cell>Hemen aurkezten dugun materialaren egitura zehaztuko dugu jarraian. Lehenen-</cell></row><row><cell>go atalean Diskurtsu-errepresentazio segmentatuaren teoriaren oinarrizko ideiak</cell></row><row><cell>azalduko ditugu, azken atalean Zuzenketak eta Galde-Erantzun Pareak definitzeko</cell></row><row><cell>bide ematen duten definizio bi emanez. Bigarren atalean, aurreko hurbilpenari (bai</cell></row><row><cell>orokorrean eta bai euskarari buruz) errepasoa eman ondoren, diskurtsuaren ikuspun-</cell></row><row><cell>tutik egindako zatiketa informazionalaren teoria bat azaltzen dugu, foku nagusia eta</cell></row><row><cell>gai nagusiaren egituren gainean eraikitzen dena. Hirugarren atalean esaldi mailan</cell></row><row><cell>gaia eta fokua kodifikatzeko euskarak erabiltzen duen tresneria aurkezten da: hitzor-</cell></row><row><cell>dena eta geldiune entonazionalak bereziki. Amaitzeko, laugarren atalean, proposatu-</cell></row><row><cell>tako zatiketa eta bi diskurtsu erlazioren arteko elkarrekintzaz arduratzen gara.</cell></row><row><cell>Erlazio hauen esanahi semantiko eta pragmatikoa formaltzeko murrizketa formal</cell></row><row><cell>batzuk proposatzen dira SDRT barnean eta euskarazko adibide batzurekin mekanis-</cell></row><row><cell>mo hau nola dabilen erakutsiko dugu.</cell></row><row><cell>1. Diskurtsu-errepresentazio segmentatuaren teoria (SDRT)</cell></row><row><cell>SDRTren estrategia semantika konposizionala eta pragmatika eta semantikaren</cell></row><row><cell>arteko elkarrekintza aberatsa erabiltzean datza. Diskurtsu edukina mugatzeko iturri</cell></row><row><cell>informazional ezberdinak erabiltzen dira: semantika konposizionala eta lexikala, in-</cell></row><row><cell>terpretazio printzipio pragmatikoak, munduari buruzko ezagutza ez-linguistikoa</cell></row><row><cell>edo beste diskurtsuko solaskideei buruzko suposaketak (ikus Asher et al. 1993).</cell></row><row><cell>Diskurtsu edukina kalkulatzeko beste errepresentazio maila bat erabiltzen dugu,</cell></row><row><cell>non DRSak errepresentazio konplexuago bihurtzen diren. Suposatu t SDRSa eraiki</cell></row><row><cell>dugula lehenengo n perpausen informazioarekin eta orain n+ 1 a perpaus edo klausu-</cell></row><row><cell>la prozesatzen dugula. Orduan DRS berri hau t diskurtsuan sartzeko (i) lotzeko</cell></row><row><cell>puntu posible bat kalkulatzen dugu eta (ii) lotura horretarako diskurtsu erlazioa</cell></row><row><cell>inferitzen dugu.</cell></row></table><note>SDRT Discourse Representation Theoryren (DRT)3 hedapen bat da.(3) Hemen ez daukagu lekurik teoria honen oinarrizko nozioak azaltzeko. Ikus Kamp &amp; Reyle (1994) edo</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>ere aurki daiteke. gatazkak erabakitzeko formalismo ez-monotono bat erabili behar dugu. Era berean, hauetariko iturri bat zatiketa informazionala denez, ez-monotonotasuna foku eta gaiaren teoriaren zati bat ere izango da.Logika ez-monotono honen zehaztapenik ez dugu hemen egingo (ikus Lascarides eta Asher 1993), baina axiomak idaztean hizkuntza formal bat erabiliko dugu, proposizioen logikako sinboloez aparte '&gt;' sinboloa usatzen duena. A&gt;B-k informalki ondorengoa adierazten du: baldin A orduan normalki B.</figDesc><table><row><cell>Diskurtsu egitura eta zatiketa informazionalaren arteko erlazioa SDRT barnean</cell></row><row><cell>araka dezakegu. Semantika alorrean ezaguna denez -nahiz eta elkarrizketaren anali-</cell></row><row><cell>sian berria izan-SDRTk semantika dinamiko mota bat erabiltzen duo Bere ezauga-</cell></row><row><cell>rririk berezienak egitura errepresentazionala eta arrazonamendu ez-monotonoa dira.</cell></row><row><cell>Honek SDRT barnean garatuko dugun foku eta gaiaren teoriarako eragin handia</cell></row><row><cell>izango duo</cell></row><row><cell>DRS baten egitura logikoa bere azpiDRSen multzo (partzialki) ordenatuaren</cell></row><row><cell>bidez errepresenta daiteke, non ordena menpekotasun erlazioak (S) sortzen baitu.</cell></row><row><cell>Edozein egiturak DRS maximal bat izango duenez, azpiDRSen multzo hau zuhaitz</cell></row><row><cell>bat izango da eta SDRTn zuhaitz txertatua deitzen da. Zuhaitz txertatuen azpiDRS</cell></row><row><cell>guztiak ez baditugu hartzen zuhaitz txertatu aldatua (ME zuhaitza) deituko da.</cell></row><row><cell>Ondoren bi definizio formulatzen dugu, geroago diskurtsu erlazioa eta zatiketa</cell></row><row><cell>informazionalaren arteko elkarrekintza eredutzeko aukera emango digutenak.</cell></row></table><note>DEFINIZIOA</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>da. Steedmanek foku eta gai nozioak eta sintaxiaren arteko erlazioa formaliza dezakegula mantentzen du, marko sintaktiko bat erabiliz. Berak ingeleserako eta Gramatika Kategorial Konbinatorioa (CCG) erabiliz egiten du proposamena: ,zehazki, CCG arau fonologiko multzo batez aberastea. Proposamen honen aIde positiboa gramatika honen gainsortze gaitasuna mugatzean (arau prosodikoak katea batzuen sorrera eragozten baitute) eta ikuspuntu tradizional batetik agramatikal ziruditen katea batzuek zentzua hartzean datza. Baina problemak ere badauzka gure iritziz. Nahiz eta batzutan informazio sintaktiko eta prosodikoa gai/foku bereizketa emateko nahikoa izan, gehienetan ez da horrela gertatzen eta testuinguru linguistiko eta extralinguistikora jo behar dugu. Honek esan nahi du Steedman zenbait gai eta mugen sarrerako arau formulatzera behartuta dagoela, edozein osagairen kategoria fonologikoa libreki alda dezaketelarik. Baina arau horiek erabiltzeko murrizketek pragmatika alorretik etorri beharko dute eta Steedmanek ez du aIde pragmatiko hau ukitu ere egiten. Zat-iketa informazionalaren azalpen bat emateko sintaxi maila ez da nahikoa ezta garrantzitsuena ere, foku eta gai nozioak pragmatikoak baitira. (7) Vallduvik (1990) terminu hau zatiketa informazionalaren modulua adierazteko proposatzen duo ISABELG6MEZTXURRUKA Foku-lotura-buztan pragmatikoak: Vallduvfren osagai inJormazionala Atal honetan sartuko dugun azken proposarnena Vallduvik bere tesian egindakoa da(Vallduvf 1990). Ikuspuntu tradizionalera(Chafe 1976, adibidez)  itzultzen da zatiketa inforrnazionala pragmatika barruko osagai -modulu-kontsideratuz. Vallduvfrentzat focus/ground bereizketa entzuleak esaldi bateko edukin semantikoaren oraingotzeko erarekin dago erlazionatuta; hau da, egitura informazionalak entzuleari inforrnazioa prozesatzeko jarraibideak ematen dizkio, bere iritziz. Fokua esaldiaren zati informatibo bakarra da, eta entzuleak osagai fokalizatua artxibu batean gorde behar du (Heim-en 1983 artxibu aldatze sernantika erabiliz). Ground (fokuaren osagarria) zatiaren barnean Vallduvfk buztan eta lotura bereizten ditu: loturak entzuleari fokua non gorde behar duen esaten dio (hau cia, artxibu seinalatzailea da), eta buztanak artxibu horren barruan osorik ez dagoen lerro edo baldintza identifikatzen du: hutsune hartan sartu beharko ditu entzuleak osagai fokalizatuak. Vallduvfk proposatutako kategoriek esaldiak sailkatzeko aukera ematen dute: guztia Joku J lotura-foku J lotura-joku-buztan eta Joku-buztan. Emandako definizioak kognitiboak direnez (eta ez hizkuntza bati lotuak), ez dute perrnititzen edozein esaldiren zatiketa informazionala identifikatzerik. Hori dela eta, Vallduvfk katalanerako eta ingeleserako hizkuntz menpekoak diren definizio operazionalak ere proposatzen ditu.Zatiketa informazionala entzulearen usteei buruz hiztunak duen ereduaren oraingotze gisa definitzea oso ideia interesgarria da. Horrez gain, egileak hizkuntza ezberdinek fenomeno hau kodifikatzeko mekanismo desberdinak (bere definizio operazionalak) erabiltzen dituztela azpimarratzen duo Eta zehazki, ingeleserako honako hau proposatzen du: osagai fokalizatuaren elementu batek esaldiaren azentu nagusia eramaten du, lotura esaldiaren hasieran agertu behar da eta buztana loturaren osagarria da.Aitzitik, katalanak batez ere mekanismo sintaktikoak erabiltzen ditu eta ondorioz, Vallduvfk proposamen sintaktiko bat egingo du orobat. Hain zuzen ere, katalana vas hizkuntza dela baieztatzen duo Eta zuhaitz sintaktikoan fokua adabegirik beherenean azalduko da, lotura ezkerraldean dislokatuta eta buztana eskumaldean dislokatuta agertuz.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>, Ortiz de Urbina (1986) eta abarren hurbilpen sintaktikoen perspektiba hartzen duo Elorrietaren arabera, euskarak (baiezko perpausetan) foku eta gaia kodifikatzeko bi egitura sintaktiko erabiltzen ditu batez ere. AIde batetik, osagaien ordena neutroa, guztia /oku eta predikatu /okua (Lambrechten sailkapena erabiliz) (9) Hau beharrezkoa da, esatebaterako, fokuarekin elkarczen diren elementuen azalpen bat emateko, 204~ABELG6MffiZTXURRUKA egiturak kodifikatuko lituzkeena eta, bestalde, ordena neutroaren mugimenduak, fokua aditzaren aurrera eta gaia fokuaren aurrera joango liratekeenak (foku estua). Nahiz eta gu Lambrechten sailkapenarekin ados ez egon, Elorrietaren lana garrantzitsua iruditzen zaigu, oso garbi uzten delako zatiketa informazionala kodifikatzeko nagusiki bi era sintaktiko bakarrik dagoela. 2.3. Zatiketa informazionalaren teoria bat diskurtsu ikuspuntutik: foku eta gai nagusiaren egiturak Atal honetan diskurtsu perspektibatik foku eta gaiaren teoriarantz marko orokor bat ezartzeko hiru hipotesi azaltzen dira. Ez daude hizkuntza natural konkretu bati lotuta (baina, orain arte, batez ere euskara eta ingelesarekin erabili dira).</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>Zer gertatu da? a. Liburua bidali dio gizonak Peruri. b. Gizonak liburua bidali dio Peruri. c. Peruri liburua bidali dio gizonak. Horrezaz gain, Osak honako hau azpimarratzen du: 0zu' Pred edo modu adberbio bat baldin badago, aditzaren aurrean agertu behar da ordena neutro edo oinarrizkoa (13) Ezaguna denez, testuinguru neutroaren ideia 050 eztabaidatua da. Searlek, adibidez, testuinguru neutrorik ez dagoela defendatzen du (baita Marcelo Dascalek ere). Testuinguru guztiek aurresuposizio batzuk izango lituzkete, hauen iritziz. Dena dela, eztabaida hau artikulu honetik at geratzen da. Hemen defendatuko dugu elementu rhematikoek ordena neutroa erabiltzen dutela. Beharbada, diskurtsuaren teoria eta zatiketa informazionala erabiliz ordena neutroaren definizio alternatibo bat eman genezake (hau da, testuinguru neutroaren nozioa erabiltzen ez duena).</figDesc><table><row><cell>argi geratzen da bai objektu zeharkakoa eta bai</cell></row><row><cell>subjektua edozein posizioan ager daitezkeela ordena neutroa mantenduz (horrelako</cell></row><row><cell>galdera batek, informazioa aurreratzen ez duena, erantzunean ordena neutroa eska-</cell></row><row><cell>tzen duela suposatzen da): 15</cell></row><row><cell>(5) Q:</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>IAtezainaren semeak herrian ikusi dui Mike!. c. Mikel* Iherrian ikusi du atezainaren semeakl. gertatzen. Hala ere, testuinguruak (aurreko esaldiak) erantzunaren edukin informatihoa mugatzen duo Konkretuki, situazio hat sartzen du, non situazioaren denbora eta espazioa testuinguruak emanak baitira. Erantzuna egokia izateko denbora eta espazio horiei buruz izan behar da.</figDesc><table><row><cell>Nahiz eta sintaktikoki (7) eta (8) adibideak</cell></row><row><cell>ezberdinak izan «7)n gaia, Mikel, dislokatua agertzen baita) informatiboki zatiketa</cell></row><row><cell>mota berdina dute.</cell></row><row><cell>(8) Zer gertatu zen?</cell></row><row><cell>a. /Mikel atezainaren semeak herrian ikusi du/.</cell></row><row><cell>b. /Atezainaren semeak herrian ikusi du Mikel/.</cell></row><row><cell>c. /Mikel herrian ikusi du atezainaren semeakl.</cell></row><row><cell>(7) Zer diozu Mikeli buruz?17</cell></row><row><cell>a. Mikel* latezainaren semeak herrian ikusi dui.</cell></row><row><cell>Hiru esaldiak Mikel gai gisa sartzen duen galderaren erantzun egokiak dira. Gaia</cell></row><row><cell>esaldiaren aurrean (a, c) edo amaieran (b) ager daitekeela eta ordena neutro ezberdi-</cell></row><row><cell>nak berdinki onargarriak direla erakutsi nahi dute. Hurrengo adibidean ez da gaia</cell></row><row><cell>(16) Ingelesez ere agertzen da batzutan lllist type enumeration" hau (esatebaterako, ikus Erteschik-</cell></row><row><cell>shir 1986).</cell></row><row><cell>(17) Notazioa: asteriskoek (*) geldiuneak markatzen dituzte.</cell></row></table><note>b.agerian</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>). Diskurtsu erlazio honen hitzordenarik bereziena da elementu galdekariei dagozkien erantzunaren elementuak aditzaren aurrean jartzea. EG-galdera bati dagokion erantzun zuzen bat foku + elementu tematikoak erakoa da (gai+elementu rhematiko erakoa ere izan daiteke., behean ikusiko dugunez). Ez gaia ezta elementu tematikoak ere ez dute agerian agertu behar: bere edukina eta egitura galderatik heredatuak izan daitezke. IUxuek babarrunakjan zituenl.QAPfoku-aren gaineko murrizketak zatiketa informazionala eta diskurtsuaren egitura era zehatz batean erlazionatzen direla erakusten duo SDRTren ondorioa da QAPfoku-aren gaineko murrizketa ez bada betetzen orduan ikusi dugun bezalako elkarrizketa txikiak inkoherenteak izango direla. Hau horrela da galdera eta erantzunaren artean beste erlazio ezberdin bat ezin dugulako sartu.Hortaz, zuzendu ahal izateko, zuzenketa eta helburua situazio berari buruz izan behar dira eta daramaten informazioa inkonsistentea izan behar da. Entzuleak helburuarekin daukan lotura ezarri ez badu, ez dugu esango esaldia ulertu duenik.</figDesc><table><row><cell>Hurrengoan zatiketa mota bera daukagu erantzunean: galderek testuinguru bera</cell></row><row><cell>sartzen baitute.</cell></row><row><cell>(16) A: Zer gertatu zen babarrunekin? Zer egin zuen Uxuek beraiekin?</cell></row><row><cell>B: Uxuek* babarrunak* fjan/ egin zituen. Diskurtsuaren koherentziari begira, zuzenketaren zatiketa informazionala eta dis-</cell></row><row><cell>kurtsu erlazioaren arteko elkarrekintza oinarrizkoa da. Hain zuzen ere, konpartitzen Gainontzeko adibideek ere foku nagusiaren egitura daukate: gertakaria daukagu Orain ikus dezagun nola funzionatzen duen tresneria honek babarrunei buruzko duten informazioa eta aurkakoa denaren arteko bereizketa egitura informazionalak eta bere osagai gehienak. adibide sinple batekin: 18 ematen duo Zatiketa informazionalak Zuzenketa erlazioa murrizten, du, informazio</cell></row><row><cell>(17) A: Nork jan zituen babarrunak? B: Babarrunak *fUxuekf jan zituen. komuna edukin tematiko gisa eta informazio inkonsistentea foku gisa etorriko dire-(22) Q: Zer egin zuen Uxuek babarrunekin? lako. A: Uxuek* babarrunak* jan egin zituen. A: Badakit zer kuzinatu zuen Uxuek. Baina, zer jan zuen? B: Uxuek* fbabarrunakJ jan zituen. Q:a Zuzenketen zatiketa informazionalaren bigarren ezaugarria nahitanahiez foku na-A:b gusiaren egitura dela da. Esan dugunez, diskurtsuak situazio bat sartu behar du eta</cell></row><row><cell>Bi egitura informazional mota hauek erantzunetan ager daitezkeela kontuan zuzenketak situazio horren elementu gehienak (denbora, espazioa, entitateak, rolak</cell></row><row><cell>hartuta, murrizketa ezberdinak behar izango ditugu QAPak eredutzeko. QAP foku Uxue(x) Uxue(x') eta abar) kopiatuko ditu fokuaren materiala ezik -eta QAPentzat permititutako</cell></row><row><cell>foku nagusiaren erantzunak dauzkagunean erabiliko dugu (QAPgaia gai nagusiarene-babarrunak(y) babarrunak(y') aldaketak hemen ere onartuz.</cell></row><row><cell>kin) eta lan honetan lehenengoetara mugatuko gara. QAP foku erlazioetan galderak sartzen duen egoera eta erantzunean agertzen denaren arteko harremana oso estua da: erantzuleak situazio hori bete egin behar du eta bakarrik perspektiba alda daiteke. e-egin(x,y,e") t(e)&lt;orain ") e . e'-egin(x' ,y',e"') Hemen proposatuko dugun formalizazioa QAPfoku-entzat sartutakoaren antzera-jan(e''') koa izango da. Diskurtsu erlaziorako semantika bat emango dugu eta, ondoren, t e')&lt;orain inposatutako murrizketa Zuzenketa erlazio hori egon daitekeela ondorioztatzeko</cell></row><row><cell>]ackendoffek (1972) proposatutako babarrunen adibideen antzekoak erabiliko Intuizio hauek formalizatuko ditugu. PoS(b) = {Uxuek babarrunak /jan/ egin zituen} beste klabe bat bezala erabiliko dugu.</cell></row><row><cell>ditugu zatiketa ezberdinak erakusteko eta, konkretuki, bi mota ager daitezkeela ikusteko. (12)-n galdetzaileak entitate bati buruz galdetzen du eta erantzunean, QAPjoku-aren gaineko murrizketa: QAP foku (a, b) &amp; EG-galdera(a) bakarrik baldin u:tb-+t a zuhaitz isomorfismo (partzial) bateko u' hedapen bat bada, non Hauda:</cell></row><row><cell>erantzun egokia izateko, gai informazionalak entitate hori izan behar duo Gai nagu-siaren egitura da. Fokua = {jan(e''')} (i) u'(Foku(b» honako hau baita: EG-elementuak sartzen duen a operadore batek lotutako aldagaia, eta Elem tern = {Uxue(x'), babarrunak(y'), e'-egin(x' ,y',e"'), te'&lt;orain}</cell></row><row><cell>(ii) u'(Elem tem(b» = a minus u'(Focus(b», non sartzen duten informazioa Orain inferentzia ez-monotonoa erabiltzen dugu: (12) Q: Zer gertatu zen Uxuerekin? A: Uxuek* Ibabarrunakjan zituenl. situazio berari buruzkoa den (hortaz, konsistentea). 1. e"? (Q:a)-n agertzen den elementu galdekaria19</cell></row><row><cell>(ii)n sartutako baldintzak situazioa deskribatzean era ezberdinak (perspektibaren Hurrengo adibidean galdera mota berdina daukagu eta gai nagusiaren egitura bera lortzen dugu. Osagai rhematikoa ez da eraikigarria (GBn edo LFGn eta konfi-aldaketak) onartuko ditu: 2. QAPfoku</cell></row><row><cell>gurazionalitatea suposatuz) baina gaia bai. (a) Galdera eta erantzunak entitate bera aipatzeko terminu lexikal desber-3. QAPfoku-aren gaineko murrizketa aplikatzen dugu (2)n</cell></row><row><cell>dinak (18, 19a), nahiz propietate eta erlazio desberdinak (19b) erabil (i) u'(jan(e'''» = e"? (13) Q: Zer gertatu zen babarrunekin? ditzakete: (ii) u'( {Uxue(x), babarrunak(y), e-egin (x, y, e"), te&lt;orain}) = A: Babarrunak* IUxuekjan zituenl. (14) Q: Zer gertatu zen? {Uxue(x'), babarrunak (y'), e'-egin(x' ,y',e"'), te' &lt;orain} (18) Norena da txakurra? situazio identitatea: e=e', te = te', x=x', y=y', e" =e'" Fox terrierra nire lagunarena da. A: (14)-n agertzen den zatiketa gai nagusiarena da. Testuinguruak entitate bat inposatzen du, kasu honetan situazio bat delarik. Erantzuna egokia izateko situazio horri buruz izan behar da (gutxienez denbora eta lekua mantenduz). (19) Nork jan zituen espagetiak? 4.2 Zuzenketak (a) Uxuek jan zuen plater osoa. Zuzenketak ere elkarrizketetan agertzen dira batez ere. Zuzenketa batek aurreko (b) Uxuek irentsi zituen. proposamen batekin inkonsistentea den proposamen bat baieztatzen du (seguraski</cell></row><row><cell>Hurrengo adibidearen zatiketa inforrnazionala guztiz ezberdina da: hemen gal-(b) Perspektiba berria sartzen duen aldaketa estrukturala ere onartzen du: solaskideak: egina). Aurreko proposamena helburu deituko dugu. Zuzentzean, hiztu-</cell></row><row><cell>detzaileak situazioa proposatzen du eta situazio horretan zerbait faltan dagoela adie-razten du (Uxuek babarrunekin egin zuen x, x= ?). Gertaera mota (ekintza), denbora, nak aurretik aipatutako situazio edo gertakariaren propietateren bat ezeztatzen du (20) Nork eskuratu zuen konputagailu berria? -edo aurrez aipatu esaldi batetik atera dezakegun aurresuposizio bat edo inferitu Uxueri eman zioten. dezakegun intentzio edo usteren bat. entitateak eta situazioan jokatzen duten rolak emanda daude. Foku nagusiaren egi-(c) Era berdinean, material elidituaren berreskuratzea ere permitituko du: tura da. (15) Q: Zer egin zuen Uxuek babarrunekin? A: Uxuek* babarrunak* Ijan/ egin zituen. (18) Material eliditua, anaforak edo perspektibaren aldaketarik ez dagoenez, rol argumentaIak (21) Nor joan zen Bosniara eta hango egoeraz liburu bat idatzi? formalizaziotik at uzten ditugu. Goytisolok egin zuen. (19) Lerroaren eskumaldean agertzen dena lerroaren justifikazioa da.</cell></row></table><note>fflABELG6MffiZTXURRUKA</note></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+				<title level="m">inkonsistente bat lortzen dugu: te&apos;= te (e=e&apos; delako), eta orain dela hiru urte(te&apos;)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Egiaztatu behar da arrazonamenduak ZI(b 2 ) ezabatzen duela: 3&apos;. Zuzenketen gaineko murrizketa ZI(b2) zatiketari aplikatzen badiogu, ikusten dugu ez duela maximitate baldintza betetzen eta orduan ezabatu egiten da</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Zuzenketarik ez dagoela eta, beraz, diskurtsua inkoherentea izango dela (ez baitago beste erlazio alternatiborik)? (23&apos;) A: Arantzak Joni euskara irakatsi zion orain dela him urte. B&apos;: Ez, hondartzan irakatsi zion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bestalde</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>esaten al digu tresneria honek</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Zuzenketen gaineko murrizketaren arabera, (iii) baldintzan, ez dugu multzo inkonsistente bat lortzen. Era berdinean (24) eta (25) adibideetan mekanismoa aplikatzen badugu behar dugun eredua lortzen dugu</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zuzenketen</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Semantika Eta Zuzenketen Gaineko Murrizketa Betetzen Ez Dituelako</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Konkretuki</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>24) A: Uxuek eskuratu zuen konputagailu berria. B: Ez, Jonek lortu zuen</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Uxue(x) konputagailua(y) e-eskuratu (eskuratzailea:x, eskuratukoa:y) t(e) &lt;orain B:b x</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jone</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>x&apos;) e&apos;-lortu (lortzailea:x, lortutakoa:y) t(e&apos;)&lt;orain</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">=</forename><surname>Pos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>{bi</surname></persName>
+		</author>
+		<title level="m">IJonekllortu zuen, b 2 : IJonek lortu zuen/} hau da: ZI(bl): Foku(bl) = Uone</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+				<title level="m">Elem tem(bl) = {e~-lortu(lortzailea: x&apos;, lortutakoa: y&apos;), te&apos;&lt;orain} ZI(b2): Foku(b2) = { Jone(x&apos;), e&apos;-lortu</title>
+		<imprint/>
+	</monogr>
+	<note>lortzailea: x&apos; , lortutakoa: y&apos;), te&apos;&lt;orain}, Blem tem(b2) = 0 partikula B:b esaldian DICE 2. Zuzenketa legea (l)n</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Proposatu den zatiketa informazionalaren teoriak bi egitura informazional motaren artean bereizten du: foku nagusiaren eta gai nagusiaren egiturak. Dominantzia motak zatiketaren (gutxienez) zein elementu izango den sintaktikoki (GBn) eraikigarria determinatzen duela suposatu dugu. Dominantzia mota funtsean diskurtsuak emango du: gai nagusiaren egituretan diskurtsuak entitate bat (edo batzuk) sartzen duen bitartean, foku nagusiarenetan egitura bat sartzen du, situazio estrukturatu bat: gertaera, argumentu-rolak eta abar, eta egokitzen ez den esaldiaren zati bakarra fokua da. Zatiketa informazionalaren teoria baten bitartez proposatutako SDRTren hedapena euskara zati bat eredutzeko erabili izan da. Orain arte, euskarari buruz egindako lan gehienak sintaxi arloari dagozkio. Maila semantiko eta pragmatikoetan oraindik ia ez dago ezer eta, zentzu honetan</title>
+		<ptr target="hemenaurkeztutakolanabehin-behine-koakontsideratubeharda.Lanhonetanegindakosuposiziobatzuekikerketagehiagobeharduteetaeuskalpragmatikaetasemantikakogerokolanekhemengaratutakoteoriariargiberria(etaaldaketak)ekarrikodiotelaerrazpentsadezakegu" />
+	</analytic>
+	<monogr>
+		<title level="m">Zuzenketen gaineko murrizketa ZI(b1) zatiketari: teoria sintaktiko bat (GB) oinarrian, (ii) DRS eraiketa prozedura formal bat (analisi sintaktikoaren gainean), zati batzurentzako eredu teoriaren interpretazio batekin -edukin semantikoa formaltzeko-eta (iii) diskurtsu erlazioen teoria bat</title>
+		<imprint/>
+	</monogr>
+	<note>SDRSak ematen diguna eta inferentzi ez-monotono sistema bat (DICE) erabiltzen duena -maila honetan esangura semantiko eta pragmatikoa aztertzen direlarik. Hori dela eta, aipatu argumentuak zuzenak baldin badira, SDRT zatiketa informazionalaren fenomeno pragmatikoa aztertzeko marko egokia da. Bestalde, goian azaldutako zatiketa informazionalarekin erlazionatuta dauden hiru arazo taldeak SDRTn argi izan daitezke, hiru analisi mailak baitauzka. Horrez gain, teoria honek zatiketa informazionalaren teoria aberats bat garatzea, foku eta gaia bere inguru naturalean -hau da, diskurtsuan-arakatuz, eta diskurtsu erlazioekin daukan konexioa aztertzea permititzen duo Galde-Erantzun Pare eta Zuzenketekin erakutsi dugunez, konexio hau funtsezkoa da: zatiketa aukeratzen laguntzen du eta baldintza beharrezko bat inposatzen du diskurtsu erlazioen gainean</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">From Discourse Macro-structure to Micro-structure and Back: Discourse Semantics and the Focus/Background Distinction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicholas</forename><surname>Asher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the workshop on temporal and spatial reasoning</title>
+		<meeting>the workshop on temporal and spatial reasoning<address><addrLine>Dordrecht; I]CAl</addrLine></address></meeting>
+		<imprint>
+			<publisher>Kluwer Academic Press</publisher>
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+	<note>Mixel Aurnague, Mirian Bras &amp; Laure Vieu</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+				<idno>ILCLI-95-LIC3</idno>
+		<title level="m">eta Isabel G6mez Txurruka</title>
+		<imprint>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Report</note>
+	<note>4Extending SDRT to integrate a theory of the informational partition</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Word order and wh-movement in Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Azkarate</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Farwell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ortiz De Urbina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Saltarelli</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1981" />
+			<biblScope unit="page">12</biblScope>
+			<pubPlace>Cambridge, Ma</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">4Givenness, contrastiveness, definiteness, subjects, topics, and point of view</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wallace</forename><forename type="middle">L</forename><surname>Chafe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Subject and topic</title>
+		<editor>C. Li</editor>
+		<meeting><address><addrLine>NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Keith</forename><surname>Devlin</surname></persName>
+		</author>
+		<title level="m">Logic and Infonnation</title>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The expression of focus in Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Donzeaud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ASjU VI</title>
+		<imprint>
+			<date type="published" when="1972" />
+			<biblScope unit="page" from="35" to="45" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Topics on the syntax ofBasque and Romance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andolin</forename><surname>Eguzkitza</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1986" />
+			<publisher>VeLA</publisher>
+		</imprint>
+	</monogr>
+	<note type="report_type">Ph. D. diss</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Focus, topic and word order in Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">]</forename><surname>Elorrieta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Abier</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+		</imprint>
+		<respStmt>
+			<orgName>Austin: University of Texas</orgName>
+		</respStmt>
+	</monogr>
+	<note>Qualifying paper II</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Wh-questions and focus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nomi</forename><surname>Erteschik-Shir</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Linguistics and Philosophy</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="117" to="149" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kai</forename><surname>Von Fintel</surname></persName>
+		</author>
+		<title level="m">Restrictions on quantifier domains&apos;. UMASS diss</title>
+		<imprint>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patxi</forename><surname>Goenaga</surname></persName>
+		</author>
+		<title level="m">Gramatika hideetan. Donostia: Erein</title>
+		<imprint>
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Attention, intentions and the structure of discourse</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Barbara</forename><forename type="middle">)</forename><surname>Grosz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Eta Candace</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sidner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computational Linguistics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="175" to="204" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Semantic interpretation in generative grammar</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ray</forename><surname>Jackendoff</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1972" />
+			<publisher>MlT Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">From discourse to logic</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Kamp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">U</forename><surname>Hans</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Reyle</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>Kluwer Academic Publishers</publisher>
+			<pubPlace>Dordrecht Holland</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Formal semantics for Natural Language</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kepa</forename><surname>Korta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jesus</forename><forename type="middle">Mari</forename><surname>Eta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Larrazabal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ASjU XVII</title>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="371" to="393" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Knud</forename><surname>Lambrecht</surname></persName>
+		</author>
+		<title level="m">Information structure and sentence form</title>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Temporal interpretation, discourse relations and commonsense entailment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alex</forename><surname>Lascarides</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicholas</forename><surname>Asher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Linguistics and Philosophy</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Grammaire Basque (Navarro-Lahourdin litiraire)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Lafitte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Baiona: Editions des Amis du Musee Basque et Ikas</title>
+		<imprint>
+			<date type="published" when="1962" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A theory oftext organization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Mann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Thompson</surname></persName>
+		</author>
+		<idno>ISI-RS-87-190</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ISI Reprint Series</title>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+	<note>Rhetorical Structure theory</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Galdegaia eta mintzagaia euskaraz&apos;, Euskallinguistika eta literatura J 57-81. or., Deustuko Unibertsitatea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Empty categories and focus in Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Urbina</forename><surname>Ortiz De</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Studies in the Linguistic Sciences</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="133" to="156" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Parameters in the grammar of Basque, A GB approach to Basque Syntax</title>
+		<imprint>
+			<date type="published" when="1989" />
+			<publisher>Foris</publisher>
+		</imprint>
+	</monogr>
+	<note type="report_type">Dordrecht</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Euskararen hitzordena komunikazio zereginaren arauera. Bilbo: EHUren Argitarapen Zerbitzua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eusebio</forename><surname>Osa</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Is basque an SOV language?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rudolfp</forename><forename type="middle">G</forename><surname>Rijk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1969" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="319" to="352" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A note on focalization on Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">George</forename><surname>Rebuschi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">journal of Basque Studies</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="29" to="42" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">A theory of focus interpretation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mats</forename><surname>Rooth</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1985" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Massachusetts</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph. D. diss</note>
+	<note>Association with focus. Natural Language Semantics 1</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">The meaning of the sentence~n its semantic and pragmatic aspects</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Sgall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Hajikova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp; )</forename><surname>Panevova</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1986" />
+			<publisher>Reidel</publisher>
+			<pubPlace>Dordrecht</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Topic, Focus and local relevance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Von Stechow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Crossing the boundaries in linguistics</title>
+		<editor>W. Klein &amp; W. Levelt</editor>
+		<meeting><address><addrLine>Dordrecht</addrLine></address></meeting>
+		<imprint>
+			<publisher>Reidel</publisher>
+			<date type="published" when="1981" />
+			<biblScope unit="page" from="95" to="130" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The grammar of intonation and &quot;focus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Steedman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lg</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="260" to="296" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+	<note>Structure and Intonation. draft</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">The informational component</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;apos;</forename><surname>Vallduvi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Enric</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Pennsylvania</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph. D diss</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

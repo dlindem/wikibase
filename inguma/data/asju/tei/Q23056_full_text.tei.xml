@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="id">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">HITZ HURRENKERA ETA BIRREGITURAKETA EUSKARAZ</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ricardo</forename><surname>Etxepare</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Myriam</forename><surname>Uribe-Etxebarria</surname></persName>
+						</author>
+						<title level="a" type="main">HITZ HURRENKERA ETA BIRREGITURAKETA EUSKARAZ</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>IKER-UMR5478) a (Universidad del País Vasco/Euskal Herriko Unibertsitatea) b</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="0.">Abstract</head><p>The analysis focuses on those varieties of Basque that admit the participial dependent to occur either before or after the modal verb. It is shown that in these varieties, the syntactic position of the participial dependent correlates with differences in its internal structure: whereas participial dependents can correspond to TPs when they are located to the right of the modal verb in Basque (a typically SOV language), they cannot correspond to anything more complex than a small v structure when they surface to the left of the modal verb. Our analysis of the internal structure of participial dependents also extends to issues concerning the basic word order of Basque. It is claimed that the analysis presented here requires the auxiliary to be generated to the left of the verb phrase, as the antisymmetry hypothesis would posit.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="id">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="0.">Abstract</head><p>The analysis focuses on those varieties of Basque that admit the participial dependent to occur either before or after the modal verb. It is shown that in these varieties, the syntactic position of the participial dependent correlates with differences in its internal structure: whereas participial dependents can correspond to TPs when they are located to the right of the modal verb in Basque (a typically SOV language), they cannot correspond to anything more complex than a small v structure when they surface to the left of the modal verb. Our analysis of the internal structure of participial dependents also extends to issues concerning the basic word order of Basque. It is claimed that the analysis presented here requires the auxiliary to be generated to the left of the verb phrase, as the antisymmetry hypothesis would posit.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Sarrera 1</head><p>Euskarak bezala SOV azpiko hitz hurrenkera eta menpeko perpaus jokatugabeak dituzten hainbat hizkuntzatan, gauza ezaguna da batetik, perpaus jokatugabeak aditz nagusiaren aurretik edo atzetik ager daitezkeela, eta bestetik, hitz hurrenkera horiek ezaugarri jakin batzu galdatzen dituztela egitura aldetik. <ref type="bibr">Wurmbrandt-ek (2001</ref><ref type="bibr">Wurmbrandt-ek ( , 2005</ref> hizkuntza germanikoentzat proposatzen duen sintesiari jarraitzen badiogu esate baterako, iduri luke bi egitura moeta nagusi badirela hizkuntza horietan: aditz nagusia laguntzaile bat denekoa, menpekoa aditzaren aurrean baizik onartzen ez dutenak; eta aditz nagusia lexikoa den kasua, zeinetan menpekoa aurretik nahiz atzetik ager daitekeen. Bien arteko kontrastea alemanierazko pare hauen bitartez erakuts daiteke <ref type="bibr">(Wurmbrandt 2001: 292)</ref>: (2) a. Weil der Hans der Maria zu helfen versuchte zeren det Hans det Maria ptk lagundu saiatu-da "Zeren Hans Maria laguntzen saiatu baita" b. Weil der Hans versuchte der Maria zu helfen zeren det Hans saiatu-da det Maria ptk lagundu "Zeren Hans Maria laguntzen saiatu baita" Honela, (1) kasuan, aditz nagusia laguntzaile huts bat da alemanieraz (muss modala), eta menpeko perpausa aditz jokatugabe baten bitartez adierazten da. (2) perpausean aldiz, aditz nagusia aditz lexiko bat da (versuchte «saiatu»), eta mendeko perpausak badu areagoko egitura funtzionala: zu jokagabetasun partikula. Bigarren egitura hauek dira bakarrik menpeko perpaus jokatugabea aditz nagusiaren aurretik edo atzetik agertzea baimentzen dutenak. Datuek erakusten dute, batetik, perpaus jokatugabeek egitura bat baino gehiago izan dezaketela, eta bestetik, perpaus jokatugabearen kokapen libroak (aditzari buruz) egitura konplexuagoa eskatzen duela.</p><p>Euskaraz ere, gauza ezaguna da hizkera anitzetan birregituraketa aditzen baitakotzat jotzen diren formak bi modutara gauza daitezkeela. Har dezagun esate baterako <ref type="bibr">Montoyak (2004: 235)</ref> Urdazubi eta Zugarramurdin jasotako ale hauek, nahi eta behar modu aditzekin: <ref type="bibr">2</ref> (3) a. Eta jendea(k) nonbait egon bear du b. Muntra oi bear nauzu jautsi (4) a. Angelesa perfekzionatu nai zuen b. Nai zuen perfekzionatu angelesa Lan honen helburuak aski apalak dira: lehenik, erakutsi nahi genuke perpaus jokatugabeak ez duela egitura bera aditz nagusiaren aurretik edo atzetik agertu. Aditzaren ondotik agertzen diren perpaus jokatugabeak egitura konplexuago baten jabe dira, egitura hori partizipio morfologian zuzenean ikusten ez bada ere. Argudioaren logika atal honetan era honetakoa izango da: fenomeno sintaktiko batek x egitura funtzionala galdatzen badu zilegiztatua izateko eta fenomeno hori bera posible bada menpeko perpausean, ondorioztatuko dugu menpeko perpaus horrek horrenbesteko egitura funtzionala baduela. Fenomenoa posible ez bada, egingo dugu menpeko perpausak egitura funtzional hori falta duela. Arrazoibide honen ildotik, agerian geldituko da aditz nagusiaren eskuinean eta ezkerrean agertzen diren menpeko perpausek egitura aldetiko asimetria nabarmenak erakusten dituztela. Asimetria hauek ezeztapenari, denborazko modifikazioari eta komunztadurari dagozkionak dira.</p><p>Lan honen bigarren xedea, eskuin-ezker agertzen zaizkigun perpaus jokatugabeen jatorrizko egitura zein den argitzen saiatzea da. Erakutsiko dugu menpekoaren aurre-2 (4a) guk erantsitako perpausa da, pare minimoa osatzeko asmoz. Hizkera horrek agertzen dituen era horretako hainbat etsenpluren kide zuzena da. Caminok (1997) ekialdekotzat dauka aditza libroki paratzeko aukera hau. Ekialdeko hizkera tipikoak ez diren beste batzuetan aurkitzen ahal dira, orobat. Esate baterako, Bidasoaldean, Irungo ale honek erakusten duen bezala <ref type="bibr">(Alzola 1958, ikus, halaber, Sagarzazuk</ref>  Bi egitura hauen ahaidetasun sintaktikoa begibistakoa bada ere, ez dugu ondoko lanean osoko azalpen bat eskeiniko. Bien arteko lotura zein den argitzea ondoko lanetarako uzten dugu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Birregituraketa mailak eta menpeko perpaus jokatugabeak</head><p>Birregituraketa konfigurazioak honela defini daitezke modu intuitibo batean: bi aditz edukita perpaus bakar baten gisa portatzen diren egitura sintaktikoak ditugu. Adibide gisa, eman dezagun kasu klasiko bat, hizkuntza erromantzeetarik hartua, klitikoen igoera deitu denarekin lotua dena. Klitiko bereziak deitzen direnak inflexio sintagmari lotzen zaizkio (gaztelaniaz, esate baterako): Birregituraketa konfigurazioek honenbestez perpaus bakarraren eitea erakusten dute. Bi aditz izan arren, menpeko aditzak Forma Logikoan proiektatzen duen egitura sintaktikoa ez da perpaus oso bati dagokiona. Egitate hau modu diferenteetan azaldu da: badira, Rizzirengandik hasita (1982), bi perpausetako azpiko egitura proposatzen duten ikuspegiak. Hauetan, bada prozedura sintaktiko berezi bat ondorio bezala menpeko egituraren urritzea ekartzen duena. Rizzi-ren formulazio klasikoan, prozedura hori birregituraketa prozedura da, P(erpaus) kategoriaren ezabatzea ekartzen duena menpeko perpausean. Beste batzuentzat <ref type="bibr">(Evers-engandik hasita, [1975]</ref>, eta <ref type="bibr">Baker-ek oraintsuago garatua, [1988)</ref>], menpeko perpauseko aditzaren edo den-bo raz ko buruaren igoera da bi perpausak deribazionalki batzen dituena <ref type="bibr">(Ormazabal 1990 euskararako)</ref>. Beste hizkuntzalari batzuentzat, ordea, birregituraketa konfigurazioak ez dira eratorriak, diren direnean sortuak baizik. Hau da, ez dago arrazoirik pentsatzeko, aditz batek, ohiko Perpaus kategoriako osagai batez aparte, haren azpiko bestelako sintaxi egiturak ezin hauta ditzakeenik osagarri gisa. Hau da <ref type="bibr">Rochette-k (1988)</ref>  Lehen kasuan, aditz nagusiak pasibo forma hartzen du, eta menpeko perpaus jokatugabeko objektuak nominatibo kasua jasotzen du, normalki goiko perpauseko subjektuari dagokiona. Goiko predikatuak ez du subjektu kasudunik, eta beheko objektua da goiko Denbora buruak ezartzen duen kasua (nominatiboa) jasotzen duena. Hau aldiberean, bakarrik da posible beheko objektuak ez badu bere aldetik kasu akusatiboa jasotzen. Kasu akusatiboa aditz sintagmako kausazio aditz ttipiak ezartzen duenez (ikus Chomsky 1995), iduri luke aditz nagusiaren osagarriak proiekzio funtzional hori falta duela. Beste hitzetan esateko, menpeko perpaus jokatugabea Aditz Sintagma sinple bat da:</p><p>(20) [ AS …A 0 … ] saiatu (18b)ren kasuan berriz, saiatu pasibozko aditzak subjektu espletibo bat dauka (es), eta beheko perpauseko osagarriak kasu akusatiboa jasotzen du, hain zuzen ere adi tzaren osagarriari dagokiona. Goiko forma pasibozkoa baita, kasua ezin daiteke goiko aditzetik etorri, eta ezinbestean beheko aditzaren gain eman behar dugu. Horrek esan nahi du kasu honetan saiatu birregituraketa aditzaren osagarria aurrekoa baino konplexuagoa dela, eta kausazio aditz ttipi bat eduki behar duela (kasu ezarketa ahalbidetzen duena):</p><formula xml:id="formula_1">(21) [ aS… [… A 0 …] a 0 ] saiatu</formula><p>Wurmbrandt-en ustez, saiatu bezalako aditz baten osagarriak denborazko adierazpide bat ere izan dezake, bazterrekotzat jo daitezkeen irakurketa batzuetan. Bere alemanierazko kasuak euskaraz molda daitezke. Saiatu aditzak normalki ez du den boraz ko modifikaziorik onartzen bere osagarri jokatugabean:</p><p>(22) (*)Jon bihar joaten saiatu da Saiatu aditzak saio ekintza bat eta joate eventuaren hasiera lotzen ditu, bi gertakari horiek aldibereko bilakatuaz. Gerta liteke hala ere, gertakari horien arteko erlazioak ez aldiberekotasunik eskatzea. Imajina dezagun esate baterako pasaportea egin beharrean aurkitzen garela. Honek aurreko lan batzu eskatzen ditu: argazki bat eramatea, fitxa bat betetzea, pasaporte zaharra eramatea, eta aukeran bestelakoak. Behin lan horiek eginda, pasaportearen izapidetzea beste norbaiten esku gelditzen da, eta hura egitea egun batzuetako kontua izan daiteke. Horrelako egoera batean, saiatu gintezke, aurreko lan guziak laster eginez, pasaportea eskuratu arteko denbora tartea laburtzen. Kontestu horretan, ez zaigu ezinezkoa iruditzen (23) bezalako zerbait:</p><p>(23) ?Xabier [bihar bertan pasaportea eskuratzen] saiatu da, baina ez dakigu lortuko duen.</p><p>Kontestu horretan, saiatu aditzaren osagarriak denbora adierazpide bat izan dezake. Esan dugunaren arabera, alemanieraz birregituraketa efektuak erakusten dituzten egiturak era batekoak baino gehiagokoak izan daitezke. Hemen erakutsi dugunaren arabera, gutxienez hiru eratakoak:</p><formula xml:id="formula_2">(24) a. [ AS …A 0 … ] saiatu b. [ aS… [… A 0 …] a 0 ] saiatu d. [ DenbS Denb 0 [ aS… [… A 0 …] a 0 ]] saiatu</formula><p>Euskarazko partizipiozko osagarrien kasuan, iruditzen zaigu antzeko zerbait esan daitekeela. Gure analisiaren ondorioak zertxobait aurreratuaz, erakutsiko dugu eskuineraturiko partizipiozko osagarriak Denbora Sintagma mailakoak izan daitezkeela, eta ezkerrean agertzen direnak berriz ez direla kausazio aditz sintagmatik harago hedatzen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Birregituraketa mailak euskarazko menpeko jokatugabeetan</head><p>Atal honetan aztertuko dugu partizipiozko osagarriek nola jokatzen duten lau prozedura sintaktikoren aitzinean. Prozedura sintaktiko horietako bakoitzak egituraren konplexutasuna neurtzeko bidea ematen digu. Lehena, bihurkaritzeari dagokio. Besteak, hurrenez hurren, ezeztapenari, denborazko modifikazioari eta komunztadurari dagozkionak dira.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Bihurkaritzea</head><p>Wurmbrandt-ek proposatutakoaren arabera, birregituraketa egitura sinpleenak aditz proiekzio bakardunak dira. Halakoetan, modu adierazpidea funtzio adizki bat da: 4 (25  <ref type="bibr">Reinhart 1992</ref><ref type="bibr" target="#b31">, 1993</ref><ref type="bibr" target="#b32">, Reuland 2001</ref>). Reinhart eta Reulanden arabera, bihurkaritzea predikatu baten koargumentuen artean sortzen den indizekidetasuna da. Predikatu sintaktiko batek bihurkaritze marka bat badarama, predikatu horren koargumentuek indize bera izan behar dute. Predikatu sintaktiko terminoa honela definitzen dute (1993: 678):</p><p>(32) a. P buru batek osaturiko predikatu sintaktikoa P da, gehi P-ren argumentu sintaktiko guziak, eta P-ren kanpo argumentu bat (subjektu bat). b. P-ren argumentu sintaktikoak P-k theta-rola edo kasua ezartzen dien islapenak dira (32)k mugatzen duen esparruan anafora batek uztartzaile bat izan behar du. Bihurkaritze estrategia hau beraz, bereziki argigarria gerta daiteke (30) bezalako perpaus baten partizipioko menpekoak egitura iragankorra duen ala ez jakiteko orduan. Bihurkaritzeak kasu honetan, menpeko perpausa jo behar luke, behar modu aditzak proiektatzen duen egitura bere horretan utziz. Predikzioa, gure intuizioen arabera, betetzen da. Har dezagun intrantsitibizazio estrategia bakarrik (cf. 36b,d) onartzen duen predikatu bat (36a):</p><p>(36) a. Zerrendatik kendu dut b. Zerrendatik kendu naiz d. ??Zerrendatik nere burua kendu dut Eta koka dezagun lehengo birregituraketa kontestuan:</p><p>(37) Zerrenda hortatik kendu behar/nahi nuke Gure belarrietan, honek interpretazio bihurkaria izan dezake. Hau da, (37)k dituen interpretazio posibleen artean bada bat bihurkaritzat jo daitekeena: "X-k, X zerren da tua agertzen den tokitik X kentzeko nahia agertu du". Bihurkaritzea behe ko perpausean gertatzen da nahitaez, goiko perpauseko laguntzaileak ira gankorra izaten segitzen baitu, eta haren subjektua ergatiboa. Gauza bera gertatzen da perpaus jokatugabea aditz nagusiaren ondotik badator:</p><p>(38) Behar/nahi genuke zerrenda hortatik kendu Datu hauek ondorio honetara eramaten gaituzte: hala eskuinean agertzen diren partizipiozko perpausek, nola ezkerrean agertzen direnek ere, aditz-egitura ira gankorra izan dezakete. Ezkerrean agertzen direnak, eskuinean agertzen direnak ez bezala, AS sinpleak ere izan daitezke, kanpo argumenturik gabeak.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Ezeztapena</head><p>Eskuinaldean ala ezkerraldean diren partizipiozko perpausen artean sortzen den lehen asimetria ezeztapenaren presentziarekin azaleratzen da. Eman ditzagun birregituraketa egitura sinple batzu (39a,b (45) Nahi/behar nuke deus (ere) ez erosi (erosteko adikzio honetatik behingoz li bratze ko)</p><p>Laburbiltzeko beraz: aditz nagusiaren eskuinean kokatzen diren menpeko perpaus jokatugabeek egitura aberatsagoa dute ezkerrean kokatzen direnak baino, ezeztapena, eta hura posible egiten duen egitura sintaktikoa, barnean hartzen dutelarik.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Denbora modifikatzaileak</head><p>Lakak proposatu bezala perpaus mailako ezeztapenak denborazko proiekzio sintaktiko bat hautatzen badu, denborazko proiekzio horren arrastoa agerian gelditu beharko luke aberatsagotzat jo ditugun eskuinaldeko perpaus jokatugabeetan. Kontsidera dezagun hartara honako kontrastea: Eman dezagun Jonen egun batetik besterako asmoez ari garela. Atzo, Jonek, gaur etxean egoteko asmoa agertu zuen. Eztabaidan ari garelarik erabakitzeko noiz esan ote zuen Jonek gaur etxean egon behar zuela, norbaitek (46a) atera dezake: atzo da, eta ez beste ezein egun, Jonek gaur etxean egoteko beharra agertu zuen eguna. Kontestu berean, (46b,c,d) ezinezkoak dira. (46a)k bi denbora parametro desberdin erakusten ditu: bata perpaus nagusiarekin lotua (atzo behar zuen), eta bigarren bat menpeko gertakariarekin lotzen dena (gaur etxean egon). Hau da, hain zuzen ere, espero duguna aditz nagusiaren eskuinaldean agertzen diren perpaus jokatugabeek denbo raz ko adierazpen bat badute: denborazko adierazpen hori modifikatua gertatzea denborazko aditzlagunen bitartez. Gauza bera ezinezkoa baita ezkerraldeko perpaus jokatugabeetan, ondorioztatzen dugu hauek ez dutela denbora adierazpenik ekartzen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Komunztadura</head><p>Komunztadurak ere bi egituren arteko bereizketa egiteko bidea ematen digu. Perpaus jokatugabea ezkerrean duten kasuek baitezpadakoa dute komunztadura egitea: <ref type="formula" target="#formula_3">(47)</ref>  Bizkitartean, ikusi dugun bezala, eskuineraturiko perpausek erakusten duten hautazko komunztadura datibozko argumentuetara ere hedatzen da (cf. 52). Honek esan nahi du komunztadura posible den kasuetan ez dugula urruneko komunztadura deitu dugun hori, baizik eta ohiko komunztadura erlazioa ahal bi detzen duen eremu bat. Eremu hau aS-rekin lotzen dugu. Komunztadura ezinezkoa gertatzen den kasuak aldiz, perpaus oso baten antzekoa izan behar du. Konfigurazio horrek denbora buru bat bederen eduki behar luke. Horren aldeko ebidentzia dira <ref type="formula" target="#formula_3">(57)</ref>  (57)n menpeko perpausa Denbora Sintagma mailakoa da, barnean denborazko modifikatzaile bat agertzen baita, eta kondizio horietan datibozko komunztadura ezinezkoa da. Beste horrenbeste gertatzen da (58)n. Hemen menpeko perpausak ezeztapena agertzen du. Ezeztapenak denbora proiekzio bat hautatzen baitu, datibozko komunztadura ezinezkoa gertatzen da. Bestela esanda, menpeko partizipioak denborazko islapen bat duenean, perpausa perpaus oso bat bezala portatzen da komunztadura erlazioentzat.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Laburbilduaz</head><p>Orain arte erakutsi duguna laburbilduaz, aditz nagusiaren ezkerretara eta eskuinetara agertzen diren perpaus jokatugabeek ez dute nahitaez egitura bera. Eskuinaldean agertzen direnek aditz modal lexiko baten osagarriak dira, eta denborazko buru bat onartzen dute. Ezkerrean agertzen direnak ezin dira izan kausazio aditz sintagma bat baino konplexuagoak. Honela jasotzen dugu orokorpena: (59) tankerako egiturak, aditz nagusiaren aurretik agertzen direnak, aS mailakoak izan daitezke gehienez ere. (60) tankerakoak, aditz nagusiaren ondoren agertzen direnak, DenbS mailakoak izan daitezke. Orokorpena aldez bat dator beste hizkuntzetan "estraposizio" gisa ezaguna denarekin. Deskriptiboki, aditza azken diren hizkuntzetan, alemaniera kasu, perpaus jokatugabeak aditz nagusiaren eskuinetara ager daitezke. Hori bakarrik gertatzen da eskuineraturiko perpaus horrek gutxieneko tamaina sintaktiko bat badu. Wurmbrandt-en arabera <ref type="formula" target="#formula_3">(2001)</ref>, gutxieneko tamaina hori Denbora proiekzioak ematen du.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Hitzordena eta norabidetasuna</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Aditz isiltzeak</head><p>Errepara diezaiogun <ref type="formula" target="#formula_3">(61)</ref>  (65)en erakusten da ingelesaren konplementatzailea isildu daitekeela perpaus jokatua aditzaren osagarria denean (ikus <ref type="bibr" target="#b37">Stowell 1981</ref><ref type="bibr" target="#b29">, Pesetsky 1995</ref><ref type="bibr">, Ormazabal 1995</ref>. (66)k erakusten du isiltze hori ezinezkoa dela aurreko aditza ere isildua badago. Deskriptiboki, elementu bat ez daiteke ezabatu isildutako osagai baten eskuinera. Bestela esanda, honako konfigurazioak ezinezkoak dira:</p><formula xml:id="formula_5">(67) * [ Ø elipsia [ Ø…]]</formula><p>Badira esplikazio posible bat baino gehiago honentzat. <ref type="bibr">Pesetskyk (1995</ref><ref type="bibr">) eta Ormazabalek (1995</ref> argudiatzen dute isildutako konplementatzailea forma lotu bat bezala portatzen dela, gobernatzen duen aditzari iratxeki behar zaiolarik. Lightfoot eta <ref type="bibr">Anderson-ek (2002)</ref> mugimenduaren aztarnetara zabaltzen dute galdakizun hau. Haientzat, aztarna guziak afijoak dira, gobernatzen dituen ahizpa burura inkorporatu behar direnak. 10 Ahizpa buru hori ez baita gauzatua delako etsenpluetan, afijoaren inkorporazioa ezinezkoa gertatzen da eta perpausa agramatikala.</p><p>Euskarara itzulita, baldintza berbera balia daiteke <ref type="formula" target="#formula_3">(61)</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Laguntzailearen lekua perpausean</head><p>Goiko analisiak euskararen perpaus egituraren inguruko zenbait aitzin uste ondo errotu auzitan jartzen ditu. Analisia zuzena izateko, laguntzaileak ezohiko toki bat hartu behar du perpaus egituran: Aditz Sintagmaren ezkerraldean egon behar du, ez eskuinaldean. 14 Analisi alternatibo batek laguntzailea perpausaren hasierara mugituko luke. Honelako analisi baten eredua ezezko perpausen trataera klasikoan dago. Lakaren analisi ezagunean, laguntzailea perpausaren eskuinaldeko bere lekutik mugitzen da ezkerraldean dagoen ezezko buruari adjunktatzeko. Forma Logikoak ezartzen duen baldintza bat da mugimendua behartzen duena <ref type="formula" target="#formula_3">(1990)</ref> Laguntzailea ezkerrean duen azpiko ordena batetik abiatuta, ondokotasun fenomeno horiek laguntzailearen aurrean agertzen diren elementuen barne-batzetik era-tortzen dira. <ref type="bibr">15 Guk Haddicanen (2004</ref><ref type="bibr" target="#b19">, 2008</ref>  Horregatik da ezinezkoa laguntzailearen aurrean agertzen diren modu aditzen zuzeneko ezeztapena: 17 15 Barne-batze terminoaren bitartez Chomskyren internal merge terminoa itzultzen dugu. <ref type="bibr">16</ref> Horretarako beharrezkoa da baiezkotasuna markatzen duen partikula isilak modu aditza menperatu dezan.</p><p>17 Nahi modu adierazpidearekin paradigma ez da guziz berdina, (95d)-ren kidea posible baita: i(i) Ez du nahi etorri Nahi behar-etik bereizten da bestelako kontestuetan ere. Axolazkoa den bat honakoa izan daiteke:</p><p>(ii) a. Jonek nahi duena da hil (&lt;Jonek hil nahi du) b. Jonek behar duena da hil *(&lt;Jonek hil behar du)</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>(1) a. Weil der Hans der Maria helfen muss zeren det Hans det Maria lagundu behar-du «Zeren Hansek Maria lagundu behar baitu» b. *Weil der Hans muss der Maria helfen zeren det Hans behar-du det Maria lagundu «Zeren Hansek Maria lagundu behar baitu» 1 Laburki bada ere, lan honen egileok gure eskerrona eta miresmena agertu nahi diogu Beñat Oyhar ça bal, hizkuntzalaritzan eta bereziki euskararen sintaxian urtetan buruturiko lan baliotsuarengatik, izan ditugun (eta ditugun) elkarren arteko eztabaida mamitsuengatik, eta zorroztasunaren lagun beti erakutsi duen dotoreziagatik. Lan hau Eusko Jaurlaritzako GIC07/144-IT-210-07, HM-2008-1-10, HM-2009-1-1, MV-2008-2-18, Zientzia eta Teknologia Ministeritzako FFI2008-04786 eta TSABL (ANR-07-CORP-033) ikerkuntza proiektuen babespean burutu da.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>(31)ko egiturari begiratzen badiogu, menpeko partizipioaren barneko bihurkaritzea posible izan beharko litzateke: a ttipiak (32)ko definizioko P gisa hartuta, kanpo argumentu bat dauka, eta [a-A] buru konplexuak berriz barne argumentu bat. Posible izan beharko luke erlazio bihurkari bat eratzea aS-ren barneko argumentuen artean goiko predikatu modala eta haren argumentua ukitu gabe. Euskararen bihurkari sistema hala ere,Reinhart eta  Reulandek ingelesetik abiatuta aintzat hartzen dutena baino konplexuagoa da, bi bihurkaritze prozesu desberdin agertzen dituelako. Batetik, X-ren burua bezalako izenordain konplexuak (33a), eta bestetik aditz laguntzailearen morfologian arrastoa uzten duen intrantsitibizazio prozesua (33b):(33) a. Jonek ispiluan bere burua ikusi du b. Jon ispiluan ikusi da (33b)k ordezkatzen duen estrategiak arrasto bat uzten du ez bakarrik laguntzailean, baita kanpo argumentuaren kasu-markatzean ere. (33b)k gainera, baldintza hertsiagoak ezartzen ditu indizekidetasunez lotzen diren argumentuen artean: barne argumentuak absolutiboa izan behar du bihurkaritzea posible izan dadin. Horrela, ezinezkoak dira (34b) eta (35b), (34a) eta (35a)tik, hurrenez hurren<ref type="bibr" target="#b17">(Etxepare 2003</ref></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>(</head><label></label><figDesc>46) a. Jonek atzo behar zuen gaur etxean egon b. *Jonek gaur atzo etxean egon behar zuen c. *Jonek atzo egon behar zuen gaur etxean d. *Jonek atzo gaur etxean egon behar zuen</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>eta (58): (57) a. *Atzo behar nizun gaur zuri lagundu b. ?Atzo behar nuen gaur zuri lagundu (58) a. *Beharko nizuke ez zuri gehiago lagundu b. ?Beharko nuke ez zuri gehiago lagundu</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Andre batek nai zuen apaiza bezala konfesanariyuan jarri Kontuz ibili beharreko datuak dira hauek, halere. Alzolak jasotako Irungo testigantzei begiratuaz, ez da batere garbi aditz hauek beste inon egon daitezkeenik modu naturalean, eta ez dute beraz perpaus jokatugabeen distribuzioa argitzeko orduan zer esan handirik. Axolazko fenomenoa artikulu honetan ez da, beraz, aditzak menpekoen aurretik agertzea, baizik eta eskuin nahiz ezkerraldeko posizioa haizu izatea. tik agertzen diren moduzko aditzak ez direla zuzenean hor sortuak izan, baizik eta hartzen duten posizio sintaktiko hori eratorria dela. Honek bete betean sartzen gaitu buru-norabidetasunaren auzian (ikus bereziki Arteatx eta beste 2008), eta zehazkiago, euskara oinarrian burua azken duen hizkuntza den ala (Kayne-ren hipotesiak nahiko lukeen bezala) burua lehen den. Gure analisiaren ondorioetako bat da la guntzailea ren azpiko tokia euskaraz Aditz Sintagmaren ezkerraldean dela.Lan honetako eztabaida nahi eta behar aditz modalen ingurukoa izango da.</figDesc><table><row><cell>Irun eta Hondarribian jasotako lekukotasunak, 2005): beste aditz sail bat, konparazio aditzena, ez-ohiko posizioa eskatzen duena menpeko perpausari buruz: 3 (5) a. Nahiago dut garaiz iritsi b. ??Garaiz iritsi nahiago dut (6) a. Hobe nuke isilik egon b. ??Isilik egon hobe nuke Aditz hauek nahitaez menpekoaren aurretik agertu behar dute ordena ez-marka-tuan, eta ezaugarri komun ugari erakusten dituzte menpekoa eskuinean hartzen du-ten modu aditzekin. Esate baterako, batzuk zein besteak ezin dira zuzenean ezeztatu (ikus bigarren atala): (i) Bada (7) a. *Ez dut behar etorri b.</cell></row></table><note>*Ez dut nahiago joan</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>eta oraintsuagoWurmbrandt-ek (2001)  hartzen duten bidea. Wurmbrandt-entzat, birregituraketa ez da fenomeno bakun bat, baizik eta aditz batzuek osagarri bat baino gehiago hautatzeko duten ahalmenaren ondorio. Honela, saiatu bezalako birre gi tu ra tze aditz batek alemanieraz egitura bat baino gehiagoko osagarriak har di tza ke. Kontsidera ditzagun ondoko pareak(Wurmbrandt 2001: 17-18):</figDesc><table><row><cell>(18) a. dass [der</cell><cell cols="2">Traktor und der Lastwagen zu reparieren] versucht wurden</cell></row><row><cell cols="3">Konp det-Nom traktore eta det-Nom troka inf konpondu saiatu izan-pasiboa-3pl</cell></row><row><cell cols="3">«Traktorea eta troka konpontzen saiatu zirela»</cell></row><row><cell cols="2">b. dass es versucht wurde</cell><cell>[den Traktor und den Lastwagen zu reparieren]</cell></row><row><cell cols="3">Konp espl saiatu izan-pas-3s Det-ak traktore eta Det-ak troka</cell><cell>inf konpondu</cell></row><row><cell cols="3">"Traktorea eta troka konpontzeko saiakera bat izan zen"</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>Egitura honetan, beheko aditz sintagma guziz gardena da kasu eta laguntzailearen hautaketarako, eta moduzko aditza laguntzaile bat da. (20) bezalako zerbaitek seguru aski ondoko kasuak errepresentatzen ditu euskaraz: 5 Hauetan, laguntzailea osagarri bat hartzen duen aditz lexiko bati dagokiona da, eta perpausaren subjektuak kasu ergatiboa hartzen du. Aditz iragankor baten aurrean gaudela ematen du beraz. Xabier subjektua kasu ergatiboz hornitua agertzen zaigu eta menpeko joan aditz inakusatiboak Xabierren erreferentzia bera duen argumentu bat dauka. Hauek kontrol egitura baten ezaugarriak dira. Chomskyk (1981) irekitako ildotik, eta San Martini (2002) jarraikiz, emango dugu beheko perpausaren argumentua izenordain isil batek betetzen duela: Honek aditzera ematen du AS 2 gisa identifikatu dugun partizipiozko egitura izenezkoa dela, ez aditz kategoriakoa (ikus Haddican 2005).Honen arabera, perpaus jokatugabe hauek aditz ttipi bat izango lukete, eta hari itxekita, kanpo argumentu bat. Egitura hauek kontrol egiturak izango lirateke (menpekoa ilunduta ematen dugu, irakurketa laguntzeko): Honek predikzio bat egiten du: bihurkaritzea posible izan beharko luke (31) bezalako zerbaitetan beheko aditz sintagman. Aditz sintagma horrek bi argumentu dituenez, bata kanpo argumentua eta bestea barnekoa, bihurkaritzearen oinarrizko baldintza betetzen du (ikusReuland eta  </figDesc><table><row><cell>ModuS A 0 helfen (26) a. Xabier joan behar da AS DS Der Maria (26a,b)n, laguntzailea beheko aditzari dagokiona da, eta behar eta nahi moduzko F 0 muss b. %Xabier joan nahi da buru funtzional gisa portatzen dira. (26)ren gisakoek ez dute kontrako ordenarik onartzen: 6 (27) a. ??Nahi da joan b. ??Behar da joan Egitate hau bat dator Wurmbrandt-en orokorpenarekin: F baten osagarri diren per-paus jokatugabeak F-ren aurretik agertzen dira, ez atzetik. Har ditzagun orain ondokoak: (28) a. Xabierrek joan behar du b. Xabierrek joan nahi du (29) aS Xabierrek a' a AS 1 AS 2 A PRO joan behar (29) bezalako perpaus batean, behar aditz lexikoak kasua ezartzen dio menpeko partizipioari (hortik laguntzaile iragankorraren presentzia). 7 Menpeko partizipioak egi-tura iragankorra izan dezake halaber: (30) Xabierrek liburuak erosi nahi ditu 5 (26b)koen kideak ez dira posible hiztun askorentzat. Ekialdeko zenbait hizkeratan aldiz arazorik gabe erabiliak dira (Euskararen Ereduzko Prosa korpusetik): i(i) Egitura berri hau izan nahi da euskararen garapen kontseilua (Herria 2001, EEPtik) (ii) Bena hor ere bizi nahi da eüskara (Herria, J.L. D., 2001, EEPtik) 6 Ereduzko Prosan egindako bilaketak ez du ale bakar bat ere eman tankera horretakoa, ez badira perpaus inpertsonalak (i) edo galdegaiak beharturiko inbertsioak (ii): i(i) Lehenik behar da konkurtso bat iragan (Herria, Eskola Giristinoak Apailatzen, 2003) (ii) Nahi-ta-ez behar zira jarri (Menane Oxandabaratz, Ez da musik, 2006) 7 (31) …[[DP ERG [[[PRO [[[PRO ERG ERG [DS A [DS A AS AS ] a ] a 0 0 aS aS ] Part ] Part 0 0 PartS PartS ] ] A 0 AS ] a 0 aS ]</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>, eta ez dago, beharko forma konplexuaren kasuan bezala, buru mugimendurako motibaziorik. Buru mugimendurik gertatzen ez bada, ez dago garbi nola erator genezakeen behar izango segida laguntzailearen aurrean jarriko lukeen ordena bat. Horrelako hitz hurrenkera bat, (76)koa, behar eta izango adizkiak batera lekuz aldatuko lituzkeen operazio baten bitartez bakarrik sor daiteke. Baina behar izango segidak ez du osagai bat ordezkatzen(75)bezalako egitura batean. bi galdegai posizio izango lirateke: bata perpausaren ezkerrean, laguntzaileak markatzen duen eremutik kanpoan, eta beste bat Aditz Sintagmaren eremuan edo haren ertzean, laguntzailearen azpitik kokatua dagoena (ikus baita Belletti 2005 ere). Bi posizio hauek ezezko perpausetan nabarmentzen dira: (77) a. jonek ez du liburua erosi (ez Mirenek) b. Liburua ez du jonek erosi (baizik eta Mirenek)Lehen kasuan, galdegaiak ezeztapenaren gaineko besarkadura hartzen du, bigarrenean berriz haren azpikoa. Horrekin batera, gerta liteke, aukeran, galdegaia menperatzen duen egiturak bere aldetik ere perpausean gora mugitzea. Honela es pli ka tzen Galdegai] zatia da. Hondarra ren mugimendu hau topikalizazio klase bat bezala ikusten duteEtxepare eta  Uribe-Etxebarriak (2008). Topikalizazioa aukerako operazio bat da, hiztunak egitea erabaki dezakeena, eta beraz ez da automatikoki gertatzen. Gure kasuetara itzuliaz, (76) bezalako perpaus bat antzeko bidetik erator daiteke. Eman dezagun lehenbizi galdegaia (kasu honetan presaka etorri) laguntzailearen azpiko galdegai posiziora</figDesc><table><row><cell>(71) [ ModS behar [ AspS izan…]] du [ XP presaka etorri…]</cell></row><row><cell>Laguntzailearen aurretik agertzen den egitura zatiak denborazko morfema bat ere</cell></row><row><cell>erakus dezake:</cell></row><row><cell>(72) [Beharko] du [ presaka etorri…]</cell></row><row><cell>eta (62) perpausen arteko kontrastea esplikatzeko, baldin eta perpaus jokatugabea aditz nagusiaren eskuinal-dean agertzen den kasuak deribatuak badira, eta ez zuzenean sortuak. Eman ditzagun oinarrizko egiturak: (68) a. [[[egina] izan] behar]… b. [[[egina] Ø ] behar]… (69) a. [ behar [ InfS luke [[[egina] izan] (behar)… b. [ behar [ InfS luke [[[egina] Ø ] (behar)… Azpiko ordena (68)koa bada, isildutako laguntzailea (afijo bat, Pesetskyren anali-sibidea hartzen badugu) gobernatzen duen aditzera inkorpora daiteke. Aldiz, (69)ko ordena deribatua bada, eta hartarako behar aditz modala inflexioaz haratagoko leku ba-tera mugitu badugu (ikus, halaber, ondoko atala), isilduriko laguntzaileak ezingo du bere afijo izaera inon ere asebete, ez baita afijo hori hartuko duen ahizpa buru lexikorik. 4.2. Hondarraren mugimendua (69)koa bezalako deribazio batek isiltzeen ezina esplikatzeko balio digu, baina osatu beharrean gara. Laguntzailearen aitzinean agertzen dena adizki segida bat ere izan daiteke: (70) a. Behar izan dugu presaka etorri b. Nahi izan dugu lehenbaitlehen etorri Nola azaltzen dugu ordena hau? Aurreko analisia gorde nahi badugu, biderik sin-pleena da ematea mugitzen dena adizki hurrenkera horiek biltzen dituen osagai bat dela. Adizki hurrenkerak, kasu hauetan, modu adizkia eta aspektu adizkia hartzen ditu hurrenez hurren: 11 Asumituaz, denbora adierazpideak moduzkoen gainetik kokatzen direla perpaus egituran, honelako zerbait izango genuke: 12 (73) [ DenbS [ ModS behar] -ko] du [ YP presaka etorri] Egingo dugu (73) bezalako zerbaitek ez duela euskararen perpaus baten oinarriz ko egitura gauzatzen. Aldiberean, euskararen oinarrizko hitz hurrenkera burua lehen izan edo azken, ez dago modurik zuzenean honelako egitura bat era tor tze ko, mugitzen dena ez baita osagai bat. Aditza bukaeran izango lukeen abiaburuko perpaus baten bi-tartez erakuts dezakegu hori: (74) [ DenbS [ ModS [ AS Presaka etorri] behar] izango] du (74) bezalako perpaus batean, behar adizkiak AS hautatzen du, eta aldiberean Denbora buruak hautatua da: (75) DenbS ModS Denb AS Mod izango Presaka etorri behar (75)en, denbora adierazten duen morfema lotua laguntzaile espletibo 13 baten sos-tengua du (izan)(76) Behar izan dugu presaka etorri Buru mugimendua zilegi ez bazaigu, eta (76) bezalako hitz hurrenkera bat (75)eko azpiko egituratik zuzenean deribatzea posible ez bada, nola irits dezakegu (76) beza-lako zerbait? Etxepare eta Uribe-Etxebarriak (2008) euskararen galdegaigunea per-paus egituraren toki batean baino gehiagotan egon daitekeela defendatzen dute. ezeztapenaren azpian agertzen den galdegaiak (intonazio jakin batez) ezeztapenaren gaineko besarkadura hartzea: (78) Jonek ez du erosi zuk aipatu zenidan liburu hura, eta ez hau (78) perpausak honelako deribazio bat izango luke Etxepare eta Uribe-Etxebarria-ren arabera: (79) a. [ FokS [zuk aipatu zenidan liburua] i F 0 [ EzezS pro ez du erosi t i ] → b. [ TopS [ EzezS pro ez du erosi t i ] k Top 0 [ FP [zuk aipatu zenidan liburua] i F t k (79b)k hondarraren mugimendua erakusten du. Hondarra kasu honetan, galde-gaiaren mugimendua egin ondoren gelditzen den [-mugitzen dela: (80) a. [ FokS [ AS presaka etorri] i F 0 [ ModS nahi [ AspS izan t i ]]]] → laguntzailearen eransketa b. [ LagS du [ FokS [ AS presaka etorri] i F 0 [ ModS nahi [ AspS izan t i ]]]] → Hondarraren mugimendua Behin mugimendu hori gertatuta, galdegaia ez den zatiak hondar-mugimen-dua jasan dezake, momentuz zehaztuko ez dugun proiekzio funtzional batera (ikus 2.3. atala). Honek (76) bezalakoen hitz ordena deribatzen du: (81) [ XP [ ModS nahi [ AspS izan t i ]] k X 0 [ LagS du [ [ presaka etorri] i F 0 t k ]]] Gerta liteke hala ere, behin galdegaia mugituez gero, galdegaia dadukan osagaiak berak gora egitea, bigarren galdegai posiziora, garraio bidez. Kasu horretan Modu Sintagma osoa mugitzen da ezkerrera: Zehazki, euskaraz dute Ortiz de Urbinak (1999) eta Etxepare eta Uribe-Etxebarriak (2008), itxuraz (82) a. [ FokS [ AS presaka etorri] i F 0 [ ModS nahi [ AspS izan t i ]]]] → laguntzailearen eransketa b. [ LagS du [ FokS [ AS presaka etorri] i F 0 [ ModS nahi [ AspS izan t i ]]]] → pied-piping d. [ FokS [ FokS [ AS presaka etorri] i F 0 [ ModS nahi [ AspS izan t i ]]]] k F 0 [ LagS du t k ]]</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>DenbS Xabier etorri da], baina Mikel [ EzeztS ez [ DenbS pro etorri da] (85)en, Denbora Sintagma osoa da desagertzen dena elipsiaren bidez, aurreko Denbora Sintagmarekiko parekotasunez. Ezeztapena ez dagoenez ezabatzen den zatian, hartatik kanpora egon behar du. Datua garbia da oso, baina datu horrek berak arazo bat ekartzen dio (84)ri: zergatik, laguntzailea ezeztapen burura mugi badaiteke, ez da posible (86) bezalako zerbait: (86) *Xabier etorri da, baina Mikel ez da Kasu honetan, elipsia laguntzailearen mugimendua gertatu ondoren egiten dugu: (87) Mikel [ EzeztS ez+da [ LagS pro (da) etorri]] Ez dago deus ere (86) galeraz dezakeenik, baina (86) ez da posible. (84)ko analisia berrikusteko abiapuntu bat laguntzailearen klitiko izaera gogoratzea izan daiteke. Gauza ezaguna da laguntzailea ez daitekeela euskaraz perpausaren hasieran izan: (88) *da oso polita Laguntzailearen aurretik hari sostengua emango dion zerbait agertu behar da. Aurreko gauza hori galdegaia izan daiteke, aditz lexiko bat, edo baiezkotasuna zein ezezkotasuna markatzen duen partikula bat (Ortiz de Urbina 1994):</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell>:</cell></row><row><cell cols="4">(83) Forma Logikoan, Denborazko operadoreak perpausaren bestelako operadoreak</cell></row><row><cell cols="2">o-komandatu behar ditu</cell><cell></cell></row><row><cell cols="4">(83)ko baldintzak denbora tasuna duen laguntzailea (da, behean) ezeztapen</cell></row><row><cell cols="2">burura mugitzera behartzen du:</cell><cell></cell></row><row><cell>(84)</cell><cell>EzeztS</cell><cell></cell></row><row><cell>Ez+da</cell><cell>DenbS</cell><cell></cell></row><row><cell></cell><cell>AS</cell><cell>Denb</cell></row><row><cell cols="2">/…etorri…\</cell><cell>(da)</cell></row><row><cell cols="4">Lakak zenbait argudio ematen ditu ezeztapenak laguntzailearen gaineko posizio</cell></row><row><cell cols="4">bat daukala erakusteko. Garbienetako bat elipsiari dagokio:</cell></row><row><cell cols="2">(85) [ (89) a. jon da etorri</cell><cell>b. Etorri da</cell><cell>d. Ez da etorri</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head></head><label></label><figDesc>proposamena aintzat hartzen dugu. Hartan, laguntzailearen gainetik badira konplementatzaile eremu hedatu bati le gozkio keen bestelako proiekzio funtzionalak. Batak Haddicanek Polaritate Burua deitzen duena, ezeztapena erakartzen du ezezko perpausetan, eta baiezko partikula isil batek gobernaturiko Aditz Sintagma baiezkoetan: (90) a. [ PolS ez Pol 0 [ LagS da [ EzezS ez Ezez 0 [ AS … etorri]]]] b. [ PolS [ BaiezkoS Ø [ AS …etorri]] Pol 0 [ LagS da [ BaiezkoS Ø Baiez 0 [ AS … etorri]]]] FokS jon Fok 0 [ PolS ez Pol 0 [ LagS da [ EzezS ez Ezez 0 [ AS jon etorri]]]] Galdegaiak, ezeztapenak bezala, laguntzailearen klitikotasuna ase dezake, behin perpausaren ezkerraldera mugituz gero. Baina zer gertatzen da galdegaia laguntzailearen azpiko posizio batera mugitzen bada, Etxeparek eta Uribe-Etxebarriak (76)ren tankerako kasuentzat proposatzen duten bezala? Behean errepikatzen dugu perpaus hori: (76) Behar izan dugu presaka etorri (76) perpausaren tarteko emaitza, laguntzailea erantsi eta gero, (92)-ren bitartez irudika daiteke: (92) [ LagS du [ FokS [ AS presaka etorri] i F 0 [ ModS behar [ AspS izan t i ]]]]] (92) fonologikoki gaizki eratutako perpaus bat da: laguntzaileak ez du bere ezkerrean elementu beregainik hari lotzeko. Kasu honetan galdegaiak atzean utzitako adizki segida da laguntzailearen aurreko posizio batera mugitzen dena, Haddicanek Polaritate Burua deitzen duenaren espezifikatzailera: 16 (93) [ PolS [ ModS behar [ AspS izan t i ]] k du [ [ presaka etorri] i F 0 t k ]]] Polaritate islapenerako mugimendu horrek ezeztapena erakartzen du bakarrik ezezko perpausetan. Horretarako beharrezkoa da ezeztapenaren jatorrizko lekua laguntzailearen azpikoa izatea (ikus Haddican 2004): (94) a. [ EzeztS Ez [ LagS du [ FokS [ AS presaka etorri] F 0 [ EzezkoS ez Ezezk 0 [ ModS nahi [ AspS izan… ]]]]</figDesc><table><row><cell>Bestea galdegaiari dagokiona da, Haddicanek Polaritate Buruaz harantzago ezar-</cell></row><row><cell>tzen duena:</cell></row><row><cell>(91) [</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">Obserbazio hau Beñat Oyharçabali zor diogu. Alde batera uzten ditugu orobat ahal, posible eta ezin modu adierazpideak.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">A, aditz lexikoaren ordez dago; F, kategoria funtzional baten ordez. Jarraian, AS Aditz Sintagma izango da, a 0 kausazio buru funtzionala da eta aS haren proiekzio nagusia.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8">Perpaus hauen birregituratze izaeraz, ikusOrmazabal (1990).  9  Haddicanek (2008) datu bera aipatzen du.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10">Guk, haien proposamenaren letrara jo gabe, PF-errepresentazioen ongi-eratze erregelen gain emango genuke (67) bezalako zerbaiten ezina, xuxen zer izan daitekeen batere argi ez badugu ere.11  Ohart hemen adizkien arteko ordena behar izan dela, ez izan behar, eskuinean agertzen direnean bezala (cf. 69a).Haddicanekin (2001), asumituko dugu (69a)k aspektu sintagma erakarri duela modu proiekzioaren eremura.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12">Ikus Demirdache eta Uribe-Etxebarria (2008) eta Cinque (1999) bestelako ikuspegi batentzat. 13 Ez da nahastu behar, gure ustez, aspektuzko izan-ekin.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14">Era horretako analisiak proposatu izan dira hala ere. Ikus<ref type="bibr" target="#b16">Elordieta (1997)</ref> eta<ref type="bibr" target="#b21">Haddican (2004</ref>Haddican ( ,  2008.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">*Ez du behar etorri (95)eko perpausek Polaritate Buruarekiko lehian diren bi osagairen mugimendua eskatuko luke: ezeztapenarena eta modu sintagmarena. Ezeztapena gertuago dagoenez Polaritate Sintagmatik, hura da erakarria dena. Modu Sintagmak ez du zertan mugitu beharrik beraz, eta ekonomiaz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">*</forename><surname>Behar</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>ez da mugitzen</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Proposatzen dugun deribazioak Etxepare eta Uribe-Etxebarriak (2008) euskaran aurkitzen dituzten bi galdegai guneak baliatzen ditu, eta horrekin batera hondarraren mugimenduaren posibilitatea. Gure analisiak euskaraz laguntzailea ezkerrean egotea eskatzen du, eta horrela lan honek, zeharka bada ere, euskararen buru norabidetasunaren auzian burua lehen tipologiaren alde egiten du. Horretan, azken urteotan zenbait ikerlarik</title>
+	</analytic>
+	<monogr>
+		<title level="j">Ormazabal, Uriagereka eta Uribe-Etxebarria</title>
+		<imprint>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+	<note>eta bereziki Elordietak. hartu duten bideari se gi tzen dio</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Aissen</surname></persName>
+		</author>
+		<title level="m">Papers from the Ninth Regional Meeting. CLS</title>
+		<editor>Cl. Corum, T. C. Smith-Stark eta A. Weiser</editor>
+		<imprint>
+			<date type="published" when="1973" />
+			<biblScope unit="page" from="11" to="22" />
+		</imprint>
+	</monogr>
+	<note>Shifty Objects in Spanish</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Word order in Basque and its implications for a theory of focus». Es kuizkri bua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Albizu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<pubPlace>USC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Alzola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskaraz Irunen barrena. Irun: Luma</title>
+		<imprint>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">The Language Organ. Linguistics as Cognitive Physiology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>St</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lightfoot</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<pubPlace>Cambridge U. P</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Buru parametroa: euskararen oinarrizko hitz hurrenkera ezbaian</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Arteatx</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Euskal Herriko Uni bertsi ta tea</title>
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note>Artiagoitia eta A. Elordieta (arg</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Aoun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Beste</surname></persName>
+		</author>
+		<title level="m">Two Types of Locality</title>
+		<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="537" to="577" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Baker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+			<pubPlace>U. P</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Extended doubling and the VP periphery</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Belletti</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>Elkar</publisher>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1" to="1" />
+			<pubPlace>Camino, I; Donostia</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Aezkoako mintzoa</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Lectures on Government and Binding. Dordrecht: Foris. -, 1995, The Minimalist Program</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Chomsky</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1981" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>Massachusetts</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Adverbs and Functional Heads. A Cross-Linguistic Perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Cinque</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<pubPlace>Oxford; Oxford U. P</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Gure analisian horrek nahi-ren barne topikalizazioa ahalbidetzen du (ikus Belletti 2005 aSren ertzeko galdegai eta topiko guneez): (iii) a. [ FokS [ AS …etorri] Fok 0</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Iduri Luke Nahi-K Aditz Izaera Garbiagoa Duela Behar-Ek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Baino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Nahi topikalizatu b</title>
+		<imprint/>
+	</monogr>
+	<note>ModS nahi …. TopS nahi [ FokS [ AS …etorri] Fok 0 [ ModS nahi …]] → laguntzailea batu d. [ LagS du [ TopS nahi [ FokS [ AS …etorri] Fok 0 [ ModS nahi …. PolS Ez Pol 0 [ LagS du [ TopS nahi [ FokS [ AS …etorri] Fok 0 [ ModS nahi …</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Restructuring and Functional Heads</title>
+	</analytic>
+	<monogr>
+		<title level="j">The Cartography of Syntactic Structures</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">On the temporal syntax of non-root modals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Demirdache</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Uribe-Etxebarria</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Time and Modality</title>
+		<editor>J. Lecarme eta J. Guéron</editor>
+		<meeting><address><addrLine>Dordrecht</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="79" to="114" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Verb Movement and Constituent Permutation in Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Elordieta</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Herbehereak: LOT Publications</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Morphosyntactic Feature Chains and Phonological Domains. Doktorego tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Elordieta</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Southern California</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Valency and Argument Structure in the Basque Verb</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Etxepare</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">A Grammar of Basque</title>
+		<editor>J. I. Hualde eta J. Ortiz de Urbina</editor>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="363" to="425" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Long Distance Agreement in non-standard Basque</title>
+	</analytic>
+	<monogr>
+		<title level="m">Studies in Basque and Historical Linguistics in Memory of R. L. Trask. (= ASJU 40</title>
+		<editor>J. A. Lakarra and J. I. Hualde</editor>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="1" to="2" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">On negation and focus in Spanish and Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Optional Agreement Phenomena in Basque. Habilitazio eskuizkribua. Iker, Baiona. -eta M. Uribe-Etxebarria</title>
+		<editor>X. Artiagoitia and J. A. Lakarra</editor>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="287" to="310" />
+		</imprint>
+	</monogr>
+	<note>Gramatika Jaietan. Patxi Goenagaren Omenez. Bilbo: UPV/EHU</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">The Transformational Cycle of Dutch and German. Doktorego tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Evers</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1975" />
+			<pubPlace>Utrecht-eko Unibertsitatea</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Haddican</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Basque Functional Heads», Linguistics in the Big Apple. CUNY/NYU Working Papers in Linguistics</title>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="81" to="124" />
+		</imprint>
+	</monogr>
+	<note>Sentence Polarity and Word Order in Basque</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Aspects of Language Variation and Change in Contemporary Basque. Doktorego tesia</title>
+		<imprint>
+			<date type="published" when="2005" />
+			<pubPlace>New York University</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Euskal perpausaren oinarrizko espez-buru-osagarri hurrenkeraren aldeko argudio batzuk</title>
+	</analytic>
+	<monogr>
+		<title level="m">Arteatx eta beste (arg</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="69" to="96" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Negation in Syntax. On the Nature of Functional Projections and Projections. Doktorego tesia, MIT</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Laka</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Zugarramurdi eta Urdazubiko euskara. Iruñea: Nafarroako Gobernua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Montoya</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">«Modal verbs in Basque and head-movement»</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ormazabal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Memoriae L. Mitxelena Magistri Oblatae. Pars Altera. ASJUko Gehigarriak 14. Donostia: Gipuzkoako Foru Aldundia</title>
+		<editor>J. A. Lakarra eta I. Ruiz Arzalluz</editor>
+		<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="page" from="835" to="845" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Word order and wh-movement: towards a parametric account», Glow 1994 Konferentzian emandako hitzaldia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">-</forename><surname>Uconn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Uriagereka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Uribe-Etxebarria</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Hitz hurrenke ra eta NZ mugida: azalpen parametriko baten bila&quot; izenburuarekin argitaratua in Arteatx eta beste</title>
+		<imprint>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+	<note>The syntax of complementation: on the connection between syntactic structure and selection. Doktorego tesia,</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Erramu Boneta: Festschrift for Rudolf de Rijk</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ortiz De Urbina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASJUko Gehigarriak</title>
+		<editor>X. Artiagoitia, P. Goenaga eta J. A. Lakarra</editor>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="511" to="524" />
+			<date type="published" when="2002" />
+			<publisher>Gipuzkoako Foru Aldundia</publisher>
+		</imprint>
+	</monogr>
+	<note>Focus of correction and remnant movement</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Pesetsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zero-Syntax</title>
+		<imprint>
+			<date type="published" when="1995" />
+			<publisher>MIT Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Preminger</surname></persName>
+		</author>
+		<title level="m">Breaking Agreements</title>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="report_type">LI-n agertzekoa</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Reinhart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Reuland ; «reflexivity</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="657" to="720" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Reuland</surname></persName>
+		</author>
+		<title level="m">Primitives of Binding</title>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="439" to="492" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Rizzi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Issues in Italian Syntax. Dordrecht: Foris</title>
+		<imprint>
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Semantic and syntactic aspects of Romance sentential complementation. Doktorego tesia, MIT</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Rochette</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Hondarribiko eta Irungo Euskara</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Sagarzazu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<pubPlace>Irun. Alberdania</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">On subordination and the distribution of PRO. Doktorego tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>San Martin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<pubPlace>University of Maryland</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Origins of Phrase Structure</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Stowell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mit</forename><surname>Doktorego Tesia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Wurmbrandt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Verb clusters, verb raising and restructuring</title>
+		<editor>M. Everaert eta H. van Riemsdijk</editor>
+		<meeting><address><addrLine>New York; Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Blackwell</publisher>
+			<date type="published" when="1981" />
+			<biblScope unit="page" from="227" to="341" />
+		</imprint>
+	</monogr>
+	<note>The Blackwell Companion to Syntax</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

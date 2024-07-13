@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">GEHIAGO PIERRE URTEREN GRAMATIKAREN ITURRIEZ: LILYREN GRAMATIKA</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ricardo</forename><surname>Gómez</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universidad del País Vasco/Euskal Herriko Unibertsitatea &amp; JUMI</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">GEHIAGO PIERRE URTEREN GRAMATIKAREN ITURRIEZ: LILYREN GRAMATIKA</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Hitz gakoak: gramatikagintzaren historia</term>
+					<term>iturriak</term>
+					<term>euskal gramatika</term>
+					<term>Pierre Urte (1664-????)</term>
+					<term>XVIII mendea</term>
+					<term>Lilyren gramatika</term>
+					<term>latinaren irakaskuntza Keywords: history of gramaticography</term>
+					<term>sources</term>
+					<term>Basque grammar</term>
+					<term>Pierre d&apos;Urte (1664-????)</term>
+					<term>18th century</term>
+					<term>Lily&apos;s grammar</term>
+					<term>Latin teaching [ASJU</term>
+					<term>XLIV-2</term>
+					<term>2010</term>
+					<term>335-365]</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena</head><p>Pierre Urtek Grammaire cantabrique idatzi zuen 1714 inguruan, Ingalaterran erbesteratua zelarik. Artikulu honetan frogatu nahi dugu Urtek lan hori idazteko erabili zuen iturri nagusia "Lilyren gramatika" izenekoa izan zela, XVI. mendetik XIX. mendera arte Ingalaterran latina ikasteko erabili zen gramatika ofiziala. Iturri hau identifikatzeak berresten digu Urteren gramatika hizkuntza irakaskuntzaren tradizioan sartu behar dela, Oyharçabalez (1989)  geroztik susmatzen zenez. Gure lanean, Lilyren gramatikaren historia laburbildu ondoren, Urtek erabil zezakeen edizio zehatza aurkitzeko urrats batzuk ematen ditugu; azkenik, artikuluaren atal nagusian, bi gramatika-lanak aurrez aurre jartzen ditugu, Lilyren gramatikarekiko zorra ziurtatzeko eta Urtek bere iturri horretatik hartu zituen zati nagusiak (hala gramatika-sailkapenak nola adibideak) zehazki erakusteko asmoz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>Pierre Urte wrote Grammaire cantabrique circa 1714, when he was exiled in England. In this article we want to prove that the main source for Urte's work was the socalled "Lily's grammar", which was the oficial grammar to learn Latin language in England from the 16th to the 19th century. The indentification of that source allows us to support the claim that Urte's grammar must be included in the tradition of language teaching, as was already pointed out by <ref type="bibr" target="#b17">Oyharçabal (1989)</ref>. In this article, we first offer a brief history of Lily's grammar. Then, we provide some clues in order to identify the exact edition used by Urte. Finally, in the main section of the article, we confront the two grammatical works; our aim is to ensure Urte's debt to Lily's grammar, and to show in detail the principal parts which Urte took from his source (mainly grammatical clasifications and examples).</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Sarrera 1</head><p>Azken urteotan Pierre Urteren Grammaire cantabrique lanari buruzko berri onak izan ditugu. 2 Lehenengoz eta behin, 2008ko abuztuan Sotheby's enkante-etxe britaniarrak enkantean jarri zituen Urteren gramatika eta hiztegia. <ref type="bibr">3</ref> Sei liburukitan bildutako eskuizkribua Gasteizko Antso Jakituna Fundazioak erosi zuen urrian, izenik eman gabe (ik. Fernández D'Arlas 2008), eta gaur egun haren liburutegian gordetzen da, ZRV-3470 signaturapean. Antso Jakituna Fundazioak 2009ko maiatzaren amaieran, Betoñuko egoitza berria irekitzearekin batera, eskuizkribua haren eskuetan zegoela eta egoitzan erakutsiko zutela jakinarazi zuen (ik. Diario de Noticias 2009 eta egun haietako beste zenbait hedabide). Gainera, hilabete batzuk geroago Fundazioak gramatikaren eta hiztegiaren bertsio digitalizatuak utzi zituen denon eskura Interneten. <ref type="bibr">4</ref> Bigarrenik, Gidor Bilbaok (2008) ordu arte ikertu gabe zegoen Urteren gramatikaren ereduen aztertzeari ekin dio, lapurtarrak zenbait atal Claude Mauger hizkuntza-maisuaren frantses gramatikatik, edo haren tradiziotik, hartu zituela frogatuz. Zehazki, nomenklaturaren zati batzuetan, "Arduraco Hizguntçac-Phrases Familiaires" eta "Behardiren Gauçac Escatçeco-Pour Demander les Choses Necessaires" ataletako hainbat esaldi laburretan, eta solas gehienetan aurkitu du Bilbaok Maugerren eragina Urteren gramatikan.</p><p>Azkenik, Josu M. Zulaikak (2009) Urteren gramatikari buruzko hainbat datu interesgarri ezagutarazi ditu; izan ere, Gottfried W. Leibniz jakintsu saxoniarraren eta John Chamberlayne hizkuntzalari britaniarraren arteko gutunak azterturik, Zulaikak lortu du jakitea Urtek 1714an gramatikan lanean zegoela Chamberlayneren mandatuz <ref type="bibr">(2009: 327-328)</ref>. Oroit bedi Websterrek 1712an datatu zuela Urteren gramatika, pentsatu baitzuen, Urtek amaitu zuen lan bakarra izanik, abiatu zuen lehena ere izan behar zuela. Websterrek susmatu zuen 1706an Ingalaterrara iritsitakoan hasi zela Urte gramatika idazten eta, sei bat urtez lan egin ondoren, 1712an burutuko zuela <ref type="bibr">(Webster 1900: ii-iii)</ref>. Halaber, Paul Ernst Jablonski orientalistaren beste gutun bati esker, Zulaikak ondorioztatzen du 1716an Urteren gramatika argitaratzeko asmoa izan zitekeela <ref type="bibr">(Zulaika 2009: 341-344)</ref>. 5 1 Lan hau Espainiako Zientzia eta Berrikuntza Ministerioak finantzatutako «Monumenta Linguae Vasconum (III): crítica textual, lexicografía histórica e historia de la lengua vasca» (FFI2008-04516) ikerketa-proiektuaren eta Eusko Jaurlaritzak finantzatutako «Historia de la lengua y lingüística históricocomparada» (IT486-10) ikerketa-taldearen babespean egin da. Eskerrik beroenak eman nahi dizkiogu Beñat Oyharçabal, Blanca Urgell eta Josu Zulaikari, lan honen zirriborroari egindako iruzkinengatik eta izan dugun ideia-trukeagatik. Mila esker, orobat, UPV/EHUko Arabako Campuseko Liburutegiko M. Lourdes Sáenz de Castillori, artikulu honetan erabilitako zenbait lan helarazteko egindako zuzemenengatik.</p><p>2 Urteren gramatikari buruzko aurreko ikerketei buruz, ik. <ref type="bibr">Bilbao (2008: 129, 5. oh.)</ref>. <ref type="bibr">3</ref> Hilabete batzuk lehenago, 2008ko martxoan, enkante-etxe berak Urtek egindako Testamentu Zaharreko zati batzuen itzulpena atera zuen enkantean, eskuizkribua Jose Maria Arriola notario eta liburuzale bizkaitarrak erosi zuelarik (ik. <ref type="bibr" target="#b6">Argüello 2008)</ref>. Urteren eskuizkribu guztiak Shirburn gazteluan zegoen Macclesfield-eko konteen liburutegi osoaren enkanteari zegozkion. <ref type="bibr">4</ref> Grammaire cantabrique helbide honetan dago: http://www.memoriadigitalvasca.es/ handle/10357/2105 (2009/09/30ean sartua); Dictionarium Latino cantabricum beste honetan: http:// www.memoriadigitalvasca.es/handle/10357/2176 (2009/10/22an sartua). <ref type="bibr">5</ref> Urteren gramatikaz aipatutakoak ez ezik, Zulaikaren artikuluak beste aurkikuntza garrantzitsu batzuk egiten ditu, hala nola Urteren hiztegiaren eredua Linguae Romanae Dictionarium luculentum novum Urteren gramatikaren eskuizkribua sareratu zenean, Websterren edizioarekin gaingiroki erkatzeari ekin genion, funtsean -baina ez zeharo-ondo transkribatu zela egiaztatu genuelarik. <ref type="bibr">6</ref> Gaur egun eskuizkribua eskuragarri dugunez gero, espero izatekoa da laster haren edizio egokiago bat izatea. Bien bitartean, artikulu honen helburua askoz xumeagoa da: Maugerren tradizioarekiko zorra ezagutu ondoren, gure asmoa da Urteren gramatikaren beste iturri baten berri ematea, xvi. mendeaz geroztik Ingalaterran latina ikasteko erabili zen gramatika ofiziala, "Lilyren gramatika" izenaz ezagutzen dena alegia.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Urteren beste iturri bat: Lilyren gramatika</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Urteren iturriez eta helburuez</head><p>Gidor Bilbaok ohartarazi zuenez, "Mauger ez da nahikoa <ref type="bibr">Urte ulertzeko, baina ezinbestekoa da" (2008: 135)</ref>. Halaber, ildo onetik abiatu zen honako hau adierazi zuelarik, lehenago <ref type="bibr">Oyharçabalek (1989: 69)</ref>  <ref type="bibr">7</ref> proposatutako bide beretik: "Urteren lana Maugerren eskuliburuaren tradizioko hizkuntza-ikasbideen historiari loturik aztertu beharko da engoitik" <ref type="bibr">(Bilbao 2008: 136)</ref>. Ziurrenik, ezin dugu Lilyren gramatika erabat sartu Maugerren eskuliburuaren tradizio berean: alegia, hizkuntza bat baino gehiago konbinatuz haien gramatika -gehienbat oinarrizkoa-, hiztegiak -alfabetikoak zein gaikakoak-edota hizkuntzaren adibideak -solasak, fraseologia, gutun-ereduak, otoitzak, etab.-eskaintzen zituzten ikasbide eleaniztunak, xv. mendetik, latinak lingua franca gisa indarra galdu ahala, Europa osoan arrakasta handia izan zuen genero bat osatu zutenak (ik., hainbaten artean, <ref type="bibr" target="#b20">Rossebastiano 2000</ref>  <ref type="bibr">(Webster 1900: iii-iv, viii)</ref>. Bidenabar esanda, Donostiako Koldo Mitxelena Kulturunean dagoen aleak -J.U. 2946 signatura duenak-eskuz egindako zuzenketak ditu, norbaitek (Julio Urquijok berak?) Urteren eskuizkribuarekin erkatu ondoren idatziak. 7 Cf. <ref type="bibr">Oyharçabal (1989: 69)</ref>: «la grammaire de P. d'Urte est avant tout un relevé de formes classées selon les paradigmes en usage dans les grammaires pédagogiques de l'époque. Il s'agit d'un ouvrage de praticien et non d'une grammaire d'analyse, encore moins d'une grammaire raisonnée <ref type="bibr">[…]</ref>. L'influence des grammaires d'enseignement est sensible, bien que d'Urte n'indique point de façon explicite qu'il envisage sont travail comme une méthode d'apprentissage». <ref type="bibr">8</ref> Maugerren lanaren arrakastaz, ik. <ref type="bibr" target="#b8">Bouton (1972);</ref><ref type="bibr">Bilbaok (2008: 131-132)</ref> Maugerren edizioen historia laburtu du. rua ere didaktikoa izan zitekeela, euskararen deskribapen edo analisi baten eskaintze soila baino.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Lilyren gramatika</head><p>"Lilyren gramatika" deiturikoaren historia zail da laburtzen, 9 hiru mendetan zehar hainbat aldiz eta izenburu desberdinak erabiliz argitaratu zelako, tarte horretan mota askotako aldakuntzak jasan zituelako eta, besteak beste, egiletasun arazoak ere izan dituelako. <ref type="bibr">Allen-ek (1954: 86)</ref> historia honetan aintzat hartu behar diren bertsioen zerrenda ematen du:</p><p>( Hurrenik, Lilyk De octo orationis partium constructione libellus sintaxi-lana idatzi zuen latinez, Coletek katedraleko ikastetxean erabiltzeko Linacreren Progymnasmata grammatices arbuiatu ondoren <ref type="bibr" target="#b5">(Allen 1954</ref><ref type="bibr">: 88, Padley 1976</ref>. Inoiz Libellus-en egilea Erasmo izan zela pentsatu bada ere, Rotterdamgoak lana berrikusi egin zuen, besterik ez <ref type="bibr">(Flynn 1943: 99;</ref><ref type="bibr">Watson 1968: 248-250</ref> Azkeneko bertsio batek arrakasta handia izango zuen, 1540an Henrike VIII.ak eskolarako gramatika bakarra hautatu baitzuen, xviii. mende amaiera arte latinaren irakaskuntzaren ia erabateko monopolioa 16 lortuz <ref type="bibr">(Rousse &amp; Verrac 1992: 340)</ref>. Hau dela eta, gramatika horri "Errege Gramatika" izena ere eman zaio. Erregearen baimenarekin argitaratu zen lehena latinez idatzitako gramatika bat izan zen: Laster bi zatiak lotuta inprimatzen hasi ziren, zati bakoitzak bere azala eta signaturak edota orrien zenbakiak izan ohi bazituen ere: <ref type="bibr" target="#b1">17</ref> (1) An introduction of the eyght partes of speche, geroago A short introduction of grammar deitua, ingelesez idatzia eta funtsean Coleten Aeditio-ren bi zatiei zegokiena, eta (2) Institutio compendiaria totius grammaticae, geroago Brevissima institutio seu ratio grammatices cognoscendae deitua, latinez idatzia eta honako lau atalez osatua: ortografia, etimologia (hots, hitzen flexioa), sintaxia eta prosodia. <ref type="bibr" target="#b2">18</ref> Hasieran obra osoak An introduction of the eyght partes of speche deitura izan zuen, <ref type="bibr" target="#b3">19</ref> baina 1548az geroztik A short introduction of grammar izenburua hartu zuen; 20 bistan denez, ingelesezko zatiaren izenburuak izena eman zion obra osoari. Allenek (1954) xeheki aztertu zituen gramatikaren bi zatien iturriak eta egiletasun arazoak. Luzexka bada ere, merezi du haren ondorioak hona aldatzea, Allenen hitzek atal honetan aztergai dugun lanaren zailtasunez ederki ohartarazten baitigute:</p><p>(9) To sum up, both halves of 'Lily's Latin Grammar' were the work of a committee possibly the same committee in both cases, possibly not, and both were derivative: they were originally published separately, first the Latin, then the English, and later republished as one work without common titlepage, with the English in front. "Errege Gramatika" hainbat aldiz berrargitaratu zen xvi. eta xvii. mendeetan (EEBOn 1700 arteko ehun bat edizio jasotzen dira); berrargitalpen horietan aldakuntza batzuk sartu ziren, batik bat materialen aurkezpenari zegozkionak, edukiei berei baino gehiago <ref type="bibr">(Michael 1970: 22)</ref>. Orobat, ingelesezko itzulpena gehitzen zuten edizio laburtuak atondu ziren, hala nola Lillies rules construed wherunto are added Tho. Robertsons Heteroclites… izenburua zutenak. Lilyren gramatika, 1758an Eton Latin Grammar eraldaturik, erabiltzen jarraitu zen xix. mendean zehar <ref type="bibr">(Flynn 1943</ref><ref type="bibr">: 112, Padley 1976</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Urtek erabili zuen edizioaren bila</head><p>Ezbairik gabe, Urtek Brevissima institutio latinez idatzitako zatia erabili zuen nagusiki bere gramatikaren eredu gisa. Izan ere, hurrengo atalean xehekiago erakutsiko dugunez, Urteren Grammaire cantabrique-ren eta Brevissima institutio-ren arteko paralelo nabarmenak aurkitu ditugu honako zati hauetan: izenaren akzidenteak, izenen konparazioa, adberbio motak, juntagailu motak, interjekzio motak, sintaxia eta figurak (ik. § 4).</p><p>Hala ere, ingelesezko lehenengo zatitik ere izan bide zuen zer profitatu. Hain zuzen ere, oso litekeena da hortxe aurkitzea Urtek, sintaxian eta beste atal batzuetan, hitzen ordena markatzeko letrak eta ikurrak erabiltzeko ideia. Horrela gaztigatzen da Lilyren gramatikako "An advertisement to the reader" atalean:</p><p>(10) In this Impression, for the greater profit and ease both of Master and Scholar, in the English rules, and in the Latin Syntax, those words, wherein the force of each example lieth, are noted with letters and figures, where need is: the governour, director or guider, or that which is in place of it, with an a ; the governed, or that which is guided by it, with b : Or if there be more governours, the first with a , the second with aa ; and so if more governed, the first with b , the second with bb : and sometimes the order is directed by a b c ; or by figures and words of the same and such like nature, coupled together with little stroaks between, so much as may be. [Letra etzana gurea da]</p><p>Hona ingelesezko sintaxitik ateratako adibide bat ("The concords of Latin speech", f. D):</p><p>(11) Si cupis a placere b magistro, a utere diligentiâ; nec a sis tantus b cessator, ut b calcaribus a indigeas, If thou covet to please thy master, use diligence; and be thou not so flack, that thou shalt need spurs.</p><p>Eta hona Urteren gramatikako adibide bat <ref type="bibr">(ca. 1714 [1900: 427]</ref>):</p><formula xml:id="formula_0">(12) a b c</formula><p>Il regarde a ma maniere de parler. b c a + Ene mintçatceäri beguirátcen dió.</p><p>Bistan da ez direla sistema guztiz berdinak: izan ere, Lilyren gramatikaren helburua latinezko gobernatzaile-gobernatu erlazioa markatzea delarik, Urterena frantsesaren eta euskararen hitz ordena desberdinak agerraraztea da; gainera, Lilyren gramatikak a eta b letrak baino ez ditu erabiltzen, eta Urtek behar adina baliatzen ditu, esaldiak duen osagai kopuruaren arabera, baita aditz laguntzailea markatzeko "+" ikurra ere. Guztiarekin ere, nahiz eta ezin dugun ziurtasun osoa izan, baliteke Urtek bere gramatika ontzeko erabili zuen iturri nagusian aurkitzea berean hitzen ordena erakusteko sistema ere. Zernahi gisaz, Urteri berari egotz geniezaioke halako sistema baten asmakuntza edo aitortu genezake oraindik ezagutzen ez dugun beste iturri bat (gutxienez) izan zuela, edota, agian ziurrago, lapurtarrak latina ikasteko baliabide pedagogiko gisa ezagutu zuela; gogoan izan, esaterako, Donemiliagako glosa gehienak hitz ordena markatzeko letrak (a, b, c…) direla (cf. <ref type="bibr" target="#b19">Rico 1978</ref><ref type="bibr">eta Bustos Tovar 2000</ref> eta hitzen hurrenkera letrak edo zenbakiak indize gisa erabiliz markatzeak ohitura nahiko hedatuta izan behar zuela, gure testu tradizioan Refranes y sentencias-ek erakusten duten moduan <ref type="bibr">(Lakarra 1996;</ref><ref type="bibr">cf., halaber, Lakarra 1994: 881</ref> Alvari, Sanctio, Vossio, Busbeio &amp; quotquot nuper scripsere grammaticis Latinis"; orobat, gorago erakutsi dugunez (ik. 13d eta f), Oxfordeko 1699ko eta 1709ko A short introduction of gramar-ekoari beste hauek: "To which are added useful observations by way of comment out of ancient and late grammarians" (1709: "usefull"). Urteren gramatikan ez dugu aurkitu ohar horien zantzurik eta, beraz, honek ere pentsarazten digu Urtek ez zuela erabili Oxfordeko edizio garaikiderik (ik., orobat, 49. oin-oharra).</p><p>Aurreko biak -sintaxiko atal erantsiak eta inguruko oharrak-bezain erabakigarria ez bada ere, aipa dezagun Urtek zein edizio erabili zuen igartzeko bidean jarri ahal gaituen beste desberdintasun bat. Londresko 1710eko edizioari "An advertisement to the reader" atala falta zaio; bertan azaltzen da latinezko adibideetan gobernatzaile-gobernatu erlazioa adierazteko erabiliko den sistema (ik. 10). Haatik, Urtek 1710eko edizioa erabil zezakeen eta testuan zehar agertutako adibideetan oinarria hartu (ik., adibidez, 11) bere gramatikan hitz ordena adierazteko era bururatzeko.</p><p>Atal honetan azaldutako guztiaren ondoren, oraingoz ezin izan dugu ziurtasun osoz identifikatu Pierre Urtek bere gramatika idazteko erabili zuen Lilyrenaren edizio zehatza. Hala eta guztiz ere, argitalpen garaikide bat erabili zuela pentsatzen badugu -zentzuzkoena baitirudi-, Oxforden inprimatuak (13d, f, i) baztertu beharko genituzke segurki. Bestalde (13c)-n aipatu dugun Londresko 1699koa (13b)-koaren beste emisio bat bada, kontsultatu ditugun edizioetatik bost aukera hauek geratzen zaizkigu: Cambridgeko 1699koa (13a) eta Londresko 1699koa (13b, c), 1702koa (13e), 1710ekoa (13g) eta 1712koa (13h). Lehenago esan bezala, edizio hauetan guztietan, 1702koan izan ezik, orrialde bakoitzean sartzen den testu zatia ia berdina da, lerroren bat gorabehera; hortaz, irakurlearen erraztasuna bilatu nahian, hurrengo atalean erabiliko ditugun orrialde zenbakiak Londresko 1699ko edizioari dagozkio.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Brevissima Institutio eta Urte aurrez aurre</head><p>Hirugarren atalaren hasieran aurreratu dugunez, Urteren gramatikaren (aurrerantzean, GC) eta Brevissima Institutioren (aurrerantzean, BI) arteko antzekotasun nabarmenenak honako zati hauetan erabilitako terminologian eta adibideetan aurkitu ditugu: izenaren akzidenteen segida ( § 4.1), izenen konparazioa ( § 4.2), adberbio motak ( § 4.3), juntagailu motak ( § 4.4), interjekzio motak ( § 4.5), sintaxia ( § 4.6) eta figurak ( § 4.7). Atal honetan, banan-banan aurkeztu eta aztertuko ditugu bi gramatika-lanen arteko paralelotasunak. Urteren aipamenak eskuizkribuari (ca. 1714) dagozkio, Antso Jakituna Fundazioak sareratutako bertsio digitalizatua erabili baitugu; 25 gutxitan bada ere, Websterren edizioan errata batzuk aurkitu ditugu eta horregatik nahiago izan dugu zuzenean eskuizkribura jo.</p><p>Gramatika bakoitzaren metahizkuntza nagusia desberdina denez -BIkoa latina eta GCkoa frantsesa-, arras zaila da testu paralelo luzeak aurkitzea. Haatik, ziur gaude aurkeztuko ditugun terminoen zerrendak eta adibideak aski izango direla bi lanen arteko lotura frogatzeko. Horretarako, hurrengo tauletan lotura hori ziurtatzeko esanguratsuak iruditzen zaizkigun sailkapenak eta adibideak besterik ez dugu azalduko. Ildo horretatik, paralelo posibleetatik kanpo utzi ditugu latindar ereduan oinarritutako gramatikagintza zaharrean guztiz ohikoak diren sailkapenak eta terminoak, hala nola deklinabidearen sei kasuak; izan ere, halakoetan antzekotasunak aurkitzeak ez digu ezer ziurrik esaten bi testuen arteko erlazioari buruz, tradizio komun baten isla besterik ez bailuke erakutsiko. Adibideei dagokienez, Urtek BItik kopiatzen edo egokitzen dituen adibide adierazgarriak eta errepikatzen dituen adibide-segidak hartu ditugu kontuan eta tauletan azaldu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Izenen akzidenteak</head><p>Urteren gramatikari hasiera ematen dion ortografiako atalaren (GC, 1-12), aitagurearen <ref type="bibr">(13-15. or</ref> BIn azkeneko "Accident tiré du nom" falta da, baina baliteke Urtek gorago agertu aditzetik eratorritakoak oinarri hartuta asmatzea; ohar bedi atal labur hori eskuizkribuan geroago erantsia dirudiela. Bestalde, aditzetik eratorritakoen artean "ornatilis, edergarria" sarrera kausitzen dugu (GC, 42); atal horretan latinezko sarrera-burua duen bakarra da, baina ez da BIko adibideetan agertzen. <ref type="bibr">BI,</ref><ref type="bibr">[32]</ref><ref type="bibr">[33]</ref><ref type="bibr">[34]</ref><ref type="bibr">[35]</ref><ref type="bibr">[36]</ref> GC, 53-55</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Izenen konparazioa</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparatio nominum</head><p>Gradus comparationis sunt tres Bi lanetako azken puntuan gradu positibo, konparatibo eta superlatiboaren deklinabidea aurkezten da. BIn taula baten bidez azaltzen dira hiru graduek sei kasuetan hartzen dituzten atzizkiak; GCn, aldiz, gradu konparatiboaren atzizkien ondoren, hobeago konparatibo "anomaloaren" eta ederrago erregularraren paradigmak datoz, superlatiboaren deklinabideari buruzko ohar orokor batekin amaitzeko. Horren aurretik, goiko taulan ikusten dugunez, Urtek adberbioen konparatiboei eta superlatiboei buruzko atal bat gehitzen du ("Comparatifs et superlatifs d'adverbes"). Konparazioari eskainitako atalaren ondoren, BIn izenordainei (37-40. or.), aditzari (40-59) eta partizipioari (59-62) buruzko atalak datoz; Urtek ez bide zuen haietatik ezer hartu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Adberbioa</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>BI, 62-65</head><p>GC, 431-437</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>De adverbio</head><p>In loco significant, <ref type="bibr">Hic, ilic, istic, intus, foris, usquam, nusquam, ubi, ubique, ubicunque, ubilibet</ref> Urtek BIn ez dagoen interjekzio mota bat sartu du ("Optantis") eta beste bati izena luzatu dio, latinez luzatu ere ("Ex improviso aliquid deprehendentis sive reminiscentis"). Optantis interjekzio mota ez da agertzen Lilyren gramatikaren edizioetan, baina tradizio luzea du, dagoeneko Donatusen Ars Maior-en aurkitzen baitugu <ref type="bibr">(apud Holtz 1981: 652)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.6.">Sintaxia</head><p>Sintaxiari buruzko atala ia osorik hartzen du Urtek BItik, hurrengo tauletan erakutsiko dugunez. Zenbaitetan adibideak eta are azalpen osoak errepikatzen ditu bertatik; une batetik aurrera -448. orrialdetik bakanka eta 459.etik usuago-azalpen batzuk latinez ematen ditu Urtek, frantsesera itzuli gabe. Jakina, latin gramatikaren ereduari hain hertsiki atxikitzeak euskararen deskribapenerako desegokiak diren adibide eta azalpen franko sarrarazi zizkion Urteri; 3630 haatik, eredu(ar)en eraginak Urteren gramatika-ideietan duen isla xeheki aztertzea gure oraingo helburuetatik kanpo dago eta, beraz, hurrengo lan baterako utziko dugu. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Oxfordeko Bobdelian Libraryn egindako kopia bat baizik. Websterrek asmoa zuen transkribapena gero originalarekin erkatzeko, baina ez zuen horretarako aukerarik izan, berak aitortu zuenez</figDesc><table><row><cell>).</cell></row><row><cell>Aitzitik, Lilyren gramatika, Urtek gehienik baliatzen duen zatia bederen, latina</cell></row><row><cell>ikasteko gramatika bat da (gainerakoa nagusiki ingelesaren gramatika izanik; ik.</cell></row><row><cell>beherago). Hortaz, bai Maugerren lana, bai Lilyrena lan didaktikoak dira; honek age-</cell></row><row><cell>rian uzten digu Urtek bere gramatika ontzeko hautatu zituen ereduak garai hartan</cell></row><row><cell>oso ezagun eta arrakastatsuak ziren bi gramatika didaktiko izan zirela: ordu hartan In-</cell></row><row><cell>galaterran frantsesa ikasteko eta latina ikasteko erabiltzen ziren gramatikak, hurrenez</cell></row><row><cell>hurren. 8 Horrela, are ziurragoa begitantzen zaigu orain Urteren gramatikaren helbu-</cell></row><row><cell>(Cambridge 1693) izan zela (2009: 320-323), edo Nicolas Fréret-en Essay d'une grammaire de la langue</cell></row><row><cell>basque Urterenaren garaikidea dela (2009: 341-342) ohartzea -orain arte Fréreten eskuizkribua datatu</cell></row><row><cell>gabe baitzegoen (cf. Hurch 2002: 95)-.</cell></row></table><note>6 Gogoan izan Websterrek ez zuela Urteren eskuizkribu originala erabili, Margaret Lee-k</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>Lilyren gramatikari buruzko informazio osoena, eta ondorengo lan askoren iturri zuzena edo zeharkakoa dena, Watsonek(1968 [1908]) eta batez ere Flynnek(1939, 1943)  eman dute. Hala ere, Watsonen lanak huts franko ditu. Ez dugu Flynnen doktorego-tesia kontsultatzerik izan, baina 1943ko artikuluak tesian Lilyren gramatika-lanez esandakoak laburbiltzen ditu. Nolanahi ere den, aurkezpen argien eta ordenatuena, gure ustez, W. S. Allen-ena da<ref type="bibr" target="#b5">(Allen 1954)</ref>. 10 Lanaren datazioa liburuaren hasieran azaltzen den Coleten gutunaren amaieran oinarritzen da: «Vale ex aedibus meis, Calen. Augu. An. M.CCCCC.IX». Wolsey kardinalak beste bertsio bat inprimarazi zuen Ipswich-eko eskolan erabiltzeko, lehen aldiz 1529an argitaratu zena. Wolseyren gramatikak Aeditio-</figDesc><table><row><cell>ren bigarren partea jasotzen du, Lilyren sintaxia alegia:</cell></row><row><cell>(3) Rudimenta grammatices et docendi methodus non tam scholae Gypsuichia-</cell></row><row><cell>nae per reuerendissimum. D. Thoma[m] cardinale[m] Ebor. feliciter institutae</cell></row><row><cell>q[uam] o[mn]ibus aliis totius Anglie scholis prescripta, [Southwark]: Excusum</cell></row><row><cell>per me Petrum Treueris, anno verbi incarnati milesimo quingetesimo vige-</cell></row><row><cell>simo .ix. die mesis Iunii quarto [1529].</cell></row><row><cell>Rudimenta gutxienez 1536, 1537 eta 1539an ere berrargitaratu zen, hirurak</cell></row><row><cell>Anberesen, ordurako Wolsey hilik eta Ipswicheko eskola deuseztaturik zeudela</cell></row><row><cell>(Flynn 1943: 97). Nolanahi ere den, badira urterik gabeko beste bi edizio, Aeditio-1) 1. Colet's Aeditio. 2. Lily's Rudimenta. ren bigarren zatiaren izenburu bera ere hartu zutenak (ik. 12. oh.):</cell></row><row><cell>3. Lily's De constructione. (4) a. Guilielmi Lilii Angli Rudimenta Paruuloru[m] Lilii nuper Impressa [et] 4. Lily's De generibus nominum. correc ta, [York: U. Mylner, 1516?]. 5. An introduction of the eight parts of speech, later entitled A short introduc-b. Guillelmi Lilii Angli rudimenta Paruulorum Lilii nuper impressa, [Lon-tion of grammar. 6. Institutio compendiaria totius grammaticae, later entitled Breuissima insti-don: J. Byddell, 1538?].</cell></row><row><cell>tutio grammatices cognoscendae.</cell></row><row><cell>Hortaz, abiapuntua 1509-1510 inguruan koka daiteke, John Colet (1467-1519)</cell></row><row><cell>Londresko St. Paul katedraleko deanak eskaturik, William Lilyk (1468?-1522) la-</cell></row><row><cell>tina ikasteko oinarrizko sintaxi-lan bat idatzi zuenean, katedralari atxikitako ikas-</cell></row><row><cell>tetxe sortuberrian erabil zedin. Colet-en Aeditio izenarekin ezagutzen den obra hau</cell></row><row><cell>lehenbizikoz 1527an argitaratu zen, 10 Colet eta Lily hil ondoren; liburuaren gu-</cell></row><row><cell>nean, Coletek perpausaren zortzi atalen aurkezpena egin zuen 11 eta Lilyk, aldiz, ai-</cell></row><row><cell>patutako sintaxi laburra eskaini zuen, 12 biak ingelesez idatziak, liburuaren izenburua</cell></row><row><cell>gorabehera: 13</cell></row><row><cell>(2) Ioannis Coleti theologi, olim decani diui Pauli, aeditio. una cum quibusdam</cell></row></table><note>G. Lilij Grammatices rudimentis, G. Lilij epigramma, [Antwerp: C. Rure- mond? for G. van der Haghen], MDXXVII [1527]. [Ezagutzen den ale ba- karra San Petersburgoko Katedralean dago].9 Ziurrenik,11 Izenburu honekin hasten da: «An introduccyon of the parthes of speking, for chyldren &amp; yonge begynners in to latyn speche».12 Honela abiatzen dena: «Guillelmi Lilij Angli Rudimenta».13 Colet eta Lilyren lanen edizio guztien aipamenak Early English Books Online (EEBO) datu-base bibliografikotik atera ditugu. Zenbaitetan, informazioa osatzeko, English Short Title Catalogue (ESTC) datu-baseaz baliatu gara.Thomas</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>). Lilyren gramatika hainbestetan berrinprimatu zenez, zentzuzkoa da pentsatzea Urtek argitalpen aski berri bat erabili zuela, eta ez askoz lehenago argitaratutako bat. Eskuratu ditugun katalogo bibliografikoetan, 1699 eta 1714 bitarteko 21 hainbat edi-zio idoro ditugu, baina tamalez ezin izan ditugu guztien testuak kontsultatu. Hauek dira kopia digitalizatuei edo fotokopiatuei esker erkatu ditugun argitalpenak: (13) a. A short introduction of grammar generally to be used. Compiled and set forth for the bringing up of all those that intend to attain to the knowledge of the Latine tongue, Cambridge: Printed by John Hayes, Printer to the University, Anno Dom. 1699. [EEBO: "Reproduction of original in the William Andrews Clark Memorial Library, University of California, Los Angeles"] b. A short introduction of grammar. Compiled and set forth for the bringing up of all those that intend to attain to the knowledge of the Latin Tongue, London: Printed by Will. Norton, Printer to the King's most Excellent Mahesty, in Latin, Greék and Hebrew, 1699, cum privilegio. [EBBO: "Reproduction of the original in the University of Illinois Library, Urbana, Illinois"] c. A short introduction of grammar generally to be used. Compiled and set forth for the bringing up of all those that intend to attain to the knowledge of the Latin Tongue, London: Printed by Rog. Norton, Printer to the King's most Excellent Majesty, in Latin, Greek and Hebrew, 1699, cum privilegio. [EBBO: "Reproduction of original in the Bodleian Library". Aurrekoaren beste emisio bat dirudi; Brevissima institutio zatia falta zaio] d. A short introduction of grammar, generally to be used; compiled and set forth for the bringing up of all those that intend to attain to the knowledge of the Latin tongue. To which are added useful observations by way of comment out of ancient and late grammarians, Oxford: At the Theater, 1699. [EBBO: "Reproduction of original in Huntington Library"] e. A short introduction of grammar. Compiled and set forth for the bringing up of all those that intend to attain to the knowledge of the Latin tongue, London: Printed by Will. Norton, 1702. [HathiTrust Digital Library: "Original from New York City Public Library", http://hdl.handle.net/2027/ nyp.33433082275821] f. A short introduction of grammar generally to be used; compiled and set forth for the bringing up of all those that intend to attain to the knowledge of the Latin tongue. To which are added usefull observations by way of comment out of ancient and late grammarians, Oxford: At the Theater, 1709. [Oxfordeko Unibertsitateko Library of the Taylor Institution-en dagoen alea baliatu dugu, Google Books-en aurki daitekeen digitalizazioaren bidez (http://books.google.com/books?id=tdoFAAAAQAAJ)] g. A short introduction of grammar generally to be used, compiled and set forth for the bringing up of all those that intend to attain to the knowledge of the Latin tongue, London: Printed by William Norton, Printer to the Queens most Excellent Majesty, in Latin, Greek and Hebrew, 1710, cum privilegio. EEBOn kontsultatu dugun ale digitalizatuak azala eta 6 orrialde besterik ez du.] h. A Short Introduction to Grammar, compiled and set forth for the bringing up of all those that intend to attain to the knowledge of the Latin tonge, London: Printed by Roger Norton, printer to the Queens most Excellence Majesty, in Latin, Greek and Hebrew, 1712, cum privilegio. Oro har, edizio horietako testuen arteko aldea ez da oso handia; alabaina, argitaralekuen araberako zenbait diferentzia aipagarri aurkitu ditugu. Lehenik eta behin, esanguratsua iruditzen zaigu Lilyren gramatikako sintaxiak Oxfordeko edizioetan dituen azken bi atalek Urteren gramatikan islarik ez izatea: "De Syntaxi figurata" (152-165. or.) eta "Sylvula verborum diversae structurae" (166-189. or.), alegia. Honek iradokiko luke Urtek beste leku batean argitaratutako edizio bat erabili zuela; izan ere, Londresen eta Cambridgen inprimatutakoek ez dituzte aipatu bi atalak, bi adarretan 106-107. orrialdeen artean kokatuta egon beharko zuketenak. Datu guztien arabera, Oxfordeko adarrak sartu zituen sintaxiaren amaierako bi atal horiek, haren berrikuntza bat izanik. Baina noiz azaldu ziren lehen aldiz? Oxforden argitaratuta ezagutzen dugun lehenengo edizioa 1636koa da eta hor falta dira (ik. 106-107. or.); aldiz, kontsultatu ahal izan dugun hurrengo edizioak, 1672koak, dagoeneko bi atalak barneratu zituen (152-189. or.). 23 Ohar bedi sintaxiko bi atal berriak sartu arte hiru argitaralekuetan agertutako edizioek orrialdeen zenbakitze berdin-berdina zutela; hau da, edizio horietan guztietan, 24 lerroren bat gorabehera, orrialdez orrialde ere testu berbera aurkitzen dugu, nahiz eta zenbait arrazoirengatik -esaterako, letra kapitalak, izenburuak, ertzetako glosak, etab.-nabari izan edizio desberdinak direla, eta ez edizio baten emisio desberdinak. Bestalde, sintaxiko bi atal erantsiak ez ezik, Oxfordeko 1672ko edizioak, eta argitaraleku bereko hurrengoek ere, badute beste berrikuntza garrantzitsu bat: testu guztia oharrez inguratuta dago. 1672ko Brevissima institutio-ren izenburuari honako hitz hauek gehitu zitzaizkion: "additis subinde observationibus utilissimis, ex Despauterio, 22 xvi. mendetik Ingalaterran argitaratutako edizio gehienak, alde handiz, Londresko inprimategietatik atera ziren. Kontsultatu ditugun katalogoen arabera, Cambridgen inprimatutako lehenengo edizioa 1621ekoa da («Imprinted by Cantrell Legge, printer to the Vniversitie of Cambridge»), eta Oxforden inprimatutako lehena 1636koa («Printed by William Turner, printer to the famous Universitie»).</figDesc><table><row><cell>[Bri-</cell></row><row><cell>tish Library-n]</cell></row><row><cell>i. Brevissima institutio seu Ratio grammatices cognoscendae, ad omnium puero-</cell></row><row><cell>rum utilitatem praescripta: quam solam Regia Majestas in omnibus scholis</cell></row><row><cell>docendam praecepit. Additis subinde observationibus utilissimis, ex Despau-</cell></row><row><cell>terio, Alvaro, Sanctio, Vossio, Busbeio &amp;, quotquot nuper scripsere, gramma-</cell></row><row><cell>ticis Latinis; quae universam artem grammaticam exhauriunt, Oxonii: È</cell></row><row><cell>Theatro Sheldoniano, An. Dom. MDCCXIV [1714]. [Oxford Univer-</cell></row><row><cell>sity Library-n]</cell></row><row><cell>Goiko zerrendan ikusten denez, kontsultatu ditugun 1699-1714 bitarteko edi-</cell></row><row><cell>zioak Cambridgen (13a), Londresen (13b, c, e, g, h) eta Oxforden (13d, f, i) ar-</cell></row><row><cell>gitaratu ziren. 22</cell></row></table><note>[EEBOren arabera "Reproduction of original in the British Library", baina ez dut haren katalogoan aurkitu; ESTCren arabera, ordea, Indiana State University, University of Illinois eta University of Oregon-en daude argitalpen honen aleak;23 Bien artean, beste bi edizio besterik ez zaigu agertu katalogoetan: 1651ekoa eta 1654koa («printed by L.L. and H.H. printers to the University»).24 Kontsultatu ditugun edizioetarik salbuespen bakarra Londresko 1702koa da, bertan liburu osoan orrialdeen zenbakitze bakar eta jarraitua agertzen baita.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>.) eta gaikako hiztegien ondoren (15-37), 26 izen eratorrien zerrenda batzuk datoz, orain arte euskalarientzat azalpen gaitzeko deitura zutenak: accident. Hurrengo taulan ikus dezakegu zerrenda horien -eta deitura horreniturria zein den, nahiz eta Urtek ez dituen BIk eskainitako akzidente mota guztiak baliatzen. Nomenklatura hauen zati baten iturria Maugerren frantses gramatikan aurkitu zuen Bilbaok(2008). Hala ere, artikulu hau amaitzen ari ginelarik, ohartu gara bai zati horiek, baita Urteren gramatikako 15-37. orrialdeen bitarteko gehienak ere, Guillaume Quiquerren Colloque français et breton lanean agertzen direla (1626tik aurrera hainbat edizio eta bertsiotan argitaratua). Urtek zuzenean azken obra honekiko zorra ala Quiquerren iturriren edo hartzekodunen batekikoa izan zuen hurrengo lan baterako utziko dugu.</figDesc><table><row><cell></cell><cell>BI, 9-10</cell><cell>GC, 37-55</cell></row><row><cell cols="2">Derivativa</cell><cell></cell></row><row><cell cols="2">-Verbale</cell><cell></cell></row><row><cell cols="2">-Patrium</cell><cell>Accident de patrie national</cell></row><row><cell cols="2">-Gentile</cell><cell></cell></row><row><cell cols="2">-Patronymicum</cell><cell></cell></row><row><cell cols="2">-Diminutivum: ut, Regulus, popellus, ma-</cell><cell>Accident diminutif</cell></row><row><cell></cell><cell>jusculus, minusculus.</cell><cell>roytelet, erreguetçhóa […]</cell></row><row><cell></cell><cell></cell><cell>minusculus, ttipittoa ou çhumetçhóa</cell></row><row><cell></cell><cell></cell><cell>majusculus, handitçhoa, handiçhcóa</cell></row><row><cell cols="2">-Possessivum: ut, Herilis, servilis, regius,</cell><cell>Accident possessif</cell></row><row><cell></cell><cell>paternus.</cell><cell>[…]</cell></row><row><cell></cell><cell></cell><cell>magistral, naussizcóa</cell></row><row><cell></cell><cell></cell><cell>servil, sehizcóa</cell></row><row><cell></cell><cell></cell><cell>royal, erreguezcóa</cell></row><row><cell></cell><cell></cell><cell>de père, paternel, aitazcoa 28</cell></row><row><cell></cell><cell></cell><cell>de maître, de chez le maître, naussiarene-</cell></row><row><cell></cell><cell></cell><cell>ticacoa ou naussiarenecóä</cell></row><row><cell></cell><cell></cell><cell>de serviteur, de chez le serviteur, sehiare-</cell></row><row><cell>27</cell><cell></cell><cell>neticacoa ou sehiarenecóa</cell></row><row><cell></cell><cell>BI, 9-10</cell><cell>de roy, de chez le roy, erreguerenecoa ou GC, 37-55 erreguereneticacóa</cell></row><row><cell cols="2">De accidentibus nomini</cell><cell>de père, de chez le père, aitarenecóa ou ai-tareneticacóa</cell></row><row><cell cols="2">Primitiva -Materiale</cell><cell>Accident materiel</cell></row><row><cell cols="2">-Collectivum -Locale: ut, Hortensis, agrestis, marinus,</cell><cell>Accident local</cell></row><row><cell cols="2">-Fictitium -Interrogativum -Redditivum -Numerale montanus. -Adverbiale -Participiale -Et quae in lis exeunt à verbis deducta</cell><cell>Accident interrogatif Accident adverbial Accident redditif Accident participal Accident numeral 27 Accident tiré du verbe</cell></row><row><cell></cell><cell>• Cardinale</cell><cell>Accident tiré du nom</cell></row><row><cell>28</cell><cell>• Ordinale</cell><cell>Accident numeral ordinal</cell></row><row><cell></cell><cell>• Distributivum</cell><cell>Accident numeral distributif</cell></row><row><cell></cell><cell>• Partitivum</cell><cell>Accident numeral partitif</cell></row><row><cell></cell><cell>• Universale</cell><cell>Accident numeral universel</cell></row><row><cell></cell><cell>• Particulare</cell><cell>Accident numeral particulier</cell></row></table><note>2627 Izenburu honen azpian zenbaki kardinalak sartzen ditu.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>, […] inferius, superius. GCk, adberbio moten amaieran, BIn aurkitu ez dugun "Concludendi" atala gehitzen duela; ez dugu, baina, Lilyren gramatikaren edizioetan kausitu. 3229 Ondoren, Urte preposizioez aritzen da (GC, 437-441); ez dirudi atal horretan BItik (68-71. or.) ezer hartu zuenik. 30 inutilement, alférric] lerroartean idatzita. 31 Eskuizkribuan Dubitandi 436. orrialdearen amaieran dago, eta Euentus 437.aren hasieran; beraz, atal honetan Urtek ez dakar adibiderik. Webster ez zen ohartu eta bi hitzak atal bakar baten izenburutzat hartu zituen: «Dubitandi. Euentus» (1900: 418).</figDesc><table><row><cell>4.4. Juntagailua</cell><cell cols="2">BI, 62-65 BI, 62-65</cell><cell>GC, 431-437 GC, 431-437</cell></row><row><cell cols="3">Ad locum respiciunt, Huc, illùc, istùc, intró, Segregandi BI, 65-68</cell><cell>Ad locum Segregandi</cell><cell>GC, 441-442</cell></row><row><cell cols="3">[…] foras […] A loco denotant, Hinc, illinc, istinc, intus, fo-ris […] Per locum Adverbia temporis Temporis &amp; loci adverbium Adverbia numeri: ut, Semel, bis, ter, quater, quinquies, sexies, septies, vigesies, vel vicies, trigesies, vel tricies, quadragies, quinqua-gies, sexagies, septuagies, octogies, centies, millies, infinities. Diversitatis Eligendi De conjunctione Intendendi: ut, Valde, nimis, nimium, immo-Aliae enim è conjunctionibus copulativae dice, impendio, impense, prorsus, penitus, funditus, radicitus, omnino. sunt Aliae disjunctivae Aliae discretivae Aliae rationales, sive illativae Aliae causales Remittendi Concedentis Negatae solitudinis Qualitatis: ut, Docte, pulchre, fortiter, gra-Aliae perfectivae seu absolutivae Aliae continuativae Aliae dubitativae Aliae adversativae Aliae redditivae earundem viter. Aliae diminutivae Aliae electivae Expletivae Quantitatis 4.5. Interjekzioa</cell><cell>içi, hunat Diversitatis Eligendi De la conjonction là, hórrat, harat dedans, barna, barnéra dehors, campora […] A loco d'ici, hemendic Intendendi Des conjonctions copulatives trop, sobra, guehiegui Disjunctives valde, haguitç Discretiues entierement, ossoqui Raisonables ou illatives funditus, seculáco Causales de là, hortic, handic du dedans, barnetic du dehors, campotic […] Temporis Numeri 29 une fois, behign, aldi batez, aldi batéän Perfectives Remittendi Continuatives Concedentis D'autres de doute, dubitativae Negatae solitudinis De contrarieté, adversativae Qualitatis Redditivae earundem Diminutivae sagement, çuhúrqui, çhuhurqui inutilement, alférric 30 bien, vngui deux fois, bietan, bi aldiz pulchre, ederqui 3 fois, hiruetan, hirur aldiz bien, galanqui 4 fois, lauetan, laurétan, lau aldiz, laur aldiz 20 fois, hogoye? tan, hogoy aldiz fortement, borthizqui […] Quantitatis</cell></row><row><cell cols="2">Comparandi Rei non peractae Demonstrandi De interjectione</cell><cell>BI, 71-72</cell><cell>21 fois, hogoy'eta bat aldiz 30 fois, hogoy'ta hamar aldiz 40 fois, berrogoyétan, berrogoy aldiz Comparandi GC, 442-443 Rei non peractae Demonstrandi De l'interjection</cell></row><row><cell cols="4">De l'adverbe In loco içi, hemen là, hor, han dedans, barnéän, barna dehors, campóän où, non, la même, han beréän par tout, non nahi, nonnahiden ibidem, lekhu beréän ici même, hemen beréän, la même, hor beréän nulle part, nihonére en haut, gaignéän 29 Eskuizkribuko 433. orrialdean; Websterren edizioan (1900: 413) izenburu hau falta da. [1632]). en bas, beheréän […] Ordinis sunt Adverbia interrogandi Vocandi sunt Negandi Affirmandi Iurandi Hortandi Prohibendi Optandi Excludendi Congregandi 50 fois, berrogoy'ta hamarrétan, berrogoy ta hamar aldiz 60 fois, hirurhogoyétan, hirurhogoy aldiz 70 fois, hirurhogoy eta hamarretan, hi-rurhogoyta hamar aldiz Explanandi Dubitandi Eventus Similitudinis Explanandi Exultantis Dolentis 33 Dubitandi 31 Dolentis Exultantis 34 Eventus Timentis Timentis Similitudinis Admirantis Admirantis Concludendi Vitantis Vitantis çent fois, ehunétan, ehun aldiz Optantis 35 mille fois, millétan, milla aldiz, &amp; […] Ordinis Interrogandi Vocandi Negandi Affirmandi Hortandi Optandi Excludendi Congregandi 1 Laudantis Vocantis Deridentis Ex improviso aliquid deprehendentis Exclamantis Imprecantis Ridentis Silentium injungentis Laudantis Vocantis Deridentis Ex improviso aliquid deprehendentis sive re-miniscentis Ridentis Silentium injungentis 1 Nabarmentzekoa da Fide, MDCXXXII 33 Dolentis] lerroartean idatzita.</cell></row></table><note>32 Oraingoz adverbia concludendi direlakoak lan bakar batean aurkitu ditugu: Diego Colladoren Ars grammaticae Iaponicae linguae (Romae: Typis &amp; impensis Sac. Congr. de Propag.34 Exultantis] ez du adibiderik; eskuizkribuan, ondoren, ha! ha! ha! tatxaturik.35 Optantis] eskuizkribuan, aurreko ataleko adibideen lerro berean dago; ez du izenburu itxura har- tzen.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>eta b letrak ezabatu ditugu; ik. (10) eta (11), eta haien inguruko azalpena. 38 Adibide hauetan eta hurrengoetan, Urtek hitzen gainean erabiltzen dituen ikurrak ezabatu ditugu. Izan ere, aditz laguntzailea markatzeko haren gainean «+» ikurra ezartzen du, eta hitzen ordena nabarmentzeko a, b, c… letrez baliatzen da; ik. (12) eta haren inguruko azalpena. Urtek berak azaltzen du jarraian, ohar batean (ca. 1714: 447): «Lorsqu'il se rencontre deux accusatifs ou bien deux nominatifs pluriels joints par une conjonction on peut suprimer les deux dernières lettres du premier et encore la conjonction ut supra, et on supplée l'apostrophe». Né de bons pères et des bonnes mères. Lurretic ilkhia. Sorti de terre. Oxfordeko adarreko argitalpenek, 1672koaz geroztik behintzat, adnectuntur dakarte. 50 monde] edo orbe; izan ere, eskuizkribuan, gainean gurutzea duen O larri bat agertzen da, globus cruciger baten gisara-edo. Joaniss eta Piarress. Jean et Pierre. Hotça edo beroa. Froid ou çhaud. Eztaquit çhuria çaren ou ea churia çaren edo ou ala beltça. Je ne sçais si tu es blanc ou noir. Ehun ezcutu' eta guehiago erossi dut liburu hau. J'ay acheté çe livre çent écu et plus. Içatu naïz Angueleterran eta Italietan. J'ay esté i. fui existens en Engleterre et en Italie. Ne, an, utrum, necne, anne, nonne». Que faites vous toy, et ton enfant femme 53 .i. ut supra toy et ton enfant et ta femme? Ni eta neure' haur' emaztéäc pairatçen hari gáre. Toy et mon enfant et ma femmee nous souffrons. Çúëc eta hec balíä caïtezte lekhuco ou lekhucotçat. Vous et eux servez de temoins. Ni eta aïta seguréän gare. Moy et le père sommes in túto. Çu eta çuree' anaya hirriscúän çaréte. Toy et ton frère êtes en danger. Ezcare prestuac ez ni ez çu. Nous ne sommes pas sages ni moy ni toy. Rhemussec bere anáya Quirinoréquign batéän leguéac ematen çituen. Rhemus donnoit les loix ensemble avec son frère. Çer nahi dugu nic eta çuc 54 ene'quign. Que voulons nous moy et toy avec moy.</figDesc><table><row><cell>4.6.1. Komunztadura BI, 72-75 Concordantia nominativi &amp; verbi -Nominativus primae vel secundae perso-nae rarissime exprimitur, nisi causa disc-retionis […] aut emphasis gratia -In verbis, quorum significatio ad homi-nes tantum pertinet, tertiae personae no-minativus saepe subauditur -Non semper vox casualis est verbo nomi-nativus, sed aliquando verbum infinitum […]. Aliquando oratio 1 37 Adibide hauetan eta hurrengoetan, gobernatzaile-gobernatu erlazioa adierazteko indize gisa erabi-GC, 443-448 Concordance du nominatif et du verbe -Le nominatif de la première et de la se-conde personne s'exprime rarement. On dit d'ordinaire […]. On l'exprime quand il y a raison ou cause de discretion -Dans les verbes dont la signification re-garde seulement les hommes le nomina-tif de la 3 e personne est souvent sous en-tendu […]. S'il y a cause de discretion on l'exprime -Quelquefois le verbe infinitif sert de no-minatif […]. Quelquefois l'oraison sert de nominatif litako a BI, 72-75 GC, 443-448 -Verba infiniti modi pro nominativo ac-cusativum ante se statuunt: ut, Te re-diisse incolumen gaudeo. Te fabulam agere volo. 37 Resolvi potest hic modus per quòd &amp; ut, ad hunc modum: Quod tu rediisti incolu-mis gaudeo. Ut tu fabulam agas, volo. -Verbum inter duos nominativos diverso-rum numerorum positum, cum alterutro convenire potest -Les verbes du mode infini mettent devant eux l'accusatif pour le nominatif: J'ay de la joye de çe que tu es venu avec la santé. Hi ossassunarequign ethorriaz atsse-guign diät. 38 Je veux que tu te rejouisses. Nahi dut çu aleguéra çaïteçen. Le premier de ces deux exemples se peut resoudre ainsi: Atsseguign diat, çeren hi ossassunarequign ethorri áïçen. J'ay de la joye de ce que ou parçe que tu es venu… -Le verve mis entre deux nominatifs des differents nombres se peut accorder içi avec le singulier seulement […]. Mais içi il s'accorde seulement avec le pluriel Condordantia substantivi &amp; adjectivi -Adjectivum cum substantivo, genere, nu-mero &amp; casu consentit Concordance du substantif et de l'adjectif -S'entend seulement en nombre et en per-sonne… etc. 39 Condordantia relativi &amp; antecedentis -Relativum cum antecedente concordat genere, numero &amp; persona: ut, --vir bonus est quis? Qui consulta patrum, qui leges juraque servat. -Nec unica vox solum, sed interdum etiam oratio ponitur pro antecedente Concordance du relatif et de l'anteçedent -Guiçon 40 prestua çein da ou nor da? ou bien çein da ou nor da guiçon prestúä? qui est l'homme de bien? C'est celuy qui observe les conseils et les loix de ses pères. Norc ere bere aïten conseilluac eta legueac guardatçen baïtítu eta hura, ou bien Bere aïten conseillu'le-guéäc 41 beguiratçen ditúëna. -Quelquefois l'oraison se met pour l'an-tecedent BI, 72-75 GC, 443-448 -Relativum inter duo antecedentia diver-sorum generum collocatum, nunc cum priore convenit -Quoties nullus nominativus interferitur inter relativum &amp; verbum, relativum erit verbo nominativus -Les relatifs plaçes entre deux antecedans s'expriment ainsi -Item. S'il n'y a aucun nominatif entre le relatif et le verbe on s'exprime ainsi 4.6.2. Eraikuntza BI, 75-107 GC, 448-473 Substantivorum constructio -Laus et vituperium Laus &amp; vituperium rei variis modis effer-tur, at frequentius in ablativo, vel geni-tivo; ut, Vir nulla fide […] -Opus et usus; ut Cicero. Authoritate tua nobis opus est. La construction des noms substantifs -Laus et vituperium Ils demandent le nominatif ou l'accusatif. Fedéric gabéco' guiçóna, ou bien guiçon' fe-déric gabecóä. Un homme sans foy. -Opus et usus Opus demande le génitif, l'accusatif et l'ablatif. Gen. Gu çure ahaláren beharréan gáre. Nous sommes dans le besoin de votre autorité. Acc. Oguíä jan behar dut. J'ay besoin de manger du pain. Abl. Çutaz behártu naïz. J'ay eu besoin de toy. […] Adjectivorum constructio -Adjectiva, quae desiderium, notitiam, me-moriam, atque iis contraria significant, genitivum adsciscunt; ut, Plinius. Est natura hominum novitatis avida. Virg. Mens futuri praescia. Idem. Memor esto brevis aevi. […] La construction des adjectifs -Les adjectifs signifiant le désir, la connois-sance, la memoire, et leur contraire de-mandent l'ablatif Guiçonaren naturaléça gauçaberri' gutiçiä 42 ou gura da. Le naturel de l'homme est de-sireux de nouveauté. A ce mot gauçaberri' on retranche z et en sa place on met … Mais ici on exprime z: Oguiz gossé da. Il est affamé, désireux, de pain. Gauça hetaz jaquintssun da, id est, illarum rerum est praesçius. 1 BI, 75-107 GC, 448-473 -Nomina partitiva, aut partitive posita, inte-rrogativa quaedam, &amp; certa numeralia, ge-nitivo, a quo &amp; genus mutuantur, gaudent -Interrogativum &amp; eius redditivum ejus-dem casus &amp; temporis erunt -Comparativa &amp; superlativa, accepta parti-tive, genitivum, unde &amp; genus fortiuntur, exigunt. Comparativum autem ad duo, superlativum ad plura refertur: ut, Ma-nuum fortiur est dextra. Digitorum medius est longissimus. Accipiuntur autem parti-tive cum per e, ex, aut inter exponuntur: ut, Virgilius Poetarum doctissimus: id est, ex poetis, vel inter poetas. […] Vilius ar-gentum est auro, virtutibus aurum, id est, quam aurum, quam virtutes. -Adsciscunt &amp; alterum ablativum, qui mensuram excessus significat; ut, Cicer. Quanto doctior es, tanto te geras sub-missius. -Tanto, quanto, multo, longe, aetate, natu, utrique gradui apponuntur -Adjectiva quibus commodum, incommo-dum, similitudo, dissimilitudo, voluptas, submissio, aut relatio ad aliquid significa-tur, in dativum transeunt: ut Virgilius, Sis bonus, O, felixque tuis. -Communis, alienus, immunis, variis casibus serviunt […] Natus, commodus, incommo-dus, utilis, inutilis, vehemens, aptus, inter-dum etiam accusativo cum praepositione adjunguntur: ut Cic. Natus ad gloriam. Ethorquiçunaz jaquintssun da. Est futuri praesçius. Orhoït adi biharamúnaz. Souvien toy du l'endemain. Memor esto diei hesterni. -Les noms partitifs demandent l'ablatif […] Les noms numeraux et certains inter-rogatifs s'expriment ainsy -L'interrogatif et le responsif sont de même cas et de même temps -Comparativa et superlativa accepta parti-tive s'empriment come dessus, et par que. Escuetaric borthitçéna, ou Escuetan den… ou Escuric… borthitçena. La plus forte des mains, dans ou entre les mains, la main la plus forte. Erdico' erhíä. Le doigt du milieu. Guiçónen' artéän çuhurréna. Le plus docte en-tre les hommes, ou Guiçonetaric çuhurréna. Çillharra urréä bagno mendrea? go da. L'ar-gent est moindre que l'or. Urréä berthutéa bágno mendrea? go da. L'or est moindre que la vertu. -Ils demandent aussi un ablatif qui signifie une mesure d'excez Çembaténaz baïta çuhurrágo eta hambaté-nas da baçhoa? go, humillágo. Plus il est sça-vant et plus il est humble. -Combien, tant, autant, beaucoup se met-tent de même -Les adjectifs de commodité, de plaisir, de communauté, d'incomodité demandent l'ablatif Guçientçat ona da, dohatssua? da. Il est bon heureux pour tous. […] Les adjectifs de similitude et d'union veu-lent l'ablatif la préposition avec -Immunis, alienus, natus demandent l'abla-tif […] Gloriaco ou gloriacotç ou gloriaráco ou glo-riaracotç 43 sorthúä. Né pour la glorie. 1 BI, 75-107 GC, 448-473 -Magnitudinis mensura subjicitur adjec-tivis in accusativo: ut […] umbram non amplius quatuor pedes longam reddit. -Adjectiva, quae ad copiam egestatemve pertinent, interdum ablativo, interdum &amp; genitivo gaudent; ut Plaut. Amor &amp; melle &amp; felle est faecundissimus. -Adjectiva regunt ablativum significantem causam; ut, […] Incurvus senectute. -Forma vel modus rei adjicitur nominibus in ablativo; ut, Facies miris modis pallida. Nomine Grammaticus, re barbarus. -Dignus, indignus, praeditus, captus, conten-tus, extorris, auferendi casum adjectium volunt -Les adjectifs de mesure, de grandeur de-mandent aussi l'ablatif 44 […] Laur oignez luçe da. Il est long de 4 pieds. -Les adjectifs d'abondance et diversité de pauverté ont encore l'ablatif Amudioa eztiz eta behaçúnez bethéä da. L'amour est plein de miel et de fiel. -Les adjetifs regissent encore l'ablatif signi-fiant la cause Çahartua? ren' podórez makhur da. Il se courbe a force d'avoir vieilli, il est incur-vus. -La forme ou la manière de la chose se joint aussi aux noms dans l'ablatif C'est un visage verd d'une façon étonante. Bissáya ferde bat da manera estragnio batez, ou batetan Içénez philossofoa da, içatez salbaia bat da. De nom il est philosophe, en effet c'est un sauvage. -Les adjectifs ornatus, contentus… demande [sic] l'ablatif Pronominum constructio -Mei, tui, sui, nostri, vestri, genitivi primiti-vorum ponuntur cum passio significatur: ut, Languet desiderio tui -Haec possessiva, meus, tuus, suus, noster &amp; vester, hos genitivos post se recipiunt -Sui &amp; suus reciproca sunt […]; ut, Petrus nimium admiratur se. Parcit erroribus suis. La construction des pronoms -Ni, çu, hi, etc. moy, toy… etc. Ces pro-noms veulent l'ablatif supposé la pasion Hire' gátic, ou hire' guticiaz, ou hitázco' gutiçiaz, hiratúric çia? gon. Il est languissant a cause de toy, ou desiderio tui, etc. -Enea, çuréa… etc. Ces pronoms possessifs se mettent d'ordinaire devant les noms -Soy bera, sien beréä, sont reciproques Piarressec bera maitatçen du. Pierre s'aime. Bere hutssaz ezta orhoitçen. Il ne se souvien pas de sa faute. 1 BI, 75-107 GC, 448-473 Verborum constructio Nominativus post verbum Deus est summum bonum. […] Malus pastor dormit supinus. Lactantius. Homo incedit erectus in caelum. -Infinitum quoque utrinque eosdem casus habet principue cum verba optandi, eis-que similia accedunt Genitivus post verbum -Sum genitivum postulat, quoties significat possessionem, aut ad aliquid pertinere -Verba accusandi, damnandi, monendi, absolvendi, &amp; consimilia genitivum pos-tulant, qui crimen significet […] Ver-titur hic genitivus aliquando in abla-tivum, vel cum praepositione, vel sine praepositione; ut, Cic. Si in me iniquus es judex, condemnabo eodem ego te cri-mine. […] Cic. Putavi ea de re admonen-dum esse te. -At misereor &amp; miseresco rarius cum dativo leguntur -Reminiscor, obliviscor, memini genitivum aut accusativum desiderant -Potior, aut genitivo, aut ablativo jungitur Dativus post verbum -Verba comparandi regunt dativum -Verba dandi et reddendi regunt dativum -Verba promittendi ac solvendi regunt da-tivum La construction des verbes Nominatif devant et après les verbes Jaincoa da ontassun soberanoa, ou bien On-tassun soberanoa Jaincoa da. Dieu est le sou-verain bien, Le souverain bien ç'est Dieu. Artçain gaçhtóa lo datça sabelaz gora, ou Sabelaz gora lo datça artçain gaçhtóä, ou Artçain gaçhtóa sabelaz gora lo datça. Le méchant pasteur dort le ventre en haut. Çeru' aldéra burúä góiti dabilla guiçona, ou Guiçona ceru' aldera burúä goiti dabilla. L'homme marche tête levée vers le ciel. -L'infini a le [sic] mêmes cas d'un coste par devuant […] ou bien le nominatif princi-pal a la fin -Le genitif devant et après le verbe sum si-gnifiant possesion -Les verbes d'accuser, de condamner, d'ad-vertir, d'absoudre, veulent l'ablatif qui si-gnifie le crime […] Bere' hobenagatic condemnatua içatu da. Il a esté condemné pour son crime, a cause de son crime. Gauça hartaz abertitu çáïtu. Il t'a averti de cette chose là. -Miseresco demande l'ablatif -Reminiscor demande le même cas […] Obliviscor est de l'ordre de "Il me sem-ble". Il demande un cas personel au datif -Potior veut l'ablatif Le verbe et le datif -Verba comparandi exigent le datif ou l'ablatif -Reddere regit dativum -Verbum promittendi 45 regit dativum […] Verbum solvendi regit accusativum -Verbum numerandi regit dativum 1 BI, 75-107 GC, 448-473 -Verba imperandi &amp; nunciandi dativum requirunt -Verba fidendi dativum regunt -Verba obsequendi &amp; repugnandi dativum regunt -Verba minandi &amp; irascendi regunt dati-vum -Verba transitiva cuiuscunque generis, sive activi, sive communis, sive deponentis exigunt accusativum -Verba rogandi, docendi, vestiendi, dupli-cem regunt accusativum -Vestiendi verba interdum mutant alterum accusativum in ablativum, vel dativum -Quodvis verbum admittit ablativum sin-gificantem instrumentum, aut causam, aut modum actionis […] Horat. Invidus alterius rebus macrescit opi-mis. -Quibuslibet verbis subjicitur nomen pretii in ablativo casu -Verba abundandi, implendi, onerandi, &amp; his diversa ablativo gaudent -Fungor, fruor, utor, &amp; similia ablativo jun-guntur -Mereor, cum Adverbiis, Benè […] Abla-tivo adhaeret cum Praepositione De -Verba imperandi et nunciandi dativum requirunt -Verbum fidendi requirit dativum vel abla-tivum -Verbum credendi vult accusativum et ablativum cum postpositione, ut supra -Verbum obediendi 46 et repugnandi re-gunt dativum -Verbum rogandi 47 et supplicandi requirit accusatiuum -Verbum minandi vult accusatiuum […] Verbum irascendi regit dativum et accu-sativum cum postpositione -Verba praeferendi et postponendi requi-runt dativum, accusativum et ablativum -Verba praeveniendi, praeundi, etc. volunt dativum et accusativum -Verba transitiva regunt dativum et accu-sativum et ablativum -Verba rogandi, docendi et vestiendi re-gunt accusativum et dativum -Verba vestiendi mutant alterum accusati-vum in ablativum -Ablativus significans instrumentum […] Causa Inbidiossóä mehetçén da bertceren' ontassu-nagátic, ou ontassuna dela caussa, ou on-tassúnaz. L'envieux s'amaigrit du bien d'autruy… dela caussa, id est, existens causa. Modus actionis -Verbis subjicitur nomen praetii in abla-tivo ou in nominativo -Verba abundandi, implendi, onerandi gaudent ablativo -Fungor, fruor, utor junguntur ablativo -Maereor vult accusativum cum vel absque adverbiis 1 46 obediendi] lectio facilior ote? 47 Baina cf. beheraxeago: "Verba rogandi, docendi et vestiendi regunt accusativum et dativum" BI, 75-107 GC, 448-473 -Quaedam accipiendi, distandi, &amp; aufe-rendi verba ablativum cum praepositione optant: ut, Istuc ex multis jampridem au-diveram. […] Procul abest ab urbe Impera-tor. -Verbis, quae vim comparationis obtinent, adjicitur ablativus significans mensuram excessus: ut, Deforme existimabat, quos dignitate praestaret ab iis virtutibus supe-rari. -Eidem verbo diversi casus diversae ratio-nis apponi possunt -Passivis additur ablativus agentis, sed an-tecedente praepositione, &amp; interdum da-tivus: ut, Horat. Laudatur ab his, culpatur ab illis. -Quorum participia frequentius dativis gaudent -Caeteri casus manent in passivis, qui fue-runt activorum -Quibusdam tum verbis tum adjectivis, fa-miliariter subjiciuntur verba infinita -Ponuntur interdum figurate &amp; absolute verba infinita: ut, Haeccine fieri flagitia? subauditur decet, oportet, par est, aequum est, aut aliquid simile. -Verba accipiendi, distandi, auferendi op-tant ablativum Pressuna hagnitçengánic aditu dut. Je l'ay appris de beaucoup de personnes, ou ha-gnitçetaric. […] Hiritic urrun da Emperadoréä. L'Empe-reur est loin de la ville. -Verbis comparandi vel quae comparatio-nis vim obtinent adjicitur ablativus signi-ficans mensuram excessus -Verbis, quae vim comparationis obtinent, adjicitur ablativus significans mensuram excessus: ut, Deforme existimabat, quos dignitate praestaret ab iis virtutibus supe-rari. -Eidem verbo diversi casus diversae ratio-nis apponi possunt -Passivis additur ablativus agentis, sed an-tecedente praepositione, &amp; interdum da-tivus: ut, Horat. Laudatur ab his, culpatur ab illis. -Quorum participia frequentius dativis gaudent -Caeteri casus manent in passivis, qui fue-runt activorum -Quibusdam tum verbis tum adjectivis, fa-miliariter subjiciuntur verba infinita -Ponuntur interdum figurate verba infinita Gauça horioc eguitéä? Faire çes çhoses? su-bauditur eder da? est il beau?, ungui da? est il bien?, justu da, çuçen da? aequum est? De gerundiis -Gerundia sive gerundivae voces, &amp; su-pina, regunt casus suorum verborum -Interdum non invenuste adjicitur gerun-dii vocibus etiam genitivus pluralis Des gérondifs et des supins -Les gérondifs et leurs 48 supins regissent les cas de leurs verbes -Interdum adjiçitur gerundii voçibus etiam genitivus pluralis 1 BI, 75-107 GC, 448-473 De tempore &amp; loco -Quae significant partem temporis, in ablativo frequentis usurpantur, in accusa-tivo raro -Spatium loci in accusativo effertur, inter-dum &amp; in ablativo Appellativa locorum -Nomina appellativa &amp; nomina majorum locorum adduntur fere cum praepositione verbis significantibus motum, aut actio-nem in loci, ad locum, à loco, aut per locum Du temps et du lieu -Quae significant partem temporis in abla-tivo usurpantur et interdum in accusativo -Spatium loci etiam in ablativo effertur, interdum et in accusativo -Appellatiua locorum ponuntur in dativo et ablativo ut supra Impersonalium constructio -Haec tria impersonalia, interest, refert, &amp; est, quibuslibet genitivis annectuntur 49 Impersonalium constructio -Impersonalia annectuntur dativis Participii constructio -Participia regunt casus verborum a quibus derivantur […] Diligendus ab omnibus. -Participiorum voces, cum fiunt nomina, genitivum postulant: ut Salust. Alieni ap-petens, sui profusus. Ablativus -[…] ut Ter. Bona bonis prognata parenti-bus. […] Terra editus. Participii constructio -Partiçipia regunt casus verborum a quibus derivantur […] Guçiez maitátu behárra ou beharricacoä. Diligendus ab omnibus. Mundu guciaz maitatua. Aimé de tout le monde. 50 -Participiorum voces cum fiunt nomina genitivum postulant Bertçeren ontassun' ou ontassunaren' gura da. Il est avide du bien d'autruy. -Ablativus Ait'ama onetáric sorthúä. Adverbii constructio -En &amp; ecce demonstrandi adverbia, nomi-nativo frequentius junguntur, accusativo rarius -Sunt &amp; hi dativi adverbiales -Ne prohibendi, vel imperativis, vel sub-junctivis praeponitur Construction de l'adverbe -Ces adverbes demandent le nominatif Huna Errégue. Voici le Roy. Horra, hára guiçona. Voilà l'homme. -Sunt et hi ablatiui aduerbiales -Hoc adverbium congruit optativo modo -Ne prohibendi imperativis praeponitur 1 49 annectuntur] BI, 75-107 GC, 448-473 De conjunctionum constructione -Conjunctiones copulativae &amp; disjuncti-vae […]: ut, Socrates docuit Xenopontem &amp; Platonem. Utinam calidus esses aut frigidus. Albus an ater homo fit, nescio. Est minor natu quam tu. Nemini placet nisi (vel prae-terquam) sibi. -Excepto si casualis dictionis ratio aliqua privata repugnat, vel aliud poscat: ut, Emi librum centussi et pluris. Vixi Romae &amp; Ve-netiis. -Ne, an, num interrogandi particulae indi-cativum amant De conjunctionum constructione -Conjunctiones copulativae et disjunctivae Çu bagno gazteago da. Il est plus jeune que toy. Etçaizco agradatçen nihori çeure' buruari ou çeurorri baicen. Tu n'aggrées a per-sonne si non a toy même. -Excepto si casualis dictionis ratio aliqua privata repugnet vel aliud poscat -An?, num?, utrum? interrogandi particulae […] Ne? nonne? 51 Praepositionum constructio -Praepositio subaudita, interdum facit, ut addatur ablativus Praepositionum constructio -Les postpositions sont joints aus datifs et aux ablatifs en partie Interjectionum constructio -Interjectiones non raro absolute &amp; sine casu ponuntur -O exclamantis nominativo, accusativo &amp; vocativo jungitur: ut […] Idem. [=Virg.] O formose puer, nimium ne crede colori. Interjectionum constructio -Ces interjections se metent sans cas -O exclamantis nominativo jungitur Ô guiçonaren' ederra. 52 O le bel homme, i. formose hominis. -Helas et oyënéri junguntur etiam vocativo 1 51 Baina cf. ingelesezko zatian, etimologiako «Of a conjunction» atalean (1699: C4): «Interroga-BI, 107-114 GC, 473-476 De figuris Appositio Marcus Tullius Cicero -Evocatio Ego pauper laboro. Tu dives ludis. Syllepsis Quid tu &amp; soror facitis? Ego &amp; mater miseri perimus. Tu &amp; uxor qui adfuistis, testes estote. -Conceptio personarum Ego &amp; pater sumus in tuto. Tu atque frater estis in periculo. Neque ego neque tu sapimus. […] Rhemus cum fratre Quirino jura dabant. […] Tu quid ego &amp; populus mecum desideret, audi. -Conceptio Generum Rex &amp; Regina beati. Des figures Appositio […] saepius in genitivo. Marcuss Tulliuss Çiçero -Evocatio Ni gabéä obran hari naiz. Moy pauvre je travaille. Sum laborans. Çu aberátssa jocótan hári çáre. Toy riçhe tu joues. Es ludens. Syllepsis Çer hari çarete çu eta çure' haur' emaz-teac? -Conceptio personarum -Conceptio generum Errégue eta Erreguigna dohatssu ou dohats-súäc dire. Le Roy et la Reine sont bienhe-tives: as, 4.7. Figurak reux.</cell></row><row><cell>42 gauçaberri' gutiçiä] esk. gaucaberri' gutiçiä. 43 gloriaracotç] esk. gloriaracotc. 44 l'ablatif] eskuizkribuan ondoren et Laccusatif tatxaturik. 45 promittendi] eskuizkribuan ondoren et soluendi tatxaturik. (GC, 463) eta "Verba rogandi, docendi, vestiendi duplicem regunt accusativum" (BI, 88). 48 leurs] esk. leur.</cell></row></table><note>39 Esaldi oso hau eskuizkribuan lerroartean erantsi da.40 Guiçon] esk. Guicon.41 conseillu'leguéäc] apostrofoaren erabilera hau -egungo ortografian marra erabiliko genuke dvandva elkarteetan-52 guiçonaren' ederra] esk. Guiconaren' Ederra.1 53 femme] esk. feme.54 çuc] esk. cuc.</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14"> Padleyk (1976: 24)  iradokitzen du -ziurrenik zuzen-egilea Erasmo zela pentsatzeak obra honek Europan zehar izan zuen arrakastan lagundu zuela, 1513 eta 1595 bitartean ia berrehun aldiz berrargitaratu baitzen, horietarik lau baino ez Ingalaterran. Izan ere, Libellus sintaxi-lana egilearen izenik gabe argitaratu zen, Erasmok ez Lilyk ez baitzuten egile gisa agertu nahi izan(Allen 1954: 87).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="15">EEBO datu-basean 1533, 1535 eta 1539ko edizioak ere agertzen dira.16  Kontrako erantzunik ez zen falta izan, halere. Esate baterako, 1675ean proposamen bat aurkeztu zen Lorden Ganberan, Lilyren gramatikaren ofizialtasuna bertan behera uzteko, baina ez zuen aurrera egin(Flynn 1943: 111). Halaber, ikus bedi Richard Johnsonen 1706ko lanaren izenburu ezin adieraz-</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="21">Bi urte horiek hautatzea ez da guztiz arbitrarioa izan: dakigularik, 1699an Pierre Urte Londresen zegoen (Urkizu 1989: I, 48) eta 1714ko martxoan dagoeneko gramatikan lanean ari zen(Zulaika 2009:  327).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="25">Eskuizkribuko eta BIko testuei gutxieneko egokitze grafikoak egin dizkiegu: puntuazioaren eta letra larrien erabilera gaurkotu dugu, laburdurak osatu ditugu, eta frantsesezko hitzen banaketa eta azentuazioa eguneratu ditugu; halaber, &lt;i&gt; eta &lt;u&gt; kontsonantikoak &lt;j&gt; eta &lt;v&gt; aldatu ditugu, hurrenez hurren, eta BIko latinezko hitzei tilet eta diakritikoak ezabatu dizkiegu.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="28">De père, paternel, aitazcoa] esk. du pere aitazcoa. paternel.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="36">Nahiz eta eredu zehatza ezagutu ez,Oyharçabal (1989: 71)  ohartu zen ereduak Urteri eragindako hutsegiteez: «D'une façon générale, pour ce qui concerne les données elles-mêmes, la grammaire de P. d'Urte fournit un matériel très fiable; quand bien même certaines méprises apparaissent de temps à autres, provenant d'interférences non controlées et de la non correspondance entre les données basques et celles de la langue d'analyse. Ainsi, partant de l'équivalence approximative entre fr. soi et basq. bera, d'Urte donne la forme Piarresec bera maitatçen du, qu'il traduit "Pierre s'aime" (p. 442), mais dont la grammaticalité est plus que douteuse».</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+				<title level="m">Grammatical commentaries: being an apparatus to a new National Grammar: By way of animadversion upon the falsities, obscurities, redundancies, and defects of Lilly&apos;s system now in use…</title>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="page">356</biblScope>
+		</imprint>
+	</monogr>
+	<note>: S. Keble); cf., orobat, Rousse &amp; Verrac</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Allenen arabera (1954: 89), 1574an Londresen «by the assignes of Frauncis Flowar» inprimatu ziren lehen aldiz bi parteak lan bakar gisa, eta orrien zenbaki eta signatura jarraituak erabiliz (baina bigarren zatiaren hasieran azal bat ipiniz, halere). Nolanahi ere den</title>
+		<imprint/>
+	</monogr>
+	<note>hurrengo edizio askok gorde zituzten berriro ere bi zatiak bereiz</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+				<title level="m">Egituraren azalpen xehea aurki daiteke Flynnen artikuluan</title>
+		<imprint>
+			<date type="published" when="1943" />
+			<biblScope unit="page" from="108" to="109" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+				<title level="m">EEBOn izen horretako 1542 (ezagutzen den zaharrena; cf. Flynn 1943: 105), 1543, 1544 eta 1546ko edizioak azaltzen dira; Flynnek ez du 1546koa aipatzen</title>
+		<imprint>
+			<date type="published" when="1943" />
+			<biblScope unit="page" from="109" to="110" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">340) A short introduction of grammar izenburua aurrenekoz 1549an agertu zela diote, baina EEBOn 1548ko edizioaren azala eta lehen orrialdeak ([s.l.: R. Wolfe]) kontsultatu ahal izan ditugu, edizio horretatik gorde diren zati bakarrak alegia (cf</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><surname>Rousse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Verrac-Ek</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1943" />
+			<biblScope unit="page">110</biblScope>
+			<pubPlace>Flynn</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">The Sources of &quot;Lily&apos;s Latin Grammar&quot;: A Review of the Facts and Some Further Suggestions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">S</forename><surname>Allen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1954" />
+			<biblScope unit="page" from="85" to="100" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xabier</forename><forename type="middle">G</forename><surname>Argüello</surname></persName>
+		</author>
+		<idno>Kon- tsulta: 2010-08-18</idno>
+		<ptr target="&lt;http://www.elpais.com/articulo/pais/vasco/Ingalaterrako/euskal/izkribu/berriak/elpepiesppvs/20080331elpvas_10/Tes/&gt;" />
+		<title level="m">Ingalaterrako euskal izkribu &quot;berriak&quot;», El País. País Vasco</title>
+		<imprint>
+			<date type="published" when="2008-03-31" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Madrid</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Claude Maugerren eskuliburua Urteren eredu</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gidor</forename><surname>Bilbao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Gramatika Jaietan. Patxi Goenagaren omenez</title>
+		<editor>X. Artiagoitia &amp; J. A. Lakarra</editor>
+		<imprint>
+			<publisher>ASJUren Gehigarriak</publisher>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="129" to="152" />
+		</imprint>
+	</monogr>
+	<note>Bilbo: UPV/EHU &amp; Gipuzkoako Foru Aldundia</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Les grammaires françaises de Claude Mauger à l&apos;usage des anglais</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><forename type="middle">P</forename><surname>Bouton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Études Linguistiques</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<date type="published" when="1972" />
+			<publisher>Klincksieck</publisher>
+		</imprint>
+	</monogr>
+	<note>XVII e siècle</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">El uso de glosarios y su interés para la historia de la lengua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bustos</forename><surname>Tovar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">José</forename><surname>Jesús</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">La enseñanza en la edad media. X Semana de Estudios Medievales</title>
+		<editor>J. I. de la Iglesia Duarte</editor>
+		<meeting><address><addrLine>Nájera; Logroño</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="329" to="356" />
+		</imprint>
+		<respStmt>
+			<orgName>Gobierno de la Rioja &amp; Instituto de Estudios Riojanos</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Noticias</forename><surname>Diario De</surname></persName>
+		</author>
+		<ptr target="&lt;http://www2.noticiasdealava.com/ediciones/2009/05/26/mirarte/cultura/d26cul58.1250206.php&gt;" />
+		<imprint>
+			<date type="published" when="2009-10-26" />
+		</imprint>
+		<respStmt>
+			<orgName>Diario de Noticias de Álava</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Vitoria-Gasteiz</note>
+	<note>Kontsulta: 2010-08-28</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Sotheby&apos;s vende en subasta la gramática vasca más antigua, obra de Pierre d&apos;Urte», Diario Vasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xabier</forename><surname>Fernández D&amp;apos;arlas</surname></persName>
+		</author>
+		<ptr target="&lt;http://www.diariovasco.com/20081012/cultura/sotheby-vende-subasta-gramatica-20081012.html&gt;" />
+		<imprint>
+			<date type="published" when="2008-10-12" />
+			<pubPlace>Donostia-San Sebastián</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Kontsulta: 2010-08-28</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The life and works of William Lily, the grammarian, Chicago: University of Chicagoko PhD tesi argitaragabea. -, 1943, «The Grammatical Writings of William Lily</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vincent</forename><forename type="middle">J</forename><surname>Flynn</surname></persName>
+		</author>
+		<idno>1468-?1523</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Papers of the Bibliographical Society of America</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="3" to="31" />
+			<date type="published" when="1939" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Donat et la tradition de l&apos;enseignement grammatical</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Louis</forename><surname>Holtz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Die baskischen Materialien aus dem Nachlaß Wilhelm von Humboldts. Astarloa, Charpentier, Fréret, Aizpitarte und anderes</title>
+		<editor>CNRS. Hurch, Bernhard</editor>
+		<meeting><address><addrLine>Paris; Paderborn</addrLine></address></meeting>
+		<imprint>
+			<publisher>Schöningh</publisher>
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Euskal hiztegigintzaren historiarako: II. Gogoetak Urteren hiztegigintzaz</title>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="871" to="884" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Refranes y Sentencias (1596)</title>
+	</analytic>
+	<monogr>
+		<title level="j">Euskararen Lekukoak</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<date type="published" when="1996" />
+			<publisher>Euskaltzaindia</publisher>
+		</imprint>
+	</monogr>
+	<note>Ikerketak eta edizioa</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">English Grammatical Categories and the Tradition to 1800</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ian</forename><surname>Michael</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1970" />
+			<pubPlace>Cambridge: Cambridge U. P</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Beñat</forename><surname>Oyharçabal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Euskalaritzaren historiaz, I: XVI-XIX. mendeak (ASJU-ren Gehigarriak, 25)</title>
+		<meeting><address><addrLine>Donostia-San Sebastián</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1989" />
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="91" to="105" />
+		</imprint>
+	</monogr>
+	<note>Gipuzkoako Foru Aldundia &amp; UPV/EHU</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Grammatical Theory in Western Europe 1500-1700</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Padley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Arthur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Latin Tradition</title>
+		<imprint>
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francisco</forename><surname>Rico</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Historia</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="75" to="78" />
+			<date type="published" when="1978" />
+		</imprint>
+		<respStmt>
+			<orgName>«El cuaderno de un estudiante de latín »</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">History of the Language Sciences. An International Handbook on the Evolution of the Study of Language from the Beginnings to the Present</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alda</forename><surname>Rossebastiano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">La tradition des manuels polyglottes dans l&apos;enseignement des langues</title>
+		<editor>S. Auroux et al.</editor>
+		<meeting><address><addrLine>Berlin &amp; New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Walter de Gruyter</publisher>
+			<date type="published" when="2000" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="688" to="698" />
+		</imprint>
+	</monogr>
+	<note>Handbooks of Linguistics and Communication Science</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jean &amp;amp; Monique</forename><surname>Rousse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">;</forename><surname>Verrac</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Grand-Bretagne</surname></persName>
+		</author>
+		<title level="m">Histoire des idées linguistiques. Tome 2: Le développement de la grammaire occidentale</title>
+		<editor>S. Auroux</editor>
+		<meeting><address><addrLine>Liège</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="339" to="358" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pierre</forename><surname>Urte</surname></persName>
+		</author>
+		<idno>Kontsulta: 2011-07-12</idno>
+		<ptr target="&lt;http://www.euskalmemoriadigitala.net/handle/10357/2105&gt;" />
+		<title level="m">Grammaire cantabrique (Sancho el Sabio Fundazioa: ZRV-3470)</title>
+		<meeting><address><addrLine>Vitoria-Gasteiz</addrLine></address></meeting>
+		<imprint/>
+	</monogr>
+	<note type="report_type">Erreprodukzio digitalizatua Interneten eskuragarri</note>
+	<note>ca. 1714</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Grammaire Cantabrique Basque faite par Pierre d&apos;Urte. W. Webster (arg.). Bagnères-de-Bigorre</title>
+		<imprint>
+			<date type="published" when="1900" />
+			<publisher>D. Barot</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">The English Grammar Schools to 1660: Their curriculum and practice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Foster</forename><surname>Watson</surname></persName>
+		</author>
+		<editor>Routledge. Lehen argit. London: Frank Cass &amp; Co.</editor>
+		<imprint>
+			<date type="published" when="1908" />
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wentworth ; «</forename><surname>Webster</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Préface</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1900" />
+			<pubPlace>Urte; i-viii</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Nuevos datos sobre las obras vascas de Pierre d&apos;Urte», Estudios de lingüística</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Josu</forename><forename type="middle">M</forename><surname>Zulaika</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="315" to="350" />
+		</imprint>
+		<respStmt>
+			<orgName>Universidad de Alicante</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">English Short Title Catalogue (ESTC)</title>
+		<ptr target="http://www.hathitrust.org/&gt;" />
+	</analytic>
+	<monogr>
+		<title level="j">HathiTrust Digital Library</title>
+		<imprint>
+			<publisher>Google Books Search</publisher>
+		</imprint>
+		<respStmt>
+			<orgName>Early English Books Online (EEBO</orgName>
+		</respStmt>
+	</monogr>
+	<note>The British Library Board</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ANUARIO DEL SEMINARIO DE FILOLOGÍA VASCA «JULIO DE URQUIJO» International Journal of Basque Linguistics and Philology DISKURTSO-MARKATZAILE BERRI BAT: HURRENEZ HURREN BIRFORMULATZAILEA</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xlv</forename><forename type="middle">-</forename></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xabier</forename><forename type="middle">Alberdi</forename><surname>Larizgoitia</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Euskal Filologia Mintegi-Institutua / Instituto-Seminario de Filología Vasca «Julio de Urquijo»</orgName>
+								<address>
+									<postCode>2011</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">País Vasco/Euskal Herriko Unibertsitatea</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">ANUARIO DEL SEMINARIO DE FILOLOGÍA VASCA «JULIO DE URQUIJO» International Journal of Basque Linguistics and Philology DISKURTSO-MARKATZAILE BERRI BAT: HURRENEZ HURREN BIRFORMULATZAILEA</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>ISSN.: 0582-6152. Depósito legal / Lege gordailua: S.S.-400/1967</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This article examines aspects of the use of a new discourse marker in present-day Basque, namely hurrenez hurren. First of all a distinction will be drawn between its two present senses: the adverbial notion of 'one after the other' (hurrenez hurren-1) and the use as a grammaticalized discourse marker meaning 'respectively' (hurrenez hurren-2). This is followed by an attempt to characterize it as a certain kind of reformulating discourse marker (a particularizing reformulator). The recent origin (second half of the twentieth century) of this trend towards a new value as a discourse marker and the "naturalness" of the shift are also discussed. The article's concluding sections analyze some features of the expression such as sentence position, punctuation, syntax, frequency in modern written texts, and discourse value.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena</head><p>Artikulu honetan halako xehetasun batez aztertu dut erran/esan nahi baita dis kurtso-markatzailearen egungo erabilera. Birformulatzaile esplikatiboetariko bat da eta haren bidez aurreko enuntziatuan (perpaus beraren aurreko sintagman nahiz aurreko perpausean) esandakoa (birformulakizuna) birformulatzen du hiztunak, adierazitakoa argiagotzeko edo azaltzeko. Birformulatzailearen alderdi hauek jorratu ditut artikuluan:</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>ditugula diskurtso-markatzaileei buruzko azterketa monografikoak, eta, hain zuzen ere, hutsune hori nola edo hala betetzera dator gure azterlana. <ref type="bibr">4</ref> Ikerlan honetarako erabili dugun corpusak egungo euskara zaindua islatu nahi du eta honela osatuta dago: 5 A1.</p><p>ZIO corpusa 7 1,0 milioi testu-hitz A2.</p><p>UPV/EHUko eskuliburu itzuliak 5,5 milioi testu-hitz A3a. Zuzenbidea / lege-testuak 4,1 milioi testu-hitz A3b. Zuzenbidea / testu akademikoak 2,5 milioi testu-hitz A4.</p><p>Pentsamenduaren Klasikoak 8 10,7 milioi testu-hitz B1a. EPD liburuak <ref type="bibr">9</ref> 10,2 milioi testu-hitz B1b. EPD prentsa <ref type="bibr">10</ref> 10,5 milioi testu-hitz B2.</p><p>ZT Corpusa 11 6,6 milioi testu-hitz C1.</p><p>ETBko dokumentalak 0,5 milioi testu-hitz C2.</p><p>Goenkale corpusa 12 11,0 milioi testu-hitz GUZTIRA 62,6 milioi testu-hitz Jatorrizkoak 35,7 milioi testu-hitz Itzulpenak 26,9 milioi testu-hitz GUZTIRA 62,6 milioi testu-hitz 6 7 8 9 10 11</p><p>Guztira 62,6 milioi testu-hitz ditu corpusak eta halako oreka bat lortu da testu itzulien eta jatorrizkoen artean. Testu mota batzuk biltzen ditu (akademikoak, legetestuak, prentsa, saiakera) eta, bereziki, ahozko hizkuntzara hurbiltzen diren bi azpicorpus ditu: alde batetik, Goenkale, zeinak hein batean lagunarteko erregistroa imitatzen baitu; eta, bestetik, ETBko dokumentalen corpusa, zeinak, entzunak izateko testuen bidez, erregistro zaindua islatzen baitu. <ref type="bibr">4</ref> Gaztelaniari buruzko ikerketetan, esaterako, ia ez dago partikula bat bera ere azterketa monografikoren bat ez duenik (Vázquez Veiga 2011). Euskaraz, berriz, diskurtso-markatzaile asko daude oraindik deskribitu gabe. <ref type="bibr">5</ref> Corpusari dagokionez, eskerrak eman behar dizkiot lehenik Ametzagaiña I+D+i taldeko Josu Landari, corpusa arakatzeko tresna ezin hobea -eta gure beharretara egokitua-sortu eta ikertaldearen eskura jarri duelako; orobat eskertu behar diot UPV/EHUko Euskara Institutuaren zuzendari Pello Salabururi (http://www.ei.ehu.es), institutuaren corpusak gure zerbitzura jarri dituelako <ref type="bibr">(</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Hurrenez hurren esapidearen bi adierak</head><p>Gaurko euskaran bi adiera nagusi ditu hurrenez hurren esapideak. Alde batetik, beheragoko (1) adibidean ikusten duguna: 'bata bestearen ondotik, ondoz ondo' esanahia du, hots, esanahi kontzeptual edo erreferentziala; 12 adizlagun baten funtzio sintaktikoa betetzen du perpausean (Nola jartzen ziren…? galderaren erantzuntzat har dezakegu). Beste alde batetik, (2) adibidean ageri den hurrenez hurren esapidearen adiera dugu: ez du esanahi kontzeptual argirik (alegia, ez dagokio 'bata bestearen ondotik' irakurketa, ezta antzekorik ere); 13 eta ez du betetzen funtzio sintaktiko garbirik bere perpausean (alegia, nekez hartuko genuke Nola aurkeztu dira?, Noiz aurkeztu dira? edo antzeko galdera baten erantzuntzat).</p><p>(1) (…) Inuitak, hotza jasan ez ezik, hotzaz baliatzen ziren. <ref type="bibr">Larrutan</ref>  Beheragoko (3) litzateke, nolabait, (2)-ren azpian dagoen egitura trinkotu gabea. Informazioaren aldetik baliokide dira (3) eta (2), eta, hain zuzen ere, (3)-ko informazioa adierazteko formulazio landuagotzat har dezakegu (2). Hurrenez hurren esapideak bideratzen duen agindu edo esanahi logiko-semantikoari esker, hartzaileak badaki hurrenkera jakin batean berreskuratu behar dituela aurreko enumerazioko 12 Eta horregatik ezin da ezabatu hurrenez hurren esapidea (1) adibidean esaldiaren esanahia aldatu gabe. Martí <ref type="bibr">Sánchez-ek dioenez (2011: 16)</ref>: «La opcionalidad frente a la obligatoriedad de las categorías gramaticales estrictas. Los MD [marcadores discursivos] no cumplen una función sintáctica en la estructura oracional, su eliminación no repercute en la gramaticalidad de la oración, de ahí que su presencia no sea obligatoria.» 13 Eta horregatik ez dira aldatzen <ref type="formula">(2)</ref>  <ref type="bibr">Río-k (2003: 141)</ref> honela deskribatzen du respectivamente adberbioaren funtzionamendua: «Adv. orac. (realizativo) l. Con respectividad enumerativa, o sea, con rigurosa correspondencia, en cuanto al orden de enumeración, de cada uno de los miembros de la serie (de dos o más miembros) aducida con otro de la serie que, según los casos, sigue (respectivamente, a Paco y a Juan) o precede (a Paco y a Juan, respectivamente). Es adverbio encubiertamente deíctico y fórico y siempre periférico respecto de la predicación principal (siempre aparece seguido y precedido de pausa y, si no va en posición final, exige entonación ascendente). Me gustaron el primero y el cuarto; respectivamente, <ref type="bibr">Sánchez y Montero.</ref> El marido, la mujer y la niña tomaron, respectivamente, una cerveza, un batido y un helado de fresa. El mayor y el pequeño tienen veintisiete y dieciséis años, respectivamente. La relación distributiva que este adverbio establece y marca tiene lugar a veces con respecto a una serie aludida pero no expresamente aludida en la frase, con tal que la correspondencia enumerativa quede asegurada (por ejemplo, porque los ejemplares pertinentes se acaban de citar en cierto orden (Los seis muchachos son japoneses y las chicas son, respectivamente, japonesa y coreana)». </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Hurrenez hurren-2: diskurtso-markatzaileen ezaugarri nagusiak</head><p>Orain arte ikusitakoaren arabera, hurrenez hurren-2-k baditu bereizgarri semantiko eta sintaktiko batzuk, diskurtso-markatzailetzat hartzera eramaten gaituztenak: a) elementu aldagaitza da eta ez du betetzen funtzio sintaktikorik perpauseko predikazioaren esparruan; b) hartzaileari modu jakin bateko inferentziak egiten laguntzen dio, hots, enumerazioen hurrenkeran oinarritutako inferentzia-erregela jakin bat ematen dio hartzaileari informazioa prozesatzeko; c) zeregin pragmatiko-diskurtsiboa betetzen duenean, ez du esanahi kontzeptualik, hots, ez du balio, bereziki, komunikatu nahi den errealitatea islatzeko edo ordezteko, baizik eta komunikatu nahi dena behar bezala prozesatzen laguntzeko. <ref type="bibr">17</ref> Diskurtso-markatzaileen ezaugarri gramatikal gehienak ditu hurrenez hurren-2 esapideak (Martín Zorraquino, Portolés 1999: 4059-4071):</p><p>1. Gramatikalizazioa: 18 Osagai bera modu jakin batez errepikatuz (infra 6.1.) sortutako esapide linguistiko aldagaitza (finkatua edo lexikalizatua) da, ez baitu flexiorik edo konplementaziorik onartzen. haien adieraziaren bereizgarria. d) Haien adieraziaren izaera funtzionala dela medio, gai dira testuak interpretatzen laguntzeko prozesatze-funtzioa ('función procedimental') betetzeko. e) Ez dute betetzen funtzio sintaktiko jakin bat beren enuntziatuetan, baina bai funtzio pragmatiko-diskurtsiboa. f) Unitatearen jatorrizko adierazleari, adieraziari edo erabilerari eragiten dion aldaketa-prozesu baten emaitza dira ('gramatikalizazioa', 'lexikalizazioa'…). g) Kategoria metalinguistiko baten ordezkari gisa, sail batzuetan banatuta aurkeztu ohi dira gaiari buruzko bibliografian (birformulatzaileak, egituratzaileak, emendiozkoak…). Beraz, elementu bat sail horietako batean modu koherentean sailkatu ahal izatea irizpide bat izan daiteke delako elementua diskurso-markatzailetzat hartzeko.</p><p>Martí <ref type="bibr">Sánchez-en ustez (2011: 19)</ref> ezinbestekoak dira d) eta e) ezaugarriak, eta oso garrantzitsuak f) eta g). Gainerako ezaugarri edo propietateak (a, b, c), berriz, bigarren mailakoak lirateke (irizpide horrek -a), b), c) propietateak izateak-bereizten ditu diskurtso-markatzaile "garbi edo onak" eta ez hain "onak").</p><p>Ondorioz, hurrenez hurren-2 esapideak gorago aipatutako propietate guztiak betetzen dituenez gero, uste dut diskurtso-markatzaile garbia dela.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Hurrenez hurren-2 diskurtso-markatzailea: biformulatzailea</head><p>Behin hurrenez hurren-2 esapidea diskurtso-markatzailea dela azaldu ondoren, saia gaitezen orain zehazten zer motatako markatzailea izan daitekeen. <ref type="bibr">Larringan-ek (1996: 141)</ref> 'lerrozko integratze markatzaileen' multzoan sailkatu zuen hurrenez hurren-2, honako markatzaile hauekin batera: lehenbizi, lehenik, bestalde; -en arabera, -i buruz, -la eta, -i dagokionez, aldetik, ikuspegitik, inguruan, -i begira. Alegia, beste autore batzuek '(informazioaren) egituratzaile' (Martín Zorraquino, <ref type="bibr">Portolés 1993</ref><ref type="bibr" target="#b23">, Martí Sánchez 2008</ref> edota '(diskurtsoaren) ordenatzaile' <ref type="bibr" target="#b19">(Fuentes 2010)</ref> deritzoten azpisailean sailkatzen du Larringanek hurrenez hurren.</p><p>Dena dela, nire iritziz, egituratzaileen artean aipatu ohi direnak (bestalde, alde batetik, lehenik, -i dagokionez…) ez bezalakoa da hurrenez hurren-2: diskurtso-markatzaile egituratzaileek diskurtsoaren antolaketa orokorra gidatzen dute nolabait (izenak berak dioenez, "informazioa egituratzen dute" eta koherentzia ematen diote diskurtsoari); hurrenez hurren-2 markatzaileak, berriz, zeregin diskurtsiboa betetzen du, baina batez ere mikroegituraren mailan -perpausaren mailan edota segidako bi perpausen mailan-eta kohesioaren alderdiari dagokionez, eta ez diskurtsoaren antolaketa orokorraren mailan. <ref type="bibr">Fuentes-ek (2010)</ref> birformulatzaile esplikatibotzat dauka respectivamente eta honela azaltzen du: "Este adverbio actúa como una variante de un explicativo que aparece tras una enumeración de dos segmentos, introduciendo un dato aclarador o una información añadida, marcando la distribución de los mismos según el orden de emisión". Izatez lokailu banakaria ('conector distributivo') dela dio, baina azalpenak gaineratzeko erabiltzen denez, birformulatzaile esplikatiboen artean (a saber, esto es, es decir, en otras palabras, dicho de otro modo…) sailkatzen du.</p><p>Eta behin puntu honetara iritsita, birformulazioa eta birformulatzaileak zer diren azaldu beharrean gaude. Hartzaileari edo solaskideari aurreko diskurtso-atala egokiro interpretatzen laguntzeko burutzen den diskurtso-eragiketa bat da birformulazioa eta honetan datza funtsean:</p><p>Desde nuestra perspectiva, el proceso de reformulación consiste en volver sobre el contenido de un miembro o de un enunciado anterior o sobre el acto de enunciación, para expresarlo de otra manera equivalente o distinta. Se trata de un procedimiento de reinterpretación discursiva que evidencia la intencionalidad del hablante de guiar al interlocutor para que interprete el mensaje de la manera adecuada. <ref type="bibr">(Garcés 2008: 75)</ref> Birformulazioa, beraz, diskurtsoan lehenago adierazitakoa bestelako hitzez berradieraztea edo birformulatzea da. Hiztunak bere diskurtsoaren kontzientzia hartzen du eta, egin duen formulazioa guztiz gogobetegarria iruditu ez zaionez, beste hitz batzuen bidez edo ustez argiagoa den formulazio baten bidez saiatzen da adierazten hartzaileari adierazi beharrekoa.</p><p>Eta zeregin horretarako, besteak beste, birformulatzaileak baliatzen ditu hiztunak. Hona hemen zer atal bereizten diren ohiko birformulazio batean: Hortik aurrera, dena dela, eztabaidagarria da ea aukerarik zuhurrena ote den hurrenez hurren-2 esapidea birformulatzaile esplikatibotzat hartzea, <ref type="bibr">Fuentes-ek (2010)</ref> respectivamente adberbioarekin egiten duenez. Nire iritziz, erlazio logiko-semantikoari erreparatuz gero, zentzuzkoagoa da birformulatzaile zehaztailetzat hartzea, zehaztapenak gaineratzea baita hurrenez hurren-2 esapidearen zeregina, eta ez azalpen edo esplikazioak ematea. Gainera, birformulazioaren beraren egiturari begiratuz gero, konturatuko gara ez direla guztiz parekoak (18') eta (19b'): ohiko birformulazioetan (18), birformulakizuna (p) ordeztera dator atal birformulatzailea (q); hurrenez hurren-2 bidezko birformulazioetan (19b'), berriz, ez da ordezten birformulakizuna, baizik eta berreskuratzen dira birformulakizuneko enumerazioko erreferenteak haiei buruzko zehaztapenak gaineratzeko. <ref type="bibr">22</ref> Birformulatzaileak sailkatzean, beste irizpide orokorrago bat oinarri hartuta, 'parafrastiko/ez-parafrastiko' bereizkuntza (gutxi gorabehera, 'baliokidetza/baliokidetzarik eza') sartzen dute autore batzuek <ref type="bibr">(ikus, besteak beste, Bach 2001</ref><ref type="bibr">, Garcés Gómez 2008</ref>: irizpide horren arabera, parafrastikotzat hartuko genituzke, zalantza handirik gabe, esplikatiboak (esplikatibo batzuk, behinik behin); eta beste muturrean, ez-parafrastikotzat hartuko genituzke zuzentzaileak. Dena dela, badirudi bereizkuntza hori ez dela gertatu oso emankor edo operatiboa, eta horregatik nahiago izan dut sailkapenetik kanpo utzi.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Literatura-tradizioa</head><p>Orotariko Euskal Hiztegiak (OEH) eta Sarasolaren Euskal Hiztegiak hurrenez hurren esapidearen lehenengo adiera baizik ez dakarte (hurrenez hurren-1: 'bata bestearen ondotik, errenkadan, ondoz ondo'; gazt. 'sucesivamente'): OEHko adibideetatik ondoriozta daitekeenez (Zaitegi, Orixe, Ibiñagabeitia, Mitxelena), badirudi xx. mendearen erdialdera hasten dela zabaltzen eta finkatzen adberbio-esapidea. Geroago, xx. mendean (infra 6.2.), 'bata bestearen ondotik' balioa duela, lehian sartzen da beste aldaera batzuekin (hurrenik hurren, hurrena hurren, hurrengorik hurrengo), baina gaurko euskara estandarrean erabat nagusitu da hurrenez hurren esapidea adberbio gisa. Baina gaurko euskara estandarrean ez dirudi diskurtso-markatzaile gisa hurrenez hurren esapideaz beste aldaerarik erabiltzen denik. <ref type="bibr" target="#b3">27</ref> Izan ere, OEHk dakartzan hiru aldaera horietatik bat bera ere ez da ageri gaurko corpusetan balio diskurtsiboarekin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.3.">Bilakaera: adberbio-erabileratik markatzaile-erabilerara</head><p>Hurrenez hurren esapidearen OEHko adibideak xx. mendearen bigarren zatikoak dira (Zaitegi, Orixe, Ibiñagabeitia, Mitxelena) eta 'bata bestearen ondotik' (gazt. 'sucesivamente') adierari dagozkio soilik. Beraz, adberbio-erabileratik ('baten ondotik hurrengoa doala', 'sucesivamente') eratorria dirudi markatzaile-erabilerak (gazt. 'respectivamente').</p><p>Ondorengo adibideetan ikus daiteke nolako bilakaera gertatu den diskurtso-baliabide anaforiko bat sortzeraino. Lehenengo adibideetan (21a-21d) diskurtsoan ez dago erlazio anaforikorik eta, besterik gabe, gertaera batzuk bata bestearen ondotik datozela aditzera ematen da (hots, hurrenkera soila).  <ref type="bibr">(EPD, Gu, nafarrok, Xabier Zabaltza, Alberdania, 2007, Orr.: 70)</ref> Tradizio idatziko datuen azterketatik ondoriozta daitekeenez, xx. mendearen bigarren zatian bilakaera-prozesu bat gertatu da hurrenez hurren esapidearen semantikan, esanahi kontzeptualetik prozesatze-esanahira lerratuz. 28 Nolabaiteko gramatikalizazioa gertatu da, adberbio-esapidea prozesatze-eginkizun jakin baterako espezializatzeraino. Hona hemen Martín Zorraquino eta <ref type="bibr">Portolés-en hitz argigarriak (1999: 4060)</ref>:</p><p>Otro problema en la aplicación del criterio de invariabilidad de los marcadores se presenta con su distinto grado de gramaticalización. Los marcadores del discurso proceden de la evolución de una serie de sintagmas que, de una parte, van perdiendo sus posibilidades de flexión y combinación, y, de otra, van abandonando su significado conceptual y se especializan en otro de procesamiento.</p><p>Ondorioz, itxura guztien arabera, orain dela hamarkada batzuk sortua da hurrenez hurren-2 diskurtso-markatzailea. Uste izateko da, gainera, azken hamarkadetako itzulpengintzak eta auzo-eta kultura-hizkuntzetako nazioarteko prosa estandarrera hurbiltzeko ahaleginak ere zerikusia izango zutela baliabide diskurtsibo berriaren sorreran.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Posizioa</head><p>Enumerazio baten -birformulakizunaren-ondoren agertzen da ia-ia beti hurrenez hurren-2 birformulatzailea: atal birformulatzailearen ezkerrean (23a-23b) zein eskuinean (23c-23d).  Zenbaitetan, bereziki hurrenez hurren-2 markatzaileak birformulazio aposatua sartzen duenean, birformulakizunak eta birformulazioak kasu-marka eta numero bera izan ohi dute (30a, 30b) baina, berez, ez dute zertan komunztadura sintaktikoa gorde: aski da elkarrekin identifika daitezkeen elementuak izatea: (30g, 30h).</p><p>Diskurtso-markatzailea denean ez da agertzen juntagailuekin batera (bai, ordea, adberbio-erabileran: eta hala hurrenez hurren, eta horrela hurrenez hurren…).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="10.">Maiztasuna, hizkuntza-moldea (idatzia/ahozkoa), erregistroa eta testu mota</head><p>Taula honetan bildu ditugu gure corpusak eman dizkigun maiztasun-datuak:</p><p>Hurrenez hurren (Kopuru hauetan esapidearen bi balioak -hurrenez hurren-1/2-sartuta daude)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Agerpenak</head><p>Maiztasuna <ref type="formula">(</ref> Gure datuen arabera, hizkuntza idatzian erabiltzen da batik bat hurrenez hurren-2 birformulatzailea. Izan ere, ahozko hizkuntzara hurbiltzen diren corpusetan (ETBko dokumentalak: ‰ 0,00; Goenkale: ‰ 0,14) hutsa edo hutsaren hurrengoa da esapide honen maiztasuna. <ref type="bibr" target="#b8">29</ref> Ohartarazi beharra dago esapidearen bi balioak (hurrenez hurren-1, hurrenez hurren-2) sartuta daudela goiko taulako maiztasun-datuetan. Hala ere, gainerako corpusetako emaitzekin alderatuz, guztiz adierazgarriak dira 'Goenkale' eta 'ETBko dokumentalak' corpusetako maiztasun ezin urriagoak. Bestalde, badirudi egungo ahozko euskara biltzen duen "Ahotsak" corpuseko 30 datuek ere hipotesi bera berresten dutela: transkribatutako testuetan ez dut aurkitu hurrenez hurren esapidearen arrastorik.</p><p>Planifikatutako diskurtsoan erabiltzen da hurrenez hurren-2 birformulatzailea eta, batez ere, hizkuntza idatzian eta irakurtzekoak diren testuetan. Erregistroari dagokionez, beraz, nekez erabiltzen da lagunarteko hizkeran, erregistro hori planifikatu gabea baita.</p><p>Testu motari bagagozkio, datuak ez dira inola ere erabakigarriak, baina joera hauek ikusten ditugu: hizkuntza akademikoan erabiltzen da gehien hurrenez hurren esapidea 31 (UPV/EHUko ikasliburu itzuliak: ‰ 23; Zuzenbideko lege-testu itzuliak: ‰ 11; Zientzia eta Teknologiaren Corpusa: ‰ 10 inguru); dezente gutxiago erabiltzen da bestelako azalpenezko testuetan (ZIO: ‰ 5,6; Pentsamenduaren Klasikoak: ‰ 3,88) eta prentsa idatzian (EPD-prentsa: ‰ 4,78); eta nekez agertzen da ahozko testuetan.</p><p>Beste birformulatzaile batzuekin gertatzen den moduan, badirudi itzulpenak eragina izan duela birformulatzaile honen erabileran eta zabalkundean, batez bestekoaren (‰ 5,69) gainetik baitabil hurrenez hurren-en maiztasuna (‰ 8,64) testu itzulietan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="11.">Balio diskurtsiboa</head><p>Enumerazio bateko elementu bakoitzari buruzko zehaztapenak gaineratzeko erabiltzen du testugileak hurrenez hurren markatzailea: segidako enumerazioetako elementuen arteko korrelazioak argi geratzea nahi du hiztunak.</p><p>Informazioaren ikuspegitik funtsezko baliabide kohesiboa da, sekuentzia desberdinetako elementuen arteko korreferentzia erabakitzen duelako eta datuen kate argiak osatzen dituelako. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>(</head><label></label><figDesc></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>ZIO, Pentsamenduaren Klasikoak, Ereduzko Prosa Dinamikoa eta Goenkale). UPV/EHUko Euskara Zerbitzuaren zuzendari Jesus Mari Makazagari eskertu behar diot, halaber, UPV/EHUko ikasliburu itzuliak gure eskura jarri izana. EITBrekiko lankidetzari esker eta, zehazki, Asier Larrinagaren bitartekotzari esker eskuratu dugu ETBko dokumentalen corpusa. Elhuyar Fundazioarekiko lankidetza-hitzarmen baten bidez eskuratu ditugu Zientzia eta Teknologiaren corpuseko testuak (ZTC). Eta, azkenik -baina ez azken-, Joseba Ezeiza sailkide eta adiskideari zor dizkiot zuzenbideko testuen corpusak (Garalex corpusa: http:// www.hizlan.org/db-zuzenbidea/).</figDesc><table /><note>6 http://www.ehu.es/ehg/zio/7 http://ehu.es/ehg/pkc/8 http://ehu.es/ehg/epd/9 http://ehu.es/ehg/epd/10 Zientzia eta Teknologiaren Corpusa: http://www.ztcorpusa.net/cgi-bin/kontsulta.py 11 http://ehu.es/ehg/goenkale/</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>bildu eta izoztutako hiru amuarrain artiko (Salvelinus alpinus) hurrenez hurren jarri, azpia karibu baten urdaileko edukiaz koipeztatu eta izotz-geruza fin batez estalita, leraren patin bihurtzen ziren. (ZIO, Argia munduaren ertzean, Wade Davis / Iñaki Iñurrieta, UPV/EHU, 2009, Orr.: 173) (2) Gaztelaniazko lanei dagokienez, 400 eta 280 aurkeztu dira, hurrenez hurren, narratiban eta poesian. (EPD, prentsa)Lehenengo adibideko hurrenez hurren hori adberbioa da, gramatika-kategoriari dagokionez. Bigarrena, berriz, aurreko adberbio-erabileratik eratorria bada ere, zeregin diskurtsibo jakin bat betetzeko espezializatu da nolabait: diskurtsoan egin beharreko inferentzietan hartzailea ildo jakin batetik gidatzea du helburu. Gure adibidean, hurrenez hurren esapidea dela medio, aditzera ematen da korrelazio estua dagoela aurreko enuntziatuko datuen (400 eta 280) eta ondorengo enuntziatuako datuen (na-</figDesc><table><row><cell>rratiban eta poesian) artean:</cell><cell></cell></row><row><cell>(2')</cell><cell></cell></row><row><cell cols="2">1. enumerazioa 400 eta 280 [lan] aurkeztu dira,</cell></row><row><cell>A</cell><cell>B</cell></row><row><cell cols="3">2. enumerazioa hurrenez hurren, narratiban eta poesian</cell></row><row><cell></cell><cell>A'</cell><cell>B'</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>(8) a. 400 eta 280 idazlan aurkeztu dira, hurrenez hurren, narratiban eta poesian. b. *400 eta 280 idazlan aurkeztu dira, hurrena hurrenarekin, narratiban eta poesian. c. *400 eta 280 idazlan aurkeztu dira, hurrena hurrena, narratiban eta poesian. d. *400 eta 280 idazlan aurkeztu dira, hurrena hurrenik, narratiban eta poesian. esapideak mugikortasun handia du perpausean (ez erabatekoa -(9c)-, nolanahi ere). (9) a. 400 eta 280 idazlan aurkeztu dira, hurrenez hurren, narratiban eta poesian. b. 400 eta 280 idazlan aurkeztu dira, narratiban eta poesian, hurrenez hurren. c. *400 eta 280 idazlan aurkeztu dira, narratiban eta, hurrenez hurren, poesian. Hurrenez hurren-1 adberbioak ez bezalako intonazioa du, ohikoena den koma arteko idazkerak islatzen duenez. Bakartuta agertu ohi da enuntziatuan, tarteki gisa, modifikatzaile eta egitura parentetikoekin gertatu ohi denez. (10) a. 400 eta 280 idazlan aurkeztu dira, hurrenez hurren, narratiban eta poesian. b. Idazlanak hurrenez hurren jarri dituzte. 4. Modifikatzaileak eta osagarriak: Hurrenez hurren-2 esapidea aldagaitza da eta, ohiko adberbioek ez bezala, ez du onartzen modifikatzailerik edo osagarririk. 19 (11) a. Urrun bizi da. c. Guztiz urrun bizi da. (12) a. 400 eta 280 idazlan aurkeztu dira, hurrenez hurren, narratiban eta poesian. b. *400 eta 280 idazlan aurkeztu dira, guztiz hurrenez hurren, narratiban eta poesian. 5. Koordinazioa: Beste diskurtso-markatzaile batzuk elkarrekin edota juntagailuekin juntatzen dira (hala ere, edozein modutan; baina, hala ere…). Nolanahi ere, hurrenez hurren-2 esapidea ez da juntatzen beste diskurtso-markatzaileekin, ezta juntagailuekin ere. Eta horrek bereizten du hurrenez hurren-1 adberbiotik. (13) a. 400 eta 280 idazlan aurkeztu dira, hurrenez hurren, narratiban eta poesian. b. *400 eta 280 idazlan aurkeztu dira, hots (alegia, hau da…), hurrenez hurren, narratiban eta poesian. c. *400 eta 280 idazlan aurkeztu dira, eta (baina…) hurrenez hurren, narratiban eta poesian. (14) a. 400 lan aurkeztu dira, eta hurrenez hurren jarri dira lanok. b. 400 lan aurkeztu dira, eta hurrenez hurren, hots errenkadan jarri dira lanok. 6. Funtzio sintaktikoa: Hurrenez hurren-1 esapideak adizlagun baten funtzio sintaktikoa betetzen du (15) perpausean eta horregatik har daiteke Nola jarri dira? galderaren erantzuntzat (fokotzat); hurrenez hurren-2 esapidea, berriz, ez dago bere perpauseko aditzaren mende eta ezin da hartu inolako galderaren erantzuntzat (16). Kategoria lexiko eta sintagmatikoak: Askotariko kategoria lexiko eta sintagmatikoak aurkeztea edo lotzea da diskurtso-markatzaileen ezaugarrietako bat, eta hurrenez hurren-2 esapidea ere perpaus desberdinetako enumerazioen arteko zein perpaus barruko sintagma biren arteko korrelazioak adierazteko erabiltzen da (ikus 9. atala): (17) a. «Sabino Arana eta Jesús Aizpún», [EAJren eta UPNren sortzaileak, hurrenez hurren,] bata bestea bezain foruzaleak ziren. (EPD, Gu, nafarrok, Xabier Zabaltza, Alberdania, 2007, Orr.: 58) El diagnóstico de los médicos no es bueno. En fin, habrá que prepararse para lo peor.) ez dute onartzen ez ezeztapenik, ez galderarik, ez modifikatzailerik: «(…) "unidades léxicas no descriptivas", no aceptan la negación, la interrogación y la modificación: *No fue en fin cuando habrá que prepararse para lo peor; *¿Fue en fin cuando habrá que preparase para lo peor?; *Muy / completamente en fin habrá que preparase para lo peor». (Vázquez Veiga 2011). b. Athleticek 5-0 irabazi zion L'Estartit taldeari, baina «Levantek eta Rayo Vallecanok ere irabazi egin zuten», eta [bederatzi eta sei puntura jarraitzen dute, hurrenez hurren].</figDesc><table><row><cell>(15) a. Hurrenez hurren jarri dira lanak. b. Nola jarri dira lanak? (16) a. 400 eta 280 idazlan aurkeztu dira, hurrenez hurren, narratiban eta poesian. b. ???Nola aurkeztu dira idazlanak? c. «Fusio-tenperatura eta beira-trantsizioko tenperatura» parametro garrantzi-tsuak dira, polimeroen zerbitzu-aplikazioei dagokienez. [Hurrenez hurren, hainbat aplikaziotarako goiko eta beheko tenperatura-mugak adierazten dituzte], bereziki polimero erdikristalinoetarako. (UPV/EHU, Materia-len zientzia eta ingeniaritza, Callister, Jr., William D. et al., UPV/EHU, 2011, 15. kapitulua) Gure ustez, Martín Zorraquino-k (2010: 104-113) diskurtso-markatzaileei egoz-ten dizkien ezaugarri guztiak ditu hurrenez hurren-2 esapideak: a) Unitate aldagaitzak dira eta lokuzioak direnean aski finkatuta daude. b) Enuntziatu bakartuetan agertzen dira, tarteki gisa (modifikatzaile, azalpen eta elementu parentetikoak agertu ohi diren posizioan). 7. (EPD, prentsa) c) Izaera funtzional eta opakoa (eta, esapideen kasuan, ez-konposizionala) da</cell></row></table><note>2. Posizio sintaktikoa: Juntagailuekin alderatuz gero, hurrenez hurren-23. Intonazioa:19 Iordanskaja eta Mel'čuk-en (1995) ustez, prozesatze-esanahia edo esanahi ez-deskriptiboa du- ten unitateek (adibidez, 'en fin' markatzaileak honako esaldi honetan:</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>Satr VocP. t Zure menpeko gurenari agertu ta onek urrenez urren ondozka darraikionari azaldu bezaio. Zait Sof 149. Leo XIIIgarrenak gauza bera agindu zienen prantses katolikueri, ta olaxe Aita Santu guziek, urrenez urren, itz berberekin. Or QA 77. Esamaña bakoitzean itzak urrenez urren ipiñiz. Or Aitork 20. Arrizko aulki lerroak urrenez urren zeuden. Zait Plat 21. Gurasoen gurasoengandik urrenez-urren ikasten zuen bakoitzak bere lanbidea. Ib. 13. Onek jarri zitun bere lira-soiñuz Tebas uriko esiak urrenez urren. Ibiñ Virgil 36. [Eutezko genitiboak] badu, hitz oinarri berriak sortzeko ahalmenaz gainera, bere burua hurrenez hurren errepikatzekoa ere. MEIG VI 175. MARKATZAILE BERRI BAT: HURRENEZ HURREN BIRFORMULATZAILEA 315 Egungo Euskararen Hiztegia, 25 Labayru) 26 erabilera diskurtsibo berria ('respectivamente' balioa, alegia). Erkiag Arran 37. b) A continuación. t Zaharrik gehienok, oraindik gordin xamar gaudelako edo, ez gara deus izan [...]. Eta hurrenik hurren, 40 urte inguruko jendea datorkigu. MEIG IX 63. Hurrena hurren. Sucesivamente, uno tras otro. t Egunak hurrena hurren / badu berdin salhatzen [Iainkoaren loria]. Hm 43. Hurrengorik hurrengo. Uno tras otro. t Eta euren seme ta alabak, eta urrengorik urrengo, belaunik belaun, ur-ertzean jaio, azi, kozkondu ta bizi izan diran jatorri osoko gizakiak. Erkiag Arran 85. Agiñak eta ortzak banan banan eta urrengorik urrengo erauziaz. Erkiag BatB 26. Urrengorik urrengo, gizakien ardurarik zoliena, geienbat, orixe da-ta, izan bere. Ib. 34. Gizonak eta mutil gazteak, dotoreak oneek bere, urrengorik urrengo, agur txeratsua egiten deutse. Ib. 139.</figDesc><table><row><cell>DISKURTSO-6. XX. mendearen bigarren zatiko berrikuntza: morfologia, aldaerak eta bilakaera</cell></row><row><cell>6.1. Morfologia</cell></row><row><cell>Etxez etxe hitz-elkartearen tankerako bikoiztapena dugu hurrenez hurren, hitz bera</cell></row><row><cell>errepikatuz sortua ('amredita arrunta'): lehenengo aldian instrumentalez jantzita eta</cell></row><row><cell>bigarrenean biluzik (hurrenEZ hurren). Halako hitz-elkarteak adberbio moduko erai-</cell></row><row><cell>Orotariko Euskal Hiztegia (OEH): kuntzak dira eta behin eta berriroko gertaera edo errepikatzea adierazten dute: erre-</cell></row><row><cell>pikatze-lan hori banakakoa, 'aldian bat'ekoa izan ohi da (Euskaltzaindia 1993: 48). Hurrenez hurren. Sucesivamente, uno tras otro. «Urrenes-urren (AN-araq), por Haren pareko etxerik etxe ereduaren arabera sortuak dira hurrenik hurren eta hurren-gorik hurrengo aldaerak. 6.2. Aldaerak OEHk hiru aldaera hauek dakartza: Hurrenik hurren. a) Respectivamente. t Iru atal dituen dantzaketea: zortziko, orden; de uno en uno» Euskal Hiztegia: orripeko ta arin-ariña, 5/8, 3/4 eta 2/4 musika-neurriz, urrenik urren.</cell></row><row><cell>Hurrenez hurren. adlag. (1946) Baten ondotik hurrengoa doala. Hitz zatiak</cell></row><row><cell>soinuka iragan ziren, bigarrena lehenaren ondotik, hirugarrena bigarrenaren atzetik eta</cell></row><row><cell>horrela hurrenez hurren. || Hurrenez hurrengo zenbakiak.</cell></row><row><cell>Goraxeago azaldu dugunez, ez OEHk ez Euskal Hiztegia-k ez dute jasotzen hurre-</cell></row><row><cell>nez hurren esapideak diskurtso-markatzaile gisa duen balioa eta horrek pentsarazten</cell></row><row><cell>digu diskurtsoaren mailako balio anaforikoa (gazt. 'respectivamente') geroago sortua</cell></row><row><cell>izan daitekeela; aspaldi ez dela, seguru asko. Izan ere, balio diskurtsiboaren adibide</cell></row><row><cell>bakarra dakar OEHk:</cell></row><row><cell>(20) Iru atal dituen dantzaketea: zortziko, orripeko ta arin-ariña, 5/8, 3/4 eta 2/4</cell></row><row><cell>musika-neurriz, urrenik urren. (Erkiag Arran)</cell></row><row><cell>XX. Mendeko Euskararen Corpus Estatistikoan 23 ikus daitekeenez, xx. mendearen biga-</cell></row><row><cell>rren zatitik aurrera asko ugaltzen dira hurrenez hurren-2 diskurtso-markatzailearen ager-</cell></row><row><cell>penak. Gaur egun, logikoa denez, hiztegi gehienetan jasota dago (esaterako, Elhuyar, 24</cell></row><row><cell>23 http://www.euskaracorpusa.net/XXmendea/</cell></row><row><cell>24 Hona Elhuyar hiztegiak dakarren informazioa:</cell></row><row><cell>hurrenez hurren: sucesivamente, ordenadamente, cronológicamente; respectivamente</cell></row><row><cell>-Bigarrena lehenaren ondotik, hirugarrena bigarrenaren atzetik eta horrela hurrenez hurren:</cell></row><row><cell>el segundo después del primero, el tercero detrás del segundo y así sucesivamente.</cell></row><row><cell>-Hurrenez hurrengo zenbakiak: números en orden cronológico.</cell></row><row><cell>-Jonek eta Amaiak bi eta hiru anai-arreba dituzte hurrenez hurren: Jon y Amaia tienen</cell></row><row><cell>dos y tres hermanos respectivamente.</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>23) a. «Amaia Piedra eta Cristina Petite» izango dira, [hurrenez hurren, proba motzeko eta luzeko korrikalari nagusiak]. (EPD-prentsa) b. Beren xede-geneen jarduna modulatuz egiten dute lan homeogeneek; xede-geneok determinatzen dute hazkuntza-eragileen eta haien hartzaileen ekoizpena, eta, beren adierazpenez, zelulen ugalketa eta eragin-trukea arautzen. Elementu genetikozko hierarkia batek gobernatzen du, bada, euliaren garapena. Hierarkia horretatik, gradu jakin batzuen ordezkari dira Sabino Arana eta Jesús Aizpún», [EAJren eta, hurrenez hurren, UPNren sortzaileak], bata bestea bezain foruzaleak ziren. Moran, Michael J. et al., UPV/EHU, 2007, 1. kapitulua)</figDesc><table><row><cell>c. *«Birformulazio kateatuak ere gertatzen dira noizean behin: alegia, sekuentzia jakin</cell></row><row><cell>bateko elementuei buruzko zehaztapenak segidako perpaus edo birformulazioen bi-«homeo-geneak eta haien xede-geneak»: [Antonio García-Bellidok, hurrenez hurren, dez ematen dira:</cell></row><row><cell>gene «hautesle» eta gene «gauzatzaile» esaten dienak.] (ZIO, Sagua, eulia eta (32) Dentsitatea bezala, bolumen espezifikoa propietate intentsiboa da, eta puntu</cell></row><row><cell>gizakia, François Jacob / Juan Garzia, UPV/EHU, 2004, Orr.: 63) batetik beste batera alda daiteke. «Dentsitatearen eta bolumen espezifikoaren SI</cell></row><row><cell>c. Haren The Organism I 939ko liburu aipagarrian aurki daiteke azalpen unitateak» [kg/m3 eta m3/kg dira, hurrenez hurren]. Hala ere, [maiz g/cm3 eta</cell></row><row><cell>hori (I 0. atalean, bereziki). Gerraostean, Georges Canguilhem eta Mi-cm3/g gisa ere adierazten dira, hurrenez hurren.] Dentsitatearentzat eta bolu-</cell></row><row><cell>chel Foucault pentsalari razionalistek aztertu dituzte bereziki osasuna men espezifikoarentzat testu honetan erabiliko ditugun unitate ingelesak lb/</cell></row><row><cell>eta eritasuna. «The normal and the Pathological eta Illness and Psychology ft3 eta ft3/lb dira, hurrenez hurren. (UPV/EHU, Ingeniaritza-termodinami-</cell></row><row><cell>dira liburu nagusiak;» [Canguilhemena eta Foucaultena, hurrenez hurren.] karen oinarriak,</cell></row><row><cell>(ZIO, Antropologo bat Marten, Oliver Sacks / Xabier Olarra, UPV/EHU,</cell></row><row><cell>2003, Orr.: 288)</cell></row><row><cell>d. Realarekin batera mailaz igotzea lortu duten bi taldeek, «Herculesek eta Le-</cell></row><row><cell>vantek» [8.000 eta 4.000 bazkide dituzte, hurrenez hurren]. (EPD-prentsa)</cell></row><row><cell>Honako adibide honetan perpausaren hasieran agertzen da hurrenez hurren eta</cell></row><row><cell>geroago erreferentea (sabaikoak "sabaiko fluoreszenteak"); baina horrelakoetan ez</cell></row><row><cell>dago korrelaziorik edo erlazio anaforikorik, adberbio hutsa baizik ('bata bestearen</cell></row><row><cell>ondotik, errenkadan, ondoz ondo').</cell></row><row><cell>(24) Haatik, bazirudien euria ez zela inoiz lurrera iristen, haizeak zeramala airez</cell></row><row><cell>aire zirimolan. Begitandu zituen guardak bizikletan enbatak putzura era-</cell></row><row><cell>maten, nasatik behera jausten bata bestearen ondotik. Atelier elektrikoaren</cell></row><row><cell>atarira heldu ziren. -Sukaldeko fluoreszentea erre zitzaiguan atzo guri. -Etor</cell></row><row><cell>hadi nirekin. Hurrenez hurren piztu ziren sabaikoak, bristada egin zuten</cell></row><row><cell>harilkatzen ari ziren motorren kobrean. -Zenbatekoa daukazue, berrehun</cell></row><row><cell>eta hogeikoa edo ehun eta hogeita bostekoa? -Ehun eta hogeita boste-</cell></row><row><cell>koa. Pintura grisean «Biltegia» zuriz eta eskuz idatzia zeukan atea zabaldu</cell></row><row><cell>zuen. -Hor, ezkerrean, kartoi urdinetan dauden horiek. (EPD, Sua nahi,</cell></row><row><cell>Mr. Churchil?, Koldo Izagirre, Susa, 2005, Orr.: 229)</cell></row><row><cell>Inoiz edo behin, bereziki birformulakizuna erlatibozko perpaus batean txertatuta</cell></row><row><cell>badago, gerta daiteke markatzailea (hurrenez hurren-2) perpausaren hasieran agertzea.</cell></row><row><cell>(25) a. (…) Administrazioak, erakundeetan ordezkaritza duten enpresari-elkarteek</cell></row><row><cell>eta indarrean dagoen legediaren arabera ordezkari gehien dituzten sindika-</cell></row><row><cell>tuek Justizia, Lan eta Gizarte Segurantza Sailari atxikitako organo bat osa-</cell></row><row><cell>tuko dute: [hurrenez hurren enpleguari eta prestakuntzari] dagozkien «3211</cell></row><row><cell>eta 3231 programak» ezartzeko moduaren gaineko kontrola eta jarraipena</cell></row><row><cell>egiteko. (Zuzen_LT, Euskal Autonomia Erkidegoko 2009. urteko Aurrekontu</cell></row><row><cell>Orokorrak onartzen dituen Legea. (Eusko Legebiltzarra, 2009)</cell></row><row><cell>b. Beraz, berregin prozedura 1. egunkari-erregistroan hasiko da, eta egu-</cell></row><row><cell>neratzeak berregiteari ekingo dio. [Hurrenez hurren, C, B, A eta C orrial-</cell></row><row><cell>deen eguneratzeei] dagozkien «1, 2, 6, 7 ESZak», hurrenez hurren, ez dira</cell></row><row><cell>orrialde horien ESZak baino txikiagoak (orrialde zikinen taulan ikus dai-</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head>( 33 )</head><label>33</label><figDesc>Dentsitatea bezala, bolumen espezifikoa propietate intentsiboa da, eta puntu batetik beste batera alda daiteke. «Dentsitatearen eta bolumen espezifikoaren SI unitateak» [kg/m3 eta m3/kg dira, hurrenez hurren]. [Hala ere, maiz g/cm3 eta cm3/g gisa ere adierazten dira, hurrenez hurren]. «Dentsitatearentzat eta bolu-</figDesc><table /><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14"> Martí Sánchez-ek (2011: 16)  dioenez «La relación con informaciones previas, explícitas e implícitas, lo que las hace [kategoria pragmagramatikalez ari da] contextualmente dependientes y las faculta para cumplir funciones cohesivas en el discurso. (…) Aunque los CD ['conectores discursivos'] van con el último miembro conectado, también miran hacia atrás, gracias a su muy frecuente carácter anafórico».15  Sarasolaren Egungo Euskararen Hiztegia-n, esaterako, 'bakoitzari buruz' azalpenaren bidez ematen da aditzera hurrenez hurren esapidearen bigarren balioa (http://www.ehu.es/eeh/cgi/bila?z=hurren). Azalpen horrek agerian uzten du hurrenez hurren esapidearen balio anaforiko eta diskurtsiboa. Begien bistan daude halako definizio edo argigarri batek dituen mugak. Izan ere, sarri-askotan hiztegietan markatzaileen definizio zirkularrak edo sinonimia bidezkoak nagusitzen dira.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="17">Horregatik ezin dira izan diskurtso-markatzaile esanahi kontzeptuala duten kategoriak (izenak, adjektiboak eta aditzak).18Martí Sánchez-ek (2011: 19)  dioenez, beste izen batzuk ere eman zaizkio: «Los MD [marcadores discursivos] son el resultado de un proceso de cambio que afecta a su expresión, contenido o/y uso originarios de la unidad. (…) Gramaticalización, lexicalización, pragmaticalización y nuestro pragmagramaticalización son términos empleados para calificarlo».</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="20">'De generalización' deitzen die MartíSánchez-ek (2008).21  Birformulatzaileetatik kanpo uzten ditu gainerakoak: kontzesiboen sailean sartzen ditu en cualquier caso, en todo caso, de todos modos eta antzekoak; eta aparteko sail batean sartzen ditu 'recapitulativos' direlakoak (en suma, en definitiva, en conclusión…).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="25">http://www.ehu.es/eeh/cgi/bila?z=2529&amp;l=h 26 http://zerbitzuak.labayru.org/diccionario/CargaPalabraEU.asp?resul=hurrenez%20hurren<ref type="bibr" target="#b3">27</ref> Gure corpusaren arabera (62,6 milioi testu-hitz), hurrenez hurren esapidearen agerpen kopuruaren aldean (3565 agerpen) hutsa edo hutsaren hurrengoa da gainerako aldaeren maiztasuna: hurrena hurren (agerpen bat), hurrengorik hurrengo (agerpen bat), hurrenik hurren (behin ere ez).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="28">Nolanahi ere, MartíSánchez-ek (2011: 17)  dioenez: «La condición de signos procedimentales, derivada del proceso de cambio que las afecta y convierte las categorías pragmagramaticales en herramientas fundamentales en la interpretación de los enunciados (ver, infra, § 3.1.2). No obstante, por su carácter parcialmente sobreentendido y convencional, en lo pragmagramatical no se ha perdido por completo el contenido conceptual, o, al menos, originario.»</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="29">Goenkale corpuseko agerpen apurrak, adibidez, adberbio-erabilerari dagozkio ('bata bestearen ondotik') eta gidoilariaren deskripzio-oharretan baino ez dira agertzen. ETBko dokumentaletan ere, entzunak izateko sortuak baitira, ez da behin ere agertzen hurrenez hurren esapidea. 30 http://www.ahotsak.com/ 31 Gorago azaldu dudanez, hurrenez hurren esapideari dagozkio maiztasun-datuak eta ez soilik birformulatzaileari. Dena dela, corpusetako adibide edo agerpen gehienak hurrenez hurren-2 markatzaileari dagozkio.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>men espezifikoarentzat testu honetan erabiliko ditugun unitate ingelesak» [lb/ft3 eta ft3/lb dira, hurrenez hurren.] (UPV/EHU, Ingeniaritza-termodinamikaren oinarriak, <ref type="bibr">Moran, Michael J. et al., UPV/EHU, 2007, 1. kapitulua)</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="12.">Ondorio batzuk</head><p>Lehenengo ataletan erakutsi denez, bi adiera desberdin ezkutatzen dira forma beraren azpian: alde batetik, hurrenez hurren-1 adberbio-esapidea dugu; beste alde batetik, hurrenez hurren-2 diskurtso-markatzailea dugu, diskurtsoko segidako enumerazioetako elementuen arteko korrelazioa adierazten duena.</p><p>Ikusi dugunez, diskurtso-markatzaileen ezaugarri semantiko eta sintaktiko nagusiak ditu hurrenez hurren-2 esapideak. Eta, zehazkiago, bigarren esapide hori nolabaiteko birformulazioa adierazteko partikula lagungarria dela erakutsi dut: alegia, birformulatzailetzat -birformulatzaile zehaztailetzat-hartzea proposatu dut.</p><p>Itxura guztien arabera, adberbio-esapideak berak ere nahiko tradizio laburra du (xx. mendearen erdialdekoak dira 'sucesivamente' adieraren lehenengo agerraldiak) eta, frogatu uste dudanez, xx. mendearen bigarren zatian gertatutako berrikuntza bat da hurrenez hurren-2 diskurtso-markatzailearen sorrera. Bilakaera "natural" baten ondorioz sortua da diskurtso-markatzailea: adberbio-esapidea prozesamendu-esanahi jakin bat bideratzeko (gazt. 'respectivamente') espezializatu izanaren ondorioz. Izan ere, oso tarte laburra dago adberbioaren esanahi kontzeptualetik ('bata bestearen ondotik') prozesamendu-esanahira (segidako enumerazioen hurrenkeran oinarritutako korrelazioa). Bestalde, egungo euskara estandarrean hurrenez hurren aldaera nagusitu da erabat markatzaile gisa, beste formen gainetik (hurrenik hurren, hurrengorik hurrengo, hurrena hurren).</p><p>Enumerazio baten ondotik agertzen da ia beti: bigarren enumerazio baten atarian normalean eta batzuetan haren amaieran. Etenaldien artean agertu ohi da idazkeran: gehienetan, koma artean.</p><p>Sintaxiari dagokionez, gehienetan perpaus bereko sintagmetako elementuen artean ezartzen da korrelazioa (nolabaiteko erlazio anaforikoa); baina batzuetan, baita perpaus juntatuetako edo alboratuetako sintagmetako elementuen artean ere.</p><p>Gure datuen arabera, planifikatutako diskurtsoan erabiltzen da hurrenez hurren-2 birformulatzailea eta, batez ere, hizkuntza idatzian eta irakurtzekoak diren testuetan. Erregistroari dagokionez, beraz, nekez erabiltzen da lagunarteko hizkeran, erregistro hori planifikatu gabea baita.</p><p>Enuntziazioaren aldetik, batez ere hiztunak datuak argi uzteko duen borondatearen erakusgarri da. Eta informazioaren alderdiari bagagozkio, funtsezko baliabide kohesiboa da, sekuentzia desberdinetako elementuen arteko korreferentzia erabakitzen duelako eta datu-kateak eta informazio-sareak egokiro antolatzeko balio duelako.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Aipamen bibliografikoak</head><p>Bach, C., 2001, Els Connectors Reformulatius Catalanas: Anàlisi i Proposta d'Aplicació Lexicogràfica, IULA/Pompeu Fabra, Barcelona, internet: http://www.tdx.cat/ handle/10803/7487</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">)</forename><surname>Upv/Ehu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ramez</forename><surname>Datu-Base Sistemak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Elmasri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">UPV/ EHU</title>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">ia erregela da markatzailea enumerazio baten ondoren kokatzea (26a-26b) -beharbada modu horretan hartzaileak informazioa errazago prozesatzen duelako-eta ez bi enumerazio biltzen dituen perpaus baten hasieran (27). (26) a. Amaia eta Cristina izango dira, hurrenez hurren</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dena</forename><surname>Dela</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>proba motzeko eta luzeko korrikalari nagusiak</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Amaia eta Cristina izango dira, proba motzeko eta luzeko korrikalari nagusiak</title>
+		<imprint/>
+	</monogr>
+	<note>hurrenez hurren</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Amaia eta Cristina izango dira proba motzeko eta luzeko korrikalari nagusiak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hurrenez Hurren</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Birformulatzaile-Eginkizuna Duenean</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Da</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Beti</surname></persName>
+		</author>
+		<title level="m">koma artean, atal birformulatzailearen ezkerrean jartzen denean</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Egia esan, elefante guztiak ez dira berdinak belarrien handitasunari dagokionez. Loxodonta africana-k bai, oso handiak ditu belarriak, 183 cm eta 114 cm baitira, hurrenez hurren, haien luzera eta zabalera</title>
+	</analytic>
+	<monogr>
+		<title level="m">eta birformulazioaren amaieran doanean (28b), ezkerrean koma duela agertu ohi da. (28) a. (...)</title>
+		<editor>ZIO, Animalien aferak, J.I. Pérez Iglesias / M.B. Urrutia</editor>
+		<imprint/>
+	</monogr>
+	<note>UPV/EHU, 2011) Orr.: 43</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Athleticek 5-0 irabazi zion L&apos;Estartit taldeari, baina Levantek eta Rayo Vallecanok ere irabazi egin zuten, eta bederatzi eta sei puntura jarraitzen dute, hurrenez hurren</title>
+		<imprint/>
+	</monogr>
+	<note>EPD, prentsa</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Hala ere, atal birformulatzailearen ezkerrean doanean, zenbaitetan eskuineko komarik gabe agertzen da, nahasbideak saihesteko eta birformulazioaren norabidea agerian uzteko: alegia, birformulazioa eskuinaldera hedatzen dela adierazteko</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Uhartediaren eskualde batean, esate baterako, «burdina, kobaltoa eta nikela (26., 27. eta 28</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Horra Bistaratzen Hasia Odolkidetasuna Eta Kokapena Zenbakitan Emateko Oinarri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bat</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Peter William Atkins / Juan Garzia</publisher>
+		</imprint>
+	</monogr>
+	<note>hurrenez hurren pisu atomiko hauek dituztenak: 55,85, 58,93 eta 58,69]) triadatzat identifikatu zituen, eta Istmoaren eremu bat agertu zen. [ZIO, Erreinu periodikoa. UPV/EHU, 2011) Orr.: 98</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">subjektu edo objektu aposatuen artean (30a, 30b, 30c); subjektuaren eta predikatuaren artean (30d)… Aposizioan agertzen da maiz, eta zenbaitetan izaera parentetikoa du (30e)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Perpaus</forename><surname>Gehienetan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">;</forename><surname>Bereko Sintagmetako Elementuen Artean Ezartzen Da Korrelazioa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Epd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xabier</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Zabaltza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">bata bestea bezain foruzaleak ziren</title>
+		<imprint>
+			<publisher>Alberdania</publisher>
+			<date type="published" when="2007" />
+			<biblScope unit="page">58</biblScope>
+		</imprint>
+	</monogr>
+	<note>Baina batzuetan, perpaus juntatuetako (30f) edo alboratuetako (30g-30i) sintagmetako elementuen artean ezartzen da korrelazioa. (30) a. «Sabino Arana eta Jesús Aizpún. EAJren eta UPNren sortzaileak, hurrenez hurren</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">istilurik ez dutela nahi adierazi zuten atzo, baina bakoitzak bereari eutsi zion. (EPD, prentsa) c. (…) «Soinua, ikusmena eta ukimena hiru sentsu dira», [hurrenez hurren presio-uhinak, uhin elektromagnetikoak eta bibrazioak hautemateko gai direnak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename><surname>Fernando Lamikizek Eta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Miguel</forename><surname>Fuentesek</surname></persName>
+		</author>
+		<editor>ZIO, Formen matxinada, Jorge Wagensberg / Juan Garzia (UPV/ EHU-ZIO Bilduma</editor>
+		<imprint>
+			<date type="published" when="2007" />
+			<publisher>Orr</publisher>
+		</imprint>
+	</monogr>
+	<note>: 313) d. (…) Egia esan, elefante guztiak ez dira berdinak belarrien handitasunari dagokionez. Loxodonta africana-k bai. oso handiak ditu belarriak, «183 cm eta 114 cm baitira,» [hurrenez hurren, haien luzera eta zabalera</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">43) e. (…) Muskuluko oxigenoaren kopuru txiki bat baino ez da konbinatzen hemoglobinarekin, globulu gorriei beren kolore gorria ematen dien gaiarekin; «mioglobinarekin eta zitokromoarekin konbinatzen da gehiena» [(hemoglobinaren antzeko substantzia bat eta kolorezko beste material bat, hurrenez hurren).] (ZIO, Giza gorputza lanean</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">(</forename><surname>Zio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Animalien Aferak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Pérez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">John Lenihan / Irene Aldasoro</title>
+		<editor>Iglesias / M.B. Urrutia (UPV/EHU</editor>
+		<imprint>
+			<biblScope unit="page">54</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Athleticek 5-0 irabazi zion L&apos;Estartit taldeari, baina «Levantek eta Rayo Vallecanok ere irabazi egin zuten,» eta [bederatzi eta sei puntura jarraitzen dute</title>
+		<imprint/>
+	</monogr>
+	<note>hurrenez hurren.] (EPD, prentsa</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">UPV/EHU, 2004) Orr.: 138) h. (…) «Fusio-tenperatura eta beira-trantsizioko tenperatura» parametro garrantzitsuak dira, polimeroen zerbitzu-aplikazioei dagokienez. [Hurrenez hurren, hainbat aplikaziotarako goiko eta beheko tenperatura-mugak adierazten dituzte, bereziki polimero erdikristalinoetarako</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>«adanen Mitoan Eta Faustorenean</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Haren Ikur.] (zio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sagua</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">François</forename><surname>Eta Gizakia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">;</forename><surname>Jacob / Juan Garzia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Materialen</forename><surname>Upv/Ehu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jr</forename><surname>Callister</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>William</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>UPV/ EHU, 2011, 15. kapitulua</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">6 eta 12 minutuko exekuzio-denborak dituztela] estimatzen da. (UPV/EHU, Sistema eragileak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename><surname>Batch</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<pubPlace>Stallings, William, UPV/EHU</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Atik Era izendatuta,» ia aldi berean iristen dira konputagailura</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">baina mugikortasuna ez da erabatekoa: aurreko adibideetan ikusi denez, bigarren enumerazioari dagokion sintagmaren ezkerrean zein eskuinean agertu ohi da; baina ezin da agertu enumerazioari dagokion sintagmako elementuen artean (ikus Real Academia Española (RAE), Asociación de Academias de la Lengua Española 2010: 2358). (31) a. «Sabino Arana eta Jesús Aizpún</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Epd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xabier</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Zabaltza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Beste diskurtso-markatzaile batzuekin gertatu ohi denez, posizioaren aldetik badu leku desberdinetan agertzeko nolabaiteko askatasuna</title>
+		<meeting><address><addrLine>Orr</addrLine></address></meeting>
+		<imprint>
+			<publisher>Alberdania</publisher>
+			<date type="published" when="2007" />
+			<biblScope unit="page">58</biblScope>
+		</imprint>
+	</monogr>
+	<note>bata bestea bezain foruzaleak ziren</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>«sabino Arana Eta Jesús Aizpún</surname></persName>
+		</author>
+		<title level="m">bata bestea bezain foruzaleak ziren</title>
+		<imprint/>
+	</monogr>
+	<note>hurrenez hurren, EAJren eta UPNren sortzaileak</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Briz</surname></persName>
+		</author>
+		<ptr target="http://textodigital.com/P/DDPD/" />
+		<title level="m">Diccionario de partículas discursivas en español (DPDE)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Euskal Gramatika Lehen Urratsak-III (lokailuak), Euskaltzaindia, Bilbo. -, 1993, Hitz elkartuen osaera eta idazkera</title>
+	</analytic>
+	<monogr>
+		<title level="j">Euskaltzaindia</title>
+		<imprint>
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">La organización del discurso: marcadores de ordenación y de reformulación</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Fuentes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Madril. Garcés Gómez, M.P</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>Madril</publisher>
+		</imprint>
+	</monogr>
+	<note>Lingüística Iberoamericana</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Traitement lexicographique de deux connecteurs textuels du français contemporain</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Iordanskaja</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Mel&amp;apos;čuk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Tendances Récentes en Linguistique Française et Générale, John Benjamins</title>
+		<editor>H. Bat-Zeev Shyldkrot y L. Kupfer man</editor>
+		<meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="211" to="236" />
+		</imprint>
+	</monogr>
+	<note>En fait vs en réalité</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Testu-antolatzaileak bi testu motatan: testu informatiboa eta argudiapenezkoa, doktorego-tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Larringan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+		</imprint>
+		<respStmt>
+			<orgName>Universidad del País Vasco/Euskal Herriko Unibertsitatea</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Los estudios sobre marcadores del discurso en español</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ó</forename><surname>Loureda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Acín</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<pubPlace>hoy, Arco/ Libros, Madril</pubPlace>
+		</imprint>
+	</monogr>
+	<note>koord.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martí</forename><surname>Sánchez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename></persName>
+		</author>
+		<ptr target="http://www.linred.es/numero9_articulo_8.html" />
+		<title level="m">Los conectores discursivos (entre los otros marcadores discursivos y los otros conectores)», in Ana M.ª Cestero Mancera, Manuel Martí Sánchez (koord.): I Jornadas de lengua y comunicación: marcadores discursivos</title>
+		<meeting><address><addrLine>Arco/Libros, Madril</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+		<respStmt>
+			<orgName>Universidad de A Coruña</orgName>
+		</respStmt>
+	</monogr>
+	<note>Anexo monográfico</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">«Los marcadores del discurso y su morfología</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Martín Zorraquino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Los estudios sobre marcadores del discurso en español</title>
+		<editor>Ó. Loureda y E. Acín</editor>
+		<meeting><address><addrLine>hoy, Arco/ Libros, Madril</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="93" to="181" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Portolés</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Gramática descriptiva de la lengua española</title>
+		<editor>I. Bosque y V. Demonte</editor>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="volume">III</biblScope>
+			<biblScope unit="page" from="4051" to="4213" />
+		</imprint>
+	</monogr>
+	<note>Los marcadores del discurso</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Nueva gramática de la lengua española</title>
+		<imprint>
+			<date type="published" when="2010" />
+			<pubPlace>Sintaxis II, Espasa Libros, Madril</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Real Academia Española (RAE), Asociación de Academias de la Lengua Española</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">El tratamiento lexicográfico de los marcadores del discurso</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Santos Río</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luso</forename><surname>Diccionario De Partículas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Salamanca</forename><surname>Española De Ediciones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Vázquez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Veiga</surname></persName>
+		</author>
+		<ptr target="http://www.linred.es/numero9_" />
+	</analytic>
+	<monogr>
+		<title level="m">I Jornadas de lengua y comunicación: marcadores discursivos</title>
+		<editor>Linred, Lingüística en la red, Ana M.ª Cestero Mancera, Manuel Martí Sánchez</editor>
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+		<respStmt>
+			<orgName>Universidad de A Coruña</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elhuyar</forename><surname>Elhuyar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hiztegia</surname></persName>
+		</author>
+		<ptr target="http://zerbitzuak.labayru.org/diccionario/hiztegiasarrera.asp" />
+		<title level="m">Labayru hiztegia</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Diccionario general vasco-Orotariko euskal hiztegia, Euskaltzaindia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Michelena</surname></persName>
+		</author>
+		<ptr target="http://www.euskaltzaindia.net/oeh" />
+		<imprint>
+			<date type="published" when="1987" />
+			<pubPlace>Bilbo, internet</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Sarasola</surname></persName>
+		</author>
+		<ptr target="http://ehu.es/ehg/zehazki/" />
+	</analytic>
+	<monogr>
+		<title level="m">Zehazki. Gaztelania-euskara hiztegia</title>
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Diskurtso-Markatzaile Berri</forename><surname>Bat</surname></persName>
+		</author>
+		<idno>HURRENEZ HURREN BIRFORMULATZAILEA 325</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+				<ptr target="http://www.ehu.es/eeh/Aipaturikocorpusak" />
+	</analytic>
+	<monogr>
+		<title level="m">Euskal hiztegia, Elkar: Donostia, internet</title>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ahotsak</surname></persName>
+		</author>
+		<ptr target="http://www.euskaracorpusa.net/XXmendea/" />
+	</analytic>
+	<monogr>
+		<title level="j">Mendeko Euskararen Corpus Estatistikoa</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

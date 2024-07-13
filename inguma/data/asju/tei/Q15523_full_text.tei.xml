@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ANUARIO DEL SEMINARIO DE FILOLOGÍA VASCA «JULIO DE URQUIJO» International Journal of Basque Linguistics and Philology Miecha Miecha</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">José</forename><forename type="middle">Ignacio</forename><surname>Hualde</surname></persName>
+							<email>jihualde@illinois.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">José</forename><forename type="middle">Ignacio</forename><surname>Hualde</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Studia Philologica et Diachronica in honorem Joakin Gorrotxategi Vasconica et Aquitanica Joseba A. Lakarra -Blanca Urgell</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Illinois</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Dept of Linguistics</orgName>
+								<orgName type="institution">FLB University of Illinois Urbana</orgName>
+								<address>
+									<postCode>4080, 61801</postCode>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">ANUARIO DEL SEMINARIO DE FILOLOGÍA VASCA «JULIO DE URQUIJO» International Journal of Basque Linguistics and Philology Miecha Miecha</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1387/asju.20207</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:21+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>loanwords</term>
+					<term>chronology of sound changes</term>
+					<term>Spanish-Basque historical contact</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In this paper I consider the chronology of the oldest identifiable loanwords that Spanish and other Ibero-Romance languages appear to have taken from Basque. The dating of these loanwords is somewhat more certain when they have undergone datable sound changes in the borrowing language. Here I focus on the medieval praenomen Miecha, seemingly from Spanish mi 'my' and Basque aita 'father'. I consider the evolution form aita to -echa within the historical phonology of the Spanish language. The dating of borrowings from Basque to Romance may also help elucidate when the languages came into contact.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena</head><p>Lan honetan, gaztelaniak eta beste hizkuntza ibero-erromanikoek euskaratik hartu omen dituzten mailegu zaharren kronologia aztertzen dut. Mailegu hauen datazioa errazagoa edo seguruagoa da soinu aldakuntzen ondorioak erakusten dituztenean eta soinu aldakuntza horiek datatu ditzakegunean. Hemen Erdi Aroko Miecha praenomen-az dihardut. Antza denez, hitz honen osagaiak gazt. mi eta eusk. aita dira. Aita &gt; -echa bilakaera aztertzen dut gaztelaniaren fonologia diakronikoaz dakiguna kontuan hartuz. Neurri batean maileguen datazioa erabili dezakegu bi hizkuntzen arteko harremana noiz hasi zen jakiteko ere.</p><p>Hitz gakoak: maileguak, soinu aldakuntzen kronologia, gaztelaniaren eta euskararen arteko harreman historikoa.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 345-351 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20207</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Sarrera: Euskara Batu Zaharraren Urheimat delakoaz</head><p>Azken bolada honetan euskararen zatikatze dialektalaren diakroniaren auziak indar berria hartu du. Ikerlarien interes hau oinarrizko adostasun aurkitu berri batetik hasten da: euskalari guztiok edo gehienok onartzen dugu orain zatikatze prozesu hau ez dela zahar-zaharra. Gipuzkera ez zen erromatarren garaiko barduliarren hizkuntza eta karistioak ez ziren bizkaieraz mintzo. <ref type="bibr">Aldiz, Mitxelenak (1981)</ref> pisuzko froga argiez erakutsi zuen bezala, euskal hizkera historiko guztien ama, Euskara Batu Zaharra (EBZ), Erdi Aroko hizkuntza bat da. Honela bada ere, euskararen aztarna epigrafikoa eta toponimikoa Erdi Aroa baino zaharragoa denez, eta eskualde oso zabal batean aurkitzen denez <ref type="bibr">(Akitaniatik Soriaraino, ikus Gorrotxategi 1994</ref><ref type="bibr">, 1995</ref><ref type="bibr" target="#b26">, 2009</ref> Bestaldetik, oso zabalera handia duten edo guztiz orokorrak diren beste mailegu batzuk Pirinioen hegoaldeko erromantzetik datoz. Adibide bat leku hitza da, gaskoieraz gertatu ez den diptongazio baten ondorioa erakusten baitu: locu &gt; luecu &gt; leku; konpara dezagun lueco, Donemiliagako glosetan (Menéndez Pidal 1968a: 3, 2. glosa) vs. gask lòc (dena den, beste hizkera galo-erromantze batzuetan, luoc ~ luec aurkitzen dugu).</p><p>Erromantzetiko maileguetatik argia ateratzeko, aipatu ditudan helburuetarako, beren datazioa ezinbestekoa da.</p><p>Hemen, kontrako norabidean ibiliko gara: gaztelaniak euskaratik hartu dituen maileguak eta beraien datazioa izango ditugu aztergai. Noizkoak dira euskaratiko maileguak gaztelanian? Zein neurritan erabil ditzakegu mailegu hauek gaztelaniaren eta euskararen arteko kontaktua datatzeko? Hauek dira hemen egin nahi ditudan galderak.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Euskaratiko hitzak gaztelanian</head><p>Gaztelaniak euskaratik hartu dituen mailegu batzuek oso egitura modernoa dute eta, gainera, zenbait praktika kultural jakinekin lotzen dira zuzenean. Gaztelaniaren euskaratiko mailegu gehienak, hala ere, zailagoak dira datatzeko. Horrelako mailegu asko -seguruak edo litezkeenak-hala nola chaparro, chatarra eta laya zaharrak izan daitezke, nahiz eta testu idatzietan ez agertu berandu arte.</p><p>Gauzak argiagoak dira maileguak soinu aldaketaren bat pairatu duenean. Kasu horietan, soinu aldaketa datatu dezakegun heinean, mailegua ere datatzeko gai izango gara. Adibide bat emateko, latinezko sinistra hitza, euskal mailegu batekin ordezkatu zen hizkuntza ibero-erromanikoetan eta Auñamendi-aldeko galo-erromanikoetan. Beharbada hemen bi mailegaketa-bide desberdin ditugu. Alde batetik, gaskoierak esquerr(e) jaso zuen eusk. ezker hitzetik eta handik hitza langedozierara eta katalanera (esquerre) hedatu zen. Ez dakigu noiz gertatu zen mailegaketa hau, baina ziur asko euskal artikulua garatu baino lehen (gai honetaz, ikus <ref type="bibr" target="#b16">Manterola 2015)</ref>. Beste aldetik, gaztelaniazko hitzaren bukaera esplikatzeko, errazena da suposatzea euskal jatorria ezkerdo adjektiboa dela, eta hortik izquierdo eta izquierda sortu direla (gaztelaniatik, hitza portugesera ere iragan zen, esquerdo, esquerda). Cantar de Mio Cid delakoan oraindik ere siniestra hitza eskua izendatzeko erabili arren («a la exida de Bivar ovieron la corneja diestra, e entrando a Burgos ovieron la siniestra»), pentsatu behar dugu mailegua zaharragoa dela, Corominasek iradokitzen duen bezala: «Es verosímil que el vocablo se extendiera desde una zona de lengua vasca en época visigótica» <ref type="bibr" target="#b6">(Corominas 1973</ref><ref type="bibr">, s.v., cf. baita Corominas &amp; Pascual 1991</ref><ref type="bibr">-1997</ref>. Hau pentsatzeko arrazoi bat da hitzak /ɛ/ ireki azentudunaren diptongazioa erakusten duela, Lumbier, Javier, Javierre (&lt; etxe berri), Javierregaray eta Artieda toponimoek bezala (ikus Menéndez Pidal 1968). Beraz, izquierdo hitza, euskal jatorriko toponimo hauek bezala, /ɛ/ &gt; / i̯ e/ aldakuntza zaharra gertatu baino lehen mailegatu zen erromantzean (diptongazio honen datazioaz, ikus <ref type="bibr">Lloyd 1987: 129-130)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Gazt. (Mi)echa</head><p>Gaztelania zaharrean, miecha deitura edo titulua aurkitzen dugu gizonezko izen propio baten aurretik, praenomen bezala: Miecha don Ordonio <ref type="bibr" target="#b18">(Menéndez Pidal 1951</ref><ref type="bibr" target="#b14">, Lapesa 1981</ref><ref type="bibr">: 51, Gorrotxategi 1984</ref>. Hitz hau azaltzeko, Menéndez Pidalek mi aita proposatu zuen, eta aita euskal hitza ikusi zuen, baita Chamartín bezalako toponimo batean (&lt; aita Martín) ere. /eʧa/ titulua ugaria da Donemiliagako Becerro Galicano izenarekin ezagutzen den testuan. <ref type="bibr">Petersonek (2013: 425-426)</ref> praenomen honen 57 adibide aurkitu ditu testu honetan, ortografia desberdinekin: eita, echa, egga, eigga, aita, hegga.</p><p>Forma ortografiko hauek guztiek errealitate fonologiko bakarra ordezkaten duten neurrian, euskal maileguak bi bilakaera jasan ditu gaztelaniaz: /ai̯ ta/ &gt; /ei̯ ta/ &gt; /eʧa/. Hau da, /ai̯ / diptongoa /ei̯ / bihurtu zen lehenago, eta hurbilkari sabaikariak ondoko herskari horzkaria palatalizatu zuen gero. Bi arau hauek ezagunak dira gaztelaniaren fonologia diakronikoan.</p><p>Bigarren arautik hasiz, hots, /i̯ t/ &gt; /ʧ/ ch, aldakuntza hau, gaztelaniazko testuak baino zaharragoa bada ere, gaztelaniaren bilakaera berezi bat da, alboko erromantzeetan gertatzen ez dena, cf. multu &gt; gazt. mucho vs port muito, lacte &gt; gazt leche vs port leite, cat llet; directu &gt; gazt d(e)recho, port direito, arag dreito, cat dret, etab. (Antzeko bustidurak, hala ere, Galiako hegoaldeko eta Italiako iparraldeko hizkera batzuetan ere aurkitzen ditugu; ikus, adib., <ref type="bibr" target="#b26">Wireback 2009</ref>). Adibide hauek erakusten</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>EBZaren hedapena baino lehenago, familia bereko hizkerak erabiltzen ziren gaurko Euskal Herrian eta inguruan, baina Iruñean sortutako berrikuntzak eta aldaerak zabaldu ziren familia bereko hizkera guztierara, batasunera iritsi arte. Inter</head><label></label><figDesc>pretazio honetan, paralelismo bat gaztelaniaren zabalkuntza lateralean izango genuke. Gaur egun, Salamancan, Logroñon, Tuteran eta Zaragozan gaztelaniaz hitz egiten bada ere, lehenagoko garai batean gaztelania Burgos eta inguruko hizkera zen soilik. Aipatutako hirietan, gaztelania ez ziren beste hizkera erromantze batzuk hitz egiten ziren. Denboraren poderioz eta, antza denez, Gaztelako hizkerak zuen prestigioarengatik, hizkera horiek gaztelaniatuz joan ziren, (ia) beren ezaugarri berezi guztiak galdu arte (ikus<ref type="bibr" target="#b22">Neira 1982)</ref>.Lakarrarentzat (2014: 215), EBZaren sorlekua Iruña baino iparralderago kokatu behar da. Ikerlari honek ez du argitzen hedapen prozesua zein zen. Beste nonbait esan dudan bezala<ref type="bibr" target="#b10">(Hualde 2015</ref>(Hualde  , 2016, EBZa geografikoki kokatzerakoan euskarak eta gaskoierak zenbait bilakaeratan erakusten duten bat-etortze harrigarria (ikus Allières 1992) kontuan hartu behar da nola edo hala. Bilakaera fonologiko zahar amankomun batzuk aipatzeko, /n/-a galtzen da bi bokalen artean bi hizkuntzetan lūna &gt; gask lua /lyo/, anate &gt; eusk ahate). Aipagarriena, beharbada, latinaren bokalen arteko /p t k/ kontsonanteak ahostundu gabe mantentzea da. Bokal arteko kontsonanteen ahostuntzea mendebaldeko eta ekialdeko hizkuntza erromanikoak bereizteko erabili bada ere (adib. vīta &gt; gazt, port &amp; cat vida, fr vie vs ital vita), muga La Spezia-Rimini isoglosa ospetsua delarik, Auñamendiko erromantzean irla gordetzailea dugu (gasc bita), isoglosaren esanguratsutasuna zalantzan jartzen duena.EBZaren sorterria zehazteko mailegu zaharrek informazio garrantzitsua eman diezagukete. Abaituak(2017), hain zuzen, gaskoieratiko maileguen garrantzia erabiltzen du EBZa Pirinioen iparraldera sortu zela defendatzeko. Gaurko euskararen ama zen EBZaren Urheimat edo sorlekuari buruz argibidea izan dezakegu, neurri batean, erromantzetiko maileguen artean, gaztelaniatik, nafararagoieratik eta gaskoieratik datozenak bereiziz eta, ahal den neurrian, datatuz. Erdi Aroko mailegu batzuk gaztelania ez den hizkuntza ibero-erromantze batetik omen datoz. Haien artean, adibidez, teila eta ispilu izango genituzke. Euskal hitz hauek beharbada Nafarroako edo Errioxako erromantzetik etorriko lirateke (Donemiliagako glosetan, enospillu 'ispiluan' aurkitzen dugu, konparazione, Menéndez Pidal 1968a: 8, 113. glosa). Gaztelaniaz, alboko erromantzeetan ez bezala, teja espejo, ojo, etab. ditugunez, hipotesiak arrazoizko dirudi. Hala ere, ezin dugu baztertu gaztelania ere /ʎ/ etapatik iragan zela lehen testuak baino lehen: tegula &gt; *teg'la &gt; teʎa &gt; gazt.zah. teja [teʒa]. Hau da, iturria Gaztelako erromantzea ere izan daiteke, hitzok mailegatu baziren gaztelania preliterarioan, hizkuntza honetan /ʎ/ &gt; /ʒ/ pausua gertatu baino lehen.Beste mailegu batzuen kasuan argiago dago iturria gaskoiera dela, eta ez gaztelania edo beste hizkera ibero-erromaniar bat. Haien artean, eme &lt; gask hemna eta eztei &lt; gask hestejar izango genituzke, agian (ikusManterola 2016, Lakarra et al. 2018).</figDesc><table><row><cell>, ondorioztatu behar dugu EBZak ahaide hurbilak izan zituela. Ahaide hauek suntsitu ziren, beharbada batzuk EBZaren hedapenaren ondorioz, eta garai historikora heldu den euskal hizkuntza bakarra EBZ izenarekin ezagutzen duguna da. Hau da, ezagu-tzen ditugun euskal hizkera historiko guztiak EBZaren dialektoak dira. Konparake-tarako, gure egunetara iritsi den hizkuntza italiko bakarra latina da (edo latinaren dialektoak: italiera, frantsesa, gaztelania, etab.). Latinaren ahaide hurbilak, beste hiz-kuntza italikoak (hala nola faliskoa, unbroa eta oskoa), desagertu ziren; latinak ordez-katu zituen. Latinaren kasuan, Erromako hizkeraren hedapen geografikoa gertaera historiko ezagun batekin lot dezakegu: Erromako Inperioarekin, hain zuzen. EBZaren zabal-kuntza, aldiz, ez da hain erraz esplikatzen ezagutzen ditugun gertaera historikoen bidez. Hau, bide batez esanda, ez da batere bitxia edo harrigarria. Badira, adibidez, arrazoi linguistiko sendoak pentsatzeko errumaniera ez zela garatu gaurko Erruma-nian, baizik eta mendebalderago edo hegoalderago sortu zela; baina ez dakigu noiz edo nola hedatu zen Daciara. Era berean, ez dakigu ziurtasunez noiz etorri ziren lehen magyar edo hungarieradunak gaurko Hungaria eta Transilvaniara. Ebidentzia historikoa ahula da kasu hauetan guztietan. Zuazok (2010) EBZaren hedapena Nafarroako Erresumarekin lotzen du. Hasiera batean, EBZa Iruñerriko hizkera izango litzateke. Zuazoren ikuspegian, ondo uler-tzen badut,</cell></row></table><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 345-351 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20207(</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>Talde honetan sartzen dira, adibidez, órdago (xix. mendean kokatua Corominasen hiztegi etimologikoan) eta aquelarre (xvii. mendeko testigantzekin gaztelaniazko testuetan, ikus Lakarra et al. 2018, s.v. akelarre).</figDesc><table /><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 345-351 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20207</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">Bide batez, euskaraz kerexa bezalako mendebaldeko mailegu bat metatesia baino berriagoa da (&lt; *cereisa), eta gerezia (&lt; ceresia), aldiz, zaharragoa.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Badirudi eusk /ai̯ ta/ &gt; gazt /eʧa/ azaltzeko, ondorioztatu behar dugula gaztelaniak aita hitza taulan erakutsitako lehen eta bigarren aldaketa fonologikoen artean mailegatu zuela euskaratik, gaztelaniaz /hai̯ tu/ eta /lai̯ te/ esaten zen garaian, gaztelaniazko lehen testuak baino askoz lehenago. Beraz, mailegu honek ere erakutsiko liguke bisigodoen garaian euskara eta erromantzea kontaktuan zeudela mendebaldean, Corominasek izquierda hitzari buruz esaten duena nolabait baieztatuz.</p><p>Beste aukera bat izango litzateke palatalizazioa sorburu hizkuntzari egoztea. Hau da, pentsatzea maileguaren iturria ez dela aita baizik eta aitta forma palatalizatua,</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20207</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20207" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Kodako kontsonante baten bokalizazioak sortutako diptongoez gain, /ai̯ / &gt; /ei̯ / aldakuntza metatesiz eragindako diptongoei ere aplikatzen zaie gaztelaniaz, adib. area &gt; *ari̯ a &gt; *ai̯ ra &gt; ei̯ ra &gt; era edo primāriu &gt; *primai̯ ro &gt; primei̯ ro &gt; primero (cf. Donemiliagakoetan, terzero). 1 Bilakaera bera dugu vaica jatorri ezezaguneko mailegu zaharrean ere: vaica &gt; veiga &gt; vega eta</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Duten Moduan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Palatalizazioa Eragiten Duen Irristaria Kontsonante Baten Bokalizazioaren Ondorioa Da; Gehienetan /K/ Kontsonante Baten Ondorioa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bezalako Taldeetan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bokalizazio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hau Orokorra Da Mendebaldeko Erromantzeetan Eta</surname></persName>
+		</author>
+		<idno>iv. mendekoa (Straka 1979: 239</idno>
+		<ptr target="Beraz,/ai̯ta/&gt;/eʧa/dugunez,ondorioztatubehardugueuskalhitzamailegatuzelagaztela-niaz/kt/&gt;/i̯t/gertatubainoberanduagoeta/i̯t/&gt;/ʧ/bainolehenago./ai̯/&gt;/ei̯/asimilazio" />
+		<imprint>
+			<date type="published" when="1964" />
+			<biblScope unit="page" from="75" to="76" />
+			<pubPlace>Menéndez Pidal</pubPlace>
+		</imprint>
+	</monogr>
+	<note>bokalikoari dagokionez, aldakuntza honek palatalizazioak baino eremu geografiko zabalagoa du, orokorra baita Hispaniako iparraldeko hizkuntza ibero-erromanikoetan (baina ez mozarabe izenarekin ezagutzen ditugun Hispaniako hegoaldeko hizkeretan, cf. Menéndez Pidal. testuinguru fonologiko berean, laicu &gt; lego. ikus, orobat, cantāvi &gt; cantai &gt; cantei &gt; canté (cf., dena den. Recasens 2016 beste interpretazio baterako</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">&gt; cantades &gt; cantais (edo vagīna &gt; vaína &gt; vaina, ez **veina)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aldiz</forename></persName>
+		</author>
+		<idno>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2</idno>
+		<ptr target="/ai̯/diptongoberriagoakezdira/ei̯/bihurtzen,cf.cantātis" />
+	</analytic>
+	<monogr>
+		<title level="m">/ bilakaera Galiziaraino hedatu zenez, pentsatu behar dugu, beharbada, bisigodoen garaian gertatu zela. Laburbiduz, hurrengo bilakaerak ditugu gaztelaniaz</title>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="345" to="351" />
+		</imprint>
+	</monogr>
+	<note>Honek ere balio digu mailegua datatzeko</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20207</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20207" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Menéndez Pidalen (1964: 282) ustez, eita izango litzateke hitz honen jatorriko forma euskara zaharrean (edo iberieraz), eta aita, aldiz, euskara modernoa. Ez dirudi hau zuzena denik. Zer ikasi dugu ariketa honetatik? Hauxe, behintzat: (mi)echa hitzaren historia errazago ulertzen dela Araban, Bizkaian edo-ta Errioxan, bisigodoen garaian edo, euskara hitz egiten zela pentsaturik, x. mendeko Nafarroako Erresumaren garapena baino lehen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Horrela Balitz Ere</surname></persName>
+		</author>
+		<ptr target="Bestehorrenbesteesandaitekeizquierdohitzarenhistoriaz.Aipamenbibliografikoak" />
+		<imprint/>
+	</monogr>
+	<note>Hirugarren aukera bat Menéndez Pidalek iradokitzen duena da</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">«La historia interna de la vasconización tardía: préstamos y neologismos». E. Ramos &amp; A. Ros (arg.), Onomastika, hizkuntza eta historia: Ricardo Cierbideren omenezko estudioak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Abaitua</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bilbo: Onomastika Elkartea</title>
+		<imprint>
+			<biblScope unit="page" from="293" to="314" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Breve diccionario etimológico de la lengua castellana, 3. arg. Madril: Gredos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Corominas</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">J A</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+			<publisher>Madril: Gredos</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Estudio sobre la onomástica indígena de Aquitania. Bilbo: UPV/ EHU. -, 1995, «The Basque language and its neighbours in antiquity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Gorrotxategi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Towards a history of the Basque language. Amsterdam: Benjamins</title>
+		<editor>J. I. Hualde, J. A. Lakarra &amp; R. L. Trask</editor>
+		<imprint>
+			<date type="published" when="1984" />
+			<biblScope unit="page" from="31" to="64" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+				<title level="m">Vasco antiguo: Algunas cuestiones de geografía e historia lingü ísticas», Palaeohispanica 9</title>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="page" from="539" to="555" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">«Dialektologia dinamikoa». In I. Epelde (arg.) Euskal hizkerak eta dialektoak gaur egun. Lapurdum-en ale bereziak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Hualde</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="125" to="153" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Microparameters in the grammar of Basque</title>
+	</analytic>
+	<monogr>
+		<title level="j">Amsterdam: Benjamins</title>
+		<editor>B. Fernández &amp; J. Ortiz de Urbina</editor>
+		<imprint>
+			<biblScope unit="page" from="15" to="35" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note>On Basque dialects</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Gogoetak euskal dialektologia diakronikoaz: Euskara batu zaharra berreraiki beharraz eta haren banaketaren ikerketaz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Euskal dialektologia: Lehena eta oraina. Bilbo: UPV/EHU</title>
+		<editor>I. Epelde</editor>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="155" to="241" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Euskal Hiztegi Historiko-Etimologikoa. Bilbo: Euskaltzaindia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Manterola</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp; I</forename><surname>Segurola</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Historia de la lengua española, 9</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Lapesa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Madril: Gredos</title>
+		<imprint>
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">From Latin to Spanish</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Lloyd</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<publisher>American Philosophical Society</publisher>
+			<pubPlace>Philadelphia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Euskararen morfologiaren historiarako: artikuluak eta erakusleak. Doktoretza tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Manterola</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<publisher>UPV/EHU</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+				<title level="m">Ekialdeko erromantzeetako hitzak euskaraz», Xarles Videgain-i Gorazarre (= Lapurdum XIX</title>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="405" to="417" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Menéndez Pidal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>; «chamartín</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Menéndez Pidal</title>
+		<imprint>
+			<date type="published" when="1951" />
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="221" to="231" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Orígenes del español: Estado lingüístico de la Península Ibérica hasta el siglo XI, 6. arg. Madril: Espasa-Calpe</title>
+		<imprint>
+			<date type="published" when="1968" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20207</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20207" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Lengua común y dialectos vascos</title>
+		<imprint>
+			<date type="published" when="1981" />
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="23" to="33" />
+		</imprint>
+	</monogr>
+	<note>Gasteiz: UPV/EHU. Fonética histórica vasca, 3. arg. Donostia: ASJUren argitalpenak</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">«La desaparición del romance navarro y el proceso de castellanización»</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Neira</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1982" />
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="267" to="280" />
+			<pubPlace>Revista Española de Lingüística</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">«Basque in the Becerro. Basque names and language in the Becerro Galicano de San Millán</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Peterson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Koldo Mitxelena Katedraren III. Biltzarra. Gasteiz: UPV/EHU</title>
+		<editor>R. Gómez, J. Gorrochategui, J. A. Lakarra &amp; C. Mounole</editor>
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Recasens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Stressed vowel assimilation to palatal consonants in early Romance»</title>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="201" to="246" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Les sons et les mots</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Straka</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1979" />
+			<pubPlace>Paris: Klincksieck</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">On palatalization and the origin of yod in Western Romance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Wireback</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Romance Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="55" to="67" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">El euskera y sus dialectos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Zuazo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>Alberdania</publisher>
+			<pubPlace>Irun</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

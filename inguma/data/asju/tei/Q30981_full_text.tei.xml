@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bernardo Atxagaren testuetara hurbilpen bat Harrera-Teoriaren eskutik AITZPEA AZKORBEBEITIA</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">H U</forename></persName>
+						</author>
+						<title level="a" type="main">Bernardo Atxagaren testuetara hurbilpen bat Harrera-Teoriaren eskutik AITZPEA AZKORBEBEITIA</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>It could be said that, nowadays, one ofthe main characteristics ofBernardo Atxaga's work is probably its wide reception, as it is shown by the fact that it is considered to be a {sociological phenomenon'. Although some of the agents causing that reception are to some extent extratextual and dependent on sociological factors, in this article we will consider the intrinsic aspects ofthe texts, trying to examine what the texts themselves have to offer us, the readers. Using the research methods proposed by the Reception Theory, we will analyse the role textual strategies play in the phenomenological and intratextual side of such reception. For this we will pay special attention to indeterminacy and the so-called information gaps or blanks (Leerstellen), among those strategies. In fact, such aspects are really relevant as they throw some light on either the reading or the writing process and on certain ideas ofthe author on which this process is founded, as we will see.</p><p>AITZPEA AZKORBEBEITIA Esan liteke testuok jaso egin dutela J. M. Lasagabasterrek arestian plazaratutako gomendioa:</p><p>Esta socializaci6n del fen6meno de la lectura de literatura euskerica, para ser cabal, debe superar incluso 10s l{mites de la lengua, es decir, pasar por la prueba de la traducci6n y salir, claro, airosa de ella. (...) Pensar que la literatura euskerica es una literatura hecha s6lo para un lector euskaldun es una limitaci6n y a 10 mejor una excusa. (...) Hay que hacer literatura en esa direcci6n: hacer una literatura, una buena literatura, que sea capaz de funcionar literariamente sin el apoyo -y sin la coartada-del euskera (1990: 92).</p><p>Hartara, eta B. Atxagaren lanaren ezaugarri nagusienetarikoa harrera zabal hori dela aintzat harturik, egoki deritzot beraren testuetara prezeski harrera fenomenoaz arduratzen den literatur teoriaren eskutik hurbiltzeari. Edozein testuren harrera -baita Atxagaren testuen kasuan ere-literaturaz landako arrazoiek baldintzarua suertatzen dela egia bada ere, ezin uka daiteke, bestalde, testuak berak harrera hori motibatu duen 'zerbait' eduki badaukala, hots, harreraren funtsa testuaren beraren baitan aurkitzen dela hein handi baten. 'Zerbaie horretara, harreraren alderdi endotestual eta fenomenologikora zuzenduko da gure soa honako lan honetan, horrexegatik eta horretarako 'Harrera-Teoria' delakoaren ikuspuntua hartuz gidaritzat. 2 Gure aztergaiari dagokionez, azpimarra dezadan testuen aukeraketa interes berberaren fruitu izan dela. Honela, B. Atxagaren prosa lanetara mugatuko da gure arreta, lan horien artean harrera zabalena izan duten testuak (Bi anai, Obabakoak, Behi euskalduri baten memoriak, Gizona bere bakardadean eta Zeru horiek) izango ditugularik hizpide. Azterketaren eremua aipaturiko euskal testuok osatzen badute ere, aberasgarri eta garrantzitsu eritzi diogu gaztelerazko testuak ere kontuan hartzeari. Obabakoak-en kasuan, esaterako, itzulpena baino gehiago berridazketa izan zen lan latz 3 haren emaitza testu berri bat da -zenbait pasartetan bederen-eta gauza bera esan liteke Bi anai-z ere (ikus Atxagaren beraren adierazpena in Redondo 1996: 21).</p><p>Lan berriagoetan euskal eta erdal testuaren artean horrelako jauzirik gertatzen ez den arren, egon badauden ezberdintasunak zinez esanguratsuak dira eta, hortaz, erkaketak zentzua dauka lan hauei begira ere.</p><p>Azterketa honen esparrua zedarriztaturik, lot gakizkion esparru horretan barrena makulu izango dugun teoriaren nondik norakoak azaltzeari.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Azterketaren esparruaz hitz bi: 1</head><p>Egun Bernardo Atxagari buruz hitz egitea euskal literaturaren figura garranrzitsuenetariko batez hitz egitea da ezbairik gabe. Pott Bandaren magalean jaiorako bere lanak -nahiz ez soilik bereak-euskal literarurari emandako bultzada zio nahikoa geneukake Asreasuko idazleari gure literaturan ohorezko kokapen hori onarrzeko. Baina ez, haatik, zio bakarra. Idazleak jasotako hainbat sarik bermatu baino ez dute egiten onartutako garrantzi horren beste oinarria: bere testuek izandako harrera zabala, eta, izan ere, hainbar herrialdetan. Kasu honetan itzulpenek restuen zabalkunderako bere beharreko prozeduraren zentzua gainditzen dute testuei beraiei buruz hitz egiteko, euren itzulgarritasuna euren balioaren adierazle bihurtuz.</p><p>(1) 1996.eko abenduan idatzitako lan honek Andolin Eguzkitza eta Jon Kortazarren zuzendaritzapean eta Eusko ]aurlaritzaren Hezkuntza Saileko ikerketarako beka baten laguntzaz aurrera eramaten ari naizen ikerketa zabalago bat (doktorego-tesia izango dena) dauka, hein handi baten, iturburu. Bestalde, eskerrak eman nahi dizkiet lfiaki Aldekoari, Bernardo Atxagari, lfiaki Caminori, Gerardo Markuletari, Mari Jose Olaziregiri, Mario <ref type="bibr">Saalbach-i</ref>  testuek) izandako harrera aipatutako bi alderdietan (alegia, soziologikoan eta fenomenologikoan) sakonki aztertzen du bere tesi-lanean (1996b), alderdi soziologikoaren azterketa hainbat ikastetxetan egindako inkestetan oinarrituz <ref type="bibr">(ik. 1993 eta 1996a)</ref>.</p><p>(3) uy0 la traduccion de Obabakoak la recuerdo como una de las peores experiencias de mi vida" (Atxagaren hitzak <ref type="bibr">in Fajardo 1994: 49)</ref>.</p><p>(4) Konsrantzako Eskolaren barruan bi eredu teoriko horiek bereizten dituzten lanen alboan (ikus, radigma aldaketa pisuzkoa ekarri duen eskola honek H. R. Jaussek 1967an Konstantzako Unibertsitatearen inauguraziorako emandako hitzaldian dauka bere hatsarrea. Ezaguna denez, «Literatur historia, literatur kritikaren probokazio gisa» S izenburua zuen hitzaldi haren eta, ora har, eskola honen aldarrikapen nagusia irakurleak literatur fenomenoan jokaturiko paper funtsezkoa onartu eta azpimarratzean datza.</p><p>Aldarrikapen honek berebiziko arrakasta izan zuen une hartan, ezin hobe erantzuten baitzien orduko giro eta arazoei, bii ikasleen erreboltaren muinean zegoen irakaskuntza-sistimarekiko hasarreari, bai indarrean zeuden literatur teorien metodoek ernarazitako ondoezari ere. Gogora dezagun azterketa autorearengan edo testuan zentratzen zuten metodo psikologiko eta inmanentistak zirela nagusi. Bada, une honetan azterbide hauek ez dira egokitzat joko ahaztu egiten dutelako literatur lana ez dela ezer autorearengandik banatzen ez den arte. Ahaztu egiten dute, azken finean, literatur testu bat zerbait bada, irakurle batek eskuartean hartzen duelako dela eta bere zentzua irakurleak irakurtzen duenean jasotzen duela. Luis A. Acostaren hitzetan, "el texto cobra vida s610 en el momento en que es leido <ref type="bibr">" (1989: 163)</ref>. Bestela esanda, literatur fenomenoa ezin da idazlearen lanarekiko edota honek idatzitako testuarekiko lotura soilean ulertu (ez eta aztertu ere), literatur prozesua ez delako testuaren idazketan bukatzen, hasten baizik. Bukatu, irakurleak testua irakurtzean bukatuko da. Harago joanda, literatur obra -ez testua-irakurketa honen emaitza da (irakurleak berak sortua, beraz) eta literatur fenomenoak ekintza honetan du bere funtsa. <ref type="bibr">6</ref> Harrera-Teoriaren oinarrian dagoen planteamendu honek azken buruan irauli egiten du ordurarteko kritikaren jarrera sustantzialista edo esentzialista, dogmatismo estetikoa ukatuz: aurreko hainbat kritikarik defendatutakoaren kontra, teoria berri honek ukatu egiten du testuan egia bat -irakurleak aurkitu egin behar duena-, sustantzia edota esentzia bat dagoenik, ukatu egiten du testuak esanahi objektibo, aldaezin eta iraunkor bat eta bakarra daukanik. Testuaren esanahia irakurleak finkatzen du irakurketa-ekintzan bertan, ezberdina izango delarik, hortaz, irakurleen -irakurketen-arabera, finean potentzialki anitza. Baina ez bedi planteamendu hau subjektibismoaren onarpentzat jo, ez bedi uler irakurketa arbitrarioak zilegi direnik: irakurleak testutik eratorritako esanahia testuak bermatua izan behar du, bere irakurketa edonola barik testuan apailaturiko egituren gaine~n burutuz. Irakurketa, honela, testuak gidatua da bere barnean dauzkan preorientazioen eta aktualizaziorako baldintzen bidez. W. Iser-ek dioenez -eta bere hitzok teoria honi buruz orain besteak beste, <ref type="bibr">Gnutzmann 1994)</ref>, egon badaude banakerari hain argia iritzi ez eta oro har 'Harrera-Teoria'z mintzatzea nahiago dutenak ere <ref type="bibr" target="#b57">(Saalbach 1995)</ref>.</p><p>(5) H. R. <ref type="bibr">Jauss, Literaturgeschichte als Provokation der Literaturwissenschaft, Constanza, 1967</ref>. Hitzaldiaren muina Jauss 1971 lanean jasoa dago; geroago lana bere osotasunean liburu moduan argitaratu zen Gauss 1976).</p><p>(6) Joseba Sarrionandiak bere lanaz gaztigatzen diguna gogora genezake planteamendu horren agerpide eta argibide legez: "Ez uste izan ene izkribuetan, zeuk zerbait utzi gabe, ezer aurkituko duzunik. Nik buztinezko untzi bat ematen dizut, zeu zara bete behar duzuna" <ref type="bibr">(1985: 19).</ref> arte esan dugunaren laburpen ezin hobea dira-, "el lector ha avanzado a ser la 'referencia sistematica' de aquellos textos que eobran su pleno sentido solo en 10s proeesos de reelaboraeion que ellos mismos han ocasionado" <ref type="bibr">(1987: 64)</ref>.</p><p>Hasieratik teoria honen aldarrikapen nagusitzat aurkeztu dugun irakurlea sistematikoki aintzat hartze hori literatur kritikaren norabide-aldaketa esangurarsua da, hain zuzen 'sistematiko' horregatik. Hau da, aurretiaz ere egon badaude irakurlearenganako interesa erakutsi duten autoreak, hala idazleen artean, nola kritikarien artean (Cervantes, Sterne, V. Hehn, W. Empson, L. M. <ref type="bibr">Rosenblatt, etab.;</ref><ref type="bibr">ik. Acosta 1989</ref><ref type="bibr">: 23, Gnutzmann 1994</ref>. Interes hori ez da, beraz, berria, ez eta Alemaniako eskola honen abarora mugatua ere. Gogora ditzagun, adibidez, ildo bereko U. Eeoren lanak (Lector in fabula, Opera aperta eta Les limites de Pinterpretation, besteak beste) eta "Reader Response Criticism" delako korronte kritikoaren barman jaiotakoak.</p><p>Bestalde, oso kontuan hartzekoa da, baita ere, aurreko literatur kritika nahiz filosofia-mugimendu zenbaiten ekarpena, euren lanak Harrera-Estetika eta Teoriaren agerpenerako hazi egokia erein baitzuen, bai ikuspegiari dagokionez, bai teorizazioaren euskarri diren kontzeptuei dagokienez ere. Honela, Konstantzako Eskolaren baitan hazitako mugimendu honek H. <ref type="bibr">Gadamer-en</ref>   <ref type="bibr">Fish-ek, kasu)</ref> bestelako eremuetan (soziologiaren eremuan lehenengoak, psikologiarenean bigarrenak eta estilistikarenean azken biek) jorratutako bideak. Beraien eskutik heldu zen obraren objektibitatearen edota zentzu aldaezinaren ukapena (Mukarovsky-ren hitzetan, "ante todo hay que subrayar que la obra de arte no eonstituye en modo alguno una magnitud invariable")7 eta beraien eskutik, baita ere, funtsezkoak diren hainbat kontzeptu, hala nola 'horizontea' eta 'aurriritziak' (Gadamer-ekin jaiotako kontzeptuak), 'indeterminazioa' eta 'konkretizazioa' <ref type="bibr">etab. 8</ref> Gorago aipaturiko aldarrikapen nagusi haren gainean bestelako zehaztapen bat ere egin beharrean gaude: irakurlearenganako interesa aldarrikatzeak ez dakar berarekin fenomeno literarioaren beste ardatzak (idazlea, testuingurua nahiz testua) alboratzea. Izan ere, aztertzailearen arreta irakurlearengana ere zuzentzearen aldeko apustua azken buruan metodologia-aniztasunaren aldeko apustua da ezer baino gehiago, testuan zein gainontzeko ardatzetan soilik zentratzen diren metodoak harreraren ikuspegiarekin ezkonduz. Interesen ezkontza horren emaitzez, bakarrik tes-(7) <ref type="bibr">Vodicka-k jasotako aipua (1989: 66)</ref>. Bertan irakur ditzakegu, baita ere, Mukarovsky-ren ondoko berba ezin esanguratsuagoak: "Bajo la impresi6n de estos cambios [en el tiempo, en el espacio y en el medio social] se trans/orma el objeto estetico (. .. ). Una obra determinada, aunque haya sido valorada de modo igualmente positivo en dos perfodos de tiempo alejados, es cada vez un objeto estetico diferente y, por 10 tanto, en sentido estricto, otra obra. Es natural que en estos desplazamientos del objeto estetico, cambie con frecuencia el valor estetico." (Letra etzana nik jarria da).</p><p>(8) H. R. Jauss-ek esplizituki aipatzen ditu bere aitzindariak 1992ko lanaren sarreran, zehazki 21-23. orrialdeetan. Kritika-korronte honen iturriez ikus, oro har, <ref type="bibr" target="#b0">Acosta 1989</ref><ref type="bibr">: 29-113 eta Gnutzmann 1994</ref> tua aztertu beharrean, testuaren eta irakurlearen arteko erlazio dialogikoa aztertzea bihurtzen da interesgarri, azterketa honek ezinbestean inplikatzen duelarik komunikazio-erlazio horren beste elementuak gogoan izatea (zehazki, komunikazio hori bultzatu duen igorlea eta baldintzatu duen testuingurua).</p><p>Testuaren eta irakurlearen arteko erlazio dialogiko hori diakronikoki nahiz sinkronikoki azter daiteke, testu batek garai ezberdinetan izandako harrera ikertuz ala harrera jakin bat baldintza dezaketen testuaren barneko aspektuak miatuz. <ref type="bibr">9</ref> Funtsean aukera honetan datza, prezeski, Konstantzako Eskolaren barruan arestian bereizten genituen bi eredu teorikoen arteko ezberdintasuna. Dakusagun bakoitzak zertan diharduen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Jauss eta Harrera-Estetika</head><p>Lehenengo azterbidea -historiografikoa-Hans Robert Jauss-ek ireki eta bultzatu zuen harreraren azterketan oinarritutako Literaturaren Historia egin behar delako iritzia abiapuntutzat hartuz 10 eta horrelako azterketa baten (finean Harrera-Estetikaren) oinarriak zazpi tesiren bidez finkatuz <ref type="bibr">(ik. 1971: 70-114)</ref>. Oinarri hauen artean berebiziko garrantzia dauka irakurlearen 'igurikimen' (expectativa, expectative) multzoak edota 'igurikimen-horizontea'k harreraren giltzarri bezala eta, areago, obraren balioa ezartzeko irizpide bezala. Labur esanez, testua irakurlegoaren igurikimenekin bat ez datorrenean 'distantzia estetiko' bat gertatzen da; ordea, testuak irakurlegoaren igurikimen-horizonteari bete-betean erantzuten dionean, arte errekreatzaile edo 'kulinario'aren erakusle hutsa besterik ez cia. II Aurreneko kasuan, lehen unean testuak irakurlegoaren igurikimen-horizontea apurtzen badu ere, denborarekin irakurlegoak testuak eskatutako horizonte berri hori asimilatuko du eta bere egingo.</p><p>Honek honela dirau beste testu batek berria barik jada familiarra den igurikimenhorizonte honekin berriro apurtu arte. (Planteamendu hau errusiar formalistek 'automatizazio' eta 'desautomatizazio' ideietan oinarrituz literaturaren bilakaeraz emandako azalpenarekin bat datorrela irudi lekigukeen arren, egon badaude ezberdintasunak, tamalez oraingo honetan azterrezinak. <ref type="bibr">Ikus honetaz J auss 1971</ref><ref type="bibr">: 92-97 eta Acosta 1989</ref>.</p><p>(9) 'Harrera' berba ez darabilt (ez beti behintzat, goiko horretan legez) zentzu kuantitatiboan, kualitatiboan baizik. Bestela esanda, testu batek izandako harreraz ari naizenean, ez naiz ari -ez bakarrik, bederen-testu horrek izandako abegi eta arrakastaz, izandako irakurketaz baizik: nola izan den 'hartua', nola gauzatu eta irakurri duen dela irakurle batek, dela beste idazle batek (eta kasu honetan, irakurritakoa nola irris~atu den bere lanera, etab.). L. A. Acostak eskainitako definizioak ere zentzu biak jasotzen ditu: "el fenomeno de la recepci6n podria (. .. ) ser definido coma el conocimiento, acogida, adopcion, incorporacion, apropiaci6n 0 crftica del hecho literario en cuanto operaciones realizadas por el lector, 0 como la adaptacion, asimilacion 0 incorporacion de una obra en tanto que actividades llevadas a cabo par arra escritor" (1989: 13).</p><p>(10) Iritzi hori Jauss-engan ez ezik, beste hainbat autorerengan ere ediren ahal dugu, besteak beste H. <ref type="bibr">Weinrich-engan (1971)</ref> eta F. <ref type="bibr">Vodicka-rengan (1989)</ref>.</p><p>(11) "Dentro del sistema de la estetica recepcional, la distancia entre las expectaciones y la obra, entre las experiencias esteticas ya conocidas y 'la modificacion del horizonte', que exige la recepcion de un nuevo libro, determina su valor artistico. En cuanto disminuye esta distancia y no se produce ninguna adaptacion de la conciencia a experiencias hasta entonces desconocidas, la obra pertenece a la esfera del arte recreativo 0 «culinario»" (1971: 77-78).</p><p>Alabaina, Jauss-en planteamendu honek kritika franko jaso izan ditu, batetik testuaren balio estetikoa testuak irakurlegoaren igurikimen-horizontea apurtzeko daukan gaitasunaren fruitutzat jo izanagatik 12 eta, bestetik, igurikimen-horizontea azken batean literatura-ezagutzarekin -eta bakarrik honekin-lotu izanagatik <ref type="bibr">(ik. ora har vii. tesia, 1971: 74-77)</ref>, ondorioz harreraren gainontzeko baldintzak alboratuz <ref type="bibr">(baldintza historikoak, soziologikoak, psikologikoak, etab.)</ref>.l3 (Kritikak direla eta ikus <ref type="bibr" target="#b68">Zimmermann 1987</ref><ref type="bibr" target="#b57">, Saalbach 1995</ref><ref type="bibr">: 77-81 eta, baita ere, Jauss-en erantzunaren laburpena in Acosta 1989</ref>.</p><p>Dena den, lan honetan ez gatzaizkio Jauss-ek irekitako ildo horri lotuko, 'Harrera-Teoria' izenaz ezagutzen denari baizik, beraren kontzeptu funtsezkoenak gure eginez Atxagaren testuetan barreneratzeko orduan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Harrera-Teoriaren oinarrizko kontzeptuak:</head><p>Iser-en 'irakurle inplizitua' eta 'informazio-hutsuneak', Ingarden-en 'indeterminazio-guneak' abiapuntutzat hartuz Bereziki W ofgang Iser-ek jorraturiko ildo hau fenomenologiaren eta semiologiaren esparruetan barneratzen da. Azterbide honek irakurleok irakurtzerakoan aktualizatzen ditugun testuaren barneko zeinuak ikertzea du jomuga eta irakurketa ekintza bat delako onarpena abiapuntu, 'aktualizazio) zein 'gauzatze' hitzek iradokitzen dutenez eta Iser-en lan ezagunenaren izenburuak berak aditzera ematen duenez (Der Akt des Lesens, alegia, irakurketa-ekintza). Irakurketa ekintza gisa ulertzen da ulertzen delako prozesu horretan bertan eta irakurleak berak sortzen duela testuaren esanahia, honela testua obra bihurtuz. Alegia, beti ere paper aktiboa jokatzen duen irakurleak idazleak sortutako testua irakurtzearekin batera birsortu egiten du (hots, obra sortzen du). Honengatik guztiarengatik esan ohi cia irakurlea prozesu literarioaren muinean dagoela.</p><p>Nolanahi ere -eta gorago jasotako zehaztapen bati berriro eutsiz-birsortze hori ez da edonola burutzen, testuak barnean dauzkan bere aktualizaziorako eskaintzak gauzatuz baizik. Hain zuzen, testuaren eskaintza horien eta irakurlearen gauzatzearen arteko erlazio horretara -testuaren eta irakurlearen arteko interakziora-zuzentzen da aztertzailearen soa azterbide honetan.</p><p>Planteamendu honi hezurdura teorikoa emateko asmoz, Iser-ek 'irakurle inplizitua' kontzeptua formulatu zuen. Literatur teoriaren barruan irakurlearen irudiaren gainean kontzeptu asko proposatu izan dira azken hamarkadetan (horrenbeste non terminologia gehiegizkoa eta korapilatsua izatea kritikatu izan den sarri; ik. <ref type="bibr" target="#b29">Gnutzmann 1991</ref><ref type="bibr">: 101, Wilson 1981</ref>. Kontzeptu aniztasun honek ez gaitu, bestalde, balditu behar, literatur kritikan irakurlea berreskuratu izanaren emaitza logikoa baita. Honela, M. Riffaterre-ren 'artxirakurlea'rekin egingo dugu topo, S. Fish-en 'irakurle informatua'rekin, J. Culler-en 'irakurle konpetentea'rekin zein E.  Gaitasun harren garrantzia murrizturik agertzen da era esanguratsuan Jauss-en beranduagoko lanetan, batik bat Aesthetische Er/ahrung und literarische Hermeneutik deitu liburuan Gauss 1992). Ik. <ref type="bibr">Gnutzmann 1994: 223.</ref> (13) 'Horizonte' kontzeptuaz ikus geraago 2.4. azpiatala.</p><p>'irakurle intentzionala'rekin, R. Barthes-en 'irakurle sortzailea' eta enparatuak ahanzteke <ref type="bibr" target="#b56">(Riffaterre 1989</ref><ref type="bibr" target="#b24">, Fish 1970</ref><ref type="bibr" target="#b17">, Culler 1975</ref><ref type="bibr" target="#b67">, Wolff 1971</ref><ref type="bibr">ik. lser 1987</ref><ref type="bibr">: 55-64, Antezana 1983</ref><ref type="bibr">: 113-153, Gnutzmann 1994</ref><ref type="bibr">: 225, Wilson 1981</ref>.</p><p>Kontzeptuotatik urrundu egiten da lser-en 'irakurle inplizitua'. Izan ere, irakurle inplizitua ez da irakurle erreal bat (areago, ez' da irakurle bat), testuan txertaturiko egitura bat baizik: "el lector implfcito no posee una existencia real (. .. ), no esta anclado en un sustrato empfrico, sino se funda en la estructura del texto mismo H (lser 1987: 64). Kontzeptu honen formulazioa lser-en ondoko hausnarketaren fruitu da: onartzen badugu testuek irakurriak direnean eta irakurriak direlako jasotzen dutela euren zentzu eta izatea, onartu beharko dugu testuen idazketa irakurketa hori bultzatzera zuzentzen dela, hots, testuek beren zentzua aktualizatzera bideratuko gaituzten 'aktualizaziorako baldintzak' dauzkatela. Orduan, neurri baten bederen, testuak bere baitan jasotzen ditu aktualizazio potentzialak, bere baitan irakurlearen rol-a. lrakurlearen rol-a (edo, hobeto esanda, rol aukeren multzoa) jasotzen duen testu-egiturak irakurle inplizitua osatzen duo Baina, bestalde, testu-egiturak bere barnean txertaturik daukan rol hori (edota aktualizaziorako eskaintza multzo hori) soilik irakurleak aurrera eramandako ekintzan betetzen da. Horrexegatik irakurle inplizitua testu-egituraren eta egitura horren konplitzearen (hots, ekintza-egituraren) uztardurak osatzen duo Laburbilduz, "el concepto de lector impllcito (. .. ) se refiere al rol del lector factible en el texto, que consta de una estructura del texto y una estructura del acto H (lser 1987: 69).</p><p>Testua gauzatzerakoan irakurleok irakurle inplizitua den "forma concava" hori bete edo okupatu egiten dugu (lser 1987: 64 eta 69),14 gehienetan testu-egituraren osagai batzuk ala besteak akrualizatuz (lser-ek berak ere badio: "el rol de lector contiene un abanico de realizaciones que en el caso concreto experimenta solo una determinada actualizacion", 1987: 69) eta, gainera, era ezberdinean.l 5 Aktualizazio aniztasun hau testu-egituraren osagai diren 'indeterminazio-guneek' eta 'hutsuneek' sortarazia da bereziki. lser-en 'Hutsuneen Teoria'ri jarraikiz, <ref type="bibr">(14)</ref> Testutik obrarako pausoa ikertzeko bidea irekitzen duen kontzeptu honetaz ikus, ora har, <ref type="bibr">Iser 1983</ref><ref type="bibr">eta 1987</ref><ref type="bibr">: 55-70, Antezana 1983</ref><ref type="bibr">: 121-127, Gnutzmann 1991</ref><ref type="bibr">eta 1994</ref><ref type="bibr">: 225-226, Saalbach 1995</ref><ref type="bibr">: 84-85 eta Wilson 1981</ref> (15) Ideia honen inplikazioetan datza, hain zuzen ere, 'irakurle inplizitua' kontzeptuak gure ustez planteatzen dituen arazoetarik bat. Hots, 'testuaren irakurle inplizitua' bete-betean eta bere osotasunean nekez erator badaiteke (Iser-en hitz horiek ere iradokitzen dutenez), kontzeptua lausotu eta difuminatu egiten da; are gehiago kontuan izanik testu jakin baten irakurle inplizitua eratortzen dugunean guk aktualizatu dugun testu-egituran oinarrituz eratortzen dugula eta, hortaz, irakurle inplizitu hori ez dela 'testuaren irakurle inplizitua' izango, guk gauzatutako irakurle inplizitua baizik (zentzu honetan ikus <ref type="bibr">Wilson-en kritika, 1981: 858)</ref>. Arazo honi beste bat darraio: 'irakurle inplizitua'ren kategoriarena. Alegia, Iser-en formulazioaren arabera irakurle inplizitua testu-mailako entitate bat da: ez dauka sustratu enpirikorik, ez eta zerikusirik irakurle errealarekin, birtualarekin zein intentzionalarekin. Baina hau hala bada, batetik, hobe zatekeen 'irakurle' terminoa saihestu izana eta kontzeptuaren muinarekin lotuago dagoen beste edozein termino Cegitura', kasu) erabili izana. Bestetik, inmanentismo ustezko -eta arriskutsu-hau zail da onartzen baldin eta, zehaztu berri dugunez, irakurle inplizitua irakurle erreal baten eskutik burutuko den aktualizazioaren guztiz menpe badago eta, areago, irakurle inplizitua ekintza honexek ere osatzen badu Iser-en beraren definizioan jasotzen denez (gogora bedi gorago jasotako aipua). testuak informazio bat ematen ez duen guneari edota erdizka ematen duenari deritzo 'hutsune' edo 'informazio-zulo' (leerstelle) <ref type="bibr">(Iser 1987</ref><ref type="bibr">(Iser : 280-309 eta 1989</ref>. Teoria honek hein handi baten Ingarden filosofo poloniarraren indeterminazioaren inguruko teoria dauka zutabe. Azken honek azpimarratu zuenez, obra ez da objektu osotu eta bukatu bat,~formazio eskematiko' bat baizik, indeterminarurik bairaude ber.tan aurkezten zaizkigun objekribitate eta aspektu ugari <ref type="bibr">(1989: 36)</ref>.16 Testuak, ondorioz, determinatu gabeko guneak dauzka ezinbestean, 'indeterminazio-guneak', zeintzuk irakurketan zehaztuak izango diren, beteak edota, haren hitzetan esateko, "konkretizatuak". Hona hemen berak emandako definizioa: "Llamare al aspecto 0 parte del objeto representado, que no esta especfficamente determinado por el texto, «lugar de indeterminaci6n»" eta "A esta determinaci6n complementaria llamo 'con-creci6n' de los objetos representados" (1989: 37 eta 38).</p><p>Iser-ek planteamendu honi eutsi egiten dio, baina zehaztuz testuan determinatu gabe agertzen diren elementuek komunikatu egiten dutela eta, era berean, testuak esaten ez duenak -diskurtsoaren hutsuneak-esan esaten duela ("10 no dicho es constitutivo de 10 que dice el texto", 1987: 279). Hartara, 'hutsuneak' ez ditu edozein informaziorik ezak eratzen, ez dira 'indeterminazio-gune' testuan determinatzeke geratu diren zati zein aspektu guztiak eta, ora har, indeterminazioa ez da determinazio gabezia huts legez ulertu behar. Izan, komunikazioaren osagai funtsezkoak dira (ik. Iser 1987: 101) irakurlea testuan barneratzea ahalbidetzen dutelako eta komunikazio horretan parte hartzera bultzatzen, tesruak komunikatu nahi diona erator araziz eta bere irudikapenen bidez gune horiek bete araziz. Zentzu honetan irmoki mintzo da Iser: 17 los textos de ficcion proyectan sus objetos, no reproducen los objetos existentes. (... ) Consecuentemente, la objetividad proyeerada por los textos de fieeion no posee aquella determinaeion universal que eorresponde a los objetos reales; tienen entremezelados elementos de indeterminaeion. Pero estos no representan una eareneia, sino enearnan eondieiones elementales de eomunieacion del texto, que posibilitan una partieipaeion del lector en la produeeion de la inteneion del texto (1987: 50).</p><p>Testuaren eta irakurlearen arteko interakzioa bultzatzen duen indeterminazioak eraturiko zulo horiek gure esperientziekin, bizitzan zehar metatutako ezagutzekin nahiz gure sentikortasunarekin lotutako informazioa eta sentimenduak jokoan jarriz osatzen ditugu, beti ere testuaren determinazioak gidaturik. Beste era baten esanda, 'esperientzia-horizonte' esan diezaiokegunaren zolan betetzen ditugu.</p><p>(16) Ingarden-ek 1931. urtean eman zuen ezagutzera lehenengoz teoria hau. Bidenabar, ohart gaitezen Ingarden azken buruan obraren objektibitatea zalantzan jartzen ari dela, subjektibitatea obran bertan ametitzen (gogoratu teoria honen aitzindarien ekarpenaz 2.1. azpiatalean esandakoa), onartzen ari baita obrak berak subjektibitatea barnera dadin posibilitatzen duten zirrikituak dauzkala.</p><p>(17) Hutsuneez ari delarik ere, irmotasun berbera darie bere adierazpenei: "Espacios vacios describen menos una carencia de determinaci6n del objeto intencional 0 de las perspectivas esquematizadas que mas bien la capacidad de ocupar un espacio determinado del sistema en el texto por medio de las representaciones del lector" (1987: 280).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Indeterminazioa eta 'esperientzia-horizontea'</head><p>'Horizonte'aren kontzeptuak Jauss eta berak 'igurikimen-horizontea' deitu kontzeptua burura ekar badiezaiguke ere, diodan esperientzia-horizonteaz aritzean urrundu egiten naizela Jauss-en kontzeptutik, eta urrundu, bi norabidetan: batetik, ez naiz igurikimenez ari eta, bestetik, ez naiz literaturaren gainean aurretiaz daukagun ezagutzara mugatzen. Hau da, eta lehen zehaztapenaz den bezainbatean, irakurlearen esperientzia-horizontea gehiago dagokio bere 'egoera hermeneutikoa'ri irakurleak testuaren aurrean izan ditzakeen igurikimen eta aurriritzi multzoari baino. Gadamer-ek zabaldutako 'egoera hermeneutikoa j kontzeptuaren muina ondoko ideietan laburbil daiteke: "10 otro se muestra desde 10 propio", "en la comprensi6n hay siempre una aplicaci6n del texto que hay que comprender a la situaci6n actual del interprete" eta "una verdadera conciencia aporta siempre su propio presente" <ref type="bibr">(1989: 81, 86 eta 94)</ref>. Irakurtzerakoan testua norberaren egoera hermeneutikoaren galbahetik iragaiten delako zentzuan darabilt, hortaz, 'horizontea'ren nozioa ("AI concepto de situaci6n le pertenece esencialmente la noci6n de horizonte", <ref type="bibr">Gadamer 1989: 82)</ref>.</p><p>Bigarren zehaztapena ulerkera honen ondorio da azken buruan. 'Igurikimen-horizontea' kontzeptua formulatzean ]auss-ek irakurleon bizitza-esperientziak ere gure aurriritzi eta igurikimenak (gure irakurketa, beraz) baldintza ditzakeela onartu zuen arren (1971: 77), praktikan alboratu egin zuen baldintzapen hori. Bere azalpenen arabera, irakurtzerakoan behiala irakurritako testuen oroitzapena eta literatur generoen zein arau literarioen ezagutza -eta soilik hau-jartzen dugu jokoan. Haatik, planteamendu hau zaila da bete-betean onartzen,18 ezbaian jar ezina baita norberaren bizitzak eta bizitzan zehar metaturiko esperientziek irakurketan berebiziko eragina dutela:</p><p>Los ancHisis de la recepcion realizados sobre base empfrica y con fronteras delimitadas permiten afirmar sobre seguro que la vida practica ejerce un influjo en el modo de recibir unos textos determinados. (. ..) Las experiencias literarias de los receptores tienen unicamente un influjo significativo cuando se ha decidido interpretar en el marco del analisis microsemantico. Por el contrario, cuando se decide interpretar en el marco de un analisis macrosemantico se hace patente la importancia de la vida pnictica, de connotaciones subjetivas <ref type="bibr">(Zimmermann 1987: 57)</ref>.</p><p>Hortaz, literatur esperientzien baldintzapena ez ezik, bestelakoak ere hartu behar dira aintzat <ref type="bibr">(historikoak, soziologikoak, psikologikoak, etab.)</ref>, euren arabera izango baita testua modu batean edo bestean aktualizatua eta euren arabera indeterminazioguneak beteak.l 9 Hain zuzen, baldintzapenok osatzen dute gure egoera hermeneutikoa eta esperientzia-horizontea.</p><p>(18) Gogoan izan lehenago (zehazki, 2.2. azpiatalean) aipatzen genituen Jauss-i egindako kritikak. Bestalde, badirudi Jauss iritziz aldatu dela puntu honen inguruan. Aesthetische Erfahrung und literarische Hermeneutik lan berriagoan bi horizonte ezberdintzen ditu (gaztelerazko argitaralpena darabilt): "un horizonte de expectativa literario interno" eta Hun horizonte de expectativa social", alegia, Hel literario interno, implicado por la obra, y el entornal, aportado por el lector .de una sociedad determinada" (1992: 17).</p><p>(19) '4Los espacios vacios (...) se 'llenan' de acuerdo con los condicionamientos hist6ricos, sociales, Honela, esperienrzia-horizontean gure barne munduarekin (imaginaire delakoarekin, norberaren afektibitatearekin, etab.), kanpo munduarekin (hots, testuinguru ezberdinekin: kulturalarekin, sozialarekin, etab.) eta mundu-ikuskerarekin (bizitzari eta munduari buruzko planteamendu ideologikoekin, erlijiosoekin, filosofikoekin zein bestelakoekin) lotutako gure iritzi, sentirnendu, esperientzia, informazio edota ezagutza ora metatzen da. Bertan metatzen da, baita ere, hainbat idazleren testuen irakurketa-esperientziatik jaso dugun informazioa (testuen zein idazleen gaineko informazioa, baina baita goian aipaturiko eremuen ingurukoa ere). Eta hau guztia eskuartean dugun testutik eratorritako informazioarekin konbinatzen dugu irakurtzerakoan, konbinazioaren emaitza bera ere gure horizontean txertaturik geratuz.</p><p>Arrazoi pedagogiko hutsengatik, esperientzia-horizontean metatzen den sentimendu-sare, iritzi, informazio eta ezagutza esperientziala mota ezberdinetakoa dela plantea genezake eta, honela, horizonte orokor horren barruan horizonte ezberdinak bereiz genitzake. Lehenbizi aipatu dugun esperientzia-ezagutza multzoak (hots, barne munduarekin, testuinguruekin, mundu ikuskerarekin edota, zentzu zabalean, 'bizitza)rekin lotutakoak) 'horizonte bitala) edo 'bizi-horizontea) osatuko luke. Honen ondoan (eta, berriro diot, bereizketa ez dagokio gure burmuinaren antolakuntza zatitu erreal bati, ikerketarako argitasun xede bati baizik),20 'horizonte literarioa' bereiz genezake. Bertan, eta bigarrenez aipatu dugunez, literaturaren inguruko informazio esperientzial guztia metatuko litzateke (literatur genero, arau zein korrontei buruzkoa, hainbat idazleren eta euren lanaren ingurukoa, etab.). Azkenez, eskuartean daukagun testutik irakurtzearekin batera eratortzen dugun informazioa ere irakurketarako zola gerta dakiguke, 'obraren barne horizontea' eratuz.</p><p>Adibide bat jarriz, Joseba Sarrionandiaren «Apirilari gorazarrea» poema (lzuen gordelekuetan barrena, 1981: 21) era askotan irakur dezakegu, irakurketarako zolatzat hartu dugun horizontearen arabera. Hilabete honetaz esaten zaiguna (adibidez, "Apirilean du laborariak garagarra, / lursagarra eta bazkabelarra ereiten / (. .. ) Ostatuetan / horditzen dira indiano zaharrak, eta aisa / eranzten dira gauetan nesken alkondarak. / Apirila ez da ilarik atseginena, / baina krudelena ere ez") guk geuk hilabete honetaz esperientziaz dakiguna, pentsatzen duguna, sentitzen duguna jokoan jarriz irakur dezakegu, alegia, poema nork bere bizi-horizontearen zolan irakurriz. Baina, bestalde, poema hau horizonte literarioan metaturik daukagun informazioarekin interakzionatuz irakur dezakegu baita ere, esaterako T. S. Eliot-en «The Burial of the Dead» poemaren ("April is the cruellest month" esaldiarekin hasten den poemaren) gogorapenaren eskutik poema honi zein T. S. Eliot-i buruzko informazioa erabiliz <ref type="bibr">(The Waste Land, 1982: 90)</ref>.21 espaciales e individuales dentro de 10s que se mueve el receptor de un texto", Acosta 1989: 171. Puntu honen inguruan ikus orobat <ref type="bibr" target="#b35">Ingarden 1989</ref><ref type="bibr">: 39 eta 49, eta Iser 1987</ref> (20) Lan honetan aurkeztuko dugun ikerketari begira ere, bereizketa hau gogoan hartzea on da, Atxagaren lanean garai ezberdinak irudikatu eta azaltzeko lagungarria baita oso, geroago ikusiko dugunez.</p><p>(21) J. Sarrionandiak T. S. Eliot-en The Waste Land testua itzuli zuela aintzat hartuz gero (ik. <ref type="bibr" target="#b58">Sarrionandia 1983)</ref>, bigarren irakurketaren aukera are nabarmenago egiten da ziur aski.</p><p>Kontzeptu honen garrantziaz aise ohartuko gara esperientzia-horizonteak literatur fenomenoan jokatzen duen paper funtsezkoari erreparatuz gero. Kontuan eduki behar da, batetik, esperientzia estetikoa testuak esperientzia-horizontearekin daukan loturaren fruitu dela ("la experiencia estetica (... ) surge a partir de una relaci6n de la realidad del texto con la vida extratextual de todos los dias", <ref type="bibr">Acosta 1989: 168-169)</ref>. Bestetik, eta testuaren bai sorketa bai harrera esperientzia-horizontearen zolan (autorearenean nahiz irakurlearenean) burutzen denez, testua agortezin bihurtzen da.</p><p>Azpimarra dezadan hemen sorketa ere autorearen esperientzia-horizontearekiko 10turan burutzen dela beti, nahiz neurri handiago edo txikiago baten autoreen eta testuen arabera. Atxagaren kasuan ere beste horrenbeste esan daiteke (berak onartu duenez, "siempre parto de mi propia experiencia", in Turrau 1990: 64)22 eta esan daiteke, are gehiago, lotura hori beraren lanaren bilakaeraren oinarrian dagoela (10tura horren indartzera zuzendu den garapenaz hitz egin daitekeelakoan baikaude, geroago ikusiko dugunez). Atxaga aipaturik, gatozen bere testuen esparrura.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Atxagaren testuetan barrena, Harrera-Teoriaren laguntzaz</head><p>Atxagaren lanek izandako harrera zabala neurri handi baten (nahiz eta ez bakarrean) testuek eurek sortarazi dutela agerikoa da. Gogoeta honek bultzaturik, testuen barrenean bilatu beharreko harreraren sorleku horietara (zenbaitetara bederen) gerturatzen saiatuko gara jarraian.  <ref type="bibr">(1994: 33)</ref>: "Estaba en Londres, en una pizzerfa junto a un amigo; habfa una pareja de enamoraclos, no muy jovenes, pero se notaba que vivlan un amor reciente. Ambos se miraban a los ojos languidamente, amorosamente. Entro un homeless a la pizzeria y se dirigi6 a ellos, yo pense que al menos aquella pareja, en un momento de tanra felicidad, haria algo como en los tiempos antiguos, eso de 'ahora que me ha tocado la loteria, voy a regalar un mi116n de pesetas'. Pero no, ni le miraron a la cara. Me pareci6 una escena siniestra". Nik uste aipaturiko poemak idazleak bizi izandako esperientzia hauxe eta honen inguruan bere baitan ernarazitako sentimendu eta gogoetak dauzkala zolatzat; bi hitzetan, Atxagaren esperientzia-horizontea edota, goiko bereizketaren haritik zehatzagoak izateko, bere bizi-horizontea. jantzia datekeen irakurle bat litzatekeen artean (irakurle bat zeinari abangoardia-literatura eta korronte esperimentalak ez zaizkion arrotz egiten),~istorioaren berreskuraketa'rantz zuzendutako poetikaren norabide eta estetika aldaketak irakurle intentzional orokorragoa ekarri du berarekin, irakurle sektore zabalagoa besarkatuz. Testuon sorkuntzan irakurlego zabalagoa gogoan izate honek euren harrerarekin zerikusi zuzena edukiko duten ondorioak izan ditu, Asteasuko idazleak berak onartu izan duenez: un descubrimiento para mf fundamental es el hecho de que (... ) esa presencia del lector en el acto creativo puede hacer que tu obra sea mucho mejor de 10 que, en principio, tu mismo pudieras esperar. Una de las consecuencias directas de esto es que la obra se hace mas transparente, mas compartible (in Lanz 1993: 86).</p><p>Izan ere, Ziutateaz zein Etiopia-ren hermetikotasunetik urrunduz, idazleak testu argiak jarri dizkigu eskuartean, hainbat baliabideren bidez ondo bilbatuak eta logikoki eraikiak, jarraian agertuko dugunez. Azken buruan, testuok erraztu egiten dituzte orain arte nekezak gertatzen ziren aktualizazioaren bideak, irakurlea lagundu egiten baitute testua gauzatu eta bere egiten, esperimentalismoaren ondorioz partehartze gehiegizko eta zaila eskatzen zuten testu haiek ez bezala. Honela, eta laguntza horri esker, harreraren eragileetarik bat den irakurleon partehartzea gidatzearekin batera bultzatu ere egiten dute. Eta hori guztia bereziki indeterminazioaren eta Atxagaren testuotan gero eta funtsezkoagoak diren zenbait testu-estrategiaren bidez.</p><p>3.1. Indeterminazioak testuotan jokatutako paper funtsezkoa: 3.1.1. Indeterminazioa <ref type="bibr">Obabakoak-en:</ref> (Obaba'ren exenplua Indeterminazioa harreraren ardatz bihurtzen da 23 esperientzia estetikoaren iturburuan dagoen irakurlearen partehartzea posibilitatu ez ezik, bultzatu ere egiten duen une beretik (irakurlea hutsuneak betetzera behartzen duelako), honela irakurlea kokreatzaile bihurtuz. L. A. Acostak ere ideia berbera azpimarratzen du:</p><p>La experiencia estetica surge en el proceso de complementaci6n y con eUo de cocreaci6n. (... ) el proceso y fen6meno que constituye la experiencia estetica es algo que adquiere realidad a partir de 10s espacios vacfos y que se consuma en el acto de asignaci6n de sentido (1989: 169).</p><p>Horregatik onartu ohi zaio indeterminazioari paper funtsezkoa harrerari begira eta horregatik gu ere beraren azterketari lotuko gatzaizkio. Azpimarra dezadan, dena den, paper hori onartzeak eta jarraian aurkeztuko den azterketa bide horretatik bideratzeak ez duela esan nahi harrera indeterminazioaren menpean dagoela edota harrera zabala indeterminazioari eta soilik honi zor zaiola ulertzen dudanik. Dudarik gabe, indeterminazioarekin batera determinazioak ere berebiziko garrantzia du edozein testuren harreran. Indeterminazioak, determinazioak ez bezala, gure birsorketa-(23) Harreraren oinarritzat ez ezik, lanaren balio estetikoaren irizpidetzat ere jo izan da. Alabaina, !ser-en laneran aurki daitekeen gogoeta honek inplikazio ugari bezain arriskursuak dauzka (ik. Gnutzmann 1994: 226) eta, horrexegatik, lan honetan ez gatzaizkio indeterminazioaren aspektu honi lotuko. lana derrigorrezko egiten duela eta, honela, gure partehartzea bultzatzen duela egia izanda ere, ezin da determinazioaren papera gutxietsi (birsorketa berak gidatzen du, adibidez; bestalde, determinaziorik gabeko edo gutxiko testuek partehartze larregizkoa eskatzen dute, irakurketa eta harrera zailduz).</p><p>Antza denez, indeterminazioari (eta, halaber, irakurlearen partizipazioari) leku gero eta funtsezkoagoa eskaini izan zaio testuan mende honetan zehar (ik. <ref type="bibr">Gnutzmann 1994: 224)</ref>. Literatura modernoak hautatutako bide honetatik abiatu da B. Atxaga ere abangoardia eta esperimentazioaren bideak ibili ostean. Bide honetatik abiatzeak testuon irekitasuna izan du emaitza: euron indeterminazioak atea ireki dio irakurlearen partizipazioari, eta ireki, esan dugunez, irakurlego hetereogeneo eta zabal bati. Obabakoak-en bukaera, adibidez, bukaera ireki bat da, zehaztu gabea -indeterminatua, bestela esanda-, bere interpretazioa irakurle bakoitzaren esku uzten duena. Eta 'irakurle bakoitza' diogunean esan nahi dugu edozein irakurle gonbidatzen duela berau birsortzera, eta ez soilik literaturan eta literatur teorian jantzia den irakurlea, 'isiltasunaren poetika' deitu ohi denaren berri daukana kasu. Zentzu berean, testu honek printzipioz irakurle-talde zabala gonbidatzen du bere lerroen artean murgiltzera, eta ez bakarrik metaliteratura eta testuartekotasunaren inguruko Atxagaren planteamenduak ezagutzen dituen irakurlea edota «Pitzadura bat elur izoztuan» narrazioa Villiers de L'Isle Adam-en ipuin baten berridazketa dela dakiena (ik. Atxagaren azalpena in Sobolewska 1993: 17) edota «Ondo plajiatzeko metodoaren azalpen laburra»ren atzean Dante-ren Divina commedia dagoela dakiena (ikus berriro Atxagaren adierazpenak in Sobolewska 1993: 17, Aldekoa 1992: 17 <ref type="bibr">eta Gabilondo 1994: 24)</ref>. Horrexegatik esan daiteke testu konpartigarriagoak direla.</p><p>Testuok indeterminazioaren bidez eskaintzen diguten partizipatzeko eta kokreatzaileak izateko gonbitearen exenplu ezin argiagoa 'Obaba' espazioa litzateke. Espazio hau Atxagaren hainbat lanen euskarri daukagu (Obabakoak-eko hainbat narraziorekin batera gogora bitez, besteak beste, Bi anai, Sugeak txoriari begiratzen dionean eta Bi letter ja50 nituen 050 denbora gutxian). Beraren lanaren inguruko azterketetan Obaba Asteasurekin lotu eta, areago, berdindu izan ohi da (ikus, besteren artean, Kortazar 1990: 133 eta 1994: 61, Lasagabaster 1990: 90 <ref type="bibr">eta Martorell 1989)</ref>. Jon Kortazarren esanetan, adibidez, "ellugar llamado Obaba en su narrativa corresponde a una transposici6n y mitificaci6n de su Asteasu natal" (1994: 61).</p><p>Haatik, 'Obaba = Asteasu' berdinketan datzan azalpen hau berrikusi egin behar dela uste dugu,24 murritzailea baita hainbat alderditan. Hasteko, ez gatoz azalpen honekin bat Obaba gehiago delakoan gaudelako. Aurreko lan baten iradokitzen genuenez <ref type="bibr">(1996: 116, 15. oh.)</ref>, izan, indeterminazio-gune bat da, eta ez kasualitatez. Atxagak ez du espazio hau zehaztu (ez du 'Asteasu'z hitz egin, ezta bertako 'Elizmendi' auzoaz ere, edota 'Iturriotz'-ez, 'Andatzarrate'z etab.) eta determinatzeke utzi ditu bere hainbat aspektu ez ekonomiagatik, indeterminazioak daukan komunikatzeko gaitasunagatik baizik. Jakina denez, Atxagak bi geografia mota bereizten (24) J. Otamendik Atxagari egin zion elkarrizketan (ETBren «Noizean behin» saioaren barruan, 1996-IV-24) Obabari buruz galdetzean, idazlea bera berdinketa horren aurka agertu zen, Obaba Asteasu edota, ora har, errealitate bat denik ukatuz. ditu, berak 'Stevenson taldea' eta 'Faulkner taldea' deiturikoak. Bigarren honi dagokio, bere esanetan, Obaba eta, hain zuzen ere, indeterminaziorantzako joera du ezaugarri: "Faulknerrek bere eskualdeko mapa egin zuenean, apenas sartu zuen tokiizenik. Horren ordez gertaeren bitartez aipatu eta deskribatu zituen tokiak" (in Linea d J Ombra 1993: 14).</p><p>Honela, indeterminazioari esker irakurleok espazio hau .birsortu ahalko dugu,2S bere egin behar dugulako, eta bete, nork bere esperientzia-horizontearen zolan. Arestian proposaturiko bereizketa gogora ekarriz, gure bizi-horizontetik eratorritako informazioaren bidez birsortzen dugula zehatz genezake. Birsorketa hauek guztiak zilegi izango dira (testuaren determinazioak ezarritako mugetatik at ez badoaz) testuak -indeterminazioari esker-ez gaituelako Obaba modu jakin eta bakar batean birsortzera behartzen (are gutxiago behartzen gaitu Asteasuri buruz dauzkagun datuekin eta soilik hauekin birsortzera). Horrexegatik, hots, idazleak indeterminaziogune bat jarri digulako begien aurrean, Obaba gure-gurea izango da (eta ez, edo bederen ez soilik, "Atxagaren mundu imaginario mitikoa"): irakurle bakoitzak (dela Aia zein Otxandioko batek, dela edozein herrialdetako edozein irakurlek) bere bizitzarekin lotutako informazio esperientzialaren gainean eta bere balio afektiboa jokoan jarriz eraiki duena eta, ondorioz, berarengandik hurbil sentitzen duena. 26 Testua, honela, erabat konpartigarri bihurtzen da (eta ziurrenik honek badauka erlaziorik bere harrera zabalarekin).</p><p>Zehatz-zehatzak izateko, Obabaren gainean Asteasuko eta inguruetako geografiarekin lotzen den (eta, beraz, Obabaren indeterminazioa amifii bat gutxituko lukeen) daturen bat edo beste eskaini eskaintzen zaigula onartu beharko genuke. Honelako datu bat litzateke, adibidez, Mugatseko morroiaren aipamena. <ref type="bibr">27</ref> Dena den, nik neuk (25) Determinaturik agertzen zaizkigun objektu, pertsonaia nahiz lekuak irudikatu baino ez ditugu egiten (eta hau, gainera, testuak agindutako moduan), ez propioki sortzen edo birsortzen. Ingarden-ek ere azken finean hauxe transmititu nahi digu, objektuez ari delarik: "Pero no debeni pensarse que 10s aspectos vlvidos y coloreados se imponen a11ector cuando tales aspectos aparecen descritos en el texto. Por el contrario, en ese caso los aspectos senin objetos que no pueden captarse intuitivamente.( ...) No debe pensarse que 1as partes del texto que describen 10s atributos perceptib1es de 1as cosas con precision son 1as que fuerzan la actualizacion de 10s aspectos con mayor vigor" (1989: 43-44).</p><p>(26) Ma J. Olaziregik hainbat irakurlerekin egindako 'sakoneko elkarrizketetan' honako hau aitortzen zuen batek: "Nahiz eta istorioak errea1ak ez izan, sartzen ditu 1ekuak, figurak ... egunero ikusten ditugunak. (. ..) Obaban badago, baina nire herrian ere bai" (1996b: 243). Hurbiltasuna, prefosta, determinazioari ere zor zaio (esaterako, espazio menditsu eta berde legez irudikatu izanari esker irakurle askok paisaia euskalduntzat hartuko du, aipatu elkarrizketetan ere aza1eratzen denez, 1996b: 243, 302). Baina determinazioarekin batera indeterminazioa funtsezko eta ezinbestekoa izan da irakudeak espazio hau paisaia ezagun huts bezala somatu baino gehiago bere egiteko (Ingarden-en aipuaren haritik esan berri dugunez, determinaturiko espazioak, hutsunerik ezean, ez diote gure esperientziari sarbiderik eskaintzen; gure esperientziekin ezer betetzera beharturik egon ez eta ematen zaigun informazioarekin espazioa irudikatu besterik ez dugu egiten). Hain zuzen, Obabaren indeterminazioa harreraren eragile gertatu da, gure aburuz, paisaia euskaldunaren mugak gaindituz Euskal Herritik kanpoko hainbat irakurleri ere berarengandik hurbil eta sinesgarri suerta dakion aukera eman dio1ako (honela, adibidez, Finlandiakoari, Erresuma Batukoari eta Alemaniakoari, Ma J. Olaziregiren tesi-1anean jasotzen denez, 1996b: 145, 283, 303). Aldi berean, eta hain zuzen Obaba espazioaren -baina ez soilik honen-indeterminazioak gure esperientziari zirrikitu bat ireki diolako, testua idazlearen eta irakurleon arteko topagune bihurtzen da, ezen jokoan jarri ahal izan dugun gure esperientzia-sarea testuak -zati determinatuetan-islatutako idazlearen esperientziarekin nahastuz eta txertatuz baitoa irakurketan zehar. Nolanahi den ere, ez bedi pentsa irakurketa-rnodu hau saihestu egin behar denik (irakurle 'onak' horrela irakurriko ez lukeenik, Davis-ek dioen legez), ohiko modua izateaz gain testua esanguraz janzten duen irakurketa-prozedura da eta:</p><p>The most interesting cases of the power of literary meaning occur precisely when I cannot quite separate the by-product, the release of personal meanings and memories, from the very words I am reading out of the mind of another person. We should indeed be careful not to indulge ourselves and betray the books; but we should not pretend that the confusion of reader's experience with writer's experience does not take place in 'good' readers or is simply regrettable when it does. It is not good for us to feel ashamed of what we naturally do when we read <ref type="bibr">(Davis 1992: xv)</ref>.</p><p>Bai Atxagak bai irakurleok jokoan jarritako esperientzien eskutik elkarri hurbiltzen gatzaizkio. Esperientzion bidezko elkar-topatze hauxe da, gainera, testuaren balio unibertsalaren iturri, gure idazleak ere jakin badakienez ("Para entrar en esa inmensa habitaeion que llarnamos 10 universal solo hay un earnino (. .. ). El tinieo earnino para deeir eosas que valgan a otro es, justamente, la experieneia particular" in <ref type="bibr">Prego 1995: 45)</ref>.</p><p>Geldiune bat egitea bada ere, Atxagak indeterminazioaren bidea hautatu izanaren beste arrazoi bat (edota Obaba espazio indeterminatu gisa eraiki izanaren beste ondorio bat) aipatu nahi genuke. Indeterminazioak sinesgarritasuna dakar berarekin. Testuon osagai funtsezko diren metamorfosiak, abenturak eta halabeharrak korapilarurako gerraerak ez lirateke sinesgarri suertatuko espazio determinatu eta zehaztu baten. Bakhtin ere iritzi berekoa da (Borges-en lanari buruz ari delarik): "eualquier eoneretizaei6n, ya sea geografiea, eeon6rniea, soeiopol{tiea 0 eotidiana, amenazarfa la flexibilidad y la libertad de las aventuras, limitando el poder del azar" <ref type="bibr">(Perez-ek jasoa in 1986: 97</ref> Bi anai eta Obabakoak, berriz, sorketa-bide honetatik urruntzen dira, hurrengo lanek (Behi euskaldun baten memoriak, Gizona bere bakardadean eta Zeru horiek)29 jarraituko duten ildoa zabalduz. Urrundu, aspektu askotan urruntzen dira (gogora bedi gorago lanon irakurle intentzionatuaz esandakoa, adibidez), baina pentsa genezake lehenengo garaiko lan haien eta beste hauen arteko jauzia antza denez sorketan bizi-horizonteari eskaini zaion balorapen ezberdinaren emaitza ere badatekeela. Hipotesiarekin jarraituz, Ziutateaz eta Etiopia ostean Atxagak bere bizitzarekin lotutako esperientzia-horizontea berreskuratu duela plantea genezake eta horizonte horren oihalaren gainean idatziko duela aurrerantzean. Idazle honen lanaren bilakaera, hortaz, berreskuraketa honen bidez adieraz liteke. Gure iritzi hau bermatzera letorke Atxagak berak idazle g'azteen hasierako lanei buruz esandakoa:</p><p>(28) Iritzi hau zein jarraian darorren gogoeta literaturan idazleak hizkuntzaren kodifikaziotik harago bigarren kodifikazio bat burutzen duelako planteamenduaren markoan ulertu behar da, azpiatal honen bukaeran agertutako oharrean azpimarratzen dugunez.</p><p>(29) Lan hau idatzi nuenean Sara izeneko gizona <ref type="bibr">(Pamiela, Irunea, 1996)</ref> argitaratu gabe zegoen oraindik. Dena den, eleberri honek ez du goiko hipotesi hori ezertan kolokan jartzen.</p><p>Cuando me he visto metido en jurados de euentos eseriros por adoleseenres, 10 he vivido elaramenre (...). tTodos los remas son rremebundos! Enronees re das euenta de que el autor aun no reeonoee su propia experiencia. Cuando pase el tiempo y empieee a reconoeer su experieneia, poeo a poeo 10 que eseribe y 10 que le pasa se iran aproximando <ref type="bibr">(in Prego 1995: 40)</ref>.</p><p>Aipu hanen haritik, Etiopia ostean Atxaga bera ere bere esperientzia onesten eta aintzat hartzen hasi zela 30 esan genezake, esperientzia horrek eraturiko bizi-horizontearekiko loturan idazten hasi zela eta, hartara, lotura honek eduki badaukala eraginik lehen garaiko lanen eta geroagokoen artean gertatutako bilakaeran. Beraren hitzak gure artera ekarriz: "yo me fui hacia ese modo de hacer las cosas, el de contar la propia vida" (in Prego 1995: 42; letra etzana nik jarria da).</p><p>Bidenabar esanda, B. Atxagaren lanean ez ezik, J. Sarrionandiaren lanean ere dakusakegun bilakaera (Izuen gordelekuetan barrena-tik Gartzelako poemak-era zein Hnuy illa nyha majah yahoo-ra gertatutako jauzia, adibidez) idazlearen horizonte bitalarekiko Ioturaren berreskuraketa berberak azal dezakeeIakoan gaude. Ez kasuaIitatez bizi-horizontea alboratuz edota bere gainetik horizonte literarioa jarriz idatzirik Ieudekeen egile bien hasierako lanak Pott-en magalean (hots, Pott-en planteamendu amankomunen fruituz) jaio ziren. Zentzu honetan, on da gogoratzea, beste gauzen artean, literaturaren autonomia aldarrikatzen zuen taIde honek, garai hartan euskal literaturaren eta kulturaren esparruetan hedatzen zen panorama agor eta desolagarriari aurre egiteko, beste herri eta kulturetarako ateak irekitzea eta euskal literaturak beste literatur korronteetatik edatea beharrezkoa zela planteatu zuela eta baita praktikara eraman ere. <ref type="bibr">31</ref> Hortaz, ez da harritzekoa hasierako testuok bereziki eta neurri oso handi baten idazleen horizonte literarioa izatea zola; are gutxiago kontuan izanda agi denez, eta Jon Juaristiren adierazpenei lotzen bagatzaizkie, aipatu planteamendu horren emaitzez "indigestion de lecturas" bat gertatu zela Pott-eko taldekideengan Ouaristi 1987: 132).</p><p>Testuon sorketan bizi-horizontea alboratu izana azal lezakeen arrazoi honen ondoan -eta, hein handi baten, berari lotuta-gorago iradokitako gutxiespenaren eta ihes-nahiaren balizko zioari ere euts geniezaioke. Garai hartan idazleon bizi-horizontearekin lotutako inguruko errealitatea desolagarria eta itogarria izanda (nola ez zuten, bada, gutxietsiko?), ulertzekoa da hortik aldentzeko nahia 'beste literatura bat' (edota, hobe, 'benetako literatura bat') egiteko eta beste zerbaitez mintzatzeko. Itolarriak, bi hitzetan, ihes-gogoa dakar, baita literatura egiterakoan ere. Atxagak ezin hobeto azaldu zuen hau:</p><p>(30) Atxagaren begieran norberaren esperientzia garrantzitsu bihurtzen da besteak beste unibertsaltasunerantzako bidea berak irekitzen duelako, gorago (3.1.1. azpiatalaren bukaera aldera) jasotako idazlearen beraren hitzek azpimarratzen zutenez eta Obabakoak-en ipuin onen ezaugarriez solasean ari diren lagunek aditzera ematen digutenez: "Kontua dilk egilearen begirada, bere ikuspundua. Ona bada, erreparatuko ziok bere esperientziari eta edonorentzat balioa izan dezakeen zerbait antzemango dik bertan, zerbait esentzial" (222. or.).</p><p>(31) Pott aleetan hamaika adierazpen eta bat gehiago aurki daiteke puntu honen inguruan. Hona hemen euretarik bar: "Euskarazko mundu kulturalean pentsaera krisi izugarria dago, hori bai, luze xamarra, gutxinez bostehen (sic) bat urtekoa. Dotrinak eta apologiak, panfletoak eta pelukero disfrazatuak egindako nobelak, hara hor emaitza ederra" <ref type="bibr">(Pot! Tropikala,</ref><ref type="bibr">5. or.)</ref>.</p><p>AlIi a todo el mundo le faltaba el aire (. .. ). A mi siempre me ha gustado mucho una frase tonta que decfan los borrachos en los bares de la parte vieja de Bilbao, que era: «jMas no importa, dijo Dick Turpin, huiremos por la claraboya!». La tengo apuntada en un cuaderno desde hace mas de veinte afios. (. .. ) A 10 mejor todo 10 que yo he hecho ha partido siempre de una cierta claustrofobia <ref type="bibr">(in Prego 1995: 42-hur.)</ref>.</p><p>Ihes-nahiak, urrunago joanda, baleukake zerikusirik literatura modernorik gabeko herri txiki batekoak izatearen ondorioz idazle hauengan errotuta omen zegoen "konplexua"rekin (zentzu ez literalean badarabilgu ere, Atxagaren beraren hitza da:. ikus beheko aipua): azken buruan oraindik 32 baloratzen ez den norberaren errealitate eta munduari bizkarra ematea da, idazterakoan norberaren bizi-horizontea bigarren mailan jartzea, horren lekuan eta gainetik modernotasunaren erakusletzat hartzen den lireratura-ezagutza jarriz (bestela esanda, horizonte literarioa). Zentzu honetan, ezin esangurarsuagoak dira Victoria Prego gazte denborako Atxagaren idazlanen modernotasunaz eta lan haien egileaz mintzatzerakoan ("Es que aquel joven era un poco de mentira, era un chaval impuesto, dibujado por sf mismo u , 1995: 42), Atxagak berak aitortutakoak:</p><p>Y0 veo ahora que en aquello habia una tremenda necesidad de huir (... ) de un mundo que me parecfa menor. (. .. ) Psicol6gicamente eso se definirfa como la actitud de una persona acomplejada C.•• ). Era una especie de revancha ante los hijos de la burguesia de San Sebastian. Se trataba de una apuesta por la modernidad, se trataba de ganarles (in Prego 1995: 42).33</p><p>Idazleak, bere bizi-horizontearengandik ihes egin ostean, berreskuratu egingo du -gorago ere esan dugunez-, bidaia joan-etorrikoa izan da eta: "Gugan bidaia joan eta etorrikoa izan zen: pakeak egiten dituzu iraganarekin, pakea eginda itzuli egiten zara" <ref type="bibr">(Atxaga 1996c</ref>).</p><p>Azalpen honi bukaera emateko ohar bi ezinbestekoak zaizkigu. Batetik, Atxagak -zein Sarrionandiak-hasierako lanez geroztik testuok bere horizonte bitalarekiko loturan idatzi bide dituela esaten dugunean, ez beza inork uler idazleak bere bizitzaesperientzia hutsa lehengairzat hartu eta berau paperean jartzea testua idazteko nahiko izan zaiola esaten ari garenik. Testu baten iturburuan dagokeen esperientzia jakin bat ez da lerroartera zuzenki irristatzen, irudimenaren bidez birsorturik baizik (adibide gisa gorago aipaturiko «Londresko pizzerian» poema ekar genezake gogora: birsorketaz jabetzeko poema hori eta Atxagak I. Gorostidirekiko elkarrizketan (1994) azaltzen duen gertaera elkarrekin erkatzea besterik ez dago). Errekreazioak sakonean dagoen esperientzia horrengandik asagotzea eskatzen du, urrunketa denbo-(32) Lerrootan zehar gorago nahiz beherago behin baino gehiagotan diodanez~idazleak· bere inguruko mundua eta bere bizi-horizontea aintzat hartzen ez bide zuen hasierako garai haren ostean hori guztia baloratzen hasiko da, ene aburuz, Etiopiaz geroztiko lanek erakutsiko iuketenez.</p><p>(33) Atxagak berriki emandako hitzaldi baten ere (1996c) iido bereko adierazpenak egin zituen: "Hasieran ihes egin nuen, ez nuen ezer jakin nahi nire inguruarekin, pobrea iruditzen zitzaidan. Guztien aurreneko joera ihes egitea zen, ze akusazioa ondo ikasita geneukan". Akusazioa, Atxagak orduko hartan esandakoekin jarraituz, Donostiako burgesiarengandil&lt; zetorkien eta euskaldun izatearen lotsa eta moderno ez izatearena ernarazi zuen beraien baitan (ik <ref type="bibr" target="#b28">Garcia 1996).</ref> ran zein espazioan;34 eskatzen du, Davis-en hitzetan esateko, gai pribatuok alboratzea edota ahaztea berraurkituak eta irudimenaren eskutik berraurkeztuak izan daitezen:</p><p>The most creative moments occur when the writer's primary impulses (. .. ) are rediscovered by him, translated, in the course of his work as what must have been sub-consciously behind that work in the first place. For it is as though those deep private concerns have to be concealed or lost to memory in order to be freshly rediscovered and re-presented as imagination (1992: 48).</p><p>Bigarren oharrak ere gaizkiulertze bat saihestu asmo duo Zentzugabekeriatzat jo liteke Obaba Atxagaren bizi-horizontearekin estekaturik dagoela baieztatzea eta, aldi berean, Obaba irakurlearen bizi-horizonteari lotzen zaiola defendatzea. Susmo hau uxatzeko gogoan hartu behar da ardatz ezberdinez ari garela (idazketa edota espazio horren sorketaren ardatza batetik eta, bestetik, irakurketa edota espazio horren birsorketarena). Areago, susmo hori uxatu ez ezik ukatu beharrean ere bagaude. Obaba bai idazlearen bai irakurlearen bizi-horizontearekin (alegia, biekin) lotzen dela esatea ez da inkoherente Atxagak indeterminazio-gune bat eraiki duelako hain zuzen ere. Obabaren indeterminazioak posible egiten du irakurleak espazio hori bere bizitza-esperientziekin lot eta birsor dezan (hutsune bat denez, esperientzia horien inguruko informazioarekin betetzeko aukera daukalako); bestalde, Obaba Atxagaren horizontearekin ere badago loturik bere parte determinatuan. (Gogoratu, gainera, irakurleak parte determinatu hau bere esperientziekin nahasten eta txertatzen duela).  Nolanahi ere den, eta Atxagak testu berriagoetan kokapena bezalako aspektuetan determinaziorantzako urrats bat eman duela agerikoa izanik ere, indeterminazioak testuon eraikuntzan -eta euron harreran-funtsezko izaten dirauelakoan nago.3 7 Zeru horiek-en pertsonaia nagusia, esate baterako, era indeterminatuan irudikatu du idazleak. Beraren gainean itxurari dagozkion deskribapen zehatzak besterik ez dizkigu eskaini (adina, gorpuzkera, janzkera), pertsonaia bere osotasunean guk geuk zertzelatu beharko dugularik. Orrialde luzetan zehar "andrea" zehazgabea den honen izaera irakurle bakoitzak eraikiko du, testuak inplizituki -indeterminatuki, finean-baino ez baitu haren inguruko argirik eman. Beraren jarreratik edota pentsamenduetatik eratorriko dugu bere izaera, kasu, eta baita berau zeharka islatzen duten xehetasunetatik ere ("sidaren laxo gorria" eramateak iradokitzen diguna jokoan jarriz, esaterako).38 mitiko-fantastikoaren alboraketa eta erregistro errealistaren hautaketa) aipatu bilakaeraren gakotzat jo izan du hainbat aztertzailek <ref type="bibr">(ik. Kortazar 1995</ref><ref type="bibr">: 153, Urzainqui 1995</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Indeterminazioa</head><p>(36) Gogoan izan 3.1.1. azpiatalaren hasieran larregizko indeterminazioa duten testuez esandakoa. Z iutateaz hain zuzen indeterminazio izugarria daukalako da, maiz adierazi denez, hermetikoa eta irakurgaitza (beharbada hauxe litzateke beraren harrera zabala suertatu ez izanaren arrazoietarik bat), testu 'ireki' batetik urrun. Irakurle gutxi batzuek onartu didatenez, ordea, prezeski testu honek partehartze hain handia eskatzen duelako eta agortezina clelako erakartzen ditu. Baina hemen iritzi hau agertu didatenak abangoardia-literatura zaleak eta literaturan jantziak diren irakurleak direla argitu beharrean nag0 .</p><p>(37) Baieztapen hau aurkako norabidean ere bada zentzuzkoa: indeterminazioa testu honetan funtsezkoa izan arren, erreferentzia-marko erreal baten hautapena eta determinaziorantzako joera testu honen bereizgarri dira (areago aurreko lanekin erkatuz gero), gorago ere -bilakaera formulatzean-esan dugunez. Beraz, jarraian indeterminazioak pertsonaiari eta mezuaren transmisioari begira daukan garrantzia aztertu eta azpimarratuko dugun arren, honek ez du testuaren determinazioa eta errealitate hurbilaren nagusitasuna gutxiagotzen.</p><p>(38) Laxoaren xehetasunak irakurle bakoitzak eratorriko cluen Ireneren izaeraren gaineko informazio inplizitua eskaintzeaz gain, kontakizunaren hariarekin ere izan dezake loturarik. Xehetasun honek argumentuaren euskarrietarik bat den eta elaberriak aurrera egin ahala finkatuz doan Ireneren eta begi berdedun mojaren arteko harremana -konplizea, nahi bada-indartu egiten duelakoan nago, elaberriaren hasieratik Irene definitzen zuen hies-gaixoekiko ardura hauxe baita, elaberriaren bukaeran argitzen Pertsonaia ez ezik, testua bera ere irekia litzateke kontakizunaren atzean dagoen arazoaz mezu espliziturik adierazi beharrean eta pertsonaiari buruzko epairik adierazi beharrean halakorik irakurlearen esku uzten duelako zentzuan. Atxagak berak esan legez -testu honetaz ari delarik-, "yo ofrezeo un caso y que eada uno 10 coloque en su propio sistema ideol6gieo" (in Hermoso 1996: 69). Irekitasunaren erakusle daukagu, adibidez, testuaren zein pertsonaiaren oinarrian dagoen aspektu batek printzipioz jaso duen indeterminazioa: Atxagak ez du zehaztu Irene zein talderen partaide izan zen (are gutxiago esan du etakidea zenik, kritikak halakorik baieztatu izan badu ere) eta halaxe egin du -jakinaren gainean, gainera genezake-irakurle bakoitzak hutsune hori bere esperientzia-horizontearen zolan bete dezan. Bestela esateko, testuak -indeterminazio honi esker-printzipioz ametitu egiten ditu hemengo irakurle batek zein Eireko batek zein Korsikako batek egin ditzakeen irakurketa ezberdinak. Idazleak berak ere azpimarratu izan du irekitasun hau:</p><p>De todos modos, mucha genre esta equivocada cuando dicen que la protagonista es etarra. En ningun momento de la historia se dice que pertenezca a una organi-zaci6n [tal]. Te 10 puedes imaginar porque vives aquf, pero igual puede suceder en Irlanda 0 en Grecia (in Redondo 1996: 70).</p><p>Alabaina, eta 'printzipioz' haien bidez iradokitzen genuenez, badago hemen zer zehaztu. Hasteko, elaberriaren kokapenak (zehazkiago, Bilbo bezalako erreferentzi zehatzak) betetzearen aukerak murrizten ditu. Bestalde, gaztelerazko bertsioan -euskarazkoan ez bezala, bidenabar esanda-Joseba Sarrionandiaren poema bat eskaini aurretik "su memoria le repiti6 (... ) las nueve lineas que un companero de su misma organizacion habia eserito tras su huida de la careel" (32. or.; letra etzana nik jarria da) zehaztu izanak Atxagak taldearen inguruan zabaldu asmo zuen zehazgabetasuna kolokan jartzen duo Indeterminazioaren gaiarekin eta honek Atxagaren lanean daukan garrantziaren inguruko hausnarketekin amaitzeko, indeterminazioarekin zuzenki erlazionatzen den prozedura bat aipatu gura nuke: komunikazio inplizitua.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.3.">Komunikazio inplizitua eta afektibitatearen transmisioa</head><p>Komunikazio inplizituak indeterminazio-guneak eta informazio-hutsuneak sortzen ditu, hiztunak komunikatu nahi diguna ez baitago 'esan duen' horretan adierazita, 'esan ez duen' -isildu duen-horretan baizik. Hiztunak edota idazleak esan gabe utzi duen horretara -komunikatu asmo zigunera-'esan duena'ren inplikaturak inferentzialki eratorriz eta hauek gure ezagutzekin interakzionatuz iristen gara.</p><p>Adibide bat jartzearren, Zeru horiek-en Ireneren aurreko eserlekuetan jezarrita doan bikoteari buruz idazleak inplizituki komunikatzen diguna azter dezakegu.</p><p>Irenek aurreko emakumearen soinekoa erre eta, ordainetan, berak hainbeste maite duen koadroa -Margaritak Adan eta Jainkoa elkarri besoa luzatuz margotu zituenekoa-emango dio bikoteari. Haatik, bikoteak ez du koadroa preziatzen, ez daki zaigunez, mojen eguneroko bizitzaren erdigune. Lotura -ez kasual-honi esker sinesgarri zatekeen Irenek euren etxean bizitzeko gonbiteari baietza ematea, azkenean bestelako erabakia hartzen badu ere. estimatzen koadroak prezeski gartzelan egina izanagatik daukan balioa. Idazleari, orduan, beharrezko zaio koadroaren balioari muzin egiten dioten horrelako pertsonaien inozokeria islatzea (destaina pertsonaiekiko koherente eta sinesgarri gerta dadin). Baina Atxagak inozokeria hori adjektiboen bidezko deskribapen esplizitu baten bidez agertu beharrean, nahiago izan du inplizituki adierazi. Irenek koadroa Migel Anjelek Sixtinako sabaian pintatutakoaren kopia dela argitzean, gizonak "Italian izan ginen eztei bidaian, baina ez ginen museoetara joan" erantzuten du (126. or.). Irakurlea aise jabetuko da pertsonaia hauen nolakotasunaz erantzun horren inplikaturei esker ('gizonak Sixtina Kapera museotzat jo du', 'ezaguna da Sixtina Kapera ez dela museD bat', 'gizonak ez daki Sixtina Kapera ez dela museD bat', etab.). Esan, testuak ez dio ezer pertsonaia hauen nolakotasunaz, ez du informazio hau ematen (gogoratu honexek sortzen duela informazio-hutsune bat, lan honen 2.3. azpiatalean azaldu dugunez); irakurleok eratorri dugu inplikaturetatik.</p><p>Dakusakegunez, komunikazio inplizituak hutsuneak edota indeterminazio--guneak sortarazten ditu eta irakurleon partizipazioa eskatzen duo Horrexegatik da hain funtsezko, bai komunikazioari begira, bai testuaren eta irakurlearen arteko erlazio dialogikoan datzan harreraren fenomenoari begira. Hona hemen Iser-en beraren azalpena: Dado que 10 pretendido jamas se encuenrra plenamente traducido en 10 afirmado en la expresi6n lingii{srica, surgen implicaciones obligadas. Estas son, coma 10 no-dicho, la condici6n central para que el receptor pueda producir 10 que se quiere decir. Con ello los 'vacios' del discurso representan el constitutivo central de la comunicacion. La inreracci6n dialogica necesira de tal aportaci6n indeterminada para ponerse en movimienro, pues la accion de habla lograda se lleva a cabo coma la reducci6n de estos elemenros indeterminados del uso dellenguaje comunicarivo. (. .. ) asf pues, la comprension es ella misma un proceso productivo (1987: 101).</p><p>Idazleen zein hiztunon artean komunikazio inplizituaz baliatzea ohikoa delarik ere, Atxagaren lanetan esanguratsua.gertatzen den komunikazio inplizituaren erabilpen zehatz batez mintzatu beharra dago. Bi hitzetan esateko, afektibitatea transmititzera zuzentzen den komunikazio inplizituaren erabilpenaz ari naiz edota, bestela esateko, afektibitatearen transmisio inplizituaz.</p><p>Usu onartu izan da Atxagaren testuei samurtasuna dariela ("Bernardo Atxaga eonstruye el texto atendiendo a dos faetores fundamentales: el ir6nieo y el tierno" dioskuJon <ref type="bibr">Kortazarrek (1990: 165)</ref>; ikus, baita ere, Obabakoak-i buruz, 134. or.) eta aipatu izan da euren emozio mutua, pasiotik urruntzen diren sentsazio ezkutuak, ostenduak:</p><p>Sus cuentos (...) estan con frecuencia impregnados de rrisreza, rernura, escepticismo, emoci6n, indulgencia , roda una gama de sensaciones veladas que nos rransfiere los acontecimienros ( ) desprovisros ya de toda gravedad, libres de la fuerza anrigua de la pasi6n (Martfnez de Pis6n 1989).</p><p>Intuizio hauei formulazio teorikoa ematera dator goian adierazitakoa. Atxagaren testuek helarazten diguten emozioa 'belatua' da, ostendua, hain zuzen inplizituki adierazira dagoelako, eta ez esplizituki. Hainbar pasarre inguratzen duen afektibitatea ez dago, berez, testuak esandakoan, nork bere sentimendu eta sentsazioak jokoan jarriz hortik eratorritakoan baizik. Pasarteok hunkitu egiten gaituzte agerian -esplizituki-inolako sentimendu hunkigarririk agertzen ez dutela, testuok ez baitute emozio hori zuzenean komunikatzen, berau isilduz baizik. Adibide bat jarriz: Obabakoak-en jasotako «Hamaika hitz Villamedianako herriaren ohoretan eta bat gehiago» narrazioan Crisantosek narrazioaren protagonistari iratzargailu bat eros dezan gomendatzen dio "compafiia haundia egiten duela"ko (145. or.). Bada hau esatea nahiko zaio idazleari haren bakardadearen zirrara erraietaraino sar dakigun, eta sartu, hitzok 'esaten dutena'ren bidez baino harago hitzok inplikatzen dutenaren bidez (demagun: 'zein bakarrik egon behar duen Crisantosek iratzargailuaren hots hutsa 'compafiia' begitantzen bazaio').</p><p>Afektibitatea transmititzeko bide honetatik abiatzean, idazlea sentimenduen adierazpen esplizitutik urruntzeaz batera sentimentalismoan erortzeko arriskutik ere urrundu da. Bestela esanda, Pott-eko garaietan bertan Atxagarengan (nahiz gainontzeko partaideengan)39 erroak bota zituen sentimentalismoaren arbuioak berak . eraman du idazlea bide horretara, sentimenduen adierazpen zuzenak isiltzera eta prezeski isilrze honen bidez (hitzek esaten dutenaren atzean isildurik geratutako inplikaturen bidez) sortaraztera emozioa.</p><p>Areago, Atxagarengan afektibitatea transmititzeko modu isil eta inplizitu honen aldeko joera indartuz joan delakoan nago. Indartze hau Obabakoak-en jatorrizko euskarazko bertsioa honen itzulpena baino gehiago berridazketa izan zen gaztelerazko bertsioarekin erkatuz hauteman dezakegu. «Post tenebras spero lucem» narrazioaren bukaera, esate baterako, modu esanguratsuan aldatu zuen idazleak, afektibitatearen transmisioa are inplizituagoa eginez. Gogora dezagun Manuelek eskolan zuen kargua (gainontzeko ikasleen aurrean ohorez betetzen zuen kargua) galdu egin duela. Eskolara sartu eta maistrak zerrautsetan marrazturiko Asia eta Afrika hondatzeari ekingo dio, ondoren berriro osatzen ahalegintzeko, bederatziak iritsi arre. Orduan, "nigargureak eztarria kilikatzen ziola, mendirantz abiatu zen, etxera" (67. or.). Orain arte kontaturikoak inplizituki komunikatzen zuen amorru eta lotsaren sentimendua esplizitatu egiten du narrazioa ixten duen esaldi honek. Bada esplizitazio hau ezabaturik dago gazrelerazko bertsioan: "Pero oy6 que daban las nueve en la ermita y, abandonando a los egipcios, sali6 corriendo hacia su casa, hacia la montafia" (104. or.). Gaztelerazko testuak esan, ez digu esaten morroi ttikia nola sentitzen zen, inplizituki iradokitzen baizik. Irakurleok isiltze honek eraturiko hutsunea bete egingo dugu bederatziak baino lehenago arineketan irtete horrek ernarazten dizkigun sentsazioen bidez, alegia, esandakoaren inplikaturak eratorriz eta norberaren mundu afektiboan txertatuz. Adibidearekin jarraituz, 'bederatzietan gainontzeko umeak etorriko dira eskolara' zein 'bederatzietan Manuelek eskolatik aIde egiren du korrika' bezalako asunrzioak jokoan jarriko dirugu, afekribitatez blai egindako ondoko inplikarurerara, kasu, heltzeko: 'Manue-le~gainontzeko umeak heldu aurretik aIde egiten du kargua galdu duela denon Honek guztiak hasierako puntura garamatza, hots, indeterminazioak Atxagaren testuotan daukan berebiziko garrantzia azpimarratzera, hainbat esparrutan zabaltzen den indeterminazioa (Qbabaren inguruan, Zeru horiek-eko pertsonaiaren inguruan, afektibitatearen transmisioaren inguruan, besteak beste) testuon harreraren motorra baita irakurleon partizipazioari ateak zabaltzen dizkion une beretik. Bestela esanda, gure partehartzeari dei egiten dioten hutsuneok eta indeterminazio-guneok testu--estrategiak dauzkagu hain zuzen horregatik. Izan, ez dira testu-estrategia bakarrak. Testuon eraikuntzan eta testuon gure aktualizazioan funtsezko diren testu-estrategiak anitz dira, jarraian ikusiko dugunez.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Testu-estrategiak Atxagaren testuetan 3.2.1. Kontzeptua argituz</head><p>Gorago ere -irakurle inplizituaz aritzean-esan dugunez, irakurIea testuan inpIikatuta dago, testuak bere gauzatzea taiutu eta bultzatzen baitu (gauzatzerik gabe testua ez deIako ezer). Hots, testuak bere izatea eta funtsa irakurria denean jasotzen duenez, irakurleon partizipazio hori bultzatu eta bideratu behar du ezinbestean. Hauxe da testu-estrategia edo seinaleen egitekoa.</p><p>Testu-estrategiak, honela, irakurleon partehartzea aurretiaz prestatzen duten markak dira ("marcas con que un texto <ref type="bibr">(prepara' el espacio lector", Antezana 1983: 118)</ref>. Testuak bere gidaritza eskaintzen digu berau gauzatu dezagun, eta eskaini, hain zuzen testu-estrategien eskutik (horrexegatik ditugu, Iser-en hitzetan, "la totalidad de la preorientaci6n que un texto de ficci6n ofrece a sus posibles Iectores", 1987: 64). Estrategiak, bestela esanda, testuaren gidak dira ("directivas inherentes al texto", Gnutzmann 1994: 225), irakurlea gidatuko dutenak testua irakurtzerakoan: Iser-ek dioenez, "como potencial de conducci6n, sefialan previamente las VIas de realizaci6n" (1987: 141). Testu-estrategiatzat jo ohi dira testuaren izenburua, hasiera, iruzkinak, aipamenak, ironia, errepikapenak zein bestelako egitura sintaktikoak, eten-puntuak, muItzo lexikalak, informazio-hutsuneak, etabar Iuze bat.</p><p>Gure partehartzea gidatu ez ezik, bultzatu ere egiten dute estrategiok. Zentzu honetan testuak eskaintzen dizkigun partehartzeko aukerak dira ("ofertas del texto", <ref type="bibr" target="#b29">Gnutzmann 1991</ref><ref type="bibr">Gnutzmann : 15 eta 1994</ref> eta, zentzu zabaIagoan, gure aktualizazioan eragina izango duten testuaren aspektu oro. Harago joanda, esan genezake aspektuok batzutan testuaren egiturari baino ez dagozkiola (testuaren estrategia edota egitura (40) Atxagaren testuotan barreiaturiko hainbat metaforak ere sentimentalismoa saihestuz afektibitatea sarrarazten du lerroartera irakurleok gure sentsazio eta emozioak jokoan jartzera bultzatzean (ik. <ref type="bibr">Azkorbebeitia 1996: 123-124)</ref>. sintaktiko hutsak direla, nolabait esatearren) eta bestetan, ordea, eduki semantikoa daukarela.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.">«Post tenebras spero lucem»</head><p>Testu-estrategiatzat jo dezakegu, kasu, «Post tenebras spero lucem» narrazioko urratsen konraketa. Narrazioan zehar maistrak emandako pausoen zenbaketarekin edora igorakG nahiz jairsirako eskilaren baruketarekin ropo egingo dugu behin eta berriro. Eragiketa maremariko hauen agerpen erengabeak 41 maisrraren perrsonaia akrualizarzen lagunduko gairu, baina baita tesrua bera gauzatzen ere, eragiketa hauen ardatzaren gainean izan baita eraikia narrazioa. Hartara, kontaketa hauek testuari hezurdura ematen dioten testu-estrategia sintaktiko legez uler ditzakegu. Argi erakusten digute testua oso era logikoan dagoela eraikita eta narrazioa puntu zehatz baterantz zuzentzen dela, narrazioaren gakoa gordetzen duen punturantz. Ohart gaitezen hasiera batean eta, gutxi gora behera, narrazioaren erdiraino batuketen emaitza txikia dela, hots, maistrak emandako pausoak kopuruz guti direla: Aldaketa honek eragina izango du gure irakurketan, berari esker narrazioa aurreko ildotik bereizten den une berezi batera -narrazioaren une klabera-iritsi delako susmoa jabetuko baita gutaz. Are gehiago, estrategia sintaktiko hutsa baino harago eduki semantikodun testu-estrategia bat delakoan nago, estrategia honek seinalatzen digun une hori esanguratsua baita oso kontakizunaren mamiari begira. Kontakizun honek Atxagaren mundu ikuskeraz aritzean (3.1.2. azpiatalean) aipatu dugun 'basoa/kultura' oposaketaren oihartzunak dakarzkigu. Manuel -basoarekin lotzen dena-(41) Ezaguna da Atxagak matematika gogoko duela ("Pero soy economista de formaci6n y no s610 me han influido libros de literatura. Me gustan mucho las matematicas, una asignatura con la que empece en malas relaciones, pero que luego comprendf" in Turrau 1990: 66) eta baita, era berean, arau matematikoen erabilpena ere, Pere~, Queneau edota Calvinoren antzeraJ. M. Fajardori jarraituz <ref type="bibr">(1994: 48)</ref>. «Post tenebras spero lucem» narrazioko eragiketa haiez gain, Zeru horiek-en Margaritak gartzelan igarotako denboraren gainean egindako kalkulu matematikoak ere (47-50. or.) dira, ziurrenik, zaletasun horren emaitza eta baita, orobat, "A-B=X" eragiketan datzan «Ipuin hau problema bat da» narrazioa ere (1994e). eta maistra -kulturarekin-oposaketa horren islada dira. Kulturaren mundutik datorren maistra herrira heldu eta eguneroko bizitzan murgilduko da. Hasiera batean, espazio horretan -gizartearen, kulturaren espazioan-bizitzea onartuko du, horretarako beharrezko egingo zaiolarik bizimodu horren monotonia apur dezakeen edozerri eustea (inspektorearen bisitaren ilusioari edota tatuaiadun langilea ikusteak ematen dion pozari, adibidez). Egia esan, hau baino gehiago kulturaren munduarekin ere lotzen den bere 'lagunik lagunena'ren gutunik jasotzeko itxaropena da maistraren bizitzaren euskarri. Bada, monotonia eta itxaropenaren artean bizi denean da bere urratsen kopurua txikia. Hasierako urratsok, labur esanda, argi seinalatzen digute maistra denbora guztian espazio estu horren barruan eta bere mugak zeharkatzeke ari dela ibiltzen, muga hauek ezarritako setioa onartuz ("setiatua bizi nauk hemen", 42. or.). Baina bizimodu hau onartzeko indarrak ematen zizkion gauza bakarra (bere 'lagunik lagunena'ren gutunik jasotzeko itxaropena) erori egiten denean (bere urtebetetzean soilik guraso eta anaiarreben postalea jasotzean), orduantxe hogetasei mila pauso emango ditu. Pauso hauek, honela, espazio estu horretatik atera delako seinale dira, bere mugak zeharkatu eta urrun irten delako seinale: "mendi aldera", basora. 42 Mugen transgresio honek beste transgresio bat dakar berarekin. <ref type="bibr">43</ref> Alegia, ordura arte espazio horren barruan bizi izan den neskatila txintxoaren "bihotz etsia errebelatu egin"go da (58. or.) eta basoarekin lotzen den Manuel bere etxean 10 egitera gonbidatuko duo Honek bere bizitzaren norabidea aldatuko du, eta baita narrazioarena ere.</p><p>Begibistan dagoenez, urratsen kontaketaren testu-estrategia honek 'kultural basoa' oposaketa gauzatzen lagunduko gaitu. Era berean lagunduko gaitu beste testuestrategia batek ere, 'hizkuntzaren estratifikazio soziala' dei dezakegunak A. J. Perez-ek J. L. Borges-en prosa-lana aztertzerakoan darabilen terminoa gureganatuz <ref type="bibr">(1986: 150-153)</ref>. Lagunari edota bere egunkarian idaztean agertzen zaigun maistraren hizkera -herrikoen hizkeraren aIdean hain ezberdina-testu-estrategiatzat jo dezakegu, testu-estrategiatzat hainbat hitz idaztean gaztelerazko testuan darabiltzan maiuskulak, orobat bere metafora erretorikoak ("Melanargia Russiae bat naiz. Kortxo bati josita nago orratz batez, eta odolustuz nihoa piska banaka", 45. or.) zein batez ere mitxeletak aipatzean erabiItzen dituen latinezko hitzak, ezen honek guztiak eragina baitu pertsonaia honen gainean egingo dugun aktualizazioan (bere burua nagusitasunez ikusten duen eta 'kulto'tzat daukan persona bezala imajinatzera bideratuko gaitu, adibidez, pertsona erromantiko eta narzisista bezala ikustera, etab.). Bidenabar esanda ere, pareko testu-estrategia geneukake Laura Sligoren istorioa kontatzen digun narratzaileak -eta Laurak berak ere-darabilen ingelesezko hitzez jositako hizkera eta baita, halaber, Villamedianako narrazioan pertsonaia bakoitzaren ahotan jarritako erregistro ezberdina ere. Narrazio honekin bukatzeko, gaztelerazko testuan agertzen zaigun xehetasun berri bat (ez baita jatorrizko bertsioan azaltzen) aipatu nahi genuke. Zenbaketen ostean '~si la suma me sale bien" edota "si la cuenta no me sale mal" bezalako zehaztapenak erantsi ditu idazleak gaztelerazko testuan. Behin eta berriro agertzen zaizkigun zehaztapen hauek eragiketen aurrean adi egotera bultzatzen gaituzte. Eta honek badauka bere garrrantzia, ezen estrategia honi esker ez zaigu oharkabean igaroko gaztelerazko bertsioan -euskarazkoan ez bezala-batuketa baten emaitzan tronpatu egin dela:</p><p>(...) dando primero ciento veinte pasos, y luego ochenta, y mas tarde setenta y cinco, y a continuaci6n veintid6s; completando, si la suma no me sale mal, un total de doscientos cincuenta y siete pasos (97. or.).</p><p>Are gehiago, kontuan izanik prezeski maistraren egoerak okerrera egiten duenean dela emaitza okerra (hots, Manuel etxera 10 egitera gonbidatzean egindako transgresioaren ondorioz izuak hartzen duenean: "Ya no era la mujer del Corazon Confuso; era la mujer del Corazon Asustado", 96. or.), errakuntza berak ere testu--estrategia baten funtzioa beteko luke, pertsonaiaren barne egoeraz -edota bere aldaketaz-jabetzen eta berau gauzatzen lagun gaitzakeen aldetik eta neurrian. 44 3.2.3. Testu-estrategiak eurrez aurkituko ditugu Atxagaren testuetan; asko dira eta ezberdinak, narrazio nahiz elaberrien izenburu ezin esanguratsuagoetatik hasi eta pertsonaien izenetaraino. <ref type="bibr">45</ref> Hain esparru zabala besarkatu ezinean, oraingo honetan testu-estrategia baten esparrura mugatuko da gure azterketa: metaforarenera, hau da, metaforak testu-estrategia legez jaso duen erabilpenera. Hortaz, ez gara erabilpen erretorikoa jasotzen duten metaforez ari (xedetzat apaingarritasuna duen erabilpenaz), kontakizunari -testuaren argumentuari-lotzen zaizkion metaforez baizik, horrexegatik gure irakurketa baldintzatzen duten testuaren seinale legez jokatzen duten metaforez zehazki esateko. Metaforok hari bat osatzen dute testuaren oihalean eta hari honek testua albaintzeaz batera gure aktualizazioan gidatuko gaitu.</p><p>Beste lan baten erakusten genuenez <ref type="bibr" target="#b15">(Azkorbebeitia 1996)</ref>, metaforaren erabilpen honek berebiziko garrantzia du Atxagaren poetikaren bilakaeraz argia ematen duelako. Alegia, islatzen duelako Atxaga lehen garaiko esperimentalismotik urrundu dela (hizkuntzaren tratamendu ironikotik jaiotako metafora abangoardisten bidea aide batera utziz) eta urrundu dela, gainera, logikotasunaren eta argitasunaren bidean barrena abiatzeko. Bilakaera honen fruituz, hain zuzen ere, metafora apaingarritasunari begirako baliapide erretoriko bezala erabili ordez, idazketa-lanabes bezaia -testuari lotzen zaion estrategia bezala-erabiliko du, modu iogiko baten.</p><p>(44) Frantsesez dagoen testuan ere huts egite berbera azaltzen cia ("d'abord cent vingt pas, puis quatre-vingts, plus tard soixante-quinze, et enfin vingt-deux; ce qui fait en tout, si mon compte est bon, deux cent cinquante-sept pas", 90. or.) eta baita, halaber, ingelesezkoan ere ("one hundred and twenty steps, then eighty, then seventy-five and finally twenty-two, making -if my sums are correct-a total of two hundred and fifty-seven steps", 70. or.). Esanguratsua da, zentzu honetan, Atxagak gaztelerazko testua aukeratu izana Obabakoak beste erdaretara itzuli orduan (frantsesezko argitalpenean itzultzaileak gaztigatzen digunez ohar baten, uObabakoak a fait l'objet en Espagne cl'une double publication, l'une en basque (... ), l'autre en espagnol (... ). Le present volume est une traduction du texte castillan, selon la volonte de Bernardo Atxaga qui en est, par ailleurs, l'auteur", 409. or.). Orduko hartan (1996: 125-127) Obabakoak-eko «Klaus Hanhn» narrazioan arrainaren metaforak estrategia gisa jokatzen duen papera aztertu genuen -gaztelerazko bertsioan indarturik agertzen da paper hau, han erakutsi bezala-eta, baita ere, Zeruak-en zeruaren gaineko metaforak jokaturikoa (zeruari buruzko erreferentzia paisajistikoa baino harago emakumeaz h.itz egiten digun eta, beraz, argumentuari lotzen zaion estrategia geneukakeena). Oraingo honetan Zeru horiek-en, Bi anai-n eta, azkenez, testu labur eta berriagoetan paper berbera jokatzen duten metaforez arituko gara.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.4.">Zeru horiek</head><p>Zeru horiek-en ere elaberriaren ardatza da zeruaren metafora. Hemen ere zeruari buruzko aipamenek zeruari buruzko informazio deskriptibo hutsa baino gehiago argumentuaren ingurukoa ematen digute -horrexegatik metaforatzat har ditzakegu aipamenok-eta argudioarekiko lotura hauek hari bihurtzen zaizkigu testuan aurrera egiteko.</p><p>Testu honetan Zeruak-en baino hari gehiago zabaltzen ditu metafora honek, oraingoan ere zerua emakumearekin lotzen duen haria finkoa delarik ere. Zeruaren gaineko aipamenak usu agertzen zaizkigu, emakume gazte honek behin eta berriro so egiten baitio zeruari, eta honek, azken buruan, bere bizitzaren azken urteak gartzelan eman dituen pertsonaia hau ulertzen lagunduko gaitu. Aintzat hartzekoa da, hasteko, gartzelan zegoela ezin ikus zezakeela zerua bere osotasunean, zeruaren zati bat baino ezin zuela begietsi. Ulergarria da, hortaz, behin irtenda zeruak bere baitan sortarazten duen erakarpena. 46 Bere ikuspenak lasaitu egiten du, lagundu (ik. 52. or.), zeruaren itxuraren -batik bat kolorearen-eta andrearen barne egoeraren artean hari bat egongo bailitzan. Ez kasualitatez, "zerua urdintzen zihoala ikusiz, gogo onez zegoen bere burua ere" (51. or.); Bartzelonan zegoelarik bere aldartea bestelakoa zenean, ostera, grisa zen zerua eta aurreko gaua puta bat bezala tratatu zuen gizonarekin grakaz zikindutako izaren artean eman izanak bere baitan ernarazi duen umiliazio sentimenduaren oihartzunez "zeruak maindire zikin bat ematen zuen <ref type="bibr">H (32. or.)</ref>.47 Areago, Bartzelonatik urruntzeaz batera "zerua aldatuz zihoan", ebaki urdinak agertuz (37. or.). Baina gau horren gogorapenak oraindik kolpatzen du emakumearen gogoa eta honela zeruak ere gogoratuko du gaua: emakumeak gizonari egindako zaurien ondorioz maindireak zikindu dituen odolaren islada ager-(46) Gauza bera gertatzen da geltokiaren deskribapenarekin. Emakumearen begien bidez ikusten dugu geltokia, hain zuzen gartzelan ez zeude1ako liluratu duten gauzak direlarik deskribatzen zaizkigunak: koloreak eta mugimendua. la-ia zorabiatzeraino liluratzen dute tren geltokian sartu ahala: "Tren geltokiaren barruan sartu orduko, zorabio batek oreka galtzeko arriskuan jarri zuen (. .. ). Begiratzen zuen lekura begiratzen zuela, han zerbait gertatzen zen, dirdirka hasten zen argi bat, edo erori egiten zen ume bat maleta-gurdiska batekiko estropozoa zela-eta, edo korri egiten zuen norbaitek burua ordutegiaren koadro elektronikorantz okerturik, eta halako mugimendurik ez zenean, berriz, bere begiek estropozo egiten zuten -umeak maleta-gurdiskarekin bezala-, batimenduaren zutabeko ispiluekin edo plastikoaren gorri edo hori bizi-biziarekin" (8-9. or.). Horrexegatik zehazten zaigu, nik uste, ordenadorearen pantaila Ilurdin koloreko pantaila" dela (10. or.) eta -gaztelerazkoan-bidaiariak zain dauden guneko aulkiak berde kolorekoak direla.</p><p>(47) Gema Lasarteren iritziz, "maindire zikinak Zeru horiek-en metafora bihurtzen dira", pertsonaia sinesgaitz egiten duen gertakizun horren ondorioz narrazioari "tonu triste, grix, inpotente, zikin eta kiratsduna" dariolako zentzuan (1995: 15). tuko du zeruak ere ("ebaki urdinen inguruetako lainoek i tzal gorrixtak zeuzkaten, urarekin behin eta berriro garbitu nahi izandako odoI mantxen modukoak H , 37. or.). Gorago esan dugunez, zeruaren metaforak emakumearengana hurreratzen gaituen hari honekin batera bestelakoak ere eskaintzen dizkigu testuan barreneratzeko. Gogora dezagun hasieratik marmolezkoa den "sabai gris eta gogar bat" bezala deskribatzen zaigula <ref type="bibr">(16. or.)</ref>. Bada sabai honek beste sabai bat ekar diezaguke gogora: "Sixtinako sabaia" (126. or.). Bestela esanda, 'zeruko ganga' deitu ohi denaren gainean egindako aipamenek badute loturarik elaberrian oinarrizkoa den Sixtina Kaperaren gangaren motibuarekin, batetik biak direlako 'sabaiak' eta, bestetik,' Kapera horren gangan Migel Anjelek ]ainkoa eta Adan irudikatu zituelako, zeintzuk hain zuzen zeruan kokatzen baitira eta zeruarekin lotzen.</p><p>Hariaren muturreraino joanda Sixtina Kaperaren gangaren motibua oinarrizkotzat zergatik jotzen dugun ulertuko da: bertan marrazturiko irudiak -Margaritak Ireneri oparitutako koadroan azaltzen denak-emakume gazte honen bizipen garrantzitsuenetariko baten oihartzuna dakarkigu. "Bere bizitzan izandako lagunik lagunena H zen Larrea (44. or.) azkenekoz ikusi zuen egunean, euren arteko harremanari bukaera eman zioteneko hartan, abiatzerakoan Larreak eskua autoaren leihatilatik atera bazuen ere, "despedidaren urduritasunagatik agian, huts egin zuten, eta beraien eskuak ez ziren airean egokitu" (64. or.). Biarritzeko etxearen lorategian ez bezala (ik. 59. or.), oraingoan beraien behatzek ez zuten elkar ukitu; besoak elkarri luzaturik geratu ziren, baina elkarri ukitzeke, hain zuzen Jainkoa eta Adan bezalaxe Migel Anjelek marrazturiko irudian. Hari hauek guztiak ez dira kasualak, Atxagaren hitzok argiro agertzen dutenez:</p><p>Metafora batek egiten du pixkat adarrak eman (... ). Nik erabakita neukan eskuena ze asko inporta zait eszena hori. Gero pentsatu nuen 'ze ondo, bobedan dago, ondo lotzen zaidak', zerua da 'b6veda celeste' esaten dena. Orduan Kapera Sixtinako bobeda erabiliko dut.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>48</head><p>Laburbilduz, zerutik Kapera Sixtinara, Kapera Sixtinatik koadrora, koadrotik Larrearengana, Larrear'engandik Irenerengana, metafora honen harien bidez zerutik emakumearenganaino goaz berriro ere. Eta emakumearenganaino goaz ere, azkenez, zerua emakumeak egiten duen bidaiarekin lotzen den aldetik, bai bidaia fisikoarekin, bai -nolabait deitzearren-barne bidaiarekin. Alegia, eta bidaiaren lehen zentzuaz den bezainbatean, emakumeak Bartzelonatik Bilbora egindako bidaiak zerutik -hegan-egindako bidaia baten antza hartzen du, ezen autobusa abioia bailitzan izan baita tratatua. Behin eta berriro adierazten zaigunez, abiadura itzelean doa (gazteIerazko bertsioan zehazki aipatzen zaigu: "el autobus ya habfa alcanzado 10s ciento cuarenta 0 ciento cincuenta kilometros por hora" , 82. or.; euskarazkoan, berriz, ez: "segituan hartu zuen bere abiada gorena", 83. or.) eta joan, hegan eginez bailihoan (berriro ere gaztelerazko testuak era esplizituagoan agertzen du autobusaabioia lotura: "El autobus se deslizaba transmitiendo una sensacion de ingravidez, coma si volara", 85. or.; euskarazkoa, artean, iradokorragoa da: "Autobusa zinta baten gainetik bezala linburtzen zen", 86. or.). 'Zerua-bidaia' haria hain da finkoa (48) Autorearen komunikazio pertsonala. non biek daukaten emakumearengan balio (terapeutiko' berbera: biek lagundu egiten diote, lasaituz ("zeruari begiratu zion. (. .. ) han azaltzen ziren zulo urdinak ttikiegiak ziren bere izpirituari (. .. ) sarrera emateko. Halere, lagundu egiten zioten. Autobusaren motor urrumak bezalaxe", 52. or.).</p><p>Gatozen orain bidaiaren beste zentzura. Gure aburuz, zerua emakumearen barne bidaia legez plantea litekeen beraren gogoaren ihesarekin ere lotzen da, azken buruan -eta hasieratik esaten genuenera itzuliz-emakumearen barne egoerarekin. Inguruak itotzen duenean beraren begiradarentzat ihesleku da zerua, babesleku ere den bezaIaxe, eta, hartara, zeruari behin eta berriro so egiteak Ireneren aIde egiteko gogoaren ondorio -eta islada-dirateke. "Gauza negatiboez inguraturiko bere izpiritu urduriari" Iagundu egiten dio zeruaren ikuspenak (52. or.) hain zuzen ihesbide bat jartzen diolako begien aurrean. Are gehiago, irakurleoi hari hau oharkabean igaro ez dakigun, (Iberarentzat idatzia iruditzen zitzaion" Oteizaren liburuko ondoko pasartea eskaintzen zaigu, zeinak "ezin hobeki adierazten zuen bere aldartea" (52. or.):</p><p>Oso ume nintzela, Orio nire jaioterrian, aitonak hondartzara eramaten gintuen paseoan. Izugarrizko atrakzioa sentitzen nuen haren barnekaldean zeuden zulo haundi batzuekiko. Etzanda jarri eta gorde egiten nintzen haietako batean, eta hala, inguruko dena ezkutatzen zenarekin batera, nire gaineko zeruaren gune bakarrari begira gelditzen nintzen. Babes-babestua sentitzen nintzen. (... ) Vme garaian hondarrezko zuloan izandako esperientzia ihes bidai batena zen, nire ezerez ttikitik zeruaren ezerez haundira, eta haraxe sartzen nintzen, aldegiteagatik, salbazio nahiaz.</p><p>Gure emakumearengana itzuliz, zergatik aldegin nahia? -gaIde geniezaioke geure buruari-, zeri egin ihes? Bi hitzetan esateko, errealitateari beldur diolako errealitatearengandik ihes egin nahiak kilimatzen dio gogoa. Hauxe dugu, hain zuzen ere, pertsonaia honen (edota, zehazkiago esateko, bere izaera, aldarte eta barneegoeraren) muina eIaberriaren hasieratik ia bukaeraraino eta, baita ere, kontakizunaren eraikuntzarako zutabea. Artean geltokian dagoela, inguruko errealitateak urduritzen du, pertsekutatua sentitzeak beldurtzen, eta jendearen begiradei iheska dabil (ik. 34. or.), "bere bihotz barman / betirako kondenatu bat dago"elako (orrialde berberean gogorarazten zaizkigun Joseba Sarrionandiaren hitzak erabiIiz).</p><p>Baina ez da hau emakumea izutzen duen errealitate bakarra. Lehen orrialdeetan bertan (aitarekiko elkarrizketan) bere burua "traidore" legez definitzen duen andre honek (32. or.) bizitzari berari dio beldur, behin Bilbora iritsita hasi beharko duen bizitza berriari, lagunik ezaren ondoriozko bakardadeari,49 egoera ekonomiko penagarriari (45. or.), horrenbeste non bere buruaz errukituko den inoiz: "Atzerrian dabilen gizon beltz baten egoeran nago -pentsatu zuen" (23. or.); berriro ere gaztele-(49) "Zergatik zegoen bakar-bakarrik? Non zituen anai-arrebak? Eta lagunak? Bere lagun guztiek arbuiatzen al zuten damutu bezala jokatzeagatik?" (29. or.); bakardadearen inguruko gogoetak pittin bat garaturik agertzen dira gaztelerazko testuan: "iPor que no habra ido nadie a esperarla? iD6nde estaban sus hermanos? i Y los amigos? Sabia que muchos de ellos la despreciadan por desentenderse de la organizaci6n y actuar como una arrepentida, pero le resultaba duro aceptar que aquella actitud fuera la de todos, la de todos. sus amigos sin excepci6n" <ref type="bibr">(27. or.)</ref>. razko testua esplizituagoa da: "«Estoy colgada», penso (... ). Nadie la habfa esperado en la puerta de la carcel. Nadie la esperaba en Bilbao. Como hubieran dicho Antonia o Margarita, tenIa pocos boletos. Los mismos que un turista pobre en un pals extrafio" <ref type="bibr">(22. or.)</ref>.</p><p>Kontakizuna bera egoera eta sentimendu hauen gainean eraiki da. Ez bekigu ahantz polizia gazteak egiten duen Irene zuritzeko/seduzitzeko saiakera, ezta ere saiakera horretan poliziak prezeski egoera eta sentimendu horiek darabiltzala argudio legez, azkenean "tristea bada ere, [errealitatea] onartu beharra daukazu H <ref type="bibr">gomendatzeko (93. or.)</ref>. Haatik, Ireneri zail egiten zaio errealitate hori onartzea eta errealitate horri aurre egitea. Horrexegatik ematen du bidaia ihes-ametsetan, dela Pampara, dela hondartza ondoko mojen etxera. Eta horrexegatik ere -gorago esandakoari berriro eutsiz-so egiten dio behin eta berriro zeruari, zeruari begira bederen bere gogoak aIde egiten duelako, hain zuzen emakumeak gogoratutako poemak -ez kasualitatez Atxagarena berarena den poemak-50 dioen legez (99. or.): Jarri zinen zeruari begira, eta esan zenidan: hegorik banu, ni ere saianiko nintzateke lur berrien bila, jasoko nuke nire kanpamendua bandera beilegiz seinalaturiko kostan; hobeto egin dezan denborak bere lana, ahantz nadin betirako hiri honen murraila eta jendeaz.</p><p>Bidaia (bai bidaia fisikoa, bai gogoarena) zerutik egindako bidaia izan dela aintzat hartu dugularik aise ulertuko dugu bukaerak autobusetik espaloirako jaitsiera "errealitatera egindako jaitsiera" bezala definitzea. Errealitatera egindako jaitsiera da, gainera, bidaiaren zentzu biei dagokienez: batetik, Bartzelonatik ia hegan eginez etorri delarik autobusa, heltzea zerutik Bilbora -Bilboren errealitatera-jaistea da; bestetik, bidaian zehar bere gogoa errealitatearengandik iheska ibili delarik (horregatik onartu du, ia-ia, mojek egin dioten euren etxera joateko gonbidapena), Bilbora heldu eta ihesa ezinezkoa dela erabakitzea, errealitateari aurre egitea, errealitatera jaistea da, baita ere. Azken unera arte bere gogoa ihes-ametsetan hegan ibili ostean (gogoratu justu autobusetik jaitsi baino lehenxeago mojen gonbitea onartzekotan dagoela: "une hartan, onartzearen aldekoa zen. Egin zezakeen proba bat, bakarrik bi astez edo, gauzak nola zeuden ikusi arte" , 138. or.), oraintxe, atetik espaloira -errealitatera-jaistearekin batera, ihesaren ezinezkotasunaz jabetuko da51 eta ezetza emango dio gonbiteari: Ez, ez zuen onartuko inbitazioa, ez zen mutil eta neska eriak zaintzera joango modu horretan babesean eta mundutik aparte bezala egoteko. Gainera, posible al zen bada ihes egitea? Ez, ez zen posible. Airea bera bezala, munduaren sustantzia ankerrenak zirrikitu guztietatik sartzen ziren, edonora, baita gela esrankoetan gordetako bizitzetara ere (139. or.).</p><p>(50) Ik. <ref type="bibr">Poemas &amp; hfbridos,</ref><ref type="bibr">12. or. (51)</ref> Alegia, orain onartu egingo du orain arte susmatu izan duen ezinezkotasuna (zehazki, gorago jasotako Atxagaren poema eskaintzerakoan: uBanu, nintzateke, nttke, aditzaren joskera hipotetikoak. Gertatu ezin zenari hizkuntzak jartzen zion makilaia", 99. or.).</p><p>Honela emakumea Bilboko kaleetan barrena abiatuko da, errealitatean barrena, eta azken bidaia burutuko du, "Kanpotik Barrura zihoana" (140), haurtzaroko guneen mintzoa dakarkiona. Orduan ere, elaberriaren bukaeran bertan, zerua lagun izango du: "gelditu eta zeruari begiratu zion. Ez zegoen erabat ilun" <ref type="bibr">(140. or.)</ref>. Eta oraingoan ere, zeruari buruzko aurreko aipamenetan bezalaxe, zeruaz haragoko informazioa komunikatu digu idazleak (horrexegatik jo ditzakegu aipamenok metaforatzat), aldi berean gure aktualizazioa gidatuz (testu-estrategiaz hitz egin dezakegu ondorioz), dela esperantza izpi batez tindaturiko bukaera baterantz, dela beste norabide baterantz.</p><p>Azterketak agertu duenez, zeruaren metaforak zabaldutako hariek testua hasieratik bukaeraraino bilbatzen dute. Hona heldurik baiezta daiteke, hortaz, testua teknika oso landu eta logikoaz izan dela eraikia testu-estrategia legez erabili den metafora hau zutabetzat erabiliz. Honengatik guztiarengatik (eta hainbat arrazoi gehiagorengatik ere) zail egiten zaigu onartzen elaberri honek Utrama plausible y pueril" bat daukalako Raman <ref type="bibr">Irigoyen-en iritzia (1996)</ref>.52</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.5.">Bi anai</head><p>Bernardo Atxagaren testuen eraikuntza logikotasun horretan eta estrategia narratibo tinkoen erabilpenean oinarritzen da beraren idazketaren bereizgarri bihurtuz. Bere ia-ia hasierako lanek (Ri anai-k, kasu) agertzen duten joera hau, gainera, areagotuz joan da urteotan zehar. Obabakoak-en eta Zeru Horiek-en ikusi dugunaren antzera, Bi anai-ren erdal bertsioan ere indarturik agertzen zaizkigu jatorrizko bertsioaren hainbat testu-estrategia, batetik bestera igarotako urteen -alegia, idazlearen poetikan emandako bilakaeraren-ondorioz. Dos hermanos-en epilogoan Atxaga bera ere mintzo da jauzi horretaz: "Bastaron un par de consejos y la invitaci6n a publicarlo para que me pusiera a escribirlo de nuevo (. .. ). En terminos vagamente aritmeticos, yo diria que Dos hermanos es igual a Bi anai mas-menos once afios de la vida de su autoe <ref type="bibr">' (157. or.)</ref>.</p><p>Testu hauen estrategia ugarien artean aurreikuspen-estrategiak aipa genitzake hasteko.53 Narrazioaren hasieran entzuten ditugun zakurren uhuriak, elizako kanpaiaren hotsak eta, orobat, apaiza legez gauzatuko dugun~~beltzez jantzitako gizon"aren presentziak heriotzaren hurbiltasuna aurresentitzera garamatza irakurleok. Seinale hauen eta heriotzaren artean ezarri dugun lotura, testuan aurrera berretsiko duguna, esplizituagoa da gaztelerazko testuan ("Comprendf que los aullidos (52) Onartezina zaigu, halaber, Arxagak zenbait metafora erabiltzean eta erabiltzeagatik "pueril vision de la realidad" agertzen duelako baieztapena eta are onartezinago baieztapen honi eusteko Irigoyenek darabilen argudioa bera: "El mayor problema que encuentra aquf el lector es aceptar la pueril vision de la realidad que exhibe a menudo el auror desde el comienzo mismo de la novela. He aquf unas frases: 'La puerta sintio su cercanfa y tuvo una especie de temblor' (segundo parrafo de la novela, pagina 7). Como es obvio, las puertas solo pueden sentir y temblar en un cuento como BLancanieves y Los siete enanitos" <ref type="bibr">(1996)</ref>. Diodan, onartezin zaizkidan iritzien zerrendarekin ez luzatzearren, pertsonaiaren ingelesa mailaz zein "frases muy ingenuas"ak direla-eta aipatu kritikariak dioenarekin ez nagoela batere ados.</p><p>(53) D. Shaw-ek ere, Borges-en narrazioen gaineko bere azterketan, estrategia narratibotzat jotzen ditu <ref type="bibr">aurreikuspen-teknikak (1990: 152-154).</ref> de 10s perros anunciaban una muerte", "El dfa terminaba. Y la vida de alguien que vivfa en la casa de las ventanas tambien terminaba" eta, beltzez jantzitako gizona ikustean, "es una de las senales de la muerte", 16 eta 17. orrialdeetan). Aurreikuspen hauetaz gain, hasieratik narrazioaren bukaera gauzatzen lagunduko gaituzten igarpenak ere azaltzen zaizkigu, txoriaren ahotan ("Paulo bera ere ikusi nuen bere anaiarekin, paseoan karretera bakarti batetik", 24. or., "Pauio eta Daniel ikusi nituen eskutik hartuta eta karreteran oinez" nora eta "trena ikustera", 30-31. or.) zein katagorrienean ("ze pena gerora etorri zena", 30. or., "orduan ez geneukan orain daukagun penarik", 31. or., "inor ez zen bere adarretik mugitu, zergatik ordurako pena piska bat baitzeukaten denek, ez oraingo pena, baina bai pena piska bat", 38. or.).</p><p>Harago joanda, katagorriak hilik agertzeak edota sugeak txoria akabatzeak ere gure aktualizazioa baldintzatzen du Danieli eta Paulori zerbait gertatu edo gertatuko zaielako susmoa gure baitan ernaraztean, eta hori testuak inplizituki ezarritako animalien eta pertsonaien arteko erlazio metaforikoari esker. Animaliok, honela, pertsonaien metafora geneuzkake,54 sugeak txoria hiltzeak -adibidez-txoriaren bukaeraz haragoko informazioa transmititzen digun une beretik (Carmenen Pauloren gaineko garaipenaz, esaterako). Aldi berean, gainera, erlazio metaforiko hauek gidatu egiten gaituzte testua aktualizatzerakoan. Hortaz, testu-estrategia legez jokatzen duten metaforen -edota erlazio metaforikoen-aitzinean gaude berriro ere.  <ref type="bibr">39-40. or.)</ref>. Txoriak, aldiz, oharmen sakonagoa dauka, argiagoa baita -Paulo bezala-,55 aise konturatzen delarik Carmenen hizketa '~propio lasaia" dela (58. or.) eta "abots itsusiko hori zorrotza da"la (61. or.). Txoriarentzat, gai-nera, Carmenen abotsa itsusia da ezen "rxistu egiten zuen batzutan" (58. or.), alegia, sugeak: legez. Txoriak hauteman duen sugearen eta Carmenen arteko parekotasuna iradokizunetik adierazpen zuzenera igaro da testua gazteleraz jartzean: "Esta chica es una serpiente -pense" (75. or).</p><p>Egiaz, sugearen eta Carmenen izaerak ere zeharo bat datoz (biak dira zuhur, (54) L. D. Izpizuak ere iritzi bera agertzen du (1985: 4), animalia bakoitza narratzaile izateak eta bakoitzak berarekin lotzen den istorioaren zatia kontatzeak "nobelaren batasuna hautsi egiten" duela bukatzeko. Nik neuk, ordea, ez dut hau akats bezala jotzen, lorpentzat baizik, honi esker narrazioan eratzen diren hutsuneek (gap direlakoek) irakurleon partizipazioa bultzatzen baitute.</p><p>(55) Gaztelerazko testuan txoria eta Pauloren arteko lotura hori (eta baita enparatuak ere) are finkoagoa da, ondokoa bezalako esplizitazioei esker: "PauIo hab16 como si tambien el fuera un pajaro" (22. or.). maltzur eta gaiztoak);5 6 bat datoz iritzietan ("Hori ez diat sekuIa barkatuko, PauIo" dio Carmenek eta sugeak, jarraian, "Akort naiz eritzi horrekin, etorri zitzaidan gogora", 74. or.) eta bat asmoetan ere ("Guztiak pagatuko dizkiak, Paulo -erran zuen orduan neskak. Gero bertze kontsiderazino bat egin zuen, alegia bere desiorik tinkoena Paulori min egitea zela. Eta niri ere desio berbera sortu zitzaidan, min egin behar niola mutil hari" , 75. or.). Sugeak PauIo "begizuloduna" bezala dakusa eta Daniel "buru haundia" bezala (90-91. or.) -erdeinuz, beraz-, Carmenen begietatik ikusiko bailuen. Batak dioskuna bestearen gaineko informazioa da, azken buruan (sugeak jaia gorrotatzeak Carmenen beraren jaiaren gaineko sentimendu berbera dakarkigu gogora; Danielek eraztunen jokoan huts egin eta jendeak burla egiten dionean, "ni bozkarioz nengoen" dio sugeak, 102. orrialdean, eta honek Carmeni dagokionez sentimendu berbera aktualizatzera garamatza, etab.).57 Espero genezakeenez, oraingoan ere indarturik eta era esplizituagoan agertzen du lotura hau gaztelerazko bertsioak: iritzien zein izaeren arteko adostasuna gehiagotan azaltzen da (mendeku~ren aIde agertzean, kasu, 98. or., edota hizkera faItsua goraipatzean, 125. or.), eta konexioa zuzenean aipatzen (sugeak "cuando hay que matar, se mata" pentsatzean eta jarraian "No voy a matarle" Carmenek, "Di6 la impresi6n de que habia oido mi comentario. Quizas fuera asi, quizas ambos estuvieramos conectados por la voz" ,58 103. or.).</p><p>Urrunago joanda, lotura hauek kontakizunean aurrera gidatuko gaituzten seinaleak bihurtzen dira, gertaeren mailan ere suertatuko den bateratasunaz erne egotera bultzatzen baikaituzte. Bestela esanda, katagorriak hilik agertzean (hain zuzen Daniel zoro baten antzera dabilenean Teresaren atzetik bere anaiari berari jaramonik egiteke) irakurleak erraz sumatuko du Danieli ere laster baten zerbait negatiboa gertatuko zaiola. Era berean txoria iturri ondoan distirak itsutu eta "sugeak galduko nau orain" igartzeak (87. or.) -jarraian bete egiten da igarpena-Pauloren istorioa ere norabide horretan gauzatzera garamatza,-jakin badakigulako sugeak txoriari min egite honek berarekin dakarrela Carmenek Paulori min egitea. Eta badakigu, orobat, antzarak sugea akabatzeak sugearen bukaera baino harago bi anaien istorioarena seinalatzen digula: Carmenengandik eta Daniel lotuta edukitzera behartu zituen gizartearengandik ihes egingo dute, heriotzaren bidez -zentzurik estuenean-edo metamorfosiaren bidez -zentzurik fantastikoenean-. Oro har azalpen honekin. ados bagaude ere, zehaztapenen bat egin nahi genuke, Bi anai-n azalpen honetan agertzen den lau urtaroen eta animalia bakoitzaren lotura borobil hori -ziklotasun perfektu hori-gertatzen ez delakoan baikaude. Bi anai-n katagorriak ez dira udazkenean agertzen, udaberrian baizik, eta ez ditu neguak hiltzen, udak -beroak-baizik ("Udara asko gaiztotu zen eta Danielekin hainbeste jostatutako katagorriak hilik azaldu ziren ganbaran", 77. or.); hots, eta jauzi bat egitea bada ere, azken buruan katagorrien heriotza sugearekin legoke loturik, uda sugearen aroa baita (sugearen esanetan, "Iguzkiak berotasuna ematen zion nire odolari, eta indarrez betetzen ninduan, eta ausardiaz", 89. or.). Hortaz, esan genezake eIaberri honetan bai txoria eta bai katagorriak ere udaberriari lotzen zaizkiola, artean sugea udari datxekiolarik, eta honela, udak udaberriari amaiera dakarkion bezaIa, sugeak -Carmenek-bien amaiera dakarreIa: txoriarena eta katagorriena (PauIo eta DanieIena, besteIa esanda). Azkenik, festak bukatu eta antzara agertu arte zenbat denbora igarotzen den zehazten ez zaiguIa (badakigu, dena den, eguzkiak bere indarra gaIdu duela), udazkena izan daiteke ala negua antzararekin lotzen den urtaroa eta udarekin -sugearekin-akabatzen duena.</p><p>Nolanahi ere, animalia ezberdin bakoitzari urtaro ezberdin bat ote dagokion eta horrela eIaberria benetan lau urtaroen gainean eraikita ote dagoen -ikusi dugu haIako egitura perfektua ez deIa gertatzen-baino garrantzitsuagoa begitantzen zaigu animaIien eta urtaroen artean bai animaIien bai pertsonaien inguruko gertaerekin zuzenki erIazionatzen den lotura esanguratsu bat egon badagoela. BestaIde, zeharo interesgarri eta zuzen deritzogu Aldekoak antzarari onartutako zikIotasun baIioari, ezen "antzarrak bere hegadarekin heriotza eta bizitza iragartzen bait dizkigu: negua iragarriz ziklo bat ixten du, eta, udaberria iragarriz, ziklo bat zabaltzen" (1992: 31). Antzara azaIdu eta sugea/uda akabatu ostean, bi anaiak ere trenaren azpian hilko dira, berriro bizitzen hasteko.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.6.">Hasierako testuetatik testu berriagoetara</head><p>Ezbaian jar ezina da, honez gero, Bi anai testuaren oihala ezin biIbatuago dagoela goian azaldutako erlazio metaforiko haiek guztiek zabaldutako harien bidez eta ezin da zalantzan jarri, halaber, hariok gidatu egiten gaituzteIa testu hau irakurtzerakoan. Atxagak Bi anai-rekin erakutsi zuen testuak ahalik eta gehien bilbatzeko joera hau (eta bilbatu, ikusi dugunez, testu-estrategia Iegez jokatzen duten metaforen eskutik sarritan) ordutik gaurdainoko beraren produkzioaren bereizgarri bilakatu da. Joera honen emaitza dira, adibidez, alfabetoa zutabetzat hartuz eraikitako testuak -benetan ugariak-59 nahiz Ietrek osatutako hezurduraz baIiatzen diren pasarteak.</p><p>(59) Besteak beste, «Abecedarium haur-literaturari buruz» (1986), «Abecedario para BIas de Otero» (1989), «Abecedario para la decimoseptima exposici6n de Mariano Arsuaga» (1991), «Alfabeto -Ohartu, esaterako, Gizona bere bakardadean-en paisaia itxia (hotela, iturria, igerilekua, etab.) zortzi elementuk osatzen dutela eta honek narrazioari begira bilbe bezala jokatzen duela edota, Atxagaren hitzetan esateko, alfabeto bezala C'es como tener un alfabeto. Tu vas de la piscina a la chabola del pan y de ahi a la charca donde descansa el hombre y de ahi al hotel, y es un alfabeto que te sirve para la narracion", in <ref type="bibr">Fajardo 1994: 48)</ref>.</p><p>Alfabetoaren egiturak eta letren hurrenkerari zor zaion ordenak, honela, lagundu egiten dio gure idazleari kontakizuna zein gai baten inguruko hausnarketak era logiko eta argian aurkezten ("Creo que los alfabetos son mas que una pura serie de letras: (... ) se trata de un buen sistema para cualquier exposicion", Atxaga 1993c: 76), ondorioz eta aldi berean irakurleok ere laguntzen gaituela. Bi norabidetan funtzionatzen duen testu-estrategia da, beraz: bai irakurketari begira, baina baita idazketari begira ere.</p><p>Harago joanda, sarritan testu-estrategia hau funtzio berbera jaso cluen metafora batekin konbinatu du idazleak. Halaxe gertatzen da «Alfabeto sobre la literatura vasca» (1993) lanean, non testua egituratzen duen alfabetoak ibaiaren metafora daukan zutabe. Testu-estrategia 'bikoitz' honen eskutik testua ibai bihurtzen da, "un rfo por el que todos navegaremos a 10 largo de las paginas siguientes" (76. or.). Testua --eta berarekin gu, irakurleok-"Aviso para navegantes"etik abiatzen da "Barco"ren laguntzaz "Corriente"an barreneratzeko, "rio abajo en busca de los primeros textos de la literatura" (78. or.). Ibaian behera -testuan aurrera-contrapas-ekin egingo dugu topo eta Gero-rekin geroago, hain zuzen G-ren forma daukan hondartzara heltzean (80. or.), azkenean "Naufragio"an bukatzeko.</p><p>Zalantza barik, ibaiaren metaforak gaiaren aurkezpena -gure irakurketa ere, ondorioz-gidatzen du eta gauza bera esan daiteke usoaren metaforaz «El laberinto vasco. De Euzkadi a Euskadi» (1996) testuan. Gogora dezagun umetan eskolako mahai-kideak "Nik bizia emango nikek Euzkadiren aIde" esan zuenean, idazle oraindik umea zeharo inpresionatuz, uso erdi orlegi erdi marroi bat agertu zela basotik euren gainetik igaroz "como queriendo rubricar la afirmacion" <ref type="bibr">(38. or.)</ref>. Eta gogoratu ere narratzaileak berak, "temeroso de que mi compafiero se diera cuenta de mi ignorancia", gauza bera errepikatzean berriro agertuko dela usoa (38. or.). Aurrerantzean usoen agerpena ez zaio inongo irakurleri hegaztien aipamen hutsa begitanduko. Usoen agerpenaren eskutik umetan entzundako ideia horren inguruko hausnarketen berri emango zaigu, usoen iragaiteak ordutik honainoko denboraren iragaitearen eta berarekin batera gertatu den egoeraren eta iritzien aldaketaren seinale gisa -testu-seinale edo estrategia gisa-jokatuz: "pasaron mas palomas verde y marron por encima de nuestras cabezas, y (. .. ) nuestra idea de Euzkadi fue amplianfrances sobre una canci6n de mar» (1992), «Alfabeto frances en honor aJ. L. Borges» (1993), «Alfabeto sobre fantasmas en el que s610 la M habla de milagros» (1993), «Alfabeto sobre la literatura vasca» (1993)) «Cuento sorprendente en forma de alfabeto» (1993), «Alfabeto sobre una canci6n de mar» (1994)) «Du A d'avertissement au Z de zoo» (1994), «Mendiari buruzko alfabeto berria / Nuevo alfabeto sobre la montafia» (1994), «Sobre el tiempo» (1995), «Valverde: el futbolista fot6grafo» (1995), «Alfabeto sobre la cultura vasca» (1995), Mendian gora <ref type="bibr">(1996).</ref> dose" (39. or.), "pasaron mas palomas sobre nuestras cabezas, y de pronto una tarde llegaron cientos de guardias civiles" (40. or.), "fueron pasando las palomas sobre nuestras cabezas, y la dialectica entre Imposible y Represion comenzo a ser preocupante" (42. or.).</p><p>Estrategia honek testuari batasun bat ematearekin batera eta bere egitura euskarritzearekin batera gure aktualizazioa baldintzatu du, usoak -batik bat zuriakdauzkan konnotazioen bidez gure baitan bukaerako mezuaz igurikimen bat ernaraztean (itxaropenezkoa, uso zuria ere agertuko delakoan dagoenarentzat edo desesperantzazkoa, orain arte agertutako usoen koloreari erreparatu eta zuria falta dela ohartu denarentzat). Testuaren amaiera igurikimen honekiko jolasean datza hain zuzen ere: "Es tiempo de palomas. Si me dejara arrastrar por el reflejo retorico pondrfa punto final diciendo que lleganin muchas palomas, palomas de todos los colores, pero que la blanca, esa que tantos esperan, no llegara. Sin embargo (...)" (42. or.).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Esandakoak bilduz, azken gogoetak</head><p>Atxagaren testuetan zehar egindako indeterminazio-guneen eta bestelako testuestrategien gaineko azterketa honek hasieran plazaratu dugun euren garrantziari buruzko aierua indartzen du, gure ustez. Hona heldurik, ugari bezain esanguratsu diren testu-estrategiok -indeterminazioa barne-Atxagaren testuetan funtsezkoak direla baiezta daiteke eta funtsezkoak, are gehiago, literatur fenomenoaren bi ardatzei dagokienez (bai harrerari dagokionez, bai idazketari eta bere euskarri diren planteamenduei dagokienez), argia ematen baitute bataz zein besteaz.</p><p>Azterketak agerian utzi duenez, irakurlearen partehartzea ametitu ez ezik, bultzatu ere egiten duten testuak opatu dizkigu Atxagak (zehazki esateko, Bi anai--tik aurrera eta gero eta joera indartuago bat erakutsiz) honela euren harrera bera faboratuz, testuok eragindako irakurlearen birsorketa horixe baita esperientzia estetikoaren funtsa. Testuok, hasteko, ko-kreatzaile izateko gonbitea zuzentzen digute indeterminazioaren eskutik. Obaba espazioa, Zeru horiek-eko pertsonaia eta afektibitatearen trasmisioa-besteren artean-inguratzen dituen indeterminazioak derrigorrezko egiten du gure partizipazio aktiboa, informazio-hutsuneok bete egin behar baititugu. Bete, gainera, nork bere esperientzia-horizontearen zolan beteko ditu, horrela testua bere eginez eta testua berarengana hurbilduz. Harago joanda, eta kontuan hartuz irakurleak jokoan jartzen dituen bizitza-esperientziak (zehazkiago hitz eginda, bizi-horizontetik eratorritako informazioa) testuak bere zati determinatuetan azaleratutakoekin nahasiz eta uztartuz doazela irakurketan aurrera, irakurlea bera ere testura hurbiltzen da edota, azken finean, testuaren atzean dagoen idazlearengana. Esperientzia-ezagutzen bidezko elkar-topatze -potentzial-honek harrerari mesede egiten dio eta, halaber, testuari balio ,unibertsala eransten.</p><p>Ohart gaitezen honek guztiak aldi berean Atxagaren poetikaz -bai eta honek jasan duen bilakaeraz ere-argia ematen digula, irakurlearekiko kontaktu hau testuok Atxagaren bizi-horizontearen zolan izan direlako idatziak izan baita posible. Bestela esanda, bizi-horizonteari bizkarra emanda edota, bederen, horizonte literarioari lehentasuna emanez idatziak diruditen Ziutateaz eta Etiopia bezalako testuen ostean Atxagak bere bizi-horizontea berreskuratuko du (gogoratu "bidaia joan eta etorrikoa~' izan dela) eta abarotzat hartuko tes.tuak idazten jartzerakoan. Ondorioz, testuok -euren parte determinatuek-horizonte horren oihartzunak helaraziko dizkigute eta hain zuzen euren bidez irakurleokiko (gure esperientzia eta bizi-horizontearekiko) kontaktuari bide emango zaio.</p><p>Honengatik guztiarengatik Atxagak testu hauekin irakurlearenganako urrats bat eman duela esan liteke. Irakurlego zabalago baten esperientziari (eta ez soilik, hasierako lanetan bezala, literaturan jantzia den irakurlegoarenari) dei egiten dioten testuak jarri dizkigu eskuartean, testu irekiak, indeterminazioari esker. Irekitasunak gure partehartzeari ateak zabaltzen dizkion bezala testuon argitasunak ere gure partehartzea errazten duo Testu-estrategiak zutabetzat hartuz, Atxagak era logiko eta argian eraiki ditti testuok, honela irakurketarako berebiziko laguntza eta gidaritza eskainiz. Azterketan zehar ikusi dugunez, jori eta erabakiorrak dira testu-estrategiok (gogoratu, esaterako, «Post tenebras spero lucem» narrazioko urratsen kontaketa eta hizkeraren estratifikazio soziala, bestelako narrazioetan ere agertzen dena). Hauen artean azpimarragarriak dira (eta Atxagaren testuetan gero eta nabarmenagoak) paper berbera jokatzen duten metaforak, hala nola arrainaren metafora «Klaus Hanhn» narrazioan, zeruarena Zeruak-en eta, askoz garatuago, Zeru horiek-en, animaliena Bi anai-n, ibaiarena «Alfabeto sobre la literatura vasca» lanean, usoarena «El laberinto vasco. De Euzkadi a Euskadi» testuan, etab. Metafora hauek testuaren egitura bilbatzen duten eta, aldi berean, gure aktualizazioa gidatzen duten hariak zabaltzen dituzte testuaren oihalean.</p><p>Hemen testuaren eraikuntzaren -eta, baita ere, gure harreraren-oinarrian dauden testu-estrategiei idazleak emandako garrantzia urteekin areagotuz joan dela azpimarratu beharrean gaude. Euskarazko bertsioen eta gaztelerazkoen arteko erkaketak erakutsi duenez, testu-estrategiak garaturik eta indarturik agertzen dira bigarrenetan (gogoan izan, adibidez, «Post tenebras spero lucem»-eko urratsen kontaketei gehitutako "si la cuenta no me sale mal" bezalako zehaztapenak eta oraingoan gertatutako errakuntza; gogoratu, orobat, Dos hermanos-en heriotzaren inguruko aurreikuspen-estrategiak zuzenkiago adierazten zaizkigula) eta gauza bera esan daiteke testu-estrategia legez jokatzen duten metaforez ere: gaztelerazko testuek hari finkoagoz ezarri dituzte loturak. Arrainaren metaforarekin gertatzen zen bezalaxe (ik. <ref type="bibr">Azkorbebeitia 1996: 126-127, 38. eta 39. oharrak)</ref>, autobusa eta abioiaren arteko haria finkoagoa da Esos cielos-en, indarturik baitago eta inoiz esplizituki adierazita, gorago agertu dugunez. Gauza bera gertatzen da Dos hermanos-eko metaforei dagokienez ere (gogoratu Paulo eta txoriaren arteko lotura metaforikoa zein Carmen eta sugearen artekoa erabat gardena dela esplizitazioaren ondorioz). Nabaria denez (eta azterketan zehar ere iradoki dugunez), ondorio hau beste era baten plantea daiteke ere, alegia, Atxagak gaztelerazko bertsioetan esplizitazioaren aldeko joera erakusten duela ohartaraziz, artean euskarazko testuak iradokorragoak direlarik.</p><p>Urrats bat emanda, honek guztiak bestelako gogoetetara eraman gaitzake. Azterketatik ondoriozta daiteke, hasteko, Atxagak testu-estrategien bidez ondo bilbatutako testuak idaztea maite duela, logikoki egituratuak (joera honen garrantzia urteekin indartuz joan izanak are nabarmenagotzen du). Teknika zorrotza du lanabes diskurtsua eraikitzeko orduan. U rrunago joanda, teknikari emandako garrantzi hau orijinaltasunaren ukapenaren ondorioetarik bat ez ote den hausnartzea interesgarria da zinez. Bestela esanda, ez da harritzekoa "istorio on guztiak idatzita daudela H <ref type="bibr">(Obabakoak,</ref><ref type="bibr">342. or.)</ref> defendatzen duen idazle batek bere indarrak istorio on bat bilatzen baino gehiago istorio" bat ondo kontatzen jartzea. Horretarako eta horregatik lehen mailan jarriko ditu testuaren egiturakera, diskurtsuaren eraiketa edota tratamendua bezalako aspektuak. Bada teknikari esker ondo eraikitako diskurtsuari lehen mailako garrantzia emate honek harago garamatza. Abangoardiak, ordura arteko kontatzeko modu tradizional estereotipatuen higadurak ekarritako komunikatzeko ezintasunari irteera bilatu nahian, kontatzeko moduari eman zion lehentasuna. Aintzat harturik abangoardia kontatzeko erari garrantzia emate honek definitzen duela batetik eta, bestetik, egia bada ere Atxagak Obabakoak-ekin kontakizuna berreskuratu zuela abangoardiaren bideetatik aldenduz, orduan bere testuek oraindik -eta gero eta gehiago-erakusten duten diskurtsuaren eraikuntzari idazleak ematen dion garrantzia abangoardiaren zantzu izan daiteke. Atxagaren beraren ondoko adierazpena hipotesi hau indartzera dator: Nada pasa en balde, nada se puede borrar con un kleenex en la vida. (. .. ) estoy empezando a reeuperar algo de aquello [bere abangoardia garaiko poemez ari da]. Empiezo a eseribir algunos euentos con esa intenei6n vanguardista de manipular la forma <ref type="bibr">(in Prego 1995: 42).</ref> Bestalde, Atxagaren lanaren harreraren inguruan gogoeta zenbait egin genitzake. Esan dugunez, idazle honek testu irekien aldeko apustu argia egin du, horrerarako indeterminazioaz ahal bezainbeste baliatuz irakurlego zabal batengana iristeko asmoz. Atxagak berak ere, J. Otamendirekiko elkarrizketan (1996), Zeru horiek idaztean gogoan izan zuen irakurleaz aurkezleak egin zion galderari erantzutean, "gaur egun ez dut konkretatzen errealitatea, gauza hurbilak ez ditut jartzen H aitortu zuen. Ezbaian jar ezina da, beraz, Asteasuko idazleak oso gogoan daukala irakurlea testua idazterakoan eta badirudi, halaber, hemengo errealitateari lotzen zaion irakurlea barik irakurle 'unibertsala'goa daukala gogoan. Areago, idazleak -eta literaturak berak-beharrezko dauka jarrera hau autismoaren amildegirantz abiatuko ez bada. Atxagaren hitzak gure artera ekarriz 105 leetores son eomo un espejo en el que mirarse. Sin el, seguro que aeabarfas pintarrajeandote. Y eso le ha pasado a la poesfa, por ejemplo, que al dar la espalda a los leetores (...), se ha ido eonvirtiendo en agua muerta. Lo eual no quita que siempre pueda haber gente que deeida ser aurista <ref type="bibr">(in Fajardo 1994: 47)</ref>.</p><p>Bernardo Atxagaren testuak ez dira, inondik inora, autismoaren bidea hautatu duen batenak. Gaur egun idazterakoan irakurlegoa -hasieran baino zabal edo unibertsalagoa, gainera-oso kontuan hartzen duela nabaria da honez gero. Azken buruan, Atxagak testuaren harrera bera hartzen du kontuan. Horrexegatik harrera hori bultzatzera zuzentzen dira beraren testuak, indeterminazioaren eta bestelako testuestrategien bidez irakurleon partehartzea bilatzera, eta lortu ere lortzen dute euren asmoa. Hauxe daukagu, ene aburuz, Atxagaren testuek daukaten harrera zabalaren arrazoi intratestual nagusienetarikoa.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>hermeneutikan, R. Ingarden-en fenomenologian eta Pragako estrukturalismoaren barruan kokatzen diren J. Mukarovsky eta F. Vodieka-ren hainbat planteamendutan dauzka bere erroak. Dena den, ezin ahantz daitezke beste autore zenbaitek (L. Sehueking-ek, D. W. Harding-ek eta M. Riffaterre eta S. E.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>, laburbiduz, Obabaren eta Obabakoak-en muina dateke eta baita, ikusi dugunez, bere harrerarena ere. Hurrengo lanak ere, lekuzko eta denborazko kokapena zehazturik eduki arren (eta zehazturik, gainera, erreferentzia-marko erreal baten barruan), indeterminazioaz baliatzen dira. 3.1.3. Obabakoak-etik Zero horiek-era Behi euskaldun baten memoriak zubi dugula Obabakoak-etik Gizona bere bakardadean-era igarotzearekin batera idazleak narrazioa Obabaren zein iragan lausoaren indeterminaziotik atera zuen hurbileko errealitatearen eta determinazioaren esparruetan kokatzeko. Izan ere, hauxe da, hainbaten, bi lan horien arteko ezberdintasun nagusienetakoa, Atxagaren lanean hirugarren garai bati hasiera ematen dion bilakaeraren ezaugarri funtsezkoenetarikoa bestela esanda. Honela, Gizona bere bakardadean lanean lehen orrialdean bertan zehazten zaigu istorioa 1982ko ekainak 28an hasten dela eta Bartzelonan kokatzen; bestalde, Zeru horiek-en ere idazleak oraina aukeratu du eta Bartzelonatik Bilbora doan autobusaren zehaztasun espaziala.3 5 (34) Denborazko urrunketa (haurtzaroaren oihartzunak dakarzkiguten istorioetan) zein lekuzkoa (Hamburgora garamatzatenetan) Obabakoak-en ardatz litzateke eta pasioak leuntzeko bide, 1. Martlnezqe Pis6n-ek azpimarratu duenez: "Para eso [para rehuir 10 explfcito y esquivar la desmesura y el efectismo} esta Hamburgo, el lugar de 105 hechos en presente. Para eso estan Hamburgo y los oeros e5cenarios remotos. La distancia cumple entonces la funci6n del eiempo, y si antes era la memoria la que amortiguaba las pasiones, es ahora la lejanfa la encargada de hacerlo" (1989).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>(</head><label></label><figDesc>39) Ikus, adibidez, Joseba Sarrionandiak adierazirakoa Ni ez naiz hemengoa lanean (1985: 87). aurrean onartu behar ez izateko' edota 'hain da handia kargua galtzeak dakarkion lotsa eta amorrua non korrika aIde egiten duen umeek ikus dezaten baino lehen' edota chain da sakona bere etsipena non indarge sentitzen den umeei aurre egiteko eta etxean -basoan-ezkutatzea besterik ez zaion geratzen', etab. Honela, afektibitatea irakurleon partehartzearen emaitza da azken buruan. 40 Ondorioz, eta partizipazioari esker, testua birsortu eta gure egiten dugu, gugana hurbiltzen, ko-kreatzaile izate honek aldi berean hurbiltzen gaituelarik idazlearengana.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>berrehun eta berrogeita hamar pauso etxetik eskolarako bidea -eta alderantzizegitean ("Etxetto gris eta txuritik eskolaraino ehun eta hogeitamar pauso zeuden aurrena, eta gero berrogei, eta hurrena berriz larogei, denetara berrehun eta berrogeitamar pauso", 48. or.), mila eta bostehun pauso paseoa ematean bere urtebetetzean ("paseo bat eman zuen bere etxetto gris eta txurira itzuli aurretik, aurrena zazpirehun pauso eginez kanposanturaino, eta gero hirurehun ermitaraino, eta hurrena bostehun; denetara mila eta bostehun pauso eginez", 55. or.), etab. Ordea, narrazioaren momentu zehatz baten handia da urratsen kopurua: hogeitasei mila pauso ematen ditu maistrak Bazkaltzera sartu gabe, maistrak oinez segitu zuen, mendi aldera, eta zazpi mila pauso egin ziruen segidan, erreka baten jaiolekuraino irirsi arte; eta gero beste bost mila Obabako herria menera hartzen zuen gailur bateraino; eta hurrena (... ) lehengoak eta bi mila gehiago. Azkenean, jada hogeitasei mila pauso eginak zeuzkanean, nekaturik eta gose sartu zen bere sukaldean (S 5. or.).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>( 42 )</head><label>42</label><figDesc>Gogoratu basoaren esanahiaz 3.1.2. azpiatalean esandakoa. (43) Transgresioak eta mugen zeharkatzeak Atxagaren lanetan maiz agertzen zaizkigun leitmotiv-ak dira (trikuak ere "zeharkatu egiten du / belardiaren eta kamio berriaren arteko muga", Poemas &amp; hfbridos, 8. or.), lfiaki Aldekoak ere azpimarraru duenez (1992: 71-72).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>( 45 )</head><label>45</label><figDesc>Gorago ere aipatutako Ma ]. Olaziregiren tesi-lanean (1996b) aurkitu ahako du irakurleak honelako estrategiei -eta, orobat, bestelakoei-buruzko azterketa sakona, Obabakoak eta Behi euskaldun baten memoriak testuei dagokienez.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>eta Koldo Zuazori euren laguntza eta oharrengatik. 2. Zenbait zertzelada Harrera-Teoriaren gainean 2.1. Konstantzako Eskolaren nondik norakoak Harrera-T eoria (Rezeptionstheorie) Konstantzako Eskolaren barruan kokatu ohi da, Harrera-Estetika edota Rezeptionslisthetik delakoarekin batera. 4 Literatur teoriaren pa-(2) Ma. J. Olaziregik Atxagaren zenbait testuk (zehazki Obabakoak eta Behi euskaldun baten memoriak</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>Ghar hau Mari Jose 01aziregiri zor diot. ez dut uste honelako datu urri eta ezkutuek Obaba ingurune erreal horrekin lotu beharreko espazio determinatua bihurtzen dutenik, irakurle gehienek Mugats Asteasuko benetako baserri baten izena dela ez dakitelakoan bainago. Hortaz, Obaba aktualizatzean irakurlegoaren gehiengoak nekez -jarriko du jokoan Iturriotzeko bentatik gertu dagoen -tamalez 'zegoen' esan beharko genuke egun-Mugatsen inguruko informazioa eta, hala ere, aktualizazio hori zilegi izango da, ezen Obaba Asteasuren inguruetako informazioaren bidez -eta soilik honen bidez-konkretizatzea zinez beharrezkoa izan balitz, testuak irakurlegoaren gehiengoarentzat argiro ezagunak ziratekeen datuak agertuko zituzkeen. Honengatik guztiarengatik gorago Obabaren indeterminazioaz eta ondoriozko konpartigarritasunaz agertutako iritziari eustearen aldekoa naiz.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>). Zentzu honetan, Obaba izenaz bataiaturiko espazio indeterminatu honek 'infinitu birtual' gisa jokatzen du (ikus Atxagaren azalpena inLinea d'  Ombra 1993: 13 eta Iglesias 1989. Begibistan dagoenez, honek ere Obaba Astea-surekiko berdinketa loturan azaltzen zuen planteamenduaren eznahikotasuna agerian uzten duo Ondoren datozen lerroak iritzi beraren aIde egitera datoz, Atxagaren hasierako eta geroagoko testuen arteko jauziaz mintzatzera eramango gaituen bestelako alderdi baten ikuspegitik.3.1.2. Obaba: lehen urratsa bizi-horizontearekiko loturaren berreskuraketarantzEgon badago, azkenik, azalpen horri eznahiko irizteko beste zio bat. Diodan, alabaina, 'eznahiko'tzat jotzeak ez duela planteamendu horren erabateko ukapena aditzera ematen. Eznahiko deritzogu Obaba Asteasuren transposizioa dela esateari, Obaba -ikusi dugunez-hori baino gehiago delako, hori ere izan daitekeela ukatzeke. Obaba Asteasurekin lot daiteke Atxagari dagokionez, alegia, espazio horren asmaketari eta asmaketa horren zolan dagoenari dagokionez. Baina sorketaren ardatz honetan ere ez da zeharo egokia, guk uste, Obaba Asteasuren transposizio gisa definitzea. Sorketa edota idazketaren ardatzean ere Obaba hori baino gehiago da, espazio geografiko hori ez ezik, geografia horretatik harago dauden hainbat aspektu gehiago biltzen dituelako bere baitan: idazlearen hainbat esperientzia, euren balio afektiboa, Atxagaren mundu-ikuskera, etab. Obaba, honela, Asteasuren transposiziotik baino gehiago idazleak bizi izandako esperientzia eta gertaera multzotik jaio delakoan gaude, bai eta horiek guztiek idazlearentzat daukaten balio afektibotik (ik.Aldekoa 1992: 38-41). Atxagak berak iturburu hauek azpimarratu ditu Obabaren zutabetzat: Nik askotan esaten dut pertsona baten jaiolekua entitate inmaterial eta metafisikoa dela pertsona horrentzat; espazio bat baino gehiago, bertan bizi izandako gertaera eta istorioez osatutako sare bat. Hemen izan nuen borroka halakorekin, hor ikusi nuen neska bat bikiniz aurreneko aldiz, etc., etc. Iragan afektibo bat duen geografia horrek, nire kasuan Obaba izena du (in Linea d' Ombra 1993: 14).Gainera, idazlearen esperientziek eta hauen balio afektiboak osatutako 'iragan afektibo' horrekin ez ezik, Obaba idazlearen mundu-ikuskerarekin ere legoke loturik, gure aburuz. Loturik legoke, adibidez, 'hiria/herria' oposaketan barik 'basoa/kultura' oposaketan datzan ikuskerarekin:Konturatu nintzan mundua ez dala zertan berezi behar mundu urbano-a eta mundu errural-a esanaz; ez dala hori munduari buruz egin daitekeen bereizketa bakarra. Mundua bereizi daitekeela baita ere «kultura» eta «basoa» bi aldeak jarriz. Hori da, ez mundu errurala eta urbanoa, baizik eta Dlundua, baso dana, eta mundua, kultura dana(Atxaga 1990: 14).Basoa kulturaren munduari kontrajarritako espazioa da eta baita ere, era berean, mundu horretatik apartatu nahi dutenen gordeleku (ik.Atxaga 1990: 15).Honela, Atxagak Obaban barneratzen gaituenean Basoaren eremu horretan barneratzen gaitu eta, beraz, espazio geografiko baten erdian baino gehiago munduikuskera baten erdian kokatzen.'Obaba = Asteasu' berdinketak Obabaren -bere sorketaren-oinarrian dauden lotura eta aspektu hauek guztiak jasotzen ez dituenez gero, nahiago dugu Obaba Atxagaren esperientzia-horizontearen zolan edota, zehazkiago, bere bizi-horizontea-ren zolan jaio dela esan (gogoratu kontzeptu honetaz 2.4. azpiatalean esandakoa eta ohartu kontzeptu honek aipatu lotura eta aspektuak bere barnean jasotzen dituela). Ohartu, orobat, 'Obaba'ri buruz ez ezik, espazio hau euskarritzat duten testuei eurei dagokienez ere beste horrenbeste esan litekeela.Testuok idazlearen bizi-horizontearekiko loturan sortuak izan direla onartzeak 28 -onarpena muturrera eramanez, lotura jakinaren gainekoa izan dela esatera ausart gintezke-bide ematen digu Atxagaren lanaren garapenari buruzko gogoeta bat egiteko. Izan ere, lotura hau biziki garrantzitsua da, gure iritziz, Atxagaren lanaren bilakaeraren adierazletzat har daitekeelako eta, harago joanda, bere heldutasunaren erakusletzat. Hau da, Atxagaren lanean onartu ohi diren garai ezberdinak lotura honek (edota loturarik ezak) bereiz ditzakeelakoan gaude.Hitz gutxitan esateko, Ziutateaz eta Etiopia bezalako lanek idazlearen horizonte bital horri bizkarra emanda idatziak dirudite edota, bederen, horizonte horri baino gehiago horizonte literarioari emanez lehentasuna. Badirudi bertako testu zein poema gehienak ez direla egilearen bizi-horizontearekiko loturan jaio, dela garai hartan idazle oraindik gazteak bere bizi-horizontea baloratzen ez zuelako, dela horizonte hori osatzen zuen esperientzia multzotik eta inguruko errealitatetik ihes egin beharra sentitzen zuelako, dela literatura eta horren inguruko~rreferentzia eta joerak onartzen zituelako testuen zola bakartzat (edota, berriro, ihesaren lagun eta babeslekutzat), dela bestelako arrazoi bategatik. Ondorioz, Etiopia bezalako testu batek irakurleon bizi-horizonteari baino areago eta harago, gure horizonte literarioari dei egiten dio, horizonte honetan surrealismoaz, espresionismoaz nahiz bestelako joerez, Rimbaud, Trakl, Schwob nahiz Eliot bezelako idazleez eta euren lanez, etabarrez metaturiko informazioa jokoan jarri araziz. Ezin ahantzi dugu, gainera, testu hau hainbat idazleren aipamen esplizituez josita dagoela eta hauek edozein irakurleri testua literaturaren gainean eraikita dagoela irmoki gogorarazten diotela behin eta berriro.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>Determinaziorantzako urrats horren gibelean dagoen erregistro aldaketa (zehazki, erregistro Hartara, aipatu lanok begien aurrean hartuta, badirudi indeterminaziotik determinaziorantz doan garapen bat gertatu dela. Garapen hau, alabaina, ez da bat--batekoa izan. Idazleak tartean idatzi eta argitaratu zuen Behi euskaldun baten memoriak lanarekin Obabaren indeterminaziotik Bartzelona eta Bilboren determinaziora igarorzeko zubia eraiki zuen. Obabaren inguruko lanetan ez bezala, honako honetan istorioak hurbileko errealitatean kokatzen gaituzten zehaztapenei zirrikitu bat ireki die (1940. urrea, Gerra Zibila ...), ate bat determinazioari. Baina, bestalde eta aldi berean, Mo-ren ibilerak espazio gandutsu eta indeterminatu baten barrena garamatza, urrun oraindik Bartzelonako hotelaren nahiz Bartzelonatik Bilbora doan autobusaren zehaztasun errealetik eta determinaziotik. Bilakaera, beraz, honela labur liteke: giro oniriko batez inguratu gintuen Ziutateaz-en indeterminazio izugarritik,36 Obabaren eta hone~abaroan jaiotako istorioen indeterminaziora, urrats bat emanda eta Behi euskaldun batel1 memoriak-en indeterminazio/determinazio hibridoak irekitako iraganbideari esker, Gizona bere bakardadean-en eta Zeru horiek-en determinaziora heltzeko.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>Are gehiago esanda, honako hau testuaren zutabe nagusiena da, gure iritziz: idazleak animalien eta pertsonaien artean ezarri dituen hariek -hari zinez finkoekkontakizuna bilbatzen dute hasieratik bukaeraraino. Honela, txoria Paulorekin -zein alderantziz-lotzen duen hariak, katagorriak Danielekin lotzen dituenak, sugea eta Carmen elkarrekin lotzen dituenak eta, azkenez, antzara eta bi anaien artekoak bikote bakoitzean bateratasun bat albaintzen du, bai gertaeren mailan, bai pertsonaien nolakotasunarenean (izaeran, jarreran, ikuspegian, oharmenetan, asmoetan, etab.). Esan nahi da, katagorriak, adibidez, jostalari izateak definitzen ditu (ik. 35 -36. or.), hain zuzen Daniel bezalaxe, eta Carmen nahiz Teresaz daukaten oharmena prezeski Danielek daukana da (Carmen barre itsusia daukan neska bezala -eta horrela baino ez-hautematen dute eta Teresa, ostera, barre gozoa daukana bezala, ik.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>Egon badago, azkenez, lotura hauek guztiak eratzen duten bilbea are bilbatuago egiten duen beste hari bat, lfiaki Aldekoak agertu zuenez (1992: 31): animalien (beraz, pertsonaien, esan genezake) eta urtaroen artekoa. Bere hitzak gure artera ekarriz,(56) Carmen 'gaiztoagoa' da gaztelerazko bertsioan. Gogoan izan, esate baterako, bertsio honetan berak hiI egiten dueIa PauIo eta DanieIen aita, era anker bezain zuhurrean (ik. 101-102. or.).(57) J. M. Agirrek animaliei onartzen dien esangurak ere bat egiten du -eta aberastu ere-aipatu loturekin: "Txoriak ideaIismoa eta hauskortasuna suposatzen dau; antzarak heldutasuna, erabagia, urteera edo liberazioa; katagorriak umetasuna eta dependentzia; sugeak arroztasuna, maItzurkeria eta bortxa" (1986: 29). (58) Nik neuk mintzoaz ari dela uste dut, eta ez abotsaz (ohartu sugeak pentsatu egin duela hori, ez esan). Hortaz, Iotura sakona den zerbaitek ezartzen du, pertsonaien barruan dagoena, eta ez azalekoagoa litzatekeen entzumenak.Txoriak udaberrian egingo ditu habiak eta udaberrian hasiko da kantatzen, sugearen sasoia udarako bere· sargoriekin iritsiko da, kattagorriak udazkenean ikusiko ditugu pinu artean kulunkari, eta, bukatzeko, paseko hegaztien artean antzarra iritsiko da neguko hotzak iragarriz. Sugeak rxoria kraskatzen duenean, txoriari bere kantua isiltzeko tenorea iritsi zaion seinale, besre horrenbeste kattagorriari eta sugeari dagokienean: neguak desager araziko ditu. Bi anai errelato luzea urtaroen gain eraikitako mundua da. Lau urtaroen zedarripean eraikitako mundua laua cia, zirkularra (1992: 31).</figDesc><table /><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">[ASJU,XXIX-2, 1995,455-498]   </note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">El lector y la obra. Teorfa de la recepci6n literaria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Acosta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gredos, Madril. Agirre,J. M</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="28" to="29" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+	<note>ldatz &amp; Mintz</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Antzara eta ispilua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Aldekoa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Teorias de la lectura</title>
+		<editor>Zirkuluaren hutsmina, Alberdania, Irun. Antezana, L. H.</editor>
+		<meeting><address><addrLine>Erein, Donostia; Altiplano, La Paz</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">«Abecedarium haur-literaturari buruz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Atxaga</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1976" />
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="25" to="41" />
+			<pubPlace>Ziutateaz, Lur, Donostia; Donostia, Kriselu</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Erein</forename><surname>Obabakoak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donostia</forename><surname>Ing</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">!</forename><surname>Itz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">gazt. itz.: Ediciones B</title>
+		<imprint>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="1978" />
+			<publisher>Hutchinson</publisher>
+		</imprint>
+	</monogr>
+	<note>fr. itz.: Christian Burgois</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">VII-22) (baita ere Nueva Revista, 1990-111, 80. or.). ---, 1990, «Qbabakoak-en gainean</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>«abecedario Para Bias De Otero</surname></persName>
+		</author>
+		<editor>Bi anai, Erein, Donostia.</editor>
+		<imprint>
+			<date type="published" when="1985" />
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="11" to="30" />
+			<pubPlace>Qllero &amp; Ramos, Madrid</pubPlace>
+		</imprint>
+	</monogr>
+	<note>lgo arg. gazt. itz.: Dos hermanos</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Behi euskaldun baten memoriak, Pamiela, Irufiea. (gazt. itz.: Memorias de una vaca, A. Saban-ek itzulia</title>
+	</analytic>
+	<monogr>
+		<title level="m">Memoires dJune vache, A. Gabastou-k itzulia, Gallimard</title>
+		<meeting><address><addrLine>Ediciones SM, Madrid; Paris</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+	<note>fr. itz</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Abecedario para la decimoseptima exposici6n de Mariano Arsuaga</title>
+	</analytic>
+	<monogr>
+		<title level="j">Pamiela</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="23" to="26" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Sugeak txoriari begiratzen dionean, Erein, Donostia. (lgo arg.: 1984; gazt. itz.: Cuando una serpiente</title>
+		<imprint>
+			<date type="published" when="1992" />
+			<pubPlace>Barcelona</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Bi letter jaso nituen oso denbora gutxian, Erein, Donostia. (lgo arg</title>
+		<imprint>
+			<date type="published" when="1985" />
+			<pubPlace>Ediciones B, Barcelona</pubPlace>
+		</imprint>
+	</monogr>
+	<note>gazt. itz.: Dos letters</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Poemas &amp; hibridos, Visor, Madrid. (1. arg</title>
+		<imprint>
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Factor cinco: peri6dico de letras y de las otras culturas 1 (1992-XII)</title>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="87" to="90" />
+		</imprint>
+	</monogr>
+	<note>Alfabeto sobre la literatura vasca», Cuenta y raz6n. Pais Semanal (1993-VIII-15</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Gizona bere bakardadean, Pamiela, Irufiea. (gazt. itz.: El hombre solo</title>
+	</analytic>
+	<monogr>
+		<title level="m">LJhofne seul</title>
+		<meeting><address><addrLine>Ediciones B, Barcelona; Paris</addrLine></address></meeting>
+		<imprint>
+			<publisher>Christian Bourgois</publisher>
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+	<note>fr. itz</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">«Mendiari buruzko alfabeto berria / Nuevo alfabeto sobre la montana</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Zabalbideak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bbk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bilbo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Henry Bengoa inventarium; Aifabeto sobre la cultura vasca</title>
+		<editor>B. Atxaga</editor>
+		<meeting><address><addrLine>Autrement, Paris; Donostia; Donostia; Egin (biblioteka), Hernani; Elkar; Alfaguara, Madrid</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="60" to="64" />
+		</imprint>
+	</monogr>
+	<note>ZZEE (arg.), Cuentos de Futbol. El Pals Semanal 226 (1995-VI-18</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+				<title level="m">Zeru horiek, Erein, Donostia. (gazt. itz.: Esos delos</title>
+		<meeting><address><addrLine>Ediciones B, Barcelona</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">»</forename><surname>«ellaberinto Vasco. De Euzkadi A Euskadi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">La</forename><surname>Revista De El Mundo</surname></persName>
+		</author>
+		<title level="m">Euskal Literatura [hitzaldia]», Vital Kurxa Fundazioa</title>
+		<meeting><address><addrLine>Mendian gora, BBK, Bilbo</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="1996" to="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Atxaga eta</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Azkorbebeitia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Sarrionandiaren metaforetan barrena bidaiatuz</title>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="109" to="149" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Seis propuestas para el proximo milenio</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Calvino</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<pubPlace>Siruela, Madrid</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Culler</surname></persName>
+		</author>
+		<title level="m">Structuralist poetics, Routledge &amp; Kegan Paul</title>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1975" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">The Experience of Reading, Routledge</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">M</forename><surname>Davis</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+			<pubPlace>London/New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Lector in fabula. La cooperacion interpretativa en el texto narrativo</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Eco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Lector in fabula. La cooperazione interpretativa nei testi narrativi</title>
+		<meeting><address><addrLine>Lumen, Barcelona. (lgoa.; Milan</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1979" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+				<title level="m">Los llmites de la interpretaci6n</title>
+		<meeting><address><addrLine>Lumen, Barcelona</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">The Waste Land, A. Swan-ek itzulia eta argitaratua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">S</forename><surname>Eliot</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1982" />
+			<pubPlace>Ed. Swan, Madrid</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Fajardo</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Los lectores son un espejo en el que mirarse&apos;</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bernardo Atxaga</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="46" to="49" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">E</forename><surname>Fish</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Literature in the Reader: Affective Stylistics</title>
+		<imprint>
+			<date type="published" when="1970" />
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="123" to="162" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Alegoria tipologiko baten irakurketa politikoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">]</forename><surname>Gabilondo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Qbabazkoak</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Memoriae L. Mitxelena Magistri Sacrum</title>
+		<editor>A. Lakarra &amp; 1. Ruiz Arzalluz</editor>
+		<meeting><address><addrLine>Donostia; Egan</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="17" to="62" />
+		</imprint>
+	</monogr>
+	<note>ASjU-ren Gehigarriak</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">«Historia de efectos y aplicacion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">G</forename><surname>Gadamer</surname></persName>
+		</author>
+		<editor>Warning, R.</editor>
+		<imprint>
+			<date type="published" when="1960" />
+			<biblScope unit="page" from="81" to="88" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Abangoardiaren eta herri kulturen arteko ezkontza berezia jazo da Euskal Herrian&apos;», Euskaldunon Egunkaria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">K. ; «b</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Atxaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">25. Gorostidi, 1</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="30" to="33" />
+			<date type="published" when="0111" />
+		</imprint>
+	</monogr>
+	<note>Revista</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">«Teoria y practica acerca del lector impHcito</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Gnutzmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Revista de Literatura LIII</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="5" to="17" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">«La teoria de la recepcion</title>
+	</analytic>
+	<monogr>
+		<title level="m">Teorla de la literatura alemana</title>
+		<editor>R. Gnutzmann</editor>
+		<meeting><address><addrLine>S{ntesis, Madrid</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="213" to="227" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">La actual ciencia literaria alemana: seis estudios sobre el texto y su ambiente</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">U</forename><surname>Gumbrecht</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1971" />
+			<pubPlace>Anaya, Salamanca</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Psychological Processes in the Reading of Fiction</title>
+		<imprint>
+			<date type="published" when="1962" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="133" to="147" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Atxaga: &apos;La politica se parece demasiado a la religion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Hermoso</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">El</forename><surname>; «b ; »</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mundo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="page">69</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">«Bernardo Atxaga: &apos;Vivimos en ellenguaje como aire viciado&apos;</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Iglesias</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+			<biblScope unit="volume">16</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Ingarden</surname></persName>
+		</author>
+		<title level="m">Concrecion y reconstrucci6n</title>
+		<editor>Warning, R.</editor>
+		<meeting><address><addrLine>Tiibingen, Niemeyer</addrLine></address></meeting>
+		<imprint>
+			<publisher>Das literarische Kunstwerk</publisher>
+			<date type="published" when="1931" />
+			<biblScope unit="page" from="35" to="53" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">El acto de leer</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Irigoyen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Der Akt des Lesens, Miinchen</title>
+		<meeting><address><addrLine>Taurus, Madrid</addrLine></address></meeting>
+		<imprint>
+			<publisher>UTB-W</publisher>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+	<note>HTerritorios</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">The Act of Reading: A Theory of Aesthetic Response</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">!</forename><forename type="middle">Itz</forename><surname>Fink ; Ing</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1976" />
+			<publisher>John Hopkins University Press</publisher>
+			<pubPlace>Baltimore</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+				<title level="m">jat. UDie Appellstruktur der Texte&quot; in R. Warning</title>
+		<meeting><address><addrLine>Rezeptionscisthetik, Mlinchen, Fink Verlag</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1975" />
+			<biblScope unit="page" from="228" to="252" />
+		</imprint>
+	</monogr>
+	<note>La estructura apelativa de los textos</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">D</forename><surname>Izpizua</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Literatur Gazeta</title>
+		<editor>«Bernardo Aexagaren Bi anai</editor>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="3" to="5" />
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">«La historia literaria como desaffo a la ciencia literaria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">R</forename><surname>Jauss</surname></persName>
+		</author>
+		<editor>H. U. Gumbrecht et al.</editor>
+		<imprint>
+			<date type="published" when="1971" />
+			<biblScope unit="page" from="37" to="114" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+				<title level="m">La literatura como provocaci6n</title>
+		<meeting><address><addrLine>PenInsula, Barcelona. (jat.; Suhrkamp, Frankfurt</addrLine></address></meeting>
+		<imprint>
+			<publisher>Literaturgeschichte als Provokation</publisher>
+			<date type="published" when="1970" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Experiencia estetica y hermeneutica literaria, Taurus, Madrid. (jat.: Aesthetische Erfahrung und literarische Hern2eneutik</title>
+		<imprint>
+			<date type="published" when="1977" />
+			<pubPlace>Miinchen, Pink</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">El desierto, la selva y la ciudad</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Juaristi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Taurus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Madrid</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kortazar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Literatura vasca. Siglo XX</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="61" to="73" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+	<note>Literatura vasca. Siglo XX</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Todo esta roto y ese es su estado natura!&apos;», El Mundo</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">]</forename><surname>Lanz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename><forename type="middle">B</forename><surname>Atxaga</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="86" to="87" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">De Arranondo a Obaba pasando por Madrid</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Lasagabaster</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="85" to="92" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">«Afari ordez, afari-merienda», Igandegin (1995-VII-9), 15. Linea d&apos;Ombra, 1993, «Euskaraz idazteari buruz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Lasarte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Hiru elkarrizketa Bernardo Atxagarekin</title>
+		<editor>Emak Bakia</editor>
+		<meeting><address><addrLine>Pamiela, Iruiiea</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="9" to="14" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">«Instrucciones de uso»</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Martinez De Pis6n</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diario</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page">45</biblScope>
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Martorell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bernardo Atxaga. Peonzas dormidas</title>
+		<imprint>
+			<biblScope unit="page" from="5" to="7" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">«Gazteen (irakurketa) gustu eta disgustuak», AS]U XXVII-3, 821-875</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">]</forename><forename type="middle">A</forename><surname>Mayoral</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Arco/Libros</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Madrid</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ma</forename><surname>Olaziregi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bernardo Atxagaren harrera literarioa: proposamen bat», AS]U XXVIII-3, 683-706</title>
+		<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="35" to="48" />
+		</imprint>
+	</monogr>
+	<note>Literatur irakurketaren gaurkotasuna: gazteen zaletasun eta jokabideak</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Testu-estrategietatik soziologiara Bernardo Atxagaren unibertso literarioan</title>
+	</analytic>
+	<monogr>
+		<title level="m">Literatura~ta irakurlea</title>
+		<imprint>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note>tesi-lan argitaragabea, E.H.U.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">]</forename><surname>Oramendi</surname></persName>
+		</author>
+		<editor>«Bernardo Atxagari elkarrizketa», Noizean behin, E.T.B.</editor>
+		<imprint>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">]</forename><surname>Perez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+	<note>Poetica de la prosa de</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Borges</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Madrid</forename><surname>Gredos</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Prego</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bernardo Atxaga: el narrador invisible</title>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="volume">391</biblScope>
+			<biblScope unit="page" from="38" to="45" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Los personajes son como fantasmas que habitan en el escritor&apos;», Deia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">; «b</forename><surname>Reclondo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Atxaga</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="page">70</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Criterios para el an,Hisis del estilo</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Riffaterre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Criteria for Style Analysis</title>
+		<editor>Warning, R. (arg.</editor>
+		<imprint>
+			<date type="published" when="1960" />
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="154" to="174" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E H</forename><surname>Saalbach</surname></persName>
+		</author>
+		<title level="m">Literatura alemana: Teoria de la Recepci6n</title>
+		<imprint>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title level="m" type="main">Lur eremua [T. S. Eliot-en The Waste land-en itzulpena</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Sarrionandia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bi</forename><surname>Izuen Gordelekuetan Barrena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bilbo</forename><surname>Lbo Aurrezki Kutxa</surname></persName>
+		</author>
+		<editor>G. Aresti, J. Sarrionandia &amp; J. Juaristi, 1983, T. S. Eliot euskaraz</editor>
+		<imprint>
+			<date type="published" when="1981" />
+			<pubPlace>Hordago, Donostia; Pamiela, Irufiea</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Ni ez naiz hemengoa</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Sobre algunos aspectos de la estrategia narrativa de Borges</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Shaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">S. Mattalia (arg.), Borges J entre la tradici6n y la vanguardia</title>
+		<meeting><address><addrLine>Generalitat Valenciana, Valencia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1990" />
+			<biblScope unit="page" from="151" to="158" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Inter-testualitateari buruz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Sobolewska</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Hiru elkarrizketa Bernardo Atxagarekin</title>
+		<editor>Emak Bakia</editor>
+		<meeting><address><addrLine>Pamiela, Irufiea</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="15" to="22" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">«Bernardo Atxaga, entre la selva y la escritura</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Turrau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">El Pafs Semanal</title>
+		<imprint>
+			<biblScope unit="volume">687</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="64" to="68" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<title level="m" type="main">Pdginas de viva voz: leer y escribir hoy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Urzainqui</surname></persName>
+		</author>
+		<editor>A. Ruiz de la Pefia</editor>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="157" to="162" />
+			<pubPlace>Oviedo</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Universidad de Oviedo</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<title level="m" type="main">«La concreci6n de la obra literaria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Vodicka</surname></persName>
+		</author>
+		<editor>Warming, R.</editor>
+		<imprint>
+			<date type="published" when="1989" />
+			<biblScope unit="page" from="63" to="80" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Estetica de la recepcion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Warning</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Visor, Madrid. (jat.: Rezeptionsiiswthetik. Theorie un Praxis</title>
+		<meeting><address><addrLine>Munchen, Fink Verlag</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1975" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">«Para una historia literaria del lector</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Weinrich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Flir eine Literaturgeschichte des Lesers</title>
+		<editor>Gumbrecht, H. U. et al.</editor>
+		<imprint>
+			<date type="published" when="1967" />
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1026" to="1038" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">D</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Readers in Texts</title>
+		<imprint>
+			<date type="published" when="1981" />
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="848" to="863" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Wolff</surname></persName>
+		</author>
+		<title level="m">Der intendierte Leser: Oberlegungen und Beispiele zur Einfiihrung eines literaturwissenschaftlichen Begriffs</title>
+		<imprint>
+			<date type="published" when="1971" />
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="141" to="166" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">El lector como productor: en torno a la problematica del metodo de la Estetica de la recepci~n</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Zimmermann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Der Leser als produzen: zur Problematik der rezeptionasasthetischen Methode</title>
+		<editor>Mayoral, J. A.</editor>
+		<imprint>
+			<date type="published" when="1974" />
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="12" to="26" />
+		</imprint>
+	</monogr>
+	<note>Lili. Zeitschri/t fiir Literaturwissenschaft und Linguistik, 4</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

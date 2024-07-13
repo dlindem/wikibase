@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">GAILUREN BILAKABIDEA GARAI BATEKO TESTUETATIK ORAINGOETARA</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Antton</forename><forename type="middle">Elosegi</forename><surname>Aldasoro</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universidad del País Vasco/Euskal Herriko Unibertsitatea)</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">GAILUREN BILAKABIDEA GARAI BATEKO TESTUETATIK ORAINGOETARA</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In this article, we wish to explain the distinct evolution undergone by the suffix gailu in the texts included in the historical and actual corpora. This evolution shows peculiar properties, for gailu has evolved from being a simple suffix to being a noun included as an independent entry in the dictionary. It is also singular with regards to its geographical distribution. What used to be a lexical resource of the French Basque area is now used more frequently (and more productively) in texts from the southern Basque Country. Within the current uses, it has largely become a normal resource in scientific and technological speeches, while the other uses have almost disappeared. We give evidence of all this based on the corpuses Orotariko Euskal Hiztegia, XX. Mendeko Euskararen Corpusa,  Ereduzko Prosa Gaur and Zientzia eta Teknologiaren Corpusa.   </p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sarrera*</head><p>Gaurko egunean bukaeran gailu 1 duten hitz ugari erabiltzen dira, bereziki Hegoaldean, eta oso modu nabarmenean zenbait espezialitate-hizkeratan. Gainera, begibistakoa da oso morfologia-prozesu emankorra eragiten duela. Bestela esanda, badirudi hiztunak oso era gardenean ikusten duela prozesua.</p><p>Horrez gain, esan daiteke kasu gehien-gehienetan gailurekin osatutako hitzen 2 esanahian formula hau betetzen dela: Xgailu &gt;&gt; X-tzeko tresna; baina, aurreko baiez-* Lan hau Euskal Herriko Unibertsitateak EHU 06/16 ikerkuntza-egitasmoari eman dion diru-laguntzari esker egin da. Nire esker ona agertu nahi diot egitasmoaren zuzendari Txankar Odriozolari aztergai honi buruz emandako aholku mamitsuengatik eta artikulua goitik behera berrikusten laguntzeagatik. Eta baita Izaskun Aldezabali aditzen sailkapenari buruz emandako argibideengatik.</p><p>1 Lan honetan gailu erabiliko dugu gutxienez hiru forma-aldaera <ref type="bibr">(-ailu, -tailu, -gailu)</ref> dituen eta atzizkia zein izen beregaina izan daitekeen osagai honi erreferentzia egiteko. Bestalde, osaeran gailu duten hitzak eratorritzat edo hitz-elkartetzat har daitezkeenez gailudun hizperria asmatu dugu erreferentzia erraztearren.</p><p>2 -ailu / tailu / gailu-z osatutako hitzak aztertzerakoan, bukaeran letra horiek, baina atzizkia izan gabe, daramatzaten hainbat hitz kausitu ditugu. Gainera, atzizkidunak eta besteak bereiztea lan zaila izan da, hainbat direlako tresna-edo baliabide-izenak. Hona, beste jatorrikoak direlakoan alde batera utzi ditugun hitzen zerrenda, eta azalpena: adailu, angaillu ('angarilla'), aparailu /apailu ('aparejo/aparato'), atrapailu ('trebejos'), dailu ('sega'), dildailu ('colgante'), dornallu ('apero'), gurtallu/burtallu, kanderailu ('candelero', 'Candelaria') mozorkallu, tarapailu (taratulu, 'taladro'), mailu ('martillo'), kardaillu, adreillu ('ladrillo'). tapen intuitiboak aski argiak diren bezala, baiezta dezakegu oraingo garaitik eta Hegoaldetik urrats bat kanpora eginez gero asertzio haiek zalantzan jarri edo ukatu egin behar ditugula.</p><p>Artikulu honen asmoa da intuizioak erakusten digun hori benetakoa den baieztatzea eta ahal den neurrian gailu morfema horren bilakabideari buruzko xehetasunak eta azalpenak ematea.</p><p>Horretarako, corpusetan oinarrituriko azterbide diakronikoari ekingo diogu. Hiru aldi egin ditugu: lehenengo aldia, euskal testuak hasten direnetik xix. mendeko azken herena arte doa; bigarren aldiak, gutxi gorabehera ehun urte ditu, xix. mendeko azken herenetik xx. mendeko azken herenera arte. <ref type="bibr">Hirugarrenak, 1969tik 2008</ref>  Aurreko gramatikariek gailuri buruz esandakoa, eta bereziki Azkueren "igarkizunak" aztertu ondoren, garai bakoitzean eta corpus bakoitzean dauden gailuren agerpenak aztertu ditugu zenbait alderditatik: zer gramatika-kategoriatakoak diren gailure kin osatutakoak; zer diren oinarriak; aditza denean, zer aditz mota lehen eta zer orain. Esanahiari ere arreta berezia eman diogu, oso esangura jakineko hitzak moldatzen baitira azken garaian. Eta azkenik, garai bakoitzean -gailu zein -garri oinarri berari lotzen zaizkionean sortutako hitzetan gertatzen diren aldaketak hartu ditugu aztergai ondorioak atera baino lehen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Gailuri buruz esandakoak</head><p>Aztergai hartu dugun honek ez du, dakigunez, azterketa monografikorik merezi izan baina esan behar da Azkuek bere Morfologian, 18, 97 eta 99 orrialdeetan idatzitakoak abiapuntu ezin hobea eskaintzen duela artikulu honen helburuetarako. Are gehiago, gure ondorioak ere iragarri zituela esan genezake.</p><p>Honako puntu hauetan laburbiltzen dira Azkuek idatzitakoak:</p><p>--ailu da oinarriko forma, eta -gailu, -kailu haren aldaerak. Mitxelenak (Villasante 1974: 78) Villasanteri egindako oharrean gauza bera baieztatzen du, jatorri latinoa duela erantsiz, -ez du beti tresna esanahiko hitza osatzen ez eta izena eratortzen ere. Batzuetan, izenondo eratorriak (gosailu, gozailu) eratzen ditu, --gailuk nolabaiteko eragile (bizigabe)a adierazten duten hitzak sortzen ditu, -ekialdeko euskalkietakoa da, erabilerarik ez du bizkaieraz, eta bi hitzetan bakarrik azaltzen da gipuzkeraz, -modu orokorrean, G eta B euskalkietan, -garri erabiltzen da -gailu-ren ordez, -norbaitek erabiliko balu gailu hitza aparato-ren ordain gisa, sumatzen diren oharkabeko bilakabidea ohartuki gauzatzea besterik ez luke egingo.</p><p>Beste hainbat autorek ere luze edo laburrago idatzi dute atzizki honetaz. Horre la, Lhandek (1926: l) hiztegiaren sarreran hiru atzizki ikusten ditu; lehenak -ailu / allü formak hartzen ditu, eta izen-eratorlea da, beste biek -gailu / gallü eta -kai lu / -ka-llü ekintza baterako balio dutena adierazten dute; Hiztegian, ordea, -gailuk ez bestek dauka azpisarrera, gai hitzarekin lotua. <ref type="bibr">Bide beretsutik Lafittek (1962</ref><ref type="bibr">: 32), Yrizarrek (1971</ref> eta <ref type="bibr">Agud-Tovar-ek (1991: 194)</ref> baliabidea, kausa edo gaia adierazten duten hitzak sortzen dituela diote.</p><p>Villasantek <ref type="bibr">(1974: 76, 78</ref>) luzexeago tratatzen du atzizki hau, Azkuek esandako puntu asko berretsiz, bereziki Iparraldekoa dela eta Hegoaldeko herri-hizkeretan -garri, -ki eta -kin erabiltzen direla haren ordez, eta, askok tresna edo aparatuak izen datze ko erabiltzen dutela.</p><p>Azkaratek <ref type="formula">(</ref> <ref type="bibr">1991: 49)</ref>, bide beretik, Iparraldekoa izan dela azpimarratzen du, -garri eta -ki Hegoaldeko haren ordaintzat emanez. Azkuek Morfologian "iragarritakoa" neurri batean baieztatuz, bi adibide multzo egiten ditu: ohikoak eta berriak, tresna edo aparatu berriak izendatzen dituztenak. Beste aldetik, honako formula honetan laburbiltzen du atzizkitzat jotzen duen -gailuren jokabidea: [+I, +konkretua -biziduna + baliabidea ].</p><p>Mikel Lersundiren <ref type="formula">(2004)</ref>  Pisugailu/pizugailuri buruz esan behar da pisutu -eta ez pisatu-aditzak hainbat agerpen dituenez, itxura guztiz arau orokorrekoa dela. Kasu batean (irri gailu), oinarria aditzoin gabe izena da, baina aditz-lokuzioko izena. Jokabide hori bat dator Artiagoitiak (1995) -garri-ri buruz ari dela esaten duenarekin, alegia, onartu beharrekoa dela izen soilaz eta aditz arinez osaturiko esapideek aditz soilek bezala jokatzen dutela eratorpen-oinarri gisa, tartean izena baizik ageri ez delarik.</p><p>Bada Axularren adibide bat, begi-ordethaillu, analisi zailekoa, baina -gailu atzizkiaren askoz geroko bilakabideari buruz, interesgarria dena. Ez dakigu ordetu aditza duen oinarrian, edo [[begi-orde I ] [tailu] I ] osaera duen, OEHn iradokitzen den bezala, baina aditza balitz oinarria, azken garaiotan oso emankorra izan den egitura baten aurrekaria izango genuke.</p><p>Aditzoin horiek, gehienak, bi argumentukoak, nor-nork aditzak, ditugu: bazka(tu), eder(tu), esteka(tu), gaindi(tu), gorde, junta(tu), lo(tu), on(du), pentsa(tu). Bada bat, gutxienez (asperkailu-ren esanguran) nor-nori aditza zena: asper(tu).</p><p>Beste batzuk, argumentu bakarrekoak (garai hartan bederen), beti ezergatiboak: afaldu, jostatu, apartatu.</p><p>Aspektuari dagokionez, lorpena edo gauzaketa adierazten dute; ez dago egoera adierazten duen aditzik eta josta(tu) izan daiteke jarduera adierazten duen bakarra.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.3.">Gailudun hitzen esanahiak</head><p>-gailu atzizkiaz osatutako hitzen esanahia, gehienetan oinarriko aditzak adierazten duenaren egilea / eragilea (gaindigailu, emendagailu, irrigailu, oroigailu) da edo (V)-tzeko baliabidea (apartagailu, edergailu, estekagailu), baina azken hauek ez dira tresna-izenak. Pisugailu, lotailu edo estekailu izango lirateke tresnaren definiziora gehien hurbiltzen direnak, baina zehazki hori izendatu gabe. Jostailu hitzak, zenbait adibidetan izenondoa bada ere, eragilea xurgatu duela esan daiteke.</p><p>Badira aditzaren ekintzaren gaia adierazten dutenak (bazkailu, dastailu, gor dailu). Beste zenbait, berriz, OEHko adibideen arabera, ekintza/ondorio-izenak direla esan daiteke (asperkailu).</p><p>Azkenik, badira batzuk formalki aditzoin + gailu osaera izan dezaketen arren, berda gailu, esate baterako, zeinetan nekez azal daitekeen eratorriaren eta oinarrizko aditza ren arteko harre ma na, esanahia 'barazki berdea' baita.</p><p>Laburbilduz, esan daiteke lehen mendeetako gailu atzizkiak eragile-/ baliabideizenak sortzen dituela gehienbat; eragile edo baliabide horietako gutxi batzuk baizik ez direla tresnak eta eratorri batzuk, proportzioan ez hain gutxi, arau horretatik aldentzen direla, izenak ez direlako, edo gaia edo beste zerbait adierazten dutelako.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">XIX. mendeko azken herenetik XX. mendeko azken herenera arte</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1.">-gailuz eratutako hitzak eta haien kategoriak</head><p>Ehun urte gutxi gorabeherako honetan, produkzio idatziaren emendioarekin batera, baina ez modu nabarmenean, ugaritu egiten dira -gailu atzizkiaz osaturiko hitzak: 68 desberdin aurkitu ditugu. Aurretik sortuek, gehienek bederen, bizirik diraute, eta hainbat berri sortzen dira. Horrez gainera, lurraldeari dagokionez, orokortu egiten da -gailu atzizkiaren erabilera, idazle batzuen artean bederen, eta beste aldetik, aurrerago aztertuko ditugun berrikuntza batzuk gertatzen dira erabileran. Aurreko garaian bezala, OEH denez iturri nagusia 7 hiztegi hartako adibideak eta definizioak baliatu ditugu, gehienetan, -gailuz eratutako hitz ulergaitz batzuk aztertzeko.</p><p>Oro har esan daiteke izenak (eratorriak edo izen elkartuak) direla osagai hori duten hitz gehien-gehienak, baina badira salbuespenak. Azkuek (1925: 97), aipatu den bezala, esan zuen -gailuz osaturiko batzuk, izen gabe, izenondotzat eman behar direla. Hark aipaturiko gozailu eta gosailuz gainera, 3 aurkitu dugu garai honetako corpusetan: ohorailu, oihalgailu eta espantagailu. Azken biok, izenondo edo izen gisa jokatzen dutela esan behar da. Beranduago azalduko badugu ere, aurrera dezagun horietako gehienak -garridunen eite osoa dutela.</p><p>Izen kategoriako gailudunen artean gehien-gehienak izen eratorriak dira, baina ondorengo puntuan jasotako lau kasutan izen-elkarteak dira.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2.">Oinarriaren kategoria eta ezaugarriak</head><p>Garai honetan, aurrekoan bezala, aditzoina dugu gehienen oinarrian, baina salbuespen gehiago agertzen denez, begira ditzagun lehenik ez aditzoina izena baizik direnak:</p><p>( Aspektuari gagozkiola, lorpen-edo gauzaketa-aditzak dirudite gehien-gehienek, baina bada jarduera-aditz bat bederen: ibilgailu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.3.">Gailudun hitzen esanahiak</head><p>Aurreko garaian bezala, garai honetako hitz gehienen esanahiak oinarriko adi tzak adierazten duenaren eragilea (iratzargailu, irrigailu, oroigailu) edo (V)-tzeko baliabidea (berregingailu, bizigailu, gantzugailu, sendagailu) dira; baina aurrekoan ez bezala, tresna-izena adierazten dutenak ugari dira: aldagailu, entzungailu, karra kailu, <ref type="bibr">moztailu, neurgailu, tunkailu, zartagailu, ziztailu…</ref> Oinarriko aditzaren gaia xurgatzen dutenak ere zertxobait ugaritu egiten dira; horre la koak baitira, testuinguruek erakusten dutenez, ondokoen esanahiak: kan tagailu, kontagailu, erosgailu, salgailu, milizkailu eta ikusgailu.</p><p>Oinarriko aditzaren ekintza edo ondorioa esanahia beste zenbaitetan aurkitzen dugu: abusagailu, agergailu, asperkailu, preparailu.</p><p>Eragile / baliabidea xurgatu dutenen artean, tresna-izenen artean zehatzago esateko, badira oinarriko aditzaren gaia heredatzen duten hitz-elkarte sintetiko batzuk, hala nola: musika jogailu, pipa pizgailu, hitz hargailu edo ile moztailu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Azken 40 urteotako corpusen emaitzak</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.1.">-gailuz eratutako hitzak, haien kategoria</head><p>Aurreko garaietan emankortasun mugatuko baliabide gisa agertu bazaigu ere, azken garai honetan oso ugariak dira corpusetan jasotako gailudun berriak, eta hainbat berrikuntza azaltzen dira haien egituraz den bezainbatean.</p><p>Gailudun Corpus guztietan, aurreko garaietan ez bezalako erabatekotasunez, izenak dira, argi eta garbi, adierazgarri ez den salbuespenezko izenondo bakar batekin. 9 Izen horietako gehienak izen eratorri soilak dira, baina hurrengo puntuan (2.3.2) aztertuko dugun bezala, ugari dira hitz-elkarte baten barruan azaltzen direnak.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.2.">Oinarriaren kategoria eta ezaugarriak</head><p>Aditzoinak dira, gehienetan, 10 -gailuk hartzen dituen oinarriak, nahiz eta desberdintasun handiak azaldu corpus batetik bestera aditzoin ez direnen portzentajeetan: ZT Corpusa da aditzoinaz beste oinarriak ugarien onartzen dituena, XXMC bi garren, eta EPG gutxien dituena.</p><p>Aurreko garaietan Hegoaldeko autore jakinen batzuen lumetan soilik agertzen ziren gailu izentzat harturik eratutako izen-elkarteak baina garai honetan, eta bereziki XXMCn eta ZTCn, ugari dira <ref type="formula">(5)</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.3.">Aditzoin + gailu osaerako hitzen esanahiak</head><p>Azken berrogei urteotako corpusetan aurkitzen ditugun gailudun hitz gehien-gehienek, iruzkinduko ditugun salbuespenezkoak kenduta, tresnak edo gailuak 12 izendatzen dituzte. Lehen agerpenaren arabera berritzat jo ditzakegunen artean ez dugu salbuespenik aurkitu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.4.">Azken garaiko corpusen arteko konparaketa a) Ereduzko Prosa Gaur</head><p>Gehien-gehienetan, aditzoin hutsa da gailudunen oinarria. Badira batzuk, zeinetangailu atzizkiaz eratorritako hitza aditzoinaren objektu funtzioa betetzen duen hitzarekin elkarturik (elkarte sintetikoa) agertzen baita: kolpeleungailu, on tzi gar bigailu, suitzalgailu.</p><p>Eta badira ere, oso gutxi, exo-elkarte baten osagai direnak: aerolabangailu, antisorgailu.</p><p>Bakanka besterik ez ditugu atzeman oinarrian aditzoina ez beste zerbait dutenak, eta gainera, ez dira Hegoaldeko zientzia edo teknologiako testuetan agertzen, Iparraldeko kazetaritza edo literaturakoetan baizik: aire-gailu, inguru-gailu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>b) Zientzia eta Teknologiaren Corpusa</head><p>Aditzoinak dira ZTCko gailudunen oinarri ugarienak, baina ez dira gutxi (30 desberdin) gailu izen bihurturik eratutakoak; gainera, hainbat mota desberdinetakoak dira: -izen arruntak: irratigailu, <ref type="bibr">larrialdi-gailu, langar-gailu, memoria-gailu, pintzagailu, pure-gailu, segurtasun-gailu -izen ebentibo ez deberbalak: alarma-gailu, blokeo-gailu, kontrol-gailu -nominalizazioak: aginte-gailu, aitzinapen-gailu, argiztapen-gailu, salbamendugailu, ikuskatze-gailu, jasotze-gailu</ref> Oinarriko aditzaren gaia heredatuz, hitz-elkarte sintetikoak osatzen dituzten gailu dun ugari agertzen dira (aire-hezegailu, arropa-garbi gailu, berun-me ta gailu, elek troi-jaurtigailu, huts-sorgailu) corpus honetan. Baina gailudun hitzari lotzen zaiona gaia gabe, indar-emailea (gasolina-sorgailu), edo tokia (hiri-ibilgailu), modua (esekidura-garraia gailu) xedea (turismo-ibilgailu) edo beste edozein aldagai adierazten duena izan daiteke.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>c) XX. Mendeko Euskararen Corpusa</head><p>Testu orokorrak eta espezializatuak biltzen dituen corpus horrek EPGn eta ZTCren arteko erdibideko joerak erakusten ditu, espero zitekeen bezala. Gailu izen bihurtuta eta beste izenei elkartuta 11 aldiz agertzen da; ZTCn baino gutxiago beti ere. ZTCn ugari agertzen diren nominalizazioaren eredukorik ez dugu aurkitu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">-gailuk eta -garrik aditzoin bera hautaturik osaturiko hitzak</head><p>Azkuez geroztik beste hainbatek ere adierazi dute -gailu atzizkia Iparraldeko euskalkietan erabili dela gehienbat, eta zenbait kasutan, Hegoaldeko euskalkietan, -garri atzizkiaz eraturiko eta esanahi bereko hitzak aurkitzen direla. OEHn egiazta daitekeenez, horrelako bikoteak maiz gertatzen dira, baina ez bakarrik banaketa geografiko haren arabera: euskalki berean ere aurkitzen dira horrelako hitz-pareak. Ondoko lerroe tan, -gailu atzizkiaren azterketarako bereizi ditugun garaietan zer nolako -gailu / -garri bikoteak azaltzen diren aztertuko dugu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Lehen garaian</head><p>Mende horietan -gailuri loturik agertzen diren aditzoin gehienak -garri-ri lotuta ere erabiltzen dira. Ondokoetan <ref type="formula">(8)</ref>  Beste -garridun batzuk (apartagarri, ordegarri, tiragarri), OEHren arabera, beranduagokoak dira, eta horietako batzuetan esanahi-aldaketa nabarmenagoa da.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Bigarren garaian</head><p>xix. mendeko azken herenetik xx. mendeko azken herenera arteko aldian ere (9)koen moduko bikote multzo handi bat aurkitu dugu. Hauetako gehienak ere, Iparraldeko autoreetan aurkitu ditugu eta ia erabateko sinonimoak direla esan daiteke.</p><p>(9) agergailu /agergarri azkargailu / azkargarri behaztopagailu / behaztopagarri berhagailu / berregarri edergailu / edergarri eragozgailu / eragozgarri espantagailu / espantagarri ezagutgailu / ezaugarri hordigailu / hordigarri ikusgailu / ikusgarri iratzargailu / iratzargarri irrigailu / irrigarri jasogailu / jasogarri jostailu / jostagarri kantagailu / kantagarri ongailu / ongarri oroigailu / oroigarri pizgailu / pizgarri</p><p>Horiek denak, -gailuz zein -garriz eratutakoak, izenak dira. Gehienetan, eratorriek oinarriko aditzaren egile /eragile argumentua xurgatzen dute: aditzak adierazten duena egiten edo eragiten duena adierazten dute. Oso gutxi dira tresna-izenak.</p><p>Beste zenbaitetan, -garri atzizkia aditzoin berari loturik agertzen zaigu, baina horre la eratutako hitzak guztiz bestelako kategoria eta esanahia duelarik. Ondoan (10), jasotako adibideetan bederen, -garri atzizkiaz osatutakoak izenondoak dira, ez izenak.</p><p>(10) ibilgailu / ibilgarri begiragailu / begiragarri entzungailu / entzungarri erabiltailu / erabilgarri milizkailu /milizkagarri zapalkillu / zapalgarri ziztailu / ziztagarri Garai honetan bikoteak oso ugariak badira ere, aurrekoan baino gehiago dira -garriz eratutako parekorik ez duten gailudunak. Horietako batzuk (ekargailu, har gailu, idazkailu, igogailu) tresna zehatzak izendatzeko hitz berriak dira.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Hirugarren garaiko EPG corpusean</head><p>Gailudunen erabileran, azken garaiko corpusen artean atzeman ditugun desberdintasunek kitzikatuta, bereizirik aztertu ditugu EPGkoak eta ZTCkoak.</p><p>EPGn aurkitu ditugun 34 pareak beren testuinguruetan azterturik, nabarmen ageri da aurreko garaietan ez bezala, gehienetan aditzoin beraren gainean eraturiko gailu dunak eta -garri atzizkidunak desberdinak direla. Gailudunak, salbuespenik gabe, izenak dira, eta gehienak (25/34) tresna bat izendatzen dute <ref type="bibr">(arnasgailu, elikagailu, flotagailu, kontagailu, neurgailu</ref> Horren adibiderik esanguratsuena, EPGn jasotako agergailu hitzari dagokiona da; izan ere, hitza erabili soilik ez, osaera ere azaldu egiten baitute Arbelbide anaiek Eganen argitaraturiko esaldi honetan:</p><p>(17) (…) agergailu ez duzue aurkituko histegietan bainan ulerterretxa da: agertu aditza gailu aitzizkia. (…) Segur baino segurrago beharrez, Jainkoari galdatzen dio bere bokazionearen bigarren agergailu bat.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Ondorioak</head><p>1. Gailuren bilakabidea aski berezia da bai lurraldearen araberako erabilerari buruz, bai atzizki/sarrera beregaina txandakaketari buruz. 1a) Banaketa geografiko-dialektalari buruz: hasieran Iparraldeko idazleetan bakarrik agertzen da, eta gaurko egunetan Hegoaldeko testu mota batzuetan da emankorre na.</p><p>1b) Atzizki izatetik izaera bikoitza (atzizkia eta izena) izatera pasa da. 1c) Esanahiaz den bezainbatean, gehienetan hasieratik egun arte 'baliabide' esanahia izan bada nagusi, Hegoaldeko testu espezializatuetan guztizko espezializazioprozesua jasan du, gailu hitzak berak esan nahi duena, eta hori bakarrik esan nahi izatera iritsi arte.</p><p>2. -garri atzizkia erreferentzia-puntutzat harturik, prozesu dibergenteak izan dituztela egiaztatu dugu. 2a) Hogeigarren mendea arte -gailu eta -garri, biak aditzoina hautatzen zuten atzizkiak ziren, horrela eraturiko izen-pareak hein handi batean sinonimoak ziren. Egia da lehen unetik -gailuren balioak -garrirenak baino mugatuagoak zirela, baina hitz-pareak sortzen zirenean, ia balio berekoak ziren. 2b) Azken berrogei urteotako testu gehienetan bi atzizki horien emankortasunak elkarrengandik urruntzen diren bideetatik garatu dira: -gailu mota jakin bateko izenak eratzeko bakarrik erabiltzen den bitartean, -garrik gehienbat izenondoak eratzen ditu.</p><p>2c) Azken urteotan sorturiko gailudun berriek ez dute -garriz eratutako parekorik izaten, eta izatekotan, guztiz desberdinak dira.</p><p>3. Azkuek iragarritako bilakabidea guztiz burutu da, baina ez xx. mendearen hondar aldera arte. 3a) Gailu izen beregaina bihurtu da, testuetan bederen, eta tresnak (gailuak) izendatzeko (atzizki gisa zein izen gisa) erabiltzen da.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>2. Zer ematen duten corpusek 2.1. Lehen garaia: hasieratik XIX. mendearen azken herena arte</head><label></label><figDesc>OEHko adibideen arabera, bi izan daitezke salbuespenak: jostailu izen kategoria garbikoaren ondoan, ageri dira izenaren laguntzaile doazen eta 'burlesco', 'festivo' esanahia duten adibide batzuk.2.1.2. Aditzoinen kategoriak eta ezaugarriak-gailu atzizkiak aditzoinak edo aditzoinak izan daitezkeen 6 hitzak (2) aukeratzen ditu. Hemen ere, salbuespenen bat aurkitu badugu ere, zalantzarik gabe baiezta daiteke arauz aditzoina dela atzizkiari aurretik eransten zaiona eta hortaz, honako hau dela -gailuz osaturiko hitzen egitura: [[josta ad ]-gailu I ]</figDesc><table><row><cell>tesiak, hiztegi berrietako agerpen eta definizioak dituela aztergai, baliabide edo instrumentuak izendatzen dituzten izenak eratzen dituela dio, eta hartaz osatutako hitzen definizioen arabera, gehien-gehienetan tresnak direla. 2.1.1. -gailuz eratutako hitzak, haien kategoria Hizpide dugun garaian (1562-1876), OEHren arabera, hainbat idazlek 3 erabili zi-tuzten gailudun hitzak. Denak, bat izan ezik (Larramendiren Hiztegia), Iparraldeko autoreak. Hona (1) aurkitu ditugun guztien zerrenda: 4 (1) apartagailu asperkailu bazkailu berdagailu berretgailu edergailu dildailu (Lar) dastailu emendailu estekailu gaindigailu gordailu herskailu irrigailu jostailu, dostailu juntagailu lokailu mozorkailu (Lar) ongailu begi-ordethaillu orhoitgailu pensakailu (Lar) pisugailu tirakailu aparta bazka dasta emenda esteka gaindi herts josta/dasta lot on pentsa pisu Garai hartan, izenak (2) berda eder gorde junta orde tira</cell></row></table><note>5 dira, oro har, -gailuz osaturikoak.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>Eresi, soinu, arte, baratze, edari, kolorete eta zur izen arruntak ditugu, gauzen erreferente hutsak, baina zerrendaturiko bi (behargailu, lantailu) aditz-esapideetan parte hartzen duten izenak dira. Edozein modutan, alde handiz, aurreko garaian bezala, aditzoinak dira -gailuri eransten zaizkionak.Aditzoin horietako gehienak (6), bi argumentukoak dira, baina badira, halaber, argumentu bakarrekoak(4), bai ezakusatiboak (behaztopa, etzan), bai ezergatiboak (ibili).</figDesc><table><row><cell>(4)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>aldagailu</cell><cell>bultzailu</cell><cell>iratzargailu</cell><cell>moztailu</cell></row><row><cell>baragailu</cell><cell>entzungailu</cell><cell>kantagailu</cell><cell>pizgailu</cell></row><row><cell>betegailu</cell><cell>gantzugailu</cell><cell>lokailu</cell><cell>sendagailu</cell></row><row><cell cols="4">Badira, halaber, aditz psikologiko gutxi batzuk, bi (ahusa[tu], espanta[tu]), lehen</cell></row><row><cell cols="4">taldekoak eta beste bi (mirets[i], jasan), bigarrenekoak.</cell></row><row><cell>erestailu</cell><cell>baratzekailu</cell><cell>behargailu</cell><cell></cell></row><row><cell>soinugailu</cell><cell>edarigailu</cell><cell>lantailu</cell><cell></cell></row><row><cell>artailu</cell><cell>koloretegailu</cell><cell></cell><cell></cell></row><row><cell></cell><cell>zurgailu</cell><cell></cell><cell></cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>hitz desberdinei 8 dagokienez, hauek dira aurkitutako kopuruak: XX. Mendeko Euskararen Corpusean 182, Ereduzko Prosa Gaur-en 115 eta Zientzia eta Tek nolo gia ren Corpusean 431. Garai honetan, euskara batuaren garaian, euskaraz ekoizten diren testuen kopurua izugarri handitzen bada ere, -gailuren emankortasuna modu nabarmenean bizkortzen dela begi bistakoa da. Horren adierazgarri da XXMCn 1900-1968 bitartean 26 gailudun desberdin bakarrik agertzen direla,eta 1969-1999  aldian berriz, 193.   </figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>Hein handi batean oinarrian aurkitzen ditugun aditzak bi argumentukoak dira, eta nor-nork motakoak. Garai honen beste ezaugarri bat, nabarmenagoa ZTCn eta XXMCn, maileguzko 11 aditzen ugaritasuna da.</figDesc><table><row><cell cols="5">Badira, bi argumentu gabe, oinarrian argumentu bakarreko aditzak dauzkatenak</cell></row><row><cell>(7)koak bezala:</cell><cell></cell><cell></cell><cell></cell></row><row><cell>(7)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>bibragailu</cell><cell cols="3">distiragailu</cell><cell>ibilgailu</cell><cell>lehergailu</cell></row><row><cell>detonagailu</cell><cell cols="3">flotagailu</cell><cell>jausgailu</cell><cell>oszilagailu</cell></row><row><cell cols="5">Psikologikotzat jo daitezkeenei dagokienez, aurreko garaian agerturiko bi (abusa-</cell></row><row><cell cols="5">gailu, oroigailu) besterik ez ditugu atzeman.</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>osaera horretakoak.</cell></row><row><cell>(5)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>diskogailu</cell><cell></cell><cell cols="3">larraildigailu</cell><cell>puregailu</cell><cell>uzta-gailu</cell></row><row><cell>irratigailu</cell><cell></cell><cell cols="3">memoria-gailu</cell><cell>segurtasun-gailu</cell></row><row><cell cols="2">kilometrogailu</cell><cell cols="3">musikagailu</cell><cell>urrutikuskingailu</cell></row><row><cell>langargailu</cell><cell></cell><cell cols="3">pintza-gailu</cell><cell>urrutizkingailu</cell></row><row><cell cols="5">Bestalde, horrelako izen arruntez gainera, azpikategoria berriko oinarriak agertzen</cell></row><row><cell cols="5">dira garai honetan: nominalizazioak (aginte-gailu, errententzio-gailu, salbamendu-</cell></row><row><cell cols="5">gai lu, metatze-gailu) eta izen ebentibo ez-deberbalak (kontrol-gailu).</cell></row><row><cell cols="5">Aditzoin + gailu osaerako hitzari ezkerrean izen osagarri bat lotuz sorturiko elkar-</cell></row><row><cell cols="5">teak (6) arrunt ugaritzen dira garai honetan -aurreko garaian lau aldiz soilik ager-</cell></row><row><cell cols="5">tzen zirela ikusi genuen-, eta oso bereziki ZTCn.</cell></row><row><cell>(6)</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">abiadura-neurgailu</cell><cell cols="2">larru-grapagailu</cell><cell>seinale-igorgailu</cell></row><row><cell cols="2">audio-hargailu</cell><cell></cell><cell cols="2">telebista-hargailu</cell><cell>gas-ihinztagailu</cell></row><row><cell cols="3">angelu-bihurgailu</cell><cell cols="2">aire-hezegailu</cell><cell>pultsu-irakurgailu</cell></row><row><cell cols="3">gezur-detektagailu</cell><cell cols="2">su-hilgailu</cell><cell>gas-sorgailu</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>OEHk berak batetik besterako bidaltze-oharra dakar, eta besteetan, adibideen testuinguruan egiazta daiteke esanahi-berdintasuna. Salbuespen argiena zerragarri hitza izango litzateke, zerrailuz bestelako esanahia baitu.</figDesc><table><row><cell></cell><cell cols="2">agerpen-datak garai berean eta Iparraldeko auto-</cell></row><row><cell cols="2">reen izkribuetan agertzen direla egiaztatu dugu.</cell><cell></cell></row><row><cell>(8)</cell><cell></cell><cell></cell></row><row><cell>berregailu / berregarri</cell><cell>heskailu / hertsagarri</cell><cell>juntagailu / juntagarri</cell></row><row><cell>dastailu / dastagarri</cell><cell>gordailu / gordegarri</cell><cell>ongailu / ongarri</cell></row><row><cell>edergailu / edergarri</cell><cell>irrigailu / irrigarri</cell><cell>oroigailu /oroigarri</cell></row><row><cell>estekailu / estekagarri</cell><cell>jostailu / jostagarri</cell><cell>zerrailu / zerragarri</cell></row><row><cell cols="3">Azpimarratzekoa da bikote horiek ia erabateko sinonimoak direla: zenbait kasu-</cell></row><row><cell>tan,</cell><cell></cell><cell></cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>). -garri atzizkiaz osatutakoen kategoriak, berriz, al da garriak dira, batzuetan izen, besteetan izenondo, baitira, eta esanahia, guztiz bestelakoa. Gainerako bederatziotan (11) aldiz, gailudunak eta -garri atzizkiaz osatutakoak izenak dira, eta oso antzeko esanahia dute. Aipatzekoa da horien erabiltzaile gehienak Iparraldeko kazetariak eta idazleak direla. Jostagailu / jostagarri pareak berriz, aurreko bi multzoen ezaugarriak partekatzen ditu, jostagailu-ren balio bikoitzari esker, tresna-izena zein ekintza-izena baita, testuinguruaren arabera. bat (16a) Hegoaldeko idazle batena, Edorta Jiménez, da, eta "oraingo" -gailu-ren esanahi zehatza dauka; eta bestea (16b), 2001ekoa, Herria aldizkarikoa, -garri-ren baliokoa da. (16a) Eta subfusilek, jotailu eta betegailu barik, ez zuten ezertarako balio. (16b) Hor baduzu, nahikoa, ahusagailu, eta denbora betegailu. Adibide horiek, eta -gailu / -garri bikoteak aztertzerakoan ikusi ditugun bizigailu, goxagailu, ongailu, osagailu, edo pizgailu bezalakoek, aditzera ematen dute lehenago hasitako eta azken berrogei urte hauetan azkarragotutako eboluzioa lurralde bati lotua gertatu dela, neurri handi batean bederen.</figDesc><table><row><cell>(11)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>betegailu /-garri</cell><cell>edergailu /-garri</cell><cell>ongailu /-garri</cell><cell>osagailu /-garri</cell></row><row><cell>bizigailu /-garri</cell><cell>eztigailu /-garri</cell><cell>oroigailu /-garri</cell><cell>pizgailu /-garri</cell></row><row><cell></cell><cell></cell><cell></cell><cell>sendagailu /-garri</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">Leizarraga izan zen -gailu atzizkia moldezko letratan ipini zuen lehena, eta ziurrenik, autore gehienek erabili duten hitzarekin eman zion hasiera: gordailu. Oihenartek ere erabili zuen hitz bera. 4 Zerrenda honetan, eta aurreragoko zerrenda eta kopuruetan, gailudun desberdinen berri besterik ez dugu ematen. Hau da, ez dugu aztertu corpusetan agertzen diren horien erabilera ez maiztasuna; hala eta guztiz ere, zerrenda honetan (Lar) marka jarri diegu Larramendiren hiztegian, eta beste inon ez, irakur daitezkeen ale batzuei. 5 Etxeberri Sarakoak, xviii. mendean atzizki hori modu ohartu eta sistematikoan -ia terminologikoan-gramatikako adigai berriak izendatzeko erabili zuenean, zalantzarik gabeko izen kategoria eman zien horrela eratutako hitzei (apartagailu(zko), berretgailu, emendaillu, juntagailu, lokailu).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6">(2)ko zerrendako berda(tu) eta tira(tu) aditzak berdagailu/ferdailu eta tirakailu izenen oinarri izan badaitezke ere, ez dugu batere argi hitz horien osagai direnik. Larramendik dakarren dildailuri dagokionez, OEHk ez du jasotzen horren oinarri izan daitekeen dildatu aditzik; uste izatekoa da beste osaera batekoa dela.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">Gutxi batzuen berri Azkueren bidez soilik dugu, eta beste batzuk XXMECn eta ez OEHn aurkitu dira.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8">Corpusetako bilaketa-moduak direla eta, hitz elkarteei dagokienez, loturik edo marratxoz idatzitakoak bakarrik jaso ahal izan ditugu. Dena den, kontuan izanda hitz-elkarteok ZTCn agertzen direla gehienbat, eta corpus horretan jasotako idazki-generoetan marratxoa erruz erabiltzen dela, uste dugu ez direla asko ihes egin digutenak. Bestalde, erabilitako metodologian ez da kontuan hartzen corpusek eskaintzen dituzten horien erabilera-maiztasunari buruzko kopururik.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9">Diabru zamargaillu. Bizkaierazko testu batean aurkituriko hitz analizagaitz hori ez dugu uste adierazgarria denik.10 Badira itxuraz oinarri harrigarriak hartzen dituztenak, alderanzgailu edo batugailu, adibidez, baina lehenaren esaldi berean alderanztu aditza irakur daitekeelarik, argi dago egileak eman nahi zion osaera, eta aditzoinen ordez partizipioa erabiltzeak ere ez du bestelako esanahirik.11  Hainbat kasutan aditz horiek nekez irakur daitezke -gailurekin lotuta ez bada: ?konbertitu, ?generatu, ?konplementatu.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12">Gainera, ia salbuespenik gabe «gailu» horien euskal izenak erdarazko tresna edo makina baten izendapenaren kalko-itzulpenak izaten dira.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="13">SEH (heg. markarekin), Elhuyar, 3000, Harluxet. 14 OEHren arabera xx. mendeko bigarren erdian.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Zientzia eta Teknologiako Corpusean</head><p>ZT Corpusean -garri atzizkiaz eratorritako 97 hitz desberdin topatu ditugu. Horiek eta corpus bereko aditzoin + -gailu osaerakoak erkatuz, 29 pare osatu ditugu.</p><p>Zerrenda horretako pare guztietan, <ref type="formula">(15)</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Gailu izena</head><p>Lan honi hasiera emateko hartu ditugun Azkueren iragarle-hitzetan agertzen da gailu atzizki hutsa izatetik izen beregain ere izatera aldatzen ari zela.</p><p>Aldaketa horren lehen gauzatzeak izen-elkarte moduan gertatzen dira, ez gailu hitz beregaina dela. Azterturiko hiztegien eta corpusen arabera gailu izen bati elkarturik darabilten lehen autore ezagunak, Orixe, Olabide, edo Erkiaga, denak Hegoaldekoak, dira. Gailu hitz beregain eta soltearen lehen agerraldia, XXMCren arabera, 1973koa da, Erzibengoaren Pedagogia gaur liburuan.</p><p>Data horretatik aurrera, orokortuz doa erabilera hori. XX. Mendeko Euskararen Corpusean 40 aldiz agertzen da gailu izen beregain gisa, eta egungo hiztegi nagusietan 13 gailu sarrera jasotzen da. Hiztegi batuan oraindik ez zaio sarrerarik eman.</p><p>Baina, ikusi dugun bezala, askoz ugariagoak dira hitz horrek elkarteetan duen erabilera. Gailu izenaren esanahia: ez da baliabide generikoa, baizik eta tresna fisikoa, eta zehazkiago esateko, Elhuyar hiztegiak, eta Euskaltermeko agerpen gehien-gehienek erakusten duten bezala, gaztelaniazko "dispositivo"-ren esanahi zehatza.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Azken garaian agertzen diren "molde zaharreko" gailudunak</head><p>Atal labur honetan, azterturiko corpusetan azken-azken urteotan jasotako adibide batzuen berri eman nahi dugu, aldaketak ez erabatekoak eta are gutxiago lurral dez berdin banatuak, ez direla erakuste aldera.</p><p>Abusagailu / ahusagailu / ausagailu ('jostaketa, dibertsio') hitza, lehen aldiz nahiko berriki jasoa, 14 bizirik eta aski erabilia dela dirudi, egungo kazetaritzako eta literaturako hainbat adibide agertzen baitira EPGn eta XXMCn.</p><p>Berdagailu ('barazki berde'), aurrekoa bezala, orain nagusi den gailuren esanahiaren arabera ulertezina, bizirik dirau Iparraldeko idazkietan.</p><p>Betegailu hitzak EPGn dituen bi agerpenek oso garbi erakusten dute gailuk erabiltzaile batzuen eta besteengan izan dituen bilakabide desberdinak. Agerpen horietako</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Bilakabide hori oso lotuta doakio mota batzuetako testuen garapenari: orain berrogei urte Hegoaldean, bereziki, hasten den teknologiako eta zientzietako testuen ekoizpenari</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Desberdintasun nabarmenak agertzen dira Iparralde eta Hegoaldearen artean: Hegoaldean ia erabatekoa dirudi gailuren balio berriaren onarpena, baina Iparralde ko zenbait autoreren lekukotasunak erakusten duenez, hasierako esanahi mul tzoa ri berari eusten zaio kasu batzuetan</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">«Materiales para un diccionario etimológico de la lengua vasca</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">&amp;amp; A</forename><surname>Agud</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Tovar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">3</biblScope>
+			<date type="published" when="0194" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">«Garri atzizkiaren izaera bikoitzaz. Zergatik den maitagarria bezain mingarria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Artiagoitia</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="305" to="406" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Azkarate</surname></persName>
+		</author>
+		<title level="m">Irakaskuntza Proiektua. UPV-EHU, argitaragabea</title>
+		<imprint>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Morfología Vasca, argitalpen berria, 1. lib., Bilbo, La Gran Enciclopedia Vasca</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Azkue</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1905" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Grammaire Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Lafitte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Les Editions du Musée Basque</title>
+		<meeting><address><addrLine>Bayonne</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1962" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Ezagutza-base lexikala eraikitzeko Euskal Hiztegiko definizioen azterketa sintaktiko-semantikoa. Hitzen arteko erlazio lexiko-semantikoak: definiziopatroiak, eratorpena eta postposizioak. Doktore Tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lersundi Ayestaran</surname></persName>
+		</author>
+		<ptr target="&lt;http://ixa.si.ehu.es/Ixa/Argitalpenak/Tesiak/1111396096/publikoak/tesi-txostena%20eta%20eranskinak" />
+		<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note>zip&gt; [2009-04-26</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Dictionnaire basque-français</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Lhande</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1926" />
+			<publisher>Gabriel Beauchesne Editeur</publisher>
+			<pubPlace>Paris</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M. &amp;amp; B</forename><surname>Makazaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Oyharçabal</surname></persName>
+		</author>
+		<title level="m">Piarres Lafitteren sortzearen mendemugako biltzarra». Iker 14 (I)</title>
+		<meeting><address><addrLine>Bilbo, Euskaltzaindia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">«-kor atzizkiaz», Makazaga &amp; Oyharçabal (arg</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Oyharçabal</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="357" to="383" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Villasante</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Efa</forename><surname>Oñate</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Yrizar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De</surname></persName>
+		</author>
+		<title level="m">Concordancias morfológicas de la lengua vasca con las lenguas caucásicas y otras lenguas</title>
+		<imprint>
+			<date type="published" when="1971" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="115" to="173" />
+		</imprint>
+	</monogr>
+	<note>Palabras vascas compuestas y derivadas</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

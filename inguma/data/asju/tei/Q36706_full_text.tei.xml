@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">[n-/l-+ herskari] taldeen bilakabide diakronikoa eta erronkarieraren lekukotasuna: irudia(k) fintzen 1 Diachronic development of the [n-/l-+ plosive] consonants group and the Roncalese evidence: Revising some framework(s)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rojo</forename><surname>Leyre</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universidad del País Vasco/Euskal Herriko Unibertsitatea (UPV/EHU)</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Horrillo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universidad del País Vasco/Euskal Herriko Unibertsitatea (UPV/EHU)</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">[n-/l-+ herskari] taldeen bilakabide diakronikoa eta erronkarieraren lekukotasuna: irudia(k) fintzen 1 Diachronic development of the [n-/l-+ plosive] consonants group and the Roncalese evidence: Revising some framework(s)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="volume">2022</biblScope>
+							<biblScope unit="issue">2</biblScope>
+							<biblScope unit="page" from="143" to="167"/>
+						</imprint>
+					</monogr>
+					<note>https://doi.org/10.1387/asju.24107</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:41+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In this article, we will analyze the opposition of occlusives posterior to n-/l-that have been debated in the history of Basque. Until recently, it was argued that the voiced stop is the oldest sound after the lateral and the nasal, as found in Roncalese and Souletin. Mi txelena (1961), however, argued the opposite clearly and concisely. We will prove this, together with the grammaticalization and "Trask's law", through 17th-century letters by Gabriet Etxart and Miguel Ros. Thus, we will show that the evolution of occlusives was morphological at some point. Then, we will explain in detail how it was phonologically disseminated and how it spread from its old legacy to borrowings. In order to do so, it is essential to bear in mind both sociolinguistic conditions and differences we have found in the corpus. KEyWoRdS: Roncalese; Basque dialects; diachronic dialectology; Miguel Ros; Basque from the Roncal Valley; posterior occlusives of n-/l-.</p><p>Laburpena: Artikulu honetan, euskararen historian eztabaidatu den n-/ l-ondoko herskarien oposaketa aztertuko da. Oraintsu arte esan izan da albokariaren eta sudurkariaren ondoren herskari ahoskabea hotsik zaharrena dela eta erronkariera eta zuberera honen gordetzaile direla. Mitxelenak  (1961), ordea, kontrakoa defendatu zuen laburki bezain argi. Guk hori egiaztatuko dugu, gramatikalizazioari eta "Trasken legea" delakoari lotuta, xvii. mendeko Gabriel Etxart eta Miguel Rosen gu-</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>ondoren ikusiko dena aurreratuz, gramatikalizazioari eta Trasken legeari lotuta ahostun &gt; ahoskabe bilakabideak aurkitu ditugu eta, honenbestez, ondare zaharreko CVC-dV egiturak beste edozein baino lehenagoko direla ondorioztatu dugu. Izan ere, hurbilketatxo honek Erronkaribarko gutunak baliatuz Mitxelenak 1961ean proposatu zuena egiaztatzea du helburu, hau da, erronkariera -eta zuberera-berritzaileak direla erakustea. Beraz, bilakabide diakronikoa ikerketaren ardatz izango dugu, erronkarieraz eman ohi den irudi klasikoa fintzen saiatuaz.</p><p>Hizkuntzari erreparatu aurretik, Etxart eta Rosen gutunen testuinguruan jarri beharra sentitu dugu eta, hori dela eta, jarraian corpusari buruz jakin ditugun xehetasunak azalduko ditugu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Etxart-Ros gutuneria 3</head><p>Gabriel Etxart eta Miguel Rosen arteko gutunak oso interesgarri dira haien gaineko hizkuntza analisi bat egiteko. Gainera, xvii. mendeko -beraz, Euskara Zaharreko-zubereraren eta erronkarieraren lekukotasunak direnez, are baliotsuagoak bihurtzen dira eta ideia hau ezin ukatuzkoa da. Hala ere, hizkerei erreparatu baino lehen, bi idazle hauek testuinguruan kokatzea ezinbestekoa da. Esate baterako, euskararen egoera soziala garai batetik bestera aldakorra izan da -adibidez, Euskara Arkaikotik Lehen Euskara Modernora-eta, Mounolek eta Gómezek (2018) erakutsi bezala, ezegonkortasun horrek eragina izan du hizkuntzaren zenbait alderditan. Horregatik, gutunak nork eta nondik idatzi dituen jakitea garrantzitsua da, ondoren testuinguru historikoan ikusiko dena aurreratuz, garai hartako gatazka jakin baten ondorioz bidaltzen direlako hauek. Gainera, Gidor Bilbaok erakutsi zigun moduan, egileen hizkerak ziurtatzeko haien biografiak arakatzea ere beharrezkoa da. Horrela, zubererarekin edo erronkarierarekin izandako loturak ziurtatzen edo zehazten dira.</p><p>Hori dela eta, lan honetako corpusa deskribatuko da, hau da, Etxart-Ros gutuneria ( § 2.1). ondoren, Etxart ( § 2.2) eta Rosen ( § 2.3) bizitzak azalduko dira eta, honen ostean, eskutitzetan eztabaidatzen diren gatazkak <ref type="bibr">( § 2.4)</ref>. Azken azpiatal horretan aipatzen diren gaiak, nahiz eta historikoki garrantzitsuak izan, ez dira berez azalpen honen helburu, baizik eta horren inguruko lekukotasunetan lexiko eta hizkuntza molde jakin batekin topo egingo dugula konturatzea.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Zuberoatik Erronkarira</head><p>Gabriel Etxartek Zuberoatik 1616ko maiatzaren 26an idatzi zion lehenengoz Miguel Rosi, eta haien arteko azken gutuna Etxartek bidalia da 1617ko urtarrilaren 14an. Guztira 17 gutun dira, batzuk euskaraz soilik idatziak, beste batzuk gaztelaniaz bakarrik, baina gehienak euskaraz eta gaztelaniaz jasoak. Hots, Etxarten gutunetan zuberera lekukotzen da -guztira 8 gutun-eta Rosenak ziur aski Erronkariko euskaraz daude -guztira 6-; eta, Etxartek bidalitakoen artean, bada erregearen botherea euskaraturik ere.</p><p>Bildutako testuak Erronkarin jasoak dira eta, Miguel Rosek idatzitako eskutitzak Zuberoara bidali zirenez, gorde diren testuak haren behin betiko gutunen kopia edo zirriborroak dira. Gainera, Rosen gutun baten euskarazko bi bertsio lortu dira, elkarren osagarri, baina haien artean desberdintasun esanguratsuak antzeman daitezke (ik. § 4).</p><p>Bukatzeko, hasieran esan da testu gehienak euskaraz eta gaztelaniaz idatzi zirela, zehazki, Etxarten 6 gutun daude gaztelaniara itzulita eta baita Rosen beste 5 ere. Beharbada Rosek horiek itzuli zituen Espainiako koroarekin erlazionaturiko organoren bati helarazteko helburuarekin, beharbada eskutitzetan aipatzen den nafarroako visoreyari, eta Espainiako, nafarroako eta Erronkaribarko hizkuntza ofizial bakarra gaztelania zelako.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Gabriel Etxart</head><p>Gabriel Etxart Mauleko oihenartenarekin lotuta dagoen familia garrantzitsu batetik zetorren. Zuberoan zenbait karguren jabe izan zen, ikasketak baitzituen, eta zuzenbidean lizentziaduna ere bazen. 1595ean bere lehengusina Jeanne Etxart alargunarekin ezkondu zen, oihenarten amarekin, alegia -orduan, oihenartek hiru urte baino gutxiago zituen-. Ezkontzean, emaztearen lehen senarraren kargua lortu zuen, hau da, Zuberoan erregearen prokuradore bilakatzen da. 4 Honezaz gain, 1604ko urtarrilaren 1etik Conseiller et Maistre des Requetes de sa Maiesté en Navarre karguaren ardura hartu zuen. Eta, prokuradore izateagatik, 1602tik aurrera auzi zibil eta kriminaletako epaile gisa ere jardun zuen, nahiz Estatu Kontseiluak eskumen hori kendu zion 1614ko irailaren 30ean.</p><p>Biografiara itzuliaz, Gabriel alargundu zenean, 1610. urtearen inguruan, Arnaudine oihenartekin -Jean Iriatziti Bordeleko Parlamentuko Gorteko abokatuaren alargunarekin-ezkondu zen. Emakumea oihenarten aitaren arreba zen. Gidor Bilbaok utzitako bere lanaren laburpenaren arabera <ref type="bibr">(Bilbao &amp; Lakarra 2016)</ref>, lehenengo emaztearekin hiru seme-alaba izan zituen (Charles, Jean eta Claire-Jeanne) eta bigarren emazte horrekin bakarra (donioan). Hala ere, ezkontzaz kanpoko beste seme bat ere izan omen zuen (Sans). Erronkaribartarrek, ordea, ez diote erregeari Etxartek aipatutako dokumentua eskatu nahi. Are gehiago, zuberotarrei galdetzen diete erronkaribartarren aurka dauden sententziak baliogabetzeko eskumena emango dien ahalordea eska diezaiotela Frantziakoari: "çuen erregue jaunaganic podere espeçial, çuen gobernadore jaunarentaco, nola emanic vaitago sentencia, eta pregonaturich sentencia gure contra aren revocazeco, aboliçeco eta anullaçeco" <ref type="bibr">(Etxart &amp; Ros 1616</ref><ref type="bibr">-1617</ref><ref type="bibr">: Rosen 1616</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Miguel Ros</head><p>Aurreko eztabaidaz gain, Rosek gutun berean azaltzen du bortuetan erronkariar bati abereak lapurtu dizkiotela eta, honen aurrean, Etxarti esaten dio lapurreta horren arduraduna zein izan den argitzeko: "otoy eguiten diçut içuleraci diçaçun espendioequi eta gaztiga diçaçun" <ref type="bibr">(Etxart &amp; Ros 1616</ref><ref type="bibr">-1617</ref><ref type="bibr">: Rosen 1616</ref>.</p><p>Laburbilduz, aurreko mendeetan beren aitzindariak bezala, Etxart eta Ros ez ziren ados jartzen eta arazoak ez ziren epe laburrean amaitu, Florencio Idoatek (1977: 144) oraindik biltzen baititu 1800 aldeko antzeko liskarrak zuberotar eta erronkaribartarren artean: "que como son frontaleros han muy grandes afruentos e han uista con los de Saluatierra de Aragón, con los de la vall d'Ansó, de la vall d'Hecho, de la vall d'Aspa, de la vall de los Baratones, de la tierra de Sola, e de la vall de Sarasaz, que son sus frontaleros". Antzeman daitekeenez, honako hau ez zen izan epe laburreko ezta-baida. Gainera, Etxarten azken gutunetik aurrera horren inguruan ez denez gehiagorik jakin, ezin zaio tirabirari amaierarik jarri.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Testuinguruan kokatzen</head><p>Corpusaren gaineko azalpena bukatzeko, gutunak idatzi ziren testuinguru historikoa zein den zehaztea falta da. Informazio hori hiru iturritatik lortu du Gidor Bilbaok Céline Mounoleren laguntzaz: Frantziako erregearen artxiboan, Espainiako erregearen artxiboan eta, azkenik, Erronkariko Batzar nagusiaren Artxiboan (cf. <ref type="bibr">Bilbao &amp; Lakarra 2016)</ref>.</p><p>Frantziatik jakin da eskutitzetan eztabaidatzen den gatazkari buruz Etxartek zenbait txosten idatzi zituela eta baita Parisera bidali ere. Gainera, lehen gutuna 1616an bidali arren, egoera aurretik nahaspilatsua zela irakurri ahal izan da. Esate baterako, Iruñean zela Etxartek Idiakez erregeordearekin egoerari buruz hitz egin zuen eta, horri esker, 1612, 1613 eta 1614ko lapurreten, lur-usurpazioen, hilketen eta gainerako gertaeren berri izan da. Era berean, gai bera tratatu zuen zuberotarrak Frantziak Madrilen zuen enbaxadoreari idaztean. Eta liskar honen amaiera noiz izan zen zehaztu ezin bada ere, historialariek jakin dute 1620an berdin jarraitzen zuela.</p><p>Bestalde, Espainian gertaera horri buruz Simancasko Artxibo nagusitik informazio gehiago lortu du Gidor Bilbaok (ik. Bilbao &amp; Lakarra 2016). Alde batetik, Frantziak Madrilen zuen enbaxadorearen txostenak daude eta, bestetik, lan honekin zuzenean erlazionatzen den testua Etxartek Idiakez nafarroako erregeordeari euskaraz itzulitako botherea da (ik. § 2.1): "Tengo embiado antes de agora copia en lengua bulgar a los dichos roncalesses".</p><p>Amaitzeko, ondoko xehetasunak Rosen bizilekuan lortu dira. Hemen 1597ko dokumentu batean honako erreferentzia hau eskuratu da: Proceso del fiscal de su Magestad de una parte y Juan de Constantin y Juan de Xobac Lujuan, naturales de Montori, en tierra de Sola (Francia), sobre que siendo franceses, enemigos de la Santa Fé Católica, que viven en la secta reprobada de luteranos hugonautes, entraren de acuerdo con otros franceses armados en los límites de navarra y Valle de Roncal, haciendo mucho daño a los católicos y naturales, robándoles y asaltando ganados, acometiendo a cinco hombres de dicho valle de Roncal y a otros hiriéndolos. <ref type="bibr">(apud Bilbao &amp; Lakarra 2016)</ref> Atal honetan gutunen hartzaileen bizitzetako zertzelada zenbait ezagutzera eman da. Gainera, biografiekin haien hizkerak ere ziurtatu dira, Etxart Zuberoan -honekin zalantza gehiago daude-eta Ros Erronkarin jaio, bizi eta hango kontuez eta pertsonez arduratzen baitziren. Hala ere, lan honetan Rosen erronkariera aztertu denez, Etxarten zuberera ere noizbait ikertu beharko litzateke eta baliteke orduan zeresan gehiago ematea bere "jatortasunak". Behin aurkezpenak eginda, jarraian analisiari helduko diogu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Analisi-sistema</head><p>Aztergaian sakondu aurretik, esan dezagun zenbait ikerketa ezinbestekoak izan direla lan hau egiteko: Bonaparteren itzulpen lanak <ref type="bibr" target="#b36">(Pagola et al. 1997)</ref>, Azkuek argitaratutako Particularidades del dialecto roncalés (1931), Mitxelenak Fónetica histórica vascan (1961) eta bere beste bi artikulutan <ref type="bibr" target="#b27">(1954</ref><ref type="bibr" target="#b32">( , Mitxelena et al. 1953</ref>) azaltzen dituen ezaugarriak, eta Ricardo Gómezen ikerketa (1991), besteak beste. Azterketa horiei esker, hizkera horren bilakabide diakronikoaz gehiago jakin ahal izan da. Beraz, aipatutakoetan biltzen diren bilakabideak Rosen gutunetan bilatu nahi izan ditugu; baina, hori baino lehen, erabilitako analisi-sistema zein izan den argituko da.</p><p>Sarreran zehaztu moduan, nahiz gutun hauen bidez zuberera eta erronkariera lekukotu, Rosen gutunetara mugatuaz, ikerketa honetan n-/l-ondoko herskarien oposaketa aztertzea da helburu. dena den, Etxarten testuak ez dira erabat baztertuko sudurkari eta albokariaren ostean zubereran ere herskarien bilakabidea axolazkoa delako eta honen eskutitzak konparaketetarako baliagarriak izango direlako.</p><p>Lana ahalik eta erabilgarriena egitea denez asmoa, gutunak izendatzeko orduan jarraitu den sistema beheko irudian zehazten da. Hots, gutun bakoitzari zenbaki bat esleitu zaio: Etxartek bidalitako lehen gutunak (1) zenbakia du eta guztira 18 testu direnez, azken gutunari (18) zenbakia jarri zaio. Bestalde, egile bakoitzak idatzitako kartak koloreen bidez ere desberdindu dira: Etxartenak laranja kolorekoak dira eta Rosenak, berriz, urdinak. Tartean bada morez markatu den beste bat; hau da Etxartek "en lengua bulgar" (ik. § 2.5) itzuli zuen botherea. Azken ezaugarria gorriz nabarmendu diren zenbakiak dira, Rosek euskaraz idazten dituen idazkienak: (7), (9), (11), (13), (15), eta (17). Sei gutun hauen bidez, n-/l-ondoren ongi/onki bezalako herskarien ahostun/ ahoskabe oposaketa antzeman denez, honetan gehiago sakontzea erabaki da, euskalki banaketarako ere duen garrantziagatik (cf. <ref type="bibr">Mitxelena 1961: 355;</ref><ref type="bibr">Lakarra 2011: 205)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">irudia</head><p>Etxart-Ros gutuneria (15). eskutitzak bi zirriborro dituela ohartu gara. Bi hauek konparatu eta zein desberdintasun den ikusi nahi izan dugu (ik. § 4), horietako batean Rosek Etxarten hizkerara hurbiltzeko ahalegina egiten duelako. Berezitasun honek garrantzia duela azpi-marratu nahi dugu, jabetu baikara ondoren aztertuko dugun n-/l-ondoko herskarien fenomenoan eragina izan dezakeela, eta, horregatik, herskarien txandakatzea aztertzen hasi aurretik hau zehaztuko da. Beharbada zehaztapen filologiko hauek beharrezko izan daitezke azterketa diakronikorako (ik. § 8).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">(15). gutunaren berezitasunak</head><p>Esan bezala, Rosek Etxarti zuzendutako gutunen artean badira euskarazko testu baten bi zirriborro, hark egindako azkenaurreko gutunarenak, alegia. desberdintasun honen inguruan ez genukeen ezer esango berezitasunik aurkitu ez bagenu, baina zirriborroak konparatzean orain arte ikusi gabeko hitz formak identifikatu direnez, hauei arrazoi logiko bat emateko asmoz, (15). gutunaren inguruko azterketatxo berezia egitea erabaki da, eta erakutsi da lehen testua (aurrerantzean "A") bigarren zirriborrotik (aurrerantzean "B") zertan desberdintzen den.</p><p>Hasteko, nahiz grafian ezberdintasunak eriden, hauei ez zaie garrantzi handirik eman hizkeraren izaerari ez baitiote eragiten. Gehienez ere, biezpainkari ahostuna edo afrikatu lepokaria adierazteko grafema desberdinak erabili dira: reçebitu (A) / reçevitu (B); anizetan (A) / anicetan (B). Baina adibide hauek biltzen dituen hitz-zerrenda egitea ez da atal honen asmoa. Aldiz, guthun eta othoy bezalako hitz forma bereziei emango zaie lehentasuna.</p><p>Rosen gutunetan hamabost aldiz gutun hitza erabiltzen da, guztietan, inongo &lt;h&gt;rik gabe. Antzera otoy hitzean: Rosek hitz hau lau bider idazten du eta behin ere ez hasperenarekin -Erronkaribarren ohi edo itxaroten den bezala, nafarroan hasperena antzina desagertua baita (cf. Mitxelena 1961)-. Kontrara, Etxartek ez ditu Rosen bi adibide hauek &lt;h&gt;rik gabe idazten. Gauzak horrela, bi hitz hauetan (guthun, othoy), Ros Etxarten idazkera imitatzen ahalegindu zela pentsa daiteke eta, ondorioz, ordura arte erabili gabeko hitz formak idatzi zituela. Hain datu gutxirekin hipotesi hau ahul geldituko litzateke, baina Rosek (15)A-n hasperenarekin idatzitako beste hitz bat identifikatu da oraindik, çuhur. Kasualitatea dirudien arren, Rosek jasotako azken gutunean Etxartek çuhurrec darabil. Beraz, badirudi planteatutako hipotesiaren aldeko ebidentzia erantsia dela honako hau.</p><p>Adibide horien pare, Rosen gore aipatzekoa da. Hark pluralezko izenordain hori beste gutunetan -u-bokalarekin idazten du hogeita hamairu aldiz. Etxartek, ordea, goure. Aurretik azaldu diren adibideekin konparatuz, hau ez dirudi hain begibistakoa denik. Izan ere, bokalismo ezberdin hori bakarrik gutun honetan gertatzen dela azpimarratu nahi genuke. Eta, era berean, Rosen gainerako gutunetan topatzen ez den beste ezaugarri bat &lt;x&gt; grafema da, baina (15)A testuan quexa biltzen da. Aldiz, nahiz Etxarten adibideak gutxi izan, grafema horren bidez hauek ematen ditu Rosek: exprez, expressuqui (4); expedient, execucionetan (5); oraicoix (8). Hortaz, bi gertakari horietan ere (gore, quexa) Etxarten ereduaren eragina antzeman daiteke.</p><p>Ikusitakoaren ondorioz, bi zirriborro hauetatik badirudi horietako bat (A) Etxarten idazteko era imitatu nahian egin zela. Gainera, berezitasun horrek ondoren aztertuko den n-/l-ondoko herskarien analisian du eragina, gente (15) bezalako formak bakarrik testu horretan aurkitu baitira. Beraz, metodologia baldintza dezakeenez, (15). gutuneko herskarien adibideak kontu handiz aztertu dira. nolanahi ere den, Rosen jarrera horren benetako asmoa zein izan zen jakiteko gogoz uzten gaitu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Dena ez da zuri edo beltz</head><p>Analisian sartu baino lehen, bildutako n-/l-ondoko herskarien adibideak bi multzotan banatu ditugu: alde batetik, Rosek erabiltzen dituen maileguetakoak eta, bestetik, hark dakartzan ondare zaharreko hitzetakoak. Zintzoak bagara, etsenplu guztiak maila berean ez daudela esan beharko genuke, eta gure intereseko adibideak ondare zaharreko hitzen herskariak direla bereziki, diakronikoki eta metodologikoki lehentasuna haiena delako. Gainera, maileguak normalean lehendik nagusi diren ohituretara moldatzen dira (cf. 8. oin-oharreko lat. pace(m) &gt; eus. bake → pake).</p><p>Beraz, analisi honetan, ondare zaharreko hitzei lehentasuna emango zaie, baina maileguak erabat baztertu gabe, hauetan ere ahostun/ahoskabe alternantzia gertatuko delako, nahiz ez erabat aurrekoen arrazoiengatik eta kronologia berean. Izan ere, maileguetako ahostun/ahoskabeak beste arrazoi baten eraginez eta seguruenik oso kronologia desberdineko aldietan sortu zirela argituko da (ik. § 6.2). Jarraian, multzo bakoitzean aurkitutako berezitasunak zehazten hasiko gara; baina, adibideen gaineko azterketan sakondu aurretik, pare bat gauza argitu nahi genituzke. Hurrengo atalean, Lakarraren 2013ko argudioak (ik. § 6. [I]t is assumed that linguistic theory cannot ignore morphology, and so cannot shirk, but must instead always address, questions regarding the proper grammatical type or grammatical location that should be assigned to particular analyses for soundbased phenomena. Synchronically <ref type="bibr">[eta diakronikoki, noski]</ref>, it is clear that not all manipulations of sound must necessarily be a matter of phonology pure and simple. That is, there are some alternations in the shapes of certain lexical items which cannot be reduced to statements of rules or constraints that take into account nothing other than elements of sound structure.</p><p>Gurera ekarriz, Lakarrak (2018) *e-da-dus-i &gt; *e-a-dus-i &gt; *e-aus-i &gt; jausi aditz zaharraren bilakabidea proposatu duenean, galdutako -kasu honetan-hotsen ondorioz, fonologian aldaketak izan dira, bereziki jausik /j/ soinua garatu du eta begi bistakoa da hasierako egiturak bokal eta kontsonante galerak ere pairatu dituela; baina, era berean, eraldaketa horrek morfologia berria sortzea ere ekarri du: hots silabaketa baina baita morfema antolaketa berria ere. Era berean, berehala ikusiko denez, n-/l-ondoko herskarien auzia ere ezin da fenomeno fonologiko eta ezta morfologiko huts bezala aztertu, dena ez baita zuri edo beltz esparru hauei dagokienez (ik. § 8). Gainera, herskarien banaketak Trasken legearekin eta gramatikalizazioarekin izan ditzakeen loturak erakutsiko ditugu (ik. § 6.1).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Gutunetan oinarritutako analisia</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.">Erronkariera arkaismoaren gordetzailea: pake?</head><p>Sarreran genioenez, erronkariera -zubererarekin batera-gainerako dialektoetatik desberdintzen duen ezaugarrietako bat n-/l-ondoko herskarien fenomenoa da (cf. <ref type="bibr">Mitxelena 1961: 355)</ref>. Hots, testuinguru fonologiko horretan, sudurkariaren eta albokariaren ondoren herskarien neutralizazioa nagusi dela antzeman da, kontsonante haien ostean herskari ahoskabeak ala ahostunak agertzen direlarik soilik euskal dialektoetan. Izan ere, hizkeretan hain ohikoa den egoera horretan, erronkarierak izaera berezia erakusten du: "E altare, Z althá <ref type="formula">(r)</ref> Ikusi dugunez, oraintsu arte arkaismotzat jo da n-/l-ondoren herskari ahoskabea gordetzea, baina Mitxelenak kontrako azalpena proposatzeko bidea ere ikusten zuen, nahiz gero ez garatu:</p><p>Hay dos maneras de interpretar estos hechos. Lo más natural parece pensar que en vascuence se ha llegado a neutralizar la oposición sorda / sonora detrás de nasal y l sonorizando en esa posición las oclusivas sordas con posterioridad a la introducción de los primeros préstamos latinos: ronc. y sul. serían por tanto dialectos arcaizantes que han conservado mejor el antiguo estado de cosas. Pero acaso se pueda suponer también que se trataba de un tipo de lengua en que la oposición quedaba suspendida en esos contextos, en los cuales las oclusivas se pronunciaban uniformemente sonoras (o lenes). En este supuesto, las nuevas formaciones y los préstamos que presentaban grupos formados por nasal o l + oclusiva se seguirían acomodando por bastante tiempo al tipo normal, siendo el roncalés y el suletino los dialectos que primero abandonaron esta práctica. <ref type="bibr">(Mitxelena 1961: 355)</ref> Hortaz, Mitxelenak (1961) dioena kontuan hartuz, erronkariera edo zubereraz landako euskalkietan n-/l-ondoko herskari ahostunak iraun du eta aipatutako ekialdeko hizkeretan, berriz, herskari ahoskabea sartu da (cf. <ref type="bibr">Lakarra 2011: 206)</ref>. Horren ondorioz, hasieran azaldutako egoera berrinterpretatu behar da: Mitxelenaren proposamen berri horren arabera, gainerako euskalkietan gorde den egoera zaharraren -ahostuna gordetzearen-aurrean, zubereran eta erronkarieran ahostun &gt; ahoskabe aldaketa gertatu dela, alegia.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.1.">Mitxelenaren proposamena finduaz</head><p>Mitxelenaren interpretazioaren alde, Lakarrak (2013) haren hipotesiari hiru argudio eransten dizkio. Alde batetik, ezaugarriaren hedadura dialektalari begiratzen dio eta erronkarieraren "ustezko arkaismoa erdian (mendebaleragoko euskararen eta ekialderagoko [euskal sustratoaren bidezko] erromantze ahostundunaren tartean) eta berrikuntza komunak ertzetan" <ref type="bibr">(Lakarra 2013: 293)</ref> kokatzen direla konturatzen da. Beraz, ustezko berrikuntza bera bi muturretan bateratsu gertatzea "logika guztiaren aurka" [aree laterali] (2013: 293) doala azpimarratzen du.</p><p>Gainera, txandakatzea ahostun/ahoskabe ulertu beharrean, euskara zaharrerako Martineten eta Mitxelenaren bortitz/ahul proposamena gogoratuaz eta, ildo honetatik, txistukarien kokagune bereko neutralizazioarekin lotzen du: "kontuan badugu [n-/l-ondoko] kokagune berean txistukariekin gertatua, orduan, neutralizazio zaharra ahularen alde zela (frikaria haietan, ergo ahostuna hauetan) eta aldaketa gero bortitzaren alde bilakatu zela eremu batzuetan (afrikatua haietan, ahoskabea hauetan)" <ref type="bibr">(Lakarra 2013: 293)</ref>. Hau da, txistukarietan neutralizazioa historiaurreko ahularen -frikari historikoaren-alde gertatu bazen, herskarietan gauza bera gertatu ahal zela pentsatzera eramaten gaitu Mitxelenaren [bortitz/ahul] sisteman oinarritutako argudio horrek. orobat, frikarien aldeko neutralizazioa Euskal Herri osoan lekukotutako bilakabide bat da, Leizarragaren bereizkuntza grafiko sistematikoaz landara, Refranes y sentenciasen, Landucciren hiztegian, Beriainen edo Lazarragaren testuetan aurkitu baita, besteak beste. Hortaz, Mitxelenaren (1957) berreraiketaren arabera bortitz/ ahul oposaketa bera denez /h/az kanpoko sail guztientzat, gainerako hots taldeetan emaitza berdinak espero dira. Hots, hizkera guztietan herskarietan ahostunaren aldeko neutralizazioa gertatzea.</p><p>Mitxelena hil ondoko garaietan garatu diren ikerketa lerroetara jauzi eginaz, orain arte ikusitako gertakariak Trasken legearekin du lotura -Lakarraren (2013) hirugarren argudioa-. Fenomeno hau egoki aztertzeko, gramatikalizazio teoriaren barnean kokatzea ezinbestekoa da, Traskek egin ez bezala. Horretarako, erro zein morfema lexikoaren eta gramatikalaren arteko loturatik abiatu behar da. Horrela, item lexikoek gramatikalizatzeko jarraitzen dituzten bideak ikusten ditugunean, morfema lexikoek gramatikalizatzean gramatika-funtzioak eskuratzen dituzte, eta lehen zeukaten esanahi lexikoa galtzen dute. Horrekin batera, jatorrizko egitura fonikoa ere urritzen edo aldatzen zaie. <ref type="bibr">Beraz, Lakarraren (1995</ref><ref type="bibr" target="#b20">, 2013</ref> morfema lexikoen forma kanonikoan oinarrituz, 5 CVC erro monosilabiko egitura zahar batek bi bilakabide izango ditu: batetik, CVC → CV gramatikalizazio primarioa deritzona eta, bestetik, azken horretatik sortzen den CV → C / V gramatikalizazio sekundarioa (cf. Lakarra 2016). Hona hemen adibide batzuk: "*din &gt; -di &gt; -di / -ti, *den &gt; -de &gt; -de / -te / -e" <ref type="bibr">(Lakarra 2018: 116)</ref>.</p><p>Aurrekoa Trasken legearekin lotuaz, hau gramatikalizazioaren bilakabidetik atera daiteke: CV egitura berri horren hitz hasieran ahoskabe/ahostun alternantzia bada, CVrik zaharrena ahostunaren bidez eraikitako morfema dela dio Traskek (1995), dV, hain zuzen. Eta hortik sortzen dira gainerako alomorfoak: TV eta V. <ref type="bibr" target="#b0">6</ref> Horrela, -gi/-ki eta -de/-te alternantziak azaltzen ditu:</p><p>Finite forms are not part of my brief here, but I cannot resist pointing out that the existence of the competing forms -ki and -i suggests a common origin for both in an earlier *-gi. The splitting of an original *-gi / -ki and -i would strongly parallel the split of the plurality marker *-de into -te (as in dute) and -e (as in Biscayan dabe &lt; *daue), with -de surviving in a few forms like daude. <ref type="bibr">(Trask 1995: 231)</ref> Bestalde, "finite forms" delakoetarik atera eta morfologia eta lexiko zahar orokorrera zabalduaz, Lakarraren 2013ko artikuluan dV &gt; TVren kasu gehiago ematen dira, Trasken adibideak Lakarrarenekin bat datozela erakutsiz. Gainera, abiapuntu guztiak CVC dira: *edin, *dar, *den, *don... Hortaz, Trasken legearen arabera, sudurkari eta albokariaren osteko CVren hotsik zaharrena herskari ahostuna da, hots, herska ri ahulez hasten ziren erroen ondorioa. Hori dela eta, -nd-, -ld-, -nb-, -lb-, -ngeta -lg-kontsonante bilkuretatik -nt-, -lt-, -np-, -lp-, -nk-eta -lk-berrikuntzak sortzen dira. Ideia horrek indarra hartzen du "/l, n/ ondoren ez dela **hanti edo **alti-rik ekialdean, baizik eta handi eta aldi, gainerakoetan bezala" (Lakarra 2013: 293) ikustean eta erdi, ardi, hordi... r-ondoren, hots, beti eta dialekto guztietan ahostun/ahoskabe berezi den kokaguneetan: "A diferencia de lo que sucede detrás de n y l, las dos series de oclusivas se mantienen bien distintas tras r: com. urde 'cerdo' / urt(h)e 'año', cf. también ardi 'oveja' (y vizc. 'pulga') y arte 'espacio intermedio' 'encina'" <ref type="bibr">(Mitxelena 1961: 355)</ref>. Eta, batez ere, dV &gt; TV [S_] -txistukari ondoren-testuinguruan ere fenomeno morfofonologikoa da, ez soilik fonologikoa, hau da, eratorpena edo konposaketa gertatu da eta, era berean, hotsak kateatu dira. Are gehiago, lehenik fonologikoki d-&gt; T-bihurtzen bada ere, gero alomorfoa bilakatu eta edozein testuingurutara hedatzen da (cf. -zu/-tsu atzizkia).</p><p>ondorioz, orain arte ikusitakoa zuzena bada, erronkariera eta zubereraren herskarien ahoskabetzea ez litzateke arkaismo bat. Horregatik, Mitxelenak (1961) proposatutako ideia astiroago ikusteko helburuarekin Ros erronkariarraren n-/l-ondoko herskarien adibide guztiak bildu ditugu. 7 5. atalean zehaztu bezala, jasotako horiek bi multzotan bereizita azalduko dira: batetik, maileguetakoak ( § 6.2) eta, bestetik, ondare zaharreko hitzak ( § 6.3), suma baitaiteke bilakabideak arrazoi eta kronologia ezberdinak izan litzakeela hitzen sail batean eta bestean. Amaieran, bi talde horietan antzeman diren joerak zehaztuko dira (ik. § 8).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.">n-/l-ondoko herskariak maileguetan</head><p>Atal honetan, Rosen eskutitzetako maileguen RT -[n-/l-+ herskari]-taldeei erreparatuko zaie. Hasteko, azaldu diren maileguen artean badira batzuk zeinetan [izena + atzizkia] elkarketak bereizten diren. Haiek zeintzuk diren zehaztu aurretik, mailegaketari dagokionez beste bi zertzelada izan behar ditugu gogoan. Ezer baino lehen, nahiz eta maileguen egitura banaketa erakutsi, maileguak -batez ere morfemak-gehienbat euskarak barneko analisirik gabe ("osorik") hartuko zituen eta bertakotu gabe, ondorioz. 8 Hala ere, zatitu egingo ditugu azterketa errazteko asmoz. Izan ere, badira ahostun/ahoskabe txandakatzeak maileguen atzizkietan bakarrik gertatzen direnak eta, beraz, zuzenean atzizkiei begiratuko diegu. 7 Etxartenak ere jaso dira ondoren egingo diren konparaketetarako. 8 Mailegaketa zaharra balitz, maileguek euskarazko lege zaharrak pairatuko zituzketen. Hau hobeto ulertzeko, Mitxelenak (1963) ezarritako "paradoxa" aintzat hartu behar dugu: euskal mailegu zaharrenak jatorrizkotik gertuago egotea espero da eta, aldi berean, zaharrago diren neurrian euskararen barnean aldaketa gehiago jasatea. <ref type="bibr">Adibidez, Martinetek (1950</ref><ref type="bibr">) proposatutako eta, ondoren, Mitxelenak (1957</ref> garatutako teoriaren arabera (ik. § 5), latinez herskari ahoskabeaz hasten ziren hitzak euskaraz -horko ahulen taldeak kokatu ondoren-herskari ahostunaz agertzen dira aldaera zaharretan. Horrela, lat. pace(m) &gt; eus. bake bilakabideak azaldu dira. Beraz, atzizkietan ere lat. -mentu(m) &gt; eus. -mendu aldaketa espero da, baina geroago azaltzen dugun bezala (ik. § 6.2.1.1), atzizki zaharra izateko ondare zaharreko hitzetako oinarriekin behar du konbinatzera heldu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.1.">-mentu</head><p>Ahoskabea erakusten du -mentu atzizki mailegatuak. Hau latinezko -mentu(m)etik datorrela esan ohi da eta, aldameneko erromantzean ere (gaztelaniaz), -mientoren kontsonantea ahoskabea da. Halaber, Rosen gutunetan bi hortzetakoen arrastoak daude: juntamentu (15) eta gobernamendu (15). 9 Baina -nd-&gt; -nt-erronkarieraren berrikuntzatzat jo aurretik, garai bertsuko idazleen testuekin konparaketak egingo ditugu -mentu/-mendu txandakatzearen hedadura zehatzago ikusteko. Hortaz, lan honetako analisirako, eskutitzen garaiko inguruko dialektoetako zenbait lekukotasun hautatu ditugu. Horrezaz gainera, erronkarieraren xix. mendearen akabuko lekukotasun zabalenak ere aintzat hartu dira:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">taula</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analisirako erabilitako lekukotasunak 10</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Testua Edizioa Laburdura</head><p>Leizarragaren iesus Christ gure iaunaren testamentu berria (1571) <ref type="bibr" target="#b23">Leizarraga (1990)</ref>  Etxeberri Ziburukoak latinezko -mentu(m) atzizkiari dagozkion hitz guztiak -ndrekin dakartza. Autore horren corpusean ikusitako hitz asko Beriainen testuan ere aurkitzen dira, baina idazle honek, aldiz, ahoskabeak ditu: adimendu (EZ, 5. or.) 17 vs adimentu <ref type="bibr">(Ber,</ref><ref type="bibr">43. or.)</ref>; pensamenduetaric (EZ, 73. or.) vs pensamentues <ref type="bibr">(Ber,</ref><ref type="bibr">69. or.)</ref>. Hau ikusita, Iparraldean herskari ahostunak denbora luzeagoan iraun duela pentsa daiteke, baina honek teoria zaharrari kontra egingo lioke (ik. § 6.1). Erronkaribartik urrunago gelditzen den Betolatzaren dotrina ere arakatu dugu puntu hau argiago ezartzeko asmoz. Arabar idazle honek -Berianek bezala--mentu/-mintu atzizki soila du: pensamentu <ref type="bibr">(Bet,</ref><ref type="bibr">52. or.),</ref><ref type="bibr">Mandamintu (Bet,</ref><ref type="bibr">56. or.)</ref>, juramenturic <ref type="bibr">(Bet,</ref><ref type="bibr">56. or.)</ref>  <ref type="bibr">18</ref> Hartara, esan daiteke ordurako ekialdeko euskalki horretan -nd-&gt; -nt-berrikuntza gertatu dela? Hain corpus txikiarekin ezin dira hipotesi orokorrak atera. Gehienez ere, aurreko konparaketa laburrean ikusitako joerak deskriba daitezke, hots, xviii. mendetik aurrera -mentu dela nagusitu dena.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.1.1.">Hizkuntzatik haratago: egoera soziolinguistikoaren eragina</head><p>Aurreko hurbilketak ez digu aipatutako Hegoaldeko vs Iparraldeko auzia konpontzen, Beriain eta Betolatzaren dokumentuetan espero ez den herskari ahoskabea aurkitu delako. Pentsatu izan da -mentu aldaerak atzizkiaren jatorrizko latinezko formatik hurbilago dirudienez, horixe dela zaharrena euskaraz, baina gainerako adibideei esker jakin genezake baieztapen hori ez dela zuzena. Izan ere, zalantzarik gabeko bestelako testuinguru batera jotzen badugu, bake askoz zaharragoa da euskaraz pake baino, nahiz itxuraz bigarrena latinekotik hurbilago izan. Horregatik, aztertzen ari garen kasu honetan hizkuntzan gertatzen diren aldaketetatik haratago jo behar dugu.</p><p>Beste era batean esanda, Beriainen eta Betolatzaren testuinguruak xehetasun handiagoz ikertu beharra dago, xvii. mendean kokatzen diren idazle horien garaian, bai Iparraldean eta baita Hegoaldean ere: "Diglosia hitzak ezin hobeki deskribatzen du euskararen egoera, beti gaztelaniaren, frantsesaren eta gaskoiaren beraren menpe, hizkuntza horietantxe idatzi baitziren Euskal Herriko foruak" <ref type="bibr">(Mounole &amp; Gómez 2018: 473)</ref>.</p><p>Baina diferentzia nabarmenak ere baziren: Hegoaldean gaztelania guztiz indartsu bihurtzen ari zen eta Beriainen testua horren adibide da. Idazle hori erdarazalea dela ez dago zalantzarik, hainbat hitz orduko erromantze modernoenetik hartu dituela ikusi baita -orobat edo are gehiago Lizarragak mende bat geroago-, testuari nolabaiteko maila eta dotorezia emateko aipatutako erdaratik zuzenean hartutako mailegu asko erabili baitzuen. Jarrera horren eraginez, esan daiteke Beriainentzako -mendu atzizkia zaharkituta dagoela eta gaztelaniazko forma jasoago aurkitzen duenez, hizkuntza horretatik hurbilen gelditzen den atzizkiaren alomorfoa erabiltzen duela. Iparraldean, aldiz, Leizarraga eta gainerakoengan, ezin topa daiteke horrelakorik, -nd-eredu zaharrari eutsi baitzaio. Autore horiek maila jasoko idazleak izan arren, ez da antzematen beren hizkeran erromantze garaikideen (gaskoiaren) eragin markagarririk fonologian, Hegoaldean bertako erromantzearekiko aurkitu bezala.</p><p>Hortaz, Iparraldekoek -nd-forma jatorra darabilte, baina Beriainek, berriz, forma hori baztertu eta kultismo diglosikora jotzen du, hau da, gaztelaniaren ahoskabeetara. orobat, gaztelaniaren eragina Rosen eskutitzetan ere nabaritzen da, berak ere -mentu atzizkiaren adibideak baititu. Hala eta guztiz ere, atzizki mailegatu baten inguruan ari garela ezin da ahaztu, ez latinetik baizik eta gaztelaniatik zuzenean hartutako atzizki batez, 19 hain zuzen ere.</p><p>Ezagun denez, bertakotzeko ondare zaharreko hitzen oinarri lexikoekin behar dute konbinatzera heldu atzizki mailegatuek; alabaina, ez da egoera hori aurkitzen duguna, atzizki mailegatua soilik mailegatutako oinarriekin elkartzen baita. Hau da, -mentu euskarazko atzizki soilik bilakatuko litzateke ondare zaharreko hitzetako oinarriei lotzean, baina hori ez da gertatu ez xvii. mendean ezta geroago ere, Sarasolak (1997: 636) atzizkiaren "modernotasuna" aztertzean erakutsi zuen moduan. Hortaz, euskaraz Rosek dakartzan bezalako hitz mailegatuak barneko analisirik gabe ("osorik hartu") eskuratu dira, hizkuntza hartzailean inongo eratorpen historikorik gauzatu gabe, nahiz erromantzean hitza zatikagarria izan lehen eta gero. kiak direla iruditu ahal zaigu eta hauek erabat sistematikoa ez den testuinguru bat erakusten dutela. Eta Gómezek (1991) argitaratutako dotrinaren, Hualde Mayoren edo Mendigatxaren kasuak ikusita, ahoskabearen aldeko egoera hori soilik geroago egonkortzen dela pentsa daiteke. dena dela, hurrengo puntuan ondare zaharreko hitzetako kasuei helduko zaie, izan ere, diakroniaren metodologian lehentasuna haiena baita beti.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.3.">n-/l-ondoko herskariak ondare zaharreko hitzetan</head><p>Sudurkari eta albokari ondoko taldeen analisia osatzeko, atal honetan ondare zaharreko hitzei begiratuko diegu. Horretarako, erronkarieraz lekukotutako ondare zaharreko hitz guztien analisia hemen egitea ezinezko delarik, [erro monosilabikoa + atzizkia] bezalako elkarketak aukeratu ditugu, beraiek baitira oinarrizkoenak eta zaharrenak ere (cf. <ref type="bibr" target="#b18">Lakarra 1995)</ref>. Honenbestez, CV(C) + CV osaerak aztertuko dira, Trasken legea ere (ik. § 6.1) gogoan dugularik: beraz, espero da CV(C) + dV egitura zaharrena izatea eta hortik CV(C) + TV / V alomorfo berriak sortzea.</p><p>Has gaitezen Rosen ongui (9) aztertzen. Kasu honetan, on-erroari atxikitzen zaion atzizkia dV ahostuna da; hortaz, Trasken legeak aurreikusitako forma zaharrena dugu. Horren alde, Axular, Beriain, Etxeberri Ziburukoa eta Leizarragaren -gi 28 amaierak topatzen ditugu. Aldiz, horren aurka, Ros beraren onquy (15) dugu eta baita Bonaparte, Hualde Mayo eta Mendigatxaren 29 -ki 30 ahoskabe ugariak ere. Lekukotasunen kronologia ikusita, -gi atzizkia zaharrena dela pentsa daiteke eta, ondoren, Rosen garaian -k-sartzen hasi zela Mendigatxaren gutunetan nagusi edo erabateko bilakatu arte. Bilakabide hori aditzetako -ki/-gi-rekin bagenekien (cf. <ref type="bibr">Lafon 1999: 769)</ref>.</p><p>Aurreko lekukotasunaz gain, Rosek lau aldiz vilgu (7) darabil. Adibide hori ahostunarekin Etxarten gutunetan ez denez topatzen, ondoriozta dezakegu Rosek ezin izan duela harengandik hitz forma hori hartu. Hori dela eta, l-ostean erronkarieran espero ez den herskari ahostuna dugu. Gainera, Etxeberri Ziburukoak bilkhua 31 dakar eta Etxartek, berriz, bilkuian (10). Beraz, lekukotasun hori Erronkaribartik kanpo ahoskabearekin aurkitu dela ikusten dugu eta, horrenbestez, vilgu-k -handi eta gelditu-k bezala-alomorforik zaharrena ahostuna dela erakusten du.</p><p>Ahoskabearen aldeko bilakabide hori argiago ikusteko, hitz gehiagorekin azterbide bera jarraitu da, baina ondoren aztertuko direnak Etxarten hitzak dira, egile horren gutunetan ahostun/ahoskabe lekukotasun gehiago aurkitu baitira: 32 zuberotarraren alde (8) etsenpluarekin bat, Leizarraga, Beriain, Axular eta Etxeberriren -de alomorfoak ditugu. Izan ere, Bonapartek izan zituen laguntzaileek, Hualde Mayok eta Men-28 Hona hemen adibideak: "vngui eguieçue gaitz " <ref type="bibr">(Lç,</ref><ref type="bibr">296. or.)</ref>; "eguitendituela ongui" <ref type="bibr">(Ber,</ref><ref type="bibr">253. or.)</ref>; "ongui ethorria" (Ax, 5. or.); "Bethi ungui ethorria" <ref type="bibr">(EZ,</ref><ref type="bibr">19. or.)</ref>. <ref type="bibr">29</ref> Esan beharra dago ongui (bakarra) ere topatu dela. Horregatik, hau fase sparitaren erakusle da. 30 Hona hemen adibidea: "onqui aburritandaiceiner" (HM, 536. or.); "onki eskibitandaudan" <ref type="bibr">(Mdg,</ref><ref type="bibr">121. or.)</ref>. <ref type="bibr">31</ref>  Horrela, maileguetan ikusitako "bariazio" txikiak (ik. § 6.2) ondare zaharreko hitzetako etsenpluetan ere aurkitu dira, ahoskabea nolabait sartzen ari dela erakusten digutenak. Eta herskari ahostunarekin adibide gehiago aurkitzeagatik ere -baita garai bertsuko testuetan eta geroko sparitak ere-haiek zaharragoak izan daitezkeela erakusten da. Horrekin batera, badira adibide batzuk euskararen historian herskari ahostunarekin bakarrik topatzen direnak: Rosen andia (7) eta guelditu (11). ondorioz, aipatutako azken horiek atzizkiaren forma zaharra -di dela pentsatzera garamatzate, gramatikalizatu aurreko -din-erroarena zen bezala zalantzarik gabe: orain hordi, geldi, handi bezalako forma sparitak -seguru asko baita erdi eta, agian, irudi ere-kontuan izanik (ez da **horti, **gelti, **hanti, **erti, **iruti), -di zen (ez -ti) adjektiboak egiteko atzizkiaren forma zaharra (cf. -de &lt; *eden : -di &lt; *edin). <ref type="bibr">(Lakarra 2013: 302)</ref> 6.4. Herskari ahostun &gt; ahoskabe bilakabidea 5. atalean, fonologiaren eta morfologiaren arteko lotura azaldu da eta, aitzineuskaraz geroztik erlazioa aldatuz joateagatik, bisilaboen egitura -monosilabikoen eta morfemen arteko erlazioa-eraldatzen da eta horrekin inoiz -dV &gt; -TV egitura ere. Bilakabide hori hurrengo paragrafoetan erakutsiko da.</p><p>Ikusi den bezala, badaude arrazoiak Trasken legearen alde jokatzeko; hots, aztertutako gutunetan aurkitu diren herskarien ahostun/ahoskabe alternantzien aurrean, dV egitura adibideak zaharrenak dira. Horren berme eta alomorfo berriek nola funtzionatzen duten ulertzeko, Kuryłowiczen lege klasikoak gogoratzekoak dira:</p><p>The fourth law: when a form undergoes analogical reshaping, the new form takes over its primary function, and the old form remains only in secondary functions.</p><p>[...] The sixth law: a native form may be analogically reshaped under the influence of a non-native form, especially if the non-native variety is more prestigious. <ref type="bibr">(apud McColl Millar 2015: 106)</ref> Kuryłowiczen arabera, alomorfo berriak aurrera eginez gero, hainbat eta testuinguru gehiagotan indartsu eta nagusi bilakatzen hasiko dira eta, horren eraginez, forma zaharra testuinguru isolatuetan bazterturik geldituko da. Beraz, hau guztia aintzat hartuz, dV egitura zaharra TV alomorfo berriaz ordezkatu da. Bestalde, berri-33 Hona hemen adibideak: "Capernaum itfas aldecoan" <ref type="bibr">(Lç,</ref><ref type="bibr">290. or.)</ref>; "alde batetic" <ref type="bibr">(Ber,</ref><ref type="bibr">38. or.)</ref>; "Alde batetic" <ref type="bibr">(Ax,</ref><ref type="bibr">221. or.)</ref>; "Ene alde othoi" <ref type="bibr">(EZ,</ref><ref type="bibr">276. or.)</ref>; "Jordanaren berce alteco" (HM, 533. or.); "mechediaren altez" <ref type="bibr">(Mdg,</ref><ref type="bibr">125. or.)</ref>. <ref type="bibr">34</ref> Gogoan izan -du mailegatutako atzizki zaharra dela, baina haren zahartasunarekin ez dago zalantzarik ondare zaharreko hitzekin konbinatzen eta dialekto guztietan lekukotzen baita. <ref type="bibr">35</ref> Hona hemen adibideak: "Eta bilduric" <ref type="bibr">(Lç,</ref><ref type="bibr">284. or.)</ref>; "vildu nahi du" (Ax, 218. or.); "Elkhar gana bildu" <ref type="bibr">(EZ,</ref><ref type="bibr">247. or.)</ref>; "faitendra biltuz" <ref type="bibr">(Mdg,</ref><ref type="bibr">136. or.)</ref> nolanahi ere, fenomenoak analisi morfologiko zaharraren aztarna edo zantzuren bat gordetzen duenean, hau da, morfemen artean banaketa bat suma dezakegunean, Mitxelenak ikusi bezala, herskari ahostunek dute hotsik zaharrena izateko aukera gehien. Izan ere, Mitxelena ohartzen da antzinako egitura morfologiko fosilduaren aztarna horretaz: "Esto quiere decir, naturalmente, que alte y galte p. ej. eran palabras complejas que habría que analizar al-te y gal-te del mismo modo que según toda probabilidad igante era igan-te" <ref type="bibr">(Mitxelena 1961: 355)</ref>.</p><p>Hortaz, lehen esan bezala, erronkarierak pairatutako ahoskabetzeaz hainbat aditu baliatu dira ekialdea gainerako dialektoetatik bereizteko. Baina, mendebaldean ere ondare zaharreko hitzetan ahoskabeak izanik, zeri begiratzen zaio? Kopuruari? Ala maileguetako -latinetik hurbilagoko omen diren-zenbait ahoskaberi? Horren aurrean, fenomeno morfologikoa (cf. § 6.1.1) noiz eta nola bihurtzen den fonologiko ikertzea litzateke garrantzitsuena eta, horretarako, mailegu zein ondare zaharreko hitzei begiratu behar zaie, batez ere azken hauei, noski. Hala ere, egoera diglosikoa aintzat hartzea ere ezinbestekoa da, lan honetan forma ahoskabe moderno batzuk arrazoi soziolinguistikoen eraginez gertatu direla erakutsi delako (ik. § 6.2). Erronkarieraren kasuan, morfologiatik fonologiarako jauzia ondare zaharreko hitzetan bakarrik ziurta daiteke, berrikuntza are indartsuagoa bihurtzen baita Hualde Mayo eta Mendigatxaren testuetan. Hori dela eta, -dV &gt; -TV berrikuntzak biderkatuz joan direla ikusi da - § 6.4-ko Kuryłowiczen lege klasikoak jarraituz-lege fonologiko huts (ia) bilakatuaz. Aldiz, arte bezalakoak Euskal Herri osoan gertatu direla azpimarratu dugu. Beraz, honek erakusten ditu bilakabidearen erritmo eta hedadura diferenteak testuinguru eta dialektoetan. dena den, erronkarierako ahoskabetasunaren ugaritasunak iradokitzen du hizkera horretan berrikuntza hori lehenago zabaldu zela dagoeneko EBZaz geroztik eta muturrera eraman dela ekialdeko dialekto horietan berrikuntzen kopurua biderkatuz. Horren ondorioz, morfologikoa zena fonologikoa izatera eta ondare zaharreko hitzetatik maileguetara igaro da.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">Ondorioak</head><p>Lan honen helburua Mitxelenak 1961ean proposatzen zuena egiaztatzea izan da (ik. § 6.1); hau da, gainerako euskalkietan gorde den egoera zaharraren aurrean, zubereran eta erronkarieran n-/l-ondoko herskarietan ahostun &gt; ahoskabe aldaketa gertatu dela frogatu nahi izan da. Hipotesi zaharberritu horren alde Lakarrak (2013) beste hiru argudio -fonologiko, geografiko eta morfologiko-eransten dituela gogoratu dugu (ik. § 6.1.1) eta horrek erakutsi digu aztergaia ezin dela bilakabide fonologiko hutsa balitz bezala tratatu. Are gehiago, morfologiarekin loturak dituela erakusten du, -dV &gt; -TV morfema banaketaz, Trasken legeaz eta gramatikalizazioaz baliatuz.</p><p>Aurretik esan dena praktikara eraman nahi izan dugu guk Etxart-Ros gutuneria eta garai bertsuko edota geografia bereko konparaketen bitartez. Horrela, herskarien bilakabidea noizbait ahostun &gt; ahoskabe fenomenoa morfologikoa -zehazki, alomorfikoa-izan zela erakutsi dugu. Gero, fonologikoki orokortuaz joan zela eta ondare zaharreko hitzetatik maileguetara hedatu dela zehaztu dugu, hizkuntza kontaktu arruntenetan ohi bezala (ik. § 7).</p><p>Horretaz gain, azterketa honetarako Trasken legea eraginkorra dela frogatu da, Traskek (1995) herskari ahulez hasten den CVrik zaharrena ahostunarekin eraikitako morfema dela baitio -nahiz hura adizki jokatuetara mugatu-(ik. § 6.1.1) eta lan honetan egin diren konparaketetan hark ikusitako bilakabidea lortu delako. Halaber, esan dugu herskari ahoskabeak, duten hitz forma itxuraz latinetik hurbilago egoteagatik, zaharrenak direla euskaraz ere baieztatu dela, baina § 6.2.1.1-eko pake eta beste askoren kasu ezagunak gogoratzeak erakutsi digu irizpide hori ez dela batere zuzena eta ikerketa desbideratu duela. Hori dela eta, bereziki ondare zaharreko hitzetako kasuei begiratu behar zaiela azpimarratu nahi izan dugu, metodologikoki eta baita diakronikoki ere lehentasuna haiena delako. Gainera, antzeman dugu kultismo edo erdi-kultismoetan erronkaribartarrek, baina baita beste dialektoetako idazleek ere, er-erronkaribartarrek, baina baita beste dialektoetako idazleek ere, erdara modernoaren diglosiaren eraginez ahoskabearen alde jokatu dutela. Horren ondorioz, corpusaren baldintza soziolinguistikoa aintzat hartzea ere ezinbestekoa izan da (ik. § 6.2.1.1).</p><p>Corpusa aipatzen jarraituz, analisian eragina izan dezakeen zenbait arazorekin topatu gara. Adibidez, Rosek Etxarten hizkera imitatu nahian, gainerako gutunetan aurkitzen ez diren hitz formak darabiltza gutun jakin batean (ik. § 4) eta jarrera horrek n-/l-ondoko herskarien analisian eragina duela ohartu gara. Horretaz gain, zuberotarraren hizkera lan honen mugetatik kanpo gelditu da eta, horren ondorioz, etorkizunean Etxarten "jatortasuna" -hots, bere jatorrizko lurraldeko benetako hizkerari zenbatean lotu zitzaion-edo horren falta ziurtatu beharko da.</p><p>Halaber, oztopo horien aurrean metodologian ahalik eta zintzoenak izaten saiatu gara. Horretarako, kronologia errespetatu nahi izan dugu; adibidez, eskutitzen garai bertsuko lekukotasunekin egin dira lehendabiziko erkaketak eta, gero, Rosen gutunez ondoko 250 edo ia 300 urteko erronkarieraren corpus "klasikoarekin". Horrela, zehaztasun gehiago lortu da, eta garai batetik bestera zer-nolako bilakabidea dagoen erakutsi da. ondorioz, lan honetan egin den hurbilketaren arabera, ondare zaharreko CVC-dV egiturak beste edozein baino lehenagokoak direla frogatu da (ik. § 7). Hala ere, Etxarten eta Rosen herskarien adibideen artean diferentzia kronologikoak topatu dira -nahiz beste dialektoekin alderaturik topatzen direnak gehiago izan-.</p><p>Horrek bilakabidea ezaugarri bereizle erabatekoa ez dela erakusten du.</p><p>Edonola ere, etorkizunerako fenomeno hau sakonkiago aztertzea eta corpusa handitzea eginkizun beharrezkotzat ikusten dugu; eta ez Rosen gutun laburrotan soilik, baina baita Etxartenetan eta, beraz, baita zubereraz zer gertatu den astiroago ikertzea ere. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Erreferentziak</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>1544ko uztailaren 25ean Erronkarin jaio zen eta 1624ko urriaren 10ean hil, bere heriotza-agirian zehazten denez. Bere gurasoak, Blas Ros eta Katalina Miguel, 1543an ezkondu ziren. nahiz eta ezkontza-kontratua Izabako notario batek baliozkotu, Rosen gurasoak Erronkarin bizi izan ziren. Informazio hori baliagarri suerta dakiguke Rosen hizkuntza egiaztatzeko eta, gainera, jakin da bere familia hiru belaunaldiz behintzat Erronkarin egon zela Ros alkate izateko. 1545ean Blas Ros hil zen. Horren aurrean, Katalina Miguel eta bere semea amaren nebaren etxera joan ziren bizitzera, orain ere Erronkarin bertan. osaba horrek Rosen bizitzan zeregin garrantzitsua izan zuen: domingo Miguel ikasketak Parisen egindakoa zen eta Erronkariko abade eta maisua zen. Bere arrebari lagundu zion Ro-sen ikasketa apaletan, eta jakin da arreba eta ilobarekin ere gogor xamarra zela eta biek beldurra ziotela.Miguel Ros heldutasunera iristean, 1570 inguruan, Joana Lópezekin ezkondu zen. Hiru seme-alaba izan zituzten: Luis -notario izana-María eta Inesa. Halaber, ezkondu aurretik Magdalena Sanz ezkongabearekin ere seme bat izan zuen. Rosen izaera ez bide zen goraipatzeko modukoa; adibidez, auzi bat baino gehiagotan salatu zuten bere emaztea egurtzeagatik. Gainera, bestelako salaketak ere izan zituen: mutiko bat kolpeka hiltzea, karguak bere mesedetan baliatzea, auzietako lekukoak eros-tea… Horren ondorioz, behin baino gehiagotan Iruñeko kartzelan izan zen preso.</figDesc><table><row><cell>nolanahi ere den, hainbat kargu garrantzitsuren jabe izan zen: errege-eskribaua</cell></row><row><cell>-1569tik aurrera-, notarioa, Erronkariko alkate eta kapitain, eta baita Erronkariko</cell></row><row><cell>bortuetako komisario eta guarda nagusi ere. Horrekin batera, hainbat dokumentutan</cell></row><row><cell>Erronkariko Batzar nagusien juntakide, diputatu eta ordezkari gisa ageri da. Baliteke</cell></row><row><cell>Errege Bardeako Juntako alkate gisa ageri dena ere Ros bera izatea. Hortaz, Etxarten</cell></row><row><cell>eta Rosen karguak eta jarraian aipatuko ditugun arazoen larritasuna ikusita, ez da ha-</cell></row><row><cell>rritzekoa elkarri gutunak bidali izana.</cell></row><row><cell>2.4. Gutunetan aipatzen diren gatazkak</cell></row><row><cell>Muga, igarobide, bidesari, abere-eta diru-lapurreta eta abarren inguruko desa-</cell></row><row><cell>dostasunak konpontzeko, Etxartek Zuberoako eta Erronkaribarko ordezkariek mu-</cell></row><row><cell>gako bortuetan bilkura egitea proposatzen dio Rosi. Proposamen hori bi herrien ar-</cell></row><row><cell>teko harremanen eta salerosteen hainbat urtetako etena hobetzeko helburuarekin</cell></row><row><cell>egiten da; baina, horretarako, Etxartek baldintza hau jartzen du: berak garai hartan</cell></row><row><cell>Frantziako errege zenak sinaturiko dokumentua (botherea) aurkezten duen moduan,</cell></row><row><cell>erronkaribartarrek ere aurkez dezatela Espainiako erregearen dokumentua: "Haren</cell></row><row><cell>causaz, necessarioquy baque hun baten eçarteco, behar ducie ciec ere obtenitu eta</cell></row><row><cell>uken cien erregue iaunaganic bothere eta comissione amplia…" (Etxart &amp; Ros 1616-</cell></row><row><cell>1617: Etxarten 1616-05-26ko gutuna).</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>1) azaltzean, Martineten eta Mitxelenaren bortitz/ahul oposaketaren proposamena aipatuko da. Hots, Martinetek (1950) euskaraz bekatu baina gaztelaniaz pecado dela ikustean, aitzineuskarazko hitz hasierako herskarien bilakabidea oso ezberdina dela oharturik, sistemaren izaera desberdinari zor zaiola ondorioztatu eta hitz hasierako herskarientzako bortitz/ahul oposaketa zaharrago -eta artean ezezaguna-proposatu zuen. Ildo beretik, Mitxelenak (1957) Martineten ideia hori inbentarioko gainerako azpisailetara zabaldu zuen eta, horrela, ozenak eta txistukariak ere bortitz/ahul oposaketaren barnean azaldu ziren. Aipatutako hori guztia fonologia gertakari hutsa balitz bezala argitu eta ikertu zen. Fonologiak bere autonomia duela ezin da ukatu, baina, haatik, hori ez da erabatekoa eta morfologiarekin duen lotura hertsia aipatzera ausartuko ginateke. Horren inguruan, Richard d. Jandak dio (2003: 404):</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>e : orok. aldare (B altara), Err-Z boront(h)ate : orok. borondate, Err-Z alt(h)e : orok. alde, etab." (Lakarra 2018: 218). Berezitasun horri eman zaion azalpena Zuberoak eta Erronkaribarrak egoera zaharra gorde dutela izan da (cf. Mitxelena 1961); baina, modu sistematikoan ez bada ere, Lakarrak (2018) gogoratzen duen moduan, gainerako euskalkietan ere hilko, Jainko eta ahalko bezalako adibideak badira.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>Leizarraga eta Etxeberri Ziburukoa ditugu. Espero bezala, Iparraldeko bi idazle hauek ere ahostunarekin gobernamendu 13 dute. Gauzak sakonago miatzeko asmoz, Etxeberri Ziburukoaren adibide gehiago jaso dira eta, bestalde, hegoaldeko nafarraren Beriainen hitzekin alderatu ditugu. 14 Kasu honetan ez 9 Hala ere, 4. atalean ikusi bezala, Rosek zenbait hitz moldatzen ditu Etxarten hizkerara hurbiltzeko. Kasu honetan, -mendu bakarrik eskutitz honetan darabil. Baliteke intentzio berarekin aldaketa hori egin izana. 10 Analisirako Bonaparteren lexikoa (Pagola et al. 1997) ere erabili da, baina hark ez du laburdurarik. Hau da, analisian testu horretako herskarien adibideak "Bonaparteren lexikotik" aterarakoak direla zehazten da. 11 klasikoen Gordailua (KG), edizio faksimileak (https://klasikoak.armiarma.eus). 12 Lekukotasun honetako Etxarten kasu guztiek -mendu amaiera dute.Hek guztiak mukurruki dakizkitzu, Prelata, / zure gobernamenduan nola ageri baita. EZ Man I 6". Rosen jaioterri eta bizilekutik asko urrundu, 15 ezagun denez, Beriainek Iruñeko hizkera erabili baitzuen: y aunque en diferentes partes del ay en algunas cosas, diuersos modos de hablar, yo escriuo el que se habla en Pamplona, Cabeça deste Reyno y obispado de nauarra, que es el que se habla en la mayor parte del, donde se habla bascuence y el que mejor se entiende en todas las partes. (Ber, "Al lector") 16</figDesc><table><row><cell></cell><cell></cell><cell>Lç</cell></row><row><cell>Betolatzaren Doctrina Christiana en Romance y Basquence (1596)</cell><cell>Mitxelena (1955)</cell><cell>Bet</cell></row><row><cell>Berianen Tratazen da nola enzun bear den meza (1621)</cell><cell>KG 11</cell><cell>Ber</cell></row><row><cell>Axularren Gero (1643)</cell><cell>KG</cell><cell>Ax</cell></row><row><cell>Etxeberri Ziburukoaren Elizara erabiltzeko liburua (1665)</cell><cell>KG</cell><cell>EZ</cell></row><row><cell>Hualde Mayoren Jesu-Cristo gore Geinaren Evangelio Saintiua segun</cell><cell cols="2">Hualde Mayo (1934-1935) HM</cell></row><row><cell>San Mateoc (ca. 1870)</cell><cell></cell><cell></cell></row><row><cell>Mendigatxaren gutunak (1902-1916)</cell><cell>Irigoien (1957)</cell><cell>Mdg</cell></row><row><cell>11</cell><cell></cell><cell></cell></row><row><cell cols="3">Analisira itzuliaz, geografiaren eta kronologiaren aldetik Rosengandik hurbilen</cell></row><row><cell cols="3">gelditzen diren adibideak Etxarten gutunetakoak dira eta Etxartek -mendu amaiera</cell></row><row><cell cols="3">darabil: iugamendu (1); arrestamendu, luçamendu (4); governamendian (14). 12 Bi</cell></row><row><cell>hauengandik ez oso urrun,</cell><cell></cell><cell></cell></row></table><note>13 Ikus bedi OEH (s.v. gobernamendu): "zareten bada suiet gobernamendu humano guziaren, iauna- gatik. «Tout ordre humain» Lç 1 Petr 2, 13 (IBk [Itun Berria] giza agintaritza) […].14 Hemendik aurrera erabiliko diren testuak 1. taulan zehaztutakoak dira.gara</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>. Azken lekukotasunaren lagin esanguratsu horri esker, aurretik ikusitako Iparraldeko eta Hegoaldeko idazleen arteko banaketa -Ros vs Etxart, Leizarraga, Etxeberri Ziburukoa-are nabarmenago bilakatzen da Rosi Betolatza eta Beriain ere gehituaz. Lehendabiziko hurbilketa horren arabera, Mitxelenak proposatzen duen ahoskabearen aldeko berrikuntza ez Erronkaribar eta Zuberoakoetan eta bakarrik hor, baizik eta Rosez landara Hegoaldeko gainerako testuetan ere gertatu dela erakuts daiteke. Horrek esan nahi ote du, beraz, erronkarieraren n-ondoko ahoskabetasuna ez dela hizkera horren ezaugarri bereizlea? Erantzuna bilatu nahian, euskalki horren gainerako lekukotasunak ere aztertuko ditugu. Eginkizun honetarako, oso lagungarri izan da Ricardo Gómezen (1991) lana. Ikerlari horrek xviii. mendeko erronkarierazko Doctrina uscaraz aztertzean, n-/l-ren ondoko herskarien adibideen artean, pensamentu eta ordenamentu hitzak aurkitu zituen. Kasu horretan, Rosen gutunen eta dotrina horren arteko distantzia ez du geografiak markatzen, baizik eta mende bateko jauzi kronologikoak. Are geroagokoak dira Hualde Mayoren itzulpena eta Mendigatxak Azkueri idatzitako gutunak -1902tik 1916ra arte-, hauetan ere orobat aurkitzen delarik -mentu.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>Ikus bedi OEHn bilkuia sarrera. 32 Halaber, kontuan hartu 25. oin-oharrean esan dena. digatxak, -te 33 darabilte. ondorioz, azken hitz horrekin ere aurretik ikusitako egoera bera lortzen da. Baita Etxarten bildu 34 (8) adibidearekin ere: gainerako Iparraldeko idazleek -du erabiltzen dute eta Bonaparteren datuek edo Mendigatxak, berriz, -tu. 35 Horregatik, adibideen datak ikusita, -d--t-baino lehenago lekukotzen dela frogatzen da eta gertakari horrek bat egiten du Mitxelenaren (1961) hipotesiarekin, alegia, ahostuna dela forma zaharra eta gero Erronkaribar eta Zuberoan ahoskabetu zela.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>. xvii. mendetik xix. menderako jauzia 6</head><label></label><figDesc>. kuntza gero eta hitz eratorri gehiagotan hedatzen hasiko da, azkenean alomorfo berria nagusi eta usu bakar bilakatuz. Horretarako, gramatikalizazioaz hitz egin dugunean morfemak lexikotik datozela gogoratu behar dela azpimarratu dugu eta, honenbestez, morfemak errotik hainbat ezaugarriri eutsi diola: fonetikan, semantikan… Baina beste bereizgarri batzuk, berriz, aldatu egiten dira (ik. § 6.1). Beraz, erronkarieran edo zubereran aurkitzen diren -TV alomorfo berriak, beste hizkeretan ere aurkitzea espero da (cf. 7. ataleko arte adibidea), baina euskalki bakoitzean aldaketak daraman erritmoak eta berrikuntzak lexikoan erdiesten duen hedadurak eragiten du ekialdeko bi hauen eta gainerako hizkeren arteko banaketa. Hori dela eta, erronkarieran eta zubereran abiadura handiagoan orokortu dira n-/l-osteko herskari ahoskabeak. dena den, segurtasun eta zehaztasun gehiagorako, Rosen eskutitzak gainerako erronkarierazko testuekin konparatu dira eta, haietan zer gertatzen den astiroago ikusteko, Hualde Mayoren itzulpenak eta Mendigatxaren gutunak, xix. eta xx. mendeko lekukotasun zabalenak, sakonago aztertzeko aukera izango da hurrengo atalean. .3. azpiatalean sumatu den moduan, ahoskabeak ugalduaz doaz ondare zaharreko hitzetako egituretan eta egoera horren adibide garbiak dira Hualde Mayo eta Mendigatxaren testuak. Horrenbestez, alte, biltu, galte, g&lt;u&gt;entu, onki 36 etab. bezalako adibideak aurkitu dira (guztiak eranskinean daude zerrendaturik). Etxart eta Rosen gutunetan, aldiz, haietako batzuk ahostunarekin aurkitu dira, beren xvii. mendeko kronologiaren aldaera zaharragoari dagokion moduan. Gogora, bestalde, badela beste argudio ezagun bat oraindik: handi, aldi, erdi, ahardi, zaldi, ardi, edo hordi (ik. § 6.1) bezalakoak euskararen historian ez dira inoiz ahoskabearekin lekukotu, ezta Erronkaribar eta Zuberoan ere. Horren alde Mendigatxaren ongui sparita ere badugu (ik. 29. oin-oharra).ondare zaharreko hitzetako ahoskabeekin batera, Hualde Mayoren eta Mendigatxaren idazkietan mendebaldean ahostunarekin diren zenbait mailegu ahoskabearekin aurkitu dira: tenpra (vs denbora), altare (vs aldare), abentu (vs abendu). Haien bidez, isoglosa argiak marraztu izan dira bi eremuen artean eta, ekialdeko adibideak latinezko egitura zaharretik hurbilago egoteagatik, haien herskari ahoskabea hotsik zaharrena dela defendatu izan da oraintsu arte (ik. § 6.1-eko Mitxelenaren aipua). Baina iritzi bera partekatzen ote da alte-rekin? Mitxelenaren aipuan bertan ikusten da ezetz. Gainera, badira hainbat mailegu toki guztietan ahoskabearekin idatzi direnak -adibidez, contra baina inoiz ez **condra/**gondra-eta horrek zalantzan jartzen ditu mendebaldeko balizko ahostuntze berantiarrak edo halakoen ugaritasun edo sistematikotasuna, gutxienez. Hortaz, ondare zaharreko hitzak kenduta, mendebaldean badira hainbat mailegu ahoskabearekin, ekialdean bezalaxe.Beraz, zer ahostundu dute mendebaldekoek? Erronkarieraren abentu bezalako mailegu zaharrak? Zertarako edo zergatik? Eta ekialdean zergatik dugu beti handi eta ez **hanti, espero genukeen bezala, baldin eta forma ahoskabeak balira zaharrenak?</figDesc><table><row><cell>7</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>Artola, Koldo. 2000. Fidela Bernat anderea, euskal hiztun erronkariarra (eta II). FLV 85. 487-512. Azkue, Resurrección María. 1931. Particularidades del dialecto roncalés. Euskera 12. 207-406. Bilbao, Gidor &amp; Joseba A. Lakarra. 2016. Etxart-Ros gutuneria. (Monumenta Linguae Vasconum III. Jardunaldietan aurkeztutako komunikazio argitaragabea, Gasteiz, 2016/12/20). https://ehutb.ehu.eus/video/58c67369f82b2be4338b45b0.</figDesc><table /><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">Lan hau Gradu Amaierako Lanaren (UPV/EHU, 2022) bertsio moldatu eta zuzendu bat da. Eskerrak eman nahi dizkiet masterreko ikaskideei, Iñaki Caminori eta ASJUko bi berrikusle anonimoei lan honen aurreko bertsioei egindako ohar eta iruzkinengatik. Hala ere, nire eskerrik beroenak eman nahi dizkiot Joseba A. Lakarrari, GrALeko tutore lanagatik, norabidea zuzentzeagatik eta baita testu hau hobetzen laguntzeagatik ere. Esan gabe doa egon litezkeen akatsak nireak besterik ez direla.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">6.2 ataleko 1. taulan zein edizio baliatuz lan egin den zehazten dugu.[n-/l-+ HERSKARI] TALdEEn BILAKABIdE dIAKRonIKoA ETA ERRonKARIERAREn... 145 https://doi.org/10.1387/asju.24107</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">Gidor Bilbaorekin hitz egiteko aukera izan nuen. Hitzorduan berak bildutako materiala azaldu eta utzi zidan. Horregatik, Gidorrentzat da nire esker ona. Atal hau idatzi ahal izateko, GabrielEtxart &amp;  Miguel Rosen (1616-1617 corpusaren transkripzioa ezinbestekoa izan da; ikus bibliografian.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">Gidor Bilbaok eta haren lankideek uste dute gutunetan fiscal de Francia, fiscal de Sola edo fiscal de Mauleón aipatzen denean, kargu honi erreferentzia egiten zaiola (Bilbao &amp; Lakarra 2016).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">[n-/l-+ HERSKARI] TALdEEn BILAKABIdE dIAKRonIKoA ETA ERRonKARIERAREn... 149 https://doi.org/10.1387/asju.24107</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">[n-/l-+ HERSKARI] TALdEEn BILAKABIdE dIAKRonIKoA ETA ERRonKARIERAREn... 151 https://doi.org/10.1387/asju.24107</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">Guk asumitzen dugu CVC erro egitura zaharrena dela eta morfemak erroetatik datozela.<ref type="bibr" target="#b0">6</ref> Hau guztia CV-ren gramatikalizazioaren kasu partikularra da, herskari ahulez hasitako erro-morfemena.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="15">Iruñeko hizkera Erronkaribartik ez oso urrun egon arren, Jerónimo de Jubera eskribau tuterarra euskaraz moldatzen zen, baina, Erronkaribarko hiztunen esanak ulertzeko zailtasunak izateagatik, 1582an itzultzaile bat behar izan zuen: "Según hace constar en la probanza, con cinco mujeres se sirvió de un vecino como intérprete por no entender bien el euskera de la zona"(Monteano 2017: 59). Iruñerriko nekazari euskaldunekin, ostera, ez omen zuen arazorik izan. 16 1. taulan zehaztu den moduan, hau KGko edizio faksimiletik ateratakoa da, "Al lector" sarreratik, hain zuzen.17  Parentesien artean, adibidearen orrialdea zehazten da eta, gutunak identifikatzeko sistemarekin ez nahasteko, zenbakiaren ostean "or." idatzi da. dena den, zein testuz ari garen ikusteko, 1. taulara jo.18  Hona hemen adibide batzuk. dena den, eranskinean etsenplu guztiak bildu dira: "Hura pensamentu contan" (HM, 528. or.); "Egun kuetan nago sendimentu pikor bateki"(Mdg, 127. or.).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="19">Berianek gaztelania eredu duenez, -mentu hizkuntza horretatik egokitu -ie-&gt; -e-(cf. Bet -ie-&gt; -i-: -mintu) duela baiezta daiteke.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="36">Biltu eta guentu adibideei dagokienez, kontuan hartu 34. oin-oharrean -du atzizkiaz esan dena.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="37">Ikusi dugunez, forma ahoskabeak itxuraz latinetik hurbilago egoteagatik, horiek direla zaharrenak euskaraz ere baieztatu da, baina § 6.2.1.1-eko pake-ren kasu ezaguna gogoratzeak erakutsi digu irizpide hori ez dela batere zuzena eta ikerketa desbideratu duela.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>ASJU, 2022, 56 (2),  Horren inguruan gogoeta egitean, oraintsu arte fenomenoaren alderdi bakoitza bere aldetik aztertu dela dirudi edota, are gehiago dena, fenomeno horren alderdi osoak aztertu gabe utzi direla, hau da, maileguen eta ondare zaharreko hitzen arteko loturak/erkaketak egin gabe. Horregatik, lan honetan zehar Trasken legea eta gramatikalizazioaren garrantzia aldarrikatu dugu, betiere ondare zaharreko hitzetako morfemen jatorri eta bilakabidea ezartzeko, ikusi baitugu dagoeneko aztergai honetan ere ez dela erabateko etenik morfologiaren eta fonologiaren artean. Bestela ez ginateke ohartuko aztertutako morfemak lexemetatik datozela eta, gertakari horiek aintzat ez hartzeagatik, ahostun/ahoskabe fenomenoa arazo fonologiko hutsa balitz bezala tratatu izan dela (ik. § 5). <ref type="bibr">37</ref> Rosen -mentu edo gente adibideei esker, ikusi da mailegu horietan n-/l-osteko ahoskabea ez dela euskarazko forma zaharrena eta egoera hori are argiago da ondare zaharreko hitzetan. Esate baterako, ikerketa honetarako erabili diren Erronkaribarko lekukotasunek, nahiz alte edo onki -baina Rosen eta Mendigatxaren ongi ere-dituzten, handi -d-rekin dakarte. Horrela, **hanti euskararen historian inoiz ez lekukotzeak Trasken (1995) hipotesia indartzen du. Gainera, han-di, ar-di, er-di eta hor-diren -di amaierak atzizki beraren kasuak direla onartzen baldin badugu, **arti, **erti zein **orti ere faltan direla ohartuko gara. Arrazoi horiengatik, handi-k pisu gehiago du gainerako TV bilkuren aurrean.</p><p>Beraz, Hualde Mayo eta Mendigatxaren bidez, ondare zaharreko hitzetan ahoskabetzeak gehituaz doazela nabarmendu dugu. Halaber, batzuk euskaraz orokorrak izatera hel daitezke: adibidez, Trasken legearen oinarrian den -de &gt; -te bilakabideko uste, urte, sute, arte mendebaldean ere badira, gainera. Horrek zera erakusten du: berrikuntza are aurreratu edo zabalago dela erronkarieran edo zubereran mendebaldeko hizkerekin konparatuz, baina ez han ez denik. Edonola ere, TV hots segida bat morfologikoa -morfema zahar/fosildua-denean hotsik zaharrena ahostuna dela frogatu da, alomorfo berriko ahoskabeak txistukari ondoko kokagunean sortu eta gero bestelakoetara ere zabaldu direlarik <ref type="bibr">(cf. Arratzu, Saratsu, iletsu, bizartsu vs mukizu [sparita]</ref>). Hala ere, baieztapen horrek ez du esan nahi talde morfologikoak ez direnean -maileguetakoak bereziki-gauza bera gertatu behar denik. Beste era batean esanda, Euskara Zaharrean -mentu &gt; -mendu gerta zitekeen, baina horren kontra, contra &gt; **condra aldaketa inoiz ez da gauzatu. Halaz, etsenplu horrek erakusten du ahostun &gt; ahoskabe berrikuntzan maila diakroniko, fonologiko, soziolinguistiko... desberdinak daudela.</p><p>Argi dago erronkarieran ahoskabetzea ugalduaz doala ondare zaharreko hitzetan eta baita maileguetan ere, eta egiaztapen hori Hualde Mayo eta Mendigatxarekin guztiz ziurtatzen da. Halaber, [erronkariera eta zuberera vs gainerako dialektoak = herskari ahoskabeak vs ahostunak] lotura egitea ez da zuzena, behin eta berriz errepikatu den bezala, badirelako ahoskabedun mailegu asko mendebaldean inoiz ez direnak ahostundu. Eta ekialdean, ordea, badira egitura zahar batzuk inoiz ez direnak ahoskabe bilakatu -handi, aldi eta r-ondorengoak, adibidez-. Horrenbestez, ahostuntzearen edo ahoskabetzearen arabera ekialdea eta mendebaldea erabat desberdintzea akats bat litzateke diakronikoki behintzat.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Rosen entelegatuec (15) dugu. Hitz forma hori latinezko intelligeretik datorrenez, euskal dialektoetan -dbaten bidez ematea espero da eta, gauzak horrela, -t-agertzea berrikuntza litzateke. Gainera, Mendigatxaren gutunen artean ere herskari ahoskabea aurkitzen da hor: entelegatra (Mdg, 132. or.). 20 Beraz, badirudi endelgatu-n xvii. mendeko erronkarieran herskari ahoskabea sartzen hasia zela; baina, hau argiago ikusteko, kasu gehiago eta ohikoagoak hautatu ditugu dagoeneko aipatu diren garai bertsuko idazleekin konparaketak egiteko. Horrela, ahostun/ahoskabe alternantziaren inguruan xehetasun gehiago lortu ahalko dira. Lehenik eta behin, Rosek ahoskabea idazten duen beste mailegu bat gente 21 (15) da. Etxartek ahostunarekin (gende, 1) jartzen du eta baita Leizarragak, Beriainek eta Etxeberri Ziburukoak ere. 22 Hualde Mayok eta Mendigatxak, aldiz, gente 23 idazten dute. ondorioz, badirudi hitz horretan jada nd &gt; nt bilakabidea burutua dela Erronkaribarran. Horrekin batera, Rosen gutunetan abentuco (15) aurkitu da eta Beriainen eta Leizarragaren testuetan ere hitza badator, baina beti bietan ahostunarekin. 24 Geroago Mendigatxak ere -t-idazten du: abentu (Mdg, 129. or.). Gainera, Etxartek abentuiaren (14) erabiltzen du eta, horri esker, lekukotasun eta hizkera bakoitzak bere bilakabidea duela ondoriozta daiteke: esate baterako</title>
+		<ptr target="Rosek-t-sartzenduenerako,Etxartekoraindikhitzbatzuetanegiturazaharrarieustendio,baina,bestebatzuetan,herskariahoskabeaematendu.25" />
+	</analytic>
+	<monogr>
+		<title level="m">borontate Mitxelenaren azalpenera itzuliaz (cf. § 6.1), barneko analisirik gabeko maileguetan azaleko berrikuntza bat dirudien -d-&gt; -t-aldaketa dugu. Adibidez, Etxarten gutunetan askotan errepikatzen den endelgatzen (1) hitzaren aurrean</title>
+		<imprint/>
+	</monogr>
+	<note>2.2. Entelegatu, gente, abentu</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Etxarten vorondate (4) adibideek. Leizarragak, Beriainek, Axularrek eta Etxeberri Ziburukoak ere hau -d-rekin dakarte. 26 Geroago, Doctrina uscarazen, 27 aldiz, borontatia lekukotzen da (Gómez 1991: 407) eta Hualde Mayoren testuan edo Mendigatxaren eskutitzetan borontatia (HM, 538. or.) / borontate (Mdg, 121. or.). Hartara</title>
+	</analytic>
+	<monogr>
+		<title level="m">Rosen hizkeran fenomeno hau erabat finkaturik ez dagoela pentsatzera garamatzate borondateaz</title>
+		<imprint/>
+	</monogr>
+	<note>Rosen gutunetan topatzen diren aldaketak oraindik &quot;bariazio&quot; txi-</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Erronkaribarko azken hiztuna izan zen Fidela Bernati esker, gogoan izan hizkeraren hondarreko uneetara arte ere ahoskabea biltzen dela</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gainera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Xa? entelégatan?&quot; (Artola 2000: 490)</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+		</imprint>
+	</monogr>
+	<note>gutunean gende darabil. Beharbada 4. atalean ikusitako jarreraren ondorioz</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adibideak</forename><surname>Hona Hemen</surname></persName>
+		</author>
+		<title level="m">eta bere gendea igorriric hil citzan&quot; (Lç, 286. or.); &quot;eta Corteco gendeac&quot; (Ber, 38. or.); &quot;Hartaracotz gende</title>
+		<imprint/>
+	</monogr>
+	<note>EZ, 394. or</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adibideak</forename><surname>Hona Hemen</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>guente anichez&quot; (HM, 532. or.); &quot;canpoco gente&quot; (Mdg, 128. or.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">adbendua&quot; (Lç, ikus bedi OEH, s.v. abendu), &quot;Carta demboretan eta abenduco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adibideak</forename><surname>Hona Hemen</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Ber, 254. or.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Honek badu salbuespenik: Etxarten zubereraren &quot;jatortasuna</title>
+		<imprint/>
+	</monogr>
+	<note>oraindik ziurtatu gabe dago (ik</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Baliteke mendebaleragoko hizkeren eraginik izatea. Horregatik, hau ere ondare zaharreko hitzetako adibideak aztertzean, kontuan izan behar dugun egoera bat da</title>
+		<idno>§ 2.5</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Eguin bedi hire vorondatea ceruan beçala lurrean-ere</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adibideak</forename><surname>Hona Hemen</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Lç, 298. or.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">berce gauçac ceren aren vorondatea baitago&quot; (Ber, 51. or.); &quot;eracutsi duçun vorondate</title>
+		<imprint/>
+	</monogr>
+	<note>Ax, 5. or.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Lekukotasun hau nongoa den zehaztea zaila da. Erronkarikoa edo Urzainkikoa izan daitekeela uste da. nolanahi ere</title>
+	</analytic>
+	<monogr>
+		<title level="j">Gómezek</title>
+		<imprint>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+	<note>eztabaida hau bere artikuluan azaltzen du</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Céline Mounole &amp; Blanca Urgellen edizio-zirriborro argitaragabea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gabriel &amp;amp; Miguel Ros ; Gutuneria (gidor</forename><surname>Etxart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ricardo</forename><surname>Bilbao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Gómez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julen</forename><surname>Lakarra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Manterola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gasteiz: UPV/EHU</title>
+		<imprint>
+			<biblScope unit="page" from="1616" to="1617" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Erronkarierazko dotrina argitaragabe bat: edizioa eta azterketa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ricardo</forename><surname>Gómez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Memoriae L. Mitxelena magistri sacrum</title>
+		<editor>Joseba A. Lakarra</editor>
+		<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="page" from="375" to="426" />
+		</imprint>
+	</monogr>
+	<note>ASJUren Gehigarriak 14. donostia: Gipuzkoako Foru Aldundia</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Evangelio de San Mateo traducido al vascuence roncalés de Vidángoz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hualde</forename><surname>Mayo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pedro</forename><surname>Prudencio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RiEV</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="527" to="548" />
+			<date type="published" when="1934" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">La comunidad del valle de Roncal. Iruñea: nafarroako diputazioa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Florencio</forename><surname>Idoate</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Cartas de Mariano Mendigacha a d. Resurrección María de Azkue</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alfonso</forename><surname>Irigoien</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1957" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="119" to="169" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Phonologization as the start of dephoneticization -or, on sound change and its aftermath: of extension, generalization, lexicalization and morphologization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">D</forename><surname>Janda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The handbook of historical linguistics</title>
+		<editor>Brian d. Joseph &amp; Richard d. Janda</editor>
+		<imprint>
+			<publisher>Blackwell: oxford</publisher>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="401" to="422" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Vasconiana (iker 11). Bilbo: Euskaltzaindia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">René</forename><surname>Lafon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Reconstructing the root in Pre-Proto-Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Towards a history of Basque language</title>
+		<editor>José I. Hualde, Joseba A. Lakarra &amp; Robert L. Trask</editor>
+		<meeting><address><addrLine>Amsterdam &amp; Philadelphia</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Benjamins</publisher>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="189" to="206" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Gogoetak euskal dialektologia diakronikoaz: Euskara Batu Zaharra berreraiki beharraz eta haren banaketaren ikerketaz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Irantzu Epelde (arg.)</title>
+		<imprint>
+			<publisher>UPV/EHU</publisher>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="155" to="241" />
+		</imprint>
+	</monogr>
+	<note>Euskal dialektologia: lehena eta oraina</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Euskararen historiaurrearen berreraiketa sakonagorako: forma kanonikoa, tipologia holistikoa, kronologia eta gramatikalizazioa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<ptr target="Gasteiz:UPV/EHU" />
+		<editor>Ricardo Gómez, Joaquín Gorrochategui, Joseba A. Lakarra &amp; Céline Mounole (arg.), koldo Mitxelena katedraren iii. Biltzarra</editor>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="275" to="324" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Gramatikalizazioa, morfemen forma kanonikoak eta berreraiketa morfologikoaren bide berriak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Txipi Ormaetxea omenduz. Hire bordatxoan</title>
+		<editor>Gotzon Aurrekoetxea, Jesus Mari Makazaga &amp; Patxi Salaberri</editor>
+		<imprint>
+			<publisher>UPV/EHU</publisher>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="175" to="192" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Euskararen historiaurrea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Euskararen historia</title>
+		<editor>Joaquín Gorrochategui, Iván Igartua &amp; Joseba A. Lakarra</editor>
+		<meeting><address><addrLine>Gasteiz</addrLine></address></meeting>
+		<imprint>
+			<publisher>Eusko Jaurlaritza</publisher>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="23" to="229" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joanes</forename><surname>Leizarraga</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1571" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+				<title level="m">iesus Christ gure iaunaren Testamentu Berria. Bilbo: Euskaltzaindia</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">de la sonorisation des occlusives initiales en basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">André</forename><surname>Martinet</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00437956.1950.11659382</idno>
+		<ptr target="https://doi.org/10.1080/00437956.1950.11659382" />
+		<imprint>
+			<date type="published" when="1950" />
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="224" to="233" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Trask&apos;s Historical Linguistics</title>
+		<editor>McColl Millar, Robert (arg</editor>
+		<imprint>
+			<date type="published" when="2015" />
+			<publisher>Routledge</publisher>
+			<pubPlace>Londres &amp; new york</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">La posición fonética del dialecto vasco del Roncal. Via Domitia 1</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1954" />
+			<biblScope unit="page" from="611" to="647" />
+			<pubPlace>Berrargit. OC 7</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">La Doctrina Cristiana de Betolaza</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Berrargit. OC</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="187" to="204" />
+			<date type="published" when="1955" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Las antiguas consonantes vascas</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">diego Catalán (arg.), Miscelánea homenaje a André Martinet, I</title>
+		<imprint>
+			<date type="published" when="1957" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="57" to="91" />
+		</imprint>
+	</monogr>
+	<note>Tenerife: La Lagunako Unibertsitatea (Berrar git</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Fonética histórica vasca. donostia: Gipuzkoako Foru Aldundia (2. argit. osatua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Berrargit. OC</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="1961" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Lenguas y protolenguas. Salamanca: Salamancako Unibertsitatea (Berrargit. ASJUren Gehigarriak 20. donostia: Gipuzkoako Foru Aldundia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">berrargit. OC</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="98" />
+			<date type="published" when="1963" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Contribución al conocimiento del dialecto roncalés</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mitxelena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juan</forename><forename type="middle">J</forename><surname>Koldo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Beloqui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BAP</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="571" to="608" />
+			<date type="published" when="1953" />
+		</imprint>
+	</monogr>
+	<note>Jesús Elósegui &amp; Pilar Sansinenea de Elósegui</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">El iceberg navarro. Euskera y castellano en la Navarra del siglo xvi. Iruñea: Pamiela</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peio</forename><forename type="middle">J</forename><surname>Monteano</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Euskara zahar eta klasikoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Céline &amp;amp; Ricardo</forename><surname>Mounole</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gómez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Joaquín Gorrochategui, Iván Igartua &amp; Joseba A. Lakarra (arg.), Euskararen Historia</title>
+		<meeting><address><addrLine>Gasteiz</addrLine></address></meeting>
+		<imprint>
+			<publisher>Eusko Jaurlaritza</publisher>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="469" to="541" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Orotariko Euskal Hiztegia. 10</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Oeh = Euskaltzaindia</surname></persName>
+		</author>
+		<idno>2023/01/30</idno>
+		<ptr target="https://www.euskaltzaindia.eus/oeh" />
+		<imprint>
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Bonaparte ondareko eskuizkribuak. Erronkariera. Bilbo: deustuko Unibertsitatea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rosa</forename><forename type="middle">M</forename><surname>Pagola</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Itziar</forename><surname>Iribar &amp;amp; Juan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Iribar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Euskal hitz altxorraz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ibon</forename><surname>Sarasola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="617" to="642" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">on the history of the non-finite verb forms in Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">L</forename><surname>Trask</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Towards a history of the Basque language</title>
+		<editor>José I. Hualde, Joseba A. Lakarra &amp; Robert L. Trask</editor>
+		<meeting><address><addrLine>Amsterdam &amp; Philadelphia</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Benjamins</publisher>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="207" to="234" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Hualde Mayo eta Mendigatxaren n-/l-osteko herskariez baliatu garenez, aproposa deritzagu jarraian zerrendatzeari</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eranskina</forename><surname>Analisia Egiteko Miguel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ros</forename></persName>
+		</author>
+		<idno>n-/l-+ hers.] taldeen zerrenda: /np/: amplo (13</idno>
+		<imprint/>
+	</monogr>
+	<note>inpedizen</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">entelegatuec (15), espantaturic (15), galanta (15), gente (15)</title>
+		<idno>/nt/: abentuaren (15</idno>
+	</analytic>
+	<monogr>
+		<title level="m">juntamentu (15), ontan</title>
+		<imprint/>
+	</monogr>
+	<note>sentencia. /lt/: faltatu (9</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+				<title level="m">demendatu (13), emendic</title>
+		<imprint/>
+	</monogr>
+	<note>gobernamenduco (15), guelditu (11), prendamiento. /ld/: molde (15</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">acompañatruc, campo, compadecitan cen, comparacioneric, compasione, complacimentu, componi zte, cumplitruc, recompensa, tempestade, temploren, tempra, trompeta. /nb/: combeni, conbertitiaz, miembruetaric</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hualde</forename><surname>Mayoren</surname></persName>
+		</author>
+		<idno>n-/l-+ HERSKARI] TALdEEn BILAKABIdE dIAKRonIKoA ETA ERRonKARIERAREn... 167</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.24107</idno>
+		<ptr target="https://doi.org/10.1387/asju.24107" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">llantoka, mantria, mente, mentian, ñontik, parentesisen, parkamentiuan, pensamentuan, permentinaz, prometimentiuak, saintiuer, sakramentu, santifika deila, sendimentu, sentimentureki, solamente, sontotu nei, ssunto, ssutan, tenpran, tentacionia, tinte, tonto, tratamentu</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Du</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">np/: anpolla, cunplitako, inprentatra. /nb/: enbarazatruk, sonbreroak</title>
+		<imprint/>
+	</monogr>
+	<note>/lt/: adulterioric, altacan, altarian, alteco, biltra, bueltatiala, eltu cen, galteguiten, galtia, guentu, multitud, saltu, sepultura, ugaltetaco. /nd/: acabatan du, albertitan du, andia, arrendazalia, candelero, condenada, condescenditu cion. ygantiak. /lt/: altarier, alte, biltuz, bordaltu, buelta dein artio, bulto, eltu, faltaren, galteguiteko, galtu, saltako/saltu tein, saltu cion, ugaltiaz. /nd/: acienda, andi, bendicioniak, landamanian, candelerazko, erresponditu zaun, eskandalo, gomendiuaren, indar, mandozainareki, mandua, mendian, mundu, sendimentu, senditu nion/sendi. /ld/: alda, aldi, espaldan, moldiaz, saldoak. /nk/: anque, arrankatako, franko, komunkisse, onki. /lk/: alkateri, kalka dozkian. /ng/: engañatan, errenglon, Jangeiko, ongui. /lg/: bilgune, bordalgiua, zalge</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">AnuArio del SeminArio de FilologíA VAScA «Julio de urquiJo» international Journal of Basque linguistics and Philology liii (1-2)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019">2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">AnuArio del SeminArio de FilologíA VAScA «Julio de urquiJo» international Journal of Basque linguistics and Philology liii (1-2)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="volume">53</biblScope>
+							<biblScope unit="issue">1-2</biblScope>
+							<biblScope unit="page" from="163" to="181"/>
+							<date type="published" when="2019">2019</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1387/asju</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:20+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>linguistic variation</term>
+					<term>variety classification</term>
+					<term>informant classification</term>
+					<term>methodology</term>
+					<term>Fuzzy c-means</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hizkuntza aldakortasunaz eta barietateen sailkapenez:</head><p>aspektu ez-perfektuaren bariazioa Igorreko euskaran 1 Linguistic variation and variety classification: variation of the imperfective aspect in Igorre Basque naia eguskiza*, iñaki gaminde, Aitor iglesias universidad del País Vasco/euskal Herriko unibertsitatea (uPV/eHu) AbstrAct: the aim of this work is to emphasize the use of the objective quantitative methods to classify varieties and informants. For that, the morpho-phonological rules used by young speakers from igorre to make the imperfect particle have been described and analyzed. According to SKdm theory, after the study of different forms and after the linguistic analysis, three classifying techniques have been used to classify informants: analysis of hierarchical conglomerates, the dAe method and K-means conglomerates (Km) (based on fuzzy logic). Along with the explanation of the techniques, we also explain the results of the whole study at the end of the paper.</p><p>LabuRpena: Hizkuntza aldakortasunaren ikerkuntzan barietateen zein informatzaileen sailkapenak egiterakoan metodo kuantitatibo objektiboen baliagarritasuna nabarmentzea da lan honen xedea. Horretarako, Igorreko hiztun gazteek aspektu ez-perfektua egiteko erabiltzen dituzten arau morfo-fonologikoak deskribatu eta aztertu dira. Sistema Konplexu Dinamiko Moldagarrien (SKDM) teoriari jarraiki, azaleko forma hutsen azterketatik harago, azterketa linguistikoaren beharra aldarrikatu ondoren, hiru teknika sailkatzaile erabili dira informatzaileak sailkatzekotan: multzokatze azterketa hierarkikoa, Dae metodoa eta K-batezbestekoen multzokatzea (KM) (logika lausoaren hatsarretan oinarritzen dena). Tekniken azalpenekin batera azterketa osoaren emaitzak ere aurkezten ditugu lanaren amaieran. HITZ GaKOaK: hizkuntza aldakortasuna, barietateen sailkapenak, informatzaileen sailkapenak, metodologia, logika lausoa.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Sarrera</head><p>ohikoa da informatzaileak edo hizkerak sailkatuta ikustea dialektologia tradizionalak proposatu izan dituen metodoen arabera. urteak joan urteak etorri, era honetako sailkapenak oraindino egiten diren arren, uste dugu unea heldu dela adierazteko euren bidez erakusten den aldakortasunaren errealitatearen gaineko argazkia gutxienez desenfokatu samarra dela <ref type="bibr" target="#b12">(eguskiza, de Pablo &amp; gaminde 2017)</ref>. ez ditugu ukatu nahi dialektologia tradizionalak egin dituen ekarpen guztiak, ez da hori gure hemengo helburua ez eta asmoa ere. Bai, ostera, bere hatsarreetan eta metodoetan, gure iritziz, dauden arazo batzuk agerian jarri nahi genituzke. dialektologia tradizionalaren sailkapenen arazo nagusiak hiru esparrutan behintzat, agertzen dira: datuen aukeraketan, datuen trataeran eta sailkapenak egiteko metodologian. lehen arazoa izaten da jakitea zeintzuk diren irizpideak ezaugarri batzuk aukeratzeko eta beste batzuk baztertzeko; irizpide horiek askotan ez dira zehazten, eta irakurleak suposizioak egin behar izaten ditu. Aukeratzen diren ezaugarriak sarri askotan guztiz homogeneotzat eta absolututzat hartzen dira hiztun komunitate osoak beti berdin erabiliko balitu bezala, era honetara hiztunen arteko aldakortasuna eta hiztunen baitakoa ere ukatzen dira, euskaldunak komunitate isotropikoetan biziko balira bezala. lan honetan eta beste askotan (ensunza 2015; lujanbio 2016) erakutsi den bezala, informatzaile guztiek ez dute berdin egiten hiztun komunitate berean, ez eta hiztun berak egoera guztietan. Hemen morfologiaren aspektu batez arduratuko bagara ere, arazo bertsuak topatzen ditugu hizkuntzaren arlo guztietan, fonologian, morfologian, sintaxian (eguskiza 2019) eta lexikoan <ref type="bibr">(gaminde, etxebarria, eguskiza, romero &amp; unamuno 2016)</ref>.</p><p>Bigarren arazoa datuen trataerari dagokio. Alde batetik, zehaztasun falta dugu, aldakiak agertzen direnean, aldaki guztiak maila berean agertzen dira sarritan. esate baterako i eta u ondoren a &gt; e egiten dela mendebal gehienean aipatzen du Zuazok eta indartsuagoa dela sartaldeko azpieuskalkian (2017: 69); bertan esaten dena irakurrita, pentsa daiteke arau bera testuinguru guztietan berdin erabiltzen dela araua aplikatzen duten herri guztietan; hau badakigu ez dena horrela gertatzen lehenagotik ere <ref type="bibr">(gaminde 2002, 2007)</ref>. Beste alde batetik, ematen du ezaugarri guztiak maila berekoak direla, parean daudela eta berdin erka daitezkeela; hau da, inbentario fonologiko edo morfologikoetan dauden aldeak, arauetan daudenak, eta sintaxi arloko ezaugarriak, elkarrekin nahasirik agertzen dira, baita hitz honen edo bestearen erabilerarekin batera (ezaugarrien erkatzeaz ikus daiteke gaminde 2007).</p><p>Hirugarren arazoa da, barietateen sailkapenak lortzeko metodologia sarri askotan ez dela zehazten, ez da jakiten metodo objektiboren bat erabili den edo ikertzailearen begi zorrotzaren arabera egin den aurkezten den sailkapena. Batzuetan, adibidez, isoglosen metodoa aipatzen da, baina metodo hori nola aplikatu den ez da esaten esplizituki.</p><p>Arazo horien aurrean aurkitzen da noizbait ikertzailea, hizkerak, hiztunak edo hiztunek dauzkaten ezaugarri linguistikoak sailkatu nahi dituenean. Horretarako, igorreko hiztun gazteek aspektu ez-perfektua egiteko darabiltzaten arau morfo-fonologikoak erabiliko dira. Funtsean erakutsi nahi duguna da metodologia berritzaileak erabiliz (3 metodo objektibo kuantitatibo planteatzen ditugu hemen) errealitatearen argazkia errealagoa dela eta ikertzailearen gogotik eta begi zorrotzetik urruntzen dela. https://doi.org/10.1387/asju.22415 igorren badira ildo honi jarraituz antzeko lan batzuk eginak ere, baina batek ere ez dio eusten hemen planteatzen den azterketari, hots, aspektu ez-perfektuaren bariazioaren azterketari <ref type="bibr">(iglesias 2014; iglesias, eguskiza, gaminde &amp; unamuno 2017; eguskiza, unamuno &amp; iglesias 2018)</ref>.</p><p>Horrenbestez, lan honen helburua bikoitza da; alde batetik, igorreko hiztun gazteek aspektu ez-perfektua egiteko erabiltzen dituzten arau morfo-fonologikoak deskribatu nahi dira eta, bestetik, arlo honetako datuek islarazten duten aldakortasuna aztertzeko metodo kuantitatibo batzuk aurkeztu eta euren erabilgarritasuna azaldu nahi da.</p><p>Hemen aldakortasuna aztertzeko proposatzen dugun metodologiak, sistema konplexu dinamiko moldagarrien teoriaren ildotik <ref type="bibr">(léonard et al. 2015; gaminde et al. 2016; gaminde, eguskiza, romero &amp; etxebarria 2017)</ref> Beste inon adierazi dugun bezala <ref type="bibr">(etxebarria et al. 2016; gaminde et al. 2016)</ref>, hartu behar den lehen erabakietako bat izaten da zer erkatuko dugun definitzea, hau da, azaleko moldeak erkatuko ditugun edo, azterketa linguistiko xehearen ondorioz, arauak, inbentario arloko aldeak, erabilerak, e.a. konparatuko ditugun.</p><p>Azterketaren bigarren aldian aspektu ez-perfektuaren alomorfo bakoitzaren agerpen maiztasunean oinarrituta, bakoitzaren agerpen probabilitateak kalkulatzen dira eta probabilitate horiek erabiltzen dira datu-matrizeak egitean eta ez "0" eta "1". Beste lan batzuetan <ref type="bibr">(gaminde et al. 2017; eguskiza et al. 2017</ref>) erakutsi dugun moduan, "0" eta "1" erabiltzeak moldeak maila berean jartzea dakar eta sailkapenen emaitzak desberdinak izaten dira. Bakoitzaren probabilitateak kalkulatzeak emaitzak doitu egiten ditu eta zehaztasun handiagoa ematen du.</p><p>Azkenik, informatzaileen sailkapenaren helburua datuen azpian datzan egituraketa geolinguistikoa edo soziolinguistikoa azaleratzea da, sistema konplexu dinamiko moldagarrien ikuspuntutik <ref type="bibr">(gell-man 1994;</ref><ref type="bibr">Beckner et al. 2011;</ref><ref type="bibr">ellis 2011;</ref><ref type="bibr" target="#b31">lópez rivera 2013;</ref><ref type="bibr">moreno cabrera 2008;</ref><ref type="bibr" target="#b28">léonard et al. 2015)</ref>. gehienetan metodo hauek gurean hizkerak sailkatzeko erabili dira <ref type="bibr">(Aurrekoetxea 1992</ref><ref type="bibr">(Aurrekoetxea , 1995</ref><ref type="bibr">(Aurrekoetxea , 2003</ref><ref type="bibr">(Aurrekoetxea , 2004</ref><ref type="bibr">(Aurrekoetxea , 2005</ref><ref type="bibr">(Aurrekoetxea , 2008</ref><ref type="bibr" target="#b1">(Aurrekoetxea , 2009</ref><ref type="bibr" target="#b2">(Aurrekoetxea , 2016</ref><ref type="bibr" target="#b5">Aurrekoetxea &amp; ormaetxea 2006</ref><ref type="bibr" target="#b6">Aurrekoetxea &amp; ormaetxea , 2010</ref><ref type="bibr">Aurrekoetxea, gandarias, gaminde &amp; iglesias 2014;</ref><ref type="bibr">Aurrekoetxea, gaminde, gandarias &amp; iglesias 2014;</ref><ref type="bibr" target="#b18">gaminde 2007;</ref><ref type="bibr" target="#b26">iglesias 2014;</ref><ref type="bibr" target="#b14">ensunza 2015)</ref>. Hala ere, berdin-berdin erabil daitezke hiztun komunitate linguistiko baten hiztunak sailkatzeko aldagai sozialen arabera <ref type="bibr">(gaminde et al. 2012, 2016; lujanbio 2016)</ref>. gehienetan erabili den metodoa multzokatze hierarkikoa izan da eta gutxiagotan dimentsio anizkun eskalarena (dAe). Azkenaldion metodo hauen gabezia bat azpimarratu da, mugan dauden hizkeren edo hiztunen sailkapenei dagokienez eta beste metodo batzuk proposatu dira logika lausoaren hatsarreak kontuan hartuta <ref type="bibr">(clua et al. 2017)</ref>. uste dugu metodo hauen bidez zehaztasun handiagoa lortuko dela eta hemen saio txiki bat aurkezten dugu horien logika erakusteko. gure azterketan aipatutako metodo biak ez eze, K-batezbestekoen multzokatzea ere erabiliko dugu hobeto egoki daitekeelako logika lausoarekin. datu linguistikoak tratatzeko metodo kuantitatiboak erabiltzea ez da gauza berria aldakortasunaren azterbidean, dela soziolinguistikaren ikuspuntutik, dela dialektometriaren ikuspuntutik. euskal Herrian ere metodo hauek, nekez izan bada ere, aurrera egin dute aspaldiko urteotan, batez ere hizkerak sailkatzeko saioetan, nahiz euron fidagarritasuna kuestionatu den esanez "eredu matematikoa hotz geratzen dela dialektologian aritzeko" (Apalauza 2010: 164).</p><p>lana zazpi ataletan banatuta aurkezten dugu: sarrera honen osteko bigarren atalean corpusaren ezaugarriak eta berori jasotzeko metodologia aurkezten dira; hirugarren atalean datuen azterketa linguistikoa egiten da; laugarren atalean datuen azterketa kuantitatiboa erakusten da; bosgarren atalean informatzaileen sailkapenak ematen ditugu azaldutako hiru metodoen arabera; seigarren atalean, emaitzen eztabaida aurkezten da; eta azkenik, zazpigarrenean, ondorio nagusiak laburbiltzen dira.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Corpusa eta metodologia</head><p>gure azterketa burutu ahal izateko 351 sarrerako corpusa erabili dugu. Horretarako, 35 partizipio aukeratu dira; aukeratu ditugun partizipioak 1. taulan erakusten dira amaieren arabera sailkatuta. Aditz partizipio hauek aukeratu dira, igorren deskribatu den bezala (iglesias 2014), silaba kopuru eta amaieren arabera alomorfo bat edo beste aukeratzen delako; datuak kuantitatiboki aztertzeko lagintzat jo behar dira.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">taula</head><p>corpusean erabili diren aditz partizipioak euren amaieren arabera sailkatuta datuen azterketa linguistikoa egin ondoren, datuen azterketa kuantitatiboa egin da (metodologia hori hirugarren atalean azalduko da xehero) gero informatzaileak sailkatzeko, bai generoaren 2 arabera eta aditz partizipio sailen arabera, alderik dagoen ikusteko eta baita informatzaileak sailkatzeko ere. informatzaileak sailkatzeko metodologia xehetasunez azalduko da bosgarren atalean.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Datuen azterketa linguistikoa</head><p>igorren aspektu ez-perfektua egiteko lau alomorfo erabiltzen dira: -ten, -tan, -tzean/-txean eta -etan. Alomorfo ez markatua edo orokorra -ten da, berau da kasu gehienetan erabiltzen dena eta gainerakoen ordez, analogiaz sortutako moldeetan ere erabiltzen dena, aditz erroari -tu/-du gehituta (adibidez: saltzean &gt; salduten; galtzean &gt; galduten; sabaltan &gt; sabalduten; agintan &gt; aginduten; e.a.).</p><p>-etan alomorfoa proposatu da hainbat lanetan (gaminde 2007; Zuazo 2017, besteak beste) eta iglesiasek (2014) bere igorreko lanean -tan proposatu bazuen ere, mendebaldeko barietateetako datuen argitara hemen -etan proposatzea hobetsi dugu.</p><p>iglesiasek egiten duen proposamena ez dugu guztiz baztertzen; izan ere, -au eta -eu amaitutako partizipioekin erabiltzen da eta diptongoaren bilakaeraren arau fonologikoak deskribatu ere egin beharko lirateke. gure hemengo helburuetarako honek ez du garrantzi handirik, eta horregatik hartu dugu gure erabaki hau.</p><p>Alomorfo hauek aukeratzeko partizipioen tasunak kontuan hartzen dira, amaierak eta silaba kopuruak eskuarki; alomorfoa gehitzearekin batera, kasurik kasu, gerta daitezkeen arau fonologikoak ere kontuan hartu behar dira. Arau orokorrak ematean, orpoz orpo jarraituko diegu gaminderen <ref type="formula">(2007)</ref>  Amaieran -a eta -o daukaten partizipioen kasuan -ten alomorfoa gehitzen da zuzenean inolako arau fonologikorik aplikatu barik: ataraten, botaten, yoten, itoten. -e amaierakoekin -ten alomorfoaren ordez -tan erabiltzen da (gordetan, erretan), nahiz berau bigarren aren disimilazioagatik azal daitekeen ere bai.</p><p>-i amaierako partizipioekin hiru aukera agertzen dira; iren aurreko silaba bereko hasierako kontsonantea herskaria denean, iri eusten zaio eta -ten alomorfoa eransten zaio partizipioari (bustiten, eukiten). i dagoen silabaren hasieran dagoen kontsonantea frikaria, sudurkaria edo dardarkaria denean, -ten erabiltzen da eta i desagertzen da (1) arau fonologikoaren arabera (ekarten, yosten, ipinten, e.a.)</p><formula xml:id="formula_0">(1) i &gt; Ø / [+fri] ___ -ten [+sud] [+dar]</formula><p>Azkenik, silaba bereko hasieran afrikatua dagoenean -ten alomorfoarekin batera joera batzuk agertzen dira. informatzaile bakar batzuek zuzenean eransten diote alomorfoa partizipioari ezelako arau fonologikorik aplikatu barik (yantziten, itxiten). Alta, informatzaile gehienek i galtzeko (2) araua aplikatzen dute eta geroago afrikatua frikari bihurtzeko (3) araua.</p><p>(2) i &gt; Ø / +Afri ___ -ten</p><p>(3) Afri &gt; fri / ___-ten <ref type="formula">(2)</ref>  </p><formula xml:id="formula_1">Afijazioa [ɟ ͡ ʝan̻ t ͡ s̻ iten] [it ͡ ʃiten] (2) [ɟ ͡ ʝan̻ t ͡ s̻ ten] [it ͡ ʃten] (3) [ɟ ͡ ʝans̺ ten] [is̺ ten] Azkenik [ɟ ͡ ʝans̺ ten] [is̺ ten]</formula><p>informatzaile batek beste arau bat erabili du ns silabaren kodan agertzen den taldea sinplifikatzeko eta n kentzeko; arau hau (4) da eta emaitza yasten dugu.</p><p>(4) n &gt; Ø / __ s#t esan dezagun, bidenabar bada ere, kasu hauek ikertzea interesgarria izango litzatekeela; izan ere, iglesiasen (2014) agertzen diren informatzaile zaharren testuetan itxiten bi aldiz agertzen da eta isten behin baino ez. uste dugu yansten eta isten moduko moldeak berriagoak direla yantziten eta itxiten baino; baina hau susmo bat baizik ez da.</p><p>-nz amaitutako partizipioekin -ten alomorfoa erabiltzen da kasu guztietan: emoten, esaten. Alomorfoarekin batera (5) araua aplikatzen da. rreko silabaren kodan frikaria dagoenean -tu ez da kentzen eta -ten alomorfoa erabiltzen da zuzenean (aistuten, postuten). gainerako kasuetan bereizi behar ditugu silaba bi eta hiru silabakoak. Silaba bi dauzkaten partizipioetan aukera bi daude; batean -ten alomorfoa zuzenean ezartzen zaio partizipioari: salduten, sartuten, galduten, artuten, eta bestean -tzean/-txean 4 alomorfoak erabiltzen dira, behin -tu eta -du kenduz gero: saltzean, sartzean, galtzean, artzean.</p><p>Hiru silabako partizipioen kasuan ere aukera bi agertzen zaizkigu; batean -ten alomorfoa zuzenean eransten zaio partizipioari: aginduten, yokatuten, segiduten, sabalduten e.a.; eta bestean, -tan alomorfoa erabiltzen da, baina horretarako arinago -tu eta -du amaierak ezabatu behar dira: agintan, yokatan, segitan, sabaltan, e.a.</p><p>Azken kasu honetan zein aurrekoan, -ten alomorfoaren bidez sortzen diren moldeak analogiaz sortutakoak direla pentsa dezakegu. Analogiarik egiten ez den kasuetan alomorfoen banaketa 3. taulan erakusten da (bertan partizipioaren azken aurreko silabaren koda (koda), partizipioaren amaiera (amaiera), silaba kopurua beharrezkoa denean (s.k.) eta erabiltzen den alomorfoa erakusten dira).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">taula</head><p>Alomorfoen erabilera -tu/-du amaierako partizipioen azken aurreko silaba koden eta partizipioen silaba kopuruen arabera Koda Amaiera s.k. Alomorfoa Adibidea s -tu -ten aistuten Ø/n/r/l -tu/-du 2 silaba -ten salduten -tzean/-txean saltzean/saltxean Ø/n/r/l -tu/-du 3 silaba -ten aginduten -tan agintan/eskatan Aztertzen ari garen kasu honetan, bi eta hiru silabako -tu/-du amaierako partizipioekin nahikoa da alomorfoak kontuan hartzea; izan ere, alomorfo bat edo beste aukeratzeak inplikatzen du arau fonologikoa betetzea edo ez, hots, -ten erabiliz gero partizipioaren -tu/-du ez dira ezabatzen. 4. taulan inplikazio horiek adierazten dira. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">taula</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Alomorfoen erabilera eta arau fonologikoen inplikazioak</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Datuen azterketa kuantitatiboa</head><p>Jaso ditugun 35 partizipioetatik 20 (% 57,14) informatzaile guztiek berdin erabiltzen dituzte eta beste 15ak dira aldaketak eduki dituztenak <ref type="bibr">(% 42,86)</ref>.</p><p>Aldaketarik gabe informatzaile guztiek berdin erabiltzen dituzten aspektu ez-perfektuak 5. taulan adierazten dira partizipioen arabera. taulan adibide batzuk baino ez ditugu paratu, baina denak berdin erabiltzen dira salbuespenik gabe.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">taula</head><p>informatzaile guztiek berdin erabiltzen dituzten aspektu ez-perfektuen adibideak partizipioaren arabera Aldaketak gertatzen dira bi eta hiru silabako -tu/-du gainerako partizipioekin. lehenago adierazi den bezala, silaba bikoak direnean, -ten, -tzean eta -txean alomorfoak har ditzakete eta hiru silabakoak direnean -ten eta -tan. Bestalde, iz amaitutako partizipioek azken silabaren hasieran afrikatua daukatenean ere aldaketak gertatzen dira. Jarraian datuen azterketa hiru multzo horien arabera banatuta aurkeztuko dugu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">taula</head><p>Hiru silabako -tu/-du amaierako partizipioekin erabiltzen diren -ten eta -tan alomorfoen banaketa eta agerpen probabilitateak Hiru silabako -tu/-du amaierako partizipioekin erabiltzen diren -ten eta -tan alomorfoen banaketa eta agerpen probabilitateak erakusten dira 6. taulan. 5 Bertan ikusten den moduan -tan gehiagotan erabiltzen da mutilen artean (batezbestekoa: 0,689; desbideraketa estandarra: 0,346) nesken artean baino (batezbestekoa: 0,555; desbideraketa estandarra: 0,438); aldea ez da estatistikoki esanguratsua. medianek alde handiagoa erakusten dute, mutilena 0,778 da eta neskena 0,444.</p><p>Silaba biko -tu/-du amaierako partizipioekin hiru alomorfo erabiltzen dira -ten, -tzean eta -txean; 7. taulan bakoitzaren agerpen probabilitateak erakusten dira informatzaileen generoaren arabera. taulan erakusten den bezala, -ten alomorfoa neskek eta mutilek erabiltzen dute; -tzean, ostera, neskek erabiltzen dute; eta -txean mutilek. Hori gertatzen da inbentario fonologikoan neskek afrikatu laminarra [t ͡ s̻ ] erabiltzen dutelako eta mutilek afrikatu sabai aurrekoa [t ͡ ʃ] (gaminde, eguskiza, iglesias &amp; unamuno 2017). -ten alomorfoaren agerpen probabilitate orokorra 0,445 da; nesken artean 0,34 eta mutilen artean 0,55 (aldea ez da estatistikoki esanguratsua). nesken -tzean alomorfoaren agerpen probabilitatea 0,66 da eta mutilen -txean alomorfoarena 0,563.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">taula</head><p>Azken silabaren hasieran afrikatua dagoen kasuetan, sarreran ikusi dugun bezala, aukera bi agertzen dira, batean i galtzen da eta bestean ez. i galtzen ez denean -ten alomorfoa zuzenean eransten zaio partizipioari. i galtzen bada, afrikatua frikari bihurtzen da. lehen aukera agertzeko probabilitatea 0,8 da eta bigarrena agertzekoa 0,2. neskek beti erabiltzen dute lehen aukera eta mutilen artean agertzen dira aldeak; lehen aukera agertzeko probabilitatea 0,6 da eta bigarrena agertzeko 0,4. Joera nagu-sia yansten eta isten egiteko bada ere, badago mutil bat talde honetatik guztiz aldetzen dena yantziten eta itxiten egiten duelako.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Informatzaileen sailkapena</head><p>Atal honetan azterketa linguistikoaren eta azterketa kuantitatiboaren datuak erabilita informatzaileen sailkapenak egingo ditugu hiru metodo erabilita. erabiliko dugun lehen metodoa multzokatze azterketa hierarkikoa da. teknika hau sailkatzailea da eta beronen helburu nagusia da elementu batzuk multzokatzea talde homogeneotan, euren artean dauzkaten antzekotasunetan eta desberdintasunetan oinarrituta. oso garrantzitsua da ulertzea teknika deskribatzailea dela eta berak ematen dituen multzoak dakigunarekin eta teknika kualitatiboekin eta geografikoekin erkatu behar direla (de la Fuente 2011). teknika honen xehetasunak gaminde et al.</p><p>(2017) lanean ematen dira. Hemen metodo hau erabiltzeko datu-matrize bat egiten da lehenengo eta behin. Aditz bakoitzeko egin daitezkeen aukera guztiak paratzen dira eta informatzaile bakoitzak erabili duena "1"en bidez kodetzen da eta gainerakoetan "0" erabiltzen da (1. irudian matrizearen zati bat erakusten da). matrizea eraikitzean datu dikotomikoak erabiltzen badira, aldaki guztiak maila berean jartzen dira.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">irudia</head><p>multzokatze hierarkikoa egiteko matrize dikotomikoa informatzaileen sailkapena egiteko hurrengo urratsa informatzaileen arteko distantzia matrizea kalkulatzea da (lehenengo teknika honetan eta baita gainontzekoetan ere), gure azterketa hau burutzeko distantzia euklidear karratua erabili dugu. Azkenik, multzoak sortzen dira eta horretarako, Ward izeneko algoritmoa aukeratu dugu. Programa baten bidez multzokatzea automatikoki egiten da eta irudikapen grafikoa lor daiteke 2. irudian erakusten den dendrograman. Bertan ikus daitekeen bezala, A multzoan hiru neska eta mutil bi kokatzen dira eta B multzoan alderantziz neska bi eta hiru mutil. dimentsio anizkun eskalak (dAe) objektu edo kasuen arteko distantzia neurrien multzoaren egitura bilatzen du. Hau lortzen da behaketei egongune zehatzak emanez dimentsio biko edo hiruko espazio kontzeptual batean (hemen dimentsio bikoa erabiliko dugu); horrela bada, espazioko puntuen arteko distantziak erlazionatuta daude objektuen edo kasuen arteko berdintasunekin eta desberdintasunekin. Beraz, helburua izaten da objektuen arteko distantziak dimentsio anizkun espazioan proiektatzea (Pérez 2005).</p><p>https://doi.org/10.1387/asju.22415</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">irudia</head><p>informatzaile sailkapen orokorra erabili diren ezaugarri guztien arabera Bigarren teknika hau aplikatzeko, arteragokoan erabili ditugun "1"en ordez elementu bakoitzari dagokion agerpen probabilitatea esleitu diogu, 3. irudian ikus daitekeen bezala.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">irudia</head><p>dimentsio anizkun eskala egiteko matrizearen zatia gure hemengo datuen dimentsio anizkun eskalaren azterketa egiten badugu, 4. irudiko dispertsio grafikoa lortzen dugu; bertan ikus daitekeen bezala informatzaileak nahikoa nahasirik agertzen dira, espazioan zehar sakabanaturik.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">irudia</head><p>informatzaileen banaketa lauan dimentsio anizkun azterketaren arabera Hemen lortu ditugun emaitzak multzokatze hierarkikoaren bidez lortu ditugunekin alderatzen baditugu, ikus dezakegu bigarren azterketa honetan, A multzoan sei informatzaile agertu direla eta B multzoan lau. Aurreko azterketan multzo bakoitzean bosna informatzaile agertu dira. m02 informatzailea da oraingo honetan B multzoan agertu ordez A multzoan sailkatu dena.</p><p>informatzaileak sailkatzeko erabiliko dugun hirugarren metodoa K-batezbestekoen multzokatzea da. teknika hau erabiltzeko logika lausoaren (fuzzy logic/lógica difusa) hatsarreetan oinarrituko gara. Horretarako, datu-matrizea eraiki dugu eta aldatzen diren alomorfoen arabera informatzaile bakoitzari [0 1] heinaren arteko balioa esleitu zaio izan dituen agerpen kopuruen arabera. 5. irudian matrizea erakusten da.</p><p>https://doi.org/10.1387/asju.22415</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">irudia</head><p>K-batezbestekoen multzokatze azterketa egiteko erabili den datu-matrizea matrizearen datuen bidez K-batezbestekoen azterketa egin dugu informatzaileak multzo bitan sailkatuta. 6. irudian sortutako dispertsio grafikoa erakusten da.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">irudia</head><p>informatzaileen sailkapena dispertsio grafikoaren bidez K-batezbestekoen metodoan oinarrituta multzo bi erabilita 8. taulan informatzaile bakoitzaren multzoa eta distantziak adierazten dira K-batezbestekoen metodoaren bidez informatzaileen sailkapena multzo bitan eginda.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">taula</head><p>informatzaileen sailkapena K-batezbestekoen metodoen bidez eginda, multzo bi erabilita Azterketa honen emaitzak ikusita, aldaketa nabarmena agertzen zaigu aurrekoen aldean, oraingo honetan hiru mutilek osatzen dute aparteko multzoa eta hau da azaleratu zaigun azpiko egitura. egia da multzoen arteko distantziak ez direna oso handiak, baina mutil batzuek multzoa osatzen dutela erakusten dute eta gainerakoengandik aldentzen direla.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Emaitzen eztabaida</head><p>ikusi berri dugun bezala, metodoen araberako emaitzak ez datoz bat. 9. taulan informatzaileen banaketa erakusten da multzokatze hierarkikoaren (1), dimentsio anizkun eskalaren (2) eta K-batezbestekoen (3) metodoen arabera.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9.">taula</head><p>informatzaileen sailkapena metodo bakoitzaren arabera Kontuan hartu behar da, bestalde, metodo hauek ez dutela inferentziarik egiten, aukeratzen diren distantzien eta multzokatze metodoen arabera emaitza desberdinak lortzen dira eta ikertzaileak erabaki behar du zein den bere datuak ondoen deskribatzen dituena.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Ondorioak</head><p>Azken atal honetan datuen azterketan lortu ditugun ondoriorik nabarmenenak laburbiltzen ahaleginduko gara. lehenengo eta behin esan behar da aldakortasuna gertatzen dela aukeratutako partizipio guztien % 42,86an; beraz, homogeneotasun eza agerian geratzen da.</p><p>Aldaketa nagusiak hiru partizipio multzotan gertatzen ari dira eta hiru alomorforen erabilerari eragiten diote eta beste kasu batean arau fonologikoei.</p><p>Hiru silabako -tu/-du amaierako partizipioekin -tan morfemaren ordez -ten erabiltzen da partizipioari zuzenean erantsita gero eta gehiagotan, honetan neskak berrizaleagoak dira mutilak baino.</p><p>Silaba biko -tu/-du amaierako partizipioekin neskek -tzean erabiltzen dute eta mutilek -txean; honetan ere analogiaz -ten hasi da nagusitzen informatzaile batzuen artean; hemen mutilak berrizaleagoak dira neskak baino.</p><p>-tzi edo -txi daukaten partizipioekin yantziten eta itxiten agertu arren, joera nagusia yansten eta isten erabiltzea da berau euskara estandarraren eraginez gertatzen dela pentsa daiteke; yantziten eta itxiten modukoak mutilek baizik ez dituzte erabiltzen. yansten eta isten moldeek berriagoak diruditela esan dugu 3. atalean, yantziten eta itxiten baino. etorkizunean hemen planteatutako susmo hori ikertzeari eta argitzeari interesgarri deritzogu. orokorrean genero aldagaia ez da estatistikoki esanguratsua; ikusi dugu -tz/-tx bereizketa ezak eragina duela eta hemen garrantzia eman zaio bereizkuntza honi, horregatik neska batzuek -tzean alomorfoa erabiltzen dute eta mutil batzuek -txean. era berean -txi-/-tzi amaierako partizipioekin neska guztiek eta mutil batzuek -sten erabiltzen dute, -tziten/-txiten mutil batzuek baino ez dituzte erabiltzen. Hala ere, informatzaileen sailkapena K-batezbestekoen teknikaren bidez egiten dugunean hiru mutil agertzen dira multzo bereizi batean; honek zalantza barik generoaren bidezko bereizkuntzarako dagoen joera nabarmena islatzen du. ondorioz, metodo kuantitatibo objektiboek dakartzaten aukera ezberdinak agerian utzi dira. Horien kasuan ere, ikertzailea ezinbestekoa da teknika bat edo beste aukeratzeko orduan. Behin honezkero, datu-matrize zehatzenetan oinarritzearen beharra aldarrikatu nahi dugu azterketa linguistikoak eginda. lan honetan, erakutsi dugu hirugarren teknika dela emaitzarik zehatzenak ematen dituena. erakutsi dugu bidenabar, matematika malgua dela eta emaitzak errepresentatzeko aukera handiak eskaintzen dituela.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bibliografia</head><p>Apalauza, Amaia. 2010. Nafarroako Ipar-Mendebaleko Hizkeren egitura Geolinguistikoa.</p><p>gasteiz: uPV/eHuko doktore tesia. <ref type="bibr">Aurrekoetxea, gotzon. 1992</ref>. nafarroako euskara: azterketa dialektometrikoa. Uztaro 5. 59-109. <ref type="bibr">Aurrekoetxea, gotzon. 1995</ref>. Bizkaieraren egituraketa geolinguistikoa. leioa: uPV/eHu. <ref type="bibr">Aurrekoetxea, gotzon. 2003</ref> </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>, aldi nagusi batzuk dauzka (eguskiza et al. 2017): (a) datuen azterketa linguistikoa. (b) datuen azterketa kuantitatiboa. (c) informatzaileen sailkapena.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>eta iglesiasen (2014) lanei. esan bezala, gure corpusean erabili ditugun aditz partizipioak 35 izan dira denetara (2. atalean zerrenda osoa ematen da); euron amaierak kontuan hartzen baditugu honako sailkapena dugu: -a, -o, -e, -i, -tu/-du, -au/-eu eta -n. Hurrenkera horretan eskainiko dira datozen azalpenok.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>(5) n &gt; Ø / __ -ten -au/-eu amaierako partizipioekin -etan alomorfoa erabiltzen da kasu guztietan: topetan, preguntetan, akabetan. Partizipio hauek guztiak erdaratik mailegatuak dira eta -aDO partizipioaren bilakaeraren bidez sortu omen dira (Zuazo 2017: 51).3   -tu/-du amaiera daukaten partizipioekin, alde batetik bereizi behar dira -tu/-du horien aurreko silabaren kodan frikaria daukatenak (aistu eta postu), eta bokala edo kontsonante ahostuna daukatenak(saldu, yokatu, agindu, sabaldu, e.a.). -turen auhttps://doi.org/10.1387/asju.22415</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>Silaba biko -tu/-du amaierako partizipioekin erabiltzen diren hiru alomorfoen (-ten, -tzean eta -txean) banaketa eta agerpen probabilitateak</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>hamar informatzaile izan ditugu, bost andrazko eta bost gizonezko. informatzaile guztiak igorrekoak dira, 1990-1992 urteen bitartean jaiotakoak eta d ereduan euren ikasketak burutu dituztenak.datuak jasotzeko zerrendan ez dauden aditz partizipio batzuen bidez zer lortu nahi genuen adierazi zitzaien, hau da, etorri aditzarekin etorten egiten dela adierazi zitzaien eta horrela beste zenbait adibiderekin. Behin zer egin behar zen argi edukiz gero, zerrendako aditzak egiteari ekin zitzaion eta hauek grabatu egin ziren. datu hauek izan dira datu-basea egiteko erabili direnak.</figDesc><table><row><cell>Amaiera</cell><cell>Partizipioak</cell></row><row><cell>-a</cell><cell>atara, bota</cell></row><row><cell>-o</cell><cell>yo, ito</cell></row><row><cell>-e</cell><cell>erre, gorde</cell></row><row><cell>-i</cell><cell>busti, ipini, ekarri, erosi, yosi, ikusi, itxi, yantzi</cell></row><row><cell></cell><cell>topau/topeu</cell></row><row><cell>-n</cell><cell>esan, emon</cell></row><row><cell cols="2">gure corpusa biltzeko</cell></row></table><note>-tu/-du berotu, garbitu, agindu, eskondu, eskatu, mogidu, yokatu, sabaldu, segidu, saldu, sartu, artu, galdu, aistu, postu -au/-eu akabau/akabeu, kantau/kanteu, preguntau/pregunteu,https://doi.org/10.1387/asju.22415</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>eta (3) arauak aplikatuta 2. taulan erakusten diren deribazioak lortzen dira; kontuan hartu behar da afrikatu laminarrari [t ͡ s̻ ] zein hobien ostekoari [t ͡ ʃ] dagokien frikaria bat bera dela, hau da, apikaria [s̺ ].</figDesc><table><row><cell>2. taula</cell></row><row><cell>(2) eta (3) arauak aplikatuta lortzen diren deribazioak</cell></row></table><note>[ɟ ͡ ʝan ̻ t ͡ s̻ i] [ten] [it ͡ ʃi] [ten]</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>://doi.org/10.1387/asju.22415Bigarren metodoan, bakoitzari agerpen probabilitateak esleituta sortu da matrizea eta horretan oinarrituta dimentsio anizkun eskalaren teknika aplikatu da. Sortutako dispertsio grafikoan ikusi da A multzoan sei informatzaile sailkatu direla eta B multzoan lau. Aurrekoarekin alderatuta egon den aldaketa m02 informatzailearen multzo aldaketa izan da. Horrela bada, A multzoan hiru neska eta hiru mutil sailkatu dira eta B multzoan neska bi eta mutil bi.Azkenik, hirugarren metodoan, K-batezbestekoenean, multzo bi sortarazi dira. metodo hau aplikatzeko, oinarrian erabili dugun matrizean aldatzen diren alomorfoen arabera informatzaile bakoitzari [0 1] heinaren arteko balioa esleitu zaio izan dituen agerpen kopuruen arabera. lortutako dispertsio grafikoan, A multzoan zazpi informatzaile sailkatu dira eta B multzoan hiru. A multzokoak neska guztiak eta mutil bi izan dira eta B multzokoak hiru mutil.gure lanaren helburuak bete direlako ustea dugu. izan ere, igorreko hiztun gazteek aspektu ez-perfektua egiteko erabiltzen dituzten arau morfo-fonologikoen deskripzio linguistikoak deskribatu ditugu eta horiek baliatu ditugu informatzaileak sailkatzeko hiru metodo kuantitatibo ezberdin erabilita. Horien oinarrian egon diren matrizeak ere ezberdinak izan dira. Hemen erakutsi dugun moduan, abiapuntutzat datu berberak erabili arren, oinarrian osatutako datu-matrizeen kodetzeek eta sailkatze teknika ezberdinak erabiltzeak emaitza ezberdinak eragiten dituzte. Hortaz, garrantzitsua da erabaki zuzenak hartzea, horretarako, ikertzaileak darabiltzan datuak ezagutzea beharrezkoa da, bai eta hartutako hautu metodologikoak justifikatzea ere.Beste lan batzuetan erakutsi dugun moduan(eguskiza et al. 2017; gaminde et al.  2017), uste dugu datu gordinak erabili beharrean, harago joan behar dela eta ezin gera gaitezkeela datuen kodetze dikotomikoetan oinarritutako analisien emaitzekin. Hori dela eta, defendatzen dugu, hiru metodoetatik zehatzena logika lausoaren hatsarreetan oinarritzen dena dela, hots, K-batezbestekoen multzokatzea. izan ere, multzoen araberako distantziak kontuan hartzen ditu eta horiek matematikoki zehazteko aukera ematen du, gainerako biek ez bezala. gainera, oinarrian osatu den datu-ma trizean informatzaile bakoitzari aldatzen diren alomorfoen araberako [0 1] heinaren balioak esleitu zaizkio. eta horrek datu dikotomikoetatik urrunduz, zehaztasun gehiago jasotzen ditu eta analisiak eta emaitzak zehatzagoak dira.</figDesc><table><row><cell>Metodoa</cell><cell>A multzoa</cell><cell>B multzoa</cell></row><row><cell>(1)</cell><cell>n01, n02, n04, m03, m05</cell><cell>n03, n05, m01, m02, m04</cell></row><row><cell>(2)</cell><cell>n01, n02, n04, m02, m03, m05</cell><cell>n03, n05, m01, m04</cell></row><row><cell>(3)</cell><cell>n01, n02, n03, n04, n05, m01, m03</cell><cell>m02, m04, m05</cell></row><row><cell cols="3">lehenengo metodoa datu-matrize dikotomikoan oinarrituta aplikatu da eta den-</cell></row><row><cell cols="3">drograma izan da emaitza. multzo bi agertu zaizkigu, A eta B multzoak. Bakoitzean</cell></row><row><cell cols="3">bosna informatzaile agertu dira. A multzoan hiru neska eta mutil bi eta B multzoan</cell></row><row><cell cols="2">alderantzizkoa, neska bi eta hiru mutil.</cell><cell></cell></row></table><note>https</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>. euskalkiak estandarraren uholdepean (Arratiako kasua). in ahozkotasuna aztergai, 167-177. Bilbo: mendebalde Kultur elkartea. http:// mendebalde.eus/jardunaldiak/2003/euskalkiak%20estandarraren%20uholdepean%20 (arratiako%20kasua).pdf (2018/05/23). Aurrekoetxea, gotzon. 2004. estandar eta dialektoen arteko bateratze-joerak, ikuspuntu teorikotik begirada bat. Uztaro 50. 45-57. Aurrekoetxea, gotzon. 2005. nafarroako euskararen sailkapenaz. in Pilartxo etxeberria &amp; Henrike Knörr (arg.), Nerekin yaio nun. Txillardegiri omenaldia, 109-124. Bilbo: euskaltzaindia. Aurrekoetxea, gotzon. 2008. Bariazio soziolinguistikoa dimako euskaran. euskalingua 12. 17-26. http://mendebalde.eus/euskalinguak/euskalingua%2012/Bariazio%20soziolin-guistikoa%20dimako%20euskaran.pdf (2018/04/17).</figDesc><table /><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">nAiA eguSKiZA, iñAKi gAminde, Aitor igleSiAS ASJU, 2019, 53 (1-2), 163-181</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">generoa da hemen aztergaitzat hartu dugun gizarte-aldagaia. generoaren araberako aldeei kasu berezia emango zaie lan honetan, hizkuntzaren aldakortasunaren azterketan generoa kontuan hartuta egin diren beste azterketa batzuei jarraiki. Asko baitira andrazkoen eta gizonezkoen artean dauden aldeak agerian utzi dituzten ikerlanak. Zehaztasun gehiagorako ikus bedi eguskiza (2019).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">diakronikoki ez dugu zalantzan jartzen hori horrela izan denik. Sinkronikoki, zalantzan jar daiteke hau; izan ere, gaztelaniatik -ar infinitibozko markako aditzak mailegatzen direnean -au/-eu/-a jasotzen dute euskaraz, -ado delakotik pasatu barik.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">datuen azterketaren atalean alomorfo bien hedadura erakutsiko da.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">Alomorfo baten agertzeko probabilitatearen balioa 0 denean, agertu ez dela adierazten du. era berean, alomorfo baten probabilitatea 1 denean, hori baino ez dela agertu adierazten du. tarteko probabilitateetan, zenbat eta gehiago aldendu 0tik eta gertuago egon 1etik orduan eta agerpen probabilitate altuagoa dauka alomorfoak<ref type="bibr" target="#b8">(Bully 2017)</ref>.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>AnuArio del seminArio de filologíA vAscA "julio de urquijo" international journal of Basque linguistics and Philology ASJU liii (1/2), 2019 <ref type="bibr">[2021]</ref> AurkiBideA / summAry / índice Antón ugarte muñoz, luis michelena (koldo mitxelena) y la creación del seminario de filología vasca «julio <ref type="bibr">de urquijo» (1947-1956)</ref> / Luis Michelena <ref type="bibr">(Koldo Mitxelena)</ref> and the founding of the «Julio de Urquijo» Basque Philology <ref type="bibr">Seminar (1947</ref><ref type="bibr">Seminar ( -1956</ref> </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.22415</idno>
+		<ptr target="https://doi.org/10.1387/asju.22415" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Bariazio sinkronikoa aztertzeko metodologia(k). Lapurdum 13</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gotzon</forename><surname>Aurrekoetxea</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="page" from="43" to="59" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">distantzia geografikoaren eta hizkuntza distantziaren arteko korrelazioa. in gotzon Aurrekoetxea, Jesus mari makazaga &amp; Paxi Salaberri (arg</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gotzon</forename><surname>Aurrekoetxea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Hire bordatxoan: Txipi Ormaetxea omenduz</title>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="53" to="72" />
+		</imprint>
+	</monogr>
+	<note>Bilbo: uPV/eHu</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Prosodic variation in the Basque language: intonational areas. in Ana díaz-negrillo &amp; Javier díaz Pérez (arg.), Specialisation and variation in language corpora</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gotzon</forename><surname>Aurrekoetxea</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>international Academic Publishers</publisher>
+			<biblScope unit="page" from="35" to="51" />
+			<pubPlace>Berna</pubPlace>
+		</imprint>
+	</monogr>
+	<note>leire gandarias &amp; Aitor iglesias</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Variación prosódica en vasco: áreas acentuales. in yolanda congosto, maría luisa montero &amp; Antonio Salvador (arg.), Fonética experimental</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gotzon</forename><surname>Aurrekoetxea</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gandarias</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="11" to="28" />
+		</imprint>
+	</monogr>
+	<note>iñaki gaminde &amp; Aitor iglesias. madril: Arco libros</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">euskararen Atlas Sozio-geolinguistikoa ikerketa proiektua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gotzon &amp;amp; Jose</forename><surname>Aurrekoetxea</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Luis Ormaetxea</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="157" to="163" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Tools for linguistic variation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gotzon &amp;amp; Jose</forename><surname>Aurrekoetxea</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Luis Ormaetxea</surname></persName>
+		</author>
+		<idno>/02/13</idno>
+		<ptr target="http://mendebalde.eus/euskalinguak/euskalingua%209/%22euskararen%20atlas%20sozio-geolinguistikoa%22%20ikerketa-proiektua.pdf" />
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Jinyun Ke, diane larsen-Freeman &amp; tom Schoenemann. 2011. la lengua es un sistema adaptativo complejo. Lingüística en la red 9</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Beckner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joan</forename><surname>Blythe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Morten</forename><forename type="middle">H</forename><surname>Bybee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><surname>Christiansen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Croft</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Ellis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Holland</surname></persName>
+		</author>
+		<ptr target="http://www.linred.es/articulos_pdf/lr_articulo_04092011.pdf" />
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">7</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paola</forename><surname>Bully</surname></persName>
+		</author>
+		<idno>SPSS: nivel medio. leioa: uPV/eHu</idno>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="report_type">análisis de datos con</note>
+	<note>Análisis de datos con SPSS&quot; ikastaroaren apunte argitaragabeak</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">iker usobiaga &amp; miquel Salicrú. 2017. nola identifikatu ezaugarri esanguratsuenak bariazio dialektalean: diatech nabarmentzeko aukera</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Esteve</forename><surname>Clua</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aitor</forename><surname>Iglesias</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Aitor iglesias &amp; Ariane ensunza (arg.), Gotzon aurrekoetxea lagunarterik hara</title>
+		<imprint>
+			<biblScope unit="page" from="25" to="34" />
+		</imprint>
+	</monogr>
+	<note>Bilbo: uPV/eHu</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">análisis conglomerados. madril: universidad Autónoma de madrid</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fuente</forename><surname>De La</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<pubPlace>Santiago</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Hizkuntza aldakortasun geo-soziolinguistikoa arratian. leioa: uPV/ eHuko doktore tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Naia</forename><surname>Eguskiza</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Hizkuntz hizkeren sailkapena metodo kuantitatiboen bidez. in cristina Arriaga &amp; Asier romero (arg.), XXIV. Psikodidaktikako ikerkuntza jardunaldiak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De Pablo &amp;amp; Iñaki Gaminde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Aintzane etxebarria, Aitor iglesias, Hiart legarra &amp; Asier romero (arg</title>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page" from="387" to="396" />
+		</imprint>
+	</monogr>
+	<note>Traine ru bete lagun. Bilbo: uPV/eHu</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">2011. the emergence of language as a complex adaptive system</title>
+	</analytic>
+	<monogr>
+		<title level="m">routledge Handbook of applied Linguistics</title>
+		<editor>James Simpson</editor>
+		<imprint>
+			<biblScope unit="page" from="666" to="679" />
+		</imprint>
+	</monogr>
+	<note>londres: routledge</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Busturialdeko euskararen hizkuntza-aldakortasuna denboran eta espazioan. gasteiz: uPV/eHuko doktore tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ariane</forename><surname>Ensunza</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Hizkuntza aldakortasuna larrabetzuko aditz morfologian. in Aitor iglesias, Asier romero &amp; Ariane nAiA eguSKiZA, iñAKi gAminde</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aintzane</forename><surname>Etxebarria</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aitor igleSiAS ASJU</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="163" to="181" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note>Ander olalde &amp; ursua gaminde</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Linguistic variation in the Basque language and education -II / euskararen bariazioa eta bariazioaren irakaskuntza -II, 104-119. Bilbo: uPV/eHu</title>
+		<idno>/06/03</idno>
+		<ptr target="https://web-argitalpena.adm.ehu.es/pasa_pdf.asp?File=uHPdF164658" />
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Bizkaiko euskararen ezaugarri fonologiko batzuen inguruan. euskalingua 1. 1-14</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñaki</forename><surname>Gaminde</surname></persName>
+		</author>
+		<idno>/09/29</idno>
+		<ptr target="http://mendebalde.eus/euskalinguak/euskalingua%201/Bizkaiko%20euskararen%20ezaugarri%20fonologikoak.pdf" />
+		<imprint>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Bizkaian zehar: euskararen ikuspegi orokorra. Bilbo: mendebalde Kultura Alkartea &amp; Bizkaiko Foru Aldundia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñaki</forename><surname>Gaminde</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Bizkaiko gazteen prosodiaz: euskaraz eta gaztelaniaz. Bilbo: mendebalde Kultura Alkartea &amp; Bizkaiko Foru Aldundia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñaki</forename><surname>Gaminde</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Asier romero &amp; lorea unamuno. 2016. lexikoaren bariazioa eta multzokatze-azterketa. euskalingua 28</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aintzane</forename><surname>Etxebarria</surname></persName>
+		</author>
+		<idno>/06/04</idno>
+		<ptr target="http://mendebalde.eus/euskalinguak/euskalingua%2028/lexikoaren%20bariazioa%20eta%20multzokatze-azterketa.pdf" />
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="19" to="32" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Hiart legarra</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñaki</forename><surname>Gaminde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Asier</forename><surname>Romero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Gramatika eta hizkuntza bariazioa Bermeon. Bermeo: Bermeoko udala</title>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Bizkaiko aditz laguntzaileen bilakaeraren azterketaz. in Aitor iglesias, Asier romero &amp; Ariane ensunza (arg.), Linguistic variation in the Basque language and education -II / euskararen bariazioa eta bariazioaren irakaskuntza -II</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñaki</forename><surname>Gaminde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Asier</forename><surname>Romero</surname></persName>
+		</author>
+		<idno>/06/03</idno>
+		<ptr target="https://web-argitalpena.adm.ehu.es/pasa_pdf.asp?File=uHPdF164658" />
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note>Aintzane etxebarria &amp; naia eguskiza</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">informatzaileen sailkapenerako arazo metodologiko batzuen gainean. in lorea unamuno, Asier romero, Aintzane etxebarria &amp; Aitor iglesias (arg.), Linguistic variation in the Basque language and education -III / euskararen bariazioa eta bariazioaren irakaskuntza -III</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eguskiza</surname></persName>
+		</author>
+		<idno>29-42. Bilbo: uPV/eHu</idno>
+		<ptr target="https://web-argitalpena.adm.ehu.es/pasa_pdf.asp?File=uHPdF187987" />
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">10</biblScope>
+		</imprint>
+	</monogr>
+	<note>Asier romero &amp; Aintzane etxebarria</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Sexuaren eragina igorreko afrikatu bizkarkarien tasun akustikoetan. euskalingua 30</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eguskiza</surname></persName>
+		</author>
+		<ptr target="http://mendebalde.eus/euskalinguak/euskalingua%2030/Sexuaren%20eragina%20igo-rreko%20afrikatu%20bizkarkarien%20tasun%20akustikoetan.pdf" />
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="6" to="12" />
+		</imprint>
+	</monogr>
+	<note>Aitor iglesias &amp; lorea unamuno</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">el quark y el jaguar: aventuras en lo simple y lo complejo. Bartzelona: tusquets</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Murray</forename><surname>Gell-Mann</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Igorreko hizkeraren azterketa dialektologikoa. gasteiz: uPV/eHuko doktore tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aitor</forename><surname>Iglesias</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Aintzane etxebarria &amp; lorea unamuno (arg.), Linguistic variation in the Basque language and education -III / euskararen bariazioa eta bariazioaren irakaskuntza -III, 73-86. Bilbo: uPV/eHu</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aitor</forename><surname>Iglesias</surname></persName>
+		</author>
+		<ptr target="https://web-argitalpena.adm.ehu.es/pasa_pdf.asp?File=uHPdF187987" />
+	</analytic>
+	<monogr>
+		<title level="m">Aitor iglesias, Asier romero</title>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">10</biblScope>
+		</imprint>
+	</monogr>
+	<note>igorreko azentuaren korrelatu akustikoez</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">modeling regional variation from eAS: complexity and communal aggregates. in gotzon Aurrekoetxea, Asier romero &amp; Aintzane etxebarria (arg.), Linguistic variation in the Basque language and education -I / euskararen bariazioa eta bariazioaren irakaskuntza -I, 73-86. Bilbo: uPV/eHu</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jean</forename><surname>Léonard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Heinsalu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Marco Patriarca</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Pierre</surname></persName>
+		</author>
+		<ptr target="https://web-argitalpena.adm.ehu.es/pasa_pdf.asp?File=uHPdF152784" />
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.22415</idno>
+		<ptr target="https://doi.org/10.1387/asju.22415" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">lógica difusa: un método de clasificación de materiales arqueológicos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pedro</forename><forename type="middle">&amp;amp;</forename><surname>López García</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Denisse Argote</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="96" to="114" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Aplicación del marco de los sistemas complejos adaptativos a un modelo de variación lingüística</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juan</forename><surname>López Rivera</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>José</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Moenia</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="5" to="24" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Hizkuntza-aldakortasuna euskaran. Nafarroa ipar-mendebaldeko bi udalerritan egindako azterketa. gasteiz: uPV/eHuko doktore tesia. moreno cabrera, Juan carlos</title>
+	</analytic>
+	<monogr>
+		<title level="m">Una ideología destructiva. Bartzelona: ediciones Península</title>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Métodos estadísticos avanzados con SPSS. madril: thomson. Zuazo, Koldo. 2017. Mendebaleko euskara. donostia: elkar</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Pérez López</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

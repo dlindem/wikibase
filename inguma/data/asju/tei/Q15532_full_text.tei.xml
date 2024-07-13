@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ANUARIO DEL SEMINARIO DE FILOLOGÍA VASCA «JULIO DE URQUIJO» International Journal of Basque Linguistics and Philology SENI eta LOHI (sudurkari galduaren bila) SENI &amp; LOHI (in search of lost nasal)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Borja</forename><surname>Ariztimuño Lopez</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Studia Philologica et Diachronica in honorem Joakin Gorrotxategi Vasconica et Aquitanica Joseba A. Lakarra -Blanca Urgell</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">UPV/EHU</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">ANUARIO DEL SEMINARIO DE FILOLOGÍA VASCA «JULIO DE URQUIJO» International Journal of Basque Linguistics and Philology SENI eta LOHI (sudurkari galduaren bila) SENI &amp; LOHI (in search of lost nasal)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1387/asju.20191</idno>
+					<note>ASJU 52-1/2 (2018), 19-31</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:21+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>etymology</term>
+					<term>lexicalization</term>
+					<term>relative chronology</term>
+					<term>rhinoglottophilia</term>
+					<term>root pattern</term>
+					<term>word-families Hitz gakoak: erro-eredua</term>
+					<term>etimologia</term>
+					<term>hitz-familiak</term>
+					<term>kronologia erlatiboa</term>
+					<term>lexikaliza- zioa</term>
+					<term>rhinoglottophilia</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This paper deals with some aspects left unexplained by previous works since the standard reconstruction of Proto-Basque of Koldo Mitxelena, on the basis of the onomastic elements SENI and LOHI, found in the Aquitanian corpus. On the one hand, there are some *n that have left no traces of their nasality, and, on the other, there are the details about the change of such segments, regarding the application of the phonological rule and its relative chronology, as well as its relation to the ancient compositional rules (cf. Igartua  2002). These issues could make hesitate about some of the etymologies developed within the Theory of the Monosyllabic Root (Lakarra 1995 ff), or even could weaken it, as long as a justification beyond system for the derivational origin of old disyllabic lexems is not provided. To overcome those obstacles (and to substantiate the need to overcome them), two new word families are proposed: those represented by the pairs zahi 'bran' / zain 'keeper', and behe 'lower (part)' / mehe 'thin'.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena</head><p>Artikulu honek Koldo Mitxelenaren lanez geroztiko berreraiketan (bai eta Mitxelenaren beraren etimologia batzuetan ere) azaltzeke utzi diren zenbait eretzi heltzen die, Akitaniako SENI eta LOHI lekukotasunen bitartez. Alde batetik, sudurkaritasun arrastorik utzi ez duten bokalarteko *n-ak ditugu eta, bestetik, segmentu beraren bilakaeraren xehetasunak, arauaren ezarpenari eta kronologia erlatiboari dagokienez, antzinako konposozio-arauekiko harremana ere kontuan harturik (cf. Igartua 2002). Eztabaidagai horiek erro monosilabikoaren teoriaren barruan (Lakarra 1995 hh) garaturiko etimologia batzuk kolokan jar litzakete, eta areago teoria hankamotz utzi, bisilabo zahar zenbaiten eratorri izaera sistema-eskakizunez harago justifikatu ezean. Hemen, oztopo horiek gainditzeko (eta gainditu beharraren erakusgarri), bi hitz-familia berri proposatzen dira: zahi/zain eta behe/mehe bikoteek osaturikoak.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 19-31 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20191</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Sarrera* 1</head><p>Zaila da Joakin Gorrotxategi maisuaren omenez haren dinako zerbait idaztea. Saiatu nintzen master amaierako lanean <ref type="bibr" target="#b1">(Ariztimuño 2011)</ref>, non «akitaniar idazkunak» aztertu nituen, akitaniera-euskara harremana argitu nahiz. Alabaina, hau ez da lan hura bera ez haren laburpena; halakoak ere, egitekotan, duina behar du.</p><p>Honakoan, lan hartan ukituriko gaietako bat dakart. Zehatzago esanda, noiz oin-oharretan, noiz atal laburren baten barruan, egindako proposamen batzuen gainean arituko naiz, litezkeen etimologia batzuk (bir)plazaratuz eta horiek ontzat jotzeko onartu beharreko bilakaera eta ezaugarri batzuen inguruan laburzki hausnartuz.</p><p>Orduan esan bezala, orain ere ezin defenda dezaket ziurtasun osoz akitaniera deritzogun hizkuntza hura eta euskara ahaide direnik, eta are gutxiago zer-nolako ahaikoa den bien artean. Nolanahi ere, izenburuko hitzak gehiago izan dira lan honen akuilu eta inspiratzaile, ezen ez ezinbesteko oinarri; hortaz, ahaidetasun-auziek ez liekete hemengo proposamenei zertan eragin.</p><p>Horrenbestez, hauxe izango da artikuluaren egitura: sarrera honen ondoren, akitaniar idazkunetako senik ustez lekukotzen edo bermatzen duen *seni berreraiketaz eta dagoeneko garai hartan lohi bide zen lohi hitzarenaz arituko naiz, horiek aitzineuskara eredu nagusiei (Koldo Mitxelenarena eta Joseba Lakarrarena) ezarritako erronkak eta orain arte eman diren azalpenak laburbilduz ( §2). Ondoren, planteaturiko arazoak gainditzeko hipotesiak egingo ditut ( §3), jarraian datu eta analisi berriak aurkezteko ( §4). Azkenik, ondorio nagusiak laburbildu eta hipotesi berriaren ahulguneak eta abantailak bilduko ditut ( §5).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Arazoak</head><p>Atal honetan seni eta lohi hitzez esan dena laburbilduko dut (funtsean Koldo Mitxelenak eta Josebak Lakarrak proposaturiko etimologiak; ikus baita Gorrotxategi 1984 ere) eta nire ustez oraindik azaltzeke geratu diren alderdiak aipatuko ditut, hurrengo ataletan argitzen saiatuaz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">SENI</head><p>Beharbada euskarazko etimologiarik ezagunena eta, aldi berean, ziurrenetakoa dugu hau. Alabaina, jakin, ezin dezakegu ziur jakin akitanierazko &lt;SENI-&gt; haiek euskarazko sein eta sehi hitzen jatorrizko formarekin zerikusirik duten, pertsona-ize-* Eskerrak eman nahi dizkiet batera edo bestera artikulu hau hobetzen lagundu didaten Joseba A. Lakarrari, Blanca Urgelli, Eneko Zuloagari eta Ander Egurtzegiri.</p><p>Ikerketa-lan hau «Monumenta Linguae Vasconum V: periodización y cronología» (FFI:2016-76032-P) proiektuaren eta EJ-ko «Historia de la Lengua Vasca y Lingüística Histórico-Comparada» (IT698-13) talde kontsolidatuaren babespean egin da.</p><p>Laburdura hauek erabili ditut han-hemenka: OEH = Orotariko Euskal Hiztegia <ref type="bibr">(Mitxelena &amp; Sarasola 1987</ref><ref type="bibr">-2005</ref>, Lcc = Landuccio <ref type="bibr">(Mitxelena 1958)</ref>, Bizk = bizkaiera, Er = erronkariera, Ipar = Ipar Euskal Herria, Zar = zaraitzuera, Zub = zuberera. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">LOHI</head><p>Jakina da Mitxelenaren aitzineuskarak nagusiki silaba biko erroak zituela. Berreraiketan, izari kontua baino gehiago da hori: zeinahi hitz bi silabako elementuetara erakarri ezkero, ez da zertan gorago jorik. Lakarraren erro monosilabikoarekin, aldiz, haiek ere azaldu beharra dago (cf. arestiko *sen-i).</p><p>Era berean, hizkuntzalari errenteriarraren ustez, Akitaniako idazkunetako izenek silaba biko osagaiak zituzten nagusiki. Horietako bat da lohi, zeina lohi izen arruntarekin identifikatu izan den. Hitz hori bereziki landare eta zuhaitz izenekin erabiltzen den -di atzizkiaren jatorrizko formarekin lotu zuen berak <ref type="bibr">(-doi &gt; -dui, -di)</ref>, zeina, zubererazko azentuazioa kontuan hartuz, *-do.i berreraiki baitzuen. Hasperena jatorrizkotzat zeukanez (orobat bihi, behe eta zohi hitzetan), esan daiteke, berariaz adierazi ez zuen arren, lohi &lt; *dohi berreraiketa proposatzen zuela.</p><p>Lakarraren sistemara itzuliaz, argi dago ezen (mailegatua ez bada) eratorri edo konposatu baten aurrean gaudela. Bi aukera baino ez dugu zatitzeko: *do-hi, non bi erro higatu (edo erro higatu bat eta aurrizki/atzizki bat) ditugun, edo *doh-i non arestiko -i bera eta *doh erro osoa (CVC egitura kanonikokoa; cf. Martinez-Areta 2003: 63 eta bertako 143. oin-oharra). Erro Monosilabikoaren Teorian **CVh-rik ez denez, badirudi *do-hi dela aukera bakarra; alabaina, bokal arteko hasperen hori n batetik etor daitekeela pentsatzen badugu, ez dagoke arazorik *don-i banatzeko. batzuetan, hitzaren aldaera dialektalen batean kodan berrezarririk (amaiera absolutuan nahiz kontsonante aurrean), dela inguruko bokalak edo b-ak sudurkarituz; beste batzuetan, hitz-elkarketako arauen ondorioz bigarren elementuaren aurrean gorderik edo berrezarririk <ref type="bibr">(Mitxelena 1977: 248-250)</ref>. Hala bada, lohi bezalako hitzek ezaugarri horietarik bat ere ez dutenez eta hasperenak konposatuetan herskari eta igurzkarien modura jokatzen duenez (hots, ondoko herskaria ahoskabetuz, eta n-rik ezarri gabe), Mitxelenak jatorrizko hasperenduntzat jo zituen.</p><p>Bestelako arrazoibideak aurreragorako utzirik, onartu behar da leundu beharreko koska bat dela hori, batez ere Egurtzegik (2013, 2014) zubererazko datuen argitan erakutsi duenetik hasperena bera izan zela n-a itxuraldatzean fonologikoki sudurkariturik gelditu zena.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Hipotesiak: erroa/hitza, morfema-muga eta kronologia</head><p>Ez naiz luzatuko hemen erro eta hitz kontzeptuen artean bereizi beharraz, ez eta termino horiek egiazki zer adierazten duten eztabaidatzen. Euskarari dagokionez, Joseba Lakarrari zor diogu hondar hamarkadetan (aitzin)euskararen morfologian eta hitz-sorkuntzako mekanismoen ezagutzan egindako aurrerapena, bereziki erro-eta morfema-egiturak aztertu eta, hausnarketa teorikotik harago, berreraiketarako etekina atera izana (besteak beste <ref type="bibr" target="#b13">Lakarra 1995</ref><ref type="bibr">Lakarra , 2008</ref><ref type="bibr">Lakarra , 2011</ref>.</p><p>Ariztimuño (2011)-n iradoki nuenez, kontuan hartu behar genuke berreraiketan aritzean historikoki gertatzen ez diren fenomeno sinkronikoak gerta zitezkeela antzina, zeinek arrastoren bat utzi ahal izan duten. Gure lan-ildoaren arabera, irregulartasun gisa (eta, beraz, azaldu eta berreraiki beharreko gisa) identifikatzen baditugu (cf. izenburuko seni eta lohi, esaterako), berreraiketa sakonago bat ahalbidetuko dugu.</p><p>Erro monosilabikoaren teoriaren barruan, beraz, lehenago antzik ere ematen ez zitzaien oztopo batzuk gainditu behar (izan) dira: zergatik zeukan senik bokal arteko kontsonante sudurkaria eta, aldiz, lohik galdua zuen ordukotz? Joseba Lakarraren ustez ezberdintasun dialektalak izan litezke lekukotasun horien atzean, edo artean aldaketa hastapenean zela-eta erabat hedaturik edo egonkorturik ez egotea (cf. &lt;sehi&gt; ustekoa Iruña-Veleian; <ref type="bibr">Gorrotxategi 2009: 548;</ref><ref type="bibr">Lakarra 2014: 193, 108. oin-oh.)</ref>. Alabaina, hitz eta jokaera orokorrak izanik, azalpen zehatzagoa behar dute.</p><p>Alde batetik, idazkunetako grafiak zer errealitate fonetiko-fonologiko islatzen zuen galdegin dezakegu. Kontsonante sudurkariaren kasura mugaturik, jakina da &lt;N&gt; bakunak eta &lt;NN&gt; bikoitzak ageri direla haietan; bikoitzak askoz ere maizago agertzen dira morfema mugetan, batik bat erroaren eta latindar deklinabide-markaren artean. Hala, pentsa liteke bereizketa (grafiko?) horren motibazio nagusia erroaren forma zehaztea zela; hots, berezko -n amaieren eta 3. deklinabideak erantsitako -n-en artean bereiztea. Horrek ez du esan nahi, noski, modu berean ahoskatzen zirenik: lehenak, erroaren kodan izanik, jatorrizko hizkuntzan ahoskera gogorragoa zuketen (alofono gisa) eta, aldiz, atzizkiaren parte zirenak, ahoskera arrunta edo ahulagoa (egun ere «Jon-ek» eta «Jone-k», ahoskera hanpatuaz, ezberdindu nahi bagenitu egingo genukeen bezalatsu).</p><p>Beste alde batetik, baina bide bertsutik, zertan ziratekeen ezberdin seni-ko kontsonante sudurkaria eta, ustez, lohi-n galdua zena? Bada, hitz biak atzizki beraz hor- Bukatzeko, adibide ezagun bat ekarriko dut, haren inguruan Lakarrak egindako proposamenak ere auzia ebazteko bidean ezar gaitzakeelakoan. Arestian aipatu ditut bihi eta mihi hitzak, zein bere aldetik; egia da, ordea, elkarrekin azaldu beharrekoak direla, dela Mitxelenaren sistemaren barruan h-aren jatorri ezberdina eta, beraz, jatorrizko erro-egitura bisilabikoa erakusteko (*bihi vs *bini), dela Lakarraren teoriaren barruan berreraiketa aitzinatzeko, morfologiaren bidez (*bin-i 1 vs *bin-i 2 ?). Azken aukera horri jarraituz, gauza bat argi dago hasieratik: edo lehena bihi bilakatu zenean bigarrena ez zen existitzen (alde kronologikoa); edo, bilatu beharko dugun beste arrazoiren bat dela medio, bokalarteko n biak ez ziren aldi berean itxuraldatu (alde morfofonologikoa), beharbada arestian aipatu lexikalizazio-mailaren arabera. 2</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Datu eta analisi berriak</head><p>Artikulu honetan proposatzen dudana, ohiko *seni/lohi eta mihi/bihi bikoteez harago (ez baitute berez argudio aski sendorik eransten), beste bi hitz-bikotetan oinarritzen da: zahi/zain eta behe/mehe.</p><p>Horiez gain, dena den, badira beste zenbait datu ere Mitxelenaren edo Lakarraren (nondik begiratzen den) ikuspuntuarekin bat ez datozenak; gutxienez, azaldu beharrekoak. Guztiak proposamenaren indargarri gerta daitezke, baldin eta haien etimologiak zuzenak badira.</p><p>Alde batetik, Mitxelenak berak (h)aze(a)ri &lt; *azenari, bahe &lt; *bane, bahi(tu) &lt; *bani(tu) berreraiki zituen (maileguak hirurak, haren ustez; <ref type="bibr">3 Mitxelena 1953: 475;</ref><ref type="bibr">1977: 97-98</ref> Beste alde batetik, alderdi filologikoari ere helduz, oroit bitez, bokal sudurkarien grafietarako, Garibairen enusquera /eũs ̺ keɾa/, 4 miña /mĩa/ 'mihia' (vs mina 'oinazea'), arrayna /araĩa/, yguny /iguĩ/ 'higuin' <ref type="bibr">(Irigoien 1990 passim)</ref>. Halaber, §3-n aipatu antzinako «fenomeno sinkronikoen» erakusgarri, Mikoletaren laua /laũ-a/ vs launti /laũ-ti/ &gt; [launti] <ref type="bibr">(Mitxelena 1977: 125)</ref>. Badira kontsonante-aurreko berrezarpen (lexikalizatu?) gehiago ere, garai berriagoetara arte iraun dutenak; hala nola Erronkariko xaĩ 'xahu' vs xaintu eta Zuberoako hügü̃ vs hügüntu. Ildo horretatik, interesgarria da Ander Egurtzegik Anuncibay toponimoa aipatzean markaturiko ezberdintasuna, lekukotasun beraren barruan ageri denez gero: <ref type="bibr">(…)</ref> there is no evidence of nasalization in any variant. What is more, the name Anuncibay (Mod. Bsq. ahuntz-hibai 'goat river', fossilized in Sp.) shows the intervocalic -nonly in the first member of the compound. While -h-is lost in Sp., -n-is expected to be regularly maintained <ref type="bibr">(Egurtzegi 2014: 264)</ref>.</p><p>Horiek horrela, ezinbesteko izango dugu berreraiketan aurrera egiteko bide ezberdinetan murgiltzea: datu berriak (edo aurreko analisietan kontuan hartu ez direnak) eranstea, datu zaharrei hobeto/bestela behatzea, eta azterbidea garatzea edo hipotesiak fintzea (cf. <ref type="bibr">Mitxelena 1963: passim)</ref>. Horrenbestez, *zan-i ezberdinak (garai ezberdinetan erro beretik eratorriak eta, beraz, une ezberdinetan lexikalizatuak) edo bat beraren bilakaera ezberdinak (testuinguru ezberdinetan erabiliaren erabiliaz semantikoki espezializatuak eta, zegozkien bilakaerak jasanik, fonologikoki aldenduak). Nolanahi ere, hitzok ikusita pentsa daiteke ezen hasperen sudurkariaren fonologizazioa ez zela lehen n &gt; h̃ kasuetan gertatu eta, hortaz, sor zitekeen sudurkaritasun hura nahiko goiz galdu zela.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Zahi/-zain-</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Behe/mehe</head><p>Irakurleak honezkero igarriko zuenez, hemen proposatuko dudana behe eta mehe hitzak ere etimologikoki lotzea da. Beharbada aurreko bikotea baino zailagoa dirudi lotzen, baina, gertutasun eta are gurutzatze semantikoek (formalez gain) justifikatzen dute bide hori saiatzea.</p><p>Beste bikoteetan ez bezala, bokal arteko hasperena ez zaigu inoiz hitz amaieran agertuko, azken bokala ez baita galtzen konposatuetan (cf. bihi/mihi &gt; bit-/min-), baizik eta -a bihurtzen, ohi bezala (cf. Mikoletaren beatu 'lurperatu', meatu 'mehetu'; nola Ipar mehaka, eta mehatu bera; OEH s.v.). 7 Hori dela eta, beste bi ezaugarriri behatu beharko diogu (edo ezaugarri beraren bi gauzatzeri, nola begiratzen den): kontsonante ezpainkaria eta bokalak, haien sudurkaritasunaren arabera.</p><p>Datuetara joaz, ikusiko dugu behe-k ez duela sudurkaritasun arrastorik; mehe-k, ordea, bokal sudurkariak ditu zubereraz; dena dela, horiek gabe ere, kontsonante ezpainkariak erakusten du bokalarteko hasperenaren jatorria. Ikusi dugu, ordea, *n zu-ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 19-31 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20191 ten hitz zenbaitek ez dutela bokal sudurkaririk euskara historikoan eta, beraz, halakorik ez izateak ez duela esan nahi, ezinbestean, kontsonante hori berraiki ezin daitekeenik.</p><p>Horiek horrela, erro-monosilabikoaren teoria dugu, beste behin, abiapuntu eta argudio bakar (behe, mehe &lt; *ben-e 1 , *ben-e 2 ?). Haatik, bila genezake beste testuinguru bat non kontsonante galdu edo itxuraldatu hori amaieran agertuko zen: erro soila. Izan ere, zer ote da beheko (nahiz meheko) azken bokala? Atzizki bat izan liteke (cf. jaube, hobe, are), edo deklinatzerakoan txertaturiko bokal fosilizatua (cf. atze, a urre); nolanahi ere, gerta zitekeen erro soila gaurdaino bizirik iraun izana; cf. sen (Joseba Lakarraren k. p.). Hain zuzen ere, men(e) eta men~ben hitz edo oinarriak ditut gogoan (cf. meneko, benetan, etab.) *ben erroaren ondorengo zuzentzat.</p><p>Baldin eta onartzen badugu *loni &gt; /lohi/ lehenago lexikalizatu zela *seni /sen-i/ &gt; [sehĩ] baino, orduan onar genezake *bene /behe/ bilakatu ondoren *ben erroak berriro (atzizki berberaz edo forma berdintsuko batez) *bene &gt;&gt; mehe eman zezakeela; edota, aurreko adibidean bezala, behe jada erro soil gisa lexikalizatua zelarik, *ben(-e) / ben-e/ &gt; [behẽ] eratorpenak garden zirauela eta, beraz, [h]-a /n/-aren aldaera alofonikoa izan zela luzaroagoan.</p><p>Honenbestez eta laburbilduz, honako bilakaerak proposatzen ditut, hitzok lotzeko:</p><p>III. Behe ('behealde; behere, apal'). Kategoria zehaztu gabekoa, euskal ondare zaharreko beste hainbat hitz bezala <ref type="bibr">(argi, bizkor, hil, bete, etab.)</ref> Ben hitzeko kontsonante ezpainkariari dagokionez, berriz, bi aukera ditugu: izan liteke berrikuntza bat, zeinaren bidez *ben &gt; men orokorraren ondoren hizkera batzuetan &gt; ben disimilatu zatekeen, edo, bestela, behe-tik erator genezake (behe(e)n bezalako forma batetik, adibidez) eta, beraz, ben &gt; men aldaketa berankor bat proposatu.</p><p>Lehen aukeraren alde egin lezakete, batetik, xix. mendearen amaiera arteko lekukotasun ia guztiak men-enak izateak (Larramendik jada ben badakar ere) <ref type="bibr">8</ref>  Hortaz, baliteke oker egotea, noski. Horrek, ordea, artikulu honetaz kanpoko ondorioak izango lituzke, ezen arestian aipaturiko arazoak hor baitirauke; lehen baino larriago, beharbada.</p><p>Nolanahi ere, hona proposaturiko etimologien laburpen-eskema:</p><p>(1) *zan → *zan-i → *zani &gt; *zahi → zahi → *-za.i &gt; -zagi (&gt; -zari) → *zan-i &gt; *(-)zahĩ &gt; -zaĩ &gt; -zai(n) (2) *ben → *ben-e &gt; behe &gt; *men~ben → *men-e &gt; mehe &gt; men(e) (&gt; mende, menpe) (edo behe(e)n?) &gt; men~ben (&gt; benetan)</p><p>Horiek horrela, nabarmenduko nuke ezen etimologia hauek onartuko baditugu, zenbait xehetasun dakartela inplizituki (lan honetan agerian jarri nahi izan ditudanak, hain zuzen). Batetik, badirudi *n jatorriko hasperenaren garapen ezberdinak izan direla euskaraz, garai ezberdinei edo, zehatzago, aldaketak erasandako hitzen unean uneko garapenari lotuak: atzizki fosilduak (emankorrak ez diren unetik), bereizketa/espezializazio semantikoaren ondoriozko lausotze morfologikoak (partizipioa aditzetik bereizi eta adjektibo burujabe bihurtzean, adibidez). Azken batean, delako n-a bokalartean (erro barnean) sentitzen zen ala ez, horren arabera fonologizatuko zen hasperena ala luzaroago iraungo n-ren alofono gisa. Beranduen fonologizaturikoek, bestalde, sudurkaritasuna dute ezaugarri (lehenengoek, ordea, hasperena baino ez bide zuten gorde).</p><p>Horrenbestez, zenbat luzatu zatekeen rhinoglottophilia aro hura? Konposatuetako -n-ak (mingain, senide) jatorrizko sudurkaria bokalartean aldatu aurretikoak dira? Ala hasperen sudurkarituaren kodako emaitza (vs hasperen ahokariaren -t edo dena delakoa)? Horra euskararen histori(aurre)aren bide-bazterrean argitu beharreko zenbait zoko.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>.20191 nak baitira (guztiz litekeen zerbait dela ukatu gabe, jakina); izan ere, etimologia hau idazkunak kontuan hartu gabe eginikoa da(G. Bähr, apud Mitxelena 1954: 220).Labur esanda, mendebaldeko sein eta segi, ekialdeko sehi, eta konposatuetako senformek ahalbidetzen dute guztien sorburutzat *seni proposatzea, bokalarteko n-aren eta konposatuetako lehen elementuaren akabuko bokal itxien galera-bilakaera ezagunen bitartez. Jakina, eskema beraren araberako baliokidetzak erakusten dituen kasu bakarra ez izateak ere laguntzen du (cf. mend. m(i)i(n) : ek. mihi : konp. min-).</figDesc><table><row><cell>Are gehiago dira (jatorrian) hiru silabatik gorakoak izanik ekialdean ere hasperenik era-kusten ez dutenak, baina bai bokal sudurkariak mendebaldeko euskara zaharrean edo/eta Zuberoa-Erronkarietako mintzairetan; esaterako, ard(a)o : ardan-, arrai(n) : arran-, burdi(n)a : burdin-, gazta(e) : gaztan-. Gorago joanda, eta hurrengo atalean azalduko dudan arrazoiagatik Mitxelenak *seni zatitzeko motiborik ikusi ez bazuen ere, zilegi dirudi (eta are ezinbesteko La-karraren aitzineuskaran) beste hainbat hitzetan agertzen zaigun -i atzizkia bereizirik *sen-i partizipio-antzeko eratorri bat berreraikitzea (cf. gaztelanian bertan crío/a 'sein' eta criado/a 'sehi' hitzen arteko harreman morfologiko eta semantikoa). 1 2</cell></row></table><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 19-31 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>.20191 niturik daudela uste badugu, arrazoizko argudio bakarra hau litzateke, nire ustez: arestikoak bezala, erroaren parte izatean ala ez izatean datza auzia, non eta *sen-i hitza eratorri gardena baitzatekeen artean (bizirik dirauen *sen errotik), eta lohi, ordea, behialako *lon (edo *don) errotikakoa izanik, guztiz lexikalizaturik zegokeen (cf. estari vs estal(i/du), emai [&lt; *emani] vs ipini).</figDesc><table /><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 19-31 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>), eta Lakarrak (h)ibai &lt; *hur-ban-i eta (h)idoi &lt; *hur-don-i (2010: 205); alabaina, horietarik batek ere ez du bokal sudurkaririk, ezta aldaera dialektaletan edo hitz konposatuetan kontsonantea kodan berrezarririk. Halaber, sehi-k berak ez du bokal sudurkaririk ekialdean, salbu eta Amikuzen; areago, eskualde hartan bihi, behe, zahi eta beste hainbat hitzetan, Mitxelenaren ustez jatorrizko h-dunetan, sudurkaritasuna ageri da, Camino (2016)-ren arabera. Alderantziz, Erronkarin -zaĩ sudurkaridunaren ondoan badira burzegi 'buruzagi', abiazai 'habiondoko', argizagi 'ilargi' hitz ustez *-zani-dunak, sudurkaritasunaren arrastorik gabeak(OEH s.v.; cf. lehenaz Mitxelena 1977: 337, eta bertan 16. oin-oh.). Hortaz, datuon argitan, hasperen (edo bokal) sudurkariak izatea ala ez izatea ez bide da uste izan den bezain esanguratsua, bestelako froga edo argudiorik gabe, *-n-berreraikitzeko edo, areago, hala ez egiteko.</figDesc><table /><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 19-31 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20191</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>Lehenago azaldutako bikoteetan ez bezala, kideen arteko lotura etimologikoa erakutsi nahi nuke oraingo honetan, horrek besteetarako proposaturiko aldaketak bermatuko dituelakoan. Izan ere, haiekin komun dituzte konposatuetako jokabide ezberdinak eta kideetako batean sudurkaritasuna erabat galdu izana; ordea haietan ez bezala, hauen (eta aipatuko diren beste hitz batzuen) artean sare etimologikoa osa daiteke, eta hala, sistemaren «eskakizunak» ez ezik bestelako arrazoi semantiko eta fonologikoak dituzkegu haien arteko lotura proposatzeko eta, ondorioz, zahi-n jatorrizko h-rik ez onartzeko.Lehenik eta behin, zahi &lt; *zan-i hipotesiari jarraituz, gaztelaniazko salv-ado datorkigu gogora, bereziki zain(-du) eta artzain bezalako hitzetako atzizkia kontuan harturik, Mitxelenak *zan-i berreraiki zuena(1977: 118). Bien motibazio semantikoen antzekotasuna begibistakoa da. Hala ere, kontua bihurritsuagoa izan bide daiteke (bai erroaren, bai eratorrien jatorrizko esanahiei dagokienez), batik bat balizko hitz-familia osoa kontuan harturik. Ikus ditzagun, beraz, kideak banan-banan:I. Zahi 'salvado; caspa' (&lt; *zani). Hasperena galdu arren, hiatoak nahikoa iraun du Hegoaldean, bereziki mendebaldean, -n-rik ez berrezartzeko; bestela, sudurkaritasuna aspaldi galdu zuen edo fonologizatu gabe geratu zen (geroagokoetan ez bezala; cf. Egurtzegi 2014, 2015). Morfologikoki, izen gisa lexikalizaturiko partizipio zahar bat dirudi, «pasiboki» interpretatua ('gordea, zaindua'?); cf. *arran-i, eta gazt. pesc-ado, salv-ado. Ala-, beharbada izan-en edo/eta etzan-en erroarekin lotua dago (cf. Ariztimuño prestatzen) eta, beraz, jatorrian 'etzana, egona' → '(sobera) geratutakoa' esanahia zukeen (cf. lat. residuus ← resideō, gazt. resto(s) ← restar edo ing. remains ← remain); hots, iragangaitza zatekeen, hasieran bederen, gerora aktiboki interpretatu zatekeen arren (ikus III. puntuan -zagi-z esaten dena). egon lotura gogorarazten duela ezin uka, baldin I. puntuko etimologia onartzen badugu; cf. zaindu 'jagon' : zain (egon), eta gaztelaniazko (a)guardar. Ezberdintasuna, bistan da: hemen zain ez litzateke 'jagon', ezpada 'jagole' (ik. azalpena). 6 Horkoei, beharbada, Bizk abizari eta Zar-Er abiazai gehitu behar zaizkie, zeinak *abia-za(g)i &lt; *habia-zahi batetik letozkeen (OEH s.v.); izan ere, bestela balitz (hots, artzain eta abarren *-zani beretik), Bizkaian -zain eta Erronkarin -zaĩ genituzke. Orobat berantzagi, batik bat ogia nola egin izan den kontuan harturik (eguneko orearen zati bat hurrengoan txertatzeko gordeaz), nahiz eta hitzaren osaera zehatza guztiz argitu gabe dagoen. .20191 siera batean argia bera bazen erreferentea (argi «mota» bat; cf. hurrengo buruzagi); hala, *zahi-ren jatorrizko esanahitik gertuago legoke. -Buruzagi. Ez da argi zer eransten dioten buru-k eta -zagi-k elkarri. Pentsa liteke bikoizketa indargarri moduko bat dela (cf. abagune, irribarre, larruazal~larmintz, salmenta), edo, bestela, nagusi «mota» jakin bat adierazten zuela, -zagi adjektibo moduan erabilita (cf. arestiko argizagi, argi motatzat hartzen badugu). Alabaina, ikusirik hitz hau 'abeltzain' eta 'jabe' adieren inguruan ere bazebilela euskara galdutako Nafarroa hegoalde eta ekialdeko hizkeretan (OEH s.v.), baliteke konposatu honetako buru hori</figDesc><table><row><cell>II. (-)zain 'zaintzaile'. Batik bat konposatu zahar batzuetako bigarren osagai gisa ageri da, atzizki bihurturik (zai(n) &lt; -zaĩ &lt; *(-)zahĩ &lt; *-zani). Mitxele-nak, hain zuzen, haietarik eratortzen du forma bereko izen autonomoa (on-doren zaindu aditza eman zukeena); bestela, **zahi esperoko genuke Zube-roan (Mitxelena 1977: 337). Orain, nola azaldu partizipio batek aditz horren berorren subjektu egilea adieraztea (eta ez objektu jasailea)? Aukera bat me-tonimia bidez azaltzea da: X-zain = X-talde zaindua (vs X-talde izua, adibi-dez), eta handik zaindua → zaintzailea. Haatik, errazago uler daiteke zaindu adierako aditz baten partizipioarekiko egitura bat erresultatibo esperientzial gisa interpretatzea, hala nola gauza asko ikusia naiz perpausekoa (halako-xeak, zehazki, beranduago ugaritu badira ere euskararen historian; Krajewska 2013), edo adjektibo-antipasibo modura (cf. Armstrong 2017 gaztelaniaz-koez), nola baita emakume oso ikasia zen perpausekoa. Areago, gogoan izanik hemen proposaturiko *zan-i etimologia '(bertan, ondoan) egona' (uler bedi begiratzen, zaintzan) batetik ere erator liteke 'zaintzaile' adiera. 5 III. -zagi (&gt; -zari) 'zaindua (?)'. Hasperena dialekto guztietan galdu da, hiruga-rren silabatik atzera geratzen baita (konposatuetan baizik ez denez agertzen), baina, aurrekoan ez bezala, ez dago sudurkariaren arrastorik. Hala, *zahi-tik eratorri zela pentsatu behar dugu (zahi historikoaren bestelako esanahi bate-tik, naski). Horrez gain, hasiera batean ez da ikusten erabateko batasun se-mantikorik elementu honekiko hitzetan; beraz, banaka ikustea komeni da: 6 -Eguzari 'begiratu, gorde (zaindu) beharreko jaieguna', edo beharbada ho-beto 'egun begiratua, gordea (zaindua)'. Hortaz, irakurketa «pasiboa» bide du, ez iragangaitza. -Argizagi (&gt; argizari). Hainbat zentzutan interpreta daiteke, jatorrizko adiera zein den. Alde batetik, pentsa dezakegu 'argi-zaintzailea' (aktiboa) dela, argia «gordetzen» edo iraunarazten duelako; orduan, garai ezberdi-netan antzeko bilakaera morfo-semantikoa gertatu zela pentsatu behar ge-nuke (*zan → *zan-i eta 'zaindu(a)' → 'zaintzaile'), emaitza fonologiko ezberdinak ikusirik (-zain eta -zagi). Bestetik, 'argi gordea, iraunarazia' (pasiboa) edo 'egona, iraunikakoa' (iragangaitz) gisa uler liteke, baldin ha-5 Joseba Lakarrak orain bestela ikusten badu ere, Ariztimuño (2012: 122)-n aldezturiko jagon 'zaindu' : abelburu esan ohi dioguna izatea egiazki (beraz, buruzagi = abel(buru) zain). Gerora, abereekiko lotura lausotu eta edozein talderen nagusia edo arduraduna adieraztera iritsi zatekeen: lehenik abeltzainen beren burua (Mitxelenak aipatzen duen adiera, Nafarroan 1167ko agiri batean leku-kotua omen dena; 1977: 337, 16. oin-oh.), ondoren beste «gremio» edo talde txikien buru, herritarren buru, etab. (Nafarroako agiri zaharretan 'morroizain, nagusi' edo 'herrizain' moduko adierak ere baditu; OEH s.v.</cell></row></table><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 19-31 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20191bainaISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 19-31 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asjueta Mitxelena 1964b: 50). Hortaz, beste -zain-en eta -zagi-en artean le- goke, semantika-forma osotasunari begiratuz gero.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>Mitxelenak esan bezala (1974: 325) men zahar orokorretik eratorria dirudite, baita ere, mende eta menpe hitzek (cf. meneko/mendeko/menpeko edo meneratu/ menderatu/menperatu). Ikertzaile errenteriarrak berak mende/mente 'gizaldi' eta mende 'aginte' parekatu zituen arren (bestelako azalpenik gabe; Mitxelena 1949: 641), hasiera batean bi hitz ezberdin ditugula pentsa genezake, erro beretik atereak diren ala ez sartu gabe; haatik, kontuan hartzen badugu badela men 'une; estualdi' (eta menmenean 'zorian') hitza Iparraldeko hizkeretan, ez da gaitz irudiktzen men 'muturreko (behe-beheko) egoera', 'azken une' → 'une (latz)' bilakaera eta, hortik, men-te eratorpena (nola elurte, gerrate, etab.). Artikulu honetan bi xede izan ditut gidari. Alde batetik, Mitxelenaz geroz egin diren berreraiketetarako oztopo bat gainditzen saiatu naiz; esan nahi baita, haren sistema bisilabikoaren alde egiten zuen ezaugarri bati (-h-: -t# vs -h-: -n#) azalpen 8 Areago, Larramendi arte ez dago ben~men soilaren lekukotasunik, salbu eta Ibarguen-Cachopinen Mena deiturari buruzko azalpena (m-z, beraz); andoaindarraren lanen ondokoak dira hitzaren gainerako lekukotasunak, eta ben aldaera, zehazki, Azkuek men 'otzan' / ben 'serio' bereizten dituen unetik aurrera erabiltzen da gehiago, beti ere adiera zehatz horretan (OEH s.v.). Bestalde, Lazarragaren menetan 'benetan' da aditzondo horren lehen lekukotasuna (m-z hori ere), eta ez omen da berriz aurkitzen Larramendi ondoko garaira arte (OEH s.v.). /www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20191 diakronikoa ematen (bi bilakaera edo garai bereiziz, {n &gt; h} 1 eta *{n &gt; h} 2 ), hala erro monosilabikoaren teoriarekin bateragarri eginik. Bestetik, xehetasun dialektologiko, filologiko, fonologiko nahiz morfologiko guztietan arreta ipintzearen garrantzia erakutsi nahi izan dut; teoria eta hipotesi handiak noizean behin egiaztatu behar dira (bilakaerak albait xehekien aztertuz, salbuespenak azalduz edota hutsuneak osatuz), ezen berreraiketak bermatzen eta, bide batez, berreraiketan aitzinatzen laguntzen du. Horretarako, besteak beste, Joseba Lakarrak hainbatetan aipatu eta erabili dituen hitz-familiaren eta motibazio semantikoaren kontzeptuez baliatu naiz, jakinik horiek ere ez direla arriskurik gabeak, areago hizkuntza isolatu batean, testuen oparotasuna eta sakontasun diakronikoa ere nahi genukeen bezainbatekoa ez delarik. Izan ere, hainbat dira arriskuak honelako proposamenak egiterakoan: motibazio «ustekoak», familia «gehiegi» handitzea esanahi eta lotura lausoen bidez, edo xehetasunen nahiz salbuespenen artean mailakatze egokirik ez egitea; hots, irina eta zahia ongi bereizten ez asmatzea.</figDesc><table><row><cell cols="2">eta, bestetik, antzeko disimilazioen adibide ugariek (kronologia eta geografia oso ezber-dinetakoak, alegia): arbendol, Lcc bea 'mehea', be(a)tu 'mehetu' (cf. mehar eratorria-ren aldaera hedatuagook: bedar, berar) eta beaza 'mehatxu' (&lt; *menaza), nabarben 'nabarmen', Zub bedezĩ 'mediku' eta bekanika 'mekanika', benda 'menda', benpeko 'menpeko', berendu 'askari', bolu 'errota' (&lt; *molinu); baita Mitxelenaren etimologia hauetan ere: biga &lt; *bibãa &lt; *bimana (1977: 389), biao &lt; *meidiano &lt;...&lt; *meridia-nu(m) (1964a: 56-57). Aldiz, b-ren zahartasunaren alde egin lezake (edo, gutxienez, koherentea litza-teke), ben hitza eta haren eratorriak (benaz, benetan) Hegoaldekoak izateak, non behe(e)n &gt; ben (eta ondoren ben(-) &gt; men(-), aldaketa aski zahar baina irregular eta orokortu gabeaz) errazago azal daitekeen, ezen ez Iparraldeko tradiziokoa ere izan ba-litz. Bestalde, Azkenik, horiei guztiei OEHk dakartzan me(e)n/been 'merkeen' (s.v. mehe/ behe) gehituko nizkieke (lehena dela mehe(e)n-etik, dela behe(e)n-etik atzizkiaren sudurkaritasuna asimilaturik), bi lexemen arteko gertutasun semantiko eta forma-laren lekuko. 9</cell></row><row><cell>5. Ondorioak</cell><cell></cell></row><row><cell>: 0582-6152 -e-ISSN: 2444-2992 http:/</cell><cell>ASJU 52-1/2 (2018), 19-31</cell></row></table><note>9 Erro berekoak ote mengel 'ahul' eta mendel 'oihal-ertz' (cf. praka-barren) ere?ISSN</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">Honekin lotua doake Ariztimuño (2011)-n egindako «Grassmann legearen» bi aldien bereizketa(Igartua 2002: 387rekin bat; cf. Lakarra 2014 cf. Lakarra  : 190-193, 2015. Funtsean, hasperen bakarraren murriztapena erroari edo oinarriari ezarri zitzaiokeen: */hVn-V/ &gt; [hVhṼ] zen bitartean, bi hasperenak elkarrekin ager zitezkeen, baina */hVhV/ lexikalizatu ezkero, &gt; VhV emaitza izango genukeen, bai eta ondoren, adibidez, *hVC-hVCV bezalako konposatuak lexikalizatzean &gt; VChVCV (*hil-herri &gt; ilherri).3 Nik, aldiz, *ban-e eta *ban-i etimologiak proposatu ditut, ebaki eta besteren erro beretik (Ariztimuño 2011: 39).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">Hitz honek ere, dakidala, ez du sudurkaritasunaren arrastorik beste inon (ekialdeko forma batzuetako hasperenaz landa).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">Beterri hitza da (toponimoa, berez) behe → bet-ustez erakusten duen bakarra. Goierri hitzarekin kontrajarri ohi bada ere, ez dago argi haren etimologia eta bilakaera, beraz, azaldu beharreko salbuespen gisa hartu behar da. Joseba Lakarrak diostanez, aski izan liteke konposatuetan garatu eta orokortu bide zen -t-«artizkiaz» azaltzea (adibidez, ortuts &lt; *or-t-huts &lt; *hoin-huts).</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20191</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20191" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Antzinateko euskal idazkunak eta aitzineuskararen berreraiketa: corpusa, analisia eta ondorioak. UPV/EHUko tesina argitaragabea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Borja</forename><surname>Ariztimuño</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">«Etimologiak ate-joka din-don... (jo eta josi</title>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>eman eta iramo(n)</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Prestatzen</forename><surname>Euskarazko</surname></persName>
+		</author>
+		<ptr target="UPV/EHUkoeskuiz-kribuargitaragabea" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Grant</forename><surname>Armstrong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Spanish participios activos are adjectival antipassives</title>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1" to="37" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Amiküze eskualdeko h eskuara. Bilbo &amp; Iruñea: Euskaltzaindia &amp; Nafarroako Gobernua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñaki</forename><surname>Camino</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">«Diferentes tipos de aspiración en vasco (con análisis espectrales del dialecto suletino actual)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ander</forename><surname>Egurtzegi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Iberia e Sardegna. Legami linguistici, archeologici e genetici dal Mesolitico all&apos;Età del Bronzo. Firenze: Le Monnier</title>
+		<editor>E. Blasco, P. Francalacci, A. Nocentini &amp; G. Tanda</editor>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="151" to="169" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Towards a phonetically grounded phonology of Basque. UPV/EHUko doktoretza-tesia</title>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+				<idno type="DOI">10.3989/loquens.2015.017</idno>
+		<ptr target="http://dx.doi.org/10.3989/loquens.2015.017" />
+	</analytic>
+	<monogr>
+		<title level="m">«Different distributions of contrastive vowel nasalization in Basque</title>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">17</biblScope>
+		</imprint>
+	</monogr>
+	<note>kontsulta 2018/01/12</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Estudio sobre la onomástica indígena de Aquitana</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joakin</forename><surname>Gorrotxategi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Vasco antiguo: algunas cuestiones de geografía e historia lingüísticas</title>
+		<imprint>
+			<date type="published" when="1984" />
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="539" to="555" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Euskararen hasperena ikuspegi tipologiko eta diakronikotik</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iván</forename><surname>Igartua</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bilbo: UPV/EHU</title>
+		<editor>X. Artiagoitia, P. Goenaga &amp; J. A. Lakarra (arg.), Erramu Boneta: Festschrift for Rudolf P. G. de Rijk</editor>
+		<meeting><address><addrLine>ASJUren Gehigarriak</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="367" to="389" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alfonso</forename><surname>Irigoyen</surname></persName>
+		</author>
+		<title level="m">Etimología del nombre vasco del vascuence y las vocales nasales vascas descritas por Garibay</title>
+		<imprint>
+			<date type="published" when="1990" />
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="139" to="148" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dorota</forename><surname>Krajewska</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">In</forename><forename type="middle">R</forename><surname>Euskarazko Egitura Erresultatiboen Diakronia»</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Gomez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Gorrochategui</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp; C</forename><surname>Lakarra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mounole</surname></persName>
+		</author>
+		<title level="m">Koldo Mitxelena Katedraren III. Biltzarra -III Congreso de la Cátedra Luis Michelena -3rd Conference of the Luis Michelena Chair. Gasteiz: UPV/EHU</title>
+		<imprint>
+			<biblScope unit="page" from="263" to="274" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Reconstructing the Pre-proto-Basque root</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Towards a History of the Basque Language (CILT 131). Amsterdam &amp; Philadelphia: John Benjamins</title>
+		<editor>J. I. Hualde, J. A. Lakarra &amp; R. L. Trask</editor>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="189" to="206" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Aitzineuskararen gramatikarantz (malkar eta osinetan zehar)</title>
+	</analytic>
+	<monogr>
+		<title level="m">Gramatika Jaietan. Patxi Goenagaren omenez</title>
+		<editor>X. Artiagoitia &amp; J. A. Lakarra</editor>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="451" to="490" />
+		</imprint>
+	</monogr>
+	<note>Bilbo: UPV/EHU</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">diptongos y otros detalles de alguna importancia: notas sobre numerales (proto)vascos y comparación vasco-ibérica (con un apéndice sobre hiri y otro sobre bat-bi)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-, 2010</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Haches</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="191" to="238" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+				<title level="m">Pirinioetako hizkuntzak: lehena eta o raina. As lenguas d&apos;os Pirineus: passau y presén. Las lengas deus Pireneus: passat e present. Les llengües dels Pirineus: passat i present (= IKER 26). Bilbo: Euskaltzaindia</title>
+		<editor>A. Sagarna, J. A. Lakarra &amp; P. Salaberri</editor>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="617" to="694" />
+		</imprint>
+	</monogr>
+	<note>Aintzineuskararen berreraiketaz: egindakoaz eta eginkizunez</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20191</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20191" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Gogoetak euskal dialektologia diakronikoaz: Euskara Batu Zaharra berreraiki beharraz eta haren banaketaren ikerketaz», in I. Epelde (arg.), Euskal dialektologia: lehena eta oraina</title>
+	</analytic>
+	<monogr>
+		<title level="m">Bilbo: UPV/EHU</title>
+		<meeting><address><addrLine>ASJUren Gehigarriak</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="155" to="241" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+				<title level="m">Eridenen du zerzaz kontenta: Sailkideen omenaldia Henrike Knörr irakasleari</title>
+		<editor>M. J. Ezeizabarrena &amp; R. Gómez</editor>
+		<imprint>
+			<date type="published" when="1947" />
+			<biblScope unit="page" from="349" to="378" />
+		</imprint>
+	</monogr>
+	<note>Gasteiz: UPV/EHU</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">morfemen forma kanonikoak eta berreraiketa morfologikoaren bide berriak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename><surname>Gramatikalizazioa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Hire bordatxoan. Txipi Ormaetxea omenduz. Gasteiz: UPV/EHU</title>
+		<editor>G. Aurrekoetxea, J. M. Makazaga &amp; P. Salaberri</editor>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="175" to="192" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-&amp;amp; Iñigo Ruiz</forename><surname>Arzalluz</surname></persName>
+		</author>
+		<title level="m">Luis Michelena: Obras Completas (ASJUren Gehigarriak 54-68). Donostia &amp; Gasteiz: &quot;Julio Urkixo&quot; Euskal Filologia Mintegia, Gipuzkoako Foru Aldundia &amp; UPV/EHU</title>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Hitz-konposakera euskaraz eta aitzin-euskaraz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martínez</forename><surname>Areta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mikel</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="1" to="84" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Notas de gramática histórica vasca</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<editor>J. A. Lakarra &amp; I. Ruiz Arzalluz</editor>
+		<imprint>
+			<date type="published" when="1949" />
+			<biblScope unit="page" from="641" to="644" />
+		</imprint>
+	</monogr>
+	<note>arg.), 2011 (8. liburukia</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename><forename type="middle">J</forename><surname>Hubschmid</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sardische</forename><surname>Studien</surname></persName>
+		</author>
+		<editor>J. A. Lakarra &amp; I. Ruiz Arzalluz</editor>
+		<imprint>
+			<date type="published" when="1953" />
+			<biblScope unit="page" from="471" to="476" />
+			<pubPlace>Berna</pubPlace>
+		</imprint>
+	</monogr>
+	<note>arg.), 2011 (8. liburukia</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">De onomástica aquitana</title>
+		<editor>J. A. Lakarra &amp; I. Ruiz Arzalluz</editor>
+		<imprint>
+			<date type="published" when="1954" />
+			<biblScope unit="page" from="197" to="244" />
+		</imprint>
+	</monogr>
+	<note>arg.), 2011 (5. liburukia</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Lenguas y protolenguas</title>
+		<editor>J. A. Lakarra &amp; I. Ruiz Arzalluz</editor>
+		<imprint>
+			<date type="published" when="1963" />
+			<biblScope unit="page" from="1" to="98" />
+		</imprint>
+	</monogr>
+	<note>arg.), 2011 (1. liburukia</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Sobre el pasado de la lengua vasca</title>
+		<editor>J. A. Lakarra &amp; I. Ruiz Arzalluz</editor>
+		<imprint>
+			<date type="published" when="1964" />
+			<biblScope unit="page" from="1" to="116" />
+		</imprint>
+	</monogr>
+	<note>arg.), 2011 (5. liburukia</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Textos arcaicos vascos</title>
+		<editor>J. A. Lakarra &amp; I. Ruiz Arzalluz</editor>
+		<imprint>
+			<date type="published" when="1964" />
+			<biblScope unit="page" from="1" to="198" />
+		</imprint>
+	</monogr>
+	<note>arg.), 2011 (12. liburukia</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">El elemento latino-románico en la lengua vasca</title>
+		<editor>J. A. Lakarra &amp; I. Ruiz Arzalluz</editor>
+		<imprint>
+			<date type="published" when="1974" />
+			<biblScope unit="page" from="305" to="336" />
+		</imprint>
+	</monogr>
+	<note>arg.), 2011 (5. liburukia</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Fonética Histórica Vasca</title>
+		<editor>J. A. Lakarra &amp; I. Ruiz Arzalluz</editor>
+		<imprint>
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+	<note>arg.), 2011 (6. liburukia</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Bilbo: Euskaltzaindia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>&amp;amp; Ibon Sarasola</surname></persName>
+		</author>
+		<idno>azken kontsulta: 2018- 07-28</idno>
+		<ptr target="&lt;http://www.euskaltzaindia.eus/oeh&gt;" />
+	</analytic>
+	<monogr>
+		<title level="j">Orotariko Euskal Hiztegia</title>
+		<imprint>
+			<biblScope unit="issue">5</biblScope>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">The History of Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Trask</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Larry</surname></persName>
+		</author>
+		<idno>kontsulta: 2018/01/12</idno>
+		<ptr target="Sarean:www.sussex.ac.uk/english/documents/lxwp23-08-edb.pdf" />
+		<editor>Routledge. -</editor>
+		<imprint>
+			<date type="published" when="1997" />
+			<pubPlace>London &amp; New York</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Etymological Dictionary of Basque. University of Sussex</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

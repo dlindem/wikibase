@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">HAUTA-GALDEREZ</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patxi</forename><surname>Goenaga</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universidad del País Vasco/Euskal Herriko Unibertsitatea)</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">HAUTA-GALDEREZ</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>1</p><p>Grammars usually distinguish three kinds of interrogative sentences: a) WH questions; b) alternative questions and 3) polar or 'yes/no' questions. The aim of this paper is to contribute to the analysis of the last two types in Basque.</p><p>Basque has two disjunctive conjunctions, EDO and ALA. EDO is the unmarked option, for many speakers exclusively use only this conjunction. Other speakers reserve the use of ALA for alternative questions.</p><p>Sometimes, alternative questions clearly present the appearance of a conjunction of two (or more) clauses. But a different structure is more common: instead of two coordinated clauses, only a single clause that includes a disjunctive coordinated phrase as a constituent. This phrase usually occupies the focus position in the sentence. Despite their apparently different structure, these 'simple', interrogative structures can be derived from an ellipted form of the two sentence disjunction. There are a lot of arguments for this analysis: certain verb agreement phenomena, as well as the special intonation of these 'simple' constructions, or certain facts concerning subordination, for example.</p><p>A similar source is proposed for yes/no questions. In Basque, there are two different ways to construct such yes/no interrogatives. In one case, a particle (AL or -A) is present in the sentence. In other cases, we simply apply the typical rising intonation to the declarative sentence. In the first case, it is possible to admit an empty yes/no operator. But for the second, we propose the same structure as that proposed for alternative interrogatives. The main arguments for this analysis refer both to syntax (constraints on embedding) and intonation.</p><p>In this way, a unified analysis is obtained for all alternative questions. When the yes/no question is built on the AL particle, probably there would be no need for any sentence conjunction. In this case we would simply be dealing with a special use of AL, a modal element originally endowed with an optative value.</p><p>Lan honetan galde-perpausez jardungo dugu. Ohikoa da galde perpausetan hiru mota bereiztea, adieraren arabera: a) zati-galderak, edo NZ galdera deituraz ere ezagutzen direnak; b) galdera alternatiboak, guk hauta-galdera deituko ditugunak eta, c) bai-ala-ez galderak. Hemen azken biez arituko gara. Ez da gure asmoa galdera mota hauen behin-betiko azterketa egitea, zenbait argitasun eskaintzea baizik. Zati-* Lan hau paratzeko, honako ikerketa proiektu laguntzak baliatu dira: UPV/EHUren EHU06/20, Ministerio de Ciencia e Innovación-en FFI2008-00240/FILO eta Agence Nationale de la Rechercheren ANR-07-CORP-033. [ASJU, XLIII, 2009, 381-404]   </p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>galderen analisia baino zerbait konplikatuaguoa delakoan nago. Hauta-galderak batzuetan perpaus osoen juntadura gisa ematen ditugu. Gehienetan, hala ere, perpausa baino osagai txikiagoen juntadura moduan agertzen zaizkigu. Hauen azterketara hurbildu nahi dugu hemen. Bai-ala-ez erako galderak ere bide beretik azter daitezkeela aldarrikatuko dugu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">ALA juntagailua hauta-galderetan</head><p>Hauta-galderek juntadura taxua erakusten dute gehienetan. Juntadura horretako juntagailua euskaldun askorentzat ala da. Beste askorentzat, berriz, edo ere izan daiteke. Alegia, badira euskaldunak ala eta edo bereizten dituztenak bakoitzari bere betekizuna emanaz (ik. <ref type="bibr">Villasante 1976: 24-27)</ref>. Beste askorentzat, berriz, edo-k bi lanak egin ditzake. Ala eta edo juntagailu hautakariak dira:</p><p>(1) a. Menpeko perpausok zehar-galderak dira. Bestalde, hauen ezaugarria da menpeko perpause(ta)ko adizkiak menderagailuz hornituak agertu beharra: -(e)n edo -(e)netz, edo ba-, bizkaieraz. Dena dela, [… -(e)n ala … -(e)n] nahiz [… ba-+ adizkia ala … ba-+ adizkia] segidak ohikoak dira baina [… (-)enetz ala … -(e)netz], zilegi izanik ere, ez da erraz holako adibideak aurkitzea. Gehienetan adizki bakarreko perpausak aurkitzen ditugu.</p><p>Bai-ala-ez erako galdera bakunetan euskalki batzuetan, gipuzkeraz bereziki, al galde partikula ageri da. Hala ere, galde-partikula hau ez da ala juntagailuarekin bateragarria: Holakoetan ez dago beti argi ala-ren bi aldeetako osagaiak juntagaiak diren eta, horrenbestez, egiazki juntadurarik badugun. Batzuetan, badirudi juntagailua baino areago lokailu soila dela. Hori gertatzen da, adibidez, honako honetan:</p><p>(8) Hemen oso ondo bizi gara. Ala gure irudipena besterik ez da?</p><p>Kasu honetan, zail da ala juntagailutzat hartzea, baina dudarik ez da galdera bati sarbidea ematen diola.</p><p>Hau beste entonazio bat emanda ere gauza daiteke, idazkerari behar den aldaketa ezarriz:</p><p>(8') Hemen oso ondo bizi gara, ala gure irudipena besterik ez da?</p><p>Ala, adierazpen perpaus baten ondoren ere joan daiteke, egiaztapena eskatzeko erabiltzen ditugun galderak osatuz:</p><p>(9) Etxera zoaz, ala?</p><p>Honek perpaus bakuna dirudi, baina 'zintzilik' daraman ala horrek zerbait ezabatua edo izan dela iradoki dezake, 'etxera zoaz, ala beste norabait zoaz?' esango bagenu bezala.</p><p>Eta besteen parean, honako hauek ere arruntak dira:</p><p>(10) a. Etxera zoaz ala lanera? b. Etxera ala lanera zoaz?</p><p>Bi adibide hauetan hauta-galderak ditugu baina bi juntagaien perpaustasuna ez da begien bistakoa. Mugan gabiltza eta mugan ibiltzea beti izaten da konplikatua. Bestalde, galderez ari gara eta hauek solasarekin, diskurtsoarekin, oso loturik ikusten ditugu. Askotan, elipsiak ere sumatzen dira, aurresuposizioek ere zeresan handia dute… Hiru ataletan banatua emango dugu gure aztergaia: lehenbizi, perpausen juntadura aztertuko dugu; ondoren, perpausa baino txikiago diren juntagaiez arituko gara eta azkenik, eztabaidagarriagoak izan daitezkeen bai-ala-ez galderez mintzatuko gara.</p><p>Hauek ere jatorrian perpaus juntadura dutelako ideia defenditzen saiatuko gara.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Perpausak juntagai</head><p>Azter dezagun lehenbizi hauta-galdera bi perpaus osoren juntadura gisa ematen zaiguneko kasua, goiko (1a) gisako hauta-galderak, alegia. Har ditzagun, adibidez, honako bi perpaus hauek: Perpaus-juntadura honen aurrean zenbait galderari erantzun beharra dago, duten egituraren berri era egokian eman nahi baldin bada. Bi izango genituzke nagusiak: a) juntadura galderazkoa bada, nola eman daiteke juntadura honen galdetasunaren berri? eta b) juntagai ditugun perpausak, bakoitza bere aldetik galderazkoa al da? Hau, jakina, bi juntagaiek agerian behar duten -(e)n menderagailua ezinbestean agertu beharrarekin lotua dagoen zerbait izan liteke. Bigarren galdera honetatik hasiko gara.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Juntagai diren perpausen izaera</head><p>Errepara diezaiogun perpaus honi:</p><p>(13) *Etxe honek zenbat balio du ala zenbat kostatzen da?</p><p>(cf. Etxe honek milioi erdi balio du ala gehiago kostatzen da?)</p><p>Juntadura honek ez du atarramentu onik. ala-k ezin ditu, antza, jadanik galderazko diren juntagaiak juntatu. 'Zenbat balio du?' eta 'zenbat kostatzen da?' NZ galderak ditugu eta bien arteko hautua egitea helburu duen beste galdera bat sortzea (hauta-galdera, alegia) ez da bidezko. <ref type="bibr">3</ref> Galde hitzik gabekoetan, ordea, juntagaiak ez ote litezke izan bakoitza bere aldetik bai-ala-ez motako galdera? (14) Benetan ari zara ala adarra jo nahi didazu?</p><p>Hemen egiazki ez da galdetzen norbait benetan ari den ala ez edo norbaitek adarra jo nahi didan ala ez. Hemen hiztunak egiten duena da bi aukera eskaini ('benetan ari zara' edo 'adarra jo nahi didazu'), bietako bat egia dela pentsatuz, eta solaskideari eskatzen dio bi aukera horien arteko hautua egiteko. Galdera hori egiteak esan nahi du bi aukera horien artean egiazkoa zein den erabaki behar duela solaskideak. ala juntagailuak juntatzen dituen perpausak nolakoak dira, horrenbestez? Alegia, bi galdera juntatzen ditugu ala juntadura bera, oso-osorik, da galderazko? Perpaus bakoitzak -(e)n menderagailua daramanez, eta hau zehar galderen konplementatzailetzat hartu ohi denez, pentsa liteke ala juntagailuak galderazko perpausak juntatzen dituela. Hala ere, gure ustez, bigarren aukera da zuzena. Alegia, juntadura bera da, osorik, galdera.</p><p>(13)ko adibidea gorabehera, beste argudio bat ere eman daiteke: bai-ala-ez erako zuzeneko galderak osatzeko euskalki batzuetan erabiltzen den al galde partikula ezin da erabili ala juntagailuarekin batera:  dea, ez litzateke benetan juntagailu izango, lokailu baizik. Azalpen bera izan lezake (16b)k ere. Nire euskarak, nekez onartuko luke perpaus hori, etenik ezean behintzat. <ref type="bibr">6</ref> Ez dugu benetako juntadurarik, bi galde perpaus, bata bestearen segidan emanak, baizik. Perpaus bakoitzaren forma gorabehera, argi dago, egiazki, bi perpausen arteko juntadura dugunean, erantzun bakarra eskatzen dela, lehenbiziko juntagaia edo bigarre na 'jasoz'. Alegia: <ref type="bibr" target="#b17">(17)</ref> Gurasoekin bizi zara oraindik ala zure lagunaren etxera joan zara?</p><p>Hemen argi dago galdera bakarra dela, itxia, eta erantzunak ere bakarra izan behar duela. Hala ere, galdera bakar hori bi (edo gehiago, agian) perpausen juntadura gisa ematen dugu eta hauetako bakoitzak, gainera, bere menderagailua eramango du, -(e)n, -(e)netz nahiz ba-.</p><p>Huddleston &amp; Pullum-ek (2002: 869) diote gure hauta-galdera hauen ingeles baliokideetan "we have two interrogative clauses but a single question". Formari dagokionez, hala dirudi. Ingelesez argi dago bi juntagaiek hartzen duten itxura 'perpaus interrogatiboarena' dela:</p><p>(18) Is it genuine or is it a hoax?</p><p>Euskaraz ere, -(e)n, -(e)netz eta abarrak ere galde-perpausetan aurki ditzakegunak dira, baina ez dauzkagu bi galdera juntatu, galderazko juntadura bat baizik.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Galdetasunaren berri nola eman</head><p>Orain arte aipatu ditugunetan perpaus juntadura dugu, hautakaritza juntadura. Baina juntadura hori bi motatakoa izan daiteke: galderazkoa edo adierazpen soilezkoa: <ref type="bibr" target="#b28">(19)</ref> a. Benetan ari da edo adarra jo nahian dabil.</p><p>[adierazpena] b. Benetan ari da ala adarra jo nahian dabil?</p><p>[galdera]</p><p>Bi perpausek aurresuposizio bera dute: 'norbait benetan ari da edo adarra jo nahian dabil'. (19a)n bi aukera horiek badirela baieztatzen da, besterik gabe. (19b)n ere bi aukera berak dira, lehen bezala, baina solaskideari galdera egiten zaio aukera (i) Jesus Krist elkhiten deia zelutik, ala (…) han ere dago? (A. Belapeyre, Katixima laburra, 72) Alegia, lehen juntagaian galde perpausa dugu (elkhiten deia, -a galderazkoarekin). Baina hor dugu koma ere. Horrenbestez, bi perpaus galderazkoen artean ageri den ala hori ez litzateke benetan jun tagailua, lokailua baizik. Eta bi perpausen erdian ageri bada ere, itxura guztien arabera, bigarren perpausaren atal dela esan genezake. Galdera bati hasiera ematen diola pentsa liteke.</p><p>Ote galde partikuladun adibideak ere jasotzen dira:</p><p>(ii) Zinez ote da zure eginbide mina, ala hortan ote da zure atsegina? (Xalbador, Odolaren mintzoa, 242).</p><p>Dena dela, gauzak horrela gertatzen direla azpimarratzera mugatzen da EGLU: "azpimarratzekoa da -dio-(…) ala juntagailua ote-rekin batera agertzea". horien artean bat lehenetsi dezan. Hortaz, galderari dagokion operatzaile bat izango dugu oraingoan jokoan: <ref type="bibr" target="#b29">(20)</ref> </p><formula xml:id="formula_2">[gald [[benetan ari da] ala [adarra jo nahian dabil]]]</formula><p>Eta galde perpaus hau mendekoa denean, zehar-galdera alegia, orduan juntagai diren bi perpausetako adizkiek dagokien menderagailua eramango dute itsatsia: -(e)n, orokorrean, (edo -(e)netz nahiz ba-). Diferentzia horrexegatik, hain zuzen, (24)ko perpaus horien osagaiei beste hurrenke ra bat ezarri diegunean, galdegaiari zor zaion kokagunea (adizkiaren aurrekoa) errespetatu gabe, ondorio desberdinak lortzen dira gramatikaltasunari dagokionez.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Juntaduraren egituraz</head><p>(23)an jaso ditugun perpausetik beherako juntadura hauen egitura, lehen begiratuan dirudien baino zertxobait konplikatuagoa da. Har dezagun honako perpaus hau: Bigarren aukeran, berriz, bi perpaus juntatu beharko genituzke, (28)an bezala. Nolanahi ere, badirudi bi aukera horietako batek errazago konpon ditzakeela zenbait arazo, komunztadurarena, besteak beste.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Komunztadura arazoak</head><p>Komunztaduraren kontu hau aipatzen du <ref type="bibr">Euskaltzaindiak (1994: 165-166)</ref>  Dirudienez, bigarren juntagaiaren arabera gertatzen diren komunztadurak onargarria goak dira. Horrenbestez, gramatikaltasun epai hauek zuzenak badira, gauzak errazago azal litezke oinarrian perpaus juntadura daukagula onartuta, eta ez perpaus barneko osagaien arteko juntadura dugula aldarrikatuz. Kasu hauetan behintzat, perpaus juntadurari behar diren ezabaketak aplikatuz, azalean ageri zaigun egiturara iri tsi ko ginateke: Gauza bera gertatzen da perpaus horri beste taxu bat ematen diogunean ere:</p><p>(38) Kafea hartuko duzu, ↑ ala tea? ↓ Oraingoan, ordea, etena eta goranzko entonazioa pixka bat eskuinalderago gertatzen da, juntagai den lehenbiziko perpausaren ondoren, hain zuzen. 11 10 Brucartek (1999: 2812) gaztelaniaz ari dela, honela dio: "Cuando el vaciado se da en estructuras coordinadas (…) es opcional colocar una inflexión entonacional inmediatamente antes del resto: Luisa fue a Paris y María, a Londres". Oin-oharrean, berriz, honela dio: "según Navas Ruiz (1962), la inflexión entonacional (o pausa) trasluce en los casos de elipsis la presencia de un verbo tácito". Euskaraz ere antzera dira gauzak, nonbait. 11 Entonazio hau giltzarri gertatzen da hauta-galderak direnen (Escandell-ek 1999 "interrogativas disyuntivas" deitzen dituenen) eta galdera osoen juntaduraren artean bereizketa egin nahi bada ("in terroga ti vas totales con disyunción", Escandell-en arabera). Gaztelaniaz entonazioaren bidez bereiz daitezke. Euskaraz, entonazioaz gainera ala/edo aukera ere hor dugu:</p><p>(i) a. Azken bi urteotan bekaduna izan zara ↑ ala lan kontratua izan duzu? ↓ b. Azken bi urteotan bekaduna izan zara → edo lan kontratua izan duzu? ↑ (ia) hauta-galdera dugu. Hiztunak aurresuposatzen du bi erantzun izan daitezkeela, baina horietako bat bakarra egiazkoa. Adibidez, 'lan kontratua izan dut'. (ib)n, aldiz, galdetzen dena da ea egia den bekaduna izan zarela edo lan kontratua izan duzula. Honen erantzun posible bakarra 'bai' edo 'ez' da.</p><p>Perpaus hauen guztien entonazioa aintzat hartzen badugu, hortaz, zail egiten da (35)eko [kafea ala tea] jatorrizko osagaitzat hartzea.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Zehar galderen juntadura</head><p>Gorago, ondoko perpaus honen tankerakoei okerrak iritzi diegu: Hortaz, badirudi ala-k perpausak juntatzen dituela. Itxuraz perpaus ez diren beste juntadurak ere perpausen juntaduratik erator daitezke, horrenbestez.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">ALA juntaduraren galdegaitasuna</head><p>Honako adibide hauetan ere, jatorrizko osagaia dirudien [zuria ala gorria] sintagma perpausen juntaduratik eratorri ezinik ez da: Juntaduran, oro har, gaikidetasuna eskatzen da. Eta elipsia gertatuko bada, area go. Gaikidetasun honen barnean sartzen da mintzagai egiturek paraleloak izan beharra. Hau nahitaezkoa da juntaduran gertatzen diren ezabaketak gertatuko badira. Hori argi ikusten da goiko adibideetan: kontrastean dauden osagaiak bakarrik uzten dira, nahitaez, agerian. Mintzagai/galdegai egituran maila bereko diren osagaiak jartzen ditugu kontrastean. Adibidez, honako hauetan bada kontrasterik, mintzagai/galdegai egituran paralelotasuna ere bai baita:</p><p>(46) a. Zuria eskatu zuen Mikelek ala gorria eskatu zuen Mikelek? b.</p><p>Mikelek, zuria eskatu zuen ala gorria eskatu zuen?</p><p>Ordea, ez du balio mintzagai egitura desberdineko perpausak juntatzeak:</p><p>(47) *zuria eskatu zuen Mikelek ala gorria Mikelek eskatu zuen?</p><p>Hemendik, paralelotasunik ez baita, ez dugu gauza handirik aterako. Hortaz, hauta-galdera hauek agerian jartzen dute galdegaien kontrastea. Eta elipsiaren ondoren, galdegai horiek dira ala juntagailuak juntatzen dituenak eta osagai bakar gisa agertzen zaizkigunak. Horrela azal liteke, modu errazean, zergatik agertzen diren juntadura hauek galdegai gunean, aditzaren aurre-aurrean.</p><p>Horrenbestez, emandako arrazoi guztiengatik, baiezta dezakegu [A ala B] moduko egiturak, nonbait, perpausa baino beheragoko osagai itxura izan arren, holakoek azpian perpaus juntadura dutela.</p><p>Perpausen juntaduratik abiatuta, gauzek errazago dirudite, elipsiaren bidea eskura dugun heinean. Bide hau da <ref type="bibr">Han &amp; Romerok (2004)</ref> eskaintzen dutena. Funtsean, galderei dagokien mugimendua <ref type="bibr" target="#b48">(Larson 1985)</ref>  Bi perpausok, esanahiari dagokionez, baliokide ditugu, funtsean: 13 bietan galdera bat dugu eta bietan baiaren eta ezaren arteko hautua egiteko eskatzen da. Horregatik, gramatikariek bai-ala-ez galdera deitzen diete (49b) bezalakoei. (49a) koei, berriz, hauta-galderak. Hala ere, (49)an bi galdera mota desberdin direla esan beharrean, bakoitza bere egiturarekin, biak galdera mota bera direla ere esan genezake eta bata bestetik eratorritzat eman. Denetarako proposamenak egin izan dira: <ref type="bibr">Bolinger-ek (1978)</ref>, <ref type="bibr">Escandell-ek (1999)</ref> eta beste hainbatek, adibidez, bakoitza egitura beregaintzat hartzen dute, bata bestetik eratortzeko premiarik ez dute ikusten. Beste batzuek egitura beretik eratortzen dituzte bai hauta-galdera zein bai-ala-ez galdera. Adibidez, <ref type="bibr">Karttunen-ek (1977: 5, 15</ref>) bai-ala-ez erako galdera hauek "syntactically 'degenerate' alternative questions" gisa kontsidera daitezkeela dio. <ref type="bibr">Han &amp; Romerok (2004)</ref>, berriz, airean uzten dute kontua. Gure artean ohiko azterbidea onartu izan da, bai-ala-ez galdera hauek perpaus bakuntzat hartuz eta bai-ala-ez operatzaile isil bat aldarrikatuz <ref type="bibr" target="#b51">(Ortiz de Urbina 1989</ref><ref type="bibr">eta 1999</ref><ref type="bibr" target="#b33">Artiagoitia 2000)</ref>.</p><p>Galdera hauek 'ala ez' osagaia agerian dutenean, (49a) modukoetan, sintaktikoki hauta-galderak dira, garbi. Eta bi aldaeren artean (perpaus bakun tankera duenaren eta 'ala ez' erantsia duenaren artean) zenbaitetan nabari daitekeen alde semantikoa (ik. <ref type="bibr" target="#b35">Bolinger 1978)</ref>, juntagaietan dagoen material diferenteari egotzi lekioke, <ref type="bibr">Han &amp; Romerok (2004: 557)</ref>  Batean juntadura eta elipsia izango genuke. Bigarrenean ez litzateke elipsiaren beharrik izango. Ezezko hautuaren interpretazioa semantikari utziko litzaioke <ref type="bibr" target="#b46">(Karttunen 1977)</ref>.</p><p>Badira, nolanahi ere, &lt;juntadura + elipsia&gt; formula hobestera eraman gaitzaketen argudio batzuk.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Bai-ala-ez galde-perpaus jokatuak eta jokatugabeak</head><p>Bai-ala-ez erako zehar-galderak adizki jokatua duenean, <ref type="formula" target="#formula_5">(50)</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Entonazioa</head><p>Bai-ala-ez galderen entonazio berezia maiz hartu dute hizkuntzalariek ahotan. Nabarmena da ala juntadurako lehenbiziko juntagaiak, (52a), eta bai-ala-ez erako galde perpausak, (52b) (al partikularik gabe ematen dugunean) oso antzeko entonazioa dutela. Batak zein besteak gorantz egiten dute amaieran. Holakoetan, gainera, juntadura agerian denean, juntagailuaren aurrean halako eten bat edo gertatzen dela ematen du: </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Parafrasi erlazioa</head><p>Bai-ala-ez gisako galderak eta hauta-galderak jatorri bereko direla frogatzeko eman izan diren argudio nagusien artean parafrasi-erlazioa dugu. <ref type="bibr" target="#b35">Bolinger (1978)</ref>, hain zuzen, bai-ala-ez galderak hauta-galderak ez direla frogatzen saiatzen da eta zalantzan jartzen du bi perpausen arteko baliokidetasun semantiko hori. Horretarako, hamabi testuinguru desberdin hartzen ditu kontuan, zeinetan balizko kidetasun hori ez baita gertatzen. Horietako bat aipatzearren, seigarrena har dezakegu kontuan. Ingelesez, some/any eta often/ever moduko bikoteetako kideek banaketa desberdina dute: polaritate negatiboa duten any eta ever ongi moldatzen dira ezezko aukera eskaintzen duten perpausetan. Aldiz, baiezkora lerratzen diren some eta often-ek tupust egiten dute 'or not' ezezko alternatiba horrekin:</p><p>(55) a. Have you often been there? (galdera arrunta) b. ?Have you often been there or not? (galdera bitxia omen) c. Have you ever been there or not?</p><p>Often-ek baiezko erantzunari bide ematen dionez, kontraesanean sartzen da, nonbait, 'or not' gehigarri horrekin.</p><p>Euskaraz, hitz horien pareko izan litezke zerbait/ezer edo maiz/inoiz: Azken hitzbikote hau kontuan hartzen badugu: gai diren perpausak ere. Gauzak zehazki nola diren azterkizun utziko dugu, hala ere. Azterkizun utziko dugun bezala, eskema honen barruan, bai-ala-ez galderetan erabil daitekeen al partikula, edo -a atzizkiaren izaera eta kokagune zehatza.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Laburbilduz</head><p>Euskaraz, edo eta ala ditugu juntagailu hautakari nagusiak. Bigarrena, hautagaldera deitu ditugunetan erabiltzen da. Lehenbizikoa, berriz, euskaldun as ko ren tzat erabilgarri da bai hauta-galderetan bai adierazpen soiletan, galdera ez direnetan, alegia. Hauta-galderak perpaus juntatuen gainean eraikitzen direla defenditu dugu. Juntagaiak perpaus osoak izan litezke, nahiz eta ez den hau esamolderik ohikoena. Gure gramatiketan ere ez da gehiegi aipatzen holakorik, ez eta ere hauek zer egitura duten.</p><p>Behin perpaus juntaduraren premia onartuta, hemendik, elipsi bidez edo sortuko lirateke azalean perpausa baino beheragoko osagai direnen ala juntadurak eta baita tarteko beste egitura asko eta asko ere. Komunztadura, entonazioa, perpausen menderakuntza eta holakoak argudio hartuta, frogatu uste izan dugu [ardoa ala garagardoa] moduko osagaiak, juntadura soilak diruditen arren, perpausen juntaduratik eratorritzat har daitezkeela hauek ere.</p><p>Azkenik, bai-ala-ez galdera deitzen direnek ere jatorri bera lukete. Kontu honek eztabaidarako gai ugari eskaintzen du, baina hauen analisia bide beretik joan liteke. Horrela, hauta-galdera guztiak multzo berean sartuko genituzke, hots: analisi bateratua izango genuke. Hala ere, al partikulaz baliatzen garenean, beharbada, perpaus juntadurara jo beharrik ez da. Kasu honetan ahal partikula modalaren erabilera berezi baten aurrean egon gintezke. Hortaz, labur esateko, etorri da inor? modukoak eta etorri da inor ala ez da inor etorri? modukoak jatorri berekoak izango lirateke, baina etorri al da inor? jatorrizko egitura izan liteke, ez juntadurazkoa.</p><p>Ezker periferian metatzen diren osagaien teoria zuzena bada, badirudi hautagalderen ezker buruan kokatzen dela [GALD] isilpeko operatzaile bat, juntadura osoaren galdetasunaren berri ematen diguna. Honen ondoren etorriko litzateke galdera honen fokoa, galdegaia alegia. Kasu honetan galdegai hori bi perpaus osoren juntadura izango litzateke. Dena dela, bide hau xehekiago aztertu beharko litzateke aurrerago.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>(</head><label></label><figDesc>iv) Berezi behar al dira?↓ ala ez?↓ Eta ez: (v) Berezi behar al dira↑ ala ez?↓ Dena dela, kontuan izan bedi (i) adibidea badaezpadakoa gertatzen dela bigarren perpausean ala-rekin batera al partikula ere ezartzen badugu: (i') Mikelek egin al du? *Ala zuk egin al duzu?</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Zure bila norbait joango den] ala [zeure kasa etorriko zaren]] jakin nahi genuke. b. [Euskaraz, etxean ala eskolan ikasi duen] ez dakigu.</figDesc><table><row><cell>oporrak?</cell><cell>[+galderazko]</cell></row><row><cell>Baina:</cell><cell></cell></row><row><cell>(2) Neu joango naiz {edo/*ala} bidaliko dut norbait.</cell><cell>[-galderazko]</cell></row><row><cell>Menpeko perpaus gisa ere eman daitezke:</cell><cell></cell></row><row><cell>(3) a. [[</cell><cell></cell></row></table><note>Zure bila norbait joango da {ala/edo} zeure kasa etorriko zara? [+galderazko] b. Abuztuan {ala/edo} irailean hartuko dituzu</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>a. Mikel etorriko (al) da? b. Mikel etorriko (*al) da ala zu (etorriko zara)? Al partikula hau, bestalde, bitxi suertatzen da zehargalderetan: 1 2 (5) Ez dakit [Mikel etorriko (*al) den] Maiz, hauta-galdera hori bi zatitan ematen da: (6) a. Nork esan dizu?, Mikelek ala Josebak? b. Mikelek ala Josebak?, nork esan dizu? Ala-ren ondoren doan perpausa galderazkoa izan daiteke: gehienetan, NZ taxukoa da baina bai-ala-ez tankerakoa ere izan daiteke: (7) a. Mikel ala nor etorri da? b. Mikel etorri da, ala nor (etorri da)? c. Har ezazu hau. Ala beste hau nahiago duzu?</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>ko juntadura perpaus lokabe bat da, zuzeneko galdera bat. (11b)n, berriz, juntadura mendekoa da eta mendeko zehar-galdera honek, mendeko perpaus juntatu guztiek bezala, menderagailua behar du, -(e)n, kasu honetan. 23 Perpaus menderatuak, zehar-galderak izan nahiz bestelako osagarriak edo postposizio sintagmak izan, dagokien menderagailua agerian dutela eman behar dira. Eta bi perpausen juntadura baldin bada eta, horrenbestez, bi adizki baditu, juntagai bakoitzak erakutsi beharko du menderagailu hori, adizkiak agerian badira behintzat. Horrela, (12a) zuzena da, (12b) ez:(12) a. Ez dio inori esan [bilerara etorriko den ala etxean geldituko den].</figDesc><table><row><cell>(11a)</cell></row><row><cell>a. [[Azterketa gainditu nahi duzu] ala [denbora pasa zatoz]]?</cell></row><row><cell>(zuzeneko galdera)</cell></row><row><cell>b. Ez dakit [[azterketa gainditu nahi duzun] ala [denbora pasa zatozen.]]</cell></row><row><cell>(zehar-galdera)</cell></row></table><note>b. *Ez dio inori esan [bilerara etorriko da ala etxean geldituko den)</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>3. Perpaus barneko osagaien juntadura</head><label></label><figDesc>(21) [gald [[benetan ari den] ala [adarra jo nahian dabilen]]] galdetu diot. -(e)n menderagailu hau KONP(lementatzaile)-tzat hartu ohi dugu. Hain zuzen, besteak beste, zehar-galdera jokatuen ezaugarritzat ematen da. Horrek esan nahi du bi juntagaiak galderazko direla? Ez nahi eta ez. Horrek esan nahi duena da bi juntagaiak tankera berekoak izan behar dutela eta bietako adizki jokatuek menderagailu jakin bat behar dutela. Menderagailu hori -(e)n da, baina ez da beti zehar-galderaren marka. Nolanahi ere, Ortiz de Urbinak (1999: 331) dioen bezala, Rizziren (1997) proposamenaren ildotik, zilegi zaigu bereiztea alde batetik konplementatzaile klitikoa (-(e)n, alegia), perpaus jokatuaren marka litzatekeena eta burua eskuinaldean izango lukeen Konplementatzaile Sintagmako osagai litzatekeena, eta bestetik, berriz, burua ezkerraldean izango luketen Foko, Mintzagai eta Indar Sintagmak, non ostatu izango luketen operatzaileek. Beste arazo bat ala juntagailuaren hautapena ziurtatzea litzateke. Alegia, ala juntadurak galderazkoa izan behar du, nolabait. Juntaduraren egitura ohikoa ez baizik X'-ren araberakoa izanez gero (Johanessen 1998: 108 eta hurr.), juntaduraren burua ala juntagailua bera izango litzateke: (22) [ Junt-S [ X benetan ari da] [ Junt' [ junt ala] [ Y adarra jo nahian dabil]]] Horrela, juntaduraren beraren galdetasuna edo galdegaitasuna ziurtatua egongo litzateke. Baina xehetasun hauek guztiak azterkizun utziko ditugu oraingoz. Juntagaiak perpausak ez ezik, perpausetik beherako osagaiak ere izan daitezke: kasu markaz hornitutako Determinatzaile Sintagmak, Postposizio Sintagmak, mendeko perpausak, predikatuak eta abar. Gehien erabiliak holakoak dira, gainera, eta ez, aurreko atalean hizpide izan ditugun perpaus juntadurak. Adibidez: (23) a. [ DS [ DS Itsasori] ala [ DS Izarori]] erregalatu diozue katakumea? b. [ PoS [ PoS Bilbon] ala [ PoS Hernanin]] bizi zara orain? c. [ Perpausa [ Perpausa Gurekin etortzeko] ala [ Perpausa etxean geratzeko]] esan diozu? d. [ AdjS [ AdjS Merkea] ala [ AdjS garestia]] da etxea? e. [ A [ A Erosi] ala [ A alokatu]] egin duzu etxea? Oraingoan, lehen ez bezala, perpausak barik perpaus-osagaiak ditugu juntagai, itxura batean behintzat. (23c)n bi perpaus ditugu, baina perpaus lokabe beraren osagai dira. Bestalde, juntadura hauek aditzaren aurrean kokatzen dira, galdegai gisa. Perpausa, jakina, galderazkoa da. Hori da, hain zuzen, edo [+/-gald] eta ala [+gald] juntagailuen arteko diferentzia, honako adibide hauetan ongi ikusten ahal den bezala: (24) a. [Bihar ala etzi] joango zara Turkiara? / *Turkiara joango zara [bihar ala etzi]? 7 b. [Bihar edo etzi], joango (al) zara Turkiara? / Joango al zara Turkiara [bihar Galdera honi dagokion erantzuna ez da ez «bai», ez «ez», «bihar» nahiz «etzi» baizik. Edo «inoiz ez» edo «bihar eta etzi», adibidez. [Bihar ala etzi] eta [noiz] baliokidetzat har litezke (NOIZ joango zara Turkiara?). Baina noiz? galderak erantzuna erabat zabalik utziko luke. Aldiz, bihar ala etzi? galdetzean, erantzuteko aukerak bitara mugatzen ditu galdegileak: bihar ala etzi?. Hots: hiztunak aurresuposatzen du horiek direla aukera posible bakarrak bietako bat dela egia. Noiz? galdetzen dugunean, aurresuposizio hori zabalagoa da: 'noizbait joango zara Turkiara'.(24b)ren erantzun egokia, berriz, «bai» edo «ez» izango litzateke, galdera ez baita ez noiz joango zara?, ez bihar ala etzi joango zara?, baizik joango zara ala ez zara joango noizbait? Alegia: bihar edo etzi, joango zara, bai ala ez? Eta (24c), berriz, okerra da, bi hauta-galdera batean bildu direlako: bihar ala etzi?, eta joango zara ala ez zara joango? Eta erantzunik ere ezin eman.</figDesc><table><row><cell>edo etzi]?</cell></row><row><cell>c. *[Bihar ala etzi], joango (al) zara Turkiara? / *Joango al zara Turkiara, [bihar</cell></row><row><cell>ala etzi]?</cell></row><row><cell>Eta, jakina, galderarik ez bada, ala-rentzat ere lekurik ez:</cell></row><row><cell>(25) a. *Bihar ala etzi joango zara Turkiara.</cell></row><row><cell>b. Bihar edo etzi joango zara Turkiara.</cell></row><row><cell>(24a) perpausean galderaren muina juntadura bera dugu: bihar ala etzi?</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>27b) (27a)tik eratorritzat eman daiteke, elipsi bidez, arazo handiegirik gabe: 8 (28') a. Zuria nahi duzu ala gorria nahi duzu? (=27b) Bide honek aski zentzuzkoa dirudi (cf. Han &amp; Romero 2004). Baina elipsia eskuineko perpausean ez ezik, ezkerrekoan ere aplika badaiteke (cf. Amundarain 2002), honako hau gertatuko zaigu: b. Zuria nahi duzu ala gorria nahi duzu? (= 26) Hortaz, ezabaketa bide hau ere zilegi izanez gero, (26)ko perpausaren eratorpenaren berri emateko, bi aukera genituzke: a) perpausa bakuntzat hartzea, [ DS zuria ala gorria] perpaus bakun baten osagai dela onartuz. Hots: (29) [ DS [ DS Zuria] ala [ DS gorria]] nahi duzu? edo b) elipsi bidez eratortzea, (28'b)n bezala, alegia.Nolanahi ere, kasu batean zein bestean, [zuria ala gorria] atalari galdegaiaren lekua ziurtatu behar litzaioke. Determinatzaile Sintagma juntatu hori jatorrizkoa dela onartuz, NZ galde hitzei dagokien leku berbera esleitu lekieke: bata zein bestea galderaren fokoa lirateke eta antzeko egitura osatuko lukete. 9 Ohiko bidea litzateke onartzea galde perpaus hauen egitura honako honen antzekoa dela: Arazorik gabe' diogu, ustezko ezabaketa horien emaitza begien bistan dagoelako. Alegia, hutsune horiek hor daude. Beste kontu bat da jakitea ea zein den ezabaketa horien berri emateko behar den 'tresneria' gramatikal egokia, juntaduran gertatzen bide diren elipsiei buruzko proposamen teorikoak ugari izan baitira (ik. Amundarain 2002 besteak beste). 9 Dena dela, euskaraz era honetako galderetan galde hitzek (zer?) eta hauta-galderazko sintagmek (zuria ala gorria?) modu bertsuan jokatzen dutela dirudien arren -batak eta besteak galdegai gunean agertu behar dute-, beste hizkuntza batzuetan antzekotasun hori ez da berdin gertatzen. Gaztelaniaz, esaterako, galde hitzek modu batera jokatzen dute (perpausaren ezker buruan kokatzen dira), baina hauta-galderen aurrean beste modu batera jokatzen du gaztelaniak, hauetan sintagma juntatuak eskuin aldean kokatzen baitira, foko gisa:</figDesc><table><row><cell>(30)</cell><cell>konps</cell><cell></cell></row><row><cell>ds</cell><cell></cell><cell>konp'</cell></row><row><cell>zer</cell><cell cols="2">konp</cell><cell>infls</cell></row><row><cell>zuria ala gorria i</cell><cell></cell><cell></cell></row><row><cell></cell><cell>[+gald]</cell><cell cols="2">nahi duzu j zuk t i t j</cell></row><row><cell></cell><cell>[+fokoa]</cell><cell></cell></row><row><cell cols="2">Zuria ala gorria nahi duzu?</cell><cell></cell></row><row><cell cols="3">Honen parafrasitzat eman litezke honako hauek:</cell></row><row><cell cols="3">(27) a. Zuria nahi duzu ala gorria nahi duzu?</cell></row><row><cell cols="2">b. Zuria nahi duzu ala gorria?</cell><cell></cell></row><row><cell cols="4">(27)ko parafrasiok jatorri berekoak baldin badira, hauen eratorpenak sortzeko bi-</cell></row><row><cell cols="4">deak aski argia dirudi: oinarrian hauta-galdera dugu, eta juntagaiak, perpausak direla</cell></row><row><cell>pentsa genezake:</cell><cell></cell><cell></cell></row><row><cell cols="3">(28) [GALD [[zuria nahi duzu] ala [gorria nahi duzu]]]?</cell></row></table><note>7 Perpaus bakunetan galdegaia eskuineraturik eman daitekeen bezala (etorriko naiz GERO mo- dukoetan), ez-gramatikaltzat eman dugun adibide hau ere horrela interpreta liteke, entonazio bereziare- kin, eta, horrenbestez, zuzena gerta daiteke: (i) Turkiara joango zara, bihar ↑ ala etzi?↓ Baina ez da maizenik erabiltzen dugun esamoldea.(8 'a. ¿Dónde vives? / *¿Vives dónde? (Non bizi zara? / *Bizi zara non?) b. *¿En Madrid o en Paris vives? / ¿Vives en Madrid o en Paris? (Madrilen ala Parisen bizi zara? / *Bizi zara Madrilen ala Parisen?) Euskaraz galde hitzek eta galdegaiek kokagune bera hartzen dute, gaztelaniaz ez bezala.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>Perpaus honen eta beste mordoxka baten berri ere, denak baliokideak, erraz eman daiteke perpaus juntaduratik abiatuta. Determinatzaile Sintagmen juntadura oinarriz koa dela onarturik, arazo gehiago izango genituzke.</figDesc><table><row><cell>3.3. Entonazioa</cell></row><row><cell>Juntadura hauek duten entonazio bereziak ere leku berera garamatza. Har deza-</cell></row><row><cell>gun honako adibide hau:</cell></row><row><cell>(35) Kafea ala tea hartuko duzu?</cell></row><row><cell>Ustezko lehen juntagaiaren ostean eten bat gertatzen da. Gainera, goranzko ento-</cell></row><row><cell>nazio nabarmena du lehenbiziko juntagai horrek. 10</cell></row><row><cell>(35') Kafea ala ↑ tea ↓ hartuko duzu?</cell></row><row><cell>Eten horren ostean, halaber, tarteki gisa, iruzkinak txerta daitezke:</cell></row><row><cell>(36) Kafea, besteetan bezala, ala tea hartuko duzu?</cell></row><row><cell>Delako tarteki honen kokagunea, berez, perpausen artean dago:</cell></row><row><cell>(37) a. Kafea hartuko duzu, besteetan bezala, ala tea (hartuko duzu)?</cell></row><row><cell>b. *Kafea, besteetan bezala, hartuko duzu, ala tea (hartuko duzu)?</cell></row><row><cell>Hortaz, (36)ko [kafea] sintagma ez da, besterik gabe, Determinatzaile Sintagma</cell></row><row><cell>bat, elipsia jasan duen perpaus baten hondarra baizik. Eta arrazoi beragatik, (35) per-</cell></row><row><cell>pausak ere oinarrian perpaus juntadura duela pentsatzeko eskubidea dugu:</cell></row><row><cell>(35'') [[Kafea hartuko duzu] ala [tea hartuko duzu]]?</cell></row><row><cell>[[Gizon honek du arrazoi] ala [polizia haiek dute arrazoi]]?</cell></row><row><cell>Praktikan, jakina, komunztadura arazo hauei ihes egiteko bideak badira, galdera</cell></row><row><cell>bikoiztea adibidez:</cell></row><row><cell>(34) a. Nork du arrazoi? Gizon honek ala polizia haiek?</cell></row><row><cell>b. Gizon honek ala polizia haiek? Nork du arrazoi?</cell></row><row><cell>Hauetan ez daukagu komunztadura arazorik, galde hitzaren araberakoa izango baita</cell></row><row><cell>komunztadura hori, eta arazoa egongo litzatekeen osagaian adizkirik ez baita ageri. Esa-</cell></row><row><cell>molde hauetan nolabaiteko aposizioa edo dugu. Dena dela, holakoen berri emateko ere</cell></row><row><cell>bide errazagoa dirudi hauta-galderen oinarrian perpaus juntadura dugula onartzeak:</cell></row><row><cell>(34') a. Nork du arrazoi? Gizon honek (du arrazoi) ala polizia haiek (dute arrazoi)?</cell></row><row><cell>Hain zuzen, (34b)ren parafrasitzat eman daiteke honako hau ere:</cell></row><row><cell>b. Gizon honek ala polizia haiek dute arrazoi? Nork?</cell></row><row><cell>Izan ere, pentsatzekoa da (34a)ko [gizon honek ala polizia haiek] osagaia, nahiz</cell></row><row><cell>(34'b)ko [nork] soila, zerbait izatekotan, perpaus direla, eliptikoak badira ere, per-</cell></row><row><cell>paus eliptiko baten 'hondarrak'.</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head></head><label></label><figDesc>Perpaus jokatuek eta jokatu gabeek erakusten duten kontraste honek aditzera eman lezake bai-ala-ez erako galderak jatorriz ez direla bakunak, perpaus juntatuetatik eratorriak baizik. Azaldu beharko litzateke, hala ere, zergatik perpaus jokatugabeetan ez den zilegi bertsio laburtua, nolabait esateko. Arrazoia izan liteke [Ez dakit [kontzertura ala zinera] joan] modukoetan galdera izaera agerian dagoela. Ala juntagailuak zerbaitetarako balio behar du. [Ez dakit [nora joan]] edo [ez dakit [joango naizen]] perpausek ere agerian dute galdetasuna. Aldiz, *[ez dakit autoa erosi] perpausak ez du horrelakorik.</figDesc><table><row><cell>eko aukera guztiak</cell></row><row><cell>zilegi dira, perpaus bakun soil gisa emandakoa eta juntadura agerian duena:</cell></row><row><cell>(50) a. Ez dakit [joango naizen]. / Ez dakit [joango naizen ala ez].</cell></row><row><cell>b. Ez dakit [Bilbora joango naizen]. / Ez dakit [Bilbora joango naizen ala he-</cell></row><row><cell>men geldituko naizen]. / Ez dakit [Bilbora joango naizen ala ez].</cell></row><row><cell>Aldiz, zehar-galdera jokatugabeetan ez daukagu holako aukerarik, ezinbestekoa da</cell></row><row><cell>zehar-galdera perpaus juntadura gisa ematea:</cell></row><row><cell>(51) a. *Ez dakit [joan]. / Ez dakit [joan ala ez].</cell></row><row><cell>b. *Ez dakit [kontzertura joan]. / Ez dakit [kontzertura (joan) ala zinera joan]. /</cell></row><row><cell>Ez dakit [kontzertura [joan ala ez (joan)]]. / Ez dakit [[kontzertura ala zi-</cell></row><row><cell>nera] joan]. / Ez dakit [kontzertura joan ala zinera].</cell></row><row><cell>c. *Ez dakit [autoa erosi]. 14 / Ez dakit [autoa (erosi) ala motorra erosi]. / Ez da-</cell></row><row><cell>kit [autoa erosi ala ez].</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14"><head></head><label></label><figDesc>a. Etxea hutsik dago ↑ ala norbait bizi da oraindik? ↓ b. Etxea hutsik dago? ↑ Pentsa liteke (52b) etendako perpaus bat dela, eta bigarren atala isilpean utzi dela. Isilpean utzi arren, ordea, 'ala ez' balu bezala interpretatzen da. Goranzko entonazioa dugu, nolanahi ere. Hortaz, elipsi moduren bat badela pentsa genezake. Goranzko entonazio horrek perpausak oraindik ere nolabait 'segitzen' duela adierazten du. Holako etenak, bestalde, maiz samar gertatzen dira bestelako perpausetan ere.</figDesc><table><row><cell>Pentsa, esaterako, baldintzazkoekin zer gertatzen den:</cell></row><row><cell>(53) a. Gazteago banintz!</cell></row><row><cell>b. Galdera: Nork apurtu du leihoa?</cell></row><row><cell>Erantzuna: Jakingo banu.</cell></row><row><cell>c. Galdera: Zer ordutan etorriko zara?</cell></row><row><cell>Erantzuna: Lanez nola nabilen.</cell></row><row><cell>Solas mailan holakoak gertatzea arrunta da, galderetan eta baldintzazkoetan be-</cell></row><row><cell>reziki. Bestalde, (52b)ren entonazioa eta beste honena zeharo desberdina da:</cell></row><row><cell>(54) Etxea hutsik al dago? ↓</cell></row><row><cell>Honetara itzuliko gara aurrerago.</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_15"><head></head><label></label><figDesc>a. Maiz/inoiz izan zara Indian? (cf. *Izan zara maiz Indian? / Izan zara inoiz Indian?) b. Maiz izan zara Indian ala ez? (cf. *Izan zara maiz Indian ala ez?) c. Inoiz izan zara Indian ala ez? (= Izan zara inoiz Indian ala ez?) Hortaz, pentsa liteke euskaraz ere ingelesezko kontu bertsua dugula. Hala ere, hitz hurrenkera aldatzen badugu, gauzak aldatu egiten zaizkigu: (57) a. *Izan zara maiz Indian ala ez? b.</figDesc><table /><note>*Izan zara maiz Indian? Baina inoiz-ekin egiten badugu proba, emaitza erabat zuzena da bi kasuetan: (58) a. Izan zara inoiz Indian ala ez? b. Izan zara inoiz Indian?</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">Ikus, hala ere, EGLU II, 511-512, non "galdegin edo honelako aditz nagusiren baten objektu direnean" zilegitzat jotzen diren. DeRijk-ek (2008: 442)  ere ideia horri eusten dio. Giputzek -diobai-ala-ez zehargalderetan al partikula txertatzen dute, 'galde egin' adierako aditz baten mende doazenean, orduan benetako galderak baitira.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">Perpausa beste modu batera antolatuz gero, (15)eko lehen juntagaiaren pareko litzatekeena galde perpausa izan daiteke al eta guzti:</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">Dena dela, al eta ote, biak 'galde partikulak' izanik ere, erabat desberdinak dira. Ote era guztietako galderetan ager daiteke, al, aldiz, bai-ez erakoetan bakarrik: (i) a. Nork egin ote du? vs. b. *Nork egin al du?</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6">EGLU IV-an ere (156-157 or.) aipatzen da kontu hau. Esaterako, honako adibide hau eskaintzen zaigu, beste batzuen artean:</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="13">(49a)k, hala ere, izan dezake zakar puntu bat, (49b)k ez duena.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14">Perpaus hau zuzena izango da etenda ematen bada, ahozko hizkeran maiz gertatzen den bezala: (i) a. Ez dakit kontzertura joan… b. Ez dakit Bilbora joan…</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="15">Ohartu, hitz hurrenkera aski argia gertatzen dela euskaraz. Aditza hasieran dugularik, perpausaren baiezkotasuna fokalizatzen dugu. Aditzaren aurretik beste osagairen bat ezartzen badugu, berriz, hau da galdegaitzat hartzen duguna: (i) a. Etorri da Mikel (ala ez)? (bai ala ez?) b. Mikel etorri da (ala Joseba)? (Mikel ala Joseba?)</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="18">Nire euskaran hala da. Egia da, hala ere, beste euskaldun batzuentzat hau ere zilegi dela.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Ohartuko gara (57a) okerra bada, beharba da, (57b) ere okerra delako izan daitekeela. Hitz-hurrenkera mintzagai-egituraren isipilu da. Gauzak horrela, maiz-ek, beste adberbio askok bezala (sarri, askotan, ongi…), galdegai izateko joera du eta ez du perpausaren baiezkotasuna fokalizatzeko aukerarik uzten, honako bikote honek salatzen duen bezala</title>
+	</analytic>
+	<monogr>
+		<title level="m">eta (57) kontuan hartuta, bistan da hitz ordena desberdinak ondorioak dituela</title>
+		<imprint/>
+	</monogr>
+	<note>Joaten zara maiz Indiara</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+				<title level="m">*Joaten zara maiz Indiara? Inoiz-ek, berriz, bestela jokatzen du</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">eta (57a) eta (57b) okerrak, azken perpaus hauetan maiz ez bailitzateke galdegaia izango. Kontua da, maiz-ek galdegai izateko joera badu, (56a)n joera hori errespetatu dela eta, horregatik, perpausa zuzena da. Aldiz, (57)an maiz ez da jadanik galdegai</title>
+		<ptr target="Galdegaia,perpausarenbaiezko-/ezezkotasunaizangolitzateke" />
+	</analytic>
+	<monogr>
+		<title level="m">Joan zara inoiz Indiara? (56a) zuzena da</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Inoiz-ek, aldiz, ez du horrelako eskakizunik, nonbait. (56c) edo (60) modukoetan, bai-ri kontrajarririk ez dugu, bai-ala-ez galdera dugu alegia, eta inoiz bezalako adberbioak ez du debekurik</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hortaz</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">15</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Maiz/inoiz kontraste honen arrazoiak direnak direla, parafrasi erlazioak aski indar duela ematen du bai-ala-ez galderen azpian ere perpaus juntadura dugula esateko</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Bai-ala-ez galderetan aukera hori baiaren eta ezaren artean egin behar da. Hauta-galderetan, galdegaien arteko hautua aurkezten da, honako perpaus hauetan bezala: (61) a. Mirenek eman zion Josebari pilota ala Mattinek (eman zion)? b. Pilota eman zion Mirenek Josebari ala pala (eman zion)? c. Eman egin zion Mirenek Josebari pilota ala bota</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hauta-Galderetan</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>egin zion</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Edo Beste Hauetan Bezala</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Ura nahi duzu ala ez duzu ezer behar? b. Ura ala ardoa nahi duzu?</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hauetan Denetan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Da</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>A ala B</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Itxuraz perpaus bakun gisa agertzen zaizkigun bai-ala-ez galderetan ere hautu bera dugu: (63) Eman zion Mirenek Josebari pilota</title>
+		<imprint>
+			<biblScope unit="page">16</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Eman zion Mirenek Josebari pilota ala ez zion eman? Oraingoan, baiaren eta ezaren arteko hautua dugu. (63) perpaus bakuna dugula ontzat emanez gero, ohiko azterbidea da onartzea badela operatzaile isil bat, &apos;bai ala ez operatzailea&apos; (cf. Ortiz de Urbina 1989, 1994…). Horrela, (63) perpausak honako egitura izango luke</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Da</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Izan ere. KonpS Op [ Konp&apos; [ Konp [+Q. A+Infl eman zion] j. InflS Mirenek Josebari pilota t j</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Adizkia trinkoa denean, isilpeko operatzaile hori, ba-gisa &apos;gauzatzen&apos; omen da: (64) a. Badakizu nire izena? b</title>
+		<imprint/>
+	</monogr>
+	<note>KonpS ba-[ Konp&apos; [ Konp [+Q] [ A+Infl dakizu] j. InflS pro nire izena t j</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Agerian galde hitzik ez denez, galdegaia perpausaren baiezkotasuna denean A-1 (aditza lehenen) gisa gauzatua agertuko zaigu perpaus hori</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>Ortiz de Urbina</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">A-2) gertatzen da, galde-hitza (nori) KONPS-ren espezifikatzaile gunera eta adizkia KONP-era mugitu ondoren: (65) a. Nori eman zion Mikelek pilota? b</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Zati-Galderetan</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>KonpS Nori i [+Q] [ Konp&apos; [ Konp [+Q. A+Infl eman zion] j. InflS Mikelek t i pilota t j</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Artiagoitia 2000: 268-271). Alegia, goiko (63)ren parean, beste honako hauek ere zilegi dira, bakoitzak galdegai desberdina duela: (66) a. Mirenek eman (al) zion Josebari pilota? b. Pilota eman (al) zion Mirenek Josebari? c. Eman egin (al) zion Mirenek Josebari pilota? Baina (63)an ez bezala, (66)koetan bai-ala-ez galdera ez ezik, badugu bakoitzean beste galdegai bat ere: batean Mirenek, bestean pilota, eta hirugarrenean eman. Denetan dugu galdegaia. Ohiko azterbidea gaitzetsi gabe, hemen erakutsi nahi genukeena da perpaus juntaduran oinarritutako analisiak oso modu egokian bis ta ra tzen dituela bai</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Zati-Galdera Edo Nz-Galdera Deitzen Direnetan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Da</surname></persName>
+		</author>
+		<ptr target="ala-ezgalderahauen&apos;baialaez&apos;hautuabatetik,etagaldegaiabestetik" />
+		<imprint/>
+	</monogr>
+	<note>Baina bai-ala-ez galderetan, adierazpenezkoetan bezalaxe, baiezkotasunaz edo ezezkotasunaz gainera, bestelako galdegai bat ere izan daiteke eta izan ohi da (ik</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">denak hauta-galdera direla onartuz gero, lan honetan aipatu ditugun perpaus mota desberdin guztientzat analisi bateratu bat eskaintzeko gai izango ginateke</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gainera</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Eman zion Mirenek Josebari pilota ala ez? b. Mirenek eman zion Josebari pilota ala ez? c. Pilota eman zion Mirenek Josebari ala ez? d. Eman egin zion Mirenek Josebari pilota ala ez? Hala ere, (67a)n hauta-galderak berezko duen galdegaien arteko kontrastea baiaren eta ezaren artekoa soilik den bitartean, (67b, c eta d)ren kasuan, baiaren eta ezaren artekoa da, egia, baina beste galdegai bat ere barnean dela. Honako perpaus hauek lagunduko digute kontua argitzen: (68) a. Eman zion pilota ala ez zion eman? b. Pilota eman zion ala ez? (= Pilota eman zion ala ez zion pilota eman?) c. Pilota eman zion ala pala eman zion? Lehenbizikoan, egin beharreko hautua &apos;bai ala ez&apos; da, besterik gabe. Bigarrenean, aldiz, &apos;pilota (bai) eman ala pilota ez eman&apos;, eta hirugarrenan, &apos;pilota ala pala&apos;. Lehenbizikoan, bi perpaus juntatu ditugu eta bien arteko diferentzia bakarra, eta kontrastea, bai eta ez-en artekoa da eta, horrenbestez, ala juntagailuak bi galdegai hauen arteko hautua egitea eskatzen du. Bigarrenean, kontrastea osagai &quot;zabalagoen&quot; artean gertatzen da, baina orain ere, baiezko perpaus baten eta ezezko beste baten artean. Hirugarrenean, aldiz, baiaren eta ezaren arteko kontrastea barik, pilota eta pala galdegaien artekoa da. Edonola ere, denetan bi proposizioren arteko hautua dugu. Baina hemen interesatzen zaiguna da (68a eta b) modukoetan bakarrik dela zilegi perpaus bakun gisa ematea edo &apos;ala ez&apos; gisako jarraipena gehitzea. Hain zuzen, hauek dira &apos;baiala-ez&apos; galdera deitzen direnak. Guk (68)ko guztiak hauta-galdera direla al darri ka tzen dugunez, esan behar dugu bai-ala-ez galdera deitu ohi direnek azpimultzo bat osatzen dutela eta baiezko eta ezezko proposizioen arteko kontrastea eskaintzen dutela. Juntaduraren bidea onartuz gero, aski erraz azal daiteke galdegaien kontu hau, juntagai bakoitzak berea baitu eta bateko eta besteko galdegai horiek kontrastean ematen ditugu. Bestalde, ustezko bigarren juntagaiaren erabateko elipsiak ere aski oinarri izango luke, holakoak baiaren eta ezaren arteko hautu gisa interpretatzen baititugu beti. Hots: &apos;ala ez&apos; gehitzea onartzen dutenak bakarrik dira bai-ala-ez motako hautagalderak &quot;gehitzea&quot; onartzen dutenak edo, hobeto esan, &quot;ezabatzea&quot; zilegi dutenak. Gauzak horrrela, [Etorri da Miren?] eta [Etorri da Miren ala ez?] galderak baliokide dira. Beraz, bidezko dirudi bientzat jatorri bera proposatzea: perpaus juntadura + elipsia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hau Izan Ohi Da Ordena Ohikoa</surname></persName>
+		</author>
+		<idno>63) eta (66)ko galdera guztiak bai-ala-ez-koak dira eta &apos;ala ez&apos; gehigarria agerian dutela ere eman daitezke: (67</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Adibidez: i(i) Mirenek Josebari pilota, eman zion? (ii) Mirenek, eman zion pilota Josebari? eta abar</title>
+		<editor>Holako bai-ala-ez galderetan (eta adierazpenetan ere bai</editor>
+		<imprint/>
+	</monogr>
+	<note>Etorri da Miren] ala. ez da etorri. Perpaus hauen interpretazioa, gainera, beti horixe da: &apos;X bai ala X ez?&apos;. 17 Hain zuzen, beti interpretazio horixe izateak egiten du zilegi aldarrikatzen dugun elipsia</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Dena dela, bada hemen arazo bat. Izan ere, galdera hauek ezezkoak ere izan daitezke: (i) Ez zenekien azpeitiarra nintzela?</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Hemen isilpeko osagaiak kontrakoa izan behar duenez, baiezkoa izango da. Dena dela, normalean zergatik ematen dugun lehenbizi baiezkoa eta ondoren ezezkoa, aztertzekoa da. Ez hemen, noski. (i)eko perpaus ezeztatu horren interpretazioa zein den</title>
+		<imprint/>
+	</monogr>
+	<note>zer aurresuposatzen duen eta abar ere aztertu behar litzateke</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">)koekin alegia. Hauetan ere, perpaus bakun itxurako galdera eta &apos;ala ez&apos; juntagaia erantsirik daramana modu berean interpretatzen dira. Hortaz: (70) a</title>
+	</analytic>
+	<monogr>
+		<title level="m">Gauza bera gertatzen da bestelako galdegaia duten bai-ala-ez galderekin ere</title>
+		<imprint/>
+	</monogr>
+	<note>Miren etorri da. ez da Miren etorri. Miren etorri da. ez da Miren etorri</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Aldiz, hiztunak bai-ala-ez galdera barik bestelako hauta-galdera osatu nahi duenean, bigarren juntagaia, osorik edo zati batean, gordetzea ezinbestekoa gertatzen da. Hots: bigarren juntagaia osorik ezabatzea hemen ezinezko gertatzen da: (71) a</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Galdera Hauek Ere Modu Jakin Batean Interpretatzen Dira Eta</surname></persName>
+		</author>
+		<editor>c. *</editor>
+		<imprint/>
+	</monogr>
+	<note>Miren etorri da] ala [Karmele (etorri da)]] ? b.. Miren etorri da] ala [Karmele (etorri da). Miren etorri da] ala [Karmele (etorri da). d.. Miren etorri da] ala [Karmele (etorri da)</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Miren etorri da? galdetzen duenak (ik. 71c) ez du zehazki Miren ala beste norbait etorri den galdetzen, Miren etorri den ala ez baizik. Hortaz, elipsia kasu hauetan bakarrik aldarrika dezakegu</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Badakigu bai-ala-ez galderetan al partikula txertatzen dutela euskaldun askok, ezinbestekoa ez bada ere, eta debeku batzuk ere badituen arren: (72) a. Nire lana, mirenek ikusi al du? ↓ b. Nire lana, mirenek ikusi du? ↑ (72a)k eta (72b)k, al partikula gorabehera, entonazioa ere zeharo desberdina dute. Batean goranzkoa, bestean beheranzkoa edo. Nolanahi ere, goranzko entonazio honek iradokitzen digu juntadura &quot;eten&quot; edo egin dugula. Galdera mota honen jatorrian juntadura dugula aldarrikatzeko argudio gisa erabili dugu gorago</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Al</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Nire lana Mirenek ikusi du ↑ala X-k ikusi du?↓ (= 72b</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Izan ere, (72a) bezalako galdera honek ez du &apos;ala ez&apos; gisako jarraipenik onartzen. Orokorrean, al partikula eta ala juntagailua gaizki &quot;ezkontzen&quot; dira: (74) a. *Miren etorri al da ala ez? 18 b</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Baina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Da</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artikulua Jonek irakurri</title>
+		<imprint/>
+	</monogr>
+	<note>*al) du ala ez du Jonek irakurri</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Hilgo ahal haiz&apos; modukoetan pentsatzea aski dugu. Partikula modal bat litzateke, denborarekin balioz aldatu dena. 19 Ahal hori indar ilokutiboaren adierazpen delarik, denboraren poderioz, indar horren balioa aldatu dela esan nahiko luke: desio batetik, erantzun-eskarira, galderara alegia. (72b)n juntadura izan genezake azpian</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ala-Juntadurarik Ez Du Onartzen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hortaz</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Perpaus bakuntzat har litezke, horrenbestez. Baliteke al horren sorburua ahal izatea. lan honetan aldarrikatu dugun bidetik</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Konplementatzaile sistema nola egituratua dagoen azaltzeko ematen duen bidea onartzen badugu, 20 funtsean, honelatsu taxutua legoke perpaus juntadura hori: (72&apos;) a</title>
+		<idno>INDAR-S [+GALDERA] [ FOKO-S Mirenek</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Hau onartuz gero zilegi litzateke perpaus bakoitzari bere galdegai gunea ere onar tzea, juntadura bere osoan &quot;harrapatuko&quot; lukeen galdera guneaz gainera. Rizzi-k</title>
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note>? (= ikusi du ala ez du ikusi?) b.. ikusi du nire lana] (ala [ez du Mirenek ikusi nire lana]) [… [… ]]]]? (= Mirenek ikusi du ala ez du Mirenek ikusi?) c. [ INDAR S [+GALDERA] [ FOKO-S nire lana. ikusi du Mirenek] (ala. ez du nire lana ikusi Mirenek. … [ … ]]]]? (= Mirenek nire lana ikusi du ala ez du nire lana ikusi?</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Rizziren proposamena ontzat emanez gero, perpaus hauetan guztietan bada Indar Sintagma bat, galdera bat egiten ari garela adierazten diguna. Gainera, galdera hori hauta-galdera bada, esan nahi du galderaren fokoa, galdegaia, egiazki, disjuntzio bat dela. Horrezaz gainera, aukerako mintzagaiez gainera, Foko Sintagma bat ere izango dugu: lehenbiziko kasuan foko hori, galdegaia, juntadura osoari legokioke. Baina (72&apos;b eta c)n</title>
+		<imprint/>
+	</monogr>
+	<note>galdegai diferentea dugu: batean [Mirenek], bestean [nire lana</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Adibidez: (75) Norbaitek esan dizu ala amets egin duzu? Eta hauen berri eman nahi bada, beharko da goiko (72&apos;a)ren antzeko zerbait. Alegia, hemen galdera bakar bat egiten dugu eta, horrenbestez</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Analisi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>Zilegi litzateke pentsatzea bai-ala-ez galdera hauek perpaus bakunak direla onartuta hobeki egokitzen ahal zaizkiola Rizziren eskemari (ik. Ortiz de Urbina. galdera horretan Indar Sintagma bakarraren azpian txertatu beharko ditugu gainerako osagaiak. baita junta</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">La particule ahal placée entre la négation ez ou encore l&apos;affirmation ba et la forme personnelle du verbe donne à la phrase une nuance d&apos;intérrogation rassurée à sens optatif</title>
+		<idno>Lafittek (1944: 99) dioen bezala:</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Azkueren (1923: §408) arabera, ala honen beronen jatorria</title>
+		<imprint/>
+	</monogr>
+	<note>Iparraldeko -a atzizkia, berriz, hemen hizpide dugun ala juntagailuaren arrastoa izan liteke. ahal+ -a. izango litzateke</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Gune horretan atal finko bat izango genuke, batetik Indar Sintagma deitzen denak eta bestetik Jokatutasun Sintagmak (Ortiz de Urbinaren (2008) terminologiari jarraituz) osatua. Eta horrezaz gainera beste atal bat Topiko eta Foko buruek eta hauen islapenek osatua, premien arabera. Indar buruaren inguruak perpausa adierazpenezkoa, harridurazkoa, galderazkoa, erlatibozkoa eta abar den adieraziko luke. Jokatutasunean, berriz, perpausa jokatua den ala jokatugabea den jasoko litzateke gutxienez. Horrezaz gainera, topiko eta foko buruak izango genituzke. Hots: perpausak honako itxura orokorra erakutsiko luke: (i)</title>
+	</analytic>
+	<monogr>
+		<title level="m">Ikuspegi honen arabera, konplementatzaile sistema zenbait buru funtzionalek eta hauen islapenek osatuko luketen gune bat izango litzateke</title>
+		<imprint/>
+	</monogr>
+	<note>Indarra [(top*) [fok [(top*) [Jok [Infl S]</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Erreferentziak</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Juntadura eta elipsia euskaraz. Bilbo, UPV/EHUko Argitalpen Zerbitzua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Amundarain</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Antisimetriaren hipotesia vs buru parametroa: euskararen oinarrizko hitz hurrenkera ezbaian</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Arteatx</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Artiagoitia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp; A</forename><surname>Elordieta</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<pubPlace>Bilbao, UPV/EHUko Argitalpen Zerbitzua</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Hatsarreak eta parametroak lantzen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Artiagoitia</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>Arabako Foru Aldundia</publisher>
+			<pubPlace>Vitoria-Gasteiz</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Morfología Vasca. Bilbo [2. argitalpena: 1969, Edit. La Gran Enciclopedia Vasca</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Azkue</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1925" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">«Yes-no questions are not alternative questions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Bolinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Hiz (arg</title>
+		<imprint>
+			<date type="published" when="1978" />
+			<biblScope unit="page" from="87" to="105" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Gramática descriptiva de la lengua española</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">&amp;amp; V</forename><surname>Bosque</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Demonte</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<publisher>Madril, Espasa</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">«La elipsis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Brucart</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="2787" to="2863" />
+			<pubPlace>Bosque &amp; Demonte (arg.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">&amp;amp; J</forename><surname>Etxepare</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ortiz De Urbina</surname></persName>
+		</author>
+		<editor>Hualde &amp; Ortiz de Urbina</editor>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="459" to="516" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Euskal Gramatika Lehen Urratsak I. Bilbo, Euskaltzaindia. -, 1990, Euskal Gramatika Lehen Urratsak III (Lokailuak). Bilbo, Euskaltzaindia</title>
+	</analytic>
+	<monogr>
+		<title level="j">Euskal Gramatika Lehen Urratsak IV (Juntagailuak)</title>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+	<note>Euskaltzaindia</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Franco</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Landa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">J</forename><surname>Martin</surname></persName>
+		</author>
+		<title level="m">Grammatical Analysis in Basque and Romance Linguistics. Amsterdam, John Benjamins</title>
+		<imprint>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Elements of Grammar</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Haegeman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Dordrecht</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Kluwer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">&amp;amp; M</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Romero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Syntax of whether/Q … or questions: ellipsis combined with movement</title>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="527" to="564" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Hiz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Questions. Dordrecht</title>
+		<imprint>
+			<date type="published" when="1978" />
+			<publisher>Reidel Publishing Company</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">A Grammar of Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I. &amp;amp; J</forename><surname>Hualde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ortiz De Urbina</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Mouton de Gruyter</publisher>
+			<pubPlace>Berlin-New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">The Cambridge Grammar of the English Language</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">G K</forename><surname>Huddleston</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Pullum</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<pubPlace>Cambridge. Cambridge U. P</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Johannessen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<pubPlace>Coordination. Oxford, Oxford U. P</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Karttunen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Syntax and Semantics of questions</title>
+		<imprint>
+			<date type="published" when="1977" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="3" to="44" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">Grammaire Basque (Navarro-labourdin littéraire)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Lafitte</surname></persName>
+		</author>
+		<editor>Baiona, Librairie «Le Livre</editor>
+		<imprint>
+			<date type="published" when="1944" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Larson</surname></persName>
+		</author>
+		<title level="m">On the Syntax of Disjunction Scope</title>
+		<imprint>
+			<date type="published" when="1985" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="217" to="264" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Orotariko Euskal Hiztegia. Diccionario General Vasco I. Bilbo, Euskaltzaindia, Mensajero</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">&amp;amp; I</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sarasola</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<publisher>Desclée de Brouwer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">«ba baiezko aurrizkia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Oihartzabal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskera XXIX</title>
+		<imprint>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="351" to="371" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Parameters in the Grammar of Basque. Dordrecht, Foris. -, 1999a, «Force Phrases, Focus Phrases and Left Heads in Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ortiz De Urbina</surname></persName>
+		</author>
+		<editor>Franco, Landa &amp; Martin</editor>
+		<imprint>
+			<date type="published" when="1989" />
+			<biblScope unit="page" from="179" to="194" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">«Focus in Basque</title>
+		<editor>Rebuschi &amp; Tuller</editor>
+		<imprint>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Indar sintagmak, Foku sintagmak eta ezkerraldeko buruak euskaran</title>
+	</analytic>
+	<monogr>
+		<title level="m">Arteatx, Artiagoitia &amp; Elordieta (arg</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="51" to="67" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title level="m" type="main">The Grammar of focus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">&amp;amp; L</forename><surname>Rebuschi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Tuller</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<pubPlace>Amsterdam, John Benjamins</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rudolf</forename><forename type="middle">P G</forename><surname>Rijk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>The MIT Press</publisher>
+			<pubPlace>Cambridge Mass</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Standard Basque. A progressive Grammar. London</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">«The fine structure of the left periphery</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Rizzi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="281" to="337" />
+		</imprint>
+	</monogr>
+	<note>in Haegeman (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">On the Syntax of either … or</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Schwarz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="339" to="370" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title level="m" type="main">Sintaxis de la oración compuesta. Oñate, Editorial Franciscana Aranzazu</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Villasante</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

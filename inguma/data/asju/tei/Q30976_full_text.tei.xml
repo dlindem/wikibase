@@ -1,0 +1,1559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Pouvreauren hiztegiez eta hiztegigintzaren historiaz</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+						</author>
+						<title level="a" type="main">Pouvreauren hiztegiez eta hiztegigintzaren historiaz</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>(EHU-Gasteiz)</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In this paper we propose a new view of the linguistic production of S. Pouvreau, a 17th century French-Basque lexicographer and translator. It was generally believed (see Mitxelena 1961) that his methods were primarily based on the collection of words learnt from oral contemporaneous Labourdin speech and on the study of books which were available to him and which he quoted repeatedly as ifthey were documental proof Against this view, we propose that the model ofdictionary which Pouvreau represents must be radically reconsidered in the light of several issues: the testimony provided by his translations (which are full of lexical creations); the overall structure ofhis dictionaries (including MS -C published by Bilbao 1992) as well as the structure of their lexical entries; the analysis of the behaviour of his sources and models (Oudin), and of the ideas explicitly maintained by contemporaries, in particular German ones (cfJones 1991).</p><p>Several facts lead us to believe that his dictionary is one uof competence" (cf Hullen 1988 on Schottelius) rather than uofspeech" as Mitxelena would term it. The first indication is that there is a very low percentage ofquotations from other authors and that such quotations appear under "head words" and not in the many derived ones. Secondly, derived words are placed underneath head words and they are formed with recurring suffixes. In addition, the only thing which Pouvreau explains in the introductory notes to the dictionary is precisely the formation ofwords. Finally, there is the fact that Mitxelena finds in P not only words which ((were" buy words which Ucould have been" -P's is the first documentary source even for many other words which have been since accepted in usage (cf Sarasola 1984ss)-</p><p>We present evidence which leads one to believe that, not only in the case of P but also in</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>that of other old Basque lexicographers and their contemporary European authors and models, it is grammar, in the sense ofsystem ofrules, which plays a fundamental role in language and its description, whilst vocabulary is a product of grammatical rules. Thus, the size, structure and adequacy ofthe lexicon depends on the nature ofthe syntactic rules ofthe language. Only if these rules degenerated would the language do so too <ref type="bibr" target="#b48">(if Lakarra 1994a</ref> on Harriet and other studies on the lexicographic ideas ofthe 17th and 18th centuries). Structure of the paper: § 1. Introduction; § 2. P "honest" lexicographer; § 3. On the abundance and accuracy ofthe quotations in P; § 3. Conclusions.' P's dictionary: a dictionary ofcompetence. § 11. References.</p><p>Laburpena: § 1. Sarrera; § 2. Pouvreau hiztegigile zintzo; § 3. P-ren aipuez: azterketa adibide bat; § 3.1. D-letran; § 3.2. F-letran; § 3.3. C eskuizkribuaz; § 3.4. P-rena ez da autoritate-hiztegia; § 4. Lexiko berrikuntza P-ren testuetan: § 4.1. Hitzberriak P-ren testuetan; § 4.2. P-ren testuetako hitzak HLEH-n; § 5. Lexiko berrikuntza P-ren hiztegietan: § 5.1. Hitzberriak P-ren hiztegietan; § 5.2. P-ren hiztegiko Aeta B-letretako konposatu eta eratorriak; § 6. Hiztegigileen bekatuez: § 6.1. Mitxelena P-ren bekatuaz; § 6.2. C-ko sarreren (eta gainerakoen) egitura; § 6.3. P. Oudinen zordun eta ikasle; § 6.4. Oudin-en ariketaz; § 7. Hiztegiak eta gramatikak: § 7.1. P-ren hiztegi aitzineko eratorpenarekiko oharrez; § 7.2. Eratorpena gramatiketan; § 7.3. Eratorpena Nebrijaren hiztegietan; § 7.4. Eratorpena P-ren hiztegian; § 8.</p><p>Hiztegigintza ariketatik gramatika teoriara: hiztegia gramatikaren morroi; § 9.</p><p>Alemaniar tradizioa eta gurea; § 10. Ondorioak: P-ren hiztegia gaitasunaren hiztegi; § 11. Bibliografia.</p><p>1. Sarrera* Como la obra trata de defender la capacidad de la lengua para expresado todo, se comprende que Larramendi, sin duda el primero, presentara a continuaci6n una teorfa de la formaci6n de los neologismos, punto que sigue todavfa de actualidad <ref type="bibr">(Tovar 1980: 87)</ref>.1</p><p>(1) Etzana neurea. Ohar bedi Tovar 1745eko hiztegiaz ari dela (berak 1853ko ediziotik aipatzen badu ere); beharbada bestelakorik esan zezakeen <ref type="bibr">Lakarra 1994a-n (44. or. eta hh.)</ref> aipatzen eta iruzkintzen den 15 urte lehenagoko Arte-ko '4Pormaci6n de los nombres substantivos y adjetivos" Tovarren azalpen errazegi honek -eta lehenagoko euskal tradizio aski luzeak-Larramendiren hitz-eraketarekikoak ia arazo pertsonal / pertsonalitate arazo bilakatzen duo Aurreko lanetan <ref type="bibr" target="#b48">(Lakarra 1985a</ref><ref type="bibr" target="#b48">(Lakarra , 1992</ref><ref type="bibr" target="#b48">(Lakarra , 1993</ref> Larramendik hitz berriak funtzio ezagun eta aurretiaz markatutakoarekin ("voces facultativas") asmatu zituela eta garai hartan eta lehenago ere (cf. Lakarra 1994a Martin Harrietez) jokabide hori gero baino hobekiago ikusia zegoela erakutsia dut -Etxeberriren kidetasun esplizitoak eta Pouvreau eta Urteren hiztegietako iharduera inplizitoak hala dioskute (cf. Lakarra 1994b-c, eta beherago)-; orobat, hitzberrion erabilerari dagokionez, Larramendik berak asmatuak zegokien neurrian erabiltzeaz landa, XVI eta XVII. mendeetako idazleek ere bide hori ibili zutela hark eta bere jarraitzaileek baino lehenago (cf. <ref type="bibr" target="#b48">Lakarra 1985a</ref><ref type="bibr" target="#b48">Lakarra , 1992</ref>. Asmatutako hitzberrien iraupena, jakina, ez datza neurririk handienean, beren eraketaren egokitasunean eta haien beharra eta kultura euskaraz eman nahia bateratsu doaz Larramendi eta haren jarraitzaileengan zein gainerako euskal idazleengan. Larramendik hitzberriak asmatzen hasi baino lehen euskalki bereiztasunik gabe bildu ahal izan zituen euskarazko hitz guztiak sartu zituen bere hiztegian Euskal Herri guztietara zabal litezen eta denetan ezagut. Guzti honek dakar, beranduagoko garbizaletasun batzuek ez bezala, bere hitzberriekiko joerak inongo etenik ez suposatzea (eta proposatzen duen mailebuekiko erdiko bideak hain gutxi) euskal tradizioarekiko eta, aldiz, Larramendirengan dugula katearen begirik sendoenetarikoa, bere jarraitzaileak ere tradizio horren zaletasunean hezten dituelarik.</p><p>Orobat, baditugu aztarnak susmatzeko Larramendi, bi mende beranduago altubetarrak bezala, ez ote zen gehiago arduratzen gramatikaren erabileraz ezen ez hitz honenaz edo harenaz; nolanahi ere den, ez gutxiago sermolari txarrei egin errietetan eta bere ondorengoen gramatikarekiko arduran (eta Artea-k lortu hiztegiarekiko baino zaletasun ez txikiagoan) oinarriturik; azken finean Larramendiren lanak ez dira behar bezala ulertu biak batera, gramatika eta hiztegia aztertu ez direlako. Biak dira elkarren osagarri, batak bestea eskatzen zuen helburua -hizkuntza bere osoan agertzea eta kultur lanabes eta bitarteko izan zedin lantzea-beteko bazen; gramatika hiztegiaren berme izatera dator, haren oinarriak sendotzera eta balorea aragotzera, eta zenbaitek hartan ikusi nahi izan duten txantxetako jostailu-itxura arras suntsitzera eta ezabatzera.</p><p>Lehenago erakutsi bezala (cf. Lakarra 1985a eta 1993-ko azken kapitulua), ezin manten daiteke hain ospe txarreko izan dituen hitzberriak erdal egokitzapenak betetzeko eta kanpotarrak isiltzeko asmo maltzurrez sortu zituela Larramendik, berak baitu miatu izan balu; nolanahi ere ustezko lehentasun horretaz mintzatuko gara haboro. Aipatu lan horretako § 2.6.ean nenkarren Harrieten beraren hitzberri eraketa proposamenaz ere gogora zitekeen; alabaina, horren berri Tovarrek Humboldten bitartez izan zuela dirudi (liburu osoko aipu bakarra, 152. orrialdean, zeharbide horretatik dator). Bat etorri behar hitzaurrean dioenarekin: /Cia mitologfa termino por convertirse en ideologfa, y la rutina y la ignorancia, en circunstancias desfavorables y peligrosas" (11) eta, beharbada, 44 al agravamiento de la situacion poHtica han contribuido la informaci6n sin crftica y siempre incompleta y l~llegada y difusion tardla de ideas objetivas y cientificas" (9). Beharbada Etxeberri Sarakoaren eta beste zenbaiten azterketa saihestu ez balu zailago gertatu zatekeen liburuari berari juzku hori merezi 050Z ezartzea. aitorrzen, aldarrikatzen hobe, (eta gazteleraz egin ere, guztiek ulerrzeko moduan) "voces facultativas" delakoak guztiak asmatu dituela lehenago horrelakorik ez baitzen sortu premiarik ere ez izaki. Premiak, ordea, garaian garaikoak eta zeinek bereak; Larramendi aurretik ere horrelakorik nozitu eta nolabait konpondu nahi izan zela dakusgu Harrieten lekukotasunean. XVI eta XVII. mendeko idazle lapurtarren obretan ere hirzberri anitz bildu ahalko genukeela markatua dur dagoeneko, eta orobat hiztegieran andoaindarraren aurretiko ohitura dugula are euskal hiztegigintzan (cf. <ref type="bibr" target="#b48">Lakarra 1985a</ref><ref type="bibr">Lakarra eta 1994a</ref>. Beldur naiz puntu hauek ez diren behar arretaz aztertu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Pouvreau hiztegigile zintzo</head><p>Silvain Pouvreau frantses elizgizon eta Lapurdin euskaldunberri eta euskal idazle bilakatuaren euskara-frantses (eta, zati batzuetan, -latin-gaztelerazko) hiztegi amaigabea Landucciren Dictionarium linguae cantabricae <ref type="bibr">lehenaren (cf. Agud-Michelena 1958)</ref> baino ehun bat urte beranduagokoa (1665 b.l.) dugu. 2 Parisko Biblioteka Nazionalean bi kopia ezberdinetan (7. eta 8. eskuizkribuak) gorde da. 8.a fafarda-tik xusquerra-ra hedatzen da 167 foliotan (gramatika ohar eta besterekin); 7.a osoa dugu, 213--f-oliotan, zuzenketa eta gehiketekin. Oraindik argitaragabe badirau ere, Duvoisin, Aizkibel, Maurice Harriet, Azkue, Lhande eta bestek baliatu dute, (Xahoren kopia ere ikusia dut) aspalditik baita ezagun haren aberastasuna:</p><p>En la Biblioteca Nacional de Paris se conservan, aparte de otros manuscritos, dos copias de un magnifico diccionario vasco-frances [Incluye -dio oharrean-muchas veces la traducci6n' castellana, pues Pouvreau conOCla muy bien esta lengua, la latina e incluso la hebrea. Hay tambien en su diccionario muchisimos refranes castellanos, junto con los vascos y 10s franceses] que desgraciadamente sigue inedito si bien es verdad que ha sido profusamente aprovechado por 10s lexic6grafos posteriores desde Humboldt, para componer el cual estudi6 Pouvreau detenidamente las obras impresas de varios autores vascos (Leizarraga, Axular, Harizmendi, Etcheberri, pero no Dechepare) y conto entre sus informadores a Oihenart'l <ref type="bibr">(Mitxelena 1960: 74-75</ref> Urquijok bere lanaren ondorio gisa emana ezar genezake hemen, Pouvreauren hiztegiarekiko uste orokorra izan baita geroztik:</p><p>(2) Ikus <ref type="bibr">Vinson (1891</ref><ref type="bibr">Vinson ( , 1892</ref><ref type="bibr" target="#b86">Vinson ( , 1910</ref> eta <ref type="bibr" target="#b44">Kerejeta (1991)</ref>: lehendabizikoak Pouvreauz dakizkigun biografi datu gehienak bildu zituen, artean bere liburuen edizio fetxak ere erabiliaz; bigarrenak Pouvreau eta Oihenartek gurutzatu gutuneria miatzen du egileak eskatu eta zuberotarrak bidali char interesgarriak noiz arte luzatzen diren eta, azken finean, noiz arte diharduen Pouvreauk bere hiztegian jakin asmoz.</p><p>(3) Etzanak neureak, bihurtuko naiz beherago pasarte honetara; bidenabar, ez dirudi P-ren gaztelera ezagutza sakonaren frogarik denik orain.</p><p>(4) Hasiera batean Zalgize eta Beriain ere hautagai zituzten bi lehenek.</p><p>Queda tambien evidenciado, que Pouvreau, sacerdote no vasco, pero que logr6 aprender el vascuence mientras desempenaba su ministerio en la parroquia de Bidart, prosigui6 sus estudios en ParIs con verdadero entusiasmo. No satisfecho con aumentar el escaso caudal de libros en vascuence mediante las traducciones del catecismo del Cardenal Duque de Richelieu, del Philothea y del Gudu Espirituala, procura incluir en su diccionario cuantos vocablos encuentra en las obras de Lizarrague, Oihenart, Axular, Etcheberri, Sauguis y otros escritores; pide en los casos dudosos explicaciones al celebre autor de Notitia Utriusque Uasconiae; y todos estos trabajo y afanes dan por resultado el vocabulario vasco-frances que, por imperdonable desidia de los vascos, permanece todavIa inedito <ref type="bibr">(Urquijo 1910: 519)</ref>.</p><p>Pouvreauren lanaren balioa behin baino gehiago goraipatu izan du Mitxelenak: "Eta iturburu nagusiak, euskal-iztegi lanetan, bi dira. Amazazpigarren mendean, Silvain Pouvreau erdalduna; emezortzigarrenean, <ref type="bibr">Larramendi andoaindarra" (1961: 361)</ref>; "eztago orren balioa geiegi goratzeko beldurrik: lotsarik gabe esan diteke, erdaldun batena izanik, geroagoko edozein euskaldunenak baifio uts gutxiago duela" <ref type="bibr">(1961: 370)</ref>. Baina, ondoko hiztegigileek dioten zorraren handia markatu arren, akats bat bederen aurkitzen zion: "Erru bat du izatekotan: izan ditezkean itz erakarriak, ez direnak bakarrik, sartu dituela zenbait aldiz, dirudienez beintzat." (ibid).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Pouvreauren aipuez: azterketa adibide bat</head><p>Hiztegiaren garrantzia euskal lexikografiaren eta lexikoaren historian paregabea izan arren, ikerketa oso atzera dugu: monografia on bat falta zaigu egituraz, bi eskuizkribuen arteko diferentziez, hauen eta hiztegi laukoitzaren saio laburraren 10turaz,5 erdarazko iturriez, ereduez,... hiztegiaren beraren edizio-arazoez landa. <ref type="bibr">6</ref> Bere euskal itzulpenetako hizkera ere argigarri bide genuke egiteko honetan (ikus Lakarra 1992 eta 1993ko azken kapituluko oharrak eta beheragoko oharrak). 3.1. Nago Pouvreauren hiztegiari buruzko oinarrizko zenbait ustek ez duela oinarri sendoegirik, D-n aurkitu sarreren azterketaren bitartez segidan erakutsi gogo dudan legez.</p><p>..</p><p>[ 3.2. Orobat F-letran ere: fantasia "fantaisie", fardela "fardeau, charge", fardelen eostumateea "auoir soin des charges du bureau", fastieateea, tentateea, haserreteea "fascher, se fascher, depiter", fermua "ferme, stable, constant", fleeha, fletxa '''fleche'' ditugu, baina fantasiatcea, fantasiatsua, fantastieoa, fantasiateea; fardelafaina, fardelasalea, fardelaea, fastigagarria, fastigagarrizeoa, fastieoa, fermuteea, fermutasuna, fermuqui, fleeharia, inongo itzulpenik gabe beren eratorri eta konposatuak. Badira, noski, familiera "familier", familierqui "familierment", familiertasuna "familierite", familierteea "rendre ou deuenir familier", nahi naiz familiertu "je veux me familiariser" eta fanfaroina "fanfaron", fanfarointeea "deuenir fanfaron", fanfarointasuna "fanfaronnade", fanfaroin guiza "comme un fanfaron" bezalako hitz-familiak osorik edo gehienean itzulpenaz lagunduak ere; marka bedi, nolanahi ere, inongo jatorri-markarik ez darakustela. Areago dena, F letra osoan fauna A 38, non fida han gal O.pr.337, forta "fort de guerre, azearleeua.O." dira aipu bakarrak 250-260 bat sarrera eta azpisarreratan; urri, eta batto ere ez eratorri edo konposatuentzat.</p><p>3.3. Gidor Bilbaok argitaratu zuen Pouvreauren C eskuizkribu ahantziak <ref type="bibr" target="#b14">(Bilbao 1992</ref>) Pouvreaurekiko hurbilketa berrikusi beharrean garela erakusten digu. Har ditzagun C-ko lehendabiziko bi orrialdeak (17r-17v); bertan egileetarik hartutako aipu hauek kausitzen ditugu: arreba biz etehea <ref type="bibr">bethe,</ref><ref type="bibr">pr. 486;</ref><ref type="bibr">arregateea nigar uriz,</ref><ref type="bibr">Lu. 7;</ref><ref type="bibr">arretsia,</ref><ref type="bibr">0.,</ref><ref type="bibr">haretsia,</ref><ref type="bibr">enrou'~' arrobateea (au) A.;</ref><ref type="bibr"></ref>  <ref type="bibr">[arronta, arrontera}, gueiequin solhas-(7)</ref> Cf. 3. oharrari dagokion testuko aipuan etzanean emana edota "...el [hiztegia] de Pouvreau, del siglo XVII, cuyas fuentes ademas son bastante bien conocidas" <ref type="bibr">(Mitxelena 1970: 27)</ref> eta azkenengo gisa "it [P.-ren hiztegiak] often gives the words in context, carefully indicating the author who used them" <ref type="bibr" target="#b12">(Azkarate 1991</ref><ref type="bibr">(Azkarate : 2373</ref>. Bidenabar, interesgarri gerta zitekeen, toki faltaz edo, zehaztu gabe utzi zuen perpaus horren aurretik doan "Although many very basic words are missing... n • (7b) Mari Jose Kerejetak gaztigatzen didanez, izan daitezke aipatu gabeko iturri-erabilerak; nago, ordea, horiek zehaz balitez ere ez bide liratekeela ene P-rekikoak gehiegi aldatuko. turi, amolsu eta arronter (A. 166); {id} gaixtoen arrontatceco sega (A. 572); arsca 0., mahira, mahia; artfa, Eneco atcheca hi artfari, nic demadan jhesari.</p><p>Zortzietarik lehena da soilik A-n falta dena; ez du, bada, lekukotasun idatzirik gehitu azken bertsiorako. Are gehiago, bat edo beste ezabatu ere egin du (A-n arrochina-k eta arrotzcalea--k "A." dute, C-n ez bezala) edota zehaztasun gutxiagorekin (A-n arregatcea... "Lu 7,38" datorkigu C-ko "Lu 7"-ren aurka).</p><p>Ez dirudi gainerako orrialdeetan ere bestela aritu denik: {bide} artefari artez <ref type="bibr">iarraiquitcea, {gau} art-urratcegabea, {fuhurcia} asco bat, asmatfac, asper hartu dut, atalaya, atceac larrua hotz, atchetera, athearen erroac eta uhalac, atheac atheari daraunsanean, athalgarna, atharbea, atharbepean, {bigarren} atrapaduran, {ondore} atsecabetcea, auherra, aurkaz aurk, etab</ref>  <ref type="bibr">Lepinette-k (1989: 299</ref>  <ref type="bibr">iaquingabea,</ref><ref type="bibr">27 erorcor,</ref><ref type="bibr">hautscor,</ref><ref type="bibr">galgarrietara,</ref><ref type="bibr">29 largotasun,</ref><ref type="bibr">30 flacotasuna,</ref><ref type="bibr">minfacorra,</ref><ref type="bibr">32 guthiciadurari,</ref><ref type="bibr">33 superbiotasunari,</ref><ref type="bibr">34 jetchotasunaz,</ref><ref type="bibr">38 Iaincotiartasunaren,</ref><ref type="bibr">41 fasticagarriac,</ref><ref type="bibr">42 jermugabetasuna,</ref><ref type="bibr">45 probetchugarri,</ref><ref type="bibr">47 hautscor,</ref><ref type="bibr">51 epeltasuna,</ref><ref type="bibr">ansigabetasuna,</ref><ref type="bibr">berotasunetic,</ref><ref type="bibr">55 solhasquerietan,</ref><ref type="bibr">urguillutasunetic,</ref><ref type="bibr">devocionetsu,</ref><ref type="bibr">57 pisutasunaz,</ref><ref type="bibr">(8)</ref> Ikus Lepinette 1989 Seco-ren aurka. Lepinette-k erakutsi legez Covarrubias ez da sail horretakoa zeren eta (lee concept d'autoridades -tel"que nous l'entendons aujourd'hui et tel qu'apparemment Seco le con~oit, i.e. phrases exemplaires dont le role lexicographique est celui d'adjuvant dans un processus d'explicitation semantique de la langue -espagnole ici-et en meme temps, celui de realisation modelique dans un discours valorise, est dans tous les cas, totalement etranger a Covarrubias" <ref type="bibr">(Lepinette 1989: 301)</ref>. <ref type="bibr">vanaloriasaleentfat,</ref><ref type="bibr">languiadura,</ref><ref type="bibr">bessarcatfaillea,</ref><ref type="bibr">flacotasunetic,</ref><ref type="bibr">257 bihotzgabetasuneco,</ref><ref type="bibr">gogoetatsu,</ref><ref type="bibr">devocionegabeco,</ref><ref type="bibr">devoci°netsu,</ref><ref type="bibr">eztitasuneco,</ref><ref type="bibr">vicigarria,</ref><ref type="bibr">258 garbitasuna,</ref><ref type="bibr">sai1idutasuna,</ref><ref type="bibr">259 lanquidea,</ref><ref type="bibr">ecin icusizco,</ref><ref type="bibr">obratfaillea,</ref><ref type="bibr">beregaineco,</ref><ref type="bibr">eguinbideari,</ref><ref type="bibr">261 conseillaria,</ref><ref type="bibr">beharquietan,</ref><ref type="bibr">Iaincozcoaren,</ref><ref type="bibr">humiltasun,</ref><ref type="bibr">devocionetsu,</ref><ref type="bibr">262 urriquimendu,</ref><ref type="bibr">cilheguiqui,</ref><ref type="bibr">hildumatugabeac,</ref><ref type="bibr">hertscailluetan,</ref><ref type="bibr">humilgarrien,</ref><ref type="bibr">263 berantcor,</ref><ref type="bibr">265 simpletasunean,</ref><ref type="bibr">266 esque(r)gabetasunen,</ref><ref type="bibr">267 bidegabeztatu,</ref><ref type="bibr">muturtasuna,</ref><ref type="bibr">haserredura,</ref><ref type="bibr">269 loakartasun,</ref><ref type="bibr">271 distiaduraren,</ref><ref type="bibr">272 doatsutasuneco,</ref><ref type="bibr">]aincotasunaren,</ref><ref type="bibr">274 sendagarrizco,</ref><ref type="bibr">apeztasuneco,</ref><ref type="bibr">275 maitaria,</ref><ref type="bibr">saindutasun,</ref><ref type="bibr">biotzberatasun,</ref><ref type="bibr">277 baqueguillea,</ref><ref type="bibr">278 miragarriqui,</ref><ref type="bibr">°ntasuna,</ref><ref type="bibr">281 higoindura,</ref><ref type="bibr">285 arguidunac.</ref> Pouv. Petits oeuvres <ref type="bibr">5 saluatfaillea, saluaria, 6 mintfaillea, minfaria, laboratfaillea, irakastfaillea, irakaztuna, ikaztuna, ikaslea, fuhurtasuna, fuhurtcia, irakazmendua, 7 berreguindura, berreguintasuna, berreguinqueria, lifunqueria, lifuntasuna, lifundura, erh°queria, erhotasuna, asquitasuna, asquitcea, 11 crueltasunian, barrencorric, 13 urruntasuna, 15 primutasunaren, 17 billusgorritasunaren, 18 miraculluscoac, 20 maitatfailley, laincozcoaren, 21 borthiztasunaren, 25 compligarri, 28 ahalkadura, urguilluqueriac, ahalketasunac, neurrigainezco, burupea, 29 creatugabea, othoitzgu.illeen, 30 peintadura, 31 goratasunaren, beheratasunaren, 32 ecin hillezco, 33 maitarasun, miragarritasunac, nahasmenduco, beregainezco, 34 ohorezcoaren, 35 seruitfutasun, 36 etcheguille, miragarri, 37 berdindurac, lerrodura, munduguilleac, 75 guerthanfa, 76 burupetsutasun, gogortasunaren, seculacotasun, 77 beguitartetsua, liberaltasunen, 78 iustugarritasunaren, saindumenduaren, 79 compligarri, 80 mudagabeco, naturalefazco, gaytasunaren, ukigarri, obligagarrizco, eppagarriric, 82 iustutasunaren, eraguintcetara, ordenatfaille, 83 esquiribatfailleac, 84 sehitasunezco, espantagarri, pompiresunez, 86 saindugarritasunaren, ethorquizco, sehitasunetic, 88 neurrigabeco, ondocotasunaren, hiltcecotasuna, barrayamenduac, 89 eguitateac, ezhiltcecotasun, ezgaltcecotasunetic, galtcecotasunera, 90 batetarasuneraino, ithurburuzco, 91 hobengabetasuneco, baldintasun, legueguille, 92 hobengabe, hobengabetasuna, ohizcampoco, cimendatfaillearen, 93 iustutasuna, libratfaille, bozcariotfaille, 95</ref>   <ref type="bibr">carga-abrez, ipizpicutasuneco, eguinbide, arthaldearen, saluamenduaren, espiritualqui, creatfailleac, borondateari, particularqui, prepara aracitceco, gomendio, premiasco, affictioneagatic, espirituala, eztitasun, ontcecoric, ianhariac, pisugarrisco, othurunfac, partale, seruitfari, affeaionatua, aitcinamendutan, othoitsten, bakanqui, astiroqui, pausatuqui, errasqui, sati/acione, /roganfac, choilqui, consideracione, predicari, dotortasuneco, saluatfaillearen, 1 gomendioaren, efagutfac, clarqui, 2 aisequiago, 3 beregain, generalqui, iugeamenduaren, 4 iaincotasunean, saristatuac, iaquinsunec, 5 trinitatearen, bereciqui, manamenduetan, obligacione, sacramenduac, 6 bilduma, premiascoa, o/ficialec, 7 batasunean, ontasunac, edari, 8 ossasuna, doatsuqui, consideracione, eguillea gatic, 10 dudagabesco, eguiascoac, seguranza, naturala, eguiati, 11 consentimendu, sentimenduaren, 12 actualaz, cinetstearen, habitualaz, 13 usanfa, bereciqui, 14 gueyentasuna, 15 bacoitfa, mantenatcen, pagatfaille, 17 botheretsutasuna, botheretsu, indarsuagoric, 18 fuhurcia, adimenduaren, ithurburua, 19 hegaztinac, 20 borthitztu, berotu, viciqui, finqui, 21 febleciac, beregaineco, neurrigabecoaren, ondicosco, endellegua, 24 doatsuec, 25 untagarriaz, bethetasunaz, naturalefascoa, iaincotasuna, 26 ifaite, infinituqui, 27 fucenquiago, libratfaillearena, 28 comunsqui, 29 arrafoinesco, iaquingabetasuna, 30 iuntatasun, appurtasuna, febleegui, 32 hormatu, goibeltasunaren, beltstutasunaren, ilhuntasunaren, ostatatcen, abre-belharraren, 33 gogoetetaric, 34 virginitatearen, seruitfatcera, /ermuqui, 35 ecin hillescoa, hil beharresco, 37 sortce, miracuilluscoa, kiratstasuna, urkalecutic, 38 harrigarri, macelacoz, itcestatu, garratzquiena, forrotzquiena, desohoreac, gaizqui erranac, 40 guerla-gendeac, hobendurien, gaixtaguinen, hobengabe.</ref>  may at any moment be introduced with impunity; however, the sober truth is that speakers, for some reason or other, do not bother to activate all of these potentialities, and scrupulous lexicographers, unless they adopt a preceptive actitude, ought no to tolerate, still less stimulate, their infiltration" <ref type="bibr">(Mitxelena 1961: 370)</ref>.</p><p>Har bitez Pouvreauren hiztegiko ondoko sarrerok:</p><p>cimurra "ride", cimurtcea "rider, fourir", cimurtasuna, cimurdura; circilla "dechire en ses habits", circiltcea, circildura, circiltasuna, circilqui; cofia j'cotieffe", cofiatcea, cofiadura;</p><p>colera "colere", esquer emoc ene coleran egonari f. ..], coleratcea, coleratsua, coleramendua;</p><p>consolatcea "consoler", consolacionea "consolation", consolamendua, cons0lagarria, conso latfaillea; curiosa "curieux", curiostasuna, curiostea, curiosqui; furmindua "moisi, vermoulu", furmindura, furmintasuna, furmintcea; damua "douleur, regret [...]", damucorra, damutsua "damuz bethea", damu gaitzic, damugarria, damutcea, damutcecoa, damuztatcea, damuztaturic; desgogara "a contrecoeur", desgogara fait "il me deplaist", desgogaracoa "qui deplaist", desgogaramendua, desgogaragarria; dolua "deiiil", doluzcoa "de deuil", doluzco arropa "robe de deuil", dolugarria, dolutzea, dolutsua; dukea "due", duketcea, duketasuna, dukezza; dulcea " doux, eztia", dulcetcea, dulcetasuna, dulcequi; durdusia "menace", durdusiatcea induriatcea, "menacer, froller", durdusiadura, durdusiatfaillea, durdusiaz eta mehatchuz, durdusiaturic igorri nau.</p><p>Ez ote beraietan eite susmagarririk? Berba gehienek ez dute ez itzulpen ez iturri markarik eta zenbait hurbilagotik miatzen baditugu badirudi alor semantiko horretako bat edo beste aditu edo irakurririk gainerakoak euskal morfologiaz, atzizkien baliabideez zehazki, zekiena erabilirik osatuak direla. <ref type="bibr">12</ref>  Oinarriak ezkerretara eta gainerako eratorriak barneraxeago sartuak ikusten ditugu; argitaratzaileak dioskunez "hiztegi etimologikoetako gisara, multzoka antolaturik daude bi eskuizkribuak [A eta C]; sangratuaren bidez' adierazi ditugu guk multzoak, multzo bakoitzeko lehenengo hitza gainerakoak baino ezkerrerago emanez" <ref type="bibr">(Bilbao 1992: 349)</ref>.</p><p>Badirudi Pouvreauren hiztegiari ere (orobat beranduago honen zordun den Lhanderenari) ongi datorkiola Barbara von Gemmingen-ek (1992) Covarrubias-en Tesoro de la lengua espanola-ren makroegitura aztertzean aurkitu eta, seguru asko, beste hainbatetan ere betetzen dena. Makroegitura nagusia alfabetikoki antolatua litzateke, ez, aldiz, deribatua: 13 honetan azpisarrerak zenbait hizkuntz azterketaren ondorio dira: a) ahaidetasun etimologikoan -lotura diakronikoan-diren formak (guevo-ren az-pian} oval} ovalo, etab.); b) eratorri edo konposatuak, sarrera nagusiaren ondotik: loturak itxura sinkronikoa du orain (estimar-en azpian estimado} estimarse} estimable} inestimable} estimacion°e stima} estimarse en poco J cosa de estima); c) semantikoki edo paradigmatikoki lotutako formak: sarrera nagusiaren antonimo eta sinonimoak, aldaera diatopikoak edota gizatald'e berezi batek erabilitako kideak. Pouvreauk frantsesezko definizioaren ondoren ematen dituen gaztelaniazkoak, bat datoz, hitzez-hitz [hiztegi horretakoekin]. .. Are gehiago, batean behintzat harrapatu dut Pouvreau tokatzen ez dena kopiatzen ere: alaba sarreran, "fille" da ematen duen frantsesezko kidea, eta Oudine-ek fille-ren ondoren dioen guztia aldatzen du, hau da: "hija, mo&lt;;a, doncella", begi bistan dago azken biak ez dagozkiola alaba-ri. Ez dakigu Pouvreauk ez ote zekien gaztelaniaz uste izan den bezain ongi, edota "automatismo" hutsaren ondorio ote den (ibid).</p><p>Oudin erabili duela ezin argiago egiten zaigu gaztelerazko ordain batzu astiro miatuz gera. Hara hemen batu ditudan zenbait adibide: Eta honen ertzean direnek argiro erakusten dute Pouvreauk egiten duen Oudinen erabilera zabala. Izan ere erabilera horrek ez gintuzke harritu behar, -euskal filologiaren eta hiztegigintzaren historiaren atzerapenaren isla baino ez da gertakari hori lehenago ez susma eta ez frogatua-Gili <ref type="bibr">Gaya-k (1949: xxii)</ref> "su influencia fue tan grande que puede decirse que todos los diccionarios bilinglies y plurilinglies deben algo al Thresor de Oudin, y algunos se limitan a copiarle 0 traducirle con pocas alteraciones" dioenetik.</p><p>Haatik, ez da hemen agortzen Pouvreau eta Oudinen arteko erlazioa. 1607koa da, bai, Oudinen Tresor des deux langues-en lehendabiziko argitalpena; ez da ezinezko, beraz, Pouvreauk hori erabiltzea Kerejetak nahi legez, ezta sinestekoa ere, ordea. Hasteko, Oudinen liburu horrek, bere enparatuek legez, edizio gehiago izan zuen, batetik bestera zenbait aldaketa direlarik (cf. Cooper eta Lepinette-ren lanak). Aldaketa horien artean handienak 1616ko bigarrenean seguruenik, Girolamo Vittori-ri lehendabiziko edizioarekin italiarrak egin zion kopiaketa bihurtzea erabaki zuenean; i bigarren honetarako, bestalde, agertua zen Covarrubias-en Tesoro-a eta han ere idoro , zuen Oudin-ek berea zerekin aberas. Hori bai, bada hor Kerejetak -ezta lehenago 'Cooper-ek ere-ikusi ez duen puntu bat: Oudin-ek ez du Pouvreauk bezala errefraurik jasotzen: "Un domaine dans lequel au contraire, il n'y a pu avoir d'interferences ni d'emprunts au Covarrubias de la part d'Oudin et que ne signale pas <ref type="bibr" target="#b20">Cooper (1960a)</ref>, est celui des proverbes qui son frequemment presents dans le Tesoro et systematiquement exclus <ref type="bibr">de Oudin" (Lepinette 1989: 262)</ref>. Eta orduan? Oudinengan hartu ote zituen frantsesezko ordainen gaztelaniazko kideak baina Covarrubiasengan hari falta zitzaizkion errefrauak? Ez da ezinezko baina ez dirudi beharrezko; hara nola jarraitzen duen Lepinette-k: "cet auteur <ref type="bibr">[Oudin, noski]</ref>   <ref type="bibr">Cooper-ek (1960a</ref><ref type="bibr">Cooper-ek ( , 1962</ref> eta <ref type="bibr">Verdonk-ek(1979)</ref>; beranduago Gue-rrero-k (1988: S02hh) Nebrija gehitu du haren iturrien zerrendan, izan ere Pallet, Hornkens eta Covarrubiasek Nebrijarengan jaso ez zituztenak hartzen baititu Oudinek. <ref type="bibr">16</ref> Guerreroren analisiak badakarke Pouvreau eta euskal hiztegien ikerketarako ere ezinutzizko den aitzinamendurik. Beste lexikografoenarekin egin legez, Nebrijaren obra Oudinek nola egokitu duen aztertzerakoan hiru sail egiten ditu Guerrerok: lehenengoan Oudinek Nebrijarengandik, isilpean edo aitorrarekin hartutako hitzak dira; bigarrenean (gutxienak) Nebrijarengan ziren eta Oudinek ezabatzen dituenak. Goian ikusitako Pouvreauren Oudinen hiztegiaren erabilera ikusi ondoren, gehien axola zaiguna hirugarren saila dugu zalantzarik gabe, egileak bere kabuz gehituena, alegia:</p><p>El procedimiento seguido por Oudin para afiadir palabras consiste fundamentalmente, como ha sefialado Cooper, "en aumentar el numero de artfculos fabricando, por as! decirlo, derivados a partir de voces procedentes de alguna de sus fuentes (Hornkens, Pallet y otros)". Hemos podido comprobar que Oudin es el lexic6grafo -entre 10s estudiados-que forma ffias derivados a partir de vocablos existentes en Nebrija. Algodonadura J algodonar, algodonado derivadas de algodon, aliuiado, aliuiador, aliuiamiento a partir de aliuio 0 aliuiar, alifiado de alifiar, almejal y almejero de almeja J almenar y almenado de almena [...]17 De un total de 3781 entradas contabilizadas en la A de Oudin, frente alas 2437 en la A del vocabulario nebrisense, 1216 vocablos, que suponen 1432 entradas, el 37,88 % son comunes, otros 168 mas, que suponen 182 entradas, e14,82 %, estan de alguna manera en Nebrija; y 2059 vocablos, que suponen 2167 entradas, el 57,30 %, son no comunes, aunque, mucha de ellas, resultan derivadas de vocablos existentes en Nebrija. 18 <ref type="bibr">[...]</ref> De todas maneras, Oudin no se limita en modo alguno a plagiar a sus predecesores, sino que teniendo en cuenta estas fuentes, tuvo la habilidad de construir un diccionario que podemos considerar el de mayor originalidad de los diccionarios bilingiies <ref type="bibr">(Guerrero 1988: 505-506</ref> . El cotejo de unas treinta paginas de P (0 sea un total de 2.000 artfculos) con las correspondientes de o me ofreci6 a1gunos resultados interesantes: Oudin elimina 46 artfculos de P, 26 de 10s cuales son derivados en -or. Parece ser que Palet formaba mecanicamente esos derivados definiendolos mediante una oraci6n de relativo (desfamador "qui diffame", etc). Muchos de eilos son seguramente creaciones caprichosas que no se debieron usar nunca en la lengua viva (degotador "qui degoutte", desarrugador "qui desride", desatador "qui deslie", descaminador "qui fait esgarer", desembravecedor "qui aprivoise", desgrenador "qui escheuele", despegador "qui destache", desvirgador "qui despucelle", embrocador "qui passe quelque chose par un trou", empeorador "qui empire", empuxador ('qui pousse"), y nada de raro tiene que Oudin los haya rechazado <ref type="bibr">(Cooper 1962: 319</ref> Quemar-en ondoren quemado, quemado del sol, quemador, quema-quemada-quemadura, quemadura eta quemazon, punfar 0 puncear-en pean punfador, punfado, punfadera muger, punfadura 0 punfada, <ref type="bibr">punfante, punchon, punfon, punfoncico; pagar-etik paga, pagado, pagador, pagamiento datoz; negar-etik negacion, negado, negador, negante, una negatiua; llorar-ek lloradera, lloradero, llorado, llorador, lloramiento, llorando, Iloro, lloron, lloroso,</ref>   <ref type="bibr">Lepinette-k (1992: 48)</ref> Oudin-ena jarri du kolokan orduko gaztelera eta frantsesari dagokienez. Halaz guztiz, ahulegiak iruditzen zaizkigu bere ondorioak: "S'il s'agit de rendre compte de l'usage d'une epoque, la lexicographie bilingue ne sert pas: les emprunts en chaine specifiques de cette derniere rendent vain cet effort de releve des dates d'attestation et des sens dans ces dictionnaires" <ref type="bibr">(Lepinette 1992: 48-49</ref> Laboratfaillea, qui laboure effectiuement.</p><p>Erraillea diseur, de erraitea dire.</p><p>Eguillea faiseur, de eguitea faire.</p><p>Erroillea qui pond, de erroitea pondre. Ehaillea tixier, de ehaitea extre.</p><p>--Iracurtfaillea ou jracurlea lecteur, de iracurtea lire.  Hain gutxi ahaztekoa 172. orrialdekoa: <ref type="bibr">(22)</ref> "Denominativos se pueden llamar todos 10s nombres que se derivan y decienden de otros nombres; y en esta manera, 10s patronfmicos, possesivos, diminutivos, aumentativos y comparativos, se pueden llamar denominativos; mas propria mente llamamos denominativos aquellos que no tienen a1guna especial significacion" (ibid, 170).</p><p>(23) Horrela -ida, -on, -e, -ento, -do, eta -or (eta a1daerak).</p><p>otros salen en otras muchas determinaciones; mas el que escrive preceptos del arte abasta que ponga en el camino al lector, la prudencia del cual, por semejan&lt;;a de una cosa a de buscar otra.</p><p>Nebrijaren eta lehen aipatu Oudinen 24 kidetasunak -euskal kiderik ere bilatu ahalko diogu-Pouvreauren gramatikazko materialen helburua (eta hiztegiaren egitura) argitzen digute: gogora bedi Nebrija ere bi hiztegi famaturen egile dela. Gramatika eta hiztegiaren arteko erlazioa agertzen zaigu ezinutzizko aztergai, bada. Gai hau, ordea, zein ere den korapilatsua eta Pouvreauren kasuaz gainerakoa nahiago dut atzeratu zuzenean eraso baino lehen datu eta azterbide beharrezko zenbait miatzeko aukera izan dezagun. 7.3. Nebrijarekiko ikerketan bada Pouvreauren azterketarako argigarri den haboro: <ref type="bibr">Guerrero-k (1988: 557 hh)</ref>   <ref type="bibr">, carnalidad, prodigalidad, oportunidad, ocupaci6n, duraci6n, dijinici6n, consolaci6n, fantdstico, coltrico, diab6lico, tempestuoso, presuntuoso, inventar-invenci6n-inventor, idolatra-idolatrar-idolatrfa, etab.</ref> Colin Smith-ek aspaldi atondu Corominas-en hiztegian agertzen ez diren Errenazimenduko kultismoen zerrendatik 197 Nebrijaren hiztegietan ageri dira <ref type="bibr">(apud Guerrero 1995: 180)</ref>; bada, horietarik 110 (% 55 baino gehiago) lehendabizikoz agertzen dira gaztelaniazko testuetan; <ref type="bibr">conjectura, dissoluci6n, dissoluto, resolver, resoluci6n, occidente, occidental, favor, favorecer, favorable...</ref> Ez bedi pentsa, ordea, Nebrijak berak aurreko ezagun (Mena) edo ezezagunenak hartzeari uko egiten dionik Guerrerok erakutsi bezala: 26 (24) Lope <ref type="bibr">Blanch-ek (1993)</ref>    <ref type="bibr">, abusi6n, assignar, centro, cerco, cfrculo, cometa, constancia, contrari0, criminoso, declaraci6n, dici6n... 7.4</ref>. Pouvreaurengana bihurtuaz, argitu beharko litzateke ze ondoriotara irits gaitezkeen HLEH-n 27 hurrengo hitzok edo beren aldaerak harengan beste inorengan baino aski lehenago -gutxienez mende erdi eta usuenik mende bat edota mende eerdiikustean: abadetasun, aba1 <ref type="bibr">'ltailatsu, aberetasun, adiskidetzaile, adoratzaile, ageriki, agertzaile, ahaidetu, ahaldun, ahalkegabekeria, ahalkor, ahazuri, aholkulari, a/ferki, amezti, amorratu, areatu, argudiatu, arlotekeria, arlotetu, artekari, atsegintasun, atsegintsu</ref>  <ref type="bibr">jabetasun, jainkotiar,27b jainkotu, jakile, jakilegoa, jauztekatu, jeloskor, jeloskortasun, jeloskortu, josle, jostalhari.</ref> K-letrako sarreretan azterketak bestelakoa behar du; azalpen luzerik behar ez duten arrazoi fonologikoengatik, beste hainbat letratakoetan (bere ahostunarenetan, esaterako) baino mailebu gehiago aurkitzea aukera itxadon dezakegu. <ref type="bibr">Eta, jakina, badira horietarik: kaiku, kailu, kalamu, kanal, kantail, kereta, etab.</ref> Halere, P-rengan bere lehen agerraldia ("lekukotasuna"?) duten 40 hitzetarik gehienak ez dira horietarik, 22 izenki-edo aditz-atzizkiz hornituak baititugu: <ref type="bibr">kidego, kidetasun, kilikari, kilikatsu, kilikatzaile, kirastasun, klartasun, koloragarri, . cf</ref>. "Todos 10s autores de 10s sig10s XVI y XVII sin excluir al gran Covarrubias, dependieron de la obra nebrisense" <ref type="bibr">(Colon &amp; Soberanas 1979: hitzaurrean)</ref>; "inesauribile miniera per i lessicografi di tutti i paesi" <ref type="bibr">(Gallina 1959: 102)</ref>, "non solo il merito di essere stato il primo lessico bilingue contenente una lingua viva concepito modernamente, ma anche l'ispiratore dei suoi successori, miniera inesauribile cui essi attinsero a piene mani durante piu di due secoli" <ref type="bibr">(Gallina 1959: 330</ref>  <ref type="bibr">karatosatu, kateatu, keldertu, kidetu, kobreztatu, kokatu, kopiatu, korapilatu, koskatu, kukuldu, kukurustu, kupitu (13)</ref>.</p><formula xml:id="formula_1">abejaruco J abundante J acicalar J acetrerfa J adelgazar J agrimo- nfa J agrura J ahito J albriciar J alcauetar J alacena J antrax J aparejador J aperador J aporcar J asafetida J asesor J atahonero J atenci6n J aceitera J balda J banquero J vehemencia J bestialidad, bet6nica J bebida J blanquecino J bret6n J camamila J cloque J comisura J comprometer J consignar J corrillo J ocroto J onocr6talo J cuartana J zanja J zanjar J cencerr6n J centaurea J centellar... dakartza</formula><formula xml:id="formula_2">abominable J abominaci6n,</formula><p>Lehen § 3.1.ean eman ditugun P-ren D-' letrako sarreren artean 96 kontatu ditut erro soilen artean, morfema gramatikalak <ref type="bibr">(daguidanz, daidit, danfut...)</ref> eta esamoldeak (ecin daidit, hainitz deitua guti hautatua... ) ?-lde batera utzi ondoren: <ref type="bibr">28 dafailla,</ref><ref type="bibr">daga,</ref><ref type="bibr">damaza,</ref><ref type="bibr">damu,</ref><ref type="bibr">dansa,</ref><ref type="bibr">dardoa,</ref><ref type="bibr">deabrua J debecua,</ref><ref type="bibr">defota,</ref><ref type="bibr">... Aditz izenak ugari dira (65)</ref>, bertan zahar eta berri delarik, bigarrenetik ugariago seguruenik: <ref type="bibr">dainatcea, damutcea, deitcea... , baina damuztatcea, dardotcea, deabrutcea, debauxatcea, debecatcea, demoniatcea... Halere, atzizkien bitartez eratuak dira gehien: damucorra, damutsua, damugarria, damutcecoa, dannagarria, dansaria, deabrucoa, deabruqueria, deabrutasuna, debecatfaillea, debecuzcoa, deblauqui, ..</ref>. 112 dira guztira, ene kontuen arabera: -(z)ko 21, -tasun 12, -ki 12, -garri 9, -mendu 9, -ari 6, -tzaile 6, -tsu 5, -keria 5, -dura 4, -kor 3, -os 3, -dun 2, -gile 2, -eta 1, -gabe 1, -gai 1, -ge 1, -goa 1, -keta 1, -kunde 1, -men 1, -pen 1, -ro 1, -txo 1, -zale 1. Horiei 32 deseta 5 ezgehitu behar zaizkie. <ref type="bibr">28b</ref> Bestalde, eta goian eman adibideak aski lirateke horretaz ohartzeko, HLEH-ak ez ditu biltzen, hurrik eman ere, Pouvreauren hiztegiko berba guztiak, ezta haien aldaeren bitartez ere. Nago GEH-an bertan ere, osotasuna bilatuz gero, gehi daitezkeela nekerik gabe tradizioa erabat harrurik ere Pouvreauren (edota soilik haren zordun direnen) lekukotasun hursa dutenak. Ez ote, bada, Pouvreau sortzaile biltzaile bainoago?29</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">Hiztegigintza ariketatik gramatika teoriarantz</head><p>Seexteenth century lexicography is complicated by the compilers' sense of an inherent duplicity in the purpose of the lexical item. Consequently, the sixteenth century lexicographer's attempts to exploit headwords as significant categories, reflecting a deeply embedded yet unarticuled linguistic theory... <ref type="bibr">(di Virgilio 1988: 189</ref> (28b) HLEH-n P-rengandik hartu des-urriez ikus 10. oharra. Urtek, aldiz, letra berean 35 konposatu, 100 soil, 74 <ref type="bibr">des-, 71 -tzea, -tzaile, 17 -(zi)one, 9 -tasun, 7 -dun, 7 -keria, 7 -lari, 4 -ari, 4 -oso, 4 -txo, 3 -le, 3 -mendu, 3 -zale, 2 -ar, 2 -gile, 2 -xko eta -antza, -dura, -ista, -kor, -tate</ref> eta beste zenbaiten bana ditu; nabarmenki P baino konposatuen zaleago genuen, baina hark bezala -tzea eta des-ere bazerabiltzan hitz berriak asmatzeko. Gainerako atzizkietan diferentziak badira; horietako zenbait bi hiztegien egiturari zor zaizkionak, seguruenik, Urterentzat Lakarra 1994b-n markatu legez.</p><p>(29) Cf. Lakarra 1994a-n (1-2. or.) aipatu ingeles lexikoiaren hedatze garaikideaz; Barber (1976: 166-8)-ek emandako iruzkina egoki letorke, oro har, P-ren datuentzat. azterketa historikoa eta oraindik behar bezala xurgatu ez den iturri honen balioaz jabetu gaitu Hiztegi Hirukoitzaren Eraskinak (E) eta Harrieten hiztegien (H) azterketak (cf. <ref type="bibr" target="#b48">Lakarra 1991</ref><ref type="bibr">Lakarra eta 1994a</ref>: Mitxelenak uste zuenaren aurka E-ko -kuntza-zko eratorriak oro ez dira RS-etiko E 78 azarcunza-ren gainean eraikiak, guztiak (berak haren eredura asmatu toliacuntza salbu) Harrietengan eratuak aurkitu baitzituen; orobat agitzen zitzaigun -catu aditzekin. Aldiz, ez dirudi -dura atzizkiaren erabileran H-ek L zaletu zuenik eta gutxi batzu baino ez zituen harekin jaso E-n. Urtek, aldiz, -tasun arruntagoaren aldamenean, -garri artean bestek baino haboro erabiltzen duela bagenekien (ikus Lakarra 1994b). Bestalde, Pouvreauk aitzineko gramatikazko oharretan azaldu atzizkiez baliaturik eraikitzen ditu bere hitz-familiak ikusi dugunez ( §7.1).</p><p>Guzti honen aurrean ezinbestekoa zaigu hiztegigile zaharrengan atzizkien erabileraz eta hitz eratorrien statusaz, hiztegiaren eta gramatikaren arteko erlazioaz, azken finean, zer aurki genezakeen ikertzea. 29</p><p>Aurreko lan batean ikusi genuenez, Larramendik Arte-an <ref type="bibr">([264]</ref> § Ill. FORMA-CION DE LOS NOMBRES substantivos, y adjetivos) sail nagusienak nola eratzen diren azaldu ondoren, honela amaitzen du: "Dexo algunos otros modos de formaci6n en 10s nombres verbales que se pondnin en el Diccionario: pues para el fin de que conozcan todos quan regular y oportunamente forma sus derivados el Bascuenze bastan estos" <ref type="bibr" target="#b48">(Lakarra 1994a)</ref>.30</p><p>Eratorriak gramatikan azaldu arren beren kokagunetzat hiztegia esleitzean Larramendi bat dator bai Nebrijarekin ("Otros salen en otras muchas determinaciones; mas el que escrive preceptos del arte abasta que ponga en el camino al lector, la prudencia del cual, por semejan~a de una cosa a de buscar otra" (Gram. 172), bai Grammaire generale et raisonnee-arekin ere. 31 (29) Oso interesgarria ikusiko ditugun arrazoiengatik Fausten ondoko oharra: ('In the grammar which constitutes a section of the work, Stieler followed Schottelius almost literally in the manner in which he presented word formation" <ref type="bibr" target="#b26">(Faust 1981)</ref>. <ref type="bibr">Merrilees-ek (1988: 181)</ref> erdiaro akabuko adibide bat damosku ULike many lexicons of the Middle Ages, the Le Ver dictionarius is accompanied in the manuscript by grammatical texts, in this case copies of Donatus' Ars minor in both Latin and French, the conjugations of some main verb types, noun and pronoun declensions, a fragment of a syntactic treatise, "Par quantes manieres commenchon sen lantin a faire tt , and a list of morphological exceptions. This justaposition of glossary and grammar, as I have noted in a recent paper on the teaching of French in Latin, has a long medieval tradition, itself worthy of further attention rr • Eta bere egituraz <ref type="bibr">(Merrilees 1988: 185-6)</ref>: "The underlying principles of organisation are alphabetical and etymological. Le Ver determined first of all a head-word, usually noun, verb or adjective, which becomes the head of a group of derivatives and compounds set out in a macro-entry. Some of the derivatives and compounds will in some cases form heads of their own entries or appear with a cross-reference. All headwords are in fully alphabetised order and are marked in the manuscript by a large coloured initial-alternating blue and red for much of it, red only for some stretches. I have noted only very occasional slips in the ordering. Each headword is usually followed by a combination of an etymology, Latin equivalents, French equivalents, a Latin definition, sometimes a French definition. Not all elements are necessarily present. Then follow derivative words, each of wich is set against the colum margin and identified by a capital in brown ink, the normal ink of the text. These derivatives are not in alphabetical order, but their presentation follows a pattern" (azpisarrerak ere beren "derivatives" dituztelarik).</p><p>(30) Ikus bertan Harrieten Gramatikako jokabidea. (31) Cf. "AVERTISSEMENT. On nta point parle dans cette Grammaire des mots derivez ny des Gramatikaren historia zertxobait ezagutuz geroz ez gintuzke harritu behar beren artean kontrakar nabarmenean direnon kidetasunean agertzea Larramendi. Kukenheim-ek azaltzen digunez (1932: 158) analogia zaleen eta anomalia zaleen arteko aspaldiko guduak lehendabizikoak eskemen bitartez hitzak sailkatzera eraman zituen; ikerketok morfologia sortu zuten. Engoitik alor hau hedatuaz joan zen esaldiaren zatien teoria osoa eraikiaz. uMorfologia H hitza, ordea, ez da gramatikazko literaturarik zaharrenean agertzen, eta horren lekuan "etimologia" dakusgu. Lerschek erabilera hori grekoen artean lehenik hitzen etorkia eta ondoren hizkuntzako analogiak ikertu ohi zirela gogoratuaz azaltzen du; honela "etimologia" gordeko zen eta are '~analogia" bere barnean hartuko. 32 ee n'est pas seulement eette fa~on de deriver les formes du verbe qui amene les grammairiens a designer la "morphologie" par la denomination "etymologie", mais aussi leur habitude d'ineorporer dans eette partie de la grammaire le traite de la formation des mots. En effet, a l'exemple de Priseien, les theorieiens de la langue distinguent deux espeees de noms, les primitifs et les derives, ils etudient les valeurs des suffixes et s'oeeupent, en general, de la formation des noms, tant des noms que des verbes. Chez Corso, Castelvetro, Varehi, Nebrija, Miranda, Dubois, Meigret, Ramus, Cauehie et Henri Estienne l'expose des "denominatifs" oeeupe plusieurs pages, mais aaueun d'eux n'est venue l'idee d'en faire une partie speeiale de la grammaire. Le terme d"'etymologie" s'explique done faeilement pour les theorieiens du XVle sieele; notons en ffieme temps que eette partie avait bien plus d'importanee que de nos jours, non seulement paree qu'elle eontenait la theorie de la formation des mots, mais aussi parce que plusieurs grammairiens y traitaient des regles de la syntaxe.</p><p>Errenazimendua baino lehen N. Cusa-k adierazi zuen hizkuntzen aniztasun eta berezitasuna; beranduago L. Vives-entzat filologiaren (ratio linguarum) zeregin nagusia hizkuntzak nola diren sortzen, garatzen eta apaltzen; hizkuntza baten hizkeraren 'botere, izaera, aberastasun, bokantza, duintasun eta~dertasuna zelan pisatu behar den azaltzea litzateke. Egiteko horri lotuko zaizkio hizkuntzalariak mende horretan eta horren zantzuak antzemango ditugu euskararekikoetan hurrengoetan ere. <ref type="bibr">Stankiewicz-ek (1981: 180)</ref> dioskunez egitasmo honetan funtsezko bilakatzen da gauzen eskema orokorrean hizkuntza bizi bakoitzak bere tokia duela eta, gainera, berezko izaera ("genius") gauzatzen duten hizkuntz ezaugarriez hornitua dela.3 3 composez, dont il y auroit encore beaucoup de choses tres curieuses a dire: parce que cela regarde plG.tost l'ouvrage du Diccionnaire general, que de la Grammaire generale" (133).</p><p>(32) "Remarquons qu'au XVI siecle les grammairiens admettaient le mot "etymologie 1t avec d'autant plus de raison qu'ils avaient rhabitude de deriver les formes du verbe d'une racine, non pas -comme nous le faisons de nos jours-comme .expedient mnemotechnique, mais parce qu'ils etaient convaincus que ces formes du verbe provenaient de ces racines [...] (Kukenheim) (33) Cf. <ref type="bibr">Stankiewicz (1981: 181)</ref>: "Like the mother tongue, each language has its unique qualities which include not only its particular grammatical structure or richness of idioms, but also some hidden, impalpable properties. The term which seemed most apropriate to encompass the overt and covert properties of a language were "genius" and the expression je ne sais quoi"; (cf. Etxeberriren (129) "...ordea, hargatican ecin erran diteque guisa hunetaco hits;ac asqui direla hitzcunt&lt;;ari ethorquia-Hizkuntz-dema honetan zeinek berearen adierazkortasuna enparatuen gainetik (eta hildako klasikoenetik) jarri ohi dituzte:</p><p>Following Stevin, Schottelius utilized the vocabulary and the potential for word formation as the basis for comparing his own language with the others. Within this process he tried to show that the root words of the German language possessed "a high degree of perfection". That meant in particular: "(1) that the root words are made up out of their own natural letters and not of foreing ones;</p><p>(2) that they have an appealing sound and fully express their object;</p><p>(3) that their sum is ample and sufficient;</p><p>(4) that they allow for the many derivatives which are necessary; (5) that they bring forth multiple combinations and compounds!t <ref type="bibr">(Faust 1981: 361)</ref>.34</p><p>Klasizistek hizkuntza "arrunten" aurka erabilitako argudioen artean arriskutsuena haiek azken batean latina eta hizkuntza barbaroen nahasketa baino ez zirela zioena genuen; argudio honi aitzi bildutako ideia multzoa du <ref type="bibr">Stankiewicz-ek (1981: 184-5)</ref> "of utmost interest for the development of Renaissance linguistic thoughe'.</p><p>Hizkuntza ororen izaera mistoa ukaezina omen zen '~volgaristi" guztientzat, arte eta zientzien aitzinamenduari eta giza ezagutzaren hedakundeari zor baitzaio;35 Macchiavelli-k zioenez hizkuntza batek ere ezin ditu gauzak oro adierazi gainerakoetarik hartu gabe eta herri batzuek bestetarik hartzen dituzte hitzak bere hartuemanean; halaber hirietan dotrina berriak sortzen direlarik hitz berriak ere sortu behar eta horrela gertatzen ere dotrinok lehendabizikoz plazaratu dituzten hizkuntzetan:</p><p>Diot berriz ere eztudala erran nahi escuaran ez litezquela causi cembait hitz arrotz; ordea ezta miresteco ceren Escual Herrian eztiren hainitz gau~a causitcen baitira bertce hainitz lekhutan, edo dela ceren lekhu hetaco lurrac ekhartcen eta ematen baititu, edo cerenetariac herri hetan berriroqui i~an baitira asmatuac, eta hala escualdunec gau~a hec bere icenez deitcecot~at baieta ezbada icendatu behar ren eta i~aitearen emaiteco, ceren lehenbicico hatsapenac guelditcen baitira bere i~aite ossoan, ceinec eguiten baitute hitzcunt~aren i~aitea eta gora behera guztia" eta antzeko pasarteak 128-9. orrialdeetan).</p><p>(34) Cf. "Hautche da Escuara hit~cunt~a eder hura? halaco guisaz non baitut uste oraico hit~cunt~a berri eta arduraco dabilt~anec errespeturequin~ure~uhurtciari agur eguinen diotela eta boz batez aithortuco~ure bicitasunaren indarra eta edertasuna paregabecoac direla; eta aitcitic lehen deit~aitez quetela Aingueruen hit~cunt~a e~en ez gui~onena, ceren~ure hitz bakhotcha baita misterioz etã uhurt~iaz bethea..." (Etxeberri 87). (35) Cf. "Hala dira bada gure escuararen lehen hatsapenac bertce hitzcuntcenetaric haguitz diferentac: hala hitcetan nola gramatican, hain dira diferent hebreotic, punicatic, syriacatic, grecotic, arabigotic, godoenetic, alemanetic, hala nola baita hebreoa latinetic, aita ]oseph Moretec dioen be~ala, lib. 1. cap. 5. § 1 ecen considera badet~agu hitcen sinificant~ac, icenen declinacinoac, verboen conjugacinoac eta propietateac causituco tugu haguitz diferentac hebreotic, phaenicatic, punicatic, graecotic eta latinetic, bai halaber godoenetic, italianotic, francesetic eta gaztelaniatic, ceren hauquien icenac ez baitira declinatcen eta casuen diferentciac eguiten baitituzte emendailluen lagunt~arequin batean" (Etxeberri 127-8). eituzten eein eta ere lenguayetan edo hitzeunteetan lehenbieirie ieenae entc;un baiteituzten eta hequien eredura edo berteela be'ree asmaturie behar eerozten ifeini ieen berriae. Ordea hau da baieta ezbadaeo premia bat, eeinetan eseuara ezbaita obligatua bere baitharie halaeo gaueei ieenen emaitera legueae iraeasten daroeun bec;ala. (...) Erromatarrei ere gauc;a bera gue~thateen eitc;ajen eeren hainitz gauc;a eausiteen baitc;uten herri hautan Italian~teenie, eta hargatie eiren obligatuac escuaratic icenen hartcera edo berriroqui as~turic ec;artcera. Bada guisa berean escualdunac ere causitcen tuenean Escual herrian eztiren gauc;ae non ere causituco baitituque eta han obligatua dateque hango icenen hartcera eta hec escuararen erreguelen arauera moldaturic hetaz valiatcera (Etxeberri 129).</p><p>Oygan a Ciceron que supone esta mi distinci6n y da una doctrina que luego nos ha de servir (...). Seglin esta doetrina digo 10 primero que en las voces facultativas que no son comunes ni pliblicas, somos superiores 10s bascongados 0 a 10 menos iguales. Pruebola. Estas voces 0 son las mismas que se inventaron en el pals donde se invent6 y floreei6 alguna ciencia y facultad 0 son voces nuevas y distintas? Si son las mismas, todas las demas lenguas las tomaron prestadas del lenguaje de aquel pals y tambien puede el baseuenze tomarlas del mismo modo. Si son voces nuevas no tienen las demas lenguas mas derecho de fabricarlas que el bascuenze y. este 10 puede hazer con suma facilidad <ref type="bibr">(Larramendi 1729: 122.)</ref>.</p><p>Aora arguyo assl para sacar mi conclussi6n: 0 es defecto en el latin y sus hijas tomar prestadas las voces facultativas del griego 0 no. Si no es defecto, tampoco 10 serla en el bascuenze. Si es defeeto, como no se puede negar, es por ser pobres essas lenguas y rica la griega, y sera defeeto trascendental y no mas del bascuenze que dessotras lenguas. Y aun en esto ay gran diferencia por que esse defecto en las otras lenguas no es ya remediable y en el bascuenze S1. (Por que? Porque las otras lenguas han adoptado ya essas voces por suyas, incurriendo en la flaqueza 0 negligencia de formar voces proprias y distintas. El bascuenze aun no ha llegado a tratar dessas cosas y los sabios que quisieren tratarlas en bascuenze tienen derecho a 10 que dice Cicer6n 0 a tomar voces de otras lenguas 0 a formar otras nuevas con discreci6n (124-5).</p><p>Mailebuak ez dira, beraz, delako hizkunrza baten akars edo irain, ezta usrelkera aztarna ere, airzirik haren historia eta bizitasunaren froga. Hizkuntzarekiko jarrera aktiboa erakusten du, gizakiaren ahalmena haren garapenean bilakabide hisrorikoa abiaraziz. "Artea", hots, berariazko hizkuntz politika, ez da "natura"-ren beharrezko osagarri baizik: "Que si les anciens Romains eussent ete aussi negligens a la culture de leur Langue quand premierement elle commen~a apululer, pour certain en si peu de tens elle ne feust devenue si grande" <ref type="bibr">(Du Bellay: 25, apud Stankiewicz 1981: 185)</ref>.</p><p>Alabaina, mailebuek ez dute hizkuntzaren oinarrizko izaera egiten eta hau ez da nahasi behar egoera sinkronikoarekin: "having drawn its origin from various sources, the Florentine language is at present not an "indistinct confusion of all barbarism of the world" as argued by Lazaro, but "a regulated unity (adunanza regolata) of many diverse words... welded together into one sound, one norm and one order'&gt;. This unity, Bembo and all other grammarians after him suggest, is the result of the grammatical system, of the categories, forms and word-order which impose their distinctive stamp upon each individuallanguage" <ref type="bibr">(Stankiewicz 1981: 185-6</ref> Etxeberriren "eguiazco philosophia" hori edota Larramendiren "terminos de escuela"37 kontuan izanik, nekez espero genezake-orijinaltasunik; Etxeberrik (eta Larramendik) ongi ezagutzen eta aski erabiltzen zuen hizkuntzalari batengan ere antzekorik aurki daiteke:</p><p>...considerando que las princ.ipales partes de la lengua son los vocablos i la gramatica con que estos entre SI se traua i engazan para hazer sentido perfecto. A 10 qual se pueden afiadir los modos de dezir, que tocan a la propriedad i perfecci6n de la lengua, porque estos sin duda son diuersos i diferentes en cada lengua, pero no son parte principal de que se compone. Son 10 sin duda las dos primeras porque qualquiera dellas que falte, es otra lengua (Aldrete 188). Ass! como la materia i form~son 10s principios essenciales de que qualquier cuerpo se compone i recibe el ser perfecto en su specie, de la misma manera, qualquiera lengua tiene dos partes principales, como ia dixe arriba, 10s vocablos i (36) Bilatzen hasiz geroz antzekoak nahi adina bil genitzake, Aristoteles baita han atzean. Hedaduraren eta arruntasunaren adibide bezala ikus ondoko Larramendi eta Etxeberriren garaikide baten lekukotasuna: "Habiendo dado Noticia de la forma de esta lengua, me pareci6 preciso darla tambien de su materia, porque, sin tener que hablar, importa poco saber como, y porque creo que, teniendo copia de terminos, el colocarlos es 10 menos diffcil. La union de esta materia y aquella forma es el catecismo y sacramentario. Y, aun teniendolo rodo, no pude salir de su inutil fieri por estar aun en la privacion de tu celoso estudio, a cuya comodidad se dirige mi humilde y obsequioso trabajo". (Carlos de Tapia Zenteno [co 1725], Paradigma apologetico y noticia de la lengua huasteca, con vocabulario, catecismo y administracion de sacramentos. R. Acufia (arg.), <ref type="bibr">UNAM, Mexico 1985, 73. or.)</ref>.</p><p>(37) Cf. "Que riqueza y copia es la mas apreciable en una lengua? Es en dos maneras la riqueza de las lenguas y quiero explicarme con terminos de escuela: una es riqueza formal, y per se, otra es material y per accidens" (aipatua in Lakarra 1994a: 45); aberastasun formala da nagusi, jakina, eskola horretan bestelakorik ezinezko baitzen izan ere. la Gramatica; aquellos son como materia i esta como la forma con que reciben ser, no teniendo mas que disposici6n para ella (Aldrete 255).</p><p>Ikuspegi honetan bi egokitasunetarik nagusi, hizkuntzari bere izaera ematen diona, zein den jakitea ezinbestekoa zaigu; hori ahazteak eragin garrantzitsua izan du euskalaritzaren historian, hiztegigintzari dagokionean inon baino gehiago. Neke litzaiguke antzekorik aurkitzea beranduagoko hiztegigintza projektuen oinarrietan diren hizkuntz teorietan. Larramendik "La riqueza material y per accidens de una lengua consiste en la multitud de vocablos sueltos, sean synonimos 0 no 10 sean. Y digo que aun en esto el bascuenze es lengua mas rica que otras muchas" (119) badio ere,38 egokitasun formala du nagusitzat eta han sostengatzen du euskararen nagusigoa. Erregelen segurtasuna arrazoiaren hizkuntzaren beteginzarre ukaezintzat erakutsi ondoren -hura gabe detia nahaste eta auziabarza genuke-(104), euskararen aintzinako egokitasun formal gaindiezina erabakitzat ematen du eta hortik, ohar bekio jauziari, aberastasun materiala:</p><p>El primer indicio desta riqueza antigua del bascuenze es el que nos subministra 10 que poco ha pondenibamos de la riqueza formal; porque en esta a 10 menos no parece que ay ni ha avido en el mundo lengua mas copiosa y abundante; y es argumento convincente de una milagrosa fecundidad en los Inventores y establecedores primeros del bascuenze: luego tambien fue lengua mas rica en 10 material de las voces [Universalidad 90] .</p><p>Ondoren, aberastasunari hitzen egokitasuna darraikio. Larramendik ez du besterik gabe onartzen, "zenbaitek uste bezala", hizkunrza guztiak direla egokitasun bereko puntu honetan, hitzen adierazia ad placitum izaki: berarentzat asmatzaileek izenok jartzean zuzenago edo okerrago antzeman zezaketen adieraziaren zera; hotshitzetan -eta euskarak horrelako anitz duela erakusten saiatzen da-beste edozeinetan baino zuzenago litzateke adieraziaren eta adierazlearen arteko egokitasuna.3 9</p><p>Haatik, arrazoi nagusia eta haren hiztegigintzaren oinarri sendoenetarik aurkezten diguna besterik da:</p><p>Lo 2°Yprincipal es porque una lengua tiene voces simples y compuestas, nativas, como dice Cicer6n y derivadas. <ref type="bibr">[...]</ref> Bien. Pues aunque en las voces simples, nativas y que son como ralces de las otras admitiessemos que no aVla mas propriedad en una que en otra, en las compuestas y derivadas esso es evidentemente falso. La raz6n es porque aunque las voces simples tuviessen una significaci6n totalmente arbitraria y sin acomodaci6n a 10s objetos (10 qual no siempre es verdadero), mas las voces compuestas, fixa ya la significaci6n de las nativas, tienen no signifi-caci6n puramente arbitraria sino natural, propriisima.</p><p>(38) ef. "El segunda indicia es que hoi dfa el bascuenze en Guipuzcoa, Bizcaya, Alaba, Navarra alta y baxa, Labort y otros parses de Francia en que se habla mantiene tanta multitud de vocablos, que aun en el numero material puede igualarse con qualquiera lengua del mundo, coma se vera en el diccionario que siendo Dios servido se dara a luz. Eta hori Ha pesar de tantos siglos voraces" eta u esto sin libros en que se escribiessen y sin otros remedios que pudieran preservarlos del preciso estrago de los tiempos".</p><p>(39) "Dexo aora aparte la onomatopeya, que es mas freqiiente en el bascuenze que en otros idiomas" <ref type="bibr">(Universalidad 95</ref> ]ones-ek (1991) 16 eta 17. mendeetako alemanieraz esana gure 17 eta 18.eko alorrari erabat egoki dakiokeela deritzot: "Lexically, the sixteenth and seventeenth centuries are indeed for German a period of peculiar ferment, its workings still largely unexplored".41 1573an argitaratutako lehendabiziko alemanierazko grama-(40) Cf. Euskal Herrirako ere egoki dirudien Jones-en gogoeta: "so that even allowing for the gravest deficiencies in German historical lexicology (and I believe these to exist) we still have some grounds for seeing Dasypodius as a contributor to the vocabulary, using patterns of compounding, prefixation and suffixation to generate new words in response to the Latin wherever he found them to be lacking. Whatever the degree of Dasypodius's own invention, it is clear that a popular dictionary of this kind will stand in a two-way relationship with the speech-community, not just reflecting the vocabulary as it stands, but also helping to fix and to promote new and less familiar words. The teaching of Latin becomes simultaneously a service to the mother tongue". Gonbara bedi Lakarra 1994a-:-n Harrieten Gramatikako Darrecheren approbacionea.</p><p>(41) "The history of German lexicography, despite a number of distinguished contributions, is still largely unwritten. We have a working bibliography only to 1600 (. ..); on sources, interconnexions, and reception, much remains to be discovered; we know relatively little about methods of compilation, still less about the ways in which these lexicographers physically managed their material; and of what metalexicographers do know, precious little has been mediated to the wider public of non-Germanspeaking linguists." (lones 1991: 133). tika batean Laurentius Albertus-ek ohartzen gaitu egunero hitz berriak sortzen direla eta ezagun zaharrak desagertzen <ref type="bibr">(Jones 1991: 132)</ref>.42</p><p>Alemanierazko herrien artean ere zabaldua zen beren hizkuntza "antiquior eerie multo, &amp; syneerior integriorque quam uulgares hodie ltaliea, Galliea, Hispaniea &amp; Angliea.· quae omnes partim ex Latinis eorruptis, partim Gothieis aut Saxonieis &amp; alijs quibusdam uoeabulis mixtae con/usaeque sunt" <ref type="bibr">(Jones 1991: 135)</ref>  Hamazazpigarren mendeko alemanierazko hiztegigintzaren barnean Justus Georg Sehottelius dugu izenik handiena, zalantzarik gabe (ef. <ref type="bibr" target="#b26">Faust 1981</ref><ref type="bibr" target="#b43">, Jones 1991</ref><ref type="bibr">, Subirats-Ruggeberg 1994</ref>. Beretzat, eta on da hau gogoan izan dezagun, hiztegi lana bigarrengoa da gramatikaren aldean bera hartara behartua izan arren lanbidez. <ref type="bibr">Jones-ek (1991: 139)</ref> erakutsi legez, Sehottelius-en ihardunean funtsezkoa dugu "Stammwort" deritzona,43 alda-ez zatikaezin onarria (ahal izatera monosilabikoa) zeina hizkuntzaren sorrera eta garapen organikoarentzako ezinbestekotzat dakusan. 44 Faustek ikusi duenez Ausfilhrliehe Arbeit delakoaren bigarrena dugu liburuaren zatirik garrantzitsuena. Bere izena '4hitz azterketa)) edo "etimologia", zeina baita "hitz bakoitzaren jatorri, ahalmen, eratorri eta konposatuen azterketa" <ref type="bibr">(apud FallSt 1981: 360</ref> (43) Cf. Jones 1991: 138. "Still within the framework of this Society, Georg Philipp Harsdorffer proposed the collection of "Stammworter" (lexical roots), together with compounds, derivatives, proverbs, and mining, hunting and nautical terms; temptingly, he even produced a mock title-page for such a work, and a sample entry for brechen."</p><p>(44) Cf. "Word formation is dealt with in the 5th discourse (derivation) and the 6th discourse (composition) of the first book and in the 11th chapter (nominal derivatives), the 12th chapter (nominal compounds) and the 16th chapter (compounds with "prepositions") of the second book. The discussion of this theme however is not limited to these sections alone, but it is treated elsewhere, particularly when Schottelius touches upon positive characteristics of the German language and evidence for its historical identityll <ref type="bibr">(Faust 1981: 359-360)</ref>.</p><p>(45) Schottelius ez zen bakarra erroka antolaturikQ hiztegiak ekoizten; Matthias Kramer hizkuntz irakasleak beste hainbat eta hainbat lanen artean 1702an atera zuen alemaniera-italiera hiztegia ere horrelakoa dugu:</p><p>Citing a familiar tag from St Augustine, Kramer saw it as his role to surmount the diversity of tongues that estranges man from man. But this is no metaphysician: what especially appeals about Kramer is his sheer practicality. This is well represented in his finest achievement, the great Italian-German, Greman-Italian dictionary of 1700-02, which is an expansion of an earlier work of berretu daiteke, latinaren edo grekeraren thesauriak berdindu eta gaindituaz "(...) and untrammelled by the pedestrian constraints of mere defective, latter-day usage. The only controls on productivity envisaged by Schottelius are the diligent reading of good books, the observation of linguistic principles, and an intuitive emphaty with the language" da Jones-en ondorioa lanes <ref type="figure">(1991: 139-140</ref>). Nago Schotteliusen antzeko ideiarik guregandik hurbil aurki daitezkeela (cf. Lakarra prestatzen-a).</p><p>Pouvreau eta Schottelius garaikide baino gehiago ditugu: 1663ko Ausfiihrliche Arbeit von der Teutschen HaubtSprache-n 4884 enbor eta konposatu eta eratorri (atzizki eta aurrizkika emandako) samalda biltzen duo ]ones-ek dioskunez (1991: 139) Schottelius-entzat 'Stammworth', oinarrizko formetarik, abiatuaz, ongi definituriko gonbinaketa prozesuen bitartez hitz altxorra latinarena eta grekoarena bainoago haz daiteke. Areago: "Schottelius's particular vision for German is of a language miraculously, indeed uniquely, productive, with an as yet unmeasured potential beyond even Greek and Latin and untrammelled by the pedestrian constraints of mere defective, latter-day usage. The only controls on productivity envisaged by Schottelius are the diligent reading of goods books, the observation of linguistic principles, and an intuitive empathy with the language" Gones 1991: 140  <ref type="bibr">(Jones 1991: 141-2)</ref>.48</p><p>Schottelius-entzat eratorri eta konposatuak beharrezko dira oinarrizko hitzak mugatuak baitira hizkuntza batean, ez deitura behar duten objetuak, ordea. Haiek, gainera, galdu ere egin daitezke, ostera ezin erro berririk gehitu. Baina egunoroko gertakaria delarik gauza eta fenomeno berriak agitzea, hiztunak bere hizkuntzak duen hitz eraketa ahalmena erabili beharra duo Honela, eratorri eta konposatuak "arise through the natural force and productive character of the root words" <ref type="bibr">(Faust 1981: 360)</ref>.49</p><p>Schottelius-en asmoa gerora alemaniera estandar idatziak behar zuen oinarria jartzea zen: "He was particularly concerned with establishing a vocabulary which could be applied within the arts and sciences and simultaneously serve to make their accomplishments known (2-3, 147), but he was convinced that such a state could not be realized until the study of the German language had been taken seriously by the German academic community" <ref type="bibr">(Faust 1981: 360-1)</ref>.50 Honen kideak gure artean ere kausi genitzake (cf. <ref type="bibr">Lakarra 1985 eta prestatzen-a)</ref>.</p><p>Orduko alemanieraren erabileran zen aniztasunak bere helburuak gauzatzeko oinarri falta erakusten zion; lehenago hizkuntza normalizatu beharra zuen bere berezko erregulartasuna erakutsiaz, honela lehen grekerak edo latinak izandako kultur lantzea zekarrelarik <ref type="bibr">(Faust 1981: 361)</ref>:</p><p>Schottelius attempted to demonstrate that the German language was as competent as the Classical and Romance languages of fulfilling the linguistic demands posed by the arts and sciences. (ibid) 1693an atera zen Kramer-en italiera-alemaniera hiztegiaren bigarren argitalpena (lehena 1676koa zen). Bertan, <ref type="bibr">Bray-k dioskunez (1988: 204)</ref> lexikoi egitura 51 hartzen du, alfabetikoki erroak eta haren azpian eratorri eta deribatuak emanaz:</p><p>(48) Halere, ez bedi pentsa hortik garbizalekeria jarraitzen denik berehalakoan: Cf. "Blending an Oriental discovery with an extended linguistic image from Schottelius, Stieler conjures up a powerful Baroque vision for German, but clearly not one that is rigidly puristic. The "Fremdwort" is admitted, albeit peripherally" Oones 1991: 142 eta oharra) (49) "In order to illustrate this inner relation bettween root words and secondary words Schottelius used the image of a "language tree". The root words are found at the base of the tree and the remaining words are represented as the branches or the fruit ll <ref type="bibr">(Faust, ibid</ref> The sixteenth century which marked in Western Europe, and especially in Italy, the high point of the Renaissance and brought in its wake the burgeoning of the arts and sciences, a revival of classical learning, and the formation of national states and languages was also a period of intense linguistic activity and of original contributions to linguistic theory. The importance of these contributions has been insufficiently appreciated, since questions pertaining to the formation of the literary languages (known in Italy as the "questione della lingua") have tended to push the significance of the theoretical problems into the background, if not entirely out of sight.</p><p>Izan ere, Cinquecento-ko hizkuntz eztabaidetako letra-gizonen gehiengoak ez hizkuntzazko baina erretorikazko interesa nagusi erazi dutela esan izan da; Stankiewicz-ek, ordea, ez du hori onartzen eta bai, aldiz, -filosofia, erretorika, literatura, ortografia eta bestelako gaiekin nahasirik bada ere-hizkuntz-teoria garai hartan ere garatu zela markatzen, egileen artean ogibidez hizkuntzalari gutxi izan arren.</p><p>Some of the central problems raised by the linguists of the sixteenth century, we are, I believe, entitled to say that they initiated a new movement in the history of European linguistic thought, a movement which is marked by no less a ferment of ideas than the one which took place in other areas of intellectual and artistic endeavor. To the most interesting attainments of that movement belongs, no doubt, the insight that the surest road to the understanding of the general principles of language lies in the study and comparison of specific languages <ref type="bibr" target="#b78">(Stankiewicz 1981:)</ref>.</p><p>Lehenago ere bai Larramendiren, bai Harrieten gramatiketakoek bezala eratorpenari buruzko atalak hiztegigintza zaharraren ikuspegi zuzen baterako esaldiaren sintaxia eta morfologiaren arteko erlazioak miatu beharra adierazi ziguten (ef. Lakarra 1994a). Gaiak oso hurbilketa ezberdinak izan ditu hizkuntzalaritzaren historian. Erregela gisa hartu ohi da (cf. Schultink 1988) Europako 20. mendeko hizkuntzalaritzan hitzaren eta esaldiaren arteko funtsezko berezkuntza. Saussure-k bereizkuntza tipitu egiten du morfologiari hizkuntz izakien forma (erlazio asoziatiboa) egokituaz eta sintaxiari funtzioa (erlazio sintagmatikoak), baina hari bere burujabetasuna ukatuaz: "Linguistiquement, la morphologie n'a pas d'objet reel et autonome; elle ne peut eonstituer une discipline distinete de la syntaxe". Hjelmslev-ek ere sintaxiaren eta morfologiaren arteko bereizkuntza ukatti zuen beste bide batetik, hitz barnean esaldian ematen diren menpekotasun erlazio berak direla aldarrikatzen baitzuen. Estatu Batuetan Boasek hitzak abstrakzio artifizialtzat zituen eta haren ikasle Sapirek hitza izaki sikologiko gisa garrantzitsutzat hartu arren -eta esaldi barneko sintaxiaren eta hitz barneko morfologi fenomenoen artean berezi-"gramatika kontzeptu" eta "gramatika prozesu" nozioei balio handiagoa ematen zien eta horren barnean hartu ohi zituen bateko eta besteko fenomenoak. 53 Bloomfield-entzat eta haren ondoadapte a route discipline: il fait la liste des suffixes disponibles, il montre comment emprunter des mots au latin ou comment forger des neologismes. n ne montre aucun mepris pour les emprunts aux langues modernes').</p><p>(53) Dakartzan oihartzunengatik markagarria da Sapir-en hurbilketa honen atzean den ikuspegia: hizkuntzak ore direla berdin beren adierazpide ahalmenean, morfologiaren edo sintaxiaren bitartez horiek gauzatzea bigarren mailako arazo delarik. . rengoentzat (Harris-entzat, esateko) bi moduloen, sintaxiaren eta morfologiaren, arteko berezkuntza bigarren mailakoa zen: gramatika ezaugarri berak erabiltzen dira bi osagarrirekin forma konplexuagoak eraikitzean, dela hitz berri batean, dela esaldian. Chomsky-ren lehen lanetan edota Lees-en The Grammar ofEnglish Nominalizations-en ere hurbilketa antzekoa genuen, ez baitzen tokirik morfologi osagai burujabearentzat: atzizkitze prozesuak sintaxi osagaian ematen dira eta ez da bereizkuntzarik esaldi sintaxiaren eta hitz sintaxiaren artean. Lehen aldaketak Aspects of Syntactic Theory-n (1965) jazo ziren: oinarrian lexikoi bat beren beregi kokatu beharra ikusten da hiztegi item bilduma gisa, zein bere sintaxi, semantika eta fonologi ezaugarriekin. Honetarako azken zioa ez zen, izan, morfologiatikoa, hiztegi unitateen azpikategorizazio jerarkikorako ezina baizik. Urrunketa areagotu egin zen 60en amaierako lanetan; hor irekitako bideak izan ziren Halle eta Jackendoff-en lanetan zabaldu zirenak. Halle-k hitz eraketa fenomenoak ora (deribazioa eta inflexioa, ez baitio ezer konposizioaz) lexikoi barnean kokatzen ditu; Jackendoff-entzat morfologiaren egiteko nagusia ez da litezkeen hitzen sorkuntza edota direnen analisia, baizik eta hiztunaren gaitasunaren arabera hiztegi unitateen arteko erlazioak adieraz ditzakeen formalismoa garatzea. Transformazio bidezko erlazioa baztertzen duelarik (Lakoff-en aurka) erredundantzi erregelak eta unitateen propietate idiosinkratikoak ditu aztergai. Harentzat (eta orobatsu Halle-rentzat) erredundantzi erregela lexikoak aurretiaz ezagun diren hitzen arteko orokortasunetarik ikasten dira. Hauek menderaturik hitz berriak ikastea errazten da. Era honetan baztertzen da artean estandard zen ikuspegia, hots, sintaxia ez eze lexikoia ere sortzaile izango da aurrerantzean, nahiz eta usuenik sintaxia izan sortzaile eta hiztegi erregelak pasiboak.</p><p>Siegel, Allen, Aronoff eta besteren lanei eskerrak morfologi osagaia garatuaz eta zabalduaz joan zen 70en akaburantz sortzaileen hizkuntz ereduaren osagai ezagutu izatera iritsiaz. Hasieran irregularitate bilduma edo kokaleku gisa asmaturiko lexikoia, morfologi egiturari zegozkion erregelak hartuaz zihoan eta pixkanaka ("burutasuna", azpikategorizazioa, X-barra, perkolazioa...) sintaxiaren eredutik hurbiltzen.</p><p>Morfologia gramatika eredu honen osagai berezitzat hartzearen aurkako proposamenak eredu osoaren garapenetik (ikuspegi modularra) eta fonologi lexikoaren kritikatik etorri dira. Fonologia eta morfologia lexikoaren oinarrien ahultasuna ikusi da, bertan erregela fonologikoak ez baitira aritzen egitura deskribaketak aukera ematen dion guztietan, operazio morfologiko zenbaiti lotuak direlarik erregela fonologikoak. Alabaina, fonologi erregelek informazio sintaktikoa eskura dezaketela ikusi da (eredu horretan mantentzen zenaren kontra) eta hitz eraketak eta fonologi erregelek sintaxi egituran ezarketa lexikoa eman ondoren ere jarraitzen duela esan daiteke.</p><p>Morfologiaren antolakuntzaren inguruko zenbait pundu eztabaidatzera zuzendutako lan batean Orrnazabal-ek (1992) erakutsi zuenez hurbilketa sintaktikoak baditu lexikalistaren ondoan zenbait abantaila hitz eraketari dagokionez. Hitz konplexuen eraketak osagai sintaktikoan ezarritako hatsarri orokor zenbait gordetzen dituela eta morfologi eta sintaxi operazioen arteko ezberdintasunak sistemaren baldintza orokorren eragiketarik datozela defendatzen du Ormazabalek ordezkatzen duen joerak. Hipotesi lexikalistaren gain eraiki morfologi teoriei bai osagai honen barneko propietate interesgarrien inguruko orokortasunak~bai osagaiaren eta sintaxiaren arteko erlazioak itzuri ohi zaizkie. Hitz eraketa prozesuen gobernatzaile gisa aurkeztll izan diren baldintza eta hatsarriak sintaxi hatsarri askee~arik deriba daitezkeela argudiatu zuen Ormazabalek, baldin eta unitate konplexu haiek S-egituratik D-egiturako bihurketan ("mapping") osagai transformatzailearen bitartez sortu direla onartzen badugu:</p><p>Thus, works as <ref type="bibr">Sproat (1985)</ref> indicates that the Lexicon can be no longer considered as an independent word-formation component. The syntactic representation of words does not need to be derived appealing to an special and apart component, but rather word formation can be just reduced to conditions of well-formedness on syntactic representation (Ormazabal1992: 13).54</p><p>Larramendiren hiztegigintzaren inguruan izandako hurbilketa oker eta huts faktualetan oinarrituriko iritzi, aitzakia eta usteketa zenbaiten ahultasuna frogaturik gelditu delakoan nago (cf. <ref type="bibr" target="#b48">Lakarra 1993)</ref>. Lan horretako oharrez landa, ondorengoetan miatu dicen filologi alderdi zenbaitek (ef. Lakarra 1994a Harrietez eta Lakarra 1994b Urtez) Larramendi eta aurreko hiztegigintzaren alderdi batzuen ezagutza zehatzagoa eskuratu digute, baina eginkizun dugu oraindik azterketa emankorrago baterako nahita nahiezko duguna, hots, euskal hiztegigintza zaharraren etorkiak eta bilakabidea argitzen lagunduko gaituen hurbilketa berri baterako oinarriak jartzea.</p><p>Oraingo honetan Pouvreauren hiztegia eta euskal hiztegi zaharrak azaltzen edota baldintzatzen dituzten hiztegiarekiko ez eze hizkuntzarekiko uste eta teoriak azaleratuko ditut, hauek --eta hizkuntz eta hiztegigintza-historiografia europarra-kontuan ez hartuak baitakar, niketz, euskal hiztegigintzazko historiografiak pairatu desegokitasun eta desbideraketa.</p><p>Pouvreauren hiztegi-ariketa berrikusi dugu, bertan aurreko ikerketak bereziki ukitu (eta goraipatu) aitzineko egileen testuetatiko bilketa -lehen euskal autoritatehiztegia bailitzan-gutxiena eta egilearen sorkuntza gehiena (% 65-70 eratorri eta konposatuetan) markatuaz; hiztegi(eta)ko lexiko berrikuntza bat datorrela bere obretakoarekin, ez halabeharrez, gainerako beteginzarreak barkakizun egiten duen bekatu arin gisa; honenbestez, ezin harritu beste hiztegigile askok bezala, hiztegiaren hitzaurrean azaltzea, hain zuzen, euskarazko eratorriak nola sor daitezkeen. Zor berezirik izatekotan Kerejetak (1991) lehenengoz erakutsi legez, Oudin-ekin duela ere ikusi dugu haren hiztegian aurkitu baitzuen ez honako edo harako hitzaren azalpena edota adibidearen eredua, baizik eta oinarri ezagunetarik gramatikaren baliabideez eratorri berriak sortzeko ohitura. Europa osoan merideetan zehar aieruz eta hainbatetan aipatuki eriden genezakeen gramatikaren hiztegiarekiko lehentasuna dugu Pouvreauren ariketan gauzatzen dena.</p><p>(54) "...this model [Lexical Phonology] takes the component of word formation, namely the Lexicon, to be a separate module from the syntax: Morphology, therefore, is assumed to finish with the last lexical strata. Recent works in morphology suggest, however, that this approach to the field is a misconception of the role of Morphology within the grammar and the morphological processes of word formation do also occur in the syntax: the same result is independently supported by the fenomena of Basque considered here; this language shows that the process of word formation, both in their phonological and morphological sides, cannot be set apart from the syntax. It follows from those faces, that it is incorrect to assume that once the word formation processes have finished, the ords are inserted in the syntactic structure" (Uribetxeberria 1991: 12, apud Ormazabal, ibid.).</p><p>As it is part of a book devoted to the grammar of German, with extensive chapters on derivations and compositions, it must be evaluated in the light of the rules given in those chapters. Schottelius elucidates the word-formative potential of German by first explaining the generative potential of every kind of word formation and second by enumerating the lexematic elements with which this potential functions.</p><p>dio <ref type="bibr">Hlillen-ek (1988: 193)</ref>. Hots, gaitasunaren eta ez ariketaren (perfomance nahiz parole-aren) ispilu nahi zuten izan, argiro. Ikusi dugunez, alemanierazko hiztegigintza zahar osoari heda diezaiokegu juzku hau; eta Euskal Herrikoan ere, zeini bere mailan, erabat desegoki egiten ote? Erantzungai dugu bertatik berehalakoan edonori atera dakioken galdera samalda; ez dirudi, bederen, ezezko borobila dagokionik hemen aztergai izan dugun Pouvreauri.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>( 20 )</head><label>20</label><figDesc>Lepinettek dioenaren aurka ez da beti aditza buruan doana, usu izena dugu bai Oudin eta, are gehiago, Pouvreaurengan: llegar-llegarse-llegada-llegado eta llenar-llenado-llenador-lleno bezalakoen alboan loa-loable-loablemente-loar-loarse-loado-loador eta lima-limar-limado-limador-limadamente-limadura ditugu; batayoa-batayatcea-batayo harria edo bocata-bocataria-bocatatcea-bocatera Pouvreaurengan.(21) Lakarra 1994a-n (40. or.) eman ziren batzu, Vinson (1892)-tik harturik; han -2 orrialde lehenago behar zukeen 97. oharrean-esaten den bezala, Vinson ez zen seguruenik jabetu ohar hauen funtzioaz, un n'a aucune idee des suffixes et confond les noms derives et les adjectifs. Ses listes de terminaisons derivees sont incompletes" esanaz asetzen baita.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>1. Analysis ofthe entries under letter D-; § 3.2. Id under letter F-; § 3.3. Ms C; § 3.4. P's dictionary is not one "de autoridades"; § 4. Lexical renewal in P's texts; § 4.1. Text analysis; § 4.2. Lexical creations in HLEH from P's texts; § 5. Lexical renewal in P's dictionaries; § 5.1. Lexical creations in P's dictionaries; § 5.2, Compound and derived forms under letters A-and B-; § 6. On lexicographers' "sins": § 6.1. Mitxelena on P's sins; 6.2. On the structure oflexical entries in C MS (and elsewhere); 6.3. P as Oudins's beneficiary and disciple; § 6.4. On Oudins's lexicographic practice. § 7. Grammars and dictionaries; § 7.1. Notes on derivations in P's introduction to his dictionary; § 7.2. Derivation in the grammars; § 7.3. Derived forms in Nebrija's -dictionaries; § 7.4. Id. in P's dictionaries; § 8. From lexicographic practice to grammatical theory: the dictionary as a servant of the grammar; § 9. German and Basque lexicographical traditions; § 10.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>).3 Oihenartek egindako oharrez landa (cf. Kerejeta 1991ko argitalpena), eta haren lanetarik jasotako berbekin batean, Axular, Leizarraga, Harizmendi eta Etxeberri Ziburukoarengan -are honen hiztegi galdua dela bide-aurkitu eta zehaztu izan dituzte Urquijok (1909), Vinsortek (1.910) eta Mitxelenak (1961), Harizmendi eta honek moldatutako Haranbururekikoak ere Kerejetak (1991) garbitzen zituelarik. 4</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>Erakusgarri huts honi gutxi (kopuruz zein atzizki nabartasunean) deritzonak gogora beza ze testu moetaren aurrean garen eta artean honelakoetan zutela, bat izatekotan, idatzizko tradiziorik. Ohar bedi, orobat, ez diodala hitzok ora egileak berak asmatuak direla -batzu bai zalantzarik gabe-; aski zait oraingoz bere lexiko-graB lanaren eta idazle ihardunaren artean gehiegizko kontraesanik ez dela erakustearekin (ef. Lakarra 1994b: 875 eta 10. oh. Urtez). 4.2. Pausu bat aurrerago jo nahi izanez gero hara Hauta-lanerako euskal hiztegi-ko datuen arabera beren lehen agerraldiak (P = Pouvreau, Ez = Ez dator HLEH-n, X = ) beranduagoko agerraldiren bat jarri zaio hiztegi horretan, nahiz eta Pouvreauk dagoeneko delako hitz hori ekarri eta 46 (% 31,5) Pouvreau baino lehenagotik lekukotasunen batekin dugu. Bestela esanda, Pouvreauk berritu egiten du % 68,5ean eta, beharbada (ikus 11. oharra eta testua) are gehiagotan. 9 5. Lexiko berrikuntza P-ren hiztegietan. 5.1. Azaleko azterketa huts bat aski dugu ikusteko Hauta-lanerako euskal hiztegi horretan Pouvreaurengandik hartuak duen pisua; hara A-I letretan (osoaren erdian edo) aurkitzen ditugun Pouvreaurengandiko [= *XVII e.a.] lehen agerraldiak:</figDesc><table><row><cell>languiadura,</cell><cell>Ez</cell><cell>laboratfaillea,</cell><cell>Ez</cell><cell>munduguilleac,</cell><cell cols="2">Ez</cell></row><row><cell>bessarcatfaillea,</cell><cell>Ez</cell><cell>irakastfaillea,</cell><cell>Ez</cell><cell>guerthanfa,</cell><cell></cell><cell>Ez</cell></row><row><cell cols="2">bihotzgabetasuneco, P</cell><cell>irakaztuna,</cell><cell>1571</cell><cell>burupetsutasun,</cell><cell cols="2">Ez</cell></row><row><cell cols="2">gogoaau~1643</cell><cell>ikaztuna,</cell><cell>P</cell><cell>gogortasunaren,</cell><cell></cell><cell>Ez</cell></row><row><cell>devocionegabeco,</cell><cell>Ez</cell><cell>ikaslea,</cell><cell>1627</cell><cell>seculacotasun,</cell><cell></cell><cell>P</cell></row><row><cell cols="4">eztitasuneco, vicigarria, garbitasuna, saindutasuna, lanquidea, ecin icusizco, obratfaillea, beregaineco, eguinbideari, conseillaria, beharquietan, Iaincozcoaren, humiltasun, hildumatugabeac, Ez 161 7 1696 1616 1571 P Ez Ez Ez 1571 1571 1571 1635 Ez hertscailluetan, P humilgarrien, Ez berantcor, 1571 simpletasunean, 1627 esque(r)gabetasunen, 1617 bidegabeztatu, P muturtasuna, P haserredura, 1643 wakartasun, Ez distiaduraren, P doatsutasuneco, 1627 Jaincotasunaren, 1617 sendagarrizco, Ez apeztasuneco, Ez maitaria J 1657 biotzberatasun, P abadetasun, ahalketi, irakazmendua, berreguindura, berreguintasuna, berreguinqueria, lifunqueria, lifuntasuna, lifundura, erhoqueria, erhotasuna, asquitasuna, asquitcea, crueltasunian, barrencorric, primutasunaren, billusgorritasunare miraculluscoac, maitatfailley, borthiztasunaren, compligarri, ahalkadura, ahalketasunac J neurrigainezco, burupea, creatugabea, othoitzguilleen, peintadura, goratasunaren, beheratasunaren, ecin hillezco, maitarasun, alartze, Ez Ez Ez Ez P 1617 Ez 1643 1571 Ez Ez Ez 1643 1984 1571 Ez 1627 P Ez Ez P Ez P P abadetu, ahalkor, alasa, abadot(a), ahalusain, alatu, abantailatsu, aharzatz, aldamio, abatz, ahats, alderdi, abegi, ahazuri, alferki, aberatsaile, aheri (1), alka, aburska, aholkatu, almute, adaki, aihertsu, altxaldi, adelatu, ailis, ametz, adintsu (2), aingira, amezti, adoratzaile, aio, andazain, ageriki, aipu, andegatu, agertzaile, akabo, andura, agiri, akelarre, anega, ahagozo, akerki, anoa, ahaidetu, aketz, antena, ahaldun, akuilu, antxoa, P Ez P Ez 1571 1571 ahalegar, alababitxi, apurtasun, ahalkeriak, alamen, apurtu,</cell><cell cols="3">nothagabeco. beguitartetsua, liberaltasunen, iustugarritasunaren Ez P 1617 saindumenduaren, Ez mudagabeco, Ez naturalefazco, ardagai, Ez gaytasunaren, ardai, 1720 obligagarrizco J areatu, Ez eppagarriric, arkara, Ez iustutasunaren, arpin, Ez eraguintcetara, arrabitari, P ordenatfaille, arrapo, P arrastelu, esquiribatfailleac, Ez sehitasunezco J arrubi, Ez espantagarri, artekari, 1686 pompiresunez, artezia, Ez aska, saindugarritasunaren Ez ethorquizco, askari, Ez sehitasunetic, astalkatu, Ez neurrigabeco, astalko, Ez ondocotasunaren, atsegintasun, Ez hiltcecotasuna, atsegintsu, Ez barrayamenduac, auhendari, Ez batetarasuneraino Ez galtcecotasunera, Ez ezgaltcecotasunetic, Ez eguitateac, azorria, 1571 ezhiltcecotasun, Ez azpikotasun,</cell></row><row><cell>baqueguillea,</cell><cell>1745</cell><cell>miragarritasunac,</cell><cell>1808</cell><cell>ithurburuzco,</cell><cell></cell><cell>Ez</cell></row><row><cell>miragarriqui,</cell><cell>1630</cell><cell>nahasmenduco,</cell><cell>1930</cell><cell cols="3">hobengabetasuneco, 1643</cell></row><row><cell cols="3">ontasuna, HLEH-n eman lehen agerraldi urtea): 1571 beregainezco, ilhuntasun, 1617 largotasun, higoindura, Ez ohorezcoaren, iaquintasuna, 1617 flacotasuna, arguidunac. 1866 seruitfutasun, aberatstasun, 1627 minfacorra, saluatfaillea, 1617 etcheguille, galcorren, P guthiciadurari, saluaria, Ez miragarri, mintfaillea, Ez berdindurac,</cell><cell>Ez Ez P Ez 1617 P Ez 1571 Ez Ez</cell><cell>probetchugarri, epeltasuna, ansigabetasuna, berotasunetic, baldintasun, legueguille, hobengabe, ohizcampoco, libratfaille, bozcariotfaille,</cell><cell></cell><cell>1880 1617 1635 1643 P 1784 161 7 Ez 1627 Ez</cell></row><row><cell>hitzguilleac, minfaria,</cell><cell>Ez P</cell><cell>superbiotasunari, lerrodura,</cell><cell>P Ez</cell><cell>solhasquerietan, nothagabeco.</cell><cell></cell><cell>Ez</cell></row><row><cell cols="2">(c;ure) iaquingabea, 1643</cell><cell>fetchotasunaz,</cell><cell>P</cell><cell>devocionetsu,</cell><cell></cell><cell>Ez</cell></row><row><cell>erorcor,</cell><cell>1571</cell><cell cols="2">Iaincotiartasunaren, P</cell><cell>pisutasunaz,</cell><cell></cell><cell>1617</cell></row><row><cell>hautscor,</cell><cell>1643</cell><cell>fasticagarriac,</cell><cell>Ez</cell><cell cols="2">vanaloriasaleentfat,</cell><cell>Ez</cell></row><row><cell>galgarrietara,</cell><cell>1643</cell><cell>fermugabetasuna,</cell><cell>Ez</cell><cell>fede-dudagabeco,</cell><cell></cell><cell>Ez</cell></row></table><note>Ez Datuak ezin adierazkorrago iruditzen zaizkit: 146 eratorri edo konposatuotarik 63 (% 43,1) ez dira HLEH-n; 27 (% 18,4) badira eta Pouvreaurengan ediren da hain zuzen beren lehen agerraldia; 10-i (% 6,8(9) Are emankorragoa dirudi Guirist. dotrina-k; hara lehen 40 orrialdeetan aurkituaren adibide gisa: sarr. galaracitceco,</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>Ikus daitekeenez (81 + 74 + 18 + 44 + 8 + 55 + 51 + 47) 378 sarrerak Pouvreauren hiztegian du lehen agerraldia eta usu are bakarra urte askoan ere. Bestalde, bada ikertu letrotan eta gainerakoetan ere hainbat sarrera non Sarasolak ez dituen Pouvreauren aldaerak hobetsi euskara baturako (haien berri eman arren) zaharrenak izan edo ez, eta inoiz. badira aldaera horretan zein bestetan Sarasolak bere hiztegian sartu ez dituenak ere, hurrengo ataletan ikusiko den legez.l0bis 5.2. Segidan Pouvreauren hiztegiko A letran lehen 5 orrietako (hamar orrialde) Hauta-lanerako euskal hiztegia-n ez dira bildu Pouvreauren 42, dagoeneko Pouvreaurengandik (hiztegitik nahiz testuetarik) bilduak ziren lehen agerraldi bezala beste 17, 10 itzuri egin zaizkio hiztegigileari Pouvreau baino beranduagoko lekukotasuna eman baitzaie eta, azkenik, 32 Pouvreau baino lehenagokoren batengandik jasoak zituen. Bestela esanda, Pouvreak ez zuen aurreko inorengan irakurri ahal iz~n bere hiztegiaren zati honetan agertzen den eratorri eta konposatuen % 68a eta beharbada,ll are handiagoa dugu berak lehenclabizikoz paperean jarriaren kopurua. Esan gabe doa zifra hauek behin behinekoak direla eta azterketa zabalago batek beharbada alda ditzakeela; ez dakit, ordea, ene ondorioak desitxuratzeko adina; hara bestela hurrengo letran egin antzeko saioa: Agitz zabaldua dago joera ori, dakigunez, edozein tokitako iztegi-gilleen artean. Yakov Malkielen itzekin, izkuntza aldatu gabe, esateko (Romance Philology 12, 1959, 374s.) "Far more numerous and, all told, more insidious are the latent words smuggled in deliberately. In the Romance languages [eta orobat gurean,</figDesc><table><row><cell cols="5">aztiketa, babatu, bafa, balakatzaile, baldaru, balditu, :. baleztari, baltsamu, barrika, beberin, bedatse, begietaratu, behatzaile, bekulari, belatz (2), beldurkor, berdintasun, beregaindu, beregaintasun, berina, bermagune, berogarri, berokeria, berregin, berrerosi, berrerosle, berrerospen, berritsu (1), beruinatu, berundatu, beruneztatu, bestaberri, beta (1), betalde, betezpal, betierekotu, betile, bia, bigarrendu, bihurdura, bihurkatu, bihurritu, espal, gogalgin, biligarro, bilur, bilurtu, biratu, biribildu, biribilki (1), biribiltasun, biriteri, bitika, bixika, bokata, bokatari, bokater, bolari, bolbora, bordari, borratu, bortazain, bortiztasun, bortxatzaile, boska, botagile, botikari, burbuila, burrunba, buruxka, buruzagitasun, butoi, buzoka, dafaila, damnagarri, deabrutu, debekatzaile 10 dirutu, diruzale, dixidari, dixidu, dohakabetu, doilorki, doilortasun, doilortu, dolare, dudatsu, ebakidura, ebakitzaile, ehorzle, elar, eltzagor, elurrsu, elurtu, emalege, emaztegai, erakarle, erantzule, erdeinu, erdizka, erkatz, erlastu, ernatzaile, erpil, erpiltasun, errape, errefera, erreferatu, erregegai, erregu (2), erreki, errentatu, erretortasun, erribera, ertangora, eskaintzaile, eskatima, eskupe, harrigarriki, hordigarri, gogoramendu, harrigarritasun horitasun, goibeldura, harritsu, horni, gordintasun, hasbeheratu, hornidura, gorgoina, hasgorapen, horratu (2), gorgoinatu, hastiatu, hostope, gorringo, hastiotasun, hur, gorritasun, hauskortu, hurrondo, gurbil, haxelari, hurrupari, guretu, hazaita, ibi, guriki, haztamu, ibilbide, guritasun, hegi, ibilketa, guritu, heldura, idiki, gurutzefika, helzakitza, idortasun, gusu, herabetasun, idorte, gutiziagarri, herabetu, igeltsu, habailari, herauts, igeltsuztatu, habirakoi, herenkusi, igerikari, halatsu, herexa, igerikatu, handizki, herren, igeriketa, hankor, herskailu, ihardesle, hantura, hezurki, ihardespen, hargintza, higadura, ihinztatu, harilkai, higidura, ikasgo, harilko, hikatu, ikastun, harizkando, hildura, ikusle, harpa, hisiti, inauteri, harpiko, hizkatu, accionatcea Ez adisquidetcea 1571 agueriqui iraka, irakurle, irasagar, irasagarrondo, iratzargarri, iratze, iraungidura, irazeki, irazki, irazkitu, iraztor, iresle, irribera, irrigarriki, irrits, irritu (2), istape, istildu, lsun, itsape, itsuski, itzain, itzaingo, izartegi, izengoiti izipera, izokin, bachotasuna 1571 balestaria P barrendaria 1643 P accionetsua Ez adisquidetasuna 1571 aguertcea bachoqui Ez balestaguillea Ez barrendatcea 1643 1545 accordamendua Ez adisquidetc;aillea 1977 aguermendua bachera alhasea Ez balsatcea 1627 barrendeguia P Ez achelaria Ez adisquidetchoa Ez aguertc;aillea bacheratoquia Ez banderaria 1627 barrentcea 1745 P acholatasuna Ez adoratc;aillea P aguitcea bacherguillea Ez banderi~a Ez barurtiarra Ez 1760 acholatsua Ez adoracionea 1571 aguintaria bahatcea Ez banquetatcea Ez barurtcen 1571 1627 acholduria 1635 adoratcecoa Ez aguintc;a bahitcea 1562 banquecia Ez bassastoa 1745 1596 acholduritcea 1643 adreillucoa Ez ahaicoa bahimendua Ez baquetcea 1545 bassa gaixtoa Ez 1643 acholagabea 1627 adreilluztatcea Ez ahaidea baimendua 1643 baquetiarra 1627 bassa mahatza Ez 1545 acitun-ondoa Ez afalondoa 1571 ahaidetasuna bailliatasuna Ez baquetsua 1760 basa mahatztia Ez 1827 acometadura Ez afalmuga Ez ahaidetcea bakartasuna 1635 baqueguillea 1745 bassarana 1883 P acometamendua Ez affaitadura Ez ahalkatcea bakartcea 1800 baquemaillea Ez bassatcea 1630 1571 acometat~aillea Ez affaitatasuna Ez ahalquea bakarteguia 1745 barataria Ez bassatea Ez 1571 ac;orriatcea P affaitaquetac bakartoquia 1977 baratatcea Ez bassherria XVI Ez ahalquegabea 1630 a~otatcea 1571 afaitat~aillea bakkuna 1627 baratce~aina 1571 bassoillarra 1745 Ez ahalquegaberia P ac;otatc;aillea Ez afruntatcea bakoitza 1571 barazcaltcea 1571 bassoilloa 1627 Ez acuillu puntatc;aillea Ez afruntatc;aillea ahalquegabequi 1643 begui bakoitza Ez barazcal muga Ez bassoillanda Ez Ez acusatc;aillea 1643 agradablea ahalquegabetcea 1643 bakoitzqui P barazcalordua Ez bassoillazcoa Ez Ez acusamendua 1643 agradamendua ahalqueria 1636 bakoitzquitan P barbelgoa Ez bassothea Ez Ez adarsua 1775 agradablequi ahalquetia P bakoitztu XIXb barkat~aillea 1745 bassurdea 1562 Ez adarduna 1596 agortcea ahalquetsua 1636 bakoitztasuna 1745 barkacinoa Ez bastatcea 1745 1571 adatsduna 1571 agortasuna 1843 balacatcea 1635 barkaqui~una 1643 bastoinguillea Ez 1684 ahalquegarria adats izpia Ez agortea 1627 balacat~aillea P barrayatcea 1571 batasuna 1571 1635 ahalkatc;aillea adimenduduna Ez agortura ahalcorra P baldernapeza XIXb barrayaria 1657 batayatcea 1621 Ez adimendutsua Ez agudotcea ahantscorra 1571 balea~alea 1627 barreyua 1571 batayaharria 1746 P adintsua P agudotasuna ahantscortcea Ez baleaquia Ez barrenatcea Ez bayatcea 1664 P adisquide-quidea Ez agudoqui baleasalea Ez barrencorra 1643 bazcatcea 1571 1749 ahantscortasuna Ez indardun, harrigarri, hiztegi, inurritu, izur. P P Ez abretasuna abretcea abricotcea 1562 1665 P eratorri eta konposatuak biltzen ditut: abadegaya 1885 aberastu abade nahia Ez aberatsqui abade ordea Ez aberatsailea . P baba pipita Ez babatu P 86 sarrera aztertuetarik 33 (% 38,3) ez dira HLEH-n; 8 (% 9,3) agertzen dira eta Pouvreau da bertako lehen agerraldia; beste 16 kasutan (% 19,6) Pouvreau baino beranduagoko lekukotasunen batekin datoz eta 29tan (% 33,0) Pouvreau baino lehenagoko lekukotasunarekin. Berrikuntza portzentaia aurrekotik oso gertu dabil orain ere, % 67tik gora. 6. Hiztegigileen bekatuez. 6.1. Goian esan dugun bezala Mitxelenak Pouvreauren hiztegian bekatu bakarra aurkitzen zuen: "Erru bat du izatekotan: izan ditezkean itz erakarriak, ez direnak bakarrik, sartu dituela zenbait aldiz, dirudienez beintzat"; gainera, Pouvreauren Ohar gaitezkeenez 101 sarreratatik baba erroma "bekatu" hau arintzat edo hedatutzat jotzen zuen:</cell></row><row><cell>bijilia, bikeztatu, bilaka, bilgor, aberastasuna abadezza abadetasuna abadetcea baba leka</cell><cell>donabera, 1627 abrequeria dosteta, 1819 itsas-abreac dorpetu, P lar-abreac dorpetasun, P aberatstura Ez esku babatuac</cell><cell>p Ez 1630 Ez P</cell><cell>ogui ac;ala acaban~ac absoluat~aillea absoluacionea bachotcea</cell><cell>Ez 1643 Ez Ez Ez</cell></row><row><cell cols="2">(10bis) Ikus  § 7.4. datuon azterketa baterako.</cell><cell></cell><cell></cell><cell></cell></row></table><note>(11) Ikusi denez, gutxienetan ematen dizkie iturriak bere sarrerei; bestalde RS eta beste HLEH-n aipatu iturriren bat ez ziren osorik edo zatika Pouvreauren eskumenean edota ez zituen gogoan bere sarrerak eraikitzerakoan. Bestela esan, Pouvreau baino lehenagoko lekukotasuna izateak ez dakar hark nahi eta nahiez lekukotasun horretatik hartu zuenik, espreski berak horrela adierazten ez duenean, bederen; alabaina, kasuok gutxienak dira.diot nik (K.M.)] these ordinarily comprise derivatives manufacturated with the aid of productive and sharply focused suffixes, in particular of those enjoying unopposed extension, such as -able (-ible), and -ador (-edor] -idor), on the verbal, and -ero, on the nominal side. Such formations are readily understandable, they</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>Testuan emanak ez dira, noski, hiztegi horretako bakarrak eta irakurleak neke handiegirik gabe aurkitu ahalko ditu nahi adina: ef. adibide gehiagotarako bakarra, bak0itza, deskonsolazionea, desohoratzea, doillorra, dolua eta beste askoren hitz-familiak.</figDesc><table><row><cell>Mitxelenak lehen aipatu pasartean Pouvreauren "bekatu" hau arintzat edo hedatutzat jotzen zuen; ezaugarria, ordea, Pouvreauk ez "damukizun" baina bere sistemaren (eta ereduen eta garaiki-deen) oinarritzat zuela ikusiko dugu. 6.2. Bada Bilbaok egindako C-ren edizioan Pouvreauren lan egiteko moduaz ikas daitekeen haboro: auhenac auhenez dago auhendaria auhentcea auherra, (aj) alferra eder, auher, pr. 122 auhertcea auhertasuna cris lugubres, lamentations il se lamente qui pleure &amp; se lamnte se lamenter lafiar, llorar, quexarse faineant (alfe) hobacho, holgac;an la belle est d'ordinaire faineante rendre ou deuenir faineant je uais partir pour aBer ala uille allure, demarche jl marche a grands pas auiatcea auiatcera noa hirira auiadura auiadura handian doa auiadura handia darama auiatfaillea qui fait partir auisua J conseillua auis, conseil auisatcea J auisu emaitea auiser, donner auis auisamendua aUlS auisatfaillea qui donne auis (12) partir, faire partir nic auisaturic par mon auis</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>6.3. Mari Jose Kerejetaren arestiko lan batean(1991: 868-9, 12. oh.)  bada, ez oharrean baina testlJ.an eta luzaz, aztertzea merezi lukeen kopien arteko ezberdintasunei, erdal iturriari eta hiztegi osoaren ekoipenari dagokion pundu axolazkoa. A eta B hiztegi kopiak erkatzerakoan "B-n ez dagoela A-n (anfua-raino nahikoa usu, eta hortik aurrera noizbehinka, baina amaieraraino) agertzen diren gaztelaniazko definiziorik, ezta errefraurik ere" gaztigatzen digu Kerejetak. Dirudienez Pouvreauk goitik-beherako ikustaldi bat egingo zion bere hiztegiari aldamenean gaztelaniazko hiztegi bat zuela, hauek guztiak erantsiz. Garai batean Covarrubiasen Tesoroa erabil zezakeela pentsatu zuela aitortu arren, erkaketa baten ondoren ez hori baina Cesar Oudin-en Thresor des deux langues franfaise et espagnole 14 (Paris 1607) du Kerejetak Pouvreauk erabilitako gaztelerazko ordainen iturritzat:(13) Bada bien arteko ezberdintasunik: ikusi dugunez Pouvreauk multzoka ematen ditu eratorriak, Covarrubiasek, ostera, ez du hitzen arteko bereizkuntza tipografikorik egiten sarrera barnean doazelako eratorriok.</figDesc><table /><note>(14) ... Reueu J corrig! et augment! dJune infinite dJomissions, additions, locutions, phrases, proverbes, sentences&amp; recherches tirees du Tresor de Covarrubias.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>agudoa, habile, prompt, adroit, fetchoa, habil, presto, diestro;  cf. habile, c. habil, presto, diestro.  agudotcea, habiliter, amaiiar, abilitar, adestrar;   ef. habiliter, amaiiar, abilitar, adestrar.Markatzekoa da azken hitz hau beranduago letra txikikoagoarekin lehen utzitako hitz familien arteko hutsunean sartu ahal izateko idatzia dagoela. Orobat, hitz hori sartuaz Oudinen hiztegian hitz-familia harren partaide guztiak jasotzen dituela Pouvreauk. 15 acusatcea, accuser, acusar, culpar, achacar, retar; cf. accuser, acusar, culpar, achacar, retar. acusatfaillea, accusateur, acusador, retador; cf. accusateur, m. acusador, retador. , jakina, sistematikoki hartua zein sistema baten arabera kanpoan utzia, azken hau frogatzea beti ere zailago gertatu arren. acusatceco seinalea, accusatoire, acusatorio; cf. accusatoire, c. acusatorio. abecedea, abc, alphabet, la cartilla, abecedario; cf. abc, abc, la cartilla eta baita abecedaire, l'a, b, c, a, b, c, abecedario; ez ordea, alphabet, m. alphabeto. abuillatcea, remplir un vaisseau, henchir, atestar, llenar, entupecer; cf. remplir, atestar, hinchir, llenar, entupecer alfoa, giron, rega~o, faldas, gremio; cf. giron, m. rega~o, faldas, gremio. anayatasuna, fraternite, hermandad; cf. fraternite, f. fraternidad, hermandad. anayazcoa, fraternel, fraternal; cf. fraternel, m. fraternal.</figDesc><table><row><cell>adoracionea, adoration, adoraci6n;</cell></row><row><cell>cf. adoration, adoraci6n.</cell></row><row><cell>adoratcecoa, adorable, digne d'adoration, adorable;</cell></row><row><cell>cf. adorable, c. adorable.</cell></row><row><cell>adoracionarequin, adorablement, adorablemente;</cell></row><row><cell>cf. adorablement, adorablemente.</cell></row><row><cell>acusatrice, acusatrez;</cell></row><row><cell>cf. accusatrice, acusatriz.</cell></row></table><note>agudotasuna, agudecia, habilete, promptitude, habilidad, destreza; cf. habilete, f. habilidad, destreza.agudoqui, habilement, prestamente; cf. [habile homme, hombre docto] habilement, prestamente, [doctamente].adoratcea, adorer, adorar; cf. adorer, adorar.adoratfaillea, adorateur, adorador, adorante; cf. adorateur, adorador, baina baita adorant, adorante.acusamendua, chartela, accusation, acusacion, riepto; cf. accusation, f. acusaci6n, riepto.(15) Gauza bera gertatzen da agudo-ren familiarekin; bi hiztegien arteko lotura frogatzeko hain interesgarri izan daiteke</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head></head><label></label><figDesc>n'avait evidemment aucun desir de se faire lui-meme la concurrence en integrant dans son dictionnaire, des proverbes qu'il avait traduits et publies a part dans un autre</figDesc><table><row><cell>volume H</cell><cell>•</cell><cell>Hortik, Mari Jose Kerejetak (gutunez) gaztigatzen didan bezala, "Pou-</cell></row><row><cell cols="3">vreauk errefrauok Oudinen errefrautegitik hartze[a] frantses-gaztelaniazko guztiak,</cell></row><row><cell cols="3">gehienetan euskal itzulpena aurretik jarriaz" .</cell></row></table><note>6.4. Bere hiztegia osatzeko Oudinek Pallet, Hornkens eta Covarrubias erabili zituela erakutsi zuten</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head></head><label></label><figDesc>).Guerrerok gogoratu zuenez (506. or., 53. oh.)  Oudinen hiztegia hiztegigile anitzen (Sobrino, Franciosini, Vittori) iturri izan zen; ikusi dugunez, baita hark aipatzen ez duen Pouvreaurena ere. Baina guretzat gertakari honek Guerreroren zerrenda gehitzeaz landako garrantzia du; delako iturri baten erabilerak ematen digu (16) Cf. '4Les sources principales pour la partie espagnol-fran&lt;;ais du Tesoro de Cesar Oudin sont d'une part le Diccionario muy copioso de la lengua espafiola y francesa (1604) de Jean Pallet et d'autre part, le Vocabulario de romance en latin (1495) de Antonio E. Nebrija"(Lepinette 1992: 31). Lan hau aitzinamendu garbia da Guerrero-renaren aldean, iturri bakoitzaren zenbata eta nolakoa zehazten baititu: hots, Pallet nomenklatura jartzeko, Nebrija sarreren ordainak glosatzeko (cf. op. cit. 33, 35). (17) Ez bakarrik eratorriak, baita usu perifrasi eta esamoldeak ere gero Pouvreaurengan kausituko ditugunak ber: Zorra, regnard que 1'on prononce renard, c'est proprement la femelle qui se dit regnarde Estar hecho 20rra, estre yure. berririk hiztegi batez, honen eraikuntzan erabilitako metodo eta erizpideez, egituraz, helburuez... (cf. Lakarra 1991). Lepinette-k (1989: 264) espainiera-italiera eta iraIiera-espainiera Iexikografiako lehendabiziko bi hiztegigileak (Crist6val de las Casas [1570] eta Franciosini [1620]) erkatzerakoan zera zekusan: "Franciosini fait figurer d'une maniere exhaustive, Ies derives d'une meme famiIle (incluant meme parfois les diminutifs non Iexicalises d'adjectifs et de substantifs): dans notre echantillon, ocasion est accompagne -si nous omettons la phraseologie-de ocasionar, ocasionadamente, ocasionado, oCt/lsionador, alors que Las Casas presentait ocasion et ocasionado".</figDesc><table><row><cell>Bestetik, Cooper-ek Pallet eta Oudin-en erlazioez ikusia:</cell></row><row><cell>Ciertos artfculos de P[alet] faltan par completo en O[udin]</cell></row></table><note>Cafar vna zorra, s'enyurer. Zorrera, regnardiere. Zorrerfa, regnardise, finesse de regnard, subtilite. Zorrero, regnardeau, petit regnard. 20rro, le regnard masle. (18) Oharrean HCreemos haber demostrado con suficiencia la utilizaci6n del vocabulario nebrisense por parte de Oudin, a 10 que queremos anadir que tambien conocie, y utilize, el Diccionario, como veremos mas adelante H•</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head></head><label></label><figDesc>). Baina ez bedi inor nahas; Oudin-ek kasuan kasuko eratorriak, hemen bezaIa inoiz edo behin delako atzizki batez eratuak oro ezabatzeak 19 ez dakar aitzindariaren, aitzindarien, sisremaren beraren aurka egotea. Hasreko, Lepinette-k erakutsi Iegez, "Oudin complete Ies series de derives et place toujours en tete de l'une d'elles, le verbe de la famille" (1992: 35): Sobrepujar, exceller, exceder, surpasser, surmonter. Sobrepujado, excelle, surmonte. Sobrepujador, qui excelle &amp; surmonte Sobrepujan~a, excellence, supereminence.</figDesc><table><row><cell>Variar, varier, diuersier" desguiser, alterer.</cell></row><row><cell>Variable, variable, inconstant, muable.</cell></row><row><cell>Variaci6n, variation, desguisement, inconstance, changement.</cell></row><row><cell>Variado, varie, altere, desguise, diuersifie.</cell></row><row><cell>Variedad, variete, diuersite, difference.</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head></head><label></label><figDesc>Lakarra 1993-ko 4, 5  eta 7. ataletan eta 1994a-n ikus daiteke Larramendik Harrietengan kausituez izan portaera gonbaragarriren bat edo beste. llorosamente... Nola pentsa goian emandako deseguitea, deseguina, deseguillea, deseguindura, deseguintfa, edo durdusia, durdusiatcea, durdusiadura, durdusiatfaillea, durdusiaz eta mehatchuz, durdusiaturic igorri nau horrekiko loturarik gabekoa dela?20</figDesc><table><row><cell>7. Hiztegiak eta gramatikak.</cell></row><row><cell>7.1. Eskuartean dugun kasuan ere hiztegigileak iturrian (Oudin-engan) zituen gero</cell></row><row><cell>berean (Pouvreaurenean) oinarritzat ikusten ditugun hitz-familiak; usu iturriarenak</cell></row><row><cell>progotxatuaz eralkitzen ditu bereak eta, iturriak bezala, morfologiaz eta eratorpenaz</cell></row><row><cell>dakiena baliatzen du hitz-familia horietan kokatzen dituen berbak, zaharrak eta</cell></row><row><cell>berriak ematean. Honek, halabeharrez, gorago HLEH-tik jasorik aurkeztu ditugun</cell></row><row><cell>--eta gehitu ahal genitzake beste hainbat eta hainbat kasu-lehen agerraldien balioa</cell></row><row><cell>eta -azkenik-Pouvreauri eman dakiokeen XVII. mendeko hizkuntzaren ordezkari</cell></row><row><cell>balioa (gauzatzen zen parole-arena, hobe) zalantzan jartzera garamatza;</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_15"><head></head><label></label><figDesc>lkaztuna, qui apprend, apprentif. lkaslea. (en marge:) Hitztuna, parleur, qui a beaucoup de paroles, de hitztea. Por la maior parte salen estos nombres [gentiles] en esta terminaci6n ano, como de Castilla, castellano; de Italia, italiano [...] Salen esso mesmo 10s nombres gentiles muchas vezes en es, como de Francia, frances; de Arag6n, aragones [...] en eno, como de extremo, extremeno; de Caceres, cacereno [...] en isco, como de aleman, alemanisco; de moro, morisco [...] en esco, como de Flandes, flandesco; de Sardena, sardesco [...] en ego, como de cristiano, cristianego; de jUdlO, judiego [...] Salen los nombres denominativos en a, como de justo, justicia; de malo, malicia; de abad, abadfa. Salen en d, como de bueno, bondad; de malo, maldad. Salen muchas vezes en aI, como de cuerpo, corporal, de asno, asnal [...] muchas vezes en ar, como de oliva, olivar, de palma, palmar [...] en edo, como de olmo, olmedo, de azevo, azevedo [...] (Quilis 1980: 170-172).Horrela-OSO, -ento, -ado / -azo, -uno, -ero, -or, eta  -ario atzizkien bitartez sortzen direnen adibideak ematen dizkigu. Ondorengo atala ere ez da Pouvreaurekin erkaezina: CAPITULO QUINTO. DE LOS NOMBRES VERBAlES. Verbales se llaman aquellos nombres que manifiesta mente vienen de algunos verbos; e salen en diversas maneras, por que unos se acaban en anfa, como de esperar, esperanfa, de estar, estanfa [...] Otros salen en encia, como de doler, dolencia, de tener, tenencia [...] Otros salen en ura, como de andar, andadura, de cortar, cortadura [...] Otros salen en enda, como de emendar, emienda, de leer, leienda [...] (174-175).23</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell>JOSEBA A. LAKARRA</cell></row><row><cell>Erhoqueria,</cell><cell>1643</cell><cell cols="2">ration, de berretcea, augmenter, ac-Ez gainecoa.</cell></row><row><cell cols="2">(en marge aussi, d'une autre ecriture, peut-etre de celle d'Oihenart:) Du-ria H obiaduria. Ikustzecoaren, ikusiz-coa, Erhotasuna, 1571 bethierecoa, Ez bethieretcea, Ez bethieretasuna, Ez bethicoa Ez azpicoa. 1643</cell><cell cols="2">complir. asquitasuna, berreguindura, enjoliuement, enjoliuu-Ez re, de berreguintcea, enjoliuerie. berreguintasuna, enjoliuerie. Ez 1571 asquitcea. ezeztatcea berreguinqueria, enjoliuerie par affaire Afaiquetac Ez d'habitude Lifunqueria, salett par habitude. dostaquetac. Ez</cell></row><row><cell cols="4">(encore en marge de l'ecriture de Pou-7.2. Nebrijak bere gramatikan izenaren akzidenteen artean espeziea -hots eratorria Lifuntasuna, salete deia faite. vreau:) Iaquitecoa. Iaquiteco da. Lifundura, salissement, l'action de sa-jatorrizkotik bereizten duena-aurkezten digu bigarrengotzat: Ethortecoa qui est a venir. lir. #. 2. Des noms verbaux substantifs Erhoqueria, folie d'habitude. Primogenito nombre es aquel que aSSl es primero, que no tiene otro m~fs antiguo abstractifs. Erhotasuna, folie formee. de donde venga por derivaci6n [...] Derivado nombre es aquel que se saca de otro C;uhurtasuna. Sagesse, de fuhurtcea, ren-(en marge, d'une autre ecriture:) Labo-primero y mas antiguo, como de monte, montesino, montana, montanes, mont6n, dre ou devenir sage, autrement ranfa. montero, monterfa, montaraz. Nueve diferencias y formas ai de nombres derivados: fuhurtcia, en basse navarre on dit Chapitre des noms aduerbiaux, &amp; patronlmicos, possesivos, diminutivos, aumentativos, comparativos, denominati-fuhurtarsuna. bethiere, toujours. bethierecoa, bethie-vos, verbales, participiales, adverbiales (Quilis 1980: 167). Ontasuna, bontt, de ontzea, rendre ban. Eztitasuna, douceur, de eztitcea, rendre doux.~ztia, doux, miel. A dimendua, entendement, de aditcea, retcea, bethieretasuna, bethicoa Gero denominatiboak -beste izen batzutarik ateratako izenak-sailkatu ondo-azpian, azpicoa. gainean, gainecoa. ren,22 horiek gazteleraz nola eratzen eta sortzen diren azaltzen du:</cell></row><row><cell cols="2">entendre. 'irakazmendua, enseignement, de ira-[...]</cell><cell cols="2">asqui J asquitasuna J asquitcea. ez eZ J ezeztatcea.</cell></row><row><cell>kastea.</cell><cell></cell><cell>Afaiquetac.</cell><cell></cell></row><row><cell>saluamendua.</cell><cell></cell><cell>solhasquetac.</cell><cell></cell></row><row><cell cols="2">berretura, l'action d'augmenter, augmen-</cell><cell>dostaquetac.</cell><cell></cell></row><row><cell cols="4">Bertoko "adibideak" mia bagenitza oso onclorio markagarriak genituzke: 51 era-</cell></row><row><cell cols="4">torritatik 23 ez datoz HLEH-n, 7 Pouvreaurengandik hartuak ditu eta gainerakoak</cell></row><row><cell cols="3">lehenagoko testuetarik; hots ia % 60a da berrikuntza.</cell><cell></cell></row><row><cell>Saluatfaillea</cell><cell>1617</cell><cell>Ikustzecoaren J</cell><cell>Ez</cell></row><row><cell>saluaria.</cell><cell>Ez</cell><cell>ikusizcoa.</cell><cell>Ez</cell></row><row><cell>Erraillea</cell><cell>1596</cell><cell>Iaquitecoa,</cell><cell>Ez</cell></row><row><cell>Eguillea</cell><cell>1571</cell><cell>Ethortecoa</cell><cell>Ez</cell></row><row><cell>Erroillea</cell><cell>P</cell><cell>Ontasuna,</cell><cell>1571</cell></row><row><cell>I racurtfaillea</cell><cell>1617</cell><cell>ontzea,</cell><cell>1643</cell></row><row><cell>jracurlea</cell><cell>P</cell><cell>Eztitasuna,</cell><cell>1617</cell></row><row><cell>Icuslea</cell><cell>P</cell><cell>A di1nendua,</cell><cell>1545</cell></row><row><cell>Minfatfaillea</cell><cell>1630</cell><cell>irakazmendua,</cell><cell>Ez</cell></row><row><cell>minfaria</cell><cell>P</cell><cell>saluamendua.</cell><cell>1545</cell></row><row><cell>Laboraria</cell><cell>1571</cell><cell>berretura,</cell><cell>1627</cell></row><row><cell>Laboratfaillea</cell><cell>Ez</cell><cell>berretcea,</cell><cell>1623</cell></row><row><cell>Irakatsfaillea</cell><cell>Ez</cell><cell>berreguindura,</cell><cell>Ez</cell></row><row><cell>irakaztuna,</cell><cell>1571</cell><cell>berreguintcea,</cell><cell>P</cell></row><row><cell>Ikaztuna,</cell><cell>P</cell><cell>berreguintasuna,</cell><cell>Ez</cell></row><row><cell>lkaslea.</cell><cell>1627</cell><cell>berreguinqueria,</cell><cell>Ez</cell></row><row><cell>Hitztuna,</cell><cell>1643</cell><cell>Lifunqueria,</cell><cell>P</cell></row><row><cell>hitztea.</cell><cell>Ez</cell><cell>Lifuntasuna,</cell><cell>1617</cell></row><row><cell>H obiaduria.</cell><cell>Ez</cell><cell>Lifundura,</cell><cell>Ez</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_16"><head></head><label></label><figDesc>Nebrijaren Diccionario latino-espanol-etik Vocabulario-ra igaro ez ziren eta Corominasen hiztegiko lehenengo agerraldia aurreratzen duten berben artean. Esan gabe doa, zenbatez handiago litzatekeen data-aitzinatze horien multzoa Nebrijaren lexikografi lanak ora kontuan harturik; ezin, haatik, ohartzeke utzi hor aipatutako (eta sail bereko) hitz gehienak -amerikanismo, italianismo eta mozarabismoak lekat-Nebrijak berak eratorritzat (izenki zein adizki eratorritzat) semantikoki eta formalki definituak direla: 25 peregrinar, transjigurar J encanecer J desastrado</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_17"><head></head><label></label><figDesc>beren arteko lotura nabarmenik kausitu ahal izan du gramatikan bertan; hiztegiekikoa luze baina ezinukatuzkoa da Guerrerok (1988) eta Garcfa Machok (1988), besteren artean, frogatu legez. Bidenabar, Lope Blanch-ek (ibid, 240-1) erakusten du Villal6n-ek Nebrijarekin gramatikari dagokionez ez zela hiztegiarekiko Larramendik Landuccirekin agertu maltzurtasunetik urruti. (25) Beste azterketa baterako ikus Garcfa-Macho 1993; honek behin baino gehiagotan gaztigatu bezala, Nebrijaren kultismoak, are 2. argitalpenean ausartegi edota desegoki iruditurik ezabatu lehendabizikoan asmatu neologismoak ere, egun usu ez dira horrela hiztun arruntarentzat gehienetan. Antzeko zerbait argudiatu ahalko bide genuke Pouvreau eta besteren hitzberri zenbaiten aurrean.</figDesc><table /><note>(26) Nebrija hona [eta, laburrago, 1994a: 42-43-ra] ekartzearen arrazoiez galde dezakeenarentzat,</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_21"><head></head><label></label><figDesc>). Ezaguna denez (cf. Sarasola 1986 eta Lakarra 1991 eta ondoko lanak), idazkera landuaren tasun markagarrienetarik delarik atzizkien erabileraren ugaltzea, eta ez izaki atzizki bakoitzaren zedarriztapen tinkoegirik, usadio bereziak aurki daitezke egileen artean, bai atzizki hautapenari eta baira atzizki bakoitzaren balioari doakionez eta are gehiago haien zabaltzaile nagusi diren hiztegigileenean. Eginkizun emankor dugu atzizkiak arrasto edo aztarna gisa erabiliaz ondutako euskal hiztegien (28) Letra honetan, ezagun denez, mailebu eta jatorrizkoen artean errotiko berezkuntzarik ezin egin daiteke; gehienez ere mailebu zahar eta berriagoen artean mintzatu beharko ginateke. Halere ez da hori orain axolazkoen zaiguna. Bidenabar, baliteke aztergai bezala hartutako letraren berezitasuna azaltzea den konposatu-urritasuna ere.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_22"><head></head><label></label><figDesc>). Euskal ordainak argiak dira bilatuz geroz: (...) dudaric gabe obligatua i~an da hetaric hartcera, bertce hitzcuntcec eguin ohi duten be~ala. Ordea hargatic arro~oin hau ezta asqui erraiteco escuarac galdu duela bere garbitasuna ceren ez baitu hartu gambiaduraric bere lehembicico hatsapenetan (ceinac baitira declinacinoac eta conjugacinoac) ez eta ere gui~onac vicitzearen mantenatzeco behar tuen gaucen (...) Hemendic beraz erran diteque escuara egungo egunean bere garbitasunean dagoela, ceren beguiratcen tuen bere lehembicico hatsapenac eta icenac, ceinetan baitaunt~a bertce gaineraco guztiac Philosophoen erranen eredura. (...) Lehembicico hatsapenac appurrac dira baina indar eta bothere handitacoac, gau~a guztiac hetan daunt~a eta hei datchezte eta hunetan dago hitzcunt~aren i~aitea eta garbitasuna (Etxeberri 100-1). Hala nola eguiazco philosophian materia eta forma baitira gorpput~aren lehen hatsapenac eta bere muetan i~aite ossoa eta perfeta emaiten diotenac, manera berean cein nahi hitzcunt~aren lehen hatsapenac dira hit~ac eta gramatica. Hit~ac cerbit~atcen dira materiat~at eta gramatica format~at, ceinac hitcei berenez disposicino choilla baicic eztutenei emaiten baitiote i~aite ossoa eta perfeta non hauquien bidez hitzcunt~a bat bertceaganic diferent edo bata bertcearen iduritaco eguiten baitira (Etxeberri 127).3 6</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_24"><head></head><label></label><figDesc>zela, "heroum lingua, lingua Teutonum vietrix U (136-7) orobat, Babelgo dorretik Ascenas edo Ashkenaz Noeren ilobak Europara ekarria. Usu beren hizkuntza, sorreraz, grekeraren pare eta latinaren gainetik (hau beste bien nahastetzat jotzen dutenak ere badira) eta hirugarrengo eta apalen direlarik frantsesa, gaztelania eta italiera.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_25"><head></head><label></label><figDesc>). Oinarrizko formotarik abiatuaz,45 hiztegia gonbinaketa prozesu zehatzez (42) Cf. 4lComme aussi j'estime cest essay n'apartenir q'ua personages fort capables &amp; experimentez en ces affaires traductifs ou interpretatifs, en ayant vollu jcy suiuant, poser pour la langue franc;oise quelques exemples, de certains mots ou dictions, que neaulmoings estants plusieurs diceuls differends en lettres &amp; sillabes ne signiffient q'une mesme chose, ce que ie treuue presque de mesme al'Espagnol &amp; Basque, pour la grand quantite &amp; source des propos, mots, paroles, dictions &amp; termes q'on a jnuente, inuente, &amp; peult inuenter journellement, deriuant &amp; sortant de ces antiques langages, gregs, latins &amp; aultres, ov de la subtilite &amp; jnuetio des esprits de mattenat [iii] De sorte que ie ne doubte point que je n'aye des controlleurs &amp; discoureurs acause de ce difficille ouurage" (Voltoire; cf. Lakarra 1995a).</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_26"><head></head><label></label><figDesc>). Orobat haren jarraitzaile dugun eta alemanaren indarrik iraunkorrena konposatu eta eratorri berrien bitartez hedatzea zela uste zuen Stieler-ek bere Der Teutschen Sprache Stammbaum und Fortwachs-en ([1691] apud Jones 1991: 141). Garaikide "prosaiko" zenbaitek eta ondorengoek bere hiztegia asmatutako hitzez betea zela masiatuarren, Steiler-ek bere burua aurrez defendatua zuen. 46 Kaspar Stieler-ek bere 1691ko hiztegi erraldoian 47 Schottelius-en bidea (eta Pouvreaurena) jarraituko du hiztegia sarrera buruen ordena alfabetikoaren' arabera emanaz, eratorri eta konposatuak beren oinarriaren barnean bilduaz. Schottelius-ek (eta, demagun, Sarako Etxeberrik) legez, Stiler-ek ere usteko du alemanieraren berezko indar eta ahalmena dela bere baitatik zabaltzea konposatu eta eratorri berriak sortuaz</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_27"><head></head><label></label><figDesc>). Cf. Etxeberri 87-88: "Hauc dira escuararen hit~ac eta icenac, ceinetan edireten baitira hain vicitasun eta significan~a misteriotsuac non baitirurite philosophoen sentenciac eta hetaric hit~bakhotchac gau~aren definicinoa".</figDesc><table><row><cell>(50) Hau frogatzeko alemaniera akademia eta unibertsitateecan sartzeko lehenagoko saio ustela</cell></row><row><cell>aipatzen duo</cell></row><row><cell>(51) "Kramer envisage donc trois types d'ouvrages lexicographiques:</cell></row><row><cell>1) le Dictionarium qui est un repertoire strictement alphabetique dont l'interet principal est de</cell></row><row><cell>faciliter la localisation des mots a consulter. C'est un dictionnaire de lecture, un dictionnaire de</cell></row><row><cell>reception ou de comprehension;</cell></row><row><cell>2) le Lexicon qui presente une nomenclature ou, seuls, les radicaux sont classes par ordre alphabetique et suivisJ</cell></row></table><note>al'intbieur de l'article, de leurs derives et composes. Le Lexicon est un ouvrage essentiellement didaaique: cJest un dictionnaire de production de textes qui permet ason utilisateur de comprendre et d'appliquer les regles de formation des mots de la langue etrangere traitee; 3) la Phraseologia est un repertoire des "Kern-Warcer", des "mots-noyaux", mots du vocabulaire</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">estainuzratu, estalgarri, esreka, estreina, estreinatu, etxezain, ezagutzagabe, ezarian, ezkabia, ezkabiatsu, ezkerdo, ezkoztatu, fededun, fetxo, fetxoki, fetxotasun, finkotasun, floka, frankotasun, fruitutsu, gainditu, galerna, galgo, galkor, galtzerdi, ganga, gantz, gantzu, gapoin, garabi, garaitiko, garatosatu, garba, garbatu, garbigarri, garlopa, garraiatzaile, garranga, garta, gata, gateatu, gatzagi, gatzontzi, gaziki, gaztainondo, geheli, geinatu, gerba, gerezi, gereziondo, gerren, geurtz, gidatzaile, gider, gila, ginbalet, gindax, girgil, girtain,(10)Markagarri -des aurrizkiaz osatu hitzberrien zeinen lehen agerraldi gutxi P-rengandik HLEHn (batere ez ?).</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abbandonarsi</head><p>Abbandonarsi Abbandonarsi Abbandonarsi Abbandonarsi 43 <ref type="bibr">Bray-rentzat (1988: 205)</ref> Kramer-en hiztegiak alemanieraren hitz-eraketa erregelak ezagutzeko eta alemaniar hiztegia bera analogikoki hedatzeko lanabesa genuen:</p><p>Dor'enavant l'utilisateur dispose d'un outil pedagogique hautement perfectionne avec lequel il peut apprendre et les regles de formation des mots et les regles de leur emploi; un dictionnaire avec lequel il peut aussi enrichir son vocabulaire allemand grace al'integration d'une composante analogique developpee.</p><p>Stieler-en, Kramer-en (eta hurbilagoko besteren) bidea ez zen guztien gustukoa izan: "His more prosaic contemporaries and his sucessors, for example Gottsched in 1752 C..), complained bitterly that he had stuffed his dictionary full of invented words -an accusation that Jacob Grimm doubted, and that has yet to be properly judged by historicallexicologists." Gones 1991: 142, eta orobat Faust 1981: 368.</p><p>Halere, Stieler-ek errazki defendatu zuen bere burua argudiatuaz (i) bera poeta zela, (ii) morfologian aspalditik ziren lanabes eta baliabideak erabiltzen ari zela, eta (iii) inoiz lehen galdutako hitzak berreskuratzen ari zela (ibid). Arrazoibideok ere ezezagun ote zaizkigu?52 10.0ndorioak. <ref type="bibr">Stankiewicz-ek (1981: 177)</ref> markatu zuenez 16. mendeko hizkuntzalaritzaren aitzinamendua usu atzenduxea dugu garaiko bestelako aurrerapenei -bereziki literatur hizkuntzenei-adi izanik: central classes par ordre alphabetique, analyses semantiquement et decrits dans leur usage. C'est un dictionnaire de definitions et de constructions" <ref type="bibr">(Bray 1988: 202-203;</ref><ref type="bibr">etzana neurea)</ref>.</p><p>Burutu gabe izan arren ere bigarrena da, zalantzarik gabe, Pouvreauren eredua. Cf. uThree significant decisions about the contents of the Thesaurus, two of which are reflected in this introduction, would change lexicography in the sixteenth century: 1) whole phrases which imply context, and the meta-structure of language would be represented, not isolated words; 2) a French commentary would be provided as an afterhought although fully integrated into the dictionary (the commentary is not a translation but rather the comparison of synonyms); and 3) grammatical categories would be indicated: conjugations, genders, ete. These three decisions transfigured an ancient tradition of translation shifting the "dictionnaire de mots rr into a context in which the "dictionnaire de notion" would give birth ultimately to the "dictionnaire de langue" as we know it today" <ref type="bibr">(di Virgilio 1988: 191)</ref>.</p><p>(52) Alemaniar herrietarik eta Euskal Herritik landa antzeko jokaerak aurkitzea ez da ezinezko inolaz ere: <ref type="bibr">Lambert-ek (1987:</ref> 30-1) Gruffurd Robert-ez (Breve exposition de la premiere partie de la grammaire galloise, OU l'on trouvera beaucoup de choses necessaires aqui disirerait parler le gallois convenablement ou l'icrire correetement, Milan 1567-1584) dioskunez '4La deuxieme partie (Morphologie) porte le nom curieux de Cyfiachyddiaeth Hmedication": il veut montrer comment Hsoigner" chaque mot pris separement et tire de son contexte discursif. Dans cette section, Gruffurd propose differents moyens pour enrichir le gallois, afin de lui permettre de traduire les ouvrages etrangers, et d'etre un instrument</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Kramer recognises still &quot;ce divin Artifice de la Derivation &amp; Composition&quot; (...) and he defers to tradition -as well as to German language-structure-by including a list of roots with Italian gloses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>True</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Gone is the all-powerful mystique of the &quot;Stammwort</title>
+		<imprint>
+			<biblScope unit="page" from="11" to="67" />
+		</imprint>
+	</monogr>
+	<note>But his vast material (2.482 pages in three columns) is now arranged strictly in alphabetical order. Ther work is intended as a learner&apos;s dictionary rather than just a reference tool (lones 1991: 143</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Lakarra 1994a-n markatu bezala, hizkuntzalaritza modernoan oihartzunik izan duen morfologi elemendu mugatuen emankortasun agortezina Varro-gandikoa dugu. Ohiturak jarraitu zuen oraindik: Kramer-ek U ce divi~artifice de la derivation &amp; composition&quot; aipatzen du bere italiera-alemana, alemana-italiera hiztegian</title>
+		<imprint>
+			<biblScope unit="page" from="1700" to="1702" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">erro zerrenda gisa antolatzen du liburua, eratorri aurrizkidunen eta oinarrien arteko ber-bidalketak sartuaz</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Mas digo que si los bascongados se toman, como pueden, la licencia de usar la analogia y metafora, sera el bascuenze incomparablemente lengua mas fecunda que las otras, las quales, con especialidad el romance, si cercenan estas locuciones figuradas, perderan mas de la mitad de 10 que llaman afluencia. La prueba de mi asserci6n sera el Diccionario Bascongado</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Euskal Herrian Ere Irizkideak Zituzten</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>cf. Lakarra prestatzen-a</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">HWhit nearly 2.100 pages and 68.000 headwords, it is quantitatively and qualitatively a milestone in German lexicography</title>
+		<imprint/>
+	</monogr>
+	<note>lones 1991: 140</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Aarsleff</surname></persName>
+		</author>
+		<title level="m">Studies in the History of the Language Sciences, 38) John Benjamins</title>
+		<meeting><address><addrLine>Princeton; amsterdam-Philadelphia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+	<note>Papers in the History of Linguistics. Proceedings of ICHoLS Ill</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">«El Diccionario latino-espanol y el Vocabulario espanol-Iatino de Elio Antonio de Nebrija: an~Hisis comparativo», Anuario de lingiifstica I</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Acero</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1985" />
+			<biblScope unit="page" from="11" to="25" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Histoire de la linguistique: la tradition irlandaise, Collection THTL, Universite de Paris 7</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ahlquist</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Les premieres grammaires des vernaculaires europeens</title>
+		<meeting><address><addrLine>Paris; Paris</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1983" />
+			<biblScope unit="volume">9</biblScope>
+		</imprint>
+	</monogr>
+	<note>arg .</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Del origen i principio de la lengua castellana 0 romance que oi se usa en Espafia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Aldrete</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">CSIC, Madrila</title>
+		<editor>Berrarg. faksim., L. Nieto Jimenez</editor>
+		<imprint>
+			<date type="published" when="1606" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">The development of the English-French, French-English Bilingual Dictionary: A study in comparative lexicography</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Anderson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1972" />
+			<pubPlace>Baton Rouge</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Luisiana State Univ. (Ann Arbor Univ. Microfilm</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph. D. diss.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Actas del I Congreso Internacional de Historia de la lengua espanola</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ariza</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+			<pubPlace>Arco Libros, Madrila; Madrila</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Actas delll Congreso Internacional de Historia de la lengua espanola. Pabe1l6n de Espafia</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Dangers and difficulties in linguistic historiography: the case of Gilles Menage (1613-1692)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Ayres-Bennett</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<biblScope unit="page" from="195" to="206" />
+		</imprint>
+	</monogr>
+	<note>in Hullen (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Basque lexicography</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Azkarate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Larramendiren hitz-eraketa», in Lakarra (arg.) 1992b</title>
+		<editor>F. J. Hansmann et alii</editor>
+		<meeting><address><addrLine>Belin-New York</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="49" to="77" />
+		</imprint>
+	</monogr>
+	<note>Bilbo. ~Iker 8</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">«How complex words get their properties», ms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Nebrija en Catalufia</title>
+		<editor>Early Modern English. London: Andre Deutsch. Bassols de Climent, M.</editor>
+		<imprint>
+			<date type="published" when="1945" />
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="49" to="64" />
+		</imprint>
+		<respStmt>
+			<orgName>McGill University. Barber</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Bilbao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Pouvreauren hiztegi laukoitza</title>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="341" to="389" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">«The Spanish schoole-master and the polyglot derivatives of Noel de Berlaimont&apos;s vocabulaire», Revue Hispanique 81</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">B</forename><surname>Bourland</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1974" />
+			<biblScope unit="page" from="283" to="318" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Richelet&apos;s Diaionnairefranfois (1680) as a source of La porte des sciences (1682) and Le Roux&apos;s Dictionaire comique (1 718)&gt;&gt; in Hartmann (arg</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Bray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">La lexicographie bilingue italien-allemand et allemand-italien au dix-septieme siecle. L&apos;exemple des dictionnaires de L. Hulsius et de M. Kramer</title>
+		<meeting><address><addrLine>Snell-Hornby</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1986" />
+			<biblScope unit="page" from="199" to="206" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Apprendre aparler une langue etrangere ala Renaissance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Caravolas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Historiographia Linguistica</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="275" to="310" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Estudio preliminar&quot; in Elio Antonio de Nebrija. Diccionario latino-espaiiol</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Colon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp; A.-J</forename><surname>Soberanas</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1492" />
+			<biblScope unit="page" from="9" to="36" />
+			<pubPlace>Barcelona</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Puvill-editor</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Panorama de la lexicograjfa catalana</title>
+	</analytic>
+	<monogr>
+		<title level="j">Encic. Cat</title>
+		<imprint>
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Sebastian de Covarrubias: una de las fuentes principales del Tesoro de las dos lenguas francesa y espaiiola (1616) de Cesar Oudin</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Cooper</surname></persName>
+		</author>
+		<idno>BR 62/4.367-397</idno>
+		<imprint>
+			<date type="published" when="1960" />
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="297" to="328" />
+		</imprint>
+		<respStmt>
+			<orgName>«El Recueil de Hornkens y los diccionarios de Palet y de Oudin</orgName>
+		</respStmt>
+	</monogr>
+	<note>Girolamo Vittori y Cesar Oudin: un caso de plagio mutuo</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">«Las etimologfas de Giambullari</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Coseriu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Madrila. Berrarg. in Tradici6n y novedad en la ciencia dellenguaje</title>
+		<editor>Homenaje a Antonio Tovar</editor>
+		<meeting><address><addrLine>Gredos, Madrila</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1972" />
+			<biblScope unit="page" from="95" to="103" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Yo de la lengua castellana 0 espanola. Faksim</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Covarrubias</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Madrila Turner</title>
+		<meeting><address><addrLine>Tes</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1979" />
+			<biblScope unit="volume">1611</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">R W</forename><surname>Dibbets</surname></persName>
+		</author>
+		<title level="m">Dutch philology in the 16th and 17th century</title>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1" to="2" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">«How abstract is the English dictionary</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Dolezal</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1986" />
+			<biblScope unit="page" from="47" to="55" />
+		</imprint>
+	</monogr>
+	<note>in Hartmann (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Teorie filolofiche nell&apos;Italia del prima Seicenta con particolare riferimento alla filologia volgare</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Everaert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Morphology</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Modularity</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dordrecht</forename><surname>Foris</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">G</forename><surname>Faithfull</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Studi di ftlologia Italiana</title>
+		<imprint>
+			<date type="published" when="1962" />
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="147" to="313" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">«Schotelius&apos; concept of word formation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Faust</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1981" />
+			<biblScope unit="page" from="359" to="370" />
+		</imprint>
+	</monogr>
+	<note>in Geckeler et alii (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Contributi alla storia della lessicografta italo-spagnola dei secoli XVI e XVII</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gallina</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1959" />
+			<pubPlace>Olschki, Firenze</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">«Estudio comparativo entre dos ediciones del diccionario latinoespafiol de Elio Antonio de Nebrija</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Garcfa Macho</surname></persName>
+		</author>
+		<editor>Ariza et al.</editor>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="135" to="159" />
+		</imprint>
+	</monogr>
+	<note>Sobre los vocablos suprimidos en la edicion de 1516 del Vocabulario espanollatino de Nebrija. Anuario de letras 31</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Geckeler</surname></persName>
+		</author>
+		<title level="m">Logos semantikos. Studia linguistica in honorem Eugenio Coseriu. Gredos &amp; WaIter de Gruyter, Madrila</title>
+		<meeting><address><addrLine>New York, Berlin</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">La lexicograffa acadbnica del siglo XVIII, Cuadernos de la Catedra Feijoo 14</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gili</forename><surname>Gaya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">; I</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A-E</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">S I C</forename><surname>Madrila</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1960" />
+			<biblScope unit="page" from="1492" to="1726" />
+			<pubPlace>Oviedo</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Univ. de Oviedo</orgName>
+		</respStmt>
+	</monogr>
+	<note>Tesoro lexicogrdfico</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">«The relation of lexicon and grammar» in Householder &amp; Saporta (arg</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">A</forename><surname>Gleason</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1960" />
+			<biblScope unit="page" from="85" to="102" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Ellixico en el Diccionario (1492) y en el Vocabulario (c&apos;1495?) de Nebrija, Doktorego tesia, Malagako Unibertsitatea. Mikrofitxetan argitaratua. Orobat (titulu berarekin baina laburtua)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Guerrero</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+		</imprint>
+		<respStmt>
+			<orgName>Universidad de Sevilla &amp; Ayuntamiento de Lebrija</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">)</forename><surname>Gulsoy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">La lexicografia valenciana</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="109" to="141" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">«Morphology in the generative paradigm</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">&amp;amp; M</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Noonan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Theoretical morphology. Approaches in modern linguistics</title>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="1" to="19" />
+		</imprint>
+	</monogr>
+	<note>in id (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The history of lexicography. Papers from the Dictionary Research Centre Seminar at Exeter</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">R K</forename><surname>Hartmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Studies in the History of the Language Sciences, 40), John Benjamins</title>
+		<meeting><address><addrLine>Amsterdam-Philadelphia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1986-03" />
+		</imprint>
+		<respStmt>
+			<orgName>Lexicographer and their works. Univ. of Exeter</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">«Learned lexicographers of the North: seventeenth-century vignettes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Haugen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1986" />
+			<biblScope unit="page" from="99" to="105" />
+		</imprint>
+	</monogr>
+	<note>in Hartmann (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Les dictionnaires bilingues italien-allemand / allemand-italien au dix-huitieme siecle</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">J</forename><surname>Hausmann</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="207" to="216" />
+			<pubPlace>Snell-Hornby</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Methodological problems of 18th-century English lexicography</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Hayashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Principles of English lexicography in the early 17th century</title>
+		<meeting><address><addrLine>John Benjamins, Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1978" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="355" to="362" />
+		</imprint>
+	</monogr>
+	<note>Materiaux pour thistoire des theories linguistiques</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Hoenigswald</surname></persName>
+		</author>
+		<title level="m">Lexicography and grammar» in Householder &amp; Saporta (arg.)</title>
+		<imprint>
+			<date type="published" when="1960" />
+			<biblScope unit="page" from="103" to="110" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">W</forename><surname>Householder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">S</forename><surname>Saporta</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1960" />
+			<pubPlace>Indiana University; Bloomington</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Problems in lexicography, 3. arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Understanding the historiography of linguistics. Problems and projects. Symposium at Essen, 23-25</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Hullen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Motives behind 17th century lexicography: a comparison between German and English dictionnaries of that time</title>
+		<meeting><address><addrLine>Munster; Hullen</addrLine></address></meeting>
+		<imprint>
+			<publisher>Nodus Publikationen</publisher>
+			<date type="published" when="1986" />
+			<biblScope unit="page" from="189" to="196" />
+		</imprint>
+	</monogr>
+	<note>The paradigm ofJohn Wilkins&apos; Thesaurus» in Hartmann (arg.)</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">«Lexicographic archeology: comparing dictionaries of the same family</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">F</forename><surname>1lson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1986" />
+			<biblScope unit="page" from="127" to="136" />
+		</imprint>
+	</monogr>
+	<note>in Hartmann (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Jones</surname></persName>
+		</author>
+		<title level="m">Lingua teutonum victrix? Landmarks in German lexicography</title>
+		<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="131" to="152" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Oihenart Silvain Pouvreauren hiztegian</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ma</forename><forename type="middle">J</forename><surname>Kerejeta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASjU</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="865" to="899" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">Bilingual lexicography in the Renaissance Palsgrave&apos;s English-French lexicon (1530)&gt;&gt;</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Kibbee</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1986" />
+			<biblScope unit="page" from="179" to="188" />
+		</imprint>
+	</monogr>
+	<note>The Humanist period in Renaissance bilingual lexicography» in, Hartmann (arg. in Aarsleff et alii (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Kintana</surname></persName>
+		</author>
+		<title level="m">Linguistika orain arte</title>
+		<meeting><address><addrLine>Lur, Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1971" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">On the problem of &apos;influence&apos; in linguistic historiography</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Koierner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Progress in Linguistic Historiography, (Studies in the History of the Language Sciences, 29), John benjamins</title>
+		<meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1980" />
+			<biblScope unit="page" from="13" to="28" />
+		</imprint>
+	</monogr>
+	<note>in Aarsleff et alii (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Andoaingo Udala-Euskaltzaindia-Gipuzkoako Foru Aldundia-Eusko Jaurlaritzako Kultura Saila</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ehu-Gasteiz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Larramendirekin aurreko hiztegigintzaren historiaz: aztergai eta gogoera», in Lakarra (arg.) Manuel de Larramendi. Hirugarren mendeurrena</title>
+		<meeting><address><addrLine>Donostia; Andoain; Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1984" />
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="871" to="884" />
+		</imprint>
+	</monogr>
+	<note>ASjU</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Iturrien erabilera eta tamainak egitura(z) zehaztuaz: Refranes y Sentencias eta Hiztegi Hirukoitza. (XVI. mendeko bizkaierazko err~frauez Ill)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename><surname>Hirur Lengoaietan Tresora</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">:</forename><forename type="middle">I</forename><surname>Gramatika Eta Hiztegia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">»</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Asju-N</forename><surname>Agertzeko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Hirur lengoaietan tresora: 11. Elkarrizketak», ASjU-n argitaratzeko lana</title>
+		<meeting><address><addrLine>Uztaro; Uztaro</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="3" to="40" />
+		</imprint>
+	</monogr>
+	<note>Etxeberri, Larramendi eta beste hiztegigintzaz. prestatzen-b, &quot;Lexiko berrikuntzaz&quot; ---, prestatzen-c, Euskal hiztegi labur eta hitz zerrenda zaharrak: Bilduma bat</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Les premieres grammaires celtiques</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P.-Y</forename><surname>Lambert</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="13" to="46" />
+		</imprint>
+	</monogr>
+	<note>in Ahlquist (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Discurso hist6rico sobre la antigua Cantabria, Madrila. Faksimila Amigos del libro vasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Larramendi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Salamanca</forename><surname>Espaiia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Diccionario trilingiie del castellano, bascuence)&apos; latin</title>
+		<meeting><address><addrLine>Vascas, Donostia; Donostia; Bilbo; Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1729" />
+			<biblScope unit="volume">1736</biblScope>
+			<biblScope unit="page" from="139" to="300" />
+		</imprint>
+	</monogr>
+	<note>El imposible vencido. Arte de la lengua bascongada. Salamanca. Faksimila Hordago. Diccionario vasco-castellano, P. Altunaren arg</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">Pedro de Arenas. Vocabulario manual de las lenguas castellanay mexicana (1611), lTNAM, Mexico</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">H</forename><surname>Leon-Portilla</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1982" />
+			<biblScope unit="page" from="205" to="223" />
+		</imprint>
+	</monogr>
+	<note>Nebrija y el inicio de la lingufstica iberoamericana. Anuario de letras 31</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Le Lexicon (1492) de E. A. de Nebrija (1441-1522) et les Catholicon abbreviatum latin</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Lepinette</surname></persName>
+		</author>
+		<idno>16/3. 257-310</idno>
+	</analytic>
+	<monogr>
+		<title level="m">La posteriorite lexicographique de Nebrija. Les Vocabularius Nebrissensis latin-fran~ais (1511-1541)&gt;&gt;</title>
+		<editor>«Contribution al&apos;etude du Tesoro de Sebastian de Covarrubias</editor>
+		<imprint>
+			<date type="published" when="1611" />
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="28" to="58" />
+		</imprint>
+	</monogr>
+	<note>Etude du Tesoro de las dos lenguas (Paris 1607) de Cesar Oudin. fran~ais de la fin du XVe siecle&quot; in C. Codofier &amp;</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>Salamanca</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Antonio de Nebrija: Edad Media y Renacimiento. Ed. Universidad</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">«Otro aspecto de la relacion entre Menage y Covarrubias</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lope</forename><surname>Blanch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">]</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">El juicio de Menage sobre las etimologias de Covarrubias»</title>
+		<imprint>
+			<date type="published" when="1978" />
+			<biblScope unit="page" from="185" to="191" />
+		</imprint>
+	</monogr>
+	<note>Berrarg. in Estudios</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">El Vocabulario de las dos lenguas toscana y castellana de Cristobal de las Casas». Berrarg. in Estudios de historia lingiiistica hispdnica</title>
+	</analytic>
+	<monogr>
+		<title level="m">Nebrija, fuente y puente de conocimientos gramaticales</title>
+		<meeting><address><addrLine>Arco/Libros; Madrila</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1989" />
+			<biblScope unit="page" from="225" to="247" />
+		</imprint>
+	</monogr>
+	<note>Anuario de letras 31</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">«Aproximaci6n al sistema etimologico mayansiano</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">]</forename><surname>Martfnez Alcalde</surname></persName>
+		</author>
+		<editor>Ariza et al.</editor>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="989" to="918" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title level="m" type="main">Histoire des dictionaires franfais</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Matore</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1967" />
+			<pubPlace>Larousse, Paris</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title level="m" type="main">The Latin-French dictionarius of Firmin Le Ver (1420-1440</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Merrilees</surname></persName>
+		</author>
+		<editor>Snell-Hornby</editor>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="181" to="188" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">«La obra del P. Manuel de Larramendi (1690-1766)&gt;&gt;, Cuadernos de la Catedra Feijoo</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">«Introducci6n» in Agud &amp; Mitxelena (arg.)</title>
+		<imprint>
+			<date type="published" when="1958" />
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="900" to="912" />
+		</imprint>
+	</monogr>
+	<note>Drain SHLV-n. Drain SHLV-n</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Euskal iztegigilleak XVII-XVIIIgarren mendeetan</title>
+	</analytic>
+	<monogr>
+		<title level="j">Drain SHLV</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="361" to="372" />
+			<date type="published" when="1961" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<title level="m" type="main">Estudio sobre las fue1&apos;ltes del &quot;diccionario de Azkue, Centro de Estudios Historicos de Vizcaya, Bilbo</title>
+		<imprint>
+			<date type="published" when="1970" />
+		</imprint>
+	</monogr>
+	<note>Azkueren hiztegiaren 1984eko berrargitalpenean hitzaurre gisa ere emana</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Sobre historia de la lengua vasca</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. A. Lakarra (arg.), ASjU-ren Gehigarriak</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">The first English dictionary? A sixteenth-century compiler at work» in Hartmann (arg</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">E</forename><surname>Osselton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">On the history of dictionaries» in Hartmann (arg.)</title>
+		<imprint>
+			<publisher>Leiden &amp; Oxford University Press</publisher>
+			<date type="published" when="1973" />
+			<biblScope unit="page" from="183" to="193" />
+		</imprint>
+	</monogr>
+	<note>Distorting the linguistic record: secondary documentation in the. Oxford English Dictionary&quot; in Hullen (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<title level="m" type="main">Thresor des deux langues, franfaise et espagnole</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Oudin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">.</forename><surname>Berrarg</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">1607</biblScope>
+			<pubPlace>Paris</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<monogr>
+		<title level="m" type="main">une infinite d&apos;omissions, additions, locutions, phrases, proverbes, sentences &amp; recherches tirees du Thresor de Covarrubias, Lyon, 1665. Oyhar&lt;;abal, B., 1989, «Les travaux de grammaire basque avant Larramendi (1729)&gt;&gt;, ASjU 23/1</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Corrige</forename><surname>Reueu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="37" to="71" />
+		</imprint>
+	</monogr>
+	<note>Hitzeratorriak Materreren Dotrina Christiana delakoan</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Elio Antonio de Nebrija. Gramdtica de la lengua castellana</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Quemada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paris</forename><surname>Didier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Quilis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Les dictionnaires du franfais moderne</title>
+		<imprint>
+			<publisher>Madrila</publisher>
+			<date type="published" when="1968" />
+			<biblScope unit="page" from="1539" to="1863" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Las gramdticas de la lengua castellana desde Nebrija a Correas</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ramajo</forename><surname>Cafio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>A~</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anuario de Estudios Filol6gicos</title>
+		<editor>«De Nebrija al Brocense</editor>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Reuland</surname></persName>
+		</author>
+		<title level="m">Relating morphological and syntactic structure» in Everaert et alii (arg.)</title>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="303" to="337" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">The beginning: English dictionaries of the first half of the seventeenth century</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Riddell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Leeds Studies in English</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="117" to="153" />
+			<date type="published" when="1974" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<monogr>
+		<title level="m" type="main">Anglo-Dutch linguistics scholarship: A survey of seventeenth-century achievements</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Salmon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1979" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge; J. Benjamins, Amsterdam</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Berrarg. (Studies in the History of Language Sciences, 17). HL 15/1-2. 129-154</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<monogr>
+		<title level="m" type="main">«Cesar et Antoine Oudin: etude comparative des editions de son Thresor et son importance dans le domaine de la lexicographie</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sanchez Regueira</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1982" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="329" to="340" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Materiales para un thesaurus de la lengua vasca, tesi argitaragabea, Bartzelona. ---, 1984hh, Hauta-lanerako euskal hiztegia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sarasola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Larramendiren eraginaz eta</title>
+		<meeting><address><addrLine>GAK, Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1980" />
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="203" to="215" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Berrarg. Euskalaritza-n</note>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Schultink</surname></persName>
+		</author>
+		<title level="m">Some remarks on the relation between morphology and syntax in twentieh-century linguistics» in M. Everaert et alii (arg.)</title>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="1" to="8" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<monogr>
+		<title level="m" type="main">Estudios de lexicografia espanola</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Seco</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<pubPlace>Madrila, Paraninfo</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<monogr>
+		<title level="m" type="main">«The bilingual dictionary. Victim of its own tradition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Snell-Hornby</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1986" />
+			<biblScope unit="page" from="207" to="218" />
+		</imprint>
+	</monogr>
+	<note>in Hartmann (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<monogr>
+				<title level="m">ZuriLex J 86 Proceedings. Papers read at the Euralex International Congress J University ofZiirich J 9-14</title>
+		<meeting><address><addrLine>Tiibingen</addrLine></address></meeting>
+		<imprint>
+			<publisher>Francke Verlag</publisher>
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<monogr>
+		<title level="m" type="main">The genius&quot; of language in sixteenth century linguistics 7t in Geckeler(arg</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Stankiewicz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1981" />
+			<biblScope unit="page" from="177" to="189" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">The English dictionary from Cawdrey to johnson 1604-1755</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Starnes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">E</forename><surname>De W. &amp;amp; G</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Noyes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Berrarg. G. Stein-en sarrerarekin</title>
+		<imprint>
+			<date type="published" when="1946" />
+		</imprint>
+	</monogr>
+	<note>John Benjamins</note>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Sixteenth-century english-vernacular dictionaries</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Stein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lexicographica Series Maior</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="219" to="228" />
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+	<note>Hartmann</note>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Two centuries od Spanish and English bilingual lexicography 1590-1800. The Hague, Mouton. ---, 1986, «The three-century recension in Spanish and English lexicography</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Steiner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hartmann</title>
+		<imprint>
+			<biblScope unit="page" from="229" to="239" />
+			<date type="published" when="1970" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Grammar and lexicon in traditional grammar. The work of Mathias Kramer and J ohann Joachim Becher</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Subirats-Riiggeberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Historiographia Linguistica</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="297" to="350" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Mitologfa e ideologfa sobre la lengua vasca</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Tovar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Alianza Ed., Madrila. Urkizu, P</title>
+		<imprint>
+			<date type="published" when="1980" />
+			<publisher>Pierre DJUrteren hiztegia</publisher>
+		</imprint>
+	</monogr>
+	<note>Deustuko Unibertsitatea-EUTG</note>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<monogr>
+		<title level="m" type="main">Las citas del diccionario de Pouvreau</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Urquijo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1910" />
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="505" to="519" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">El diccionario plurilingiie llamado &apos;Anonimo de Amberes&apos; (1639), reflejo de la lexicografla espafiola en Flandes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Verdonk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BRAE</title>
+		<editor>Ariza et al.</editor>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="995" to="1002" />
+			<date type="published" when="1979" />
+		</imprint>
+	</monogr>
+	<note>Contribuci6n al estudio de la lexicograffa espafiola en Flandes en el siglo XVII (1595-1707)</note>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Essai d&apos;une bibliographie de la langue basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Vinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">1881, «Les premiers grammairiens basques. Notes de Sylvain Pouvreau</title>
+		<meeting><address><addrLine>ASjU -ren gehigarriak, 9; Donostia; Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1910" />
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1891" to="97" />
+		</imprint>
+		<respStmt>
+			<orgName>Chalon-sur-Saone. Berrarg. faksim. Hordago</orgName>
+		</respStmt>
+	</monogr>
+	<note>1892, Les petites oeuvres de Silvain Pouvreau. Le vocabulaire de Pouvreau. RIEV 4. 139-141</note>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Conde</forename><surname>Vifiaza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">[</forename><forename type="middle">C</forename><surname>De La</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mufioz Y Manzano</surname></persName>
+		</author>
+		<title level="m">Biblioteca hist6rica de la jilologia castellana, M. Tello, Madrila. Berrarg. faksim. Atlas, Madrila</title>
+		<imprint>
+			<date type="published" when="1978" />
+			<biblScope unit="volume">1893</biblScope>
+		</imprint>
+	</monogr>
+	<note>3 lib</note>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<monogr>
+		<title level="m" type="main">From translation to analogy: the birth of the etymon in sixteenth century French lexicography</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Di Virgilio</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="189" to="198" />
+			<pubPlace>Snell-Hornby</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Rafael Micoleta C;amudio. Modo breue de aprender la lengua vizcayna», Cuadernos de Seccion HHizkuntza eta literatura</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Zelaieta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J, Eusko Ikaskuntza</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="133" to="214" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<monogr>
+		<title level="m" type="main">Las ideas lingiifsticas vascas en el s. XVI (Zaldibia J Garibay, Poza) , Deustuko U nibertsitatea-EUTG</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Zubiaur</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<pubPlace>Donostia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

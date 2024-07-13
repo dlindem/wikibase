@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Zer da lehenago, aditzoina ala partizipioa? Oharrak euskararen kronologiarako (Which came first: the verb root or the participle? Notes for the chronology of Basque) Laburpena* 1</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2018">2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Blanca</forename><surname>Urgell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">UPV/EHU</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Zer da lehenago, aditzoina ala partizipioa? Oharrak euskararen kronologiarako (Which came first: the verb root or the participle? Notes for the chronology of Basque) Laburpena* 1</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="page" from="777" to="816"/>
+							<date type="published" when="2018">2018</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1387/asju.20229</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:20+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Hitz gakoak: Aditzoina</term>
+					<term>partizipioa</term>
+					<term>Erdi Aroko euskara</term>
+					<term>akitaniera</term>
+					<term>morfologizatzea</term>
+					<term>perfektuzko perifrasiak</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Lan honetan aditzoinaren eta partizipioaren arteko erlazioaren historian sakondu nahi dut. Datuen bidez ikusiko dugu beren arteko oposaketak diakronikoki ñabardura gehiago dituela sinkronikoki ematen duena baino eta, funtsean, euskara historikoan dakusguna ezin dela aitzineuskarara eraman bere horretan. Ildo honetatik, hipotesi indartsuago bat jarriko dut frogapean, alegia, aditzoin historikoa jatorriz Erdi Aroko lehen lekukotasunak baino lehen elkartu-eratorrien lotunean eragina izan zuten hots-aldaketa arau ezagunek sortutako irregulartasunen morfologizatzearen ondorio dela. Hipotesi honek, lehen azaldu gabe zeuden zenbait fenomeno (Trask-en *emanite erako aditz-izenak, adibidez) azaltzeaz gainera, aditz sistema historikoaren eraketarekin lotutako beste fenomeno batzuen sorreraz, izaeraz edota kronologiaz ere aurrerapenak egiteko aukera ematen digu, hala nola perfektuzko perifrasiez eta -itu partizipio pleonastikoez.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>In this work I hope to look more deeply at the relationship between the root and the participle of Basque verbs. We will see with the help of a range of evidence that the opposition between them has more nuances diachronically speaking than it seems to have from the synchronic point of view and that basically what we see in historical Basque cannot</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20229 simply be assumed to be the case in Proto Basque. Therefore, I will attempt to prove a stronger hypothesis i.e. that the historical verb root is a consequence of the morphologization of the irregularities which brought about the phonetic changes that altered the point of merger of compounds and derivatives prior to the first medieval documents. Apart from attempting to shed some light on some other hitherto unexplained phenomena such as the type of *emanite verbal nouns proposed by <ref type="bibr" target="#b82">Trask (1990)</ref>, this hypothesis also gives us the opportunity to increase our understanding of the birth, nature and chronology of other phenomena related to the make up of the historical verbal system such as the periphrastic perfect and the pleonastic participles in -itu.</p><p>Keywords: verb root, participle, Medieval Basque, Aquitanian language, morphologization, periphrastic perfect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sarrera</head><p>Azken urteotan hainbat aurrerapen egin dira euskararen historian lekukotu edo berreraiki daitezkeen fenomenoen kronologian, guztiz Monumenta Linguae Vasconum proiektuko taldekideek egindako tesietan <ref type="bibr">(Mounole 2011</ref><ref type="bibr" target="#b37">, Egurtzegi 2014</ref><ref type="bibr" target="#b62">, Manterola 2015</ref><ref type="bibr" target="#b84">, Ulibarri 2015</ref><ref type="bibr">, Padilla 2017</ref><ref type="bibr" target="#b49">, Krajewska 2017</ref><ref type="bibr" target="#b79">, Reguero 2017</ref>. Ez da harrigarria ere, euskararen historian sakontzen goazen heinean, zeren eta kronologia diakronistaren egiteko nagusia baita, gure artean Lakarrak (2011: 285-293) aldarrikatu bezala Benvenisteren ildotik. Forma bakoitza noiz garatu den eta fenomeno bakoitza noiz gertatu den, absolutuki ez bada erlatiboki bederen, zein garai edo zein geruzatakoa den bermez zehaztea ezinbestekoa da, noski, ez bakarrik euskararen historia behar bezala idatz dezagun, baita forma eta fenomeno horietarik aterako ditugun ondorioak ere sendoak izan daitezen.</p><p>Egiteko larri horren barruan jakintzat ematen diren gaiak astintzea ere badago, eta horrelakoa da hemen jorratuko dugun aditzoinaren ustezko antzinatasunarena. Jakintzat eman ohi da -inoizka agerian adierazi ere bai, ikusiko dugunez-aditzoina, euskara historikoan hain ongi dokumentatzen dena, adizki jokatugabe zaharrena dela, *e-CVC gisa berreraiki den aitzineuskararen aditza (*e-tor, *e-kus, etab.), dia lek toeremu jakin batean eta erabilera gutxi batzuetan gure egunetaraino iraundako arkaismoa, eta arrazoiak ez dira falta hori horrela dela pentsatzeko. Halaz ere, aditz-izenaren historia eta dialekto banaketa aztertu zituen lan batean <ref type="bibr" target="#b85">(Urgell 2006</ref>) desadostasunak agertu ziren aditzoinaren balizko lehentasunaren eta azaldu behar ziren gertakarien artean, batez ere aditzoinaren (ustezko) eratorri diren aditz-izenei dagokienez (adib. etorten &lt; *etor + -ten). Harrezkero halako datu gehiago bildu ditut, berez jakingarri bezain konplexua deritzadan gai honetan 12 argiren bat egin dezaketelakoan.</p><p>Hala bada, nire helburu nagusia aditzoinaren eta partizipioaren arteko erlazioaren historia aztertzea da. Helburu hori lortzeko, ondoko urratsok emango ditugu: gaiaren egoera berpasatu, aditzoinaren izaerari eta historiari dagokiona batik bat ( §1); aditzoinaren lehentasunaren aldeko frogak bildu ( §2); lehentasun hori zalantzan jartzeko argudioak eman ( §3); «aditzoina» kontzeptuarekin lotu ohi ditugun forma na-ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20229</p><p>Abiapuntuko hipotesia egiaztatzeko erabiliko dudan bertsio indartsu honek lau korolario nagusi ditu: Hipotesiak gogora dakar berriro, ezinbestean, <ref type="bibr">Sturtevant-en paradoxa (1947: 109)</ref>: «Phonetic laws are regular but produce irregularities. Analogic creation is irregular but produces regularity». Halaber, gogora dakarkigu berreraiketa nahitaez eskematikoa dela, 6 egiazko gertakari nabar bihurrien aldean, nahiz batzuetan, oraingo hau izatea espero dudan bezala, zenbait irregulartasun historikok bide ematen diguten historiaurreko bide bihurgunetsuagoak proposatzeko ikertutako hizkuntzen ezaugarri batzuen garapenean.</p><p>Gutxitan paratu naiz testuetatik haragoko arazoez idazten, baina oraingoan atsegin bereziz egin dut irakurle jakin batentzat, Joakin Gorrotxategirentzat, idazten ari nintzelakoan. Berak, akitanieraz dakidan guztia erakusteaz gainera, baita iberieraz, galieraz, zeltiberieraz eta antzeko kutixiez dakidantxoa ere, batez ere irudikatzen dut eredu bezala gizalegez jokatzen, apal hitz egiten eta garbi idazten. Azkeneko bertute honen ildotik lehengo batean berak oparitu zidan Baconen esana gogoan, esker onez, nire lan honetan hutsik balego konfusiorik bederen ez sortu izana espero dut. Lautan bi agerian dago eratorriak direla: geroaldiko partizipioa partizipioaren eratorri gardena da, (2a)-n adierazten denez; eta aditz-izena aditzoinaren eratorri gisa deskriba daiteke (2b), sinkronikoki behintzat (gero eztabaidatuko dugu: §4.1): <ref type="bibr">5</ref> Baieztapena osa liteke *erazan (cf. <ref type="bibr">Reguero 2017: 603-606)</ref> eta besterekin ere, beharbada, baina ez dut uste funtsean zerrenda osatzea denik garrantzizkoena hasierako une honetan, ideia nagusia frogapean jartzea baizik. <ref type="bibr">6</ref> Ez dut bere balioa ukatu nahi, jakina. Mitxelenak ezin hobeto zehaztu zuenez, «...estas reconstrucciones, a pesar de su esquematismo, pueden aprehender aspectos nada despreciables de una realidad desconocida» <ref type="bibr">(Mitxelena 1963: I, 29)</ref>. <ref type="bibr">7</ref> Besterik esaten ez denean, euskara batuko formak baizik ez dira emango, adibide huts gisara. (2) a. [part. + -ko/-(r)en] <ref type="bibr">etorri-ko, etorri-ren hartu-ko, hartu-ren b. [adoin. + -tzen]</ref> etor-tzen har-tzen</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Gaiaren egoera</head><p>Bi adizkion eratorri izaera honek ez ezik, haien dialekto-aldakortasunak ere erakusten digu beste bi adizki jokatugabeak baino modernoagoak direla. <ref type="bibr">8</ref> Beraz, funtsean bi adizki jokatugabe nagusi ditugu, oinarrizkoenak eta baita zaharrenak ere itxuraz: aditzoina eta partizipioa. Partizipioa «adjektibo gisa erabiltzen den adizkia» da <ref type="bibr">(Crystal 2000, s.v. participio;</ref><ref type="bibr">nik itzulia)</ref> eta esan gabe doa inguruko eta munduko hainbat hizkuntzatan aise aurkitzen dela latinaren gramatikatik datorren tradiziozko termino horren kideko adizkirik; aditzoinak, ordea, sailkagaitzagoa dirudi Europako mendebaldeko gainerako hizkuntzen ikuspegitik behintzat. <ref type="bibr">9</ref> Beraz, aditzoina sinkronikoki nola definitu den eta haren historiaz zer esan den laburbiltzea hartuko dugu ardatz atal honetan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1.">Aditzoina sinkronikoki begiratuta</head><p>Euskaltzaindiaren gramatikak eta hiztegiak berdintsu definitzen dute aditzoina: «Aspektu markarik gabeko aditz forma» <ref type="bibr">(EusHizt, s.v.;</ref> ik. EGLU II: 27 ere), partizipioak (-i, -tu) aspektu burutua eta aditz-izenak (-ten, -tzen) burutugabea adierazteko markaturik daudelakoan -cf. (1) gorago-.</p><p>Gaur egungo euskararen gramatiketan euskara (batua) ikasi nahi lukeenari partizipioaren gaurko zentralitatetik abiatuta azaltzen zaio aditzoina; hala bada, funtsean, partizipio-marka kenduz lortzen dela esaten zaio <ref type="bibr" target="#b78">(Rebuschi 1984;</ref><ref type="bibr" target="#b47">Hualde 2003;</ref><ref type="bibr" target="#b80">de Rijk 2008)</ref>, hots, hemendik aurrera trinkotuko dugun erara, <ref type="bibr">[part. ken -i / -tu]</ref> arauaren bidez.</p><p>Aditzoina onartua da estandarrean, baina Euskaltzaindiaren gramatikak -eta beraren ildotik bestek ere, noski-balizko ikasleari aldi berean irakasten dizkio bi kontu: lehenik, ekialdeko euskalkietan baino ez dela bizi (uler bedi GN, L, BN eta Z), 10 gainerakoek haren ordez partizipioa erabiltzen baitute; bigarrenik, euskalki haietan ere aditzoinaren erabilera mugatua dela: «zenbait perpaus lokabetan eta mendekotan soil-soilik» (EGLU II: 67). Ondoko orrietan (EGLU II: 68-77) <ref type="bibr">8</ref> Eremu ezberdinak osatzen dituzte. Aditz-izenaren alomorfoen historiaz eta dialekto-banaketa arkaiko eta zaharraz ik. <ref type="bibr" target="#b85">Urgell (2006</ref><ref type="bibr">) eta Padilla (2013</ref>. Geroaldiko partizipioaz, ezaguna da mend. egongo / eki. egonen isoglosa Bonapartek «iparraldeko goi-nafarrera» izena eman zion euskalkiaren mugarekin bat zetorrela noizbait; halere, -go atzizkiaren eremua hedatuz doa -(r)en-en kaltetan, ez bakarrik mugetan (cf. <ref type="bibr">Zuazo 1998: 8;</ref><ref type="bibr">Burundaz, ik. Zuazo 2010: 124;</ref><ref type="bibr">Gipuzkoako ipar-ekialdeko muturraz, Zuazo 1997: 418)</ref>, baita eremuaren barrenean ere: Nafarroa Behereaz ik. <ref type="bibr">Camino (2004: 471-472;</ref><ref type="bibr">: 118-119) eta Zuberoaz Padilla (2017</ref>. Nafarroako testuetako banaketa horren islaz, ik. <ref type="bibr">Reguero (2017: 610-611)</ref>. <ref type="bibr">9</ref> Gure testuinguru geografiko eta kulturalean bestela badirudi ere, Mounolek (2006: 727) erakutsi digu mundu mailan anitzez gehiago direla perifrasietan aditzoinaren kideko formak -forma markagabeak edo erro biluziak-dituzten hizkuntzak, <ref type="bibr">Anderson-en lanean (2006: 102)</ref> oinarriturik. 10 Beharra dagoenean euskalkiak izendatzeko laburdura hauek erabili ditut: A = arabera, B = bizkaiera, BN = behe-nafarrera, E = erronkariera, G = gipuzkera, GN = goi-nafarrera, L = lapurtera, Z = zuberera. Izenok geografia bat, lur-eremu bat iradoki nahi dute, Bonapartek mapa ospetsuan marraztu zuena, garai jakin bateko euren «euskalkitasuna» -zilegi bazait honela esatea-jakintzat emateko inolako asmorik gabe. Izenetiko aditz zenbaiten portaera azaltzeko Mitxelenak egin zuen proposamen honetan oinarrituta (gero itzuliko gara gai honetara: ik. §4.2), <ref type="bibr">Traskek (1995: 213;</ref><ref type="bibr">ik. 1997</ref>: 211 ere) pentsatu zuen *e-aurrizkiak izenak sortzeko balio zukeela eta, beraz, aditzoina jatorrian aditz-izena zatekeela. <ref type="bibr">15</ref> Aditzoinaren eta partizipioaren arteko oposaketaren jatorriari edota denborazko erlazioari dagokionez, nabaria da partizipioak euskara historikoan duen nagusitasuna: Erronkarin eta Zuberoan izan ezik, non aditzoina (izan) den forma kanonikoa, gainerako lurraldeetan bera da oinarrizko forma, gutxien markatua, erromantzezko infinitiboari erantzuteko erabiltzen dena, Mitxelenak azpimarratu zuenez: «Ha podido influir en esto, aunque no estoy en condiciones de probarlo, una cuestión de simplicidad en las reglas de derivación: es más seguro tratar de prever la forma del nombre verbal, y hasta del radical, a partir del participio que a la inversa <ref type="bibr">» (1977b: 276)</ref>.</p><p>Hortik kanpora, ni behintzat ez naiz gauza izan aurrekarietan orain esatera noana aldezteko oinarri garbirik; ezta alderantzizkoa ere, bidenabar. <ref type="bibr">16</ref> Beste batean Euskal Filologiaren «ahozko tradizioari» egotzi nion gaietako bat dateke, bada, edo agian haren hutsune harrigarrienetako bat. Nolanahi ere den, zuzen edo oker, oraintsu arte neuk beti pentsatu dut aditzoina adizki jokatugabeetan zaharrena dela, eta halaxe erakutsi ere dut eskoletan. Iritzi berekoak dira <ref type="bibr">Mounole (2007: 116)</ref>  <ref type="bibr">eta Padilla (2013: 326)</ref>, eta ez naiz harritzen, egiazki bai baitira aditzoina partizipioa baino zaharragotzat emateko nahiko arrazoi, segidan bildu ditudanak. 17</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Aditzoinaren zahartasunaren aldeko argudioak</head><p>Guztira bost argudio bildu ditut aditzoina adizki jokatugabeetan zaharrena dela frogatzeko balio behar dutenak: (1) aditz-izena ez ezik, partizipioa ere haren eratorria da; (2) perifrasi zaharrenak osatzen ditu; (3) galduz doa euskara historikoan; (4) aitzineuskara zaharraren gramatikaren zantzuak gorde ditu; eta (5) aditz mailegatuek ere garatu dute. Ikus ditzagun banan-banan, gogoan izanik edo orain edo gero hauetako batzuen indarra eztabaidatuko dugula. <ref type="bibr">15</ref> Irudi luke Lakarrak ere (2006a: 609) onartu duela hipotesia, «...estas formas nominales...» baitio *e-CVC erakoei buruz, baina azalpenik gabeko esan batetik agian ezin da hainbeste ondorioztatu. Izan ere, bere aldetik gaia garatu duenean *e &lt; *he-lokatibokoa (tipologikoki aditzarekin lotua) &lt; *her proposatu du, *her izanik hiri-ren erroa <ref type="bibr">(Lakarra 2018: 134-137)</ref>. <ref type="bibr">16</ref> Lakarrak, aditza berreraikitzeari ekin dionetik, maiz *e-CVC orokortzea erabili du aitzineuskararen aditz-enborrari -esango nuke hauxe dela bere terminoa (cf. <ref type="bibr">Lakarra 2014: 195, adib</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Aditzoinaren galera euskara historikoan</head><p>Hirugarren arrazoia aditzoinaren beraren historia litzateke, hau da, Mounolek (2007: 68) «aditzoinaren ordezkatze eta partizipioaren hedatzea» deritzana. <ref type="bibr">Lehendabizi Lakarrak (1985;</ref><ref type="bibr">1996: 185-188)</ref>  Beren aldetik, «-ki aditzak» aditzoinaren eta partizipioaren arteko oposaketarik ez duten aditzen multzokoak badira ere, gorago esan dugunez (ik. (5). adibidea), ekialdeko mintzoetan -k aditzoinak sortu dira horrelakoetatik, bukaerako -i bokala galaraziz, partizipio-marka gisa berranalizaturik, nonbait. Nolanahi ere den, 1600dik aurrera baino ez da lekukotzen: «Euskara Zaharrean sorturikoak dira atxek 'atxik' (Etxt), idek 'irek' (He, Xu), jarraik (He, Xu, Bp) gisa eraturiko aditzoinak» <ref type="bibr">(Mounole &amp; Gómez 2018: 503)</ref>. <ref type="bibr">23</ref> Joera beraren barruan sartzekoa da erazi aditzaren eraz-i berranalisia, nondik eraz aditzoina sortu baitzen. Berrikuntza dela ziurra da, xviii. mendetik baino ez baita agertzen, lehenagoko erazi aditzoinari lekua kenduz <ref type="bibr">(Padilla 2013: 335)</ref>. <ref type="bibr">24</ref> Azkenik, Padillak (2013: 335) aditzoina indartzeko joeraren barruan kokatu du berez aditzoinaren eta partizipioaren arteko oposaketarik ez duten beste aditz batzuek ere Z-z eta BN-z aditzoin ezberdin bana garatu izana:</p><p>(9) busti, bete, gorde → busta, betha, gorda Ekialdean aditzoina indartu izanaren alderdi honek arazoak ditu, gero eztabaidatuko ditugunak Leizarragaren corpusaren laguntzaz ( §3.6).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Aditzoina aitzineuskara zaharraren gramatikaren zantzu</head><p>Aditzoinaren formak gramatika zahar batera garamatza, aitzineuskararenera, aurrizkiak ugari eta ohiko bide ziren antzinako hizkuntza egoera batera, «morfologia bai izenean eta bai aditzean ezker partean egiten ze[nera]» <ref type="bibr">(Lakarra 2009: 15</ref> dago, gainera, *e aurrizkia CVC erroari lotzen zion araua ihartua zela ez bakarrik latinarekiko ukipena hasi baino lehenago, baita hitz hasierako *th, *kh &gt; h aldaketa gertatu zeneko ere, hots, gure aroa hasi aurretik <ref type="bibr">(Lakarra 2006: 608-609;</ref><ref type="bibr">2018: 114)</ref>. Bestalde, hala e-nola -i, biak aspaldi fosilduta badaude ere -euskara historikoa baino nahiko lehenagotik ziurrenera (ik. §3.5)-, -i oraindik garden xamarra da funtsean, badakigu zertarako erabiltzen zen, *e-iluna suertatzen zaigun bitartean. <ref type="bibr">25</ref> Beraz, *e-tor-en gramatika *etorr-i-rena baino zaharragotzat jotzeko tentazioa izan genezake. Halere, Lakarrak gogoratu didanez (a.e.), badira atzizkiak bakarrik dituzten hizkuntza anitz, baina oso gutxi dira atzizkirik ez eta aurrizkiak bakarrik erabiltzen dituztenak <ref type="bibr" target="#b48">(Hyman 2008)</ref>. Ondorioz, egiantzekoena da gramatika zahar hartan aurrizkiak ez ezik atzizkiak ere egotea: honek esan nahi du, besteak beste, etorri ez dela nahitaez *etor + -i (cf. (6). adib.), baizik balitekeela *e-+ torri izatea ere, alegia, *e-izatea *torri bezalako CVC-i partizipioei eransten zitzaien aurrizki bat, adibidez, Trasken hipotesiaren arabera (ik. §1.2), haien aditz-izena egiteko edo. 26</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Partizipio mailegatuen aditzoina</head><p>Aditzoinaren zahartasunaren aldeko arrazoi sendoenetakoa da aditz mailegatu guztiek ere zeinek bere aditzoina izatea, ondare zaharreko aditzen baldintza berberetan erabiltzen zena Euskal Herri osoan, Euskara Arkaikoko lekukotasunek erakusten digutenez, hots, [adoin. + *edin/*ezan] perifrasietan (10a) eta elkartu-eratorrietan (10b):</p><p>(10) a. aparta adi (Leiz, 1571), acorda çatez <ref type="bibr">(Laz, 1567</ref><ref type="bibr">(Laz, -1602</ref> b. akusari (Etxep, 1545), partiera (Laz)</p><p>Hori gerta zedin, ondoriozta daiteke aditzoinak garrantzi handia zuela latina lurralde hauetara heldu zenetik aurrerako garaietan behinik behin. Garbi aldeztu du hau Mounolek:</p><p>Gure ustez, horrek erran nahi du, alde batetik -ø vs -i biziki emankorra izan behar zela, -ø vs -tu oposaketa sortzeko, eta bestetik, hiztunak hizkuntza emaileaz, hots, latinaz konzientzia linguistiko handia izan behar zuela -tu atzizkiaren balio funtzionala ezagutzeko eta -i-ren pareko gisa identifikatzeko <ref type="bibr">(Mounole 2008: 430</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Aditzoina aitzineuskararaino eramateko zailtasunak</head><p>Beraz, honaino bildutako arrazoien argitara, garbia dirudi aditzoina biziki zaharra dela, aitzineuskaratik datozkigun ezaugarrietako bat. Alabaina, hurren erakutsiko dut badirela garbi dirudien hipotesi hori bazter batera uzteko arrazoiak ere, zehazki adi-25 -i atzizkiaren funtzioez, ik. <ref type="bibr">Trask (1995: 218;</ref><ref type="bibr">1997: 212)</ref>. Funtzio nagusia izenkietatik partizipioak sortzea izanik, Trasken hipotesia da (1995: 218) aditzoinak aitzineuskaran izenak zirela eta -i atzizkiak bihurtu zituela partizipio. <ref type="bibr">26</ref> Lakarrak zehazki pentsatzen du orain lehenik CVC → CVC-i izan dela eta gero batzuetan (askoz gutxiagotan) CVC-i → *he-[CVC-i] gertatu dela. Izan ere, *e-CVC-i erroak (*e-(da)-(ra)-konbinazioak alde batera utzita) dozena pare bat baino ez dira gehienez (cf. berriki Lakarra 2018: 144-145) eta -nekez kasualitatez izan-*e-dutenek bakarrik garatu dute joko trinkoa. Galdera hauxe da: zergatik horiek bakarrik? Gaia ezin erakargarriagoa da, baina itxaron beharko dugu berak teoria osoki gara dezan. tzoinaren zahartasunarekin bat ez datozen datuak edota beste azalpen bat egotea balitekeela pentsaraz diezaguketenak.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Trasken *emani-ren hipotesia</head><p>Gaur onartuta dago -n amaiera duten aditz zaharrek ere antzina -i partizipio marka zutela dioen Trasken hipotesia (1990): eman &lt; *emani, egon &lt; *egoni, igan/ igo &lt; *igani, etab. 27 Labur-labur berpasatuko dugu Trasken argudiaketa, bere hipotesiaren arazo nagusia -berak ere sumatua-azaleratzeko.</p><p>-n amaiera duten aditzak ez dira nolanahikoak, zeren eta haien artean izan, egin eta eman bezalako oinarrizko aditzak baitaude eta haien barnean berreraiki ohi baitira laguntzaile orokorrak (*edin, *edun, *ezan, etab.). Zaharrak dira, beraz, zaharrenetakoak ziurrenera, baina kontua da ez dutela partizipio markarik; 28 zehazki, halako markarik ez duten aditzen talde handiena da askorekin. <ref type="bibr">29</ref>  Traskek hurrengo azalpena eman zion irregulartasun handi horri: lehenengo testuak baino lehenagoko uneren batean, -n aditzek ere -i partizipioa zeukaten (*emani). Izan ere, aditzok i bokala gorde dute aditz-izenaren forma arkaikoetan (emaite-, izaite-, etab.) Euskal Herri guztian (cf. <ref type="bibr">Urgell 2006: 936-938)</ref>. Forma hauetan dakusgun -n-rik eza n ahularen bokal arteko galera erregularrari zorko litzaioke (cf. <ref type="bibr">Mitxelena 1977a: 299-301)</ref>. Traskek aurkitu ere aurkitu zuen emai partizipio zaharra (&lt; *emani) izen bilakaturik («dádiva») Refranes y Sentencias-en (1596). Antzinako n hark i ondoko posizioan daramaten partizipioetan bakarrik iraun du: «...ipini, eskaini and the hapax igini [sic, iguini-ren ordez]» dio Traskek (1990: 120), gehi jarrai(n), jakina, gutxienez.</p><p>Hipotesia emankorra da, aipatutako aditz-izenarenaz beste zenbait irregulartasunen berri ere ematen duelako; haatik, bi arazo larri ere baditu, Traskek behar bezala aurkeztu zituenak: (1) zergatik ez dago emai partizipiorik euskara historikoan? (2) aditz hauen aditz-izena, zergatik osatu da partizipioaz? Izan ere, bigarren galdera ho- <ref type="bibr">27</ref> Traskek (1990: 121) RS-ko emai-ren ildotik berreraiki zuen *emani beste edozein partizipio baino lehenago eta, hortaz, adibide prototipikoa ere bihurtu da. Alabaina, ziurrenik *emani ez da eman aditzaren formarik zaharrena, EHHE-k (s.v. eman) *e-bon-i berreraiki baitu argudio onez, eta bi urratsetako bilakabidea: orok. *emon / emaite-→ (1) B, E emon / emoite-; (2) gainerakoek eman / emaite-. Antzeko zerbait gerta liteke beste edozein aditzekin. Halaz ere, zilegi bekit *emani bezalako etimologia «errazak» erabiltzea, azalpenak larregi ez korapilatzeko.</p><p>28 -n bera partizipio marka izateko aukera arbuiatua da gaur, baina ez da beti horrela izan. Lafonek (1944: II, 10-12) atzizkitzat jotzen zuen -n, eta lehenaldiarekin lotzen; antza denez, baita Mitxelenak ere: «eban está relacionado con ebaki 'cortado', con la única diferencia del sufijo (-n, -ki)» <ref type="bibr">(Mitxelena 1973: 103)</ref>; eta egon, ez zegokeen argi, neuk ere halakotzat jo bainuen <ref type="bibr">(Urgell 2000: §5.4)</ref>. Berehala ezetz uste zutenen multzora igaro nintzen, ordea, gaizki gogoratzen ez banaiz Lakarra irakaslearen eraginez; agerriki gero beronen CVC-ren berreraiketari eta zehatzago halako aditzen enborraren *e-CVC berreraiketari zor zaio -n horren erroko izaera behin betiko ezarri izana (cf. <ref type="bibr">Lakarra 1995: 200, etab.)</ref>. <ref type="bibr">29</ref> Gorago ikusi dugunez (ikus 16. oh.) Lakarrak azalpena bilatu dio -n aditzen ugaritasun harrigarri horri. Traskek (1990: 121) «nahasketa garai» bat proposatu zuen aditz hauetan -eta hauetan bakarrik-, zeinaren ondorioz eman erako aditzoinek partizipioaren funtzioak hartuko zituzten eta, aldiz, *ema(n)i bezalako partizipio zaharrak, izen bihurtutako emai bezalako fosilen bat gorabehera, erator oinarri izatera mugatu ziren <ref type="bibr">(emaite, emaile, emaitza, etc.)</ref>. Hortik, bada, haren ustez, bata bestearen lekuan daudelako itxura hori.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Aditzoinaren irregulartasunak Iparraldean</head><p>Iparraldean galdu beharrean aditzoinaren erabilerari eutsi ez ezik, zabaldu ere egin dutela dirudienez, gorago esan bezala ( §2.3), aukeran arreta gutxi ipini zaio bertako bilakabideari. 31 Honegatik, baliteke filologo gehiago ni bezainbeste harritzea Etxepareren hurrengo adibidearekin:</p><p>(13) gizonek utzi balitzate, elaidite faltarik (Etxep, «Emazteen fabore», 3-2) 32 Azpimarra dezadan: Etxepareren liburu osoan zazpi bider gertatzen da utzi partizipiodun perifrasia, eta behin ere ez da utz aditzoinik ageri, argitaratzaileak azaldu zuenez <ref type="bibr">(Altuna 1980: 115, 2. oh.)</ref>. <ref type="bibr">33</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Mitxelenaren galte-ren misterioa</head><p>Orain arte -i partizipioez bakarrik hitz egin dugu, baina bada garaia -tu partizipioak ere ekuazioan sartzeko. -tu atzizkia latinetik hartutako -tu(m) maileguen bitartez euskaran sartu eta denborarekin euskal partizipioen atzizki emankor bakarra bihurtu zen, ezin ezagunagoa denez. Hau honela izan arren eta marka hori daramaten partizipio zahar asko eta asko beren aldetik maileguak izan arren, zeinek bere aditzoina garatu zuten historiaurrean, eta asumitu ohi dugu -i aditzek zeukaten aditzoinaren eta partizipioaren arteko oposaketa garrantzitsuaren analogiagatik egin zutela, esan bezala ( §2.5); hona ondare zaharreko aditzen <ref type="formula">(21a)</ref>  Tamalez, Mitxelenak ez zuen adibide pare horretatik izan zuen intuizio hau inon ere garatu. Kontu ilunok ilunagotzeko, aditzetiko izen batzuetako -t espresuki aditzizenetik eratorria zuen orrialde batzuk lehenago (1977a: 249-250), 44 hala nola ilkitbide (&lt; *ilkit(e), ilki-ren adiz.) edo edatoste (&lt; *edat(e), edan-en adiz.) bezalakoetan, zeinetan partizipioak ezin baitu -t azaldu, inondik inora ere. <ref type="bibr">45</ref> Alderantziz ere, bistan denez, aditz-izenak ezin dezake kalte azaldu, **galt(e)-te proposatzeko arrazoirik bilatu ezean.</p><p>Hitz gutxitan, agerian jarri nahi dut Mitxelenak berak sartu zuela, isilpean bedere, Euskal Herri osoan partizipioa elkartuen lehen osagai eta erator oinarri izan zitekeelako aukera, noiz eta Erdi Aroan, oinarriaren azken bokala galdu aurreko garaian. Kalte/galte-ren atzizkiaren forma bera ere (vs. galtze adiz. orokorra euskara historikoan) hitzaren zahartasunaren berme dela gogora dezakegu (cf. <ref type="bibr">Urgell 2006: 925</ref>  <ref type="bibr">[Lakarra (2013)</ref>] eman FHVko pasarteek adierazi bezala». <ref type="bibr">43</ref> Galte &gt; kalte bilakabideko hasierako herskariaren ahoskabetzea bigarren osagaiaren (hemen zehazki atzizkiaren) ahoskabetasunak eragindakoa da <ref type="bibr">(Mitxelena 1977a: 218)</ref>. <ref type="bibr">44</ref> Bi proposamenak FHV-ren lehen zatian daude, aditz-izenarena «Consonantes» atalean eta partizipioarena «Grupos de consonantes» atalean. <ref type="bibr">45</ref> Aditz-izenaren ondorenak goiztarrak behar dute izan, e &gt; a arauaren eragina pairatu baitute: cf. itaune &lt; *egita-une <ref type="bibr">(Mitxelena 1977a: 489</ref> Bi perifrasi hauen arteko aldea bi osagaietan datza aldi berean, hots, biak ezberdinak dira perifrasiaren arabera, hala aditz nagusi jokatugabea nola aditz laguntzaile jokatua. Galdera asko burura dakizkiguke disimetria honetatik, baina gera gaitezen guri dagokigun honetan: gorago aipatu Euskaltzaindiaren definizioaren arabera, aditzoina «aspektu markarik gabeko aditz forma» dugunez, zer dela eta ez zen perifrasi zaharrean aspektu burutua markatzen, edo zer dela eta hasi zen partizipioarekin markatzen? Erantzuna aditz sistema arkaikoaren berreraiketan baino ezingo dugu aurkitu, ezbairik gabe, 47 baina hemen ezinbestean aipatu behar dugu disimetria aditzoinaren zahartasunaren aurkako zalantzen artean.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Seniponnis-en lekukotasuna 48</head><p>Ez dakigu ezertxo ere akitanieraren aditzaz (K.o. i-iii), zeren eta, lekukotasun guztiak onomastikaren alorrekoak izanik, ez baitago aditzari buruzko bat ere aztarna argirik. Batetortze bat topatu dut, bat eta bakarra: Edun eta Edunxe pertsona-izenen 49 eta *edun aditz berreraikiaren artekoa, zeinak, semantika espekulatiboaren alorrean sartu ezean, formazko batetortzeaz beste informazio erabilgarririk ez baitigu ematen (Trasken balizko *eduni ez lekukotzeaz gainera), oraingoz bide hori bide itsua dela erakutsirik.</p><p>Halere, uste dut arrazoiak aurkitu ditudala akitanieraren garaian -i atzizkia jadanik fosilduta zegoela pentsatzeko, eratorri batzuetan behintzat. Zorionez, ondo leku-46 Berriro ere alde batera utziko dut, berariaz, [part. + egin] mendebaldeko perifrasia, dialekto-berrikuntza delakoan, azalbidea behar baino gehiago ez zailtzeko. <ref type="bibr">47</ref> Martinez Aretak (2017) -Lafonen intuizioari jarraiki-proposatu du AE-n euskara «mood-prominent» hizkuntza zatekeela, «irrealis» vs. «realis» oposaketa nagusian islaturik. Berak proposatzen duen «*nentor irrealis &gt; nentorren aoristo» bihurketaren bidetik azaldu beharko lirateke *edin eta *ezan-ekiko perifrasiak ere, alegia, «*ANag nendi irrealis &gt; ANag nendin aoristo» modura. <ref type="bibr">48</ref> Atal honetako edukia Ariztimuño (2011)-ren irakurketak iradokia da. Lan zaila egin zuen honek, bai landutako material hautemangaitzagatik, bai lan handiaren ondoren uzta (ia) guztia espekulazioen mundu gogorrean gelditzen delako, eta horregatixe mirestekoa iruditzen zait, iradokizunez betea. <ref type="bibr">49</ref> Emakume izena zelakoan nengoen, baina Mikel Martinez Aretak (a.e.) erakutsi dit badela Edun izeneko gizonezko bat ere akitanieraren corpusean (ik. <ref type="bibr">Gorrotxategi 1984: 360</ref> Azken lau antroponimo hauetan elkartuaren oinarria *seni eta *senbe akitanierazko hitzak dira, ondo ezagunak diren *bon, *ten eta *don cvc erroei eta *-ko atzizkiari lotuak. 52 Lau forma hauek erakusten digute jatorriz eratorriak diruditen *seni eta *senbe bi silabako hitzak jadanik lexikalizaturik zeudela, forma konplexuagoetan parte hartzeko gaitasuna zutenez gero. Gauza bera esan dezakegu, jakina, akit. *gorri-ri (cf. Heraus-corri-tsehe, Bai-corri-xo) eta *lohi-ri buruz ere (cf. Lohi-tto-n). Akitanieraren hiztunentzat *senbe zatikaezina zela grafiak ere erakusten digu, &lt;mb&gt;z idazten baitzuten beti, oraindik ere morfema muga agerian zegoen konposatuetan ez bezala: cf. cissonbonnis <ref type="bibr">(Gorrochategui 1993: 620;</ref><ref type="bibr">2018: 257)</ref>.</p><p>Akitanierazko izen berezietan duten lekuaren arabera, *seni eta ziurrenik *lohi ere izenak dira, atzizkiak eransten zaizkielako (28a; txikigarriak ziurrenik: cf. Gorrotxategi 2018: 260) eta beste cvc erroak elkarketan, edo cvc atzizkiak eratorpenean, edo izenondoak -hori ez dago garbi, jakina-onartzen zituztelako atzetik (28b); aldiz, gorri izenondoa zatekeen jadanik, balizko izenaren atzean eta atzizkiaren aurrean baitago beti <ref type="formula">(28c)</ref>  <ref type="bibr" target="#b34">Dixon 1977)</ref>. Baldin *seni eta *senbe erro berekoak balira, proposatu dugunez, eta akitaniera garaian jadanik lexikalizaturik baleude -itxura guztien arabera, egon bazeuden-ez dirudi zorakeria denik pentsatzea beste hainbeste gertatzen zela jadanik *etorri bezalako formekin, alegia, hiztunek ez zutela jadanik K.o. i. mendean *etorr-i gisara analizatzen. Honek azalduko luke zergatik ez den orain artean -i atzizkidun partizipio mailegatu garbirik ediren; 53 hau da, suposa dezakegu aitzineuskara latinetik mailegatzen hasi zenean jadanik -i atzizkia ez zela emankor. Ondorio hau onartuz gero, onar genezake jadanik ez dela ezinbestekoa etor / etorri erako «aditzoina vs. partizipioa» oposaketa edo, beste era batera esanda, aitzineuskarako *etor gisakoak galduta leudekeela, inoiz existitu balira. Hurrengo atalean ( §4) hipotesi berriak eratzerakoan berriro helduko diogu honako aukera honi, mailegatutako aditzen aditzoinaren sorrera azaldu beharko dugula ahaztu gabe.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6.">Geruzak Leizarragaren aditzoinean</head><p>Zulaikaren lanetatik <ref type="bibr">(1994,</ref><ref type="bibr">1999)</ref> ezer argi ageri bada, nire iritzian, Leizarragaren aditzoinak sailkatzeko zailtasuna da, partizipioaren araberako aukera ugari egoteaz gainera ez darabilelako «...beti molde bat bera sail bereko aditz[etan]» <ref type="bibr">(Zulaika 1994: 791)</ref>. Leizarragaren aditzoinaren anabasa ez ote zaion «hizkera ezberdinetatik jaso moldeak» erabili izanari egotzi behar pentsatu zuen Zulaikak (1994: 792), eta ziurrenik ez zaio arrazoirik falta, hein batean bederen. Neuk, aldiz, Leizarragaren hizkuntzan bere mintzoaz bestetako (ziurrenik ekialderagoko) ezaugarriren bat egon litekeela ukatzeko asmorik gabe bada ere, 54 uste dut Leizarragaren corpus aberatsean -Etxepareren corpus urriarekin konparaturik behinik behin-dialekto-aldaerak baino nabarmenago geruza ezberdinak daudela elkarrekin, hots, garai ezberdinetan sortutako formak. Premisa honetatik abiatuta saiatuko naiz Leizarragaren aditzoinaren alderdi batzuk azaltzen, beraren unibertsoak aditzoinaren historia hobeto ulertzen lagun diezagukeelakoan.</p><p>Honetarako, baina, beste premisa bat ezarriko dut: perifrasietako forma jokatugabeak eta aditz-izenetakoak, noizbait batak bestean eragina izatea oso litekeena den arren, berez zeinek bere prozesua pairatu dutela, lehenago Leizarragarekin berarekin erakutsi dugunez ( §3.2); beraz, bakoitza bere aldetik aztertu behar dira, nire ustez, ezer ulertuko bada. <ref type="bibr">53</ref> Bi hautagai ditugu: azarri (RS 383) eta aberatsi (Oihenart, Pr 681). Bigarrena zalantzazkotzat jo ohi da Oihenartena delako, besteak beste; ikus <ref type="bibr" target="#b28">Azkarate (1994)</ref>, haren berezitasunez dabilen uste zabalduenaz jabetzeko -ez beti zuzenenaz-. Lehendabizikoari deritzat interesgarriena, lehen begiratuan azarri / ausartu kognatu bikotea geneukakeelako, baina, jakina, -i-gatik beragatik haren mailegutasuna zalantzan ipintzekoa da, Lakarrak diostanez (a.e.). <ref type="bibr">54</ref> Halere, bestetan erakutsi nahi izan dut <ref type="bibr" target="#b85">(Urgell 2007</ref><ref type="bibr">(Urgell eta 2015</ref> orain artean ez duela inork hori aldezteko modukoa den ezaugarri garbirik aipatu, nahiz -gertatu ohi denez-baieztapena lanik lan hedatuz doan, betirako antzean. Perifrasietako forma jokatugabeari helduko diogu, bada, alegia, berez aditzoinaren forma biluzi orokor bakarra denari. Honi dagokionez, -tu/-du partizipiodun aditzetan gehienek ø-dun aditzoina dute <ref type="bibr">(geldi, har, sar, sor, hauta, harrapa, agor, pensa, bezti...)</ref>, 55 baina gramatika-kategoria ezberdinetatik sortutako aditz eratorrietan nekez zehatz daitezkeen arauen arabera batzuek -t aditzoina dute -batzuetan &lt;d&gt;z idatzia-56 (29a), bestek ø-duna (29b) eta beste batzuek noiz bata noiz bestea (29c), <ref type="bibr">Zulaikak (1994: 786-788)</ref>  Halako ziurtasun batez esan dezakegu Erdi Aroko hots-aldaketen ondorio dela talde hau, zehazki xii. mendea baino lehenagokoa -Erret Ihera (1150) bezalako adibideak sortu zituenez-, ezbairik gabe mendetxo batzuk lehenagokoa, (30a)-n aipatu ditugun adibideetan erdiek izarra eramateak salatu bezala, beharbada.</p><p>Bigarren taldea ekialdeko mailegu erromanikoek osatzen dute: ausart eta orhoit honen adibide gardenak dira Leizarragaren corpusean (cf. 29a). Talde honen ezauga-55 Leizarragaren adibideak gaurko grafian doaz, kontu horrek hemen zeresanik ez duelakoan. 56 Aurreko ikertzaileei jarraitzen diet, &lt;d&gt; grafia etimologikoa -partizipioaren formarekiko analogikoa-delakoan <ref type="bibr">(Lafon 1944: II, 19;</ref><ref type="bibr">Mitxelena 1977a: 235, 21. oh.;</ref><ref type="bibr">Zulaika 1994: 786, 4. oh.)</ref>. <ref type="bibr">57</ref>  Leizarragak ez ditu lekukotzen (31)-ko mota guztiak. Aitzitik, maileguak (ausart, oroit) edo hots-aldaketen ondorioak (hant, lot) alde batera utzita, Leizarragak berez -t-rik sortzeko biderik ez duten beste izenkietatik sortutakoak ditu <ref type="bibr">(ohart, zaurt, urt, xuxent)</ref>, baita izenkietatikoak ez direnetakoren bat edo beste (irakurt, erskont). Aldiz, hutsune handi bat nabaritzen zaio: cvc-tu aditzen sailekoak <ref type="bibr">(hart, sart, sort...)</ref>, geroago Euskara Zaharrean agertuko direnak, <ref type="bibr">Mounole &amp; Gómezek (2018: 503)</ref> bildu adibideen arabera.</p><p>Hirugarren talde hau modernoena da, orokorrean, baina ez horregatik argiena. Izan ere, -t aditzoin etimologiko ziurrak ez dira asko, ikusi berri dugunez, ez halako indar analogikorik sortzeko lain, zeinagatik -t-aditzoinen hedatzearen arrazoia bilatu beharrean garen. Bi bide baino ez ditugu: barrukoa eta kanpokoa. Batetik, gogora dezakegu ezen, baldintza egokiak izanez gero, Erdi Aroko azken bokalaren galera baino lehen existitzen ziren -tu zein -du partizipioen emaitza erregularra -t litzatekeela, buru-k bur-eman zuenez (cf. Leiz burhezur, adib.): Proposa dezakegu, beraz, euskara historikoko -t aditzoin ugariak Erdi Aroan sortu bide zen prozesu luze baten ondorio direla: orduko hots-aldaketa horiek lehenago ezinezkoa zen -t bukaera normaldu izanagatik (cf. bat eta dut berebat) are errazago onar zitzaketen ekialdeko hiztunek gaskoi-bearnesen partizipio maskulinoak beren horretan, eta bi joerak -egitura batzuetan azken bokala galtzea eta gaskoi-bearnesen partizipioak ziren bezala mailegatzea-bata bestearen indargarri izan bide ziren Iparraldean xvi. mendea baino nahikoa lehenagoko garaitik hasita.</p><p>-gi/-ki aditzen kontuan, ostera, ez dago pentsatzerik ebak bezalakoak Erdi Arokoak direnik, bi arrazoigatik. Alde batetik, jadanik dakigunez, -g(i)-ren bokalaren galeraren ondorio zaharra -t baitzatekeen (ebagi → *ebat-) eta ez -k (ebagi → ebak). Bestetik, Leizarragak -eta, dakidalarik, Euskara Arkaikoko gainerakoek ere berdin-betiere -gi/-ki bukaeradunak ematen baititu, izan aditzoina, izan partizipioa: Ondorioztatu behar dugu, bada, orain arte pentsatu den legetxe, -k aditzoinak berankorrak direla, 58 zehazki Euskara Zaharretik aurrerakoak <ref type="bibr">(Mounole &amp; Gómez 2018: 503)</ref> eta, zehatzago mintzatuz, mende bat-edo lehenago lekukotzen dira ekialdean, idazle lapurtarretan baino: atxek (Etxt), idek (Xu, He), jarraik (Bp, Xu, He)... <ref type="bibr">59</ref> Azkenik, aditz talde txiki batez hitz egin behar dugu, orain arte landu ditugun partizipioez <ref type="bibr">(-i, -tu, -gi/-ki)</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Hipotesi berriak</head><p>Aurreko atalean ikusi dugu balitekeela -i partizipioak jadanik fosilduta egotea -eta, beraz, aitzineuskarako aditz-enbor biluzia agian jadanik ez egotea-( §3.5), eta hori bera dioskutela hala emaite bezalako aditz-izenek ( §3.1) nola Euskara Arkaikoko mendebaldeko zein ekialdeko bazter-eremuetako datuek, bietan utzi erako aditzoinak eta utzite erako aditz-izenak jasotzen baitira ( §3.2), aditzoin mota batzuk (hant, ausart, usat, erra modukoak) argi ta garbi Erdi Aroan sortuak izateaz gainera ( §3.6).</p><p>Horrek guztiak zalantzan ipinarazi digu euskara historikoko aditzoina *eCVC aitzineuskarako aditzaren -are gutxiago gramatika-kategoriaren aldetik zehazgabe zatekeen *CVCren-ondorengo zuzentzat jotzea, bai eta adizki jokatugabe zaharrena bailitzan gainerako guztien jatorritzat hartzea ere. Aditzoinaren zahartasunaren teoriak behar bezain ondo funtzionatzen ez duelakoan, bada, aurkakoaren alde egiten ahaleginduko naiz atal honetan proba modura bertsiorik indartsuenan, hots, aditzoina aitzineuskara biziki zahar baten aztarrena izan beharrean, funtsean Erdi Aroko hots-aldaketek -azken bokalaren galerak batik bat-aditz jokatugabeen sisteman sortutako irregulartasunen morfologizatze bat delakoaren alde. Horretarako, oinarrizko hipotesi batetik abiatuko naiz:</p><p>(i) Gainerako adizki jokatugabe historikoak (aditzoina, aditz-izena eta geroaldiko part.) partizipiotik eratorriak dira.</p><p>Honek behartzen gaitu berriz azaltzera aditzoinaren zahartasun handiagoa bermatuko luketen gainerako arrazoiak. Gogora ditzagun: Bistan da gure teoria berriak 1 eta 4. argudioak iraulkatu eta beste era batera azaldu beharko lituzkeela gutxieneko kontuan, aurreko atalean bildu ditugun teoria zaharraren arazoak gainditzeaz gainera. Lau urratsetan azalduko dut: -i partizipioen aditz-izenen sorrera ( §4.1); perifrasi zaharren gramatikalizazioa ( §4.2); -tu partizipioen bilakabidea ( §4.3).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">-i partizipioa eratorri eta elkartuen oinarrizko forma da</head><p>Gorago ikusi dugunez ( §3.1), *emani-ren hipotesi emankorra burutu gabe utzi zuen Traskek, «nahasketa garaia» egiazki azalpen txiroa baita, izan, azaltzeko zergatik euskara historikoan eman erako aditzoin zaharrek betetzen duten partizipioaren lekua eta, alderantziz, zergatik *emani &gt; emai erako partizipio zaharrek betetzen duten aditzoinaren lekua elkartu-eratorrietan <ref type="bibr">(emaiten, emaile, emaitza, etab.)</ref>. <ref type="bibr">63</ref> Hala eta guztiz ere, aitortu egin behar ez zela erraza gainerakoan kontu zail horiek ondo azaltzen zituen teoria gainditu eta beste azalbiderik ematea (cf. <ref type="bibr">Urgell 2006: 936, 24. oh.)</ref>.</p><p>Hemen erabili ditugun gaietatik, ordea, beste aukera bat sortzen da. Aski da gogoratzea aditzak ez daudela gainerako hitzak eragin dituzten hots-aldaketa legeen eraginetik kanpo. Hala bada, gure proposamena bi hipotesi hauetan oinarritzen da: (36) 1. [part. + -ten] *etorri-ten, *emani-ten 2. n &gt; ø / V -V *etorriten, emaiten 64 3. V &gt; ø bi silabatik gorako elkartu-eratorrietan etorten, emaiten 3. geruzan gertatzen den ezberdintasuna *e.ma.i.ten &gt; *e.mai.ten silabakatze aldaketari egoztekoa da, nik uste.</p><p>Honetarako, gogoratzea baino ez dago derrigor aditzetik eratorritakoek ere pairatu behar izan zituztela gainerako hitzek pairatu zituzten ondoko aldaketa erregular hauek <ref type="bibr">(Mitxelena 1977a: 125-128</ref> Agerian denez, proposatzen ari naiz *e-rik ez duten aditz zaharren tarteko forma, alegia, -i emankor izateari utzi zionekoa, pleonastikoa zela: ez zela adizki ordezkatzerik izan -hiztunek latin gramatikaren kontzientzia handia izatea eskatuko lukeelako (ik. §2.5)-, baizik eta hots-aldaketa arau erregular batek sortutako espejismoa. Haritu eta hotzitu, bata testu arkaiko batean (Etxep) eta bestea bazter-eremu batean lehen testuetatik (RS, Laz) lekukoturik egotea hipotesiaren berme handia dela esango nuke.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Perifrasi zaharren gramatikalizazioa</head><p>Mitxelenak aditzoinetan sumatu zituen irregulartasunak azaltzeko asmoz, *edin-ekiko perifrasien sorrerari buruzko hipotesi bat eraiki zuen, aldez lehenago aipatua ( §1.  <ref type="bibr">EHHE, s.v. saldu)</ref>. <ref type="bibr">69</ref> Begiratu bekio bilakabide orokorrari, ez aditz bakoitzaren hotsen xehetasunei, zeren eta erro zaharren -l eta -r amaierez behinik behin zeresan handia baitu azkenotan <ref type="bibr">Lakarrak (ikus 2018: 192-193</ref> Bidenabar, bitxia da germanikoaren ustezko maileguek (gorde, bota) ez izatea, ez -i, ezta -tu markarik ere. Honek berma lezake esaten ari garena, alegia, gorde ditugun perifrasi zaharrenetan ere jatorrian ez zirela «egiazko» aditz nagusiak erabiltzen -geroago, gramatikaldu zirenean bezala-, baizik eta predikatibo modura erabilitako adjektibo eta bestelakoak, azken batean hori baino lehenago euskara aditz gutxiko hizkuntza zatekeelako, Lakarrak (2006a: 611-613) proposatu bezala, <ref type="bibr" target="#b77">Pawley (2006</ref><ref type="bibr">)-ren ildotik (cf. Mounole 2006</ref>. Partizipioaren aldetik hipotesi honek izan ditzakeen abantailak ondo ikusi ditu <ref type="bibr">Mounolek (2008: 432-433</ref> Gogoratzea baino ez dugu -i bokalaren sinkopa bera jazo dela gure egunotan bizkaieraren eremuko zenbait mintzotan: etorri zan → etor zan <ref type="bibr">(Zuazo 1998: 224)</ref>. Ez bide da une eta gune bakarra izan, ifin naiz 'ipini naiz' Gamiz arabarraren adibidearen arabera («Dabilzentxoak»; c. 1760).</p><p>Proposa genezake, gainera, aditzoinaren ordez partizipioa duten mendebaldeko adibide zaharrak arkaismoak direla -eta ez berrikuntzak-, aditz-izen eta aditzaren gainerako elkartu-eratorrietarako proposatu berri dugunez ( §4.1). Funtsean, pentsa genezake partizipioarekiko analogiak indar gehiago izan zukeela mendebaldean, gehienbat jatorrizko [-i part. + *edin/*ezan] arauari heltzen ziotelarik; erdialdean [adoin. + *edin/*ezan] berrinterpretazioak indarra batzen zuen bitartean, eta denborarekin areago ekialdean, non -t aditzoin berriek eta bestek berrinterpretazio hori sendotu ez ezik, gero eta ezinbestekoago bihurtuz joan diren.</p><p>Azkenik, seinala dezagun honek perfektuzko perifrasien arteko kronologia zorrotzarazi behar digula: izan ere, proposatu dugun bilakabidea onartuz gero, onartu beharko dugu Erdi Aroko hots-aldaketa arauak gertatu ziren garaian [part. + izan, *edun] perifrasiak oraino gramatikalizatu gabe zeudela. Mounolek (2006: 728) adierazi bezala, xvi. mendean ez dirudi perifrasi horien gramatikaltzea oraino aurreratua denik, laguntzaileok trinko gisara era guztietara -denbora eta modu guztietanerabiltzen direnez gero, nahiz gaur egun hori euskalkien arabera ezberdina izan. Eta, bestalde, gogoratu behar lehenagotik iradoki dela perfektuzko perifrasi modernoak inguruko hizkuntzetan (latina, alemana) aurkitzen ditugunen parekoak direla: mailegatua balitz edo hizkuntza-eremu gertakaria balitz (honetaz guztiaz, ik. Mounole 2006: 729-736), datazioa biziki erraztuko litzaiguke, bistan denez.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">-tu aditzen bilakabidea</head><p>Ezin ezagunagoa da latinetik hartutako aditzak partizipio forman mailegatu direla (45a); une batetik aurrera erromantzeetatik hartutako aditzek ere forma bera hartu zuten, erromantzezko bilakabidea gorabehera (45b, 45c) eta, ezaguna denez, aditz 70 Bitxikeria gisa aipatzekoa da Azkuek uste zuela aditzak bi mugatzaile dituela, -i eta -u, eta aginteran, subjuntiboan, ahaleran eta optatiboan infinitiboa [= gure part.] mugagabea dela, hots, ez dituela bere mugatzaileak hartzen <ref type="bibr" target="#b29">(Azkue 1969</ref><ref type="bibr">(Azkue [1923</ref>  <ref type="bibr">Mounole (2006: 733, 29. oh.)</ref>. <ref type="bibr">73</ref> Jakina, *zuritu-tze eta oroitu-tze ere proposa nezakeen, baina nahiago dut pentsatu -tze atzizkiaren hasierako kontsonante afrikatua berriki sortua dela, berehala azalduko dudanez. <ref type="bibr">74</ref> Nahita erraztu dut aditz-izenaren atzizkiaren forma. Hasierako z-ziurra da, baina ez bokala (cf. <ref type="bibr" target="#b85">Urgell 2006</ref><ref type="bibr">: 930 eta Manterola 2015</ref> Deskribatzen ari garen prozesua «beheitiko gramatikalizatze» bat da, hots, bilakabide fonetiko baten morfologizatzea <ref type="bibr" target="#b40">(Gaeta 2004)</ref>, zeinaren indarrez hots-aldaketa arauek sortutako forma berriek une batetik aurrera semantika berri bat hartzen duten, zehazki perifrasi jakin batzuei dagokien aditzaren forma jokatugabea izatea eta, ondorioz, hortik aitzina ezinbesteko bilakatzen diren.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Ondorioak</head><p>Lan honek helburu argi bat zeukan: aditzoinaren eta partizipioaren arteko erlazioa eztabaidatzea ikuspegi diakronikotik, historiak eskaintzen dizkigun datuen argitara batik bat. Honetarako, lehenik gaiaren egoeraz jardun dugu, hala sinkronikoki nola diakronikoki begiratuta aditzoinaren izaeraz eta partizipioarekiko erlazioaz zer esan den, alegia ( §1). Halaber, aditzoin historikoa aitzineuskaratik datorren adizki jokatugabeetan zaharrena dela eta, beraz, aditzoinaren eta partizipioaren arteko oposaketa ere ordukoa dela uste izateko argudioak bildu ditugu ( §2). Denak ez dira pisu berekoak, baina, dena dela, orain arte aski izan dira aditzoinaren zahartasunaren alde egiteko.</p><p>5.1. Alabaina, ondoren bildu eta eztabaidatu ditugu aditzoinaren zahartasunaren teoriarekin -hasiera batean behintzat-ondo ez datozen hainbat gertakari ( §3): 5.1.1. Emaite erako aditz-izen arkaikoak, Trasken hipotesiaren arabera, partizipioaren gainean eratutakoak dira, orokorrak izan arren -eta, beraz, zaharrak-( §3.1). 5.1.2. Iparraldeko testu arkaikoetan, eta batez ere ekialdekoetan, -i-dun forma ugaritxo ageri dira hala aditz-izenaren oinarrian nola *edin zein *ezan-ekin eratutako perifrasietan ( §3.2). Hau lotu dugu Euskara Arkaikoan mendebaldean perifrasi horietako forma jokatugabea ia-ia beti -i-duna izatearekin. Mendebaldekoa berrikuntzatzat hartua geneukan, dialekto-eremu horretan 1545 baino lehenagotik aditzoina galtzeko joera jadanik aski garatuaren seinaletzat, baina bi eremuetakoak batera ikusita, bazter-eremuen teoriaren arabera pentsa genezake arkaismoak direla, hots, 1545 baino lehenago garai bat izan zela non halako egiturak partizipioaren gainean eraikitzen ziren, eta ez aditzoinaren gainean. 5.1.3. Mitxelenak berak proposatu zuen partizipioa aditz-izen biziki zahar baten oinarritzat: galte/kalte-rentzat, alegia ( §3.3). Adibide honen garrantzia, aurkezten dituen ezaugarriengatik (-te atzizkia, besteak beste) ezagun zaion zahartasunaz gainera, orain arte aipatu ditugunak ez bezala, ustez -tu partizipio batetik sortua izatean datza. Mitxelenaren autoritatearen argudioa ezin tentagarriago izan arren, ikusi dugu aitzineuskarari buruz egun darabiltzagun teorien arabera badaudela Mitxelenarenaz beste aukera batzuk galte azaltzeko. 5.1.4. Euskara Arkaikoan aspektu burutua adierazteko erabiltzen diren perifrasietan irregulartasun markagarri bat dago, zaharretan aditzoina baitago eta berrietan partizipioa ( §3.4); halere, erabaki dugu hau ziurrenera 1600 baino lehenagoko aditz sistemaren izaera zeharo ezberdinari egotzi behar zaiola -esaterako, litekeena da «mood-prominent» izatea (Martinez Areta 2017)-, eta ez guri dagokigun gaiari. 5.1.5. Pentsa genezake gure Aroaren lehen mendeetarako -akitanierazko lekukotasunak jaso zireneko (K.o. i-iii. mendeak)--i partizipioak jadanik lexikalizatu-ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20229 aditzen aditzoina Erdi Aroan sortu zatekeen testuinguru jakin batzuetan gertatu hots-aldaketaren eraginez (bete adjektiboa → beta adoin.) eta aditz-izena aditzoinaren eratorria zatekeen (beta adoin. → betatze), beraz. Hori horrela izatera, azaldu behar genuke aditzoina zein baldintzatan edo nolatan sortu zen Erdi Aroan.</p><p>5.2. Aditzoinaren zahartasunaren teoriarekin ondo ez datozen gertakariak bildu eta haztatu ondoren, hala aditz-izenaren oinarriaren forma bereziak -partizipiotik ezberdinak-nola euskara historikoaren aditzoina bera Erdi Aroko hots-aldaketen ondorio gisa azalduko lituzkeen teoria bat osatzen ahalegindu naiz, hipotesiak ematen dizkigun azalbideak kontrako hipotesiak ematen dituenak baino hobeak direnentz egiaztatu nahirik. Azken batean, bilakabide fonetiko baten morfologizatze gisa azaldu nahi izan dut aditzoinaren eta partizipioaren arteko oposaketa. Hiru urratsetan garatu dut teoria: 5.2.1. Errazenetik hasita, uste dut ez dagoela eragozpenik -i partizipioa duten aditzen elkartu-eratorrien oinarrizko forma -i partizipioa bera dela ezartzeko ( §4.1). Honek ederki azaltzen ditu emaiten, emaile bezalako forma orokorrak (&lt; *[emani + -ten, -le]), baita ekialdeko zenbait aditz-izenen forma zaharrak (utzite, erazite, etab.) zein mendebaldeko aditz-izen (ia) guztiak ere. Honen arabera, utzite eta hasite erakoak, bada, arkaismoak lirateke, partizipioarekiko analogiak indar ezberdinez Euskal Herri osoan xvi. menderaino iraunaraziak, nahiz gero aditzoina indartzeko joeraren eraginez ekialdean desagertuz joan diren; ez, ordea, mendebaldean, non gaur egun ere hasite bezalakoak bizi-bizirik dauden. Horrelako aditzetan partizipioak (izan) dituen hiru forma ezberdinen arteko segida eratzeaz gainera, bi data zehatz proposatu ditut, bata ante quem-ekoa eta bestea post quem-ekoa: haritu eta hotzitu bezalako pleonasmoak Erdi Aroko hots-aldaketak baino lehenago gertatuak dirateke, bada: arkaismo handiak; aldiz, hartu eta hoztu bezalako [cvc-tu] partizipioak aldaketon eraginez sortu eta, beraz, haien ondokoak dirateke. 5.2.3. Ondoren *edin/*ezan laguntzaileak daramatzaten perifrasien sorrera landu dugu Mitxelenaren (1977a) intuizio bati jarraiki ( §4.2), zeinaren arabera perifrasiok [izenkia + *edin/*ezan] egituretatik sortuak liratekeen. Mitxelena ondorio honetara eraman zuten adibideak hain zuzen hant zedin bezalakoak dira, hots, egitura horietan ere Erdi Aroko hots-aldaketa arauek eragina izan zutela dioskutenak. [Adjektiboa + *edin/*ezan] egitura beraren ondorioa bide da jatorriz gure beste adibide prototipikoa, erra zezan alegia.</p><p>Germanikoaren ustezko maileguek (gorde, bota) ez zuten, ez -i, ezta -tu markarik ere hartu, zeinagatik are egiantzekoagotzat jo dezakegun *edin eta *ezan-ekiko perifrasiak predikatibo modura erabilitako adjektibo eta bestelakoez osatu zirela aurrenik, azken batean hori baino lehenago euskara aditz gutxiko hizkuntza zatekeelako (Lakarrak 2006a).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>(a) Akitanieraz geroztik partizipioa aditzaren erator forma nagusia zen eta bertatik datoz gainerako adizki jokatugabe historiko guztiak. (b) Partizipioa zen adizki jokatugabea gaur egun [aditzoina + *edin/*ezan] gisara analizatzen ditugun perifrasietan. (c) Aditzoina sortu zenean *edin, *ezan eta *iron ziren aditz laguntzaile bakarrak. 5 (d) Gaur egun partizipioz osatuta dauden perifrasiak, hala nola [part. + izan/ *edun] eta [part. + egin], gramatikalizatu gabe zeuden.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>Euskara historikoan adizki jokatugabeak lau dira: aditzoina, partizipioa, aditzizena eta geroaldiko partizipioa. Ugari eta erregularrenak diren -i eta -tu amaierako aditzak erabiliko ditut hau erakusteko: 7(1) aditzoina (adoin.):</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>(</head><label></label><figDesc>32) *[zuzendu ken -u] &gt; zuzent, *[sortu ken -u] &gt; sort Bestetik, Mitxelenak aurreratu zuenez (1977a: 423, 26. oh.), pentsatzekoa da ekialdeko euskarak (gaskoi eta) bearnesarekin izan duen ukipen estu eta luzeak erromantze horren -t-dun partizipio maskulinoaren mailegu kate luze bat sortu zezakeela. Mitxelenak kausit (Oih) eta usat (Leiz) seinalatu zituen, adibidez.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>( 33 )</head><label>33</label><figDesc>eratxeki zezan (Lc 3, 20), ireki zitezen (Mt 9, 30), aurdigi beza (Io 8, 7) ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20229</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>1. [Part. + -te] aditz-izena sortzeko arau zaharrena da 2. Eman *emani-tik dator i bokalaren galera erregularragatik Hipotesi hauen bidez, ederki azal daiteke *emani-ren arazoa, zeren eta -i partizipio guztietarako bilakabide bera proposatzen ari baikara, hiru garaitan banatua. Hauxe da, bada, (12)-n azaleratu zaigun arazoa konpontzeko proposatzen dudan irtenbidea eta dagokion kronologia erlatiboa: ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20229</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>5.2.2. Hipotesi horretatik azal daiteke, bestalde, hotzitu/hoztu zein (h)ari, haritu eta hartu bezalako partizipioen arteko erlazioa: baldin eta onartzen badugu -esan berri dugunez ( §5.2.1)-ondare zaharreko oinarrien gainean eratutako -tu partizipio berriak ere gainerako eratorriak bezalaxe -i partizipioz osatu zirela hasieran eta gero erregularki -i-galdu zutela, kronologia garden ageri da: *[hari → haritu → hartu] eta, hortaz, *[*hotzi → hotzitu → hoztu], hala nola *[hasi + -te &gt; hasite &gt; haste] edo *[utzi + -te &gt; utzite &gt; uzte]. Geroaldiko formak (etorriko/etorriren) ez dirateke oztopo, hauen atzizkiak deklinabidekoak direlako, part. eta aditz-izenenak eratorpenekoak, aldiz.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>Lç. ezadila ichil 'no te calles' era literalmente 'no te vuelvas calla do', aldara eztadinçát 'para que no se aparte' lit. 'para que no se haga al lado».</figDesc><table><row><cell cols="2">erabilera sintaktiko honen deskribapen zehatza dago; honatx bertako adibide zen-</cell></row><row><cell>bait: 11</cell><cell></cell></row><row><cell cols="2">(3) Errefrauetan: Non fida, han gal (Oihenart, Pr 337) 12</cell></row><row><cell>Zehar galderetan: Ez dakit nondik sar</cell><cell></cell></row><row><cell cols="2">Hautuzko perpausetan: Zuk aitor ala hark sala, eni berdintsu zait</cell></row><row><cell cols="2">Deskribapen horretatik kanpo gelditu dira -nahiz diakronikoki ez ezik (cf.  §2.3)</cell></row><row><cell cols="2">euskara batuan ere orokortzat eman beharrekoak izan-euskara historikoan aditzoi-</cell></row><row><cell cols="2">nari egotzi zaizkion beste bi agerleku: (4a) *edin eta *ezan laguntzaileek osatzen dituz-</cell></row><row><cell cols="2">ten perifrasietako aditz nagusiaren forma, gaur egun ahalera, agintera eta subjuntiboa</cell></row><row><cell cols="2">adieraztera mugaturik; 13 (4b) eratorrien oinarri eta elkartuen lehendabiziko osagaia:</cell></row><row><cell>(4) a. etor dadin</cell><cell>har zezan</cell></row><row><cell>b. etor-tze, etorr-era, etor-bide</cell><cell>har-tze, harr-era, harr-eman</cell></row><row><cell cols="2">Bestalde, euskal aditzak bi multzotan banatzen dira honi dagokionez: aditzoina-</cell></row><row><cell cols="2">ren eta partizipioaren arteko oposaketa dutenak eta ez dutenak. [Part. = adoin. + -i,</cell></row><row><cell cols="2">-tu] arauaren salbuespen bakan eta bakarrak -n, -o, -gi, -ki aditzak (edan, jaso, ebagi/</cell></row><row><cell cols="2">ebaki), germanikotik hartutako maileguak (gorde, bota) eta adjektibotik eratorritako</cell></row><row><cell cols="2">aditzak (hil, bete...) dira salbuespen bakarrak, Mounolek (2009: 279) garbi labur-</cell></row><row><cell>bildu bezala:</cell><cell></cell></row><row><cell>(5) [part. + *edun]</cell><cell>[adoin. + *ezan]</cell></row><row><cell>edan du</cell><cell>edan dezan</cell></row><row><cell>jaso du</cell><cell>jaso dezan</cell></row><row><cell>ebaki du</cell><cell>ebaki dezan</cell></row><row><cell>1.2. Aditzoina diakroniaren ikuspegitik</cell><cell></cell></row><row><cell cols="2">Mitxelenak izenetiko aditzetan gaur egun [adoin. + aditz laguntzailea] erara in-</cell></row><row><cell cols="2">terpretatzen ditugun perifrasietan lehen osagaia, «aditz nagusia» deituko genukeena,</cell></row><row><cell cols="2">aditza ez, baizik eta «el tema nominal mismo» (1977a: 423), hots, izenkia bera za-</cell></row><row><cell cols="2">tekeela iradoki zuen: 14 «11 Lehenago ikus Lafon (1944: II, 20-21). Nafarroa Behereko eta Lapurdiko ahozko adibideak</cell></row><row><cell>bildu ditu Caminok (2004: 472).</cell><cell></cell></row><row><cell cols="2">12 Honelakoetan, oro har, OEH-ko laburdurak baliatuko ditut egileak edota idazlanak aipatzeko.</cell></row><row><cell cols="2">Salbuespenak: Etxep = Etxepare (1545), Etxt = Gabriel Etxart-en gutunak (1615-1617), Laz = Lazarraga</cell></row><row><cell cols="2">(1567-1602), Leiz = Leizarraga (1571), Oih = Oihenart, Xu = Xurio (1720).</cell></row><row><cell cols="2">13 *Iron ere sar liteke ekuazioan, nahiz ekialde zabalean (GN, L, BN, Z) baizik ez lekukotu. Horixe pro-</cell></row><row><cell cols="2">posatu du Lakarrak (2014 [2011]: 176-177) -berak *iro darabil-, behinola orokorra izan zen arkaismo</cell></row><row><cell cols="2">handi baten hondarra dela iradokiaz. Hemen alde batera utziko dugu, argudiaketa arinago suerta dadin.</cell></row><row><cell cols="2">14 «Izenkia» erabiltzen dut, goiko adibidean argi ageri denez, Mitxelenak «tema nominal» darabi-</cell></row><row><cell cols="2">len adiera bertsuan, zehazkiago euskarazko izen-izenondoak eta bestelako forma gramatikalduagoak de-</cell></row><row><cell cols="2">nak elkarrekin izendatu ahal izateko, kontuan izanik horrelako gramatika-kategorien arteko bereizkuntza</cell></row><row><cell cols="2">garbirik ez bide zela aitzineuskaran Mitxelenaren ustez (cf. 1964a: 56 eta 1977a: 512). Areago, Lakarrak</cell></row><row><cell cols="2">(2018: 129-132) aitzineuskaran morfologikoki bereiz zitekeen «izenondo» kategoriarik ez zegoela argu-</cell></row><row><cell cols="2">diatu du, Amerika, Afrika eta Australiako hainbat hizkuntzatan bezalaxe.</cell></row><row><cell></cell><cell>20229</cell></row></table><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20229</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>. Aditzoinak perifrasi zaharrenak osatzen</head><label></label><figDesc>.)-erreferentzia egiteko. Gogoan har bedi aditz historikoak osatzeko CVC erro kanonikoari ezker-eskuin erantsi zaizkionez aritu dela nagusiki (cf. Lakarra 2006a eta 2006b, adib.), partizipio markaz eta haren kronologiaz ezer zehaztu gabe. Aldiz, proposatu du -i part.</figDesc><table><row><cell cols="3">2.1. Partizipioa ere aditzoinaren eratorri</cell></row><row><cell cols="3">Lehenengo arrazoia morfologikoa da: sinkronikoki [part. ken -i / -tu] gisara ana-</cell></row><row><cell cols="3">lizatu duguna diakronikoki [adoin. + -i / -tu] gisara azaldu behar dugula dirudi; 18 be-</cell></row><row><cell cols="3">raz, honen arabera aditzoina dukegu adizki jokatugabe bakunena, 19 eta hala partizi-</cell></row><row><cell cols="3">pioa nola aditz-izena haren eratorriak dirateke:</cell></row><row><cell>(6) adoin.</cell><cell>etor</cell><cell>har</cell></row><row><cell>part.</cell><cell>*etor-i</cell><cell>*har-tu</cell></row><row><cell>adiz.</cell><cell>*etor-tzen</cell><cell>*har-tzen</cell></row><row><cell cols="3">Argudio hauxe darabilte Mounolek (2006: 727 eta 733) eta Padillak (2013:</cell></row><row><cell>327).</cell><cell></cell><cell></cell></row><row><cell cols="3">2.2Bigarren arrazoia, Mounolek garatua (2007: 116; ikus Mounole 2006: 727 ere),</cell></row><row><cell cols="3">aditz sistemaren bilakabidearekin dago lotua. Berak erakutsi du [adoin. + *edin] eta</cell></row><row><cell cols="3">[adoin. + *ezan] perifrasi historiko guztietan zaharrenak direla: «...Mitxelenaren Eus-</cell></row><row><cell cols="3">kara Batu Zaharrekoak dirateke (Mitxelena 1981), euskalki guztien amankomuneko</cell></row><row><cell cols="3">perifrasiak» (Mounole 2007: 88). Izan ere, egungo euskaran perifrasiok adierazten</cell></row><row><cell cols="3">dituzten ahalera, agintera eta subjuntiboaz gainera, xvi. mendean indikatiboa adie-</cell></row><row><cell cols="3">razten zuten: orainaldiko laguntzaileaz orainaldi bakuna eta geroaldia; lehenaldiko</cell></row><row><cell cols="3">laguntzaileaz aoristoa (Mounole 2006: 725). Beraz, zilegi dirudi perifrasi horien ezi-</cell></row><row><cell cols="3">nutzizko partaide den aditzoinari ere aitortzea zahartasun handiena, [part. + izan] eta</cell></row><row><cell cols="3">[part. + *edun] iragan burutuaren perifrasi modernoak osatu dituen partizipioaren</cell></row><row><cell>gainetik.</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>atzizkia ere *nin 'eman' erro zaharraren gramatika-</cell></row><row><cell cols="3">lizazio ugarietatik bat datekeela (Lakarra 2008: 482, 75. oh.) eta, areago, -n aditzen ugaritasun erlatiboa</cell></row><row><cell cols="3">ez dakiokeela CVn erroen ugaritasun bereziari zor, baizik eta *-ni(n) horri egoztekoa dela (ib. 78. oh.).</cell></row><row><cell cols="3">Dena dela, gurera itzulita, kezka adierazi du gaia zehaztu beharraz: «Ez naiz hemen arituko -i kausatibo</cell></row><row><cell cols="3">eta pasiboaz (cf. txinera eta ekialdeko beste zenbait hizkuntza) eta partizipio markaz; hobe esan, beharko</cell></row><row><cell cols="3">genuke aztertu aditz jokatu / aditz jokatugabe bereizkuntza garbirik ez duten hizkuntzetan zein den infi-</cell></row><row><cell cols="3">nitiboaren, partizipioaren eta besteren natura edo bilakabidea» (ib. 79).</cell></row><row><cell cols="3">17 Lana bukatzear nagoela, Mitxelenaren baieztapen honekin egin dut topo: «Es sabido que noso-</cell></row><row><cell cols="3">tros, innovando sin duda, usamos el participio: Ez dakigu nola jokatu / oriental nola joka; nondik hartu /</cell></row><row><cell cols="3">oriental nondik har, etc.» (Mitxelena 1976: 391).</cell></row><row><cell cols="2">ISSN: 0582-6152 -e-ISSN: 2444-2992</cell><cell>ASJU 52-1/2 (2018), 777-816</cell></row><row><cell cols="2">http://www.ehu.es/ojs/index.php/ASJU/</cell><cell>DOI: https://doi.org/10.1387/asju.20229</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>-tu &gt; lagundu → lagun (iz. eta adoin.) vs. eki. lagunt (adoin.) b. zuzen (izond.) + -tu &gt; zuzendu → zuzen (iz. eta adoin.) vs. eki. zuzent (adoin.) c. errom. ~deito &gt; eus. deitu → dei (iz. eta adoin.) vs. eki. deit (adoin.)</figDesc><table><row><cell cols="2">«-t aditzoinak» direlakoak (7b) dira, gainerako mintzoen hiztunentzat nabarmen eta</cell></row><row><cell>arrotzak: 21</cell><cell></cell></row><row><cell cols="2">(7) a. lagundu → lagunt, zuzendu &gt; zuzent, deitu → deit (euskara batuaz [eus-</cell></row><row><cell cols="2">bat.] lagun, zuzen, dei) b. jarraiki → jarraik, ausiki → ausik, atxeki → atxek (eusbat. jarraiki, au-</cell></row><row><cell>siki, atxiki)</cell><cell></cell></row><row><cell cols="2">Itxuraz antzekoak izan arren, jatorriz bi fenomeno ezberdin dira. Labur esanda, 22</cell></row><row><cell cols="2">hiztunek aditzoina sortzeko darabilten [part. ken -tu] araua [part. ken -u] erara be-</cell></row><row><cell cols="2">rranalizatu izanaren ondorioz azaldu ohi dira «-t aditzoinak». Honatx jatorri ezberdi-</cell></row><row><cell>netako aditzen emaitzak:</cell><cell></cell></row><row><cell>(8) a. lagun (iz.) +</cell><cell></cell></row><row><cell cols="2">eta gero xehekiago Mounolek berak (2006:</cell></row><row><cell cols="2">72-90) poliki deskribatu dute aditzoinaren historia mendebaldetik ekialderantz ger-</cell></row><row><cell cols="2">tatutako galera modura. Izan ere, aditzoina dago euskalki arkaiko guztietan, «baita</cell></row><row><cell cols="2">ondoko mendeetan partizipioaren onetan osoki ordezkatuko duten mendebalde eta</cell></row><row><cell cols="2">erdialdeko hizkeretan ere» (Mounole &amp; Lakarra 2018: 427).</cell></row><row><cell cols="2">Bestalde, jakintzat ematen da ekialdeko euskaran, alderantziz, aditzoinaren era-</cell></row><row><cell cols="2">bilera indartu egin dela euskara historikoan. Padillak (2013: 334-335) dioenez,</cell></row><row><cell cols="2">«...the more eastwards we go, the more the radical becomes marked». 20 Markaketa</cell></row><row><cell cols="2">berezi honen zantzuak ugari dira; ezagun eta hedatuenak «-k aditzoinak» (7a) eta</cell></row><row><cell cols="2">18 Analisi sinkronikoaren eta diakronikoaren arteko ezberdintasun horrekin azalduta dago gaia Zu-</cell></row><row><cell>biri &amp; Zubiriren gramatikan (1995: 396-397), adibidez.</cell><cell></cell></row><row><cell cols="2">19 «[T]he simplest» Trasken hitzetan (1997: 211); de Rijkek (2008: 139), ostera, «the shortest» esa-</cell></row><row><cell>modua hautatu zuen, inplikazio diakronikorik gabe.</cell><cell></cell></row><row><cell>20 Ideia Mitxelenak emana da lehenago (1980: 443-444).</cell><cell></cell></row><row><cell>ISSN: 0582-6152 -e-ISSN: 2444-2992</cell><cell>ASJU 52-1/2 (2018), 777-816</cell></row><row><cell>http://www.ehu.es/ojs/index.php/ASJU/</cell><cell>DOI: https://doi.org/10.1387/asju.20229</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>Lehenagoko adibideetan euskara batuko etortzen baliatu badugu ere, Euskara Arkaikoan Euskal Herri osoan -ten baino ez dago aditz-izenean -i aditz hauetan(Mounole &amp; Lakarra 2018: 428). Izan, badira **ekarriten eragozpenaren salbuespen dialektalak, zehazki mendebaldeko eremuan (EKC-k Arrese-Beitiaren eta Azkueren adibideak ematen ditu), baina orain arte, dakidalarik, berrikuntzatzat hartuak izan dira (cf. Urgell 2006: §2.7.1, esate baterako), mendebaldeko aditzoinaren galeraren erakusgarritzat.31  Salbuespen garrantzizkotzat jo behar daPadilla (2017: 369-389), non zubererazko aditzoinaren historia xeheki aztertua den.32  Hala Etxepareren nola Oihenarten neurtitzetan, poemaren zenbakia eta bertsolerroa eman ditut, hurrenez hurren Altunaren (1980) etaAltuna &amp; Mujikaren (2003)  edizioen arabera.33  Salbuespen bakarra, salbuespen balitz, aginterazko adizkietan dago: uztazu (4 agerraldi). Aginterazko adizkien osabidea ez du inork modernoki aztertu, oker ez banago. Alde batera utziko ditugu hemen, hortaz.Oihenart ere aipatu zuen, baina esan dezadan honek atsotitzetan beti utz(85, 112,  477, 587)  eta uzte (62, 558) daukala, baina neurtitzetan Utzi zitzadan eta utziten.Utzi bezalako besterik ba ote dagoen begiratu dut, eta jaitsi-ren adibideak aurkitu. Berriz ere Etxeparek aditzoinaren eta partizipioaren arteko homonimia dakar (15a); aldiz, Leizarragak bietara, nahiz sarrienik iauts aditzoina erabili zuen *edin-ekiko perifrasian -iautsi adi itxuraz fosildutakoaren hiru agerraldietatik kanpora(Mc 15, 30;  Io 4, 49; Act 10, 20;  behin iauts adi ere badu: Mt 27, 40)-(15b):(15) a. jaitsi zedin b. iauts zedin, etab. (32 ag[erraldi],), iautsi adi (3 ag.) Arazi/erazi ere aipatu behar, dakigunez ( §2.3), nahiz utzi eta jaitsi-rekin erkatuta berezitasun nabarmen bi dituen: batetik, aditz arrunta ez izatea, baizik eta aditz arazleak egiteko gramatikalizatutakoa; bestetik, haiek ekialde xamarreko testuetan baino ez dute aditzoinaren eta partizipioaren arteko homonimia; honek Iparralde osoan: zehazki berandu arte ia ez dago eraz aditzoinik eta erazte aditz-izenik; honatx adibide adierazgarri sortatxo bat (16a) eta aditz-izenaren erabileraren kopuru batzuk (16b): 36 (16) a. Etxep: inprimi erazi ditzazun; Leiz: rendi erazi liezenzat, ezagut eraziten; Mat: kontenta erazitzen; EZ: bitz arazitzaillea, diezekek ura har arazi, eror arazitzeko, Konfirmarazi detzaquek b. Ax: arazitze-(33 ag.); Bp: erazite-(58 ag.); Tt: eracite-(15 ag.); He: arazitze-(7 ag.) 37 Gorago ( §2.3) gure iturriek data atzerago ipini badute ere, egon badago eraz aditzoinik eta erazte aditz-izenik xvii. mendeko -baina ez lehenagoko-testu batzuetan: Azkenik, Zulaikak (ibid.) aipatzen du bizi-k forma bietan hondarkia gorde duela: 38 (20) Iaincoari bizi nekionzat (Gal 2, 19), formaren araura bizitzen (Catech 1326-36).Honainoko datuetatik atera daitekeen lehenengo ondorioa bistakoa da: bildutako adibideotan batzuek argi frogatzen dute, berriro ere, Iparraldean izan den aditzoinaren eta partizipioaren arteko oposaketa indartzeko joera ( §2.3), zeren eta lehenago horrelakorik ez zeukaten aditz gehienek (bizi dateke salbuespena) aditzoinaren forma berezi bana garatu baitute euskara historikoan, gure begien aurrean, eta baiezean zeudenek behin betiko atxiki dute aditzoina funtzio batzuetan partizipioaren kaltetan.Bigarren ondorioa ere gardena iruditzen zait: aditz-izenek eta perifrasietako aditzoinek bilakabide ezberdinak izan dituzte, bakoitza bere aldetik aztertu behar diren seinale: oro har, Leizarragaren corpusaren arabera, errazago da i aditz-izenetan egotea, perifrasietako adizkian baino. Honek gogora dakar *emani erako aditzen egoera ( §3.1), Leizarragaren adibideek bezalaxe aditz-izenean partizipioa baitute eta perifrasietan aditzoina -mota guztietako perifrasietan, ordea-.Hortik aurrerako galderak larriagoak dira: erazi eta ari gramatikalduak alde batera utzita ere,39  zergatik ez zuten utzi-k eta beste aditz gutxi batzuek aditzoinaren eta partizipioaren arteko oposaketarik xvi-xvii. mendeetako ekialdean? Nolatan daude [-i partizipioa + *edin / *ezan] perifrasiak edota [part. + -te/-tze] aditz-izenak mintzo arkaiko eta zahar horietan? Baldin eta onartzen badugu -ohi dugunez-oposaketa antzinakoa dela, aitzineuskararen garaikoa edo, eta perifrasiok zein aditz-izenok EBZetik datozkigun ezaugarriak direla, orduan ondorioztatu behar dugu -i partizipioen aditzoina ekialdean ere kolokan egon zela euskara historikoa baino lehenagoko tarte batez behintzat -zeinaren arrastoak liratekeen utzi, iaitsi eta abarrak-, eta gero alderantziz hasi zela, berriro indartzen alegia. Bide bihurria iritzi dakioke azalbide honi, baina mendebalde zabaleko datuekin erlazionatuz gero agian ez hainbeste: izan ere, mendebaldean ez dago -i partizipioen aditzoinaren arrastorik xvi. mendean, Refranes y Sentencias-eko bi adibideren salbuespenarekin: eros aala (RS 101) eta az ezac (RS 136; Mounole 2007: 84). 40 Mounolek interpretatu du adibideok xvi. mendea baino lehenagoko euskararen isla direla, Lakarrak (1996, etab.) ezarri bidetik: «ordurako [xvi. menderako], -i atzizkiak emankortasun oro galdua zuen eta hiztunen gramatikan -tu baizik ez zen gelditzen partizipiozko atzizki gisa» (ibid.). Demagun, ordea, RS-ko eros aala eta az ezak ez direla arkaismoak -baizik eta beste era batera azaldu beharreko adibideak-eta Etxepareren eta besteren jaitsi zedin eta utzi zezan ez direla berrikuntzak, baizik eta aditzoinik ez zegokeen garai ba-38 Bizi berezia da, [izenkia + aditza] erako egitureratik euskara historikoan aldez bakarrik aditzat har genezakeena (honegatik bizi izan gisa aipatua da, adibidez, OEH-n), erro bereko biztu/piztu ez bezala. Astiroago aztertzea merezi du, dudarik gabe. .20229ten zantzuak, azken fosilak; alegia, demagun aditzoinaren eta partizipioaren arteko oposaketa ez dela hain antzinakoa, Erdi Arokoa edo baizik, gero aldeztuko dudanez ( §4). Bada, bi aldeetako datuak bilduta, mendebaldekoak eta ekialdekoak, bazter-eremuen irizpidearekin egin dugu topo: bi eremuetan xvi. mendea baino lehen -i partizipioek ez zuketen aditzoinaren eta partizipioaren arteko oposaketarik, partizipioaren forma bakarrik baizik. Izan ere, ados gaudeke guztiok Mounolerekin xvi. menderako -i atzizkiak emankortasuna galdua zuela Euskal Herri osoan, baina esango nuke hori askozaz lehenagoko gertakaria dela, akitanieraren garaia baino lehenagokoa, baldin eta beherago ( §3.5) bildu ditugun zantzuak aintzat hartzekoak balira. Hortaz, ez litzateke harrigarria izango aitzineuskarako balizko -i gabeko aditz-enborra aspaldi desagertuta egotea ere.Jakina, bigarren azalpen honek zailtasun asko ditu -ez bakarrik RS-ren bi adibideak azaltzea-: besteak beste, -tu partizipio mailegatuen aditzoina zer dela eta sortu zen (cf. §2.5) azaldu beharko dugu, baina hau geroagoko egitekoa dugu. Bego gai hau honetan, beraz, oraingoz.</figDesc><table><row><cell>Egoera berbera dago Leizarragarenean (14a) 34</cell></row><row><cell>eta Tartasen liburu bietan (14b): 35 (17) eraz/araz aditzoina: Haranburu (1635; 10 ag.), Pouvreau (1656, etab.;</cell></row><row><cell>(14) a. utzi zezan (20 [agerraldi]), utzi dezan (1), utzi lezatenzat (1), utzi de-12 ag.), Harizmendi (1658; 3 ag.), Gasteluzar (1686; 3 ag.), Haranbilaga</cell></row><row><cell>zan (1) (1684; 2 ag.), Mong (1692?; 2 ag.)</cell></row><row><cell>erazte/arazte aditz-izena: Materre (1623; 2 ag.), Haranburu (1635; 17 ag.)</cell></row><row><cell>Zulaikak (1994: 788-789) Leizarragaren testuetan eritzi, ahanzi/-e eta ohortzi/-e</cell></row><row><cell>aditzetan ere ediren zituen honelakoak; markagarria da ezen, zalantza egotekotan, pe-</cell></row><row><cell>rifrasian aditzoina dagoela eta aditz-izenean partizipioa:</cell></row><row><cell>(18) on eritzi diezogun (1 Io 4, 7) eta gaitz eritzitea aditza, baina gaitzerizte izena</cell></row><row><cell>ahanciten (Adv 255-26) nahiz ahanzten (Phil 3, 14), baina betiere ahanz</cell></row><row><cell>ohortziten (Catech 1312-33) nahiz ohorzten (Lc 23), baina betiere ohortz</cell></row><row><cell>Alderantziz, ari-k perifrasian partizipioa dauka (19a) eta aditz-izenean -i gabeko</cell></row><row><cell>oinarria (19b; Zulaika 1994: 789):</cell></row><row><cell>(19) a. ari adi exhortatzen (Tit 2, 15), ari adi redargitzen (2 Tim 4, 2)</cell></row><row><cell>b. Bere Apostoluac predicatzen eta batheyatzen artzera igorri (Mt 28, 0)</cell></row></table><note>b. Tt Onsa (1666): utzi dezan (1), ez liro... utzi (1), utzi badezazu (1), ezki- zatzula utzi (1); Arima (1672): eztizazula utzi (1), utzi nezazu (1) Gainera, utzite aditz-izena ere bada Leizarragarenean (utziteko, utzitera, utzi- ten... 39 agerraldi guztira); aldiz, Etxeparek eta Tartasek uzte-baino ez dute. Altunak3034 Jadanik Mitxelenak (1976: 443) seinalatu bezala.35 Adibideak EKC-tik hartuak dira. Zuberoako datu zehatzez, ik. Padilla (2017: 384-386).ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20229ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.2022939 Nahi ere sar liteke taldean, oker ez banago: Jaikoari nai ez dakiola zu joan da ni eben gera nadila (Laz 1151v, ap. OEH, s.v. Jainko).40 Biak *ezan-enak, mendebaldean aditzoinari luzaroen heldu zion laguntzailearenak, hain zuzen: cf. Mounole (2007: 86).ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>. [part. ken -tu + adlag] gal zedin, gal zezan [part. ken -tu + erator atzizkia/elkartuaren osagaia] galtze, galera, galbide b. [part. ken -tu + adlag] begira zezan [part. ken -tu + erator atzizkia/elkartuaren osagaia] begirale, begiraldiZaila da asmatzen Mitxelenak horretaz zer uste zuen, baina badago adibide bat, galte/kalte-rena, beste azalpen batean pentsatzen ari zela iradokitzen duena, nahiz behin ere esplizituki formulatu ez, idatziz bederen. Ezaguna denez, Mitxelenak erakutsi zuen elkartu-eratorri zaharretan lehen osagaiaren edo oinarriaren azken bokalaren galerak hitz bukaeran suertatutako -d, -g eta -h-ren neutraltzea eragin zuela, -t emanik: cf. jadanik Erret Ihera (1150). Aldaketa hau ikusgarri egiten da bigarren osagaia bokalez hasten denean (22a), baina herskari ahostunaz hasten denean honen ahoskabetzearen bitartez antzematen da gertatu dela (22b; Mitxelena 1977a: 237-238):(22) a. artizar &lt; argi + izar, betizu &lt; behi + izu ib. 361), hala nola hantu &lt; *handi-tu, zaltoki &lt; *zaldi-toki. Eta erantsi zuen: «Puede ser esta la explicación de com. kalte (mer. galte) 'daño, pérdida', derivado de gal 'perder', acaso de *galdu-te» (ibid.), oharrean elkhor-en adibidea ere emanik: elkhor &lt; *el(du)-gor. Elkor-en adibidea aiseago ulertzen da eta honetatik ha-Misterioa hauxe da: Mitxelenak galte eta elkor azaltzeko galdu eta heldu partizipioak erabili zituen, herskaria behar baitzuen bataren ahoskabetzea eta bestearen ahostuntzerik eza azaltzeko; bidenabar onartzen ari zen ezen historiaurrean -Erdi Aroko hots-aldaketak baino lehenago-partizipioak hala erator oinarri nola elkartuen lehen osagai izan zirela, batzuetan behintzat, Euskal Herri osoan -galte/kalte orokorra baita-, 43 aditzoina jaun eta jabetzat eman genezakeen aspaldi hartan, hain zuzen ere.</figDesc><table><row><cell>eta aditz mailegatu zaharren Galte/kalte-ren kasuan, berriz, l ozenaren ondoko herskaria berez ahostundu (21b) adibide bana: (23) *el(du)-gor &gt; *elt-gor &gt; elkor beharko zen (24a), baina ez da ahostundu jadanik ikusten ez dugun lehenagoko -t horren eraginez (24b), nonbait: 42 (24) a. *gal-te &gt; galte &gt; **galde (vs. uholde, adibidez) (21) asiko gara: 41 b. *galdu-te &gt; *galt-te &gt; galte</cell></row></table><note>b. okin &lt; ogi + -gin, errepide &lt; errege + bide Ildo beretik, Mitxelenak agerian jarri zuen ezen «[h]ay ejemplos claros de falta de sonorización [de oclusivas sordas] y hasta de ensordecimiento en composición»ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20229(</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head></head><label></label><figDesc>OEH-n beste etimologia bat proposatzen da: *erd(i)-gor, disimilazioaz. Dena dela, ez gara hemen etimologia zehatzez ari, Mitxelenak partizipioa oinarritzat onartu izanaz baizik, hots, bere autoritateari nagokio une honetan.42  Mitxelenak ez zuen «Trask-en legea» -te atzizki honi dagokionez sumatu, adibide hauetan garbi ikusten denez. Lakarraren (2015: 428) formulazioaren arabera: «-DV/-TV/-V alomorfoetarik lehena da zaharrena». Lakarrak berak (2013: 304) ipini zion izen hori legeari, Trask izan zelakoan lehendabizikoa konturatzen, baina geroago(Lakarra 2015: 428), «Mitxelena-Trask legea» izena eman dio, «zuzenago [bait]irudi Mitxelenarenarekin lotua agertzea lan horretan bertan</figDesc><table><row><cell>).</cell></row></table><note>41</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head></head><label></label><figDesc>Beraz, orain galdera hauxe da: kalte eta elkor-en bakarrik, ala bestetan ere? Edo, orokorragora jokatuta: [part. + erator atzizkia/elkartuaren osagaia] salbuespena da, ala araua?</figDesc><table><row><cell cols="2">3.4. Aspektu burutuaren irregulartasuna</cell></row><row><cell cols="2">Euskara Arkaikoko testuetan lehenaldi burutua sinkronikoki balio berekoak diru-</cell></row><row><cell cols="2">diten bi perifrasi orokorren bitartez adierazten da: 46</cell></row><row><cell>(25) a. [adoin. + *edin / *ezan]</cell><cell>etor zedin, ekar zezan</cell></row><row><cell>b. [part. + izan / *edun]</cell><cell>etorri zen, ekarri zuen</cell></row><row><cell cols="2">1545-1600 bitartean lehian zeuden perifrasi bi hauetatik bigarrenak (25b) gaina</cell></row><row><cell cols="2">hartu zion besteari Euskal Herriko leku gehienetan eta, ondorioz, lehendabizikoa ia</cell></row><row><cell cols="2">osoki desagertu zen Mounolek (2007) zehatz deskribatu duen moduan.</cell></row></table><note>).ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20229</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head></head><label></label><figDesc>.20229 kotuta daude akit. SENI eta SEMBE, lehenengoa mend. sein eta eki. sehi formen jatorritzat hartua, eta bigarrena seme-ren aurreko formatzat, *sen CVC silaba bakarreko formatik datozkeen beste hitz batzuen artean.50   Erro Monosilabikoaren Teoria (EMT;Lakarra 1995, etab.)  bere horretan aplikatzen badiegu hitz horiei, aieruz bada ere, geruza oso zahar bateko formak antzeman</figDesc><table><row><cell cols="2">genitzake akitanierazko izenetan: 51 (26a) bi erroz osatutako izenak; (26b) -CV atziz-</cell></row><row><cell cols="2">kidun eratorriak, artean *senbe bera; (26c) -V atzizkidun eratorriak, fonetikoki ka-</cell></row><row><cell cols="2">mustuagoak eta, beraz, agian zaharragoak, artean *seni:</cell></row><row><cell>(26) a. cvc-cvc</cell><cell>sentar, senper</cell></row><row><cell>b. cvc-cv</cell><cell>sembe (cf. onbe)</cell></row><row><cell>c. cvc-v</cell><cell>seni</cell></row><row><cell cols="2">Eta geruza modernoago bat, honela analizatu beharrekoa:</cell></row><row><cell>(27) cvcv-cvc</cell><cell>seniponnis (akit. *Senipon), senitennis (akit. *Seniten)</cell></row><row><cell>cvccv-cvc</cell><cell>sembedonnis (akit. *Senbedon)</cell></row><row><cell>cvcv-cv</cell><cell>senicco (akit. *Seniko)</cell></row></table><note>).ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head></head><label></label><figDesc>EHHE-k dioenez (s.v. seme), seni-ren eratorritzat ere eman litekeela: alabaina, orduan azaldu beharko litzateke zergatik galdu den bukaerako bokala Erdi Aroa baino nahikoa lehenago. EHHE berak (s.v.) *sen euskara historikoko sen-ekin lotzen du, bestalde. atzizkia homofonoak ez ezik bat direla jakintzat ematen dugu (cf.Trask 1995:  218); areago, jakintzat eman behar -i markaren lehen zeregina (berreraiki dezakegun lehena) partizipioa dela, partizipioetatik izenondoak sortzen direlako -eta bigarren maila batean izenak-, baina ez alderantziz (cf.</figDesc><table><row><cell>:</cell></row><row><cell>(28) a. *Seniko, *Lohito = *[seni/lohi + atzizkia]</cell></row><row><cell>b. *Senipon, *Seniten = *[izena + izena/atzizkia/izenondoa]</cell></row><row><cell>c. Heraus-corri-tsehe, Bai-corri-xo = *[izena + izenondoa + atzizkia]</cell></row><row><cell>Partizipioen -i atzizkia eta euskara historikoan izenondo (zur-i, gorr-i, hor-i) edota</cell></row><row><cell>izen (sein, sehi &lt; *sen-i; sari &lt; *sal-i edo *sar-i; neurri, zauri, nahi, ibai...) diren hi-</cell></row><row><cell>50 Ideia jadanik Gorrotxategi (2018: 257)-n dago. Horixe iruditzen zait interpretazio errazena eta,</cell></row><row><cell>beraz, onena; egia da,</cell></row></table><note>51 Geruzen gaiaz, ikus Lakarra (2012: 48-52; 2015 passim).52 EMTren terminoetan esanda. Gorrochateguik (2018: 260) -ten(n) atzizkitzat jo du, akitanieraren corpusean posizio horretan bakarrik lekukotzen delako; baliteke *don ere taiu berekoa izatea (Gisondon, Sembedonnis), baina eusk. lohi-rekin (&lt; *don-i) lot daitekeen heinean nekezago, agian. *Bon, aldiz, bie- tara agertzen da (cf. Bonbelex vs. Cissonbonis).ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20229 tzen -i</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_16"><head></head><label></label><figDesc>Adibide bakan batzuk baino ez ditut bildu, denak ere Zulaikaren lanetik hartuak, jatorrizko testuarekin erkatu edota testuan bilatu eta osatu baditut ere. Testamentuaz gainerakoetan, Euskaltzaindiaren faksimileko orrialdea eta lerroa eman ditut. .20229 rria da bukaerako herskaria jatorrizkoa izatea: izan ere, ezaguna denez, -t horrek salatzen du bukaerako bokala galdu zuten gertuko erromantzeetako batetik hartutako maileguak direla, ziurrenik gaskoi edota bearnesetik (ikus orain EHHE, s.v. oroit). Predikatibo gisa (cf. oroit izan) erabili bide ziren hasieran euskaraz, eta geroago baino ez ziratekeen aditzak sortu euren gainean (ausartu, oroitu).</figDesc><table><row><cell>Hirugarren taldea halako azalpen etimologikorik ez dutenek osatzen dute, bai -t-</cell></row><row><cell>rik sortzeko biderik ez duten beste izenkietatik sortutakoek (31a), baita denominalak</cell></row><row><cell>edo izenkietatikoak ez direnek ere (31b):</cell></row><row><cell>(31) a. zuzent &lt; zuzendu, xahat &lt; xahatu, deinat &lt; deinatu</cell></row><row><cell>b. irakurt &lt; irakurtu, sort &lt; sortu</cell></row></table><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_17"><head></head><label></label><figDesc>bestelakoak, partizipio markarik gabeko aditz gutxi batzuek osatuaz: bete, gorde, erre eta busti. Interes handikoak dira guretzat, zeren eta itxuraz aditzoina partizipioa baino modernoagoa baitute eta, bestalde, guztiak elkartu-eratorrien lehen osagaiaren azken bokalek e &gt; a aldaketa pairatu zuten Erdi Aroko garaitik baitatoz, 60 hots, gutxi gorabehera hant eta zilhet aditzoinak sortu ziren ga-Lafittek (1944: 203) bakarrik pentsatu zuen ebak dela jatorrizko forma, «...since it is evident that verbs in this class are etymologically formed as [stem + -ki], and not [stem + -k + -i]» Busti ez da horren nabarmena, baina *musteu &gt; *mustiu &gt; *musti &gt; busti bezalako zerbait proposatuz gero bai; busta &lt; *buste formatik letorke orduan (Lakarra a.e.). /www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20229 aditzoinaren forma Erdi Aroan sortu zen (bete → beta) eta aditz-izena haren eratorria da (beta → betatze); (b) aditz-izenaren forma Erdi Aroan sortu zen, txandakatze bat sorturik (bete / betatze), eta aditzoina haren atzeranzko eratorria da (betatze → beta); edo (c) beta eta betatze garaikideak dira, Erdi Aroko hots-aldaketa arau beraren ondorio. Galdera horri ez zaio erraz erantzungo, ez era batera agian, baina, guri axola zaigun heinean, azpimarratuko dugu Erdi Aroko hots-aldaketa horrek [bete + izan, *edun] vs. [beta + *edin, *ezan] txandakatzea sortu zuela, non beta ziurrenik «aditzago» zatekeen bete baino. Nire ustez, aditz hauek beste lekukotasun argi bat ematen digute aditzoin historikoa Erdi Aroko hots-aldaketen ondorio dela sinisteko. Erronka handi bat dugu hurrengo lerroetan, bada: teoria berri bat sortzea, aditzoina Erdi Aroan nola sortu zen azaltzeko.</figDesc><table><row><cell cols="2">raitik. Leizarragaren lekukotasuna nahasia da, aditzaren araberakoa (Zulaika 1994:</cell></row><row><cell cols="2">790-791): bethe eta erre-k bietara dute aditzoina, baina betiere a-dunak aditz-izenean</cell></row><row><cell cols="2">(34a); gorde-k, aldiz, gorde/gordatze-txandakatzea du (34b) eta busti-ren kasuan busta</cell></row><row><cell>aditzoina baino ez da lekukotzen testuan (34c): 61</cell><cell></cell></row><row><cell cols="2">(34) a. bethaitzazue (Io 2, 7; 3 ag.), bethe zitzaten (Io 2, 7; 27 ag.), bethatzen</cell></row><row><cell>(Mc 4, 37; 7 ag.)</cell><cell></cell></row><row><cell cols="2">erre zitzaten (Act 19, 19; 5 ag.), erra zezan (Mt 22, 7; 2 ag.), erratzen</cell></row><row><cell>(Mt 13, 40; 12 ag.)</cell><cell></cell></row><row><cell cols="2">b. gorde zezan (Mt 25, 18; 4 ag.), gordatzen (1 Cor 16, 2; ag. bakarra)</cell></row><row><cell>c. busta dezan (Lc 16, 24; ag. bakarra)</cell><cell></cell></row><row><cell cols="2">Joera nahasia, jakina, aldaketa garai bati dagokio, non forma zaharra eta berria</cell></row><row><cell cols="2">lehian dabiltzan. Baina, zein da zaharra eta zein berria? Lehen bulkada aditzoina in-</cell></row><row><cell cols="2">dartzeko ekialdeko joerari egoztea bada ere (cf. Padilla 2013: 335 eta 11. oh.), badira</cell></row><row><cell>mendebaldeko lekukotasun zaharrak ere: 62</cell><cell></cell></row><row><cell>(35) a. betatzen du (Pedro de Ezcurra, HGN, 1609)</cell><cell></cell></row><row><cell cols="2">b. betaitea «henchimiento» (Lcc), gordaitan debena «guardador» (Lcc), be-</cell></row><row><cell cols="2">tatu doa (RS 94), erra zizan (RS 294), gordatze (CatAnz ap. OEH, s.v.</cell></row><row><cell>gorde).</cell><cell></cell></row><row><cell cols="2">Bistan da, beraz, antzinago forma orokorrak zirela, adibide nafarra gabe ere</cell></row><row><cell cols="2">bazter-eremuen irizpideak esango ligukeen bezala. Gure zalantza da ea zein den au-</cell></row><row><cell cols="2">kera onena -eta honekin aditzoina eta aditz-izena berriro biltzen ditugu-: (a)</cell></row><row><cell cols="2">58 Dakidalarik, (Pa-</cell></row><row><cell>dilla 2013: 335).</cell><cell></cell></row><row><cell cols="2">59 Dena dela, paralelismo bat ezarri behar dugu *duga &gt; duk eta *-aga &gt; -ak emaitzekin: Mitxelenak</cell></row><row><cell cols="2">adierazi bezala horietaz aritzean (1977a: 238), «El diferente tratamiento puede depender también de la</cell></row><row><cell>diferencia de fecha».</cell><cell></cell></row><row><cell></cell><cell>Hegoaldeko adibide</cell></row><row><cell cols="2">zaharrak osatu beharrak badira ere. Laburbiltze ondo informatu baterako, ikus halaber Camino (2008:</cell></row><row><cell>157-158).</cell><cell></cell></row><row><cell>ISSN: 0582-6152 -e-ISSN: 2444-2992</cell><cell>ASJU 52-1/2 (2018), 777-816</cell></row><row><cell>http:/</cell><cell></cell></row></table><note>6061 Alabaina, aditz-izena lekukotua da ekialdeko testuetan (cf. bustatzen Egiat, etab.).62 Ikus xehetasunak OEH-n, s.vv. bete, busti, 1 erre eta gorde, baten batean</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_18"><head></head><label></label><figDesc>/www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20229 arren, ikusi berri dugu arazoak dituela ( §3.2 eta 3.6): Benetan aditzoina kasu guztietan galdu ote da mendebaldean, ala kasu batzuetan ez da sekula egon? Zer dela eta indartu da aditzoina ekialdean? Hirugarrenik, jadanik ikusi dugu aditzoina *e-aurrizkiaz osatuta egoteak ez duela ezinbestean esan nahi -i atzizkiaz bakarrik osatu-</figDesc><table><row><cell>1. Perifrasi zaharrenetan agertzen da ( §2.2) 2. Galduz doan arkaismoa da ( §2.3) 3. Aitzineuskara zaharrenaren zantzuak ditu ( §2.4) 4. -tu aditz mailegatuek zeinek berea garatu dute ( §2.5) Lehenik, Mounolek (2007) perifrasi zaharrena zein den bikain frogatu arren, adi-tzoinari dagokionez 1. argudioa zirkular xamarra da (aditzoina da zaharrena perifrasi zaharrenaren parte delako). Halaber, 2. argudioak, lehen begiratuan ezin hobea eman ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 ezinezkoa. Ostera, 4. argudioa indartsua iruditzen zait: ahultasunik aurkitzekotan, Mounolen harako hura, alegia, euskaldunek «latinaz kontzientzia linguistiko handia» izan behar zutela -i eta -tu baliokidetzeko ( §2.5): horretarako elebitasun indartsua http:/tako formak baino zaharragoa denik: aitzitik, *e-torri bezalako aukera bat ere ez da beharko litzateke eta, dakidalarik, horrelakorik ez orduan.</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_19"><head></head><label></label><figDesc>Baldin eta iturri → iturbegi, iturbide, iturburu... 65 orduan etorri → etorkizun, etorburu, etorrera... baita etorten aditz-izena ere /www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20229Beste azalpenik ez da behar iraupen hauek azaltzeko, ezpada analogikoa, Mitxelenak jadanik aipatu bezala bi silabako hitzetan topatu zituen salbuespenak azaltzeko (1977a: 125). Morfologian analogiak are errazago joka zezakeen, baldin eta -erabiltzen ari garen hipotesi indartsuenak dioenez-aditzoinik ez bazegoen, partizipioaren eta partizipiotik eratorritako gainerako aditz jokatugabeen artean osatzen duten paradigma babestearren.Hipotesi honek zalantza sor lezake, zergatik etorten, baina etorriko/etorriren.</figDesc><table><row><cell>): (37) a. i, u &gt; ø silaba bikoetan b. V &gt; ø silaba bitik gorakoetan Hasi gaitezen (37b)-tik. Iturri bezalako hitz batek egitura fonikoa eta silabikoa (agian baita morfologikoa ere, hein batean behintzat) partekatzen du etorri bezalako partizipioekin. Aski da hiruko erregelara jotzea, bada: (38) Bi silabakoetan ere berdin: (39) Baldin harri → (h)arbel, har kantoin, Arzubiaga... 66 orduan hazi → hazle, baita hazten aditz-izena ere Aditzaren elkartu-eratorrietarako, behinik behin, uste dut ekonomikoagoa dela, beraz, [part. + X] araua proposatzea eta arau honi aipatu berri ditugun bi hots-alda-ketak erregularki aplikatzea. Honek esan nahi du ezen, azken bokalen galeraren ga-raia baino lehenagoko denboran tarteko urrats bat postulatu behar dugula, hipote-sien munduan murgiltzen ari garenez gero tentuz izarraz markatuko duguna, nahiz berez beharrik egon ez: (40) *etorri + -te → *etorrite → etorte *hasi + -te → *hasite → haste Garai hipotetiko honetatik letozke, bada, Iparraldeko ustezko salbuespenak (utzite, erazite, ahanzite, ohortzite, etab.;  §3.2), bai eta, esan gabe doa honezkero, Hegoaldeko galeraren ustezko lehen adibideak ere, xviii. mende arteko lau lurraldeetako testu zaha-rretan topatzen direnak -eta hau oso garrantzizkoa da-, hala nola asite (Landucci, Viva Jesus, Kapanaga, Arzadun) / asitze (Beriain, Elizalde, Otxoa Arin, Irazusta, Kar-daberatz, Ubillos). *Etorrite, *ema(n)ite, *hasite garaia (36-2) orokorra litzateke, bada, baina etorte, haste garaia (36-3) ez agian. ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 tzuna Mitxelenak eman zigun -aga eta -eta atzizkien ezberdintasunak azaltzerakoan (1971: 276-277): lehendabizikoak erator atzizkiek bezala jokatzen du eta bigarrenek, aldiz, deklinabide atzizkiek bezala. Honexegatik ez zen etorriko &gt; **etorko gertatu, iturriko &gt; **iturko bezalaxe. 67 Eta, amaitzeko, ideia berri bat. Neuk behintzat beti duda egin dut nola lotu behar ziren elkarrekin Etxepareren haritu hapaxa eta hartu beraren kognatu modernoa (cf. OEH, s.v. 2 haritu). Hartu, neurtu, saldu eta antzekoak denak eratorri moderno xa-marrak direla kontuan izanik, 68 onartzen baldin badugu aditz-izenetan ere partizi-pioaren azken -i ere galdu dela gainerako eratorri guztietan bezala, goraxeago ezarri dugunez, onartu beharko dugu ondare zaharreko -tu partizipioek ere bilakabide bera izan zutela, besterik gabe: 69 (41) *hari part. zah[arra] + -tu &gt; haritu &gt; hartu neurri part. zah. + -tu &gt; neurritu &gt; neurtu *hotzi part. zah. + -tu &gt; hotzitu &gt; hoztu *sali part. zah. + -tu &gt; *salitu &gt; *saltu &gt; saldu http:/Eran-*sori part. zah. + -tu &gt; *soritu &gt; sortu</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_20"><head></head><label></label><figDesc>Una interpretación posible es la siguiente: En los verbos denominativos, lo que acompañaba al auxiliar en un principio era el tema nominal mismo, no el part. derivado: Leiç. ezadila ichil 'no te calles' era literalmente 'no te vuelvas callado', aldara ez-67 Geroago gertatu da sinkopa geroaldian, berrikuntza gisara. Nafarroa Garaikoa bide da ezagunena: lehendabiziko agerraldia -zorigaitzez bitxia eta, beraz, dudazkoaiblico da, agian ibilco-ren ordez (Serm1729, ap. Reguero 2017: 550); ikusko du Elizaldek (1735) eta ikusko, etorko bezalakoak ugari Lizarraga Elkanokoak, adibidez. Araban badu Gamizek ere ikuzko 'ikusiko'(3 ag.).</figDesc><table><row><cell>2):</cell></row></table><note>68 Cf. neurri (OEH, s.v. neurri II), *hari (→ haritu, hartu; ik. OEH, s.v.) eta *sali (→ saldu; cf.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_21"><head></head><label></label><figDesc>/www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20229 tadinçát 'para que no se aparte' lit. 'para que no se haga al lado'. Pero, si el sintagma se comportaba como un compuesto nominal, -t podía aparecer al final de ciertos radicales: Oih. bat nendin 'me encontré' de bat 'uno' (part. bathu), lot 'atar' de lohi (part. lothu), Sauguis zilhet de zilhegi e incluso Leiç. etc. hant 'hinchar' de handi (part. hantu). Erdi Aroko aldaketak eta, beraz, *etorri zedin &gt; etor zedin bihurtu zela, *handi zedin &gt; hant zedin-en antzera. Bi osagaien arteko lotura handiagoa erakusten duen hots-aldaketak egituraren gramatikalizazio handiagoa iragarriko luke hasiera hartan -iragarri ez ezik, markatu ere-, hots, [izenkia + *edin] → [aditz nagusia + aditz laguntzailea] gisa berranalizatua zela. Ez dezagun ahaztu Erdi Aroko arauok ez zituztela hitz elkartu eta eratorriak bakarrik eragin, [izena + izenondoa] erako sintagmak ere baizik: cf. ardan bustia (TAV 2.2.15), itsas zabalean (Ax 217), etab.</figDesc><table><row><cell>). ASJU 52-1/2 (2018), 777-816 Har dezagun Mitxelenaren hipotesiaren aukera indartsuena: demagun, bada, [adi-ISSN: 0582-6152 -e-ISSN: 2444-2992 tema nominal del cual era derivado (Mitxelena 1977a: 423). tzoina + *edin] perifrasia [izenkia + *edin] egituratik sortua dela, non izenkia *edin-en predikatiboa baita: ichil zedin 'ixil bihurtu zen' litzateke hasieran, beraz. Mitxelenak diosku, gainera, egitura horren barnean Erdi Aroan hitz elkartu-eratorriak eragin zi-tuzten hots-aldaketek eragina izan zuketela, *zilhegi zedin &gt; zilhet zedin bilakarazirik, *haragi + -gin &gt; (h)arakin gertatu zen bezalaxe. Erants dezakegu guk kasu bertsuan leudekeela bete &gt; beta eta erre &gt; erra, besteak beste ( §3.6). Egitura horren lehen lekuan «izenkia» jarri dugu, baina *edin-en kasuan «adjektiboa (edo kidekoa)» jarri beharko genuke, zeinagatik aditz formarik agertzekotan partizipioa agertzea esperoko genukeen. Beraz, proposatuko nuke [-i part. + *edin] partizipiodun http:/Más adelante, se antepondría al auxiliar acaso en ocasiones el participio en vez del egiturak ere pairatu zituela</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_22"><head></head><label></label><figDesc>Jonek subj. [ikusi] osag. [zezan] ad. b. Jonek subj. [[zakurra] ikusi] perpaus osag. [zezan] ad. c. Jonek subj. [ikusi] osag. [zezan] ad. &gt; Jonek subj. [ikusi zezan] ad. perifrastikoa d. Jonek subj. [[zakurra] ikusi] perpaus osag. [zezan] ad. &gt; Jonek subj. zakurra osag.Honek garamatza aintzat hartzera [X + *edin, *ezan] egiturak Erdi Aroan elkartueratorriak bezalaxe portatu zirela.70  Hots-aldaketa arau horiek [izena + izenondoa] egituretan ere eragin izanak iradokitzen du azentu-unitatearen eremuan operatu zutela, Mitxelenak -esplizituki aipatu ez arren-hain zuzen azentuak eragindako bokal galeraz aritzean aipatu izanak dioskunez (1977a: 422-423). Beraz, ez dago eragozpenik [adoin. + *edin,*ezan] perifrasietarako ere antzeko prozesua proposa dezagun:</figDesc><table><row><cell>b. *neurri zezan &gt; neur zezan</cell><cell></cell></row><row><cell>c. *ikusi zezan &gt; ikus zezan</cell><cell></cell></row><row><cell>(44) *etorri zedin → etor zedin *ekarri zezan → ekar zezan</cell><cell></cell></row><row><cell></cell><cell>).</cell></row><row><cell cols="2">[Aditzoina + *ezan] egituraren sorrera azaltzeko, erabili dezakegu Mounolek</cell></row><row><cell cols="2">(2007: 117-118) [part. + egin] perifrasiaren gramatikalizazioaz eman duen azalpena,</cell></row><row><cell cols="2">hots, egitura biperpausdun gisa sortu zena (42a, 42b) perpaus bakarreko egitura gisa</cell></row><row><cell cols="2">berranalizatu zela beranduago, argumentuak berrantolaraziz (42c, 42d); bere adibi-</cell></row><row><cell>deak egokituko ditut:</cell><cell></cell></row><row><cell cols="2">(42) a. [ikusi zezan] ad. perifrastikoa</cell></row><row><cell cols="2">*Edin-ekikoan gertatu bezalaxe, bada, honetan ere hots-aldaketak eragina izango</cell></row><row><cell cols="2">zuen; demagun izenondoarekin (43a), izenarekin (43b) eta partizipioarekin (43c):</cell></row><row><cell>(43) a. *zilhegi nezazu &gt; zilhet nezazu</cell><cell></cell></row><row><cell>ISSN: 0582-6152 -e-ISSN: 2444-2992</cell><cell>ASJU 52-1/2 (2018), 777-816</cell></row><row><cell>http://www.ehu.es/ojs/index.php/ASJU/</cell><cell>DOI: https://doi.org/10.1387/asju.20229</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_23"><head></head><label></label><figDesc>/www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20229 mailegatuon -tu bukaera atzizkitzat hartu eta ondare zaharreko formei ere erantsi zitzaien aditz berriak egiteko zein aditz zaharrak berriztatzeko (45d): (45) a. lat. auditu(m) &gt; eus. aditu b. errom. asmado 71 'balioztatu; uste izan' → eus. asmatu c. errom. ausart (cf. okzit. ausard, ap. MDELV, s.v. ausardi) → eus. ausartu d. CVC-tu aditzak: hartu, sortu, lortu, bildu... Garatzen ari garen teoriaren parte zailena, poliki inork azaldu ez duena, -tu aditz mailegatuen aditzoinaren sorrera da (cf. §2.5). Azalpen erraza, orain arte jakintzat eman dena, ustez behintzat, hauxe liteke: *sali eta *hari bezalako ondare zaharreko aditzek -tu aditzak bihurtutakoan (saldu, hartu) euren sal eta har antzinako aditzoina gordetzeaz gainera (46a), aditu eta begiratu bezalako partizipio mailegatu zaharrek ere garatu zuten eurena analogiaren eraginez (46b), eta berdin gertatuz joan da handik aurrera aditz mailegatu bat bertakotu den bakoitzean: (46) a. *sal → sal eta saldu, *har → har eta hartu b. aditu → adi, begiratu → begiraEbidentzia honek erakutsiko luke latinetiko maileguak hartzerakoan -eta geroago ere ziurrenera--i partizipioaren eta -i gabeko aditzoinaren arteko oposaketa oso indartsua zela, hain indartsua ezen hiztunek aditz gisa funtzionatzen hasi ziren -tu partizipioetatik atzeranzko eratorpenaren bidez aditzoinak sortu behar izan baitzituzten, -i aditzen analogiaz.Ez dut hemen ukatu nahi analogiak ez duenik parterik aditzoin berrien sorreran. Izan ere, gure egunetan egiazta daiteke oposaketa bizirik gorde duten hiztunek aditzoin berriak sortzen dituztela analogiaren eraginez: adibidez, gehiegi begiratu gabe telefonatu, telefona, telefonatzen hirukotea topatu dut Egungo Euskararen Hiztegia-n (EEH). Aitzitik, erakusten saiatuko naiz analogia EZ dela -tu partizipioetatik aditzoina sorrarazi zuen prozesu bakarra, ezta zaharrena ere agian.Aldebatetik, ikusi dugu ( §3.6) ondare zaharreko -tu aditz batzuen aditzoina zaharragoa dela partizipioa baino: hant (&lt; handi) hantu baino, bat (&lt; *bade) batu baino, etab.; eta beste hainbeste gertatzen da aditz mailegatu batzuetan ere, alegia, ausart zaharragoa dela ausartu baino, oroit oroitu baino, etab.; Mitxelenari jarraiki, gainera, baliteke ekialdean egiazki guztiak izatea horrelako erromantzezko -t-dun partizipioen deribatuak (usat → usatu, etab.) eta, nolanahi ere, han -t bukaeradun aditzoinak ugaltzeko joera ondo lekukoturik dago. Partizipioa perifrasi zaharren jatorrizko osagaia dela onartuz gero ( §4.2), ondare zaharreko gainerako -tu partizipioen aditzoin zaharra zein zatekeen erabakitzekotan, baldin eta Erdi Aroko hots aldaketak gertatu zirenean partizipioa hartu balitz, *hart aditzoina sortuko zela baieztatu beharko genuke, nahiz eta hart, sort eta antzerakoak askozaz beranduago arte -Euskara Zaharreraino-ez lekukotu ( §3.6). Honegatik, uste dut hobetsi behar dela Erdi Aroko hots aldaketak gertatu zirenean partizipioa *hari zela, *hari → haritu → hartu bilakabidea onarturik ( §4.1), nondik har aditzoina sortuko zen -i bokalaren galeraren eraginez. Hipotesi honek aise azalduko 71 Del lat. vulg. *adaestimāre (DEL, s.v.). /www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20229 lituzke, beraz, Euskara Arkaikoan Euskal Herri osoan lekukotzen diren aditzoinak: har, neur, hotz, sal, sor, etab. Horixe da irtenbide bakunena, baina ez da irtenbide bakarra. Pentsa dezagun une batez baietz, jadanik partizipioak hartu, sortu... erakoak zirela. Gehientsunak silaba bikoak dira eta, beraz, lehen araua dagokie (47a); -tu-ren ordez -du dutenei, gainera, herskari ahostunen neutraltze araua ere badagokie (47b): Dena dela, galte salbuespena da, alde guztietatik arkaikoa dirudien forma bat, izen gisa fosilduta eta kalte itxuran aldatuta (bi bazter eremutan lekukotutako adibideak alde batera utzita: ik. OEH, s.v.). Hau bezalako bakanen batzuk alde batera utzita, aldiz, ondare zaharreko cvc erroa duten -tu partizipioak -tze dute aditz-izenaren forma erregularra garai historikoan euskalki guztietan, egia bada ere mendebaldean lehian daudela beste forma batzuekin, dela -tzaite (artzaite), dela -tute (artute). Onartzen baldin badugu hasite eta utzite forma zaharrenak direla -eta ez haste eta uzte-( §4.1), 72 onar genezake beharbada hartute eta *hartuze liratekeela forma zaharrenak berebat. Honen arabera, hartute mendebaldeko hizkera batzuek gorde duten arkaismoa litzateke, beraz, hasite-ren parekoa ( §4.1). Berriz, -tze atzizkia orokortu duten hizkeretan aditz-izenaren eraketa honako hau litzateke, hartu bezalako partizipioen azken bokala ere galdu zela onartuz gero (49a) eta gauza bera gertatuko zen latinetik eta erromantze goiztarretatik hartutako lehen maileguetan (49b): 73 (49) a. *hart(u) + -ze &gt; *hartuze &gt; hartze 74 b. *adit(u) + -ze &gt; *adituze &gt; aditze Ez da hain proposamen zoroa: alde batetik, -i partizipiodunen paralelismoa letorkioke alde (50a); bestetik, horixe bera proposatu behar da ertze eta oroitze bezalako adibide gardenetan (50b): (50) a. *emani-te &gt; emaite, *etorri-te &gt; etorte b. *erdi-ze &gt; ertze (Lç, Lcc), *oroit-ze &gt; oroitze 72 Berriz, -tutze erabateko berrikuntzatzat joko nuke; cf., besteak beste, Urgell (2006: 939-940) eta</figDesc><table><row><cell>:  §449). sartu &gt; *sart, lortu &gt; *lort saldu &gt; *salt, galdu &gt; *galt Izan ere, perifrasietako aditzoinean ez dugu *hart erakorik aurkitzen berandu arte, ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 http:/ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 777-816 b. -d, -g, -h &gt; -t baina besterik da aditz-izenean, zeinaren forma -gogora dezagun ( §3.6)-perifra-sietako aditzoinaren formaz beste era edota erritmo batera garatu baita gehienbat. Hauxe izan liteke kalte-ren azalpena ( §3.3), oraingoan egun emango geniokeen eti-mologiaren arabera adierazita: http:/(47) a. -i, -u &gt; ø (48) *gald(u) + *-de &gt; *galt-de &gt; galte</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">Mitxelenak berak (1977a: 344, 2. oh.) zioenez, «La distribución está mal estudiada y la cuestión en general está llena de espinosos problemas (...)».</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="36">Zuberoako datu zehatzez, ik.Padilla (2017: 382-384).37  Utzi-rekin bezalatsu, Oihenartek bietara jokatu zuen obraren arabera: atsotitzetan erazten (657) eta hala neurtitzetan nola bere iruzkinetan erazite-(3 ag.: 644. atsotitzaren iruzkinean, 3 -42 eta 17-24).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="63"> Oyharçabalek (1998: 326-327) «[t]rès ingénieuse» deritza Trask-en azalpenari, baina «...l'analyse laisse malgré tout certains points non expliqués»; bata da zergatik aditz batzuek (jan, edan, etzan, entzun...) ez duten -i-rik eratorrietan (**jaite, **edaite, etab.); bigarrena, goraxeago azpimarratu dugunez, partizipioari ematen dion garrantzia, aditzoinaren zahartasunarekin bat ez datorrena: «Pourtant cette importance devait être moins grande dans la vieille langue que dans celle d'aujourd'hui, où les formes radicales ne sont plus disponibles que dans des formes marquées du point de vue modal (changement intervenu assez tardivement, au 16e siècle)». Oyharçabalek gogoratzen du, ordea, Trasken ustez (1997: 238) erran zezan 'esan zuen' eta sar zedin 'sartu zen' bezalako aoristo perifrastikoak «...représentent plutôt des innovations idiosyncrasiques, très localisées, que des survivances de la vieille langue, comme on le pense généralement<ref type="bibr" target="#b51">(Lafon 1944</ref>)» (ibid.).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="64">Esan gabe doa zehatzago bokal sudurkariez ere hitz egin behar dela geruza honetan(cf. Mitxelena  1977a: 301-302; berriki Egurtzegi 2014, 147-170). Zilegi bekit, ordea, azalpena bakuntzea, sudurkariok gorabehera berbera baita. 65 «com. it(h)urbegi 'manantial', it(h)urburu 'manantial, origen' (ya Leiç.), de it(h)urri 'fuente', cf. top. Iturgoyen, Navarra, siglo xi» (Mitxelena 1977a: §6.1.c). Cf. orain Itur lax (1013), Iturbideco (xiii), Iturburua (1213), Iturgaiz (1364), etab. (Reguero 2011: 203). 66 «Leiç. har kantoin 'piedra angular', Pouv. harxede «butte de pierre», hardi 'pedregal', etc. de (h)arri 'piedra', cf. top. Arzubiaga, CS-Mill. 91, año 1025, Álava» (Mitxelena 1977a §6.1.a).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="75">Hauen kasuan analogiak ez ezik, silaba bakarreko aditzoinen masa fonikoa indartzeko joerak ere egin zukeen, har-tzaite moduko aditz-izenetan (cf. Urgell 2006: 938-939) daukagularik horren froga argiena (Lakarra, a.e.).</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20229</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20229" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">) lanen ildotik, hots, aditz-izenaren atzizkiaren tz t + z-ren batuketatik sortua dela. Izan ere, jadanik Mitxelenak erakutsi zuen [herskaria + txistukaria] taldearen emaitza txistukari afrikatua izan ohi dela, hala nola bat + zu(k) &gt; batzuk, ard(i) + zain &gt; artzain, og(i) + sein &gt; otsein, etab. (Mitxelena 1977a: 346)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gabekoa Eman Dezakeela</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Motibazio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Ohar bedi, bidenabar, beste fortis baten jaiotzaren kontu eman dugula hipotesi honekin, Lakarraren (2011: 56) eta Begiristainen</title>
+		<meeting><address><addrLine>Urgell</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="23" to="24" />
+		</imprint>
+	</monogr>
+	<note>Hala bada, orain esango genuke aditz-izenaren atzizkia ihartu ahala atzizki berri bat batu zitzaiola pleonastikoki Erdi Aroko hots aldaketak baino lehen (*harte-ze), hauen ondoren -tze forma berria sortuz eta, dakigunez, forma honen hedatzeari hasiera emanez. Erdi Aroko adibideak ere baditugu: Erretzubi (Nafarroa, 1125), Erressoro (s. xv), biak erreg(e)-tik (Mitxelena ibid.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Aditz-izenen formak bere horretan finkatu zirenean (etorte, hartze, aditze), orduan egin ahal zituzten hiztunek proposatzen ditugun operazioak: (51a) berranalisia; (51b) aditzoinen sorrera analogikoa: (51) a. Baldin etorte &lt; etor + -te</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">orduan hartze &lt; har + -tze eta aditze &lt; adi + -tze</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Hartze → har-tze berranalisiak eta are hobeto aditze → adi-tze-renak bide ematen digu azaltzeko zergatik (52a) lekukotua izan arren (52b) ez den xvi. mendean agertu: (52) a. etorri zedin &gt; etor zedin b. hartu zezan &gt; **hart zezan</title>
+		<imprint/>
+	</monogr>
+	<note>aditu zedin &gt; **adit zedin</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">]) eta paradigmaren erregulartasuna gorde beharra, etor zedin eta ekar zezan vs. **hartzezan **abisatzedin bezalako formek -fonetika erregularra, baina morfologia irregularra luketenak-ez zezaten aurrera egin. Beraz, lau urrats ditut beharrezkoak: 1. Azken bokalaren galera erregularra aditzaren eratorri eta elkartuetan</title>
+	</analytic>
+	<monogr>
+		<title level="m">Histori garaian hizkera gehienetan -t gabeko (edo -t-ren ondoren fonetikorik gabeko) aditzoinak egotea azaltzeko aditz perifrasietan bi prozesutara jo behar dugu, ziurrenik aldi berean jokatu zutenak: [adoin. + atzizkia] gisa berranalizatzea adizki eratorri guztiak, partizipioa bera barne (hots</title>
+		<imprint/>
+	</monogr>
+	<note>adoin. + -i] edo [adoin. + -tu. bai eta *edin/*ezan-ekiko perifrasietan ere</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+				<title level="m">nondik aditzoina vs. partizipioa ustezko oposaketa bat bazegoela ulertu zuten hiztunek</title>
+		<imprint/>
+	</monogr>
+	<note>part. + adlag. perifrasien arteko oposaketa sortu. part. + izan, *edun] perifrasiak gramatikaldu zirenean</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Oposaketa berri horren arabera, eratorri eta elkartuak ere</title>
+		<imprint/>
+	</monogr>
+	<note>adoin. + X] erara berranalizatu ziren</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Berranalisiaren hedapen analogikoa -tu aditzen perifrasietara (*zurit zezan &gt; zuri zezan)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20229</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20229" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Bi fenomenoek batak bestea indartu bide zuten bereziki ipar-ekialdean eta -euskara historikoan ageri denez-bertan ondare zaharreko -t emaitzak (hant erakoak) eurak ere aiseago iraunarazi dituzte -ez dago horrelakorik Hegoaldean (cf. OEH, s.v. bat, hantu, etab.)-. Dena dela, behin -t bukaeradun multzo handi bat izan ondoren, analogiak etengabe egin du lan ekialdean -t-dun aditzoinak ugaldu ditezen aditz berriak sortu ahala. Azken geruzakoak dira Euskara Zaharretik aurrera baino lekukotzen ez direnak, alegia, batetik, sort eta hart erako aditzoinak; 75 bestetik, nolabaiteko paralelismoz sortuak bide diren ebak erakoak. Laburbilduta, proposatu dut hainbat gertakari ezberdin batzen dituen prozesu honi guztioni zor zaiola funtsean ekialdeko «aditzoinaren indartzea» delakoa, hots, Erdi Aroko hots-aldaketek eta (batez ere?) gaskoi-bearnesetiko maileguek abian jarri zuten prozesuari. Badago geruza zaharrago edo zaharxeago bat, bete, busti, erre eta gorde aditz talde bereziaren -denak ere aditz gisa berranalizatu diren adjektiboak bide dira jato</title>
+		<ptr target="rriz-beta-,busta-,erra-etagorda-aditzoinek(edotaaditz-izenoinarriek)osatzendutena.Geruzahonetakoakargietagarbieurenpartizipioakbainomodernoagoakdira,silababikoerroetanbukaerakoe&gt;aErdiArokobestealdaketabatenemaitza" />
+	</analytic>
+	<monogr>
+		<title level="m">Akitanierazko lekukotasunetan euskara historikoan izen-izenondoak ez, baizik eta aditzak direnetan bakar baten adibiderik oraingoz aurkitu ez den arren, -i atzizkidunen artean oinarri mailegatu ziurrik ez egoteak berak adierazten bide du atzizkiaren emankortasuna agortua zela latin maileguak hartu ziren unerako. 5.1.6. Euskara Arkaikoko aditzoinen corpus aberatsena analizatu dugu: Leizarragaren obretatik aterea ( §3.6)</title>
+		<imprint/>
+	</monogr>
+	<note>Proposatu dut geruza zaharrena balitekeela hant eta bat bezalako aditzoinak izatea, alegia, beren bukaerako bokala galdu izanagatik -t bukaeradun aditzoin bihurtu diren izenkiak, noiz eta euren itxura berritik abiatuta partizipio berriak sortu (hau da, handi &gt; hant → hantu norabidea) eta gero aditzoin gisa berranalizatuak izan direnean. Ondare zaharreko aditzetan halako ziurtasun batez data dezakegun geruza zaharrena bada, behintzat, Erdi Aroko hots-aldaketen ondorioz sortutakoak direlako</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Aitzoinaren eta aditz-izenaren arteko erlazioa azaltzeko leudekeen aukeren artean, proposatu dut -proba modura-hurrengo hipotesitik</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Haatik</surname></persName>
+		</author>
+		<idno>abiatzea: bete bezalako ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2</idno>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="777" to="816" />
+		</imprint>
+	</monogr>
+	<note>eta -k) aditzoinak ez bezala, fenomeno hau ez da dialektala, orokorra baizik</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20229</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20229" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Baldin eta ezadila ichil-ek hitzez hitz &apos;ez hadi ixila bihurtu&apos; esan nahi bazuen, eta aserre zedin, hil zedin edo agor zedin ez baziren oriandik aserretu, hil eta agortu aditzen aditzoin gisa interpretatuak, adjektiboak baizik, orduan hazi zedin-ek &apos;hazia bihurtu zen&apos; adierazi zukeen, bada, *edin aditzak oraino haren jatorrizko esanahi lexikoa zuelarik: cf. Lotsaga nindin, ogiz ase nindin «sinvergüenza me hize y arté me de pan» (RS 263). Proposatu dugu, bada, perifrasi hauek ere pairatu zutela azken -i bokala galarazten zuen Erdi Aroko araua: *</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Beraz</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>egituretan predikatibo modura sartu zen adizkia partizipioa izan zela pentsatzeko. handi zedin → hant zedin. eta berdin *[hazi zedin → haz ze</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Aldaketa pairatu izanak adierazten du izenkiak eta aditz laguntzaileak dagoenekoz azentu-unitate bat osatzen zutela elkarrekin, 76 jadanik aski gramatikaldurik zeuden seinale. Beraz, orain artekoa onartuz gero ondorioztatu behar dugu *edin eta *ezan-ez eratutako perifrasiak gramatikaldurik zeudela Erdi Aroko hots aldaketak baino lehenago</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">azentu kontuak ezberdin doazenez perifrasia aginterazkoa den edo ez den eta honen arabera, suposatu beharko da perifrasiaren erabilera batzuetatik hasi zela bokala galtzen, ez guztietatik aldi berean, eta analogiak hedatu zuela gainerakoetara. 5.2.4. Landu dugun hipotesiaren arabera, *edin eta *ezan-ekiko perifrasietan partizipioarekiko analogiak indar gehiago izan zukeen mendebaldean, gehienbat jatorrizko [-i part. + *edin/*ezan] arauari heltzen ziotelarik, salbuespenak salbuespen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Jakina</surname></persName>
+		</author>
+		<ptr target="nahizhonenmendebaldeanereeuskarahistorikoanaditzoinarenetapartizipioarenartekooposaketagalduzjoanden" />
+		<imprint/>
+	</monogr>
+	<note>Hau ondo dator, jakina, mendebaldean egin-ekiko perifrasia partizipioarekin sortu izanarekin. Erdialdean, ordea, [adoin. + *edin/*ezan] berrinterpretazioa indarra batuz joan zen partizipioaren kaltetan Erdi Aroan zehar</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Mounolek (2007) ondo funtsatu duen [part. + egin] perifrasiaren gramatikalizazioan oinarrituta, suposa dezakegu [izenkia + *ezan] egituran partizipioak sartzen zirenean biperpausdun egiturak sortzen zituztela (adib. Jonek [zakurra ikusi] osag. zezan ad. ) eta gero perpaus bakarreko egitura gisa berranalizatu zirela, argumentuak berrantolaraziz (Jonek zakurra osag. [ikusi zezan] ad. ). 5.2.6. [Part. + *edin/*ezan] hipotesia onartzearen ezinutzizko ondorioa da [part. + izan/*edun] egiturak oraindik ere gramatikaldu gabe zeudela Erdi Aroan azken bokala galarazi zuen hots-aldaketa gertatu zenean, bestela hauek ere pairatuko baitzuten azken bokalaren galera: azken aukera hau oso dialektalki -beraz, oso berandu-baino ez da gauzatu (**etor da, **ekar du), dakigularik. Hala bada, [part. + izan/*edun] egiturak, orduan egotekotan, oraindik ere *[izenkia + aditz trinkoa] erako fasean leudeke, *edun-ek eta izan-ek euren esanahi lexikoa atxikirik. Esango nuke hau ez datorrela gaizki *edun/izan-ekiko perifrasiak Standard Average European delakoaren</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Aldiz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Da Ekialdean, Non -T Aditzoin Berriek</surname></persName>
+		</author>
+		<idno>5.2.5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Haspelmath</title>
+		<imprint>
+			<biblScope unit="page">77</biblScope>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+	<note>Mounole 2006) ondorenak direlako ideiarekin, baina alderdi honetan sakondu egin beharko da, noiztikakoak izan litezkeen zehazteko</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+				<idno>Honetaz jakingarria da Mitxelenak esana (1977a: 402, 37. oh</idno>
+		<title level="m">Leiçarraga tiene también algunos radicales verbales acentuados en la final: asserré cedin, ez leçan beránt, etzaiteztela... vztár». Espero zitekeen bezala, beraz, lekukotasun hauen arabera gure ustez galdu egin den bokala postonikoa litzateke. 77 Gaiaren aurkezpen orokor baterako eta bi laguntzaileen arteko kronologia proposamen baterako ik</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mounole</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20229</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20229" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Analogiak zerikusi handia izan du partizipioaren eta aditzoinaren artean euskara historikoan dakusagun oposaketa ezar zedin, erabatekoa ziurrenik une batetik bestera, baina erakutsi nahi izan dut analogia ez dela aditzoina sortu duen prozesu bakarra, ezta agian zaharrena ere: alde batetik, -tu aditzoin batzuk dagozkien partizipioak baino zaharragoak direlako (hant, ausart, etab.), eta bestetik litekeena delako antzina aditzoin gehiagok -tu partizipioen azken bokalaren galeraren bidez -t aditzoinak ematea</title>
+	</analytic>
+	<monogr>
+		<title level="m">Ohiko ustea eztabaidatu dugu, alegia, -tu aditzek zeinek bere aditzoina garatu zutela -i aditzen analogiagatik</title>
+		<imprint/>
+	</monogr>
+	<note>zaila dirudielako hiztunek -elebidunak izanik ere-latin gramatikaren kontzientzia hain garbia izatea. 5.3.1. Perifrasietako aditzoinetan beharbada ez dugu *sort erako aditzoin zaharrik proposatu behar (lekukotuak denak dira 1600dik aurrerakoak, ebak erakoak bezalaxe</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Bidenabar atzizki horren txistukari indartsua [herskaria + frikaria] batuketatik azalduko genukeenez, bilakabide fonetiko berarekin arrazoi gehiago legoke *hart(e)-ze &gt; hartze pleonastikoa proposatzearen alde: ondoren har-tze erako berranalisia gertatuko zen, hurrengo aditz berri guztiek -mailegatuak barne--tze hartzeko moduan. Bitartean, perifrasietan *hart garai bat izan balitz ere, analogiak har aditzoinaren alde egingo zuen, ekarri → ekar zezan vs. sortu → **sortzezan bezalako irregulartasunak ekiditeko. 5.4. Amaitzeko, azterketa honetatik eratorri diren hiru ondorio ziur azpimarratu nahi nituzke: 5.4.1. Lehenik, perifrasietako aditzoina eta aditzaren gainean sortutako hitz eratorrien oinarria ez direla bat, ezin direla elkarrekin azaldu «aditzoina» izenaren azpian, bakoitzak bere historia izan dutelako, batzuetan analogiaren eraginez historia horiek gurutzatu badira ere. 5.4.2. Bigarrenik, aitzineuskararen *etor erako aditz-enborrak eta euskara historikoan bizi diren aditzoinak bereizi behar ditugula. Gu saiatu gara frogatzen aditzoin historikoak jatorrian Erdi Aroan gertatu ziren hots-aldaketen ondorenak direla, ziurrenik akitaniera garaian jadanik -i partizipioak ihartuta zeudelakoan eta latin erroetatik -i partizipiorik sortu ez delako ebidentzia gure alde izanik ( §3.5). Hipotesia bertsiorik indartsuenean landu dugu. Halere, bertsio malgu eta konplexuago batean onar daiteke aitzineuskarako aditz-enborrek zeregin ezberdinetan bizirik iraun dutela guganaino -*etor bezalakoak bakarrik? *has bezalakoak ere?-, Erdi Aroko hots-aldaketok lehenagoko aditz-enbor pool bati osagai gehiago erantsi arren</title>
+		<ptr target="beraz,orainarteemanzaionbainoarretagehiagomereziduela.Poziknen-gokebildutakodatuinteresgarriekinetaplazaratutakogalderekinjakin-minabederensortukobanueuskalarietan" />
+	</analytic>
+	<monogr>
+		<title level="m">§3.6), baina aditz-izenean tentagarria da *sort(u) + ze &gt; sortze bilakabidea proposatzea, berriro ere Erdi Aroan azken bokala galarazi zuen hots-aldaketa arauaren ondorioz -haritu &gt; hartu-n bezalaxe</title>
+		<imprint/>
+	</monogr>
+	<note>Hirugarrenik, aditzaren forma jokatugabeen historia hagitz korapilatsua dela eta</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">«Materiales para un Diccionario Etimológico de la Lengua Vasca». ASJU 22:1etik aurrera atalka, eta gero ASJU-ren 13 (a-ardui), 19 (ardunbeuden), 24 (beule-egileor), 26 (egiluma-galanga), 30 (galani-iloza)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">&amp;amp; A</forename><surname>Bibliografia Agud</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Tovar</surname></persName>
+		</author>
+		<ptr target="ilpiztu-korotz)eta37.(korpa-orloi)gehigarrietan" />
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="volume">33</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20229</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20229" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Altuna</surname></persName>
+		</author>
+		<title level="m">Linguae vasconum primitiae. Bilbo: Mensajero</title>
+		<imprint>
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Euskal atsotitzak eta neurtitzak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J A</forename><surname>Altuna</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mujika</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proverbes et poesies basques. Proverbios y poesías vascas. Bilbo: Euskaltzaindia</title>
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note>Arnaud Oihenart</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">D S</forename><surname>Anderson</surname></persName>
+		</author>
+		<title level="m">Auxiliary verb constructions</title>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Antzinateko euskal idazkunak eta aitzineuskararen berreraiketa: corpusa, analisia eta ondorioak. Gasteiz: UPV/EHUko MALa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Ariztimuño</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">«Oihenarten lexiko-sorkuntza</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Azkarate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Oihenarten laugarren mendeurrena</title>
+		<meeting><address><addrLine>Bilbo</addrLine></address></meeting>
+		<imprint>
+			<publisher>Euskaltzaindia</publisher>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Azkue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De</surname></persName>
+		</author>
+		<title level="m">Morfología Vasca. Berrarg. faks. Bilbo: LGEV</title>
+		<imprint>
+			<date type="published" when="1923" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Gogoetak Mitxelenaren erronbo sistemaz eta honen historiaurreaz: ikuspegi berri baterantz. Gasteiz: UPV/EHUko gradu amaierako lana</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Begiristain</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Euskal dialektologia: lehena eta oraina (ASJU-ren gehigarriak 69</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Camino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Ekialdeko euskararen iraganaz», in I. Epelde &amp; K. Zuazo (arg.)</title>
+		<imprint>
+			<date type="published" when="2004" />
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="87" to="153" />
+		</imprint>
+	</monogr>
+	<note>Nafarroa Behereko euskara zaharra</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Crystal</surname></persName>
+		</author>
+		<title level="m">Diccionario de lingüística y fonética. X. Villalba-ren itzulp. eta egokitzapena</title>
+		<meeting><address><addrLine>Bartzelona</addrLine></address></meeting>
+		<imprint>
+			<publisher>Octaedro</publisher>
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Del = Real Academia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Española</surname></persName>
+		</author>
+		<ptr target="//dle.rae.es/?w=diccionario&gt;" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">«Where have all the adjectives gone?», Studies in Language 1, 19-80. Gero in Where have all the adjectives gone? and other essays in semantics and syntax</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Dixon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1977" />
+			<publisher>De Gruyter Mouton</publisher>
+			<biblScope unit="page" from="1" to="62" />
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Eeh = Sarasola</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Salaburu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Landa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp; J</forename><surname>Zabaleta</surname></persName>
+		</author>
+		<ptr target="&lt;https://www.ehu.eus/eeh/&gt;" />
+	</analytic>
+	<monogr>
+		<title level="j">Egungo Euskararen Hiztegia</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eglu Ii = Euskaltzaindia</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Towards a phonetically grounded diachronic phonology of Basque. Gasteiz: UPV/EHUko tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Egurtzegi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Ehhe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lakarra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp; I</forename><surname>Manterola</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Segurola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskal Hiztegi Historiko-Etimologikoa</title>
+		<imprint/>
+	</monogr>
+	<note>Bilbo: Euskaltzaindia (argitaratzear</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ekc = Euskal</surname></persName>
+		</author>
+		<ptr target="&lt;http://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;view=frontpage&amp;Itemid=410&amp;lang=eu&gt;" />
+	</analytic>
+	<monogr>
+		<title level="j">Euskal Gramatika. Lehen urratsak II</title>
+		<editor>Euskaltzaindia. -, d.g., Euskaltzaindiaren Hiztegia</editor>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Exploring grammaticalization from below</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Gaeta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">What makes grammaticalization? A Look from its Fringes and its Components</title>
+		<editor>W. Bisang, N. P. Himmelmann &amp; B. Wiemer</editor>
+		<meeting><address><addrLine>Berlin -New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Mouton de Gruyter</publisher>
+			<date type="published" when="2004" />
+			<biblScope unit="page" from="45" to="75" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Estudio sobre la onomástica indígena de Aquitania. Bilbo: UPV/ EHU. -, 1993, «La onomástica aquitana y su relación con la ibérica</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Gorrotxategi</surname></persName>
+		</author>
+		<editor>J. Untermann &amp; F. Villar</editor>
+		<imprint>
+			<date type="published" when="1984" />
+			<biblScope unit="page" from="609" to="634" />
+		</imprint>
+		<respStmt>
+			<orgName>Lengua y cultura en la Hispania prerromana. Salamanca: Universidad de Salamanca</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+				<title level="m">Euskararen Historia. Gasteiz: Eusko Jaurlaritza</title>
+		<editor>J. Gorrochategui, I. Igartua &amp; J. A. Lakarra</editor>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="231" to="286" />
+		</imprint>
+	</monogr>
+	<note>Euskara Antzinatean</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">The last stages of grammatical elements; contractive and expansive desemanticization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Greenberg</surname></persName>
+		</author>
+		<idno>Approaches to Grammaticali- ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2</idno>
+		<editor>E. C. Traugott &amp; B. Heine</editor>
+		<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="page" from="777" to="816" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20229</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20229" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Theoretical and methodological issues</title>
+	</analytic>
+	<monogr>
+		<title level="j">Typological Studies in Language</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">/</forename><surname>Amsterdam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Philadelphia</surname></persName>
+		</author>
+		<imprint>
+			<publisher>John Benjamins</publisher>
+			<biblScope unit="page" from="301" to="314" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">A Grammar of Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Hualde</surname></persName>
+		</author>
+		<editor>J. I. Hualde &amp; J. Ortiz de Urbina</editor>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Mouton de Gruyter</publisher>
+			<biblScope unit="page" from="196" to="204" />
+			<pubPlace>Berlin-New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>«Nonfinite forms</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">«Directional asymmetries in the morphology and phonology of words, with special reference to Bantu</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Hyman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Linguistics</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="309" to="350" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Euskararen sintaxi diakronikorantz: egitura konplexuak. Gasteiz: UPV/ EHUko doktore tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Krajewska</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Grammaire Basque (Navarro-Labourdin littéraire). Berrarg. faks., Donostia: Elkar</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Lafitte</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1944" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Le système du verbe basque au XVIe siècle</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Lafon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Remarques complémentaires sur la structure du verbe basque</title>
+		<imprint>
+			<date type="published" when="1944" />
+			<biblScope unit="page" from="329" to="351" />
+		</imprint>
+	</monogr>
+	<note>Berrarg. faks.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Recostructing the Pre-Proto-Basque Root</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Towards a History of the Basque Language. Amsterdam/Philadelphia: John Benjamins</title>
+		<editor>J. I. Hualde, J. A. Lakarra &amp; L. Trask</editor>
+		<imprint>
+			<date type="published" when="1985" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="189" to="206" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Ikerketak eta edizioa. Bilbo: Euskaltzaindia. -, 2005, «Prolegómenos a la reconstrucción de segundo grado y al análisis del cambio tipológico en (proto)vasco</title>
+	</analytic>
+	<monogr>
+		<title level="m">Refranes y Sentencias</title>
+		<imprint>
+			<date type="published" when="1596" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="407" to="470" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Notas sobre iniciales, cambio tipológico y prehistoria del verbo vasco</title>
+	</analytic>
+	<monogr>
+		<title level="m">R. L. Trasken oroitzapenetan ikerketak euskalaritzaz eta hizkuntzalaritza historikoaz. Bilbo: UPV/EHU &amp; Gipuzkoako Foru Aldundia</title>
+		<editor>J. A. Lakarra &amp; J. I. Hualde</editor>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="561" to="622" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">etimologiaz eta aditz morfologia zaharraz (Hitz hasierez II)», in I. Laka &amp; B. Fernández (arg.), Andolin gogoan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-</forename><surname>Jaun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">.</forename><forename type="middle">.</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Gramatika jaietan Patxi Goenagaren omenez. Bilbo: UPV/ EHU</title>
+		<editor>X. Artiagoitia &amp; J. A. Lakarra</editor>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="451" to="490" />
+		</imprint>
+	</monogr>
+	<note>Bilbo: UPV/EHU</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+				<ptr target="&lt;http://www.euskaltzaindia.eus/index.php?option=com_content&amp;Itemid=392&amp;catid=121&amp;id=3055&amp;lang=es&amp;view=article&gt;" />
+		<title level="m">Erro monosilabikoaren teoria eta aitzineuskararen berreraiketa: zenbait alderdi eta ondorio</title>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="5" to="114" />
+		</imprint>
+	</monogr>
+	<note>Aitzineuskara birreraikiaz: zergatik ezkerra?», Euskaltzaindiko sarrera-hitzaldia</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Euskararen historiaurrearen berreraiketa sakonagorako: forma kanonikoa, tipologia holistikoa, kronologia eta gramatikalizazioa</title>
+	</analytic>
+	<monogr>
+		<title level="m">Mailegaketa eta berreraiketa euskararen historiaurrearen ikerketan», in I. Igartua (arg.)</title>
+		<editor>R. Gómez, J. Gorrochategui, J. A. Lakarra &amp; C. Mounole</editor>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="page" from="275" to="324" />
+		</imprint>
+	</monogr>
+	<note>Koldo Mitxelena Katedraren III. Biltzarra. Vitoria-Gasteiz: UPV/EHU</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+				<title level="m">Gogoetak euskal dialektologia diakronikoaz: Euskara Batu Zaharra berreraiki beharraz eta haren banaketaren ikerketaz</title>
+		<editor>I. Epelde</editor>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="155" to="241" />
+		</imprint>
+	</monogr>
+	<note>Euskal dialektologia: lehena eta oraina (ASJUren gehigarriak 69). Bilbo: UPV/EHU</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20229</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20229" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Saratsola eta (aitzin)euskar(ar)en geruzak</title>
+	</analytic>
+	<monogr>
+		<title level="m">Ibon Sarasola, Gorazarre. Homenatge, Homenaje. Bilbo: UPV/EHU</title>
+		<editor>B. Fernández &amp; P. Salaburu</editor>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="419" to="439" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Euskararen historiaurrea</title>
+	</analytic>
+	<monogr>
+		<title level="m">Euskararen Historia. Gasteiz: Eusko Jaurlaritza</title>
+		<editor>J. Gorrotxategi, I. Igartua &amp; J. A. Lakarra</editor>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="23" to="229" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<title level="m" type="main">Euskararen morfologia historikorako: artikuluak eta erakusleak. Gasteiz: UPV/EHUko tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Manterola</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">«Ergative from Passive in Proto-Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Martínez Areta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Alignment Typology in Diachronic Perspective delakoan emandako hitzaldia</title>
+		<imprint>
+			<date type="published" when="2017-07-31" />
+		</imprint>
+	</monogr>
+	<note>ICHL 23; San Antonio, TX /</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><surname>Mdelv = Agud</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Tovar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Sobre el pasado de la lengua vasca. Donostia: Auñamendi. -, 1964b, Textos arcaicos vascos. Madril: Minotauro. -, 1971, «Toponimia, léxico y gramática</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">OOCC IX</title>
+		<imprint>
+			<date type="published" when="1963" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="384" to="411" />
+		</imprint>
+	</monogr>
+	<note>OOCC IX. Apostillas a L. Villasante, Sintaxis de la oración compuesta, Oñate 1976]», in OOCC VII</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<monogr>
+				<title level="m">Fonética histórica vasca. 2. argit. osatua. Donostia: Gipuzkoako Foru Aldundia. -, 1977b, «Notas cobre compuestos verbales vascos</title>
+		<imprint>
+			<date type="published" when="1977" />
+			<biblScope unit="page" from="424" to="446" />
+		</imprint>
+	</monogr>
+	<note>OOCC VII</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<monogr>
+				<title level="m">Lengua común y dialectos vascos</title>
+		<editor>J. A. Lakarra &amp; I. Ruiz Arzalluzek argitaratuak. Bilbao: UPV/EHU</editor>
+		<imprint>
+			<date type="published" when="1981" />
+			<biblScope unit="page" from="517" to="544" />
+		</imprint>
+	</monogr>
+	<note>OOCC VII. Obras completas [= OOCC] (15 lib.</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Bilbo: UPV/EHU, 725-740. -, 2007, «Perifrasi zaharra mendebalde eta erdialdeko euskara zaharrean. Azterketa kuantifikatiboa eta proposamen berria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Mounole</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Quelques remarques à propos de l&apos;histoire des périphrases basques</title>
+		<editor>J. I. Hualde &amp; J. A. Lakarra</editor>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="67" to="138" />
+		</imprint>
+	</monogr>
+	<note>Ikerketak Euskalaritzaz eta Hizkuntzalaritza historikoaz Larry Trasken oroitzapenetan</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+		<title level="m" type="main">Aditzaren mailegaketa euskararen diakronian: prozesu morfonologiko eta sintaktikoak</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="415" to="436" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Disparition de la racine verbale et généralisation de l&apos;emploi du participe : le cas de l&apos;ancienne périphrase de perfectif en diachronie</title>
+	</analytic>
+	<monogr>
+		<title level="m">Le verbe basque ancien: étude philologique et diachronique. Gasteiz: UPV/EHU &amp; Michel de Montaigne -Bordeaux III unibertsitateko doktore tesia</title>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="277" to="287" />
+		</imprint>
+	</monogr>
+	<note>Bilbo: UPV/EHU</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">«Euskara zahar eta klasikoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">&amp;amp; R</forename><surname>Mounole</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gómez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Euskararen Historia. Gasteiz: Eusko Jaurlaritza</title>
+		<editor>J. Gorrochategui, I. Igartua &amp; J. A. Lakarra</editor>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="469" to="541" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">«Euskara Arkaikoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J A</forename><surname>Mounole</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Euskararen Historia. Gasteiz: Eusko Jaurlaritza</title>
+		<editor>J. Gorrochategui, I. Igartua &amp; J. A. Lakarra</editor>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="345" to="468" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<monogr>
+		<title level="m" type="main">The History of Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Oyharçabal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Trask</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="317" to="333" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Basque and Proto-Basque. Language-Internal and Typological Approaches to Linguistic Reconstruction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Padilla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Non-Finite Verbal Morphology</title>
+		<editor>M. Martínez Areta</editor>
+		<meeting><address><addrLine>Frankfurt am Main</addrLine></address></meeting>
+		<imprint>
+			<publisher>Peter Lang</publisher>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="323" to="357" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20229</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20229" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<monogr>
+				<title level="m">Zuberoako euskararen azterketa diakronikoa: XVI-XIX. mendeak. Gasteiz: UPV/ EHUko tesia</title>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">«Where have all the verbs gone? Remarks on the organisation of languages with small, closed verb classes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Pawley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Paper presented at the 11th Binnenial Rice Univerity Linguistics Symposium</title>
+		<imprint>
+			<date type="published" when="2006-03" />
+			<biblScope unit="page" from="16" to="18" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Structure de l&apos;enoncé en basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Rebuschi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Société d&apos;Etudes Linguistiques et Anthropologiques de France</title>
+		<meeting><address><addrLine>Paris</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Erdi Aroko corpusa osatzeko ekarpena</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Reguero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Goi-nafarrera arkaiko eta zaharra: azterketa eta testuak. Gasteiz: UPV/EHUko tesia</title>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="153" to="233" />
+		</imprint>
+		<respStmt>
+			<orgName>ASJU-ren gehigarrietan argitaratzear</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<monogr>
+		<title level="m" type="main">Standard basque : a progressive grammar</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">P G</forename><surname>Rijk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>The MIT Press</publisher>
+			<pubPlace>Cambridge/London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Tav = Mitxelena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1964" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">The -n Class of Verbs in Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Trask</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Transactions of the Philological Society</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="111" to="128" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<monogr>
+		<title level="m" type="main">On the History of the Non-Finite Verb Forms in Basque</title>
+		<editor>J. I. Hualde, J. A. Lakarra &amp; L. Trask</editor>
+		<imprint>
+			<date type="published" when="1995" />
+			<publisher>Routledge</publisher>
+			<biblScope unit="page" from="207" to="234" />
+			<pubPlace>Amsterdam-Philadelphia; Londres</pubPlace>
+		</imprint>
+	</monogr>
+	<note>The History of Basque</note>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Ulibarri</surname></persName>
+		</author>
+		<title level="m">Dotrinazko Sermoitegia: galduriko hizkerak eta dialektologia historikoa. Gasteiz: UPV/EHUko tesia</title>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+		<respStmt>
+			<orgName>ASJU-ren gehigarrietan argitaratzear</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Euskararen historia (08-09 ikasturtea). Ikasteko materialak. Gasteiz: UPV/EHUko eskuizkribua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">; R L</forename><surname>Urgell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Tartas eta Leizarraga berrikusiak, edo nola aldatzen duen historia ikertzailearen begiradak</title>
+		<editor>B. Fernández &amp; P. Salaburu</editor>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="647" to="663" />
+		</imprint>
+	</monogr>
+	<note>Ibon Sarasola. Gorazarre. Homenatge. Homenaje. Bilbo: UPV/EHU</note>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">«Nafarroako euskal hizkerak», in I. Camino (arg.), Nafarroako hizkerak. Nafarroako euskal dialektologiako jardunaldietako agiriak (Iruñea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Zuazo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Oiartzungo hizkeraren kokagunea</title>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="1" to="21" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<monogr>
+				<title level="m">Sakanako euskara. Burundako hizkera. Bilbo-Iruña: Euskaltzaindia-Nafarroako Gobernua</title>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Zubiri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">E</forename><surname>Zubiri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskal Gramatika Osoa. Bilbo: Didaktiker</title>
+		<imprint>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Zulaika</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Aditzoina Ioanes Leizarragagan</title>
+		<meeting><address><addrLine>Donostia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Deustuko Unibertsitatea</publisher>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="785" to="793" />
+		</imprint>
+	</monogr>
+	<note>Euskera</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">BERRIZ AIZKIBELEN EUSKERA ESKUIZKRIBUAZ: EDIZIOA ETA ITURRIAK</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ricardo</forename><surname>Gómez</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">UPV/EHU &amp; JUMI</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">BERRIZ AIZKIBELEN EUSKERA ESKUIZKRIBUAZ: EDIZIOA ETA ITURRIAK</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In this paper I offer a new edition of the Euskera manuscript, written by the bascologist J.F. Aizkibel in 1856. The preliminary study focuses on a survey of the sources extensively used by Aizkibel, which are mainly two: Schleicher's Die Sprachen Europas <ref type="formula">(1850 [1852])</ref> and Champollion-Figeac's Égypte ancienne (1840). Moreover, the comparison with the sources reveals us that Aizkibel intended to adapt Schleicher's and Champollion-Figeac's analyses to attest that Basque was originally a very ancient monosyllabic language, and that it was spoken by cultured people. Some other linguistic ideas of Aizkibel are also discussed.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>tegik aldizkari honetan bertan argitaratu zuen arren <ref type="bibr" target="#b73">(Satrustegi 1977)</ref>, eskuizkribu honek oraingoz ez du lortu nire ustez merezi duen arreta guztia. Juan Garmendia Larra ña gak helarazi zion eskuizkribuaren kopia bat <ref type="bibr">Satrustegiri (1977: 131)</ref>. <ref type="bibr">4</ref> Nik dakidala, eta Satrustegik ere uste zuen bezala, ordu arte Euskera eskuizkribua guztiz ezezaguna zen euskalarien artean (baina oroit bedi 2. oin-oharrean esandakoa).</p><p>Euskera eskuizkribuak folio tamainako 16 orrialde ditu, zenbatu gabe eta bi aldeetatik idatziak; paper ofizialeko orri marradunak dira eta, orri bakoitzaren goiko eta eskuineko aldean, Justizia jainkosa irudikatzen duen grabatu bat dute inprimatuta, honako idatzi hau duena: "SELLO 3.º -AÑO 1848 -4R s "; ur-markan hauxe agertzen da: "2 a C e ". Letra txiki baina irakurterraza du. Eskuizkribua Aizkibelek bere idazkariari diktatu zion (ik. 102. oin-oharra).</p><p>Eskuizkribua zen ezezaguna, baina ez testua. <ref type="bibr">Izan ere, Satrustegik (1977: 133-134)</ref> susmatu zuen eskuizkribuko testua Aizkibelek argitaratu zuen "De la lengua Euskera, ó de los Vascongados" diskurtsoari zegokiokeela. Aizkibelen diskurtsoa (1856b) Album de Azara izeneko omenaldi-liburuaren barruan 5 argitaratu zen (Castellanos de Losada 1856). <ref type="bibr">6</ref> Alabaina, Satrustegik ez zuen inprimatuaren alerik aurkitu, ezta Aguirre Sorondok ere <ref type="bibr">(1983: 244-245)</ref>, eta, beraz, ezin izan zuten ziurtatu Euskera eskuizkribuko testua eta Aizkibelen diskurtsokoa bat bera ote zen. Zernahi gisaz, Aizkibelen diskurtsoa Allende <ref type="bibr">Salazar (1887: 166)</ref>, <ref type="bibr">Vinson (1891</ref><ref type="bibr">Vinson ( -1898</ref> eta <ref type="bibr">Bilbaoren (1970</ref><ref type="bibr">Bilbaoren ( -1975</ref> bibliografietan jasota zegoen, baina luzaroan euskalariek ez zuten lan inprimatu horren edukiaren berririk izan.</p><p>Edukiari buruzko aurreneko datuak Garatek (1968) eman zituen. Garatek ezagutu zuen Album de Azara-n Castellanos de Losadak idatzi zuen diskurtso baten separata, Juan Ramón Urquijo Sociedad Bilbainako liburuzainak helarazitako fotoko-4 Garai hartan beste bi tokitan gutxienez eman zuen Satrustegik Euskera eskuizkribuaren berri <ref type="bibr">(Satrustegi 1979a</ref><ref type="bibr">(Satrustegi , 1979b</ref>. 5 B. Oyharçabalek ohartarazi zidan Album de Azararen garrantziaz eta hari esker aurkitu ahal izan nuen lan honetarako erabili dudan ale digitalizatua (ik. bibliografia); izan ere, 2007ko Cadizko komunikazioa prestatzeko egin nituen bilaketa bibliografikoak bide okerretik eraman nituen eta antzuak suertatu ziren. <ref type="bibr">6</ref> Castellanos de Losadak José Nicolás de Azara y Perera (1730-1804) zaldun aragoiarraren heriotzaren 50. urteurrena omentzeko argitaratu zuen albuma. Liburuan, alor askotako jendeak hainbat hizkuntzatan idatzitako testu laburrak biltzen dira, prosaz zein bertsoz idatziak, horietako batzuk euskaraz. Liburuaren hasieran Azararen biografia hizkuntza eta dialekto askotara itzulita agertzen da; euskarazkoei dagokienez, honako itzulpen hauek agertzen dira: gipuzkera edo «Dialecto antiguo guipuzcoano (Lengua Euskera)», «A.»-k sinatua, Aizkibelek berak segurki <ref type="bibr">(11-13. or.; gazt. itz. 91-94. or.)</ref>; zuberera edo «Chuberoco mintzaira (Dialecto souletino, ó sea Vasco francés)», J. M. Hiribarrenek sinatua <ref type="bibr">(41. or.; fr. itz. 97-98. or.)</ref>; nafarrera edo «Dialecto vasco-navarro, tal y como se habla hoy en la provincia de Navarra», Miguel Auzak sinatua <ref type="bibr">(59-60. or.; gazt. itz. 91-94. or.)</ref>. Aurrerago, euskarazko zenbait olerki eta gutun ditugu: Goyetcheren «Elogio sucinto del inmortal Azara, en vascuence» olerkia <ref type="bibr">(282-287. or.; fr. itz. 389-392. or.)</ref>, M. Hiribarrenen «Vascongado labortano. A Azara» olerkia <ref type="bibr">(299-302. or.; fr. itz. 385-386.</ref> or.), J. A. Uriarteren «Done Antonio Abbadie Jauna.= Markinan Maiazaren seigarrenean milla zortzireun taberroqueta amabostean» gutuna -Azarari eskainia ez izanik ere, liburuan sartzea erabaki zuen Castellanos de <ref type="bibr">gazt. itz. 387. or.)</ref>. Ekialdeko eta Iparraldeko idazkeren erakusgarrietan, zenbatu gabeko orri batean eta «Celtivero y vascongado» izenburupean, P. A. Bourdard-ek signario iberikoa imitatuz idatzitako «Barbaunalac eta Arrotzac» solas laburra dago <ref type="bibr">(gazt. itz. 327-328. or.)</ref>. Azkenik, eta frantsesez idatzita badago ere, aipagarria iruditzen zait 351-352. orrialdeetan aurkitzen dugun A. Chahoren gutuna. piei esker. Separata horren amaieran, Aizkibelen diskurtsoa dago eta berari eskaini zion Garatek bere 1968ko artikulua. 7 Garateren lanetan ohikoa den anabasaren barruan, Aizkibelen diskurtsoaren edukiari buruzko zertzelada batzuk ematen dizkigu, Euskera eskuizkribuarekin lotzeko adinakoak izan litezkeenak <ref type="bibr">(Garate 1968: 122-125)</ref>. <ref type="bibr">8</ref> Artikulu hau prestatzeko erkatu ahal izan ditut, lehenengo aldiz, Aizkibelen eskuizkribua eta inprimatua eta ziurtasun osoz baiezta daiteke bietan testu berbera dugula, edizioan azalduko ditudan ñabardura txiki batzuk gorabehera. <ref type="bibr">9</ref> Bestalde, inprimatuan agertzen diren huts batzuk aintzat harturik, begitantzen zait Aizkibelek ez zuela parte hartu haren argitaratzean eta, ondorioz, nahiago izan dut hemengo edizioa eskuizkribuan oinarritu. Haatik, "De la lengua Euskera, ó de los Vascongados" diskurtsoaren faksimilea eskainiko dut eranskin gisa.</p><p>Hurrengo lerroetan Euskera eskuizkribuaren iturriak aztertuko ditut, Aizkibelek bere testua ontzean zein autore eta noraino erabili zuen argitzeko asmoz. Bide batez, iturrien aztertzeak aukera emango digu Aizkibelen testuan azaltzen diren hizkuntz ideia nagusiak ere aurkezteko. Azkenik, Euskera eskuizkribu osoaren edizioa paratu dut, Satrustegirenean zeuden huts bakanak zuzenduz, inprimatuarekiko aldaerak azalaraziz eta Aizkibelek erabilitako iturrien testu paraleloak ere eskainiz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Schleicherren eragina</head><p>Euskera eskuizkribuan Aizkibelek erakusten du ongi ezagutzen duela August Schleicherrek urte batzuk lehenago argitaratu zuen Die Sprachen Europas (1850) liburua, seguruenik 1852ko frantsesezko itzulpenaren bitartez; izan ere, itzulpen horren ale 7 Satrustegik (1977) ez du aipatzen -eta ez bide zuen ezagutzen-Garateren artikulu hori. <ref type="bibr">8</ref> Hauek dira Garateren artikulutik atera daitezkeen bi dokumentuen arteko bat-etortze nagusiak: (i) bakoitzean aipatzen diren autoreen zerrenda; (ii) «Concordancia Vizcayna» izeneko atal bat; (iii) ekarri aditzaren jokoa, bietan <ref type="bibr">Garatek (1968: 123)</ref> aipatzen dituen forma eta itzulpen berberak daudelarik; (iv) <ref type="bibr">Garatek (1968: 124)</ref> dakartzan beste hitz eta etimologia batzuk, Euskera eskuizkribuan ere agertzen baitira; (v) agiri bakoitzaren amaieran dagoen data berbera izan liteke. <ref type="bibr">Garatek (1968: 122)</ref> diskurtsoan «Toledo 24 de Mayo de 1836» irakurtzen duen arren, nik erabili dudan alean argi eta garbi «1856» irakurtzen da; Garatek erabili zituen fotokopien kalitateari egotz lekioke gaizki irakurtzearen errua. <ref type="bibr">9</ref> Horrezaz gain, ohartarazi behar da Aizkibelek eskuizkribuan zein inprimatuan adierazten dituen ideia eta analisi franko azkoitiarraren beste testu batzuetan ere agertzen direla. Ikus, esaterako, Ramón de Guereca Gipuzkoako Aldundiko idazkariari 1856ko otsailean idatzitako gutun batean aipatzen dituen euskararen ezaugarri gramatikalak, hiru hilabete geroago idatziko zuen eskuizkribukoaren laburpentzat har litezkeenak: «Hace muchos siglos que se estan estudiando todas las lenguas del Universo con el objeto unos de hallar la lengua primitiva (que nunca se hallará), y otros la mas perfecta, y sencilla en su construccion al paso que sea muy rica en sus elementos primitivos, derivaciones y de composicion. He aqui precisamente en el Bascuence la lengua deseada, compuesta de radicales primitivas monosilabicas, de secundarias y terciarias con 58 terminaciones aplicables a cada palabra. Ademas una sola declinacion con tres [números] singular, plural e indefinido, con 27 casos cada numero. (No se asuste V. Sr. D. Ramon) y acaso puede tener aun mas, que yo no haya alcanzado. Dos verbos uno activo y otro pasivo, por los cuales se conjugan todos los demas. He aqui reducidas a dos las ocho partes de la oracion, como sospechaba con fundamento Mr. Beaurce hace cerca de un siglo; nombre y verbo. Esto no lo creeran la mayor parte de los Bascongados. <ref type="bibr">[...]</ref> se declinan los nombres por la unica declinacion que hay, y se conjugan los verbos por las dos unicas conjugaciones que conoce la Euskera con la particularidad de que solo el modo indicativo en el verbo activo tiene 763.334 inflexiones que se aprenden en dos días con lecciones de una hora cada día» (apud Agirre <ref type="bibr">Sorondo 1983: 251-252).</ref> bat dago Aizkibelen liburutegian, gaur egun Donostiako Koldo Mitxelena Kulturunean gordetzen dena. <ref type="bibr">10</ref> Emilio Ridruejoren arabera <ref type="formula">(2002)</ref>, Espainian Schleicherren lana lehen aldiz aipatu zen Monlau-ren hiztegi etimologikoaren bibliografian (Monlau 1856: 508).</p><p>Horiek horrela, Aizkibelen eskuizkribua lehenbiziko aipamen haren garaikidea izango genuke; haatik, hurrengo lerroetan erakutsiko dudanez, Aizkibelek Schleicherren lanaz egiten duen baliatzea aipamen soiletik askoz haratago doa.</p><p>Aizkibelek Schleicherren liburua aipatzen du eta eskuizkribuan haren ideiak erruz erabiltzen ditu, zenbaitetan Schleicherren liburuko pasarteak hitzez hitz, edo ia hitzez hitz, itzuliz eta egokituz ere. Lehenik eta behin, Aizkibelek hizkuntzalaritza eta filologia terminoen arteko bereizketa Schleicherren liburuaren hasieran bezalatsu azaltzen du:</p><p>No hay que confundir la lingüística con la filología; ésta estudia la lengua para llegar al conocimiento de la esencia intelectual de las nacionalidades, y pertenece a la historia; mientras que aquélla no se ocupa de la historia de las naciones, sino que es una parte de la fisiología del hombre; pues trabaja en la esfera de las leyes naturales inalterables, enteramente fuera del dominio de la voluntad del hombre, y por esto sus fuentes son tan limpias y puras como las de las demás ciencias naturales. <ref type="bibr">(Aizkibel 1856a: 1)</ref> Ce n'est que depuis peu de temps que la science qui a pour objet la Langue en général, s'est séparée en deux branches distinctes. L'une, qui s'appelle la philologie, étudie la langue pour arriver par là à la connaissance de l'essence intellectuelle des nationalités; la philologie appartient à l'histoire. L'autre s'appelle la linguistique; elle ne s'occupe point de la vie historique des nations: elle est une partie de la physiologie de l'homme.</p><p>[…] La linguistique travaille dans la sphère des lois naturelles inaltérables, en dehors du domaine des volontés humaines.</p><p>Les sources où la linguistique puise sont aussi limpides, aussi pures que celles des autres sciences naturelles. <ref type="bibr">(Schleicher 1850</ref><ref type="bibr">(Schleicher [1852</ref> Schleicherren modura <ref type="bibr">(1850 [1852: 9-14]</ref>), Aizkibelek munduko hizkuntzak monosilabikoetan, eransleetan eta flexiboetan sailkatzen ditu, eta honi gehitzen dio Schleicherrek irudikatu zuen hizkuntzen mailaz mailako eboluzioa; hots, hizkuntza guztiek aipatu hiru egoeretatik igaro behar izatea. 11 Aizkibelen testuan ez da falta hizkuntzen bilakaeraren eta naturaren hiru erreinu klasikoen arteko erkaketa:</p><p>Por el mismo orden de la naturaleza, observado y estudiado por muchos siglos, la lingüística ha dividido en tres clases todas las lenguas del Universo, a saber, monosilabismoaglomeración o aglutinación -y flexión, en analogía con las tres clases de organismos naturales, que sonmineralesvegetalesanimales, porque sin los primeros no puede haber los segundos, ni sin éstos los terceros. <ref type="bibr">(</ref> 11 Schleicherren hiru egoeren teoriari buruz, ik., adibidez, <ref type="bibr" target="#b39">Desmet (1996</ref><ref type="bibr">) eta Maher (1983</ref>. Orobat, Schleicherren lanak euskalaritzan izandako eraginaz, ik. <ref type="bibr" target="#b44">Gómez (1989</ref><ref type="bibr">) eta Oyharçabal (2007</ref>. les trois classes des langues (monosyllabisme,agglomération ou agglutination, flexion) ont leur analogie dans les trois classes des organismes naturels <ref type="bibr">(minéraux,végétaux,animaux)</ref>. <ref type="bibr">(Schleicher 1850</ref><ref type="bibr">(Schleicher [1852</ref> Orobat, Aizkibelek aipatzen ditu naturako gauza guztietan -hala naturaren hiru erreinuetan, nola nazio eta hizkuntzetan-aurkituko liratekeen jaiotze, hazkunde, gainbehera eta heriotza aro edo garaiak:</p><p>Todas las cosas naturales tienen su origen o nacimiento, su crecimiento, su decadencia o vejez y su muerte, tanto los minerales, como los vejetales y animales, las naciones y sus lenguas; en fin, todo. En el curso de tantos miles de años se ven levantarse por grados los idiomas desde el estado monosilábico al de aglutinación para después descender aún al estado de flexión. La experiencia demuestra que en los tiempos históricos declinan las lenguas, y que no podemos ver jamás el nacimiento de una lengua nueva; cuando apercibimos, a los primeros rayos de la historia, la lengua tan ricamente desarrollada, inferimos con razón que su formación tuvo lugar antes de la historia. (Aiz ki bel 1856a: 10) Nolanahi ere den, Aizkibelek oso helburu zehatz batekin erabiltzen du Schleicherren eredua. Izan ere, erakutsi nahi du euskarak hizkuntzen aurrerapenari dagozkion hiru egoerak igaro dituela, hizkuntza flexibo gisako goren maila bizi izan duela eta oso aspaldidanik gainbehera aroan aurkitzen dela: "La Euskera ha pasado en muchos siglos por estas tres clases, que forman otras tantas épocas muy remotas, y hace más de veinte siglos que se la conoce en estado de decadencia" <ref type="bibr">(Aizkibel 1856a: 1)</ref>. <ref type="bibr">12</ref> Hogei mende baino gehiago direla zehazten du Aizkibelek, haren ustez euskararen gainbeheraren hasiera erromatarren inbasioa baino askoz lehenago gertatu zelako:</p><p>Esta destrucción, o sea esta decadencia de la lengua, es muy antigua, y evidentemente empezó largo tiempo antes de la entrada de los Cartagineses y Romanos, como demuestran ya a los observadores las trazas de una alteración profunda. <ref type="bibr">(Aizkibel 1856a: 11) 13</ref> Aizkibelek adierazten du zein diren, haren iritziz, euskarak, hiru aurrerabide egoerak eta goren maila igaro ondoren, bakoitzetik gorde dituen ezaugarri gramatikalak. Hartara, egoera monosilabikoari erro monosilabikoak eta denbora, pertsona eta modurik gabeko aditza ("sin juego ninguno, o sea sin conjugación, sólo con el infinitivo como los chinos", Aizkibel 1856a: 1) legozkioke. Geroago, eransketa egoeran, orainaldia, iraganaldia eta geroaldia adierazteko aditz-bukaerak agertu ziren, baita argumentu ergatibo, absolutibo eta datiboekiko pertsona-komunztadura adierazten duten 12 Irudi luke Aizkibelek ez duela beti «gainbehera» adigaia era koherente batean erabiltzen; gehienetan Schleicherren moduan ulertzen du, baina inoiz helburu apologetikoa ezin saihestu eta nolabaiteko kontraesan bat sortzen zaio: «este idioma verdaderamente enigmático, como le llama A. Schleicher, se ha conservado en los fragosos bosques del Pireneo [...] porque su construcción gramatical, diferente enteramente de las demás lenguas que le rodean, es la más propia para preservarla de la corrupción y de la decadencia» (1856a: 2). <ref type="bibr">13</ref> Erka bedi grekoari buruzko <ref type="bibr">Schleicherren (1850</ref><ref type="bibr">Schleicherren ( [1852</ref>) beste pasarte honekin: «Cette destruction est quelquefois très-vieille; chez les Grecs, elle a évidemment commencé longtemps avant notre ère; le grec qu'on appelle ancien ou classique en le distinguant du grec moderne d'aujourd'hui, montre déjà aux observateurs les traces d'une altération profonde». hizkiak ere ("las relaciones de agente, paciente, de persona a quien se dirije la palabra", Aizkibel 1856a: 1). Aditz-hizkien kopurua gero eta handiagoa izan zen, harik eta flexio egoerara iritsi arte: y así puede desafiar a la lengua más rica y más culta de las que se conocen, porque reúne una riqueza immensa de elementos primordiales a la construcción más sencilla y económica que se pueda inventar. <ref type="bibr">(Aizkibel 1856a: 2)</ref> Bere goren gradura iritsita, euskal deklinabidea aurkituko genuke eta horren barruan hiru numeroak (singularra, plurala eta mugagabea) eta hogeita zazpi kasuak, "todos diferentes y cada uno con su destino natural y propio sin poder confundirse con ningún otro" <ref type="bibr">(Aizkibel 1856a: 2)</ref>. Ez dago argi zein diren Aizkibelek aipatzen dituen hogeita zazpi kasuak. Izan ere, ordu arte argitaratu ziren eta Aizkibelek ezagut zitzakeen euskal gramatiketan hiru joera nagusi daude euskararen kasu-sistemaren berri emateko <ref type="bibr">(cf. Oyharçabal 1998: 442)</ref>: alde batetik, sei kasuko eredu latindarra gordetzen duten autoreak ditugu (nahiz eta inoiz kasuen deiturak aldatu zituzten); bestetik, irizpide sintaktiko bati jarraitzen diotenak, kasu gramatikalak eta kasu adberbialak bereiziz; azkenik, irizpide formal batean oinarritzen direnak, hizki bakoitza kasu bati egokituz. 14 Hala eta guztiz ere, azken joera honetako gramatiketan zerrenda luzeenek ez dute hogei kasu baino gehiago.</p><p>Euskararen goren mailak aditz analitiko bat ere ezagutu zuen, denbora eta pertsona-komunztadura bereizkuntza ugariko laguntzaile sistema bat zuen aditza alegia (Aizkibel 1856a: 2). Jakina, Aizkibelek euskararen bilakaerari buruz azaltzen duen hau guztia zeharo ongi ulertzeko kontuan hartu behar da haren testuan ez dela falta xede apologetikoa, euskararen perfekzioa ere frogatu nahi baitu.</p><p>Azkenik, gainbehera garaia euskalkien zatiketaren aurretik hasi zen, <ref type="bibr">Schleicherrek (1850</ref><ref type="bibr">Schleicherrek ( [1852</ref>) grekoaren kasuan proposatzen duen bezalaxe (ik. 13. oh.). Paralelismoarekin jarraituz, Aizkibelek uste du euskalki batzuk kontserbatzaileagoak direla eta beste batzuk, ordea, berritzaileagoak:</p><p>Así como cuando el idioma primitivo de los Griegos empezaba a separarse o dividirse en sí mismo, y a producir grupos más o menos lejanos del tipo primitivo que se llamaron dialectos, los Dorios, y sobre todo los Eolios, guardaron muchas formas primitivas, y los dialectos Jonio y Ático se alejaron; así también en la Euskera han conservado los Bizcaínos más puros los tipos primitivos que los Guipuzcoanos y Labortanos, que se han alejado mucho de ellos. <ref type="bibr">(Aizkibel 1856a: 11)</ref> A cette époque [des Pélasgues], les Grecs étaient déjà possesseurs d'un idiome séparé des autres idiomes indo-germaniques, mais ce n'est que bien plus tard que cet idiome primitif commençait à séparer en lui-même et à produire des groupes plus ou moins éloignés du type primitif. Ces groupes sont des dialectes, nous les connaissons. Les dialectes des Doriens et surtout des Éoliens gardent beaucoup de formes primitives; les dialectes ionique et attique s'en éloignent. <ref type="bibr">(Schleicher 1850</ref><ref type="bibr">(Schleicher [1852</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Euskara hizkuntza monosilabikoa</head><p>Schleicherrek (1850) euskara hizkuntza eransleen artean sailkatu zuen. Hala ere, aurreko atalean adierazi dudanez, Aizkibelek ohartarazten du euskarak oraindik bere lehenaldi monosilabikoaren aztarna ukaezinak gorde dituela: 15 La tendencia de esta lengua al monosilabismo se conoce con toda claridad no solo en las características de las personas y tiempos de la conjugación, en que una sola letra o una sola sílaba representa toda una palabra significativa, sino tambien en la composición de las palabras, en donde se elide para mayor brevedad la mayor parte de la palabra, dejando una monosílaba suya representando la parte que la toca en la palabra últimamente compuesta. <ref type="bibr">(Aizkibel 1856a: 3) 16</ref> Alderdi formalari dagokionez, Aizkibelek euskararen erroak sailkatzen ditu, silaba bakarrekoak, bi silabakoak eta hiru silabakoak bereiziz. Jatorrizko erro monosilaboak agortu ondoren, euskarak bi silabako erroetara jo zuen hitz berriak eratzeko; aldiz, hiru silabako erroak, haien egituragatik beragatik, ezin dira inoiz jatorrizkoak izan, Aizkibelen iritziz:</p><p>Hemos dicho que la Euskera es monosilábica en sus primitivas palabras que ahora llamamos raíces o radicales; porque forman la base de las palabras compuestas y de los derivados. Apuradas del todo las combinaciones monosilábicas, acudieron a las disilábicas; pero no las agotaron, sin duda por no confundir tal vez con las palabras compuestas de dos monosílabas. En lo que parece no hay duda es que no se encuentra ninguna radical trisilábica: en el mero hecho de contar con tres sílabas infunde sospecha de extrangera; aun muchas que se creían radicales disílabas no son sino palabras compuestas de dos monosílabas. V.g. men-di (monte), iz-ar (estrella), etc. (Aizkibel 1856a: 3) Esan gabe doa, honek guztiak aise ekartzen dizkigu gogora aitzineuskararen berreraiketan egindako azken aurrerapenak, oinarri teoriko eta iturri oso desberdinetatik abiatu arren, hauek ere antzinako erro monosilaboa proposatzen dutelako (zehazkiago, CVC egiturako erroa). Halako ikerketa ildoa kausitzen dugu azken hamabost urteotako hainbat lanetan Joseba Lakarrak aurkeztu eta garatu duen aitzineuskara zaharraren erro monosilabikoaren teorian (ik., adibidez, <ref type="bibr">Lakarra 1995</ref><ref type="bibr">Lakarra , 2004</ref><ref type="bibr">Lakarra , 2005</ref><ref type="bibr">Lakarra , 2006</ref><ref type="bibr">Lakarra , 2008</ref><ref type="bibr">Lakarra , 2009a</ref>. Lakarraren analisien arabera ere, erro monosilaboetatik, denborarekin eta eratorpena, elkarketa edo erreduplikazioa bezalako baliabideen bitartez, hitz luzeagoak zein kategoria berriak sortuko ziren.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Euskararen antzinatasuna eta aberastasuna</head><p>Aizkibelek maiz erkatzen du euskara beste zenbait hizkuntzarekin, haren aberastasun handiak eta antzinatasuna erakutsi nahian: hala, hebreera, kaldeoa, siriakoa, egiptoera, latina, grekoa eta finesa aipatzen dira eskuizkribuaren orrialdeetan zehar. Esate baterako, garai hartan ohikoa zen egiptoerari buruzko lilura erabiltzen du euskara are hizkuntza zaharragoa dela azpimarratzeko:</p><p>Estos principios generales están agotados en la naturaleza de la lengua Euskera mucho más aún que en la Egipcia, que se tiene por una de las más antiguas, y cuyos monumentos lo justifican. Ellos dan una idea clara y precisa de la marcha que se ha seguido en la combinación de los elementos que la componen. El sentido de una palabra radical monosilábica empleada según estos principios, y modificada en sus expresiones cuanto permite la idea de que es signo, puede sufrir cincuenta y ocho modificaciones o transformaciones, que espresan otras tantas modificaciones regulares de esta idea-raíz. La lengua Egipcia, una de las más ricas en este género, sólo puede sufrir, según Mr. Champolion, cuarenta y dos transformaciones. <ref type="bibr">(Aizkibel 1856a: 4)</ref> Oroit bedi hieroglifikoak urte batzuk lehenago deszifratu zituela <ref type="bibr">Champollionek (1824)</ref>. Nolanahi ere den, goiko pasartean Aizkibelek aipatzen duen Champollion hori ez da hieroglifikoen deszifratzailea -Jean-François Champollion (1790-1832)-, baizik eta haren anaia nagusi Jacques-Joseph <ref type="bibr">Champollion-Figeac (1778</ref><ref type="bibr">-1867</ref>. Erka bedi aurreko pasartea Champollion-Figeacen hurrengo honekin, Schleicherren kasuan bezala Aizkibelek ia hitzez hitz itzultzen baitu:</p><p>Ces principes généraux sont puisés dans la nature même de la langue égyptienne. Ils donnent une idée claire et précise de la marche qu'on a suivie dans la combinaison des éléments qui la composent.</p><p>Le sens d'un mot-racine monosyllabique employé d'après ces principes, et modifié dans ses expressions autant que le permet l'idée dont il est le signe, peut subir quarante-deux transformations exprimant autant de modifications régulières de cette idéeracine. <ref type="bibr">(Champollion-Figeac 1840: 215)</ref> Aizkibelek Champollion-Figeacen testuari erakusten dion atxikimendua ez da hor amaitzen; halako gehiago aurkitu ditzakegu Euskera eskuizkribuaren beste zenbait pasartetan. Adibidez, jatorrizko erroetatik eta erro sekundarioetatik erdiets daitezkeen eratorpen eta elkarketa motak aurkezten dituelarik (Aizkibel 1856a: 3-5), Aizkibelek horretarako azaltzen duen sistema ez da batere ulerterraza suertatzen, ia hitzez hitz <ref type="bibr">Champollion-Figeacen lanetik (1840: 214-215)</ref> hartu baitu, euskararen ezaugarriei egokitzeko ahalegin handirik egin gabe. Bi testuen hasierak bakarrik hona aldatzea aski da haien arteko antzekotasun handiaz ohartarazteko:</p><p>De estas palabras primitivas o raíces primarias se forman, ya por derivación o ya por composición, una infinidad de palabras empleadas para presentar, bajo diferentes aspectos que las modifican, la idea de la que es primitiva, por convención, el signo representativo. <ref type="bibr">(Aizkibel 1856a: 3)</ref> De ces mots primitifs ou racines se forment, par dérivation ou par composition, une foule de mots employés pour présenter, sous divers aspects qui les modifient, l'idée dont le primitif est, par convention, le signe représentatif. <ref type="bibr">(Champollion-Figeac 1840: 214)</ref> Une batez Aizkibel Champollion-Figeacen testutik urruntzen da euskararen inflexioak erakusten duen aberastasuna xeheki azaltzeko. Horretarako, aditz-denbora, modu, pertsona eta abarren artean litezkeen konbinaketa guztiak kalkulatzen ditu, adizki kopuru ikaragarrietara iritsiz:</p><p>En este caso son infinitas las combinaciones de la Euskera; pues en el modo indicativo del verbo activo tiene setecientas sesenta y tres mil trescientas cuarenta y cuatro inflexiones en los cuatro dialectos, nueve tiempos, veinte y tres relaciones, doce formas de oración y ochenta y un casos de declinación para los relativos. <ref type="bibr">(Aizkibel 1856a: 4-5) 17</ref> Beste alde batetik, jakina denez, Astarloak proposatu zuen euskaran -hots, gizakien lehenengo hizkuntzan-letra bakoitzak berezko esanahia zuela (cf. <ref type="bibr">Gómez 1999</ref><ref type="bibr">Gómez , 2004</ref>. Aizkibelek kritikatzen du teoria hori, baina aitortzen du letra askok badutela esanahi bat, inflexio-hizki moduan erabilitako hitzen laburtzeak direnez gero: pero realmente las letras en composición, y particularmente en la conjugación del verbo, tienen la representación de las palabras, elididas para la más fácil pronunciación y aglutinación, cuando ya la complicación se aumentaba en la multitud de radicales componentes de la palabra o de la inflexión. <ref type="bibr">(Aizkibel 1856a: 6)</ref> Eta adibide gisa, besteak beste, g-komunztadura-aurrizkia ematen du: "al principio de un verbo es representación de gu (nosotros), primera persona del plural" (Aizkibel 1856a: 6).</p><p>Euskararen aberastasun eta antzinatasunaren beste froga bat erro bakar batetik lor daitekeen eratorri kopuru handia litzateke. Esate baterako, Aizkibelek adierazten du am-'madre' errotik eratorriko liratekeen laurehun hitzetik gora daudela. 18 Haren iritziz, halako aberastasun batek aise erakutsiko luke euskara, bere goren mailan zegoen garaian, kultur hizkuntza zela eta herri oso zibilizatu eta boteretsu batek hitz egiten zuela (Aizkibel 1856a: 7). Bestalde, jatorrizko erroak gordetzean eta garatzean euskarak erakutsi duen iraunkortasunak ohartaraziko liguke gainerako hizkuntzek berari mailegatu zizkiotela erro horiek, eta ez alderantziz. Ildo horretan, eta am-erroan oinarri tzen den argudioarekin jarraituz, honako hau dio:</p><p>Siendo una radical onomatopeya, es muy fácil la hayan adoptado diferentes Naciones para sus respectivas lenguas; pero también puede ser muy bien prestada por la más antigua a las más modernas [...] ¿Podrán presentar las lenguas Hebrea, Caldea y Siríaca una descendencia tan numerosa y legítima como la Euskera de esta raíz am que se disputa? <ref type="bibr">(Aizkibel 1856a: 6-7)</ref> Euskara oso antzinakoa denez, pentsatzen du grekoak eta latinak hitz batzuk hartu ahal izan zizkiotela maileguan. Pentsamolde hau euskararen apologien tradi-17 Halako kopuru harrapagaitzak <ref type="bibr" target="#b31">Astarloa (1803</ref><ref type="bibr">Astarloa ( , 1883</ref> bezalako euskal apologisten oso gustuko ziren. Zernahi gisaz, badirudi Aizkibeli ez zaizkiola kontuak ondo ateratzen: 4 (euskalki) × 9 (denbora) × 23 (erlazio) × 12 (perpaus-forma) × 81 (deklinabide-kasu) = 804.816; nola iritsi da, orduan, testuan agertzen den 763.344 inflexio kopurura? Beste alde batetik, deklinabideko 81 kasuak lortu bide zituen 27 kasuak bider 3 numeroak eragiketatik. <ref type="bibr">18</ref> Aipatzen dituen adibideetariko asko, Garatek (1968: 124) susmatu zuenez, Larramendiren hiztegitik (1745) hartuta daude: am-ar-asi 'enamorar' (Lar. amaraci), amarena 'materno', amaraztea 'enamoramiento' (Aizkibelen gaztelaniazko itzulpenak ematen ditut). zioarekin lotzen da eta modurik landuena Larramendiren hiztegian (1745) ezagutu zuen:</p><p>He adquirido la convicción íntima de que muchas palabras que creía yo al parecer con toda seguridad que eran latinas, al hacer el estudio analítico, he visto que son compuestas enteramente de radicales de la Euskera <ref type="bibr">(Aizkibel 1856a: 14)</ref> Aizkibel guztiz ziur dago euskararen antzinatasun handiaz; ez du erabat sinesten, ordea, euskal apologista batzuek aldeztu zuten (cf. <ref type="bibr" target="#b77">Tovar 1980)</ref> eta Humboldtek (1821) 19 berritu zuen ideian, alegia, euskara Iberiar Penintsulako jatorrizko hizkuntza izan zela eta Antzinatean penintsula osoan hedatuta zegoela. Izan ere, Aizkibelek ulertzen du Humboldten iritziz euskara penintsulan bertan sortu zen hizkuntza dela (aborígene), eta horren ordez pentsatzen du euskaldunak noizbait -oso antzina, noski-Espainiara heldu zirela (advenediza), tubalismoaren usteetara hurbilduz: y aun el Sr. de Humbold la hace aborígene de España; pero yo no participo de la misma opinión, porque la lengua misma y sus significados me dicen que es advenediza en España, y este nombre puesto por ellos me confirma aún más. <ref type="bibr">(Aizkibel 1856a: 7-8) 20</ref> Azken hitzak, ziurrenik, Astarloak (1803) España hitzari eman zion etimologiari dagozkio -Humboldtek ere (1821 [1879: 73]) aipatu zuen-, nahiz eta Astarloaren iritziz etimologia horrek guztiz kontrakoa frogatuko lukeen:</p><p>De esta verdad toda natural se infiere que no hay derecho para buscar la etimología de la voz España fuera de nuestra península. En Bascuence esta voz, sin quitar ni poner letra alguna, significa el labio ó extremidad: la analogía es bellísima: la España es labio ó extremidad del mundo antiguo: esta creencia de los antiguos dió origen al Non plus ultra de las Columnas Hercúleas en el estrecho de Gibraltar. <ref type="bibr">(Astarloa 1803: 195)</ref> Ondoren, Aizkibelek euskararen aurreneko hitzak sortzeko prozedurak aurkezten ditu; lehenik imitazioz (onomatopeiak), geroago "antzekotasunen" eta "asimilazioen" bitartez. Eskuizkribuaren zati horretan orpoz orpo jarraitzen dio berriro ere Champollion-Figeacen (1840) liburuari; beraz, bi testuen hasierak baizik ez ditut hona aldatuko: <ref type="bibr">19</ref> Aizkibelek Humboldt-en lan hau irakurri zuen J. M. Arguinzoniz-en 1835eko itzulpen eskuizkribatu baten bitartez, egun Koldo Mitxelena Kulturuneko Urkixo fondoan gordetzen dena <ref type="bibr">(Humboldt 1835)</ref>. Urkixok Arguinzoniz-en eskuizkribua aipatzen du -eta haren azala kopiatzen du-Garatek prestatu zuen Humboldt-en zuzenketen eta eransketen itzulpenaren sarreran <ref type="bibr">(Urquijo 1933: 449, 452)</ref>. <ref type="bibr">20</ref> Aizkibelek xehekiago azaltzen du bere ikuspuntua Garaibairen errefrauen edizioaren hitzaurrean (Aizkibel 1854: 651): «Mr. Guilllermo Humbold hace ver con sus inumerables citas de geógrafos é historiadores antiguos que los Iberos eran anteriores á los Celtas en España: que la lengua de los Iberos es la misma que hoy en dia se habla en las provincias Vascongadas, y que estos eran los aborígenes de la España. Sobre esto de aborígenes ó autochtones tengo mi opinion particular, que está en armonia con la naturaleza y con las obras de ella, que han sido siempre polióicas y no monóicas. Lo que creo firmemente es que los Euskaldunes vinieron á Europa, y la bautizaron con este nombre por el gran sequio que hubo en Asia; Euri-opa (deseo de lluvia) y en ninguna lengua se encuentra su etimologia mas que en el Vascuence. Pusieron los nombres de Sik-ulia (poblacion de los Sécanos) á Sicilia; Lig-uria (ciudad de la sequedad), Etr-uria (ciudad de los hermosos); España (borde, litoral, esquina, labio); pero donde se encuentran aun con mas abundancia los nombres vascongados sin salir de las reglas etimológicas es en el Asia».</p><p>No nos podemos dispensar de presentar aquí algunos rasgos sobresalientes de la Euskera, muy propios para probar la originalidad de este idioma <ref type="bibr">[...]</ref>. Encierra, en primer lugar, un gran número de palabras formadas por onomatopeyas. Como todas las lenguas que son primitivas, la Euskera procede por imitación, adhiriendo un sonido más bien que otro a la expresión de una idea dada, como si este sonido fuese imitativo de la idea misma; así es que el nombre de muchos animales no es más que la imitación aproximativa, según nuestro oído, del grito o canto del animal o pájaro. <ref type="bibr">(Aizkibel 1856a: 7-8)</ref> On doit faire remarquer aussi que la langue égyptienne renferme un grand nombre de mots formés par onomatopée.</p><p>Nous ne pouvons dispenser de présenter ici quelques traits saillants de la langue égyptienne; ils nous paraissent propres d'abord à prouver l'originalité de cet idiome <ref type="bibr">[...]</ref> Comme toutes celles qui sont primitives, la langue égyptienne procède par imitation, en attachant un son plutôt qu'un autre à l'expression d'une idée donnée, comme si ce son était imitatif de l'idée même. Ainsi, dans l'Égypte, le nom de la plupart des animaux n'est que l'imitation approximative, selon notre oreille, du cri propre à chaque animal. <ref type="bibr">(Champollion-Figeac 1840: 215-216)</ref> Euskararen antzinatasuna agerian uzten duten ezaugarri gramatikalen artean, Aizkibelek hogeita zazpi kasuko deklinabide bakarra izatea nabarmentzen du lehenik. Izan ere, deklinabide horri esker euskara latina edo grekoa bezalako hizkuntzen gainetik legoke, azken hauek ez baitute aski kasurik eta, ondorioz, preposizioez ere baliatu behar izan baitute; gainera, deklinabide asko dauzkate, horretarako inolako premiarik gabe (Aizkibel 1856a: 10). Singular eta pluralarekin batera numero mugagabea izatea euskararen beste abantaila bat litzateke, grekoak eta latinak ez baitute, baina ezta finesak ere, nahiz eta hizkuntza honek deklinabide bakarra izan (Aizkibel 1856a: 10).</p><p>Darrigolekin <ref type="formula">(1827)</ref> abiatzen den analisi ildo bati jarraituz, Aizkibelek deklinabidearen esparrua aditz morfologiara hedatzen du: "Esta sola declinación se apropia y arregla todos los nombres, pronombres, adjetivos y participios, todo lo que se llama en otras lenguas infinitivos de los verbos" (Aizkibel 1856a: 10). Darrigolen analisian euskal aditzaren forma jokatugabeak deklinabide atzizkiak har ditzaketen izenkiak lirateke, bere gogoetak "aditz bakarraren teoria" izenekoan kokatuz (cf. <ref type="bibr">Gómez 2002</ref><ref type="bibr">Gómez , 2007</ref>; azken puntu hau ez da hain begien bistakoa Aizkibeli dagokionez, azkoitiarraren ustez aditza perpausaren atal arrunt bat delako:</p><p>Los verbos auxiliares, tanto el activo como el pasivo, con nueve tiempos, veinte y tres relaciones con características especiales que representan cada relación, con doce formas de oraciones que con la mayor sencillez se componen de letras o sílabas afixas en cada inflexión de verbo, indican con claridad el muchísimo y esmeradísimo cultivo que tuvo esta lengua en el estado de su mayor apogeo <ref type="bibr">(Aizkibel 1856a: 2)</ref> Azter ditzagun astiroago goiko pasartean zerrendatzen diren aditz akzidenteak -tradiziozko terminologia erabiliz gero-, aurreko euskal gramatika-lanekin erkatuz: bederatzi aditz-denbora, hogeita hiru erlazio eta hamabi perpaus-forma. Hasteko, ez dakit zein diren Aizkibelek bereizten dituen bederatzi aditz-denborak, ezta iturriren batetik hartu dituen ere. Larramendik (1729: 58-66) berezko hiru denbora eta haien zazpi aldakuntza sailkatu zituen; Astarloak (1803: 151) bestelako kalkuluak egin zituen, sei aditz-denboratan oinarrituz; Darrigolek (1827: 115-118) ere sei denbora bereizi zituen, eta Lécluse-k (1826: 50 hh.) bi baino ez. Hogeita hiru erlazioei dagokienez, segurenik, Aizkibelek buruan ditu Larramendiren gramatikan zerrendatzen diren bi joko absolutuak (dut, ditut) eta hogeita bat joko erlatibo edo ira gankorrak (nor-nori-nork eta nor-nork paradigmei dagozkienak): "y assi son veinte y tres las Conjugaciones del verbo activo regular en la Euscara, ò Bascuenze" (Larramendi 1729: 57). Horiek horrela, Aizkibelek ahaztu ditu Larramendiren analisian euskal aditz neutroak joko absolutu bat (naiz) eta zazpi joko erlatibo (nor-nori paradigmari dagozkionak) dituela: "Es pues una la Conjugacion absoluta, y siete las transitivas, ò relativas de qualquiera verbo neutro" <ref type="bibr">(Larramendi 1729: 164</ref> Akzidente mota hori ez da gaurko euskal gramatiketan agertzen; hala ere, ez zen guztiz ezezaguna euskal gramatikagintza zaharrean. Adibide zerrenda laburragoak eman bazituzten ere, zenbait autorek bereizi zuten halako zerbait aditzaren aldakuntza gisa, hala nola Oihenartek, verbum compositum terminoa erabiliz <ref type="bibr">(1638 [1656: 62]</ref>), edo <ref type="bibr">Lécluse-k, modifications deiturapean (1826: 55, 60)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Azken oharrak</head><p>Sarrera honetan Jose Francisco Aizkibelek Euskera eskuizkribuan adierazi zituen hizkuntz ideiak azaldu nahi izan ditut. Ikusi dugunez, Aizkibel Espainian sartu berri ziren lan batzuk ezagutzen ditu, hala nola Schleicherrena (1850 [1852]), eta hizkuntzalaritza historikoko lan gehiagoz ere baliatzen da, <ref type="bibr">Champollion-Figeac (1840)</ref> kasu. Bietan, Aizkibelek bere iturrien erabilera zabala egiten du, pasarte aski luzeak hitzez hitz, edo ia hitzez hitz, itzultzera ere iritsiz; haietan aldatzen duen gauza bakarra adibideak dira, euskarari buruzkoekin ordezkatzen baititu inoiz. Jakina, aurreko orrialdeetan ez ditut azaleratu Aizkibelek Schleicherren eta Champollion-Figeacen lanen pasarteak itzultzen dituen adibide guztiak, beti ere iturria aipatu gabe. Horretarako, beherago dagoen Euskera eskuizkribuaren ediziora jo dezake irakurleak. Beste alde batetik, oso litekeena da Aizkibel identifikatu ezin izan dudan beste iturriren batez ere baliatzea. Zernahi gisaz, uste dut ekarri dudan era-kusgarria nahikoa dela ohar gaitezen Aizkibelek nola eta noraino erabili zituen bere iturriak.</p><p>Aitortu behar da, gainera, Aizkibelek nolabaiteko trebetasuna erakusten duela iturriak bere helburuen arabera hautatzean. Schleicherrez baliatzen da euskararen bilakabidearen ibilbide bat irudikatzeko eta, horrela, haren antzinatasun handia frogatuko lukeen abiapuntu bateraino atzera eramateko. Orobat, Champollion-Figeacen egiptoera zaharrari buruzko liburua erabiltzen du euskararen eratorpen eta elkarketaren eredu gisa eta, azkenik, grekoaren adibidea hartzen du euskararen dialekto banaketa -berriro ere Schleicherren bitartez-, hizkuntza edo dialekto komun baten beharra -Greziako koiné ezagunaren antzeraeta dialekto komunaren bidez helduko litzatekeen euskararen berpizkundea irudikatzeko <ref type="bibr">(Aizkibel 1856a: 11-14)</ref>.</p><p>Ez ditut xeheki aztertu Aizkibelek Euskera eskuizkribuan aintzat hartzen dituen beste gai batzuk -aipatu berri dudan hizkuntza komunaren auzia, kasu-, baina azken lerro hauetan saiatuko naiz jasotzen, laburki bada ere. Hala, kexu da euskal agintariek euskara baztertu dutelako eta oso gutxi estimatzen dutelako (Aizkibel 1856a: 2); adierazten du, halaber, euskararen jatorrizko osagaiak bilduko lituzkeen "gramatika orokor arrazoitu" baten premia <ref type="bibr">(Aizkibel 1856a: 15)</ref>, haren goren mailara hurbiltzeko ahaleginez, "sin hacer caso ninguno de los actuales dialectos, y atendiendo sólo a la verdadera y genuina restauración de la lengua" <ref type="bibr">(Aizkibel 1856a: 12)</ref>. Azken kontu honek pentsaraz liezaguke Aizkibelek ikuspegi garbizalea duela, hamarkada batzuk geroago Azkuek Euskal-Izkindean (1891) jorratuko zuen bidearen aitzindari, nolabait (cf. <ref type="bibr" target="#b53">Laka 1986)</ref>. Euskararen premiak asetzeko, Akademia bat sortzea proposatzen du Aizkibelek, euskaldunek osatua -"que hayan hecho estudios especiales sobre su lengua, o que hayan estudiado las lenguas orientales, o dedicádose a estudios lingüísticos"-, eta baita euskara aztertzen duten filologo eta hizkuntzalari atzerri tarrek ere <ref type="bibr">(Aizkibel 1856a: 12)</ref>. Horrela lortuko litzateke euskal literatura gehiago lantzea eta euskaldunek irakurtzeko zaletasun handiagoa izatea.</p><p>Gainbegiratu honekin ez dut agortu Euskera eskuizkribuan Aizkibelek lantzen, aipa tzen edo zirriborratzen dituen gai guztien azterketa eta espero dut hurrengo orrialdeetan prestatu dudan testu osoaren edizioak balio izatea euskalariek Aizkibelen mota askotako ideiei buruzko gogoeta interesgarriak egin ditzaten; izan ere, Satrustegiren edizioa (1977) ahaztuxe zegoelako, edota hura argitaratu zenetik euskalaritzak aurrera egin duelako, Aizkibelen testuaren garrantzia ez da, nik uste, behar bezala aintzat hartu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Edizio honen irizpideak</head><p>Hemengo hau Euskera eskuizkribuaren lehenengo edizioa ez delarik, testuari zenbait moldaketa egin dizkiot gaurko irakurlearen erosotasuna buruan izanik. Grafian eguneratze hauek egin ditut: (a) &lt;b&gt; eta &lt;v&gt; gaurko usadioaren arabera egokitu ditut, Basco, Bascongado, Bascuence, Bizcaino eta hauen eratorrietan izan ezik, Aizkibelen bere-berezko grafia izanik; (b) e eta i bokalen ondoko &lt;g&gt; eta &lt;j&gt; ere gaurkotu ditut (geraticos izan ezik, egun hiératicos bailitzateke); (c) &lt;y&gt; bokalikoa &lt;i&gt; aldatu dut <ref type="bibr">(Pyreneeo, Egypto, etymologias, reyno, ayre, etab.)</ref>, pertsona izenetan izan ezik (Chryso-bolo, Argyrofilo); (d) &lt;ph&gt; digrama &lt;f&gt; aldatu dut philologia eta phisiologia hitzetan eta Philelpho pertsona-izenean; gainerako agerraldietan -Aizkibelek aipatu grekozko hitzak eta Cophtos antroponimoa-&lt;ph&gt; utzi dut.</p><p>Hitzen banaketa gaurkotu dut, nahiz eta arlo horretan ere testuak ukitu gutxi behar izan duen. Orobat gaurkotu dut azentuazioa, baita &lt;u&gt; gaineko dieresia ezarri ere, beharrezkoa denean (verguenza, linguista). Letra larrien erabilera dagoen-dagoenean utzi dut, salbuespen bakar batekin: tierra (9).</p><p>Puntuazioa eguneratu dut testua ulertzeko lagungarria izan litekeen kasuetan. Bereziki, y eta o juntagailuen aurreko koma gehienak eta erlatibozko perpaus azaltzaileen aurreko koma guztiak kendu ditut; haatik, azken hauetan, zalantzazko kasuetan, koma uztea ebatzi dut. Laburdurak osatu ditut inolako abisurik gabe.</p><p>Aizkibelen eskuizkribuan azpimarratuta dauden hitzak edizio honetan letra etzanez eman ditut, ohi bezala. Halaber, Aizkibelek aipatutako hitz eta hizki guztiak ere letra etzanez eman ditut, gaurko usadioa izateaz gain, gehienak eskuizkribuan azpimarratuta agertzen direlako eta, hortaz, badirudielako gainerakoak azpimarratzea ahaztu zitzaiola.</p><p>Eskuizkribuko orrialde bakoitzaren hasiera "&lt; &gt;" parentesi angularren artean markatu dut, Aizkibelek zenbatu gabe utzi bazituen ere; aintzat har bedi hitz bat orrialde baten erdian amaitzen bada eta hurrengoan hasi, orrialdearen hasiera hitz horren ondoan ezarri dela. Paragrafoen banaketa gorde dut; baina, Aizkibelek iturriez egin zuen erabilera estua modu argi eta erosoan aurkeztu nahian, testu paraleloak bi zutabetan antolatu ditut, Aizkibelenaren eskuinean Schleicherren eta Champollion-Figeacen pasarteak letra-tamaina txikiagoan emanez. Oin-oharretan beste iturri batzuen berri eman dut, bai eta testua hobeto ulertzeko egoki iruditu zaizkidan bestelako azalpenak ere. Gainera, oin-oharretan A laburduraren bidez markatu ditut Album de Azara-ko inprimatuko aldaerak eta S laburduraren bitartez, ordea, Satrustegiren edizioarekiko (1977) aldaerak. Nolanahi ere den, oharretan ez ditut jaso grafiari, hitz banaketari, azentuei, puntuazioari, laburdurei eta, oro har, tipografiari dagozkien kontuak.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Testua</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>&lt;1&gt; Euskera</head><p>En las dos vertientes del Pireneo occidental existe una lengua, que sus naturales llaman Euskera (cuya traducción puede muy bien significar época del sol y también zona del sol), 21 tan antigua que se pierde en la oscuridad de los tiempos; pero que la lingüística, cuyos resultados son en general más seguros que los de las ciencias históricas, va descubriendo poco a poco sus arcanos en los gabinetes, donde ha sido cultivada por largo tiempo esta ciencia con celo y buen suceso, y se ha hecho con mucho esmero la aplicación de ella a los estudios particulares de la Euskera.</p><p>No hay que confundir la lingüística con la filología; ésta estudia la lengua para llegar al conocimiento de la esencia intelectual de las nacionalidades, y pertenece a la historia; mientras que aquélla no se ocupa de la historia de las naciones, sino que es una parte de la fisiología del hombre, pues trabaja en la esfera de las leyes naturales inalterables, enteramente fuera del dominio de la voluntad del hombre, y por esto sus fuentes son tan limpias y puras como las de las demás ciencias naturales. <ref type="bibr">22</ref> Ce n'est que depuis peu de temps que la science qui a pour objet la Langue en général, s'est séparée en deux branches distinctes. L'une, qui s'appelle la philologie, étudie la langue pour arriver par là à la connaissance de l'essence intellectuelle des nationalités; la philologie appartient à l'histoire. L'autre s'appelle la linguistique; elle ne s'occupe point de la vie historique des nations: elle est une partie de la physiologie de l'homme. <ref type="bibr">(Schleicher 1850</ref><ref type="bibr">(Schleicher [1852</ref>) La linguistique travaille dans la sphère des lois naturelles inaltérables, en dehors du domaine des volontés humaines. Les sources où la linguistique puise sont aussi limpides, aussi pures que celles des autres sciences naturelles. <ref type="bibr">(Schleicher 1850</ref><ref type="bibr">(Schleicher [1852</ref>) Por el mismo orden de la naturaleza, observado y estudiado por muchos siglos, la lingüística ha dividido en tres clases todas las lenguas 23 del Universo, a saber, monosilabismoaglomeración o aglutinación -y flexión, en analogía con las tres clases de organismos naturales, que sonmineralesvegetalesanimales, porque sin los primeros no puede haber los segundos, ni sin éstos los terceros. les trois classes des langues (monosyllabisme,agglomération ou agglutination,flexion) ont leur analogie dans les trois classes des organismes naturels (minéraux,végétaux,animaux). <ref type="bibr">(Schleicher 1850</ref><ref type="bibr">(Schleicher [1852</ref> La 22 Euskera 23 ha pasado en muchos siglos por estas tres clases, que forman otras tantas épocas muy remotas, y hace más de veinte siglos que se la conoce en estado de decadencia; pero conservando todavía en su locución las diferentes épocas y vicisitudes por donde ha pasado, 24 empezando por las radicales monosilábicas con que están apuradas ya todas las combinaciones primarias, continuando en el verbo 25 por la ausencia de tiempo, persona y de modo sin juego ninguno, o sea sin conjugación, sólo con el infinitivo como los chinos, y siguiendo paulatinamente la marcha del progreso en el verbo con la conjugación propia 26 con solos tres tiempos de presente, pasado y futuro, pasando del estado monosilábico al de aglutinación con las terminaciones del verbo 27 22 como las de las demás ciencias naturales] como las demás de las ciencias naturales A. 23 todas las lenguas] las lenguas A. <ref type="bibr">24</ref> Aizkibelek hurrengo lerroetan zehazten duen euskararen ibilbideak badu aitzindari bat Abbadiak proposatutako bilakaeran (1836: 25-26), xehetasunetan alde handitxoa badute ere; zernahi gisaz, Abbadiarena ez da Schleicherren lanean oinarritzen, Oyharçabalek ohartarazi zuen bezala <ref type="bibr">(1998: 448;</ref><ref type="bibr">cf. orobat Gómez 2007: 279-281</ref>  <ref type="bibr">Gómez (2007: 257)</ref>. <ref type="bibr">27</ref> Aditz-bukaera terminoa, oro har, adizki jokatuen hondarkiari deitzeko erabili ohi da; alabaina euskal gramatikagintza zaharrean, Larramendiz geroztik, jokabide perifrastikoetako laguntzaileei egokitu zitzaien: «Las terminaciones, afixos, ò finales de un verbo se llaman aquellas dicciones, que combinadas, y juntas con los modos del Infinitivo, componen la distincion de tiempos, y variedad de Conjugaciones. Estas terminaciones son unos verbos auxiliares, por el oficio, que tienen en la formacion de los tiempos: y sustantivos, por que aun por si solos, y sin ninguna composicion tienen su significado» <ref type="bibr">(Larramendi 1729: 56).</ref> que indican tiempo; más con las relaciones de agente, paciente, de persona 28 a quien se dirige la palabra, y con características que se van aumentando poco a poco hasta el &lt;2&gt; punto que no deja nada que desear cuando se encuentra en la epoca de flexion; y así puede desafiar a la lengua más rica y más culta 29 de las que se conocen, porque reúne una riqueza immensa de elementos primordiales a la construcción más sencilla y económica que se pueda 30 inventar. Se conoce igualmente su estado de apogeo en que las radicales sencillas en su origen, que tenían una significación propia, adquirieron después la figurada, la de similitud y otras en las diferentes combinaciones de palabras a que han estado sujetas. En la declinación marcó tres numeros -singular, plural e indefinido-con veinte y siete 31 casos en cada uno, 32 todos diferentes y cada uno 33 con su destino natural y propio sin poder confundirse con ningún otro, y así en este punto sobresale a las demás lenguas por la gran libertad que da al orador de poder colocar el verbo y los casos donde mejor le plazca para la armonía. Los verbos auxiliares, tanto el activo como el pasivo, con nueve tiempos, veinte y tres 34 relaciones con características especiales que representan cada relación, con doce formas de oraciones 35 que con la mayor sencillez se componen de letras o sílabas afixas en cada inflexión de verbo, indican con claridad el muchísimo y esmeradísimo cultivo que tuvo esta lengua en el estado de su mayor apogeo; así como los diferentes dialectos que tiene desde antes de la invasión de los Romanos, en el estado de división en que estaban los Iberos en muchas de las Provincias de España, son testimonio 36 irrecusable de su principio de decadencia 37 por aquellos tiempos; y este idioma verdaderamente enigmático, como le llama A. Schleicher, 38 se ha conservado en los fragosos bosques del Pireneo por el aislamiento de sus habitantes del roce 39 con las demás naciones por una parte, y por otra porque su construcción gramatical, diferente enteramente de las demás lenguas que le rodean, 40 es la más propia para preservarla de la corrupción y de la decadencia, como ha sucedido con la lengua Egipcia en África entre los Cophtos. 41 El abandono y el poco aprecio que hacen de su lengua los que dirigen los destinos del país Bascongado, sin una Biblioteca, sin una cátedra y (vergüenza da el decirlo) sin un diccionario Basco-Español, ni gramática medio regular, serán causa de que se estinga una lengua tan antigua, tan filosófica como &lt;3&gt; económica en su construcción, y tan rica en sus elementos, que puede servir de modelo para los que trabajan sobre una lengua universal. <ref type="bibr">28</ref>  Hemos dicho que la Euskera es monosilábica en sus primitivas palabras, que ahora llamamos raíces o radicales, porque forman la base de las palabras compuestas y de los derivados. 42 Apuradas del todo las combinaciones monosilábicas, acudieron a las disilábicas; pero no las agotaron, sin duda por no confundir tal vez con las palabras compuestas de dos monosílabas. En lo que parece no hay duda es que no se encuentra ninguna radical trisilábica: en el mero hecho de contar con tres sílabas infunde sospecha 43 de extranjera; aun muchas que se creían radicales disílabas no son sino palabras compuestas de dos monosílabas. V.g. men-di (monte), iz-ar (estrella), etc. La tendencia de esta lengua al monosilabismo se conoce con toda claridad, no solo en las características de las personas y tiempos de la conjugación, en que una sola letra o una sola sílaba representa toda una palabra significativa, sino tambien en la composición de las palabras, en donde se elide para mayor brevedad la mayor parte de la palabra, 44 dejando una monosílaba 45 suya representando la parte que la toca en la palabra últimamente compuesta. Así es que la radical ar 46 en composición tiene ocho significaciones diferentes, porque unas veces es raíz pura, y otras sólo es representante de otra palabra elidida, 47 como argui (luz), ari edo arari (carnero), etc. V.g. iz-ar (estrella) es elisión 48 de iz-argui (luz de mar), 49 ar-zaya (pastor) de ardi edo arari-zaya, esto es, que cuida de las ovejas o carneros, 50 etc. 51 52</p><p>De estas palabras primitivas o raíces primarias se forman, ya por derivación o ya por composición, una infinidad de palabras 52 empleadas para presentar, bajo diferentes aspectos que las modifican, la idea de la que es primitiva, por convención, el signo representativo. Los derivados nacen de la raíz primitiva o radical, según las reglas uniformes y constantes que tiene establecidas la lengua y que son fijas y limitadas; cada una de ellas lleva una modificación diferente a la idea que representa la radical, y cada raíz sufre un número mayor o menor de estas modificaciones, conforme se presta más o menos la idea de que es signo.</p><p>De ces mots primitifs ou racines se forment, par dérivation ou par composition, une foule de mots employés pour présenter, sous divers aspects qui les modifient, l'idée dont le primitif est, par convention, le signe représentatif.</p><p>[...] et chaque racine subit un nombre plus ou moins grand de ces modifications, selon que l'idée dont elle est le signe peut s'y prêter plus ou moins. <ref type="bibr">42</ref> los derivados] las derivadas A. <ref type="bibr">43</ref>  Las palabras formadas de la radical por derivación llegan a ser &lt;4&gt; primitivas ellas mismas, relativamente a otras a que dan origen 53 según los mismos principios; así, se les puede llamar raíces secundarias. La unión de dos o de muchas raíces primitivas o secundarias forma y da origen a las palabras compuestas.</p><p>Des mots formés de la racine par dérivation deviennent eux-mêmes primitifs, relativement à d'autres mots auxquels ils donnent naissance d'après les mêmes principes; on peut les appeler racines secondaires.</p><p>L'union de deux ou de plusieurs racines primitives ou secondaires forme les mots composés. <ref type="bibr">(Champollion-Figeac 1840: 214-215)</ref> V.g. 53 Az-koi-ti-a por Aiz-goi-ti-a. Iz-ar-aitz, Ola-men-di, Tarr-ag-on-a. 54 55 Las palabras compuestas se dividen en dos clases distintas: 1.ª Las que están formadas por la combinación de dos raíces primitivas o secundarias indiferentemente. 2.ª Las que resultan de la reunión de una radical cualquiera a un cierto número de otras raíces que entran constantemente en la formación de las palabras compuestas, modificando de un modo uniforme las ideas expresadas por las raíces con quienes se combina. Las palabras compuestas, de las dos clases, pueden ser consideradas como primitivas con relación a otras muchas palabras que derivan de ellas según los principios comunes a las raíces primitivas y secundarias. Se pueden considerar todas estas palabras compuestas como raíces compuestas. Los derivados de las raíces primitivas, secundarias y compuestas forman las palabras compuestas combinándose entre sí indiferentemente.</p><p>Les mots composés se partagent en deux classes distinctes: 1.º ceux qui sont formés par la combinaison de deux racines primitives ou secondaires indifféremment; 2.º ceux qui résultent de la réunion d'une racine quelconque à un certain nombre d'autres racines qui entrent constamment dans la formation des mots composés, en modifiant d'une manière uniforme les idées exprimées par les racines avec lesquelles on les combine.</p><p>Des mots composés, des deux classes, peuvent être considérés comme primitifs par rapport à plusieurs autres mots qui en dérivent, d'après les principes communs aux racines primitives et secondaires. On peut considérer tous ces mots comme des racines composées. <ref type="bibr">(Champollion-Figeac 1840: 215)</ref> Estos principios generales están agotados en la naturaleza de la lengua Euskera mucho más aún que en la Egipcia, que se tiene por una de las más antiguas, y cuyos monumentos lo justifican. Ellos dan una idea clara y precisa de la marcha que se ha seguido en la combinación de los elementos que la componen. El sentido de una palabra radical monosilábica empleada según estos principios, y modificada en sus expresiones cuanto permite la idea de que es signo, puede sufrir cincuenta y ocho modificaciones o transformaciones, 55 que espresan otras tantas modificaciones regulares de esta idearaíz. La lengua Egipcia, una de las más ricas en este género, sólo puede sufrir, según Mr. Champolion, cuarenta y dos transformaciones.</p><p>Ces principes généraux sont puisés dans la nature même de la langue égyptienne. Ils donnent une idée claire et précise de la marche qu'on a suivie dans la combinaison des éléments qui la composent.</p><p>Le sens d'un mot-racine monosyllabique employé d'après ces principes, et modifié dans ses expressions autant que le permet l'idée dont il est le signe, peut subir quarante-deux transformations exprimant autant de modifications régulières de cette idée-racine. <ref type="bibr">(Champollion-Figeac 1840: 215)</ref> 53 origen] gero a principio tatxatuta. 54 V.g. Az-koi-ti-a por Aiz-goi-ti-a. <ref type="bibr">Iz-ar-aitz, Ola-men-di, Tarr-ag-on-a.]</ref> V.gr. Azkoitia por Azgoiti-a.= Iz-ar aitz Ola-men-di. A [editorearen ezabatzea ote? <ref type="bibr">55</ref> Irudi luke 27 kasuak bider 2 numero (singularra eta plurala) eragiketari dagokiola, egiptoerazko 41 aldaketak 21 kasuak bider 2 numeroak (sing. eta pl.) eragiketari dagokion bezala; hala balitz, Aizkibelek euskarazko mugagabea ahaztu du oraingoan, ereduaren eraginez-edo.</p><p>El sentido de cada monosílaba o palabra primitiva está, en efecto, cambiado 56 por la adición de otras monosílabas, signos constantes de los géneros, de los números, de las personas, de los modos y de los tiempos.</p><p>Le sens de chaque monosyllabe ou mot primitif est en effet changé par l'addition d'autres monosyllabes, signes constants des genres, des nombres, des personnes, des modes et des temps. <ref type="bibr">(Champollion-Figeac 1840: 215)</ref> En 56 este caso son infinitas las combinaciones de la Euskera; pues en el modo indicativo del verbo activo tiene setecientas sesenta y tres mil trescientas cuarenta y cuatro inflexiones en los cuatro dialectos, nueve tiempos, veinte y tres relaciones, &lt;5&gt; doce formas de oración y ochenta y un casos de declinación para los relativos. 57 58 Son infinitas además las señales distintivas que hacen pasar sucesivamente 58 la radical al estado de nombre común, de nombre abstracto, de nombre de acción, de adjetivo privativo, de adjetivo intensitivo, de verbo activo, pasivo, etc.;</p><p>Ces marques distintives, qui font successivement passer le radical à l'état de nom commun, de nom abstrait, de nom d'action, d'adjectif privatif, d'adjectif intensif, de participe, de verbe actif, négatif et transitif <ref type="bibr">(Champollion-Figeac 1840: 215)</ref> Pero lo que admira en esta lengua es su modo sencillo y lógico de las diferentes formas de oración, que a primera vista parece que ha de introducir una gran confusión en la conjugación del verbo, siendo tantas sus relaciones. Cada inflexión de verbo, que es tan completa y exacta en conservar su radical y sus características de persona agente y paciente, de tiempo, de modo etc., añadiendo una partícula afixa forma una oración de relativo, de estando, condicional, causal, etc. Si las lenguas semíticas, particularmente la Hebrea, 62 fundan su primacía y antigüedad en que sus radicales, imitando a la naturaleza, que siempre empieza por lo más sencillo, lo más corto y lo más fácil, comúnmente no tienen más que tres letras (y éstas por precisión han de ser consonantes), mejor pueden fundarla los Euskeranos, que, empezando por las letras del silabario y concluyendo por todas las combinaciones posibles monosílabas y disílabas, están casi apuradas en radicales o palabras primitivas. V.g. ar (tomar), as (empezar), az (mantener), er (pueblo), es (domar), ez (encerrar) y al (poder), el (llegar), il (morir o matar), etc., etc. Las mismas letras del Alfabeto, &lt;6&gt; tanto las vocales como las consonantes, en la composición de las palabras, en la declinación del nombre 63 y en la conjugación del verbo representan otra palabra significativa de que forman parte. V.g. la a al fin del nombre es artículo postpositivo afixo que significa el, 64 y aun goza de otras funciones que tenemos explicadas latamente en nuestro Ensayo de un tratado de etimologías Bascongadas, 65 juntamente con todas las letras del alfabeto. La b inicial, como monograma, en el modo imperativo del verbo es característica de la tercera persona paciente, siendo agente otra 3ª persona. V.g. Bedi, Bitez. 66 La g (pronunciando como gamma griego) al principio de un verbo es representación de gu (nosotros), primera persona del plural, como G-era (somos nosotros), G-iñan (éramos nosotros), y de este modo se explican todas las letras del alfabeto. Esta idea, unida al fatal sistema de Court de Gébelin, debió sin duda ninguna influir en nuestro compatriota Astarloa para sus desconcertadísimas etimologías, suponiendo que cada letra por sí tenía un significado propio y aborígene; 67 pero realmente las letras en composición, y particularmente en la conjugación del verbo, tienen la representación de las palabras, elididas para la más fácil pronunciación y aglutinación, cuando ya la complicación se aumentaba en la multitud de radicales componentes de la palabra o de la inflexión.</p><p>Las raíces, o sílabas radicales, no forman siempre un sentido, ni por consiguiente una significación o palabra, en lo común de las lenguas; por ejemplo, am en latín, en castellano y en Italiano es la radical necesaria para los verbos amare y amar; pero en la Euskera esa misma raíz es significativa de madre, y con el artículo a postpositivo ama (la madre). De este modo, todas las raíces Euskeranas son otras tantas palabras significativas en su lengua y no son prestadas de ninguna otra; antes bien, siendo ella tan antiquísima, en el transcurso de tantos miles de años ha podido prestar muy bien a otras lenguas que se han formado posteriormente; por cuya razón es muy difícil juzgar a cuál de las lenguas primitivas pertenece esta radical, significando igualmente madre en Persa, en Caldeo y en Siríaco lo mismo que en la Euskera. Siendo una radical onomatopeya, es muy fácil la hayan adoptado diferentes Naciones para sus respec-62 la Hebrea] la hebrea y la árabe A. 63 del nombre] del pro nombre S. 64 la a al fin del nombre es artículo postpositivo afixo que significa el] la a al fin del nombre es artículo postpositivo; así es que significa el A. <ref type="bibr">65</ref> Badirudi lan galdua dela. Seguruenik, Tratado de las Etimologías izenekoari dagokio, Aizkibelek berak 1854ko ekainaren 18an Vedia Goosens-i idatzitako gutun batean aipatua <ref type="bibr">(Garate 1948: 23-25)</ref>: «El Tratado de las Etimologías forma un tomo en folio». Agirre Sorondok (1983: 248) ere aipatzen du lan galdu hau. <ref type="bibr">66</ref> Ohar bedi, hala ere, Aizkibelek aipatutako bi adibideetan ez dagoela egile argumenturik. 67 aborígene] ab origene A. tivas lenguas; pero también puede ser muy bien prestada por la más antigua a las más modernas; 68 pero en este caso la filología entra con su crítica y su historia a juzgar de la primacía en las lenguas que la disputan. Hay pues el medio de examinar cuál de éstas es más constante en conservar &lt;7&gt; su radical en sentido recto y figurado en todas las palabras compuestas. V.g. Am-a (la madre) y también (amar); 69 ama-bichia, madrina de bautizo; 70 ama bijoya, la bisabuela; 71 amabisaba, la bisabuela; 72 amagiarraba, la suegra; 73 amainua o amainudea, la nodriza o madre de leche; 74 amainudetu, hacerse nodriza; amaizate, maternidad; 75 amaizuna, madrastra; 76 amalaguna, madrina de boda; 77 amama, abuela o dos veces madre; 78 amañoa, nodriza o madre de leche; 79 am-ar, diez o los dedos de la madre, y todos sus derivados de diez hasta veinte conservan en ama la radical secundaria amar; am-ar-asi, 80 enamorar, con todos sus derivados, que son muchos; amarena, materno, 81 , 82 con todos los suyos; amaraztea, enamoramiento, 83 con los suyos; amarra, (sent. <ref type="figure">fig.)</ref> apego, adhesión, 84 con todos sus compuestos y derivados; amarrua, (sent. <ref type="figure">fig.)</ref>  rrua, (sent. irón.) rabia, odio, aborrecimiento; es decir, tomar horror al cariño. Puede que pase 88 de cuatrocientas, o acaso muchísimas más, las que se componen o derivan de la radical am en sus diferentes acepciones o sentidos. ¿Podrán presentar las lenguas Hebrea, Caldea y Siríaca una descendencia tan numerosa y legítima como la Euskera de esta raíz am que se disputa? Estas cuestiones hay que dejarlas por ahora a un lado; pero no hay que perder de vista que para llegar a esta perfección una lengua, en aquellos tiempos tan remotos adonde no alcanzan los recuerdos históricos, debió haber sido cultivada con mucho esmero por varios siglos en la mayor época de su apogeo y, por consiguiente, la Nación que la hablaba estaba muy civilizada y era muy poderosa; porque las lenguas siguen la misma marcha y curso que las naciones que las poseen, 89 igualmente que su literatura. Con este motivo, fijándonos por un momento en la época de flexión de esta lengua, tal cual la conocemos por los grandiosos fragmentos que aún se conservan en medio de sus ruinas, de su confusión y anarquía, y aun de su estado de corrupción actual, 90 no nos podemos dispensar de presentar aquí algunos rasgos sobresalientes de la Euskera, muy propios 90 para probar la originalidad de este idioma, Nous ne pouvons dispenser de présenter ici quelques traits saillants de la langue égyptienne; ils nous paraissent propres d'abord à prouver l'originalité de cet idiome <ref type="bibr">(Champollion-Figeac 1840: 215)</ref> verdaderamente enigmático que, según la opinión de un lingüista moderno, tiene el aire de ser la única lengua aborígene 91 o primitivamente nacida en la Europa, y aun el &lt;8&gt; Sr. de Humbold la hace aborígene 92 de España; pero yo no participo de la misma opinión, porque 93 la lengua misma y sus significados me dicen que es advenediza en España, y este nombre puesto por ellos me confirma aún más. <ref type="bibr">94</ref> Encierra, en primer lugar, un gran número de palabras formadas por onomatopeyas. Como todas las lenguas que son primitivas, la Euskera procede por imitación, adhiriendo un sonido más bien que otro a la expresión de una idea dada, como si este sonido fuese imitativo de la idea misma; así es que el nombre de muchos animales no es más que la imitación aproximativa, según nuestro oído, del grito o canto 94 del animal o pájaro.</p><p>On doit faire remarquer aussi que la langue égyptienne renferme un grand nombre de mots formés par onomatopée.</p><p>[...] Comme toutes celles qui sont primitives, la langue égyptienne procède par imitation, en attachant un son plutôt qu'un autre à l'expression d'une idée donnée, comme si ce son était imitatif de l'idée même. Ainsi, dans l'Égypte, le nom de la plupart des animaux n'est que l'imitation approximative, selon notre oreille, du cri propre à chaque animal. <ref type="bibr">(Champollion-Figeac 1840: 215-216)</ref> V.g. kirkir, el grillo; kuku, el cuco; chepech, un pajarito pechirubio; soso, el tordo, etc.</p><p>88 pase] pasen A. 89 las poseen] la poseen S. <ref type="bibr">90</ref>  Después sucedió lo mismo con los objetos inanimados o maneras de ser físicas que no fueron oralmente 95 representadas por los sonidos arbitrarios; aún había imitación en jo, golpear, en zart, reventar, 96</p><p>De même, des objets inanimés ou des manières d'être physiques ne furent pas oralement représentés par des sons arbitraires; il y avait encore imitation dans sensen, signifiant sonner, rendre un son; thophtheph, cracher; <ref type="bibr">(Champollion-Figeac 1840: 216)</ref> chimista, rayo o relámpago que pasa ligeramente sin casi sentir. 95 96 97 98 Pero estos medios de imitación debieron agotarse, o abandonar; 97 y se buscaron entonces las similitudes, para pasar en seguida a las asimilaciones sacadas todas del orden físico únicamente, cuando fue necesario espresar las ideas abstractas y los objetos intelectuales. He aquí los curiosos ejemplos que hemos citado arriba con la radical am, onomatopeyo 98 en su origen en boca de los niños, significando madre; representando amor y cariño de tal, como verdadero tipo; y radical de tantos derivados y palabras compuestas con la misma acepción modificada según la derivación o composición; otras veces indicando, en sentido figurado o en el irónico, 99 las significaciones que tiene.</p><p>Mais ces moyens d'imitation furent bientôt épuisés dans la langue égyptienne; on chercha alors des similitudes <ref type="bibr">[...]</ref>.</p><p>Enfin, on en vint aux assimilations, toutes tirées de l'ordre physique seul, quand il fallut exprimer les idées abstraites et les objets intellectuels. En voice de curieux exemples fournis par un seul mot, hèt, qui signifie coeur, et par suite esprit, intelligence, comprenant l'idée de la plupart des qualifications morales, et s'exprimant par les modifications grammaticales de ce mot radical hèt. <ref type="bibr">(Champollion-Figeac 1840: 216)</ref> La 99 Euskera es muy abundante y rica en este género de asimilaciones, comprendiendo la idea de la mayor parte de las cualificaciones morales y expresándose por las modificaciones gramaticales de cada palabra radical, como se puede ver con el mismo am.</p><p>En fin, una 100 porción de nombres y de verbos se forman de sola esta radical, y de varios casos de la declinación del nombre se forman verbos, así como de cada inflexión de verbo 101 se forman nombres, que después a su turno se declinan, y también las doce o más formas de oración, que juegan en el discurso con tanta precisión y elegancia que en este género es única la Euskera; porque conservando la inflexión entera abraza todas &lt;9&gt; las relaciones, marcando personas, números, tiempos y modos que no conocen los participios Griegos ni Latinos.</p><p>Todos estos datos y otros muchos que omitimos por no ser prolijos en este corto extracto (que dictamos al amanuense 102 en nuestra convalescencia 103 después de una terrible enfermedad que nos ha tenido al borde del sepulcro) revelan los verdaderos procedimientos de formación de la lengua Euskera, y al mismo tiempo su originalidad, que son hechos de un alto interés con respecto a nuestros 95 oralmente] moralmente A. <ref type="bibr">96</ref>  idiomas 104 modernos, que son de la última formación, semejantes en esto a las grandes rocas traídas por las aguas en el último cataclismo, después de las grandes revoluciones de la Tierra, y que están formadas de irregulares aglomeraciones de los restos dispersos de las rocas primitivas. La época de la mayor preponderancia o apogeo de esta lengua es anti-histórica, 105 es decir que no la alcanza la ciencia histórica de los hombres; pues cuando empieza ésta, se encuentra en estado de decadencia aquélla, formando dialectos diferentes en España y varios puntos de Italia. No se tiene aún idea cierta y segura de su alfabeto, y por consiguiente de su literatura, y ¿cómo se ha de encontrar ningún vestigio de estos dos elementos del saber humano, si, cuando la lengua Egipcia estaba aún en su infancia y los sabios se ocupaban en formar sus jeroglíficos y geráticos, ya estaba en decadencia la Euskera y su Nación? En ninguna historia de aquellos tiempos, ni en las 106 posteriores, se hace mención de este Pueblo tan civilizado y tan poderoso, como lo indican claramente los elementos de su formación monosilábica, recorriendo por miles de años las tres épocas ya indicadas de monosilabismo, de aglutinación y de flexión, y no se le ha conocido nunca más que en estado de decrepitud o de decadencia.</p><p>Así como en la historia natural del globo terres tre, la roca, la planta y el animal, que representan los reinos mineral, vegetal y animal, expresan a la vez tres momentos, como dice Schleicher, en la idea del organismo, tres divisiones en el sistema de los seres naturales y tres épocas en el desarrollo del Globo, dans l'histoire naturelle du globe terrestre, par exemple. Le Cristal, la Plante, l'Animal, ces trois apparitions de la Nature, expriment à la fois trois moments (momentum) dans l'Idée de l'Organisme, trois divisions dans le Système des Êtres naturels, et trois époques dans le Développement du Globe. <ref type="bibr">(Schleicher 1850</ref><ref type="bibr">(Schleicher [1852</ref> Así también los monumentos de formación, de crecimiento y de virilidad que encontramos entre las ruinas de esta lengua en los fragmentos y partes componentes de la antigua arquitectura filológica nos manifiestan sus diferentes eras o épocas, llamando seguramente para perpetua memoria Eusk-era (era o época del sol) a su lengua, como nacida bajo la &lt;10&gt; zona tórrida o del sol, y Erd-era (era de los advenedizos o del medio) a toda lengua extranjera. 107 Las lenguas, y particularmente la Euskera, dan a conocer también su desarrollo succesivo, que se puede llamar historia en el sentido más lato de esta palabra; puesto que la lengua pertenece a la esfera espiritual del hombre, porque ella posee una historia que no existe mas que en esta esfera.</p><p>Je me suis trompé, quand j'ai dit, Histoire comparée des Langues, page 2, etc., que la Langue appartient à la sphère spirituelle de l'homme, parce qu'elle possède une histoire, et qu'il n'y a d'histoire que dans cette sphère. Certes, la Langue aussi manifeste un développement successif, qu'on peut appeler histoire dans un sens plus large de ce mot; mais ce développement n'est point un signe caractéristique de la libre sphère spirituelle <ref type="bibr">(Schleicher 1850</ref><ref type="bibr">(Schleicher [1852</ref> Todas las cosas naturales tienen su origen o nacimiento, su crecimiento, su decadencia o vejez y su muerte, tanto los minerales, como los vegetales y animales, las nacio-104 nuestros idiomas] muchos idiomas S. 105 anti-histórica] anti-historico S [Schleicherren terminoa «anté-historique» da <ref type="bibr">(1850 [1852: passim]</ref> nes y sus lenguas; en fin, todo. En el curso de tantos miles de años se ven levantarse por grados los idiomas desde el estado monosilábico al de aglutinación para después descender 108 aún al estado de flexión. La experiencia demuestra que en los tiempos históricos declinan las lenguas, y que no podemos ver jamás el nacimiento de una lengua nueva; cuando 109 , 110 apercibimos, 111 a los primeros 112 rayos de la historia, la lengua tan ricamente desarrollada, inferimos con razón que su formación tuvo lugar antes de la historia.</p><p>La Euskera no tiene más que una sola declinación, como las lenguas Finesas o de Finlandia y Norte de Europa, y en esto tiene una immensa ventaja sobre los idiomas que hacen tanto aprecio de sus declinaciones, particularmente sobre el Griego y el Latín, que no tienen casos en suficiente número para evitar las preposiciones y para expresar sin éstas todas las relaciones; por consiguiente, tienen que recurrir a estos dos medios para obtener un solo objeto. Además tienen muchas declinaciones, y esto es multiplicar los seres sin necesidad contra todas las reglas de buena filosofía. <ref type="bibr" target="#b0">113</ref> Tampoco tienen 114 estas dos lenguas el numero indefinido que tiene en la nuestra 115 sus 27 casos, lo mismo que el singular y plural 116 tienen cada uno otros 27, aventajándose en esto a las lenguas Finesas, las más ricas en casos, pero que no pasan de quince. Cada caso expresa su relación sin que se confunda con ningún otro, ni haya necesidad del ausilio de ninguna preposición. Esta sola declinación se apropia y arregla todos los nombres, pronombres, adjetivos y participios, todo lo que se llama en otras lenguas infinitivos de los verbos. 117 <ref type="bibr">118 119 120</ref> Como se ve patentemente en varios casos de la declinación y en los 121 radicales de los verbos auxiliares según se habla hoy en día en las Provincias Bascongadas. Cada dialecto ha variado muchas de sus terminativas, de sus inflexiones de la declinación, y aun de radicales y características en el verbo. 122 Esta destrucción, o sea esta decadencia de la lengua, es muy antigua, y evidentemente 122 empezó largo tiempo antes de la entrada de los Cartagineses y Romanos, como demuestran ya a los observadores las trazas de una alteración profunda.</p><p>Cette destruction est quelquefois très-vieille; chez les Grecs, elle a évidemment commencé longtemps avant notre ère; le grec qu'on appelle ancien ou classique en le distinguant du grec moderne d'aujourd'hui, montre déjà aux observateurs les traces d'une altération profonde. <ref type="bibr">(Schleicher 1850</ref><ref type="bibr">(Schleicher [1852</ref> Estos vestigios no se ven ni se conocen a primera vista; es necesario un estudio muy sólido y constante en el análisis o examen detallado de los primitivos elementos que constituían la preciosa, elegante y económica arquitectura de esta lengua en su época de aglutinación. <ref type="bibr">123 124</ref> Así como cuando el idioma primitivo de los Griegos empezaba a separarse o dividirse en sí mismo, 123 y a producir grupos más o menos lejanos del tipo primitivo, que se llamaron dialectos, los Dorios, y sobre todo los Eolios, guardaron muchas formas primitivas, y los dialectos Jonio y Ático se alejaron; así también en la Euskera han conservado los Bizcaínos más puros los tipos primitivos que los Guipuzcoanos y Labortanos, 124 que se han alejado mucho de ellos.</p><p>A cette époque [des Pélasgues], les Grecs étaient déjà possesseurs d'un idiome séparé des autres idiomes indo-germaniques, mais ce n'est que bien plus tard que cet idiome primitif commençait à séparer en lui-même et à produire des groupes plus ou moins éloignés du type primitif. Ces groupes sont des dialectes, nous les connaissons. Les dialectes des Doriens et surtout des Éoliens gardent beaucoup de formes primitives; les dialectes ionique et attique s'en éloignent. <ref type="bibr">(Schleicher 1850</ref><ref type="bibr">(Schleicher [1852</ref> La diferencia dialéctica en el Bascuence es muy grande; acaso más que en los idiomas Semíticos del Hebreo y del Árabe. <ref type="bibr">125 126</ref> La época del dialectismo en Griego coincide con la de la literatura clásica, que se llama la época Helénica; más tarde, de todos los dialectos el de los Atenienses predominaba solo; pero habiendo llegado a ser propiedad universal de todos los Helenos que no eran Atenienses fue alterado poco a poco, y en este estado de alteración lenta 125 pero inevitable recibió el nombre de dialecto común. <ref type="bibr">126</ref> Cette époque du dialectisme en grec coïncide avec celle de la littérature classique; nous l'appelons l'époque hellénique. Plus tard, de tous les dialectes, celui des Athéniens prédominait seul. Mais ce dialecte attique, devenu la propriété universelle de tous les Hellènes, fut peu à peu altéré par des Hellènes qui n'étaient pas Athéniens; ce dialecte attique, en état d'altération lente mais inévitable, reçut le nom de dialecte commun, ἡ κοινή διάλεκτος. <ref type="bibr">(Schleicher 1850</ref><ref type="bibr">(Schleicher [1852</ref> Esto mismo quisiéramos que sucediera con nuestra Euskera, que poco a poco se formase un dialecto clásico o literario que comprendiesen igualmente los habitantes <ref type="bibr">121</ref>  de todo el país Bascongado indistintamente, como puede suceder &lt;12&gt; muy bien, si el Clero del país, en su predicación y publicación de devocionarios y de obras de instrucción Cristiana, usase 127 de un lenguaje puro y escogido, arreglando para ello una Gramática que reúna los elementos primitivos de esta lengua en su mayor pureza, sin hacer caso ninguno de los actuales dialectos, y atendiendo sólo a la verdadera y genuina restauración de la lengua, aproximando, 128 cuanto se pueda, al estado que tenía en la época de su mayor apogeo o de su mayor pureza. Para esto es indispensable la formación de una Academia compuesta de Bascongados que hayan hecho estudios especiales sobre su lengua, o que hayan estudiado las lenguas orientales, o dedicádose a estudios lingüísticos, admitiendo igualmente en su seno a todo filólogo o lingüista extranjero que se dedique al estudio de nuestra lengua. Las autoridades del País deben proteger y contribuir para la prosperidad y buen éxito de los trabajos de esta corporación, que serían sumamente útiles para el país y para la ciencia filológica, llevando a cabo el gran pensamiento de nuestro adorado Patricio, el Sr. Conde de Peñaflorida, fundador de la Sociedad Bascongada de amigos del País, que produjo tantos beneficios. De este modo estaría unida esta Nación 129 con el tiempo etnográficamente bajo un dialecto común literario, que al cabo de un siglo o dos predominaría por la ventaja de ser comprendido en las siete Provincias o distritos de diferentes dialectos que hoy se conocen, y no se pueden entender muy 130, 131 con otros, ya que es imposible reunirla 132 políticamente, perteneciendo a dos Naciones poderosas. Progresaría muchísimo la literatura Bascongada, porque habría más consumo de libros Euskeranos, puesto que les era comprensible a todos el dialecto literario, y entonces se publicarían muchas gramáticas, diccionarios y obras útiles que por temor de falta de venta se hallan en el día en el estado de Manuescriptos, 133 unos concluidos y otros abandonados sin ningún género de estímulo para concluirlos. No olvidemos lo que ha sucedido con la lengua Griega, a la que hemos dejado en estado de dialecto común. <ref type="bibr">134</ref> Más tarde aún este dialecto, que había llegado a ser también la lengua de otras naciones que no eran Helenos, adquirió de éstas tantos giros gramaticales usados entre ellas que se llamaban barbarismos y solecismos, que tomó el nombre de lengua Bizantina. Después de la destrucción de este Imperio, llamado también del Oriente 134 o Romaico, esto es Romano, no quedó más del idioma decaído. La lengua actual, esto es el Griego mo-Plus tard encore, ce dialecte commun à tous devenait aussi la langue des nations qui n'étaient pas des Hellènes; elles lui implantaient des tournures grammaticales usitées chez elles, des soi-disant barbarismes et solécismes; il reçut alors le nom de langue helléniste et byzantine. Après la destruction de l'empire byzantin, ou comme il s'appelait, de l'empire romaïque, c'est-à-dire romain, il ne restait plus qu'un idiome déchu. derno, &lt;13&gt; que continúa en llamarse lengua Romaica (ἡ ρωμαικη 135 γλω' σσα), 136, 137 ha sido muchas veces el objeto de las investigaciones. Este Griego moderno, sobre todo como lengua escrita, se acerca muchísimo más al antiguo Griego que las lenguas llamadas Romanís al Latín. Muchas de las modificaciones materiales 138 que distinguen las lenguas jóvenes Romanís de la lengua vieja Romana se habían ya escurrido en la lengua Griega cuando estaba al fin del primer período, llamado Pelásgico; estas modificaciones contribuyeron de este modo a la creación del Griego clásico, y no menos los cambiamentos de pronunciación que se hacía poco a poco sufrir a las vocales, y que no se juzgaba a propósito el introducirlos en la escritura, que 139 ya estaba una vez recibida.</p><p>La langue actuelle, le grec moderne, qui continue de s'intituler ἡ ῥωμαικη γλω' σσα, a souvent été l'objet des recherches <ref type="bibr">[...]</ref>.</p><p>Ce grec moderne, surtout comme langue écrite, est bien plus rapproché de l'ancien grec que les langues romanes ne le sont du latin. Beaucoup de modifications matérielles, qui distinguent les jeunes langues romanes de la vieille langue romaine, s'étaient déjà glissées dans la langue grecque quand le première période, dite pélasgique, finissait; ces modifications contribuaient ainsi à la création du grec classique. Ajoutez-y les changements de prononciation qu'on faisait peu à peu subir aux voyelles, et qu'on ne jugeait point à propos d'introduire dans l'écriture une fois reçue <ref type="bibr">(Schleicher 1850</ref><ref type="bibr">(Schleicher [1852</ref> Si 135 tenemos, 1 3 6 pues, 1 3 7 estos 1 3 8 ejemplos y estos 1 3 9 datos de otras lenguas antiguas, que han pasado por tantas vicisitudes, venciendo tantas dificultades, sobreponiéndose a tantas desgracias y figurando siempre en primera línea, ¿por qué los Euskaldunes no hemos de buscar los medios de conservación, y aun de perfección, teniéndolos tan evidentes y claros que no exigen más que constancia y laboriosidad en su cultivo? Estudiemos con detenimiento el origen del renacimiento de la lengua Griega en Europa y particularmente en Francia y en Italia después de la destrucción del Imperio del Oriente, y veamos al Griego Manuel Chrysolobo 140 explicar y enseñar su lengua en Venecia, Florencia, Roma y Pavía, y contar entre su auditorio multitud 141 de hombres hábiles, que fueron sus discípulos, entre otros Philelpho, <ref type="bibr" target="#b5">142</ref> Gregorio de Tifernes, <ref type="bibr" target="#b6">143</ref> Leonardo de Arezo, <ref type="bibr" target="#b7">144</ref> Pogio 145 y otros muchos hacia los años 1418 en que murió. Después profesó en Florencia Argyrofilo de Constantinopla, 146 y a poco tiempo florecieron en Roma y Calabria Gaza de Tesalónica 147 y Jorge de Trebisonda 148 en tiempo de Eugenio 4.º, y luego explicaron Gregorio de Tifernes en Francia, Juan Lascaris, <ref type="bibr" target="#b12">149</ref> Ruda, 150 etc., y de éstos aprendieron Gerónimo Alejandro, 151 que a su turno enseñó en uno de los Colegios de París, de donde salieron los Capniones, <ref type="bibr" target="#b15">152</ref> los Erasmos 153 y los Gesner, 154 etc. Si la Euskera no tiene una literatura interesante, como tenía entonces la lengua Griega, con tantos Códices y Manuescriptos 155 como reunieron los Médicis, los Venecianos, <ref type="bibr" target="#b19">156</ref> Pisanos, etc. para estímulo de los extranjeros que se dedicaban a la literatura oriental, posee sin embargo en un rincón áspero del Pireneo un país poblado de cerca de un millón de habitantes en ambas vertientes con unas costumbres originales, con una legislación particular, con una felicidad y orden administrativo sin igual, que es envidiada de Franceses y Españoles en &lt;14&gt; todas épocas, y con un lenguaje antiquísimo tan original que en nada se parece a ninguna otra 157 de Europa y que está llamando la atención de todos los sabios, tanto filólogos y lingüistas, como historiadores y arqueólogos del mundo civilizado, esperando y deseando con ansiedad las producciones de los Bascongados sobre su lengua, que la consideran como authóchtone 158 o aborígene 159 de la España y aun de la Europa. En lo que no hay la menor duda es que los que se ocupan en formar Diccionarios etimológicos de las lenguas, particularmente los 160 de la lengua Española, Portuguesa y Lemosina, hallarán muchísimas palabras cuyas raíces primitivas son Bascongadas. No hay pocas en las lenguas Griega y Latina de origen puramente Euskerano, como pharanz, 161 pharangos, de haran, y harango (que significa valle); elephas, elephantos de ele-handia (animal grande), 162 y otros muchos que pudiéramos citar sin cansarnos mucho. He adquirido la convicción íntima de que muchas palabras 163 que creía yo al parecer con toda seguridad que eran latinas, al hacer el estudio analítico, he visto que son compuestas enteramente de radicales de la Euskera, y la conjunción et latina es la misma eta conjunción Bascongada, que cuando pasa a ser terminativa en composición es in-dicativa de pluralidad, como Kereis-eta, localidad de varios cerezos, etc. Sobre todo, cuando el país Bascongado tenga una Gramática general de su lengua, razonada según los principios establecidos en ella como 164 demuestran claramente los elementos de que se valieron para su formación desde los primitivos tiempos de su origen hasta la época de su apogeo, y aprendan 165 mis paisanos su lengua nativa con reglas seguras fundadas en las bases más sólidas de la lingüística, saldrán desde luego buenos lingüistas y filólogos para estudiar con más facilidad, conocimiento y seguridad las 166 demás lenguas, y tendrán la suya para punto de comparación y estudio de la perfección de las lenguas. El Clero Bascongado (sea del dialecto que fuere el predicador) será entendido con facilidad en su doctrina y en el confesonario: la oratoria sagrada y sus escritos tendrán la pureza y la elegancia que adquirieron los Crisóstomos, 167 los Basilios 168 y los Nazianzenos 169 en la lengua Griega Bizantina, que era común a todas las Iglesias del Oriente, 170 como lo sería la Euskera literaria pura y sólida sin distinción de dialectos para todo el país Bascongado, estableciendo para ello Cátedras de una misma Gramática general en los Seminarios Conciliares de Vitoria, Pamplona y Bayona. ¿Qué diferencia no se encuentra al ver las pláticas dominicales del Cura de Asteasu, el Sr. Aguirre, a los devocionarios &lt;15&gt; de Cardaveraz 171 y otros del siglo pasado? Con buenos elementos gramaticales y Lexicógrafos, ¿cuánto no se adelantarían 172 en nuestra lengua? Pero para esto se necesita trabajar para la unión etnográfica 173 por medio de una gramática general razonada de la Euskera, aprobada y autorizada por una Academia compuesta de hombres competentes en la materia. Si en el día no se pudieran hallar tan inteligentes por falta de estudios preliminares, con este estímulo se formarían dentro de algunos años.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Concordancia Vizcaína</head><p>Nos motejan los Castellanos porque cuando hablamos su lengua de escombros o de acarreo no concertamos el sustantivo con el adjetivo en género solamente. Esto proviene de que, no conociendo los Euskaldunes substantivos y adjetivos, y mucho menos sexo o género masculino y femenino en cosas inanimadas ni en nombres abstractos en su lengua, y no teniendo más partes de la oración que el nombre y el verbo, esto es, la palabra declinada, que los gramáticos llaman nombre, y la palabra conjugada, que llaman verbo, o la palabra por excelencia, se les resiste enteramente 164 como] lerroartean idatzita; lerroan segun tatxatuta. <ref type="bibr">165</ref>  esa concordancia Castellana, que mejor debiera llamarse discordancia; pero en cambio tienen otra que verdaderamente es concordancia mas lógica y mas interesante, que es la del verbo con todas las relaciones que abraza la oración en que se halla. Hemos dicho ya en este escrito que el verbo activo solamente en el modo indicativo tiene setecientas sesenta y tres mil trescientas cuarenta y cuatro inflexiones; pues entre éstas tiene que buscar una para concordar con todas las relaciones de persona, de numero, de trato, etc. que abraza la oración y, si el modo es imperativo o subjuntivo, hay otras muchas inflexiones que hay que recorrerlas; pero la exactitud, hermosura y elegancia de esta lengua es en los participios 174 o formas de oraciones, que llenan completamente todas las relaciones del verbo, y los participios las del verbo y la declinación del nombre. No sucede así en los participios Griegos y Latinos, que necesitan de la aclaración de la segunda oración para saber cuál es la persona y el tiempo exacto del participio que está al aire. El Padre 175 Zabala en su verbo regular Vascongado del Dialecto Vizcaíno, siguiendo en parte las erróneas 176 huellas del Sr. Astarloa, pone ocho modos que son: infinitivo, indicativo, optativo, condicional, consuetudinario, imperativo, subjuntivo y potencial. 177 Quisiéramos que hubiera 178 una Academia donde poder discutir este punto y otros muchos en que no estamos conformes los aficionados a esta lengua. &lt;16&gt; Confunde en nuestro concepto el R. 179 Padre una oración de verbo determinante y verbo determinado, ¿pues qué pertenecen acaso al modo potencial del verbo haber todas las conjugaciones dai, zaiz, nai, etc., cuya raíz ai no es más que el mismo verbo al (poder)? La conjugación de este verbo está completa con el cambio tan frecuente de l en i. 180 Por consiguiente, bete nai (me puede llenar) es una oración de dos verbos, a saber: el determinante nai, tercera persona del presente de indicativo del verbo al (poder) con la relación de me en la característica n preformante, y el verbo determinado bete (llenar) en infinitivo. <ref type="bibr">181</ref> Lo mismo sucede con el consuetudinario, etc. Es lástima que se pierdan tantos trabajos individuales y tantos esfuerzos por no formar una Sociedad literaria o filológica de esta lengua, donde discutir y consultar sobre las dudas que ocurran, y combatir los errores que inocentemente por ignorancia se propagan. Deseamos que llegue este día para asegurar el buen éxito de los esfuerzos de los amantes del País Bascongado.  <ref type="bibr">Cf. Gómez (2008: 173-174</ref> </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>). Azkenik, Aizkibelek aipatzen dituen perpaus-formak adizki jokatu bati konplementatzaile bat (erlatibozkoa, konpletiboa, etab.) eta, gehienetan, postposizio bat edo batzuk eranstean sortzen dira. Hona hemen Aizkibelek berak eskuizkribuko beste pasarte batean eskainitako adibideak: Dakart. Yo lo traigo Dakart-ala. Que yo lo traigo Dakart-alarik. Mientras yo lo traigo Dakart-alako. Porque yo lo traigo Dakart-an. Si yo lo traigo Dakart-ana. Lo que yo lo traigo Dakart-anean. Cuando yo lo traigo Dakartaneko. Para cuando yo lo traigo Dakartanez. Según yo lo traigo Dakartandik. De donde yo lo traigo Dakartaño. Hasta que yo lo traiga. Dakartanunz. Hacia donde yo lo traigo, etc. (Aizkibel 1856a: 5)</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>de persona] y de persona A. 29 y más culta] y culta A. 30 pueda] puede A. 31 veinte y siete] veintisiete A. 32 Ez dakit Aizkibelek iturriren batetik hartu zuen kasuen kopurua ala bere proposamen berria den. Ez du inon kasuen zerrenda ematen eta, zernahi gisaz, haren aurreko euskal gramatika-lanetan ez da hogeita zazpi kasuko zerrendarik agertzen; ik. 14. oh. eta haren gaineko testua.</figDesc><table /><note>33 cada uno] cada uno de ellos A.34 veinte y tres] veintitres A.35 Hamabi perpaus-forma hauen zerrenda testuko 5. orrialdean ematen du.36 son testimonio] son un testimonio A.37 de decadencia] y decadencia A.38 Cf. «c'est le basque, idiome vraiment énigmatique» (Schleicher 1850 [1852: 49-50]).39 del roce] y del roce S.40 le rodean] la rodean AS.41 Cophtos] Captivos S.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>sospecha] sospechas A. 44 la palabra] las palabras S. 45 monosílaba] monsilaba S [errata bat. 46 ar] lerroartean idatzita. 47 elidida] dividida A. 48 elisión] elicion A. 49 Orain arte iritzi zabalduena zen *iz ustezko erroa Azkueren asmakizuna zela(1905-1906: s.v.); Aizkibelen testuak mende erdi batean gutxienez aurreratzen du ustezko erro horren agerpena. 116, 13. oh.)  Azkueren hiztegiko etimologiak kritikatu zituen; ik., hala ere,Jordán-ek (1998)   </figDesc><table /><note>*eis-/ ois-/ is-erro paleoeuropar batekin lotzeko egindako saioa.50 carneros] carneras S.51 o carneros, etc.] o carneros A.52 De estas palabras primitivas o raíces primarias se forman, ya por derivación o ya por composición, una infinidad de palabras] De estas palabras primitivas ó raices primarias, ya por derivacion ó ya por composicion, resultan una infinidad de palabras A.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>Dakart. Yo lo traigo Dakart-ala. Que yo lo traigo Dakart-alarik. Mientras yo lo traigo Dakart-alako. Porque yo lo traigo Dakart-an. Si yo lo traigo Dakart-ana. Lo que yo lo traigo Dakart-anean. 59 Cuando yo lo traigo Dakartaneko. 60 Para cuando yo lo traigo Dakartanez. Según yo lo traigo Dakartandik. De donde yo lo traigo Dakartaño. Hasta que yo lo traiga. 61 Dakartanunz. Hacia donde yo lo traigo, etc.</figDesc><table><row><cell>La Euskera se presta tanto a estas combina-</cell><cell>La langue égyptienne se prête avec une</cell></row><row><cell>ciones, y con una admirable facilidad a la for-</cell><cell>admirable facilité à la formation des mots</cell></row><row><cell>mación de las palabras compuestas, que une</cell><cell>composés, et joint à cet avantage celui d'une</cell></row><row><cell>también a esta ventaja la de una extrema clari-</cell><cell>extrême clarté, les formes et les mots détermi-</cell></row><row><cell>dad, siendo multiplicadas las formas y las pala-</cell><cell>natifs y étant très-multipliés. (Champollion-</cell></row><row><cell>bras determinativas.</cell><cell>Figeac 1840: 215)</cell></row></table><note>56 cambiado] eskuizkribuan cambiada.57 Ik. 17. oh.58 sucesivamente] gero pasar (?) tatxatuta.59 Dakart-anean] Dakart-ancan A.60 Dakartaneko] Dakartancko A.61 traiga] traigo A.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>Amar, tomose de el Bascuence amá madre; porque amare significa una aficion, y cariño especial, mas que diligere, como lo siente Ciceron [...]. Pues esse amòr especial es proprissimo de las madres, y madre en Bascuence amá, y el querer con essa particularidad amá, amatu». 70 Cf. Larramendi (1745: s.v. madrina de bautizo): «Madrina de bautizo, amapontecoa, amabichia, amaguchia, comai». Aizkibelek gidoia erabiltzeko arrazoia izan daiteke ama-z osatutako lehenengo adibidea izatea, baina orobat Larramendiren hiztegian ama-lerroaren amaieran eta bichia hurrengo lerroan bereizita egotea. Ama, que cria, es voz Bascogada, amá, que significa madre, y las que crian, hazen este oficio de madre. Iñudea, amaiñudea, añá, agamá». 75 Cf. Larramendi (1745: s.v. maternidad): «Maternidad, amatasuna, amaizatea». 76 Cf. Larramendi (1745: s.v. madrastra): «Madrasta, ugazama, amaizuna, azama, amordea». 77 Cf. Larramendi (1745: s.v. madrina de boda): «Madrina de boda, amaldecoa, amalaguna». 78 Larramendik ez dakar abuela sarreran, baina bai telaraña sarreran: «Telaraña, amama, amelauna» (cf. Urgell 2000: 1162). 79 Cf. Larramendiren eranskina (1745: s.v. nudriza): «Nudriza, amañoa». Aipua Ovidioren Ars amatoria poemari dagokio(I, 729), baina Ovidioren edizio kanonikoan eman ohi den testua apur bat desberdina da: «palleat omnis amans: hic est color aptus amanti». Dena den, Aizkibelek eman duen aldaera ere sarri aurkitzen da, xvi. mendetik xix.era bitartean, Ovidioren bertsolerro hori aipatzen duten beste autore batzuetan.</figDesc><table><row><cell>malicia, disimulo; 85 amoria, amor ama-</cell></row><row><cell>rillo o que pone a uno amarillo, 86 como es el amor erótico; palleat omnis amans: co-</cell></row><row><cell>lor hic est aptus amori, dijo Nasón. 71 Cf. Larramendi (1745: s.v. bisabuela): «Bisabuela, arramoná, arbaso, ama bijoya, amonabia, ama-</cell></row><row><cell>bisaba».</cell></row><row><cell>80 am-ar-asi] am-ar-azi beharko luke; cf. Larramendi (1745: s.v. enamorar): «Enamorar, amurustu,</cell></row><row><cell>amaraci, maiterazo».</cell></row><row><cell>81 materno] materna A.</cell></row><row><cell>82 Cf. Larramendi (1745: s.v. maternal, materno): «Maternal, materno, amatarra, amarena».</cell></row><row><cell>83 Cf. Larramendi (1745: s.v. enamoramiento): «Enamoramiento, amorantia, amurustea, amaraztea».</cell></row><row><cell>84 Cf. Lécluse (1826: s.v. amarra): «Amarra, attache, attachement».</cell></row></table><note>87 Los derivados de amoria son muchísimos; amo-68 las más modernas] las lenguas modernas A.69 Cf. Larramendi (1745: s.v. amar): «72 Cf. aurreko oharra.73 Cf. Larramendi (1745: s.v. suegra): «Suegra, amaguiarraba etc.».74 Honetan ez dator guztiz bat Larramendirekin (1745: s.v. ama, que cria): «85 Cf. Lécluse (1826: s.v. amarrua): «Amarrua, finesse, malice».86 a uno amarillo] a una marillo S.87 Publio Ovidio Nason poeta erromatarra (K.a. 43 -K.o. 17).</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>propios] eskuizkribuan propias.</figDesc><table /><note>91 aborígene] ab origene A.92 aborígene] ab origene A.93 porque] que porque S.94 o canto] o del canto S.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>reventar] restar S. 97 abandonar] abandonarse A. 98 onomatopeyo] onomatopeya A. 99 en el irónico] en ironico S. 100 una] eskuizkribuan un. 101 verbo] lerroartean idatzita; lerroan declinacion tatxatuta. 102 Baieztapen honek aditzera ematen digu eskuizkribua ez dela autografoa, kopia diktatua baizik.</figDesc><table /><note>103 convalescencia] convalecencia AS.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head></head><label></label><figDesc>los] las A.</figDesc><table /><note>122 evidentemente] y evidentemente A.123 mismo] eskuizkribuan misma.124 Labortanos] lebortanos A.125 lenta] lento A.126 común] lerroartean erantsita.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head></head><label></label><figDesc>aprendan] eskuizkribuan aprēndan. 166 las] lerroartean idatzita; lerroan zerbait tatxatuta. 167 Joanes Krisostomo Antiokiakoa (c. 347-407) Konstantinopoliseko artzapezpikuaz ari da, predikari ospetsua izan baitzen; izan ere, Krisostomo goitizenak 'urrezko ahoa' esan nahi du grekoz (χρυσός 'urre' + στομος 'aho'). 168 Basilio Handia (c. 330-379) Zesareako apezpikua, predikari ospetsua hau ere. 169 Gregorio Naziantzokoa (329-389) Konstantinopoliseko artzapezpikua; hizlari eta erretoriko garrantzitsua. Gregorio Naziantzokoa, Joanes Krisostomo eta Basilio Handia Eliza ortodoxoaren hiru santu hierarkak dira eta, halaber, Elizaren Doktoreak dira hirurak.</figDesc><table /><note>170 del Oriente] de Oriente S.171 Cardaveraz] Cardaveras A.172 adelantarían] adelantaria AS [eskuizkribuan adelantariâ.173 etnográfica] ethnográfica A.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head></head><label></label><figDesc>Toledo 24 de Mayo 1856 José Francisco de Aizquibel 174 participios] principios A. 175 Padre] P. A. 176 erróneas] erradas AS [eskuizkribuan -oneas -adas-en gainean idatzita dago. 177</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head></head><label></label><figDesc>). 178 hubiera] hubiese A. 179 R.] Rdo. A. 180 en i] en la i A. 181 Zabalaren iritziz, dai, zaiz, nai... adizkiak egin aditzeko formak dira. Gainontzekoan, Zabalaren analisiak eta Aizkibelenak ez dirudite hain desberdinak; izan ere, Zabalak (1848: 10-11) uste du subjuntiboan, ahaleran eta aginteran, egin edo ekin aditzez osatutako formetan, ez dagoela adizki perifrastiko bat, baizik eta benetako bi aditz: bete aditz gobernatua izango litzateke eta nai aditz gobernatzailea (Gómez 2008: 178).</figDesc><table /><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14">Lehen joerari dagozkio, besteak beste, Oihenart (1638 [1656]), Larramendi (1729) eta, beranduago, Hiriart (1840); bigarrenari, Astarloa (1803) eta Humboldt (1817); hirugarrenari, Harriet (1741), Lécluse (1826), Darrigol (1827), Chaho (1836) eta, oro har, xix. mendetik aurrerako euskal gramatikalan gehienak.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="15">Bi jarrerak, ordea, ez daude kontrajarrita, Schleicherrek proposatu baitzuen «gramatika azaltzailearen» eginkizuna honetan datzala: «[d]écomposer les langues d'une classe supérieure et les réduire au monosyllabisme, rechercher dans les langues de flexion les racines monosyllabiques qui ont produit peu à peu par voie de composition les organismes des mots»(Schleicher 1850(Schleicher   [1852).16  Erka bedi euskarari buruzko Schleicherren beste pasarte honekin(1850 [1852: 136]): «En général, son principe vital est celui de l'agglutination; on le voit, par exemple, dans la formation des mots […] Cette langue a cela de commun avec celles des indigènes de l'Amérique du Nord, qu'elle compose d'une manière singulière les mots de toute espèce. Elle supprime souvent des syllabes entières en composant, elle ne conserve quelquefois qu'une seule lettre dans le mot composé».</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="21">Etimologia hori Aizkibelen beste lan batzuetan errepikatzen da (cf., esaterako,Garate 1947Garate  -48:  536, 1962.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Ni la actividad social de las dos naciones ya citadas, ni el immenso trabajo de la civilización occidental de la que han sido las productoras infatigables, ha retirado el espíritu a sus idiomas 117 para aplicarle 118 a los rudos esfuerzos de la historia, como ha sucedido igualmente &lt;11&gt; con la Euskera; estos idiomas han terminado por sucumbir a las leyes de la 119 asimilación y de la contracción; sus formas, en otro tiempo tan precisas, se 120 han usado y gastado, L'activité sociale de ces nations, l'immense travail de la civilisation occidentale dont elles seules ont été les producteurs infatigables, a retiré l'esprit à leurs idiomes pour l'appliquer aux rudes efforts de l'histoire; ces idiomes ont ainsi fini par succomber aux lois de l'assimilation et de la contraction; leurs formes, jadis si précises, ont été rongées et usées(Schleicher 1850(Schleicher   [1852 </note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">. Eranskina: «De la lengua Euskera, ó de los Vascongados» diskurtsoa (Aizkibel 1865b)* * Irudiak Espainiako Liburutegi Nazionaleko fondoetatik atera dira.(c) Biblioteca Nacional de España</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">RICARDO GÓMEZ(c) Biblioteca Nacional de España</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">(c) Biblioteca Nacional de España</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">1288 -c. 1348) filosofoaren esaldi ezagun bati («entia non sunt multiplicanda praeter necessitatem»), Ockham-en labana izenarekin ezagutzen den argudiabidearen formulazioa denari hain zuzen ere. 114 tienen] contienen A. 115 en la nuestra] lerroartean erantsita</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ockham</forename><surname>Hemen Aizkibelek Erreferentzia Egiten Dio William Of</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>116 y plural] y el plural S</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">120 se] ha-ren gainean idatzita</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">γλω&apos; σσα] bi sigmak &lt;s&gt; moduan idatzita daude. 137 ἡ ρωμαικη γλω&apos; σσα] e Romaiké glossa A. 138 modificaciones materiales] modificaciones y materiales S</title>
+		<idno>ρωμαικη] ϕωμαικη S. 136</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Chrysoloras (1350-1415) bizantziar humanistaz ari da</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ezbairik</forename><surname>Gabe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Manuel</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>edo Emmanuel</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Aizkibelek 1418an hil zela aipatzen badu ere, kontsultatu ditudan iturri guztietan, ia aho batez, 1415 urtea agertzen da. 141 multitud] beste hitz baten gainean idatzita</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chrysolorasek</forename><surname>Izan Ere</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sartu Zuen Grekoaren Ikaskuntza Mendebaldeko Europan</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Francesco Filelfo (1398-1481) humanista, irakasle eta diplomatiko italiarra</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Publio Gregorio da Tiferno edo Gregorio Tifernas (c. 1414-c. 1464) irakasle, idazle eta itzultzaile italiarra. Grekoa Frantzian irakatsi zuen lehenengoa izan zen</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">) humanista, historialari eta politiko italiarra</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leonardo</forename><surname>Bruni</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leonardo</forename><surname>Aretino</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page" from="1370" to="1444" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Giovanni Francesco Poggio Bracciolini (1380-1459) humanista, idazle eta historialari italiarra</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Ioannes Argyropulos (c. 1416-1487) Konstantinopoliseko humanista, irakasle eta idazlea</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Theodorus Gaza edo Theodoros Gazes (c. 1415-1475) irakasle, gramatikari, itzultzaile eta filosofo bizantziarra</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Georgios Trapezuntios (1395-c. 1485) humanista, irakasle eta filosofo bizantziarra</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Janos Lascaris (c. 1445-1535) irakasle eta idazle bizantziarra</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Ez dut aurkitu nor izan zitekeen Ruda irakaslea</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Girolamo Aleandro edo Hieronymus Aleander (1480-1542) irakasle, idazle eta elizgizon ita liarra</title>
+	</analytic>
+	<monogr>
+		<title level="j">Lexicon Graeco-Latinum</title>
+		<imprint>
+			<biblScope unit="page">1512</biblScope>
+		</imprint>
+	</monogr>
+	<note>lanaren egilea</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Kapnion edo Capnio moduan helenizatua, humanista, filosofo eta hebraista alemaniarra</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Johannes</forename><surname>Reuchlin Edo Johann Reichlin</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page" from="1455" to="1522" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Desiderius Erasmus Rotterdamus edo Erasmo Rotterdamgo (c. 1466-1536) humanista, filosofo eta teologo herbeheretarra</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Conrad (von) Gesner, Conradus Gesnerus (1516-1565) naturalista eta bibliografo suitzarra. Mithridates (1555) hizkuntzen katalogoaren egilea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Johann</forename><surname>Conrad Gessner Edo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Konrad</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>von) Gessner</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Manuescriptos] Manuscritos A: Manuscriptos</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+				<title level="m">los Venecianos] Venecianos A. 157 ninguna otra</title>
+		<imprint/>
+	</monogr>
+	<note>ningun otro A. 158 authóchtone] autochtone A: authochtona S. 159 aborígine] ab origine A</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+				<title level="m">amaiera ez da garbi irakurtzen; zernahi gisaz</title>
+		<imprint/>
+	</monogr>
+	<note>pharanx beharko luke</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">1745: s.v. elephante): «Elephante, el mayor de los animales quadrupedos, elefandia, de donde pudieran tomar esta voz el Griego, y Latin, y quiere dezir, el grande entre los ganados, ò animales mayores, de ele, elea, animal, ò ganado mayor, y andia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Larramendi</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">palabras] eskuizkribuan pala-lerroaren amaieran dago eta hurrengo lerroan aurreragoko cansarnos mucho errepikatuta eta tatxatuta, berdinetik berdinerako jauzia egin ondoren hutsaz oharturik; geroago bras</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Eranskina: Euskera eskuizkribuaren lehenengo orrialdea Tolosako Udal Artxiboa (B-4-5-1)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bibliografia</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Études grammaticales sur la langue euskarienne</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Abbadie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">J A</forename><surname>Th</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Chaho</surname></persName>
+		</author>
+		<editor>A. Bertrand</editor>
+		<imprint>
+			<date type="published" when="1836" />
+			<pubPlace>Paris</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aguirre</forename><surname>Sorondo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename></persName>
+		</author>
+		<title level="m">Reseña histórica. José Francisco Aizkibel Epelde (1798-1865)», Hizkuntza eta Literatura</title>
+		<imprint>
+			<date type="published" when="1983" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="237" to="288" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">1854, «Refranes vascongados, recogidos y ordenados por Esteban de Garibay y Çamalloa, y observaciones hechas a estos refranes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Aizkibel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Separata, Madril: Imprenta de José Rodríguez</title>
+		<imprint>
+			<date type="published" when="1854" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="629" to="660" />
+		</imprint>
+	</monogr>
+	<note>Valentzia: Librerías «París-Valencia</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">TUA B-4-5-1), Tolosa. -, 1856b, «De la lengua Euskera, ó de los Vascongados</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-, 1856a</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">(tolosako Udal</forename><surname>Euskera</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Artxiboa</surname></persName>
+		</author>
+		<editor>Castellanos de Losada</editor>
+		<imprint>
+			<biblScope unit="volume">1856</biblScope>
+			<biblScope unit="page" from="211" to="221" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Español titulado Euskeratik erderara biurtzeko itzte gia. Tolosa: Casa Editorial de Eusebio López, Sucesor de la Viuda de Mendizábal</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Diccionario</forename><surname>-, 1883</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Basco</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Berrargit. faksim. Bilbo: Gestingraf, 1989.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Biblioteca del bascófilo. Ensayo de un catálogo general sistemático y crítico de las obras referentes á las provincias de Vizcaya</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Allende</forename><surname>Salazar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename></persName>
+		</author>
+		<editor>M. Tello</editor>
+		<imprint>
+			<date type="published" when="1887" />
+			<pubPlace>Guipúzcoa, Álava y Navarra. Madril</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Apología de la lengua bascongada. Madril: G. Ortega. [Berrargit. faksim. Bilbo: Amigos del Libro Vasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">P</forename><surname>Astarloa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Valentzia: Librerías «París-Valencia</title>
+		<imprint>
+			<date type="published" when="1803" />
+		</imprint>
+	</monogr>
+	<note>Sevilla: Extramuros, 2009.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Discursos filosóficos sobre la lengua primitiva ó Gramática y análisis razonada de la euskara ó bascuence. Bilbo: P. Velasco. [Berrargit. faksim. Bilbo: Amigos del Libro Vasco</title>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page">1883</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Euskal-Izkindea. Gramática eúskara</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Azkue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bilbo: J. de Astuy</title>
+		<imprint>
+			<biblScope unit="volume">1891</biblScope>
+			<date type="published" when="1905" />
+			<publisher>Bilbo &amp; Paris</publisher>
+		</imprint>
+	</monogr>
+	<note>Diccionario vasco-español-francés</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bilbao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eusko Bibliographia. Donostia: Auñamendi</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="1970" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Album de Azara. Corona científica, literaria, artística y política que las Universidades, Academias, Maestranzas, Cuerpos científicos y patrióticos, el Cuerpo diplomático, y hombres políticos nacionales y algunos extranjeros consagran a la buena memoria del insigne caballero aragonés, el célebre diplomático y distinguido literato español, Excmo. Señor D. José Nicolás de Azara y Perera, primer Marqués de Nibbiano. Madril: Imprenta de D</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">M</forename><surname>Castellanos De Losada</surname></persName>
+		</author>
+		<ptr target="&lt;http://books.google.com/books?id=DnlaytOReyEC&gt;" />
+	</analytic>
+	<monogr>
+		<title level="j">Alejandro Fuentenebro. Interneten eskuragarri</title>
+		<imprint>
+			<biblScope unit="page">1856</biblScope>
+		</imprint>
+	</monogr>
+	<note>Kontsulta: 2009-08-22</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Précis du système hiéroglyphique des anciens Égyptiens ou Recherches sur les élémens premiers de cette écriture sacrée, sur leurs diverses combinaisons, et sur les rapports de ce système avec les autres méthodes graphiques égyptiennes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Champollion</surname></persName>
+		</author>
+		<idno>Kontsulta: 2007-11-01</idno>
+		<ptr target="&lt;http://books.google.es/books?id=604GAAAAQAAJ&gt;" />
+	</analytic>
+	<monogr>
+		<title level="m">Treuttel et Wü rtz. Interneten eskuragarri</title>
+		<meeting><address><addrLine>Paris</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1824" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Égypte ancienne. Paris: Firmin Didot frères. Interneten eskuragarri</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Champollion-Figeac</surname></persName>
+		</author>
+		<idno>Kontsulta: 2007-11-01</idno>
+		<ptr target="&lt;http://books.google.es/books?id=TA8IAAAAQAAJ&gt;" />
+		<imprint>
+			<biblScope unit="page">1840</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Dissertation critique et apologétique sur la langue basque, par un ecclésiastique du diocèse de Bayonne</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-P</forename><surname>Darrigol</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Baiona: Duhart-Fauvet</title>
+		<imprint>
+			<date type="published" when="1827" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">La linguistique naturaliste en France (1867-1922): Nature, origine et évolution du langage</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Desmet</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Peeters</publisher>
+			<pubPlace>Leuven &amp; Paris</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Elósegui</surname></persName>
+		</author>
+		<title level="m">Algo sobre José Francisco de Aizkibel</title>
+		<meeting><address><addrLine>San Telmo, I</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1949" />
+			<biblScope unit="page" from="181" to="196" />
+		</imprint>
+	</monogr>
+	<note>Donostia: Museo de</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Garate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eusko-Jakintza</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="23" to="36" />
+			<date type="published" when="1947" />
+		</imprint>
+		<respStmt>
+			<orgName>«Apuntes acerca de José Francisco de Aizkibel»</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Nuevos datos acerca de Aizkibel</title>
+		<imprint>
+			<date type="published" when="1962" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="119" to="125" />
+		</imprint>
+		<respStmt>
+			<orgName>«El segundo trabajo de Aizkibel»</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Garmendia Arruebarrena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Un inédito de Aizquibel»</title>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="447" to="499" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">«Bonaparte printzearen inguruko hizkuntz eztabaidak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Gómez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="429" to="466" />
+		</imprint>
+	</monogr>
+	<note>Berrargit. in Gómez &amp; Lakarra (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Actas del III Congreso Internacional de la Sociedad Española de Historiografía Lingüística</title>
+	</analytic>
+	<monogr>
+		<title level="m">La teoría del &quot;verbo único</title>
+		<editor>H. Buske, I</editor>
+		<meeting><address><addrLine>Vigo, 7-10 de febrero de</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="page" from="179" to="196" />
+		</imprint>
+	</monogr>
+	<note>en la gramaticografía vasca del s. xix</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">XIX. mendeko euskal gramatikagintzari buruzko ikerketak. Bilbo: UPV/EHU. -, 2008, «Las ideas lingüísticas de Juan Mateo Zabala: El verbo regular vascongado del dialecto vizcaino (1848)</title>
+	</analytic>
+	<monogr>
+		<title level="m">Astarloaren Discursos filosóficos: iturriak eta axiomak</title>
+		<imprint>
+			<date type="published" when="2004" />
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="137" to="155" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+				<title level="m">Las ideas lingüísticas de José Francisco Aizkibel: el manuscrito Euskera</title>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+		<respStmt>
+			<orgName>Congreso Internacional de la Sociedad Española de Historiografía Lingüística. Cadiz: Universidad de Cádiz</orgName>
+		</respStmt>
+	</monogr>
+	<note>Actas del VI</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Euskalaritzaren historiaz, I: XVI-XIX. mendeak (ASJU-ren gehigarriak, 25)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">J A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Gipuzkoako Foru Aldundia &amp; UPV/EHU</title>
+		<meeting><address><addrLine>Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Humboldt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Von</surname></persName>
+		</author>
+		<title level="m">Prüfung der Untersuchungen über die Urbewohner Hispaniens vermittelst der Vaskischen Sprache. Berlin: F. Dümmler. [R. Ortega y Frías-en gazt. itz. erabili dut: Los primitivos habitantes de España. Investigaciones con el auxilio de la lengua vasca Madril: Librería de D. José Anlló, 1879; berrargit. faksim. Valentzia: Librerías «París-Valencia</title>
+		<imprint>
+			<date type="published" when="1879" />
+			<biblScope unit="page">1821</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Examen de las investigaciones que por medio del idioma vascongado se hicieron sobre los primitivos moradores de la España escrita en alemán por Guillermo de Humbold</title>
+		<imprint>
+			<biblScope unit="page">1835</biblScope>
+		</imprint>
+	</monogr>
+	<note>t</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Traducida Libremente Por</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Arguinzoniz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Donostia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mitxelena Kulturunea</surname></persName>
+		</author>
+		<editor>J.U. 3952. Eskuizkribu argitaragabea</editor>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">«De la raíz *IZ-&quot;agua&quot; en vasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Jordán</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="267" to="279" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Laka</surname></persName>
+		</author>
+		<title level="m">Euskal Izkindeako aditza (Hiperbizkaieraren historiaz II)</title>
+		<imprint>
+			<date type="published" when="1986" />
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="705" to="754" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">«Lécluse-ren euskal gramatika. Euskalaritzaren historiarako lanabesak (I)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="813" to="916" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Reconstructing the Pre-Proto-Basque Root</title>
+	</analytic>
+	<monogr>
+		<title level="m">Towards a History of the Basque Language. Amsterdam &amp; Philadelphia: John Benjamins</title>
+		<editor>J. I. Hualde, J. A. Lakarra &amp; R. L. Trask</editor>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="189" to="206" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">Etimología y reconstrucción en el campo vasco: hacia un nuevo paradigma</title>
+		<editor>E. Ridruejo</editor>
+		<imprint>
+			<date type="published" when="2004" />
+			<biblScope unit="page" from="41" to="116" />
+		</imprint>
+		<respStmt>
+			<orgName>Las otras lenguas de España: IV Curso de invierno de la Universidad de Valladolid. Valladolid: Universidad de Valladolid</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Prolegómenos a la reconstrucción de segundo grado y al análisis del cambio tipológico en (proto)vasco</title>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="407" to="470" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+				<title level="m">Protovasco, munda y otros: Reconstrucción interna y tipología holística diacrónica</title>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="229" to="322" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Aitzineuskararen gramatikarantz (malkar eta osinetan zehar)</title>
+	</analytic>
+	<monogr>
+		<title level="m">Gramatika Jaietan. Patxi Goenagaren omenez (ASJUren gehigarria, 51). Bilbo: Gipuzkoako Foru Aldundia &amp; UPV/EHU</title>
+		<editor>X. Artiagoitia &amp; J. A. Lakarra</editor>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="451" to="490" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title level="m" type="main">«Temas para un prólogo: Forma canónica, tipología holística diacrónica y reconstrucción del protovasco», Oihenart 23. -, 2009b (inprimategian). «Forma canónica y cambios de la forma canónica de la lengua vasca: hacia los orígenes del bisilabismo</title>
+		<imprint/>
+	</monogr>
+	<note>2009a (inprimategian. Palaeohispanica 9</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">B</forename><surname>Urgell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Lécluseren hiztegia. Euskalaritzaren historiarako lanabesak (II)</title>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="99" to="211" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<title level="m" type="main">1729, El impossible vencido. Arte de la lengua bascongada. Salamanca: A. J. Villagordo</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Larramendi</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Berrargit. faksim. Donostia: Hordago, 1979.</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Donostia: Bartholomè Riesgo y Montero</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-</forename><surname>Latin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Berrargit. faksim. Donostia: Txertoa</title>
+		<imprint>
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">1826, Manuel de la langue basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Lécluse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Toulouse: J. M. Douladoure; Baiona: L. M. Cluzeau. [Berrargit. in Lakarra (1987) eta Lakarra &amp;</title>
+		<meeting><address><addrLine>Urgell</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">«Introduction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Maher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Linguistics and Evolutionary Theory: Three essays by August Schleicher, Ernst Haeckel, and Wilhelm Bleek. Amsterdam &amp; Philadelphia: John Benjamins, xvii-xxxii</title>
+		<editor>K. Koerner</editor>
+		<imprint>
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Donostia: Gipuzkoako Foru Aldundia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Fonética histórica vasca (ASJU-ren gehigarriak, 4)</title>
+		<imprint>
+			<date type="published" when="1961" />
+		</imprint>
+	</monogr>
+	<note>Berrargit. 1985, 1990.</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Diccionario etimológico de la lengua castellana (ensayo), precedido de unos Rudimentos de Etimología</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">F</forename><surname>Monlau Y Roca</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Madril: Imprenta y esterotipia de M. Rivadeneyra</title>
+		<imprint>
+			<date type="published" when="1856" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Bigarren argit. emendatua, 1656. [Bigarrenaren berrargit. faksim., J. Gorosterratzuren gaz. itz. eta R. Ciérvideren sarrera dituela</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Oihenart</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">S. Cramoisy</orgName>
+			</affiliation>
+		</author>
+		<idno>1638 [1656</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Notitia utriusque Vasconiae tum Ibericae tum Aquitanicae</title>
+		<meeting><address><addrLine>Paris; Vitoria-Gasteiz</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Abbadieren euskal gramatikari buruzko ideiak eta ordu arteko euskal gramatikagintza</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Oyharçabal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Antoine d&apos;Abbadie 1897-1997. Congrès International</title>
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><surname>Hendaia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bilbo</surname></persName>
+		</author>
+		<title level="m">Eusko Ikaskuntza &amp; Euskaltzaindia</title>
+		<imprint>
+			<biblScope unit="page" from="431" to="451" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<monogr>
+				<title level="m">Les conceptions naturalistes de Julien Vinson au sujet de la langue basque</title>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="61" to="89" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<monogr>
+		<title level="m" type="main">Actas del III Congreso Internacional de la Sociedad Española de Historiografía Lingüística</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Ridruejo</surname></persName>
+		</author>
+		<editor>H. Buske</editor>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">II</biblScope>
+			<biblScope unit="page" from="653" to="667" />
+			<pubPlace>Vigo, 7-10 de febrero de</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Sobre la recepción en España del positivismo lingüístico</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<monogr>
+		<title level="m" type="main">«Un documento de José Francisco de Aizquibel sobre la lengua vasca</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Satrustegi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1977" />
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="129" to="154" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">«¿Cuál es el paradero de los originales de Aizkibel?</title>
+	</analytic>
+	<monogr>
+		<title level="m">Aizkibel: Argien Mendeko azkoitiarra (1798-1865)</title>
+		<meeting><address><addrLine>Vitoria-Gasteiz</addrLine></address></meeting>
+		<imprint>
+			<publisher>Eusko Jaurlaritza</publisher>
+			<date type="published" when="1979" />
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1798" to="1864" />
+		</imprint>
+	</monogr>
+	<note>Bidegileak; 12)</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Schleicher</surname></persName>
+		</author>
+		<idno>1850 [1852</idno>
+		<title level="m">Die Sprachen Europas in systematischer Uebersicht: Linguistische Untersuchungen. Bonn: H. B. Köning. Berrargit. K. Koerner-en sarrera-artikulu bat duela (Amsterdam Classics in Linguistics</title>
+		<meeting><address><addrLine>Amsterdam &amp; Philadelphia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1800" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<monogr>
+		<title level="m" type="main">Ewerbeck-en fr. itz. erabili dut: Les langues de l&apos;Europe moderne Paris: Ladrange &amp; Garnier frères</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Benjamins</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983" />
+			<biblScope unit="volume">1852</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<monogr>
+		<title level="m" type="main">Mitología e ideología sobre la lengua vasca: Historia de los estudios sobre ella. Madril: Alianza Editorial</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Tovar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+	<note>Berrargit. Donostia: Basandere</note>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<monogr>
+		<title level="m" type="main">Larramendiren Hiztegi Hirukoitzaren osagaiez</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Urgell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<pubPlace>Vitoria-Gasteiz</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>UPV/ EHUko doktorego tesi argitaragabea</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<monogr>
+		<title level="m" type="main">«Introducción a la versión española de Correcciones y adiciones de Humboldt, al Mithridates de Adelung</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Urquijo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1933" />
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="447" to="459" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<monogr>
+		<title level="m" type="main">Essai d&apos;une bibliographie de la langue basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Vinson</surname></persName>
+		</author>
+		<editor>Maisonneuve. [Berrargit. faksim. J. Urquijoren oharrak eta K. Mitxelenaren hitzaurrea dituela</editor>
+		<imprint>
+			<date type="published" when="1984" />
+			<publisher>Gipuzkoako Foru Aldundia</publisher>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1891" to="1898" />
+			<pubPlace>Paris; Donostia</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>ASJUren gehigarriak</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="id">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Eibarko testu zaharrak berrikusten: 1754ko udal-ordenantzak Revisiting 18th century Basque administrative texts: a municipal ordinance from Eibar</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eneko</forename><surname>Zuloaga</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">UPV/EHU</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Eibarko testu zaharrak berrikusten: 1754ko udal-ordenantzak Revisiting 18th century Basque administrative texts: a municipal ordinance from Eibar</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1387/asju.20236</idno>
+					<note>ASJU 52-1/2 (2018), 909-932 ASJU 52-1/2 (2018), 909-932</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:20+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>First Modern Basque</term>
+					<term>critical edition</term>
+					<term>Eibar</term>
+					<term>administrative language</term>
+				</keywords>
+			</textClass>
+			<abstract xml:lang="nl">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In this paper I present a critical edition of a municipal ordinance from Eibar written in 1754. The text completes the corpus of old and modern texts of the Deba valley, and it gives new insights for the study of the 18th century Basque dialect of Eibar. Moreover, as this kind of texts are not so abundant in the history of Basque, it is quite interesting for the study of the administrative language. The ordinance was transcripted first by <ref type="bibr" target="#b10">Mujika (1908)</ref>, and subsequent text antologies followed it. However, these transcriptions are not free from errors. Thus, this edition intends to correct these mistakes and to give a critical version of the text. Along with the edition, I present an analysis of the graphic system and an analytical lexicon.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena</head><p>Lan honek Eibarko 1754ko udal-ordenantzaren edizio kritikoa aurkezten du. Idazkiak Deba ibarreko testu zahar eta modernoen corpusa osatzen laguntzen du, eta ideia eta ikuspegi berriak ematen ditu Eibarko XVIII. mendeko euskarari buruz. Are gehiago, era horretako testuak euskararen historian oso ugariak ez direnez, iturri interesgarri askoa da euskara administratiboa ikertzeko. Ordenantzaren lehenengo edizioa Mujikak (1908) egin zuen, eta orduz geroztiko antologiak haren lanari jarraikiz aritu dira, nahiz eta transkripzioetan akatsak agertu. Hain zuzen ere, edizio honek akats horiek zuzendu nahi ditu, eta testuaren ikuspegi kritikoa eman. Edizioarekin batera, testuko sistema grafikoaren deskripzioa eta lexikoi analitikoa aurkezten dira. Hitz gakoak: Lehenengo Euskara Modernoa, edizio kritikoa, Eibar, administrazio-hizkera. ENEKO ZULOAGA</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Joakin Gorrotxategiren omenaldia</head><p>Ez dut Joakin Gorrotxategi aurrez aurreko irakasle izan, baina bai zeharkako, azken urteotan euskararen historiarekin arduratu garen guztiok bezala. Ez ditut hemen aipatuko, jada besteek egin dutelako, eibartarrak azken hamarkadotan euskararen historiaren inguruan eta euskalaritzaren esparruan eginiko ekarpen esanguratsu eta ezinbestekoak. Aitzitik, haren ikasle edo menpeko ez izanda ere ingurumarietan ibili garenokin izandako abegi ona eta eskuzabaltasuna azpimarratzekoa eta eskertzekoa da, oso; esan dezadan, laburtu beharrez, lan hau besteak beste Gorrotxategiren eskuzabaltasunari esker prestatu ahal izan dudala, UPV/EHUko Micaela Portilla ikergunean, omendua bera honetaz ezer jakin gabe nigandik metro gutxira zegoela.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Sarrera</head><p>1 Euskal Herrian oraintsu arte «goi-mailako» zeregin edo lanbideetan ibili direnak batez ere latinez edo hizkuntza erromantzez aritu direlako ideia ez da berria, 2 nahiz eta horrek ez duen esan nahi herritar gehienak euskaldun ez zirenik hala jakintzaz nola erabileraz: latinaren zein hizkuntza erromantzeen (alde batetik) eta euskararen (bestalde) arteko diglosia zegoen, non herritarren arteko hizkuntza arruntak, euskarak, eguneroko bizimoduko esparru gehienak betetzen baitzituen, baina latina eta/ edo erromantzeak, lekua eta garaia zein den, goi-mailako zereginetarako erabiltzen baitziren. Ipar Euskal Herriko egoeraz, begiratu Oyharçabal (2001a) eta (2001b); Hego Euskal Herrikoaz -eta kasu honetan Nafarroakoaz, zehazki-, Monteanok (2017) liburu argigarria argitaratu du oraintsu.</p><p>Administrazio-testuei dagokienez, diglosia orokor horren ondorioz, oso gutxi dira xx. mendeko azken hamarkadak baino lehen euskaraz idatzitako administrazio-testuak, are «administrazio-testu» izendapena zabal ulertuta ere; hots, edozelako administrazio-prozesuri lotutako izkribuak aintzat hartuta, izan esaldi solteak, izan gutunak, izan lan honetan aurkezten diren ordenantzen erakoak.</p><p>1936 aurreko administrazio zibileko testuen bilduma prestatu zuen Imanol Trebiñok (2001), eta guztira hirurogeita hemeretzi testu edo testu-sorta bildu zituen. Lehen begi-kolpean gutxi ere ez direla pentsa liteke beharbada, baina aintzat hartu behar da bildumako testu zaharrenak 1616-1617ko Ros-Etxart gutuneriari dagozkiola, eta berriena 1935eko Lekeitioko bando bat dela; hots, bildumak azken lau mendeotako Euskal Herri osoko administrazio zibilaren esparruko materialak biltzen ditu.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="id">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Serapio Mujikak xx. mendearen hasieran esandakoak berretsi zituen Trebiñok ia mende baten buruan:</p><p>Cuando yo comencé a arreglar los Archivos Municipales de Guipúzcoa por encargo de la Excma. Diputación Provincial, era creencia general entre las personas que se ocupaban del pasado de nuestro país, la de que iba á encontrar en aquellos depósitos de papeles muchos documentos escritos en lengua vascongada, y sin embargo no ha sido así. Algunos, muy pocos, he hallado escritos en latín y todos los demás están en lengua castellana, con muy raras excepciones <ref type="bibr">(Mujika 1908: 725)</ref>.</p><p>Omenaldi-lan honetan, bada, udal-ordenantza zahar batzuk berrikustea erabaki dut: 1754an Pedro Cano y Mucientes Gipuzkoako korrejidore zela (1754tik 1758ra bitartean izan zuen kargu hori) emandakoen euskal bertsioa. Udal-ordenantzak ez dira Eibarko testu zahar bakarra: ezagunak dira 1685eko eta 1721eko koplak, monografiko banatan argitaratuak <ref type="bibr" target="#b5">(Lekuona et al. 1992</ref><ref type="bibr">eta Kalzakorta 2010</ref>. <ref type="bibr">3</ref> Hain zuzen ere, 1754ko ordenantzak ediziogintzaren ikuspegitik berrikusi behar zirelakoan heldu diot lan honi, bide batez omenduaren sorterriko testu bat dela aintzat hartuta.</p><p>Eibarko 1754ko ordenantzen inguruan ez dago informazio askorik, baina badakigu, aurretik esan bezala, Cano y Mucientes Gipuzkoako korrejidore zela emanak direla. Datazio zehatzagoa dela eta, azalpen hau gehitu zuen Trebiñok (2001: 60):</p><p>(…) badakigu 1755ean erregelamendu batez herriko kontuak urtero aurkeztu beharrean hiru urtean behin egiteko agindu zuela; eta azkenekoz, gure testuaren 13. artikuluan berriz, kontuak urtero bidaltzeko eskatzen duela ikusten dela. Datu hauetatik abiatuta gure Eibarko ordenantza hauek 1754 edo 1755 urteetan datatzea nahiko gauza zentzuzkoa dirudi.</p><p>Gregorio <ref type="bibr">Mujikak (1990</ref><ref type="bibr">Mujikak ( [1910</ref>: 206) Eibarri buruz idatzitako monografia historikoan dokumentatutakoaren arabera, 1754koak ez ziren hiribilduko lehenbiziko ordenantzak, ezta gutxiago ere: gorde ez diren arren, badirudi 1600 aurrekoak direla Eibarko ordenantza zaharrenak, ordukoak ere hauteskunde-prozesuei lotutakoak. Halaber, artxibo-lanak aise erakusten du 1600-1754 artean eta 1754az geroztik ere (1756an bertan) hainbat ordenantza eman zirela, izan aurrekoak zaharkituta zeudelako, izan ahaztuta edo galduta zeudelako:</p><p>Debió perderse pronto el recuerdo de todas estas ordenanzas; así parece, por lo menos, deducirse de lo que se dijo en sesión de 26 de enero de 1800; en ella se pidió que se hicieran ordenanzas, porque no las había, y únicamente se regían por costumbres establecidas <ref type="bibr" target="#b9">(Mujika 1990</ref><ref type="bibr" target="#b9">(Mujika [1910</ref>: 208). 1754ko ordenantzen berezitasun handiena agerikoa da: gaur egunera arte iritsi zaizkigun administrazio-testu gehienek islatzen duten ohituraren aurka, ordukoak euskaraz ere eman zituzten, eta gorabehera historikoek ez dituzte galarazi edo desagerrarazi. <ref type="bibr">ISSN</ref>: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 909-932 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20236</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">1754ko ordenantzen aurreko edizioak</head><p>Dakidala, Serapio Mujikak (1908) eginiko eta RIEV-en argitaratutako bertsioa da 1754ko testuaren transkripzio zaharrena. Transkripzio hutsa da, sarreratxo baten ondoren bestelako argibide handirik ez dakarrena, Gipuzkoako artxiboetan lanean jardun ondotik euskaraz aurkitutakoaren erakusgarri emana. Ez dirudi egileak testua edizio-irizpide jakin batzuen arabera moldatzeko asmoa zuenik, ez baita halakorik ageri.</p><p>Serapio Mujikak ordenantzen lehenbiziko transkripzioa eman ondotik, haren seme Gregorio Mujikak (1910) (ia) hitzez hitz jaso zituen Eibarko historiari buruz eginiko monografian. Zehazki, monografiaren zortzigarren eranskinean (464-467. orrialdeak) ematen da transkripzio berria, aurreko atal batean azaldutakoen osagarri.</p><p>Gregorio Mujikak ere ez zuen ordenantzen inguruko argibide handirik eman, baina ordenantzen itzulpenean erabilitako euskararen inguruko oharrak gogorrak dira: «Desde el año 1754 al de 1758 fué corregidor de Guipúzcoa, Pedro Cano y Mucientes, y dictó unas ordenanzas municipales sobre elecciones. Traducidas á un detestable euskera que casi no se merece el nombre de tal, se dieron á conocer al pueblo eibarrés <ref type="bibr">» (1990 [1910]: 200)</ref>. Antzera aritu zen orrialde horretan bertan emandako oin-oharrean: «reproducidas al pié de la letra con su defectuosísima ortografía y redacción» zioen.</p><p>Antxon Narbaiza eibartar ikertzaileak garbizaletasunarekin lotu izan du Mujikaren oldarkortasuna: «Ez da harritzekoa giro garbizale haren zurrunbiloan Mujikak agertu zuen iritzia. Hain zuzen, ospetsu bihurtuko zen bere Eibarko Monografía idazten ari zela eskuratu zioten testuak osagai gehienak zituen ikuspegi garbizale ezen ez filologiko batetik izan zuen harrera izateko» <ref type="bibr">(Narbaiza 1998: 105)</ref>.</p><p>Mujikak 1910eko transkripzioa 1908koaren hitzez hitzeko kopiatzat aurkeztu arren, alde txikiak daude batetik bestera. Ez dut bi testuen arteko goitik beherako alderatze sistematikorik egin, baina, txikikeriak albo batera utzita, merezi du aipatzea bestela ere 1910eko testuak berak argi islatzen duela 1908koaren zordun dela; besteak beste, zenbait hitzen bidez erraz ikus daiteke Mujika semeak ez zituela zuzendu (a) aitak oker transkribatutakoak eta (b) eskuizkribuan hala agertu arren ikuspegi kritikotik begiratuta zuzenketa eskatzen duten kasuak. <ref type="bibr">4</ref> Lehenengo sailean sartzen dira, besteak beste eta bizpahiru adibide besterik ez aipatzearren, eskuiz. 2 emonbiar, SM 2 enconbiar, GM 2 enconbiar; eskuiz. 2 Diputtacinuan, SM 2 Dipputacionuan, GM 2 Dipputacionuan; eskuiz. 9 arttu, SM 9 arthu, GM 9 arthu. Bestalde, bigarren sailean sartu beharko lirateke eskuiz. 12 errochonetatic, SM 12 errochonetatic, GM errochonetatic (zuzenketa-proposamena: errichonetatic) edo eskuiz. 13 armar, SM 13 armar, GM 13 armar (zuzenketa-proposamena: 13 amar). Halere, aitortzekoa da Gregorio Mujikak zuzendu zuela Serapio Mujikak oker emandako hitzen bat; cf. eskuiz. permitidu, SM 2 permutudu, GM permitidu edo eskuiz. 11 ifinita, SM ifimita, GM ifinita. Nolanahi ere den, kopia hitzez hitzekoa ez izateak akats berriak ere eragin zituen; cf. eskuiz. 9 andiric, SM andiric, GM aundiric; eskuiz. dabilsanac, SM 11 dabilsanac, GM dabilsanak. Mujikatarren lanen ondotik, xx. mendearen amaieran testu administratibo eta juridikoak biltzen dituzten bi antologiatan jaso dira 1754ko ordenantzak; alde batetik, <ref type="bibr">Urrutia &amp; Lobera (1995) lanean;</ref><ref type="bibr">bestalde, Trebiño (2001: 57-61)</ref> antologian. <ref type="bibr">5</ref> Urrutia &amp; Lobera (1995) lanak eranskinetan biltzen ditu Eibarko ordenantza zaharrak bestelako testu administratibo eta juridiko batzuen artean. Testuaren beraren tratamenduaren ikuspegitik lanak ez du aparteko baliorik: <ref type="bibr" target="#b10">Mujika (1908)</ref> lana aitortzen dute iturritzat, eta hala dela islatzen du transkripzioak ere. Arestian aipatutako hitzetako batzuk berreskuratuta, aise ikusten da Urrutiak eta Loberak koordinatutako lanean ezer gutxi aldatu dela, beren horretan jarraitzen baitute 2 Dipputtacionuan, 2 enconbiar, 9 arthu zein 12 errochonetatic bezalakoek. Halaber, ez dirudi Gregorio <ref type="bibr">Mujikak (1990</ref><ref type="bibr">Mujikak ( 4 [1910</ref>) aitaren testuari eginiko zuzenketa bakanak begiratu zituztenik, berriz ageri baitira 2 permutudu zein 11 ifimita bezalakoak. Are gehiago, kasu honetan ere transkripzio-akatsen bat gehitzen da: eskuiz. Iotten, SM Iotten, GM Iotten, AU&amp;AL loten; 2 eskuiz. edocein, SM edocein, GM edocein, AU&amp;AL edocem bezalakoez ari naiz. <ref type="bibr" target="#b16">Trebiño (2001)</ref> antologiak bestelako ikuspegia eta lan-mota dakartza: egileak eskuizkribua eskuratu eta erabili zuen, eta, horren bidez, transkripzio askoz ere fidagarriagoa lortu. Halere, testua ematean oso kontserbatzaile jokatu zuen: aldaketak testuan bertan egin ordez, oin-oharretan iradoki zituen; bestalde, erabat ondo ulertu ez zituen hitz eta pasarteetan sic gaineratu zuen, besterik gabe. Bestelako anbizioa du, halere, Trebiñoren lanak: aurreko lan batzuk gaindituaz eskuizkribura jo zuen eta mujikatarren lanak aintzat hartu zituen, bertsio zehatzagoa emateko; alabaina, edizioak gehiago du (erdi)paleografikotik kritikotik baino, hainbat kontutan hain geratzen da motz.</p><p>Aipatutako lanez landara, 1754ko ordenantzak bestelako antologiaren batean ere jaso dira (begiratu, kasurako, <ref type="bibr">Izagirre et al. 2000: 44-49)</ref>, baina oinarria Mujikaren transkripzioa izan da.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Testua eta edizio-irizpideak</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Testuaren kokapena eta itxura</head><p>Lan honek Eibarko 1754ko udal-ordenantzen edizio kritikoa dakar. Uste dut ezin zitekeela bestela izan, hala testu horrek beste ikertzaile batzuen eskutik eginiko ibilbidea nola Euskal Filologiaren sasoia aintzat hartuta.</p><p>Hemen aurkezten den testua editatzeko, jatorrizko eskuizkribuaren mikrofilmak eskatu nituen Eibarko Udal Artxiboan, eta kopia mikrofilmatu horiek izan dira nire iturri nagusia. <ref type="bibr">6</ref> Halere, aurretik azaldu dudanez, udal-ordenantza hauek behin baino gehiagotan transkribatu dira, eta Trebiñok (2001: §5), gainera, eskuizkribuaren kopia bat eman zuen zuri-beltzean. Aitortzekoa dut hori ere erabili dudala, zuri-beltzeko kontrasteak pasarte batzuen irakurketa errazten zidanez. Faksimileez harago, Txukuntasuna orokorra da. Alde batetik, lerroak ondo bereizten dira, koska simetrikoa mantenduta orrialdearen bi ertzetan (ertza ikusten den orrialdeetan behintzat); lerrokadak nahiko artezak dira, nahiz eta ezkerretik eskuinera egin ahala zertxobait goratzen diren; tinta-orbanak oso gutxi dira, eta oro har ez dute irakurketa oztopatzen; akatsen zuzenketa bakarra aurkitu dut euskarazko bertsioan: 7. ordenantzaren amaiera eta 8.aren hasiera lerro berean ageri dira, &lt; ) &gt; ikurrak bereizita (begiratu ohar paleografikoak). Beste alde batetik, kaligrafiak argi islatzen du egilea ohitua zela idazten (eta, are gehiago, dotore idazten): hainbat letraren formak eta irudi apaingarriek argi islatzen dute hori. Berehala ematen dute begira &lt;i&gt; letren puntuen ordez sarri erabiltzen dituen kiribilek (beti ez daude &lt;i&gt;-aren beraren gainean) eta lerroaren amaierako hitzen azken letra gorako marra kurbatu batez irudikatzeko joerak.</p><p>Hona hemen zenbait irudi, azaldutakoen erakusgarri:</p><p>Kaligrafia landua &lt;i&gt; gaineko kiribila Lerro amaierako apaindura Eskuizkribuaren egoera materialari dagokionez, esan dezadan recto orrialdeen eskuineko ertza hondatuta edo urratuta dagoela. Horrek, jakina, zenbait zalantza eta irakurketa-arazo eragin dizkit. Ez dut zehatz esaterik noiz hondatu zen papera ertz horretan, baina behin baino gehiagotan aipatu dudanez (eta Trebiñok ere islatu zuenez), baliteke Mujikak orrialdeok aurkitu zituenean materialki hobeto kontserbatuta egotea (alegia, egun dauden urratuak ez egotea edo arinagoak izatea); izan ere, Mujikak osorik eman zituen lerroen amaierako hitzak, hala ikusi edo berreraiki egin zituen zehaztu barik. Nago kasu batzuetan benetan ikusitakoak eman zituela idatziz, baina beste batzuetan berreraiketan aritu zela. Ohar paleografikoez aritzean itzuliko naiz gai honetara.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Edizio-irizpideak</head><p>Zalantza-iturri izan daitezkeen irakurketak eta eskuizkribuaren egoerari dagozkion oharrak testuen edizioaren ondotik jaso ditut, ohar paleografikoen atalean. Edi- 4. Baita bere, electoriei oz eguiten deuzenei eleccinuetaraco alcate jaunac, elecinua eguiteco, edo nombramentua, alcatiac, errejidoriac, sindicubac eta beste errico empleo gustiac urte barritic aurrera yzan biaco dabenac eguiten badabe elecino charric eta onec izaten badabe quiebraric edo jaten baditube errico errentac, electoriac eurac yzan biaco dabela fichadore da abonadore, da pagau izan biaco dabela aren falta gustichac, zergaiterren errichac estabela biar perjuicioric, es quiebraric, da estabela pagauco electoriaren culparic berac baino, da contuban egon ditiala.</p><p>[5]. Baita bere, justicia-errejimentu gusticha egon deella contuban, da cuidado eguin daichela, baita procedidu bere jitanuen, bagamunduen da pecatu publicuan dabilzanac Jangoicuan bildur baga. Baita bere, amenzebaubac izan ditiala castigaubac eta desterraubac.</p><p>[ [1]3. Baita bere, justicia-jaunac probinciaco erri gustietacuac bialdu daychela urtebarrico ylian, ceina baita ustarrilian, urte gustietacuan, testimonio originala errico contu municipaletacua Gastelaco conseju errialera, da erregue magestariaren escribau nauci camaracoaren escubetara berrogueta amar milla marabidiren penan, da osteruncian izango dala gueure erregueren castiguba ó gracicha bere vorondatera.</p><p>[14]. Baita bere, justiciac procurau daichala obserbau eraguitia gordecia falta baga correxidore jaunac emoeban autuba Arrateco fiesten gainian, baita bere provinciaco decretuan gainian, seinetan contenizen dan debecacia cazia eta pesquia, multa andichen gainian, da presente euqui dayela astu baga.</p><p>[15]. Baita bere, gorde deila, cumplidu da ejecutau esaten daben legues gauza gustian orainengo autuba probidencietacua bere ogueta amasaspi capitulubequin probeiduba gure correjidore izan zana provincia onetan, Don Pedro Cano Mucientes, baita bere gueruago etorri izan diran decreto errialac. 13 testimonio originala: bi hitz horien gainean, oro har 13. puntuaren hainbat lerrotan eta lerroartetan legetxez, tinta-zipriztinak edo orbanak daude, baina azpian dautzan letrak arazo larririk gabe irakur daitezke.</p><p>14 correxidore: &lt;d&gt;-z eman dut Mujikak eta Trebiñok bezala, baina ikurrak testuko &lt;j&gt;-en antza handiagoa du (&lt;j&gt; ezarrita ez luke zentzurik, jakina).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Aparatu kritikoa</head><p>11 erregueren] jatorrizkoak erreguren; GM erreguren, IT erreguren || 12 errichonetatic] jatorrizkoak errochonetatic; GM errochonetatic, IT errochonetatic || 12 ceina baita] jatorrizkoak ceina batta; GM ceiña batta, IT ceiña batta || 13 amar] jatorrizkoak armar edo, aukera gutxiagorekin, armaz; GM armaz, IT armaz. res y demás empleos de la villa para el discurso más próximo venidero queden obligados a abonar a los electos que los nombraren, por si hicieren alguna quiebra, para que la villa no tenga perjuicio alguno por su mala elección. 5. Así bien cuiden y procedan contra los jitanos, bagamundos y pecadores públicos y amanzebados. 6. Que los jueces hordinarios hechen a todo morador que no dé fee de su nobleza, baga idaguía dentro de un año de su mandato. 7. Que no permitan asistir ha bodas a personas que no sean parientes en tercer grado inclusibe. 8. Que no nombren a hijos de clérigo por escribano, pena de cincuenta ducados. 9. Que la justicia no tome ni pueda tomar a censo por ningún motibo ni pretesto alguno, por urjente que sea, cantidad alguna en nombre de la villa y su conzejo sin expresa facultad real, y que a su contrabención se procedera por cuanto hubiere lugar [me]dio a la redempción de los propios [fi]nes de justicia y capitulares. 10. No permitan tamboril ni atabal ni [cossa de] festín en las fiestas que se están reformadas. 11. Que las justicias procuren con mucha bigilancia castiga[r] a los contrabentores de la real renta de el tabaco bajo de las penas establecidas assí por el consejo supremo como por la provincia en barios decretos y cédulas reales. 12. Que no se permita usar de el tabaco rapè pena de las que están establecidas en la real cedula de su prohibisión, que le comprehende a la multa de quinientos ducados por la primera bez y su castigo personal a la voluntad de los jueces del rey nuestro señor (Dios le guarde). 13. Que las justicias y demás pueblos de esta provincia embien por todo el mes de enero de cada añ[o] testimonio original de las cuentas de arbitrios mu[ni]cipales al consejo real de Castilla y a manos de el escribano de cámara de su majestad al más antiguo, pena de cincuenta mil marabedises por la primera bez y de la merced de su real magestad. 14. Que la xusticia procure en hacer, obserbar y guardar el auto que dio el señor correxidor en razón de las fiestas de Arrate y también el decreto de la probincia sobre prohibisión de caza y pesca bajo de las penas en él contenidas. 15. Que se guarde, cumpla y execute en todo y por todo el último auto de probidencias y sus treinta y siete capítulos probeido por el señor correxidor Don Pedro Cano y Muciente[s] y demás decretos y reales posteriores.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">Gaztelaniazko testua</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ordenanzas municipales de la villa</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Euskal testuaren grafiaz</head><p>Leku faltaz, lan honetan ezingo dut testu honen hizkera aztertu eta Eibarko eta Gipuzkoako mendebaleko beste testu batzuen argitan duen kokaguneaz jardun (gai horiei buruz, begiratu Zuloaga prestatzen). Halere, egoki iritzi diot grafiaren inguruko zenbait ohar emateari, besteak beste edizio-lana egitean eskuizkribuan ageri diren zenbait elementu grafiko aldatu ditudalako (edizio-irizpideetan bildu ditut aldaketok).</p><p>Grafiaren esparruan testuak ez du ez zailtasun, ez berezitasun handirik: 6.1. /i/ bokal itxia adierazteko, &lt;i&gt; eta &lt;y&gt; grafemen arteko ohiko banaketa ageri da: oro har, &lt;y&gt; hitz hasieran ageri da (1 Ydalgua, 1 Ydacorten, 3 Ylorduco, 4 yzan, 6 yrago…), baita diptongoan ere, bokalerdia adierazteko (oro har, egin laguntzailearen formetan: 7 esttayala, <ref type="bibr">9 &amp; 10 &amp; 12 esttaychal[a]</ref>, 13 daychela, 14 dayela). Halere, hitz batzuetan grafema bat zein bestea aurki daitezke, baita lerro berean dauden hitzak izanda ere: 3 Ymbenttarichuau, baina 3 Im[benta]richo; 4 (birritan) yzan, baina 4 izatten.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>6.2.</head><p>Euskal testuetan arazo izan ohi da &lt;j&gt;-k adierazten duen hotsa argitzea, grafema horrek [j] &gt; [š] &gt; [x] prozesuko edozein ahoskera isla baitezake. Testuetan idatziz emandakoaren ahoskera argitzeko ezinbestekoa izan ohi da, horretarako adibide eta ingurune nahiko dagoenean, sistema grafikoaren osotasuna aintzat hartzea, hots ezberdinak isla ditzaketen oposizioen bila. Eibarko udal-ordenantza hauei dagokienez, &lt;j&gt;-k [x] islatzen duelakoan nago; hots, uste dut xviii. mendearen bigarren erdian indarra zuela jada gaur egun (ere) Eibar inguruan ahoskatzen den belarrak. Hori proposatzeko arrazoi nagusia &lt;j&gt;-ren eta &lt;y&gt;-ren inguruneen araberako banaketan dakusat; izan ere, &lt;j&gt; edozein lekutan agertzen da: mailegu berrietan, belarrik ez dagoen hizkeretan ere [x] ahoskatzen diren hitzetan (ohiko adibideak dira Elizaren ingurukoak: erlijio, jaun…) eta ondare zaharrekoetan, kokagunea edozein delarik. Bokal artean &lt;j&gt; da ohikoena, bai gaztelaniatiko hitzetan (gehienak), bai euskal hitzetan (adizkiren bat besterik ez dago): 1 elejizera, 4 Errejidoriac, 5 errejimentu, 5 jitanuen; 6 esbajaco. Ingurune horretan, ordea, bada beste grafema interesgarri bat, bizpahiru aldiz besterik agertzen ez den dena: 2 execucinoric eta 14 correxidore adibideek &lt;x&gt; grafia zaharrari eusten diote, nahiz eta beste hitz batzuen argitan ez dirudien kontua grafiatik harago doanik, 15 correjidore ere badagoelako.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>6.3.</head><p>Testuaren eskuizkribua lehenengoz hartzen duenak berehala izan dezake ordenantzetan palatalizazioa zabal eta egungo moldez adierazten delako ideia, &lt;tt&gt;-z josita baitago. Alabaina, &lt;tt&gt; horiek pausaz begiratuta, azkar ikusten da ez direla palatalizazioaren adierazpen, ezpada gerora galdutako erabilera grafikoa, bide batez edozein posiziotan ager daitekeena: 1 attrebiduba, 3 etta, 11 esttaucana, 2 ttittulu,  <ref type="bibr">(Zuazo 2006a: 58)</ref>. Gogoan hartzekoa da kontsonante epentetiko horiek adierazteko &lt;y&gt; eta &lt;j&gt; izan direla ohikoagoak Mendebaleko testuetan. 6.5. Txistukarien sailean, aipatzekoa da udal-ordenantzetan ez direla frikariak eta afrikatuak bereizten; beraz, esan daiteke Hego Euskal Herrian Larramendik bere proposamena egin aurreko sistema ageri dela ordenantzetan. 6.6. Aurrekoez landara, gai gutxi aipa litezke grafia-kontuez. Beharbada interesgarri dira ahoskatu ez arren ondare zaharreko euskal hitz gutxi batzuen hasieran agertzen diren h-ak: 7 haide, 8 habaderen, 9 hizango. Halaber, hasieran dardarkaria duten mailegu gordin batzuek &lt;r-&gt; zein &lt;e-&gt; protetikoa izan dezakete: 9 rrigorosamen <ref type="bibr">[te], 9 rejimentubac, 10 reformautta, 11 realac; 5 &amp; 8 &amp; 10 errejimentu, 9 &amp; 11 &amp; 15 errial, eta abar.</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Hiztegia</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.1.">Hiztegi-irizpideak</head><p>Ondoko orrialdeetan aurretik landutako euskarazko testuko hitz guztiak biltzen dituen hiztegia ageri da.</p><p>Lan honetan hiztegiko sarrerak ematean forma osoagoen alde egin dut; oro har Orotariko Euskal Hiztegia-ri jarraitu diot gaurkotze-lanetan, baina aldaera batzuk mantendu egin ditut, izan tradizio luzea duten aldaerak direlako, izan bariazio dialektalaren azterketarako interesgarri izan daitezkeelako. Ozen ondoko txistukarien ahoskera zein zen argitu ezinik ibilita (hots, frikari ala afrikatu ahoskatu behar diren ezin argituta), ozenaren ondotik &lt;(t)&gt; ezarri dut lemetan, bi aukerak aintzat har daitezen.</p><p>Lemaren ondotik hitzaren kategoria ageri da, laburduraren bidez adierazita. Gainera, beharrezkotzat jo dudan kasuetan esanahia zehaztu dut ' ' ikurren artean.</p><p>Azkenik, azpian hitzaren agerrera guztiak ageri dira, testuan duten grafia berberarekin eta adibide bakoitzak dagokion paragrafoaren zenbakia aldamenean duela.  <ref type="bibr">, 2, 3, 4, 5, 5, 5, 6, 7, 8, 9, 10, 11, 11, 11, 12, 13, 14, 14, 15</ref>  <ref type="bibr">3,</ref><ref type="bibr">4,</ref><ref type="bibr">5,</ref><ref type="bibr">5,</ref><ref type="bibr">5,</ref><ref type="bibr">6,</ref><ref type="bibr">6,</ref><ref type="bibr">6,</ref><ref type="bibr">7,</ref><ref type="bibr">8,</ref><ref type="bibr">9,</ref><ref type="bibr">9,</ref><ref type="bibr">10,</ref><ref type="bibr">11,</ref><ref type="bibr">11,</ref><ref type="bibr">12,</ref><ref type="bibr">13,</ref><ref type="bibr">13,</ref><ref type="bibr">14,</ref><ref type="bibr">14,</ref><ref type="bibr">15,</ref><ref type="bibr">15</ref>  <ref type="figure">1, 1, 1, 1, 1, 1, 2</ref> <ref type="bibr">, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 9, 9, 9, 9, 9, 10, 11, 12, 12, 12, 13, 13, 14, 15; eta 1, 3, 4, 4, 5, 6, 7, 9, 9, 11, 11, 11, 14</ref>   <ref type="bibr">, 9, 9, 9, 13; dan 2, 2, 7, 14;</ref>  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>1</head><label></label><figDesc>Bihoazkie nire eskerrak Dorota Krajewskari eta Borja Ariztimuñori, testu honen zenbait korapilo askatzen edo arintzen emandako laguntzagatik. Eskerrik asko, halaber, Eibarko Udal Artxiboko Yolanda Ruiz artxibozainari, eskuizkribu hau eta beste batzuk eskuratzeko emandako erraztasunengatik. Lan honek MINECOk finantza tutako «Monumenta Linguae Vasconum (V): periodización y cronología» [FFI2016-76032-P] ikerketa-proiektua-ren eta Eusko Jaurlaritzaren «Historia de la Lengua Vasca y Lingüística Histórico-Comparada» [GIC IT698-13] ikerketa-talde iraunkorraren babesa izan du.</figDesc><table /><note>2 Horrekin ez dut esan nahi gizarteko goi-mailetan jaio, bizi edo ibilitakoak ere euskaldun izan ezin zitezkeenik, Lazarragak (adibide bat ematearren) erakusten duenez.ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 909-932 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20236</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>-lanari lotutako zuzenketa laburrak testuan bertan egin ditut, eta ohar paleografikoen ondotik emandako aparatu kritikoan jaso. Nire irakurketa aurretik beste batzuek transkribatutakoarekin edo editatutakoarekin bat ez datorrenean, besteen irakurketa eman dut oharrean, aurretik ediziogilearen izenaren laburdura adierazita. Zehazki, bi lanekin erkatuko dut nirea: Mujikak 1908an egindakoarekin (SM laburdura erabiliko dut aparatu kritikoan) eta Trebiñok 2001ean egindakoarekin (kasu honetan IT laburdura erabiliko dut). /u/ adierazteko &lt;v&gt; ageri denean, &lt;v&gt; → &lt;u&gt; bihurtu dut; aitzitik, /b/ adierazteko &lt;u&gt; ageri denean, &lt;u&gt; → &lt;v&gt; bihurtu dut. • &lt;a&gt;, &lt;o&gt; eta &lt;u&gt; aurrean &lt;qu&gt; pro &lt;c&gt; ageri denean, &lt;qu&gt; → &lt;c&gt; bihurtu dut. Jaunac, en resumidas cuentas, onec esan gura dabena da ze est[ei]la izan inor bere atrebiduba da adelantauba elejizera alcateric personaric seina baita espada persona onrrauba, ydalgua, aberaza da erraizac daucasana, da guison abonauba da oficio charric estaucana. Baita bere, esteila izan oficial[ic] edo oficialeric soldau danic, erregue magestariaren errej[i]mentuban serbizen dabenic, esta bere ydacorten da esc[ri]bizen estaquichanic, eta bardin joten badau alacoric, izang[o] dabela vimilla marabidiren multia, da jaquinda egon de[lla]. 2. Baita bere, errico alcatiac estaichala permitidu eguiti[a] execucinoric bere flogedades, datozanian juezac camp[oe]tatic inor arzera bere jurisdiccinuan ò pezquisa eguiter[a] edocein bere persona, ya cedulequin ò probisinuequin, sega[itic] lelengo biar dabe izan instrumentubones exhaminaubas, ju[n]tan ò diputacinuan, da emon biar jaquiela uso correspond[i]zen dan legues da aguinzen daben legues bigarren leguiac, provinciaco fueruac, seina baita esaten daben legues titulu ogueta bat garrenac. 3. Baita bere, alcate ordinarichua erri gustietacuac [escri]bauric ilten danian eguin biar dabela alcate jaunac im[benta]richo barricha numerichan dagozan erregistruena &lt;1v&gt; gustiena, da papel suelto gustichena, escribauba yl orduco baldin numerala bada, eta, ymbentarichuau acabau deinian, beriala da demporaric galdu baga, alcate jaunac bialdu daichala testimonio bat diputacinora, da baldin eguiten espadau, izango dabela multia alcate jaunac da erregidore jaunac: berrogueta amarna ducat bacochac.</figDesc><table><row><cell>Hona hemen testua editatzeko erabili ditudan irizpideak:</cell></row><row><cell>-Eskuizkribuko orrialdeak zenbakitu ditut, eta orrialde bakoitzari dagokion</cell></row><row><cell>zenbakia ezarri diot &lt;1r&gt;, &lt;2r&gt; eskemari jarraikiz.</cell></row></table><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 909-932 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20236zio• Lerro-zenbaketa dela eta, prosaz idatzitako testua da, eta, administrazio-agiria izanik, puntuka dator antolatuta jatorrizko eskuizkributik. Bada, barne-bana- keta hori mantendu dut; hots, eskuizkribuari dagozkion orrialdeak &lt; &gt; artean eman ditut, eta ordenantzako puntu bakoitzaren hasieran datorren zenbakia mantendu eta edizio-oharretarako erabili dut.-Alderdi formalak gaur egun baliatzen diren irizpideen arabera moldatu ditut; zehazki, puntuazio-marken erabilera, letra larri eta xeheen erabilera eta ortoti- pografia.-Hitz-banaketa eguneratu dut, Euskaltzaindiaren hiztegia-ren arabera eta tar- tean hots-aldaketen zantzurik ez dagoenean; halakoetan, testua bere horretan utzi dut.-Izen propioak zeuden bezala utzi ditut.-Laburdurak osatu ditut.-Testuetan argi irakurtzen ez diren edo falta diren zatietan [ ] ikurren artean berreraiki dut hutsunea betetzeko proposamena. Horrela jokatu dut, halaber, beste ediziogile batzuek itxuraz argi irakurritako hitz-edo esaldi-zatiak nik neuk argi irakurtzerik ez izan dudan kasuetan.-Grafia-gaiei dagokienez, oro har kontserbatzaile jokatu dut, gutxieneko alda- ketak eginda: • &lt;tt&gt; bikoitzak → &lt;t&gt; bihurtu ditut, bustidura islatzen ez dutela egiaztatu ondoren.•-Egoki iritzi diot 1754ko udal-ordenantzaren euskarazko bertsioarekin batera gaztelaniazkoa ere emateari, eta kasu horretan Charta nazioarteko sareak tes- tuen bertsio kritikoa emateko zehaztutako edizio-irizpideak baliatu ditut.7 ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 909-932 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20236 5. Edizioa 5.1. Euskarazko testua &lt;1r&gt; Ordenanza municipalac eusqueras elecinuetaraco[z] 1.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>6]. Baita bere, alcate jaunac daucala facultadia moradore gustiac erritic botazeco urtebete yrago esquero, baldin presentazen es bajaco bere noblecia o ydalguicha eguina provincian usazen daben legues, eta lenagotic egon esquero notificauta edocein bere alcate jaunec. &lt;2r&gt; 7. Baita bere, errico dan alcate jaunac estayala permitidu person[aric] esconzetara juateric yrugarren graduban haide estanic, eta con[tu] izan deiquiala beguiracia esconsac diranian; espaere, multauba iz[an]go dala. Baita bere, egon della contuban justicia-errejimentu gus[ti]cha: esteila nombrau escribauzat habaderen semeric, verroguet[a] amar ducaten penan bacochac. 9. Baita bere, justicia-rejimentubac errichan izenian estaychal[a] artu diruric censora-motibuac da pretestuac daucasala pensa[uaz], esta necesidade andiric da urgenciaric baleuca bere, conzejuba[ren] izenian facultade errial baga, da bardin onela atrebimenturic arzen badabe, procediduco dala persona onen contra rrigorosamen[te] leguiac aguinzen daben leguez, eta eguingo dala onelaco censuaren erredencinua alcate jaunaren errejidoren eta sindicubaren haciendetatic, da erri noblea hizango dala libre da exemp[to] onelaco censuetatic. 10. Baita bere, justicia-errejimentubac estaychala permitidu pl[aza] publicuan tambolinic, es atabalic, es fiestaric jai quendu da [re]formauta dagozanetatic (aita santubac quenduta daucasan[ac]). 11. Baita bere, justicichac procurau daichala cuidado eta vigila[ncia] andicharequin castigazia erregueren contra dabilsanac cont[traban]duan tabacuac pasazen Gastelara, erregue magestariaren inter[es] errialaren contra, eta onec dauquezala señalauta pena andich[ac], castigubac ala consejo realac ifinita, baita bere gure provin[ciac] decreto eta cedula errial ascotan gueure oneraco, baita ber[e] [gal]du estitian gueure ama provinciacuan fueruac, seina bai[ta] [con]beni jacusan gueure libertaderaco da pechupian es egoteco. 12. Baita bere, estaychala permitidu justiciac arzia da usaz[ia] [taba]cua &lt;2v&gt; esaten deuzena rapè Franciacua, ceina baita daguan debecauta gueure erregueganic, bosteun ducaten multiaren azpichan da estableciduta dagozan penen beian, da izateco onelacuac desterraubac errichonetatic.</figDesc><table /><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 909-932 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20236 8.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>Izenburua elecinuetaraco[z]: amaierako &lt;z&gt; ez da eskuizkribuan garbi ikusten (ez egun, behintzat), baina Mujikak hala eman zuen eta ez dirudi existituko ez balitz transkripziogileak halako forma bat emango zukeenik. -ko(t)z atzizkia ez da sarri dokumentatu Euskal Herriko mendebaleko testuetan, baina lekukotasun arkaikoetan egon badago: Lazarg A26:141 secularecoz, B30 s :17 arimacoz eta gorpuzecoç; RS 142 Oñac oz elejaracoz, vero ezconçaracoz; Andram 1-4 eguitecos; RodrZar 2 canporacos eta abar. Nolanahi ere den, -ko(t)z bakarra da testuan: 4 eguiteco, 6 botazeco, 11 egoteco, 12 izateco. Bide beretik doa Trebiño: «Guk Elecinuetaraco ikusten dugu, baina Serapio Mujikak Elecinuetaracoz jaso zuen. Paperaren bukaeran denez ezin dugu ziurtatu ezkerreko «z» hori ez zegoela, nahiz eta arraroa iruditu» (2001: 57, 48. oinoharra). 1 alcateric personaric: pasarte arazotsua da, zerbait soberan dagoela ematen baitu. Zehazki, esaldi osoa aintzat hartuta, bi irakurketa egin daitezkeelakoan nago: ahalbidetzen irakurketa erabat ziurrik egiterik, baina ez dago bestelako aukera handirik. Hartara, esaldia bere osotasunean aintzat hartuta, ofizial eta ofiziale hitzen esangura ezberdina litzateke, beharbada Ipar Euskal Herriko testu batzuetan bezala (cf. OEH, s.v. ofizial &amp; ofiziale). 1 de[lla]: lerroaren amaieran daudela eta, zenbait letra ez dira ikusten. Mujikak eta Trebiñok della ematen dute, eta proposamen ziurragorik egin ezinik bere horretan utzi dut. Testuko gainerako lekukotasunek ez dute askorik laguntzen, hiru aldaera ageri baitira: 5 deella, 8 della, 15 deila. 2 camp[oe]tatic: ematen du kanpotik nahikoa litzatekeela, baina hurrengo lerroaren hasierako -tatik-ek plurala eskatzen du; gaztelaniazko «de las afueras» esapidearen zuzeneko itzulpena izan daiteke. Trebiñok edocem eman eta «sic» aipatzen du (2001: 57, 50. oin-oharra), baina hitzaren gaineko kiribilak &lt;i&gt; dagoela islatzen du; alegia, Mujikarekin bat, edocein irakurri behar dela. 2 sega[itic]: paper urratuak ez du aukerarik ematen hitzaren erdia ikusteko, baina motibatiboaren -gaitik aldaera hobetsi dut -gatik-en ordez. 1754ko testuan ez dago motibatiboaren beste formarik, baina Eibarko bertako 1685eko kopletan 11 Zeloe gaitic dago. Mujikak segatic dakar, eta Trebiñok ere bai, nahiz eta azken horrek ematen duen faksimilean ere ez den argi ikusten. 2 aguinten daben legues: ematen du idazlea nahasi egin zela, eskuizkribuak aguinzen dan legues baitakar. Ziur asko, aurretik ageri den dan-en eraginez eginiko akatsa da; izan ere, esaldiak zentzua izan dezan, aguinzen daben legues bigarren leguiac esan behar du testuak. Lehen begi-kolpean aguinzen dan legues bigarren leguian zuzenketa ere proposa liteke, baina aintzat hartzekoa da ondoren datorren provinciaco fueruac aposatuarekin komunztadura zaindu behar dela. 2 titulu: eskuizkribuaren ertza hondatuta dagoela eta, berbaren hasiera besterik ez da irakurtzen. Mujikak eta Trebiñok titulo berreraiki zuten, baina nik titulu ezarri dut, tradizioz zabalago dokumentatutako aldaera baita (OEH, s.v. titulu). 2 ogueta bat garrenac: garren atzizkia bereizita. Bestalde, Mujikak ikusitako ogeita-ren aurka eta Trebiñoren edizioarekin bat (2001: 57, 51. oin-oharra, nahiz eta ez duen ogeita guztiz baztertzen) oguetta argi irakurtzen dut nik neuk. Trebiñok ogueita irakurtzen duen lekuan, ogueta irakurtzen dut nik neuk, Mujikarekin bat etorrita. Ziur asko, &lt;tt&gt; digrafoak nahastu zuen Trebiño. Trebiñok zuzen dioenez, Mujikak erregistruena liburu gustiena transkribatu zuen; alegia, liburu hitza gehituta, ezelako markarik edo oharrik egin gabe. &lt;1r&gt; orrialdea erregistruena hitzarekin amaitzen da, eta &lt;1v&gt; gustiena-rekin hasi, nahiko garbi. erregistruena hitzaren ondotik &lt; -&gt; itxurako marra dago, eta orrialdea urratuta. Trebiñok ez du baztertzen gerora desagertu den zatian liburu hitza agertzea, baina, egia esatera, ez dirudi leku askorik dagoenik ez liburu, ez beste hitzik agertzeko; beraz, uste dut gogoan zuen hitzen bat limurtu zitzaiola Mujikari transkripzio-lana egin artean, edo osatu nahi izan zuela. 4 deuzenei: txistukari frikaria ez da erabat argi irakurtzen, tinta-orban batek marrak estaltzen baititu. Nolanahi ere den, goialdean ikus daitekeen marratxo horizontala eta testu bereko 12 deuzena aintzat hartuta, &lt;z&gt; eman dut, Mujikarekin eta Trebiñorekin bat etorrita. 7 izango dala: aditzaren ondotik &lt; ) &gt; itxurako marra batek bereizten du zazpigarren paragrafoaren amaiera zortzigarrenaren hasieratik, zazpigarrenaren amaieran paragrafoak ixteko ohiko &lt; = &gt;-rik eman gabe. Idazlea nahastu egin bide zen, eta, tarte zuria utzi beharrean, zortzigarren puntuari dagozkionak zazpigarrena amaitzen den lerroan hasi zituen. Era horretako nahaste bakarra da testu osoan. .20236 biak gaztelaniazko bertsioari jarraituta: a personas dakar testuak. Halere, kasu honetan uste dut bidezkoagoa dela partitiboa berreraikitzea, datibo plurala proposatuta aditzarekiko komunztadurarik ez dagoelako eta partibiboa eskatzen duelako ondoan datorren erlatibo aposatuak: 7 estayala permitidu persona[ric] esconzetara juateric yrugarren graduban haide estanic. txistukaria ez da argi ikusten, baina ematen du grafema hurbilago dagoela &lt;z&gt;-tik &lt;s&gt;-tik baino, nahiz eta Mujikak eta Trebiñok dagosan eman. 13 ustarrilian: bitxitzat jo zuen Trebiñok, «sic» marka emanda (2001: 58, 57. oinoharra); baina, ez da zuzendu beharreko aldaera, Azkuek ere Gipuzkoako mendebaleko hizkeretan aurkitu baitzuen (cf. OEH, s.v. urtarril).</figDesc><table><row><cell>hala berreraiki behar da, zalantzarik gabe, azken silabak eta gaztelaniazko bertsioa aintzat hartuta. 3 Im[benta]richo: beste horrenbeste. 3 ilten: jatorrizkoak &lt;tt&gt; digrafoa dakar, eta lehenengo &lt;t&gt;-ak &lt;l&gt;-a zapaltzen du. tan utzi dut, koherentea eta neurrikoa delakoan. 10 daucasan[ac]: hala berreraiki dut, Mujikarekin eta Trebiñorekin bat, baina daucasan[etatic] ere ez litzateke guztiz baztertu beharko, erlatibo aposatu legez. 11 vigilancia: kasu honetan ere hitza ez da osorik ikusten, baina nahiko argi dago vigila[ncia] berreraiki behar dela, Mujikak eta Trebiñok vigilanci eman bazuten ere; ziur asko, Euskal Herriko erdialdeko hizkeretan -a organikoa galtzeko joerari jarraitu zioten. 11 inter[es]: Trebiñok ez ei zuen hitza ikusten, bere kopian hasierako &lt;i-&gt;-ren on-dotik amaitzen baita lerroa (eta orrialdea). Neuk erabilitako mikrofilman ere hitza ez da osorik ikusten, baina bai gehiena, Mujikaren irakurketa (interes) bermatuta. 12 usaz[ia]: lerroaren amaierako paper urratuak ez du biderik ematen hitzaren amaiera ikusteko, baina testuan ageri diren arau fonologikoak aintzat hartuta, erdiko bokalaren igoera berreraiki dut, Mujikak eta Trebiñok emandako berreraiketaren (usazea) aurka. 3 erregistruena gustiena: 9 pensa[uaz]: hitzaren amaiera falta da, baina Mujikaren berreraiketa bere horre-12 dagozan:</cell></row></table><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 909-932 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20236 Ohar paleografikoak(a) alkate hitzak partitibo-markarik behar ez izatea eta idazlearen lapsus bat ger- tatu izana, lerro-aldaketak bereizten baititu hitza eta deklinabide-marka; har- tara, esaldia honela geratuko litzateke: «onec esan gura dabena da ze est[ei]la izan inor bere atrebiduba da adelantauba elejizera alcateric personaric seina baita espada persona onrrauba, ydalgua, aberaza da erraizac daucasana, da gui- son abonauba da oficio charric estaucana». (b) aukera personaric hitza ezabatzea da, egileak behar ez zen lekuan (edo behar baino lehenago, ondotik ere ageri baita) sartu zuelakoan (bide batez, hori da OEH-ko s.v. elejitu sarreraren adibidean hautatu duten irtenbidea); hartara, esaldia hala geratuko litzateke: «Jaunac, en resumidas cuentas, onec esan gura dabena da ze est[ei]la izan inor bere atrebiduba da adelantauba elejizera alca- teric seina baita espada persona onrrauba, ydalgua, aberaza da erraizac dauca- sana, da guison abonauba da oficio charric estaucana.» Gaztelaniazko bertsioa ez da argigarri pasarte honetan. 1 oficiali[c]: kasu honetan ere orrialdearen ertzaren egoera kaxkarrak ez du2 eguite[ra]: eskuizkribuan ikusten ez dudan arren, helburuzko perpausean adla- tiboa berreraiki dut, Mujikarekin eta Trebiñorekin, eta testuko adibide garbi batzue- kin bat etorriz (cf. 2 datozanian juezac camp[oe]tatic inor arzera).ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 909-932 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20236 2 edocein:3 [Escri]bauric: hitzaren lehenengo silabak ez dira ikusten, baina7 persona[ric]: lerroaren amaieran dagoela eta, hitzaren azken letrak ez dira ikus- ten. Mujikak personai transkribatu zuen, eta Trebiñok personei, ziur asko biak alaISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 909-932 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>1. Que ninguno sea osado a elejir por alcalde a personas que no sean hi-Que ningún alcalde hordinario permita hacer execución por uso cuando algún juez de pesquiza llegare a su jurisdicción u otras cualesquier personas con algunas cédulas o probisiones antes que sean exhaminadas en junt[a] [o] diputación, conforme prebiene la ley segunda de el t[ítulo] veinte y uno de fueros. 3. Que los jueces hordinarios de cada lugar hagan imbentariar todos los rejistros y demás papeles sueltos de es[cri]banos numerales cuando alguno de estos falleciere [y] remita por su merced testimonio a la provincia, pena [de] cincuenta ducados a cada capitular. 4. Que los electores que fueren llamados al tiempo de las [eleccio]nes para efecto de nombrar alcaldes y rejidores cap[itula]</figDesc><table /><note>josdalgo, ricos y abonados, y que sean o tu[bie]ren en mero oficio y tampoco sean oficiales de rejimiento a[l]guno y que no sepan leer ni escribir, pena de que cada cual pague dos mil marabedises.ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 909-932 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20236 2.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>Gerora galdu bazen ere, esan bezala, fenomenoa ez da oso berezia: Espainiako Errege Akademiaren 1741eko ortografiak (1741: 226-233) deskribatzen du, eta ohikoa da mende hartako bertako bestelako testu juridiko-administratiboetan (cf. Arnal 2000 edo Marcet 2007 Aragoiko eta Leongo notaritza-agiriez).</figDesc><table><row><cell cols="2">8 escribauzatt. Euskal Herriko</cell></row><row><cell cols="2">mendebaleko testu zaharretan ere ezaguna da: besteak beste Arrasateko bandoan, Ur-</cell></row><row><cell cols="2">kizuren 1737ko erlijio-liburuan, Orozkoko 1739ko otoitzetan eta Zolloko 1770eko</cell></row><row><cell cols="2">galdetegian aurki daitezke adibideak, eta Ulibarrik (2015: 157) Dotrinazko sermoite-</cell></row><row><cell>gia-n ere deskribatu du.</cell><cell></cell></row><row><cell cols="2">6.4. /i/ bokalaren zein /Vj/ bokalerdiaren ondoko epentesi kontsonantikoa</cell></row><row><cell cols="2">adierazteko &lt;ch&gt; ageri da, beharbada ahoskera [ʃ] zelako, gaur egun bezala</cell></row><row><cell>ISSN: 0582-6152 -e-ISSN: 2444-2992</cell><cell>ASJU 52-1/2 (2018), 909-932</cell></row><row><cell>http://www.ehu.es/ojs/index.php/ASJU/</cell><cell>DOI: https://doi.org/10.1387/asju.20236</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head></head><label></label><figDesc>/www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20236 /www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20236</figDesc><table><row><cell>ISSN: 0582-6152 -e-ISSN: 2444-2992 http:/berrogeta hamarna banatz. berrogueta amarna 3 beste izlag. beste 4 bialdu ad. 'bidali' bialdu 3, 13 bigarren ord. bigarren 2 bigilan(t)zia iz. 'zaintza' vigila[ncia] 11 bildur iz. bildur 5 bi mila zenb. zehazt. vimilla 1 borondate iz. vorondatera 13 bostehun zenb. zehazt. bost eun 12 bota ad. botazeco 6 C Cano iz. pr. Cano 15 D debekatu ad. debecacia 14; debecauta 12 dekreto iz. decreto 11, 15; decretuan 14 denpora iz. demporaric 3 desterrau ad. 'erbesteratu' desterraubac 5, 12 diputazino iz. diputacinora 3; diputacinuan 2 diru iz. diruric 9 Don iz. mask. (gazt.) don 15 dukat iz. 'diru mota bat' ducat 3; ducaten 8, 12 ISSN: 0582-6152 -e-ISSN: 2444-2992 emoeban 14; emon 2 en prep. (gazt.) en 1 enpleo iz. empleo 4 eragin ad. eraguitia 14 erraiz iz. 'sustrai' erraizac 1 erreal izond. → real errial 9, 11; errialac 15; errialaren 11; errialera 13 erreden(t)zino iz. 'libratze' erredencinua 9 errege iz. erregue 1, 11, 13; erregueganic 12; erre-gueren 11, 13 erregistro iz. erregistruena 3 errejidore iz. erregidore 3; errejidoren 9; errejido-riac 4 errejimentu iz. → rejimentu errejimentubac 10; errej[i]mentuban 1; justicia-errejimentu 5, 8 errenta iz. errentac 4 esan ad. esan 1; esaten 2, 12, 15 eskribau iz. escribau 13; escribauba 3; e[scri]bauric 3; escribauzat 8 eskribidu ad. 'idatzi' esc[ri]bizen 1 esku iz. escubetara 13 establezidu ad. 'ezarri' estableciduta 12 eta junt. http:/emon ad. da</cell><cell>, 15 ASJU 52-1/2 (2018), 909-932 berrogeta hamar zenb. zehazt. berehala adb. beriala 3 verroguet[a] amar 8 berrogeta hamar mila zenb. zehazt. berrogueta amar mila 13 E *edin ad. deella 5; deila 15; della 8; de[lla] 1; di-tiala 4, 5; est[ei]la 1; esteila 1, 8; es-titian 11 edo junt. edo 1, 4, 4 edozein det. edocein 2, 6 eduki ad. baleuca 9; daucala 6; daucasala 9; dau-casana 1; daucasan[ac] 10; dauque-zala 11; estaucana 1; euqui 14 *edun ad. badabe 4, 4, 9; badau 1; baditube 4; biardabe 2; dabela 1, 3, 3, 4, 4; da-ben 2, 6, 9, 15; dabena 1; dabenac 4; dabenic 1; emoeban 14; espadau 3; estabela 4, 4 *edutsi ad. deuzenei 4; deuzena 12 egin ad. daichala 3, 11, 14; daichela 5; day-chela 13; dayela 14; deinian 3; deiquiala 7; eguin 3, 5; eguina 6; eguingo 9; eguiteco 4; eguiten 3, 4, 4; eguiter[a] 2; eguiti[a] 2; estai-chala 2; estayala 7; estaychala 10, 12; estaychal[a] 9 egon ad. dagozan 3, 12; dagozanetatic 10; da-guan 12; egon 1, 4, 5, 6, 8; ego-teco 11 ejekutau ad. ejecutau 15 elejidu ad. 'hautatu' elejizera 1 elektore iz. 'hautesle' electoriac 4; electoriaren 4; electoriei 4 elekzino iz. 'hauteskunde' → elezino eleccinuetaraco 4 elezino → elekzino 1 iz. 'hauteskunde' elecinua 4; elecinuetaraco[z] 0 2 iz. 'hautu' elecino 4 ASJU 52-1/2 (2018), 909-932</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head></head><label></label><figDesc>/www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20236</figDesc><table><row><cell>etorri ad. datozanian 2; etorri 15 ISSN: 0582-6152 -e-ISSN: 2444-2992 inor 1, 2 instrumentu iz. 'tresna' instrumentubones 2 interes iz. inter[es] 11 irago ad. 'igaro' yrago 6 irugarren ord. yrugarren 7 izan ad. bada 3; baita 1, 2, 12, 13; bait[a] 11; http:/inor izord. zehaztgb. bajaco 6; da 1; dala 7</cell><cell>eurak izord. eurac 4 euskera iz. eusqueras 0 examinau ad. 'aztertu' exhaminaubas 2 exekuzino iz. execucinoric 2 exempto adb. 'salbuetsi' exemp[to] 9 ez part. es 4, 6, 10, 10, 11; estabela 4, 4; estai-chala 2; estanic 7; estaucana 1; esta-quichanic 1; estayala 7; estaychala 10, 12; estaychal[a] 9; esteila 1, 8; estitian 11 ezkero postp. esquero 6, 6 ezkon(t)za iz. esconsac 7; esconzetara 7 ezpaere lok. 'bestela' espaere 7 ezta junt. ezta... bere esta bere 1, 9 F fakultade iz. 'ahalmen' facultade 9; facultadia 6 falta iz. falta 4; falta baga falta baga 14 fiesta iz. fiestaric 10; fiesten 14 fitxadore iz. 'fitxatzaile' fichadore 4 flogedade iz. 'ahuldade' flogedades 2 Fran(t)zia iz. pr. Franciacua 12 fuero iz. 'foru' fueruac 2, 11 ASJU 52-1/2 (2018), 909-932</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head></head><label></label><figDesc>/www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20236 /www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20236</figDesc><table><row><cell>danian 3; danic 1; diran 15; diranian 7; espada 1; es-tanic 7; hizango 9; izan 1, 1, 2, 4, 5, 7, 15, 15; izang[o] 1; izango 3, 13; iz[an]go 7; izateco 12; izaten 4; jacusan 11; jaquiela 2; yzan 4, 4; zana 15 izenian 9, 9 izen iz. J jai iz. jai 10 jakin ad. estaquichanic 1; jaquinda 1 jan ad. jaten 4 Jangoiko iz. jangoicuan 5 jaun iz. jaunac 1, 3, 3, 3, 3, 4, 6, 7, 14; jauna-ren 9; jaunec 6 jitano iz. 'ijito' jitanuen 5 jo ad. joten 1 joan ad. juateric 7 juez iz. 'epaile' juezac 2 junta iz. 'batza' ju[n]tan 2 ISSN: 0582-6152 -e-ISSN: 2444-2992 http:/korrespondidu ad. correspond[i]zen 2 korrexidore iz. → korrejidore correxidore 14 kuenta iz. (gazt.) cuentas 1 kuidado iz. cuidado 11; kuidado egin cuidado eguin 5 kulpa iz. 'erru' culparic 4 kunplidu ad. 'bete' cumplidu 15 L lege iz. leguiac 2, 9 legez postp. 'bezala' legues 2, 2, 2, 6, 15; leguez 9 lehen adb. → lelengo lenagotic 6 lelengo adb. 'lehenengo' → lehen lelengo 2 libertade iz. libertaderaco 11 libre adb. libre 9 M magestare iz. 'maiestate' magestariaren 1, 11, 13 marabidi iz. 'diru mota bat' marabidiren 1, 13 moradore iz. 'biztanle, bizilagun' moradore 6 motibo iz. 'arrazoi' censora-motibuac 9 Mucientes iz. pr. Mucientes 15 multa iz. 'isun' multa 14; multia 1, 3; multiaren 12 multau ad. 'isuna ezarri' multauba 7 ISSN: 0582-6152 -e-ISSN: 2444-2992 orduco 3 original izond. originala 13 osterun(t)zian lok. 'bestela' http:/orduko adb. osteruncian 13</cell><cell>jurisdikzino iz. jurisdiccinuan 2 justizia iz. justicia 10; justiciac 12, 14; justicia-errejimentu 5, 8; justicia-jaunac 13; justicia-rejimentubac 9; justicichac 11 K kamara iz. 'ganbera' camaracoaren 13 kanpo iz. camp[oe]tatic 2 kapitulu iz. capitulubequin 15 kastigau ad. 'zigortu' castigaubac 5; castigazia 11 kastigu iz. 'zigor' castiguba 13; castigubac 11 kaza iz. 'ehiza' cazia 14 kendu ad. quendu 10; quenduta 10 kiebra iz. 'porrot' quiebraric 4, 4 konbeni ad. konbeni izan [conbeni] jacusan 11 kontenidu ad. 'jaso' contenizen 14 kontra postp. contra 9, 11, 11 kontrabando iz. cont[traban]duan 11 kon(t)sejo iz. 'batzorde' → kon(t)seju consejo 11 kon(t)seju iz. 'batzorde' → kon(t)sejo conseju 13; conzejuba[ren] 9 kontu iz. contu 13; con[tu] 7; contuban 8; kontuban egon contuban egon ditiala 4, egon deella contuban 5 korrejidore iz. → korrexidore correjidore 15 ASJU 52-1/2 (2018), 909-932 munizipal izond. 'udalerriari dagokiona' municipalac 0; municipaletacua 13 N nausi izond. 'nagusi' nauci 13 nezesidade iz. 'beharrizan' necesidade 9 noble izond. noblea 9 noblezia iz. noblecia 6 nonbramentu iz. 'izendatze' nombramentua 4 nonbrau iz. 'izendatu' nombrau 8 notifikau ad. 'jakinarazi' notificauta 6 numeral izond. numerala 3 numeria iz. numerichan 3 O o konj. (gazt.) 'edo' ò 2, 2, 2; ó 13; o 6 obserbau ad. 'behatu' obserbau 14 ofizial iz. oficial[ic] 1 ofiziale iz. oficialeric 1 ofizio iz. oficio 1 on iz. oneraco 11 onrau izond. 'zintzo' onrrauba 1 orainengo izlag. 'oraingo' orainengo 15 ordenan(t)za iz. ordenanza 0 ordinario izond. 'arrunt' ordinarichua 3 ASJU 52-1/2 (2018), 909-932</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">1668ko prozesu batean ageri den koplaren berri ere badago, nahiz eta oraindik argitaratze-bidean dagoen (begiratu Zuloaga prestatzen).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">Alderatze-lanetan, laburdura hauek erabiliko ditut: eskuiz. = eskuizkribua, SM = Serapio<ref type="bibr" target="#b10">Mujika (1908)</ref>, GM = GregorioMujika (1900Mujika (  4 [1910), AU&amp;AL = AndresUrrutia &amp; Angel Lobera (1995), IT = Imanol<ref type="bibr" target="#b16">Trebiño (2001)</ref>.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">Lan honetan albo batera utzi dut Juan San Martinek Enciclopedia General Ilustrada del País Vasco -Diccionario Enciclopédico Vasco entziklopediarako (s.v. Eibar) prestaturiko testua; izan ere, testuak grafia modernoa edo gaurkotua dakar, gaurkotzea jatorrizko testuaren sistema grafikoa aintzat hartu gabe egin bide zen eta horrek grafemak ez ezik, hots batzuk ere bestela interpretatzea ekarri zuen. 6 Eibarko Udal Artxiboan [A 22.5] signatura dagokie.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">Gaztelaniazko testua dela eta, lan honetan euskarazkoaren eranskin edo osagarri gisa ematen dut, hain zuzen ere euskarazkoaren pasarte batzuk hobeto ulertzeko lagungarri izan baitaiteke; halere, edizio-, grafia-eta hizkuntza-gaietan ez dut sakondu, halakoek aparteko monografikoa behar dutelakoan.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>ceina 12, 13; seina 1, 2, 11; seinetan 14 zen(t)so iz. 'kontabilitatearen kontrola' censuaren 9; censuetatic 9 zen(t)sura iz. 'kontabilitatearen kontrola' censora-motibuac 9 zergaiterren kaus. mend. 'zeren eta' zergaiterren 4</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20236</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20236" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20236</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20236" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">«Cambios grafemáticos en textos notariales aragoneses del siglo xviii, a la luz de las reformas ortagráficas de la RAE</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Arnal</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="117" to="136" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Eibarko idazlien eta idazlanen antologixia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Izagirre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lizarralde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp; A</forename><surname>Narbaiza</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>Eibarko</publisher>
+			<pubPlace>Eibar; Udala</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">«1721. urteko Eibarko kopla zaharrak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kalzakorta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Litterae Vasconicae</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="10" to="33" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Lekuona</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>López De Luzuriaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">A</forename><surname>Narbaiza</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+	<note>1685eko kopla zaharrak. E ibar: Ego Ibarra</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">El lenguaje de los documentos notariales leoneses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">J</forename><surname>Marcet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Cuatrocientos años de la lengua del Quijote: estudios de historiografía e historia de la lengua española. Sevilla: Sevillako Unibertsitatea</title>
+		<editor>M. Fernández Alcaide &amp; A. López Serena</editor>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="page" from="347" to="458" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">El iceberg navarro. Euskera y castellano en la Navarra del siglo XVI. Iruñea: Pamiela</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Monteano</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20236</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20236" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Mujika</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1910" />
+		</imprint>
+		<respStmt>
+			<orgName>Monografía histórica de la villa de Eibar. Eibar: Eibarko Udala</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Mujika</surname></persName>
+		</author>
+		<title level="m">El vascuence en los archivos municipales de Guipúzcoa</title>
+		<imprint>
+			<date type="published" when="1908" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="725" to="733" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Eibarko euskara: gutxiespenaren historia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Narbaiza</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>Eibarko</publisher>
+			<pubPlace>Eibar; Udala</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Oyharçabal</surname></persName>
+		</author>
+		<title level="m">Zenbait gogoeta euskarak letra hizkuntza gisa izan duen bilakaeraz», Litterae Vasconicae</title>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="9" to="46" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+				<title level="m">Statut et évolution des lettres basques durant les xvii ème et xviii ème siècles</title>
+		<meeting><address><addrLine>Lapurdum 6</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="page" from="219" to="287" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Orthographia Española. Madril: RAE</title>
+		<imprint>
+			<biblScope unit="page">1741</biblScope>
+		</imprint>
+	</monogr>
+	<note>Real Academia Española</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">&amp;amp; K</forename><surname>Sarasola</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Orotariko Euskal Hiztegia. Bilbo: Euskaltzaindia</title>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Trebiño</surname></persName>
+		</author>
+		<title level="m">Administrazio zibileko testu historikoak. Oñaki: HAEE-IVAP</title>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Dotrinazko sermoitegia: galduriko hizkerak eta dialektologia historikoa, doktoretza-tesi argitaragabea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Ulibarri</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<pubPlace>Blanca Urgell dok</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">&amp;amp; A</forename><surname>Urrutia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lobera</surname></persName>
+		</author>
+		<title level="m">Euskara, zuzenbidearen hizkera. Bilbo: Deustuko Unibertsitatea</title>
+		<imprint>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Deba ibarreko euskara. Dialektologia eta tokiko batua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Zuazo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note>Oñati: Badihardugu</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Eibarko euskara zaharra: iturriak eta kokapen linguistikoa». Eneko Zuloaga Hizkuntzaren eta Literaturaren Didaktika Saila Hezkuntza Fakultatea Sarriena auzoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Zuloaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename><surname>Prestatzen</surname></persName>
+		</author>
+		<idno>z/g -48940 Leioa</idno>
+		<imprint/>
+	</monogr>
+	<note>Bizkaia</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

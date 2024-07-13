@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Miren</forename><surname>Azkarate</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">DU CONTRAT SOCIAL-ETIK GIZARTE-HITZARMENERA, EDO NOMINALIZAZIOEN ERAGINA DISKURTSO BEREZITUETAN</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Universidad del País Vasco/Euskal Herriko Unibertsitatea, Euskaltzaindia</orgName>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Any language, and particularly minority languages, in order to survive, need to extend their use to all specialized fields. Nominal structures and deverbal nouns being one of the main features of specialized texts, it has been argued by some linguists that, as specialized discourse is being developed in Basque, a considerable increase is to be expected in the productivity of morphological rules of deverbal noun formation; it has been even pointed out that, depending on the type of specialized text, certain deverbal suffixes will be more productive than others. Without denying the place nominalizing strategies have in specialized texts, other linguists warned against the abuse of such strategies, especially when dealing with not highly specialized texts, because of the acceptable noun-phrase structures in Basque, much more limited than in other surrounding languages. In this article, through the analysis of juridical and odontological terminology, it will be argued that the distinction between event nominals and result nominals is crucial; and that nominalized sentences are perfectly valid in Basque as equivalents of deverbal nouns denoting an event or an action, being particularly productive the structure '[(nominalized sentence) + -tzeko] + noun' to translate terms which, in English or in Romance languages, have the structure 'noun + preposition + deverbal noun'. As a last point, it will be suggested that the kind of semantic verbs used in each specialized field is the clue to understand the differences in productivity of the deverbal suffixes according to the type of specialized text.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="0.">Hizkuntza-plangintza eta terminologia</head><p>Inork gutxik eztabaidatuko du euskara Europako hizkuntza txiki edo gutxituen artean dagoela. Eta horrek esan nahi du euskarak etorkizunean bizirik iraun eta garatzea nahi badugu, beste hizkuntza askotan bezala, bi modutako normalizazio-lana dagoela egin beharra: corpusari dagokiona, eta statusari dagokiona. Beste hitz batzuetan esanda, hizkuntzaren aldaera estandarra lortzeko ahalegina, eta, horrekin batera, euskararen erabilera bizitzako arlo guztietara hedatzeko ahalegina. Bigarren honek, aldi berean, hizkuntza horretarako prestatzea eskatzen du, jakina.</p><p>Corpusaren normalizazioa 1968an hasi zela onartzen dugu, Euskaltzaindiaren eskutik, Arantzazun. Hizkuntzaren arlo ugariak aztertu eta batasunerako, aldaera estan- [ASJU, XLIII, 2009, 137-158]   </p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>darrerako bidean jartzen dihardu ordutik Euskaltzaindiak, batez ere Batzordeen lana oinarri hartuaz. Batasunerako arauak eman aurretik, baina, dugun tradizioan -literatura tradizioan-oinarrituaz, azterlan sakona dago egin beharra. Horretan jardun zuen Lexiko Irizpideak Finkatzeko Batzordeak laurogeiko hamarkadako azken urteetan eta laurogeita hamarreko lehen urteetan, Morfologiaren arloa harturik aztergai eta, arlo horren barruan, hitzak sortzeko baliabideak -hitz-elkarketa eta eratorpena-. Euskararen normalizazioaren ikuspuntutik, deribazio-morfologiaren esparruan asko aurreratu badugu ere, ez ditugu gai batzuk nahi beste landuak; hauen artean, zalantzarik gabe, aditzoinari erantsirik, 'gertaera-eta emaitza izen' deitzen ditugunak sortzeko baliatzen ditugun atzizkien jokamoldea. Besteak beste, nolako aditzoinak eskatzen dituzten -era, -keta, -pen edo -kuntza bezalako atzizkiek.</p><p>Normalizazio-lan hori egiteko, eta oraindik eginkizun dagoenerako, hizkuntzalaritzaren teorian azken hogeita hamar urte hauetan eginiko azterketak izan ditugu bide-erakusle. Laurogeigarren hamarkadaren hasieratik, aditzen azpikategorizazioaz, herentziaz, argumentu-egituraz, paper tematikoez edo aditzen sailkapen semantikoez 1 argitaraturiko lanek bide eman diote ikertzaile bati baino gehiagori, gaurko hiz kuntza la ri tza teorikoak baliatzen dituen azterbideak aplikatuaz, ikerlan teorikoa egiteko, 2 batetik, eta, horri esker, hainbat atzizkiren erabilera zuzena argitzeko, bestetik. Zer esanik ez, azken urteetan sortutako hainbat hitz eratorriren zuzentasunaz erabakiak hartu ahal izateko erabakigarriak izan dira azterketa hauek.</p><p>Corpusaz gain estatusaz ere arduratu beharra badela esan dugu hasieran. Hein batean, hizkuntza guztiek izaten dute behar hori; gure gizartean Osasun arloan, Informatikan, Zientziaren arlo ugarietan… egiten diren aurkikuntzak kontuan izanik, esparru horietan guztietan espainolez, frantsesez, nederlanderaz edo alemanez jardun nahi bada, horretarako behar diren terminoak sortu beharko dira (eta horrek corpusera garamatza berriro). Alde honetatik, xx. mendean zehar indar hartu du Terminologiak eta honen gaineko azterketek. Hari beretik, Osasunaz, Zuzenbideaz, Biologiaz, Fisikaz edo Hizkuntzalaritzaz jarduteko erabiltzen diren hizkeren ezaugarriak ere ikertu dira; espezialitate-hizkera edo xede berezietarako hizkera deitzen diegu halakoei. <ref type="bibr">3</ref> Autore asko izan dira, hizkuntza-plangintzaren barnean, terminologia ere bateratu eta arautu beharraz jabetu direnak. Bereziki nabarmena da behar hori hizkuntza gutxituen kasuan, <ref type="bibr">Frawley-k (2003: IV, 227)</ref> dioen bezala:</p><p>Terminological methods have been applied in language planning in various countries and language communities. Language planners realized early on that, in order to survive, a language needs modern terminology for all specialized fields. Terminology work has been extended to minority languages and to new specialized fields without preexisting terminology in the local languages.</p><p>Hau da, tradizioan oinarrituaz, aldaera estandarra prestatzeaz gain, euskara bezalako hizkuntza gutxitu batek, bizitzaren edozein arlotan erabili ahal izateko di-tuen hutsuneak edo mentsak ere bete behar dira <ref type="bibr">(Zabala eta Elordui 2006)</ref>. Eta bizitzako edozein arlo aipatzen dugunean, hein handi batean, arlo espezializatuez ari gara; orain tsu arte euskararentzat ezezagunak ziren arloez: dela Administrazioa, goi mailako irakaskuntza, Zientzia, Teknika, Zuzenbidea, Hedabideak (eta horrek berarekin dakarrena, kiroletako, gizarteko, politikako, ekonomiako… gaiez jardun beharra), etab. <ref type="bibr">Corbeil-ek (1997: 35)</ref> argi eta garbi aitortzen du euskara biziberritzeko lanek, hizkuntzaren estandarizazioa eta espezialitate-hiztegiak ondu eta eguneratzea dakarrela berarekin ("la terminologie joue un rôle déterminant dans l'aménagement linguistique d'un pays"). Quebec-en edo Norvegian ere hizkuntza egokitzeko ahaleginen artean, terminologia-egokitzapenak leku handia hartu du <ref type="bibr" target="#b38">(Vachon-l'Heureux 1997</ref><ref type="bibr">eta Myking 1997</ref>, ezin baitaiteke hizkuntza-normalkuntzarik egin terminologia-egokitzapen lanik gabe. Hala ere, hizkuntza batean eta bestean eginiko terminologia-lanak ez direla maila berekoak aitortzen dute hizkuntzalariek. <ref type="bibr">Cabré-k, esaterako (1992: 42-43)</ref>, bi terminologiagintza-mota bereizten ditu, bata kontzeptu eta terminoen normalizazioei begira egiten dena; bestea, hizkuntza-plangintzarekin zerikusia duena. Bigarren honek, hizkuntza eremu guztietan erabili ahal izateko prestatu eta, ondoren, hizkuntzaren erabilera alor horietara zabaltzea du helburu. Terminologian helburu hauen arabera diharduen herrialdeak neologia egiten du; zientzia eta teknologia-sortzaile direnek, ostera, terminoak bildu eta arautzean oinarritzen dute beren terminologia-jarduera. 4 Azken batean, hizkuntza gutxi batzuk, gizarte tek no lo gi ko ki aurreratuetako hizkuntzak, izan dira historian zehar goi mailako lanbideetako hizkerak garatu dituztenak. Eta hizkuntza hauetan bakarrik garatu dira xede berezietarako hizkerak. <ref type="bibr">Bide beretik, Elosegik (2002: 52-55)</ref>, hiru multzo handitan banatzen ditu munduko hizkuntzak, multzo bakoitzeko hizkuntzen garapen-maila, espezialitate-hizkeren arazoen arabera sailkatuaz: "Lehen bi multzoetako hizkuntzetako LSPak 5 aztertzen direlarik, zientzia orokorra egiten den bezala, hirugarren multzokoei buruzko lanak ia beti izaten dira egoera larritik ateratzeko eta normalizaziora iristeko saioak".</p><p>Erdiko bidea hautatzen du <ref type="bibr">Corbeil-ek (1997: 37-38)</ref>. Lau arrazoi aipatzen ditu hizkuntzalari honek terminologia lantzera eraman gaitzaketenak; beste hitz batzuetan esanda, lau helburu desberdin izan ditzakegu terminologiara hurbiltzean: hiztegiaren normalizazio teknikoa; itzulpengintza (jatorrizko hizkuntzako termino jakin bat, beste hizkuntza batera ahalik eta zehatzen itzultzea helburu duena); "dokumentu"helburua (testu jakin baten edukiaren berri zehazkien eman dezaketen terminoak identifikatzea) eta helburu soziolinguistikoa. Azken hau izango litzateke nagusiki euskararen kasua; hizkuntza gutxitu izanik, arlo guztietara hedatzeko prestatzeko helburua. Eta honek esan nahi du gure hizkuntza propioan terminologia prestatu, normalizatu, hedatu eta ezartzea. Aldi berean, helburu hau duten hizkuntzetan bi zereginen arteko konpromisoa aurkitu behar izaten da: hizkuntza horren arauen arabe-rako terminoak ezartzearen eta arlo jakin bateko aditu guztiek partekatzen duten terminotik inolako beharrik gabe ez aldentzearen arteko konpromisoa, alegia <ref type="bibr">(Myking ere bat dator ikuspegi honekin, 1997: 227)</ref>.</p><p>Labur bilduz, Euskara Biziberritzeko lanaren barruan ezinbestekoa dugu terminologiagintza; baina lan hori ez da izango inguruko hizkuntza "nagusietan" egiten denaren parekoa, corpusaren eta statusaren normalizazioaren bidetik doana baino; beste hizkuntza batzuetan sorturiko terminoak egokitu eta, askotan aurkituko dugun proposamen-aniztasunaren aurrean, termino bakar, normalizatua hobesteko lana, alegia, hizkuntza bera noranahiko bihurtu ahal izateko. Bestalde, goraxeago esan bezala, oraindik euskararen deskribapenean hainbat auzi guztiz ikertu gabe ditugunean ari gara testu teknikoak sortzen, espezialitate-hizkerak ontzen. Eta ar gi tze ko ditugunen artean 'gertaera'-eta 'emaitza-izenak' sortzeko baliatzen ditugun -era, -keta, -dura, edo -kuntza atzizkien jokamoldea ondo finkatu gabe izateak badu bere garrantzia ondorengo lerroetan ikusiko dugunez. 6</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Espezialitate-hizkerak eta nominalizazio-egiturak</head><p>Artikulu eta saio bat baino gehiago idatzi da espezialitate-hizkeren ezaugarrien gainean. Testu "arrunten" pareko ote diren, zertan bereizten diren… Cabrék (1992: 140), testu espezializatuek izaten dituzten ezaugarrien artean jasotzen ditu ondokoak: hautaketa lexikoa, egitura jakin batzuen maiztasuna, sistema linguistiko orokorre ko egitura batzuen presentzia / absentzia. 7 Eta espezialitate-hizkera eta testuetan lexikoak duen garrantzia azpimarratzeaz gainera, bai kuantitatiboki eta bai kualitatiboki, nominalizazioen eta forma nominalen nagusitasuna azpimarratu dute, beste askoren artean, <ref type="bibr">Sager, Dungworth eta McDonald-ek (1980</ref><ref type="bibr">: 219), 8 Cabrék (1992</ref>, <ref type="bibr">Albentosa y Moyak (2000: 465)</ref>, 9 Elosegik 10 (2002), <ref type="bibr">Ensunza, Etxebarria eta Iturbek (2008</ref><ref type="bibr">) edo Go mezek (2008</ref>. Guztiek aitortzen dute aho batez nominalizazioak garrantzi eta leku berezia duela hizkera berezietan eta terminogintzan.</p><p>Bat datoz halaber autore gehienak beste honetan ere: zenbat eta abstrakzio-edo espezializazio maila garaiagoa, hainbat eta urrunago egongo dela testu bat hizkera arruntetik. Izan ere, abstrakzio maila edo espezializazio maila apaleko testuetan, zaila da espezialitate-hizkeraz hitz egin ahal izatea: hizkera orokorraren eta bereziaren arteko 6 «As specialised discourse is being developed in Basque, a considerable increase is to be expected in the productivity of morphological rules of deverbal noun formation (...) In the case of Basque, sometimes there is an overproduction of derivation rules due to the lack of fluid networks which would help to establish a variant within the discourse community» <ref type="bibr">(Zabala eta Elordui 2006: 911)</ref>. <ref type="bibr">7</ref>  <ref type="bibr">Ensunza, Etxebarria eta Iturbek (2008: 213-225)</ref>, hizkuntza tekniko-zientifikoaren ezaugarrien artean, besteak beste, honakoak aipatzen dituzte: kultur errodun hitzen ugaritasuna, maileguen ugaritasuna, siglen ugaritasuna, edo egitura gramatikalekin «selektibo» izatea. 8 «In short, nominal groups are the most appropriate vehicle of condensed linguistic expression for scientists and technologists who are trained to perceive and consequently to speak about the physical world in terms of concepts, processes and quantifiable units». 9 «El léxico de los textos especializados científicos y técnicos se distingue del propio de otro tipo de textos porque posee una terminología propia en la que abundan los sutantivos y especialmente los sintagmas nominales, en comparación con cualquier otra categoría». <ref type="bibr">10 Elosegi (2002: 389)</ref>: «espainierazko hizkera juridikoan, esan ohi da, izenak kendu dio bere tokia aditzari». mugak lausotu egiten baitira <ref type="bibr">(Elosegi 2002: 46)</ref>. Areago, testu-moten arabera zein atziz ki den emankorrena ere aztertu izan da azken urteetan. Bide honetatik, <ref type="bibr">Lersundik, Zabalak eta Elorduik (2008)</ref>, nominalizazioak eta nominalizazio horiek zein testu edo diskurtso motatan erabiltzen diren aztertzen duen ikerketa-ildoari heltzen diote. <ref type="bibr">11</ref> Azterketa horien arabera, gaztelaniaz erregistro tekniko eta semitekniko modernoetan atzizkirik emankorrenak -ado eta -aje dira; -ción izan daiteke emankorrenetakoa erregistro zientifikoetan, eta -zón atzizkia, berriz, nekazaritza eta nabigazioaren esparruetan. Ildo honi jarraiki, <ref type="bibr">Zabala eta Elorduiren (2006)</ref> Nominalizazioen ugaltzea hizkuntza jakin bateko abstrakzio eta espezializaziomailaren ezaugarritzat hartzen duen ikerketa-ildo honen ondoan, ordea, ezin dugu ahantzi sarreran esandakoa. Euskara bezalako hizkuntza txikiak zordun dira terminologia-kontuetan; eta horietan, maiz, testu espezializatuak sortu ordez, itzuli edo egokitu egiten dira. Eta horrek baditu arriskuak eta izan ditzake bere morrontzak. <ref type="bibr">Mitxelenak (1984)</ref>, Hauta-Lanerako Euskal Hiztegia-ri eginiko sarreraren amaieran bi gai ukitzen ditu, zein baino zein kontuan hartzekoagoak. Batetik, erdaraz (erdaretan) hitz bat (edo termino bat) baino gehiago egoteak nahitaez eskatzen ote duen euskaraz ere hala izatea. Ezetz uste du hizkuntzalari errenteriarrak. "La unificación del euskera" izeneko hitzaldia eman ondoren, euskaraz hori adierazteko batasuna erabiltzen zuela oharturik, entzuleetako batek besteari esandakoaz egiten duen iruzkinak argi erakusten du zein den <ref type="bibr">Mitxelenaren (1988: 44)</ref>  Aipua aski luzea izan arren, oso-osorik ekarri nahi izan dut hona, auzia zertan den behar bezala zehazteko oso abiapuntua baliagarria baita. Izan ere, jakintza-alor desberdinak garatzeko hizkuntza batek aditzetiko izenak behar dituela defendatzeaz gain, Lersundik, Zabalak eta Elorduik (2008: 497) diote, Iturriozi <ref type="formula">(2000)</ref> jarraiki, aditz-izenak agertzea diskurtso berezitua garatzeko lehen urratsa baino ez dela:</p><p>Geroko urratsak dira aldaketa semantikoen bitartez lehengo lexemek edota lexema berriek adiera berriak lortzea, eta lexemak osatzeko erabiltzen diren atzizkien emankortasunak genero, erregistro edota tradizio diskurtsiboen araberako banaketa azaltzea.</p><p>Geroko urrats horien erakusgarri, sarrera lemak izan dituen aldaketa semantikoak dakartzate testura ('ekintza' eta 'ondorioa' adierez gain, musika-, hiztegigintza-edo Ekonomia-eta Informatika-arloetako termino ere bihurtu baita). Ikuspegi honetatik, nominalizazio-eskalaren lehen estadioari dagokio -tze atzizkia, atzizki horren bidez sorturiko izenek 'ekintza' edo 'prozesua' besterik ezin baitute adierazi; eta, beraz, nekez onartzen dute esanahi berririk. <ref type="bibr">18</ref> Badira, bestalde, azken urteetan nominalizazio-egituren gehiegikeriaz kezkaturik agertu diren autoreak. Ez testu tekniko edo espezializatuetan bakarrik; askoz arruntagoa eta hedatuagoa den diskurtso jaso, estandarrean, nominalizazioek leku handia hartzen dute. Eta, haien eraginez, euskaraz ere Ekonomian, Teknologian, Mekanikan, Telekomunikazioetan, Informatikan edo Aeronautikan ez ezik ohikoagoak zaizkigun alorretako diskurtsoan (edo hortik kanpo, bestelakoetan batez ere) ari zaizkigu gailentzen aditzetik sorturiko izenak. <ref type="bibr">Alberdi eta Sarasola (2001</ref><ref type="bibr">) eta Garzia (1997</ref> bat datoz honetan: a) Auzia ez da, oro har, gramatikaltasunaren mailan planteatzen, estiloarenean baizik b) Beraz, nominalizazio-egitura beharrezkoa den aztertu beharko da lehenik, ala aukeran dugun perpaus-egitura / izen-egitura. <ref type="bibr">Garziak (2005: 86)</ref>   <ref type="bibr">Garziak (1997</ref><ref type="bibr" target="#b7">Garziak ( , 2005</ref> nominalizazio-egiturekin tentuz ibiltzeko:</p><p>-nominalizazioek, askotan, egitura pasiboetara behartzen dutelako. 20 -perpaus nagusian aditz "hutsak" (eduki semantiko eskasekoak: izan da, gertatu da…) erabiltzera bultzatzen dutelako (Ikus 3a). -Haren / bere portzentaje handi bat nominalizazio-egituretan agertzen direlako.</p><p>Honek guztiak ez du esan nahi, ordea, hizkuntzalari hauek nominalizazioak erabiltzearen aurka daudenik, abstrakzioari uko egin behar zaiola uste dutenik. <ref type="bibr">Garziak (2005: 88)</ref> dioen bezala, Gakoa, bistan da, aditzean oinarrituriko sintaxi arruntetik izenean oinarrituriko nominalizazio-bide horretara itsu-itsuan ez jotzea da (…) Duda handirik gabe esan daiteke horixe dela euskal prosak une honetan duen behaztoparri nagusia.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Hiru adibide: zuzenbideko terminologia, odontologiakoa eta zuzenbideko testu baten itzulpena</head><p>Euskara terminologia-sortzaile ez, baizik egokitzaile, moldatzaile izan arren, azken urteetan tesi bat baino gehiago irakurri da gure unibertsitateetan alor bateko edo besteko terminologia aztertuaz. Egia da askotan erdal testuen euskal itzulpenetan atzemandako terminoak direla; edo testuetatik hartuak izan ordez, erdal glosategiren baten itzulpena osatzen duen termino-zerrenda.</p><p>Nolanahi ere, lan horiek corpus jakin, konkretuak aztertu dituztenez, egokiak izan daitezke espezializazio-testuak garatu ahala, aditzetik sorturiko izenak ugalduz joan behar dutela defendatzen dutenen ikuspegia <ref type="bibr">(Zabala eta Elordui 2006;</ref><ref type="bibr">Lersundi, Zabala eta Elordui 2008)</ref> eta nominalizazioak bai, baina perpaus-egiturak nahitaez baztertu gabe aldarrikatzen dutenena <ref type="bibr">(Alberdi eta Sarasola 2001</ref><ref type="bibr" target="#b23">, Garzia 1997</ref> al de ratze ko. Zenbat bider ageri diren egitura nominalak, aditzetik izenak sortzeko baliatzen ditugun atzizkien emankortasuna nolakoa den, -tze atziz kiaz sorturiko izenek zein leku duten, edo perpaus nominalizaturik ageri den… Eta horre ta ra ko, hizkera juridikoa aztertzen duen Elosegiren <ref type="formula">(2002)</ref>   <ref type="bibr">Gómezek (2008: 115-116</ref>) ere ohartarazten du ingelesaren eraginaz osasun-zientzien hizkerari dagokionez, espainieraz gerundioen edo egitura pasiboen erabilera gehiegizkoak dakarren eragin txarraz. <ref type="bibr">21</ref> Puntu berberak aztertu ez arren, eta datuak ere beti modu berean eman ez arren, 1. puntuan azaldutakoak zenbateraino berresten diren ikusteko baliagarri izan daitezke. <ref type="bibr">22</ref> Zehazkiago, Lehen liburuko bederatzi kapituluen itzulpena.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Zuzenbideko euskal hizkera</head><p>Elosegi <ref type="formula">(2002)</ref>, zuzenbideko euskal hizkera berezia aztertzean, espainierazko terminoetatik abiatu da euskal segmentu baliokideak (EUSB) aztertzeko. Lau garai bereizi ditu azterturiko corpusean, bi zatitan banatuaz 1980az gerozko Euskal Herriko Agintaritzaren Aldizkarietako testuak <ref type="bibr">(1980-89 / 1990-1997)</ref>; azken bi hauek dira, jakina, emankorrenak. 1980-1997ko aldiko datuak dira, beraz, kontuan hartuko ditudanak, orain arte esandakoak berresteko edo kontrako datuak aurkezteko.</p><p>Elosegiren azterketaren emaitzak labur bilduz: Aditz-sintagmek agerpen ugari daukate euskarazko segmentu baliokideetan, hala terminoaren egitura nagusi gisa nola izen-sintagma direnen osagai modura (…) hori da, hain zuzen ere, corpus honetako EUSB (euskarazko segmentu baliokideen) ezaugarri bat, inguruko hizkuntzetako terminologien aldean, bederen. Horren arrazoi nagusia gure ustez bilatu behar da erdarazko terminoetan aditzetik eratorritako izenek daukaten presentzia ugarian. Jakina denez, nominalizaziorako joera ez dago oso garatua euskaraz. 7. atal honen labur-bilduma gisa, egileak zer eskaintzen du, a. espero zitekeenaren arabera, oso ugaria da aditz-izenen erabilera corpuseko euskal terminoetan, nominalizaziorako joera hizkera tekniko guztien, eta oso bereziki zuzenbide-hizkeraren ezaugarri den heinean; b. euskaraz aditza baliatzeko joera gaztelaniaz baino askoz markatuagoa izan arren, -pen / -men, -keta, edo -kuntza atzizkiez osaturiko izenak ere ugariak dira; c. atzizkien erabilera ugari horretan, kasu askotan atzizki bata edo bestea aukeratzeko arrazoia ez da oso gardena, ez baita argi atzematen haiez osaturiko hitzen arteko desberdintasun semantikoa. Izan ere, oinarri berari atzizki ezberdinak erantsiaz erdal adigai bakarraren baliokide ugari eratzen da <ref type="bibr">(Elosegi 2002: 510)</ref> Lexikogintzan oro har gertatu dena, azken batean. 8. Zalantzak eta erdal terminoak baliokide bat baino gehiago izateak, ordea, ez dira aditza oinarri duten terminoetan bakarrik gertatzen. Corpuseko 880 espainierazko terminoek, 2.858 itzulpen-baliokide dituzte (2002: 487), eta horrek esan nahi du espainierazko termino batzuek, euskal sintagma baliokide bat baino gehiago dutela. 26 Eta honek adierazten du Zuzenbidearen arloan euskal terminologia guztiz normalizatu gabe zegoela 1997an.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Elosegik</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Odontologiako terminologia</head><p>Gómezek (2008: 335) aztertutako 2336 terminoetatik, %92 izenak edo izen-sintagmak dira. Beraz, odontologiako testuen estiloan ere izen-egiturak dira nagusi. <ref type="bibr">25</ref> Gaur jarduketa eta jardute idatziko genituzkeen arren, testuetako grafia errespetatu dut. <ref type="bibr">26</ref> Ikus, esaterako, espainierazko ordenamiento jurídico terminoak corpusean eman dituen 16 euskal baliokideak; edo erdal legeak izendatzeko ordain askotarikoak: Ley de Procedimiento administrativo-ren 8 ordainak, Ley sobre Régimen del Suelo y Ordenación Urbana-ren 10 baliokideak, etab. <ref type="bibr">(Elosegi 2002: 498)</ref>. Alderantzizko kasuak ere badira, gutxi izan arren: euskal terminoak, espainierazko termino baten baino gehiagoren ordain direnak, alegia (489-492).</p><p>Izen-sintagmen barne-egiturari dagokionez, 1213 termino horietatik, 520 hitz bakarrekoak, monolexikoak dira; 416, izen elkartuak; eta 1213, sintagma egiturakoak. 27 Eta sintagma-egiturakoen artean berriro ere gehienak egitura "naturalekoak": 693 izenlagun + izen motakoak; eta 448, izen + izenondoz osatuak (erdiak baino gehiago erdal adjektibo erreferentziala duten sintagmen ordainak). 28</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Terminoak</head><p>Eratorriak Izen elkartuak IS 2336 392 416 1213</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV taula</head><p>Gómezek ez die atal berezirik eskaini aditz-izena buru duten izen sintagmei, baina bai halako egitura duten sintagmak aztertu. Beraz, datu horiek Elosegik eginiko aurkezpenaren arabera moldatuaz: a) Odontologiako terminologian ere badira -tze atzizkiaz sorturiko izenak: Baina ohargarria da, ia testuinguru beretan askotan bikotea -tze / -keta atzizkiez sortutako izenek osatzea, edo -tze / -dura, -tze / -era; azken batean -tze / gainerako atzizkiak. Horrek berak adierazten du adiera 'gertaera <ref type="bibr">', 'prozesua' dela (eta ez 'emaitza')</ref>. Oso argi ikusten da hori <ref type="formula">(51)</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Ondorio gisa</head><p>Erabat garaturik edo normalizaturik dauden inguruko hizkuntzetan gertatzen denaren antzera, euskarak ere badu beharra espezialitate-hizkerak landu eta garatzeko. Espezialitate-hizkera horietan, ukaezina da nominalizazioen eragina; autore guztiek aitortzen dute nominalizazio-egiturek eta, lan honetan azterturiko gaiari dagokionez, aditzetiko izenek duten garrantzia.</p><p>Auzia, baina, ez da nominalizazioei debekua ezarri edo jatorrizko hizkuntzan aditze ti ko izena dugunean besterik gabe euskaraz ere bide beretik jotzea. Eta 'jatorrizko hizkuntzan' diot jakinik ez dela nahitaezkoa itzultzen jardutea; euskaraz sortzen ari garela ere, sarritan (beti ez esatearren) izaten dugu burmuinean 'iltzaturik' erdal estandar jasoaren eredua.</p><p>Labur bilduz, esan dezakegu ez bakarrik espezialitate-hizkerak garatzean, testu arruntagoetako estandarra lantzean ere, komeni dela honako puntuak gogoan hartzea: <ref type="bibr">38</ref> Horren ondoan, (60) adibideko aldakuntza «changement». a) testu edo diskurtso bakoitzaren espezializazio-maila zein den, kontuan izanik espezializazio-maila apaleko testuetan hizkera orokorraren eta bereziaren arteko mugak lausotu egiten direla <ref type="bibr" target="#b18">(Elosegi 2002)</ref>; b) hizkera orokorrerako eta espezializazio-maila apaleko testuetarako aditzetiko izenak ez dira askotan aukerarik egokiena euskaraz (1-3 adibideak); c) espezializazio-maila handiagoko testuetan diskurtso abstraktuak leku gehiago betetzen du eta, horren ondorioz, nominalizazioak ugariagoak izango dira <ref type="bibr">(Zabala eta Elordui 2006</ref><ref type="bibr">, Lersundi, Zabala eta Elordui 2008</ref>; d) hala ere, jatorrizko erdal testuari estuegi loturik ibili ordez, diskurtsoa sortzean askatasunez jokatzen asmatu behar da, Oihartzabalen itzulpeneko adibideetan (2.3. puntua, bereziki 54-55 adibideak) ikusi dugun bezala. Horrela ko jokamoldea errazagoa izango da, oro har, giza eta gizarte zientzien arloan, zientziaren eta teknikaren alorrean baino; e) espezializazio-hizkerak izanik ere, ezinbestekoa da 'gertaera' bera, 'emaitza, ondorioa' ala 'gertaera' zein 'emaitza' adierazi behar den jakitea. 'Gertaera' balioa argi dugunean, perpaus nominalizatuak balia ditzakegu, nahiz erdaretan aditzetiko izena izan (13-19, 37-44, 56-61 adibideak); f) -tze atzizkiaz osaturiko aditz-izena ere balia dezakegu, Mitxelenak al darri katzen zuen bezala (6-12, 28-36, 62-63 adibideak); g) bereziki baliagarria gertatzen da '-tzeko + izena' (izen-sintagma, nahiago bada) egitura, erdal 'izena + preposizioa + aditz-izena' egituraren ordain (20-27, 45-50, 64-68 adibideak); h) zalantzazkoa da 'gertaera' adierazteko, -tze atzizkia baztertuaz, -keta, -kuntza edo bestelakoren bat hobesteak diskurtsoaren abstrakzio-mailan aurrera egiten laguntzen duela esatea (51-53 adibideak). Egia da -keta edo -dura atzizkiaz osaturiko izenek 'gertaeraz' gain bestelako balioak ere har ditzaketela. Baina testu bakoitzean funtsezkoa besterik da gure iritziz: 'gertaera' balioa adierazi behar den ala beste zerbait; i) e) -h) puntuetan esandakoak berdin balio du testu juridikoetan zein odontologiakoetan. Eta pentsa daiteke edozein espezializazio-testutara heda daitezkeen baieztapenak direla. j) azkenik, Elosegiren, Gómezen eta Oihartzabalen lanetan atzizki desberdinen emankortasuna zein den ikusirik, eta kontuan izanik bi kasutan testu juridikoez ari garela, eta bestean, aldiz, testu eta terminologia "teknikoez", etorkizunerako iker-ildo interesgarria da zinez <ref type="bibr">Lersundi, Zabala eta Elorduik (2008)</ref> iradokitzen dutena: espezializazio-arloaren arabera, testu-mota bakoitzean zein atzizki diren emankorrenak. Ondorengo lanetarako lehen baieztapen edo aurreikuspen moduan: espezializazio-arlo bakoitzean zein aditz-mota erabiltzen den ugarienik, horixe da gakoa. Aditz trantsitiboak, predikatu psikologikoak, kausatibo/inkoatibo alternantzia duten aditzak…, eta mota bakoitzak nolako rol tematikoak dituen. Hitz batean, testu-mota bakoitzeko aditzen sailkapen semantikoa da giltzarria.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Sarasolaren Euskal Hiztegia, tradizioaren adierazletzat harturik, eta Elhuyarren Euskal Hiztegi Modernoa, euskararen azken urteetako garapenaren adie razle tzat harturik), testuetako neologismoak finkatu ahala hiztegietan jasotzen direlako; eta ondoren, hiztegietako emaitzak, bi corpusetako datuekin alderatu dituzte: 13 Zientzia eta Teknologiaren Corpusa, corpus berezitua, eta Ereduzko Prosa Gaur, corpus orokorraren prentsako testuez eta liburuetako testuez osaturikoa. 14 Horretaz gain, atzizkien emankortasunaren balioak neurtu zituzten, sarrerak eta adiera kopuruak konparatuaz, neologia semantiko-funtzionalaren joeren berri izateko. Ondorio nagusiak labur bilduz: -Corpusetako datuak hiztegien datuekin konparatuz ikus daiteke Zientzia eta Teknologiaren corpus berezituko lema-kopurua askoz ere handiagoa dela hiz-11 Ikus, besteak beste, Gallegos (2003) eta Iturrioz (2000). 12 Artikulu honetako aztergai nagusia izan ez arren, horixe bera lantzen dute Ensunza, Etxebarria eta Iturbek (2008), zientzia eta teknikarako euskararen berezitasunak, eta nolako baliabideak landu behar diren inguruko hizkuntzetako egiturei ordain egokia emateko. sarrera kopurua baino, eta Ereduzko Prosa Gaur corpuseko lema kopurua baino. -Euskal Hiztegi Modernoaren eta Zientzia eta Teknologiaren corpusaren artean dagoen aldeak agerian uzten du zein den hiztegietan kodifikatuta ez dauden neologismoen kopurua. -Ereduzko Prosa Gaur bi motatako testuez osaturik dagoenez (prentsakoak eta liburuetakoak), bi azpicorpusak ere konparatu dituzte autoreek, agerian utziaz, euren iritziz, liburuetan diskurtso abstraktuak leku gehiago betetzen duela eta aditzeko izenen behar handiagoa dagoela prentsako testuetan baino. -Bi corpusak elkarren artean alderatuaz, ostera, Zientzia eta Teknologiaren corpusean bakarrik azaltzen diren lemen kopurua oso handia da. Beraz, egileen ondorioa da diskurtso berezitua garatzeko aditzetiko izenen behar handiagoa dagoela mota desberdinetako diskurtso orokorra garatzeko baino.</figDesc><table><row><cell>, eta Lersundi, Zabala</cell></row><row><cell>eta Elosegiren abiapuntua hauxe da (2008: 491): nominalizazio-estrategien emaitza</cell></row><row><cell>informazioaren trinkotzea eta abstrakzioa dira; beraz,</cell></row><row><cell>nominalizazio-estrategiak ezinbestekoak dira jakintzaren garapenerako nahitaezkoa</cell></row><row><cell>den diskurtso abstraktua aurrera eramateko. Hori dela eta, testu berezituek areago us-</cell></row><row><cell>tiatzen dituzte norminalizazio-estrategiak testu orokorrek baino eta, testu berezituen</cell></row><row><cell>artean ere, testu mota bakoitzean (burokratikoa, teknikoa, zientifikoa…) mota jakin</cell></row><row><cell>bateko estrategiak eta baliabide nominalak nagusitzen dira. 12</cell></row><row><cell>Horregatik azaltzen dute testu berezituek aditzetiko izenen dentsitate handiagoa</cell></row><row><cell>testu orokorrek baino.</cell></row><row><cell>Euskaraz ere beharrezkoak ditugu aditzetiko izenak diskurtso abstrakturako eta</cell></row><row><cell>jakintza-alor desberdinetako diskurtsoa sortzeko. Eta euskara azken urteetan alor</cell></row><row><cell>ugaritara hedatu eta askotariko testu orokor eta berezituak sortu direnez gero, espero</cell></row><row><cell>izatekoa da euskara, oro har, gero eta nominalizatzaileago bihurtzen joatea. Eta es-</cell></row><row><cell>pero izatekoa da, era berean, aditzetiko izen berri horiek askoz ere maiztasun handia-</cell></row><row><cell>goa izatea testu berezituetan testu orokorretan baino.</cell></row><row><cell>Hipotesi hauek egiaztatzeko, aditzetiko izenen maiztasuna erkatu dute bi hiztegi-</cell></row><row><cell>tan lehenik (</cell></row></table><note>13 «Garapen lexiko-diskurtsibo azkarreko uneetan espero izatekoa da corpusetan askoz ere handia- goa izatea prozesu neologikoen emankortasuna hiztegietan islatzen dena baino. Corpusen azterketa- tik hainbat datu lor ditzakegu: a) prozesu neologikoetan atzizki desberdinek duten emankortasuna eta b) atzizkien banaketa morfopragmatikoa testu moten eta erregistroen arabera» (496).14 www.ei.ehu.es eta www.euskara-errektoreordetza.ehu.es (hizkuntza baliabideak &gt; bestelako baliabi- deak) webguneetan kontsulta daitezke corpusok.tegietako-Ereduzko Prosa Gaur corpusean, atzizkiek azaltzen dituzten emankortasunaren balioak parekoak dira atzizki guztietarako. Zientzia eta Teknologiaren corpu- sak, ostera, -era, -keta eta, batez ere, -tze atzizkiak gehiago ustiatzen ditu (baina -dura, -men, -mendu, -tza eta -zio atzizkien emankortasuna handiagoa da Ere- duzko Prosa Gaur corpusean, Zientzia eta Teknologiarenean baino).-Azkenik, Zientzia eta Teknologiaren corpusa alorretan bereiziaz, 15 ikusi dute zenbait alorretan -zio atzizkia nagusitzen dela, eta, beste batzuetan, berriz, -ke- ta. 16</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>17 pentsamoldea:(…) ea unificación eta unidad ez ote ziren desberdinak, izan zen haren argudioa. Baina, euskaraz ari banaiz, zer axola zait nik hitz bakar baten bitartez adierazten dudana, edozeinek uler dezakeelarik, erdarazko batez, biz ala ehunez ematen den aditze ra? Garai hartako lehen lana osatzen duen heinean, beste hiztegi honen sarreran ere irakur daiteke hitzaurre bera: I.Sarasola, 2007,  Euskal Hiztegia, Elkar.   Hala ere, egia da beharrezkoa izaten zaigula beste hizkuntza bateko hitz desberdinei euskaraz ere ordain desberdinak ematea. Zenbat eta gehiago urrundu lexiko arruntetik eta hurbilago ibili terminologiatik, are garrantzitsuago izaten da terminologiak bere ezaugarritzat aldarrikatzen duen "zehaztasuna" gordetzea (Sarasolak "oso ba daez pa daz ko" kontutzat daukana, hizkuntza bateko eta besteko terminoak alderatuaz, adibide konkretuen bidez defendatuaz bere iritzia, 1997: 78-79). Mitxelenak ez dio itzuri egiten unidad eta unificación-en arteko bereizketa hori euskaraz ere agertzea ri. Eta hari horri heldurik dakar bereziki azpimarratu nahi dudan puntua(Mitxelena 1988: 45):Egia da (…) delako unificación goitar hori azaldu daitekeela euskaraz. Aski genuke, adibidez, batze edota nik neronek usatu izan dudan bateratze. Honek ere badu, ordea, bere koska: norbaitek esan omen du hizkuntza landuetan -te, -tze bezalako gramatika-atzizki arrunt batek ordezkari hoberik eta berezirik izan ohi duela.Tira, ingelesa aski landua eta ikasia da eta -ing ez dabil hain urruti gure atzizkitik. Hala guztiz, ordea, barra-barra erabiltzen dute -ing. Tituluak, eta titulu ezagunak, baizik ez aipatzearren, Advancement of Learning F. Beacon-ena da, Human understanding David Humengandik dator, A study of writtng I. Gelb-ena da.</figDesc><table><row><cell>15 Biziaren Zientziak (BZ), Lurraren Zientziak (LZ), Bestelakoak (Ekonomia, Arte-teknologiak,</cell></row><row><cell>Antropologia…) (BS), Orokorra (OR), Materia eta Energiaren Zientziak (Fisika eta Kimika) (ME),</cell></row><row><cell>Tek no lo giak (Teknologia Mekanikoa, Teknologia Elektrikoa / Elektronikoa, Telekomunikazioak, In-</cell></row><row><cell>formatika, Aeronautika) (TE), Zientzia Zehatzak (Matematika eta Logika) (ZZ).</cell></row></table><note>16 -zio (BZ, LZ, BS eta OR); -keta (ME, TE eta ZZ).17 Sarrera 1984koa izan arren, 1988ko berrargitalpenetik hartu dut aipua.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>edo, aditzetik eratorritako izenari eutsi bai, baina izenaren osagaiak perpaus erlatibo baten biltzea (edo haren molde laburturen batean) e) Izen-sintagmaren hedapena oso mugatua izateaz gain, beste arrazoi batzuk ere ematen dituzte Alberdik eta Sarasolak (2001: 225) eta</figDesc><table><row><cell>oroitaraz-</cell></row><row><cell>ten du munduan badirela nominalizazio deritzon prozedura gramatikalaz ba-</cell></row><row><cell>liatzen diren hizkuntzak eta halakorik ez dutenak; eta, lehenengoen artean,</cell></row><row><cell>nominalizazio-egiturek hartzen duten esparruari, indarrari eta maiztasunari</cell></row><row><cell>dagokionez ere aldeak badirela. Horrexegatik, auzia honetan datza, "erda-</cell></row><row><cell>raz nominalizazioetara jotzen den kasuetatik zeinetan den egokia euskaraz ere</cell></row><row><cell>berdin jokatzea". Beraz, (1) -(3) adibideetan, a. ala b. egitura, zer hautatu</cell></row><row><cell>nahi dugun</cell></row><row><cell>(1) a. sindikatu baten sorkuntzarako baldintza bakarra</cell></row><row><cell>b. sindikatu bat sortzeko baldintza bakarra</cell></row><row><cell>(2) a. neurri horien artean, hiru milioi eta erdi euro baino gehiagoko zenba-</cell></row><row><cell>tekoa seiehun ibilgailu ezkuturen erosketarako; 1.3 milioi euro beste be-</cell></row><row><cell>rrehun eta berrogeita hamar ibilgailuren segurtasunaren hobekuntzarako;</cell></row><row><cell>egoitzen berrindartzea; zaintzarako sistema elektronikoen hobekuntza; in-</cell></row><row><cell>hibitzaile berrien erosketa (…)</cell></row><row><cell>) Alberdi eta Sarasola (2001), eta Garzia (2005) bat datoz euskaraz "naturalak"</cell></row><row><cell>diren egiturak zein diren zehaztean ere, (4) -(5) adibideetakoak:</cell></row><row><cell>(4) Eguraldiaren (inoizko) aldaketak</cell></row><row><cell>(5) Ikasleentzako liburuen sorkuntza</cell></row><row><cell>Egitura konplexuagoetan, eta oro har gehienetan, bi bide nagusi dira zuhurre-</cell></row><row><cell>nak euskaraz halakoak egoki emateko:</cell></row><row><cell>-edo -t(z)e aditz-izenarekin moldatzea</cell></row></table><note>b. neurri horien arten, hiru milioi eta erdi euro baino gehiagoko zenbate- koa seiehun ibilgailu ezkutu erosteko; 1.3 milioi euro beste berrehun eta berrogeita hamar ibilgailuren segurtasuna hobetzeko; egoitzak berrin dar- tze ko; zaintzarako sistema elektronikoak hobetzeko; inhibitzaile berriak erosteko (…) (3) a. gaur izango da mahai horren osaketa b. gaur osatuko dute mahai hori c) Izen-egitura hautatzea ez da hiztegi eta morfologia kontu hutsa, egitura osoa aldatzen da; perpaus-egituratik, izen-sintagmaren egiturara aldatzea dakar be- rarekin. Inguruko hizkuntzetan preposizioen jokoa funtsezkoa izanik, izen- egitura erraz hedatzen da eskuinaldera (eta baita ezkerraldera ere behar izanez gero). Euskara, ordea, ez da preposiziodun hizkuntza, eta izen-egitura he da- tze ko askoz muga zorrotzagoak ditu. 19 Beraz, euskaraz "naturalak" diren egi- turen alde egin beharko litzateke, nominalizazioa aukeratuz gero.d19 Gazteleraz guztiz ohikoa da la creación urgente de un club para jubilados en el barrio egiturako sin- tagma. Baina euskaraz !!!jubilatuentzako klub baten auzoko premiazko sorkuntza / auzoan jubilatuentzako klub bat lehenbailehen sortzea (Garzia 2005: 86). Ildo beretik, hizkuntza naturaletik «urrun dauden» egi- turek hizkuntza tekniko-zientifikoan sortzen duten kezkaz jardun dute Ensunza, Etxebarria eta Iturbek (2008) edo Odriozolak (2001).-</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>doktore-tesia hautatu dut batetik (lexiko arruntetik termino bat baino gehiago hartzen duena), eta Odontologiako terminologia lantzen duen Gómezen (2008) lana bestetik. 21 Eta, azkenik, Jean Jacques Rousseau-ren Du Contrat Social eta Beñat Oihartzabalek eginiko itzulpena alderatuko ditut. 22 20 Ez dira, ordea, euskal autoreak horrelako arriskuez jabetu diren bakarrak. Beste hitz batzuetan esanda, ez da hizkuntza txiki edo gutxituen arazoa bakarrik.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>Terminoak azken batean testuetan erabiltzen direnez, zerrenda hutsak az ter tzea baino egokiagoa izaten da testuak hartzea eta ikustea terminoa nolako sintagman edo nolako perpausean dagoen txertatua(ik. 24. oharra). Horregatik ekarri nahi dut hirugarren adibidetzat Rousseauren Du Contrat Social 32 eta Beñat Oihar tza ba lek eginiko itzulpena. Testu juridikoa, beraz, testu espezializatua; aldi berean, giza eta gizartezientzien alorrekoa (beraz, Elosegik aztertutako terminologiatik askoz hurbilago dagoena). Ez dut testu osoa aztertu, eta horregatik ez dut gertaera-eta emaitza-izenak sortzeko atziz kien emankortasunaz daturik emango. Hala ere, nahiz aurreko bi kasuetan baino datu gutxiago izan, lehen liburuko bederatzi kapituluetan frantsesezko testuan changement, recherche, rénonciation, forme d'association edo l'usage du droit de la guerre moduko izen eta sintagmak nolako testuingurutan ageri diren ikusi eta Oihartza ba lek horiek euskaratzean zein hautu egin duen ikusteari jakingarri iritzi diot. Le droit du premier occupant, (...) ne devient un vrai droi qu'après l'établissement de celui de propriété b. lehen egoilearen eskubidea, (...) jabegoaren eskubidea jarri ondoan baizik ez Ikerketa horretan… (73) a. je n'y vois point un peuple et son chef; c'est si l'on veut une aggrégation, mais non pas une association b. ez dut populu bat bere buruzagiarekin ikusten; jende metaketa da, nahi bada, ez jende elkarte bat (74) a. selon Grotius un peuple est donc un peuple avant de se donner à un roi. Ce don même est un acte civil, il suppose une déliberation publique b. Grotiusentzat, beraz, populu bat populu da jada errege bati bere burua eman aitzin. Emaitza hori bera akta zibila da, eta deliberamendu publikoa su po satzen du (75) a. les clauses de ce contrat sont tellement déterminées par la nature de l'acte, que la moindre modification les rendroit vaines et de nul effet b. hitzarmen horretako klausulak hain dira aktaren naturalezari josiak, non den gutieneko aldaketak 38 hutsal eta ondoriorik gabeko bihurraraz bailitzake (76) a. paradoxe qui s'explique aisément par la distinction des droits que le souverain et le propriétaire ont sur le même fond b. paradoxa hau errazki esplikatzen da subiranoak eta jabeak funts beraren gainean dituzten eskubideen arteko bereizkuntzari esker Beraz, egia izanik ere Zabala eta Elorduik (2006: 911) diotena, aditzetiko izenek aukera ematen dutela aditzak adierazten duen ebentualitate edo gertaerako alderdi bat baino gehiago fokalizatzeko (egilea, lekua, tresna edo baliabidea, etab.), eta gertaera-eta emaitza-izenek gertaera bera osorik edo horren atal bat fokalizatzen dutela, badirudi Oihartzabalen itzulpenean joera nabarmena dela gertaera adierazteko -tzeren hautua egiteko; eta emaitza edo ondorioa adierazteko, berriz, gainerako atzizkie na (-men/-pen, -kuntza, -dura, -keta…).</figDesc><table><row><cell>(55) a. da egiazko eskubide bilakatzen</cell><cell>-(53) adibideetan (ez da, beraz, harritzekoa</cell></row><row><cell cols="2">ingelesez -ing aurkitzea), b) -tze atzizkiaz osaturiko perpaus nominalizatuak, aditzaren argumentuak geni-</cell></row><row><cell cols="2">(51) a. hortz endodontziatuaren zuriketa tibo markaz (edo bestelako kasu-markarekin) ageri direla:</cell></row><row><cell cols="2">'blanqueamiento de diente endodonciado' (56) a. les enfants, exempts de l'obéïssance qu'ils devoient au pere, le pere exempt des 'bleaching of endodontically treated tooth' soins qu'il devoit aux enfants, rentrent tous également dans l'indépendance</cell></row><row><cell cols="2">b. hortz bizigabeak zuritze b. aitaren obeditzerik ez duten haurrak, hala nola haurrez arta hartzerik ez duten</cell></row><row><cell cols="2">'blanqueamiento de dientes no vitales' aitak, oro beren gain molde berean jartzen dira 33</cell></row><row><cell cols="2">'bleaching of non-vital tooth' (57) a. la fin de la guerre étant la destruction de l'Etat ennemi (…) (52) a. betetze konplexu b. gerlaren helburua Estatu etsaiaren suntsitzea izanki (…) 'obturación compleja', 'complex filling' (58) a. son existence absolue et naturellement indépendante peut lui faire envisager ce</cell></row><row><cell cols="2">b. buxadura arrunt qu'il doit à la cause commune comme une contribution gratuite</cell></row><row><cell cols="2">'obturación simple', 'single filling' b. mugarik gabe eta naturalki bere gain bizitzeak pentsaraz diezaioke hainari,</cell></row><row><cell cols="2">(53) a. hortz-haginen galtze kausa komunari zor diona dohainikako ordainketa dela</cell></row><row><cell cols="2">'pérdida de dientes', 'loss of teeth' (59) a. car l'impulsion du seul appetit est esclavage, et l'obéïssance à la loi qu'on s'est</cell></row><row><cell cols="2">prescrite est liberté b. hortzen galera b. ezen gutizia hutsaren berezko oldeari esklabogoa dagokio, eta bere buruari 'pérdida de dientes', 'loss of teeth' emanikako legearen obeditzeari, aldiz, libertatea</cell></row><row><cell cols="2">(60) a. ce passage de l'état de nature à l'état civil produit dans l'homme un change-2.3. Du Contrat Social / Gizarte Hitzarmena ment très rémarquable</cell></row><row><cell cols="2">b. naturalezazko estatutik estatu zibilera iragate horrek arras aldakuntza ohar-</cell></row><row><cell cols="2">garria ekartzen du gizona baitan</cell></row><row><cell cols="2">(61) a. l'usage du droit de la guerre ne suppose aucun traité de paix</cell></row><row><cell cols="2">b. gerlako zuzenbidearen baliatzeak deusetan ez du bake hitzarmenik suposatzen</cell></row><row><cell cols="2">c) Beste batzuetan -tze aditz-izena dugu, izen balioan, ondotik izenondoren bat</cell></row><row><cell>duela:</cell><cell></cell></row><row><cell cols="2">(62) a. c'est donc un échange inique de lui faire acheter au prix de sa liberté sa vie</cell></row><row><cell cols="2">b. trukatze bidegabekoa da hainari bizian truk libertatearen erosaraztea</cell></row><row><cell cols="2">(63) a. de quelque manière que se fasse cette acquisition (…)</cell></row><row><cell cols="2">b. nolakoa nahi baita izan dadin eskuratze horren egin molde (…)</cell></row><row><cell cols="2">Oihartzabalek aukeraturiko egituren azterketa xume bat eginaz, eta Elosegiren eta d) -tzeko + IS egiturak</cell></row><row><cell cols="2">Gómezen datuen arabera moldatuaz adibideak: (64) a. je veux chercher si dans l'ordre civil il peut y avoir quelque regle d'administra-</cell></row><row><cell cols="2">a) Batzuetan, frantsesez aditzetiko izena azaldu arren, aditz-egituraz baliatzen da tion legitime et sûre (…) Dans cette recherche…</cell></row><row><cell cols="2">Oihartzabal perpausa euskaratzean: b. ordena zibilean administratzeko arau segur eta legitimorik izan daitekeenentz</cell></row><row><cell cols="2">(54) a. Il y a là bien des mots équivoques qui auroient besoin d'explication aztertu nahi nuke (…)</cell></row><row><cell cols="2">b. Badira hor hitz nahasgarri asko, argitu behar liratekeenak</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">Gure artean, ikus daitezke<ref type="bibr" target="#b33">Oihartzabal (1992</ref>Oihartzabal ( ), (2003,Artiagoitia (2000),<ref type="bibr" target="#b10">Alberdi (2003)</ref> edo<ref type="bibr" target="#b20">Etxepare (2003)</ref>. Beste hizkuntza batzuetarako,<ref type="bibr" target="#b29">Levin (1993)</ref>,<ref type="bibr" target="#b16">Campos (1999)</ref>.2 Ikus, besteak beste,<ref type="bibr" target="#b12">Artiagoitia (1995)</ref>,<ref type="bibr" target="#b25">Gràcia Cabré, Varela, Azkarate (2000)</ref>, Pérez Gaztelu, Zabala,<ref type="bibr" target="#b35">Gràcia (2004)</ref>,Oihartzabal (arg.)  (2003),<ref type="bibr" target="#b14">Azkarate (2008)</ref>.3 Xede berezietarako hizkeren edo espezialitate-hizkeren ezaugarriez, eta halakoek izan duten trataeraz ikus daitekeElosegi (2002: 34 e.h.).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">«Els països amb llengües no dominants i subsidiarias tecnològicament exerceixen una activitat terminològica que es basa en la neologia. Així, la pràctica terminològica d'aquests països és una pràctica neològica. Altres països, en canvi, productors de ciència i tecnològia en la llegua pròpia, exerceixen una activitat terminològica de recopilació i de regularització».Ikus, halaber Gomez (2008: 99).5  Language for Specific Purposes.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="18">Kontuan hartzekoa da, hala ere, Iparraldeko euskarek -era atzizkiaren ordez -tze erabiltzen dutela. Eta, beraz, hainbat euskaldunentzat sartze izenak, sarrera-ren adierak har ditzakeela.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="23">Ikus (10), terminologia guztiz normalizatu gabe egoteak dakarren bitasunaren (edo hirutasunaren) erakusgarri. Baina, hala ere, bietan -tze atzizkiaren aukera.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="24">Testu osoagoa beharko litzateke egitura behar bezala ulertzeko. Pentsatzekoa da el incumplimiento de esta orden (…), edo modu horretako egiturak direla euskaraz honela eman daitezkeenak, agindu hori bete gabe uztea(k)…</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="32"> Rousseau, Jean Jacques, 1762, Du Contrat social (Gallimard, 1964.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="33">Adibide honetan bertan, indépendance izena ordezkatu beharrean, aditz-sintagma osoa hartzen du Oihartzabalek: rentrent tous également dans l'indépendance / oro beren gain molde berean jartzen dira.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">egard du droit de conquête, il n&apos;a d&apos;autre fondement que la loi du plus fort b. konkistatzeko eskubideak ere indartsuenaren eskubidea du oinarri bakarra (66) a. la force est la liberté de chaque homme étant les premier instruments de sa conservation</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">gizon bakoitzak bere buruaren kontserbatzeko dituen lehenbiziko tresnak indarra eta libertatea baitira</title>
+		<imprint>
+			<biblScope unit="page">34</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">voit par cette formule que l&apos;acte d&apos;association renferme un engagement réciproque du public avec les particuliers b. formula horren bidez ikusten da, elkartzeko aktari badatxekiola publikoak eta gizabanakoek elkarri ematen dioten hitza 35</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">je suppose les hommes parvenus à ce point où les obstacles qui nuisent à leur conservation dans l&apos;état de nature</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">demadan gizonak halako pundura helduak direla, non, bere buruen naturalezako egoeran atxikitzeko dituzten eragozpenek</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Lehen liburuko kapituluei dagokienez behintzat, nabarmena da -men / -pen atzizkiaren emankortasuna 36 (Elosegik azterturiko corpuseko datuekin bat datorrena, biak ere testu juridikoak baitira). Bestalde, oro har, ez da &apos;gertaera</title>
+		<ptr target="badira-men/-mendu/-pen,-tza,-ketaedo-kuntzaatzizkiazosaturikoizenakere" />
+		<imprint/>
+	</monogr>
+	<note>soila aditzetiko izen hauek adierazten dutena</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Comment ce changement c&apos;est-il fait? b. gizona libro sortu da, eta orotan burdinetan dago (…) Nola gertatu da mudantza hori? (70) a. ils aiment leur servitude comme les compagnons d&apos;Ulysse aimoient leur abrutissement b. beren morroitza hala maite dute, nola Ulysesen lagunek beren zozomendua (71) a. qu&apos;y gagnent-ils, si les guerres que son ambition leur attire, (…), si les vexations de son ministere les désolent plus que ne feroient leurs dissentions? b. zer irabazi dute hauek hortik, baldin despotaren handi-nahikeriak sorrarazi gerlek</title>
+		<ptr target="ezdagoororiukodagionariinolakoordainikematerik.Horrelakoukamenaezdagizonarennaturalezarekinbateragarri37" />
+	</analytic>
+	<monogr>
+		<title level="m">homme est né libre, et par-tout il est dans les fers (…)</title>
+		<imprint/>
+	</monogr>
+	<note>haren ministerioaren nardamenduek, makur gehiago egiten badiz kie beren arteko liskarrek baino (72) a. il n&apos;y a nul dédomagement possible pour quiconque renonce à tout. Une telle renonciation est incompatible avec la nature de l&apos;homme b</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">egitura konplexuagoa duten izen-sintagmak ordezkatzeko gomendatzen duen bideetako bat: osagaiak erlatibozko perpaus batean biltzea. 35 engagement reciproque = elkarri ematen dioten hitza, erlatibozko perpausa, izen bakuna buru duena. 36 (69) -(76) adibideez gain, abertimendu «avertissement» eta hautapen «élection» bi bider; gehi (58) adibideko ordainketa, (60)ko aldakuntza</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Garziak</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note>ko ikerketa eta (68)ko eragozpen</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Frantsesezko nul dedomagement possible izen sintagmaren ordain, inolako ordainik ematerik perpaus nominalizatua</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">«La reducción del grado de transitividad de la oración en el discurso científico en lengua inglesa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Albentosa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Moya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RSEL</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="445" to="468" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The transitivity of borrowed verbs in Basque: an Outline</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Alberdi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Oihartzabal (arg</title>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="23" to="46" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Euskal estilo libururantz. Gramatika, estiloa eta hiztegia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>-&amp;amp; Sarasola</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Euskal Herri ko Unibertsitatea</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">«-garri atzizkiaren izaera bikoitzaz. Zergatik den maitagarria bezain mingarria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Artiagoitia</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="355" to="405" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Hatsarreak eta parametroak lantzen</title>
+	</analytic>
+	<monogr>
+		<title level="m">Gramatika jaietan Patxi Goenagaren omenez</title>
+		<editor>Arabako Foru Aldundia-EHU, Gasteiz. -&amp; J. Lakarra</editor>
+		<imprint>
+			<date type="published" when="2000" />
+		</imprint>
+		<respStmt>
+			<orgName>ASJU-ren Gehigarriak LI</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">«Gertaera-eta emaitza-izenak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Azkarate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Artiagoitia &amp; Lakarra (arg</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="93" to="106" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">La Terminologia. La teoria, els mètodes, les aplicacions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">T</forename><surname>Cabré</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+			<pubPlace>Barcelona, Empùries</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Campos</surname></persName>
+		</author>
+		<title level="m">Gramática Descriptiva de la Lengua</title>
+		<editor>I. Bosque &amp; V. Demonte</editor>
+		<meeting><address><addrLine>Española, Espasa, Madrid</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="1519" to="1574" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">«La terminologie: une discipline au service d&apos;objectifs multiples</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Corbeil</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Nazioarteko Terminologia Biltzarra</title>
+		<meeting><address><addrLine>Donostia, UZEI-IVAP</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="35" to="51" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Zuzenbideko euskal hizkera berezia. Lege-corpus itzuli bateko terminologiaren azterketa linguistikoa eta terminologikoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Elosegi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>Euskal Herriko Unibertsitatea</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Zientzia eta teknikarako euskara. Zenbait hizkuntza-baliabide</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ensunza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Etxebarria</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Iturbe</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>Udako Euskal Unibertsitatea (2. argitalpena</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">«Valency and argument structure in the Basque verb</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Etxepare</surname></persName>
+		</author>
+		<editor>Hualde &amp; Ortiz de Urbina</editor>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="363" to="425" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Frawley</surname></persName>
+		</author>
+		<title level="m">International Encyclopedia of Linguistics</title>
+		<meeting><address><addrLine>New York, Oxford: Oxford U. P</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note>2nd edition, 4 vol.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Algunas relaciones entre morfopragmática, tradiciones discursivas y desarrollo de la lengua en español. Doktoretza-tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gallegos</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+		<respStmt>
+			<orgName>Albert-Ludwigs-Universität</orgName>
+		</respStmt>
+	</monogr>
+	<note>Nominalización y registro técnico</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Kalko okerrak. Ikasmaterialen Aholku Batzordea. Estilo-liburuaren bigarren atala</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Garzia Garmendia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eusko Jaurlaritzaren Argitalpen Zerbitzu Nagusia</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note>Euskara Zerbitzua. Hizkuntza Prestakuntza</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Análisis descriptivo de la terminología de la odontología en lengua vasca y propuestas para la formación de términos en los ámbitos de especialidad, doktore-tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gómez</forename><surname>Sánchez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">F</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>Euskal Herriko Unibertsitatea</publisher>
+		</imprint>
+	</monogr>
+	<note>Creación de neologismos en euskera</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Configuración morfológica y estructura argumental: léxico y diccionario</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Gràcia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Cabré</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Varela</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Azkarate</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Argitalpen</forename><surname>Upv/Ehu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Zerbitzua</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">A grammar of Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I. &amp;amp; J</forename><surname>Hualde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ortiz De Urbina</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Mouton de Gruyter</publisher>
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">De las abstracciones a las macro-operaciones textuales</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Iturrioz</surname></persName>
+		</author>
+		<idno>21-24: 1</idno>
+		<imprint>
+			<date type="published" when="2000" />
+			<biblScope unit="page" from="32" to="140" />
+		</imprint>
+	</monogr>
+	<note>«Diversas aproximaciones a la nominalización</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Aditzetiko izenen emankortasunaren azterketa morfopragmatikoa euskarazko corpus orokor eta berezituetan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lersundi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Zabala</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Elordui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Artiagoitia &amp; Lakarra (arg</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="491" to="506" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">English verb classes and alternations: a preliminary investigation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Levin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+			<publisher>University of Chicago Press</publisher>
+			<pubPlace>Chicago</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">«Hauta-lanerako Euskal Hiztegia-ren aurkezpena», in I. Sarasola, Hauta-Lanerako Euskal Hiztegia, Donostia, I, 11-23 or. (K. Mitxelena, Euskal Idazlan guztiak VII</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskal Editoreen Elkartea</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="25" to="45" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+	<note>Klasikoak</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Myking</surname></persName>
+		</author>
+		<title level="m">Standardization and Language Planning of Terminology: the Norwegian Experience» in Nazioarteko Terminologia Biltzarra</title>
+		<meeting><address><addrLine>Donostia, UZEI-IVAP</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="227" to="248" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Euskara eta nazioarteko arauak: erabilera orokorra, erabilera berezituak eta erabilera gainberezituak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Odriozola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskara</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="149" to="187" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">1993 (euskaratzailea), Gizarte-hitzarmena, Klasikoak, Bilbo. -, 2003, «Lexical causatives and causative alternation in Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Oihartzabal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Syntactic Theory and Basque Syntax</title>
+		<editor>J. Lakarra eta J. Ortiz de Urbina</editor>
+		<meeting><address><addrLine>Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="223" to="253" />
+		</imprint>
+	</monogr>
+	<note>Structural Case and Inherent Case Marking: Ergaccusativity in Basque. in Oihartzabal (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Inquiries to the Lexicon-Syntax Relations in Basque</title>
+	</analytic>
+	<monogr>
+		<title level="j">ASJU-ren Gehigarriak</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<date type="published" when="2003" />
+		</imprint>
+		<respStmt>
+			<orgName>EHU-Gipuzkoako Foru Aldundia, Bilbao eta Donostia</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Las fronteras de la composición en lenguas románicas y en vasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pérez</forename><surname>Gaztelu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Zabala</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Gràcia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note>Universidad de Deusto</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">English Special Languages: Principles and practice in Science and Technology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Sager</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Dungworth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1980" />
+			<publisher>Brandstetter Verlag KG</publisher>
+			<pubPlace>Wiesbaden</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Sarasola</surname></persName>
+		</author>
+		<title level="m">Euskal hiztegigintzaren eta terminologiaren inguruan» in Nazioarteko Terminologia Biltzarra, Donostia, UZEI-IVAP</title>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="69" to="86" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">«Standardization, normalisation et officialisation en aménagement terminologique au Québec</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Vachon-L&amp;apos;heureux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Nazioarteko Terminologia Biltzarra</title>
+		<meeting><address><addrLine>Donostia, UZEI-IVAP</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="187" to="225" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Andolin gogoan. Essays in honour of Professor Eguzkitza, UPV/EHUko Argitalpen Zerbitzua, Bilbo</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Zabala</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Elordui</surname></persName>
+		</author>
+		<editor>B. Fernandez &amp; I. Laka</editor>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="233" to="249" />
+		</imprint>
+	</monogr>
+	<note>«Specialised Discourse and the Linguistic System of Basque</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

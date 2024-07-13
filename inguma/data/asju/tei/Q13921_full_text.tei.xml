@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">AnuArio del SeminArio de FilologíA VAScA «Julio de urquiJo» international Journal of Basque linguistics and Philology liii (1-2) Euskararen lerrokadura ergatiboaren sorreraz 1 On the rise of the ergative alignment of Basque mikel martínez Areta* universidad del País Vasco/euskal Herriko unibertsitatea (uPV/eHu)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019">2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">AnuArio del SeminArio de FilologíA VAScA «Julio de urquiJo» international Journal of Basque linguistics and Philology liii (1-2) Euskararen lerrokadura ergatiboaren sorreraz 1 On the rise of the ergative alignment of Basque mikel martínez Areta* universidad del País Vasco/euskal Herriko unibertsitatea (uPV/eHu)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="volume">53</biblScope>
+							<biblScope unit="issue">1-2</biblScope>
+							<biblScope unit="page" from="183" to="223"/>
+							<date type="published" when="2019">2019</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1387/asju</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:20+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>ergativity</term>
+					<term>Basque verbal morphology</term>
+					<term>agent/patient salience</term>
+					<term>mood-prominent languages</term>
+					<term>topic-prominent languages</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>in this paper, the rise of the ergative morphological alignment of Basque is discussed. the process which caused this rise is to be located before Aquitanian and the beginning of the contact with latin, at some point of Proto-Basque. Following trask's (1977)  proposal, it will be assumed that, since the initial slot of all the finite verbs of present conjugations and many of the past/irrealis conjugations is occupied by a P (= Patient) marker, an application of givón's principle according to which "today's morphology is yesterday's syntax" (e.g. nator 'i come' &lt; *ni da-tor) should lead to the logical conclusion that these transitive finite verbs come from passive predicates (e.g. nakus '(s)he sees me' &lt; *ni da-kus 'i am seen').</p><p>the previous postulate can also provide an explanation for some classical problems, both morphological and syntactic, of Basque linguistics, such as the split ergativity, the rise of the ergative marker -k in the noun-declension, the rise of the agreement markers of non-pronominal origin -t and -k, and the drift AVo &gt; AoV in the order of constituents.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Sarrera</head><p>lan honetan euskararen aditz jokatuaren sorreraren arazoak sintetizatuko ditut, eta hipotesi berri bat proposatuko. Honen muina martínez <ref type="bibr" target="#b28">Areta (2013)</ref>-n aurkeztu zen, baina orain zabalduko dut, eta hainbat xehetasunetan sartuko naiz. euskalaritza diakronikoan, hau gai klasiko bat dugu, eta halabeharrez estu-lotuta dago euskararen ezaugarriei buruzko gainerako eztabaidekin, batik bat hitzen eta osagaien hurrenkerarekin, eta lerrokadura morfologiko ergatiboarekin (hortik lanaren izenburua). Hartara, hauetarako garapena eta jatorriaren azalpen bat ere eskainiko da. dakikegunez, 70eko hamarkadatik garatu den ikerketan, erlazio gramatikalei buruzko bibliografian rol semantiko nagusien laburdurak honela irudikatu dira: P = Patient (edo Jasaile), S = intransitive Subject (edo Subjektu iragangaitz), A = Agent (edo egilea). Hauexek dira muinezko argumentuak ("core-arguments"), aditz jokatuan errazenik pertsona-komunztadura eragiten dutenak, eta hortaz garrantzitsuenak erlazio gramatikalak eta ergatibitatea aztertzeko. <ref type="bibr" target="#b6">2</ref> Haietaz gain, r = recipient ere badugu, baina hau nolabait ez da aurreko hirurak bezain argumentu muinezkoa (euskaran pertsona-komunztadura eragiten badu ere), eta ergatibitatearen inguruko arazoetan garrantzi txikiagoa izan ohi du. <ref type="bibr">3</ref> euskara hizkuntza morfologikoki ergatiboa da, edo behinik behin horrela definitzen da tradizionalki. definizio honi jar dakiokeen eragozpena lerrokadura morfologiko ergatiboa eskatzen duten baina semantikoki iragangaitzak diren hainbat aditzen izatea da: inergatiboak. Aditzon esparrua oso zabala dela baderitzogu, dixon-en (1994) terminologia erabiliz split-S sistematzat jo beharko dugu euskararena.</p><p>Aldaik (2009) bikain laburbildu ditu aditz inergatiboen arazoa eta beronek dakartzan aspektu diakronikoak. <ref type="bibr" target="#b7">4</ref> ez naiz sartuko haren analisian, baina sintetizatu nahi nuke diakroniaren ikuspegitik haren baieztapen nagusia dena: aditz inergatiboen esparrua aldakorra da euskalkitik euskalkira. ekialdeko muturrean, zuberera predikatu inergatibo gutxien dituen euskalkia da, eta nagusiki aditzaren balentzian oinarrituriko lerrokadura-sistema zaharra mantendu du. mendebaldeko muturrean, bizkaieraz, ekialdean iragangaitzak diren hainbat predikatuk morfologia ergatiboa eskatzen dute, hala nola dantzatu edo bazkaldu aditzek. Autore mendebaldar moderno batzuek tradizioan beti iragangaitzak izan diren aditz batzuk iragankorki darabiltzate, hala nola gandiagak eta n. etxanizek jostatu aditzarekin (ikus OeH). <ref type="bibr" target="#b6">2</ref> termino hauek comrie-ren lanetatik abiatzen dira. dixon-ek bere aldetik termino berberak erabili ditu S eta A roletarako, baina besterako o = object hobetsi du. Bi termino-sortek bizirik iraun dute gaurdaino, ez bata ez bestea nagusitu ez delarik. dixon-en lanarekiko nire atxikimendu berezia gorabehera, lan honetan nik P erabiliko dut, azaldu nahi diren gertakariak eta postulatu nahi diren hipotesiak irudikatzeko Jasaile terminoa argigarriagoa delakoan. <ref type="bibr">3</ref> Bil ditzagun, bide batez, artikulu osoan zehar erabiliko ditugun laburdurak: S = intransitive Subject (Subjektu iragangaitza), A = Agent edo transitive Subject (egilea edo subjektu iragankorra), P = Patient (Jasailea, perpaus iragankor batean), r = recipient (Jasotzailea, edo nori argumentua). Agertuko diren beste laburdura garrantzitsu batzuk: aor. = aoristoa, eBZ = euskara Batu Zaharra, iS = izen Sintagma, lA = lehenaldia, oA = orainaldia, OeH = Orotariko euskal Hiztegia (= www.euskaltzaindia. eus/oeh), os.eg. = osagarri egilezkoa, rS = refranes y Sentencias, TaV = Textos arcaicos Vascos <ref type="bibr">(= mitxelena 1964)</ref>. <ref type="bibr">4 ikus, orobat, trask (2002)</ref>. euskalari amerikarrak (2002: 269) aditz inergatiboei "Vitm verbs" deritze ('verb intransitive with transitive morphology'). mendebaldearen eta ekialdearen arteko aldakortasun hau da Aldaik (2009) aztertu zuena. Honen arabera <ref type="bibr">(2009: 823-827)</ref>, aspektu honetan ekialdea gordetzailea da eta euskara zaharra ergatibitate puruago batetik gertuago zegoen. Predikatu jakin batek morfologia markatua edo ez-markatua hartzen zuen: aukera predikatuaren balentziaren araberakoa zen, eta ez semantikaren araberakoa. gerora, mendebaldeko euskalkietan inergatiboen kopurua areagotu zen, semantikak baldintzaturiko inergatiboen eta inakusatiboen arteko bereizketa batera igaro zelarik.</p><p>izen-morfologian, tipologiaren aldetik euskara erlatiboki markatua da, iS guztiek P=S≠A lerrokadura erakusten baitute, <ref type="bibr">Silverstein-en (1976)</ref> biziduntasun-eskala osoan zehar, inongo hausturarik gabe. Salbuespen bakarrak pluralean topatzen ditugu. Batetik, baliabide suprasegmentalak albo batera uzten baditugu, iS plural orok P=S=A lerrokadura morfologikoa du mendebaldeko euskalkietan (bizkaieraz, araberaz, gipuzkeraz eta goi-nafarreraren hizkera batzuetan): -ak / -ak / -ak. Bestetik, erakusleen pluralak (hau-ek / hau-ek / hau-ek, etab.) 5 eta zu-ek pertsona-izeinordainak ere P=S=A lerrokadura morfologikoa erakusten dute, <ref type="bibr" target="#b2">6</ref> bai eta batzu(e)(k) determinatzaileak edo izenordainak hegoaldeko euskalkietan. 7 euskaran pluralaren sorrera 5 Zubererak 3. graduko erakusleen pluralean P=S≠A lerrokadura ezarri du, abs. (hura →) hura-k forma analogikoaren sorreraren bidez (≠ erg. hek). <ref type="bibr" target="#b2">6</ref> orobat, badirudi mendebaldeko euskara zaharrean (eta glosa emiliotarretan beretan: gu-ek ajutu ez dugu), gu zu-ek bezala deklinatzeko saio bat garatu zela. lazarragak bi erak agertzen ditu <ref type="bibr">(ikus OeH, s.v. gu)</ref>. <ref type="bibr">7</ref> iparraldeko euskalkietan, xvi.-xvii. mendeetan P=S≠A daukagu, dela P/S. batzu ≠ A. batzuk (adib. leizarraga), dela P/S. batzuk ≠ A. batzuek (adib. Axular). Hegoaldean, P=S=A lerrokaduraren haustura berria da. tradizio bizkaitarreko ohiko forma batzuk da; gipuzkoarrekoa batzuek <ref type="bibr">(ikus OeH, s.v. batzuk)</ref>.</p><p>https://doi.org/10.1387/asju.22416 berankorra denez <ref type="bibr">(ikus Santazilia 2013: 227-239)</ref>, printzipioz nahiago dut mugagabeari erreparatu, eta lerrokadura hauek sorrera berankorragokotzat jo.</p><p>Aditz-morfologian, ordea, euskarak split edo haustura oso interesgarria erakusten du: oA-ko joskeretan lerrokadura zeharo ergatiboa da: singularrean n-/ n-/ -t (-daalomorfoarekin), etab., pluralean g-/ g-/ -gu, etab. lA-ko eta irrealiseko joskeretan, singularrean nen-/ nen-ditugu 8 S eta P-ren adierazle; A-rena, ordea, -da-izango da bakarrik P-a 1. edo 2. pertsonakoa eta A-a 1. edo 2. pertsonakoa baldin badira; baina P-a 3. pertsona eta A-a 1. edo 2. pertsona baldin badira, orduan A-a ne-formapean agertuko zaigu. Horrela, P=S≠A lerrokadura nola edo hala mantentzen da, baina ez aurrizki / aurrizki / atzizki patroiarekin. Bestalde, pluralean, kasu gehienetan P=S≠A lerrokadura ergatiboa desagertzen da (gen-/ gen-/ gen-), kasu bakan batzuetan beste forma baten pean mantentzen bada ere <ref type="bibr">(gen-ekarr-en 'guk-hura', etab.)</ref>. egoera korapilatsu hau 1. figuran eskematizatua ageri da. 1. figura euskal aditz jokatuaren ergatibitate hautsiaren irudikapena ondoko ataletan, aditz-morfologiaren egoera hain bihurri hau nola sortu zen azaltzen saiatuko naiz. 2. atalean, euskararen diatesia eta zehazkiago pasibotasunaren inguruko eztabaida laburbilduko dut, argudioen korapiloa askatzeko modu bat proposatuz. 3. atalean, soluzio horren arabera oA-ko morfologia eta lerrokadura morfologikoa nola eratu zen aztertuko da, eta 4. atalean lA eta irrealisekoa. 5. atalean, ikertuko da zergatik izan dezakegun hain lerrokadura morfologiko bitxia oA-n eta lA/irrealisean (1. figuran irudikatua), eta nola batera daitekeen tipologiaren printzipioekin (ergatibitate hautsiaren auzia, martínez Areta 2013-n jada azaltzen saiatu nintzen arazo bat). 6. atalean, iradokiriko hipotesiaren bidez jatorri izenordainezkokoak ez diren A.1sg.eko -da eta A.2sg.eko *-ga pertsona-marken sorrerari azalbide bat eskainiko diot. 7. atalean, izen-morfologiako -k ergatiboko markarako lakarrak (2005) proposaturiko jatorria nire hipotesiarekin bateratzen saiatuko naiz. 8. atalean, aditu gehienek onarturiko AVo &gt; AoV garapena nola gertatu zatekeen hartuko dut hizpide. miKel mArtíneZ AretA ASJU, 2019, 53 (1-2), 183-223 9. atalean neurri batean espekulazio maila goratzen da, baina komunztadura-sistemen sorreraren inguruko bibliografia tipologikoan murgiltzean topatu dudan gai bat izaki, aipatzeke utzi ezin den gaia iruditu zait li &amp; thompson-ek (1976) postulaturiko topiko-goraguneko eta subjektu-goraguneko hizkuntzen arteko bereizketa. izan ere, topiko-goraguneko hizkuntzen ezaugarri bat -pasibo edo diatesi eza-hain zuzen ere nire berreraiketatik espero genukeena da. 10. atalean, hausnarketa orokor apur batzuekin amaiera emango diot lanari.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Euskararen aditzaren diatesia</head><p>Hizkuntza jakin baten diatesi, boz gramatikal edo lerrokadura morfo-sintaktikoaren sorrera arakatzeko, aditz jokatuaren morfologiari erreparatu behar zaio. euskararen kasuan, honek fokua aditz trinkoetan eta laguntzaileetan jartzea inplikatzen du.</p><p>Horretarako Aditz sintetikoek eBZ-an garai historikoetan baino indar askoz handiagoa omen bazuten ere, horrek ez du esan nahi haien morfologiak -aditz konposatuetako laguntzaileenak bezalaxe-ez duenik aldaketarik jasan. Aitzitik, eBZ-ko aditz jokatuaren morfologia historikoa ez bezalakoa izango zen. Argumentu indexatuen arabera, euskara historikoko aditz jokatuak lau sail ditu, zortzi joskera alokutiboak barne hartzen baditugu. Baina -arazorik gabe konbergentzia prozesu baten bidez sortua izan daitekeen nor sailekoa albo batera utzita (naiz → nau-k/n, etab., euskalki guztietan)-eratorpen alokutiboek aldakortasun dialektal handia erakusten dute, eta horrenbestez erdi Aroan -eta modernoan-zehar sortu eta garatu zirela pentsa dezakegu. Argumentu jasotzaile bat (nori bat) gehitzen duten eratorpen aplikatiboek ere euskalkien arteko alde handiak dituzte, eta, mounole-k (2015) erakutsi duenez, laguntzaile batzuetara ez dira inoiz zabaldu ekialde muturrean. nor → nor-nori eta nor-nork → nor-nori-nork eratorpenek, beraz, eBZ-aren ondorengoak dirudite; gehienera jota hastapenetan egon litezke eBZ-an.</p><p>Aitzitik, terminologia modernoan nor / nor-nork sailak deritzegunak eBZ-an jada eratuta zeudela onartuko dut. Aditz iragangaitzen eta iragankorren arteko hain bikoizketa zorrotz honek ez dauka paralelorik inguruko hizkuntzetan, eta hortaz hemen eragin kanpotarraren presiopeko konbergentzia prozesuak ez dira argudio gisa erabili ahal. gainera, joskera hauetan hala tam morfemak -oinarrizkoenak eta zaharrenak bederen-nola (behinik behin 1. eta 2. pertsonako) pertsona-markak formalki identikoak dira euskalki guztietan. itxura guztien arabera, beraz, ergatibitate morfologikoa euskarak berarekin zekarren ezaugarria dugu. Hau nola sortu zatekeen eztabaidatzeko, eBZ-a baino lehenagoko garai batera jo beharko dugu, aitzin-euskarara, eta barne-berreraiketa izango dugu tresna bakarra.</p><p>Aditz iragangaitzen eta iragankorren arteko aipaturiko bereizketa aspaldi dute eztabaidagai euskalariek. Stempf-en aurrekaria albo batera utzita (ikus trask 1997: 57), miKel mArtíneZ AretA ASJU, 2019, 53 (1-2), 183-223</p><p>Schuchardt-ek proposatu zuen aditz iragankorrak sakonean pasiboki interpretatu behar zirela. Honela mintzo zen erromanista eta euskalari austriarra: das transitive Zeitwort des Baskischen ist passiv gedacht. Na-kar-zu, 'Sie tragen mich' heisst eigentlich 'ich werde getragen von ihnen', und von dieser weitschweifigen uebersetzungsweise lässt sich hier als in einer sprachgeschichtlichen darstellung nicht abgehen. <ref type="bibr">(Schuchardt 1893: 2)</ref> teoria honen oinarrian aditz iragangaitzen eta iragankorren arteko antzekotasuna dago. <ref type="bibr">Schuchardt-en beraren (1893:</ref> 3) adibideen bidez, na-go eta na-kar-zu aditz jokatuetako lehen elementuak identikoak izateak sakoneko rol baten erreflexua izan behar du: "die des Subjekts". Bestela esan, "wer?" zehazten duten markak ditugu biak. Baina, na-kar-zu formaren lehen elementua subjektu-marka izan dadin, adizkiaren interpretazio pasibo bat ulertu behar dugu, -zu "von wem?" galderari erantzuten diolarik. Predikatu edo perpaus oso batean, zu-k osagarri egilezkoa litzateke.</p><p>trask-en arabera (1997: 57), xx. mendean zehar oro har euskalari atzerritarrak teoria honen alde azaldu ziren, euskalari euskaldunek arbuiatu zutelarik. ez naiz sartuko eztabaida honen historian. ene iritziz, haren atzean sinkronia eta diakroniaren arteko nahasmen bat dago, eta trask-en honako hitz ezin argigarriok auziari amaiera jarri beharko zioketen: now, while i utterly reject the notion that the present day ergative should be regarded as passive in nature, i propose instead that it arose historically from a passive construction which was reanalyzed as active. this exactly accounts for the order of elements found in the Basque transitive verb <ref type="bibr">[...]</ref>. <ref type="bibr">(trask 1977: 208)</ref> Hau da, euskara historikoko nor-(nori-)nork saileko adizkiak eta haien predikatuak ez dira pasiboki interpretatu behar. egun eta xvi. mendetik, adizki eta predikatu iragankorrak dira. Haatik, zegozkien predikatuak pasiboak ziren garai bateko aztarnak ditugu, tartean haien berranalisi aktibo bat gertatu delarik.</p><p>Aipaturiko pasartea baino lehentxeago, trask-ek ikusmolde hau hobeto zehazten du:</p><p>i propose that the SVo morphological order of Basque intransitive verbs should be taken as evidence for an older SVo syntactic order. that is, i propose that the originally independent pronouns came to be bound to the verb at a time when the structure of the Basque sentence was SVo, and that when this structure changed to SoV, the pronominal elements, being bound, could not move, but remained morphologically "frozen" in their earlier syntactic position. / of course, we must still account for the quite different order shown by most transitive verbs in Basque, with the direct object marker in initial position. But transitive verbs behave differently from intransitive verbs in another respect, in that they show the morphological property of ergativity. now an ergative structure is one in which the patient of the verbal action appears in the form which is otherwise associated with the subject (and often in the position of the subject), while the agent carries an overt marking of a different kind. in other words, it has a good deal in common with a passive construction <ref type="bibr">[…]</ref>. <ref type="bibr">(trask 1977: 208)</ref> Horrela, trask-ek proposatzen duena "today's morphology is yesterday's syntax" givón-en printzipioa aplikatzea da. Printzipio honek pertsona-marka guztien sorrera azaltzen ez duen arren -ezta hurrik eman ere-, ondoko ataletan erakusten saiatuko https://doi.org/10.1387/asju.22416 naiz euskararen pertsona-marka atzizkituena bai egiten duela, eta hortaz trask-en hipotesia ondo bideratuta zegoela.</p><p>Aditz jokatu iragankorrak predikatu pasiboetatik baldin badatoz -trask-ek darrai-, orduan morfema pasibizatzaile baten aztarnak gera litezke nonbait. Hau ez da hertsiki beharrezkoa, polinesiar hizkuntzetan ikusten denez pasibo → ergatibo berranalisi prozesuan morfema hori desagertu bide delako, baina hala ere hizkuntzalari amerikarrak haren aztarnak lehenaldiko aditz jokatu batzuetan aurkitu uste zuen: if the ergative is simply a reinterpreted passive, then we might expect to find the remains of an old passive marker in Basque transitive verb forms <ref type="bibr">[...]</ref>. / While there is no certain evidence for the reflex of a passive marker in Basque, it seems to me that there is an obvious candidate to be considered: the prefix n-which appears in most past tense forms. this morph n is always sandwiched between the personal prefix and the verbal root: e.g. ninduen 'he had me <ref type="bibr">', ginduzun 'you had us'. (trask 1977: 210)</ref> edozein kasutan, trask-en planteamenduan jatorrizko eraikuntza pasiboak ageriki markatzen zirela onartzen da. Hauxe da, hain zuzen, euskal aditz iragankorren jatorri pasiboaren teoriari -berau orain Schuchardt-en interpretazio sinkronikoa eta trask-en diakronikoa biltzen dituen zentzu orokor batean ulerturik-egotzi zaion eragozpen nagusia. Horrela, mitxelenaren esanak gogoraraziz, lakarrak (2005: 442) markatu zuen euskal gramatikariek ez dutela boz pasiboa sekula atsegin izan, eta, bestalde, "boz pasibo" kontzeptuak ez duela zentzurik "boz aktibo"-rik gabe.</p><p>egiazki, lehenaldiko -n-morfema pasibizatzaile bat zelako hipotesiak ezin konta ahala arazori aurre egin behar die, trask-ek berak onartu legez. Besteak beste: 1) zergatik ez dago morfema bera hasierako pertsona-marka 1. edo 2. pertsonakoa ez denean (**ze-n-karr-en, etab.)?; 2) zergatik azaltzen da morfema pasibizatzaile hau baita 1. eta 2. pertsonako S marketan ere (ne-n-torr-en, etab.)?, eta 3) zergatik ez da azaltzen -Ø-vs -n-oposaketa 1. eta 2. pertsona pluraletan (**ge-karr-en vs **ge-n-karr-en, etab.)? 9 Arazo hauetara 4. atalean itzuliko naiz.</p><p>Badago, hala ere -eta hauxe da proposatuko dudan hipotesiaren ardatzetako bat-, arazo hauek guztiak gainditzeko posibilitate errazago bat: euskararen aditzerro historikoki iragankorrak diatesiaren aldetik garai batean zehaztugabeak zirela onartzea. Horrela, *tor erroak 'etorri' adieraziko lukeen bitartean, *kar bezalako beste batek 'ekarri' edo 'ekarria izan' adieraziko luke, testuinguruaren arabera. Hau da, erroak aditzezko ideia hutsa adieraziko luke, espezifikazio diatetikorik gabe. europako nahiz mundu osoko hizkuntza gehienetan, aditz guztiek diatesi lexikoki zehaztua dute: aditzak iragangaitzak edo iragankorrak dira, eta horren arabera diatesi jakin bat dute. Hala ere, ingelesez adibidez badira diatesi zehazgabeko zenbait aditz:</p><p>(1) a. John reads the book b. The book reads well Hizkuntza bakan batzuetan (gehienak Asiako hego-ekialdekoak), hau lexiko osoan gertatzen da, era batean non predikatu bat bikoitza izan daitekeen. txineraz adibidez: miKel mArtíneZ AretA ASJU, 2019, 53 (1-2), 183-223</p><p>(2) a. yú chī-le arrain jan~jana.izan-pfb 'Arrainak jaten du' ~ 'Arraina jana da' <ref type="bibr">[apud norman (1988: 164)]</ref> b. tā shéi dōu pà (eraikuntza topikalizatua) hura nor guzti beldur.izan 'Hari jende guztiak beldurra dio' ~ 'Hark jende guztiari beldurra dio' <ref type="bibr">[Sun (2006: 185)]</ref> Zergatik ez onartu berau (hots, aditz-erroak aditzezko adiera hutsa adierazten zuela, zehaztapen diatetikorik gabe), eBZ-a baino zaharragoa litzatekeen garai baterako, hots aitzin-euskararako? Hala balitz, 3. atalean ezarriko diren berreraiketa formalak aintzat harturik, eta behin-behinik oA-ra mugatuz, eskematikoki 3. figurako berreraiketok postula genitzake. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">figura</head><p>Aitzin-euskararako postulaturiko hiru predikatu, eta posibilitate aktiboaren desagerpena Hau da, **nakus 'nik ikusten dut' 10 bezalakoak euskara historikotik desagertu direnez, horrek esan nahi du, proposatu dudan hipotesia zuzena bada, oA historikoari dagozkion aitzin-euskararen predikatu aktiboak oro desagertu zirela. Zergatik? Predikatu horiek adierazteko zegozkien aldaera pasiboak nagusitu zirelako. 4. figuran postulaturiko eskemaren arabera predikatu berbera adierazteko ziratekeen bi posibilitateak irudikatzen dira. <ref type="bibr">['ikusi', oA-ari</ref>  jarraian xeheki euskararen aditz-morfologiaren sektore bakoitzaren berreraiketarako honek zein inplikazio izan litzakeen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">OA-ko joskerak</head><p>oA-ko joskeretan, nori-dun sailak zein -te(ke), -ke eta erroaren ondoko beste edozein tam morfema albo batera utzita, euskararen aditz jokatuaren elementuen hurrenkera 5. figuran agertzen dena da. aditz iragangaitzetan S.marka -tam.morfema -aditz.erroa aditz iragankorretan P.marka -tam.morfema -aditz.erroa -A.marka</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">figura</head><p>euskararen oA-ko aditz jokatuaren elementuen hurrenkera Berreraiketa formalari begira, trask-ek jada na-, ha-, etab.eko formak izenordainaren eta aspektuzko morfema baten aglutinazioaren bat-egitetik zetozela proposatu zuen, gorago esan bezala givón-en "today's morphology is yesterday's syntax" -berariaz edo ez-aplikatuz. ondorengo autore gehienak ildo bertsutik joan dira, aglutinazio eta bat-egite prozesu hori finduz joan direlarik. oro har, ideia honen formalizazioaren historia 6. figurako eskeman -argigarritasunaren mesedetan neronek egokitua-laburbil dezakegu. <ref type="bibr">a. trask (1977)</ref> 1sg</p><formula xml:id="formula_0">*na-da-go &gt; nago 2sg *ha-da-go &gt; hago 3sg da-go &gt; dago b. de rijk (1992) 1sg n(i) dago → nago 2sg h(i) dago → hago 3sg dago → dago c. gómez &amp; Sainz (1995) 1sg *ni-da-go &gt; nago 2sg *hi-da-go &gt; hago 3sg da-go &gt; dago d. lakarra (2006) 1sg *ni da-tor &gt; *ni-da-tor &gt; *nyator &gt; nator 2sg *hi da-tor &gt; *hi-da-tor &gt; *hyator &gt; hator 3sg da-tor &gt; da-tor &gt; dator &gt; dator 1pl *gu da-tor &gt; *gu-da-tor(-(t)za) &gt; *gwator-(t)za &gt; gatoz 2pl *zu da-tor &gt; *zu-da-tor(-(t)za) &gt; *zwator-(t)za &gt; zatoz 3pl da-tor &gt; *da-tor-(t)za &gt; *dator-(t)za &gt; datoz</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">figura</head><p>Azken urteotako autoreen oA-ko aditz jokatuen berreraiketak miKel mArtíneZ AretA ASJU, 2019, 53 (1-2), 183-223 lau planteamenduetan onartzen da jatorriz aditzak ez lukeela pertsona-komunztadurarik izango. trask-ek (1977) *na-, *ha-, *ga-, *za-forma aurrizkituak postulatzen ditu; de rijk-ek (1992) d-ago bezalako formetako d-ren ordezkatze bat per tso naizenordainen atzizkiekin. gómez &amp; Sainz-ek (1995: 250), ordea, 12 iradokitzen dute 1. eta 2. pertsonako pertsona-izenordainak, beren egungo formetan <ref type="bibr">(ni, hi, gu, zu)</ref>, aditzari klitizatuak izan zirela. <ref type="bibr">13</ref>  <ref type="bibr">Azkenik, lakarrak (2006)</ref> pauso bat harago eman du, gidoia kenduz, horrela izenordaina burujabe, eta aditza pertsona-komunztaduragabeko bihurtuz. Ariztimuñok (2013a, 2013b) ildo beretik jarraitu du, eta halaxe egin nuen nik ere martínez Areta (2013)-n, eta egingo dut lan honetan.</p><p>Semantikari dagokionez, lafon (1943) arte ikuspegi tradizionala d-3. p.ko komunztadura-marka zela pentsatzea zen. <ref type="bibr">trask-ek (1977)</ref>, ordea, tam morfema bat -z-eta l-ri kontrajarria-zela proposatu zuen (ikus baita <ref type="bibr">oregi Aranburu 1974)</ref>, eta geroztik autore guztiek onartu dute. Adieraz den bezainbatean, da-aspektuzko morfema bat zela postulatu zuen trask-ek. de rijk-ek (1992) "nunc", hots aldizko morfematzat jotzea nahiago zuen, baina arestiko ikerketa (lakarra 2006; Ariztimuño 2013a, 2013b; martínez Areta 2013) trask-en alde azaltzen da auzi honetan (arrazoiak 5. atalean azalduko dira), eta honela egingo dut hemendik aurrera.</p><p>lakarra <ref type="formula">(2008)</ref> harago joan eta da-morfemaren jatorri lexikoan *dar erroa (← *e-dar-i, zeina &gt; jarri) ikusi du. 'sit, put' progresiboen ohiko sorburu dugu. lan honetan proposaturiko hipotesia ideia honen menpe ez dagoen arren, ontzat joko dut eta aurrerantzean aurkeztuko ditudan berreraiketa batzuk *da(r)-formarekin emango ditut.</p><p>6. figurako d. berreraiketa 2. atalean ezarri dudan hipotesiarekin elkartzen badugu (hots, oA historikoari dagokion sektore morfologikoan edozein predikatu semantikoki iragankor adierazteko posibilitate pasiboa nagusitu zela), P singularretarako 1. taulan dugun eskema postulatu beharko da.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">taula</head><p>oA historikoari dagokion sektore morfologikoko jasaile singularreko predikatuen garapena  gaurko morfologia atzoko sintaxia delako givón-en printzipioa aintzat hartzen badugu, aditz jokatu bateko pertsona-markak aurreko garai bateko argumentuak izango dira. Hala bada, lA-ko eta irrealiseko aditz jokatuetarik, 7. figurako a) posibilitatekoak predikatu pasiboetatik etorriko dira -oA-ko aditz jokatuak bezalaxe-, 15 b) posibilitatekoak predikatu aktiboetatik. Aitzitik, c) posibilitatekoak bikoitzak dira, haietan ez dagoelako 1. edo 2. pertsonako marka agerikorik ez aditzaren aurretik ez atzetik.</p><formula xml:id="formula_1">-da-it-du-zu &gt; *gwa-it-u-zu &gt; gaituzu eta *zu-da- it-du-gu &gt; *zwa-it-u-gu &gt; zaitugu</formula><p>ene iritziz, honek azal lezake zergatik diren ne-karr-en [A nik, P hura, 'ekarri'] eta nen-karr-en [A hark, P ni, 'ekarri'] bezalako bi forma hain antzekoak: jatorriz forma bera ziren. Aditz-forma hauek hautatzen ditut esandakoa irudikatzeko, trinkoen agerpenen urritasuna gorabehera, lekukotu egiten direlako. (3)-ko agerpenek interesatzen zaizkigun hiru forma dakartzate, rS-ko bi errefrautan bilduak. <ref type="bibr">16</ref> (3) a. adiunza onean nentorre / baia ezer ez nekarre ( rS, 332) 'en buena sazón vine, / mas no truxe nada' (rS, 438) b. Lar janak eta edanak / gitxitara nenkarre 'demasiado comer y beber / me ha traido a poco' iradokitzen ari naizena da bi formok hain antzekoak baziren jatorriz forma berbera zirelako dela. Haien nen-elementua -A-markak jatorriz forma hau izango zuen (ikus beherago)-hasieran A edo P izango zen, zerraion aditzaren balio diatetikoaren arabera, eta nen-karr-en forma osoak 'ekarri nuen' edo 'ekarria izan nintzen' adieraziko zuen, testuinguruaren arabera. euskara historikoko A.marka+tam.morfema-aditz.erro-a/en egiturako formak (hots, ne-karr-en motakoak) predikatu aktiboen jarraitzaile izango genituen, P.marka+tam.morfema-aditz.erro-A.marka-a/en egiturakoak predikatu pasiboen jarraitzaileak liratekeelarik. marka bedi hurrenez hurreneko emaitza historikoetan erlazio gramatikalak bata bestearen kontrakoak direla. Hauxe da, nire iritziz, <ref type="bibr">Heath-ek (1977)</ref> proposaturiko "inversion" gertakariaren azalpen diakronikoa (eta ez antipasiboen erabilera A.marka-hasieradun formetan). 8. figuran garapen honen behin-behiniko 17 irudikapena aurkezten dut. a. nen(-)karr-en 'ekarri nuen'</p><p>&gt; ne(n)(-)karr-en 'ekarri nuen'</p><p>&gt; ne-karr-en b. nen(-)karr-en 'ekarria izan nintzen'</p><p>&gt; nen(-)karr-en 'ekarri ninduen'</p><p>&gt; nen-karr-en</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">figura</head><p>Ne-karr-en eta nen-karr-en formen proposatu behin-behiniko berreraiketa, forma bakar batetik abiatuz Horrela, 8. figuraren osagarri, lA/irrealiserako 2. taula postula genezake (berriro, P singularretara mugatuko naiz).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">taula</head><p>lA/irrealis historikoari dagokion sektore morfologikoko jasaile singularreko predikatuen garapena orain galdekizun gaiztoa datorkigu: zer ote da -n-edo -zatiketaren arabera--en-morfema? Puntu honetan euskalarien arteko eztabaida izugarri katramilatzen da. <ref type="bibr">18</ref> Aztertzaile gehienek en 1 (n-, h-, g-, z--rekin batera, S/P-marka) eta en 2 (bakarrik argumentu pluralen A-marka, en 1 -ekiko analogiaz sortua) bereizten dituzte.</p><p>Haiek azaltze aldera planteatu diren hipotesi (behintzat nagusi)ak honakoak ditugu. a) oregi Aranbururen arabera <ref type="formula" target="#formula_2">(1974)</ref> Hipotesi bakoitzari egotzi dizkiogun arazo partikularrez landa, badira hiru arazo zenbaitetan ikusten ditugunak. martínez Areta (2013)-n beste azalbide bat eskaini nuen. Hura berriro sintetizatu aurretik, azpimarratu nahi nuke aditz morfologiaren zati hau bereziki korapilatsua dela, eta planteatuko dudan azalbidea hipotesi orokorraren (funtsean, 2. eta 3. ataletan, gehi 4. atal honetan 2. taularaino esandakoa) modulu bat besterik ez dela. Hipotesi orokorraren baliotasuna ez dago modulu honen zuzentasunaren menpe. Hala ere, nire ustez gutxienik txarra da, aipaturiko arazoei aurre egiten saiatzen den bakarra baita.</p><p>Hori zehazturik, esango dut bideragarriagoa dela pentsatzea -n-1./2. pertsonako izenordainaren parte zela, eta, Ariztimuñorekin (2013b: 46, 57) batera, nen-, etab. "tensed pronouns" edo orokorkiago "tam-ed pronouns" ditugula. Hala balitz, 1. eta 2. pertsonako izenordainen bi serie izango genituzke, 3. taulan irudikatuak.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">taula</head><p>Aditzaren trinkotzearen garairako proposaturiko izenordainen bi serieak Funtzioaren aldetik, A seriea testuinguru batzuetan agertuko zen, B seriea beste batzuetan. 5. atalean iradokiko dut aitzin-euskara modu-goraguneko hizkuntza izan zatekeela, <ref type="bibr">Bhat-ek (1999)</ref> proposaturiko sailkapenaren arabera. leku hartan honen inguruko xehetasunetan sartuko naiz. orain markatuko dut <ref type="bibr">Bhat-en (2004)</ref> beraren arabera modu-goraguneko hizkuntzei loturiko ezaugarri bat bi izenordain-serie izatea dela hain zuzen, bata realisean, bestea irrealisean erabiliak.</p><p>one of the characteristics that can be associated with languages that give prominence to mood is that they tend to possess distinct sets of personal pronouns that are to be used in a sentence depending upon the mood of its predicate <ref type="bibr">(Bhat 1999: 135)</ref>. this correlation appears to derive from the fact that modal distinctions represent either (i) distinctions in the speaker's assessment of the reliability of information or (ii) distinctions in the illocutionary force of a speech act. Both are directly related to speech contexts and speech roles and hence their influence on the form and occurrence of personal pronouns can perhaps be regarded as supporting the claim that the primary function of personal pronouns is to indicate speech roles.</p><p>there are several languages in which personal pronouns have two distinct sets forms of which one occurs in realis sentences and the other one in irrealis sentences. <ref type="bibr">(Bhat 2004: 87-88)</ref> Aurreraxeago autore berak diosku badirela modu-goraguneko beste hizkuntza batzuk, zeinetan izenordain-serie ezberdinen erabilera perpausaren indar ilokuzionarioaren arabera baldintzatuta dagoen. niger-congoko gur familiako supyire hizkuntzan, adibidez, izenordain-serie bat erabiltzen da adierazpen perpausetan, beste seriea ez-adierazpen perpausetan (agindu, debeku, galdera, bedeinkapen, bokatibo eta harridura perpausetan). ondoko 4. taulan eta (4) adibidean hurrenez hurren supyire hizkuntzaren pertsona-izenordainak eta berauek irudikatzen dituzten bi adibide ematen dira. Bhat-ek dakartzan modu-goraguneko hizkuntzetan aldeak dauden arren <ref type="bibr">(ikus 2004: 87-89 eta 1999: 65-70, 135-136)</ref>, ezaugarri hau honako hizkuntzek agertzen dute: wari' (Brasilgo mendebaldeko chapacura familiako hizkuntza), caddo (irokesa), manam (ozeaniarra), amele (gum familiakoa, papuarra), supyire (gur familiakoa, niger-Kongo hizkuntza), pirahã (mura familiakoa, arro amazoniarrean), eta nicobarera (munda familiakoa, austrasiarra).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">taula</head><p>itzul gaitezen euskarara, iradokiriko hipotesia onarturik. nola sortu zatekeen S nen-/ P nen-/ A ne-oposaketa? Hona hemen azalpen saio bat. mitxelenak <ref type="bibr">(1977 [1961]</ref>: 309) dioskunez, "[e]n algunos compuestos de aspecto arcaico, n en final de primer miembro desaparece o es sustituido por r: [c]om. agin 'muela, diente': rS 270 agika 'a dentelladas' <ref type="bibr">[…]</ref> [c]om. egun 'día': a.-nav. etc. egu(b)erri 'navidad', vizc. egubakotx 'viernes', etc.". Hau gertatzearen arabera, bizk. zantar vs zatar edota minkatz vs mend. mika(i)tz bezalako bikoteak sortu dira euskararen historian zehar. Aditz-morfologian berean etx. nin-zan-de (&lt; -zan-+ -te) vs nin(t)za-te(-ke) (nin-za -te-n 'nintzatekeen' birritan etxeparegan beragan) daukagu. Bikoteok kronologia ezberdinetakoak ditugu, baina badirudi errekurtsiboa izan dela euskararen historiaren tarte batean. nire proposamena honakoa da: aditzaren trinkotzea gauzatu zen unean, / _ t (= herskari) testuinguruan zegoen -n-ren mantentzearen eta galtzearen arteko duda-muda P=S≠A lerrokadura ergatibo bat sortzeko profitatu zen, horrela oA-an (na-/ na-/ -da) eta izen-morfologian (-Ø, -Ø, *-ga) jada bazegokeen bereizketa lA/irrealisera hedatuz. <ref type="bibr">20</ref> Pluralean, gehienetan gen-/ gen-/ gen-(eta zen-/ zen-/ zen-, etab.) lerrokadura daukagu (gen-&gt; gin-motako ixte prozesuak albo batera utzita). Pluraleko formak agerpen-maiztasun txikiagokoak direnez, onartu beharko dugu ez zela P=S≠A lerrokadura haietara zabaltzeko beharra. lerrokadura eza, egoera zaharraren aztarna, adizkiren batean badugu. Axularren Gero-n, adibidez, ginitue[n] formak 2 aldiz 'gintuen' adierazten du, behin 'genituen'. Forma beretik, *gen-it-dun-a/e-n edo antzeko batetik, abiatu beharko dugu. Beste hizkera batzuetan, guk-haiek eta hark-gu adierak formalki banatu omen dira. 21 https://doi.org/10.1387/asju.22416</p><p>Hala ere, aditz batzuek gen-/ gen-/ gene-(eta zen-/ zen-/ zene-, etab.) lerrokadura agertzen dute <ref type="bibr">(ikus gene-karr-en, zene-za-n, etab.)</ref>. Hau P=S≠A forma pluraletara zabaltzeko beste modu bat izan liteke, gen-eta zen-uztartuz, ez aditz-erroarekin (kar), aditzoin osoarekin (ekar) baizik. Adizki jokatugabeetan ez ezik, aditzoina lA/ irrealiseko jokatuetan ere agertzen da, P zein A = 3. p. direnean, l-, z-(baina mendebaldean biluzik, aditz gehienekin: bizk. ekarr-en, etab.), edo b-aurrizkiturik (ikus Ariztimuño 2013a: 373-381, aditzoinari buruzko xehetasunetarako). Posibilitate gehiago dago, dena den. Azalbide tradizionalaren arabera <ref type="bibr">(ikus Heath 1977: 198;</ref><ref type="bibr">trask 1977: 211;</ref><ref type="bibr">Aldai 2000: 53)</ref>, formon -e(n)-, hau da -en 2 -, -en 1 -rekiko analogiaz sortu zen (*ge-karr-en → gene-karr-en). Hau ez da inondik ere hemen proposatu den (singularrean oinarrituriko) hipotesiarekin bateraezina, *ge-karr(-en) aurreko *genkarr(-en) batetik etor dadin bitartean. <ref type="bibr">22</ref> Atal hau bukatzeko: ba al dago *nen, *hen, *gen, *zen izenordainen ustezko B serie baten aztarnarik aditz-morfologiatik kanpo? nire ustez, bai, onartzen badugu ene &lt; *nen-e datorrela (hots B serieko izenordaina gehi genitiboaren forma zaharra). 23 lakarrak 1995etik honelatsuko etimologia zenbait proposatu ditu, *nonol &gt; *onol &gt; ohol (erronk. õl) eta *na-nar &gt; *anar &gt; ar (bizk. aar, erronk. ãr, narras) argienak direla. iradoki berri dudan *nen-e forma ez bezala, azken biok erreduplikazio morfologikoak lirateke jatorriz, baina eraketa morfologikoa gorabehera, *nen-e formaren lehen sudurkaria *no-nol eta *na-nar formen lehen sudurkariaren testuinguru berdinean legoke (_VnV-testuinguruan, alegia), 24 eta beronetan sudurkari-disimilazio bat aplikatuz gero, *nen-e ere &gt; en-e garatzea ere esperoko dugu. guidan (A26: 59) ere badakartza, eta testuaren argitaratzaileek hala cee-nola ce-hauek guztiok &lt; ce-&lt; cee-&lt; cene-garapenaren bidez azaltzen dituzte. lazarragaren testua ezagutu balu, trask-ek ceben &lt; *ze -dun-e-n datorrela esan ahalko zuen, eta arkaismotzat jo (-n-rik gabeko *g-e-du-en bezalaxe). dena den, zentzuzkoa da pentsatzea lazarragaren cee-kasuak behinik behin bai datozela zene-tik. Baliteke hizkera honetan bokalarteko sudurkaria erori izana, gainerakoetan hesi morfologikoak (zen-e-) erorikoa eragotzi duelarik. laz. ceben bezalakoak azaltzeko (*dun erroaren bidez eratuak), beste inon aztarnarik utzi ez duen *zene-dun-en postulatu gabe, onar genezake *zen-dun-en bat → *ze-dun-en aldatu dela lehen aipaturiko ze-rekiko analogiaz.</p><p>22 Aldaik (2000: 53) -en 2 -1. pertsonaren eredupean sortu delako posibilitatea ere aipatzen du, paralelo tipologikoak dituen prozesu baten arabera. Horrela, ge-nekarren-i aurrizkituko zitzaiokeen, eta hortik → ge-nekarren. Posibilitate hau Ariztimuñok (2013b: 51) ere gogorarazten du, aldi berean beste aukera bat eztabaidaratuz: -e-bokal epentetiko hutsa izatea. <ref type="bibr">23</ref> Hertsiki harturik, postulatu beharrekoa *neN-e litzateke. izan ere, 1. p. sg.ekoa ez ezik, B serieko gainerako izenordainak ere amaierako fortisarekin berreraiki beharko genituzke: *heN, *geN, *zeN. Alabaina, mitxelenaren fortis / lenis oposaketak bakarrik lexema disilabikoetan hartzen du zentzua, oinarri monosilabikoetan fortisak eta lenisak kokagune-aldaerak baino ez baitira. Hortaz, aditz jokatuaren morfologia aztergai nagusi duen lan honetan fortisen eta lenisen irudikapenak (*N, *L, etab.) albo batera uzten ari naiz. dagozkien kasuetan, fortisaren erabilera gainulertzen dela onartzen dut, eN-e barne, non gidoiak aurreko segmentua fortis bihurtzen duen hesi morfematiko bat ezartzen duen. erdi Aroko enne-co antroponimoaren erroan 'ene' dagoela onartzen badugu, fortis horren irudikapen grafikoa topatzen dugu hartan. urrutirago joanez, Antzinateko montsérié-ko aldareko enne-box antroponimoan, eta Ascoliko Brontzeko enne-ges segienseen patronimikoan zein enne-gensis etnonimikoan aztergai dugun erroa ikusten badugu, orduan *neN-e &gt; eNe disimilaziorako terminus ante quem bat izango genuke (K.a. 89 urtea, alegia). 24 non n = sudurkari. esandakoaren arabera, *no-nol &gt; *onol bezalako kasu batean bigarren sudurkaria lenisa litzateke; proposatu *neN-e-an, ordea, fortisa.</p><p>Postulatu dudan izenordainen B serieak, noski, A seriearekiko nolabaiteko harreman etimologiko bat izan beharko du, era batean non *nen &lt; *ni X, *hen &lt; *hi X etab. etor litezkeen. ez dut X hori ezein elementurekin identifikatuko. iradokitzen ari naizena da, zer-nahi ere den, aditz jokatuaren trinkotzea gauzatu zenean (*ni dakar &gt; nakar, *nen kar &gt; ne(n)-kar, etab.), izenordainen B seriea jada eratuta zegoela, eta lA/irrealisean azaleratzen zen alomorfoa izateaz gain, izenordainen deklinabidean ere aztarnarik utzi zuela. markatu nahi nuke, halaber, ene izenordainaren &lt; *nen-e etimologia onartzen baldin bada, honek berak nen-elementua aditz paradigmaren barnean sortu zelako onarpena are pentsaezinago egiten duela. Alegia, nen-kar-&lt; *ni-den-kar-edo *ni-lehen-kar-baletor, onartu beharko genuke ondoren nen-aditz jokatutik "erauzia" izan zela, desgramatikalizazioaren bidez, eta izenordainen paradigman sartu zela (baina bakarrik lehen pertsonan). desgramatikalizazioa posible da, baina kontrako norabidea printzipioz bideragarriagoa da.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Ergatibitate hautsiko fenomenoekiko desadostasuna</head><p>orain arte postulaturikoa 9. figuran irudikatzen da. oA (agian &lt; ipfb.) → predikatu pasiboetatik datoz lA (agian &lt; pfb.) / irrealis a) P = 1./2. p. → predikatu pasiboetatik datoz b) A = 1./2. p., P = 3. p. → c) A zein P = 3. p. → predikatu aktiboetatik datoz ezin esan</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9.">figura</head><p>Aditz morfologiaren sektore bakoitzaren jatorri diatetikoa oA-aren jatorri inperfektiboa, progresiboa, edo behintzat ez orainaldikoa (hots, aldizkoa) onartu ohi da egun (ikus trask 1977; lakarra 2006; Ariztimuño 2013b). Honen aldeko argudio erabakigarri bat honakoa da: oA konposatua sortu zenean, hau trinkoen oA-arekin parekatu zen ('ekarri' → dakart, 'hartu' → hartzen dut), eta oA konposatuak jatorri argiro progresiboa du (&lt; *har-(t)ze-n naiz), mounole-k (2008) frogatu duenez. orokorkiago, [aditz-izen + -n (inesiboa) + egon] (mendebaldean), [aditz-izen + -n (inesiboa) + ari izan] (erdialdean eta ekialdean) eta antzeko beste eraikuntzen garapen berankorra -xvi. mendetik aurrera (ikus mounole 2014: 33-34)-behatzen badugu, irudi du aurreko forma progresiboek (hots, dakart eta hartzen dut &lt; *har-(t)ze-n naiz) zeukaten adiera progresibo baten galera erreparatzeko sortu zirela.</p><p>lA-ko aditz trinkoek, beren aldetik, lA inperfektiboa adierazten dute egun. xvi. mendeko euskaran, ordea, bakan batzuk adiera perfektiboa adieraz dezakete, testuinguruaren arabera (mounole 2014: 50-51). Haietako gehienak aditz dinamiko telikoak ditugu (egin, etorri, ekarri, joan, *edin, esan, *i), baina *edun, egon, eduki edota ibili ere sartzen dira multzo honetan. Hau arkaismo bat bada -eta badu hala izateko itxura-, lA-ko aditz trinkoak aoristoak -edo lA narratiboak, mounole-ren terminologian, edozein kasutan lA-ko gertaera burutuak-izan ziratekeen. Banaketa hau euskararen lA/irrealisaren barnekoaren gogoragarri dugu, beronetan fase aurreratuago, morfologizatuago bat izango genukeen arren.</p><p>Harrigarria, euskararen egoeran, beste gauza bat da: (agian progresibo batetik datorren) oA-ak beti lerrokadura ergatiboa izatea, (agian aoristo batetik datorren) lA-ak eta irrealisak noiz lerrokadura ergatiboa, noiz lerrokadura aktiboa duten bitartean. Harritzeko arrazoiak lA/irrealisaren sektorean jatorrizkoa lA-ari iriztetik datoz, normalean egiten den bezala, hala bada oA-a lA-a baino ergatiboagoa baita. ortiz <ref type="bibr">de urbinak (1989: 13-15</ref>) jada markatu zuen tipologiarekiko desadostasun hau, ergatibitate hautsia dagoen kasuetan patroi ergatiboa lehenaldian (georgiera) edo aldi perfektuetan (maia hizkuntzak) dagoela ohartarazirik. nola azal daiteke tipologiarekiko desadostasun hau? martínez Areta (2013)-n comrie-k (1981) aspektuaren eta bozaren arteko elkarreraginari buruz egiten zituen oharrei erreparatzea proposatu nuen. gogora ditzagun hemen. ikus ditzagun lehen bere analisian aintzat hartzen dituen nozio aspektuzkoen definizioak: By PerFect, i mean that a given form describes a state that is the result of an earlier situation by giving expression to the earlier situation [adibidez, "John has broken the cup"]. <ref type="bibr">[…]</ref> the ProSPectiVe is the inverse of this [perfektuarena, alegia]: A state is related to some subsequent situation, such that the seeds of this subsequent situation are already present in the earlier state, by giving expression to the subsequent situation [adibidez, "John is going to break the cup"]. <ref type="bibr">[…]</ref> in the imPerFectiVe, reference is to a single situation, which is viewed as ongoing, as if one were positioning oneself internal to the situation as a whole, with the possibility of looking both backward and forward at the rest of the situation [adibidez, "John is breaking the cup / breaks the cup"]. <ref type="bibr">(comrie 1981: 66-67)</ref> Hiru baliook koordinazioan jartzea neurri batean nahasgarria da. inperfektiboak, berez, perfektiboarekin osatzen du dikotomia aspektuzko bat; perfektua, ostera, balio berezia da, osagai aspektuzko bat (burututa dago) eta aldizko bat (aurreko une batean burutu da, eta burutze horrek oraingo egoeran garrantzia du) biltzen dituena. Baina hau gogoan, hirurak koordinazioan jartzeak aldizko balioekiko eta bozarekiko korrelazio bat ezartzea ahalbidetzen du.</p><p>comrie-ren arabera, aspektu perfektuak jasaile-orientazio handiena du. Kasu batzuetan P-eta A-orientazioa bata bestea bezain bideragarriak diratekeen arren, gehienetan -eta batez ere aditzak egoeraren aldaketa bat dakarren kasuetan, "John has killed Bill" edo "John has moved the chair" perpausetan bezala-, P-orientazioa nagusituko da:</p><p>With the perfect, one is interested in a state resulting from an earlier situation, and, as i am restricting the discussion to two-place predicates, one may therefore ask the question: to which of the two participants is the resulting state primarily a ttributed, that is, is the state A-oriented or P-oriented? [Zenbait adibide argigarriren ondoren, honela darraiku:] thus the resultant change of state is attributed primarily to P, rather than A, in the perfect. given this, one might expect the perfect to favour P-orientation, that is, that the perfect would be more likely than other aspects to correlate quite highly with passive-ergative. <ref type="bibr">(comrie 1981: 70)</ref> Aspektu prospektiboan, ordea, justu kontrakoa izango dugu. "John is going to kill Bill" perpausaren ideia nagusia Bill-i gertatuko zaiona adieraztea izan litekeen arren, aspektu hori erabiliz gero probableena da hiztunak John-en asmoa, John-en gogoaren egoera, nabarmendu nahi izatea: the prospective introduces precisely the opposite correlation. if one takes sentences like John is going to kill Bill or That falling rock is going to hit Bill, then one is attributing a certain potential to John or to the falling rock, rather than to Bill. Although John is going to kill Bill might serve to indicate Bill's state as a potential victim, it is much more likely to be used to inform of John's state of mind. more generally, potentialities are more likely to be attributed to A than to P, so that we would expect prospective, future, potential, and irrealis to favour A-orientation, to correlate with active-accusative. <ref type="bibr">(comrie 1981: 71) [lodia neurea, mmA]</ref> Bien erdian, inperfektiboa izango genuke: imperfective aspect occupies an intermediate position: if one is observing a situation internally to that situation, then in principle one could orient oneself either to A or to P, though given the overall tendency of language to favor A-orientation one would expect the result to be predominance of A-orientation. one of the subdivisions of imperfective aspect, however, namely habitual aspect, might be expected to lead to some increase in the level of A-orientation, given that referring to a habitual o ccurrence -where no instance of the occurrence need be taking place at the moment of speaking-is in some ways akin to a potential mood. <ref type="bibr">(comrie 1981: 71)</ref> Horrenbestez, comrie-k esplizituki egiten ez badu ere, aipaturiko hiru balioen artean 11. figuran islatzen den egilezko goragunearen mailaren hierarkia aspektuzkoa proposa daiteke. Bada, euskara hierarkia honekin bateragarri egiteko bururatzen zaidan aukera bakarra martínez Areta (2013)-n proposatu nuen, eta honakoa da: lA (&lt; pfb.) / irrealisaren sektore morfologikoan, oinarrizko, diakronikoki jatorrizko balioa, irrealisa zen (nen-tor). Hau potentzialtasunekin lotuta dago, hartan A-ak dauka goragune nagusia, eta ezkerreko muturretik hurbil izango dugu 11. figurako hierarkian. Nen-tor formatik, aditzaren trinkotzearen ondoren, nen-torr-a/en eratorri zen, agian aoristo bat.</p><p>Proposaturikoaren arabera, bi eraikuntza nagusitatik abiatu beharko genuke: batetik [A serieko izenordain + da(r) + aditz.erro], eta bestetik [B serieko izenordain + aditz.erro]. Adibide batekin: batetik *ni da(r)-tor (&gt; n(i) <ref type="figure">(-)(d)a-tor)</ref>, eta bestetik *nen tor (&gt; nen-tor). edo, euskara historikoan aditz iragankor baten bidez irudikatzeko: batetik *ni da(r)-kar (&gt; n(i) <ref type="figure">(-)(d)</ref>  <ref type="bibr">Bhat-ek (1999)</ref> proposaturiko hizkuntz tipologiarekin, zeinen arabera "tense-prominent" eta "aspect-prominent" hizkuntzez gain "mood-prominent" hizkuntzak ere badiren, eta onartu aitzin-euskara modu-goraguneko hizkuntza zela? Hizkuntza hauetan, aditza egituratzen duen oposaketa nagusia realis-irrealis dugu.</p><p>Horrek ez du kentzen bikotearen kide batek beste aditz-kategoria bati -aspektuari, adibidez-dagozkion bereizketak garatzeko posibilitatea. mexikoko chalcatongo mixtec hizkuntzan esaterako <ref type="bibr">(ikus Bhat 1999: 65-66)</ref>, aditzek bi erro dauzkate: realis bat eta irrealis bat. erro realisa azpieraketa progresiboan, ohiturazkoan eta egoerazkoan ager daiteke. erro irrealisak, bere aldetik, geroaldia, agintera, gertaera-aurkakoa ("counterfactual"), baldintzazkoa, eta antzeko beste adiera moduzko batzuk adierazten ditu. Aurreko atalean aipatu dut modu-goraguneko hizkuntzen ezaugarri bat 1. eta 2. pertsonako izenordainen bi serie izatea dela. ikus dezagun hizkuntzon beste ezaugarri bereizgarri bat. Aldi-goraguneko, aspektu-goraguneko eta modu-goraguneko hizkuntzen ezaugarri errekurtsibo nagusiez ari dela, honatx zer dioskun Bhat-ek hirugarren motari buruz:</p><p>(v) the tendency of mood-prominent languages to show a pronominal ergative split and of tense-and aspect-prominent languages to show a temporal or aspectual ergative split <ref type="bibr">[...]</ref>. <ref type="bibr">(Bhat 1999: 102) [lodia neurea, mmA]</ref> eta aurrerago:</p><p>the ergative system, in these split-ergative languages, will be restricted to (i) noncontrolled verbs, (ii) third person arguments, and (iii) past or perfective verbs, respectively (see dixon 1994).</p><p>this ergativity split appears to be correlatable with the verbal category that is most prominent in a given language. this is especially true of the second and third type of ergativity splits mentioned above. that is, mood-prominent languages tend to show a personal (or nominal) split whereas tense or aspect-prominent languages tend to show a tense-based or aspect-based split respectively. <ref type="bibr">(Bhat 1999: 146)</ref> Korrelazio hau (modu-goragunea eta izenordainezko ergatibitate hautsia) nabarmena da zenbait hizkuntza tibeto-burmarretan <ref type="bibr">(ikus Bhat 1999: 148)</ref>. modu-goraguneko hizkuntza den tangut hizkuntzan adibidez (ikus ibid.), ez dago komunztadurarik 3. pertsonarekin. A-a edo P-a 3. pertsona bada eta bestea 1. edo 2. pertsona, aditzak 1. edo 2. pertsonarekin egingo du komunztadura; A-a 1. pertsona bada eta P-a (edo alderantziz), orduan komunztadura P-arekin egingo da. euskararen lA/ irrealisean bezalaxe! egoera hau a priori ere espero izatekoa da, moduaren aditz-kategoria mintzatzaile-orientatuagoa baita, aldia eta aspektua egoera-orientatuagoak direlarik. Hortaz, behintzat 1. pertsona bat eta bestetik 3. pertsona bat argumentuak badira, predikatu iragankorretan gertaera edo ekintza beti planteatuko da mintzatzailearen ikuspegitik, dela berau A-a, dela P-a. Faktore hauxe dago euskararen nen-karr-en 'hark-ni' eta nekarr-en 'nik-hura' formen antzekotasunaren oinarrian, nire iritziz. 5. taulan proposatu garapena irudikatzen da. Zuhurtzia handiz interpretatu behar da, noski, aitzin-euskarak izan zituzkeen forma guztiak erreproduzitzea baino gehiago proposaturiko garapen estrukturala eskematizatzea baitu helburu. ideia nagusia hauxe da: aitzin-euskararen aditz jokatuaren bereizketa nagusia, aditzak pertsona komunztadurarik ez zeukan garai batekoa, moduzkoa izan zen: realis / irrealis (iritsi zaigun realisa forma progresibo bat izan bide bada ere). Predikatu iragangaitzen eta iragankorren arteko bereizketa gramatikalizatuta ez zegoen arren, predikatu semantikoki iragankorrak realis progresiboan pasiboki adierazten ziren beti; irrealisean, ordea, pasiboki P-a 1. edo 2. pertsona bazen, aktiboki P-a 3. pertsona eta A-a 1. edo 2. pertsona (A-a zein P-a 3. pertsonakoak baziren, ez dago esaterik). S/A izenordaina + aditza trinkotu zirenean, izenordainezko ergatibitate hautsi hau morfologizatu zen, eta singularreko 1. eta 2. pertsonako B serieko izenordainen -n-ren galera fakultatiboa P=S≠A lerrokadura sortzeko baliatu zen. Azkenik, irrealisetik aoristo bat eratorri zen, agian menpeko perpausen behttps://doi.org/10.1387/asju.22416 rranalisitik, 25 eta realis / irrealis oinarrizko bereizketa zaharraren gainean beste aspektuzko -edo bestelako-bereizketak nagusitu ziren, hizkuntza modu-goragunekoa izatetik aspektu-edo aldi-goraguneko motara igaro zelarik.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">taula</head><p>realis (progresiboa) / irrealis bereizketa nagusitik abiaturik proposaturiko garapena Honen arabera, oA-a lA/irrealisa baino ergatiboagoa litzateke aditza trinkotu zen garaian beste sektore morfologikoa baino eskuinerago zegoelako egilezko goragunearen mailaren hierarkian. comrie-ren (1981) hierarkia honek aspektua hartzen du ardatz nagusi, baina aldizko (past, present, future) eta moduzko kontzeptuak (irrealis, potentialities) ere aipatzen ditu bere azalpenean (eta aipatzen dira, ergatibitate hautsiaren inguruko bibliografian). Postulatu ditugun irrealisa eta realisa aintzat harturik, lehena izango dugu ezkerrerago 11. figurako hierarkian, hartan A-aren edo egilearen goragunea altuena baita. realisa, ordea, eskuinerago dago, bizirik iraun duen eraikuntza progresiboa zen arren.</p><p>Hasierako hutsunean beti P-marka duen oA-ko aditz bat -inperfektibo batetik etorri edo ez-egotea berez bitxikeria tipologiko bat dugu. Baina are bitxiago dugu https://doi.org/10.1387/asju.22416 erka ditzagun bi zutabeak. ez al da deigarria izenordainezko jatorrikoak ez diren elementu misteriotsuak, -da eta *-ga, abiatu behar dugun perpausetan beretan jada izatea? izate hori nabarmentzeko helburuz, elementu horiek lodiz markatu ditut.</p><p>iradokitzen ari naizena aipaturiko 6. taulan irudikatu dut eta honakoa da. Aditzaren trinkotzeak 1. eta 2. pertsonako komunztadura sortu zuen. Baina, harekin batera predikatu pasiboen berranalisi aktiboa gauzatu zenez, prozesutik sorturiko adizkien egitura formalki berdinak baina gramatikaren aldetik ezberdinak izango ziren. *ni da -tor &gt; *n(i)(-)(d)a-tor &gt; n-a-tor edota *hi da-tor &gt; *h(i)(-)(d)a-tor &gt; h-a-tor bezalako adizki iragangaitzetan, egitura izango zen: S-tam.morf-aditz.erroa. Aitzitik, *ni dakus &gt; *n(i)(-)(d)a-kus &gt; n-a-kus, *hi da-kus &gt; *h(i)(-)(d)a-kus &gt; h-a-kus bezalakoetan hasierako hutsunean ez genuke S-izango, P-baizik.</p><p>Har dezagun perpaus hipotetiko osoa. Abia gaitezen *ni da-kus hi-ga 'ni hik ikusia naiz' predikatutik. osagarri egilezkoa topikalizatu (→ *hi-ga ni da-kus), berranalisi aktiboa gertatu, eta izenordain askea morfema uztartu bihurtzen baldin bada (&gt; *hi-ga n-a-kus), orduan predikatu berriaren muinezko argumentuak ez dira bat, bi baizik! Bestela esan, ez dugu izango, iragg. / iragk. bereizketa gramatikalizatuta ez zegoenean bezala, S bat eta osagarri egilezko periferiko bat, P bat eta A bat baizik. Baina, adizki iragangaitzetako S-ak eta iragankorretako P-ak ez bezala, A-ak ez daude aditzean indexatuta. Zilegi da pentsatzea gabezia hau konpontze aldera presio funtzional handi bat izan behar izan duela hizkuntzak, garai honetan. nola egin, baina, berau? nire proposamena: perpausean berean dauden elementuak kopiatuz (*hi-ga Peru da-kus → *hi-ga Peru da-kus-ga &gt; hi-k Peru da-kus-k) edo bikoiztuz (*ni-ga Peru da-kus → *ni-ga Peru da-kus-da &gt; ni-k Peru da-kus-t).</p><p>ohartarazi nahi nuke topatzen dugun markaketaren banaketa, hau da A.1sg. → ageriko marka, A.2sg. → ageriko marka, A.3sg. → eZageriko marka (hots, overt A / overt A / covert A), espero izatekoa dela kontuan hartzen badugu hala S nola P markek ere banaketa bera garatu zutela, ni eta hi izenordainak indexatu zirelako hain zuzen: *ni da-tor &gt; na-tor / *hi da-tor &gt; ha-tor / Peru da-tor &gt; Peru da-tor (hots, overt S / overt S / covert S), eta, bestetik, *Peru-ga ni da-kus &gt; Peru-k na-kus / *Peru-ga hi da-kus &gt; Peru-k ha-kus / *Peru-ga Jone da-kus &gt; Peru-k Jone da-kus (hots, overt P / overt P / covert P). Sintaktikoki ergatiboak ez diren hizkuntzetan, S eta A ezaugarri estrukturalak partekatzen dituzte, koordinaziozko testek agertzen duten moduan.</p><p>(5) Gizon-ak (S i ) etorr-i d-ir-a eta Ø (A i ) ogi-a eros-i d-u-te dyirbal-ez, perpaus honen bigarren zatia antipasibo baten bidez adieraziko litzateke, horrela lehen zatiko S-aren rol semantikoa bigarrenean harekin erreferentziakidea den elementu ezagerikoan mantenduz. ergatibitate morfologikoa bai baina sintaktikorik ez duten hizkuntzetan, ordea, dixon-en (1994: 172-175) terminologian S/A motako pibote sintaktikoak deritzenak ditugu. Perpaus bateko S bat erreferentziakidea izan daiteke koordinazioan dagoen bigarren perpaus bateko A-rekin. Bi rol semantikoen arteko zubi honek markaketa-banaketa berbera (overt / overt / covert) garatzearen alde jokatu behar du, logika ororen arabera. egiari zor, komunztadurari buruzko lan klasikoetan (esaterako Fuβ 2005; corbett 2006) ez dut aurkitu iradokiriko komunztaduraren sorreraren paralelo zehatzik. corbett-en terminologian, balizko kopiaketa-prozesu honetan kontrolatzailea ("con-troller") iS litzateke; jomuga ("target"), ordea, aditz jokatua. lehenak kasua pasako lioke kasu-marka bigarrenari. tipologo honen arabera <ref type="bibr">(2006: 123-124)</ref>, kasua sintaxiak ezarririko izenen ezaugarri testuinguruzkoa ("contextual feature") dugu. izan ere, kasu-marken kopiaketa-prozesuak aztertzen ditu <ref type="bibr">(ikus 2006: 133-135)</ref>, baina bakarrik kontrolatzailea izen bat eta jomuga iS beraren barneko beste elementu bat (izenondo bat, erakusle bat, etab.) edo atributuko kokagunean dagoen beste iS bat, diren adibideetan. Aditz bat ez da kasurako markatu ahal, baina baliteke aztergai duguna bezalako kasu batean aditzak dagokion iS ergatibotik marka morfologikoa nola edo hala "erakartzea", aktibo bihurtzeko eta *kus bezalako erroaren zehazgabetasun diatetikoa desanbiguatzeko. Azkenik, *-ga aditz jokatua aktibo bihurtzeko baliabide bakarra ez zenez (ikus beherago), A.2sg.eko markatzat berranalizatuko zatekeen.</p><p>Bego hor tipologiako esku-liburuetan iradokiriko prozesuaren paralelo zehatzik aurkitu ez dudalako aitorpena. Baina baimen bekit argudiaketa nola bukatuko litzatekeen azaltzea. <ref type="bibr">27</ref> A.1sg.eko markaren sorrera azaltzeko, adizkiaren hasierako elementuaren bikoizketa onartu behar dugu: *ni-ga Peru da-kus → *ni-ga Peru da-kus-da. Berriro, ez dugu ahaztu behar berranalisi aktiboaren ondoren lehen perpausak bi argumentu dituela, eta 1. eta 2. pertsonako izenordain guztiek komunztadura agerikoa behar dutela. iradoki liteke, beraz, da-bikoiztu zela (da-kus → *da-kus-da) hemen ere *kus erroaren zehazgabetasun diatetikoa desanbiguatzeko, eta aldi berean A.1sg.eko argumentua aditz jokatuan indexatzeko? Bi gertakari nabarmendu nahi nituzke. Batetik, *ni da-&gt; na-, *hi da-&gt; ha-garapenen eta berranalisi aktiboaren ondoren da-z hasitako aditz jokatu gehienak iragankorrak izango ziren (eta izaten dira, egungo euskarazko testu gehienetan, dio, du, dezala... bezalakoak ere aintzat harturik). Horrek haien interpretazio aktiboaren alde jokatu zukeen. Proposamena, beraz, izango litzateke: -da aurrizkiaren bikoizketan izango luke jatorria, morfema aktibatzaile edo iragankortzaile bezala abiatuko zen, eta azkenean A.1sg.eko markatzat berranalizatuko zatekeen. era alternatibo batean, pentsa liteke -da bikoiztu zela perpauseko A sortu berriak A.1sg.eko marka bat behar zuelako aditz jokatuan, besterik gabe. laburbilduz: baliteke *-ga eta -da hasieran (aldakortasun librean zeudekeen) morfema iragankortzaileak izatea, ondoren hurrenez hurren A.2sg.eko eta A.1sg. eko marka bezala berranalizatu zirelarik; edo baliteke *-ga-ren kopiaketa eta -daren bikoizketa zuzenean gertatu izana berranalisi aktiboaren ondoren perpaus mailan sorturiko 1sg.eko eta 2sg.eko A-ek indexaketa behar zutelako. 6. taulako ezkerreko zutabetik eskuineko zutaberako igarotzea zehazki nola gauzatu zen azaltzeko, itsumustuka gabiltza. modu orokor batean proposaturik, uste dut A.1sg.eko -da eta A.2sg.eko *-ga komunztadura-markak predikatu pasiboen berranalisi aktiboak sortu 27 nago, hala ere, euskarak berak subjektu edo objektutik adizkirako kopiatze prozesu baten paralelo bat eskaintzen duela: -(t)za atzizkiarekin gertatua alegia. ondo interpretatzen badut, lakarrak (2006: 602-606) ere elementu hau izen-morfologian sortua dela onartzen du, eta, hala bada, iSetatik aditz jokaturako jauzia gertatu behar izan da noizbait. egia da izen-morfologian atzizki honek duen adiera (ugaritasuna, multzoa, leku hutsa hainbat toponimotan) ez dela zehazki aditz-morfologian komunztadura eragiten duena (pluraltasun zenbakarria eta definitua), eta hortaz nolabaiteko desbiderapen semantiko bat onartu beharko dugu, prozesuaren uneren batean.</p><p>https://doi.org/10.1387/asju.22416 zituen beharrei erreparatuz azaldu behar direla, perpausean berean zeuden elementuak kontuan hartuz.</p><p>Perpausean adiera aktiboko beste morfemarik edo A-ko komunztadura-marka bezala interpreta zitekeen beste elementurik geratzen ez zenez, A.1pl.eko eta A.2pl.eko marka pluralak izenordaina bera kopiatuz eratu ziren: 28 *gu-ga Peru da-kus → *gu-ga <ref type="bibr">Peru da-kus-gu &gt; gu-k Peru dakus-ku, eta bestetik *zu-ga Peru da-kus → *zu-ga Peru da-kus-zu &gt; zu-(e)</ref>k Peru dakus-zu. Hemen, kontrolatzailetik jomugara igarotzen dena ez da ezaugarri testuinguruzko bat, berezkoa ("inherent feature") baizik. Azalpen honen arabera, *-ga eta -da A-markak oA-an sortuko ziratekeen. ondoren, jakina, lA/ irrealiseko morfologiara zabalduko ziratekeen, P-a ≠ 3sg. eta A-a 1. p. (ikus zintuda-n, zintu-gu-n) edo 2. p. (ikus nindu-a-n, nindu-zu-n) ziren kasuetan.</p><p>trinkotze prozesuak singularrean hiru pertsona sortu zituenez (3.ak Ø markarekin edozein argumentutarako), baina pluralean bi, paradigma simetrikoa izango bazen S zein P eta A.3pl.eko markak behar ziren. onartu den garapenaren arabera, S/P.3pl. eko marka izen-morfologiatik kopiatu zen (-(t)za morfema). A.3pl.eko markarako, ziur aski -de aldaeratik abiatu behar dugu <ref type="bibr">(bizk. mend. dau-de, bizk. dakar-de, etab.)</ref>, zeinetatik trask-en legearen arabera -e-eta -te aldaerak sortu ziren. lakarrak <ref type="bibr">(2008: 484)</ref>, morfema honen jatorrian *den 'finish' (erka eten, ats-eden) ikusi uste du.</p><p>Honekin bateratsu, A.2sg.eko marka femenino bat sortu zen, -na (&gt; -na-~ -n), *-ga (&gt; -a-~ -k) zaharragoarekiko banaketa osagarrian, eta horrez gain hizkera alokutiboa, euskararen beste ezaugarri oso bereizgarri bat. Honen azterketa lan honen egitasmotik kanpo geratzen da. derradan bakarrik, bukatze aldera, eratorpen datibodunen sorrera aurreko prozesuen ondoren gertatu zela, eta datiboko markak egilezkoak berrerabiliz sortu zirela, bestela esan, haiei beste funtzio gehigarri bat esleituz (3sg. ean izan ezik, non marka ageriko bat sortu zen). Azkenik, jada garai dialektalean, zu 'zuek' begiruneko 2sg.eko izenordain bihurtu zen, eta honela sorturiko hutsunea betetzeko zuek izenordaina zein honi zegozkion komunztadura-markak eratu ziren (-zu-ri -e-edo -te gehituz), mendebaldean komunztadura-markok garai historikoetara arte ez direla garatu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Ergatibitatea izen-morfologian. -k morfema ergatiboa</head><p>izen-morfologiara igaroz, lakarrak (2005: 442-444) marka ergatiboa bizidunen lekuzko kasuetako -ga elementuarekin lotu zuen (aita-ga-n, etab.), hasieran lokatibo orokor baten marka zela (aita-ga-), eta ondoren lokatibo espezifikoak <ref type="bibr">(→ aita-ga-n, aita-ga-n-a, aita-ga-n-ik, etab.)</ref> adieraztera igaro zela proposatuz. Hala -k &lt; *-ga eratorpena nola lekuzko kasuekiko harreman estu hau bat letozke hemen proposatu den ikusmoldearekin. toponimiako -aga atzizkiaren kutsu lekuzkoa (jatorrizkoa, 1468an lekukoturiko arespacochaga bezalako deiturek eta toponimoek erakutsi legez; ikus mitxelena 1997 <ref type="bibr">[1953]</ref>: 36-37) kontuan hartuta, -a-ga zatikatuko bagenu bigarren elementua ere berbera izan liteke. nire iritziz, baina, *-ga jatorriz osagarri egilezkoaren marka litzateke. Hau espero izatekoa da, eraikuntza ergatiboak predikatu pasi-boetatik datozela onartu eta kontuan hartzen badugu pasiboetan osagarri egilezkoak osagai zeihar baten bidez adierazten direla, dela hau Prepi bat (por el médico, by the doctor…), dela kasu zeihar baten bidez (sanskr. naro mayā smaryate 'gizona nik gogoratua da', pers. zah. manā kartam 'nik egina izan zen', biek osagarri egilezkoa instrumentalean dutela), dela bien bidez (lat. a puella regina amatur) etab.</p><p>Bada, hala ere, kontuan hartu beharreko beste gauza bat: <ref type="bibr">Silverstein-en (1976)</ref> hierarkiaren arabera, split-a dagoenean A marka iS bizigabeetatik hasten da hedatzen, P eta S-ren markaketatik bereizten hasten den kasu guztietan. 1. atalean azaldu den moduan, euskararen kasua bitxia da, ez duelako izen-morfologian inongo hausturarik. egile diren iS guztiek -k daramate euskarazko tradizio idatziaren hasieratik, eta euskara Batu Zaharretik horrela beti izan dela pentsatzeko arrazoi irmoak daude (ez dago inolako hausturarik ezein euskalkitan). Hemen iradoki den hipotesiaren arabera, aditz jokatu historikoki iragankorrak aitzin-euskararen predikatu pasiboetatik datoz, oA osoan eta lA/irrealiseko kasu askotan.</p><p>Bada, marka bedi berranalisi hau gertatu aurretik, 4. atalean proposaturikoaren arabera gure banaketa bat letorkeela <ref type="bibr">Silverstein-en (1976)</ref> hierarkiarekin: split-a edo haustura dagoenean, iS bizigagabeak lehenago markatuko lirateke *-ga-rekin bizidunak baino, etab. Horrela, 'nik harria suntsituko nuke' aktiboki adieraziko litzateke; 'harriak ni suntsituko ninduke', ordea, pasiboki. nolabait irudikatzearren, 'nik harria suntsituko nuke' → *nen 'suntsitu~suntsitua.izan' + irr harri, vs 'harriak ni suntsituko ninduke' → *nen 'suntsitu~suntsitua.izan' + irr harri-ga (hitzez hitz, 'ni suntsitua izango nintzateke harriak'). osagarri egilezkoen markaketa, gerora A-en markaketa bihurtuko zena, bizigabeetatik hasiko zen, nonbait hasi bazen (gogora bedi, hala ere, progresibotzat jo dugun oA-aren aurrekarian, predikatu guztiak pasiboki adierazten zirela).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">Hitz hurrenkera. AVO &gt; AOV</head><p>Aitzin-euskara edo euskararen uneren batean aldaketa hau, edo behintzat Vo &gt; oV zabalagoa, gertatu <ref type="bibr">dela, trask (1977</ref><ref type="bibr">dela, trask ( ), gómez &amp; Sainz (1995</ref>  and that construction could have been a passive or a 'get'-construction. For example, an original canonical transitive like 'John hit Peter' might have been replaced by something along the lines of 'Peter got his hitting from John', a construction type well attested in the world's languages and one which often develops into a passive. So, using purely modern words and forms, we might hypothesize an ancient *Jon jo zuen Kepa being replaced by a marked form *Kepa jo zuen Jon-ek (which in fact is fully grammatical in modern Basque in the sense of 'it was Peter that John hit'); reanalysis of this as an unmarked form, followed by movement of the new subject to initial position, would have produced the modern Jonek Kepa jo zuen. Such a development would imply that the absolutive nP was once the subject of the innovating transitive construction, and hence a period of ergative syntax. <ref type="bibr">(trask 1997: 247)</ref> Prozesua irudikatzeko prozedura ezberdinen bidez egiten bada ere (trask-ek forma modernoen bidez, nik berreraiketa-ahaleginen bidez), planteamendua ia bera da. derragun bakarrik *Kepa jo zuen Jon-ek bezalako eraikuntza jatorriz markatuak agian abiatu zirela osagarri egilezkoa Silverstein-en hierarkian P-a baino beherago zegoen kasu berezietatik (adibidez *Kepa jo zuen harri-ak). eraikuntza hau predikatu semantikoki iragankor guztietara zabaldu zenean (ne-kar-bezalakoetara izan ezik), ordea, osagarri egilezko gehienak Silverstein-en hierarkian gorago egongo ziren, eta honek eragin zuen haien topikalizazioa. 30 9. Pertsona-komunztaduraren sorrera, topikalizazioa eta hitz-hurrenkera 6. atalean pertsona-marka atzizkituak nola sortu ziratekeen azalpen bat eskaini dut. Pertsona-marka aurrizkituei dagokienez, 1. eta 2. pertsonakoek nola edo hala jatorri izenordainezkoak izan behar dute, eta 1. eta 2. tauletan haien sorreran zein elementu morfologikok parte hartu zuketen erakutsi dut (*ni da(r)-kar &gt; nakar, etab.). ikus dezagun orain zein izan ziratekeen trinkotze prozesu hau eragin zuten baldintzapen sintaktiko eta pragmatikoak.</p><p>Pertsona-marken sorreraren tipologiaren ikerketa modernoa givón-en (1976) lan garrantzitsutik abiatzen da. Hartan, gorago aipatu den "today's morphology is yesterday's syntax" aforismoa argudiaketa batez hornituz, givón-ek markatu zuen zenbait kasutan pertsona-marka aurrizkituak eraikuntza markatu topikalizatuetatik argiro garatu direla, hala nola ingeles amerikarrean, eta orokorrean ingeles amerikar ez-estandarreko zenbait hizkeratan. Prozesua <ref type="formula">(6)</ref>  <ref type="bibr">31</ref> Printzipioz, hierarkia honek, hots A/S &gt; r &gt; P (eta honen barnean giz. &gt; ez-giz., etab.) hierarkiak, topikalizagarritasuna ez ezik, pertsona-komunztadura ere baldintzatzeko joera agertzen du, era batean non ezkerrerago dauden elementuak aditz jokatuan errazago indexatzen diren. Hala ere, aipaturiko kategoria guztiak beren artean katramilatzen dira, eta segidaren pauso batzuek salbuespenak agertzen dituzte (adibidez, hungarieraz P definituak indexatzen dira baina r-ak ez; ikus givón 1976: 163-164).</p><p>gainera, eraikuntza topikalizatu guztietan kokagune klitikoan geratzen den izenordaina ez da beti topikoko iS-rekin erreferentziakidea. Beltzen ingeles amerikarreko edo bembako adibideetan bezala, aitzin-euskaran ere honelako eraikuntzak pertsona-komunztaduraren iturri bat izan dirateke (*ni, ni da-tor 'niri dagokidanez, ni nator' → *ni n(i)(-)(d)a-tor &gt; ni nator, etab.), baina 1. eta 2. tauletan irudikatu ditudan komunztadurak ez ziren horrela sortuko, haietan pertsona-marka uztartu bihurtzen den izenordaina ez baita topikoko iS-rekin erreferentziakidea. *ni da-kus Peru-ga → *Peru-ga(,) ni da-kus bezalako garapen bat perpausaren antolaketaren ikuspegitik bi eratan interpreta dezakegu: 1) osagarri egilezkoaren aurreratze edo promozio hustzat (operazio derragun ez-markatua), edo 2) topikalizaziotzat (operazio markatua). Bigarren eran interpreta bageneza, hura zein aurreko *ni, ni da-tor → *ni n(i)(-)(d)a-tor &gt; ni nator bezalako kasuak (non izenordainak topikoko iS erreproduzitzen duen), zein imajina genitzakeen bestelako kasu iragangaitzak, adibidez 32 *etxe-ra, ni nator → *etxe-ra n(i)(-)(d)a-tor &gt; etxe-ra nator (non izenordain klitikoa ez den iS-arekin erreferentziakidea), eta horrelako guztiak, prozesuaren formulazio bakar baten barnean sar litezke: guztietan, pertsona-komunztadura sortzen da topikalizazio markatu bat predikatu arrunt, ez-markatu bihurtzen delako.</p><p>Posibilitate hau gogoan, aintzat har dezagun givón-en aipaturiko lanaren monografia berean li &amp; thompson-ek (1976) proposatu zuten hizkuntzen tipologia. Autoreon arabera, eraikuntza topikalizatuen markatutasun mailaren arabera, hizkuntzak bi eratakoak izan daitezke: a) Subjektu-goraguneko hizkuntzak ("subject-prominent languages"), Sub jek tu-Pre di katu egiturako perpaus-antolamenduarekin. b) topiko-goraguneko hizkuntzak ("topic-prominent languages"), topiko-iruzkin egiturako perpaus-antolamenduarekin).</p><p>Kontsidera ditzagun ingelesezko honako perpausok: ingelesa subjektu-goraguneko hizkuntza izaki, eraikuntza arrunta edo ez-markatua (9a) da. (9b) markatua, nolabait arruntago batetik eratorria dugu. topiko-goraguneko hizkuntzetan, ordea, (9b) eraikuntza ez-markatua dugu. topiko-iruzkin eraikuntzek sintaxi lausoagoa dute. izan ere, topikoak ez ohi du harreman sintaktiko esturik izan dagokion iruzkineko aditzarekin; subjektuak bai, usu A/S-komunztaduraren formapean. Bestetik, topikoen funtzioa perpausaren esparrua ezartzea da, eta horregatik definitua izango da beti; subjektuaren funtzioa, ordea, dagokion aditzak inplikatzen duen ekintza, esperientzia, edo estatuaren protagonista zehaztea izango da, eta ez da halabeharrez definitua izango. <ref type="bibr">33</ref> topikoak eta subjektuak, hala ere, zenbait ezaugarri partekatzen dituzte, eta nola edo hala subjektu bat topiko gramatikalizatu bat da. gramatikalizazio hau topikoak iruzkinarekin duen harreman semantiko-diskurtsiboak sintaxiari ere erasaten dionean gauzatzen da. Honelakoetan, perpaus barneko elementuen berranalisi bat sortzen da, eta hauxe dugu aditz komunztaduraren marken iturrietako bat, (6)-ko The man, he came → The man he-came adibidean ikusi dugun moduan.</p><p>5. atalean <ref type="bibr">Bhat-en (1999)</ref> hizkuntz sailkapenaren arabera aitzin-euskara, tam-eko kategoriei dagokienez, "modu-goraguneko hizkuntza" zela proposatu badut, 9. atal honetan li &amp; thompson-en (1976) hizkuntz sailkapenaren arabera aitzin-euskara, perpausaren antolamendu pragmatikoaren ikuspegitik, "topiko-goraguneko hizkuntza" zela iradoki nahi nuke. Are gehiago, euskararen pertsona-komunztadura topiko-iruz kin perpaus antolamendu batetik Subjektu-Predikatu erako beste baterako igarotzearekin batera sortu zatekeela deritzot. 12. figuran iradokizun honek lekarzkeen zenbait garapen imaginagarri irudikatzen dira (forma modernoekin), topikoaren izaeraren arabera. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="12.">figura</head><p>topiko-iruzkin &gt; Subjektu-Predikatu perpaus antolamenduaren aldaketak ekar litzakeen zenbait garapen Horrela, txineraz bezala topiko-iruzkin erako perpausaren antolaketa arrunta zela onartzen badugu, topikalizagarritasun hierarkia (A/S &gt; r &gt; P, beronen barnean giz. &gt; ez-giz., etab.) neurri batean lausotu egiten da (topikoak printzipioz definituak izango diren arren), eta bestetik indexatzen den izenordaina ez da beti izango topikoko iS-rekin erreferentziakidea.</p><p>Aitzin-euskaran pertsona-komunztaduraren sorrera topiko-iruzkin → Subjektu-Predikatu erako perpaus-antolamenduaren aldaketa batekin batera gauzatu zelako 33 topiko eta subjektu kategoriak definitzen dituzten parametro gehiagotarako, ikus <ref type="bibr">li &amp; thompson (1976: 461-466)</ref>.</p><p>https://doi.org/10.1387/asju.22416 onarpenak lan honetan proposatu dudan hipotesiari -alegia, aitzin-euskarak diatesi gramatikalizaturik ez zuelakoari-aldeko argudio gehigarri eta burujabe bat ematen diola deritzot. <ref type="bibr">li &amp; thompson-ek (1976: 466-471)</ref> topiko-goraguneko hizkuntzei esleitzen dizkieten ezaugarrien artean badago arras interesgarria den bat. Bigarrena alegia: eraikuntza edo eratorpen pasiborik eza! Hauek arruntak dira subjektu-goraguneko hizkuntzetan, baina topiko-goraguneko hizkuntzetan ez dago horrelakorik (lahu eta lisu hizkuntzak), edo bazterrekoak dira (txinera mandarina). dena den, hizkuntza hauetan azaltzen dena, li &amp; thompson-en adibideetan beretan ikusten denez (ikus txinera mandarineko <ref type="formula">(2)</ref>, eta lisukoak behereago (10)-en), ez da pasiborik eza, diatesi gramatikalizaturik eza baizik. Hau espero izatekoa da, parametroaren barnean balio bakarra badago honek testuinguruaren arabera malgutasun diatetikoa hartuko baitu.</p><p>Biziki interesgarria da zergatik den hau horrela (hots, zergatik ez duten diatesi gramatikalizaturik topiko-goraguneko hizkuntzek). li-ren arabera (2005: 184; beste li bat dugu hau), aurreko lan batzuk aipatzen dituela: "whenever voice exists in a language, its major function is to control the flow of information in text". Horrela, diskurtso batean subjektu berbera manten daiteke, eta aditza hari egokitu behar zaio eratorpen morfologiko baten bidez (dela hau pasibo bat, dela antipasibo bat, dela kausatibo bat, dela antzekoren bat). Aitzitik, li &amp; thompson-ek dioskutenez: the relative insignificance of the passive in tp languages can be explained as f ollows: in Sp languages, the notion of subject is such a basic one that if a noun other than the one which a given verb designates as its subject becomes the subject, the verb must be marked to signal this "non-normal" subject choice. <ref type="bibr">[eta beheraxeago:]</ref> in tp languages, it is the topic, not the subject, that plays a more significant role in sentence construction. Any noun phrase can be the topic of a sentence without re gistering anything on the verb. it is, therefore, natural that the passive construction is not as w idespread in tp languages as it is in Sp languages. <ref type="bibr">(li &amp; thompson 1976: 467)</ref> topiko-goraguneko hizkuntzak ez dira hain zehatzak perpausen barneko erlazio gramatikalak adierazteko, baina informazioaren kudeaketan ez ohi dira sortu espero litezkeen nahasmenak. Adibide bat li &amp; thompson-ek berek (1976: 472-475) eskaintzen digute. lisu hizkuntza tibeto-burmandarra topiko-goragunekoa eta aditza amaieran duen hizkuntza dugu. Aditzaren aurrean iS bat baino gehiago baldin badaude, maiz ez dago jakiterik zein den egilea eta zein jasailea, perpausa bikoitza datekeelarik. Aditz iragankorreko baiezko perpaus sinple batean, ageriko egiturak argituko du zein izango den topikoa, baina ez zein izango den egilea. Bikoiztasun hau (10a-b) adibideotan ikus dezakegu: -jendeak ausikitzen ditu' <ref type="bibr">[li &amp; thompson (1976: 472-473)]</ref> (10a) zein (10b) bikoitzak dira: 'Jendeak txakurrak ausikitzen ditu' edo 'txakurrek jendea ausikitzen dute' dateke haien adiera, testuinguruaren arabera. Pentsa liteke honelako hizkuntza batean bikoiztasunak sarri gertatzen direla. Baina li &amp; thompson-en esanetan: the fact is, however, that this total disregard for agency or subjecthood in the structure of the language does not impair its communicative function, as much as might be expected. First of all, the context, whether linguistic or extra-linguistic, provides a great number of semantic cues. Secondly, semantic properties such as humanness and animacy play a significant role in disambiguating sentences which may be otherwise ambiguous because of the lack of any indication of agency or subjecthood. in terms of pragmatics, one may safely assume that when one hears either 34 or 35 [gure (10a) eta (10b)], the intending meaning would be dogs bite people [azpimarratua l&amp;t-ena], since people are normally not expected to bite other creatures. thus, although 34 and 35 are theoretically ambiguous, they do not present a communicative problem in most circumstances. <ref type="bibr">(li &amp; thompson 1976: 473)</ref> Diatesi gramatikalizaturik eza, beraz, topiko-goraguneko hizkuntzen ezaugarri bat dugu. 34 lan honetan ezarri den hipotesiaren arabera, lisurako li &amp; thompson-ek deskribatzen duten egoera -edo antzeko bat-1. eta 2. tauletako 1. fasean egon zitekeen, harrezkeroztik iS bietako bati Os.eg.-ko atzizki bat atxikiz aditzari adiera pasiboa esleitu eta bikoiztasuna ekiditen zelarik. azkenik, behintzat Oa-ko joskeretan pasibo horiek hain ugari bihurtu ziren ezen aktiboki berrinterpretatu ziren, hizkuntza ergatiboa izatera igaro zelarik. Honekin batera aditzaren argumentuekiko komunztadura-markak sortu ziren, eta atal honetan iradokitakoaren arabera perpausaren antolamenduan topiko-iruzkin → Subjektu-Predikatu aldaketa gauzatu zen.</p><p>Derragun, atal honi bukaera emateko, hartan onarturikoak 8. atalean postulaturiko hitz hurrenkeraren garapenari ñabardura bat egitera behartzen gaituela. aOV ez letorke zehazki aVO-tik, taV(O)-tik baizik. topikoa objektu zuzena bazen, berau ez legoke aditzaren ondoren. <ref type="bibr">34 li &amp; thompson-ek (1976: 466-471)</ref> topiko-goraguneko hizkuntzei esleitzen dizkieten ezaugarri guztiak honakoak dira: 1) topikoaren ageriko markaketa, baina ez halabeharrez (iruzkineko) subjektuarena (mandarinean, adibidez, topikoa perpaus hasieran dago beti); 2) eratorpen edo eraikuntza pasiborik eza (lahu edo lisu hizkuntzetan ez dago horrelakorik, mandarinean bai baina bazterrekoa da); 3) adierarik gabeko subjekturik eza ("dummy subjects" direlakoak ditugu hauek, ingelesaren eta subjektu-goraguneko beste hainbat hizkuntzaren tipikoak: ing. it, al. es, etab.); 4) subjektu bikoitzak izan ohi dituzte (txineraz adibidez: tā tóu téng hura-buru-min.egin 'Hark buruko mina dauka [lit. ~ 'hura, buruak min egiten dio']'); 5) topikoaren kontrol erreferentziakideketa ("controlling co-reference"; perpauseko osagai erreferentziakidetu baten ezabaketak tipikoki topikoak, eta ez (iruzkineko) subjektuak, kontrolatzen du); 6) aditza amaieran (horrela japonieraz, koreeraz, lahuz eta lisuz, eta autoreen arabera txinera mandarina norabide bertsuan garatzen ari da; pace Hsu McWilliam 2009 eta beste lan berankorrago batzuk, berrikusle anonimo batek gogorarazten didan bezala); 7) edozein osagai ager daiteke topikoko kokagunean (subjektu-goraguneko hizkuntzetan, ordea, murriztapen ugari egon ohi da); 8) topiko-iruzkin eraikuntzen oinarrizkotasuna.</p><p>Hauek orain lau hamarkada ezarririko joerak ditugu, ez hertsiki hartu beharreko arauak. Haien eguneraketan eta bakoitzaren egokitasuna aitzin-euskararako proposatu berreraiketan ez naiz sartuko.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>a) oA-ko joskeretan → lerrokadura zeharo ergatiboa (aurr./aurr./atz. formakoa):n-/ n-/ -t (~ -da-) b) lA eta irrealiseko joskeretan → nen-/ nen-/ baina A... b.1) P = 1./2. p. eta A = 1./2. p. → A atzizkitua: -da-,-gu-... (aurr./aurr./atz. lerrokadura mantentzen da) b.2) P = 3. p. eta A = 1./2. p. → nen-/ nen-, eta gen-/ gen-/ baina A... b.2.1) sg.ean → ne-(lerrokadura ergatiboa mantentzen da, baina ez aurr./aurr./atz. patroiarekin) b.2.2) pl.ean → gen-(ez dago lerrokadura ergatiborik, gene-karr-en bezalakoetan izan ezik)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>formekin baizik, baina haien planteamendua erabiltzen ari naizen formara egokitu dut. 13 Zehaztu behar da bere formalismo glosatuan *na-da-go, etab. proposatu arren, testuan trask-ek (1977: 205) *ni-da-go, *hi-da-go, etab. bezalako berreraiketak jada postulatzen dituela. https://doi.org/10.1387/asju.22416 4. LA eta irrealiseko joskerak lA eta irrealiseko joskera historikoei dagokien sektore morfologikoan, gauzak konplikatuxeagoak dira, eta aditz iragankorren barnean A-a eta P-a zeintzuk diren arabera 3 posibilitate ditugu. Berriro nori-dun sailak zein -te(ke), -ke eta erroaren ondoko beste edozein tam morfema albo batera utzita, 7. figuran irudika daitezke. 14 aditz iragangaitzetan S.marka+tam.morfema -aditz.erroa (-a/en lA-an) .morfema -aditz.erroa -A.marka (-a/en lAan) b) P = 3. p. eta A = 1./2. p. A.marka+tam.morfema -aditz.erroa (-a/en lAan) c) hala P zein A = 3. p. tam.morfema -aditz.erroa (-a/en lAan) 7. figura euskararen lA-ko eta irrealiseko aditz jokatuaren elementuen hurrenkera Zer dela eta gertatzen da ergatibitatearen haustura hau? martínez Areta (2013)-n galdekizun honi erantzuten saiatu nintzen. 4. eta 5. ataletan, hartan esandakoa sintetizatuko dut, eta ohar gehigarri batzuez hornituko.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>1. -(e)n-elementuan tam morfema bat ikusten duten hipotesiek -a), b), d), e)-ez dute azaltzen zer dela eta ez den paradigma osoan agertzen (**ze-ntorr-en, **le-n-kar-ke, etab.). 2. a) eta c) -edozein kasutan azalpen sinkroniko bat-albo batera utzirik, gainerakoek ez dute azaltzen zergatik coda sudurkaria ez den agertzen lehen hutsunea Amarka denean (**nen-karr-en 'ekarri nuen', etab.), eta -oraingoan a) eta c) ere barnean sarturik-zergatik hau gertatzen den singularrean baina pluralean ez. 3. en 1 eta/edo en 2 lA-ko edo perfektiboko morfema(k) d(ir)ela proposatzen duten hipotesiak -a) eta e)-5. atalean eztabaidaratuko dudan comrie-ren egilearen goragunearen aspektuzko hierarkiarekin kontraesanean daude.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>, lehen aditz konposatuen kronologia bat zehazten saiatu beharko genuke. ez dago zalantzarik mend. [partizipio burutugabe + egon] ~ erd. ek. [partizipio burutugabe + ari izan] eraikuntza progresiboak garai historikoetan garatzen direla. Bere aldetik, [partizipio burutugabe + *zan/*dun laguntzaile] eraikuntzaz esan dezagun, gehiago zehaztu gabe -ez baita erabakigarria aztergai dugun auzian-, erdi Aroan izan zuela garapen nagusia (ikus urgell 2006; mounole 2008); orobat, [partizipio geroaldiko + *zan/*dun laguntzaile] eraikuntzak ere aldakortasun dialektala erakusten du bere eraketa morfologikoan (asko orokortuz mend. -ko / erd. -ko ~ -en / ek. -(r)en), eta aurrekoarekin bateratsu edo agian lehentxeago ulertu behar dugu haren garapena (ikus martínez Areta 2019), erromantzearen eredupean sortu zatekeela gogoan (erka gazt. he De ir / hacer, etab.Zernahi gisaz, [aditzoin + *din / *zan (*gin, -iro-...) laguntzaile] eraikuntzak, gainerako aditz konposatuen bultzadaz bazterreko funtzioetara zokoratuak izan direnak, edozein eragin kanpotar baino lehenagokoak dira, eBZ-rako postulatu beharrekoak, eta itxura guztien arabera hartan fase historikoan baino funtzio gehiago zituzten. esandakoa laburbiltze aldera, 2. figuran deskribatu dudan aditz konposatuen estratifikazio kronologikoa irudikatzen da. Aditz trinko edo sintetikoak geratzen zaizkigu. Hauek gainbehera maldatsuan egon dira historian zehar. mounole-ren (2014: 15) zenbaketaren arabera, 68 dira xv. eta xvi. mendeetako euskaran. egungo euskararako, ostera, euskaltzaindiak (1987) 26 arautzen ditu, haietako zenbait oso gutxitan, edo bakarrik estilo oso jasoan, erabiltzen badira ere. partiz. btg. + egon] ~ [partiz. btg. + ari izan] xvi. mendetik aurrera [partiz. btg. + *zan/*dun lgtz.] erdi Aroan [partiz. gA.koa + *zan/*dun lgtz.</figDesc><table><row><cell>; ikus mitxelena Besterik da [partizipio burutu + *zan/*dun laguntzaile] eta [aditzoin + *din / *zan 1987 [1981]: 48). (*gin, *-iro-...)] eraikuntzen arazoa. Hala trask (apud mounole 2014: 301) nola mounole bera (2014: 301-302) [partizipio burutu + *zan/*dun laguntzaile] eraikun-tza perfektuak latin/erromantzetik hartu zirelako ohiko ikuspuntuaren aurka azaldu dira. nire ustez, eraikuntzok ez baziren hizkuntz ingurutik mailegatu, behintzat haien sorrera europa mendebaldeko hizkuntzekiko nolabaiteko konbergentzia batean sortuak izan behar ditugu, [partizipio + 'izan, eduki' ideia lexikoko laguntzaile] erai-kuntzak perfektuak -eta hortik lehenaldiak-adierazteko Standard Average euro-pean-aren -behintzat mendebaldarraren-ezaugarrietako bat baita (ikus martínez erdi Aroan [partiz. bt. + *zan/*dun lgtz.] latin/erromantzetik hartua edo behintzat inguruko hizkuntzekiko konbergentzian sortua [aditzoin + *din / *zan (-iro-...) lgtz.] latin/erromantzearen eraginaren aurrekoa 2. figura euskararen aditz konposatuen (gutxi gorabeherako) estratifikazio kronologikoa egon al zen inoiz hizkuntzak aditz sintetikoak bakarrik zituen garai bat? uste dut ez gaudela -eta lan honetan ez nagoela-behartuta galdera hau erantzutera. mu-gatuko naiz esatera edozein tradizio linguistikotan bezala diatesi eta erlazio grama-tikalen egoerarik zaharrena arakatzeko, aditz jokatutik, eta ez beste inondik, tiratu beharko dugula. eta horixe egingo dut nik honetan eta ondoko ataletan (bestenaz, Areta 2019). ] gaia ikertu duten gainerako autore guztiek bezala).</cell></row></table><note>https://doi.org/10.1387/asju.22416[</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>1. fasea (zehazgabetasun diatetikoa) 2. fasea (hautaketa diatetikoa) 3. fasea (osagarri egilearen topikalizazioa, berranalisi aktiboa) 4. fasea (euskara historikoa) Nagusitzen den aukera</head><label></label><figDesc></figDesc><table><row><cell>[A Peru, O ni, 'ikusi']</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Peru da(r)-kus ni</cell><cell>Peru da-kus ni</cell><cell></cell><cell>aktiboa</cell></row><row><cell>ni da(r)-kus Peru-ga</cell><cell>ni da(r)-kus Peru-ga Peru-ga n(i)(-)(d)a-kus</cell><cell>Peru-k nakus</cell><cell>pasiboa</cell></row><row><cell>[A Peru, O hi, 'ikusi']</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Peru da(r)-kus hi</cell><cell>Peru da-kus hi</cell><cell></cell><cell>aktiboa</cell></row><row><cell>hi da(r)-kus Peru-ga</cell><cell>hi da(r)-kus Peru-ga Peru-ga h(i)(-)(d)a-kus</cell><cell>Peru-k hakus</cell><cell>pasiboa</cell></row><row><cell>[A ni, O Peru, 'ikusi']</cell><cell></cell><cell></cell><cell></cell></row><row><cell>ni da(r)-kus Peru</cell><cell>ni da-kus Peru</cell><cell></cell><cell>aktiboa</cell></row><row><cell>Peru da(r)-kus ni-ga</cell><cell>Peru da(r)-kus ni-ga ni-ga Peru da-kus</cell><cell>ni-k Peru da-kus-da</cell><cell>pasiboa</cell></row></table><note>12 egia esan, ez dute figurako formekin egiten, *gu</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>, en 1 , batetik, lehen aditzondotik letorke;Heath-ek (1977), bere aldetik, en 1 → e inbertsioa (1./2. p.ko markak aurreratzen dituen -"fronts"-baliabide sinkronikoa) eragiten duen eratorpen antipasibizatzailea dela proposatu zuen. ortiz de urbinak (1989: 62) ondo laburbiltzen ditu azalpen honen arazoak. eraikuntza antipasiboen antzeratsu euskal aditz jokatuaren egituran A-k absolutibo bezala markatzen diren arren, paraleloa hor bukatzen da. eskimo, dyirbal, maya etab.eko hizkuntzetan ez bezala, euskaraz ez dago eraikuntza antipasibo baten aztarnarik perpaus mailan, ez perpaus mailako iS-en hurrenkeran (promoziorik, demoziorik...), ez berauen markaketa morfologikoan (nik neraman..., ez **ni neraman...). Are gehiago, ustezko antipasibizazioak ez dauka inongo funtzio pragmatikorik (diskurtsoaren beharren arabera, fokuaren arabera, galderen edo erlatibozko perpausen eraketaren arabera...), eraikuntzok dituzten hizkuntzetan ez bezala. Azpimarra dezagun Heath-en proposamena gertakariaren azalpen sinkroniko bat besterik ez dela. d) Aldai(2000)Heath-en (1977)  azalpenari dimentsio diakroniko bat ematen saiatu zen. Haren arabera, eraikuntza antipasiboak lA-an eraikuntza perfektiboak eraikuntza iragankor inperfektibo bihurtzeko behinolako baliabideak izan ziren. Aditz-morfologian ihartuak ditugu, baina gaur ez diraute bizirik. Hemen aztergai dugun arazoaren ikuspegitik, Aldairen arabera en 1 morfemaren -n-inesiboko -n litzateke, progresiboen iturri lexikoa. oregi Aranbururen hipotesiarekin bezalaxe, arazoa da xvi. mendeko agerpenek perfektibo edo aoristo batera begira jartzen gaituztela (ikus 5. atala). Hortaz, ez da argi ikusten zergatik bilatu behar dugun aspektu inperfektibo baten aztarnarik. 19 18 eztabaidagai honetarako, Ariztimuñoren (2013b: 50-52) sintesiaz baliatuko naiz.19  Aldairen(2000)arabera, garairik zaharrenean euskararen aditz-morfologia zeharo ergatiboa izango zen (*e-kar-da 'nekarren' bezalako formekin), eta ondoren eraikuntza antipasibizatzaile baten bidez aditzaren sektore bat "desergatibizatuko" zen. lan honetan proposatzen ari naizenaren justu kontrako ideia da, baina bi teoriak zentzu batean bata bestearen ispilu-irudiak ditugu, eta hortaz antzekotasunak ere agertzen dituzte. uste dut, hala ere, hemen proposatzen den ibilbidea Aldairen faseen ibilbide bihurria ([A] faseko lA perfektibo &gt; [B] faseko lA inperfektibo &gt; [c] faseko lA perfektibo] garapena barne) baino askoz sinpleagoa dela. Azkenik, lakarraren (2008) hipotesia dugu. Haren arabera, lA eta irrealiseko aditz jokatuetako -en-morfeman, eten edota ats-eden bezalako hitzetako *den 'finish' aditz-erroa izango genuke jatorriz, aspektu perfektiboaren iturri lexiko ohikoa. nire iritziz, proposamen honek ondoren aipatuko ditugun arazo orokorretako bi dauzka.</figDesc><table><row><cell>en 2 , ostera, *g(u)-en, *z(u)-en formetatik letorke, berauek izenordainaren gehi genitiboaren aglutinaziotik sortuak liratekeelarik. Baina lA historikoa ziur aski perfektibo edo aoristo batetik dator (ikus beherago, 5. atalean), eta hortaz espero genuke aspektuzko morfema bat, ez aldizkoa. Bestetik, -en genitiboa-ren forma berria da (erka zu-r-e, aita-re-kin, etab.). b) trask-en (1977) arabera, en 1 morfema pasibizatzailea da. Hipotesi honek dauzkan arazoak -hein batean trask-ek berak onartuak-2. atalean aipatu dira. c) miKel mArtíneZ AretA e)</cell></row><row><cell>ASJU, 2019, 53 (1-2), 183-223</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>Bi serieetako formen lehen segmentuak berbera izatea, noski, ezin da kasualitatea izan. nen &lt; ni + X etor liteke, hots izenordainaren forma oinarrizkoaren eta ezin identifika dezakegun beste elementu baten aglutinaziotik. iradoki dudana da aditzaren trinkotzea (*ni da-tor &gt; nator, *nen tor &gt; nentor, etab.) gauzatu zen unean, B seriea jada eratuta zegoela.</figDesc><table><row><cell>1./2. pertsonen izenordainen A seriea</cell><cell>1./2. pertsonen izenordainen B seriea</cell></row><row><cell>ni</cell><cell>nen</cell></row><row><cell>hi</cell><cell>hen</cell></row><row><cell>gu</cell><cell>gen</cell></row><row><cell>zu</cell><cell>zen</cell></row></table><note>https://doi.org/10.1387/asju.22416</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>Zer dela eta daukagu 9. figuran azaltzen zaigun egoera? derragun hasteko lA/ irrealisaren barneko banaketa guztiz bateragarria dela tipologiaren gertaerekin. 1. eta 2. pertsonak definizioz bizidunak, definituak eta informazio ezaguna izaten dira. Hortaz, erraz topikalizatuko dira, P izanez gero. 3. pertsonak, ostera, sarriago bizigabeak, indefinituak eta informazio berria izaten dira. Hortaz, ez dira hain erraz topikalizatuko, P izanez gero. trask-ek berak (1979: 392) markatzen du nootka hizkuntzan 10. figuran irudikatzen den egoera daukagula, makah, eta -ezberdintasun apur batzuekin-squamish, yanaz eta yurok hizkuntzena antzekoa delarik.</figDesc><table><row><cell>A = 1./2. p.</cell><cell>→ predikatuak aktiboak dira</cell></row><row><cell cols="2">A = 3. p. eta P = 1./2. p. → predikatuak pasiboak dira</cell></row><row><cell>A eta P = 3. p.</cell><cell>→ predikatuak aktiboak zein pasiboak izan daitezke</cell></row><row><cell></cell><cell>10. figura</cell></row><row><cell></cell><cell>nootka hizkuntzaren egoera</cell></row></table><note>https://doi.org/10.1387/asju.22416</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>Hots, ceteris paribus, zenbat eta ezkerrerago egon esku artean daukagun aspektua, orduan eta goragune handiagoa hartuko du egileak. Zenbat eta eskuinerago, orduan eta goragune handiagoa hartuko du jasaileak.</figDesc><table><row><cell>A</cell><cell></cell><cell>P</cell></row><row><cell>prospektiboa</cell><cell>inperfektiboa</cell><cell>perfektua</cell></row><row><cell></cell><cell>11. figura</cell><cell></cell></row><row><cell cols="3">egilezko goragunearen mailaren hierarkia aspektuzkoa, comrie-ren (1981) arabera</cell></row></table><note>https://doi.org/10.1387/asju.22416</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head></head><label></label><figDesc>+ aditz.erro] eraikuntzak adiera progresibo batera begira jartzen gaitu. [B serieko izenordain + aditz.erro] eraikuntzaz den bezainbatean, euskara modernoan perpaus baldintzazko irrealisekin lotuta dago. Batueraz, ba-aurrizkiaz protasiak eratzen dira; -ke edo -teke atzizkiez, ordea, apodosiak. Hizkitzerik gabe, bakarrik rS (284) ez lemaio "no la daría" (trinkoa, eta nori-duna), mend. nei (&lt; *ne-gi) edota ek. niro, leiz. laidi (&lt; *le-gi-di) bezalako aditz jokatu urrietan iritsi zaigu [B serieko izenordain + aditz.erro] eraikuntza (ikus lafon 1980 [1943]: 435-438). dena den, badirudi bazterreko eginkizun hauetara mugatua izan aurretik, eraikuntzak eremu zabalxeago bat izan zukeela. xvi. mendeko iparraldeko euskaran, albait-aurrizkiaren bidez lafon-ek "preskriptiboa" izendatu zuena era zitekeen, 2. eta 3. pertsonako subjektuko injunkzio bat adierazteko erabiltzen zena (ikus mounole 2014: 97, eta haren iraungitzerako 224). Haren bidez, baldintza baten betetzearen menpeko agindu bat, edo etengabeko agindu bat, adierazten zen (ikus ibid. adibideetarako eta testuinguru gehiagotarako). garai berean, leizarragaren lekukotasun batzuetan eta dirudienez garibairen errefrau batean, ai-aurrizkiaren bidezko optatiboa ere badugu (ikus mounole 2014: 98, eta 225 haren iraungitzerako ondorengo mendeetan). Adiera horien guztien oinarrian hondar irrealis bat dago. Hala izanik, eta kontuan hartuta euskararen aditz-morfologiaren eraikuntza zaharrenak [A serieko izenordain + da(r) + aditz.erro] eta [B serieko izenordain + aditz.erro] ditugula, zergatik ez lotu bikote hau</figDesc><table><row><cell>a-kar), eta bestetik *nen kar (&gt; nen-kar).</cell></row><row><cell>Zein balio gramatikal izan zezakeen hauetako eraikuntza bakoitzak? gorago esan</cell></row><row><cell>legez, [A serieko izenordain + da(r)</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head></head><label></label><figDesc>leaves the ergative morphology to be accounted for, and here even speculation becomes difficult. the change from Vo to oV syntax, if it occurred, would probably have come about via the increased use of an originally marked construction,29  Berrikusle anonimo batek gogorarazten dit informazio ezaguna perpausaren hasieran jartzea ez dela ezaugarri unibertsala, eta kontrakoa ere lekukotzen dela, informazio berria perpausaren hasieran jartzea alegia, batez ere hurrenkera libreko hizkuntzetan (ikus adibidez mithun 1992 coos, ngandi eta cayugari hizkuntzen adibideekin, eta Payne 1992 'o'odham hizkuntzaren adibideekin). Berrikusle berari biziduntasuna eta definitutasuna faktore garrantzitsuagoak iruditzen zaizkio.</figDesc><table><row><cell>eta la karra</cell></row><row><cell>(2005) bat datoz. Hemen defendatu den ikusmoldeak aldaketaren azalbide prag-</cell></row><row><cell>matiko bat eskaintzen du. Predikatu pasiboak nagusitzen badira, egile semantikoa</cell></row><row><cell>amaieran egongo da. Berau tipikoki biziduna, definitua eta informazio ezaguna de-</cell></row><row><cell>nez, aukera asko izango du perpausaren hasierara aurreratua izateko edo topikalizatua</cell></row><row><cell>izateko. 29 une honetatik aurrera, berranalisi aktiboa gauzatu zenean, AVo &gt; AoV</cell></row><row><cell>aldaketa burutu zen.</cell></row><row><cell>interpretazio hau ez da berria. Aldeak alde, ikus bedi trask-ek orain hogei urte</cell></row><row><cell>zioena:</cell></row></table><note>thathttps://doi.org/10.1387/asju.22416</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head></head><label></label><figDesc>-a topikoko kokagunera aurreratzen duen eraikuntza markatu baten gainerabilerak eraikuntza horren demarking-a edo arrunt bihurtzea ekarri du. Hortik, topikoa S bihurtu da eta aldaketa honek perpauseko S-a aditzeko komunztadura-marka bihurtzea sustatu du. Hau berau Ameriketako beltzen ingeleseko hizkera batzuetan ger-tuak parte-hartzaile ez-inplikatuak baino, eta azkenik 1. pertsona 2. pertsona baino, eta 2. pertsona 3. pertsona baino.</figDesc><table><row><cell></cell><cell></cell><cell>-n irudikatzen da.</cell></row><row><cell cols="2">(6) topikalizazioa (markatua)</cell><cell>neutroa (berranalizatua) Beltzen ingeles amerikarra</cell></row><row><cell>The man, he</cell><cell cols="2">came → The man he-came</cell></row><row><cell>topikoa iz.ord.</cell><cell></cell><cell>Subjektua komunztadura.marka</cell></row><row><cell cols="2">[givón (1976: 155)]</cell></row><row><cell>Horrela, S</cell><cell></cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8">Hertsiki harturik, zatiketa zuzena n-en-(S/P.1sg-tam.morf-) litzateke (vs n-a-, etab.), baina lerrokadura-jokoak hobeto irudikatze aldera, hemen nen-morfema amalgamatutzat joko dut.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9">Honi gehi geniezaiokeen beste bat honakoa da: zergatik ez dago morfema pasibizatzailearen aztarnarik oA-an (**da-n-kar, **na-n-kar, etab.)? Badirudi trask-ek (1977: 210) honetarako daukan azalpena dela hizkuntza polinesiarretan bezala berau desagertu datekeela, zantzurik utzi gabe.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10">Hau ziur aski jatorriz inperfektibo edo progresibo bat den arren, erosotasunaren mesedetan oA arrunteko itzulpenez baliatuko naiz, lan osoan zehar. 11 trask-ek (1997: 245-247) "A speculative synthesis" atalean hemen postulatu dudanaren oso antzeko garapen bat iradoki zuen, beste formalismo batzuen bidez.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14">+ ikurrak amalgamatzea adierazten du. 15 oA-ko adizkien hasierako hutsunea tam morfema batek okupatzen du, baina A-ren pertsonamarka amaieran dago, eta horrek predikatu pasibo batera garamatza.16  Adibideok -n -ren erorikoa agertzen dute, ohikoa Bilbotik hurbileko kostaldeko herrietan, baina gertakari bigarrenkaria da(ikus lakarra 1996: 166-169).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="17">Behin-behiniko diot, 5. atalean esango den bezala uste baitut trinkotzea gauzatu zen unean -a/ en-dun formak ez zirela eratuak. Hortaz, 8. figurako formak berez ezinezkoak dira. Hala ere, irrealiseko forma trinkoak lA-koak baino are urriagoak direnez (ekarri aditzerako, behintzat, lA-an rS-eko lekukotasun ezin aproposagoak dauzkagu; ikus (3)), arrazoi didaktikoengatik nahiago ditut 8. figurako fikziozko formak erabili.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="20"> trask-ek (1977: 211)  Bizkaiko hizkera batzuetako enkarren 'hekarren, ekartzen huen' bezalako formak gogorarazten ditu. Haiek azaltzeko, forma jatorriz pasiboetatik hedatu direla dio, agian mend. ekarren 'zekarren' bezalakoekiko nahasmena ekiditeko. Singularreko adizki aktibo -n-dun hauek, 1. p. sg.ekoak barne, Bizkaiko mendebaldeko lerro batekoak dira: nendun 'nuen', nendusen 'nituen',  etab. (ikus Zuazo &amp; goiti 2016: 40, eta 169. orrialdeko mapa argigarria). ez dira oraintsu sortuak, mikoletak behinik behin nenduá 'nuen' badakarrelako.Zuazo &amp; goiriren iritziz (2016: 40), behintzat 1. p. sg.ekoetan -n-pluraletik zabaldu da (hots, ge-n-dun, ze-n-dun, etab. bezalakoetatik). Proposaturiko hipotesitik, arkaismoak izan litezke, *nen-du(n)(-an) bezalakoetan P≠A eragingo zukeen -n-ren erorikoa bazterreko hizkera honetan gauzatu ez zela onarturik. nolanahi ere den, hau ez da funtsezkoa, eta azalpen analogiko berankor bat ere arazorik gabe onar daiteke.21  2. atalean aipatu dudan hirugarren arazoari (zergatik ez da azaltzen -Ø-vs -n-oposaketa 1. eta 2. pertsona pluraletan?) aurre egiteko asmoz,trask-ek (1977: 211)  pertsona pluralen -n-hau analogiaz sortuak direla dio: "thus it is probable that the earlier form of genuen was something like *guen, from original *g-e-du-en, just as modern nuen 'i had him' results from *n-e-du-en". izan ere, lazarragaren hizkeran baditugu cebela 'zenuela' (Al: 1151v), ceben 'zenuen' (Al: 1153r), ceguian 'zenegian, zenezan' (Al: 1153v), ceucala 'zeneukala' (A26: 96, 98) eta ceucan 'zeneukan' (A26: 106). Aramaion eta deba goienean ere honelako formak geratzen dira (Aramaion adibidez gen ~ geuen ~ gauen 'genuen', sen ~ seuen 'zenuen' eta seuen 'zenuten' topatzen ditugu; ikus ormaetxea 2002: 97). Haatik, lazarragak ez ceeguidan 'ez zenida(te)n egin' (A26: 59), baceequi (Al: 1151v), ezpaceeguit (A7: 99) eta cee-</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="25">ildo bertsutik doaz Aldairen (2000: 61-62, 70-71) eta Ariztimuñoren (2013b: 52-58) azalbideak. Aldairen planteamenduan, nen-tor, nen-kar eta ne-kar [B] faseko lA inperfektiboko formak ziren (ne-kar antipasibo batetik sortua, jatorrizko forma aktiboa *ekar-da litzatekeelarik). Hurrengo [c] fasean, -(e)n atzizki menderatzailearen berranalisiaren bidez, → nentorr-en, → nenkarr-en eta → nekarr -en lA perfektiboak sortu ziren. Ariztimuñok Aldairen lotura semantikoa onartzen du, baina atzizki menderatzailearen beste jatorri bat nahiago du. Forma askotan bazterreko euskalkietan lotura bokala -a-, erdialdeko euskalkietan -e-dela ohartarazirik, zaharra -a-dela eta -e-n berranalisitik sortu datekeela dio (-an → -n mozketa okerraz, → -e-n bokal epentetikoaz, → -en berranalisiz; ikus 2013b: 53). Areago, erlatibozko -an atzizkiaren oinarrian han aditzondoa izan litekeela dio (*[gizon etorri da] [han] → *[[gizon etorri da]-an] (ha) → gizon etorri da/ena), eta konpletibozko -ala atzizkiaren oinarrian hala aditzondoa ([etorriko da], [hala esan du] → [[etorriko da-la] esan du]).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="26">ezkerreko zutabeko itzulpenek berez progresiboak izan beharko lukete (ikus 5. atala): 'Peru nik ikusia izaten ari da ~ ni Peru ikusten ari naiz', etab. Baina kus aditz-erroaren iragankortasuna eta *ni-ga Peru da-kus bezalakoen irakurketa aktiboa hobeto bistaratze aldera, atal honetan orainaldiko itzulpenez baliatuko naiz.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="28">ikus corbett (2006: 99-112), izenordainezko jatorriko komunztadura-marken sailkapen eta tipologia baterako.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="30">Bide batez, ohar bedi trask-en argudiaketan nire 1. eta 2. tauletako 2. faseko predikatu aktiboen desagerpena ere proposatzen dela ("*Jon jo zuen Kepa being replaced by... ").</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">https://doi.org/10.1387/asju.22416</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="31">ikus honen inguruan goi-aleman zaharreko eta Suabiako alemaneko adibideak aztertzen dituen<ref type="bibr" target="#b16">Bynon (1992)</ref>. dena dela, givón (1976)-n bezala lan honetan ere 3. pertsonako izenordainak eta klitikoak baino ez dira azaltzen. 32 ondoko adibidean, etxe-ra adizlaguna euskara batuko formaren bidez irudikatzen dut.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>tatu da, baina perpaus nagusietan bakarrik (hauek berbeta joriago, arinagoari lotuago daudelarik). Beltzen hizkerotan erlatibozko perpausak eratzeko erlatibozko izenordaina (who, which ...) usu omititzen denez, sortu den oposaketa honako erakoa da:</p><p>(7) a. The man he-came to dinner (nagusia) Beltzen ingeles amerikarra 'gizona afaltzera etorri zen' b. The man came to dinner (erlatibozkoa) 'Afaltzera etorri zen gizona <ref type="bibr">' [givón (1976: 170)]</ref> 1. eta 2. pertsonetan, eraikuntza topikalizatuen bidezko izenordain &gt; klitiko &gt; pertsona-marka uztartu motako garapenak zailagoak dira aurkitzen bibliografian. Haiek aurkitzeko leku apropos bat hizkuntza bantuen familia da, nahiz, idatzizko tradiziorik gabeko hizkuntzak izaki, eraikuntza beraren garapenak ez diren normalean banako hizkuntzen historian lekukotzen (hizkuntzen arteko konparazioaren bidez ondoriozta daitezke soilik). nolanahi ere, batzuetan hizkuntza berak agertzen ditu 1. eta 2. p.ko klitikoak, haien forma izenordainezko beteagoak, bai eta lehena bigarrenetik sortu datekeen eraikuntza topikalizatua, givón-en beraren bemba hizkuntzaren adibideak erakutsi legez:</p><p>múu-suma 'Hari dagokionez, hura ona da <ref type="bibr">' [givón (1976: 166-167)]</ref> Bembaren egoera honetan, aditz jokatua oraindik pertsona-komunztadurarik gabea dugu, baina izenordainen forma beteak -eraikuntza topikalizatuen topikoko kokagunean-eta berauen forma klitikoak -adierazpen predikatuetan haiekin (bakarrik) derrigorrezkoa den kopula batekin batera-bai azaltzen dira parez pare, eta hurrengo pauso bat izan liteke klitikoen pertsona-marka uztartu bihurtzea.</p><p>Hauxe litzateke, beraz, pertsona-marka anitzen jatorria: eraikuntza topikalizatu markatuetan, perpausak topikoko iS-rekin erreferentziakidea den izenordain anaforiko klitiko baten bidez topikoa bikoiztu behar du. eraikuntza hauek arrunt eta ezmarkatu bihurtzen badira, topikoko iS subjektu bihurtuko da A edo S baldin bada haren rol semantikoa, eta izenordain klitikoa pertsona-komunztadura bihurtuko.</p><p>givón-ek (1976: 151-167) honelako prozesuen bidez sorturiko komunztaduren azterketa diakronikoan kontuan hartu beharreko hierarkiak ikertzen ditu. Hierarkiok iS-ren topikalizagarritasun mailaren menpe daude. errazenik topikalizatzen diren iS-ak A/S-ak ditugu (oro har, subjektuak zentzu orokorrean), ondoren r-ak, eta ondoren P-ak. Hau honela da A/S-ak eta r-ak tipikoki definituak eta bizidunak -gehienetan gizatiarrak-izaten baitira. P-en barnean, errazago topikalizatzen dira gizatiarrak ez-gizatiarrak baino, definituak indefinituak baino, parte-hartzaile inplika-AnuArio del seminArio de filologíA vAscA "julio de urquijo" international journal of Basque linguistics and Philology ASJU liii (1/2), 2019 <ref type="bibr">[2021]</ref> AurkiBideA / summAry / índice Antón ugarte muñoz, luis michelena (koldo mitxelena) y la creación del seminario de filología vasca «julio <ref type="bibr">de urquijo» (1947-1956)</ref> / Luis Michelena <ref type="bibr">(Koldo Mitxelena)</ref> and the founding of the «Julio de Urquijo» Basque Philology <ref type="bibr">Seminar (1947</ref><ref type="bibr">Seminar ( -1956</ref> </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Atal honetan, bigarren bitxikeria hau saihesten saiatu naiz, sektore morfologiko horretan jatorrizkoa lA-a ez baizik eta irrealisa zela proposatuz. Horrek esan nahi du 1. eta 2. tauletako 2. fasean predikatu aktiboak nagusitzeko</title>
+	</analytic>
+	<monogr>
+		<title level="m">haren alboan aktiboagoa den lA bat aurkitzea (noiz P-, noiz A-marka duelarik hasierako hutsunean)</title>
+		<imprint/>
+	</monogr>
+	<note>bi baldintza bete behar zirela: a) predikatuaren A-a 1. edo 2. p., eta P-a 3. p. izatea</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">eta b) predikatuaren sektore morfologikoa 11. figurako egilezko goragunearen mailaren hierarkian ezkerrerago egotea (hots, irrealisa izatea)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">-t (~ -da-) A-markaz eta 2. p. sg.eko -k (~ -a-) A-markaz ari naiz. ondoko analisian, albo batera utziko dut, bigarrenkaria delakoan (ikus adib. oyharçabal 1991: 265), 2. p. sg.eko -n (~ -na-) A-marka femeninoa. ezer baino lehen, azpimarratu nahi nuke atal honetan aurkeztuko den hipotesia bereziki espekulatiboa dela, eta lanaren gainerako proposamenak ez daudela inondik ere atal honetan esandakoaren menpe. Hala ere, argi dago marka egilezko atzizkitu hauek ez direla izenordainak</title>
+		<ptr target="Pertsona-markaegilezkoatzizkituaktrask-ekproposaturikoberranalisiekjatorriizenordainezkokoakezdiren1.eta2.pertsonakoS/P/A-markabakarrenjatorriariereazalpenbateskainliezaiokete.1.p.sg.eko" />
+		<imprint/>
+	</monogr>
+	<note>ez direla aditz-erro zaharrak (edo ez du inork horrelakorik proposatu</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Zilegi da, beraz, orain arte proposatu den planteamenduaren ildotik lihoakeen azalpen-saio bat egitea. Printzipioz, bi marken alomorfoek honako berreraiketa gomendatzen dute: -da eta *-ga. Bada, 1. taulako garapenak aintzat hartzen baditugu, eta geure burua hartako 3. fasean kokatzen badugu, orduan hurrenez hurren</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Den Ezein Elementu Gramatikaletatik Eratorriak ; A Ni</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Peru</surname></persName>
+		</author>
+		<idno type="DOI">10.1387/asju.22416</idno>
+		<ptr target="https://doi.org/10.1387/asju.22416" />
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+		</imprint>
+	</monogr>
+	<note>] predikatuak oA-an adierazteko, ondoko 6. taulako ezkerreko zutabeko berreraiketak onartu beharko genituzke. taula bereko eskuineko zutabean, aldiz, forma historikoak jarriko ditut</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Honek inplikatzen zuen aditz-erro guztiek &quot;diathetical software&quot; berbera zutela, guztiek funtzionamendu morfo-sintaktiko berbera baitzuten, zein-nahi ere zen harturiko osagarria (ikus 3. figura). uneren batean, inperfektibo osoan eta jatorriz irrealistzat jo dudan sektore morfologikoaren zati batean, predikatu semantikoki iragankorrak oro pasiboki adieraziak izatera igaro ziren (ikus 1. eta 2. taulak). 8. atalean azaldu diren arrazoiengatik, honek osagarri egilezkoaren promozioa -edo agian topikalizazioa-eragin zuen, eta ondoren perpausaren berranalisi bat, elementu topikalizatu zeiharra aditzaren muinezko argumentu bihurtu zuena. Hartara, jatorriz argumentu bakarreko predikatuak argumentu biko predikatu bihurtu ziren. euskal gramatika tradizionalaren terminologian, nor sailetik nor-nork saila sortu zen, Atenea Zeus-en burutik bezala. ikusmolde honek euskararen aditz-morfologiaren zenbait arazo klasikori azalbide berri bat eskain diezaieke, hala nola ergatibitate hautsiari eta jatorri ez-izenordainezkoko A.markei (-da, *-ga). lehenari dagokionez, euskararen ergatibitate hautsiaren bitxitasuna tipologiaren printzipioekin bateratzen saiatu naiz, lA/irrealisaren sektore morfologikoan forma zaharrenak irrealisak direla argudiatuz, gerora -aditzaren trinkotzea gauzatu ondoren-haietatik -a/en atzizkidunak eratorri zirelarik. Haien aldetik, -da eta *-ga A-marken jatorria ulertzeko, giltza da ulertzea aditzaren trinkotzeak S-ren komunztadura sortu zuela, eta perpausaren berranalisi aktiboak S-batzuen Pgisako berrinterpretazioa, eta aldi berean perpaus iragankorretako A-en indexaketaren beharra. Honen guztiaren osagarri, 70eko hamarkadatik aurrerako ikerketa tipologikoan egin diren bi sailkapen tipologikoren barnean saiatu naiz euskara kokatzen. Bhat-en (1999) aldi-, aspektu-eta modu-goraguneko hizkuntzen arteko sailkapenean, a itzineuskara modu-goraguneko hizkuntza zela eta haren aditzaren bereizketa nagusia realis (inperfektibo) vs irrealis zela onartu dut. lehena [A serieko izenordain + da(r) + aditz. erro] eraikuntzen bidez adieraziko litzateke; bigarrena [B serieko izenordain + aditz. erro] eraikuntzen bidez</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amaitzeko</forename><surname>Aurreko Ataletan</surname></persName>
+		</author>
+		<ptr target="etabestebatproposaturikoberreraiketa-rekinbatletorke(1.eta2.pertsonakobiizenordain-serieizatea" />
+	</analytic>
+	<monogr>
+		<title level="m">euskararen morfologia ergatiboaren jatorria azaltzeko modurik bideragarriena &quot;hipotesi pasiboa&quot; dela defendatu dut, trask-ek (1977) ezarririko zentzu diakronikoan ulerturik. Horrez gain, trask-ek berak bere lan aitzindarian topatu zituen zenbait arazo konpontzen saiatu naiz</title>
+		<imprint/>
+	</monogr>
+	<note>izenordainezko ergatibitate hautsia. euskaran hau bakarrik irrealisean azaltzen den arren</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">subjektu-goraguneko eta topiko-goraguneko hizkuntzen arteko sailkapenean, aitzin-euskara topiko-goraguneko hizkuntza zela onartu dut. Hizkuntza hauetan, edozein iS izan daiteke topikoa bere rol semantikoa adierazten duen pertsona-marka bat aditzean indexatu gabe. Horregatik hain zuzen, hizkuntza hauetako aditz-erroak maiz lexikoki zehazgabeak dira diatesirako. Zehazgabetasun hau bat dator berreraiki den aitzin-euskararekin, baina gainera topiko-iruzkin &gt; subjektu-predikatu garapenak azal lezake nola gertatu zen hasieran osagarri egilezkoaren topikalizazioa, bai eta nola uztartu ziren behinolako izenordain askeak, pertsona-marka aurrizkitu bihurtzeko. 1. euskararen aditz jokatu iragankorrak predikatu pasiboetatik datoz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bestalde</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+	<note>berranalisi aktibo baten bidez (hau trask-ek 1977 jada postulatu zuen</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Aitzin-euskararen aditz-erroak diatetikoki zehazgabeak ziren</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">osagarri egilezkoaren topikalizazioak eta perpaus iragankorren berranalisi aktiboak eragin zituzten: a) iS-en lerrokadura morfologiko ergatiboa; eta b) AVo &gt; AoV aldaketa</title>
+		<imprint/>
+	</monogr>
+	<note>hau trask-ek 1997: 247 jada postulatu zuen</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">uste dut tesi hauen alde aurkeztu diren argudioak aintzat hartzekoak direla. iradoki diren gainerako berreraiketak (-t eta -k atzizki egilezkoena batik bat) askoz espekulatiboagoak direla onartu beharra dago, eta ez nituzke maila berean kokatuko, baina hala ere esango nuke banaka eztabaida daitezkeela, ergatibitatearen eta aditzmorfologiaren inguruko debatea susper eta aberats dezaketelarik</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Split ergativity in Basque. the pre-Basque antipassive-imperfective hypothesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Aldai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Folia Linguistica Historica</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="31" to="98" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">is Basque morphologically ergative? Western Basque vs. eastern Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Aldai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Studies in Language</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="783" to="831" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Finite verbal morphology. in mikel martínez-Areta (arg.), Basque and Proto-Basque. Language-internal and typological approaches to linguistic reconstruction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Borja</forename><surname>Ariztimuño</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<publisher>Peter lang</publisher>
+			<biblScope unit="page" from="359" to="427" />
+			<pubPlace>Frankfurt am main</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">euskal aditz jokatuaren osaeraz eta jatorriaz zenbait ohar. in ricardo gómez, Joaquín gorrochategui, Joseba A. lakarra &amp; céline mounole (arg</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Borja</forename><surname>Ariztimuño</surname></persName>
+		</author>
+		<ptr target="gasteiz:uPV/eHukoArgitalpenZerbitzua" />
+	</analytic>
+	<monogr>
+		<title level="m">Koldo Mitxelenaren III. Biltzarra</title>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="41" to="60" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">the order of affixes in the Basque synthetic verb</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Bakker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="63" to="87" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">The prominence of tense, aspect and mood</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">N</forename><surname>Bhat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Shankara</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<publisher>John Benjamins</publisher>
+			<pubPlace>Amsterdam &amp; Philadelphia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">N</forename><surname>Bhat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Shankara</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>oxford university Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="report_type">Pronouns. oxford</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Pronominal attrition, clitic doubling and typological change. Folia Linguistica Historica 13</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Theodora</forename><surname>Bynon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="27" to="63" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Aspect and voice: some reflections on perfect and passive</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Carlson</surname></persName>
+		</author>
+		<ptr target="https://www.euskaltzaindia.eus/oeh(2020/07/12" />
+	</analytic>
+	<monogr>
+		<title level="m">euskaltzaindia. 1987. euskal gramatika. Lehen urratsak II. Bilbo: euskaltzaindia. euskaltzaindia</title>
+		<editor>Supyire. Berlin: mouton de gruyter. comrie, Bernard</editor>
+		<meeting><address><addrLine>new york, londres, toronto, Sydney &amp; San Francisco; corbett, greville g. 2006. agreement. cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>cambridge university Press</publisher>
+			<date type="published" when="1981" />
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="65" to="78" />
+		</imprint>
+	</monogr>
+	<note>Philip Fedeschi &amp; Annie Zaenen (arg.), Syntax and semantics</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.22416</idno>
+		<ptr target="https://doi.org/10.1387/asju.22416" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">gómez, ricardo &amp; Sainz, Koldo. 1995. on the origin of the finite forms of the Basque verb</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><surname>Fuβ</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The rise of agreement. Amsterdam &amp; Philadelphia: John Benjamins. givón, talmy. 1976. topic, pronoun and grammatical agreement</title>
+		<editor>José ignacio Hualde, Joseba A. lakarra &amp; robert l. trask</editor>
+		<meeting><address><addrLine>San Francisco &amp; londres; Amsterdam &amp; Philadelphia</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Benjamins</publisher>
+			<date type="published" when="2005" />
+			<biblScope unit="page" from="235" to="274" />
+		</imprint>
+	</monogr>
+	<note>Towards a history of the Basque language</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">remarks on Basque verbal morphology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><surname>Heath</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">anglo-american contributions to Basque studies: essays in honor of Jon Bilbao</title>
+		<editor>William A. douglass &amp; richard W. etulain</editor>
+		<imprint>
+			<date type="published" when="1977" />
+			<biblScope unit="page" from="193" to="201" />
+		</imprint>
+		<respStmt>
+			<orgName>reno: university of nevada</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">chambers chinese grammar. edinburgh: chambers. lafon, rené</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hsu Mcwilliam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Le système du verbe basque au xvie siècle. Bordele: delmas (Berrargit. faksim. Baiona &amp; donostia: elkar</title>
+		<imprint>
+			<date type="published" when="1943" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Ikerketa eta edizioa. Bilbo: eus kaltzain dia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note>refranes y sentencias (1596)</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Prolegómenos a la reconstrucción de segundo grado y al análisis del cambio tipológico en (proto)vasco. Palaeohispanica 5</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="page" from="407" to="470" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">notas sobre iniciales, cambio tipológico y prehistoria del verbo vasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Joseba A. lakarra &amp; José ignacio Hualde (arg.), r. L. Trasken oroitzapenetan ikerketak euskalaritzaz eta hizkuntzalaritza historikoak (= aSJU 40</title>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="561" to="621" />
+		</imprint>
+	</monogr>
+	<note>donostia &amp; Bilbo: gipuzkoako Foru Aldundia &amp; uPV/eHuko Argitalpen Zerbitzua</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Aitzineuskararen gramatikarantz (malkar eta osinetan zehar). in Xabier Artiagoitia &amp; Joseba A. lakarra (arg.), Gramatika jaietan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<ptr target="Bilbo:uPV/eHukoArgitalpenZerbi-tzua" />
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="451" to="490" />
+		</imprint>
+	</monogr>
+	<note>Patxi Goenagaren omenez (aSJUren Gehigarriak 51</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Subject and topic: a new typology of language</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><forename type="middle">N</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sandra</forename><forename type="middle">A</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Subject and topic</title>
+		<meeting><address><addrLine>new york, San Francisco &amp; londres</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1976" />
+			<biblScope unit="page" from="457" to="489" />
+		</imprint>
+	</monogr>
+	<note>in charles n. li (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Voice in chinese. A systematic functional perspective</title>
+	</analytic>
+	<monogr>
+		<title level="j">Function of Language</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="181" to="203" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">ergatibitate hautsiaz. Zergatik ote da orainaldia iraganaldi/ irrealisa baino ergatiboa? in ricardo gómez</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Martínez Areta</surname></persName>
+		</author>
+		<ptr target="gasteiz:uPV/eHukoArgitalpenZerbitzua" />
+	</analytic>
+	<monogr>
+		<title level="m">Joaquín gorrochategui, Joseba A. lakarra &amp; céline mounole (arg.), Koldo Mitxelenaren III. Biltzarra</title>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="353" to="367" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">latin and romance influence on the Basque verbal morphosyntax (prestatzen)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Areta</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">is basic word order universal?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marianne</forename><surname>Mithun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Amsterdam &amp; Philadelphia: John Benjamins. mitxelena, Koldo. 1953. apellidos vascos. Zarautz: icharopena (Berrargit. donostia: txertoa</title>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="15" to="61" />
+		</imprint>
+	</monogr>
+	<note>Pragmatics of word order flexivility</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Fonética histórica vasca. donostia: gipuzkoako Foru Aldundia (2. argit. osatua, 1977. Berrargit. in aSJUren Gehigarriak 4, donostia: uPV/eHuko Argitalpen Zerbitzua &amp; gipuzkoako Foru Aldundia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1961" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Textos arcaicos vascos. minotauro (Berrargit. in aSJUren Gehigarriak 11, donostia: uPV/eHuko Argitalpen Zerbitzua &amp; gipuzkoako Foru Aldundia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1964" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">miKel mArtíneZ AretA ASJU</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="183" to="223" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<title level="m">lengua común y dialectos vascos (Berrargit. in Palabras y textos, Bilbo: uPV/eHuko Argitalpen Zerbitzua</title>
+		<imprint>
+			<date type="published" when="1981" />
+			<biblScope unit="page" from="35" to="55" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Sintaxi diakronikoa eta aditz multzoaren garapena: inperfektibozko perifrasiaren sorreraz. aSJU 51(1/2)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Céline</forename><surname>Mounole</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="585" to="603" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Le verbe basque ancien: étude philologique et diachronique (= aSJU 48). gasteiz: uPV/eHuko Argitalpen Zerbitzua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Céline</forename><surname>Mounole</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Bilbo: uPV/eHuko Argitalpen Zerbitzua. norman, Jerry. 1988. chinese. cambridge</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Céline</forename><surname>Mounole</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">datibo-komunztaduraz eta laguntzaile hirupertsonalen diakroniaz. in Beatriz Fernández &amp; Pello Salaburu (arg.), Ibon Sarasola, gorazarre</title>
+		<imprint>
+			<publisher>cambridge university Press</publisher>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="473" to="490" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">euskal aditzaz zenbait gogoeta. Fontes Linguae Vasconum 17</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Josu</forename><surname>Aranburu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1974" />
+			<biblScope unit="page" from="265" to="283" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Txipi</forename><surname>Ormaetxea</surname></persName>
+		</author>
+		<title level="m">Aramaio &amp; gasteiz: Aramaioko udala &amp; Arabako Foru Aldundia</title>
+		<imprint>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jon</forename><surname>Ortiz De Urbina</surname></persName>
+		</author>
+		<title level="m">Parameters in the grammar of Basque. dordrecht: Foris Publications</title>
+		<imprint>
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">La pastorale souletine. Édition critique de charlemagne (aSJUren Gehigarriak 16). donostia: uPV/eHuko Argitalpen Zerbitzua &amp; gipuzkoako Foru Aldundia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bernard</forename><surname>Oyharçabal</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Mood and modality. cambridge</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frank</forename><forename type="middle">R</forename><surname>Palmer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>cambridge university Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">nonidentifiable information and pragmatic order rules in &apos;o&apos;odham</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Payne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Amsterdam &amp; Philadelphia: John Benjamins. rijk, rudolf P. g. de</title>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="695" to="724" />
+		</imprint>
+	</monogr>
+	<note>Pragmatics of word order flexivility</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">noun morphology. in mikel martínez-Areta (arg.), Basque and Proto-Basque. Language-internal and typological approaches to linguistic reconstruction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ekaitz</forename><surname>Santazilia</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<publisher>Peter lang</publisher>
+			<biblScope unit="page" from="223" to="281" />
+			<pubPlace>Frankfurt am main</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">Baskische Studien i: Über die entstehung der Bezugsformen des Baskischen Zeitworts. Denkschriften der Kaiserlichen akademie der Wissenschaften. Philosofisch-Historische classe 42</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hugo</forename><surname>Schuchardt</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1893" />
+			<biblScope unit="page" from="1" to="82" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Hierarchy of features and ergativity. in robert m. dixon (arg</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Silverstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Grammatical categories in australian languages (Linguistic Series</title>
+		<imprint>
+			<date type="published" when="1976" />
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="112" to="171" />
+		</imprint>
+	</monogr>
+	<note>can berra: Australian institute of Aboriginal Studies</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sun</surname></persName>
+		</author>
+		<title level="m">chinese. a linguistic introduction. cambridge</title>
+		<imprint>
+			<publisher>cambridge university Press</publisher>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Hystorical syntax and Basque verbal morphology: two hypotheses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Trask</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">anglo-american contributions to Basque studies: essays in honor of Jon Bilbao</title>
+		<editor>William A. douglass &amp; richard W. etulain</editor>
+		<imprint>
+			<date type="published" when="1977" />
+			<biblScope unit="page" from="203" to="217" />
+		</imprint>
+		<respStmt>
+			<orgName>reno: university of nevada</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The history of Basque. londres: routledge. trask, robert l. 2002. ergativity and accusativity in Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Trask</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Frans Plank (arg.), ergativity. Towards a theory of grammatical relations</title>
+		<meeting><address><addrLine>londres, new york, toronto, Sydney &amp; San Francisco</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1979" />
+			<biblScope unit="page" from="265" to="284" />
+		</imprint>
+	</monogr>
+	<note>Amsterdam &amp; Philadelphia: John Benjamins</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.22416</idno>
+		<ptr target="https://doi.org/10.1387/asju.22416" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Para la historia del sustantivo verbal en vasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Blanca</forename><surname>Urgell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Joseba A. lakarra &amp; José ignacio Hualde (arg.), r. L. Trasken oroitzapenetan ikerketak euskalaritzaz eta hizkuntzalaritza historikoak (= aSJU 40</title>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="921" to="948" />
+		</imprint>
+	</monogr>
+	<note>donostia &amp; Bilbo: gipuzkoako Foru Aldundia &amp; uPV/eHuko Argitalpen Zerbitzua</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">Uribe Kosta, Txorierri eta Mungialdeko euskara. Bilbo: uPV/eHuko Argitalpen Zerbitzua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><forename type="middle">&amp;amp;</forename><surname>Zuazo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Goiti</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

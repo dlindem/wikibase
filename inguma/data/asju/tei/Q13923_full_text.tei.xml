@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">AnuArio del SeminArio de FilologíA VAScA «Julio de urquiJo» international Journal of Basque linguistics and Philology liii (1-2) Gipuzkoako osagarri pluraldun adizki tripertsonalen erroez 1 On the roots of Gipuzkoan tripersonal verbal forms with plural object olatz leturiaga Angoitia* universidad del País Vasco/euskal Herriko unibertsitatea (uPV/eHu)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019">2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">AnuArio del SeminArio de FilologíA VAScA «Julio de urquiJo» international Journal of Basque linguistics and Philology liii (1-2) Gipuzkoako osagarri pluraldun adizki tripertsonalen erroez 1 On the roots of Gipuzkoan tripersonal verbal forms with plural object olatz leturiaga Angoitia* universidad del País Vasco/euskal Herriko unibertsitatea (uPV/eHu)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="volume">53</biblScope>
+							<biblScope unit="issue">1-2</biblScope>
+							<biblScope unit="page" from="127" to="162"/>
+							<date type="published" when="2019">2019</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1387/asju</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:20+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>in this article, we examine the development of tripersonal verbal forms for a plural direct object in the Basque of gipuzkoa. the fact is that it is not always obvious whether a given form is based on the root of the reconstructed verb *eradun or on that of *nin. that being the case, our goal here is to try to determine whether some specific forms that are found in old texts from gipuzkoa (a few of which still survive in some local dialects) are based on one or the other of these two roots. to begin with, we examine diozka 's/he Vs them to him/her' (Standard Basque dizkio) and present arguments both for and against each of the two hypotheses: that this form historically belongs to *eradun and that it belongs to *nin. We argue that diozka and diezte 's/he Vs them to them' (St Bq dizkie) are more likely to be based on *nin (dio + -zka-&gt; dioz ka; die + -zte-&gt; diezte). then, we show that the same hypothesis can be extended to forms like dizko/dizka (St Bq dizkio) eta dizte/dizk(o)e (St Bq dizkie). thus, we propose that, after a contraction diozka &gt; dizka, the morphological structure of this form was reinterpreted and other forms of the same paradigm were created by analogy: diozka /d-i-o-zka-Ø/ &gt; dizka /d-i-z-ka-Ø/ and, then, by analogy, dizko (St Bq dizkio), with the same meaning, and also dizku 's/he Vs them to us' (St Bq dizkigu), ditzu 's/he Vs them to you' (St Bq dizkizu) diztan 'that s/he Vs them to 1 Artikulu hau nire master Amaierako lanaren zati bat da (Gipuzkoa erdialdeko testuetan barrena: aditz-morfologiako ezaugarri batzuen azterketa). eskerrak eman nahi dizkiot iñaki caminori master-tesiaren zuzendari moduan egindako ohar eta zuzenketengatik; baita mikel martinez-Areta eta urtzi reguerori ere, defentsa egunean egindako iruzkin eta oharrengatik. lan honek Monumenta Linguae Vasconum 5: periodización y cronología (mineco, FFi2016-76032-P) ikerketa-proiektuaren laguntza izan du.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Sarrera 2</head><p>Aurreko hainbat lanetan esan izan denez, euskara Arkaiko eta Zaharrean *eradun oinarria erabiltzen zen gipuzkoan osagarri pluraldun adizki tripertsonaletan; *nin erroa, aldiz, osagarri singularrarekin <ref type="bibr">(mounole &amp; gómez 2018; mounole &amp; lakarra 2018)</ref>. <ref type="bibr">3</ref> Haatik, beti ez da erraza jakiten adizki batzuen oinarrian zein erro dagoen: esate baterako, gipuzkoako testuetan ageri diren diozka 'dizkio' erakoak ziurtasunez esan al dezakegu *eradun oinarrikoak direla, eta ez *nin errokoak? eta dizka/dizko 'dizkio' erakoak? (cf. <ref type="bibr">Ariztimuño, apud lakarra 2011: 197)</ref>. esan behar da gipuzkoan bakarrik ez, lapurdin ere ageri direla testu zaharretan diozka 'dizkio' modukoak "hari" datiboarekin, adiera bereko diotza-rekin batera. Adibidez, Haraneder donibandarraren ebanjelioan (1740) diotça 'dizkio' &amp; c iozcan 'zizkion' daude (vs. beste pertsona datiboetako darotçuet 'dizuet <ref type="bibr">', darozquitçuetet 'dizkizuet', etab.; camino 2018: 106)</ref>; martin Harismendy arbonarrak ere diosquate 'dizkiote' (1767: 63) &amp; dioscan 'dizkion' (70) ditu (cf. elosegi 2018), eta 1757ko donibane lohizuneko idazki batean dijotza 'dizkio' ageri da (le dauphin: euskarazko gutunak (1757), apud lamikiz et alii 2015: 95-161).</p><p>lapurdiko -io-dun adizkiei dagokienez, *nin errokoak baizik ezin daitezke izan. izan ere, ipar euskal Herri eta nafarroan *eradun oinarriko adizkiek derau-, <ref type="bibr">drau-, darau-, daro-, derei-itxura dute (camino 2018: 103-110)</ref>, vs. gipuzkoako dirau-/zirau-. Hori horrela izanik, lapurdin *eradun oinarriko -erau-, -arau-&amp; -aro-ezin daitezke fonikoki -io-bihurtu, eta hortaz, lapurdiko diozka &amp; diotza ezin daitezke *eradun izan. gainera, badakigu adizki tripertsonaletan *nin &amp; *eradun banaketa osagarrian zeudela lapurdin, ekialdean bezala: *nin erroa erabiltzen zen "hari" datiboko adizkietan, eta *eradun, berriz, gainerako kasuetan <ref type="bibr">(camino &amp; mounole 2014; mounole 2015)</ref>. Alegia, *nin erroa erabiltzen zen -ioduten adizkietan. gipuzkoako testuetan ageri diren diozka 'dizkio' gisako adizkiak, aitzitik, *eradun oinarrikoak ere izan daitezke. izan ere, gipuzkoan, lapurdin ez bezala, *eradun 2 Aztertutako testuen laburdurak (gehienak eHHe-200tik, beste batzuk oeHtik edo moldatuta): Azkoitiko Sumario Brevea: <ref type="bibr">SumBrev (1614;</ref><ref type="bibr">cf. urkizu 2008</ref><ref type="bibr">-2009</ref>; otxoa Arinen dotrina: oArin (1713); lasarteko bertsoak: lasartBerts (1716; cf. <ref type="bibr" target="#b74">Satrustegi 1987)</ref>; lubietaren gramatika: lubieta (1728); larramendiren el imposible vencido gramatika: larmeiV (1729); larramendiren Azkoitiko sermoia: <ref type="bibr">AzkSerm (1737;</ref><ref type="bibr">cf. lakarra 1985)</ref>; Azpeitiko altzagatar familiaren gutunak: Azpgut (c. 1738; cf. madariaga, Azpiazu &amp; elortza 2009); irazustaren dotrina: iraz (1739); Kardaberatzen Kristabaren bizitza: Kardab (1744); Peñafloridaren Gabon Sariak: GabS (1762); Peñafloridaren el borracho burlado: BorrB (1764); J. Altzibarren Grand Tour antzerkia: GTour (1772; cf. Aldekoa 2007); larizen dotrina: lariz (1773); oikiako dotrina: oikiadot (1784; cf. lakarra 1987); ubillosen dotrina: ubill (1785); itziarko Andramariren omenezko bederatziurrena: itziar <ref type="bibr">(1790 [1768]</ref>); goierriko platika: goiPlat (xviii; cf. murugarren 1984); loiolako dotrina: loioladot (xviii; cf. Altuna 1995); Agirre Asteasukoa: AgirAst (1803); iztuetaren Gipuzkoako dantza gogoangarrien kondaira edo historia: izt (1824); Azpeititik erromara bidalitako eskaria: Azpesk (1840; cf. madariaga, Azpiazu &amp; elortza 2009); lardizabalen Testamentu Berri eta Zaharreko kondaira edo historia: lardiz (1855); etxagarai: etxag (xviii-xix; cf. <ref type="bibr" target="#b77">Zavala 1964)</ref>; otaegi Beizamakoa: otaegi <ref type="bibr">(xviii-xix; cf. otaegi 1993)</ref>. <ref type="bibr">3</ref> nahiz eta saio hau diakronia beteko berreraiketa lan bat ez izan, erosotasunagatik eta argitasuna lortzeko asmoz, *eradun &amp; *nin moduan izendatu ditugu adizki tripertsonaletako aditz laguntzaileen oinarri edo erroak (cf. lakarra 2018). &amp; *nin-en hautaketa ez zen datibo pertsonaren araberakoa, eta osagarri pluraldun "hari" datiboko adizkietan ere *eradun oinarria erabiltzen zen: dirautza 'dizkio <ref type="bibr">', zirauzkan 'zizkion', etab. (cf. oArin 1713)</ref>. Halaber, aipatu dugunez, dirau-/ziraugisa ageri dira *eradun oinarriko adizkiak gipuzkoan; honenbestez, itxuraz, -io-dun adizkiak *nin errotik hurbilago daudela dirudien arren (cf. singularreko dio), baliteke *eradun oinarriko -irau-&gt; -io-bihurtu izana ere, -irau-&gt; -iau-&gt; -iu-&gt; -io-gertatuta <ref type="bibr">(Ariztimuño, apud lakarra 2011: 197)</ref>. Hipotesi hori, gainera, dizka 'dizkio' erako adizkietara ere heda daiteke diozka &gt; dizka gertatu zatekeela pentsatuta (lakarra 2011).</p><p>gipuzkoako diozka &amp; dizka 'dizkio' erako adizkiak zein errotakoak diren aztertzeak gipuzkoako euskara hobeto ezagutzeko aukera ematen digu; are gehiago, erdialdeko euskal Herriko aditz laguntzaileen bilakaeraren eta historiaren ezagutzan aurreratzen ere lagundu gaitzake. izan ere, aipatutako adizkiok erro batekoak ala bestekoak direla frogatzeak gipuzkoako berrikuntza baten lehen agerpena erakutsiko liguke; galdera litzateke ea berrikuntza hori zein den: a) *eradun oinarriko adizkietan -i(ra)u-&gt; -io-gertatzea -eta ondoren, -io-&gt; -i-beharbada-; edo b) osagarri pluraldun adizki tripertsonaletan ere *nin erroa erabiltzen hastea. <ref type="bibr" target="#b19">4</ref> itxuraz, bi aukerak posible direnez, eztabaida hori argitzen saiatuko gara jarraian. lehendabizi, diozka 'dizkio' erako adizkiak izango ditugu hizpide, eta *eradun eta *nin hipotesien aldeko nahiz aurkako datuak aurkeztuko ditugu. ikusiko dugun moduan, badirudi *nin errokoak direla pentsatzeko hainbat arrazoi ditugula, nahiz eta gerora gertatutako analogiak tarteko, zaila den ziur jakitea noiz, non eta nola sortu ziren horrelako adizkiak. Jarraian, dizka/dizko 'dizkio', dizte/dizk(o)e 'dizkie' erako adizkietan jarriko dugu arreta, hipotesi bera adizki hauetara ere heda daitekeen edo ez ikusteko; oraingoz, behintzat, hipotesi egiantzekoa dirudi diozka &gt; dizka gertatu zela pentsatzea, eta, beharbada, dizka horren analogiaz sortu bide zirela dizko 'dizkio', ditzu 'dizkizu', dizku 'dizkigu' erakoak. ondoren, diozka 'dizkio' &amp; diezte 'dizkie' adizkien hedaduraz jardungo dugu; ohartu baikara xviii-xix. mendeetako autoreen testuetan nabarmen ugaritzen direla adizkiok. Horregatik, eta testuak zein diren ikusita, uste dugu balitekeela ugaltze hori literatur gipuzkeraren eraginari zor izana. Amaitzeko, ondorioak laburbildu eta erroaren eta erro bakoitzak hartzen zuen pluralgilearen araberako (balizko) kronologia bat eskainiko dugu, betiere, saio honetan proposatutako ildoei jarraituta. Haatik, xviii. mendearen bigarren erditik aurrera, ordura arte gipuzkoako testuetan ageri diren di(r)au-/zi(r)au-erako adizkiak itzalean geratu eta diozka (&amp; dizka/dizko) 'dizkio' gisakoak nagusitzen hasten dira. Aukera bat izan daiteke pentsatzea *eradun oinarrian -i(r)au-&gt; -iu-&gt; -io-bilakabidea gertatu zela <ref type="bibr">(Ariztimuño, apud lakarra 2011: 197)</ref>, eta hortaz, diozka gisako adizkiak ere *eradun oinarrikoak direla:</p><p>(1) d-io-Z-KA-Ø tam3-*eradun-nor3pl-nori3sg-nork3sg ildo beretik, hau da, *eradun oinarriko adizkietan bilakabide fonologikoak gertatu izan zitezkeela onartuta, espero izatekoa da forma zaharrak (-i(r)au-erakoak) urrituz joatea eta, pixkanaka, berriak (-io-erakoak) nagusitzea. urolaldeko Azkoitiko Sermoia (1737) testuan, adibidez, -i(r)au-duten adizki askorekin batera, -ioformako adizkiren bat dago: Orain bada oec cecusala beregan Virgiñac, ta zor ciozcala 'zizkiola' bere semeari (1737: 6). esan bezala, geroago diozka 'dizkio' gisakoak nagusitu zirela dirudi, xviii. mendearen bigarren erditik aurrera ez baitago di(r)au-/ zi(r)au-modukorik gipuzkoako testuetan: 6 5 larramendik hori dioen arren, urolaldeko testuetan ez dugu topatu di(r)auzkit 'dizkit' gisako [*eradun + -zki-] egituradun adizkirik, vs. gipuzkoako testuetako [*eradun + -(t)za-&amp; -z-]. Horri lotuta, gogoan izan behar da larramendi gramatikagilea dela, eta beraz, haren lanetan ageri diren adizkiak oso kontuz aztertu dira; batez ere, delako adizki bat hark bakarrik dakarrenean, dirauzkit kasu. <ref type="bibr" target="#b14">6</ref> testuetako adizkien adibideak erabili dugun bertsioan ageri den grafia berean eman dira; horregatik, grafia gaurkotuan daude adibide batzuk, baina beste batzuk, aldiz, ez.  <ref type="bibr">' (iraz 1739: 53; &amp; diozcatzu 'dizkiozu' 27)</ref>.</p><p>Aipatutako datuak aintzat hartuta, gipuzkoako testuetan bildutako adizkiak zerrendatu eta balizko jarraipen edo norabidea irudikatu dugu; hala, badirudi Ariztimuñok proposatutako hipotesiaren noranzkoa erakusten dutela testuetako zenbait adizkik. Adibidez: 9</p><formula xml:id="formula_0">(2) a. diuzkat &gt; diozkat 'dizkiot' b. diuzka &gt; diozka(n) &gt; dizka 'dizkio' c. diuztazu(la) &gt; diztazu(la) 'dizkidazu(la)'</formula><p>7 "Haiei" nahiz "hari" datiboa izan daiteke: Icusten cituan Jesusec lurreco gendeac, baita berac eguiten cituen ta besteai eraguiten ciozquen 'zizkieten' gauzac ere (otaegi xviii-xix: 374), vs. Naaman sorayo edo leprosoari bere morroiac esan ciozquen 'zizkioten' itz amoriotsuac esatearequin (otaegi xviii-xix: 381). 8 lehenaldiko ciozcaten adizkiak "haiei" datiboa dela dirudi: joco cituzten soñu anciña anciñaco chit particularrac […] guciac jostaqueta oni egoquidatcen zaiozcanac eta mendietan lenago abelgorri oei beren zainac sarritan jo oi ciozcatenac 'zizkietenak' (izt 1824: 5); aitzitik, orainaldiko diozcate adizkiak "hari" datiboa dirudi: Ghilibituari eraguiten diozcaten 'dizkioten' arrigarrizco gauza aundi aundi oriec dirade fusac, semi fusac, escala diatonicoac (izt 1824: 48), vs. otaegiren "haiei" datiboko diozcate eta "hari" datiboko ciozcaten: an condenatu bacoitzac bere burua ta besteac icusico ditu orrelaco pena genero gucietan betico. an deabruac burutic eta beguietatic sartuco diozcate 'dizkie' burni gorizco lanzac eta (xviii-xix: 390); ezarri zuen ['zuten', vs. zuan 'zuen'] gurutzearen ganean, iltze gogorraquin onac ta escuac josi ciozcaten 'zizkioten' <ref type="bibr">(xviii-xix: 312)</ref>. Beraz, diozcate/ciozcaten "hari" nahiz "haiei" izan zitezkeen. gainera, egiletik egilera ez ezik, egile beraren testuan ere adiera ezberdina dute: batzuetan, -ka-te-da morfemen banaketa "hari-haiek", eta beste batzuetan -kate osorik "haiei" datibo morfema da. <ref type="bibr">9</ref> Adizkien norabidea argiago ikus dadin, ez dugu erreferentziarik eman, baina adizki guztiak aztertutako gipuzkoako testuetan bildutakoak dira.</p><p>https://doi.org/10.1387/asju.22414</p><formula xml:id="formula_1">d. di(r)auztan &gt; diuzta(la) &gt; diztan 'dizkidan' e. di(r)autzut &gt; diutzudan 'dizkizut/dizkizudan' f. di(r)auzku(n) &gt; diuzku(n) &gt; dizku(n) 'dizkigu(n)' g. diuztezu(n) &gt; diztetzu(n) 'dizkiezu(n)' h. diaustegu(n) &gt; diuztegu(n) 'dizkiegu(n)'</formula><p>Adibide horiekin ikus daiteke, hain zuzen, *eradun oinarriak bilakabideak jasan zituela. gainera, autore berak forma zahar nahiz berriak ere erabiltzen ditu zenbaitetan: otxoa Arin (1713) dugu, esate baterako, horren adibide:</p><formula xml:id="formula_2">dirautzut (145) 'dizkizut' &amp; diu- tzudan (145) 'dizkizudan' biak ditu; baita -io-dun diozcan (156) 'dizkion' / ciozcan (19) 'zizkion' ere. irazustak (1739) ere diuzca (53) 'dizkio' &amp; diozcatzu (27) 'dizkiozu' ditu.</formula><p>Honenbestez, esan daiteke balitekeela *eradun oinarriko adizkietan -iu-&gt; -io-disimilazioa gertatu izana, diozka gisakoak diuzka gisakoetatik urrun ez daudela aintzat hartuta.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.2.">di(r)auzka &gt; diozka monoptongazioa</head><p>testuetan bildutako adizkien jarraipen edo norabidea irudikatu dugunean, adizkiak modu sistematikoan bildu ditugu, baina esan beharra dago gipuzkoako eskualde guztietan ez direla ageri adizki horiek guztiak. Hori dela eta, eskualde guztietan ez da hain garbi ikusten *eradun oinarriko adizkien bilakaera -i(r)au-&gt; -iu-&gt; -io-izan zitekeenik. gainera, forma zahar eta berriagotzat hartu ditugun horiek ez dira eskualde guztietan garai berean ageri; esate baterako, goierrin diutzudan (145) 'dizkizudan' dago 1713an (oArin), baina urolaldean 1737an oraindik diauzcu (2) 'dizkigu' edo diauztan (11) 'dizkidan' adizki luzeagoak ageri dira (AzkSerm); tolosaldean 1739an diuzca (53) 'dizkio' dakar irazustak, baina garai bertsuan dirauzanac (10) 'dizkionak' ageri da Azpeitiko altzagatarren gutunetan (c. 1738). Beterrin ere diuscu (8. lerroa) 'dizkigu' gisakoak 1716rako jada bazirela erakusten dute lasarteko bertsoek, urolaldean ez bezala: Are gehiago, eskualdez eskualde begiratuta, Beterrin, tolosaldean eta goierrin bai, baina urolaldean, adibidez, ez dugu -iu-dun adizkirik aurkitu; -i(r)au-edo -ioerakoak ageri dira bertan, baina ez bi forma horien tarteko -iu-. Jarraian ageri den taulan bildu ditugu urolaldeko testuetan aurkitu ditugun eta *eradun oinarrikoak diren edo izan daitezkeen zenbait adizki: 10 3. taula *eradun oinarrikoak izan daitezkeen adizkiak urolaldeko testuetan <ref type="bibr">SumBrev (1614)</ref> dirauze <ref type="formula" target="#formula_15">(17)</ref> AzkSerm <ref type="formula" target="#formula_15">(1737)</ref> diauzcu <ref type="formula" target="#formula_15">(2)</ref>, diauztan (11), diauzten (11), ciauzcan (13) ciozcala <ref type="formula" target="#formula_15">(6)</ref> Azpgut <ref type="formula" target="#formula_15">(</ref> errealitate hori aintzat hartuta, eta -io-dun adizkiak *eradun oinarrikoak direla pentsatuta, beharbada, baliteke urolaldean -iu-&gt; -io-disimilazioaren ordez, -iau-&gt; -io-monoptongazioa gertatu izana. gainera, kontuan hartu behar da beste eskualdeetan ere -iu-dun adizkiak ez direla testu askotan ageri, eta agerraldi gehienak autore berarenak direla; irazusta alkizarrarenak, hain zuzen. lekukotasun horretatik kanpo, -iu-dun adizkiak gutxi batzuk dira gipuzkoako testuetan (cf. oArin diutzudan eta lasartBerts diuscu). egia da lekukotasun gutxi horiek adierazgarri diruditela, ordizia eta lasarte elkarrengandik gertu ez egonagatik, oria ibaiaren arroan baitaude bi herriak; aitzitik, esan bezala, mendiz bestaldeko urola eskualdean ez dira ageri. <ref type="bibr">11</ref> nolanahi ere, adizki batzuk urolan ez ezik, beste eskualdeetan ere ez dira aurkitu: esate baterako, "hari" datiboko dirauzkagu 'dizkiogu', dirauzkazu 'dizkiozu' eta 10 Zerrendan ez dira sartu urolaldeko GabS (1762), BorrB (1764) eta GTour (1772) testuak, horietan dizka/dizko 'dizkio' gisakoak ageri direlako; § 3n jardungo dugu adizki horiez. 11 Adibideren bat aurkitu da itziarko Andramariaren omenezko liburuan: cerren zere Seme Jaunac comunicatu ziutzun 'zizkizun' gracia andi oec, eta cerren misterio onetan eracutsi ziñuzcun 'zenizkigun' (&lt; *ziniuzkun) virtute andiac <ref type="bibr">(1790 [1768]</ref>: 22). dena dela, agerraldi bakar horiekin ezin dezakegu ziurtasunez esan urolaldean ere honelakoak erabiltzen zirela; izan ere, Zuloagak honako hau dio testu horretan bertan a + a &gt; ea erregela ez dela betetzen dioenean: "Aldazabalen 1768ko liburuan zein Ama Birjinaren omenezko bertso eta kantetan (itziarBerts, itziarKant) ez da erregela betetzen, dirudienez testu batzuk eta bestetzuk erdialderagoko (Beterriko) euskarara begira idatzi zirelako, ez itziarren/deban erregelarik ez zelako" (2019: 227). Agian, arrazoi bera egon daiteke gure gaiari dagokionez ere; aipatu dugunez, -iu-erako adizkiak oria ibaiaren arroan aurkitu baititugu, besteak beste, Beterri aldeko lasarteko Bertsoetan (1716).</p><p>https://doi.org/10.1387/asju.22414 zirauzkan 'zizkion' adizkiei dagokienez, ez ditugu *diuzkagu, *diuzkazu eta *ziuzkan formak topatu, ezta -iu-dun adizkiak badiren inguruan ere. Bai, ordea, diozkagu 'dizkiogu', diozkazu 'dizkiozu' (-iu-ugarien duen irazustak (1739) ere diozcatzu) eta ziozkan 'zizkion'. delako adizkiok testuetan ez aurkitzeak, noski, beti ez du frogatzen horrelakorik ez zegoela; baina euskal Klasikoen corpusean (euskara institutua 2013; hemendik aurrera eKc) bilaketa eginda ere ez dago (ia) agerraldirik. Salbuespen bakarra da ziuzkan 'zizkion' adizkiaren xx. mendeko agerraldi bat, Pierre lhanderena: zan bezelakoaz beste bat izango balitz, laixter Flamendarraren gogoeta tzarrak Yolandaren aitari salatuko ziuzkan. Honekin esan nahi duguna da ditugun datuekin, behintzat, ezin daitekeela ziurtatu *eradun oinarriko -i(r)au-guztiak -iu-bilakatu zirela, eta ondoren -io-, nahiz eta adizki batzuetan bilakabide hori egon zitekeela dirudien.</p><p>Hori horrela izanik, behartu samarra izan daiteke adizki batzuetan</p><formula xml:id="formula_3">-iu-&gt; -io-di- similazioa (-iau-&gt; -iu-sinkopa bitarte; cf. diuzkat &gt; diozkat; diuzka &gt; diozka), eta beste adizki batzuetan, aldiz, -iau-&gt; -io-monoptongazioa (cf. ziauzkan &gt; ziozkala)</formula><p>gertatu zela defendatzea. izan ere, ikertzaileak datuetatik teoriara eraiki behar du hipotesia, eta ez eraiki duen teoriara datuak ad hoc egokitzen eta interpretatzen saiatu, datuok komeni zaizkion erara interpretatuz. Horregatik, beste aukera bat izan daiteke pentsatzea -iu-dun adizkiak direla *eradun oinarriaren azken hondarrak, eta -ioerako adizkiak, aldiz, gipuzkoan osagarri pluraldun adizki tripertsonaletan *nin erroa erabiltzen hasi zen garaiko lehen agerraldiak.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Bigarren hipotesia: *nin erroko adizkiak izatea</head><p>2.2.1. dio → diozka gipuzkoako testu zenbaitek nor-nori-nork sailean osagarri singularrarekin dio eta pluralarekin diozka 'dizkio' formak dituzte. Hala, beste aukera bat izan daiteke pentsatzea -z-pluralgilea eta -ka-"hari" datibo morfema, biak batera, pluralgile oso gisa interpretatu zirela: dio → diozka (dio + -zka-):</p><formula xml:id="formula_4">(3) d-i-o-ZKA-Ø tam3-*nin-nori3sg-nor3pl-nork3sg</formula><p>lehenago esan bezala, hipotesi hau onartzeak esan nahiko luke xviii. menderako gipuzkoan nor-nori-nork saileko osagarri pluraldun adizkietan *nin erroa ere erabiltzen zela (ante quem oArin 1713). Aukera hau ziurtatzeko edo baztertzeko asmoz, testuek eskaintzen dizkiguten datuak aztertuko ditugu jarraian.</p><p>Alde batetik, osagarri pluraldun adizkiei erreparatuta, badirudi -io-3. pertsona datiboarekin bakarrik ageri dela; batez ere, "hari" singular datiboarekin, baina otaegi Beizamakoak (xviii-xix) "haiei" datiboko diozte 'dizkie' eta ciozten 'zizkien' adizkiak ere badakartza (cf. gipuzkoako hizkera askotako dio(t)e 'die'):</p><p>(4) a. au bera eguiten du demonio animen lapurrac, cenec animac ostu ta infernura eramateagatic ichitzen diozten aoac pecatuac confesatu ez ditzaten (otaegi xviii-xix: 283) b. Orobat David erreguec barcatu ciozten bidebagueac Sauli, absalon bere semeari ta Semei gaiztoari (otaegi xviii-xix: 337) Bada, -io-erako adizkiak *eradun oinarriak izandako aldaketa fonologikoen ondorio balira, berrikuntza 3. pertsona datibodun adizkietan ez ezik, 1. eta 2. pertsona datibodunetan ere gertatzea esperoko genuke; are gehiago, diozka gisako adizkiek testu idatzietan duten hedadura aintzat hartuta. ez dago, ordea, *dioztan</p><formula xml:id="formula_5">'dizkidan', *diozku 'dizkigu', *diotzu 'dizkizu' eta *diotzue 'dizkizue' gisako adizki- rik (vs. di(r)auztan &amp; diztan, dirauzku &amp; dizku, etab.</formula><p>). dena dela, kontuan hartu behar da berrikuntzak 3. pertsonan gertatu ohi direla eta, aitzitik, 1. eta 2. pertsonek ezaugarri zaharrei eutsi ohi dietela. 12 Alde horretatik, baliteke -iu-&gt; -io-disimilazioa edo -i(r)au-&gt; -io-monoptongazioa 3. pertsona datiboan gertatu, eta berrikuntza bertan amaitzea, beste datibo pertsonetara hedatu gabe.</p><p>Alabaina, arrazoi gehiago ere badaude diozka gisakoak *nin errokoak izan daitezkeela pentsatzeko. izan ere, testuetan aurkitutako adizkien balizko jarraipen edo norabidea proposatu dugunean, aipatu dugu -io-erako adizkien ondoan adiera bereko -i(r)au-edo -iu-formadun aldaerak ere aurkitu ditugula, eta hortaz, *eradun oinarritik eratorriak izan daitezkeela -dela asimilazioz edo dela monoptongazioz-. Hain zuzen, -iu-erako aldaerarik ez duten adizkien kasuan, monoptongazioa gertatu ahal izan zela proposatu dugu. Haatik, esan beharra dago proposamen horrek ere ez dituela *eradun-en aldeko hipotesiak izan ditzakeen ahulguneak guztiz konpontzen; adizki batzuetan -iu-erako adizkiak ez ezik, ustezko jatorrizko -i(r)au-dun adizkiak ere falta baitzaizkigu. Besteak beste, honako adizki hauetan:</p><formula xml:id="formula_6">(5) a. diozka 'dizkio' &lt; diuzka (irazustarena agerraldi bakarra) &lt; *dirauzka 13 b. diozke &amp; diozkate 14 'dizkiote' &lt; *diuzk(a)e &amp; *diuzkate &lt; *dirauzk(a)e &amp; *dirauzkate c.</formula><p>ziozken 15 &amp; ziozkaten 16 'zizkioten' &lt; *ziuzk(a)en &amp; *ziuzkaten &lt; *zirauzk(a)en &amp; *zirauzkaten d. ziozten (&amp; ziezten) 'zizkien' &lt; *ziuzten &lt; *zirauzten egia da 'dizkiote', 'zizkioten' eta 'zizkien' adizkiei dagokienez, ez dugula adiera horretako adizkiren bat eskatzen duen testuingururik topatu xviii. mendearen bigarren erdia baino lehenagoko testuetan; hots, *eradun oinarriak irauten zuela dakigun garaian. <ref type="bibr">17</ref> Beraz, ezin dezakegu ziurtatu aztertutako testuetan aurkitu ez izanagatik adizki 12 reguerok (2019) honako hau dio *nin erroa erdiguneko berrikuntzatzat hartzeko arrazoiak ematen dituenean: "ez dago arazorik pentsatzeko hirugarren pertsona dela berritu dena; izan ere, hizkuntza askotan hirugarren pertsonak aldaketak jasaten ditu; aitzitik, lehen eta bigarren pertsonan ez da aldaketarik egoten" (mańczak 1957: 301-312, apud reguero 2019: 446). <ref type="bibr">13</ref>  horiek bazeuden, edo benetan ez ziren existitzen. esate baterako, "hark-haiei-haiek" testuinguruan -tza-pluralgiledun dirautze 'dizkie' adizkiarekin batera, -z-pluralgiledun diaustela 'dizkiela' ere jaso dugu orainaldian; baina iraganeko *zirauzten 'zizkien' adizkia ez dugu topatu, adizki hori eskatuko lukeen testuingururik aurkitu ez dugulako.</p><p>Aldiz, "hark-hari-haiek" testuinguruan, adibidez, iraganeko zirauzkan 'zizkion' bildu dugu, baina orainaldian, berriz, -tza-pluralgiledun dirautza 'dizkio', eta ez *dirauzka; era berean, -tza pluralgiledun *zirautzan erakorik ere ez dago iraganaldian, zirauzkan baizik (cf. oArin 1713). Honenbestez, azken adibide honek erakus dezake orainaldiko eta iraganaldiko adizkien artean aldeak egon daitezkeela, eta bata izateak ez duela bestea izatea ziurtatzen. Hortaz, momentuz, esan daitekeena da adizki batzuetan -i(ra)u-erako jatorrizko aldaera zaharrak falta zaizkigula -io-dun adizkiak *eradun oinarrikoak direla ziurtasunez frogatu ahal izateko.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2.">die → diezte</head><p>orain arte esandakoaz gain, *nin erroaren hipotesiaren alde egitera garamatza beste datu batek ere. izan ere, -io-3. pertsona datiboarekin ageri dela esan badugu ere -nagusiki "hari" datiboarekin, baina diozten/ziozten adizkiek 'dizkien/zizkien' adiera ere izan dezakete-, "haiei" datiboko adizki batzuetan -ie-ere badago: dieztegun 'dizkiegun' (oikiadot 1784: </p><formula xml:id="formula_7">3; &amp; dizten 'dizkien'), dieztetzu 'dizkiezu' (otaegi xviii-xix: 315; &amp; diztetzun); diezte 'dizkie' (otaegi</formula><formula xml:id="formula_8">i(r)au-k beharbada -io- eman bailezake, baina ez -io-(diozka 'dizkio') &amp; -ie-(diezte 'dizkie') aldi berean. Ba- liteke di(r)auzten &gt; diuzte (&gt; diozte) 'dizkie(n)' adizkitik abiatu eta, ondoren, "haiei" datiboko -te-morfemak eraginda, diuzte (&gt; diozte) &gt; diezte asimilazioa gertatu izana.</formula><p>Baina horrek, berriz ere, *eradun oinarriko teoriara datuak ad hoc egokitu eta interpretatu izanaren kutsua hartzen du. dena dela, azken hipotesi hau litekeena den ala ez jakiteko, gipuzkoako testuetan *eradun oinarrikoak diren "haiei" datiboko adizkiak bilatu ditugu:</p><formula xml:id="formula_9">-tza-plu- ralgiledun dirauze 'dizkie' adizkiarekin batera (&lt; *dirau(t)zae; SumBrev 1614: 17. agindua), -z-pluralgiledun diaustela (38) 'dizkiela' &amp; diaustegun (16) 'dizkiegun'</formula><p>adizkien agerraldi bana aurkitu dugu loiolako dotrinan (xviii); 18 diuztegun <ref type="formula" target="#formula_15">(6)</ref> ten naibagueric andienac (1737: 11). Aldiz, urolaldeko loioladot (xviii: 38)-n aurkitu dugun diaustela adizkiak 'dizkiela' adiera du. Bada, sermoiaz gain, urolaldeko testuetan 'dizkioten' adizkiaren beste agerraldirik topatu ez dugunez, eta Azkoitiko Sermoia larramendi andoaindarrak idatzitako testua dela aintzat hartuta, ez dugu uste urolaldean diauzten adizkiak 'dizkioten' adiera (ere) izan zezakeela ziur esan dezakegunik. izan ere, diauzten adizkiak 'dizkioten' adiera izateko -te 3. pertsona plural ergatiboko morfematzat hartu beharko genuke, eta ez "haiei" datibo morfematzat, diaustela 'dizkiela' adizkian bezala -cf. urolaldeko "haiek" ergatiboko -e morfema eta "haiei" datiboko -te-(&amp; -k(o)e-)-. <ref type="bibr">18</ref> Azkoitiko Sermoian (1737) ere ageri da diauzten, baina, 17. oin-oharrean esan bezala, "hari" datiboko 'dizkioten' dirudi. 'dizkiegun' eta diuztezun (61-62) 'dizkiezun', berriz, irazustaren testuan (1739). esan beharra dago, ordea, berriz ere irazustarenak direla -iu-erako adizkien agerraldi bakarrak, eKcn bilaketa eginda ere ez baita emaitzarik jaso. lehenago esan bezala, iraganeko ziozten &amp; ziezten 'zizkien' adizkiak *eradun-etik azaldu ahal izateko behar dugun *zirauzten ez dugu topatu, ezta *ziuzten ere gipuzkoan, ez testuetan eta ez eKcn. <ref type="bibr">19</ref> Hortaz, "hari" nahiz "haiei" datibodun adizkiak aintzat hartuta, honako datu hauek ditugu:   nor-nori-nork saileko diozka-ren kasuan *eradun edo *nin errokoa den erabakitzea zalantzagarria izan badaiteke ere, nor-noriko zaiozka argi dago izan erroa baino ezin dela izan, eta hortaz, badirudi zaio &gt; zaiozka 'zaizkio' &amp; zaie &gt; zaiezte 'zaizkie' bezalako bilakabideren bat egon zela adizki horietan. gainera, gipuzkoako testu idatzietan -zka-xviii. mendearen bigarren erditik aurrera ugaritzen bada ere, badirudi xviii. mende hasierarako jada bazegoela; horren lekuko da otxoa Arinen dotrina (1713): nor-nori-norkeko diozcan/ciozcan adizkiekin batera, nor-noriko zayo dauka nor singularrarekin, eta zaiozca nor pluralarekin (&amp; zaizca/citzaizcan, zaizco/citzaizcon 'zaizkio/zitzaizkion'); cf. P. <ref type="bibr">Altuna (1992: 578)</ref>, <ref type="bibr">Aranburu et alii (1999: 99)</ref>.</p><formula xml:id="formula_10">4. taula gipuzkoako testuetan bildutako -io-&amp; -ie-dun</formula><formula xml:id="formula_11">diozte &amp; diezte 'dizkie' diaustela (&amp; dirauze) ziozten &amp; ziezten 'zizkien' *zirauzten diozka 'dizkio' *dirauzka (diuzka iraz-en agerraldi bat) diozke &amp; diozkate 'dizkiote' *dirauzk(a)e &amp; *</formula><formula xml:id="formula_12">-i-eta "hari" datiboko -o-(d-i-o-Ø) eta "haiei" datiboko -e-morfemak (d-i-e-Ø), hain zuzen (vs. *eradun oinarriko d-io-z-ka-Ø). era berean, diozka &amp; diezte adizkietako -zka-eta -zte-[pluralgile + datibo morfema] egituraz osatutako pluralgiletzat hartuko genituzke; "hari" datiboarekin -z-ka-&gt; -zka- interpretatuta, eta "haiei" datiboarekin -z-te-&gt; -zte-: (6) a. d-i-o-ZKA-Ø tam3-*nin-nori3sg-nor3pl-nork3sg b. d-i-e-Zte-Ø tam3-*nin-nori3pl-nor3pl-</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Datibodun adizkietako analogiak</head><p>orain arte esandakoa aintzat hartuta, esan daiteke *nin hipotesiaren alde egiteko hainbat arrazoi daudela. ikusi dugu, gainera, hipotesi horretan proposatutako -zkaeta -zte-pluralgileak datibodun adizkietan ageri direla; nola nor-nori-norken, hala  <ref type="formula" target="#formula_15">(212)</ref>; lapurtera (7) gipuzkoako lekukotasunen artean: oArin, larmeiV, iraz, Kardab, AgirAst, ubill, izt zaiozka 'zaizkio' (67 agerraldi): xviii-1 xviii-2 xix-1 xix-2 xx-1 1 0 22 42 2 gipuzkera (61); lapurtera (6) gipuzkoako lekukotasunen artean: oArin, izt, lardiz datu horien arabera, badirudi zaizka zaharragoa dela zaiozka baino; adibidez, lapurdin leizarragak jada badarabil zaizka xvi. menderako. guk aztertutako testuetan ere joera bera ikusi dugu: zaizka otxoa Arinek (1713) jada badauka, baita irazustak (1739) ere -ordiziarrak zaiozka-rekin batera-. Aldiz, geroagoko larizek (1773) eta lardizabalek (1855) zaiozka luzeagoa dakarte; hortaz, itxuraz, badirudi zaiozka &gt; zaizka bilakabidea ez dela egiantzekoa, eta zaizka baino geroago sortua eta hedatua dela zaiozka. Bada, nor-nori-nork saileko adizkiak ugariago direla aintzat hartuta, beharbada, pentsa daiteke diozka 'dizkio'-ren analogiaz sortu zela zaiozka 'zaizkio'.</p><p>Are gehiago, bi sailetan, itxura denez, "hari" datibodun adizkiak gehiago dira "haiei" datibodunak baino. Hala, baliteke [pluralgile + datibo morfema] egitura pluralgile osotzat hartzea "hari" datibodun adizkietan gertatu izana lehendabizi (-z-ka-&gt; -zka-); eta ondoren, "haiei" datiboko diezte 'dizkie' &amp; zaiezte 'zaizkie' adizkietara hedatzea egitura bera, analogiaz (-z-te-&gt; -zte-). gainera, datuetan ikus daiteke, batik bat, gipuzkoan ageri direla -zka-&amp; -zte-dun adizkiok.</p><p>Honenbestez, esan bezala, nor-nori adizkietako analogiak -zka-pluralgilea egon bazegoela erakusten du, eta beraz, balitekeela dio → diozka 'dizkio' bilakabidea gertatu izana -are gehiago, *eradun oinarriko hipotesiaren alde egiteko -i(r)au-nahiz -iu-erako adizkiak falta zaizkigula aintzat hartuta-. Hortaz, zergatik ez pentsatu gipuzkoan osagarri pluraldun adizki tripertsonaletara *nin erroa iritsi eta *eradun ordezkatu berritan, -zka-pluralgilea izan zela erro berriak adizki  <ref type="bibr" target="#b33">(Bähr 1926</ref><ref type="bibr" target="#b36">(Bähr , 1931</ref><ref type="bibr" target="#b37">(Bähr , 1934</ref> "hari" datiboa:  <ref type="bibr">(1926)</ref><ref type="bibr">(1927)</ref><ref type="bibr">(1928)</ref><ref type="bibr">(1929)</ref><ref type="bibr">(1930)</ref><ref type="bibr">(1931)</ref><ref type="bibr">(1932)</ref><ref type="bibr">(1933)</ref><ref type="bibr">(1934)</ref><ref type="bibr">(1935)</ref> bildutako datuen arabera, "haiek-hari" 'diote &amp; dizkiote' eta "haiek-haiei" 'diete &amp; dizkiete' adierak ere izan ditzakete Pasaia nahiz oiartzunen. Aztergai dago gipuzkoako hizkera askotan dagoen -o(t)e-"haiei" datibo morfema ("hari" datiboko -o-+ "haiei" datiboko -(t)e-z osatua) noiz, nola eta non sortu den.</p><formula xml:id="formula_13">diozkat [dizkat ere bai oiartzunen] 'dizkiot', diozkak/diozkan 'dizkiok/dizkion', diozka 'dizkio', diozkagu 'dizkiogu', diozkazu 'dizkiozu', diozkatzute 'dizkiozue',</formula><p>https://doi.org/10.1387/asju.22414 oiartzungo lehengo eta oraingo adizkiak alderatzeak erakuts dezake, hain zuzen, dizka 'dizkio' gisako adizkien jatorria diozka gisakoetan egon daitekeela, eta § 2.2n aipatu dugu azken horiek *nin errokoak diruditela. izan ere, gogora dezagun *eradun oinarriko adizkiei dagokienez, testuetan iraganeko zirauzkan 'zizkion' aurkitu dela "hari" datiboarekin, baina ez orainaldiko *dirauzka 'dizkio', -tza-pluralgiledun dirautza baizik; cf. oArin (1713). Aztertutako testuetan bakarrik ez, eKcn bilaketa eginda ere ez dago *dirauzka bezalakorik -eta hortaz, ez dirudi diozka-ren jatorria adizki horretan zegokeenik-. egia da irazustak (1739) *eradun oinarriko diuzca (53) 'dizkio' daukala; baina ez dirudi diuzka oso hedatuta zegoenik, irazustarena baita "hark-hari-haiek" testuinguruan, orainaldian, [*eradun + -z-] egitura daukan agerraldi bakarra <ref type="bibr">(vs. dirautza &amp; dizka/dizko, dizkio)</ref>. Hala, ez da oso egiantzekoa pentsatzea diuzka adizki bakar horren aldaerak direla gaur egun gipuzkoako hainbat hizkeratan arruntak diren diozka &amp; dizka adizkiak.</p><formula xml:id="formula_14">(8) a. d-i-dd-o-Ø tam3-*nin-epent-nori3sg-nork3sg b. d-i-o-ZKA-Ø tam3-*nin-nori3sg-nor3pl-nork3sg (9) a. d-i-dd-ote-Ø tam3-*nin-epent-nori3pl-nork3sg b. d-i-o-ZKA-te-Ø tam3-*nin-nori3sg-nor3pl-nori3pl-</formula><p>Halaber, "haiei" datiboko adizkiei dagokienez, honako datu hau ere kontuan izan behar da; Pasaia eta oiartzungo diozkate erakoak *eradun oinarrikoak direla pentsatuz gero, *di(r)auzkate gisako adizki batetik eratorriko genituzke: adibidez, *di(r)auzkate (&gt; *diuzkate) &gt; diozkate. dena dela, adizki zaharren morfema banaketa ikusita, *di(r)auzkate hari 'dizkiote' litzateke (*d-irau-z-ka-te; cf. testuetako dirauzkagun 'dizkiogun', diauzkazu 'dizkiozu', etab.), haiei 'dizkie' adierazteko diauste(la) gisakoak ageri baitira. Hala, badirudi Pasaia eta oiartzungo diozkate 'dizkie' erako adizkiak bestela eratuak direla, eta ez dutela *eradun oinarriko adizki zaharren morfema banaketa bera; nahiz eta balitekeen -analogiaz edo berranalisiz, esate baterako-lehen "hari" zena geroago "haiei" adieraztera igarotzea. <ref type="bibr">26</ref> "Pluralari dagokionez, [Pasai] donibanen bereziki, hirugarren pertsonetan erabiltzen duten datiboko pluralgilea '-zka-' da gainerako pertsonetan ez bezala, hauetan '-zki-' erabiltzen baitute. Hirugarren pertsonako datibo plurala eraikitzeko singularretik abiatzen dira bai orainaldian eta bai lehenaldian, hirugarren pertsonako 'te' erantsiz: sayoska → sayoskate; sisayoskan → sisayoskaten" <ref type="bibr">(Agirretxe et alii 2000: 124)</ref>. nor-nori-norkeko adizkiez ari direnean ere honakoa diote: "oro har '-zki-' pluralgilea erabiltzen bada ere, datiboa hirugarren pertsonei dagokienean '-zka-' datiboko puralgilea agertzen da:  <ref type="bibr">(1926)</ref><ref type="bibr">(1927)</ref><ref type="bibr">(1928)</ref><ref type="bibr">(1929)</ref><ref type="bibr">(1930)</ref><ref type="bibr">(1931)</ref><ref type="bibr">(1932)</ref><ref type="bibr">(1933)</ref><ref type="bibr">(1934)</ref><ref type="bibr">(1935)</ref> oiartzun eta Pasaiako adizkien egitura antzekoa izan dezaketen zenbait adizki; esate baterako, osagarri plurala duten nor-nori-norkeko "hari" datibodun adizkietan honelakoak ageri dira Bidania, Albiztur eta Alkizan <ref type="bibr" target="#b36">(Bähr 1931</ref> . izan ere, urolaldeko hainbat herritan -ko da "hari" datibo morfema nor plural nahiz singularrarekin; cf. urolaldeko herri batzuetako zako 'zaio' &amp; zaizko 'zaizkio' nor-nori sailean (irizar 1991-i) eta dizko 'dizkio' / zizkon 'zizkion' nor-nori-norken <ref type="bibr" target="#b33">(Bähr 1926</ref><ref type="bibr" target="#b36">(Bähr , 1931</ref>  <ref type="bibr" target="#b37">(Bähr 1934)</ref> getaria: giñen 'genien <ref type="bibr">' &amp; giñezkan 'genizkien', ziñen 'zenien' &amp; ziñezkan 'zenizkien'; ziñoen 'zenieten' &amp; ziñezken 'zenizkieten' (1934: 66)</ref> Beizama: giñ(uk)en 'genien <ref type="bibr">' &amp; giñezten (&amp; giñuzken) 'genizkien', ziñuken 'zenien' &amp; ziñezten 'zenizkien', ziñuken 'zenieten' &amp; ziñezten 'zenizkieten' (1934: 65)</ref> osagarri singular eta pluraldun adizkiak alderatuta ikus daiteke -zka-eta -ztegehitzen zaiela pluralekoei; getarian -zka-(giñen &gt; giñezkan) eta Beizaman -zte-(giñen &gt; giñezten), hain zuzen ere. <ref type="bibr">30</ref> Beharbada, adizki horien atzean honelako bilakabideren bat egon daiteke: giñezkan &lt; *giniezkan/*geniezkan 'genizkien', ziñezkan &lt; *ziniezkan/*zeniezkan 'zenizkien', ziñezken &lt; *ziniezkaen/*zeniezkaen 'zenizkieten' [getaria]; eta giñezten &lt; *giniezten/*geniezten 'genizkien', ziñezten &lt; *ziniezten/*zeniezten 'zenizkien', ziñezten &lt; *ziniezteen/*zeniezteen 'zenizkieten' <ref type="bibr">[Beizama]</ref>. morfemen banaketa, aldiz, honako hau izan daiteke: 31 (11) a. *gin/gen-i-e-ZKA-n nork1pl-*nin-nori3pl-nor3pl-irgn b. *gin/gen-i-e-Zte-n nork1pl-*nin-nori3pl-nor3pl-irgn esandakoa aintzat hartuta, badirudi -zka-pluralgiledun adizkiak xx. mendean oiartzunen eta Pasaian erabiltzen zirela, batik bat (datiboa 3. pertsona denean). Alabaina, ikusi dugu urolaldeko eta ondoko herri batzuetan ere badirela ustezko -zka-&amp; -zte-pluralgileen aztarnak iraganaldiko adizkietan.</p><formula xml:id="formula_15">(di)yoskat,<label>(</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.2.2.">Beizamako eta errezilgo adizki alokutiboak</head><p>iraganaldiko adizki neutroetan ez ezik, hitanoko adizki alokutibo batzuetan ere -zka-pluralgilea dagoela dirudi urolaldeko herri batzuetan; Beizaman eta errezilen, hain zuzen <ref type="bibr" target="#b34">(Bähr 1927)</ref>: 32 30 Baina Beizaman bada giñuzken 'genizkien' ere, beharbada, *giniozkaen/*geniozkaen bezalako adizki batetik datorrena, eta beraz, -zka-pluralgilea izan dezakeena: *gin/gen-i-o-zka-e-n (cf. Pasaia eta oiartzungo d-i-o-zka-te-Ø 'dizkie'). <ref type="bibr">31</ref> Adizki hauetan ere datibo morfema pluralgilearen aurretik ageri da; cf. diezcun 'dizkiegun' (Ariztimuño 2016; reguero 2019). <ref type="bibr">32</ref> Hitanoko adizki alokutiboetan ere badago -zka-Pasaian eta oiartzunen: ziozkat/ziozkanet 'zizkioat/zizkionat', ziozkak/ziozkan 'zizkiok/zizkion', ziozkagu/ziozkaneu 'zizkioagu/zizkionagu' eta ziozkatek/ziozkaten 'zizkiotek/zizkioten' daude "hari" datiboarekin <ref type="bibr">(Bähr 1927: 469)</ref>; eta "haiei" datiboarekin ziozkatet/ziozkatenet 'zizkieat/zizkienat', ziozkatek/ziozkaten 'zizkiek/zizkien', ziozkategu/ziozkateneu 'zizkieagu/zizkienagu' eta ziozkatek/ziozkaten 'zizkietek/zizkieten <ref type="bibr">' (1928: 295)</ref>. errenterian ere badaude horrelako adizki alokutiboak "hari" datiboarekin, nahiz eta Pasaian eta oiartzunen besteko hedadurarik ez izan bertan -zka-pluralgileak. Badirudi adizki alokutibo horietan zi-&gt; ze-asimilazioa gertatu dela; <ref type="bibr">33</ref> Beizaman baita zeo-&gt; zeu-disimilazioa ere osagarri plurala duten adizkietan: ziozkat &gt; zeozkat &gt; zeuzkat. Horrez gain, eta guri dagokigun gaiari lotuago, "hari" datiboko osagarri singularreko zeoat (&lt; zioat) eta pluraleko zeozkat (&lt; ziozkat) 'zizkioat' alderatuta, adibidez, ikus daiteke -zka-gehitzen zaiela pluralekoei:</p><formula xml:id="formula_16">(12) a. Z-i-o-A-t alok-*nin-nori3sg-alok-nork1sg b. Z-i-o-ZKA-A-t 34</formula><p>alok-*nin-nori3sg-nor3pl-alok-nork1sg</p><p>Bestalde, "haiei" datiboarekin honako adizki hauek ageri dira errezilen eta Beizaman <ref type="bibr" target="#b35">(Bähr 1928</ref> "haiei" datibodun adizki horietan ere zi-&gt; ze-asimilazioa gertatu dela dirudi bi herrietan, edo zehatzago esateko, zie-&gt; zee-; baliteke "haiei" datiboko -e-morfemak eraginda gertatu izana asimilazioa. era berean, "haiei" datiboko osagarri pluraldun adizkiek "hari" datiboko adizkien egitura bera dutela dirudi (cf. z-i-o--zka-a-t), baina beste hauek -zte-pluralgilea dute, -zka-beharrean:</p><p>(13) a. Z-i-e-A-t <ref type="bibr">36</ref> alok-*nin-nori3pl-alok-nork1sg b. Z-i-e-Zte-A-t alok-*nin-nori3pl-nor3pl-alok-nork1sg datuok ikusita, badirudi arrazoiak egon badaudela, inoiz, [pluralgile + datibo morfema] egituraz eratutako -zka-&amp; -zte-pluralgileak egon zirela pentsatzeko. ikusi dugunez, Pasaian iraun du gehien -zka-pluralgileak, baina xx. mendeko ahozko datuek erakusten dute eremu geografiko zabalagoan ere egon zela, baita egitura bereko -zte-pluralgilea ere. Adibidez, urolaldeko eta ondoko herri batzuetan, hitanoko adizki alokutiboetan eta neutroko lehenaldiko adizkietan aurkitu ditugu pluralgile zaharren 37 aztarnak.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.2.3.">Beizamako eta errezilgo -ii-</head><p>Aipatu berri ditugunez gain, baliteke adizki gehiagotan ere -zka-&amp; -zte-pluralgileak egotea. Adibidez, Bährek xx. mende hasieran honako adizki hauek bildu zituen Beizaman eta errezilen:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="11.">taula</head><p>errezilgo eta Beizamako -ii-dun adizki tripertsonalak, datiboa 3. pertsona plurala delarik <ref type="bibr" target="#b33">(Bähr 1926</ref><ref type="bibr">(Bähr ) errezil (1926</ref>:</p><formula xml:id="formula_17">diit 'diet', diik/diiñ 'diek/dien', dii 'die', diigu 'diegu', diizu 'diezu', diizue 'diezue', diize 'diete' diiztet 'dizkiet', diiztek/diizten 'dizkiek/dizkien', diizte 'dizkie', diiztegu 'dizkiegu', diiztetzu 'diz- kiezu', diiztetzue 'dizkiezue', diizte 'dizkiete' Beizama (1926: 384): diddet 'diet', diddek/didden 'diek/dien', didde 'die', diddegu 'diegu', diddezu 'diezu', diddezue 'die- zue', didd(u)e 'diete' diiztet 'dizkiet', diiztek/diizten 'dizkiek/dizkien', diizte 'dizkie', diiztegu 'dizkiegu', diiztetzu 'diz- kiezu', diiztetzue 'dizkiezue', diizte 'dizkiete'</formula><p>Beharbada, osagarri pluraldun adizkiei dagokienez, zalantza izan dezakegu -iiren atzean *eradun edo *nin erroa dagoen. izatez, i bokalaren bikoizketa hau adizki https://doi.org/10.1387/asju.22414 rik direla frogatzen digu. Diozka-ri buruzkoak, dizku, dizt eta "barneko z plurala" duten guztientzat baliagarri bide dira. <ref type="bibr">(lakarra 2011: 197)</ref> Beste aldetik, ordea, diztegun 'dizkiegun' *nin errokotzat hartu du reguerok (2018: 685). guk ere diozka *nin errokoa izan daitekeela aipatu dugu, eta, oiartzungo adizkiak ikusita, diozka &gt; dizka gerta zitekeela; hortaz, dizka adizkia ere *nin errokotzat hartuko genuke. ildo beretik, gipuzkoako hainbat hizkeratako dizko <ref type="bibr">(&amp; dizka), dizte &amp; dizk(o)</ref>e erakoak ere hipotesi beraren bidez azal daitezkeen edo ez aztertuko dugu atal honetan. izan ere, hipotesi sendo batek adizki "bitxi" bat azaltzeko baino areago, gisa horretako adizki gehiago ere azaltzeko gai izan beharko luke.</p><p>Horretarako, nor-nori-norkeko osagarri pluraldun *nin erroko adizkiei erreparatuko diegu: *nin erroko adizki "ziurrak" -diozka gisakoak alde batera utzita, momentuz-1728ko lubietaren gramatikan bildu ditugu lehen aldiz gipuzkoako testuetan: cisquiran 'zizkidan' (245), cisquiraten 'zizkidaten' (247); era berean, 1729ko larramendiren gramatika ikusita pentsa daiteke ordurako erabiltzen zirela gipuzkoan dizquit/cizquidan, dizquitzut/nizquitzun <ref type="bibr">(&amp; diztzut/niztzun) gisakoak (1729: 94-110)</ref>. Beraz, badirudi 1730 aldera, behintzat, osagarri pluraldun adizki tripertsonaletan *nin erroa erabiltzen hasiak zirela gipuzkoan, zein eskualdetan bai eta zeinetan ez ziur ez badakigu ere. <ref type="bibr">40</ref> Are gehiago, lubieta (1728) eta larramendiren (1729) lanetako lehen agerraldiei erreparatuta, pentsa daiteke *nin erroa osagarri pluraldun adizki tripertsonaletara -zki-pluralgileari itsatsita iritsi zela gipuzkoara, edo Beterri ingurura, behinik behin. <ref type="bibr">41</ref> Aitzitik, urola eskualdeko datuek bestelako errealitatea islatzen dute. izan ere, leturiaga (2020)-n aipatu bezala, behin di(r)au-/zi(r)au-erakoak itzalean geratu ostean, urolaldeko testuetan dizka/dizko 'dizkio', diztan 'dizkidan', dizku 'dizkigu' erakoak ageri dira (vs. Beterri aldean jasotako [*nin + -zki-] erakoak). Peñafloridaren Gabon Sariak (1762) lanean ageri dira lehen aldiz eskualdean: dizkuen 'dizkiguten' <ref type="formula" target="#formula_15">(49)</ref>   <ref type="bibr">-zki-]</ref> egitura urolaldera baino lehenago iritsi dela badirudi ere <ref type="bibr" target="#b33">(Bähr 1926</ref><ref type="bibr">(Bähr -1935</ref>, zaila da eremu bakoitzean [*nin + -z-] → [*nin + -zki-] berrikuntza noiz gertatu zatekeen zehaztea: tolosaldeko testu zaharretan, adibidez, xviii. mendearen lehen erdia baino lehen *eradun oinarriko adizkiak baino ez daude -diozcatzu-ren <ref type="formula" target="#formula_15">(27)</ref>   <ref type="bibr">lakarra 1986, 1996)</ref>; aldiz, aztertutako testuetan ez dugu aurkitu [*nin + -zki-] egituradun adizkirik, nahiz eta gaur egun honelakoak erabiltzen diren goierrin -osagarri plural komunztadura egiten den lekuetan, behintzat-, tolosaldean bezala <ref type="bibr">(Hurtado 2001: 98)</ref>.</p><p>Honenbestez, esan daiteke beti ez dela erraza testuetatik ondorio garbirik ateratzea. nolanahi ere, ahozko jardunetik bildutako datuak ikusita, badirudi xx. menderako, behintzat, bazirela [*nin + -zki-] egituradun adizkiak, nola tolosaldean, hala goierri sortaldean -urolaldean ez bezala-. Jarraian ageri den taulan adierazi ditugu, eskualdez eskualde, Bährek bildutako adizki motak:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="13.">taula</head><p>gipuzkoako osagarri pluraldun adizki tripertsonal batzuk, eskualdearen arabera banatuta 43 <ref type="bibr" target="#b33">(Bähr 1926</ref><ref type="bibr" target="#b36">(Bähr , 1931</ref><ref type="bibr" target="#b37">(Bähr , 1934</ref> Beterri &amp; Tolosaldea 43 Goierri Urolaldea 44 "hari"datiboa <ref type="bibr" target="#b33">(Bähr 1926</ref><ref type="bibr" target="#b36">(Bähr , 1931</ref>   <ref type="bibr">46</ref> Halaber, diozka &amp; diezte ugaritzen diren gipuzkoako gainerako eskualdeetako testuetan ere literatur eragina nabari da; urolaldeko testuetan eragin hau zenbaterainokoa den asko aztertu izan ez bada ere, beste eskualdeetan gehiago aztertu da. Hala, ezaguna da larramendik eta literatur gipuzkerak zenbait autorerengan izan zuten eragina, eta badirudi xviii. mendearen bigarren erditik aurrerako idazleek euskaraz idazten zuten gainerako idazleen berri ere bazutela <ref type="bibr">(Altzibar 1992: 327-330)</ref>: hala nola, badakigu ubillosek mendibururen -eta lapurteraren-eragin handia izan zuela. lardizabalen 1856ko gramatikaren iturburua ere larramendi omen da, eta beraz, Beterriko aditza aurki daiteke bertan (urgell 1999: lxxviii); gainera, pentsatzen da larramendi ez ezik, euskara gaiez idatzi zuten beste zenbait autoreren lanak ere ezagutu zituela lardizabalek -mendiburu, <ref type="bibr">Kardaberatz, ubillos, Agirre Asteasukoa, etab.-(lardizabal 1856</ref><ref type="bibr">: 30, apud urgell 1999</ref><ref type="bibr">mendizabal 1956: 185)</ref>. <ref type="bibr">47</ref> Bestalde, honako hauek aipatzen ditu Fidel Altunak (1998: lxcvi-cxix) Agirre Asteasukoaren lanetan eragina izan zezaketen autoreen artean: larramendi, mendiburu, ubillos, mogel eta baita iparraldeko zenbait egile ere. Hain zuzen ere, ubillos, lardizabal eta Agirre Asteasukoaren lanetan topatu ditugu, besteak beste, diozka &amp; diezte gisako adizkiak.</p><p>Honekin ez dugu esan nahi diozka &amp; diezte bezalako adizkiak literatur eraginaren baitan sortutakoak direnik. izan ere, lehenago aipatu bezala, xviii. mendearen bigarren erdia baino lehenago, otxoa Arinen dotrinan (1713) eta lubietaren gramatikan (1728) ere ageri da diozka; 48 eta badakigu, halaber, ahozkoan ere erabiltzen zela xx. mendean bildutako ahozko datuei esker <ref type="bibr" target="#b33">(Bähr 1926</ref><ref type="bibr">(Bähr -1935</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="14.">taula</head><p>larramendik bere gramatikan (1729) dakartzan osagarri pluraldun adizki tripertsonalak, datiboa 3. pertsona delarik <ref type="bibr">"hari" datiboa: orain. diozcat, diozcac/diozcan, diozca, diozcagu, diozcatzue, diozcate; lehen. niozcan, iozcan/ciniozcan, ciozcan, guiniozcan, ciniozcaten, ciozcaten (1729: 116-117)</ref> "haiei" datiboa: orain. diozcatet, diozcatec/diozcaten/diozcatzute, diozcate, diozcagute 'dizkiegu <ref type="bibr">', diozcate; lehen. niozcaten, ciniozcaten, ciozcaten, guiniozcaten, ciniozcaten, ciozcaten (1729: 135)</ref> Hori ikusita, pentsa daiteke Pasaian eta oiartzunen xx. mendean bildutako adizkien gisakoak bazirela Beterri eta oiartzualde inguruan xviii. mende hasieratik, gutxienez. Horiez gain, "haiei" datiboarekin dieztet, dieztezu, diezte… / niezten, ciniezten, ciezten… ere erabiltzen zirela dio andoaindarrak (larmeiV 1729: 135); 1. eta 2. pertsona datiboekin, ostera, -zki-pluralgiledun adizkiak dakartza larramendik, eta ondoko zenbait autoretan ere joera bera ikus daiteke:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="15.">taula</head><p>literatur gipuzkeraren eragina hedatu ondoko testuetan bildutako osagarri pluraldun adizki tripertsonal batzuk <ref type="bibr">Kardab (1744)</ref> dizka <ref type="formula" target="#formula_15">(25)</ref>, ziztela <ref type="formula" target="#formula_15">(14)</ref>, zizten (24) dizkigun <ref type="formula" target="#formula_15">(4)</ref>, dizkitzut (4), dizkizute (16), dizkitzu (13) ziozkanak <ref type="formula" target="#formula_15">(3)</ref>, diozkatzula <ref type="formula" target="#formula_15">(4)</ref> lariz <ref type="formula" target="#formula_15">(1773)</ref> dizquitzut <ref type="formula" target="#formula_15">(14)</ref>, dizquidatzula <ref type="formula" target="#formula_15">(14)</ref>  <ref type="bibr">dizkizuten, dizkizut, zizkiguten, etab. ziozkan, ziozkaten, etab. diezte, dieztegu, dieztee, ziezten, ziezteenak, etab.</ref> Honenbestez, ez dirudi kasualitate hutsa larramendik bere gramatikan bildutako adizki horiek berak agertzea ondoko idazleen idazkietan; jakin badakigu ondoko autore askoren eredu izan zela andoaindarra. testuak nahi adina ez ditugunez, ezin anhttps://doi.org/10.1387/asju.22414 tzeman daiteke garbi non, noiz eta nola sortu ziren diozka &amp; diezte gisakoak; dakiguna da xviii. mendean jada osagarri pluraldun adizki tripertsonaletan *nin erroa erabiltzen zela gipuzkoan (cf. lubieta 1728; larmeiV 1729), eta diozka &amp; diezte gisako adizkien lehen agerpenak ere garai berekoak direla, nahiz eta geroago hedatu.</p><p>Ahozko datuek jakitera ematen digute "hari" datiboko diozka -nahiz horren gainean eratua dirudien "haiei" datiboko diozkate-bezalakoak ohikoak zirela Be terrioiar tzual de inguruan xx. mendean <ref type="bibr" target="#b33">(Bähr 1926</ref><ref type="bibr">(Bähr -1935</ref>. Hori aintzat hartuta, eta artikulu honen hasieran aipatu bezala lapurdin ere honelakoak zeudela ikusita, pentsa ote daiteke lapurditik heldu zirela oiartzualde-Beterri ingurura, eta oiartzualde-Beterritik gipuzkoako gainerako eskualdeetara? eHHAn begiratuta, horixe pentsatzera garamatza diozka/dizka adizkiaren hedadura erakusten duen mapak (euskaltzaindia 2014: 1375):</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">irudia</head><p>eHHAn 'dizkio' adizkiarekin ageri den mapa (euskaltzaindia 2014) Hau guztia esanda, badirudi aukera bat izan daitekeela pentsatzea gipuzkoako diozka erako adizkiak *nin errokoak direla, eta hauek lapurditik irits zitezkeela. Horren lekuko lirateke, besteak beste, Pasaian gaur egun ere irauten duten adizki tripertsonalak; cf. <ref type="bibr">Agirretxe et alii (2000)</ref>. dena dela, gipuzkoa ekialdeko lekukotasun zahar asko ez ditugunez, zail da jakiten zehazki noiztik dauden diozka erako adizkiak bertan, eta beraz, lapurditik heldu ote ziren, edo lapurdin baino lehenago gipuzkoa ekialdean jada bazeuden.</p><p>Bestalde, Beterri eta oiartzualde inguruko herri gehienetan badirudi diozka &gt; dizka gertatu dela. 49 egitura berekoak lirateke gipuzkoako hainbat hizkeratan -batik bat, urolaldean-gaur egun ere entzun daitezkeen dizku, dizko, dizte/ dizk(o)e gisakoak, beharbada, dizka-ren analogiaz sortuak, eta hortaz, [*nin + -z-] egitura dutenak. Pixkanaka, -zki-pluralgilea hedatu eta -z-zaharra ordezkatu bide zuen, urolaldean baino lehenago Beterrin, tolosaldean eta goierri sortaldean.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>): 27 giñuzka(u)n 'genizkion', ziñuzkan 'zenizkion', ziñuzkatzuen 'zenizkioten' (267) [Bidania]; giñuzkan 'genizkion' (266) [Albiztur]; giñozkan 'genizkion', ziñozkan 'zenizkion' (266) [Alkiza]. Adizki horiek ikusita, badirudi honelako -bokal fusio-bilakabideren bat egon zatekeela: adibidez, giñuzka(u)n [Bidania] &amp; giñuzkan [Albiztur] &amp; giñozkan [Alkiza] &lt; *giniozka(gu)n/*geniozka(gu)n 'genizkion'; edo ziñuzkan [Bidania] &amp; ziñozkan [Alkiza] &lt; *ziniozkan/*zeniozkan 'zenizkion': (10) a. *gin/gen-i-o-ZKA-(gu) -n 28 nork1pl-*nin-nori3sg-nor3pl-(nork1pl)-irgn b. *Zin/Zen-i-o-ZKA-n nork2sg-*nin-nori3sg-nor3pl-irgn Aipatutako herriez gain, urolaldeko herri batzuetan ere badira antzeko adizkiak iraganaldian; giñozkan 'genizkion', ziñozkan (&amp; zinizkon) 'zenizkion', ziñozkatzuben 'zenizkioten' (268) [getaria]; giñuzkan 'genizkion', ziñuzkan 'zenizkion', ziñuzken 'zenizkioten' (267) [Beizama]; giñozkun 'genizkion', ziñozkun (&amp; zizkotzun) 'zenizkion', ziñozkuen (&amp; zizkotzuen) 'zenizkioten' (267) [Azkoitia]. getaria, Beizama 29 eta Azkoitiko adizki horiek ere, Bidania, Alkiza eta Albizturkoen antzeko jatorria izan dezakete; esate baterako, getariako ziñozkan &lt; *ziniozkan/*zeniozkan 'zenizkion' (*zin/zen-i-o-zka-n). Azkoitiko adizkietan, ordea, badirudi -zka-beharrean -zko-(-z-ko-) [pluralgile + datibo morfema] egitura dagoela: ziñozkun &lt; ziñozkon &lt; *ziniozkon/*zeniozkon 'zenizkion' (*zin/zen-i-o-zko-n)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>22414 2. diozka erako adizkiak 2.1. Lehenengo hipotesia: *eradun oinarriko adizkiak izatea</head><label></label><figDesc></figDesc><table><row><cell>2.1.1. di(r)auzka &gt; diuzka &gt; diozka disimilazioa</cell></row><row><cell>larramendik jakinarazten digu, besteak beste, Azkoitian eta Azpeitian *eradun oi-</cell></row><row><cell>narriak jarraitzen zuela xviii. mendean: "Aqui en Azpeitia y Azcoitia, hallo una ter-</cell></row><row><cell>minación verbal, y es dirautzat, dirauzquit, por diozcat, diauzcat, dizquit, diauzquit</cell></row><row><cell>pero no las siguen en todas las transiciones del verbo" (larramendi 1745: xxvi, apud</cell></row><row><cell>lakarra 1985: 257). 5 era berean, urolaldeko testu batzuek ere erakusten dute xvii-</cell></row><row><cell>xviii. mendeetan bazegoela oraindik *eradun nor-nori-nork saileko osagarri plu-</cell></row><row><cell>raldun adizkietan: dirauze 'dizkie' (SumBrev 1614: 17. agindua), diauzcu 'dizkigu'</cell></row><row><cell>(AzkSerm 1737: 2), dirauzanac 'dizkionak' (Azpgut c. 1738: 10), diaustela 'dizkiela'</cell></row><row><cell>(loioladot xviii: 38), etab.; baita gipuzkoako beste eskualdeetan ere: dirautza 'diz-</cell></row><row><cell>kio' (oArin 1713: 66), diuscu 'dizkigu' (lasartBerts 1716: 8. lerroa), diuztegun 'diz-</cell></row><row><cell>kiegun' (iraz 1739: 6), etab.</cell></row></table><note>https://doi.org/10.1387/asju.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>2. taula *eradun oinarriko adizkiak gipuzkoako testuetan, eskualdearen eta urtearen arabera</head><label></label><figDesc></figDesc><table><row><cell></cell><cell></cell><cell cols="2">olAtZ leturiAgA AngoitiA</cell></row><row><cell>Urolaldea</cell><cell>Goierri</cell><cell>Tolosaldea</cell><cell>Beterri</cell></row><row><cell>1614: dirauze</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">1713: diutzudan (&amp;</cell><cell></cell><cell></cell></row><row><cell cols="2">dirautzut, dirautza,</cell><cell></cell><cell></cell></row><row><cell>etab.)</cell><cell></cell><cell></cell><cell>1716: diuscu</cell></row><row><cell>1737: diauzcu, diauzten,</cell><cell></cell><cell></cell><cell></cell></row><row><cell>diauztan</cell><cell></cell><cell></cell><cell></cell></row><row><cell>c. 1738: dirauzanac</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">1739: diuzcun, ciuz-</cell><cell></cell></row><row><cell></cell><cell cols="2">cun, diuztegun, diuzca,</cell><cell></cell></row><row><cell>xviii: diaustegun, diauz-</cell><cell>etab.</cell><cell></cell><cell></cell></row><row><cell>cazu, ciauzcan, etab.</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell cols="2">ASJU, 2019, 53 (1-2), 127-162</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>orainaldiko "hari" datibodun adizkietan [*eradun + -z-] egitura bildu da 1. eta 2. pertsona ergatiboekin -cf. dirauzkagun eta diauzkazu-, baina ez, aldiz, ergatibo nahiz datiboa 3. pertsona direlarik -cf. orainaldiko dirautzanak baina *dirauzka, vs. lehenaldiko zirauzkan-. egia da irazustak diuzca 'dizkio' dakarrela (1739: 53), eta beraz, baliteke *di(r)auzka osoagoa ere inoiz egon izana; dena dela, aipatu dugu irazusta alkizarraren testuan -iu-erako adizkiak beste idazkietan baino ugariago ageri direla. ez dirudi, oro har, -iu-erako adizkiak irazustak islatu bezain hedatuta zeudenik gipuzkoan. 14 Baina 'dizkie' ere izan daiteke; cf. larmeiV (1729) eta otaegi (xviii-xix). ikus 8. oin-oharra. 15 Baina 'zizkieten' ere izan daiteke; cf. otaegi (xviii-xix). ikus 7. oin-oharra.</figDesc><table /><note>16 Baina 'zizkien' ere izan daiteke, cf. larmeiV (1729); eta 'zizkieten' ere bai, cf. izt (1824). ikus 8. oin-oharra.17 Azkoitiko Sermoian ageri den diauzten adizkiak 'dizkioten' dirudi -lakarrak 'dizkidaten' gisa dakarren arren (1985: 257)-: daguigun [negar] gueure culpa itsusiacgatic, ceñac Virgiñari ematen diauz- https://doi.org/10.1387/asju.22414</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>xviii-xix: 274; &amp; dizten) / ciezten 'zizkien' (otaegi xviii-xix: 300; &amp; cizten), etab. xviii-xix. mendeetako testuetan ageri dira gisa horretako adizkiak gipuzkoan; hala nola, lariz (1773), oikiako dotrina (1784), ubillos (1785), Agirre Asteasukoa (1803), lardizabal (1855) eta otaegi Beizamakoaren (xviii-xix) testuetan. Hori horrela izanik, eta aurretik esandakoa aintzat hartuta, zaila da 3. pertsona datiboko adizki horiek guztiak *eradun oinarrikotzat hartzea, -</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>adizkiak eta adizki horien *eradun oinarriko ustezko jatorrizko formak</figDesc><table><row><cell>Testuetan aurkitutako adizkiak</cell><cell>*eradun oinarriko ustezko jatorrizko formak</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>beraz, ditugun datuekin zaila dela testuetan ageri diren adizki horiek guztiak *eradun oinarritik eratortzea. Aldiz, erraz azal litezke adizkiok nor-nori-norkeko -io-&amp; -ie-erako adizkietan *eradun oinarria ez, baizik eta *nin erroa dagoela pentsatuta; *nin erroko</figDesc><table><row><cell></cell><cell>dirauzkate</cell></row><row><cell>ziozken &amp; ziozkaten 'zizkioten'</cell><cell>*zirauzk(a)en &amp; *zirauzkaten</cell></row><row><cell>esan daiteke,</cell><cell></cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>nork3sg egia da gipuzkoako testuetan 20 datibo morfemak osagarriaren pluralgilearen ondoren ageri ohi direla (cf. diuztegun &amp; diztegun 'dizkiegun'), eta ez aurretik (Ariztimuño 2016: 32), aurreko adizki horietan ageri den moduan. Haatik, nola Ariztimuñok (2016: 32), hala reguerok (2019: 210) adierazi bezala, tolosalde ondoko Areson bada horrela eratutako adizkiren bat *nin erroarekin; cf. diezcun 'dizkiegun'. Beraz, badirudi "datibo morfema-pluralgile" hurrenkera ez dela ezinezkoa *nin erroahttps://doi.org/10.1387/asju.22414 rekin (vs. *eradun oinarriko **d-irau-o-tza-Ø 'dizkio', **d-irau-gu-tza-Ø 'dizkigu'). Baliteke, hortaz, Aresoko adizki horren egitura bera izatea gipuzkoako testuetan aurkitu ditugun diozka 'dizkio' &amp; diezte 'dizkie' adizkiek. 2.2.3. nor-nori saileko zaiozka &amp; zaiezte Hipotesi honetan defendatu bezala -zka-&amp; -zte-egiturak pluralgile oso moduan interpretatu izan baziren, orain arte aipatutako adizkietan ez ezik, pluralgile horiek adizki gehiagotan ere topatzea esperoko genuke. Bada, nor-nori saileko adizkietan ere badago horrela eratua dirudien adibideren bat gipuzkoako testuetan: zaio/ zaiozka 'zaizkio' &amp; zaie/zaiezte 'zaizkie'. urolaldean, esate baterako, ez da zaiozka &amp; zaiezte bezalako adizkirik topatu nor-norin, ezta nor-nori-norken diozka &amp; diezte gisako adizkiak nahiko ugari diren urolaldeko testuetan ere. Horien ordez, zaizka 'zaizkio' &amp; zaizte 'zaizkie' gisakoak ageri dira (cf. oikiadot 1784 eta otaegi xviiixix). Aldiz, goierriko, tolosaldeko nahiz Beterriko testu batzuetan badira adibideak;</figDesc><table><row><cell>hona hemen horietako batzuk:</cell></row><row><cell>(7) a. eta onembestez barcatcen zaiozca 'zaizkio' guciac Sacramentu orren virtu-</cell></row><row><cell>tez (oArin 1713: 75)</cell></row><row><cell>b. cergatic ofensa gustocoaq ala ere animari tocacen zaiozca 'zaizkio' (lubieta</cell></row><row><cell>1728: 235)</cell></row><row><cell>c. G. Nola ofrecitu guinzaiozcan 'gintzaizkion' orduan? e. Gure bioz gucia-</cell></row><row><cell>requin bera servitzera, deabruaren lan guciaz errenunciaturic (lariz 1773:</cell></row><row><cell>74)</cell></row><row><cell>d. baldin aiec bear bezala eta zucenquiro arratzaren otsarequin adierazotcen</cell></row><row><cell>bazaiozca 'bazaizkio' (izt 1824: 48)</cell></row><row><cell>e. auzpez jarri zitzaiozkan 'zitzaizkion' eta urrea, inzensua eta mirra eskeñi</cell></row><row><cell>ziozkaten (lardiz tB 1855: 4)</cell></row><row><cell>f. orduan begiak argitu zitzaiezten 'zitzaizkien' eta Jauna ezagutu zuten,</cell></row><row><cell>eta ezkutatu zitzaien (lardiz tB 1855: 61)</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>nor-norin. Baina non dute jatorria pluralgile horiek, nor-nori-norkeko diozka &amp; diezte adizkietan ala nor-noriko zaiozka &amp; zaiezte adizkietan? edo beste modu batera esanda, zein sailetan interpretatu dira lehendabizikoz pluralgile oso moduan? Ba ote liteke iragangaitz datibodunetako zaiozka &amp; zaiezte-ren analogiaz, geroago, diozka &amp; diezte tripertsonaletara hedatzea pluralgileak? edo alderantziz gertatu da, hau da, diozka &amp; diezte-tik zaiozka &amp; zaiezte-ra? eKcn begiratuta, diozka &amp; diezteren agerraldiak ugari dira, zaiozka &amp; zaiezte-renak, ostera, gutxiago, eta batzuek eta besteek garai beretsuan dute lehen agerraldia: 21 5. taula nor-nori-norkeko diozka &amp; diezte eta nor-noriko zaiozka &amp; zaiezte adizkien emaitzak eKcn bilaketa eginda Bilaketa egitean, diozka &amp; diezte eta zaiozka &amp; zaiezte adizkiak osorik begiratu ditugu; hau da, jarraian aurkezten diren datuak adizki horien agerraldiak baizik ez dira, eta ez dira kontuan hartu atzizkiren bat dutenak (cf. oArin 1713: diozcan); era berean, ezta "hark" ez den beste pertsona ergatibo bat dutenak ere. Beraz, pentsa daiteke, berez, adizki bakoitzaren agerraldiak hemen erakutsi baino gehiago direla. Azken finean, ikuspegi orokorra eskaintzea da oraingo gure asmoa, eta ez adizki bakoitzaren kopuru zehatzak erakustea.Hala ere, nor-nori-norkeko diozka &amp; diezte gehiago izanagatik, ezin esan daiteke ziurtasunez zaharrago direnik, bi sailetako adizkien lehen agerraldiak xviii. mendearen lehen erdikoak baitira. izatekotan, esan daiteke denboraren aldetik ez, baina kopuruaren aldetik nagusi direnez, diozka &amp; diezte-tik zaiozka &amp; zaiezte-ra heda zitezkeela ustezko pluralgile horiek; hau da, adizki tripertsonaletatik iragangaitz datibodunetara. Hipotesi beraren alde egitera bultza gaitzakete beste datu hauek ere:</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="5">olAtZ leturiAgA AngoitiA</cell></row><row><cell></cell><cell></cell><cell cols="2">6. taula</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="8">nor-noriko zaizka eta zaiozka adizkien emaitzak eKcn bilaketa eginda</cell></row><row><cell>zaizka 'zaizkio' (237 agerraldi):</cell><cell cols="8">xvi xvii-1 xvii-2 xviii-1 xviii-2 xix-1 xix-2 xx-1 xx-2</cell></row><row><cell>diozka 'dizkio' (521 agerraldi):</cell><cell>3</cell><cell cols="3">xviii-1 xviii-2 xix-1 3 0 22</cell><cell>54</cell><cell>xix-2 34</cell><cell>xx-1 46</cell><cell>74</cell><cell>xx-2 0</cell></row><row><cell cols="3">44 bizkaiera (18); gipuzkera</cell><cell>151</cell><cell>48</cell><cell></cell><cell>206</cell><cell>49</cell><cell>23</cell></row><row><cell cols="8">bizkaiera (15); gipuzkera (325); lapurtera (180); goi nafarrera (1)</cell></row><row><cell cols="9">gipuzkoako lekukotasunen artean: iraz, Kardab, ubill, AgirAst, izt, lardiz</cell></row><row><cell>diezte 'dizkie' (129 agerraldi):</cell><cell></cell><cell cols="3">xviii-1 xviii-2 xix-1</cell><cell></cell><cell>xix-2</cell><cell>xx-1</cell></row><row><cell></cell><cell></cell><cell>9</cell><cell>47</cell><cell>18</cell><cell></cell><cell>49</cell><cell>6</cell></row><row><cell cols="5">gipuzkera (125); goi nafarrera (4)</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="7">gipuzkoako lekukotasunen artean: Kardab, AgirAst, izt, lardiz</cell><cell></cell></row><row><cell>zaiozka 'zaizkio' (67 agerraldi):</cell><cell></cell><cell cols="3">xviii-1 xviii-2 xix-1</cell><cell></cell><cell>xix-2</cell><cell>xx-1</cell></row><row><cell></cell><cell></cell><cell>1</cell><cell>0</cell><cell>22</cell><cell></cell><cell>42</cell><cell>2</cell></row><row><cell cols="4">gipuzkera (61); lapurtera (6)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="7">gipuzkoako lekukotasunen artean: oArin, izt, lardiz</cell><cell></cell></row><row><cell>zaiezte 'zaizkie' (13 agerraldi):</cell><cell></cell><cell cols="2">xviii-2 xix-1</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>1</cell><cell>12</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell cols="2">gipuzkera (13)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="7">gipuzkoako lekukotasunen artean: lardiz, Kardab</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="4">ASJU, 2019, 53 (1-2), 127-162</cell></row></table><note>21https://doi.org/10.1387/asju.22414</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head>2.4. xx. mendeko ahozko datuak</head><label></label><figDesc>batzuetan 22 hartu zuen pluralgilea, ondoren, analogiaz, iragangaitz datibodunetara hedatu zela, eta, era berean, egitura beraz eratutako -zte-pluralgilea ere sortu zela?</figDesc><table><row><cell>olAtZ leturiAgA AngoitiA</cell></row><row><cell>2.4.1. Oiartzun eta Pasaiako diozka &amp; diozkate</cell></row><row><cell>ikusi dugunez, gipuzkoako hainbat eskualdetan aurkitu ditugu diozka 'dizkio'</cell></row><row><cell>gisakoak testu idatzietan. Hala ere, Bährek (1926-1935) bildutako adizkiak ikusita,</cell></row><row><cell>badirudi, ahozkoan, Beterri-oiartzualde inguruan erabiltzen zirela honelakoak xx.</cell></row><row><cell>mendean; zehatzago esateko, Pasaia eta oiartzun herrietan: 23</cell></row><row><cell>7. taula</cell></row><row><cell>Pasaiako eta oiartzungo osagarri pluraldun adizki tripertsonalak, datiboa 3. pertsona delarik</cell></row><row><cell>ASJU, 2019, 53 (1-2), 127-162</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head></head><label></label><figDesc>-zka-&amp; -zte-pluralgiledun adizkiak Urolaldean eta ondoko herrietan 2.4.2.1. Iraganaldiko zenbait adizki iraganaldiko adizkiei erreparatuta, herri gehiagotan ere bildu zituen Bährek</figDesc><table><row><cell>olAtZ leturiAgA AngoitiA</cell></row><row><cell>2.4.2.</cell></row><row><cell>di)yoskau, (di)yoskate, si(y)oskan" (2000: 125).</cell></row><row><cell>ASJU, 2019, 53 (1-2), 127-162</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_17"><head></head><label></label><figDesc>nin erroko osagarri pluraldun adizki tripertsonalak Beterriko eta urolaldeko testuetan 42</figDesc><table><row><cell></cell><cell>olAtZ leturiAgA AngoitiA</cell></row><row><cell cols="2">12. taula</cell></row><row><cell>Beterriko testuetako adizkiak</cell><cell>Urolaldeko testuetako adizkiak</cell></row><row><cell>1728: cisquiran, cisquiraten</cell><cell></cell></row><row><cell>1729: dizquit/cizquidan, dizquitzut/nizquitzun,</cell><cell></cell></row><row><cell>dizquigu/cizquigun, etab.</cell><cell></cell></row><row><cell>1744: dizkigun, dizkitzut, dizkitzu, dizkizute,</cell><cell></cell></row><row><cell>etab. + dizka, zizten, etab.</cell><cell>1762: dizkuen, dizka</cell></row><row><cell></cell><cell>1764: diztate</cell></row><row><cell></cell><cell>1772: dizco, ciisten + disquit 41</cell></row><row><cell cols="2">Honenbestez, esan daiteke *nin erroko adizkiak izateko aukera badutela urolal-</cell></row><row><cell cols="2">deko dizka/dizko 'dizkio' &amp; dizte/dizk(o)e 'dizkie' erako adizkiek. Halaber, badago</cell></row><row><cell cols="2">auzi honetan aintzat hartu beharreko beste datu bat; izan ere, leturiaga (2020)-n</cell></row><row><cell cols="2">azaldu bezala, badirudi -zki-pluralgilea gipuzkoako beste eskualdeetara -Beterrira,</cell></row><row><cell cols="2">tolosaldera eta goierrira-baino geroago iritsi bide dela urolaldera. Beraz, aintzat</cell></row><row><cell>hartuta:</cell><cell></cell></row><row><cell cols="2">a) dizka adizkiaren jatorria *nin errokoa dirudien diozka adizkian egon daite-</cell></row><row><cell>keela;</cell><cell></cell></row><row><cell cols="2">b) dizka-ren gisa bereko diztan, dizko, dizku erako adizkiak testuetan ageri dire-</cell></row><row><cell cols="2">nerako osagarri pluraldun adizki tripertsonaletan *nin erroa erabiltzen hasiak eta zirela gipuzkoan -Beterri inguruan, behinik behin-; eta dizka 'dizkio' (66); 1764ko el Borracho Burlado lanean ere diztate 'dizkidate' (128) c) urolaldera -zki-pluralgilea ondoko eskualdeetara baino geroago iritsi bide ageri da. Hala, badirudi urolaldean honelako adizkiak agertzen hasten direnerako jada bazegoela *nin osagarri pluraldun adizki tripertsonaletan gipuzkoan; cf. lubieta dela</cell></row><row><cell cols="2">(1728); larmeiV (1729), Kardab (1744). Kardaberatzen 1744ko testuak erakusten proposatzen duguna honako hau da: beharbada, baliteke gipuzkoan -osagarri plu-</cell></row><row><cell cols="2">digu urolaldean lehen aldiz idatziz agertu baino lehenago ere bazirela dizka gisakoak; raldun adizki tripertsonaletan-*eradun oinarria abaildu eta *nin erroa iritsi berritan</cell></row><row><cell cols="2">dena dela, Kardaberatzen testuko dizka 'dizkio' (25) eta zizten 'zizkien' (24) adizkien erro berria -z-pluralgileari lotu izana lehendabizi; edo zehatzago esateko, -zka-plu-</cell></row><row><cell cols="2">agerraldiak ere gipuzkoako testuetan lehen aldiz [*nin + -zki-] adizkiak agertu ondo-ralgileari (cf. oArin 1713: dio &amp; diozca 'dizkio'). Hastapenetan -z-pluralgilea -ka-</cell></row><row><cell cols="2">koak dira: datibo morfemari lotu zitzaion, agian, "hari" datiboko dio adizkiak -z-pluralgile soila</cell></row><row><cell cols="2">hartzeko nahikoa euskarri fonikorik ez zuelako. ondoren, baliteke diozka &gt; dizka</cell></row><row><cell cols="2">gertatu -d-i-z-ka-Ø moduan interpretatu-eta, analogiaz, diztan 'dizkidan', di-</cell></row><row><cell cols="2">tzu 'dizkizu', dizko 'dizkio', dizku 'dizkigu', ditzue 'dizkizue' eta dizte/dizk(o)e 'diz-</cell></row><row><cell cols="2">kie' eratu izana. Alabaina, gipuzkoako Beterri ingurura, behintzat, xviii. mendearen</cell></row><row><cell cols="2">lehen erdirako -zki-berrikuntza iritsia zela dirudi, eta pluralgile berriak -z-pluralgile</cell></row><row><cell cols="2">zaharra ordezkatu zuela -hots, [*nin + -z-] → [*nin + -zki-] gertatu zela-.</cell></row><row><cell></cell><cell>ASJU, 2019, 53 (1-2), 127-162</cell></row></table><note>*https://doi.org/10.1387/asju.22414 dena dela, Beterrira, tolosaldera eta goierrira [*nin +</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_19"><head>4. Testuetako diozka &amp; diezte gisako adizkien hedaduraz testuei</head><label></label><figDesc>&amp; dixkat / nizkan &amp; nixkan, dizka &amp; dixka / zizkan &amp; zixkan, etab. eta dizkot &amp; dixkot / nizkon &amp; nixkon, dizko &amp; dixko / zizkon &amp; zixkon, etab. kronologikoki begiratu ondotik, aipatu dugu *nin erroko diozka &gt; dizka bilakabideak baduela egiantzekotasunik. izan ere, urolaldean, esate baterako, diozka adizkia xviii-xix. mendearen hasieran ageri bada ere (cf. oikiadot 1784 eta otaegi xviii-xix), gipuzkoako beste eskualdeetan lehenago ere baditugu agerraldiak: lehen aldiz, otxoa Arinen dotrinan (1713) ageri da diozka 'dizkio'; eta mende beraren lehen erdiko lubietaren gramatikan (1728) nahiz irazustaren dotrinan (1739) ere badaude adibideak. 1744rako, ordea, diozka &gt; dizka gertatua zela erakusten digu Kardaberatzen lekukotasunak, eta "haiei" datiboko zizten 'zizkien' ere bazela. Aitzitik, diozka 'dizkio' &amp; diezte 'dizkie' erako adizkien agerraldiak nabarmen ugaritzen dira geroagoko lariz (1773), ubillos (1785), iztueta (1824), lardizabal (1855), Agirre Asteasukoa (1803) eta otaegi Beizamakoa (xviii-xix) bezalako idazleen testuetan. Zergatik ugaritzen dira, ordea, xviii-xix. mendeetan berriz ere diozka &amp; diezte gisako adizki luzeagoak, 1744rako jada dizka &amp; zizten gisako laburtuak bazeuden? Kontuan hartu behar da literatur gipuzkera sortu eta haren eragina hedatu zen garaia dela, hain zuzen ere, xviii-xix. mendeen bitartekoa. urolaldean, adibidez, diozka adizkiaren lehen lekukotasuna Azkoitiko sermoian ageri da (zor ciozcala 1737: 6), larramendi andoaindarrak idatzitako sermoian, alegia (lakarra 1985). Are gehiago, lehen lekukotasun horretan ez ezik, honelako adizkiak ageri diren urolaldeko beste testuetan ere (oikiadot 1784 eta otaegi xviii-xix) literatur eragina nabari daiteke https://doi.org/10.1387/asju.22414 (cf. lakarra 1987: 516; B. otaegi 1992: 107). Hala nola, Beatriz otaegiri esker dakigu otaegi Beizamakoaren aintzindariak izan zirela mendiburu, mogel eta Agirre Asteasukoa; horrez gain, Axular ere ezagutzen eta miresten zuela uste du eta Zarauzko frantziskotarrak ere kontuan hartu behar direla dio otaegi aztertzerakoan (B. otaegi 1992: 107-110). Bestalde, oikiako dotrinari (1784) dagokionez, lakarrak honako hau dio (1987: 516): "delako euskalki edo hizkera baten ordezkari den aldetiko garrantziaz landa […] hizkuntzaren historiatikoa, hobe, literatur hizkuntzaren historiatik datorrena, du dotrina honek".</figDesc><table><row><cell></cell><cell cols="2">olAtZ leturiAgA AngoitiA</cell></row><row><cell>Beterri &amp; Tolosaldea</cell><cell>Goierri</cell><cell>Urolaldea</cell></row><row><cell></cell><cell>"haiei" datiboa (Bähr 1926, 1934)</cell><cell></cell></row><row><cell>dizk(at)et/nizk(at)en, dizk(at)e/</cell><cell>diet/nien, die/zien, etab.</cell><cell>diztet/nizten, dizte/zizten, etab.</cell></row><row><cell>zizk(at)en, etab.</cell><cell></cell><cell></cell></row><row><cell>eta</cell><cell>eta</cell><cell>eta</cell></row><row><cell>dizki(ot)et/nizki(ot)en, dizki(ot)e/</cell><cell>dizkiet/nizkien, dizkie/zizkien,</cell><cell>dizk(o)et &amp; dixk(o)et / nizk(o)en</cell></row><row><cell>zizki(ot)en, etab.</cell><cell>etab.</cell><cell>&amp; nixk(o)en, dizk(o)e &amp; dixk(o)e /</cell></row><row><cell></cell><cell></cell><cell>zizk(o)en &amp; zixk(o)en, etab.</cell></row><row><cell cols="3">Beraz, ahozko jardunetik nahiz testuetatik bildutako datuak kontuan hartuta, ba-</cell></row><row><cell cols="3">dirudi, esan bezala, Beterrira, tolosaldera eta goierrira baino geroago hedatu bide</cell></row><row><cell cols="3">dela urolaldera -zki-berrikuntza -xx. mendetik eta gaur egunera bitartean, ziurre-</cell></row><row><cell cols="3">nik-(cf. leturiaga 2020). Beharbada, baliteke horregatik eutsi izana urolaldean gi-</cell></row><row><cell cols="3">puzkoako beste eskualdeetan baino adizki gehiagotan eta luzaroago [*nin + -z-] egitu-</cell></row><row><cell cols="3">radun adizki zaharrei; 45 era berean, horrek erakus lezake -zki-berrikuntza gipuzkoan</cell></row><row><cell cols="3">hedatu baino lehenagoko aldi batekoak direla urolaldeko adizkiak.</cell></row><row><cell>dizkat/nizkan, dizka/zizkan, etab.</cell><cell>diot/nion, dio/zion, etab.</cell><cell></cell></row><row><cell>eta</cell><cell>eta</cell><cell></cell></row><row><cell>dizkiot/nizkion, dizkio/zizkion,</cell><cell>dizkiot/nizkion, dizkio/zizkion,</cell><cell></cell></row><row><cell>etab.</cell><cell>etab.</cell><cell></cell></row><row><cell></cell><cell></cell><cell>ASJU, 2019, 53 (1-2), 127-162</cell></row></table><note>dizkat</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_20"><head></head><label></label><figDesc>). Honenbestez, esan nahi duguna da literatur eraginak baldintzatu zezakeela, beharbada, geroagoko testuetan, ustez, zaharragoak eta luzeagoak diren adizki horiek agertzea; edo bestela esanda, literatur eredutzat hartu izan ziren idazle eta lanetan agertu izanak lagundu zezakeela geroagoko autoreek ere honelakoak erabiltzea. Hala nola, larramendiren gramatikan (1729) ageri dira diozka 'dizkio' eta diozkate 'dizkie' gisako adizkiak: 46 Aldiz, xviii. mendearen bigarren erdia baino lehenagoko idazkietan, edo ahozkotik gertuago egotea espero dugunetan -cf. SumBrev (1614); Azpgut (c. 1738); GTour (1772)-ez dugu diozka &amp; diezte gisako adizkirik topatu urolaldean. 47 "nik uste dut zer ontan gauza oker xamar bat dala, alegia, lardizabal Zaldibiakoa zan eta badirudi lardizabalek Zaldibiko izkuntza egin nai zukeala, eta nik eztut uste ori ala danik. nik uste dut lardizabalen oiñarriak lenagoko autoreetan daudela" (mitxelena, apud Altzibar 1992: 335). 48 dena dela, baliteke lubietak urtebete geroago argitaratuko zen larramendiren gramatika ezagutzea; izan ere, gidor Bilbaok ohartarazi bezala (2012: 646), bere gramatikan larramendiren artea aipatzen du, manuel Vicente etxeberrirenarekin batera: el artte de Fr. Manuel Vizente de echeverria y de Larramendi Libros nuevos / artte Fr. Manuel Vizente echeverrirena etta Larramendirena Libru berriac (lubieta 1728: 443).</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_21"><head></head><label></label><figDesc>, dizquigun (26), etab. diozcagu (53), diozcatzu (70), etab. dieztezu (irakurleari atala) ubill (1785) dizquigu (122), dizquitzut (77), etab. diozca (211), diozcagu (140), badiozcatzue (151), ciozcan (17), etab. dieztegun (81) AgirAst (1803) dizquidan (25), dizquitzut (295), dizquidatzun (325), dizquigun (78), nizquitzun (120), etab. diozcat (23), diozca (214), diozcagu (261), diozcatzu (68), etab.</figDesc><table><row><cell></cell><cell>diezte (1), ciezten (53)</cell></row><row><cell>lardiz (tZ eta</cell><cell>dizkit,</cell></row><row><cell>tB, 1855)</cell><cell></cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">testu zaharrek erakusten digute euskal Herriko mendebal zabaleko berrikuntza zaharrak gipuzkoako mendebal eta erdialdera hedatu zirela. Aldiz, diozka 'dizkio' (&amp; diezte 'dizkie') erako adizkiak *nin errokoak direla frogatuko bagenu -b) aukeran proposatu dugun bezala-, berrikuntza honetan gipuzkoa (edo adizki hauek ageri diren gipuzkoako alderdia) lapurdirekin batera joango litzateke.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">olAtZ leturiAgA AngoitiA ASJU, 2019, 53 (1-2), 127-162</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="19">eKcn bilaketa eginda ziuzten adizkiaren bost agerraldi ageri dira, lapurdikoak guztiak, eta ez dira 'zizkien' adierakoak, nor-norkeko 'zituzten' adierakoak baizik.20  Baita nafarroa garaiko, lapurdiko eta nafarroa Behereko testuetan ere<ref type="bibr" target="#b32">(Ariztimuño 2016)</ref>.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="27">-zki-pluralgiledunekin batera Albizturren(nizkion, izkion, zizkion, etab.); eta nizkan, izkan, zizkan erakoekin batera Alkiza eta Bidanian(Bähr 1931: 266-267).28 Giñuzka(u)n &lt; *giniozka(gu)n/*geniozka(gu)n 'genizkion' adizkian subjektu morfema bikoiztuta dago, osagarri singularreko ziozun 'zenion' adizkian bezala(1931: 266). Bestalde, Bidania, Albiztur eta Alkizan osagarri singulardun adizki batzuetan ere badago -ka-: giñuka(u)n &amp; giñokan 'genion', ziñukan 'zenion', ziñukazuen 'zenioten'(Bähr 1931: 266-267). Baliteke singularreko adizkiak arkaismoak izatea, eta beraz, osagarri pluraldun adizkietako pluralgilea -z-izatea eta ez -zka-. Baina baliteke, era berean, -ka-datibo morfema izatea osagarri singularreko adizkietara hedatu dena, -zka-pluralgilearen berranalisiz: demagun, -z-ka-&gt; -zka-&gt; -z-ka-. izan ere, jarraian ikusiko dugun moduan, ez dira herri horiek -zkapluralgilea duten bakarrak.29  Beizama "hari" datiboko adizkietan Bidania, Albiztur eta Alkizarekin batera zihoala dirudi; osagarri singularrarekin giñukan 'genion', ziñukan 'zenion' gisakoak daude, vs. urolaldeko herrietako giñon, ziñon, etab.(Bähr 1931: 266-269).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="36">Zieat &gt; ziet &gt; zeet gerta zitekeen, edo zieat &gt; zeeat &gt; zeet; baita pluraleko adizkian ere: esate baterako, ziezteat &gt; zieztet &gt; zeeztet.37  "Zahar" deitu diegu geroago beste batzuek ordezkatu dituztelako; izatez, berrikuntzak lirateke.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="40">Hala ere, 1730 aldera *eradun oinarriko adizkiak ez ziren guztiz desagertu; cf. iraz (1739): diuzcun, ciuzcun, diuztegun, diuztezun, diuztazula, etab. 41 gipuzkoara iritsi egin zela diogu, ustez, nafarroan [*nin &amp; *eradun + -zki-] eta lapurdin [*eradun + -zki-] egituradun adizkiak gipuzkoan testuetan -zki-pluralgilea agertu baino lehenagokoak direlako (eKc). dena dela, sakonago aztertu beharreko gaia dugu hau.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="42">Baliteke eragin literarioari zor izana Azkoitian xviii. mendean -zki-pluralgilea agertzea, xx. mendeko ahozko datuetan ditzit &amp; ditxit 'dizkit' ageri baitira bertan, urolaldeko zenbait herritan bezala(Bähr 1926: 372; cf. leturiaga 2020).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="43">Diozkat erakoak ez ditugu sartu, esan bezala, Beterri aldeko herrien artetik Pasaian soilik ageri direlako eta taula honetan eskualde bakoitzeko ikuspegi orokorra eskaini nahi izan dugulako, herri bakoitzeko xehetasunak eman gabe. Bestalde, Beterri eta tolosaldea batera jarri ditugu, tolosaldeko herri batzuk Beterri direlako.44  Beterritik hurbilen dauden herrietan -zki-/-xki-pluralgiledun adizki batzuk ere jaso zituen, baina badirudi xx. mendetik hona hedatu direla urolaldeko herri gehienetan horrelakoak (cf. leturiaga 2020).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="45">izan ere, aipatu dugunez, urolaldeko testuetan ez da jaso *eradun oinarriko diuzku gisakorik, eta beraz, zaila dirudi diauzku &gt; dizku gertatu zela pentsatzea. gainera, -iu-gisakoak jaso diren eskualdeetan ere ez dirudi oso hedatuta zeudenik, ezta luzaroan egon zirenik ere, agerraldi gehienak egile berarenak baitira; irazustarenak, alegia. Horregatik, uste dugu arrazoiak egon badaudela, besteak beste, urolaldean ageri diren dizku, ditzu, dizko erako adizkiak *nin errokoak direla pentsatzeko.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="49">Hala ere, Zizurkilen hiztun zaharrengandik niozkan, ziozkan erakoak oraindik entzun daitezkeela dioskuteensunza &amp; reguerok (2011: 19).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="50">ez da erraza jakiten erroa *nin ala *eradun den. izan ere, oraindik [*eradun + -tza-] egitura dago Ataundik gertu, nafarroako etxarri-Aranatzen; cf. irizar(1991-ii: 394).</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>AnuArio del seminArio de filologíA vAscA "julio de urquijo" international journal of Basque linguistics and Philology ASJU liii (1/2), 2019 <ref type="bibr">[2021]</ref> AurkiBideA / summAry / índice Antón ugarte muñoz, luis michelena (koldo mitxelena) y la creación del seminario de filología vasca «julio <ref type="bibr">de urquijo» (1947-1956)</ref> / Luis Michelena <ref type="bibr">(Koldo Mitxelena)</ref> and the founding of the «Julio de Urquijo» Basque Philology <ref type="bibr">Seminar (1947</ref><ref type="bibr">Seminar ( -1956</ref> </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Bada, osagarri pluraldun adizkiak ikusita pentsa genezake -ii-duten adizki horietan tripertsonaletako *eradun oinarria egon daitekeela, beharbada; izan ere, erro zaharraren azken gordelekua izan daiteke Beizama, gipuzkoaren erdi-erdian egonagatik, oso bakartuta baitago. errezilen, ordea, osagarri singularreko adizkietan ere badago -ii-, eta horietan *nin erroa baizik ezin daiteke egon. Hortaz, badirudi -i-e-&gt; -ii-asimilazioa gertatu dela; hots, &quot;haiei&quot; datiboko -e-morfema *nin erroarekin elkartzean diet &gt; diit gertatu dela. Beraz, pentsa daiteke pluraleko adizkietan ere dieztet &gt; diiztet, diezte &gt; diizte, etab. gerta zitekeela; dieztet &apos;dizkiet&apos;, diezte &apos;dizkie&apos; erako jatorrizko adizkietan, hain zuzen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gehiagotan Ere Badago Beizaman</surname></persName>
+		</author>
+		<idno>pluralgile + datibo morfema] egituraz osatutako -zte-litza- teke pluralgilea</idno>
+		<ptr target="14)a.d-i-e-ttam3-*nin-nori3pl-nork1sg" />
+	</analytic>
+	<monogr>
+		<title level="m">diitzut &apos;dizkizut&apos; (116), diitzuet &apos;dizkizuet&apos; (120)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Adizki gehiagotan ere badago -ii-errezilen: iraganaldiko ziin &apos;zien&apos; &amp; ziizten &apos;zizkien&apos;, giindun &apos;genien&apos; &amp; giiztendun &apos;genizkien&apos; adizkietan</title>
+		<imprint>
+			<date type="published" when="1934" />
+			<biblScope unit="page">67</biblScope>
+		</imprint>
+	</monogr>
+	<note>besteak beste</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Beizaman ere badaude diitzit &apos;dizkiat&apos; (112), diitzik &apos;dizkik&apos; (112), diitzut &apos;dizkizut&apos; (116), diitzuet &apos;dizkizuet&apos; (120) eta gisa bereko adizki gehiago (Bähr 1926). 39 Hori horrela izanik</title>
+		<ptr target="badirudi-ii-adizkigehiagotarahedatuzela,analogiaz" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">gipuzkoako hainbat hizkeratan dizko/dizka &apos;dizkio&apos; &amp; dizte/dizk(o)e &apos;dizkie&apos; gisakoak erabiltzen dira nor-nori-norken 3. pertsona datiboekin; beste pertsona datiboekin ere gisa bereko diztan &apos;dizkidan&apos;, ditzu &apos;dizkizu&apos;, dizku &apos;dizkigu&apos; eta ditzue &apos;dizkizue&apos; daude. izatez, urolaldean, tolosaldean, goierri sortaldean nahiz Beterri aldean entzun daitezke honelakoak, baina urolaldeko herrietan erabiltzen dira batez ere</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Pasaia Eta Oiartzungo Diozka &amp;apos;dizkio&amp;apos; &amp;amp; Diozkate &amp;apos;dizkie&amp;apos; Bezala</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1926" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Alde batetik, *eradun oinarrikotzat hartu izan dira, Ariztimuñok diozka-ren jatorrirako proposatutakoa adizki hauetara ere hedatuz: Borja Ariztimuñori zor diot diozka-ren arrarotasunaz (eta jatorriaz) ohartzea; hark esandakoari, diuzka &lt; diauzka &lt; dirauzka katebegiak gehituz gero</title>
+		<ptr target="egungoeguneanere-itxura-etafuntzio-aldaturik,horibai-*eradun-enformarenaztarnakg-nbizi" />
+	</analytic>
+	<monogr>
+		<title level="m">orain arte bi bide proposatu izan dira aipatu berri ditugun adizki horien jatorrirako</title>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;quot;</forename><surname>Beizaman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Zuri</surname></persName>
+		</author>
+		<ptr target="datiboarekin:diitzut/niitzun&apos;dizkizut/nizkizun&apos;,diitzu/ziitzun&apos;dizkizu/zizki-zun" />
+		<imprint/>
+	</monogr>
+	<note>diitzuu &apos;dizkizugu&apos;, diitzue &apos;dizkizue&apos; (1926: 116; 1931: 259); &quot;zuei&quot; datiboarekin: diitzuet/niitzuen &apos;dizkizuet/nizkizuen&apos;, diitzue/ziitzuen &apos;dizkizue/zizkizuen&apos;, diitzeu &apos;dizkizuegu&apos;, diitzue/ziitzuen &apos;dizkizuete/zizkizueten&apos; (1926: 120; 1931: 263</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">1772: 82) antzerkian ere ciisten &apos;zizkidaten&apos; ageri da. § 5en ikusiko dugunez, goierriko Ataunen ere -ii-dute adizki batzuek</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gtour</forename><surname>Eta Azkoitiko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">olAtZ leturiAgA AngoitiA ASJU</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="127" to="162" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Ataungo diotza Atal honetan gipuzkoako testuetan ageri ez den baina diozka-ren antzerakoa dirudien beste adizki batez jardungo dugu: Ataungo diotza &apos;dizkio&apos; gisakoez, hain zuzen ere. Zaharra da adizki horietako -tza-pluralgilea (&lt; -za</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Antzeko</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<pubPlace>Ariztimuño</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Aukera bat izan daiteke pentsatzea gaur egun nor-nori-nork sailean ataundarrek erabiltzen dituzten diotza &apos;dizkio&apos; gisako adizkiak arkaismoak direla; hots, pluralgile zaharrarekin joan ohi zen *eradun oinarrikoak direla (di(r)autza &gt; diutza &gt; diotza; cf. di(r)auzka &gt; diuzka &gt; diozka</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gipuzkoako Hizkera Gehienetan Adizki Gutxi Batzuetan Baino Iraun Ez Badu Ere</surname></persName>
+		</author>
+		<ptr target="d-io-tZA-Ø-Øtam3-*eradun-nor3pl-nori3sg-nork3sg" />
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+			<biblScope unit="page">50</biblScope>
+		</imprint>
+	</monogr>
+	<note>Ataunen beste inon baino gehiago erabiltzen da pluralgile hau oraindik ere; nor sailaz gain, nor-nork eta nor-nori-nork sailetan ere bai (cf</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">(t)za-pluralgile zaharrak &quot;hari&quot; datiboa barnehartzen zuela, eta beraz, ez litzateke harrigarri adizki horietan datibo morfema Ø izatea. dena dela, hori onartuta ere, datuak ez genituzke guztiz alde dirautza &gt; diotza defendatzeko: goierrin otxoa Arin (1713) ordiziarrak, esate baterako, dirautza &apos;dizkio&apos; (66) dakar, baina *diotza-ren ordez diozcan &apos;dizkion&apos; (156), -ka-eta guzti. gainera, esan bezala, diotza &apos;dizkio&apos; adizkia *eradun oinarriakoa izan daitekeen arren, paradigmako Ataungo gainerako adizkiak modu berean azaldu ahal izateko, onartu beharko genuke *eradun oinarriak datibo pertsona bakoitzarekin bilakabide desberdin bat izan zuela: batzuetan, -io-(diotza &apos;dizkio&apos;), bestetan -iu-(diutza &apos;dizkigu&apos;) eta baita -ie-(dietza &apos;dizkie&apos;) ere; baina -irau-k ezin eman litzake -io-, -iu-eta -ie-guztiak batera, eta gainera, hipotesi honetan pluralgilearen ondoko datibo morfemak faltako lirateke</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Honenbestez</surname></persName>
+		</author>
+		<idno>honela azal liteke Ataungo diotza &apos;dizkio&apos; bezalako adizkiak *era- dun oinarrikoak izatea: alde batetik, leturiaga (2020: 372)-n azaldu bezala, ba- dirudi -</idno>
+		<ptr target="16)a.d-io-tZA-Ø-Øtam3-*eradun-nor3pl-nori3sg-nork3sg" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Beste aukera bezala, pentsa genezake diotza &apos;dizkio&apos; adizkian, -io-beharrean, -idela *eradun-en hondarra (dizku &apos;dizkigu&apos; gisako adizkietarako proposatu izan den bezala; cf. lakarra 1985: 257) eta -o-, berriz, 3. pertsona singularreko datibo morfema. Azalpen hau ontzat emango bagenu, modu berean azal litezke dietza, diutza eta gainerako adizkiak ere</title>
+		<ptr target="17)a.d-i-o-tZA-Øtam3-*eradun-nori3sg-nor3pl-nork3sg" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.22414</idno>
+		<ptr target="https://doi.org/10.1387/asju.22414" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">bigarren azalpen honek ere ez dirudi oso sendoa. izan ere, adizki horietan &quot;aditz erroa + datibo morfema + osagarriaren pluralgilea&quot; egitura dagoela onartu beharko genuke, eta hori ez da oso ohikoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Haatik</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="volume">32</biblScope>
+			<pubPlace>Ariztimuño</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">dizkigu&apos; egia esan, adizkiok formalki nahiko urruti daude bata bestetik. Horregatik guztiagatik, aproposagoa dirudi pentsatzea Ataungo diotza &apos;dizkio&apos; gisakoak bestela eratuak direla, eta ez iraganeko *eradun oinarrikoetatik eratorrita. Aukera bat izan daiteke pentsatzea hauek ere *nin erroko adizki singularretatik abiatuta sortuak direla, diozka bezalako adizkietarako proposatu bezala; Ataungo kasuan, singularreko adizkiari -tza-pluralgilea atzetik gehituta. Hau da: dio &gt; diotza (dio + -tza-) &apos;dizkio&apos;; diu &apos;digu&apos; &gt; diutza &apos;dizkigu&apos;; die &gt; dietza &apos;dizkie&apos;, etab. ondoren, analogiaz, egitura bera adizki gehiagotara hedatu zatekeen, beharbada. egia da bigarren aukera honetan ere datibo morfema osagarriaren pluralgilearen aurretik dugula, baina, aipatu dugunez, badira horrelako adibide gehiago *nin erroarekin; cf. diezcun &apos;dizkiegun&apos; (Ariztimuño 2016: 32; reguero 2019: 210). gaur egun ere, Pasaian badira siaskiyen &apos;zizkidan&apos;, siaskiten &apos;zizkidaten&apos;, seniaskisuten &apos;zenizkidaten&apos;, etab. (Agirretxe et alii 2000: 126)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;apos;</forename><surname>Eradun Oinarriko **d-Irau-O-Tza-Ø &amp;apos;dizkio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">*</forename><surname>*d-Irau-Gutza-Ø &amp;apos;dizkigu&amp;apos; Egiturarik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bestalde</surname></persName>
+		</author>
+		<idno>dizkiogu&apos; e. dirauzcu (1713: 58) → diutza</idno>
+		<ptr target="*ninhipotesiarenaldeegitekoelkarrenosagarridirela.izanere,badirudihipotesihonekinadizkibatbainogehiagoazallitezkeela,etahorrek,aldiberean,hipotesiaindartzenduela" />
+	</analytic>
+	<monogr>
+		<title level="m">berriz ere testu zaharretara itzuliz, nola liteke xviii. mendean otxoa Arin (1713) ordiziarrak dakartzan adizkietatik abiatuta, Ataunen Bährek (1926) bildutakoak azaltzea? (18) a. dirauztaçu(la) (1713: 145) → diitzazu</title>
+		<imprint>
+			<date type="published" when="1926" />
+		</imprint>
+	</monogr>
+	<note>Hau guztia ikusita, pentsa daiteke Ataungo diotza &amp; dietza eta gipuzkoako testuetako diozka &amp; diezte adizkiek egitura bera dutela, eta hortaz</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Alde batetik, diozka &apos;dizkio&apos; erakoez aritu gara eta, *eradun oinarrikotzat hartu izan diren arren (Ariztimuño, apud lakarra 2011: 257), ikusi dugu *nin errokoak ere izan daitezkeela; are gehiago, *nin errokoak izateko aukera gehiago dutela, beharbada. Hipotesi horren alde honako argudio hauek aipatu ditugu: -Jatorrizko adizkien hutsunea: urolaldeko testuetan ez dugu -iu-erako adizkirik topatu -itziar (1790 [1768]) testuko bi adibideak salbuespentzat hartuta</title>
+	</analytic>
+	<monogr>
+		<title level="m">Ondorioak Artikulu honetan gipuzkoako testu zaharretan ageri diren osagarri pluraldun adizki tripertsonal batzuk izan ditugu hizpide</title>
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="127" to="162" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">beharko genuke, eta horrek datuak ad hoc interpretatzera garamatza. gainera, adizki batzuetan *eradun oinarriko -i(r)au-dun forma zaharrak ere falta dira; cf. dirautza &amp; diozka baina *dirauzka (oArin 1713). -nor-nori-norkeko diezte eta nor-noriko zaiozka: &quot;haiei&quot; datiboko adizki tripertsonaletan diezte erakoak ere topatu ditugu; -irau-k, beharbada, eman lezake -io-, baina ez -io-&amp; -ie-, aldi berean. Halaber, nor-noriko zaiozka &amp; zaiezte adizkiak aurkitu ditugu Beterri, tolosalde eta goierri eskualdeetako testu batzuetan; horiek izan erroa baizik ezin dira izan, eta beraz, erakusten dute inoiz zaio &gt; zaiozka (zaio + -zka-) eta zaie &gt; zaiezte (zaie + -zte-) bilakabideak gertatu zirela, dio &gt; diozka (dio + -zka-) tripertsonaletarako proposatu bezala. --zka-&amp; -zte-pluralgileen agerraldiak ahozkoan: alde batetik, -zka-aurkitu dugu Pasaian eta oiartzunen (diozka, diozkate); beste aldetik, urolaldeko nahiz ondoko herrietako iraganaldiko adizki neutro batzuetan eta hitanoko adizki alokutibo batzuetan -zka-ez ezik, -zte-ere topatu dugu (besteak beste, ziñozkan &lt; *ziniozkan/*zeniozkan; giñezten &lt; *giniezten/*geniezten)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Zuloaga</surname></persName>
+		</author>
+		<ptr target="Horrekerakustendigu-zka-eta-zte-[pluralgile+datibomorfema]egiturazosatutakopluralgileakinoizegondirela,etadio&gt;diozka;die&gt;diezte;zaio&gt;zaiozkabila-kabideakposibledirela" />
+		<editor>honenbestez, *eradun-en hipotesiari eusteko adizki batzuetan -i(r)au-&gt; -iu-&gt; -io-disimilazioa eta beste batzuetan -i(r)au-&gt; -io-monoptongazioa gertatu dela defendatu</editor>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Hau da: diozka &gt; dizka &gt; (d-i-z-ka-Ø interpretatu) &gt; dizku (d-i-z-ku-Ø), ditzu, diztan, etab. nolanahi ere, badirudi -zki-berrikuntza iristean, [*nin + -zki-] egituradun adizkiak nagusitu zirela, aurreko [*nin + -z-] egituradunak atzean utzita. testu zaharren eta ahozko datuen arabera, pentsa daiteke [*nin + -z-] → [*nin + -zki-] berrikuntza lehenago gertatu dela Beterrin, tolosaldean nahiz goierri sortaldean, eta geroago, aldiz, urolaldean; hain zuzen ere, hori izan daiteke arrazoia urolaldean dizko/dizka &apos;dizkio&apos;, dizku &apos;dizkigu&apos;, ditzu &apos;dizkizu&apos; modukoei luzaroago eta adizki gehiagotan eusteko. esandakoa aintzat hartuta, argi dago orain arte esan izan den moduan gipuzkoako historian bi garai nagusi bereizi behar direla osagarri pluraldun adizki tripertsonalei dagokienez: 1) *eradun oinarria erabili izan den garaia; eta 2) *nin erroa erabili izan dena. Hala ere, badirudi *nin erroa pluralgile bati baino gehiagori lotu izan zaiola. Hori horrela izanik, guk, saio honetan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Beste Aldetik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gipuzkoako Hainbat Hizkeratan -Gaur Egun</surname></persName>
+		</author>
+		<ptr target="urolal-dean-entzundaitezkeendizka/dizko&apos;dizkio&apos;,dizte/dizk(o)e&apos;dizkie&apos;erakoadiz-kiezjardundugu.gainera" />
+		<imprint/>
+	</monogr>
+	<note>ikusi dugu gipuzkoako testuetako diozka *nin errokoa dela frogatzeak erakuts lezakeela, agian, aurreko horiek ere *nin errokoak direla. izan ere, oiartzungo adizkiek pentsarazten digute diozka &gt; dizka gertatu ahal izan zela (Bähr 1926-1935; eHHA: 1375), eta beraz, dizka ere *nin errokoa dela. ildo beretik, proposatu dugu dizka horren analogiaz sortuak izan daitezkeela beste pertsona datibodun adizkiak. honako kronologia hau proposatu dugu: 1. *eradun oinarria erabiltzen zen, -(t)za-eta -z-pluralgileekin batera; cf. dirautza, zirauzkan, ziuzkun, etab. (a quo iraz 1739</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">2. *nin erroa iritsi eta *eradun ordezkatu zuen (3. pertsona singular datibotik hasita, lapurdin bezala), -zka-pluralgileari lotu zitzaiolarik; cf. dio → diozka &apos;dizkio</title>
+		<idno type="DOI">10.1387/asju.22414</idno>
+		<ptr target="https://doi.org/10.1387/asju.22414" />
+		<imprint/>
+	</monogr>
+	<note>ante quem oArin 1713</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Diozka &amp;gt; Dizka Soiltzea Gertatu, D-I-Z-Ka-Ø Moduan Interpretatu</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>*nin + -z-] egituradun diztan &apos;dizkidan&apos;, ditzu &apos;dizkizu&apos;, dizku &apos;dizkigu&apos; erakoak sortu ziren (ante quem Kardab 1744</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">] egituradun dizkidan, dizkigu, dizkizu erako adizki berriek diztan, dizku, ditzu zaharragoak ordezkatu zituzten -eskualde batzuetan lehenago [Beterri, tolosaldea eta goierri sortaldea] eta besteetan geroago</title>
+		<idno>zki-berrikuntza iristean [*nin + -zki-</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">AgirAst (1803), lardiz (1855), otaegi (xviii-xix). Haatik, uste dugu balitekeela geroagoko agerpen horiek literatur gipuzkeraren eraginari zor izana. izan ere, larramendiren gramatikan (1729) ageri dira, besteak beste, diozka &apos;dizkio&apos; &amp; diezte/diozkate &apos;dizkie&apos; erako adizkiak 3. pertsona datiboarekin, eta gogoan izan behar dugu zenbait idazleren eredu izan zela andoaindarra. Hori dela eta, gure iritzian, ez da kasualitate hutsa larramendiren gramatikan bildutako adizki horiek berak aurkitzea, hala nola, Kardaberatz, lariz, ubillos, Agirre Asteasukoa, lardizabal eta otaegi Beizamakoaren testuetan. ildo beretik, proposatu duguna da literatur eredutzat hartu izan ziren idazle eta lanetan agertu izanak lagundu zezakeela geroagoko autoreek ere -ustez</title>
+		<ptr target="dizka/dizkio&amp;dizte/dizkiebainozaharragoakdiren-diozka&amp;diezte/diozkateadizkiakerabiltzea" />
+	</analytic>
+	<monogr>
+		<title level="m">egia da ez datorrela bat kronologia honekin xviii-xix. mendeetako gipuzkoako testuetan diozka &amp; diezte erakoak agertzea; cf. lariz (1773), ubill (1785)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">1803. confesioco eta comunioco sacramentuen gañean eracusaldiac. tolosa: Francisco lama</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juan</forename><surname>Agirre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bautista</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Joxe luix, mikel lersundi &amp; ortzuri olaetxea. 2000. Pasaiako hizkera. Pasaia: Pasaiako udala</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Agirretxe</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pedro</forename><surname>Aldazával Y Murguía</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Joseph</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1768" />
+			<biblScope unit="page">1790</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+				<title level="m">ama Virgina santisima Yciarcuaren bederatci urrena. tolosa: Fermin Huarte eta Arlegui</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Antzerkiaren transkripzioa eta hainbat ohar</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñaki</forename><surname>Aldekoa</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="69" to="91" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fidel</forename><surname>Altuna</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="611" to="649" />
+		</imprint>
+	</monogr>
+	<note>loiolako dotrina. aSJU</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fidel</forename><surname>Altuna</surname></persName>
+		</author>
+		<editor>erakusaldiak. antologia. Juan Bautista agirre. donostia: elkarlanean</editor>
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">ochoa de Arin-en Doctrina christiana-ren (1713) hizkeraren laburpena</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patxi</forename><surname>Altuna</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="573" to="589" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">larramendi eta literatur-gipuzkera</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xabier</forename><surname>Altzibar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Joseba A. lakarra (arg.), Manuel Larramendi. Hirugarren mendeurrena 1690-1990</title>
+		<meeting><address><addrLine>Andoain</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="325" to="360" />
+		</imprint>
+	</monogr>
+	<note>Andoaingo udala, euskaltzaindia, eusko Jaurlaritza &amp; gipuzkoako Foru Aldundia</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Jose Otxoa arin (1672-1743), gipuzkera literarioaren aitzindari. lazkao: goierriko euskal eskola, maizpide euskaltegia &amp; lazkaoko udala</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pello</forename><forename type="middle">Joxe</forename><surname>Aranburu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Marian Bidegain</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note>Antton idiakez &amp; iñaki rezola</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Finite Verbal morphology. in mikel martínez-Areta (arg.), Basque and Proto-Basque. Language Internal and Typological approaches to Linguistic reconstruction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Borja</forename><surname>Ariztimuño</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">olAtZ leturiAgA AngoitiA ASJU</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="127" to="162" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note>Frankfurt am main: Peter lang</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">euskararen dialekto zaharrak aztertzeko saioa: aitagureen mithridates baten deskribapena. in gotzon Aurrekoetxea, Jesus mari makazaga &amp; Patxi Salaberri muñoa (arg.), Hire bordatxoan. Txipi Ormaetxea omenduz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Borja</forename><surname>Ariztimuño</surname></persName>
+		</author>
+		<idno>21-40. Bilbo: uPV/ eHu</idno>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerhard</forename><surname>Bähr</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1926" />
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="370" to="394" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">estudio sobre el verbo guipuzcoano. rIeV 18</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerhard</forename><surname>Bähr</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1927" />
+			<biblScope unit="page" from="437" to="469" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">estudio sobre el verbo guipuzcoano. rIeV 19</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerhard</forename><surname>Bähr</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1928" />
+			<biblScope unit="page" from="287" to="312" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">estudio sobre el verbo guipuzcoano. rIeV 22</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerhard</forename><surname>Bähr</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1931" />
+			<biblScope unit="page" from="245" to="269" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">estudio sobre el verbo guipuzcoano. rIeV 25</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerhard</forename><surname>Bähr</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1934" />
+			<biblScope unit="page" from="63" to="77" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Joaquín gorrochategui &amp; Blanca urgell (arg.), Koldo Mitxelena Katedraren II. Biltzarra, 621-649. Bilbo: uPV/eHu. camino, iñaki</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gidor</forename><surname>Bilbao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">lubieta, izen berri bat euskal testuen historian. in Joseba A. lakarra</title>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="93" to="131" />
+		</imprint>
+	</monogr>
+	<note>Hizkuntza-ospearen eta eragin lektalaren zirurikak ipar euskal Herriko jende, mintzo eta idazkietan</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Pregarioac Bayonaco Diocezacotz (1651) [pdf]. in ricardo gómez, Borja Ariztimuño, gidor Bilbao, iñaki camino, Joseba A. lakarra, Julen manterola, céline mounole, urtzi reguero &amp; eneko Zuloaga (arg</title>
+		<idno>iñaki &amp; céline mounole. 2014</idno>
+		<ptr target="gasteiz:uPV/eHukolanargitaragabea" />
+	</analytic>
+	<monogr>
+		<title level="m">euskal Testu Zaharren Bilduma Berria</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Senpereko (eta Lapurdiko) euskara xviii. mendean. Senpere: lapurdi 1609 elkartea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xabier</forename><surname>Elosegi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Zizurkil ahoz aho</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ariane</forename><forename type="middle">&amp;amp;</forename><surname>Ensunza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Reguero</surname></persName>
+		</author>
+		<ptr target="http://www.zizurkil.eus/barrena/hizkera/Zizurkil%20ahoz%20aho_definitiboa%20def.pdf(2020/10/10" />
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">euskal Klasikoen corpusa (eKc). leioa: uPV/eHu</title>
+		<ptr target="https://www.ehu.eus/ehg/kc/(2020/09/21" />
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">euskararen Herri Hizkeren atlasa, 6. lib. Bilbo: euskaltzaindia (= eHHA)</title>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Goierriko eta Tolosalde hegoaldeko hizkerak. lazkao: goierriko euskal eskola Kultur elkartea, maizpide euskaltegia &amp; lazkaoko udala</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Irene</forename><surname>Hurtado</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juan</forename><surname>Irazusta</surname></persName>
+		</author>
+		<title level="m">Doctrina christiana eguin zuana erdaraz: aita Gaspar astete Jesuitac. Ipini du eusqueraz D. Juan Irazuzta, erretore Hernialdecoac. iruñea: Joseph Joaquin martinez</title>
+		<imprint>
+			<date type="published" when="1739" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Morfología del verbo auxiliar guipuzcoano, 2 lib. Bilbo: euskaltzaindia. iztueta, Juan ignacio. 1824. Gipuzkoako dantza gogoangarrien kondaira edo historia. donostia: ignacio ramón Baroja</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pedro</forename><surname>Irizar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Kardaberatz</surname></persName>
+		</author>
+		<idno>Agustín. 1744. christavaren vicitza. iruñea: Anchuela</idno>
+		<ptr target="https://klasikoak.armiarma.eus/idazlanak/K/KardaberazKristabai.htm(2020/10/10" />
+		<imprint/>
+	</monogr>
+	<note type="report_type">Bittor Hidalgoren argit. elektr. erabili dut</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">literatur gipuzkerarantz: larramendiren Azkoitiko sermoia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1985" />
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="235" to="282" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">639-681. lakarra, Joseba A. 1987. oikiako dotrina (1759)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">aSJU</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="515" to="564" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+	<note>Bizkaiera zaharra euskalkien artean</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">refranes y sentencias-en hizkeraz eta bizkaiera zaharraz. refranes y sentencias (1596</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="147" to="198" />
+		</imprint>
+	</monogr>
+	<note>Bilbo: euskaltzaindia</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">gogoetak euskal dialektologia diakronikoaz: euskara Batu Zaharra berreraiki beharraz eta haren banaketaren ikerketaz. in irantzu epelde (arg.), euskal dialektologia: lehena eta oraina</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="155" to="241" />
+		</imprint>
+	</monogr>
+	<note>Bilbo: uPV/eHu</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.22414</idno>
+		<ptr target="https://doi.org/10.1387/asju.22414" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<ptr target="Bilbo:euskaltzaindia" />
+		<title level="m">gasteiz: eusko Jaurlaritza. lakarra, Joseba A., Julen manterola &amp; iñaki Segurola. 2019. euskal hiztegi historiko-etimologikoa</title>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="23" to="229" />
+		</imprint>
+	</monogr>
+	<note>Joakin gorrotxategi, iván igartua &amp; Joseba A. lakarra (arg.), euskararen historia. eHHe-200</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francisco</forename><surname>Lardizabal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ignacio</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1855" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Blanca urgell (arg.). donostia: labayru (Argit. elektr. erabili dut: Klasikoen gordailua</title>
+		<ptr target="https://klasikoak.armiarma.eus/idazlanak/l/lardizabalZarreko.htm(2020/10/10" />
+		<imprint/>
+	</monogr>
+	<note>Testamentu Zarreko kondaira (I eta II)</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francisco</forename><surname>Lardizabal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ignacio</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1855" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Blanca urgell (arg.). donostia: labayru (Argit. elektr. erabili dut: Klasikoen gordailua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Testamentu</forename><surname>Berriko Kondaira</surname></persName>
+		</author>
+		<ptr target="https://klasikoak.armiarma.eus/idazlanak/l/lardizabalBerriko.htm(2020/10/10" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francisco</forename><surname>Lardizabal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ignacio</surname></persName>
+		</author>
+		<title level="m">Gramática Vascongada. donostia: ignacio ramón Baroja</title>
+		<imprint>
+			<date type="published" when="1856" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title level="m" type="main">cristau dotrinaren esplicacioa aur-enzat ta andienzat: galdetuaz ta eranzunaz Maisuaren ta Iracaslearen artean. madril: Antonio Sancha. larramendi, manuel. 1729. el imposible vencido</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xavier</forename><surname>Lariz</surname></persName>
+		</author>
+		<editor>Antonio Joseph Villagordo Alcaráz</editor>
+		<imprint>
+			<date type="published" when="1773" />
+			<pubPlace>Salamanca</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Berrargit. faksim. donostia: Hordago</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title level="m" type="main">Diccionario Trilingüe del castellano, Bascuence y Latín. donostia: Bartholomé riesgo y montero. (Berrargit. faksim. donostia: txertoa</title>
+		<idno>manuel. 1745</idno>
+		<imprint>
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Manuel</forename><surname>Lekuona</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1956" />
+		</imprint>
+	</monogr>
+	<note type="report_type">gabon-kantak</note>
+	<note>egan 5-6. 9-44</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<title level="m" type="main">gipuzkoa erdialdeko pluralgileeen azterketa. in iñaki camino, Xabier Artiagoitia, irantzu epelde &amp; Koldo ulibarri (arg.), eibartik Zuberoara euskalkietan barrena. Koldo Zuazori gorazarre</title>
+		<idno>olatz. 2020</idno>
+		<ptr target="donostia:eskuizkribuargitaragabea(gidorBilbaorentrans-kripzioaerabilidut" />
+		<imprint>
+			<biblScope unit="page" from="367" to="402" />
+		</imprint>
+	</monogr>
+	<note>Bilbo: uPV/eHu. lubieta, Josseph domingo. 1728. Diccionario en casttellano y Basquenze que sirve para la enseñanza de la bascongada</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Azpiazu &amp; Jerardo elortza. 2009. xviii. eta xix. mendeetako Azpeitiko euskal testu batzuk</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juan</forename><surname>Madariaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">José</forename><surname>Antonio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FLV</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="5" to="45" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title level="m" type="main">lardizabal&apos;en euskeraz zertxobatt</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fernando</forename><surname>Mendizabal</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1956" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="183" to="205" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Bilbo: uPV/eHu. mounole, céline &amp; ricardo gómez</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Céline</forename><surname>Mounole</surname></persName>
+		</author>
+		<ptr target="gasteiz:euskoJaurlaritza" />
+	</analytic>
+	<monogr>
+		<title level="m">gasteiz: eusko Jaurlaritza. mounole, céline &amp; Joseba A. lakarra. 2018. euskara Arkaikoa. in Joakin gorrotxategi, iván igartua &amp; Joseba A. lakarra (arg.), euskararen historia</title>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="345" to="468" />
+		</imprint>
+	</monogr>
+	<note>datibo-komunztaduraz eta laguntzaile hirupertsonalen diakroniaz. in Beatriz Fernández &amp; Pello Salaburu (arg.), Ibon Sarasola, gorazarre</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Gabon-sariak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xabier</forename><surname>Munibe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Maria</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Teatro zaarra</title>
+		<editor>gabriel Aresti</editor>
+		<imprint>
+			<publisher>tolosa: Auspoa</publisher>
+			<date type="published" when="1965" />
+			<biblScope unit="volume">1762</biblScope>
+			<biblScope unit="page" from="47" to="77" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Teatro zaarra, 78-160. tolosa: Auspoa. murugarren, luis. 1984. una plática del goyerri</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xabier</forename><surname>Munibe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Maria</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">aSJU</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="185" to="197" />
+			<date type="published" when="1965" />
+		</imprint>
+	</monogr>
+	<note>1764. el borracho burlado. in gabriel Aresti (arg</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Felipe agustin Otaegui Beizamako erretorearen eskuizkribuak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Beatriz</forename><surname>Otaegi</surname></persName>
+		</author>
+		<ptr target="https://www.euskadi.eus/appcont/tesisdoctoral/PdFak/Beatriz_otaegi_teSiA.pdf(2020/10/10" />
+	</analytic>
+	<monogr>
+		<title level="m">Beizama &amp; donostia: Beizamako udala, gipuzkoako Foru Aldundia &amp; Kutxa Fundazioa</title>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="1767" to="1840" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Berrargit. elektr.</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">olAtZ leturiAgA AngoitiA ASJU</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="127" to="162" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<monogr>
+		<title level="m" type="main">Doctrina christianaren explicacioa Villa Franca Guipuzcoaco onetan euscaraz itc eguiten dan moduan. donostia: Pedro de ugarte</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">José</forename><surname>Otxoa Arin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1713" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">le dauphin: euskarazko gutunak (1757). in Xabier lamikiz, manuel Padilla &amp; Xarles Videgain, Othoi çato etchera. Le Dauphin itsasontziko euskarazko gutunak (1757)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Manuel &amp;amp; Xarles</forename><surname>Padilla</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Videgain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Baiona: centre de recherche iker</title>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="95" to="161" />
+		</imprint>
+	</monogr>
+	<note>= Lapurdumen ale bereziak 2</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<monogr>
+		<title level="m" type="main">nor-nori-nork saileko perifrasietako aditz laguntzaileak goi-nafarreraz: azterketa eta proposamen berria</title>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="683" to="695" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<monogr>
+		<title level="m" type="main">Filologiatik dialektologiara Nafarroako euskarazko testu zaharretan barrena (1416-1750) (aSJUren gehigarriak 71</title>
+		<idno>urtzi. 2019</idno>
+		<ptr target="Bilbo:uPV/eHu" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<monogr>
+		<title level="m" type="main">euskal testu zaharrak I. Bilbo: euskaltzaindia. ubillos, Juan Antonio. 1785. christau doctriñ berri-ecarlea christauari dagozcan eguia sinisbeharren-berria dacarrena. tolosa: Francisco de la lama</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">José</forename><surname>Satrustegi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>María</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<monogr>
+		<title level="m" type="main">Testamentu Berriko kondaira. Francisco Ignacio Lardizabal</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Blanca</forename><surname>Urgell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note>donostia: labayru</note>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">gasteiz: eusko Jaurlaritza. urkizu, Patri. 2008-2009. un texto olvidado del siglo xvii: Sumario brebea... (Azkoitia, 1614). revista de lenguas y literaturas catalana, gallega y vasca 14</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Blanca</forename><surname>Urgell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Joakin gorrotxategi, iván igartua &amp; Joseba A. lakarra (arg.), euskararen historia</title>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="207" to="217" />
+		</imprint>
+	</monogr>
+	<note>lehen euskara modernoa</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<monogr>
+		<title level="m" type="main">Jose Vicente de echagaray. Festara. (Bere bertso guzien bilduma). tolosa: Auspoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Antonio</forename><surname>Zavala</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1964" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<monogr>
+		<title level="m" type="main">Mendebaleko euskararen azterketa dialektologiko-diakronikorantz. gasteiz: uPV/eHuko doktoretza tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eneko</forename><surname>Zuloaga</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

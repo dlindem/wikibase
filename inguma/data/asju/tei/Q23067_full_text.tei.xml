@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUSKALKIEN DIALEKTOTASUNAZ</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2009">2009</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gotzon</forename><surname>Aurrekoetxea</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universidad del País Vasco/Euskal Herriko Unibertsitatea -EHHA</orgName>
+								<address>
+									<country>Euskaltzaindia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">EUSKALKIEN DIALEKTOTASUNAZ</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="page" from="119" to="136"/>
+							<date type="published" when="2009">2009</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena</head><p>The writer deals with the issue of the distribution and classification of the Basque dialects from a scientific point of view by analysing the theoretical approaches of the last few years from a critical perspective. In the process, the author establishes certain important conceptual boundaries: the methodology used when determining the dialects, the function of the diachronic and synchronic approaches, the criteria and the methodology applied for determining the number of dialects, the value of the distinctness of dialects, the language border issue, the homogeneity of the dialects and the nature of the geolinguistic coherence. Two types of dialectologies are distinguished throughout the article: the traditional dialectology based on isoglosses and a diachronic perspective; and the contemporary dialectology which is discussed through synchrony and uses statistical classifying procedures. He ends by placing the future of dialectology in the use of new technologies and methodologies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Sarrera</head><p>Aspaldi izan dut gogoan gai honi buruz zertxobait idazteko. Gaia burura etor tzen izan zaidan bakoitzean Axularren gomendioari muzin eginez, behin eta berriz atzeratuz eta gibelatuz joan izan naiz.</p><p>Baina Caminoren (2004) lan bat berrirakurtzean, han aipatzen diren gauza askotxorekin bat etorri ez eta, arrapiztu zait gogoa eta ondoko lerroak idazteari ekin diot.</p><p>Oro har, diodan, oso urrun kokatzen dudala nire burua gorago aipatu artikuluan azaltzen duen marko teorikotik. Izan ere, "dialektologia" eta "dialektologiaren metodologiaz" ari denean "dialektologia mota bat" eta "dialektologia mota baten metodologiaz" diharduela irizten baitiot. Dialektologiaren ezaugarriak aipatzen dituenean, dialektologia mota baten ezaugarritzak direla esango nuke nik, dia lek to lo gia egiteko bide bat eta metodologia bat baino gehiago dagoelako, honezkero jada oso ondo demostratuta dagoen kontua baita.</p><p>Baina ez naiz metodologia orokorrez arituko hemen, hizkerak eta dialektoak banandu edo sailkatzean ditugun ikuspuntu desberdinez baino.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Hizkeren banatzeko eta sailkatzeko metodologiaz</head><p>Hizkeren edo dialektoen sailkapenerako metodologia aukeratzean historian zehar molde desberdinak erabili direla ukaezinezko errealitatea da. Hemen bi mota aipa tu ko ditugu: dialektologia tradizionala edo ohiko dialektologia eta dialektologia sinkronikoa.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Dialektologiaren hasieran eta isoglosa kontzeptuarekin bat eginik, gramatika historikoaren garaietan eta hizkuntzalaritza diakronikoaren irizpideak jarraituz, ezaugarri zenbaitek markatzen dituen isoglosetan oinarrituz aritu izan da dialektologia tradizionala. Hizkuntza batzuetatik besteetara eta ikertzaile batzuengandik besteengana ezaugarri kopurua aldatzen den arren, denetan antzeko molde eta arteak erabili izan dira dialektoak detektatzeko, eta hauen banaketa eta konparaketa egiteko. Metodologia hau gehienetan isofono edo isomorfoetan oinarritu da. Ezaugarri asko erabiltzetik bakar batzuetan oinarritzeraino heltzen da kasuistika.</p><p>Dialektoen banaketa egiteko molde honen jarraitzaile asko izan dira euskal dialek to lo gian, L. L. Bonaparteren sasoitik hasiz eta gaur egunera arte. Izatez, denek antzeko irizpideak erabili dituzte, zehaztasun maila diferente eta datu desberdinetan oinarri tuz, baina prozedura bertsuak erabiliz. Bonaparte printzearen metodologia eta K. Zuazok (1998) erabili duena berdintsuak dira: ezaugarri batzuk aukeratu eta ezaugarri horien isoglosak hizkera edo euskalkien mugatzat hartuz egin da euskalkien banaketa.</p><p>Dialektologia tradizionala, hemengoa zein kanpokoa, isoglosetan oinarritutako dialektologia da. Isoglosa izan da hizkerak edo eremuak bereizteko duen lanabes bakarra.</p><p>Isoglosetan oinarritutako dialektologiak bere mugak dituela gauza ezaguna da. Hala ere, metodologia honek badu abantaila bat: ez dela formazio handia behar hizkuntzalaritzan eta formazio gutxi izanik ere erraz baliatu daitekeela.</p><p>Batetik, datu gutxi batzuekin erabil daiteke. Ez da behar corpus handirik biltzerik. Ezaugarri gutxi batzuekin abian ezarri liteke prozedura. Eta maiz oso ezaugarri gutxirekin egiten da lan. Arlo honetan paradigmatikoa da katalan hizkuntzaren dialek toen banaketa 3 ezaugarriren arabera burutu zena <ref type="bibr" target="#b30">(Veny 1992)</ref> eta oraindik ere baliagarritzat jo izan dena sarri.</p><p>Bestetik, ezaugarri horiek ikertzaileak hautatzen ditu. Hautaketa horrek oinarri sendoak izan ohi ditu ikusmolde filologikotik begiratuz, hizkuntzaren bilakaera kontuan izaten baita. Baina aukeraketa subjektiboa denez, arriskua izaten du iker tzailea ri komeni zaionaren edo ezagutzen duenaren edo eremuak erraz marrazteko baliagarri zaizkionaren arabera egiteko. Jokamolde atomista hau ohikoa da dialektologia tradizionalaren ikusmoldearen arabera lan egiten dutenen artean. Hizkuntza ezaugarriez osatzen den sistema bezala ulertzen dute; batak bestearekin loturarik ez duten ezaugarri andana batez osatuta balego bezala. Ezaugarri isolatuak bakoitzak bere erara eta besteekiko harremanik gabe funtzionatuko balute bezala. Plano desberdinetan kokatzen diren ezaugarriak elkarrekin bilduz (sistematikoak eta ez sistematikoak, fonologikoak eta fonetikoak...) aritzen dira lanean.</p><p>Baina hizkuntza sistema konplexua da, zeinetan unitate guztiak harremanetan dauden eta guztien arteko harremanek osatzen duten.</p><p>Hirugarrenik, ezaugarrien artean halako haztapen baten aldeko izaten dira, ezaugarri batzuei garrantzi handiago emanez, beste batzuen aldean. Asko izan dira gure artean honetaz mintzatu direnak, <ref type="bibr">K. Mitxelenak (1988: 15-16</ref>) ondokoa idatzi zuenetik:</p><p>Es claro, en efecto, ya a primera vista, que las concordancias o las discrepancias entre los dialectos no pueden ser simplemente contadas, puesto que unas pueden ser más importantes y más profundas que otras, sino que habrán de ser ponderadas de alguna manera. Ondorioz, esan dezakegu dialektologia tradizionala egokia dela hizkera edo dialektoen ezaugarri nagusienak zein diren zehazteko. Orobat, darabilen metodologia ezinbestekoa dela hizkerak ikusmolde diakronikotik ikertzeko. Halaber, hizkuntzalaritza historikoak behar-beharrezkoak dituen datuak biltzeko.</p><p>Hala ere, eta ahulune edo gabeziak aipatzera pasatuz, noizbehinka datuak biltzean ezaugarri bat betetzen duten datuen ondoan, horren aurka daudenak ere bildu izan dira. Caminok, adibidez, bere tesian sinkopadun eta gabeko adibideak jaso ditu <ref type="bibr">(1997: 303)</ref>. Dialektologia tradizionalaren metodologian "polimorfismo" hitza sortu da halako kasuak azaltzeko, bi aldaeretatik aukeratzea "libre" dagoela esanez eta aldaera "libretzat" joz.</p><p>Datu kontrajarriak lortzen direnean, bi forma edo aldaeren arrazoia edo zergatiaz galdetu eta jatorria bilatu ordez, maiz bata ala bestea eman izan dira "ontzat", dialek to edo hizkera horretako aldaera hobetsitzat joz. Caminok esate baterako aezkeraz joera nagusiena despalatalizatzea duela aipatuz, euskalki hau zaraitzueraren aurrez aurre jartzen duen arren (idem, 163), aezkeraren deskribapena egiten duenean Larrañetá, Peñagáin, alliko eta abar aurkitzen dira <ref type="bibr">(ibidem, 333)</ref>. Horrelako adibide asko aurkitzen dira dialektologia tradizionaleko argitalpenetan, ezaugarriak aukeratzerakoan zehaztasuna galtzen da eta hizkeretan ematen diren joera nagusienak (maiztasunez gehien agertzen diren kasuak) hartzen dira kontuan, gainerakoak gutxietsi edo alboratuz.</p><p>Honen aurrean biltzen diren datu guztien balioa azpimarratu behar da, datu guztiak errealak, egiazkoak, diren ber balio bera baitute. Are gehiago, datu kon tra jarriak agertzen direnean eta erabiltzen den metodologia ez denean gai hauen azalpen zientifikoa emateko.</p><p>Bestalde, ezaugarri baten inguruan araua zein den jakiteko sarri ez da datu nahikorik bildu edo behintzat ez dira sistematikoki bilduak izan; adibidez, hizkera batean bustiduraren estatusa eta indarra aztertu nahi bada, metodologia berezi batez bildu behar dira behar-beharrezko diren datuak. Ez da aski bustiduraren estatus eta egoera zein den jakiteko behar diren arau eta egoera guztiak biltzen ez dituzten datuekin.</p><p>Baina maizegi agian bestelako kasuak dira ikusten: araua zehazteko behar baino datu gutxiagorekin hartu izan dira maiz molde horretako erabakiak. Gainera, badira kasuak zeinetan metodologia desberdinez bildutako datuak uztartu eta bildu ere diren.</p><p>Hizkeren eta dialektoen banaketa eta sailkapenetan aritzen diren ikertzaileek, gaur egun nagusiki, irizpide sinkronikoak eta gainerako zientzietan entitateak banandu eta sailkatzean erabiltzen diren prozedurak erabiltzera jotzen dute, sistema sail ka tzaile automatizatuak erabiliz. Ikerketa talde indartsuenek, hala nola Salzburgoko Unibertsitatekoak (ikus Goebl 1976...) edo Groningen-ekoak <ref type="bibr">(Heeringa &amp; Norbonne 2001</ref>) oso programa informatiko ahaltsuak sortu dituzte hizkuntzaren bariazio geolinguistikoa ikertzeko eta hizkeren sailkapena egiteko. Baina ez dira bi gune horiek bakarrik prozedura automatizatuak erabiltzen dituztenak, beste hainbat eta hainbat ikergunetan ari baitira antzeko prozedurak erabiltzen.</p><p>Euskararen kasuan ere irizpide sinkronikoetan oinarrituz bada prozedura automatizatuak erabiltzen duenik ere. Horietako bat EUDIA ikerketa taldea da, zeinek Hans Goebl-en ekimenaz Salzburgoko Unibertsitatean erabiltzen den VDM programa informatikoa erabiltzen duen, taldea sortu aurretik eta askoz ere modu prekarioan Aurre koe txeak abiaturiko bideari jarraikiz <ref type="bibr" target="#b0">(Aurrekoetxea 1992</ref><ref type="bibr">(Aurrekoetxea , 1995</ref><ref type="bibr">(Aurrekoetxea , 2005</ref>. Egun E. Bourciezek, 1895 urte inguruan, Gaskoinan bildutako testuen artean euskarazko 150 testutan oinarrituz Ipar Euskal Herriko hizkeren sailkapena burutu dute <ref type="bibr">(Aurrekoetxea 2008b</ref><ref type="bibr" target="#b2">, 2009a</ref><ref type="bibr">, Aurrekoetxea &amp; Videgain 2009</ref>).</p><p>Prozedura estatistikoak erabiliz hizkeren zein dialektoen arteko desberdintasunak kuantifikatzeko aukera dugu. Eta hizkeren arteko desberdintasunak edo distantziak neurtu ahal ditugunez, hizketa batetik bestera zein desberdintasun edo distantzia den zehatz daiteke. Garrantzi handikoa da hizkeren arteko desberdintasuna kuantifikatu ahal izatea, puntu batetik abiatuz hizkera bat beste bat baino linguistikoki hurbilago ala urrunago den jakin ahal izateko. Era bakarra da hizkerak edo dialektoak asko ala gutxi desberdintzen diren jakiteko.</p><p>Metodologia honek ez du hizkeren arteko desberdintasuna modu objektiboagoz zehazten bakarrik, jada hizkeren artean dagoen desberdintasuna zenbakitan ematen du. Honek hizkerak euren arteko desberdintasunaren arabera sailkatu ere egin di tzake gu la esan nahi du. Eta ondorioz, beraien arteko mugak kuantifikatu, D. <ref type="bibr">Philps-ek (1983)</ref> erabilitako isoglosa kuantitatiboaren kontzeptua erabiliz.</p><p>Prozedura automatizatuen bidez datuen analisi multidimentsionala eginez hizke ren banaketa ez ezik, hizkeren sailkapena ere egiten da. Hau da, hizkerak hierarkia baten barnean koka daitezke eta hierarkia horretan hizkerak berdintasunen arabera euren artean bilduz joaten dira, aztertzen diren hizkera guztiak hierarkia batean kokatuz (ikus dendrograma 125. orrialdean).</p><p>Sistema tradizionalak edo ohiko dialektologiak erabiltzen dituen prozedura hizke rak banatzera heltzen den bitartean, prozedura sailkatzaile kuantitatiboekin hiz kerak bananduz gain, euren arteko hierarkiak zehazten dira eta hierarkia horretan hizkuntza desberdintasunen araberako hizkera multzoak eraikitzen dira.</p><p>Baina metodologia berri honek ongi garatua izan dadin datu-kopuru handiak behar ditu, ez gutxi batzuk. Ezinbestekotzat jotzen da datu-corpus handiak biltzea. Corpus hori behar bezala eratu ondoren abiatzen da datuen estatistika automatizatua eta hizkeren arteko desberdintasunen analisia.</p><p>Datu-corpusak bildu ostean datuon hizkuntza analisia behar da egin. Edozein bilke ta tan biltzaileak hizkuntzaren gainazalean diren datuak biltzen ditu. Datu hauek ezaugarri fonologiko eta fonetikoak biltzen dituzte; hizkuntzan sistematikoak direnak eta ez direnak. Hizkeren arteko desberdintasuna hizkuntzari dagozkion unitateetan oinarritu nahi bada, hots hizkuntzaren sisteman oinarritzen bada, gainazaleko datuetatik abiatuz azpiko egituran zein unitate dagoen jakiteko bildutako datuen analisi linguistikoa egin behar da. Hau da, hizkeren arteko konparaketa edo erkaketa hizkuntzaren egiturari edo sistemari dagokion mailan egin behar da, sistematikoak diren datu edo unitateak bakarrik hartuz eta ez ezaugarri guztiak nahasian. <ref type="bibr">1</ref> Hizkeren arteko ezaugarrikako konparaketa egitean atomismoan erortzeko arriskua izaten da, hizkuntzaren plano desberdinetan kokatuta azaltzen diren ezau garriak nahasian emanez <ref type="bibr">(Gaminde 2002: 4)</ref>.</p><p>Irudi du ezaugarri batek beste batek baino garrantzi handiago duela esaten dutenak (maiztasun handiagoa dutelako, esate baterako) "hizkuntzaren" planoan aritu ordez "hizketaren" planoan ari direla. Hizkuntzaren sistemako unitatea izan ala ez izan ez da maiztasun kontua, sistema horrek behar-beharrezko duen unitatea baizik. Eta behar-beharrezkoa izango da sistema horretan beste unitate batez aldatu arte. Orobat, sistemako unitatea den ber gainerako unitateak bezainbat balioko duela esan behar da. Aldiz, hizketaren planoan kokatuz, unitate batzuk behin eta berriz errepikatzen dira eguneroko jardunean eta beste batzuk oso bakan baino ez.</p><p>Hizkuntza unitateetan oinarritutako hizkeren arteko konparaketa zuzena egiteko hizkeren sistemak hartu behar dira kontuan eta sistemen arteko konparaketa egin <ref type="bibr">(Dalbéra 1984: 541)</ref>: "Le point central sur lequel nous insisterons est que les écarts ne peuvent se mesurer de manière valide et significative, à notre sens, qu'entre des systèmes." Eta (idem):</p><p>Sans la double exigence que nous venons de développer, à savoir que tout élément de distance soit un trait haut placé dans la hiérarchie des traits différentiateurs de systèmes et, d'autre part, que sa pertinence différentiative soit avérée dans l'espace linguistique considéré.</p><p>Horretarako hizkeretako sistema guztiak bilduko lituzkeen makrosistema bat eraiki behar da eta makrosistema horren barnean egin hizkeren arteko konparaketa edo erkaketa. Hori bera dio beste behin aipatuko dudan J.-Ph. Dalbérak ere (idem, 545): ren konparatze lana hizkeren arteko neurketarako neurgailu bera erabiltzea bermatuko luke. Horrela hizkeren arteko desberdintasunak edo distantziak konparagarriak izango dira. Eta horrela bakarrik izango dugu emaitzen behar-beharrezko fidagarritasuna.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Ikuspuntu diakronikoa vs sinkronikoa</head><p>Dialektoak banatzean irizpide desberdinak erabili izan dira orain artean, bai gure artean, bai kanpoan ere.</p><p>Gurera bakarrik mugatuz, bada joera bat irizpide diakronikoak gogoan izaten dituena. Joera honen arabera ikuspuntu diakronikotik aztertzen da euskalkien banaketa eta horrela, besteak beste, ezaugarri kontserbatzaile eta berritzaileen artean bereizketak egiten dituzte, besteak beste. Edo gorago aipatu ezaugarrien haztapena kontuan hartu behar dela defendatzen du.</p><p>Baina molde honetako dialektologiaren aurrean, esan behar da badela diakronikoa ez den dialektologia bat ere. Beste irizpide batzuk eta beste metodologia bat erabiltzen duen dialektologia, alegia: dialektologia sinkronikoa.</p><p>Dialektologia sinkronikoak hizkera baten hizkuntza sistema deskribatzen eta aztertzen du: hizkera baten inbentario fonologiko, morfologiko eta sintaktikoa iker tzen du ezer baino lehen, ondoren hizkera horretan ezagutzen diren eta fun tzio na tzen duten arau fonologikoak eta hauen aplikazio arauak ikertuz.</p><p>Molde askotan egin daitezke monografia dialektal sinkronikoak. Oso eskuragarri diren hiru adibide baino ez, argitaratu direnen hurrenkeran: lehena, K. Rotaetxeren Ondarroako hizkerari buruzkoa (1978); bigarrena, P. Salabururen Baztango hizkerari buruzkoa (1984); eta hirugarrena, <ref type="bibr">Elordieta, Elordieta &amp; Hualderen Lekeitiori buruzkoa (1995)</ref>. Hirurak desberdinak, baina hirurak sinkronia hutsean.</p><p>Agian norbaiti teorikoegiak irudituko zaizkio, eta baliteke nor edo nork dialektologiaz kanpokotzat jotzea ere. Baina esango nuke asko dugula hor dialektologook zer ikasi gure jarduna hobetzeko.</p><p>Ez dago soberan gogoratzea diakronian oinarritutako metodologia hau gurean indartsu dagoen arren, ez dela jada nazioartean erabiltzen direnetarik nagusiena, ezta jarraitzaile gehien dituenetakoa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Nola erabaki dialekto kopurua?</head><p>Dialektologia tradizionalak ez du erakusten, erabilitako hizkuntza ezaugarriez gain, zein irizpide erabiltzen duen dialekto guneak identifikatu eta zehaztean. Ez L. L. Bonapartek, ez gurean molde honetan egin den azkena aipatzearren, K. Zuazok, ez dute euskalkien kopurua zein irizpideren arabera erabaki duten azaltzen. Bonaparte printzeak 9 euskalki bereizi zituen bitartean K. Zuazok 5 baino ez ditu bereizi.</p><p>Penintsulako beste bi eremutako kasuak aipatzearren, berdin esan daiteke katalanaren kasuan: A. M. Alcoverrek ezaugarri gutxi batzuekin katalanaren dialektoak banandu zituenean ez zuen azaldu zergatik baliatu zen ezaugarri gutxi horiez eta horiez bakarrik, gainerako guztiak alboratuz. Galegoari dagokionez, Zamora Vicentek bi ezaugarri erabili zituen bitartean, Carballo Calerok bederatzi erabili zituen; berrikiagotan, Fernández Reik (1990) 81 erabili ditu.</p><p>Badirudi dialektologoak baduela sen bat, eta sen horrez gidaturik, bere buruan darabilkion banaketa gauzatzeko ezaugarri argi batzuk erabiliz burutzen duela.</p><p>Baina halako jokamoldearen aurrean irakurleak ez du ikertzaileak ateratako emaitzarekin fidatzea besterik, erabilitako ezaugarrien ontasun eta kopuruaren egokitasunetik landa.</p><p>Prozedura estatistiko-sailkatzaileak erabiliz eta analisi multidimentsionaletan oinarrituz, aldiz, arazoari irtenbide objektiboagoak bilatzen zaizkio. Izan ere, era honetako analisietako prozeduren artean aurkitzen den dendrograma oso la gun garria izaten da eremu edo hizkuntza bateko dialekto multzoak identifikatu eta zehazteko. Horrelako lanen artean kokatzen dira <ref type="bibr" target="#b0">Aurrekoetxea (1992</ref><ref type="bibr">Aurrekoetxea ( , 1995</ref><ref type="bibr">Aurrekoetxea ( , 2008b</ref><ref type="bibr">Aurrekoetxea ( , 2009a</ref> eta <ref type="bibr">Aurrekoetxea &amp; Videgain (2009)</ref> ikerketa-lanak (ikus dendrograma eta mapa orrialde honetan eta 132.ean).</p><p>Baina prozedura estatistiko-sailkatzaileek hizkeren artean diratekeen hierarkiak zehaztera heldu bada ere, ez da oraindik zehazterik izan dendrogramaren zein mailatan kokatzen diren "dialekto" dei daitezkeen entitate edo guneak, eta zein mailatatik beherantz jada ez den "dialekto" hitza erabili behar. Dendrograma honetan lau multzotan banandu dira hizkerak, eskalaren puntu batean markatuz multzo kopurua (eskuineko marra bertikalarekin adierazten dugu zein puntutan egin den mozketa). Baina beharbada lautan banandu ordez bost multzotan banatzea logikoagotzat jo beharko genuke, marraren maila pixka bat jaitsiz (ezkerrerantz eramanez marra). Eta horrela, multzoen gorengo gunea ia multzo guztiek berdindurik, maila berean edo antzekoagoan, izango lukete. Zeren lautan bananduz bigarren multzoak gainerakoak baino maila jasoagoan baitu goren bilgunea.</p><p>Bestalde, badirudi hizkera hauek hiru multzotan banatzea ez dela ikuspegi honetatik egokiena, maila desberdinetan kokaturik dauden multzoak bereiziko genituzke eta: lehenak (gorri eta orlegia batean hartuko lituzke) eta gainerako beste biak multzo desberdinetan.</p><p>Dendrogramak eskaintzen dituen baliabideak egokiro erabili behar ditu ikertzaileak eta ez nolanahi. Kasu honetan dendrogramak eskaintzen dituen datuak modu egokian interpretatuz zuzenena eremu horretako hizkerak lau multzotan banatzea dela esan genezake: hiru multzo maila ber-berean kokatzen dira eta laugarrena pixka bat goragoan.</p><p>Irakurketa horrez gain, beste hau ere egin daiteke: hizkerak bost multzotan ba natzea. Horrela eginez gero, lau multzo maila berean eratuta aurkituko lirateke eta bosgarrena pixka bat beherago.</p><p>Ikusten denez, garrantzi handia du dendrogramak eskaintzen dituen datuak ondo interpretatzeak, hain zuzen ere eremu dialektalaren zatiketa edo banaketa hor erabakitzen delako. Eta garrantzi handikoa da eremuan zehar zenbat dialekto dauden eta zenbat dialektoz hitz egin behar den ez delako garrantzirik gabeko gauza.</p><p>Dena den, gorago esan bezala, ez da dena erabakia, dialektoen dialektotasuna neurtzeko ez delako oraindik neurri zehatzik ipintzerik izan dendrogramako eskalan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Dialekto izateko baldintzak edo dialektoen nortasunaz</head><p>Sail honetan erantzunak baino galderak gehiago dira. Izan ere, oso puntu garrantzi tsua, funtsezkoa esango nuke, dugu aurrean dialektoez eta hauek zehazteko bitartekoez ari garenean. Hala ere, galdera batzuk erantzuten ere ahaleginduko naiz, bigarren partean.</p><p>Derradan hasteko, eremu bat edo gune dialektal bat dialektotzat hartzeko ezaugarriak zehazten ez diren bitartean egiten diren banaketak behin-behinekotzat jo behar direla uste dudala.</p><p>Zein dira gune dialektal bat dialektotzat hartzeko baldintzak? Edo zein nortasun maila izan behar du eremu dialektal batek dialektotzat hartzeko? Eta nortasuna diogunean, gainerako eremuetatik bereizten dituen ezaugarriez ari gara. Baina, zerk ematen dio nortasuna dialekto bati? Zein ote da dialekto izateko behar-beharrezkoa den gutxiengo nortasun maila? Eta nola neurtzen da nortasun hori?</p><p>Inoiz esan da gune dialektal batek ezaugarri propioak behar dituela izan dia lekto tzat hartzeko. Beharrezko ditu eta hala izanik, zenbat ezaugarri propio behar ditu? Eta ez ote da posible ezaugarri propiorik ez duen dialektorik?</p><p>Bide beretik, zilegi liteke esatea dialekto bat ondokoa baino dialektoagoa dela? Edo nortasun handiagoa duela? Inoiz esan izan da zuberera eta bizkaiera euskalki be-reziak direla, gainerakoetatik gehien aldentzen edo bereizten diren euskalkiak direlako. Ondorioz, gainerakoak baino euskalkiago ote dira?</p><p>Dialekto batek aski desberdin izan behar omen du ingurukoarekin erkatuz. Zientifikoak izan nahi badugu neurgailu bat asmatu beharko genuke desberdintasun maila hori edo dialektotasun edo nortasun maila hori neurtzeko. Eta horretan jarriz, nola neurtzen da desberdintasuna, modu kualitatiboz ala kuantitatiboz?</p><p>Kalitatea neur daitekeela edonork dakien kontua da. Baina ba ote kualitatiboki neurtzeko biderik? Nire ustez ezaugarri kualitatiboak neurtzeko bide bakarra modu kuantitatiboa da.</p><p>Eta kuantitatibo terminoa erabiltzen hasiz gero, zein desberdintasun maila edo zein distantzia linguistiko behar da bi eremu dialektalen artean bi dialekto direla esateko, ala berdin dio?</p><p>Eta galderekin amaitzeko, dialekto batek izan behar duen barne kohesioa ez ote da kontuan hartzekoa?</p><p>Azkenetik hasiz saia gaitezen itaunoi erantzunak ematen. Nola azter dialekto baten barne kohesioa? Gorago ikusi dendrograman eremu dialektal bakoitzaren kohesioa azter daiteke modu erraz batean: zenbat eta ezkerrerago bildu hizkerak euren arteko kohesioa handiagoa da; aldi berean zenbat eta eskuinerako bildu are eta kohesio maila txikiagoa izango du. Dendrograman agertzen den goitik beheranzko ezkerreko marrak adierazten du gorriz, urdin argiz eta urdin indartsuz marraztutako multzoek adierazten dituzten eremu dialektalek kohesio bera dutela, hain zuzen ere eskalako maila berean biltzen direlako hirurak. Aldiz, urdin indartsuz marraztutako multzoa bitan bananduko balitz, bigarren multzoak kohesio dialektal handiagoa duela ikusiko genuke.</p><p>Nortasun kontzeptura pasatuz, kohesio kontzeptuarekin erkatzerik edo lotzerik den galdetu beharko genioke geure buruari. Itxura batean eta lehen hurbilketa gisa, badirudi zenbat eta kohesio handiagoa izan hizkeren multzo batek nortasun maila ere handiagoa izango duela. Eta aldi berean, gainerakoetatik dibergenteen izateko ezaugarriak biltzen dituela. Kohesioak, nortasunak eta distantzia linguistikoak nolabaiteko lotura badutela erakusten du honek.</p><p>Barne kohesioaz gain, eremuen arteko distantzia linguistikoak ere neur daitezke prozedura estatistiko-kuantifikatzaileak erabiliz. Zenbakietara jo gabe, eta gaia azaletik bakarrik aztertuz, talde gorri eta orlegiaren artean dagoen distantzia linguistikoa txikiagoa da gorri eta urdin argiaren artekoa baino: hain zuzen ere, gorria orlegiarekin arinago biltzen da urdinekin baino. Eremu osoa lau multzotan banandu ostean hurbilen diren multzoak gorria eta orlegia dira; ondoren hiru multzo bihurtu ostean, gorri-orlegi multzoaren eta urdin argiaren artean dagoen distantzia linguistikoa txikiagoa da gorri-orlegi multzoaren eta urdin indartsuaren artean baino.</p><p>Honek esan nahi du, hierarkia batean jarriz eta eremua bi multzotan bananduko balitz, multzo urdin indartsua batetik eta bestetik gorri, orlegi eta urdin argiaz koloreztatua dauden multzoek osatuko luketena aurkituko genituzkeela.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Hizkuntza muga</head><p>Dialektoak zedarriztatzean ezinbestekoa dugu muga dialektalaz jardutea. Gai honetaz arduratu diren ikertzaileen zerrenda luzea da oso, bai gure inguruan, bai kanpoan ere. Beste askoren artean <ref type="bibr">Davis, Houck &amp; Uptonek (1997)</ref> dialektologia ikerketek dialektoen mugak zehaztean izandako arazoak eta huts orokorra aipatzen dute.</p><p>Ohiko dialektologian muga dialektala isoglosa bala bat gertatzen den lekuan kokatu izan da. Marko hau erabiliz egin diren dialektoen banaketari begirada bat ematen badiogu, mota edo maila desberdinetako muga dialektalak ikusiko ditugu: batzuk oso ezaugarri gutxi batzuekin hautatuak izan diren bitartean, beste batzuk isoglosa kopuru handiagoa erabiliz egin izan dira. Baina beti ere ikusmolde filologikotik begiratuz eta isoglosen artean garrantzi desberdina emanik batzuei eta besteei.</p><p>Hala ere, mota honetako dialektologia ez da heldu mugen tipifikatze zehatz bat egitera. Gehienik ere muga dialektala detektatzera heldu da. Ez da lan makala, hala ere, oso urrats garrantzitsutzat hartu behar baita hizkuntza muga bat detektatzea.</p><p>Noiz edo noiz tipifikatze aldera jo izan da, muga bortitz eta muga leunak bereiziz. Hala, gure literaturan zuberera eta behe nafarreraren arteko muga bortiztzat jo izan da, baina lapurtera eta behe nafarreraren artekoa muga leuntzat; sarri muga non den ere zehaztea zailtzat joz. Halakoetarako sortu da trantsizio-eremu kontzeptua, hain zuzen ere.</p><p>Dialektologia estatitisko-sailkatzaileak, aldiz, beste molde zehatzagorik ezean, hizkuntza mugen tipifikatze kuantitatiboak proposatu ditu. Horietako bat isoglosa kuantitatiboa da.</p><p>Isoglosa kuantitatiboa bi hizkeren arteko desberdintasun guztiak kontuan hartuz eta desberdintasun horiek kuantifikatuz lortzen da. Beronen adierazpideetan molde desberdinak erabili izan dira: mugaren garrantzia zenbaki batez adieraztea da horietako bat; isoglosaren lodiera eta koloreak erabiliz ere adierazi izan da maiz. Eta molde desberdinak erabiliz ere egin izan da (besteak beste, <ref type="bibr">Aurrekoetxea 1995</ref><ref type="bibr">, Goebl 1983</ref><ref type="bibr" target="#b26">..., Philps 1983</ref>. Gaur egun marraren loditasunaz gain koloreak ere erabiltzen dira mugaren desberdintasuna adierazteko <ref type="bibr">(besteak beste, Aurrekoetxea 2009a</ref><ref type="bibr">: 318-319, Goebl 1992</ref><ref type="bibr">: 472, 2003</ref><ref type="bibr">: 98, 2006</ref>.</p><p>Urrunago joanez, bada aspaldiko proposamen bat muga linguistikoen tipifikatze zehatz bat egiten duena. Henri Guiterrek (1971) muga dialektaletako desberdintasunak kuantifikatuz guneak bereizi zituen: horrela, 0-20 desberdintasun biltzen zuen mugak hizkera bereko herriak bilduko zituen, 21-30 desberdintasunetako mugak hizkera desberdinak bereiziko zituen, 31-50 desberdintasunetako mugak az pi dia lektoak, 51-80 desberdintasunetako mugak dialekto desberdinak, 81-98 desberdintasunetakoak familia bereko hizkuntzak eta 99-100 desberdintasunetakoak familia desberdinetako hizkuntzak.</p><p>Proposamen berritzailea izanik ere, orain artean ez du jarraitzaile kopuru handirik bildu. Hala ere, proposatze hutsak balio handia du eta nola edo halako irtenbidea eman behar zaiola uste izanik, gaia berrartu eta ahalegin berezia egitekoaren aldeko naiz.</p><p>Izan ere, dialektoak bereizteko edonolako edo mota desberdinetako mugak erabiltzea ez dirudi modu zientifikoena denik. Bide beretik sakonduz, uste dut edonork ulertzen duela ohiko bizkaiera eta gipuzkeraren arteko muga, eta ohiko gipuzkeraren eta ohiko goi-nafarreraren artekoak ez direla berdinak. Eta gauzak horre la, zilegitasun osoz galde genezake ea maila desberdintasun hori ez ote den kontuan izan behar, eta ea ohiko gipuzkera eta ohiko goi-nafarreraren artean dagoen muga dialektala aski handia den bereizten duenari dialekto deitzeko; aspaldiko zein berriagoak diren banaketa lanetan aipatutako dialektoen mugen inguruan muga berdintsuak diren, muga horiek bereizten dutena zer den eta abar.</p><p>Jakina, gaia ez dugu gaindituko horretako neurgailu bat asmatzen ez den bitartean. Neurgailurik gabe gauden bitartean ez dugu tresna nahiko indartsurik egiten diren banaketen aurrean iritzi sakonik emateko. Bide horretatik da interesgarri H. Guiterren proposamena. Eta horixe bera da arrazoia, neurgailu onargarria asmatzen ez den bitartean egiten diren banaketa eta sailkapenak behin-behinekotzat jotze ko.</p><p>Proposamen honekin lot daiteke berrikiagotan W. A. <ref type="bibr">Kretzschmar-ek (1999: 277 eta 282</ref>) teknologia berrien erabileraz esaten duena. Kretzschmar-ek dialektologiaren erronken artean teknologia berrien erabilera dagoela aipatu ostean funtsezkotzat jotzen du hizkuntza analisiaren atarian egin beharreko analisi kuantitatiboa.</p><p>Beraz, argi dago dialektologiak ere, bere ikerketetan aurreratu nahi badu, baliabide berriak sortu behar dituela teknologia berriak erabiliz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Hizkeren edo dialektoen homogeneotasunaz</head><p>Ezaguna da, inoiz izan bada ere, jada ez dagoela hizkera edo dialekto homogeneorik, euskararen kasuan behintzat. Dialektoen homogeneotasuna gizarte tradizional batean kontzeptu eusgarri edo defendagarria zen, eta hala egin izan da maiz.</p><p>Ohiko dialektologiaren hipotesia hizkerak homogeneoak direlako ustean oinarritzen da. Hots, hizkeren barnean ez dagoela hizkuntza bariaziorik. Mota honetako dialektologiaren arabera bariazio edo aldaketa hizkeren artean edo hizkeren bilakaeran gertatzen dela. Hots, bariazio diakronikoa eta bariazio diatopikoa baino ez ditu kontuan hartzen.</p><p>Egia esan, dialektologiaren sorrerako gizartean hizkerek barne kohesio handia zuten, gizarte tradizionaletan gertatu ohi bezala. Seme-alabek gurasoen formazioa jasotzen zuten, beraien langintzan aritzen ziren, beraien ohiturak jarraitzen zituzten, beraien sinesmenak gordetzen zituzten eta beraien kosmogonia zuten.</p><p>Halaxe gertatzen zen euskal gizarte tradizionalean ere: guraso eta seme-alaben arteko hizkera desberdintasun gutxi zegoen eta esan daiteke ea hizkuntza mota bera ekoizten zutela.</p><p>Baina garaiak aldatu egin dira, gizartea osorik aldatu da. Ez euskal gizartea bakarrik. Jada seme-alabek jasotzen duten hezkuntza oso desberdina da, ez dute jada gurasoen lanbideetan lan egiten, gurasoen ohitura asko folklore bihurtu dira haientzat, eta gurasoen harreman mota bera ere guztiz aldatu da.</p><p>Gauzak horrela, hizkuntzari dagokionez ere, asko aldatzen da belaunaldi batetik bestera eta ez da hizkuntza mota bera ekoizten. Esaten dugunaren froga asko biltzen ari EUDIA ikerketa-taldea burutzen ari den "Euskararen atlas sozio-geolinguistikoa (EAS)" ikerketa-proiektuaren datuetan <ref type="bibr">(Aurrekoetxea &amp; Ormaetxea 2006)</ref>. Proiektua bere osotasunean oraindik garatu ez bada ere, baditugu jada lehen emaitzak eta belaunaldi batetik bestera hizkuntza uste baino gehiago aldatzen dela egiazta dezakegu.</p><p>Bizkaiko Dima herriko datuak eskutan, adibidez, hau esaten genuen (Aurrekoetxea 2008a: 25): "Hiru parametroak (lexikoa, sintaxia eta morfologia) kontuan hartuz % 42 kasutan erantzun desberdinak bildu dira. Honek adierazten du belaunaldi batean hizkuntza heren bat aldatu dela." Eta (idem):</p><p>Hirugarren ondorioa, hizkera honek eta oro har hizkera guztiek, bizi duten hizkuntza egoeraz hausnarketa handia egin behar dela. Hizkera honetan hizkuntza sistemak erakusten duen barne kohesioa oso urria, pobrea da.</p><p>Otxandioko datuetan % 23,2ko desberdintasuna agertzen da belaunaldi heldu eta gaztearen artean <ref type="bibr">(Ormaetxea 2008: 261)</ref>; Aramaion ere % 23,2 <ref type="bibr">(Ormaetxea 2009</ref>). Bolibar eta Etxebarriko datuetan laurden bat <ref type="bibr">(Ezenarro 2008: 83)</ref>. Ondorioz, lehen emaitzen argira, esan daiteke gaur egun eta euskararen kasuan laurden bat aldatzen dela helduen belaunalditik gazteenera.</p><p>Une honetan azalduko ez ditugun kontsiderazioez gain, emaitza hauek erakusten digute zehaztasunaren izenean hitz egin nahi bada jada ezinezko zaigula barne aldaerarik gabeko hizkerez hitz egitea. Emaitza hauek kontuan hartuz, gaur egun belaunaldi batetik bestera laurden bat aldatzen bada ez dugu zilegitasunik hizkera horren aldaera bat jaso eta hizkera osoaren ordezkotza emanik hitz egiteko.</p><p>Gehien bat ere hizkera horren aldaera batez hitz egin beharko genuke, hizkera horren "jatorrizko" aldaeraz edo Belmannek (1998: 23) izendatu zuen "base dialect" eta guk "oinarrizko dialekto" edo "oinarri dialektala" bezala itzuli dugunaz; hau da, dialektologia tradizionaleko hiztun "egoki" edo "on"ek ekoizten duten hizkera motaz.</p><p>Baina jakinik aldaera hori dela beharbada gutxien entzuten dena, kalean presentzia gutxien duena eta zenbait txokotan baino gordetzen edo irauten ez duena, nekez eman dakioke ezaugarri horiek biltzen dituen aldaerari hizkeraren ordezkaritza, ikuspuntu soziolinguistikotik bederen.</p><p>Ondorioz, hizkerak konparatzean eta sailkatzean faktore hau kontuan hartu beharre koa dela deritzot, hizkera horien gaur egungo errealitatea islatu nahi bada behintzat. Horrela, faktore soziologiko edo soziolinguistiko bakoitzaren araberako dialek toen mapa eraikitzea zilegizkotzat jo behar da. Eta inoiz ere egin behar ez dena zera da: faktore soziolinguistiko desberdinak dituzten hiztunen datuak nahasiz hizkeren konparaketa egin.</p><p>Dialekto edo hizkera baten barneko hiztunen artean homogeneotasunik ez denez, hiztun horien artean hitz egiteko forma desberdinak kontuan izanik, galde genezake zeinek ordezkatzen duen fidelen eta zintzotasun handienaz hizkera: zaharren, helduen ala gazteen hizkera edo eredu mota, batetik; hiztun "ikasien" edo formaziorik gabeko hiztunen eredua, e.a., bestetik.</p><p>Ikuspuntu soziolinguistikotik hizkera baten barnean denbora berean erabiltzen diren hizkuntza ezaugarri desberdinak nola gauzatzen diren jakitea da interesgarri. Faktore sozialen araberako ikerketak hizkuntza aldaketa zein egoeratan eta zein norabidetan gauzatzen ari den argitzen du. Homogeneotasunik gabeko hizkera batean oso garrantzitsua da ikertzea zein diren hizkuntza ezaugarri oro korrenak, zein diren galduz doazen ezaugarriak eta zein diren sortzen ari diren aldaerak. Honelako ikerketa batek bakarrik eman lezake hizkera baten irudi "erreala" edo egiazkoagoa, hizkera horretako estratu sozial ordezkagarrien hizkuntza ereduak aurkituko li tuz kee la ko.</p><p>Ohiko dialektologian ez da zaharren hizkera baino kontuan izan. Ikusmolde filologiko edo tradizionala biltzen duen horri berez duen garrantzia kendu gabe, gaur egun, eta soziolinguistikari esker, bada aukera hizkera bateko hiztun desberdinek erabiltzen dituzten hizkuntza forma desberdinak jaso ostean hizkera baten ezau garri edo eredu tradizionalaren formak zein egoeratan aurkitzen diren ikertzeko eta ondorioz "betiko" forma horietarako faktore sozialetako hiztunek zein atxikimendu erakusten duten zehazteko.</p><p>Ez ikuspuntu beretik baina antzeko gauza aztertu zuen Jean Séguy Okzitaniako tolosarrak bere ALGko VI. liburukiko azken mapetan <ref type="bibr">(1973)</ref>. Honek Gaskoinako herrien artean gasconharen ezaugarri peto-petoenak zein eremutan gordetzen ziren jakin nahi izan zuen. Horretarako ezaugarriak aukeratu ondoren ALG-ko mapetan bilduak zituen datuekin gasconharen mapa burutu zuen. Séguy-ren lan hau gogoan izanik Santiagoko Unibertsitatean emandako hitzaldi batean honela nioen (argitaratu gabeko txostena):</p><p>El concepto de 'dialecticidad' expuesto aquí no está muy alejado del "campo gradiente de la gasconidad" utilizado por Jean Séguy en su VI volumen del ALG. El concepto de dialecticidad entendemos por la capacidad de cada variedad, localidad o individuo para conservar los rasgos de su dialecto en la comunicación diaria con sus vecinos. Cuanto más rasgos conserve y utilice en su comunicación más grado de dialecticidad tendrá. Este concepto se puede equiparar a la salud de la variedad dialectal, entendiendo ésta como la utilización de los rasgos y características lingüísticas propias de la localidad o dialecto.</p><p>Séguy, bistan da, ez zen hizkera bereko hiztun desberdinen hizkuntza ekoizpenez ari, gaskoiaren eremuko hizkera desberdinetan gauzatzen zen hizkuntzaz baino. Baina oro har, gauza bera edo ideia bera da eskuartean daukaguna: hark ohiko edo 'betiko' gaskoiaren ezaugarriak zein hizkeratan gordetzen ziren hobekien aztertu zuen eta, gordetze maila hori kontuan izanik, egin zuen bere gaskoitasunaren mapa.</p><p>Guk aldiz, eremu geografikoari dagozkion desberdintasunak kontuan izan ordez, faktore sozialei dagozkienak hartu ditugu kontuan eta hizkera baten barnean kokatu ondoren hizkera horren 'betiko' ezaugarriak zein faktore sozialetako hiztunek eta zein gradutan gordetzen dituzten ondoren aztertu dugu. 2</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">Koherentzia geolinguistikoa</head><p>Eremu geolinguistikoak zedarriztatzean sor litekeen beste arazo bat koherentzia geolinguistikoa da. Dialektoa kontzeptu diatopikotzat hartzen denean ezinbestekoa da eremu geografiko batean kokatzea. Dialektoen banaketa tradizionaletan dialekto izateko ezinbesteko ezaugarritzat jo izan da. Hala ere, honetaz arduratu izan direnen artean ez da behar beste sakondu eta ez da aipatzen zein diren eremu horren ezaugarri gutxienak.</p><p>Aipagarri diren beharrezko ezaugarrien artean ezinbestekoa den eremu geografiko horren gutxieneko hedaduraz ere ez da zehaztasunik eskaini orain artean. Honen harira, onartzerik ba ote hizkuntza ezaugarri berak biltzen dituzten baina eremu geografikorik marrazten ez dituzten hizkeren artean dialekto bat osatzen dutela esatea? </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">mapa</head><p>Ohiko dialektologian jarraitu den metodologiak ezinezko egiten du arazo hau. Dialek to lo goak "nahi" dituen isoglosak aukeratzean, eremu geografiko garbiak marrazten ez dituzten isoglosak baztertu egiten ditu eta ondorioz eremu argi-argiak ez badira ere, aski txukunak ateratzen dira. Molde honetako dialektologiak hizkuntza ezaugarriak hizkuntzaren sisteman duten betebeharrari begiratu ordez eremu geografikoari begiratuz aukeratu izan ditu. Aldiz, eremu geografikoa kontuan izan gabe, soilik hizkuntza sistemari dagozkion ezaugarriak, makrosistema batean bildurik <ref type="bibr" target="#b29">(Tuaillon 1994)</ref>, aintzat harturik, corpusetan oinarritutako dialektologian gerta liteke hizkuntza ezaugarri multzo bat duen hizkera andana bat izatea, baina hauek ez izatea koherentzia geografikorik; hots, geografikoki oso zatikatuta agertzea, eremurik osatu gabe.</p><p>Bourciez bildumako euskal testuetan agertzen diren ezaugarri sintaktikoekin eraikitako mapan gertatzen da, adibidez, esaten ari garena (1. mapa). Mapa hau erai kitzean analisi multidimentsionala erabili da eta maparekin batera ematen da analisi horrek eskaintzen duen dendrograma. Dendrograman lau multzotan banandu dira hizkerak eta lau multzo horiek islatzen dira mapan.</p><p>Mapan ikus daitekeenez ez da eremu geografiko argirik azaltzen. Lau multzoak aski sakabanaturik azaltzen dira. Eta lau multzo egin ordez eremua bitan bananduko bagenu ere ez genuke koherentzia geografiko handia duen eremurik aurkituko, nahiz kasu horretan A eta B multzoetako hizkerak ugariago izan maparen ezkerraldean eta C eta D multzoetakoak maparen eskuinaldean.</p><p>Baina hain muturreko adibidea erabili ordez, maizago gertatzen da era honetako dialektologia egitean ezaugarri linguistiko jakinak biltzen diren eremu geografiko batean, bestelako ezaugarriak ere biltzen dituzten hizkerak aurkitzea eta geografikoki koherentzia txikia duten eremuak sortzea. Halako kasuetan hizkera horiek zein dialek to tzat hartu beharko lirateke, inguratuta dagoen hizkerek osatzen duten dia lek toko tzat ala bere ezaugarriak dituztenekotzat?</p><p>Berriro hitz egin beharko genuke gorago aipatu den homogeneotasun kontzeptuaz. Eta galdetu zein mailatako homogeneotasuna eskatu behar zaion dialekto bati.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9.">Ondorioak</head><p>Hizkeren eta dialektoen sailkapen sakon eta onargarria egiteko baldintzak aipatu dira artikuluan zehar, dialektologiaren ibilbide luzean jarraitu diren metodologia eta prozedura desberdinek zer ekarri egin dioten gaiari azalduz.</p><p>Ohiko dialektologiak jokatu duen zeregina handia eta garrantzitsua izan dela aitor tuz gain, beste mota batzuetako ikerketak abiatu beharraz mintzatu gara, haren ezintasunak gainditu eta hizkuntza bariazioa neurtzeko tresna zehatzagoak eskainiz.</p><p>Eskuz eta ezaugarri gutxi batzuekin aritu ordez corpusetan bildutako datu kopuru handiez baliatzea eta prozedura automatizatuak erabiltzea proposatu da. Ezen ez dugu gaian aurreratuko ez badira sistema estatistiko-kuantifikatzaileak erabiliko. Horren adibide dendrograma eta mapa bat aurkeztu dira.</p><p>Behin sailkatzeko metodologia berriak eta teknologiak eskaintzen dituen baliabideak erabiliz jarraitu behar da sakontzen, teoria eta aplikazio konkretuak uztartuz. Gaur ez gaude dialektoen dialektotasuna aztertzeko gertu, baina beharbada aski da gaia planteatzea eta jarraitu beharreko bide markatzea.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Horien artean, eta humanitateetako arlo honetan ari den bat aipatzearren, Camino azaltzen da (2004: 72):Hizkera bat besteetarik bereizteko eta euskalkien artean kokatzeko, ezaugarri guztiek ez dute garrantzi bera (...).</figDesc><table><row><cell>Bai Mitxelena eta baita Camino ere, eta ezaugarrien arteko haztapenaz ari diren</cell></row><row><cell>filologoak, filologian kokatzen dute euren burua, hizkuntzalaritza historikoan, alegia.</cell></row><row><cell>Ez dut zalantzarik ikuspuntu diakronikotik begiratuta ezaugarri batzuek beste</cell></row><row><cell>batzuek baino garrantzi handiagoa dutela hizkuntzaren bilakaeran. Eta ulertzen dut</cell></row><row><cell>ere, hizkeren azterketa marko teoriko horretatik oratuz gero, ezaugarri horiek besteek</cell></row><row><cell>baino pisu handiagoa izatea.</cell></row><row><cell>Marko honetan oinarritutako dialektologia tradizionalaren ekarria handia izan</cell></row><row><cell>da historian zehar. Besteak beste, eta guri interesatzen zaigunera mugatuz, gai izan</cell></row><row><cell>da dialekto-guneak detektatzeko eta dialektoen banaketa onargarriak zehazteko. Oro</cell></row><row><cell>har, egin diren banaketek jarraitzaile asko izan dituzte eta denbora luzean izan dira</cell></row><row><cell>onartu eta erabiliak.</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Cette base de comparaison stable, à construire, peut se concevoir comme le réseau de relations maximal susceptible de sous-tendre les réseaux de relations constitutifs des systèmes singuliers dans l'espace considéré, c'est-à-dire ce que l'on pourrait appeler le 'macrosystème'.Ondoren Frantziako Alpes-Maritimes lurraldeko hizkerak sailkatzeko makrosistema fonologiko eta morfologikoak eraikitzen ditu; fonologikorako 15 unitate bereiz le aukeratzen ditu eta 17 makrosistema morfologikorako.Oso garrantzitsua da makrosistema hau iraunkorra izan dadin hizkerak kon pa ratze ko erabiltzen den prozedura osoan. Aldatzen den marko batean egiten bada hizke-1 Gai hau sakonago aztertu da Aurrekoetxea (2009b)-n eta<ref type="bibr" target="#b8">Clua, Lloret &amp; Valls (2009)</ref>; EUDIA taldea sortzen ari den corpusa kontsultatzeko ikusAurrekoetxea, Odriozola &amp; Sánchez (2009).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2"> Hans Goebl-ek (1976: 176)  ere erabili izan du «dialecticité» terminoa hizkuntza ezaugarriez mintza tzean.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">«Nafarroako euskara: azterketa dialektometrikoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Aurrekoetxea</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="59" to="109" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Bariazio soziolinguistikoa Dimako euskaran</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bizkaieraren Egituraketa Geolinguistikoa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leioa</forename><surname>Upv/Ehuko Argitalpen Zerbitzua</surname></persName>
+		</author>
+		<ptr target="&lt;http://artxiker.ccsd.cnrs.fr/artxibo-00072381/en/&gt;.-" />
+	</analytic>
+	<monogr>
+		<title level="m">Ladinometria. Festschrift für Hans Goebl zum 65. Geburtstag</title>
+		<editor>G. Blaikner-Hohenwart, E. Bortolotti, R. Dranceschini, E. Lörincz et al.</editor>
+		<meeting><address><addrLine>Euskaltzaindia, Bilbao; Salzburg</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="9" to="18" />
+		</imprint>
+		<respStmt>
+			<orgName>Universität Salzburg / Freie Universität Bozen…</orgName>
+		</respStmt>
+	</monogr>
+	<note>Different patterns of geolinguistic structure</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">EHHA-tik euskalkien mapa berrirantz» (agertzeko)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-, 2009a</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">»</forename><surname>Iparraldeko Hizkeren Sailkapena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Asju</forename><surname>Xxxviii-1</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">A Survey on Corpus-Based Research / Panorama de investigaciones basadas en Corpus</title>
+		<editor>P. Cantos &amp; A. Sánchez Pérez</editor>
+		<imprint>
+			<date type="published" when="2004" />
+			<biblScope unit="page" from="489" to="503" />
+		</imprint>
+		<respStmt>
+			<orgName>Universidad de Murcia</orgName>
+		</respStmt>
+	</monogr>
+	<note>Aelinco</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Euskararen atlas sozio-geolinguistikoa&quot; ikerketa-proiektua»</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">J L</forename><surname>Ormaetxea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskalingua</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="157" to="163" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Le projet Bourciez: traitement géolinguistique d&apos;un corpus dialectal de 1895</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">X</forename><surname>Videgain</surname></persName>
+		</author>
+		<ptr target="&lt;http://www.publicaciones.wb.es/revistes/dialectologia2/&gt;" />
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="81" to="111" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">«Between Base Dialect and Standard Language», Folia Linguistica XXXII-1/2</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Bellmann</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="23" to="34" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Aezkoako euskararen azterketa dialektologikoa, Nafarroako Gobernua, Iruñea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Camino</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Irizpide metodologikoak egungo euskal dialektologian</title>
+	</analytic>
+	<monogr>
+		<title level="j">Euskera XLIX</title>
+		<imprint>
+			<biblScope unit="page" from="67" to="102" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Análisis lingüístico y dialectométrico del Corpus Oral Dialectal (COD)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Clua</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Lloret</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">E</forename><surname>Valls</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">A Survey on Corpus-Based Research / Panorama de investigaciones basadas en Corpus</title>
+		<editor>P. Cantos &amp; A. Sánchez Pérez</editor>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="page" from="1033" to="1045" />
+		</imprint>
+		<respStmt>
+			<orgName>Universidad de Murcia</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Hierarchie des traits differentiels et evaluation des distances dans un espace dialectal», in Actes 1</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-Ph</forename><surname>Dalbéra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">colloque international A.I.O</title>
+		<imprint>
+			<biblScope unit="page" from="541" to="549" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The question of dialect boundaries: the SED and the American atlases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">L</forename><surname>Ch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">C</forename><surname>Houck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Upton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Issues and Methods in Dialectology</title>
+		<editor>A. Thomas</editor>
+		<meeting><address><addrLine>Bangor</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="271" to="283" />
+		</imprint>
+		<respStmt>
+			<orgName>Linguistics Department, University of Wales</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The Basque dialect of Lekeitio</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Elordieta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">&amp;amp; J I</forename><surname>Elordieta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hualde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASJU-ren Gehigarriak</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<date type="published" when="1995" />
+		</imprint>
+		<respStmt>
+			<orgName>UPV/EHU-GFA</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">«Etxebarria eta Bolibarko bariazio linguistikoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ezenarro</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="59" to="84" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Dialectoloxía da lingua galega</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Fernández Rei</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<pubPlace>Xerais, Vigo</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Gaminde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bizkaiko euskararen ezaugarri fonologiko batzuen inguruan</title>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="4" to="14" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">«La dialectométrie appliquée à l&apos;ALF (Normandie)», in A. Várvaro (arg</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Goebl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">XIV Congresso internazionale di linguistica e filologia romanza. Atti, G. Macchiaroli, Napoles</title>
+		<imprint>
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Benjamins</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page" from="165" to="195" />
+			<pubPlace>Amsterdam</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Étude dialectométrique sur les isoglosses quantitatives (avec application à l&apos;ALF)», Cahier des Annales de Normande</title>
+	</analytic>
+	<monogr>
+		<title level="m">Problèmes et méthodes de la dialectométrie actuelle (avec application à l&apos;AIS)</title>
+		<editor>G. Aurrekoetxea &amp; X. Videgain</editor>
+		<imprint>
+			<date type="published" when="1983" />
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="429" to="476" />
+		</imprint>
+	</monogr>
+	<note>Nazioarteko Dialektologia Biltzarra. Agiriak, Iker</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Regards dialectométriques sur les données de l&apos;Atlas linguistique de la France (ALF): relations quantitatives et structures de profondeur»</title>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="59" to="96" />
+		</imprint>
+	</monogr>
+	<note>+24 mapa</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Sur le changement macrolinguistique survenu entre 1300 et 1900 dans le domaine d&apos;oïl. Une étude diachronique d&apos;inspiration dialectométrique</title>
+	</analytic>
+	<monogr>
+		<title level="j">Linguistica XLVI</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="37" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Guiter</surname></persName>
+		</author>
+		<title level="m">Les dialectes romans de France à la lumière des atlas régionaux (col. de</title>
+		<editor>G. Straka &amp; P. Gardette</editor>
+		<meeting><address><addrLine>Strasburg; Paris</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1971" />
+			<biblScope unit="page" from="61" to="109" />
+		</imprint>
+	</monogr>
+	<note>Atlas et frontières linguistiques</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Language Variation and Change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">&amp;amp; J</forename><surname>Heeringa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Nerbonne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Dialect Areas and Dialect Continua</title>
+		<editor>D. Sankoff, W. Labov &amp; A. Kroch</editor>
+		<meeting><address><addrLine>Cambridge U. P., New York</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="375" to="400" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">A</forename><surname>Kretzschmar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Dialectal Variation in English: Proceedings of the Harold Orton Centenary Conference</title>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="271" to="287" />
+		</imprint>
+	</monogr>
+	<note>The Future of Dialectology. with K. Wales</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Sobre historia de la lengua vasca</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ASJU-ren Gehigarriak 10, Gipuzkoako Foru Aldundia</title>
+		<meeting><address><addrLine>Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+	<note>2 liburu</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">«Otxandioko hizkera: adinaren araberako bariazioa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Ormaetxea</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="149" to="262" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Linguistic differences between generations in Basque</title>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>ICLaVE 5 (Copenhague, 2009) biltzarrean onartutako txostena</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Automating Linguistic Atlases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Philps</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Actes de la 6è. conférence internationale &apos;Computers &amp; the Humanities&apos;. State University of</title>
+		<meeting>s de la 6è. conférence internationale &apos;Computers &amp; the Humanities&apos;. State University of<address><addrLine>North Carolina, Raleigh</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1983" />
+			<biblScope unit="page" from="488" to="511" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Hizkuntz teoria eta Baztango euskalkia: Fonetika eta fonologia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Rotaetxe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Leopoldo Zugaza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Durango</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Salaburu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1978" />
+			<publisher>Euskal Herriko Unibertsitatea</publisher>
+			<pubPlace>Bilbo</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Estudio estructural del euskera de Ondarroa. 2 liburu</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Atlas linguistique de la Gascogne</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Séguy</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1973" />
+			<publisher>CNRS</publisher>
+			<biblScope unit="volume">VI</biblScope>
+			<biblScope unit="page" from="2530" to="2531" />
+			<pubPlace>Paris</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">«Frontières linguistiques: realité ou comodité pour le confort de l&apos;esprit</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Tuaillon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Associaçao Portuguesa de Linguística</title>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="271" to="280" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Veny</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Euskaltzaindia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bilbo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Zuazo</surname></persName>
+		</author>
+		<title level="m">G. Aurrekoetxea &amp; X. Videgain (arg.), Nazioarteko Dialektologia Biltzarra, Iker 7</title>
+		<meeting><address><addrLine>«Euskalkiak, gaur</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="191" to="233" />
+		</imprint>
+	</monogr>
+	<note>Fronteras dialectales</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

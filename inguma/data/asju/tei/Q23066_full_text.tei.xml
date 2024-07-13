@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">JABETZA-GENITIBOAREN SINTAXIA ETA ERKATZE ANIZKUNA</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2003">2003. 2004. 2007. 2008</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xabier</forename><surname>Artiagoitia</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universidad del País Vasco/Euskal Herriko Unibertsitatea)</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">JABETZA-GENITIBOAREN SINTAXIA ETA ERKATZE ANIZKUNA</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Ormazabal &amp; Romero</title>
+						<meeting> <address><addrLine>Rezac</addrLine></address>
+						</meeting>
+						<imprint>
+							<date type="published" when="2003">2003. 2004. 2007. 2008</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>After characterizing the so called possesive genitive as a case mark on nominal DP arguments, this article proposes that Basque structural genitive case is checked in the specifier of the head possessive, right below DP. This position attracts both subject and object genitives thus creating a multiple specifier configuration. As a result, Basque multiple genitive constructions display the features described by <ref type="bibr" target="#b42">Richards (2001)</ref> for multiple A-specifiers (superiority, lack of scope ambiguity) and provide the basis to analyze several word order restrictions observed in <ref type="bibr" target="#b19">Eguzkitza (1993)</ref>; moreover, the derived order SO(X)N shows Person Case Constraint effects. The main consequences are that: (a) DP raising is pervasive in Basque noun phrases; and (b) we confirm that UG allows multiple case (here genitive) checking but disallows multiple person checking (</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>ren eta osagarriaren arteko ϕ-erlazioa [+pertsona] den subjektuak eragotz dezakeela. Proposamenaren beste ondorio bat hau da: <ref type="bibr">Artiagoitia (2000: 55-6)</ref> lanean aditzera ematen denaren kontra, DS-ren barruko jabetza-genitibo osagarriak ez daudela izenaren ondo-ondoan, goragoko posizioan baizik.</p><p>Nire abiapuntua edo oinarria aurreko zenbait lanetan <ref type="bibr">(Artiagoitia 2002</ref><ref type="bibr">(Artiagoitia , 2004</ref><ref type="bibr">(Artiagoitia , 2008</ref> garatu dudan determinatzaile-sintagmaren egitura izango da, honela laburbil daitekeena:</p><p>( Egitura honetan izenaz gain D eta Q buru funtzionalak aurkitzen ditugu; 3 ad jekti boak, halakorik izatekotan, IS osagarriaren ondoren ageri diren buru funtzionaltzat har daitezke <ref type="bibr" target="#b15">Cinque (1994</ref><ref type="bibr" target="#b47">)-Scott (2002</ref> ikuspegiari jarraituaz edo IS-ri egindako buru-adjunkziotzat. Posesibo burua, berriz, artikulu honen gai nagusia da.</p><p>Artikulua honela atondu dut: lehen atalean euskarazko genitiboek posesiboen tipologian duten lekua aztertuko dut, funtsean [DS + deklinabide-atzizkia] egituradunak direla esateko. Bigarren atalean, genitiboen agerreraren eta banaketaren aurkezpen xumea egingo dut. Hirugarren atalak, berriz, erakutsiko du IS soil edo biluzietan osagarria ren interpretazioa duen genitibo bakarrarentzako lekua baino ez dagoela. Laugarren atalak, bere aldetik, proposamenaren muina garatuko du: hainbat argudiok erakutsiko duten moduan, DS genitiboek IS-tik atera eta QS-ren gainetik dagoen espezifikatzailerako mugida egiten dute, espezifikatzaile anitzeko konfigurazioa sortuaz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Euskarazko genitiboen ezaugarriak</head><p>Kokatze aldera, euskarazko jabetza-genitiboen azterketa konparatiboari ekitean, komeni da zenbait egiaztapen argi uztea: a. DS arruntetan euskarak ez dauzka bi jabetza-genitibo edo posesibo; b. euskal genitiboak ez dira determinatzaile mota bat; c. izenordain posesiboek ez daukate sendo/ahul partiketaren araberako formarik; d. euskarazko genitiboak DS + kasua itxurakoak dira; e. -ko leku-genitiboarekiko aldea kategoriala da neurri batean. a. DS arruntetan euskarak ez dauzka bi jabetza-genitibo edo posesibo. Posesiboen tipologian, sarritan sintetikoak eta perifrastikoak berezi ohi dira, hizkuntza berean (esaterako ingelesez) biak batera gauzatzen direlarik:</p><p>(3) a. Rome's destruction of the enemy (genitibo saxoia = sintetikoa) b. the destruction of the enemy (of-genitiboa = perifrastikoa) c. the enemy's destruction Eta ez hori bakarrik, (3b-c) adibideek erakusten dutenez, izenarekin erlazio thematiko berdina daukan argumentua berdin ager daiteke batera zein bestera. <ref type="bibr">4</ref> An tze ra gertatzen omen da alemanez <ref type="bibr" target="#b30">(Lindauer 1998)</ref>, subjektuak eta objektuak, biek batera, genitiboan agertzeko aukera dutelako berezitasunarekin: 5 (4) a. Kolumbus Entdeckung Amerikas b. Kolumbus Entdeckung von Amerika (Colonen Amerikaren aurkikundea) <ref type="bibr">(Lindauer 1998: 122)</ref> Genitibo mota bi hauek zergatik diren zilegi, bakoitzak zein posizio hartzen duen izen-sintagmaren barnean, eta zein kasu motari dagokion, eta abar sarritan izaten da eztabaida-iturri; <ref type="bibr">Lindauer-ek (1998)</ref>, esate baterako, kasu genitiboaren erkaketa posizio bakarrera murrizteko ahaleginean izenaren aurreko genitiboa funtsean adjektibosintagma dela aldarrikatzen du. Erromantze hizkuntzetan, bestalde, genitibo sintetikoa izenordainetara mugatzen da eskuarki, baina hor ere nabarmena da genitibo biek kokapen bana dutela (D gunearen inguruan bata eta izenaren ostean bestea) eta izenaren osagarriak ere gauzatu ahal direla izenordain posesibo modura <ref type="bibr">(Cinque 1980</ref><ref type="bibr" target="#b31">, Longobardi 2001</ref> Ezaugarri hau determinatzaile-sintagma osoa zehaztua izatearekin lotu ohi da; hiz kun tzo tan posesiboen goiko posizioa determinatzaileena bezalakoa izan ohi da eta hartara, (7a-d) sintagmak ezinezkoak dira perpaus existentzialetan. Euskaraz, zehaztutasuna edota determinatzailearen agerrera independenteak dira jabetza-genitiboaren agerreratik <ref type="bibr" target="#b7">(Artiagoitia 1998</ref><ref type="bibr">(Artiagoitia , 2004</ref>, eta honek lehen begiratuan behintzat euskara beste era bateko hizkuntza batzuekin (italiera, katalana, bulgariera, errumaniera) berdintzen du. c. Izenordain posesiboek ez daukate sendo/ahul partiketaren araberako formarik. Aurreko ezaugarriaren haritik, Schoorlemmer-ek posesiboek forma sendo bereziak hartzea izen-elipsiarekin lotzen du, euskaraz inondik inora ikusten ez duguna: Alegia, izenaren elipsiak ez du posesibo berezirik eskatzen (elipsiarekin edo gabe) ohikoa den artikulua baizik. Egia da hainbat hizkeratan badirela izenordain posesibo anaforikoak, Aresti-Linschmann legeari jarraitzen dioten bere sailekoak <ref type="bibr" target="#b45">(Sarasola 1979)</ref>. Honek, dena dela, erlazio gutxi dauka beste hizkuntza batzuetarako proposatu izan diren sendo/ahul <ref type="bibr" target="#b13">(Cardinaletti 1998</ref><ref type="bibr" target="#b27">, Ihsane 2003</ref> partiketekin. Izan ere, euskarazko izenordain posesibo guztiak sendoak lirateke; koordinatu dai tez kee la ko, kontrastiboak izan daitezkeelako, eta elipsietan ager daitezkeelako (cf. arestiko (8e) adibidea):</p><p>(9) a. Nik ez dut nire edo gure "erruduntasunaz" ezertxo ere esan b. nire liburua aukeratu dute, ez zurea. c. liburu hau gurea da. 6 d. Euskarazko genitiboak DS + kasua itxurakoak dira. Euskarazko genitiboek itxura sintagmatikoa dute eta, alde horretatik, jabetza-genitiboa determinatzaile-sintagma osoa osagarritzat hartzen duen deklinabide-atzizkitzat hartzeak dirudi arruntena. Deklinabide-atzizki hori hemen kasu-markatzat hartuko dut nolabaiteko tradizioa daukan ikuspegi bati jarraituaz <ref type="bibr">(Goenaga 1984</ref><ref type="bibr">(Goenaga , 1991</ref><ref type="bibr">(Goenaga , 1997</ref><ref type="bibr">(Goenaga , 2003</ref><ref type="bibr" target="#b19">Eguzkitza 1993</ref><ref type="bibr">Eguzkitza , 1997</ref><ref type="bibr" target="#b21">Elordieta 2001</ref> Hots, (10)-eko bikoteak gogora dakarren moduan, DS kategoriako izenaren argumentuek -(r)en hartzen dute; -ko ikusten dugu gainerakoan. Gainerakoan honek denetariko egoerak ostentzen ditu eta ez da harritzekoa anabasa horretan gramatikalariek egitura batzuk beste batzuen kalterako nabarmendu izana. Esaterako, Eguzkitzak (1993) azpimarratu du -ko genitiboak izen-sintagma barneko adjuntuak sortzen dituela baina ez subjektu edo osagarri argumentuak:</p><p>(14) Arabako zortzi urteetako zapone oneko ardoa (Eguzkitzaren 42. adibidea)</p><p>Honetan bat dator, itxura baten behintzat, lehenago beste batzuek (cf. Goenaga 1980, <ref type="bibr" target="#b43">de Rijk 1988</ref><ref type="bibr">de Rijk , 1993</ref>  Beraz, -ko sintagmak izenaren osagarri ere izan daitezke. <ref type="bibr">Bestalde, Zabalak (1999</ref><ref type="bibr">) eta, bereziki, Goenagak (2003</ref> diotenez, badira -ko itxurako osagarria beren-beregi eskatzen duten izenak. Goenagak eskola, laborategi ikasle/irakasle bezalakoak aipatzen ditu:</p><p>(17) fisikako {ikaslea, irakaslea, laborategia, eskola, departamendua } Alabaina, hizkuntzalari biek ontzat ematen dute -ko osagarriok halako zapore generikoa dutela, eta interpretatu ohi direla determinatzailerik gabeko izen-sintagma bat balira bezala, IS osagaia balira bezala hain zuzen. 10 Beraz, DS osagairik ezean, normala da -ko agertzea; (13)-ko banaketak zuzena dirudi.</p><p>Azkenik, nolakotasunezko izenlagunetan ageri den -ko aipatu behar dut: Eguzkitzak (1993), <ref type="bibr">Trask-en (1985)</ref> lan baten haritik, eta Zabalak (1999) iradoki dute (18)-ko adibideetan -ko atzizkia hain zuzen ere DS ez den osagai bati gehi tzen zaiola; bestela esanda, osagai hori IS hutsa (=18a), QS (=18b) edo [I-Adj] osagaia (=18c) (alde batera utzita nola aztertzen den) izan liteke, baina ez DS oso bat (=18d) inondik inora ere. Goenagak <ref type="formula">(2003)</ref>, hala ere, zalantzan ipini du ikuspegi hau eta zenbait nolakotasunezko izenlagunetan DS-raino islatzen den egitura bat badela argudiatu du. Hona hark emandako adibide bat (ibidem: 283):</p><p>(19) kolore honetako koadernorik ez dut aurkitzen (= [ DS kolore hau] + -ko)</p><p>Nik neuk ez dut hain argi honelako izenlagunen azpian egiazki DS eta ez Post-Sintagma osagai bat ulertu behar ote den; baina jo dezagun Goenagak arrazoi duela: bistan da honelako (=19ko) ustezko DS osagaiak adjunktuak direla, eta ez izenaren argumentuak. Beraz, Goenagari (19)-ko izenlagunetan arrazoia emanda ere, ez dugu (13)-ko ikuspegia zertan aldatu: DS kategoriako adjunktuek ere (hots, argumentu ez direnek) -ko hartuko dute, eta kito; alegia, DS kategoriako nolakotasunezko izenlagunak bete-betean sartzen dira bigarren multzoan. <ref type="bibr">11</ref> Laburpen modura, esan liteke (13)-ko orokorpenaren argitara genitibo bien arteko lan banaketak kategoria banaketa bat islatzen duela funtsean: DS vs beste kategoria guztiak; edo kasurik txarrenean, kategoria eta harreman thematikoaren banaketa is la tzen duela: DS argumentuak vs gainerako osagaiak. Banaketa hau, dena dela, oso ezaguna da gramatika teorian: determinatzaile-sintagmek duten kasu abstraktuaren beharra (Kasu Iragazkia funtsean) gogora dakarren banaketa da hain zuzen ere. 12 10 Goenagaren arabera, fisikaren irakaslea posible da, baina beste zerbait esan nahi du, irakasle horrek fisika zientzia osoa, hasi eta buka, azalduko balu bezala.</p><p>11 <ref type="bibr">De Rijk-ek (1991)</ref>, berriz, nolakotasunezko izenlagunetan beti [PostS] + -ko egitura ikusten zuen. 12 Gaurko euskara idatzian -ko/-(r)en alternantziak ikusten dira eta nekezago da hor egiazko lan banaketarik sumatzea. Esaterako, Berria-ko (2008/08/28) artikulu beretik daude jasota honako biak:</p><p>(i) Athleticeko entrenatzailea / Athleticen entrenatzailea Egunkari berean ez dira falta izaten «X saioaren /saioko aurkezlea» bezalako bikoteak. Honen aurrean, autoritarearen argumentua datorkit burura; hona zer dioen Mitxelenak Urlia eta Sendia Galeko</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Genitibo sintagmak DS-ren barruan: proposamen baterantz</head><p>Atal honetan jabetza-genitiboaren hurrenkeraren berri eman nahi duen proposamena aurkeztuko dut, geroxeago, laugarren atalean, egokituko dudana. Nolanahi ere, jabetza-genitiboen azterketa egokirako, badirudi egoera guztiak hartu beharko ditugula aintzat: jabetza-genitibo bakarra dagoenean eta, ohikoa ez bada ere, bi daudenean. Jabetza-genitibo bakarra dagoelarik, itxura batean nahiko goian aurkitzen dugu:  <ref type="formula">(21)</ref>-ekoak -ko sintagmen ezkerrerako mugidaz sortutakoak. <ref type="bibr">13</ref> Genitiboaren eta (izenaren aurreko) zenbatzaileen arteko hurrenkeraren gaira bueltatzen bagara, argi eta garbi ikusten da lehenak zenbatzaileen aurretik behar duela, zeinahi interpretazio duelarik: <ref type="formula">(22)</ref>  Jabea, subjektua eta osagarria onartzen dituen erretratu bezalako izen baten kasuan, irakaslearen berdin izan liteke hiruretarik edozein. Ohikoa den bezala, IS eta AS osagaien paralelismoa azkeneraino eramaten badugu, pentsatu beharrekoa da (22a) adibidearen eratorpena honelako zerbait izango dela:</p><formula xml:id="formula_0">(23) [ DS … irakaslearen i [ QS {hainbat, hiru} [ IS ...t i ... erretratu]] … D]</formula><p>(non t i = subjektu, objektu edo posesibo-jabe posizioa den)</p><p>Hots, izenaren argumentua izan edo egiazko posesiboa izan, genitiboa IS islapenaren barnean sortuko litzateke <ref type="bibr" target="#b31">, Longobardi 2001</ref><ref type="bibr" target="#b5">, Alexiadou et al. 2007</ref>  Letra etzanez adierazitakoak izen predikatuak dira, baina IS osagai garbiak inolako determinatzailerik onartzen ez duten neurrian. Halakoetan, zilegi da jabetza-genitiboa:</p><p>(27) a. Batzordeak Miren hauteskundeen irabazle jo du.</p><p>b. Amaia erdarazko testuen arduradun jarri dute bulegoan.</p><p>Baina jabetza-genitibo hauek ezin dira QS baten gaineko posizio batekin lotu, izen predikatuok printzipioz IS mailaraino baino ez direlako proiektatzen. Beraz, honako baieztapenak izango dira gure abiapuntua:</p><p>(28) a. Euskarazko osagarri eta subjektu genitiboak DS-ren barnean QS-tik gora mugitzen dira; b. bada beheragoko beste genitibo posizio bat IS biluzietan.</p><p>Hurrengo ataletan D eta Q artean datzan posesibo buruarekin lotuko ditut osagarri eta subjektu genitiboak, baina aldi berean IS-ren barneko genitibo bat, berezkoa printzipioz, badela ere aldarrikatuko dut. Bigarren honetatik hasiko naiz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">IS biluziek jabetza-genitibo bakarra izan dezakete</head><p>Datuek argi eta garbi erakusten dute IS biluzietan jabetza-genitibo bakarra dela posible, eta beronek osagarriaren interpretazioa daukala. Bi IS mota aztertuko ditut jarraian: euren predikatu izaeragatik IS soil modura ageri direnak eta predikatu izan ez arren, erlaziozko izena den eta artikulurik gabe ageri den berri izena.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">IS predikatuak</head><p>Predikatu argiak diren IS osagaietan argi eta garbi ikusten da genitiboa zilegi dela, baina eskuarki izenaren osagarriari dagokion interpretazioarekin:</p><p>(29) a. Jonen beldur naiz (cf. Joni beldur diot) b. … egizue hau nire oroigarri (= ni oroitzeko) c. Ciberria Jaialdia hasi berri da Bilbon, kultura zibernetikoaren erakusgarri (= kultura zibernetikoa erakusteko)</p><p>Jonen beldur predikatuan Jon da beldurraren iturria edo gaia, ez genuke Jonek duen beldurra inoiz ulertuko. Mezako nire oroigarri formulan ere ni oroitzeko ulertzen dugu, eta (29c) adibidean antzera dira kontuak. Genitibo horiek osagarri direna bere burua anafora bihurkaria hor posible izateak erakusten du:</p><p>(30) a. neure buruaren beldur naiz b. ... egizue hau zeuen buruaren oroigarri c. Bere idazlan guztiak goraipatu zituen, bere buruaren erakusgarri.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Berri izenaren berri</head><p>Berri izena interes handikoa da osagarriarekin bai baina determinatzailearik gabe argumentu gisa funtzionatzeko gaitasuna daukaten izen bakarretarikoa delako "x-ren berri izan, jakin, eman, entzun,…" bezalako aditz-sintagmetan. Hona hemen literatur tradizioko bi adibide:</p><p>(31) a. Nork ez du Irlanda gaxoaren berri?  b. Badaki ordea Gorostiaga jaunak bere buruaren berri jakiteko, euskal izaera izkutuaz jabetzeko, badagoela lasterbide bat, jakintza bidea baino eroso eta atseginagoa: euskal poesiaren bidea (KM MEIG II-45) 15</p><p>Guri, nolanahi ere, honexek ardura digu: determinatzailerik gabeko berri guztien genitiboak berri horren edukia edo gaia ematen digu, ez berriaren emailea edo subjektua. Eredu honi jarraitzen ez dioten adibideak zeharo ezgramatikalak dira:</p><p>(32) a. ETBk El Correo-ren berri eman zuen. b. ETBk El Correo-ren berria eman zuen.</p><p>c. Lehenik, ETB-ren suetenaren berria entzun nuen. d. * Lehenik, ETB-ren suetenaren berri entzun nuen.</p><p>Oker ez banago, (32a) adibidearen interpretazio bakarra da ETB-k El Correo ri lotutako edo El Correo gaitzat hartutako informazioaren bat eman zuela, baina ez El Correoren beraren berri bat eman zuenik; (32b) adibidea, ostera, anbiguoa da eta goiko irakurketa ez ezik ETBk El Correok emandako berria, El Correo egile edo iturri tzat duen berria, eman zuela ere uler daiteke. Era berean, ohikoa ez bada ere, berri izenak onartzen du aldi berean subjektua eta osagarria gauzatzea, baina horretarako ezinbestekoa da egitura DS-raino proiektatzea (=32c); IS hutsezko egituran (=32d) jabetza-genitiboak berri-ren osagarria baino ezin du izan. Hartara, bigarren froga bat badugu pentsatzeko ISetan jabetza-genitibo bakarra dela posible, eta berau osa garria ri dagokiola. 16</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">DS eta kasu genitiboa: espezifikatzaile anitzeko proposamenaren garapena</head><p>Atal honetan jabetza-genitiboen azterbidea garatuko dut: lehendabizi, jabetza-genitiboen igoeraren aldeko argudioak xehetuko ditut eta jabetza-genitibo biak, sub-15 Berri argumentu dena bi faktorek bermatzen dute: berri ez den beste izen batek DS islapena behar luke; eta, areago, berri-k berak honela funtziona dezake beste modifikatzaileren bat gehituz gero:</p><p>(i) Etxepareren bizitzaren berri urri bezain zehatzak eman dizkigute, beste zenbaiten artean, Jaurgainek,</p><p>Huartek, Urkixok, Gil Reicher andreak… (KM MIH-282) <ref type="bibr">16</ref> Prolatiboak ere hirugarren froga eman lezake, bere osagarria IS mailaraino soilik proiektatzen den neurrian. Egia esan, [DS genitiboa -izena]-tzat osagaietan, genitiboak osagarriaren interpretazioa edukitzen du sarritan, edo erlaziozko izen baten hautapenaren nola edo halako ondorio da:   <ref type="bibr">(Lindauer 1998: 122)</ref> 'Kolumbusen Amerikaren aurkikundea' c. gaztelania, frantsesa: (*los) mis tres libros, (*les) mes trois livres Hala ere, halakoetan posesiboak D-ren ingurura beheragoko posizio batetik igotzen direla esan ohi dute ikertzaileek <ref type="bibr" target="#b38">(Picallo 1994</ref><ref type="bibr" target="#b13">, Cardinaletti 1998</ref><ref type="bibr" target="#b5">, Alexiadou et al. 2007</ref>  <ref type="bibr">Amundarain (1997: 292-hh &amp; 368-hh)</ref> eztabaida baterako. Amundarainek dioenez, juntaduraren ohiko ikuspegian juntagaiak egiazko osagaiak badira ere, beste zenbait kasutan, bereziki izenlagunekin, badirudi partekatutako osagai-segidak juntatzen direla onartu behar dela; (i) adibidea azken tankera honetakoa litzateke nire ustez. <ref type="bibr">19</ref> Azterbide alternatiboa subjektua posizio batera eta osagarria beste batera mugitzen direla esatea da, baina, hurrengo azpiatalean ikusiko dugunez, (38)-eko azterbideak dirudi zuzenena.  <ref type="bibr" target="#b15">(Cinque 1994</ref><ref type="bibr">(Cinque , 2003</ref>. Hirugarrenez, euskaraz genitibo subjektua eta osagarria, biak, ageri dira bata bestearen ondoren, eta erabat isomorfikoak dira gainera. Eta azkenik, ezin dugu ahaztu euskarak beste posizio sintaktiko bat gordetzen duela genitiborako, IS osagaien barruan, hau ere beste genitiboaren berdina dena.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Genitiboak QS-ren gainean daude</head><p>Beraz, badirudi espezifikatzaile bikoitzeko egitura honek justifikazio enpiriko sendoa behar duela. Horrexeri ekingo diot hurrengo azpiatalean.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Espezifikatzaile anitzeko egituraren aldeko argudioak</head><p>Espezifikatzaile anitzeko egiturak oinarri sendoa daukala esateko, bizpahiru datu multzo aurkeztuko ditut: bateko, <ref type="bibr">Richards-ek (2001)</ref> espezifikatzaile anitzeko egituretarako ematen eta aurreikusten dituen datuek bat egiten dute euskarazko jabetzagenitiboen jokabidearekin; hari beretik, Eguzkitzak (1993) SOI eta OSI hurrenkerez emandako datuen berrikuspenak S eta O osagaiak egituran bateratsu daudela iradokitzen du; azkenik, jabetza-genitibo bi daudenean euren arteko pertsona-murrizketak daudela egiaztatzeak (Pertsona-Kasu Murrizketaren ondorioak sumatzeak azken batean) salatzen du genitibo horiek buru beraren espezifikatzaile banatan daudela.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.1.">A-espezifikatzaile anizkoitzen ezaugarriak eta DS-ren barneko hurrenkerak</head><p>Aurreko atalean garatu dudan proposamenaren arabera, (38)-ekoa bezalako eratorpen sintaktikoan pentsatu behar da; posesibo buruak honelako ezaugarriak edukiko lituzke:</p><p>(41) posesiboa, (n-) ugenitiboa *, uϕ-tasunak non * sinboloak tasun sendoa adierazten duen eta, beraz, erakarritako DS argumentuen mugida eragiten duen. Hemen alde batera utziko dut genitibo anizkoitzen jatorriaren eztabaida: posesibo buru funtzionalaren ezaugarri parametrikoa den <ref type="bibr" target="#b50">(Ura 1996)</ref> parentesi arteko n horrek aditzera ematen duen moduan, edo [-in ter pre tagarria] den tasun bat ez ezabatzearen ondorio den <ref type="bibr" target="#b14">(Chomsky 1995)</ref>, edo besterik gabe, kasu eta pertsona tasunek erkatzeko unean duten ezberdintasun orokorraren ondorio den <ref type="bibr" target="#b11">(Boeckx 2003)</ref>. Besterik gabe jabetza-genitiboak espezifikatzaile anitze ko konfigurazioan daudelako ideia indartzen ahaleginduko naiz.</p><p>Euskarazko jabetza-genitibo anizkoitzek <ref type="bibr">Richards-ek (2001)</ref> hizkuntzalariak espezifikatzaile anitzeko konfigurazioez esandakoa puntuz puntu jarraitzen dutela litza te ke azpimarratu beharrekoa. Richards-ek bai A-mugida bai A'-mugidaren arloko argudio enpiriko zabalak ematen ditu buru beraren espezifikatzaile anizkoitzek goragotasunari men egiten diotela eta modu sistematikoan bidezidor kabiratuak sortzen dituztela erakusteko; hots, buru berak sintagma bat baino gehiago erakartzen duenean espezifikatzaile anitzeko konfigurazio batera, gorago dagoen sintagmak goragoko espezifikatzailean amaituko du eta beherago dagoenak beheragoko es pe zi fi katzailean. Fenomeno hau ez da arrotza euskaraz NZ-mugidan: galdetzaile bi batera aurreratzen direnean, goragotasuna errespetatzen da: Datu hau garrantzitsua da: batetik iradokitzen du OSI hurrenkera A-motako scramblinga izan daitekeela (uztardurarako behar den konfigurazioa desegiten duelako ezin du osagarri anaforikoak goragoko posizio batera mugitu), eta bestetik erakusten du osagarriaren berezko lekua subjektuaren eskuinera izan behar dela, SOI dela hurrenkera arrunta. Alegia, egia da ez dakigula seguru SOI hurrenkeran SO osagaiak buru beraren edo biru biren espezifikatzailean dauden, baina, zeharka bada ere, datuak egiaztatzen du SO-X-I dela hurrenkera neutroa (Richards-en azterbidetik espero daitekeen moduan) eta O-S-X-I hurrenkera bi eragileren ondorio dela gutxienez: igoera eta scrambling. <ref type="bibr">20</ref> Richards-ek (2001) deskribatzen duen bigarren ezaugarria sotilagoa da: hark dioe na ren arabera buru beraren espezifikatzaile banatan dauden zenbatzaileek jatorriz ko konfigurazioan zuten besarkadurari eusten diote. Datua nahiko lausoa da oro har eta berdin gertatzen da euskaraz ere. Nolanahi ere, hiztun gehienek jotzen dute honelako DSetan anbiguitateak txartzat edo bitxitzat hartzera:</p><p>(46) DVD honek ume guztien ipuin baten kontaketa jasotzen du.</p><p>Alegia, jabetza-genitibo biak batera buru beraren espezifikatzaileetara mugitzerakoan, zenbatzaileen interpretazioa hasierakoaren berdina litzateke: beraz, subjektuak objektua o-komandatzen duenez, interpretazioak honelakoak lirateke:   <ref type="bibr" target="#b7">Artiagoitia (1998</ref><ref type="bibr">Artiagoitia ( , 2008</ref>  Bestela esanda, Eguzkitzaren jatorrizko SOI eta OSI datuen berrinterpretazioaren argitara, subjektua-objektua egitura multzoa [espez, D] gunea libre da goe la rik bakarrik apur daitekeela egiaztatzen dugu. Baina egiaztapen honek, zeharka, ira do kitzen du proiekzio beraren espezifikatzaile bana betetzen dutelako ideia, Richards-en azterbidearen araberakoa, zuzena izan daitekeela.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.2.">Pertsona-Kasuaren Murrizketak eta [+pertsona] genitiboak</head><p>Jabetza-genitibo osagarria eta subjektua buru sintaktiko berberaren es pe zi ka tzaile banatan daudela proposatzeak aurreikuspen interesgarria egiten du: Pertsona-Kasuaren Murrizketa delakoaren eragina sumatuko dugula behar bezalako bal din tzak sortzen direnean. Baldintzok hauexek lirateke: buru berak ezin duela tasun morfosintaktiko berdina (pertsona) bi biderrez erkatu. Halako eragozpenik ez da inoiz sortzen bi DS argumentuk euren tasun morfosintaktikoak bi proiekziotan erkatzen dituztenean: Gauzak horrela, euskarazko jabetza-genitibo biak, subjektua eta osagarria, buru beraren eremuan daudela, eta buru beraren espezifikatzaile anitzeko egitura bat sortzen dutela aldarrikatzea sinesgarritasun handiko hipotesia da. 23</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Ondorioak</head><p>Artikulu honetan proposatu dut euskarazko DS-en barnean bai subjektuak bai osagarriak posesibo buru funtzionalaren espezifikatzailerako igoera egiten dutela, espezifikatzaile anitzeko konfigurazio bat sortuaz. Erkatze anizkuneko konfigurazioa PKM delakoaren ondorioak ikusteak baieztatzen du, bai eta hurrenkera murriztapen batzuen azterketak ere (P-S-O hurrenkera ezmarkatua, zenbatzaileek mugidaren aurreko besarkadurari eustea, scrambling-a eta beronen interakzioa erakusleekin).</p><p>Proposamenak iradokitzen du Gramatikal Unibertsalak kasua n-aldiz esleitu dezaketen buruak permititzen dituela, baina buru hauek behin baino ezin dituzte ϕedo pertsona-tasunak erkatu, <ref type="bibr">Jeong-ek (2004)</ref> defendatzen duen bezala.</p><p>Euskarak egiturazko kasu genitiboa setatia izan daitekeela erakusten du: DS argumentu orok igo ahal, eta behar, du determinatzaile-sintagmen barnean. 24 Salbuespen bakarra IS etenak edo biluziak dira, hirugarren atalean iradoki dudanez. Halakoetan jabetza-genitiboa osagarriaren interpretazioari lotzen zaio soilik. Jabetza-genitibo hauek azken baliabide modura, posesibo buru funtzionalik ezean ezarriak dirudite eta, itxura batean, Chomskyk (1986) berezko kasu genitiborako emandako ezaugarriak betetzen dituzte: izenaren argumentu zuzena den osagarria baino ezin da agertu. Nolanahi ere, ez da izenaren eta genitiboaren arteko ondokotasun baldintza ikusten;</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>(</head><label></label><figDesc>18) a. adineko jendea (= [ IS I] + -ko) b. aho biko ezpata (=[ QS IS-Q] + -ko) c. bihotz oneko laguna (= [ FS/IS I-Adj] + -ko) d. *bihotz on honetako laguna ([ DS I-Adj-D]+ -ko)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>(</head><label></label><figDesc>20) a. Jonen atzoko txistea b. Mirenen bi autoak c. Sanzen atzera egiteko erabakia d. Libanoren su-etenerako plana Hots, badirudi posesibo arrunta (20a-b) -ko modifikatzaileen eta zenbatzaileen ezkerretara kokatzen dela; berdin esan liteke jabetza-genitiboa subjektu delarik (20c-d), modifikatzaile horiek osagarri (20c) izan edo ez (20d). Arestiko adibideetan, -ko sintagmak jabetza-genitiboaren ezkerretara ere ager daitezke, baina ñabardurekin: (21) a. atzoko Jonen txistea b. atzera egiteko Sanzen erabakia c. su-etenerako Libanoren plana Ñabardura da (20)-eko adibideak nolabait neutroak diren bitartean (21)-koek multzo zabalago batera bidaltzen gaituztela edo, bestela, foku-interpretazioa eragiten dutela: atzoko Jonen txistea-k iradokitzen du badirela Jonen txistea ez diren atzoko beste txiste batzuk; (21b)-n ere aditzera ematen da izan litezkeela atzera egiteko beste erabaki batzuk Sanzek hartutakoak ez direnak eta, zeharka, erabakia Sanzena eta ez beste batena dela azpimarratzen da; (20c)-k, agian adibiderik argiena, iradokitzen du Libanoren planaz gain beste plan batzuk direla. Nolanahi ere den, ñabardura hauek ikusita, argi dago (20)-ekoak direla hurrenkera arruntak, eta</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>(i) a. Bere iritzien sostengutzat eta irakurleen argibidetzat dakarzkien habeak, behar bezain sendoak eta oraingoak ez izateaz gainera, badirudi saiheska hautatu eta erabili dituela (KM, MIH-394) b. Olerki onen ondoren, Pernandoren oroigarritzat Erriko-etxearen arpegian jarritako arria agertu erazi zuan alkatearen alaba lirain batek (Mujika, PAm-10) c. Elizetxe batean ezin bizi ditekek, beatak Txerrenen alabatzat daduzkan gizon txaldar, narrats, lotsagaberik, sinespena galdu duen gizonik (Azkue, Ardi galdua -28) Hots, hor bere iritziak sostengatzeko, irakurleak argitzeko, Pernando oroitzeko… lirateke parafrasi egokiak; alaba izateak berez eskatzen du norbaiten alaba izatea. Hala ere, datuak ez dira guztiz gardenak hainbat kasutan, eta beraz prolatiboa hurrengo batean aztertzeko utzi dut. jektua eta osagarria, posesibo buruaren espezifikatzaile anitzeko konfigurazioan daudela proposatuko dut. Ondoren, erkatze anizkuneko egitura horren aldeko argudioak aurkeztuko ditut: lehenik erakutsiko dut nola nire proposamenak bat egiten duen Richards'en espezifikatzaile anitzeko teoriarekin eta nola egitura horrek izen-sintagmaren barneko hurrenkerez Eguzkitzak emandako datu batzuk hobeto interpretatzen laguntzen digun; beste argudioa, indartsuagoa, Pertsona-Kasu Murrizketaren inguruko datuek emango digute: jabetza-genitibo bi izatea ez da posible biak [+pertsona] direlarik eta datu horrek berak salatzen du biak buru beraren kontra erkatzen dutela euren pertsona-tasuna.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>(46') a. interpretazio arrunta (∀ &gt; ∃): ume bakoitzari buruz esan liteke ipuin bat behin tzat kontatu duela.b. interpretazio nekeza (?? ∃ &gt; ∀): bada ipuin jakin bat ume guztiek kontatu dutena.Ohartzekoa da perpaus mailan, subjektuak eta osagarriak buru biren es pe zi fi katzaile bana betetzen dutenez, anbiguitatea dela arruntena:(47) DVD honetan ume guztiek ipuin bat kontatzen dute (∀ &gt; ∃, ∃ &gt; ∀)Hau da, azaleko posizioa edo jatorrizkoa hartu, litekeena da zenbatzaile batak bestea o-komandatzea edo alderatziz<ref type="bibr" target="#b25">(Hornstein 1995)</ref>, eta hortixek sortzen da interpretazio biren aukera.21   Hirugarrenik, Richards-en azterbideak Eguzkitzaren datu bitxi bat azaltzeko aukera ere ematen du: modu marjinalean bada ere, zilegi dira euskaraz posesiboa eta subjektu-osagarria, baina ez da posible halakoetan osagarria subjektuaren aurretik agertzea:(48) a. (?) Monzonen Leizarragaren Bibliaren itzulpena (=P-S-O-I) b. * Monzonen Bibliaren Leizarragaren itzulpena (=*P-O-S-I; Eguzkitza 1993: 170) Eguzkitzak (1993) argudiatzen zuen posesiboa [espez, D] gunean zuzenean sortzeak azaltzen duela zergatik ez den posible P-O-S-I hurrenkera: osagarriak orduan ezin zuen gune hori bete. Baina Richards-en azterbidean analisi gogobetegarriagoa aurkitzen dugu: izan ere, egun ohikoa den moduan (cf. Longobardi 2001, Alexiadou et al. 2007), posesiboa IS-ren inguruko proiekzioan sortzen badugu, batetik espero izatekoa da goragotasuna errespetatuaz hurrenkera ezmarkatua [PSO]-I izatea, egiaz den bezala, hiru genitiboak posesibo buruaren espezifikatzaile hirukoitzean kokatuta:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>lanetan hasierako erakusleok [espez, D] posizioan direla eta D posizioko artikuluarekin espezifikatzaile-buru harremanean direla argudiatu dut. Zuzena bada, eta scrambling mugida [espez, D] gunerako dela onartuta, azterbide honek aurreikusten du mendebaleko erakusleak bateragarriak izango direla SOI hurrenkerarekin baina bateraezinak OSI hurrenkerarekin, honelakoetan osagarria eta erakuslea posizio beraren alde lehiatzen direlako. Aurreikuspena bete egiten da eta bateraezinak dira hasierako erakusleak eta OSI hurrenkerak: (51) a. * hónek bere emaztearen i Riberaren t i irudiok b. hónek Riberaren bere emaztearen irudiok Eskematikoki adierazita: (52) Mendebaleko euskara a. * erakuslea-Osagarria-S-t osagarria -I-Det b. √ erakuslea-SO-I-Det</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>1) euskarazko determinatzaile-sintagmaren egitura 2 [ DS [ PosS [ QS XS [ FS [ IS I].... Adj] Q] Pos] D] (non XS = neurri sintagmak eta QSak, numeralak barne) (2) a. liburu hauek = [ DS [ IS liburu] [ D hauek]] b. liburu bi hauek = [ DS [ QS [ IS liburu] [ Q bi]] hauek] c. {hainbat, kutxa bete} liburu = [ DS [ QS [ XS {hainbat…}] [ IS liburu] [ Q Ø]] [ D Ø]] d. bost liburu(-ak) = [ DS [ QS [ QS bost] [ IS liburu]] [</figDesc><table /><note>D (-ak)]]</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>a. irakaslearen {hainbat, hiru} erretratu b. * {hainbat, hiru} irakaslearen erretratu kitzikariak adibidearen harira: «Guztiok badakigu, arteka-marteka ahazten bazaigu ere, -(r)en dela atziz ki zuzen bakarra horrelakoetan. Euskalki guztietan, nik uste, labur-surrean ez gabiltzanean elkarte moldez jokatuz, artoaren ereilea esaten da, kateen birrintzailea, kristauen salataria, eta abar eta abar» (Mitxelena 1988: 172). Bestetik, ez da idatzita dagoen oro ontzat eman behar: egunkari bereko ale batean (2008/10/23), prostituzioaren inguruko txosten baten egilea aukeztean, hura azterlaneko egile (sic) dela adierazten da. Horrelakoak ez ditut gramatikaltzat hartuko edo, kasurik txarrenean, nongo parafrasi bat ezkutatzen dutela suposatuko nuke. Oro har, ontzat emango dut (13). 13 Scrambling itxura du mugida honek. Anbiguitatea saihestea ere izan dezake helburutzat: plana interpretatzeko arriskua dago, plana norena den argitu gabe. Kazetariak, (ia) hautatuaz, argitasuna lortzen du, baina garbi uzten ere su-eten horretarako Libanoren plana ez diren beste batzuk badirela (Estatu Batuen eta Frantziarena, esaterako, berria hedatu zen unean).</figDesc><table /><note>(i) a. Liga Arabiarrak erabat babestu du su-etenerako Libanoren plana. (Berria, 2006/08/08) b. Liga Arabiarrak erabat babestu du Libanoren su-etenerako plana. Oker ez banago, (ib) adibidea neutroagoa da, baina [Libanoren su-etenerako]</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>eta, ondoren, goragoko posizio batera mugituko litzateke. Testuinguru honetan hauxe egiaztatzen dugu: subjektu eta osagarri diren jabetza-genitibo bi daudelarik ere, murriztapen berdinekin egiten dugula topo eta biak agertzen direla deslekuan, zenbatzaileen ezkerretara, eta are -ko sintagmen ezkerretara:Bi jabetza-genitibo ez dira ohikoak, noski, baina bi genitiboren bitxitasuna gainditu daiteke testuinguru egokian; ezinezkoa da, ordea, zenbatzaileak genitiboaren aurre tik kokatzea.Laburbilduta: subjektua eta osagarria ageri dituen determinatzaile-sintagma batean biek zenbatzaileen ezkerretara behar dute, QS-ren gainetik. Bestetik, -ko adjunktuen kokapen arrunta osagarriaren eskuinera eta izenaren ondoan da, (24c-d) adibideen arabera behintzat. Datuok pentsarazten digute bai genitibo subjektuak bai genitibo osagarriak beren kasua nahiko goian, IS osagaitik kanpo eta QS-ren gainetik dauden posizio sintaktikoetan, erkatzen dutela. Arestiko (23)-rekin batera, honelako eratorpenetan pentsatu behar dugu orduan:(25) a. Picassoren i zezenaren j [ QS lau [ IS t i t j erretratu]]-ak Bai osagarria bai subjektua euren jatorrizko posiziotik aldentzen badira, galdera berehala sortzen da: nora mugitzen dira? Posizio sintaktiko berdinera mugitzen dira ala buru biren espezifikatzaile banatara mugitzen dira?Galdera hauei ekin aurretik, baina, genitiboaren bigarren agerrera bat ira do ki tzen duen beste datu bat gehitu behar da: datua IS biluziek ematen digute. Hara:(26) a. Batzordeak Miren irabazle (*a, *bat) jo du.</figDesc><table><row><cell>(24) ]a. Picassoren zezenaren lau irudiak</cell><cell>(Picasso egiletzat hartuta)</cell></row><row><cell cols="2">]b. Arestiren Espriuren poemen zenbait itzulpen</cell></row><row><cell cols="2">]c. Peruren Mirenen igerilekuko argazkia (Zabala 1999: 150) 14</cell></row><row><cell cols="2">[d. Europako ministroen familiako argazkia (ibidem: 129)]</cell></row></table><note>b. [Arestiren i Espriuren poemen i [ QS zenbait [ IS t i t j itzulpen]] ageri dira … c. Peruren i Mirenen j igerilekuko [ IS t i t j argazki]-a d. Europako ministroen i familiako [ IS t i argazki]-ab. Amaia arduradun(*a, *bat) jarri dute bulegoan.14 Eguzkitzak (1993) honakoa ematen du hurrenkera normaltzat: (i) Riberaren El Pradoko eskalearen irudia (S-Adjunktua-O-I) Nire informatzaileek, hala ere, nekez hartzen dute El Prado irudiaren kokapentzat, eta eskalearen kokapena dela ulertzera jotzen dute. Puntu honetan Zabalaren datuek fidagarriagoak dirudite.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>Mary's (*the) book / my (*the) book b. germaniera: (*die) Kolumbus Entdeckung von Amerika</figDesc><table><row><cell>(35) a. ingelesa:</cell><cell></cell></row><row><cell cols="2">Dagoeneko egiaztatu dugu genitibo bakarra dela posible IS barruan, eta zilegi di-</cell></row><row><cell cols="2">rela bi DS barruan. Eta argitu ere argitu dugu subjektuari eta objektuari dagokien</cell></row><row><cell cols="2">gune sintaktikoak QS gainetik behar duela. Aurreko adibide esanguratsuenak erre-</cell></row><row><cell>pikatuta ematen ditut:</cell><cell></cell></row><row><cell>(33) a. irakaslearen {hainbat, hiru} erretratu</cell><cell></cell></row><row><cell cols="2">b. [ DS … irakaslearen i [ QS {hainbat, hiru} [ IS ...t i ... erretratu] … D] c. Picassoren zezenaren lau irudiak</cell></row><row><cell cols="2">d. [ DS …Picassoren i zezenaren j [ QS lau [t i t j irudi]] …[ D -ak]]</cell></row><row><cell cols="2">Igoeraren aldeko argudio nagusia horixe dugu hain zuzen: izenaren argumen-</cell></row><row><cell cols="2">tuak IStik kanpo eta QS-ren gainetik agertzen direla. Erantzun beharreko gal-</cell></row><row><cell cols="2">dera hauxe da: zein dira genitibo bi horiek biltzen dituzten islapenak? Bat edo</cell></row><row><cell cols="2">bi dira? Hasteko, QS-ren gaineko buru funtzional baten existentzia justifikatzen</cell></row><row><cell cols="2">ahaleginduko naiz; ondoren genitibo biren kokapena zein izan daitekeen azal-</cell></row><row><cell>duko dut.</cell><cell></cell></row><row><cell cols="2">Batetik, hizkuntzen arteko ebidentzia aipa daiteke D eta Q arteko posesibo burua</cell></row><row><cell cols="2">justifikatzeko: zehaztutasuna eta posesiboak lotuta ez dauden hizkuntza askotan, ge-</cell></row><row><cell cols="2">nitiboak determinatzailearen azpitik (eta QS-ren gainetik) kokatu ohi dira:</cell></row><row><cell>(34) a. katalana: les seves novelles de Nabokov</cell><cell>(Picallo 1991: 284)</cell></row><row><cell>b. italiera: il mio libro</cell><cell>(Schoorlemmer 1998: 58)</cell></row><row><cell>c. bulgariera: edin negov prijatel</cell><cell>(ibidem: 59)</cell></row><row><cell>bat bere lagun</cell><cell></cell></row><row><cell>'bere lagun bat'</cell><cell></cell></row><row><cell>d. hungariera: (a) Mari kalap-ja-i</cell><cell>(Szabolcsi 1994: 180)</cell></row><row><cell>art Mari.nom kapela.kmz.pl</cell><cell></cell></row><row><cell>'Mariren kapelak'</cell><cell></cell></row><row><cell>e. maoriera: tā Hōne patu-nga o te wahine</cell><cell>(Pearce 1998: 427)</cell></row><row><cell>art .gen hil-keta gen art andre</cell><cell></cell></row><row><cell>'Honeren andrearen hilketa'</cell><cell></cell></row><row><cell cols="2">Zehaztutasuna eta posesiboak elkarren eskutik doazen hainbat hizkuntzatan, po-</cell></row><row><cell cols="2">sesiboari emandako azaleko kokapena, berriz, D gunea edo [espez, D] gunea izaten</cell></row><row><cell cols="2">da. Izenordain posesiboek D gunea bete ohi dutela esaten da; gainontzeko sintagma</cell></row><row><cell>genitiboek bigarrena:</cell><cell></cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>Nire aspaldiko lan batean aurkitu dut Beñaten adibide hau, haren zorroztasunaren lekuko; hain zuzen ere, bertan egiten nuen proposamenerako problematikoa zen datua eta konpondu gabe utzi nuen.</figDesc><table><row><cell cols="2">). Hizkuntzetan barrena, beraz, posesiboak D-ren</cell></row><row><cell>azpiko lehen buruari lotuta ageri dira.</cell><cell></cell></row><row><cell cols="2">Euskararen barnetik, ez da hain erraza D/DS eta Posesibo/PosS bereizten: nabar-</cell></row><row><cell cols="2">mena da jabetza-genitiboa eta determinatzailea zein bere aldetik doazela eta genitiboa</cell></row><row><cell cols="2">zilegi dela D gunea hutsik dagoenean (cf. hasierako 6b-c adibideak), artikulurik edo</cell></row><row><cell cols="2">erakuslerik gabe. Jabetza-genitiboa QS-ren gainetik dagoenez, honek, printzipioz,</cell></row><row><cell cols="2">bidea zabaltzen du jabetza-genitiboa D-rekin zerikusirik ez duen buru baten espezi-</cell></row><row><cell>fikatzailean dela esateko:</cell><cell></cell></row><row><cell>(36) [ DS [ XS nire [ QS {bost, hainbat} liburu [ Q Ø]] X] [ D Ø]]</cell><cell>X = posesibo</cell></row><row><cell cols="2">Zeharkako datu horrek berrespena aurkitzen du juntaduran, zilegi baita posesiboa</cell></row><row><cell cols="2">eta IS osagaiak biltzen dituzten baina determinatzaileak kanpoan uzten dituzten jun-</cell></row><row><cell>tagaiak aurkitzea:</cell><cell></cell></row><row><cell cols="2">(37) a. [[zure liburu] eta [ene artikulu]-ak] ekarri ditut (B. Oyharçabal, k. p.) 17</cell></row><row><cell cols="2">b. Atzo aipatu zenituen [[zure bi liburu] eta [nire hiru disko]-ak] desagertu egin</cell></row><row><cell>dira.</cell><cell></cell></row><row><cell cols="2">Datuok ez dira agian hain erabakigarriak, baina euskararen barnean ere posesibo-</cell></row><row><cell>sintagma eta DS bereiz daitezkeelako frogatzat hartuko ditut. 18</cell><cell></cell></row><row><cell cols="2">Aurreko ebidentzia edo arrazoi hauek guztiak ikusita badirudi euskarazko DS-</cell></row><row><cell>etan bi genitiboren agerrera honelatsu azaldu beharko genukeela:</cell><cell></cell></row><row><cell>(38) [ DS [ PosS S, O [ QS QS [ IS …t s , t o , I] Q] Pos] D 19</cell><cell></cell></row><row><cell>Edo diagrama-arbola bat eginda:</cell><cell></cell></row><row><cell cols="2">18 Froga ahula agian, zeren beste batzuetan jabetza-genitiboa determinatzailearen gainetik dagoela</cell></row><row><cell>dirudi:</cell><cell></cell></row><row><cell>(i) [zure [bi liburuak] eta [hiru diskoak]]</cell><cell></cell></row><row><cell cols="2">Ez da kontu berria juntaduraren alorrean datu kontraesankorrak aurkitzea: ikus Goenaga (1991)</cell></row><row><cell>eta, batez ere,</cell><cell></cell></row></table><note>17</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head></head><label></label><figDesc>[ DS [ PosS Monzonen i Leizarragaren j Bibliaren k … [ IS t i t j t k itzulpen]-a] Eta bestetik, badakigu zergatik ez den gramatikala *P-O-S-I hurrenkera: posesibo buruak berak hiru argumentuak aldi berean erakartzen baditu, hasierako o-komando erlazioak azaleratu behar direlako goragotasuna errespetatuaz; hots, ezinezkoa da, Richards-en teorian behintzat, hurrenkera okerra deribatzea. Labur esanda, orduan, euskarazko genitibo egiturek Richards-en A-espezifikatzaile ani tze ko teoriarekin bat egiten dute: teoria horrek aurreikusten du, bestelako erakarlerik ezean, S eta O osagaiek, buru beraren espezifikatzailean daudelarik, nahiko hurren ke ra zurruna izango dutela: ikusi dugun moduan, hala da scrambling mugida gertatzen denean izan ezik. 22 21 Kontua korapilatsuagoa da, berez. IkusMendia (2009) zehaztasunetarako.  22  Egia esan, ezerk ez du galarazten P-S-O hurrenkeretan, osagarria posesiboaren aurrera mu gitzea. Datuak nahiko marjinalak dira scrambling-ik gabe ere, baina nago osagarriaren mugidarekin ez dela aparteko zailtasunik eransten, interpretazio argia lortu ahal bada: Velázquezek ez ezik beste artista batzuek pintatu dutela suposatu behar da. Irakurlearen esku uzten dut (ia-b) adibideen artean kontrasterik baden epaitzea.Azkenik, espezifikatzaile anizkoitzen proposamenarekin bat datorren beste datu esanguratsu bat emango dut: DS-ren hasierako erakusleen portaera. Mendebaleko euskararen bereizgarria da erakusleak sintagma amaierako artikuluarekin (hurbila edo ez)</figDesc><table><row><cell>(i) a. (?) Von Thyssen-en Velázquezen erregearen irudia b. (?) erregearen i / Von Thyssen-en Velázquezen t i irudia (50) Mendebaleko euskara a. hau neska gazteau / hau neska gaztea (ib) sinestea errazteko, erregea komunztatzen duela: b. hónek neska gazteok / hónek neska gazteak (Artiagoitia 2008) (ekarriko dute Bilbora) (ekarriko dute Bilbora)</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2"> Ikus Oyharçabal (2006)  antisimetriari jarraitzen dion euskal DS-ren ikuspegi baterako.3  Egurenek(2006)Num eta Q bereizten ditu; nik biak parekotzat jo izan ditut; nolanahi ere, nire iritzia da(Artiagoitia 2006), bereizketarik bada, euskaraz NumS horrek QS-ren gainetik behar duela.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">Halere, bada «affectedness contraint» deritzon murriztapen bat. IkusLongobardi (2001: 564-hh). 5 Murriztapen desberdinak daude, hala ere, baterako eta besterako. Genitibo prenominala gaurko alemanean izen berezietara mugatzen omen da; ikus baita DeWit and Schoorlemmer (1996)  ere.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6">Kasu guztietan zilegi da pertsona izenordain indartua, nire hizkeran behintzat.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="20">Artiagoitiak (2009) OSI hurrenkera scrambling motakoa dela erakusteko argudio gehiago ematen ditu, Elordietak (2001) ABS-DAT eta DAT-ABS alternantziak azaltzeko ematen dituenetan inspiratuak.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="23">Eztabaida honen harian, interes handikoa da euskarazko izenordain elkarkari eta bihurkarien jokabidea. Jakina denez, lehen eta bigarren pertsonako elkarkari eta bihurkariek hirugarren pertsona singularraren jokabide sintaktikoa eduki ohi dute:</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="24">Alde horretatik, zaramaren Espainiako maitaleak bezalako adibideez Artiagoitia (2000: 55-6) lanean esan nituenak oker daude: halakoak gramatikalak dira eta osagarri diren jabetza-genitiboak ez daude izenaren ondo-ondoan. Bitxiak izatekotan, interpretazio arazoengatik (edo osagaien luzeragatik) izan daiteke, baina ez arrazoi gramatikalengatik.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"> <ref type="formula">(2004)</ref> <p>lanek, esaterako, defendatzen dute tasun anitzeko erkatze egoeretan zilegi dela sintagma batek baino gehiagok kasu berdina erkatzea, kasua helburuaren tasun formal hutsa den neurrian (eta modu simetrikoan erkatu daitekeen neurrian); baina, autore horien arabera, ez da zilegi sintagma batek baino gehia gok pertsona-tasun berdinak erkatzea, pertsona-tasunak helburuaren tasun interpretagarriak direlako eta modu asimetrikoan erkatzen direlako (hurbilenak baino ezin ditu behin erkatu). <ref type="bibr">Jeong-en (2004)</ref>  Alegia, (59a-b) adibideak bitxiak dira oro har subjektu eta osagarri diren jabetzagenitibo bi erreskadan bitxiak direlako, baina lehen eta bigarren pertsonako edozein subjektu-osagarri konbinaziok gainditzen du bitxitasunaren muga, eta zeharo ezgramatikala da. Arbola-diagrama batean:</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">esaterako, nahiko argi uzten du, «x-en burua» bihurkariei dagokienez, sintaxian hirugarren pertsona dena posesibotik datorren indizeari esker bihurtzen dela lehen edo bigarren pertsona Forma Logikoan. Pentsatzekoa da antzeko analisia behar dela elkarkarien alorrean: horiek sintaktikoki hirugarren pertsona singular modura jokatzen dute, baina LF mailan, lehen eta bigarren pertsonaren erreferentzia izan dezakete. Gauzak horrela, ez da harritzekoa PKM delakoaren aztarnarik ez sumatzea anafora genitiboetan: (ii) a</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Datu</forename><surname>Hau Oharkabean Pasatu Ohi Da Gramatiketan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rebuschik</forename><surname>Baina</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+	<note>gure bata bestearen erretratuak] inprimatu nahi ditut. b. [gure elkarren amodioa] han handitu den denboran… (P. Larzabal, Gerla urte) c. Epaimahaiari gustatu egin zaio [(zure) zeure buruaren {kritika, defentsa}</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Pertsona-identitatea LF mailan soilik gauzatzen duten adibide hauek onak izateak argi uzten du Pertsona-Kasuaren Murrizketaren ondorioak guztiz sintaktikoak direla eta ez interpretaziozkoak edo semantikoak; ondorio honek bat egiten du Ormazabal &amp; Romero (2007) lanaren ildoarekin, noski. (58) a. Miren (*ustezko) hauteskundeen (ustezko) irabazle agertu da b. Olatu hauetako bakoitza harrotu eta ezerezten duenean</title>
+		<imprint/>
+	</monogr>
+	<note>bere buruaren une hartako argazki. gertatzen da (KM, MEIG III, 136</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">esandakoaren bidetik, litekeena berezko jabetza-genitibo hau i &quot;izen txikia&quot; buruaren mende egotea, eta horrexek azaltzea, nola edo hala, zergatik ez den osagarria izenaren ondo-ondoan ageri</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Adger-Ek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Baina gai honen ingurukoak hurrengo baterako utzi beharko ditugu</title>
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Aipamen bibliografikoak</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Adger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Core Syntax. A Minimalist Approach</title>
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Possesors, Predicates and Movement in the Determiner Phrase</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">&amp;amp; C</forename><surname>Alexiadou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Wilder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">John Benjamins. -, L. Haegeman &amp; M. Stavrou</title>
+		<meeting><address><addrLine>Amsterdam; Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Mouton de Gruyter</publisher>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note>Noun Phrase in the Generative Perspective</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Juntadura eta elipisia euskaraz, UPV/EHUko doktorego tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Amundarain</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Artiagoitia</surname></persName>
+		</author>
+		<title level="m">Determinatzaile Sintagmaren Hipotesia Euskal Gramatikan</title>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="33" to="61" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Hatsarreak eta Parametroak lantzen, Gasteiz: Arabako Foru Aldundia &amp; UPV/EHU</title>
+		<editor>X. Artiagoitia, P. Goenaga &amp; J. A. Lakarra (arg.), Erramu Boneta: Festschrift for Rudolf P. G. de Rijk</editor>
+		<imprint>
+			<date type="published" when="2000" />
+			<biblScope unit="page" from="73" to="90" />
+		</imprint>
+	</monogr>
+	<note>The functional structure of the Basque noun phrase</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Euskarazko izen-sintagma: arkitektura eta egitura funtzionala», UPV/EHUko eskuiz kri bua</title>
+	</analytic>
+	<monogr>
+		<title level="m">Gramatika Jaietan. Patxi Goenagaren omenez</title>
+		<editor>X. Artiagoitia &amp; J. A. Lakarra</editor>
+		<meeting><address><addrLine>Bilbo-Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="71" to="92" />
+		</imprint>
+		<respStmt>
+			<orgName>ASJU-ren Gehigarriak</orgName>
+		</respStmt>
+	</monogr>
+	<note>Some arguments for complement-head order in Basque DPs</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Genitive case in Basque and multiple checking», UPV/EHUko eskuizkribua</title>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Symmetries and asymmetries in multiple feature checking</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Boeckx</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Multiple Wh-Fronting</title>
+		<editor>C. Boeckx and K. K. Grohman</editor>
+		<meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Benjamins</publisher>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="17" to="26" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Morphology after syntax: Pronominal clitics in Romance, MIT PhD dissertation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Bonet</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">On the deficient/strong Opposition in Possessive Systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Cardinaletti</surname></persName>
+		</author>
+		<editor>Alexiadou eta Wilder</editor>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="17" to="54" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Knowledge of Laguage</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Chomsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Minimalist Program</title>
+		<imprint>
+			<date type="published" when="1986" />
+			<publisher>MIT Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Paths towards Universal Grammar. Essays in honor of Richard S</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Cinque</surname></persName>
+		</author>
+		<editor>G. Cinque</editor>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="85" to="110" />
+			<pubPlace>Kayne, Washington DC: Georgetown U. P</pubPlace>
+		</imprint>
+	</monogr>
+	<note>On the evidence for partial N-movement in the Romance DP</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Functional Structure in DP and IP. The Cartography of Syntactic Structures</title>
+	</analytic>
+	<monogr>
+		<title level="m">The dual source of adjectives and XP vs N-raising in the Romance DP</title>
+		<meeting><address><addrLine>Oxford: Oxford U. P</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+	<note>NELS 34 jardunaldietan aurkezturiko txostena</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The expression of possession in noun phrases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Coene</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>&amp;amp; Y. D&amp;apos;hulst</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">From NP to DP</title>
+		<imprint>
+			<biblScope unit="volume">II</biblScope>
+			<date type="published" when="2003" />
+			<publisher>John Benjamins</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">The Handbook of Contemporary Syntactic Theory</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">&amp;amp; M</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Baltin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Blackwell</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Adnominals in the Grammar of Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Eguzkitza</surname></persName>
+		</author>
+		<editor>Hualde &amp; Ortiz de Urbina</editor>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="163" to="187" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Kasuak eta postposizioak: deklinabidea eta postposiziobidea</title>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="39" to="52" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Verb Movement and Constituent Permutation in Basque, LOT series 47</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Elordieta</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+		<respStmt>
+			<orgName>Utrecht. Leiden University PhD dissertation</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Gramatika bideetan, Donostia: Erein. -, 1991, «Izen sintagmaren egituraz</title>
+	</analytic>
+	<monogr>
+		<title level="m">Memoriae L. Mitxelena magistri sacrum</title>
+		<editor>J. A. Lakarra</editor>
+		<meeting><address><addrLine>Donostia</addrLine></address></meeting>
+		<imprint>
+			<publisher>UPV/EHU</publisher>
+			<date type="published" when="1980" />
+			<biblScope unit="page" from="847" to="865" />
+		</imprint>
+	</monogr>
+	<note>Euskal gramatika laburra: perpaus bakuna</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Euskal Gramatika</title>
+	</analytic>
+	<monogr>
+		<title level="m">LUR entziklopedi thematikoa. Hizkuntza eta Literatura</title>
+		<meeting><address><addrLine>Donostia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Lur</publisher>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Euskal Gramatikari eta literaturi buruzko ikerketak XXI</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>«-En Eta -Ko Atzizkiez Berriro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">mendearen atarian Iker</title>
+		<editor>J. M. Makatzaga eta B. Oyharçabal</editor>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="279" to="303" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note>Bilbo: Euskaltzaindia</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Logical Form. From GB to Minimalism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Hornstein</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<publisher>Blackwell</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I. &amp;amp; J</forename><surname>Hualde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ortiz De Urbina</surname></persName>
+		</author>
+		<title level="m">Generative Studies in Basque Linguistics</title>
+		<meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Benjamins</publisher>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">«A typology of possessive modifiers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Ihsane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Coene &amp; D&apos;hulst (arg</title>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="23" to="42" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">«Asymmetries in Multiple Case Assignment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Jeong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">WCCFL 23 Proceedings</title>
+		<editor>V. Chand et al.</editor>
+		<meeting><address><addrLine>Somerville MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cascadilla Press</publisher>
+			<date type="published" when="2004" />
+			<biblScope unit="page" from="413" to="421" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Kiss</surname></persName>
+		</author>
+		<title level="m">The Syntax of Hungarian</title>
+		<meeting><address><addrLine>Cambridge: Cambridge U. P</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Attributive Genitive Constructions in German</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Lindauer</surname></persName>
+		</author>
+		<editor>Alexiadou &amp; Wilder</editor>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="109" to="140" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Longobardi</surname></persName>
+		</author>
+		<title level="m">The structure of DPs: some Principles, Parameters and Problems</title>
+		<editor>Collins &amp; Baltin</editor>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="page" from="562" to="601" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Mendia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>; «cuantificación</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Euskal Idazlan guztiak VI. Hizkuntzalaritzaz I, Bilbo: Euskal Editoreen Elkartea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">&amp;amp; J</forename><surname>Ormazabal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Romero</surname></persName>
+		</author>
+		<title level="m">The Object Agreement Constraint</title>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="315" to="347" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Operatzaile isila euskarazko perpaus erlatiboetan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Oyharçabal</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="93" to="97" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Andolin Eguzkitza gogoan. Essays in honour of Professor Eguzkitza</title>
+	</analytic>
+	<monogr>
+		<title level="m">DSaren barneko zenbait ordena kontu</title>
+		<editor>B. Fernández &amp; I. Laka</editor>
+		<meeting><address><addrLine>Bilbao</addrLine></address></meeting>
+		<imprint>
+			<publisher>UPV/EHU</publisher>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="741" to="755" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">«The syntax of genitives in the Maori DP</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Pearce</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Journal of Linguistics</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="411" to="434" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Nominals and nominalizations in Catalan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Picallo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="259" to="299" />
+		</imprint>
+	</monogr>
+	<note>«Catalan possessive pronouns: the Avoid pronoun principle revisited</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">«Possessors, articles, and definiteness</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Schoorlemmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Alexiadou &amp; Wilder (arg</title>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="55" to="86" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Rebuschi</surname></persName>
+		</author>
+		<title level="m">Basque pronouns and Relativized Locality</title>
+		<editor>Hualde &amp; Ortiz de Urbina</editor>
+		<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="page" from="115" to="144" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">The syntax of eccentric agreement: the Person Case Constraint and absolutive displacement in Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rezac</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="61" to="106" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Richards</surname></persName>
+		</author>
+		<title level="m">Movement in Language. Interactions and Architectures</title>
+		<meeting><address><addrLine>Oxford: Oxford U. P</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rijk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De</surname></persName>
+		</author>
+		<title level="m">Basque Syntax and Universal Grammar», Euskara Biltzarra. II Euskal Mundu-Biltzarra I, Gasteiz: Eusko Jaurlaritza</title>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="69" to="88" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Basque hospitality and the suffix -ko</title>
+		<editor>Hualde &amp; Ortiz de Urbina</editor>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="145" to="162" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">«Nire/neure, zure/zeure literatur tradizioan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Sarasola</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1979" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="431" to="446" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">«Possessors, articles, and definiteness</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Schoorlemmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Alexiadou &amp; Wilder (arg</title>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="55" to="86" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">Stacked Adjectival Modification and the Structure of Nominal Phrases»</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G.-J</forename><surname>Scott</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="91" to="120" />
+		</imprint>
+	</monogr>
+	<note>in Cinque (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Szabolcsi</surname></persName>
+		</author>
+		<title level="m">The Syntactic Structure of Hungarian. Syntax and Semantics</title>
+		<editor>F. Kiefer &amp; K. E. Kiss</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="179" to="274" />
+		</imprint>
+	</monogr>
+	<note>The Noun Phrase</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Trask</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1985" />
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="165" to="173" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Multiple Feature-Checking: A Theory of Grammatical Function Splitting, MIT PhD dissertation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Ura</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Genitive Case and Genitive Constructions, University of Utrecht PhD dissertation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Wit</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">M</forename><surname>Schoorlemmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Prenominal arguments in Russian, German and Dutch</title>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="184" to="202" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Izen-sintagma konplexuak: adjektiboen eta izenlagunen segidak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Zabala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Zenbait gai euskara teknikoaren inguruan</title>
+		<editor>J. C. Odriozola</editor>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="107" to="157" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

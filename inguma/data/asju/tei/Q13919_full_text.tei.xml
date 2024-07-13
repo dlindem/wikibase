@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">AnuArio del SeminArio de FilologíA VAScA «Julio de urquiJo» international Journal of Basque linguistics and Philology liii (1-2) Pedro José Aldazabalen euskal testuak: edizioa eta filologia-gaiak 1 The Basque texts by Pedro José aldazabal: edition and philological issues eneko Zuloaga San román universidad del País Vasco/euskal Herriko unibertsitatea (uPV/eHu)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019">2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">AnuArio del SeminArio de FilologíA VAScA «Julio de urquiJo» international Journal of Basque linguistics and Philology liii (1-2) Pedro José Aldazabalen euskal testuak: edizioa eta filologia-gaiak 1 The Basque texts by Pedro José aldazabal: edition and philological issues eneko Zuloaga San román universidad del País Vasco/euskal Herriko unibertsitatea (uPV/eHu)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="volume">53</biblScope>
+							<biblScope unit="issue">1-2</biblScope>
+							<biblScope unit="page" from="361" to="445"/>
+							<date type="published" when="2019">2019</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1387/asju</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:19+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Philology</term>
+					<term>First modern Basque</term>
+					<term>Pedro José Aldazabal</term>
+					<term>literary guipuzcoan</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>in this paper i present a critical edition of the Basque texts found in the books published by Pedro José Aldazabal. Apart from the critical edition of the texts, i analyse the authorship of the verses published in honor of the virgin of itziar in euskal erria (1887) and conTaV (Sarasola 1983). even though they were dated in the 17 th century, i defend that they were actually written by Aldazabal. Aldazabal's novena was republished in the 19 th century by gorostegi, who introduced some linguistic changes. i also present a comparative study of both texts, as it may be interesting to understand the evolution of the literary guipuzcoan and writers' linguistic choices in the 18 th and 19 th centuries. LabuRpena: Lan honetan Pedro José aldazabal idazle gipuzkoarraren euskal lanen edizio kritikoa aurkezten da: hala aldazabalek berak idatzitako testuena nola bestek idatzi eta aldazabalek bere lanetan jasotakoena. Testu horien edizio kritikoa aurkezteaz gain, euskal erria aldizkarian (1887) eta contAVen (Sarasola 1983) xvii. mendekotzat joaz argitaratutako Itziarko ama Birjinaren omenezko kopla-sorta egiazki aldazabalena dela defendatzen da; bestalde, aldazabalen bederatziurrena xix. mendean berrargitaratu zuen Gorostegik, hizkerako hainbat ezaugarri eraldatuta: bi testuen arteko alderaketa ere aurkezten da, literatur gipuzkeraren bilakabidea eta xviii.-xix. mendeen amaierako hautu linguistikoak hobeto ezagutzeko lagungarri izan daitekeelakoan. HITZ GaKOaK: Filologia, Lehen euskara Modernoa, Pedro José aldazabal, literatur gipuzkera.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Sarrera</head><p>euskararen corpus historikoa bereziki zabala izan ez arren, oraindik ere bada langairik filologiaren esparruan. izan ere, ugari dira, eta ez beti bigarren edo hirugarren mailakoak, hala edizio txukunak behar dituzten testu klasikoak nola berrikusi eta argitu beharreko arazo filologikoak. Bada, lan honek ekarpena egin nahi dio lehen euskara modernoaren (lakarra 1997) ezagutzari eta, zehatzago, gipuzkoako xviii. mendeko testuen corpusari. deba aldeko testuak aztertu direnean, oro har garai arkaiko eta zaharrekoek erakarri dute arreta, hala nola milia lasturkoren eresiak, Sasiolaren olerkiek edo debako xvi. mendeko serora baten gutunak. garai modernoagoetako iturriak, aldiz, ez dira hainbeste erabili eta, kasuren batean, ezagutu: dakidala, itziarko Ama Birjinaren omenezko koplak ez dira berraztertu Sarasolak (1983) editatu zituenetik, Arakistainen eranskina eta kopla-sortak gehiago ustia daitezke ezaugarri linguistikoei zein ikuspegi dialektologikoari dagokienez, Angela txakartegi mutrikuarraren 1775eko gutun bat oraintsu ezagutarazi da <ref type="bibr">(Santazilia 2020</ref><ref type="bibr" target="#b37">(Santazilia [2015</ref>), oikiako dotrinen datazioaz eta egiletzaz oraintsu eman dira argibide zehatzagoak <ref type="bibr" target="#b40">(Segurola 2013)</ref>, eta Pedro José Aldazabalen testuak gutxi aipatu eta ezagutu dira, oro har. lan honek, hain zuzen, Aldazabalen lanak ditu ardatz: xviii. mendeko idazlea izan zen Aldazabal, lehen euskara modernoko idazlea, bete-betean: larramendi aipatu eta erabili zuen, eta euskarazko testuetan agertzen den hizkera landua da; besteren testuak zuzendu eta eguneratu zituen, eta garaiko ezaugarri dialektalen artean hautuak egin zituen, zenbait puntutan lokalismoak gainditu eta gipuzkoan nagusitutako ikuspegi linguistiko supralokalarekin bat egin nahian (ikus Zuloaga 2020: 652). Halaber, hitzen banaketa zenbaitek joera etimologiazalea islatzen dute; zenbait toponimo eta berbaren etimologia azaltzean agertzen den zaletasuna ere agerikoa da, bestalde.</p><p>gaztelaniaz eta euskaraz idatzi zuen Aldazabalek, besteak beste itziarko Ama Birjina omendu eta goraipatzeko, eta Aldazabalen lan argitaratu ezagun guztiak aztertuta, zenbait ekarpen egiteko aukera izan dut. lehenik, Arakistainen eta Aldazabalen arteko harremanaz eta material idatzien transferentziaz gehiago jakiteko. <ref type="bibr">Bigarrenik, Sarasolak (1983)</ref>  gai horiek guztiak jasotzen dira lan honetan: § 2 atalean Aldazabalen biografiari eta lanei buruzko datuak aurkezten dira. § 3 atalean Aldazabalen 1767~1769ko erdal lan batean agertzen diren euskal testuen edizioa ematen da eta filologiari dagozkion zenbait gai lantzen dira: § 3.1 azpiatalean Arakistainen kopla-sorta bat, § 3.2-n Sarasolak (1983) emandako kopla-sortari buruzko proposamena eta edizioa, § 3.3-n gipuzkoako kopla zahar bat eta § 3.4-n Aldazabalek eginiko zenbait proposamen etimologiko. § 4 atalak, bestalde, Aldazabalen ama Virgina santissima Yciarcuaren bederatci urrena liburuaren 1790eko edizioaren (ezagutzen den bakarra) berri dakar ( § 4.1), bai eta edizioa ( § 4.2) eta pasarte ilunei eta hizkerari buruzko oharra ( § 4.3) ere, amaierako hiztegiarekin batera <ref type="bibr">( § 4.4)</ref>. § 5 atalean Aldazabalen bederatziurrenaren eta gorostegik xix. mendean euskal erria aldizkarian berrargitaratutako behttps://doi.org/10.1387/asju.22418 ronen bertsioaren alderaketa egiten da, eta § 6-k azken hitza dakar. § i., § ii., § iii., § iV. eranskinetan, bestalde, Aldazabalen lanetako euskal testuen faksimileak ematen dira, bai eta gorostegiren argitalpenaren faksimilea ere. lan honetan aurkezten diren edizioak egiteko, ikuspegi kritikoa baliatu da eta jatorrizko testua ahal bezainbeste errespetatzeko helburuari eutsi zaio. Zehazki, honako irizpide orokor hauek baliatu dira: -Jatorrizko orrialdeak eta bertso-lerroak zenbakitu dira. orrialdeak zenbakitzeko, &lt; &gt; ikurrak erabili dira. -Jatorrizko orrialdeen barrenean agertzen ziren deiak ezabatu dira.</p><p>-Hitzen banaketari dagokionez, hitz konposatuen kasuan banaketa bere horretan uztea izan da irizpide orokorra, agerikoa baita idazleak nahita egin zituela bereizketa batzuk, hitzaren osagaiak agerianago uzteko edo. irizpide bera erabili da postposizioekin. -izen bereziak zeuden bezala utzi dira.</p><p>-laburdurak garatu dira.</p><p>-ortotipografia-gaiak egungo arauen arabera eman dira: puntuazioa, letra larri eta xeheen banaketa, letra etzanen erabilera, etab. -Aldaketa grafiko gutxi egin dira:</p><p>• &lt;v&gt; bokalikoak → &lt;u&gt; bihurtu dira. • Jatorrizko &lt;ʃ&gt; luzeak → &lt;s&gt; bihurtu dira. • Jatorrizko &lt;ge&gt; eta &lt;gi&gt; → &lt;gue&gt; eta &lt;gui&gt; bihurtu dira hala zegokienean. • Aldazabalen usus scribendia aintzat hartuta, beronen testuetan afrikatu lepokaria &lt;z&gt;-z edo &lt;c&gt;-z adierazten den kasu bakanak erratatzat jo dira, eta &lt;z&gt; → &lt;tz&gt; eta &lt;c&gt; → &lt;tc&gt; aldatu dira.</p><p>-letra bat falta zela uste izan denean [ ] artean gehitu da.</p><p>-testuetan egindako bestelako zuzenketak testu bakoitzaren amaieran jaso dira.</p><p>-gaztelaniazko izenburu eta pasarte guztiak charta sareak edizio kritikoetarako ezarritako irizpideen arabera eman dira. 2</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Pedro José Aldazabal Murgia</head><p>Pedro José Aldazabal murgia gipuzkoako ipar-mendebaleko jauntxo-leinu batean jaio zen. Hain zuzen, aldazabaltarren dorretxeak eremu hartako hainbat gunetan aurki daitezke, eta badirudi zaharrena erdi Arokoa dela: Azkoitia eta elgoibar arteko bidean dago, Azkarate gainetik oso hur. Bestalde, lasturren ere bada xviii. mendeko Aldazabal dorretxea, eta deban Aldazabal-murgia etxea 3 dago, familiak xviii. mendean bertan erositakoa.</p><p>Pedro José Aldazabal murgiaren jaiotza-data zehatza zalantza-iturri izan da, baina gaur egun auzia argiturik dago: 1728 aldera jaio zela proposatu zuen <ref type="bibr">Alzolak (1970: 480)</ref>, nahiz eta ez zuen bataio-agiria aurkitzerik izan debako dokumentuen artean. <ref type="bibr">Aldabaldetrecuk (1993: 11)</ref> erakutsi bezala, ordea, Aldazabal 1729ko ekainaren 29an jaio zen, ez deban baina Zestoan, Antonio Aldazabal eta Josefa Arizaga guraso zituela. <ref type="bibr">4</ref> Hil, berriz, 1779ko otsailaren 12an hil zen, deban. <ref type="bibr">5</ref> elizgizona izan zen Pedro José Aldazabal: 1750-1751n hartu zituen ordenak eta 1753tik 1765era bitartean bikario-lanak egin zituen debako eliza nagusian eta atxikietan; hain zuzen, hil artean debako Santa maria elizako presbitero benefiziatu izan zen <ref type="bibr">(Aldabaldetrecu 1993: 12)</ref>. Aldazabal deban bertan hil zen, eta haren gorpua hiribilduko Santa maria elizan dago lurperaturik. Beste alde batetik, eta garaiko bizitza soziokulturalari dagokionez, euskalerriaren Adiskideen elkarteko kide izan zen. <ref type="bibr">Hala zioen guerrak (1924: 185)</ref>: «Aristócrata por nacimiento, educación y trato, amante de la antigüedad y nada huraño con las corrientes modernas, como afiliado que estaba a la real Sociedad Bascongada de los Amigos del País, y era por ende capellán nato de los caballeritos de azcoitia». orotara hiru liburu argitaratu zituen Aldazabalek bizi zelarik, hirurak bere bizitzako azken urteetan: -Breve historia de la aparición del más luminoso astro y brillante estrella de la mar, la milagrosa imagen de María santíssima de Iziar (martín Joseph de rada, iruñea, 1767~1769). -ama Virgina santisima Yciarcuaren bederatci urrena <ref type="bibr">([s.n.]</ref> [s.l.], 1768).</p><p>-compendio heráldico. arte de escudos de armas, según el método más arreglado del blasón (Viuda de martín Joseph de rada, iruñea, 1775).</p><p>izenburuak islatzen duenez, hirugarrena heraldika-gaiei buruzkoa da, eta gerora ere hainbatetan aipatu eta zenbaitetan berrargitaratu da: guerraren (1924: 185) arabera, «acertó a resumir, con discreción y tino, lo mejor que hasta entonces se había escrito sobre el asunto»; ikus xehetasun gehiago esparza <ref type="bibr">(2005)</ref><ref type="bibr">(2006)</ref> lanean. Bestalde, itziarko Ama Birjinari eskainiak edo hura omentzeko aitzakiarekin idatziak dira beste biak, eta horiek interesatzen zaizkit gehien lan honetan, bertan agertzen diren euskal testuak direla eta.</p><p>Harrerari eta ezagutzari dagokienez, ez dirudi Aldazabal bereziki ezaguna izan denik eta, hala izan bada, ez bide da bereziki garrantzitsutzat jo, leku gutxitan aipatu baita haren izena: Vinsonek (1891-1898) 1768ko liburuaren berri eman zuen, <ref type="bibr">guerrak (1924)</ref> itziarko Ama Birjinaren omenezko bertso-sortak bildu zituen, eta <ref type="bibr">Alzolak (1970)</ref> eta Aldabaldetrecuk (1993) zertzelada biografikoak laburtu zituzten. onaindiak euskal literatura obrako hirugarren liburukian jaso zuen Aldazabalen berri zehatzagoa <ref type="bibr">(1974: 171-172)</ref>; aldiz, ez dut debar idazleari buruzko aipurik aurkitu https://doi.org/10.1387/asju.22418</p><p>Villasanteren Historia de la literatura vascan eta mitxelenaren Obras completas bildumako izenen aurkibidean. euskararen historia mardulean urgellek (2018: 598) behin aipatzen du Aldazabalen 1768ko lana, 1766-1780 bitartean argitaratutako obra txikien artean.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Aldazabalen lanak: 1767~1769ko laneko euskal testuak</head><p>Aldazabalen 1767~1769ko liburuak izenburu luzea du, eta bere luzeran ondo laburbiltzen ditu zein diren liburuaren asmoa eta edukia, bai eta iturri nagusia ere. Hala dio: Breve historia de la aparición del más luminoso astro y brillante estrella de la mar, la milagrosa imagen de María santíssima de Iziar, singularíssima protectora de los navegantes, con algunos de sus prodigios, sacados de los escritos que acerca de esta santíssima imagen dexó a su muerte el Muy reverendo Padre Fray Joseph de Jesvs María y araquistáin, provincial que fue de la provincia de S. Joaquín de los Descalzos del carmen, difinidor G. por la de Indias y secretario del difinitorio, que con otras muchas noticias adquiridas da a luz pública Don Pedro Joseph de aldazaval y Murguia, vicario propio y perpetuo que ha sido de las parroquiales de la real iglesia Santa María, la matriz y anexas, de la noble y leal villa Mont real de Deva en la muy noble y muy leal provincia de Guipúzcoa. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Arakistainen euskal koplak</head><p>3.1.1. argibide orokorrak gaztelaniazko kopla-sorta baten ondotik, 71. orrialdean Arakistainek sortutako kopla-sorta bat eman zuen Aldazabalek, egiletza izenburuan bertan adierazita. Hamabi ahapaldiz osatutako laukoen sorta da, itziarko Ama Birjinaren omenez osatua, aldez aurretik argitaratua eta gerora ere zenbait kantutegitan bildua; dirudienez, ahapaldietako batzuk ave Maris Stella ereserkiaren itzulpenak edo egokitzapenak dira <ref type="bibr">(unzueta 1985: 214;</ref><ref type="bibr">ondarra &amp; unzueta 1997: 272-273;</ref><ref type="bibr">Baraiazarra 1997: 128)</ref>, eta xx. mende hasierako kantu-biltzaileek ere jaso zituzten:</p><p>Algunas estrofas vienen a ser una graciosa traducción del conocido himno mariano «Ave maris Stella». lo publicó con su música y traducción al castellano d. resurrección maría de Azkue en el cancionero Popular <ref type="bibr">Vasco,</ref><ref type="bibr">t. iX,</ref>. Aunque Azkue sabe que su autor fue el P. José de Jesús maría, sin embargo, lo trae como tomado de labios de d. Juan José Aguinagalde, de itziar; el cual, por otra parte, parece que ya no conoce más que las siete primeras estrofas; y de entre éstas, la última -«Penaz dagoena…»-no se encuentra en la Breve historia… también el P. donostia ha recogido esta canción religiosa <ref type="bibr">(euskal-eres-Sorta, 1921, 204)</ref>, pero sólo la primera estrofa es original del P. Araquistáin; las otras son del P. iraizoz. <ref type="bibr">(unzueta 1985: 214)</ref>  Amen aparatu kritikoa 3-2 mudatu] mundatu || 3-3 baquea] bequea || 10-1 erregutu] erregatu || 11-2 ceruco] cereco.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Itziarko Ama Birjinaren omenezko laukoak</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1.">aurreko edizioez eta testuaren datazioaz</head><p>conTaV gogoangarriari bi testu labur gehitu zizkion ibon Sarasolak (1983: 76, 1. oin-oharra) azken orduan: alde batetik, Bermeoko ertzilla dorretxeari buruzko kantu zahar baten hasiera; 18 beste alde batetik, J. A. lakarrak helarazitako laukosorta bat, itziarko Ama Birjinaren omenez egindakoa eta euskal erria aldizkarian 1887an argitaratutakoa. interesgarria izanagatik, conTaVez geroztik ez da azken sorta horri buruzko bestelako ikerketarik egin, eta bere horretan utzi izan dira euskal erria aldizkarian eman zitzaizkion datazioa (xvii. mendea) eta egiletza ezezaguna, nahiz eta zenbait ezaugarrik testua modernoagoa eta giro jakin batekoa dela pentsarazten duten.</p><p>euskal erria aldizkariak 1887ko uztaileko alean eman zituen argitara itziarko Ama Birjinaren omenezko laukoak, argibide askorik gehitu gabe. izenburuan hala aurkezten dira: «cuartetos ó laukos bascongados del siglo xvii á nuestra Señora de iziar, por sus cofrades de deva, con motivo de una calamidad pública». ondoren testua ageri da, grafia modernoz goialdean leloa emanik eta laukoak zutabe bitan antolatuta. Amaieran, testuak duen oin-ohar bakarrean, hau adierazten da: «Se han hallado en el archivo de la ilustre familia de los churrucas de motrico».</p><p>testuaren sistema grafikoak, hizkeraren kutsu landuak eta Arakistainen laukoekiko antzekotasun formalak eta tematikoak halako susmo bat eragin izan didate hala dataz nola egiletzaz azken urteotan, baina bestelako datuen faltan, izan zitekeen euskal erria aldizkariko erredaktoreren batek txurruka familiaren ondarean testua aurkitu eta garaiko joeren arabera eraldatu izana.</p><p>Aldazabalen 1767~1769ko liburua esku artean hartzeaz batera ezustekoa hartu nuen; izan ere, 72. orrialdean, Arakistaini egotzitako laukoen ondoren, euskal erria aldizkarian eta conTaVen argitaratutako laukoak agertzen dira. 19 orrialdean ez dira txurrukatarrak aipatzen, eta egilea nor den ere ez da zehazten: «canción compuesta por un devoto hijo suyo» adierazten da, eta deban izurriaren aurkako bederatziurren baten karietara sortuak direla zehazten: «al tiempo que se hizo el novenario en deva contra la pestífera epidemia y se cantó todos los días delante de la santa imagen». leloak eta bederatzi ahapaldik osatzen dute testua; 20 alegia, euskal erriako eta conTaVeko edizioetan ez dagoen beste ahapaldi bat du, hirugarrena. testua begiratuta, grafiak modernoegia dirudi xvii. mendekoa izateko. Hori baieztatzeko zantzu nagusia txistukarien adierazpen grafikoa da, beste testu batzuekin gertatu izan den bezala. ezagun da Hego euskal Herrian, larramendi baino lehen, oro har eta salbuespenak salbuespen, txistukari frikariak eta afrikatuak ez zirela grafikoki bereizten <ref type="bibr">(lakarra 1985; urgell 1987: 359, 2018: 608</ref> Banaketa grafiko horiek aintzat hartuta, bi ondorio atera litezke. lehenik, testua modernoa dela pentsatzeko zantzuak daude; zehazki, larramendiz edo lehen euskara modernoaren hastapenez geroztiko testua dela pentsatzeko zantzuak. Bigarrenik, grafemen banaketa ez da larramendirena bera, afrikatu lepokarian &lt;tz&gt; ez ezik &lt;tc&gt; ere agertzen delako. erabilera horrek larramendi ez beste gipuzkoar idazle eta testu batzuen hautu grafikoak gogorarazten ditu (irazuzta, Zegamako dotrina eta, are beranduago, Kardaberatz), bakoitzarekin egin beharreko ñabardurak ñabardura; ikus lakarra <ref type="bibr">(1985: 243-245)</ref>.</p><p>Beste alde batetik, testuari landu-kutsua dario: xviii. mendekoa (eta, zehatzago, 1745 ondokoa) dela onarturik, gipuzkoako ipar-mendebaleko testu arkaiko, zahar eta modernoen argitan espero zitezkeen zenbait ezaugarri linguistikoren falta idazlearen hautu linguistiko-estilistikoen ondorio dela uste dut: bereziki gogoan ditut xviii. mendean ugaritutako baina deba aldean xvi.az geroztik lekukotutako bokalbilkuretako fenomenoak, testuan agertzen ez direnak, edo txistukarien neutralizazioa, kasu bakar batean legokeena, lepokariaren alde (3-4 ondazunac). nire ustez, horien falta erraz(ago) azaltzen da pentsatuaz testua xviii. mendearen erdialdeaz geroztik arian-arian hedatutako eredu linguistiko supralokalari jarraituz idatzi zela (cf. Zuloaga 2020: 652, 15. taula).</p><p>testuaren data zehatza aurkitu nahian txurruka familiaren artxibo katalogatuak arakatu ditut, 22 baina ez dut hizpide dudan kantuaren erreferentziarik edo berririk aurkitu. Agiri gehienak xviii. mendekoak edo orduz geroztikoak dira, eta gehienbat ondasunen kudeaketari eta merkataritza-gaiei buruzko agiriak, eta dokumentazio pertsonala (gutunak, curriculumak) biltzen dira.</p><p>euskal erria aldizkarian xvii. mendeaz egiten den baieztapenari bestelako azalpenik erantsi ez izana tamalgarria da, eta akatsa (xvii esatea xviii esan beharko lukeen lekuan) izan daitekeela uste dut. Hain zuzen ere, horretan nengoela, ideia berbera aurkitu nuen guerrak eginiko oin-ohar labur batean: «Atribuyéndole un siglo más de antigüedad, la publicó la revista euskal-erria en el año 1887 (tomo XVii, página 169)» (guerra 1924: 186, 1. oin-oharra). Are gehiago, itziarko Ama Birjinaren omenezko kantua 1766kotzat jo zuen: «la primera canción fue compuesta el año 1766, para implorar la protección de la Virgen con motivo de la peste que en el mismo año padeció la villa <ref type="bibr">de deva» (1924: 186)</ref>. datazioa eta izurritearen berria Aldazabalen 1767~1769ko liburuan irakurria zuen guerrak, eta Aldazabali berari ego-eneKo ZuloAgA SAn romÁn ASJU, 2019, 53 (1-2), 361-445 tzi zion kantuaren egiletza. Hurrengo azpiatalean zehaztuko dudanez, bat nator guerrarekin.</p><p>Aldazabalek bere historia-liburuan ematen dituen azalpenetatik ondorioztatzen da deba aldean izurritea gertatu zela 1766an eta itziarko Ama Birjinaren laguntzaz gainditu uste zutela tokiko bizilagunek gaixoaldia. Jarraian ematen dituen azalpenak nahasgarri izan daitezke, xvi.-xvii. mendeetako beste izurrite batzuen berri ematen baitute, baina hasierako esaldiak argigarri dira datazio-gaietarako: <ref type="bibr">[…]</ref> [itziarko Ama Birjina] es estrella de vida y de salud, que destinó Dios para general medicina y remedio de los contagios y epidemias de los hombres, como se ha visto diferentes veces y especialmente el año próximo passado de 1766 en esta villa de Deva y su jurisdicción, pero muy en particular en el cuerpo del mismo pueblo. mas primero haremos mención de otra peste general, que es fama haver cessado por intercessión y patrocinio de esta divina señora de iziar en toda la jurisdicción de esta citada villa de deva, aunque no está averiguado el tiempo y, si bien consta en los libros de la iglesia de iziar que el año de 1597 huvo una muy grande peste en las ciudades y villas de San Sebastián, lequeitio, oñate y Passages, y dos años después en Bilvao, Vitoria, logroño, Santo domingo, Burgos, Valladolid, Sevilla, Pamplona, estella, Puente la reyna y otras muchas ciudades y villas, pero es sin duda mucho más antiguo el caso y ocasión en que sucedió el milagro, porque el año de 1660 se habla de los instrumentos este caso como de cosa inmemorial y antiquíssima <ref type="bibr">[…]</ref>. <ref type="bibr">(Aldazabal 1767~1769: 211-212</ref> </p><formula xml:id="formula_0">[letra etzana neurea da, eZ])</formula><p>Hurrengo orrialdean beste puntu batean agertzen den informazioa lausotzat jo liteke. Badirudi 1766ko gertakariak azaltzera itzultzen dela idazlea, tartean garai zaharragoetakoak azaldu ondoren; baina, ez du 1766. urtea berriz aipatzen eta hortik lausotasuna: el caso fue que, haviéndose encendido en todas las provincias de españa una cruel peste que causó estragos lastimosos, tocando también en las costas de cantabria, llegó a picar en los términos de deva y universidad de iziar. en grande aflicción se hallaron sus vecinos con un mal tan eficaz y contagioso, pero acordándose los parroquianos de iziar del soberano patrocinio de su celestial madre y protectora, y de las maravillas y prodigios que havían experimentado de su benigníssima piedad en diversas necesidades y trabajos, acudieron a la protección de tan misericordiosa madre con la más tierna devoción y confianza, suplicándola los librase de un mal tan activo y pernicioso. Y, para más obligarla, determinaron hacer una muy devota processión desde el santuario de la santíssima virgen, cogiendo dos leguas de rodeo y mucha parte de la jurisdicción de la villa y, volviendo otra vez al santuario, como oy día se egecuta, se diesse fin a él. (Aldazabal 1767~1769: 212 [letra etzana neurea da, eZ]) Zentzuzkoa dirudi pentsatzea prozesio berori itziarko Ama Birjinaren omenezko bertsoen izenburuan aipatzen den berbera dela: hurrengo orrialdeetan prozesioaren nondik norako zehatzak azaltzen dira, eta Ama Birjinaren omenez euskaraz hainbat kantu kantatzen zirela aipatzen da: «cantando al mismo tiempo en lengua bascongada muchos hymnos y alabanzas a la madre de dios de iziar» <ref type="bibr">(Aldazabal 1767~1769: 215)</ref>.</p><p>Aurreko paragrafoetan bildutako informazioarekin eta emandako ikuspegiarekin bat, beraz, sinesgarriagoa dirudi itziarko Ama Birjinaren omenezko laukoen sorta ez xvii. mendekoa baina xviii.ekoa izatea: datu grafiko-linguistikoek horren alde egihttps://doi.org/10.1387/asju.22418 ten dute, eta Aldazabalek berak emandako datu historikoek ere horretarako euskarria ematen dute; guerrarekin (1924) bat etorriz, 1766ko sorta izan daiteke.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.">egiletzaz</head><p>Aurreko azpiataleko datazioa onarturik, agerikoa da Arakistainek ezin izan zuela 1766an sortarik idatzi, bi urte lehenago hila baitzen <ref type="bibr">(unzueta 1985: 207)</ref>; bestalde, Aldazabalek ez zion egiletza Arakistaini egotzi, ezpada tokiko elizkoi bati. Arakistainez eta Aldazabalez gain bestelako idazle elizkoirik zenik ezin da guztiz baztertu, baina eskueran dauden datuekin errazagoa da, guerrarekin (1924) bat, egilea Aldazabal bera dela pentsatzea. izan ere, Aldazabalek berak 1768an itziarko Ama Birjinaren omenez argitaratutako bederatziurrenaren amaieran beste kopla-sorta bat gehitu zuen, eta 1767~1769ko liburuan aipatzen diren prozesioetan Aldazabal zen debako benefiziadu. Badirudi, beraz, Aldazabalek apaltasunez sinatu zuela hirugarren pertsonan. <ref type="bibr">23</ref> Alderdi linguistikoari begiratuta, itziarko Ama Birjinaren omenezko laukoetako eta Aldazabalen 1768ko liburuko hizkera berbera direla esan daiteke, ñabardurak ñabardura. Kasu honetan ere zaila da erkaketa sendoa egitea, kopla-sorta laburra baita bere horretan, baina zenbait bat etortze esanguratsuak dira.</p><p>grafiaren esparruan, Arakistainek ez zerabilen &lt;tc&gt; afrikatu lepokaria adierazteko, baina lauko anonimoan eta 1768ko liburuan arrunt da. Frikari apikaria adierazteko, bestalde, &lt;ss&gt; digrafoa lauko anonimoan eta Aldazabalen liburuan agertzen da, bakan bada ere: 24 cf. lauAnon 4 assi; Ald1768 7 Santissimoac, 9 santissimoco, 18 santissimo.</p><p>Bokalen esparruan e + e &gt; eeren bat aurki daiteke lauAnon eta Ald768 testuetan, bai eta Arakistainen 1746ko laukoetan ere; aitzitik, azken horietan inoiz agertzen den VhV &gt; VV-rik ez dago garaitiko testuetan. txistukarien neutralizazioa dela eta, 1768ko lanaren luzerak eragiten du gainerako testuetan baino adibide gehiago aurkitzea. gehienetan, lepokariaren aldeko neutralizazioa agertzen da (2 eztitazunac, 5 ezca, 12 edertazunez, 13 edertazun, 18 ezateaz, 23 ezcatcen), nahiz eta 4 gustietan ere badagoen. Joera horrek ere bat egiten du lauAnon sortarekin, neutralizazio-zantzu bakarra (3-4 ondazunac) lepokariaren aldekoa baita, Arakistainen laukoetan ez bezala.</p><p>Hirugarren pertsona pluralean aek dago Aldazabalen 1768ko liburuan sistematikoki (7 aetan, 8 aec, 28 aen), eta hori Arakistainen 1746ko laukoetako aiek formari kontrajartzen zaio, nahiz eta bat egin Araklau sortako erabilerarekin. motibatiboan, bestalde, -gatik da forma bakarra Aldazabalen liburuan, Araklau sortan legez, baina larlau1-en ez bezala.</p><p>Aditz-izenetan partizipio-marken gainean eratutako -tutze eta -itze itziarlau eta Ald1768 lanetan besterik ez ditut aurkitu, eta beste horrenbeste gertatzen da -de pluralgilea duten izanen adizkiekin: lauAnon leloa-4 guerade, 9-4 guiñaden; Ald1768 8 &amp; 10 (birritan) dirade, 31 diraden. Bestalde, Ald1768 testuan nahasmahas agertzen dira *ezan eta egin laguntzaileak, Araklau testuan legez, baina pe- Azpiatal honetara bildutako datuen arabera, errazena da laukook Aldazabalek sortu zituela pentsatzea.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.3.">edizioa</head><p>&lt;72&gt; canción compuesta por un devoto hijo suyo a nuestra Señora de iziar, al tiempo que se hizo el novenario en deva contra la pestífera epidemia y se cantó todos los días delante de la santa imagen. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.2.">aldazabalen testua</head><p>&lt;88&gt; esta ilustríssima casa juntóse con la antiquíssima e inmemorial torre de Andia en la Villa de tolosa, &lt;89&gt; Provincia de guipúzcoa, por casamiento de doña teresa ruiz de irarrazaval, dueña y señora de ella, con Antón gonzález de Andia, hijo primogénito y heredero de domenjon gonzález de Andia, aquel célebre padre de la patria a quien los guipuzcoanos en loor y alavanza le cantaban las coplas siguientes:</p><p>Sagarra eder guezatea guerrian ere ezpatea, domenjon Andia guipuzcoaco erreguea.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Azalpen etimologikoak</head><p>Aurreko azpiatalean emandako kopla-sortez gain, Aldazabalen 1767~1769ko liburuak biltzen dituen euskarazko materialen artean gipuzkoako zenbait toponimori eta hitzi buruzko proposamen etimologikoak ere badaude. garaiko irizpide eta ikuspegiaren arabera egindako proposamenak dira, oro har: aurreko mendeetako historialarien proposamenen oihartzunak aurki daitezke, bai eta larramendiren Hiztegi hirukoitzeko azalpenen argitan emandakoak eta herri-etimologiaren esparrukoak ere. llámase de deva por el río assí denominado por los antiguos y porque es su término el que le da fin al ser del río, mezclando sus raudales con el occeano. no sé si el nombre de deva le vino a este río del antiguo bascuence divana, que quiere decir en el de ahora batzarrea; esto es, junta o congregación en castellano, o por que dicho río congrega en sí las aguas de la Provincia de Álava, Señorio de Vizcaya y las de esta misma provincia de guipúzcoa, o si por otra razón que no alcanzamos. ello este asunto no es de nuestra inspección. <ref type="bibr">(14. or.)</ref> larramendi dela eta, Hiztegi hirukoitzaren divan sarrera aipatzen du Aldazabalek, zehazki. Hala dio: «divan. Turcoen batzarrea, divaná. lat. Turcarum supremum consilium» (1745, i: 296).</p><p>iziar 1 liburuan etengabe aipatzen du Iziar leku-izena Aldazabalek, eta behin baino gehiagotan lotzen du izar hitzarekin bai liburuaren sarrerako orrialdeetan, bai ondokoetan; cf. «iZiAr, esto es, estrella» (9. or.), «los rayos de una estrella luminosa, expresada a lo claro en vuestra imagen de iZiAr» (12. or.), «aun vuestro mismo nombre de maría se interpreta 'iluminadora'» (13-14. or.), «izar ó iciar» (17. or.), «la brillante estrella, la virgen sacratíssima de iziar» (34. or.), «iziar o estrella» (39. or.).</p><p>Aurreko azalpenez harago, beren-beregi ere aipatzen du ustezko etimologia: «corrobo ra, assí mismo, esta esperanza ver, madre piadosíssima, que esta mi obra se erige para dar luz a los lectores píos de vuestra imagen milagrosa de iZiAr, voz que en lengua bascongada quiere decir 'estrella', y con tan buena estrella como vos no me faltará luz» (12. or.), «estrella es la sagrada imagen de mont-real de Iziar, no solamente porque imita con toda propiedad y lleno las particularidades del celestial astro, sino también porque Iziar o Izar significa en idioma bascongado 'estrella'» (42. or.). Azalpen bera beste bitan edo hirutan aurki daiteke liburuan zehar.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>iziar 2</head><p>Beste alde batetik, Aldazabalek iziar izeneko landarearekin lotzen du Aldazabalek Iziar toponimoa, larramendiren azalpenei jarraituta:</p><p>Significa también iziarra o errazlatza en bascuence cierto arbusto espinoso que en castellano se llama tamujo, segun en su diccionario enseña el reverendo padre larramendi, y puede tener su bella alusion. llámale dioscorides a esta misma planta brusco o rusco, que tiene su oja a manera de una lanza y en medio de ella trae su fruto muy encarnado y hermoso, que sirve para infinitos medicamentos. Symbolo admirable de maría Santíssima de iziar, que apareció con su hijo preciosíssimo en medio de su dulce regazo, para que como fruto encarnado de su vientre, sirviera de medecina espiritual y temporal a todos los que la buscassen. <ref type="bibr">(46. or.)</ref> es utilíssimo para curar varias enfermedades humanas el fruto de la planta brusco o tamujo, que en bascuenze se llama iziarra, y es hermosíssimo, encarnado y grato, mas si a sus ojas quisiesse hacer violencia el hombre con sus manos, le punza en ellas, por tener hechas en forma de punta de lanza, para oponerse à las cosas contrarias. <ref type="bibr">(148. or.)</ref> Iziarra landare-izena dela eta, larramendiren hiztegia aipatzen du Aldazabalek iturritzat; zehazki, tamujo sarrera. Hala dakar Hiztegi hirukoitzak: «tamujo, arbusto espinoso, erratz latza, iñuncilatza, iciarra. lat. arbustum spineum» <ref type="bibr">(1745, ii: 316)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>lizarbe</head><p>Lizarberi dagokionez, etimologia zuzena eman zuen Aldazabalek, fitonimoa eta be(he) ondo identifikatu baitzituen: el maravilloso descubrimiento de la santa imagen de nuestra señora sucedió en el mismo sitio, no muy distante de una fuente, que se llama Lizarbe, esto es, lo bajo de los fresnos, por los que havría en aquel parage o lugar de acia la fuente, para significar que, si le conviene a la devotíssima imagen de iziar ser estrella hermosa del cielo con la mayor propiedad, también la quedaron los symbolos de fresno y fuente, con grande conveniencia. <ref type="bibr">(44. or.)</ref> zabaleta</p><p>Zabaleta toponimoaz den bezainbatean, 'landa' eta 'lautada' esanahiekin loturik agertzen da:</p><p>Pero reparando que aquel sitio era algo desigual y quebrado, los mas fueron de parecer que la fábrica se hiciesse en el sitio de mas arriba, en el parage que oy se venera el apostol San Bartholomé en su hermita, que en su mismo nombre, que es Zavaleta, està mostrando las conveniencias del pensamiento, porque significa 'pradera' y 'sitio llano <ref type="bibr">'. (41. or.)</ref>  votoen arteco chiquiena. nic, andrea, daucat atseguin andi bat, nere &lt;7&gt; Jaincoaren ama santa, cerren aimbeste privilegioz apaindu zinduan trinidade Santissimoac, empeñatzen zala aita bere podore cabu baguearequin, semea jaquiunde ezin gueiagoarequin eta espiritu Santua amorio fingabearequin zure gracietan, ematen zizutela Jaincoaren ama izateco bear zenduan santidade guztia. gracia, doay ta misterio oec gatic escatcen dizut, nere ama gozoa, alcanza deguidazula vicitcea beti zure semearen gracian, equiten diedala virtute guztiai, batecere, gueyena, aguertcen naizala araco amabi aetan ceñetan zu, gueyena, &lt;8&gt; ezagutua izan ziñan munduan, eracusten diguten becela araco amabi yzar eder zure coroa apaincen debeen aec, ceñetan adierazotzen zaizcun. oec gatic alcanza ditzadan zuri jarraituaz eta zu vitarteco zaitudala eriotza on bat Jesus maitearen viotzean, berac nai debanean, eta bederatci urren onetan escatcen dizudan favorea, Jaincoaren gloriaric andieneraco bada.   Kasu-marketan ere ez dago aparteko gorabeherarik: -az eta -zaz ageri dira instrumentalean, bigarrena ohiko legez izenordain eta erakusleei loturik (8 jarraituaz; 13 oriezaz guztiezaz, 23 min oriezaz), -ai datibo pluralean (12 dabilzanai, 14 guztiai) eta euskal Herriko erdialde zabaleko -ikan ablatiboan (27 zu gandican).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Ama Virgina santissima</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.4.">aditzaren morfologia</head><p>Aditzaren esparruko zenbait erabilera eta aldaera izenaren morfologiaren esparrukoak baino interesgarriagoak dira, izan forma zaharrak azaltzen direlako, izan zenbait banaketa zahar neutralizaturik agertzen direlako.</p><p>Aditz-izenenen atzizkien artean -tze da arrunt Aldazabalen testuan, are partizipioari erantsita ere <ref type="table">(</ref> nor-nori saileko adizkietan ai &gt; a monoptongazioa ageri da singularreko zenbait adizkitan: 16 beguitanzen zatan, 23 urtutzen cizatzula, 28 zatzu artu, 30 sortu zat… (halere, cf. 29 etorzen zaizun). Bestalde, pluralean eta 'hari' datiboaren aurretik, ai gordetzen da: 8 adierazotzen zaizcun; 3 emango zayo, 8 conveni zayona, 31 gustatuco ez zayola; gipuzkoako adizkietako ai &amp; a polimorfismoaz, ikus leturiaga (2020b: § 4.2.6).</p><p>Pluralgileekin jarraituz, izanen 3. pertsona pluralean arrunt da kutsu estilistikoa duen (Ariztimuño 2013: 37) -de pluralgilea: 8 errezatuco dirade, 10 esaten edo cantatcen dirade, 10 esaten dirade, 31 diraden (ekarrin ere ageri da behin -de: 27 dacardelaco). Izani loturik -te ageri da 16 ceratela adizkian, eta -te dago, halaber, adizki hauetan plurala markatzeko: 7 ematen zizutela, 8 eracusten diguten, 27 escatzen dizutenean. Alde batetik, helburuzko mendeko perpausak direla eta, aditzak subjuntiboan daudela pentsa daiteke bai egitura, bai garaia kontuan hartuta. Beste alde batetik, Joseba A. lakarrak diostanez (komunikazio pertsonala), bestelako irakurketa ere egin liteke, eta aoristotzat interpretatu; alegia, izan zindean 'izan zinen' eta eguin zidin 'egin zen' irakurriaz. Hartara, aoristoaren adibide bakan baina oso berankorrak leudeke Aldazabalenean; lehen euskara modernoko aoristoez, ikus lakarra (1996), <ref type="bibr">Aldai (2015</ref><ref type="bibr" target="#b43">), urgell (2018</ref><ref type="bibr">) eta Jiménez (2019</ref>.</p><p>Arestiko ezaugarriez gain, tarteka eta bakan agertzen diren ezaugarri gutxi batzuk aipa daitezke, hala nola objektu pluralarekiko komunztadura falta 12 alegratu cenduana ceruac eta lurra perpausean eta etzanen adizki trinko plural baten agerrera (10 oracio azpian dautzan oec).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.5.">Sintaxia</head><p>Sintaxiaren esparruan Aldazabalen testuak ez dakar erabilera berezirik eta aparteko aberastasunik; ezer aipatzekotan, izen osteko erlatiboen zenbait egitura aipa daitezke (8 araco amabi yzar eder zure coroa apaincen dabeen aec, 10 oracio azpian dautzan oec, 11-12 eguneroco oracio lendabician dagoena, 32 historiaco libru iaz escribitu nebanac), bai eta ezeztapenaren hurrenkera zaharraren arrastoren bat ere mendeko perpaus batean (32 eracutsi debanari gustatuco ez zayola).</p><p>tarteka, erdal ereduen arabera egindakoen itxurako egiturak agertzen dira, testuaren pasarte batzuk behintzat ez jatorrizkoak baina inondik egokituak edo itzuliak di-  <ref type="bibr">andi 6, 9, 13, 15(2)</ref>, <ref type="bibr">33 16, 18, 19, 21, 22, 23(2), 25, 30, 31 andiac 22, 29, 30, 31</ref> andiagoa 30 andiagoarequin 25 andicoa 32 andien 31 andieneraco <ref type="bibr">5, 8, 10, 13, 15, 17, 19, 20, 22, 24, 25 agertu ad.</ref> aguertcen 7 aguertuco 31 agiri 1 iz. aguiriac 29 2 adj. aguiriac 33 agradatu ad.</p><p>agradatzen 33 ahal ad.</p><p>al 28 ailegatu ad.</p><p>allegatu 20 aingeru iz.</p><p>aingueru 24 aingueruac 12 aingueruen <ref type="bibr">4, 9, 12, 14, 16, 17, 19, 21, 23, 24(2)</ref>, 31(2) aita iz. aita 7, 30(2) akabu iz. acabuan 10 akto iz.</p><p>acto 4(2), 10 alabanza iz.</p><p>alabanzaric 33 aldare iz.</p><p>aldareco 18 Aldazabal iz. prop.</p><p>Aldazabal 33 Aldazaval 1 alde iz.</p><p>alde 25 alderaco 31 alegratu ad.</p><p>alegratu 12 alibio iz.</p><p>alivioa 28 alimentu iz.</p><p>alimentu 28 alkanzatu ad.</p><p>alcanza 5, 7, 8, 18 alcanzatu 16 alcanzatzen 27 alkar izord.</p><p>alcarrequin 30 ama iz. ama 2, 3, 4, 5(2), 7(3), <ref type="bibr">8, 9(3), 12, 14, 16, 17, 18, 19(2), 21, 23, 24, 26</ref>(2), 27(3), 28(2), 29 <ref type="formula">(2)</ref>   <ref type="bibr">amen 5, 8, 10, 14, 15, 17, 19, 20, 22, 24, 25</ref>   <ref type="bibr">3, 5, 15, 17, 19, 20, 22, 24, 25, 31 bat zenbtz. bat 4(2), 6, 8, 9, 13, 15</ref>(2), 16 <ref type="formula">(2)</ref>  <ref type="bibr">virgina 5, 9, 12, 14, 15, 16(2), 17, 18, 19</ref>(2), 20, 21 <ref type="formula">(2)</ref>  <ref type="bibr">edo 4, 9, 10, 33 eduki ad. daucat 6, 9, 13, 15, 16, 18, 19, 21, 25</ref>   <ref type="bibr">, 10, 15, 17, 19, 24 dizut 7, 9, 13, 15, 17, 18, 20, 22, 23</ref>  <ref type="bibr">, 12, 14, 24 eguneco 8, 9, 12(2), 14, 16, 17, 19, 20, 22, 24</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.4.">Sintaxia</head><p>Sintaxiaren esparruan zailagoa da joera edo irizpide jakin batekin lotutako aldaketa sistematikoak aurkitzea, nahiz eta aintzat hartu behar den, jakina, § 5.1 azpiatalean aipatutako eduki-eta antolamendu-aldaketek bete-betean ukitzen dituztela egitura sintaktikoak. Azpiatal horretan zerrendatutako aldaketez harago, oro har aldaketa sintaktiko txikiak daude Aldazabalen eta gorostegiren testuen artean: sintagma edo perpausen osagaien ordena-aldaketa txikiak ageri dituzte 5-6 gure oneraco epeñi nai izan zenduana zure imagina ederra munduan → 130 zure imajiña gure onerako ipiñi nai izan zenduana munduan, 8 oec gatic alcanza ditzadan → 130 alkanza ditzadan oekgatik eta 16 esposatua San Jose zeure esposo garbiarequin → 132 San Jose zure esposo garbiarekin esposatua adibideek, eta erlatibo aposatua izen aurrera ekarria du beste honek: 11-12 esango da eguneroco oracio lehendabician dagoena → 131 esango da lendabiziko dagoan eguneroko orazioa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.5.">Lexikoa</head><p>lexikoaren esparruan aurreko ataletan baino askoz ugariagoak dira gorostegik eginiko aldaketak; funtsean, bi multzotan bana daitezke: alde batetik, ordezkatutako euskal hitz eta aldaerak daude; beste alde batetik, gaztelaniazko mailegu gordinen ordez emandako hitzak.</p><p>Alde batetik, gorostegik sistematikoki egin zituen Jainko → Jaungoiko eta tenplo → eliza aldaketak, eta zenbait hitz eta aldaera zahar baztertu zituen, hala nola 5 epeñi → 130 ipiñi eta 10 dautzan → 131 dauden. Sinonimoekin ordezkatutako hitzen artean daude, halaber, 5 ezpaere → 129 bestela, 5 Jaincoari → 129 Jaunari,  lehen euskara modernoko idazlea izan zen Aldazabal bete-betean, eta garai hartan gipuzkoako euskal idazle ospetsuenen artean zabalen zebilen ikuspegia baliatu zuen: bere sorterrian (eta are gipuzkoako euskara zaharrean) espero zitezkeen ezaugarri dialektalak ageri dira, baina aurrekoak bezain agerikoak dira tokian tokiko ezaugarriak baztertu eta eredu orokorrago eta landuago baterantz jotzeko ahalegin neurri handi batean lortuak. gipuzkoako euskarari dagokionez, halaber, Aldazabalek idatzitako testua eta gorostegik mende baten buruan euskal erria aldizkarian argitaratutako bertsio eguneratua alderatzea argigarri da literatur gipuzkerak berak zenbait puntutan izandako bilakabideaz jabetzeko, bai eta beronen ikerketari astinalditxoa emateko ere.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Erreferentziak</head><p>Aldabaldetrecu, roque. 1993. Semblanza histórica. Pedro Joseph de Aldazabal y murguia.</p><p>Deba 25. 11-14. Aldai, gontzal. 2015. Subordinadas completivas del verbo gertatu 'ocurrir' en Haraneder: ¿Subjuntivo extendido o conservación del Aoristo Perifrástico? Fontes Linguae Vasconum 120. 327-344. Aldazabal, Pedro José. 1767~1769. Breve historia de la aparicion del mas luminoso astro, y brillante estrella de la mar, la milagrosa imagen de Maria santissima de Iziar. iruñea: martín Joseph de rada.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>emandako itziarko Ama Birjinaren omenezko koplen sortze-garaia eta egiletza berrikusteko, eta bestelako proposamena finkatzeko, Aldazabali egotziz. Hirugarrenik, Aldazabalen erdal lanetan agertzen diren euskal testuak eta Aldazabalek lehenengoz 1768an argitaratutako eta 1790ean berrargitaratutako euskal lan bat irakurri eta editatzeko.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>Bigarren eguneco oracioaVirgina doatsua, Jaincoaren ama, aingueruen eta guizonen erreguina, zere jaiotzarequin alegratu zenduana ceruac eta lurra, aingueruac eta guizonac. egunsenti eder, mundura justiciaco eguzquia, Jesu christo, ecarri ziguna, argui eguiteco ceruraco videan dabilzanai eta edertazunez eta gloriaz ceruan &lt;13&gt; janzitceco jaunaren vorondatea eguiten vizi eta beren eriotzan justu arquitzen diranac. Atseguin andi bat daucat zure doay eta edertazun graciazco oriezaz guztiezaz, ceñaquin zure seme Jaincoac eguzqui divinoac becela cere jayotzan janci zinduan. eta escatcen dizut zure zori oneco jayotza orregatic nere animarenzat graciaraco etorrera ain arguia eta segurua, ceinda inoiz ere erori ez naitequean pecatuaren loyan, eta bederatci urren onetan escatzen dedan mesedea, conveni bada, zure honra eta gloriaric andieneraco. &lt;14&gt; Amen.gañeroncean, lenengo egunean becela.irugarren eguneco oracioa Virgina escogitua, Jaincoaren ama, aingueruen eta guizonen erreguina, Jerusalengo templo santuan iru urteco edade gaztearequin presentatua, eche santu onetan cere virtuteaquin eracusten ceniela icusten cinduen guztiai vizi modu jaincozcoa, guero zure semearen etorreran servitu zezaten graciaco temploetan exemplotzat, beren vizitzac jaunari consagraturic &lt;15&gt;. Atseguin andi bat daucat, o virgina escogitua! Zu, gracia eta virtute andi parebague oec mereci izan cindualaco templo santu onetan eguin cinduan mirariac gatic. eta escatzen dizut presentacio gozo onegatic eman daguidazula izatea nere anima trinidade Santisimoaren templo vici bat, nere estaduco obligacioac cumplitzeco eta bederatci urren onetan escatzen dizudan mesedea, baldin combeni bada, Jaincoaren honra eta gloriaric andieneraco. Amen.laugarren &lt;16&gt; eguneco oracioa Virgina guztiz garbia eta casta, Jaincoaren ama, aingueruen eta guizonen erreguina, esposatua San Jose zeure esposo garbiarequin, ceñec zure compañia gandic eta izcuntza gozoa gandic alcanzatu izan ceban graciaren, virtuten eta doayen aumentua. Atseguin andi bat daucat, o virgina garbia eta casta, icusteaz zure esposorioan familia bat ain baquetsua, amodiotsua eta garbia, non da beguitanzen zatan ceratela moduren batean gloriaco bienaventuratuac &lt;17&gt; eta, Jesusa jayo ezquero, trinidade humanoa lurrean. nic escatzen dizut esposorio garbi oec gatic nere memoria, entendimentua eta vorondatea trinidade Santisimoagan beti eduquitzeco gracia, eta bederatzi urren onetan escatzen dizudan mesedea, baldin conveni bada, Jaincoaren honra eta gloriaric andieneraco. Amen. Bostgarren eguneco oracioa Virgina, graziaz betea, Jaincoaren ama, aingueruen eta guizonen erreguina, ceñi &lt;18&gt; trinidade Santissimo guztiac viraldu zizun San gabriel goy-ainguerua zori oneco embajada batequin zure vorondatearen baiaren billa, verbo eternoa zure sabelean guizon eguiteco. Atseguin andi bat daucat, o virgina graciaz betea, izateaz zu verbo divinoaren ama, moduren batean doai cabu baguea, eta escatcen dizut embajada gozo onegatic alcanza daguidazula cere seme jaunagandic nere anima graciaz betetcea, onela Jesus maiteac arquitu dezan nere viotcean ostatu garbi bat, batez ere aldareco sacramentu santua errecibitzen &lt;19&gt; debanean. eta bederatci urren onetan escatcen dizudan mesedea, baldin conveni bada, Jaincoaren honra eta gloriaric andieneraco. Amen. https://doi.org/10.1387/asju.22418 Seigarren eguneco oracioa Virgina amorioz betea, Jaincoaren ama, aingueruen eta guizonen erreguina, zere seme Jesus savelean zenduala bien vorondatearequin igoric Judeaco mendietara cere lengusu Santa isabel visitatcera, onen echean egon ciñana, betetzen cinduala graciaz ama eta semea. Atseguin andi bat daucat, o virgina &lt;20&gt; guztiz amoriotsua, zure virtute, humildade, obediencia eta charidade visita santu onetan eracutsi zinduanaz, eta escatcen dizut oen bitartez eracutsi daguiozula nere animari humildadeco, obedienciaco eta charidadeco videa, allegatu artean oec mereci debeen azquenera. eta bederatzi urren onetan escatzen dedan mesedea, baldin conveni bada, Jaincoaren honra eta gloriaric andieneraco. Amen. Zazpigarren eguneco oracioa Virgina guztiz esanguiña eta &lt;21&gt; obedientea, Jaincoaren ama, aingueruen eta guizonen erreguina, cere semearen jayotzatic berroguei egunac cumplituric presentatu ciñana Jerusalengo temploan leguea cumplitzeagatic, esqueintcen cenduela beste doayen artean zere savel virginaleco frutu bedeincatua eta guelditzen zinala virgina garbi, loyaren queriza gave, semea eguin baño len, eguitean eta eguin ezquero, ez cergatic inoiz ere izan zenduan loiric cer garbitu, baizic nai izan zendualaco legueaz cumplitu. Atseguin andi bat daucat, o virgina guztiz esanguina eta obedientea, &lt;22&gt; cerren zere seme jaunac comunicatu ziutzun gracia andi oec eta cerren misterio onetan eracutsi ziñuzcun virtute andiac. escatzen dizut, bada, eman daguidazula batez ere obedienziaco [virtutea], 30 zure seme jaunaren leguea gordetzeco eta nere estaduco obligacioac cumplitzeco. Baita ere bederatci urren onetan escatzen dedan mesedea, baldin conveni bada, Jaincoaren honra eta gloriaric andieneraco. Amen. Zorzigarren eguneco oracioa Virgina dolorez betea, Jaincoaren &lt;23&gt; ama, aingueruen eta guizonen erreguina, constancia andi batequin egon ziñana zere semearen gurutzearen oñean munduaren redencioco obra andi ura eguin zebanean, penaz eta dolorez zere viotza urtutzen cizatzula, baña orregatic ere artutzen guinduzula zure semetzat cere dizipulu amatuaren personan. erruquitzen naiz, o virgina dolorez jancia, zure pena eta min oriezaz, eta orien vitartez ezcatcen dizut artu nazazula zere, eta zure devocioan beti izateco seme eta mendecotzat, eta eman daguidazula gracia cere mendetic ez irteteco. &lt;24&gt; Baita ere bederatci urren onetan escatcen dizudan mesedea, baldin conveni bada, Jaincoaren honra eta gloriaric andieneraco. Amen.Bederatcigarren eguneco oracioaVirgina gloriaz betea, Jaincoaren ama, aingueruen eta guizonen erreguina, ceñaren eriotza izan zan eriotza amoriozco bat, egaca cerura igotzeco aingueruen eta serafinen compañian, viurcen zinala irugarren egunean cerutic lurrera aingueru ascoren compañian, sartutzeco berriro anima gloriosoa cere &lt;25&gt; gorputz eder artan, eta igotzeco cerura gorputz eta anima lagun oequin guztioquin gloriaco cortera, non arquitzen [zeran] zere semearen alde escuyan, bienaventuratu guztiac baño gloria andiagoarequin, eternidade bateraco. Atseguin andi bat daucat, o virgina gloriaz betea, zure eriotza gozoaz, zure ceruraco igoer[a] gloriosoaz eta gloriaco coroacio estimatuaz, eta escatcen dizut iru zori dichoso oen vitartez nere eriotzaco zori ona zure mendean. Baita ere bederatzi urren onetan deseatzen dedan mesedea, baldin conveni bada, Jaincoaren honra ta gloriaric andieneraco. Amen. &lt;26&gt; gozoac Virgina iciarcoa, yzar ederra munduan; ama maitea, gu gatic erregu ezazu ceruan.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>-itze &amp; -tutze), bide batez partizipioaren eta aditzoinaren arteko bereizketa galdua zela erakutsiz (ikus urgell 2006: § 2.7.4): 13 janzitceco; 23 urtutzen, 23 artutzen, 24 sartutzeco, 28 arquitutzen. Bestalde, etorri aditzari loturik -te eta -tze agertzen dira (26 etorten, 29 etortzen), lehenengoa akatsa ez bada. erroei dagokienez, gipuzkoan debagoienaz kanpo espero zitekeen -e-dago izanen eta *edunen orainaldiko adizkietan: 27 zera; 3 dezun, 5 dedana, 13 &amp; 20 dedan. *edunen beraren 3. pertsonako adizkietan -eu-&amp; -ebV-zaharrak daude sistematikoki Aldazabalenean: 27 alcanzatzen deu; 4(2) eguingo debe, 4 esango debe, 8 apaincen debeen aec, 8 nai debanean, 16 alcanzatu izan ceban, 23 eguin zebanean, 27 ecin debana eta abar. gipuzkoako adizkietan numeroaren araberako erroen banaketa aipatu izan da: «otxoa de Arinen dotrinatik hasita gipuzkera zaharrean ezaguna den banaketa dugu -i-eta -i(r)au-erroen artekoa, bata singularrerako eta bestea pluralerako erabiltzearena» (Altuna 1995: 623). leturiagak (2020a: 374) urolako testuez oro har eta Aldazabalez beren-beregi dioenez: eskualdeko [urolako] testuen artean, AzkSerm (1737) eta loioladot (xviii) lekukotasunetan bildutakoak dira, besteak beste: eguin diauztan 'dizkidan' (AzkSerm, 1737: 11), berrituco ciauzcan 'zizkion' (AzkSerm, 1737: 13), barcacen diaustegun 'dizkiegun' (loioladot, xviii, 8); itziar (1790 [1768]) lekukotasunean bildutakoak, aldiz, comunicatu ziutzun 'zizkizun' (22) eta eracutsi ziñuzcun 'zenizkigun' (22). Bestalde, -z-pluralgilea dela eta, halakorik gabeak dira 29 nai nituque eracutsi eta 32 izango lituque adizkiak.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>lan honek P. J. Aldazabal debarraren euskal testuak izan ditu ardatz, eta askotariko gaiak (ber)aztertzeko aukera eman dit. ez dirudi Aldazabal idazle bereiziki ezaguna izan denik (aipatu behintzat, gutxitan eta labur aipatu da azken mendeko bibliografian), eta helburu nagusia izan da bere euskal idazlanak bildu eta batera editaturik aurkeztea. Alde batetik, itziarko Ama Birjinaren omenez gaztelaniaz idatzitako liburu batean ageri diren euskal testuak aurkeztu dira: Arakistainek idatzitako kopla bat, oraintsu arte xvii. mendekotzat jo izan den kopla izengabe bat, gipuzkoako kopla-ahapaldi zahar bat eta zenbait proposamen etimologiko. Beste alde batetik, dakidala Aldazabalek hasi eta buka euskaraz idatzitako liburu bakarra, funtsean itziarko Ama Birjinaren omenezko bederatziurrena biltzen duena. lan honek, beraz, ikertzaile eta bestelako interesdunen eskueran jartzen ditu Aldazabal debarraren euskal lanak; baina, ez da horretara mugatu. Halakoetan gertatu ohi denez, testuen ediziogintzak eta ikuspegi filologiko zabalak barne biltzen dituen azpigaiez arduratzeak aukera eman dit egileaz ez ezik, hark bizitako garaiaz ere gehiago jakiteko; zehazki, lehen euskara modernoaz eta garai linguistiko haren gurpilean gipuzkoar idazleek eginiko lan eta hautuez, bai eta larramendi eta Arakistain bezalako idazle handien eraginaz ere.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>gaur-gaurkoz, liburuaren hainbat ale aurki daitezke euskal Herriko zein kanpoko biblioteketan, hala nola euskaltzaindian, 6 deustuko unibertsitatean, 7 Bizkaiko Foru Agiritegian, 8 Koldo mitxelena Kulturunean (J. urkixo funtsa), 9 nafarroako unibertsitate Publikoan, 10 Sancho el Sabio Fundazioan 11 eta espainiako Biblioteka nazionalean. 12 mende baten buruan liburuaren euskal bertsioa argitaratu zen, Vicente Aizpuruk laburtua eta zuzendua, eta Francisco maría gorostegik itzulia: zenbait atal euskal erria aldizkarian agertu ziren, eta obra osoa, liburu-formatuan, Guizadiaren eta batez ere ichaz-guizonen izar eder eta laguntza benetacoa dan ama Virgiña Iziar-coaren condairachoa izenburupean atera zen (Francisco mugerza, tolosa, 1884). izenburuak argi dioenez, beraz, itziarko Ama Birjinaren omenez idatzitako lana da Aldazabalena; zehazki, historia, gertakizun, sendatze, mirakulu eta debozio-gaiak azaltzen ditu. Argitalpen-datari dagokionez, aurkitu ditudan ale guztien azalean esaten da año de 1767, baina data hori ez dator bat aurkitutako aleen hasierako zentsura-lizentzietan agertzen direnekin: 1768ko urtarrilaren 13a (25. or.), 1768ko urtarrilaren 16a (26. or.), 1768ko otsailaren 29a (28. or.) eta are 1769ko apirilaren 14a (29. or.) eta 1769ko apirilaren 12a (30. or.) aipatzen dira horietan. Baliteke, beraz, Aldazabalek 1767an idazten amaitutako lana egiazki ez 1767an baina apur bat geroago argitaratu izana. Baliteke, halaber, 1768ko liburuarekin berarekin gertatzen den legez, ezagutzen diren aleak ez izatea lehenengo ediziokoak, ezpada geroagokoak (1769koak?), nahiz eta azalean 1767. urtearen aipamena gorde.13   lanaren iturriak direla eta, testua irakurriz behin eta berriz ikusten denez, 14 Arakistainek idatziz utzitako materialak baliatu zituen Aldazabalek: azaleko izenburuan ez ezik, paratestuetan (eskaintza, protesta, etab.) eta testu nagusian ere behin eta berriz aitortu zuen Arakistainek utzitako agirietatik ateratako informazioa baliatu zuela, gehienbat, bere lana prestatzeko. Badirudi Arakistainek berak heriotza tarteko gauzatu ezin izan zuen asmoa gauzatzeaz arduratu zela Aldazabal: cf. «que lo formal de la mayor parte de esta obra he sacado de los documentos que me suministraron los papeles que tenía ya para el mismo intento Fray Joseph de Jesús maría y Araquiztain, que dexé dicho en el prólogo»(Aldazabal 1767~1769: 42). 1767~1769ko lana gaztelaniaz eta prosaz idatzita dago, eta erdialdeko atalak besterik ez daude zenbakituta. Hasieran, liburuak 68 orrialdeko sarrera luze eta zenbakitu gabea du, eta horren azken atalean ematen dira itziarko Ama Birjinaren omenezko kantuak: lehenik eta behin, gaztelaniaz eta latinez idatzitako kantu bat dago, «canción que se halla escrita en el coro de la iglesia del santuario de iziar» izenekoa (69. or.). ondoren, euskarazko bi kantu ematen dira: Arakistainen bat lehenbizi, eta euskal erria aldizkarian eta conTaVen xvii. mendekotzat jo zena beste alde batetik (70.-72. or.).</figDesc><table><row><cell>eneKo ZuloAgA SAn romÁn</cell></row><row><cell>6 Signatura: oi-3839.</cell></row><row><cell>7 Signatura: 248.159.4 itziar (460.15).</cell></row><row><cell>8 Signatura: V6-635.</cell></row><row><cell>9 Signatura: J.u. 4696.</cell></row><row><cell>10 Signaturak: [ ]9, *4,  §-2 §8, 3 §5, A-q8, r-t4.</cell></row><row><cell>11 Signatura: ZrV 942.</cell></row><row><cell>12 Zehazki, liburuaren ale bat eta bigarren ale mikrofilmatu bat gordetzen dira, 2/62674 eta</cell></row><row><cell>dgmicro/35723 signaturekin, hurrenez hurren.</cell></row><row><cell>ASJU, 2019, 53 (1-2), 361-445</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>13 Azaleko eta zentsuretako data-ezberdintasunak katalogazio-gorabeherak eragin izan ditu; zehazki, katalogo batzuetan azaleko data hartu da aintzat (ondare Bibliografikoaren Biblioteka Birtuala, Bizkaiko Foru liburutegia, deustuko unibertsitatea, euskaltzaindia…), eta beste batzuetan paratestuetakoa (nafarroako unibertsitate Publikoa, espainiako Biblioteka nazionala, Koldo mitxelena Kulturunea…). Kantua, beraz, ezaguna zen aurretik ere: Fita (1880-1881) eta ondarra &amp; unzueta (1997: 273) lanetan osorik jasotzen da Arakistainen testuen artean, nahiz eta editoreek ez zituzten egindako zuzenketak adierazi eta zenbait grafema moderno itzuri zitzaizkien. daramasqui; ez dut halakorik harrapatu Aldazabalen liburuetako kopletan. Aldiz, lepokariaren aldeko neutralizazioaren adibide bana aurkitu dut egile bien testuetan: larlau1 13-4 azcoren eta lauAnon 3-4 ondazunac. izenaren morfologian, aien 'haien' eta ain 'hain' baliatu zuen Arakistainek larramendiri igorri-</figDesc><table><row><cell></cell><cell>eneKo ZuloAgA SAn romÁn</cell></row><row><cell cols="2">euskalaritzan sona larramendiren hiztegiari eginiko eranskinaren bidez lortu bazuen ere (mitxelena 1970: 172), ez da bereziki harrigarria Arakistainek itziarko Ama Birjinaren omenezko bertsoak egin izana: bertan hazi zen (ondarra &amp; unzueta 1997: 287) eta, Aldazabalen 1767~1769ko obrak islatzen duenez, informazio eta material ugari bildua zuen tokiko historiari eta gertakizunei buruzko lan bat egiteko. 6/ quendu eguizgutzu, arren, gure miseriac, baita baqueatu guerra gaitz guztiac. larlau2 3-3 tako laukoetan, baina aen zaharragoa agertzen da Araklau testuan (12-3 aen bien) 7/ Bigun eta garbi 25 eta Aldazabalen bederatziurrenean. Ablatiboan testu guztiek dute -tik, nahiz eta cerade aurquitcen, motibatiboan -gaiti dagoen larlau1 (3-1 Orregaiti) sortan; baina, Araklau tes-nola aingueruac tuan 3-3 zeugatic eta 10-2 gugatic daude. Aditzetan, berriz, izanen adizkietan -de pluralgilea Aldazabalen liburuetan besterik ez da agertzen (lauAnon leloa-4 gue-diran espantatzen.</cell></row><row><cell cols="2">Kantua dela eta, bestalde, ez dira ahaztekoak Arakistainek larramendiri eskainitako rade; Araklau 7-2 cerade…). Aginteran [aditzoina + *ezan] arrunt da baten eta 8/ Bada, eguin gaitzazu</cell></row><row><cell cols="2">laukoen sorta biak, 15 Arakistainek neurri horretako bertsoak edo kantuak idazteko bestearen sortetan, baina Araklau testuak [partizipioa + egin] dakar behin: 6-1 garbi ta bigunac, 30</cell></row><row><cell>zaletasuna bazukeela islatzen dutenak. Quendu eguizgutzu. gueran becatutic</cell><cell></cell></row><row><cell cols="2">Arakistain-Aldazabal loturari dagokionez, lehenago ere esan bezala, bigarrenak sa-ikusten denez, aldeak gutxi eta txikiak dira oro har, eta ezin atera daiteke ondorio beti libratuac.</cell></row><row><cell cols="2">rritan aitortu zuen lehenengoaren materialak baliatu zituela bere lana taxutzeko. Bes-terik da, ordea, Aldazabalek Arakistainen koplak zeuden-zeudenean txertatu zituen, edo bere irizpideen arabera galbahetuta aurkeztu. izan ere, zenbait erabileratan ba-tasun handiagoa atzematen da Aldazabalen 1767~1769ko liburuko bi sorten artean, Arakistainek itziarko Ama Birjinari idatzitako sortaren eta larramendiri 1746an igo-sendorik Aldazabalen balizko iragazki eta aldaketez: balirudike kasu batzuetan zertxo-9/ iguzu gracia bait molda zezakeela Arakistainen testua bere irizpideen arabera, baina aldeak hain garbi vizitzeco, txikiak (eta ez beti sistematikoak) izanik, idazleen barne-bariazioari ere egotz dakiz-edertasun ori 35 kioke. guero icusteco.</cell></row><row><cell cols="2">rritako laukoen artean baino. nolanahi ere den, hiru alderdi hartu behar dira aintzat antzekotasun eta ezberdintasun horiek aztertzean: 10/ erregutu ezazu 3.1.2. edizioa gugatic ceruan,</cell></row><row><cell cols="2">a) Arakistainek ekoitzitako testuen artean ia hogei urteko denbora-tartea egon li-teke, eta baliteke Arakistainek berak irizpideak aldatu izana. eracus cer dezun &lt;71&gt; canción compuesta por el reverendo padre fray Joseph de Jesús maría, para alabanza de nuestra señora de iziar. podore munduan.</cell></row><row><cell cols="2">b) Arakistainen testuak Fitaren (1880-1881) eta ondarraren eta unzuetaren (1997) edizioen bidez ezagutzen dira, eta azken horiek ere ez zuten jatorrizkoa ikusterik izan. 16 c) testuen laburtasunak eta ezaugarri eta adibideen kopuru urriak ezer sendorik ondorioztatzea eragozten dute. Aldeak direla eta, 17 grafian zenbait ezberdintasun aurki daitezke; adibidez, larlau1 eta larlau2 lanetan ez dago &lt;c-&gt;-rik hitz hasieran, baina bai Araklau eta lauAnon sortetan, eta Aldazabalen bederatziurrenean. Halaber, larlau1 eta larlau2 testuetan ez dago &lt;tce&gt;-rik afrikatu lepokaria adierazteko, baina Alda-11/ lagundu zaquizcu 40 1/ Agur, iziarco ceruco glorian, virgina ederra; Jesus icusteco agur, ama maite, zeure compañian. ichasoco izarra. 2/ gabriel santuac 12/ gloria aitari 5 eta semeari, 45 zizun avisatu nola aen bien zeugan nai zevala jaunac encarnatu. espirituari.</cell></row><row><cell cols="2">zabalen liburuetan aurki daitezke adibideak. Fonologiari dagokionez, larramen-3/ evaren izena diri igorritako laukoetan besterik ez daude -e &gt; -a-ren eta iV &gt; iiV-ren adibideak. mudatu zenduan, 10 Bestalde, herskarien aurreko lepokari &gt; apikari neutralizazio-zantzuak ugaria-zeugatic baquea goak dira lauko zaharrenetan: larlau1 7-4 estarri, 11-3 gustitic, 13-3 eztauscala; artu izan guenduan.</cell></row><row><cell cols="2">4/ errecivi gaitzazu 15 eskuizkribuez eta argitalpenez, begiratu ondarra &amp; unzueta (1997: 279-281) lana, laukoon zeruco cortean transkripzioa ere badakarrena. 16 «lauko txiki hauek ere desagertu egin dira Historiako Akademiako Bibliotekako aipatutako pa-erregu eguiten 15</cell></row><row><cell cols="2">peretatik eta gaur egun Aita Fitak eginiko argitalpenari esker ezagutzen ditugu soilik» (ondarra &amp; un-zueta 1997: 280). degunac lurrean.</cell></row><row><cell cols="2">17 erkaketa astunegia suerta ez dadin, laburdura hauek erabiliko ditut tarteka: larlau1 = Arakistai-5/ cautivoac ascatu, nek larramendiri igorritako lehenengo laukoa eta larlau2 = Arakistainek larramendiri igorritako biga-itsuac arguitu, rren laukoa, Araklau = Arakistainek idatzitako eta Aldazabalek 1767~1769ko liburuan argitaratutako lau-onac eman eta koa, l auAnon = Aldazabalek 1767~1769ko liburuan emandako lauko anonimoa eta Ald1768 Aldazabalen 1768ko bederatziurrena. gaitzac quendu itzazu. 20</cell></row><row><cell>https://doi.org/10.1387/asju.22418</cell><cell>ASJU, 2019, 53 (1-2), 361-445</cell></row></table><note>14 Arakistaini edo haren agiriei buruzko erreferentzia zehatzak ondarra &amp; unzueta (1997: 271- 275) lanean irakur daitezke.https://doi.org/10.1387/asju.22418</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>eneKo ZuloAgA SAn romÁn ASJU, 2019, 53 (1-2), 361-445 rifrasi-ereduetan nahaste gehiago dago 1768ko liburuan: [aditzoin + *ezan] eta [partizipio + egin] banaketa zaharraz harago (ikus mounole 2007, 2018 [2014]), [aditzoin + egin] eta [partizipio + *ezan] eredukoak ere aurki daitezke.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>. Gipuzkoako kopla zahar bat 3</head><label></label><figDesc>://doi.org/10.1387/asju.22418 7/ gure becatu ta culpa andiac mereci zuten onela, baña, ala ere, acorda zaite zerala guztien ama. .3.1. Koplaren berri xviii. mendeko idazleek sortutako testuez harago, Aldazabalen 1767~1769ko liburuak euskarazko beste kopla bat ere badakar: gipuzkoarrek domenjón gonzález de Andiaren (tolosa, ? -Zumaia, 1489; ikus garmendia 2007) omenez sorturikoa. Kopla zaharra da, eta Aldazabalek mende bat lehenago Braulio de lanak argitaratutako Descripción de las casas y solares de andia, Yrarraçaual, Zarate, recalde y Biuero (madril, 1620) monografiatik hartu zuen. Hain zuzen, horrek pentsarazten dit jatorrizkoa domenjon gonzález de Andia hil zen garaikoa dela, xv. mendearen amaierakoa. Hala dio lanaren bertsioak (1620: 2-3): 26 Bestalde, m. P. lekuonak bildutako eta Kaltzakortak (2003: 147) editatutako oiartzungo xx. mende hasierako kopla zaharren sorta batean ageri den ahapaldiak ere arestikoa du oinarri:</figDesc><table><row><cell></cell><cell>Sagar gorri gezatea 8/ damu ta miñez arquitcen guera gerrian bere ezpatea</cell></row><row><cell></cell><cell>izan gueralaco gaizto, Pedro Arbide Aldako'kua</cell></row><row><cell></cell><cell>gogo firme bat artu izan degu oyartzun'go alkatea</cell></row><row><cell cols="2">vizitzac mudatutzeco. 9/ Ama maitea, veguira ezazu Halaber, xx. mendean manuel lekuonak (1978: 91) bertsio hau eman zuen:</cell></row><row><cell></cell><cell>cere cofradeen artera: Sagar gorri gezatea</cell></row><row><cell>aparatu kritikoa</cell><cell>zure graciac andiac dira, gerrian bere ezpatea, Estrivillo 25 Ama gozoa, adi itzazu becatariac baguera ere, gure deadar tristeac: domenjon de Andia da galdu guiñaden bestela. gipuzkoa'ko erregea.</cell></row><row><cell cols="2">guerade zure semeac. 1/ izar eder bat etorri zaigu 1-3 daudenac] daunenac || 3-1 tristeric] tristiric.</cell></row><row><cell></cell><cell>iziartican devara,</cell></row><row><cell cols="2">miñez daudenac sendatutzeco bere pareric ez dana. 2/ Penen artean ozta geunden jatsi artean izarra, jatsi ezquero aguertuco deu ondo laster bere garra. 3/ gure viotzac tristeric zeuzcan penac, minac ta pobrezac, baña izar hau jatsi ezquero etorri zaizcu ondazunac. 4/ nere christauac, asi zaitezte 3.3Sagarra eder gueçatea ceren animac garbitcen, guerian ere espatea Ama Virgina iziarcoac don menjon de Andia assi zaitzaten aditcen. guipuzcoaco ereguea</cell></row><row><cell cols="2">5/ Virgina ama, becatarien gerora, J. i. iztuetak (1847: 494) bere historia-lanean jaso zuen kopla bera, vitarteco izan zaite: xv. mendekotzat joaz eta kasu honetan ere grafian eta ezaugarrietan zenbait aldaketa gu zuc defenditcen bagaituzu, beti izango guera libre. erantsita:</cell></row><row><cell></cell><cell>Sagarra eder guezatéa 6/ Zu gure aldetic jarri ezquero guerriyan ere ezpatéa Jesus maitea biguntcen, domenjon de Andía berealatic sentituco da osasuna etorritcen. guipuzcoaco erreguia</cell></row></table><note>https</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>arantzazu arantzazuren azalpena emateko, aurreko mendeetako historialarien (ikus garibai 1571 eta gamarra 1648, apud Villasante 1965) bidetik jo zuen Aldazabalek: «arantza en lengua bascongada quiere decir 'espina' y zu significa 'tú'» (54. or.).</figDesc><table><row><cell>deba</cell></row><row><cell>Deba toponimoa dela eta, zalantza gehiago zuen Aldazabalek, eta azalpenetarako</cell></row><row><cell>larramendiri jarraitu zion:</cell></row></table><note>https://doi.org/10.1387/asju.22418</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Yciarcuaren bederatci urrena (1790 [1768]) 4.1. Liburuaz euskararen</head><label></label><figDesc>corpusaren txikitasuna txikitasun, Aldazabalek euskara hutsean idatzitako liburu bakarrak ez du aparteko arretarik erakarri. ezagutu ere, bigarren edizioa (tolosa, 1790) besterik ez da ezagutu xix. mendearen hondarretik hona. Vinsonek lehenengo edizioa aipatu zuen, ondotik «Je ne connais cette plaquette que par la réimpression suivante» zehaztuta(1891-1898 [1983]: 222); halaber, Bilbaoren eusko bibliographian edizio bien berri jasotzen da, baina 1768koaren argitaralekuari eta inprimatzaileari dagozkion [s.l.] eta [s.n.] zehaztapenek erakusten dute hark ere ez zuela lehenengo edizioaren alerik ezagutu. Bigarrena bai, zehatz aipatzen du Bilbaok. Azken urteotako digitalizazio-eta katalogazio-lanek 1768ko edizioaren aleren bat azaleraz zezaketelakoan hainbat datu-base eta katalogotan bilatu dut, baina ez dut bat ere aurkitu, eta bigarren edizioa, 1790ekoa, izan dut langai. Zehazki, Frantziako Biblioteka nazionalean gordetzen den ale digitalizatua baliatu dut, kalitate bikaineko irudiak eskaintzen baitira Gallica atarian. 27 Jabetza dela eta, badirudi Vinsonek edukitako edo erabilitako alea dela, portadaren atzealdeko orrialdean hala adierazten https://doi.org/10.1387/asju.22418 baita: Basque / 101 / Vinson 110 li; hala ere, liburuaren azalean eta 17. eta 33. orrialdeetan Antoine Abbadieren bildumari dagokion zigilua agertzen da, tinta gorriz: Bibliotheque Nationale. academie des sciences agertzen da zirkuluaren kanpoaldean goi eta behe, eta collection antoine D'abbadie barnean erdiraturik. liburuaren eitea ez bide da bereziki lagungarria izan liburua ezagutu eta hedatzeko. tamainari dagokionez, 33 orrialde hartzen ditu testuak, azala barne: hasierako orrialdearen atzealdean itziarko Ama Birjinaren eta Aldazabal sendiaren armarriaren irudiak daude, eta behealdean, eskuinetara eta koadro baten barruan, testu labur hau irakur daiteke: «V[enerable] retr[ato] de n[uestra] S[eñora] de yziar. Protectora de navegantes en la población de deva. Benerada en la m[uy] l[eal] provincia de guipúzcoa. A costa de don Pedro Josseph de Aldazabal y murguia». testu horren gainean, bestalde, Frantziako Biblioteka nazionalaren zigilua agertzen da estanpaturik. Azaleko testua erdiraturik dago, eta badirudi 1768koaren zati bat bere horretan utzi zela, egiletzaren ondoren «ateratzen debana 1768 garren urtean» esaten baita. Horren azpian, ordea, 1790eko argitalpenari dagozkion datu zehatzak agertzen dira: «1790 urtean» alde batetik eta «tolosan: libruguille d. Fermin Huarte eta Arlegui. Preceptorea» beste alde batetik. edukiari dagokionez, bederatziurren bat da, funtsean. irakurleari desenkusa-kutsuko sarrera eskaintzen zaio (2.-3. or.), eta ondotik datoz bederatziurrenaren sarrera (3.-4. or.), eguneroko otoitza (4.-5. or.) eta bederatzi egunetako bakoitzari dagozkionak (9.-25. or.). gero, «gozoak» izeneko atalean, itziarko Ama Birjinaren omenezko kopla-sorta bat ematen da (26.-29. or.): 28 hasierako leloak eta zortzi ahapaldik osatzen dute. liburuaren azken atalean Aldazabalek iruñeko apezpiku Juan lorenzo irigoieni eginiko eskaintza agertzen da (29.-33. or.). Aldazabalen lanaren ibilbidea dela eta, xix. mendearen bigarren erdian gaztelaniara itzulita argitaratu zen, «avec une introduction spéciale» (Vinson 1881-1898: 222) eta Novena de la santísima Virgen de Iciar izenburupean (Viuda de mendizabal, tolosa, 1866). euskal testuak ere izan bide zuen arrakastarik, xix. mendearen bigarren erdian grafia eta hizkera eraldaturik berrargitaratu baitzen, nahiz eta berrargitaratzaile-moldatzaileak ez zuen Aldazabalen egiletzarik aipatu; zehazki, Francisco maría gorostegik 29 berrargitaratu zuen testua, 1884an, euskal erria aldizkarian (Xi. lib., 148. zk.,[129][130]<ref type="bibr" target="#b3">[131]</ref>[132][133][134]; ikus § iV. eranskina.Ama Virgina santisima yciarcuaren bederatci urrena don Pedro Joseph de Aldazaval y murguia debaco beneficiadu len vicario izanac ateratzen debana 1768 garren urtean. Baldin ama gozo onen eztitazunac atzeratzen ezpaleu zure vorondatea &lt;3&gt; eta mingaña esan-mesanetatic, ez daguiozula, bada, arren, veguiratu emen arquitzen dezun izcunde torpeari, ezpada librucho onequin deseatzen danari; au da, ama maite yziarcoaren devocioa zavalzea mundu guztian, iñor ere guelditu ez ded[i]n onen favoreac errecibitu bague. nic gordeco ditut nere viotcean zureac, baldin izaten bada zure gustocoa. eta adio.Ama Virgina yziarcoaren bederatzi urrena garagarillaren lenda vicico ygandearen vezperatic emango zayo &lt;4&gt; asiera, modu onetan.Belaunico jarriric, gurutce santuaren señalea eguingo debe bederatci urren onen asi eraraco eta, onen ondoren, esango debe acto contriciocoa egunero. egun gustietan, bederatci urren onec diraben artean, eguingo debe limosnachoren bat edo beste obra onen bat, ta bederatci urren onetan egunero lendabician esango da, acto contriciocoaren ondoren, seguitcen dan oracio au.Bederatci urreneco eguneroco oracioa ceruetaco erreguina, Jaincoaren ama, aingueruen eta &lt;5&gt; guizonen consueloa: baldin Jaincoaren gloriaric andieneraco, zure honraraco eta nere animaren provechuraco izaten vada nic escatcen dedana bederatci urren onetan, alcanza eguidezu zure seme jauna gandic gracia au eta, ezpaere, zuzen ezazu nere oracioa eta ezca eguiozu nere Jaincoari gueyen eta onen dagoquidana bere honraraco eta nere animaren provechuraco. Amen. o maria, virgina guztiz santa, Jaincoaren ama, ceruetaco eta lurreco erreguina, gure ama gozo eta eztitsua, gure oneraco epeñi nai &lt;6&gt; izan zenduana zure imagina ederra munduan, escogituric onetaraco yziarco erri doatsua, garbi guelditu ziñana cere lendavizico izatean, doatsua cere jaiotzan, humildea presentacioan, guztiz casta esposorioan, graziaz betea cere anunciacioan, diligentea visitacioan, obedientea purificacioan, dolorez betea zure seme jaunaren pasioan, gloriaz jancia cere asumpcioan eta coroacioan. ona, andrea, non daucazun zere oin sagraduetan macurturic zure de-</figDesc><table><row><cell>eneKo ZuloAgA SAn romÁn</cell></row><row><cell>4.2. Edizioa</cell></row><row><cell>Bear dan bezela</cell></row><row><cell>1790 urtean</cell></row><row><cell>tolosan: libruguille don Fermin Huarte eta Arlegui. Preceptorea.</cell></row><row><cell>&lt;2&gt; iracurleari sarrera</cell></row><row><cell>yracurle amaric onenaren devotoa eta nere adisquidea: badaquit librucho onetan</cell></row><row><cell>oquer asco arquitu cenzaqueana.</cell></row><row><cell>ASJU, 2019, 53 (1-2), 361-445</cell></row></table><note>https://doi.org/10.1387/asju.22418</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>Amen. oracio au esan ezquero, bacoitzac, isilic dagoala tempora labur batean, es catcen dio ama maiteari conveni zayona viotzarequin, eta guero errezatuco dirade iru ave Maria eta, oen ondoren, eguneco oracioa modu onetan. lenengo &lt;9&gt; eguneco oracioa Virgina garbi, Jaincoaren ama, aingueruen eta guizonen erreguina, santa graciaren edertasunetan becatuaren loi gave cere lendavicico izatean sortua: atseguin andi bat daucat, nere ama gozoa, zu bacarric escogitu zindualaco jaunac doay onetaz, izan zindean bear zan becela trinidade Santissimoco bigarren personarenzat, zugan guizon eguin zidin apartatua eta, orregatic, Jaincoaren ama deitua. nic escatcen dizut zure sorce edo &lt;10&gt; concepcio garbia gatic eman daguidazula nere animaco eta gorputzeco garvitasuna, eta bederatziurren onetan escatcen dizudan mesedea, zure honra eta gloriaric andieneraco. Amen. orain esaten edo cantatcen dirade gozoac, eta oen acabuan esaten dirade antifona eta oracio azpian dautzan oec egunero. Sancta Maria, sucurre miseris, juva pusillanimes, refove flebiles: ora pro populo, interveni pro clero, intercede pro devoto foemineo sexu. Sentiant omnes tuum juvamen, quicumque celebrant tuam sanctam &lt;11&gt; commemorationem. V. Ora pro nobis, Sancta Dei Genitrix. r. Ut digni efficiamur promisionibus christi. Oremus concede nos famulos tuos, quaesumus, Domine Deus, perpetua mentis et corporis sanitate gaudere: et gloriosa beatae Mariae semper virginis intercesione, a praesenti liberari tristitia, et aeterna perfrui laetitia. Per christum, et cetera. Bigarren egunean, lenda vicicoan becela eguinic gurutze santuaren señalea eta acto contriciocoa, esango da eguneroco oracio lendabician &lt;12&gt; dagoena, eta onen ondoren eguingo da an dagoana lenengo egunean becela, eta guero esango da bigarren eguneco oracioa.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head>22418 4.3. Zenbait ohar Aldazabalen hizkeraz lan</head><label></label><figDesc>merecitu nebalaco bere ezaguntasuna eta amorioa orain emezorzi urte danean, exercicio espiritualac eguiten guinduala bioc batean eta alcarrequin yruñeco ciudadean Aita ynurrerequin; baña, aguiz andiagoa sortu zat berriro dignidade veneragarri janci deban orretan. Bada, or topatcen det nere aita, or nere garaya eta or &lt;31&gt; nere onguiña, zeñac diraden nere oblicacio eta zorraren bururic principalenac.Baña cer esquintcen diot, jauna, nic ain beste zor eta ain andien alderaco? lotsa andi batequin aguertuco ninzaque, jauna, ni onen sari chiquiarequin bere señoria ilustrisimaren aurrera, baldin animatcen ezpanindu berorren devocio andiac Ama Virgina santisima gana, aingueruen erreguina gana vezela. ez det, jauna, dudatzen aingueruen devocio zavalzea berorren señoria ilustrisimac bezela eracutsi debanari gustatuco ez zayola beren erreguina santisimaren devociocho au, batez ere bere &lt;32&gt; imagina miragarri yciarcoarenzat, ceñaren historiaco libru igaz escribitu nebanac adierazoco dion zein devocio eta veneracio andicoa dan. orregatic, bada, jauna, uste det artuco debala bere mendean.Bay, jauna, bay: guztiaren bearrean arquitcen da librucho au, eta ala daraman izenagatic ar veza, arren; bestela, jauna, izango lituque etsayac, imagina onen historico libruac izan zituan bezela, baña, berorren ilustrisimaren mendean jarri ezquero, seguro nago izango dala ondo icusia. Ala uste det, jauna, eta horrela berriro bere mendeco servitzarien artean humildeen eta favorecituena. eztet &lt;33&gt; ezer esaten berorren nobleza eta egcelencien gañean, cerren publicoac eta aguiriac diran, eta cegatic ez naizan libru chiqui onetan luzatzen eta gueyago cerren daquidan berorren humildadeari ez zacana agradatzen onelaco alabanzaric, baizic Jaincoaren servicioco gauzac, eta berari erregutcea berorren onagatic. devan, maiatzaren 2, 1768 garren urtean. yruñeco edo Pamplonaco obispo jauna, Jesu christogan bere servitzari eta capillauric humildeena. don Pedro José de Aldazabal y murguia. ceruetaraco || 7 equiten] eguiten || 8 adierazotzen] adoratzotzen || 8 gloriaric] gloriac || 9 sorce] sorcee || 10 gorputzeco] gorputzaco || 12 egunsenti] egunsinti || 12 ceruraco] cenraco || 13 eguzqui] eguzquin || 13 jayotzan] jayoza || 13 onetan] ouetan || 14 ceniela] cinela || 16 aingueruen] ainguerueu || 16 baquetsua] baqueatsua || 16 beguitanzen zatan] beguitan zeuzatan || 17 andieneraco] andienaco || 20 virtute] virtnte || 20 humildadeco] hnmildadeco || 20 daguiozula] dagniozula || 21 jayotzatic] jayozatic || 21 cumplituric] cnmplituric || 21 zenduan] zeuduan || 24 cere] cero || 25 daucat] baucat || 25 oen] oea || 26 Jaungoicoac] Jaunyoicoac || 27 zera] zere || 28 Frutua logratu arren] Frutua logratua aen || 28 diran] dian || 28 osasunaren] osasunaen || 29 ascoren] ascoen || 29 esquintceco] esquintteco || 29 o[mnia] S[ubmito] c[orrectione] Santae r[omanae] e[cclesiae]] Y.S.c.S.r.e. || 31 zeñac] zeña || 33 onagatic] onagaric. honen helburu nagusia Aldazabalen lanetako euskal testuak finkatu eta aurkeztea izanik, egiteke utzi dut gipuzkoarraren hizkeraren eta aurreko eta garaiko literatur gipuzkerarekiko lotura eta eraginen azterketa zehatzagoa. Halere, ediziogintzan ari den ikertzaileak testuak irakurri, transkribatu eta editatu ahala ezinbestean ikusi eta aztertu behar izaten ditu bai testuan agertzen diren ezaugarri linguistikoak, bai ezaugarri linguistiko horiek idazlearen garaiari zein hizkuntzaren historiari begira duten garrantzia. Hori dela eta, Aldazabalen euskarazko bederatziurrenaren edizioa eman ondotik, zenbait ohar egingo ditut testuan agertzen den hizkeraz. . gracia, doay, ta misterio oecgatic escatcendizut, nere Ama gozoa, alcanza deguidazula, vicitcea beti zure Semearen gracian eguiten diedala virtute guztiai, batecere gueyena agertcen naizala araco amabi aetan, ceñetan zu gueyena &lt;8&gt; ezagutua izan ziñan munduan, eracusten diguten becela araco amabi yzar eder, zure coroa apaincen debeen aec ceñetan adoratzotzen zaizcun; oecgatic alcanzaditzadan zuri jarraituaz, eta zu vitarteco zaitudala eriotza on bat Jesvs maitearen viotzean, berac nai debanean; eta bederatci urren onetan escatcen dìzudan favorea, Jaincoarengloriac andieneraco bada: Amen. b. gracia, doay ta misterio oec gatic escatcen dizut, nere ama gozoa, alcanza deguidazula vicitcea beti zure semearen gracian equiten diedala virtute guztiai, batecere, gueyena, aguertcen naizala araco amabi aetan ceñetan zu, gueyena, &lt;8&gt; ezagutua izan ziñan munduan, eracusten diguten becela araco amabi yzar eder zure coroa apaincen debeen aec, ceñetan adierazotzen zaizcun. oec gatic alcanza ditzadan zuri jarraituaz eta zu vitarteco zaitudala eriotza on bat Jesus maitearen viotzean, berac nai debanean, eta bederatci urren onetan escatcen dizudan favorea, Jaincoaren gloriaric andieneraco bada. Amen. c. grazia, doai, ta misterio oekgatik eskatzen dizut, nere Ama gozoa, alkanza degidazula, bizitzea beti zure Semearen grazian, segitzen diedala bertute guztiai, batez ere geyena ezagutua izan ziñan munduan, erakusten diguten bezela arako amabi izaer eder, zure koroa apaintzen duten aek, zeñetan adorazotzen zaizkan; alkanza ditzadan oekgatik, zuri jarraituaz, eta zu bitarteko zaitudala, eriotza on bat, Jesus maitearen Biotzean, berak nai duanean; eta bederatziurren onetan eskatzen dizudan mesedea, Jaungoikoaren gloriarik andienerako bada. Amen. Pasartea azaltzeko modu errazena da adorazotzen → adierazotzen aldaketa onartzea eta ceñetan adierazotzen zaizcun pasartearen erreferentea aurretik aipatutako hamabi bertuteak direla pentsatzea; alegia, 'hamabi izar haiek, zeinetan adierazten zaizkigun [hamabi bertuteak]' irakurtzea dirudi errazena, nahiz eta irakurketa ziurra ez izan. Aldazabalen testuaren ezaugarri nabarmenena txistukari frikarien eta afrikatuen bereizketa grafikoa da: § 3.2.1-en aurreratu legez, larramendiz geroztik bereizketa horri tinko eutsi zioten Hego euskal Herriko idazleen tradizioan kokatu behar da Aldazabal, nahiz eta tarteka afrikatua adierazten duen eta hemengo edizioan zuzendu egin den &lt;c&gt;-ren eta &lt;z&gt;-ren bat agertu. Halaber, gogoan hartzekoa da, bereizketa egin arren, Aldazabalek ez zituela larramendik proposatutako &lt;ts&gt; eta &lt;tz&gt; digrafoak sistematikoki erabili: afrikatu apikaria bai, &lt;ts&gt;-z eman zuen aldioro, baina &lt;tz&gt;-rekin batera &lt;tc&gt; ere badago; zehazki, 44 aldiz aurkitu dut &lt;tze&gt; eta 34 aldiz &lt;tce&gt;, eta 5 aldiz &lt;tzi&gt; eta 13 aldiz &lt;tci&gt;. Frikari/afrikatu banaketari loturik, Aldazabalen testuan arreta ematen du ozen ondoko txistukarietan egiten den bereizketa; izan ere, txistukari frikariak adierazten dituzten grafemak agertzen dira, oro har, ozenen ondotik: 14 eta 17 aldiz aurkitu ditut, hurrenez hurren, &lt;nc&gt; eta &lt;nz&gt;, hiruna aldiz &lt;rc&gt; eta &lt;rz&gt;, beste hiru aldiz &lt;ns&gt;, eta sei eta hiru aldiz &lt;lc&gt; eta &lt;lz&gt;. Aurrekoei kontrajartzen zaizkien adibideak oso bakanak dira: 7 aguertcen, 16 izcuntza, 21 esqueintcen, 30 esquintceco eta 31 es quintcen. Banaketa horrek arreta emateko arrazoia agerikoa da, oro har euskara Arkaikoari eta Zaharrari loturik aipatu izan baita (ikus Zuloaga 2020: § 5.1.5.1.2). idazlearen hautu «grafiko huts» ez bada (de la quadra bizkaitarraren testu ia garaikideak antzeko egoera islatzen du), ozen ondoko frikari-ebakeraren adibide berankorrak genituzke Aldazabalenak. Hotsak direla eta, zalantzarik gabe baiezta daiteke, garai eta inguru bertsuko testuen argitan, Aldazabalek tokiko hizkeran arrunt ziren ebakera eta erregela fonologikoak ostendu zituela. txistukarien neutralizazioa eta bokal-bilkuretako askotariko fenomenoak aipatu behar dira, gutxienez: ondo dokumentatuta daude gipuzkoako ipar-mendebalean aurreko mendeetatik, baina Aldazabalenean oso bakan agertzen dira. neutralizazioari dagokionez, apikariaren aldeko adibide bakarra (4 gustietan) eta lepokariaren aldeko bost (5 ezca eta 23 ezcatzen -baina 22 aldiz dago eska-, eta 2 eztitazunac, 12 edertazunez eta 13 edertazun) aurkitu ditut. Bokal-bilkuretako fenomenoak direla eta, azaleko Yciarcuaren formako o &gt; u / _V besterik ez dut aurkitu. Aldazabalen testuak ez du garai eta eremu hartarako espero ezin zitekeen ezaugarririk. denboran aurrerago, gipuzkoako testuetan ugariago ageri da -a itsatsiaren galera, baina Aldazabalenean adibide bakarra aurkitu dut, 32 historico, orrialde berean 32 historiaco aurka duena. mugatzaileei lotuta, aipagarria da 17 Jesusa jayo ezqueroko izen artikuluduna, oro har testu zaharragoetan ageri direlako era horretakoak; halere, lakarrak (1983: 61-62) adibide berankorragoak aurkitu zituen Bizkaiko xix. mendearen hasierako testuetan, bai eta xx. mendearen hasierako kantutegietan ere. erakusle eta izenordainetan aek zaharra (8 araco amabi aetan, 8 apaincen debeen aec, 28 Frutua logratua aen) eta oek (7 oec gatic, 8 oen ondoren, 10 oen acabuan, 25 oequin…) ageri dira, eta ez dago gipuzkoako mendebaleko zenbait hizkeratarako aura 'hura' aldaeraren alerik: 23 obra andi ura azaltzen da behin. Bestalde, 2. perhttps://doi.org/10.1387/asju.22418 tsona singularreko izenordain posesiboan zure &amp; zere daude: 32 aldiz aurkitu dut zure, eta 22 aldiz zere &amp; cere.</figDesc><table><row><cell></cell><cell>eneKo ZuloAgA SAn romÁn eneKo ZuloAgA SAn romÁn</cell></row><row><cell>4.3.2. Grafia eta hotsak</cell><cell>ama maitea eta abar &lt;28&gt;</cell></row><row><cell cols="2">1. Zu escogitu zinduan Jaungoicoac amatzat. Zori onean guretzat, diña arquitu cinduan; bestela, lotu guinduan luciferren becatuan. ama maitea, etab. 2. munduco peligroetan sarturic arquitzen dana etorten bada zu gana garbi &lt;27&gt; eta bear dan moduan, bestela ecin debana alcanzatzen deu orduan. ama maitea, etab. 3. ichasoco tormentetan zu zera argui izarra, 5. Frutua logratu arren, zembait arquitutzen dira alimentu faltaz billa ceñec aci al daiqueen. Zu, bada, oen guztien beti zaude socorruan. ama maitea, etab. 6. emacumeac erditcen eldutcen diran zorian, campoan eta errian, asco ditugu icusten ondo dirala libratzen zure izenaren costuan. ama maitea, etab. 7. erri-modu guztietan zu zera alivioa, argatic devocioa zatzu artu campoetan, osasunaren pozetan &lt;29&gt; etorzen zaizun moduan. ama maitea, etab. 8. moroen cate andiac urratu izan dituzu, baita libratu dituzu ascoren presoindeguiac; daude oen aguiriac 3 esan-mesanetatic] esna-mesanetatic || 5 gloriaric] gloriac || 5 dagoquidana] deao-aparatu kritikoa quidana 31 || 5 ceruetaco] 4.3.1. Pasarte ilunak oro har, Aldazabalen testuak ez du aparteko arazorik, nahiz eta ediziorako erabi-litako alean behintzat askotariko akatsak (hizkuntzari zein tipografiari lotuak) dau-den eta horrek halako axolagabekeria bat islatzen duen. Zuzenketa txikiez harago, 7.-8. orrialdeetako pasarte batek eragiten ditu irakurketa-zalantza handienak; izan ere, ageri diren elementu guztiak egoki identifikatzen eta ulertzen diren arren (tar-teka zuzenketak eginda), zail da jakiten 8. orrialdean ageri den ceñetan adierazotzen zaizcun zeri eta nola lotu behar zaion. ondoz ondo ematen ditut (a) jatorrizko pa-sartearen transkripzioa, (b) nire irakurketa-proposamena eta (c) gorostegik 1884an emandako bertsio eraldatua: grafiari dagokionez, 4.3.3. Izenaren morfologia zerori zauden lecuan. «onci guztiac amarra portuan eman artean» izenaren morfologiaren esparruan</cell></row><row><cell></cell><cell>escatzen dizutenean guizonac seme moduan. ama maitea, etab.</cell></row><row><cell cols="2">Omnia Submitto correctione Santae romanae ecclesiae</cell></row><row><cell></cell><cell>ama maitea, etab. 4. Asco ezconduc penatu  †</cell></row><row><cell cols="2">ez dacardelaco aurric, don Juan lorenzo de irigoyen Pamplonaco obispo jaun ilustrisimuari.</cell></row><row><cell cols="2">esperanza ere galduric Hitz guichitan, jauna, nai nituque nic eracutsi nere oblicacio &lt;30&gt; andiac, es-</cell></row><row><cell cols="2">izateco sucesioric, quintceco berorren señoria ilustrisimari nere ofrenda chiqui au, ceñaren ezer ezta-</cell></row><row><cell cols="2">zu gandican lograturic sunac berac ere escatcen dit billatcea jabe onen bat berau gordetceco. Zor andi ba-</cell></row><row><cell cols="2">gozatu debe frutua. tequin arquitzen da nere veneracioa berorren señoria ilustrisima ganaco, batez ere</cell></row><row><cell></cell><cell>ASJU, 2019, 53 (1-2), 361-445 ASJU, 2019, 53 (1-2), 361-445</cell></row></table><note>https://doi.org/10.1387/asju.22418https://doi.org/10.1387/asju.a</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>Aditz laguntzaileen esparruan, [aditzoin + *ezan] eta [partizipio + egin] perifrasi zaharren artean nahastea dago (ikus mounole 2007, 2018 [2014]); zehazki, [aditzoin + egin] eta [partizipio + *ezan] eredukoak ere aurki daitezke: edin laguntzaileaz den bezainbatean, 9. orrialdeko honako pasarte honetan izan zindean eta eguin zidin aditzak bi eratara interpreta daitezke: «atseguin andi bat daucat, nere ama gozoa, zu bacarric escogitu zindualaco jaunac doay onetaz, izan zindean bear zan becela trinidade Santissimoco bigarren personarenzat, zugan guizon eguin zidin apartatua eta, orregatic, Jaincoaren ama deitua» (Aldazabal 1790 [1768]: 9; letra etzana neurea da [eZ]).</figDesc><table><row><cell>eneKo ZuloAgA SAn romÁn</cell></row><row><cell>-[aditzoina + *ezan]: 5 zuzen ezazu, 8 alcanza ditzadan, 26 erregu ezazu</cell></row><row><cell>-[partizipioa + *ezan]: 2 arquitu cenzaqueana, 14 servitu zezaten, 18 arquitu de-</cell></row><row><cell>zan</cell></row><row><cell>-[partizipioa + egin]: 3 ez daguiozula, bada, arren, veguiratu, 20 eracutsi daguio-</cell></row><row><cell>zula</cell></row><row><cell>-[aditzoina + egin]: 5 alcanza eguidezu, 5 ezca eguiozu, 7 &amp; 18 alcanza deguida-</cell></row><row><cell>zula</cell></row><row><cell>Perifrasien banaketaz kanpo, euskal Herriko erdialdeko eta mendebaleko testue-</cell></row><row><cell>tan egin aditz laguntzaileari lotutako dag-(adizki bipertsonalak) vs. deg-(adizki hi-</cell></row><row><cell>rupertsonalak) bereizketa lehen euskara modernoan neutralizatu zen, dag-ereduko</cell></row><row><cell>adizkien alde. mendiburu, Añibarro, mogel eta Frai Bartolomeren adibideak aipatu</cell></row><row><cell>zituen urgellek (2018: 621), eta horiei gehitu behar zaizkie Aldazabalenak: 3 ez da-</cell></row><row><cell>guiozula, bada, arren, veguiratu eta 7 &amp; 18 alcanza deguidazula, baina 10 &amp; 15 &amp;</cell></row><row><cell>22 &amp; 23 eman daguidazula eta 20 eracutsi daguiozula.</cell></row><row><cell>ASJU, 2019, 53 (1-2), 361-445</cell></row></table><note>*</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head></head><label></label><figDesc>https://doi.org/10.1387/asju.22418 rela islatuz; cf. 21 ez cergatic inoiz ere izan zenduan loiric cer garbitu, baizic nai izan zendualaco legueaz cumplitu. eskui, gitxi eta hagitz, eta gipuzkoakoan ez ezik beste euskara batzuetan aurki daitezkeen aldaerak dira, bestalde, adierazo 'adierazi', arkitu 'aurkitu', epeñi 'ipini', eskini 'eskaini', libru 'liburu' (eta librugile) eta zerren 'zeren'. oro har, Aldazabalek sistematikotasunez erabili zituen aldaerok, baina tarteka polimorfismoa ere ageri da: cf. amodio &amp; amorio eta bage &amp; gabe. Are argiagoak dira Aldazabalek erabilitako jakiunde, hizkunde, lehendabizian eta ongin: lauren lehenengo agerrerak dira Hiztegi hirukoitzekoak, eta orduz geroztik ez dute tradizioan sendo edo ugari txertatzea lortu. Presoindegi aldaera dela eta, OeHren arabera leizarragak bazerabilen, baina Hego euskal Herrian larramendiri loturik ageri da.</figDesc><table><row><cell>4.3.6. Lexikoa 32 lexikoaz den bezainbatean, Aldazabalen bederatziurrenak dakartzan hitz eta al-daera batzuk interesgarriak dira bai dialektologiaren, bai hizkuntzaren historiaren ikuspegitik. Hori dela eta, testuaren edizioa eman ondotik beronen hiztegi osoa ematen bada ere, zenbait hitzen eta aldaeraren gaineko azalpenak argigarri izan dai-tezke. Podore aldaera gipuzkoako testu gutxi batzuetan agertzen da (ubillos eta otaegi) eta gehiena 'nagusia' lotuago dago ipar euskal Herriko tradizioarekin: OeHn lardi-zabal bakarrik aipatzen da berau baliatu zuten Hego euskal Herriko idazleen artean (s.v. gehien). Tenpora aldaera, bestalde, ez da arrunta euskal Herriko erdi-mende-balean: landucciren hiztegian eta nafarroako Pirinioetako ibarretan besterik ez da agertzen. gipuzkoa osoan edo probintziako eremu jakin batzuetan baliatzen diren aldaera eta hitzak dira Aurreko orrialdeetako azalpenek argiro bermatzen dute Aldazabal garaiko gipuz-koar idazle handienen itzalpean aritu zela, batzuetan hertsiago eta bestetzuetan as-katasun handiagoa hartuz: larramendi eta Kardaberatz hainbatetan aipatu zituen 1767~1769ko liburuan eta, ondotik argitaratutako bederatziurrenean euskal idaz-lerik aipatzen ez badu ere, argia da larramendiren eragina:  § 4.3.2-n aipatutako hautu grafikoetan ez ezik, lexikoan ere behin baino gehiagotan islatzen da andoain-darraren eragina; funtsean, zenbait berba Hiztegi hirukoitzetik hartuak direla dirudi, lan horretan edo lan horrez geroztikoetan bakarrik agertzen baitira euskal testuen tradizioan. OeHn biltzen diren datuen arabera, Aldazabalek emandako bai 'baimen' nafa-rroa Beherean erabiltzen da, eta Hego euskal Herrian larramendirenean eta harez 4.4. Hiztegia 33 A adierazo ad. adierazoco 32 adierazotzen 8 adio interj. adio 3 adiskide iz. adisquidea 2 geroztiko hiztegigintzan. eneKo ZuloAgA SAn romÁn andi adj.</cell></row><row><cell>33 Parentesi arteko zenbakiak orrialde berean agertzen diren adibideen kopurua adierazten du.</cell></row><row><cell>ASJU, 2019, 53 (1-2), 361-445</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_17"><head></head><label></label><figDesc>Arestiko aldaketez harago, grafiari eta hizkuntzari dagozkionak ere agerikoak dira: lerroz lerro ugari dira gorostegik aldatutako grafema, morfema, adizki, egitura eta hitzak. Hain zuzen, aldaketa horiek astiro aztertuz gero, erraz ikusten da grafiaren esparruan gorostegik Aldazabalen testua eguneratzeko gogoan ibilitako irizpide nagusiak bat datozela José manterolak ipar euskal Herriko joeretan oinarrituta euskal erria aldizkarirako ezarritakoekin(ikus camino 2018: 716). gorostegik eginiko aldaketa grafikoen artean daude &lt;c&gt; eta &lt;qu&gt; → &lt;k&gt;, 35 &lt;v&gt; → &lt;b&gt;, &lt;gue&gt; eta &lt;gui&gt; → &lt;ge&gt; eta &lt;gi&gt;, eta &lt;mb&gt; eta &lt;mp&gt; → &lt;nb&gt; eta &lt;np&gt; bihurtzea, sistematikoki. Hona hemen lauren adibideak: -&lt;c&gt; eta &lt;qu&gt; → &lt;k&gt;: 3 vezperatic → 129 bezperatik, 36 4 consueloa → 129 konsueloa, 4 Belaunico → 129 Belauniko, 4 jarriric → 129 jarririk, 4 acto → 129 akto, 4 asi eraraco → 129 asierarako, 5 dagoquidana → 129 dagokidana, 6 chiquiena → 130 chikiena, 7 isilic → isilik, 17 ezquero → 132 ezkero… -&lt;v&gt; → &lt;b&gt;: 3 vezperatic → 129 bezperatik, 5 vada → 129 bada, 5 provechuraco → 129 probechurako, 7 virtute → 130 birtute, 9 lendavicico → 130 lendabiziko, 10 garvitasuna → 130 garbitasuna, 13 vizi eta → 131 bizita, 18 viraldu → 132 bialdu, 19 savelean → 133 sabelean, 21 gave → 133 gabe… -&lt;gue&gt;, &lt;gui&gt; → &lt;ge&gt;, &lt;gi&gt;: 4 eguingo → 129 egingo, 4 aingueruen → 129 aingeruen, 5 gueyen → 129 geyen, 7 baguearequin → bagearekin, 7 geiagoarequin → 130 geyagorekin; 9 guizonen → gizonen, 11 eguinic → 131 egiñik, 14 guero → 132 gero, 20 daguiozula → 133 degiozula… -&lt;mb&gt; eta &lt;mp&gt; → &lt;nb&gt; eta &lt;np&gt;: 7 aimbeste → 130 ainbeste, 7 empeñatzen → 130 enpeñatzen, 8 tempora → 130 denpora, 15 cumplitzeco → 132 kunplitzeko, 21 cumplituric → 133 kunpliturik, 21 cumplitzeagatic → 133 kunplitzeagatik, 22 cumplitzeco → 134 kunplitzeko. Horiez landara, Aldazabalek hitz hasieran eta amaieran emandako &lt;y&gt;-ak &lt;i&gt; bihurtu zituen gorostegik; zehazki, hitz hasierako guztiak eta hitz amaierako gehienak: 130 &amp; 131 doay da salbuespen. Hala ere, Aldazabalek erabilitako eta gorostegik mantendutako hautu grafikoen artean dago bokalarteko &lt;y&gt; kontsonantikoa; areago, Aldazabalek baliatu ez zuen kasuren batera ere zabaldu zuen gorostegik: 3 zayo = 129 zayo, 5 gueyen → 129 geyen, 6 jaiotzan → 130 jayotzan, 7 gueiagoarequin → 130 geyagorekin, 7(2) gueyena → 130 geyena, 8 zayona = 130 zayona, 13 jayotza = 131 jayotza, 13 loyan = 131 loyan, 17 jayo = 132 jayo, 25 escuyan → 134 eskuyaldean eta abar. txistukariei eta berauen adierazpenari dagokienez, frikari/afrikatu bereizketari eutsi zion gorostegik; zehazki, &lt;tz&gt; eta &lt;ts&gt; digrafoen erabilera sistematizatu zuen, Aldazabalenean inoiz afrikatu lepokaria adierazten zuten &lt;z&gt; bakanak eta &lt;tc&gt;-ak &lt;tz&gt; bihurtuz: 13 jayoza → 131 jayotza, 21 jayozatic → 133 jayotzatic, 23 semezat → 134 semetzat, 23 mendecozat → 134 mendekotzat; 4 bederatci urren → 129 bederatziurren, 7 vicitcea → 130 bizitzea, 4 seguitcen → 129 segitzen, 4 Gurutce → 129 Gurutze eta abar. eneKo ZuloAgA SAn romÁn ASJU, 2019, 53 (1-2), 361-445 cio → 123 presentatze) eta eta juntagailuaren gramatikalizazio bestela ere argia erakusten duen 13 vizi eta → 131 bizita aldaketa.</figDesc><table><row><cell>erregu iz. ez adb. gehien hala adb. libru iz. 'liburu' 5.2. Grafia eta hotsak n</cell><cell>egunero adb. esposatu ad. falta iz. grazia iz. hiru zenbtz. makurtu ad. ona 6, 25</cell></row><row><cell>erregu 26 erregutu ad. erregutcea 33 errezatu ad. errezatuco 8 errezibitu ad. errecibitu 3 errecibitzen 18 errukitu ad. erruquitzen 23 esan ad. esan 8 esango 4(2), 10, 12 esaten 10(2), 33 esangin adj. esanguina 21 esanguiña 20 esan-mesan iz. esan-mesanetatic 3 eskatu ad. escatcen 5, 7, 8(2), 9, 10, 13, 18, 19, 20, 24, 25, 30 escatzen 13, 15(2), 17(2), 20, 22(2), 27 ezca 5 ezcatcen 23 eskeini ad. → eskini esqueintcen 21 eskini ad. → eskeini esquintceco 30 esquintcen 31 eskogitu 1 ad. escogitu 9, 26 escogituric 6 escogitua 14, 15 eskribitu ad. escribitu 32 eskui iz. escuyan 25 esperantza iz. ez 3(2), 13, 21, 23, 27, 31(2), 33(2) ezpaleu 2 ezpanindu 31 eztet 32 ezaguntasun iz. ezaguntasuna 30 ezagutu ad. ezagutua 8 *ezan ad. lag. cenzaqueana 2 dezan 18 ditzadan 8 ezazu 5, 26 nazazula 23 ninzaque 31 veza 32 zezaten 14 ezer izord. ezer 30, 33 ezin ad. ecin 27 ezin 7 ezkero postpos. ezquero 8, 17, 21, 32 ezkondu ad. ezconduc 27 ezpada junt. ezpada 3 ezpaere lok. ezpaere 5 eztasun iz. 'falta, gabezia' eztasunac 30 eztitazun iz. eztitazunac 2 eztitsu adj. eztitsua 5 F 1 adb. gueyen 5 2 adj. 'nagusi' gueyena 7(2) gelditu ad. guelditu 3, 6 guelditzen 21 gero adb. guero 8, 12, 14 gitxi zenbtz. guichitan 29 gizon iz. guizon 9, 18 guizonac 12, 27 guizonen 5, 9, 12, 14, 16, 17, 19, 21, 23, 24 gloria iz. gloria 25 gloriaco 16, 25(2) gloriaric 5, 8, 10, 13, 15, 17, 19, 20, 22, 24, 25 gloriaz 6, 12, 24, 25 glorioso adj. gloriosoa 24 gloriosoaz 25 goi-aingeru iz. goy-ainguerua 18 gorde ad. gordeco 3 gordetceco 30 gordetzeco 22 gorputz iz. gorputzeco 10 gorputz 25(2) gozatu ad. gozatu 27 gozo 1 adj. gozo 2, 5, 15, 18 ala 32(2) hamabi zenbtz. amabi 7, 8 han adb. an 12 harako adj. araco 7, 8 hargatik lok. argatic 28 hartu ad. ar 32 artu 23, 28 artuco 32 artutzen 23 hasiera asiera 4 asi eraraco 4 hau erak. au 4, 5, 8, 30, 31, 32 onec 4 onegatic 15, 18 onen 2, 3, 4(2), 12, 19, 31, 32 onetan 2, 4(2), 5, 8(2), 10, 13, 14, 15(2), 17, 19, 20(2), 22(2), 24, 25, 33 onetaraco 6 onetaz 9 onequin 3 hau da ant. au da 3 haur iz. aurric 27 hazi ad. aci 28 hegaka adb. egaca 24 heldu ad. eldutcen 28 hemen adb. emen 3 libru 32, 33 libruac 32 librucho 2, 3, 32 librugile iz. 'liburugile' libruguille 1 limosnatxo iz. limosnachoren 4 logratu ad. logratu 28 lograturic 27 lohi 1 iz. loiric 21 loyan 13 loyaren 21 2 adj. loi 9 lorenzo iz. prop. lorenzo 29 lotsa iz. lotsa 31 lotu ad. lotu 26 lur iz. lurra 12 lurrean 17 lurreco 5 lurrera 24 luzatu ad. luzatzen 33 luzifer iz. prop. luciferren 26 m maiatz iz. maiatzaren 33 maite adj. nahi iz. --nahi *edun nai izan zenduana 5 nai izan zendualaco 21 nere izord. nere 2, 3, 5(4), 6, 7, 9, 10, 13, 15(2), 17, 18(2), 20, 22, 25, 29, 30(4), 31(2) ni izord. ni 31 nic 3, 5, 6, 9, 17, 29, 31 nobleza iz. nobleza 33 non gald. non 6, 25 --non eta non da 16 O o interj. o 5, 15, 16, 18, 19, 21, 23, 25 obediente adj. obedientea 6, 21(2) obedienzia iz. obediencia 20 obedienciaco 20 obedienziaco 22 obispo iz. obispo 29, 33 obligazio iz. oblicacio 29, 31 obligacioac 15, 22 obra iz. obra 4, 23 ofrenda iz. ofrenda 30 oin iz. oin 6 oñean 23</cell><cell>egunero 4(2), 10 eguneroco 4, 10 egunsenti iz. egunsenti 12 eguzki iz. eguzqui 13 eguzquia 12 ekarri ad. dacardelaco 27 ecarri 12 ekin ad. equiten 7 emakume iz. emacumeac 28 eman ad. eman 10, 15, 22, 23, 27 emango 3 ematen 7 enbajada iz. embajada 18(2) enpeñatu ad. empeñatzen 7 entendimentu iz. entendimentua 17 epeñi ad. 'ipini' epeñi 5 erakutsi ad. eracusten 8, 14 eracutsi 20(2), 22, 29, 31 eraman ad. daraman 32 erditu ad. erditcen 28 ere adb. ere 3, 13, 21, 22, 23, 24, 25, 27, 30 eriotza iz. eriotza 8, 24(2), 25 eriotzaco 25 eriotzan 13 erori ad. esposatua 16 esposo iz. esposo 16 esposorio iz. esposorio 17 esposorioan 6, 16 estadu iz. estaduco 15, 22 estimatu ad. estimatuaz 25 eszelentzia iz. egcelencien 33 eta junt. da 16 eta 1, 2, 3(2), 4(2), 5(7), 6, 7, 8(4), 9(2), 10(6), 12(7), 13(6), 14, 15(4), 16(5), 17(5), 18, 19(4), 20(6), 21(4), 22(3), 23(7), 24(3), 25(4), 27, 28, 30(3), 31(2), 32(4), 33(6) ta 4, 7, 25 eta abar lok. eta abar 27 etab. 26, 27(2), 28(2), 29(2) eternidade iz. eternidade 25 eterno adj. eternoa 18 etorrera iz. etorrera 13 etorreran 14 etorri ad. etorten 26 etorzen 29 etsai iz. etsayac 32 etxe iz. eche 14 echean 19 etzan ad. faltaz 28 familia iz. familia 16 Fermin iz. prop. Fermin 1 fingabe adj. fingabearequin 7 frutu iz. frutu 21 frutua 27, 28 g gabe postpos. → bage gave 9, 21 gabriel iz. prop. gabriel 18 gain iz. gañean 33 gainerontze lok. gañeroncean 14 galdu ad. galduric 27 garagaril iz. garagarillaren 3 garai adj. garaya 30 garbi adj. garbi 6, 9, 17, 18, 21, 26 garbia 16(3) garbia gatic 10 garbiarequin 16 garbitasun iz. garvitasuna 10 garbitu ad. garbitu 21 garren ord. garren 1, 33 gauza iz. gauzac 33 gracia 5, 7, 15, 17, 22, 23 graciaco 14 gracian 7 graciaraco 13 graciaren 9, 16 graciaz 18(2), 19 graciazco 13 gracietan 7 graziaz 6, 17 gu izord. gu gatic 26 gure 5(2) guretzat 26 gurutze iz. gurutce 4 gurutze 10 gurutzearen 23 gustatu ad. gustatuco 31 gusto iz. gustocoa 3 guzti zenbtz. gustietan 4 guztia 7 guztiac 18, 25, 27 guztiai 7, 14 guztian 3 guztiaren 32 guztien 28 guztietan 28 guztiezaz 13 guztioquin 25 guztiz 5, 6, 16, 20(2), 21 h haek erak. aec 8 aetan 7 hagiz adb. iru 8, 14, 25 hirugarren ord. irugarren 14, 24 historia iz. historico 32 historiaco 32 hitz iz. hitz 29 hizkunde iz. 'hizkuntza' izcunde 3 hizkuntza ad. izcuntza 16 hoek 1 erak. oec 10, 15, 22 oec gatic 7, 8, 17 oen 25 oequin 25 2 izord. oec 20 oen 8, 10, 20, 28, 29 honela adb. onela 18 onelaco 33 honra iz. honra 10, 13, 15, 17, 19, 20, 22, 24, 25 honraraco 5(2) hor adb. or 30(3) horiek erak. orien 23 oriezaz 13, 23 orretan 30 horregatik adb. orregatic 9, 13, 23, 32 horrela adb. horrela 32 huarte iz. prop. Huarte 1 humano adj. macurturic 6 maria iz. prop. maria 5, 8 memoria iz. memoria 17 mende adb. mendean 25, 32(2) mendeco 32 mendecotzat 23 mendetic 23 mendi iz. mendietara 19 merezi ad. → merezitu --merezi *edun mereci 15, 20 merezitu ad. → merezi onagatic 33 onean 26 oneco 13, 18 onen 4, 5, 30 onenaren 2 2 iz. oneraco 5 ondo adb. ondo 28, 32 ondoren postpos. ondoren 4(2), 8, 12 ongin adj. onguiña 31 onzi iz. onci 27 orain adb. orain 10, 30 merecitu 30 orazio iz. mesede iz. mesedea 10, 13, 15, 17, 19, 20, 22, 24, oracio 4, 8, 10(2) oracioa 4, 5, 8, 9, 12(2), 14, 16, 17, 25 19, 20, 22, 24 min iz. orduan adb. min 23 orduan 27 mingain iz. osasun iz. mingaña 3 osasunaren 28 miragarri adj. ostatu iz. miragarri 32 ostatu 18 mirari iz. mirariac gatic 15 misterio iz. P misterio 7, 22 Pamplona iz. prop. modu iz. Pamplonaco 29, 33 modu 4, 8, 28 parebage adj. moduan 27(2), 29 parebague 15 moduren 16, 18 pasio iz. moro iz. pasioan 6 moroen 29 Pedro iz. prop. mundu iz. Pedro 1, 33 mundu 3 pekatu iz. munduan 6, 8, 26 pecatuaren 13</cell></row><row><cell>esperanza 27 fabore iz. gozoa 7, 9 hemezortzi zenbtz. maite 3 oker adj.</cell><cell>erori 13 dautzan 10 gazte adj. aguiz 30 humanoa 17 munduaren 23 peligro iz.</cell></row><row><cell>espiritual adj. favorea 8 gozoaz 25 emezorzi 30 maitea 26(2), 27(3), 28(2), 29(2) oquer 2</cell><cell>erregina iz. exemplo iz. gaztearequin 14 hain adb. humildade iz. munduco 26 peligroetan 26</cell></row><row><cell>espiritualac 30 favoreac 3 gozo gandic 16 herri iz. maiteac 18 on</cell><cell>erreguina 4, 5, 9, 12, 14, 16, 17, 19, exemplotzat 14 gehiago zenbtz. ain 13, 16, 31 humildade 20 mundura 12 pena iz.</cell></row><row><cell>Espiritu santu iz. prop. faborezitu adj. 2 iz. erri 6, 28 maitearen 8 1 adj.</cell><cell>21, 23, 24, 31 exerzizio iz. gueiagoarequin 7 hainbeste zenbtz. humildadeari 33 murgia iz. prop. pena 23</cell></row><row><cell>espiritu Santua 7 favorecituena 32 gozoac 10, 26 errian 28 maiteari 8 on 8</cell><cell>erreguina gana 31 exercicio 30 gueyago 33 aimbeste 7, 31 humildadeco 20 murguia 1, 33 penaz 23</cell></row><row><cell>https://doi.org/10.1387/asju.22418</cell><cell></cell></row></table><note>https://doi.org/10.1387/asju.22418https://doi.org/10.1387/asju.22418https://doi.org/10.1387/asju.22418</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_18"><head></head><label></label><figDesc>10 Gozoac → 130 Gozo-kantak, 16 beguitanzen → 132 iduritzen, 18 baiaren → 132 baimenaren, 23 orregatic ere → 134 ala ere eta 21 zergatic → 133 zerren. ordezkatutako aldaerak dira, bestalde, 4 eguneroco → 129 egunoroko, 12 lenengo → 131 lelengo, 17 eduquitzeco → 132 idukitzeko, 18 guztiac → 132 guziak, 18 viraldu → 132 bialdu, 21 esqueintcen → 133 eskintzen, 24 amoriozco → 134 amorezko eta 25 ta → 134 eta. gorostegik ikuspegi garbizaleari jarraituz eginiko aldaketak are ugariagoak dira, ondoko zerrendak erakusten duenez: 5 provechuraco → 129 oneraco, 6 escogituric → 130 auturik, 6 humildea → 130 umilla, 6 casta → 130 garbia, 6 diligentea → 130 arretazkoa, 6 asumpcioan → 130 zeruratzean, 7 privilegioz → 130 mesederekiñ, 7 Trinidade Santissimoac → 130 Irutasun chit santuak, 7 podore → 130 indar, 7 fingabearequin → 130 azkenbagearekin, 7 santidade → 130 santutasun, 7 favorea → 130 mesedea, 9 apartatua → 130 berezia, 10 acabuan → 130 akaberan, 13 divinoac → 131 Jaungoikozkoak, 14 Temploetan → 132 elizetan, 15 estaduco → 132 bizimoduco, 16 aumentua → 132 geitzea, 16 zure esposorioan → 132 zure alkargatzetik, 17 Bienaventuratuac → 132 doatsuak, 18 Trinidade → 132 Irutasun, 17 esposorio → 132 esposatza, 17 memoria → 132 oroimen, 17 entendimentua → 132 adimentu, 18(2) embajada → 132(2) bialkinde, 18 alcanza → 133 irichi, 18 errecibitzen → 133 escatzen, 21 presentatu → 133 agertu, 21 savel virginaleco → 133 Birjiñ https://doi.org/10.1387/asju.22418 sabeleko, 22 comunicatu → 133 eman, 23 redencioco → 134 erospen edo redenzioko, 24 aingueru ascoren compañian → 134 aingeru askorekin batean, 25 bienaventuratu → 134 zorioneko, 24 aingueruen eta serafinen compañian → 134 aingeru eta serafiñakin batean, 25 eternidade → 134 betikotasun, 25 coroacio estimatuaz → 134 koroatze goiorretzaz, 25 iru zori dichoso oen → 134 iru zorion oen eta abar.</figDesc><table /><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">interneten irakur daitezke: https://www.redcharta.es/criterios-de-edicion/ [azken kontsultaren data: 2020/10/23].3 Badirudi Aldazabal eta murgia leinuek xvii. mendearen amaieran egin zutela bat: «[murgia] también enlazó con los Aldazábal a finales del siglo xvii, formando el linaje de Aldazábal-murguía, por el matrimonio de doña maría Antonia de Arriola y murguía, natural de iciar, con don José de Aldazábal, natural de Azcoitia»(Atienza 1958: 626-627).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">eneKo ZuloAgA SAn romÁn ASJU, 2019, 53 (1-2), 361-445</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">donostiako elizbarrutiko Artxibo Historikoan ikus daiteke bataio-agiria (signatura: 3278/002-01, 71r). informazioa interneten kontsulta daiteke: https://artxiboa.mendezmende.org/eu/ [azken kontsultaren data: 2020/10/26]. 5 Heriotza-agiria ere donostiako elizbarrutiko Artxibo historikoan dago (signatura: 1826/001-04, 333v). informazioa interneten kontsulta daiteke: https://artxiboa.mendezmende.org/eu/ [azken kontsultaren data: 2020/10/26].</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="18">Torrenteroan torrea dago / arri labradus cercatua, / Portu guichian Santa clara / Yturria eta gaztelua. 19 tamalez, ondarrak eta unzuetak (1997) ez zuten sorta hau aipatu, hala Aldazabalen lanari nola aurreko orrialdeko Arakistainen sortari buruzko hainbat zehaztapen eman arren. 20 Kasu honetan leloa lehenengo ahapaldiaren azpian agertzen da, «estrivillo» izenburupean eta letra etzanez.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="21">Aldazabalen usus scribendiari eta edizio-irizpideei jarraikiz, edizioan zuzendu egin da. 22 euskadiko Artxibo Historikoan gordetzen dira eta kontsulta zuzenean egin daiteke egun: https:// dokuklik.euskadi.eus/badator/search [azken kontsultaren data: 2020/09/15].</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="23">Jokamolde hori ezaguna da xviii. mendeko bertako euskal tradizioan. gogoratzekoa da zenbait hamarkada lehenago d. l. urkizu durangarrak ez zuela bere Liburu virgina santissimien errosario santuena (1737) liburua izen-abizenez izenpetu: Durangoco urico deboto batec formula baliatu zuen. 24 Arakistainen laukoetan &lt;ss&gt;-k [ʃ] sabaikaria adierazten duela dirudi: 4-1 Issil bite.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="25">Aldazabalen lanean (1767~1769: 72) lehenengo ahapaldiaren ondotik dator errepika.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="26">Bneko funtsetan gordetzen den alea erabili dut.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="27">lana Fonds regional : aquitaine funtsean gordetzen da, Département Littérature et art delakoan, Z BASque-101 signaturarekin. Helbide honetan ikus daiteke: https://gallica.bnf.fr/ark:/12148/ bpt6k886872v.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="28"> guerrak (1924: 188-193)  kopla-sorta hori bildu zuen, gaztelaniara eginiko itzulpenaz lagundurik. 29 gogoratu behar da gorostegi izan zela 1884an Aldazabalen 1767~1769ko gaztelaniazko liburua euskarara itzuli zutenetako bat; hain zuzen, euskal erria aldizkarian aurki daitezke itzulpen horren pasarteak. Bestalde, aldizkari berorren 1884ko Xi. liburukian itziarri eta itziarko Ama Birjinari buruzko hainbat testu aurki daitezke, hala nola bertan antolatutako literatur sariketa batera aurkeztutakoak.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="30">Beste aukera bat izan liteke obedienzia zuzentzea, -ko kenduta.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="31">testuan arestian adierazitako aldaketa egin badut ere, Borja Ariztimuñoren (komunikazio pertsonala) oharrari jarraikiz, ez litzateke erabat baztertu behar deaoquidana irakurketa zuzena izatea, Aldazabalek diao-ren ordez deao-eman izan balu, hiperzuzenketaz.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="32">Atal honetara bildutako hitzen historiari buruzko argibideak Orotariko euskal hiztegitik (mitxelena &amp; Sarasola 1987-2005) eta euskal hiztegi historiko-etimologikotik (lakarra, manterola &amp; Segurola 2019) atereak dira.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">https://doi.org/10.1387/asju.22418</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="35">Karidade hitzean, baita &lt;ch&gt; → &lt;k&gt; ere: 20 charidadeco → 133 karidadeko. 36 Adibideak x → y eskemari jarraituz ematean, lehenengo orrialde-zenbakia Aldazabalen lanari dagokio, eta bigarrena gorostegiren bertsioari.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Hurrengo azpiataletan zehatzago aipatzen dira gorostegik hizkuntza-maila bakoitzean eginiko aldaketa nagusiak; baina, halakoei heldu aurretik, 1. taulan jaso dut ez hizkuntza-ezaugarriei baina edukiari dagozkion aldaketa nagusien berri: adibideak irakurriz ikusten denez, Aldazabalen idazkera traketsa, iluna edo zehazgabea iruditu zitzaionean, gorostegik arrunt eraldatu zituen pasarteak, batzuetan esaldiak goitik behera berridatziz eta beste batzuetan osagaiak gehituz edo ezabatuz. 34 34 Zenbait esaldi eta pasarte eraldatzeaz gain, Aldazabalen testuan ikusitako hainbat akats zuzendu zituen gorostegik; baina, berriak ere gehitu zizkion testuari bere bertsioa ematean: 129 alkanta 'alkanza', 129 egindazu, 130 Jaungoikoarekin ama 'Jaungoikoaren ama', 31 janzintzeko, 131 arkintzen 'aurkitzen', 133 Jaungoikooren 'Jaungoikoaren' eta abar. zere izord. → zeure cere 6(4), <ref type="bibr">9,</ref><ref type="bibr">13,</ref><ref type="bibr">14,</ref><ref type="bibr">18,</ref><ref type="bibr">19,</ref><ref type="bibr">21,</ref><ref type="bibr">23</ref> <ref type="formula">(2)</ref>  <ref type="bibr">zu 7, 8, 9, 15, 18, 26, 27, 28</ref>(2) zugan 9 zu gana 26 zu gandican 27 zuri 8 zure 2, 3, 5(2), 6(3), 7(2), 8, 9, 10, 13(4), 14, 16 <ref type="formula">(2)</ref> Antón ugarte muñoz, luis michelena (koldo mitxelena) y la creación del seminario de filología vasca «julio <ref type="bibr">de urquijo» (1947-1956)</ref> / Luis Michelena <ref type="bibr">(Koldo Mitxelena)</ref> and the founding of the «Julio de Urquijo» Basque Philology <ref type="bibr">Seminar (1947</ref><ref type="bibr">Seminar ( -1956</ref> </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.22418</idno>
+		<ptr target="https://doi.org/10.1387/asju.22418" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">ZuloAgA SAn romÁn ASJU</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="361" to="445" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">3 lenda vicico → 129 lendabiziko, 4 lendabician → 129 lendabizian, 4 oracio → 129 orazio, 4 oracioa → 129 orazioa, 4 contriciocoa → 129 kontriziokoa, 4 &amp; 5 ceruetaco → 129-130 zeruetako eta abar. ozen ondoko txistukariak adierazteko, Aldazabalek frikarien grafemak baliatu zituen oro har ozen ondotik. gorostegiren bertsioan, &lt;nz&gt; da arrunten (130 anunziazioan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aldazabalen</forename><surname>Frikarietan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>&amp;lt;c E, I &amp;gt;-Ak → &amp;lt;z E, I &amp;gt; Bihurtuak Dira Gorostegirenean</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+		</imprint>
+	</monogr>
+	<note>130 konzepzio, 131 janzintzeko, 131 janzi</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">&lt;l&gt; eta &lt;r&gt; ondotik, bestalde, &lt;tz&gt; besterik ez dut aurkitu: 131 dabiltzanai; 130 sortze, 133 artzen, 134 biurtzen. txistukarien adierazpenari loturik, Aldazabalenean ustez lepokari eta apikari frikarien arteko neutralizazioa islatzen duten adibide guztiak zuzendurik agertzen dira gorostegiren testuan: 4 gustietan → 129 guztietan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gañeronzean</surname></persName>
+		</author>
+		<ptr target="ez-catcen→134eskatzen./ʃ/eta/tʃ/sabaiaurrekoakdirelaeta" />
+	</analytic>
+	<monogr>
+		<title level="m">134 redenzioko), nahiz eta &lt;ntz&gt;-rik ere badagoen (130 apaintzen, 131 arimarentzat, 132 izkuntza, 133 eskintzen, 133 agintzen)</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="page">14</biblScope>
+		</imprint>
+	</monogr>
+	<note>) chit, 132 aurchoa, 132 &amp; 133(2) irichi, 133 echean. Azken horretan bat egin zuen Aldazabalekin, baina ez lehenengoan, &lt;s&gt; soila emana baitzuen Aldazabalek: 8 isilic. txistukariez harago, Aldazabalek &lt;ñ&gt;-ren bidez eman zituen. hainbat sudurkari palatalizatu (3 mingaña, 5 epeñi, 6 ziñana, 7 &amp; 8 ceñetan, 8 ziñan, 13 ceñaquin</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">21 baño…), nahiz eta ez sistematikoki, &lt;in&gt; ere ugari agertzen baita. Bada, gorostegirenean &lt;ñ&gt; orokortzeko joera ikusten da, Aldazabalek &lt;in&gt;-z emandakoak &lt;(i)ñ&gt;-z eman baitzituen gorostegik: 4 erreguina → 129 erregiña, 6 oin → 130 oñ, 7 viotzarequin → 130 biotzarekiñ, 10 Orain → 131 Orañ, 13 ain → 131 añ, 18 Goy-ainguerua → 132 Goy-añgerua…. Arestiko guztiez landara aldaketa txikiren bat besterik ezin da aipatu, hala nola gorostegik Aldazabalen testuan ez zegoen &lt;ee&gt;-ren bat txertatu izana (16 virtuten → 132 birtuteen) eta Aldazabalek &lt;b&gt;</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gañeroncean</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+		</imprint>
+	</monogr>
+	<note>z emandako 4 diraben &apos;dirauen&apos; adizkia 129 dirauen bihurtu izana</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">ezaugarri linguistikoei dagokienez, -a itsatsiaren galera aurreratuago ageri da gorostegirenean: Aldazabalen liburuan adibide bakarra zegoen (32 historico libruac), baina gorostegirenean zenbait hitzetara hedaturik agertzen da: 5 gracia au → 129 grazi au, 16 familia bat → 132 famili bat, 22 gracia andi oec → 133 grazi andi oek. determinatzaileei eta kasu-markei dagozkien aldaketak ere aurki daitezke, nahiz eta oro har larriak ez izan. Alde batetik, Jesus izen propioari mugatzailea kendu zion gorostegik (17 Jesusa → 132 Jesus), bat zenbatzailearen ordez artikulu mugatua ezarri zuen behin (18 batequin → 132 arekin) eta gradua aldatu zuen 19 bien → 133 bion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Morfologia-Gaiak Izenaren Morfologiaren Esparruan Ez Dago Berebiziko Aldaketarik Aldazabalen Eta Gorostegiren Testuen Artean</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>14 onetan → 132 artan eta 15 onegatic → 132 argatik pasarteetan</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.22418</idno>
+		<ptr target="https://doi.org/10.1387/asju.22418" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Aditzaren esparruan aldaketa gehiago egin zituen gorostegik. *edunen adizkietan Aldazabalek 3. pertsonan arrunt erabilitako -eu-&amp; -ebV-zaharren partez -u-ereduko adizkiak eman zituen gorostegik: 4 eguingo debe → 129 egingo due, 4 esango debe → 129 esango due, 4 eguingo debe → 129 egingo due, 8 nai debanean → 130 nai duanean, 16 alcanzatu izan ceban → 132 irichi izan zuan, 18-19 errecibitzen debanean → 133 artzen duanean, 23 eguin zebanean → 134 eguin zuanean. Bestalde, aditz zaharren ordez molde berriagokoak agertzen dira bi adibideotan: 14 eracusten ceniela → 132 eracusten ziezula eta 12 ecarri ziguna → 131 ekarri ziguzuna. egin laguntzaileaz den bezainbatean, dagi-vs. degi-bereizketaren neutralizazioa islatzen du Aldazabalen testuak; gorostegik, nahiz eta erabateko sistematikotasuna lortu ez, arau zaharrarekin bat etorriz degi-ren aldeko hautua egin zuen hirupertsonaletan, eta horren arabera moldatu zituen Aldazabalen adizkiak: 15 eman daguidazula → 132 eman degidazula, 18 alcanza daguidazula → 133 irichi degidazula, 20 eracutsi daguiozula → 133 erakutsi degiozula, 22 eman daguidazula → 133 eman degidazula, 23 eman daguidazula → 132 eman degidazula</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Beste Alde Batetik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Loturik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">zaz baztertu zuen behin (13 oriezaz guziezaz → 131 oriez guziaz), -koren ordez -rako eman zuen destinatiboan beste behin (17 eguneco → 132 eguneraco)</title>
+		<imprint/>
+	</monogr>
+	<note>partitiboaren marka kendu zion sintagma bati (24 gloriaric andieneraco → 134 gloria andienerako), soziatiboa hobetsi zuen 9 onetaz → 130 onekiñ adibidean, genitibo pluraleko -en bikoiztua saihestu zuen 21 aingueruen eta guizonen → 133 aingueru eta gizonen koordinazioan eta inesibo pluraleko -etan gehitu zion beste honi: 18 doai cabu baguea → 133 doaietan kabu gabea. Arestikoez landara, bigarren pertsonako erakuslearen zure forma neutroaren alde egin zuen inoiz (6 &amp; 12 zere → 130 &amp; 131 zure), eta 19 ama eta semea koordinazioaren ordez 133 ama-semeak eman zuen. Aldatu gabe utzi zuen, halere, 9 eman daguidazula = 130 eman dagidazula (halaber bereizketa zaharrarekin bat datorren 7 alcanza deguidazula = 130 alkanza degidazula</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Aditzetako pluralgileetan ere aldaketa bat baino gehiago ageri da Aldazabalen eta gorostegiren testuak parez pare jartzean. Izanen adizkietan, gorostegik -de pluralgilea desagerrarazi zuen: 7 errezatuco dirade → 130 errezatuko dira, 10 cantacen dirade → 131 kantatzen dirala, 10 esaten dirade → 131 esaten diran. nor-nork sailean 19 betetzen cinduala graciaz ama eta semea pasartean komunztadura gordetzeko -z-pluralgilea gehitu zion gorostegik laguntzaileari: 133 betetzen ziñuzela graziaz amasemeak. nor-nori-norken Aldazabalek zerabilen -e pluralgilearen ordez -te ageri da gorostegirenean behin (20 mereci debeen → 133 merezi duten), nahiz eta alderantzizko aldaketaren adibide bat ere badagoen: 7 ematen zizutela → 130 ematen zizuela. Bestalde, -zki-ezarri zion gorostegik *eradunen ziutzun adizkiari</title>
+	</analytic>
+	<monogr>
+		<title level="m">Aldazabalen 9 izan zindean subjuntibotzat jota 130 izan zindezen eman zuen gorostegik, eta 9 eguin zidinen ordez → 130 egin zedin</title>
+		<imprint/>
+	</monogr>
+	<note>22 comunicatu ziutzun → 133 eman zizkitzun. eta 8 zaizkunen ordez 130 zaizkan ezarri zuen lehenago ere aipatutako 7.-8. orrialdeetako pasarte nahasian</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">aipa litezke gorostegik gaztelaniaz -ción amaiera duten hitzak aditz-izenetako -tzeren bidez eman izana (6 purificacioan → 130 purifikatzean, 15 presenta-eneKo ZuloAgA SAn romÁn ASJU</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Azkenik</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="361" to="445" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pedro</forename><surname>Aldazabal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>José</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1768" />
+			<biblScope unit="page">1790</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+				<title level="m">ama Virgina santisima Yciarcuaren bederatci urrena. tolosa: Fermin Huarte eta Arlegi</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">1775. compendio heráldico. arte de escudos de armas, según el método más arreglado del blasón. iruñea: Viuda de martín Joseph de rada</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pedro</forename><surname>Aldazabal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>José</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fidel</forename><surname>Altuna</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="611" to="650" />
+		</imprint>
+	</monogr>
+	<note>loiolako dotrina. aSJU</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Apuntaciones bio-bibliográficas. Pedro Joseph de Aldazabal y murguia (¿1728?-1779)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicolás</forename><surname>Alzola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BaP</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="480" to="484" />
+			<date type="published" when="1970" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Finite Verbal morphology. in mikel martínez-Areta (arg</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Borja</forename><surname>Ariztimuño</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Basque and Proto-Basque</title>
+		<meeting><address><addrLine>Frankfurt am main</addrLine></address></meeting>
+		<imprint>
+			<publisher>Peter lang</publisher>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="359" to="427" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">linajes de la Villa de deva (guipúzcoa) (continuación). Hidalguía 29</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julio</forename><surname>Atienza</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1958" />
+			<biblScope unit="page" from="617" to="632" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Jose Arakistain eta migel Zuzaeta. xviii/xix. mendeetako karmeldar bi idazle</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luis</forename><surname>Baraiazarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Karmel</title>
+		<imprint>
+			<biblScope unit="volume">219</biblScope>
+			<biblScope unit="page" from="125" to="132" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Bigarren euskara modernoa</title>
+	</analytic>
+	<monogr>
+		<title level="m">Joakin gorrotxategi, iván igartua &amp; Joseba A. lakarra (arg.), euskararen historia</title>
+		<editor>Jaurlaritza. esparza, Andoni</editor>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="349" to="376" />
+		</imprint>
+		<respStmt>
+			<orgName>el compendio heráldico de Pedro Joseph de Aldazábal y murguía. anales de la real academia Matritense de Heráldica y Genealogía</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Suplementos al Diccionario Trilingüe del P. larramendi escritos en 1746 por el P. F. José de maría, carmelita descalzo. revista de ciencias Históricas ii</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fidel</forename><surname>Fita</surname></persName>
+		</author>
+		<idno>iii. 113-120 eta 350-374; iV. 72-87 eta 149-163</idno>
+		<imprint>
+			<biblScope unit="page" from="416" to="433" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+				<idno>garibai, esteban. 1571</idno>
+		<title level="m">Los quarenta libros del compedio historial</title>
+		<imprint>
+			<biblScope unit="page" from="1556" to="1566" />
+		</imprint>
+	</monogr>
+	<note>Anberes: c. Plantino</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Domenjón González de andia y la villa de Tolosa. donostia: eusko ikaskuntza</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juan</forename><surname>Garmendia</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Los cantares antiguos en euskera: viejos textos del idioma. donostia: martín y mena</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juan</forename><surname>Guerra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Carlos</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1924" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Guipuzcoaco provinciaren condaira edo historia. donostia: ignacio ramón Baroja</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juan</forename><surname>Iztueta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ignazio</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1847" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Leizarraga eta Haranederren zenbait erkaketa: saio bat hizkuntzaren periodizazioan. gasteiz: uPV/eHuko gradu amaierako lan argitaragabea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Izaskun</forename><surname>Jiménez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">erronda kantuak eta eske bertsoak. euskera 48(1). 109-163. lakarra, Joseba Andoni. 1983. oharrak zenbait arkaismoz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jabier</forename><surname>Kaltzakorta</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="41" to="68" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">literatur gipuzkerarantz: larramendiren Azkoitiko sermoia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><surname>Lakarra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Andoni</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1985" />
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="235" to="282" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">refranes y sentencias. Ikerketak eta edizioa. Bilbo: eus kaltzain dia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><surname>Lakarra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Andoni</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">euskal Filologia: arazo zahar, bide berri</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><surname>Lakarra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Andoni</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="447" to="535" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Julen manterola &amp; iñaki Segurola. 2019. euskal hiztegi historiko-etimologikoa. Bilbo: euskaltzaindia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Diccionario trilingue del castellano, bascuence y latin. donostia: Bartholome riesgo y montero. lekuona, manuel. 1978. Literatura oral vasca. gasteiz: eSet. leturiaga, olatz. 2020a. gipuzkoa erdialdeko pluralgileen azterketa. in Xabier Artiagoitia, iñaki camino, irantzu epelde &amp; Koldo ulibarri (arg.), eibartik Zuberoara euskalkietan barrena. Koldo Zuazori gorazarre</title>
+		<idno>manuel. 1745</idno>
+		<imprint>
+			<biblScope unit="page" from="367" to="402" />
+		</imprint>
+	</monogr>
+	<note>Bilbo: uPV/eHu</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.22418</idno>
+		<ptr target="https://doi.org/10.1387/asju.22418" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Gipuzkoa erdialdeko testuetan barrena: aditz-morfologiako ezaugarri batzuen azterketa. gasteiz: uPV/eHuko master amaierako lan argitaragabea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Olatz</forename><surname>Leturiaga</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">estudio sobre las fuentes del diccionario de azkue. Bilbo: centro de estudios Históricos de Vizcaya</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Berrargit. Oc</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="29" to="191" />
+			<date type="published" when="1970" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Bilbo: eus kaltzain dia &amp; mensajero</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo &amp;amp; Ibon</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sarasola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Orotariko euskal hiztegia</title>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Perifrasi zaharra mendebalde eta erdialdeko euskara zaharrean: azterketa kuantifikatiboa eta proposamen berria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Céline</forename><surname>Mounole</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="page" from="67" to="138" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Bilbo: uPV/eHu. onaindia, Santiago. 1974. euskal literatura III. Bilbo: etor. ondarra, Frantzisko &amp; Antonio unzueta. 1997. Fr. Migel San Frantziskorena (Zuzaeta). Fr. Jose Jesus-Mariarena (arakistain)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Le Verbe Basque Ancien</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">étude philologique et diachronique (= aSJU 48)</title>
+		<meeting><address><addrLine>Idazlanak. markina-Xemein</addrLine></address></meeting>
+		<imprint>
+			<publisher>Karmel</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Santazilia</surname></persName>
+		</author>
+		<idno>ekaitz. 2020</idno>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Artxibora itzultzearen garrantziaz. maria Angela de txakartegiren 1775eko mutrikuko gutuntxoa</title>
+	</analytic>
+	<monogr>
+		<title level="j">Lapurdum</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="271" to="281" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">contribución al estudio y edición de textos antiguos vascos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ibon</forename><surname>Sarasola</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983" />
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="69" to="212" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">oikiako dotrinak: F. Antonio Agirre gabiria (marin 1728-oikia 1805)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koro</forename><surname>Segurola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lapurdum</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="223" to="253" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Antonio</forename><surname>Unzueta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fray José de Jesús maría Araquistain. aSJU</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="199" to="215" />
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Para la historia del sustantivo verbal en vasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Blanca</forename><surname>Urgell</surname></persName>
+		</author>
+		<idno>esku-liburua-ren grafi aldaketak (1812-1821). aSJU 21</idno>
+		<ptr target="donostia:gFA&amp;uPV/eHu" />
+	</analytic>
+	<monogr>
+		<title level="m">Studies in Basque and historical linguistics in memory of r. L. Trask (= aSJU 40: 1/2)</title>
+		<editor>Joseba A. la karra &amp; José i. Hualde</editor>
+		<meeting><address><addrLine>urgell, Blanca</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="921" to="948" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">lehen euskara modernoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Blanca</forename><surname>Urgell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">gasteiz: eusko Jaurlaritza. urkizu, Patrizio. 2009. un texto olvidado del siglo xvii: Sumario brebea. revista de Lenguas y Literaturas catalana, Gallega y Vasca 14</title>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="207" to="217" />
+		</imprint>
+	</monogr>
+	<note>Joakin gorrotxategi, iván igartua &amp; Joseba A. lakarra (arg.), euskararen historia</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">la Historia de Aránzazu atribuida al P. gaspar de gamarra. Scriptorium Victoriense 12</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luis</forename><surname>Villasante</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1965" />
+			<biblScope unit="page" from="74" to="173" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">1891-1898. essai d&apos;une Bibliographie de la Langue Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julien</forename><surname>Vinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">maisonneuve (Berrargit. faksim. Bilbo: caja de Ahorros Vizcaína</title>
+		<meeting><address><addrLine>Paris</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eneko</forename><surname>Zuloaga</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="179" to="201" />
+		</imprint>
+	</monogr>
+	<note>diego lorenzo urkizuren 1740ko zortzikoak. aSJU 49(1/2</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">Mendebaleko euskararen azterketa dialektologiko-diakronikorantz. gasteiz: uPV/eHuko doktoretza-tesi argitaragabea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eneko</forename><surname>Zuloaga</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

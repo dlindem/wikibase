@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">HIZKETA ARDURAGABEAREN TRESNABIDEZKO AZTERKETA AKUSTIKOA 1, 2</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2004">2004</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Oroitz</forename><surname>Jauregi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">UPV/EHU</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">HIZKETA ARDURAGABEAREN TRESNABIDEZKO AZTERKETA AKUSTIKOA 1, 2</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">ASJU, XXXVIII-1</title>
+						<imprint>
+							<biblScope unit="page" from="367" to="402"/>
+							<date type="published" when="2004">2004</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The article presents an experimental test of an acoustic study of spontaneous speech, where the durations of open and closed syllables have been measured, in order to conclude whether there is any significative difference between them. The results show that the differences in time between open and close syllables are significant. However, we should underline that the study has measured syllables in all contexts, and consequently, some variables that could condition the measures of the syllables have not been considered. On the other hand, the frequencies of open and close syllable structures have been calculated, showing that the great majority are open syllable structures.</p><p>In this context, one of the aims of this study is to reclaim the neccesity of research of spontaneous speech, taking into account that it is the most usual speech style.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Sarrera</head><p>Artikulu hau "Euskararen silaba: egitura eta historia" tesiaren atal bat da eta tesiaren izenburuak azaltzen duenez, euskarazko silaba eta silaba-egitura dira aztergai nagusiak. Artikulu honetan tesian egindako froga bat aurkeztuko dut. Froga egiteko tesian zehar adierazitako baieztapen bat abiapuntutzat hartu, eta hortik esperimentu bidezko froga akustikoa burutu dut. Aipatu behar da froga pilotua dela, hau da, eskala txikian eginiko tresnabidezko azterketa, non kontzeptu, metodo eta tekniken sintesi lana eginez hipotesi bat frogatu nahi den. Azken batean, azterketa proposamena da hemen aurkeztutakoa. "Euskararen silaba: egitura eta historia" deritzon ikerketan euskaraz silabak duen egitura da ikergai nagusia, eta horrekin batera, silaba-egiturak diakronikoki jasan duen garapena ere aztergai funtsezkoa da. Silaba-egituraren izateaz, silaba-egi-1 Hemen aurkezten den ikerketa 2007ko ekainean EHU/UPV-ko Filologia eta Geografia-Historia Fakultatean irakurritako «Euskararen silaba: egitura eta historia» tesiko atal baten hedapena da. Hain zuzen ere, 6. ataleko lehenengo froga da hemen aurkeztutakoa. 2 Tesia egiterakoan izan ditudan beka eta laguntzak ondokoak izan dira: EHU-UPVko doktorego aurreko beka, La Caixako beka eta UPV/EHUko Euskara Errektoreordetzako beka. Bestalde, ikerketa lana UPV 05/81 proiektuaren barnean burutu da.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>tura sortzeko eta osatzeko baldintzez eta murriztapenez hitz egin ondoren, batez ere euskararen antolaketa erritmikoan silaba-egitura elementu garrantzitsua dela erakutsi da, bilakabide eta txandakatze askoren eragile nagusienetako bat silaba dela frogatuz.</p><p>Ikerlan orokorraren ekarpen garrantzitsua da hizkuntzaren antolamendu erritmikoan silaba unitate oinarrizkoa dela erakustea. Silaba-aldiko hizkuntzen ezaugarri asko <ref type="bibr" target="#b1">(Bertinetto 1989</ref><ref type="bibr" target="#b23">, Hurch 1988</ref><ref type="bibr">, 2006</ref><ref type="bibr">, Donegan &amp; Stampe 2004</ref>) euskaraz ere betetzen direnez, silaba-aldiko erritmoa duen hizkuntzatzat hartu da. Euskarak silaba-egitura aski ongi mantentzen du eta hizkuntzak dituen bilakabide asko horretara bideratuak daude, edo helburu hori betetzen dute. Ondoren euskara silaba aldikotzat hartzeko pisuzko izan diren joerak aipatuko dira eta joerak irakurri ahala, berehala ohar gaitezke euskara silaba-aldiko hizkuntzekin lerratzen dela.</p><p>-Azentu-aldiko hizkuntzek bokalak murrizteko joera dute, bai nolakotasunari dagokionean, bai luze-laburtasunari dagokionean. Nolakotasunari begiratuta silaba-aldiko hizkuntzek bokalak osoago artikulatzen dituzte, baita bokala azentugabea denean ere. -Silaba-aldiko hizkuntzetan, unitate prosodikoen edo hitzen silaba kopurua zein den esateko ez da, oro har, arazorik izaten. Azentu-aldikoetan aldiz, zalantzak sor daitezke. -Azentu-aldiko hizkuntzetan hizketaren lastertasuna areagotzen bada, azentugabeko bokaletan laburtze nabarmenak gertatzen dira; silaba-aldikoetan, laburtzeak gertatzen badira ere, silaba guztietan proportzioan gertatu ohi dira. -Azentu-aldiko hizkuntzek silaba-aldikoek baino silaba-egitura konplexuagoak onartzen dituzte. -Azentu-aldiko hizkuntzetan silaba-mugaren kokalekuari buruzko zalantzak sor daitezke; silaba-aldikoetan zalantzak sor badaitezke ere, oso gutxitan gertatzen da. -Azentu-aldiko hizkuntzetan azentudun silabek segmentuak erakar ditzakete.</p><p>Silaba azentudunek ondoan duen azentugabeko bokala desagertarazten badu, azentugabeko bokalarekin silaba osatuz zegoen kontsonantea erakar dezake silaba azentudunak; modu horretan, silabaren pisua areagotu egiten da. Silabaaldikoetan ez da horrelakorik gertatzen. -Azentu-aldiko hizkuntzetan, azentudun silabaren eta azentugabearen arteko diferentzia, indarrari dagokionean, handiagoa da; silaba-aldiko hizkuntzetako silaben artean ez dago azentu indarrari dagokionean horrelako diferentziarik.</p><p>Azpimarragarria da, gai honi dagokionez, tresnabidezko ikerketa fonetikoak oso urriak direla euskaraz, eta ondorioz, datu fonetikoak ere bai. Beraz, fonologiazko datuetan oinarrituta egindako zerrenda da. Datu akustikoen beharra premiazkoa denez, fonetika akustikozko froga bat eginez urrats bat ematera ausartu naiz.</p><p>Azentu-aldiko eta silaba-aldiko hizkuntzak aipatzean isokronia kontzeptuari leku egitea komeni da. Isokronia da azentu-aldiko hizkuntetan azentutik azenturako tartea berdintzat hartzea eta silaba-aldikoetan silabatik silabarako tartea berdintzat hartzea, nolabait silaba berdintasuna gordetzea. Isokronia ekoizpenean baino gehiago oharmenean gordetzen zela defendatu zuen <ref type="bibr">Lehistek (1977)</ref>, nahiz eta gertaera horrek ekoizpenean baduen eragina.</p><p>Hari horri jarraituz, froga akustiko honetan hizkera arduragabeko silaben egitura maiztasunak atera eta silaben denbora luze-laburra neurtu ditut, eta horrekin batera, iraupen aldetik silaba irekien eta itxien artean luze-labur diferentzia sistematikorik ba ote den ikusi dut. Diferentzia sistematikoa izateak esan nahiko luke iraupenari dagokionez, silabek, irekia edo itxia izan, trataera desberdina izan dezaketela (hau frogatzeko ikusi beharko litzateke oharmenean desberdin hautematen direla). Aldiz, diferentzia sistematikorik ez izateak, adieraz lezake silaba itxi eta irekiek iraupenaren aldetik antzeko jokamoldea izan dezaketela (fisikoki ez dagoena ezin baitezake erabat asmatu oharmenak). Pentsatu behar dugu silaba itxien eta irekien artean nolabaiteko iraupen diferentzia izan behar dela silaba itxiek (VC, CVC edo CVCC) beraien kide irekiek (V, CV, CCV) baino segmentu gehiago dituztelako eta horiek ahoskatzeko denbora fisiko gehiago behar delako. Izan ere, ezin dugu ahaztu ondoko aipuak dioena:</p><p>A naive conception of syllable-timing (according to which, in some languages syllables should receive the same, or nearly the same, duration) is equally implausible. <ref type="bibr">(Bertinetto &amp; Fowler 1989: 70)</ref> Beraz, silaba-aldiko hizkuntzetan silaben arteko iraupen antzekotasuna bilatzen dela esaten dudanean ez dut esan nahi silaba guztiek iraupen berbera dutenik. Hala ere, fisikoki diferentzia izan arren, ekoizpenean eta oharmenean berdintasuna, isokronia hautemateko joera da.</p><p>Azterketa funtsezko hipotesietan oinarritu dut. Euskararen silaba-egiturarekin lan egiten hasteko, ezinbestekoa da jakitea euskaraz zein silaba-egitura nagusitzen den. Hainbat lanetan ikus dezakegu (Vennemann 1988, besteren artean) CV egitura dela ez-markatuena, silaba-egitura aldetik "optimoa", eta euskarak dituen ezaugarriak kontuan hartuta, espero behar dugu egitura hori nagusitzea, bai idatzizkoan eta bai ahozko hizkeran ere. Beraz, hizkera arduragabeko corpusean zein silaba tipo nagusitzen den ikusiko dugu. <ref type="bibr">3</ref> Horren ondoan, silaba irekien eta itxien arteko bereizkuntza ardatz harturik, silaba mota horien artean luze-labur diferentzia esanguratsurik ba ote den ikusiko dut, gorago azaldutako arrazoiei jarraituz.</p><p>Hizkera arduragabea, arretarik jartzen ez deneko hizkera, hartu dut aztergai. Hizkera estiloen sailkapenak zehaztasun eta konplexutasun maila desberdinak izan ditzakeela jakinda, erabaki praktikoek bultzatuta eta oraingo helburuetarako nahikoa dela pentsatuta, ondoko gutxieneko sailkapena aintzat hartu dut: hizkera zaindua (jasoa) vs. arduragabea. Hizkera zaindua, ahoskerari arreta ipintzea errazten duen egokieretako hizkera da; mezua ulertzeko egiten da ahalegina, esaten dena eta esaten den moldea zaintzen da. Hizkera molde horrek fortitioak edo indartzeak errazten ditu. Hizkera arduragabean mezua, edukia da garrantzitsua hiztunarentzat eta ez zaio hainbeste begiratzen esateko moldeari, beti ere egokiera eta hiztuna kontuan hartu behar dira, hauekiko gertutasunak edo urruntasunak ere bai baitu zerikusirik. Ahoskerari arreta gutxiago eskaintzen zaio oro har, eta beraz, ordezkatzeetan aberatsa da hizkera arduragabea. Lenitio edo ahultzeak nagusitzeko joera dago hizkera molde HIZKETA ARDURAGABEAREN TRESNABIDEZKO AZTERKETA AKUSTIKOA 369 arduragabean, ahalegin artikulatorioa errazten duten bilakabideak direlako. Nagusiki, hizketaren erritmo biziak gailendu ohi dira.</p><p>Hiztunak mezuari bakarrik begiratzeko baldintzetako bat izan daiteke hiztuna bere ingurune naturaletik ahalik eta gutxien urruntzea, eta horregatik hiztunak eguneroko bizimodua egiten duen ingurunean egin da grabaketa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Ikergaia</head><p>Aipatu dut euskara egun silaba-aldiko hizkuntza dela eta mota honetako hizkuntzetan silaba dela hizketa erritmoaren antolatzaile nagusi eta silaben artean ez legokeela denbora aldetik murriztapen nabarmenik. Esan dut, era berean, silaba-aldiko hizkuntzetan silaba iraupen berdintasuna gertatzen dela, azentu-aldiko hizkuntzetan baino gehiago, behintzat. Bi hizkuntza-mota hauen arteko desberdintasun nabarmenenak jaso ditudan arren, komeni da silaben iraupena zuzenean ukitzen duten joera zenbait biltzea.</p><p>Azentu-aldiko hizkuntzetan azentugabeko silabetako bokalak murrizteko joera dago, bai luze-labur aldetik bai nolakotasun aldetik ere; silaba-aldikoetan testuinguru berean bokalak osorik egiteko joera dago. Beste joera bat da hizketa lasterrean, azentu-aldiko hizkuntzetan azentugabeko silabak "estutzen" direla eta silaba-aldikoetan silaba guztiak proportzioan estutzen direla. Honen haritik, azentu-aldiko hizkuntzetan silaba barruko konpentsazio gehiago dago, silaba-aldiko hizkuntzekin alderatuta. Alegia, azentutik azentura dagoen tartea berdin egiteko joera horregatik, azentu-aldiko hizkuntzetan azentugabeko silaben laburtzeak eta ezabatzeak errazago onartzen dira silaba-aldiko hizkuntzetan baino. Azken horietan ere gertatzen dira laburtze eta konpentsatzeak baina ez azentu-aldiko hizkuntzen mailan, askoz ere maila apalagoan baizik, silaba bera baita erritmikoki gorde beharrekoa. Beraz, silaba gordetzea lehentasuna denez, iraupen aldetik ere silaben artean desberdintasun nabarmenik ez egotea espero behar dugu.</p><p>Hipotesi orokor horietatik abiatuta erabaki dut ikerketa frogaren aztergaitzat silaben iraupena neurtzea. Horregatik, euskaraz silaben iraupenean desberdintasun esanguratsurik ba ote den aztertuko dut.</p><p>Silaben iraupen kontuak ez dira asko jorratu euskaraz, baina zenbait azterketatan iraupena neurtu da, G. <ref type="bibr">Elordieta eta Hualde autoreen (2002)</ref> azterketan, adibidez. Bertan Lekeitioko euskarako, tonu hizkuntza bateko, silaba azentudunak eta azentugabeak neurtu zituzten eta ondorio nagusi honetara heldu ziren: azentudun eta azentugabeko silaben artean ez dago iraupen desberdintasun esanguratsurik. Hurrengo aipuan irakur daiteke ondorio hori:</p><p>Los resultados obtenidos confirman la hipótesis de que la duración no se emplea como correlato acentual en la variedad vasca de Lekeitio, dando apoyo a la tesis de que el contraste entre sílabas y palabras acentuadas y no acentuadas se realiza únicamente por medio de variaciones en el tono en lenguas de la clase tipológica a la que pertenecen tanto estas variedades vascas como el japonés (...). <ref type="bibr">(Elordieta &amp; Hualde 2002: 160)</ref> Azpimarratu behar da autore horiek neurtutakoa eta froga honetan neurtutakoa ez direla gauza bera. <ref type="bibr">Elordietak eta Hualdek (2002)</ref> testuinguru jakin batean eta seg-mentu berberez osatutako silaba azentudunak eta azentugabeak neurtu zituzten. Hemen, aldiz, testuinguru guztietako silabak hartu ditut kontuan eta egin dudan kontrakortasuna silaba itxi-ireki izan da.</p><p>Euskara silaba-aldiko hizkuntza izanik, silaba-egitura aski naturala du eta egitura konplexuak ez dira ugariak, joera orokorrena CV, CVC egiturak egitearena da eta kontsonante bilkurak ez dira bitik gorakoak, ez ekinean ez kodan. Silaba itxiek kodan duten kontsonanteagatik, luzeagoak izatea espero behar dugu (CV egiturarekin alderatuta behintzat), silaba ixten duen kontsonantea ekoizteak behar duen denboragatik. Pentsatzekoa da denbora aldetik nolabaiteko diferentzia izatea, baina ez oso diferentzia nabarmena. Halaber, gogoratu atal honen hasieran Bertinettoren eta <ref type="bibr">Fowler-en (1989)</ref> aipuak dioena, alegia, ezin dela pentsatu silaba guztiek iraupen berbera izatea.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Hizketaren hautaketa</head><p>Zaldibiako hizkera hautatu dut azterketarako, hainbat arrazoirengatik. Alde batetik, euskarazko tresnabidezko ikerketa akustikoak oso urriak badira ere, Zaldibiako euskara oinarritzat harturiko bi azterketa aurki ditzakegu: Etxeberriaren Zaldibiako bokalen azterketa akustikoa eta Navarro Tomás-en (1925) ikerketa esanguratsua. Etxeberriarena tesi lana da, 1988an UPV/EHUko Filologia eta Geografia-Historia Fakultatean irakurritakoa. Askoz ere lehenagokoa da Navarro Tomás-en "Pronunciación Guipuzcoana" lana, 1925ekoa, eta bertan berriemale nagusia Zaldibiako semea izan zen. 4 Bi lanok erreferentzia sendoa izango dira ikerketa honetarako, besteak beste, emaitzak alderatzeko aukera ematen dutelako. Batez ere, Navarro Tomás-en azterketa azpimarra daiteke, silaba iraupenen datuak eskaintzen baititu.</p><p>Beste alde batetik, garrantzitsua da ikerketaren egileak hoberen ezagutzen duen hizkera izatea, azterketa egiterakoan ezagutza horrek ziurtasuna ematen baitu. 5 Sarreran esan da, hizkera arduragabean mezuari esateko moldeari baino gehiago begiratzen zaiola eta eginahal artikulatorioa erraztea lehentasuna dela, eta beraz, lenitioak direla hizkera molde honetan nagusitzen diren ordezkatzeak. Esan da, era berean, hizketa erritmoa bizkortu egiten dela. Horrela bada, hizkera analizatzeko orduan ordezkatzeek eta hizkera lasterrak sor dezaketen zailtasuna gainditzeko, hizkera bera ongi ezagutzea ezinbestekoa da, eta horixe izan da Zaldibiako hizkera hautatzearen arrazoi nagusienetakoa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Ikerketa honen ekarpena</head><p>Azterketa honek badu desberdintasun nagusi bat aurreko bi ikerketekiko, aurreko ikerketetan aztertzen ez den alderdia ukitu nahi baita honetan. Aurrekoak hitz HIZKETA ARDURAGABEAREN TRESNABIDEZKO AZTERKETA AKUSTIKOA 371 zerrendetan edo irakurritako testuetan oinarritzen dira. Eskuartean duguna, aldiz, hizketa librean oinarritzen da. Hauxe izango da azterketaren ezaugarri bereziena. Esan beharrik ez dago, orain artekoak osatzera datorrela.</p><p>Bilakabideek Fonologia Naturalean 6 duten izateari eta zentzuari begiratuta, esan daiteke hizkera arduragabean, arreta jartzen den hizkeran baino bilakabide fonologiko gehiago azaleratzen direla. Hizketa arduragabean, ardurarik jartzen ez den hizkeran, eguneroko hizkeran, bilakabide asko azaleratzen dira, normalean laborategiko hizkeran antzematea zail gerta daitezkeenak, laborategian grabatzeak berak hiztunarengan sor dezakeen eraginagatik. Horixe adierazten du hurrengo aipuak:</p><p>Phonetic changes must arise from the failure of children to constrain certain natural substitutions, and (…) variation in adults, another likely source of change, must result from natural substitutions which the individual has suppressed in certain speech styles but which apply inadvertenly in other styles. <ref type="bibr">(Donegan &amp; Stampe 1979: 131)</ref> Aipuan adierazten denez, estilo batzuetan gainditutako ordezkatze natural zenbait beste estilo batzuetan konturatu gabe gertatzen dira: azken estilo hau hizkera arduragabea da. Hizkuntzan gertatzen diren aldaketen azalpena emateko iturri litzateke hizkera arduragabearen azterketa, eta nola ez, tresnabidezko azterketa akustikoa, zenbait bilakabideren azalpena hizkera arduragabean gertatzen diren bilakabideen tresnabidezko azterketa akustikotik etorriko baita. Izan ere, aldaketen muinaren esplikaziorako bi gauza dira lagungarri: arduragabetasuna eta alofonia. Azkena tresnabidezko azterketen bidez antzeman dezakegu errazen.</p><p>Hizkera arduragabean eta era librean egindako grabaketan hainbat alderdi ezin dira kontrolatu. Bariable edo aldagai asko hartu behar dira kontuan iraupena neurtzerakoan, testuinguru desberdinek eta hainbat egoerak sor dezaketen iraupen aldaketa neutralizatzeko. Hauxe da eskuarteko azterketa laborategian prestatutako testen bidez egindako azterketengandik bereizten duena. Prestatutako testen bidez, neurtu nahi den alderdia kontrola daiteke, ikertzaileak hitzak, esaldiak edo bestelako irizpideak aurrez prestatuko ditu, adibidez, neurtu nahi duenak ahalik eta interferentzia gutxien eduki dezan edo beti ingurune berdinean neurtzeko.</p><p>Silaben iraupena neurtzerakoan ondoren aipatzen diren aldagaiek badute zeresanik. Hots bakoitzak bere iraupena du, baina ondoan duen hotsaren arabera iraupena alda daiteke (adibidez bokal gehi herskari bilkuran bokalaren iraupena desberdina izango da herskaria ahostuna edo ahoskabea izan, ahoskabea bada laburragoa izango baita bokala). Silaban duen posizioaren arabera ere alda daiteke hizketa-hotsen iraupena, silabaren hasieran edo amaieran egoteak bai baitu eraginik iraupenean. Era berean, hitzaren zein silabatan dagoen ere garrantzitsu izango da (hitzak zenbat eta silaba gehiago izan, silabak laburtzeko joera handiagoa izan daiteke silaba-aldiko hizkuntzetan ere). Hitza esaldiaren zein gunetan dagoen ere kontuan hartu beharko da eta funtzio berezirik duen edo ez ere ikusi beharko da (fokoa den edo ez, adibidez). Egoera hauez gain, norberaren hizketa-lastertasuna ere gogoan izan beharko da, halaber, iraupena denez neurtzen ari garena.</p><p>Galdeketa kontrolatu bidezko azterketek ere ez dituzte horrelakoak aztertzen normalean. Interferentzia izan daitezkeenak interferentzia izan ez daitezen saiatzen dira azterketa diseinatzen denean, egoera horiek neurtu nahi dena ez eragiten. Baina azterketan egoera horiek ez agertzeak ez du esan nahi hizkeran, beste egoera batean gertatzen ez direnik. Horregatik, egoera eta ingurune guztiak kontuan hartzeko, oso proiektu handi eta orokorrak behar dira eta horrelakoak ez dira asko izaten.</p><p>Azterketa akustiko osoa izateko kontuan hartu beharko lirateke, era berean, entonazioa eta azentua, baina saio honetan albo batera utzi dira, lan honen neurria gainditzen duelako, beti ere jakinaren gainean izanik emaitza osoak izateko alderdi horiek aztertzea ezinbestekoa dela.</p><p>Berriro azpimarratu nahi nuke lehenago esan dena, alegia, azterketa hau froga bat dela. Nahiz eta aurreko paragrafoan aipatutako aldagaiak ez hartu kontuan azterketan, garrantzitsua da hizkera arduragabea oinarritzat izatea eta hizkera horren azterketa akustikoak egitea, besteren artean, hizkera errealena, naturalena delako. Hizkera arduragabea aztertzean, laborategiko hizkera aztertzean zailtasun izan daitezkeenak areagotu egiten direla ikus daiteke: hots-ordezkatze ugaritasunek, hizkeraren lastertasunak eta esaldi osoak aztertzeak zaildu egiten dute alderdi akustikoaren azterketa. Era berean, hizkera arduragabea aztertzerakoan erraz ohar gaitezke fonologia ezin dela aztertu oharmena kontuan hartu gabe. Halaber, fonetika-fonologia erlazioaren konplexutasuna (eta harrapagaiztasuna) argi ikusarazten da. Adibide batez errazago adieraziko dut orain arte esandakoa: beherago, "irizpideak" atalean agertzen den "Laborategia 1" espektrograman ikus daitekeen ezteu ("ez dugu") hitzean, hitz hasierako bokala ez da akustikoki azaltzen. Hitza frikariarekin hastea, hasierako bokala ahoskatu gabe, nahiko harrigarria gerta daiteke euskarazko fonologian. 7 Oharmenari lekurik egin gabe nola azaldu gertaera hau? Hiztunak badaki, oharmenagatik, frikariaren aurrean bokala dela eta hala egin nahi izango du; entzuleak ere bokalarekin entzungo du, seguruenik.</p><p>Azterketaren ingurune eta baldintzak argi adierazteak, hartutako oinarriak garbi finkatzeak, eta irizpideak garbi azaltzeak ezinbestekoak dira azterketa guztietan eta halaxe egingo dut nik ere azterketa honetan, ondoren etor daitezkeen azterketentzat lan hau lagungarri eta baliagarri izan dadin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Aurreko ikerketak</head><p>Atal honetan, alde batetik Zaldibiako euskarari buruzko azterketa akustikoak bilduko dira, eta beste batetik, silabaren iraupena gai nagusitzat izan dituzten azterketak.</p><p>Navarro Tomás-ek (1925) joan den mendeko lehen laurdenean egindako azterketak badu oraindik gaurkotasuna. 8 Esan bezala, Navarro Tomás-ek hitz zerrenden HIZKETA ARDURAGABEAREN TRESNABIDEZKO AZTERKETA AKUSTIKOA 373 7 Ikusi besterik ez dago atzerriko hizkuntza bat ikasterakoan frikari gehi herskari bilkuraz hasten diren hitzak ikastean zer nolako zailtasunak sortzen zaizkigun euskal hiztunoi. Gai honi buruz ikus Jauregi &amp; <ref type="bibr" target="#b27">Oñederra (2002)</ref>. <ref type="bibr">8</ref> Hurch-ek adibidez, 1988ko lanean Navarro Tomás-en lana (1925) hartzen du oinarritzat, bertako datuek gaurkotasun handia dutela esanez eta euskaraz tresnabidez egindako fonetika akustikozko lan osoena dela esanez. Zehaztasun handiz hartutako datuak gordetzeak balore handia ematen dio Navarro Tomás-ek egindako azterketari. Hala ere, kontuan izan behar dugu, 1988tik hona tresnabidezko azterketek teknikoki aurrerapen handia izan dutela, eta gurean ere, tresnabidezko azterketak ugaritu egin direla. eta testuen irakurketa erabili zuen oinarritzat bere ikerketan. Hain zuzen ere, hitz zerrendez baliatu zen hotsen ikerketa berezitua egiteko eta testuen irakurketa erabili zuen hotsak esaldian edo katean aztertzeko. <ref type="bibr">9</ref> Etxeberriak (1988) esaldi inguratzaileak erabili zituen hainbat alderdi kontrolatu ahal izateko: doinuak sortaraz ditzakeen oinarrizko maiztasunaren aldaketak, enuntziatuaren barnean posizioaren araberako intentsitate aldaketak, enuntziatuaren barnean posizioaren araberako iraupen aldaketak eta enuntziatu osoak duen luzeraren araberako iraupen aldaketak. Etxeberriaren lanean bokalak dira aztergai eta bokalen iraupena da neurtzen dena, besteren artean. Navarro Tomás-en lanean, hots bereziez gain silabak ere neurtzen dira.</p><p>Aipatu behar da bi lan horien artean neurtzeko garaian badela desberdintasunik, Navarro Tomás-en lanean bokalek Etxeberriarenean baino iraupen gehiago baitute, oro har. Etxeberriaren arabera gakoa neurketa irizpide desberdinetan egon daiteke: Navarro Tomás-ek bokalaren dardara guztia neurtu zuen eta Etxeberriak, aldiz, intentsitate eskaseko azken oszilazioak ez zituen kontuan hartu. Hortik etor daiteke iraupen diferentzien azalpena.</p><p>Etxeberriak <ref type="formula">(1998)</ref>, 1991n Hernáezekin batera egindako eta argitaratu gabe dagoen lana aipatzen du, "Zenbait hitz homonimoren azterketa akustikoa" izenekoa. Bertan hitz homonimoen silaba-egiturak akustikoki aztertu zituzten. Bi ikasleren ahotan jarri zituzten zerrendatutako hitz homonimoak eta ondoren oinarrizko maiztasuna (aldaketa-kurba), iraupena eta indarra (indarraren aldaketa kurba) neurtu zituzten. Lortutako emaitzak esanguratsutzat ditu Etxeberriak: silaba batetik bestera oinarrizko maiztasunean eta indarrean ez da alde handirik, desberdintasunak txikiak dira, beste zenbait hizkuntzarekin alderatuta (gaztelera eta ingelesa aipatzen ditu autoreak). Iraupenak antzekoak izan ziren silaben artean, diferentzia nabarmenik ez zuten hauteman, behintzat. Emaitza hauek ikusita hona zer ondoriotara heltzen den Etxeberria:</p><p>Oharmen linguistikoak homonimo horiek bereizi arren, ez indarra, ez doinugora beherak direla nabarmen. Iraupenaren kontua izan da harrigarriena, silaben iraupen berdintsu horiek, silabaldiko joera horrek, eraman nau pentsatzera, iraupen antolakuntza horren zergatian, esaldien eta esaldien barneko hitz andanen erritmoan eta arnasaldiko etenetan aurki ote dezakegun aztertzeko horren zail egiten zaigun euskal prosodiaren gakoetako bat. Eta planteatzera ea silabaz silabako iraupen-antolatze hori ote den garrantzizko gurean eta azentua, berriz antolatze horrek eskatzen duen erritmoaren mende ote dagoen. <ref type="bibr">(Etxeberria 1998: 429-430)</ref> Etxeberriak galdera hauek azaleratu ondoren, hemen egingo den azterketa indartzen duen eta ikerketa bide berri bat iradokitzen duen proposamena plazaratzen du: azterketak esaldi osoetatik abiatzea. Horixe da, hain zuzen ere, eskuartean du-374 OROITZ JAUREGI 9 Artikuluaren amaieran aurkezten ditu azterketa egiteko erabili zituen testuak: «Aita gurea» otoitza, «Gernikako arbola» kanta, Bonapartek 1857an argitaratutako Dialogues Basques-eko A. P. Iturriagak idatzitako «Dialecto guipuzcoano»tik elkarrizketa bat eta «Bertso berriak» izeneko bertsoak. Aipatu behar da, agian, aukeratu zituen testuetatik «Aita gurea», «Gernikako arbola» eta bertsoak erritmo jakin batean memorizatuak direla, ziurrenik errezitatuz ikasi direlako, eta horregatik, irakurtzerako orduan interferentziak sor daitezkeela. Ez da besterik gabe testu bat irakurtzea bezala, bertsoaren edo otoitzaren erritmoaren oihartzuna barruan baitu hiztunak. gun azterketaren oinarria, hizketa librean, arretarik jartzen ez den hizketan esaldi osoak neurtzen baitira. Alderdi hau da ikerketaren bereizgarrietako bat, izan ere, gorago aipatutako tresnabidezko azterketa akustikoak, galdetegien bidez lortutako datuak erabilita eginikoak dira. Azken hauek alderdi jakin batzuk kontrolatzeko aukera eskaintzen dute, autoreak ikusi edo aztertu nahi dituen alderdiak hobe azalerazteko testuinguruak sor baitaitezke, beste denak kentzearen ordainarekin. Esan dugu, baita ere, hizketa libreak azterketa zaildu egiten duela, modu honetan alderdi jakinak kontrolatzea ez baita hain erraza. Baina hizketa "naturalena, errealena" ere bada.</p><p>Aipatu dut helburu nagusia silaben iraupena neurtzea dela, silaba ireki eta itxien artean denborazko desberdintasun esanguratsurik baden ikusteko. Helburu nagusiarekin batera, beste alderdi hauek ere hartuko dira kontuan: silaba mota kopuruak, hau da, silaba irekiak edo itxiak diren eta hauen batazbestekoa; itxiak badira ixten dituzten kontsonanteak zeintzuk diren ere ikusiko da. 10</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Esperimentuaren diseinua</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Corpusa</head><p>Esan bezala, grabaketa hizketa librean egin zen, eta ez zen aurretik prestatutako gidoirik edo hiztunak erantzun beharreko galdetegirik. Honelako lanetan ohi denez, hiztunari utzi zitzaion kontuak jaio ahala esaten. Batzuetan hiztunari hizketa gaia amaitzean, eta ixilik jarraitzen bazuen, grabatzaileak galderak luzatu zizkion, gazte denborako kontuak, eramandako bizimodua, eta abar izanik galdegai nagusienak. Artikuluaren amaieran erabilitako corpusaren transkripzioa aurki dezakegu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Informatzailea</head><p>Informatzailea Teofila Mimendia Aramendi 11 da, grabaketa egindako urtean 90 urte zituena. Informatzailearen adina kontuan hartu beharrekoa izan ohi da tresnabidezko ikerketa akustikoetan, adineko jendearen ahotsaren kalitatea, oro har, nahiko apaldua egon ohi delako, eta askok (gehienek) berezko hortzak ere galduak dituztelako. Horregatik ikerketa akustikoak egiteko ez da adineko jendea aukeratzen berriemale gisa, baina azterketa honetan ikertu behar dena silaben iraupena dela kontuan hartuta (eta ez, adibidez, hotsen ezaugarri akustikoak edo artikulaziozkoak), adinaren faktorea ez zait eragozpena iruditu grabaketa egiteko.</p><p>Hiztun bakar batekin agian ezin da egiaztapen orokorrik egin, baina ikus daiteke joera zein izan daitekeen. Lehenago esan bezala, froga honekin zer nolako azterketak egin daitezkeen arakatu nahi da, azterketa proposamen bat izatea ere bai baita lanaren helburua.</p><p>HIZKETA ARDURAGABEAREN TRESNABIDEZKO AZTERKETA AKUSTIKOA 375</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Grabaketa</head><p>Grabaketa 2004ko irailaren 24an egin zen, arratsaldez, Zaldibiako Saturdi auzoko Agarre-Urreta baserriko sukaldean. Grabaketa osoak ordu bete inguru irauten badu ere, hasierako bi minutuak erabili dira ikerketan. Ez zatekeen posible grabatutako material guztia erabiltzea lana erraldoia bihurtuko litzatekeelako.</p><p>Grabaketa, era digitalean, DAT Sony 12 aparatuan egin zen, AIWA mikrofonoarekin. <ref type="bibr">13</ref> Ondoren ordenagailura sartu zen grabatutakoa, COOL EDIT PRO 14 programaren bidez, soinu dokumentu handiak gordetzea posible egiten duelako. Ondoren Scicon etxeko PCQuirer programa erabili zen. Programa honen eragozpenetako bat denbora mugarena da, dokumentu bakoitzak 5 segundu baititu. <ref type="bibr">15</ref> Horrela, Cool Edit-eko dokumentu osotik dokumentu txikiak hautatu eta gorde ziren PCQuirer-en, ".pmf " formatoan.</p><p>Esan bezala, grabaketako lehen bi minutuak erabili dira azterketarako, hizketa errealeko bi minutu. Bi minutu horietan dauden isiluneak, pausak eta noizean behin ikertzaileak egindako parte-hartzeak kendu egin dira. Zati txikiekin lan egitea askoz erabilgarriagoa denez, gutxi gorabehera bi segundu irauten duten hizketa dokumentuak dira gordetakoak. Guztira 49 dokumentu erabili dira azterketarako.</p><p>Esan denez, hotsen nolakotasunen azterketa egitea ez da lan honen xedea, beraz, azterketa molde horretarako hain optimoa ez litzatekeen seinalea aintzat hartu da, azterketaren helburuetarako baliagarri delako. Adibidez, hizketaldiko momentu jakin batean eskua sudurrera eramaten du hiztunak eta seinalea ez da hain garbi entzuten; hala ere, seinalea ontzat eman dut eta azterketan kontuan hartu dut, iraupena neurtzeko adina informazio badelako. Baina zenbait hots-uhin ez ditut kontuan hartu, adibidez, xuxurlatu egiten dituen esaldiak (bi esaldi), edo trabatzen denean (bi esaldi), nahastu egiten da eta gero zuzendu egiten du esan nahi duena. <ref type="bibr">16</ref> Lehenengo kasuan ez da posible segmentuak elkarrengandik bereiztea eta bigarren kasuan trabatzen den zatia ez da kontuan hartzen, ez baita ulertzen hiztunak zer esaten duen, baina esaldiko gainerakoa neurketan erabili da. Ez dugu kontuan hartu, era berean, hizketa lotura egiteko balio duen eeeeee, nahi adina luza baitaiteke, eta silaba "garatutzat" beste segmentuekin kateatuta dagoena hartu delako.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Analisi akustikoa</head><p>Analisi akustikoa EHU-UPVko Filologia eta Geografia-Historia Fakultateko Fonetika Laborategian burutu dut.</p><p>Ondoren analisi akustikoa egiteko emandako pausoak eta kontuan hartutako irizpideak azaltzeari ekingo diot. Lehenik eta behin, hotsen arteko segmentazioa nola gauzatu dudan argituko dut, gero segmentazioa bera eta neurketa nola egin di-tudan azaltzeko. Segmentazioan kontuan hartutako irizpideak zerrendatuko ditut ondoren, kontsonanteak eta bokalak testuinguru desberdinetan nola segmentatu ditut garbi gera dadin. Gero, emaitzak datoz: silaba-egituren maiztasunak eta silaben iraupenak. Emaitzak irudi grafikoekin hornituko ditut, emaitzen zenbait alderdi errazago "ikus" daitezkeelako, edo bestela esan, emaitzak kuantitatiboki ulertzen lagun dezaketelako. Atala amaitzeko, hizkera berdina aztertzen duten eta silaben iraupena kontuan hartzen duten beste ikerketekin alderaketa egingo dut eta gero ondorioak aipatuko ditut.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Segmentazioa</head><p>Segmentu-banaketa egitea da hiztun eta entzuleak oharmen fonologikoan dituen hots-unitateak continuum fonetikoan unitate gisa banatzea, bereiztea. Unitateak bata bestearengandik bakartzea beharrezkoa da azterketa akustiko askotan eta horixe da hemen egingo dudana. Silaben iraupena neurtzeko ere silabak bereizi egin behar dira, mugak jarri behar dira silabatik silabara eta horretarako segmentu-banaketa egitea ezinbestekoa da. Azterketa akustikoa egiteko erabilitako PCQuirer programan, segmentu-banaketa marra batek adierazten du eta segmentuen banaketa-marra, ikertzaileak nahi duenean txerta dezake. Segmentu-banaketa hots-uhinaren adierazpen grafikoan markatzen da, bai hots-uhinean bertan eta bai espektrograman (beherago, batez ere irizpideak eskaintzen diren atalean irudi grafikoetan ikus daitezke segmentu-banaketaren hainbat adibide).</p><p>Azterketa honetan silaba-mugak ez ezik, segmentu guztiak banatu dira, ahal izan den heinean. Segmentuak bata bestearengandik bereiztea azterketa akustikoaren "ohiko" arazoa da eta hemen ere azterketa burutzerakoan arazorik handiena izan da, zenbait hots noiz hasten eta bukatzen diren zehatz esatea ez baita batere lan erraza. Banaketa egiteak aurrikusten du segmentuak bana daitezkeela eta zenbait kasutan ideia horri eusteak lana eman du. Batzuetan ez da arazo handirik segmentuen banaketa egiteko, hots uhinean nahikoa argi ikus baitaiteke continuum fonetikoan non den hots unitate batetik besterako muga, baina beste askotan segmentuak banatzea arazotsua da. Gai hau lantzen duten adituek esaten dutenez, segmentuen banaketari dagokionean ez da erregela finko eta arau esturik eta norberak ezarri behar ditu parametroak. Parametro horiek ahalik eta objektiboenak eta finkoenak izan behar dira eta ondoren garbi adierazi behar da zein parametro diren kontuan hartutakoak. Horixe egiten ahalegindu naiz azterketa honetan eta beherago, 4.3. atalean.</p><p>Segmentu-banaketa egiteko orduan <ref type="bibr">Ladefoged-ek (2003)</ref> esandakoak izan ditut gogoan eta berak proposatutako ikerbideak jarraitzen saiatu naiz. Datu fonetikoen analisia egiterakoan neurketek sortzen dituzten zailtasunak ditu mintzagai hurrengo aipuan:</p><p>It is a good idea to use spectrograms in conjunction with waveforms when making measurements, as spectrograms provide by far the better way of identifying segments. But the actual measurement of durations should be made on an expanded waveform. Even when using spectrograms in conjunction with waveforms there will be problems, as many segments do not have clear beginnings and ends. There are hard decisions to be made whatever the form of the acoustic analysis. All that one can do is choose consistent measurement points, and report the duration of each sound in the same way. <ref type="bibr">(Ladefoged 2003: 103)</ref> Aipuan agertzen diren ideiei jarraituz, azterketan hots unitateak bata bestearengandik banatzeko hots-uhina eta espektrograma erabili dira, izan ere elkarren osagarritzat har baitaitezke mota honetako azterketa batean.</p><p>Segmentu-banaketarako irizpide nagusia hots-uhinean agertzen diren anplitudealdaketak izan dira. Irizpide honen osagarri, espektrograman azaltzen diren egitura diferenteak erabili dira, hau da egitura horizontala edo formanteak eta eredu bertikala. Formanteen norabideak aldatzea beti ere aldaketaren arrasto bat izan daiteke eta egitura bertikalean dauden mugimenduek ere nolabaiteko aldaketa gerta daitekeela adierazten dute. Bi irizpide hauei jarraituz, hots batetik besterako aldaketa noiz gauzatzen den jakin ahal izango dugu. 17 Hots uhina eta espektrogramaz gain, audioa entzuteak ezinbesteko laguntza eskaintzen du. PCQuirer programak bi analisiak, hots uhina eta espektrograma, pantailan batera agertzeko aukera ematen du, baina ez hori bakarrik, pantailan puntu jakin bat hautatuz gero, puntu hori bi analisi modutan toki berean markatzen ditu programak. Hau da, ordenagailuan puntu jakin bat adierazten duen markatzailea bi irudietan batera doa, batean markatzen dena bestean ere markatuz. Oso lagungarria da bi analisi moduetan puntu bera adieraztea, bi analisi moduetan batera lan egin daitekeelako. PCQuirer programak eskaintzen duen beste aukera bat da hots uhinean eta espektrograman zoom-a erabiltzea. Aukera honek hots uhinean nahiz espektrograman hautatutako zatiak eskala handiagoan ikusteko aukera ematen duenez, askoz ere ziurtasun handiagoz lan egin daiteke. Beraz, banaketa guztiak zoom-a baliatuz egin dira. Esan bezala, analisi modu hauez gain, audioa erabiltzea ezinbestekoa izan da, entzumenak zalantza asko uxatu baititu.</p><p>Ladefoged berak ere aitortzen du, hots-uhinak eta espektrogramak batera erabiliagatik, arazoak izan daitezkeela hotsen segmentu-banaketa egiterakoan. Aipuaren amaiera aldera Ladefoged-ek adierazten duenez, erabaki gogorrak dira hartu beharrekoak eta halaxe da. Ondoren erabakiei eutsi egin behar zaie, banaketa guztiek oinarri bera izan dezaten eta iraupenaren azterketa esanguratsua izan dadin.</p><p>Hotsen banaketa areago zailtzen duen gertakari bat ebakikidetza da. Hizketa, jarraia denez, hots baten ezaugarriak hurrengo edo aurreko hotsera egokitu egiten dira. Clark eta Yallop-en eskuliburuan honela deskribatzen da ebakikidetza:</p><p>Features of articulation interact and overlap, in both anticipatory and perseverative fashion, sometimes extending over several segments.</p><p>Context dependent overlap of the kind we have been describing is often known as COARTICULATION. <ref type="bibr">(Clark &amp; Yallop 1990: 120)</ref> Segmentuak banatzerakoan ebakikidetzak eragindako hainbat zailtasun aurkitu ditut, adibidez bokal gehi kontsonante sudurkari bilkuretan, sudurkaritasuna bokalera pasatzen da eta trantsizioa, bokalaren eta kontsonantearen arteko muga non den esatea arazotsua da.</p><p>Segmentatzean beste arazo bat izan ohi da espektrogrametan azaltzen denaren interpretazioa. Zenbait kasutan audioan entzuten ez dena espektrogrametan ikus daiteke eta entzuten dena espektrogrametan ez azaltzea ere gerta daiteke. Akustikazko datuekin lan egitean erraz ohar gaitezke hiztunok fonologikoki "funtzionatzen" dugula, hau da, oharmena fonemikoa eta linguistikoa dela. Lehen esan bezala, tresnabidezko azterketan ikusten ez diren ezaugarri zenbait hiztunak hautematen ditu eta datu hauek oharmenetik, hiztunak duen ezagutza linguistikotik bakarrik interpreta daitezke. Ondorengo espektrograman, adibidez, pausa eta gero hiztunak 'ezteu ontzi asko...' ('ez dugu ontzi asko') 18 esaten du. Espektrograman ikus daiteke /s/ igurzkari hobikari lepokariaren aurretik ez dagoela /e/ aitzineko bokal erdi irekiaren arrastorik Hala ere, euskal hiztunak entzun egiten duela esan daiteke, eta hiztunak esan nahi izan duela ere bai. <ref type="bibr">19</ref> Nola azaldu gertakari hau? Datu fonetikoek bakarrik ezin dute honelako kasurik azaldu. Hiztunen oharmena fonemikoa eta linguistikoa izateak bakarrik ekar lezake interpretazio egokia.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">irudia: ezteu ('ez dugu')</head><p>Datuak datu, datuak interpretatzea da lanik garrantzitsuena eta hor oharmenak, esan bezala, leku handia hartzen du, nahiz eta XX. mendeko fonologian teorien moldaketan ez zaion garrantzi handirik eman oharmenari, oro har.</p><p>Hizkera arina, lasterra eta arretarik jarri gabekoa denez aztergaia, hizketaldian lastertasun aldaketak daude eta zenbait zatitan lastertasuna areagotu egiten da. Honekin batera hainbat segmenturen laburketa eta ezabaketa ere ikus daiteke.</p><p>Hizkera estiloa arduragabea izateak ere zailtasuna gehitu egiten dio ikerketari, hizketa hotsen ezaugarri akustiko eta artikulatorioek aldakortasun handiagoa erakutsi ohi dutelako, hurrengo aipuak adierazten duenez:</p><p>When the segments occur in other contexts, particularly in more complex sequences within a syllable or in sentences that are produced in a conversational or casual style, their articulatory and acoustic attributes may be modified. <ref type="bibr">(Stevens &amp; 1998: 557)</ref> Gainera, azterketa honetan ez da hitz bakar bat hartzen kontuan azterketarako, hiztunak esaten duen guztia baizik. Blecuak ederki adierazten du bere ikerketan zer nolako zailtasuna dakarren esaldi osoak kontuan hartzeak:</p><p>El hecho de analizar frases largas o párrafos supone una dificultad adicional, debido a que la velocidad de elocución es más elevada, los sonidos poseen una duración menor y las realizaciones presentan una mayor relajación. <ref type="bibr">(Blecua 2001: 78)</ref> Laburbilduz, esan daiteke segmentu-banaketa egiterakoan arazo nagusienak ebakikidetza, adierazpen grafikoetan agertu ez arren hiztunaren zein entzulearen gogoan dauden hotsak, lastertasuna eta ezaugarri akustiko eta artikulatorien aldagarritasun handia izan direla.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Neurketak nola egin</head><p>Esan bezala, PCQuirer programak aukera ona ematen du segmentu-banaketa marrak irudian bertan adierazteko. Segmentuen mugak kolore beltzeko marra bertikal batek adierazten ditu; segmentu bat ezker-eskuin mugatuta egongo da eta neurtu beharrekoa horixe izango da, segmentu baten ezker-eskuin dauden marren arteko tartea, segmentua mugatzen duten marren arteko tartea. Tarte hori izango da segmentuaren iraupena adierazten duena.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Segmentu-banaketa irizpideak</head><p>Azterketan segmentu-banaketa egiteko kontuan hartu diren irizpideak aipatuko ditut ondoren. Esan behar da ez dela irizpide bakarra, ezinezkoa baita irizpide bakarrari kasu eginda banaketak zailtasunik gabe egitea. Konplexutasuna handia da, segmentu batetik besterako muga-eragileak bat baino gehiago direlako. Aukera orokorrei jarraituz, kasuan-kasuan erabaki behar da segmentu-banaketa nola eta zergatik gauzatu. Hona hemen kontuan hartutako irizpideak.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.1.">Bokaltasuna</head><p>Bokaltzat identifika daitekeena bokaltzat hartuko da, bokalari dagokiona bokalari emanez eta bestea kontsonantetzat hartuz. Hau da irizpide nagusienetako bat.</p><p>Bokalek kontsonanteek baino ezaugarri akustiko garbiagoak edo zehazten errazagoak dituzte, kontsonanteen ezaugarri akustikoak askotarikoak baitira. Bokalen ezaugarri bereizletzat hartzen dira artikulatorioki aire-etorrian eragozpenik ez izatea eta akustikoki uhin periodikoak izatea. Espektrograma irudietan bokalak ezagutzeko lehenengo bi formanteak oso garrantzitsuak izaten dira, eta intentsitatea ere kontuan hartzen da. 20 Lehen bi formanteak aski nabarmen diren artean bokaltzat hartuko da delako segmentua. Adibidez, bigarren formantea desagertzen den unean, bokala hor bukatzen dela suposatuko da eta hor hasiko da hurrengo kontsonantea.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">irudia: eunen ("egunean")</head><p>Irudi horretan garbi nabarmentzen da bokal eta kontsonante ozenen artean dagoen diferentzia. Bokaletan bi formanteak ederki nabari daitezke eta ozenek baino intentsitate gehiago dutela ere antzematen da. Irudian islatzen diren kontsonanteak ozenak dira, eta esan dugunez, kontsonante ozenek lehenengo bi formanteak izan ohi dituzte. Irudiko lehenengo kontsonanteak bigarrenak baino formante egitura sendoagoa agertzen du, bigarrena amaiera posizioan izatean intentsitatea galduz doalako eta formante egitura ere bai. Kontsonanteek bokalek baino intentsitate gutxiago dutela ikus daiteke, oro har, bigarren formantetik gora.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.2.">Bokal-bokal bilkura</head><p>Bokal arteko banaketak egitea ez da batere erraza; bokal trantsizioetan zail gertatzen da bokal bati dagozkion ezaugarriak non hasi edo non bukatzen diren jakitea. Aztergaia silabak direnez, elkarren ondoan dauden bi nolakotasun bokalikok diptongoa osatzen badute, ez dira bokal eta irristariak bereiziko, biak silaba berari baitagozkio. 21 Diptongoa nolakotasun egonkorrik gabeko bokal bezala identifikatzen duen iritzia hartzen dut oinarritzat ikerketa honetan <ref type="bibr">(Donegan 1978, besteak beste)</ref>. Hiatoetan, bokalen mugak bereizi beharrekoak dira, bokal bakoitza silaba desberdinari dagokiolako.</p><p>Goiko irudian nabarmentzen da hasierako [e]-ren eta [u]-ren trantsizioa non gertatzen den. Baina beti ez da hala izaten, horregatik elkarren ondoan dauden bokalen artean mugak ipintzean hots uhinak eta espektrogramak lagungarri diren arren, hiz-keta entzuteak kasu hauetan asko lagundu du. Irudi grafikoez gain, ondoko irizpidea erabili da: bigarren bokala aurrekoaren oihartzunik gabe entzuten den momentuan hasi naiz bigarren bokala neurtzen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.3.">Bokala pausa aurrean</head><p>Isilune edo pausa aurreko bokalaren amaiera non dagoen esatea ere aski lan korapilatsua da. Etxeberriak bere lanean segmentu-banaketaz ari delarik, zailtasuna agertzen duten hainbat puntu aipatzen ditu eta bokalaren amaiera zehazteko zailtasunaren zergatia adierazten du: "bokal-amaieran hautemangarritasun eskaseko intentsitatez beherantz doazen soinu-dardara periodikoak ditugulako" <ref type="bibr">(Etxeberria 1988: 131)</ref>. Ikerketa honetan irizpidea izan da intentsitatea erabat jaisten den momentua arte, isilunea sortzen den arte bokaltzat hartzea eta iraupenerako kontuan hartzea.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.4.">Diptongoak</head><p>Ez da erraza izan zenbait kasutan diptongoa egiten den edo ez jakitea. Hizkera arduragabean sarri hizketa-laistertasuna bizkorra denez, zaila da bokal bilkura bat unitate erritmiko batean edo bitan egiten den esatea. <ref type="bibr">22</ref> Zalantzazko kasuak laborategiko bi lagunei eman zaie entzuteko, beraien iritzia kontuan hartzeko eta kasu gehienak argitu ditugun arren, adibide pare bat erantzun garbirik gabe gelditu da.</p><p>Fonetikoki emaitza zehatzagoak lortzeko intentsitate kurbak ere neurtu beharko lirateke, baina ikerketa honen mugetatik kanpo geratzen da honelako azterketa egitea.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.5.">Bokal-kontsonante ozen bilkura</head><p>Kontsonante ozenak dira bokalen antzekotasun handiena duten kontsonanteak. Esan bezala, lehenengo bi formanteak dituzte, nahiz eta bigarren formantetik gora intentsitate gutxiagoko egitura antzematen zaien. Horixe izan da bokalak kontsonante ozenetatik banatzeko arrasto nagusiena: formante egitura desberdina eta intentsitate jeitsiera. Kasu hauetan kontsonante ozenaren espektrograman azaltzen den belztasun maila lagungarria izan da banaketa egiteko, ozenetan belztasun maila jaitsi egiten baita.</p><p>Bokalari sudurkariak jarraitzen dionean, esan dut ebakikidetza gertatzen dela, hau da, bokalak kontsonantearen ezaugarri batzuk hartzen dituela. 3. irudian ikus daitekeenez, /e/ aitzineko bokal erdi-irekiaren ondoren sudurkari hobikaria dator; bokalaren lehenengo bi formanteak ederki nabarmentzen dira eta goiko partean belztasuna ikus daiteke. Honelako kasuetan, bokala bokal gisa identifika daitekeen artean, hau da, bokalaren lehenengo bi formanteak agerian dauden artean (nahiz eta goiko partean sudurkaritasunaren arrastoak egon), bokaltzat hartuko da, 4.3.1. irizpideari jarraituz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">irudia: baten ("batean")</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.6.">Bokala-kontsonante frikari edo herskaria bilkura</head><p>Bokalaren ondoren kontsonante frikari edo herskaria datorrenean banaketa non egiten den ikus daiteke egitura (espektro)grafikoa, kontsonante ozenetan baino areago aldatzen delako. Beheko adibidean ikus daiteke /a/ erdiko bokal irekiaren ondoren datorren /s/ igurzkari hobikari lepokariaren irudi espektrografikoa nola aldatzen den.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">irudia: bazkari ("bazkari")</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.7.">Hiru bokalen bilkura</head><p>Bi bokalen artean silabagiletasunik gabe ahoskatzen den /i/ aitzineko bokal itxia dagoenean 23 ez da samurra izaten segmentu-banaketa. Arazoa azaleko gauzatze fonetikoa zatitzean sortzen da. Gai honek azterketa gehiago behar duen arren, beheko irudiko lehenengo bokala diptongo bihurtzen dela esan daiteke, 24 eta bokal itxia kontsonante bilakatzen: [oj.ae,a] ('ohea'). Ondoko espektrograma irudian ikus daitekeenez, hersketara agian ez baina trabaritzat har daitekeen hutsune bat aurki daiteke eta bokalaren ezaugarriak galdu egiten direla esan daiteke. Hutsunearen hasiera hartu da silaba-mugatzat.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">irudia: oiak ("oheak")</head><p>Esan bezala, horrelako adibideek azterketa sakonagoa merezi dute inolaz ere.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.8.">Dardarkari anitza bokalartean</head><p>Dardarkari anitza bi bokal berdinen artean dagoenean ikusten da ixte azkar bat baino gehiago egiten direla. Ixteen tartean bokalen ezaugarriak ikusten dira. Hala ere, bokalaren hasieratzat hartuko da bokalen ezaugarri horiek jarraian ikusten direnean; esan nahi baita, dardarkariaren ixteen tartean agertzen diren bokalen ezaugarri horiek ez direla bokaltzat hartuko, kontsonantearen zatitzat baizik, iraupenaren neurketari dagokionez.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">irudia: arramaiok ("armairuak")</head><p>Normalean ez dago zailtasun handirik bokal arteko dardarkaria bereizteko.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.9.">Dardarkari gehi kontsonante bilkura</head><p>Dardarkari hobikari gehi kontsonante bilkura dagoenean segmentu-banaketa zaildu egiten da. Blecua-k, banaketa zaila gertatzen den kasu bat aipatzen du: su-durkari + herskari ahostun + dardarkari + bokal bilkura dagoenean, zehazki. Gure azterketan ere badugu horrelako bilkurarik: andresek adibidean. Blecua-ri jarraituz egin dut banaketa; hala ere, ez dira zalantzarik gabeak izan hemen hartutako erabakiak. Blecuak berak izandako zailtasunak dira hurrengo aipuan adierazten direnak:</p><p>Sin embargo, en algunas realizaciones de la nasal los formantes son tan débiles que prácticamente no se aprecian, lo que supone un problema de segmentación entre nasal y la oclusiva sonora. Como no se distingue claramente el límite entre ambas, no se sabe con certeza si se realizan los dos sonidos o si uno de ellos se elide; en este último caso, resulta también muy difícil determinar si el sonido elidido es la nasal (y la vocal adyacente y quizás también la oclusiva presentan un grado considerable de nasalización) o si el elemento que no se realiza es la oclusiva (y la nasal aporta la información referente a su punto de articulación). Perceptivamente no se puede llegar tampoco a una conclusión definitiva. <ref type="bibr">(Blecua 2001: 78-79)</ref> Sudurkari eta herskariaren artean banaketa egiterakoan intentsitatea izan da kontuan hartutako irizpidea, nagusiki. Intentsitate gutxiko sudurkariaren ondoren intentsitatea erabat jeisten denean herskaria dagoela suposatu da. Baina egia esan, intentsitate jeitsiera hori dardarkariaren lehen hersketa ere izan daiteke. Honelako adibideek ederki adierazten dute gai honek duen azterketa akustiko gehiagoren premia.</p><p>Hona hemen corpuseko adibide bat:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">irudia: andresek ("Andresek")</head><p>Esan daiteke oso gune dinamikoa dela hiru kontsonante hauek biltzen direnekoa. Blecuak berak ere adierazten du ez dela erraza kontsonante talde horretan gertatzen dena "ikusten". Gune dinamikoetan akustikoki eta artikulatorioki aldakortasuna egon ohi da. Aldiz, hiztunari eta entzuleari mezuaren ezagutza linguistikoak konpentsatzen dio zailtasun fonetiko-fisikoa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.10.">Isilunearen ondorengo kontsonante herskariak</head><p>Isilunearen ondoren datozen kontsonante herskariak non hasten diren zehaztea arazotsua da. Kontsonante herskariak ekoizterakoan hasieran hersketa gertatzen da eta ondoren leherketa. Isilunearen ondoren hersketa non hasten den zehaztea ez da erraza, zenbaitetan, ez baita ez hots uhinean ez espektrograman hersketaren arrastorik azaltzen. Hoequist-ek, banaketarako zailtasunez ari delarik, zalantza hau plazaratzen du:</p><p>All syllable durations were measured from the onset of aperiodic acoustic energy (i.e. the acoustic onset of the "consonantal" part of the signal). This introduces an automatic distortion into any measurement of stop-initial syllables, since it fails to measure the preceding silence which is the consequence of the closure of the vocal tract, and as much a part of the stop as the release. <ref type="bibr">(Hoequist 1983: 24)</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">irudia: ba ondo ("ba ondo")</head><p>Segmentu-banaketa egiteko irizpidetzat hartu dut pausa ondorengo kontsonante herskarien hersketa kontuan ez hartzea. Hersketaren adierazpen grafikorik izan ezean asmatu egin beharko genuke hersketa non hasten den eta fidagarriagoa iruditu zait "ikusten" denarekin lan egitea, nahiz eta datuak erabat osoak ez izan. Entzumenaz ere baliatu naiz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.11.">Isilune aurreko kontsonante herskariak</head><p>Gauza bera gertatzen da isilune aurreko herskariak non amaitzen diren zehazterakoan ere. Zenbaitetan leherketa ikus daiteke, 9. uhin-irudiak agertzen duenez. Baina beste zenbaitetan ez da ez hersketarik ez leherketarik ikusten, adibidez 10. irudian. Ikusten ez den kasuetan, entzumena erabili dut segmentu-banaketa marra ipintzeko.</p><p>Beste era bateko azterketak egitea ere komenigarria izango lirateke, artikulatorioak adibidez, segmentu-banaketa egiteko zalantzazkoak diren kasu batzuetan zalantzak uxatzen lagunduko lukeelako, baina oraingoz albo batera utzi ditut era honetako azterketak, erabat gaindituko lituzkeelako lan honen helburuak. 9. irudia: nik ittet ("nik egiten dut") 10. irudia: -tzen det ("-tzen dut")</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.12.">Bi kontsonante herskariren bilkura</head><p>Bi herskarik silaba-muga tartean dutenean arazotsua izan ohi da segmentu-banaketa, 25 ia beti herskari bakarra egiten dela esan daitekeelarik. <ref type="bibr">Stevens-en (1998)</ref> aipuak ere, ingelesaz ari delarik, halaxe iradokitzen du:</p><p>The absence of a release burst for the initial consonant in a two-stop sequence across a syllable boundary is common. The place of articulation for the first consonant is signaled by the formant transitions at the closure, and acoustic events at the release provide cues for the second consonant. The time between closure and release for the two-consonant sequence is greater than the time for a singleton consonant in intervocalic position. <ref type="bibr">(Stevens 1998: 556)</ref> Gure corpusean aurki daiteke honelako adibiderik, nik itteittut geo ('nik egiten ditut gero') hitz andanaren espektrograma zati batek adierazten duen bezala:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="11.">irudia: [nik itteitt]ut geo ("egiten ditut gero")</head><p>Adibide honetan ere ez da ikusten itteittut-eko ("egiten ditut") amaierako herskari ahoskabearen arrastorik 26 eta silaba kodan kenketa gertatu ondoren ekinean kontsonante bakarra dagoela suposatu dut. Entzumena oso lagungarria izan da honelako kasuetan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.13.">Kontsonante frikariak</head><p>Kontsonante frikarien segmentu-banaketa egitean, espektrogramaren goi partean agertzen den zarata agertu / ez agertu kontuan hartu da.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.14.">Isiluneak</head><p>Zenbaitetan espektrograma lagungarri izan da hizketan dauden tarteak zehazteko. Hizketa jarraia, arduragabea denez ikertutakoa, hizketan egoera errealean egiten diren tarteak ere badaude. Zenbaitetan zaila da esaten tresnen laguntzarik gabe tartea dagoen ala ez. Zenbaitetan entzuleak tartea hauteman arren, espektrograman ikus daiteke ez dagoela tarterik. Beste zenbaitetan, aldiz, espektrogramak lagundu egiten du tartea markatzen. Beheko irudiak, adibidez, asko laguntzen du hiztunak jekitare eon ("jekita ere egon") dioenean, /e/ aitzinako bi bokal erdi-irekien artean tartetxo bat egiten duela esateko.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="12.">irudia: jekitare eon in bear det eta ("jekita ere egon egin behar dut eta")</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Emaitzak</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Silaba-egiturak</head><p>Guztira 389 silaba dira neurtutakoak, hauetarik 264 silaba irekiak dira (%67,85) eta 125 itxiak (%32,12). 27 Lehenengo hurbilketatik bertatik ikus daiteke silaba irekien nagusitasuna. Aipatu behar da V agertzen denean, bokala nahiz diptongoa adierazi nahi dela. Esan dut froga pilotu honetan diptongoak bokal gisa kontatu direla eta erabaki horren oinarrian ondoko aipuan adierazten dena dago:</p><p>A diphthong is a two-part vocalism that constitutes a single syllable peak. Since, in a diphthong, two vowels are mapped onto a single syllable, one of them must be non-syllabic. <ref type="bibr">(Donegan 1985: 187)</ref> Diptongoa bokaltzat hartzeak, oro har, ez du aldaketa esanguratsurik eragin emaitza orokorrean. Hala ere, bokal soil eta diptongoen arteko banaketa egiteak emaitza zehatzagoak lekarzkeenez, hurrengo azterketetan kontuan hartzea komeniko litzateke.</p><p>Silaba-egiturari begiratuta hauexek dira portzentaiak:</p><p>-CV % 47,30 -CVC % 20,30 -V % 20,30 -VC % 11,05 -CCVC % 0,77 -CCV % 0,25</p><p>Uste guztien arabera, CV egitura zen erabiliena eta portzentaiei begiratuta ikusten da halaxe dela, diferentzia nabarmenarekin gainera, %47,30 baita CV egitura erabilitako kasuen kopurua. CVren atzetik, CVC eta V egiturak dira erabilienak, biak ere portzentaia berarekin, hain zuzen ere, bakoitza %20,30eko portzentaiarekin. Aipagarria da CV ondoren erabilienak diren bi egitura hauen portzentaiak batuta baino portzentaia handiagoa duela CV egiturak berak. Laugarren egitura erabiliena VC da: %11,05 aldiz agertzen da corpusean. Eta azkenik, oso portzentaia maila baxuekin CCVC eta CCV egiturak. Aski datu esanguratsuak dira silaba tipoen proportzioek eskaintzen dizkigutenak.</p><p>Silaba motak neurtzerakoan, espektrogrametan hitz amaieran herskariaren arrastorik ikusten ez zitzaien adibideak CVC gisa kontatu dira, 4.3.11. atalean esan bezala, zenbait kasutan herskaria entzun ahal izan delako. Erabaki honi jarraituz, silaba itxi gehiago aurki ditzakegu gure kontaketan, amaierako kontsonantea kontatu ezean CV kopurua igo egingo bailitzateke.</p><p>Silaba itxiei eta irekiei begiratuta, ikus daiteke silaba irekiak erabat nagusitzen direla %67,85eko proportzioarekin, eta itxiek %32,12ko proportzioa dute. Sarreran esandakoa berresten da, silaba-aldiko hizkuntzek duten silaba irekirako joera erabat betetzen baita.</p><p>Lehenengo atalean ere aipatu ditut silaba-aldiko eta azentu-aldiko hizkuntzen joera zenbait. Esan bezala, azentu-aldiko hizkuntzek sarri silaba-egitura konplexuagoak (errima egitura konplexuagoak dituztenak) onartzen dituzte eta silaba-aldikoek CV-silaba-egiturarako joera handiagoa dute. Azentu-aldiko hizkuntzek azentugabeko bokalak murriztu eta desagertzeko joera dutenez kontsonante multzokatzeak sortu ohi dira, batez ere kodan. Horrelako joerarik ez dugu ikusten silaba-aldiko hizkuntzetan, silaba guztiak berdin gordetzeko ahalegina egiten baita, eta bokal murriztapenak gertatzen badira, silaba guztietan era proportzionalean izan ohi da, inolaz ere ez azentu-aldiko hizkuntzetan bezala bokala galtzeraino.</p><p>Corpusean CV egitura da, egitura ez-markatuena, gehien erabiltzen dena. Kontsonante multzoak aurki daitezke, adibidez, ekinean biko kontsonante multzoak: .drV bilkura andresek adibidean; baina, esan bezala, oso portzentaia baxua dute. Kodan ez dago kontsonante bilkura tautosilabikorik, kontsonante bakarra agertzen da beti (78 agerraldi). Hauek dira agertzen diren koda kontsonanteak: -albokari hobikaria /l/ (2 agerraldi) -sudurkari hobikaria /n/ (33 agerraldi) -dardarkari hobikaria /r/ (9 agerraldi) -igurzkari hobikari lepokari ahoskabea /s/ (3 agerraldi) -igurzkari hobiari apikari ahoskabea /s´ / (4 agerraldi) -igurzkari sabaiaurreko ahoskabea /ʃ/ (agerraldi bat) -herskari horzkari ahoskabea /t/ (9 agerraldi) -herskari belar ahoskabea /k/ (17 agerraldi).</p><p>Aipagarria da herskaria kodan agertzen direneko adibideak hitz amaierako kasuak direla eta ez dagoela hitz barneko koda kasu bakar bat ere. Herskariek, agertzen direneko kasu gehienetan, balio morfologikoa daukate, hau da, hizki funtzional morfologikoei dagozkie: deklinabide atzizki markak (adibidez -rik), aditzeko pertsona markak (det, esaterako), edo izenorde konjugatuak (nik, kasu). Forma lexiko bakarra agertzen da amaieran balio morfologikorik gabeko herskaria duena: zemat.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">Iraupenak</head><p>Silaba irekien eta itxien iraupenak ematerakoan lehenik eta behin batez bestekoa agertzen da, emaitza hau silaba mota bakoitzetik silaba guztien iraupenak batu eta ondoren batutako silaba kopuruaz zatituta ateratzen da. Ondoren medianaren balioa agertzen da. Puntuazio txikienetik handienera ordenatuta, mediana erdiko posizioan dagoen puntuazioa da. Silaba irekietan adibidez, silaba ireki guztien balioak kontuan hartuta eta balio txikienetik handienera ordenatuta, 118,20 ms.-ko balioa duen silaba irekia ordena horretan balio guztien erdian kokatzen dela adierazi nahi du. Ondoren, gutxieneko iraupena agertzen da, hau da, iraupen gutxiena duen silaba eta amaitzeko, gehieneko iraupena edo iraupen luzeena duen silaba.</p><p>Ondoko emaitzak lortu dira azterketa honetan: 28 -Silaba irekien iraupena:</p><p>• Datu hauetan ikus daiteke badela desberdintasunik iraupenari dagokionez silaba irekien eta itxien artean. ANOVA esanguratasun indizearen arabera, silaba itxien eta irekien arteko iraupen desberdintasuna esanguratsua da: [F(1,388) = 86, 884, p = 0, 000]. Izan daiteke silaba itxiek segmentu bat gehiago edukitzean ahoskatzeko behar duten denborak eragindakoa izatea diferentzia, baina ondorio irmorik atera aurretik ikusi beharko litzateke silaba itxietan koda-kontsonantearen aurretik dagoenak, legokiokeen silaba irekiaren iraupen berdina lukeen. Horretarako corpusa zabaldu beharko litzateke eta eginkizun horrek lan honetan planteatutako helburu guztiak gainditu lituzkeenez, albo batera utzi da oraingoz ikerketa hori. Honen haritik, badira ikerketak segmentuen kopurua igotzeaz bat silaben iraupena ere igotzen dela erakusten dutenak, besteak beste <ref type="bibr" target="#b28">Kruckenberg &amp; Fant (1995)</ref>. Autore hauek frantsesezko eta suedierazko datuak erabili zituzten beraien ikerketak egiteko. Frantsesa silaba-aldiko hizkuntza da eta suediera azentu-aldikoa. Bi hizkuntzetan silaben iraupena igo egiten da segmentuak gehitzen doazen heinean. Beraz, ikerketa honetan lortutako emaitzak ez dira harrigarriak.</p><p>Ondoren, bildutako datuak antolatzeko eta aurkezteko, maiztasunen banaketa adierazten duten grafikoez baliatuko naiz. Datuak histogramen eta kaxa-diagramaren bidez irudikatuko ditut, irudi grafikoekin indize estatistikoen kalkulua errazteko asmoz. Bi irudikapenetan silaba motak, iraupenak eta iraupenaren araberako agerraldi kopuruak adierazten dira, baina era desberdinean, irudi mota bakoitzak ezaugarri bat era garbiagoan azaltzen baitu. Histogrametan denboraren araberako frekuentzia edo agerraldi kopurua hobe antzematen da eta, kaxa-diagraman silaba moten iraupenen arteko diferentzia garbiago irudikatzen da.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>silaba irekien histograma irudia silaba itxien histograma irudia</head><p>Histograma irudietan bertikalean silaba moten agerraldi kopurua adierazten da eta horizontalean silabaren iraupenaren balioak islatzen dira milisegundotan. Iraupenaren araberako agerraldi kopurua da irudi hauetan azpimarratzen dena. Ezkerrean agertzen den histograma silaba irekiei dagokie eta eskuinekoa silaba itxiei.</p><p>Silaba irekien histogramari begiratuta, ohar gaitezke, silaba irekien agerraldi gehienak 100-120 milisegundo inguruan gertatzen direla; balio hau lehen aipatutako medianarenarekin bat letorke: iraupen horren inguruan dauden silaba irekiek dute agerraldi gehien. Agerraldi kopuruari begiratuta, esan daiteke, silaba ireki gehienak 50 milisegundo eta gutxi gora-behera 180 milisegundo artean kokatzen direla. Muga horietatik kanpo dauden silaba irekien kopurua asko jaisten da, muga horien barnean daudenekin alderatuz.</p><p>Silaba itxien histogramari begiratuta ohar gaitezke agerraldi gehien dituzten silaba itxiek gutxi gora-behera 180-220 milisegundo arteko iraupena dutela, beste era batera esanda, iraupen tarte horretan dauden silaba itxiak dira agerraldi gehien dituztenak. Irudiari begiratuta, ikus daiteke, gainerako silaba itxien agerpen maiztasuna, gehiengo agerpen maiztasun horren arabera nolabait mailaka jaisten dela; aldiz, silaba irekien histogramari begiratuta ez da ikusten denboraren araberako agerraldi kopuruen jaitsiera hain mailakaturik. <ref type="bibr">29</ref> Ondorengo grafikoa kaxa-diagrama deiturikoa da; sailkapen baten erdiko balioaz gain (mediana), honen aldakortasuna grafikoki adierazteko erabiliko da:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>kaxa-diagrama irudia</head><p>Kaxa-diagrama irudian bertikalean iraupena adierazten da (milisegundotan) eta horizontalean silaba itxia edo irekia den ikus daiteke. Irudi honek iraupenen dispertsioaren graduari buruzko informazioa azpimarratzen du. Bi zutabe ikus daitezke, ezkerrekoa silaba irekiei dagokie, eta eskuinekoa silaba itxiei. Zutabe bakoitzean ikusten den kaxak erdiko kasuen %50 hartzen du bere baitan, hau da, erdiko kasuen %50 zein eremutan dagoen adierazten du. Kaxa bakoitzaren erdian, marra lodiagoz medianaren balioa azaltzen da. Kaxetatik goruntz eta beheruntz marra bertikalak abiatzen dira eta erdiko baloreetatik urruntzen diren balioen mugak adierazten dituzte. Ezkerreko zutabean, marra bertikal horretatik kanpo borobil baten bidez balio bat azaltzen da eta balio atipikoa dela esan nahi du. <ref type="bibr">30</ref> Iraupenari dagokionez, silaba irekiak zein eremuren artean kokatzen diren ikus daiteke irudian. Gauza bera ikus daiteke silaba itxiekin ere. Iraupen diferentziak dira gehien "ikusten" direnak adierazpen grafiko horretan. Irudian, silaba mota bakoitzaren mediana agertzen da nabarmenen, esan dugunez marra beltz potolo batez markatuta, eta marra hauen bidez silaba itxien eta irekien medianen artean dagoen aldea ongi nabarmentzen da.</p><p>HIZKETA ARDURAGABEAREN TRESNABIDEZKO AZTERKETA AKUSTIKOA 393 Bada datu interesgarri bat kaxa-diagramak ongi adierazten duena. Badira silaba itxiak silaba irekiak baino iraupen laburragoa dutenak. 31 Datu horrek azterketa gehiago merezi du inolaz ere. Interesgarria litzateke jakitea, adibidez, zenbatekoa den silaba irekiek baino gutxiago irauten duten silaben kopurua, zein kontsonantez amaitzen diren silaba horiek, silabak hitzaren zein posiziotan agertzen diren, eta abar.</p><p>Corpuseko silaben iraupena eta iraupenen frekuentziak adierazten dituzten irudiak ikusi ondoren, esan daiteke ondorio itxietara heldu aurretik, gaiarekin lotutako azterketa gehiago egin beharko liratekeela. Atalean zehar aipatutako zenbait ikerketa gaiez gainera, komenigarria litzateke neurtzea adibidez, silaba itxien buru eta silabaguneak bakarrik, silaba itxi (koda-kontsonantea kontuan hartu gabe) eta irekien artean iraupen diferentziarik ba ote legokeen ikusteko.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3.">Beste ikerketekin alderaketa</head><p>Atal honetan zehar aipatu denez, euskararen silaba iraupena neurtu den beste lanetan <ref type="bibr">(Etxeberria 1998</ref><ref type="bibr" target="#b13">, Elordieta &amp; Hualde 2002</ref>) silabaren iraupenean ez da diferentzia esanguratsurik aurkitu. Azterketa honetan esanguratasun indizea neurtuta diferentzia esanguratsua dela ondorioztatu dut. Honen ondoan, ikus daiteke silaba itxi ugari daudela silaba irekiek baino iraupen gutxiago dutenak. Beraz, esan daiteke diferentzia esanguratsua izan arren, silaba itxi guztiak ez direla irekiak baino luzeagoak iraupenari dagokionez.</p><p>Euskarazko silaben iraupenak alderatzea ez da lan erraza, azterketak ez direlako ugariak eta daudenek ikergai berberak ez dituztelako, edo baldintza desberdinetan egindako azterketak direlako. Datuen aldetik corpus erraldoiak dituzten proiektuak beharko lirateke, dialekto desberdinak, hizkera desberdinak kontuan hartzen dituztenak, baina ez da erraz euskarazko datuekin halakorik topatzea.</p><p>Lehen esan dugu Etxeberriaren eta Navarro Tomás-en lanak izango ditugula beti ere alboan erreferentziatzat, hizkera berdina delako ikerketa hauetan guztietan aztertzen dena, eta alderaketak egiteko aukera eskain dezaketelako. <ref type="bibr">Etxeberriak (1988)</ref> bokalen iraupena du aztergai nagusia, baina silaben iraupenik ez du ematen. Ondorengo azterketa batean (1998koan aipatutakoan), I. Hernaezekin batera silabak neurtu zituen, hitz homonimoen silabak, hain zuzen ere, eta gorago jarritako aipuan dioenez, silaben iraupena berdintsua da. <ref type="bibr">32</ref>  El alargamiento de las sílabas no se ha producido propiamente en relación con la estructura de las mismas ni tampoco con arreglo a la colocación de cada una de ellas dentro del verso. El énfasis ha hecho que las sílabas hayan resultado largas en cualquier posición, aún cuando, en efecto, dicho énfasis se haya manifestado con mayor insistencia, en la posición inicial y final del verso.</p><p>Pero si en lo que se refiere en particular a la duración de las sílabas, no se advierte en los versos medidos ningún orden ni combinación regular, considerada la materia desde otro punto de vista, la cantidad desempeña, sin duda, un papel importante dentro de la estructura rítmica del verso. <ref type="bibr">(Navarro Tomás 1925: 638)</ref> Datu hauek nire azterketako datuekin alderatzea ez litzateke erabat zuzena. Navarro Tomás-ek ondorio hau bertsoekin osatutako materiala neurtzerakoan atera zuen eta lehen ere esan bezala, ondorio hau berak erabilitako material gehiagori ere heda dakioke, izan ere silabak perpausean neurtzeko material zati bat "Aita gurea" otoitza zen. Nahiz eta errezua errezitatua izan eta ez abestua, erritmoaren oihartzu-nak ezinbestean irits daitezkeela suposatu behar dugu. Beraz, datu hauek ere alderaketa egiteko ez lirateke egokienak.</p><p>Hitz solteak neurtuta lortutako datuak geratzen zaizkigu soilik alderaketa egiteko. Oso datu gutxi dira artikuluan agertzen direnak eta alderaketa egokia egiteko urriegi, inolaz ere. Beraz, azterketak egiterakoan erabilitako neurketa irizpide desberdinengatik eta alderaketa egokia egiteko erabilgarri diren datuak oso urriak direlako, ez da komeni Navarro Tomás-ek lortutako datuak eta gure azterketako datuak besterik gabe alderatzea, edo hortik ondorio zuzenak ateratzea.</p><p>Hizkera berean oinarritutako beste azterketa bat Etxeberriarena dela aipatu dut. Etxeberriaren lanean <ref type="formula">(1988)</ref> The resulting importance of casual speech for phonemicization will not strike us as exeggerated (sic.) when we realize that presumably 99% of what we speak and hear is casual speech. <ref type="bibr">(Dressler 1985: 315)</ref> Etxeberriak esaldi inguratzaileak erabili zituen neurtu nahi zuena neutralizatzeko eta hemen ez da horrelakorik gertatu: edozein posiziotan agertutako bokalak dira, edozein testuingurutan eta entonazio eta azentua eragileak ez dira kontuan hartu. Beraz, datuen oinarria bestelakoa da.</p><p>Aurrerago etor daitezkeen azterketetarako uzten dut bokalen iraupena neurtzeko eragile desberdinak kontuan hartzeko premia. Formulak bilatu beharko lirateke eragile desberdinak kontuan hartuta hizketa arduragabea grabatu ahal izateko, besteak beste, corpus erraldoiak biltzeko proiektuak. Baina helburu horiek lortzeko batik bat, ikertzaile taldeak biltzea nahitaezkoa da. Era berean, aurrerago egin beharreko zereginen artean uzten dut silabak neurtzeko aldagai desberdinak kontuan hartzeko beharra.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Ondorioak</head><p>Hizkera arduragabea ikergaitzat hartzea froga honen abiapuntua izan da eta nolabaiteko apustua ere bai, izan ere, orain arte euskaraz ez da horrelakorik egin. Hautaketa honek ezinbestean beste zenbait gauzatan oso behin-behinekotasunean ibiltzera (ausardiaz) eraman nau.</p><p>Aipatu dut laborategian egindako azterketetan hitz zerrendak edo perpausean sartutako hitz bat izan ohi dela neurtzen dena; baina azterketa proposamen honek areago joan nahi izan du eta horregatik hartu da hizketa arduragabea iker-materialtzat. Hizketa arduragabea aztertzeak zailtasun handia dakar, baina areago, beharrezkoa ere bada, bestelako hizkera-maila "artifizialagoetan" gertatzen ez diren zenbait bilakabide aurki daitezkeelako eta gauzak desberdin direla frogatzeko. Lehenago esan bezala, hizkuntzalarion ikergaia hizkera erreala da eta horren ezaugarrietatik gertuago dago mota honetako ikerketa laborategikoa baino, nahiz eta laborategikoa ere beharrezkoa den, erreferentzi joerak izateko eta zenbait alderdi kontrolatu edo isolatzeko aukera bakarra delako.</p><p>Hizketa ahalik eta egoera naturalenean jasotzeko asmoari eutsiz grabaketa hiztunaren ingurunean egin zen. Laborategian bertan egoteak, hau da, hiztuna bere ingurune naturaletik urruntzeak, sor dezakeen eragina ere uxatu nahi izan zenez, grabaketa laborategitik kanpo egin zen. Zenbait alderdi akustiko neurtzeko laborategiko baldintzak ezinbestekoak dira (seinalearen garbitasuna, eta abar), baina eskuartean dugun azterketa egiteko ez zenez nahitaezko baldintza, hiztunaren eguneroko bizilekua hautatu zen grabaketa egiteko.</p><p>Bestalde gertakari historikoen (sinkroniko zein diakroniko) esplikazioa bilatu nahi bada, ezinbestekoa da hizkuntzaren eguneroko erabilerari begiratzea, izan ere erabilera arruntean, arduragabean egon behar dute hizkuntza aldaketen hari asko, hurrengo aipuak adierazten duenez:</p><p>Language exists only in so far as it is actually used -spoken and heard, written and read. What significant changes take place in it must exist, to begin with, as individual variations. This is perfectly true, and yet it by no means follows that the general drift of language can be understood from an exhaustive descriptive study of these variations alone. They themselves are random phenomena, like the waves of the sea, moving backward and forward in purposeless flux. The linguistic drift has direction. In other words, only those individual variations embody it or carry it which move in a certain direction, just as only certain wave movements in the bay outline the tide. The drift of a language is constituted by the unconscious selection on the part of its speakers of those individual variations that are cumulative in some special direction. This direction may be inferred, in the main, from the past history of the language. <ref type="bibr" target="#b46">(Sapir [1921</ref><ref type="bibr">(Sapir [ ] 2004</ref> Azken batean, hizketa arduragabea euskaraz ikertzen hasteko aldarria ere egin nahi izan da froga honekin. Oraindik ere aski azterketa akustiko gutxi egin dira euskal fonologiazko kontuez eta azterketa guztiak ongi etorriak izango dira eta horien artean hizketa arduragabea oinarri dutenak ere bai.</p><p>Azterketan zehar garbi utzi nahi izan da momentu oro neurketak egiteko irizpideak zeintzuk diren. Zintzotasunez jokatu da datuak, zalantzak eta irizpideak ere agerian utziz. Gerora begira, komenigarria da datuak eskaintzea, datuak zabalik uztea eta erabilitako irizpideak zeintzuk izan diren garbi adieraztea, ondoren egingo diren azterketek, aurreko azterketen irizpideak garbi izanda, alderaketarako aukera izan dezaten. Hemen eskaintzen diren datuekin interesgarria litzateke alderaketak egitea bai beste hizkuntzetako datuekin, bai euskalki desberdinetako datuekin eta baita hizkera estilo desberdinetako datuekin ere.</p><p>Atal honetan behin baino gehiagotan esan denez, hemen egindako ikerketa froga bat izan da, ikerketa proposamen bat. Ikerketa lanean zehar aipatutako ezaugarri bat hartu eta azterketa saioa egin nahi izan da, jakinaren gainean egonda beti ere ez dela ikerketa osoa. Ikerketa fonetiko akustiko osoa izateko, azentua eta intonazioa adibidez, kontuan hartu beharreko alderdiak dira. Etorkizun diren azterketen artean geratzen dira baita ere silabek hitzean, esaldian duten posizioa kontuan hartzea. Izan ere, zenbait azterketa fonetikotan ikusten den gisan <ref type="bibr" target="#b18">(Hoequist 1983</ref>, besteren artean), silaba hitzaren hasieran, amaieran edo dagoen gunearen arabera, badirudi iraupenean baduela zeresanik; hitzak dituen silaba kopuruaren arabera ere aldatzen da silaben iraupena (Major 1985, besteren artean) eta alderdi hau ere interesgarria litzateke aztertzea. Corpus handiagoa ere beharrezkoa litzateke, bai hiztun aldetik, bai material aldetik ere. Baina horrek guztiak ikerketa lan ugari eskatzen du eta eskuartean daukagunaren helburuak erabat gainditzen dutenez, aurrerako utziko ditut.</p><p>Ikusi dugu silaba irekien eta itxien artean badela desberdintasunik, eta esanguratasun indizearen arabera, desberdintasuna esanguratsua da. Pentsa daiteke silaba itxiak normalean luzeagoak izatea, itxiak direnez, segmentu bat gehiago ere badutelako eta ahoskatzeko denbora gehiago ere behar dutelako. <ref type="bibr">Kruckenberg eta Fant-en (1995)</ref> ikerketak ere horixe erakusten digu. Silaba irekien eta itxien artean desberdintasuna esanguratsua izateak esan nahi du era berean, silaba irekien kopurua ikusita, silaba irekien aldeko nagusitasuna indartuta ateratzen dela, espero genuen bezala.</p><p>Datuei begiratuta ikus dezakegu silaba itxiak eta silaba irekiak batez bestekotik asko urrundu daitezkeela bai gutxieneko denboran eta bai gehieneko denboran. Azpimarragarria da, badirela silaba itxi asko silaba irekiek baino iraupen laburragoa dutenak. Gertaera horrek erakusten du silaba itxien eta irekien artean iraupenari dagokionez, diferentzia egon arren, diferentzia ez dela beti gertatzen. Joera bat izan eta ikus daiteke joera bat, baina ezin da esan joera horretatik asko urruntzen diren silaba iraupenak "oker daudenik"; nahiz eta silaba bat asko laburtu edo asko luzatu, ezin eman dezakegu "okertzat". Dena den, ezer esan aurretik, hizketa zati horietan begi-ratu beharko lirateke hizketako lastertasun orokorra, azentu baldintzak, eta abar. Interesgarria litzateke ikertzea gutxieneko denborak eta gehieneko denborak noiz gerta daitezkeen eta zerk eraginda gerta daitezkeen. Hemendik aurrera egin beharreko azterketen lana izan daiteke gertakari horren zergatia eta baldintzak ikustea.</p><p>Azterketarekin ezin gara ondorio itxi batera heldu eta arrazoi nagusia da ikerketa froga bat izan dela. Esan bezala, hiztun bakarraren datuak urriak izan daitezke ikerketa batean, kontuan hartu beharko liratekeen zenbait aldagai ez dira kontuan hartu azterketan (hala nola azentua eta entonazioa), eta abar. Baina era berean, mota honetako azterketek ikerketa berriak egiteko aztarnak eta bideak ireki diezazkigukete eta horixe izan da eskuartean dugunaren helburu nagusienetariko bat.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>Kontuan hartu behar da aztertutako hitzak homonimoak zirela eta beraz, aztertutako eta konparatutako silabek egitura bera zutela eta ez zegoela diferentziarik unitate kopuruan. Navarro Tomás-ek egindako azterketetan aipatzen dira silabaren iraupenak. Aipatu dut lehen ere Navarro Tomás-en eta Etxeberriaren neurketetan badela alderik eta irizpideetan egon daitekeela diferentziaren gakoa. Oro har, Navarro Tomás-en neurketek askoz ere iraupen gehiago dute. Azterketa honetako datuekin alderatuta ere ikus daiteke hala dela.Neurketak egiteko ondoko testuinguruak bereizten ditu Navarro Tomás-ek: hitz solteak, esaldi osoak eta bertsoak. Navarro Tomás-en artikuluan agertzen diren datuei jarraituz, testuinguru desberdinetako silaba irekien eta silaba itxien batez beste-Emaitza hauek hemen egindako azterketarekin alderatzen baditugu, erraz ikus dezakegu orokorrean iraupen altuagoak direla Navarro Tomás-enak. Alderaketa egin aurretik Etxeberriak esandakoak gogoratzea komeni da, hau da, Etxeberriaren eta Navarro Tomás-en iraupen aldearen arrazoia neurketa irizpide desberdinak jarraitzea izan daitekeela. Gogoeta honek gure azterketako emaitzekin alderatzeko ere balio dezake.Navarro Tomás-ek silaba bertso barruan neurtu ondoren, silabaren iraupenari buruzko gogoetak egin zituen: silaba laburrenak, espero bezala, silaba irekiak zirela esan zuen (hitz barruan daudenak eta silaba bokal batek bakarrik osatzen dutenak) eta luzeenak, silaba itxiak edo trabatuak. Zenbait kasutan silaba luzapena gertatzen dela konturatu eta gogoeta interesgarriak eskaintzen ditu. Ez da ahaztu behar bertsoak direla neurtutakoak eta beraz, bertsoaren erritmoa izango dela nagusi, hau da, bertsoaren erritmoa nagusituko zaiola hizketako erritmoari. Hona hemen zer dioen:</figDesc><table><row><cell>koak atera ditut. Hona hemen Navarro Tomás-en datuetatik atera ditudan emai-</cell></row><row><cell>tzak:</cell></row><row><cell>-Hitz solteak:</cell></row><row><cell>• silaba irekiak: 294,15 milisegundo</cell></row><row><cell>• silaba itxiak: 369,66 milisegundo</cell></row><row><cell>-Perpaus osoak:</cell></row><row><cell>• silaba irekiak: 215,70 milisegundo</cell></row><row><cell>• silaba itxiak: 276,14 milisegundo</cell></row><row><cell>-Bertsoak:</cell></row><row><cell>• silaba irekiak: 191 milisegundo</cell></row><row><cell>• silaba itxiak: 291,93 milisegundo</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>, esan bezala, bokalak neurtzen dira esaldi inguratzaileak erabiliz. Hitz amaierako bokalak eta hitz tartean dauden bokalak bereizi eta neurtu ondoren, hona zer dioen Etxeberriak: Orain arteko datu guzti hauek hartzen baditugu kontutan, hau da, amaierako posizioan eta beste lekugunetan dauden bokalak, esan daiteke 80 msg. eta 140 msg. bitarte horretan daudela aztertutako iraupen-mugak. (Etxeberria 1988: 287) Aipuan agertzen den denbora-tartea da, beraz, bokalen iraupen-tartea, gutxienekoa eta gehienekoa. Nik ere egin dut antzeko frogarik nire datuekin. Froga honetan corpusean agertutako bokal guztiak sartu ditut, edozein gunetan daudenak, silaba beraiek bakarrik osatzen badute edo ez kontuan hartu gabe. Hona hemen gure corpuseko bokalen Interesgarri izango litzateke, zalantzarik gabe, Etxeberriaren azterketaren batez bestekoa jakitea, baina bere lanean ez du datu hori eskaintzen. Esperimentuaren nolakotasun eta neurriengatik oso behinekoa izan arren, datu interesgarriak atera ditut alderaketatik. Oro har, nire corpusean Etxeberriarenean baino iraupen askoz gutxiagoko bokalak eta iraupen askoz gehiagoko bokalak daude. Etxeberriaren gutxieneko eta gehieneko baloreetatik nahikoa urruntzen dira nire corpuseko bokalen gutxieneko eta gehieneko iraupenak. Horren arrazoia, alde batetik, hizketa moldean legoke, hau da gurea hizketa arduragabeko datuak dira eta Etxeberriarenak ez. Iraupenean diferentzia egoteak frogatzen du hizkera jarrai eta bat-batekoa aztertzea ezinbestekoa dela, gauzak desberdin direlako laborategitik, eta azken batean, ez delako ahaztu behar hizkuntzalarion ikergaia hizkera ahalik eta naturalena, egunero erabiltzen dena izan behar duela. Hizkera arduragabea erabilitakoaren ia erabatekoa da, hurrengo aipuan adierazten denez:</figDesc><table><row><cell>iraupenaren emaitzak:</cell></row><row><cell>-Batazbestekoa: 79,66 msg.</cell></row><row><cell>-Gutxienekoa: 11,50 msg.</cell></row><row><cell>-Gehienekoa: 227 msg.</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">Oraingo frogan hizkera arduragabean oinarritu naiz. ASJU 2003/1ean froga honen osagarria izan daitekeena aurki daiteke, izan ere, idatzizko testuetan oinarritutako corpusa erabiliz esperimentu bat egin dut. Esperimentu horretan euskarazko idatzizko testuetan silaba-egitura maiztasunak atera ditut maiztasun horrek diakronikoki aldaketarik jasan ote duen ikusteko.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">Zaldibiarra zen sortzez D. Ramon Lizarralde apaiza. Gasteizen apaiztegian egon ondoren Alkizara joan zen eta bertan bizi izan zen. Herri askotan sermoilari ere bazenez, pentsa daiteke Zaldibiako hizkeraz gain beste hizkera batzuetako ezaugarriak ere bereganatuak zituela. Nahiz eta jakin zenbait ezaugarritan Zaldibiako hizkeratik pixka bat urrun zitekeela, bere hizkera egingo zuela pentsatzen dut.5  Ikertzailearen sustraiak bertan izateak ere badu nolabaiteko indarra, egia esan.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6">Doktorego tesia Fonologia Naturala teorian kokatzen da.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10">Azterketa areago joanez gero, silaba ixten duten kontsonanteen arabera diferentziarik ba ote den ikustea komenigarria litzateke, besteak beste, koda ahostuna edo ahoskabea izanda diferentziarik ba ote den aztertzeko, baina aurreragoko ikerketetarako utzi da azterketa hori. 11 Informatzailea, ikerlariaren amona zen, amaren ama. 2005eko udan hil zen.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12"> AIWA Omni-directional condenser microphone CM-T6. 14 Cool Edit Pro 1.0. 15 Programak eskaintzen duen aukera neutroa 5 segunduko denbora tartea da, nahiz eta segundu gutxi batzuk gehiago ere gehi dakizkiokeen. Denbora tarte txikiagoekin ere lan egin daiteke, noski.16  Kasu hau mihi-irristadak eta antzekoak aztertzen dituztenentzat baliagarri litzatekeen arren, azterketa honetatik kanpo utzi da.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="17">Baina beti ez da hala gertatzen.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="18">Parentesi artekoa esaldiari euskara batuan dagokion ordaina da. Hemendik aurrera, azterketan erabilitako esaldiei ondoan ordaina batuan jarriko zaie.19  Adibide horretan euskarazko historian gertatutako, eta oraindik ere indarrean dagoen ordezkatze fonologiko baten kontrakoa egiten dela ikus dezakegu (latinetiko maileguetan gertatutako spiritu &gt; izpiritu hasierako bokal gehiketa, hain zuzen ere). Euskal hiztunek bokala entzuten zuten hasieran eta oraindik ere bai, ikusi besterik ez da ingelesa edo alemana moduko hizkuntzak ikastean sortzen zaizkigun zailtasunak hitz hasieran frikari+herskari bilkura egiteko (cf.<ref type="bibr" target="#b27">Jauregi &amp; Oñederra 2002)</ref>.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="20">Bi formanteak kontsonante ozenek ere izan ohi dituzte, baina bokalek baino intentsitate gutxiagokoak izan ohi dira.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="21">Arrazonamendu honek, berez, muturreraino eramanda, silaba berean dauden kontsonante eta bokalen arteko banaketa ez egitea lekarke; baina honela ezin izango litzateke, adibidez, bokalen murrizketaren berri eman. Diptongoa osatzen duten bokal eta irristaria bereizi ez arren, silaba berean dauden kontsonante eta bokalak bereizi egingo dira. Diptongoen auzia, aski gai zabala, ez da jorratuko azterketa honetan, ikerketa gehiago behar duelako eta ildo nagusitik aterako gintuzkeelako.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="22">Hatzekin mahai gainean hitzaren neurri erritmikoaren arabera kolpeak joz ere egin da saiakera zalantzak uxatu asmoz. Askotan lagungarri izan da, baina ez beti.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="23">Silabagiletasuna galdu duelako. 24 Aurreko bokalean, bokal belaretik palatalerako trantsizioa ikusten denez, diptongatzea gertatu dela esan daiteke.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="25">Zaila da «grafikoki» bi herskarien artean muga ezartzea. Eginkizun horretarako datu akustikoez gain datu artikulatorioak ezagutzeak lagungarri litezke, beste zenbait kasutan ere aipatu bezala.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="26">Honelako adibideek eskain dezakete agian laguntzarik hitz konposaketan (begi + gain &gt; bekain moduko adibideetan) gertatutako kontsonante erorketa, aldaketa eta antzekoen azalpena aurkitzeko orduan.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="27">Maiztasunak ateratzerakoan komaren ondotik datozen bi zenbakiak hartu dira soilik kontuan eta horregatik emaitzek %99,97 adierazten dute.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="28">Silaba irekien eta itxien iraupenari buruzko azterketa estadistikoa SPSS 12.0 programarekin egin da.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="29">Beste era batera esanda, silaba itxien histograman piramide itxura gehiago ikus daiteke silaba irekien histograman baino.30  Alegia badirela 51 kasu atipiko kaxaren goiko muga adierazten duen balioa baino luzeagoak direnak.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="31">Silaba itxien zutabeari begiratuta, silaba irekien iraupena adierazten duen kaxaren paretik behera dauden silaba itxiak lirateke.32  Ezin ditut hemengo emaitzak eta Etxeberriarenak eta Hernaezenak alderatu, ez dauzkadalako azken autoreek elkarrekin egindako laneko silaben iraupen neurriak.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="33">Transkripzio ortografikoa da. Transkripzioan agertzen diren hiru puntuek nolabaiteko geldialdia (luzexeagoa edo laburragoa) dagoela adierazten dute.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Corpusaren transkripzioa: 33</head><p>Jekita re … eon in bear det eta … antxe eote naiz … oian … ola … bai … bazkarie nik itteittut geo … onea etortzen naizenen, nik abeleratzen det, bazkarin abelerea nik ittet … ta ontzik arek garbitzeittu … andresek … ta geo nik e … ontzik sekatu ta txapea pixkat garbittu … belaxe itteitteu … belaxe … gu bi launtxo … zemat zea bear do ba … ezteu ontzi asko ezteu zikintzen … bai, bai … etorriko a … lurdes iturrizakoa etortzea … andrea da baño … oso … emakume zea da … martxea artuta dao ta … arek eztauke ezer eakutsi bearrik … arek itteittu … bai … lanbaten eo ostielan ok garbitzeittu … zoruok eta … ostielan arromaio orik eta garbizeittu … ostielan … eta osteunen … konjeladorek eta oik … kanpoko konjeladore oik eta oik itteittu ta … ondo moldatzen da zeati … oiak itten ia lanik eztauku nere oia, andresek e beak lardaskatzeo baño eztakit ze itten don, itten don eo, andresek jeneal beak, berek beak itteittu arek … ta nere oia … ta oiri iurtzi bat eman ta geo otxek … eunen … puxkata bat pasatzea … len esan deana … eun baten karreako konjeladorek … urrungon emengo arromaiok … ta geo zoru hau ta geo urrungo beste eun baten … ba ondo … ondo moldatzen da … ordubete da baño … ordun … eun baten … bai … bai, bai, bai, bai…</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">De la vocal a la consonante</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Aguilar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<pubPlace>Santiago de Compostela</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Universidad de Santiago de Compostela</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">M</forename><surname>Bertinetto</surname></persName>
+		</author>
+		<title level="m">Reflections on the dichotomy &quot;stress&quot; vs. &quot;syllable-timing&quot;», Revue de Phonétique Appliquée 91-92-93</title>
+		<imprint>
+			<date type="published" when="1989" />
+			<biblScope unit="page" from="99" to="130" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">On sensitivity to durational modification in Italian and English</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">C A</forename><surname>Fowler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rivista di Linguistica</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="69" to="94" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Las vibrantes del español: manifestaciones acústicas y procesos fonéticos. Tesis Doctoral. Departamento de Filología Hispánica</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Blecua</surname></persName>
+		</author>
+		<ptr target="http://www.tdcat.cesca.es/tdcat-0111102-110913" />
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+		<respStmt>
+			<orgName>Universitat Autònoma de Barcelona</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Fundamental problems in Phonetics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Catford</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1977" />
+			<pubPlace>Bloomington: Indiana U. P</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">An Introduction to Phonetics and Phonology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">&amp;amp; C</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Yallop</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<publisher>Blackwell</publisher>
+			<pubPlace>Oxford eta Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Dauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Stress-timing and syllable-timing reanalyzed</title>
+		<imprint>
+			<date type="published" when="1983" />
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="51" to="62" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Phonetic and phonological components of language rhythm</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the XI th International Congress of Phonetic Sciences 5. Tallin: Academy of Sciences of the Estonian S. S. R. Institute of Language and Literature</title>
+		<meeting>the XI th International Congress of Phonetic Sciences 5. Tallin: Academy of Sciences of the Estonian S. S. R. Institute of Language and Literature</meeting>
+		<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="447" to="450" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">«Um caso exemplar de investigação. O acento em português», in Ouvir Falar. Introdução à Fonética do Português</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Delgado Martins</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+			<publisher>Caminho</publisher>
+			<pubPlace>Lisboa</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">On the Natural Phonology of Vowels</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Donegan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The syllable in phonological and prosodic structure</title>
+		<editor>I.U.P.</editor>
+		<meeting><address><addrLine>New York; Bloomington</addrLine></address></meeting>
+		<imprint>
+			<publisher>North Holland Publishing Company</publisher>
+			<date type="published" when="1978" />
+			<biblScope unit="page" from="126" to="174" />
+		</imprint>
+	</monogr>
+	<note>Current Approaches in Phonological Theory</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Rhythm and the holistic organization of language structure</title>
+	</analytic>
+	<monogr>
+		<title level="m">Papers from the Parasession on the Interplay of Phonology, Morphology and Syntax</title>
+		<editor>J. Richardson et alii</editor>
+		<imprint>
+			<publisher>Chicago Linguistic Society</publisher>
+			<date type="published" when="1983" />
+			<biblScope unit="page" from="337" to="353" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Chicago</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Rhythm and the Synthetic Drift of Munda», Yearbook of South Asian Languages</title>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>Walter de Gruyter</publisher>
+			<biblScope unit="page" from="3" to="36" />
+			<pubPlace>Berlin / New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Morphonology, the dinamics of derivation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">U</forename><surname>Dressler</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1985" />
+			<publisher>Karoma</publisher>
+			<pubPlace>Ann Arbor</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">«La duración como correlato acústico del acento en dialectos de acento tonal del euskera</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">J I</forename><surname>Elordieta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hualde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Actas del II</title>
+		<editor>J. Díaz García</editor>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="156" to="161" />
+		</imprint>
+		<respStmt>
+			<orgName>Congreso de Fonética Experimental. Sevilla: Universidad de Sevilla</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Experimental study of a diachonic change in Basque accentuation</title>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 15 th International Congress of Phonetic Sciences</title>
+		<editor>M. J. Solé, D. Recasens &amp; J. Romero</editor>
+		<meeting>the 15 th International Congress of Phonetic Sciences<address><addrLine>Barcelona</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="1683" to="1686" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Tonal and durational correlates of accent in contexts of downstep in Northern Bizkaian Basque»</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the International Phonetic Association</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="195" to="209" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Aho-belarrien jarduera malgu-moldakorretan ba ote aldagaiztasunik?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Etxeberria</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Nerekin yaio nun. Txillardegiri omenaldia. Bilbo: Euskaltzaindia</title>
+		<editor>P. Etxeberria &amp; H. Knörr</editor>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="243" to="257" />
+		</imprint>
+	</monogr>
+	<note>Donostia: Mundaiz. -, 1998, «Mintzakantuaren oharmena</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Hernaez (eskuizkribua), «Euskal hitz markatu eta markatugabeen azterketa fisikoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">I</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">«Durational correlates of linguistic rhythm categories</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ch</forename><surname>Hoequist</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phonetica</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="19" to="31" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Basque phonology. London / New York: Routledge. -, 1994, «Euskal azentuen sailkapenaz eta historiaz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Hualde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Dialektologia Kongresua. ASJU-ren Gehigarriak</title>
+		<editor>R. Gómez &amp; J. A. Lakarra</editor>
+		<meeting><address><addrLine>Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="page" from="189" to="208" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+				<title level="m">Euskararen azentuerak (ASJUren gehigarriak 42)</title>
+		<editor>Gipuzkoako Foru Aldundia</editor>
+		<meeting><address><addrLine>Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A grammar of Basque</title>
+	</analytic>
+	<monogr>
+		<title level="j">«Phonology</title>
+		<editor>Hualde, J. I. &amp; J. Ortiz de Urbina</editor>
+		<imprint>
+			<biblScope unit="page" from="15" to="113" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">The Basque dialect of Lekeitio. (ASJU-ren Gehigarriak 34)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">G</forename><surname>Elordieta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp; A</forename><surname>Elordieta</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>Gipuzkoako Foru Aldundia</publisher>
+			<pubPlace>Donostia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">; »</forename><surname>Hurch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Asju</forename><surname>Xii</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Natural Phonology: the State of the Art</title>
+		<editor>B. Hurch &amp; R. Rhodes</editor>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Mouton de Gruyter</publisher>
+			<date type="published" when="1988" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="73" to="96" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-, 1996b</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Morphoprosody</surname></persName>
+		</author>
+		<title level="m">Trubetzkoy&apos;s Orphan. John Benjamins</title>
+		<editor>R. Singh</editor>
+		<imprint>
+			<biblScope unit="page" from="189" to="221" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">2006 (eskuizkribua), «Typologische Implikationen einer kontrastiven Prosodie», Frankfurt-eko Unibertsitatean, Gradueiertenkolleg-en emandako hitzaldia</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">M L</forename><surname>Oñederra</surname></persName>
+		</author>
+		<title level="m">Euskal Morfosintaxia eta Fonologia, Eztabaida Gaiak. Bilbao: EHU/UPV</title>
+		<editor>P. Salaburu</editor>
+		<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="9" to="27" />
+		</imprint>
+	</monogr>
+	<note>Euskarazko fonologiaren zenbait bilakabidez</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Confirmar fonéticamente lo sospechado fonológicamente</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Jauregi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Oñederra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Actas del II</title>
+		<editor>J. Díaz García</editor>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="231" to="238" />
+		</imprint>
+		<respStmt>
+			<orgName>Congreso de Fonética Experimental. Sevilla: Universidad de Sevilla</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">«Notes on syllable duration in French and Swedish</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">&amp;amp; G</forename><surname>Kruckenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Fant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the XIII th International Congress of Phonetic Sciences</title>
+		<editor>K. Elenius, &amp; P. Brandend</editor>
+		<meeting>the XIII th International Congress of Phonetic Sciences</meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="158" to="161" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Three areas of experimental phonetics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Ladefoged</surname></persName>
+		</author>
+		<editor>W. J. Hardcastle &amp; J. Laver</editor>
+		<imprint>
+			<date type="published" when="1962" />
+			<publisher>Blackwell</publisher>
+			<biblScope unit="page" from="589" to="618" />
+			<pubPlace>London; New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>The Handbook of Phonetic Sciences</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Phonetic Data Analysis. An Introduction to Fieldwork and Instrumental Techniques</title>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Blackwell</publisher>
+			<pubPlace>Malden &amp; Oxford</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Vowels and Consonants. An introduction to the sounds of language</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">The Sounds of the World&apos;s Languages</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">I</forename><surname>Maddieson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Blackwell</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Lehiste</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1970" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>Suprasegmentals. Cambridge, Mass</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Cambridge: Cambridge U. P. -, 1997, «Phonetic Universals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Maddieson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Patterns of sounds</title>
+		<editor>W. J. Hardcastle &amp; J. Laver</editor>
+		<imprint>
+			<publisher>Blackwell</publisher>
+			<date type="published" when="1984" />
+			<biblScope unit="page" from="619" to="639" />
+		</imprint>
+	</monogr>
+	<note>The Handbook of Phonetic Sciences</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<title level="m">À propos de l&apos;accent basque</title>
+		<imprint>
+			<date type="published" when="1957" />
+			<biblScope unit="page" from="220" to="239" />
+		</imprint>
+	</monogr>
+	<note>SHLVn berriro argitaratua</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+				<title level="m">Fonética histórica vasca. (ASJUren gehigarriak 4). Donostia: Gipuzkoako Foru Aldundia</title>
+		<imprint>
+			<date type="published" when="1961" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Stress and Pitch» (prestatzailea: M. T. Echenique)</title>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="495" to="521" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">«Observaciones fonéticas sobre el vascuence de Guernica», Tercer Congreso de Estudios Vascos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Navarro Tomás</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1923" />
+			<biblScope unit="page" from="49" to="56" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+				<title level="m">Pronunciación guipuzcoana</title>
+		<meeting><address><addrLine>Madrid, III</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1925" />
+			<biblScope unit="page" from="593" to="653" />
+		</imprint>
+	</monogr>
+	<note>Homenaje a Menéndez Pidal</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">«Phonetic Explanation in Phonology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ohala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">A. Bruck (arg.), Papers from the parasession on Natural Phonology</title>
+		<editor>W. J. Hardcastle &amp; J. Laver</editor>
+		<imprint>
+			<publisher>Blackwell</publisher>
+			<date type="published" when="1974" />
+			<biblScope unit="page" from="674" to="694" />
+		</imprint>
+	</monogr>
+	<note>The Handbook of Phonetic Sciences</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Oñederra</surname></persName>
+		</author>
+		<title level="m">On basque phonology (on the phonology of an agglutinating language)</title>
+		<editor>Basque», W. U. Dressler &amp; M. Prinzhorn &amp; J. Rennison</editor>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="165" to="171" />
+		</imprint>
+	</monogr>
+	<note>Phonologica 1992. Rosenberg &amp; Sellier: Torino</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Ahoskera eta arauak. Arauak eta ahoskera», BAT soziolinguistika eta glotopolitika aldizkaria 27</title>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="13" to="20" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Prosodiaren oraina eta ahoskera arauak</title>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="439" to="449" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+				<title level="m">Palatalization revisited: bustidura adierazgarriaren estatusaz ohar batzuk</title>
+		<editor>X. Artiagoitia, P. Goenaga &amp; J. A. Lakarra (arg.), Erramu Boneta: Festschrift for Rudolf P. G. de Rijk.</editor>
+		<imprint>
+			<publisher>UPV/EHU</publisher>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="499" to="511" />
+		</imprint>
+	</monogr>
+	<note>Bilbao: UPV / EHU</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Sobre la interpretación de lo inexistente: los tipos silábicos inexistentes en la fonología del español</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Pensado</surname></persName>
+		</author>
+		<editor>J. Gil Fernández</editor>
+		<imprint>
+			<date type="published" when="1985" />
+			<publisher>Arco</publisher>
+			<biblScope unit="page" from="475" to="485" />
+			<pubPlace>Madrid</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Panorama de la fonología española actual</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">The Intonation of American English</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">L</forename><surname>Pike</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1945" />
+			<publisher>University of Michigan Press</publisher>
+			<pubPlace>Ann Arbor</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">A dissertation on Natural Phonology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Sapir</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Language</forename><surname>1921</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Diego</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">On phonological Representations</title>
+		<editor>W. U. Dressler et alii</editor>
+		<meeting><address><addrLine>New York, London; New York; Cambridge U. P</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1876" />
+			<biblScope unit="page" from="287" to="298" />
+		</imprint>
+		<respStmt>
+			<orgName>Harcourt Brace / Company. Sievers, E.</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">Acoustic Phonetics. Cambridge / London: MIT</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">N</forename><surname>Stevens</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Euskal fonologia. Donostia: Ediciones Vascas</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Txillardegi (alvarez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+	<note>Euskal azentuaz. Donostia: Elkar</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

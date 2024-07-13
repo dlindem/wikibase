@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Euskal hiztegien azterketaz, Odriozola- Bonaparte hiztegiaren aitzakian</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Blanca</forename><surname>Urgell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">GUMI</orgName>
+								<address>
+									<country>UPVIEHU</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Euskal hiztegien azterketaz, Odriozola- Bonaparte hiztegiaren aitzakian</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:29+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This paper examines the methodology of lexicographical inquiry, focusing on the status and evolution of research on Basque dictionaries, and using as a reference point Etxebarria &amp; Etxebarria's work (1990)    on Odriozola's dictionary (compiled before 1856). we analyze Etxebarria &amp; Etxebarria's methods and results, reflecting on various aspects of dictiol1ary research and exploring the character and contents of Odriozola's dictionary. The present work focuses on two questions: 1) what is the value of dictionaries as linguistic evidence? and 2) how can this value be verified? The answers to these questions are crucial for languages like Basque, whose textual corpus is s"mall and arose quite late (1545, in our case), and whose early works consist largely of religious subjects and of low-level style books (such as catechisms and books of prayers).</p><p>Although there is no doubt that dictionaries contain useful information, they are usually employed in the patchy and misleading way (Osselton 1995) secondary sources -and particularly early dictionariesused to be employed. Additionally, in the case of Basque dictionaries, there is a tendency to go from one extreme to the other without critical analysis, either completely ignoring stigmatized dictionaries like Larramendi's, or taking others, such as Odriozola's, to be indisputable and genuine evidence offolk language.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Bestelako kontuak aipatzeko aukera izango badugu ere, hausnarketaren gunea hiztegiek hizkuntzaren lekukotasun gisa daukaten balioa izango da, baliorik baldin badute, eta hori nola froga daitekeen. Ezaguna denez, iraganeko hizkuntzaz ezer jakin nahi izanez gero, testuetara jo beharra dugu. Alabaina, testuak ahozko hizkuntzaren isla zuzenak izatetik urruntxo daude: ahoskeraren hamaika fiabardurak oztaozta jasotzeaz gainera, hizkuntza idatzia ahozkoa baino aldagaitz eta formalago izan ohi da eta, honegatik, azterketan distortsio mailaren bat badela onartuta lan egiten dugu. "Testuen ikerketa -Meilletek (1925: 21) esan bezala-ezinezko bilakatu den azterketa zuzenaren ordezkoa besterik ez da".</p><p>Are idatzien barruan ere oinarrizko bereizkuntza bat egin ohi da lehen mailako iturriak (testuak, adiera hertsian) eta bigarren mailako iturrien artean <ref type="bibr">(gramatikak, hiztegiak, etab.)</ref>. Bigarren mailako material lexikografikoa (glosak, glosarioak, hiztegiak...) honela definitu izan da: "all kinds of word-lists in which propositions are made about words, but which do not (or not necessarily) constitute reliable evidence for the currency of those words at that time" <ref type="bibr">(Osselton 1990: 183)</ref>. Izan ere, hizkuntz historialariek jakintzat eman ohi dute hiztegietako informazioa desitxuratuta dagoela edo egon daitekeela, hala plagioaren (aurreko hiztegietako informazioa akritikoki kopiatzea) nola neologiaren (eratorpen eta elkarketara jotzea, maileguak egitea) eraginez. Mitxelenak argi eta garbi azaldu bezala:</p><p>La lexicograffa es probablemente la actividad erudita en que el ejercicio de la crltica es mas necesario. C..) El compilador de un diccionario general a duras penas renunciara a incorporar al suyo las riquezas, a menudo mas especiosas que reales, que halla en las obras de sus predecesores, alas cuales se esfuerza en sobrepasar aiiadiendo nuevos materiales a los que ha recogido de ellos, con el resultado inevitable de que a la crecida suma de los antiguos errores incorpora algunos nuevos de su propia cosecha (...).</p><p>No es corriente, y sin embargo deberfa ser popular, la distinci6n que los lingiiistas suelen establecer entre los textos de una parte y los lexicos de orra, distincion que tiene su fundamento en el muy diferente grado de confianza que merecen los datos procedentes de unos y de otros. Porque un lexico -es decir, un lexic6grafo--esta lejos de ser siempre espejo fiel del vocabulario que rrata.de recoger: a menudo 10 altera, deforma y modifica por descuido 0 por prejuicio, por comodidad 0 par no reconocer su ignorancia C..). Por ello, una "palabra de lexico", sin apoyos independientes que aseguren su testimonio, debe ser tenida siempre en principio como 10 que es: un dato dudoso y poco de fiar <ref type="bibr">(Mitxelena 1970: 26)</ref>.</p><p>Gauzak honela, lehen mailako lekukotasunak aski liratekeen alegiazko mundu batean, <ref type="bibr">Osseltonek (1990)</ref> adierazi bezala, datu susmagarriok aIde batera utziko genituzke, erabiltzeak berez dakartzan arriskuak saihesteko modurik zuzenena baita, izan ere. Esan gabe doa, ostera, bestelako munduan bizirik, uzkurtasunak uzkurtasun, maiz bigarren mailakoak ere kontuan hartu behar direla. Are corpus zabalak dauzkaten hizkuntzetan ere, ezin daitezke erabat aIde batera utzi, batez ere dokumentazio urriko garaietan. Adibide klasikoa Erdi Aroko glosak dira, Europako hizkuntza askok haietaz gaineko lekukotasunik doi-doi duten garai goiztar haietako hizkuntzaz ezer jakiteko ezinutzizkoak. Baina hobeto dokumentatutako garaietan ere, jakina da hiztegiek berri baliotsuak gordetzen dituztela: hapaxak, adibidez, edota hitzen jaiotza, esanahi, hedadura, iraupen eta zaharkitzeari buruzko informazioa.</p><p>Erabili beharra nabarmenagoa da, den garaian dela, corpus urriko hizkuntzetan.</p><p>xx. mendera arte euska1 testu ia guztiak erlijiozkoak izanik, nekez bai nekez jasotzen dituzte eguneroko bizitzan erabili ohi diren hitzak; honegatik, behin baino gehiagotan hiztegietan kausitzen dugu halako hitz askoren 1ehen lekukotasuna, Euskal Hiztegia-n S letran zehar osteratxo bat eginez antzeman daitekeen beza1a (izarraz markatutako datak hiztegiei dagozkie):</p><p>sabai <ref type="bibr">(*1745, 1802; sapai *1745, 1845)</ref>, sagutxo <ref type="bibr">(*1562, 1804; sagutxu 1802)</ref>, saguzar (*--1800, 1804; saguxar *1745, 1847), sahats (1853; sarats *1802, 1847), sakela (*XVII ea., 1759; sakola 1785), sarde (*1745, 1808), sardexka <ref type="bibr">(1893; sardeska *1828, 1962)</ref>, sargori <ref type="bibr">(*1745, 1930)</ref>, sarobe <ref type="bibr">(*1745, 1847)</ref>, sartalde <ref type="bibr">(*1745, 1842)</ref>, saskil <ref type="bibr">(*1905, 1932; saskel *--1800,1912)</ref>, sastada <ref type="bibr">(*1905,1912; zaztada 1937)</ref>, sator <ref type="bibr">(*1653,1761)</ref>.</p><p>Gure erakusgarritxo honetan *1745 zeinen usu ageri den ikusita, ondorioztatu behar dugu are Larramendiren Hiztegi Hirukoitza-k ere, gainerakoak baino "arriskutsuagotzat" jo izan den arren, lehen datatzeak ugari eskaintzen dituela, batzuetan inork baino ehun edo berrehun urte lehenago. Areago, galdutako adierei buruzko informazio baliagarria jasotzen du (ik. alai sarrera GBH-an, adibidez) eta aintzat hartzekoak bide diren bost hapax edo erdi-hapax ere, A letratik besteren artean hautatu ditudan ondoko hauek, kasu:</p><p>abegor "faena, con mucho afan y ruido", Hquexura, apresuraci6n congoxosa"; adaburutsu "ramoso"; adakai "rama"; adatsu uramoso"; a de poja, a de pota "ha! que buena alaja!"; agira uts "baladronada"; aidur "ma1igno"; aizape "sotavento"; aizaro "Noche de Jueves Santo", "Tinieb1as de Semana Santa"; aizkolketa "hachazo"; ajubetatu "majolar, poner correas a 10s zapatos"; akertxoak "orejeras en el arado"; akuilu-makuiluak "zancos de palo"; alborakia "el agasajo que se da a los que dan la alborada" (s.v. alboroque); alper potz "perezoso"; ananean dago "(esta en un) tris"; andora "sauquillo"; andrezurrian ibilli "(andar) divertido"; ardan-upel (s.v. aforar); ardore "hurnor"; ateleka ibilli "rifiendo"; autJiabar(t)za "a1boroto"; azkaia "caspa"; aztin "adivino".</p><p>Behar diren bermeez erabilita, etekin txundigarriak atera dakizkioke bigarren mailako dokumentazioari: <ref type="bibr">Campbell-ek (1990)</ref>, hizkuntza maiei buruzko antzinako dokumentazioa -misiolarien gramatikak eta hiztegiak gehienbat-eta antzinagokoa -hieroglifikoen ulerpenean egindako azken aurrerapenak-erabiliaz, hamaika norabidetan aurreratu zuen hizkuntza hauei buruzko ezagutza. Amado Alonsok "Formaci6n del timbre ciceante en la c, z espafiola" (1951) lanean, berriz, bigarren mailako dokumentazioan (gramatika elebidunak batez ere) oinarrituta, /S/ hotsa gaz::telaniaz nola sortu zen aztertu zuen.</p><p>Gehienbat aIde batera utzi ohi diren halako lekukotasunak, hizkuntz historiaren alderdi ilunak argitzearren nola erabil daitezkeen irakasten diguten saio hauek bikain bezain bakanak dira, halere. Oro har,bigarren mailako iturriak hiztegi historikoetan edo nolabait historia islatzeko ahaleginak egiten dituzten besteIako hiztegietan (GBH, adibidez) biltzekotan, maizenik bananduta agertu ohi dira, informazioaren kalitate ezberdintasuna markatzeagatik. Izan ere, Osseltonek baieztatu bezala: When in 1646 Sir Thomas Browne {idazlea) employs the word paleous (meaning 'full of chaff'), even though no one else has ever used it since, this constitutes a linguistic fact, a piece of usage, evidence for actual existence of a word: even once should be enough for the historical linguist. But when ten years later the lexicographer Thomas Blount enters the word palatical ('pertaining to... the palate') in his dictionary (Blount 1656) and again there is no other record of the word elsewhere, this does not constitute firm evidence for the word's existence: it is merely a statement of belief about language <ref type="bibr">(Osselton 1990: 184</ref>; etzanak bereak dira).</p><p>Honegatik Buskal Hiztegia-n, ikusi bezala, lehen datatze Iexikografikoak izarraz markatzen dira. Alabaina, gorago aipatutako adibideetan badugu nolabaiteko ziurtasuna, ondare zaharreko hitzak izanik, hiztegietako Iehen lekukotasunak fidagarriak direIa; hitz eIkartu, eratorri edo mailegatuez den bezainbatean, ordea, Iekukotasun hoberik izan ezean, izarrak bide ematen digu hiztegigileak bere kabuz erantsitako neologismoak izan litezkeeIa pentsatzeko. Honelakoetan, geroagoko Iehen maiIako lekukotasunak egoteak ez du ezinbestean kontua aldatzen, aurreko hiztegiaren erabilera zuzen zein zeharkakoari zor baitakizkioke, edo besteIa bersorketari:</p><p>sabelkide <ref type="bibr">(*1745, 1934)</ref>, sabel-oindun <ref type="bibr">(*1965)</ref>, saiakera (*1745, -1805), saihespe (*1745,1847), sakelaratu <ref type="bibr">(*1977; sakeleratu *1918, 1935)</ref>, sakonera <ref type="bibr">(*1918,1965)</ref>, salaketa (*1745,1855), salerosgai <ref type="bibr">(*1965, 1990)</ref>,2 saletxe <ref type="bibr">(*1745, 1855)</ref>, sandalo <ref type="bibr">(*1745, 1976)</ref>, sareztatu (*1745), sargazo (*1977), sarkortasun <ref type="bibr">(*1905, 1924</ref> Datu Iexikografikoak aIde batera uztera gonbidatzen duen teoria eta erabiltzera behartzen duen praktikaren artean dagoen aIde handiak ondorio bat izan du, beraz: erabilera defektiboa, irizpide argi eta arrazoizkorik gabea. Begi-bistakoa da, hortaz, lekukotasun lexikografikoen erabilera araupetu beharra, ez bakarrik testu-Iekukotasunetatik behar bezala bereiziaz, baita erabilera koherentea ziurta dezaketen irizpide orokor ,zenbaiti atxikiaz ere. <ref type="bibr">Osseltonek (1990: 190)</ref>  Osseltonek eman dion irtenbideak, hobekuntza nabaria izan arren, ez luke ezkutatu behar azpian datzan funtsezko galdera: alegia, ea badenentz lekukotasun lexikografikoen fidagarritasuna neurtzeko metodorik. Arlo honetan bestetan baino premiazkoago bide da Meilleten baieztapena (1925: 24) gogoratzea: "zehaztasun filologikoan egindako aurrerapen bakoitzak hizkuntzalariari beste aurrerapausu bat egiteko aukera eskaintzen dio". Zeren eta, hiztegietan kopialan hutsaren alboan ekarpen originalak, egiazkoaren baltsan asmatutakoa, hiztegigilearen hizkuntz ariketari zor zaiona bere gaitasunari zor zaionarekin nahaste egon daitekeela jakinik, Filologiaz bestek ezin aska baitezake korapiloa. Tamalez, testukritika tradizionalak ez du inolako euskarririk eskaintzen hiztegiak berez eta kritikoki aztertzeko, Lakarrak (1991: 218,2. oh.) deitoratu bezala.</p><p>Badirudi arrazoi bakarra behar berezirik sentitu ez izana dela: salaketak salaketa, hizkuntza handien historiak ez dirateke goizetik gauera irauliko hiztegiak gehiago edo koherentekiago erabiltzeagatik. I-Iaatik, gurea bezalako hizkuntzetan, dokumentazioaren urritasunak ezinbestean halako galderak indar gehiagoz, premia larriagoz egitera behartzen gaitu. Eta premia honetatik etorri dira, etorri ere, <ref type="bibr">Koldo Mitxelena eta Joseba A. Lakarraren erantzun saioak. Mitxelenak (1970: 27)</ref>, hizkuntz historialarien ohiko jarrerari atxikiago, codex descriptus-aren hertsapena ezarri zuen hiztegien erabileran. Honek esan nahi du hiztegi-lekukotasun baten iturria aurkitzea lortzen dugun bakoitzean, aldi berean lekukotasun gisa baliogabetzen dugula, bigarren eskuko datua baino ez dela frogatu dugunez gero. Ikerbide honen fruiturik ezagun eta bikainena Larramendiren Eranskina-ren azterketa da <ref type="bibr">(Mitxelena 1970;</ref><ref type="bibr">ik. orain Urgell 2001b)</ref>. Hitz zerrendatxo honetan descriptus izan zitekeen guztia hartakotzat jotzen saiatu zen, Larramendiren iturri ezagunak arakatuaz. Aurrerago ere jo zuen, ordea, iturri ezezaguneko hitzak ere bestelako lekukotasunen bitartez (idatzi zein ahozkoak, zahar zein berriak) descriptusedo bilakatu nahian. Paradoxikoki, Mitxelenak jorratutako bideak, hiztegi-Iekukotasunen balioa bermatu nahirik, azken batean erabat ukatu egiten du: aIde batetik, ikertzaileari lan eskerga eskatzen dio, hobeto lekukotu daitezkeen hiztegiko hitzak descripti bilakarazteko -zerrendatik ezabatzeko-asmo bakarrarekin; bestetik, batera edo bestera berrets ezin daitezkeen lekukotasunek lehen bezain zalantzazko diraute, nahiz eta hauek diratekeen interesgarrienak, descripti ez direnak, alegia.</p><p>Arazoa kale itsu honetatik kanpora eramatera dator Lakarraren saioa, hau ere . gehienbat Larramendiren Eranskina-ren gainean eraikitakoa, maisuaren ildotik.</p><p>Labur esanda, Lakarrak <ref type="bibr">(1991, 1993, 1994, 1996a, 1996b, 1996c)</ref> proposatzen du filologi metodo klasikoak metalexikografiaren irakatsiekin uztartzea, testua berez eta iturriekiko erlazioan aztertuaz, Mitxelenaren erara, baina honek ez bezala hiztegigilearen jokabidean arreta berezia jarriaz. 1</p><p>Bien bitartean, Etxebarriak, ex novo ari dela badirudi ere, berak ere nabaritu du gure galderari nola edo hala erantzun beharra: Legorreta (Goierri, Gipuzkoa) herriko euskararen lekukotasun zuzen gisa aurkeztu du Odriozola-Bonaparte hiztegia (hemendik aurrera OB), hiztegi dialektal gisa, eta hori frogatzeko bi bideri atxiki zaio: Larramendiren Hiztegi Hirukoitza-rekiko erkaketari eta galdeketa dialektalari. Proposatu duen metodoa, beraz, ez dabil Mitxelenarenetik oso urrun, hiztegiko lekukotasunak bermatzeko testukritika eta ahozko lekukotasunak elkartzen dituen heinean, baita alderdi lexikografikoari jaramonik egiten ez dion heinean ere.</p><p>Hiztegia benetan Legorretako euskararen isla zuzena baldin balitz, HH erabili gabekoa, aztertzaileak baieztatu bezala, orduan baliteke azterketa filologiko eta dialektologikoarekin aski izatea. Ondorioz, hiztegien hizkuntz azterketa historikoaren metodologia aldakorra izango litzateke, aztertu behar den hiztegiaren araberakoa. Aitzitik, lan honetan erakutsi nahi nuke azterketa lexikografikoa ez dela osagai, lagungarri edo apaingarria hiztegien ikerketan, funtsezkoa, oinarri-oinarrizkoa baizik. Azterketa mota honen bitartez, hain zuzen, frogatu egingo dut OB XIX:. mendean zehar ugari egin ziren HHaren epitomeetako bat -are nabarienetako bat-dugula eta, beraz, Etxebarriaren aurkezpena hurbilketa inpresionista eta azalezkoaren emaitza baino ez dela.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Etxebarriaren hurbilketa</head><p>Hiztegi honen historian parte hartu zutenen aldetik ondoko ohar laburra baino ez zaigu geratu, hiztegiaren atarian egilearen semeak erantsia, haren nondik norakoez jabetzen hasteko: Larramendiren eraginik eza nola frogatzen duen ( § 1.1); Legorretako euskara dela baieztatzeko zertan oinarritzen den ( § 1.2); eta hiztegia deskribatzeko ematen dituen bestelako zertzeladak ( § 1.3).</p><p>1.1. Larramendiren eraginik ez "Este diccionario y otros de la epoca" deritzan atalean <ref type="bibr">(Etxebarria 1990: 21-22)</ref>, izenak izen, Etxebarria gai batez kezkatzen da nagusiki: OB Larramendirekin zerikusirik ez duela frogatzen. Berak ez du zalantzarik egiten:</p><p>Este diccionario no es el de Larramendi vuelto al reves. 0 sea coger Larramendi y poner primero la palabra en euskera y luego en castellano. Ni tampoco es copia de algun otro diccionario que se conociera por aquella epoca <ref type="bibr">(Etxebarria 1990: 21)</ref>.</p><p>Honako argudio hauetan oinarritzen da:</p><p>i. Larramendirengan agertzen ez diren hitzen kopuru handia. Hauek dira berak eskainitako adibideak:</p><p>celaya "prado, prader{a, era", acullua "aguij6n", cabilla "clabija", cacasteguia "cacoal", campora "afuera", cementerioa "cementerio", arbazta "justo", asa "aliento", .ascorequicoa "de mucho", asaria "zaguan", ayenatu "desaparecer", clera "creta", intzurza "pantano", munoa "collado, coEna". Nos inclinan a ello el autor principal y su hijo, que son nativos y han vivido en dicho pueblo, la mayor parte de su vida. No citan ninguna fuente escrita, por 10 que se puede suponer que recogieron el euskera de su propio pueblo, que era el que mejor conocfan.</p><p>Por otra parte no aparecen palabras caracterfsticas pertenecientes a los otros dialectos orientales ni al vizcaino. Los unicos casos de palabras de dialectos mas orientales estan incluidos por el Prfncipe Bonaparte. (...).</p><p>Y ademas aparecen algunas 'eufonfas' en la terminologfa de Bonaparte, que continuan hoy vigentes en Legorreta y en otras zonas del Goiherri guipuzcoano. Por ejemplo: anquea, arbolen moteaz [sic, motea-ren ordez], egaberea, belea, olea <ref type="bibr">(Etxebarria 1990: 19-20</ref> Para indicar si una palabra es conocida'y usada hoy en ambos pueblos, se afiade entre parentesis la sigla de cada pueblo: Leg. y Us.</p><p>[. ..} Cuando la palabra no tiene ninguna indicacion especial, significa que aunque aparece en este diccionario, las [sic] actuales informantes 0 no la conocen, 0 no la consideran coma palabra vasca <ref type="bibr">(Etxebarria 1990: 23).</ref> 1.3. Hiztegiaren beste ezaugarri batzuk "Este diccionario y otros de la epoca" atalean Larramendiren hiztegiari buruz esandakoez gainera, zeharbidez bezala, ezaugarri sakabanatu batzuk eskaintzen dira. Etxebarriak jarri dituen hurrenkera berean jarrita, honako hauek, hain zuzen: a. Maileguak onartzeko joera handia, jadanik Larramendirekiko erkaketan erabilitako argudioaren ildotik: <ref type="bibr">aboztua, accioa, accidentea, acomodatu, castigatu, costilla, costumbre, muralla, musiqueroa, cementerioa, cicateroa, colectorea, colocatu (Etxebarria 1990: 22)</ref>. b. Inoiz aldaera fonetikoak jasotzen ditu:</p><p>A veces incluye tambien variantes foneticas: acul/ua, acul/oa,' aceria, azaria. Campaya, que Larramendi escribe campaia. Lo mismo odeya y otros ejemplos que he citado al hablar de la grafia (ibid.). 5</p><p>Derradan, bide batez, campaya eta odeya aldaera bakarrak direla hiztegi osoan zehar; dirudienez, bokal arteko &lt;y&gt; grafemaz ad da Etxebarria lerrokadaren bukaeran, ez bestez, joskerak besterik aditzera eman arren. c. Esanahi oinarrizkoaren edo ezagunenaren "egokitzeak" omen daude batzuetan:</p><p>aurreratu "avanzar, anticipar, aprovechar, adelantar", bidazorro "maleta, 0 balija", catamotza "tigre" (ibid.).</p><p>d. Hitz eratorrien artean, atzizki batzuk maiz lekukotzen dira:</p><p>...usa con frecuencia el sufijo -tzailea y el sufijo -ro, -tasun, -le, -a1~-garria, -keria, -kiro (ciquinquiro), -ria; -teguia, -guina. Y para la nominalizaci6n el sufijo -tzea (ibid.). e. Batzuetan perifrasira jotzen du gaztelaniazko hitzak itzultzeko: aberen sendatzallea, aroz aulquian trabajacen duena, escola maisuaren emaztea "maestra", esquean dabillena "mendigo", tellatua erretellatcea "retejar" (ibid.).</p><p>f. Bonapartek nagusiki ekialdeko euskalkietako hitzak erantsi omen zituen: aguitz, arras (AN, BN); pero tambien otras: apaidina (G), auendatu (L) (ibid.).</p><p>g. Ba omen dira esanahi okerreko hitz zenbait:</p><formula xml:id="formula_0">ciraun "vfvora", tohaya "tohalla" (ibid.).</formula><p>h. Eta gaizki idatzitakoak: atorraina en lugar de otarraina (ibid.).</p><p>Honezaz gainera, badu atal oso bat "Grafia de las palabras del diccionario" deritzona, aski zehatza baina, geroago ikusiko dugunez ( § 2.3), ezaugarri garrantzitsuren batean osatu gabea.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Hurbilketa berria 2.1. Argitalpenaren inguruan</head><p>Ondoko lerroetan egingo dugun azterketa Etxebarriak egindako argitalpenean oinarritzen da. Erabakia arriskutsua da, testuak merezi duenaz oso bestelakoa baita, arrazoi bat baino gehiagogatik. Halere, Mitxelenaren artikulu gogoangarri hartatik aurrera "ad experiendum-eko filologia" dei dezakegunean, hots,. testu desgisatuak filologoaren indar hutsez berreraikitzen aritzeko bide ematen digun heinean, baliagarri izan liteke, baita irakasgarri ere, apika. Hutsak ugari dira, eta ez da erraz jakiten egilearenak edo argitaratzailearenak diren: a. Egia da inoiz edo behin zenbait forma ohiko sic-ez lagunduta ageri direla. Halere, irakurle eskarmentudunak ondo dakienez, honek ezer gutxi laguntzen du, egin zitezkeen edo, hobeto esanda, egin beharrekoak ziren eragiketa filologikoen aldean: </p><formula xml:id="formula_1">Obiapurra (sic) = Migaja i.b. Esquerbaguea; Esquefiia eta Esquerbaguero '~ingratamente" artean. i.b. Gandorra; Ganchigorra eta Gantza artean; cf. HH gandorra "cresta". Ziurrenik monumentua-ren ordez. Forma zuzena. Obeto eta Obispadua artean; cf. DVEF obi 'ogia' (AN, B-1).</formula><p>Ohar bedi ez zaiola behin ere alfabeto hurrenkerari begiratu forma egiazta (cf. mozorca, obiapurra) edo gezurta zezakeen arren (cf. murguida). Bestalde, ez dago icertua forma ezagunari jarri zaion sic harrigarria zuri lezakeen arrazoirik (ik. OEH, S.v. izerditu).</p><p>b. Behin baino gehiagotan, sic-ekin eta gabe, forma ezinezkoak edo oso dudazkoak ahozko galdeketan jasotakoen aurrez aurre jarri dira, bata bestearen aldaerak bailiran:</p><formula xml:id="formula_2">Esquebaguea = Ingrato {eskergabea} (Us.) Gondorra = Cresta (sic) {gandorra} (Us.) Monimentua = Monumento {monumeritua} c.</formula><p>Esquebaguea edo Monimentua-n bezala, forma akastunak gehien-gehienetan markatu gabe daudenez, ondoriozta dezakegu beti edo ia beti argitaratzailearen hutsak edo irakurketa txarrak direla: Agurra "cofron" Aitazquiatu "achacar H Amaguiaseba "bisabuela" Arnasa "aliento" Arnasea "aliento" Arnasea artu "alentar" I Asaria "zaguan" Atzeguia "cola" Aurretze "delante de" Basaezurra "canilla del brazo" </p><formula xml:id="formula_3">Beta "llenado" Beticorea "eternidad" Bolboa "bollo" Botciguillea "botonero" i.b</formula><formula xml:id="formula_4">Bulderca "bulero" Chanca "gorro" Cosmo "pulm6n (sic) 0 plum6n~C ostola "costal"</formula><p>Eregegun anchiti "ante ante ayer" </p><formula xml:id="formula_5">Erruqida "histima" Escaroidorea "escarpidor" Gaztafiada "castanal" Gecia '~desmontado" Gozoso "dulcemente" lbillagayac "andaderas de ninos" lrudagarria "imaginable" lsquindoguia ' lataldea Ligarda "balsa, chareo" Listoirdia "Listoneria" Lotuna "lio" Manula "manual" Mauca asi "maullar" Mullastia "estopada" Porfiar "aporfia" Sacrifioteguia "sacrificadero" Sentenciatsuru "senteneiosamente'" Sinistra "ereencia" Simularia "senero" Terciamatia "tereianero" BLANCA URGELL i.b. Bulderoa; cf. HH bulderoa "id.". i.b. Chanoa; Chancilleria eta Chanoguillea artean; cf. HH chanoa "gorra, gorro". i.b. Cosna; cf. HH cosna "plUffion, eolchon". i.b. Costala; Costa eta Costillac artean; cf. HH costala "costal". i.b. Erenegun; cf. Erenegun "ante ayer"; cf. HH erenegun anchiti "id.". i.b. Erruquida (?), ala Erruquia agian? i.b. Escarpidorea. i.b. Gaztanadia; cf. HH gastafiadia "id.". i.b. Gechia; ef. Gechi "desmontar". i.b. Gozoro; cf. HH gozoro "id.". i.b. ibilligayac; cf. HH ibilligayac "id.". i.b. Irudigarria; cf. Irudia "imaginaei6n", etab.; cf. HH irudigarria "id.". i.b.lsquindoquia; cf. HH isquindoquia "id.". i.b.lataldia; cf. HH jataldia "id.". i.b. Lingarda; Linayestalquia eta Lifioa artean. i.b. Listondia (?);. cf. HH listoidia "id.". i.b. Lotura; cf. HH lotura "id.". i.b. Manuala. i.b. Miauca; Meza eta Miaucaotsa "mau-. llido" artean. i.b. Mullastina; cf. HH mullastina "id.". i.b. Porfiaz; cf. HH porfiaz "(a) porfia". i.b. Sacrificioteguia; ef. HH sacrificioteguia "id.~~. i.b. -tsuro; ef. HH sentenciatsuro "id.". i.b. Sinistea; cf. HH sinistea "id.". i.b</formula><formula xml:id="formula_6">Galdea = Preguna Mantelina .= Matellina Orma = Norma Supitucoa = Subitanco Suya = Hieno Zabalquiro = Anchamante Zumardia = Olmada 0 mimbral i.b. Ventaja. i.b. cerea. i.b. Acertador; cf. HH id. "acertador". i.b. Antanana; cf. HH id. "antanana, muger vieja". i.b. Bulado; cf. HH id. "bulado". i.b. Catedral i.b. respaldar; cf. HH id. "banco de res- paldar" . i.b. Fabuco; cf. HH "Fabuco, fruto de el haya". Lb. Pregunta. i.b. Mantellina; cf. HH id. "mantellina". i.b. Horma; cf. HH id. "horma". i.b. Subitaneo; cf. HH id. "subitaneo". i.b. Hierno. i.b. Anchamente. i.b. Olmeda; cf. HH id. "olmeda, olmedar".</formula><p>f. Bestalde, ezikusia egin zaie gaztelaniazko bitxikeriei, hitz ezinulertuzkoak edo ezinezkoak bere hartan utzita: </p><formula xml:id="formula_7">Apurra &lt;Ag-&gt; = Cofran Aspilla = Artez6n 0 cuerzo Babilla = Babillo Chisperoa = Cispero Chistera = Chiste Erretena = Cacera 0 zanga Gaitcerua = Cuartel Gaitcerubat = Un</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Azterketa lexikografikoa</head><p>Baldin eta, Etxebarriaren ondorioak oraingoz aIde batera utzita, dauzkagun datuetatik abiatzen bagara, testuak berak :bere buruaz eman diezagukeen informazioaz gaindi, askoz gehiago ez dakigu. Egoera ez da izan litekeen onena, baina bada testutik berri gehiago ateratzeko modu ezagunik, haren aurkezpen lexikografikotik hasita.</p><p>Muga 5.000 sarreratan jartzen badugu, ohi bezala <ref type="bibr" target="#b24">(Svensen 1993)</ref>, OR ez da hiztegi bat, zehatz-mehatz hitz eginez, hirz zerrenda luze xamar bat baizik, 3.700 sarrera ingurukoa. Ozta-ozta Harrieten gramatikako frantses-euskarakoa (1741) baino handiagoa, konparazio batera. Euskara-gaztelania elebiduna da, alfabetoaren arabera antolatua, nahiz han-hemen badiren hurrenkeran jauzi txiki batzuk:</p><formula xml:id="formula_8">Aculloa -Acullua -Achurra -Adarmea Adrea -Adrebaguea -Adregoquia -Adrillua -Adreztua Africarra .-Afurua -Afuratu Ainbat -Ainbeste -Ain -Aing{u}erua</formula><p>Sarrera kanonikoa izan litekeen bakunena da: "euskal sarrera-burua = gaztelaniazko ordaina". Eta ehuneko gora batean sarrera-buruak hitz bakarrekoak dira: izenizenondoak, aditzak, aditzondoak, zenbatzaileak... Abadia = Abadia. Abanicatu = Abanicarse. Acomodagarria = Acomodable. Amabi = Doce. Amabigarrena = Duodecimo. Egunero = Diariamente.</p><p>Dakusgunez, sarrera-buruaren forma kanonikoa, izenkia denean, nominatibo singular mugatua da, salbuespen gutxirekin. Mugagaberen bat itzuri da maileguetan:</p><p>Agente "agente". Rrasero "brasero". Cafionazo "cafionazo", etab.</p><p>Plurala maizago aurkitzen da, bera bakarrik (eskuarki halaxe erabili ohi diren hitzetan) edo singularrarekin batera:</p><p>Abarcac "abarcas", Alicateac "alicates". Andac "andas". Angarillac "angari-Has", Ri "dos" eta Riac "los dos, ambos". Bobedac "bobedas". Rota "bota" eta Botac "botas", etab.</p><p>Aditzaren forma kanonikoa partizipioa da, baina ia beti mugagabea eta mugatua ematen dira, bata gaztelaniazko infinitiboari dagokiola, eta bestea gaztelaniazko partizipioari: Acomodatu = Acomodar. Acomodatua = Acomodado. Acordatu = Acordar. Acordatua = Acordado. Honekin batera, aipatutako ohiko kategoriez gainera sarrera-buruan bes~elakoak agertzen dira: -Adizlagunak:</p><p>Alcarrequin "juntos, entre si, uno con otro". Aldean "lado, parte, cerca &lt;cerco&gt;". Aldian "cada vez H • An "alIi". Apartean "separadamente". Ara "he alIa, he aquf'. Arabera '~segun". Arattz "segun". Arterafio "hasta que, hasta". Ascotan "muchas veces, frecuentemente". Ascoz "mucho". Atzenic "ultimamente" ...</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>-Izenlaguna + izena:</head><p>Aberen sendatzallea '~albeitar". Alcabalen zaya "alcabalero". Alcatearen tenientea "teniente alcalde". Apostoluaren batcera "apostolado". Apostoluen erara "apost6licamente". Aranaren fruta "ciruela". Arbolen motea "boton". Atunaren cecina "mojama". Beguico ninia "Nifia de ojo". Egercituen Etzauntza "campafia 0 campamento". Sentencien liburua "sentenciario" ...</p><formula xml:id="formula_9">-Izenlaguna + izenlaguna + izena:</formula><p>Aldarearen aurreco jantcia "frontal". ldiaren copetaco larrua "melena". Maquillaren ondoco pordoya "cachiporra" .</p><p>-Izena + izenlaguna:</p><p>Abadesa mongena "abadesa". Agalla tinta eguitecoa "agalla". Aingueru guardacoa "Angel de guarda". Amilla barrungoa "chaleco". Gorringoa arrautzarena "yema de huevo". Pisu pisatcecoa "pesa" . Pregoi ezcontcecoa "proclama". Virreta abadena "solideo".</p><p>-Erlatibozkoak:</p><p>Arozaulquian trabajacenduna Hevanista". Asquidana "bastante". Banderaquin dabillena "abanderado". Pensioa cobratcenduana "pensionista".</p><p>-Izena + izenondoa:</p><p>Arbolchiquia "arbusto't. Arichiquioa "carnero castrado t '. Aur ilia "parbulo muerto". Baqueta agorra "baqueta de escopeta". Tachuela aundia "tach6n" ...</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>-Sintagma konplexuagoak:</head><p>Arbol acerola eta aren fruta "acerola". Aundia bada persona "adulto". Estudioan icastuna "estudioso". Ichasotic legorra geistia "desembarcar"...</p><formula xml:id="formula_10">-'Izena + izenondoa' elkartuak:</formula><p>Beguibacarra "tuerto". Begui ezquela "ojizaino". Begui leorra "oji enjuto". Begui oquerra "bizco 0 bisojo". Bizarbeltza "barbi negro". Bizargorria "barbi rubio" ...</p><p>-'Izena + izena' elkartuak, mota ezberdinetakoak:</p><p>Ametz arbola "quegigo". Azalandarea "planta de berza"... Cadira jabea "catedratico". Carcelarisaria "carcelage". Chrisma oncia "chrismero" ...</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>-Aditz elkartu eta aditz perifrasiak:</head><p>Arnasea artu "alentar". Atseguinizan "alegrarse". Azalandarea bidaldatcea "trasplantar". Bearra eguin "trabajar". Bildurrizan "temer". Caqueguin "cagar". Corrica juan "correr" ...</p><p>-Handigarri eta batez ere txikigarriak, izen arruntaren azpian:</p><p>Borroya "borron" eta Borroychoa "borroncillo". Botea ",bote" eta Botechoa "botecico 0 botecillo". Canta "cantico" eta Cantachoa "cantarcito". Chiquia "pequefio" eta Chiquichoa "pequefiuelo 0 pequefiito". Cordoya "cordon" eta Cordoychoa "cordoncillo". Coscabilchoa "cascabelillo" eta Coscarabilloa "cascabel". Duendea "duende" eta Duendechoa "duendecillo". Eltcea "olla", Eltcechoa "ollilla, ollica u olluela" eta Eltcetzarra "ollaza". Tildea "tilde" eta Tildetzarra "tild6n" ...</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>-Aditz jokatuak:</head><p>Barcabiezat "perdone Vd.". Ecarzu "dame". Guezurra diot "miento". Quenzaite "quttate".</p><p>-Esapideak:</p><p>Bata edo beste "uno u otro". Gau eta egun "dfa y noche". Gaurco egunean "hoy en dfa". Ez andrea "no senora". Ez jauna "no senor". Sarrera-buru fiabartasun honen barruan bereiz aipatzekoak dira bi euskal hitz esanahikide biltzen dituzten ugariak; komarekin bereizita ager daitezke, edo gabe, edo gaztelaniazko 0 juntagailuaz lotuta:</p><p>Aceituna oliogaia "aceituna". Alba eguanza "alba". Almaice motrairua "almirez". Audiencia enzundea "audiencia tribunal". Bidazorroa, maleta "maleta 0 balija". Bolsa Azcua "bolsa". Cadira, jarlecua "catedra". Callutia, Callutsua "calloso". Canonizacioa, Doneguitea "canonizaci6n". Catarata, Odaya, Lausoa "catarata". Catedrala "catedral" eta Catedrala eliz nagusia "catedra[l]". Cercenasca, Bollebaquia "cercenadura~~. Chilborra 0 cila "ombligo". Correa Ubala "correa". Ecereza, Batereza "nada". Teniente ordelaria "teniente"... Hiru taldeotatik, lehena bakarrik jo dezakegu harrigarritzat, hala esanahikide eta adierak, nola homofonoak (cf. arrantza) eta kategoria-aldaketa nabariak (cf. arguia) sarrera berean bilduta baitaude. Honek adierazten digu hiztegigileak ez duela beti era batera jokatu, gorago ikusi baitugu honelakoak maizenik sarrera banatan eman ohi dituela. .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Xede</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Larramendiren auzia</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.1.">Gaztelaniazko eredu lexikografiko baten beharra</head><p>Dakigunez, Etxebarriaren ustetan argi dago OB ez dela Larramendiren hiztegia alderantziz bihurtua, ez eta garai hartako beste edozein hiztegiren kopia.Halere, bere ondorioak ez datoz bat azterketa lexikografikoak iradokitzen duenarekin. Aitzitik, OB-ren ezaugarri zenbaiten baturak agerian jartzen du Odriozolak eredu lexikografikoren bat izan zuela: a. Gaztelaniazko hitz bakar bati (eskuarki termino bati) erantzuten dioten euskarazko sintagmak, hura itzultzeko eta hartarako bakarrik pentsatutakoak diruditenak: agalla tinta eguitecoa "agalla", banderaquin dabillena "abanderado", atunaren cecina "mojama" edo aldarearen aurreco jantcia "frontal" eta areago aundia bada persona "adulto" edo escola maisuaren emaztea "maestra" erakoak.</p><p>b. Gaztelaniazko hitz bakarraren ordez sarrera-buruan ageri diren euskal sinonimo bikoteak, maiz 'mailegua + euskal hitza' egituraren arabera antolatutakoak: acei-tuna} oliogaia "aceituna" edo canonizacioa J doneguitea "canonizacion" erakoak.</p><p>c. Partizipio mugagabea eta mugatua, biak eskaintzea, gaztelaniazko infinitiboak eta partizipioak zeinek bere kidea eskatuta: acordatu "acordar" eta acordatua "acordado" erakoak.</p><p>d. Ezer berezirik eransten ez duten txikigarriak, eskuarki -eta beharbada hauxe da adierazgarriena-maileguetan bakarrik erantsiak: borroya "borron" eta borroychoa "borroncillo", edo botea "bote" eta botechoa "botecico 0 botecillo" erakoak.</p><p>Ezaugarrion arabera, OB euskara-erdara hiztegia izan arren, ontze prozesuaren uneren batean -hasieran ziurrenik-alderantzizko hurrenk~ran pentsatua izan zen edo, zehazkiago hitz eginez, gaztelaniazko nomenklatura batetik abiatuta sortua.</p><p>Honek zuzenean iradokitzen du hiztegigileak ereduren bat izan zuela, hiztegi osoan edo zati on batean behintzat. Badira gaztelaniazko ereduaren ideia indartzera datozen beste ezaugarri batzuk, orain arte aipatu ez ditugunak:</p><p>e. Gaztelaniazko hitz bereziak, ulergaitzak, ohiz kanpokoak, inondik ere haren gaitasunean bakarrik fidatuta ari denari -nahiz irakasle izan-nekez burura dakizkiokeenak ugaritxo egotea, euskal hitz arrunten itzulpen gisa:</p><p>Amildu "derrocar". Astigarra "file 0 arce". Chorroa "rigotera". Ezquia "pobo". Goroldia "pelusa". Leicea "rehoyo". Osina "cadoso". Sagua "sorce, 0 ratoncillo". Zapaldu "majar". Zorrotza "buido". Zugatza "niara". Zumitza "encella"... f. Baliteke, jakina, egun ohiz kanpokotzat jotzen duguna garai batean ohikoa izatea; deigarria da, halere, euskaraz mailegu zuzenarekin ordezkatuta dagoen hitz zail andana (oso berezituak, ezezagunak...):</p><p>Laneroa "lanero". Musiqueroa "musiquero". Olandilla "holandilla". Parpalla "parpalla". Refitorioa "refitorio". Sacatrapua "sacatrapos". Salvagoardia "salvagoardia". Sempiterna "sempiterno 0 tela". Soleta "soleta". Solivoa "solivo". Tiplea "tiple". Tracista "tracista". Trazadisenoa "trazadisefio". Trencilloa "trencillo". Vocamarta "vocamarta"... g. Baita hitz elkartu edo eratorriekin ordezkatuta dauden gaztelaniazko hitz bereziak eta berezituak:</p><p>Aguindaria "prometedor". Altzairutzaillea "acerador". Gustaera "gustadura". Pagateguia "pagadurfa". Piquetsua "pecefio". Polvoraontcia "polvorfn". Predicagarria "predicable". Prensazaya "prensista". Soletaguillea "soletero". Testamentttgabea "abintestato" ... h. Azpimarra ditzagun, haien barruan, gaztelaniazko erlazio izenondo itzulgaitzen euskal ordainak:</p><p>Arteriacoa "arterial". Caridadetarra "caritativo". Censozcoa "censual". Centroarra "central". Curiarra "curial". Sentilaria "sensitivo" ... Bi aukera ditugu, beraz: ereduzko hiztegia gaztelaniazko elebakarra izatea, edo gaztelania-euskara elebiduna. Jakina, ondorioak ez lirateke berberak: (1) Odriozolak gaztelaniazko hiztegi bat erabili baldin bazuen eredu, haren arabera bil eta itzul zitzakeen euskal hitzak, baita hitz zailen bat euskaraz ematearren neologismoren bat (mailegua edo hitz berria) berariaz egin; (2) hiztegi elebidun bat erabili baldin bazuen, horrezaz gainera, bertatik euskal hitzak hartu ere har zit·zakeen.</p><p>Lehenengo aukera ezinezkoa ez izan arren, ezta aurreko hiztegi elebidun eskuizkribaturen bat erabiltzea ere, biok hipotesi garestiegiak dira, helmenean daukagun hipotesirik egiantzekoenaren aurrean: zeren eta, Etxebarriak bestela aditzera ematen badu ere, tartean ez baitago Odriozolak aise erabil zezakeen hiztegirik, ez baitago euskal hiztegi argitaraturik, Larramendirenaz besterik.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.2.">Gaztelania-euskara eredu baten beharra</head><p>Alabaina, zuzenean Larramendiren eragina ebatzi aurretik, zilegi bekit erakustea, hiztegiak berak ematen dituen argudioekin, gaztelania-euskara elebidun ereduaren beharra. Hiru eratako aztarnak eskaintzen ditu: gaztelaniazko adierak, hutsak eta eratorpenaren aberastasun eta erregulartasuna. Berez, hiruretako bat ere ez da erabakigarri, baina bai zalantza sortzeko arrazoi aski. a. Gaztelaniazko elebakar batetik abiatu izan balitz, espero genezake euskal sarrera-buruaren ondoan maizenik gaztelaniazko ordain bakarra egotea, noizbehinka hark sarrera beraren azpian eskainitako sinonimo patea gehienera jota. Edonola ere, nekez ondokoak bezalako adiera-bildumak, lan itzela eginez ez bada behintzat: Aberea = Animal, Bruto, Bestia, Ganado (mayor) Aci = Crecer, criar, Educar Ardatza = Uso, Exe 0 cubo de rueda Artu = Tomar, Acoger, Recivir, Coger, Recoger b. Testu hutsak egilearenak direla fida gaitezkeen heinean -oso hein laburrean, hortaz ( § 2.1)-, badaude kopia-huts gisa errazago azal daitezkeen akats mor'a batzuk: adibidez, -eria -aria-ren ordez (Alabarderia "alabardero", Drogueria "droguero"), edo euskal sarrera-burua eta gaztelaniazko ordaina bat ez datozen kasu ugariak, ziurrenik aurreko zerrenda bate~ik kopiatzerakoan oharkabean egindako jauziak:</p><p>Agasajatua &lt;Agasag-&gt; = Agasajo. Arrogancia = Arrogante. Compontzailea = Componer. Eltzada = Ollero. Estafiateguia = Estafiador. Faltsoa = Falsificaci6n. Misioa = Misionista 0 misionero. Tentaldia = Tentativo. c. Ikusi ahal izan dugu Etxebarriak hala OB-ko mailegu aniztasuna, nola atzizki zenbaiten maiztasuna, bi fenomenoak antzeman ditueia; halere, zein bere aldetik aipatzeaz gain ( § 1.3.a eta d), lehenengotik bakarrik atera ditu ondorioak, Larramendiren aurka eta hiztegiaren "benetakotasunaren H frogarri erabiliaz. Bigarrenetik, adibide bakarra (ciquinquiro) ematera mugatzen denez, hiztegiaren edukia desorekatuki aurkeztuta, irakurleari ukatzen dio arIo honetan OB-n dagoen aberastasunaz jabetzeko aukera.</p><p>Atzizkidun hitz guztien kontu emateak luzeegi joko Iukeenez, hiru atzizki hautatu ditut, lehen biak bata bestearen osagarri: -KIRO (orotara 27): <ref type="bibr">ciquinquiro, cortesquiro, cruelquiro, elduquiro, epelquiro, errazquiro, esnaquiro, /ielquiro, gaizquiro, galaiquiro, gogorquiro, humilquiro, lazquiro, leorquiro, leyalquiro, lustretsuquiro, nasiquiro, peligrosquiro, segurquiro, senalquiro, soseguquiro, suabequiro, tasatuquiro, torpequiro, venialquiro, ventajosquiro, vitoriosquiro,</ref>   <ref type="bibr">Ilea,</ref><ref type="bibr">alborotatzallea,</ref><ref type="bibr">altzairutzaillea,</ref><ref type="bibr">amarratzaIlea,</ref><ref type="bibr">amatzallea,</ref><ref type="bibr">amparatzallea,</ref><ref type="bibr">apaintzallea,</ref><ref type="bibr">apartatzaillea,</ref><ref type="bibr">arquitzallea,</ref><ref type="bibr">artzallea,</ref><ref type="bibr">arrapatzallea,</ref><ref type="bibr">ascatzallea,</ref><ref type="bibr">asmatzallea,</ref><ref type="bibr">ateratzaIlea,</ref><ref type="bibr">aurreratzallea,</ref><ref type="bibr">barautzallea,</ref><ref type="bibr">barcatzallea,</ref><ref type="bibr">billatzallea,</ref><ref type="bibr">bordatzallea,</ref><ref type="bibr">borratzaIlea,</ref><ref type="bibr">botatzallea,</ref><ref type="bibr">caminatzaIlea,</ref><ref type="bibr">cantatzallea,</ref><ref type="bibr">cargatzallea.,</ref><ref type="bibr">castigatzaillea,</ref><ref type="bibr">catezallea [sic},</ref><ref type="bibr">ceatzallea,</ref><ref type="bibr">chiquiratzallea,</ref><ref type="bibr">cobratzallea,</ref><ref type="bibr">compontzallea,</ref><ref type="bibr">consolatzallea,</ref><ref type="bibr">declaratzallea,</ref><ref type="bibr">deitzallea,</ref><ref type="bibr">desonratzallea,</ref><ref type="bibr">ebaquitzallea,</ref><ref type="bibr">echegarbitzallea,</ref><ref type="bibr">erasotzallea,</ref><ref type="bibr">eritzallea,</ref><ref type="bibr">erretzallea,</ref><ref type="bibr">escatzallea,</ref><ref type="bibr">escribitzaIlea,</ref><ref type="bibr">esnatzaIlea,</ref><ref type="bibr">esnesaltzallea,</ref><ref type="bibr">esqueintzallea,</ref><ref type="bibr">ezagutzallea,</ref><ref type="bibr">/iatzallea,</ref><ref type="bibr">/irmatzallea,</ref><ref type="bibr">galardoatzallea,</ref><ref type="bibr">galdetzallea,</ref><ref type="bibr">garbitzallea,</ref><ref type="bibr">gastatzallea,</ref><ref type="bibr">goIpatzaIlea,</ref><ref type="bibr">gordetzallea,</ref><ref type="bibr">guerratzaIlea,</ref><ref type="bibr">guidatzallea,</ref><ref type="bibr">guisatzallea,</ref><ref type="bibr">humillatzallea,</ref><ref type="bibr">iduquitzaIlea,</ref><ref type="bibr">i/intzallea,</ref><ref type="bibr">igoaltzallea,</ref><ref type="bibr">igueritzallea,</ref><ref type="bibr">irazquitzallea,</ref><ref type="bibr">irinsaltzallea,</ref><ref type="bibr">itotzallea,</ref><ref type="bibr">itz.alitzallea,</ref><ref type="bibr">jas0tzaIlea,</ref><ref type="bibr">jorratzallea,</ref><ref type="bibr">jotzallea,</ref><ref type="bibr">larru curatzaIlea,</ref><ref type="bibr">lastasaltzaIlea,</ref><ref type="bibr">legortzallea,</ref><ref type="bibr">lisiba jotzallea,</ref><ref type="bibr">fnaitatzaIlea,</ref><ref type="bibr">marcatzaIlea,</ref><ref type="bibr">meloisaltzaillea,</ref><ref type="bibr">merecitzallea,</ref><ref type="bibr">murmuratzallea,</ref><ref type="bibr">navaja zorrotzallea,</ref><ref type="bibr">neurritzallea,</ref><ref type="bibr">oJenditzallea,</ref><ref type="bibr">olaco urtzallea,</ref><ref type="bibr">ordentzaIlea,</ref><ref type="bibr">oyalsaltzallea,</ref><ref type="bibr">pagatzallea,</ref><ref type="bibr">paquetzallea,</ref><ref type="bibr">partitzallea,</ref><ref type="bibr">paseatzaIlea,</ref><ref type="bibr">peleatzallea,</ref><ref type="bibr">perratzaIlea,</ref><ref type="bibr">pisatzaIlea,</ref><ref type="bibr">por/iatzallea,</ref><ref type="bibr">prestatzaIlea,</ref><ref type="bibr">quentzallea.. saltzallea,</ref><ref type="bibr">secatzallea,</ref><ref type="bibr">sellatzallea,</ref><ref type="bibr">sendatzallea,</ref><ref type="bibr">sitiatzallea,</ref><ref type="bibr">socorritzallea.,</ref><ref type="bibr">suJritzallea,</ref><ref type="bibr">tabaco saltzallea,</ref><ref type="bibr">tasatzallea,</ref><ref type="bibr">tentatzallea,</ref><ref type="bibr">tiratzallea,</ref><ref type="bibr">trapubiltzallea,</ref><ref type="bibr">tratatzaIlea,</ref><ref type="bibr">trazatzallea,</ref><ref type="bibr">tripaqui saltzallea,</ref><ref type="bibr">trucatzallea,</ref><ref type="bibr">ucatzaIlea,</ref><ref type="bibr">uquitzallea,</ref><ref type="bibr">urtzallea,</ref><ref type="bibr">veneratzallea,</ref><ref type="bibr">venzutzallea,</ref><ref type="bibr">visitatzallea,</ref><ref type="bibr">zabaltzallea,</ref><ref type="bibr">zuritzallea.</ref> Jori-joria izateaz gainera, eratorpenak erregular edo automatiko izateko joera du: ia aditz guztiek ondoan -tzalle eratorria daramate, eta ia izenondo guztiek -(ki)ro:</p><formula xml:id="formula_11">Acordatu -Acordatua -Acordatzallea Aditu -Aditua -Aditzallea Adnzinistratu -Administrat1ta -Administratzallea Adoratu -Adoratua -Adoratzallea Amagarria -Amagarriro Carinotsoro -Carinotsua Ciertoa -Ciertoro Cortesa -Cortesia -Cortesquiro Eldua -Elduquiro -Eldutasuna Epela -Epelquiro -Epeltasuna</formula><p>Eratorpen aberats eta erregularra, "gaitasun. hiztegi" deritzegunen, hots, hiztegigilearen hizkuntz gaitasunaren arabera erator daitezkeen hitzak ere jasotzen dituzten hiztegien ezaugarri nabarienetako bat da. Pouvreau, Urte eta Larramendi, zein bere neurrian, hirurak dira diogun honen adibide garaiak <ref type="bibr">(Lakarra 1994b</ref><ref type="bibr" target="#b10">, 1995</ref><ref type="bibr">... , Urgell 2000</ref><ref type="bibr" target="#b29">, 2002</ref>. Ez litzateke erabat ezinezkoa izango zerrenda Odriozolaren izenarekin osatu beharra, baina bai nekez sinestekoa, bere hiztegiko eratorpenak -beste hiru kasuetan bezalaxe-hizkuntzari buruzko hausnarketa sakona eta berariazko lan astuna eskatzen duen heinean.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.3.">Larramendi agerian</head><p>Honainokoan astiro xamar ibili naiz, azken batean argudioak baitira auzi honetan interesgarriena. Auziak berak ez du interes berezirik, edo ez luke interesik, baldin eta Etxebarriak plazaratu izan ez balu: Larramendiren hitzen itxura ezagutzen duenak axaletik, begiratzea aski luke, OB-ren azpian, neurri batean edo bestean, haren hiztegia datzala susmatzeko.</p><p>Hala HH-ko atzizkirik jorien edota nabarienek (-ro, -kiro, -tze, -era, -tzalle ), nola bertako hitzetan bakarrik lekukotzen diren alomorfoek (-de, -lde, -dera, -kida ), edo ohiko betebeharretik kanpo'berezitutako atzizkiek (-{t)ar = gazt. -at) halaxe adierazten digute: 9 --TZE: aurreratcea "aprovechamiento u adelantamiento", botatcea "echada", ciquintcea "ensuciamiento", eldutcea "maduracion", eranztea "desnudez", erasotcea "acometimiento"... -ERA: ancianera "antigiiedad", artceera "acogida" , arrendaera "arrendamiento", cansaera "cansura 0 molestia" , cardaera "cardura", gustaera "gustadura" ...</p><formula xml:id="formula_12">-DE: enzundea "audiencia" (s.v. audiencia), compondea "composicion". -DERA: aurdera "infancia", soildera "tala". -LDE: imitaldea "imitacion". -KIDA: ataquida "compuerta".</formula><p>-(T)AR: centroarra "central", curiarra "curial", goiztarra "tempranal", penitenciarra "penitencial"... -tsu + -ro = -tsoro: carinotsoro.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ohiz</head><p>Ortografiak ere baduke zer esana aIde honetatik. Bokal arteko &lt;y&gt; Etxebarriak Larramendiren aurkako argudiotzat erabili arren ( § 1.3.b), Larramendiren ezaugarri ezaguna da <ref type="bibr">(Urgell 200 la)</ref>. Bide batez, grafiari buruzko atalean ikertzaileak aipatzen dituen ezaugarriek, inon esaten ez bazaigu ere, argi eta garbi adierazten dute OB-ren grafia XIX. mendean itxaron·daitekeen Hegoaldeko grafia armnta baino ez dela, salbuespen batekin: berandutxo da &lt;tz&gt;ren aldamenean &lt;te&gt; aurkitzeko <ref type="bibr" target="#b5">(Lakarra 1985</ref><ref type="bibr">, Urgell 2001a</ref>), baita ziurrenik afrikatu hau frikaritik behar bezala ez bereizteko ere (aroz, trabajacen). Atal hartan ez dira aipatzen, ordea, &lt;sh&gt; aipagarria (pisha "orina", ef. Urgell 1987), ezta Larramendirekin zuzenean lotzen duen ezaugarririk nabarmenena: &lt;is&gt; gaurko &lt;x&gt; adierazteko: carcaisa "gargajo", lisiba "eolada" <ref type="bibr">(Urgell 2001a</ref>). Nolanahi ere den, euskal lexikoaren historiaz zertxobait dakienari ez bide zaizkio oharkabe itzuriko adregoquia "regular", alorta "fnlta", altistea "perla", articasi "estudiar" edo bestengusua "segundo primo" bezalako hitzak, edo gutxienez harrituko da caperutsa maileguaren itxuraz,lO edo zutatu "erguir~' eta orrazatu "peinar" aditzen eraketaz, besteak beste.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.4.">Etxebarriaren azterketaren azterketa</head><p>Orduan, zerk egin du huts Etxebarriaren azterketan? Nire ustetan, bi arrazoi nagusi daude. Lehenik, galdera txar baten erantzuna izatea, ezezkoa baizik ezin izan baitzitekeen: OB ez da Larramendi alderantziz ipinia, bistan denez, tamainagatik bedere. Gehienera jota, egilearen semeak deskribatu bezalaxe, haren "extraeto" bat. Bigarrenik, egiazko analisirik ezak egin dio huts, aurreiritzia azterbeharrari gailendu izanak. Erran komunak dioenez, ez dago ikusi nahi ez duena baino itsu itsuagorik. Izan ere, frogabide gisa aurkeztu dituen adibideak, edo okerrak dira, edo egiaren zati bat estaltzen dute. Berrazter ditzagun.</p><p>Erabiltzen duen lehen argudioa (Larramendirengan agertzen ez diren hitzen kopuru handia) txarra da, arrazoi bat baino gehiagogatik. Garrantzizkoenetik hasita, 3.700 sarrera ingurutik 14 adibiderekin HH ez erabilia frogatzea ezinezkoa delako, erabiltzekotan sarrera guzti-guztietan erabili behar zuela jakintzat ematen ez bada, behinik behin. Negativa non suntprobanda: ezer frogatzekotan 14 sarrera horietan HH ez den iturriren bat -bere buma, zein beste edozein-erabili zuela frogatzen du, ez HH erabili ez zuela.</p><p>Adibideetan cantea "canto", cantoya "canton", capa "capa", capellania "capellanfa", capilla "capilla", capirioa "cabrfo", capitana "capitan", capotea "capote", capoya "capon", capuchinoa "capuchino" ...</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.5.">Larramendiren eragina OB-n</head><p>HH-arekiko erkaketa kontuzkoago honek Larramendi iturria --edo iturrietako bat-izan litekeela iradoki digu, baina badugu oraino lana HH eta ez besterik erabili zuela frogatzen, baita noraino erabili zuen galderari erantzuten ere.</p><p>Lehenengo galderari erantzuteko, edo erantzuten hasteko bederen, lehenago aurkitu dugun huts bateratzailea gogora dezakegu, beherago azalduko zaizkigun bestelako frogen zain: OB aberen sendatzallea "albeitar" alcabalen zaya "alcabalero)' apostoluaren batcera {sic?} "apostolado" apostoluen erara "apost6Iicamente)) asquidana "bastante" atunaren cecina "mojama" baqueta agorra {sic?] "baqueta de escopeta" egercituen etzauntza "campafia 0 campamento)) escola rnaisuaren emaztea "maestra" HH abereen sendatzallea "albeitae) alcabalen zaia "alcabalero" apostoluen batzarrea, bilguma, ballera "apostolado" apostoluen erara "apostolicamente)) asqlti dana "bastante" atunaren cecifia "mojama)) baqueta, cigorra "baqueta, de escopeta, &amp;c." guerratien etzauntza "campafia, el campo de el exercito)) maisuaren emaztea "maestra, muger de el maestro"</p><p>b. Gaztelaniazko hitz bakarraren ordez sarrera-buruan ageri diren euskal sinonimo bikoteak, ia ehuneko ehunean HH-tik hartutakoak dira, batzuetan mailegua izan ezik; bide batez, hemen ere irakurketa bi (azcua ala cizcua? odaya ala odeya?) zalantzan jartzeko bidea aurkitu dugu: OB aceituna oliogaia "aceituna" alba eguanza "alba" almaice motrairua "almirez)) audiencia enzundea "audiencia tribunal" bidazorroa, maleta "maleta 0 balija" bolsa azcua {sic?} "bolsa" cadira, jarlecua "catedra" callutia, callutsua "calloso)) canonizacioa, doneguitea "cano-nizaci6n" catarata, odaya [sic?], lausoa "catarata" catedrala "catedral" catedrala eliz nagusia "catedra[l]" cercenasca, bollebaquia "cercenadura" HH aceituna, oliogaya "aceituna" eguanza, alba "alba" amireza, menastazco motrairua "almirez" entzundea "audiencia, tribunal" bidazorroa "balija, maleta de caminantes" cizcua, bolsa "bolsa" cadira, jarlecua "cathedra" callutia, callutsua "calloso" canonizacioa, doneguitea "canonizaci6n" odeia, lausoa "catarata en 10s ojos" eleiznagusia "cathedral iglesia" cercenasca, bollebaquia "cercenadura" chilborra 0 cila "ombligo" correa ubala "correa" ecereza J batereza "nada" teniente ordelaria "teniente" chilborra J cila "ombligo" iiala, uvala "correa" ecereza J batereza "nada, la nada" ordelaria "teniente" c. Txikigarri eta handigarriak ere, denak HH-koak dira, eta errepara bekio gaztelaniazko ordain multzoetan dagoen berdintasun ezin adierazgarriagoari (ik. botechoa, chiquichoa eta b~tez ere eltcechoa): OB borroychoa "borroncillo" botechoa "botecico 0 botecillo" cantachoa "cantarcito" chiquichoa "pequenuelo 0 pequefiito" cordoychoa "cordoncillo" coscabilchoa "cascabelillo" duendechoa "duendecillo" eltcechoa "ollilla, ollica u olluela" eltcetzarra "ollaza" tildetzarra "tild6n" HH borroicho "borroncillo" potechoa "botecico, botecillo" cantachoa "cantarcico" chiquichoa "pequefiuelo, pequefiito" cordoichoa "cordoncillo" coscabilchoa "cascabelillo" duendechoa "duendecillo" eltzecho "ollica, ollilla, 011uela') eltzetzarra "ollaza" tildetzarra "tild6n" d. Euskal hitz arrunten itzulpen gisa emandako gaztelaniazko hitz bereziak ere, adibide gisa ekarri ditugun ia guztiak HH-ak azaltzen ditu, era batera edo bestera, baita gaztelaniazko ordain bitxiak zuzentzeko modua ere ematen, bidenabar: OB amildu "derrocar" astigarra "file [sic, tilo-ren ordez?] 0 arce" chorroa "rigotera" <ref type="bibr">[sic]</ref> ezquia "pobo" goroldia [sic?] "pelusa" osifia "cadoso" sagua "sorce, 0 ratoncillo" zorrotza "buido" zugatza "niara" zumitza "encella" HH amildu "derrocar" astigarra "arze", "tilo" bigote chorroa "bigotera" ezquia "pobo, alamo blanco" goroldio J oroldioa "pelusa" osifia "cadoso, cadozo, lugar hondo en el rio" sagua "sorce, ratan pequefio" zorrotza "buido" sugatza "niara, monton de paja en el campo" zumitza "encella, canastilla" e. Baita mailegu zuzenaz itzulitako gehienak; gure 13 adibideetatik 8tan Larramendi da maileguaren iturria; bitan (parpalla, refitorioa), badirudi Odriozolak HHkoak onartu ezinik, mailegua hobetsi duela; adibide ezin interesgarriago batean, bestalde, ikus dezakegu trazadisefioa kopia-huts batetik sortutako iratxoa baino ez dela; eta, azkenik, badira HH-ak ez dakartzan bi hitz: musiquero (ef. Moliner "Mueble adeeuado para guardar en ellos libros y euadernos de musiea") eta vocamarta ezezaguna, nondik irten den ezin asma dezakedana:</p><p>OB musiqueroa "musiquero" olandilla "holandilla" parpalla "parpalla" refitorioa "refitorio" sacatrapua "saeatrapos" salvagoardia "salvagoardia" sempiterna "sempiterno [sic} o tela" soleta "soleta" tiple "tiplea" tracista "traeista~t razadisefioa "trazadisefio" trencilloa "treneillo" vocamarta "voeamarta" HR olandilla "holandilla" champona "parpalla, parpallota, parpasola, moneda de eobre de dos quartos~m aiteguia, mainteguia, bazcalteguia "refitorio, refeetorio" sacatrapua "saeatrapos" salt1aguardia "salvaguardia" sempiterna "sempiterna, tela" soleta "soleta, en las medias" tiplea "tiple, voz"-, "tiple, cantor", "tiple, vihuela menor" tracista "tracista, de fabrieas, &amp;e." traza "traza, disefio de -edificio" trencilloa "trencillo, treneilla, treneellin, eintillo de sombrero" f. Hitz elkartu edo eratorriekin ordezkatuta dauden guztiak ere HH-koak dira, kalkoren bat (polvoraoncia &lt; suautsoncia) eta eraberritzeren bat (testamentugabea &lt; testamentu bague) gorabehera: OB aguindaria "prometedor" alasaya "cuenda" altzairutzaillea "acerador" gustaera "gustadura" pagateguia "pagadurfa" piquetsua "pecefio" polvoraontcia "polvorin" predicagarria "predicable" prensazaya "prensista" soletaguillea "soletero" testamentugabea "abintestato" HH aguindaria "prometedor" alaJaya "euenda" altzairutzallea "acerador" gustaera "gustadura" pagateguia "pagaduria, donde se paga" piquetsua "pecefio" suatttsoncia "polvorin"; cf. OB polvora "p61vora" vs HH suautsa, sutautsa "polvora" predicagarria "predicable" prensazaya "prensista" soletaguillea "soletero" testamentu bague "abintestato" g. Eta, jakina, baita erlazio izenondoen euskal ordain guztiak ere: 559 OB arteriacoa "arterial" caridadetarra "caritativo" censozcoa "censual" centroarra "central" curiarra "curia!') HH arteriacoa "arterial" caridadetarra "caritativo" censozcoa "censual" centroarra "central" curiarra "curial)' h. Adiera edo sinonimo-bildumak ere, gehienak bertatik atera dira, baten bat (ik. arguia "alumbrado", arrantza "rebuzno") Odriozolak erantsia bada ere: OB abendua "diciembre, adviento" aberea "animal, bruto, bestia, ganado (mayor)" aci "crecer, criar, educar') acia "simiente 0 semilla" aldapa "cuesta, costanero" arana "ciruelo, ciruela)' arguia "luz, alumbrado, claro" arilcaya "debanadera 0 argadillo" arrantza "pesca, rebuzno" HH abendua "adviento", "diciembre" aberea "animal", "bruto", "bestia", "ganado mayor" aci "crecer", "criar, nutrir", "educar" acia "semilla", "simiente, 10 mismo que semilla, vease" aldapa "cuesta", "costanero" arana "ciruela, ciruelo" arguia "luz", "claro" arilcaya, "argadillo", "devanadera" arrantza "pesca, el pescar" i. Batzuetan, Odriozolaren euskarazko gehigarriak: HH-ko gaztelaniazko zehaztapenen itzulpen baino ez dira: OB arbol acerola eta aren fruta "acerola" popaontzia "popa" tinteroco biloscac "cendales" HH acerola "acerola, arbol y fruta" popa "popa, de navfo" biloscac "cendales de el tintero" j. Hutsez den bezainbatean, nahikoa frogatu dugu dagoenekoz ia guztiak: OBkoak direla, eta gehientsuenak apika, argitaratzaileak eginak. Edonola ere, HH-arekiko erkaketak euskaraz eta erdaraz huts harrapagaitzak zuzentzeko aukera eman digu ( § 2.1). Bada baten bat gehiago:</p><p>icerdica "sudor pegajoso" &lt; RH icerlica "id." HH OB-ren oinarrizko iturria delako baieztapen beraren ildotik, laginean azalgabe geratu zaigun laurdenaren kontu emateko bidea aurkitzen dugu: k. HH-ko lekukotasunaren aldaera txikiak, zuzenketak zein okerrak: urbazterra (HH ubazterra), urbedeincatua (HH ur bedeicatua), urjayotza <ref type="bibr">(HH ugayotza)</ref>, urritza <ref type="bibr">(HH</ref>  n. Berak erantsitako sarrerak; deigarrienak euskal hitzak mailegu zuzentzat hartuta, nonbait, gaztelaniaz forma bera daramatenak dira:</p><p>Canibeta "canibeta", Capela "capela tt • Carraca "carraca".11 Derradan, bide batez, Legorretako maisua ez bide zela oso erdaldun ona: cf. alberchicua "alberchico", cerritua "resquizo", erbizacttrra "perro sagiieso" (HH erbizacurra "sabueso t ' ) , euritsua 44110vioso", fieldadea "fieldad t ' , sandia "sutano", sentiera "sensacion o sensamiento", tramoya "tramon" [sic, tramoya-ren ordez}, zapoa "zapo" .. ,12 Gurera itzulita, eta aipatuez gainera, badira hitz solte zenbait, berak bere kasa erantsiak, antza denez:</p><p>Camajancia "cielo de la cama". Casaquiiia "chaqueta" (cf. HH-an gazt. casaquina). Urchoria "pajaro calomon". Usaya "olfato". Uztaya "celo", Eta aldaera nabarmenago bat:</p><p>Carachoa "berruga" (HH carecha "verruga").</p><p>Demagun halako ziurtasun batez onar dezakegula (fi)-ko guztiak Odriozolaren hizkerakoak direla, eta (n)-koak ere, de'nak -edo batzuk behintzat-mailegu herrikoiak direla, Odriozolak bere euskararen arabera erantsitakoak Larramendik zekartzan hitz ezezagunen ordez. Baliteke, gainera, (k)-koetan ere hizkera horren beraren lekukotasunik egotea, inoiz etimologia berreskuratu nahi duten "zuzenketak" baino ez badirudite ere (cf. urjayotza &lt; ugay0tza; Afiibarrok ere baditu honelakoak: cf. <ref type="bibr">Urgell 2003)</ref>. Ostera, (1) eta batez ere (m)-koak inolaz ere gehienbat Odriozolaren gaitasq.naren -hitzak jokatu eta eratortzeko gaitasunaren-ondorio baino ez dira. Oro har, beraz, ondoriozta dezakegu OB Larramendiren hiztegiaren ondoko arruntak (Afiibarro bera, kasu) baino oraindik hertsikiago lotu zitzaiola bere euskal ereduari eta, beraz, haien aldean berezko ekarpen gutxiagoko hiztegia dela.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Bonaparteren eskua omen dena</head><p>OB Legorretako euskararen lekukoa izan litekeenentz neurtzera igaro aurretik, komeni da hiztegiko bigarren eskua hobeto ezagutzea, hitzak tinta gorriz erantsi dituena. Etxebarriaren arabera, Bonaparte bera da, sineste honetara zerk eraman duen esaten ez badigu ere. Argitalpenaz fida gaitezkeen neurrian, ustezko egilearekin bat datozke gaztelaniazko huts nabariak (abiadura "ventajo...", adrea "regto" ,12bis aldean "cerco", alea "cerear", ausartatu "usar", ayec "elos"), Odriozolarenez --eta argitaratzailearenez-pitin bat ezberdinak baitira, atzerritar batek egiteko modukoak, apika.</p><p>Badakigu esku honen ekarpena garrantzizkoa dela: 241 hitz A letran, Etxebarriaren kalkuluen arabera. Esan gabe utzi du, ordea, kontuak ez doazela berdin hiztegi osoan zehar: B letran bi eransketa baino ez zituen egin, hiru C letran, bi D letran, bi E letran, eta honelatsu bukaera arte. Lana bukatu gabe utzi zuen, nonbait.</p><p>Badakigu, gainera, OB-ko ekialdeko hitzak <ref type="bibr">(agitz, arras, auendatu)</ref>  3. eranskinean esku honek erantsitako hitzen erakusgarri bat bildu dugu (A-Ai zatia). Erakusgarri honen arabera, hemen ere hitz guztiak HH-koak ez izanda ere, zorrak bere hartan dirau: antzekotasunak kontuan hartu gabe, 64 hirzeran 46 (%72) zuzenean kopiatu dira dagozkien HH-ko sarreretatik, are batzuetan HH-ko sarrera bat baino gehiago erabili da OB-koa <ref type="bibr">eratzeko (ef. aberea, aci, adarra... )</ref>. Haien artean Larramendiren hitz berri ezagunetako batzuk (alarta "frota", altistea "perla"...) aurkitzen dira, gainera.</p><p>Osterantzeko sarreretan, egokitzapenak (aglJeria vs aguiria, aguerria; aitzuloa vs arzuloa; aldereguin vs aIde eraguin), sarrera ezberdinetan idoro daitezkeen hitzak <ref type="bibr">(agurea, alaya, albait, alcarrequin, alferqueria, alquia)</ref> eta, hitz gutxitan esateko, oso ekarpen berri gutxi: abiadura, aicetea, aitaguiarreb(:t (HH eta Odriozola aitaguiarraba), alacoa, aldatu "plantar", aldian "eada vez", almeriza eta altua.</p><p>Esku honek badu azken ezaugarri azpimarragarri bat. Etxebarriak ( § 1.3.b) OB-n hitz aldaerak agertzen direla <ref type="bibr">(acullua, aculloa; aceria, azaria)</ref> aipatzerakoan, ahaztu du zehaztea aldaerok bigarren eskuaren eransketak izan ohi direla, batzuetan denak, bestetan bat bakarrik ("Bon" = Bonaparte; "Od" = Odriozola):13 aceria "zorro" (Bon), axaria "raposa" (Bon), azaria "raposa" (Od) aculloa "aguij6n" (Bon), acullua "aguij6n" (Od) adrillua Hladrillo" (Bon), arrillua "ladrillo" (Bon) aitaguiarreba "suegro" (Bon), aitaguiarraba "suegro" (Od) alferqueria "haraganerla" (Bon), alperqueria "oeiosidad" (Od) almaice "almirez" (Od), almeriza "almirez" (Bon) amorraya "trucha" (Bon), amurraya "trucha" (Od) antzarra "ganso" (Bon), anzarra "ganso" (Od) aoa "boea" (Bon), auba "boea" (Od) apaiza "clerigo" (Od), apeza "cura" (Bon) apia "nido" (Bon), cabia "nido" (Od) artzaya "pastor" (Bon), arzaya "pastor" (Od) asarretu "reiiido, refiir" (Bon), aserratu "refiir, enfadar" (Od) asnasa &lt;ar-&gt; "aliento" (Bon), asnasea &lt;ar-&gt; "aliento" (Od) asteaizquena "miercoles" (Bon), asteazquena "miercoles'" (Od) ata "anade" (Bon), atea "anade" (Bon) Aipatutako ezaugarrietatik (ekialdeko hitzak, HH-koak, Odriozolaren lekukotasunen aldaerak) bat ere ez dator ongi Bonaparterengan Etxebarriak azpimarratzen duen dialektologotasunarekin, ez eta OB-ren ustezko izaera dialekralarekin. Baina gai honek azterketa berezia eskatzen duo 2.5. Legorretako euskara?</p><p>OB-ko ezaugarri orokor anitz ere ez datoz ongi Legorretako hiztegi dialekral izatearekin: HH-aren ekarpen erraldoia, Odriozolak ere emankor·bihurtu duen eratorpena ( § 2.3.5.m) edo, beste adibide argi bat emanda, ohiz kanpoko maileguak ( § 2.3.1.e), erdal hiztunok -nire lekukotasunak balio baldin badu-ezagutzen ez ditugunak, baten bat kultur hitz gisa ez bada (cf. tiple), ezta galdeketaren berri-emaileek ere.l 4 Alabaina, Etxebarriaren hitzetatik bestelako uste bat atera daiteke, eta hitzetatik baino areago eginetatik: orain artean betaurrean jarri duguna egia izanda ere, alegia, OB ez dela Larramendiren hiztegiaren "extracto" bat baizik, egilearen ---egileen-eransketa eta aldaketa zenbaitekin bada ere, "extracto" delako honen helburua, bere herriko edo inguruko euskararen berri ematea izan liteke: hots, bali-' teke "extracto~~edo aukeraketa hizkera hartan oinarritutakoa izatea.</p><p>Hau honela balitz, oraindik ere zentzua luke gaurko euskararekin Etxebarriak egindako erkaketak: berdintasunek horretan berretsiko gintuzkete, eta ezberdintasunak bertako euskararen bilakaera ezagutu eta aztertzeko lekukotasun ezin baliotsuagoak izango lirateke. Kontua makala ez izanik, berpasa ditzagun lehenik Etxebarriak Legorretako euskararen aide emandako argudioak: (1) egilearen eta honen semearen jaioterria eta bizitokia; (2) iturri idatzirik aipatu ez izana; (3) hitzak gipuzkerazkoak izatea, ez bizkaierazkoak, ezta ekialderagokoak ere, Bonapartek erantsitako zenbait izan ezik; eta (4) -a + -a &gt; -ea bilakaera. Argudio hauek oso ahulak dira, batzuk gehiago besteak baino, eta azken finean quod erat demostrandum-en tankerakoak. Baina merezi du astiro azter ditzagun.</p><p>Lehena egiazkoa da, baina aldez bakarrik egiazkoa. Etxebarriak berak aitortzen du ez duela aitaren berririk: Legorretan bizi izan zela bai, eta semea bertan jaio zela. Dena dela, bistan da argudio hau lagungarri baino ezin izan daitekeela hiztegia definitzerakoan.</p><p>Bigarrena ere egiazkoa da: ez dute iturri idatzirik aipatzen. Aipatu ere, ez dute ezer aipatzen, ez eta Legorretako euskara denik. Zuzenak izatera, hiztegiaren kariaz daukagun lekukotasun bakarrak -semeak "extracto" deitua, 'laburpena~ohiko adieran-, bermatu baino errazago, ukatu egiten du ahozko etorkiaren hipotesia.</p><p>Hirugarrena ez da frogatzen. Badakigu zeinen "iparraldeko" diren Bonaparteren hitzak, eta etorki bera du (ekialdekoa, baina HH-areo bitartez) Odriozolareo hitzen batek, hala nola galdea "pregunta". Dena dela, ez dirudi gipuzkerazko hitzen barruan acordatzallea} agacaria} alcanzaria... erraz sar daitezkeenik.</p><p>Laugarrena besteak baino interesgarriagoa da: a + a &gt; ea bilakaera Hegomendebaleko hizkera anitzen ezaugarri da <ref type="bibr" target="#b30">(Zuazo 1998</ref><ref type="bibr">, Hualde &amp; Gaminde 1997</ref>, haien barnean Goierriko euskararena, Zegamako dotrina lekuko (1741; Ondarra 1984). Halere, ezaugarriaren zabalkunde ezagunak Legorretako euskara baino aukera gehiago ematen ditu, haien artean Larramendiren hiztegia berriro ere <ref type="bibr">(Urgell 2001a)</ref>. Azter ditzagun Etxebarriak emandako adibideak: OB anquea "pierna" arbolen motea "boton" be/ea "cuerbo" egaberea "avefrfa" olea "ferreria" HH bernea "pierna~m otea "boton, en los arboles" belea "cuervo" egabera "ave frfa" ola} olea "herreria" (cf. "Ferreria, vease herrerfa"). aceria (Us, Leg), axaria (Us), azaria (Us, Leg); achurra "azada" (Us, Leg), aitzurra "azada" (Us, Leg); aculloa (Us, Leg), acullua (Us, Leg); aitaguiarreba (Us, Leg), aitaguiarraba (Us, Leg); alferqueria (Us, Leg), alperqueria (Us, Leg); amorraya (Us, Leg), anzurraya (Leg); antzarra (Us, Leg), anzarra (Us, Leg); asarretu (Us, Leg), aserratu (Leg); ausi (Us, Leg), autsi (Leg).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>d. Eta sinesgarri ote burugabeko berdintasunok onartzea?</head><p>Aicetoa "ventilar" (Us). Aldtzrearen aurreco jantcia "frontal" (Us, Leg). Arbolchiquia "arbusto" (Us). Arozaulquian trabajacenduna "evanista" (Us). Asaria "zaguan" (Us). Chistera "chiste" (Us, Leg). Chorroa "rigotera" (Us). Drogueria "droguero" (Us, Leg). Orma "norma" (Leg). Tachuela aundia "tach6n" (Leg). Zorrotza "buido" (Us, Leg).</p><p>Hitz akastunak, gaztelaniazko esanahi ulertezinezkoak eta nolanahiko parafrasiak onartzeko gai izanda, batez ere Usurbilgo berriemailea, ezin gaitezke harritu bestelako sarrera sineskaitzetan ere beren bermea kausitzeaz, hala nola:</p><p>d. -kiro atzizkidun aditzondo batzuetan, nahiz itxura guztien arabera pleonasmo honen jatorria Euskal Herriko bazter batean egon, Hegoaldeko goinafarreran zehazkiago <ref type="bibr">(Urgell 2000)</ref>. Esanguratsuki lau bakarrik onartu dituzte, biek laurak onartu ere, artean hitz berri nabari bat (elduquiro = part. + -kiro; ik. § 2.3.3) badago ere: elduquiro "maduramente", epelquiro "tibiamente", leorquiro "secamente", segurquiro "seguramente". e. Neologismoak ugari, Larramendirenak zein Odriozolarenak (cf. desembarcacioa, jostorroncia eta polvoraontcia): aicemallea "soplador, abanico" (Us, Leg) [cf. abanicua "abanico" (Us, Leg)}, altzairutzaillea "acerador" (Us), arrotia "arrogante" (Us), borratzallea "borrador" (Us), broncestatt'/, "broncear" (Us), convertigarria "convertible" (Us), declaratzallea "declarador" (Us), desembarcacioa "desembarcaci6n 0 desembarco" (Us), eramangarria "llevadero" (Us), eritzallea "heridor", erruq(u}ida "histima" (Us), esnatzallea "despertador" (Us), gaisoteguia , "enfermer{a" (Us), gaisozaya "enfermero" (Us), imitaria "imitador" (Us),jos-torroncia "alfiletero" (Us), miaucaotsa "maullido" (Us), moldizquiratua "impreso" (Us), oartaria "observador" (Us), polvoraontcia "polvorfn" (Us), secularitu "secularizar" (Us), tinteroco biloscac "cendales" (Us)... f. Mailegu ulergaitz, ohiz kanpoko edo zaharkituak berdin:</p><p>adarmea "adarme" (Us), musiqueroa~(musiquero" (Us), parpalla "parpalla~' (Us), trompeteroa "trompetero" (Us). g. Zer galdetu ote da, ostera ere, -tze atzizkidun izenak onartzeko, are adiera teknikoetan ere?</p><p>adieraztea "significaci6n, sentido" (U·s, Leg), aurreratcea ctaprovechamiento U adelantamiento" (Us, Leg), botatcea "echada" (Us), ciquintcea "ensuciamiento" (Us, Leg), eldutzea "maduraci6n" (Us), eranztea "desnudez" (Us), erasotzea tCacometimiento" (Us)... Zer arrazoi egon liteke hau denau gertatzeko, edozein euskaldunek ia ulertu ahal ditzakeela ez bada? Haatik, hiztunak ulertzetik erabiltzera doan aIdea, bere hizkuntza gaitasunetik egiatan erabiltzen duenera doan aldea mugatzea behintzat, badirudi kasu honetan garrantzizkoa zela.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Azken erkarpen eta ondorioak</head><p>Orain artean esan dugunaren arabera, ondorioztatu behar dugu OB HH-aren ondoren eta hartan oinarrituta egin ziren hiztegi anitzetatik bat baino ez dela: Larramendiren hiztegitik zuzenean hartutako hitz mordoa dakar (%70etik gora), bi eskuek (Odriozolak eta, ustez, Bonapartek) erantsitakoen artean. Hiztegiaren gainerako laurdenean, HH-koaren eredura egindako elkarketa eta eratorpen automatikoaz sortutako hitzen bat, HH-ko hitzen aldaera gutxi-asko esanguratsu batzuk, eta egiIeen ekarpentzat jo dezakegun hondarra, txikia baina interesgarria. Bigarren eskuaren ekarpena aIde batera utzita, egilea zalantzan baitago -baina, Bonaparte izatera, balioa bera ere zaIantzazkoa izango bailitzateke-, ikusiak ikusirik, Legorretako maisuaren ekarpena gehixeago zehatz dezakegu.</p><p>HH-arekiko erkaketa zehatzagoa eta galdeketa ziurragoa beharko Iirateke berak erabiltzen zuen euskararantz OB zenbat hurbiltzen den neurtzeko. Dena dela, xehetasun batek baino gehiagok badirudi berresten dutela ezen, ora har, "extracto" baten egilearengan itxaron daitekeen bezalaxe jokatu zuela: forma ezagunak edo itxurarik onena hartzen zienak hautatu zituen, ezinezkotzat jota aIde batera utzi zituen beste batzuk, honelakoetan batzuetan behintzat mailegua hobetsirik, eta inoiz edo behin egokitu egin zituen aurkitutako formak, dela berak ezagutzen zuen aldaeraren, dela forma etimologikoaren arabera.</p><p>Nekez baino ez dira aurkitzen, beraz, Odriozolaren euskararen aztarnak OB-no Alabaina, diren guztiak jakingarriak dira: a. a + a &gt; ea eta honekin lotutako hiperzuzenketak, asko HH-an idoro zitzakeen, baina berak ugaldu egin zituen:</p><p>anquea "pierna", arbolen motea "boton" « HH motea), cantea "canto" « HH canta} cantea "canto"), cotea "cota" « I-IH cota} cotea), cotillea "cotilIa" « HH cotilla, cotillea), egaberea "avefrfa" (HH egabera "ave frfa"), escortea "corral" « HH escortea), escubarea "bieldo" « HH escubarea "bielda"), jorrea "escarda" (HH jorra), lampardea "lamprea" (HH lamparda), lastaidea "gergon" (HH lastaira "xergon"), limea "lima» « lima, limea), locatzea "lodo", lora "flor" « HH lorea, lora), lorachoa "florecilla" « HH lorecho, lorachoa), marquesea "marquesa" « HH marquesea), mayrredondea "mesarredonda", musea "mus" (HH mus), otsaillea, otsailla "febrero" (HH otsailla), paretea "pared" « HH paretea, pareta), tolara "lagar" (HH tolarea), veletea "veleta" (HH beleta), zuma "mimbre" (HH zumea).</p><p>b. Bokal ondoan u + a &gt; uba ondorioa bere-berea dugu, HH-ak eskuarki -ua hiatoa dakarren bitartean: cacauba "cacao" (HH cacaua), capillauba "capellan" (HH capellaua), christauba "christiano" (HH christaua), escribauba "escribano" (HH escribaiia). c. Badirudi 0 + a &gt; ua egiteko joera ere bazuela, honako adibide hauen arabera: chertua "bacuna", damascua "damasco" (HH damascoa), garizumacua "cuaresmal" (HH garizumacoa "quaresmal"), idiscua "novillo" (HH idiscoa). ametz arbola "quegigo", aranaren fruta "ciruela", gaztafia arbola "castafio" ...</p><p>Honek esan nahi du OB-k balioren bat badukeela lekuko gisa, baino balio hori oso murriztuta dagoela, HH-arekiko descriptus den neurri osoan. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburdurak</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>Inoiz aditzizena aurkitzen dugu partizipioaren ordez, hiztegiaren hasiera aldera maizago gero baino: Apaindu = Adornar, Engalanar. Apaindua = Adornado. Apaintcea = Adornarse. Atrebitcea = Atreverse. Atrebitua =. Atrevido. Chertatcea = Bacunar. Chertatu = Ingertar. Chertatua = Ingertado. Comulgatcea = Comulgar. Confesatcea = Confesar. Corregitcea = Corregir. Corregitua = Corregido. 8 Sarrera barruko antolamendu bakunak iragarri bezala, sarreraren osagaiak (adiera ezberdinak, kategoria-aldaketak, adizlagunak, esapideak, kolokazioak...) sarrera banatan ageri dira, hiztegi zaharretan ohikoa den moduan: Aci == Crecer, criar, Educar. Acia = Crecido. Acia = Simiente, 0 semilla. Aizcora = Hacha. Aizcoraren quirtena = Mango de hacha. Andia = Grande. Andiagoa = Mayor. Andiena = Mayor. Artea = Arte. Artea = Encina. Beatza = Dedo. Beatzchicarra = Dedo mefiique. Beatz eraztunecoa = Dedo anular. Beatz erdicoa = Dedo de en medio. Beatz Iodia = Dedo pulgar. Beatz lodi urrengoa = Dedo indice. Campoa = Campo. Campoan = Fuera. Campora = Afuera.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>-hizkuntzaren aldetik ere, usoena ordain bakarra eta hura bakuna ematea da: Abadesa mongena = Abadesa. Abarasca = Panal. Aberastasuna = Riqueza... Halere, hemen ere badira arauz kanpoko gertakariak: -Adiera edota sinonimo bildumak, euskaraz bezalaxe era ezberdinetara lotuak: Abendua = Diciembre Adviento. Aberea = Animal, Bruto, Bestia, Ganado (mayor). Aci = Crecer, criar, Educar. Acia = Simiente 0 semilla. Aldapa = Cuesta, Costanero. Arana = Ciruelo, Ciruela. Arguia = Luz, alumbrado, claro. Arilcaya = Debanadera 0 argadillo. Arrantza = Pesca, Rebuzno... -Zehaztapenak: Abiadura = Ventaja &lt;-jo&gt; que se toma para saltar. Ardatza = Huso, Exe 0 cubo de rueda. Arrea = Arado de muchos dientes... -Definizio laburrak (adibide bakarra, oker ez banago): Grana = Grana pafio fino.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>d. Oso nabariak dira r eta d artean dauden gorabeherak: guradiduna (?) "antojadizo", lastaidea "gergon" (HH lastaira "xergon"). e. Adizkietan, duna, duana eta dana lekukotzen ditu: arozaulquian trabajacenduna '~evanista", asquidana~~bastante", pensioa cobratcenduana "pensionista". f. Zuhaitzak eta frutuak hartakotzat markatu beharra zeukan:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>DAut = Real Academia Espafiola 1726-1739. DVEF = Azkue 1905-1906. EH = Sarasola 1996. HH = Larramendi 1745. OB = Odriozola-Bonaparte hiztegia. OEH = Mirxelena 1987-2005. Bibliografia Alonso, A., 1951, "Formaci6n del timbre ciceante en la c, z espafiola", NRFE 5,121-172 eta 263-312. Arana Martija,]. A., 1990, Bibliograjfa Bonapartiana, Euskaltzaindia, Azkue Biblioteka, [so 1.]. Calesaria = Calesero (HH) Caliza =: Caliz (HH) (HH) Campora = Afuera (HH "Fuera, afuera") Cana == Vara (HH) 15 "etim" laburduraz adierazi nahi dugu Larramendik euskal etimologia ematen diola hitzari. :: Cal (HH) Careguillea:::: Calero (HH) Carga :::: Carga (HH) :: Casta (HH + etim) Castidadea :::: Castidad (HH) Castigaru :::: Castigar (HH + erim) Castigatua :::: Castigado Castigatzallea :::: Castigador (HH) Castigua = Castigo (HH) Castiza = Castizo (HH) Castoa = Casto (HH) Casulla = Casulla (HH) Catamotza = Tigre (HH) Catarata, Odaya, Lausoa = Catarata (HH Ucaera = Negaci6n (HH) Ucalondoa = Codo (HH) Ucatu = Negar (HH) Ucatua = Negado (HH) Untatu = Untar (HH) U ntatua == U ntado Upateguia = Bodega (HH) Upela = Cuba (HH) "Catarata en los ojos,odeia, lausoa) Calomon Urdaiazpia = Magra 0 Pernil (HH "Pernif') U rdaya = Tocino (HH) Urdea :::: Asqueroso (HH) Urdindua = Cano (HH) U rdifia = Azul (HH) Urdifiarrea = Gris (HH) Urjayotza = Manantial (Bon) (cf. HH ugayotza) LTrlia = Fulano (HH) Urra = Avellana (HH) Urratu :: Rasgar (HH) Urratua == Rasgado (HH) Urrea = Oro (HH) Urrean = Cerca (HH) Urritza = Avellano (HH urriza) Urruti := Lejos (HH) Catedrala eliz nagusia = Catedra[l} (HH 'Cathedral Iglesia, eleiznagusia) Urtu = Derretir (HH) Urtua :::: Derretido (HH) Urtzallea = Fundidor (HH) Usacumea = Pich6n (HH) Usatortola = Tortola (HH) Usatu = Usar (HH + etirn) Usatua = Usado (HH) Usaya = Olfato Usayeguin = Oler (HH usaieguin) Usoa = Palorna (HH) Ustu = Vaciar (HH) Ustua == Vaclo (HH) Usoa = Costumbre 0 Uso (HH usua + etim) Usura == Usura (HH) Usuraria :::: Usurero (HH) Uztailla = Julio (HH) Uztapicoa = Breva (HH) Uztarria = Iugo (HH "Yugo") Uztartu = Uncir (HH) Uztartua = Uncido (HH) Uztaya = Celo</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>). Erabilera berezi honek, abantaila ezagunak izanik ere, baditu akats eta hutsune zenbait. Mesfidantzaz begiratzen zaienez, mota honetako iturriak ez dira exhaustibo eta sistematikoki erabili ohi, Oxford English Dictionary deIa eta OsseItonek (1990) saIatu bezala. Berbera esan daiteke, gure aIderago etorrita, OBH-ari buruz ere: Larramendimaiz aipatu arren, goiko (erdi-)hapax zerrendako batzuk aIde batera utzita daude (7/24 = %30), dirudienez irizpide finkorik gabe (OEH-ko datuak Euskal Hiztegia-ren modura letraIdatu ditugu): ajubetatu: cf. OEH S.v. axubeta (aixubeta *1746, aiubet 1912). alborakia (mug.): cf. OBH S.v. alboroke (alborokia (mug.) -1802, alboroke *1905, alboroka *1905, alboka xx. h.). alper potz: cf. OBH ALFERZOTZ (1931), S.v. alfer. ananean dago: dudarik gabe hain-hainean (1712) formarekin Iotua, cf. OBH HEINEAN "a punto de" (1858), S.v. hein. andrezurrian ibilli: ez da inon ageri; cf. ostera OBH MERKE-ZURRIAN (XIX. ea.), s.v. merke, esaterako. ardan-upel: cf. OEH ardan-(1400), ardanand(e)re (-1802), ardanaska (*XVII ea.), ardanbera (*1905), etab.</figDesc><table /><note>azkaia: cf. OBH s.v. ezkabia "tifia; sarna" (1666, azkabia *1852, hazkabe*1905), "lepra" (-1720), "tifia de animaIes" (-1760, azkabi *1905), etab.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>Un extracto hecho por Dn. Jose Ma Odriozola maestro de instruccion primaria de la villa de Legorreta, provincia de Guipilzcoa.Presente hecho a su Alteza el Principe Luis Luciano Buena Parte (sic) por el hijo del autor, Miguel Francisco de Odrio201a, rector interino a la parroquial de esta villa el dfa 17 de setiembre de 1856.</figDesc><table><row><cell cols="3">eskuizkribuaren deskribapenak (Etxebarria 1990: 17), aurrekoa (Gonzalez Echegaray</cell></row><row><cell cols="3">&amp; Arana Martija 1989: 308. zb.) baino zehatzagoa baita. Folio tamainako koaderno</cell></row><row><cell cols="3">handi baten barruan (32,8 x 22 zm) gordetzen da hiztegia, nahiz berez orri txikia-</cell></row><row><cell cols="3">goetan (22 x 15) idatzi zen, orriok koadernoko orri handietan itsatsita daude eta. Bis-</cell></row><row><cell cols="3">tan da norbaitek atondu zuela era honetara, Odriozolarren semeak edo Printzeak</cell></row><row><cell cols="2">berak, agian, eskuizkribua hobeto gordetzearren.</cell></row><row><cell cols="3">Hiztegia jasotzen duten orri txikiak bi aldeetatik idatzita daudenez, ertzetik</cell></row><row><cell cols="3">bakarrik itsatsi dira, Etxebarriaren azalpena ongi ulertu badut. Orotara 95 orri dira,</cell></row><row><cell cols="3">denak aurrealdetik bakarrik zenbatuta. Izkribuari berari dagokionez, bi datu ematen</cell></row><row><cell cols="3">zaizkigu aurkezpen formal honetan: letra argikoa da, eta noizbehinka tinta gorriz</cell></row><row><cell cols="3">idatzitako hitzak ugari ageri dira (241 hitz A letran), Bonapartek berak Odriozola-</cell></row><row><cell cols="3">ren zerrendari erantsiak Etxebarriaren baieztapenaren arabera. Hiztegiaren egileak,</cell></row><row><cell cols="3">beraz, bi dirateke: Jose Ma Odriozola Legorretako maisua eta Bonaparte printzea</cell></row><row><cell cols="3">bera. Etxebarriak ez du ezer bildu ahal izan lehen egileaz, semeari buruzko daturen</cell></row><row><cell cols="3">bat izan ezik. Bonaparte, berriz, dialektologo aitzindari eta garai gisa aurkezten du,</cell></row><row><cell cols="2">ohi bezala, berehala azalduko ditugun ondorio zehatz batzuekin.3</cell></row><row><cell cols="3">Hiztegiaren deskribapen, kokapen historiko eta definizioari buruz Etxebarriak</cell></row><row><cell cols="3">dioskuna, honako ideia nagusiotan laburbil daiteke: XIX. mendeko euskara-gaztela-</cell></row><row><cell cols="3">nia hiztegi elebidun bat da, Legorretako euskara islatu nahian bildutakoa, eta</cell></row><row><cell cols="3">Larramendiren eraginik inondik ere sumatzen ez zaiona. Ondorio hauek, egiazkoak</cell></row><row><cell cols="3">izatera, oso lekukotasun interesgarri bihurtzen dute OB, Etxebarriak aditzera eman</cell></row><row><cell cols="3">baino areago, zeren eta mende hartako Legorretako hizkeraren lekukotasun zuzen</cell></row><row><cell cols="3">bakarra baikenuke, eta garai hartatik gordetzen diren hiztegietan Larramendiren</cell></row><row><cell cols="3">eragina jasan ez duten bakanetakoa, beste hiztegi dialektal batzuekin batera bil-</cell></row><row><cell cols="3">tzekoa, hala nola Salaberriren Vocabulaire des mots basques bas-navarrais (Bayonne,</cell></row><row><cell cols="3">1857), Claudio Otaeguik Zegamako hitzak bilduaz egindakoa (1868) edo Bona-</cell></row><row><cell cols="3">partek prestatutako aezkera, zaraitzuera eta erronkarierazkoa (Mitxelena 1958).</cell></row><row><cell cols="3">Bide batez, Bonaparteren izena hiztegi dialektalon bilgune eta berme bilakatuko</cell></row><row><cell>litzateke. 4</cell><cell></cell></row><row><cell cols="3">Alabaina, aurreratu legez, ez dugu uste inondik inora Etxebarriaren ondorioak</cell></row><row><cell cols="3">egiazkoak direnik, nahita edo nahigabe sortutako begitazioak baizik. Eztabaidan</cell></row><row><cell cols="3">sartu baino lehen, dena dela, komeni da berak emandako urratsak eta baliatutako</cell></row><row><cell cols="3">argudioak buruan atxiki ditzagun, eta asmo honekin hiru atal eratu dira hemen:</cell></row><row><cell cols="2">Legorreta, 17 de stbre. 1856. Rector</cell><cell>(ap. Etxebarria 1990: 17).</cell></row><row><cell cols="3">Kexu ageri da euskalari-euskaltzaleek egindako haren behar bezalako biografiarik ezaurkitu izanaz, Alabaina, aurkezpengilea 2 haratago doa, behar bezala, eta hala hiztegiaz nola egi-baina are kexuago dakusgu Etxebarriaren hitzengatik halako biografia baten egilea (Arana Martija</cell></row><row><cell cols="3">leez bildu ahal izan dituen xehetasun zenbait eskaintzen ditu. Garrantzi handia du 1990: 473): u ••• quiza porque no le parezcan suficientes las 17 paginas que como biograffa de Bona-</cell></row><row><cell cols="3">parte y su obra publico en el Prologo a ambas ediciones (1984 eta 1989J del citado Catdlogo de Gon-</cell></row><row><cell>zalez Etxegaray".</cell><cell>,</cell></row><row><cell cols="3">4 Etxebarriarekin batera deitora dezakegu Printzeak bildu zuen materialetik bere garaian hiztegi gehi-</cell></row><row><cell cols="3">ago ez argitaracua; gogora zezakeen, halere, Salaberriren lekukotasuna, aditzera ematen baitu ezen,</cell></row><row><cell cols="3">aukera izatera edota hiztegiari interes berezikoa iriztera, bazekiela arIo honetan ere dirua jartzen.</cell></row><row><cell cols="3">Bidenabar, Arana Marrijak (1990: 473. zb.) arinegi epaitzen ditu Etxebarriaren hitzok, honela dioene-</cell></row><row><cell cols="3">an: "Dice tambien que Bonaparte no publico diccionarios vascos, 10 que no es cierto, pues una de las</cell></row><row><cell cols="3">primeras obras que dio a la luz fue precisamente el Vocabulaire de Salaberri". Guk egindako (ia) hitzez</cell></row><row><cell cols="3">hitzeko itzulpenean agerian denez, hiztegi gehiago-z hitz egiten du Etxeberriak, zuzenak izatera.</cell></row></table><note>1 Mitxelena eta Lakarraren hurbilketen bertsio zabalago baterako, ik. Urgell 2001b; bertan, halaber, Lakarrak proposatutako bidetik azterketa zehatzago bat eta irizpide berri zenbait proposatzen dira.2 Arana Martijak (1990: 473. zb.) iradokitzen duen bezala, badirudi M. C. Etxebarriaren ekarpena tes- tua makinaratzera mugatu zela eta, edonola ere, aurkezpena eta ikerketa J. M. Etxebarriari egotzi behar zaizkiola osoki. Honegatik, eta erosoagoa ere badelako, hemendik aurrera Etxebarria bakar batez hitz egingo dugu, egiazko gertakariei iruzurrik egiten ez diegulako esperoan.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>.</head><label></label><figDesc>Apurra; Aparta eta Ara artean. Aurretic (?). i.b. Besaezurra; Beruna eta Besarea artean;cf. HH besazurra "id.".</figDesc><table /><note>i.b. Aitzaquiatu; Aitzaquia eta Aitzuloa artean; cf. HH aitzaquiatu "id.".i.b. Amaguiasaba; cf. Amaguiasabaren ama "tatarabuela".i.b. Asnas-; Asmatzallea eta Aspilla artean; cf. HH asnasea "aliento", asnase artu "alentar".i.b. Ataria; Ataquida eta Atcean artean.i.b. Atzequia; Atcecoa eta Atzeguin artean: egilearen hutsa, beraz?; cf. HH atze- quia "cola".i.b.i.b. Betea; Bete eta Bete-betean artean.i.b. Beticoera; cf. HH beticoera "id.".i.b. Bolloa; cf. HH bolloa "id.".i.b. Botoiguillea; Botinac eta Botoya artean. cf. HH botoiguillea "id.".</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>.</head><label></label><figDesc>Sinularia; Sinua eta Sisa artean; cf. HH sifiularia "id.". i.b. Tercianatia; Terciana eta Terciopeloa artean; cf. HH tercianatia "tercianario". Abiadura = Ventajo C..)</figDesc><table><row><cell>Aldean = Lado, parte, cerco</cell></row><row><cell>Asmatzallea = Acertado</cell></row><row><cell>Atsoa = Antofiana, vieja</cell></row><row><cell>Buldatua = Bulazdo</cell></row><row><cell>Catedrala eliz nagusia = Catedra</cell></row><row><cell>Cicellua = Banco de respalda</cell></row><row><cell>Ezcur pagoarena = Tabuco</cell></row></table><note>-d. Honegatik, zalantzazko formak, ez dago jakiterik oharkabeko hutsak diren, ala Odriozolak berariaz jarritako a~daerak: Catarata, Odaya (sic?}, Lausoa = Catarata (cf. "Odeya = Nube" eta HH odeia, lausoa "catarata en los ojos"].</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>cuartel Mutildu = Desplomar erabat ezezaguna, dakidalarik. i.b. cuezo; cf. HH id "artesan" eta "cuezo". ziurrenik Pabilo-ren ordez; cf. HH id. Chistera-ren ordez. i.b. zanja; cf. HH id. "Cacera, zanja para sangrar algun r10". i.b. cuartal; c£ HH id. "quarral de trigo, &amp;c.". i.b. Desplumar; cf. HH id. "desplumar". zeren ordez?cf. HH guesala "ichor, materia tenue y sutil que arrojan las llagas"; cf. DAut, . Eta, euskaraz bezala, erdaraz ere ulergaitzak dira -eta hutsalak-' jarri diren sic apurrak: HH osticaria "coceador" (s.v. coz) &lt; DAut coceador "la persona 0 bestia que tira u da coces".Irakurleak bere kontu asmatu behar du OB-k "Dendaria, sastre" eta "Gona, saya" bakarrik dakarrela, antza denez, eta lekukoen arabera dendaria "tendero" dela, sastria Eztabaidagarri izan liteke, atorra eta atrabesatu artean berariaz jarrita agertzen Mt 3, 7) eskaintzen duo baita,7 baina, dena dela, ez sic-en kokapenak, ez Otarraina-ren aurkezpen grafikoak adierazten dute argitaratzailearen ohar kritikoa izan litekeenik.</figDesc><table><row><cell>Osticaria = Coceador (sic) Tohaya = Tohalla (sic)</cell><cell>cf. Etxebarriak esanahi okerreko adibidetzat</cell></row><row><cell></cell><cell>eman du ( § 1.3.g), baina ezin dut</cell></row><row><cell></cell><cell>asmatu zer dela eta, &lt;h&gt; ez bada,</cell></row><row><cell></cell><cell>baina cf. HH "toalla, tohalla".</cell></row><row><cell>Zor izan = Dever (Us., Leg.)</cell><cell>Orrografia ez bide zen Legorretako mai-</cell></row><row><cell>(sic)</cell><cell>suak bereziki zaintzen zuen gai bat:</cell></row><row><cell></cell><cell>ef. honezaz gainera markatu ez diren</cell></row><row><cell></cell><cell>bobedas (s.v. bobedac) eta pabo (s.v. indi-</cell></row><row><cell></cell><cell>ollarra).</cell></row><row><cell cols="2">Gutxi zaindua eta kritikotasun gutxikoa izateaz gainera, OB-ren argitalpen honek</cell></row><row><cell cols="2">ez du behar bezala bereizten jatorrizko testuari dagokiona eta argitaratzaileak argi-</cell></row><row><cell>bide gisa erantsi duena:</cell><cell></cell></row><row><cell cols="2">h. Ahozko galdeketa dela eta, sarrerak desitxuratu egin dira:</cell></row><row><cell cols="2">Dendaria = Sastre (tendero) sastre: [sastria] (Us., Leg.)</cell></row><row><cell cols="2">Gona = Saya [gona] = falda (Leg.)</cell></row><row><cell>"sastre" eta gona "falda".6</cell><cell></cell></row><row><cell cols="2">i. Han-hemen sarrera-burua parentesi arteko forma batez lagunduta dator; iku-</cell></row><row><cell cols="2">siak ikusirik, baliteke argitaratzailearen argibidea (!?) izatea:</cell></row><row><cell>Lifiaya (linaria) = Rueca</cell><cell></cell></row><row><cell cols="2">Oquellua (ukullua) = Caballeriza 0 Cuadra</cell></row><row><cell>Orramaya (oramaia) = Artesa</cell><cell></cell></row><row><cell cols="2">j. Demagun argitaratzaileak ohiko taketen ordez parentesia bereizgarri erabili</cell></row><row><cell cols="2">duela; halere, parentesi guztiak bereak ote?</cell></row><row><cell>Abea = Viga (que regenta otras)</cell><cell></cell></row><row><cell cols="2">k. Marka guztiak hausten bide ditu atorraina sarrerak:</cell></row><row><cell cols="2">Atorraina = Langosta (Bon.) (sic) Otarraina</cell></row><row><cell cols="2">Badakigu argitaratzailearen ustez forma okertuta dagoela ( § 1.3.g), otarraina-ren</cell></row><row><cell>ordez.</cell><cell></cell></row><row><cell>Arria = Piedra, Pedrisco,</cell><cell></cell></row><row><cell>fema (sic)</cell><cell></cell></row><row><cell>Guesala = Ichor (sic)</cell><cell></cell></row></table><note>"pabilo".agian Chispero-ren ordez.agianS.v.: "Es voz Griega, y se pronuncia la ch coma k".g6 Lehenago cirauna "vlvora"-ren (ustezko) esanahi okerraz Etxebarriak esana ( § 1.3.g) gogoan izanik, antzeko zerbait espero genuke dagokion sarreran; honako hau baino ez da ageri, ordea: "Cirauna = Vlvora (Us.)", Usurbilgo lekukoak esanahia onartu balu bezalaxe. Edonola ere, ez dakit zertan oina- rritu den: EH-ak (s.v.) 'sugegorria' lehen adiera dakar (--1760; zirau *1745, 1761), eta Azkuek (s.v.) HeH-ren adibide bat (</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>zabalquiro.</figDesc><table><row><cell cols="4">-RO (orotara 24): amagarriro, atrebiro, carinotsoro, ciertoro, erruquiro, esquerba-</cell></row><row><cell cols="4">guero, /irmero, garbiro, gozoro &lt; -so&gt;, gustutsuro, idiquiro, indartsuro, irace-</cell></row><row><cell>quiro, jaquintsuro, luzaro, mereciro, otsaro [sic} "friamente H</cell><cell>,</cell><cell cols="2">paquetsuro,</cell></row><row><cell cols="3">pobrero, por/iatiro, sencilloro, senderagarriro {sic} "saludablemente H</cell><cell>, senten-</cell></row><row><cell>ciatsuro &lt;-ru&gt;, tristero.</cell><cell></cell><cell></cell></row></table><note>-TZAILE (orotara 121): acordatzallea, aditzallea, administratzaIlea, adoratza-</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head></head><label></label><figDesc>+ -kiro: galaiquiro, senalquiro, soseguquiro. izenondo eratorria + -(ki)ro~· a) -tsu(ki)ro: gustutsuro, indartsuro, jaquintsuro, lustretsuquiro J paquetsuro, sentenciatsuro; b) -tiro: porfiatiro.</figDesc><table><row><cell>Baita elkargunean gertatzen diren hots aldaketa bereziek ere:</cell></row><row><cell>kanpoko oinarriek norabide berean garamatzatze:</cell></row><row><cell>part. + -{ki)ro: elduquiro, idiquiro, iracequiro, nasiquiro, tasatuquiro.</cell></row></table><note>aditzoina + -{ki)ro: atrebiro, esnaquiro; mereciro.izena</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head></head><label></label><figDesc>Odriozolaren eta Bonaparteren hitzak nahaste agertzen dira; areago 14tik 9 Printzearenak dira. OB Odriozolak mamitu eta Bonapartek osatutako Legorretako euskararen gordailu delakoan abiatzen bagara, honek ez du garrantzirik. Baina, baldin eta OB-z ezertxo ere ez dakigulakoan abiatzen bagara, ez ote hobea bata bestetik bereiztea, hasieran behintzat?Argudio bati, dena dela, gutxieneko kontuan eskatzen zaio, oinarritzen deneko datuak onak izatea. Etxebarriaren adibideen erdiak baino gehiago, ordea, oso eztabaidagarriak dira, gezurrezkoak ez direnean: zehatz-mehatz zazpi badaude HH-an, baina ikertzaileak ezin izan ditu aurkitu. Gonbara bitez bi hiztegietako emaitzak: 08 baina baita forma akastunekoak (asaria, cacasteguia) edo OB-n esanahi harrigarri batekin agertzen direnak (arbazta; ef. OEH, s.v.). Batzuk aurkigaitzak baziren ere, gehienek irudimen filologiko gutxitxoz egindako lana dela adierazten dute. Bitxia da, azkenik, acullua "aguij6n" bakarrik aipatzea, baina ez aurreko sarrera (aculloa "aguij6n'), hain zuzen HH-an agertzen dena. formak gaizki kopiatu dira (cf. calabaza eta calvario), hitz berri itxura gehien daukatenak bakarrik aipatu dira (cf. calabozo eta calvo), eta etimologiari bakarrik begiratu zaio calabaza-z den bezainbatean ("Calabaza, especialmente que sirve de vasija, corcoita, curcubita; y de aguf viene el Latfn cucurbita, y significa..."), sarrera arrunta, euskal ordainak dakartzana, hurrengo bigarren lerrokadan dagoen arren, Larramendik ez omen dakarren mailegua bertan delarik. Edonola ere, harrigarria da CA-zatian den mailegu mordotik 10 hauetan bakarrik erreparatzea, eta ez gainerakoetan, hain zuzen ere Larramendik badakartzanetan. Ezen horien aldamentxoan beste hamar hauek, baita hamaika gehiago ere aurki baitzitzakeen HH-an:</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>555</cell></row><row><cell cols="2">gazt.</cell><cell>HH (ap. Etxebarria)</cell><cell>OB</cell><cell>HH (egiatan)</cell></row><row><cell cols="2">cadete</cell><cell>zaldun berezia</cell><cell>cadetea</cell></row><row><cell cols="2">cafetera</cell><cell>ca/eontzia</cell><cell>ca/etera</cell></row><row><cell cols="3">Aeullua == Aguij6n calabaza cucurbita [sic} calabozo lecotza calendario egunaria calvario buruezurtza [sic}</cell><cell cols="2">calabaza calabozo Aguijada, aguIJon, aculloa, aculua. (ef. cuia, calabaza HH lecotza, ciega calendarioa OB Aculloa == aguij6n (Bon.)] calvarioa buresurtza [sic}</cell></row><row><cell cols="3">Arbazta = Justo (Bon.) calvo illebaguea</cell><cell cols="2">Tamaras, el despojo de la l~fia gruessa, calvoa carsoilla, coroilla,</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">arbazta, chusaquea. illebaguea, ulebaga</cell></row><row><cell cols="2">camisola</cell><cell>gafieco alcandora</cell><cell cols="2">Hornija, arbaztac, abarrac. camisola</cell></row><row><cell cols="2">campamento canal</cell><cell>etzauntza urjoala</cell><cell cols="2">campamentua Rozo, la lefia menuda, arbaztac, ch0chac, &amp;c. canala</cell></row><row><cell>HH-ko</cell><cell cols="2">Asa == Aliento (Bon.)</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">que signifiea el que toma aliento u res-</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">piraei6n, de ats, as, aliento, y arlea,</cell></row><row><cell></cell><cell></cell><cell></cell><cell>tomador.</cell></row><row><cell></cell><cell cols="2">Aseorequieoa == De mueho</cell><cell></cell></row><row><cell></cell><cell>(Bon.)</cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">Asaria [sic, Ataria-ren ordez]</cell><cell cols="2">Zaguan, sotoa, ataria.,.</cell></row><row><cell></cell><cell cols="2">== Zaguan (Bon.)</cell><cell></cell></row><row><cell></cell><cell cols="2">Ayenatu == Desaparecer (Bon.)</cell><cell></cell></row><row><cell></cell><cell cols="2">Cabilla = Clabija</cell><cell></cell></row><row><cell></cell><cell cols="2">Caeasteguia [sic] = Caeoal (sic)</cell><cell></cell></row><row><cell></cell><cell cols="2">Campora == Afuera</cell><cell></cell></row><row><cell></cell><cell cols="2">Celaya = Prado, praderfa, era</cell><cell></cell></row><row><cell></cell><cell>(Bon.)</cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">Cementerioa = Cementerio</cell><cell></cell></row><row><cell></cell><cell cols="2">Clera = Creta (Bon.)</cell><cell cols="2">Greda, clerd. Lat. Creta.</cell></row><row><cell></cell><cell cols="2">Intzurra = Pantano (Bon.)</cell><cell></cell></row><row><cell></cell><cell cols="2">Mufioa = Collado, colina (Bon.)</cell><cell></cell></row><row><cell cols="5">Haien artean badira HH-tik diren-direnean kopiatutako hitzak (asa, cabilla, cam-Mozorca (sic) = Mazorca</cell></row><row><cell cols="5">pora, clera), Etxebarriaren bigarren argudioa hobea da: OB-k maileguak dakartzan lekuan (bere</cell></row><row><cell cols="5">hipotesiari jarraiki, herriko benetako lexikoaren adierazgarri) Larramendik bestelako</cell></row><row><cell cols="5">hitzak dakartza, agian beste nonbaitekoak, agian hitz berriak. Alabaina, berriro ere</cell></row><row><cell cols="5">aurreko argudioan aurkitu dugun zehaztasun filologikorik eza antzematen dugu:</cell></row></table><note>Carlear C..), viene de el Baseuence atsarlea,Clavija, cabilld.Caeaoal, cacauteguia.Fuera, afuera, campord C..)</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head></head><label></label><figDesc>Motza eta Mueca artean; cf. HH mazorquea, mozorca [sic} Bi lagin erabili ditugu bigarren erantzunaren bila: maileguak ugari biltzen dituen CA zatia, eta gehienbat ondare zaharreko hitzak biltzen dituen LT letra. Lehenengoak 170 sarrera ditu, eta bigarrenak 73. Orotara 243 sarrera aztertu ditugu, bada. Irakurleak lan honen bukaeran aurkituko ditu, aldean HH-ko kidea dutela. 243 sarrera hauetatik 178 (% 73), ia hiru laurdenak beraz, dauden-daudenean aurkitzen dira HH-an, OB-k ematen duen gaztelaniazko ordain berberaren azpian. Kopurua nolanahikoa ez izanik, bide ematen digu HH OB-ren iturri ez ezik, OB-ren oinarrizko iturria izan zela baieztatzeko. Izan ere, goian agertu ditugun ezaugarrietako asko Larramendiren hiztegiarekin azal daitezke: a. Gaztelaniazko hitz bakar bati dagozkion euskal sintagmetako asko bertatik hartuak edo egokituak dira, eta are bertako lekukotasunen bat Odriozolak zein Etxebarriak gaizki kopiatuta ez ote dagoen pentsatzeko adinakoa ere bada (ik. apostoluaren batcera eta baqueta agorra):</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head></head><label></label><figDesc>urriza), cacaratza (HH cacaraza), cacauba (HH cacaila), caja (HH caxa, baita gaztelaniaz ere, OB ez bezala), cajoya (HH caxoya) baita "caxon" ere, OB ez bezala), camelua (HH gamelua), caminatu (HH camiatu, baina etimologia duela), carnpantorrea (HH campaetorrea), campaya (HH campaea), capillauba (HH cClpellaua).</figDesc><table><row><cell>1. Gaztelaniazko partizipioaren euskal baliokidea (cabitua) caminatua, castigatua,</cell></row><row><cell>untatua, uquitua); antza denez, OB-k Larramendik baino sistematikoago bikoizten</cell></row><row><cell>ditu euskal partizipioak.</cell></row><row><cell>m. Larramendik dakartzan hitzetatik erraz erator zitezkeen hitzak:</cell></row><row><cell>caminatu (HH camiatu) + caminatzallea "caminador"; cantatu (HH) + canta-</cell></row><row><cell>tzallea; ugaz aita, ugaz ama (HH) + ugaz semea, ugaz alaba; urbedeincatua</cell></row><row><cell>(HH ur bedeicatua) + urbedeincatuontcia; untatu (HH) + untalaria (cf. HH</cell></row><row><cell>gantzularia, licayolaria "untador").</cell></row><row><cell>n. Larramendik dakartzan gaztelaniazko sarrerei dagozkien maileguak, hark eza-</cell></row><row><cell>rri zituen ondare zaharreko hitzen edota hitz berrien ordez:</cell></row><row><cell>caballeria (HH zaldundia, zamaldundia), caballeroa (HH zalduna) zamalduna,</cell></row><row><cell>ezcutaria), cadetea (HH zaldun berecia), calabozoa (HH lecotza, ciega), calavera</cell></row><row><cell>(HH burezurra), calendarioa (HH egunaria), calentadorea (HH berontzia / bero-</cell></row><row><cell>tzallea), calvarioa (HH) , calvoa (HH carsoilla, coroilla) illebaguea J ulebaga),</cell></row><row><cell>camisola (HH gafieco alcandora), campamentua (HH etzauntza), canala (HH</cell></row><row><cell>urjoala / odia, istuna, errartea, .. ), candadua (HH erscaya), canongia (HH apez-</cell></row><row><cell>nagusiaren goyendea), cantidadea (HH cembatea, ambatea), cafionazo (HH sutum-</cell></row><row><cell>pada), canutoa (HH caboilla, boillutsa), cartilla (HH abecea), cartuchera (HH</cell></row><row><cell>cartuchorroa), cascara (HH azala), catarata, odaya, lausoa (HH odeia, lausoa),</cell></row><row><cell>catarroa (HH costoma, costuma), catedrala eta catedrala eliz nagusia (HH eleiz-</cell></row><row><cell>nagusia), ulcera (HH zauria), uniformea (HH eraquidea / soneco eraquidea), uni-</cell></row><row><cell>versidadea (HH icasola).</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14"><head></head><label></label><figDesc>esku honi zor zaizkiola, baina bestelakoak ere bai (apaidina G). Esku hau bitxia da, nolanahi ere: Etxebarriaren teoriaren barnean ez da erraz azaltzen zergatik ekialdeko hitzak erantsi zituen, ez eta zergatik erantsi zituen bertako grafia (hagitz, auhendatu) gorde gabe.Honek berehalakoan Larramendiren asmoa -euskalkietako hitzak orokortzea, alegia-gogorazten digu, eta gure hipotesia, aldez bederen, erraz egiazta dezakegu:</figDesc><table><row><cell>OB</cell><cell>HH</cell></row><row><cell>Agitz, alto, fuerte</cell><cell>(Hablar) alto, aguitz, gord hitzeguin ( )</cell></row><row><cell>Apaidiiia, padrino</cell><cell>Padrino de el Baptizado, apaidifia ( )</cell></row><row><cell>Arras, totalmente, muehisimo</cell><cell></cell></row><row><cell>Auendatu, deplorar</cell><cell>Deplorar, auendatu.</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_15"><head></head><label></label><figDesc>Adibide hauetan hiru gertakari bereiz ditzakegu:(1)  ikertzailearen beraren hiperzuzenketak (be/ea &lt; bele + a); (2) Larramendiren hiztegian topa zitzakeen formak (motea, olea); (3) Odriozolak bere kabuz erantsitakoak(anquea, egaberea). Honen arabera, balirudike egiazki Goierriko ahozko euskararen eragina antzeman daitekeela hiztegian, Etxebarriak nahi bezala, baina ez beti zuzena, tartean Larramendiren eragin handia baitago.Aldeak aiseki azal daitezke, denbora ez ezik, HH-ko hitz berriak eta Odriozolak onartutako mailegu gordinegiak aintzat hartuaz, besteak beste. Ohartu bigarren eskuak lehenak baino are emaitza hobeak erdiesten dituela, Bonaparterena delako ustearen aIde, agian. Alabaina, bada oraindik kezkatzen nauen galdera bat: nolako galdeketa egin behar da OB bezalako hiztegi zahar batean agertzen diren hitzak hiztunek ezagutzen dituzten ala ez egiaztatzeko?Ez zait iruditzen aukera erraza denik: euskal hitzez galde egin behar da? Ala gaztelania erabili behar da, ordain egokiaren zain? Ala bitariko metodoa hobetsi behar? Galdeketan eskarmenturik gabekoa naizenez, zinez eskertuko nukeen Etxebarriak argibideren bat eman izan baIu, baina tamalez ez dugu bere lanean batere laguntzarik aurkitzen. Ondorioz, metodoez ezer ez ikasteaz gainera, galdeketaren emaitzak kontrolatzeko biderik ere ez dugu. Honegatik, emaitzetara mugatu behar gara, galdeketak egiatan zentzurik duen ala ez eta, beraz, goian ezarri ditugun ondorio baliotsuak eskaintzeko gai izan den ala ez ebaztekotan.Hasteko, lagina harrigarria da: herri bitan pertsona bana galdekatzea gutxitxo emateaz gainera, herrietako bat, Usurbil, ez da ezta azpieuskalki berekoa ere: iritzira hautatua? Aukera bereziren bat profitatu nahian? Ez digute azaldu. Demagun, beraz, galdeketaren arabera OB-k jasotako hitzetako batzuek bere hartan iraun dutela Legorretan, edo gutxienez gipuzkeran (Usurbilen, zehazkiago). Edozelan ere, ene aburuz bistan da, emaitzen arabera, galdeketa ez dela behar bezala egin.Zalantzarik gabe, galdeketarik zehatzena Usurbilgoa da: hangoak dira sarrera anitzetan, herriaren laburpenarekin edo gabe(Etxebarria 1990: 23), agertzen diren transkribapen fonetikoak (s.vv. cerba, ceboa... ), baita zehaztasun gehienak ere ("(flakua] gehiago" S.v. argala... ). Legorretakoak, berriz, ez ditu onartu ala, guero, gueyago edo maya bezalako hitz arruntak, eta ora har jakin gabean geratzen gara, Usurbilgo zehaztapen ugarien aldean, ehundaka hitz interesgarri berak nola esaten dituen (cf. adierazo, aditu, aitapontecoa... ), tamalez. Dena dela, lekukotasunak behin baino gehiagotan zalantzazkoak dira: a. Zein euskal hitz, edo zein erdal esanahi hautatu ote dute berriemaileek?</figDesc><table><row><cell></cell><cell cols="2">aceituna oliogaia "aceituna" (Us, Leg)</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">alea "grano, cercar [sic]" (Us, Leg)</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">aurrera "anticipaci6n, adelante" (Us, Leg)</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="6">Baliteke hipotesia frogatzeko bide bakarra Etxebarriak ezarri duena izatea: baldin b. Nolatan gerta daitezke ondokoak bezalako gaizkiulertuak?</cell></row><row><cell cols="6">eta froga badaiteke ehuneko gora batean hiztegian jasotako hitzek gaur egun Lego-Mea = Vena {safia} (Leg)</cell></row><row><cell cols="6">rretako edo ingurumarietako ahozko euskaran bizirik dirautela, orduan berak atera Morcotsa = Erizo [trikuba} {cf. HH morcotza "erizo de castafia"]</cell></row><row><cell cols="6">duen ondorioa ateratzea" zilegi dateke. Datuek badirudi egiaztatzen dutela, ondoko Suertalaria = Sorteador [swerteduna} [swertosua] taulan ikus daitekeenez ("Leg" = Legorretakoa, "USH = Usurbilgoa): c. Kasualitate ote aldaera zerrendan ( § 2.4) berriemaileek hainbat aldiz denak</cell></row><row><cell>onartzea?</cell><cell>lagina</cell><cell>Leg + ITs</cell><cell>Leg</cell><cell>Us</cell><cell>orotara</cell></row><row><cell></cell><cell>CA zatia (1 70 sarrera)</cell><cell>66</cell><cell>3</cell><cell>34</cell><cell>103 (%61)</cell></row><row><cell></cell><cell>U letra (73 sar.)</cell><cell>35</cell><cell>2</cell><cell>13</cell><cell>50 (%~8)</cell></row><row><cell></cell><cell>A-AL (2. eskua) (64 sar.)</cell><cell>40</cell><cell>3</cell><cell>5</cell><cell>48 (%75)</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">OEH-ak ez du aldaera jasotzen. Herri etimologia izan liteke (cf. atorra), baina baita bigarren eskuaren hutsa, besterik gabe.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8"> Ik. halaber declaratcea, desembarcatcea, divertitcea, doblatcea, doratcea, eltcea, escribitcea,~squean ibiltcea,  fabricatcea, idiquitcea eta tellatua erretellatcea.   </note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9">Larramendiren joerei buruzko xehetasun gehiagotarako, ik. Urgell 2000.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10">Cf. HH: "Caperuza C..), viene de el Bascuence caperutsa, que significa 10 mismo, y viene de capu, cabeza, y utsa, sola, porque cubre solamente la cabeza".</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="11">Cf. halaber mendabala "mendabar', vocamarta uvocamarta", erab.12  Halere, badakar Larramendik ez dakarren gaztelaniazko hitz bat bederen, jauda "guezaJ), Moliner-en arabera Errioxan erabiltzen dena (Aragoen, berriz, jauto, -a aldaera).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12">bis Dena den, ziurrenik berdro argitaratzailearen huts asko daude tartean; hauxe da naqariena, zeren regto hori ez baitago, itxuraz, recto-ren ordez, regla-ren ordez baizik: cf. HH adrea "regIa".</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="13">Salbuespen bakar batean biak dira Odriozolaren eransketak: ausi "romper 0 quebrar" eta autsi "quebrantar, romper".</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14">Salbu eta musiqueroa etaparpalla, Usurbilgoak onartuak. Geroago hitz egin beharko dugu berriemaile honetaz..</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Alporcha == Alforja (HH) Alquia == Banco (HH "banca") AItistea == PerIa (HH) AItua == Alto</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Etxebarria</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Diccionario inedito vasco-castellano de Jose Ma Odriozola y L. L. Bonaparte</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Etxebarria</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CuadernoJ de Secci6n. Hizkuntza eta Literatura</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="15" to="63" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Gonzalez Echegaray</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Catalogo de los manuscritos reunidos por el principe Luis-Luciano Bonaparte que se hallan en el Pais Vasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Martija</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+			<pubPlace>Euskaltzaindia, Bilbo</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Vowel interaction in Basque: A nearly exhaustive catalogue</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hualde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASjU</title>
+		<editor>1. &amp; 1. Gaminde</editor>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="211" to="245" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Literatur gipuzkerarantz: Larramendiren Azkoitiko Sermoia (1737)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">]</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASjU</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="235" to="281" />
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Testukritika eta hiztegiak: Harriet eta Larramendi</title>
+	</analytic>
+	<monogr>
+		<title level="m">Lakarra &amp; Ruiz Arza-Huz (arg.), Memoriae L. Mitxelena I</title>
+		<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="page" from="217" to="258" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">_</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">1993</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xviii</forename><surname>Mendeko Hiztegigintzaren Etorkiez. Doktorego Tesi Argitaragabea</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gasteiz</forename><surname>Ehu</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Harrieten Gramatikako hiztegiak (1741)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">_</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASjU</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1" to="178" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Euskal hiztegigintzaren historiarako: 11. gogoetak urteren hiztegigintzaz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>__</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASjU</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="871" to="884" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Pouvreauren hiztegiez eta hiztegigintzaren historiaz H</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>__</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASjU</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="3" to="52" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Iturrien erabilera eta tamainak egitura(z) zehaztuaz: Refranes y Sentencias eta Hiztegi Hirukoitza</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>__</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="21" to="55" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Refranes y Sentencias (1596). lkerketttk eta edizioa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">_</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskararen Lekukoak</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Lexiko berrikuntza euskal hiztegigintza zaharrean: zenbait ikergai</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">_</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Uztaro</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="3" to="40" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Philological studies and Mayan languages</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Campbell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Fisiak</surname></persName>
+		</author>
+		<title level="m">Historical Linguistics and Philology</title>
+		<meeting><address><addrLine>Berlin, New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Mouton de Ciruyter</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Metodo konparatzailea hizkuntzalaritza historikoan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Meillet</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1925" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">B</forename><surname>Kerejeta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Urgellen Itzulp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bilbo</forename><surname>Upv/Ehu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Un vocabulario aezcoano, salacenco y roncales preparado por el Prfncipe Bonaparte)&apos;, BAP XIV</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Orain SHLV</title>
+		<imprint>
+			<biblScope unit="page" from="298" to="319" />
+			<date type="published" when="1958" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Estudio sobre las fuentes del Diccionario de Azkue</title>
+	</analytic>
+	<monogr>
+		<title level="j">_</title>
+		<imprint>
+			<date type="published" when="1970" />
+		</imprint>
+		<respStmt>
+			<orgName>Centro de Estudios Historicos de Vizcaya</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Zegamako Doctrina Christiana (1741)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Euskaltzaindia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bilbo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Ondarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Orotariko Euskal Hiztegia</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="3" to="62" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+	<note>ASjU</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Distorting the Linguistic Record: Secondary Documentation in the Oxford English Dictionary</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">E</forename><surname>Osselton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">W. Hullen (arg.)</title>
+		<meeting><address><addrLine>Munster</addrLine></address></meeting>
+		<imprint>
+			<publisher>Nodus Publikationen</publisher>
+			<date type="published" when="1989" />
+			<biblScope unit="page" from="23" to="25" />
+		</imprint>
+	</monogr>
+	<note>Understanding the historiography of linguistics: problems and projects (Symposium at Essen</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">De los papeles ineditos de la Coleccion Bonaparte, en el Archivo de la Diputacion de Guipuzcoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Otaegui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BAP</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="285" to="289" />
+			<date type="published" when="1957" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Vocabulaire des mots basques bas-navarrais, traduits en langue franfaise</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Salaberri</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1857" />
+			<pubPlace>Bayonne</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Practical lexicography. Principles and methods ofdictionary-making</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Svensen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>Oxford I New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Esku-liburua-ren grafi aldaketak (1802-1821)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Urgell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASjU</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="357" to="387" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Hiztegi Hirukoitza-ren osagaiez, EHUko tesi argitaragabea</title>
+	</analytic>
+	<monogr>
+		<title level="j">Gasteiz</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="107" to="183" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note>ASjU</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Odriozola-Bonaparte</forename><surname>Euskal Hiztegien Azterketaz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hiztegiaren Aitzakian</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">569</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Larramendiren Eranskina: saio bat hiztegigintzaren testukritikaz, ASJU-ren gehigarriak 45 (kaleratzear)</title>
+	</analytic>
+	<monogr>
+		<title level="j">_</title>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>__</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lexikografia</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Irakaskunrza proiektu argitaragabea, EHU, Gasteiz. _ , 2003, &quot;Larramendi Afiibarroren hiztegian&quot; (presraketan</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Arabako Euskara</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Zuazo</surname></persName>
+		</author>
+		<idno>125-189. 1. Eranskina: CA-</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Arabako Euskararen Lekukoak. Ikerketak eta Testuak</title>
+		<editor>H. Knorr &amp; K. Zuazo</editor>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">7</biblScope>
+		</imprint>
+	</monogr>
+	<note>Eusko Legebilrzarra</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cabala</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">15</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Caballeria</surname></persName>
+		</author>
+		<title level="m">Caballerfa Caballeroa =: Caballero Cabesrrua =: Cabesrro (HH + etim</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">==</forename><surname>Cabia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Nido</surname></persName>
+		</author>
+		<imprint>
+			<publisher>HH</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">==</forename><surname>Cabida</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cabida</surname></persName>
+		</author>
+		<imprint>
+			<publisher>HH + erim</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+				<title level="m">Cabildua =: Cabildo (HH + erim) Cabilla ::: Clabija (HH &quot;Clavija</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Cabido Caboa =: Cabo Cabo primeroa =: Cabo primero Cabo segundoa =: Cabo segundo Cabriolaru == Cabriolar (HH)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">=</forename><surname>Cabirua</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+				<title level="m">Cabua =: Cabo (HH) Caca =: Mierda (HH) Cacaldia =: Cagada (HH)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">=</forename><surname>Caeasreguia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Caeoal</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>ef</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hh &amp;quot;cacaoal</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">==</forename><surname>Cacararza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cacareo</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>HH cacaraza</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+				<title level="m">Cacarazaria =: Cacareador (HH)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">HH) Cacareguia =: Cagadero (HH)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">==</forename><surname>Cacarazru</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cacarear</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">=:</forename><surname>Cacauba</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cacao</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>HH cacaiia</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">HH) Cadarzua =: Cadarzo (HH + erim) Caderea ::: Cadete Cadira jabea =: Caredratico (HI-I &quot;Carhedrarico</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">==</forename><surname>Cacoa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gancho</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cadira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">(</forename><surname>Caredra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hi-I &amp;quot;carhedra</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+				<title level="m">Cafea =: Cafe (HH)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">HH) Caicua =: Cubo de madera (HI-I)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">==</forename><surname>Cafetera</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cafetera</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">==</forename><surname>Caja</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Caja</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+				<title level="m">Cajoya =: Caj6n (HH caxoya &quot;cax6n</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+				<title level="m">Calabaza =: Calabaza (HH)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Canamo (HH) Calavera =: Calavera Calea =: Calle (HH) Calendarjoa =: Calendario Calentadorea =: Calenrador Calesa =: Calesa (HH)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">=</forename><surname>Calabozoa == Calabozo Calamua</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>== Ah</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">(hh</forename><surname>Ha</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ah</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title level="m" type="main">Ruido de cosa que se quiebra y es desa-pacibIe</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">==</forename><surname>Abarrotsa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ruido</surname></persName>
+		</author>
+		<imprint>
+			<publisher>HH</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

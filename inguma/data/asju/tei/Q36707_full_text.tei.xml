@@ -1,0 +1,2035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Euskara Batu Zaharraren haustura: oinarri metodologikoak eta literaturaren berrikuspena 1 The split of Old Common Basque: Methodological foundations and literature review</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñigo</forename><surname>Urrestarazu-Porta</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">CNRS -IKER UMR 5478</orgName>
+								<orgName type="institution" key="instit1">UPV/EHU</orgName>
+								<orgName type="institution" key="instit2">UPPA</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Iñigo Urrestarazu-Porta. Centre National de la Recherche Scientific (CNRS, IKER UMR5478), Université de Pau et des Pays de l&apos;Adour (UPPA), Universidad del País Vasco/Euskal Herriko Unibertsitatea</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Euskara Batu Zaharraren haustura: oinarri metodologikoak eta literaturaren berrikuspena 1 The split of Old Common Basque: Methodological foundations and literature review</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="volume">2022</biblScope>
+							<biblScope unit="issue">2</biblScope>
+							<biblScope unit="page" from="107" to="142"/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1387/asju</idno>
+					<note>* Harremanetan jartzeko / Corresponding author:</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:42+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>It has already been 40 years since <ref type="bibr" target="#b77">Mitxelena (1981)</ref> proposed Old Common Basque (OCB) as the last unified language stage before the dialectalization process began. However, Basque diachronic dialectology has not been developed so extensively in these last 40 years and the topic is still very much open to debate. That said, there have been some proposals on the split of OCB. In this paper, I first explore the methods which must be employed to investigate the initial split of OCB based on the best-developed surrounding traditions. Then I review and evaluate works on the initial split of OCB, in order to see whether they fulfill the methodological criteria to make up diachronic dialectology. As one can see, very few works attempt a phylogenetic approach, and even less base their claims on innovations that satisfy chronological, geographical and linguistic criteria. KEywORdS: Old Common Basque; dialectology; split; methodology. Mitxelenak (1981)  Euskara Batu Zaharra (EBZ), euskararen dialektoak sortzen hasi aurreko azken hizkuntz egoera bateratua, proposatu zuenetik. Aldiz, euskal dialektologia (diakronikoa) ez da horrenbeste garatu 40 urteotan eta gaia oraindik guztiz zabalik dago. Hala ere, egin dira zenbait hipotesi EBZren hausturaren inguruan. Lan honetan, EBZren lehen haustura ikertzeko kontuan hartu beharreko alderdi metodologikoak aztertzen ditut lehenik, inguruko tradizio garatuenetatik harturik. Ondoren, EBZren lehen hausturaz min-1 Lan hau ikerketa proiektu hauen finantzazioari esker egin da: MAdPAB (Frantziako Errepublikako Ikerketa Agentzia Nazionala, ANR-20-CE27-0007) eta Monumenta Linguae Vasconum 6: avances en la cronología de la historia y la prehistoria de la lengua vasca (Espainiako Erresumako Zientzia eta Berrikuntza Ministerioa, PId2020-1184 45GB-I00).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>LABURPENA: Zenbait hamarkada joan zaizkigu</head></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Iraganean hizkuntza komun baten zatiketa gertatu denean, bertatik sortu diren kide guztien ahaidetasun genetikoaz mintzo gara, baina zatiketaren garaian dialekto batzuen artean ahaidetasun espezifikorik gertatu ote den jakin nahi izaten du hizkuntzalariak, dialekto batzuk beren artean beste batzuengandik baino hurbilago ote dauden, zer-nolako talde dialektalak osatu diren, zein diren.</p><p>Aldiz, ikertzaile guztiek ez dute azpitaldeen auzia modu berean ulertu eta azpitaldeak eratzeko bi modu daude gutxienez: fenetikoa eta filogenetikoa. Lehendabizikoa partekatutako ezaugarrien kopuruan oinarritzen da taldeak osatzeko; adibidez, lexiko-estatistikan oinarrituriko sailkapenak fenetikoak dira, bilakabideari erreparatu gabe azaleko antzekotasunetan -analogietan-eta horien kopuruan oinarritzen direlako: zenbat eta azaleko antzekotasun gehiago, orduan eta talde berean biltzeko aukera handiagoak. Besterik ezean, sailkapen horiek historiaren eta eboluzioaren ardatza ahazten dute <ref type="bibr">(Bowern &amp; Koch 2004: 3, 6)</ref>, hau da, historia egiteari uko egiten diote, eta, beraz, ez dute alderdi historikoa aintzat hartzen duen dialektologiaren helburuekin bat egiten. Gurean, Bonapartek (1863) eredu horri jarraitu zion: euskal hizkerak sailkatu zituen, zenbait ezaugarriren batetor tzeen kopuruen arabera. Egun ere, Bonapartek hasitako tradizio fenetistak gu-kopuruen arabera. Egun ere, Bonapartek hasitako tradizio fenetistak gurean jarraitzen du.</p><p>Badago, bestalde, azpitaldeak ulertzeko eta eratzeko beste modu bat, Caminoren (2008: 213) azken aipuaren bidetik. Zailagoa da eta lan handiagoa eskatzen du, baina azalpenak asegarriagoak dira eta dialektologia (diakronikoa) egiteko modu estandarra da: sailkapen filogenetikoa. Sailkapen filogenetikoetan, hurbiltasun genetikoari erreparatzen zaio, hau da, jarauntsitakoan eta berrikuntzetan jartzen da arreta -jarauntsitakoa ez dena, konbergentziak, ahaztu gabe, jakina-. Filiazio hipotesiak planteatu eta egiaztatzearen ondorio dira sailkapenak.</p><p>Horretarako, hizkuntz ezaugarrien zahartasuna edo berritasuna zehaztu behar da: noizkoak diren zehaztu behar da eta, horren arabera, erabaki zer dialekto historiko datozen aurreko egoera komun beretik. Bestela esanda, kronologia erlatiboak eraiki behar dira, horiek baitira filiazio hipotesietarako diagnostikoak, berrikuntza komunak, berrikuntza paraleloak, arkaismoak eta abarrak identifikatzeko modu bakarra <ref type="bibr">(Bowern &amp; Koch 2004: 3)</ref>. Horiek guztiak identifikatzea, hain zuzen, funtsezkoa da historia egiteko eta azalpenak aurkitzeko. <ref type="bibr">2</ref> Sailkapen filogenetikoak arboletan laburbiltzen dira. Zuhaitzak hizkuntza baten dialektalizazio prozesuaren teoria laburbiltzen du, dialektoen arteko filiazio hipotesiak jasotzen eta irudikatzen dituen diagrama baita. <ref type="bibr" target="#b0">3</ref> Hortaz, azalpenak trinkotzeko edo sintetizatzeko moduak dira. Beherago (2.5. atalean) itzuliko naiz arbolek izan dituzten zenbait kritikatara, baina, aurretik, filiazio hipotesiak egiaztatzeko baliabideei helduko diet, hau da, berrikuntza eta arkaismoei.</p><p>Nola egiaztatzen dira, baina, filiazio hipotesi horiek? Zertan oinarritu behar dugu proposatzen ditugun azpitaldeak benetan (azpi-)iturri komun batetik datozela frogatzeko? Nola eraikitzen dira kronologia erlatibo horiek?</p><p>Ikertzaileak bat datoz oinarrizkoena berrikuntzak direla. Jada neogramatikoen idatzietan ageri da azpimultzoak osatzeko irizpidea berrikuntza (zahar) partekatuak direla. <ref type="bibr" target="#b1">4</ref> Leskien izan zen hori aipatzen lehena (1876: vii, apud Zuloaga 2020: 61) eta, horregatik, Leskienen hatsarre izenaz ere ezaguna da. Halaber, hamarkada bat geroagoko Brugmannen <ref type="bibr">(1967 [1886]</ref>: 24) hitzok ideia bera adierazten dute: 5 "Hizkuntza 2 Cf. <ref type="bibr">Mitxelenaren (1963: 19)</ref> hitzok: "La nuestra es una ciencia empírica por cuanto que toda reconstrucción tiene que basarse en lenguas reales tal como nos las ofrece la experiencia y también porque su valor se demuestra comprobando hasta qué punto es capaz de explicar las formas de esas lenguas" [etzanak nireak dira]. <ref type="bibr">3 Mitxelenaren (1963: 80)</ref> hitzok bide horretan doaz: "Nadie puede esperar hallar en el árbol genealógico la imagen acabada del proceso de diversificación de las lenguas reales, como nadie puede esperar obtener fruta o leña del árbol de Porfirio: ese árbol 'no es más que un diagrama de la aplicación del método comparativo a la reconstrucción de familias de lenguas'. Parece mentira que a los lingüistas, gentes de letras por lo común, se les suponga carentes de imaginación hasta el punto de creer que no van a ser capaces de reconocer e interpretar un tropo cuando tropiecen con él". <ref type="bibr" target="#b1">4</ref> Neogramatikariek ezarri zuten filiazio hipotesiak egiaztatzeko baliabide nagusia berrikuntzak direla eta maiz hizkuntzen eboluzioaren eta berrikuntzen garrantzia biologiako eboluzioaren teoriatik hartutakotzat jo izan dira. Zuzenagoa ematen du, ordea, testu-kritikatik zetorren tradizioarekin lotzea eta akats bateratzaileak eta berrikuntzak parekatzea <ref type="bibr">(Mitxelena 1963: 80;</ref><ref type="bibr">Hoenigswald 1966</ref><ref type="bibr">: 6, 13. oinoharra, apud Petit 2007</ref>. <ref type="bibr">5</ref> Itzulpena nirea da. Jatorrizkoa: "das einzige nun, was auf das Verhältnis der einzelnen Sprachzweige zu einander, auf die Art des Hervorgangs der Einzelsprachen aus der idg. Ursprache Licht werfen kann, sind die besonderen Übereinstimmungen zwischen je zwei oder mehreren von ihnen, die Neuerungen, durch die jedesmal gewisse Sprachzweige gegenüber den andern in der Entwicklung vorangeschritten erscheinen". <ref type="bibr">Brugmannen (1884</ref><ref type="bibr">: 231, apud Petit 2007</ref> lanean ere ideia bera aipatzen da.</p><p>https://doi.org/10.1387/asju.24118 baten adarren arteko harremana argitzeko bide bakarra <ref type="bibr">[…]</ref> adar horietako biren edo gehiagoren arteko egokitasun zehatzak, berrikuntzak, dira. Izan ere, berrikuntza horien bidez aldatu dira adar jakin horiek eta ez beste batzuk".</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Berrikuntzak</head><p>Caminoren (2008: 212) hitzetan, "[h]izkuntzaren ordura arteko egitura aitzindari batekiko edo egoera zaharrago batekiko, dialekto batean sumatzen den haustura da berrikuntza, hizkuntza-forma batean sortu den aldaketa". Are gehiago, "ez baldin badago berrikuntzarik, ezin mintzatu gara dialektoaz: hizkuntzalari gehienen ustean, berrikuntzarik ez badago, ez dago dialektorik" <ref type="bibr">(Camino 2008: 212)</ref>.</p><p>Edozein berrikuntzak ez du balio, ordea, eta bilatzen ditugun berrikuntzek irizpide, iragazki edo hertsapen zehatzak gainditu behar dituzte egiten ditugun proposamenak sendoak izateko. Zuloagak (2020: 64) honela definitzen ditu iragazki horiek: <ref type="bibr">[O]</ref>ndoz ondoko bi dialektotan fonologiaren edo morfologiaren esparruko berrikuntza berezia, positiboa, zaharra, bateratzailea, sistematikoa, esklusiboa eta hedadura zabalekoa aurkituz gero, tresna egokia izango da bi dialekto horiek lotzeko eta berrikuntza lehenagoko egoera linguistiko batetik eratorrikotzat jotzeko; berrikuntza hori kokatu ahalko da zuhaitzaren adabegian: iragazki horiek guztiak betetzen dituzten berrikuntzak aurkitzea gaitzagoa da, baina horietan oinarritutako proposamenak sendoagoak izan ohi dira.</p><p>Iragazkiok hiru multzotan bana daitezke: iragazki geografikoa, iragazki kronologikoa eta hizkuntz iragazkia; cf. <ref type="bibr">Meilleten (1984</ref><ref type="bibr">Meilleten ( [1908</ref>: 10) "la contrainte de proximité", "la contrainte d'antiquité" eta "la contrainte de singularité". Iragazki horien helburua zoria, halabeharra, saihestea da.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1.">Iragazki geografikoa</head><p>Iragazki geografikoan sartzen da berrikuntza ondoz ondoko bi dialekto baino gehiagotan agertzea, bateratzailea izatea, esklusiboa izatea eta hedadura zabala izatea <ref type="bibr">(Camino 2009: 322-323)</ref>. Meilletek -indoeuropeista zela gogoan-ezin sinpleago definitzen du: "les faits communs doivent se trouver dans des langues qui aient été voisines" <ref type="bibr" target="#b71">(Meillet 1984</ref><ref type="bibr" target="#b71">(Meillet [1908</ref>: 10). 6 <ref type="bibr">6</ref> Meilletek duela gizaldi bat baino gehiago finkaturiko hertsapen metodologiko hori, hots, hurbiltasun geografikoaren beharra, proposatu diren euskararen ahaidetasun hipotesi gehienak bertan behera uzteko nahikoa da, hizkuntz argudio sakonetan (egokitasun erregularretan) sartu gabe ere. <ref type="bibr">Adibidez, Fornik (2013)</ref>   <ref type="bibr">"[l]</ref>ogically, the neighbouring language family, Indo-European, should be the first to be taken into consideration, but that has rarely happened. My intuition had been that a connection with Indo-European and with the Caucasus, would be most promising" <ref type="bibr">(Bakker 2020: 563)</ref>. Norberaren intui-and with the Caucasus, would be most promising" <ref type="bibr">(Bakker 2020: 563)</ref>. Norberaren intuizioak intuizio, Euskal Herri historiko eta ezaguna eta Kaukasoa urruti daude auzokotzat edo "neighbouring"tzat jotzeko. Are zalantzagarriagoa egiten zait indoeuroperaren auzotasun edo hurbiltasuna, jatorria itsaso Beltzaren eta Kaspiar itsasoaren iparraldean badute <ref type="bibr" target="#b13">(Anthony 2007)</ref>. Ringek (2009) Eu-Berrikuntzak esklusiboa eta bateratzailea izan beharko luke. Hau da, ahal delarik, lekukotzen den eremuan baino ez da lekukotu behar eta, gainera, eremu horretan orokorra izan behar du, eremua batu egin behar du. 7 Izan ere, loturik ez dauden hainbat eremutan agertuko balitz, aukera handiak egongo lirateke ezaugarria arkaismoa edo berrikuntza paraleloa izateko. Arkaismo bateratzaileek beren lekua izan dezakete dialektoak definitu eta haien historia egitean -ikusi beherago 2.3. atala-. Kasu horretan, ordea, ez litzateke arkaismo bateratzailea, baizik eta, aree laterali irizpidearen arabera -ikusi beherago 2.5. atalean <ref type="bibr">Bartoliren (1925)</ref> ingurukoak-, aitzin-hizkuntzarako proposatu behar den ezaugarria.</p><p>Irizpide hori erabili zuen, adibidez, Mitxelenak (1964a: 51) ondorioztatzeko mendebaldean eta ekialdean lekukotu iratzarri hitzak garai batean orokorra izan behar zuela eta erdialdeko esnatu-k, berriagoa. Bestalde, berrikuntza paraleloak, definizioz, jatorri poligenetikoa duten ezaugarriak dira, hau da, hainbat gunetan era independentean garaturiko berrikuntzak, eta hor ere ez da mintzoen arteko filiaziorik. Gainera, kronologiari dagokionez, garai desberdinetan gertaturiko berrikuntzak izan daitezke edo izaten dira berrikuntza paraleloak.</p><p>Horrez gain, berrikuntzak hedadura zabala izan behar du. Hertsapen hori kronologiarekin lotu ohi da, berrikuntzek hedatzeko denbora behar izaten dutelako eta, beraz, berrikuntza zenbat eta hedatuago, orduan eta zaharragoa izateko aukera handiagoa duelako. Ezaugarri bakoitza bere garaian kokatu nahi dugunez, haien hedadura kontuan hartu behar da eta pentsatu behar da, oro har, hedatuen daudenak zaharragoak izan ohi direla <ref type="bibr" target="#b20">(Bartoli 1925)</ref>; horregatik, ondoz ondoko hainbat dialektotan agertzen direnek aukera handiagoak dituzte (oso) zaharrak izateko. <ref type="bibr">Adibidez, Erañak (2020a: 52)</ref> hiru geruza bereizi ditu Arabako euskararen numero komunztaduraren galeran. Kronologia erlatibo hau proposatzen du, zaharrenetik berrienera: 1. galera: aditz ditrantsitiboetan galdu zen, eta Arabako lautadatik debagoiena eta Goierrira hedatu zen. 2. galera: iragangaitz datibodunetara hedatu zen. 3. galera: *edun-en adizkietara hedatu zen, baina ordurako Arabako lautadaren eraginak behera egin zuen eta, horregatik, Leintz bailara ingurura besterik ez zen iritsi.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2.">Iragazki kronologikoa</head><p>Halaber, euskara historikoan jada dialektalizaturik aurkitzen dugun hautsi aurreko garaiez ari bagara, analisietan kontuan hartzeko ezaugarriek zaharrak izan behar dute. Hori da, hain zuzen, iragazki kronologikoak zehazten duena: darabiltzagun hizkuntz ezaugarriak -hizkuntz berrikuntzak-zaharrak izan behar dira, edo, behintzat, zein bere garaian kokatu behar da. Horretarako, berrikuntzen kronologia erla- Petitek <ref type="bibr">(2007: 18-19</ref>) ezin argiago azaltzen du <ref type="bibr">Meilletek (1984</ref><ref type="bibr">Meilletek ( [1908</ref>: 10) "contrainte d'antiquité" deitu zuena:</p><p>Par contrainte d'antiquité, il faut entendre la nécessité de prendre en compte les proto-langues communes et non leurs aboutissements historiques différenciés, afin d'écarter les innovations tardives qui ne remonteraient pas à l'origine des chacun des groupes considérés : on ne reconstruit pas l'indo-iranien en comparant le hindi moderne et le kurde, ni même le sanskrit et l'avestique, mais bien en comparant le protoindien et le proto-iranien, tous deux reconstruits par la comparaison interne.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.3.">Hizkuntz iragazkia</head><p>Zuloagak (2020: 63-64) aipatzen dituen hertsapenetatik hauek dagozkio hizkuntz iragazkiari: fonologiaren edo morfologiaren esparrukoa izatea, berezia izatea, positiboa izatea eta sistematikoa izatea.</p><p>Zuloaga oso esplizitua da, eta berrikuntzak fonologiaren edo morfologiaren esparrukoa izan behar duela nabarmentzen du. Horrek sintaxia eta lexikoa kanpoan uzten ditu, nahiz eta kanpoan uzteko arrazoiak bestelakoak izan.</p><p>Sintaxiari dagokionez, zaila izan ohi da historiaurrean murgiltzea, aitzin-hizkuntzen sintaxia nolakoa zen definitzea eta aldaketak zer norabidetan gertatu diren erabakitzea. Horrek ez du esan nahi, jakina, sintaxi diakronikoa ezin egin daitekeenik, baina, maiz, eremu labainkorra izan daiteke.</p><p>Bestetik, lexikoa ere alde batera uzten du. Izan ere, lexikoa da modari lotuen dagoen hizkuntzaren atala, eta lexemak oso erraz mailegatzen dira harremana duten aldaeren edo dialektoen artean, baita genetikoki loturik ez dauden hizkuntzen artean ere: "[l]e domaine du lexique, en effet, est plus étroitement lié aux contacts culturels entre les civilisations que le domaine phonétique ou morphologique et par conséquent est moins approprié à établir une parenté dialectale" <ref type="bibr">(Petit 2007: 24)</ref>. <ref type="bibr">Mitxelenaren (1964a: 72)</ref> hitzetan, "[la] parte [del lenguaje] más postiza y menos estructurada: el vocabulario" da hiztegia, eta maiz ezer gutxi esan dezake bi dialektoren iraganeko harremanaz. Meilleten <ref type="bibr">(1984 [1908]</ref>: 126) hitzok ideia bera azpimarratzen dute: "les coïncidences de vocabulaire n'ont en général qu'une très petite valeur probante".</p><p>Kasu baterako, B (eta A) urten : G (eta A) irten &amp; erten : GN, L, BN, Z egorri/egort(z)en parekatzen baditugu, *BGA (= MEZ?) *eorten lortuko genuke. Hau da, pentsa genezake, ekialde zabal gordetzailean gertatutakoaren aurka, bokalarteko g galdu zela (g &gt; ø / V_V), bizkaiera, arabera eta gipuzkera sortu aurreko hizkuntz egoera komunean. Nahiz eta bokalarteko g-ren galera berrikuntza negatiboa izan, lexema horretan gutxienez bi berrikuntza positibo ere badaude: batetik, *eo &gt; eu gertatu da; bestetik, partizipio burutugabea (e(g)orten) partizipio burutu bezala interpretatu da eta mendebal zabaleko partizipio burutugabeak horren gainean eraikitzen dira egun: urteten, ertet(z)en, irtet(z)en.</p><p>Lexema berriak sortzea edo aurretik ziren lexemak aipatu berri dugun moduan aldatzeak ahaidetasun hipotesiaren aldeko ebidentziatako har daitezke <ref type="bibr">(Petit 2007: 24)</ref>, baina, nolanahi ere den, hots-aldaketen eta berrikuntza morfologikoen inguruan gabiltza berriro ere. Hau da, lexema bakarrean gertaturiko berrikuntzen inguruan gabiltza eta, horrek hizkuntzaren sisteman muinekoa den berrikuntza batek baino indar frogatzaile txikiagoa badu ere, ez gabiltza bat-etortze lexiko hutsen inguruan, horiek frogagarritasun txikia dute eta.</p><p>Bestalde, eta berrikuntza paraleloen poligenesiarekin loturik, berrikuntzak bereziak izan behar dira. Izan ere, aldaketa asko testuinguru (foniko)ak baldintzaturik daude eta testuingurua duen ia munduko edozein hizkuntzatan aurki daitezke aldaketa horren adibideak, garai zaharrago edo berriagoetan.</p><p>Esaterako, <ref type="bibr">Ringeren &amp; Eskaren (2011: 257-259)</ref>   <ref type="bibr" target="#b81">(Ohala 1993;</ref><ref type="bibr" target="#b23">Blevins 2004)</ref>. Gauza bera esan daiteke Euskal Herriko mendebaldean gertatu diren zenbait e &gt; a / _r bilakabideez: berri &gt; barri, gerri &gt; garri, txerri &gt; txarri, gernu &gt; garnu. Zuloagak (2020: 166) dioenez, Iberiar penintsulan bertan gaztelaniaz, leoneraz, aragoieraz, judu-gaztelaniaz eta katalanez ere gertatu da, baita beste Europako hainbat hizkuntzatan ere. Ikusi, orain, Zuloaga (2022: 65-68) item lexiko bakoitzaren hedaduraz.</p><p>Horrek ez du esan nahi munduko hizkuntzetan hainbatetan lekukotzen diren hots aldaketa arruntak filiazio hipotesiak egiaztatzeko baliabideetatik kanpo utzi behar direnik. Batzuetan, aldaketa arruntak katean gertatzen dira eta kronologia erlatibo bat osatzen dute. Horrek bereizgarritasuna ematen dio eta, beraz, zenbait aldaketa arruntek, era jakin batean konbinaturik, balio dezakete azpitaldeen arteko harremana frogatzeko; cf. <ref type="bibr">Ringe &amp; Eska (2011: 260)</ref> Grimmen legeaz.</p><p>Bestetik, Zuloagak (2020: 63-64) berrikuntzei ezartzen dien beste hizkuntz hertsapenetako bat positiboa izatea da. Ideia hori jada Leskienen baitan (1876: vii, apud Zuloaga 2020: 61) irakur daiteke: "die Kriterien einer engeren Gemeinschaft können nur in positiven Übereinstimmungen der betreffenden Sprachen […] gefunden werden" (etzanak nireak dira). Berrikuntza positiboak behar ditugu, berrikuntza negatiboak, hots, ezaugarri baten galerak, ez dakarrelako berarekin filiaziorik. Horrek ez du esan nahi, jakina, berrikuntza negatibo bat ezin denik esanguratsua izan, baizik eta ez duela ziurtasunik eskaintzen ondorio sendoak ateratzeko.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Arkaismoak</head><p>Arkaismoak, berrikuntzak bezala, erlatiboak dira. Goian Caminoren (2008: 212) berrikuntzen definizioa jaso dut. Honela dio: "[h]izkuntzaren ordura arteko egitura aitzindari batekiko edo egoera zaharrago batekiko, dialekto batean sumatzen den haustura da berrikuntza". definizio hori irauliz, esan genezake arkaismoa hizkeraren ordura arteko egitura aitzindaria dela, egoera zaharragoa, dialekto batean edo gehiagotan gordetakoa, beste dialekto bat(zu)etan sumatzen den berrikuntzarekiko.</p><p>Esan bezala, ikertzaileak ados daude berrikuntzek frogatzen dutela dialektoen arteko harreman filogenetiko estuagoa, hau da, zuhaitzeko adar bereko ondorengoak direla ondorioztatzeko indar handiagoa dutela. Arkaismoek duten lekuaz, aldiz, ez da horrenbesteko adostasunik. Askok arkaismoak alde batera utzi eta aintzat berrikunhttps://doi.org/10.1387/asju.24118 tzak besterik ez dute hartzen. <ref type="bibr">Bowern &amp; Koch (2004: 11)</ref>, adibidez, berrikuntzak baino ez erabiltzearen aldeko dira. Mitxelenaren (1964a: 51) hitz hauek ere ikuspegi hori irudika dezakete: "La conservación conjunta de un arcaísmo en dos o más variedades de una lengua no supone, por el hecho de tratarse de algo pasivo que se explica por simple inercia, ninguna relación especial entre ellas".</p><p>Aldiz, badaude arkaismoak neurri batean aintzat hartzearen aldekoak ere, hala nola Rodríguez Adrados <ref type="bibr">(1997 [1952]</ref>, apud Zuloaga 2020: 65-67) eta watkins <ref type="bibr">(1966</ref><ref type="bibr">( , apud Zuloaga 2020</ref>. Gerta daiteke hainbat arkaismoren mugak bat etortzea berritu duen eremuarekiko. Kasu horietan, arkaismoak berritu ez duen eremuaren batasunaren adierazle izan daitezke eta, are gehiago, beste nonbait sortutako berrikuntza bat ez hartzeak ez du zertan pasiboa izan, baizik eta aktiboa <ref type="bibr">(Camino 2008: 237)</ref>. Aktibotasun hori zertan den edo nola gauzatzen den garatzea interesgarri litzateke, talde erabaki kontzientea iradokitzen duelako eta horrek ez duelako oso egiantzekoa ematen.</p><p>Nolanahi ere den, horrekin ez da esan nahi arkaismoak berrikuntzen pare daudenik edo arkaismo bat gordetzeak zuzenean darabilgun filiazio hipotesiaren alde egiten duenik, benetan aktiboa den frogatzeko arazo metodologikoak berdin irauten baitu: benetan dinamika komun baten ondorio da arkaismoari eustea edo zerbait pasiboa? Adibidez, bokal sudurkariak erdialdean galdu baina mendebaldean -luzeago-eta ekialdean -oraindik ere-mantentzea ezin da pasiboa baino izan, edo ez, behintzat, arkaismo bateratzaile aktiboa bi eremuetan batera.</p><p>Aitzitik, berrikuntza zahar esanguratsuak eta arkaismo bateratzaileak gordetzen direnean, dinamika komunak eta, beraz, iragan komuna daudela ondorioztatzeko erabil ditzakegu. Hau da, arkaismo bateratzaile zaharrak berrikuntza zahar eta bereizleen laguntzaile eta indartzaile izan daitezke filiazio hipotesiak egiaztatzeko.</p><p>Euskararen kasuan, berriki Urgellek (2020: 715-716) proposatu du, Mendebaldeko Euskara Zaharra (MEZ) definitzeko, a + a &gt; ea eta egin laguntzailearen gramatikalizazioa berrikuntzez gain, *edun-en 3. pertsonetako diptongoari eustea (dau/deu vs ekialde zabaleko du) eta -rean ablatiboa (vs -rik) arkaismoak erabil daitezkeela. 8</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Hautuak</head><p>Azkenik, hautu izenez deskribatzen edo etiketatzen diren ezaugarri linguistikoak erabili izan dira dialektologian berrikuntza eta arkaismoekin batera, irudia osatzeko nonbait. Tradizio batzuetan besteetan baino gehiago erabili izan dira eta gurean, itxuraz, nahikotxo erabili dira. Kanpoko ereduetan begiratuz gero, ordea, bitxia da -edo ez hain bitxia-mundu mailan zenbait lan esanguratsutan aipatu ere ez direla egiten. Hori da, adibidez, Campbellen (2013) eskuliburuaren kasua. Antzera, Bowernek &amp; Kochek (2004) Australiako hizkuntzen azterketa dialektologiko-diakronikoa egiteko finkatu metodologian ere ez dira hautuak aipatzen.</p><p>Izan ere, ematen du haututzat jo diren ezaugarriak, funtsean, forma zaharra gordetzen duten ezaugarriei dagozkiela. Horrek, baina, ez du kentzen bata berrikuntza eta bestea arkaismoa izatea. <ref type="bibr">Bide horretatik, Lakarrak (2011</ref>: 198) hautu bezala sailkatu izan diren laguntzaile tripertsonalak (*eradun, -i-eta *edutsi) berrikuntza kate bezala azaltzea proposatzen du. Horregatik guztiarengatik, zuhurragoa eta egiantzekoa ematen du hautuez ez hitz egiteak, baizik eta arkaismoez eta berrikuntzez edo, akaso, berrikuntza kateez.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Berrikuntza edo arkaismoa</head><p>Gorago, 2.2, 2.3 eta 2.4 ataletan, ikusi dugu nagusiki berrikuntzak bilatu behar ditugula eta, gainera, berrikuntza jakin batzuk: ondoz ondoko dialektoetan agertzen direnak, fonologiaren edo morfologiaren esparrukoak, bereziak, positiboak, zaharrak, bateratzaileak, sistematikoak, esklusiboak eta hedadura zabalekoak. Eta nola bereiziko ditugu berrikuntzak eta arkaismoak? Hau da, nola ziurtatuko dugu ez dugula berrikuntza bat arkaismotako hartzen, edo arkaismo bat berrikuntzatako? Zoritxarrez, ez dago kasu guztietan aplika daitekeen erantzunik, eta kasuan-kasuan ikusi eta interpretatu behar dira datuak. <ref type="bibr">Camino (2008: 212)</ref> honela mintzatzen da gaiaz: dialektologiaren barrenean eztabaida ugari gertatu da azterketan baliatzen den ezaugarri bakoitza berrikuntza ala tasun zaharra den erabakitzean; bereizketa nagusi hau egoki egiten ez bada, analisiari eragin kaltegarriak etor dakizkioke; dena den, ez da pentsatu behar batzuk eta besteak bereiztea horren gauza erraza denik. Zuloagak (2020: 48) gogorarazten duen bezala, kau, kori, kura erakusleen inguruan asko eztabaidatu izan da <ref type="bibr">(esaterako, Mitxelena 1951: 575-576)</ref>, zer garaitako arkaismoak izango ote ziren, eta, testu gehiago aurkitu direnean, hala nola Etxarten eta Rosen arteko gutunak <ref type="bibr">(Etxart &amp; Ros 1616</ref><ref type="bibr">-1617</ref>, duela gutxiko berrikuntzak ematen dute <ref type="bibr" target="#b64">(Lakarra 2011</ref><ref type="bibr" target="#b64">(Lakarra [2014</ref>: 73. oin-oharra). Orain, <ref type="bibr">Rojoren (2022a</ref><ref type="bibr">Rojoren ( , 2022b</ref> lanek ere modernotasun horren alde egiten dute.</p><p>Zorionez, badaude interpretazio ahalik eta zuzenena egiten laguntzen duten irizpideak. Hasteko, argi izan behar da arkaismo eta berrikuntza termino erlatiboak direla. Ezaugarriak garai eta egoera linguistiko batekiko dira gordetzaile edo berritzaile eta garai batean berrikuntza zena arkaismo izan liteke gero. Hortaz, garaian garaiko egoera linguistikoak ahalik eta hobekien ezagutzea funtsezkoa da. Zer egin, ordea, garaia eta, beraz, egoera linguistikoa historiaurrekoa denean? Idatzirik ez dagoenean? Nola erabaki dezakegu testuetan agertzen diren ezaugarriak garai bateko arkaismoak edo berrikuntzak diren? Horretarako ere badaude zenbait lagungarri, hala nola neolinguisten hatsarreak <ref type="bibr" target="#b20">(Bartoli 1925</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Zuhaitzak eta kritikak</head><p>dialektalizazio prozesua zuhaitz genealogikoen bidez irudikatzea hizkuntzalaritza historikoa diziplina bera bezain zaharra da ia-ia. Jada 1853. urtean Schleicherek Stammbaum (alemanez, Stamm 'erro' + Baum 'zuhaitz') edo zuhaitz genealogikoaren eredua proposatu zuen jatorri bereko hizkuntzen arteko harremanen egitura -filiazio hipotesiak-irudikatzeko <ref type="bibr">(Schleicher 1853</ref><ref type="bibr">(Schleicher : 782, 1861</ref>. 9 Eredu horretan, aitzin-hizkuntza batutik abiatzen da, eta adarkatuz doa denboran aurrera zuhaitzean behera egin ahala, egungo dialekto edo hizkuntzetara iritsi arte. Beraz, jarauntsitakoan jartzen du arreta. Aldiz, eredu horrek hainbat kritika jaso zituen hasiera-hasieratik, jarauntsitakoa eta goitik beherakoa hizkuntzaren eboluzioaren alderdietako bat besterik ez delako, eta beste alderdi batzuk alde batera gelditzen zirelako, hala nola konbergentzia eta elkarren ondoko hizkuntza, dialekto eta hizkeren arteko transmisioa <ref type="bibr" target="#b103">(Schmidt 1872;</ref><ref type="bibr" target="#b104">Schuchardt 1900)</ref>. <ref type="bibr">10</ref> Schmidtek <ref type="formula">(1872)</ref> uhinen teoria deitu izan dena proposatu zuen, zuhaitzaren ordez, zenbait ezaugarriren banaketa gorabeheratsua azaltzeko. Eztabaida luzeak sortu ditu zuhaitz ereduaren eta uhin teoriaren arteko talkak. Aldiz, zer den ere ez dago argi, teoria -edo hipotesia-edo isoglosak irudikatzeko eredu bat <ref type="bibr">(Jacques &amp; List 2019: 132-133)</ref>.</p><p>Schmidtek <ref type="formula">(1872: 27</ref> Horrekin ez dut inondik inora esan nahi mapan isoglosak irudikatzea erabilgarri edo lagungarria ez denik; gogora bitez Mitxelenaren (1964a: 37) hitzok: "y nunca debemos olvidar que la distribución actual de los fenómenos lingüísticos suele ser distinta de la pasada, aunque aquélla nos proporcione indicios y claves para reconstruir esta". Une jakin bakoitzean isoglosak non zeuden irudikatzeko ezin hobea da isoglosa mapa, baina horrek ez dio azalpen izaera ematen, hau da, ez du hipotesi edo teoria egiten.</p><p>Laburbilduz, uhin teoria deitu izan direnak zuhaitz-diagramaren aurka egiteko erabili izan dira, baina ez adiera batek -berrikuntzak nola hedatzen diren azaltzeko hipotesia-ez besteak -isoglosak mapa batean irudikatzea-ez diete ez filiazio hipotesiei ez hipotesi horiek zuhaitz diagrametan irudikatzeari eragiten.</p><p>Atal honetan adarkatzeen auzia ikertzeko literaturan ezarri diren oinarriak berrikusi ditut. Lehenik eta behin, fenetika -hizkera batzuk bildu eta gainerakoetatik bereizteko arreta bat-etortzeen kopuruan paratzea-eta filogenia -aitzin-hizkuntzatik lekukotutako hizkuntz egoeretarako bidea edo garapena ulertzeko kronologia erlatiboak planteatzea-bereizi ditut eta filogenia hobetsi dut. Ondoren, filogenia egiteko ezarri diren irizpideei heldu diet. Argudiatu bezala, oinarria berrikuntzak dira, arkaismo bateratzaileen laguntzaz. Era berean, berrikuntzek analisi filogenetikoetan erabiltzeko bete behar dituzten baldintza edo irizpideak mahaigainean paratu ditut. Hiru dira: irizpide kronologikoa -labur, berrikuntzak zaharrak izan behar dira-, geografikoa -berrikuntzak aski hedaturik egon behar dira-eta hizkuntzazkoa -berrikuntzak fonologikoak edo morfologikoak izan behar dira, bereziak eta sistematikoak-. Azkenik, filiazio hipotesiak irudikatzeko erabili izan diren zuhaitzei egin izan zaien kritika nagusia bildu dut eta erakutsi dut ez direla zuhaitzaren diagrahttps://doi.org/10.1387/asju.24118 maren aurkako kritikak, eta oraindik ere erabili beharreko eredua zuhaitz diagrama dela aldarrikatu dut.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Euskara Batu Zaharra eta haren haustura</head><p>Atal honetan bi alderdi landuko ditut. Batetik, azalduko dut zergatik behar dugun EBZ bezalako hizkuntz egoera bat ( § 3.1), AEMtik linguistikoki bereizia, eta justifikatuko dut zergatik ez den oreka puntuatua <ref type="bibr">(dixon 1997, 2002)</ref> euskararen iraganeko garaietarako aplikagarria ( § 3.2); hau da, zergatik jarraitu behar dien EBZren eta dialektalizazioaren ikerketak inguruko tradizioetan ezarritako estandarrei. Bestetik, EBZren hausturaren inguruan esandakoak berrikusiko ditut, aurreko atalean ezarritako irizpide metodologikoetan oinarriturik ( § 3.3).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Euskara Batu Zaharraren beharra</head><p>Ez dut EBZ, dialektoak bereizi aurreko azken egoera ba(tera)tu bezala, linguistikoki definituko. Horrek honelako lan batek dituen muga guztiak gaindituko lituzke, tamainaz eta eskatuko lituzkeen ikerketa orduen aldetik. Horren ordez, Mitxelenak (1981) egin zuen EBZren beharraren argudiaketa laburbilduko dut, AEMtik bereiz edo, behintzat, AEMtik hainbat aldaketa jasandako hizkuntz egoera bezala.</p><p>Esan bezala, Mitxelenarendako <ref type="formula">(1981)</ref>   [E]s posible que esas diferencias le parezcan muy grandes al hablante ordinario no iniciado a fondo más que en el euskera de su círculo local o comarcal, pero, para un comparatista, y este es el punto de vista que hay que adoptar aquí, las divergencias, como ya he escrito en algún otro lugar, son desesperadamente pequeñas.</p><p>Horren txikiak ziren, non errenteriarrarendako dialektoen azken egoera bateratuak gugandik oso gertu egon behar zuen, eta v-vi. mendeen inguruan kokatu zuen, erromatarren gainbeheraren ondoren alegia. Horretarako, <ref type="bibr">Barbero eta Vigilen (1965)</ref> eredu historikoan oinarritu zen. Aldiz, eredu hori gainditurik dago eta, beraz, data horiek ez digute balio.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Euskara Batu Zaharra eta oreka puntuatua</head><p>Hala ere, bigarren aukera bat ere plantea liteke: oreka puntuatua -wikipediako egileek Oreka taiduna izendatu dute-edo, ingelesez, punctuated equilibrium. Izan ere, familia ikertuenen kasuan hizkuntzak milaka kilometrotako eremuan sakabanaturik daude eta, horien aldean, gurea -ezagutzen duguna-eremutxo txikia baino ez da, eta ez du ematen eremu hori askoz handiagoa izan zitekeela pentsatzeko arrazoirik aurkituko dugunik.</p><p>Nahiz eta ez zuen dixonek berak biologiatik hizkuntzalaritzara ekarri <ref type="bibr" target="#b29">(Bowern 2006)</ref>, hizkuntzalaritzaren barruan oreka puntuatuaren adibiderik ospetsuena hark Australiako hizkuntzen egoera azaltzeko egindakoa da <ref type="bibr">(dixon 1997, 2002</ref>  <ref type="bibr" target="#b29">(Bowern 2006)</ref>. Adibide ezagun bat hartzeko, galde liteke noizkoak diren ingelesak frantsesari hartutako maileguak eta noizkoak frantsesak ingelesari hartutakoak; ingelesak frantsesetik hartzen zituenean, zer mailegu utzi zituen ingelesak frantsesean; eta, alderantziz, zer mailegu uzten dituen egun frantsesak ingelesean. Gure kasuan, latina (eta erromantzeak) mailegu-emaileak dira, eta euskara, mailegu-hartzailea, eta nekez aurki daitezke aurkako norabideko adibideak.</p><p>Azkenik, euskararen barruan ere oreka puntuatuaren aurkako argudioak aurki ditzakegula uste dut. Gure herria txikia da: Euskal Herri historikoak 250 km ere ez ditu mendebaldeko muturretik ekialdekora, aspaldi hedatuxeago egon zitekeen arren: Bilbotik mendebaldera eta Pirinioan ekialdera, nahiz eta, beharbada, ez batzuetan uste izan den bezain hedatu (Salaberri-Zaratiegi 2011). Ez dirudi, ordea, hizkuntza indoeuroparrak bezain hedaturik inoiz egon denik. Txikitasun (erlatibo) horrek pentsaraz lezake errazago egin zitzakeela berrikuntza komunak, aldi berean berrikuntza dialektal txikiak sortzen edo sorturik zeudenei eusten zien bitartean. Inoiz horrelako egoera bat izan bazen, aurreko aldaera dialektalak ezabatu zituen.</p><p>Batetik, Mitxelenak (1981) berak azpimarratu bat-etortze kopuru handia dago. Bestetik, eta garrantzitsuagoa irizten diot, berrikuntzak datatuz joan ahala, nahiko modernoak direla ikusten da. Hori da, adibidez, singularreko artikuluaren eta hasperenaren galerarekin loturiko aldaketa guztien kasua. Esaterako, etxea &gt; etxia gertatzeko, lehenik artikulua gramatikalizatu behar da (*etxe + ha(r) &gt; *etxeha) eta hori viii. mende ondokoa da <ref type="bibr">(Zuloaga 2020: 478)</ref>. Antzera, ekialdeko muturreko /y/-k, besteak beste, xiv. mende ingurukoa ematen du <ref type="bibr">(Peillen 1991: 252-253;</ref><ref type="bibr" target="#b45">Egurtzegi 2017)</ref>. Horrez gain, ez du ematen mailegatzea oso faktore esanguratsua izan denik gurean, euskal aldaeren artean, erromantzeetatik andana sartu baita. Adibidez, erdialhttps://doi.org/10.1387/asju.24118 deko zenbat mailegu aurki ditzakegu ekialdeko muturrean, Mitxelenak (FHV, 375) aipatu Z ützitik (cf. ek. eitzi zaharra) -eta beharbada Z galdütik-14 harago?</p><p>Horregatik guztiarengatik, kontrakoaren aldeko ebidentzia agertzen ez den bitartean, euskararen historian dialektalizazio aurreko egoera ba(tera)tu bat behar dugu ezagutzen ditugun dialektoen abiapuntutako, erromatarren etorreraren ondorengoa, eta, egon litezkeen konbergentzia aldiak alde batera, dialektalizazioaren teoria adarkatze bitarreko zuhaitz irudi batera eramango gaituen filiazio hipotesiak egiaztatuz eraiki (behar)ko da (cf. <ref type="bibr" target="#b64">Lakarra 2011</ref><ref type="bibr" target="#b64">Lakarra [2014</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Euskara Batu Zaharraren haustura: bi hipotesi</head><p>Atal honetan, EBZren hausturaren inguruan esplizituki edo zeharka esandakoak bildu eta 2. atalean definitutako irizpide metodologikoen arabera ebaluatuko ditut. <ref type="bibr">Izan ere, Lakarraren (2011</ref>) lanetik esplizituki dakigu -beste familia zabaletako ikerketan prozedura estandarra gurera ekarririk-euskal dialekto historiko guztiak ezin etor daitezkeela Mitxelenaren (1981) EBZren hausturatik, eta, aldiz, beste tradizioen moduan, zatiketa hierarkiko eta bitar baten ereduan azaldu beharko genukeela euskararen dialektalizazioa.</p><p>Logikoa den moduan, lehen haustura ezin da erdialdean gertatu; hau da, ez da posible saihetsek elkarren artean komunitate bateratu bat osatzea erdialdekoak kanpoan utzirik. Horrek bi aukera -bi hipotesi-uzten dizkigu EBZren banaketarako: (a) lehen haustura mendebaldean gertatu zen, edo (b) lehen haustura ekialdean gertatu zen. Lakarrak <ref type="bibr">(2011 [2014]</ref>: 205, 133. oin-oharra) egin zituen arbolen arteko alde nagusia ere hori da: "Zuhaitzen arteko diferentzia nagusia honetan datza: Erdialdeko Euskara [hau da, nafarreren eta lapurteraren jatorri komuna, eta ez Zuazoren erdialdeko euskara, hots, gipuzkera] nondik ateratzen den, Mendebaldekotik ala Ekialdekotik; hots, hurrenez hurren EkEZ ala MEZ bereizi den lehenago EBZtik". Hipotesiak zuhaitzean irudikaturik, honela izango lirateke bata eta bestea lehen hausturari dagokionez:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">irudia</head><p>EBZren haustura mendebaldean. Iturria: <ref type="bibr" target="#b64">Lakarra (2011</ref><ref type="bibr" target="#b64">Lakarra ( [2014</ref>: 203)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">irudia</head><p>EBZren haustura ekialdean. Iturria: <ref type="bibr" target="#b64">Lakarra (2011</ref><ref type="bibr" target="#b64">Lakarra ( [2014</ref>: 203) dagoeneko, hipotesi baten zein bestearen aldekoak ditugu, nahiz eta ez den, inolaz ere, bataren eta bestearen alde modu eta maila berean egin. Jarraian, batetik, lehen haustura mendebaldean gertatu zela dioten iritziak berrikusiko ditut. Ondoren, lehen haustura ekialdean gertatu zela defendatzen duen hipotesiari helduko diot, hots, Lakarrak <ref type="bibr">(2011 [2014]</ref>) eta neurri batean Caminok <ref type="bibr">(2011 [2014]</ref>) defendatu dutenari.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.1.">EBZren haustura mendebaldean</head><p>Esan bezala, EBZ mendebaldean hautsi izana da dialektalizazioaren hasierarako egin litezkeen bi hipotesietako bat eta, kuantitatiboki, aldezle gehien izan dituen hipotesitako har liteke, baldin eta aldezleen artean batasunik egongo balitz mendebaldearen definizioan eta metodoetan. Alde horretatik, eta jarraian erakutsiko dudan moduan, hipotesi horren alde egin den ere zalantzan jar daiteke. Aldezle nagusiak <ref type="bibr" target="#b111">Zuazo (2003</ref><ref type="bibr" target="#b112">Zuazo ( , 2008</ref><ref type="bibr" target="#b113">Zuazo ( , 2010a</ref><ref type="bibr" target="#b115">Zuazo ( , 2014</ref>, <ref type="bibr" target="#b88">Reguero-Ugarte (2012a</ref><ref type="bibr" target="#b89">, 2012b</ref>, <ref type="bibr" target="#b12">Aldai (2014)</ref> eta Abaitua (2018) izan dira.</p><p>3.3.1.1. <ref type="bibr" target="#b111">Zuazo (2003</ref><ref type="bibr" target="#b112">Zuazo ( , 2008</ref><ref type="bibr" target="#b113">Zuazo ( , 2010a</ref><ref type="bibr" target="#b115">Zuazo ( , 2014</ref> Zuazok proposatzen dituen dialektoen balizko sorguneak proposatzen ditu <ref type="bibr" target="#b111">(Zuazo 2003</ref><ref type="bibr">(Zuazo eta 2008</ref><ref type="bibr">2010a: 165etik aurrera;</ref><ref type="bibr">2014: 49tik aurrera;</ref><ref type="bibr">2017: 9tik aurrera)</ref>, eta, haren arabera, haustura mendebaldean gertatu zen: "Es posible que el alejamiento de Álava y Vizcaya del Reino de Na varra, y su acercamiento al Reino astur, en el siglo viii, y, más tarde, al Reino de Cas tilla, tenga algo que ver con este hecho" <ref type="bibr">(Zuazo 2010a: 192)</ref>. Gainera, neurri handi batean honetan oinarritzen da bereizketa mendebaldean egiteko: "desde el punto de vista del lingüista, hay únicamente dos dialectos que presentan una personalidad bien marcada, uno en cada extremo del país: el suletino, por un lado, y el occidental o vizcaíno, por el otro" <ref type="bibr">(Zuazo 2010a: 67</ref> Horrez gain, berrikuntzak baizik ez ditu kontuan hartzen <ref type="bibr">(Zuazo 1998: 192)</ref>, eta arkaismoak -eta hautuak-alde batera uzten ditu. Aldiz, ez da azaltzen zergatik ezin diren arkaismoak -edo hautuak-oinarrizkoak eta esanguratsuak izan; ez da azaltzen zergatik den hizkuntzalaritza historiko-konparatuko bereizketa bat, hau da, berrikuntza/arkaismo bereizketa, ezaugarri asko kanpoan uzteko irizpide bat, xxi. mendeko euskara zertan den deskribatzeko.</p><p>Gainera, ez dago berrikuntzaren eta arkaismoaren artean bereizteko irizpiderik, ezta ezaugarri bat berrikuntzatzat jotzeko arrazoien inguruko gogoetarik. Beharbada hori dela eta, berrikuntzak eta arkaismoak nahas-mahas darabiltza.</p><p>Esaterako, Iparraldeko hasperena arkaismotako du. Eta ematen du hasperena a itzineuskararako berreraiki behar dugula, ñabardura fonetikoak gorabehera (cf. Manterola &amp; Hualde 2021). Aldiz, egun gordetzen den hasperenak murriztapen zenbait ditu -hasperen bat hitzeko, lehen edo bigarren silaban-, eta horrek ez du zertan a itzinhiz kun tza re kiko arkaismoa izan. Izan ere, ditugun datuekin, ekialde zabal bateko be-arkaismoa izan. Izan ere, ditugun datuekin, ekialde zabal bateko berrikuntza izan daiteke (Urrestarazu-Porta 2021; <ref type="bibr">Egurtzegi &amp; Elordieta 2023: 49-50)</ref>, eta, beraz, historiatik begiraturik berrikuntza ere izan daiteke. Arkaismoen sailean sartzen ditu, halaber, Erronkari-Zaraitzuetako gau &amp; kau, gor &amp; kor, gura &amp; kura. Gorago esan den moduan, eztabaidatu izan da erakusle horiek aspaldiko arkaismoak izan zitezkeela, baina, itxuraz, garai historikoan gertatutako berrikuntzak dira. Beraz, Zuazoren sailkapene(ta)tik berak nahi lituzkeen ezaugarriak ere kanpoan geratu dira.</p><p>Halaber, arkaismoak eta horiek hautematen egon daitezkeen okerrez gain, berrikuntza zaharrak ere -batzuk, eta ez guztiak-kanpoan uzten ditu; adibidez, a + a &gt; ea disimilazio morfonologikoa aintzat hartzen du, baina zenbait mendez modernoagoa den egin laguntzailea kanpoan uzten du, besteak beste hautu bezala trata-tzen duelako. Zuloagaren (2020: 530-531) arabera, xiii-xiv. mende artekoa da eginen gramatikalizazioa eta a + a &gt; ea baino modernoagoa.</p><p>Zuazoren erabaki metodologikoetara itzulirik, hiru irizpide zehazten ditu berrikuntzak kontuan hartzeko: (a) hedadura zabala izatea, (b) emankorrak izatea eta (c) egungo euskaran bizirik egotea. Ez dut iragazki horiek hartzeko arrazoirik aurkitu Zuazoren lanetan.</p><p>Erabaki metodologiko horiek ikusirik, ondorio zenbait atera daitezke: Zuazorena sailkapen fenetikoa baizik ezin da izan, arkaismoak alde batera utzirik eta (b) eta (c) irizpideak harturik, informazio historikoaren gehien-gehiena ezabatu duelako. Beraz, ezin du ondorio historikorik atera. Bestetik, fenetikoa bada ere, fenetikotasun bitxia du, batetor tzeen kopuru soilak ez diolako axola, baizik eta berak ezarritako irizpideak betetzen dituztenek; cf. behera Caminok <ref type="bibr">(2011 [2014]</ref>) esandakoak. Gainera, horrek bere helburua ezinezko bilakatzen du, hots, ez da posible "euskalkietan barreiatuta dauden ezaugarririk oinarrizkoenak eta esanguratsuenak erakustea" <ref type="bibr">(Zuazo 2008: 16)</ref>, printzipioz, horretarako berdin duelako berrikuntza edo arkaismoa izateak edo emankorra izateak. <ref type="bibr" target="#b88">Reguero-Ugarte (2012a</ref><ref type="bibr" target="#b89">, 2012b</ref> Zuazok bezala, <ref type="bibr">Reguero-Ugartek (2012a</ref><ref type="bibr" target="#b89">, 2012b</ref> EBZ osteko hizkuntz egoera bi eremutan bereizirik ikusten du. Berehala hirutan bereizirik ikusten du eta horretarako zenbait ezaugarri proposatzen ditu, hala nola hasperenaren galera eta -doi &amp; -dui &amp; -di. <ref type="bibr">16</ref> Aldiz, lan hau EBZren lehen hausturara mugatzen da eta, beraz, Reguero-Ugartek irudikatzen duen lehen zatiketara eta horretarako proposatzen dituen ezaugarrietara. Reguero-Ugartek aurrerapauso metodologiko (oso handi) bat dakar Zuazoren lanekiko: Erdi Aroko onomastikatik abiatzen da eta, beraz, xviii. mendeko berrikuntzak milurteko bat lehenagokotako hartzeko arriskua saihesten du. Hau da, iragazki kronologikoa guztiz betetzen du.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.3.1.2.</head><p>Bi eremu bereizten ditu Goi Erdi Aroan: mendebaldekoan, Araba, Bizkaia, Errioxa eta Gipuzkoa eta Nafarroako mendebaldeko zati batzuk sartzen ditu -Zuloagak (2020, 2022) definitzen duen MEZren oso antzekoa hedaduraz-; gainerakoak erdi-ekialdekoan sartzen ditu: Gipuzkoako ekialdea, Nafarroa Garaiko mendebaldeko muturra ez den beste guztia eta Pirinioaz bestaldeko Ipar Euskal Herri osoa. Horrekin, iragazki geografikoa ere betetzen du.</p><p>Zatiketa hori egiteko, mend. u-(huri) : ek. i-(hiri), mend. baltz : ek. beltz eta mend. barri : ek. berri ezaugarrietan oinarritzen da. Horrez gain, gaineratzen du aurrekoen antzeko banaketa dutela ergatibo pluraleko mend. argudioen artean, Zuloagak (2020: 172. orrialdetik aurrera) aipatzen du hainbat jatorri, garai eta hedaduratako hitzak nahasten direla. Adibidez, (h)uri : (h)iri bikotea *her-i edo *huri formatik etorriko litzateke (ikus orain Zuloaga 2022: 68-69); urten : irten : erten edo ule : ile : elle hirukoteak *eurten eta *eule formetatik etorriko lirateke hurrenez hurren. Hau da, u-: i-: e-&lt; *e(C)u-izango genuke (FHV, 465); baina, horrekin batera, u-&lt; *eu-(&lt; *eo) bilakabide orokor eta zaharragoa ere izango genuke: unhain : ulhain (&lt; *enonani; <ref type="bibr" target="#b64">Lakarra 2011</ref><ref type="bibr" target="#b64">Lakarra [2014</ref>: 190), ugatz (&lt; *e-o-atz &lt; *edo(n)hatz; <ref type="bibr" target="#b64">Lakarra 2011</ref><ref type="bibr" target="#b64">Lakarra [2014</ref>: 190) eta uda (&lt; *eguda; <ref type="bibr">Lakarra et al. 2019: 171)</ref>. Hortaz, hori guztia bereizirik, item lexiko gutxi batzuei eragiten dieten hainbat bilakabide txiki izango genituzke, sistematikoak ez direnak, eta horrek gehiegizkoa ematen du EBZren haustura sakon bat planteatzeko.</p><p>Antzera gertatzen da baltz eta barri aldaera lexikoekin. Aldaera lexikoak dira eta, are, e &gt; a oso ohikoa da, munduko hizkuntzetan, batez ere dardarkari aurrean <ref type="bibr">(Zuloaga 2020: 166-167;</ref><ref type="bibr">2022: 65-68)</ref>. Hori dela eta, berrikuntza horiek ez dute berezitasunik eta ez dute banaketa dialektal esanguratsu eta sakonak proposatzeko aproposak ematen.</p><p>Laburbilduz, Reguero-Ugartek lan filogenetiko bat egiten du, baina, aukeratutako corpusaren izaerarengatik, lortzen dituen ezaugarriek ez dute hizkuntz iragazkia betetzen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.1.3.">Aldai (2014)</head><p>EBZren haustura mendebaldean gertatu zela landu dutenen artean, <ref type="bibr" target="#b12">Aldai (2014)</ref> ere sartu behar da. Hedadura diferenteetako ezaugarriak lantzen ditu eta, beraz, ez da argi gelditzen zer hedadura ematen dion mendebal orokorrari: batzuk egun EAE diren hiru probintzietan lekukotutakoak dira, Araban, Bizkaian eta Gipuzkoan alegia -cf. eremu hori eta aipatu berri dudan Reguero-Ugartek planteatzen duen eremu zabalagoa-; beste batzuk, ordea, Zuazoren mendebalera, hau da, ohiko (arabera-)bizkaierara mugatuago agertzen dira. Gainera, egia da ez duela expressis verbis esaten bere ustez EBZren haustura mendebaldeko dialektoen eraketarekin gertatu zela. Hala ere, ex silentio besterik ez bada ere, nire ustez Aldairen (2014: 222) hitzok nahiko argiak dira: Si el origen de los dialectos vascos modernos hay que situarlo a partir de los siglos vi-vii, a más de uno le parecería que la historia de la fragmentación dialectal vasca debería ser bastante fácil de contar; es decir, que casi podemos llegar a abarcarla en el periodo histórico. Sin embargo, aunque efectivamente la dialectalización del euskera es mucho más reciente de lo que hasta hace poco se había llegado a imaginar, la cuestión sigue siendo muy compleja y desconocida.  <ref type="bibr">Barbero &amp; Vigilen (1965</ref><ref type="bibr">) ereduan oinarriturik, EBZ v-vi. mendeetan kokatzeko Mitxelenaren (1981</ref> proposamenarekin gertatutakoa: jada ez dago EBZ v-vi. mendeetan kokatzeko (hizkuntzaz kanpoko) argudiorik, baina EBZren beharrak hor dirau-. <ref type="bibr">18</ref> Bestalde, Abaituaren (2018) lanak badu beste arazo bat: ez du euskal ondare filologikoarekin lan egiten, baizik eta 1980ko hamarkadan jasotako EHHAko datuekin. Hau da, iragazki kronologikoa guztiz hausten du. Gainera, EHHAko zatirik handiena aldaera lexikoak dira eta, beraz, hizkuntz iragazkia ere ezin bete lezake.</p><p>Gorrotxategik (2013) Mitxelenaren (1963) Lenguas y protolenguasi egindako iruzkin honek arazoa laburbiltzen duelakoan nago -ikusi, halaber, <ref type="bibr">Gorrotxategi 2001, (euskal)</ref> hizkuntzalaritza historikoa egiteko metodo eta baliabide estandarrez, eta datazioaren garrantziaz-:</p><p>[Q]uien quiera dedicarse a la prehistoria de una lengua y a la reconstrucción de sus fases más antiguas debe conocer perfectamente la historia documentada de esa lengua. Toda reconstrucción realizada por advenedizos, personas que no conozcan bien su historia, será deficiente y correrá el riesgo de proponer hipótesis aventuradas. <ref type="bibr">(Gorro txategi 2013: 615)</ref> Ez dut uste euskal ondare filologikoaren eta dokumentazioaren gainetik ibili gabe ere Abaituaren (2018) hipotesiak (asko) aldatuko liratekeenik, kanpo-historiatik ateratakoak dira eta. Aldiz, 1980ko hamarkadan bildutako EHHAko isoglosak, hots, datuak, iraganean bere horretan proiektatzen dira, aldatu izan ez balira bezala: balio pankronikoa ematen zaie. Jauzi logiko hori -xx. mende bukaerako datuak bere horretan iraganean proiektatzea-metodologikoki arazotsua da, xx. mendearen amaierako datuak xx. mendekoak direlako. <ref type="bibr">Abaitua (2018: 304)</ref> ere horren jakitun da: "Pero una cosa es la causa de la distribución geolingüística, es decir, la datación de la isoglosa, y otra el momento en que se producen los fenómenos lingüísticos que se recogen en los atlas. Los dos hechos, el origen del fenómeno y la fijación de la isoglosa, no tienen por qué ser sincrónicos".</p><p>Arazotsua dirudi xx. mendeko datuak erabiltzea, dataziorik gabe, eta onarturik kronologia desberdinetakoak daudela eta ez dutela zertan denboran bat etorri.</p><p>Gainera, ezaguna dugun hizkuntzaren historiak -baita oin-oharretan jasotzen dituen lanaren ebaluatzaileek ere-horrelako metodoak erabiltzearen arriskuez ohartarazten gaitu. Adibidez, bere lanean 2. patroia x-xii. mendeei lotzen zaie, zeintzuetan hau gertatuko litzatekeen: "la reconexión del núcleo de Pamplona con el área occidental" <ref type="bibr">(Abaitua 2018: 302)</ref>. Interpretazio hori egiten du, patroi hori duten ezaugarriak nahiko homogeneoak direlako: Iruñetik ezker mendebalde osoan forma bat agertzen da, eta Iruñetik ekialdera, beste bat. Besteren artean, "asko / anitz" eta "daukat / badut" mapak erabiltzen ditu Abaituak (2018: 294) mendebalde vs ekialde banaketaren erakusgarri. Beharbada, EHHA egin zen garaian hori zen banaketa, baina errealitate historikoa oso bestelakoa da.</p><p>Lehenengoari dagokionez, Orotariko Euskal Hiztegian begiratuz gero, asko ia orokorra da, nahiz eta hegoaldekoan maizago erabili. Anitz Iparraldeko eta Nafarroa Garaiko tradizioek arrunt dokumentatzen dute, baina, besteak beste, Lazarragak bazerabilen mendebaldean: Biotzau jo deustazu anetx fletxaz <ref type="bibr">(Bilbao et al. 2020b: 219)</ref>. Lekukotasunaren fidagarritasuna alde batera, Bonaparterendako itzuli zen Urdiaingo dotrinan ere anitz lekukotzen da, xix. mendean eta EHHAk dakarrena baino 40-50 kilometro mendebalderago (cf. Urrestarazu-Porta 2022 ohar baterako).</p><p>Antzera, *edun-en adizkiak ez dira ezezagunak izan mendebaldean duela erlatiboki gutxira arte; xix. mendera arte bai behintzat. Esaterako, Lazarragarenean adibideak aurki daitezke: ez dot entendimenduric <ref type="bibr">(Bilbao et al. 2020b: 89)</ref> ateratzeko. Hori guztia ikusirik, zilegi da Abaituaren (2018) mendebala (VOcM) zer den galdetzea, aipatzen dituen ezaugarriak ez badatoz ondare historikoarekin bat. Ikusi, orain, <ref type="bibr">Zuloaga (2022: 173. oin-oharra)</ref>, ezaugarri bakoitzaren hedadura geografikoaz eta <ref type="bibr">Camino (2022: 221-222)</ref>.</p><p>Abaituaren <ref type="formula">(2018)</ref>  Azkenik, metodologia bereko beste lan bat argitaratu berri du Abaituak <ref type="formula">(2020)</ref>, EHHAtik ateratako Gipuzkoako zenbait berrikuntzaren inguruan. Metodologia berbera denez, kritika eta arazoak ere berberak dira. Metodologia ez ezik, datuak ere errepikatzen dira: adibidez, gorago iruzkindu ditudan "asko / anitz" eta "eduki / *edun" mendebaldea eta ekialdea bereizteko ezaugarrien artean aipatzen ditu berriro ere <ref type="bibr">(Abaitua 2020: 53)</ref>.</p><p>Konpara bitez, helburuen, metodologiaren eta emaitzen aldetik, Abaituaren lana eta liburu berean argitaratutako Ariztimuñoren (2020) eta Reguero-Ugarteren (2020) lanak; lehenengoak gipuzkeraren zenbait ezaugarriren isoglosak nola aldatu diren aztertzen du -Abaituarenean ez du ematen horretarako aukerarik dagoenik ere-, eta bigarrenak goi-nafarrerako zenbait berrikuntzaren kronologia erlatibo-absolutua egiten du lekukotasunetan oinarriturik.</p><p>Laburbilduz, Abaituaren (2018) lanak ez ditu 2. atalean finkatutako oinarri metodologikoak betetzen. Hasteko, kanpo historiatik abiatzen da. darabiltzan datuak xx. mendekoak dira eta, beraz, ez dute iragazki kronologikoa inondik inora betetzen. Gehienak aldaera lexikoak dira eta, beraz, hizkuntz iragazkia ere ez dute betetzen. Azkenik, xx. mendeko datuak erabiltzearen ondorioz, hedadura geografiko historikoak ezin ditu ezagutu, erakutsi bezala aldatu baitira, eta beraz, iragazki geografikoa ezin da ebaluatu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.1.5.">Lehen haustura gertatu zela defendatu dutenen laburpena</head><p>Erakutsi dudan moduan, euskararen lehen haustura dialektala mendebaldean gertatu zela hainbatek proposatu duten arren, oso talde heterogeneoa da eta oro har ez dituzte lehen haustura non gertatu zen ikertzeko irizpide metodologikoak betetzen.</p><p>Batetik, mendebala oso desberdin definitzen dute, hizkuntz ezaugarriak alde batera, geografiaren aldetik ere. Zuazorendako <ref type="bibr">(2003, 2008, 2010a, 2014, 2017)</ref> bizkaiera da -Araba hor sarturik-. Abaituarendako (2018) Iruñea bertatik ezker hasten da. <ref type="bibr">Reguero-Ugarterenak (2012a</ref><ref type="bibr" target="#b89">, 2012b</ref> eta Aldairenak (2014) badute Zuloagak (2020) definitu duen MEZren gutxi gorabeherako hedadura: Gipuzkoako ipar-ekialdetik eta Nafarroako mendebaldetik ezker. <ref type="bibr">Bestetik, Abaituak (2018</ref><ref type="bibr">) eta Zuazok (2003</ref> ez dute iragazkietako bat bera ere betetzen. <ref type="bibr">Reguero-Ugartek (2012a</ref><ref type="bibr" target="#b89">, 2012b</ref> iragazki geografikoa eta kronologikoa guztiz betetzen ditu, baina ez hizkuntz iragazkia, oro har corpusaren izaerak ezinbestean aldaera lexikoetara mugarazten duelako. Irizpide guztiak betetzetik gertuen dagoen lana Aldairena (2014) izan daiteke, baina zaharkiturik gelditu da ezaugarriak xeheago aztertuz eta interpretazioak hobetzen joan diren heinean eta, batez ere, Manterolaren <ref type="formula">(2015)</ref> eta Zuloagaren (2020) tesi-lanen ondoren -ikus orain Zuloaga (2022)-; bestalde, gainerakoak ez bezala, Aldairen ikerketaren helburua mendebala da eta, beraz, ez dio gainerako eremuari erreparatzen, ezta EBZren hausturaren inguruko hipotesi agerikorik egiten ere. <ref type="bibr" target="#b64">Lakarra (2011</ref><ref type="bibr" target="#b64">Lakarra ( [2014</ref>) eta <ref type="bibr" target="#b34">Camino (2011</ref><ref type="bibr" target="#b34">Camino ( [2014</ref>  <ref type="bibr" target="#b64">Lakarra (2011</ref><ref type="bibr" target="#b64">Lakarra ( [2014</ref>) eta <ref type="bibr" target="#b34">Camino (2011</ref><ref type="bibr" target="#b34">Camino ( [2014</ref>). Hala ere, Caminok hipotesi hori aldezten duela ematen badu ere, ez da Lakarra bezain esplizitua, besteak beste EBZren haustura noiz eta nola gertatu zen ez delako bere helburua. Caminoren <ref type="bibr">(2011[2014]</ref>) helburua ekialdeko mintzoen arteko elkar eraginak aztertzea da, zer mintzok partekatzen duten zer ikustea <ref type="bibr">(cf. Lakarraren (2011</ref><ref type="bibr">(cf. Lakarraren ( [2014</ref>) edo Abaituaren (2018) helburuak).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.2.">EBZren haustura ekialdean:</head><p>Horretarako, ezaugarri asko aztertzen ditu eta zer hedadura (izan) duten zehazten du. 140 ezaugarri, berrikuntza, arkaismo eta hautu artean.</p><p>Aldiz, EBZren haustura ikertzeko, guztiek ez dute ez garrantzi ez zahartasun bera eta Caminok ez du sakontzen berrikuntza bakoitza noizkoa izan zitekeen. Alde horretatik, nolabaiteko fenetikotasuna du Caminoren lanak, banaketa zaharrena zein den argudiatzeko arreta berrikuntzen kopuruan paratzen baitu. <ref type="bibr">Jakina, Caminok (2011</ref>) testuetarako gertatutako berrikuntzak lantzen ditu eta, alde horretatik, azken ondorioa ateratzeko arreta berrikuntzen kopuru handiari erreparatzen badio ere, 2. atalean finkatutako irizpideen arabera jarduten du: testuek ahalbidetzen duten zaharrenak dira eta zein bere garaian tratatzen du, ezaugarri bakoitzaren alderdi geografikoa xehetzen du eta tratatzen dituen ezaugarrietatik askok hizkuntz iragazkia gainditzen dute. <ref type="bibr">19</ref> Gainera, Caminok <ref type="bibr">(2011[2014]</ref>: 147-148) ohartarazten du "Nortasun berezi hau Zuberoako euskarak noiz garatu zuen zail da jakitea, hau da, Euskara Batu Zaharra izan zen garaitik honat noiztsu hasi zen gauzatzen, baina beharbada ez dagokio hain aldi zaharrari, beharbada uste dugun baino berriagoak dira". Edozein kasutan, ez da ahaztu behar Caminoren lanak beste helburu batzuk dituela eta EBZren hausturaz aipamen txiki bat baizik ez dela egiten.</p><p>https://doi.org/10.1387/asju.24118</p><p>Bestalde, hausturarako ezaugarri on batekin nahikoa da <ref type="bibr" target="#b31">(Bowern &amp; Koch 2004)</ref>, finkatu ditugun irizpideak gainditzen baditu behintzat, eta horretan saiatzen da <ref type="bibr" target="#b64">Lakarra (2011</ref><ref type="bibr" target="#b64">Lakarra ( [2014</ref>). Lakarraren arabera, n eta l ondoren herskari ahoskabeak izatea (T /n, l_) EkEZ definitzeko berrikuntza oso zaharra da, Guiterren (1989) kronologian oinarriturik 300. urtearen ingurukoa hain zuzen, eta, beraz, iragazki kronologikoa beteko luke. Lakarrak <ref type="bibr">(2011 [2014]</ref>) defendatzen duen hipotesiaren abiapuntua Mitxelenaren (FHV, 355) hitzok dira:</p><p>Hay dos maneras de interpretar estos hechos [hau da, T /n, l_]. Las más natural parece pensar que en vascuence se ha llegado a neutralizar la oposición sorda / sonora detrás de nasal y l sonorizando en esa posición las oclusivas sordas con posterioridad a la introducción de los primeros préstamos latinos: ronc. y sul. serían por tanto dialectos arcaizantes que han conservado mejor el antiguo estadio de cosas. Pero acaso se pueda suponer también que se trataba de un tipo de lengua en que la oposición quedaba suspendida en esos contextos, en los cuales las oclusivas se pronunciaban uniformemente sonoras (o lenes). En este supuesto, las nuevas formaciones y los préstamos que presentaban grupos formados por nasal o l + oclusiva se seguirían acomodando por bastante tiempo al tipo normal, siendo el roncalés y el suletino [uler bedi EkEZ, hots, erronkariera eta zuberera eman zituen aitzin-dialektoa] los dialectos que primero abandonaron esta práctica. Esto quiere decir, naturalmente, que alte y galte p.ej. eran palabras complejas que habría que analizar al-te y gal-te del mismo modo que según toda probabilidad igante era igan-te. <ref type="bibr">Lakarraren (2011</ref><ref type="bibr">Lakarraren ( [2014</ref>: 205-206) arabera, Mitxelenak proposatzen dituen balizko bi interpretazioetan bigarrena da ona, nahiz eta Mitxelenak ez zuen bide hori inoiz garatu. Hitz barruan fonologikoki ahulak ziren herskariak jatorriz AEn fonetikoki ahostunak zein ahoskabeak izan, fortis/lenis sistematik ahostun/ahoskabe sistemara igaro ondoren, ahostunak ziren. Aldiz, txistukari ondoren ahoskabetuko lirateke -eta beharbada diptongo ondoren-: D &gt; T /S_. Ahoskabetze hori orokorra da euskaraz, baina, EkEZn, txistukariaren eraginez ahoskabeturiko forma horiek oinarrizko morfematzat jo, eta gainerako testuinguruetara hedatuko lirateke, baita n eta l ondora ere. Horrela ikusirik, berrikuntza berezia genuke, eta ez hots-aldaketa arruntzat hartu beharko litzatekeen T &gt; D /n, l_ gertatzea. Izan ere, Blevinsen (2004: 109) hots-aldaketaren teorian koartikulazioaren eraginez gertatutako hots-aldaketa fonetikoki naturala litzateke herskari ahoskabeak ahostuntzea. 20 Beraz, hizkuntz iragazkia aseturik geldituko litzateke. Ondoko https://doi.org/10.1387/asju.24118 deko euskal mintzoetan maileguetako n eta l ondorengo herskariek etimologikoki zegokien ahostuntasuna ukipenagatik berreskuratu bazuten, eragina berankorra zela pentsa daiteke, inguruko haran bearnesetan bezala.</p><p>Azkenik, berankortasunaren aldeko argudiorik hoberenak ditugun lekukotasunak berak dira. Izan ere, arestian aipatutako Etxart-Ros gutunerian ahostunen adibideak aurki daitezke, eta, lekukotasun horretatik kanpo ere, ahostunaren adibideak aurki daitezke. Belapeirek, gordetzen dugun Zuberoako egilerik zaharrenetako batek, alde zerabilen <ref type="bibr" target="#b34">(Camino 2011</ref><ref type="bibr" target="#b34">(Camino [2014</ref> Horrez gain, Urrestarazu-Portak (2021: 63) ohartarazten duenez, alomorfoak egungo hizkuntzan ere bizirik daude (ongi vs gaizki) eta horrek berranalisietarako atea zabalik uzten du. Izan ere, euskal hizkera askotan daude herskari ahoskabeak n eta l ondoren; adibidez, prospektiboko morfema -ko da egun Burundan helduen artean (pa[ra]tuko eta emanko), baina oso berrikuntza modernoa da edadekoek -en / -ko oposaketari eusten diotelako, hau da, pa[ra]tuko eta emain &lt; emanen esaten dute <ref type="bibr" target="#b114">(Zuazo 2010b)</ref>. Antzeko prozesu batek lagundu zezakeen ekialde murritzeko nonko eta alte bezalakoak sortzen eta finkatzen Urrestarazu-Portaren (2021) arabera.</p><p>Bestalde, Rojok (2022a, 2022b) ere berrikuntzatzat du n eta l ondoko ahoskabeen hedatzea, baina ez dator Urrestarazu-Portaren (2021) argudioekin guztiz bat, prozesua euskaraz orokortzat baitu, gaskoieratik aske, eta, beraz, euskal dialektoen artean gradu desberdintasun bat ikusten du.</p><p>Euskal Herri osoko lekukotasunak azterturik, Rojok nabarmentzen du n eta l ondoko ahoskabeak dialekto guztietan dokumentatzen direla, maileguetan zein ondare zaharreko hitzetan, eta beraz Urrestarazu-Portak (2021: 63) ondareko hitzetan nabarmendutako alternantziak maileguetara ere hedatzen ditu. Ondarekoetan zaharrak ahostunak izanik, ahoskabeek ahostunen lekua hartzen joatea joera orokortzat du, joera hori ekialdeko mintzoetan indartu delarik. Gauzak horrela, berrikuntzak esklusibotasuna galduko luke eta, beraz, kronologia alde batera utzirik ere, ez luke EBZren haustura bat planteatzeko balioko.</p><p>EBZren haustura ekialdean gertatu dela defendatu duten lanak laburbiltzeko, erakutsi dut lan fenetiko eta filogenetiko bana egin direla. Hala ere, Caminorena <ref type="bibr">(2011[2014]</ref>) ez da guztiz fenetikoa. Izan ere, azken ondorioa -lehen haustura ekialdean gertatu zen-aldarrikatzeko ezaugarrien kopuruan paratzen du arreta, baina ezaugarrien azterketa guztiz historikoa da eta, oro har, aztertzen dituen ezaugarriek iragazki kronologikoa, geografikoa eta hizkuntzazkoa betetzen dute. <ref type="bibr">Bestetik, Lakarrarena (2011</ref>) guztiz filogenetikoa da eta a priori iragazki guztiak betetzen dituen ezaugarri bat proposatzen du lehen hausturarako, ondoko ikerketek kronologia berriagoa proposatu duten arren (Urrestarazu-Porta 2021; Rojo 2022b).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>euskal dialekto ezagunen iturri komuna, EBZ, ez dago gugandik aurretik -eta ondoren-hainbatek uste izan duten bezain urruti. Euskal hizkeren arteko batasun handiaren aldeko ebidentzia hainbat alderditan aurki daiteke, Mitxelenak nabarmendu bezala. Fonologia, oinarrian, berdina da eta aldeak txikiak eta modernoak dira; hain modernoak dira ezen ia-ia datazio absolutuak ere egin ditzakegun. Hori da adibidez (hego-)mendebaldeko hasperenik ezaren eta ekialdeko /y/-ren kasua. 12 Antzekoa esan liteke morfologiaz. Izen morfologia oso antzekoa da eremu osoan eta dibergentziak osagai komunekin egindakoak dira. Adibidez, mendebaldeko ablatibo -rean (gen. -(r)e + ines. -an) eta soziatibo -gaz (bizidunetako eta (ergatibo) pluraleko -ga-+ instrumental -z). Aditz morfologian, morfema gehienak partekatuak dira; esaterako, ergatibo pluraleko -de &gt; -de &amp; -te &amp; -e. Aditz laguntzaileak ere partekatuak dira (izan, *edun, *edin), eta orokorrak ez direnak ere beste inguru batzuetan dokumentatzen dira (hala nola *ezan eta *nin mendebaldean; Mounole eta Lakarra 2018: 431, 433) edo, berriz, osagai komunekin osatutakoak dira. Adibidez, *eradun-en *(e)dun eta -ra-(cf. erabili, eraman &amp; eroan &lt; *eraoan; FHV, 177) orokorrak identifika daitezke (Mounole 2014 [2018]: 452. oh.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>-ak : ek. -ek eta mend. -tza : ek. -tze atzizkiek, nahiz eta bi ezaugarri horiek ipar-ekialderago lekukotu. Esan bezala, Zuazoren lanarekiko aurrerapauso metodologikoa oso garrantzitsua da, lekukotasun zaharrak -Erdi Arokoak-aztertzen dituelako eta dagokion garai historikoan interpretatzen dituelako. Aldiz, Zuloagarendako (2020: 699, 2022: 65-71) baztergarriak dira mend. u-: ek. i-, barri eta baltz. Mend. u-: ek. i-ezaugarriaren egokitasuna alde batean uzteko https://doi.org/10.1387/asju.24118</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>: 104) eta toponimian biak aurki daitezke: elizalde eta elizalte (Orpustan 2019: 151), Altzürükun Uhalde eta Uhalte (Orpustan 2019: 305) eta Atharratzen Uhalde eta Duhaut gaskoitua (Orpustan 2019: 311); Urrestarazu-Portaren (2021: 63) arabera, toponimiako -arte-k n eta l ondoko ahoskabeak indartzen lagundu zezakeen, baina beharbada -alt &amp; -aut kognatu gaskoituen eragina ere ez da alde batera utzi behar. Ahostunen lekukotasunak, printzipioz, ahoskabeen zahartasunaren alde egin beharko luke, baldin eta azken urteotan gailentzen ari den berrikuntzak direlako hipotesia zuzena bada.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>ropa indigena nolakoa izan zitekeen -eta nolakoa ezin zen izan-gogoeta egiten du eta euskara-indoeuropera bezalako ahaidetasun-hipotesiei oso leku txikia uzten die. Ez du ematen iragazki geografikoa gaindi dezaketenik eta, beraz, euskara Kaukasoarekin eta indoeuroperarekin lotzeko hipotesiek aurrera egin dezaketenik. egin behar dira -aukeran, baita absolutuak ere-, eta berrikuntza bakoitza dagokion garaian eta egoera linguistikoan kokatu behar da.</figDesc><table><row><cell>tiboak</cell></row></table><note>7 Ondartzak (2022) araberako zenbait ezaugarri eztabaidatzen ditu eta ikusten du guztiak -edo ia bat ere ez-ez direla eremu osoan lekukotzen. Horrek azalpen diakronikoa beharko du, hau da, berri- kuntza bakoitza dagokion garaian kokatu beharko da eta beharbada horrek ezaugarrien banaketa azal- tzen lagunduko du. Izan ere, ematen du ezaugarri horien sorgune eta abiapuntua Araba dela. Ikusi, orain, Zuloaga (2022), batez ere 273-278. orrialdeak.https://doi.org/10.1387/asju.24118</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>). Nik Caminoren (2009: 146-147) lanetik hartu ditut: I. Bi egoera linguistiko daudenean, eta horietako bat bestea baino lehenago lekukotzen denean, hori izan ohi da zaharrena. II. Eremu geografiko isolatuek, komunikazio-bideen oztopo gehiago dituztenek, arkaismo gehiago bildu ohi dituzte oztoporik gabeko komunikazio-bideak dituztenek baino. Fase sparitan dauden ezaugarriek emankor direnek baino aukera gehiago dituzte arkaismo izateko. Horiekin batera, aldakortasunaren irizpidea ere erabili izan da ezaugarri jakin bati zahartasuna aitortzeko, erlatiboa bederen. Irizpide horren arabera, zenbat eta aldakortasun dialektal txikiagoa izan ezaugarri batek, orduan eta aukera handiagoak ditu zaharra izateko; eta alderantziz, zenbat eta aldakortasun dialektal handiagoa izan, orduan eta aukera handiagoak ditu modernoagoa izateko. Aldiz, irizpide horiek guztiak joerak dira, eta ez arau, elkarri kontrajarriak egon litezke eta, horregatik, kontu handiz interpretatu behar dira datuak. Irizpide horien eta beste batzuen inguruan ere ezin utzizkoa da Mitxelenaren (1963) Lenguas y protolen guaseko "Métodos y criterios" kapitulua.</figDesc><table /><note>III. Bazterretan (periferian) erdialdeko eremuetan baino arkaismo gehiago bildu ohi dira. IV. Ezaugarriak zenbat eta hedatuago, hainbat eta zaharrago izan ohi dira. V. Hizkuntzak hedatu diren lurralde berria(goa)k berritzaileago izan ohi dira.https://doi.org/10.1387/asju.24118 VI.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>), formulatzen duen moduan, hizkuntz aldaketaren inguruko hipotesia da: "Haren [hots, arbolaren irudiaren] ordez, uhinaren irudia jarri nahi dut; uhinok eraztun kontzentrikoetan urruntzen dira erdigunetik, eta zenbat eta urrunago orduan eta ahulagoak dira". 11 Horren arabera berrikuntzak, uhinen moduan, zirkulu kontzentrikoak eginez hedatzen dira eta, erdigunetik urrundu ahala, indarra galduz doaz, iristen ez diren arte. Horraino, berrikuntzak nola hedatzen diren azaltzeko hipotesi bat da, eta, beraz, egiaztatu beharrekoa. Are gehiago, hipotesi hori hizkuntz aldaketaren inguruko teoria orokorrean txertatu beharko litzateke, besteak beste hots aldaketa erregularren erregulartasunarekin batera, edozein hizkuntzatako berrikuntzak nola hedatzen diren azaltzeko hipotesia baita. Horren bidez, hizkuntzetan aurkitzen zuen zatikako banaketa azaldu nahi zuen Schmidtek (1872).Esan bezala, Schmidtek (1872) Wellentheorie delakoa Stammbaum edo arbola genetikoaren aurka egiteko proposatu zuen. Ordea, ez da kritika (egokia). Zuhaitzak, edo zehatzago arbolaren adarkatzeak, filiazio hipotesiak dira eta berrikuntzak nola hedatu diren ez zaio axola. Hau da, adarkatzeak honako hau trinkotzeko modua dira: lehen bateratua zegoen aitzin-hizkuntza edo aitzin-dialektoa hautsi egin zen, A eremuan X berrikuntza sortu eta hedatu zelako eta B eremuan Y berrikuntza sortu eta hedatu zelako edo, besterik gabe, ez zelako X gertatu -arkaismo bateratzailea-. Schmidten hipotesia, ordea, berrikuntzen hedapenaren inguruko hipotesia da, esan bezala, Schmidtek nahi zein ez, berrikuntzak nola hedatzen diren azaltzen du, baina ez dakar berekin filiazioaren inguruko kontsideraziorik.Bestalde, ikertzaile batzuek mapa batean hainbat ezaugarrik estaltzen duten eremua marrazteari, Bloomfieldek (1933: 316) dakarrenaren moduko mapak egiteari, eta elkar nola gurutzatzen duten ikusteari esaten diote uhin teoria. Esan gabe doa hizkuntz ezaugarri bat(zuk) mapa batean irudikatzea ez dela teoria edo hipotesi, datuak aurkezteko modu bat baizik, eta, hutsean, ez du ezer azaltzen.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>). Horrez gain, eratorpena eta konposizioa ere komunak dira, baita azken horri loturiko bilakabideak ere; esaterako errege + ihera &gt; erret ihera bezalako prozesuak. Gainera, horrek post quem data bat eman diezaguke, baliabide horiek ez ditugulako akitanieraz aurkitzen, eta bai x. mendearen inguruko datuetan. Ebaluatzaileetako batek nabarmendu bezala, xx. mendearen inguruko datuek ante quem data bat ere finkatzen dute. Bukatzeko, latineko -eta erromantze goiztiarretako-maileguek ere batasuna erakusten dute, euskarara egokitzeko moduan eta ondorengo euskararen barruko bilakabideetan. Adibidez, latineko hitz hasierako herskariak ahostundu dira (T-&gt; d-): lat. ak. pace(m) &gt; eus. bake; lat./errom. ak. turri(m) &gt; eus. dorre; muta cum liquida taldeak desegin dira (lat. ak. cruce(m) &gt; eus. gurutze; lat./errom. ak. planu(m) &gt; eus. lau); 13 latineko igurzkaria euskarazko lepokariarekin egokitu da (lat. corpus &gt; eus. gorputz; lat. ak. causa(m) &gt; eus. gauza); latineko albokaria eta albokari geminatua euskarazko taparekin eta albokariarekin egokitu dira hurrenez hurren (lat. ak. gula(m) &gt; eus. gura; lat. ak. solu(m) &gt; eus. zoru; lat. ak. bal.laena(m) &gt; eus. balea; lat. ak. castellu(m) &gt; eus. gaztelu); eta bokalarteko sudurkari hobikariak hasperendu dira -eta ondoren batzuk kokapenez mugitu edo desagertu-eta sudurkari hortz hobikari geminatua sudurkari hortz hobikariarekin egokitu da: lat. ak. arena(m) &gt; eus. *areha &gt; harea; lat. ak. anate(m) &gt; eus. ahate; lat. ak. annona(m) &gt; eus. an(h)oa. Batasun handi horrez gain, baina, dibergentziak ere badaude eta hor dago gakoa. Mitxelenaren (1981: 295) arabera, txikiak ziren dibergentzia horiek:</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>). dixonen ereduan, hizkuntzen barne eta kanpo historian oreka garai luzeak eta puntuatze garai laburrak egongo lirateke. Oreka aldietan, hizkuntzak gutxi(ka) aldatuko lirateke eta, gainera, aldaketa hori, neurri handi batean, hizkuntzen arteko mailegatzearen ondorio izango litzateke. Horrela, ezaugarriak hedatu eta hizkuntz .24118 eremuak sortuko eta familia genetikoen arteko mugak lausotuko lirateke. Azkenean, konbergentziaz, prototipo komun moduko bat -koinéa?-sortuko litzateke. Aldiz, puntuatze aldietan, kanpo faktoreen eraginez (teknologia berriak garatzea, inbasioak, migrazio handiak, etab.), hizkuntzak asko eta azkar aldatuko lirateke eta zuhaitz filogenetikoak irudikatzen dituen moduko etenak sortuko lirateke. Ez ditut dixonen proposamenaren arazo guztiak aletuko -ikusi, laburpen baterako, Bowern (2006)-, baina beharrezkotzat dut azaltzea zergatik ez den, ene ustetan, oreka puntuatuaren eredua onargarria EBZren kasuan aplikatzeko. Lehenik eta behin, dixonen proposamenaren aurkako kritikarik handiena Australiako hizkuntzalarien baitatik dator. Izan ere, dixonek (1997, 2002) Australiako hizkuntzetarako proposatu zuen oreka puntuatua. Aldiz, inguru haietako hizkuntzen historia ikertu dutenek erakutsi dute dixon hainbat aurreiritzitatik abiatu zela. , zenbait hizkuntza maia edo berriki bereizi diren zenbait zapoteko. Bestetik, elkarren aldamenean eta oreka aldietan luzez egon diren hizkuntzen adi-bideak ematen ditu, zeinen artean ez den ia mailegatzerik egon; besteak beste, Ipar Amerikako hego-mendebaldeko hizkuntza athabaskarren (navajoa eta apatxea) eta athabaskarrak ez diren aldameneko hopi, zuni, keresa eta tano taldeen artean ez da ia mailegatzerik egon. Puntuatze aldietan gertatutako difusioen adibideak ere jasotzen ditu; esaterako, eskandinaviarrek eta normando frantsesek britainiar uharteak konkistatu zituzten eta orduko ingelesak hitzak, hotsak eta izenordainak mailegatu zituen, eta konplexutasun morfosintaktikoa gainerakoekin berdindu zuen.</figDesc><table><row><cell>Adibidez, dixonek onartzen zuen Australiako hizkuntzetan ezin zirela hizkuntzalari-tza historiko estandarreko metodo eta teoriak aplikatu, baina, Bowernek &amp; Kochek (2004) argitaraturiko liburuan ikusten den moduan, Australiako hizkuntzen azter-keta historikoa abian da eta emaitzak lortzen ari dira, beste tradizioetan erabilitako metodo eta irizpide berak erabilirik. Aitzin-hizkuntzak berreraikitzen, azpitaldeak, mugimenduak, eta abar aurkitzen ari dira, eta horrek guztiak agerian uzten du dixo-nen iritziak hizkuntzalaritza historikoa egiten saiatu gabe ere eraikiriko usteak baino ez zirela (Bowern &amp; Koch 2004; Bowern 2010; McConvell &amp; Bowern 2011). Bestetik, Australiako hizkuntzekin izan ditzakeen arazoez harago, hizkuntzen bila-kabideaz dakigunak ere horrelako egoera bat, zeinetan hizkuntzak gutxi eta batez ere maileguen bidez aldatuko liratekeen, anomalotzat jo beharko genukeela iradokitzen du. Hurbileko tradizio bat hartuz, zenbat aldatu dira hizkuntza erromantzeak azken 2000 urteetan? Latina zena guztiz urtu da eta hamaika aldaera sortu, garatu, elkartu, eta abar egin dira. Argudioa dixonen hipotesira itzulirik, ez da oreka aldirik egon (hego-)mendebaldeko Europan azken 2000 urteetan? Niri bat otu zait: azken men-deetan hizkuntzak gutxi aldatu dira eta aldaera asko desagertuz joan dira, haien lekua estatuetako hizkuntzek hartu dutelako. Gainera, hezkuntzaren unibertsalizazioak pisu handia izan du prozesu horretan. Eredu hori guztiz baztergarria da munduko beste bazter batzuetan duela milaka urte oreka aldiak gertatu zirela pentsatzeko, anakronismo handiegietan sartu gabe. Are gehiago, latina berdin mantendu zen latin etiketa daraman garai osoan? Lati-nistek latin arkaikoa, klasikoa eta postklasikoa bereizten dituzte gutxien-gutxienez. Beste horrenbeste egiten da (Ingalaterrako) ingelesaren historiarekin. Labur esanda, ongi ezagutzen ditugun historiek oreka aldi horien benetakotasuna zalantzan jartzeko nahikoa susmo sorrarazten dituzte. Besterik da konbergentzia garaiak egotea eta garai horietan koiné modukoak sortzea -edo aldaera prestigiodunek prestigiorik gabeak ezabatzea-, baina hizkuntzak etengabe aldatzen dira, eta ez du ematen baliabide na-gusia mailegatzea denik. Europatik kanpo ere, Campbellek (2006) dixonen proposamenari aurre egiteko zenbait kontradibide jasotzen ditu -eta oreka puntuatuaren sorburua den biologian ere kontzeptu zalantzagarria dela esaten du (Campbell 2006: 14)-. Batetik, oreka aldietan aldatzen eta familietan bereizten egon diren hizkuntzen adibideak ematen rudi gutxi edo ezer gutxi aldatu diren hizkuntzetan pentsatzea eta, are gehiago, al-datzeko modu ia bakarra mailegutza izatea. Esaterako, Harrington et aliik (2019) Antartikara zihoan espedizio bateko partaideekin esperimentu bat egin zuten; tal-dea nazioartekoa zen eta hiztun guztiek ez zuten lehen hizkuntza bera. Joan aurretik hainbat ahoskeraren zenbait alderdi neurtu zituzten. Itzultzean, berriz ere neurtu zi-tuzten eta aurkitu zuten ahoskerak berdindu ez ezik, norabide berean aldatzen hasi zirela. Halaber, Labovek (2020) erakutsi du nola joan den Filadelfiako ingelesean / eiC/ diptongoa aldatzen, oharkabean eta era erabat erregularrean. Hau da, prozesu horietan ez dago mailegutzarik gizarte-taldeen artean Labovenean eta parte-hartzai-leen artean Harrington et aliienean, eta ematen du hizkuntzak etengabe aldatzen (ari) ditu; adibidezGaratze bidean diren aldaketen inguruan dugun ezagutzarekin ere, ezinezkoa di-direla, gu ohartu edo ez.</cell></row></table><note>13 Oso jakingarria da (#)Cl-taldeen inguruan Blevins &amp; Egurtzegiren (2017) lana. Egile horien ara- bera, eta gainerako muta cum liquida taldeek euskaraz eta tipologikoki duten bilakabidea ikusirik, hers- kari + albokari taldeak ez ziren euskaraz desegin, baizik eta dagoeneko asimilazio bidez deseginik zituen erromantze (iberiar) batetik hartu zituen euskarak (cf. lat. flamma &gt; gazt. llama : kat. flama).https://doi.org/10.1387/asjuAldatzeko modu nagusia mailegatzea izateak ere arazoak ditu. Izan ere, mailega- tzean harremanak ez dira horizontalak izaten, hau da, mailegatzailea eta mailegatua egon ohi dira eta aldaketak ez du eragin bera batean eta bestean</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>). Hori, baina, iritzi subjektiboa da eta https://doi.org/10.1387/asju.24118 Mitxelenak (1981: 298) Lacombe eta Uhlenbecki egindako kritikak ekar ditzake gogora: Nunca se precisa para quién es tan diferente el vizcaíno [Zuazoren kasuan, mendebaldeko euskara = bizkaiera]. […] Pero yo no tenía por aquel entonces, pongámonos por 1935-1937, la menor idea del suletino hablado […]. Habría que ver también, puesto que las consideraciones que se hacen son cuantitativas, si no hay manera de cuantificar las observaciones.</figDesc><table><row><cell>Zer eremu hartzen duen alde batera, ordea, Zuazoren saioek ez dute hausturak</cell></row><row><cell>non gertatu diren erabakitzeko balio. Izan ere, haren sailkapenak ez dira filogeneti-</cell></row><row><cell>koak, ez du ezaugarriak aukeratzeko irizpide sendorik eta erabiltzen dituen ezauga-</cell></row><row><cell>rriek ez dituzte arestian finkatu irizpideak betetzen. Ikus dezagun, dena den, Zuazok</cell></row><row><cell>EBZren hausturarako egiten duen proposamena gertuagotik.</cell></row><row><cell>Zuazoren lanetan, metodologiaren aipamenak bakanak dira eta esango nuke lu-</cell></row><row><cell>zeen 1998ko lanean landu zituela. 15 Hala ere, honela mintzo da bere lanaren hel-</cell></row><row><cell>buruez: "[lanak] euskalkietan barreiatuta dauden ezaugarririk oinarrizkoenak eta</cell></row><row><cell>esanguratsuenak erakustea du muga" (Zuazo 2008: 16). Bistan denez, Zuazoren hel-</cell></row><row><cell>buruak eta Bonaparterenak (1863) berak dira. Sailkapen sinkroniko bat bilatzen du,</cell></row><row><cell>eta ez historia berreraikitzea.</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>Abaituaren(2018)proposamenean, EBZ (Abaituaren lanean, VCA, Vasco Común Antiguo) Erdi Aroko Mendebaldeko Euskaran (VOcM, Vasco Occidental Medieval) eta Erdi Aroko Ekialdeko Euskaran (VOrM, Vasco Oriental Medieval) zatitzen da. Bigarren hori, Erdi Aroko Ekialdeko Euskara, halaber, Erdi Aroko Erdialdeko Euskaran (VCrM, Vasco Central Medieval) eta, atzera ere, Erdi Aroko Ekialdeko Euskaran hautsiko litzateke. Bukatzeko, Erdi Aroko tarteko egoera horietatik etorriko lirateke dialekto historikoak, elkarren artean gurutzaturik. Hala ere, ez dut argi Abaituaren VOcM -MEZ?-linguistikoki zer den eta zer lurralde hartuko lukeen.</figDesc><table><row><cell>Izan ere,</cell></row><row><cell>Arabaz mintzo bada ere, ez du Arabako daturik.</cell></row><row><cell>Abaituaren (2018) lanaren kritika nagusiak metodo(logi)ari dagozkio. Larriena</cell></row><row><cell>-eta gainerakoa alde batera uzteko modukoa-da Abaituak kontrako bidea egi-</cell></row><row><cell>ten duela: kanpo-historiako ereduak hartzen ditu -garai zaharrenetarako, Pozo</cell></row><row><cell>(2016)-eta eredu horrekin bat egin dezakeena bilatzen du xx. mendeko hizkun-</cell></row><row><cell>tzan. 17 Hizkuntzalaritzan bideak kontrakoa izan beharko luke: dauden hipotesiak</cell></row><row><cell>egiaztatzeko hizkuntzaren azterketa serio batetik abiatu behar da, egin beharreko</cell></row><row><cell>berreraiketak egin behar dira eta, ondoren baino ez, hipotesiak indartzeko jo dai-</cell></row><row><cell>teke hizkuntzaz kanpoko sistemetara. Izan ere, kontrakoak berekin dakar hizkuntza-</cell></row><row><cell>ren historian muina hizkuntza ez izatea, baizik eta hizkuntza egiten duen herria, eta</cell></row><row><cell>eredu historikoa eroriz gero hizkuntzarena ere eroriko litzateke -cf.</cell></row><row><cell>Nolanahi ere den, lan horretan, Aldaik mendebaldeko euskara -MEZ?-defini-</cell></row><row><cell>tzen du zenbait hizkuntz ezaugarriren arabera -jarraian jaso ditut-, eta, hedadura</cell></row><row><cell>(zenbat eta hedadura zabalagoa, orduan eta zaharragoa) eta aldakortasun irizpideetan</cell></row><row><cell>(zenbat eta aldakortasun txikiagoa, orduan eta zaharragoa) mendebaldeko euskara-</cell></row><row><cell>ren barruko lau periodo bereizten ditu. Honako kronologia erlatiboa planteatzen du,</cell></row><row><cell>zaharrenetik berrienera ordenaturik:</cell></row><row><cell>1. -ak ergatibo plurala, izan-en hirugarren pertsonako adizkietako -a-, -ai datibo</cell></row><row><cell>plurala, eta geroaldiko -ko.</cell></row></table><note>https://doi.org/10.1387/asju.24118</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>EHHAko banaketa geografikoa badute, banaketa hori xvi. mendetik hona sortu da -xix. mendetik hona?-, gutxien-gutxienez euskara zahar eta klasikoan (1600-1745), eta ez, Abaituak (2018) aipatzen dituen x-xii. mendeetan. Bestela esanda, EHHAko xx. mendeko datu horiek ez dute garai historikoetarako balio eta, hortaz, are gutxiago balio dute historiaurreko edo, kasu honetan, protohistoriako (Lakarra 1997: 458-459; Mounole &amp; Lakarra 2018: 358-361) garaien inguruan ondorioak</figDesc><table><row><cell>; baita Arrasa-</cell></row><row><cell>teko erreketan ere (TAV,  § 3.1.7): gomiz gonsalu[c]h bertan çan / Beragaz Presebalen</cell></row><row><cell>caltean / Joanicoc eta beste ascoc / Eudela parte bertan (34-37), Oyn arroc çi[tu]an</cell></row><row><cell>luma / Oçaetaco jaun gazteac (38-39), Semea, çer doc orrelan? (43).</cell></row><row><cell>Lazarragaren eskuizkribua 1567 eta 1602 artekoa da, xvi. mendearen amaierakoa</cell></row><row><cell>alegia (Bilbao et al. 2020a: 40) -ikusi, halaber, Bilbao et al. (2020a:  § 2.3.3) eskuiz-</cell></row><row><cell>kribuaren datazioaren gorabehera guztien inguruen berri izateko-. Arrasate 1448.</cell></row><row><cell>urtean erre zen (TAV, 81) eta, beraz, poema ezin da xv. mendearen erdialdearen</cell></row><row><cell>aurrekoa izan. Gugandik are gertuago, 1825ekoa den Antzuolako dotrinan (Uribe-</cell></row><row><cell>Etxe barria 2008) ere zenbait adibide aurki daitezke: -Orrela badozu zuc Ayngueru</cell></row><row><cell>guardacua? -Bay, Jauna, badot (22v). Hau da, Abaituak hartutako ezaugarri ho-</cell></row><row><cell>riek</cell></row></table><note>https://doi.org/10.1387/asju.24118</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head></head><label></label><figDesc>lanak badu beste arazo bat: esan bezala, EHHAko datuetan oinarritzen da, baina datu horiek ez dira beti fidagarriak. Izan ere, Zuazok (2020) eta Coyosek (2020) Euskalkien Sailkapen Berriari<ref type="bibr" target="#b16">(Aurrekoetxea et al. 2019</ref>) egindako kritiketan ikus daitekeen moduan, EHHA baliabide lagungarri eta interesgarria da, dokumentazioari dagokionez bederen, baina Atlasa egin zen garaiko ajeak ordaintzen ditu: besteak beste, Atlasa egin zenean euskal dialektologiaren ezagutza apal xamarra zen, agertzen diren datu asko ez dira fidagarriak eta inkestak egiteko jarraitu zen metodologiak hutsak (eragin) ditu. Abaituaren (2018) proposamenak, beraz, aurretik aipatutakoez gain, muga edo arazo horiek ere baditu datuetan.Arazo horiek guztiak ikusirik, garrantzia ere galtzen du Erdi Aroko Ekialdeko Euskara (VOrM) aldi berean ama eta alaba izateak, hots, bi garai desberdinetako eta bestelako ezaugarri linguistikoak izan beharko lituzketen bi hizkuntz egoerak deitura bera izateak.</figDesc><table /><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8">Hala ere, *edun-en diptongoei dagokienez, Zuloagak (2022: 98-106) berriki markatu du, arkaismoak izateaz harago, ez direla eremu osoan sistematikoak eta, beraz, kontuz erabili behar direla MEZ definitzeko. Halaber, -rean-i dagokionez, arkaismotzat jotzen badu ere, Urgellek (2020: 716, 31. oh.) berak berrikuntza izan zitekeela eztabaidatzen du. Haren iritziarekin bat egin du orain Zuloagak (2022: 147-161).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9">Eskerrak Ricardo Gómezi Schleicherrek dagoeneko 1853an zuhaitz genealogikoaren bertsio bat argitaratu zuela jakinarazteagatik. 10 xix. mende bukaerakoak edo xx. mende hasierakoak ez ezik, kritika modernoagoak ere jaso ditu. Esaterako, dixonen (1997, 2002) arabera, hizkuntzalaritza historikoko metodo konparatua oso ongi doa dokumentazio luzeko eta kontaktu urriko hizkuntza indoeuroparretarako edo austronesioendako, baina haren metodoak ezin dira aplikatu gutxienez Australiako hizkuntzak aztertzeko, hango hizkuntzak punctuated equilibrium delako batean egon direlako. 3.2. atalean azalduko dut sakonago dixonen proposamena; horrekin batera, egin zaizkion eta egin dakizkiokeen kritikak berrikusi, eta eztabaidatuko dut zergatik ezin zaion EBZren kasuari ere aplikatu. 11 Nire itzulpena da. Jatorrizkoa: "Ich möchte an seine Stelle [zuhaitzaren ordez alegia] das Bild der welle setzen, welche sich in concentrischen mit der Entfernung vom Mittelpunkte immer schwächer werdenden Ringen ausbreitet".</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12">deigarria egiten zaitMitxelenak (1981)  iragan komun hurbilekoaren aldeko argudioen artean hasperena sartu ez izana, are gehiago fonetika-fonologiako desberdintasun batzuk (hala nola diptongoen bilakabideak) hasperenaren galeraren ondorio izanik.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14">Mitxelenak "ronc. galtu, sul. galdü 'perdido', con sonorización anómala" dakar (FHV, 373 [etzanak nireak dira]). datu "bitxi" hori mailegu edo egokitze modernotako har daiteke, edo oraindik ahoskabeek ahostunak guztiz ordezkatu ez zituztela pentsa daiteke.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="15">darabilen metodologia gehiago edo gutxiago azaldu, ez dut haren justifikaziorik aurkitu, hau da, zergatik den darabilen metodologia dituen helburuetarako aproposa.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="16">Hasperenaren galeraz eta haren balio sailkatzaileaz, ikusi orain Zuloagaren (2022: 74-80) lana. Aldiz, 2. silabatik aurrerako eta lexema bereko bi hasperenen artean lehenengoa galtzeaz, ikusi Urrestarazu-Porta (2021) eta Egurtzegi &amp; Elordieta (2023).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="17">Pozoren (2016) ereduan euskalduntze berantiarrarentzat oso leku txikia gelditzen bada ere, ikus orain Abaitua (2017) eta Abaitua, Martinez-Areta &amp; Ramos(2022).18  Kanpo-historian oinarriturik ere, badaude arreta handiagoaz landu beharreko alderdiak; adibidez, "Álava mira a Asturias y Pamplona a Córdoba"(Abaitua 2018: 317). Izan ere, ez da azaltzen zer den begiratze hori eta zer hizkuntz ondorio utzi dituen. Ildo beretik,Zuloaga (2022: 260-262).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="19">Ezinezkoa da 140 ezaugarri azterturik guztiek 2. atalean finkatutako hizkuntz irizpideak gainditzea, batez ere hizkuntzari dagokionez. Adibidez, ez + z-bilkura ez afrikatzeak ez du ematen bi hizkeraren artean haustura sakon bat proposatzeko erabil daitekeenik<ref type="bibr" target="#b34">(Camino 2011</ref><ref type="bibr" target="#b34">(Camino [2014</ref>: 110-111), baina ez du ematen Caminok horren alde argudiatzeko erabiltzen duenik ere.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="20">Sudurkari ondoko ahostuntzeari dagokionez,Coetzee &amp; Pretorius-en (2010: 405)  arabera, ahosabai-errezela beste organo artikulatzaile batzuekin alderaturik poliki mugitzen da eta, beraz, normala litzateke ondoko herskaria ebakitzen hasterako oraindik itxi gabe egotea. Berdin, ahots-kordek ez diote bat-batean dar-dar egiteari uzten eta hori ere ondoko herskaria ahostuntzearen alde doa. Coetzee &amp; Pretoriusek sudurkari ondoko herskarien ahoskabetze kasu bat izan daitekeen bilakabide bat aztertzen dute, tswana hizkuntzan; tswana Botswanan, Namibian, Zinbawen eta Hego Afrikan hitz egiten den hizkuntza hego-bantu bat da. Hizkuntza horretan, ahoskabeak garatzen direla aldarrikatzen dute egileek, nahiz eta niri prozesu fonetiko edo fonologikoa dela sinesgaitza egiten zaidan, besteak beste morfema mugan gertatzen delako eta idatziak eragindako aldaketa izan daitekeelako ikertzen dutena &lt;mp&gt; idazten baita -ikusi, halaber, Coetzee &amp; Pretoriusen laneko erreferentziak sudurkari ondoko ahostuntzearen eta balizko zenbait ahoskabetzeren berri izateko-. Era berean, Azler Garcia-Palominori eskerrak eman nahi dizkiot, lan honetan aipatu ez ditudan n eta l ondoko ahostuntzearen beste zenbait lanen berri emateagatik.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>ASJU, 2022, 56 (2),  ikerketek, ordea, n eta l ondoko herskariak ahoskabetzea berrikuntzatzat jo badute ere, zahartasunaren kontra egin dute, batez ere Etxart-Ros gutuneriatik abiaturik <ref type="bibr">(Etxart &amp; Ros 1616</ref><ref type="bibr">-1617</ref>. <ref type="bibr" target="#b107">Urrestarazu-Porta (2021)</ref> eta <ref type="bibr" target="#b97">Rojo (2022a</ref><ref type="bibr" target="#b98">Rojo ( , 2022b</ref> izan dira zahartasun horri kontra egin diotenak.</p><p>Urrestarazu-Portaren (2021) arabera, ekialdeko n eta l ondoko herskariak ahoskabetzea gaskoiaren ukipenaren bidez uler daiteke, <ref type="bibr">Saroïhandyren (1913: 495)</ref> bidetik: "le souletin a remplacé la sonore primitive par la sourde, et l'on est à peu près obligé d'admettre que ce changement s'est fait sous l'influence des parlers de la Plaine béarnaise". Gaskoiz latineko n eta l ondoko herskari ahoskabeak ahostundu ziren, euskal substratuaren eraginagatik edo, Rohlfsen hitzetan, "l'influence de l'ancien substrat indigène" deituarengatik <ref type="bibr" target="#b100">(Saroïhandy 1913;</ref><ref type="bibr">Rohlfs 1977: 140-141)</ref>. Printzipioz, berrikuntza hori gaskoi eremu osoan gertatu zen <ref type="bibr">(Rohlfs 1977: 137)</ref> eta vii. mendearen aurretik buruturik zegoen <ref type="bibr" target="#b96">(Rohlfs 1977;</ref><ref type="bibr" target="#b40">Chambon &amp; Greub 2002)</ref>. Lakarraren <ref type="bibr">(2011[2014]</ref>) proposamenean, inguru osoan, euskaldunean zein erromantzatuan, gertatzen ari zen berrikuntza horren kontra ibiliko litzateke euskal ekialdea, lehenik orduko euskal sistemak eskatu bezala ahoskabeak ahostuntzen eta berehala ahoskabeak garatzen.</p><p>Hala ere, Urrestarazu-Portaren (2021) arabera badaude Saroïhandyren interpretazioaren eta ahoskabeen berritasunaren alde egiteko argudioak, nahiz eta erabatekoak izan ez. Batetik, ekialdeko muturreko mintzoetan izan da gaskoiaren eragina nabarmenena eta hizkuntzaren maila guztietan eragin du: fonologian, /y/ sartu da, baita -ĩ &amp; -ũ amaiera sudurkaria maileguetan (adib. arrazũ 'arrazoi'); morfosintaxian, -a galdera morfema edo -i saileko partizipio berriak; eta, jakina, lexema ugari hartu dira maileguan (ikusi Padilla-Moyano 2017, eta lan horretako erreferentziak xehetasun gehiagorako). Alde horretatik, mailegatze harreman horretako beste elementu bat besterik ez litzateke izango. Kontrakoak, esan bezala, suposatuko luke oso garai zaharretan ekialdeko mintzoek inguruko guztiei kontra egin zietela, maileguei dagokienez azken ondorioa ingurukoen berbera izateko; hots, etimologikoki ahoskabea dagokionean, ahoskabea, eta, ahostuna dagokionean, ahostuna.</p><p>Kronologiara joanez, gaskoiz bi fase bereizi behar dira, nahiz eta Urrestarazu-Porta (2021) ez den bi faseak bereizteko beharraz ohartzen eta analisia hiperzuzenke-(2021) ez den bi faseak bereizteko beharraz ohartzen eta analisia hiperzuzenketari baizik ez dion lotzen: lehenengoan, hiperzuzenketak egin ziren eta, bigarrenean, etimologikoki zegozkien ahostunak berreskuratzen joan ziren, okzitanierarekin guztiz berdinduz. Berdintzeak hiperzuzenketen ondorengoa izan behar du, baina hiperzuzenketek ez dute datazio finik: Urrestarazu-Portaren (2021: 61) arabera vii-xii. mendeen artekoak dira eta, beraz, berdintzea ondorengoa. Aldiz, xiii. mendean badira forma hiperzuzenduen adibideak <ref type="bibr">(Baldinger 1958: 69-74)</ref> eta, hortaz, prozesua noiz hasi zen gorabehera, ordurako okzitanierarekin berdintzea guztiz hedaturik ez zegoela pentsatu behar da. Zuberoan ez dago hiperzuzenketa adibide ezagunik eta, beraz, maileguak gaskoiz lekukotzen den bigarren fasekoak lirateke: maileguen ahostuntasunak latinez zuten ahostuntasunarekin egiten du bat. Beharbada kronologia hori (xiii. mendearen ingurukoa) ongi doa gaskoitik ekialdeko mintzoetarako beste maileguentzat proposatu diren kronologiekin; adibidez, xiv. mende ingurua /y/-rentzat <ref type="bibr" target="#b85">(Peillen 1991;</ref><ref type="bibr" target="#b45">Egurtzegi 2017)</ref>.</p><p>Bestetik, Zuberoarekin mugan dauden Aspeko eta Baretetzeko haran gaskoietan eutsi zaie hobekien n eta l ondoko ahostunei <ref type="bibr" target="#b100">(Saroïhandy 1913;</ref><ref type="bibr" target="#b96">Rohlfs 1977)</ref>. Ekial-ASJU, 2022, 56 (2), 107-142</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Ondorioak</head><p>Lanaren lehen zatian ( § 2), aitzin-hizkuntzen hausturak ikertzeko jarraitu beharreko metodologia finkatu dut, inguruko tradizio ikertuenen tradizioetan oinarriturik. Batetik, filogenia eta fenetika bereizi ditut, eta lehenengoa defendatu dut, ondorio historikoak ateratzeko bide bakar bezala ( § 2.1). Jarraian, argudiatu dut irizpide nagusia berrikuntzak izan behar direla, arkaismo bateratzaileen laguntzaz. Horrekin batera, erakutsi dut berrikuntzek iragazki hauek gainditu behar dituztela analisietan erabilgarriak izateko: iragazki kronologikoa, geografikoa eta hizkuntzazkoa ( § § 2.2-2.5). Lehen atalarekin amaitzeko, zuhaitz eredua aldarrikatu dut dialektoen arteko filiazio hipotesiak irudikatzeko eredu bakar bezala eta egin zaizkion kritiken hutsak nabarmendu ditut ( § 2.6).</p><p>Bigarren zatian ( § 3), Euskara Batu Zaharraren hausturaren inguruan egin diren hipotesiak berrikusi ditut, aurreko atalean ezarritako irizpide metodologikoak betetzen dituzten ikusteko. Bi taldetan banandu ditut, lehen haustura mendebaldean ( § 3.3.1) eta lehen haustura ekialdean ( § 3.3.2) defendatu dituztenak. Aldiz, erakutsi dut lehen haustura mendebaldean gertatu zela hobetsi dutenek ez dituztela beharrezko oinarri metodologikoak betetzen, salbu eta Aldaik (2014), nahiz eta berak agerian lehen hausturaren inguruko hipotesirik ez duen egiten. Bestetik, elkarren artean ere heterogeneotasun handia dago, bai mendebaldearen definizioan, bai metodoetan ere. Bestetik, lehen haustura ekialdean aldarrikatu dutenen artean, <ref type="bibr" target="#b34">Camino (2011</ref><ref type="bibr" target="#b34">Camino ( [2014</ref>) bat-etortzeen kopuruan oinarritzen da lehen haustura ekialdean gertatu zela aldarrikatzeko eta, beraz, fenetikotasunetik gertu egiten du. Lakarrak <ref type="bibr">(2011[2014]</ref>), aldiz, berrikuntza zahar eta bereizle bat proposatzen du, lehen haustura ekialdean gertatu zela aldarrikatzeko eta, beraz, badabil erabili beharreko irizpide metodologikoen barruan, geroko ikerketek beste kronologia batzuk proposatu badituzte ere. Beste baterako gelditzen da dagozkion metodoekin lehen haustura mendebaldean gerta zitekeen proposa daitekeen ikustea.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">egin eta *edutsi laguntzaileen gramatikalizazioak, -j bokalerdiaren ondoko palatalizazioa, eta -eta aditz-izenak</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+				<title level="m">-keta aditz-izenak, objektu zuzenaren pluraleko komunztadura falta</title>
+		<imprint/>
+	</monogr>
+	<note>*edun-en -u-Arabako ekialdean</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Euskal hizkuntzalaritza historikoaren eta dialektologia diakronikoaren bide onaz hitz egiten du Aldaik duela sei urte zalantzazkoak zituen zenbait gauza argituz joan izanak</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Aldairen (2014) lanak beteko lituzke, geroko ikerketak ekarri dituen interpretazioen aldaketak alde batera, 2. atalean finkatu irizpide metodologikoak. Ezaugarri zaharrak bilatzen ditu -irizpide kronologikoa-, bilatzen dituen ezaugarriek iragazki geografikoa betetzen dute, eta -j bokalerdiaren ondoko palatalizazioa alde batera</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aldaik</forename><surname>Adibidez</surname></persName>
+		</author>
+		<ptr target="eztabaidatzenduergatibopluraleko-akedo-ekzeinizangodenarkaismoaetazeinberrikuntza" />
+	</analytic>
+	<monogr>
+		<title level="m">esker; Erañak (2020b) objektu zuzenaren pluraleko komunztadurarik eza argitu du</title>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">2022</biblScope>
+			<biblScope unit="page" from="191" to="206" />
+		</imprint>
+	</monogr>
+	<note>Halaber, Aldaik aipatzen dituenen artean, a + a &gt; ea disimilazioaren eta -j bokalerdiaren ondoko palatalizazioaren bilakabideak askoz hobekiago ezagutzen ditugu Zuloagari. hizkuntz iragazkia betetzen du. 3.3.1.4. Abaitua</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">EBZren haustura mendebaldean gertatu zela defendatu dutenen artean azkena</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Lehen haustura mendebaldean gertatu zela aldarrikatzeaz gain, Abaituak iv. mendetik xvi. menderako dialektalizazioa azaltzeko sailkapen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Abaitua ; Izan Da</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Da</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>bat proposatu du: 3. irudia</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Abaituaren</forename><surname>Euskararen Dialektalizazioa</surname></persName>
+		</author>
+		<idno>arabera. Iturria: Abaitua</idno>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">318</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Erreferentziak</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">La historia interna de la vasconización tardía: préstamos y neologismos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">K</forename><surname>Abaitua</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Emiliana Ramos &amp; Ander Ros (arg.) Onomastika, hizkuntza eta historia. Ricardo Cierbideren omenezko estudioak</title>
+		<meeting><address><addrLine>Bilbo</addrLine></address></meeting>
+		<imprint>
+			<publisher>Onomastika Elkartea</publisher>
+			<date type="published" when="2017" />
+			<biblScope unit="page" from="293" to="314" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Patrones geolingüísticos, áreas dialectales y cronologías absolutas del EHHA. FLV 126</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">K</forename><surname>Abaitua</surname></persName>
+		</author>
+		<idno type="DOI">10.35462/FLV126.2</idno>
+		<ptr target="https://doi.org/10.35462/FLV126.2" />
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="283" to="322" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Periodización dialectal y cronologías de algunos guipuzcoanismos del EHHA</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">K</forename><surname>Abaitua</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>2020</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Iñaki Camino, Xabier Artiagoitia, Irantzu Epelde &amp; Koldo Ulibarri (arg.), Eibartik Zuberoara euskalkietan barrena</title>
+		<imprint>
+			<publisher>UPV/EHU</publisher>
+			<biblScope unit="page" from="33" to="56" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">El euskera en la Tardoantigüedad. Expansión a occidente y dialectalización. Paleohispanica 22</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">K</forename><surname>Abaitua</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mikel</forename><surname>Martínez-Areta &amp;amp; Emiliana Ramos</surname></persName>
+		</author>
+		<idno type="DOI">10.36707/palaeohispanica.v22i0.437</idno>
+		<ptr target="https://doi.org/10.36707/palaeohispanica.v22i0.437" />
+		<imprint>
+			<date type="published" when="2022" />
+			<biblScope unit="page" from="47" to="84" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Hacia una periodización de la fragmentación del euskera occidental. FLV 118</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gontzal</forename><surname>Aldai</surname></persName>
+		</author>
+		<idno type="DOI">10.35462/flv118.1</idno>
+		<ptr target="http://doi.org/10.35462/flv118.1" />
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="221" to="245" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">The horse, the wheel and language. How Bronze-Age riders from the Eurasian steppes shaped the Modern World</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Anthony</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Princeton</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.24118</idno>
+		<ptr target="https://doi.org/10.1387/asju.24118" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Gipuzkoako euskara zaharre(ta)tik erdialdeko euskarara: isoglosen diakroniaz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Borja</forename><surname>Ariztimuño</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Iñaki Camino, Xabier Artiagoitia, Irantzu Epelde &amp; Koldo Ulibarri (arg.), Eibartik Zuberoara euskalkietan barrena</title>
+		<imprint>
+			<publisher>UPV/EHU</publisher>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="57" to="66" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">José Luis Ormaetxea &amp; Xarles Videgain</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gotzon</forename><surname>Aurrekoetxea</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñaki</forename><surname>Gaminde</surname></persName>
+		</author>
+		<editor>UPV/EHU</editor>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note>Euskalkien sailkapen berria</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">distant genetic relations: is Basque related to Indo-European? FLV 130</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Bakker</surname></persName>
+		</author>
+		<idno type="DOI">10.35462/flv.130.8</idno>
+		<ptr target="https://doi.org/10.35462/flv.130.8" />
+		<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="563" to="592" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">die hyperkorrekten Formen als Konsequenz der Scripta im Altgaskognischen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kurt</forename><surname>Baldinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Heinrich Lausberg &amp; Harald weinrich (arg.), Romanica. Fetschrift für gerhard Rohlfs</title>
+		<meeting><address><addrLine>Halle (Saale</addrLine></address></meeting>
+		<imprint>
+			<publisher>Max Niemeyer</publisher>
+			<date type="published" when="1958" />
+			<biblScope unit="page" from="57" to="75" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Sobre los orígenes sociales de la reconquista: cántabros y vascones desde fines del Imperio Romano hasta la invasión musulmana. Boletín de la Real Academia de la</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Abilio &amp;amp; Marcelo</forename><surname>Barbero</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Vigil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Historia</title>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="271" to="339" />
+			<date type="published" when="1965" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Introduzione alla Neolinguistica (principi -scopi -metodi)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matteo</forename><surname>Bartoli</surname></persName>
+		</author>
+		<editor>L.S. Olschki</editor>
+		<imprint>
+			<date type="published" when="1925" />
+			<pubPlace>Geneva</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Céline Mounole &amp; Blanca Urgell. 2020a. Lazarraga Eskuizkribuaren edizioa eta azterketa. I. Sarrera, gramatika, hiztegia eta adizkitegia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gidor</forename><surname>Bilbao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ricardo</forename><surname>Gómez-López</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julen</forename><surname>Manterola</surname></persName>
+		</author>
+		<imprint>
+			<publisher>UPV/EHU</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Céline Mounole &amp; Blanca Urgell. 2020b. Lazarraga Eskuizkribuaren edizioa eta azterketa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gidor</forename><surname>Bilbao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ricardo</forename><surname>Gómez-López</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julen</forename><surname>Manterola</surname></persName>
+		</author>
+		<idno>II. Testua. Bilbo: UPV/EHU</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Evolutionary phonology. The emergence of sound patterns</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juliette</forename><surname>Blevins</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Advances in Proto-Basque reconstruction with evidence for the Proto-Indo-European-Euskarian hypothesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juliette</forename><surname>Blevins</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+			<publisher>Routledge</publisher>
+			<pubPlace>Londres &amp; New york</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Unexpected obstruent loss in initial obstruentsonorant clusters: an apparent example from Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juliette &amp;amp; Ander</forename><surname>Blevins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Egurtzegi</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0952675717000264</idno>
+		<ptr target="https://doi.org/10.1017/S0952675717000264" />
+	</analytic>
+	<monogr>
+		<title level="j">Phonology</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="507" to="522" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leonard</forename><surname>Bloomfield</surname></persName>
+		</author>
+		<title level="m">Language. New york: Henry Holt &amp; Company</title>
+		<imprint>
+			<date type="published" when="1933" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">John Nerbonne &amp; dominic watt (arg.)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><surname>Boberg</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+			<publisher>wiley Blackwell</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+	<note>The handbook of dialectology</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Carte des sept provinces basques, montrant la délimitation actuelle de l&apos;euscara et sa division en dialectes, sous-dialectes et variétés</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Louis-Lucien</forename><surname>Bonaparte</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1863" />
+			<pubPlace>Londres</pubPlace>
+		</imprint>
+	</monogr>
+	<note>drawn</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Punctuated equilibrium and language change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Claire</forename><surname>Bowern</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Encyclopedia of Language and Linguistics</title>
+		<editor>Keith Brown</editor>
+		<meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="286" to="289" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Historical linguistics in Australia: Trees, networks and their implications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Claire</forename><surname>Bowern</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rstb.2010.0013</idno>
+		<ptr target="https://doi.org/10.1098/rstb.2010.0013" />
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Transactions of the Royal Society of Biological Sciences</title>
+		<imprint>
+			<biblScope unit="volume">365</biblScope>
+			<biblScope unit="page" from="3845" to="3854" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Introduction: Subgrouping methodology in historical linguistics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Claire &amp;amp; Harold</forename><surname>Bowern</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Koch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Australian languages. Classification and the comparative method</title>
+		<editor>Claire Bowern &amp; Harold Koch</editor>
+		<meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Benjamins</publisher>
+			<date type="published" when="2004" />
+			<biblScope unit="page" from="1" to="16" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Einleitung und Lautlehre: vergleichende Laut-, Stammbildungs-, und Flexionslehre der indogermanischen Sprachen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Karl</forename><surname>Brugmann</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1886" />
+			<publisher>walter de Gruyter</publisher>
+			<pubPlace>Berlin &amp; Leipzig</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñaki</forename><surname>Camino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">dialektologiaren alderdi kronologikoaz. FLV</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="209" to="247" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Dialektologiatik euskalkietara tradizioan gaindi. donostia: Elkar. Camino, Iñaki</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñaki</forename><surname>Camino</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Euskal dialektologia: lehena eta oraina (ASJUren gehigarriak 69</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iraganaz</forename><surname>Ekialdeko Euskararen</surname></persName>
+		</author>
+		<idno>87-153. Bilbo: UPV/EHU</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Irantzu Epelde (arg.)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Aztergaiak Ipar Euskal Herriko euskararen berrikuntzez</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñaki</forename><surname>Camino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Leioa: UPV/EHU</title>
+		<imprint>
+			<date type="published" when="2022" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Irantzu Epelde &amp; Koldo Ulibarri (arg.). 2020. Eibartik Zuberoara euskalkietan barrena</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñaki</forename><surname>Camino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xabier</forename><surname>Artiagoitia</surname></persName>
+		</author>
+		<editor>UPV/EHU</editor>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Languages and genes in collaboration: Some practical matters</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lyle</forename><surname>Campbell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Historical linguistics: An introduction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lyle</forename><surname>Campbell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>Edinburgh University Press</publisher>
+			<pubPlace>Edinburgh</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Note sur l&apos;âge du (proto)gascon. Revue de linguistique romane 66</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jean-Pierre &amp;amp; Yan</forename><surname>Chambon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Greub</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="473" to="495" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Phonetically grounded phonology and sound change: The case of Tswana labial plosives</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andries</forename><forename type="middle">W</forename><surname>Coetzee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Rigardt Pretorius</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.wocn.2010.03.004</idno>
+		<ptr target="https://doi.org/10.1016/j.wocn.2010.03.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Phonetics</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="404" to="421" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Erreseina: Euskalkien sailkapen berria. FLV 129</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jean-Baptiste</forename><surname>Coyos</surname></persName>
+		</author>
+		<idno type="DOI">10.35462/FLV129.10</idno>
+		<ptr target="https://doi.org/10.35462/FLV129.10" />
+		<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="301" to="314" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">The rise and fall of languages</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">M</forename><surname>Dixon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Australian languages: Their nature and development</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">M W</forename><surname>Dixon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Phonetically conditioned sound change. Contact induced /u/-fronting in Zuberoan Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ander</forename><surname>Egurtzegi</surname></persName>
+		</author>
+		<idno type="DOI">10.1075/dia.34.3.02egu</idno>
+		<ptr target="https://doi.org/10.1075/dia.34.3.02egu" />
+	</analytic>
+	<monogr>
+		<title level="j">Diachronica</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="331" to="367" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">A history of the Basque prosodic systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ander &amp;amp; Gorka</forename><surname>Egurtzegi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Elordieta</surname></persName>
+		</author>
+		<idno type="DOI">10.1075/dia.20066.egu</idno>
+		<ptr target="https://doi.org/10.1075/dia.20066.egu" />
+	</analytic>
+	<monogr>
+		<title level="j">Diachronica</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="30" to="72" />
+			<date type="published" when="2023" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">Arabako euskararen dialektalizaziorantz: aditz-morfologia aztergai. Gasteiz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ane</forename><surname>Eraña</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+		<respStmt>
+			<orgName>UPV/EHUko Master Amaierako Lana</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Jagin aditz laguntzaile ditrantsitiboa aztergai</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ane</forename><surname>Eraña</surname></persName>
+		</author>
+		<idno>229-244. Bilbo: UPV/EHU</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Eibartik Zuberoara euskalkietan barrena</title>
+		<editor>Iñaki Camino, Xabier Artiagoitia, Irantzu Epelde &amp; Koldo Ulibarri</editor>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Céline Mounole &amp; Blanca Urgellen edizio-zirriborro argitaragabea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gabriel &amp;amp; Miguel Ros ; Gidor</forename><surname>Etxart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ricardo</forename><surname>Bilbao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Gómez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julen</forename><surname>Lakarra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Manterola</surname></persName>
+		</author>
+		<idno>1616-1617. gutuneria</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Gasteiz: UPV/EHU</title>
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Evidence for Basque as an Indo-European language</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gianfranco</forename><surname>Forni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Indo-European Studies</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="39" to="180" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Planteamientos de la lingüística histórica en la datación del euskara</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joakin</forename><surname>Gorrotxategi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">donostia, Iruñea &amp; Baiona: Eusko Ikaskuntza</title>
+		<editor>Eusko Ikaskuntza</editor>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="page" from="103" to="114" />
+		</imprint>
+	</monogr>
+	<note>Euskal zientzia eta kultura, eta sare telematikoak</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Sobre Lenguas y protolenguas</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joakin</forename><surname>Gorrotxategi</surname></persName>
+		</author>
+		<idno>613-642. Gasteiz: UPV/EHU</idno>
+	</analytic>
+	<monogr>
+		<title level="m">koldo Mitxelena katedraren III. Biltzarra</title>
+		<editor>Ricardo Gómez, Joakin Gorrotxategi, Joseba A. Lakarra &amp; Céline Mounole</editor>
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.24118</idno>
+		<ptr target="https://doi.org/10.1387/asju.24118" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">why Basque cannot be, unfortunately, an Indo-European language</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gorrotxategi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Joseba</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Indo-European Studies</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="203" to="237" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Iván Igartua &amp; Joseba A. Lakarra (arg.)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joakin</forename><surname>Gorrotxategi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Euskararen historia. Gasteiz: Eusko Jaurlaritza</title>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">The problem of linguistic subgroupings</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseph</forename><forename type="middle">H</forename><surname>Greenberg</surname></persName>
+		</author>
+		<editor>Joseph H. Greenberg</editor>
+		<imprint>
+			<date type="published" when="1957" />
+			<publisher>University of Chicago Press</publisher>
+			<biblScope unit="page" from="46" to="55" />
+			<pubPlace>Chicago</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Essays in linguistics</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Elementos de cronología fonética del vascuence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Henri</forename><surname>Guiter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="797" to="800" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Phonetic change in an Antarctic winter</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><surname>Harrington</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michele</forename><surname>Gubian</surname></persName>
+		</author>
+		<idno type="DOI">10.1121/1.5130709</idno>
+		<ptr target="https://doi.org/10.1121/1.5130709" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of the Acoustical Society of America</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="3327" to="3332" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note>Mary Stevens &amp; Florian Schiel</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title level="m" type="main">Principles of historical linguistics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hans</forename><forename type="middle">H</forename><surname>Hock</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+			<publisher>Mouton de Gruyter</publisher>
+			<pubPlace>Berlin &amp; New york</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title level="m" type="main">A course in modern linguistics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><forename type="middle">F</forename><surname>Hockett</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1958" />
+			<publisher>MacMillan Company</publisher>
+			<pubPlace>New york</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Save the trees: why we need tree models in linguistic reconstruction (and when we should apply them)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guillaume &amp;amp; Johann-Mattis</forename><surname>Jacques</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>List</surname></persName>
+		</author>
+		<idno type="DOI">10.1075/jhl.17008.mat</idno>
+		<ptr target="https://doi.org/10.1075/jhl.17008.mat" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Historical Linguistics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="128" to="167" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The regularity of regular sound change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><surname>Labov</surname></persName>
+		</author>
+		<idno type="DOI">10.1353/lan.2020.0001</idno>
+		<ptr target="https://doi.org/10.1353/lan.2020.0001" />
+	</analytic>
+	<monogr>
+		<title level="j">Language</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="42" to="59" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Euskararen historia eta filologia: arazo zahar, bide berri</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="447" to="535" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Gogoetak euskal dialektologia diakronikoaz: Euskara Batu Zaharra berreraiki beharraz eta haren banaketaren ikerketaz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<ptr target="Bilbo:UPV/EHU" />
+	</analytic>
+	<monogr>
+		<title level="m">Irantzu Epelde (arg.)</title>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="155" to="241" />
+		</imprint>
+	</monogr>
+	<note>Euskal dialektologia: lehena eta oraina (ASJUren gehigarriak 69</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<title level="m" type="main">Euskal hiztegi historiko-etimologikoa (EHHE-200). Bilbo: Euskaltzaindia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note>Julen Manterola &amp; Iñaki Segurola</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Gipuzkoako osagarri pluraldun adizki tripertsonalen erroez</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Olatz</forename><surname>Leturiaga</surname></persName>
+		</author>
+		<idno type="DOI">10.1387/asju.22414</idno>
+		<ptr target="https://doi.org/10.1387/asju.22414" />
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="127" to="162" />
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">nork-nor saileko egin-en hedadura geografikoa Gipuzkoan: ondorio batzuk testu zaharren azterketatik</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Olatz</forename><surname>Leturiaga</surname></persName>
+		</author>
+		<idno type="DOI">10.1387/asju.23401</idno>
+		<ptr target="https://doi.org/10.1387/asju.23401" />
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="42" />
+			<date type="published" when="2022" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<monogr>
+		<title level="m" type="main">Euskararen morfologia historikorako: artikuluak eta erakusleak. Gasteiz: UPV/EHUko doktorego tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julen</forename><surname>Manterola</surname></persName>
+		</author>
+		<ptr target="http://hdl.handle.net/10810/15848" />
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Old Basque had */χ/, not /h/. Medieval data, implications for reconstruction and Basque-Romance contact effects</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julen &amp;amp; José Ignacio</forename><surname>Manterola</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hualde</surname></persName>
+		</author>
+		<idno type="DOI">10.1075/jhl.19041.man</idno>
+		<ptr target="https://doi.org/10.1075/jhl.19041.man" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Historical Linguistics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="421" to="456" />
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">The prehistory and internal relationships of Australian languages</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patrick &amp;amp; Claire</forename><surname>Mcconvell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bowern</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1749-818X.2010.00257.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1749-818X.2010.00257.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Language and Linguistics Compass</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="19" to="32" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Les dialectes indo-européens</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Antoine</forename><surname>Meillet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Librairie Honoré Champion</title>
+		<meeting><address><addrLine>Paris</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1908" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">La sonorización de las oclusivas iniciales. A propósito de un importante artículo de André Martinet</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BAP</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="33" to="46" />
+			<date type="published" when="1951" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Fonética histórica vasca (ASJUren gehigarriak 4). donostia: Gipuzkoako Foru Aldundia (2. argit. osatua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Berrargit. OC</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="1961" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Lenguas y protolenguas</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Salamanca: Acta Salmanticensia. (Berrargit. OC</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="98" />
+			<date type="published" when="1963" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Sobre el pasado de la lengua vasca. donostia: Auñamendi (Berrargit</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">OC</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1" to="116" />
+			<date type="published" when="1964" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Textos arcaicos vascos</title>
+		<imprint>
+			<date type="published" when="1964" />
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1" to="197" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Lengua común y dialectos vascos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Berrargit. OC</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="517" to="544" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+	<note>ASJU</note>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Céline</forename><surname>Mounole</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Le Verbe Basque Ancien</surname></persName>
+		</author>
+		<title level="m">étude philologique et diachronique (Monumenta linguae Vasconum: Studia et Instrumenta 6). Bilbo: UPV/EHU (= ASJU 48</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Euskara arkaikoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mounole</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Joseba</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Euskararen historia</title>
+		<editor>Joakin Gorrotxategi, Iván Igartua, &amp; Joseba A. Lakarra</editor>
+		<meeting><address><addrLine>Gasteiz</addrLine></address></meeting>
+		<imprint>
+			<publisher>Eusko Jaurlaritza</publisher>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="345" to="468" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">The phonetics of sound change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Ohala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Historical linguistics: Problems and perspectives</title>
+		<editor>Charles Jones</editor>
+		<meeting><address><addrLine>Londres</addrLine></address></meeting>
+		<imprint>
+			<publisher>Longman</publisher>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="237" to="278" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Zenbait ezaugarri araberaren definiziorako</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iker</forename><surname>Ondartza</surname></persName>
+		</author>
+		<idno type="DOI">10.1387/asju.23151</idno>
+		<ptr target="https://doi.org/10.1387/asju.23151" />
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="121" to="148" />
+			<date type="published" when="2022" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jean-Baptiste</forename><surname>Orpustan</surname></persName>
+		</author>
+		<title level="m">Les noms de maisons médiévales en Labourd</title>
+		<editor>Basse-Navarre et Soule. Baigorri: Izpegi</editor>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<monogr>
+		<title level="m" type="main">Zuberoako euskararen azterketa diakronikoa: xvi-xix. mendeak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Manuel</forename><surname>Padilla-Moyano</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+		<respStmt>
+			<orgName>UPV/EHUko &amp; Université Bordeaux Montaigneko doktorego tesia</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Zubereraren bilakaeraz ohar batzuk</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Txomin</forename><surname>Peillen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Nazioarteko dialektologia biltzarra. Agiriak</title>
+		<imprint>
+			<publisher>Bilbo: Euskaltzaindia</publisher>
+			<date type="published" when="1991" />
+			<biblScope unit="page" from="247" to="272" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Archaïsme et innovation dans les langues indo-européennes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Petit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Tradition et rupture dans les grammaires comparées de différentes familles de langues</title>
+		<meeting><address><addrLine>Paris</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="page" from="13" to="55" />
+		</imprint>
+		<respStmt>
+			<orgName>Mémoires de la Société de Linguistique de Paris</orgName>
+		</respStmt>
+	</monogr>
+	<note>Alain Lémarechal &amp; Jacques François (arg</note>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Vasconia y los vascones de la crisis del Imperio romano a la llegada del Islam (siglos v-viii)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mikel</forename><surname>Pozo</surname></persName>
+		</author>
+		<ptr target="http://hdl.handle.net/10810/34611" />
+	</analytic>
+	<monogr>
+		<title level="m">Gasteiz: UPV/EHUko doktorego tesia</title>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note>Evolución sociopolítica y génesis de la &quot;gens effera</note>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<monogr>
+		<title level="m" type="main">Erdi Aroko euskara: dialektalizazioaren hastapenerantz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Urtzi</forename><surname>Reguero-Ugarte</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+		<respStmt>
+			<orgName>UPV/EHUko Master Amaierako Lana</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Erdi Aroko euskararen historia kanpotik eta barnetik</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Urtzi</forename><surname>Reguero-Ugarte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="63" to="160" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Euskararen dialektalizazioaren hastapenetarantz: konbergentzia eta dibergentzia prozesuak Erdi Aroan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Urtzi</forename><surname>Reguero-Ugarte</surname></persName>
+		</author>
+		<ptr target="Gasteiz:UPV/EHU" />
+	</analytic>
+	<monogr>
+		<title level="m">koldo Mitxelena katedraren III. Biltzarra</title>
+		<editor>Ricardo Gómez, Joakin Gorrotxategi, Joseba A. Lakarra &amp; Céline Mounole</editor>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="431" to="444" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Filologiatik dialektologiara Nafarroako euskarazko testu zaharretan barrena (1416-1750) (ASJUren gehigarriak 71</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Urtzi</forename><surname>Reguero-Ugarte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bilbo: UPV/EHU</title>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Euskara nafarrari diakroniatik begira</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Urtzi</forename><surname>Reguero-Ugarte</surname></persName>
+		</author>
+		<idno>617-630. Bilbo: UPV/EHU</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Iñaki Camino, Xabier Artiagoitia, Irantzu Epelde &amp; Koldo Ulibarri (arg</title>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+	<note>Eibartik Zuberoara euskalkietan barrena</note>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<monogr>
+		<title level="m" type="main">The linguistic diversity of aboriginal Europe. Language Log</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Don</forename><surname>Ringe</surname></persName>
+		</author>
+		<idno>2009-01-06</idno>
+		<ptr target="https://languagelog.ldc.upenn.edu/nll/?p=980" />
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.24118</idno>
+		<ptr target="https://doi.org/10.1387/asju.24118" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Beyond comparative reconstruction: subgrouping and &quot;long-distance&quot; relationships</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ringe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Joseph</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eska</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Historical linguistics. Towards a twenty-first century reintegration</title>
+		<editor>don Ringe &amp; Joseph F. Eska</editor>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="256" to="290" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<monogr>
+		<title level="m" type="main">Le gascon. Études de philologie pyrénéenne</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerhard</forename><surname>Rohlfs</surname></persName>
+		</author>
+		<editor>Max Niemeyer (1. argit</editor>
+		<imprint>
+			<date type="published" when="1933" />
+			<pubPlace>Tübingen</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<monogr>
+		<title level="m" type="main">/RT/ taldeen bilakabide diakronikoa eta erronkarieraren lekukotasuna: irudia(k) fintzen. UPV/EHUko Gradu Amaierako Lana</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leyre</forename><surname>Rojo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">n-/l-+ herskari] taldeen bilakabide diakronikoa eta erronkarieraren lekukotasuna: irudia(k) fintzen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leyre</forename><surname>Rojo</surname></persName>
+		</author>
+		<idno type="DOI">10.1387/asju.24107</idno>
+		<ptr target="https://doi.org/10.1387/asju.24107" />
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="143" to="167" />
+			<date type="published" when="2022" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Pirinioetako euskal toponimoak: direnak eta diratekeenak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patxi</forename><surname>Salaberri-Zaratiegi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Pirinioetako hizkuntzak: oraina eta lehena. Euskaltzaindiaren XVI. Biltzarra</title>
+		<editor>Andoni Sagarna, Joseba A. Lakarra &amp; Patxi Salaberri-Zaratiegi</editor>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="1019" to="1048" />
+		</imprint>
+	</monogr>
+	<note>Bilbo: Euskaltzaindia</note>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">Vestiges de phonétique ibérienne en territoire roman</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jean-Joseph</forename><surname>Saroïhandy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RIEV</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="475" to="497" />
+			<date type="published" when="1913" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<monogr>
+		<title level="m" type="main">die ersten Spaltungen des indogermanischen Urvolkes. Allgemeine Monatsschrift für Wissenschaft und Literatur 3</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Schleicher</surname></persName>
+		</author>
+		<ptr target="https://archive.org/details/dieErstenSpaltungendesIndogermanischenUrvolkes/(2023-03-25" />
+		<imprint>
+			<date type="published" when="1953-08" />
+			<biblScope unit="page" from="786" to="787" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<monogr>
+		<title level="m" type="main">Compendium der vergleichenden grammatik der indogermanischen Sprachen. weimar: Hermann Böhlau</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Schleicher</surname></persName>
+		</author>
+		<ptr target="https://archive.org/details/compendiumderve06s-chlgoog/(2023-03-25" />
+		<imprint>
+			<date type="published" when="1961-08" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<monogr>
+		<title level="m" type="main">Die Verwandtschaftsverhältnisse der indogermanischen Sprachen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Johannes</forename><surname>Schmidt</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1872" />
+			<publisher>Hermann Böhlau</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<monogr>
+		<title level="m" type="main">Über die klassifikation der romanischen Mundarten. Probevorlesung gehalten zu Leipzig am 30</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hugo</forename><surname>Schuchardt</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1870" />
+			<pubPlace>Graz; Styria</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<analytic>
+		<title level="a" type="main">Arabako euskara zer da? Gogoetak euskalkien mugez eta haien sailka pe naz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Blanca</forename><surname>Urgell</surname></persName>
+		</author>
+		<ptr target="Bilbo:UPV/EHU" />
+	</analytic>
+	<monogr>
+		<title level="m">Iñaki Camino, Xabier Artiagoitia, Irantzu Epelde &amp; Koldo Ulibarri (arg.), Eibar tik Zuberoara euskalkietan barrena</title>
+		<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="701" to="736" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<title level="a" type="main">Euskerazko doktrinia Anzuelako berba moduan (1825)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Oxel</forename><surname>Uribe-Etxebarria</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="139" to="209" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñigo</forename><surname>Urrestarazu-Porta</surname></persName>
+		</author>
+		<title level="m">gogoetak Euskara Batu Zaharraren hausturaz. Gasteiz: UPV/EHUko Master Amaierako Lana</title>
+		<imprint>
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<analytic>
+		<title level="a" type="main">Auzibidea Burundakoa da, eta euskara? xvii. mendeko euskara apurtxo batzuk eta Burundako euskara garaikidea alderatzen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñigo</forename><surname>Urrestarazu-Porta</surname></persName>
+		</author>
+		<ptr target="https://web-argitalpena.adm.ehu.es/pasa_pdf.asp?File=UFGPd224578" />
+	</analytic>
+	<monogr>
+		<title level="m">Leioa: UPV/EHU</title>
+		<editor>dorota Krajewska, Sergio Monforte &amp; Eneko Zuloaga</editor>
+		<imprint>
+			<date type="published" when="2022" />
+			<biblScope unit="page" from="2022" to="2034" />
+		</imprint>
+	</monogr>
+	<note>Aziti Bihia. Euskal filologia eta hizkuntza la ritzaren adarrak</note>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<analytic>
+		<title level="a" type="main">Internal language classification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Søren</forename><surname>Wichmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Continuum Companion to historical linguistics</title>
+		<editor>Silvia Luraghi &amp; Vit Bubenik</editor>
+		<meeting><address><addrLine>Londres &amp; New york</addrLine></address></meeting>
+		<imprint>
+			<publisher>Continuum Books</publisher>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="70" to="86" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Zuazo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskalkiak, gaur. FLV</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="191" to="234" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+	<monogr>
+		<title level="m" type="main">Euskalkiak, herriaren lekukoak. donostia: Elkar</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Zuazo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+	<monogr>
+		<title level="m" type="main">Euskalkiak, euskararen dialektoak. donostia: Elkar</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Zuazo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+	<analytic>
+		<title level="a" type="main">El euskera y sus dialectos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Zuazo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Irun: Alberdania. IñIGO URRESTARAZU-PORTA</title>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b114">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Zuazo</surname></persName>
+		</author>
+		<title level="m">Sakanako euskara. Burundako hizkera. Iruñea &amp; Bilbo: Nafarroako Gobernua, Hezkuntza departamentua &amp; Euskaltzaindia</title>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b115">
+	<monogr>
+		<title level="m" type="main">Euskalkiak. donostia: Elkar</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Zuazo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b116">
+	<monogr>
+		<title level="m" type="main">Euskalkien sailkapen berriaz zenbait ohar. FLV 129</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Zuazo</surname></persName>
+		</author>
+		<idno type="DOI">10.35462/FLV129.8</idno>
+		<ptr target="https://doi.org/10.35462/FLV129.8" />
+		<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="269" to="291" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b117">
+	<monogr>
+		<title level="m" type="main">Mendebaldeko euskararen azterketa dialektologiko-diakronikorantz. UPV/EHUko doktorego tesia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eneko</forename><surname>Zuloaga</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b118">
+	<monogr>
+		<title level="m" type="main">Mendebaleko Euskara Zaharra: ezaugarriak, kronologia eta geografia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eneko</forename><surname>Zuloaga</surname></persName>
+		</author>
+		<editor>UPV/EHU &amp; Euskaltzaindia</editor>
+		<imprint>
+			<date type="published" when="2022" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

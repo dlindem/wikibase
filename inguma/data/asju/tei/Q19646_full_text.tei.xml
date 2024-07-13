@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">NERBIOI IBARREKO EUSKARA XVIII ETA XIX. MENDEETAN: (I) BIZENTE SARRIAREN BIZKAIERAZKO SERMOIAK</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eneko</forename><surname>Zuloaga</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universidad del País Vasco/Euskal Herriko Unibertsitatea</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">NERBIOI IBARREKO EUSKARA XVIII ETA XIX. MENDEETAN: (I) BIZENTE SARRIAREN BIZKAIERAZKO SERMOIAK</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena</head><p>Lan honetan helburua XVIII. mendearen amaieran eta XIX.aren hasieran Bizente Sarriak idatzitako berrogei sermoi inguru aztertzea da. Hizkuntzaren ikuspuntu historikoa eta dialektologikoa baliatuko ditugu, gogoan hartuta gure asmo nagusia Nerbioi haran iparraldeko 1800 inguruko euskara deskribatzea dela. Sarrera laburraren ondoren, Sarriaren hizkera aztertuko dugu eta egile horrek bere sorterri Etxebarriko bizkaiera zer neurrira arte erabili zuen zehazten saiatuko gara. Horretarako, etxebarritarraren euskara beste leku eta garai batzuetako testigantzekin erkatuko dugu, eta Sarriak bere sorterriko hizkera baliatu ez zuela uste dugunean, erabilitako hizkuntza-eredua zein izan zitekeen aztertuko dugu. Aurrekoekin batera, Sarriaren idazkera ere izango dugu aztergai, kontuan hartuta literatur bizkaiera klasikoa sasoi sortu zela.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>In this paper we will seek to present an historical and dialectological analysis of around 40 sermons writen by Bizente Sarria in the last XVIII th century and the early XIX th century. Our main purpose is to decribe the Basque language in the north of Nerbioi valley around 1800. After a short introduction, we will present the language analisys. At the same time, trying to explore if Sarria used the Biscayan dialect of Etxebarri, we will compare his language with other materials from different places and dates. In the case Sarria didn't use it, we will try to know which pattern he used. Furthermore, we will also focus on his writing style, in relation to the literary biscayan dialect.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>historikoaren esparruan. Aipatu eremuko hizkerak (edo hizkerek) azken mendeotan izan duten bilakabidea ahal beste ezagutzea da gure asmo nagusietako bat, hizkeren edo dialektoen gaineko ikuspegi diakronikoak ezagutza osoagoa ematen duelakoan.</p><p>Esan gabe doa ez daukagula 1800 inguruko soinu-testigantzarik; hortaz, era honetako lanetako ohiko bideak jarraiturik, testu idatziak izango dira baliatuko ditugun iturriak. Euskararen historiaz aritzean, sarri aipatzen dira material-urritasuna eta material horren behar bezalako ezagutza eza. 2 Bizkaiko Nerbioi ibarrean, zorionez, ezin esan genezake urritasun hori hain handia denik, alboko bailarekin parekaturik, behintzat; izan ere, baditugu xvii, xviii eta xix. mendeetako zenbait herritako testuak. <ref type="bibr" target="#b24">3</ref> Bada, lan honetan xviii. mende amaieran eta xix.aren hasieran Bizente Sarria (1767-1835) etxebarritarrak idatzitako bizkaierazko 4 sermoietako hizkera aztertuko dugu. Ikertzailearen lanak deskribapen hutsetik haratagokoa izan behar duela uste dugunez gero, Sarriaren sermoietarik batutako ezaugarriak ematearekin batera, ezaugarrion geografia zein izan zitekeen ere aztertzen saiatuko gara, egileak sorterriko euskara edo kanpoko ereduren bat zer neurrira arte baliatu z(it)uen esate aldera.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1.">Bizkaiko Nerbioi ibarra</head><p>Lan honetan askotan aipatuko dugu Nerbioi ibarra. Hori dela eta, inguruaren gaineko datu batzuk ematea irakurlearen lagungarri izango delakoan gaude. <ref type="bibr">Lehenengo</ref>  Bizente Frantzisko Sarria Lezama 1767ko udagoienean jaio zen Etxebarrin, hots, Nerbioi ibarreko iparraldeko muga-herrietako batean. Ama sorterrikoa bertakoa zeu-rukoetatik gehien bereizten duen puntua fenomeno fonetikoena da" <ref type="bibr">(1994: 41)</ref>. Berezitasun horren karietara, alboko bailara eta herrietan (Arratia, Txorierri, Zeberio) agertzen ez diren hiru ezaugarri nagusi aipatzen zituen basauriarrak: -ie disimilazioa (alabie), /i/ bokal-erdiaren osteko &lt;dx&gt; 9 epentetikoa (egidxe) eta asimilazio bidezko bustidura automatikoa (aitte, bilddurre). Bada, horietarik lehenengo biak bizirik eta sistematikoak ziren, jada, Sarriaren sermoietan.</p><p>2.1.1. Bokal-biltzeetan lehenengo bokala (a edo e) i bihurtzea da ohiko emaitza ondoko batuketetan, artikulu mugatua eranstean nahiz hitz barruan: a + a: aitiac (1), gausia (2), sospechiagaz (2), guerizia <ref type="bibr" target="#b24">(3)</ref>, personia <ref type="bibr" target="#b24">(3)</ref>, aitiaren <ref type="formula">(3)</ref>, arduria <ref type="bibr" target="#b24">(3)</ref>, vicicia <ref type="bibr" target="#b24">(3)</ref>, eleiziaren <ref type="bibr" target="#b24">(3)</ref>, acaberia <ref type="bibr" target="#b24">(3)</ref>, honria (13), erropia <ref type="formula">(14)</ref>, <ref type="bibr">buldia (14)</ref>, dulzuria (18), penia <ref type="bibr">(19)</ref>, alabancia <ref type="bibr">(20)</ref>, dichia (20), garizumia (22), embria (23), eleizia (23). e + a: ganian (1), biar 'behar' (1), fedia (1), atiac (1), gosia (1), vidia (2), ordiagaz (2), gurian <ref type="formula">(3)</ref>, astziariyac 'azeariak' (6), aidiac (6), emotia <ref type="bibr" target="#b0">(9)</ref>, aserria (11), aitaguria (12) isilian (13), juatia (14), vorondatia (18), deleitia (18), betiac (18), erreguiaren (18), semiaren (19), veriala 'berehala <ref type="bibr">' (22)</ref>, nirian (22), izatia <ref type="formula">(22)</ref>, alegriago (30).</p><p>e + e (bokal bikoitzak gorde ez diren kasuetan): 10 dolorietan (1), sierpien (1), echietan (23), urtietan (23). e + o: tristioc (21), accidentioc (39).</p><p>Aurreko arauak baditu, halere, zenbait salbuespen, sail batean nahiz bestean. -ea zaharragoa gorde duten kasuak, 11 esaterako, badaude, bai eta bilakaeran pausu bat gehiago eginda -ie dutenak 12 edo bokal bikoitzak gorde dituztenak ere, baina azken horiek aparteko azpiatal batean aztertuko ditugu.</p><p>Nerboi ibarreko iparraldeko hizkeran nahiz alboko bailaretakoetan -o amaieradun hitzei -a mugatzailea ezartzean -oa daukagu egun: astoa, soloa, ixikoa 'izekoa', gogoa <ref type="bibr">(Arretxe 1994: 48)</ref>. Mende hasieran ere hala bide zen, Azkuek Erizkizundi Irukoitza lanean baturiko datuen arabera <ref type="bibr">(Echaide 1984: 85-86)</ref>. Uriarteren Arrigorriagako dotrinan ere hala betetzen da araua, eta Astigarraga basauriarrak bide beretik jo zuen gehienetan.</p><p>Sarriaren kasua, bestelakoa da, sermoi batzuetan bederen. Izan ere, haren herri eta inguruetako -oa hori erabili zuen maizen:</p><p>inclinacinoa <ref type="formula">(3)</ref>, contracoa (18), estaducoa (18), doaz (18), Salescoac (18), Florenciacoac (18), charrecoac (18), osoan (18), besoac (18), artecoac <ref type="bibr">(19)</ref>, agraducoagoric (20), <ref type="bibr" target="#b0">9</ref> &lt;dx&gt; grafia erabiliko dugu guk, gaur egungo egoeraz ari garenean, sabai-aurreko frikari ahostuna -[ž]-adierazteko. &lt;y&gt; erabili zuen Jon Arretxek: «I bokalaren ostean agertzen den y-ak hainbat lekutan erabiltzen den yod antihiatikoa sinbolizatzen duela, sabai-aurreko frikari ozena, beste batzuk dx grafiarekin isladatzen dutena <ref type="bibr">(ogidxe, arpeidxe, bidxer...)» (1994: 37)</ref>. <ref type="bibr">10</ref> Erakusle pluraletan Sarriak jasoagotzat zeukan eredu bat hautatu ez zuenean, oneic da 'honeek' pluralari dagokion forma erabiliena, eta forma horren gainean ezartzen dira deklinabide-markak ere: oneitaric (7), oneitan (14), gustionein (18), oneinac (30), oneicaz (39). Testuan hirugarren pertsonako izenorde indartu arrunta eurec den arren, birritan aurkitu dugu eureic (20 eta 31) aldaera ere. 11 esperanzea (25), eriyotzea (30), señorea (30), obrea (19); videa (30), parcatutea (30), maitearen (37), necesidadea (37), viorcea 'bihurtzea' (2), quea 'kea' (7), comutea 'gomutea <ref type="bibr">' (19)</ref>, piedadearen <ref type="bibr">(20)</ref>. <ref type="bibr">12</ref> garien 'garean' (29), Elesien (6); erriel (2), aurrien <ref type="formula">(7)</ref>, azien 'atzean' <ref type="bibr" target="#b0">(9)</ref>, urtien 'urtean' (18), artien (31), asquenien (31). agraducoa <ref type="bibr">(20), amorosoaren (20), sacrilegioscoac (20), onelangoac (20)</ref>, mortalecoa (20), afliccinoa (22), ministroac (22), obispoac (23), credoa (23), oracinoac (23), artecoac (30), gorrotoa (30), zoroa (30), gogoa (37). Aitzitik, sermoi batzuetan, gutxitan, baina beste batzuetan ia sistematikoki, Bizkaiko ekialdeko 13 -ua ere baliatu zuen (adizkiak barne): 14 zorionecuac (1), gogua (2), asmua (6), oñetacuac (7), ossua <ref type="bibr" target="#b0">(9)</ref>, artua 'artoa' (12), leescua (13), ezpadua (13), gogua eruan <ref type="formula">(14)</ref>, gozua (22), asmuetan (23), senduena (25), benetacuac (25), necosuac (29), asmuen (29), juango (29), Jangoicua (34), lenengua (34), eguan 'egoan' (34), zuaze (34), eruan (34), beinguan (35), anchinacua (35).</p><p>Hori horrela, badugu zantzuren bat Sarriak bestelako eraginik izan zuela pentsatzeko.</p><p>Kasuren batean bi bokalen artean b epentetikoa ageri dela esan beharra dago, bestalde: picaroba (11), bautismoba (38), amodiyobagaitic <ref type="bibr">(20)</ref>. Juan Mateo Zavalak hala idatzi zuen bere gramatika-lanean azken fenomeno horren inguruan: "cuando la o roza con la a les hacen mediar una b, diciendo v. g. "doba" por "doa"" (1848: 55). Halere, ezaugarriak ez dauka, inondik inora, Orozko eta Baranbio aldean, antza, izan zuen hedapena ez eta sistematikotasuna. Are gehiago, badirudi ezaugarri baten azken arrastoa dela. Gogoratu ditzagun, bide beretik, Koldo Ulibarriren hitzak, Orozkoko euskaraz ari dela: "Gure lurraldean garrantzitsuena duda barik -o + -a &gt; -oba dugu, ikertzaile guztien arabera Orozkon eta Baranbion baino ez zelako gertatzen" <ref type="bibr">(2008: 197)</ref>. Ezaugarri horren geografia zabalagoa izan zela erakusten dute, hortaz, Sarriaren idatziek; ez dakigu noiz, baina badirudi Nerbioi haraneko beste eremu batzuetan hedatuago egon zela.</p><p>u amaieradun hitzei mugatzailea ezartzean bi emaitza ageri ditu Sarriak: ua (gehien bat dokumentatzen dena) eta epentesidun uba (nahiz uva): pensamentuba (1), euvan <ref type="formula">(3)</ref>, barauba (6), Christinaubac <ref type="formula">(7)</ref>, consagraduba <ref type="formula">(7)</ref>, gustuban (7), errubagaitic (7), munduban (7), mandamentubac (11), erruba (12), zabaldubagaz (13), gauba <ref type="formula">(18)</ref> Lehenengo begirada batean -uba horrek Markinako idazle klasikoak gogora badakarzkigu ere, badirudi Bizkaiko mendebalean ere bizirik egon zen ezaugarria dela.</p><p>Uriartek Arrigorriagako dotrinan halakorik jaso ez arren, badirudi aurreko mendeko Orozkoko 1739ko otoitzetan, otoitzen berezko izaera gordetzailea gogoan hartuta, ahul baina bizirik zegoela fenomenoa, hitz batzuetan behintzat <ref type="bibr">(Ulibarri 2008: 197</ref> tikoa ez zela, baina bizirik zirauela. Gaur egun fenomenoaren arrastoren bat baino ezin daiteke aurkitu, hala nola, gau hitzean: Nerbioi bailarako iparraldean sistematikoki entzuten dira gaube 'gaua', gaubon 'gabon' eta antzekoak <ref type="bibr">(Arretxe 1994: 120)</ref>.</p><p>Beste kontu bat da, noski, Sarriak zein puntura arte testuratu zuen ezaugarri horren egiazko erabilera. Izan ere, sermoi batzuetan ia sistematikoki ageri da: non eta Nerbioi ibarrekoak ez, baina Bizkaiko ekialdeko hizkeretakoak diren beste ezaugarri batzuk ere sistematikoki erabiltzen dituen hogeita hamalaugarrena bezalako sermoietan.</p><p>Sarria eta Astigarraga basauriarraren erabilera-proportzioak aztertuz gero, espero izatekoa da ezaugarri hori bigarrenarenean gutxiago agertzea, baina biek egiten duten erabileren aldea handiegia begitatzen zaigu: etxebarritarrak zazpiehun bat adibide dakartza, eta basauriarrak ehun eta hogei inguru. Datu objektibook eskuan, pentsatzekoa da, kasu honetan ere (baina, kontuz, ez sermoi guztietan), Bizkaiko ekialdeko autoreren batek etxebarritarra "kutsatu" egin zezakeela. <ref type="bibr">15</ref> u + e kontestu fonikoan aurreko fenomenologia daukagu, hots, baditugu u + e &gt; ue eman duten adibideak (gehienak), baina baita epentesidun -ube-dunak ere (adizki eta bigarren pertsonako izenordeetan, oraingoan):</p><p>[ynez] eguizube (7), ceuben <ref type="formula">(7)</ref>, norzubei <ref type="formula">(7)</ref>, dozuben <ref type="formula">(7)</ref>, zubec <ref type="formula">(7)</ref>, santuben <ref type="formula">(7)</ref>, badozube <ref type="formula">(7)</ref>, dozuben (7), badeuzazube (11), ditubezanac (13), badaquizube (13), deguizubela (14), bajatzube (14), pecatuben (34). /i/ bokal-erdiaren ostean a, e edo o bokalak daudenean, &lt;y&gt; nahiz &lt;j&gt; grafemez, sabai-aurreko frikari ahostuna adierazten duen kontsonante epentetikoa ageri da sistematikoki, euskal jatorrizko hitzetan (hitz arrunt zein adizkietan) nahiz sistematizaturiko mailegu eta kanpoko leku-eta pertsona-izenetan. Sistematikotasun horren dozenaka adibide ditugu:</p><p>Hitzari elementuren bat gehitzean sorturikoak: eguiya (1), andiya (1), soberbiya (1), sarriyago (2), erromeriyetaraco (2), veguiyac (2), guztiyau (6), astziariyac 'azeariak' (6), loiya (7), biyac (7), liriyoen (7), idija (11), ichumendija (12), historiyan (15), janariya (18), garviyan (18), odaiya 'hodeia' (19), maiyan (22), zariya (22), aldiyac (23), oguiyen (23), andiyerija (25), goiyan (29), euriya (30), erruquiya (30), adoragarrijac (35), chorijac (37).</p><p>Hitz barrukoak (maileguak eta kanpoko izen bereziak barne): Greciya (1), biyar 'bihar' (1), poderiyo (1), areriyoen (1), martiriyo (1), oficiyoa (1), meriyendataraco (2), Inocenciyo (2), ubijentu 'ubendu', 'ukendu' (3), Italiya <ref type="formula">(3)</ref>, amodiyo <ref type="formula">(7)</ref>, viyozezco (7), vijoceco (11), urliyagaitic (13), valijo <ref type="formula">(14)</ref>  <ref type="bibr">(Mitxelena 1990: 111 eta hh.)</ref>, harrigarria dela zenbat bokal bikoiztu ageri diren bere testuetan. Are harrigarriagoa bihurtzen da kontua garai ezberdinetan inguruko autore eta idatzietan bokal geminatuok izan duten leku eskasa gogoan hartuz gero: oso urriak, salbuespenak, dira Mikoletarenean ageri direnak <ref type="bibr">(Pagola 2002: 203)</ref>, Viva Jesús dotrinakoak 16 eta Orozkoko 1739ko otoitzetakoak <ref type="bibr">(Ulibarri 2008: 193</ref> Urriak dira, oso, kontsonante baten desagertzearen ondoriozko geminazioak: leenago (1), leenagoco (4), leescua 'legezkoa' (13), beeratu 'beheratu' (25), zaarrian (25), leezco 'legezko' (37).</p><p>Lehen hitzean eta bertarik eratorritakoetan agertzen da sarrien ee, baina ezin esan genezake ziurtasun osoz hori horrela zenik autorearen euskara jatorrizkoan, beste nonbait irakurritako forma ala fosildutako elementua den. Izan ere, inguruko eta garai ezberdinetako testuekin erkatuz gero, honakoan ere Sarria (ia) salbuespena dela dirudi: Refranes y Sentencias [= RS] bilduman ez dago hitz horren forma geminaturik, Mikoletak len dakar 'antes' adieran <ref type="bibr">([1653]</ref> 1897: 11), Orozkoko otoitzetan bitan ageri da leelengoan, Astigarragarenean adibide bat baino ez dago, eta ez dago halakorik Uriarteren Arrigorriagako dotrinan.</p><p>Aurreko multzoetatik kanpo geraturiko geminazioak lirateke beeratan 'beragan' (7) (behar bada behe hitzaren parekotzat jo zuelako) catee 'katea' (22) asimilazioduna edo meesprecietaco eta meesprecietan (7), azalpen logikorik gabekoak.</p><p>Azpiatala ixteko utzi ditugu aa eta ee ez diren zenbait geminazio-kasu bakartu. Horien artean azalerrazenak -ok mugatzaile hurbila ezartzerakoan sortutakoak dira: confesiooc (21), erregalooc (27). Bestalde, aipagarria da lur hitza u bikoitzaz emateko Sarriak daukan joera: luurrian (1), luur (1), luurreco (3), luurra <ref type="formula">(3)</ref>, luurraren (18). Era horretako adibide bakarra izan arren, ezin utz genezake aipatzeke hemezortzigarren sermoiko suuan ere.</p><p>2.1.3. Gaur egun sistematikotzat jo dezakegu Nerbioi ibarreko iparraldean goiko bokalek ondoko irekiak ixteko daukaten joera. 20 Sarriaren testuez ari garenean, ordea, joeraz bai, baina arau eta sistematikotasunaz ezin hitz egin genezake. Izan ere, fenomenoaren lekukotasun asko daukagun arren, kontrako adibide franko ere bada. Kontestu foniko ezberdinetan aurkitu dugu fenomenoa: Hitz barruan, tartean kontsonanteak egon nahiz egon ez: izen 'izan' (1), chinguer (1), quisqueldutia (1), siquetu (1), citelai (1), bulerretic (1), iqueza 'ikatza' (1), coitedu (1), guressoen (2), uguezabac (2), bedeinquetuac <ref type="formula">(</ref>  <ref type="bibr">(Zuazo 2008: 72)</ref> hitz amaieran -e duten hitzetan -a agertzeak. Sarriaren sermoitegian araua betetzen duten eta egun bizirik dirauten ohiko adibideak ditugu:</p><formula xml:id="formula_0">andra (1), laba (1), lora (3), landara (7), oba 'hobe' (13), obato 'hobeto' (20).</formula><p>Baina baita gaur egun aurkitzen ez ditugunak ere: labe (1), lorezuba (7). Halakoekin batera, esan bezala, badira fenomeno hori ageri duten baina gaur egun entzuten ez diren aldaerak: Etxebarritarraren sermoietan oraindik bustidura ez zen sistematikoa, ez zen araua, edo araua bazen, autoreak ez zuen horrela islatu, behintzat. Alabaina, bustidura-kasuak eduki, baditugu. Oro har, xix. mende amaierako eta xx.aren hasierako aipatutako autoreen joeraren aurrekaritzat har dezakegu; ondokoak dira darabiltzan bustiduren kontestuak:</p><formula xml:id="formula_1">entzula (2), adisquida (3), banqueta 'bankete' (22),</formula><formula xml:id="formula_2">i + n &gt; ñ: miña 23 (1), naciño (1), usaiñaren (1), iñoz (1), erreñuba (1), baño (1), beñgo [baten] (1), Antoniño (3), iñez [eguin] (3), oñetan (4), matrimoniñoa (6), nozi- peñeren [baten] (6), bardiña (8), ceiñetan (7), protecciñoa (7), demoniñoc (11), orañ (13), prisiñoeric (20), iñacitua 'oinaztu' (22), ipuñ (23), zereguiña (25), pasiño (25), oceiñacaz (31), pisciñan (39). i + s &gt; ix: gaissoa (1), gox (14), issilic (31), elesacuac (12).</formula><p>22 Kontuz, halere: «la palatalización no está bien señalada en los diccionarios generales modernos y tampoco se indica siempre de manera consecuente en textos antiguos (...) En vizc. ant. se lee baño y bano en el mismo texto; en RS hay ynoc, ynox, pero iñori, en Cap. inoc, iñor, iñori, etc.» <ref type="bibr">(Mitxelena 1990: 184)</ref>. Mitxelenaren aipua gogoratuz, Altzibarrek: «bustidura, oro har, ez da garbi eta jarraikortasunez markatu izan idatziz, premiazkotzat jo ez delako, nonbait (...) Testuetan gehien bat markatua grafikoki, hain zuzen ere, n eta l-rena da, ñ eta ll bidez, gainerako kontsonanteena ez bait da agertzen i bokalaren ondorik bederen, Resurrección María Azkue ohartu zenez (Evolución de la lengua vasca, Bermeo, <ref type="bibr">Gaubeka, 1935</ref><ref type="bibr">Gaubeka, , 60.or.)» (1993</ref>. <ref type="bibr">23</ref> Sufritzen dena nahiz ahokoa, ez ditu bustiduraren bitartez ezberdintzen.</p><p>i + l &gt; ll: illen 'hilen' (1), millare (1), milla (1), pilloric (1), villatuco (2), jozquilla (2), nescatillia <ref type="formula">(3)</ref>, mutillen <ref type="formula">(3)</ref>, ille 'hile' (6), espillu (8), erositzailleric <ref type="formula">(9)</ref>, [gueratu] dilla (11), ibilli (11), matrallan (11), gordezalletan (22), eguilliagan (25), billostu (25), lloba (29), mallu (30).</p><p>i + tz &gt; tx: gach (1), bacochari (2) vicocha <ref type="formula">(9)</ref>, achaquijaric <ref type="formula">(14)</ref>, achurtu (18).</p><p>Aurrekoez gain, aipatzekoa da kale hitzaren callian (31) aldaera darabilela, bizirik dagoen erabilera izanik, gainera. 24 2.2.3. Hitz arruntetan, orokorrean, bokal arteko &lt;g&gt; gorderik ageri da Sarriaren izkribuetan ezagun berban (eta bertarik eratorritakoetan) salbu, non kontsonantedun formez gain -esagutu <ref type="formula">(22)</ref>, esagutuco <ref type="formula">(22)</ref>, esagututen (23)-, &lt;g&gt; gabekoak aurrekoak beste agertzen baitira:</p><formula xml:id="formula_3">essauturic (1), esaututeco (3), esaunac (4), esauqueraraco (18), esaututen (21), esauquera (27), esaugarri (30).</formula><p>Egin-en adizkietan, bestalde, bietariko kasu asko ditugu. Bere horretan ageri denean, hots, laguntzaile ez delarik edo laguntzaile izanda bestelako markarik ez daukanean, oro har, &lt;g&gt; eta guzti ageri da:</p><formula xml:id="formula_4">eguin (7), eguingo (7), [yfini] eguizu (9), eguinagaz (13), eguin [evan] (20), eguin [din] (20), [iguez] eguingo (21), [emon] eguizue (27), [ecarri] eguizue (27), eguingo [dodala] (31), eguin [eudien] (31), eguinic (32).</formula><p>Kontua bestelakoa da egin horrek laguntzaile legez markaren bat duenean, ezen badira kasuak non &lt;g&gt;-a gorde egiten den:</p><p>[bota] deguiela (6), deguizuen <ref type="formula">(6)</ref> 2.2.4. Sarriaren sermoitegian bi modutan agertzen da ez adizlaguna: isolaturik eta hurrengo hitzari (aditza, normalean) loturik. Lehenengo kasuan ez da inongo aldaketa fonikorik gertatzen, baina bestelakoa da egoera bigarren kasuan. Izan ere, hurrengo hitza leherkari ahostun batekin hasten denean, gaur egun legetxe, batuketak ahostunaren ahoskabetzea eragin ohi du: <ref type="formula">(3)</ref>, eztituezalaco (4), ezteguien (7), eztogu (8), ezcarienocgaitic (9), espequijan 'ez baekian' (11), estot (13), espequijen 'ez baekien' (13), estagoan (20), ezpanoa (23), eztanagaz (23), eztoguna (23), eztoienac (24), ezpegui [iñoc uzti] 'ez begi' (39).</p><formula xml:id="formula_5">eztala (2), ezta (2), eztago (2), eztaude 'ez daude' (3), eztozue</formula><p>Hurrengo hitza &lt;n&gt; sudurkari edo &lt;l&gt; albokariz hasten denean, aitzitik, adizlaguneko txistukaria galdu egiten da: eneunque [gura] (2), eleuquialaco <ref type="formula">(7)</ref>, eneuzan (11), enaz <ref type="formula">(21)</ref> Azkenik, beste txistukari batekin batzean, bi emaitza agertzen dira: lehenengoan, txistukari frikariak bakandu egiten dira: ezeitiezan (2), ezan [izango] <ref type="formula">(3)</ref>, ezan [gueratu] (3); bigarrenean, ordea, frikariak bizkar-hobietako afrikari ahoskabe bihurtzen direla ematen du, eta "ematen du" diogu, grafia nahasteren bat ere egon daitekeelako:</p><formula xml:id="formula_6">etzan [gueratu] (8), etzare [ondo confessaduco] (34), etzituzan (34).</formula><p>Era horretako adibide gutxi daukagun arren, sabaiko nahiz sabai-aurreko frikari ahostuna dagoenean, adizlaguneko txistukaria galdu eta frikari ahostunak sabai-aurreko afrikari ahoskabe bihurtzen dira: 25 echacazan [falta] (30), echaco [zatituten] (37), echaco [aussituten] (37), echat 'ez jat' (39).</p><p>2.3. Morfologiak era honetako ikerketa historikoetan daukan garrantzia azpimarratzekoa da, oro har, ezaugarri eta, ondorioz, testuen kronologia finkatzeko erabakigarria delako. Hori horrela, oso baliagarri izango zaizkigu ondoko orrialdeetan aztertuko ditugun morfologia-ezaugarriak, besteak beste, Bizente Sarriak sermoietan erabiliriko hizkera ezaugarritze aldera, hots, berritzailea, gordetzailea ala bien artekoa den erabaki ahal izateko. Sermoietan ageri diren ezaugarri guztiak aztertzeak luzeegi joko lukeelakoan, idatzion kronologiaz zerbait esan eta sistematikotasun minimo bat gordetzen duten kasuak baino ez ditugu hona ekarriko.</p><p>2.3.1. Euskarazko mugatzaile arruntak (-a singularra eta -ak plural orokorra) darabiltza Sarriak. Bada, aipagarria da, mugatzaile arruntez ari garelarik, testuetan ageri diren bi ezaugarri zahar edo arkaismo. Alde batetik, errege hitza mugatzailerik gabe erabiltzeko joera zaharrari eusten dio etxebarritarrak:</p><p>Antioco erreguec legues <ref type="formula">(7)</ref>, justuen erreguecaz <ref type="formula">(19)</ref> Aurreko adibideak halakoak ez badira ere, sarri mugatzaile itsatsi horiek pertsona eta deklinabide marka bera daraman erakusle aurrekaria daukate. 27 Gogoratu beharra dago, bide batez, oraindik orain Nerbioi ibarreko albo batean dagoen Zeberion bizirik dirautela bi erakusledun izen sintagmek (ik. <ref type="bibr">Etxebarria 1991: 129-131 eta 133-134)</ref>. Bizente Sarriarenak dira ondoko adibideak:</p><p>au Fedeco articuluau (1), ac suac (1), au guizonau (1), au gustiyau (1), au vicimoduau (1), orreic escu eta oin zulatuoc (1), eguiteco gausau (1), aec zordunac <ref type="formula">(2)</ref>, vere leguien erreglau (2), au sospechau (2), a irabaciya <ref type="formula">(2)</ref>, au ocasinoau <ref type="formula">(2)</ref>, au berau <ref type="formula">(3)</ref>, au pensamentu edo sospechau <ref type="formula">(3)</ref>, oneic aziqueroc <ref type="formula">(3)</ref>, au gradiyau berau <ref type="formula">(3)</ref>, ori alcondaraori <ref type="formula">(9)</ref>, onec damuonec <ref type="formula">(9)</ref>, au pecatu eguiten damuau <ref type="formula">(21)</ref>, au demporau <ref type="formula">(23)</ref> Deklinabide-kasu guztien berri ematea alferrikakoa litzateke lan honetako asmoetarako, zalantzarik gabe. Jakin badakigu badirela zenbait kasu azken mendeotako hizkuntzaren bilakabidean beste batzuek baino garrantzi handiagoa izan dutenak, ematen diguten informazioa dela eta. Hori horrela, horiei baino ez diegu helduko hemen.</p><p>2.3.4. Bizkaiera zaharraren deklinabideaz dihardugularik, badakigu ablatiboa izan zela kasu berezienetarikoa, bereziena ez esatearren: "oso berezia egiten zaigu, ez soilik gainerako euskalkiei begiratuaz, baina baita B modernoaren alboan ere" <ref type="bibr">(Lakarra 1996: 158)</ref>. <ref type="bibr">30</ref> Bizente Sarriaren testuetan ez dugu, bada, bizkaiera zahar hartako -rean ez eta horren gainean eraikitako -reanik pleonasmorik aurkitzen, 31 ez bada oraindik ere lantzean behin eta hiztun zaharrenen ahotan entzun daitezkeen fosildutako formetan: utza da confesino gustiya, eta arien ve pecaturic p[ar]catu baga eranziten deuzo <ref type="formula">(9)</ref>, arien ezan parcatu, eta contu eguin biar da eztala oraindo arien confesadu <ref type="formula">(21)</ref>, gusti-gustiyac <ref type="bibr">27</ref> Mugatzaile hurbilon agerrera «errazten» duten kontestuak zein diren jakiteko, ik. <ref type="bibr">Arejita (2008: 72-73)</ref>. <ref type="bibr">28</ref> Gaur egun hiztunengan bizirik eta indartsuen dagoen bilakaera da hori, baina dardarkaridun formak ((h)areik) ere entzuten dira. Bestalde, e bikoitza daukan salbuespen bakarra aurkitu dugu Sarriaren sermoi-bilduman: aeec arima justu eta santuac <ref type="bibr">(19)</ref>. <ref type="bibr">29</ref> Oso gutxitan ageri dira e bikoiztuak (oneec, orreec) erakusleetan. <ref type="bibr">30</ref> Oso gogoan edukiko badugu ere, hemen ez dugu kasuaren bilakabide historikoa azalduko. Ik. horretarako <ref type="bibr">Lakarra (1984</ref><ref type="bibr">Lakarra ( ) eta (1996</ref>. <ref type="bibr">31</ref>   <ref type="formula">(1)</ref>, eguneric egunera (1), tratu deunguetaric <ref type="formula">(2)</ref>, buru oneitaric <ref type="formula">(2)</ref>, vere gaztetazuneric <ref type="formula">(3)</ref>, ez urteric bertaric <ref type="formula">(3)</ref>, aziqueraric acaberara <ref type="formula">(3)</ref>, bota dau goiric <ref type="formula">(3)</ref>, nagocietaric <ref type="formula">(7)</ref>, amodiyo onetaric <ref type="formula">(8)</ref>, pecatu mortal gustiric <ref type="formula">(9)</ref>, confesadu zanic onaco demporia <ref type="formula">(9)</ref>, ocasinoetaric <ref type="formula">(9)</ref>, umechu dirianaric <ref type="formula">(12)</ref>, Ynfernuric libradu <ref type="formula">(14)</ref>, padeciduten even gacharic (15), viciyo onetaric <ref type="formula">(18)</ref>, araguisco pecaturic lenago datozala <ref type="formula">(18)</ref>, datos vere gueiyenac edo bai euretaric asco alango loitazunetaric <ref type="formula">(18)</ref>, libradu cituzan garvietaric bestietaric baño <ref type="formula">(18)</ref>, joan zan aric <ref type="formula">(18)</ref>, vegui arteric <ref type="formula">(19)</ref>, ceuboc beretaric ateraco dozuen <ref type="formula">(19)</ref>, carcela bateric bestera <ref type="formula">(19)</ref>, aric egun guichi barru <ref type="formula">(23)</ref>, eleiza-ateric campora (23), alde bateric bestera <ref type="formula">(24)</ref>, oneric aurra <ref type="formula">(25)</ref>, gure arimen aurreric (25), uritiric (25), 32 aric etorrico dala <ref type="formula">(27)</ref>, gau erdiric vera <ref type="formula">(27)</ref>, bustin-pillo bateric (29), echeric joan (31), quendu euzan espatia escuric (31), gaurric (36), Egiptoric atera (36), gorpuz santuric odola botaten (38).</p><p>Bizidunetan, -ganik aurkitzen dugu, baina ezin esan genezake bizidunei bakarrik loturiko forma denik. Izan ere, ondoko adibide zenbaitek balizko esklusibotasun horren kontra egiten dute:</p><p>Christinauacganic (1), niganic (1), beraganic (1), noganic (2), lapurraganic (2), humiacganic (2), ozeinacganic (2), gueuganic (21), guizon azitu orreganic (23), baina: demporaganic (18), maliciyaganic <ref type="formula">(22)</ref>, burreiñeganic (29).</p><p>Hori horrela, Sarriak bizpahiru hamarkada arinagoko Olaetxea laukariztarrak bezain hertsiki jokatu ez zuela esan beharra dago; hots, etxebarritarrarenean baditugu prosekutiboko formak ablatiboaren lekuan, forma zahar nahiz berridunarekin, baina ez -rik / -tarik dauzkagun kopuruan: -ti: bertati (1), beste aldeti (1), sartuten yaco esterriti edo gargantati (1), euren escuetati <ref type="formula">(3)</ref>, Jesuchristoren esaneti <ref type="formula">(3)</ref>, ceruco videti (4), hormien barruti <ref type="formula">(6)</ref>, bertati irago (11), erreguiaren aldeti <ref type="formula">(18)</ref>  <ref type="formula">(2)</ref>, lenengoco vide zabaletic (4), urten evan uritic (4), burutic bera (6), eurenetic <ref type="bibr" target="#b0">(9)</ref>, berbertatic iragoten jat (11), uritic campora (12), pecatu onetatic (13), pelleburuetatic (13), ecin projimua icusitic (13), guizon onen gorpuzetic (15), demporaganic (18), mundua eguin zanetic (18), emetic <ref type="formula">(21)</ref>, zeure partetic <ref type="formula">(25)</ref>, azpitic (25), andic badator <ref type="formula">(27)</ref>, artu nendun escutic (30), Apostoluaren aotic (32), Cerutic (34), escupetic (35), pecatutic ateretaco (35).</p><p>Motibatiboari 33 dagokionez, Sarriak zurruntasun handiz jokatu zuen: ez dakigu herriko hizkeran hala izango zen edo beste nonbait entzun edo ikasita forma jaso(ago)tzat zeukalako horrela baliatu zuen, baina -gaitic da deklinabide-kasu honetan erabilitako forma, ia salbuespenik gabe: <ref type="formula">(2)</ref>, agaitic (2), aussegaitic (11), projimubagaitic (13), mutil batgaitic <ref type="formula">(13)</ref> Erabilera horrek baditu, noski, salbuespenak, gehienak pertsona-izen berezietan, erakusleetan eta bat zenbatzailean:</p><formula xml:id="formula_7">orregaitic (1), Christinaugaitic (1), icaragarritazunagaitic (1), pecatu originalagaitic</formula><p>Abraneri (1), alcarreri biraoca (1), oneri pusquechu bat (2), santu orreri <ref type="formula">(3)</ref>, escrivau bateri <ref type="formula">(3)</ref>, aingueru bateri <ref type="formula">(3)</ref>, prudentezat dauquien bateri (4), escrupuloso bateri (4), berorreri (7), andra christiana bateri (7), verorreri <ref type="bibr" target="#b0">(9)</ref>, guizon bateri <ref type="formula">(15)</ref>  <ref type="bibr">(Zuazo 1998: 198).</ref> 2.3.6. Genitiboari gagozkiolarik, salbuespenak diren bi joera aipatuko ditugu. Oro har, Sarriak uzkurdurarik gabe eman zituen genitibo-kasuko atzizkiak, hots, -(a)ren (mugagabe eta singularra) eta -en (plurala eta, kasu gutxi batzuetan, singularra), salbuespenak badiren arren. Zenbaitetan, baina, aurreko joera, joera kultista dela erakutsirik, uzkurduradun genitiboak agertzen dira testuan:</p><p>vere barruan aurrian 'barruaren' (1), echian barruan 'etxearen' (18), principen bateri 'prinziperen' (19), Curuzian oñian 'gurutzearen' (25), ambesten artian 'hainbesteren' (29), zeure buruen contra 'buruaren' (31), sacerdotian verbacaz 'sazerdotearen' (38).</p><p>Aurreko salbuespenak dudarik gabe Sarriaren garaiko euskararen lekukotzat (eta zaharragotzat) ditugunez gero, beldurrik gabe esan genezake halako uzkurdurak baztertu eta forma osoagoetara jotzeak etxebarritarraren joera kultista islatzen duela.</p><p>Genitibo kasuan baditugu, bestalde, hitz amaieran bokala bai, baina dardarkaririk ez daukaten kasu batzuk, non nahasteak sor baitaitezke:</p><p>inoen <ref type="formula">(2)</ref>, inoena (2), ascoen (2), Aita San Franciscuen erreliginora <ref type="formula">(3)</ref>, ascoentzat (6), apostolu S(a)n Pabloen <ref type="formula">(9)</ref>, actuembat 'akturen bat' (11), vicimoduembat <ref type="formula">(12)</ref> 1954an Florentino Castaños-ek artikulu labur baina interesgarria argitaratu zuen "El genitivo en vizcaíno antiguo" izenburupean. Bertatik hartutako ondoko aipuak aurreko zerrendako kasu batzuk, behintzat, azaltzen ditu, mendebaleko euskara zaharrean ohikoak zirela azaltzen baitu: "En los pronombres, sin embargo, aparte del genitivo de los personales, en -re, el gen. sin -r-es lo que domina" (1954: 67).</p><p>Castañosek Betolaza, Capanaga, VJ eta RS bildumako adibideak ematen ditu baieztapenaren frogagarri. Bada, Sarriak joera zahar horrekin bat egiten duela begi-bistakoa da.</p><p>Hemen gehien interesatzen zaizkigun kasuak, ordea, singularrari dagozkion baina -en forma daukaten genitiboak dira, hiru arrazoi tarteko: alde batetik, sistematikotasun ia erabatekoa gertatzen delako hitz batzuetan; beste alde batetik, arestian aipatutako nahasteak ekidin behar direlako, eta, azkenik, bestelako arkaismoren bat azaltzeko baliagarri ditugulako.</p><p>Esan bezala, berba batzuetan ia sistematikoa da -en forma, hala nola, Jaungoiko hitzean. Erlijio monoteista batez ari garenez gero, argi dago Jaungoiko bakarraz ari dela Sarria. Halaber, singularrak dira aita, semea eta izpiritu santua, baina horiek ere -en formaz agertzen dira. Bada, kontua ez dirudi Sarriaren erabilera, joera edo hautua denik: Orozkoko 1739ko otoitzetan <ref type="bibr">(Ulibarri 2008: 193)</ref>   <ref type="bibr">(Castaños 1954: 61)</ref>.</p><p>-aren &gt; -en daukagu, hortaz, aurreko kasuetan. Zer gertatzen da, bada, Aita San Franciscuen erreliginora <ref type="formula">(3)</ref>   <ref type="formula">(3)</ref>, artu cenduen arteguinocoa (6), emon arteguiño <ref type="formula">(7)</ref>, mundo[a]ren azquen edo acaberaguiño (8), animaliguinocoetan (18), pagatu arteguino <ref type="formula">(19)</ref>, philosopho gentilguinoco <ref type="formula">(22)</ref>, descansadu arteguino <ref type="formula">(22)</ref>, oneguino <ref type="formula">(22)</ref>, calvarijoguiño (25), noguino elduten dan (29), orainguino (30), orainguinoco (30), Poitiersguino (38).</p><p>-raino hirutan baino ez dugu aurkitu bizkaierazko sermoietan: noraiño (34) eta lurreraño (37, birritan). Bizkaiko tradizioan hainbatetan agertzen den -ragino ere sarri agertzen da Sarriaren sermoietan: asurretaraguiño (23), eguneraguino (29), bateraguino (30), orduraguino (31), luurreraguino (34), noraguino (35).</p><p>2.3.8. Instrumentalaz labur arituko gara: zerabilenean, ohiko -z formaz egin zuen Sarriak. Atzizki horren forma luzatu -zaz hirutan baino ez da ageri, eta hiruretarik bitan sermoi berean eta postposizio aurreko erakusleari loturik: 36 onezaz ostian (37, birritan). Badago, bestalde, kasuren bat non instrumentalaren eta soziatiboaren arteko nahasketa ageri den: onezaz guztiagaz (1) daukagu kasu batean, hots, instrumentala eta soziatiboa, beste batzuetan onegaz guztiyonegaz (30) erako egiturak (soziatibo kasua erakusle nahiz hari loturiko elementuan) ageri diren lekuan. Kasu argiagoa da, beharbada, ondokoa, non soziatibo-markak instrumentalarena ordezkatzen baitu: eguinagaz aimbeste miragarrisco mesede (39). Bide batez, egun gailendutako ordezkapena dela esan dezakegu, Nerbioi ibar iparraldeko hiztunengan bederen, instrumentala kasu fosildu eta klitxetuetan baino ez baitarabilte <ref type="bibr" target="#b31">(Arretxe 1994</ref><ref type="bibr">: 92, Salazar 2001</ref>.</p><p>2.3.9. Izenordeei dagokienez, bi joera baino ez ditugu aipatuko, gainerakoa arruntzat jo daitekeelako. Alde batetik, Sarriak pertsona-izenorde soil nahiz indartuak arau jakinik gabe erabili eta txandakatzen zituela zehaztu behar dugu; esan nahi baita, Linschmann-Aresti legearen arrastorik ez dagoela.</p><p>Bestalde, aipatzekoa da, edutezko izenordeen sailean, lehenengo pertsonaren forman en-erroa dagoela. Are gehiago, erro zahar horren gainean eraikitzen dira era horretako adibide asko eta asko, hots: ene da lehenengo pertsona singularrari gehienetan dagokion edutezko izenordea. Bokatibo eta harridurazko perpausetatik 37 haratago doan erabilera da hizpide duguna, noski: ene viyotzen gaiztoqueriya (6), enzun eguizu orain ene doctrina edo icasvidia (6), ene ezpanac <ref type="formula">(7)</ref>, espada ene asmua <ref type="bibr" target="#b0">(9)</ref>, laster eguingo dala enia <ref type="formula">(18)</ref> Edutezkoen artean nire-ren zortzi adibide baino ez ditugu aurkitu, hots, oso gutxitan agertzen da ene-rekin erkatuz gero. en-erroaren erabilera edutezko izenordeetatik haratago doa kasuren batean, gainera. Horren lekuko dira oin horren gainean deklinabide-atzizkien bitartez eraikitako beste forma batzuk: ain exemplu andico izan da enezat (18), emon deguizun eniai <ref type="formula">(19)</ref>, emon deguizun eniai <ref type="bibr">(19)</ref>. Dena dela, badirudi azken erabilera hori murritza zela. Izan ere, oso kasu gutxi aurkitzen ditugu eta, ni-erroaren gainean eraikitakoak askoz ere gehiago dira: suritu eguidezu niri vere ene arcondaria <ref type="bibr" target="#b0">(9)</ref>, eguizube nigaz <ref type="formula">(20)</ref>, nirezat idiguiric <ref type="formula">(29)</ref>  <ref type="formula">(7)</ref>, ay ene, ce lucia dan ene destierruba (38). Azken adibide hori ezinhobea iruditzen zaigu erabilera baten eta bestearen arteko bereizketaz jabetzeko.</p><p>38 EGLU-Ietik ateratako pasartea da ondokoa: «Euskarak ez du jenerorik bereizten gramatikan. Jenero gramatikala, inon bereiztekotan, aditzean bereziko da, hitanoan, hain zuzen: esan diat, baina esan dauka nolabaiteko salbuespen txiki bat: "mendeetan euskal idazleek santu / santa bezalako bikoteak erabili izan dituzte, Elizaren hizkuntzak hartaratuta" <ref type="bibr">(Urgell 2001: xci)</ref>. Sarriak ere bat egiten du aipaturiko idazleekin, eta jatorrizko hizkuntzan femeninoak diren hitzak hala mailegatzen ditu: arima escrupulosaren batec (4), alabadia <ref type="formula">(7)</ref>, S(an)ta Marina gloriosia <ref type="formula">(7)</ref>, patrona miragarri eta abogada gloriosa, iñoz eztana laar alabadia izango <ref type="formula">(7)</ref>, andra christiana <ref type="formula">(7)</ref>, doncella modesta, casta <ref type="formula">(7)</ref>, Phrophetisia <ref type="formula">(18)</ref>  <ref type="formula">(1)</ref>, adierazo baga (1), predicau baga (1), castigu baga (1), quendu baga (1), consueluric ichoron baga (1), esperanza baga (1), escrupulu asco baga (2), vorondate baga (2), esan baga (2), gorroto baga (11), ichi baga (12), aldatu baga (14), pagadu baga <ref type="formula">(21)</ref>, esagutu baga (22).</p><p>Bage forma, bestalde, ia salbuespentzat har genezake, hirutan baino ez baitugu aurkitu sermoi-bilduma osoan, eta hiruretan aurrean duten izenari loturik: naibague (12 eta 18) eta neurribaguea (37). Badira, horiekin batera, zenbait kasu ilun, non, ageri den disimilazioa dela eta, ez baitakigu baga ala bage den oinarrian dagoen forma. Ondokoak bezalako kasuez ari gara: erruquibaguiac (1), neurribaguia <ref type="formula">(3)</ref>, frutubaguia (22).</p><p>Aurrekoa ez bezala, bagarik indartua ondo kontuan hartzeko elementua da: testuetan laurogeita hamar bat biderrez agertzen da, hau da, nagusi den baga-ren ostean gehien errepikatzen den forma dugu: preciyo bagaric (2), escrupulu bagaric (2), veguiratu bagaric (2), justiciya bagaco sospecha (3), erre bagaric <ref type="formula">(3)</ref>, mingoz bagaric <ref type="formula">(18)</ref> Bagarik / barik bikotean gertatu bezala, forma luzea, hots, zaharra, da erabiliena izenondo funtziodun bagako / bako bikotearen kasuan, proportzioak ezberdinak diren arren: hogeita hamar bat bagako eta hamar bat bako ditugu. Forma zaharrak laburra hirukoizten du: Bagako: neurri bagaco (1), baquebagaco <ref type="formula">(7)</ref>, lozabagaco (12), neurribagacoagaitic (32).</p><p>Bako: conciertu bacoacaz (1), erriegu bacoan <ref type="formula">(3)</ref>, azquen bacoac <ref type="formula">(3)</ref>, consideracino baco (6), piedadebacoa <ref type="formula">(7)</ref>, errazoe baco <ref type="formula">(18)</ref>  <ref type="formula">(3)</ref>, castidadeco <ref type="formula">(7)</ref>, Christiandadiac <ref type="formula">(7)</ref>, fidelidade (31).</p><p>-dun: zordun (2), miñaridun <ref type="formula">(19)</ref>, gustialduna (19).</p><p>-duri: jaquituri (4).</p><p>-garren: 39 ambestegarren demporan <ref type="formula">(3)</ref>, aimbeste demporagarrenian (30).</p><p>-garri: ycaragarrisco (1), miragarrisco (1), erruquigarriya (1), arrigarriya (1), lastimagarriacaz (1), espantagarrisco (1), herenciagarri <ref type="formula">(3)</ref>, hondragarri <ref type="formula">(3)</ref>, negargarrisco (4), exemplugarri (6), condenagarriyagoa <ref type="formula">(7)</ref>, chanchagarri <ref type="formula">(7)</ref>, yarraitugarria <ref type="formula">(7)</ref>, gordegarri (12), consolagarri <ref type="formula">(19)</ref>, beguiraunegarriyac (20), burlagarrija (25), asegarriya (29), gustugarrisco (31).</p><p>-gile: salvaguillia (1), verba-loiguillac (7).</p><p>-gin: iquesquin <ref type="bibr" target="#b0">(9)</ref>, lapicoguin (29).</p><p>-(k)ada: osticada (11), arriqueda (11), maquillecada (11).</p><p>-(k)era: aziquera (8), aziqueria <ref type="bibr" target="#b0">(9)</ref>, acieraraco (9), eguiquera (11), esaquera-modu (11), acaberia (22), egoquerac (29), urteijera (32).</p><p>-(k)eria: essauqueria (1), zoraqueri (1), ordiqueria <ref type="formula">(7)</ref>, oquerreria <ref type="formula">(7)</ref>, biurqueria (11), oquerquerija (12), lapurquerija (12), lapurreriya (19).</p><p>-keta: jostaqueta <ref type="formula">(7)</ref> 39 Denbora kutsuaz eta zenbatzaileekin; oraindik orain horrela erabiltzen da.</p><p>-kor: ilcor <ref type="formula">(19)</ref>, galducorragaz (39).</p><p>-kuntza: erracunza (1), erracunze <ref type="formula">(7)</ref>. -(l)ari: murmuralarijac <ref type="formula">(13)</ref>, aucillari (37), emolarija (37).</p><p>-le: emollia (37).</p><p>-mendi: ichumendija (12), urquemendi (37). 40 -mentu: sentimentuan <ref type="formula">(3)</ref>, entendimentua <ref type="formula">(3)</ref>, valimentua <ref type="formula">(3)</ref>, entendimenduagaz (8), merecimentu (18), tocamentu (30).</p><p>-(t)ar: Persaarrac (1), Hebreoarrac (15), Ysraeltarrac <ref type="formula">(22)</ref>, Efesoarrai (29), Corintoarrai (29).</p><p>-(t)asun: ziquintazunen (1), illuntazuna <ref type="bibr">[c]</ref> (1), goritazunen (1), berotazunian (1), gaiztazuna (1), gogortazuneco (1), itzaltazunez (1), aztazun (1), mingoztazuna (1), zorigaistotazun (1), anditazun <ref type="formula">(3)</ref>, sendatazun <ref type="formula">(3)</ref>, arritazuna <ref type="formula">(3)</ref>, arrotazun <ref type="formula">(3)</ref>, mintazunian (4), lavantasun <ref type="formula">(7)</ref>, abadetasun <ref type="formula">(12)</ref> Aurrizkiei dagokienez, des-aurkitzen dugu lantzean behin: deserrico (19). Eta txikigarrietan ohiko -txu da erabiliena: ur-tantuchu bat (1), -ko eta -to ere kasuren batean agertzen diren arren. Beste batzuetan, ordea, -zinoe, -zinoi eta -sinoe eta -sinoi ere baditugu, horiek ere bustiduraz nahiz bustidurarik gabe: desesperacinoia (1), intencinoe (2), predicacinoe <ref type="formula">(3)</ref>, inclinacinoien <ref type="formula">(7)</ref>, tentaciñoe <ref type="formula">(7)</ref>, medicacinoia <ref type="formula">(7)</ref>, ocasinoe <ref type="formula">(7)</ref>, ocasinoia <ref type="formula">(7)</ref>, conversaciñoian (11), correctzinoia (12), murmuracinoia (13), obligaciñoiagaz (14), misinoietan (18), perfeccinoien <ref type="formula">(18)</ref> Bizente Sarriak baditu, ordea, sermoi gutxi batzuk non -zinoi eta -sinoi amaierak sistematikoak diren. Horretarako aurki dezakegun azalpen bakarra sermoi horietako eredua Bizkaiko ipar-mendebalean egotea da, bertako idazleengan nahiz hiztun arruntengan baino ez baitugu horrela aurkitzen.</p><p>Bestalde, oso gutxitan agertzen da beste euskalki batzuetan orokorra den -zio amaiera: confesio (4) eta obligacioen (4).</p><p>Gaztelaniatiko -onio amaierak -nino (bustidurarekin ere bai) eman ohi du etxebarritarrarenean: demoninuen (1), Antoniño <ref type="formula">(3)</ref>, matrimoniño <ref type="formula">(3)</ref>, testimoninoa <ref type="formula">(3)</ref>, geniño (4), matrimoniñoian <ref type="formula">(7)</ref>, testimoniño (20) comuninoacaz (24).</p><p>Aurrekoaren parekoa dira -mia eta -nia amaierak, -niña ematen baitute: premiñetan <ref type="formula">(3)</ref>, agoniñia (25), agoniñiaz (25).</p><p>Bukatzeko, -gion-i dagokionez, -gino eman ohi du, baina kasuren batean -ginoi ere badago: religinoia (7).</p><p>2.4.1. Aditzaren morfologiari helduta, nola galdetzaileari erantzuten dioten partizipioez ez dago zer esan handirik, berau osatzeko aukerak ez direlako asko, eta Sarriak garbiro egiten duelako euretako baten alde. Aditz-adjektibo edo partizipioak egiteko bi dira aukerak: -(r)ik eta -ta. Bada, etxebarritarrak lehenengoa darabil gehien-gehiene tan: essauturic (1), baturic eta nastauric (1), non echunic egon (1), ain oraturic (1), bustiric onetaraco azamarren puntia (1), ain aurraturic (2), paciencia galduric (2), humiac apainduric (2), jaquinic oztua dala (2), eurecaz eguinic gausa icusgarri bat <ref type="formula">(3)</ref>, apostoluari jarraituric (6), vijotza gorrotuban isioric daucazuena (11), gueratuco dala asturic (11), negarretan urturic (12), ordiric echera duazanac (12), arrituric gueratuco (13), ichunic egotia (18), iluntazunez beteric <ref type="formula">(22)</ref>, milla pecatuetan sarturic dagozanac (24). Salbuespenak dira, hortaz, ichita (1) eta edeguita (1) bezalakoak. 2.4.2. Aurreko formei loturik daude, hain zuzen ere, partizipio burutugabeak. Partizipioen oinarrian dagoen amaieraren eta partizipio horrek daukan silaba-kopuruaren araberako emaitzak izan ohi ditugu. Hori horrela, aditz partizipioak -tu edo -du amaiera edukiz gero, -tute eta -dute dira Sarriaren sermoitegian ageri diren formak: adituten (1), sartuten (1), aurquituten (1), estalduten (1), elduten (1), ulartuten (1), batuten (1), escatuten (1), siquinduten (1), erruquituten (1), aberastuteco (2), gueratuteco (2), jocatuteco (2), gueratuten <ref type="formula">(</ref> Oso gutxitan ageri dira etxebarritarrarenean, kontestu horretan, gaur egun Nerbioi ibarreko iparraldean behintzat aurkitzen ez ditugun (baina bai Arratian, Zebe-rion, Txorierrin, Mungian eta Busturialdeko herri batzuetan) 42 -tzea(n) 43 erakoak. Forma horiekin batera, disimilaziorik gabekoak ere badakartza etxebarritarrak. Jakin, ez dakigu inon irakurriak edo entzunak zituelako ala erabilera horiek hurrekoak zitzaizkiolako testuratu zituen, baina ezaugarriak daukan hedadura gogoan hartuta, galtzear zegoen erabilera baten azken arrastoak zirela pentsa genezake: quencien <ref type="formula">(14)</ref>, arzien (19), zarzien (38), quenzeen <ref type="figure">(22) galzeen (30), arzeaco (19)</ref>.</p><p>Bestalde, -adu eta bertarik eratorritako -au partizipio amaieradunetan -eta da, oro har, agertzen den marka: adoretan (1), tentetan (1), armetan (1), convertietaco (1), consumietan (1), gordetan (2), prestetan (2), escogietan <ref type="formula">(3)</ref>, paguetan <ref type="formula">(3)</ref>, errepartietan <ref type="formula">(3)</ref>, consentietan (6), errepartietia (6), garvietan <ref type="formula">(7)</ref>, ametan (7), elegietaco <ref type="bibr" target="#b0">(9)</ref>, gastetan (11), blasfemetaco (12), amoldetia (15), servietan (15), estimetan <ref type="formula">(18)</ref> -idu-ri dagokienez, -iduten eta -eta dauzkagu oro har, kasuren batean 44 eta salbuespen gisa -te agertzen da: -iduten: sentiduten (1), conveniduten (4), padeciduten (15), atreviduten (25), ofendiduten (30), desmereciduten (30), errepartiduten (30), cumpliduten (38).</p><p>-eta: consumietan (1), permitietan (2), errepartietan <ref type="formula">(3)</ref>, garvietan <ref type="formula">(7)</ref>, meesprecietan <ref type="formula">(7)</ref>, movietan (24), padecietan (25), maldecietan (30), servietan (31), escogietan (38), cumplietan (38).</p><p>-i amaieradun aditz zaharrei nahiz amaieran bokala edo -n daukatenei -te ezarri zien Sarriak; batzuetan -i bokala desagertu egiten da:</p><p>ichiten (1), jossitian (1), egoten (2), jausiten <ref type="formula">(</ref> Salbuespen bakarrenetarikoak erre eta bete aditzetan dauzkagu, -eta egon ohi baita, bai Sarriaren testuetan, bai egungo hiztunen ahoetan: erretaco <ref type="formula">(7)</ref>, betetan (22).</p><p>Amaitze aldera, -n amaieradun aditz zenbaiti ezartzen (izan) zaien -ite 1 deituriko atzizkia <ref type="bibr">(Urgell 2006</ref>) ere aurkitzen dugu Sarriarenean, oso erabilera mugatua badauka ere. Nerbioi ibarrean daukan presentzia dela eta, hala dio gasteiztarrak: "Este arcaísmo no llega al vizcaíno literario, si bien en la lengua hablada hay constancia de su pervivencia en Orozco hasta hoy" (2006: 936). Ez Orozkon legetxe, han hitz gehiagotan ageri baita, baina Nerbioi haran iparraldeko hizkeran ere badugu halakorik: urten aditzari dagokionean, ia sistematikoa da urteiten forma oraindik ere. Hain da hori horrela non partizipioa bera urteiñ ahoskatzen baita. Urteiten hori daukagu, bide batez, RS bilduman, Mikoletaren lanean, Astigarragaren sermoietan eta Uriarteren Arrigorriagako dotrinan, hots, inguru horretan ere historikoki ondo erroturiko forma dela dirudi. <ref type="bibr">42</ref> Ik. <ref type="bibr">Barrutia (2001: 235)</ref>. Guk geuk Morgako hiztun zaharrei ere entzun diegu -tzien forma. <ref type="bibr">43</ref> Forma horren nahiz gero aipatuko direnen jatorriaz, kronologiaz eta hedapenaz ik. <ref type="bibr">Urgell (2006</ref> Egoera historikoa begiraturik, Sarriaren sermoi-lanetan espero litekeena etxebarritarrak ere halako formak erabiltzea litzateke. Eta badarabiltza:</p><p>barristuten daude (1), quendu eudien (2), gastau badaude (2), faltetan daude (2), eroaten eudenai (2), uzti daudien 'uste daudeen' (2), biortu biar daude (2), eguiten badaude <ref type="formula">(3)</ref>, biar eudien <ref type="formula">(3)</ref>, entzuten daude <ref type="formula">(3)</ref>, vici gura daudianac (4), biar eudien <ref type="formula">(7)</ref>, vencietan deudiala <ref type="formula">(7)</ref>, eguin eudien <ref type="formula">(9)</ref>, conseju emoten deudianac <ref type="formula">(14)</ref>, ostuba estalduten deudianac (14), icusi eudiena (15), gordetan deudianac (15), servietan daudienac (15), esagutu daude (18), euqui eudiala (15), eragoci eudien (18), icasi eudien (18), artu biar daude (18), eztututen eudien (18), ichi deudien (19), nondi gura dauden (21), eztaudienac veguiratuten (21), eroan deudianac (21), ichiten badaude (23), icusi daudien (29), barristuten deudiala (39).</p><p>Hori ikusirik, badirudi, neurri handi batean behintzat, bere inguruko euskara erabili zuela etxebarritarrak. Alabaina, egoera ez da beti horrelakoa, inondik inora ere. Izan ere, aipatutako moldeak sermoi batzuetan askotan sistematikoak diren arren, badira beste sermoi batzuk non Bizkaiko ekialde(rago)ko formak ere, sistematikoki, agertzen diren, hots: euqui dabe (1), espadave alan eguiten (2), icusten dave <ref type="formula">(3)</ref>, usti espadave vere <ref type="formula">(7)</ref>, iquesten dave <ref type="formula">(7)</ref>, verba eguiten badabe (11), essagututen dabe (11), cer eguingo dave (12), essagutuco dave (12), pecatu mortala eguiten dave (13), biarric eguin ezpadabe (14), aurquituten even (19), ifinten dave <ref type="formula">(</ref> Erabilera hori ikusirik, Sarriak eredutzat ekialdeko idazle edo herriren bateko hizkera hartu zuelako ustea indartu baino ez da egiten. Ondorioen atalean ditugun datu guztiak baturik balizko ereduen gaia aztertuko dugunez gero, momentuz ez dugu besterik esango, ez bada eredu ezberdinak erabiltzeak lantzean behin egileari nahasteak dakarzkiola, bateko nahiz besteko formak erabiltzera heltzen dela, bata bestearen alboan: eracusten dave ezteudianac ichi gura (21), guero jarraitu even vere a iracurtia, lau vider egunian eguiten eudiala oracino (24) emen paguetan ezteudiana pagaduco dave (2).</p><p>2.4.4. Aurretik ere azaldu dugu Sarriaren lanetan -a + -a batuketak -ia (inoiz, -ea edo -ie ere bai) eman ohi duela, disimilazioa dela eta. Bada, erabiliriko adibide batzuetan islatzen zen disimilazio hori izan aditzaren formetan ere bada. Ondokoak gehi genitzake, esandakoaren erakusgarri:</p><p>vici izan dirianac (1), eztiriala (1), eguinac izan dirian (1), jausi dirian (1), espantetan cirian (1), ez dirianean aurquituten (2), biar cirian <ref type="formula">(3)</ref>, izan zinian <ref type="formula">(7)</ref>, salvetan dirienac <ref type="formula">(7)</ref>, comuta dirien <ref type="formula">(7)</ref>, veguiratuten garianean (8), etorri cirian <ref type="formula">(9)</ref>, galdu cinian (13), aurquitu dirian <ref type="formula">(14)</ref>, vici dirianac <ref type="formula">(21)</ref>, emaiten diriala (22).</p><p>Disimilaziorik ez duten izan aditzeko formak oso urriak dira, guk dozena erdi baino ez dugu zenbatu: gueratuten diran (1), [icaragarriyagoac] diran (8), izango diran (12), eguiten diran <ref type="formula">(14)</ref>, [cembat confesio] diran (21) eta bihar diran (37).</p><p>2.4.5. "BZ-ean eta baita modernoan ere aditz-erroaren aurreko bokal-alternantziak (a / e) adizki bipertsonalak (a) eta hirupertsonalak (e) bereizten zituen eta ditu" <ref type="bibr">(Lakarra 1986: 649)</ref>. Alabaina, "xix. menderako oposaketa zeharo neutralduta zegoen hizkera batzuetan egin aditzari dagokionez" <ref type="bibr">(Urgell 2006: c)</ref>. Sarriaren hizkera edo hizkera-ereduak bi joera horien artean (bereizketa eta neutralizazioa) zeudela esan dezakegu. Egin aditzari dagokionez, da(g)i-eta de(g)i-zerabiltzan: da(g)i-: ifini daiguzan veguiyac gaurco egunian celebretan dogun Santu gloriosuagan (1), idigui daiguzan codiciyac eta interesac ichiten deuzcuzan veguiyac (2), esarri daigun contu andi bat (6), eregui daiden Ceruetaraguiño neure gueiya (22), ezpadauquie arduria euren humiac icazi daijen (24), nai dau Bera jan daigun gue <ref type="bibr">[u]</ref>re barruan euqui daigun (37), loiric badaucagu garbitu daigun penitencijaco uretan (37). de(g)i-: bardin cein gura baleude confesoriac iguerri deijoen eguin davena <ref type="bibr" target="#b0">(9)</ref>, escatu eguiyozue Jaungoicoari emon deizuela pecatuen damutazuna <ref type="bibr" target="#b0">(9)</ref>, dudaric dauquienac euren obligacinoen ganian, itandu deije euren confes(ore) edo maesuari (24), verorren gracijagaz lagundu deijogun Curuzia eroaten (25), ene oñetara badatoz emon deidela pacienciya gueiyago (31), escatu biar deuzagu parcatu deiguzela gueure zorrac (32), escatuten deuzet emon deidela verorren argui jaungoicoscua bacarric verorren gloriyeraco (39), Escatu deijogun onetaraco biar dogun graciya gaur Jaungoicoaren amatazunera igon daven Virgina gustiz santiari (35).</p><p>Aurreko adibideekin batera, neutralizazio-kasuak ere baditugu, non berez forma hirupertsonalak direnak (de(g)i-) aditz eta egitura bipertsonaletan ageri baitira:</p><p>idigui daiguzan codiciyac eta interesac ichiten deuzcuzan veguiyac, eta gogoratu deigun beti (2), veguiratu deigun, dinot, au gustiyau <ref type="formula">(3)</ref>, baya ez deigun uzti obrasco pecatuac diriala bacarric zeinzuecgaitic jaso dirian gach eta zorigaisto gustiyac (18), eguizu bada, eurac leguez, euren zari beticoa mereci deizun (18), eztozu gura edan deiden neure Aitac edateco ema[i]ten deuzten Caliza (25), nor gura dozube, bada, libra ifini deiden (25), ause berau/da Jaungoicoac emoten deuzun curutzia, beragaz alcanzadu deizun a neurri bagaco gloriya (29).</p><p>2.4.6. Jakin badakigu *edin-en asimilaziodun formak bizkaierazko lehenengo testuetarik ageri direla, eta euskalki horretarik kanpo gipuzkera eta Arabako euskara zaharrean ere bazirela <ref type="bibr">(adibideetarako, ik. Lakarra 1986: 661)</ref>. Denboraren joan-etorriarekin, baina, prozesua ez da berdin gauzatu leku eta autore guztiengan; azken horiek, askotan, herriko euskaratik aldendu eta forma jaso / osoagoak erabili dituzte. Bizente Sarriarena izan daiteke adibide bat. Izan ere, alde batetik baditu erabateko asimilaziodun formak: joan zila (1), convertidu din (1), egon cila <ref type="formula">(3)</ref>, sartu dila <ref type="formula">(3)</ref>, prest eguin cilla <ref type="formula">(3)</ref>, zabaldu dila <ref type="formula">(3)</ref>, ifini cila <ref type="formula">(3)</ref>, sartu cila (6), izan dila <ref type="formula">(7)</ref>, artu cila <ref type="bibr" target="#b0">(9)</ref>, ez din egon <ref type="bibr" target="#b0">(9)</ref>, sartu ez din (11), eguin din <ref type="formula">(19)</ref>, eguin din <ref type="formula">(20)</ref>, cumplidu din <ref type="formula">(20)</ref>, erre din (23), izan dila (24), galdu ez din (30), condenadu din (30), bildur izan dila (31), icaratu dila (31), ifini cila (38), ereyemon din (39), joan cin (39).</p><p>Alabaina, beti ez zuen horrela jokatu, zenbaitetan forma osoagoak -dedila nahiz didila-hautatu baitzituen: etorri dedin (11), ito dilla (11), aci dedin <ref type="formula">(12)</ref>, izan bidi (13), izan dedin <ref type="formula">(13)</ref> Forma jasook zer sermoitan ageri diren begiratuz gero, kasualitatea ez dirudien egoera aurkitzen dugu: salbuespenak salbuespen, era horretako forma osoagoak aurretiaz Etxebarriko (eta Nerbioi ibar iparraldeko, gutxienez) euskaran arrotzak diren ezaugarriak (-oa &gt; -ue, dabe, eben erako aditzak eta abar) biltzen diren sermoietan ageri dira gehien bat. Esan nahi baita: Sarriak herriko hizkera utzita beste eredu bat (Bizkaiko ekialdekoa delakoan gaude) hautatzen duen sermoietan. Horrekin ez dugu esan nahi *edin-eko forma horiek Bizkaiko ekialdekoak direnik, noski, baina bai, batik bat, autoreak eredu-hautapen ezberdina egin duen sermoietan agertzen direla.</p><p>2.4.7. *edin laguntzailetik irten gabe, aginterazko formetan bite, beitez eta etorkizuneko inperatibodun (-ke) bitequez eta beitequez (ik. Lakarra 1986) ditugu: batu beitez bada orain <ref type="formula">(3)</ref>, egon beitequez euren confesoriacaz (4), au zatiyau oztera erdi bi eguin bite (39).</p><p>Antzina orokorra, hau da, Euskal Herri osokoa, izan eta bizkaiera zaharreneko testuetan ere agertu arren, etorkizuneko aginterako -ke, "ez dator alerik VJen, ez Mikoletaren liburuan, ez Bertso Bizkaitar-etan, eta ez Amiletarengan, ezta 18. mendearen hasierako bi durangarren testuetan, baina bai Barrutiaren Acto-an" <ref type="bibr">(Lakarra 1996: 173)</ref>. Ikuspegi horrek Sarriarenean halako formarik aurkitzeko esperantzak gutxitu arren, hara non lau aurkitu ditugun. Laurak daude *edin-en aginterazko formei (atal horretan aipatu bezala) loturik, eta lau horietarik hiru egon aditzari. Bestea, irakurri-rekin daukagu: yracorri beitequez (3), egon beitequez euren confesoriacaz (4), egon beitequez euren esanera (4), egon bitequez euren confesoreen aguindura <ref type="bibr">(21). 46</ref> En cuanto a la alternativa -a / -o debe advertirse que en vizc. ant. -o, característica de la 3.ª pers. sg. dativo, sólo aparece, al menos en algunos de los verbos más usuales, en posición final; cuando le sigue otra característica personal, el pluralizador -z o el suf. de relativo, (o su equivalente a estos efectos, la desinencia -an de pretérito), aparece en la <ref type="bibr">forma -a (1954: 27)</ref>.</p><p>Aurreko azalpena hona ekarri dugu joera horrek, beti ez bada ere, bizirik dirauelako Sarriaren sermoietan: sartuten yaco (1), galasoten yaco (2), berac dauco errua (2), jasoco yaco (6), etorrico yaco (6), ifini biar yaco <ref type="bibr" target="#b0">(9)</ref>, ez yaco falta <ref type="formula">(22)</ref>, jausten yaco (23), gogoratu bayaco (24), neque gueiago dauco (30), verac dauco (38).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>baina:</head><p>jacan (1), dauco (1), ifinten yacaz (1), ez yacan beste gausaric eransun (1), biortu biar jacaz (2), eztauco (8), damua dauco <ref type="formula">(9)</ref>, badauco (14), yacala (18), quenduten yacana (21), agartu yacan (23), falta yacona (25), neque gueiago dauco (30), verac dauco (38).</p><p>Esan bezala, araua ez da beti betetzen, galbidean hasia zen seinale, eta salbuespenak ditugu nor-nori saileko laguntzailean: quenduten yacoz (5), izango yacola (30), eguingo yacola (34), ofrecietan yacozan (38).</p><p>2.4.9. Aditz arazle edo faktitiboen sailean, eragin (&gt; erai(n)) da Sarriak gehien erabili zuena, luzaz, aditz nagusitik bereizita idazten ohi zuen: jaquin eraingo (1), sentidu eraguiten (1), bedeinquetu erain zenduna <ref type="formula">(3)</ref>, sinistu eraguiteco <ref type="formula">(3)</ref>, sinistu eraguiten (6), costumbria eguin eraguitia (6), artu eraguin deuzo (6), galdu eraguiteco <ref type="formula">(7)</ref>, fedia galdu eraguiteco <ref type="formula">(7)</ref>, artu eraguingo deuzue <ref type="bibr" target="#b0">(9)</ref>, pecatuetan jauzi eraguiten deuzen Diabruac humiai (23), ez galdu eraiteco (24), vici eraguiten deuze fediari (24), negar eraguiten deuzena (25), servidu eraguin gura deuzen (29), negar eraguitia (36).</p><p>Eragin ez da, ordea, etxebarritarrak erabilitako aditz arazle edo faktitibo bakarra: arazo (&gt; azo) eta erazo ere badaude: beste gausa bat esatia galaso evan (2), gaztaraso (6), sinistu erassoten deuzezu (13), escubidea galduerasotia <ref type="formula">(14)</ref>, biortu erassoteco <ref type="formula">(14)</ref>, arrarazo (19), gomutaraso (22), botarasso (25), arrabiyauerasoten deutztee (34).</p><p>Begi-bistakoa da eragin ez bezala, aditz nagusiari loturik erabiltzen direla, sistematikoki, bigarren forma horiek.</p><p>2.4.10. Euskara zaharrarekiko berrikuntza historikoa dugu zu izenordea 'zuek', hots, pluraleko bigarren pertsona, adierazterik 'zu' singularra adieraztera igarotzea. "B[izkaiera]k goragotik zetorren usadio jator bati eutsi izan dio, beraz" <ref type="bibr">(Lakarra 1996: 173)</ref>. Sarriaren sermoietara etorririk, erabilera arkaikoa ez dugu, inondik inora, sistematikoa, ez eta ugaria ere. Alabaina, baditugu zenbait kasu non -zu-k 'zuek' pluralarekin egiten duen komunztadura. Hona ekarritako adibideetariko batzuk argiak badira ere, beste zenbaitetan -zu 'zuek' horrekin batera plural modernoko formak ere badaude perpaus berean:</p><p>Ceruco Ainguerubac sufriduco dozu au ceuben Javiari eguiten jacan deshonrau (25), cer eguin biar dotzu zubec ceuben pecatubacgaitic? (34), yracorri eguizuz, neure Christinaubac, ceuben arimaco beguiyac eta consideradu eguizuz Jesuchristo gueure Jaunac irago cituzan berroguei egun one[e]c, eta icusico dotzu cer eguin biar dotzun ceuben pecatubacgaitic (34), beranduric berandura jarten zara mai orretan, eta orduan eztozu ondo beguiratuten ez nogaz jarten zarian, ez ze janari dan aurrian daucazuna, eta alan artuten dosube (37), veguiratu dotzu nozbait, neure enzule maitiac (37), ecarri eguizubez memoriyera pecadu estalduac, ceinzubec maliciyaco edo gaistotazuneco misteriyoac leguez isildu dozuz lengo confessiñoetan (39).</p><p>2.4.11. Alegiazko baldintza emateko, bestalde, ondoko egitura behin baino gehiagotan errepikatzen da: [aditz nagusia + -ten + ba-]: urteiten baleu (1), Fede Santuac eracuzten ezpaleu egui andiau (1), aurquituten baliz guizon bat (1), icusten bazendube (1), jausiten balizena leguez <ref type="formula">(3)</ref>, icusten baleude (6), eguiten balebe (11), alan eguiten baliz (18), icusten banendu (18), lotuten baniz <ref type="formula">(19)</ref>, asiten baliz <ref type="formula">(20)</ref>, asiten baliz onetan (21), enzuten baliz Jaungoicoaren verbia <ref type="formula">(27)</ref>, icusten emoten baliz (29), beguiratuten bacendube (39).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.12.">Ondoko aditzen forma trinkoak aurkitu ditugu Bizente Sarriaren sermoibilduman:</head><p>Erabili: daravildiez (2), daravilgun (6). Ekarri: dacarde (4), dacarreiyon (18). Entzun: danzuela (12), ezpadanzu (12). Eretxi: derichedan <ref type="formula">(3)</ref>, erichan (4), derechat (6), derichon (6), derechadan (39). Erion: dariyoela (31). Eroan: zaroaz (7). Etorri: ezpadatorquiyo (2), yatort <ref type="bibr" target="#b24">(3)</ref>. Ezagutu: dasaude (23), dazau (30). Ikusi: dacuzde (1), badacuzguz (2), dacuzguzanian (3), dacuzan <ref type="formula">(3)</ref>, dacuzue (4), dacust (6), dacuzeela (12), badacus (12), estacuselaco (22), dacuzt (25), dacuzcuna (37).</p><p>Erauntsi: dirauzela (31), cirautzen (35). Irudi(tu): diruri <ref type="formula">(3)</ref>, diruriyela (6).</p><p>2.4.13. Genitiboaz ari ginelarik, Sarriaren nolabaiteko jarrera kultista aipatu dugu, kultistatzat ahozko formetarik urrundu eta osoagoak erabiltzeko joera ulertuta. Bada, deklinabide-kasu horretan noizean behin agertzen ziren uzkurdurak ez dira testuko bakarrak. Kasu gehienak kontestu bitan aurki ditzakegu: baldintzazko ba-ren ondoren eta -ko partizipioaren osteko aditz laguntzailean: ba-: beuquesan 'baeukazan' (3), badoaz 'badodaz' (3) bagoz 'badagoz' (4), badogu (4), beban 'baeban' (4), beuzan 'baeutsan' (7), espequijan 'ez baekian' (11), baquizube <ref type="formula">(20)</ref>  <ref type="formula">(2)</ref>, onein artian (2), oneic gustiyoc <ref type="formula">(2)</ref>, oneic pecatu gustiyoc <ref type="formula">(3)</ref>, orreic gausoc <ref type="formula">(6)</ref>, aec gausac <ref type="formula">(7)</ref>, aic animac <ref type="formula">(20)</ref>, ai penitentiai (22).</p><p>Erakuslea eskuman: gausa oneic (1).</p><p>Are gehiago, adibideotan agertzeaz gain, erabilera nagusia horixe da, baina horrek ez du salbuespenik ez dagoenik esan nahi, noski: pensamentu au (1), gausa oneic (1), santu oneic <ref type="formula">(9)</ref>, egun oneic <ref type="formula">(9)</ref>, gausa orreic <ref type="formula">(11)</ref>, mandamentu au <ref type="formula">(11)</ref> Etxebarritarraren lanetan joan baino ez da agertzen, baina ez iragangaitz eta iragankorren formak nahastu zituelako, ez bada era horretako bi egitura baino ez ditugulako aurkitu, eta biak iragangaitzak. Bestalde, ezin dugu hitz egin erabateko ziurtasunez, baina aipaturiko ezaugarriaren erabilera-urritasunak bi gauza adieraz ditzake: edo Sarriak beste egitura batzuk hobesten zituen (Añibarroren Escu-liburu-ko lehenengo edizioan ez dago halakorik), 49 edo egitura galtzear zegoen.</p><p>2.5.4. Mendebaleko euskararen joskeraz hitz egitean, inesibo eta adlatibodun -ten eta -tera formen arteko lehia aipatu ohi da: "aditz izena mugimenduzko aditzen osagarri izan eta norabidea edo helburua adierazten duenean zertan kasuan erabiltzen da mendebal gehienean; ez zertara orokorrean" <ref type="bibr">(Zuazo 2008: 75)</ref>. Erabilera horren bilakabide historikoaren gaineko lanik ez dugu ezagutzen, baina Sarriak adlatibodun forma erabili zuen, nagusiki: certara convidetan dau <ref type="formula">(3)</ref>, sacramentua artutera <ref type="formula">(9)</ref>, sacramentuac sarri artutera (18), principe bateri artutera erreinuren bat (20), danza-lecura danzac icustera joan ditezan (23), bera icustera joan biar evala (24), pecatuen eguiasco penitencija bat eguitera (25), Christinauric gueiyenac ecustia juaten confessetara (34), jatzi gura dau Jaungoicoac Virgina gustiz santiaren errai garbietara gure anaje eguitera (35), bera neque one[e]tatic atereetera (35), janari zoragarri au artutera (37), misterio adoragarrijac artutera (37), obligacinoac bete edo cumplietara (38), elduteco Comuniño Santuba artutera (39), sacramentuba artutera joango zarienian (39).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Erabilera hori ez bezalakoa dago ondoko kasuetan:</head><p>joan zila Lazaro essaten bere anajiai (1), joan ditezanian munduti prediquetan (8), altara elduteco Communinoa artuten <ref type="bibr" target="#b0">(9)</ref>, alan etorrico dira confesionariyora esaten <ref type="formula">(24)</ref> 2.5.6. Baten baino gehiagotan aipatu dugu Blanca Urgellek Añibarroren Gueroco guero-ari eginiko hitzaurre luzea non, Axularren lanaren itzulpenaz gain, arratiarraren EL 1 eta EL 2 -ren arteko ezberdintasunak eta bilakaera agerian uzten dituen. Horrela idatzi zuen gasteiztarrak: "EL 2 -n aurreko argitalpeneko cerren guztiak desagertu dira, gehienak cegaiti ce-rekin ordezkatua (…) Oso oker ez baldin banago, bizkaiera idatzian berrikuntza bat sartzen du Añibarrok, bizkaiera zahar guztian cerren oso erabilia izan baitzen" (2001: cviii).</p><p>Aski interesgarria begitantzen zaigu berrikuntza hori nabarmentzea. Izan ere, Bizente Sarriaren sermoietan ez dugu helburuzko perpaus bakar bat aurkitu non zerren den aurrekaria, baina bai cergaitic ce, hamar bat biderrez (gehien erabiltzen diren ce eta cergaitic-en ondoan):</p><p>cergaitic ce gaur ondo eguin al balegui, ezta biarco egunera azeratu biar (2), cergaitic ce ya bestien contuan joan zan (6), cergaitic ce Jaungoicoen besso gustiz poderosuac euqui zenduzan vere virtutien indarragaz <ref type="formula">(7)</ref>, cergaitic ce castidadia da on gustiyen ama (18), cergaitic ce daqui egun atan vengaduco dala (22), cergaitic ce Jesuc(hris)to vere burua leguez dago (24), cergaitic ce Eleiziac bacarric ifinten deuzcu aurrian (24), cergaitic ce dinoe Canone Sagraduac <ref type="formula">(27)</ref>, cergaitic ce dino ondo berac (29), cergaitic ce etorrico da nozbait zeure ganian bere gorrotua (34).</p><p>Gogoan harturik zerren-ek tradizioan zer nolako indarra izan duen, geografikoki hurreko Mikoletak 1653an zerabilela eta Sarriak baino urte batzuk geroago Astigarragak inoiz baliatu zuela, proposa dezakegun hipotesi fidagarriena da Sarriak nahita eginiko aukeraren aurrean gaudela. Esan nahi baita, Añibarrok EL 2 -rako harturiko erabaki bera hartu zuela Sarriak hamabost-hogei urte arinago, Urgellek aipatu berrikuntza kronologikoki bi hamarkadatan, behintzat, aurreraturik.</p><p>2.5.7. Erlatibo-egituren ostean -ena legez da Bizkaiko tradizioan, salbuespenak salbuespen, gehienetan ageri den egitura (ik. OEH, s.u.). Sarriak tradizio horren bidea jarraitzen du, -a gabeko egitura batzuk egon arren: ona balizan leguez (2), S(a)n Thomasec iracazten daven leguez (2), erreglac dinoan leguez <ref type="bibr" target="#b0">(9)</ref>, iracazten deuzcun leguez (23), San Agustinec dinoan leguez (30). gehienak tradizioko moldearen barruan eraiki zituelako: vici zarienoc ni vici izan nincena leguez (1), jaquinzuac dinoana leguez (1), Ysaias Prophetiac dinoana leguez (1), iracazten deudiana leguez (2), jocoan eztaquiyena leguez (2), apostoluac dinoana leguez <ref type="formula">(3)</ref>, dinoiena leguez <ref type="formula">(7)</ref>, aguinduco deuzana leguez katzeko, badira ikertzailearen lana errazten duten ezaugarri batzuk, hala nola, berrikuntza esklusiboak. Bizente Sarriaren euskara bere sorterri edo ingurukoa izan zitekeen erabakitzea ez da hain erraza izan, era horretako ezaugarririk ez baitaukagu Nerbioi ibar iparraldean: Basauri, Etxebarri edo Arrigorriagako hizkerek euren baitan biltzen dituzten ezaugarriak Bizkaiko nahiz Euskal Herriko beste eremu batzuetan ere aurki ditzakegu. Baten baino gehiagotan aipatu dugu Jon Arretxek alboko bailarekiko Basauriko euskararen ezaugarri bereizgarritzat, i bokalerdiaren osteko dx epentesia, asimilazio bidezko bustidura automatiko zabala eta a + a batuketatik sorturiko -ie disimilazioa proposatzen zituela. Egia da, izan, hiru ezaugarri horiek Basauriko hizkera Txorierri, Arratia, Orozko edo Zeberiokotik bereizten dutela, baina eremua gehixeago zabalduz gero, Gernikaldean ere hiru ezaugarri horiek sistematikoak direla ikusiko dugu. Bestela esanda: hiru ezaugarri horien konbinaketak Basauri aldeko euskara eremu mugatu baten barruan definitzeko baino ez du balio (Bizkaiko mendebala), ezaugarri-kopurua zabaltzea beharrezkoa dugu Nerbioi ibar iparraldeko hizkera bizkaieraren barruan kokatzeko. Hain zuzen ere, hori da guk geuk Sarriaren sermoietan egin duguna: ezaugarrien konbinaketa-sistemaren bitartez 59 aipatutako eremuko hizkera gaur egunean gorpuzten duten ezaugarriak bilatu ditugu, ondokoen konbinazioa baliagarria delarik: Egun Nerbioi ibarrean aurkitzen ditugun ezaugarriak dira horiek. Alabaina, hizkuntzak geografiatik haratago denboran barrena ere aldatzen direnez gero, izan liteke Sarriaren sermoietan ezaugarri horiek guztiak ez aurkitzea. Eta horrela da. Etxebarritarrak sermoietan sorterriko hizkera baliatu zuenetz neurtzeko, sekuentzia kronologiko bat eratu dugu: aurreko zerrendako ezaugarriak Nerbioi haraneko testu eta datuondoko idatzia: «Los métodos estadísticos, aplicados ya en 1937, no aparecen hasta ahora muy prometedores. Contar, sin pesarlos, el número de acuerdos y desacuerdos en un grupo de lenguas tomadas dos a dos, introduce un elemento objetivo, el de la cuantificación -que, por otra parte, tampoco está libre de los peligros de la interpretación personal-, pero solamente a costa de partir de una elección, que hoy por hoy tiene que ser subjetiva, de rasgos diferenciales, a cada uno de los cuales se le atribuye además el mismo valor» <ref type="bibr">([1976] 1985: 81)</ref>. <ref type="bibr">59</ref> Ez baitugu aurkitu Nerbioi ibar iparraldeko ezaugarri esklusiborik. tan erabateko disimilaziodun formak baztertu eta osoagoak (zedin, dedin bezalakoak) baliatzea. Non ikas zezakeen, baina, Bizente Sarriak euskara-eredu hori? Testuen kronologiak aski lagun gaitzake eredu-bilaketan. Etxebarritarrak sermoi gehienak 1796-1804 tartean idatzi zituela gogoan harturik, xix. mende hasierako markinar idazle ospetsu batzuen izenak bazter ditzakegu, hala nola, Frai Bartolome edo Juan Jose Mogel. Juan Antonio Mogelek ere aukera gutxi ditu, haren Confesiño ona... 1803koa dela kontuan hartuta. Hori horrela, gakoa Sarriaren Bilboko egonaldian aurkitzen ahal dugu. Izan ere, Bilboko komentuko egonaldian xix. mende hasierako autore batekin egin zuen bat: Frai Pedro Astarloarekin, hots, Markina aldeko euskara oinarritzat hartuta, 1816 eta 1818an Urteco domeca gustijetaraco... obra argitaratu zuen egilearekin. Zalantza gutxi daukagu orain: durangarraren aho eta eskutik ikas zezakeen Sarriak hizkera hura. Are gehiago, hizkeratik haratago, grafia-kontu batean ere bat egiten dute etxebarritarrak eta Astarloak: &lt;y&gt; baliatzen zuen lehenengoak egungo &lt;dx&gt; epentetikoa irudikatzeko. Bigarrenak, aitzitik, &lt;j&gt; zerabilen. Eta bigarren hori da, hain zuzen, Sarriak Markina ingurukotzat daukagun hizkeran idatzi zituen sermoietan baliatu zuen grafema.</p><p>Esanikoak esanda, badugu beste ondorio garbi bat: xix. mende hasierako egile batzuen artean (Añibarro / Mogel eta bakoitzaren jarraitzaileak) gertatuko zen hizkuntza-eztabaidara aurreratuz, argi dago Bizente Sarria herriko hizkera erabiltzearen alde agertu zela.</p><p>Idazle baten (kasu honetan) hizkera aztertzeaz gain, hizkera hori testuratzeko moduaz, idazkeraz, arduratu beharra dugu, egilearen gaineko datu berri eta ezberdinak ematen dizkigunez gero. Hori horrela, grafiarekin batera eginiko hautu batzuek Bizente Sarriak idazten ari zelako kontzientzia bazeukala erakusten dute, testuen literaturtasunaren gaineko kontzientzia aktiboa bazeukala.</p><p>Grafiarekin hasirik, argi dago garaian erabat hedaturik behar zuen txistukarien neutralizazioak arazoak sortu zizkiola Sarriari, txistukari frikari zein afrikari batzuk testuratzeko hiruzpalau grafia erabili baitzituen. Bestalde, &lt;tzc&gt; eta &lt;cg&gt; kontsonante taldeak idatziz baliatzeak ere hizkuntza-elementuak bereizten zekiela eta grafia etimologikoa erabiltzea erabaki zuela erakusten du. Beste horrenbeste egiten dute deklinabide-atzizkiak ezartzerakoan sorturiko bokal bikoitzek.</p><p>Fonologia-ezaugarri batzuek argi erakusten dute aurretik aipatutako herriko hizkeraren aldeko hautua: bokal-biltzeetatik sorturiko disimilazioak bere horretan gordetzen ditu; &lt;dx&gt; eta &lt;b&gt; epentetikoak mantentzen ditu, i u (C ) a e / __ itxiduraren presentzia zabala da, eta abar. Kontsonanteetako ezaugarri zenbaitek, aitzitik, beste ikuspegi bat ematen digute: Jaungoiko edo aingeru idaztean diptongoak mantendu zituen, eta beste horrenbeste egin zuen bokal arteko &lt;g&gt;-rekin, egin aditzeko formak barne. Bustidura ere ez zuen sistematikoki adierazi, eta, horren ondorioz, hitz bera usu aurkitzen dugu bustiduraz nahiz bustidurarik gabe.</p><p>Morfologiari dagokionez, genitiboan atzizkiak gehien-gehienetan uzkurdurarik gabe emateak ere joera kultuzalea erakusten du, eta beste hainbeste egiten du bagarik eta bagako bezalakoetatik eratorritako barik eta bako inoiz edo behin baino ez agertu eta aurreko biak erabat nagusi izateak. Eratorbidean jasotako forma batzuek (erositzaile, ikasitzaile, begiraunegarri) ere atzizki zenbaiten banaketa eta erabilera ondo</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>Hitz amaierako -a: azerakunze (1), mille (2), [biar] dire (2), arime (3), burle (9), gure [dau] 'gura dau' (20), pinture (21), veguire (22).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>, Jesuchristoen 'Jesuchristoren' (20), inoen contra (27), ascoen artian (29), embarazuen bat (30), Jesuchristoen (30), santuen baten (32), instrumentuembat (35), Tertulianoen (38).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>, ni il esquero ene gorpuzaren arduraric euqui (19), aurrera ene sermoia eroateco (19), ez emotia azquen edo acaberia ene torpeza edo loiqueriyai (22), emongo azquena edo erremata ene maldade guztiyai (22), garvitu beguiz verorrec ene min eta espanac (23), eniac dira (25), ene aoti opa deuzuena (27), ene pecatuac dira gustiz andiyac (30).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>2.3.15. Gaztelaniatiko -(c)ión, -(s)ión, -(n)ión, eta -(g)ión-amaierek forma ezberdinak hartzen dituzte Sarriaren izkribuetan: -(c)ión eta -(s)ión amaierek -zino eta -sino eman ohi dute, batzuetan bustiduraz, beste batzuetan ez: naciño (1), permisiñoz (1), inclinacinoetan (1), murmuraciñoa (1), maldicino (1), obligaciñoa (2), errestitucinoa (2), confesino (2), intenciño (2), funcino (3), diversino (3), procesinoan (3), conversino (3), veneracino (3), intencino (3), conversacinoetaric (3), oracino (3), zalvacinoen (3), emendacinoagaz (4), meditacino (15), pretensinoa (18), disposiciñoetan (20), prisiño (20), inclinacino (30).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>3), aurratuten (3), azeguinduteco (3), galduten (3), agartuteco (3), aguinduten (3), estalduteco (7), hichututen (14), tristetuten (18), artuteco (18), laburtuten (18), aiztuten (19), aveniduteco (30).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>, gordetaco (18), sentietan (18), paguetan (19), ametan (20), tapeta (20), atormentetan (22), encarguetan (24), movietan (24), ateretan (25).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>3), bustiten (3), emoten (6), eroncitia (6), jositen (18), jausten (20), jausiteco (22), itoten (25), yositen (25), idiguiteco (25), erositeco (25), jarritia (29), asiteco (31), igoten (35).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>19), aurratuten deve (20), erregnaduco dave (20), eztabe icharoten (20) procuret[an] badabe (23), eztave artuco (29), gura izan dave (35), lotzatu dave (34), confessetan davee (35).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head></head><label></label><figDesc>, eguin bidi (35), izan cedin (35), jazi zila (35), amaitu cedin (35), jaci cedila (38).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>-</head><label></label><figDesc>Bokal-biltzeetan -ie eta -oa formak. i bokalerdiaren ostean dx epentetikoa. -Asimilazio bidezko bustidura automatiko zabala: iñ, iñdd, ill, illdd, itt, iñtt, ix eta abar. -Soziatibo singularrean -gaz eta pluralean -(a)kaz atzizkiak. -Muga adlatiboan -giño atzizkia. -Hurbiltze-adlatiboan -rantza atzizkia. -Bigarren eta hirugarren graduko erakusleak: (h)onik eta (h)orrik. -Aditz-izenean -tuten (-duten), -etan eta -ten formak; -tzen oso urria da, eta -tzean ez da erabiltzen. -*edun erroko hirugarren -de pluralgilea (eta bertarik eratorritako formak) daukaten formak baino ez dira sistematikoki. -Aldaera-lexiko zenbait: anaje 'anaia', (h)amaka 'hamaika', gei 'dei', gedar 'deadar', sugete 'suete', ulle 'ile', urteiñ 'irten', eta abar.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>1.2. Bizente Sarria: bizitza eta sermoiak 6</head><label></label><figDesc>eta behin, hemen Nerbioi haraneko Bizkaiko alderdiaz arituko garela zehaztu behar dugu. Izan ere, bailararen arabar alderdian (Amurrio, Luiaondo, Laudio eta abar) euskara galdurik dago. Bizkaian geografikoki kokatzearren, hegoaldetik iparraldera, Nerbioi ibaiak Arakaldo, Arrankudiaga, Ugao-Miraballes, Arrigorriaga eta Basauri zeharkatzen ditu: azken horretan, Ibaizabal ibaiarekin bat egiten du eta Etxebarrin eta Bilbon barrena itsasoratzen da. Arakaldoko hego-ekialdean geratzen dira Orozkoko lur zabalak, eta beste horrenbeste gertatzen da Zeberiorekin (perpendikularki lotzen ditu Nerbioi eta Arratia bailarak) Ugao-Miraballes parean, bai eta Zaratamorekin Basauri eta Arrigorriaga artean ere. Hegoaldetik iparraldera doan ikuspegia mantendurik, Nerbioi haranaren mendebala eremu erdalduna da, erabat: Okondo eta Enkarterriko lehenengo herriak ditugu: Gordexola, Alonsotegi eta, mendebalerago, Gueñes, Galdames, Sopuerta eta abar. Ekialdean, aitzitik, eremua nahiko euskalduna da: Zeberio, Arratia eta Galdakao (ez aurrekoak bezain euskalduna) daude bertan. Ipar-ekialdea ere, hots, Txorierri (Larrabetzu, Lezama, Zamudio, Derio eta abar) nahiko euskalduna da. Behin eta berriro aipaturiko euskalduntasuna dela eta, Nerbioi ibarraren baitan bertako euskararen egoera aski ahula da: Etxebarriko jatorrizko hizkeraren azken hiztuntzat 5 geneukana 2010ean hil da laurogeita hamar urte baino gehiagorekin, eta Bilbon, Basaurin, Arrigorriagan eta Ugao-Miraballesen ez da erraza euskaldunak aurkitzea mendialdeko auzune txikietatik kanpo. Salbuespenak salbuespen, gainera, hirurogei urterik gorakoek baino ez dute sorterriko hizkera gorde, eta elkarrekin usu egiten dute gaztelaniaz. Bestelakoa da egoera Zaratamon (Arkotxa auzoan salbu), Arrankudiagan (Zollo barne) eta Orozkon, non aurreko herriekin konparaturik, euskaldun-kopurua nahiz bertako euskararen belaunaldiz belaunaldiko transmisioa gorde egin baita. Esan eta aipatutakoak maparaturik hobeto ikusi eta ulertuko direlakoan, hona hemen Nerbioi ibarra eta inguruak irudikatuta:</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>, lecuban (19), estuba (19), socorrubac (20), vasuban (19), baraubac (19), tormentuba (20), infernuba (20), lecuba (20), buruban (20), maesuba (34), desiertuban (34), damuba (34), medicuba (35), ardauba (35), sortuba (37), bautismuba (38).</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>). Horretaz gain, Astigarraga basauriarraren izkribuetan ere badira ehun eta hamabost bat kasu; hortaz, badirudi Nerbioi ibarrean xviii. mende amaieran eta xix.aren hasieran sistema-</figDesc><table /><note>13 Gipuzkoako eremu zabal batean ere horrela egiten da, baina kasu honetan Bizkaikoak interesa- tzen zaizkigu. Azkueren Erizkizundi Irukoitzaren arabera, -ua eta bertarik eratorritako -ue Durangal- dean, Markina partean, Busturialdean eta Otxandion erabiltzen ziren xx. mende hasieran. Gaminderen datu berriagoek ere hori islatzen dute (2007: 19).14 Gaztelaniatiko maileguak kanpoan utzi ditugu, nahasterik sor ez dezaten; izan ere, Sarriak, Biz- kaiko tradizioari jarraikiz, -u amaiera erabiltzeko ohitura dauka.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>, uriyola (18), bijeramunian (22), fiyesta (23). Adibideekin batera, salbuespen txikiak ere badira, bihotz eta gehiago hitzetan, gehienak: vioza (15), gueiago eta gueiago (1), ardura gueiagogaz, contu gueiyagogaz (4), gueiyago eta gueiago (18). Bestelakorik ere aurkitu dugu, dena dela: loiac (1), gustiecaz (3), zoriona (20), andienian (29). 2.1.2. Aitortu beharra dago Sarria Bizkaiko mendebalekoa izanik, xviii-xix. gizaldien artean aritu zelarik eta bokalen geminazioez dakiguna jakinik</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>zahar hitzean hain zuzen ere: zaarrian (25). Konposizioan, ordea, jatorria adierazteko erabiltzen den -(t)ar morfemaz eta -ari atzizkiaz eraikitako zenbait hitzetan bokal bikoitzak ditugu: cretaarrac (3), guraari (13), edaari (14). Gainetik begiratuta, berrogei-berrogeita hamar kasu aurkitu ditugu, baina gehien-gehienak artikulu mugatua, deklinabideko atzizkiak (genitibo eta lokatiboak, batik bat) nahiz aditzetako pluralgileak ezartzerakoan sortutako formak dira (ik.<ref type="bibr" target="#b45">Mitxelena 1954)</ref>, ez kontsonante baten galerak sorrarazikoak. gabekoak genituzke, azkenik: laarregui (2), laarreguijagaitic (12), itzaal (7), jaanari (14) eta jaatera (37) bezalakoak.</figDesc><table><row><cell>). xix. mende hasierako Basauriko Astigarragaren testuekin erkatze kuantitatibo bat eginez gero, tarte handi(egi)a dakusagu autore bien artean 17 ere: aa ee Bizente Sarria ±30 19 ±480 Juan Ignazio Astigarraga ±3 ±215 18 Gaineko koadroak ondo baino hobeto islatzen du eremu bereko eta garai ber-tsuko autoreen arteko ezberdintasuna. 1866an, hots, bospasei hamarkada igarota, Uriartek Bonaparte printzearentzat itzulitako Arrigorriagako dotrinan (Arretxe 1988: 52) ez da a bikoizturik ageri, eta e-ren bost geminazio ditugu, horietarik hiru erakusle pluraletan. Alboko Arratia bailarara igarota, Añibarroren Escu-libu-rua-ren lehenengo edizioa (1802) arakatuz gero, han ere oso gutxi direla ikusiko dugu. Datu historiko horiek gogoan, argiro atera ditzakegu ondorioak: ez dirudi etxeba-rritarrak erabili zituen bokal bikoitz gehienak grafiatik haratago doazenik. Izan liteke, eta gero eta datu gehiago dira horretara garamatzatenak, Sarriak beste autore batzuen eragina jasan izana. Bada, hipotesi horren barruan eredu izateko aukera gehien duten garaiko autoreak, ezaugarrion morfologia zein erabilera-maiztasuna kontuan hartu-rik, Bizkaiko ekialdean genituzke, berriro ere. Eskasak izan arren, hiru eratako a bikoiztuak aurkitu ditugu Sarriaren testuetan. Ugarienak -a amaieradun hitz bati deklinabide-markaren bat ezartzearen ondorioz (artikulu mugatuak nahiz ergatibo-marka) sortutakoak daude: 19 eleiziaaren (20), gus-tiaac (14). Kontsonante bat galdu izanaren ondorioz sortutako geminazio bakarra aurkitu natu ditugu: deklinabide-eta superlatibo-markak eranstean sorturikoak, adizkietako pluralgileekin sorturikoak, kontsonanteen galerek eragindakoak eta azalpen histo-riko garbirik ez daukatenak. Lehenengoei dagokienez, lokatibo, genitibo eta super-latibo kasuak eranstean agertzen dira, batik bat: e + e &gt; ee: ceubeen 'zeuen' (1), urteetaric (3), confesoreena (3), videetacoac (3), erre-gueen (3), virtuteetan (6), gentilidadeen (7), semeen (19), sucessoreen (19), sacerdoteen (20), videetara (30), aldeetati (6), zeureenac (7), bereesco (23). a + e &gt; ee: peneen (1), anajeen (1), abazuzeen (1), santeena (3), deungueen (12), gauseetaric (18) peleetaco (3). Adizkiekin hasi aurretik, aditz-izenak sortzeko atzizkiak eranstean sortutako ge-minazio-kasuak ere badaudela esan beharra dago: deseetan (13), beteetan (14), emplee-tia (38) eta amateetaco (11), kasurako. Bada, azkenik, beste kasu bat non -o amaieradun guraso hitzean aurreko bikoitza-pen bera gertatzen baita analogiaz, beharbada: gurasoeen (31). Adizkiez denaz bezainbatean, e bikoitza erabili zuen Sarriak, besteak beste, plural-tasuna adierazteko: dinotzeet (3), [icusi] zaitezee (7), dauquee (12), [eguiten] dabee (12), [icusico] leuquee 'hareek ha' (13), [enzun] badabee (13), [emon] zaitezee (22), [gorde] zaitezee (23), [galdu] zareela (30). Argi ikusten da, bada, gaineko adizki horietako bokal bituak egun disimilatu-rik entzuten ditugun formen (zaitezie, zariela, daukie eta abar.) aurrekariak direla. Alabaina, kontua ez dago beti hain garbi. Añibarrok adizkietan erabili zituen ee-z ari zelarik, geminazio horrekin arratiarrari sortu zitzaizkion zenbait arazo agerrarazi zituen Blanca Urgellek Gueroco Guero-ren hitzaurrean (ik. Urgell 2001). Izan ere, Añibarroren kasuan legetxe, Sarriaren testuetan ere "nor eta nor-nork adizkietan subjektua pluraleko 3. pertsona dela markatzen du, eta bi pertsonako iragangaitzean datiboa hura bera dela. (nor)-nori-nork adizkietan, berriz, ergatiboa 1. edo 2. per-tsona denean adierazten du (…), baina 3. pertsona denean ez du bereizten datibo ergatiboak singular ala plural diren" (2001: lxxxiii). Sarriaren adibideak dira ondo-dugu, Azalpenik Aurrekoak baino askoz ere ugariagoak direlarik, e geminatuak lau multzotan ba-koak:</cell></row><row><cell>[eraguiten] deuzee 'hak hareei' (1), [ematen] euzeen 'hak hareei' (7), [aguinduten] deu-</cell></row><row><cell>zee 'hak hareei' (12), [ifinten] deuzeezan 'hak hareei' (12), [eguiten] badeuzee 'hareek</cell></row><row><cell>hari' (13) [quenduten] deuzee 'hareek hari' (18), [ezcatuten] deuzee 'hareek hari' (19),</cell></row><row><cell>[quenduten] badauzee 'hareek hareei' (21), [emoten] deuzee 'hark hareei' (22), [iracaci]</cell></row><row><cell>euzeena 'hark hareei' (23), [esango] deuztee 'hareek niri' (24).</cell></row><row><cell>Aipatutako kasu eta kontestuez gain, badira bestelako e bikoitzak ere. Horien ar-</cell></row><row><cell>tean daude hemen gehien interesatzen zaizkigunak, kontsonante ezberdinak galdu eta</cell></row><row><cell>galera horren ondorioz sorturikoak eta hitz konposizioan agertutakoak.</cell></row></table><note>1617 aa eta ee geminazioak hautatu ditugu gehien errepikatzen direnak direlako.18 Izen biblikoak (Ysaac, Abraan, Aaron, Maab, Naaman eta abar) zenbaketatik kanpo utzi ditugu konparaketa honetan.19 Bada kasu bereziren bat, non -i eta -u amaieradun hitzetan mugatzaile plurala ezartzean gemina- zioa ageri baita: ampulluaac (3), gustiaac (14).</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>Jaungoico formaren mila adibidetik gora daude sermoitegian, eta lautan baino ez da agertzen Jangoico murrizketaduna. Aurquitu ehun eta hogei bat biderrez dau-kagu, eta arquitu, bitan. Hogei bat aurpegui, eta hiru arpegui. Hamar bat gau(be), eta bi gab(a). Aitzitik, bada kasu bakar bat non forma biak, diptongoduna eta murriztua, parean dauden agerraldi-kopuruari dagokionez: jaube / jabe bikotea. Sudurkari aurreko ai diptongoaren kasua berbera da: oro har, diptongoa gorde egin da. Hala, ehun bat aingueru ditugu, eta hamar bat angueru.</figDesc><table><row><cell>3), inder (3), indersua (3), be-deinquetua (3), iquesten (3), bitertecoz (3), aitetu (6), uquetu (19), apliquedu (20), uz-terri (22). Deklinabide nahiz bestelako atzizki batzuetan: ynfernuen (1), santuecaz (3), biten (3), birriten (6), barruen (7), miseriye (20), arriquedac (29). Bat eta batzuk zenbatzaileetan: gichi bet (6), lagun bezuc (14), laurenchu bet 'laur-dentxu bat' (18). Adizkietan: [eracuci] euzezan (1), [esan] eguidezu (1), dauquedan (2), edertuten di-tuenac (3), dauquezan (3) [bota] deguiela (6), [eguin] deven 'dauen' (7), davilzen (22), ichi deu (25). 2.1.4. Aurreko "fenomeno nagusiez" gain, badira bokalismoan labur aipatuko di-tugun beste batzuk ere; ez dira sistematikoki agertzen eta agertze-testuinguruak ere gutxiago dira. 2.1.4.1. au eta ai diptongo murrizketak ez dira, inondik inora, sistematikoak Sa-rriaren izkribuetan. Are gehiago, badirudi etxebarritarrak diptongook mantentzeko ahalegina egin zuela. Era bateko eta besteko kasuen proportzioa begiratzea baino ez ageri ordindu 'ordaindu' (6). Hainbeste berban legoke, kasu honetan, kopuru-pareki-detasuna, diptongodun formak gehixeago badira ere: ehun eta bost hainbeste nahiz aimbeste eta larogeta bost bat anbeste zein ambeste. 2.1.4.2. Beste leku batzuetan ere aurki daitekeen fenomenoa bada ere, "Bizkaian dago: Baten baino ez da beste inon baino indar handiagoa hartu du"</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>Lan honetan ez gara fenomenoaren jatorriaz (kronologikoa nahiz geografikoa) arduratuko;21  alabaina, 1653an prozesua Bilbo aldean aurreratua zela eta Etxebarrik Bilborekin muga egiten duela gogoan harturik, 1800 inguruko Bizente Sarriaren sermoietan espero genezakeen emaitza aurkitu dugu: txistukarien desfonologizazioa eta neutralizazioa kasu eta kontestu fonologiko batzuetarik haratagokoa da, frikari nahiz afrikarien sailean. Hori dela eta, txistukari bakarra adierazteko sarri grafema ezberdinak baliatu zituen etxebarritarrak: jatorriz -[s]-dagoen lekuan, &lt;z&gt;, &lt;tz&gt;, &lt;c&gt; eta &lt;tc&gt;-rekin batera, &lt;s&gt;, &lt;ss&gt; eta &lt;ts&gt; aurkitu ditugu; -[ś]-adierazteko, &lt;s&gt; eta &lt;ss&gt;, baina baita hiperzuzenketen ondoriozko &lt;z&gt; eta &lt;tz&gt;-k. Afrikarien multzoan -[ć]-adierazteko &lt;s&gt;, &lt;ss&gt; eta &lt;ts&gt; idatzi zuen Sarriak, baina baita &lt;z&gt; eta &lt;tz&gt; ere; -[c]-adierazteko, azkenik, &lt;z&gt;, &lt;c&gt; eta &lt;tc&gt; erabili zituen. 2.2.2. Arestian Nerbioi ibar iparraldeko hizkeran hiru ezaugarri bereizgarri daudela esan dugu, tartean asimilazio bidezko bustidura automatikoa. Fenomeno horri eskainitako azpiatalean, hala berresten zuen Jon Arretxek: "Hauxe da [bustidura] zalantzarik gabe Basauri aldeko eta orokorrean Nerbioi haran aldeko euskararen puntu bereziena, inguruko haranetako hizkeretatik gehien desberdintzen duena" (1994: 78). Aipatu ibarreko iparraldean bizi-bizirik dagoen fenomenoa da, eta bustidura automatikoa gerta daitekeen kontestu foniko guztietan gertatzen da: ill, iñ, itt, illdd, illtt, iñdd eta iñtt. Nerbioi ibarreko xix. mendeko eta xx.aren hasierako zenbait lanetako datuek, ordea, ez dute horrelakorik islatzen. 22 Azkueren Erizkizundi Irukoitzako datuak harturik (Echaide 1984: 82-84), indar, il da, beldur eta ezin d(a)u formetan ez da egungo bustidurarik ageri. Uriarteren Arrigorriagako dotrina esku artean hartuz gero, bustidura ix, iñ eta ill kontestuetan baino ez daukagula ikusiko dugu. Dudazko kasu batzuk dakartza Astigarraga basauriarrak, baina, oro har, Uriartek erakutsitako eta Azkuek bildutako informazioarekin bat egiten du. Datu horiek eta historikoki bustidura sistematikoki ez adierazteko joera gogoan hartuta, Sarriak ere "bustidura-urritasun" hori agertzea da espero genuena, eta hala da.</figDesc><table><row><cell>adisquidatazunen (30), nira 'nire'</cell></row><row><cell>(34), ygarla 'igarle' (35), servizailla (38).</cell></row><row><cell>2.1.4.3. Gaztelaniaz -o amaiera duten hitzak -u amaierarekin euskaratzeko tradi-</cell></row><row><cell>zioko joera gordetzen du Sarriak, beti ere salbuespenak salbuespen:</cell></row><row><cell>tesoru (3), pulpitua (3), motibu (7), bautismu (7), obispadu (9), publicuan (13), pode-</cell></row><row><cell>rosu (19), destinu (19), preciosua (19), denderuacaz (21), motibu (22), cotolicu (23),</cell></row><row><cell>cabu (25), engañu (30), animu (30), publicu (30), diaconu (38).</cell></row><row><cell>Baina: calabozo (30).</cell></row><row><cell>2.2.1. Kontsonanteak direla eta, txistukariekin hasiko gara. Oraindik ez daukagu</cell></row><row><cell>mendebalean aspaldi hasi, hedatu eta oraindik ere ekialderantz, Gipuzkoan barrena,</cell></row><row><cell>zabaltzen ari den txistukarien desfonologizazio eta neutralizazioari buruzko ikerketa</cell></row><row><cell>sistematikorik. Dena dela, bilakabidearen kronologia eta geografiaren ideia batzuk</cell></row><row><cell>baino ez dauzkagun arren, bada Bilbo aldeko "mugarri kronologikoren" bat. Mikole-</cell></row><row><cell>taz ziharduela, hala idatzi zuen Rosa Miren Pagolak:</cell></row><row><cell>Fenomeno hau bizkaieran hasten da eta, dirudienez, mendebaldean; Micoleta bera</cell></row><row><cell>litzateke horren lekuko erakusgarriena, grafien nahasketari dagokionez batez ere. xviii.</cell></row><row><cell>mendean Larramendik ere gauza bera egiaztatu zuen Bilboko euskararen ahoskera</cell></row><row><cell>txarra zela-eta, xistukarietan batez ere. Esan daiteke, beraz eta ezagutzen dugun eus-</cell></row><row><cell>karazko literaturak agertzen duenez, xvii. mendean hasiko zirela nahasteak, bereziki</cell></row><row><cell>Bilbon eta inguruetan, lehenbizi ahoskeran, noski, gero literaturan agertuko zirenak.</cell></row><row><cell>(2002: 204).</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>, [essagutu] daguigun (6), [alcanzadu] deguiguzan (15), [icusi] daguiguzan (37). Alabaina, &lt;g&gt; gabeko adibideak ere asko eta asko dira: [essarri] daigun (6), [lagundu] deizugun (7), [jaquin] deigun (18), [icusi] deigun (30), [billatu] daigunzat (22), [al] badaizuez (23), [icasi] deizula (24), [eguin] deizuenzat (27), [al] daidan (30), gordeizus (31), [gozadu] deigunzat (32), [parcatu] deizuezan (34), gordeizube (38), [viztu] deizuela (39).</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>, [jaquingo] eleudiala (22), eniquite 'ez ninteke' (22), enaude [bildurtuten] 'ez naude' (30).</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>, juango baliz guizon bat erreguegana (30), cer derichazue eransungo leusquiola erreguec (30), ac guizonac Erreguegaz leguez (30), erregueganic (32), erreguegaz (32). Bestalde, aita hitza artikulu mugatuaz erabiltzeko tradizio zaharrari ere eutsi zion: Aitia vere eternidade gustiric (8), Aitiac vere entendimenduagaz (8), Aitiaren, Semiaren eta Espiritu Santuaren izenian (19), aitia da Jaungoicoa (27), aitia zan gustiz ona (30). 2.3.2. Aurrekoekin batera, mugatzaileen sailean, -au eta -ori artikulu zaharrak eta -ok hurbila 26 ere baditugu, bai eta lehenengo graduko erakusleari dagokion on-eta bigarren graduko orr-formak ere: essauturic ondo eguijau (1), aurquituric ya Ynfernuan aberazau (1), beragaitic dino doctore santuonec (3), adierasotia ascoen salvacinoraco dan gausau (4), beti davil Espiritu madaricatuau (6), gustionen (7), icazi dozuben leccinoau (7), andija da, Jauna, hichu-mendijau (14), ceru gustionein (18), esposo maiteau (18), Escritura Sagradiac doctrinau iracazteco (19), iracuzi leuzquizue eguiyau (22), esaugutuco dozu eguiyau(22), echeori (23), baya dempora santuau da (30), aitu eguizue ondo egui andiyau (30).</figDesc><table><row><cell>ceinzuc dirian Aitia, Semia eta Espiritu Santu Jauna (8), Aitia dala Jaungoicoa (8),</cell></row><row><cell>Aitia ezta semia (8), Aitiagaz gausa gustietan bardiña (8), Aitia eta semia alcar ama-</cell></row><row><cell>duric (8),</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head></head><label></label><figDesc>, onegaz gustiyonegaz (30), oni gustioni (35). 2.3.3. Erakusleez den bezainbatean, mendebaleko euskaran aurkitu ohi ditugun formak ageri dira Sarriaren sermoietan ere. (H)au eta (h)ori dira lehenengo eta bigarren pertsona singularrari dagozkienak, lehen gradukoak on-eta bigarrenekoak orrerroez eraikitzen dira, eta hirugarrenekoak ditugu (h)a singularrean eta (h)aek eta (h)aik 28 pluralean. Ezer aipatzekotan, lehen eta bigarren graduko erakusleen pluraletako formetan ee bikoiztua barik (honeek, horreek), ia sistematikoki ei disimilaziodunak 29 daudela esan beharko genuke, bai eta forma horien gainean deklinatzen direla erakusleok ere.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head></head><label></label><figDesc>Gogora dezagun forma horren azken testigantza Bonapartek kaleratutako Nerbioi ibar hegoaldeko Laudioko dotrinan daukagula, 1858an, hots, Sarria bera hil eta hogeita hiru urtera.barriz confesadu biar diriala, bardin cein euretaric arien ordura artien confesadu ez baliz (21), ezeunque bera essauturic arian faltadu biar (38). Testigantza zaharrak oinarritzat harturik Lakarrak dioskunaren arabera (1996: 161), -(r)ik ablatibo eta -ti(k) prosekutiboaren formak nahastuz joan ziren; prozesua xviii. mendearen erdialderako bigarrenaren alde amaitutzat eman daiteke. Sarriaren sermoietan, baina, singular eta pluraleko forma erabilienak -rik eta -etarik dira oraindik: beste munduric (1), eguin zanic ona (1), su eta garren arteric (1), ondarreric araco</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head></head><label></label><figDesc>, misericordiyaren aldeti (19), ene agoti (19), emeti (22), Eleiza Santiaren agoti (24), papeleti edo beste aldeti ezpadaqui (24), gorpuz gustiti (25), alde gustietati (25), idiguiric vere gorpuza erditi (25), oratuteco bertati (25), nic neure aldeti (27), predicadoriaren aoti (27), aoti irunci (27), alde biyetati (30), onein videti (30), nondi al daiyen (31), esaneti icasi (38), alde escoacoti (39). -tik: ene aotic (1), urteiten euzo sur eta belarrietatic (1), vere escuetatic, vere oñetatic, vere burutic, vere azur gustietatic (1), neure burutic</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head></head><label></label><figDesc>, beronegaitic (14), gugaitic (15), berausegaitic (18), erriyeltiagaitic (18), agaitic (18), Pablogaitic (18), Raquelgaitic (19), euracgaitic (19), aecgaitic (19), meritubagaitic (20), sufridutiagaitic (21), ardiyacgaitic (25), ceressanagaitic (25), bazaunzagaitic (37), Eliasegaitic (38), señaliagaitic (39). Aurkitu ditugun salbuespen bakarrenetarikoak dira eztogu gura gugaiti (25) eta orregatic (27). Bada hirugarren salbuespen bat ere, erdiguneko hizkeretatik hartua dirudiena: orregaitijo (11). 34 Aipa ditzagun, azkenik, ablatiboaren gainean eraikitako campoticua (11) eta bertatico (18) bezalako izenlagunak, gutxi badira ere, badaude eta. usuen agertzen direnak, eta -gaitik motibatibo kasuan, ia salbuespenik gabe. Hori horrela, aipatzekoa da guk geuk Sarriak bere herriko hizkeratik hurbil idatzitako sermoitzat ditugunetan -rik dela forma nagusia; bestelako eragin edo ereduak antzematen ditugun sermoietan, ordea, horren erabilera murriztu eta -tik (ia) erabiliena izatera igarotzen da. 2.3.5. Datiboari dagokionez, labur arituko gara. Jakin badakigu hizkera eta garai ezberdinetan datibo kasuan -i (zaharra) eta -eri (berrikuntza) morfemak agertu eta txandakatu izan direla. Sarriaren kasuan, tradizioari eutsi zion, hots, -i zaharr(ago)a erabili zuen deklinabide-kasu horretan gehien bat: guizon bati (1), santu glorioso oni(3), ministro santu oni(3), noribaiti (11), orri barreca (13), persona bati (13), alcarri (18), zeuoi (18), arcali (21), graciasco Ama oni (23), ol zati bati (35), Adani (35).</figDesc><table /><note>Laburbilduz, Sarriak -(r)ik, -(e)tarik eta -ti(k) baliatu zituen ablatibo kasuan, lehe- nengo biak izanik</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14"><head></head><label></label><figDesc>, obra oneri'oni' (19), egarri dan bateri (19), beste bateri (20), cembeteri (21), nescatilla bateri (23), San Agustineri (29), Jaun maite oneri (30).Datibo pluraleko forma orokorra, bestalde, -ai da.</figDesc><table /><note>33 Euskaltzaindiak Euskal Gramatika. Lehen urratsak (EGLU hemendik aurrera) bilduman erabili- tako terminologia erabiliko dugu geuk ere, oro har, gramatika-kontuetan.34 «[Gipuzkoako] Goierrin -tio /-gatio ere lehian direla; cf. Beasaingo etxetio 'etxetik', eitteatio 'egi- teagatik'. Motibatibo eta helburuzko -gatio aldaera eremu zabalagoan ere bada, Areson bertan (Olano 1998) eta Urretxun, esate baterako»</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_15"><head></head><label></label><figDesc>eta VJ katiximan ere (Mitxelena 1954: 88) aurkitzen dugu, eta beste horrenbeste gertatzen da denboran nahiz geografian urrunagokoak diren Betolaza eta Kapanagaren dotrinetan ere</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_16"><head></head><label></label><figDesc>formarekin? Pentsa liteke bokal arteko dardarkari biguna desagertu egin dela (jakin badakigu ez dela batere fenomeno harrigarria ez eta bitxia ere), baina gu geu paragrafoaren hasieran agertutako aldaketa edo bilakaera gertatu delakoan gaude, hots, oinarrian Aita San Franciscoa dagoela uste dugu. Arkaismo baten aurrean geundeke, hortaz (ik. Mitxelena 1959: 5 eta hh. eta Lakarra 1983: 61-62). Zalantzak egon badaitezke ere, Astigarragaren sermoitegian izen hori mugatzaileaz baten baino gehiagotan aurkitu izanak zalantzarako lekua murriztu egiten du, bada, (ia) erabat. Mitxelenak eta Lakarrak argi erakutsi zuten San Frantzisko izenean ondo dokumentaturiko arkaismoa dela aipatutakoa. Zer daukagu, ordea, Tertuliano eta San Pablo izenetan, gogoan harturik testuko formak Tertulianoen eta San Pabloen direla? Aurreko erabilera bera den ezin dugu ziurtasunez esan. 2.3.7. Muga-adlatibo edo adlatibo bukatuzkoan bi atzizki ditugu: -gino zaharra eta -raino. Bietarik lehenengoa da, luzaz, gehien erabiltzen dena, bere horretan nahiz -ko partikulaz; egungo erabilera ere horixe da: 35</figDesc><table /><note>viortu arteguino (2), oneguiño</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_17"><head></head><label></label><figDesc>, eta abar. Sarriak inoiz edo behin ceuroen (2) forma ere erabili zuen, gaur egun Nerbioi ibarrean, behintzat, entzun daitezkeen zurok 'zuok' eta zeurok formen pareko edo aurrekaria. 2.3.10. Esan ditzagun, azkenik, bi hitz elkarkarien gainean. Sarriak alcar zerabilen batik bat, baina, noizean behin, arcal ere ageri da bere izkribuetan: Noizbait eta zerbait erako formez ezer gutxi daukagu esateko, ez bada izenorde-aditzondo horietan ez sistematikoki, baina askotan txistukaria agertzen dela: nozbaist, zerbaist, zertxubaist eta abar. Bada, txistukaria noiz eta zer galdetzaileen gainean eraikitako formetan baino ez daukagu; bestela esanda, non eta nor-en gainean sortutakoek ez daukate txistukaririk. Kronologiaz hitz bi esatearren, Astigarragarenean horrelakoak urriak izan baina badaudela eta, guk geuk entzun ez baditugu ere, Jon Arretxek Basaurin oso gutxitan jaso zituela (1994: 117) aipa dezakegu. 2.3.12. Gauza jakina da euskarak, hitanoko moldeko adizkietan ez bada, ez duela emakumezko eta gizonezkoen arteko bereizketarik egiten. 38 Izaera horrek, ordea, ba-</figDesc><table><row><cell>alcarren arteco amodiyoau (8), ecin alcar icusi dave (11), orduan arcalen contra biraoca</cell></row><row><cell>(18), arcal obligadu cirian (18), alcarri (19), arcalen arteco icustac (21), arcali deuzien</cell></row><row><cell>amodiyo (21), arcal ez sufridutiagaitic (21), ez deuzienian arcali paguetan (21), veguira-</cell></row><row><cell>tuteco mutil-nescatuac arcaleri (21), mutil-nescatuac alcarregaz dauquiezan joco, danza</cell></row><row><cell>eta merijendetan (23), gustiz alcarganic alde eguiten edo apartetan eztirian art[ian] (23),</cell></row><row><cell>alcarren arteco pelleburusco tratu eta conversacinoac (23).</cell></row><row><cell>Adibideotako batzuetan ikus daiteke, Sarriak [Nork-alkar-Aditz iragankorra]</cell></row><row><cell>egitura erabili ohi zuela, egungo edozein gramatika-eskuliburutan aurkituko genu-</cell></row><row><cell>keen erabilera delarik. Alabaina, bada adibideren bat non aipatutakoa ez, baina egi-</cell></row><row><cell>tura iragangaitza darabilen: arcal obligadu cirian (18), aitu cirian alcar (25).</cell></row><row><cell>2.3.11.</cell></row></table><note>37 Horrelakoak ere badaude: ausse da, ene enzula maitiac</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_19"><head></head><label></label><figDesc>, garraztazun bagaric (18), neurribagaco (18), baptismu bagaric(19), erremediyo bagaric(19), viortu bagaric (21), verori bagaric(22), arima bagaric (24), charidade bagaric (24), obra on bagaric (24), lagun bagaric (34).Bagarik-etik datorren eta gaur egungo hiztunen ahotan forma bakarra den barik, bage-ren antzera, salbuespentzat har daiteke, aldaera horren bi testigantza baino ez ditugulako aurkitu, eta biak sermoi berean: essautu gura baric (34) eta ichi baric joaten (34). Hortik aparte, euskaraz ez dago jenerorik. Beste hizkuntza batzutan morfologi bereizgarriak izaten dira jeneroa bereizteko. Euskaraz ez dago bereizketarik gizon eta emakume-ren artean, lexikotik kanpo. Bereizketa hori lexiko mailan soil soilik gertatzen da: gizon eta emakume bi izen desberdin dira eta bakoitzak esanahi desberdina du: batak arra den izaki bat aipatzen du, besteak emea dena. Baina honek ez dakar morfologian inongo berezketarik. Eta zenbait euskaldunek bereizten dituzten alargun / alarguntsa, lehengusu / lehengusina eta antzekoak ere lexiko mailako berezkuntzak dira, gizon / emakume berezkuntzaren parekoak. Hitz hauek hiztegian markatuak etorri beharko dute, eta gramatikan ez dute inolako eraginik izango. Alde horretatik, zenbait hizkuntza mailatan egiten den bereizkuntza: tonto / tonta, katoliko / katolika eta abarrek, erdaratik hartuak direnez, ez dute lekurik eta ezin dute euskara batuaren gramatikaren bidea erakutsi»(Euskaltzaindia 1991: 36).</figDesc><table /><note>dinat.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_20"><head></head><label></label><figDesc>Esan nahi baita, xvi. mendeko lehenengo testuetarik xx. mendekoetara atzizkien erabilera-mailak gora nola egin duen; xix eta xx. mendeetan, batik bat. Erabili beharreko literatur hizkuntza edo hizkuntza jasoaren kontzientziak (eta ez dezagun ahaztu Sarria literatur bizkaiera klasikoa esnetan zegoen garaikoa dugula) izango zuen, bete-betean, zerikusirik kopuru-gehitze horrekin.Bizente Sarriari dagokionez, ondoren azaltzen diren atzizkiak dira gehien baliatu zituenak. Horrek ez dakar, noski, ondokoak berak eraikitako hitzak izatea. Hona ekarri ditugun berbetarik batzuk herriko hizkeran erabili eta, are gehiago, atzizkia lexikalizaturik eduki zezaketen (eta dezakete); beste batzuk, autoreak hor-hemen ikasiak lirateke, eta baten bat(zuk) etxebarritarrak berak sortua(k).</figDesc><table><row><cell>, aztibaco (19), neurri bagaco (22), asquen-</cell></row><row><cell>baco (34).</cell></row><row><cell>Bakoitzaren kontestua begiratuz gero, bestalde, aipagarria da bagako-k dituen ho-</cell></row><row><cell>geita hamar agerraldietarik, kasualitatez baino gehiago, ziur aski horrela klixetu ze-</cell></row><row><cell>lako, bederatzitan, neurri hitzari deutsola ageri da.</cell></row><row><cell>2.3.14. 1997ko artikulu gogoangarri batean ("Euskal hitz-altxorraz") argiro</cell></row><row><cell>erakutsi zuen Ibon Sarasolak atzizkien erabilerak zer nolako bilakabidea izan duen</cell></row><row><cell>euskararen historia idatzian. Ondokoak dira,</cell></row><row><cell>bada, atzizkiok:</cell></row><row><cell>-bide: escubidia (14), escubide (37).</cell></row><row><cell>-dade: gentilidade (3), celebridade</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_22"><head></head><label></label><figDesc>, cancinoia (19), eleccinoia (19), prisinoe (19), errecommendacinoia (20), revelacinoiac (22), cancinoiac (30), conversinoia (30), contricinoya (34), absolucinoe (34), passinoia (34), encarnacinoia (35), atencinoiagaz (38), devocinoiagaz (38), bendicinoia (38). Azken bost urteotan Nerbioi ibarrean ezagutu ditugun hiztun euskaldunei ez dizkiegu inoiz entzun aurrekoak bezalako formak; -siño (-zino eta -sino adierazteko) da darabilten forma. Gaur egun Markina aldean eta Bizkaiko ipar-ekialdeko kostaldeko herri batzuetan aurkitzen dugu, sistematikoki, -siñoi. Ez dakigu Sarriaren garaian zein zen ezaugarriaren hedapena, baina badirudi Nerbioi haranean xvii-xix. mendeetan, behintzat, bazela. Izan ere, VJen hainbat adibide ditugu, 41 Sarria etxebarritarrak darabil, Astigarragak ere baditu adibideak eta Uriarteren Arrigorriagako dotrinan confesino hitza -siñoi atzizkiaz agertzen da hirutan (beste guztietan -siño da forma). Hori hala, badirudi xvii-xix. mendeetan behintzat Nerbioi ibarrean bizirik zegoen ezaugarria zela, baina ez sistematikotasun-maila berarekin testigantza orotan.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_23"><head></head><label></label><figDesc>). 44 ofreciten (15). Etxebarrira etorririk, bi formatan darabil Sarriak -ite 1 atzizkia partizipioetan: urten (hamazazpi biderrez) eta eman / emon (lau biderrez):</figDesc><table><row><cell>urteiten deuzo (1), urteiten deudiala (6), urteiten dau (13), urteiten daven (15), emaiten</cell></row><row><cell>diriala (22), [a]tzeguin emaitia (22), mosua emaiteco (25), abrazu bat emoiteco (25).</cell></row><row><cell>2.4.3. Testu zaharren batek beste hedapen bati buruzko datuak ematen badiz-</cell></row><row><cell>kigu ere, 45 azken hiruzpalau mendeetako datuek *edun-eko daude edo euden formak</cell></row><row><cell>bizirik Bizkaiko mendebalean dirautela esaten digute: halakoak ditugu RS bilduman,</cell></row><row><cell>VJ dotrinan, Mikoletaren era laburrean, Orozkoko 1739ko otoitzetan eta Uriarte-</cell></row><row><cell>ren itzulpenetan, besteak beste. Azkueren xx. mende hasierako Erizkizundi Irukoitza</cell></row><row><cell>esku artean (ik. Echaide 1984: 227-228), argi ikusten da erabileraren nondik-nora-</cell></row><row><cell>koa: daude, euden eta horiek oinarritzat harturik eraikitako forma pleonastikoak bi-</cell></row><row><cell>zirik zirauten, eta diraute, Nerbioi ibarrean, Uribe Kostan, Txorierrin eta Arratian.</cell></row><row><cell>Gaminderen 1984ko Aditza bizkaieraz eta Bizkaian zehar. Euskararen ikuspegi oroko-</cell></row><row><cell>rra lanetan ere hala ikusten da.</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_24"><head></head><label></label><figDesc>,[eguin]  biarcot 'beharko dot' (21),[ichi]  beudien 'baeudien' (22), bago 'badago' (25), baquizu (34).-ko + aditz laguntzailea: essangot 'esango dot' (7), icusicogu 'ikusiko dogu' (7), galducot 'galduko dot' (11), ichicoguz 'itxiko doguz' (19), urtengotzu (22), icusicozu (25), esagutucogu (29), euquicot (30), gordecot (31), Multzo horietarik kanpo, oso gutxi dira salbuespenak, hala nola, nozipeñian 'noizik behinean' (18) formakoa.2.5. Sintaxia izango da, ziur aski, dialektologia nahiz hizkuntzalaritza historikoaren ikuspegitik gutxien aztertu eta kontuan hartu izan den hizkuntza-maila.47  Dau-kan edo izan dezakeen aldakortasun mailak ez dio ziurtasunik ematen ikertzaileari, eta kronologiak ezartzeko ere arazoak dakartza. Hori dela eta, azken urteotan egoera zertxobait aldatu den arren, geurean (ere) lan handia dago egiteke: oso gutxi dira euskararen oinarrizko egituren azterketa diakronikoak eta sintaxi-geografian ere egitura jakin batzuk baino ez ditugu, gutxi gorabehera, dialektalki mugaturik.Guk hemengoan ez ditugu Sarriaren euskararen ezaugarri sintaktiko guztiak aztertuko, luzeegi joko luke eta geure asmoetarako gehiegizkoa litzateke. Etxebarritarraren hizkeraren ezaugarri sintaktiko berezienak baino ez ditugu hona ekarriko, beste tradiziozko moldeekin lotu dezaketenak edo tradizio horrekin apurketa adierazten dutenak, bai eta beste autore batzuengandik bereizi ahal dutenak ere.</figDesc><table><row><cell>2.5.1. Mendebaleko euskararen joskeraz hala idatzi zuen Zuazok: "Erakusleak</cell></row><row><cell>izenaren ezkerrean jartzen dira mendebal gehienean" (2008: 81). Erakusleez hitz egin</cell></row><row><cell>dugunean erabilitako adibideak hona ekarririk, araua Sarriarenean bete egiten dela</cell></row><row><cell>(ber)ikusiko dugu:</cell></row><row><cell>Erakuslea ezkerretan: oneic gustiyac (1), oneic penac (1), oneic caltioc</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_25"><head></head><label></label><figDesc>, seme-alaba orreic (12), mendi eta vide orreitan (12), verba erdi orreicaz (13), Jaungoicoaren ministro oneic(20), exemplu oneic (30), catee orreic (34), propositu au (34).2.5.2. GaraikoAñibarro eta beste batzuek bezala, 48 bi egitura baliatu zituen Sarriak ezin-ekin: [ezin + partizipioa + aditz laguntzailea] eta [partizipioa + ezin + aditz laguntzailea]. Etxebarritarraren izkribuetan, arratiarrarenetan ez bezala, lehenengo egitura da nagusi:ezin essan cinaye (1), ecin irun badozu (1), ecin euqui badozu (1), ecin eguin leiyen (2), ecin gustiyac esan leiquez (2), ecin alcar icusi dave (11), ecin enzun dabe vere alearen gauza onic (11), ecin Cerura eldu cinaitequez(14), ecin cerura eldu cinaitequez(14), ecin Ynfernuric libradu cinaitequez(14), ecin sinistu leiquezube(14), ecin contau leizela (18), ecin euqui leye(19), ecin inori obeto dirigidu leiteque(22), ecin aurquitu leiteque (24), ezin salvadu guinaitequez (24), ezin salvadu leitequiala (37). Bigarren eredukoak, esan bezala, gutxi dira lehenengokoen aldean: ucatu ecin leguizena (1), dispensadu ecin leuquian(19).Bizkaiera zaharreko ezaugarriez ari zelarik, ez partikularen erabilerari lerro batzuk eskaini zizkion Lakarrak "Bizkaiera zaharra euskalkien artean" artikuluan: "Ez partikula aditz nagusiaren eta laguntzailearen artean agertzen da usu eta ez, laguntzailearekin batera, nagusiaren aurrean, gaur bezala (…) nolanahi ere, ordena arrunta askorekin gehiagotan ematen da" (1986: 655). Esanikoaren erakusgarri, Mikoleta, Bertso Bizkaitarrak eta Zubia-Lezamiz (gehi Mitxelenak Kardaberaz eta Lardiazabalen la-netan ere aurkitutako adibideak) zerabiltzan orduan Lakarrak. Bada, arratzuarrak emaniko deskribapen laburra bete-betean daukagu Sarriaren sermoitegian ere: "egitura arrunta" ([ez + aditz laguntzailea + aditz nagusia]) da orokorra, baina [aditz nagusia + ez + aditz laguntzailea] mantentzen duten adibideak ere sarri aurki daitezke: confesetan eztau(9), emongo eztira (20).2.5.3. Ohikotasuna adierazteko aukeren artean, egun mendebaleko hizkeretan desagerturik dagoen, baina bizkaiera zahar eta klasikoak luzaz ezagutu eta baliatu zuten egitura baliatu zuen aditz laguntzailetzat Bizente Sarriak ere ohikotasuna adierazteko kasu gutxi batzuetan:</figDesc><table><row><cell>emen luurrian ascotan eguija izan doa essaten dan hypuña (1), modu bitan izan doa pen-</cell></row><row><cell>tsamentuz mandamentu onen contra pecatu eguiña (7).</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_26"><head></head><label></label><figDesc>, zatozaenian emoten arimai Jaungoicoaren verbien janariya (27), zatozienian entzuten sermoia (27), aric etorrico dala azquenengo egunian illac eta viciyac juzguetan (28), orainche noya emoten verorreri neure vioza (39).Bestelako ereduak baditugunez, inork pentsa lezake Sarriaren eredu-hautaketak eragin zezakeela egoera hori, batik bat gipuzkeraz ere idatzi zuela kontuan hartzen badugu. Uriarteren Arrigorriagako dotrina arakatuz gero, adlatibodun formak badirela ikusiko dugu: vicijec eta illec juzguetara, bera bacarric adoretara (ik.<ref type="bibr" target="#b31">Arretxe 1988</ref>  nahiz Pagola 1992. Esan nahi baita, badirudi Nerbioi ibar iparraldeko hizkeran, xix. mendean, bederen, adlatibodun formak direla nagusi. 50 2.5.5. Orobatasuna adierazteko aukerak bi dira: nahiz eta zein.</figDesc><table><row><cell>Eta Sarriak biak</cell></row><row><cell>baliatu zituen:</cell></row><row><cell>nahiz (NAI): nai Erromatarrac, nai Persaarrac, nai Caldea (1), nai dala dirua, nai ar-</cell></row><row><cell>daoa, nai beste edocein gausa (2), nai esconduai, nai alargunai (18), nai hume nai otzein (27).</cell></row><row><cell>zein: bata cein bestia (2), guizonac emonico leccinoen doria cein Jaungoicoac berac</cell></row><row><cell>emonicoa (3), asco cein guichi (30).</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">Ik., esaterako, zer nolako tratua eman zitzaion Landuccioren hiztegiari harik eta Agudek eta Mitxelenak 1958an argitaratu zuten arte. Errenteriarraren beraren sarrera aski argigarria da egoeraz jabetzeko. 3 xvii. mendeko Bilboko Mikoleta (1653) ez litzateke ibar horretan bete-betean sartuko, baina oso gogoan hartzeko egilea dugu, zalantzarik gabe, hurbiltasun geografikoa dela eta; mende berean, Viva Jesus! dotrinaren (VJ hemendik aurrera) balizko jatorriaz izango dugu zer aztertu; xviii.ean, Orozkoko 1739ko otoitzak eta Bizente Sarriaren sermoi-bildumak daude; xix.ean, berriz, Juan Ignazio Astigarragaren sermoiak eta Juan Antonio Uriarteren itzulpenak. Ik. testuon erreferentziak bibliografian. 4 Zuazok (1998) berreskuraturiko izendapena erabilita, mendebaleko euskara, nahi bada. Sarriaren hizkera aztertzeko, dena dela, ezinbestekotzat jo dugu aurretik aipatutako materialak gogoan hartzea.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">Bada beste hiztunik, baina beste eremu batzuetako jendearekin bizi izanaren hizkuntza-eragina begi-bistakoa da.6  Aurretik beste autore batzuek sakonago jorratu duten gaia denez gero, hemen Sarriaren bizitzaren eta sermoien gorabeheren gaineko zertzelada batzuk baino ez ditugu emango. Informazio gehiago nahi duenak ikus ditzala<ref type="bibr" target="#b50">Solaguren (2007)</ref>,<ref type="bibr" target="#b28">Altzibar (1993)</ref> edo eta Etxebarria eta Apraiz (2009) lanak.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="15">Kontuz erabiltzeko eta aztertzeko gaia da, dena dela, ubV (a, e) epentesiarena xix. mende hasierako Markinako autoreengan, behintzat; badakigu zerabilten hizkeraren gaineko kontzientzia zeukatela, eta, horri jarraikiz, norberaren irizpideen edo sasoiko moden araberako erabakiak hartzen hasi zirela. Ik. Altzibar (1992: 475 eta hh.).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="20">Ik. fenomenoaren hedapena Euskal Herri mailanZuazo (2008: 239-241)  lanean.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="21">Koldo Ulibarrik berriki jakinarazi digu Landuccioren Gasteizko hiztegian (1562) nahasketa islatzen duten aztertu beharreko kasuak badirela.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="24">Ugao-Miraballes herriari ere Kallea deitu izan diote inguruko nahiz herriko euskaldunek, herria kale nagusi batek zeharkatzen duela eta.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="25">Kasuren batean sabai-aurreko afrikari ahoskabea «behar lukeen» lekuan &lt;tz&gt; eta &lt;z&gt; grafemak agertzen dira, eta horrek zalantzatan uzten gaitu: grafia kontua baino ez da, ala aipaturiko txetxekaria ez da kasuotan garatu?: etzacu 'ez jaku' (11), ezaco 'ez jako' (13). 26 -ok nahiz -oek formekin agertzen da, lehenengoa nagusi den arren: ceuroen (2), gustiyoenzat (6), opa deuzezan vanidade gustiyoc(7), eztogu biar bestioc (18), gustiocgaitic (25).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="32">Autorearen akatsa izango zen ziurrenik, halako beste kasurik ez dugu aurkitu eta. Sermoitegiaren ediziogileak zuzendu egin du transkribapenean.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="35">Ik. Arretxek Basaurin deklinabide-tauletan jasoriko emaitzak(1994: 96-116).36  Ik. Añibarrok xix. mende hasieran egiten duen erabilera dela eta,Urgell (2001: xci).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="40">«Urkamendi (B, G) horca. Tal vez el mendi sea aquí el vocablo "montaña"»(Azkue 1925: 69).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="41"> Erredenciñoeco, encarnaciñoecoa, passiñoecoa, tentaciñoe, horaciñoe, confessiñoea, confirmeciñoea, absolbiciñoea, estremaunciñoea, erresurreciñoecotan eta abar. Ik. Mitxelena (1954).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="45">Arrasateko erreketari buruzko kantuez ari gara: «Ganboarroc su emaytean / Asi dira, ta onegaz vrten daude berealan / Oñeztar barruangoac / Çein erre ez citeçan». Ik.Mitxelena (1964: 83); nolanahi ere, kantu hori Ibarguen-Cachopin Kronikan bildua delarik, mendebalekoa izatea litzateke errazena; bada, gainera, beste ezaugarriren bat ere (-n &gt; ø aditzean) zuzenbide berean.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">.4.8. RS bildumaren gainean eginiko gramatika-oharretan, -o eta -a arteko alternantziaz azalpen interesgarria eman zuen Mitxelenak:46  Gogora bidez Añibarrok forma hauetaz Esku-liburua-ren bigarren edizioaren hitzaurrean esanak(apud Lakarra 1986: ibid.).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="47">Ik. «Sintaxia dialektologian»(Camino 2009: 379-381).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="48"> Escu-liburua (1802). Ik.Urgell (2001: cvii).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="49"> Ik. Urgell (2001: c).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="50">«"bizkaitarrago"-tzat izan ohi den arren izenki hau, -ra oso zabaldurik dago bizk.zko testuetan»(Lakarra 1984b: 138-139).</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">biar dozubena leguez (14), essaten euzana leguez (19), aec izan ciriana leguez (20), iracazten deuzcuna leguez (30)</title>
+		<imprint/>
+	</monogr>
+	<note>iracazten deuzcuna leguez</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Ezberdinak dira, gainera, egituron oinarrian ager daitezkeen galdetzaileak: Zein / zeintzuk: guei bat leguez, ceinec berez essagututen dau dala gueure Jangoicoa (1), aec verba izalac, zeinzubec esan euzazan Samuel Prophetiac Saul Erreguiari (1), iñes eguin evan seguridadeco oncira, cein dan Erreliginoa (3), misteriyo gustiyen andiyena, cein da trinidade santissimiaren misteriyoa (8), pecatuac diriala bacarric zeinzuengaitic jaso dirian gach eta zorigaisto gustiyac (18), gaurco egun tristian, cein Jesuchristoen erijotza valijosuac consagradu euzcun negar eta penitencijeraco (25)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Zinez Aipagarria Da Sarriak Galdetzaileak Erabilita Erlatibozko Perpausak Eraikitzeko Zeukan Joera</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Halakoak</surname></persName>
+		</author>
+		<ptr target="gaurcoegunsantuadanozgustiyaiopadeuzenugaritazunedofranqueciyaguzticoagaz(30),etorricodalacontuaar-tuteranozguichijagogueucuztidogun" />
+		<imprint/>
+	</monogr>
+	<note>Non: Ynfernuan, non essagututen emongo dau vere justiciyaren aserre gustiya (1), non vere egoten dan (2), non ez dan veneragarriya (3), eztozue topauco premiñaric, ez pueblu edo genteric, non eztaven zabaldu a miragarrisco poderiyoa Jaungoicoac autortu euzana (3), a lecuba noric eztau urtengo iñoc (20), ari personiari nori obligadu dau (20), conversacino pelleburuscoa, non ya bazuetan gueure castidadia edo bestiena ifinten dan jausteco labantazunian (29). Noiz: asi zan escrivietan carta bat itanduteco San Geronimori gausaren bat onen ganian. noz ordu beratan aguertu yacan San Geronimo (29</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Beste batzuetan, ordea, bada. 2.5.8. Kontzesio-perpausetako arren formaren gainean 51 eraikitako -tarren eta -tearren darabiltza Sarriak, lehenengoa nagusiki: hirurogeita hamar bat biderrez aurkitu dugu -tarren, eta hogeitan -tearren: -tarren: 52 guztiya esatarren (2), gueiyago ez lotutarren (4), acabetarren beragaz (4), obeto esatarren (11), ez gastetarren (13), ez galdutarren (18), inez eguitarren (22), besteric es esatarren (22), acabetarren (22), zorra paguetarren (24), enzutarren (27), aiztutarren (27), batutarren (27), esatarren (30), irapaztarren (32). -tearren: zorrac ez paguetiarren</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Aurreko Adibideak Begiraturik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Dakusagu Sarriak Eraikitako Erlatibozko Perpausetan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dela</forename><surname>Horietan Ohikoa Den -N Menderatzailea Falta</surname></persName>
+		</author>
+		<idno>consoletia- rren (20</idno>
+		<imprint/>
+	</monogr>
+	<note>jaquitiarren cer eguiten daudien. eguiten badau botatiarren (23), luzatutiarren (23), condenetiarren (23), ez gordetiarren (38</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Helburuzko perpausen sailean dago subjuntibozko adizkiei prolatiboko -tzat atzizkia gehiturik sortzen den egitura. Ezaugarri horren gainean ondokoa idatzi 51 Bide batez, ez da soberan Sarriak halakoetan arren zerabilela esatea, inoiz ez Astigarraga basauriarraren lanetan agertzen den arrik berriagoa: nozipenian artu arren isilic (2), contuz ibili arren</title>
+		<imprint/>
+	</monogr>
+	<note>izen arren Jaungoico bat (8), eguija essan arren</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">«Se trata de un sintagma nominal sin determinante que recibe el elemento desinencial -rren» (Irigoyen 1978: 459)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Nerbioi ibarreko testuetan badaukagu, ordea: Orozkoko 1739ko otoitzetan ageri da (Ulibarri 2008: 195), eta Sarriak ere askotan zerabilen: ezteigun ichi Ynfernuen semia, onela iguez eguin deigunzat beraganic (1), adieraso deyentzat ene anajiai emen jassoten dana (1), quendu deguizuentzat Diabruac ifinten deuzuezan embarazuac (6)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mateo</forename><surname>Zuen Juan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Zabalak</surname></persName>
+		</author>
+		<idno>1848: 58</idno>
+	</analytic>
+	<monogr>
+		<title level="m">solo la usan en los pueblos del centro</title>
+		<imprint/>
+	</monogr>
+	<note type="report_type">esagutu deijenzat</note>
+	<note>comuniñoen gracia artu deizuentzat (9), gu[e]ratu ditenzat gustiya esaguturic (9), entregadu gaitezantzat (18), servidu deiyoguntzat. emon deyenzat predicadoriari (27), gorde eguin deizuenzat (27), gozadu leiyenzat (29), convertidu zaitenzat (30), eguin daizunzat (30), aprovechadu gaitezenzat (30), urten deizunzat daucazun vicize gueistoric (30</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Perpaus osagarrietan agertu ohi diren -la eta -na formez hau esan zuen Arretxek: &quot;-na esaldi osagarrien lokarria, Bizkaiko beste leku askotan ez bezala, ez da erabiltzen Basauri aldeko euskaraz. Nahiz eta esaldi menperatuko ekintza hiztunarentzat jakinekoa izan edo ziurtasuna adierazi, -la lokarria erabiltzen da</title>
+		<idno>2.5.10</idno>
+		<imprint>
+			<date type="published" when="0199" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">noc estaqui arimia dana lenengo beguiratu biar dogun gaucia (35). 2.5.11. Nerbioi haran iparraldeko hizkeran (eta beste askotan ere), gaztelaniatiko elementuak usu ageri dira egitura sintaktikoen oinarrian. Euskarazko formekin batera, maiz erabiltzen dira sin embargo, aunque edo hasta bezalakoak. 54 Sarriaren sermoitegian salbuespenak dira</title>
+		<ptr target="antesbaigueiyagoberaganeguindozunconfianziagaitic" />
+	</analytic>
+	<monogr>
+		<title level="m">Guk geuk ere ez ditugu inoiz entzun Nerbioi ibar iparraldeko hizkeran, 53 baina Sarriak bazerabiltzan: Daqui, Jauna, asco costaco jacana (35)</title>
+		<imprint/>
+	</monogr>
+	<note>baina aurkitu dugu halako baten bat: baya yaq(u)e ona eldu garien. yaque aiztu yazun (19), antes bai dago euretan</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Sarriak gaztelaniatikoak ere baliatu zituela: munduco andiqui, principe eta puebluen aurrian (3), ya daucagu (3), baya astu yat por si acaso a mirari beti iruten davena (3), ustiric naturalmente beronegaz errezago venciduco cituzala vere areriyoac (27), esan eguidezu, zuc pecatari vengativo (29). 2.5.12. Zalantzarik gabe, sakon eta luze idatz daiteke Sarriaren lexikoaren gainean, baina honakoan, behar baino gehiago ez luzatzearren, etxebarritarrarenean atzemandako erabilera eta joera nagusiak baino ez ditugu aipatuko. Alde batetik</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Aurreko Zerrendako Hitzez Gain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Da Zenbaitetan</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>lexikoak Sarria 1800 urtearen bueltako egilea zela erakusten du</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Sermoietan maiz ikus daiteke nola egin zuen bat etxebarritarrak hitz batzuen erabilera-sasoiekin: usu irakurtzen dugu egile horrek erabilitako hitzak xviii. mende erdialdetik edo xix.aren hasieratik erabiltzen zirela, esaterako. Esan gabe doa, bestalde, literatur bizkaieraren tradiziozko molde eta erabilera-joerekin bat egiten zuela: baga(rik), batzandu, beaztun, begiraune, bere, ekandu, garbai edo pelleburu zerabiltzan, kasurako. Hori horrela, Sarriak oraindik orain Nerbioi ibar iparraldean erabiltzen diren hitz eta aldaera arruntak, edo itxuraz horien aurrekariak</title>
+		<imprint/>
+	</monogr>
+	<note>baliatu zituen batik bat: artez, idun, ago &apos;aho&apos;, tangada, arrastegi, enbra, lotu &apos;geratu&apos;, kojitu, erreska(n) eta abar</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Baina alboko Zeberion badira, esaterako: basenkien etorriko sana</title>
+		<imprint/>
+	</monogr>
+	<note>badakit aurten be yoango sarena</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sarena</forename><surname>Eskerrak Etorri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ik. Etxebarria</title>
+		<imprint>
+			<biblScope unit="page">239</biblScope>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+				<title level="m">Orain hamasei urte jada nabarmendu zuen Arretxek</title>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page">183</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Egoera aski nabarmena da, egia esan: orain Nerbioi ibar iparraldean erabat arruntak diren hitz asko eta asko, Sarria eta Astigarragaren sermoietan ere agertzen direnak, Azkueren hiztegian ez daude Arrigorriagako azpieuskalkiaren barruan kokaturik, baina bai, gehien-gehienetan, alboko Arratia edo / eta Orozkokoan. Esandakoaren erakusgarri, nahikoa da hona bizpahiru adibide ekartzea. Arrastegi hitza Orozkoko hizkeran kokatu zuen Azkuek, baina Sarriak eta Astigarragak bazerabilten, eta gaur egun bertarik eratorritako arrastei daukagu. Hortaz, xx. mende hasieran ere hala behar zuen izan. Antzeko egoera daukagu artez &apos;zuzen&apos; hitzarekin: Astigarragak eta Sarriak bazerabilten, gaur egun aski arrunta da, baina Azkueren hiztegian Arratia, Gernika, Orozko eta Plentziako azpieuskalkietan baino ez da agertzen. Dei hitzaren gei aldaera berreskuratuko dugu, azkenik: Bizkaiko mendebaleko forma da, Nerbioi bailara osoan ezaguna eta ohikoa, baina Azkuek Orozko, Arratia eta Txorierrin baino ez zuen kokatu. 2.5.13. Bizente Sarriaren lexikoaz ari garelarik, etxebarritarraren izkribuetan atzematen den joera garbizalea aipatu behar dugu. Goazen, baina, pausoka. Alde batetik, aipagarria da gaztelaniatiko hitzen presentzia Sarriaren sermoietan. Gaur egungo egoera ezaguturik, bere herriko euskararen isla zirela esan dezakegu eta / edo etxebarritarrak herriko hizkerara hurbiltzeko saioa genuke, hortaz, hizpide dugun autorearen lanetan. Alabaina, Sarria egile ikasia zen, eta lexikoan ondo baino hobeto islatu zuen izaera hori. Izan ere, aipatu gaztelaniatiko hitzen parean, hots, herriak erabiltzen zituen hitzen parean, edo juntagailuaz gehienetan, euskal ordainak eman zituen, Altzibarrek ondo zehaztu bezala (1993: 391), lehenengo euskal hitza agertzen da halakoetan: palazio hitzaren aurretik jauregi eta etxandi ematen ditu</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;apos;</forename><surname>Tartean</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gedar Egin &amp;apos;deadar Egin&amp;apos; Eta Bestelakoak. Aurrekoekin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gaur Egun Nerbioi Haran Iparraldean</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Itzeso Eta Etze Erabiltzen Dira Egun</surname></persName>
+		</author>
+		<ptr target="mortal-enaurretikilkor,kartzela-renaurretikpresondegietaabar.Ezinhitzegingenezakejoeragarbizalebortitzedoindartsubatez,gehiegizkoairudituetaLarramendietaAranabezalakoau-55BasaurinetaArrankudiaganentzunadugu,bainagaztelaniatikoabueladaerabiliena,luzaz" />
+	</analytic>
+	<monogr>
+		<title level="m">zenbait kasutan Bizkaitik haratago) beste hizkera batzuetan arruntak izan</title>
+		<imprint/>
+	</monogr>
+	<note>Txetxekaridun etxe eta itxaso Sarriak nonbait irakurri, entzun eta ikasitakoak izan litezke, bada. Hain orokorrak ez direnen artean, amandre &apos;amama&apos;, 55 aitobe, 56 asago, belu, 57 berein, gesi &apos;segundo&apos; eta lainbeste daude. Sarriaren sermoien berri ematen zuen artikulu labur batean, horrela idatzi zuen Xabier Altzibarrek</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Basauriko zahar-zaharrenek baino ez dute ezagutzen eta, hala ere, aitite eta abuelo erabili ohi dituzte</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Arrankudiagan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Dugu</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Ezer baino lehen, esan beharra dago hitzon erabilera ez dela orokorra, gehien-gehienak sermoi bakan batzuetan (zazpigarrenean, hemeretzigarrenean) agertzen dira eta (horrek ez dakar, noski, besteetan kasuren bat ez agertzea, baina bazterrekoak dira, salbuespenak). Argidore, aurkara, beretitz, bidago, ezkutarma, jargoi, lagungite, lendaukera, salkindari, urre-zigor, humantesa edo neurtarte bezalako berbez ari gara, hau da, Larramendiren hiztegian agertu eta ordurik honako tradizioan oso gutxitan dokumentatu direnez</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Toreak Datozkigulako Gogora Hori Irakurtzean</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Joera horren erakusgarri argia da Sarriak Larramendiren neologismo batzuk erabili izana. gehien bat beste autore batzuen hiztegietan, ez testuetan</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Harriet da horren erakusgarri nabarmena). Horrelakoak, dena dela, ez zituen &quot;huts-hutsean&quot; erabili, ez bada, aurrekoekin egin legetxe, alboan herriko hizkeratik hurbilago dagoen forma emanik: beretitza edo textoan</title>
+		<imprint>
+		</imprint>
+	</monogr>
+	<note>arguidore edo ilustraciñoco (19), neurtarte edo derecho (19), urrecigor edo ceptroa</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Esku Artean Larramendiren Hiztegira Jotzen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Badugu</surname></persName>
+		</author>
+		<title level="m">Sarriak ematen dituen neologismoen ordainak berdin-berdinak direla ikusiko dugu: Texto, beretitza, textoa. Lat. Textus</title>
+		<imprint>
+			<date type="published" when="1745" />
+			<biblScope unit="page">327</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Heroína, ae, herois, dis (1745: I-423)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Heroína</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lat</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arguidorea</forename><surname>Ilustracion</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Illustratio</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1745" />
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Derecho</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lat</surname></persName>
+		</author>
+		<title level="m">Jus, ris (1745: I-261)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cetro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lat</surname></persName>
+		</author>
+		<title level="m">Ceptrum, ij (1745: I-192)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Andoaindarraren neologismoak sermoi gutxi batzuetan baino ez agertzea dela eta, hipotesi ezberdinak aurkez ditzakegu. Esate baterako, izan liteke Hiztegi hirukoitza ez ezagutzea edo ezin baliatu izan izatea gainerako sermoiak idatzi zituenean. Izan liteke, halaber, garbizaleegitzat jota baztertu izana, baina bigarren ideia horrek aurkako argudio nabarmena dauka, orain arte esan dugunetik irten gabe; izan ere, ikusi dugu Sarriak ez zuela inongo arazorik herritarrek ulertuko ez zituztelako ustea zeukan hitzen alboan ordain herrikoiagoak emateko. Bide horretatik, gaindi zezakeen, noski, balizko &quot;gehiegizko garbizaletasun&quot; hori. Hirugarren azalpen posiblea hiztegiaren beharrik ez izatea izan liteke, baina gogoan harturik etxebarritarrak hizkuntzarekin zeukan ardura</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sarriak Larramendiren Hiztegia</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>ondorioen atalean sakonago ikusiko dugu. ez zaigu aukera sinesgarria denik begitantzen. Gauzak horrela, lehenengo hipotesiaren alde egiten dugu guk geuk</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Esan gabe doa, era berean, berdintasun-maila hori hizkera bakoitza gorpuzten duten ezaugarrien araberakoa dela, eta ezaugarri orok ez daukala balio bera. 58 Dialekto, azpidialekto edo hizkera bat ko-58 Dialektometria arloan aritzen direnen ikuspegi eta jarduera ezberdina da</title>
+	</analytic>
+	<monogr>
+		<title level="m">Ondorioak Hemen esango ditugun gauzetariko batzuk aurreratu baditugu ere, bada tenorea bildutako datu-bildumatik orokorki zer ondorioztatzen dugun esateko</title>
+		<meeting><address><addrLine>Camino</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="page">445</biblScope>
+		</imprint>
+	</monogr>
+	<note>Esan gabe doa hizkera guztiak ez direla berdinak</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Jon Arretxeren Basauriko euskara doktorego-tesia (1994) eta guk geuk 2005-2010 urte bitartean jasoriko datuak. Sekuentzia horretan agertzen diren datuak erkatuz, ondorio nagusia ondokoa izan da: Sarriaren sermoi gehienak mendebaleko bizkaieratik hurbil idatzirik daude, eta mendebal horren barruan, Nerbioi ibar iparraldeko euskaran. Horrek ez du esan nahi, inondik inora, sermoi horietan Sarria erabat zurruna izan zenik. Horrek ez dakar sermoi horietan agertzen diren ezaugarriak aurretik zerrendatutakoak edo zerrendatutakoen aurrekariak (eta ez besterik) izatea. Izan ere, badira zenbait sermoi mendebaleko hizkera horretan idatzirik ez daudenak; Sarriak beste bizkaiera-eredu bat ezagutzen zuela erakusten dutenak. Eta horrek nahasteren bat eta, noizean behin, &quot;interferentziak&quot; agertzea ere badakar. Mendebaleko hizkeran idatzitakoen artean oraindik aurkitzen ditugun ezaugarri batzuez gain, aipatzekoak dira egun hainbesteko indarrik ez daukaten beste erabilera batzuk, hala nola, ablatibozko -tik gutxitan agertu eta -rik / -tarik nagusi izatea edo erakusle bikoitzen kopurua altua izatea. Bestalde, egungo ezaugarrien aurrekari garbiak dira Sarriaren lanetako -ia disimilazioak (-ea &gt; -ia &gt; -ie), edo erakusleetako itxiduradun formak: (h)oneek &gt; (h)oneik &gt; (h)onik, besteak beste. Sermoien sailkapenaz den bezainbatean, guk geuk hiru multzotan banatzen ditugu etxebarritarraren sermoiak: -Sorterriko hizkeratik hurbilen daudenak: gehienak. -Bizkaiko ipar-mendebaleko hizkera eredutzat hartuta idatzitakoak: 11, 12, 13, 14, 34 eta 35. sermoiak, esaterako. -Nahasteak tarteko, aurreko bi taldeetan sartzeko salbuespen &quot;gehiegi&quot; dituztenak, aurreko bi ereduak nahasten dituzten sermoiak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Modu Horrekin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mitxelenaren</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Azkueren Erizkizundi irukoitza (xx. mende hasiera). direlako nahiz eredu jasoago bat bilatzeak ekarritako nahasteak tarteko: 15, 19, 20, 24, 27, 29, 36, 37, 38 eta 39. sermoiak, kasurako</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">alegia: 60 -Bokal-biltzeetan, -o + -a &gt; ue eta -u + a eta -u + -e &gt; -uba eta -ube bihurtzea. -Bokal bikoitzen kopuru handia. -Gaztelaniatiko -ción eta -sión &gt; -sinoe (-sinoi) bihurtzea. -Hirugarren pertsonetan *edun erroko formak dabe eta eben izatea. Nerbioi ibarreko eta Markina aldeko euskara bat datoz eta zetozen, bestalde, bokal biltzeetako -ia (1800 inguruan) eta -ie disimilazioetan (gaur egun), eta i bokalerdiaren osteko &lt;dx&gt; kontsonante epentetikoan. Horretaz gain, aztertzeke daukagu Bizkaiko ipar-ekialdean egoera zein zen, baina bertako hizkeran idatzitako sermoietan aipagarria da ablatiboan -tik atzizkiaren erabileraren gorakada edo *edin errokoe-60 Ik., halaber, Juan Mateo Zabalak bere gramatika-liburuko «De las varias pronunciaciones eufóni</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ereduak Direla Eta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bizkaiko Ipar-Ekialdeko Hizkera Aipatu Dugu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Zerk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lan Honetan Jada Laburki Aipatu Ditugun Ezaugarri Batzuen Erabilera Sistematikoak</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>cas de los pueblos del Señorio» atalean Markinakotzat zituen adibideak (1848: 54 eta hh.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Lexikoaz denaz bezainbatean, esana dugu Sarriaren hizkeraren oinarrian sorterrikoak izateko arazorik ematen ez duten hitzak baliatu zituela, tradiziozko literatur bizkaieraren bideetatik aritu zela eta herriko mintzamolde horretatik ez zuela gehiegi urrundu nahi izan: aipatzen genituen hitz bikoteek hori erakusten dute. Horrek ez dakar, dena dela, etxebarritarraren testuetan agertzen den hitz oro herriak erabiltzen zuenik. Horren erakusgarri dira eta juntagailua gehien-gehienetan osorik idaztea, alde batetik, eta Larramendiren hiztegia bildumako zazpi eta hemeretzigarren sermoiak, gutxienez, idazteko kontsultatu izana. Laburbilduz, Bizente Sarria bizi zuen garaiko semea zela erakusten dute hemen aztergai izan ditugun sermoiek: Larramendiz geroztik Hego Euskal Herrian indartu zen idazte-kontzientziaren jabe zen etxebarritarra, eta horrek idazterakoan hautuak egitera bultzatu zuen: herriko hizkeratik hurbil aritu zen, baina bazekien eredu jasoago bat, literarioago bat, bazegoela, eta, ahal zuenean, zeukan ezagutzak ahalbidetzen zionean, entzuletzat herritarrak zituela jakin eta eurengandik gehiegi urrundu gabe, hura lortzera jo zuen. Zenbaitetan, bada</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ezagutzen Zuela Erakusten Digute. Aditzetan</surname></persName>
+		</author>
+		<ptr target="bijoeraezberdinhoriek(herrikoiavskultista,esandezagun)elkarrekingurutzatzendirelabegi-bistakoada" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">«1800 aurretxoko euskarazko sermoiak Ameriketan, aita Bizente Sarria frantziskotarrarenak», in Homenaje a Francisco de Abrisketa. Frantzisko Abrisketari omenaldia, Eusko Jaurlaritza eta Euskal Herriko Bolibariana Elkartea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xabier</forename><surname>Altzibar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="361" to="391" />
+			<pubPlace>Bilbo; Vitoria-Gasteiz</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Bizkaierazko idazle klasikoak: Mogeldarrak, Astarloatarrak, Frai Bartolome: nortasuna, idazlanak, grafiak, Bizkaiko Foru-Aldundia</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pedro</forename><surname>Añibarro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Antonio</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>Hordago: Donostia</pubPlace>
+		</imprint>
+	</monogr>
+	<note>1802] 1978, Escu-liburua</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">«Lazarragaren lexiko eta gramatika zehetasunez</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adolfo</forename><surname>Arejita</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Henrike Knörr (arg.), Jean Haritschelhar-i omenaldia</title>
+		<meeting><address><addrLine>Bilbo, Euskaltzaindia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="59" to="93" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Uriartek itzulitako Astete-ren dotrina</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jon</forename><forename type="middle">;</forename><surname>Arretxe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">.</forename><forename type="middle">J</forename><surname>Arrigorriagako Dotrina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Basauriko euskara</title>
+		<imprint>
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+	<note>Iker Atalak 4. 54-96</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Resurrección</forename><surname>Azkue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>María</surname></persName>
+		</author>
+		<title level="m">Morfología vasca</title>
+		<imprint>
+			<date type="published" when="1925" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Aditz-izenen formak eta partizipioak bizkaieraz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eneko</forename><surname>Barrutia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskararen Iker Atalak</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="225" to="239" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñaki</forename><surname>Camino</surname></persName>
+		</author>
+		<title level="m">Dialektologiatik euskalkietara tradizioan gaindi</title>
+		<meeting><address><addrLine>Elkar: Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Florentino</forename><surname>Castaños</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BAP</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="60" to="69" />
+			<date type="published" when="1957" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">1653] 1897, Mikoleta, Rafael, Modo breve de aprender la lengua vizcayna</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edward</forename><surname>Dogson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Spencer</surname></persName>
+		</author>
+		<imprint/>
+		<respStmt>
+			<orgName>Francisco de P. Díaz: Sevilla</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ana</forename><surname>Etxaide</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>María</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1925" />
+			<publisher>Bilbo</publisher>
+			<pubPlace>Azkue, Resurrección María, Erizkizundi Irukoitza, Euskaltzaindia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Zeberio haraneko euskararen azterketa etno-linguistikoa, Ibaizabal: Zornotza</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juan</forename><surname>Etxebarria</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Manuel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Juan Ignazio Astigarraga (1783-1854) Sermoitegia, Labayru Ikastegia: Bilbo</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nagore &amp;amp; Ainara</forename><surname>Etxebarria</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Apraiz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Sermoitegia, Labayru Ikastegia: Bilbo</title>
+		<meeting><address><addrLine>Bizente Sarria</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="page" from="1767" to="1835" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Euskaltzaindia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskal gramatika. Lehen urratsak</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+	<note>Euskaltzaindia: Bilbo</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Euskararen ikuspegi orokorra, Mendebalde Kultur Alkartea: Bilbo. -eta Juan Ramon Garigorta, 1986, «xviii</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iñaki</forename><surname>Gaminde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Aditza bizkaieraz, 3 liburuki</title>
+		<imprint>
+			<date type="published" when="1984" />
+			<biblScope unit="page" from="61" to="65" />
+		</imprint>
+	</monogr>
+	<note>UEU: Bilbo/Iruña. -, 2007, Bizkaian zehar. mendeko otoitz batzu</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">«Canción antigua de amor</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alfonso</forename><surname>Irigoyen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1978" />
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="459" to="460" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><surname>Lakarra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Andoni</surname></persName>
+		</author>
+		<title level="m">Bertso bizkaitarrak (1688)», ASJU 18</title>
+		<meeting><address><addrLine>Euskaltzaindia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Bilbo</publisher>
+			<date type="published" when="1983" />
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="639" to="682" />
+		</imprint>
+	</monogr>
+	<note>Bizkaiera zaharra euskalkien artean. Refranes y sentencias (1596). Ikerketak eta Edizioa</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Manuel</forename><surname>Larramendi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Latin</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<pubPlace>Bartholome Riesgo y Montero; Donostia-San Sebastián</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">Un catecismo vizcaíno del siglo xvii», BAP 10-1, 85-95. -, [1954] 1988, «Nota sobre algunos pasajes de los Refranes y Sentencias de 1596», in Sobre historia de la lengua vasca, 2 liburuki, Gipuzkoako Foru Aldundia: Donostia-San Sebastián</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1954" />
+			<biblScope unit="page" from="792" to="798" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Fonética histórica vasca, ASJUren Gehigarriak 4, Gipuzkoako Foru Aldundia: Donostia. -, 1964, Textos arcaicos vascos, Minotauro: Madril. -, [1976] 1985, «La fragmentación dialectal: conocimientos y conjeturas</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">»</forename><surname>«introducción</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Agud</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Manuel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mitxelena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">(</forename><surname>Koldo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">.</forename><forename type="middle">)</forename><surname>Landuccio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicolao</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Lengua e historia, Paraninfo: Madril. 73-96. -eta I. Sarasola</title>
+		<meeting><address><addrLine>Gero Mensajero</addrLine></address></meeting>
+		<imprint>
+			<publisher>Bilbo</publisher>
+			<date type="published" when="1958" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="5" to="10" />
+		</imprint>
+	</monogr>
+	<note>Euskera (bigarren aldia)</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Bilbao. El espacio lingüístico. Simposio 700 aniversario / Bilboren 700. Urteurrena. Hizkuntza gunea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rosa</forename><surname>Pagola</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Miren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ondareko eskuizkribuak. Bizkaiera. 3 liburuki, Euskal Ikaskuntzen Institutua-Deustuko Unibertsitatea</title>
+		<editor>Arejita, Adolfo, Ana Elejabeitia, Carmen Isasi eta Joan Otaegi</editor>
+		<meeting><address><addrLine>Bonaparte</addrLine></address></meeting>
+		<imprint>
+			<publisher>Bilbo</publisher>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="101" to="218" />
+		</imprint>
+	</monogr>
+	<note>Bilboko euskara xvii. mendean: Micoletaren euskaraz ikasteko metodoa</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Ugaoko euskara, Ediciones Beta: Bilbo</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Belene</forename><surname>Salazar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ibon</forename><surname>Sarasola</surname></persName>
+		</author>
+		<title level="m">Euskal hitz altxorraz</title>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="617" to="642" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Los franciscanos vasco-cántabros en el siglo XIX. Vicisitudes de nomenclátor bio-bibliografico</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zelestino</forename><surname>Solaguren</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<publisher>Arantzazu Editorial Franciscana: Oñati</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Ulibarri</surname></persName>
+		</author>
+		<title level="m">Orozkoko euskararen azterketa diakronikorantz hurbiltze bat</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="191" to="207" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Blanca</forename><forename type="middle">;</forename><surname>Urgell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sarrera</surname></persName>
+		</author>
+		<title level="m">Literatur bizkaieraz: Añibarroren esku-liburua</title>
+		<meeting><address><addrLine>Añibarro, Pedro Antonio, Gueroco</addrLine></address></meeting>
+		<imprint>
+			<publisher>Bilbo</publisher>
+			<date type="published" when="1985" />
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="67" to="119" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Trasken Oroitzapenetan ikerketak euskalaritzaz eta hizkuntzalaritza historikoaz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">=</forename><forename type="middle">R L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Para la historia del sustantivo nominal en vasco</title>
+		<editor>Lakarra, Joseba Andoni eta José Ignacio Hualde</editor>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="921" to="948" />
+		</imprint>
+	</monogr>
+	<note>Gipuzkoako Foru Aldundia: Donostia-San Sebastián</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title level="m" type="main">El verbo regular vascongado del dialecto vizcaíno</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juan</forename><surname>Zabala</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mateo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1848" />
+			<pubPlace>Ignacio Ramón Baroja; Donostia-San Sebastián</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo ; «</forename><surname>Zuazo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Euskalkiak</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="191" to="233" />
+			<pubPlace>Euskalkiak, euskararen dialektoak, Elkar: Donostia-San Sebastián</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

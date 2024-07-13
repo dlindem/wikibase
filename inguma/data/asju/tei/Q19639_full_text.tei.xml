@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Laburpena* 1</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><forename type="middle">Ulibarri</forename><surname>Orueta</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">URTEAN SEVILLAN ARGITARATURIKO BERTSOAK: CANCION EN LENGUA VASCONGADA O VIZCAYNA QUE CONTIENE LA SUSTANCIA DESTE SERMON</orgName>
+								<address>
+									<postCode>1619</postCode>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">País Vasco/Euskal Herriko Unibertsitatea</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Laburpena* 1</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Artikulu honetan 1619an Sevillan argitaraturiko poesia bat aurkezten dugu, testu garrantzitsua bere goiztasunagatik baina batez ere bere hizkera motagatik, euskal dialektologiako zenbait baieztapen berrikustera baikaramatza. Lehenengo atalean testua non aurkitu dugun azaltzen da eta bigarrenean poemaren metrikaz eta edukiaz ohar batzuk ematen ditugu. Ondoren testuaren edizioa dugu ( § 3), hau ulertzeko interesgarri jo ditugun oharrez lagunduta ( § 4). Bosgarren atalean hizkeraren zenbait ezaugarri aztertzen ditugu, testua nongoa izan daitekeen argitzeko bidea irekiz, eta hurrengo atalean ( § 6) azterketaren ondorioak laburtzen ditugu. Amaitzeko, testuaren hiztegia eta adizkitegia ditugu ( § 7), edizioaren lagungarri izan daitezen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>This article presents a Basque poem published in Seville in 1619. It is a very significant text, not only because of its early release, but most importantly because of the language it uses, since it leads us to question some assertions of Basque dialectology. The first section explains where the poem was found, and the second deals with the poem's metrics and content. This is followed by a critical edition of the text ( § 3), together with some remarks of interest ( § 4). The fifth section analyses certain features of the language of the poem, which give some indication of its origin, and the next section ( § 6) summarises the conclusions of this analysis. The last section features a glossary and a verb table ( § 7), which can be useful for comprehension.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Poemaren liburua</head><p>Poema hau 1619an argitaraturiko liburu batean aurkitzen da, honen hitzaurre izateko edo egina. Liburuak, garaian ohikoa zenez, honako izenburu luzea du: Sermón del día y fiesta de la invención de la Santa Cruz: predicado en el colegio del Ángel de Carmelitas Descalços de Sevilla. Inprimatzailea Alonso Rodríguez Gamarra izan zen, bere inprenta-oinaren arabera frontero de la Carcel de los Alcaldes zena. CCPBren arabera ale bakarra gordetzen da Sevillako unibertsitateko bibliotekan. <ref type="bibr">3</ref> Sermoiaren egilea Fray Domingo de Santo Tomás dugu, karmeldarren Ecijako konbentuaren abadea, eta jakin ahal izan dugun guztia liburuaren portadan agertzen zaigun informazioa da, alegia, Gipuzkoako probintzian dagoen Passage hiribildukoa dela. Dena dela, ez dirudi abade hau denik euskal testuaren egilea, bertsoen izenburuak baitio …hecha [la canción] por vn Religioso de la misma nacion, y aficionado del Autor, hots, bere adiskide batek egina. Berriz, 'nazio' hitzak ez dirudi Gipuzkoari erreferentzia egiten dionik, bere euskaldun izaerari baizik; izan ere, euskal testuan zehar "Bizkaia" bakarrik aipatzen du, baina ez Jaurerriari dagokiola, dirudienez (eta garaian ohikoa zenez), hiru probintziak izendatzeko baizik (tartean Placencia ere -Soraluze-aipatzen du).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Poema: metrika eta edukia</head><p>Gure poesia hain ohikoak diren lauko txikietan eginda dago: 7-6-7-6 egitura du eta bertso lerro bikoitzak dira errima daramatenak. Metrika hau ohikoa dela esan dugu, ezagutzen ditugun garai eta gai honetako bertso askok honela taxuturik daudelako: Iruñean sarituriko Portalen poesia, Iturberen laukoak, Mikoletak dakartzan ba-tzuk… Edukiaren aldetik, hasieran Tubalen mitoa azaltzen du, eta zehazki Tubal Bizkaira (hau da, Euskal Herrira) etorri zenez bizitzera eta bertan izan zituenez umeak, Noe Euskal Herrira maiz etortzen zela familia ikustera. Hortik egileak ondorioztatzen du Noek ekarri zuela fedea eta erakutsi zuela dotrina Euskal Herrian, eta fedea hain sustraiturik egotea dela bertan juduak, mairuak eta moriskoak sartu ez izanaren arrazoia. Ondoren (8. laukotik aurrera) Euskal Herriak Espainia guztitik mairuetatik ihesi etorritakoak gorde eta salbatu zituela kontatzen du.</p><p>11. ahapalditik aurrera, basko-kantabrismoaren mitoaren oihartzunak dakartza, alegia, erromatarrak Euskal Herrian ezin izan zirela sartu; honen arrazoia Euskal Herriko burdina dela uste du egileak, eta bidenabar xvi. mendean burdina horrekin egiten ziren produktuen kalitatea eta Euskal Herriko herri zenbaitetan (Bilbo, Elorrio, Soraluze) zeuden arma fabriken maisutasuna gogoratzen du. Gero sermoiaren gaira hurbiltzen da (gogoratu liburuaren izenburuaz: Sermón del día y fiesta de la invención de la Santa Cruz), gurutze santuak bizkaitarren garaipenetan izan zuen lekua erakutsiz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Edizioa</head><p>Ez gara mugatu testuaren transkripzioa ematera: testuko hutsak zuzendu ditugu, beti bezala oharrean emanaz aldaketaren berri. Grafia bere horretan mantendu dugu; hala ere, irakurketa argitze aldera aldaketa txiki bat egin dugu, v / u eta i / j letra bikoteak banaketa modernora ekarri, alegia; inork jatorrizko banaketa ikusi nahiko balu faksimilera jotzea baino ez luke. Testuko ezaugarri formalak (puntuazioa, letra larrien eta xeheen erabilera, hitz banaketa…) egungo arauen arabera aldatu ditugu, ohi bezala inolako oharrik gabe. Izenburuko erdal pasartea ere modernizatu dugu, tartean azentuera ere egungo legeen arabera aldaturik.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>367</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Canción en lengua vascongada o vizcayna</head><p>que contiene la sustancia deste sermón, hecha por un religioso de la misma nación y aficionado del autor Ala ordenaturiq gure Jangoycoaq, ainsinacoaq dira gente Vizcaycoaq. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Oharrak</head><p>1 Ala: Euskal Herri osoan erabiltzen da, bizkaierazko sartaldeko lekukoetan izan ezik (baina bai sortaldeko bizkaieran), non alan dugun; Lazarragarenean ere forma hau erruz aurkitzen dugu (OEH s.v. 1 hala).</p><p>1 ordenaturiq: -atu partizipio formak baino ez ditugu maileguetan: visitatu <ref type="formula">(7)</ref>, conserbatu (23)… Hots, ez dago testuan mendebaldean (Bizkaian, Araban) mailegu berrienetan ohiko den -adu formarik.</p><p>2 gure: cf. bere (36), Aen (77), euren (80) eta aren (91). Izenordain arrunten eta indartuen erabileran, gure testuak ondo betetzen ditu Linschmann-Aresti legearen printzipioak; hau da, aditzean izenordainaren erreferentea islaturik agertzen bada, forma indartua darabil egileak (bere, euren), eta islaturik ez dugunean forma arrunta (aen, aren, gure).</p><p>2 Jangoycoaq: OEHren arabera (s.v. Jaungoiko) aldaera hau bizkaieraz eta goinafarreraz lekukotzen da, bigarrenean jaungoiko orokorrarekin batera, baina hau baino maizago. Araban Betolazak Jaungoiko baino ez dakar, bai eta Lazarragak ere.</p><p>3 ainsinacoaq: Testu honek ain-diptongodun formaren lehen agerpen data aurreratzen du, orain arte Muniberen obretan baikenuen lekukotasunik zaharrena <ref type="bibr">(OEH s.v. antzina)</ref>; hala ere, goizen agertzen zaigun forma diptongo gabea da, Lazarragaren antxina alegia. Txistukariaz, Bizkaiko autoreek, Lazarragak bezala, gehienetan tx darabilten bitartean, Gipuzkoan tz da ohikoena (dirudienez Larramendiren hiztegiaz gero, ik. <ref type="bibr" target="#b31">Urgell 2005)</ref>.</p><p>Bestalde, egileak afrikatuak adierazten ditu, ez beti ordea (ik. 12 atseguin oh.); baina aipagarria da, testuaren txikitasunean, hemen bezalako n, l, r + txistukari testuingurua duten hamar adibideetan ez egotea inoiz afrikaturik: arçaera (12), bidalsen (45)… beste testuinguruetan ez bezala: atseguin (12), sorrotsaq (66), curutçea (101 19 leguearequin: Bi modutara uler dezakegu bertso hau: edo "lenengo gauza, Jaunaren legearekin zeruko bidea erakusten dute" interpretatu, edo X-ekin Y egituraren adibide baten aurrean gaudela suposatu, bertsoa honela ulertuta: "erakusten duten lenengo gauza: Jaunaren legea eta zeruko bidea".</p><p>21 echatu: OEH-k xvii. mende hasieran lekukotzen du hitz hau, baita 'sustraiak bota' hemengo adiera berarekin (s.v. etxatu 2); hala ere, OEH-k dakartzan adibide guztiak Iparraldekoak dira; beraz, hau dugu garai hartako Hegoaldeko adibide bakarra.</p><p>22 sustayaq: OEH-k ez du lekukotu sustrai hitzaren -r-gabeko aldaerarik (s.v. sustrai). Zaila da erabakitzen errata den edo ez: gogoan har genezake, forma ezezagun honen alde, -tr-hots segida ez dela batere ohikoa euskaraz ondare zaharreko hitzetan hitz honezaz kanpora.</p><p>24 uriaq: Hiri hitzaren mendebaldeko (Bizkaiko, Gipuzkoako sartaldeko, Arabako eta Errioxako) aldaera dugu hemen. 25 yssan esteu: cf. falta ez dira (65). Ezezko esaldietan hitz ordena zaharrari eusten dio egileak, hau da, aditz nagusi + ez + aditz laguntzaile hitz ordenari (cf. guec ajutu ez dugu glosa famatua eta ik. <ref type="bibr">Lakarra 1986: 655</ref> Hemen dugun &lt;h&gt; letrak ez du ahoskera islatzen (cf. armaaq 77), erabilera grafiko bat baino ez du, hiatoak markatzeko, alegia. Erabilera hau, dagoeneko testu zaharragoetan ere lekukotua (RS), garaiko beste testuetan ere aurkitzen dugu, Beriainen liburuetan eta garai bertsukoa bide den VJ-n <ref type="bibr" target="#b30">(Ulibarri 2010</ref> 67 sien: cf. dissut (107). Gure testuan -i-erroa bakarra da indikatiboko nor-norinork laguntzailetzat. xvi-xvii. mendeetako zenbait euskalkitan erro aniztasuna zegoen, gaur egun euskalki bakoitzak laguntzaile honetarako erro bakarra hautatu duen arren. xvi. mendean -i-erro hau (euskara baturako hautatu dena) mendebaldean ere erabiltzen zelako arrastoak ditugu Garibay-ren baladak eta RS errefrauek bezalako testu arkaikoek erakusten digutenez (beti hirugarren pertsonan, ez dute hemen bezalako dizut formarik, cf. 107 dissut oh.). Araban, bestalde, luzaroago mantendu zen -ierroa, sortaldean bederen, eta Lazarragagandik (honetan eutsi eta eradun erroekin batera) xviii. mendeko Gamizen eta Albenizen lanetara aurkitzen ditugu (hauetan ere eutsirekin lehian); jatorri ezezaguneko Portalek eta Iturbek ere -i-badarabilte: lehenengoak nor-nori-nork adibide bakarra du erro honekin, eta bigarrenak eutsirekin batera.</p><p>Bestalde, "Jaunaq eman sien ligeraq corpusaq" esaldi honetan nor-en plural komunztadurarik ez dugu, Arabako eta Gipuzkoako zati bateko testu zaharretan ere bezala <ref type="bibr">(Lakarra 1996: 188</ref> 106 nola: -n gabeko formez, ik. 1 Ala eta 69 onela oh. 106 ygaro: Aditz honen aldaerei buruz, cf. "La forma igaro es casi general en guipuzcoano, y en vizcaíno es prácticamente la única documentada hasta finales del s. xvii y frecuente desde entonces." eta "Irago, documentado ya en Landucci, Lazarra ga (que usa tbn. en alguna ocasión igaro), y Nicolás de Zubia, es la única variante que encontramos en el s. xviii (msOñ (235r), Arzadun, Barrutia, Urquizu, Gamiz <ref type="formula">(206)</ref>)." <ref type="bibr">(OEH s.v. igaro)</ref>.</p><p>107 dissut: -i-erroaz, ik. 67 sien oh. nor-nori-nork -i-erroa hirugarren pertsonetako adizkiekin aparte erabiltzen da, nolabaiteko bizitasuna bazuela erakutsiz.</p><p>108 sermoe: Latinezko -one bukaerak euskaraz aldaera asko eman ditu, hauen artean hemen dakusaguna (FHV 147), normalean bizkaieratzat joa, baina Arabako lekukoetan ere baduguna; sudurkaritasunaz, ik. 60 ascoeaq oh.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Testuko euskaraz ohar batzuk</head><p>Oharretan testuaren ezaugarri aipagarrienak aztertu ondoren, atal honetan ezaugarriok baliatuko ditugu nongo hizkera izan daitekeen antzematen saiatzeko. Ez dugu gaia agortzeko asmorik, ez itxaropenik, testuak geografikoki kokatzeak dituen arazo eta aldagaiez jakitun baikara, baina ahalegina egitea merezi duelakoan gaude, ondoko ikerlarien mesedetan edota ager daitezkeen testu berriak kokatzeko lagungarri.</p><p>Grafiari dagokionez, azpimarratuko nuke hitz amaieran &lt;q&gt; erabiltzen duela. Iparraldeko hastapenetako grafiak aztertu dituen Mujikak -q hau "grafia zahar" bezala aipatzen du, baina bere jatorriaren azalpenik eman gabe <ref type="bibr">(Mujika 2002: 179)</ref>. Hegoaldeko tradizioko grafia zaharrak oraindik aztertu gabe dauden arren, ezaguna da zenbait testutan, hala nola Amiletaren dotrinan, Martin Iturberen kuartetetan, Enojaduric amodio kantuan… Txistukarietara joz, nahiz Hegoaldeko testuetan orokorrean frikari eta afrikatuak grafikoki ezberdindu ez, gure testuan bereizteko halako joera bat nabari zaio egileari, txistukari afrikatuen %32an ahoskera afrikatua adierazita baitago; 9 gainera, bere ga-raian ohiz kanpokotzat jo behar dugun baliabide bat darabil, alegia, &lt;ts&gt; eta &lt;tc&gt;. 10 Afrikatuak mendebaldean xvi-xvii. mendeetan grafikoki nola islatzen ziren oraindik behar bezala ikertu gabe badago ere, argi dago, Arabako eta Bizkaiko testuak ikusita, oro har bestelako baliabideak erabiltzen zituztela, ezer erabiltzekotan: Landuccik &lt;sç&gt; (bizkarkaria eta apikaria adierazteko), Zumarragak &lt;cz&gt; (apikaria eta bizkarkaria), Garibaik &lt;sh&gt; (apikaria bakarrik), Madariagak &lt;ss&gt; (apikaria), RS-k &lt;csh&gt;, &lt;cshsz&gt;, &lt;sh&gt;, &lt;shs&gt; (apikaria)… Afrikatuak t + txistukari erako grafemaz markaturik mendebaldeko hiru testutan baino ez ditugu aurkitu: RS-etan (gutxiengo erabatekoan: lotsaga eta etsecoandrea, 263 eta 259. errefrauak hurrenez hurren), Poza (Eriotcea, fol. 34v) eta Mendietaren koadroko idazkian (jauntçat); ekialderagoko testuetan (nafarrera, gipuzkera), ordea, afrikatua adierazteko baliabiderik erabiliena hau dela dirudi, Isastin, Iruñeko poesietan edo Beriainengan ikus dezakegunez; baliteke Iparraldeko tradizioaren eraginez izatea, hasieratik bide hori hautatu baitzuen <ref type="bibr">(cf. Mujika 2002: 206)</ref>.</p><p>Bestalde, badirudi egilearen hizkeran txistukarien neutraltzea oso aurreraturik zegoela, hala frikarietan nola afrikatuetan, eta hau harrigarria da, orain arte beranduagoko lekukoetan baino aurkitzen ez zen egoera baitugu honetan. Frikarietan, adibideak baditugu testuingururik errazenetakoa den kontsonante aurrean <ref type="bibr">(espatea, esteu, gustia…)</ref>, baina baita oposaketa hobekien mantentzen dituzten testuinguruetan ere: hitz hasieran (siran, sien, sorrots…, tartean çabel hiperzuzenketa ere) eta bokal artean <ref type="bibr">(dessu, yssandu, guessiaq…)</ref>; hitz bukaeran ordea, ondo bereizten ditu <ref type="bibr">: galçayruz, galçayruscoez, ez, dituez. 11</ref> Afrikatuetan ere baliteke neutraltzea egotea. Alabaina, ezaguna denez, mendebaldean hedatu den neutraltzea bizkarkariaren aldekoa izan bada ere, gure testuan apikariaren grafiak nagusitzen dira: armassen, sorrotsa, gorpusaq… Mikoletaren testuan bezala: osic 'hotzik', aserrengo 'atzerrengo'… Neutraltzeak duen indarra argi ikus dadin, taula banatan bildu ditugu adibideak. Taula hauetatik kanpo utziko ditugu ozen ondoko txistukariak, testuinguru honetan frikari/afrikatu oposaketa neutraltzen delako, hizkeren arabera alde batera edo bestera (kasu honetan badirudi frikariaren alde egin duela, cf. 3 ainsinacoaq hitzari egin oharra): </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Ondorioak</head><p>Honainokoan erakusten saiatu gara testu arras interesgarri batekin egin dugula topo, hemen eskaini ahal izan dioguna baino ikerketa sakonagoa merezi duena. Ordezkatzen duen hizkeraren berezitasunak eta ezaugarrien konbinaketak bide berriak irekitzen dituzte oraindik ustiatu gabeko dialektologia historikoaren ikerlerroetan: izan ere, ezer gutxi dakigu testuaren jatorria bide den eremuko hizkera zaharrez, hots, Arabako ekialdeak, Nafarroako mendebaldeak eta Gipuzkoako hegoaldeak osatzen duten eremukoez, ezer gutxi euren ezaugarri eta bereizgarriez, eta are gutxiago izan duten ibilbideaz. Gainera, eta tamalez, euskara galdua da aspaldi eremu honetako leku askotan arrastorik ia utzi gabe, eta ahalegin gutxi egin dira orain artean bertako (eta orduko) euskarari buruz toponimia eta antroponimiak ematen dituzten datuek -urriak izanik ere erabili beharrekoak-testu apurrek eta bizirik iraun duten hizkerek dioskutena elkarrekin lotzeko. Hala bada, zenbait datu ezin baliotsuago eskaintzearekin batera, galdera zaparrada bat eta arazo franko sortu ditu, sortu ere, gure testuak. Zorionez, nik uste.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Hiztegia eta adizkitegia</head><p>Edizioaren lagungarri hemen aurkezten dugu testuko hitz guztien hiztegia, bai eta adizkitegia ere. Lan honek, testua hobeto ulertzeko erremintak emateaz gain, atzetik datozen ikertzaileei bidea errazten dielakoan gaude.</p><p>Hiztegia taxutzeko Viva Jesus dotrinarekin egin genuena izan dugu gogoan (Ulibarri 2010), Lakarrak lehenagotik egindako lanak eredu eta Sarasolaren Euskal Hiztegia eta OEH iturri lexikografiko. Lemak gaur egungo grafiara hurbildu ditugu, garaiko ahoskera ahaleginean mantenduz; honela, esate baterako, lemetan ez dira h-ak jarri, ezta testuan h duten formetan ere. Txistukarietan, neutraltzeak direla eta, erdibidean geratu gara: apikariak eta lepokariak testuan dauden bezala eman ditugu lemetan, neutraltzearen egoera islatu dadin, baina frikari/afrikatu oposaketa berrezarri dugu, garaian zukeen ahoskeraren arabera (hots, ozen ondoko txistukariak frikari mantendu ditugu, cf. 3 ainsinacoaq oh.).</p><p>Lema eta esanahiaren artean hitzaren kategoria adierazi dugu, eta aditza denean, da (iragangaitza) edo du (iragankorra) den, testuak horretarako aukera ematen duenean. Sarreraren azpian hitzaren agerpen guztiak eman ditugu testuko grafian, bertso lerro zenbakia alboan duela. Lexikoian zehar erabilitako laburdurak Sarasolaren Euskal Hiztegitik hartuak dira. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.1.">Hiztegia</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>ik. baita 87 eta 98. lerroak ere. Hemengo -ae-bokalismoarekin RS-n eta Lazarragarenean baino ez du lekukotzen OEH-k (s.v. lehenengo); esanahiaren aldetik, adibide hau 'printzipala' dela irizten dugu, eta ez 'lehendabizikoa' (ik. lexikoia). 19 Jaunaren: Genitibo guztiak -r-dunak dira gure testuan, hala singularrak nola mugagabeak: batetik, Maruaren (33), aren (91) eta curutcearen (97) eta bestetik Noeren (30), Christoren (38, 85, 90, 97) eta Erromaren (71) . -r-gabeko adibide bakarra Aen (77) dugu, erakusle plurala izanik espero bezala. Honek jatorria bizkaieratik eta Arabako mendebaldetik (Betolaza, alegia) kanpo bilatu behar dugula pentsatzera garamatza.</figDesc><table><row><cell>ez dela bizkaierakoa, euskalki eta garai honetan -au-baitugu, eta testua Arabara edo</cell></row><row><cell>ekialderagoko hizkera batera (nafarrera, gipuzkera) lerratzen du.</cell></row><row><cell>Bestalde, nork aktantearen 3. pertsonaren plurala -e da, ez ekialderagoko -te, ezta</cell></row><row><cell>Bizkaiko sartaldeko -de ere.</cell></row><row><cell>18 lenaengo:</cell></row><row><cell>).</cell></row><row><cell>Honek adieraziko luke testuinguru honetan neutraltzea frikariaren aldekoa zela,</cell></row><row><cell>ekialdeko hizkeretan bezala (cf. FHV 290) eta frikari eta afrikatuak grafikoki bereiz-</cell></row><row><cell>ten dituzten mendebaldeko lekuko zahar bakanetakoetan, Landucciren hiztegia eta</cell></row><row><cell>RS-etan, bezala.</cell></row><row><cell>4 gente Vizcaycoaq: cf. ballesta galçayruzcoez (63); baina ceruco bidea (20), Vizcayco</cell></row><row><cell>uriaq (24), Vizcayco genteaq (32)… -ko genitiboaren hitz ordena zaharra, izenaren</cell></row><row><cell>ondoren, eta berria, izenaren aurretik, dugu gure testuan, baina ehuneko ezberdine-</cell></row><row><cell>tan; izan ere, ordena zaharra hemen eta ballesta galçayruzcoez (63) adibidean gor-</cell></row><row><cell>detzen den bitartean, hitz ordena berriak hamaika adibide ditu.</cell></row><row><cell>4 gente: Bizkaiko eta Zuberoako tradizioko forma izateaz gainera, -nt-dun al-</cell></row><row><cell>daera hau Lazarragarenean eta Otxoa de Arin gipuzkoarrenean ere badugu, bai eta</cell></row><row><cell>xvi. mendeko Lapurdiko gutun batzuetan ere (OEH s.v. jende).</cell></row><row><cell>4 Vizcaycoaq: Garaiko joerari jarraiturik, poema honetan Vizcaya hitzak ez dio</cell></row><row><cell>bakarrik Jaurerriari erreferentzia egiten: Frantzia eta Ingalaterra aldean, besteak beste,</cell></row><row><cell>vizcaino euskaldun-en baliokide da (cf. Urteren gramatikaren izenburua: St Jean de</cell></row><row><cell>luz dela Prouince de Labour dans la Cantabric francoise ditte vulgairement pais de bas-</cell></row><row><cell>que ou bizcaye. Escalherria ou bizcaya; Urte ca.1714). Mugaz hegoaldera, ordea, egun</cell></row><row><cell>EAE osatzen duten hiru probintziei egiten die erreferentzia, lantzean behin Nafarroa</cell></row><row><cell>ere barruan dela (cf. Juaristi 1991: 131; adibidez, Cervantesen Kixoteko VIII. eta</cell></row><row><cell>IX. kapituluetako Sancho de Azpeitia pertsonaia dugu, beti 'vizcaíno' bezala aipatua).</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>OEH-k ez du forma monoptongatu hau testuetan aurkitu (guztiak mai-edo mau-ditugu); hala ere, Marulanda eta Maruelexa toponimoak aipatzen ditu maru forma horren berme gisa (gure testuak berresten duen bezala).27 guichiago: gutxi hitzaren aldaera Bizkaian eta Araban, azken euskalki honetan gutxi-rekin batera, eta baita Azpeitia inguruan ere(OEH s.v. gutxi); hauetaz aparte, Isastik ere gitxi aldaera dakar bere atsotitzetan.29 Sorci: Bibliaren arabera, Noeren arkak zortzi pertsona salbatu zituen uholdetik, Noe, emaztea eta euren hiru semeak emazteekin (Gen 6): egileak simil bat egiten du arkaren eta Bizkaiaren artean, Bizkaia ere Espainia guztiaren salbatzaile dela adieraziz.33 yguessi: Ihesi hitzaren aldaera, hegoaldean erabiliena OEH-ren arabera (s.v.37 gordessen: esan bezala (12 arçaera oh.), aditz-izenak sortzeko atzizki orokor biak baino ez ditugu: -te, -i eta -n (eta txistukari amaierako?) partizipioekin, eta -tze beste partizipio mota guztiekin: hemen bezala partizipio irregularrekin edo mailegu berriekin: venciseco (39), armassen (64), largassen (101)… Txistukari afrikatuen neutraltzea aurreraturik dago, jadanik esan bezala (ik. 59 sorrotsarequin oh.); hala ere, gure ustez merezi du aipatzea -tze atzizkiaren zortzi adibideak apikaria adierazten duten &lt;s&gt;-z eta &lt;ss&gt;-z daudela: bai bokal artean s bikoitzaz (largassen, adorassen…) eta baita ozen ondoan s bakarraz (bidalsen).40 dulabrea:Azkuek "pertsona enérgica" bezala itzuli zuen eta Mogelek ere antzeko esanahia eman zion ("de mucho remango"), gure adibidearekin ondo ezkontzen direnak. Gutxi dokumentaturiko hitza dugu honako hau, bestalde: testu zaharretan Egiaren Kantan eta Mogelen Peru Abarkan baino ez(OEH s.v. dulabre).41 Erroman: Hemen egileak basco-kantabrismoaren mitoa jasotzen du; hau da, iturri klasikoen arabera erromatarrek Penintsula konkistatu zutenean aurre egin zieten bakarrak kantabroak izan eta gure testuaren garaiko historialariek (gehienbat Euskal Herrikoek) euskaldunekin lotzen zituzten kantabro horiek (cf.Tovar 1980:  48  e. hh.). 41 yssandu: cf. yssandu (87, 89, 99) eta egondu (93). -du partizipio marka hedatuz joan den heinean, aditz zaharrei ere erantsi zaie, forma pleonastikoak sorturik. Honelako formak xvii. mende hasieratik lekukotzen dira gipuzkeraz eta goi-nafarreraz (OEH s.v. izan); hauei arabarra bide den Portal ere gehitu behar zaie (egondu), bai eta Landucci ere (erabildu, viçitu, yldu). 42 asco triumphoriq: cf. Soldadu asco dator (49). Asko zenbatzaile zehaztugabea partitiboarekin, egun eskerrik asko esapidean bakarrik aurkitzen duguna, garai batean nahiko erabilia zen: cf. Gomizek asko lagunik, eskutaririk asko… Lazarragarenean egiturarik erabiliena dugu (OEH s.v. asko 1). Tradizioan zenbatzailea bietara kokatzen da, izenaren aurretik edo ondotik, eta gure testuko hizkeran aukera biak ditugu: adibide honetan bezala izenaren aurrean eta izenaren ondoren 49. lerroko soldadu asco adibidean. Bestalde, asko-ren bi adibideetan aditza singularrean dago, espero bezala xvii. mendeko testu batean (hala ere, Lazarragak pluralarekin ere badakar) (ibidem). 43-44 batere… genteriq: Egileak kuarteta honetan hitz ordena egokitu behar izan du errima egin ahal izateko. Beraz, honela interpretatu behar dela uste dugu: 'Erroman izan zen triunfo asko, [baina] ez [zuten] batere irabazi Bizkaiko jendea', non genteriq hori -(r)ik partitibo markarekin dugun. 45 Millares: cf. millares 58. Milar(e) gutxi dokumentatzen da gure tradizioan: Lcc eta xvii. mendeko gutun batean lekukotzen du OEH-k, eta milarez aldaera Zuzaetaren obran (xviii-xix. mende bitartean) (OEH s.v. milar(e)). Hemen ere, Zuzaetarenean bezala, badirudi 'milaka', 'erruz' esanahia duen adberbioa dela. 48 Bilbaoco espateaq: Erreparatu Bilbao forma zaharra darabilela egileak. Bilboko ezpatez hitz egitea ez da kasualitatea, izan ere xvi eta xvii. mendeetan oso ezagunak baitziren Bilboko ezpatak euren kalitateagatik: garaiko literaturan askotan aurkitzen da "la [espada] de Bilbao" esapidea, are Inglaterrako literaturan ere (Shakespeare idazle ezaguna barne) (Dueñas Beraiz 2001: 270); Bilboko ezpaten izen ona erakusten dute Segoviako ezpata-saltzaileek ere, 1536ko euren ordenantzetan Toledoko ezpaten pare jartzen baitituzte (ibidem: 271). Honezaz gainera, erreparatu anakronismoari: izan ere, xvi. mendeko armak jartzen ditu antzinako kantabroen eskuetan. 51 corpusaq: cf. 68. Hasierako herskari ahoskabea Hegoaldean nahiko ondo dokumentaturik dago Zubiaren dotrinatik aurrera, baina beti ere gorputz aldaera orokorra baino gutxiagotan (OEH s.v. gorputz). 52 galçayruz: Protesidun aldaerak gipuzkeraz eta bizkaieraz lekukotzen ditu OEH-k, lehenengo euskalkian g-dunak eta bigarrenean g-eta k-dunak (s.v. altzairu). Lazarragaren adibide bat badakar k-rekin. Protesi hauen inguruan ik. FHV: 252. 53 ceban: Mendebaldean lehenaldiko Nor-Nork aditz laguntzailearen 3. pertsonaren ezaugarria ø-den arren, honelako z-dun adibideak aurkitzen dira gaur egungo Deba ibarrean, bai eta xvii. mendean arabarra izan daitekeen Iturberen lanean ere (Zuazo 2006: 1016). 54 burdina: OEH-k hau diosku hitz honen aldaeren hedaduraz (s.v. burdin): "La forma más extendida es burdina, propia tanto del vizcaíno como de los dialectos septentrionales, salvo el suletino (y Tartas), donde se emplea bürdü(i)ña. Los escritores guipuzcoanos usan burni(a), forma que se encuentra tbn. en los alto-navarros Isasti y Beriain. Se atestigua burrin(a) en Lizarraga de Elcano, Añibarro y (burrin gori) en un texto del s. xviii escrito por Gamiz, alavés afincado en Navarra." 55 armahaq: cf. armaaq (77). Absolutibo pluralean bokal bikoitzak aurkitzen dira mendebaldeko testu zaharretan. Bizkaiera zaharrean sortaldeko lekukoetan mantendu ziren gehien: Kapanaga eta ondorengo Oñatiko eskuizkribua, f. Bartolome, Astarloa, Mogel…; baina baditugu sartaldeko VJ-n ere (lehenago RS-n eta IC-n): cf. FHV 111. Araban, ordea, bietara ditugu: Lazarragak bokal bikoitzak dituen bitartean (salbuespen batzuk gorabehera, cf. Bilbao et al. 2010: 19, verbaac oh.) beste lekukoek (Bet, Lcc, Portal…) ez.</figDesc><table><row><cell>373</cell></row></table><note>). 27 maruaq: cf. maruaq (39) eta maruaren (33);ihes). Lazarragak ies ere badu (baita Lcc-k ere), eta bizkaieraz zenbait egilek iñes, are testu zaharrenetan (RS) ere. 34 socondoan: OEH-k dakarren 'rincón' adiera ondo datorkio zokondo hitzaren lehenengo lekukotasun honi, orain arte bizkaieraz baino ez lekukotua, xix. mendeko testuetatik aurrera (Mogel eta Añibarro) (OEH s.v. zokondo).</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>Dirudienez Elorrio hiri garrantzitsua izan zen lantzak egiteko artean: bertako artisauen lanek fama handia zuten xvi-xvii. mendeetan, testu honek islatzen duen bezala (cf. Hualde 1927 eta Azpiazu 1994). 58 lanceaq: Mitxelenak dioskunez, mendebal zabal batean gertatzen den a + a &gt; -ea disimilazioa nominatiboari dagokionez singularrean baino ez da gertatzen (cf. FHV 114); gure testuan, ordea, pluralean dugu hemen, errimak behartuta, nonbait. 59 sorrotsarequin: cf. sorrotsa (66). -kin atzizkiaz, ik. 11 ilobaequin oh. eta txistukari afrikatuen adierazpen grafikoaz, 12 atseguin oh. Bestalde, afrikatuen neutraltzea ere bidean zegoela (frikarien neutraltzeaz ik. 5 siran oh.) erakusten digu adibide honek; izan ere, gurutçea (101) adibidearen aurrean hau eta lehenago aipaturiko aditzizenak (ik. 37 gordessen oh.) baititugu. Dena dela, aipagarri iruditzen zaigu neutralduriko afrikatuak apikariaren grafiaz adierazten dituela eta ez (mendebaleko euskalkietan espero bezala) lepokariarenaz (cf. hala ere, Mikoletaren osic 'hotzik' edo aserrengo 'atzerrengo, azkeneko'). Dexaron se matar a golpe de azconas Berceorenean, adibidez), eta OEH-k Larramendi osteko adibideak baino ez ditu (OEH s.v. 1 azkon). Hitz ordenaz, ik. 25 yssan esteu oh. 67 eman: Bizkaierazko testuetan emon dugu forma orokorra, emun aldaerarekin batera, baina Araban hiru formak aurkitzen ditugu: eman, emon eta emun (OEH, s.v. eman). Lazarragak hirurak darabiltza eta Betolazak eta Albenizek emon (baina ematea) dute (eta Landuccik emon, baina emaitea).</figDesc><table><row><cell>-oe-bokal bilkurak noizbait sudurkaria izan zuen (cf. FHV 48), eta garai bertsuko</cell></row><row><cell>Kapanagak oraindik markatzen du; ez gure testuak, ordea, garaiko testuetan ohi den</cell></row><row><cell>bezala, bere grafia sisteman ez baitzuten horretarako baliabiderik (FHV 49). Testuak</cell></row><row><cell>dakarzkigun adibide parearekin (honako hau eta sermoe 101) ezin dugu zehaztu ezau-</cell></row><row><cell>garri hau testuko hizkeran bazegoen ala ez.</cell></row><row><cell>61 Placencian: Placencia de las Armas, egun Soraluze bezala ezagutzen den herria.</cell></row><row><cell>Soraluzeko mosketeak zuten ospea Garibayk aipatzen du dagoeneko (Azpiazu 1994:</cell></row><row><cell>14, 3. oh.).</cell></row><row><cell>62 mosqueta: cf. machetaq (66). -a + a &gt; -ea disimilazioak eraginda, -a eta -e</cell></row><row><cell>amaieradun hitzen berranalisia dugu hemen. Cf. testu honetan bertan curuça</cell></row><row><cell>(74) &lt; curucea (78).</cell></row><row><cell>65 falta ez dira:</cell></row></table><note>). 56 galçayru gordina: Hau da, 'altzairu gogorra' (cf. OEH, s.v. gordin 2). 57 Elorrio:60 ascoeaq: azkon hitzaren aldaera, Lcc-ren azcoya aldaerarekin bat datorrena (cf. sermoe ~ sermoi, leoe ~ leoi, jamoe ~ jamoi…; FHV 147). Hitz honen adibide gutxi daude euskal testu zaharretan (erdal testuetan baditugu, ordea:</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>). 69 Onela: ik. 1 Ala oh. Gure testuan forma orokorra dugu, dagoeneko Lazarragarenean bezala(OEH s.v. honela).70 erri: Hitz honek 'lurralde' adiera zaharra mantentzen du testuan. Esanahi aldaketa hau xvii. mende bukaeran hasi zen gauzatzen hegoaldean, gure testua baino zaharrago den Lazarragan dagoeneko aldaketaren adibiderik (ehuneko oso txikian, hala ere) topa dezakegun arren(OEH s.v. herri). 72 debe: 'dute', formarako ik. 13 debe oh. Adibide honetan Hegoaldean arkaikotzat jo dezakegun *edun aditzaren erabilera dugu; izan ere, adiera trinkoa dugu, 'eduki', garairako mendebaldean galbidean zegoena; hala ere, oraindik aztertzeke dago galbidearen nondik norakoak. 73 dacardela: Ekarri aditzean -de pluralgilea nahiko erraza da aurkitzen Bizkaiko, Arabako eta Gipuzkoako testuetan (Egiaren kanta, Añibarro, Zabala, Barrutia, Otxoa Arin…). Dute eta die aditzetan diren -te eta -e pluralgileen jatorritzat jotzen den *-de forma mantendu dela suposatuz azal genezake, han-hemenka bestelako adizkietan bezala: daude (&lt; *dagode, Araban daode), zarade, gabilzade (dagoeneko Lazarragak lekukotuak) Nor argumentuaren pluralgile bezala eta sartaldeko bizkaierazko daude 'dute' Nork argumentuaren pluralgile. Hala ere, aipagarria da dakardela adibideaz kanpo, beste guztiak bokal artean eta ozen ondoan direla; beraz, forma honen azpian beste arrazoiren bat egon daitekeela ezin dugu albo batera utzi. 75 genteoneq: -oneq artikulua edo erakuslea den erabakitzea ez da erraza, eta testuingurua ikusita, bietara interpreta dezakegu: edo deiktikotzat (hots, erakusle) edo hurbiltasuna emateko baliabidetzat (artikulu). Artikulu hurbilak antzina Euskal Herri osoan erabiltzen ziren, OEH-k dioen bezala (s.v. hau): "Lo hallamos en algún autor septentrional antiguo como Harizmendi [...], en Lazarraga, en alto-navarros meridionales como Beriain, Lizarraga, etc., y, con mayor persistencia, en vizcaínos (aunque en el s. xx empieza a escasear también en éstos)". 77 Aen: 'haien'; genitibo pluralekoa dugu, espero bezala, -r-gabea; ik. 19 Jaunaren oh. 79 daduquela: OEH-ren arabera, "las [formas] del tipo daduka son las más frecuentes al Norte (y prácticamente las únicas que encontramos en los ss. xvi y xvii), apareciendo también en algunos autores guipuzcoanos y alto-navarros." (OEH s.v. eduki). 80 euren: Izenordain indartu eta arruntez, ik. 2 gure oh. 81 bayce: baizen formaren -n gabeko aldaerak Hegoaldeko testu zaharretan ditugu; gure forma zehatza Araban xvi. mendean lekukotzen den Don Jakob-en heriotzaren testuan (TAV 145) eta Lazarragarenean, Gipuzkoan Azpeitian eta Zegaman, eta j + z &gt; (j)x legearen bidez sortzen den baxe aldaera Lazarraga eta Mikoletaren testuetan (OEH s.v. baizen). 81 daquie: 'dakite'. Nork argumentuaren pluralgileaz ik. 13 debe oh. 84 dituez: 'dituzte'. Adizki pleonastiko bakarra testu guztian (ik. 7 situan oh.), mendebaldean erruz aurki ditzakegun arren testu zaharrenetatik. 84 erosten: Poemaren laukorik ilunena; gure ustez hau litzateke interpretazioa: 'ez dakite inoiz [geldi] egoten gerran baizik, gerrako lanek salbatzen dituzte', (cf. OEH, erosi 2, 'rescatar, redimir'). 90 Christoren: Genitiboaz, ik. 19 Jaunaren oh. 91 çabel: Txistukarien neutraltzeaz, ik. 7 situan oh. 94 Santuen: -nt-dun aldaera mendebaldeko forma arrunta litzateke, Bizkaian, Araban eta Gipuzkoan lekukotzen duguna; Nafarroako idazleek, ordea, sandu forma erabiltzen dute (OEH s.v. santu). 95 deu: *edun aditzaren erroez, ik. 13 debe oh. Mendebaldeko eta Nafarroako aldaera dugu hau, Gipuzkoa aldeko testuetan zera dugun bitartean. Nahiz Arabako euskaran normalean zara kausitu, arabarra izan daitekeen Iturberen poeman zera dago. 100 montaña: Hitz honek euskal tradizioan agerpen apur batzuk baditu: Landucciok hiztegian bildu zuen, eta Kapanaga zein Baztango testuetan ere agertzen da (OEH s.v. montaña). 377 103 baya: 'baina'. Forma hau orokorra da bizkaiera zaharrean xix. mendera arte; horrezaz gainera, Arabako Lazarragarenean formarik erabiliena da (baina eta baña-rekin batera), eta baita aurkitzen dugu hala nafarrerazko Beriainengan eta Iruñeko poesietan, nola erronkarieraz eta zaraitzueraz ere (OEH s.v. baina).</figDesc><table><row><cell>96 Espiritu Santua: Ahapaldia iluna da esanahiaren aldetik; guk honela ulertzen dugu: 'An [= Birjinaren sabelean] egon zen Santuen Santua [= Kristo]. [Kristok] aita ikusten du, [eta] Espiritu Santua.' topatzen dugu, baina ez da adibiderik falta Hegoaldeko lekukoetan ere: bizkaierazko Bertso Bizkaitarrak, gipuzkerazko Bretañako kantua, Nafarroako zenbait testutan… 105 badessu: Hirugarren pertsonetarako ik. 13 debe. -e-erroa gipuzkerazkotzat hartu bada ere, ez da honen adibiderik falta hortik kanpo, Arabako lekukoetan, zeha-tzago: gehienetan -o-(Betolaza) edo -u-erroekin (Gamiz) lehian (Lazarragarenean hiru aukerak baditugu). Portalek ordea, gure testuko egoera dakar: hirugarren per-tsonetan -eu-(deu, deue) eta bestelakoetan -e-(deçu). Landuccirenean: deu-(deben) 99 çara: 104 pobluaq: 'herri, jende' adieradun hitz hau gehien bat Iparraldeko autoreetan baina dut, duk, duzu… eta du.</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>Millares hitza litzateke hemen testu osoko neutraltzearen adibide, baina ezin dugu ahaztu inprentakoek izan dezaketen eragina testuan, eta posible izan daiteke hemen erdararen eragina izatea. Testua kokatzeko orduan, zenbait ezaugarrik mendebaldeko eremura (mendebal hitza oso zentzu zabalean harturik) eramaten gaitu; guztietan aipagarriena a + a &gt; ea da, mendebal zabal batekoa, Bizkaia, Araba, Gipuzkoako Deba ibarra eta Goierria eta Nafarroako Burunda eta Lana ibarretako euskaran topatzen duguna (edo genuena). Eremu hauetara hurbiltzen duten beste ezaugarriak hitz aldaerak dira: gitxi, uri, igesi, aurreko ezaugarria bezain hedaturik ez egon arren. Dena dela, bizkaiera alde batera utzi beharko genuke, zeren eta testuak bizkaierari ez baina beste hizkera bati dagozkion ezaugarriak baititu: -kin soziatiboko markak, are singularrean ere, sartaldeko bizkaieraren eremuko testua ez dela erakusten digu, eta atzizki hau sortaldeko bizkaieran erabiltzen den arren, testuko beste ezaugarriek, hala berrikuntzek nola hautuek, bizkaiera laga eta jatorria ekialderagoko hizkera batean bilatzera garamatza: deu-(hirugarren pertsonan: esteu, debe…) eta de-(bestelakoetan: desu) bokalismoak *edun-en adizkietan, *-i-erroa Nor-nori-nork adizkietan hirugarrenaz bestelako pertsonetan ere (sien, dissut), -atu partizipioa mailegu modernoetan (criatu, ordenatu…), -te eta -tze atzizkiak bakarrik (salbuespen bakarra: arçaera) aditzizenak egiteko, are mailegu berrienetan ere (largassen, gordessen…), r-dun genitiboak (Jaunaren, aren…) eta -du partizipio marka berria -n partizipioei erantsia (yssandu, egondu). Hala ere, txistukarien neutraltzea horren aurreratua egoteak harridura sortzen digu, ez baikenuen honelakorik itxaroten hain goizik hain ekialdeko hizkera batean (FHV 282; hala ere, neutraltzea hirietan lehenago gertatu zela badakigu egun, Lubieta bezalako testuak ikusita, cf. Bilbao 2011: 629; ik. baita ere Atutxa 2011).Ondorioz, hau guztia kontuan harturik eta garai hartako eta ondorengoetako euskal testuen arabera, ezaugarri hauek guztiak elkarrekin Arabako sortaldean bakarrik aurki ditzakegu, testu hau baino berankorragoak diren Garzia de Albenizen eta Gamizen testuetan eta kokaturik ez dauden baina arabartzat jotzen diren Portalen eta Iturberen poemetan, zehazki. Hala ere, daturik ezean ez dakigu xvii. mendean ekialdeko hizkera hau noraino heltzen zen: baliteke Araba ekialdekoa izatea, baina baita Nafarroakoa ere: izan ere, toponimiak erakusten digu Estellerriko euskarak sortaldeko Arabakoarekin zuen erlazioa (cf.Salaberri 2004). Gogoan har dezakegu, beharbada, liburuaren egilea gipuzkoarra izanik, litekeena dela poemaren egilea ere gipuzkoarra izatea; beraz, Gipuzkoako hegoaldea ere ez da erabat alde batera utzi behar, zenbait ezaugarritan (deu-debe baina dezu, gitxi, etab.) Azpeitiako barietatearen antza ere baduelarik; alabaina, egondu edo izandu aditz formak ez dira hizkera hauetan lekukotzen. Dena den, Arabako ekialdekoa, Nafarroako mendebaldekoa zein Gipuzkoako hegoaldekoa izan, ezaugarri zenbaitek atentzioa ematen digute: uri 12 bezalako aldaerak eta txistukarien neutraltzean dugun egoera, alegia. Antzeko hizkera bide duten Iturbe eta Portal nongoak diren ez jakiteak ere ez digu asko laguntzen. Ikusten denez, zenbat eta gehiago jakin euskara arkaiko eta zaharraz, orduan eta galderak gehiagotu eta korapiloak handiago.</figDesc><table><row><cell></cell><cell>Txistukari Frikariak</cell><cell></cell></row><row><cell></cell><cell>&lt;s, ss…&gt;</cell><cell>&lt;z, c…&gt;</cell></row><row><cell>/ ś /</cell><cell>35</cell><cell>1</cell></row><row><cell>/ s /</cell><cell>25</cell><cell>30</cell></row><row><cell></cell><cell>Txistukari Afrikatuak</cell><cell></cell></row><row><cell></cell><cell>&lt;s, ts…&gt;</cell><cell>&lt;z, tc…&gt;</cell></row><row><cell>/ tś /</cell><cell>2</cell><cell>0</cell></row><row><cell>/ ts /</cell><cell>11</cell><cell>6</cell></row></table><note>10 Pentsatzekoa da hitz amaieran &lt;tz&gt; ere baliatuko zuela, baina ez dago honen adibiderik.11</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">Hala ere, aurkikuntza hauek duten balioari muzin egin gabe, esan behar dugu euskal filologook ere nahi adina lan badugula, Euskal Herriko eta hemendik kanpoko liburutegi eta artxiboetan lehenagotik ezagutzen ditugun lanak bai baitira, nor bertan murgilduko zain (cf.Lakarra 2004).2  Norbaitek esango du aurkikuntza egin baino gehiago zortea izan duela hau idatzi duenak, eta ez diot ezetzik esango, baina bai gogoratu margolari bati inspirazioa existitzen zen ala ez galdetzerakoan honek erantzundakoa: «inspirazioa existitzen da, baina lanean aurkitu behar zaitu».3 Desde aquí quisiera agradecer a Eduardo Peñalver, encargado del área de fondo antiguo de la Biblioteca de la Universidad de Sevilla, tanto por facilitarme de forma inmediata una copia del texto en euskera, como por la información dada sobre el libro en cuestión.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">galçairu: orig. galcairu. 5 galçayruscoez: orig. galcayruscoez.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6">adoratua: r tipoa alderantziz dago. 7 çabel: orig. cabel. 8 Curutçea: orig. Curntçea.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9">Hauek dira emaitza zehatzak: txistukarien ahoskera afrikatua grafikoki islaturik duten sei adibide ditugu, horrelakorik ez duten 13 adibideren ondoan, betiere dudazko testuinguruak alde batera utzita, hau da, ozen ondoko txistukariak (cf. 3 ainsinacoaq hitzari egin oharra).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12">Adibide honen kasuan, gogoratu behar dugu Nafarroako Lana ibarrean dagoen Ulibarri herri izenak eman dituen buruhausteak, berez iri aldaera nagusi den eremu batean baitago (herri bera Ilibarri edota Iribarri bezala lekukotzen da). Iri/uri txandakatzeaz Nafarroako mendebalean, ik.Salaberri 1998:  75.   </note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Post scriptum</head><p>Artikulu hau prentsan zegoela G. Aldairen lan baten berri izan dugu (bibliografian gehitua, Aldai 2012), non Martin Portalen poemak islatzen duen hizkerari egozten zaion jatorri arabarra dudan jartzen duen. Ez gara hemen arituko Aldaik planteatzen dituen konparaketak eta euskal datu dialektalen ikuspegiak euskararen historia argitzeko dituen abantaila eta desabantailen gainean, baina Portalen testuak aztergai dugun poesiaren kokapenerako duen garrantziagatik ohar batzuk egiteari iritzi diogu. Aldairen konparaketan ezaugarri ezberdin bakoitzak duen pisua baloratzearen falta nabari dugu: adibidez, egondu (ez dugu uste lexikoari bakarrik dagokionik ezaugarri hau) edo egin trantsitiboko irrealis adizki bipertsonaletan erabiltzeak ezinezko begitantzen zaigu Gipuzkoako ipar-mendebalean xviii. mende hasieran. Eta «xvii. mende hasiera» markatzea garrantzitsua da, datuen balorazio falta hau datuen ikuspegi kronologikoan nabaritzen baitugu gehienbat: esaterako, Muniberen testua erabili izana (xviii. mende erdikoa) Portalek erakusten duen txistukarien neutraltze egoerarekin konparatzeko, arriskutsua bezain engainagarria iruditzen zaigu.</p><p>Hala ere, arazoak arazo, Portalen poesiaren gainean egiten duen azterketa eta kokatze ahalegina hemen dugun testuaren kokapenarentzat baliagarri zaigu. Gure poemak Portalen testuarekin du antzekotasun linguistikorik gehien, Aldaik aztertzen dituen ezaugarrietan bereziki; gainera, dataren aldetik bederatzi urteko aldea baino ez dago testu bien artean. Gure artikuluaren amaieran esan bezala, testu honek galdera sorta berriak sortzen dizkigu.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Adibide honek adierazten duenez, idazlearen hizkeran txistukari frikarien neutralizazioa aurreratua zegoen (cf. § 5), hitz hasiera baita oposaketa hobekien mantentzen duen testuinguruetako bat (cf. FHV</title>
+		<meeting><address><addrLine>Lakarra</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="volume">282</biblScope>
+		</imprint>
+	</monogr>
+	<note>cf. situan (7), sorci (29), socondoan (34)…; gainera, hiperzuzenketa ere badugu testuinguru honetan: çabel (91). Bestalde, hemen ez dugu mendebaldean espero genezakeen sirean forma. Irigoien 1958: 131</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Tubal: Testua lehenagotik datorren baina xvi-xvii. mendeetan biziki hedatuko zen mitologiaren isla dugu</title>
+		<imprint/>
+	</monogr>
+	<note>Tubal agertzen baitzaigu euskaldunen aitatzat (cf. Tovar</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">situan: -it-pluralgilea erabiltzen du egileak, mendebaldeko testu zaharretan ere espero bezala. Testuan -it-izan arren pluralgilerik erabiliena *edun-en adizkietan, -z-ren adibide bat ere badugu, dituez (84) forma pleonastikoan; forma pleonastiko hauek baditugu dagoeneko mendebaldeko (bizkaierazko eta araberazko) lekuko zaharrenetan (RS, IC, Betolaza, Lazarraga…); ik. 84 dituez oh. 9 urruniq: -(r)ik ablatiboaren adibide bakarra testu osoan; garai honetako Bizkaian -(r)ean forma espero genuke</title>
+		<ptr target="Arabanbikoiztasunadugunbitartean:Landuc-cioketaLazarragak-(r)eandutemaizenik" />
+	</analytic>
+	<monogr>
+		<title level="m">Deigarria da Bibliaren aurkako okerra: izan ere</title>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="volume">7</biblScope>
+		</imprint>
+	</monogr>
+	<note>Tubal Noeren semetzat hartzen du egileak (urruniq etorri san semea ecustera). 6 humeaq: h-ez, ik. Mitxelena 1979 eta Ulibarri</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Helburuzko predikatuan aditzizena adlatiboan dago testuan, ekialdean bezala, eta ez inesiboan. e-aurrizkiaren formari erreparatuz, aldaera zaharraren eta berriaren adibide bana dugu testuan: ycusten (95). 11 ilobaequin: Mendebaldeko -kin / -gaz atzizkien artean hemen -kin baino ez dago, hala pluralean (hemen bezala) nola singularrean: onarequin (15), leguearequin (19), sorrotsarequin (59). Bestalde, erroa eta atzizkiaren artean sortzen den bokal elkarketa bakundu gabe dago oraindik. 12 atseguin: Txistukari afrikatuak grafikoki adierazteko ardura nabari zaio egileari</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ordea</forename><surname>Betolazak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-</forename><surname>(r)ik Baino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ez</forename></persName>
+		</author>
+		<idno>dakar. 10 ecustera: cf. arçaera (12</idno>
+		<imprint/>
+	</monogr>
+	<note>nahiz eta sistematikoki ez egin: sorrotsarequin (59), curutçea (101) (baina curucea 78</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Azpimarratzekoa da Iparraldean ohikoak ziren grafemak baliatzen dituela (&lt;ts&gt;, &lt;tç&gt;, &lt;tc&gt;), xviii. mendera arte bereizketa egiten ahalegindu ziren idazle bakanek ez bezala (Landuccik &lt;sç&gt;, Zumarragak &lt;cz&gt;, Garibaik &lt;sh&gt;, etab.), baina mendebaldeko Poza, RS eta ekialderagoko Isasti gipuzkoarra edota Iruñeko poesiak eta Beriain nafarrak bezala. 12 arçaera: Mendebaldeko lekukoetan aurkitu ohi dugun aditz-izenak sortzeko atzizki ugaritasunaren ordez (Urgell 2006), hemen bi atzizki orokorrak baino ez ditugu, -te eta -tze(e), eta azken honen aldaera da hemengo -tzae (hartu-k, CVC erroa izanik</title>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page">930</biblScope>
+			<pubPlace>Urgell</pubPlace>
+		</imprint>
+	</monogr>
+	<note>tzaite egiten du mendebaldeko beste lekukoetan. dagoeneko Lazarragarenean lekukotua</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Azkuek bere garaian ahaide izenekin (ama, aita…) artikulua erabiltzen ez zela esan arren, testu zaharretan baditugu honen adibideak mendebalde osoan: VJ-n, Bet, Kap… 13 debe: &apos;dute&apos;. Orainaldiko nor-nork laguntzailearen formarik</title>
+	</analytic>
+	<monogr>
+		<title level="m">Aytea: cf. 95. a + a &gt; -ea disimilazioa, mendebalde oso zabal bateko</title>
+		<meeting><address><addrLine>Bizkaia, Araba</addrLine></address></meeting>
+		<imprint/>
+	</monogr>
+	<note>Goierri eta Nafarroako mendebaldeko) ezaugarria: doctrinea (14). erabiliena testu honetan deu-da: debe (13, 17), esteu (25), deu (95</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">92) ik. isan dacardela (73) ik. ekarri daduquela (79) ik. eduki daquie (81) ik. jakin dator (49) ik. etorri debe (13, 17, 72) ik</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">,</forename><surname>-E-Erroa Dugu Testuko Adibide Bakarrean</surname></persName>
+		</author>
+		<ptr target="eu-bokalismoak-etapertsonenarteko-eu-(3p)/-e-(gainerakoak)alternantziak-dioskutestuaedunda" />
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page">41</biblScope>
+		</imprint>
+	</monogr>
+	<note>106) ik. isan sien (67) ik. *-isiran (5) ik. isan situan (7, 29) ik. *edun çan (89) ik. isan çara (99) ik. isan</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Sobre el origen de Martín Portal, autor de la poesía premiada en Pamplona en 1610</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Aldai</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="93" to="117" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">«Nafarrerazko «Romance bazquenze a la deuocion de Maria Santissima» (1646)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Altuna</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Lakarra &amp; Hualde (arg</title>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="47" to="80" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Txistukarien neutraltzeaz, UPV/EHU-ko master tesi argitaragabea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Atutxa</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Azpiazu</surname></persName>
+		</author>
+		<title level="m">Fabricación y comercialización de armas en el valle del Deba</title>
+		<imprint>
+			<date type="published" when="1550" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Cuadernos de Sección. Historia-Geografía</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="9" to="72" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">izen berri bat euskal testuen historian«</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Bilbao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lubieta</surname></persName>
+		</author>
+		<ptr target="&lt;http://www.lazarraga.com&gt;" />
+	</analytic>
+	<monogr>
+		<title level="m">Koldo Mitxelena katedraren II. biltzarra, UPV/EHU: Gasteiz</title>
+		<editor>UPV/ EHU. Interneten eskuragarri</editor>
+		<meeting><address><addrLine>Vitoria-Gasteiz</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="621" to="649" />
+		</imprint>
+	</monogr>
+	<note>et al. (arg.), 2010, Lazarraga eskuizkribua: edizioa eta azterketa (1.0). Kontsulta: 2011/09/20</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">«La producción de armas blancas en Bilbao durante el siglo xvi</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dueñas</forename><surname>Beraiz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="269" to="290" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Fhv = Mitxelena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">«Las fábricas de Vizcaya y los lanceros de Elorrio»</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Huarte</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskalerriaren alde</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page" from="380" to="386" />
+			<date type="published" when="1927" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">«Curiosidades y observaciones sobre el dialecto vizcaíno literario</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Irigoyen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1958" />
+			<biblScope unit="page" from="105" to="132" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">«La gnosis renacentista del euskera», berrarg</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Juaristi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Euskalaritzaren historiaz, I: XVI-XIX. mendeak, ASJUren Gehigarriak XV: Donostia</title>
+		<editor>R. Gómez &amp; J. A. La karra</editor>
+		<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="page" from="128" to="172" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Arabako euskararen lekukoak. Ikerketa eta testuak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">&amp;amp; K</forename><surname>Knörr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Zuazo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eusko Legebiltzarra: Gasteiz</title>
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bertso Bizkaitarrak (1688)</title>
+		<imprint>
+			<date type="published" when="1983" />
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="89" to="184" />
+		</imprint>
+	</monogr>
+	<note>ASJU</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Symbolae Ludovico Mitxelena Septuagenario Oblatae, UPV/EHU: Bilbo, 1045-1054. -, 1986, «Bizkaiera Zaharra euskalkien artean</title>
+	</analytic>
+	<monogr>
+		<title level="m">Euskararen historia eta filologia: arazo zahar, bide berri</title>
+		<editor>Knörr &amp; Zuazo (arg.</editor>
+		<imprint>
+			<date type="published" when="1985" />
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="87" to="105" />
+		</imprint>
+	</monogr>
+	<note>Juan Perez Lazarragakoaren eskuizkribua (xvi. mendea). Lehen hurbilketa. in Gipuzkoako Foru Aldundia, Lazarragaren eskuizkribua, Edilán-Ars Libris: Madril</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Trasken oroitzapenetan ikerketak euskalaritzaz eta hizkuntzalaritza historikoaz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">J I L</forename><surname>Hualde ; R</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note>ASJU 40:1/2], UPV/EHU: Bilbo</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<title level="m">Betolatzaren dotrina. La doctrina cristiana de Betolaza (1596)», berrarg. in Knörr &amp; Zuazo</title>
+		<imprint>
+			<date type="published" when="1955" />
+			<biblScope unit="page" from="485" to="501" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+				<title level="m">Introducción al vocabulario de Landuchio», berrarg. in Knörr &amp; Zuazo</title>
+		<imprint>
+			<date type="published" when="1958" />
+			<biblScope unit="page" from="21" to="48" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">ASJUren Gehigarriak 11: Donostia. -, 1977, Fonética Histórica Vasca, ASJUren Gehigarriak 4: Donostia</title>
+	</analytic>
+	<monogr>
+		<title level="m">Miscelánea filológica vasca III</title>
+		<imprint>
+			<date type="published" when="1964" />
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="213" to="234" />
+		</imprint>
+	</monogr>
+	<note>Testos Arcaicos Vascos</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Lengua común y dialectos vascos», berrarg. in PT</title>
+		<imprint>
+			<date type="published" when="1981" />
+			<biblScope unit="page" from="35" to="55" />
+		</imprint>
+	</monogr>
+	<note>Euskaltzaindia: Bilbo. OEH = Mitxelena</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">«Arabako mugako nafar hizkeren inguruan», in I. Camino (arg.), Nafarroako hizkerak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Salaberri</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="49" to="87" />
+		</imprint>
+		<respStmt>
+			<orgName>UEU: Bilbo</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Estellerriko euskararen argigarri</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Toponimia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskera</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1127" to="1136" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Contribución al estudio y edición de textos antiguos vascos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Sarasola</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983" />
+			<biblScope unit="volume">11</biblScope>
+			<pubPlace>ASJUren Gehigarriak; Donostia</pubPlace>
+		</imprint>
+	</monogr>
+	<note>2. arg. 1990</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Mitología e ideología sobre la lengua vasca, Alianza: Madril</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Tovar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Ulibarri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jesus</forename><surname>Viva</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Dotrina</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="41" to="154" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">«Larramendirengandik baturaino: antzina eta ahots</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Urgell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Nerekin yaio nun. Txillardegiri omenaldia (Iker 17)</title>
+		<editor>P. Etxeberria &amp; H. Knörr</editor>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="page" from="457" to="464" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">«Para la historia del sustantivo verbal en vasco</title>
+	</analytic>
+	<monogr>
+		<title level="m">Lakarra &amp; Hualde (arg</title>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="921" to="948" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Grammaire Cantabrique</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Urte</surname></persName>
+		</author>
+		<idno>eguna: 2011/09/23</idno>
+		<ptr target="&lt;http://www.memoriadigitalvasca.es/handle/10357/2105&gt;" />
+		<imprint>
+			<date type="published" when="1714" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">K</forename><surname>Zuazo</surname></persName>
+		</author>
+		<title level="m">Deba ibarreko euskara zaharra</title>
+		<editor>Knörr &amp; Zuazo</editor>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="1005" to="1030" />
+		</imprint>
+	</monogr>
+	<note>Lakarra &amp; Hualde (arg</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

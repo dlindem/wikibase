@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">MARTIN HARRIETEN HIZTEGIAK: ERAKETARI BURUZKO ZENBAIT BERRI</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Blanca</forename><surname>Urgell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universidad del País Vasco/Euskal Herriko Unibertsitatea -JUMI)</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">MARTIN HARRIETEN HIZTEGIAK: ERAKETARI BURUZKO ZENBAIT BERRI</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>In this work, we present new data and an original hypothesis regarding Martin</head><p>Harriet 's grammar (1741), and in particular concerning the two vocabularies -Basque-French (BF) and French-Basque-that it contains. First, we will offer the testimony of the author himself regarding his work, larger and more ambitious than usually acknowledged (1.1). Furthermore, we will place the vocabularies in the context of the history of Basque lexicography, by comparing the size of his nomenclature with other dictionaries of the time (1.2). Then, we will show that a formal analysis reveals that BF comes from a French Basque dictionary similar to FB, but probably larger than that one. This allows us to say that FB is not a mere re-elaboration of BF, the hypothesis currently admitted. We speculate that both dictionaries are the outcome of a separate selection of lexical entries having their origin in the hypothetical bilingual dictionary proposed (2 and 3). Finally, we show that Harriet used as a source some previous works: besides Axular, that we already knew, we also find traces of Voltoire, Leizarraga and Xurio at least (4).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="0.">Sarrera* 1</head><p>Lan honetan Martin Harrieten gramatikako hiztegiak -euskara-frantsesa eta frantsesa-euskara-hobeto ezagutzeko zenbait datu eta hipotesi berri aurkezten dira. Alde batetik, azterketa formalak erakutsiko digu hiztegi bien arteko erlazioa orain arte oinarrizko hipotegi gisa erabili dugunaz oso bestelakoa datekeela ( § 2 eta 3). Bestetik, aise froga daiteke, baita azaleko hurbilketa batez ere, Harrietek hiztegiotan aurreko liburu batzuk -jadanik ezaguna zen Axularrez gainera-baliatu zituela ( § 4). Hauetara baino lehenago, baina, Harrieten lanen berri apurra dakargu ( § 1).</p><p>Lan hau Beñat Oihartzabalengan pentsatuz burutua da. Hizkuntzalari bezala ezagunago bide den arren, Filologian lan handiak egin ditu, eta azken urteotakoetan zalantzarik gabe maisu-lan izena merezi dutenak, hemen gutxitan ibili diren bideak jorra tu baititu gure artean. Lan xume honekin ikertzaile gisa eta pertsona gisa diodan begirune eta lege ona adierazi nahi diot. Urte askotako! * Lan hau Madrilgo Ministeritzak lagundutako "Monumenta Linguae Vasconum (III)" (FFI 2008-04516) Ikerketa-Egitasmoaren eta Eusko Jaurlaritzako GIC07189-IT-473-07 Ikerketa Taldearen emaitzen artean kokatzen da. [ASJU, XLIII, 2009, 873-890]   </p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Harrieten lanen berri apurra</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1.">Gramatika bere gainerako lanen artean</head><p>Martin Harriet "Larresoroko jaun notari erreialaren" lan bakarra ezagutzen dugu: Gramatica escuaraz eta francesez, composatua francez hizcunça ikhasi nahi dutenen faboretan, Baionan argitaratua 1741. urtean. Gramatikan zehar, ordea, egileak beste lau lan aipatzen ditu; bi hasiera-hasieran, oniritzien ondoan, "Abisua Autorac" de ritzan ataltxoan, biak laster argitaratuko zirelakoan:</p><p>Uste dut laster içanen dela imprimatua escuaraz eta espaiñolez eguiña dudan Gramatica bat. Baita berce liburu bat Lapurdico Costuma escuararat itçulia, berce cerbait escualdunençat guisa den gauçarequiñ. Eta beste bi "Escualdunei gomendioa eta Abisua" atalean:</p><p>...eta nola frances hitzcunçac ez baitu escribatcen duen beçala irakhurcen, eta haiñitz premia baita escualdunençat francesa irakhurcen iaquitea, liburu chumetto bat eguiña dut nausiric gabe francesa irakurcen ikhasteco, baita berce liburu bat bi partetan, lehenbicicoa escuaratic verbo gaitz eta erreguelan ez diren batçuen khenceco (...), berce partea da escualdunec berce hitzcuncetaric hartuac dituzten hitcen khenceco (Harriet 1741: 507).</p><p>Gure hitzetan ipinita, lanok honako hauek ziratekeen: (1) beste gramatika bat, oraingoan gaztelania ikasteko; (2) Lapurdiko kostumaren euskarazko itzulpena, euskaldunentzat egokiak diren beste zenbait gauzarekin; (3) frantsesa irakurtzen ikasteko abeze bat; eta (4) lan arauemaile bat, ondo bitxia, euskara hobetzeko asmoz ondua; zehatzago, aditz trinkoak eta maileguak euskaratik kentzeko asmoz. <ref type="bibr">2</ref> Horrezaz gainera, gramatika bera ez dugu osoki ezagutzen, haren laurdena bakarrik baizik: J'ay partagé mon travail en quatre tomes égaux, le premier tome est tel que vous voyez, le second tome contiendra les cinq Conjugaisons des verbes tout au long, qui sont naiz, <ref type="bibr">&amp;c. dut, &amp;c. daroïat, &amp;c. aut, &amp;c. &amp; nitçaio, &amp;c.</ref> le troisiéme tome est un dictionnaire, pour les mots qui ne se trouvent pas dans les deux premiers tomes, &amp; le quatriéme tome contiendra la construction des noms propres, la construction des cinq Infinitifs, la construction des verbes, la construction des prépositions, &amp; un autre recuëil des phrases choisies dans la langue basque. Le second tome est achevé de composer. Le troisiéme l'est aussi quelque chose près, &amp; le quatriéme tome aussi est presque recuëilli, &amp; on trouvera assez de remarques en abregé en ce tome seul, pour comprendre la proprieté de la langue basque, quoique mon dessein n'alloit jusques l'à au commencement de ce travail (1741: 504-505).</p><p>Egilearen esanok alde batera utzita, ez dago gainerako lan hauen aztarrenik ere. Suntsituak bide ditugu guztiak, eta agian batzuk bukatu ere gabe alde batera utziak -ez litzateke ezinezkoa baten bat egilearen gogoan baino ez egotea ere-, garai haietako hainbat eta hainbat bezalaxe: gogora ditzagun Pouvreau, Bidegarai, Etxeberri Sarako edo Urteren izenak, besteak beste <ref type="bibr">(ik. Lakarra 1992b: 281-284)</ref>. Testuin-guru honetan mirarizkoa da ia gramatikaren argitalpena bera (berrargitalpenik ez: cf. <ref type="bibr">Vinson 1891</ref><ref type="bibr">Vinson -1898</ref>; izan ere, hauxe dugu xvii-xviii. mendeetako Lapurdiko loraldiaren alderdirik ahulena: elizliburuak erraz xamar argitaratzen ziren, une batez bederen, Gero bezain jantziak izan arren; gramatika eta hiztegiak, ostera, egin bai, baina argitaratu ez. Harrieten gramatika honen alboan salbuespen ba karra dugu, salbuespen xume-xumea, halere: Voltoire-ren hizkuntz eskuliburutxoa (cf. <ref type="bibr">Lakarra 1997</ref><ref type="bibr">Lakarra , 1999</ref>. Euskara soziologiko eta kulturalki zertan zen argi uzten duten adierazle nagusietako bat dugu hau (ik. orain <ref type="bibr" target="#b18">Oyharçabal 2001a</ref><ref type="bibr">Oyharçabal , 2001b</ref>).  <ref type="bibr" target="#b0">5</ref> Harrieten hiztegien nagusitasun honek ez zuen Hirukoitza-renak beste iraun, baina ez dabilkio oso atzetik: xix. mendearen lehen zatian oraindik ere ezi nu tziz koak ziren Iparraldeko lexikoaz deus jakin nahi izanez gero, Añibarro, Lécluse eta Aizkibel lekuko, besteak beste, mendearen erdialdera arte ez baitzen lortu hango euskarari buruz Harrietena baino ezer handiagorik argitaratzea. 6</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2.">Hiztegien nomenklaturaren tamaina</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Nomenklaturaren antolakuntza</head><p>Izenek aditzera ematen dutenez, "Harrieten hiztegiak" izenaz ezagutzen dugun lan lexikografiko hau norabide bietan eratutakoa dugu. <ref type="bibr" target="#b2">7</ref> Hizkuntzek zutabe bana hartzen dute (ik. beheraxeago 5. adibidea); euskal zutabean letra borobila erabiltzen da bi zerrendetan, eta frantsesezko zutabean letra etzana.</p><p>Alfabetoaren arabera antolatutako hiztegia da, egileak berak azaldu bezala:</p><p>Seguidan aurquituco dituçu jesueco letrac beçala 8 hitz beharren direnen explicatione edo balioa, escuaraz atic hasten diren hitçac lehenic, guero betic hasten direnac, eta guero berceac seguida hartan, halatan noiz ere jaquiñ nahi baituçu nola deitcen den aita francesez, beha dioçoçu nola hasten den escuaraz hitz hori, eta aurquitcen duçu ai hasten dela, goan çaite bada ai hitçac hasten diren plamura, eta aurquituco duçu aita, pere, eta hala eguiñen duçu bercetan ere, hitçac escuaraz hasten diren diccionarioan, eta jaquiñ nahi duçunean cembait francez hitz, aurquituco duçu guisa hartan berean francez hitçac lehenic eçarriac diren diccionarioan... (Harriet 1741: 266).</p><p>Oso pasarte garrantzizkoa da euskal kulturaren historian, eta oso adierazgarria. Antzeko azalpenak aurkitzen dira lehen hiztegi alfabetikoetan (cf. Osselton 1995), egileek sentitzen baitute irakurleak sisteman hezi beharra. Esan beharra dago, halere, berandutxo dela Europako testuinguruan eta areago Frantzian, non aurreko mendean alfabetoaren araberako ordena «le bell ordre» bilakatua bai tzen <ref type="bibr">(Quemada 1967: 328)</ref>. Honek ematen digu, azalpen askok baino gardenago, Harrietek buruan zeukan erabiltzailegaiaren -ziurrenik erdi-mailako euskaldunen <ref type="bibr" target="#b18">(Oyharçabal 2001a</ref>: 31)-heziketaren berri: bistan da Larresoro eta Paris ez zirela bat. 9</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Lakarraren analisia</head><p>Lakarrak oso ondorio jakingarriak atera zituen Harrieten lan egiteko formari buruz hiztegien antolakuntzaren analisitik. Aurkez dezagun ezer baino lehenago berea, punturen batean osatu ere, handik aurrera egin ahal izateko.</p><p>Orduko hiztegietan ohi zen bezala (cf. goian aipatutako Osselton eta Quemadaren lanak, besteak beste), alfabetatzea ez da erabatekoa Harrietenean, baizik eta gehie netan lehenengo bi letrak bakarrik kontuan harturik eratua <ref type="bibr">(Lakarra 1994: 21)</ref>. Ezaugarri hau ez diogu zabarkeriari egotzi behar: hitzak antolatzeko era hau primitibo baina oso iraunkorra dugu. Honek beste bi fenomeno izan ohi ditu lagun, batzuetan eragile, bestetan ondorio, maizenik bietatik agian <ref type="bibr">(Quemada 1967: 323)</ref>: lehenik, errazagoa da handik eta hemendik hartzea zerrenda osatzeko, eskuarki zerren da ezberdinetatik; 10 bigarrenik, familia bereko hitzak elkarrekin jar daitezke, alfabetoari hertsiki jarraituz gero bata bestetik bereizita eta are batzuetan urruntxo agertuko liratekeen bitartean. Harrieten iturriez ezer gutxi dakigu oraingoz alderdi honi etekinik ateratzeko, 11 baina bestalde agerian jarri du Lakarrak Harrieten hiztegietan bigarren graduan sarrerak familiaka antolatuta daudela, AD hasierako hitzen segidan egiazta dezakegun bezala (taket artean elkarrekin jarritako familiakideak bildu ditut): 8 Jesus 'abezedario' esanahiarekin ondo ezaguna da Iparraldean eta: ik. OEH, s.v. jesus 3. Harrieten agerraldi honek -OEH-ko errolda osatu beharko lukeena-urte asko kentzen dizkie gainerakoei. Jesu aldaeraren beste berririk ez da jaso, baina ez dirudi ezinezkoa denik. 9 Atera kontuak maila apalekoei buruz, eta orduan are hobeki ulertuko da zer esan nahi duen Oyharçabalek esaten duenean -euskal liburugintzaren soziologiaz egin duen lan bikain horretan-Sarako eskolaren gainbeheraren arrazoi nagusietako bat irakurlegaien mailaren jaitsiera izan zela. <ref type="bibr">10</ref> Oso adibide argia da Larramendiren Eranskina: ik. Urgell (2002b: § 1.5). 11 Gero luzatuko gara gai honetaz: ik. § 4.</p><p>(</p><formula xml:id="formula_0">1) adiña -[adreçatcea -adreça -adreta] -[adisquidea -adisquidea -adisquide- tassuna] -adarra -adaraillua -[adarduna -adarra] -[aditcea -aditua] -affligi- tcea -affarma -[affalcea -affaria] -(...) -[aitaso -aita -aitaguiñarreba]...</formula><p>Sistema ez da zeharo trinkoa, halere, 12 batez ere EF-n, eta batez ere hiztegitxo honen hasieran, 13 eta honegatik inoiz hitzen bat familiatik bereizita agertzen da, eta sarri adierak bata bestetik bananduta (azpimarra nirea):</p><formula xml:id="formula_1">(2) adarra, branche -adaraillua, brique -adarduna, cornart [sic] -adarra, corne agradagarria, agreable -agorra -agradatcea, agréer -agradamendua, agrément - aguercea -aguertua -aguertua -agorienta -agradatcea, plaire incapacité, ecindura -incertain, menturacoa -inclination, talendua, pendura - incertitude, mentura</formula><p>Oharkabeko errepikapenen bat ere eragin du honek:</p><formula xml:id="formula_2">(3) boucher, carnacera -boucle -boudin -bouë -boüis -boule (...) bourse - boucher, tapacea -boucher, carnacera, haraguina -bouchon...</formula><p>Inoiz EF-n gaikako segidaren bat dago, hitzak buruz gogoratu izan bailituan:</p><p>(4) abostua -abendoa lana -laboratcea -laborança -laboraria</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Azalpen berri bat EFko antolakuntzarako</head><p>Lakarraren azalpena eta handik eratortzen diren beste gogoeta guztiak oso interesgarriak badira ere, bada gertakari horietatik EF-ko batzuk argi eta errazago azal tze ko biderik. Azter dezagun AM-z hasten diren hitzen segida, esate baterako: <ref type="formula">(5)</ref>  12 Eta hau ere ohikoa zen orduko hiztegigintzan (cf. <ref type="bibr">Osselton 1995 berriz)</ref>. <ref type="bibr">13</ref> "Salbuespen bide da EF-ko 1. orrialdeko hasierako 'nahasketa' letra diferenteko sarrerarekin" dio Lakarrak (1994: 21, 71. oh.), Abondancia-abandonatcea, largatcea-largatua-largatua-abostua segidari buruz. Hiztegian zehar hainbat dira ondotik partizipioa bi aldiz duten aditzizenak (frantsesezko zutabean genero bereizkuntza egin ahal izateko). Hori ez da bitxia, beraz, baina bai sarrera buruan bi euskal hitz agertzea (EF-ren hasieran maiztxo gertatzen da, baina) eta bigarrenaren partizipioak ematea.</p><p>Ezkerreko zutabera begiratu beharrean, begiak eskuinekora aldatzea aski da ohartze ko AM hasierako euskal hitzen hurrenkera frantsesezko baliokideek eman dutela: izan ere, A-B-F-M-S-T hurrenkera nagusi bat dugu, eta are AD-AM-AU hurren ke ra A letraren barruan, bigarren letraraino iritsi ohi den alfabetatze batean espero bezala.</p><p>Berrar dezagun adarra-ren errepikapena (2. adib.): frantses zutabearen hurren ke ra da, hemen ere, adarra sarrera birritan agertzeko arrazoia, behin B letrako adieraren azpian, eta gero C letrakoaren: <ref type="formula">(6)</ref>  Dakusgunez, hemen ere nagusiki frantsesak erabakitzen du hurrenkera, ez bakarrik lehen bi hizkien arabera, ohi bezala: ac-co-cu-ec-fl... baita are hirugarrenaren arabera ere: lab-lai-lan-lar.</p><p>Araua hausten duten sarrerak denak bat dira, haustura naturalak, familiak euskaraz eragindako eransketa errazak: hala bada, laburra-k laburtcea gogorarazi bide dio, laboratcea-k lana eta largoa-k largatcea. <ref type="bibr">18</ref> Alabaina, segidatxo honetan badira hiru eransketa (large, quatriéme, plutôt) zein bere lekuan kokatuak frantsesezko hurren kera ren arabera, nahiz FE-n agertu ez, lehenago admirable bezalaxe.</p><p>Orain arte esandakotik bi galdera sortzen dira. Lehenengoa, hurbilketa formalak agerian ipini digun frantsesa-euskara zerrenda hori zein ote? Bigarrena, Harrieten hitz zerrenda hauetaz eta hauen arteko erlazioaz geneukan irudia zertan eragiten du honek? Lehenengo galdera erantzuten saiatu baino lehen, azken finean Harrieten gainerako lanak ezagutzen ez ditugun heinean anekdotiko xamarra baita, bigarrenari ekingo diogu, lehen hurbilketa gisara baino ez bada ere, askozaz ere garrantzi handiagokoa baita, izan ere. Beraz, Lakarrak bi joera antzematen ditu: EF-tik FE-ra igarotzerakoan sarrerak maiztasun jakingarri batez desagertu egin dira eta, gainera, FE-n sarrera berriak ugari erantsi dira, lehengoak batzuetan osatzeaz gainera.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Bi hiztegien arteko aldea</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Lehenengo hipotesia: EF-tik FE-rako garbiketa eta osaketa</head><p>Lakarrak hiru talde egin ditu EF-tik FE-rako bidean desagertutako hitzekin: (1) frantsesezko genero bereizkuntzak eragindako sarrerak dira galeraren zatirik handiena (% 50etik gertu lagin guztietan); adibidez, <ref type="bibr">«ahalguetia, honteux, m.» eta «ahalguetia, honteuse, f.» vs. «honteux, ahalguetia, berastemioa»; 20</ref> (2) mailegu gordinegiak bide zeritzatenak (gogoan har gorago aipatu bere asmoa) desagertuen % 20 inguru dira A letran, eta gutxiago beste letretan, hauetan ere garbiketaren aztarren nabarmenak egon arren; adib., «arroganta, furfuiatxua, arrogant» vs. «arrogant, furfuiatxua»; eta (3) "itzuriak edo mailegu larriegiak iruditurik baztertuak" <ref type="bibr">(Lakarra 1994: 29)</ref> lirateke aurreko bi sailetan sartzen ez diren apurrak; adib., batetik «abiadura, joanhara, cours», eta bestetik «avocata, avocat».</p><p>Gehiketan, berriz, hiru joera antzeman ditu: (1) sarrera berriak;</p><p>(2) lehengo sarreretan oinarrituaz moldatu edo sortutakoak; eta (3) lehengo sarrerei egindako gehiketak. Sarrera berriak dira gehienak (A-n % 62, E-n % 46, F-n % 76, H-n % 49 eta P-n % 84) eta, gutxi izan arren, interesgarriak dira oso osatutako sarrerak -EF-ko hitzaren aldamenean "beste berri bat gehitu da hura baino garbiago edo zeha tzago, edota haren aberasgarri gerta zitekeena" <ref type="bibr">(Lakarra 1994: 31)</ref>-; adib., «errenta, rente» vs. «rente, alocarioa, errenta», baina baita «piztea, alumer» vs. «allumer, erachiquitcea, piztea».</p><p>Lakarrak, beraz, hiru joera azpimarratzen ditu: (1) FE-n sarrera gehiago dago, hiztegi osoagoa delako; (2) maileguaren ordez beste ezer jartzea, haren alboan beste ezer proposatzea eta are mailegu gordinegiak dituzten sarrerak ezabatzea, dena sar daiteke joera nagusi baten azpian; (3) honekin batera, noski, hitzberrigintzaz ere hitz egin behar: hala maileguen ordezko proposamenetako asko nola lehengo sarreretatik sortutakoetako asko lehen lekukotasunak dira eta, zalantzarik gabe, ehuneko gora batean hitz berriak bide dira (gai zehatz honetaz, ik. <ref type="bibr">Lakarra 1994: 32-39)</ref>.</p><p>Oraindik ere oinarrizko hipotesitik atera gabe, zehatz daiteke desagerpenaren arrazoiak bi era oso ezberdinekoak dira: (1) egiturazko arrazoi bati zor zaio bai frantses generoak bereizi beharrez, bai frantses aditza infinitiboan eta partizipioan (maiz hau ere maskulino eta femeninoan) jaso beharrez EF-n zeuden sarrerak FE-n jaso gabe geratzea: 21 bestela esanda, gai hauetan xede-hizkuntzaren gramatikak agintzen zuen iturri-hizkuntzan zer eman eta nola; (2) gainerako ezabaketetan bakarrik isla litezke -ezer islatzekotan-egileak lexikoari buruz zituen ideiak.</p><p>Zehaztapen honen ondoren, A eta L letretatik hautatu dugun laginaren arabera 22 EF-ko euskal hitzen % 45 inguru berdin-berdin agertzen da FE-n, eta % 9 soilik desagertu da batetik bestera. Desagertzeko arrazoiak egiazki ez dira argiak, denetariko hitzak baitaude, egon ere. Batetik besterako igarobidean dagoen gertakaririk deigarrie na, mailegu garbiketa da, nahiz eta, antza denez, handiagoa izan den A letran L-n baino, Lakarrak antzeman bezala. Alabaina, ez da garbiketa hutsera mugatzen. Hona maileguekiko hiru joera nagusiak: </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Bigarren hipotesia: balizko hiztegitik EF eta FE-ra</head><p>Kontua areago berrazter daiteke, baldin eta gorago jaulkitako zerbait go go ra tzen badugu: egiturazko azterketak erakutsi digu ezin dela pentsatu EF izan dela bietan lehena: aitzitik, frantses zutabearen antolakuntzak argi eta garbi adierazten du lehenago ondutako frantsesa-euskara hiztegi baten bihurketa dela. Zenbait zantzutan oinarri tu ta, iradoki dugu hiztegi hau ez dela FE bera, dena dela, hau baino osoagoa zena baizik. Ongi asmatzen ari baldin bagara, beraz, gure ustez bada bai EF, bai FE, bi hiztegien iturri izan den aurreko frantsesa-euskara hiztegi bat.</p><p>Gure hipotesi osoa hauxe da: Harrietek ezagutzen duguna baino hiztegi zirriborro handiago bat egina zuen, dela laugarren liburuko hura -aditz trinkoak eta maileguak euskaratik kentzeko asmoz ondua-, dela gramatikaren 3. liburukia -aurreko bi liburukietan ez zeuden hitzak bilduko zituen hiztegi bat, prestatuxe zuena-(bietarako cf. gorago, § 1.1), edo dela beste bat, eta bertatik atera zituen EF eta FE eratzeko gaiak.</p><p>Lakarrak bi hiztegien artean aurkitu aldeak, beraz, lehen bezain zuzen eta garrantzizkoak dira, eta azalpen beretsukoak, baina abiapuntua zeharo aldatu da, bai eta zerren dak eratzeko erabilitako prozedurari buruz geneukan ustea.</p><p>Zuzen bagabiltza, hizkuntzen ordenak zenbait kontu erabakitzeaz gainera (generoa jaso ez jaso, eta abar), iturritik gai ezberdinak bildu zituen zerrenda baterako eta besterako, bakoitzean zer eta zenbat nahi zuen eta horren arabera. <ref type="bibr">23</ref> Orokorrean, beraz, ez dago esaterik EF-tik FE garbiago bat atera zuela. Aitzitik, honen haritik zehaztu behar da EF berariaz dagoela maileguz beterik, berariaz sarrera gutxiago, eta sarrera bakoitzean euskal hitz gutxiago dauden bezalatsu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Harrieten iturriak</head><p>Edozein hiztegiz dela, izan litezkeen iturriak arakatzea oinarrizko zereginetako bat dugu, zeren eta hiztegigile gutxi baitago munduan, dena bere burutik atera duenik. <ref type="bibr">24</ref> Iturriak arakatzea hiztegigilearen background-a ezagutzeko aukera bikaina izateaz gain, haren lan prozeduraz berri jakingarriak eman diezazkigukeen ikerbidea dugu. Nabarmena da, izan ere, Harrietek ez duela hiztegia bere kabuz osatu, bere etxeko euskara hutsean soilik oinarrituta. Aitzitik, hein oso handi batean (% 70 inguru gure laginaren arabera) euskal hitzak iturri idatzietatik hartuak bide dira. Gutxieneko kontuan, bi iturri ziur izan ditu: Axular eta Voltoire. Baliteke, gainera, Leizarraga edo Xurio ere iturrien artean sartu behar izatea. Ikus ditzagun banan-banan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Axular</head><p>Honen ekarria inoizko nabarien antzeman dezakegu berak pilatutako sinonimoak sarrera berean agertzen direnean <ref type="bibr">(Lakarra 1994: 62-</ref> Axular Harrieten iturri izan zela hala frogatu eta gero, idazle lapurtarraren lexikoa hiztegigilearen zerrendekin erkatuz hainbeste kidetasun eta hain adierazgarriak aurkitzen dira, non halabeharrari oso leku gutxi geratzen baitzaio. Honela begiratuta, eta xehetasun filologikoetan sartu gabe, ez dago dudarik oso iturri garran tziz koa dela, besteak baino emankorragoa, irudiz. Hona A eta L letretako gure laginean topatu ditugun kidetasun nabarienetako zenbait: <ref type="bibr">EF: abiadura, ancea, aitcitic, aise, aisequi, aitorensemea, airatcea... larrutcea, lausengatcea, lausengua, arrontera, lasterrago, legata, lekhucotassuna, loratcea, loria... FE:</ref> axekhabeztatcea "affliger", lehentassuna "aînesse", nahiqundea "ambition", lurlana "labourage", segada "lacet", nekhaçalea "laïque", hitzcunça "langue", airatcea "lever", legata "legat", lachoa "libre", libratcea "livrer"...</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Voltoire</head><p>Hiztegigileen ohiturak ezaguturik, handia izango litzateke aurreko hiztegi argitaratu bakar bat eskura izan eta ez erabiltzea. 25 Arazoa horrexetan datza, alegia: ea Alde batetik, EF-ko mailegu pilaketaren oinarrian egon liteke Leizarraga, anitz baitira -eta ez oso ohikoak-bietan kausitzen ditugunak: <ref type="bibr">acceptatcea, açotea, affligitcea, ampola, armada, arroganta, ardita, attencionea, berga, benediçoiña, benedicatua, conquestatcea, colpatcea, communionea, crudela, delicatua...</ref> Bestetik, mailegu nabariez kanpoko zorrak ere ba bide dira, artean familia osoak:</p><p>frangoqui "abondamment", frangatcea "abonder", gosetea "affamé", oneritcia "ami", chedatcea "limiter"...</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Xurio</head><p>Aurrekoek azaltzen ez dituzten hitz bereziok sala lezakete: ahidura "lassitude", ainxikhabetasun "lâcheté", largotasun "liberalité"...</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Ondorioak</head><p>Martin Harrieten gainerako lanak ezagutzerik ez badugu ere, gaitzerdi, hemen bildu dugun bere lekukotasunari esker Larresoroko notarioaren irudi osoagoa daukagu. Ez zen izan, bada, behingo gramatikagilea, frantsesaren amorez eta ezustean bezala gramatika bat egin zuena. Aitzitik, lehenen artean kokatu beharreko eus kaltzale eta euskalari dugu: inor gutxik baino euskaldunak euren hizkuntzan alfabetatze aldera lan handiagoa egin zuen Harrietek, eta euskara deskribatze eta duintze aldera. Aurrekoekin alderatzekotan, esango nuke hainbat aldetatik Bidegarai eta Etxeberri Sarakoa dakartzala gogora. Hauek ez bezala, ordea, Harrietek asmatu zuen garai zail haietan argitara zitekeen lan bat bederen egiten, eta honegatik, hobea izan zein ez, hauek baino gorago jarri behar dugu gure tradizioaren barruan: besteak isilean ia geratu ziren bitartean, Harrietek hurrengo urte eta mendeetan merezi zuen oihartzuna izateko parada izan zuelako, hain zuzen.</p><p>Irudi berri hau zeharo bat dator, bide batez, hiztegiaren analisiak ematen digunarekin, hots, aurreko euskal liburuak -Axular, Voltoire, Leizarraga, baita agian Xurio ere behinik behin-ezagutzen zituen eta ezinbestean garbizale eta hitzberrigile azaltzen zaigun hiztegigilearekin.</p><p>Hiztegi lanari dagokionez, erakutsi ahal izan dugu ziurrenik frantsesa-euskara zerren da handiago batez -agian aipatzen dituen bere beste lanetako batez-baliatu zela gramatikako bi hitz zerrendetan -EF eta FE-n-sartu zituen sarrerak hau tatze ko eta, beraz, zerrenda bakoitzerako nahita hautapen ezberdinak egin zituela: mailegu gehiago eta sarrera gutxiago EF-n, euskal lexiko zainduago eta aberatsagoa FE-n.</p><p>Gogora dezagun Harrietek buruan dituen erabiltzaileak euskaldunak direla -elebakarrak edo, gehienez ere, oso elebidun eskasak-, eta xedea hauek frantsesez ikastea dela, kultura daitezentzat, egilearen beraren esanetan. Erabiltzailegai eta xede horien araberakoa izan behar, bada, hitz zerrendotan hizkuntzek hartzen duten lekua eta egitekoa. Lakarrak egin zerrenden arteko konparaketaren argitan, dena dela, azken xedea gehiago ematen du euskaldunek frantsesa ikasi eta gero euskaraz nola emango -era garbi batean-laguntzea dela, errazkeriaren errazkeriaz mailegu gordinetara jo gabe, besteak beste. Hemen egin dugun formazko azterketak alde honetatik berretsi baino ez du egin Lakarraren ondorioa.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Egiaz ki, tamainaren aldetik ez dira hiztegitzat hartzeko modukoak, hitz zerrenda luzexkak baizik, 4 Pouvreauren hiztegitik (8.100 bat sarrera; Sarasola 1998: 32) urrun, eta Larramen di ren erraldoitik are urrunago (40.000 sarreratik gora; Urgell 2000). Halere, Larra men di ren Hirukoitza arte ez zegoen Euskal Herrian hiztegitzat hartzeko moduko ezer argitaraturik, eta argitaratuen artean luzeenak dira Harrieten hauek, biak batera ez ezik bakoitza berez ere, Voltoireren eskuliburuko 1.050 sarreren ondoan.</figDesc><table><row><cell>Gramatikaren heren bat egiten dute bi hiztegien artean: Dictionarioa escuaraz eta</cell></row><row><cell>francesez, çoiñetan hasten baitire hitzçac [sic] escuaratic deritzonak (hemendik aurrera</cell></row><row><cell>EF) 56 orrialde (268-323) ditu, eta Dictionarioa francesez eta escuaraz delakoak (FE)</cell></row><row><cell>117 (324-440). Orritan bezala sarreratan ere EF alderantzizkoaren erditsuan ge ra tzen</cell></row><row><cell>da: 1.590 sarrera ditu, eta FE-k 3.190.</cell></row></table><note>3 Zuzen zebilen Larramendi, beraz, "cortitos" deitu zienean (1745: xxxv).</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>Salbuespenak salbuespen, beraz, badirudi frantsesezko nomenklatura batetik abiatu zela Harriet EF egiteko, zehazkiago frantses-euskara zerrenda batetik, 14 eta euskal kideak han aurkitu ahala -eta han aurkitu hurrenkera berean-ezarri zituela hemen.15   Zein ote zerrenda hura? Hona berriz ekarri dugun AM-ko segidaren arabera, frantses-euskara zerrenda hura FE bera izan liteke, eransketa gutxi batzuekin: eskuineko zenbakiek (FE-ko orrialdea eta, behar denean, lerroa) erakusten digute frantsesezko hitz guztiak, bat izan ezik, bertan sarrera buru agertzen direla: admirable, salbuespena baino zer edo zer gehiago izan liteke, baina. Izan ere, frantsesezko hurrenkeran dagokion lekuan agertzen da -lehen lekuan, hain zuzen-, hitz guztiak gure FE baino (aldez behintzat) osoagoa zatekeen frantses-euskara zerrenda batetik hartuak bailiran.Hurrengo hitz sailak bigarren aukera hau sendoago bihurtzen du. Gero erraz azalduko ditugun salbuespenak eskuinetara sartuago agertzen dira, alfabetatzea agerian jartzeko:</figDesc><table><row><cell>makhilla, laburra,</cell><cell cols="2">bâton court, m. courte, f. 343</cell></row><row><cell>makhillaca, laburtcea,</cell><cell>à coup de bâton racourcir.</cell><cell>-</cell></row><row><cell>maitea, laburtua,</cell><cell>cher racourci, m.</cell><cell>-</cell></row><row><cell>... laburtua,</cell><cell>racourcie, f.</cell><cell>-</cell></row><row><cell>larrua,</cell><cell>cuir, m. peau, f.</cell><cell>344</cell></row><row><cell>larrutcea,</cell><cell>écorcher.</cell><cell>-</cell></row><row><cell>larrutua,</cell><cell>écorché, m.</cell><cell>-</cell></row><row><cell>adarra, larrutua, adaraillua, lama, adarduna, lausengatcea, adarra, lausengatua, lausengatua,</cell><cell>écorchée, f. branche flame, m. brique flater. cornat flaté, m. corne flatée, f.</cell><cell>-362-4 362-5 --</cell></row><row><cell cols="3">(10) amiragarria, lausengua, Ez da kasualitatea. Hori bezain argia da, adibidez, hurrengo segida laburra, admirable. -flaterie. 362-6 amodioa, amour, m. 326-25 labea, four, m. 364 frantsesezko F letratik osoki hartua: (7) alferra, amodiosa, amoureux, m. 326-26 lana, travail, m. 377-1 fainéant alferra, amodiosa, amoureuse, f. -16 laboratcea, labourer. -fainéante alaba, amicionea, irrixa, ambition, f. 327 laboratua, labouré, m. -fille aldiz, colpez amoiña, erremusiña, aumône, f. 331 laboratuac [sic], labourée, f. -fois aldi batez, behiñ, amaguiñarreba, belle mere, f. 332 laborança, labourage, m. 377-3 une fois alkhabuça, ampola, fiolle, f. 362 laboraria, laboureur, m. 377-4 fusil amaiçuna, marastre, f. 382 laiecoa, arrontera, laïque, m. 377-6/7 17</cell></row><row><cell cols="3">amabitchia, lanceta, Halaber, frantsesari jarraitzen dio zintzoki s eta z elkarrekin nahaste dakartzan hu-marraine, f. 383 lancette, f. 378 ama, mere, f. 385 largoa, large. -rrengo segidak: (8) asqui, amexa, songe, m. 426 largatcea, élargir. -assez azquena, amurraiña, truite, m. 435 largatua, élargi, m. -dernier azquena, derniere azpian dessous, sous aztala, jambe aztala, jarret azpia, jambon astia, loisir asteleguna, jour ouvrable astelehena, largatua, élargie, f. -largotassuna, largeur, f. -laudorioa, loüange, m. 381-3 laudatcea, loüer. 381-4 laudatua, loüé, m. -laudatua, loüée, f. -laur, quatre. 411-12 Bat hura, (11) Laguncea, Ac[c]ompagner. 325 laur hogoi, quatre-vingts. 411-13 lundi astehartea, lagundua, accompagné, m. -laur hogoietahamar, quatre-vingts-dix. 411-14 mardi asteazquena, lagundua, accompagnée, f. -laugarrena [sic], quatriéme. -mercredi astea, laguna, compagnon, m. 341 lastoa, paille, f. 395 semaine asqui içatea, laurdena, pinte, f. 403 suffire lasterrago, plûtôt. -</cell></row><row><cell cols="3">lakhoa, dolharea, Adibideak nahi adina pila daitezke, nahiz -hau ere aitortu behar-den-denak pressoir, m. 408 laurdena, quart, m. 411-10 azaldu ez. Hona begi-bistako azalpenik ez duen segida bat, adibide modura: laparra, ronce, m. 419</cell></row><row><cell>(9) Manua, larombata,</cell><cell>Ordre samedi, m.</cell><cell>420</cell></row><row><cell>maitatcea, laster,</cell><cell cols="2">aimer tôt, bientôt, d'abord. 432</cell></row><row><cell>maitatua,</cell><cell>aimé</cell><cell></cell></row><row><cell>maitatua</cell><cell>aimée</cell><cell></cell></row><row><cell>maiz,</cell><cell>souvent</cell><cell></cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>Begien bistan dagoen EF eta FE-ren arteko tamaina eta hizkuntzen ordenaren aldetiko ezberdintasunez gain, Lakarrak (1994) garbi frogatu du badirela bestelakoak ere. Labur bildurik, FE zerrenda aberatsago, landuago eta garbiagoa da alde askotatik, Harrietek euskal lexikoari buruz zituen ideien eta asmoen ondorio. Ezberdintasunon berri emateko, Lakarrak asumitzen du FE EF xumeagoa -oinarriz koa goaberregitetik sortua dela; bestela esanda, lehenengo hiztegia EF delako hipotesiaren arabera jokatzen du, oinarrizkoena jaso ondoren, handik abiatuta Harrietek euskal lexikoa aukeratu, garbitu eta osatu zuelako ustean.Lakarraren emaitzak borobildurik, EF-ko edukitik FE-n hauxe gertatu da:</figDesc><table><row><cell></cell><cell>sarrera berrietan</cell><cell cols="2">lehengo sarreretan</cell><cell>EF-ko hitzetan</cell></row><row><cell></cell><cell>gehituak</cell><cell>gehituak</cell><cell cols="2">oinarriturik erantsiak</cell></row><row><cell>A</cell><cell>% 61,0</cell><cell>% 10,00</cell><cell></cell><cell>% 29,0</cell></row><row><cell>E</cell><cell>% 46,0</cell><cell>% 8,0</cell><cell></cell><cell>% 46,0</cell></row><row><cell>F</cell><cell>% 71,1</cell><cell>% 5,8</cell><cell></cell><cell>% 15,2</cell></row><row><cell>H</cell><cell>% 36,0</cell><cell>% 9,0</cell><cell></cell><cell>% 28,0</cell></row><row><cell>P</cell><cell>% 74,3</cell><cell>% 4,0</cell><cell></cell><cell>0% 9,7</cell></row><row><cell></cell><cell></cell><cell>gordeak</cell><cell>desagertuak</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>Edo, hobeto esanda, haratago doa, adibide ematen dituen hitzetatik bakar bat ere ez baita EF-n jadanik agertzen; FE-ri dagokionez, agindutakoa bezain garbia ez eze, aberatsagoa ere bada:Ildo honetatik, kenketak baino eransketak anitzez ugariago ditu FE-k, sarrera eta ordain kopuruek aditzera ematen duten bezala. Iraun duten mailegudun sarrerek ez ezik, bestelakoek ere bigarren hiztegian esanahikideak, aberasgarriak edota zehazgarriak erdiesten dituzte, gehienbat EF-n jasota ez dauden osagaiak:</figDesc><table><row><cell>airatcea, voler</cell><cell>voler, avec ailes, hegaldatcea, airatcea</cell></row><row><cell>akhusatcea, accuser</cell><cell>accuser, acusatcea, gaineguitea</cell></row><row><cell></cell><cell>il m'a accusé, ene gaiñ eguin du</cell></row><row><cell>laborança, labourage</cell><cell>labourage, laborança, lurlana</cell></row><row><cell>larombata, samedi</cell><cell>samedi, egubacoitça, laranbata [sic]</cell></row><row><cell cols="2">1) Hautapena. Mailegu gordinaren alboan agertzen den hitza nahiago du FE-n: EF-ko hitzak frantses sarrera-buru gehiagoren azpian aurki daitezke, gainera:</cell></row><row><cell>abandonatcea, largatcea, abandonner aitorensemea, gentil'homme accordatcea, bakhetcea, accorder</cell><cell>gentil'homme, aitorensemea abandonner, largatcea accorder, bakhetcea chevalier, aitorensemea</cell></row><row><cell cols="2">lehiatcea, hâter, presser 2) Ordezkapena. Mailegua ez eta beste zerbait ipini du: hâter, lehïatcea presser, se hâter, lehiatcea</cell></row><row><cell>affligitcea, tristatcea, affliger</cell><cell>affliger, axekhabeztatcea precipiter, lehiatcea</cell></row><row><cell>agradagarria, agreable Edota zehaztasun gehiagoz:</cell><cell>agreable, nahicaria</cell></row><row><cell cols="2">3) Hautapena eta frantses aldaketa. Honela begiratuta, balirudike EF-n berariaz achala, croute croute du pain, ogui achala mailegutasuna agerian jartzen duen frantses kidea hautatu zukeela; FE-n, be-lorea, lilia, fleur fleur, lorea rriz, horren beharrik gabe, askeago jokatu bide zuen: acta, patua, acte, contrat pacte, tratua, patua fleur avant fruits, lilia</cell></row><row><cell>adreçatcea, amaiñatcea, adresser, dresser</cell><cell>regler, chuchentcea, amaiñatcea</cell></row><row><cell cols="2">Egitadok bat datoz erabat egileak bere hirugarren liburu galduaren bigarren par-</cell></row><row><cell>teaz dioenarekin:</cell><cell></cell></row><row><cell cols="2">...berce partea da escualdunec berce hitzcuncetaric hartuac dituzten hitcen khen-</cell></row><row><cell>tce co, hala nola</cell><cell></cell></row><row><cell>Intencionea,</cell><cell>chedea</cell></row><row><cell>inclinacionea,</cell><cell>pendura</cell></row><row><cell>inquietatcea,</cell><cell>khechatcea</cell></row><row><cell>ingrata,</cell><cell>esquergabea, &amp;c.</cell></row><row><cell cols="2">Lehenbicicoac berce hitzcuncetaric dire eta berceac escuara dire.</cell></row><row><cell>intention, chedea, gogoa</cell><cell></cell></row><row><cell>inclination, talendua, pendura</cell><cell></cell></row><row><cell>inquieter, khechatcea</cell><cell></cell></row><row><cell>ingrat, eskhergabea</cell><cell></cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>64): arrerages, intresac, sensuac ... censuco eta intereseco diruaren irabacia pagatcen eztuenari... (Ax 81). couper, ebaquitcea, picatcea Baiña mahastiac behar cirela ebaqui eta picatu (Ax 408). familier, ausart, trebe, entregu ...eztela iendartean ausart, entregu, bithore eta ez trebe (Ax 19).</figDesc><table /><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">Larramendirenean hasita (1729), sistema perifrastikoa -erregularra izaki-jatorragotzat jotzen dute gramatikagile gehienek oso berandu arte; haatik, Harriet dugu hortik eta trinkoak euskaratik kentzeko asmora iristen den gramatikagile bakarra(Gómez 1989: 361; Gómez &amp; Sainz 1995: 237-238).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3"> Lakarraren estimazioa (1994: 21), sarreren orriko bataz bestekoa erabiliaz, nahikoa hurbiltzen zaie egiazko kopuruei.4  Svensén-ek (1987: 36) 5.000 sarreratan jartzen du hiztegirik txikienen (sakel-hiztegien) beheko muga, adibidez.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14">Frantses hiztegi batetik abiatzea ezinezkoa ez izan arren (Ricardo Gómezek gogoratu didan bezala), intuizioaren kontrakoa ematen du. Horrezaz gainera, hurrengo oharrean aurkituko du irakurleak frantses-euskara zerrendaren aldeko argudio bat, eta FE eta EF-ren arteko kidetasunen kopuru handia ere (% 45) alde letorke (honetaz ik. beherago, § 3.1).15  Bidenabar, honek ederki azaltzen du nolatan dauden hainbeste euskal bikote EF-ko A letraren hasieran ("abandonatcea, largatcea, abandonner" erakoak): eratzen ari garen hipotesiaren arabera, frantsesa-euskara hiztegitik EF-ra aldatzen hasi zenean bertako ordainak ere osoki-edo kopiatzen zituen sarrera buru, bat izan zein bi izan; aurrera egin ahala, berriz, gehien-gehienetan ohiko prozedurari heldu zion, iturri-hiz kun tza ko sinonimoetan letrari zegokiona bakarrik harturik.16  FE-n ez zaio frantsesezko genero bereizkuntzari lekurik ematen (ik. beherago, § 3.1).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="17">Euskal ordainak ez dira berak, baina aurrerago aurkituko dugu azalpena ( § 3).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="19">Berriz, FE-ko edukiari egindako gehiketak honela banatzen dira:18  Bai eta larrua-k larrutcea ere, nahiz honetan frantsesezko hurrenkeran hausturarik izan ez, ha labeharrez.19  Nahasketaren bat dago Lakarraren zenbakietan (1994: 26) atal honetan, oso oker ez banago; ehuneko hau hurrengo atalekoaren arabera eman dut, ez bere zenbakietan oinarrituta.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="20">Atal honetan zehaztu behar da partizipioak ere EF-n maskulinoan eta femeninoan agertu arren, hauen galera (emandako ehunekoan sartuta badago ere) ezin zaiola genero bereizkuntzari egotzi: aitzitik, berez desagertu dira, gehienbat bederen, FE-n infinitiboa izan ohi baita aditzaren ordezkari bakarra, EF-n ez bezala. Salbuespenen bat bada: cf. "accoûtumer, trebatcea. accoûtumé, trebatua. accoutumé, ohitua".</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="21">Lakarrak jadanik zehazten zuen generoa dela eta egindako ezabaketak "edukin galerarik su po satzen ez duen ezabaketa moeta" dugula(Lakarra 1994: 27).22  Laginak honela osatuta daude: A letrako a-alogatcea zatia (80 sarrera orotara; 62 partizipioak eta generoagatik errepikatutako izenondoak kenduta) eta L letra osoa (90 sarrera orotara; 65 kenketa beren ondoren).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="23">Bidenabar, honek azaltzen ditu lehen hipotesiaren arabera «itzuriak» ziruditen sarrera ustez desagertuak, EF-n bai eta FE-n arrazoi argirik gabe ez daudenak, FE-n gehitutakotzat genituen horien pare.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="24">Lakarra da honetan ere aitzindari, testuak eta, beraz, beren artean litezkeen loturak anitzez gutxiago direla gogoratu baitu (cf. Lakarra 1994: 24, besteak beste), hiztegi zenbaitenak -Harrietenak barne-ikertzeaz landara.25  Harriet bera lehenago bezala (cf.Lakarra &amp; Urgell 1988<ref type="bibr" target="#b8">, Lakarra 1991</ref><ref type="bibr" target="#b23">, Urgell 1992</ref>, Voltoire alde batera utzi izan dugu zeharo iturrien bilaketan. Harrietenean ez ezik, Pouvreaurenean iturri</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Bien arteko erlazioa zantzu hauen bitartez erakutsi eta gero, ikus dezakegu Voltoireren hitz zerrendak ez ezik, liburuaren beste zatiek ere eragina izan bide dutela Harrieten lanean, gutxienez elkarrizketek: EF: larrutcea "écorcher" (Volt 230 larrotçea "escorcher")... FE: laburcea "accourcir" (Volt 135 labourçequo "pour accourcir"), erreztuna "anneau" (Volt 247 errestonaq "bagues"), arrobatçaillea "larron" (Volt 145 arrobatçalleriq "larrons")...</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Leizarraga</head><p>Honen eragina behar bezalako frogekin egiaztatzeko dago, baina badira aintzat hartzeko moduko aztarnak, bitara ekar ditzakegunak. garrantzizkoa izan zela frogatu berri du Etxagibelek (2008), hain garrantzizkoa non ziurrenik -ikertzaileak hala deritzo, bederen-haren hiztegiaren ardatza bide baita. Voltoireren berbaloratzea Lakarraren argitalpenari <ref type="bibr">(1997,</ref><ref type="bibr">1999)</ref> zor zaio, inondik ere. 26 chesne &gt; chêne grafia aldaketari erreparatu behar zaio, hitza Harrietenean lehengo lekuan geratu bada ere. Frantses Akademiaren 1740ko hiztegian ezabatu omen zen lehenengoz, beste zenbait berri kuntza re kin batera, ahoskatzen ez zen kontsonante aurreko s hori, eta azentu zirkunflexuaz ordezkatu <ref type="bibr">(Cohen 1987: 224)</ref>. Harrieten modernotasunaren beste zantzu bat, bidenabar.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Harriet eta Voltoireren lanak baino are xumeagoak: Leizarragaren Testamentuko hiru zerrendak -izen berezien azalpen etimologikoa (Mm 3 v-Mm 4 v)-, hitz zailen azalpena (ã 1 r-ã 7 r) eta lapurtera (?)-zubererazko hiztegiñoa (ã 7 r-v), Oihenarten Notitia-ko zerrenda etimologikoa eta Neurtitz-etako glosarioa eta Larramendiren De la Antigüedad-eko etimologikoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Argitaraturik</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<pubPlace>Urgell</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Eta Harrietenaz besterik nekez: Lécluse-ren lanak baino ez, dakidalarik, Archuren gramatikakoa (1852) arte; une honetan, ostera, Iparraldeko hiztegigintzaren loraldia dei dezakeguna hasten da, Chaho ren hiztegi bukagabearekin (1855) hasi ere</title>
+		<imprint>
+			<date type="published" when="2002" />
+			<pubPlace>Urgell</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Aurrerago mintzatuko gara bien artean dauden ezberdintasun garrantzizko zenbaitez</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ez</forename><surname>Halere</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Dira Bata Bestearen Iraulketa Hutsak</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bibliografia</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Histoire d&apos;une langue</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Messidor/Éditions sociales</title>
+		<meeting><address><addrLine>Paris</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Le français</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Silvain Pouvreauren iturriak, Gasteiz: UPV/EHUko DEAko lan argitaragabea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Etxagibel</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">«Bonaparte printzearen inguruko hizkuntz eztabaidak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Gómez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="355" to="392" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">On the Origin of the Finite Forms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">K</forename><surname>Sainz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Towards the History of the Basque Language, Amsterdam/Philadelphia: John Benjamins</title>
+		<editor>L. Trask, J. I. Hualde &amp; J. A. Lakarra</editor>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="235" to="274" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>; «testukritika Eta Hiztegiak: Harriet Eta Larramendi</surname></persName>
+		</author>
+		<title level="m">Memoriae L. Mitxelena Magistri Sacrum. Donostia: Gipuzkoako Foru Aldundia (ASJU-ren Gehigarriak 14), I</title>
+		<editor>J. A. Lakarra &amp; I. Ruiz Arzalluz</editor>
+		<meeting><address><addrLine>Andoain; Udala; Lakarra</addrLine></address></meeting>
+		<imprint>
+			<publisher>Andoaingo</publisher>
+			<date type="published" when="1991" />
+			<biblScope unit="page" from="279" to="312" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Manuel de Larramendi. Hirugarren mendeurrena</note>
+	<note>Larramendirekin aurreko hiztegigintzaren historiaz: aztergai eta gogoeta</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Gasteiz: UPV/EHUko tesi argitaragabea. -, 1994, «Harrieten Gramatikako hiztegiak (1741)», ASJU 28:1, 1-178</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xviii</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Lexiko berrikuntza euskal hiztegigintza zaharrean: zenbat ikergai</title>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="3" to="40" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Hizkuntz eskuliburuen tradizioa Euskal Herrian: I. L&apos;interprect ou Traduction du François, Espagnol &amp; Basque (~1620)</title>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1" to="66" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">espagnol &amp; basque (~1620): II. Elkarrizketak»</title>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="493" to="568" />
+		</imprint>
+	</monogr>
+	<note>interprect ou traduction du françois</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">B</forename><surname>Urgell ; «lécluse-Ren Hiztegia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskalaritzaren Historiarako Lanabesak (II)», ASJU</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="99" to="211" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">El Imposible Vencido. Arte de la Lengua Bascongada. Salamanca: Antonio Joseph Villagordo Alcaraz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Larramendi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Faks</title>
+		<imprint>
+			<date type="published" when="1729" />
+			<publisher>Hordago</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Diccionario Trilingüe del Castellano, Bascuence y Latín. Donostia. [Berrarg. faks. Donostia: Txertoa</title>
+		<imprint>
+			<date type="published" when="1984" />
+			<biblScope unit="page">1745</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Orotariko Euskal Hiztegia. Diccionario General Vasco (15 lib.). Bilbo: Euskaltzaindia, etab</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Oeh = Mitxelena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">«Alphabetization in early dictionaries of English», in Chosen words. Past and present problems for dictionary makers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">E</forename><surname>Osselton</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+			<publisher>University of Exeter Press</publisher>
+			<biblScope unit="page" from="117" to="126" />
+			<pubPlace>Exeter</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Oyharçabal</surname></persName>
+		</author>
+		<title level="m">Zenbait gogoeta euskarak letra hizkuntza gisa izan duen bilakaeraz», Litterae Vasconicae</title>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="9" to="46" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+				<title level="m">Statut et évolution des lettres basques durant les xviième et xviiième siècles</title>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="219" to="288" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Étude sur leur histoire, leurs types et leurs méthodes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Quemada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Les dictionnaires du français moderne</title>
+		<meeting><address><addrLine>Paris</addrLine></address></meeting>
+		<imprint>
+			<publisher>Didier</publisher>
+			<date type="published" when="1967" />
+			<biblScope unit="page" from="1539" to="1863" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Irakaskuntza egitasmoa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Sarasola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bilbo: UPV/ EHU (argitaragabea)</title>
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note>Euskal Lexikografiaren historiaz</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Practical Lexicography. Principles and methods of dictionary-making</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Svensén</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+			<pubPlace>Oxford/New York: Oxford U. P</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Hiztegi Hirukoitza eta Diccionario de Autoridades erkatuaz (I): oinarrizko ezaugarri zenbait</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Urgell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>; «martin Harriet Añibarrorengan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="109" to="163" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Gasteiz: UPV/EHUko irakaskuntza proiektu argitaragabea</title>
+	</analytic>
+	<monogr>
+		<title level="m">Larramendiren Hiztegi Hirukoitza-ren Eranskina: Saio bat hiztegigintzaren testukritikaz. Bilbo: Monumenta Linguae Vasconum. Studia et Instrumenta 1 (= ASJU-ren Gehigarriak</title>
+		<imprint>
+			<date type="published" when="2000" />
+			<biblScope unit="volume">47</biblScope>
+		</imprint>
+	</monogr>
+	<note>Gasteiz: UPV/EHUko tesi argitaragabea</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Essai d&apos;une Bibliographie de la Langue Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Vinson</surname></persName>
+		</author>
+		<idno>1891-1898]</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Berrarg. faks. J. Urquijoren oharrekin</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="1984" />
+		</imprint>
+		<respStmt>
+			<orgName>ASJU-ren Gehigarriak</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

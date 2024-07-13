@@ -1,0 +1,1466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ADABAKIAK /h/-AREN BALIO ETIMOLOGIKOAZ</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseba</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universidad del País Vasco/Euskal Herriko Unibertsitatea -JUMI)</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:lang="en">ADABAKIAK /h/-AREN BALIO ETIMOLOGIKOAZ</title>
+						<title level="a" xml:lang="en">different /hh/ on the basis of the analysis of different phenomena and arguments: the ety- mological nature of h 1 &lt; *h 3 /*h 2 ( §II), the non-antihiatic nature of /-hh-/, as opposed to what happened to their alleged equivalents /-gg-/ ( §IV), the antiquity of /-hh-/ (unlike /-ii-/&apos;s case) in the -VihV-clusters ( §V), the case of /-f-/, [</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="0.">Abstract</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>In this work, after a brief overview on the main proposals about aspiration since Michelena's Fonética histórica vasca ( §I), I claim for the etymological value of word internal</head></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Lanak ondoko atalak ditu: sarreran hasperenaren inguruko azken hamarkadetako ekarpen nagusiak ukitu eta gero ( §I), aurreko lan batean hitz hasierako "h gehituez" egindako oharrak laburtzen eta osatzen dira, barneko askok ere orain arte eman zaien ez bezalako azalpena dutela erakusten lagun dezaketelakoan ( §II); gero, Mitxelenak "kontraesantzat" aurkeztu hire/eure bikotea azaltzen da, /h/-aren distribuzio erregularraz lehendik ez genekien ezer hor ez dela erakutsiaz ( §III); /h/ ez dela /g/ bezala hiatoak hausteko gehitua eta harekin hedadura eta kronologia ezberdintasun larriak dituela markatzen dugu ondoren ( §IV); -VihV-ereduetan ez dela /h/ gehiketaren kasu seguru bakar ohartu dugu eta bai, aldiz, /i/-ren seguru eta egiantzekoak <ref type="bibr">( §V)</ref> eta Hualdek erakutsi f &lt; w.h prozesuak /h/ zahar gehiagoren lekukotasuna ematen digula azkenik ( §VI). §VII.ean alfer zabalagoaren ondoan Ekialdean auher eta auger zergatik ditugun eta baita auhen &gt; **afen ez bilakatzeko arrazoiak ere ematen dira. Ateratako ondorio nagusiak biltzen dira ( §VIII)-n, eta § §IX-X.etan aztertutako hitzen bilduma eta erabilitako bibliografia ematen, hurrenez hurren.</p><p>Orohar, hitz barruko /h/-ek orain arte aitortu zaien baino balio etimologiko seguruagoa eta birreraiketarako garrantzia larriagoa dutela aldarrikatzen da hemen, are -esan izan den baino kasu gutiagotan-jatorri segmentalik ez dutenetan. Baliteke, gainera, inoiz jatorriak behar ez zen segmentu eta kokaguneetan bilatu izana. /h/-aren aitzinatasunaz, jatorriaz, hedaduraz, iraupenaz, erorketaz edo sorreraz -hots, berreraiketarako hark izan lezakeen balio etimologikoaz-eztabaida eta iritzi ezberdinak izan dira, are hizkuntzalaritza diakroniko "hertsian" bertan, euskara batu modernorako eredura edo bestetara jo gabe:</p><p>A lo que puedo juzgar, estamos muy lejos de que reine una opinión unánime acerca de su valor etimológico. Para unos representa algo que fue común en un tiempo a todos los dialectos, mientras que otros la consideran adventicia, una especie de creación tardía de algunas variedades de la lengua <ref type="bibr">(Mitxelena 1950b: 190;</ref><ref type="bibr">ik. FHV, 208 ere eta hemen 83. oh.)</ref>. <ref type="bibr">1</ref> Aitzineuskara estandarrean Koldo Mitxelenak garbi asko ezarria utzi zuen hasperena, leherkari zenbaiten ezaugarri alofoniko izateaz landa -zehazki, gero desagertutako leherkari bortitzena hitz hasierako kokagunean-, 2 fonema beregaina ere bazela.</p><p>1 Fonética-n dioskunez, "(...) en un caso determinado, cuando la etimología de la palabra vasca es desconocida, no se puede pasar de una simple opinión acerca del carácter primario o adventicio de la aspiración en ese término" <ref type="bibr">(209)</ref>. Uste dut usu (gogora Lakarra 2008c hogen-ez eta hautatu-z) are horrelako hitz baten etimologia -hots, azken jatorria-ezaguna denean ere, /h/-arekiko zalantza guztiak ez direla erabat uxatzen, funtsean hots honen agerraldi guztiak azaldu beharra ez baita erabateko egi te ko tzat hartu gehienetan. <ref type="bibr">Lakarra (2008a)</ref>-n jardun dut zabal etimologi-azterketen egoeraz eta forma kanonikotik abiatutako analisiek aurkezten dituzten zenbait abantailaz.</p><p>2 Ez naiz arituko hemen gai honetaz, baina ezaguna da fenomeno honen lekukotza urria gorde dela; La karra (2006c)-n aipatu izan dugu leherkari ahoskabez hasitako aditz erroetan, ahoskabe horiek hasperendunak direla beti <ref type="bibr">(ekharri, ethorri, ikhasi, ikhusi)</ref> eta -hau lehenago ikusi zuen Mikel Martinezek-ez dela h-z hasitako aditz errorik (*-non-batetik datorren eho-z eta honen eratorriez -*e-da-non, *e-ra-nonlanda, jakina). Gertakari hauetarik lehenak aditz izen zaharren enborraren garapenari antequem bat ezartzen dio; bigarrenak erakusten du ez zela garai jakin batetik (iii-iv. mendea?) aurrera horrelako aditz Ezaguna da /h/ bat edo gehiago hitz berean aurki litekeela akitanieraz eta euskara zaharra ren geografia osoan (Mendebala barne), Behe Erdiarora arte. <ref type="bibr" target="#b0">3</ref> Hor zehar inoiz edo behin norbaiti oraindik ere entzun edo irakur dakiokeenaren aurka, Mitxelena oso garbi mintzatu zen Done Miliagako Rejako hasperenketa erregular eta ugariaz: Se apuede afirmar, además, con una verosimilitud que se acerca mucho a la certidumbre, que en territorio español extensas zonas de habla vasca, sobre todo de Alava y La Rioja, conocieron también la aspiración hasta el siglo xiii inclusive, por lo menos. Esto se evidencia por la frecuencia y regularidad con que aparece la letra h en la lista de pueblos alaveses conocida por la Reja de San Millán <ref type="bibr">(FHV,</ref><ref type="bibr">205;</ref><ref type="bibr">etzana nirea [JAL]</ref>). <ref type="bibr" target="#b2">4</ref> Lehen galera Hegoaldean pentsatu ohi da Nafarroan ematen dela x-xi. menderako, inguruko erromantze h-gabearen eraginez eman ere; <ref type="bibr" target="#b3">5</ref> Iparraldean, Lapurdiko kostaldean xviii. mendeaz geroz <ref type="bibr">(FHV,</ref><ref type="bibr">(205)</ref><ref type="bibr">(206)</ref>.</p><p>Mitxelenak erakutsi zuen lotura zela hasperenaren eta azentuaren artean; zehatza go, azentuak eskubitatik ezkerretarantz -ikus <ref type="bibr" target="#b55">Lakarra (1996</ref><ref type="bibr">Lakarra ( ) eta, zabalago (2006a</ref> eta Elordieta (inpr.)-izan duen lerradura luzean higatu eta hondatu egin dituela lehenagoko hasperen anitz, ez baita zilegi izan hizkuntzaren historiaren garai luzeetan azentuaren ondotiko hasperenik. <ref type="bibr" target="#b4">6</ref> Lau eratako /h/-ak hartu ohi dira balio etimologikotzat (FHV, 208): 1) bokalartekoak, aurreko -n-ahul edo soilen ordeko direnak; 2) zenbait mailegutako /f/ &gt; /h/ batzuk hitz hasieran; 3) hor bertan, lehenagoko leherkari bortitzen bilakabide direnak eta, 4) hor edo beste nonbait, AE-ko /h/ gordeak (ik. <ref type="bibr">83. oh.)</ref>.</p><p>Egia da Larry Trask zenak (1997) oso bestelako hurbilketa orokorra aurkeztu zuela; alegia, harentzat hasperenak, guztiak edo gehienak, azentuaren eraginez ziren sortuak eta, horrenbestez, hasperena ez zen gehiago fonema beregaina, segmentozgorako epifenomenoa baizik: zahar gehiago sortu, ez baitzen hasieran leherkari bortitza (gero h-) zuten erroak aditz ez bilakatzeko arrazoirik, gainerako hotsez hasitako CVC oinarriak *e-ezarriaz aditz bilakatzen jarraitu izan balute. <ref type="bibr" target="#b0">3</ref> Bestek azaldu beharko horren alerik zergatik ez den azaltzen hor-hurbileko sei-zortzi mende lehenagoko omen diren Veleiako euskal idazkietan, nahiz &lt;naia&gt; (ez [a]naia) zein &lt;il ta&gt; bezalakoetan eta &lt;-a&gt; "artikulu" ugarietan (cf. Rejako lekukotasunaz beherago §III); delako idazkun horien ia garaikide hertsi diren Akitaniakoek ez dute batere laguntzen lan horretan; ik. <ref type="bibr" target="#b53">Gorrotxategi (1984)</ref> eta lehenago <ref type="bibr">Mitxelena (1954)</ref>. <ref type="bibr" target="#b2">4</ref> Lekukotasun zenbaitetarako ikus Textos Arcaicos Vascos-eko aurkezpena; orain hainbat irakurketaren (baina ez &lt;h&gt; horien) zuzenketarako ikus Peterson <ref type="formula">(2007)</ref>. <ref type="bibr" target="#b3">5</ref> Mirones Lozano-k (2009) "nabarmentzen du Erdi Aroko testigantza interesgarri bat, euskarazko bokalen arteko H-aren aspirazioari buruzkoa. Erabat arrotza den hizkuntza batetik dator testigantza: hebreera. xiv. mendeko bi eskuizkributan agertzen dira Mehe abizena duten beste hainbeste judu, eta abizen hori letra hebrearrez idatzita dago. Bi kasuetan dokumentua idatzi zuen juduak Mehe abizenaren H-a islatu zuen alfabeto hebrearraren hei letraren bidez. Jatorrian, baita ziur aski Erdi Aroan ere, letra hebrear hori ahoskatzen zen kontsonante hasperendun gisa, garai horretatik gelditu zaizkigun tes ti gantzen arabera" (aldizkariko laburpenetik hartua, 122. or.). <ref type="bibr" target="#b4">6</ref> Dagoeneko markatu bezala (cf. <ref type="bibr" target="#b61">Igartua 2002)</ref>, bi leherkari ahoskabe dituzten hitzetan, egitekotan hasperendun lehena bilakatzen dela oinarri hartuaz (*khaka ez **kakha) oso argudio ahula da azentu zaharra ren inguruan atera litekeena: maileguak dira horrelako guztiak eta ez gainera mailegu horien formarik zaharrenak ere. Hots, bike zein bikhe beti izango da phike nahiz pike baino zaharrago; Mitxelena ohartua zen honetaz <ref type="bibr">(ikus FHV,</ref><ref type="bibr">217,</ref><ref type="bibr">adibidez)</ref>.</p><p>With just a tiny handful of possible exceptions, the Basque aspiration is not etymological -that is, h does not continue an earlier segment, and the aspirated plosives are not distinct in origin from the unaspirated voiceless plosives. Instead, the aspiration originated as a suprasegmental feature, possibly one correlated with the position of the word-accent in Pre-Basque. It is this suprasegmental origin which is chiefly responsible for the restricted distribution of the aspiration <ref type="bibr">(Trask 1997: 158-159;</ref><ref type="bibr">etzana neurea;</ref><ref type="bibr">ikus 84. oh.)</ref>.</p><p>Ondoren hasperenaren jatorri ez-etimologikoaren erakusgarri gisa mailegu dozenatxoa <ref type="bibr">(harea, ohore, hautatu, lehoin, Z anhua, makhila, harma, ahate, haizkora, sorho, Z phiper, gerthu)</ref> hasperenarekin damaigularik; halere, eta ez da ahazteko, "note in particular the regularity with which an aspiration represents the former position of a loss intervocalic n" markatzen du (159).</p><p>Ezaguna da Traskek atzeraka egin zuela bere 1985eko leherkariekiko proposamenetik 1997ko liburuan, Mitxelenaren azalpen klasikoaren alde; /h/-ari eta hasperenketari dagokionez, ordea, haren datuak eta argudiaketaren parte on bat erabili arren, hurbilketa orokorra ezberdina dugu nabarmenki: Mitxelenak fonema beregain baten mugak eta galera-arrazoiak azaldu nahi ditu azentueraren bitartez; Traskek, aldiz, hotsaren beraren sorrera, azken finean bestearen (azentuaren) epifenomeno gisa.</p><p>Azken hamarkadan Iván Igartuaren lanak <ref type="bibr">(2002, 2006, 2008a-b)</ref>  Ondoko lerroetan saiatuko gara euskal etimologiaren hainbat alderdiren garapen eskasak -bai datuen ezezagutza edo analisi desegokiengatik, bai hurbilketa orokor desbideratuengatik-hasperenaren inguruko ikerketan izandako ondorio kal te garri zenbait 11 markatu eta konponbidean jartzen, nahiz eta konponketa horretarako adabaki batzuk baino ez aurkeztu hemen. Mitxelenaren hurbilketa orokorrari lotuko ga tzaiz kio gehienbat, inoiz berak eraman zuen baino aitzinxeago eramaten ahaleginduaz; ikusi(ko) dugunez, hori da bide errentagarri bakarra, hizkuntz historialari batentzat, bistako arrazoiengatik: hura da, izan ere, etimologiak eta, beraz, azalpenak edo azalpen-bideak garatzen lagundu gaituena azken 50-60 urtetan 12 eta ez dut hura or dez ka tze ko rik ez hari alderatzekorik ezagutzen egungo egunean ere. 13</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. *h 3 &gt; h 1 eta *h 2 &gt; h 1</head><p>Por lo que respecta a la posición inicial, la más importante a este respecto, se pueden hacer valer las siguientes razones: 1) h-aparece en préstamos sin justificación alguna. Así, entre otros, en lab. harea (…). 2) Falta la aspiración allá donde se esperaría encontrarla: Leiç. etc. ume cría, de *kume (…). 3) No es raro que haya desacuerdo entre los distintos dialectos respecto a la aspiración inicial. En monosílabos el sul. parece haber generalizado h-(...). En palabras más largas, sul. áizo, Leiç. auzo 'vecino', lab. hauzo (...) (FHV, 209). 14 10 Begibistakoa iruditzen zait Igartua zuzen ari dela arrazoi prosodikoak aldarrikatzen dituenean Mitxelenak "adventicia"-tzat eman zituen zenbait h-azaltzeko (harma-rena edo harrapa-rena, demagun). Alabaina, ez dut uste latin eta erromantzetiko h-dun maileguetan -ezta gehienetan eta, bereziki, zaharrene tan-hori izan denik zio nagusia: ez da halabehar hutsa harea-ren bigarren eta hirugarren silaben arteko hiatoan lehen -n-bat izana, lehoi, herio, hodei eta beste hainbatetan legez, noski (gogora testuan Trasken oharra -h-eta -n-&gt; Ø fenomenoaz). Ikus La karra (2008c), non aldarrikatzen den ja torriz ko lexikoaz artatutako azterketak -n-&gt; -h-eta *h 3 /*h 2 &gt; h 1 bilakabideen bitartez h-askoren ja torria erakusten duela, horiekiko analogiak, gurutzaketak, gehi Igartuaren arrazoi prosodikoek azaltzen dituztelarik gainerakoak. 11 Ez azkenik Schuchardtenak; ikus <ref type="bibr" target="#b85">Mitxelena (1950a)</ref> Boudaren lepoan hari emandako zenbait egurkadaz; gero (1957b...) zuzenagoko eztenkadak ez dira falta, baina nabarmena da oraindik konparaketan zein birreraiketan Schuchardti zor zaizkion oinarrizko huts larri asko ez direla erabat saihestu. <ref type="bibr">12</ref> Traskek hiltzerakoan hasi-berritan edo utzi eta inork sarean eskegitako hiztegi etimologikoa ez da aurrerapen handiegia, zorigaitzez. Michel Morvan-ek 2009ko udazkenean jarria ez dakit penagarri ala barre garri gertatzen den, bai euskararekin inongo erlazio historiko ezagunik gabeko hizkuntzetako hitzekin egin "erkaketengatik", baita barne-birreraiketarako jarri ahalegin eskasagatik (mailegu ez den guztia "obscur" dugu). Arestikoago da oraindik italiar amateur batek "ondutako" zenbait hitz dozenatakoa, zeinen bitartez euskara hizkuntza indoeuroparra dela ere frogatu uste duen; azkenik, euskara eta bere ama hizkuntza familiakotzat (oraingoan ez-in doeuro parrak, kasu) dituen jaun armeniar batek ere atera du (Lincolm-en) liburu bat euskal etimologiazko bere saioekin. <ref type="bibr">13</ref> Erro zaharraz eta aitzineuskararen birreraiketazko gure ideien aurkezpen orokor baterako ikus Lakarra 14 Ikus §III-ren hasieran aipu honen jarraipena. Mitxelenak oharrean eransten du "ejemplos de h parásita se encuentran en muchísimas lenguas, si no en todas las que poseen ese fonema (…) Pero los ejemplos vascos resultan comparativamente muy numerosos. Eso no quiere decir, sin embargo, que algunas de las explicaciones que suelen ofrecerse en otras lenguas no tengan aplicación en nuestro caso.</p><p>Aurreko lan batean , hasierako h-dun zenbait hitzen etimologiak (pare bat dozenarena edo) ikertu genituen, horien bitartez hedatua den analisiaz oso bestelakoa garatzen joateko asmoz, hitz hasiera zaharretako fenomenoen azterketaren eta alderdi horren egitura eta kronologiaren barnean. Nire ustez, h-horiek ez dira "arrazoirik gabe erantsiak" edo "etimologiaz kontrakoak" esan izan den bezala, baizik eta barneragotik, dela bigarren silabaren hasieran (*h 2 ), dela hirugarrenarenean (*h 3 ), ziren hasperen bilakatu eta horra (h 1 ) heldu diren *-n-zahar batzuk ditugu: hots, Mitxelenaren /h/ etimologiko sailetarik ezagunenaren (*-n-&gt; -h-) adibide garbiak dira hark bildu ahate, ohore, ahal edo ohol-en antzera (ez gehiago eta ez gutxiago), nahiz eta -hauek ez legez-ezkerreratze erregela bat ezarri zaien ondoren. Horrenbestez, harea ez eze habuin, hagin, hautatu eta hogen-ek ere h-horiei dagokienez (eta behin baino gehiagotan gainerako soinuetan ere) azalpen egokiagoa jasotzen dute, lehenagoko halabehar hutsean gelditu gabe. Lehen gutxi baziren "h-ez-etimologikoak", orain ez da harma eta eskutada txiki bat baino. <ref type="bibr">15</ref> Halere, ene ustez, aurreko ikerketaren akatsik larriena "h-erantsi" horren azterketa soinu hori luketen mailegu zenbaitetara mugatzea izan da; nabarmena da, batetik, esparru horretan ia ezinezko zela bestelako azalpenik, ez bada "euskaraz beren erdarazko ja torrian ez bezalako h-bat dute" tautologikoa. Baina, bestetik, harea-ren egitura bera edo bertsua dute edo izan dute herio, hodei, hogei zein hebain, higuin eta are -mutatis mutandis-haran eta hara-gi edo heura-gi-k, orain arte harekin eta gainerako maileguekin batera ikertu ez diren arren; nola aipatuko ere, jakina, artean horien etimologiaz ezer ezagutu gabe? (gogora Mitxelenaren lehen oharreko aitorra).</p><p>Aipatu lan horretako IV-V. ataletan, hurrenez hurren, *h 3 &gt; h 1 eta *h 2 &gt; h 1 erregelen adibide mordoa erantsi nuen, 16 dela maileguetarik, dela jatorrizko lexikotik; horietan guztietan jatorrizko *-n-edo gero (asimilazioz, esaterako) -n-(eta -h-) bilakatu zen beste hots bat aurkitu dugu [cf. hautatu eta hogen]. Ondoren hVCVn egituran bezala, herro eta herri-n h-barneko -n-batetik (ez nahita nahiez *-n-batetik) sortu dela ikusi genuen, hots berak, jatorrizko kokagunetik eskubiratuaz -nr-taldea osatu eta horko -rr-sortzen lagundu duela, alegia.</p><p>Aurreko datuen eta arrazoien indargarri, h-"etimologikoa" dela erakusteko argudiaketa-modu berri bat ere gehitu nuela uste dut Lakarra (2008c: §VII)-n: ezker parte berbera ((h)ur erroa) duten lau hitzetarik (ibar, hibai, idor, hidoi) bik h-dute eta ø-beste biek, ezinbestean hasperena hitzon bigarren zatitik abiatuaz baino ezin azal litekeelarik. Hasperen hori eskubitatik mugitu den lehenagoko *-n-dugu bi kasuetan horrelako ezer falta delarik -bar eta -dor-en, gertakari honek goikoetan ere ber gauza gertatu dela iradokiaz.</p><p>Hedoi eta hogei -baina ekai edo azai bikoteek (batzuek *-n-, besteek ez)erakusten dute h-aren gehiketa prosodiko hutsak ezin dezakeela guztia azal (beharbada ezta interesgarriena ere); lehendik (cf. Lakarra 2006b) ezagutzen genuen herio/ jario (*e-CVC-o/*e-da-CVC-o) edo harotz/arrotz (*e-ra-CVC-tz [*h 3 ]/*e-da-ra-CVC-tz Así harroka sería arroka x harri 'piedra', hezkabia debería la inicial al cruce con hatz 'prurito, sarna', etc.". Konposaketan sortutakoez gogoeta zenbait  Gogora (cf. aurreko oharreko aipua) Mitxelenak berak ematen duela harroka edo hezkabia-ren hh-en azalpena. <ref type="bibr">16</ref> Erantsi lan honetako §V-en akabuko iruzkina aihotz &gt; haiotz aldaketaz.</p><p>[*h 4 ]) itxura oso diferenteko bikoteetan aurkitzen ditugun /h-/-arekiko ezberdintasunak ere gehitu ahalko genituzke orain gure hurbilketa segmentala laguntzeko.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. hire /eure kontraesana ote?</head><p>/h/ fonemaren distribuzioak garai historikoetan gorde lurraldeetan dituen irregulartasun zenbait aipatu zuen Mitxelenak <ref type="bibr">(FHV,</ref><ref type="bibr">(209)</ref><ref type="bibr">(210)</ref><ref type="bibr">2. arg.,</ref><ref type="bibr">525. or.]</ref>): batetik, hitz berak hizkera eta lekukotasun ezberdinetan dituenak (hauzi/auzi, hauzo/ auzo, etab.); bestetik, erro eta familia bereko kideen artean. Azken hauetarik dira bigarren graduko izenordainaren genitiboarekikoak: 4) Dentro de la misma variedad hay discrepancias en formas emparentadas: Leiç. hire 'tuyo'/eure 'de tí mismo', sul. ant. hire/ore; Leiç. hi 'tú'/euror 'tú mismo'; 17 Leiç. (y Ax. 267) amorz 'quince', junto a la forma no contracta hamaborz, cf. hamar 'diez'; Leiç. erts 'cerrar, etc.', part. ertsi, pero adj. hersi 'estrecho, apretado' (Ax. hertsi 'cerrado' y 'estrecho'); sul. hats 'aliento' (Gèze), atsegin 'placer' (FHV, 210; hiru enparatuez ikus § II-ren hasierako aipua). <ref type="bibr">18</ref> Ene ustez, hire/eure bikotean ez da inongo kontraesanik eta ezta /h/-aren distribuzio-irregulartasunaren eta, azken batean, haren modernotasunaren aldeko inongo frogarik; bai, aldiz, hots horren galeraren eta erakusleetatik artikuluetarako bilakabidearen kronologiarentzako datu edo gogoeta-gai interesgarririk.</p><p>Krimenik handienetik ere zerbait onik atera behar eta, are Veleiako faltsutzeak ere, -hobe, haien azterketak-alderdi onik eta aurrerapenik izango bide du euskararen bilakabidearen ikerketan. Itxuraz, ez da hor gaurko gairako gauza interesgarri askorik: /h/ ez gustatu edo idazkiak egin (nahiz egiteko agindu) zituen norbait horri, eta ez da horre la ko bakar bat ageri "euskal" hitzetan, bai aldiz yavhe (edo ioshe !) bezalakoetan.</p><p>Harrigarri ere bada Veleiako "idazleek" zuten posesiboekiko zaletasuna, batez ere posesibo indartuei (neure, zeure, geure) dagokienez. Nere-ren batez landa, badira <ref type="formula">(15910)</ref>   <ref type="bibr">19</ref> Gogora dezagun (ik. Manterola 2006) oraindik Done Miliagako Rejan (1025) hirugarren graduko artikuluaren forma ez zela bakarra (/h/ gabea), ondoko mendeetan ohituak garen legez; honek ez du kentzen, jakina, -a ix. mendetik -baina ez K. aurreko seigarren mendeko iberieraz 20 ez K. ondoko lehen mendeetako inongo euskaran!-dokumentatua egotea. Gaur egun ere ene bada eta ai ene ditugu eta ez **nire bada eta **ai nire, duela ia hiru mende ene erabilera arruntetik desagertua den bizkaieraz, demagun. Hortaz, ulertu beharko dugu oraindik xi. mendearen hasieran amaitzeke zela hirugarren graduko har erakuslearen artikulu gisako gramatikalizazioa -honi lotua baita autonomia fonologikoaren galera eta, horrekin azentu propioarena eta, horrenbestez, hasperenarena-, hasperen gorde horiek (-ha) fase sparita gisa hain urrutiko ez zen oso bestelako egoeraren arrasto ditugularik. <ref type="bibr">21</ref> Nabarmena da, beraz, Veleiako arraina, lurra, sua, ura, izana, (a)mona, polita... alderdi horretatik ere (lehenago eta ondotik badira beste hainbat arrazoi) fal tsuak direla iii. mendean edota vi.ean nahiz beranduago ere. Alvar-ek eta Pottier-ek Hispaniako erromantzeez mintzo "En la Península Ibérica hay casos evidentes de artículo [hots, ez kategoria hori orokorturik] en sintagmas en los cuales el sustantivo se aduce por vez primera -uso no anafórico-y que datan del siglo vii" (1983: 111) dioskute, Lapesari jarrai ki, eta gogoan izan bedi gramatikalizazio teoriak erakusten duen bezala (cf., adibidez, <ref type="bibr" target="#b58">Harris &amp; Campbell 1995)</ref>, hizkuntza hartzaileak ezin lezakeela horrelakorik garatu emaileak aski hedatu aurretik. Are gehiago, logikoa den bezala, idatziz islatu baino lehenagotik, izan, bazela artikulua aitortu arren, Lapesa oso garbia da, Dauzat eta besteren aurka, v. eta vi. mendeetan oraindik artikulua ez -Galian ez Hispanian-ez zela garatua esatean (1961: 369-370). <ref type="bibr">19</ref> "sic" horiek komak beleierazko testuetan direla adierazteko baino ez dira. Luze joko luke ergatibo-markagabeko "euskara" [hizkuntza ez-ergatiboa ote?] honen azterketak; ikus Gorrochategui <ref type="formula">(2007)</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Trask ere ez da ilunago:</head><p>It is perfectly clear that this distal demonstrative is the source of the modern 'definite article' (absolutive singular -a, absolutive plural -ak). Even today, there is generally no more than a suprasegmental distinction between, say, datives gizon hari 'to that man' and gizonari 'to the man'. The absolutive singular gizona 'the man' derives from gizon *har. The date of the emergence of the article is not known, but it is generally thought to be late. There is no trace of it in Aquitanian, and Picaud's twelfthcentury word-list records some nouns with the article and others without. The best guess would be somewhere around the eighth to the tenth century, comparable to similar developments in Romance and Germanic languages <ref type="bibr">(Trask 1997: 199</ref>  <ref type="bibr">24</ref> Gramatikalizazio prozesu berean galdu dutelarik h-lehen eta hirugarren graduko erakusleek (eta bigarrenekoek ere, jakina), baliteke galera horien kronologia ere bertsua izatea: honenbestez hire/eure "kontraesana" 25 ix-x. mendeaz geroztikoa bide da gehienez ere (lehen hire/*ihaure edo hire / *hihaure genuen, segurki), posesiboen forma "indartuak" ez direlarik data horiek baino askoz zaharragoak; zorionez edo zori gai tzez, ez Veleiako sasi-euskararen garaikoak, nolanahi ere.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. /h/ ez da hiato-hausle 26</head><p>FHV-n zera esaten zaigu bokal topaketez eta horien ondorioak saihesteko hizkuntzak dituen baliabideez:  <ref type="bibr">35</ref> Ez zebilen oso zorrotz Villasante Axularren lagun beti edo gehienetan 'amigo' itzultzean bere edizio ezagunean, esaterako honelako pasarteotan: ( §142) "Abiatu zen bada [Errege Faraon] gibelat, eman zioen ihesari, baiña alferrik, probetxu gutitan, berant orhoitu zen: hura laster, baiña ura lasterrago, han bere lagun guztiekin itho eta hondatu zen" (seguru ote han itotako guztiak Faraonen adiskideak zirela eta, areago, Faraonen adiskide guztiak han zirelarik bertan ito zirela?); ( §155) "Ebanjelioko bortz birjiñek bere lagunei bezala (...) Zoazte hortik, Iainkoa lagun dakizuela, emaiteak gutitzeintu gauzak, eztugu geuretzat ere sobera" (zeinen adiskide gaiztoak delako bost birjinok, ezta?); ( §320) "Konsolamendu handia da, bere tra baillue tan eta egitekoetan, lagun on baten izaitea. Beraz konsola ahal gaitezke gu ere, zeren gure egitekoetan Iesu Kristo lagun baitugu" (adiskideak behar ala lankideak trabailu eta egitekoetan? Kristo adiskide ala lankide?)... Jakina, zuzen itzultzen ditu §214 "zeure lagun adiskideak" edo zenbait lagun proximo.</p><p>Lhanderen hiztegia aztertu izan balu zer-pentsatua eman ziezaiokeen hor lagun-i ordaintzat "compagnon" (era bat baino gehiagotakoak) ematen zaiola ordaintzat, baita "camarade", "époux, épouse", "partenaire", "aide", "le prochain", baina inolaz ere ez "ami(e)"-rik. demagun hitz hori noizbait *la-CVC zela, labur edo labain (&lt; *la-ban-i) edo labar bezala; eta zer izan zitekeen -gun? Gune-ren aldaera arkaiko bat? Baliteke, nik ere lehenago horrelatsu uste nuen; alabaina, eta Euskal Herri guztian gorde lagun-en -g-hori eta inon ere ez belaun-ek (gune horregatik beragatik) zuena inon ez? Eta C 1 ez balitz -g-, baizik beste edozein leherkari ahostun (/*b/ edo /*d/), soilik gero (*-g-&gt; -ø-ondoren) hiatoa hausteko gehitua delarik hots hori? Ohar bedi *da-dun : *e-da-dun bikotea *da-dun-tz-i (&gt; nagusi) : *e-da-dun-tz-i (&gt; jauntzi, Z jauntsi) bikotearen proportzio berean li tza te kee la. Jakina, baldin eta na.u.si gordetzen genuelarik xvii. mendean, nekez pentsa genezake *ladun &gt; *la.un &gt; lagun iv edo vi. mendean erabat bukatua zela, behar ba da sei edo zortzi bat mende beranduago baino. 36 /g/ hiato-hausle ezagun eta berri frango bai 37 baina ez dugu bokal arteko /h/ ez-etimologiko garbi bakarrik kausitu. <ref type="bibr">38</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. *ViV &gt; VihV?</head><p>Ahate, ohore eta -h-duten gainerako maileguetan latineko -n-(ez -ø-) segurua da, dakigunez. Aldiz, aurreko lan batean , markatu legez, iruditzen zait ez dela oso egiantzekoa Mitxelenaren -ViV-&gt; -VihV-erregela: (...) puede sospecharse generalización [/h/-rena] en el tipo representado por el sul. áiher 'qui survient aisément', aihen 'cepa', aihotz 'podadera' (ambos en Gèze; Ax. tiene haiotz), éihar 'seco, yerto', óihal 'paño', óihan 'bosque', óihu 'grito' (FHV, 215). Lazarragak ere berdin: (7v) "Acabaduric leen esan dogun cantaeteau Siluero eta bere lagunac, joan çitecen cíudadera nun Silberoc emun eusten ayn colaçio andia beregaz eroan çituan musicoay, eçe... (lagunac = musicoay); (10v) "ene lagunau eta ni goaç ara" eta "guec al daigun lagundasunic onaena eguingo deusugu"; (21v) "Oy, eseguino lagun deyçut/badoçu borondateric/esquerric asco, jentillonbrea,/ez dot ardura lagunic/gaacustenac oi ez daguien/pensadu beste gauçaric", etab. <ref type="bibr">36</ref> Bidenabar, atal honetako argudio orokorrari dagokionez, hemen ere ez da **lahun, ez Veleian, noski, eta ezta beste inon ere. Izan ere, *-n-&gt; -h-bilakabideak dirudi hitz barnean soinu honen jatorri bakarra. <ref type="bibr">37</ref> Eta gehiago ere bide da oraindik, ugatz (&lt; *edo(n) + hatz) nahiz agiri esaterako: *aho-hiri &gt; *a.a.i.ri &gt; *a.iri &gt; agiri (eta hemendik ageri, FHV-n azaldu legez). <ref type="bibr">38</ref> Ikus Mitxelenaren iruzkina ahetz-ez hurrengo atalaren akabuko oharrean; alabaina, ondokoa bide da honen aitorrik garbiena: "Se ha visto en 11.9 que h no ocurre entre el tema nominal y el sufijo ni en el interior de éstos, así como tampoco en la conjugación detrás de la raíz y de los índices personales, cuando en ambos casos el contacto de la vocal inicial del sufijo con una vocal precedente da lugar a tan variados fenómenos de acomodación" (FHV, 421). <ref type="bibr">39</ref> Ezta Iparraldeko -g-bat Hegoaldeko -ø-baten ordainetan ere, oker ez banaiz; ikus §VIII-ko azkenaurre ko ahapaldian. 40 Nafarroaz ikus 5. oharra eta dagokion testua.</p><p>Lehenago ere antzera: otros dialectos presentan variantes con y sin i ante vocal, sobre todo detrás de e: leihor, le(h)or, legor (y li(g)or) 'seco' 'tierra firme', zeihar, zear, ziar, 'de través, oblicuo', sai(h)ets, sei(h)ets, saets 'costado'. Es difícil precisar qué es aquí lo primitivo, aunque nos inclinamos a creer que las formas con i son más antiguas por lo general (FHV, 175-176).</p><p>Hots, ez zaie kasurik egiten /h/-ei, horiek berritzat baititu; kontua, bada, -*V-ala -*Vi-zaharra den erabakitzea delarik. Alabaina, Mitxelenak ez du hor 41 zerrendatutako hitz dozenaren etimologia bakar bat ere ematen eta "egitura arrazoiak", prosodikoak edo, bide ditu gogoan, ez etimologikoak edo "segmentalak" (cf. §1 eta §VIII).</p><p>Aipatutako nire aurreko lan horren §VIII.ean ez hitz hasierako baizik eta Mitxelenaren ustez diptongo ondoko "h ez etimologiko, hedatu" zenbait aztertu dugu: aiher, eihar, oiher; alabaina, horietan erantsia ezer izatekotan -i-dugu, -h-orain ere sudurkari zahar edo bigarrenkari batetik aterea delarik. Analisi honek Lakarra (2002b)-ko sahets &lt; *sa-her-tz azalpena indartzen du, sai-hets aldaeraren modernotasuna <ref type="bibr">(morfologiak bezalaxe, cf. sa-bel, sa-kon, sa-mur, sa-min)</ref>   <ref type="bibr">42</ref> Gorago jota *her-tz genuke (cf. *hor-tz); rtz &gt; rts taldearen ondoko eboluzioaz ikus FHV; -tz gabe cf. her-en/hirur &lt; *her + -en/-ur <ref type="bibr">(Lakarra 2002b)</ref>. Beharbada, -ur hori *-bur genuen, hurrengo *labur &gt; laur-en bezala, eta ez lan horretan proposatu -ahur. <ref type="bibr">43</ref> Arbelaizen liburuan ere ez dut horrelakorik aurkitzen; areago dena, ez du horrelako sarrerarik. Bestalde, §IV-n esan dudanez, nahiago dut igerri &lt; *edun-berri-tik atera, ulertu bezala, ahostunen eror-Ikusi dugun hedadura historiko-geografikoarekin hobe deritzot, alabaina, beste nonbaitetik jotzea: Simin Palay-ren Dictionnaire du béarnais et du gascon modernes-en s.u., cràgne, aurkitzen dugu behar duguna formaren aldetik, esanahi eta erabilerarenetik gauzak Frantzia iparraldean bezalatsu direlarik: "craindre. Noû y a pas arré à cragne, il n'y a rien à craindre; noû cragn ni Diu ni diable, il ne craint ni Dieu, ni le diable, il n'a peur de rien; qu'ey de cràgne que noû arribe, il est à craindre qu'il n'arrive; noû l'a pas cragnùt, il ne l'a pas craint". <ref type="bibr">44</ref>  Adj. et n. (1165-1170) est d'origine obscure, peut-être issu par un dérivé *bornius "aux yeux crevés", d'un type prélatin *borna "trou, cavité", lequel se rattacherait à la racine indoeuropéenne *bher "creuser, percer, couper", représentée aussi par le latin forare (→ forer). De nombreux toponymes du type La Borne, dont l'aire s'étend du Massif central au bassin moyen du Rhône, se rattacheraient à *borna. Le développement sémantique mènerait de la notion de "cavité" à celle de "cécité", "aveugle" étant le sens primitif de borgne, selon Wartburg. Cette hypothèse se heurte cependant à la chronologie connue des emplois <ref type="bibr">(Rey 2006, s.u.)</ref>.</p><p>Beherago dioskunez, lehen esanahitik ("qui louche des deux yeux") xiv. menderako aurrekoaz gainera hartua zuen egungo "qui n'y voit que d'un oeil" esanahia; orobat, orain desagertuak izan arren, xvi-xvii. mendeetan "chétif, insuffisant, defectueux", "sombre", "sombre et mal famé" izan zituen eta hortik taverne borgne eta cabaret borgne bezalakoak. 46 ketak utzitako hiatoa hausten duen -g-batekin. Diodan, bidenabar, bitxia dela funtzio horretan /h/ eta /g/ baliokide badira **aiger edo **ager -nahiz ondokoetako **o(i)ger, **e(i)gar-aldaera lekukoturik ez izatea, lehen **lehun eta ez genuen legez; ikus §VIII. <ref type="bibr">44</ref> Cf. Foix s.u. cragne [cregne, crègne], "vb. act. "craindre redouter" -Se ha cragne, se faire redouter. Révérer, respecter (...) vb. neut. "hésiter, ne pas oser". Frantzia Iparralderagorako, cf. "Craindre v. tr. Est la réfection précoce en crendre (1080), puis craindre (1530) d'après les verbes en -aindre, du plus ancien criembre (...) Ce verbe est issu du latin tremere "trembler" (→ trembler), et de là "trembler de peur", "redouter"" <ref type="bibr">(Rey 2006, s.u.)</ref>. Bidenabar, tremere-ren beste euskal ordain (zaharrago) baterako ikus testuan beherago. 45 OEH-n "3. "En parlant d'une terre, il a la signification de froide qui ne reçoit que de rayons obliques du soileil. Lur oiherra, hotza". Hiztegi honetan ematen diren lekukotasun urriak oro iparraldekoak dira, handik sartutako maileguaren hipotesia sendotuaz. <ref type="bibr">46</ref> borgnon 'itsu' eta 'gau' (germanian) eta éborgner 'begian zauritu' ere badakartza eratorrien artean; Corominas eta Pascualek badituzte bornear I "mirar con un solo ojo, teniendo el otro cerrado, para ver si varios cuerpos están en una misma línea" eta bornear II "girar, hacer girar, dar vueltas a algo, torcerse, alabearse (la madera)". Lehena borgne-tik ("voz, de origen oscuro") eta bigarrena "del cat. bornejar 'dar vueltas (una embarcación)'" direla dioskute.</p><p>Orain ere gauzak Frantzia hegoaldetik irits zitezkeela pentsatuaz berriro Pa layren lanera bagoaz, hara zer aurkitzen dugun s.u. bòrni: "fouroncle dont la tête pustuleuse n'est pas formée", "oeil-de-boeuf bouché", "avocat borgne, homme d'affaires véreux" (agrikulturan) "des bourgeons mal formés ou avortés". Foix-en hiztegian, aldiz, "borgne, à qui il manque un oeil", "incomplet", "qui n'a pas des yeux et par conséquent est manquée". 47 eihar-en ihar-era bidaltzen gaitu OEH-k eta han aldaeren lekukotasunen geografi-banaketari dagokionez, ihar bera "(V-gip [sic], L)" dela eta igar "(V, G, AN-erro), eihar "(L, BN, S)", exar "(R)", eixar "(R)", ear "(AN, Sal)", aihar "(BN-mix)", inar " <ref type="figure">(AN, B)</ref> Bestalde, F. Chavarría Múgica-k (FLV 40, 2008, 291-300) argitaratu xvi. mendeko testu batean zera irakur genezake: "viroguei, que son 40, significa dos veintes que son otros tantos, derivados de vi, que son dos, y de oguei, veinte, y por corrupcion muy recibida en muchas partes se dize viroguei, añadiendo la R por abuso y muchos dizen verroguei con mucha mas corrupcion. Luego se sigue virogueta vat, que quiere dezir dos veintes y uno, y por la misma orden los demás números, con la ordinaria corrupción de la conjunción eta, hasta 49" (297). dugun -r-horren eskubiratzea eta bokalartean ondoren gelditutako -n-&gt; -hbaizik. Berriro ere -h-aurreko -i-da erantsia (ez alderantziz) zenbait hizke ra tan -bereziki Iparraldeko /h/-dunetan, ez guztietan-, nekez azalduko litzatekeelarik kontrara, dei-batetik abiatuaz, Hegoaldeko dedar/didar/dear/ deagar bezalako zenbait forma. Lehen silabako bokala (e) erdararen eragin berantiarrari eta ue &gt; e (cf. leku &lt; luecu) bilakabideari erantsi nahi ez badiogu, *dohadar x dei gurutzaketa bati zorko litzaioke, harroka edo hezkabia-ren hh-ak harri eta hatz-i zor zaizkion legez (ik. FHV). <ref type="bibr">48</ref> Aiher eta eihar-en proposatu dudan -rm-&gt; -rn-bilakabideaz eta lauretan gertatzen den /r/-aren eskubiratzeaz badut gogoa beste nonbait idazteko, ez baita, dakidanez, ezagunegia euskal fonologia diakronikoan; artean halere, aiher eta eihar-i gutxienez beste pare bat kasu bederen gehitu ahal dizkiegu: leher (&lt; tremere → *terme &gt; *lerne &gt; leher) eta nigar (lacrima &gt; *(la)kirma &gt; *girna &gt; *nirga &gt; nigar), bigarren hau metatesi goiztar batekin, ondoko bilakabidea erabat ezberdin eginaz. <ref type="bibr">Orobat, bazter, izter, ater(ri)</ref>, erne, atzapar -praesepe, ristra, uertere, pregnare eta *hatz-zarpa-tik hurrenez hurren-eta bestetan ere aurkitu ahal dugu /r/-ak (inoiz muta cum liquida taldeak hau tsiaz) oiher eta deihadar-en eskubirantz egindako txangoarentzako kiderik (cf. <ref type="bibr">Lakarra 2009b, prest.-6)</ref>.</p><p>Zailtasunak zailtasun edo zehaztasunak zehaztasun, aurkeztutako hipotesiek ez dute, ene ustez, lehen hitz horien semantikaz eta formaz segurtasunez genekiena apaltzen; areago dena, batean zein bestean hobariak direla esango nuke. Bestalde, bilakabideari dagokionez, ez da arazo berezirik -h-hori aurreko segmentu batetik ateratzeko, hiruretan jatorrizko sudurkari (dela arrunt, dela sabaikari) izandako batetik, hain zuzen. VihV eredua hedatu egin bada, Mitxelenak proposatu bezala, ez bide da -h-"arrazoigabeak" gehitu direlako, bada, baizik eta, izatekotan, -i-arrazoi batengatik edo besterengatik garatu delako sahets &gt; saihets-en, *añer &gt; *ainer &gt; aiher-en, *boñer &gt; *oiner &gt; oiher-en edo *ehar &gt; eihar-en ikusi dugun legez. 49 -Vih-eredu osoarentzat <ref type="bibr">(oihan, oihal, oihu, zeihar...)</ref> balio duen edo ez hemengo azalpenak ondoko ikerketetan ikusi beharko, dakidanez inork ez baitu oraindik enparatuentzat etimologia estandarrik eman (ikus §VII auhen-i buruz). Baliteke, jakina, horiek guztiek edota horietako zenbaitek guk aztertuek ez bezalako bilakabidea izatea; alabaina, bien bitartean gutxienez aitortu beharko dugu ikerketak ez duela laguntzen -h-ez-etimologikoaren hedadura. Alderantziz, -i-da garatu dena, -h-erarik ortodoxoenean -nbatetik datorkigularik; cf. §VIII.</p><p>aihen, aihotz. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI. /f/-ren jatorria eta /h/</head><p>Ezagun denez, ez zen /f/ fonemarik AE-n eta, gainera, berandu sartua dugu, maileguetan bereziki eta inoiz jatorrizkoetan beste soinu zaharragoren bat ordezkatuaz <ref type="bibr">(FHV,</ref><ref type="bibr">262)</ref>. <ref type="bibr">54</ref> Honek ez du esan nahi, noski, beste muturrera joanez hots hori soilik azken urte edo hamarkadetan bertakotu denik, edota euskaldun jatorrek ezin ahoska zezaketenik Mogelek eta uste zutenaren aurka. Jakina, garai ezberdinetan sartu diren maileguetan latineko f- <ref type="bibr">bat b-, m-, f-, p(h)</ref>-, h-edo ø-batez (sei hots ezberdinez!) ordezkatua ikus genezake. <ref type="bibr">55</ref> Alderantziz ere, f-aurki genezake (asimilazioz, erro mantze ko /v/-ren ordez edota balio adierazkorrarengatik) <ref type="bibr">b-, v-nahiz p-zaharren ordez: biku, fiku, p(h)iku, iko, biru, firu, p(h)iru, iru, etab.</ref> Mitxelenarentzat hitz barnean -f-&gt; -b-izan da usadio zaharra maileguetan <ref type="bibr">(ezaba &lt; *effaciare, iburni &lt; ifernu, etab.) eta badira -b-&gt; -f-kasuak ere: afari &lt; abari, kafia &lt; (h)abia, nafar &lt; nabar, etab. 56</ref> 50 ariotz aldaeran heriotze-rekin "gurutzaketarik" behar ote? Ez aski bokalarteko -g-&gt; -r-batekin? 51 Neurri batean, ahapaldi honetan ez dut egin Mitxelenak berak ahetz-i buruz ikusia *ahen eta *ahotz-en analisietara hedatu baizik: "El vasc.-fr. ahetz 'liga de vinos', lat. faex, debe sin duda al gascón su estraño aspecto: gasc. héts, ahéts 'sediment, lie' <ref type="bibr">(Rohlfs,</ref><ref type="bibr">185,</ref><ref type="bibr">p. 43)</ref>. La excepción más clara sería ahutz 'mejilla' si viene del lat. fauces: cf. autzak 'mofletes' en Añib., quien da pautza como equivalente vizcaíno" <ref type="bibr">(FHV,</ref><ref type="bibr">211,</ref><ref type="bibr">16. oh.)</ref>. Bidebatez, ez dakit non datzan ahutz-en salbuespen-izaera hori: cf. Simin Palay haus "faucille; quelquefois la faulx. On dit aussi hausse". <ref type="bibr">52</ref> Hemen ez gara sartzen -noizbait egin beharko den arrenf &gt; h hori euskaraz gertatu zen kasu guztietan edota dagoeneko gaskoieraz jazo zen ikertzen; nolanahi ere den, batera zein bestera, aski zait oraingoan "h etimologikoekin" ari garela frogatzeko. <ref type="bibr">Ikus 83. oharra. 53</ref> Ahul bai baina ez aihen, aiher, aihotz, eihar ez oiher ez datoz Peillen (1998)-n, ezta -oker ez banaiz- <ref type="bibr" target="#b48">Coyos (2001)</ref>  Se ha probado (11.7) que h ha nacido en vasco mismo detrás de nasal, lateral y vibrante en numerosos préstamos y compuestos" (FHV, 222) diosku -konposatuetatik kanpo zub. be(r)héz eta berhañ aipatzen ditu-eta baita are "la aspiración mantenía separados ambos miembros [hitz-elkarketan] y este modelo frecuente pudo atraer a sí cierto número de voces introducidas en la lengua en épocas distintas" (FHV, 223). Antzera "es también evidente, como lo demuestran los préstamos y palabras compuestas, que la aspiración se ha desarrollado dentro del vasco mismo, tanto entre vocales en hiato como detrás de n, ñ, l, ll, r y rr" (FHV, 210).</p><p>Hobe genuke, bada, -jateko eta jatorduekin lotuetan bederen-, 59 bigarren osagaietako hori noizbait kategoria lexikoren batean kokatua zela pentsatzea, gero gramatikalizazioz atzizki izatera helduaz; hari &lt; har-i 'tomar, -ado' (gogora Etxepareren haritu), ez bide litzateke desegokiegi. 2. ifini *edun-en konposatu bat dugu, ene ustez, igerri (&lt; *edun-berri) eta ulertu (id) 60 bezala: *edun-heben-i batetik *ew-he <ref type="bibr">(b)</ref>  <ref type="bibr">59</ref> Interesgarria da Mitxelenaren FHV 246-ko 38. oharra atzizki honekin eratutako hitzez, batez ere Schuchardtek latinetiko mailegutzat zituen auhari eta barazkari-z. Alabaina, ez naiz seguru barazkarirentzat baratza/-tze hain "poco satisfactorio" ote den eta beharrezko ote den baratu-tik ("préstamo evidente") abiatu. Gainetik, baratza/-tze ez ote baratu adinako mailegu argi?</p><p>[Orain ikusten dudanez, bigarren argitalpenean zera gehitu zuen ohar honetaz: "12.14, nota 38. Para la relación posible entre barazkari 'almuerzo, comida del mediodía" y baratze, sust. verbal de bara, part. baratu, cf. acaso lat. apparare, parare" (FHV, 533)].</p><p>60 Edu(n)-berri &gt; *ew.erri-tik hiatoa hausteko -g-batekin *ewgerri genukeen bientzat; gero, batak (mendebalago) /eu/ diptongoa u-bezala tratatzen duen bitartean (cf. urten &lt; *eurten), besteak (erdialderago) i-bezala (cf. irten &lt; id eta gogora Lazarragaren nirteanean); azkenik, -i &gt; -tu berrikuntza morfologiko ohikoaz landa, -g-&gt; -r-genuke, sorotsi-n (&lt; so-egotzi) bezala, hemen aldameneko dardarkariaren eraginak fenomenoaren erraztasuna areagotzen zuelarik. dik datorren alfer-en aldaera ugarion artean den erlazioa, bereziki itxuraz hizkera batzuek *VV.VC &gt; VV.hVC eta VV.VC &gt; VV.gVC beste batzuek edo zenbaitek (gehie nek) wh &gt; f egitea (baina -l-ondotik) eta beste batzuek wh gordetzea, goian ( §VI) ikusi ditugun afari, nafar, ifini eta bestetan -are euskalki horietan bertan-ikusitakoaren aurka.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VIII. Amaitzeko</head><p>Aurreko orrialdeotan zenbait ikertzailek euskal fonologiaren eta lexikoaren birreraiketan eman izan dion baino /h/-ak garrantzi larriagoa duela erakusten saiatu naiz, Lakarra (2008c)-n hasitako bidetik. Bestela esan, "h ez-etimologikoak" uste edo esan baino gutxiago direla eta, seguruenik, diren horiek ere, zuzenean edo zeharka, bokalarteko -n-&gt; -h-bilakabide zahar eta zabalari lotuak sortu zirela azken finean.</p><p>Aurreko lan horretan erakutsi genuen hitz hasierako h-erantsi horietarik asko erabat etimologikoak direla beren sorreraz (-n-&gt; -h-), nahiz eta ezkerrerantz mugitu dituen erregelak Mitxelena eta gainerakoak desbideratu horren ikerketan, "arrazoi segmentalik" gabe erantsitzat emanaz soilik tokialdatuak zirenak izatez. <ref type="bibr">79</ref> Oraingoan batez ere hitz barneko /h/ gutxi batzuez aritu naiz, -ez C+h taldeez edota leherkari hasperendunez, demagun-, fan ta farre-ren garapenean den (ia) hasierako h-ez ( §VI) eta hire/eure bikotean Mitxelenak faltan boteaz ( §III) ere jardun dudan arren. 80 Uste dut hainbat arrazoi bildu direla /h/ bestelako (ez "gainerako") kontsonante epentetikoekin -bereziki /-g-/-rekin-berdintzearen aurka ( §IV), dela bataren eta bestearen fonotaktikari, dela kronologia eta geografia hedadurari dagozkienak; orobat, -VihV-hots segidetan Fonética histórica vasca-n agertutako susmoaren aurka, ez -h-baizik eta -i-dela sortu eta hedatu dena baieztatu ahal izan dugu, Mitxelenak (zein enparatuek) ez bezala, ondorio hori laguntzen duen zenbait etimologia bildu ahal izan dugularik ( §V); §VI-n Hualdek proposatu /f/ &lt; w.h bilakaerak beste zenbait /-h-/-ren balio etimologikoa indartzeko duen interesa erakutsi nahi izan dut, hark erabilitako Mitxelenaren etimologiak harago eramanaz eta berriak eran tsiaz; §VII-n, azkenik, auhen zergatik ez den **afen bilakatu azaltzen dugu (cf. auha ri &gt; afari) eta baita alfer-ekin batera zergatik auher eta auger ere aurkitzen dugun: Hualderen hipotesia indartua agertzen da, batetik, eta -w.h-taldearen kronologia ikertzearen beharra, bestetik.</p><p>Egia esan, /h/-aren balio etimologikoaren auziaren zergatia -horren aurkako jarre ra, alegia-inoiz baino ilunago eta ahulagoa begitantzen zait, are lan honetan ekarri ahal izan diren aldeko etimologien bidezko froga positibo eskas edo ugariagoak kontuan hartu baino lehen ere. 81 Bildu ditudan adabakiek bata bestea sendotzen dute /h/-aren balio horri eusterakoan, baina artean ere bazen kontrako dosierrean hainbat pitzadura larri, haren pisua erabat arintzen zutenak: zen beste fonemaren baten (/d/, /r/) jarraitzaile direla. Horrela jokatzea iruditzen zait modu bakarra aspaldiko alomorfia eta hitz-familia erlazio atzen duak eta denborak ilundu dituen aldaketa fonetikoak gehi horien kronologiak berres ku ra tze ko.</p><p>Izan ere Trasken §I.eko hitzei aldaketa txiki baina erabatekoarekin "With just a tiny handful of possible exceptions, the Basque aspiration IS etymological" esan ahal ko genuke, bide hori emankor gertatzen zaigun neurrian euskal fonologia, morfologia eta lexikoaren ikerketan. Kontrako bidea -pentsatzea arrazoi ez-segmentalengatik (morfologikoak nahiz bestelakoak) sortu eta hedatu direla hitz barneko /h/-ak (guztiak, gehienak nahiz zaharre nak)-fal tsua eta antzua da euskararen historia nahiz historiaurrea birreraikitzerakotan. <ref type="bibr" target="#b37">84</ref> Besteren baterako nahi nuke zerbait esan dardarkariz amaitutako erroek hitz eraketan hartzen duten -h ezagunaz edo -h-horrek konposaketa zaharrean (hots, osagai monosilaboen gainean eratuan) CVC-hVC ereduek izan zezaketen garrantziaz, etab. <ref type="bibr" target="#b40">85</ref> Alabaina, nago bakoitzean premiazkoago bihurtzen dena zera dela, Benvenistek konparatista ororen egiteko nagusitzat ezarri kronologiari heltzea, hain zuzen. <ref type="bibr" target="#b41">86</ref> </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>ren) eta baduke emendakin eta zuzenketa beharrik. Urrikal bekio Beñati asmoaren ona.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>(2007b), (2008d) eta (2009a); Lakarra (2009c) eta (prestatzen-1/4) lanetan etorkizunean garatu nahi genukeen zenbait gaitarako. Etimologiaren balioaz eta beharraz hizkuntzalaritza historikoan Watkins (1990), Lakarra (2008a)-n aipatua.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>Hots, bai -VihV-(leihor, eihar) eta bai -VgV-(legor, igar) dugun arren, ez dirudi -VigV-dugunik (**leigor, **leigar). 39 Ez ote bai bata (-i-) eta bai bestea (-g-) erantsiak direlako, ez morfemarenak berarenak? Honenbestez, aski argi iruditzen zait, bai distribuzio geografikoarengatik, bai beren balio etimologikoarengatik, oso jatorri diferentekoak eta are diakronikoki eta kronologikoki bateraezinak direla /h/ eta /g/. Labur esanik, 1) -VhV-&gt; -VøV-xiv. mendeaz geroz Hegoaldean (nahiz -VCV-&gt; -VøV-Euskal Herri osoan) 40 eta 2) -VøV-&gt; -VgV-horietako batzutan, nahiz Ipar, nahiz Hego. Ez da, ordea, -VøV-&gt; -VhV-erregalarik ez batean ez bestean, konposizioan izan litekeen larrehederra eta beste bakarren batez landa.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>79 /h/-aren ezkerreratzearen -eta -n-, -r-(&gt; -R-) eskubiratzearen-bitartez erro zahar monosilabikoen forma kanonikoa erabat aldatzen da, bisilabo eta trisilaboak sortuaz, barneko morfema etenak hautsiz eta forma modernoak bestelako tamaina eta itxura hartuaz: lehenagoko gramatikako morfema horiek desfuntzionalizatu, higatu eta fosildu egiten dira, erro berri (usuenik zabalagoek) bere barnean hartuaz: cf. *e-da-din-o &gt; jaio, *e-lin-o &gt; herio, etab. Ondorioz, esanahiaren lexikalizazioa eta kategoria aldaketak datoz, hortik lehenagoko hitz-familiak hausten eta desagertzen direlarik (ikus Lakarra 2009b). 80 Bidenabar, harotz/arrotz eta herio/jario bikoteetako ezberdintasunaz ikus §II-ren akabuan. 81 Contra factum non valet argumentum, argudioak onak direnean, noski. Ez dut ezagutzen ez onik ez txarrik, ordea, aurkako hurbilketaren alde.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Besterik da lan horretan proposatzen diren forma kanonikoaren (erro monosilabikoaren eta bisilabikoaren) kronologia absolutoak (eta horiei lotu periodizazioak) -ez erlatiboak-bere hartan onar tzea. Lakarra (2009b)-n defendatu dut erro bisilabismoa ez akitaniera edo aitzineuskara modernoaren kontua, baizik eta erdiaroko euskararena dela, azken "mende ilunetako" konposaketa eta eratorpenak (eta mailegaketa eta fonosinbolismo ugariak) sortua. Mitxelenaren bisilabismo orokortua (cf. 1977b edo 1979) geroztikoa baino ezin izan liteke. Honetan ez nator bat Martinez Areta (2008) eta (2009)-rekin. &lt; honore, ahate &lt; anate, seni &gt; sehi eta gainerako hainbaten aurrean ez zen erraz -n-&gt; -h-ukatzea, nahiz eta Schuchardtek eta bestek gauzak nahasteko borondate eta trebezia handia agertu. 10</figDesc><table><row><cell>dira, zalantzarik</cell></row><row><cell>gabe, hasperenaren inguruan euskal fonologia diakronikora aurrerapen handienak eka-</cell></row><row><cell>rri dituztenak. 2002ekoan gainerakoetan legez ikuskera tipologiko sendo batetik abia-</cell></row><row><cell>tuaz, hasperenaren distribuzio eta bilakabidea erroaren monosilabikotasunetik polisi-</cell></row><row><cell>labikotasunerako ibilbidearekin lotu zuen. Horrenbestez, hasperenaren distribuzioak</cell></row><row><cell>logika berri bat hartzeaz landa -zergatik, esaterako, hil, hotz, herri baina ilhotz edo il-</cell></row><row><cell>herri?-garatzen hasia zen erro teoria eta forma kanonikoaren azterketari bultzada na-</cell></row><row><cell>barmena eman zion. 7</cell></row><row><cell>Arestiko beste lan batean (2008a) Igartuak 8 Mitxelenak eta ondokoek barne-xi-</cell></row><row><cell>miko handirik gabe generabilen -n-&gt; -h-bilakabidearen zilegitasuna erakutsi du</cell></row><row><cell>euskal fonologia diakronikorako tipologiaren aldetik egin zitekeen modurik egokie-</cell></row><row><cell>nean, hots, prozesuaren une eta zertzelada ezberdinetarako beste hizkuntza hurbil</cell></row><row><cell>edo urrutikoetarik paralelismoak bilduaz eta bilakabide osoaren logika ezarriaz. 9 Ho-</cell></row><row><cell>nenbestez, ez da gehiago kontraesanik euskararen azterketa segmental hutsak esaten</cell></row><row><cell>zigunaren eta beste hizkuntza batzuenak eskatzen omen zigunaren artean; egia esan,</cell></row></table><note>78 Badu 2008ko beste bat (Iruñeko Euskaltzaindiaren XVI. Biltzarrean aurkeztutako komunikazioa, inprimategian) zeinetan euskararen eta Pirineoetako hizkuntzetako hasperenen arteko (sustrato) erla- zioak aztertzen dituen.9 Horren eranskin batean (Igartua 2008b) gehitzen ditu sundarenaz, indiz eta kinwaryanderaz diren beste zenbait. Ez da esan nahi arazorik ez dela falta, kasurako hemen ere argitzen ez diren hebain, higuin (cf. §VII auhen) eta an tze koak, zeinetan dirudien (herio [*-n-&gt; h-] eta artzain [*-n-&gt; -n] bezalakoen aurka) -n-batek bi ordain dituela aldi berean: h-eta -n.ohore</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>neure/ama, [sic] ro/man ilta cis/tiana, (15912) neure ata/gau ilta/ neure am[ , (15925) neu xii ur/neure am[ , (16363) ne[u] elosi ta neure ama mirto ta eta (16365) neure ata arai na arrapa bezalako Aresti-Linschmann legearen kontrako eta ondoko esaldi "altubetarragoak" (cf. Sarasola 1980). Gehi bekizkie, orobat, (15920) neu xii/urt[e] tu, [sic] iii/reba tu edo (16365) neu laike na, [sic] xi urte tu eder askoak.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>Gratiliano Nieto arkeologoak Iruña-Veleian aurkitutako zenbait pieza desagertu omen da; horietako batek &lt;seni-&gt;/&lt;sehi-&gt; irakurketa zekarren dirudienez. Aldiz, hor zehar inoiz han aurkitutakotzat aipatu izan den &lt;**illuna&gt; eta -a artikuluaren beste lekukotasun zahar bat litzatekeena Fitaren asmazio bat da, &lt;]una&gt; bat "osatuaz".Extremadurako ibarra isolatuari ere Maria Lourdes Albertosek atera nahi izan zion etekinik (ez, aldiz, Mitxelenak baina ez ezagutzen ez zuelako); onomastika ikerketa modernoetan nekez inork egingo luke baieztapenik horren "euskaltasunaz" eta hortik atera ahal diren euskararen bilakabidearekiko ondorioez, deitura hori inongo sare segurutan sartzen ez delarik (ez da horrelakorik Akitanian eta ezta Euskal Herrian ere, bostpasei mendetan gutxienez). Kontua da, gainera, &lt;f. barra&gt; irakurtzen duenik ere badela eta, horre la izanik, hortik -a artikulu baten aldeko lekukotasuna ateratzeko saioak ahulak ez ezik barre garri ere bilakatuko liratekeela; iria (Flavia) eto tichia-z ez aipatzea hobe. [Bidebatez, azken Veleia-n bada Delamarre-ren artikulu bat iria-z non ez den ezertarako euskal artikulurik aipatzen].Gogoratu beharko ote da EEBBetako Uribe deitura guztiak ez direla euskal jatorrikoak eta, hurbilago, badela hor zehar Barcelona &lt; * bart-ze-lo-ona azalpen polit askoa onartzen ez duenik ere? 20 Horrela nahi du Hector Iglesias doktore jaunak(FLV 32, 2000)  &lt;gudua deisdea&gt; zaharrarekin (berak &lt;*guduate(r)itztea&gt; [&lt; guduak (pl.) eriztea 'aimer les combats']) irakurtzea proposatzen du); pena da arrazoiren batengatik iberieraz arduratzen direnek oro Jurgen Untermannen irakurketa (&lt;kutur oisor&gt;) hobestea azken berrogei urteotan; ikusLakarra (2008a). Gudu-z ik. 58. oh.21  Ezaguna denez, euskaraz ez da /h/-rik morfema lotuetan, ez deklinabideari ez aditz-jokoari dagozkien ugarietan (inperatiboaz landa, noski); gertakari honek erakusle &gt; artikulu bilakaeraz eta azentuerarenaz duen garrantziaz ikusManterola (2008).</figDesc><table><row><cell>,</cell></row><row><cell>(2008b) eta Lakarra (2008e).</cell></row><row><cell>Zorigaitzez,</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>). Gero ere Company eta besteren lanek erakutsi dute Erdiaroko lehen mendeetan gaztelerazko artikulua oso urrun zela gaztelera klasikoan edo modernoan izan zuen hedaduratik... batez ere Julen Manterolak gogoratzen didan legez, ur edo su bezalako izen zenbakaitzekin; ideia bat egiteko toponimian ezagun den Erdiaro akabuko artikuluaren gorakadara jo beharrik ez dugu horrelakoen zantzurik gure lekukotasun urrietan antzemateko. Hara xii. mendearen hasieran Aymeric Picaud-ena: Deum uocant Urcia, Dei genitricem Andrea Maria, panem ogui, uinum ardum, carnem aragui, piscem araign, domum echea, dominim domus iaona, dominam andrea, ecclesiam elicera, presbiterum belaterra, quod interpretatur pulchra terra, tricticum gari, aquam uric, regem erreguia, sanctum Iacobum Iaona domne Iacue... (TAV, 50). 22 Hots, -a gabe ditugu xii. mendean ogi, ardo, aragi, arrain, gari, ur, konta-ezinak edo definitu gabeak direlako; artikuluarekin, urtzia, andrea, jauna, etxea, belaterra, erregea, eta beharbada elizara, definituak, mugatuak eta bakarrak, alegia... arrain, lurra, sua, ura, izana eta polita zortzi-bederatzi mende lehenago Veleian "lekukotu" arren.Dakigunez (cf. ilhotz, ilherri, etab.) *h...h hurrenkerak ø...h bilakatu izan dira euskararen historian, oraindik zehazgabe den garairen batean; 23 honenbestez, *hihaur-e batek *ihaure behar zuen eman, goikoen antzera. Kontua da guk ez *ihaure baizik eta eure behar dugula azaldu; baina aurreko ahapaldian hirugarren graduko erakusle &gt; artikulu bilakabidean ikusia gogoan hartuaz, ez da askorik behar duguna: gogora bedi ez dela soilik bigarren gradukoa (eure) -h falta duen bakarra; guztiek (neure, geure, zeure) dute falta eta, beraz, guztientzat balio duen azalpena behar genuke. Hots, *ni-haur-e, *i-haur-e (&lt;*hi-haur-e), *gu-haur-e, *zu-haur-e &gt; neure, eure, geure, zeure, baina hi + -re &gt; hire, inongo Grassmann legek ez gramatikalizazio-higadurak ukitu gabe, /h/ bakarra -eta erroan-izaki.</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>11.15.A h intervocálica o entre diptongo y vocal de los dialectos septentrionales corresponde muchas veces cero en los españoles. Muy frecuentemente, sin embargo, la correspondencia es h : g o r, que por disimilación puede pasar a l : v.-fr. beharri 'oreja, oído', a.nav. guip. vizc. belarri &lt; *berarri, cf. v.-fr. beha, ronc. béa, sal. bea  'atender, escuchar'; con h de *n, vizc. arabi 'arándano', agate, arata 'pato', mer. segi  'niño'.   De aquí las correspondientes [¿correspondencias?] -g-: -g-y -h-: -(g)-en com. begi 'ojo', egun 'día', nagi 'perezoso', ago 'estás', agur 'adiós', pero v.-fr. behi 'vaca',  ehun 'cien', nahi 'voluntad, deseo', aho 'boca', ahur 'hueco de la mano', v.-esp. bei,  e(g)un, nai, a(g)o, a(g)ur (221). 27 Aspalditik dator eta Schuchardtek sortu ez bazuen berak zabaldu zuen etimologia eta konparaketan hain ondorio gaiztoak izan dituen ustekizuna. 28 Orain arte genekiena aski zen esateko ezin dela bokal arteko /h/ horietarik bakar bat ere -dela -h-: -ø-, dela -h-: -g-alternantzietakoa-segurtasunaz hiato-hausle bezala sailka eta ezta /g/ eta gainerakoekin berdindu. 29 Legun: Hitz hau okzitanierazko teun(e)-tik datorrelarik (cf. FHV, 372 eta lehe na go Corominas), bokalarteko belare horrek ez du jatorrian inongo kiderik eta eusbigun : finu &gt; *binu &gt; *bi.un &gt; bigun (cf. Lakarra 2009b). ezagun : *e-da-zun &gt; *ezadun &gt; eza.un &gt; ezagun (cf. Lakarra 2009a). bellegi : *behi + ledi (cf. ur-din) &gt; *bei-ledi &gt; *bellei &gt; bellegi (cf. Lakarra prest.-1). -garren. Ordinaletan, ezagun denez, **batgarren ezinezkoa da (ez ho gei ta bat-Bestalde, badira pare bat xehetasun honi lotu beharrekoak: zergatik dugu igerri eta egarri baina ez **iherri eta **eharri (ezta goikoetan **lehun, **nahusi, **jahon [bai johan &lt; *e-danon], **bihun, **ahin [barneko /h/-ak aurrekoa disimilatuaz, cf. ilherri, ilhar gi], **biharren...)? 31 -gg-horiek berezkoak direlako, betidanikoak edota aitzi neuska raz koak, bederen? Orduan, gure hurbilketa kanoniko monosilabikoaren barnean, i-eta e-aurrizkiak beharko dira azaldu batetik, eta *ger, *gar erroak bestetik. Kontua 28 Ikus Mitxelenak (1950a) Boudari bokal geminazioaz emandako egurra; /h/ tartekatzearena inoiz gertatu ez den bilakabide horren bidelagun da, jakina. hori egokiro egitea garesti dela, lehendik ere ezagutzen ditugun *ger(cf. puzker,  muker, oker, aker... in Lakarra 2002b)  eta *gar 'sua' erro horiek zerikusi gutxi baitute igerri eta egarrirekin. Iruditzen zait merkeago dela ez erro eta ez aurriz ki, *edu(n)-berri eta *eda(n)-larri-tik abiatuz, hortik hiato bana sortzean, horiek hausteko -gg-horiek sartzea, dagoeneko aipatu jagon, nagusi eta gainerakoak bezala; cf.Lakarra (2010).Ahul. Aldiz, tartekatutako bokalarteko -h-ak ez dira ugari: har dezagun, esaterako, hau. Mitxelenak "préstamo en que el diptongo es reciente: cf. cast. ant. ávol, e incluso guip. vizc. abol, arol" (FHV, 94) diosku l aurrean gordetako maileguez ari delarik eta Corominasen avol sarrerara bidaltzen gaitu; horrenbestez, aCol &gt; *a.ol &gt; aul (eta ahul, ahül) ulertu behar dugula dirudi. OEH, s.u.) Veleian hain esaldi gutxitan pare bat aldiz agertzen den egitura hori (oso + X) ez omen da xviii. mendera arte lekukotzen benetako euskal testuetan... baina zehaztasun horiei kasu egingo bagenie beharbada inoiz ez genuke ezer aurreratuko; ikusLakarra (2008e).</figDesc><table /><note>karaz -eta berandu gainera-erantsia behar. Nagusi eta jagon altxor zaharre- koei dagokienez ere, erakutsi dut (cf. Lakarra 2007a) -g-horiek baino lehen hiatoa, eta hori baino lehen -d-kontsonante ahostun eror korrak zirela: na.u.si hiru silabakoa da oraindik Etxeberri Ziburukoren testuetan FHV-n markatu legez; jagon/jabon &lt; *edadon-etik dator. Aditz honetan eta beste zenbaite- tan (cf. joan &lt;*e-da-don, urgatzi &lt; *e-da-ra-gotz-i) usuko den [o -a] &gt; [a -o] metatesiarekin -baina -g-txertatu gabe-unai genuke: *e-da-don-i &gt; *edo- dani &gt; *eoda ni &gt; *eunani (asimilazioarekin, cf. Lakarra prest.-1) &gt; *unai(n). Orain legun-en kide diren beste hainbat kasu gehiago aipa litezke (cf. Lakarra prest.-1, prest.-4); hasteko hagin edo bigun bezala maileguen artean, baina baita eza- gun, bellegi zein -garren jatorrizkoetan ere: hagin : caninu &gt; *aninu &gt; *ani.un &gt; *a.hi.un &gt; *ha.iun &gt; *ha.in &gt; hagin; /g/ tarte- katu ez balitz lehen eta bigarren silabetako bokalen hiatoan diptongoa sortuko zen bigarrenean eta hirugarrenean bezala (**hain); ikus Lakarra (2009b).30garren, jakina); bestalde, bada zortzi egun barru eta denbora adierazteko esa- pi dea, baina horretan ere **egun bat barru falta da. Itxura guztien arabera, ordinaletako atzizkia *-barren batetik dator: *-barren &gt; -øarren (bokalar- tean) &gt; -garren, hiatoak hausteko kontsonantea tartekatuaz; cf. Murubarren/ Muruarren/Murugarren, etab.29 /g/ eta enparatuen artean ere badira bereizkuntzak gure gaurko jardunetik kanpo utzi arren.30 Cf. FHV 123; hor esaten denez, bada bestelako emaitzarik baina forma berankorragoen artean. [Ander Egurceguik gogoratzen didan bezala, agian hobesteko litzakete *aninu &gt; *ahîhû &gt; *a.îhû &gt; *ha.in &gt; hagin, Lakarra (2008c)-n proposatu bezala].31 Arrazoi ezagunengatik, h bigarren silabaren hasieran luketenak aipatzen ditut, soilik, ez **ezahun, **bellehi, etab.daCorominasek "avol 'vil, ruin', del cat. u oc. ant. àvol id, de origen incierto, probablemente del lat. habilis 'apto'" dakar, eta baita Spitzer-ekin 'apto' &gt; 'há- bil, mañoso' &gt; 'avieso' esanahi bilakaera eman dela ere. Azkenik, Mitxelenak BAP-en aipatu abo, arol, txaul "explicables todas con la etimología de Spitzer" direla diosku FHV-ren bigarren argitalpenean. Alabaina, forma guztiak azaltzeko avol aukera exkaxa da alde askotatik: bate- tik, esanahia urruti da euskaraz nagusi denetik eta, bestetik, iparraldeko eus- kalkietan -h-gehituko lukeen bilakabide horrek egiantz gutxi du, Mitxelenak berak hainbatetan erakutsi bezala (nahiz eta oraingoan kontuan ez izan, diru- dienez). Askozaz egokiago dugu Simin Palay-k da karren "afoulà, v. -blesser, endommager", "afoulat, -lade, s.-blessure", bai esanahiari dagokionez, baita /f/ &gt; /h/-ren bitartez, formari dagokionez ere. Lagun. Lehen ere altxor zaharrekotzat genuen, noski, 32 baina zer esan orain Ve- leiako "euskalki zahar" berri hortan agertu delarik horren pare bat adibide, batak OSO bat eta guzti aurretik duelarik? 33 Ederki; goragoko ahapaldietan -g-zenbaiti buruz ikusia edota lagun-en semantika zaharraz (atzo-goizera arte- koaz, hobe) 34 ezer ez bageneki ere -'kide', 'pertsona', 'inguruko', etab., baina ez 'adiskide'-, 35 merezi luke -g-horretaz geure buruari galderaren bat egitea:32 Agud eta Tovarrek (s.u.) soilik urrutiko hizkuntzekin egindako interesik gabeko erkaketak bil- tzen dituzte baina ez mailegutza proposamenik.33 Dirudienez (cf.34 Gaurdaino erdi-ekialdeko euskalkietan eta xix. mendera arte edo Bizkai aldean.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>se gu ru tzat emanaz. Honainokoa aski litzateke saihets ez zedin -ViV-&gt; -VihV-gisa azaldu ahal; okerrago edo argiago da, ordea, bigarren zatiari dagokiona, hor -hets horrek h-berezkoa baitu hertsi, estu, itxi-ren familiakoa delarik, 42 eta baita, beraz, heste, estari, etabarrena ere, aurreko batean aldarrikatu bezala. Aurrizki horren analisiak sendo eta emankor dirudienez egungo egunean ere (geroztik sabai &lt; *sa-ban-i ere gehitu ahal zaio, gutxienez) eta Mitxelenaren formulazioak zirrikituren bat irekita uzten zuelarik, "neurean" iraun dut, Mitxelenaren susmoei zor zaien begiruneak zalantzaren bat sor tuarren noiz edo behin. Hara ondoren saihets-en zenbait kide: Se ha sostenido, así por G. Bähr Baskisch und Iberisch 37, que aiher vale en toponimia por 'inclinación, pendiente' en sentido físico: Ayerbe "unter dem Hang", etc. v. aiherkunde con un ej. de Eguzk[itza]" dio hiztegi berak, s.u. behe ra go, eta igarri sarreraren pean "Etim. Posiblemente emparentado con el or. ai(h)er", besterik gabe, hots, Mitxelenaren inongo lani erreferentziarik egin gabe, ohi dutenaren aurka. 43 41 Ezta beranduagoko lanetan ere, cf. Arbelaiz (1978)-ri kasu egiten badiogu, bederen. Gogora lehen oharrean aipatu bere hitzak /h/-dun berben etimologia ez ezagutzearen ondorioez. Ikus 49. oharra fenomenoaren azalpen alternatiboaren paralelo baterako.</figDesc><table><row><cell>aiher: OEH-k, s.u., "1. Intentar, desear, tener afición, inclinarse (a)", "2. [dati-</cell></row><row><cell>boarekin] Aborrecer, odiar, desear mal" eta "3. Dudar, sospechar" dela esaten</cell></row><row><cell>du eta, hori bezain interesgarri izan litekeena, "(B, L, BN, Sal, S ap. A), hots,</cell></row><row><cell>Iparral de ko euskalkietan -segurtasun handirik gabe zubereraz-eta horien</cell></row><row><cell>Hegoaldeko bi buztanetan, Baztan eta Zaraitzun (baina ez Erronkarin). Hots,</cell></row><row><cell>ez du lekukotasunik bizkaieraz, gipuzkeraz eta goinafarreraz eta ohar zubereraz</cell></row><row><cell>esandakoari.</cell></row><row><cell>"Etim.</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>da gehitua eta, gainera, inongo euskarri segmentalik gabe izan ere, aiher eta oiher-en kasuetan ez bezala. deihadar. Mitxelenak dei + adar (konposaketako -h-erantsiarekin, cf. on-herran, zin-hetsi, etab.) azaltzen duen arren, esango nuke ez dela hori bere jatorria, hots, ez dela hor ez dei eta ez adar-ik eta herri-etimologiak edo gurutzaketaren batek eman diola duen itxura. OEH-n begiratzen badugu, ia bakarrik 'zarata, oihu' gisa erabili izan dela ohartzen gara eta, aldiz, zaharrago izan behar lukeen 'deitzeko tresna' atzo goizekoa baino ez dela, soilik Orixek eta gero haren miresle Berron dok erabilia. Bada OEH-n gauza jakingarri gehiago hitz honen inguruan: batetik "de empleo general, si bien es mucho más corriente al Sur que al Norte y no se documenta en la tradición suletina (salvo Eguiateguy)" diosku; bestetik, Iparral de ko egile gehie nek -h-gabe baliatzen dute Goihetxez geroztik eta, forma hori (deiadar) den arren xx. mendeko Hegoaldeko egileren batena ere, giputxek ia salbuespenik gabe eta bizkaitarrek ere orokorrean deadar/diadar darabilte, inoiz dedar/didar-eraino iritsiaz. Ene ustez, tonare eta tonitrua-ren ondokoa dugu hemen: Corominasek dioskunez, trueno eta tronada-ren -r-hori eskubitatik etorria dugu; tronada-tik Etxeberri Ziburukok oraindik gordetzen duen dehadar-era ez da dagoeneko ikusia 47 Cf. agiri &gt; ageri, goragoko ohar batean gogoratua, edota bir-&gt; ber-; nolanahi ere, ez bide da ezinezko *borne-tik abiatzea eta ez borni-tik.</figDesc><table><row><cell>" eta iger "(V)".</cell></row><row><cell>Formari dagokionez, aurreko aiher eta oiher-ekin ez bezala, hemen badira -g-</cell></row><row><cell>aldaerak (igar, iger) baina ez Iparraldeko eihar-en pareko litzatekeen **eigar-</cell></row><row><cell>(ik.  §VIII); horren bes tez, aski modernoak izan behar dute, -ei-&gt; -i-eman eta</cell></row><row><cell>gerokoak, bestela Erronkariko e(i)xar-ik ez GN-Zaraitzuko ear-ik ez baike-</cell></row><row><cell>nukeen. Iparral dean (eta aipatutako Hegoaldeko eranskinetan) eihar zaharrago</cell></row><row><cell>da ihar baino ezinbestean -*ei &gt; i bai, baina ez dugu kontrakorik-, nahiz</cell></row><row><cell>eta -h-horrek ere ez dirudien berri-berria, zalantzarik gabe -g-baino askozaz</cell></row><row><cell>zaharra goa, bederen.</cell></row><row><cell>Euskararen barnean azalpenik ez eta mailegaketa bitartekoaren bila joanez, cre-</cell></row><row><cell>mare-tik abiatzen bagara *kerma &gt; *erma &gt; *erna &gt; *enar &gt; *ehar genuke eta,</cell></row><row><cell>beraz, berriro ere -i-</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>Areago dena, iruditzen zait aurreko ondorioa testatu eta sendotu genezakeela "esperimentu" txiki batez: atal honetako lehen aipuko iruzkinean Mitxelenak aiher, eihar eta gainerakoekin bildu zituen aihen eta aihotz, horietan ere -h-, ez jatorrizkoa edo jatorrizko segmenturen bilakabide, baizik eta 48 Lakarra (prest.-5)-en ukitu beharko dugu gai hau Mitxelenak larre-hederra eta beste "konposizioko h"rekin lotzen baitu (FHV, 211). Bestalde, zergatik ez ote **kehadar edo enparatukorik adar-ekin osatutako konposatuen artean? Baina khedar eta bere aldaerak (kelder, etab.) ere adar-etik ote datoz? 49 Burura datorkidan lehen paraleloa haundi &lt; handi-rena da, dakigunez Gipuzkoa aldean sortua, VWR-&gt; VR-(aulki &gt; alki, aurpegi &gt; arpegi, etab.) erregelaren eremuan, alegia. Baliteke -VhV-&gt; -VihVbilakabidea hitz eraketan lehen osagaiaren amaian den -i &gt; -ø ia orokorrarekin (bai ogi &gt; ot-, etab., baita hibai-eta &gt; Ibaeta) lotua izatea; zabalago aztertuko dut gaia Lakarra (prest.-5)-en.gehi tua dela proposatuaz. Alabaina, ez ote dira bata zein bestea gure aurreko ahapaldiotako analisi berean ka bi tzen? Ez da gauza interesgarri askorik horiezaz Agud eta Tovarren hiztegian; 50 alabaina -i-gabeko aldaeretarik (*ahen, *ahotz) abiatuaz Simin Palayrenean hén, héng 'foin', afenà 'affourrager, donner du foin, du fourrage', houssé, -re 'houe, hoyau, pioche', houssejà 'houer, piocher', houssejade 'piochage; temps de piochage; terre houée', houssère 'pioche, hoyau dont la lame est plus large que celle du houssé', housserine 'petit hoyau' eta besteren batzuk aurki ditzakegu. 51</figDesc><table><row><cell>"Errespuestea ezta gaizto" esan beharko Gamizekin: Mitxelenak (ik.  § I) f &gt; h</cell></row><row><cell>erregelaren bitartez azaldu zituen maileguei gehitzeko beste bi ale ditugu (hiru, goiko</cell></row><row><cell>ahul-ekin), beraz; 52 horrekin batera, beste bi -i-erantsi -VihV-egituretan eta *h 2 &gt; h 1 Axularren haiotz-ean. 53</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>En compuestos hay h tras diptongo en final del primer miembro cuando éste tiene sólo una sílaba:Leiç. gauherdi, sul. gaihérdi 'medianoche' (com. aldi 'tiempo, vez'),  lab. de(i)hadar 'grito, clamor' (com. adar 'cuerno'). Esto no parece ocurrir, sin em-57 Berak alfer ere badakar, nahiz eta "(&lt; errom. ?)" bat erantsi; ikus §VII. 58 Cadu-tik seguru asko, ik. Ernout-Meillet s.u. cado eta caedo, honen kausatiboa. -du bukaera du, bidebatez, gudu-k ere (ik. 20. oh.); honentzat cf. cudo hiztegi berean, "battre les grains, le metal..." eta ikus s.u. OEH-n. Esango nuke oso diptongo zahar gutxi (hots, AEZ-erako onartu beharrekoak) gel ditzen direla, are azaltzen zailen diren monosilaboetan euretan ere (haur, hauR...); ik.. Gainetik, gau monosilabo autonomoetan historikoki ohiko den CVC forma kanonikotik urruti dugu, bai diptongoagatik, baita -C faltagatik ere. bargo, fuera de la composición: com. maiatz 'mayo', sul. maiastü'(r)ü 'carpintero' (FHV, 211 [oharrean aieru gehitzen du]).</figDesc><table><row><cell>Puntu honetan hasten da Hualderen (1997) ekarria: maileguen egokitzapenean</cell></row><row><cell>jazotzen diren aldaera eta txandaketak ulertzeko zenbait hizkeratan [f] duten euskal</cell></row><row><cell>jatorrizko hitz urriak (afari, farre, nafar, ifar, ifiñi) biltzen ditu, 57 horietan [f]-aren ja-</cell></row><row><cell>torria zein izango ote zen galdetuaz:</cell></row><row><cell>Hitz hauetan zein da [f]-aren iturria? Mitxelenaren ustez, lehendabizi zerrendatu-</cell></row><row><cell>tako hitzaren kasuan aldaerarik zaharrena *au-hari da. Nire ustez etimologia hau zu-</cell></row><row><cell>zena da eta [f]-aren iturria zein den argitzen du. Emandako adibideen forma zaharrak</cell></row><row><cell>bezala [awhari], [awher], *[nawhar], *[iwhar], *[ewhini], etab., proposa ditzakegu, edo</cell></row><row><cell>agian *[aβhari], *[aβher], *[naβhar], etab. Hau da, [f] modernoa [wh] ~ [βh] soinu-</cell></row><row><cell>tik etorriko litzateke. Hasperenketa hurbilkari ezpainkari baten ondoren zegoenean [f]</cell></row><row><cell>sortu da zenbait hizkeratan. Duela guttiago [f]-aren ordez edo ondoan [p] soinua sortu</cell></row><row><cell>da. Hasperenketa [wh] ~ [βh] &gt; [f] bilakaera baino lehenago galdu bazen, [aβari], etab.,</cell></row><row><cell>izango ditugu (Hualde 1997: 422-423).</cell></row><row><cell>Pena da, nire ustez, hitz hauen etimologiak argitzeko orduan Hualdek ez urrats</cell></row><row><cell>bat ere aitzinatzea Mitxelenak dagoeneko FHV-n esandako urriaz eta, horrenbestez,</cell></row><row><cell>ez ateratzea hortik jalgi zitezkeen hainbat ondorio. Izan ere, ez *[awhari], *[awher],</cell></row><row><cell>*[nawhar], *[iwhar], *[ewhini], ez *[aβhari], *[aβher], *[naβhar], etab., izan litezke</cell></row><row><cell>aztertutako hitzon formarik zaharrenak eta ongi bide letorkiguke atzeraxeago jo-</cell></row><row><cell>tzea, bai [f]-ren sorrera eta kronologiari dagokionez, baita -gure gaurko gaitik hur-</cell></row><row><cell>bilago-Hualdek berak horren sorreraz proposatuaren ondoren, /h/-aren distri-</cell></row><row><cell>buzioaz, sorreraz eta kronologiaz ere:</cell></row><row><cell>1. f &lt; w.h laguntzeko Mitxelenaren afari &lt; gauhari onartzen duelarik,</cell></row><row><cell>a) gau-ko diptongoa aski zaharra da edo afari aski berria, lehenago hor</cell></row><row><cell>*gaCu 58 bazen hari-ko /h/ hirugarren silaban izango baitzatekeen.</cell></row><row><cell>b) Zubererazko gaiherdi eta aihari-n au &gt; ai, w.h &gt; f baino lehen eman bide</cell></row><row><cell>zen, bestela **(g)aferdi baikenukeen. Edo, alderantziz, -w.h-taldea moder-</cell></row><row><cell>noa genuke; cf.  §VII auhen-ez.</cell></row><row><cell>c) janhari, afari/edari, barazkari-k erakusten dute /h/ zaharra dela -*jan-</cell></row><row><cell>hari, *gau-hari/*eda-hari, *baratz-hari-, ez "adventicia"; zaharra bada</cell></row><row><cell>ez dugu -ari latinetikoa iturburu hitz hauetan. Izan ere, janhari eta ho-</cell></row><row><cell>lakoetan erromantzez ere ez dugu -ero ohiko atzizkia (**nochero, **huer-</cell></row><row><cell>tero, etab.) edo ez esanahi horrekin (comedero, bebedero, etab.), bederen.</cell></row><row><cell>Bestalde, Mitxelenak konposaketan bai baina eratorpenean ez du /-h-/-rik</cell></row><row><cell>gehi tzen denik markatzen:</cell></row><row><cell>eta (2006)-n ere.</cell></row><row><cell>54 Lehenik genekienari erants bekio orain CVfV, fVCV, eta beste antzeko erro ereduetako emaitzak</cell></row><row><cell>(urriak etimologia ezezagun eta hondarretan, aberatsak oso mailegu eta fonosinbolismoetan); ikus La-</cell></row><row><cell>karra (2004b), (2006a) nahiz (2009a)-ko taulak.</cell></row><row><cell>55 Gertakari honetan badu garrantzirik aitzineuskaran soilik fonema kontsonantiko ezpainkari</cell></row><row><cell>bakarra (/b/) izanak, beste hirurak (/p/, /f/ eta /m/) falta zirelarik, baina ondoren hots horiek guztiak</cell></row><row><cell>zein bere esparrua beteaz joan direlarik (ikus FHV, 262hh). Inoiz edo behin Mitxelenak aipatu egiten</cell></row><row><cell>badu ere, ikertu gabe dugu oraindik fonosinbolismoak -mailegaketaz landa-izan duen egitekoa hots</cell></row><row><cell>horiek sistema historikoan bertakotzeko.</cell></row><row><cell>56 Hauetan -p-aurkitu ohi da Gipuzkoa eta inguruko lurraldeetan: apari, naparreri, etab.</cell></row></table><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="17">Oharrean "En Dech. (h)eure, Etcheberri de Ciboure normalmente heure. La forma protovasca debió de ser *hi-haur-e, o *hi-hor-e lit. 'de este, ese, tú'. En Dech. 'tú mismo' es hiaur, act. hiaurc,  ihaurc, ihaurorrec" (FHV, 210, 12. oh.). Ez naiz batere seguru eraketa hori aitzineuskarakoa den, aski berankorragoa baizik. Ikus 24. oharra -r formen iraupenaz.18  Bigarren argitalpenean ahapaldi honi erantsia oso interesgarria dugu Mitxelenaren pentsaera zehazte ko: "El texto [lehen argitalpenekoak] parece dar a entender, erróneamente, que el número de los casos de discrepancia respecto a la aspiración es más bien pequeño" (FHV, 525) baina berehalakoan "añado, sin ánimo de ser exhaustivo, algunos otros razonablemente seguros en que son siempre las formas complejas, más largas, las que carecen de h". Ohar bekio lehen edizioko ondokoari ere: "Hay que añadir que, dado lo confuso de la situación moderna, es difícil precisar qué consonantes desaparecidas en posición inicial dejaron como resto una aspiración ni en qué condiciones pudo después perderse ésta. Cabría admitir, para citar una sola posibilidad, que en palabras complejas, al encontrarse la inicial a mayor distancia del acento que en la simple de que procedía su primer elemento, haya desaparecido la aspiración que en éste se conservó: sul. ardai 'yesca', sin duda oxítono, cf. guip. ardagai, lab. hardo (vid. infra, 12.16)" (FHV, 219-220).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="22">Azkaratek eta Altunak (2001: 65) "badirudi izen zenbakaitzak direla artikulurik ez daramatenak" dioskute eta hurrengo orrialdean Marineo de Siculo eta Landucciren bitartez baita "beraz, xvi. menderako guztiz sartua zegoen forma artikuluduna izenak aipatzeko" ere. Seguruenik, xv. mendearen akaburako ere esan liteke beste horrenbeste von Harff-en datu urrien arabera (aragi artikulu gabe datorren arren); alabaina, TAV-en badira xii-xiii. mendeetako zenbait lekukotasun, non gaur egun euskaldun gehie nen tzat agramatikalak liratekeen forma artikulugabekoak biltzen diren, eta xvi-xviii.etako testuetako frango ere badakartzate Azkaratek eta Altunak.23  Garai zehazgabe baina berankorrean: cf. "Es posible que esta limitación -lehen hasperen horren disimilazioa, alegia-no existiera en época más antigua (vid. infra, 20.13). Téngase en cuenta que la disimilación se ha producido aun cuando la segunda aspiración era secundaria y nacida en virtud de 11.7" (FHV, 211); hots, konposatuetan (on-herran, ilhargi...) sortutako hasperenez ari da (honetaz ikus La karra prest.-5-en). Gogoan izan Rejan bi hasperenetako hitzak -zein bere erroan, Igartuak (2002) azaldu legez-ugari direla.-n ikusi genuen *h 2 &gt; h 1 erregela *h -h-&gt; ø -h aurretik izan zela (bestela **hao genuke); aldiz, hibai, ibar, idor, hidoi *hur + CVC batetik atereak izanik (ik. §II-ren akabuan) euskarazko Grassmannen legea (*h -h &gt; ø -h) *h 3 &gt; h 1 baino zaharrago izan behar.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="24">Iparraldeko nihaur, etab. berreginak dira, noski: neu(r) zaharraren lekukotasunak dituzte oraindik Etxeberri Ziburukoak, Axularrek eta ekialdeko hainbat hizkerak (ik. OEH s.u.), eta -r-dun formak (abs. nahiz erg.) ugari ditugu Lazarragaren testuan zehar eta are Peñafloridarenean... Veleian dagoeneko dozena bat mende -Ø izan arren, bi orrialde gorago ikusi bezala. Mitxelenaren azalpenaz geroz (cf. 17. oh.), ez dirudi Kintanaren (FLV 36, 2004) **ene burure eta besterenak beharrezko direnik ["Etimologiari dagokionez, litekeena da lehen pertsonarena, neure, honelako bilakaeratik sortua izatea: *ene burure &gt; (e)ne (b)u(r)ure &gt; ne(u)re, singularreko bigarren pertsonakoa, heure, eta pluraleko lehen eta bigarren pertsonetakoak analogikoak izanik: geure, zeure, zeuen" (590. or.)]. Bidenabar, oso analogia modu bitxia litzateke hau, Kurylowicz eta bestek inoiz deskribatu gabea. 25 "Kontraesan" gehiagoren artean (FLV, 210) hordi/ordi eta hogen/ogen aipatzen dira; ez dirudi ez batean ez bestean h-aren zahartasunaz zalantzarik denik, ezta 18. oharrean aipatu gehienetan ere. 26 Hemen, jakina, soilik bokalarteko hasperenak (edota diptongo -h -bokal segidak) ditugu kontuan, ez leherkari hasperendunak eta ozen + /h/ taldeak. Azken hauetaz eta konposizioan eran tsi ta ko /h/-ez ikus; -ViV-&gt; -VihV-aldaketaz badira zenbait ohar hurrengo atalean.27  Nolanahi ere den, berreraiketarako gaiak duen benetako garrantziaz jabe gaitezen, ezinbestekoa da 5. kapituluaren hasieran Mitxelenak jarritako aitzin-gaztigu hau:No es propio de este lugar, sino más bien de una dialectología vasca, el estudio detenido de las muy diferentes maneras en que se han resuelto los hiatos en la conjugación y sobre todo en la declinación, por lo que sólo mencionaremos los hechos más salientes. Se trata de fenómenos recientes por lo general y de poca trascendencia, por lo tanto, para la reconstrucción comparativa. No falta información acerca de ellos, porque el príncipe Bonaparte les concedió siempre una extraordinaria importancia (FHV, 109-110).Geroztik ikus de Rijk (1970) eta, bereziki,<ref type="bibr" target="#b59">Hualde &amp; Gaminde (1997)</ref>.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IX. Eranskina. Aztertutako hitzen aurkibidea</head><p>-a (III), adar (V) afari (VI), (VII), ageri (V), agiri (IV), ahal (II), ahate (II), (V), ahetz (IV), (V), ahul (IV), ahutz (V), ai ene (III), aihari (VI), aiher (V), aihotz (II), alfer (VI), (VII), (a)mona (III), arraina (III), arrotz (II), (VIII), ater(i) (V), atzapar (VII), auben (VII), auger (VII) auhen (VII) auher (VII) auzi (III), auzo (III), azai (II), barazkari (VI), bazter (V), bellegi (IV), bortz (VII), deihadar (VI),</p><p>-ha (III), haben (VII), habuin (II), hagin (II), (IV), haiotz (II), (V), handi (VII) *har (erak.) (III), haran (II), haragi (II), harea (I), (II), hari (=hartu) (VI), harma (I), harotz (II), (VIII), harrapa (I), harroka (II), haundi (V), (VII), hautatu (II), hauzi (III), hauzo (III), hebain (I), (II), hedoi (II), (VII), hego (VI), heren (V) herio (I), (II), (VIII), herri (II), herro (II), hertz (V), heuragi (II), hezkabia (II), hibai (II), (III), hidoi (II), (III), higuin (I), (II) hire (III), -hiri (VI), hirur (V), hoben (VII) hodei (I), (II), hogei (II), hogen (II), hor-tz (V), hur (III), ibar (II), (III), (VI), idor (II), (III), ifar (VI), ifini (VI), igerri (IV), (V), (VI), ihar (IV), (V), (VIII), ilherri (III), ilhotz (III), ipar (VI), izana (III), izter (V), jagon (IV), jaio (VIII), janhari (VI), jardun (VI), jario (II), joan (VI), </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">61 baina nago hori ez dela guztiz zehatza esanahien aldetik: ifar ez da inoiz &apos;haran&apos; eta ezta &apos;ibar&apos; ere (berdin esan liteke ipar-ez), eta ibar ez da</title>
+	</analytic>
+	<monogr>
+		<title level="m">Ifar Mitxelenak ibar/ipar bikotearekin berdindu zuen</title>
+		<imprint/>
+	</monogr>
+	<note>mapetan goiko aldea&apos; ere</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Lakarra 2002b), iruditzen zait ibar eta ibai-k duten lotura formala kontuan harturik, batetik, eta Euskal Herriko geografia fisikoa, bestetik, -hots, bortuak hego aldean, 62 itsasoa eta lautada kontrakotik-*ibar-bar behar dugula ifar-era (eta hortik gero 63 ipar-era) iristeko, *bar horrek ez &apos;barru&apos; baizik eta &apos;barren&apos;, &apos;beheko partea&apos; esanahi zaharra duelarik</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ibar &amp;lt; *hur-Bar-Etik Badator</surname></persName>
+		</author>
+		<ptr target="*ubar-bar-etik*uwahwar64&gt;*uwhwar&gt;*ufwaretaifargenuke" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Zufiri-ri dagokionez *zubi-hiri-tik *zuw-hiri &gt; zufiri (cf. atari, elizari &lt; ate + __, eliza + __, FHV 91); dena den, zufi/zuhi zubi-ren aldaera dugularik (*zur + -bi &gt; *zuhwi-tik?), beharbada hobe da zufi horri gehitutako -iri batean pentsatzea</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Fonetikoki *nau(a) + har(ri) batekin aski genuke &quot;à la Hualde&quot;, baina ez dakit hori semantikoki egokia litzatekeen eta ezta nola edo zergatik iritsiko ginatekeen *nau horretara. Aldiz, ifar-en kasuan legez, nabar + -bar batetik abiatuz, aldaketak testuinguru berbera luke (*-bar + bar &gt; *nawahwar &gt; *nawhwar &gt; *nafwar eta nafar) semantikoki ere &apos;naba azpiko</title>
+	</analytic>
+	<monogr>
+		<title level="m">Nafar eta Nafarroa-ri buruz esan dezadan hitzok naba batekin lotu ohi direla (Mitxelena 1973: § §463-465)</title>
+		<imprint/>
+	</monogr>
+	<note>beheko&apos; lurraldea genukeelarik; kontua, nola iritsi nabar horretara</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Farre eta fan-i dagokienez 65 *gogo-harre eta *e-da-non ezaguna (ik. La karra 2006b, 2006c) genituzke. Bigarren honetan jo(h)an-era iritsi beharrean *edonan &gt; *edohan &gt; *eohan &gt; *ewhan 66 &gt; *efan &gt; fan (edo, agian, *ewhan &gt; *efan &gt; fan</title>
+		<imprint>
+			<biblScope unit="page">67</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">proposatu w.h &gt; f aldaketatik abiatutako aurreko etimologiek bermatzen dutela /h/-aren aintzinatasuna eta baita haien balio etimologikoa aldarrikatzen ere; orobat, eginkizun dugun euskal hotsen kronologiarako zenbait datu lagungarri eransten dituzte</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hualdek</forename><surname>Uste Dut</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Ezaguna da p/b/f-tik ateratzen zuen etekina; ikus orain 67</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">n erakutsi nuenez, hego *h 3 &gt; h 1 izan liteke: *e-gan-o (cf. gain &lt; *gan-i) eta hortik *e-gaho &gt; *hegao &gt; hego</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lakarra</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Gogora Mitxelenak (FHV, 263-266) f &gt; p aski berankortzat duela, f/b txandaketa baino be rankorra go tzat nolanahi ere</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">n aldarrikatzen denaren aurka; esango nuke sortzez uholde, zuhaitz eta beste hur, zur eta lur-en eratorrietako -h-lehengo -r horretatik datorrela. Gero, ordea, morfologizatu ondoren, oso logikoa eta erraza litzateke -h-eranstea, -r inoiz izan ez dutenetan ere. Ikus Lakarra (prest.-5) larre-hederra</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ohar Bedi, Besteren Artean, -R &amp;gt; -H Onartzen Dudala -Hasiera Batean, Bederen-Igartua</surname></persName>
+		</author>
+		<ptr target="on-he-rranetabestezesanak" />
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Hualdek hor dioenaren aurka, ez dirudi mailegu zaharretan [wh-] ahoskatzen zail eta euskaldunek [w-] egingo zutenik (eta hortik b-). Izan ere, badirudi mailegu zaharrenetan latineko w-galdu egiten zela: cf. uescor &gt; eskatu, uoster &gt; esker, uexanu &gt; ezain, uertere &gt; ater(i), etab.; beraz, latineko jatorriarekin erkatzean maileguetan *w-&gt; b-aurkitzen dugunean aldaketa hori euskarara igaro aurreko maileguetan gertatu bide da</title>
+	</analytic>
+	<monogr>
+		<title level="m">Azken biok erakusten dute ez dela guztiz egia hasierako f-falta denik, Hualdek (oharkabean berak aipatzen baitu farre) esan bezala. Bidebatez</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Hemen hasten da aldaera hedatuenarekiko bilakabide ezberdina: ... *eohan &gt; jo(h)an</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Jatorrizko /f/ guztiak [ wh ] batetik sortuak balira soinu hori hain berankorra litzateke non iruditzen zaidan nekez erabili ahalko litzatekeela</title>
+		<ptr target="bestearrazoisendobatzuekinbatera-eginbezala" />
+		<imprint>
+			<date type="published" when="1951" />
+			<pubPlace>Mitxelenak</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Mitxelenak ez du auhen sartzen saihets, aihen, oiher, eihar eta enparatuekin, -h-erantsia luketenen zerrendan; egitura berekotzat jo behar dugu nolanahi ere. 68 Bestalde, Hualderen *wh &gt; h bilakabidearen analisia ( §VI) alfer &quot;mailegu (?)&quot; zalantzazko markarekin hornitzeraino iristen da, gero ez baitu gainerakoekin egin bezala aurreragoko urratsik ematen (*[aβari], etab). 69 Badirudi Hualdek arrazoi izatera -eta han erakutsi uste dugu hainbat datu direla bere aldeauhen **afen bilakatu behar zela, *(g)auhari &gt; afari egin zen bezala; aldiz, ez da garbi alfer batek zer lukeen ikustekorik wh &gt; f aldaketarekin, mailegua delarik /f/ berezkoa izan bailezake eta, gainetik, ez baita begi bistako nola irits zitekeen euskaraz wh &gt; f delako hori. Gainera, alfer-en aldean auher ere badugu Na farroa Beherean eta Zuberoan. Lehendabizikoari lotuaz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Vii</surname></persName>
+		</author>
+		<ptr target="nahizbiak)berankorrakizateada,gutxienezhitzhonenkokagunehorretan.70" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">eta -h-horrekin kontaktuan oso berandu jartzea, nahiz -n-&gt; -h-erregela wh &gt; f baino berankorrago delako, nahiz h hori wh &gt; f erregela pasatu ondoren &quot;erantsi&quot; delako -nahiz eta orain arte ( §IV) horrelako &quot;erans ke ta rik&quot; ez aurkitu-, edo are eskubiragotik etorri delako h-a, offende-&gt; *obeden &gt; *obenen &gt; *obehen &gt; hoben-en antzera. 71 Beharbada, azalpentzat onartuko ez genukeen bakarra *ahen &gt; auhen proposatzea izango litzateke, handi &gt; haundi-en erara (cf. 49. oh.); gogoan izan bedi azkena gipuzkeraz sortua dela inon baino lehen (eta berandu oso, nolanahi ere), hots auR-&gt; aR-prozesua aurreratuen zuen lurraldean, erregela bihurketa gisara. 72 Auhen, ordea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hala Izan Dadin Aukera</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Iparraldekoa dugu funtsean 73 eta hor ez da bidea prestatuko dion beharrezko bilakabiderik (*auC-&gt; aC-)</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>§v-N Esandakoaz Landa Erants Bekio Ondokoa Ere</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">La aspiración en los dialectos vasco-franceses aparece solamente entre la primera y la segunda sílaba. En a.-nav. y guip. la pronunciación de i en esa posición es muy aproximadamente la del cast. y entre vocales en Castilla la Vieja. Sin entrar por ahora en la cuestión del carácter secundario o no de la aspiración (vid. para ello 11.11), señalaremos que en la totalidad de los dialectos españoles j forma o formaba parte de la misma sílaba que la vocal siguiente</title>
+	</analytic>
+	<monogr>
+		<title level="m">Entre vocales son regulares las correspondencias a.-nav. guip. aien &apos;cepa</title>
+		<imprint>
+			<publisher>FHV</publisher>
+			<biblScope unit="page" from="175" to="176" />
+		</imprint>
+	</monogr>
+	<note>saiets &apos;costado&apos;, pronunciados [a-jen], etc.: b.nav. lab. sul. aihen, leiho, oihal, saihets (seihets)</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Uste dut 11.11 hori akatsa dela eta §V-en testuan nik aipatu 11</title>
+		<imprint/>
+	</monogr>
+	<note>10ko pasarteari dagokiola</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Mitxelenak FHV-n garbiro diosku mailegua, dela nondik sortua eta euskarara iritsi baino lehen eta ondoren izandako bilakabidea argitzen ez bada ere</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">eta &quot;haben (H[arriet, Maurice])&quot; ere ematen ditu aldaera gisa, ez jakin zenbateko hedadurarekin; bigarrena egiazkoa izatera beste *h 2 &gt; h 1 bat izango genuke, goragoko haiotz, heuskara, haitz edo hezur bezala (ikus § §II eta V)</title>
+	</analytic>
+	<monogr>
+		<title level="m">OEH-k &quot;auben (Lar)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">ehVn &gt; auhen *h 3 &gt; h 2 litzateke eta ez *h 3 &gt; h 1 *obehen &gt; hoben bezala; alabaina, lehoi ere honelakoa dugunez, badirudi maileguetan gutxi edo asko gertatu zela</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Egia Esan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Au</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>nahiz jatorrizko lexikoan ez jazo</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Hasierako dialekto marken artean dagoeneko Azkuerengandik datorren (inongo ahozko zein idatzizko lekukotasunik gabe, halere) &quot;G&quot; sartzen dute, baina ez dirudi, oso berandu arte bederen, Larramendiz kanpo inork darabilenik hor. Nire ustez, auhen-en distribuzioa kontuan izanik, biarnesetik hartutako mailegu baten aurrean bide gara, seguruenik; ez oso zaharra eta ez oso erabilia Hego-Mendebalean hedadurarik ez izateko edo izan badu ere lekukotasunik ez uzteko (cf. OEH s.u.). 74 Izan ere, hara zer aurkitzen dugun Simin Palayren hiztegian: &quot;anouï: v.-Anéantir, exténuer, harasser; anouï-s, magrir, s&apos;étioler, venir à rien. En Arm. anouisi, -s. Que soy anouït, je suis anéanti, recru de fatigue, harassé, rendu; lechà las terres anouï-s, laisser le sol s&apos;épuisser&quot;. Eta Foxenean &quot;anoui vb neut. Etre exténué -Que le deche&quot; anoui, on la laisse se mourir de faim (I.de)&quot; eta</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Antzeko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">)</forename><surname>Duten Tokietan ; Nafarroan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Etxegarai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Agirre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Zaitegi</surname></persName>
+		</author>
+		<idno>etab. 73 OEH s.u</idno>
+		<imprint/>
+	</monogr>
+	<note>Entre los suletinos se encuentra sólo en Eguiateguy. Al Sur hay ejs. anouit adj Exténué (La bouhey re), affaibli-Qu&apos;é anouit de hami, il est mort de faim (I.de</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">eta norbaiti berdintsu irudituko bazaio ere, ez da -h-izan *au diptongoaren eskubitara sortu, garatu edo erantsi dena, §I.ean erakutsi ditugun Mitxelenaren /h/-aren lau jatorri etimologikoen barnean modurik ortodoxoenean sortu baita bokalarteko -nbatetik. Diptongoa da berria, bada, berria zen bezala ( §V) saihets, oiher, aiher, aihotz, eihar eta, beharbada, gehiagotan. Oraingoan, ordea, -w-ez da gehitua edo eskubiko kontsonante sabaikari batetik /i + n/ berranalizatua haietan legez; auhen-en -u-bigarren silabatik igaro da lehendabizikora</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Beraz</forename><surname>Badirudi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Dela Noizbait, -N-&amp;gt; -H-Eta -N Batekin</surname></persName>
+		</author>
+		<ptr target="u.e-hiatozaharrasaihestuaz.76Antzeratsu,bigarrensilabatiklehendabizikoraigarodirendiptongoen-edohauenbigarrenza-tiakdituztenhitzen-arteanditugubaitahausnar(*hats-naur&lt;*hats-nabar/labur)edoheura-/heuregi(&lt;*herauegi&lt;*eradun-egi)ere;ikusLakarra" />
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page">77</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Badugu arpel ere (ez **arfel, aldiz), eta eremu urrikoa izan arren, bere lekukotasuna interesgarri da ozenen bilakabideari dagokionez: begitantzen zait *alfer &gt; *arper &gt; arpel gertatu dela Bizkaian. Nafarroa Behereko eta Zuberoko auher ez da zaharra, alde askotatik: batetik wh &gt; f egingo zelako noski; bestetik, baina, diptongo horrek gehienbat ai eman duelako. Erronkariko forma bitxiak asimilazio eta disimilazio ezberdinetarik datozkigu (Bizkaiko arpel legez hein batean) eta kontsonante aurreko soiltzea dugu Aezkoako afer</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">(</forename><surname>Alfer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Biz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">)</forename><surname>Bazt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Biz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gn</forename><forename type="middle">)</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">(</forename><surname>Bn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Zar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">)</forename><surname>) ; Er</surname></persName>
+		</author>
+		<ptr target="Aurrekoarenondorenulergenezakezergatikezdugun**afenetabaiauhen-edoez" />
+	</analytic>
+	<monogr>
+		<title level="m">auger (Zar), afer (Aez), arpel (Biz), aulfer, aurer</title>
+		<imprint/>
+	</monogr>
+	<note>Guztiek lukete zeresana, jakina: auger bezalako zerbaitek, demagun, -h-desagertu ondokoa behar du, gutxienez K. ondoko bigarren milurtekoa Nafarroa Garaian ere. 78 Orobat, auher batetik **afer behar genuen -h-gorde zuten euskalkietan eta -f-dugu izan ere Araba, Bizkaia, Gipuzkoa, Lapurdi nahiz Nafarroa Garaian... baina -l-bat tartean, izan ere -f-oraingoan maileguak euskarara sartu aurre koa baitu, ez euskara barnean garatua</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">-5)-eta baita non-74 Agud-Tovar s.u. auen &quot;Acaso etimol. pop. de ao &apos;boca&apos;, o bien onomatopeya</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">*</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">EWBS lo deriva del lat. lamentum (!)</title>
+		<imprint/>
+	</monogr>
+	<note>ikus Lakarra prest.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Bi prozesuak batera dira hebain edo habuin bezalakoetan; ikus Lakarra (2008c) eta hemen 9</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+				<title level="m">*ahuen &gt; **ahugen izan zitekeen beste aterabide bat, -g-tartekatuaz, §IV-n tratatutako kasuetan bezala</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">hortik auhen disimilazioarekin) norbaitek aldarrika lezake baina han ikusi dugunez ez da beste -h-antihiatikoren arrastorik. 70. oharrean aipatu haben ez da **hauhen, noski. 77 Esanahiak denborarekin hurbilduaz joan arren, auhen (&lt; *inodiare</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>**ahuhen Ere</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">eta</orgName>
+			</affiliation>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>frantsesezko ennuyer bezala</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">) ez da jatorriari dagokionez anu (egin), auno, unhatu eta beste hainbat aldaera dituen hitzarekin (&lt; cauma, FHV 307, oh.) nahasi ahal; ohar bedi bigarrena hedaduraz ere askozaz zabalduagoa dela</title>
+		<imprint/>
+	</monogr>
+	<note>Rey, s.u.. hizkuntzan izan duen sarrera zaharragoaren adierazle</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Ikus lehen atala Mitxelenak lurralde horretarako eman /h/-aren galeraren azalpenaz. a) ez da halabeharra fonema horren hedadura bat ez etortzea /g/, /r/ edo bestelako hiato-aurkako kontsonanteekin, ezta hauek ere bokalarteko /h/-dun oso hitz gutxiren (eskutada baten bai?) alomorfoetan agertzea, eta, areago dena, honelakorik inoiz ere ez gertatzea /h/-a historikoki gorde duten euskalkietan</title>
+		<ptr target="Zergatik/h/gainerakoenkidebada" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Ez da ahaztekoa ere DhV ereduetan /h/ Iparralde osoan eta &quot;kontraesanik&quot; gabe azaltzea, hots, hots hori historikoki gorde izan den eremu guztian; ez ote &quot;orokortze&quot; perfektuegia? Bidenabar, horrelakoetan halabeharrez ere ez /g/, ez /r/ ez besterik ez da lekukotzen. Zergatik ez da -Vig-talderik (**leigor, **saigets, **eigar, etab.) /h/ gabeko euskalkietan baldin eta /g/ = /h/, nahiz eta Iparraldean leihor (baita lehor ere), saihets (eta sahets) edo eihar (zein ihar) lekukotu? Ez ote berdintasun hori ez delako hainbestekoa, batetik, eta -i-delako</title>
+		<ptr target="bestetik,hizkerabatzuetanbaietaenparatuetanez(IparnahizHego)za-baldudena" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Lerga eta bestelako lekukotasun zaharretarik hasita le ku ko tzen diren bokalarteko /h/-en artean zergatik ez da antihiatiko seguru bakar bat? Lehen nahiz orain zergatik ez zaigu aurkezten horrelako /h/ bakar baten etimologia ezagunik (eta bai -i-eta -g-dunen asko</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Akitania</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Zergatik lehen eta orain hainbat n (edo f) &gt; h</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Ez dut, alabaina, ukatu nahi hitz barnean badela arrazoi segmentalik ez duen hasperen alerik, hots, aitzineuskarako inongo fonemaren jarraipen ez denik, dela Mitxelenak lehen eta Hualdek gero aipatu arrazoi morfologikoengatik (on-herran, on-heritzi, larre-hederra), 82 dela bestelako arrazoi prosodikoengatik edo analogia-motaren baten ondorioz -hots, jatorrizko lexikoak izandako bilakabideen eredura-sortuak. Ordea, hitz hasierako kokagunean legez (ikus §II), egokiago eta emankorrago de ri tzot birre rai ke ta ren aitzinamendurako hurbilketarik her tsiena hartzeari, alegia, -h-guztiek dutela edo (guk ikusi ez arren) ukan dutela noizbait hor izateko arrazoiren bat; zehatzago, -besterik erakusten ez den bitartean-arrazoi segmentalen bat, hots, aitzineus ka raz ko</title>
+		<ptr target="/f/83nahizhoriekinberdindu" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">5)-en honetaz arituko naiz berariaz. Orobat, Lakarra (prest.-3)-n gogo nuke hitz hasieran nahiz barnean /h/ duten hitz sailen azterketaren bitartez datu eta azterbideak erantsi soinu honen bilakabideari</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lakarra</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Aurrekoak gogoan, beharbada bostgarren sail bat erantsi beharko litzaioke Mitxelenak (cf</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">un des traits les plus caractéristiques du domaine gascon est le passage de f à h aspirée&quot;, hainbat adibide ematen dituelarik, bai hitz hasierarako, bai barnerako eta hemen, nahiz bokal arteko kokagunean, nahiz kontsonante batekin talde eginaz. Hortik, gaztelaniaz bilakabide berak duen baino hedadura handiagoa duela ondorioztatzea, nahiz eta hainbat lurraldetan h-ren galera ugari izan. Oso interesgarria -lan honetan hortik ondoriorik atera ez dudan arren-, egile berak 202. oharrean dioskuna ere</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>§i) Ezarri Ta Ko Euskal /H/ Modernoen Jatorri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Etimologikoei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Baldinger aipatuaz. Chambon eta Greub-ek -hainbat zehaztasun eta aitzinamendu egin ondoren-zera on do rioz ta tzen dute</title>
+		<imprint>
+			<date type="published" when="1977" />
+			<biblScope unit="page">486</biblScope>
+		</imprint>
+	</monogr>
+	<note>ik. 38. oh.), alegia. Rohlfs-ek dioskunez. 4.6. Du point de vue chronologique. on retiendra que le changement [ø] &gt; [h] était en cours avant 511 et qu&apos;il a été partiellement interrompu pendant une période comprise entre 418 et 511</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Il n&apos;est pas besoin de souligner que cette argumentation est des plus sommaires et des plus faibles&quot; diote egileek (476) Gavelenaz, zeinen ustez bilakabidea x</title>
+		<ptr target="Letraitement/f-/desempruntsaugotiquen" />
+		<imprint/>
+	</monogr>
+	<note>en fournit pas moin un terminus ad quem valable pour le début d&apos;activité de ø-glott, à savoir 511. mendekoa li tza te keen</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">non pas avec certitude, mais au moins avec vraisemblance, une théorie d&apos;ensemble sur la genèse d&apos;un trés grand nombre d&apos;h. On pourrait la formuler de la façon suivante : à un moment donné, dans les dialectes qui pratiquent l&apos;aspiration, il y a eu tendance à intercaler une h devant toutes les voyelles qui étaient initiales de syllabe, à moins qu&apos;elles ne fussent précédées d&apos;une pause</title>
+	</analytic>
+	<monogr>
+		<title level="m">Trasken baieztapen hori (eta hasperenari buruzko ataleko hainbat puntu) lehenagoko Gavelen oihar tzun aski garbia dugu: on pourrait énoncer</title>
+		<imprint/>
+	</monogr>
+	<note>le corps des mots, une voyelle pouvait être initiale de syllabe dans deux cas : lorsqu&apos;elle était en hiatus avec une voyelle précédente. quand la consonne qu&apos;elle suivait était rattachée dans la prononciation à la syllabe anterieure (1920: 475</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Beste une baterako utziko dut hipotesi bitxi baina eraginkor hau bere osoan aztertzea -izan duen botere kutsatzailea ere ukituaz-, funtsean FHV-z geroz interes historiografiko hutsa izan beharko lukeen arren. Artean hara hipotesi horren ondorio nagusiena: Si cette hypothèse générale est exacte, on pourra en conclure que la très grande majorité (sinon la totalité) des h actuelles sont adventices et ne se sont développées qu&apos;à une époque relativement tardive</title>
+		<imprint/>
+	</monogr>
+	<note>et il devient assez douteux que les dialectes basques espagnols aient jamais possédé aucune aspiration (1920: 478</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Etzana nirea da; ondorenak ere badu garrantzia garaiko filologiaz, ez soilik Luchaire-ren azterketei baina baita Errioxako eta Burgosko lekukotasunei dagokionaz ere</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Las fuertes, sordas y plenamente oclusivas, eran aspiradas o no, según la posición. De aquí que, en circunstancias y fecha no exactamente precisables, las aspiradas -o algunas de ellas-llegaron a aflojar la oclusión y terminaron por reducirse a h y naturalmente a cero en los dialectos que perdieron la aspiración e incluso en los otros muy a menudo. Lo más probable es que este proceso se cumpliera no solamente en inicial absoluta, sino también en muchos compuestos y derivados cuando la oclusiva no se apoyaba en una sibilante -o al menos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Nago Ez Zaiola Eman Behar Zuen</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>en una consonante-anterior (FLV, 254</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Hasperenaren ezkerrerako mugimenduak alderdi horren egitura eta aldaketen kronologia aztertzen laguntzen gaitu, Lakarra (2008c)-n esaten genuen legez. Orobat, esanguratsua da gertatu diren eta ez diren erorketa eta aldaketei buruz *h 3 &gt; h 2 maileguetan baino ez izana ere</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Saio Berdeegia Izan Zen</surname></persName>
+		</author>
+		<ptr target="ko§X.eannoizbaitgaratunahigenukeenhots-aldaketenkronolo-giarakolanabesgisabiltzendituguaurrekoataletanproposatuguztiak.Gehienadahorikertzekedena" />
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Bibliografia</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Materiales para un diccionario etimológico de la lengua vasca</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Agud</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Tovar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="volume">7</biblScope>
+			<pubPlace>Donostia</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>ASJU-ren Gehigarriak</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Alvar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Pottier</surname></persName>
+		</author>
+		<title level="m">Morfología histórica del español. Gredos, Madril</title>
+		<imprint>
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Arbelaiz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Las Etimologías Vascas En La Obra De</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Michelena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Tolosa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Kardaberatz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Artiagoitia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">&amp;amp; J A</forename><surname>Goenaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lakarra</surname></persName>
+		</author>
+		<title level="m">Erramu Boneta. Festschrift for Rudolf P. G. de Rijk. ASJU-ren Gehigarriak 44</title>
+		<imprint>
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Azkarate</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donostia</forename><surname>&amp;amp; P. Altuna ; Mundaiz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-P</forename><surname>Chambon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Greub</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskal morfologiaren historia</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="473" to="495" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note>Note sur l&apos;âge du (proto)gascon</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Corominas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Pascual</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Madril, Gredos</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-B</forename><surname>Coyos</surname></persName>
+		</author>
+		<title level="m">L&apos;apport lexical de l&apos;occitan gascon bearnais au basque souletin: recherche des champs conceptuels</title>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="201" to="223" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">«Euskal azentuaren bilakaera: hipotesiak eta proposamenak». Euskaltzaindiaren XVI. Biltzarreko (Iruñea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Elordieta</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>komunikazioa</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Essays in honour of Professor Eguzkitza</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">&amp;amp; I</forename><surname>Fernández</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Laka</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+		<respStmt>
+			<orgName>UPV/EHU: Bilbo</orgName>
+		</respStmt>
+	</monogr>
+	<note>Andolin gogoan</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Dictionnaire gascon-français. Suivi de son Lexique français-gascon et d&apos;éléments d&apos;un thesaurus gascon</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Abbé</forename><forename type="middle">V</forename><surname>Foix</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="1885" to="1932" />
+		</imprint>
+		<respStmt>
+			<orgName>Presses Universitaires de Bordeaux</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Éléments de phonétique basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Gavel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Paris (Berrargitalpena RIEV</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="1920" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Bilboren 700. Urteurrena. Hizkuntza gunea, Deustuko Unibertsitatea, Bilbo: 103-120. -, 2007, «Las armas de la filología</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Gorrotxategi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Estudio Sobre La Onomástica Indígena De Aquitania</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bilbo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Upv/Ehu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Lakarra, Urgell &amp; Gorrotxategi (arg.). -, 2008a, «Euskara zaharra</title>
+		<editor>ZZ.EE.</editor>
+		<imprint>
+			<date type="published" when="1984" />
+		</imprint>
+		<respStmt>
+			<orgName>«El área de Bilbao en la Antigüedad</orgName>
+		</respStmt>
+	</monogr>
+	<note>Euskaltzaindiaren XVI. Biltzarreko txostena. Inprimategian</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Dictamen de Joaquín Gorrochategui a la Comisión Asesora de la Dipu tación Foral de Álava sobre los hallazgos epigráficos de Iruña-Veleia (Campañas</title>
+	</analytic>
+	<monogr>
+		<title level="m">Arabako Foru Aldundiaren web orrian argitaratua</title>
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">La Hispania prerromana. VI Coloquio sobre lenguas y culturas prerromanas de la Península Ibérica</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">J A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Salamancako Unib. &amp; Coimbrako Unib</title>
+		<editor>F. Villar &amp; J. D. Encarnaçao</editor>
+		<imprint>
+			<biblScope unit="page" from="101" to="145" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note>Nuevas aportaciones a la reconstrucción del protovasco</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Comparación lingüística, filología y reconstrucción del protovasco</title>
+	</analytic>
+	<monogr>
+		<title level="m">Religión, lengua y cultura prerromanas de Hispania</title>
+		<editor>F. Villar &amp; Mª P. Fdez. Álvarez</editor>
+		<meeting><address><addrLine>Salamanca, Unibertsitatea</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="page" from="407" to="438" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">«Elementos de cronología fonética del vascuence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Guiter</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="797" to="800" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title level="m" type="main">Historical syntax in cross-linguistic perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Campbell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<pubPlace>Cambridge U. P</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Acentuación y cronología relativa en la lengua vasca</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Hualde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Gaminde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Laringalak eta euskal azentuaren bilakaera» in Fernández &amp; Laka (arg</title>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="211" to="245" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A L</forename><surname>Lakarra &amp;amp; R</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Trask</surname></persName>
+		</author>
+		<title level="m">Towards a history of Basque language. John Benjamins</title>
+		<meeting><address><addrLine>Amsterdam-Philadelphia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Euskararen hasperena ikuspegi tipologiko eta diakronikotik</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Igartua</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Artiagoitia, Goenaga &amp; Lakarra (arg</title>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="366" to="389" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Del origen de la aspiración como elemento morfonológico en vasco</title>
+	</analytic>
+	<monogr>
+		<title level="m">La karra &amp; Hualde (arg</title>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="519" to="530" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">La aspiración de origen nasal en la evolución fonética del euskera: un caso de rhinoglottophilia». ASJU 42/1.ean argitaratzeko lana. -, 2008b, «Algún paralelo tipológico más para la h vasca de origen nasal</title>
+	</analytic>
+	<monogr>
+		<title level="m">Historia abreviada de la aspiración en las lenguas circumpirenaicas». Eus kaltzain dia ren XVI. Biltzarra (Iruña)</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">42</biblScope>
+		</imprint>
+	</monogr>
+	<note>Inprimategian</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title level="m" type="main">«Reconstructing the root in Pre-Proto-Basque</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<editor>Hualde, Lakarra &amp; Trask</editor>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="189" to="206" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<title level="m" type="main">Sobre el europeo antiguo y la reconstrucción del protovasco</title>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1" to="70" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Ez zirenez: **TVTV eta haren lagunez: I. So bat erro disilabiko kodagabeez</title>
+	</analytic>
+	<monogr>
+		<title level="m">Artiagoitia, Goenaga &amp; Lakarra (arg</title>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="425" to="442" />
+		</imprint>
+	</monogr>
+	<note>Etymologiae (proto)uasconicae LXV</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-, 2004a</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Etimología Y Reconstrucción En El Campo Vasco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bisílabos (¿proto?)vascos». In Lakarra (inprimategian)</title>
+		<imprint>
+			<date type="published" when="2004" />
+			<biblScope unit="page" from="41" to="116" />
+		</imprint>
+		<respStmt>
+			<orgName>Univ. Valladolid</orgName>
+		</respStmt>
+	</monogr>
+	<note>E. Ridruejo (arg.), Las otras lenguas de España</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<monogr>
+		<title level="m" type="main">Prolegómenos a la reconstrucción de segundo grado y al análisis del cambio tipológico en (proto)vasco</title>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="407" to="470" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+		<title level="m" type="main">munda y otros: reconstrucción interna y tipología holística diacrónica</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-, 2006a</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Protovasco</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="299" to="322" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Jaun eta jabe, jaio eta herio, jin eta joan… etimologiaz eta aditz zaharraz</title>
+	</analytic>
+	<monogr>
+		<title level="m">Fernández &amp; Laka (arg</title>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="575" to="611" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Notas sobre iniciales, cambio tipológico y prehistoria del verbo vasco</title>
+	</analytic>
+	<monogr>
+		<title level="m">Lakarra &amp; Hualde (arg</title>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="561" to="621" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">ASJU-n ar gi ta ratze ko. -, 2007b, «Erro monosilabikoaren teoria eta aitzineuskararen berreraiketa: zenbait alderdi eta ondorio</title>
+	</analytic>
+	<monogr>
+		<title level="m">Irregularidades radicales y extensiones verbales antiguas</title>
+		<editor>Lakarra, Urgell &amp; Gorrotxategi (arg.</editor>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<monogr>
+		<title level="m" type="main">Protovasco: reconstrucción, cronología y periodización». Deustuko Unibertsitatean emandako hitzaldia</title>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<monogr>
+		<title level="m" type="main">«Forma canónica, etimología y reconstrucción en el campo vasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Upv/Ehuko Eskuizkribua</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="261" to="391" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Aitzineuskararen gramatikarantz malkar eta osinetan zehar</title>
+	</analytic>
+	<monogr>
+		<title level="m">Artiagoitia &amp; Lakarra (arg</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="451" to="490" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Informe sobre supuestas inscripciones eusquéricas de Veleia. Arabako Foru Aldundiarentzat egindako txostena eta haren web orrian argitaratua. -, 2009a, «Temas para un prólogo: forma canónica, tipología holística diacrónica y reconstrucción del protovasco</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename><surname>Aitzineuskara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">*h 3 &gt; h 1 , *h 2 &gt; h 1 eta horiei datxezkien zenbait fenomenoz</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="277" to="347" />
+		</imprint>
+	</monogr>
+	<note>Baionan CNRS-ek antolatu biltzarreko komunikazioa (XII/12-13). Inprimategian Lapurdum-en</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Forma canónica y cambios en la forma canónica en la prehistoria de la lengua vasca</title>
+	</analytic>
+	<monogr>
+		<title level="m">Congreso de Lenguas y Culturas Paleohispánicas (= Palaeohispanica 9</title>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<monogr>
+		<title level="m" type="main">Zergatik ezkerra?». Euskaltzaindiko Sarrera hitzaldia. Euskera-n argitaratzeko. -, 2010, «Ohar etimologikoak Refranes y Sentencias-eko zenbait hitzez</title>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>Inprimategian Omenaldi batean</note>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Materiales para un diccionario etimológico vasco». Eskuizkribua, UPV/EHU. -, prest.-2, «Antiguas y nuevas iniciales en (proto)vasco». Eskuizkribua, UPV/EHU. -, prest.-3, «Fragmentos y forma canónica en (proto)vasco». Eskuizkribua, UPV/EHU. -, prest.-4, «200 nuevos (antiguos) préstamos latino-románicos: transformaciones estructurales y fonotáctica diacrónica</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-, Inprimategian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Raíz Y Reconstrucción Del Protovasco</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Asju-Ren Gehigarriak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">.</forename><forename type="middle">-</forename><surname>Donostia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Studies in Basque and Historical Linguistics in Memory of R. L. Trask (= ASJU XL, 1-2), UPV/EHU</title>
+		<editor>inprimategian, K. Mitxelena Katedraren II. Biltzarra</editor>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note>600 etimologías y subiendo. urriak 8-11, Gasteiz). UPV/EHU, Gasteiz</note>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Lapesa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Estudios de morfosintaxis histórica del español, R. Cano eta M. Echenique (arg.)</title>
+		<imprint>
+			<date type="published" when="1961" />
+			<biblScope unit="page" from="360" to="387" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">«-a euskal artikulu definituaren gainean zenbait ohar</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Manterola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Lakarra &amp; Hualde (arg</title>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="651" to="676" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<monogr>
+				<title level="m">Is Basque an agglutinative language?». Santa Barbara Unibertsitateko hitzaldia</title>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<monogr>
+		<title level="m" type="main">El consonantismo protovasco. Doktorego tesia. UPV/EHU. -, 2008, «Hitz-konposakera euskaraz eta aitzineuskaraz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Martinez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="135" to="206" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<monogr>
+		<title level="m" type="main">«Mehe: un apellido vasco escrito en aljamía hebraíco-navarra</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mirones</forename><surname>Lozano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="117" to="123" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">SHLV, 190-202. -, 1951a, «De fonética vasca</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">»</forename><surname>De Etimología Vasca</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Berrarg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Shlv</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">La distribución de las oclusivas aspiradas y no aspiradas». Berrarg., SHLV</title>
+		<imprint>
+			<date type="published" when="1950" />
+			<biblScope unit="page" from="212" to="219" />
+		</imprint>
+	</monogr>
+	<note>De fonética vasca</note>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<monogr>
+		<title level="m" type="main">«La sonorización de las oclusivas iniciales. A propósito de un importante artículo de André Martinet</title>
+		<imprint>
+			<date type="published" when="1951" />
+			<biblScope unit="page" from="203" to="211" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Lengua e historia, Paraninfo: Madril</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename><surname>De Onomastica Aquitana</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">»</forename><surname>Berrarg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Las antiguas consonantes vascas». Berrarg., SHLV</title>
+		<imprint>
+			<date type="published" when="1954" />
+			<biblScope unit="page" from="1" to="73" />
+		</imprint>
+	</monogr>
+	<note>Sobre el pasado de la lengua vasca</note>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Fonética histórica vasca, 2. arg. zuzendu eta emendatua, ASJU-ren Gehigarriak 4, Donostia</title>
+	</analytic>
+	<monogr>
+		<title level="m">Lengua común y dialectos vascos», ASJU 15. Berrarg., Palabras y Textos, UPV/ EHU</title>
+		<meeting><address><addrLine>Donostia; Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1961" />
+			<biblScope unit="page" from="35" to="55" />
+		</imprint>
+	</monogr>
+	<note>ASJU-ren Gehigarriak 10. 2 lib</note>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Palay</surname></persName>
+		</author>
+		<title level="m">Dictionnaire du béarnais et du gascon modernes. CNRS Éditions</title>
+		<meeting><address><addrLine>Paris</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+	<note>3ème édition completée</note>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Les emprunts de la langue basque à l&apos;occitan de Gascogne</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tx</forename><surname>Peillen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Madril</forename><surname>Uned</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Peterson</surname></persName>
+		</author>
+		<idno>ASJU 49/1</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Toponimia vasca medieval: novedades del Becerro Galicano de San Millán de la Cogolla</title>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="289" to="322" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Dictionnaire historique de la langue française</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Rey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dictionnaires Le Robert</title>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note>3 lib</note>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">P G</forename><surname>De Rijk</surname></persName>
+		</author>
+		<title level="m">Vowel interaction in Biscayan Basque». Berrarg. in id Selected Writings</title>
+		<meeting><address><addrLine>Bilbo-Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1970" />
+			<biblScope unit="page" from="39" to="53" />
+		</imprint>
+		<respStmt>
+			<orgName>ASJU-ren Gehigarriak</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<monogr>
+		<title level="m" type="main">Études de philologie pyreneenne. Troisième édition, augmentée. Max Niemeyer</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Rohlfs</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1977" />
+			<pubPlace>Tübingen</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Le gascon</note>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">«Nire/neure, zure/zeure literatur tradizioan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Sarasola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskera</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="430" to="446" />
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Straka</surname></persName>
+		</author>
+		<title level="m">Observations sur la chronologie et les dates de quelques modifications phonétiques en roman et en français prélittéraires</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="247" to="307" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<monogr>
+		<title level="m" type="main">«La dislocation linguistique de la Romania et la formation des langues romanes à la lumière de la chronologie relative des changements phonétiques</title>
+		<imprint>
+			<date type="published" when="1956" />
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="249" to="267" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">On the reconstruction of Pre-Basque Phonology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">R</forename><surname>Trask</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Symbolae L. Mitxelena, UPV/EHU, Gasteiz: II</title>
+		<editor>J. L. Melena</editor>
+		<meeting><address><addrLine>Londres, Routledge</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1985" />
+			<biblScope unit="page" from="885" to="891" />
+		</imprint>
+	</monogr>
+	<note>The history of Basque</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

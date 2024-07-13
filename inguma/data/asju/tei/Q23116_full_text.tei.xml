@@ -1,0 +1,1505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ERATORPENA LARRAMENDIREN HIZTEGIAN (I): ERATORBIDEEN ANALISIA</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2003">2003</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Blanca</forename><surname>Urgell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">(JUMI</orgName>
+								<orgName type="institution">UPV/EHU)</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">ERATORPENA LARRAMENDIREN HIZTEGIAN (I): ERATORBIDEEN ANALISIA</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">ASJU, XXXVII-1</title>
+						<imprint>
+							<biblScope unit="page" from="203" to="260"/>
+							<date type="published" when="2003">2003</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>My main objective in this paper is to present the conclusions drawn from the study of morphological derivation in Larramendi's Diccionario Trilingüe del Castellano, Bascuence y Latín (1745), based in a suffix-by-suffix analysis of the partial corpus employed (namely, Basque words beginning with (H)A) that will be published as the second part of the present work <ref type="bibr" target="#b45">(Urgell 2004b)</ref>.</p><p>This work is a part of a larger research developed in my Ph.D. thesis (Urgell 2000a) on the Basque words compiled in the Diccionario Trilingüe, a dictionary famous because of its innovative side (i.e. a lot of neologisms, sometimes made in an odd, unknown or indecipherable way), but which remained unanalyzed until now. My approach focused on both searching Larramendi's sources and revealing his methods of word-formation, with the aim of identifying as far as possible those which belong to tradition, and those which are really uncommon or new.</p><p>As for derivation, I use Azkarate's classification (1991)  and her model of analysis. Thus, I analyze the distribution and selection of suffix allomorphs, the base forms of the derivatives and the meaning they acquire, the phonetic changes produced by derivation and the derivational chaines attested. On this basis, the productivity or fossilization of all these factors is evaluated, and the role of derivation in Larramendi's dictionary is considered.</p><p>This research reveals many aspects of the words collected in it, and also of Larramendi as a dictionary-maker and as a neologist, most of them completely unknown; it also makes advances in the understanding of the theoretical assumptions and analogical patterns which his innovations are based on.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>14 Hemendik aurrera egingo ditugun baieztapenak, besterik ez adieraztera, hiru lanotan frogatu edo argituta aurkituko ditu irakurleak. <ref type="bibr">15</ref> Halakoen zerrenda zehaztuta utzi zigun: "De los libros en bascuence" eta "Del Nuevo Testamento en bascuence" <ref type="bibr">(Larramendi 1745: xxxiv-xxxvi eta xxxvi-xxxviii;</ref><ref type="bibr">cf. Urgell 2005)</ref>. <ref type="bibr">16</ref> Pasartea oso luzea eta oso interesgarria da <ref type="bibr">(Larramendi 1745: lii-liii)</ref>. R. M. Pagolak (1992) erakutsi bezala, Larramendiren landa-lanaren deskribapen hau ohiz kanpokoa da garai haietan, eta lana bera oso goiztiarra, zeren eta XVIII. mendean ahozko hizkuntzaren datuak bildu eta aztertzeko zaletasuna biziki hedatu bazen ere, izenik handienak mendearen azken aldekoak baitira. <ref type="bibr">Swiggers-ek (1990)</ref> iradoki du XVIII. mendean hizkuntz ukipeneko eremuak hizkuntz ideien mintegi bereziki emankorrak izan zirela; badirudi hizkuntza gutxitua izateak ere izan zuela halako ondorenik, zeren eta baliabide eskasiak bestetan axaletik baino ukitzen ez diren gaiak sakonago -beste era batera, edonola ere-aztertzeko zio nahikoa ematen baitute. <ref type="bibr">17</ref> Bere eredua literaturaren gainean eraikitako hiztegia zen, baina berehala ohartu zen lana erraldoia zela, eta are "eramangaitza", ez hiztegigintza tradiziorik, ez ia libururik ez zuen eta eskolan erabiltzen ere ez zen hizkuntza batean. "Para salir con ese intento, lo segundo a que me dediqué fue a aprender el bascuence..." (1745: lii). Ideia honetan bat dator, esate baterako, Schottelius alemanarekin <ref type="bibr" target="#b88">(Seiffert 1990)</ref>, eta ideia horren lehen fruitua gramatika izango da, non berariaz hiztegirako uzten duen "izenen eraketa" deritzana eta antzerako gaiak: "Dexo algunos otros modos de formación en los nombres verbales, que se darán en el diccionario: pues para el fin de que conozcan todos quán regular y oportunamente forma sus derivados el bascuenze, bastan estos" (1729: 268). Halere, "aprender el bascuence" hori era anekdotiko eta murritzean ulertu izan da, hizkuntza galdu eta berreskuratu behar izan zuelakoan <ref type="bibr" target="#b51">(Altuna 1992)</ref>. <ref type="bibr">18</ref> Nabaria da, bidenabar, euskara denboraz kanpoko izakitzat hartzen zuela, hots, haren legeak betierekoak bailiran jokatzen zuela. Pasarterik argiena, hauxe: "...antes universal y estendidíssima por toda España, después más ceñida, y últimamente reducida al Sagrado destos montes, en que logra una vida y salud robusta, nada expuesta a la caducidad de las demás Lenguas. (...) encastillada entre estas rocas, a pesar del tiempo y sus estragos, ha sabido mantener su alma y cuerpo vivientes en un estado tan vigo-analisitik eratorri zituen osagaiak (erroak eta atzizkiak) eta arauak (elkarbide morfologiko eta fonetikoak) sorkuntzaren mesedetan ipini zituen. Horregatik, hain zuzen, etsita zegoen egin zituen hitz berriak egiazki euskararentzat ez direla "berriak", euskaldunarentzat bakarrik baizik, berezko legeen arabera moldatuak baitira, bertan antzemandako erro eta atzizkien gainean. <ref type="bibr">19</ref> Beste hariko ezpala da, ordea, legeok eta osagaiok zuzen asmatu zituenentz, geroago aztertuko dugunez.</p><p>Hona hemen hitzak eratzeko bere jarraibidea -erabat kratilozalea, agerian denez-:</p><p>...me ciño a las condiciones rigurosas a que según Platón va ligada esta licencia [hitz berriak egitea]; porque busco voces simples oportunas que explican sus objetos simplemente, o compuestas, que declaran su naturaleza y propriedades, y passo luego a formar los nombres facultativos, que explican naturalmente sus objetos, en el sentido del mismo Platón (1745: L).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.4.">Tradizioa eta berrikuntza HH-ko eratorpenean</head><p>Lan hau Mitxelena maisuaren honako esan honetatik sortua da, funtsean: "...ez da erraz jakiten [HH-ko] euskal hitz direlako horietan zer den entzuna edo irakurria eta zer den aldatua edo burutik burura asmatua" <ref type="bibr">(Mitxelena 1961: 364, B</ref>.U.-k batuaz ipinita). Ez dela erraza zioen, bada, baina berak ondotxo zekien halako gaitzak sendabelar bakarra duela: filologi lana, alegia.</p><p>Hori buruan izanik, bere garaian (cf. Urgell 2000a) HH-ko lexikoaren erakusgarri bat aztertu genuen, handia hitz kopuruan, baina txikia hiztegiaren handian -(H)A-z hasitako euskal hitz guztiak (4.867 lema guztira, hiztegiaren %10etik goraxeago)-, <ref type="bibr">20</ref> Larramendiren baliabideen berri ahalik eta zehatzena lortzeko asmoz, bai iturriei, baita sorbideei ere dagokienez. Esan gabe doa ez ditugula HH-ko korapilo guztiak askatu, ezta hurrik eman ere, baina gutxienez espero dugu Mitxelenak zailtzat jotzen zuena ezinezkoa bederen ez dela erakustea. Premiazkoa litzateke alderdi gehiagotatik heltzea alor honi, HH erraldoi eta ñabarraren pareko lekukotasun zahar gutxi baititugu. <ref type="bibr">21</ref> Eratorpenaren sailean, gure helburua Larramendiren hitz eraketaren ezaugarriak identifikatzea izan da, tradiziotik datorrena berrikuntzari zor zaionetik bereiztearren eta, bide batez, euskal atzizkien historian zenbait bidarri ipintzearren.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>208</head><p>BLANCA URGELL roso y fuerte, que va a remozarse y aspira a la immortalidad" (1745: xxxiii). Ideia hau nagusi izan da azterketa diakronikoa gurean sartzen hasi den arte, eta egun ere jaun eta jabe dabil non-nahi, baita honetaz gehixeago jakin beharko luketen hainbat (bestetako) aditurenean ere. <ref type="bibr">19</ref> "Son nuevas, pero no ad placitum, ni a mi solo placer y regalado gusto, sino naturalíssimas al significado de las voces simples de que se componen, cuya análisis está descubriendo su oportunidad. Son nuevas, no para el Bascuence, sino para el Bascongado, que no ha querido, o no ha podido descubrir, ni registrar los tesoros que encierra su fecundíssima Lengua" <ref type="bibr">(Larramendi 1745: xlix)</ref>. <ref type="bibr">20</ref> Lagina euskaratik abiatuta hautatu genuen, hiztegi osokoa izan zedin: gogoan har bedi gaztelania-euskara norabidean eratutako hiztegia dela. <ref type="bibr">21</ref> Begien bistakoa izan beharko litzateke erlijio liburuen aldean HH-k duen lexiko ñabarragoa jasotzeko aukera. Esaterako, adibideetan gure idazleek kanpoko ereduetara jo ohi zutenez, maiz lehoiak eta elefanteak aisago aipatzen dituzte, Euskal Herriko animaliak baino. Honegatik, hainbaten lehen lekukotasuna HH-n dugu: errosela "besugo", igaraba eta ubagarea "nutria", erbiñudea, pirotxa eta ogigaztaia "comadreja", untxia "conejo", kakalardoa eta karamarroa "escarabajo <ref type="bibr">", etab. etab.</ref> Erakargarri bezain labaina da gure lanbidea, hainbat arrazoigatik, eta komeni da aldez aurretik zailtasun handienak bederen agerian jartzea. Hasteko, euskal hitzen historiari buruzko xehetasun gutxi ditugu hainbatetan -gaitz erdi, gehienak dagoenekoz OEH-n bilduta daude-, eta gutxi horiek ere sarritan berankor, zatikako, zalantzazko edota susmagarri eta, nolanahi ere, ia beti kritikaren bahetik igarogabeak. Are garrantzitsuago guretzat: euskal atzizkiei buruzko azterketa diakronikoa ia osoki falta dugu. <ref type="bibr">22</ref> Beraz, ez da erraza 1745 bezain data goiztiar baterako berrikuntzaz edo tradizioaz mintzatzea.</p><p>Zailxeago bihurtzen da -baina baita erakargarriago ere, denborazko sakontasunean irabazten dugun heinean-kontuan badugu gero eta nabariagoa den zerbait: alegia, euskara aldatuz joan dela, eta atzizkibidea indartuz (cf. <ref type="bibr" target="#b86">de Rijk 1995)</ref>, agian aurrizkiak baino ez zituen antzinako egoera batetik hasita <ref type="bibr">(Lakarra 2005)</ref>. Tarteko egoera aski primitibo baten frogak aurkitu uste ditugu Landucciren hiztegian (Urgell 2008e), eta badugu zeresanik hemen ere atal batean baino gehiagotan (ik. bereziki § 3.2.3).</p><p>Gogora dezagun, bestalde, eratorpena hitz-sorkuntzaren atal bizia den heinean emankortasunaren erresuma dela eta, beraz, daitezkeen gauzak lehenengoz idatziz erabiltzea -edo lehenengoz hiztegian jasotzea-xehetasun jakingarria izanik ere, sarritan (eta ezinbestean) azpian ahozko hizkuntzaren lehentasuna ezkutatuta dagoela. Adibidez, Landucciren hiztegian, itxurazko errumestasunaren azpian, -ari <ref type="bibr">(albeitari, bekatari, berbari, burrekari, kabestrari, danzari...)</ref>, -dui (sagastui), -gin <ref type="bibr">(argin, langin, jozkin, urragin...), -ka (besaka, irastuka, gutika gutika, lasterka...)</ref>, -ko (astoko), -ki <ref type="bibr">(agin garbitzaiki, agin frikaiki, itsuski, hilaraki...), -ro (andiro, beaztiro, esturo, firmero...), -toro (erraztoro, gogortoro, gaistotoro, galantoro...), -ti (beldurti, guzurti...), -tsu (kakatsu, gozotsu...)</ref>, eta beste atzizki batzuk <ref type="bibr">(-kide, -tzaile / -le, -mentu, -tasun...)</ref> aurki daitezke nekerik gabe. <ref type="bibr">23</ref> Antzeko zerbait antzeman daiteke, muturreko beste adibide bat aipaturik, azkenetan dagokeen Elosu, Nafarrate eta Urrunagako euskaraz berriki argitaratu den lan batean <ref type="bibr" target="#b62">(Gaminde 1999</ref>) ipinkidxe, isuskidxe, laukotxa 'aitzur mota', opilkoa, sartzeidxerie 24 'sarrera', urteidxerie 'irteera' bezalako hitzak irakurtzerakoan.</p><p>Hala eta guztiz ere, nabarmena da, azkenik, euskaraz idazkera jaso bat landu nahi izan den bakoitzean ezinbestean hitz eratorrien kopuruak gorantz egin duela <ref type="bibr">(Sarasola 1986: 206;</ref><ref type="bibr">Lakarra 1993: 345 eta hur.)</ref>. Hegoaldeari dagokionez, sobera ezaguna da mendeetako axolagabekiaren ondoren, lehenengoz eta sistematikoki Larramendik ehunka (milaka?) hitz berri egin zituela. Honetan ez da alderatzen lehenagoko idazlerik onenek eta hiztegigileek egin zutenetik, hitz eratorriak nahitaezkoak baitira herriko umeentzat egindako dotrinaz goiti edozer idatzi nahi duenarentzat <ref type="bibr">(Lakarra 1993: 332-334)</ref>, baina nolabait gurdia idien aurretik ipini zuelako sona jausi zaio ERATORPENA LARRAMENDIREN HIZTEGIAN (I): ERATORBIDEEN ANALISIA 209 <ref type="bibr">22</ref> Ia osoki diogu, zeren eta azkenotan zenbait aurrerapen egin baitira, gehienak zatikakoak. Garrantzizko eta osatuena, dakidalarik, nominalizazio atzizkiei buruz Buenok egindakoa <ref type="bibr">(2004 eta 2006)</ref>. <ref type="bibr">23</ref> Frogatu uste dugu, bestalde, "A eskua" deritzagun Landucciren berriemaileak ere hitzak sortu egin zituela, erdarak eskatu ahala. Badirudi honelako hiztegi itzultzaileen egiturak badukeela hiztunaren gaitasun sortzailea kitzikatzeko ahalmena (cf. <ref type="bibr">Urgell 2008e)</ref>. <ref type="bibr">24</ref> Jat. sartzíedxerie, ezinezkoa.</p><p>bizkar gainera, Iparraldean lehenik idatzi -lehenik hitzak lanean jarri-eta gero hiztegiak bildu egin zituztenez gero. <ref type="bibr">25</ref> Alabaina, begien bistakoa den ordena ezberdintasun horrezaz landara, Larramendi ezin da Iparraldekoen aurrez aurreko gisa aurkeztu, ezin da berritzaile gisa bakarrik aurkeztu: 1745 baino lehenagoko euskararen egoeraz ez dakiguna eta Larramendiren iturriez dakiguntxoa (zein dira? zer lortu zuen haietatik?) alde batera utzita ere, pentsatzekoa da besteek bezalaxe (cf. <ref type="bibr" target="#b65">Lakarra 1994</ref><ref type="bibr">Lakarra eta 1995</ref> askotan atzizkien erabilera oinarri gehiagotara hedatuz beste gabe jokatu zuela, hots, eratorbidea hitzen kopuruan baizik berritu gabe; izan ere, azterketarik azalekoenak ere agerian jartzen du hiztegiko hitz asko guganaino iritsi direla bi mende pasako tradizioaren bitartez, isilpean iritsi ere, etorkia aspaldi ahaztuta eta aurreiritziek ere estalita <ref type="bibr">(Sarasola 1986: 207)</ref>.</p><p>Halere, Larramendiren hitzak bitxiak dira batzuetan, badituzte berak egindakoak -edo berak ukituak (ik. § § 2.5 eta 7.5)-direlako marka zenbait (tradizioa moztu izanak are bitxiago bihurtzen ditu, jakina, baina hau beste kontu bat da), batzuek zenbait baino gehiago: gogora "nork esan, izan ere, arima herratuen psikoanalistaren batek izan ezik, nondik atereak diren megopea edo txaberama?" hura <ref type="bibr">(Mitxelena 1984: 17)</ref>.</p><p>Bietatik espero dugu, beraz: tradiziotik eta berrikuntzatik. Neurrian dago koska, orduan. Noraino da Larramendi aurreko joeren jarraitzaile zintzo? Noraino da berritzaile? Noraino joera zahar zein berrien bultzatzaile? Are gehiago: noizbait jakingo ote dugu atzizkibidea indartzen eta norabide batean edo bestean eramaten HH-ak izan zuen eragina? Zirriborratu dugun testuinguru eskasean ez dira erantzun errazeko galderak, nondik hasi jakin ezinik bagenbiltza behinik behin. Zorionez, bi euskarri argi izan ditugu eskueran: batetik, nabaria zen lehen-lehenik iturrien xerkan aritu beharra <ref type="bibr">(Urgell 2000b, etab.)</ref>. Bestetik, gogoan izan dugu Lakarrak (1993: 345-346) egindako iradokizun argigarria: "[orduan euskaraz] ez izaki atzizki bakoitzaren zedarriztapen tinkoegirik, usadio bereziak aurki daitezke egileen artean bai atzizki hautapenari eta baita atzizki bakoitzaren balioari doakionez. Honela bada idazleen artean, areago haien zabaltzaile nagusi diren hiztegigileenean. Eginkizun emankor dugu atzizkiak arrasto edo aztarna gisa erabiliaz ondutako euskal hiztegien azterketa historikoa".</p><p>Honako honetan eutsi egin diogu iradokizun horri, eta Larramendik bere hitzei erantsitako ezaugarri bereziak harrapatzera jo, eratorbidean parte hartzen duten osagai guztietan. Haatik, zehatz-mehatz ez dakigu zer den arrunta XVIII. mendeko euskaran, esan bezala, are gutxiago Hegoaldean; honegatik, nahitaez azterketa orokor bat egin behar izan dugu (nahi baino mugatuagoa, halere), osterantzeko lekukotasun zaharren laguntzaz ohikoa eta ohiz kanpokoa -baita ezinezkoa ere, nahi bada-ahaleginean geuk bereizirik. Honela, HH-aren ez eze, badirudi aurrerapenen bat egin daitekeela euskal atzizkien historiaren ezagupenean ere.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>210</head><p>Ideia hauek buruan, arretaz eta kontuz begiratu ditugu lagineko hitz guztiak, buelta eta buelta ibili ditugu, banakako azalpenak ez ezik, batez ere HH-ko hitz eraketa azal dezaketen erregulartasunak ere aurkitzeko.</p><p>Aurkezpen hau ez legoke osorik, ordea, egin dugun lana dela-eta kezkatzen gaituzten bi gai aurkeztuko ez bagenitu, ondoko ikerketen eskarmentu eta gaztigu. Hona hemen, beraz. Alde batetik, beldur gara azalpen bila aritzeak berak ez ote duen azalpena aurkitzea derrigortzen -Gödel-en teoremara joz (zuzen, espero dut)-; batzuetan argi daukagu erregulartasuna frogatzen duten adibideak halako susmoak aihenatzeko beste eta gehiago ere badirela, baina ez beti. Kasualitate eta erregulartasunaren artean bereizteko modu bakarra, zalantzarik gabe, aurrerantzean corpusa zabaltzea izango da. Bestetik, azterketa honetan bazegoen bi esparrutan murgiltzeko aukera: hemen gure arauen arabera jokatu dugu nagusiki, baina arloari Larramendiren ikuspegitik ere hel dakioke. Lehen bideari ekin diogu, zeren eta hobetsi baitugu lehenik HH-ko zoko-mokoetan pittin bat trebatzea, aurreiritziek haren gainean hedatutako beldurrak uxatzeagatik, baita gure lehentasunetako bat euskararen historiari buruzko informazioa aurkitzea ere bai baitzen. Hortaz, azterketa gure ikuspegira makurtuta dago -batzuek "gramatika lexikoa" deritzenera, zehatzago-, nahiz beste esparruan sartu-irtenen bat ere egin. Esan gabe doa noizbait sakonago ekin beharko zaiola.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Hirukoitz-eko eratorbidearen aberastasuna neurtzen</head><p>2.1. Hirukoitza hiztegi erraldoia da, gaztelaniaz 43.000 bat sarrera dituena, eta euskaraz 87.000 bat testu-hitz, beharbada 40.000 lema ezberdin inguru <ref type="bibr" target="#b87">(Sarasola 1997</ref><ref type="bibr">, Urgell 1998a</ref>  <ref type="bibr">Urgell (2000a)</ref>. <ref type="bibr">27</ref> Guztira 532 hitz, adiera edo esapide berretsi ahal izan ditut, geroago bildutako ahozko lekukotasunei esker, gehien bat, baina argitaratzen den ia hiztegi dialektal bakoitzean berrespen gehiago lortzen dut; gogoan izan behar da, gainera, oso egiantzekoa dela -ia ezinbestekoa, esango nuke-HH-an ahozkotik hartutako hapax bat baino gehiago egotea. <ref type="bibr">28</ref> Laginean 1.070 elkartu ditugu, 968 (%90) lehen lekukotasunak. Eratorriez beheraxeago luzatuko gara.</p><p>Hemen aztertutako eratorrietan, zenbakiak bereziki argiak dira: 2.435 hitz bildu ditugu (laginaren %50, esan bezala), eta haietatik 324 (%13,3) bakarrik lekukotu ahal izan ditugu lehenago; 29 honek esan nahi lezake, besteak beste, ikusten dugun 10 eratorritan 8,5 hitz berriak izan litezkeela; pixkat gutxiago, ziurrenik, 1745 baino lehen daukagun corpusaren urria aintzat harturik, baina mordoa, dena den.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.2.</head><p>HH oso aberatsa da eratorpenean, bada, bai atzizki ezberdinen kopuru erraldoiagatik, baita atzizki batzuen eratorri ugariengatik ere. Hau ikusarazteko, hurrengo taula eratu dugu, erabili dugun sailkapenaren arabera antolaturik, non agertzen baita atzizki bakoitzak corpusean duen adibide kopurua, 1745 baino lehenagoko lekukotasunik dutenen kopuruaren aurrez aurre jarrita: Gogoan izan behar dugu ezagutzen dugun lehen euskal hiztegi handi osoa dela, tamainaz eta asmoz euskal lexikoa jasotzen eta aberasten parerik ez duena XIX. mendearen bigarren zatira arte. Tamainak, ostera, bigarren aberastasun mota bakarrik azaltzen du zuzenean, alegia, atzizki batzuen emankortasunari dagokiona, eta esan gabe doa aberastasun mota hau neurri handi batean hitz-sorkuntzarekin lotuta dagoela.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.3.</head><p>Izan ere, sarrera barruko antolamendua eta familia bereko sarreren arteko erlazioak aztertzen hasi orduko, nabarmen baino nabarmenago agertu zen Larramendik euskararen eratorbideak osorik ustiatzea erabaki zuela, oinarri bakoitza atzizki bakoitzarekin bilduaz, horretarako batzuetan DAut-en nomenklatura berez erraldoiari eransketak egin behar izateraino <ref type="bibr">(Urgell 1999: § 4)</ref>, eta halaxe egin zuela neurri handi batean, nahiz hiztegian aurrera ahala eskakizunak murriztu egin behar izan zituen, sarrienik aukeretako batzuk bakarrik emanez (id. 2002b: § 3).</p><p>Erabaki horren ondorioz, "ordain errekurtsiboak" deitu ditugunak ugari daude HH-an zehar, hots, hala (a) eratorpen atzizki beraz edo berez eratutako sarreretan agertzen direnak, nola (b) oinarri berari balio bereko edo beretsuko atzizkiak ezarriz lortutakoak <ref type="bibr">(Urgell 2001</ref>  <ref type="bibr">desusatu, desuztartu, egintzaile, eltzegile, eltzetxo, emakumezale...</ref> Aipatutako guztietan bi hiztegigileok dira hitzaren lekukotasun bakarrak 1745 arte (baten batean are Pouvreau edo Harrieten laguntzan ere!). Ezin ukatu horietakoren batean hitza herrikoia izango dela, baina kidetasunok gehienbat prozeduretan izan zuten berdintasunaz hitz egiten digute: bersorketaz, alegia.</p><formula xml:id="formula_0">debekatzaile, deadarti (U deiha-), deskoloretu (U deskoloratu), desohoratzale (U -tzaile),</formula><p>2.6. Alabaina, esaten ari ginen bezala, ez datoz bat atzizki ezberdinen kopuruan eta, kasu honetan, tamainaz baino, inondik ere Larramendiren lanaz gehiago hitz egin behar dugu: ordura arte Iparraldean bakarrik ezagunak ziren atzizkiak (-go eta -pen dira aipagarrienak) edota Hegoaldeko literatura eskasak inoiz ez islatutakoak (-keta, adib.) zein bakanki jasoak (-era, adib.) bildu izanaren ondorio dugu aberastasun hau.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.7.</head><p>Bada bien artean beste ezberdintasun garrantzitsu bat: zerrendan ondo nabaritzen da Urtek Larramendik baino hitz eratorriak diren-direnean mailegatzeko joera handiagoa duela, bai eta atzizki mailegatu gardenak (-dade, -zio, -antzia, -mendu) erabiltzeko ere. Larramendik honako hauen adibideak baino ez ditu: 30 -ARIO: abezedario "abecedario". -ERA 1 , -ERO 1 'langilea, x-tan aritzen dena': adultero "adúltero" (1571), albokero "alboguero", arraskera "fregona". -ERA 2 'tresna': arratera "ratonera". -ESA: abadesa "abadesa" (1562), alabesa "alavesa", artxidukesa "archiduquesa" oportunamente forma sus derivados el Bascuenze, bastan éstos <ref type="bibr">(Larramendi 1729: 268)</ref>.</p><p>Artean atzizki berriak biltzeko parada izateaz gain, hiztegiko sarrerak osatu beharrak berrikuntzak egitera eta atzizki zenbaiten maiztasuna areagotzera eraman zuen. Haietako batzuk, hiru zehazkiago, "De las voces facultativas, y de la licencia que me tomo en la formación de algunos vocablos" atalean (1745: xlviii-l, § XXVI) aipatu zituen: jakinde-tik erauzi zuen -kinde "uzkurtua" delako atzizki berria (cf. 31. oh.) eta gazt. des-eta con-aurrizkiak ordezkatzeko erabili zituen eusk. des-aurrizkia eta -kide, -kida, -kidatu familia (cf. <ref type="bibr">Azkarate 1992</ref><ref type="bibr">eta Urgell 2000c</ref>. Hiztegiak hori baino informazio gehiago dakar, baina gehiena sakabanatuta dator erdal aurrizkien sarreretan, baita -bereziki-zeharo gutxietsi den beste leku batean: etimologietan, hain zuzen. Esan gabe doa sakabanaketak ez diola lagundu: atzizki baten baino gehiagoren azalpena falta dugu arrazoi honegatik eta, gerora begira, gramatikan iragarritakoa praktika lexikografikoan bakarrik gauzatu zelako -eta nolabait azpijokozko-halako itxura bat eman izan dio, ziurrenik.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Atzizki bakartuak vs. emankorrak</head><p>3.1. Larramendik euskal hitzak oro irabiatu zituelako ustea muga egokiagoetara eramatearren, ezer baino lehenago azpimarra dezagun ezen, HH-an aurkitzen ditugun forma guztiak prima facie azalerrazak ez izan arren, ez dagoela bertan bestetan ezezagun den atzizkirik edo, beste era batera esanda, ez dagoela asmatutako atzizkirik, gure lagineko datuen argitara. Zehatz dezagun: ez gara atzizki erako egitura berriez ari, hiztunak erraz uler ditzakeen eta Larramendik emankorki baliatu zituen -kaitz "gaitz", -goki "dagokiona" edo -(ja)kinde "-logia" bezalakoez, 33 hitz eratorri batzuetako atzizki bitxiez baizik: demagun, nola daude osatuta agerinde "aparecimiento", aieri "propenso" edo aurdera "infancia"? Gaia aztertu ondoren, forma ohiz kanpoko edo ezezagun guztiak atzizki ezagunen aldaerak direlakoan gaude (ik. beherago § 4). Gainerakoan, goiko taulakoetatik izen abstraktuak-eta egiteko erabiltzen duen -kida atzizkia --kide-rekin lotu beharrekoa, noski, eta guk -kidatu-tik erauzitakotzat emana (ik. § 4.9)-bakarrik jo liteke asmatutakotzat, osoki eta erabat ez bada ere.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.2.</head><p>Taulan atzizkien agerraldi kopuruetan ezberdintasun handiak hautematen dira, eta hemendik Larramendiren prozedurari buruzko zenbait ondorio ateratzeko bidea izango dugu: nagusiki, zein diren emankor eta zein ez, baina ez hori bakarrik.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.2.1.</head><p>Honelako hiztegi batean adibideak dozenaka eman dituzten atzizkiak espero izatekoak direnez gero, gure corpus zabal xamarrean behin baino agertzen ez diren atzizkiak dira gehien nabarmentzen direnak, hasteko: -to, -sko eta -skote txikigarriak, -xar adierazgarria, -dui eta -zu multzokariak, -tiar, -duri eta -doro.</p><p>Atzizki hauek bi galdera nagusi eragiten dizkigute: nondik datozen eta zergatik ez dituen Larramendik emankor bihurtu. Bigarrenaren erantzunak bi baino ezin izan: edo itzuri zitzaizkion, edo bestela jakinaren gainean neologian ez erabiltzea erabaki zuen. Ez dago aukera gehiago, baina honek ez du esan nahi bien artean hautatzen erraza izango denik; besterik gabe ez, behintzat.</p><p>Edonola ere, atzizki bakartuek Larramendik egindako bilketaren froga aske bat ematen digute, euskal atzizki ezagunak -nahiz gutxi-asko zabalduak-izanik, iturri jakin bat izan behar baitute guztiek, ahozkoa edo idatzia: -zu-ren kasuan toponimia delakoan gaude <ref type="bibr">(Urgell 2008c)</ref>, eta -to zein -duri-renean Iparraldeko idazleak; 34 nabarmena iruditzen zaigu, bestalde, -tiar eta -xar-ek ere ekialdetik ekarriak izan behar dutela, eta -dui-k mendebaldetik, zehazki nondik ez jakin arren, -sko eta -skoteren jatorriaz daturik ez dugun bitartean. Atzizki bakartuek, hortaz, hitza Larramendik nonbait entzuna edo irakurria izan dela baieztatzeko nolabaiteko ziurtasuna ematen digute.</p><p>"Nolabaiteko ziurtasuna" diogu, eta ez erabatekoa, zeren eta corpusaren lagin zabalago baten gainean erabaki beharko baita zein den hauetako bakoitzaren egiazko estatusa HH-an. Kasuren batean, gainera, aurrez badakigu laginak egiazko egoera ezkutatzen duela: -doro-k (astundoro "pesadamente") Larramendik berezko duen ezaugarri bat -morfoaren hasierako kontsonantea n ondoren ahostunduta (ik. beherago § 4.3 eta 4.4)-duenez gero, aurrez esan daiteke HH-an zehar -toro aldaera nagusiaren adibideak aurkituko direla (osotoro ezagunaren erakoak, alegia) eta, corpusean agerraldi bakarra izan arren, atzizkia hiztegigilearentzat emankor izan zela, neurri txiki batean behintzat.</p><p>Adibide honek goraxeago iradoki dugun zerbait erakusten digu, preseski: corpusean adibide bakarra izatea hiztegigilearen jakinaren gaineko aukera dela batzuetan: gazt. -mente itzultzeko nagusiki -ro eta -kiro atzizkiak hautatu zituen, inoiz edo behin bestelako bideei -haien artean -toro-ri-lekua egin zien arren <ref type="bibr">(Urgell 2004b: § 19)</ref>. Beraz, atzizki bakartuek erakutsi digute, bildutako atzizki aukera zabalaren aurrean atzizkiren bat antzeman ezinik geratu bazen eta ez bazen, batzuetan Larramendik atzizki hautapena egin egin zuela, Lakarrak (1993) aurreikusi bezalaxe.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.2.2.</head><p>Bigarren mailan ditugu adibide gutxi eta denak zaharrak -hots, lehenago lekukotutakoak-dituzten atzizkiak (-kuntza, -(k)ari, -mentu). Aurrekoan aurkitu dugun aukera bera aipatu behar: gure corpusaren arabera HH-an emankor suertatu ez badira ere, nabarmena da literaturan edota ahozko hizkuntzan bizi zirela eta -diren arrazoiak direla-hiztegigileak (1) ez zituen identifikatu, baina ezinbestean ale zenbait bildu zituen; edo, are ziurrago, (2) ez zituen ugaldu, dela haien lekua "betea" zeukalako (-toro-z esan bezala), dela atzizkiak har dezakeen alor semantikoa berez mugatua delako (cf. -(k)ari, gosari, afari, etabarretan baino ez baitago).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.2.3.</head><p>Hirugarrenik, baditugu gehiegi garatu ez zituen atzizki batzuk, batez ere baliokide bat edo batzuk hobetsi zituelako. Adibidez, -kizun-ek 8 agerraldi ditu corpusean, denak lehendabiziko lekukotasunak; -garri-k adiera berean 56 agerraldi di-tuenez, bistan da hanbatik hanbatean hau erabili nahiago zuela (ik. Urgell 2004b: § 16), nahiz -kizun ere emankor izan HH-an. Besteak beste, 8tatik bostetan biak sarrera berean sinonimo gisa agertzen dira, bata zein bestea lehenengoz jasoak, 1715ean topatutakoa (= Urte) salbu ( § 2.4): adikizun eta adigarri "inteligible", apartakizun eta apartagarri "separable", arkizun eta argarri (1715) "aceptable", askakizun eta askagarri "soluble", asmakizun eta asmagarri "acertable".</p><p>Ezustekoren bat ere badugu maila honetan: -tasun gutxi garatutako atzizkia da HH-an, gramatikan izen abstraktugile nagusi gisa aurkeztua bada ere <ref type="bibr">(Larramendi 1729: 265-266)</ref>, izen abstraktuak egiteko bestelako atzizkiak hobetsi zituelako, hain zuzen. Baliteke Larramendik nabarmen zeritzan eratorpena gutxiago garatzea, ez hain nabarmena zeritzana baino. Haatik, -tzaile ugariaren kontrako adibidearen arabera, besteak beste, azalbide historiko orokorrago bat hobetsi beharko, hots, eratorbidearen garatze eta finkatze berankorrarekin lotu (ik. beherago § 6.2).</p><p>Antzera jokatu zuen, bestalde, Iparraldeko tradizioan indarrez zebiltzan -mendu eta -ki 3 atzizkiekin. Honelakoetan oso fenomeno interesgarriak kausitzen ditugu, HH-ko egoera tradizioarekin erkatzen dugunean: a) -mendu ez zuen gogoko, beharbada erdal kutsu nabariagatik (beste azalpen baterako, ik. § 4.11). Izan ere, tradizioan aurki zitzakeenak erraz utzi zituen alde batera: cf. Axularren akusamendu, akometamendu edo Leizarragaren akotamendu, adbenimendu, adbertimendu, aitzinaramendu, apoinktamendu, arnegamendu, abanzamendu, esate baterako. Lakarrak ere (1993: 344) ikusi du Harrieten -mendu ugariak saihestu ohi zituela, bestelako atzizkidunak lehendik bilduak zituelako edota horiek nahiago zituelako. b) Orain emango ditugun adibideen arabera, Lakarrak eman aukera bikoitza bakantzeko paradan gaude: Landucciren kusumoso-ren kasuan bezala, badirudi iturrietan aurkitutako eratorriak berariaz "zuzendu" egin zituela, gustuko ez zituen atzizkiak bere gogokoekin ordezkatuz <ref type="bibr">(Urgell 2004b § § 12.2 eta 19)</ref>. -mendu-k adibide on bat bakarrik eskaini digu: aitzinapen (vs. Ax, Ch, ES aitzinamendu), baina -ki-ren kasua ezin argiagoa da: aberatskiro (aberatski 1665), amuruskiro (amuruski 1715), andizkiro (handizki XVII e.a.), arinkiro (arinki 1627), arraikiro (arraiki 1627), artezkiro (artezki 1571), artoskiro (artoski 1712), ausarkiro (ausarki 1686), ausartkiro (ausartki 1571).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.2.4.</head><p>Azkenik, bereziki emankorrak izan direnez hitz egiteko ordua iritsi da:</p><formula xml:id="formula_2">-go, -tze / -te eta -era izen abstraktuak eta ekintza-izenak egiteko erabiliak, -ki 'gauza' adierako izengilea, -tzaile eta -ari 'egilea' adierako izengileak, -garri eta -kor izenon- dogileak, -tu adizgilea eta -kiro eta -ro aditzondogileak izan daiztezke aipagarrienak:</formula><p>lexikoa aberasteko garatu behar zituen gramatika kategoriak eta are paper semantikoak ere zeinek bere ordezkariak dituzte zerrendan.</p><p>Maila goren honetan ere lekua betea izateak garrantzia izan bide du: badirudi Iparraldeko tradizio indartsuaren aurka aditzondogileak -kiro eta -ro-z egitea -ki-ri eman zion beste betebeharrarekin lotuta dagokeela, hein batean bederen (cf. § 3.3).</p><p>Denak dira HH-aren iragarle: Batetik, gerora bere hartan jarraitu dutenak, lehenengo lekukotasun guztiak edo gehienak bertakoak direlako; esaterako, hona hemen gerora hain emankor izango ziren bi atzizkiren eratorrietatik EH-n bildu direnak (*1745 = HH; gainerakoak lehen testu-lekukotasunak dira guztiak): 35 -GARRI 2 : adierazgarri (1959), alaigarri <ref type="formula">(1848)</ref> Honelako batzuetan, gainera, gaur begi aurrean dauzkagun zenbait gertakariren azken arrazoia aurki dezakegu, nik uste: esaterako, HH-koa ezagututa ez da harritzekoa ekialdeko atzizki guztietarik hain zuzen -go izatea Hegoaldean -ongi ala gaizki-erabiltzen dugun bakarra <ref type="bibr" target="#b45">(Urgell 2004b</ref> Beren artean azpimarratzekoak dira Beriain eredutzat hartuta egindakoak Iparraldeko tradizioaren aurka (-kiro vs. -ki), Larramendiren ustetan bera izanik bertoko idazle txukun bakarra (1745: xxxiv-xxxv): izan ere, ideia hau kontrajar dakioke Iparraldeko atzizkiak bertako hitzekin erabiltzeko joerari ( § 4.11), eta horren arabera ulertu.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Alomorfoen etorkia eta banaketa</head><p>Atal honetan Larramendik berrikuntza asko egin zituen: atzizkiaren forma nagusiaz beste bat emankor bihurtu, alomorfoak testuingurutik kanpo erabili, alomorfo berriak sortu... denetik ikusiko dugu hurrengo lerroetan. Orain arte erdietsitako emaitzen arabera, etsita gaude bildutako hitzak analizatzerakoan aurkitutako arra-ERATORPENA LARRAMENDIREN HIZTEGIAN (I): ERATORBIDEEN ANALISIA 221 zoiak -edo ereduak, beste era batera esanda-atzean zituela, baina egia da ez ditugula beti hauteman. Edonola ere, hitzak eratzerakoan eufonia bilatuz egindako aldaketak ere badira, nabarmen. Beraz, hala nola atzizki baten agerraldi bakantasuna hitz bat entzuna edo irakurria izan dela baieztatzeko argudio indartsua izan daitekeen, badira kontrakoa -hau da, hitz baten berritasuna-erabakitzen lagunduko diguten zenbait ezaugarri oso argi. Lehena alomorfoez egiten duen erabilera berezia da, hain zuzen.</p><p>Ezer baino lehenago, kontuan izan behar dugu batzuetan alde handia dagoela teorian esaten duenaren eta hiztegian aurkitzen dugunaren artean: hainbat kasutan Larramendik atzizki zenbaiten alomorfoak ongi ezagutzen zituela argi badugu ere (hala nola -kide / -ide, -gin / -kin, -tze / -te), 37 hiztegian hautapen erabateko edo ia erabatekoak egin zituen batzuetan (-kide, -kin), eta bestetan aldaera gehiago sortu <ref type="bibr">(-de, -ta, -da)</ref>. Beraz, gramatikariak hiztegigile bihurtzerakoan noiz irekiago noiz estuago jokatzeko izan zituen arrazoiak edo bideak aurkitu beharko genituzke.</p><p>Derradan aurretik, azalpena errazteko asmoz "arau" hitza erabiliko dugun arren, Larramendi gugandik urrun dagoela eratorpen prozesuen eta hauen dimentsio diakronikoaren ulerkerari dagokionez; 38 honegatik bere "arau" kontzeptua aldez bakarrik dator bat gurearekin. Bere garaian -lehenago eta beranduago ere bezala, XIX. mendera arte bederen-"analogia" kontzeptu nagusian oinarritzen da. Analogia adiera zabalean hizkuntzak duen erregulartasunaren isla litzateke, "anomalia" edo irregulartasunaren aurkakoa, jakina; eta adiera hertsiago batean matematiketan "proportzioa" deritzana <ref type="bibr">(Lyons 1981: 6-9)</ref>. Beraz, hitzak analizatuz dena delako paradigmaren eredua aurkitzen da; behin eredua aurkituz gero, analogiaren bitartez, Larramendik sortzen ditu hitzak, entzun edo irakurritako hitzen eredura, alegia: argitu "alumbrar": argitzaile "alumbrador" (1617) erlazioarekiko analogiaz, agripetu "certificar": agripetzaile "certificador", agurtu "saludar": agurtzaile "saludador"... Alabaina, kasuan kasuko paradigma zein den eta, beraz, analogia noraino hedatzen den, hori berak erabakitzen du. Honek azaltzen du geroko lerroetan "betetakotzat" joko ditudan arau direlakoek gehienetan salbuespen nabariak izatea.</p><p>Atal honetan hiru gertakari nagusiz hitz egin behar dugu: (1) Larramendi batzuetan ez zen alomorfoen arteko banaketa agintzen duten arauez ohartu; (2) euskaraz ohiko (baina ez nahitaez orokor) diren zenbait arau orokortu zituen; eta (3) alomorfo multzo ezagunen ezaugarri zenbait forma bakarreko atzizkiei erantsi zizkien.</p><p>Lehenengoaren ondorioz, alomorfoak ausazki banatuta eta, areago, bigarren mai-lako aldaeratzat ditugunetako batzuk gailenduta daude HH-an; bigarren eta hirugarrenaren ondorioz, ordura arte sekula ez lekukotutako aldaerak aurkitzen ditugu. Esan gabe doa hauxe dela HH-ko hitz zenbaiti hartzen diegun itxura berexiaren arrazoietako bat. Honen inguruan, zehazkiago, hurrengo gertakari motak antzeman ahal dira:</p><p>4.1. Testuinguruari zor zaion aldaera hobetsi du, morfoaren itxura neutroaren kaltetan: HH-an -kai, -kin eta -kintza euren nagusi diren -gai, -gin eta -gintza baino biziki maizago agertzen dira. Testuinguru egokirik gabe lehenengo aldaeramultzoaz egindako eratorriak, gehienak berriak (Larramendik eratuak) dirateke, beraz (cf. aginaterakai "sacamuelas, el instrumento", aisakondairakin "novelador", adrilukintza "froga, fábrica de ladrillo"...); ez dugu erabateko ziurtasunik, halere, batzuetan formak ordezkatzen ikusi dugunez gero (cf. gorago § 3.2.3.b). Bigarren multzoaz egindakoak, aldiz, eskuarki tradiziozko erabileraren hondarrak bide dira (apaingai "adorno", altzairugin "(fabricador de) acero", argintza "cantería"...), bat edo beste hiztegigileak hartu zuen kasuan kasuko erabakiaren fruituak badirateke ere: cf. "Festejo, asguiña, ascaya" sarrera harrigarria, hasiera batean bederen, 39 non txistukari ondoan -hain zuzen ere-bietara jokatu duen, atzizki batean batera eta bestean bestera.  <ref type="bibr">39</ref> Lehen bulkada &lt;gu&gt;-ren ordez &lt;qu&gt; irakurtzea bada ere, asgindu "festejar" familiakideak bermatzen du &lt;gu&gt; irakurketa zuzena dela; nolanahi ere, corpusetik kanpo beste adibide bat aurkitu dut: ikusgin "vista". Beraz, formalki normala bide da HH-aren barruan, eta osaeraren aldetik atsegin-ekin lotu beharrekoa izango da, agian haren bermoldaketa gisa (ik. § 7.4.6). <ref type="bibr">40</ref> Halaxe da Larramendik ezagutu zuen euskaran nahiz, ezaguna denez, euskal atzizki batzuek kontsonantea berezkoa izan ez: -(k)eria, -(k)era eta -(k)eta, besteak beste <ref type="bibr">(Mitxelena 1977: 247-251)</ref>. <ref type="bibr">41</ref> Jakina, eragileen artean iturriko testuingurua ere aipatu behar da: Etxeberri Ziburukoak zein Axularrek, biek dituzte itzulpen okerra eragin zezaketen pasarteak, bereziki ahaikoa eta (h)urkoa elkarren aldamenean agertzen direnetakoak; cf., adibidez: Ezbaitzarete urkoez gehiago orhoitzen / eta ahaikoagatik laguntzera khexatzen (Man I 122) eta Haraguiaren amorio desordenatuac (...) eztuela den begi-zorroztasuna gutxietsi behar: "cognación, aidagoa, ahacoa" sarreran hitz klasikoa eta egokitzapen berria (berregiketa etimologikoa?) biltzen dira, ahakoa behintzat ongi ulertu baitzuen ( § 7.5). <ref type="bibr">42</ref> Horzkari hasierako bikoteen (-di / -ti eta -dura / -tura) egoera aldez ezberdina da, bai baitirudi bi aldaerak gauza bera zirela antzematera iritsi zela: -ko-z eta -karri-z ez bezala, -ti eta -tura-z hitz berriak egin zituen baina, eta honetan datza gakoa, beren burua salatzen dute: testuinguru egokia aurkezten duten hitz guztiak (amezti, arizti eta ahanztura, antura, aztura, (aragi)lotura) zaharrak dira, 43 testuinguru berean -di daukaten hitzak (artelazdi, arkaizdi) eta handik kanpora -ti eta -tura dutenak (arkoskati 44 eta askatura) lehenago lekukotu gabekoak diren bitartean. Kasu honetan, gainera, Larramendiren lekukotasuna dugu, jakin gabean gauzak zein oker uler daitezkeen jakiteko:</p><p>Dia llamamos a la multitud (...), y es voz que se pospone en la composición con otros nombres, v. gr. gende-dia, guiza-dia, izardia, multitud de gente, de hombres, de estrellas, y se muda en tia final en los nombres que significan junta de muchos árboles, plantas, &amp;c., aunque también se queda el dia sin immutación <ref type="bibr">alguna, sagastia, sagardia, manzanal; mastia, masdia, viña; inchaustia, inchaurdia, nogales, &amp;c. (1745: xvi-xvii)</ref>.</p><p>Hirugarren bikote batean (-dun / -tun) orain artean esandakoaren salbuespen bakarra aurkitzen dugu: lehenago lekukotutako hitzetan -dun-en aleak bakarrik eduki eta berrietan legea aldizka bete ez zuen arren (andezdun, anzdun, aranzdun, aldasdun eta arusdun lekuko), 'txistukaria + -tun' adibideen ugariak <ref type="bibr">(aiztun, alikeztun, alkabuztun, arkaiztun, arpeztun, artikastun, artukiztun, austun)</ref>  ahostuntzeari ohi baino garrantzi gehiago eman ziola, guztiz -n osteko testuinguruan. Honen ondorioak hiru puntutan bil daitezke: 4.3.1. Aldaera ahostun ezaguna daukaten atzizkietan, bi aldaeren arteko banaketa ona izan ohi da n ostean (nahiz ez erabat sistematikoa, -du partizipio markan izan ezik); l eta r hotsetan gorabehera gehiago dago, eta atzizkiz atzizki ikusi behar da: -tegi agertzen da beti, adibide zaharretan bezala (cf. afaltegi eta artegi, biak Leizarragarenean); -dari-ren kasuan aditz partizipioa erabakigarri izan ohi da: -du-k -dari eskatzen du (azaldu-tik azaldari "comentador") eta -tu-k -tari (agertari "manifestador", agurtari "saludador"...); arau berberak azal lezake adimentar "intelectual" (&lt; adimentu), gainerakoan -dar-ek bai l (axaldar) bai r (lonbardar) osteko ingurunean agertzeko gaitasuna duen bitartean. 46 4.3.2. Bazterreko adibideetan baizik idorotzen ez den aldaera ahostuna daukatenetan ere antzeko joera antzematen da, beti n ostean: astundasun "peso, pesadez" (vs. argaltasun, alfertasun), adinondo "medianamente", arindo "ágilmente" (vs. ausarto "determinadamente"). 47 4.3.3. Espero ez genezakeen atzizkietan ere aldaera ahostunak agertzen dira; halaxe sortu bide dira -de (&lt; -te), -geta (&lt; -keta) eta -doro (&lt; -toro) alomorfo berriak: cf. abrilde "immolación", adinde "precissión", arbilgeta "albóndiga", azalgeta "explicación" edo astundoro "pesadamente" (ik. Urgell 2004b: § § 11, 12.3 eta 19.5).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4.4.</head><p>Larramendi atzizki batzuek kontsonantedun eta gabeko aldaerak dituztela ohartu zen, nonbait, 48 eta hala zeritzanean -eufonia lortu nahiz, ziurrenik-aukera hau hedatu zuen, HH-tik kanpora sekula lekukotu ez diren kontsonante gabeko aldaerak (ber)sortuaz: -intza (&lt; -kintza), -i (&lt; -ti izenondogilea), 49 -ura (&lt; -dura), -i (&lt; -ki 3 ); bereziagoa da -kide / -ide-ren eredura sortua bide den -kida / -ida (auskorridea eta erorkorridea (mug.) "fragilidad"; ik. beherago § 4.8). <ref type="bibr">50</ref> Badirudi ezberdintzat jo behar dugula gure laginean -unde itxuran bakarrik (adiskiunde "amistad", adiunde "audiencia") agertzen den ohiko -kunde-ren aldaera: hiztegi osoko azterketaren zain, bi ideia aurretiaz: batetik, -kunde bera ez zukeen ezagutzen, edo ez zukeen gogoko (cf. § 3.2.3, gorago); bestetik, baliteke hitzon eredua disimilazioz sortua bide den jakiunde (1713) hitz zaharra izatea. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4.5.</head><p>Alderantzizkoa egiten ere jakin zuen, hots, berez bokalez hasten diren atzizkietan kontsonantez hasitako aldaerak sortzen: -tada &lt; -ada (aurketada "trompada, golpe cara con cara"), -dera / -tera &lt; -era (aitzindera "anticipación", alargundera "viudedad", arindera "agilidad" eta aurdera "infancia" / aurtera "niñez"), 51 -kaira &lt; -aira (akerkaira "cabronada"), -deta &lt; -eta (atsegindeta eta naideta "plácemes"). Azpimarratzekoa da erantsitako kontsonanteak beti k edo t (eta d aldaera modura) izatea, gainerako atzizkietan nagusi dabiltzanak errespetaturik, alegia. 4.6. Analogiaz, emaile bezalako hitzetan ikusten zuen **-aile hura -tu / -du partizipio zenbaitetara hedatu zuen: argedaile (&lt; argedatu), azaldaile (&lt; azaldu). Bigarren forman, gainera, kontsonantedun atzizki (-daile) bilakatuta dakusgu. Beharbada arpeztaile ere honela azal daiteke, ekialdean aski ezaguna den -taile-ren bitartez baino errazago bederen. 4.7. n ostean -de (&lt; te) daukaten hitz anitzen analogiaz, halaber, -nde hartzen dute hainbatek (agerinde "aparecimiento", aldande "alteración", anizkidande "comunicación", anzinande "decanato"...), eta batek bederen -lde (aboalde "confesión" &lt; aboatu "confessar").</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4.8.</head><p>Jatorriz bukaeran e duten atzizkien a bukaerako forma berriak aurkitu ditugu batzuetan: HH-tik kanpo ere ezaguna den -tza 3 / -tze bikoiztasunaz gainera, -te aditzizenaren -ta / -da aldaera berriak, batetik; bestetik, -kide-ren familian sartu behar dugun -kida atzizki berria (gorago aurkeztu dugu: § 3.1).</p><p>Forma horiek fenomeno orokorrago baten barruan ulertzekoak dira: izenen -e/-a bukaerak txandakatzeko edo, zehatzago, bata bestearen lekuan aise erabiltzeko Larramendik izan zuen joeraren barruan, alegia. Joera hau azaltzeko hainbat arrazoi batzen dira, eta bakoitzarekin lotutako hainbat ondorio ere baditu; laburbilduta, honako hauek: (1) elkartuen lehen osagaiaren bukaeran e &gt; a aldaketa gertatzea <ref type="bibr">(Urgell 2008a</ref>); baita eratorrietan ere, jakina (ik. beherago, § 7.2.4); (2) -atu partizipioetatik Larramendik atzeranzko eratorpenaz -a bukaerako izenak ateratzen ditu, direnak eta ez direnak <ref type="bibr" target="#b45">(Urgell 2008b</ref>): cf., adib., arika "cansancio" &lt; arikatu edo arbuia "reprobación" &lt; arbuiatu, vs. arbuio (1636, HH-an ez jasoa); (3) izen mugatuetan a + a &gt; -ea zein -a bikoiztasuna onartu du batzuetan (abadesa, abadesea "abadesa" edo aska, askea "artesón", adib.), eta bestetan berak sortu (ahalkea, ahalka "confusión", aldea, alda "lado", adib.), antza denez, hauetan ere -atu partizipiotik abiatuta (ik. Urgell 2001: § 5.2.1).</p><p>Gure ustez, bada, argia da -kida atzizki berria ere partizipiotik -gazt. conaurrizkia aditzetan ordezkatzeko erabili zuen -kidatu delakotik-sortutakoa dela, corpuseko adibide gehienak deberbalak direnez gero (alaikida "confortación" &lt; alaikidatu "confortar" erakoak; ik. Urgell 2004b: § 2.7). Gainerakoan, izenen amaieran a zein e egoteko aukera hori dago, inondik inora ere, -ta / -da alomorfo bikotearen sorreran (ibid. § 11), eta bertara jo beharko dugu baita -tza 3 eta -tze atzizkien artean antzeman dugun muga lausoa azaltzeko ere (ibid. § 12.5).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4.9.</head><p>Beheranzko diptongoaren ostean atzizkiaren hasierako a desager daiteke, bokal bilkura saihesteko, nonbait: antzeskaida "pincelada" (&lt; antzeskai "pincel" + -ada), arauga "arte, libro en que están las reglas" (&lt; arau + -aga).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4.10.</head><p>Bokal arteko d / r zalantzaren <ref type="bibr">(Mitxelena 1977: 227-229)</ref> ale zenbait itzuri zaizkio hiztegigileari: aldaskari "pimpollar", almendrari "almendral" (-ri &lt; -di) eta atzeraida "retrocesión, retroceso" (-aida &lt; -aira). Hirurak disimilazioz azal daitezke erraz, baina atzeraida, behinik behin, hitz berria denez gero, hemen ere badirudi Larramendik berariaz egindako aldaketen aurrean gaudela. 4.11. Larramendik Iparraldetik mailegatu zituen atzizkien artean sartu behar ditugu -tzale eta -zale, -tzaile-ren aldaerak. Esanguratsuki, Iparraldeko literaturan bakarrik erabiliak ziren aditzei erantsita agertzen dira beti (aitzinatzale, amatigazale...): Etxeberri Sarakoaren hiztegiak zerikusiren bat izan lezakeela zeharo baztertu gabe (cf. Urgell 2000e), baderitzat berariazko erabaki baten ondorioak direla, berak ezagutu zituen testuetan lekukotutako -(t)zale-ak -denak orokorrago diren aditzei erantsita--tzaile gisan agertzen baitira HH-an: aditzaile "entendedor" (1571 aditzale), administratzaile "administrador" (1571 administrazale), adoratzaile "adorador" (1571 adorazale). Antzerako egoeran egon liteke -mendu atzizkia ere (cf. gorago § 3.2.3), hots, berarentzat Iparraldeko mintzoari zegokiona bide zen: cf. aurizkimendu "tropelía, atropellamiento" (&lt; aurizkitu "atropellar", Leiz, Ax aurizki aditzaren ordezko okerra), lehenago lekukotugabea; nolanahi ere, gorago adierazi bezala, atzizki hau berez ez zuen gogoko, goiko aitzinatzale-ren aurrean aitzinapen baitugu, tradizioaren aurka (vs. Ax, Ch, ES aitzinamendu).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4.12.</head><p>Alomorfoen arteko banaketa ez da beti fonetikoa, atal honetan nagusiki ikusi bezala, ez eta euskalkiari dagokiona bakarrik, aurreko ataltxoan iradoki bezala: aitzitik, corpusean ugari islatuta dauden atzizki zenbaitetan agerian dago funtzionala ere izan zela, batzuetan behintzat. Izan ere, badirudi halakoetan, bederen, alomorfo taldea bitan banatuta dagoela: batetik, "forma kanonikoa" izena emango dioguna, atzizkiaren ohiko ezaugarriak atxikitzen dituena (haien artean ohiko oinarria ere: ik. beherago § 5.3), eta askeago dabilena edo dabiltzanak.</p><p>Honela azalduko genuke, besteak beste, hitz eratorri soilaren eta elkartuen bigarren osagaian agertzen denaren artean ondoko adibideotan aurkitzen dugun oposaketa, forma kanonikoak -tze eta -tzaile, eta forma askeak -te eta -le direla erakusten diguna: cf. iltze (cf. aitaren iltzea "parricidio", adib.) vs. aurrilte "infanticidia", edo botatzaile "echador" vs. arbotale "catapulta", esate baterako.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Oinarriak</head><p>Lanak izan ditugu kontu honekin, atzizki gehienen oinarrien saila HH-an aski ñabarra, batzuetan erabat tradiziorik gabekoa eta, hortaz, gure begien aurrean aski nahasia ageri delako. Gogoan izan dezagun, hasteko, duela ez gehiegi arte arlo ezezagun xamar edota landugabea izan dela morfologian; euskarari dagokionez, zehazkiago, Azkarateren lanak arte <ref type="bibr">(1991,</ref><ref type="bibr">1992)</ref> ez zegoen honi buruzko inolako kezka sistematikorik, eta sailkapen garrantzitsuenak <ref type="bibr">(Azkue 1923</ref><ref type="bibr">(Azkue -1925</ref><ref type="bibr" target="#b64">Lafitte 1962</ref><ref type="bibr" target="#b64">Lafitte [1944</ref>) hitz berriaren gramatika-kategoriari, atzizkiak zer sortzen duen eta hari begira egindakoak dira <ref type="bibr">(Azkarate 1991: 25)</ref>. Beraz, balirudike alferrikako lana dela XVIII. mendeko gizon batengan hitz berriak egiterakoan xx. mendean ere nekez azaleratu zen kezka hau bilatzea eta, ondorioz, halakoak tradiziozko oinarriak eta eurak bakarrik erabiliko dituela espero izatea.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ERATORPENA LARRAMENDIREN HIZTEGIAN (I): ERATORBIDEEN ANALISIA</head><p>Dena dela, Larramendi ustezko erruez -zeharo anakronikoak badira ere-garbitzea, arazoari oker heltzeko modua delakoan gaude. Atzizkien erabileraz egin zituen deskribapenetan haien oinarriak, agerriki edota adibideen bitartez, ongi zehaztuta ohi daude eta, halaz ere, HH-ko eratorrien ezaugarrietatik bat, oinarriko kategoriak hautatzeko bere buruari eman zion askatasuna da. Errua ezin egotz diezaiokegu ezjakintasunak eman ohi duen ausardiari, beraz: ziurrenik ez da erabat oharkabean egindakoa, atzean eragile ezagun eta indartsua -analogia-daukan erabakia baizik. <ref type="bibr" target="#b0">52</ref> Beraz, oinarriak Larramendiren hitzak ezagutzeko bide errazak dira, tradiziozkoak zehaztuta dauden heinean. <ref type="bibr" target="#b1">53</ref> Ondo ezarritako tradizioak hausten ditu batzuetan, esate baterako -go atzizkia aditzoinari eransten dionean (asigo "comienzo", aturdigo "aturdimiento", etab.), edo -le izenaren ostean agertzen denean (ardanle "vinatero", ardazle "hilandera"). Halaz ere, HH-an nabarmenki emankor diren zenbait atzizki (-kor eta -garri izenondogileak, esaterako) betiko oinarriari eta hari bakarrik atxikitzen zaizkio.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.1.</head><p>Edonola ere, HH aztertzerakoan ez genuke inoiz ahaztu behar literatur iturri ezagunak izan zituela eta, beraz, teorian legez kanpokoak edo ohiz kanpokoak diren zenbait gertakari praktikan haien ereduari jarraituz -batzuetan pittin bat aurrerago joanez ere-egindakoak direla, hala nola oinarrian aditzoina daukaten -ari atzizkidun formak (cf. harrapari 1571, sendari 1627).</p><p>Eredu zehatzei ez ezik, badirudi euskararen "arimari" jarraiki egindakoak ere badaudela: partizipioa + -ki tradiziozko egituraren arabera (cf. afekzionatuki, ohoratuki, seinalatuki 1571) part. + -ro edo -kiro egiturako hitz berri batzuk daude HH-an, baina aditzoina + -ro edo -kiro (gutxiagotan baita -ki eta -to ere) kideko egiturako hitzak are gehiago dira (asmaro "acertadamente", agerkiro "manifiestamente"...); aldaketa txikia bada ere, komeni da azaltzea tradiziozkoa dudarik gabe erromantzeetako part. + -ment(e) egituraren kalkoa baino ez dela, eta gainerantzean -Larramendik erraz antzeman zezakeen bezala-euskaraz salbuespena dela, aditzoina baita erator atzizkiek eskatu ohi dutena, baita aditzoinaren gainerako erabilerak erabat galdu dituzten hizkeretan ere. 54</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.2.</head><p>Hala eta guztiz ere, elkarren artean lotura zuzenik ez daukaten taiu bereko edo beretsuko berrikuntza zenbait aurkitu ditugu. Esan gabe doa hizkuntzak aberaspide kopuru mugatua daukala; honegatik, espero genezake antzeko premietarako antzeko aterabideak aurkitzea: Harrietek eta Larramendik, biek jakinaren gainean ateratzen dute -di atzizkia toponimiaren eremu ihartutik, nahiz bietarako, beharbada, Etxeberri Ziburukoaren eredua kontuan hartzekoa den (cf. Urgell 2004b: § 6.1). -kide atzizkiaren erabilera ugaltzeko Larramendik izan zuen eredua ongi ezagutzen dugu: Leizarraga (Larramendi 1745: L); halaz ere, honek ez bezala, aditzoina erabili zuen batzuetan oinarrian (agerkide "conspicuo", auzbakide "audiencia, tribunal" &lt; bakide "conjunto"). HH-koak ez dira, ordea, era honetako lehen hitzak, zeren eta ia ehun urte lehenago Oihenartek ezkontide eta bilhakaide baitakartza (ap. <ref type="bibr">Azkarate 1994: 57)</ref>. Eta, dena dela, ez dukete hauek HH-koek baino zaharrak izateko aukera gehiago: 1745 arteko adibide bakarrak izatea aski ez balitz, Oihenartek "hitz bekanen adigarrian" ezkontide azaldu beharra sentitzea ere ("c'est ce qu'on dit en latin conjux, le marie, ou la femme", ap. Orpustan (arg.) 1992: 102) aski adierazgarritzat joko nuke. 55 5.3. Dena dela, orotara berrikuntza asko antzeman ditugu HH-an. Ikus ditzagun gertakari mota batzuk:</p><p>(a) Atzizki indartsu batek gutxi gorabehera betebehar berekoa den beste bat kutsa dezake, berezko duen oinarria harraraziaz; adibidez, -koi-k izenaz gainera bere kide -kor-ek berezko duen aditzoina ere hartzen du (aldakoi "tornadizo"…). (b) Alomorfoetan bat hobeki atxikitzen zaio tradiziozko oinarriari, gainerakoak askeago dabiltzan bitartean; adibidez, -tze dugu aditzizenaren ordezkari kanonikoa; beraz, oinarria [-aditza] denean, -tze ez den zerbait aurkitzen dugu, hots, -te eta gainerakoak (ainaldaste "preciosidad" &lt; ainaldatsu "precioso", aldakoide "mutabilidad" (&lt; aldakoi "mudable"...; Urgell 2004b: § 11). Banaketa bera kausitzen dugu -tzaile kanonikoaren eta -le askeagoaren artean, jadanik ezagutzen ditugun ardanle eta ardazle adibide bakanetan bada ere (ibid. § 3.2). Gorago ikusi dugu honek alomorfoen arteko banaketa funtzionalean ere baduela eraginik ( § 4.12). (c) Instrumentala ere ohiko oinarrietako bat izaten da HH-an. Adibiderik azalerrazenak 'gauza, zera' adierazten duen -ki atzizkiarenak dira (cf. aozki "voz" gardena); -zko ezagunarekiko analogia dabilke hemen, eta bigarren mailan baita Iparraldeko tradizioan arruntak diren -zki aditzondoak ere (handizki, artezki...), agian. Dena dela, beste atzizki batzuekin ere oinarri bera erabili zuen Larramendik: cf. auzkari "perro de pressa" (&lt; auz 'ahoz'), ad(e)raskin "aderezo" (= 'aderaz [= 'en orden'] jartzeko balio duena'), 56 arrizde "encanto, encantamiento" eta arrizkun "admiración" (&lt; (h)arri-z).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.4.</head><p>Azpimarratzekoa da aldaketa garrantzitsuenek ez dutela nahitaez gramatikakategoria eragiten: ezaguna denez, atzizki batzuek murriztapen semantikoak dituzte, eta hauetako zenbait ere gainditzeko gai izan zen Larramendi, beti analogia lagun:</p><p>(a) Paper tematikoen aldetiko murriztapena, hala nola -kin, -gile eta -kintza atzizkiak 'egitearen xedea'-ren ordez oinarrian 'egilea' (arozkintza "carpintería, el oficio") eramatea, edo 'egitea' bera, aditzoina alegia: aldagile "año climatérico, en que dicen se altera y muda el temperamento", amarazkin "filtro, ERATORPENA LARRAMENDIREN HIZTEGIAN (I): ERATORBIDEEN ANALISIA 229 <ref type="bibr">55</ref> Azkaratek <ref type="formula">(1994)</ref> Oihenarten lexiko-sorkuntzari eskaini dion lanean, ez du ondorio argirik atera alde honetatik, hitz berriren bat badela aitorturik bada ere, "...lehen aldiz neurtitz hauetan agertu izanak ez du esan nahi xuberotar poetak asmatuak direnik; izan daitezke herriko hizkeratik hartuak" (op. cit. 50) baitiosku. Kontua ez da erabakitzen erraza, noski. <ref type="bibr">56</ref> Txistukaria era batera baino gehiagotara azal daiteke, baina Larramendiren euskara-erdara hiztegiaren arabera zuzendu beharrekoa da: aderazkiña, adrazkiña (DVC 149). hechizo amatorio" (&lt; amaraz(i)), antzeskintza "pintura, arte" (&lt; antzestu "pintar", edo antzeskin 'pintor', berdintsu zaigu)... (b) Tasunen aldetiko murriztapena, berez 'landarea' edo asko jota 'harria' eskatzen zuten -aga eta -di atzizkiak halako tasunik gabeko izen konkretuei eranstean: atxorroaga "guantería" (&lt; atxorro "guante").</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.5.</head><p>Orain artean aipatutakoez gainera, badira Larramendiren sistema orokorrari -euskal hitza zer den galderaren erantzunari-zuzenean egotzi behar zaizkion oinarri batzuk, zehazkiago, erdarazko hitzen etimologiak (cf. Urgell 2008g) eta onomastikatik datozenak (cf. Urgell 2008c); adibide argi bana baino ez: ardiketa "ardid" (&lt; ardi + -keta; cf. "...puede venir de el Bascuence ardi, ardiz, oveja, de oveja") eta abalzizketa "melodrama, diálogo en música" (toponimo ezaguna, abalia "melodía" + hizketa "diálogo" berranalizatua). 5.6. Azkenik, azpimarra daitezke han-hemen agertu zaizkigun oinarri elkartuak, atzizkirik gabe ezer ez direnak, hala nola abiurki "torzal" (&lt; ari "hilo" + biur(tu) + -ki; cf. DAut: "Cordoncillo hecho de varias hebras torcidas..."), abreunde "hecatombe" (&lt; abre 'abere' + eun (= heca-) + -de), etab. Larramendik berezko -baina ez berea bakarrik-duen sorbidea da. "Elkarte parasintetikoak" izena eman diegu, gaztelaniazko gramatika tradizioan ohikoa den berba batez baliaturik (nahiz eta bertan ere eztabaidatua dela jakin; cf. <ref type="bibr">Miranda 1994: 67-78)</ref>, hoberik ezean HH-ko zenbait gertakari bildu eta izendatzeko egokia delakoan. Honelako hitzen zatirik bereziena oinarria denez gero, elkarketaren barruan aztertu ditugu bereiz (Urgell 2008a: § 3.1.7).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Eratorrien adiera</head><p>Euskarak kultur lexiko osoa beregana zezan Larramendik bitarteko hizkuntza bat, gaztelania, eta haren ispilutzat har zitekeen hiztegirik handiena hautatu zuen. DAut aurrean zuela eta euskararen arimaz eta gorputzaz -berak esango zukeen bezala-zekiena beste laguntzarik gabe, mendeek landu eta leundutako hizkuntza hura hitzez hitz itzultzeko lanari ekin zion. Egitasmoaren handinahi eta gogorra gauza bakar batek leundu zukeen: euskarak bere baitan horretarako eta gehiagotarako ahalmenak badituela osotoro sinistuta egoteak.</p><p>Bi premisa hauek onartuta, hau da, euskara gaurkotzeko eginahal guztia egin behar dela eta analogiak bidea erakusten duela, ez da harritzekoa euskal atzizki zenbaitek HH-an betebeharrak ugaltzea. Esate baterako, bistan da tresna izen pila lehenengoz itzuli beharra izan zuela: horretarako diren -ki (adib. artezki "mira, en escopetas") eta batez ere -kai (adib. adinkai "templador de arpa") atzizkiez gain, 'egile' izenak egiteko balio duten atzizkiak ere lanean ipini zituen (-tzaile izan ezik, honek beti [+ gizakia] tasuna gordetzen baitu; ik. Urgell 2004b: § 3): adib. atiskari "falleba", arbotale "catapulta" edo aizekin, aizegile "abanico"; zenbait harri eta txori-izen -ari eta -le-ren bitartez erdietsi zituen: adiakari "autillo", arakausle "sarcófagos", aunzedosle "chotacabras", azurtxeari "quebrantahuesos"...; eta 'ahalmenak' adierazteko nagusiki -kin atzizkiaz baliatu zen: adikin "entendimiento", autakin "albedrío". 57 Atzizkiz atzizkiko azterketan <ref type="bibr" target="#b45">(Urgell 2004b</ref>) bakoitzaren zereginen ugaltzea norainokoa den sumatu ahal izan dugu, baina hemen bost gertakari jaso nahi nituzke bereziki: gaztelania eta euskararen arteko bana-banako egokitasunak ( § 6.1), izen abstraktuen eta ekintza-izenen arteko muga lausoa ( § 6.2), erdal erlazio-izenondoak itzultzeko baliabideak ( § 6.3), betebeharren ugaltzean DAut-ek daukan papera ( § 6.4) eta sail bereko atzizkien artean egin zituen bereizkuntzak ( § 6.5).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.">Bana-banako egokitasunak</head><p>Hizkuntza biren baliabideak azaletik erkatzen direnean, baliokideak berehala agertzen dira. Larramendi behin baino gehiagotan azterketaren azaleko maila honetan geratu zen, gaztelaniazko eta euskarazko atzizkien artean bana-banako egokitasunak ezarriaz. Honen ondorioak arinak dira batzuetan: adibidez, gaztelaniazko txikigarri markak sistematikoki euskal txikigarri batez (eskuarki -txo-z) ordezkatu zituenez gero, hizkuntza horretan oso ugari diren lexikalizazioek ere -txo daramate euskaraz (azpilduratxo "dobladillo", adib.).</p><p>Haatik, beste batzuetan ondorioak larriak dira, hizkuntza hartzailearen sistema desorekatzerainokoak. Hau dela eta, baitezpadakoa da -garri-ren HH-ko gorabeherak aipatzea: gazt. -ble eta eusk. -garri-ren arteko egokitasunak batzuetan bakarrik funtzionatzen du lekukotasun zaharren arabera: 'x-tua izatea merezi duena' adierazten dutenean (adoragarri "adorable" bezalakoetan), hain zuzen <ref type="bibr">(Azkarate 1991: 78)</ref>. Gainerakoan, egokitasuna -ble eta -kor-en artekoa da (cf. aldakor "variable"), -garri-k berez 'eragilea' adiera baitauka (cf. ahalkagarri "vergonzoso, que da vergüenza"). Eman ditudan adibide guztiak HH-koak dira, baina Larramendik, iturri ezberdinen bitartez, -garri eta -kor-en berezko balioaren halako ale zenbait bildu arren, hitz-sortzaile gisa bi egokitasun erabili zituen batez ere: eusk. Inoiz muga beste alderantz ere higitu zen: -kor-ek adibide batzuetan 'eragilea' adiera dauka, corpusaren arabera gazt. -ivo atzizkiarekin bakarrik: cf. adierazkor "indicativo", arkidakor "inductivo" eta argedakor "retenedor, retentivo", ahaikagarri "provocativo", alaigarri "roborativo", argigarri "iluminativo"... ugarixeagoen aldamenean.</p><p>Dena dela, berrikuntza ez da zeharo Larramendirena, garaitsuan bestetan ere -Urteren hiztegian, zehazkiago (cf. Azkarate 1992: 216-217)-suma baitaiteke. Gaiak azterketa lasaiagoa eskatu arren, badirudi, beraz, oro har latin zein erromantzeetatik itzultzen aritu beharrak eragindakoa dela eta, HH-aren eragina gorabehera, ziurrenik oharkabean hedatutakoa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.">Izen abstraktuak eta ekintza-izenak</head><p>-tasun atzizkiak duen eta euskara historikoan izan duen emankortasuna begi-bistakoa da: esan liteke atzizkirik ezagun eta erabilerrazena dela, eta erabateko adostasuna erdietsi duen gutxietako bat. Horregatik, doi bat harrituta geratzen gara atzizki honek HH-an dituen adibideen urria ezagutzerakoan: ozta-ozta gailentzen zaio -keria beti bakanago izan ohi denari. Kontua da Larramendik bestelako baliabideak erabili nahiago izan zituela, hasiera batean bederen ilunak diruditen arrazoiengatik.</p><p>Hasteko, Iparraldeko testuetan ikasi zuen -go-z baliatu zen batzuetan izen abstraktuak egiteko: andigo "presunción" zaharraren aldamenean arrogo "raridad" eta, analogia haratago eramanez, arimandigo "magnanimidad", askogo "multitud" edo aragigo "carnalidad, luxuria" bezalako hitz berriak eratu zituen. Haatik, -tasun eta -go-ren artean ez dugu HH-ko abstraktu guztien kontu ematerik. Adibide gutxi batzuek erakutsiko digute zer gertatu den: adiakaizte "irregularidad", araude "puntualidad", aitzinera "anterioridad", anraketa "deshonestidad" eta askantza "soltura, agilidad". Honenbestez bistan da ekintza-izenak egiteko erabili ohi diren atzizkietatik zenbaitek abstraktuak egiteko betebeharra ere beren gain hartzen dutela HH-an.</p><p>Gakoa, eta azalpenaren zati bat behinik behin, Larramendi izen abstraktuen eta ekintza-izenen arteko muga argirik ezartzeko gauza ez izatea da. Gorago aipatutakoak baino are bitxiagoak dira (gure ustetan, bederen) aiozkeria "cuchillada" eta atzakeria "rascadura", adibidez, hala nola anditasun "amplificación" edo argitasun "lucimiento" itzulpenak ere. -go atzizkiarekin halako adibideak gehiago dira: aitorgo "confesión", andigo "acrecentamiento", arazigo "coacción"...</p><p>Euskarak -euskara modernoak behinik behin-batzuen eta besteen arteko bereizketa zorrotza egin ohi duenez, honek azalpena behar du. Lehen bulkada kalkoaren eraginari egoztea da: izan ere, euskararen aldean, gaztelaniak (eta latinak ere) muga anitzez lausoagoa du: cf. presunción bikoitza ('harrokeria' eta 'susmoa') edo gordura 'loditasuna' abstraktua vs. torcedura 'okerdura' (ekintza-izena). Halere, kontu honi tentuz heldu beharko diogu, euskal atzizkibideaz egindako azken hausnarketak direla eta:</p><p>(a) Oro har, agian aurrizkidun hizkuntza izatetik, Lakarraren hipotesiaren arabera <ref type="formula">(2005)</ref>, euskara gure aroan zehar atzizkidun(ago) bihurtuz joan da. 1545ean oraindik urrun zegokeen orain dakusagun atzizkien erabilera aberats eta finko xamarretik, eta aberastasun eta finkotasun horiek, hizkuntzaren berezko joerari ez ezik, neurri batean edo bestean literatur hizkuntzaren garapenari ere zor bide zaizkio, ohikoa ere den bezala (ik. <ref type="bibr" target="#b87">Sarasola 1986</ref><ref type="bibr">Sarasola eta 1997</ref><ref type="bibr">Lakarra 1992: 292-294;</ref><ref type="bibr" target="#b58">Bueno 2004</ref><ref type="bibr">Bueno eta 2006</ref> (1) Orain arte halako ziurtasun batez identifikatu ditugun Landucciren emaien arabera, ez dago horrelakorik, denak ekintza-izenak dira eta: biurketa "vuelta", joatea "ida" eta izorratea "preñez" (&lt; içorraytea "id.");</p><p>(2) de <ref type="bibr">Rijk-ek (1995)</ref> Hegoaldean egoera arkaiko horren kidekotzat jo dezakeguna deskribatu du aditzondoak egiteko balio duten atzizkiak aztertzerakoan: eratorbidea nekez erabiltzen da, eta egitekotan adostasunik ez atzizkiaren aldetik <ref type="bibr">(-to, -ro, -toro, -ki, -kiro...)</ref>, berriki zabaldutako aukerak bailiran. Egoera HH-tik aurrera aldatuz joango da, dakigunez, berak bultzatutako -kiro atzizkiaren bitartez lehenik, eta gero orokortuz joan den -ki-ren bitartez (xehetasun gehiagotarako, ik. Urgell 2004b: § 19).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.3.">Erdal erlazio-izenondoak</head><p>Gaurko euskara estandarraren buruhausteetako bat, erdal erlazio-izenondoak -gure inguruko hizkuntzek atzizkien bitartez eroso adieraziak-era batera itzultzeko zailtasuna da. HH-an alde honetatiko mailegu bakar bat ez dagoenez gero, 58 pentsatzekoa da Larramendik bideren bat aurkitu zuela, eta halaxe da, izan ere: izenondoak egiteko balio duten atzizkietatik batzuk zeregin horretarako erabili zituen, nagusiki -ko eta -(t)ar, baina adibideren batean baita -tsu ere, besteak beste. 59 6.3.1. Aitzindari nabarmenak zituen orain ere onartuko genukeen -ko-ren erabilera alde honetatik hedatzeko: adimentuzko "mental" (1571 adimenduzko), aragizko "carnal" (1571) eta aranzezko "espíneo" (1617) bezalako irtenbideak aurreko literaturan aurki zitzakeen; aldameneko "lateral", aoko "bocal" bezalakoek, eguneroko hizkuntzari arreta ipintzeaz beste lanik ez bide zuten eskatzen. Hortik eta antzesteko "pintoresco" (&lt; antzestu "pintar") edo azgarriko "característico"-ra (&lt; azgarri "carácter"), urrats ttiki bat baino ez dago.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>6.3.2.</head><p>Arrotzago egiten zaigu -(t)ar-en erabilera, baina auzkiar "superficial" (&lt; auzki "superficie") edo asiatar "asiático"-k erakusten digute analogiaren lana nondik ibili den, 'x-koa' adieratik 'x-ri dagokiona' adierara ia ezarian igarotzeko. 6.3.3. -ko-ren aldamenean -(t)ar erabiltzeko premia adibide batek erakus diezaguke: "carnal, cosa de carne, araguizcoa" vs. "carnal, luxurioso, araguicoia, araguitarra", hau da, hanbatik hanbatean, -(t)ar-ek [+biziduna] (gehienetan [+gizakia]) adierakoak bereganatzen ditu. Berbera gertatzen da oinarria [+biziduna] denean, -ko-k horrelakorik onartzen ez baitu: aberetar 'brutal', aitar 'paternal', anaitar "fraternal", apaiztar "clerical"...</p><p>Oinarriari dagokionez, -ko dugu forma markatua: [-biziduna] denean, biak agertzen dira aukeran: antzesandecoa eta antzesandarra "parabólico" (&lt; antzesande "parábola"), adib.; eta batzuetan -(t)ar bera bakarrik, batez ere erdaraz -al atzizkia duten hitzetan <ref type="bibr">(Urgell 2004b: § 14)</ref>, oposaketa gordetzeko ardurarik gabe: "Vocal, que pertenece a la voz, boztarra, aosdarra", baina baita "Vocal, el que vota y lleva la voz, boztarra" ere.</p><p>ERATORPENA LARRAMENDIREN HIZTEGIAN (I): ERATORBIDEEN ANALISIA 233 58 Hau ez da zeharo egia, bai baitago bat bederen: apostoliko. Ohartu, ostera, "Sede apostólica" sarrera pean itzuri zaiola Larramendiri, "apostólico"-pean aurkitzen dena apostoluar den bitartean. <ref type="bibr">59</ref> Ez dira baliabide bakarrak: elkarketan ikusi dugu <ref type="bibr">(Urgell 2008a)</ref>, batetik, egoki hitza ere -erlazioizenondoen 'dagokiona' adiera aintzat hartuta, beraz-batzuetan elkartuaren bigarren osagaian baliatu zuela, -goki itxuran ia-ia atzizki bihurtuta (cf. araugoki "reglar", argoki "masculino", arzaigoki "pastoral", aurregoki "pueril"...); eta, bestetik, 'izena + gisako, erako, anzako' modukoak (cf. aberegisako "bestial"). 6.3.4. Oinarria [+biziduna] deneko kasuetan sartzen da, halaber, corpusean bi adibide baino ez dituen -tsu atzizkia, bietan -tar-ekin batera: aitar eta aitatsu "paternal", astoar eta astatsu "borriqueño".</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.4.">DAut-en eredua eratorpenean</head><p>Kultura gaztelaniatik euskarara itzultzen laguntzeko erabili zuen eredu lexikografikoak HH-ko euskal ordainen nolakoan eragina izan zuen. Eguneroko lexikotik kanpoko hitzak itzultzerakoan, haien itxura eta Akademiak ematen zien azalpena hausnartu behar izan zituen, euskal ordain egokiak idoro ahal izateko. 60 Bi arlo horiek -hitzaren itxurak eta definizioak-eragin handia izan dutela agerian jartzen duten zenbait gertakari bildu ditugu ondoren, lehen puntuan definizioari eta bigarren eta hirugarrenean hitzaren itxurari dagozkionak, zehatzago:</p><p>6.4.1. Definizioak euskal elkartuen eraketan garrantzi handia izan zuen (cf. Urgell 2008a), baina eratorpenean halako frogak aurkitzea anitzez gaitzagoa da: atzizkiren batean (ik. -ari, § 3.1, adibidez), iragaitzaz bezala, DAut-eko azalpen moduaren eta HH-ko ordainen artean erlazio zuzen eta sakonagorik egon daitekeela agerian uzten saiatu bagara ere, gaiak hemen ezin egin dezakegun azterketa xehe bat mereziko luke.</p><p>Gaiaren garrantzia azpimarratzeko, dena dela, zilegi bekigu aurkitu dugun adibiderik argiena erabiltzea: artexka "coscoja" eta ataska "compuerta" euskaraz horrela emateko arrazoia, DAut-en azalpenean bilatu behar da, coscoja "especie de encina pequeña" eta compuerta "especie de puerta pequeña" dira eta.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>6.4.2.</head><p>Kalkoak: gorago aipatu dudan azpilduratxo "dobladillo"-ren modura, badira erdal hitzaren egitura -esanahia gorabehera-kalkatzen duten beste zenbait: amorraxka "rabieta" (&lt; amorra(tu) + -xka), argedaile "(virtud) retentrix" (&lt; argeda(tu) "retener" + -aile) edo azkenaitxo "codicilo" (&lt; azkenai "(última) voluntad") bezalakoak. Latinak ere izan du eraginik: -trix eta -ilo horiek -aile '-tzaile' eta -txo-z latinez ezer dakienak bakarrik itzul ditzake. 6.4.3. Atzizki ordezkapena: Etimologiaren bitartez erdal hitz bat euskal etorkikoa dela erabakiz gero, 61 erroa gordeta erdal atzizkia euskal atzizkiarekin ordezkatze hutsaz ordaina eratzeko aukera dago: arbotari "arbotante" (cf. bertako etim. eta botar-ena, besteak beste), artilari "artillero" (cf. artillería-ren etim.), azañotsu "hazañoso" (cf. hazaña-ren etim). Azken adibidean, oinarriaren azken bokalean dagoen a/o txandakatzea gorde egin du (*azañatsu sortu beharrean, alegia), oharkabean edo bestela, ez jakin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.5.">Gaztelaniak euskarari zor dizkion atzizkien berreskuratzea</head><p>Ezaguna denez, euskaraz bizi-bizirik dauden atzizkietatik mordoxka bat latinari edota haren ondorengoei zor zaie; gordetzen duten betebehar eta itxura antzekotasu-nak hain dira nabariak non Larramendi jadanik lotura antzemateko gauza izan baitzen batzuetan, -(k)eria, -ada, -era eta -antza atzizkietan zehatzago (ik. Urgell 2004b).</p><p>Zorra alderantzizkoa dela sinistuta, Larramendik ez du inolako oztoporik, eta bai aldiz joera nabaria, erdal hitzaren atzizkia gordetzeko, 62 batzuetan euskaraz ohikoa den eran, baina bestetan ez, honegatik ez balitz azalpenik ez lukeen hitz taldeño bat lekuko. Ikus dezagun atzizkiz atzizki: 63 -ADA: -ada 1 'X-n sartzen den kantitatea': atzada "dedada".</p><p>-ada 2 'X-z emandako kolpea': adarkada "cornada", agapurukada "mazada" (&lt; agapuru "maza"), aiozada "xiferada" (&lt; aioza 64 "xifero, el cuchillo de matar reses"), aitzurkada "azadonada", antzeskaida "pincelada", aokarukada "dentellada" (&lt; aokaruka "(a) dentelladas"), aotzikada "picotada" (&lt; aotzi "pico de ave"), arbelotada "bodocada" (&lt; arbelota "bodoque"), arrikada "pedrada", atzalada "uñada, señal, impresión con la uña" (&lt; atzal "uña"), atzaparkada "garfada", atzarrada "gatada", aurketada I "trompada, golpe cara con cara" (&lt; aurke "cara").</p><p>Ohiz kanpoko egiturak: aokada "bocanada", astada "borricada", aurketada II "portada" (&lt; aurke "frente").</p><p>Mailegu zuzenak: akatxada "acachada", alborada "alborada", algarada "algarada", almendrada "almendrada", arrakada "arracada(s)".</p><p>-ANTZA: Ohiz kanpoko egiturak: adieranza "significanza" (&lt; adiera(zo) "significar"), aisantza "holganza" (&lt; aisa "holgado").</p><p>Mailegu zuzenak: alabanza "alabanza".</p><p>-DURA: -dura 'ekintza/ondorioa': algaindura "costura" (&lt; algain(du) "coser"), atzekidura "raboseada, raboseadura" (&lt; atzekitu "rabosear").</p><p>Ohiz kanpoko egiturak: aokadura "dentadura" (&lt; aoko "dental"?). Mailegu zuzenak: altzadura "alzadura", armadura "armadura" (1571), arraskadura "rascadura" (XVII ea.), asmadura "asmadura".</p><p>-ERA: Ohiz kanpoko egiturak: arbelotera "bodoquera" (&lt; arbelota "bodoque"), arikaera "cansera, molestia" (&lt; arikatu "cansar"), azaldera "explicaderas". <ref type="bibr">ERATORPENA</ref>   <ref type="figure">. hocino eta podón, adibidez)</ref>. Iturri ezberdinetatik izan behar dira, beraz, eta aioz(a) azaltzeko bi aukera ditugu: (1) txistukari frikari eta afrikatuak bereizteko modurik ez zuen iturri idatzi bat; (2) hitzaren azken posizioan afrikatuaren aldeko neutraltzerako joera gauzatu ez duen ahozko iturri bat. Geu lehenengoaren alde makurtuko ginateke (cf. Urgell 2000d).</p><p>-(K)ERIA: -keria 'X-i dagokion izen abstraktua (gaitzetsia)': azerikeria "zorrería". Ohiz kanpoko egiturak: atziperia "superchería" (&lt; atzipe(tu) "engañar"). Mailegu zuzenak: alegeria "alegría", azañeria "hazañería".</p><p>Atzizkiak euskaraz eta gaztelaniaz antzeko betebeharrak izateak adibide asko halabeharrezko bihurtzen ditu (cf. -kada 2 batez ere). Halaz ere, gaztelaniazko hitza eredu izateak bakarrik azal ditzakeen egitura anitz ere bildu ditugu, eta halakoetan funtzioari baino itxurari gehiago begiratu ziola ikusi. Interesgarrienak aurketada "portada" eta azaldera "explicaderas" bezalakoak dira, gaztelaniak atzizkia ez eze, atzizkiaren forma zehatza ere eragin baitu, nonbait: gure corpusean bederen ez dago -tada alomorfoaren beste adibiderik; -dera, berriz, ez da ohiz kanpokoa, n edo l bukaerako erroetan, hain zuzen (cf. aitzindera, alargundera...; gorago aipatu dugu: ik. § 4.5).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.6.">Sail bereko atzizkien arteko ezberdintasunak</head><p>Euskarak garai historikoan erator atzizki anitz daukan hizkuntza da: etorki ezberdineko hizkiak -latinetikoak <ref type="bibr">(-ada, -ari, -dura, -keria, -men(du)</ref>...) zein berezkoak (-garri, -gin, -ki, -tasun...)-bildu izan ditu, ziur aski abiadura eta ahozko hedadura ezberdinez, gaur egun ezagutzen dugun multzo aberats eta korapilotsua osatu arte.</p><p>Larramendik, artean ez bezalako sakontasunez euskara azterturik, bazekien gauza bera edo beretsua adierazteko atzizki bat baino gehiago dagoela, eta batzuetan bata edo bestearen aldeko aukerak edo joerak hizkera mailakoak direla. 65 Non-nahiko euskara jaso beharrez ari zenez gero, ez dirudi inongo atzizkiei muzin egin zienik, nahiz -berak ere aukerak egin behar-batzuk bakarrik emankor bilakatu zituen: adibidez, lehen aipatu dugu Iparraldeko -go HH-an bereziki emankorra dela, nahiz etorki bereko -duri atzizkiak gure laginean adibide bakarra izan. Berak egin zuen aukera orokorrez, atzizki emankor eta antzuez, gorago mintzatu gara, halere. Hemen besterik interesatzen zaigu: berez balio bereko edo beretsukoak diren atzizki emankorren artean egiten jakin zituen bereizkuntzak.</p><p>Hainbat aztertu ditugu lehenago, zein bere lekuan, eta denak bat datoz ezaugarri nagusietan, alomorfoen artean jadanik sumatu dugun bezala ( § 4.12): funtziokideen artean Larramendik beti bat hautatu du -edo, agian zehatzago, hobeto ezagutzen duen euskarak hautatuta demaio-behar arruntenak betetzeko (cf. -tzaile, -tze, -di eta -tsu); honelakoak morfoaren tasunik ohikoenez jantzita ageri zaizkigu ia salbuespenik gabe adibide zahar zein berrietan. Gainerakoen eremua zabaldu egiten du, ostera, adiera berriak eta batzuetan baita ohiz kanpoko oinarriak ere hartzeko moduan. Hala bada, -tzaile dugu "egilea" adierako izengileen nagusia, forma kanonikoa, halakorik eskatzen duten aditzek hartu ohi dutena besterik ezean. -le eta -ari kidekoei dagokie, beraz, bestelako kontuak adieraztea; baten bat ikusiak gara dagoenekoz, hala nola harri eta txori-izenak (adiakari "autillo", arakausle "sarcófagos"...; ik. § 6).</p><p>Aditzizenari dagokionez, -tze kanonikoaren aurrean -te-k eta -de-k bere gain hartzen dituzte gainerako betebeharrak; adibidez, gorago aipatuak berriro hona ekarrita, aurrilte "infanticidia" elkartua ( § 4.12) edo abreunde "hecatombe" parasintetikoa ( § 5.6).</p><p>Oso baliabide ezaguna da, bestalde, bazterreko formak edo zaharkitutakoak hutsuneak betetzeko erabiltzea, batzuetan lehen zehazki ez zeukaten baina urruti ez dauden betebeharretan jartzea. Euskaratik ilki eta luzaro aztarrika ibili gabe, gogora daitezke anker, iskilu edo oldoztu, garai jakin batean, arrazoi jakinengatik eta nolabaiteko arrakastaz maileguen ordez proposatu ziren RS-ko hapaxak, edota aizto eta arnari, biak Erronkarikoak omen. 66</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Hots-aldaketak</head><p>Ikusi ditugun hitzetatik askok ezagunak egiten zaizkigun hots-aldaketa zenbait pairatu dituzte, baina badira hots aldaketa handiak, erabat ohiz kanpokoak eta azaltzen nahikoa zailak diruditenak. Batzuk besteetatik erabat bereiztea oso zaila da, ostera, bai sarritan elkarrekin lotuta ageri direlako, baita tradiziozko aldaketak oro har diakronikoki aztertu gabe -eta batzuk azaletik baino ez-daudelako ere. Halaz ere, hurrengo lerroetan bereizketa saio bat egingo dugu, dakigunaren arabera ez eze, HH-ak eskaintzen duen argipean ere. Mailaka joango gara zeregin honetan, HH-an bakarturik agertzen diren forma zaharretatik hasita; gero aski garatuta daudenak ikusiko ditugu eta, azkenik, aldaketa berritzat-edo eman ditzakegunak. Honela, antzina ohikoak ziren aldaketetatik Larramendik nolako berri zeukan, bere mendean noraino zeuden bizirik edota noraino menperatzen zituen azter dezakegu lehenik, geroago aldaketa ezezagunago edota handiagoak zein diren, eta nahierara eginak diren ala sistemaren bat duten finkatzen saiatzeko.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.1.">Hots aldaketa zaharkituak</head><p>Erdi Aroaz gero ongi lekukotuta dauden aldaketa batzuek arrastoak baino ez dituzte utzi Larramendik ezagutu zituen hizkeretan; zeharo ihartuta bide zeuden, hortaz, XVIII. mendearen lehen zatian, eta Larramendi alde honetatik eskuarki notario fidela baino ez da, aldaketen nondik norakoa antzeman ezinik. 7.1.1. Hiru silabako hitzetan azken bokala &gt; ø, eta antzinako n-aren mantenketa <ref type="bibr">(Mitxelena 1977: 127)</ref>: <ref type="bibr">ARDAN-'ardoa': ardandegi (1643)</ref>, ardantza "viña" (1164), ardanle "vinatero". <ref type="bibr">ARRAN-'arraina': arrandari "pescadero", arran(t)za "pesca" (1627)</ref>, arrandegi "pescadería".</p><p>ERATORPENA LARRAMENDIREN HIZTEGIAN (I): ERATORBIDEEN ANALISIA 237 66 Bide beretik datoz, konparazio baterako, azken mendeaz geroz (Hegoaldeko) euskara jasoan Iparraldeko tradizioa bere osotasunean jasotzat harturik -batzuetan oker ulerturik ere-egin diren zenbait berrikuntza, hala nola -go atzizkia 'multzokari' adieran hartzea, edota hastapen lehen (badirudi aitzindaria Villasante izan dela; ik. OEH, s.v.) eta hatsarre gero adiera berezituan baino ez erabiltzea, Hegoaldean tradiziozkoa den hasiera zeregin arruntetan erabiltzen den bitartean. Ez dagokit niri jokabide honen ona edo txarra epaitzea; Euskaltzaindiak garbi adierazi du -go atzizkiari dagokionez zein den bere jarrera <ref type="bibr">(73. araua, 1997</ref><ref type="bibr">(73. araua, ). 7.1.6. -ite-, -tzaite-(Lakarra 1996</ref>:</p><p>adipaitza "precisión que hace el entendimiento" (&lt; adipaki "preciso, por el entendimiento"), aldimaitza "comisión" (aldi + (e)maitza). <ref type="bibr">69</ref> Euskal Herriaren bi bazterretan hobeki eta luzaroenik gorde diren artizki forma hauek 70 arrotzak ziren Larramendirentzat, eta leku jakinetan baizik ez zituen jaso, zenbait izen fosildutan batez ere (guztiz -aile, -aitza itxurakoetan).</p><p>Corpusaren emaitzak urriegiak izanik, hortik kanpora saiatu gara honen lorratzak aurkitzen, gaia agortzeko asmorik gabe. Ondorioz, egiaztatu dugu ez dagoela honen alerik ere artu, atseden, ediren / ideren, irten / urten eta jaio aditzetan. Aurkitutakoak honako hauek dira, berriz: EBAGI: inguruco ebaite "circuncisión", idunebaite "degollación", bustan ebaitza "derrabadura". EGON: egoitza "estado", "residencia, morada" (1571). EMAN/EMON: emaile "dador" (1571), emaitza eta emoitza "dádiva" (1571), esquerr-emaitea "eucharistia". ERO: anai eraile "fratricida" (cf. eraile "assassino"), aurreraile "infanticida", gizeraile "homicida" (1571).</p><formula xml:id="formula_3">IZAN: izaite (eta izate) "essencia" (1617; cf. OEH, s.v. izate), izaitza (eta izantza) "ser, el ser de una cosa" (cf. OEH, s.v. izantza).</formula><p>Baten batean hedapena egon litekeen arren, gainerantzean ongi lekukotutako formez ari gara. Ezberdina da epaki-ren kasua, aldiz, honetan hedapena argia baita, agian epa(g)i-ren ondorioekin batera (cf. epagitza "sección"): 71 EPAKI: epaira, epaiketa, epaide "incisión", epaigo "cortadura", epaile "carnicero", epai, epaialdi, epaira, epairaldi "corta, de árboles", baso baten epaya, epaita "tala", guraizeen epaitea "tijeretada", epaitu "sajar", epaitza "corta, lo que queda de un árbol cortado", etab.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.2.">Ongi lekukotutako edota hedatutako formak</head><p>Nahiz oro har itxuraz atzera egiteko puntuan dauden (salbuespenak hainbat edo gehiago izaten dira), forma batzuen adibideetan antzematen da Larramendik araua gutxi-asko sumatu eta hedatzeko gauza izan zela. <ref type="bibr">ERATORPENA</ref>  ATA-'atea': atajoka "llamando a la puerta" (vs. atejoka "id."), atakida "compuerta", ataska "compuerta", atazai "uxier, oficio de Palacio" (vs. atezai, atezain "portero"). ETXA-'etxea': ait-etxadi "padre de familias".</p><p>Hauxe izan daiteke corpusean sendoenik islatzen den araua, ongi lekukotutako forma hauetaz gain, inondik ere haren hedapen zenbait aurkitzen ditugu eta -ez denak Larramendirenak, ostera-: AHALKA-'ahalkea': ahalkati "vergonzante" (vs. ahalketi "id." 1627), ahalkatu "avergonzar" (1635; vs. ahalketu "id." 1571), ahalkagabeki "desvergonzadamente" (1617 ahalkegabeki). AIDA-'ahaidea': aidago "cognación" vs. aidetu "emparentar" (XVII ea. ahaidetu), aidetasun "parentesco" (1653). AINAZA-'ainazea': ainazatu "feriar". ALEDISTA-'aledistea': aledistatu "aljofarar". ARTISTA-'artistea': artistadi "pedrería" vs. artistetu "enjoyar". <ref type="bibr">ASERRA-'haserre': aserraldi "escarapela" (1664;</ref><ref type="bibr">vs. aserrealdi "fraterna" 1636</ref><ref type="bibr">), aserratu "reñir" (1562</ref><ref type="bibr">vs. aserretu "id." 1571)</ref>, aserrati "arisco" (vs. aserreti "enojoso") vs. aserretsu "enojoso" (1664), aserrekor "enojadizo" (1643), aserrero "enojosamente". -DA: atsedago "descanso" (cf. atseda "inspiración"), 73 azaldago "comentario" (&lt; azaldu "comentar"; 74 oro har, ik. Urgell 2008b: § 4.1). -(K)IDAGO &lt; -(k)ide + -go: aidago "cognación", aitakidago "compadrazgo", anaikidago "cofradía", arartekidago "compatronato".</p><p>Gertakari ezberdinak batzen dira emandako adibideetan; gauza bakar batean datoz bat: denak bi silabatik goragoak dira:</p><p>(1) aserre-/ aserra-lehiaketa aztertzeko dago, baina HH-az kanpokoa da: zegoenzegoenean jaso zuen Larramendik, gehienetan bikoiztasuna errespetaturik.</p><p>(2) ahalke-/ ahalka-rena ere, neurri batean, zaharra dugu, baina nabarmena da honetan ahalka-ren alde jokatu zuela, eratorri guztiak araupera eraman baitzituen, dela bikoiztasunak gordeaz (ahalkatu / ahalketu), dela berriak sortuaz (ahalkati / ahalketi) edo dela forma berria bakarrik eskainiaz (ahalkagabeki).</p><p>(3) Gainerako adibideetarako (ainaza-izan ezik), esanguratsua da guztietan -te &gt; -ta eta -de &gt; -da izatea, aditzizenaren formetan bezalaxe (ik. gorago § 4.8).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>7.2.5.</head><p>Txistukari afrikatua &gt; frikari, Larramendik zehaztu zuen hots-aldaketa orokor bakarra:</p><p>...muchas vezes se forman verbos de aquellas voces que tienen la tz y la ts; pero siguiéndose otra simple t, se pierde la t de la tz y de la ts: v.g. de gatzá sal, gaztú salar; de otzá ERATORPENA LARRAMENDIREN HIZTEGIAN (I): ERATORBIDEEN ANALISIA 241 73 Zehazki atseda &lt; atsedatu "abahar", ats + (h)edatu gisa ulertua, atseden-en ulerpen etimologikoaedo (cf. Urgell 2008b: § 5.4.1.f). <ref type="bibr">74</ref> Kasu honetan, azaldari "comentador" izan behar kontuan; baita, bestalde, azalde "declaración", etab. ere. frio, oztú enfriar; de utzí dexar, ezdit uzten no me dexa. Item de utsá vacio, ustú vaciar, &amp;c. Lo mismo es en otros nombres compuestos, v.g. de hitzá palabra o dicción, hizteguia diccionario; de gatzá sal, gazteguia salina <ref type="bibr">(Larramendi 1729: 330)</ref>.</p><p>Iparraldeko grafia etimologizaleen etsai agertu zenez gero, 75 ez da harritzekoa HH-an ia salbuespenik gabe betetzea; adibide gutxi batzuk aski izango dira, beraz: <ref type="bibr">abarrosgile, aberastasun, adasti, ahanztura, aiztzar, akaski, aldastxo, amesgin, amezti, amezketa, andrakaiztegi, aosdar, ardazketa, ardazle, ardieskun, arimakaizkiro, arkaiztun, arozkintza, askai (&lt; ats), askeria (1643 hatskeria), aunzki, auspen, auteski, azgarri (&lt; atz)</ref>, azka...</p><p>Txandakatzea berdin-berdin agertzen da familiaren oinarria zein den argi ez dakigun adibideetan ere: artukizti eta artukiztun "escrupuloso" vs. artukitza "escrúpulo" (&lt; artukitu "escrupulizar" &lt; ukitu) oposaketan ematen du -tza 3 atzizkidunak -a galdu ondoko frikaria dugula, eta baliteke ondoko familia hau taiu berekoa izatea: arpeztun "definitivo" eta arpeztu "definir" vs. arpetza "definición". <ref type="bibr" target="#b24">76</ref> Salbuespen bakarra, corpus guztian zehar, aberatskiro "ricamente" da (cf. 1665 aberatski), agian oharkabean itzuria. 7.2.6. Oinarrian aditzoina (eta ez partizipioa) baliatzea: Zuazok (1998: 218-219) "mendebaleko eta erdialdeko ezaugarrien" artean sartzen du aditzoinik eza, ihartutako zenbait forma alde batera utzita (or konpon, esate baterako); aditzoinaren betebehar ia guztiak eragin duen berrikuntza dugu, ezaguna denez. Galeraren historia testuetan jasota dago, eta esan daiteke bereizkuntza galtzear zegoela -zeharo galduta ziurrenik hizkera batzuetan-XVIII. mendearen hasieran <ref type="bibr" target="#b65">(Lakarra 1985</ref><ref type="bibr">(Lakarra eta 1996</ref>. <ref type="bibr">77</ref> Ez daukagu daturik galera honek eratorpenean pairatu duen hedapenaz eta, honegatik, zeharo interesgarria deritzat HH-ak islatzen duen egoera ikuskatzeari.</p><p>-TU markako partizipioei dagokienez, esango nuke hedadura gutxiko (oso erdialdeko) eta beranduagoko kontuak direla artutze-, artute-eta areago artutzaile bezalako formak.</p><p>Aditzizenari dagokionez, <ref type="bibr" target="#b26">78</ref>  HH-ko egoerak argi pixka bat egin dezake, hizkeraz ez bada, denboraz bederen 1737tik 1800etik baino arras gertuago dagoela kontuan izanik. Bada, HH-an eratorriak ia beti aditzoina daramate oinarrian; 79 ia beti honetan dago koxka, ostera:</p><p>antulari "baladrón" (&lt; antu), artualdi "tomadura", artugarri (eta argarri) "aceptable", artutze (eta artze) "admisión", artuzale "tomajón, el que toma con facilidad y descaro", aztukor (eta azkor) "olvidadizo".</p><p>Dakusgunez, inolako dudarik gabe Larramendik XVIII. mendearen lehen zatian aditzoinaren galera eratorrietara hedatzeko joera zeukan hizkeraren bat ezagutu zuen, eta silaba biko aditzetan (antu, artu, aztu) joera aski indartsua zen. Bestalde, -itze / -tutze formak gramatikan "segitu (?) 80 eta erregulartzat" jo zituen, eta partizipio marka galtzen dutenak "sinkopatu eta irregulartzat" <ref type="bibr">(Larramendi 1729: 53)</ref>, nahiz gero HH-an "irregularrok" nagusi izan.  <ref type="bibr">Elizalde, 1735 (asitze-, baina auste-, erakaste-, erortze-, etortze-, ibiltze-, ikaste-, ikuste "vista", imintze-)</ref>, Urkizu, 1737 (aste-, ifente-/ ifinte-, ikaste-, irabazte-, irakurte-, jauste-; eta cf. irakurla, jazteko "arropa"), Irazusta, 1739 (autsitze-, asitze-, jauzitze-, baina erorte-, etortze-, ipinte-) eta Barrutia (jarte).</p><p>beni "(niño) expósito", vs. aurbende "exposición", aurbentari eta aurbentzaile "expositor" &lt; aurbeni "exponer"; amarazitzaile "enamorador", vs. amarazkin "filtro, hechizo amatorio", amarazte "enamoramiento", amarazkor "enamoradizo"...). <ref type="bibr" target="#b27">82</ref> Berrikuntzaren adibide gehienak silaba bakarreko errokoetan, eta batez ere asi, azi eta autsi aditz jakinetan agertzen dira: asiera eta asigo "comienzo" (1713; cf. hasera 1960 ondoan), asigarri "incoativo", asitzaile "principiador" (baina asle ugariago: "autor", "inceptor"...), autsiera "quebradura", autsigarri "quebrantable", autsigo "fracaso", autsikide "mordacidad", autsikor "frangible" (baina auskor 1643 ugariago: "infractor", "quebrador"...), autsitze "fracción" (baina auste 1571 ugariago: "fracción", "rompimiento"...), aziera (eta azkera) "crianza", azikizun "crecedero" (cf. azkizun 1914), azite "crecimiento" (1571 hazitze), azitzaile "criador" (cf. 1696 hatzale, 1715 haztzaile).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.3.">Arau edo joera berriak</head><p>Izenburuan "berri" hitza harro-harro ageri arren, ez dira denak berriak izango, edo ez ziurtasun osoz behintzat: benetan berritzat eman daitezkeenekin batera, ondo azterturik ez dauden beste batzuk ere jasoko ditut, Larramendi non kokatzen den jakiteko konparabide errazik ez dudanez gero. 7.3.1. Oinarriaren azken bokalaren desagerpena: Araua berez bi silaba baino gehiago dituzten oinarriei dagokie <ref type="bibr">(Mitxelena 1977: 127)</ref>, eta halakoak dira bildutako adibide gehienak; ostera, badirudi testuinguruak garrantzia izan duela bilakabidean:</p><p>-Inplosiboan ager daitezkeen kontsonanteen aurrean desagertzen da maizenik:</p><p>adrilkada "ladrillazo", alkapartegi "alcaparral", andezdun "edematoso" (&lt; andeza "edema" &lt; -eza "heze"), 83 arexki "ternera, muerta" (&lt; aretxe "becerro"), argidorkiro "ilustremente", argidortar "ilustre" (&lt; argidore "ilustración"), arkakustxo "pulguilla" (cf. kukustxo "id."), arkusti "lustroso" (&lt; arkusi "lustre"), arpeztun "definitivo" (&lt; arpetza "definición"), arsundi "trasteado" (&lt; arsune "traste"), artukizti eta artukiztun "escrupuloso", artukizkiro "escrupulosamente" (&lt; artukitza "escrúpulo"), asberkide "connovicio" (&lt; asi berri), astorki "onobryche" (asto + orro), ataurki (atrio-ren etim.; vs. ataurreki, ataurique-ren etim.), atxurtegi "redil", axurtegi "aprisco", aztartegi "revolcadero" (&lt; aztarri, cf. aztarriatu "revolcarse"). Kasu berezia: arretsu "vigilante" (&lt; arreta "vigilancia"); cf. beherago § 7.3.4. adiereta "anagogia" (&lt; adiera "alusión"), agintaldi "pretura, pretoría", alkaparreta "alcaparral", almendregi "almendral" // agintari "xefe", amartari "decurión", anbatari "contador", antustari "blasonador"...</p><p>-Gainerako kasuak bakanak dira: e + a: alfanjada "alfanjazo". a + u: arregura "regadío" (&lt; arregatu "regar"). u + a: adrailada eta adrilada "ladrillazo", adrilari "enladrillador".</p><p>-Bi silabadunetan ere aurki daitezke zenbait adibide, baina esangura ezberdinekoak, nik uste:</p><p>aizkin "aventador" (vs. a + e &gt; ae / e: aipaera "mención", aisaera "holganza", aitakidaera "compadrazgo", akusaera "acusación"... vs. akabera "conclusión" (1713), aldapera "declive"... e + e &gt; ee / e: adiskideera "amistad", andreera "señoría, tratamiento", artzeera "acogida", aurpeera "rendimiento"... vs. aserrera "riña", aitaidera "agnación rigurosa" eta aitaideera "agnación", aldera "afinidad" eta aldeera "vecindad". Aitzitik, berezko -a galdu duten zenbait hitz ageri dira: ANAI: anaitasun eta anaide "fraternidad" (1571 anaietasun, 1643 anaiatasun), anaitu "hermanar" (1545 anaietu), anaikide "cofrade", anaitar "fraternal"... ANTZAR: antzartxo "ansarón" (1715 antzaratxo).</p><p>Eta galdu-gordean dabilen berezko -a-ren bat: AN(T)SIA: antsiatxo "cuidadito", antsiati "congojoso", antsiakiro "congojosamente", an(t)siatu "angustiar" (XVII ea.) vs. ansidun "importante". AREA 'hondarra': areatsu "arenisco" (1715), cf. elkarketan <ref type="bibr">(Urgell 2008a</ref>: § 2.3.1.b). ARRAU(L)TZA: arraultzatxo "huevecico" (baina arrauztxo "id."), arrautzatu "rebozar" vs.</p><p>arrauztari "huevero", arrauzgile "ovíparo", arrauztu "huevar". 7.3.6. Ozen + txistukari taldeak: Arazorik gabe gorde zuen txistukari frikaria (aurzale), baina, gainera, elkarketan antzeman daiteke hauek erabiltzeko joera ere bazuela: cf. anzundu "comparar" (&lt; antz), aunzadar "cornicabra" eta aunzedosle "chotacabras" (&lt; auntz), esaterako (ik. Urgell 2008a: § 2.3.2.c).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.4.">Morfofonologiazko gertakari bereziak</head><p>Corpusean aurkitu ditugun hainbat gertakari ezin dira zehatz-mehatz azaldu ohiko zein ohiz kanpoko hots-aldaketen bitartez: 7.4.1. Haietako zenbait atzeranzko eratorpenak azaltzen dituela argudiatuko dut; esate baterako, -atu partizipioetatik -a amaierako izenkiak sortzea, lehendik beste bokal batez amaitutakorik egon zein ez, hala nola ahalka "vergüenza" (&lt; ahalkatu, vs ahalke 'id.') edo arrasa "estrago" (&lt; arrasatu "estragar") (cf. Urgell 2008b).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>7.4.2.</head><p>Analogia hutsak ere eragina izan du zenbait eratorriren eraketan: adibidez, atzestun "anillo" (&lt; atz "dedo") erraztun sarrerakidearen ereduaren arabera egindakoa da, eta zokalondoa "recodo" (&lt; zoko) ukalondo "codo"-arenera, inondik ere (cf. Urgell 2008b). 7.4.3. Badirudi, bestalde, haplologiak azaltzen dituela antzeman ditugun oinarriko azken silabaren desagerpenetako asko. Kontsonante bereko silaba bilkurak gertatzen direnean, Larramendik haietako bat, oinarrikoa, kentzeko joera handia dauka:</p><p>aburikai "tropezadero" (&lt; aburika(tu) + -kai), aginidokai "sacamuelas" (&lt; idoki + -kai), aginsakai "id." (&lt; saka(tu) + -kai), albendi "albenda" (&lt; albenda + -di), arrazkai "regalador de boteros" (&lt; *arrazka(tu) + -kai), aitegi (&lt; aita + -tegi), axolduro (&lt; axolduri + -ro).</p><p>Aztertu gabe badago ere, dakidalarik, badirudi bilkura hauetako batzuk saihesteko joera hizkuntzarena dela: cf. gaurko euskarako eraikuntza (**eraikikuntza) eta iradokizun (**iradokikizun) bezalako forma arruntak. <ref type="bibr">84</ref> Bestalde, beharbada honelatsu azal daitezke adibide zail batzuk ere, alegia, haplologia antzeko fenomeno batek beste silaba bat tartean dela ere eragina izan dezakeela eginaz: abekari "cabalgadura" (&lt; abe(re) + -kari), argizki "agnus" (&lt; argiz(agi) + -zki).</p><p>Alabaina, sarritan kendutakoa atzizkia da edo atzizkitzat har daiteke, eta hitzen itxurari emandako irtenbide honek inoiz adibide multzo handi bat eragiten du (cf. -de + -dar), automatiko xamarra izan zelako seinale: -DE / -TE: ainbatar "idéntico" (&lt; ainbate "identidad"), anbategi "contaduría" (&lt; anbate "cuenta"), antusti "presumido" (vs. antusteti "sobervio"; &lt; antuste "presunción", "so-ERATORPENA LARRAMENDIREN HIZTEGIAN (I): ERATORBIDEEN ANALISIA</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>247</head><p>-TZA + konts. hasierako atzizkia &gt; -Z: arpeztun "definitivo" (&lt; arpetza "definición"), artukiztun "escrupuloso" eta artukizkiro "escrupulosamente" (&lt; artukitza "escrúpulo"), vs. aldimaitzadun "comissionario" (&lt; aldimaitza "comissión").</p><p>7.4.6. Oinarri laburpena: elkarketan (Urgell 2008a: § § 2.3.1.d eta f, eta 2.3.3) usuago aurkitu dugun honen adibideak bi baizik ez dira eratorpenean: asberkide "connovicio" (&lt; asiberri + -kide) eta adiraki "nota" (&lt; adiera(zo) "denotar", etab. + -ki). Baliteke hirugarren bat egotea, baina kasu honetan lekukotutako hitz baten bermoldaketa bide da: asgin "festejo", atsegin-etik, edo haren errotik behinik behin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.5.">Ordain azaltzaileak (edo etimologikoak)</head><p>Honen arrastoak lehenengoz Erans-ean (Urgell 2008d: § 2.4.1.2) aurkitu ditugu, iturrian lekukotutako formaren aldaerak edo azalpen etimologikoak bide direnak, alegia: oyutu RS-ko otu "rogar"-ena den bezala, beraz. Zehatzago, Larramendiren ikuspegitik, oker ez banago, erabilerak ez kamustutako forma osoak lirateke, forma etimologiko edo jatorrizkoak, alegia. Bila berariaz ibili ez arren, halako batzuk agertu zaizkigu laginaren azterketan zehar: aidagoa, ahacoa (1571) "cognación". altun (onomastikak azaldua; cf. Urgell 2008c), ahaltun eta aldun, ahaldun "potente". aomena, ahumena [sic, ahamena-ren ordez (1571)] "bocado". argintza (XVII ea.), arrikintza "cantería". 85 8. Atzizki kateak 8.1. Eratorpena berez baliabide errekurtsiboa izan arren, baditu bere mugak, bai morfologikoak, bai sintaktikoak, baita semantikoak ere. Alde batetik, delako atzizki batek onartzen duen oinarriaren gramatika kategoria gordetzen da, hots, halako gramatika kategoria sortzeko balio duten atzizkiak bakarrik onartzen ditu oinarrian; adibidez, **euritsugile ezinezkoa da, -gile atzizkiak oinarrian izena eskatzen baitu. Bestetik, azpikategorizazioari dagozkion ezaugarriek ere muga ezar dezakete: esate baterako, **irteketa ezinezkoa da, atzizki honek oinarrian nor-nork aditzoina baitarama. Eta, azkenik, semantikaren aldetik, **euritsutasun ezinezkoa da, 'ugaritasuna' eta 'kualitate abstraktua' elkarrezinak baitira <ref type="bibr">(Azkarate 1991: 23)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>8.2.</head><p>HH-an nabaria da eratorpenaren errekurtsibitatea ere profitatu dela euskararen hiztegia aberasteko. Honek ez du esan nahi, ostera, edozein atzizkik kateak egin ditzakeenik, ez eta edozein kate zilegi denik. Izan ere, adibiderik eskaintzen ez duten atzizki ugarien aldamenean, askok HH-an ez eze, euskaran oro har arrunt diren oinarriak baino ez dituzte hartzen. Honen kontu emateko, HH-ko kateak handik kanpoko adibideen aldamenean -lehenago lekukotutakoak, ahal dela-ezarri ditut: 8.5. Eta, azkenik, batzuk nekez har daitezke normaltzat, goiko mugetako zenbait gainditzen dituzte eta (kanpoan utzi ditut dagoenekoz oinarriak berak salatu dituen kate berriak): 8.5.1. Ekintza-izenek ez dute oro har atzean atzizkirik onartzen <ref type="bibr">(Azkarate 1991: 63)</ref>; salbuespen zahar bat badugu ere (adimendutsu 1643), HH-an oro har espero genezakeen baino maizago agertzen da:</p><p>-men(du) + -ari kate emankorra: alamenari "detractor", almenari "potente", arguimendari "argumentador". -ekintza-iz. + -tegi: adiundetegi "audiencia", aitorgotegi eta aitorkuntegi "confessionario". -ekintza-iz. + -ti: agindeti "imperioso", araudeti "exemplar", astirodeti "prolijo"; artukizti "escrupuloso". -ekintza-iz. + -ki 2 : aurgintzaki "feto nacido". -ekintza-iz. + -tsu: agindetsu "imperioso". 8.5.2. Oraindik bereziagoak dira -te eta batez ere -de (baina ez -tze) aditzizengileek aurretik onartzen dituztenak (aditza alboan duten adibideak alde batera utzita):</p><p>-TE-k ezeztapenezko aurrizkiak ordezkatzeko erabiltzen dituen atzizki-moduak bakarrik (-kaitz, -ez) onartzen ditu: adrakaizte "irregularidad" (-kaitz), ajolezte eta ardurezte "incuria", arretezte "inadvertencia" (ik. Urgell 2000c: § 1.14). -DE-k atzizki arruntak ugari onarzen ditu: aldedaride "parcialidad" (-ari), alorta zaide "frutería" (-zai), astirode "prolijidad" (-ro), atzenaikinde "albaceazgo" (-kin), aurdunde "preñado, preñez" (-dun).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>8.5.3.</head><p>Izena + -go: cf. mandatalgoa (1571), merkatalgoa (1571). Itxura guztien arabera, izenak gutxienez [+gizakia] izan behar du <ref type="bibr">(Azkarate 1991: 36)</ref>: aldekigo "libelo de repudio" eta asmaengo "agüero", hortaz, berrikuntzak dirateke. 8.5.4. Izenondoa + -go (cf. goiko adibideak): Hasteko, hiruko katea dugu: anizkidargo "comunidad" (-kida + -ar + -go); eta, gainera, badirudi -go-k oinarrian 'nolakotasuna' edota 'neurria' adierazten duten izenondoak eskatzen dituela <ref type="bibr">(Azkarate, loc. cit.)</ref>, eta -ar atzizkiak ez du horrelako ondoriorik ematen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9.">Ondorioak</head><p>Hiztegi zahar aberatsenarekin -Urterekin-erkatuta ( § 2) neurtu dugu eratorpenak HH-an duen lekua: biak berdintsu dabiltza, hiztegiko hitzen %50ean, hain zuzen, eta bat datoz zenbait atzizki (-txo, -tzaile...) automatikoki ezartzean. Alabaina Larramendik donibandarra gainditzen du atzizki ezberdinen kopuruan, baita ziurrenik atzizkion jatorri ñabartasunean ere. Aberatsa da oso, beraz, eratorpena Larramendiren hiztegian, eta tradizioa eta berritasuna elkartu izanaren ondorio.</p><p>Alde batetik, hainbat zertzeladatan egiaztatu ahal izan dugu Larramendi berritzaile izan zela. Alderdi hau ezaguna zen -ezagunegia, agian-, baina orain halaxe jokatzea ezinbesteko bihurtu zuen testuinguru historikoaz jabetu gara: gaztelaniazko kultur hitzak oro itzultzeko, euskaraz eratorpenera jotzea dugu biderik errazenetakoa, orduan orain nola, eta bestalde, ez dago bide honetatik hitz familia osoak bata bestetik eratorriaz eratzeko, alfabetoaren hurrenkeraren arabera antolatuta dagoen bakarrik eman dezakeen lasaitasunaz, alegia. Hemen sar genitzake "parasintetikoak" deitu ditugunak, esate baterako ( § 5.6).</p><p>Adierari dagokionez, esanahi hedadurari berea ematea espero izatekoa zen: tresnak eta baliabideak -le edo -ari atzizkidun ordainak jasotzea, edota atzizki hauek berak gaztelaniazko izenondoen itzulpen gisa agertzea ( § 6), kasu. Hainbat kontu berri "itzuli" behar zituenez gero, normala baino ez da atzizkiek analogiaren bitartez edo kalkoaren bitartez betebeharrak ugaltzea. Zeharo interesgarria da, aldiz, gorago aipatu dugun alomorfoen edota atzizki baliokideen artean egin zuen betebehar banaketa, haietako bat zeregin arruntetan utzita, bestea edo besteak bereziki berrietarako erabiliaz.</p><p>Xehekiago aztertzeko utzi behar izan dugu hitz berrietan gaztelaniak izan zezakeen eragin zuzena; kalko garden zenbait, baita gaztelaniazko atzizki batzuen eta euren kideko euskarazkoen artean dagokeen erlazio zuzenaren zantzu batzuk ere bildu dira, halere. Beharbada antzeman dugun gertakaririk nabari eta eraginkorrena, askoren artean, izen abstraktuen eta ekintza-izenen arteko mugarik eza izan daiteke, gaztelaniaren (eta latinaren) ezaugarri, baina ez euskara historikoaren. Kontu hau, dena dela, eratorbidearen indartzearen barruan berraztertzekoa dugu ( § 6.2).</p><p>HH-ko hitzei itxura berezia ezartzen diete, azkenik, pairatu dituzten hots-aldaketek. Alde batetik, atzizki batzuetan alomorfo ezezagun bat edo batzuk aurkitu ditugu; nabarmenki, arau ezagunak hedatuaz eratutako formak dira, hala nola ozen ondoan herskaria ahostunduaz, bokal hasierako atzizkiari kontsonantea (t edo k) erantsiaz, edo kontsonantez hasitako atzizkiarekin batera aingabeko aldaera erabiliaz, besteak beste ( § 4). Bestetik, morfemaren forma nagusiaren ordez, batzuetan Larramendik nagusi bilakatu zituen testuinguruaren araberako alomorfoak (-kai, -kin, -kintza), eta oro har badirudi honelako aldaeren banaketa -batez ere txistukari ondoko testuinguruari dagokionez-gaizki ulertu zuela; ondorioz, hitz berrietan arau jakinik gabe ezarri zituen sarri, eufoniaren arabera, agian. Ezaugarri hauen berritasuna baiezta dezakegun neurrian, hona non dugun HH-an hitz berriak antzemateko adierazle ziurra; hori bai, oso gogoan hartuz forma etimologikoak "berreraikitzeko" edo bersortzeko joera izan zuela: argintza-ren alboan arrikintza ematen du, bere ustez forma osoago eta, beraz, lehenagokoa (jatorrizkoa, zehatzago) bide zena. Berrikuntza hutsaren eta honelako berreraiketaren arteko muga zehazteke dugu.</p><p>Bestalde, oinarrian gertatzen diren aldaketez mintzatu behar dugu. Lehenik argi utziko dugu eratorpenean eta elkarketan antzeko gertakariak aurkitu ditugula maiz, batak bestea bermatzeko moduan eta aldaketak berariaz egin zituela baieztatzeko moduan. Ongi ezagutzen ditugunetako batzuk -ziurrenik gehienak zegoenekoz arkaismoak baino ez izan arren-Larramendik igarri eta hitz berrietan erabili zituen, haietako batzuen ezarpenean egindako hiperzuzenketak lekuko ( § 7.2). Arau hauen iraupenaren datazioa lantzen hasteko eta XX. menderaino iristen den euretako batzuen "berpiztearen" historia berreraikitzeko ezin jakingarriagoa da. Honezaz gainera, ohiz kanpoko aldaketak -baina gehienetan gutxi-asko sistematikoak-ere badaude HH-an, Larramendik beregain egindakoak, eredu jakinik gabe ( § § 7.3 eta 7.4), oraingoz bederen.</p><p>Bukatzeko, gogora dezagun hemengo azterketa hau gure ikuspegitik egina dagoela, HH guretzako informazio iturri izan daitekeelako ikuspegitik. Irakurle batek</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>: § 2), 36 ez eta oraindik ere -Larramendi baino lehentxeago Urteri gertatu bezala-arazoak izatea bana-banakoa ez den gazt. -ble eta eusk. -garri-ren arteko egokitasunarekin (ibid.: § 16). 3.3. Atzizki emankorrak ez dira denak "bere herrikoak", nolabait esateko: -kide atzizkia emankor bihurtzeko Leizarraga bere alde dakar (Urgell 2004b: § 5.2), eta uste dugu antzeko gertakari gehiago egon zirela: -di eta Etxeberri Ziburukoa (ib. § 6.1) lotu beharrak dira, -kiro eta Beriain, -ro eta Beriain edota Landucci (ib. § 19)..., baita agian -era eta Otxoa Arin ere (ib. § 12.1), adibidez. Aukera hauek, bestela ere oso egiantzekoak izanik, are bermatuago geratzen dira literatur hizkuntza eta atzizkien erabileraren artean ezarritako korrelazioaren testuinguruan sartzen baldin baditugu.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>ERATORPENA LARRAMENDIREN HIZTEGIAN (I): ERATORBIDEEN ANALISIA 22546  Badaude -dar eta -dari-ren salbuespenak (aosdar "vocal, que pertenece a la voz", aldedari "parcial") eta -tar eta -tari-renak (argidortar "ilustre", ariltari "devanador"), jakina.47  Esan gabe doa guk erabili ohi dugun zehaztasunez jokatuz, ausarto adibidea ez dela ona, ausart oinarria du eta. Ez zait iruditzen, ordea, Larramendiren kasuan erabat txarra denik. 48 Nasaikien erabiltzen dituenak eta, hortaz, hobeki ezagutzen bide zituenak -tari / -ari eta -tar / -ar dira (ik. Urgell 2004b: § § 3.1 eta 14.1, hurrenez hurren), baina -keria / -eria-z eta -kide / -ide-z ere ohartu zen (ibid.: § § 2.2 eta 5.2).49 Arana-Goiriren neologia aztertzean ere Pagolak (2005: 364) -i alomorfo baten adibide bat bederen aurkitu uste du, zalantzaz bada ere: antzai "adibidea" &lt; antz(a) "imagen, semejanza" + di 3 "sufijo meramente determinativo, intensivo, antonomásico, que (...) le sirve para formar sustantivos" (ik. ib.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>-kor eta gazt. -izo / -oso-ren artekoa (cf. arradakor "raedizo" eta amilkor "precipitoso") eta eusk. -garri eta gazt. -ble-ren artekoa (cf. aldongarri "convertible" eta apaingarri "adornable"). Beraz, eusk. -kor eta -garri-ren artean zegoen muga -kor-en kaltetan higitzen da.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>). Urrun geratzen dira bai Pouvreau (8.100 bat euskal hitz) eta Urte (10.000 bat), baita 1850 arteko hiztegi guzti-guztiak ere, beraz. HH-aren ekarri lexikoaren %80 inguru lehen lekukotasunez osatua dago. 26 Ziurtzat eman behar hori guztia ez zaiola hitz sorkuntzari zor -%14, gutxienez, erakutsi ahal izan dugu ahozko euskaratik jasotako hitzen lehen lekukotasunak direla-; 27 hala eta guztiz ere, nabari da -eta aipagarri, noski-gehien-gehienak eratorriak (%50) edota elkartuak (%22) direla 28 eta, are argiago, bi motakoak eredu finkoen araberakoak direla hein handi batean. Ez dira HH-an aurkitu ditugun sorbide bakarrak, dena den, hitzberrigintza oparoaz gainera ñabar xamarra izan baitzen: esanahi hedadura, gramatika-kategoria aldaketak, analogia eta atzeranzko eratorpena ere bederen baliatu zituen Larramendik (ik. Urgell 2008b), ohikotzat izan ditzakegun baliabideen artean, eta ohiz kanpokoetan erdal hitzen euskal etimologiatik (id. 2008g) eta onomastikatik (id. 2008c) ateratako ondorioak ere.</figDesc><table><row><cell>ERATORPENA LARRAMENDIREN HIZTEGIAN (I): ERATORBIDEEN ANALISIA</cell><cell>211</cell></row><row><cell cols="2">26 Gure lagineko 4.867 lemetatik, aldaerekin eskuzabal jokaturik, 1745 baino lehen lekukotutako</cell></row><row><cell>1.037 hitz aurkitu ditut. Xehetasun gehiagotarako, ik.</cell><cell></cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>32 Erans 71 kusumatsu &lt; Lcc kusumoso. 2.8. Bestalde, eratorpenean inon baino Larramendik aldez aurretik</head><label></label><figDesc></figDesc><table><row><cell>ERATORPENA LARRAMENDIREN HIZTEGIAN (I): ERATORBIDEEN ANALISIA</cell><cell>217</cell></row><row><cell>.</cell><cell></cell></row><row><cell>-IBO: ablatibo "ablativo".</cell><cell></cell></row><row><cell>-IKO: apostoliko (s.v. sede apostólica).</cell><cell></cell></row><row><cell>-ISTA: arpista "harpista".</cell><cell></cell></row><row><cell>Urtek, berriz, honako hauek, nahiz hainbat 31 jaso gabe utzi ditugun:</cell><cell></cell></row><row><cell>-AL: aberbial, aktual.</cell><cell></cell></row><row><cell>-ALE: armofiziale, artifiziale.</cell><cell></cell></row><row><cell>-ANO: afrikano, arimetiziano.</cell><cell></cell></row><row><cell>-ARIO: abersario, abezedario, animaliario, arrosario.</cell><cell></cell></row><row><cell>-BLE: admirable, amirable.</cell><cell></cell></row><row><cell>-ER: adulter, aguazer.</cell><cell></cell></row><row><cell>-ERO 1 : amoinero.</cell><cell></cell></row><row><cell>-ESA: abadesa, artxidukesa.</cell><cell></cell></row><row><cell>-IBO: ablatibo, akusatibo, apelatibo, atantibo, atentibo.</cell><cell></cell></row><row><cell>-IKA, -IKO: akrostiko, anjelika, apostoliko.</cell><cell></cell></row><row><cell>-ISTA: antagonista.</cell><cell></cell></row><row><cell>-OS: abantailos, abarizios, airos.</cell><cell></cell></row><row><cell>-OSO: abarizioso, anbizioso, artifizioso.</cell><cell></cell></row><row><cell cols="2">Urte bera garbizale xamarra izanik, bertatik ageri da Larramendi garbizalexeago</cell></row><row><cell cols="2">zela -atzizki kontuetan bederen-edo, orobat, kontu gehiagoz begiratu zituela.</cell></row><row><cell cols="2">Ildo honetatik, gogora daiteke atzizkiak "zuzentzen" ibili zelako zalantzagabeko fro-</cell></row><row><cell cols="2">gak aurkitu ditugula Eranskin-eko hitzetan (Urgell 2008d:  § 1.2.6); zehazkiago, Lan-</cell></row><row><cell cols="2">ducciren hiztegiko erdi-hapaxetako batean: emandako</cell></row><row><cell cols="2">informazio gehiago idorotzen dugu, dela gramatikan, dela hiztegian bertan, eta ger-</cell></row><row><cell cols="2">takari askoren lehenengo deskribapenak izanik, nabarmendu nahi genuke oro har</cell></row><row><cell cols="2">aski zuzen eta oso zehatzak izan ohi direla, atzizkiaren aldaerak, adiera eta inoiz oi-</cell></row><row><cell>narriaren kategoria ere zehazten baititu (xehetasunetarako, ik. Urgell 2004b).</cell><cell></cell></row><row><cell cols="2">Gramatikan aurkezten duen egoera, funtsean hiztegiko berbera da, baina han,</cell></row><row><cell cols="2">izenkien eraketaz ari dela, atal labur bat besterik ez dio eskaintzen gure gaiari, era-</cell></row><row><cell>torpena hiztegirako utzita:</cell><cell></cell></row><row><cell cols="2">Dexo algunos otros modos de formación en los nombres verbales que se pon-</cell></row><row><cell cols="2">drán en el Diccionario: pues para el fin de que conozcan todos, quán regular y</cell></row><row><cell cols="2">31 Buruan ditut -logo eta -logia behinik behin, Larramendik (ja)kinde eta (ja)kin-ekin ordezkatu ohi</cell></row><row><cell>zituenak, ezaguna denez. Xehetasun gehiagotarako, ik. Urgell (2008a:  § 1.6.2) eta (2008b:  § 4.1).</cell><cell></cell></row><row><cell cols="2">32 OEH-ren arabera (s.v. 1 kusuma), Azkuek "faringe" adieran eta kusuman egin "atragantarse" esa-</cell></row><row><cell cols="2">pidean bildu zuen (biak V-ger = Gernikako euskaran), eta ez dago Landuccirenetik aske den beste leku-</cell></row><row><cell>kotasunik.</cell><cell></cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>, amagarri (~1800) eta argigarri (1803). -TZAILE: ahaikatzaile (*1745), aditzaile (1855), administratzaile (1977), adoratzaile (1775), agertzaile (1800), agintzaile (1839), agurtzaile (1913), aingeru zaitzaile (1880), altxatzaile (1891), amatzaile (1761), handitzaile (1759), anparatzaile (~1805), apaintzaile (1785), arrapatzaile (s.d.), askatzaile (1918), astintzaile (*1745), ateratzaile (1816), atzipetzaile (1934), aurreratzaile (1887), azpiratzaile (1922). Eta, bestetik, aldatu edo bertan behera geratu direnak, hitz baten etorkia -eta, ondorioz, idazle baten filiazioa-ezagutzeko bide ziurrak direlako (adib. -kiro XVIII-XIX. mendeetan aurkitzea, larramenditarraren seinale).</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>4.2.</head><label></label><figDesc>Beti ahoskabea hautatu izana ez da halabeharrekoa, bi arrazoi argik, biak batera ziurrenik, azal dezaketena baizik: k-k euskal erator-atzizkien hasieran duen maiztasuna, 40 eta ahoskabetzeak alomorfo zenbaiten agerpenean daukan paperaz ez jabetu izana. Bigarren hau orokor eta eraginkorragoa da, HH-an aldaera nagusitzat ahostuna daukaten atzizki zenbaitetan ere haren aldeko frogak kausitzen dira eta. Har ditzagun lehenik -go / -ko eta -garri / -karri bikoteak, itxuraz salbuespenak. Bietan aldaera ahoskabearen adibideak bereziki urriak dira (-ko-k 2/35 eta -karri-k 1/15, -garri 1 bakarrik kontuan hartuta), baina duda izpirik gabe ziurrak: ahaikoa eta ahakoa, biak Iparraldeko literaturatik hartuak, eta azkarri 'legamia' ahozko lekukotasunek Loiola inguruko euskaran (B-gip eta G-azp-goi) bermatua (ik. Urgell 2000b eta 2000d, hurrenez hurren). Argi dago Larramendi ez zela aldaerok eragin dituzten arau zaharrez jabetu, errazena izan zitekeen azkarri-ren aldamenean arpezgarri eta azgarri bera (&lt; (h)atz) baitakar. Areago, baliteke -go eta -garri-ren aldaerak zirenik ere ohartu gabe jasoak izatea: honek azalduko luke prozedura bestelako oinarrietara hedatu ez izana eta, batez ere, ahaikoa gaizki ulertua ("pariente" itzuli zuen, auzoko bezalako hitzetan dagoen -ko atzizkia zelakoan, antza). 41 Alabaina, prozedura hedatu gabe uztea Larramendiren jakinaren gaineko erabakia izan daiteke; ez genuke bere ERATORPENA LARRAMENDIREN HIZTEGIAN (I): ERATORBIDEEN ANALISIA 223</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>eta salbuespenen ezerezak -altun, onomastikak azaldua(Urgell 2008c), eta haren garapen etimologikoa den ahaltun-erakusten digute kasu honetan testuinguru egokia asmatu zukeela. Ahoskabetzeaz jabetu ez zen bitartean, ozenek ahostuntzeko daukaten gaitasuna ondo ezagutzen zuen. Haatik, haren indarra oso ahula da eratorpenean, histori garaian behinik behin, -du partizipio marka, -dari 'egilea', -dar 'nongoa' eta -degi 'lekua' salbuespen nabariak izanik, eta -dasun, -gi, -do eta -gunde-ren adibide bakanen bat gorabehera.45  Larramendiren jokaera ez da beti bat, baina orokorki esan daiteke 224 BLANCA URGELL ahaicoaric hurcoen]e[az ere conturic eguiten (GGero 349), ...halaco amoria [sic] duenac ezpaitu batçutan ahaicoaz ere conturic eguiten (ibid.). 42 Esan gabe doa begiak ez zirela haren laguntzaile bakarrak izan: Etxeberrik eta Axularrek ez bezala, Leizarragaren Testamentuan ez zuen arazorik izan behar hitzaren egiazko izaera sumatu eta zuzen itzultzeko. 43 Ahanztura ez da ziurra -begi-bistako arrazoiek sinestarazten digute Iparraldeko iturri idatzi bat (Etxeberri Sarakoaren hiztegia?) izan zuela (ik. Urgell 2000d)-, baina, dena dela, ez lituzke gauzak gehiegi aldatuko. 44 Zalantzaz eratua: cf. arkoskadi esanahikidea. OEH, s.v. atsegintasun) eta iakindasun / iakintasun (ap. AxH) zalantzak, Kapanagaren sorgindasun eta zitaldasun, Otxoaren mortaldasun; ongi (1415) eta Leizarragaren adibide ugariak(chekengui, chuchengui, mingui, ocengui...; cf. De Rijk 1995: 55, 4. oh.); estalgi (RS 69, 111); ondo (XV e.a.) eta kureldo (Lazarraga); eta ongunde (1643). Ondoko ustekizunen ondorio izango da, berriz, apaindasun(EEs 1917, 63, ap. OEH, s.v. apaintasun).</figDesc><table><row><cell>4.3.</cell></row></table><note>45 Hona bildu ahal izan ditudan aleak, gehienak Mitxelenak (1977: 353) emanak: ondasun (1596), Axularren atsegindasun / atsegintasun (ap.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>LARRAMENDIREN HIZTEGIAN (I): ERATORBIDEEN ANALISIA 235 62 Gure egunotan ere ez da ohiz kanpokoa prozedura hau: sendadura gela jarri du Osakidetzak erdaraz sala de cura denaren alboan, edo Larramendik aurketada (edo ataria) itzultzen duen erdal portada, Zehazki hiztegiak diosku Arkitekturan atelada dela. Egitura ere bide horretatik dator, noski (eta EH-n *1745eko data darama, bidenabar). 63 Lotura etimologiko argiko atzizki hauetaz gainera, ondoko adibideak ere bederen aurkitu ditut: aizuriska "ventisca" (non eusk. -ska = gazt. -isca) eta arrikari "petraria", baina oraingoz bakarturik daude, corpusa noiz zabalduko zain.</figDesc><table /><note>64 ai(h)otz-en ordez, eta zehatzago aiotz-en aldamenean (s.v</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>LARRAMENDIREN HIZTEGIAN (I): ERATORBIDEEN ANALISIA 239 potesi horren alde datorkeen datu berri bat eskaintzen du. Mitxelenak oso zalantzazkotzat jo zuen (eta ez dago honen arrastorik FHV-n), -ts atzizki delakoa dela eta, batez ere. 69 Bigarren osagaiaren lehen bokala ezabatzea, Larramendiren ohiko jokabidea dugu elkargunean, eta bereziki maiz gertatzen da aditz hasierako e bokalarekin: adipaki (&lt; epaki), adizkonde (&lt; ezkondu), aitagoki (&lt; egoki)... (cf. Urgell 2004b: § 2.3.3). Oso desbideraturik dabil OEH, hitza bere bakardadean azaldu beharrez, aldi + mahai + -tza proposamenarekin.</figDesc><table /><note>70 Ik. orain Urgell (2006) aditzizenaren forma ezberdinez.71 Oso kontuan hartzekoa da, dena dela, ephaite-aditzizena Axular eta Etxeberri Sarakoarenean le- kukotuta egotea (cf. OEH, s.v. ebaki).</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head></head><label></label><figDesc>bizkaierazko -tute XVII. mendearen erdialdetik aurrera bakarrik aurkitzen da testuetan (Mikoleta, 1653), baina ordutik jadanik testu guztietan. -tutze, berriz, hedadura gutxiagokoa da (G, GN) eta modernoagoa: lehen adibidea Iturberenean dagoke (1658), ez dago besterik Otxoa Arin arte (1713), eta honek batez ere silaba bakarreko oinarriekin darabil (artutze...), baina Larramendiren idatzietan jadanik ugari eta oinarri mota guztiekin agertzen da. Aditzizenetik kanpo, berriz, honako adibide hauek aurkitu ditut OEH-n hartu ondoko sarreretan bakarrik ikustalditxo bat eginez: artubide (Lardizabal, 1855), artuera (Añibarro, ~1800), artukizun (f. Bartolome, 1819), denak -harrigarrikiharpide, harrera eta harkizun sarreretatik bereiziak. Ez da artutze izena jasotzen, ez s.v. artze ez inon, nahiz eta lekukotuta egon (segidan ikusiko dugunez).</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head></head><label></label><figDesc>-I markadun partizipioen egoerari dagokionez, berrikuntza Araban hasi zen, dirudienez, Landuccik adibide ugari eta silaba bakarretik gorakoak (egotzite...) baititu, Bizkaian Mikoleta arte (1653) horrelakorik ez dagoen bitartean. Zehatzago,<ref type="bibr" target="#b65">Lakarra (1984)</ref>-an zenbait aditz begiratuta, honako ondorio hauek atera ditugu: 1700-1745 tartean Urkizuk bakarrik erabiltzen du aditzoina beti. Gainerakoetan, gehiago edo gutxiago, partizipiodun formaren bat agertzen da, eta badirudi txistukari ondoko testuinguruak berrikuntza errazago onartu zuela ozen ondokoak baino; txistukari ondokoetan ere inolako dudarik gabe bi silabako aditzek luzeagoek baino erraztasun gehiago dute.81    Larramendik honetan ere, eratorpenean behintzat, aditzoina dauka nagusiki. Bi silaba baino gehiagokoetan salbuespenak bakanak dira: aurbenitegi "inclusa" &lt; aur-ERATORPENA LARRAMENDIREN HIZTEGIAN (I): ERATORBIDEEN ANALISIA 243 79 Ez ditut kontuan izan izen bihurtu ondoren txikigarria hartu duen agertutxo, ez eta Iparraldeko tradizioan ere oinarrian partizipioa duten aditzondoak (ik. Urgell 2004b: § 19.1). Dena den, Larramendiren joera zein zen behar bezala ulertzeko, gogora bedi hauetan ere aditzoina erabiltzera iritsi zela (ik. gorago § 5.1), ez aditzoina bultzatu beharrez, ziurrenik, baizik eta hura oinarri egokia (araupekoa, jatorrizkoa, ustelgabea...) zelakoan.80  Erdaraz "seguido y regular". Badirudi "seguido" horretan ulertu behar dugula osagaiak denak agerian dituela, "sinkopatu" delakoan ez bezala: hots, bere ustez aditzizena 'partizipio + -tze' egituraduna dela berez.</figDesc><table><row><cell>-,</cell></row><row><cell>etorte-, ifente-, irakurte-eta batez ere ikaste-, ikuste "vista", irakaste-), Lasarteko Bertsoak, 1716 (ipintze) Ser-</cell></row><row><cell>mAN, 1729 (erabazite-, baina erabiltze-, erortze-), Arzadun, 1758 [1731] (asite-, azite-, baina ifinte-,</cell></row><row><cell>jauste-),</cell></row></table><note>81 Hona hemen adibideak idazlez idazle: Otxoa, 1713 (asitze, au(t)sitze-, azitze-, jaitxitze-, baina erorte</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head></head><label></label><figDesc>aizekin): dakidalarik, aize-hasieran duten eratorrietan zein elkartuetan adibide bakarra da. Hutsa izan liteke, aizequin bi aldiz (ik. s.v. abanico eta abano) &lt;z&gt;-z idatzita dagoela kontuan izanik; baina cf. hurrengoa. aiztari: eiztari-rekiko analogiaz eratutako hitza (cf. Urgell 2008b). altegi (&lt; ale): hainbat adibide daude elkarketan (cf. Urgell 2008a: § 2.3.1.a).-Inoiz edo behin mugatzailearen gorabeherek eragin dezakete -a-ren galera (cf.Urgell 2001: 163-166); hona adibide argi bat: aitzakigarri "excusable" vs. aitzakiagarri "disculpable". -Alde honetatik oso berezia da -era atzizkia, honekin oro har hiatoa gordetzeko joera baitago, salbuespenekin bada ere:</figDesc><table /><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head></head><label></label><figDesc>7.3.2. -a mugatzailea kendu gabe (cf. Urgell 2001: 163-166): aitzadi (vs. aiztzar, aiztun) eta atzatsu (vs. azgarri): elkarketan adibide anitz daude (cf. Urgell 2008a: § 2.3.1.b). arrati (vs. arti): Toponimiak azal dezakeen forma (cf. Urgell 2008c). astamaizadi (cf. maizadi "maizal").</figDesc><table /><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="25">Bidegarairen lekukotasuna ez da behin ere alde honetatik erabili, dakidalarik, baina nabaria da Etxeberri Sarakoaren asmokide izan genuela hainbat aldetatik: izan ere, Euskal Herritik atera gabe gaztediari latina eta frantsesa (bata zientzien giltza, biak "hain beharrezko ditugunak") ikastea errazteko lan gisa aurkeztu zuen bere hiztegi laukoitza. Euskararen aldetik, Baxenabarre, Zuberoa eta Lapurdiko hitz guztiak (hurrenkera horretan) biltzen omen zituen eta, egilearen esanetan, zaila zatekeen "zabalago, modernoago eta fidelagorik egitea".</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="29">Zenbakiak ez dira zehatz-zehatzak: 4.867 sarrera ditu gure laginak, bidalketa-deiak barne; 2.435 eratorri zenbatu ditugu, baina atzizki bi dutenak bitan agertuko dira. Halere, ez da hortik oso urrun ibiliko.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="30">Alde batera utziko ditut hemen Larramendik euskaratik gaztelaniarako mailegutzat zituenak (ik. § 6.5).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="33">Elkarketan aztertu ditugu ia atzizki gisa (hots, bai emankorki, baita fonetikoki kamustuta ere) erabili zituen bigarren osagai hauek (ik. Urgell 2008a: § 1.6.2).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="34">Zehazkiago, honako hitz hauetaz ari gara: toponimiatik arbizu; azauto-ren iturria Leizarraga dugu, eta axolduri-rena Axular (ik. Urgell 2000b).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="35">Oso argigarria da, bestalde, halakoen premia noiz sortu zen ohartzeko. 36 Halaz ere, Hegoaldeko erabilera berriaren eragilea ez da Larramendi (ik. Urgell 2004b: § 2.3), beranduagoko (XX. mendeko) norbait baizik, eta EH-k ematen dituen daten arabera, eragilea ez balitz, bitarteko eta hedatzailea bederen erraz antzeman daiteke.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="37">Xehetasunetarako ik. -kide / -ide(Urgell 2004b:  § 5.2), -gin / -kin (ib.: § 4.1), -tze / -te (ib.: § 11).38  Honetaz guztiaz, ik.Bahner (1966: 128-133). Fenomeno fonetikoen ulerkera diakronikoan noraino iristen ziren jabetzeko, argigarri izan daiteke bertako pasarte hau: "Por medio de analogías formales, se pretende hallar una relación con la raíz. Los gramáticos antiguos y los humanistas veían en los derivados excepciones de la forma adecuada, corrupciones lingüísticas. De esta forma, el principio de la analogía fue de una importancia fundamental en las ideas de los humanistas vulgares sobre la corrupción lingüística. (...) Aldrete no se adelanta a los métodos modernos elaborados por los teóricos del lenguaje en el siglo XIX sobre los cambios fonéticos. No aprecia de una forma consecuente las variaciones fonéticas como producto de un desarrollo interno de una lengua, sin carácter valorativo, sino que las considera como pruebas de la corrupción lingüística. Por ello está aún muy lejos de llegar al establecimiento de reglas, y no se puede hablar de una concepción sistemática"(Bahner 1966: 132).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="30">eta 365, hurrenez hurren). Ez dirudi izenondoak eratzeko balio duen Larramendirenarekin lotura zuzenik duenik, dena den. 50 Forma bitxi hauen azalpen zehatzago baterako, ik. Urgell (2004b: § 2.7).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="51">Cf. ahostuntzeaz gorago esana eta erreparatu r ondoko testuinguruaren zalantzazkotasunari.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="57">Corpusetik kanpo ere bai, jakina: enzugin "oído", ikusgin "vista", ukin "tacto", usaikin "olfato", baina migustua, gustua "gusto", Larramendiren ustez euskal etimologia duelako.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="60">Gogora ditzagun bere hitzak: "Entré luego a leer con reflexión el Diccionario de la Real Academia Española, y leí sus seis grandes volúmenes, y en cada uno todas sus voces sin dexar ninguna"(Larramendi 1745: lii).61  Xehetasun gehiagotarako, ik.Urgell (2008g).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="65">Ik., esate baterako, Larramendi (1729: 266-267) -tzaile / -le / -ari-z, eta -gile / -gin-ez (ib. 267).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="72">Adibidea ez da besteak bezalakoa, zeren, onartutako etimologiaren arabera (lat. *lascare, errom. lascar; ik. FHV 324), askatu baita lehengaia, eta aske horren atzeranzko eratorria baino ez (kontzeptu honetaz, ik. Urgell 2008b). Halere, Larramendi ezin zitekeen arauaren norabideaz ohartu, analogiaren parametroetan sartzen ez zenez gero, besteak beste.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="84"> De Rijk-ek (1995: 304)  "the inevitable Basque haplology" deitzen dio: beraz, badirudi lehenagotik ezaguna eta zeharo nabarmena dela. Mereziko luke, nik uste, baldintzak aztertzea. Bide batez, goian eman ditudanak baino adibide hobea izan daiteke Hiztegi Batua-n estutasun forman hobetsita agertzen den hitza (cf. OEH, s.v.), estuasun eta esturasun aldaerak (baita estusun G-azp ere) lehian egotea askoz adierazgarriagoa baita.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="85">Ohartu argintza herrikoia azaltzeko forma etimologikoak -kintza daramala, gero eratorpenean praktikan jartzen duenarekin bat.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="87">Adibide eder bat aurkitu dugu gramatikan, non hots-aldaketak agerrian gaitzetsita dauden: "La negación ez es tan malignante, o de tan mala condición, que muda la pronunciación a algunas letras que vienen después, o introduce otras en su lugar (...)"(Larramendi 1729: 293). Gehiago ere egongo dira, noski.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.3.3.">n &gt; ø / -C</head><p>Bi adibide ditugu, eta bietan aditz erroari dagokion sudurkaria galdu da erator atzizkiaren aurrean: antzesakin "parabolano" (&lt; antz + esan, cf. antzesande "parábola"), atsegigarri "espirable" (&lt; ats egin "respirar"; cf. "Espirar, lo mismo que respirar, véase).</p><p>Galera hau izenean ongi xamar ezagutzen dugun bitartean (ik. <ref type="bibr">Mitxelena 1977: 309-310)</ref>, ez dago ezer aditzetakoari buruz, dakidalarik. Halere, aditzizenez gainera (egiten, egile), ez da erabat ezezaguna zenbait atzizkirekin ere desagertzen dela edo desager daitekeela: cf., adibidez: t + k &gt; k: anbakintza "contaduría" (&lt; anbate "cuenta"), arbelokai "turquesa, molde de hacer bodoques" (&lt; arbelota "bodoque"), ardikai "calderilla" (&lt; ardit "ochavo"), ausarkiro eta ausarki "determinadamente". Salbuespena: arretki "advertidamente" (&lt; arreta "advertencia"). t + t &gt; t: ainbatxo "tantico", arretsu "vigilante" (vs. arretatsu "(es muy) aplicado"). 7.3.5.2. tz + z &gt; tz; ts + ts &gt; ts: arrotzain "hospedero", auntzai "cabrerizo"; adatsu "melenudo", autsu "polvoroso". Ez ostera -z + tz-n: aiztzar eta arkaiztzar "peñón", arteztzaile "enderezador". 7.3.5.3. Oinarri barruko txistukariaren aldaketa (adibide gehiago elkarketan: cf. Urgell 2008a: § 2.3.5): atxalketa "uñeta" (&lt; atzal "uña"). 8.3. Jadanik lekukotuta zeuden kateen artean, bereiz aipatu behar da hiztegigileengan bakarrik, dakidalarik, lekukotzen den -garritasun katea, bai baitirudi -Azkaratek (1991: 31) iradoki bezala-honen ugaltzea hein handi batean lotuta dagoela '-ble = -garri' egokitasun berriaren ondorioz ireki zen '-bilidad = -garritasun' egokitasunarekin. Lehenengo agerraldiak Pouvreauren idazlanetan <ref type="bibr">(harrigarritasun, iustugarritasun, miragarritasun, saindugarritasun, ap. Lakarra 1995)</ref>, <ref type="bibr">Urte (agradagarritasun, miragarritasun)</ref> zein Larramendiren hiztegietan (amagarritasun) aurkitzen dira eta, dakusgunez, hainbat dagokie -garri-ren adiera aktiboari nola pasiboari.</p><p>Antzeratsu esan daiteke -garriki (eta HH-ko -garriro) kateari buruz, inondik ere -ki atzizkiaren hedapenaren ispilu (cf. <ref type="bibr" target="#b86">de Rijk 1995)</ref>: ez dut arrastorik aurkitu Leizarragarenean, eta Axular eta CatLav-en izigarriki baino ez; alabaina, hiztegigileengan adibideak ugari daude:</p><p>Pouvreau: miragarriki (SP Imit), harrigarriki, irrigarriki (hizt.). <ref type="bibr">Urte: agradagarriki, arbuiagarriki, desagradagarriki, fastikagarriki... Larramendi: ahalkagarriro, adiragarriro, adiskidegarriro, aditezgarriro, alabagarriro...;</ref> arrigarriki.</p><p>8.4. Gauzatu gabe bide zeuden kate zilegien adibide zenbait eskaini zizkigun Larramendik; alboan kideko kateak jarri ditut, aurretiaz lekukotuta zeuden heinean: </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Egun ere halako eskubide bat aitortzen zaio analogiari, arrazakeria bezalako oinarri berriko eratorriei ateak isten ez zaizkienean, adibidez (cf. LEF batzordea 1994: 1043)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Gogoan izan Azkarateren lana (1991) lehenengo hurbilketa dela. Zenbait puntutan, Larramendiren iturriei esker gehienbat, frogatu ahal izan dugu hark jasotzen ez dituen oinarri batzuk ez zirela ezezagunak, baina, dena dela, 1745 aurreko eratorpenaren azterketa historikorik ezagatik nahi baino gehiagotan azalpenik gabe geratu gara</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aditzoinaz</forename><surname>Gehiago Luzatuko Gara Beherago</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">§ 2.1.1.a) arau honen adibide gehiago aurki daitezke, eta han bezalaxe eratorpenean ere hitz berri analogiko zenbait egiten ere jakin zuen Larramendik: lehen familian ardanle &quot;vinatero&quot; hiztegian urruti ez dagoen ardantza &quot;viña&quot;-ren analogiaz sortua bide da, eta arrandari &quot;pescadero&quot; aurreko sarreran dagoen arrandegi &quot;pescadería</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">(</forename><surname>Elkarketan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cf</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<pubPlace>Urgell</pubPlace>
+		</imprint>
+	</monogr>
+	<note>ren eredura. 7.1.2. i &gt; ø + d &gt; t (Mitxelena 1977: 237</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+				<title level="m">ART-&apos;ardia&apos;: artegi (1571) vs. arditegi (1715); ar(t)zai (1183), arzain (1545) vs. ardizai</title>
+		<imprint>
+			<date type="published" when="1745" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Larramendik ez zuen araua antzeman; aitzitik, ar-hasiera ari &quot;carnero</title>
+	</analytic>
+	<monogr>
+		<title level="m">Argudio hobeez elkarketan defendatuko dudan bezala (ib. § 2.1.1)</title>
+		<imprint/>
+	</monogr>
+	<note>i &gt; ø + g &gt; t ART-edo ARK-&apos;argia&apos;: arkai &quot;vela de cera, &amp;c. vs. argikai &quot;candela&quot;)</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Arat-Edo Arak-&amp;apos;haragia</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>: arakile &quot;sarcótico&quot; (vs. aragigile &quot;encarnativo&quot;), arakai &quot;cecina&quot;, arakaldi &quot;carnalidad, luxuria&quot;</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">denak lekukotu gabekoak direnez gero, errazago lot daitezke, ene ustetan, Larramendiren berrikuntza batekin, hots, &apos;i &gt; ø + g &gt; k&apos; arauarekin (ibid. § 2.2.c): arakaldi (&lt; aragi + aldi) alde honetatik argia da, adibidez. 7.1.4. i &gt; ø + r &gt; l (egiazki *l-ren mantenketa, noski</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Honako</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eta</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">1977</biblScope>
+			<biblScope unit="page" from="317" to="319" />
+		</imprint>
+	</monogr>
+	<note>gehienetan behintzat; Mitxelena</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;apos;</forename><surname>Afal-&amp;apos;afaria</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Apal-&amp;apos;</forename><surname>Aparia</surname></persName>
+		</author>
+		<title level="m">afaldu (1571), afaltegi (1715), apaldu. AIZKOL-&apos;aizkora&apos;: aizkolketa &quot;hachazo&quot; vs. aizkoratxo &quot;hacheta</title>
+		<imprint/>
+	</monogr>
+	<note>67 aizkorada &quot;hachazo</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Adibideak urri eta gehienetan zaharrak direnez gero, gehienak arlo semantiko berekoak izateaz gainera, ez dirudi Larramendik hedatu zuenik eta, beraz, esango nuke aizkolketa HH-an arkaismoa bide dela</title>
+		<imprint>
+			<date type="published" when="1977" />
+			<biblScope unit="page" from="337" to="338" />
+			<pubPlace>Mitxelena</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Larramendik oharkabean jasoa. 7.1.5. r &gt; ø / -C</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Familia bakar batean agertzen denez gero, badirudi lasai esan daitekeela ezen taldeko hitzak oro herrikoiak direla. Ohartu, bide batez, adatsu &quot;melenudo&quot;-ri</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Mitxelenak (loc. cit.) aizkoltxo aipatzen du, baina ez dago OEH-n jasota; cf. bertan, ostera, aizkolta eta s.v. aizkol-ematen diren elkartuak</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">adats adar-en eratorritzat Uhlenbeckek eman zuen lehendabizikoz (Mitxelena 1969: 400; ik. baita OEH ere, s.v.), baina, dakusgunez, edo Larramendi ere ondorio berera iritsi zen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ofizialki</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>edo hi-7.2.1. i &gt; ø, bisilabadunetan (Mitxelena 1977: 125</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">ea., vs. arrikintza &quot;id.&quot;), artzar &quot;cantazo&quot; (vs. arritxo &quot;china&quot;) vs. arrika &quot;(a) pedradas&quot; (1596), arrikintegi</title>
+		<idno>AR-&apos;harria&apos;: argintza &quot;cantería</idno>
+		<imprint/>
+	</monogr>
+	<note>XVII. oficina de alfahareros&quot;, arritsu &quot;pedregoso&quot;, etab</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">§ 2.1.1.a) arri-ren adibide ugari ez eze, beste hitz batzuenak ere bilduta daude. 7.2.2. i &gt; ø + d &gt; t eta, hala dagokionean, ondoko herskariaren ahoskabetzea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Elkarketan</surname></persName>
+		</author>
+		<idno>1977: 345 eta 361</idno>
+		<imprint>
+			<date type="published" when="2008" />
+			<pubPlace>Urgell</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">*</forename><surname>Aha(i)t-&amp;apos;ahaidea</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>ahako (1571), ahaiko (1627) vs. aidetasun (1653), aidebatza, aidetu (XVII ea. ahaidetu</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">ANT-&apos;handia&apos;: antura &quot;hinchazón, soberbia</title>
+		<imprint/>
+	</monogr>
+	<note>XVII ea.), (h)antu &quot;ahuecarse&quot; (1571</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">.2); ant-en kasuan, aldiz, elkarketan ikus daiteke egiantzekoa dela berak hitz berriak egin izana (Urgell 2008a: § 2.1.2.b). 7.2.3. o &gt; a bisilabadunetan, hala dagokionean a + a &gt; a ondorioarekin</title>
+	</analytic>
+	<monogr>
+		<title level="m">AOKA-&quot;ahokoa&quot;: aokadura &quot;dentadura&quot;. ARTA-&apos;artoa&apos;: artadi &quot;maizal&quot; vs. artogile. ASTA-&apos;astoa&apos;: astakeria (1715), astatsu &quot;borriqueño</title>
+		<meeting><address><addrLine>Mitxelena</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1977" />
+			<biblScope unit="page" from="126" to="127" />
+		</imprint>
+	</monogr>
+	<note>ahaide-ren eratorriei dagokienez, jadanik adierazi dugu atzizkia zehazki zein zen asmatu ezinik ibili bide zela Larramendi ( § 4. astazai (1652) vs. astoar &quot;jumental&quot;, astotar &quot;asnal&quot;, astokiro &quot;asnalmente&quot;, astotxo &quot;asnillo&quot;, astotzar &quot;asnazo</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">§ 2.1.2.c) osasuntsu dabil. 7.2.4. e &gt; a bisilabadunetan, hala dagokionean a + a &gt; a ondorioarekin: AIZA-&apos;haizea&apos;: aizaldi &quot;oreo</title>
+	</analytic>
+	<monogr>
+		<title level="m">Eratorpenean araua beretzen duten adibideak bataz beste gutxiago izan arren, elkarketan</title>
+		<meeting><address><addrLine>Urgell</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>aizatu &quot;orear&quot; (XVII ea.) vs. aizetxo &quot;airecillo&quot; (1715), aizekin eta aizegile &quot;abanico&quot;, aizetsu &quot;airoso&quot;, aizetiar &quot;volátil&quot;, aizetu &quot;airearse</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">ALDA-&apos;aldea&apos;: aldatu &quot;mudar</title>
+		<imprint>
+			<date type="published" when="1596" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">andraketari &quot;rufián&quot;, andrati &quot;gorrón&quot; (vs. andreti &quot;deshonesto&quot;), andrazai eta andrazaitzaile &quot;guardamujer, criada de la reina&quot;, andrazale &quot;rufián&quot; (vs. andrezale &quot;deshonesto&quot;), anraketa &quot;deshonestidad&quot;, vs. andredi &quot;mujeriego, conjunto de mujeres</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andra-</forename><surname>Anra-&amp;apos;andrea</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;apos;</forename><surname>Rufianería</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>andreera &quot;señoría, tratamiento&quot;</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Artza-&amp;apos;artzea</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>: artzatu &quot;acribar&quot;, &quot;zarandar&quot; vs. artzetu &quot;cribar&quot;. ASKA-&apos;askea&apos;: askatu &quot;desatar&quot; (1596). 72</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">por guardar, a su parecer, demasiada puntualidad, desfiguran en lo escrito lo pronunciado</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Assí dicen y escriben de uts, utstú, otz, otztú, y nosotros ustú, oztú, y es lo que se pronuncia</title>
+	</analytic>
+	<monogr>
+		<title level="m">Larramendi 1745: xxvii)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">definir&quot; eta familia; esango nuke arpetza &quot;declaración&quot;, &quot;definición&quot;, &quot;interpretación&quot; argipetzea aditzizenaren forma uzkurtua dela (cf</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cf</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Definición, arpetza, arguipetzea</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Quando [en el dialecto navarro y labortano] anteponen a los verbos acabados en vocal, como artu, ebasi, quendu, dexan con frequencia la última sylaba, diciendo, eztezazula har, ez ebas, ez quen, y nosotros eztezazula o eztaguizula artu, ez ebasi, ez quendu. Es verdad que también nosotros hacemos lo mismo quando anteponemos el verbo a la terminación, arbeza, arrezac, &amp;c</title>
+	</analytic>
+	<monogr>
+		<title level="m">beraz, arpetza honetatik sortuak bide dira gainerako arpez-dunak</title>
+		<imprint/>
+	</monogr>
+	<note>Larramendi 1745: xxviii)</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Aditzizenari buruz hemen eta ondoko lerrokadetan emango diren datuak Urgell</title>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page">939</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Zalantzaren bat sor dezakete arauli &quot;trabucar&quot; / araulitu &quot;trastornar&quot; forma biko aditzetik eratorriek, oro har zeinek bere eratorriak baitituzte (araulida eta araulitze &quot;preposteración</title>
+		<imprint/>
+	</monogr>
+	<note>arauligarri &quot;trastornable&quot;, araulitzaile &quot;trastornador. baina araulari &quot;trabucante&quot;, araultze &quot;trabucación&quot;), salbuespenen batekin (araulde &quot;trastorno&quot;)</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">3 eta 7.2.4), baina bigarren osagaiaren bukaeran; cf., adibide honetaz gainera, aderna (&lt; erne), apaindona (&lt; done), asbida (&lt; bide), atoltxa (&lt; oltxo), atzula (&lt; zulo), atzonda (&lt; ondo)... (ik</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<pubPlace>Urgell</pubPlace>
+		</imprint>
+	</monogr>
+	<note>2.3.4)</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+				<title level="m">antzesandar &quot;parabólico&quot; (&lt; antzesande &quot;parábola&quot;), artizkindar &quot;ortográphico&quot; (&lt; artizkinde &quot;ortographía&quot;), artzonti &quot;cortés&quot; (&lt; artzonte &quot;cortesanía&quot;), askijakindar &quot;filológico</title>
+		<imprint/>
+	</monogr>
+	<note>&lt; askijakinde &quot;filología&quot;)</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">URA: adiskiura &quot;cabida, entrada, amistad</title>
+		<editor>KI(DE) + -(D</editor>
+		<imprint/>
+	</monogr>
+	<note>&lt; adiskide &quot;amigo&quot;)</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Are</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Da</surname></persName>
+		</author>
+		<title level="m">TE: anbakintza &quot;contaduría&quot; (&lt; anbate &quot;cuenta&quot;), adiskiunde &quot;amistad</title>
+		<imprint>
+			<publisher>DE</publisher>
+		</imprint>
+	</monogr>
+	<note>&lt; adiskide &quot;amigo&quot;). -GIN: atsekida &quot;consuelo&quot; (&lt; atsegin &quot;alegría&quot;, etab.). -KI: adiragarri &quot;notable&quot; (&lt; adirakitu &quot;notar&quot; &lt; adiraki &quot;nota&quot;). -TZA: auziabartari &quot;pendenciero&quot; (&lt; auziabartza &quot;pendencia&quot;)</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Eta, azkenik, desagertutakoa deklinabide atzizkia ere izan daiteke: anzaera &quot;gobierno</title>
+		<imprint/>
+	</monogr>
+	<note>&lt; anzaztu &quot;gobernar&quot; &lt; anzaz &quot;artez&quot;)</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">2) aurkitu ditugu taiu bereko adibide batzuk, hala nola altisoi &quot;nácar&quot; (&lt; altiste &quot;perla&quot; + agian oia &quot;ohea&quot;) edo andeza &quot;edema, tumor aquoso&quot; (&lt; anditsu &quot;tumor&quot;); azpimarra dezagun azalgaitzak zirenak azaltzeko bide emankorra suertatu dela han: adibidez artukitu &quot;escrupulizar</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Elkarketan Ere</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<pubPlace>Urgell</pubPlace>
+		</imprint>
+	</monogr>
+	<note>&lt; artaz &quot;atentamente, con cuidado&quot;) edo asturritu, asturrundu &quot;degenerar&quot; (&lt; astetik urritu, urrundu; cf. aste &quot;comienzo&quot;)</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Gauzak honela, baliteke -te + -ari &gt; -tari azalpena eman diegun hitzak ere taiu beretsukoak izatea Larramendiren ustetan, hots, amartari &quot;decurión&quot; (&lt; amarte &quot;decuria&quot;) edo anbatari &quot;contador&quot; (&lt; anbate &quot;cuenta&quot;) erakoak ere. Argi xamar dago honelako guztietan atzeranzko eratorpen eta analogia fenomenoek ere zerikusia izan dutela. 7.4.5. Atzizki batzuk desagertu beharrean mozorrotuta daude: -DURA + atzizkia &gt; -RU &gt; aokaruka</title>
+		<idno>Desagertutako atzizkiak bestearen forma eragin dezake: cf. adimentar (&lt; adi- mentu)</idno>
+		<imprint/>
+	</monogr>
+	<note>a) dentelladas&quot;, aokarutu &quot;dentado&quot; (&lt; aokadura &quot;dentadura&quot;)</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">(t)soro &quot;poderosamente&quot;, &quot;potentemente&quot; (&lt; almentsu &quot;poderoso&quot;), eta honekiko analogiaz baita aldunsoro</title>
+		<editor>TSU + -RO &gt; -(T)SORO: almen</editor>
+		<imprint/>
+	</monogr>
+	<note>potentemente&quot; ere, vs. amultsuro &quot;deliciosamente&quot;..</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-Tsu +</forename><surname>Konts</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>hasierako atzizkia &gt; -S: ainaldaskiro &quot;preciosamente&quot;, ainaldaste &quot;preciosidad&quot; (&lt; ainaldatsu &quot;precioso&quot;), azañoskiro &quot;hazañosamente&quot; (&lt; azañotsu &quot;hazañoso&quot;)</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Kor + -Ro &amp;gt; -Koro</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>auskoro &quot;frágilmente&quot; (&lt; auskor &quot;frágil&quot;)</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Tar + -Ro &amp;gt; -Taro</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>argidortaro &quot;ilustremente&quot; (&lt; argidortar &quot;ilustre&quot;)</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">zeren espero baitezakegu euskal hitz batzuen historiarako ez ezik, eratorbidearen historiarako ere xehetasun interesgarriak erdietsiko ditugula batean -eta ziurrenik bestean ere-hain garrantzitsua izan zen hiztegi honetan. Bestetik, eratorpenean kausitu ditugu Larramendik hitz-bilketari bere lanean eman zion garrantziaren lehen aztarnak: atzizki ezberdinak hainbat izatea bera aski ez balitz ere, erants bekizkio anarteraino Iparraldeko tradizioan bakarrik jasotako atzizkiak (-go, -men / -pen...), eta 1745 arte lekukotu ez zirenak (-skote eta agian -ada), edota Hegoaldeko literatura urrian ozta ageri zirenak (-keta, -era...; oro har, ik. § 3). Ahozko euskarak HH-an izan zuen garrantziari dagokionez, hitz bakan batzuk (azkarri &apos;legamia&apos;, esaterako) berresteaz beste aurrerapenik ez dugu hemen egin</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hiztegia Baino Leku Egokiagorik. Premia Baldin Bada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Berritu Zuen Jakin Nahi Izateak Lehenengoz Zentzua Hartzen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Du</surname></persName>
+		</author>
+		<ptr target="honelakoetorkiadaukatenedoizandezaketenhitzmotaguztiakel-karrekinaztertzeko(ik" />
+		<imprint>
+			<date type="published" when="2000" />
+			<pubPlace>Urgell</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Larramendik hartu zituen erabaki orokorretan eragina izan zutela sumatzeko: Atzizki batzuk liburuetan ikasi bide zituen, horietako batzuk emankor bihurtu zituen eta irakurritako hitzen eredura eratu zituen maiz berak egindako hitz berriak; baliteke, gainera, atzizkiren baten nagusitasuna literatur erabileraren arabera erabaki izana ( § 3.3). Zertzeladetan aurkitu ditugun batetortzeak -ongi lekukotutako hots-aldaketak ( § 7.2) eta atzizki-kateak ( § 8.1), adibidez-asko eta asko dira. Alderdi hau ezezaguna zen erabat, eta pertsona ezaugarri bakar batez -berritzaile gisa, adibidez-definitzea errazkeria ez eze, huts larria ere izan daitekeela erakusten digu. HH-ko eratorpena ulertzeko, berrikuntzatik ez, baizik eta tradiziotik hasi behar dugu: jakintzat eman behar dugu Larramendi oinarrizko lanetik hasiko zela, hau da, lehen-lehenik eskura izan zituen iturri guztietatik hitzak biltzeari ekingo ziola. Lan honen ondorio zuzenez, HH-an bakartuta dauden edo ia eraginik gabekoak diren atzizki batzuk aurkitu ditugu ( § 3.2.1): agian Larramendik ez zituen hauteman, edota ez zituen behar. Hauen aleak sakabanatuta daude HH-an zehar, sarrienik ez dago emankortasun edo berrikuntza usaineko ezer euren eratorrietan, eta batzuetan bide batez baizik ez dira agertzen</title>
+		<ptr target="han-hemendikjasoak.Bestehainbestegertatzendaarkaismomodurabainoagertzenezdirenzenbaithots-aldaketarekin(§7.1" />
+	</analytic>
+	<monogr>
+		<title level="m">Alabaina, maiz ondorioak aurreratu ditugu, azalerrazak diren gertakari anitz ulergaitz ez bilakarazteko. Besteak beste, honek bide eman digu HH-an euskal liburu eta hiztegiek, betebehar anekdotikoaz gainera (hitz gehiago edo gutxiago eskaintzeaz gainera, alegia)</title>
+		<meeting><address><addrLine>Urgell</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note>Beste horrenbestetsu gertatzen da, neurri batean behinik behin, literaturatik datozkeen hitzekin (ik</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Bigarrenik, jakintzat eman behar dugu Larramendik euskararen baliabideak sakon aztertu zituela, berez zekien edo bildu ahal izan zuen hitz altxorrean oinarri harturik, hitzetan eraketaren zantzuak (atzizkiak, kasu) aurkitzeko. Azterketa honen fruiturik nabarmenenak atzizkiei buruz egin zituen deskribapenak dira ( § 2.6): gramatikatik hasita baina, berak hala nahita, batez ere HH-an, tankera honetako berri asko dago eta, beharbada nahi genukeen guztia ez bada ere, oro har zuzena eta zehatza izan ohi da, hots, atzizkiak bai erabilpen maiztasun eta hedaduraren, baita erabileraren aldetik ere (oinarria, esanahia, batzuetan hots-aldaketak ere) ongi -eta maiz lehenengoz-ezaugarriztatzen ditu. Maila honetan azpimarratzekoa da atzizki batzuek beren gaztelaniazko kideekin daukaten erlazio genetikoa asmatu izana (eta ondorioz erabilera ere hedatu izana), bere ohiko teoriaren arabera alderantzizko norabidean ezarri bazuen ere ( § 6.5). Honaino hitz-biltzaile eta gramatikalariaren lana (agian hobeto &quot;etimologoaren lana&quot; esatea, orain artean hitz hau erabili ohi den baino adiera zehatz eta interesgarriago batean) amaitzen da, eta hiztegigile berritzailearena hasten. Lexikografo modura, Larramendik HH-an bildutako lexikoaren jitea -guztiz bere alderdirik nabarienetan-goitik behera eragin zuten erabaki garrantzitsu sorta oso bat hartu zuen. Haietako lehena, euskararen eratorbideak osorik ustiatzea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Honelako Guztietan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gabe</surname></persName>
+		</author>
+		<ptr target="oinarrietaatziz-kienarteanbeharrezkozirenkonbinazioguztiak-etamaizegindaitezkeenguz-tiakere-eginez(§2.3" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Atzizkia bestelako (dakidalarik, beti beranduagoko) iturrien bitartez ezaguna da, Larramendik ongi ezagutzen zuen (arinskote &quot;ligero&quot;), baina apaingarri gisa bakarrik erabilita dago, arinsko etimoa -hau ere ongi eratua-aski baita gazt. arisco azaltzeko. Halaz ere, ez zuen arazorik izan zeharo arauz kanpokoa den beste etimogai bat (arriskote &lt; arrizko) analogikoki eratzeko. Osterantzean, atzizki esanahikideak eta atzizki baten alomorfoak ugari pilatzen dira batzuetan. Ez ditugu euren arteko erlazioak erabakitzen dituzten arauak osoki harrapatu, agian, baina ez dirudi erabilera erabat ausazkoa denik. Batetik, maiz ez dago esanahi bereko edo beretsukoen artean bereizketa semantikorik (zehazki ekintza-izenei dagokienez, cf</title>
+		<idno>ERATORBIDEEN ANALISIA 253</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Honek zuzenean garamatza bere bigarren erabaki garrantzizkora: azterketaren bitartez, Larramendik ikasi zuen atzizki baliokide taldeak eskumenean zituela eta era batera edo bestera -ez nahitaez bere euskarari zegokionez-hitz berrietan lehentasunez erabiliko zituenak hautatu zituen</title>
+		<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note>Beste banaketa modua, funtzionala. hobekixe ezagutzen dugu: atzizki bat edo alomorfo bat, kasuan kasu, ohiko baldintzetan darabilen bitar-ERATORPENA LARRAMENDIREN HIZTEGIAN (I</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Eta gogoan izan Larramendik ez zuela euskara batuaren antzekorik ezer buruan, euskal hitz guztiak euskaldun guztienak egitea bakarrik baizik (eta euskaldunak bat egitea ere bai</title>
+		<imprint/>
+	</monogr>
+	<note>bide batez esanda</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">), halaber. tean (ordezkari &quot;kanonikoa&quot; izena eman diogu lehen), gainerakoak askeago erabili ohi ditu, ondorio berriak lortzeko, dela ohiz kanpoko oinarriekin lotzeko, dela adiera berriak adierazteko</title>
+	</analytic>
+	<monogr>
+		<title level="m">Larramendi 1729: 338)</title>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="page" from="41" to="49" />
+		</imprint>
+	</monogr>
+	<note>Gehienez ere, beraz, Gipuzkera Osotuaren antzeko zerbaiten aldekoa zatekeen, avant la lettre. edo dena dela ( § 4.12 eta 5.3</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Larramendik egindako hautu hauek xehekiago begiratu beharrak dira. -tasun arruntzat jotzea anakronikoa izan liteke, -ki (edo -kiro) atzizkiekin de Rijk irakasleak (1995) frogatu zuen bezala ( § 6.2): argi daukagu Iparraldeko literaturan tinko ezarria zegoela, baina eta gainerakoan? Jakinaren gainean hartu zuen beste erabaki bat, erator oinarrien gainean tradizioak ezartzen dituen mugak gainditzea izan zen ( § 5). Ez dut uste ezjakintasunari leporatzea bidezkoa denik. Bere deskribapen zuzenen eta HH-ko erabileraren artean dagoen aldea oso argia da alde honetatik. Erabaki honen oinarrian, batez ere aditzari dagokionez</title>
+	</analytic>
+	<monogr>
+		<title level="m">Larramendiren azterketaren sakontasuna neurtzeko, ez bide dago ahaikoa &quot;pariente&quot; eta ahakoa &quot;cognación&quot; hitzak baino adibide argiagorik: bata Etxeberri Ziburuko edo Axularren liburuetan eta bestea Leizarragarenean ikasi zituen</title>
+		<meeting><address><addrLine>Urgell; Urgell</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2000" />
+			<biblScope unit="volume">1729</biblScope>
+			<biblScope unit="page" from="266" to="267" />
+		</imprint>
+	</monogr>
+	<note>Kontua ez da txantxetakoa, bestalde, -kidago atzizki katea daukaten hitz berriak corpusean ugari aurkitu ditugunez gero. Hautapen prozesuan batzuetan jakinaren gainean ahozko zein idatzizko tradiziotik alderatzen da, bai eta teorian berak egindako deskribapenetatik. Harrigarria da -egungo euskaldunontzat bederen--tasun-ez egindako eratorrien urritasuna, gramatikan izen abstraktugile nagusi gisa badakar ere. Beste muturrean -ari atzizkia aipa dezakegu: Larramendik euskalki guztietan besteak (-tzaile, -le) baino gutxiago erabiltzen dela esan arren (ib. euskal erroaz izan zuen ikusmoldea kokatu behar dugu: izan ere, gure begietan zehaztasun gabeko oinarri gisa agertzen dena, Larramendiren begietan euskal erroa baino ez bide zen, bere jatorrizko itxuran (cf</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Berrikuntza nabariko gainerako kasuetarako, premia berriei egokitze hutsaz hitz egin beharko genuke, besterik gabe; batzuetan premia berak sentitu eta aterabide beretsuak asmatu zituzten idazleak eta hiztegigileak aurkitu ditugu. Eta, ezbairik gabe, askatasun osoz lanean aritu izana ere ezin dezakegu alde batera utzi: bere buruari ezarritakoez beste estuasunik gabe, aitzindaria zela eta aintzat hartzeko moduko aurkaririk gabe -&quot;tontotzarren erausiak&quot; baino ez, bere ustetan-ari zela jakiteak baino gehiagok faltan emango du Larramendiren ikuspegia, hots, ea praktikan erregulartasunaren aldekoa zen, ala irregulartasunaren. Polikiago miatu beharko den arren, aurrera dezakegu bietara jokatu zuela, baina agian ez bietara nahita: batzuetan bere garaikoetan espero daitekeen bezala, erregulartasunaren alde jokatu zuen, eta erabilerak sortutako usteldura osatzearren</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Zuzenean Sartzen Dira Hemen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">forma etimologikoak berreraiki zituen (ahaltun eta arrikintza dakar, altun eta argintza-ren alboan, adibidez). Bestetan, ordea, badirudi analogia hutsez jokatu zuela, oharkabean ala nahita</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+		</imprint>
+	</monogr>
+	<note>ez jakin (cf. atakida &quot;compuerta&quot;, adib., ate-ren eratorrietan ezinbestean berria izan behar duen bat aipatzearren</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Larramendiren ikuspegitik, ordea, jatorrizko erroaren berreraiketa baino ez bide da, zeren eta, tradizioak erakutsitako e-dun formen alboan batzuetan, bestetan gabe, sistematikoki -a-dun eratorriak osatu baitzituen, falta zirenean: bazuen ahalketu (1571) eta ahalkatu &quot;avergonzar&quot; (1635), baina ahalkati &quot;vergonzante&quot; erantsi zuen ahalketi (1627) zaharraren alboan, eta ahalkagabeki &quot;desvergonzadamente&quot; dakar bakarrik, ahalkegabeki (1617) zaharraren ordez</title>
+	</analytic>
+	<monogr>
+		<title level="m">Badago beste aukera bat, halere, ahalke-ren familiak argituko diguna: izan ere, ahalka, ahalkea &quot;vergüenza&quot; bikotea azaltzeko, gure hitzetan atzeranzko eratorpena dagoela esan behar dugu (ahalkatu-tik ahalka &quot;berreraiki&quot; zuen Larramendik; ik. Urgell 2008b)</title>
+		<imprint/>
+	</monogr>
+	<note>Izan ere, aztertuago eta argiago daukagu Larramendi ez dela inoiz ex nihilo ari</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Eratorpenean ez eze, Larramendiren sorbideen bila kurritu behar ditugun beste alorretan ere hartu dugun eskarmentua hauxe da, alegia, zenbat eta adibide gehiago arakatu, hainbat eta gertakari azalgaitz baten agerraldi gehiago kausitzen direla, hau da, kontuan hartutako laginaren arabera lehen begiratuko bitxikeriak, arau ez bada, joera bederen bihur daitezkeela; hortaz, corpusaren izaera mugatuari zor dakioke inoiz itxurako azalpenik ez aurkitua. Azken gogoeta hauek balio bezate orain artean esandako guztiaren azken gisa: HH-ko berrikuntzez mintzatzerakoan, lehenik euren oinarriez eta zioez jabetu beharra dago</title>
+		<idno>hau hipotesi gisa hartzeak ondorio argiak ditu: aurkitu ditugun desbideratzeek</idno>
+	</analytic>
+	<monogr>
+		<title level="m">gehiegizko erabilerak) azalpen logikoa -edo trinkoa, behinik behin-izan behar dute</title>
+		<imprint/>
+	</monogr>
+	<note>Ikusiak ikusirik, eta zalantzarik gabe. bada sistemarik Larramendiren erasunean</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bibliografia</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Del origen y principio de la lengua castellana o romance que oi se usa en España. L. Nieto-ren berrarg. faks. eta azterketa (2 lib</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">J</forename><surname>Aldrete</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Madril: CSIC</title>
+		<imprint>
+			<date type="published" when="1606" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Altuna</surname></persName>
+		</author>
+		<title level="m">Larramendi euskaldun berritua</title>
+		<imprint>
+			<date type="published" when="1967" />
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="39" to="48" />
+		</imprint>
+	</monogr>
+	<note>Lakarra (arg</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">=</forename><surname>Axh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Villasante</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Irakaskuntza proiektua. Donostia: UPV/EHU (argitaragabea). -, 1992, «Larramendiren hitz eraketa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Azkarate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Lakarra (arg</title>
+		<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="page" from="207" to="219" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title level="m" type="main">Oihenarten lexiko-sorkuntza», in Oihenarten laugarren mendeurrena (Iker 8). Bilbo: Euskaltzaindia</title>
+		<imprint>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Diccionario vasco-español-francés, Bilbo</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Azkue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De</surname></persName>
+		</author>
+		<idno>Berrarg. faks. Bilbo: LGEV</idno>
+		<imprint>
+			<date type="published" when="1969" />
+			<biblScope unit="page" from="1905" to="1906" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+				<idno>Berrarg. faks. Bilbo: LGEV</idno>
+		<title level="m">Morfología Vasca</title>
+		<imprint>
+			<date type="published" when="1923" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">La lingüística española del siglo de oro. Aportaciones a la conciencia lingüística en la España de los siglos XVI y XVII, Madril: Ciencia Nueva</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Bahner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1966" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Nominalizazio atzizki deitutakoen azterketa historikoa eta morfologikoa. Doktoregoko ikerlan argitaragabea, Gasteiz: UPV/EHU. -, 2006, «Atzizkiak aztergai autore ezberdinen begiradapean</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Bueno</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Lakarra &amp; Hualde (arg</title>
+		<imprint>
+			<date type="published" when="2004" />
+			<biblScope unit="page" from="921" to="948" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Dvc = Altuna</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1967" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eh = Sarasola</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<monogr>
+		<title level="m" type="main">Euskara-gaztelania / castellano-vasco hiztegia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Elhuyar</surname></persName>
+		</author>
+		<editor>Elhuyar. FHV = Mitxelena</editor>
+		<imprint>
+			<date type="published" when="1977" />
+			<biblScope unit="volume">2</biblScope>
+			<pubPlace>Usurbil</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<title level="m" type="main">Nafarrate eta Urrunagako euskaraz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Gaminde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Elosu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="241" to="262" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">J</forename><surname>Jones</surname></persName>
+		</author>
+		<title level="m">Lingua teutonum victrix? Landmarks in German lexicography</title>
+		<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="131" to="152" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Grammaire Basque (Navarro-Labourdin littéraire). Édition revue et corrigée</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Lafitte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Berrarg. faks</title>
+		<imprint>
+			<date type="published" when="1944" />
+			<publisher>Elkar</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Larramendirekin aurreko hiztegigintzaren historiaz: aztergai eta gogoeta</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<ptr target="«ø/-tubizkaierazaharrean" />
+	</analytic>
+	<monogr>
+		<title level="m">XVIII. mendeko hiztegigintzaren etorkiez. Tesi argitaragabea, Gasteiz: UPV/EHU</title>
+		<editor>R. Gómez &amp; J. A. Lakarra</editor>
+		<meeting><address><addrLine>Donostia; Andoain; Udala</addrLine></address></meeting>
+		<imprint>
+			<publisher>Andoaingo</publisher>
+			<date type="published" when="1984" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="871" to="884" />
+		</imprint>
+	</monogr>
+	<note>Euskal hiztegigintzaren historiarako: II. Gogoetak Urteren hiztegigintzaz</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<monogr>
+				<title level="m">Pouvreauren hiztegiez eta hiztegigintzaren historiaz</title>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="3" to="52" />
+		</imprint>
+	</monogr>
+	<note>Refranes y Sentencias (1596). Ikerketak eta edizioa. Euskararen Lekukoak 19). Bilbo: Euskaltzaindia</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Prolegómenos a la reconstrucción de segundo grado y al análisis del cambio tipológico en (proto)vasco»</title>
+	</analytic>
+	<monogr>
+		<title level="m">Euskararen historia eta filologia: arazo zahar, bide berri</title>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="407" to="470" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<monogr>
+		<title level="m" type="main">Hualde (arg.), R. L. Trasken oroitzapenetan ikerketak euskalaritzaz eta hizkuntzalaritza historikoaz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">J I</forename></persName>
+		</author>
+		<idno>40: 1/2] Bilbo: UPV/EHU &amp; Gipuzkoako Foru Aldundia</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">De la antigüedad y universalidad del Bascuenze en España: de sus perfecciones y ventajas sobre otras muchas Lenguas, Demonstración previa al Arte que se dará a luz desta Lengua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Larramendi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Berrarg</title>
+		<editor>E. Garcia de Honorato.</editor>
+		<imprint>
+			<date type="published" when="1728" />
+			<publisher>Ediciones Vascas</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Diccionario</forename><surname>-, 1745</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Trilingüe Del Castellano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bascuence Y Latín</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Berrarg. faks</title>
+		<imprint>
+			<date type="published" when="1984" />
+			<publisher>Txertoa</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Corografía de Guipúzcoa, ms. de la Real Academia de la Historia, Jesuitas funtsa, 62. leg</title>
+		<idno>c. 1764</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Diccionario vasco castellano (DVC): ik. Altuna 1967. LEF batzordea</title>
+		<imprint>
+			<publisher>Donostia: Sociedad Guipuzcoana de Ediciones y Publicaciones</publisher>
+			<date type="published" when="1969" />
+			<biblScope unit="volume">1764</biblScope>
+			<biblScope unit="page" from="1035" to="1058" />
+		</imprint>
+	</monogr>
+	<note>«Lexiko Ebazpenen Finkapena</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<monogr>
+		<title level="m" type="main">Introducción a la lingüística teórica. R. Cerdá-ren gazt. itzulp., 6. arg., Bartzelona: Teide</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lyons</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1981" />
+			<biblScope unit="page" from="193" to="198" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<monogr>
+		<title level="m" type="main">La formación de palabras en español</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Miranda</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>Ediciones Colegio de España</publisher>
+			<pubPlace>Salamanca</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Donostia: Gipuzkoako Foru Aldundia. -, 1961, «Euskal iztegigilleak XVII-XVIIIgarren mendeetan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>; «introducción</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">N. Landuchio. Dictionarium Linguae cantabricae (1562)</title>
+		<editor>M. Agud &amp; K. Mitxelena</editor>
+		<imprint>
+			<date type="published" when="1958" />
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="361" to="372" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<monogr>
+		<title level="m" type="main">Die asko-/ usko-suffixe und das problem des Ligurichen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«johannes</forename><surname>Hubschmid</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1969" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="397" to="400" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<monogr>
+		<title level="m" type="main">Fonética histórica vasca. ASJU-ren gehigarriak, 4. Donostia: Gipuzkoako Foru Aldundia</title>
+		<imprint>
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+	<note>2. arg. osatua</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-, 1983a</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mendiburu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Larramendi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Berrarg. in SHLV</title>
+		<imprint>
+			<biblScope unit="volume">II</biblScope>
+			<biblScope unit="page" from="912" to="915" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Euskara eta euskararekiko ikerlanak (1700-1880)</title>
+	</analytic>
+	<monogr>
+		<title level="j">Berrarg. in SHLV</title>
+		<imprint>
+			<biblScope unit="volume">II</biblScope>
+			<biblScope unit="page" from="948" to="964" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename><surname>Aurkezpena</surname></persName>
+		</author>
+		<title level="m">Sarasola 1984; berrarg. in SHLV I</title>
+		<imprint>
+			<date type="published" when="1984" />
+			<biblScope unit="page" from="349" to="360" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Bilbo: Euskaltzaindia, etab</title>
+	</analytic>
+	<monogr>
+		<title level="m">Sobre historia de la lengua vasca (= SHLV). ASJU-ren gehigarriak, 10. Donostia. Nieto, L., 1975 = Aldrete 1606ko azterketa</title>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+	<note>Orotariko euskal hiztegia (15 lib.)</note>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Oeh = Mitxelena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Arnaud d&apos;Oihénart</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-B</forename><surname>Orpustan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proverbes et poesies basques</title>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="1657" to="1664" />
+		</imprint>
+	</monogr>
+	<note>Baigorri: Éditions Izpegi</note>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<monogr>
+		<title level="m" type="main">Neologismos en la obra de Sabino Arana Goiri (Iker-18). Bilbo: Euskaltzaindia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Pagola</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Larramendi eta dialektologia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Pagola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Lakarra (arg</title>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="247" to="265" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<monogr>
+		<title level="m" type="main">La morfología en la confección de un diccionario histórico, Fundación Duques de Soria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Rainer</surname></persName>
+		</author>
+		<editor>J. A. Pascual</editor>
+		<imprint>
+			<date type="published" when="2007" />
+			<pubPlace>Soria</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Seminario de Lengua Española</orgName>
+		</respStmt>
+	</monogr>
+	<note>El papel de la analogía en la evolución de los patrones lexicogenésicos. Barneko txosten argitaragabea</note>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Basque manner adverbs and their genesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">P</forename><surname>Rijk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ASJU</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="53" to="82" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Euskal hiztegia, Donostia: Kutxa Fundazioa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Sarasola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Zehazki. Gaztelania-euskara hiztegia</title>
+		<meeting><address><addrLine>Donostia; Donostia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Alberdania</publisher>
+			<date type="published" when="1984" />
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="617" to="642" />
+		</imprint>
+	</monogr>
+	<note>Hauta-lanerako euskal hiztegia</note>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">The vernacularist and latinist Justus-Georgius Schottelius and the traditions of German Linguistic purism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Seiffert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Hüllen (arg.), Understanding the Historiography of Linguistics. Problems and Projects</title>
+		<meeting><address><addrLine>Münster</addrLine></address></meeting>
+		<imprint>
+			<publisher>Nodus Publikationem</publisher>
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Understanding the Historiography of Linguistics. Problems and Projects, Symposium at Essen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Swiggers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">W. Hüllen (arg.)</title>
+		<meeting><address><addrLine>Münster</addrLine></address></meeting>
+		<imprint>
+			<publisher>Nodus Publikationen</publisher>
+			<date type="published" when="1989" />
+			<biblScope unit="page" from="21" to="34" />
+		</imprint>
+	</monogr>
+	<note>«Reflections on (Models for) Linguistic Historiography</note>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">«Atari gisa», in F. I. Lardizabal, Testamentu Zarreko Kondaira (2 lib</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Urgell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Klasikoak</title>
+		<editor>Euskal Editoreen Elkartea, i-lxxxi</editor>
+		<meeting><address><addrLine>Donostia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<monogr>
+		<title level="m" type="main">Hiztegi Hirukoitza eta Diccionario de Autoridades erkatuaz (I): oinarrizko ezaugarri zenbait</title>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="109" to="163" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Hiztegi Hirukoitza eta Diccionario de Autoridades erkatuaz</title>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="365" to="414" />
+		</imprint>
+	</monogr>
+	<note>II): sarreraren edukia</note>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Etimología y creación léxica en el diccionario vasco del P. Larramendi (1745)</title>
+	</analytic>
+	<monogr>
+		<title level="m">Hiztegi Hirukoitza-ren kanpoko eta barruko historiaz</title>
+		<editor>X. Artiagoitia, P. Goenaga &amp; J. A. Lakarra</editor>
+		<meeting><address><addrLine>Urgell; Urgell; Urgell; Urgell; Hamburg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Helmut Buske Verlag</publisher>
+			<date type="published" when="1999" />
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="629" to="649" />
+		</imprint>
+	</monogr>
+	<note>Erramu Boneta. Festschrift for Rudolf P. G. de Rijk, ASJU-ren gehigarriak 44, Bilbo: UPV/EHU</note>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-</forename><surname>Lexikografia</surname></persName>
+		</author>
+		<title level="m">Eratorpena Larramendiren Hiztegian (II): atzizkiz atzizki», ASJU-n argitaratzeko lana</title>
+		<editor>UPV/EHU. -</editor>
+		<imprint>
+			<date type="published" when="2004" />
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="247" to="286" />
+		</imprint>
+	</monogr>
+	<note>Larramendiren euskal liburuak 1745 arte: testu bibliografiaranzko hurbilketa bat</note>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<monogr>
+				<title level="m">Elkarketa Larramendiren hiztegian», ASJU (argitaratzeko). -, 2008b, «Hitz eraketarako baliabide orokorrak Larramendiren hiztegian», ASJU (argitaratzeko)</title>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="921" to="948" />
+		</imprint>
+	</monogr>
+	<note>Para la historia del sustantivo verbal en vasco</note>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<monogr>
+		<title level="m" type="main">Onomastika Larramendiren hiztegian» H. Knörren omenaldirako prestatutako lana</title>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>Sancho El Sabio (argitaratzeko</note>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<monogr>
+		<title level="m" type="main">Larramendiren Eranskina: saio bat hiztegigintzaren testukritikaz, ASJU-ren gehigarriak 45 (argitaratzear)</title>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>-, 2008e</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">»</forename><surname>Berriemaileen Gaitasuna Eta Eredu Lexikografikoaren Eragina Landucciren Hiztegian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><forename type="middle">&amp;amp; J A</forename><surname>Artiagoitia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lakarra</surname></persName>
+		</author>
+		<title level="m">Gramatika jaietan. Patxi Goenagaren omenez, ASJU-ren gehigarriak 51, Gasteiz: UPV/EHU</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="5" to="44" />
+		</imprint>
+	</monogr>
+	<note>Maileguak Larramendiren hiztegian. «Etimologiak Larramendiren hiztegian», FLV 2008:2 (argitaratzeko</note>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Dictionarium latino cantabricum</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Urte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">P. Urkizuren arg</title>
+		<imprint>
+			<date type="published" when="1715" />
+			<publisher>Mundaiz</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<monogr>
+		<title level="m" type="main">Axular-en Hiztegia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Villasante</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1973" />
+			<publisher>Arantzazu/Oñati: Jakin</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Zuazo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Euskalkiak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskara batua. Ezina ekinez egina</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="191" to="233" />
+			<date type="published" when="1998" />
+			<publisher>Elkarlanean</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

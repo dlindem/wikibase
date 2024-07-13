@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mendieta eta bere etimologietako euskara Understanding Mendieta&apos;s Basque through his Etymologies</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><forename type="middle">Ulibarri</forename><surname>Orueta</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">UPV/EHU</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mendieta eta bere etimologietako euskara Understanding Mendieta&apos;s Basque through his Etymologies</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1387/asju.20230</idno>
+					<note>ASJU 52-1/2 (2018), 751-776 ASJU 52-1/2 (2018), 751-776</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:20+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>the Basque of Ayala</term>
+					<term>Francisco Mendieta</term>
+					<term>16th century</term>
+					<term>etymology</term>
+					<term>Biscay</term>
+				</keywords>
+			</textClass>
+			<abstract xml:lang="nl">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In this work we will catalogue the etymological interpretations of placenames and several other words which Francisco Mendieta (Ayala, Alava, ca. 1550 -ca. 1620) inserted in his works on the history of Biscay: Annales de Vizcaya and Aerario de la Hidalguía. Our aim is to extract the features of Mendieta's Basque, an archaic variety, unknown of but for this testimony. Additionally, we will defend the need for a catalogue of all Basque etymologies coined by the different authors from the 15th and 18th centuries.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laburpena</head><p>Lan honetan Francisco Mendieta (ca. 1550Mendieta (ca.   -ca. 1620 aiararrak Bizkaiko historiari buruz egin zuen lanetan -Annales de Vizcaya eta Aerario de la Hidalguíatxertatu zituen leku-izenen eta bestelako hitzen interpretazio etimologikoen katalogoa egingo dugu. Gure helburua Mendietaren euskararen ezaugarriak nabarmentzea da, beste lekukotasunik ez duen aldaki arkaiko bat baita, izan ere. Bidenabar, XV eta XVIII. mendeetako etimologia guztien katalogoaren beharra aldarrikatu nahi genuke. Hitz gakoak: Aiaraldeko euskara, Francisco Mendieta, XVI. mendea, etimologiak, Bizkaia. Sarrera Liburu honetan omentzen dugun Joaquin Gorrochateguik ikerketa lan asko egin du lekukotasun urriko hizkuntzekin; gurean bereziki aipagarriak dira Akitanian agertzen diren erromatar garaiko izenekin eginiko azterketak, euskararekin erlazionatu daitezkeenekin bereziki, baina erromatartze aurreko gainontzeko hizkuntzez ere bere lanak beharrezkoak dira. Bere lan eta eskoletan (ezin ahaztu irakasle izan nuela karrerako urteetan) erakutsi zigun corpus urriko hizkuntzetan ahalik eta 752 KOLDO ULIBARRI ORUETA</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Etimologiak: nolako informazioa biltzen diguten</head><p>Euskal etimologien aldetik, esan izan da mania etimologiazalea morbosoa eta epidemikoa izan dela <ref type="bibr">(Urquijo, apud Arriolabengoa 2008: 165)</ref> eta interpretazio oker bezain harrigarriak nonahi aurki ditzakegula (ibid.). Etimologia haiek, okerrak izanik ere, garai hartako euskararen lekukotasun ezinutzizkoak ditugu <ref type="bibr">Gorrochateguik (1987)</ref> eta Zubiaurrek (1990) Poza eta Garibairen etimologia lanei (hurrenez hurren) egindako lehenbiziko hurbilpen teoriko-praktikoek erakutsi bezala, eta argia ematen digute ondoko ikertzaileoi (cf. <ref type="bibr">Arriolabengoa 2008: 166)</ref>. Lan haien ildotik dugu <ref type="bibr">Arriolabengoak (2008: 165-198</ref>) Ibarguen-Cachopin [hemendik aurrera IC] 1 kronikaren euskal materialak biltzean egindako etimologien bilduma. Honetan pauso bat aurrera egiten du; izan ere, kronikan ageri diren etimologiak biltzeaz gainera, aurreko idazleekin erlazioa egiten baitu, gutxienez Pozaren lanetik datozen etimologiak zehazten ditu. xviii. mendekoa izanik ere, Larramendiren lana aurrekoen marko teoriko berean aurkitzen da, Urgellen azterketa xehean jakin <ref type="bibr">dezakegunez (2000: 833hh.)</ref>: saio horretan, Larramendiren etimologien bilketa eta azterketa zehatza izateaz gainera, lan handia egiten du baita andoaindarraren lana bere kultur testuinguruan kokatzen ere, eta aitzineko eta garaiko beste etimologiazaleen lanekin ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 751-776 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20230 erkatzen ere; Errenazimentutik xviii. menderainoko euskal etimologien marko teorikoa ezin egokiago laburtzen digu <ref type="bibr">(Urgell 2000: § 6</ref>.2). Egindakoen harira, ikus dezakegu oraindik aztertzeke daudela Bizkaiko (i.e. Euskal Herriko) historia-kronika eta apologia asko, eta horietan dautzan etimologiak bildu gabe ditugu; adibidez, Etxaberen lanekoak (1607) ez ditugu behar bezala ezagutzen: Urgellek bere tesian <ref type="bibr">(2000)</ref> Etxaberen liburuko etimologia gehienak bildu eta aztertu zituen Larramendiren etimologien iturrien bilaketan eta Etxabek andoaindarraren lanean izan zuen eragina agerian utzi zuen; beste kasu zenbaitetan beharrezkoak izan dira hizkuntzalari diakronikoentzat <ref type="bibr">(cf. Mitxelena 1958: 254)</ref>; alabaina, oraindik ez dugu lan monografikorik etimologia horiek erakus dezaketen euskararen inguruan.</p><p>Lan honekin gure garaua jarri nahi dugu ikergai honetan; alabaina, horrezaz gainera, sortu zaizkigun galderak ekarri nahi genituzke: historia liburu batean aipatzen diren etimologiak askotan idazlearen beraren sorkuntzatzat ditugu, baina zenbateraino ez dira izango beste irakurketetatik harturikoak? Momentu honetan ezin diogu eman erantzun zehatzik etimologien bilketa lanak oraindik sistematizatu ez baitira (lehenengo saio baten iruditzat, ik. <ref type="bibr" target="#b24">Arriolabengoa 2008)</ref>, hau ondoko urteetan egin beharreko lana litzateke gure aburuz.</p><p>Euskal etimologiak antzinako etimologiaren testuinguruan kokatu ditu Urgellek (2000: § 6.2), etimologia lana ez baita gure lurretako biztanleen mania esklusiboa <ref type="bibr">(cf. Urquijo, apud Arriolabengoa 2008: 165)</ref>; aitzitik, gehiago edo gutxiago erromatar gramatikoen garaitik datozkigun beharrak dira. Garai haietan (xix. mendera arte, nonbait) lan etimologikoen helburua hitzaren jatorria aurkitzea zen, Isidorok etymologia est origo esaldian laburbiltzen duen bezala <ref type="bibr">(Fontaine 2002: 198)</ref>: hitzak erroetan banatzen dituzte, eta erro bakoitzaren esanahia aztertuaz hitzaren jatorrizko esanahia bilatu nahi dute <ref type="bibr">(Gómez &amp; Urgell 2010: 282)</ref>. Lan horien azpian, egungo ikuspegitik ere interesgarri izan daitezkeen beste zenbait gai biltzen da, 'metahizkuntza' anitz bat ezkutatzen baitute etimologia zaharrek <ref type="bibr" target="#b40">(Magallón García 1996)</ref>, hiztegi etimologikora bidea egin baitzuten etimologialariek <ref type="bibr">(cf. Malkiel 1996: 16)</ref>: ez dituzte bakarrik hizkuntzaren aldakortasunari buruz zeuzkaten ezagutzak erakusten, hiztun horiek hizkuntzari berari buruz zituzten bestelako ideiak ere aurki ditzakegu etimologia lan haietan: mailegaketaren inguruko ezagutzak biltzen dira, dela kalkoen zein itzulpenaren bidezkoak, eta hizkuntzaren arbitrariotasunari aurre egiteko gogoa ere erakusten dute <ref type="bibr">(cf. Magallón García 1996)</ref>.</p><p>Lan etimologikoak idazlearen helburuaren arabera banatzea ere interesgarri izan dakiguke, nahiz eta gurean gehienetan helburu bertsua izango duten: gutxi dira hizkuntzaren ikuspuntu hutsetik egiten diren etimologiak (Oihenart eta Larramendi izan daitezke salbuespen, apika), oro har euskararen eta euskaldunon historiarekin loturiko helburuak aurkituko baititugu (cf. <ref type="bibr">Urgell &amp; Gómez 2010: § 2.4)</ref>: Garibaik Tubalen istorioa frogatu nahi du toponimia erabiliaz (ibid. 277), Pozak euskararen perfekzioa («perfección») erakutsi nahi du, Babelgo dorrearen nahastetik sorturikoa dela, eta Penintsula osoan hitz egin zen hizkuntza zela frogatu nahi du <ref type="bibr">(Gorrochategui 1987: 108)</ref>; gainontzeko egileetan Garibairen eta urduñarraren lanetako helburuez gainera, erromar garaiko istorioak frogatzeko nahia ikusi da <ref type="bibr">(Arriolabengoa 2008: 167)</ref>. Urgellen ustez (2018: § 7.5), Pozak helburu linguistiko nabarmena ere erantsi zion alorrari, alegia, euskararen beraren azterketa; Mendietak, ordea, eskuizkribu bakoitzean helburu ezberdina du: Annales de Vizcaya historia lan bat den heinean, lantzean behin abizen baten esanahia aipatzen du horren euskaltasuna frogatzeko, ez gehiagorik. Besterik da AErarioan agertzen zaizkigun materialak: honetan (aurreko lanean egindakoaren harira), etxe eta abizenen etimologiaz gainera, euskarazko hitz arrunten etimologiak ere agertzen ditu, Pozak bezala euskararen egokitasun hori ere frogatu nahi duelarik. Ekialdeko exonimoei eta Armeniako hizkuntzaren hitz batzuei ere euskal etimologia ematen die, inoiz euskara bertan egon zela erakutsi nahi baitu, Garibaik bezala (honen lanetik hartu ote zituen?) jatorri tubaldarra frogatu nahian <ref type="bibr">(Gómez &amp; Urgell 2010: 277)</ref>. Amaitzeko, gaztelerazko hitz arrunt zenbaiti ere (hidalguía, infanzón, harina…) euskal etimologia bilatu nahi die, erakusteko ezen «la lengua castellana nos tiene usurpado este bocablo», Oihenart eta Larramendiren lanentzat Urgellek (2018: § 7.5) proposatu dituen helburuekin bat eginik. duela. Vj(t)z &gt; V(t)x sabaikaritzea bazela iradokiko luketen adibideek (atxa, aretx) ere mendebaldeko hizkera baten aurrean gaudela erakusten digute. Ezaugarri orokor hauezaz gainera, Mendietaren euskara historian eta geografian kokatzeko garrantzitsuak izan daitezkeen fonetikazko datuak ere bildu ditugula uste dugu. Batetik, bokal bikoitzak ezagutu behintzat ezagutzen dituela iradokitzen digu batzar hitzaren baçaar aldaerak, zahar hitzarekin erlazionatzeko bokala bikoizteko beharra adierazten baitu; alabaina, mea (ik. arimea) eta txe (ik. estuche) ere suposatu ditugu, bokal bakunaz nonbait. Bestetik, mendebaldean gertaturiko txistukarien neutraltzea bere hizkeran oraindik ere gertatu ez dela erakusten digute adibideek (cf. bereziki bizkaia sarrera), zuzen idazten baititu lepokariak eta apikariak, baita herskari aurreko testuinguruan ere (esku baina ezkutu, bazter…). Txistukarien neutraltzea eta bokal bikoitzen galera xvi. mende amaieran hasiak ziren mendebalde muturrean, RSk (cf. Lakarra 1996) erakusten digunaren arabera, baina Mendietaren euskaran oraindik ere egoera zaharra mantentzen zela dirudi.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Mendietaren etimologiak</head><p>Hala ere, etimologietatik ateratzen diren datu nagusienak lexikoari dagozkio, eta Gorrochateguik egin bezala (1987: 125) hona ekarriko ditugu laburpen moduan lanean zehar agertu zaizkigun hitzak zerrenda bitan banaturik: lehenengoan Mendietak aipaturiko hitzak batuko ditugu eta bestean emandako azalpenagatik suposa daitezkeenak. Esan behar dugu aipaturiko hitzen atalean eskuzabal jokatu dugula, eta ez direla bakarrik Mendietak zehazki apaturiko hitzak agertuko, etimologia argietan ( § 1) agertzen diren hitzak ere sartuko ditugu, ** ikurraz lagunduta. 8 Adizkien kasuan, hiztegi-lema moduan partizipioa jarriko dugu, letrakera etzanean, eta ondoren agertzen diren adizkiak. Hitzen bati jatorririk edo azalpenik ezin izan diogunean eman (cf. alberdan, galera, dezeta…) euskal hitz bezala sailkatu dugu zerrenda hauetarako, galdera ikurraz markaturik.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>2. Mendieta: bizitza eta obrak</head><label></label><figDesc>.20230 izen bereziak alde batera utzi zituen eta euskal hitz arruntak eurak analizatuz euskal hitzen egokitasuna (adierazlearen eta adieraziaren arteko erlazio ez arbitrarioa) frogatu nahi izan zuen (eguzki, ilargi… hitzen kasua, adibidez). Helburu linguistikoa luke, egile beraren arabera, Oihenartek ere, eta berarekin agertuko da erdal hi-Etimologia talde hauei nik neuk jarri dizkiet izenak, eta ez dakit beste inork halako sailkapenik egin ere ote duen; beraz, oraindik ere orraztu beharreko sailkapena da. Hala ere, esan genezake batzuetan etimologia garbiak ditugula, hitzaren etimoa beste hitz arrunt bat denean, eta adibide bezala hor dago Pozaren «Ascura villa, tiene significacion de vna hacha de partir»(Gorrochategui  1987: 117); hots, Ascura hiribilduaren izena aizkora, axkora hitzarekin erlazionatzen du zuzenean. Honen aldaera dateke etimologia garbitua dei dezakeguna, zeinetan azaltzen ari den hitza moldatzen den proposaturiko etimologiarekin hobeto erlaziona dadin; berriz ere Pozaren adibidea harturik Sedala edo Artabro hiribilduetako izenen azalpenak izan daitezke honen erakusgarri (ibid. 123), Cedala eta Artabero bihurtzen baititu euskarazko ze dala 'ez dadila izan' eta 'arto bero' etimologiak eman ahal izateko. Gure ustez etimologia hauetatik ateratako informazioa datu zehatzen artean kokatu beharko litzateke, argiak diren heinean ikertzaileak gutxi suposatu behar baitu (cf. § 4). Bigarren motakoei etimologia esplizituak dei dakieke. Halako adibideetan, etimologian bertan euskal hitzak zeintzuk diren eta euren esanahia zein den argitzen digu, adibide honetan irakur dezakegun bezala: «Espero […] de aqui es que el vocablo bero, beroa, significa en Vascuence calor, y si le añadimos el es, luego entendemos la negatiua del calor…» (cf. Gorrochategui 1987: 119); hau da, etimologian bero eta ez hitzak esplizituki aipatzen ditu. Hauetatik ere datu argiak lor daitezke, etimologialariak zuzenean hitza aipatzen duen heinean. Hirugarren taldea etimologia inplizituek osatuko lukete; hau da, etimologian esanahia bakarrik dakar eta ikertzaileak berak asmatu behar du toponimoa nola analizatu zuen idazleak. Batzuetan argi da, «Vxama… y significa madre vazia» etimologia bezala, non ikertzaileak argi bana dezakeen, batetik, huts 'vacio', eta bestetik ama (ibid. 679) eta hauek informazio argitzat har ditzakegu, gure ustez. Beste batzuek, baina, hizkuntzalari modernoari buruhausteak emango dizkiote, eta halakoetarako intuizioa eta hizkuntzaren ezagutza beste lagunik izango ez du jakiteko zertan pentsatzen zuen eti-Halako kasuetan, ezin esango genuke halako hitza dela etimologiazaleak erabiltzen zuena, eta suposaturiko hitza izango da, Gorrochateguik (1987: 125) ikusi bezala.Honezaz gainera, etimologietan gordetzen den informazioa ez da bakarrik hizkuntzaren historiarekin loturikoa; aitzitik, garai hartako hiztunen ezagutza linguistikoari buruzko datuak ere aurki daitezke. Adibide bat ematearren, etimologialari zaharrak hitzen arteko erlazioak proposatzeko gehienbat antzekotasun fonikoez baliatzen ziren; eta jakinik ez zutela xix. mendean proposatu ziren lege fonetikoen antzekorik garai horietan (cf.Malkiel 1996: 18), interesgarri izan daiteke ikustea idazle bakoitzak zein antzekotasun onartzen dituen eta zein ez. Honela, Pozak txistukarien arteko txandakatzeak onartzen ditu bere etimologietan (aurreko Sedala &gt; Cedala edo es &gt; *ez aldaketetan ikusten denez), agian garai horretarako oposaketa jada galbidean zelako (ez dirudi, baina, cf. Gorrochategui 1987: 124) edo, agian, iglesia ~ elexa edota causa ~ gauza bezalako hitzen arteko erlazioa antzematen zuelako.</figDesc><table><row><cell cols="2">tzan eskatzen dio Jaurerriari, jakintsuek idazten ari den Cronica juzga dezaten</cell></row><row><cell cols="2">eta «tenga por bien este Señorío de darle el premio que merece y de otra manera</cell></row><row><cell cols="2">cese en la prosecución de la obra, a lo menos para sacarla por ahora en público»</cell></row><row><cell cols="2">(ibid.). Ikus daitekeenez, lana inprimatu nahi zuen, baina ezin izan zuen beha-</cell></row><row><cell cols="2">tzen etimologiak egiteko zaletasuna, Larramendik erpinera eramango duena, eza-rrezko zitzaion laguntza lortu.</cell></row><row><cell cols="2">guna denez. Euskal etimologiagintzaren tipologia hau eta haren garapen historikoa Ez da inon aurkitu Mendietari egotzi ahal zaion Cronica edo Noblezas del</cell></row><row><cell cols="2">zehaztu beharko da etimologialarien lanen sarea itxiz joan ahala (Mendietarentzat, Señorío izendaturiko obrarik, baina beste bi heldu zaizkigu bere lumatik atereak ei cf.  § 2). direnak: batetik, Madrilgo Biblioteka Nazionalean gordetzen den Quarta parte de Aurrera joan baino lehen, Gorrochateguiren lanaren lehen irakurketek sortu los Annales de Vizcaya eskuizkribua (Mss/11594) dugu, xviii. mendean egindako ziguten zenbait ohar partekatu nahiko genituzke ondoko lerroetan. Argigarri iru-kopia; eta, bestetik, Aerario de la Hidalguía deiturikoa, ustez Mendietaren luma-ditzen zaizkigu bere ikerketaren amaieran Gorrochateguik egiten dituen zerrenda tik zuzenean ateratako eskuizkribua (cf. Rubio de Urquía &amp; Noviembre 1998). biak (1987: 125), Pozak esplizituki aipatzen dituen hitzak eta ikertzaileak supo-Lehena J. C. Guerrak argitaratu zuen (Guerra 1915), eta bertan dago Pedro Aben-satu behar dituenak; honek erakutsiko liguke etimologia guztiak ez direla ber-dañokoren kantu ezaguna (TAV  § 3.1.6). Bigarrena, Francisco Zabalburu artxi-dinak; aitzitik, informazio ezberdina lortuko dugu bakoitzetik. Hau honela, eti-mologiak sailkatu beharra ikusten dugu azterketa metodo bateratu bat lortzeko, eskaintzen digun informazioaren, eta informazioaren nolakoaren arabera. Antzi-nako etimologialari batek ematen duen azalpena ez da beti zailtasun edo erraz-tasun berekoa, eta egungo ikertzaileak bakoitzetik atera lezakeen informazioa ere boan aurkitzen da eta Guadalupe de Urquía-ri esker ezagutzen dugu (informazio ezberdina izango da. Aurreko oharrok ez dira burura etorritako ideiak baino, eta ez dugu ahaztu gehiagorako, ik. Ulibarri 2013). behar ikertzaile zahar horien lan metodologia kontuan izan behar dugula egungo Pozarenak ez bezala, Mendietaren lanek ez dute helburu bateraturik, hark frogatu azterketa egiteko dugun materialak baloratzeko. Ezaguna da paronimia dela (an-nahi du euskara behinola Peninsula osoan hitz egin zela, eta horretarako antzinaroko tzekotasun formala, alegia; ik. Urgell 2018: 649) erabiltzen zuten metodoa eta ho-toponimoak eta tribu zaharren izenen etimologiak proposatzen ditu, eta behinolako rrek eskuzabaltasun handia ematen ziela euren erkaketak egiteko eta hitzak eta ho-rien «aldaerak» sortzeko. Modu honetan, egingo dugun hurbilpenean beti izango euskararen egokitasuna frogatzeko euskal hitz arrunten etimologiak ere badakartza.</cell></row><row><cell cols="2">dira zalantzak hitz baten aldaera edo bilakabide fonetiko bat benetan existitzen zen</cell></row><row><cell cols="2">erabakitzeko. Hala ere, ezin dugu ukatu etimologia zaharren bildumak ekarriko lu-</cell></row><row><cell cols="2">keen onura garai horretako euskal giroa ulertzeko orduan, eta idazleen arteko era-</cell></row><row><cell cols="2">ginak ezagutzeko bidea zabal diezaguke. Oraingo honetan, baina, astolana egitera</cell></row><row><cell cols="2">etorri gara eta Francisco de Mendieta aiararraren lanetan diren etimologiak batzera</cell></row><row><cell cols="2">mugatuko gara, horien gainean zenbait ohar linguistiko eta historiko emanez. Ezer</cell></row><row><cell cols="2">baino lehen, baina, Mendieta nor zen eta zer idatzi zuen jakin behar dugu.</cell></row><row><cell cols="2">Francisco de Mendieta y Retes (1556 -ca. 1620) Errenazimenduko gizona izan</cell></row><row><cell cols="2">genuen, xvi eta xvii. mendeetan zehar bizi izan zen margolari eta idazlea. Mena-</cell></row><row><cell cols="2">garain (Aiara) jaioa, Bilboko Francisco Blázquez pintorearen neskame baten semea</cell></row><row><cell cols="2">dugu; ugazabak bere tailerrean ikasle hartu zuen eta Mendieta gaztea garaitik oso es-</cell></row><row><cell cols="2">timaturiko margolari bihurtu zuen (cf. Zabala Montoya 1997, Aspuru 2012). Mar-</cell></row><row><cell cols="2">golari bezala, bere lanik garrantzitsuena Besamanos de Fernando el Católico edo Fo-</cell></row><row><cell cols="2">ruen zin egitea koadroa da, euskarazko kartela batek azaldua (ConTAV  § 5.2.7;</cell></row><row><cell cols="2">Ulibarri-prestatzen), bai eta Elizbira Begoñan eta Ezkontza Begoñan beste koadroak</cell></row><row><cell cols="2">ere. Ikuspuntu literariotik, ezaguna da Mathias Mares inprimatzailearentzat xilografi</cell></row><row><cell>tako zenbait egin zuela (Aspuru 2012: 47).</cell><cell></cell></row><row><cell cols="2">Hona idazle bezala dakargu, baina, Bizkaiko historiaren inguruko lanak ida-</cell></row><row><cell cols="2">tzi baitzituen. Antzinatik da ezaguna Mendietaren interesa historiarekiko, eta</cell></row><row><cell cols="2">garaiko dokumentuetan aurki ditzakegu horren aipamenak: 1588an Bizkaiko</cell></row><row><cell cols="2">Jaurerriari baimena eskatzen dio bere artxiboetan sartzeko «para buscar algunas</cell></row><row><cell cols="2">antigüedades, atento a que hacía doce años había comenzado a hacer un libro de</cell></row><row><cell cols="2">noblezas del Señorío» (Mañaricúa 1973: 88). 1592an hainbat irakurle izenda di-</cell></row><row><cell>ISSN: 0582-6152 -e-ISSN: 2444-2992</cell><cell>ASJU 52-1/2 (2018), 751-776</cell></row><row><cell>http://www.ehu.es/ojs/index.php/ASJU/</cell><cell>DOI: https://doi.org/10.1387/asju.20230</cell></row></table><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 751-776 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asjuISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 751-776 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20230 mologiazale zaharrak.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>Atal honetan, Mendietaren lan bietan diren etimologiak bilduko ditugu, Gorrochateguik Pozarekin egin bezala, ordena alfabetikoan. Gainerako euskal materialak ez ditugu hona ekarriko, etimologiekiko koherentzia mantentzeko. Hiztegi moduan antolatu dugu eta, beraz, sarrera bakoitzak egitura bertsua izango du: lehenengo hitza bera etorriko da, grafia gaurkotuan, eta horren ostean hitzaren natura zein den bereziko dugu: abizena (ab.), toponimoa (top.), exonimoa (ex.), euskarazko hitz arrunta (eusha.) eta erdarazko hitz arrunta (erdha.). Ondoren etimologiaren aipu zehatza ekarriko dugu, eta aipua aurkitzeko informazioa: eskuizkribuak Q (= Quarta parte de los Anales de Vizcaya) eta A (Aerario de la hidalguía) letrekin bereiziko ditugu, ondotik eskuizkribuaren foliazioa adieraziz.Aipuetan leku berezia dute Cantabria eta Asturias hitzen etimologiek; hauetan ez da mugatzen haien etimologia proposatzera; aitzitik, gainerako idazleek emaniko iritziak ere biltzen ditu Mendietak. Kasu hauetan informazio guztia ekarriko dugu hona, aipua luze geratu arren, informazio garrantzitsua bilduko bailuke Mendietaren irakurketen inguruan. Gure lana ez da izango ea gainontzeko etimologiak Mendietarenak berarenak diren ala beste nonbaitetik atera dituen zehaztea, lan honen helburuetatik kanpo geratzen baita, baina lantzean behin horren inguruko oharren bat egingo dugu. Izan ere, Aerarioan zehar Pozaren aipamenak ikusten dira han-hemen (kasu batzuetan berariaz haren etimologiak aipatuaz); bestetik, interesgarri da markatzea Annales eskuizkribuan «En los papeles del Doctor Cachopin dice…» esaldia irakurtzen dela; hots, Ibarguen-Cachopin kronikan biltzen den informazio zenbait behintzat ezagutzen zuela iradokitzen du (cf.<ref type="bibr" target="#b24">Arriolabengoa 2008)</ref>. Ondoren Larramendik ere euskal jatorria esleituko dio hitzari (cf. HH, s.v. albardan: «viene de el Bascuence alberdan, ó alperdan, que significa que es ocioso, y holgazan»). 6. Aldea (erdha.) «aldea significa 'lado' como lo son los lugares que çircundan a la[s]  çiudades» (A. f. 7). Etimologia garbia dugu, alde euskal hitz orokorra delarik (cf. OEH, s.v. aldea). 7. Alzate (ab.) «quiere decir 'entre salzes' o 'entre alisos» (Q. f. 13v). Badirudi *Alzarte duela buruan Mendietak (eskuizkribuaren kopiatze akatsa ez bada behintzat), itzulpenean ageri den 'entre' irakurrita. Alza-ri dagokionez, esanahi bi ematen dizkio: haltz 'aliso' adieran Euskal Herri osoan aurkitzen dugu (OEH, s.v. haltz), eta aipatzekoa da ICk ere etimologia bera proposatzen duela Alzarte abizenarentzat (cf. Arriolabengoa 2008: 171). Haltza 'salce, sauce' adieran, ordea, ez da ezaguna, baina B. Etxabe etimologiazaleak Alztegui dakar 'Salcedo'-ren itzulpen legez (apud OEH, s.v. haltz). Agian erlazio formala antzemango zen garai hartan euskarako haltz eta gaztelaniazko salce hitzen artean. 8. Amarrar (erdha.) «diez dedos que atan vna cosa a dos manos» (A. f. 6). Azaltzen ez badu ere, nahiko argia da hamar hitza ikusten zuela gaztelaniazko berba honetan. 9. Amorobieta (top.) «Amorobieta, o rivera del rio» (Q. f. 27v). Inolako laguntzarik gabe, esan genezakeen gauza bakarra da bukaera ibaieta dela pentsa zezakeela Mendietak adiera ematerakoan. Aurreko balizko *amoro-ri (edo agian *amore-, Amorebieta aldaeran pentsatzen badugu), ordea, ezin izan diogu azalpenik bilatu. 10. Andaluzia (ex.) «se llamó Andaluçia, entendiendo que los nuebos dominantes les abían puesto su nombre siendo, como ello es, nombre y palabra bascongada que quiere decir y significar 'grande y larga» (A. f. 48v). Ematen dion esanahia ikusita, 'grande y larga', argia da Andaluzia izenean handi eta luzea hitzak ikusten dituela. Alde horretatik, biak hitz orokorrak dira euskaran (cf. OEH, ss.vv. handi eta luze) eta aipagarri izan daitekeen gauza bakarra da -ea &gt; -ia eufoniaren nolabaiteko lekukotasuntzat har daitekeela, 2 beti ere garaiko etimologietan paronimiak etimologialariei ematen zien eskuzabaltasuna kontuan harturik (cf. Urgell 2018: 649). 11. Angelua (top.) «La casa de Anguelua, quiere deçir 'çercado» (A. f. 198r). OEHk (s.v. angelu) 'suelo' (dagoeneko Lcc.-k dakarrena), 'zaquizamí, aposento pobre' eta 'vestíbulo interior' (azken biak Azkuek bilduak Arratian) adierak baino ez ditu bildu; beraz, hapaxa litzateke 'cercado' adiera hau. 12. Anuntzibai (ab.) «Auncibay, 'río de cabras' quiere decir» (Q. f. 26). Etimologia argiko abizena dugu, ahuntz eta ibai hitz orokorrak argi ikusten baitira, baina honetan garrantzitsuagoa da ematen duen abizenaren forma bera: Annales eskuizkribuan beti agertzen zaigun forma izanik (cf. Guerra 1915) nekez pentsa daiteke xviii. mendeko kopiaren akatsa dela edota Mendietak abizena nahita moldatu duela etimologiara hurbiltzeko (cf. § 1). Honela, suposatu behar dugu garai horretan ahoz erabiltzen zen euskarazko aldaeraren lekukotasuna dela, bokal arteko n &gt; h bilakabide orokorra gertaturik (Orozkoko herrian gaur egun erabiltzen da, auzibi formapean; Ojanguren 2005: 22). 13. Apioza (ab.) «[quiere decir] 'de gran corazón» (Q. f. 33). Bihotza hitzarekin erlazionatzen duela argi dago, eta agian ICk egin bezala (Arriolabengoa 2008: 172), Mendietak ere hak bihotza ikusi zuen abizen horren iturrian. 14. aramea (erdha.) «La lengua armenica llamada aramea, significa 'madre de los barones» (A. f. 6). Esanahiagatik argi dago hitz honen azpian ar eta amea ikusten duela Mendietak; alde honetatik, ama hitza mugaturik ikustea ere ez da arraroa, mendebaldeko testu zaharrek erabilera hori lekukotzen baitute (cf. Ulibarri 2010: 106). 15. arenque (erdha.) «pescado seco y curado al humo» (A. f. 6v). Mendietak hitz honen amaieran ke ikusten duela argi dago, baina ezin dugu ziurtatu pescado esanahia hitzaren beraren adieraziaren ondorio den (arenque 'sardinzarra') ala hasierako aren-hura euskarazko arrain hitzarekin erlazionatu zuen. 16. Aretxondo (top.) «la casa de Arechondo 'fundaçion entre ro[bles]» (A. f. 198r). Mendebaldeko euskalkietan erabiltzen den aretx aldaera argi ulertzen duela erakusten du Mendietak, bere hizkeran ere (mendebaldekoa izaki) Vj(t)z &gt; V(t)x palataltzea bazela iradokiko lukeena (cf. FHV § 10.9). 17. Arima (eusha.) «A la anima decimos arimea significa 'cossa muy delicada» (A. f. 7). Hasteko, esan behar da euskal hitza bere horretan eskaintzen digula, eta a + a &gt; ea bilakabidea erakusten duela arimea hitzak. Etimologiari begira, amaieran mehe hitz orokorra ikusten duela dirudi (OEH, s.v. mehe), bokal bikoitza markatu gabe (bere euskaran ez zuelako, agian; hala ere, ik. batzar). Hasierako partea, 'ocupación, asunto' esanahia duen euskal ari hitzarekin (OEH, s.v. 2 ari) lot zezakeen Mendietak, apika; horrela balitz, hitzaren lekukotasunik zaharrena genuke hau askorekin, OEHk dakartzan adibideen artean behintzat Agirre Asteasukoaren bat dugu zaharrena. 18. Arkaraso (ab.) «esta mata es llamada mosqueta en los jardines y la ay ortense y silvestre, llámanle en bascuenze arcasa, y Arcozu quiere decir 'lugar de muchas mosquetas» (Q. f. 13). Abizenetik eta hitzetara dagoen aldeagatik pentsa genezake kopia akatsa dagoela arcasa eta arcozu horietan, besterik ezean arkarakats aldaera 'escaramujo' (cf. DRAE, s.v. mosqueta) adierarekin baitakar OEHk (s.v. arkakarats); honela bada, testua agian arca[raca] sa eta arca[raca]zu edo arca[ra]sa eta arca[ra]zu (cf. Mitxelena 1973: 60) zuzendu beharko lirateke, haplografia bi proposatuaz. Horrela, arkarakats Gipuzkoako bizkaieran eta Arabako gaztelanian (Baraibar 1903, s.v. alcaracache) lekukotzen du OEHk (ibid.); arkarats aldaera balitz, hapaxa genuke, Mitxelenak lekukotasun hau baliatuz berreraiki zuen bera, alegia (Mitxelena 1973: 60). , bigarren zatian imini edo *imeni aldaera bat izango genuke (cf. cosa puesta sobre…). Bigarrena lekukotu gabeko aldaera izanik, paronimiaren eskuzabaltasunagatik zuzenean imini-rekin erkagarri izango litzateke; alabaina, ez dugu ahaztu nahi ibeni forma bai badugula ekialdeko testuetan (OEH, s.v. ipini). 20. Asturias (top.) «La palabra Asturias, la qual an querido ynterpretar depender de "Astir Troyano", y Poza de "villas olbidadas", deviendo de ynterpretarse osten erria, que quiere decir 'postrera y ultima tierra', como en efecto es en hespaña y asi Cantabria diçe y significa 'tierra somera o mas alta' o arrededor respeto a los demás d'España haçía la parte setentrional» (A. f. 15r-15v). Axpe (top.) «dícese Axpe por estar la yglesia fundada debajo o falda de vn peñasco, al qual en nuestra lengua se dice acha» (A. f. 155). Esplizituki esaten digu peñasco euskaraz hatxa dela, mendebaldeko Vj(t)z &gt; V(t)x palataltzearekin. Esan gabe doa azkeneko -pe 'behe' hitzarekin erlazionatzen duela. Bigarren zatian hona erakuslea uler zezakeen Mendietak, eta 'badabil hona' bezalako perpaus bat izatea buruan andar de aca par'alla azalpena ematerakoan. 26. Bakera (ab.) «baquera quiere decir propiamente 'a la paz', que como de la parçialidad onezina su boz a beto fue aplicada a la paz y concordia» (A. f. 149v-150r). Etimologia garbia dugu, itzulpenak argi uzten baitigu adlatiboan deklinaturiko bake hitz orokorra ikusten zuela Mendietak abizen honetan. 27. Basurto (ab.) «es en Aluia, llama de este nombre en lengua bascongada que quiere decir bas aurtenean quiere significar estar en medio del monte o bosque» (Q. fol. 23v). Lehenengo atalean baso hitza dugu, eta euskal tradizioak erakusten duenez (cf. OEH, s.v. baso), hitz hau bai 'bosque' eta baita 'monte' adieran ere erabiltzen zen, emandako itzulpenetan ikus daitekeenez. Bigarren zatiari begira, aurten 'artean' forma inesiboan edo ablatibo zaharrean 'artetik' Bizkaia: (top.) «porque esta palabra viz en basquençe significa 'sea' y tambien significados caya significa 'terreno o muro donde baten las aguas del mar' y así todo junto quiere decir 'sea muralla'. A su naturaleza y que se de[be?] escribir Vizcaya co'la z y no con se, como algunos sienten, y quando así se escriba, hace a mi proposito porque vis en latin significa 'doblada fuerza» (A. f. 18r). Garaiko beste etimologiei (cf. «como algunos sienten») muzin egiten die (cf. ICko vis cain 'dos veces Cain'; Arriolabengoa 2008: 198) eta esplizituki diosku aginterazko biz adizkiaz eta kai hitzaz (Bizk. eta Gip.an lekukoturiko hitza; OEH, s.v. kai) osaturiko etimo bat dugula. Zuzenean esaten duelarik &lt;z&gt;-z idatzi behar dela, froga argia izan daiteke esateko Mendie-que es la yerua centaurea, que si así fue la yerua era negoçio de muchissima ymportancia; pero más crería yo que la yerba cobrara el nombre de la madre en dó se crió. Andrés de Poza diçe que tomó este nombre por canto y abrigo por las casas y pueblos juntos que sirben de recojer y abrigar a la gente. Florian de Ocanpo (libro 4 cap 7) diçe que Brigo, quarto y último rey de este reyno de la lignea baronil de Tubal, a los 1905 años ante adbentun Xpi hizo haçer y poblar lugares cercados a los quales llamó Vrigas de su nombre, que así se escribe su nombre Vrigo y no Brigo...Cecina (erdha.) «ceçina biene de çeçena qu'es toro» (A. f. 6v). Erdal hitz honetan argitzen digu zezen jatorria esleitzen diola, ondoren Larramendik ere hartuko duen ildotik (cf. HH, s.v cecina: «es voz Bascongada ceciña, cezeiña, que significa lo mismo; y ceciña, sincope de cecen illá, toro muerto»). 33. Eguzkia (eusha.) «al sol deçimos eguzquia, significa 'causador del día» (A. f. 6v). Ematen dion esanahiagatik, badirudi egun eta egin hitz orokorrak, edo -kin atzizkia (cf. okin) dituela Mendietak buruan. .20230 34. escudero (erdha.) «La cierta y berdadera ethimología viene por el camino siguiente: ponerla en la mano a que en la lengua eusquela o bascongada se diçe escua. Así a la rodela o pabes que en ella se pone para defensa se dixo escudua qu'es deçir 'defensa puesta en la mano' y así más apuradamente diçe ezcutua, que se ynterpreta en la dicha lengua, 'puesto a sombra y abscondido' y como a tales defensores y parientes mayores los bizcaynos cometían la defensa de la tierra los llamaban ezqutuerria qu'es 'defensa de la patria', deribado de lo dicho y de ezcutuarria qu'es deçir 'amparo contra la pedrada'. Y tambien puede deçir Scudum: Scu se diçe 'mano', dun se ynterpreta 'Ezkutu hitzaren jatorria azaldu ostean, euskarazko ezkutari ere azaltzen du: ezcutuarria, harri hitzaren bidez eratorria. Ondoren dator erdal escudero, eta horretarako eskutuerria proposatzen du, ezkutu eta herri-rekin azaldua. Guztiarekin, etimologiak eta horietara heltzeko erabiltzen dituen hitzak baino, interesgarriago da etimologietan zehar egiten duen esku ~ ezku txandakatzea, gure ustez argi erakusten baitu beretzat euskarazko ezkutu hitza txistukari lepokariz idatzi behar dela, eta ondorioz bere hizkeran oraindik ere txistukarien oposaketa mantentzen zela. 35. Estuche (erdha.) «estuche que significa 'cosa apretada» (A. f. 6). Gaztelaniazko hitza euskarazko estu-rekin erlazionatzen du Mendietak, Lazarragaz geroztik lekukotzen den hitza (OEH, s.v. estu). Amaierako che agian xehe hitzarekin erlazionatzen du, mendebaldean Kapanagak darabilen txe aldaeraren bidez (adieran bat ez datorren arren; cf. OEH, s.v. xehe). Aipatzekoa da Larramendik xviii. mendean etimologia bera mantentzen duela: «Estuche, es voz Bascongada, estuchea, de estu, apretar, y chea, pieza, ò cosa menuda» (HH, s.v. estuche). 36. Etsea (eusha.) «a la casa llamamos eshea significa cossa çerrada» (A. f. 7). Hitza azaltzerakoan itsi 'itxi'-rekin erlazionatzen du, nonbait; aldaera hau, txistukari apikariz, mendebaldeko lekukotasun zaharrenetan (RS, Laz., Mic…) aurkitzen da (OEH, s.v. itxi). Hemen, baina, etimologia baino interesga-Garibaik proposamen hau bere errefrau eskuizkribatuetan aipatzen duelarik (cf. Lakarra 1996: 19), aukera bi ditugu azaltzeko zergatik Mendietak darabilen: 1) Garibairen eskuizkribuak ezagutzen zituen edo 2) maila bateko euskaldun idazleen giroan barreiaturik zen afrikatua adierazteko aukera hau (gogoratu RSk ere grafia bera darabilela inoiz; cf. ibid. 23). 37. Etxabarria (top.) «la casa de hechabarria casa nueba» (A. f. 198r). Esanahi argiko toponimoa (etxe + mendebaldeko barri aldaera), aipagarriena da ez duela txistukari apikariaz idazten (ik. etsea), sabaikariaz baizik (cf. Eusquera y a la tierra donde le hablan se diçe Eusquel erria, Patria de los Eusqueles» (A. f. 5v). Mendebalde zabal batean ohikoa den euskera forma darakus (cf. OEH, s.v. euskara), baina ez da horren arrunta bokalismo bera eratorpeneko forman (euskel) erabiltzea: OEHk (s.v. euskal) Lazarraga eta xx. mendeko idazleengan baino ez du lekukotzen. Mendietak, beraz, euskel aldaeraren beste lekukotasun zahar bat dakarkigu. Herri hitza 'lur' edo 'aberri' adieran erabiltzea, bestetik, ohikoa da testu zaharretan (cf. OEH, s.v. herri). 41. Galarza (ab.) «Tienen los de este linaje por Armas: en oro Robre seco en un prado y en salto un oso, por alusión de su nombre, que galarra quiere decir árbol seco y arza oso» (Q f. 12v). Etimologia esplizitua dugu, zuzenean aipatzen baititu galarra 'arbol seco' eta arza 'oso' hitzak. Bigarrena orokorra den bitartean (cf. OEH, s.v. hartz), galar hitza Nafarroan kokatzen du OEHk, mendebaldean ere lekukotzen duen arren ICren eta Mendietaren (Mitxelena 1973tik harturiko) aipu honen bitartez (ik. OEH, s.v. galar). Azkenik, esan behar da ICk ere abizen berari ematen diola etimologia: «un roble seco, que en bascuençe llaman gallarra, y puesto en él en salto un oso, que llaman Ganboa (top.) «basquençe ganboa que quiere deçir por lo alto e los otros que .20230 mendebaldeko gan 'gain' aldaera dugu lehenengo zatian. Amaierako boa, agian joan aditzaren forma trinkotzat (badoa) har zezakeen, ICk dakarrenaren antzera (gan bioa 'vaya arriba', Arriolabengoa 2008: 176). 43bis. Ganboar (ab? eusha?) «vnos Onez que quiere decir 'por bien y para', otros deçian campoa qu'era 'acceptar el desafio' y así se juntaban quadrillas de anbas oppiniones y parcialidades, llamandose oneztarrac y campoarrac que quieren decir los de la paz y los de la guerra» (A. f. 76r). /www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20230 49. Gozo (erdha.) «goço que significa dulçe» (A. f. 6). Gaztelaniazko hitz honi euskal gozo hitz orokorra (OEH, s.v. gozo) esleitzen dio jatorritzat, ondoren Larramendik (HH, s.v. gozo) egingo duen bezala. 50. Gudubikolanda (top.) «Gudubicolanda que es llamado el Campo de la lid» (Q. f. 19). Mendebaldean ICk eta RSk gudu hitzaren adibide bana daukate, Iberia: (top.) «Yberia en lengua bizcayna materna de hespaña se ynterpreta ybay erri yd est patria del río o Riberas del gran río» (A. f. 9v). Etimologia esplizitua dugu: ibai eta herri hitz orokorren bidez (cf. OEH, s.vv. /www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20230 quiere decir hanz ona, 'buena maña o desenboltura, ardidez y persona', que todas estas propiedades significan hanz ona. Y así yndaçu hanz ona que son tres dictiones, significan 'dadme buena presençia, desemboltura, maña, ardidez', síguese para la milicia pues de yndazu se tomo el In.anzhona, ynfan-Irazabal (top.) «Yraçabal… pone por armas antiguas tres helechos en alusion de su nombre porque eso suena yra çabal que [es] helechal grande o espacioso» (A. f. 247v). Ira hitza Euskal Herri guztian dago toponimian, baina testuetan mendebaldeko lekukotasunetan bakarrik aurkitzen da (OEH, s.v. ira). Zabal hitz orokorra dugu (OEH, s.v. zabal). 58. Irisarri (ab.) «deriuado de Uriasarri que todo junto dize cosas juntas» (Q. f. 14). Berriz ere sarri dugu (ik. Atxasarri). Hemen, baina, interesgarriagoa da hiri ~ huri txandakatzea ezagutzen duela, batetik, eta bestetik Aerarioan ematen duen uria 'hiria' hitzaren etimologiak («es lo mismo que villa, […] de estar las casas çercanas»; ik. Cantabria) hemengo hau argitzen digula. 59. Irlanda: (ex.) «Digo que bien yrlandes Erin significa 'tierra, patria o region', lo mismo significa en lengua vizcayna, pues erri es lo mismo que erin. Landa en el [l]enguaje vizcayno, significa 'llanura, pradera y canpos fértiles' y así, Irlanda significa 'región de praderías o pastos o llanuras» (A. 9v-10v), «Los yrlandeses confiesan desçender su nobleza y generaçion de Vizcaya y así se comprueba de los bocablos Cantauria, su prinçipal poblaçión y del nombre Errland. Y además de lo dicho, todos los señores de aquel rreino en sus títulos y firmas anteponen esta palabra On, el qu'es señal de mucha nobleza y en nuestra lengua vizcayna significa 'mucha superioridad y mejoria' porque onen significa 'el mejor». (A. f. 10v). Irlandaren eta Euskal Herriaren arteko /www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20230 erlazioak frogatzeko haren izena euskararen bidez azaltzen du, lehenik ere aipatu ditugun herri (cf. Cantabria, euskel erri) eta landa (ik. Gudubikolanda) hitzen bitartez. Honezaz gainera, irlandarren abizenen O' hasiera hori euskal on hitzarekin erlazionatzen du, argiki adieraziz onen 'el mejor' adiera duela euskaraz. 60. Iturrona (top.) «el río del lugar [= Gorocica] se diçe yturrona quiere deçir 'buena fuente', nace y se descuelga del alto monte de Oynz» 6 (A. f. 250v). Etimologia inplizitua bada ere, nahiko garbi ikusten da iturri eta on hitz orokorrak dituela Mendietak buruan toponimoa itzultzeko orduan. 61. Izpazter (top.) «Yzpazter en lengua bascongada significa población a la orilla de la mar» (A. f. 207r). Ezaguna da euskal lexikoan iz-aurrizki bat proposatu izan dela 'itsas-' adierarekin, izurde edo izokin hitzetatik eratorria nonbait (cf. FHV § 5.5, 13. oh.). Gaur egun aurrizki hori defendaezina bada ere (ibid.), adibide honek (eta ICk, cf. Jaula (erdha.) «xaula que significa 'guarda' (A. f. 6). Mendietak jagole ~ jagola (ik. beherago Otalora) hitzarekin erlazionatzen duela pentsa genezake, 'zaintzaile' adieran mendebaldean erabiltzen den hitzarekin. Honela bada, hauxe genuke lekukotasunik zaharrena, zeharkakoa bada ere, orain arte xix. mendean agertzen baita estreinakoz berba hori (cf. OEH, s.v. jagole). 63. Jaun egiazkoa (eusha.) «Jaun eguiazcoa que se interpreta 'señor de la verdad» (A. 102r). Jainkoa aipatzeko erabiltzen den epiteto honek ez du berebiziko zailtasunik egungo euskaldunarentzat, jaun eta egiazko hitz arrunt eta orokorrak baitira. Gauza aipagarri bakarra itzulpena izan daiteke: epiteto horretarako 'señor verdadero' arruntago egiten zaigu, 'señor de la verdad' horretarako egiaren jauna erabiliko genukeelarik. 64. Jaungoikoa (eusha.) «lengua eusquela cantabra no se halla nombre de Dios, solo Jauna o Jaun goicoa que se interpreta 'señor de lo alto» (A. 102r). Egun ere erabiltzen dugun etimologia aurkezten digu Mendietak hitz honetarako. 65. Jehoba (erdha.) «IOBA significa en esta lengua 'tú el mejor» (A. f. 6v). Tatxaturik dagoen pasarte batean ageri zaigu hitz hau. Etimologia garbia da, itzulpena ikusita argi baitago hi eta hoba erroak ikusten dituela Mendietak. Hobe hitzaren aldaera hau mendebaldeko euskalkietan lekukotzen da (OEH, s.v. hobe), a + a &gt; ea bilakabideak eragindakoa den heinean (cf. Otalora). 66. Luna (erdha.) «Luna que es palabra latina significa en basquenze 'escuridad', de iluna; como lo es de suyo careçe de luz no como no comunicandole el /www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20230 sol su luz» (A. f. 7). Iluna hitz orokorraren lekukotasun esplizitua dugu luna azaltzeko; aipatzekoa da izen abstraktoarekin itzultzen duela, eta ez adjektiboarekin (ik. harina, hidalgia). 67. Madariaga (top.) «porque Madariaga quere decir 'viga de peral' o por más similitud, edificio donde hay gran quanttidad de perales» (A. f. 158v), «La casa de Madariaga 'fundaçión entre perales» (A. f. 198r). Birritan ageri zaigu toponimo honen azalpena: madari mendebaldean lekukotzen den hitza dugu (OEH, s.v. madari), eta bai frutua eta baita arbola bera ere (hemen bezala) izendatzeko erabiltzen da. Lehenengoan, gainera, 'viga' ere ikusten du hitzean, eta ezbairik gabe amaierako -aga horri egingo lioke erreferentzia: habe orokorraren aldaera genuke eta mendebaldean lekukotzen da Añibarroren lanetatik aurrera (OEH, s.v. 1 haga 2); beraz, hemengoa litzateke aldaeraren lekukotasunik zaharrena. 68. Matxitxako (top.) «el doctor Çabala diçe que halló una corónica antigua que deçía aber quedado esta armada en Macha çacu que quiere deçir 'ondura donde caben muchas naos', como es verdad, y que Belgica es Bermeo» (A. f. 41v). Esaldia Doctor Zabalari egozten diolarik, ez dakigu etimologia norena den, Mendieta ala Zabala delakoarena. Matxitxako lurmuturraren izen zaharra dugu hemen, Machaçacu, garaiko beste lekuko batzuetatik ere heldu zaigun forma (cf. del Valle Lersundi 1934). Etimologiaren aldetik, bigarren erroa zaku izan daiteke, emandako esanahiarekin bat egingo lukeena, eta orduan matxa itsasontzi mota bat ('nao') izango litzateke, lekukotugabeko hitza. 69. Menzeta (ab.) «Mençeta es muy antiguo y de muy buena generación. Este nombre salió de la palabra decetas que quiere deçir 'ayuntamientos o cofradías', que como el tiempo ba olbidando los lenguajes, aca en Vizcaya no saben que decetas son cofradías y de aquí se diçe mecetas» (A. f. 169r). Deceta hitza hapaxa da guretzat, ezin izan baitiogu kognaturik aurkitu ez euskaraz eta ezta erdaraz ere. 70. Mundaka (top.) «Mundaca, esta poblada ribera de la ría que baxa y sube al mar oceano en un requesto al qual en lengua eusquela se diçe muna que es lo mismo que terrero y los que pusieron este nonbre se le acomodaron al sitio y lugar donde le fabricaron que fue munan daça que significa 'está en un terrero ó questo cercano a la ribera'. Esta terminaçión -CA es vizcayna como se hallará en muchos nonbres de lugares y casas así como Guernica, Muxica, Gatica, Maurica, Gaueca, Fuica, Alboyca, Barrica, y significa 'multitud o copia de la cosa que se nombra quitando el Ca' y también significa 'frequentaçion y multiplicidad de actos' como arrica, aguica, escuca, vrtica, y así Mundaca tiene la misma terminaçion y significa asiento en requesto y ribera y no mundaqua» (A. 147r-147v). Muna hitza dugu batetik, OEHren arabera (s.v. muna) xix. mendetik aurrera bakarrik lekukotzen dena, nahiz eta ICk darabilen, beste testuinguru batean, hala ere (Arriolabengoa 2008: 258). Bestetik, etzan aditzaren forma jokatua (datza) dugu. Amaitzeko, -ka atzizkia Bizkaiko gainerako toponimoetan ere aurkitzen du eta euskarazko -ka atzizki adberbialarekin lotzen du, harrika bezalako hitzetan ikusten duena.</figDesc><table><row><cell>Lakarra 1996: 307); aipamen honek hitza mendebaldean ere ezagutzen zela indartuko luke. 24. ari-mea). RS liburuan, gure lekukotasunetik hurbilen legokeena hala geografi-koki nola historikoki, bietara dugu hitz horretan (Lakarra 1996: 222), eta sartaldeko gainontzeko lekukotasunetan (Mik., Bet.) falta direlarik ere (cf. FHV  § 5.2), VJ dotrinan usu agertzen dira bokal geminatuak (ibid.; Uliba-rri 2010: 53). 29. Beriz (ex.) «Veriz o varriz significa 'otra bez' o 'de nuevo» (A. f. 6). Topo-cantabrica » (A. 12v-13r), «…a estas casas juntas y beçinas deçian Vrr urrean que significa 'çerca' […] y así Vrria significa 'lugar o cosa allegada y junta» (A. 13r-13v), «de aquí dicen al-gunos les quedo el nombre de Cantaerria, ques decir 'patria de los que can-tan' (A. f. 14), «…así que como arriba e dicho [que] vria es lo mismo que 'villa' y biene de vrria que biene de estar las casas çercanas unas de otras. Y esto baste en este caso y daré otra hethimología y deribación de Cantabria, a mi parecer más autori-dad, poderío y mando' y así escudun, quien puede hacer y desacer, mandar y bedar por que tiene el poder y autoridad para ello. De manera que escudero es quien lleba una cosa en la mano, escudu[n]a quien tiene potestad, ezcutaria 'defensa del golpe', ezcutuerria 'defensor de la patria» (A. f. 115v-116v). Es-cudero azaltzeko hainbat ustezko euskal hitz dakarzkigu Mendietak, guztiak RSren hiz-tegia, Lakarra 1996: 209). 38. Etxabe (ab.) «quiere decir casa de auajo ô por mejor decir bajura de casa» (Q. f. 14). Honetan ere zailtasun berezirik gabeko toponimoa dugu (ik. Etxabarria eta Axpe). 39. Euskelduna (eusha.) «al bascongado, le decimos, eusquel duna, ques deçir el del Eusquel lenguage» (A. f. 5v). Honetan eta ondoko hitzean egiten dituen itzulpenak ikusita, badirudi konposizioko euskel-forma hartzen duela jato-rrizko tribuaren izenaren forma zahartzat. Badirudi -dun atzizkia (cf. escu-dero) ezagutzen zuela (ik. Euskel erria). 40. Euskel herria (top.) «El proprio nombre y apellido deste lenguage bascon-gado es llamado [ar] ça en bascuençe» (Arriolabengoa 2008: 175). 42. Galeras (ex.; erdha?) «galeras que fueron las en que pasaron los primeros que con Tubal binieron, significan 'ligereza» (A. f. 6). Mendietak toponimo bi-blikoen artean aipatzen du, beraz, exonimo legez sartu dugu; hala ere, bere azalpenak erakusten digu galera 'ontzi mota' hitzarekin erlazionatu duela. Azalpenaren aldetik, etimologia inplizitua deitu duguna da: galera 'galtzea' formalki ondo dator, baina ez da ondo ezkontzen 'ligereza' esanahiarekin; agian gari (konposizioan gal-) hitzarekin lotuko zuen? 43. Honetan ez du Gan-boa toponimoari emandako etimologia jarraitzen, aitzitik, kanpo hitzarekin lotzen du bando honen izena. Aipatzekoa da -tar ~ -ar alomorfoen erabilera jatorra: txistukariz amaitzen den hitzari -tar eta bokalez amaitzen denari -ar (eta ez ganboatar). 44. Garuna (top? ex?) «garuna [significa] seso» (A. f. 6). Toponimotzat hartu dugu, hainbat toponimo biblikorekin batera ematen duelako, baina ez du-gunez inolako erreferentziarik aurkitu, izan daiteke Garona ibaiari erreferen-tzia egitea, toponimoa inolaz ere. Guztiagatik ere, gure interesa garun hitzean dago, mendebaldeko hitz arrunta OEHren arabera (s.v. garun) eta Mikoleta-ren hiztegitik aurrera agertzen dena; beraz, lekukotasun honek hitzaren ager-tze data aurreratuko luke xvii. mende hasierara. 45. Gizon (eusha.) «Al hombre llamamos guizon que significa 'sea bueno', deri-bado de bison» (A. f. 6v). Argitzen digu aginterazko biz adizkiaz eta on hitz orokorraz osaturiko perpausa ikusten duela jatorrian. Aipagarria etimologia argituan bokal artean geratzen den txistukaria apikaria egin izana (cf. Biz-kaia); agian testuan ondoren duen &lt;alsol&gt;-ek eragindako kopia akatsa? 46. Goitisolo (top.) «la casa de Goytisolo significa 'her[e]dad somera» (A. f. 198r). Toponimo argia dugu, mendebaldean Lazarragaz geroz leku-koturiko solo 'heredad' aldaerarekin (gip. soro; cf. OEH, s.v. soro) eta goiti 'goiko' hitza, ekialdeko tradizioan ondoen lekukotzen den arren mendebal-deko adibiderik falta ez duena (OEH, s.v. 1 goiti). 47. Gordeia (ex.) «Gordeya significa 'llamamiento a sordos» (A. f. 6). Etimologia argia dugu Armeniako toponimo honetan, gor eta deia hitzen bidez azaldua. Lehenengo erroa orokorraz landa, aipatzekoa da dei zabalea erabiltzen duela eta ez bere eremuko lekuko zaharretan (RS, Bet., VJ, Mik., Poza) aurkitzen den gei aldaera (OEH, s.v. dei). Ohartzeko modukoa da ICk (eta Garibaik lehenago, cf. Zubiaur 1989: 175) Gorbeiarekin lotu zuela, eta honela jatorria behi berbari (Arriolabengoa 2008: 176). 48. Gozaeta (ex?) «goçaeta significa 'dulçura» (A. f. 6). Badirudi hitz honi gozadu 'gozatu' partizipioaren aditz izenean aurkitzen diola jatorria. Hitza, adiera honetan, Mik.-renetik ezaguna da; beraz, hau litzateke lekukotasunik zaha-rrena (cf. OEH, s.v. gozatu). Mendebaldeko -eta aditz izen marka lekukotzen du (horregatik proposatu dugu gozadu eta ez gozatu partizipioa, ik. Urgell 2006:  § 2.3); eta jatorrizko hitzari egotz badakioke ere, interesa izan dezake hiatusa bere horretan mantentzeak, edo behintzat ezagutzeak (i.e. ez gozeta). Interesgarria da baita aditz izena darabilela hitz abstraktua adierazteko (egun, gozotasun geniokeen): erabilera hau gaur egunean bakarrik ekialdeko eus-kalkietan daukagun arren, antzina hedatuago zegoen Landucciok erakusten (1562; Urgell 2008: 825) eta gure testuak indartzen duenez. ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 751-776 http:/ekialdean erabiliago delarik (OEH, s.v. gudu); beraz, Mendietaren aipuak mendebaldeko erabilera bermatuko luke (cf. Mitxelena 1970: 122). Lan-dari 'campo' dagokionez, zuberera ez beste euskalki guztietan lekukotzen da (OEH, s.v. landa). Mendietaren itzulpenean argitu gabe dugu erdiko -bi(ko)-atala. 51. harina (erdha.) «La arina significa 'ligereça', como ella lo es» (A. f. 7). Eti-mologia garbi bat dugu, euskal arin hitz orokorrarekin lotzen baitu (OEH, s.v. arin). Hala ere, OEHk ez du izen abstraktu legez lekukotzen, Mendietak argiki horrela itzultzen duen arren (hots, 'ligereza' eta ez 'ligero'). Hau era-bilera zahar baten isla izan daiteke, beste adjektibo batzuekin ikusten dugun bezala (cf. OEH, s.vv. ilun, argi…) hitz hauek izen moduan ere erabili baitzi-tezkeen (ik. luna, hidalgia). 52. heriotza (eusha.) «a la muerte deçimos eri oza, significa herida fria» (A. f. 7). Mendietak hitza banatzen digu, ikusten dituen erroak argituz: hotz orokorrarekin batera (cf. OEH, s.v. hotz) eri hitza dugu 'zauri' esa-nahiaz: OEHk ez du mendebaldean lekukotzen eta beste adiera bat luke ('gaixotasun'). Posible da Mendietak Pozaren etimologiatik jaso izana («he-riotçea (34v) 'la muerte, y significa golpe, herida, o accidente frio»; ik. Go-rrochategui 1987: 119), eta herida hitzaren antzekotasun formalagatik esa-nahi hori aukeratu izana. 4 53. hidalgia (erdha.) «de aqui según esto la verdadera ethimologia y deri-baçión de la palabra hidalguia es en lengua Tubalina bizcayna como se be de Fidel eguia, que significa lealtad y verdad. De suerte que de fidel eguia naçe fidalguia y no ay para que buscarle la deribaçion en otras lenguas es-trangeras» (A. 90v-91r). Etimologia esplizitua dugu: egia hitz orokorra da (OEH, s.v. egia), baina fidel ekialdean aurkitzen den aldaera da, mende-baldean fiel delarik ohikoena. Horrezaz gainera, lekukotasuna berezia da baita izen abstraktu moduan ere itzultzen duelako fidel adjektiboa (ik. luna, harina). 54. ibai eta he-rri) azaltzen du izena. 55. Infanzon (erdha.) «ynfanzon es lenguaje vizcayno conpuesto de tres dic-tiones, indaçu hanz ona para cuyo entendimiento sea de presuponer que la gente d'esta patria a tenido principalmente offiçio militar [...] siempre se escojió jente robusta, moza y de buena presencia que en nuestra lengua ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 751-776 hantz ona. 'Eman' adieradun aditz trinko zaharra dugu, eta aipagarria da -zu bigarren pertsona errespetuzkoa ('dadme') erabiltzen duela. Bestetik, antz Kapanagaz geroz lekukotzen da mendebaldean, hemengo adierarekin ('aspecto, apariencia') Larramendiz geroz bakarrik dugularik (OEH, s.v. antz 3); hortaz, lekukotasun honek aurreratuko luke adieraren data. 56. Irargia (eusha.) «a la luna deçimos yrarguia, significa 'luz mens[u]al» (A. f. 7). Irargia dugu euskal hitz arrunt honen mendebaldeko aldaera testu zaharretan (Marineo Siculo, Lcc., IC, Poza… cf. OEH, s.v. ilargi). Etimolo-http:/zona.» (A. 117v-118r). 5 Hitza euskal esaldi batetik eratortzen du, indazu gia inplizitua bada ere, argi antzeman daitezke Mendietak proposatzen di-tuen erro biak: hil 'hilabete' + argi (Pozak lumbre muerta proposatzen du; Gorrochategui 1987: 121). Aldaeren ikuspuntutik, aipagarria da dakarren al-daera irargia izan arren, azalpena emateko orduan Mendietak (eta lehen Po-zak) *ilargia zukeela gogoan: hil + argia, ondoren Oihenartek eta Larramen-dik ere ikusiko duten l ~ r hizkien arteko erlazioa antzematen zaielarik (ik. Urgell 2000: 859, 861, eta 2018: 649). 57. ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 751-776 2008: 177) erakusten digu antzinetik zetorren azalbidea dela. Etimologia ho-netatik guretzat garrantzitsuena da herskari aurreko txistukaria egoki islatzen duela, bere hizkeran oposaketa mantentzen zela erakutsiz, nonbait (cf. Biz-kaia eta escudero). 62. ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 751-776 http:/Ispaster 'rincon de mar'; Arriolabengoa http:/</cell></row></table><note>ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 751-776 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.202301. Abea (ex?) «abea 'poste» (A. f. 6). Toponimo biblikoen artean kokatzeagatik eman dugu hemen, baina hitz soltetzat ere jo genezake, etimologia garbia (cf. § 1) baita: euskarazko habe hitza. Hitz orokorra, mendebaldeko idazle zaha- rrenetan Garibaik eta Kapanagak lekukotzen dute (OEH, s.v. habe; ik. Ma- dariaga, hitzaren beste aldaera baterako). 2. Aberatsa (eusha.) «Al rico decimos aberasa 'animal que yede» (A. f. 7). Eti- mologia inplizitua bada ere, nahiko garbi esan genezake abere eta hatsa duela buruan Mendietak. Lehena hitz orokorra da (cf. OEH, s.v. abere), baina hats hemen duen 'hedor' adierarekin mendebaldeko tradizioan lekukotzen du OEHk (s.v. hats 2); RSko adibide bat kendurik (asaputzago; ik. Lakarra 1996: 310) hau litzateke xviii. mendera arteko hitzaren lekukotasunik zaha- rrena. Bestalde, interesgarria da aipatzea hitz honetan ez duela afrikatua gra- fikoki adierazten, beste batzuetan egin bezala (ik. eshea). 3. Adonai (erdha.) «adonai significa en esta lengua 'a ti quiero» (A. f. 6v). Ta- txaturik dagoen pasarte batean ageri zaigu hitz hau, baina nahiko ziur esan genezake azkeneko zatian nahi hitzarekin erlazionatzen duela. Egun gura hi- tzak lekua kendu badio ere, mendebaldeko tradizioan ez da ezezaguna: RS edo Lazarraga bezalako testu arkaikoetan lekukoturik dago, eta literatur biz- kaieran ere f. Bartolomeren edo Astarloarenetan (OEH, s.v. nahi). 4. Ajangiz (top.) «El solar de Ajanguiz, según comun tradiçión tubo su sitio y casa en la cofradía de Ajanguiz, donde al presente se diçe La Renteria, cer- quita de la villa de Guernica, donde solía aber vn gran matorral de çarçamo- ras, que en basquençe se dicen ajana, por donde se llamó a la casa y cofradía d'este nombre» (A. f. 189r). Azken zatia (-giz) azaldu gabe uzten badu ere (eta guk ere ezin izan diogu azalpenik aurkitu), esplizituki diosku ajan 'zar- zamora' adiera duen hitza dela. Aján Baraibarren Arabako hitzen hiztegian dugu 'hierba de los pordioseros, clemátide' (Baraibar 1903: s.v. aján) adieran eta, dirudienez, euskal aihen 'sarmiento, clemátide' (cf. OEH, s.v. 1 aihen) hitzetik letorke. Hala ere, ezin izan dugu Mendietak ematen dion 'zarza- mora' adiera beste inon lekukotu. 5. Alberdan (erdha.) «bagamundo y arlote» (A. f. 6). Euskaraz hitza bere horre- tan erabiltzen bazen, hau genuke horren lekukotasun bakarra, OEHk alber- dania (s.v.) bakarrik baitakar, 'acción descompuesta' edo 'holgazanería' adie-ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 751-776 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20230 rekin.ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 751-776 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20230 auncibay.19. Armenia (ex.) «Armenia significa 'cosa puesta sobre piedra o peña', como lo fue el arca de Noe» (A. f. 5v). Lehenengo zatia harri-rekin erlaziona dezake-ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 751-776 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20230gularikBerariaz Pozaren iturria aipatzen duelarik, IC kronikan badugu Troiako ger- lariaren etimologiaren aipamena (Arriolabengoa 2008: 186). Mendietaren etimologian bigarren elementua herri da, 'tierra' adiera zaharrean (ik. Eus- kel herri); osten hitzari dagokionez, OEHk (s.v. osten) Orozko eta Arratiako- tzat du, 'escondrijo', 'subsiguiente' eta 'oculto' esanahiekin. Adiera aldetik, baina, hobeto ezkontzen da RS liburuan dugun ostendu 'atrasarse' aditzarekin (OEH, s.v. ostendu); honela balitz, Mendietaren lekukotasunak RS eta on- doko (xix. mendeko) lekukotasunen arteko zubi lana egingo luke. 21. Asuaga (ab.) «quiere decir que 'es fuego» (Q. f. 33) «El solar de Asuaga pone por armas […] tres tizones ardiendo, en alusión de su nombre que dice fuego» (Q. f. 34). Su hitz orokorra argi dugularik, abizen honen azpian Men- dietak ha sua da 'hura sua da' esaldia ikus zezakeen; paronimia lagun hots al- daketak lasaiki darabiltzalarik (cf. Asturias &lt; ostenerria; gizon &lt; bizon), ga &gt; da aldaketa ez da ezinezkoa. 22. Atxasarri (ex?) «Achasarri 'espesura de peñas» (A. f. 6). Mendebaldeko hiz- keretan erabiltzen den hatx 'haitz' aldaeraren gainean osaturiko etimologia (cf. beherago Axpe), bere hizkeran ere Vj(t)z &gt; V(t)x palataltzea bazela ira- dokiko lukeena (ik. aretxondo). Bigarren partean sarri 'espesura' hitza da- kus; euskal tradizioan lekukotasun modernoak baino ez ditu hitz honek adiera honetan, baina etimologietan dagoeneko ICk erabiltzen du (OEH, s.v. 2 sarri). 23. Axkibel (top.) «los de Axquibel por nombre corrupto dicho esguibel o ach- guibel que significa estar fundada en las espaldas de la peña» (A. f. 159r). Lehenengo zatirako, ik. Atxasarri. Bigarren atalean gibel hitza ikusten du, achguibel "argitzeak" erakusten digunez, 'espalda' adieran. OEHk (s.v. gi- bel) ekialdean lekukotzen badu ere, RSn ere kibel bada (cf.Aipatzekoa da toponimo honi dagokiola ezagutzen dugun etimologiarik zaharrena (Izpea, subtus penna; TAV § 2.2.6). 25. Babilonia (ex.) «Babilonia significa confusión, andar de aca par'alla» (A. f. 6). Badirudi ibili aditzarekin lotzen duela, agian babil 'badabil' forma trinkoarenISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 751-776 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20230 bidez.(cf. Lakarra 1984) deklinaturik egon daiteke (cf. Cantabria beherago), eta arte orokorraren aldaeratzat bide du Mendietak itzulpena ikusita. Diptongo- dun aldaera hau litzateke forma zaharra (ik. Mitxelena 1973, OC IX: 64). 28. batzar (eusha.) «juntos en sus baçaarr ques lo mismo que 'junta de ancia- nos', so el Robre de Guernica» (A. 74v). Mendietak batu eta zahar hitzeta- tik eratortzen du hitz hau. IC kronikan ere badago batzar hitzaren etimolo- gia hau berau (Arriolabengoa 2008: 148), baina hartan ez bezala Mendietak -aa-bikoitza behar zela argitzen digu (etimologia argitu bat dugu, hortaz), bere euskaran oraindik bokal bikoitzak gordetzen zirela erakutsiz (cf.nimo esplizitua dugu hemen, bere hizkeratik hurbilago legokeen barriz 'be- rriz' aldaera ematen baitu azaltzeko orduan (cf. OEH, s.v. berriz). Alabaina, ezin dugu zehaztu ea gainontzeko hizkeren berriz ere ezagutzen zuen ala erla- zio formal hutsa egin ote duen. 30.tak oraindik s ~ z hotsen oposaketa mantentzen duela (cf. FHV § 14.2). 31. Cantabria (top.) «dice Plinio (libro 29 cap. 8) aber sido [el nombre de Can- tabria] el aber hallado en ella en tiempo de Cesaraugusto la yerua llamadaISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 751-776 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20230propia de esta España. Según los cosmógraphos tiene seme- jança de un cuero de baca estendido: teniendo la cabeza haçia los Pirineos y Raya de Francia y Cantabria biene a caer a la parte del pesqueço o cuello yz- quierdo y como respecto a la parte mediterranea, por donde los primeros po- bladores d'este reyno entraron y poblaron esta nuestra tierra es la superior y más remota y última del reyno y en lengua eusquela la nombraron Gan Erria que se ynterpreta 'patria, región, tierra somera' o más alongada y leja, y así se debió corromper el bocablo por los estrangeros que por decir Ganerria dige- ron Cantabria de Ganterria, Canterria y de aquí Cantauria y haçe a este pro- posito» (A f. 16-16v). Hainbat pasarte ekarri ditugu Cantabriaren etimologia honetara, Mendieta Aerarioan ez baita mugatzen bere proposamena ematera; aitzitik, aurretik esandakoak ere biltzen ditu, horien aurka eginez kasu ba- tzuetan. Hauen bidez jakin dezakegu Vrr urrean 'hurbil' adiera lukeela, eta horretatik eratortzen duela uria 'hiria' («es lo mismo que villa, […] de es- tar las casas çercanas»). Hur mendebaldeko hizkeretako hitza dugu, eta testu zaharrenetatik lekukotzen da (OEH, s.v. 2 hur). Urrean-i dagokionez, inesi- boan ('hurbilean') edo ablatibo zaharrean ('hurretik, hurbiletik'; ik. Lakarra 1984) deklinaturik egon daiteke (ik. gorago basurto). Cantabria toponimoari ematen dion etimologiaren inguruan, argitzen digu Gan erria dela proposa- tzen duen jatorrizko forma, honela lehen ere ikusitako herri hitzari (ik. Astu- rias) mendebaldeko gan (orok. gain) aldaera gehitzen dio. 32.3 ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 751-776 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asjuberariaz aipaturiko esku 'mano' hitzetik eratorriak. Ezkutua hitza balizko es- kudua hitzetik eratortzen du, eta ematen dion esanahia ikusita (defensa puesta en la mano) agian *eskuan doa perpausa luke gogoan. Ezkutua hitza bera ere badakar, 'puesto a sombra y abscondido' esanahiaz; hau izango litzateke ez- kutu adjektiboaren lehenengo aipamen zuzena: OEHk (s.v. ezkutu) Etxabe- ren (eta Larramendiren) aipua badakar ere, badirudi hark ezkutu 'escudo' izenari egingo liokeela erreferentzia ('el que esconde') eta ez adjektiboari, Mendietak egin bezala ('abscondido'). Latinezko scudum-en oinarrian, ordea, esku-dun ikusten duela dirudi, horretarako -dun atzizkia baliatuz, nonbait.rriagoa da eshea berba bera; batetik txistukari apikaria du, mendebaldean le- kukotzen den aldaera zaharra (cf. OEH, s.v. etxe); bestetik, apikari afrikatua adierazteko saiakera ikusten dugu, Garibaik proposatu zuen &lt;sh&gt; digrafoare-ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 751-776 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20230 kin.trababan despues querian la llevar a pie y so mano e deçian en bazquençe oñez que quiere deçir a pie» (A. f. 85v). Lehenago (ik. Cantabria) ikusirikoISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 751-776 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asjuISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2 (2018), 751-776 http://www.ehu.es/ojs/index.php/ASJU/ DOI: https://doi.org/10.1387/asju.20230</note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">Euskal testuak eta idazleak aipatzeko orduan, OEHk erabiltzen duen laburdura sistemaz baliatuko gara.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">Cf. «tambiê entre los curiosos ay discrimen sobre la denominación de fidalguia, diciendo diversas opiniones, pero la cierta y verdadera es, que su origen, como el resto de la lêgua castellana, es de la latina, en la qual al leal llaman fidelis, y de fidelitas se dixo fidalguia, que quiere dezir cosa de fidelidad, como de monge dezimos mongia (…) y así de fidalguia se dixo fidalgo, que es el que haze aquel acto de fidelidad»(Garibai, apud Zubiaur 1990: 192; letra etzana gurea [K.U.O.]).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">Itzulpen honetan Pozaren eraginik izan ez zuela defendatzea zaila bada ere, Mendietak modu originalean egiten du bere interpretazioa: «Eguzguia, egusgueya, significa mirad, atended el principio, fundamento, obra, llamamiento, o principio del dia»(Poza 1587: f. 33v).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">Honek beste galdera bat sortuko liguke: Mendietak gazt. heridaren jatorria euskal eri hitzean ikusiko zukeen? Cf. Larramendi: «Herida, es voz bascongada, cuyo origen acabamos de explicar [= s.v. Heria «es voz bascongada, eria golpe, enfermo, enfermedad»]» (HH, s.v. herida).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">Euskararen ikuspuntutik interesgarria ez bada ere, Mendietaren iturrien azterketarako beharrezko izango da inork proposatu zuen hinfanzon hitzaren jatorri germanikoa dakarrela esatea: «Vaenfan significa "la bandera" y zone "el hijo" y Ein "uno" y todos estos tres bocablos juntos einfanzone, en los cuales nos muestrá al "hijo o pro hijado de la bandera"» (A. f. 119v).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6">Honela eskuizkribuan. Ez dakigu zein den Oiz mendiaren izenari ematen zaion etimologia, baina lekukotasun honek iradoki dezake inoiz diptongo sudurkaria izan zuela *Ôîz (&lt; *Oniz), eta horren ondorio izango dela Mendietaren aldaera hau (cf.Ulibarri 2013: 182, 9.  oh., Mendietaren beraren ainzpa aldaeraz); bestela ere, proposa genezake Mendietak oraindik ere bokal sudurkariak nabaritzen zituela (ezinezkoa ez dena garaia ikusirik, cf. Ulibarri 2015: § 4.2.1.6) eta hori islatzeko baliabidea zela &lt;n&gt; grafia hori.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">Egun dugun zaindu aditzaren jatorrian *zani + -tu aditz pleonastikoa legokeela proposatzen badugu (cf. haritu, hotzitu…), hemengo *zan genuke aldaera zaharreko aditzoina. *zani horren bokal arteko n &gt; h bilakabide ezagunak (FHV § 15.3) *zâî aldaera sortuko zukeen, eta hortik OEHk (s.v. zaindu) biltzen dituen zaitu eta, sudurkariaren berrezarketarekin (sêî &gt; sein, artzâî &gt; artzain…), zaindu aldaera orokorra.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8">* ikurra hizkuntzalariek berreraikitako *nin partizioarentzat gorde dugu.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20230</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20230" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Dugun erreprodukzioan ez da ondo irakurtzen, testu nagusiaren gainean bururatu (edo beste nonbaitetik irakurri) ahala egindako oharra delako. Hala ere, argiki lehenengo zatia muno hitzarekin erlazionatzen du (cf. Mundaka). Muno hitza, Erdi Aroko lekukotasunetatik kanpo, ez da lekukotzen xix</title>
+		<idno>71. mundo (erdha.) «en latin mundus significa</idno>
+		<imprint/>
+	</monogr>
+	<note>y en bascuence significa munoa [o muralla] terreros» (A. f. 7). mendera arte (cf. OEH, s.v. muino</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">beraz, hemengo adibideak zubi lana egingo luke lekukotasun batzuetatik besteetara</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">«al trabajante se dice Necaçalea significa, guarda del trabajo» (A. f. 7). Ekialdeko hizkeretan xvii</title>
+		<imprint/>
+	</monogr>
+	<note>mendetik lekukoturiko hitza dugu</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Zale hitz orokorra ez dugu aurkitu &apos;zaintzaile, jagole&apos; adiera garbiarekin (cf. OEH, s.v. zale), baina agian hau litzateke hitzaren adiera zaharra, zaintzaile hitzaren erara sorturiko hitza bada behintzat, baina fase sparitan den -le atzizkiaren bidez eratua: *zan</title>
+		<editor>mendebaldean xix. mendera arte ez da ageri (OEH, s.v. nekazale</editor>
+		<imprint/>
+	</monogr>
+	<note>Mendietak ematen dion esangurari begira, neke &apos;lan&apos; adieran ezaguna da euskalki guztietan (cf. OEH, s.v. neke). le 7 &gt; zale (cf. eskale ~ eskatzaile</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">y para otros deçían campoa qu&apos;era &apos;acceptar el desafio&apos; y así se juntaban quadrillas de anbas oppiniones y parcialidades, llamándose oneztarrac y campoarrac, que quieren decir &apos;los de la paz&apos; y &apos;los de la guerra» (A. 76r)</title>
+	</analytic>
+	<monogr>
+		<title level="m">Oneztarren bandoaren izena on hitz orokorraren bidez azaltzen du</title>
+		<imprint/>
+	</monogr>
+	<note>Oneztar (ab? eusha?) «vnos Onez que quiere decir &apos;por bien. instrumentalean deklinaturik; -tar atzizkiaren aldaeren arteko txandakatzeaz, ik. Ganboar</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">«basquençe ganboa que quiere deçir &apos;por lo alto&apos;, e los otros que trababan después querían la llevar a pie y so mano, e deçian en bazquençe oñez que quiere deçir &apos;a pie» (A. 85v). Aurrekoan ez bezala, honetan oin hitz orokorra ikusten du, instrumentalean deklinaturik</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Oñez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page">181</biblScope>
+			<pubPlace>Arriolabengoa</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Etimologia hau berau ematen dio IC kronikak abizen honi</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Gaztelaniazko oro &apos;urre&apos; hitza euskal oro &apos;guztia&apos; hitzetik eratortzen du</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>«oro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Todo</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Gaur egun mendebaldean erabiltzen ez bada ere. eremu horretako testu zaharrenetan aurkitzen dugu (Lazarraga, IC eta RS; cf. OEH, s.v. oro); beraz, Mendietak erabilera zahar horren beste adibide bat dakarkigu</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Toponimo argia, ota &apos;ote&apos; eta lora &apos;lore&apos; hitzez osatua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Otalora</surname></persName>
+		</author>
+		<ptr target="Adibideotanikustendugumende-baldekohizkeretangertatudenhitzamaierako-e&gt;-abilakabidearenadibi-deakMendietareneuskaranerebazela" />
+	</analytic>
+	<monogr>
+		<title level="m">Otálora quiere decir &apos;flor de Argoma» (Q. f. 13)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Argi ikusten da Mendietak hotz + hila aztertzen duela; aipatzekoa da hil &apos;heriotza&apos; adierarekin itzultzen duela</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ozila</surname></persName>
+		</author>
+		<idno>euskal tradizioan eze- ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2</idno>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="751" to="776" />
+		</imprint>
+	</monogr>
+	<note>Oçila que fue el collado donde quedó el arca, significa &apos;muerte fria» (A. f. 6)</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20230</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20230" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">zaguna ez bada ere, mendebaldean lekukotu ez den adiera (cf. OEH, s.v. hil III, 2)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Dugun erreprodukzioan ez da ondo irakurtzen, testu nagusiaren gainean bururatu (edo irakurri) ahala egindako oharra delako. Guztiarekin, lehenengo partean herri hitza ikus genezake, &apos;patria&apos; moduan itzulia (ik. euskel erri). Bigarren hitzari dagokionez, mendebaldean lekukotzen den eregi &apos;eraiki</title>
+		<imprint/>
+	</monogr>
+	<note>«significa soberano de la tierra destas palabras err eregui es lo mismo o superior de la patria. izan daiteke Mendietak ikusten duena</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">baina aukera gehiago ikusten dugu erri-egia izateko, hots, -egi atzizkia egoteako bere azalbidean</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Dugun erreprodukzioan ez da ondo irakurtzen, testu nagusiaren gainean bururatu (edo irakurri) ahala egindako oharra delako. Hala ere, argi ikusten da hitz honi ematen dion etimologian herri eta bera hitzak ditugula. Bera &apos;bigun&apos; orokorra da OEHren arabera (s.v. 2 bera), eta mendebaldeko Lazarraga eta IC kronikaren (beste testuinguru batean; ik. Arriolabengoa 2008: 223) lekukotasuna dakar. 79. romance (erdha.) «Romançe o Roma yza que significa &apos;palabra Romana» (A. f. 7v). Romance hitzari euskal etimologia bilatzen dio hitz berbaren bidez</title>
+	</analytic>
+	<monogr>
+		<title level="m">significa &apos;tierra floxa&apos; como lo es mediante el agua &lt;…&gt; y ace muelle y blanda d&apos;eso dieron (?) erri bera &apos;tierra floxa</title>
+		<imprint/>
+	</monogr>
+	<note>Lexema hau mendebaldean gutxi erabiltzen bada ere. berbak hartu baitu bere lekua) lekukotasun zaharrenetan (RS, Garibai) agertzen zaigu (OEH, s.v. hitz); beraz, honek erabilera zahar hori bermatuko luke</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Ugalde que por estar sita junto al río</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ugalde</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>se llamo así» (Q. f. 13v)</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Badirudi Mendietak ur eta alde &apos;lado, lugar&apos; (ik. OEH, s.v. alde) hitzak dituela buruan (ik. aldea)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Esplizituki ematen dizkigu toponimoaren azpian ikusten dituen erroak, hur &apos;hurbil&apos; (ik. gorago Cantabria), da aditz jokatua eta ibai. Badirudi ez duela urde &gt; urda aldaketa antzeman edo ez duela urde hitza ezagutzen</title>
+		<imprint/>
+	</monogr>
+	<note>Urdaibai (top.) «la casa solariega de pariente mayor de Urdaybai […] tiene este nombre por se aver fundado cerca al río que es lo mismo que vr, cerca, da, es, ybay, rio» (A. f. 163v). orokorra bada ere (cf. OEH, s.v. urde</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Zelai-tik eratortzen du toponimoa, apika; hitza orokorra bada ere, ez dirudi &apos;llanura&apos; adierarekin mendebaldean lekukoturik dagoenez (cf. OEH, s.v. zelai 3); beraz, lekukotasun honi esker esan genezake mendebaldean ere erabiltzen zela adiera horrekin</title>
+	</analytic>
+	<monogr>
+		<title level="m">Zelaeta (top.) «la casa de Celaeta de suso &apos;llanura» (A. f. 198r)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Lanabesen euren naturagatik, atera ditzakegun ondorio gehienak fonetikoak eta lexikoak dira, haren euskara mendebaldekoa zela baieztatzeko modukoak bederen. Fonetikari dagokionez, ikusi dugu a + a &gt; ea legea betetzen duela (arimea, amea) eta e-z amaituriko hitzek -e &gt; -a aldaketa (lore &gt; lora, ote &gt; ota)</title>
+		<idno>lekukotzen ISSN: 0582-6152 -e-ISSN: 2444-2992 ASJU 52-1/2</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Ondorioak Etimologia bilduma honen azterketarekin</title>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="751" to="776" />
+		</imprint>
+	</monogr>
+	<note>Mendietaren euskal materialak hobeto ezagutzeaz gainera, haren euskara izan zitekeenaren inguruko ezagutzak bildu ahal izan ditugu</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20230</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20230" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20230</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20230" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20230</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20230" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Pintor y escritor</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Areitio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De ; «francisco De Mendieta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BAP</title>
+		<editor>«El pintor Francisco de Mendieta»</editor>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="350" to="351" />
+			<date type="published" when="1929" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Arriolabengoa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskara Ibarguen-Cachopín Kronikan. Bilbo: Euskaltzaindia-BBK</title>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Un ayalés universal</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Aspuru Oribe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Francisco De Mendieta</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="42" to="49" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Vocabulario de palabras usadas en Álava. Madril: Jaime Ratés-en inprenta</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Baraibar Y Zumarraga</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1903" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">«Francisco de Mendieta, pintor alavés de los siglos xvi-xvii. Honor y autoestima», in Estudios de historia del arte en memoria de la profesora Micaela Portilla</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Barrio Loza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gasteiz: AFA</title>
+		<imprint>
+			<biblScope unit="page" from="273" to="280" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Contribución al estudio y edición de textos antiguos vascos (ASJUren Gehigarriak XI)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Contav = Sarasola</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983" />
+			<publisher>GFA</publisher>
+			<pubPlace>Donostia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Diccionario de la lengua española</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Drae = Real Academia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Española</surname></persName>
+		</author>
+		<idno>&lt;http:// dle.rae.es/&gt; [kontsulta eguna: 2017-07-17</idno>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Discursos de la antigüedad de la lengua cantabra bascongada. México: Henrrico Martínezen inprenta</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Etxabe</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1609" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">El Señorío de Vizcaya (hasta 1812). Madril: Minotauro</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Elías De Tejada</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1963" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Fhv = Mitxelena</surname></persName>
+		</author>
+		<title level="m">Fonética histórica vasca. Berrarg. in OC VI</title>
+		<imprint>
+			<date type="published" when="1964" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Isidoro de Sevilla. Génesis y originalidad de la cultura hispánica en tiempos de los visigodos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Fontaine</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+	<note>Tradition et actualité chez Isidore de Séville, London: Variorum Reprints. Madril: Ediciones Encuentro</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Post Tenebras Spero Lucem. Los estudios gramaticales en la España medieval y renacentista. Granada: Granadako Unibertsitatea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">&amp;amp; B</forename><surname>Gómez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Urgell</surname></persName>
+		</author>
+		<editor>A. M. González Carrillo</editor>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="257" to="320" />
+		</imprint>
+	</monogr>
+	<note>Descripción y defensa de la lengua vasca durante los siglos xvi y xvii</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Euskalaritzaren historiaz, I: XVI-XIX. mendeak (ASJUren Gehigarriak XV)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;amp;</forename><forename type="middle">J A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<idno>GFA-UPV/EHU</idno>
+		<imprint>
+			<date type="published" when="1992" />
+			<pubPlace>Donostia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Gorrochategui</surname></persName>
+		</author>
+		<title level="m">Andres de Poza y el euskera», berrarg. in Gómez &amp; Lakarra (arg</title>
+		<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="107" to="127" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">«Quarta parte de los Annales de Vizcaya que Francisco de Mendieta, vecino de Bilbao, recopiló por mandado del Señorío</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Guerra</surname></persName>
+		</author>
+		<idno>Euskal-Erria 72-73 eta 74-75</idno>
+		<imprint>
+			<biblScope unit="page" from="1915" to="1916" />
+		</imprint>
+	</monogr>
+	<note>atalka egindako argitalpena</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Diccionario trilingüe del castellano, bascuence y latín (bi liburuki). Donostia: B. Riesgo y Montero-ren inprentan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hh = Larramendi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1745" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+		<title level="m">Bizkaiera zaharreko ablatiboaz</title>
+		<imprint>
+			<date type="published" when="1984" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="161" to="194" />
+		</imprint>
+	</monogr>
+	<note>Refranes y Sentencias. Ikerketak eta edizioa. Bilbo: Euskaltzaindia</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">La tradición gramatical de Differentia y Etymologia hasta Isidoro de Sevilla</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">I</forename><surname>Magallón García</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zaragoza</title>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Zaragozako Unibertsitatea</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Malkiel</surname></persName>
+		</author>
+		<title level="m">Etimología. Madril: Cátedra</title>
+		<imprint>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Mañaricúa Y Nuere</surname></persName>
+		</author>
+		<title level="m">Historiografía de Vizcaya. Bilbo: La Gran Enciclopedia Vasca</title>
+		<imprint>
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Unas observaciones al último número de Euskera. I. ronc. arnari &apos;fruto&apos;. II. a.-nav. euntze &apos;belardi&apos; &apos;prado&apos;». Berrarg</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1958" />
+			<biblScope unit="page" from="251" to="256" />
+			<pubPlace>OC VIII</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+			</analytic>
+	<monogr>
+		<title level="m">Estudio sobre las fuentes del Diccionario de Azkue. Berrarg. in OC VIII</title>
+		<imprint>
+			<date type="published" when="1970" />
+			<biblScope unit="page" from="1" to="235" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.20230</idno>
+		<ptr target="http://www.ehu.es/ojs/index.php/ASJU/DOI:https://doi.org/10.1387/asju.20230" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Obras Completas (15 liburuki) [Lakarra &amp; Ruiz Arzalluz arg</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Oc = Mitxelena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Donostia-Gasteiz</surname></persName>
+		</author>
+		<editor>GFA / UPV/EHU</editor>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Orotariko Euskal Hiztegia (15 liburuki)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Oeh = Mitxelena</surname></persName>
+		</author>
+		<ptr target="&lt;http://euskaltzaindia.eus/oeh&gt;" />
+		<imprint>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+	<note>Interneten kontsultagarri (5. edizioa</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Etxe uzenak Orozkon</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">M</forename><surname>Ojanguren</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<publisher>Bilbo: Garoa</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">De la Antigua lengua, poblaciones y comarcas de las Españas</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Poza</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1587" />
+			<publisher>Mathias Mares</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Fondos vascos de la Biblioteca Francisco de Zabálburu (Madrid): Catálogo general ilustrado de manuscritos e impresos (ss. XIV-XIX)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">&amp;amp; M</forename><surname>Rubio De Urquía</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Noviembre</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>Eurolex</publisher>
+			<pubPlace>Madril</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Textos arcaicos vascos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Tav = Mitxelena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Berrarg. in OC XII</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="198" />
+			<date type="published" when="1964" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title level="m" type="main">Un nuevo texto para la historiografía vizcaína: Aerario de la hidalguia y nobleza hespañola y plaza de armas de Vizcaya por Francisco Mendieta</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Ulibarri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jesus</forename><surname>Viva</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Dotrina</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="173" to="191" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title level="m" type="main">Dotrinazko Sermoitegia: galduriko hizkerak eta dialektologia historikoa. UPV/ EHUko doktorego tesi argitaragabea. -, prestatzen, «Francisco de Mendieta Retes y el euskera</title>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Larramendiren Hiztegi Hirukoitza-ren Eranskina: saio bat hiztegigintzaren testukritikaz (ASJUren Gehigarriak XLVII)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Urgell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>GFA</publisher>
+			<pubPlace>Donostia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">«Para la historia del sustantivo verbal en vasco</title>
+	</analytic>
+	<monogr>
+		<title level="m">R. L. Trasken oroitzapenetan ikerketak euskalaritzaz eta hizkuntzalaritza historikoaz</title>
+		<editor>J. A. Lakarra &amp; I. Hualde</editor>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="921" to="948" />
+		</imprint>
+	</monogr>
+	<note>Donostia-Bilbo: GFA-UPV/EHU</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Berriemaileen gaitasuna eta eredu lexikografikoaren eragina Landucciren hiztegian</title>
+	</analytic>
+	<monogr>
+		<title level="m">Gramatika Jaietan Patxi Goenagaren Omenez (ASJUren gehigarriak LI). Donostia-Bilbo: GFA-UPV/EHU</title>
+		<editor>X. Artiagoitia &amp; J. A. Lakarra</editor>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="805" to="836" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+				<title level="m">Euskararen Historia. Gasteiz: Eusko Jaurlaritza</title>
+		<editor>J. Gorrochategui, I. Igartua &amp; J. A. Lakarra</editor>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="543" to="657" />
+		</imprint>
+	</monogr>
+	<note>Lehen Euskara Modernoa (1745-1891)</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Valle Lersundi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Del</surname></persName>
+		</author>
+		<title level="m">El cabo Machaçacu: una rectificación toponímica en el mapa geográfico del País Vasco</title>
+		<imprint>
+			<date type="published" when="1934" />
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="190" to="191" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">«Francisco de Mendietaren berrikuspenerako zenbait datu berri</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zabala</forename><surname>Montoya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BAP</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="203" to="209" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<monogr>
+		<title level="m" type="main">«Garibai hizkuntzalari», berrarg</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Zubiaur</surname></persName>
+		</author>
+		<editor>R. Gómez &amp; J. A. Lakarra</editor>
+		<imprint>
+			<date type="published" when="1989" />
+			<biblScope unit="page" from="173" to="182" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<title level="m" type="main">Las ideas lingüísticas vascas en el s. XVI (Zaldibia, Garibay, Poza) [Mundaiz]. Donostia</title>
+		<imprint>
+			<date type="published" when="1990" />
+			<publisher>Deustuko Unibertsitatea</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

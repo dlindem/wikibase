@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Inprimatuak editatzen: deskribapen bibliografikoa eta testu-kritika Kapanagaren dotrinaren argitan 1 Editing prints: Bibliographical description and text criticism in the light of the kapanaga doctrine Koldo ulibarri orueta* universidad del País Vasco/euskal Herriko unibertsitatea (uPV/eHu)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2016">2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">Inprimatuak editatzen: deskribapen bibliografikoa eta testu-kritika Kapanagaren dotrinaren argitan 1 Editing prints: Bibliographical description and text criticism in the light of the kapanaga doctrine Koldo ulibarri orueta* universidad del País Vasco/euskal Herriko unibertsitatea (uPV/eHu)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="volume">50</biblScope>
+							<biblScope unit="issue">1-2</biblScope>
+							<biblScope unit="page" from="77" to="97"/>
+							<date type="published" when="2016">2016</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1387/asju</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:42+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>descriptive Bibliography</term>
+					<term>Textual criticism</term>
+					<term>otxoa de Kapanaga</term>
+					<term>Do- trina Christiana</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>in this paper we are going to work on the textual bibliography and the ways that this methodology shows us when editing printed texts in the period of manual press. To this end, we will explain what the Bibliographical description is and show the importance that these descriptions can have when making a critical edition. An example of this will be Kapanaga's Dotrina Christiana (1656) bibliographical description: we will make a commented description, explaining what information might appear, and how this data on the creation and the history of the book may affect the critical edition. in this way, we want to claim that Bibliographic description is essential for a proper critical edition of the printed texts, because the conclusions that can be drawn from this are necessary.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Laburpena: Lan honetan testu-bibliografia (textual bibliography) jorratuko dugu eta inprimatuak editatzeko orduan ikerketa moldeak erakusten dizkigun bideez arituko. Horretarako, deskribapen bibliografikoa zer den azalduko dugu eta testuaren edizio kritikoa egiteko orduan deskribapenok izan dezaketen berebiziko garrantzia erakutsiko. Honen erakusgarri kapanagaren dotrina christiana (1656) liburuaren deskribapen bibliografikoa izango da: deskribapen iruzkindu bat egingo dugu, ager daitekeen informazioak zer adierazten duen azaldurik, bai eta liburuaren sorrerari buruzko datu horiek edizio kritikoan nolako eragina izan dezaketen ere. Modu honetan, aldarrikatu nahi dugu inprimatuen edizio kritiko egoki bat egiteko ezinbestekoa dela deskribapen bibliografiakoa, honetatik atera daitezkeen ondorioak beharrezkoak baitira.</p><p>HiTz GAkOAk: Deskribapen bibliografikoa, testu-kritika, Otxoa de kapanaga, dotrina christiana.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Atarikoak</head><p>Testu-kritikaren helburuetan nagusiena testu baten bertsio garbia erakustea da, egileak transmititu nahi zigun testua, alegia. Honela, testuak bere idazketa-prozesuan eta idatzi osteko historian zehar jasandako bilakabide oro aztertzea eta egiaztatzea da testu-kritikaren helburua, idazleari dagozkion ezaugarriak eta ondoko tradizioari dagozkiona bereizteko. egiaztatze horretarako, ikertzaileek metodo bat baino gehiago landu dituzte testu-kritikaren tradizioan (lachmann, Bedier… cf. orduna 2000, testu kritikaren historia baterako); bereziki filologia klasikoak urratu zuen bidea eta jarraitzaile izan zituen hizkuntza erromantzeetako filologiak; guztiek baina, ezaugarri bat zuten amankomunean: gaiari buruzko edozein eskuliburu hartuz gero, berehala ikus dezakegu transmisio-eskuizkribuen gainean eraikitako metodoa ditugula edizio kritikoa egiteko metodologia hauek.</p><p>inprentak sorturiko iraultzak testuak ulertzeko eta liburuak egiteko prozesua guztiz aldatu zuen: testuak ez ziren banan-banan idazten, prozesu mekanikoen bitartez kopia asko egiteko aukera baitzegoen, eta prozesu mekaniko horiek testuaren beraren formatuan eta ikuspuntu materialean eragina izan zuten. ezberdintasun hau argiro ikusten da eskuizkribuen kopiatze prozesua eta inprentarena erkatuz gero: bietan kopista bat dugu, bigarrenaren kasuan kaxista deituko duguna, 2 eta kopista honek, kopia egiteko luma eta papera erabili beharrean, tipoak eta konponedorea erabiltzen zituen. Testua kopiatzeko emango dituen pausoak eskuzko kopista tradizional batek egingo zituenen antzekoak izango ziren: biek (a) originalaren testu zati bat irakurriko zuten (pericopa), (b) denbora labur batez memorizatu, (c) beren buruari diktatuko zioten, (d) transkribatu (batak lumaz eta besteak tipo solteez) eta (e) iturrira itzuliko ziren (cf. <ref type="bibr">Blecua 1983: 17)</ref>. era honetan, bi kasuetan akats mota berak egingo dituzte, baina kaxistari beste era bateko akatsak gehituko zaizkio, idazteko dahttps://doi.org/10.1387/asju.22859 rabilen tresnak berak sorturikoak: irakurketa txarrekin, hitzen edo lerroen arteko jauziekin edota hitzen arteko lekualdaketekin batera, 3 tipoak maneiatzeko orduan gertaturiko akatsak gehitu beharko dira, dela nahigabe tipoa okerreko kutxatxo batera itzultzean edo hartzean gertaturikoa, dela besterik gabe tipoa konponedorean alderantziz jartzeagatik eginikoa <ref type="bibr" target="#b42">(moll 2011</ref><ref type="bibr" target="#b42">[1979</ref><ref type="bibr">martín Abad 2004: 31)</ref>; guztiarekin, ezin dugu ahaztu kaxista alderantziz irakurtzen ari dela kopiaturiko testua, eta honek beste testuinguruetan gertatzen ez diren akatsak ekarriko lituzkeeela, nolabait. Honen ispilu lirateke inprentan bertan egiten diren zuzenketak; batzuetan konponedoreen akatsak zuzentzen dira <ref type="bibr">(cf. de Páiz 2017: 288)</ref>, baina bestelako zuzenketa eta moldaketak ere egiten dituzte zuzentzaileek: arlo grafiko, morfologiko eta estilistikoetan, baina baita formatuaren eta mantxa osatzeko orduan egindako okerrak zuzentzeko ere <ref type="bibr">(cf. moll 2011 [1979]</ref>; ruiz Astiz 2018; clavería 2019).</p><p>Honi gehitu behar zaio kaxistak egiten duen kopia ez dela zuzenean alean agertuko; langileak forma konposatuko du, eta, ordutik eta aleetan agertuko den testua «sortu» artean, denbora luzea pasa liteke. Kapanagaren obra hartuko bagenu adibidetzat, atarikoen baimenean esaten zaigu 1.500 ale inprimatu zirela, eta kaxistak forma bat konposatu ostean honen aleak argitaratu arteko denbora kalkulu azkar batekin egin genezake: pentsatzen badugu pleguaren aurpegi bat inprimatzeak gutxienez 5 segundo hartuko ziela (cf. martín Abad 2004: 34), plegu-erdi guztiak inprimatzeko 7.500 segundo behar izan zituen inprentak; ondorioz, testu «beraren» lehenengo kopiaren eta azkenaren artean bi ordu baino gehiago pasatuko zen, inprentetako erritmoaren arabera. denbora tarte horretan gauza asko gerta zitezkeen, edizio beraren ale ezberdinetan islaturik agertuko direnak.</p><p>Hortaz, inprenta tradizionalek erabiltzen zituzten prozedura mekanikoek artisaulanetik hurbilago kokatzen dituzte garaiko liburuak, eta artisau-lan guztiekin gertatzen den bezala, obra berdina egiteak ez du obra bera adierazi nahi edo, hitz teknikoak erabiliz, liburu baten edizio bereko aleak izateak ez du esan nahi ale guztiak berdinak izango direnik. Bitxitasun hauek guztiok testuan eragina duten heinean, testuaren edizio kritikoan ere eragina izan beharko lukete; inprentaren bitartez bakarrik heldu diren testuen lekukotasunak aztertu behar duen ikertzaileak, beraz, testuinguruan kokatu behar du bere lana. gehienbat mundu ingelesean sentitu zuten behar hau, euren literaturaren gorenean den Shakespeareren obrak inprentaren bidez bakarrik heldu baitzaizkie. Hori dela eta, testu-bibliografia edo textual bibliography deituriko metodologia sortu zuten lan horiek aztertzeko, ondoren gainerako filologietara zabaldu zena <ref type="bibr" target="#b26">(Fahy 1999)</ref>. euskal testugintza zaharrean inprentak duen garrantzia ikusita (gogoan har gure literatura liburu inprimatu batekin hasten dela), esan genezake badela garaia lan horri sendo ekiteko, 4 eta horretara dator lan hau: ez du testu-bibliografiak eskatuko lukeen sakontasuna izango, metodologia osorik azalduz gero lan honen espazioa luzaz gaindituko lukeelako. Horren ordez, metodologiaren puntu bat hartuko dugu gidari: deskribapen bibliografikoa; deskribapen hori nola egiten den eta zergatik den interesgarri azaltzen saiatuko gara, Kapanagak itzuliriko dotrinaren 1656ko edizioa oinarri hartuz. Honela, lehenengo atalean, aleen garrantziaz jabetuko gara: orain artean edizioez ari izan bagara ere, edizioaren informazioa zatika agertzen ohi da ale bakoitzean sakabanatua. ondoren, bibliografiaz arituko gara ( § 2): hitz honek dituen adiera ezberdinak argitzeko zenbait ohar egingo ditugu, liburu inprimatuen azterketarako bibliografia mota ezberdinek duten lekua erakutsiz, eta bereziki deskribapen bibliografikoak duena ( § 3). Honela, ediziogintzan aritu nahi duenak (kritiko epitetoa nahi badu, behintzat) deskribapen bibliografikoak irakurtzen eta egiten ikasi behar duela aldarrikatu nahi dugu, bertako informazioak berebizikoak izan baitaitezke testuaren edizio kritiko egokia paratzeko.</p><p>ondoko kapituluan ( § 4), Kapanagaren liburuaren deskribapen bibliografiko iruzkindu bat egingo dugu: deskribapenek eskaintzen duten informazioa ekarriko dugu hona, eta azalduko dugu horrelako lanak nola irakurri behar diren eta liburuaren sorrerari buruzko zer-nolako datuak eman ditzaketen, bai eta sorrera-datuon ezagutzak nolako eragina izan dezakeen azkenean sortuko dugun edizioan. Amaitzeko, lan honetatik atera daitezkeen zenbait ondorio izango ditugu hizpide ( § 5).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Liburu inprimatuak: hainbat produkturen bilgune</head><p>Bestelako gauzetan bezala, euskal testu zahar askoren edizioa egin zela dakigun arren, ez zaigu horren alerik heldu -etxeberri Ziburukoaren manualaren eta noelen lehenengo edizioa <ref type="bibr">(Atutxa 1999</ref><ref type="bibr" target="#b11">(Atutxa , 2001</ref><ref type="bibr" target="#b12">(Atutxa , 2002</ref>, elsokoaren dotrina <ref type="bibr">(urrizola 2006</ref>)-; beste kasu batzuetan, edizioaren ale bakarra edo askoz jota bi izan ditzakegu lan egiteko (etxepare, Betolaza, Refranes y Sentencias), ez beti egoera onean gainera. nolanahi ere, oraindik ere lan egin behar dugu euskal liburu zaharren aleak bilatzen: deitoratzekoa da xx. mendean irudiak eta informazioa barreiatzeko teknologiek egindako aurrerapenen ostean, oraindik ere euskal liburu zaharren bibliografiarako Vinsonen Essai ezaguna (1891) eta 1898ko bigarren liburua (aurrekoaren emendakina) izatea erreferentzia; 5 lan eskerga eta garrantzitsua bada ere, oraingo baliabideekin aise gaindi daiteke, inor horretan lan egitera ausartzen bada <ref type="bibr">(ik. urgell 2013: 548)</ref>. 6 Bilaketa horren beharra ez sentitzeak eragin du euskal argitaratzaile (kritiko)ek begirada lehenengo edizioan bakarrik jartzea, batetik, hura harribitxi bezala tratatuaz; eta horretatik eratortzen den ideia izango genuke bigarren hau: edizio horren ale guztiak perfektuak izango direla. Horrela, testuaren ale bat izatea nahikoa zen edizioa egin ahal izateko, batzuetan halabeharrez, ale bakarra gordetzen zelako, baina beste batzuetan utzikeriaz, askotan are erabilitako alea zein zen aipatu gabe. 7 5 Aipatzeko dira baita ere Revue de linguistique et de philologie comparée aldizkariaren tomoetan Vinsonek berak egindako deskribapen bibliografikoak: batzuk Essai-aren aurrekari izango dira, eta beste batzuk emendakinaren oinarri izan ziren. Bigarren tomoaren ostean ere jarraitu zuen deskribapen bibliografiko berriak egiten eta aurrekoetan zeuden akatsak zuzentzen, baina bigarren emendakin hori argitaragabe geratu zen (ik. mitxelena 1984). 6 lan horren beharra erakusten digu estebe materrak itzuli bide zuen 1617ko edizioaren ale kasi birjinala agertzeak, non eta euskal Herritik ez hain urrun den danimarkan <ref type="bibr" target="#b31">(Krajewska et al. 2017)</ref>. lehenago ere isaak Atutxak <ref type="bibr">(1999,</ref><ref type="bibr">2001,</ref><ref type="bibr">2002)</ref>  Testu-bibliografiak lehenengo edizioarekiko lilura eta bere perfekzio-uste hori aparte uztea eskatzen digu, eta edizioaren definizioa birplanteatzera eramaten gaitu. gaskellen hitzetan (1999: 391) «…se llama edición al conjunto de ejemplares de un libro impreso en la misma época, o en épocas distintas, con una misma composición básica [belztua geurea].» era horretan, ezin dugu edizioaz hitz egin aleez hitz egin gabe: aleek testu-produktu bat aurkezten dute, irakur dezakegun testua eta editore kritikoaren helburua izango dena biltzen dute, baina garai hartako edizioek eta aleek elkarri eragiten diote kasuistika ñabarragoa batean. ondoko lerroetan kasuistika hori ulertzeko zenbait ohar emango ditugu, martin Abad-ek (2004) erabiltzen duen sailkapena gure eginez.</p><p>lehen aipaturiko testu-produktuaz gainera, liburu bakoitza produktu tipografiko bat da; hots, era berezi batean ekoiztu den objektu bat da, eta produktu horren testua «idazteko» erabili den modu berezia kontuan harturik lan egin behar du editore kritikoak, ekoizpena baita liburuaren historia egiteko orduan erabili beharreko irizpide nagusiena (cf. de los reyes 2005: 40). gainera, edizioak eta aleak produktu editorial ere badira, salerosketa-merkatu baten barruan sortu dira, eta editoreak hainbat pauso eman behar ditu legediaren barruan argitaratu ahal izateko, eta, bestalde, hainbat marka utzi behar ditu aleetan, legedi eta merkatu horren araberako ohiturak jarraituz <ref type="bibr">(cf. moll 2011 [1979]</ref>: 22 e. hh.; gonzález-Sarasa 2013); eta ez dugu ahaztu behar editoreek ere bere moldaketak egingo dituztela interes ezberdinen arabera (canet 2009: 60). Behin inprimatu eta pauso editorialak bete ostean, uler dezakegu zernolako testu-produktua den liburua, orduan ezagut baitezakegu testua behar den bezala eta, ondorioz, testuaren azterketari beste begi batzuez ekin (ik. §2).</p><p>lan honek guztionek edizioaren esparruan kokatzen gaitu, baina, inprenta zaharren garai hartako inprimatzea eskulana den heinean, ezin dugu ebatzi ale guztiak berdinak direla (cf. lucía megías 2002), ez eta guztiek historia bera izan dutela. inprentatik atera ostean, ale bakoitza bere aldetik «munduratzen» da eta ale bakoitzak bere bidea egingo du historian zehar, Kapanagaren kasuan 1656. urtearen bukaeratik 8 xxi. mendera arte; eta historiak ale bakoitza produktu berezitu eta bakarra bihurtuko du. denboraren joanak produktu historiko bihurtzen du ale bakoitza, irakurleek testua nola jaso (eta batzuetan moldatu) zuten erakusten baitzaigu haren ezaugarrien bidez. Amaitzeko, gaur egun alea produktu bibliografiko bat ere badugu, katalogo edo errepertorio bibliografikoetan aipaturik duguna, eta horren bidez izan ohi dugu ikertzaileok ale gehienen berri. deekin eskuratu ahal izan zituzten aleak (ez guztiak baina) erkatu baitzituzten euren edizioa egiteko, eta ondoko guztiek edizio hau izan zezaketelako eredu. garai bertsukoa dugu Vinsonen lana (1891), deskribapenera mugatzen bada ere, ediziorako aurrelan handiak egiten baititu aleak konpatuaz. Berrikiago, jadanik aipatu dugun isaak Atutxa izan dugu antzindari gure zereginetan <ref type="bibr">(1999,</ref><ref type="bibr">2001,</ref><ref type="bibr">2002)</ref>, etxeberri Ziburukoaren lanen azterketan; azkenik, Salaberri muñoak <ref type="bibr">(2007, 2011) eta urgellek (2015)</ref> erakutsi digute Axularren obrarekin ere aleen gainean lan egin behar dugula. deskribapen bibliografikoari datxekiogula, casadevantek (2015) gipuzkoan inprimaturiko liburuen katalogoa egin du, aleen arteko ezberdintasunak markatuz.</p><p>8 Sarrerako baimena abenduaren 9an sinatzen dute Andres de Vitoria eta Pedro de ocio lizentziatuek, esanez baimentzen zutela saltzen «los mil y quinientos cuerpos, que dize estan impressos, y los demas que fueren nesesarios». Ale kopuruaz gainera, jakin dezakegu zein izango zen liburuaren merkatu prezioa, hots, plegu bakoitza bost marabeditan salduko zela; honela, liburuak hamaika plegu dituelarik, ale oso batek 55 marabedi balioko luke, koadernaketa aparte.</p><p>Bereziki edizioaren esparruko produktuak interesatzen zaizkio editore kritikoari (tipografia-produktua, editore-produktua eta testu-produktua), horien arteko elkarreraginek aleen ezberdintasuna sortzen baitute: aleetako bakoitzak pairatu dituen gertakarien bilduma ezberdina izango da, eta ondorioz ale bat osatzetik beste bat osatzera dagoen denbora-tarteagatik aldaerak sortuko dira, eta aldaera horiek deskribatu eta aztertu behar dira testuaren edizio egokia egin ahal izateko. Aldaera horiek testu-bibliografian aipatzen diren egoera (ing. «state») edo jaulkipen (ing. «issue») ezberdinen jatorria (ik. beherago) lirateke: egoera ezberdinak tipografiarekin loturik dauden aldaerak dira eta jaulkipena editorearen beharrekin loturik dugu (lucía megías 2002). Aldaera horiek kudeatzeko, testu-bibliografiak bere prozedura propioa sortu du: deskribapen bibliografikoa, ondoko lerroetan azalduko duguna.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Bibliografia: deskribapen bibliografikotik testu-bibliografiara</head><p>Bibliografiari buruzkoak xehetzen hasi baino lehen, aipatu behar dugu bibliografia terminoa bera hitz anbiguoa dela (cf. de los reyes 2010). liburuekin erlazionaturiko edozein ikerketa-gai deitu liteke bibliografia, eta bibliografia deritzogu liburuen informazioa biltzen duen obra orori. lan honen bukaeran dagoen liburu-eta artikulu-zerrenda ere, liburua aurkitzeko informazio oinarrizkoa biltzen duena, bibliografia da, baina baita Vinsonek (1891-1898) xix. mende amaieran egindako deskripzio-lan sakona ere <ref type="bibr">(gaskell 1999: 402)</ref>. Azken bi horiek bibliografia deskriptiboaren adibideak izan daitezke, datu asko edo gutxirekin liburuaren deskribapena egiten duten heinean. Bibliografia deritzogu baita liburu inprimatuen edizio kritikoa egiteko metodologiari ere; bereziki tradizio anglosaxoian garatu da, eta bertan textual bibliography izena eman zaio, gurean testu-bibliografia moduan itzuliko duguna.</p><p>Bibliografia deskriptiboa biblioteka bateko funtsen katalogoen garapenetik letorke (ikusiko dugun lehenengo bibliografia mota), eta erudizio «purua» izanik, arau oso hertsiak ezarri beharko litzaizkioke <ref type="bibr">(Bowers 2001: 29)</ref>. Hala ere, ez da xx. mendera arte behar bezala erabaki zein diren horren arauak, deskribapenak bateragarri izan daitezen eta egiten diren deskribatze-lanak koherenteak izan daitezen. lan honetan Bowersen (2001: 33) definizioa hartuko dugu eredu (ikus baita gaskell 1999: 402 ere): el objetivo del bibliógrafo descriptivo es examinar todos los ejemplares disponibles de una edición determinada, para describir, en términos bibliográficos, las características del ejemplar ideal de esa edición. <ref type="bibr">[Belztua gurea, K.u.o.]</ref> obraren edizioa definitu nahi du bibliografia deskriptiboak, ez alea (ik. §1); eta horretarako, beharrezkotzat jotzen da ahalik eta ale gehien aztertzea, bakoitzaren berezitasunak gaindituz edizioaren ale ideala deskribatzeko. Biblioteka batek egindako katalogoa gaindituko luke halako lanak: katalogoa bibliotekan dagoen objektura mugatzen da eta alea deskribatzen du; lan bibliografikoak, edizioa.</p><p>Besterik da testu-bibliografiaren xedea eta helburua: honetan lan egin dutenek deskribatu ohi dutenez, «nella filologia contemporanea di lingua inglese indica una metodologia per la preparazione di edizioni critiche di opere trasmesse esclusivamente a stampa» <ref type="bibr">(Fahy 1999: 24)</ref>. ikusten denez, beraz, testu-bibliografia testu-kritihttps://doi.org/10.1387/asju.22859 karen metodologiaren moldaketa bat dela esan genezake: inprentaren bidez bakarrik transmititu diren obren kasuistika azterturik testuaren edizio kritikoa egiteko xedea duen zientzia. modu honetan, bi ikerketa-gai hauek (bibliografia deskriptiboa eta testu-bibliografia) ezberdintzen badira ere, gure ustez ezin dira guztiz banandu: batetik, esan bezala, liburu zahar bat hainbat produkturen bilgune da eta bibliografia deskriptiboak produktu horietako bakoitza deskribatzen du modu zehatzean (tartean testu-bibliografiaren oinarria litzatekeen testu-produktua ere), edizioa behar bezala deskribatu ahal izateko; bestetik, edizio kritikoa egoki egiteko, ale ezberdinetan gorderiko informazioa erabili behar dela uste dugu; beraz, deskribapenak informazio baliotsua ekar dezake. Honekin batera, edizio kritikoaren helburuetako bat testuaren historia berregitea da (orduna 2000), baita inprentaren barruan izandako historia ere, eta ale idealaren xerka ibiltzeak erakutsiko liguke historia hori. Bi ikerketa-gaien lotura litzatekeen deskribapenak bilatzen duen ale ideal horren pareko litzateke edizio kritikoa, testu ideala den heinean, eta ezin dugu aipatu gabe utzi deskribapena testu-kritika klasikoaren pauso baten ordezko dela, recensio pausoarena, alegia. Horrela antzematen da aspaldiko filologoen eta bibliografoen lanetan, Vinsonen orrialde askotan ikus dezakezun bezala (ikus adibidez Vinson 1891-1898: § 26, oihenarten liburuaz egiten duen deskribapena).</p><p>Hortaz, lan honetan defendatzen dugu deskribapena dela testu-bibliografiaren lehenengo pausoa eta oinarria (ik. Bowers 2001: 36) eta, horregatik, alde batetik, ikertzaileek egindako deskribapenak ezagutu behar direla eta, bestetik, deskribapena nola egin jakin behar dela, egoki irakurri ahal izateko bertan biltzen den informazioa. deskribapenean ezaugarriztatzen den ale ideal horrezaz gainera, horretatik aldentzen diren bestelako aleak (egoera zein jaulkipen ezberdinak) era batera edo bestera agertu beharko lirateke edizio kritikoan, testuaren aparatu kritikoa horren erakusgarri izango baita. Bestelako informazioa ere ager daiteke halako deskribapen batean, eta edizioa amaitu ostean lortuko genituzkeen ondorioek ere hobetuko lukete deskribapena bera.</p><p>Bi alorren arteko elkarlanaren erakusgarri izan daitezke donostian 1713. urtean agertu zen otxoa Arin abadeak egindako dotrina kristauaren itzulpena eta Fernández de casadevante andereak egindako gipuzkoan argitaraturiko liburuen deskribapen bibliografikoa (2015ekoa). ikerlan horretan, deskribapen bibliografikoaren ondoan, ikertzaileak ikusiriko ale ezberdinen berezitasunak dakarzkigu, eta horietako batean (Bonaparteren ondareko alean) hauxe agertzen da: manuscrito del autor: «todas las erratas castellanas y vascongadas y muchas asin de las latinas contiene este catecismo. Son las principales. Van corregidas por su Autor en Vªfranca a 21 de marzo de 1737. Arin» Beraz, casadevante anderearen lan deskribatzaile horri esker, otxoa Arinen liburuaren edizioa egin gura duenak jakingo du zenbat ale dituen lan egiteko, eta ezbairik gabe guztien artean Bonaparteren alea izan behar duela gidari edizio kritikoa atontzeko, egileak berak zuzendurik baitago. Hala ere, ezingo ditu beste aleak alde batera utzi, agian egoera eta jaulkipen ezberdinak aurki baititzake ediziogileak, oraindik aipatu gabeak (cf. ulibarri 2016a).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Deskribapena egiten: Kapanagaren dotrina</head><p>gure lan honetan, Kapanagaren dotrinaren deskribapen bibliografikoa egin nahi dugu, aurreko lerroetan esan bezala edizio kritikoaren aurrelantzat hartzen dugulako. Alabaina, ez dugu nahi deskribapen soila izan dadin; aitzitik, deskribapen iruzkindu bat izatea nahi dugu, deskribapenetan agertu ohi diren edo agertu behar diren elementuetako bakoitza nola aipatu behar den eta horren zergatia azalduz, ondoko lanetarako gida izan dadin. ezin dugu pentsatu honelako lanak isolatuak direnik eta tradizio baten barruan kokatu behar ditugu, nahi badugu benetan baliagarri izan daitezen <ref type="bibr">(Bowers 2001: 51)</ref>. Horretarako, Bowers <ref type="formula">(2001)</ref>  Ale bakoitzari letra bat eman diogu, eskuizkribuetan egin ohi den bezala alea gordetzen den hiriari dagokiona (cf. <ref type="bibr">Blecua 1983: 45, 4. oh.)</ref>, gehienetan. Zortzi ale hauei bederatzigarren bat gehituko genioke, ditugunen artean ezin izan baitugu aurkitu Vinsonek bere deskribapena egitean erabili zuen alea, berarekin batera koadernaturik VJ dotrinaren ale bat atzean zeukana. Aleen aurretik gurutzea ( †) jartzeak adierazi nahi du deskribapena egiteko alearen erreprodukzio bat erabili dugula -hots, (oraindik) ez dugula alea fisikoki ikusi-; eta izartxoa (*) aurrean jartzeak esaten digu deskribatzaileak ale hori eskuartean izan duela azterketa egiteko. gure kasuan, orain arte fisikoki aztertu dugun ale bakarra B alea da, eta horregatik artikulu honetan aipatuko ditugun neurri guztiak ale horri dagozkio.</p><p>Katalogoetan ageri ohi zaizkigun lehenengo datuetan, liburuaren inguruko gutxieneko informazioa ematen da (lan honen amaierako bibliografian aurkituko dugunaren parekoa), eta honela agertuko litzateke: ripalda, geronimo, 1656, Exposición breve de la doctrina Christiana, Bilbao: Juan de Azpiroz.</p><p>Honen ostean, xeheki aztertuko ditugu deskribapen bibliografikoaren gainerako atalak banan-banan, bakoitzari gure ustez interesgarri izan ditezkeen oharrak erantsiz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Azala</head><p>izenburuaren ostean, portadaren transkripzioa dator: transkribapen quasi faksimilea izango da, eta bertan lehen orrialde horretako testu guztia agertuko da, bere osotasunean, puntuazio marka eta daudekeen bestelako ikurrekin. Beharrezkoa bada, portadaren disposizio bera errepikatu daiteke, baina normalena da testua jarraian ematea, lerro-aldaketa &lt; | &gt; ikurrarekin markaturik. 10 Honelakoetan, askotan grafia gaurkoturik edota laburdurak luzaturik agertu ohi dira katalogoetan; baina, gaskell-ek dioskunez (1999: 405), hobe da osorik bere horretan mantentzea (are s luzeak ere), bestela beste edizio baten ilusioa sor baitiezaioke ondoren letorkeen ikertzaileari. letra larriak eta maiuskula txikiak (gazt. versalita) bereizi behar dira, eta portada kolore bitan ageri bada, markatu beharko da zein lerro diren koloredun (lerroa azpimarratuz) eta zein beltz. Hau jakinda, Kapanagaren portada oso sinplea izanik, erraz transkriba dezakegu:</p><p>Pa. i | eXPoSicion Bre-| ue de la doctrina chriſtiana compueſ-| ta por el P. m. geronimo de ripalda | de la compañia de ieſus. | [Ama birjinaren xilografia, zeruko erregina gisa; 90 × 71] | n. S. de Vribarri de la Villa de durango | Con licêcia en Vilbao, por iuâ de Azpiroz Año de 1656. | A Portadarekin batera, kolofoia eta explicit-aren transkribapena ere ager litezke deskribapenean, horiek ere informazio garrantzitsua eman dezaketelako liburuaren dataren edota idazlearen eta editorearen inguruan; Kapanagak, ordea, explicit sinplea du, horrelako ezer zehazten ez duena: Formula honetan dugun lehenengo datua liburuaren tamaina da: in 8º izateak esan nahi du plegua hiru aldiz tolestu zela eta, ondorioz, neurria 17 x 11 cmkoa dela gutxi gorabehera. 12 Kaieren orrialde-kopurua letorke ondoren: A 12 eta B-k 8 formulek dioskute lehenengo kaierak 12 orri dituela eta B eta K bitartekoek (10 kaierek, beraz) 8 orri. Formulen atzetik, kaierek izan ditzaketen azalpen bereziak datoz: A 12 horren atzean dagoen (A1 + π 4 )-k adieraziko du A 8 kaier arruntean kaier erdi bat konjugatu 13 dela (A1 orriaren atzetik alegia), eta signatu gabe dagoenez eta atarietarako izanik π letra grekoarekin aipatzen da (signatu gabeko gainontzeko gehitzeak χ letrarekin aipatuko lirateke). Amaieran datorren (-K7-8) horrek esan nahi du azken kaierari amaierako orriak (K7 eta K8) falta zaizkiola, inprimatzerakoan zuriz geratu zirelako, nonbait. Alde honetatik, ale ezberdinak xehekiago aztertu beharra ikusten dugu, argitu gabe geratzen baitzaigu ale idealean (ik. §2) bi orri horiek bazeuden (B aleak hori iradokitzen digu), ala K8-a behintzat ez zegoen (M1 alea ikusirik): hala ere, argi dago ez dugula K 6 idatzi behar gure formulan, ez baita ternioi bat (hau da, ez dira konjugaturiko hiru orri bikoitz), baizik eta bikoterik gabeko bi orri soltedun kaiera (ik. <ref type="bibr" target="#b15">Bowers 2001</ref><ref type="bibr" target="#b15">Bowers [1949</ref>: 281). esan denez, interesatzen zaiguna ale ideala da, eta galera hauek eskura ditugun ale guztietan gertatzeagatik dakargu formulara; ale batzuetan bakarrik gertatuko balira, ale zehatzaren deskribapenean (ikus § 3.4) adieraziko genituzke. Formularen bukaeran, parentesi karratuen barruan aipatzen dugu kaier bakoitzeko zenbat orrialdek duen signatura, $ ikurraz markaturik (Kapanagaren kasuan lehenengo lau orrialdeek dute: horregatik $4); horrezaz gainera, signaturan akatsik balego, hemen adierazko litzateke. liburuen formularen inguruko arazo gehiagoz, ikus gaskell (1999: 410 hh.) eta <ref type="bibr">Bowers (2001: § 5</ref> ikus dezakegu egokiro 1-155 bitartean zenbakiturik ditugula orrialdeak, baina zenbatu gabeko zortzi orrialde ditugu 2. eta 3. orrialdeen artean; hauek zenbaki erro-11 c kaierak erakusten dituen berezitasunetarako, ik. § 3.4. <ref type="bibr">12</ref> Honek ez du adierazi nahi kaier bakoitzak duen orrialde kopurua; hori ondoren agertuko da, kaiera bi plegu elkarturekin osa baitaiteke. <ref type="bibr">13</ref> Hots, kaier horren barruan beste kaier bat sartu dela.  <ref type="bibr">(cf. moll 2011 [1973]</ref>: 23); Kapanagak, ordea, portada testuarekin batera inprimatzen du, eta agian horrek erakuts lezake baimenik gabe ere ateratzeko asmoa zuela, portada jada argitaraturik dagoenez liburua π plegurik gabe ateratzeko aukera baitago, hori egitea legez kanpokoa bazen ere <ref type="bibr">(ik. moll 2011 [1973]</ref>: 22 hh.; de los reyes 2016). 14 Horrela, alde batetik jakin dezakegu zein ordenatan idatzi ziren zati ezberdin horiek; guretzat ezin interesgarriago izan daitekeen datua da, hizkuntzaren aldetik ezberdintasunik ikusiz gero (beste metodo bat erabiliz egin bazuen ere, ikus etxepareren liburuan lafonek antzeman zituen idatzaldi ezbedinak <ref type="bibr">(lafon 1999 [1951]</ref>: 730). Beste aldetik, plegu erdia izanik, baliteke birritan konposatu izana testua: plegu batetik kopia berdin bi ateratzeko moduetako bat zen (ez arruntena, ordea) forman testua bikoiztea, horrela plegu berean bi ale inprimatuko baitziren (gaskell 1999: 104). ikusten denez, neurri guztiak milimetrotan jarrita daude. gomendagarria da neurri guztiak unitate berean ematea, konparagarriak izan daitezen eta errepikapena saihesteko. mantxari dagokionez, lehenengo datua da zein orrialde neurtzen ari garen, pleguen aipatze-sistema erabiliz: honela, π2 b plegua esaten dugunean adierazi nahi dugu π pleguaren 2. orria ari garela neurtzen; b-k, bere aldetik, orrialdea ifrentzua dela esaten digu. ondoren, orrialde horren lerro-kopurua dugu; ikusten denez, orrialde guztiek ez dute lerro-kopuru bera. Honen arrazoia izan ohi da pleguak planifikatzeko orduan egin beharreko kontaketak (ik. garza 2000: 74) ez direla oso zehatz egin eta, beraz, behin pleguaren lehenengo aurpegia konposatu eta zuria (ing. pull) inprimatzen zegoela, kaxistak eginahalak egin behar zituela geratzen zitzaion testua nola edo hala sartzeko pleguaren bigarren aurpegian, reiterazioan (ing. reiteration) alegia <ref type="bibr">(moll 2011 [1973]: 19)</ref>. gure kasuan, badirudi lerroekin jokatuta konpondu zituela arazoak, 16 baina ezaguna da edizio gehiagoko tradizioetan kaxistek testua molda zezaketela lekua behar bezala bete ahal izateko <ref type="bibr">(rico 2005: 231)</ref>. gurean, honen adibidea badugu Axularren lanean: puntu eta aparteak ugari erabiliz konpontzen du kaxistak 300. orrialdean duen leku soberakoa, eta testu osoa paragrafo bakarrean emanez 301.ean duen leku falta <ref type="bibr">(ik. urgell 2015: xii)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Ohar teknikoak</head><p>Hemen aipagarria litzateke baita testuaren antolaketa ere; hots, orrialdeak nola dauden egituraturik. Kapanagaren kasuan, orokorrean testua zutabe bitan aurkitzen da, atarikoak biltzen dituen π plegua izan ezik, zeina lerro jarraian antolaturik baitago. Hau ikusirik, honela aipa genezake deskribapenean: Egitura: bi zutabetan, ezkerrean gaztelaniazko testua, italikoan, eta eskoan euskarazko testua, letra biribilean [π: linea jarraia] ohar teknikoetan, deien azterketa ere izan behar dugu mintzagai. ezer baino lehen, ezaugarri erregularren bat izanez gero, horiek aipatu behar dira: Kapanagaren kasuan aipagarria da, oro har, euskal testuak bakarrik daramatzala deiak. datu hau interesgarria izan daiteke erdal testuari eman zaion garrantzia neurtzeko: testu zaharretan, deiak jartzen ziren kaxistari orrialdeak ordenatzen laguntzeko, forma egoki ordenatzeko (gaskell 1999: 67); hori jakinda, Kapanagaren edizioaren kasuan, proposa genezake inprimatzaileek euskal testua erabili zutela oinarritzat testua ordenatzeko orduan eta, beraz, erdal testuak ez zuela hainbesteko baliorik liburuan; ondorioz, aurreikus dezakegu erdal zatian akats gehiago egon daitezkeela. Horrekin batera, deie-16 Honelako arazoak konpontzeko baliabideak askotarikoak izan zitezkeen: beste aukera baten berri emateko, badugu etxeberri Sarakoaren Gomendiozko gutunean erabiltzen den baliabidea, g. Bilbaok bere doktorego tesian azaltzen duen moduan: «Ziurrenik paper-kopuruaren muga aurretik ezarria zuten etxeberrik eta moldiztegiak, 40 orrialde baino gehiago ez egiteko, hain zuzen. Horregatik da 37-38-39 orrialdeetako letra-tipoa aurrekoetakoa baino txikiagoa, eta 40. orrialdean are txikiagoa, orri-multzo bat gehiago sartu beharrik ez izateko» <ref type="bibr">(Bilbao 2006: cxcvi)</ref>.</p><p>https://doi.org/10.1387/asju.22859 tan akatsik bada, hori berariaz aipatu beharko da, egoera ezberdinen erakusgarri izan daitekeelako, normalean deietan ez baita testuan bezainbesteko arreta jartzen inprentaren lanean. Hona hemen gurean agertuko liratekeen oharrak: A2: ø] li (erromantzeko zatian); b2 b : do] So (erromantzezko zatiari legokioke dei hau) c1 b : P. zegati] zegati c3: r. gui] r. gi c3 b : duan?] duan, D6 b : ezta] eza G8 b : taciñoa] ticiñoa I1: o Vir] o Vri. lehenengo, aipatzen dugu non ageri den, zein plegutan, eta pleguaren zein orritan eta zein orrialdetan (mantxaren azterketan ikusi dugu hori nola zehazten den). ondoren ageri zaigu zein izan beharko litzatekeen deia: B2 b orrialdea erabiliz Do litzateke agertu beharrekoa, ondoko orrialdean Dotrina baita lehenengo hitza. Azkenik, liburuan zer agertzen den dakargu (gure adibidean So), eta parentesi artean jarriko dugu inolako oharrik bagenu akatsaren inguruan: harturiko adibidean aipatzekoa da erdarazko testuko Sobre hitzaren eragina izan dela.</p><p>Tipoen azterketa ere gomendatzen dute liburu baten deskribapena egiteko, eta tipoen azterketaren zehaztasuna deskribapenaren helburuen araberakoa izango da; zehatzenak liburuan zehar erabilitako tipografia bakoitzaren izena emango luke <ref type="bibr">(gaskell 1999: 418; ik. corbetto &amp; garone 2015)</ref>, baina gurean ez gara horren zehatzak izango, aski baitugu oraingoz tipoen neurria zehaztearekin. datu hauek baliagarriak izan daitezke inprenta berean egindako berrargitalpenen eta edizio piraten artean bereizteko: izan ere, inprenta berean urteetan zehar punzoi eta matriz (ing. punch eta matrix) berdinak erabiltzen ziren tipoak egiteko, edo tipo-fabrika berari erosten zitzaizkion (ik. corbetto &amp; garone 2015: 63), eta, gainera, inprentaz inprenta salerosi eta oinordetzan har zitezkeen. Honela, tipoen begiak (ing. face) berdinak izango dira; alabaina, tipoen gorputza (tamaina osoa, alegia) ezberdina izan daiteke, galdaketa (ing. fount) bakoitzean ezberdin justifikatuko baitziren. Honela, forma bat berriz konposatu bazen, agian neurrian bereiz daitezke lehenengo konposatzea eta bigarrena. Tipoen neurria adierazteko bi eredu ditugu, gaskellek eta Bowersek azaltzen dizkigutenak. lehenengo ereduan <ref type="bibr">(Bowers 2001: 332)</ref>, honela formulatuko litzateke tipoen tamaina:</p><formula xml:id="formula_0">85r eta c.85c</formula><p>Tipo bakar bat neurtzeak dakartzan buruhausteak direla eta (pentsa in 8 argitaraturiko liburuetan tipoek duten tamaina txikia), bibliografoek sistema bat garatu dute hauek egoki katalogatzeko, Proctor-Haebler sistema hain zuzen: 20 lerroren arteko neurketa azalduz egin ohi da eta, beherago ikusten denez, 85 milimetro luke 20 lerroz osaturiko letramolde biribilak (horiek aipatzeko R laburdura erabili da). liburuan ez badugu 20 lerro jarraian neurtzeko aukerarik, eta deskribatzaileak kalkulatu behar badu, orduan circa-ren laburpena jarriko lioke neurriari, kasu honetan letramolde etzanekin (c laburduraren bidez markaturik) egin behar izan dugun moduan. Hori izango litzateke tipoak deskribatzeko modurik sinpleena, baina bada beste bat, gaskellek (1999: 18-9) azaldurikoa: gorputza 85; begia 80 × 1,5 : 3 (biribilak) gorputza c.85; begia <ref type="bibr">80 × 1,5 : 2,5 (etzanak)</ref> Honetan, gorputzaz gainera (aurreko ereduan bezala), letraren begia ere neurtu behar da, hau da, tipoak uzten duen arrastoa. Horretarako elkarrengandik hurbil di-ren goranzko makila batetik beherazko makila batera dagoen distantzia neurtzen da eta hogeirekin biderkatzen (kontu horren emaitza litzateke, goiko formulan, 80 milimetro), ondoren x tipoaren altuera neurtzen da, batez besteko begi baten neurri moduan (1,5 gure kasuan), eta azkenik letra larrien neurria.</p><p>ohar tekniko horien artean ager dakigukeen beste informazio mota bat irudien ingurukoa da <ref type="bibr">(Bowers 2001: 316)</ref>. garrantzitsuenak formetatik kanpo gehitu diren irudiak lirateke. Halakoetan zenbaki arabiarren bidez zenbatzen dira, inpresoreak ez badio zenbaketa berezirik eman. Kapanagaren lanean ez dugu halakorik, baina bai pleguen barnekoak. Horrela izanik, irudiak non agertzen diren markatuko dugu, pleguen aipatze sistema erabiliz: adibidez, B2 b orrialdean (hots, orrialdeen aipatze sistemaren arabera 20. or.) tipoen bidez eginiko irudi bat dugu. Horrekin batera, irudien neurriak ere emango ditugu. nola ez, egungo kopia-sistemek eskaintzen diguten aukera erabiliz, baliagarri da irudien erreprodukzioa eskaintzea, aukera egonez gero. Horrela, hau litzateke Kapanagaren dotrinako irudiak aipatzeko modua (aukeran, irudiak gehiturik hobeto):</p><p>Portada [ikus portadaren azalpena], B2b <ref type="bibr">(11,5 × 42) F3 (17,5 × 84 &amp; 42 × 84) i4b (62,5 × 77)</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Liburuaren edukia</head><p>ohar teknikoen ostean, liburuaren edukien laburpena agertuko litzateke, era laburrean. Honetarako, bai Bowersek (2001: 317 e. hh.), bai gaskellek (1999: 419) zenbait gomendio ematen dituzte, baina jakitun dira ezin dela arau zehatzik eman; izan ere, «el método de notación difiere en cada bibliografía según el propósito de ésta, el tipo de libros tratados, la cantidad de espacio de que disponga el autor, etc.» <ref type="bibr">(Bowers 2001: 318)</ref>. guztiarekin, aholkatzen digute liburuaren zati guztiak testuan agertzen diren moduan ekarri behar direla deskribapenera, lehenengo orrialdetik azkenera, eta testu nagusitik kanpo diren atalak ere aipatu behar direla: atarikoak, testua, atalak, gehigarriak, aurkibideak eta taulak, bai eta orrialde zuriak ere. erreferentziak pleguen aipatze sistemarekin emango dira, baina liburu modernoetan edota paginazio erregularra dutenetan, orrialde-zenbakia erabil daiteke. Ale idealaren edukiak bakarrik jaso behar dira; ostera, ale bakoitzak izan ditzakeen bestelako osagaiak amaieran aipatuko dira, edo bestela oharretan. gu bestelako elementuak ale ezberdinen deskribapenean agertzearen alde gaude (ik. § 3.4). Atalak aipatzeko orduan, izenbururik izanez gero, horixe ekarri dugu; bestela, atalaren lehenengo hitzak eta azkenengoak aipatu ditugu, transkribapen quasi faksimilea erabiliz, komatxo artean. Hauen aurretik argibideren bat eman behar bagenu, zuzenenean letrakera biribilaz emango genuke, eta amaieran zerbait gehitu behar balitz, parentesi zuzenez markatuko genuke. Hortaz, hauxe litzateke Kapanagaren edukien laburpena:</p><p>A: Portada; A b : «con el examen de conciencia, y ac-/ to de contricion ... Calaorra y la calçada, del con∫ejo / de ∫u mage∫tad, &amp;c.»; π-π2: «Al illuS-/ TriSimo SeÑor / don iVAn ioAniZ y ecHAlAZ, oBiSPo / de calahorra y la https://doi.org/10.1387/asju.22859 calçada, y del con∫ejo / de ∫u mage∫tad, &amp;c, en ∫u idioma / natural … c. m. d. V. S. illu∫tri∫sima / el licenciado martin ochoa / de capanaga»; π2 b -π3: Baimena «en la ciudad de Santo domingo de la calçada à nuebe de diziembre de mil y seiscientos y cinquenta y seis años… el licenciado Vitoria. // licenciado don Francico / de ocio. // Antemi Antonio martinez. / de ianguas.»; </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Aleak</head><p>Behin ale ideala deskribatu ostean, horretara heltzeko erabili diren lekukotasunak agertuko ditu deskribapenak, bakoitzaren berezitasunak zertan diren adieraziz. deskribapena egiteko erabili ditugun eskuliburuek oso era nasaian ematen dute pauso honen berri; izan ere, deskribapenak berez ale idealari bakarrik egin behar lioke erreferentzia, gainerako informazioa ohar bezala biltzen baita. ondorioz, egile bakoitzak bere lanaren helburuen araberako irizpideak har ditzake. deskribapenerako informazio beharrezko guztiak modu zehatz batean emateko helburuarekin, ale bakoitzari buruzko informazio behin-behinekoa biltzeko sistema bat proposatuko dugu ondoko lerroetan. Sistema hau garatzeko Fernández de casadevantek (2015) erabiltzen duenean oinarritu gara, gure beharretara egokituz: Emango diogun sigla: hiria, liburutegiaren izena (kokapen-kodea), Antzinako kokapen-kodeak. egoera orokorra: exlibrisa: eskuzko idatziak: «parentesi artean, molde paleografikoan» (idatziaren kokapena). Koadernaketa: Pergaminozkoa, larruzkoa, holandar erakoa… Bestelakorik: gehitu beharrekotzat jotzen den informazioa: beste zerbaitekin batera koadernaturik ote dagoen, zuzendurik ote da-goen… esteka: Alearen argazkiak interneten eskuratzerik balego, hemen jarriko dugu esteka. ordurako jada aleen arteko konparaketa behin-behineko bat bederen izan beharko genuke, esan dugun bezala deskribapen bibliografikoetan erakusten dugun ale ideal hori aztertu ditugun aleetatik bilduriko informazioaren bidez egiten baita; beraz, uste dugu garrantzitsua dela aleak, zerrenda hutsean eman beharrean, ahal denean egoera eta jaulkipen ezberdinen arabera banatzea, aurretik egoera bakoitza proposatzeko erabiltzen ditugun irizpideak adieraziz. egoerak izendatzeko letra grekoak erabiltzea proposatzen dugu, testu-kritika klasikoak eskuizkribuen arketipoak izendatzeko darabilen sistema hona ekarriz; izan ere, «arquetipo y subarquetipo son términos que aluden a […] y a la vez a funciones abstractas de relación» <ref type="bibr">(Blecua 1983: 66, azpimarratua geurea, K.u.o.)</ref>. modu honetan, edizio kritikoa lantzeko orduan garrantzitsuak izan daitezkeen egoera ezberdinak azkarrago bilatuko ditu ikertzaileak. Honi loturik, ezin dugu ahaztu dodgsonek bere alearen amaieran (P alea) eskuz idatzi zuena; hau da, Balbino garita-onandiaren arabera, «unas partes, especialmente las últimas, de este tomo son del dialecto de orozco, sacadas tal vez de ostolaza» (pro Betolaza; izan ere egilearen izenarekin nahastea egon zen xix. mendean eta xx. mende hasieran, ik. mitxelena 1955). Hala ere, aipu horren gainean dodgsonek berak ikusten du garitaonandiak nahastu zituela Kapanagaren testua eta lopezen alearen ostean agertzen zen katexima (hots, VJ). 19 18 dodgsonek dakarren ohar hau interesgarria da, ez hainbeste Kapanagaren dotrinaren gairako, baina bai gure beste ikerlan batean (ulibarri 2015) defendatu dugun orozko eta laudioko hizkeren arteko erlazioa defendatzeko (erlazio hori berresten duen beste aipu zahar bat litzateke, oraindik ere laudioko hizkera bizirik zegoenean egina). Besterik da «Bascofilo Azcoitiano» hori nor den jakitea: dudarik gabe Jose ignacio Aranaz ari da, Vinsonek ere (1891-1898: § 24b) aipatuko duen iritzia baita, azken honek Aranaren izen eta guztiz aipatu ere, eta ez dirudi iritziaren aitatasuna kentzeko inolako arrazoirik dagoenik <ref type="bibr">(cf. mitxelena 1954: 371)</ref>. <ref type="bibr">19</ref> Bere alearen aurrealdean dodgsonek idatzi zuenez, «Balbino garita-onandia» durangoko abadea zen, eta haren bitartez lortu zuen alea. Beraz, dodgsonen hipotesia zuzena bada, garitaonandiak lopezen alea ere ikusi zuen; bestela proposatu beharko genuke Kapanagaren beste aleren batek ere atzean VJ koadernaturik izan zuela. lehenengo hipotesiaren alde jokatu beharko dugu, bi arrazoirengatik; batetik, bigarren hipotesiaren kontra egiten duelako okhamen labanak: ale batekin azaldu daitekeena, zertarako azaldu beharko genuke bi alerekin? Bestetik, garitaonandia xix. mende bukaerako eta xx.aren hasierako euskal idazle oparoa izanik (tartean Arzadunen dotrinaren berrargitalpen bat egin zuen, 1900. urtean), baliteke eusebio lopez inprimatzaile entzutetsua ezagutu izana (hala ere, ez dut aurkitu inprenta horretan argitaraturiko bere lanik).</p><p>https://doi.org/10.1387/asju.22859</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Ondorioak</head><p>lan honetan deskribapen bibliografikoa egiteko eta irakurtzeko baliagarri izan daitezkeen zenbait ohar eskaini dizkiogu irakurleari, martin otxoa Kapanagak argitaratu zuen ripaldaren Exposición breve de la doctrina christiana edizio elebidunaren deskribapen bibliografikoa egitea aitzakitzat harturik. Saiatu gara erakusten egungo bibliografiak, hein handi batean, Vinsonen lana gainditu duela, ez hainbeste metodologikoki, xehetasunak xehetasun, oraindik ere haren lana baliagarria baita gaur egun; alabaina, 120 urte pasatu dira lan hura egin zuenetik, eta teknologia berriek eskura jartzen dizkiguten baliabideak ikusita (aleak erreproduzitzeko eta nonahi kontsultatzeko behintzat), uste dugu horregatik bakarrik merezi duela liburu inprimatuekin lan egiteko orduan Vinsonen lana ahal den heinean gaurkotzea: batetik, berak ezagutu ez zituen aleak edota aleen arteko erlazioak ezagutzera emateko (cf. <ref type="bibr">Atutxa 1999</ref><ref type="bibr" target="#b11">Atutxa , 2001</ref><ref type="bibr" target="#b12">Atutxa , 2002</ref>; bigarrenik, berak eman datuak egiaztatzeko (cf. ulibarri 2016b); eta azkenik, munduan barrena zenbat ale gelditzen diren, zein eta non, hori dena gaurko ikertzailearen eskura jartzeko.</p><p>Proposatu dugu edizio kritikoa egiteko deskribapen bibliografiko modernoa irakurtzen eta egiten ikasi behar duela filologoak, deskribapen modu hau hainbat datu garrantzizko modu erraz batean biltzeko modua baita. edizioaren ale ideala deskribatzea denez honen helburua, ez dugu kontzeptu hau testu-kritika klasikoak bilatzen duen testu ideal-etik (cf. Blecua 1983: 61) urrunegi ikusten; beraz, testu kritikoan aurrera egiteko erremintak erakusten dituela iritzi dugu. Testuaren beraren historia berregiteko giltzak ematen dizkigu, eta aleen arteko aldeak ezagutzeko eta ordenan aurkezteko modua dugu, testuaren edizio kritikorako liber optimus-a 20 zein den erabakitzen lagunduz. deskribapenetan biltzen den informazioak edizio piratak eta berrargitalpenak aurkitzeko bidea zabaltzen digu, eta bereziki orrialdez eta lerroz (ing. to flat and line) egiten diren kopiak proposatzeko datuak dira garrantzitsuak gure ustez. noski, lan honetan ez dugu deskribapen bibliografikoetan egin daitekeen guztia erakutsi, gu deskribapena edizio kritikora begira egiten ari baikara, eta testuaren edizio kritikoa aurreikusteko baliagarri izan dakigukeen informazioan zentratu baikara, ondorioz.</p><p>izan ere, lan honen bidez proposatu nahi izan dugu obra inprimatu baten edizio kritikoa egiteko orduan eskura diren (edo ditugun) ale guztiak kontuan hartu behar direla, aurreko lanetan (ulibarri 2016a) ireki genuen ildoaren bidetik uste baitugu eskuzko inprenten garaian, aukera dagoenean, ez garela edizioan oinarritu behar, aletalde batean baino, pentsaturik ale-talde hori zenbat eta hobeto menderatu, orduan eta zehatzago izango direla gure hipotesi eta proposamenak.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bibliografia</head><p>Altuna, Patxi. 2000. J. i. Arana eta e. S. dodgson. Euskera 45(1). 211-239. <ref type="bibr">Atutxa, isaak. 1999</ref>. Joannes etcheberri Ziburukoa: Noelac eta testu kritika. Lapurdum 4 (numéro Spécial 1. Les lettres basques au temps d' <ref type="figure">Axular (1600-1650)</ref>). 233-312.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>eta bestelako aipatze-sistemak (fol. / pag.) Behin portada erakutsita, liburua definitzen duen beste elementua kolazioa da: liburuaren hezurdura erakutsiko duen formula. inprentetan, liburuaren unitatea ez da orria edo orrialdea, plegua baizik, eta pleguen kokapena erakutsiko digu kolazioak. Kapanagaren kasuan, hauxe litzateke kolazioa: in 8º: A 12 (A1 + π 4 ) B-K 8 (-K7-8) [$4 (A B eta c kaieretan akatsak: A-2A-A4-Aj3; B-B2-B4-B4; c-c2-c4-c3)]. 11</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>π3 b : «Prologo Al lecTor»; π4-π4 b : «Tabla de lo que contiene esta dotrina / christiana.»; A2-F3: ripaldaren doctrina cristianaren itzulpena «Todo fiel christiano ... Fin» [orletarako, ik. B2b eta F3 irudiak]; F3 b : orrialde zuria; F4-H4 b : «conFeSionArio generala, eta modua, examineetaco côciencia pecatu guztietaric»; H4 b -I4 b : «ordêA, eTA mo-/ dua çelan, edo ceimbere / christiñauc traçaadu, eta / gastaduco daben dempo-/ rea, eta eguna iaun goi-/ coen seruicioan, eta / bere arimen pro/ uechuan» [amaieran i3b irudia]; I5-K3: «declArAcinoA, / cer e∫an guradaben, da e-/ racu∫si gura descuen or-/ nimenta Sagraduac Sacer / doteac meça e∫ateco ian / citê dituçanac eta meça-/ co mi∫terioac.»; K4-K6: «errAZoAren BA-/ çuc e∫ateco guexoaric e-/ rioçaco orduan da-/ goanean»; K6 b (-K8): orrialde zuria(k).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>eta gaskell (1999) ikertzaileen lanak izango ditugu gidari eta horietan oinarrituz egingo dugu gure deskribapena. Kontuan izan ditugu baita montaner (1999) eta de los reyes (2010) lanak ere: deskribapen bibliografiko baten atzean dagoen lan guztiaren informazio zehatzagoa eta osatuagoa nahi duen irakurleak liburu hauetan aurkituko du. guztiarekin, lan honetan Bowersek eta gaskellek azaltzen dizkiguten pausoak ekarriko ditugu, deskribapena bera (eta bereziki horren garrantzia) ulertzeko nahikoa direla uste baitugu, lana luzeegi gera ez dadin. Kapanagak egindako ripaldaren dotrinaren itzulpena lehenik ere deskribaturik dago, Vinsonen katalogoan ageri zaigularik 24. zenbakian. Horretarako, berak zeukan ale bat erabili zuen, Viva Jesús kateximarekin koadernaturik zegoena (cf. Vinson 1891-1898: § 24bis). edizioa 1656an argitaratu zuen Juan de Azpiroz inprimatzaileak Bilbon, eta testua «bizirik» 9 zegoen bitartean argitaraturiko edizio zahar bakarra izan zen hura. Horren ostean beste bi edizio egin ziren, jada helburu filologikoekin: lehenengoa edizio «paleografikoa» dei genezake eta dodgsonek prestatu eta argitaratu zuen Vizeun, 1893. urtean (capanaga 1893). Bigarrena faksimilea izan nahi duen edizioa da, labayru fundazioak 2008an argitaratu zuena (capanaga 2008).deskribapenarekin hasi aurretik, lehenengo pausoa aleak biltzea da, gaur egun liburutegi ezberdinetako katalogoetan bilaketak egiteko hainbat bide ditugula aprobetxaturik. Honela, zortzi ale aurkitu ditugu. deskribapenaren bukaeran agertu beharko lirateke datu hauek ( § 3.4), baina aurrelana izanik, hemen agertzea azalgarriago iruditu zaigu, ondoren dagokion lekuan agertuko baditugu ere: † Biblioteca Nacional de España: M1 (r/ 2884) M2(r/ 25443)    </figDesc><table><row><cell>; ez</cell></row><row><cell>osoa]</cell></row><row><cell>Labayruren liburutegia: L (religiÓn / n. 541) [ez osoa]</cell></row></table><note>† Biblioteca Monasterio de Silos: s (c1-g11) [ez osoa] † koldo Mitxelena kulturunea: D (J.u. 4740) [ez osoa] * Euskaltzaindiaren Azkue Biblioteka: b (od-740, cd-0559) [Van Eysen alea] † Bonaparteren funtsa: Ch (888) † Bibliothèque Nationale de France: p (Z BASque-403) [Dodgsonen aleahttps://doi.org/10.1387/asju.22859</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>bidez agertzen ditugu atarietako orrialdeei dagozkielako, eta letra etzanean guk eman diegulako zenbakia; beraz, guztira 164 orrialde ditugu, zenbatu gabe den 155.aren ifrentzua kontuan hartzen badugu. Formula honen ostean, zenbakitzean diratekeen akatsak agertuko dira: gurean ikus daiteke zenbait akats daudela, bai zenbakietan eta baita zenbakien kokapenean ere.</figDesc><table><row><cell>matarren Kolazioari esker eta beste aipatze-sistemen azterketaren bidez ikus dezakegu nola</cell></row><row><cell>egin zen liburua, eta inolako aldaketarik gertatu ote zen hasieratik eta azken produk-</cell></row><row><cell>turaino. Kapanagaren kasuan, bai kolazioak eta baita zenbakitzeak ere erakutsi digute</cell></row><row><cell>hasieran pentsaturik ez zeuden zortzi orrialde (guk π deitu dugun plegu erdia) gehitu</cell></row><row><cell>zituztela. Plegu erdi horretan Kapanagaren eskaintza, elizbarrutiaren baimena, hi-</cell></row><row><cell>tzaurrea eta aurkibideak ditugu, eta badirudi liburua inprimatu ostean idatzi zituela</cell></row><row><cell>zati horiek, baimenak esaten duenez liburu-aleak jada inprimaturik baitzeuden, bai-</cell></row><row><cell>mena eskatu zuenean («dieron licencia […] para que pueda vender los mil y quinien-</cell></row><row><cell>tos cuerpos, que dize estan impressos»). Portada atarikoekin batera inprimatzea zen</cell></row><row><cell>ohikoena, garai hartako legediak baldintzatzen baitzuen portada testuaren ostean in-</cell></row><row><cell>primatzea, ikuskariek inprimatuari baimena eman ostean</cell></row></table><note>https://doi.org/10.1387/asju.22859</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>orain artean daturik garrantzitsuenak bildu ditugu: portada eta kolofoia alde batetik, eta kolazio-formula ondoren. orain bestelako datu teknikoak izango ditugu hizpide. datu horiek era askotakoak izan daitezke, eta hemen nagusienak baino ez ditugu agertuko: neurriak, orriaren egitura, deiak (ing. catchwords), prentsa zenbakiak, 15 tipoen azterketa, irudien azterketa eta liburuaren edukia. Agian horrek azaldu lezake zergatik liburu honen portadan egilearen izena (ripalda) eta dotrina bera bakarrik aipatzen diren, eta itzultzailearen izena eta liburuak dituen beste atalak aipaturik aurkitzeko portadaren atzealdean begiratu behar dugun («con el examen de conciencia, y acto de contricion. exercicios quotidianos. Significaciones de los ornamentos sagrados. y misterios de la missa. [...] traducido del lenguage castellano al bascongado por el licenciado martin ochoa de capanaga...»). Beharbada, ripaldaren dotrinak jada baimena zuenez (1591n izan zen lehenbizi argitaratua, Burgosen), legedia gainditu nahi zuen horrela jokatuz. 15 Prentsa zenbakiak ingalaterrako prentsetan agertu ziren 1680 urte inguruan, baina ez da izan praktika orokorra. eskozia eta irlandan ere erabili izan dira, eta ohitura iparramerikara hedatu zen arren, ez da ezaguna hortik kanpoko tradizioetan (gaskell 1999: 161). neurriei dagokienez, orriarena eta liburuaren mantxarena bil ditzakegu:</figDesc><table><row><cell>Orria 149 × 95</cell><cell></cell></row><row><cell>Mantxa</cell><cell>π b : 26 lerro, 108,5 × 85,5</cell></row><row><cell></cell><cell>π2 b : 28 lerro, 118 × 87</cell></row><row><cell></cell><cell>e4: 29 lerro; 123 × 85,5</cell></row><row><cell></cell><cell>K: 28 lerro; 118,5 × 85,5</cell></row></table><note>14</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>ziren (capanaga 2008). Tamalez, ez dute esaten zein orrialde diren batekoak eta zein bestekoak; ondorioz, gure helburuetarako «kutsaturik» dagoen alea dugu faksimile hori, eta erabilezina. Beraz, liburutegira joatea beste biderik ez dago original horren egoera ezagutzeko. Honekin batera, bederatzigarren ale baten berri dugu, esan bezala, «Vinsonen alea» izenaz aipatuko duguna, hura eskuratu eta erabili baitzuen Vinsonek bere bibliografiaren deskribapena egiteko. dena dela, «Vinsonen alea» baino, hobeto legoke «lopezen alea» deitzea, dodgsonek Aranari idatzi zionaren arabera: «c'est Vinson qui a pratiquement volé le capanaga de e. lopez» (dodgsonek Aranari 1897-10-14, in Altuna 2000). Ale hau berezia da, jakin baitakigu honekin batera koadernaturik Viva Jesus dotrinaren ale bat zegoela, Vinsonek baliatu zuena VJren deskribapena egiteko ere(Vinson 1891:  § 24bis). dodgsonek ere ezagutzen zuen lopezen alearen berezitasuna, 1893ko bere edizioaren amaieran honako hau idatzi baitzuen: al fin del exemplar de este libro preciosisimo [hau da, kapanagaren dotrina], que pertenece á d. eusebio lopez, editor, de Tolosa, se halla otro catecismo, anonymo, de 16 paginas, sin fecha, ni señal de procedencia, y nunca reeditado, como bien merece serlo. este librito en la opinion de un sabio Bascofilo Azcoitiano, es más antiguo que la traduccion de capanaga, y escrito en el dialecto de Arratia, orozco y llodio (d odgson 1893: clxv). 18</figDesc><table /><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">lan hau «Monumenta Linguae Vasconum 5: periodización y cronología» (mineco, FFi2016-76032-P), «Historia de la lengua vasca y lingüística histórico-comparada» (eusko Jaurlaritza, gic.iT698-13) eta «lingüística Teórica y diacrónica: gramática universal, lenguas indoeuropeas y lengua vasca» (lingTedi, uPV/eHu, uFi11/14) ikerketa-proiektuen barruan egin da. Zorretan nago Blanca urgellekin, lan honen lehenengo bertsioa irakurtzeagatik eta egindako ohar interesgarriengatik. eskerrak eman behar dizkiet baita testua iruzkindu duten ebaluatzaile anonimoei eta gidor Bilbaori ere, egin dizkidaten zuzenketek lana hobetu baino ez dutelako egin. esan gabe doa, legokeen akats oro idazleari baino ezin dakioke egotzi.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">inprentaren hastapenean langile honen izena konponedorea (ing. «compositor») zen, erabiltzen zuen tresnagatik, hain zuzen; honela, homonimia agertzen zaigu langilearen eta darabilen lanabesaren artean. Hau dela eta, bada, martín Abad-i jarraituz(2004: 29, 14. oh.), ondoren erabiliko zen kaxista izena hautatu dugu gure lanean.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">Honelako akatsen tipologia testu-kritikari buruzko edozein eskuliburutan aurki daiteke(ikus, adibidez, Blecua 1983: 20 hh. edo Pérez Priego 2011.4  Salbuespen gogoangarriak daude, jakina (ikus 7. oin-oharra).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9">«Bizirik» terminoarekin adierazi nahi dugu testuak sortu zen beharretarako erantzuna ematen duenean egiten diren edizioak, testuak berez zuen funtzioa betetzen zuen garaiko edizioak alegia. gure testua izan daiteke adibide egokia: egin diren kateximaren berrargitalpenak ez dira sortu kristauek dotrina ikas zezaten, aitzitik, liburuaren «balio sinbolikoagatik» argitaratu direla esan genezake, eta beraz, ez dira saiatzen testua egokitzen kristau behar berrietara, liburuaren testua bere horretan transmititzera baizik.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10">&lt; / &gt; zeinua ere ager daiteke portada baten transkribapenean lerro-aldaketa markatzeko, teklatuetan agertzen den zeinua delako; baina gomendagarria da zeinu hau ez erabiltzea(cf. gaskell 1999: 407;  Bowers 2001: 194), inprentaren hastapenetan puntuazio-ikur bezala erabiltzen zelako.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="17">3. babesorriko eskuzko oharrean ageri denez, van eys-en alea erabili zen galduriko testua berregiteko. egun gordetzen den alea da (B deitu dugu); beraz, eskuz gehituriko testua codex descriptusa dugu, jatorrizko testua bai baitugu.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="20">Testu-kritika klasikoan erabiltzen den codex optimus (cf. Blecua 1983: 43) kontzeptuaren gainean sortu dugun terminoa da: azterketarako eta konparaketarako erabiliko den oinarrizko testua, alegia.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">lanean zehar erabili dugun Kapanagaren adibideari berriro helduta, hona hemen aztertu ditugun aleen deskribapena: Bost egoera ezberdin aurkitu ditugu: α) c kaierean c-c2-c4-c4 signatura</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">10 b lerroa α) †p: Paris, Bibliothèque nationale de France (Z BASque-403). egoera orokorra: ez osoa, orri zenbait hautsirik eta K kaiera guztiz galdua; galduriko testuak eskuz berrezarriak. 17 exlibrisa: bibliotekaren zigiluak (3. babesorria, A1, π, π4 b , A2, g, «K6»). eskuzko idatziak: «This copy of this excessively rare book was most / generously presented to me at durango on / michaelmas day, 1891, by don Balbino garita-onandia, / vicar at that town. The binder, H. lapersonne, of / 154 Boulevard St. germain, charging seven francs for binding and mending it. edward S. dodgson.», «Having supplied the portions of the text which were missing [partly] by / means of the copy borrowed by Professor Julien Vinson from the / publisher eusebio lopez of Tolosa, i gave this book to / mr. Antoine d&apos;Abbadie, on Saint lucys day 1893</title>
+		<idno>A2</idno>
+	</analytic>
+	<monogr>
+		<title level="m">c kaierean c-c2-c4-c4 signatura + g4 azpian inprimatu gabe β) c kaierean c-c2-c4-c3 signatura γ) c kaierean c-c2-c4-c3 signatura + tipo eroriak, c3, 21. lerroa δ) c kaierean c-c2-c4-c3 signatura + «ganica</title>
+		<imprint/>
+	</monogr>
+	<note>where my new edition of 500 copies had / been printed on the previous night -e. S. dodgson.», «Part of the restauration of the text was carried out by / the aid of mr. w. J. Van eys, who has an exemplar.», «it is numbered 24 in the Bibliographie de langue Basque, 1891.» (3. babesorrian</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">«</forename><surname>Basque</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">403</biblScope>
+		</imprint>
+	</monogr>
+	<note>8 babesorrian); «nº. 24. P. 94. dans la Bibliographie de J. Vinson 1891» (A1)</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>«manue De Villama</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">ark:/12148/bpt6k9764159c. α&apos;) †D: donostia, Koldo mitxelena Kulturunea (J.u. 4740). egoera orokorra: ez osoa, A1-A2, π, c6-c7, d, F3, K3-K6 orriak falta ditu. exlibrisa: «jvlio de vrqvijo&apos;ren libvrvetatik bat». Koadernaketa: Pergaminozkoa, bizkarreko izenburua «16[56] doctrina cristiana</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>«ce En Vez De Ez P ; «según D</surname></persName>
+		</author>
+		<ptr target="https://w390w.gipuzkoa.net/wAS/corP/dBKVisorBibliotecaweB/visor.do?ver&amp;ami-cus=18949" />
+		<imprint>
+			<biblScope unit="page">38</biblScope>
+		</imprint>
+	</monogr>
+	<note>Balbino unas partes, especialmente las últimas, de este tomo son del dialecto de orozco, sacadas tal vez de ostolaza», Perhaps he referred to the little catechism in the copy belonging to eusebio lopez at Tolosa» [tintaz, aurreko arkatzezkoen gainean] (atzeko 7. babesorria)</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.22859</idno>
+		<ptr target="https://doi.org/10.1387/asju.22859" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Alias orozco» (babesorria), «manuel de eguia / dizipulo del Señor / mio Pedro diaz Baños que dios» (babesorria), «Agueno olb. / de manuel [dura / ngo] Zenzo de iose matias de erdoiza guarde / muchos añosco-/ modeseo» (K6 b ). Koadernaketa: Pergaminozkoa. †S: Sto. domingo de Silos, Biblioteca de la Abadia de Silos (c1-g11), olim. 22.101. egoera orokorra: ez osoa, H6-K6 faltan</title>
+		<idno>†M2: madrid, Biblioteca nacional de españa (r/ 25443); egoera oro- korra: osoa. eskuzko idatziak:</idno>
+		<ptr target="//en1893sereprodujofiel-menteestaedición/«catecismodelP..." />
+	</analytic>
+	<monogr>
+		<title level="m">exlibrisa: bibliotekaren zigiluak (babesorria, A1); eskuzko idatziak: «Fray Fidel de Pamplona [tatxaturik]» (babesorria), «Faltan las últimas páginas; ??? / desde la 125 a la 155</title>
+		<editor>«Fray Franco Xavier de / chavarria</editor>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">«doctor d n Juan Blan co ; / bezino de la Villa de» (π3 b ). Koadernaketa: Pergaminozkoa, aurrean gurutze bat margoztua eta atzean inizialen antza duen marrazkia. Bizkarreko izenburua «doctrina y Bocabularº B[asco?]». Bestelakorik: xviii. mendeko (post. 1745, cf. 17. or.) gazt-eusk. hiztegi bat du batera koadernaturik, eskuz zenbaturik (175 orrialde). eskuzko azken orrialdean errubrika dirudien marrazkia dugu. †Ch: chicago, newberry (888), egoera orokorra: osoa, portadaren goiko eskuineko izkina hautsia. exlibrisa: «Josef Joaquin echezarreta» (azalaren atzean); eskuzko idatziak: «este libro es de mi señora doña</title>
+	</analytic>
+	<monogr>
+		<title level="m">lenia / gunzales de Vicuyña</title>
+		<imprint/>
+	</monogr>
+	<note>Alfonso de contaren. Soi de echezarreta», «durango / 20 sept 1856 / echezarreta» (babesorria); Koadernaketa: Pergaminozkoa (?)</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">275-d [arkatzez] (babesorrian), H.284 (babesorria b ); egoera orokorra: osoa. exlibrisa: «Bn» (azalaren atzean), «Br» (A1, A2), bibliotekaren zigiluak (A1, A1 b , π, π4, A2). eskuzko idatziak: «est. H. ord. ultima / en 8º pergamino» (babesorria b ), «este catila le es oraciones / aquiesto echado lo es marianuebos(?). este catil / a es domingo de gortazar» (K7?) «don Juan Fran co de guesala deygaozi</title>
+		<ptr target="https://bdh-rd.bne.es/viewer.vm?id=0000187878&amp;page=1" />
+	</analytic>
+	<monogr>
+		<title level="m">K7 b ?) Koadernaketa: Pergaminozkoa, bizkarreko izenburua «doctrina Xti...». Bestelakorik: Tipoak eroriak c3ko (39. orrialdea)</title>
+		<imprint>
+			<biblScope unit="page" from="28" to="30" />
+		</imprint>
+	</monogr>
+	<note>†M1: madrid, Biblioteca nacional de españa (r/ 2884) olim. 197_7. ezkerreko zutabean, 21. lerroan</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">2 des. 48 egoera orokorra: osoa. exlibrisa: «ex bibliotheca: wilhelmi: van: eys: Amstelodam (sic)» (birritan azal bakoitzaren atzean). eskuzko idatziak: «Hommenger. m e / lacombe; en souvenir / de sa visite a S. remo / m eys</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">*</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">:</forename><surname>Bilbo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Azkue</forename><surname>Euskaltzaindiaren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Biblioteka</surname></persName>
+		</author>
+		<idno>od-740, cd-0559</idno>
+	</analytic>
+	<monogr>
+		<title level="m">août 1913)» (babesorria); Koadernaketa: Abaraskatutako larru-azaleztapena burdinaz urreztatua</title>
+		<imprint/>
+	</monogr>
+	<note>bizkarreko txaplata: «exic / sicio / Breve</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Aztertu gabe geratzen zaigu derioko labayruren liburutegian gordetzen den alea, religiÓn / n. 541 kokapen-kodearekin. Hau erabiliz egin zen 2008ko argitalpen faksimilea, baina edizioaren aurkezpenean esaten denez, ale hura osatugabea izanik, falta ziren orrialdeak betetzeko espainiako Biblioteka nazionaleko ale batez baliatu ASJU</title>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="77" to="97" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Joannes etxeberriren Eliçara erabiltceco liburua-z. Lapurdum 6</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Isaak</forename><surname>Atutxa</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="page" from="21" to="62" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Isaak</forename><surname>Atutxa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Joannes etxeberriren Manual devotionezcoa-z. Lapurdum</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="57" to="92" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Joanes Etxeberri Sarakoaren saiakera-lanak eta latina ikasteko gramatika: edizioa eta azterketa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gidor</forename><surname>Bilbao</surname></persName>
+		</author>
+		<ptr target="https://www.euskara.euskadi.eus/appcont/tesisdoctoral/PdFak/gidor_Bilbao_TeSiA.pdf(2017/12/04" />
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Manual de crítica textual. madril: editorial castalia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alberto</forename><surname>Blecua</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fredson</forename><surname>Bowers</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1949" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Algunas reflexiones sobre el proceso de edición en el siglo xvi y la Bibliografía Textual</title>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="59" to="72" />
+		</imprint>
+	</monogr>
+	<note>Principios de descripción bibliográfica. madril: Arco libros. canet, José luis</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Exposición Breve De La Doctrina Christiana</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Vizeu</surname></persName>
+		</author>
+		<editor>J. A. da costa (edward S. dodgson arg.</editor>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ochoa De</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1656" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christiana</forename><surname>Exposición Breve De La Doctrina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bilbo: labayru ikastegia</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Clavería Laguarda</surname></persName>
+		</author>
+		<title level="m">Los correctores. Tipos duros en imprentas antiguas. Zaragoza: Zaragozako unibertsitatea</title>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Historia de la tipografía. La evolución de la letra desde Gutenberg hasta las fundiciones digitales</title>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note>lleida: ed. milenio</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">el libro moderno desde la bibliografía material y la biblioteconomía</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fermín</forename><surname>De Los Reyes Gómez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ayer</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="35" to="56" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Manual de bibliografía. madril: castalia. de los reyes gómez, Fermín. 2016. la utilidad del análisis e identificación de los preliminares legales</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fermín</forename><surname>De Los Reyes Gómez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>Zaragozako unibertsitatea</publisher>
+			<biblScope unit="page" from="131" to="143" />
+			<pubPlace>Zaragoza</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Los paratextos y la edición en el libro medieval y moderno</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">la corrección editorial en la imprenta incunable castellana</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De Páiz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Doce siglos de materialidad del libro. Estudios sobre manuscritos e impresos entre los siglos viii y xix</title>
+		<editor>manuel José Pedraza gracia</editor>
+		<meeting><address><addrLine>Zaragoza</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page" from="Zaragozako uniber" to=" tsitatea" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Saggi di bibliografia testuale</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Conor</forename><surname>Fahy</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+			<publisher>Antenore</publisher>
+			<pubPlace>Padua</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Storia della bibliografia testuale</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Conor</forename><surname>Fahy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bibliografia testuale o filologia dei testi a stampa?: definizioni metodologiche e prospettive future</title>
+		<imprint>
+			<publisher>udine: Forum</publisher>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="23" to="34" />
+		</imprint>
+	</monogr>
+	<note>in neil Harris (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Fernández de casadevante, m.ª dolores</title>
+	</analytic>
+	<monogr>
+		<title level="m">madril: Adi Servicios editoriales</title>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="1585" to="1850" />
+		</imprint>
+	</monogr>
+	<note>La imprenta en Guipúzcoa</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">la cuenta del original. in Pablo Andrés &amp; Sonia garza (arg.), imprenta y crítica textual en el Siglo de Oro</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sonia</forename><surname>Garza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Valladolid: Valladolideko unibertsitatea &amp; cece</title>
+		<imprint>
+			<date type="published" when="2000" />
+			<biblScope unit="page" from="65" to="95" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><surname>Gaskell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1972" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Tipología editorial del impreso antiguo español. madril: complutense unibertsitateko doktorego tesia</title>
+		<ptr target="https://eprints.ucm.es/id/eprint/24020/1/T35038.pdf(2021/02/16" />
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note>Nueva introducción a la bibliografia material. madril: Trea. gonzález-Sarasa, Silvia</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Borja Ariztimuño, oxel uribe-etxebarria &amp; urtzi reguero</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Krajewska</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Zuloaga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Santazilia</forename><surname>Ekaitz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>Esteve Materraren Do(c)trina christiana (1617 &amp; 1623)</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Edizioa</surname></persName>
+		</author>
+		<title level="m">Monumenta linguae Vasconum: Studia et instrumenta 7). Bilbo: euskaltzaindia &amp; uPV/eHu (= ASJU 51</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">René</forename><surname>Lafon</surname></persName>
+		</author>
+		<title level="m">la langue de Bernard dechepare. in rené lafon, Vasconiana</title>
+		<imprint>
+			<publisher>Bilbo: euskaltzaindia</publisher>
+			<date type="published" when="1951" />
+			<biblScope unit="page" from="729" to="758" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1387/asju.22859</idno>
+		<ptr target="https://doi.org/10.1387/asju.22859" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">¿cómo editar textos impresos?: notas y comentarios para un manual</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">José</forename><surname>Lucía Megías</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Manuel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">La corónica</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="279" to="316" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">el autor ante la imprenta: textos para un manual. Edad de Oro 28</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">José</forename><surname>Lucía Megías</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Manuel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="page" from="177" to="196" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Los libros impresos antiguos.Valladolid: Valladolideko unibertsitatea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julián</forename><surname>Martín Abad</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Textos vascos antiguos. un catecismo vizcaíno del siglo xvii. (B errargit</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1954" />
+			<biblScope unit="page" from="85" to="95" />
+			<pubPlace>OC 9</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Prólogo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+	<note>al Essai d&apos;une Bibliographie de la Langue Basque</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>(b Errargit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">OC</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="191" to="197" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Obras completas (ASJUren Gehigarriak 54-68), 15 lib. donostia &amp; gasteiz: «Julio urkixo» euskal Filologi mintegia, gipuzkoako Foru Aldundia &amp; uPV/eHu (Joseba A. lakarra &amp; iñigo ruiz Arzalluzen argit</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jaime</forename><surname>Moll</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1979" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Problemas bibliográficos del libro del Siglo de oro. in Jaime moll, Problemas bibliográficos del libro del Siglo de Oro, 11-78. madril: Arco libros. montaner, Alberto. 1999. Prontuario de bibliografía. Pautas para la realización de descripciones</title>
+		<imprint/>
+	</monogr>
+	<note>citas y repertorios. gijón: Trea</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Germán</forename><surname>Orduna</surname></persName>
+		</author>
+		<title level="m">Ecdótica. Problemática de la edición de textos. Kassel: edition reichenberger</title>
+		<imprint>
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">El texto del «Quijote». Preliminares a una ecdótica del Siglo de Oro. Valla do lid: Valladolideko unibertsitatea &amp; cece</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Germán</forename><surname>Orduna</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note>Fundamentos de crítica textual. madril: Arco libros. Pérez Priego, miguel Ángel</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Tiene poca ciencia de lo que es latín: la prueba de imprenta como testigo del proceso editorial en el Siglo de oro</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Javier</forename><surname>Ruíz Astiz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bulletin Hispanique</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="27" to="50" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">Axularren Gero liburuaren ale kasi birjinaleko «m» pleguaz. FLV 105</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Salaberri Muñoa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Patxi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="page" from="303" to="324" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Axularren Gero libururaren lehen edizioa. Aleak, aldeak eta zuzenketak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Salaberri Muñoa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Patxi</surname></persName>
+		</author>
+		<ptr target="Bilbo:uPV/eHu" />
+	</analytic>
+	<monogr>
+		<title level="m">Joseba A. lakarra, Joaquín gorrochategui &amp; Blanca urgell (arg.), koldo Mitxelena katedraren ii. Biltzarra</title>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="201" to="216" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Cómo editar los textos medievales. Criterios para su presentación gráfica. madril: Arco/libros</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sánchez-Prieto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pedro</forename><surname>Borja</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Ulibarri</surname></persName>
+		</author>
+		<title level="m">inprimaturiko liburutan barna: historiagaz filologia. (Hitzaldi argitaragabea)</title>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Refranes y Sentencias (1596). girolamo da Sommaiaren Salamancako lekukotasunetik darmstadt-eko faksimile(ta)ra. ASJU 50(1/2)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Koldo</forename><surname>Ulibarri</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="19" to="45" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Zer (ez) dakigu 25 urte beranduago? in ricardo gómez</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Blanca</forename><surname>Urgell</surname></persName>
+		</author>
+		<ptr target="gasteiz:uPV/eHu" />
+	</analytic>
+	<monogr>
+		<title level="m">Joaquín gorrochategui, Joseba A. lakarra &amp; céline mounole (arg.), koldo Mitxelena katedraren iii. Biltzarra</title>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="533" to="570" />
+		</imprint>
+	</monogr>
+	<note>euskal filologia</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title level="m" type="main">Gero (edizio kritikoa). Bilbo &amp; iruñea: euskaltzaindia &amp; nafarroako gobernua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Blanca</forename><surname>Urgell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title level="m" type="main">Sancho de elso y su Doctrina Cristiana «en castellano y vascuence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ricardo</forename><surname>Hualde</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="109" to="145" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Essai d&apos;une bibliographie de la langue basque, 2 lib. (Berrargit. faksim. Bilbo: caja de Ahorros Vizcaína</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julien</forename><surname>Vinson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1986" />
+			<biblScope unit="page" from="1891" to="1898" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /etc/grobid/grobid-0.6.0/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="id">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">HIZKUNTZA ESTANDARRAREN ETA DIALEKTOEN ARTEKO BATERATZE JOERAK</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gotzon</forename><surname>Aurrekoetxea</surname></persName>
+						</author>
+						<title level="a" type="main">HIZKUNTZA ESTANDARRAREN ETA DIALEKTOEN ARTEKO BATERATZE JOERAK</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>(UPV/EHU)</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0" ident="GROBID-SDO" when="2024-07-13T13:27+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="0.">Sarrera</head><p>Aspaldiko kontua da, bai gurean bai erbestean, hizkuntza estandarra eta dialektoen arteko harremanen arazoa.</p><p>Izan ere, hizkuntza estandarra eta dialektoen arteko harremana, burruka edo elkarbizitza, gura den eran, ez da gurean bakarrik gertatzen, inguru eta urrunagoko gainerako hizkuntzetan ere jazotzen da eta. Ez dut ukatuko, euskararen kasuan, gura bada, era gordinagoan bizi dugula: bai estandarizatze prozesua bizia eta indartsua delako, kasu askotan euskalkiak eta hizkuntza estandarraren artean desberdintasun handia dagoelako, eta hizkuntzaren estandarizazio edo batasuna geure egunotan eta geure indarrez sortzen ari delako.</p><p>Baina ikertzailearen ikuspuntutik begiratuta ez dut uste, euskararen kasuan gertatzen diharduen fenomeno honek gainerako hizkuntzetan eman izan diren eta ematen ari diren prozesuekin aparteko ezer berezirik duenik. Berezitasun bakarra kronologikoa dela esango nuke; gainerako gure inguruko hizkuntzek estandarizazio eta normalizazioa aspaldi lortu bazuten ere, euskara gure egunotan lortuz doalako.</p><p>Izaera honek abantaila handia ematen digu, besteetan zer gertatu den, nola garatu den eta zelango ondorioak izan diren jakinik, gurea planifikatzeko aukera ematen digulako.</p><p>Baina hasieratik hasiz eta gaia kokatzen hasteko, esan dezagun denok onartzen dugula hizkuntza bat bizi deno aldaeretan bizi dela eta aldaera desberdinak elkarren artean bizi direla. Ez dagoela nola edo halako aldaerarik gabeko hizkuntzarik. Aldaerok izan daitezen diatopikoak, diastratikoak edo diafasikoak, eta aldaeren arteko desberdintasunak handiak zein txikiak izanik ere. Hori da edonon aurkitzen den eta edonork onartzen duen hizkuntza errealitatea.</p><p>Esan dezagun ere, denok onartzen dugula aldaerok ez direla finkoak eta mugiezinak izaten ohiz, norabide desberdinetan alda daitezkeela eta aldatzen direla, elikatze edo eragin mota desberdinen arabera.</p><p>Eta azkenik, demagun aldaera horien arteko bat edo bat baino gehiagoren arteko batasuna besteen gainetik gailentzen dela eta aldaera kultu edo prestigiodun bilakatzen dela, gainerako aldaerak egoera diglosiko edo diaglosiko batean gelditzen direlarik; hau da, zeregin eta funtzio batzuetara bakarrik mugatuz euren erabilera. Egoera diaglosikoan gelditu den aldaera (dialekto zein hizkera) duen hiztunak hizkuntzaren [ASJU, XL, 2006, 133-160]    bi aldaera bereganatu beharko ditu: egoera formaletarako prestigiodun aldaera erabiliko du, egoera informaletarako bere betiko aldaera erabiltzen duen bitartean. Abstrakzioa egiten dugu hemen prestigiodun aldaera nola bilakatu den eta horretarako zein urrats eman behar izan duen, eskuarteko gaian berebiziko eraginik ez duelako.</p><p>Lan honetan bazter utziko ditugu ere euskara batua eta euskalkiak direla-eta bien arteko amodio eta desamodio, bien arteko antagonismo eta osagarritasuna edota bien beharra azpimarratuz norbanako edota talde-elkarte-erakundeek egin dituzten adierazpen, aldarrikapen eta iritzi-artikuluak.</p><p>Halaber, euskalkien eta batuaren esparru eta zereginez argitaratutako lan guztiak. Edota batuaren taiu eta norabideaz idatzitakoak. Ez da lerro hauen helburuan aldaera bakoitzaren estatusaz sakontzea, ezta aldaera estandar edo gainerakoen korpusaren izaeraz edo ezaugarriez ikertzea.</p><p>Hizkuntza estandarraren (euskara batuaren, gura bada, nahiz gauza bera ez den) eta euskalkien arteko hizkuntza harremanez jardungo dugu lerro hauetan. Edo bestela esanda, aldaera estandarrak nola eragiten duen dialektoetan eta zein norabidetan garatzen diren hauek. Bi aldaeren arteko elkarbizitzan prestigiodun aldaeraren eragina aztertuko da, eta ez dialektoek estandarrean izan lezaketenean.</p><p>Ikuspuntu hau atzerrian egin diren ikerketak euskararen kasuan umatutako beste batzuekin harremanetan sartuz argi pixka bat ematen ahaleginduko gara. Kanpoko ikerketak marko teorikoa eta metodologia zehazteko erabiliko dira eta hemen lortutako datuak metodologia horrekin argitzeari ekingo zaio.</p><p>Maila "bereko" edo bertsuko aldaeren arteko harreman edo elkar-eragiteez asko idatzi bada ere, guztiz argitu gabe daude oraindik ikuspuntu sinkronikoz egindako ikerketetan, nahiz jakina den ikuspuntu diakronikotik hurbiltze eta urruntzeak gertatu ohi direla. Harreman eta elkar-eragite hauetan parte hartzen duten faktoreen azterketa ez da oraindik guztiz amaitu aldagarritasunaren hizkuntzalaritzak urrats asko eman dituen arren.</p><p>Maila edo plano desberdinetan kokatzen diren aldaeren (estandarra-dialektoa, aldaera kultua-aldaera herrikoia…) arteko harremanen ikerketa ere bideratua da azken urteotan gure inguruko hizkuntzetan. Ikerketa hau nagusiki aldaera estandarraren eta dialektoen arteko harreman eta eraginak aztertzera mugatzen da.</p><p>Ez dut uste lekuz kanpo dagoenik euskara estandarraren eta euskalkien edo hizkeren arteko eraginetan sakontzen hasi aurretik gai honek orain artean ezagutu duen iragan eta bizi duen errealitatetik askatuz, etorkizunerantz begiratzea eta nolako hizkuntza nahi dugun itauntzea proposatzea. Gure seme-alabek eta ondorengoek 40 urte barru nolako hizkuntza, nolako hizkuntza erregistroak edo mailak izan ditzaten nahi dugun galdetu beharko geniokeela geure buruari uste dut: hizkuntza oso monolitiko edo monoestilistikoa, ia aldaera diatopiko, diastratiko eta diafasikorik gabea; ala hizkuntza aldaera indartsu bat, ondoan kolore desberdinak gordeko lituzketen aldaera desberdinekin; ala hizkuntza aldaera orekatu eta mailakatua, herriko hizkeratik hasi eta goren mailara doana; ala… Zer nahi dugun horrek erakutsiko liguke jarraitu beharko litzatekeen bidea. Oraindik hizkuntza mailak planifikatzeko daukagun aukera izanik, sasoia dela deritzot, berandu baino lehen, orain arte gertatu dena aztertu, inguruko hizkuntzetan gai honetan egin diren ikerketetatik ikasi eta aurrerantzean euskararen kasuan gerta daitekeena planifikatzen hasteko. 134 GOTZON AURREKOETXEA</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="id">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Euskararen munduan bada oraindik euskara batua edo aldaera estandarraz bestelako alderen promozioaz ezer entzuterik gura ez duenik; eta oraindik diot konbentzituta bainago euskarak bizi-irauteko batua ezinbestekotzat jotzen zen sasoian bizi izandako shock hura gainditu ez duen jendea badelako edota euskalkiak promozionatzen aritzea alferrikako indar galtzea dela uste dutenak badirelako. Horiek garbi dute hizkuntza mailei dagokienez zein planifikazio egin behar den. Badira beste batzuk, oraindik planteamendu hau egiteko ordua ez dela heldu uste dutenak ere; euskara estandarra guztiz gorpuztu gabe anabasa sor daitekeelako euren aburuz. Bada, azkenik, hirugarren multzoa, zeinak aldaera estandarraz peko aldaeren promozioan diharduen, promozio hau euskararen aberasgarri gisa ulertzen duen eta aldaera desberdinen nola edo halako oreka bilatzen duen.</p><p>Azken multzo honetan kokatzen direnen artean ere ez dago batasunik, egia esan behar bada; eta, ondorioz, norabide berean ez doazen eta elkarren artean osagarri ez diren mota askotako lanak egiten dira: batzuk itsu-itsuan dihardute euren aldaeren promozioan, beste batzuk askoz ere modu orekatu eta integratzaileagoan lan egitea proposatzen dute. Dispertsioa eta noraeza direla ezaugarri nagusiena esango nuke, indar horien lanari buruz esaldi batean nire iritzia ematera behartuko banindute. Bada sasoia indar horiek koordinatu eta zuzentzeko helburuak argitu ondoren norabide zehatzetan lan egiteko.</p><p>Gai honek hizkuntza kalitateaz ere lotura izan lezake, ukitzen dituen edo lituzkeen alderdi desberdinak aipatuz gero. Baina aipamen hutsean uztea gurago dugu kontzeptu bera definitzean bat etortzeko bakarrik ere arazo bat baino gehiago izango genituzkeelako.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Hizkuntza estandar eta dialektoen arteko dinamika</head><p>Hizkuntza edo aldaera estandarraren eta dialektoen arteko bateratze joerak aztertzea du helburu lan honek, gorago esan bezala. Gai hau behin baino gehiagotan izan da jorratua historian zehar. Euskararen kasura mugatuz ikuspuntu diakronikotik begiratuz ikerketa lana aurreratuta dagoela esan behar da. <ref type="bibr">1</ref> Bego hor, aipamen hutsean, ez delako gure jomugaren norabidean aurkitzen.</p><p>Ikuspuntu sinkronikotik begiratuz ere hasi dira metodologia berriak aplikatzen egoera desberdinak ikertzeko. Arlo honetan kokatzen da gure ekarria. Izan ere, dialektologia sozialaren ikuspuntutik, hizkuntza aldagarritasuna hizkuntza aldaketaren manifestazio sinkroniko legez eta hizkuntza aldaketa hizkuntza harremanen ondorio legez ikertu gura da.</p><p>Europa osoan 20. mendean zehar dialekto tradizionalak gero eta nahasiago bihurtuz joan dira. Dialektoek historikoki ezagutu duten trinkotasun eta egonkortasuna galdu egin dute, euren ezaugarriak urtuz, desagertuz joan dira. Dialektoen diluitze honen eragileen artean hizkuntzen estandarizazioa, industrializazioaren ondorioa den hirietaranzko giza-mugimendua, eta eskolatze eta komunikabideak aipatu izan dira, gaiko literatura tradizionalean. Bilakaera demografiko eta kultural honek dialekto tradizional eta estandarren artean hiztuna 'hizkuntza continuum' batean kokatu du, maiz aldaera berrien sorleku bihurtuz. Aldaera berri hauek egitura difusoa, ez-zehaztua, izan dezakete edo oso konkretua eta zehatza, bai hizkuntza ezaugarriei dagokielarik, bai eredu geografikoari dagokiolarik.</p><p>Dialekto tradizionalen galtzeko arrisku honek eragin du Auer ta <ref type="bibr">Hinskens-ek deitzen duten (1996: 5)</ref> 'dialektoen berpizkundea' mugimendua. Mugimendu hau 70. hamarkadan hasi zen Europan. Euskal Herrian bestelako beldurrak jota zegoen sasoi horretan euskaldungoa: euskara beraren heriotzea, hain zuzen ere. Bestalde, sasoi horretan hasi zen euskara batua eta estandarra bere lehen urratsak ematen, plano "teorikoan" iskanbila eta eztabaida amaiezinetan murgildua zegoen bitartean. Hamarkada bi eta euskara estandarra gorpuztea behar izan dira euskararen kasuan ere euskalkien eta hizkeren aldeko mugimenduak "euskalkien berpizkundea" eman arte.</p><p>Mugimendu hau ikerketaren bultzagile izan da. Aldaera desberdinen arteko bateratze joera mota asko daude ikerketetan zehar bilduak. Arazoa edo gaia dimentsio askotan izan daiteke aztertua eta neurtua: batetik, badira 'bateratze horizontalak' eta 'bateratze bertikalak' <ref type="bibr" target="#b14">(Auer 1998)</ref>; bestetik, badira 'bateratze indartsuak' eta 'bateratze ahulak'; azkenik, badira osoraino heltzen diren konbergentzia joerak eta guztiz burutu gabeko konbergentziak.</p><p>Kontzeptuak eta terminoak zehaztuz, 'bateratze bertikala' aldaera estandar eta dialektoen arteko bateratzeari deitzen zaio; 'batzeratze horizontala', aldiz, dialektoen artekoari; hots, maila berean dauden dialektoen arteko bateratze joerei. Guk bateratze bertikalaz jardungo dugu ikerketa honetan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1.">Bateratze bertikalak</head><p>Konbergentzia bertikalak aldaera estandarraren eta dialektoen arteko bateratzeei deitzen zaie. Goragoko mailan dagoen prestigiodun aldaeraren indar zentripetoaren eraginez sortzen da konbergentzia edo bateratze mota hau.</p><p>Horrela, dialektoak aldaera estandarraren ezaugarriak eurenganatzen ahalegintzen dira, prestigiodun aldaeraren distirak eraginda. Dialektoek euren ezaugarri propioak eta bereziak galduz doazen heinean estandarrarenak hartzen dituzte. Bateratze mota honi bateratze dialektal monozentrikoa deitzen zaio.</p><p>Bateratze hauek gertatzen diren lurraldeetan, sarritan, dialektoak barietate primitibotzat jotzen dira inplizituki, estandarrari lekua utzi behar dioten barietatetzat, alegia. Aldaera estandarra berria, gaztea, etorkizuna eta antzeko kontzeptuez inguratu eta jantzirik azaltzen da, dialektoa zaharkitu, iraganari lotu eta etxerakotzat jotzen den bitartean.</p><p>Bateratze bertikalak maiz konbergentzia horizontala ere badakar edo ekar lezake, behintzat, ondorio bezala. Izan ere, estandarreranzko prozesuan dialektoak elkarrekin batera doazenean eta estandarrak modu bertsuan eragiten dienean, estandarraren eta dialektoen arteko distantzia txikituz doan bitartean, dialektoen arteko forma desberdinak ere urrituz joaten dira <ref type="bibr">(Auer &amp; Hinskens 1996)</ref>.</p><p>Konbergentzia edo bateratze bertikal eta horizontalaren prozesua, hizkuntza komunitate nazionalaren perspektibatik ikusten denean, noiz edo noiz dialekto eta estandarraren arteko (eta batzuetan dialektoen arteko) aldaera berri bat edo gehiago sor daiteke. Aldaera berri hauek sortzea hizkuntza komunitatearen hiztun dinamikoenen zeregina izaten da.</p><p>Elkar-eragintzatik sortutako aldaera berriok izendatzeko 'erregiolekto' edo 'eskualde-berbeta' ('regiolect') eta 'estandar erregionala' ('regional standard') terminoak erabiltzen dira <ref type="bibr">(Auer 1998: 2)</ref>.</p><p>'Erregiolekto' edo 'eskualde-berbeta'k dialekto tradizionala eta aldaera estandarraren arteko harremanetatik sortzen dira. Sortze hori bi ikuspunturen arabera azter daiteke: lehena, dialekto tradizionalak estandarraren ezaugarri batzuk hartu eta bereganatzen ditu; kasu honetan dialektoak modu dinamikoan hartzen du parte, bera da eragile. Bigarrena, aldaera estandarraren indarrak dialekto tradizionaletan eragiten du bere ezaugarri batzuk harraraziz. Lehenean dialekto tradizionalak funtzio aktiboa izango luke, aldaera hartzailea litzateke; bigarrenean, aldiz, haren zeregina pasiboa litzateke, hots jasotzailea.</p><p>Desberdintasun hau garrantzitsua da dialekto berri edo 'erregiolektoa' sortzean, egitura berriaren norabidea berak kudea dezakeelako batean, bestean noraezean joango litzatekeen bitartean.</p><p>Honelako prozesuetan gerta liteke hasierako egoera diglosikoa (aldaera estandarra dialekto askoren gainetik dagoela adierazten da) desegin eta Bellmann-ek deitzen duen diaglosikoan bihurtzea (1998: 24). 2 Egoera diglosikoan "behean" aurkitzen den aldaerak egoera egonkorra ezagutzen du hizkuntza korpusean: korpusean ez du aldaketarik ezagutzen, aurretik baliatzen zituen hizkuntza baliabide berak erabiltzen ditu. Hizkuntza aldaera bat egoera diaglosikoan dagoela esaten denean, berriz, bere ezaugarri nabarmenen eta berezkoenak galduz doala adierazi gura da; bere korpusa aldatuz, urrituz doala eta estandarraren ezaugarriez betetzen doala.</p><p>Termino hau oso ezaguna ez izan arren baliabide berriak eskaintzen ditu egoera honetan aurkitzen diren aldaerak modu zehatzago batean aztertzeko. Euskararen kasuan aldaera gehienetan gertatzen ari dena azaltzeko garrantzitsutzat jo behar da. Izan ere, egoera diglosikoan izan ordez egoera diaglosikoan aurkitzen dira euskalki eta hizkerak, hizkuntza edo aldera estandarraren ondoan. Euskalki batek ergatibo pluralerako inoiz ezagutu ez duen -ek atzizkia hartzen duenean eta arrazoietan "berez, -ak da sartalde eta erdiko euskalkietakoa, baina batukoa asko zabaldu da aspaldiko denporetan; gainera, -ek atzizkiaz hobeto bereizten dira Nor eta Nork kasuak" (Labayru Ikastegia 2001: 129) esaten denean eta euskalki horretarako -ek atzizkia onartzen denean, euskalki horren sisteman ezagutzen ez zuen morfema bat sartzen ari gara sistema desegonkortuz. Egoera honi deitzen zaio egoera diaglosikoa izatea.</p><p>Euskararen gaurko egoeran euskalki guztiak egongo lirateke egoera diaglosikoan, ikuspuntu honen arabera.</p><p>Euskararen barnetik begiratuta, eta hizkuntza beraren aldaeren arteko harremanez ari garela, egoera diaglosikoak ez du nahitaez iritzi ezkorra izan beharrik. Gehiago oraindik, harreman horiek menpekotza edo morrontza legez ulertzen badira; hau da, aldaera estandarra funtzio batzuetarako eta aldaera subestandarrak (eskualdeberbeta, herri-hizkera…) beste funtzio batzuetarako erabiltzeko hizkuntza erkidegoa adostasun batera heltzen bada. Gauzak horrela eratuz gero, euskalkiek edo hizkerek aldaera estandarrekin "dependentzian", beste hitz bat erabiltzearren, bizitzea euskararen gizarteak onartuko balu, sortzen den egoera diaglosikoa ez litzateke txartzat edo okertzat jo beharko.</p><p>Honekin esan gura dena ondokoa da: berez kontzeptu hori, besteak bezala, zuzentzat edo okertzat jotzen duena egoera horretan dagoen hizkuntza edo aldaera erabiltzen duen gizartea dela eta berari dagokiola, hain zuzen ere, onartzea edo ez. Zeren, geroago agertuko den legez, egoera hori gizarte horrek bilatu ere egin lezake, bere interes linguistikoak hobeto defenditzeko sortzen duen trikimailua ere izan baitaiteke. Eta izatez hala gertatzen ari dela iruditzen zait eskualde-berbetak biltzen ari diren ezaugarriak kontuan izanik, geroago erakutsiko den legez.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2.">Bateratze horizontalak</head><p>Bateratze horizontalak dialektoen arteko konbergentziak dira. Bateratze prozesu hauek dialekto/estandarraren arteko dinamikatik independientetzat hartzen dira, nahiz gorago esan legez, dialekto eta estandarraren arteko harremanen ondorio ere izan daitezkeen. Maila berean kokatuta dauden bi dialektoren arteko bateratze joerak dira.</p><p>Dialektoen arteko bateratze eta urruntze joerak aldaera estandar indartsurik ezagutzen ez den sasoi eta lurraldeetan ematen dira nagusiki eta errazen. Baina ezaugarri hau ez da bakarra, ezta determinatzailea. Gure ustez estandar indartsurik ez egoteaz gain, hizkuntza polizentrikoa izan behar da; hau da, hizkuntza hori biltzen duten dialektoek gune dinamiko propioak izan behar dituzte. Gune dinamiko eta eragile horiek hartzen dituzten norabideen arabera azalduko dira dialektoen arteko bateratze edo urruntze joerak.</p><p>Aldaera estandarra nagusitzen denean dialektoen arteko harremana ahuldu, eta dialekto eta aldaera estandarraren artekoa indartu egiten da. Honelako egoeretan zail izaten da dialektoen arteko urruntze joerak izatea, aldaera estandarraren eraginez honen ezaugarriak direlako hedatzen direnak eta dialektoek barneratzen dituztenak.</p><p>Hurbilketa hauek dinamika orekatu baten bidez eman daitezke (bateratze joeran biek hartzen dituztenean bestearen ezaugarriak) edo dinamika desorekatuan (dialekto batek bestearen ezaugarriak hartzen ditu, baina honek ez harenak).</p><p>Mota honetan kokatzen dira ikuspuntu diakronikotik nagusiki K. Mitxelenak lehenik eta J. A. Lakarrak ondoren egindako eta gorago aipatutako ikerketak.</p><p>Baina bateratze horizontala eman daiteke estandar erregionalen inguruan ere. Bateratze mota hauetan bateratze dialektalaren prozesu edo bateratze dialektal polizentrikoaz hitz egiten da. Bateratze joera desberdinak ere eman daitezke aldi berean eta gune geografiko desberdinetan. Bateratze bakoitza independientea izaten da eta ez du gainerakoekin zerikusirik izaten. <ref type="bibr">Auer-en esanetan (1998: 5)</ref> gaur egun dialektologian arazo garrantzitsuena aldaera dialektalen egoera estandarreranzko konbergentzia-urrats gisa interpreta daitekeen jakitea da. Badirudi ez dela nahitaezkoa estandarreranzko konbergentzia-urrats gisa ulertzea eta ikerketa enpirikoak adierazten dutela aldaera erregionalen bilakaera eta hedatzeak aldaera estandarretik dibergentzia inplika dezakeela.</p><p>Bai batzeratze bertikala, bai bateratze horizontala gradu, indar eta eragin diferenteetan eman daitezke.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3.">Bateratze indartsu eta ahulak</head><p>Bateratze joerak izan daitezke indartsuak edo ahulak: 'bateratze indartsua' deituko zaio dialektoa desagerrarazteraino eraman lezakeen bateratzea denean; 'bateratze ahul' edo motela deituko zaio estandar edo beste aldaera baten eraginez dialektoak ezaugarri batzuk baino galtzen ez dituenean.</p><p>Bateratze joera bi mota hauek aurki daitezke hizkuntza berean zein dialekto berean: dialekto batzuetan mota bat eman daitekeen bitartean ondorengoan bestea gerta liteke (izan liteke, adidibez, bizkaierak bateratze ahula ezagutzea, gipuzkerak bateratze indartsua ezagutzen duen bitartean); baina dialekto berean ere eman daitezke: lexikoan, adibidez, dialekto batek ezagut lezake bateratze mota bat eta gramatika alorrean bestea. Honen arabera, berez, hizkuntza alor bakoitza besteetatik independiente izan daiteke eta ez luke beste alor bat behartuko.</p><p>Konbergentzia edo bateratze tipo biak aurkitzen dira alemanean, esaterako: Saxonia Garaian, Thuringia Mendebaldean eta Brandenburg Hegoaldean, adibidez, bateratze mota indartsua ematen omen da. Saxonia Garaia adibide bereziki hunkigarria omen da, zeinetan estandarraren interferentziaren ondorioz dialektoa ia-ia desagerrarazi den <ref type="bibr">(Bellmann 1998: 25)</ref>. Konbergentzia tipo ahul edo motela Alemania Garaiko dialektoen eremuan eman da, zeinek nagusiki ez diren hizkuntza kolokial deitutako formetara zuzenean egokitu, dialekto berria ('new dialekt' / 'Verkehrsmundarten', 'Grobmundarten'), erdi-dialektoa ('semi-dialect' / 'Halbmundarten') edo dialekto erregionalak deitu formetara baino.</p><p>Bellmann-ek Rhine Erdialdeko Hizkuntz Atlasa (MRhSA ) ikerketako datuak erabili zituen bateratze joera hauen azterketa burutzeko <ref type="bibr" target="#b16">(Bellmann 1998)</ref>. Atlas honetan inkesta-lekuetan bi belaunaldi inkestatu eta bien datuak maparatu ziren: 70 urteko belaunaldia eta 30-40 urtekoa. Horrela, belaunaldi bien arteko erantzunak batera ipiniz mapa kontrastiboak lortu ziren. Lanaren erdia inguru hartzen dute era honetako mapek. Ondorioz, aukera ederra eskaintzen du hizkera edo inkesta-leku bakoitzaren dialektotasun maila aztertzeko, bi talde-datuak konparatuz hizkuntza aldaketa-joeraren norabidea eta gradua neur baitaiteke: dialekto bakoitzaren edo inkesta-leku bakoitzean ezagutzen den forma zaharra, autoktonoa ere dei daitekeena, eta forma berria, edo mailegatutakoa, aztertzeko aukera dugu. Mailegatutako formen jatorria aztertzeko aukera ere eskaintzen dute mapek, ondoko adibidean ikus daitekeen legez: 'garaua edo bihia' kontzeptua lantzen duen maparen bidez bi hitzen arteko azterketa proposatzen da: batetik Germaniako erdi-mendebaldean erabiltzen den edo zen Gesäms berba eta, bestetik, Germaniako hizkuntza estandarreko formarekin identifikatzen den Samen aldaera. Belaunaldi bietan bi berba hauen ezagutza neurtzen da lanean: mapek erakusten dutenez, adinekoen erantzunetan jadanik badira ekialde partean, gesäms hitza bakarrik jasotzea itxaroten zen eremuan, aldaera lehiakidearen agerrera batzuk, kopuru txikietan bada ere; 30-40 urtekoen artean, aldiz, gesäms eta samen formen arteko harreman kualitatiboa alderantziz jarri da; zaharrenek jatorrizko hitza %88an gordetzen duten bitartean, 30-40 urte bitartekoek %35ean baino ez dute ezagutu eta erabiltzen. Belaunaldi desberdinen artean dialektoko forma zaharraren gutxitzeak eta forma berriaren gehitzeak erakusten du hizkuntza estandarreranzko konbergentzia eta kontrastearen urritzeko joera.</p><p>Euskararen kasuan bateratze edo hurbiltze joerak azterzeko Bizkaiko Arratian egindako ikerketan agertzen den joera ere adierazgarria dela deritzot. Ikerketa hau bateratze joera indartsu edo ahula den jakin asmoz burutu da. Bertan hizkuntzaren arlo desberdinak landu dira: aspektu fonologikoak, izen eta aditz morfologiakoak, sintaktikoak eta lexikoak. Guztira 100 ezaugarri ingururekin egin da galdesorta eta itaundu dira egindako datu-bilketan.</p><p>Informazio-emaileak hiru adinetakoak dira: adinekoak (60 urte baino gehiagokoak), helduak (40-45 urtekoak) eta gazteak (16-22 artekoak). <ref type="bibr" target="#b2">3</ref> Inkesta bidez jasotako datuak hiru multzotan banandu dira hizkuntza emaitzak modu ulergarrian ikusteko: hizkeraren oinarri dialektalari dagozkion datuak "bertakoa" izendatu dira, "kanpokoa" sailean hizkeraren oinarri dialektalari ez dagozkion datuak bildu dira eta "biak" sailean kokatu dira itaun bati erantzutean bi forma edo hitz jaso direnean: herriko oinarri dialektalari dagokion forma eta kanpokoa.</p><p>Datuen aurkezpenerako metodologikoki bi gune nagusi irudikatu dira: bertako hizkeren oinarri dialektala (bertan "betidanik" erabili izan diren forma eta hitzak) eta euskara estandar edo beste hizkuntza batetik oraintsu mailegatutako hitzak. Horrela, betidaniko formak, alde batetik, eta berriak edo kanpokoak, bestetik, bereizteko abagunea izango dugu. "Kanpokoa" izendapenean sartzen dira aldaera estandarraren eraginez bertan erabiltzen direnak eta beste hizkuntza batetik mailegatutakoak; kasu guztietan belaunaldi zaharrek erabiltzen ez zituzten aldaera eta berbak.</p><p>Bertako oinarri dialektala edo "adinekoen"a zehazteko aurreko ikerketa batean herri hauetan jasotako datuak erabili dira.</p><p>Helduen datuak kontuan hartuta (ikus 1. irudia) esan daiteke Arratian bertako hizkerari heltzen diotela nagusiki, hizkerako datuak Dimako %92tik Igorreko %82ra bitartean dira eta (Lemoan ez da jende helduen daturik). Belaunaldi honetako jendea ez da euskaraz eskolatua izan, bai ostera euren seme-alabak. Aldaera estandarrarekin duten harremana nagusiki euren umeen eta telebista edo komunikabideen bidezkoa da; bakar batzuk alfabetatze eskoletan ere izanak dira, hala ere. Honenbestez, esan daiteke aldaera estandarrarekin ez dutela harreman iraunkorrik, gehienetan oso harreman puntuala edo noizean behingoa dela. Hala eta guztiz ere jada bataz beste %8,6an euskara estandarreko ezaugarriak erabiltzen dituzte (gehien Areatzan %11rekin eta gutxien Diman %0rekin). Arratiako hizkerako ezaugarriak bataz beste %86an erabiltzen dira. Itaun batzuetan erantzun bikoitzak jaso dira (bertoko eran eta kanpokoan, Arratiako hizkeraren ezaugarria eta estandarrekoa); hala ere, oso ehuneko txikietan gertatu da hori (Diman %8arekin gehien eta Zeanurin %3rekin gutxien). <ref type="bibr">140</ref> Galtzen ari diren bertoko hitzen artean kokatzen dira, beteak beste, olgau (jolastu), ustrukue (ortzadarra), leie (izotza), artega (urduri), artesa (zuzena), udagoien (udazken), bagile (ekaina), semendi (azaro)…</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">irudia</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hurbiltze joera Arratian: helduak</head><p>Gazteen kasuan gauzak aldatuz doaz; gauzak asko aldatu dira, hobeto esanda. Belaunaldi hau euskaraz eskolatua izan da (askok oraindik ikasten dihardute) eta ondorioz aldaera estandarrarekin harreman iraunkorra eta etengabea dute.</p><p>Jasotako datuei erreparatuz lehen begiradan bertako aldaeraren erabilera, Igorreko kasua salbu, Zeanuritik Lemoarantz apalduz doala esan behar da. Baserritik hiriranzko bidea hartzen du bertako hizkeraren galtzeak; edo bestela esanda, hiritik baserrirantz dator euskara estandarraren indarra: hiritik zenbat eta urrunago izan euskararen aldaera estandarraren eragina txikiagoa da. Hala, Zeanurin jaso dira bertako hizkerari erakusten dioten atximenduaren datu esanguratsuenak; %81ean eusten eta erabiltzen dituzte herriko forma eta berbak gazteen artean. Hiriranzko bidean, bertako hizkeraren ezaugarriak apalduz, Areatza dator ondoren %75ko erabilerarekin eta Artea hurrengo %73koarekin. Gorago esan legez, Igorreko %79ko erabilerak mozten du beheranzko joera, baina Lemoak berriro jartzen du beherantz %71koarekin (ikus 2. irudia). Beraz bertako hizkeraren ezaugarrien galera %15tik (Zeanurin) %27ra (Lemoa) bitartean kokatzen da. Dimako kasua berezia dela uste dut eta iruzkin bat behar duela. Erantzun bikoitzen garrantzia oso txikia da Dimako %8 kontuan ez bada hartzen (Zeanurin %4, Areatzan %3, Artean, Igorren eta Lemoan %2).</p><p>Dimako kasuan kontuan hartu behar da informazio-emaileak 16 urteko gazteak izan zirela; hau da, gainerako herrietan baino gazteagoak. <ref type="bibr">4</ref> Hala izanik ere, benetan beldurtzeko moduko datuak agertzen direla ezin da ukatu: %52an baino ez diete eusten bertako ezaugarriei eta %40an erabiltzen dute aldaera estandarra. Euskaraz </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">irudia</head><p>Hurbiltze joera Arratian: gazteak herrika %etan eskolatua den lehen belaunaldia dela jakinik bertako formen desagertzea hain indartua izateak zer pentsa eman beharko ligukeela uste dut. Datuak datu, ezagutza pasiboari dagokionez behintzat, helduen eta aitaita-amamen berbakera ulertzeko gai direla pentsatu behar dugu euren arteko komunikazio-arazoen berririk ez dugulako.</p><p>Lemoako %71 horrek ere badu iruzkindu beharra. Izan ere, inkestatu ziren sei gazteren artean batek 16 urte zituen. Inkestatu gazteena izan zenak gainerakoengandik bestelako datuak eskaini zituen: %46tan kanpoko legez sailkatu diren aldaera estandarreko ezaugarriak jaso dira, gainerako inkestatu gazteetan %38tik 17ra bitartean eta bataz beste %21ean dagoenean.</p><p>Dimako gazteen eta Lemoako gazteenaren datuak kezkagarriak dira tokian tokiko hizkeraren aldeko jarrera dutenentzat eta, oro har, hizkuntzaren zelan edo halango orekaren aldeko jarrera dutenentzat. Dimako %40 eta Lemoako gazteenaren %46ko datuak garbi adierazten dute eten bat dagoela hauen eta 20-22 urteko gazteen artean. Urte gutxitan aldaketa handia eman da eta datuen norabideak horrela jarraituz gero urte gutxi barru ikaragarrizko aldaketa emango du gaiak.</p><p>Belaunaldi honetan aldaera estandarraren sartzea indartsua da eta %21,6an kokatzen da bataz besteko datuetan agertzen denez (Zeanuriko %15etik Lemoako %27ra bitartean).</p><p>Helduen datuok gazteenekin erkatuz jatorrizko oinarri dialektalaren indarra neur daitekeela uste dugu. Horretarako helduak alde batetik eta gazteek bestetik zenbatetan erabiltzen duten kontuan hartuko dugu: batetik esan behar da helduen atxikimenduari buruz %86,2an gordetzen dituztela oinarri dialektaleko datuak; hau da, %13,8an galdu dituztela hor "betidaniko" hizkerako forma eta egiturak. <ref type="bibr" target="#b4">5</ref>  Datuak kontrastatu eta ziurtasun batekin tratatzen hasteko ikerketa gehiago egin behar den arren, eta datu hauek huts-hutsean hartuz, esan daiteke Arratian, orain arteko bilakaera ikusiz eta aldaketarik ematen ez bada, belaunaldi bakoitzean gutxi gora-behera %10ean galtzen dela bertako hizkera.</p><p>Baieztapen honek, hala ere, zehaztasun batzuk behar ditu: batetik aipatzen dihardugun galera hau ez dela aritmetikoa izaten geometrikoa baino; zenbat eta aurerago joan orduan eta abiadura handiagoa hartzen du, gainerako faktoreak aldatzen ez diren bitartean. Bestetik, aldaera estandarraren sartzean eskolak daukan zeregina oso garrantzitsua dela ezin ukatuzkoa da eta Arratian ere hala gertatu da, oraintsu arteko eta oraindik ere kasu batean baino gehiagotan, eskolan irakasten izan den hizkuntza eredua aldaera estandar "puru-purua" izan delako. Alabaina, gauzak aldatuz doaz astiro-astiro eta gaur irakasten den hizkuntza eredua eta duela, demagun, 10 urte irakasten zena bera izan arren, herriko forma, egitura, esamolde eta lexikoari garrantzi handiagoa ematen zaio eta zelan edo halango prestigioa ere lortu du. Honek, itxura batean hala izan beharko luke behintzat, bertako ezaugarriei modu doiago batean eutsi eta erabiliko direla ustera eramaten gaitu.</p><p>Bada oraindik beste alderdi bat sakonki ez bada ere aipatu beharrekoa. Sarri aipatzen eta itauntzen da gaiko literaturan hizkuntza aldaketa gertatzen denean zein alderdi edo arlotatik hasten den aldaketa hori. Egia aitortu behar bada, orain artean ez da teorizazio mailan gaia behar bezala sakondu eta maila teorikoan arazoari ekin aurretik datu gehiago eta aberatsagoak batu behar dira, era honetako ikerketak ugarituz eta bide batez dialektologia sozialari garrantzi handiago emanez.</p><p>Arratian egindako ikerketan lortu diren datuak hasiera baino ez izan arren, eta ondorioz behin behinekotzat jo behar diren arren, gaiaren lehen planteamendua egiteko gaitasuna ematen digute. Izan ere, galdesortak fonologia, morfologia, sintaxia eta lexikoari buruzko itaunak biltzen ditu. Horregatik lortutako emaitzak arloka aztertuko ditugu, euren arteko desberdintasunak agerian utzi asmoz. Datu hauek gazteei bakarrik jaso zaizkie, ez da helduekin ez datu fonologiko, ezta morfosintaktikorik jaso.</p><p>Hizkuntza arlokako datuak azterturik Arratian egin den ikerketa honetan hizkuntza aldaketaren aintzindaritza datu morfosintaktikoek erakusten dute. Artean izan ezik beste herri guztietan kanpoko ezaugarrien kopuru handienak arlo honetan biltzen dira. Emaitzak bi multzotan sailkatu dira (ikus 3. irudia): batetik, Zeanuri (%26), Areatza eta Artea <ref type="formula">(%25na)</ref>  Hizkuntza arlo desberdinen arteko desberdintasunak erregulartasun handi batez jasotzeak emaitzen fidagarritasuna indartu egiten dute, zalantzarik gabe. Sei herritatik lautan hurrenkera berean azaltzen dira (morfosintaxia, lexikoa eta fonologia), eta hurrenkera hori jarraitzen ez duten bi herrietan oso kopuru txikiengatik ez dute jarraitzen (Artean lexikoa gailentzen zaio morfosintaxiari puntu bitan eta Diman fonologia lexikoari beste bitan). Azken bi herriotako datuek ez dute gainerakoetan jarraitzen den hurrenkera desitxuratzen, gure ustean behintzat. Ondorioz, esan daiteke, Arratian eta ikerketa honen arabera, hizkuntza aldaketa ezaugarri morfosintakikoekin hasten dela eta fonologikoekin amaitu. Lexikoa bien artean kokatzen da eta ez da, maiz hala dela uste izan dugun arren, hizkuntza aldaketaren motor edo piztaile.</p><p>Bada, azkenik, datuotan beste aspektu bat iruzkindu nahi nukeena, herri bakoitzak bere ezaugarriei dion atxikimendua; nolabait esateko datuen dialektotasuna.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">irudia</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Arratiako hizkeraren dialektotasuna</head><p>Horretarako herrika datu guztiak (gazte eta helduenak) baturik taula bakar batean ezarri dira hiru multzotan banandurik: bertako ezaugarriak, kanpoak eta erantzun bikoitzak. Era honetan neur daiteke herri bakoitzak zein portzentajetan eusten dien jatorrizko ezaugarriei edo bestela esanda herri bakoitzaren dialektotasuna.</p><p>Datuetan azaltzen denez Zeanuri da Arratian dialektotasun handiena erakusten duena. Dialektotasun kopuru handienak hirigunetik urrun diren herri txiki eta isolatuetan jasotzen direla uste izan da aspaldidanik. Datu hauetan uste hori baieztatuta gelditzen da; izan ere dialektotasun handiena biltzen duena hirigunetik urrunen den herrian ematen da; eta herri horretatik abiatuz hirigunerantz jaisten goazela dialektotasuna ere beherantz doakigu (Dimako datuak salbuespentzat utziz). Horrela Zeanuritik Lemoara dialektotasuna urrituz doa gradualki portzentaje txikietan (%84-tik %80ra lehen lau herrietan, gero 11 puntuko beheratze bat ezagutzeko Lemoan). <ref type="bibr" target="#b5">6</ref> Dialektotasunaren kopuruari dagokionez datu fidagarriak izateko ikerketa gehiago eta sakonagoak egin behar diren arren, datu hauek norabidea adierazten dute eta intuitiboki pentsatzen zenarekin ez dago kontradikziorik, alderantziz baino. Hau izan daiteke aldi berean kostuak txikitu eta ondorioak maximalizatzeko aldaera erregional berriek duten bideetarik bat. Aldaera estandarretik urrun diren ezaugarriei eusteak kostu handia du, ahalegin handia egin behar da eta. Aldiz, aldaera estandarren teknikak erabiliz, egituralki antzekoagoa bihurtuz desberdintasunari eusteko indar gutxiago gastatu behar izaten da.</p><p>Kontzeptualizazio lan honetan Günter Bellmann-ek (1998: 23) 'Base dialektala' kontzeptua erabiltzea proposatzen du, eremu txiki baten, herri txiki eta urrunduetan batez ere, berba egiten den eta estandarrarekin hizkuntz ezaugarri kopuru handienaz bereizten den aldaera izendatzeko. Alemanaren eremuan %10 inguru izango dira base dialektalean mintzatzen direnak haren ustez. Gaur egun base dialektalak herriz kanpo mugitzen ez diren eta komunitate lokaleko kide zaharrentzat bakarrik dira komunikazio era.</p><p>'Base dialektala' "betidaniko" hizkeran ari diren hiztunek osatzen dute; dialektologia tradizionalean hiztun "ez-kutsatuak" deitu izan direnak, alegia. Beraz, gurasoak herrikoak dituzten herritik irten gabeko hiztunak. Hiztun hauek dira, hain zuzen ere, dialektologia tradizionalerako baliagarri diren informatzaileak.</p><p>Aldaera dialektala beste aldaera dialektal batekin edota aldaera estandarrarekin bi forma desberdinez hurbildu zein urrundu daiteke: barne berregituraketa bidez edo berrikuntzen ondorioz. Gainera, barne berregituraketa eta beste aldaketa endogeno batzuk dialektoen arteko ukipenak eraginak izan daitezke. Hipotesitzat jotzen da aldaera estandarreranzko konbergentzia indarturik izango dela aldi berean prozedura 'naturalagoa' bada; hau da, barne aldaketen aldekoagoa bada. Oztopatua izango da forma estandarra dialektokoa baino 'eznaturalagoa' bada.</p><p>Horrela dio <ref type="bibr">Taeldeman-ek (1998)</ref>: estandarraren prozesua oso 'antinaturala' bada eta aldaera dialektalari dagokion prozesua 'naturala' bada, dialektoak gorde egiten du bere egitura.</p><p>Estandarraren eta dialektoen arteko edo dialekto bi edo gehiagoren arteko konbergentzia prozedurak ulertzeko hiztunek hurbiltze edo urruntze prozesu sozialetan, adibidez, "identitate ekintzetarako" hizkera nola erabiltzen duten aztertu behar da <ref type="bibr">(Auer 1998: 8)</ref>. Gizarte konplexu batean taldeak ez daude eta muga geografiko gisa definituak, espazio sozial dinamiko bezala baino.</p><p>Konbergentzia indartsuek errazago dute guztiz burutuak izateko konbergentzia ahulak baino.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.5.">Bateratzearen abiadura eta eredua</head><p>Gure arteko hainbatek hizkerak eta dialektoak modu pasibo batean ikusten baditu ere, eta dialekto edo hizkeretako hiztunen ereduak pertsona zaharrak, inoiz herritik irten bakoak, guraso eta aitaita-amamak bertakoak dituztenak, senar edo emaztea bertakoa dutenak, inoiz ez dutenak irakurtzen eta kanpoko berbakera inoiz entzun bakoak badira ere, errealitatea jada ez da hori; hori baino nabarragoa da. Hizkera edo herri baten ordezkari ezin da, besterik gabe, ezaugarri horiek biltzen dituen jendea izan; ez hizkuntza kontuetan, ezta bizitzaren gainerako alderdietan ere.</p><p>Ingurumen batean bizi den jendeak hitz egitean sortzen duena da bertako hizkera. Hizkera hori monolitikoa ez dela begi bistakoa da. Herri horretan bizi diren adinduak eta gazteak, ez ikasiak eta ikasiak, bulegariak eta baserritarrak, kanpotik etorritakoak eta bertan jaioak elkarrekin bizi dira eta elkarren artean mintzamolde hetereogeneo batean ulertzen dute.</p><p>Gazte eta zaharren artean mintzamolde guztietan desberdintasunak badira ere, egungo euskararen kasuan are nabarmenagoak dira. Jende zaharren oinarri dialektala arrailduz doakigu bereak ez diren eta beretik sortu ez diren ezaugarriak sartuz doakiolako gazteenen ezpainetatik.</p><p>Diogunaren adibide Arratiako ikerketan fonologia arloan gazte eta helduen arteko azterketako datuek erakusten dutena (ikus 5. irudia). Dimako datua (%36 kanpo ezaugarriak erabiltzen dituzte gazteek) benetan ikaragarria edo beldurgarria 7 den datua albo batera utziz, Artea, Lemoa eta Zeanurin kopuru berdintsuak jaso dira (%17, %15 eta %12, hurrenez hurren). Euskara estandarrean eskolatu den lehen belaunaldiak herriko lagunekin eta etxean, hizkuntza informalean, portzentaje hauetan kanpoko ezaugarriak erabiltzeak aldaera estandarraren indarra noraino hel daitekeen erakusten du. Igorre eta Areatzako sail honetako datu baxuak "biak" saileko (herriko eta estandarreko erantzunak biltzen ditu) kopuru handietan ezkutatzen dira.</p><p>Oro har, euskal ereduetako eskoletan hezitako gazteak direla kontuan hartuz, eta euskara batuan hezi behar zela defendatzen zen sasoian eskolatuak, esan daiteke (Dimako kasua aparte utziz) eredu propioa, "betiko" dialektoaren formak arraildu badira ere oraindik gordetzen direla.</p><p>Hizkuntza arlo honetan galduz doazen ezaugarrien artean bat aipatuz berba bokalez amaitzen denean artikulua hartzean "betidaniko" arratieran ohikoak ziren arau morfonologikoak desagertzea da: -a amaierako absolutiboa (-ea / -a), -u amaierako absolutiboa (-ue / -ua) edo -i amaierako absolutiboa (-ie / -ia) aurkitzen dira.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">irudia</head><p>Hurbiltze joera Arratian: fonologiari buruzko datuak</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Dialekto eta estandarraren arteko aldaera berrien sorrera</head><p>Dialekto eta estandarraren arteko harremanetan, bateratze joeretan, bitarteko aldaerak sortu ohi dira usu, ikerketa desberdinek erakusten dutenez. Peter Auer eta Frans <ref type="bibr">Hinskens-ek (1996: 7)</ref> lau aldaera maila bereiz daitezkeela diote: estandar nazionala, estandar erregionalak, dialekto erregionalak edo erregiolektoak eta dialekto tradizionalak, 6. irudian ikus daitekeenez. <ref type="bibr">Auer / Hinskens 1998: 7-tik</ref> hartua.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">irudia</head><p>Aldaera estandar nazionala kokatzen da hirukiaren goi erpinean; aldaera hori da maila jasoena eta prestigiotsuena. Hirukiaren oinean, behe aldean, ohiko dialektoak edo dialekto tradizionalak kokatzen dira. Gainerako aldaerak kontuan izan gabe ere, bi aldaera hauek bestelako aldaera diafasikoak ere izan ditzakete. Hirukiaren goi eta behealdearen tartean beste aldaera batzuk ere sor daitezke, bateratze motaren arabera, baina ez da nahitaezko eta ez dira, berez, beti sortzen. Sor litezkeen aldaerak bi dira: aldaera erregional estandarrak edo eskualdeko aldaera estandarrak eta erregiolektoak edo eskualde-berbetak.</p><p>Aldaera erregional estandarra edo eskualdeko aldaera estandarra nazioko aldaera estandarraren azpialdaera bat da: hots, eskualde horretako hiztunek hizkuntza estandarrean dihardutenean ekoizten duten aldaera. Itxura guztien arabera oinarri dialektal desberdina duten hiri bitan, adibidez, ez da aldaera estandar berean hitz egiten. Maila handiagoko edo txikiagoko desberdintasunak izaten dira.</p><p>Euskararen kasuan ez da honelako ikerketarik gauzatu orain artean eta ezin da baieztatu hiri desberdinetan ekoizten den hizkera estandarra oso homogeneoa den ala oinarri dialektalari dagozkion desberdintasunak azaltzen diren. Dena den, aldaera hauek dinamikotzat jo behar direnez, baiezta daiteke duela demagun 20 urte Bilbon eta Donostian edo Iruñean, kasurako, ekoizten ziren aldaera estandarrak hurbilago zeudela gaur egiten direnak baino? Hala balitz esan gurako luke hiztunen gogoaren arabera aldaera erregional estandarrak aldatuz joan daitezkeela, hurbilduz nahiz urrunduz.</p><p>Erregiolekto, dialekto erregionalak edo eskualde-berbetak, aldiz, euskalkian edo dialektoan arituz, herriko hizkera baino modu jasoago batean jarduteko gogoz egindako ahalegina da; edo gura bada, herriko hizkeraren eredu idatzia. Euskararen kasuan, kasu batean baino gehiagotan, euskalki literario historikoekin erka daitekeen kontzeptua dela esango genuke. Jatorriz bi kontzeptuok, eskualde-berbeta eta euskalki literarioa, ez lukete inolako loturarik, bi helburuz lortutako aldaerak direlako. "Euskalki literarioa" aspaldi asmatutako kontzeptua dugu, garai batean ekoizten ziren idatzi mota desberdinei lotua. Euskara batuaren sorreran eta euskara estandarra hedatuz gero beste funtzio batzuk hartuz joan da euskalki literarioa kontzeptua: hain zuzen ere, batua edo estandarra baino hiztunengandik hurbilagoak ziren eredu edo aldaerena. Horrela, euskararen kasuan eskualde-berbetatzat aldaera hau izan da proposatua eta erabilia eremu desberdinetan, baina ez denetan.</p><p>Hirukiaren inguruan bildutako aldaeren rola ere aztertua izan da. Horrela egiten du, adibidez, Van Coetsem-ek (1992: 30 eta h.) aldaera emaile edo aktiboa eta aldaera hartzailea bereizten dituenean. Dialektoko hiztunek estandarreko material lexiko zein hizkuntza ezaugarriak bereganatzen dituztenean rol agentea dutela esaten da. Horrela estandar erregionala dialektoko hiztunek nazio mailako estandarra lortzeko egiten duten arrakasta partzialeko ahalegina baino ez litzateke izango. Gai honen inguruko ikerketa asko dago, baina aldaera berrien sorreran ematen diren hizkuntza mekanismoak oso gutxi ezagutzen dira oraindik.</p><p>Bateratze prozesu hauek lehen-lehenik lexikoan agertzen omen dira eta ondoren gramatikan. Arlo hauetan aldaera ez-estandar eta estandarraren arteko desberdintasunak oso nabariak dira entzunenerako, arlo fonetikoan eman daitezkeenak baino gehiago. Hala ere, gorago esan denez, gure ikerketan ez da horrela azaltzen, Arratian egin den ikerketan forma estandarrerako joera nagusiena morfosintaxian agertu delako.</p><p>Dialekto erregional edo erregiolektoen eta estandar erregionalen sorreran hiri handien rola handia omen da ikerketen arabera. Gehienontzat ezaguna den adibidea jartzeko, Andaluzian gaztelania estandarraren bi erregional aldaera sortu dira: 'norma sevillana <ref type="bibr">' eta 'malagueño' deituak (Villena 1996)</ref>. <ref type="bibr">Auer eta Hinskens-ek diotenez (1996: 10)</ref>, eskualde-berbeta edo erregiolektoen garatzeak ez dakar automatikoki dialekto tradizionalen heriotzea. Aitzitik, bizi-iraupenaren berme omen lirateke (hori gertatzen omen da Calabria eta Italiako hegoaldeetan Trumpert/Maddalon 1988 eta 1994-en arabera).</p><p>Erregiolektoa edo eskualde-berbeta, edonola eratuta egonda ere, ohiko dialekto eta hizkerak babesteko tresnatzat ulertzen badira (eta dialektoko ezaugarriez eraikita badago) dialekto horiek babesteko aldaera berri hau indartzea izango litzateke jokabide egokiena. Ondorioz, eskualde-berbeta ondo normalizatzen ez den bitartean aldaera estandarraren indarrez baturanzko joera ez da geldituko. Erregiolektoa dialekto tradizionalak eusteko dituen baliabideetarik indartsuena da.</p><p>Hala ere, kontrako kasuak ere gerta daitezke, guztiz desagertu ere egin baitaitezke (Goi Saxonian gertatzen omen da).</p><p>Dena den, eta kasu guztiak aipatzeko, estandar eta dialektoen arteko bateratzeak edonon ematen badira ere, itxuraz oinarrizko baldintza bat bete behar da hori gerta dadin: dialektoak denek onartzen duten goi mailako estatusa izan behar du. Suizako aleman dialektoek, adibidez, ez dute ezagutu estandar erregionalerako hurbiltze edo bateratzerik. Eta izaera hori omen da, hain zuzen ere, bateratze joera galerazten duena.</p><p>Kasuistika guztia biltzen duen irudia sortu dute Auer eta Hinskens-ek (1996: 11):</p><p>Auer &amp; Hinskens 1996: 11-tik hartua.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">irudia</head><p>Horixe gertatu omen da Danimarkan Tore <ref type="bibr">Kristiansen-en esanetan (1998: 120)</ref>, non dialekto tradizionalean %5 baino gutxiagok hitz egiten duen, zaharrak barne; denak jabetu dira Copenhage-ko aldaeraz.</p><p>Euskararen estandarizatze lanetan norantz goazen eta zein abiaduretan itaundu beharra dugu, nor edo nork kontrolatzen duen edo inork kontrolatzen ez duen edonora ote goazen.</p><p>Iduriz inork planifikatu gabe eta inork kontrolatzen ez duen aldaerak sortuz omen doaz euskararen eremuan. Hori da, esaterako, ondoko esaldiarekin "hizketa hibrido bat, ez batua ez euskalkia, nagusitzen ari da eskualde askotan, belaunaldi berrien artean" salatzen duena J. <ref type="bibr">M. Elexpuruk (1996: 524)</ref>. Baina zantzu guztien arabera delako "hizketa hibrido" hori ez ote da Auer eta Hinskens-en hirukiko aldaera estandar berriari dagokion estatusa lukeen aldaera?</p><p>Terminologia eta aztertze eredu hau aintzat hartuz, Goikoetxeak bere tesian (2003: 225-29) proposatzen duen euskalki literarioak 'aldaera erregional estandarra' eta 'erregiolektoa'ren papera beteko luke. Goikoetxeak euskal diglosiako zer irakatsi zehazten duenean hiru hizkuntza maila proposatzen ditu: a) euskara batua; b) euskalki literarioa; eta c) azpieuskalkiari dagokion maila. Auer-Hinskens-en lau mailako sistemaren ordez hirukoa proposatzen du Goikoetxeak. Lehen edo gorengo maila bi ereduetan bera izango litzateke: estandar nazionala edo euskara batua. Goikoetxearen b) maila ere (euskalki literarioa) arautua eta normalizatua egongo litzateke. Hirugarren eta azken maila (herriko edo etxeko aldaera), aldiz, arautu gabe. Goikoetxearen lana ondo interpretatu badugu 8. irudia genuke.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">irudia</head><p>Egia esan, aldaera estandar nazional eta dialekto tradizionalen defendatzaileak batetik, eta bestetik eredu bien tartean beste aldaera bat proposatzen dutenak indar handiak jarri dituzte.</p><p>Goikoetxeak b) puntuan aipatzen duen euskalki literarioaren lekuaz hainbat urte lehenago gogoeta eskatu zuen B. Oihartzabalek ere (1993: 88) ondokoa zioenean: "Literatur euskalkien egoera, ordean, ez da hain argia, eta, ene aburuz, komeni litzateke haietaz berriz gogoeta zenbaiten egiten has bagintez, osoki aldatu baita Arantzazuko biltzarraren garaian zegoen egoera. Are gehiago bazter euskalkien kasuan". Aburu argia, izan ere, batuaren sorreratik ordura arteko euskalki literarioek, ordura arteko aldaera estandarrek, beste estatus bat behar zuten ez baitziren jada, ordura arte bezala behintzat, beharrezko euskara idatzirako.</p><p>Deba Ibarrean, aldiz, hizkuntza plangintzan diharduen taldeak bi aldaeratara mugatzen dute euren proposamena: herriko hizkera eta euskara batua.</p><p>Horretarako Elexpuruk (1996: 525) 'berbeta-eskualdea' kontzeptua lantzen du; Leintz (Arrasate, Aretxabaleta, Eskoriatza eta agian Aramaio), Oñati, Bergara, Eibar eta Elgoibar izango lirateke 'berbeta-eskualdeak' Deba-arroan, adibidez. Elexpuruk ez du sakontzen kontzeptuaren nozioan, baina itxuraz dialektologian sarri erabiltzen den 'hizkera' kontzeptuaren pareko edo izan daiteke, ematen dituen gune geografikoak kontuan izanik. Hots, hizkera bera edo oso antzekoa darabilen eskualdea. Nozio geolinguistikoa litzateke eta ez hizkuntza aldaerari dagokiona. Gune geolinguistiko horietan sortu beharko lirateke, haren aburuz, berbeta aldaera trinko-idatziak bertako ekoizpenak eredu horren bidez bideratzeko. Eredu idatzi hori inguruko hizkuntza ezaugarriez osatu eta hornituko litzateke, ahozko aldera bizitik oso gertu. Eredu idatzi hori ahozkoan oinarrituz, ahozkotasunari dagozkion ezaugarriak ezabatuz eta kode idatziari dagozkionak gehituz lortuko litzateke. Aldaketak urriak dira oso.</p><p>Deba-arroan eredu propioa lantzen dihardutenek ez dute "erregiolekto" edo "euskalki literarioaren" beharrik ikusten edo, hobe esanda, herri hizkera bihurtu dute "dialekto erregional".</p><p>Erabaki honen inguruan aurkako iritzi asko bildu da, nahiz gutxi idatzi den. Euren ereduaren ezaugarrien inguruko eztabaida alde batera utziz, arrazoi historiko, linguistiko eta soziolinguistikoak aipatzen dituzte euren proposamenaren defentsan.</p><p>Denetarik garrantzitsuenak azken hauek direla esango nuke. Izan ere, euren herri hizkeratik oso urrun eta arrotz ikusten dituzte bai batua, bai bizkaiera klasiko edo literarioa. Deba ibarrak baldintza asko betetzen ditu honelako esperientzia bat aurrera ateratzeko; bestalde, sasoi konkretu batean abiatzen da. Kontuan izan behar da euren eredua osorik eta gaur ezagutzen den indar eta finkotasunez gorpuztu aurretik sortuz joan diren herri aldizkari eta telebistak, batetik; hirigune garrantzitsuak biltzen dituztela eskualdean eta batuaz kanpo eredu idatzirik ez dutela izan. Hau da, faktore soziolinguistiko asko eta aldekoak izan dituztela proposamena aurrera ateratzeko, nahiz kanpotik nagusiki kritikak egin zaizkien.</p><p>Proposatzen duten eskemaren irudia ondokoa litzateke (9. irudia):</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9.">irudia</head><p>Euskalki literarioen erabilerak Iparraldean Hegoaldean baino arrakasta handiagoa izan du: "Badakigu iparraldean lau euskalkietatik biga direla publikoan erabili: zuberera eta lapurtera. Idatziz bederen, ez dute hanbateko tokirik ukan ekialdeko behenafarrerak eta mendebalekoak" <ref type="bibr">(Davant 1996: 531)</ref>.</p><p>Zubererari dagokionez Davantek berak Zuberoan idazten dena aztertu ondoren ondokoa dio: "Batuaren eragin nabarmena du gaurko zubererak hiztegian eta grafian, belaunaldi nahiko berrietan bederen" <ref type="bibr">(idem, 534)</ref>.</p><p>"Lapurtar baxenabarrerak" Oihartzabalek izendatzen duen legez egoera bestelakoa du (1993: 88): "Lapurtar baxenabarrerak, oro har, eta horretarako denbora hartuz ere, besoak zabal ireki dizkio idazketa batuari (…) Hargatik bere baitan hizkuntza eredu gisa dauzkan balio handiak (…) beretzat atxiki ditu".</p><p>Auer eta Hinskens-en irudian jada agertzen diren aldaera desberdinen garatzea baino ez da azkenaldion Iparraldeko euskalkietan gertatzen ari dena. Batetik, hiru euskalki edo eredu izatetik bitara pasatzea; eta bestetik, erabiltzen diren euskalkiak aldatuz edo egokituz doaz euskara estandarraren eraginpean, honen ezaugarriak eurenganatuz, baina aldaera propio gisa baliatzeko prestatuz. Dena den, hemen ere zehaztu beharko litzateke Auer-Hinskens-en irudian zein leku hartzen duten euskalki berri hauek; edo irudi horren ordez Goikoetxeak irudikatzen duen hiru mailakoa den.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Eskualde-berbeta</head><p>Molde eta helburu desberdinetako lanetan aztertu da base dialektal edo dialekto tradizional eta aldaera estandarraren arteko continuuma. Continuum honen bi muturrak argi badaude ere, barnean gertatzen ari denaz, gerta daitekeenaz edo gertatu beharko litzatekeenaz gure artean ez daude gauzak argi eta gutxiago adostuta. Egia esan behar bada, hizkuntza plangintzari dagokion gaia izan arren, izatez eta planifikazio handirik gabe, intuizioz edo hizkuntzaren kalitateari eutsi nahiz edota euskalkiak estandarraren erasorik babestu nahiak euskalkien alderako joera berpiztu egin da azkenaldion.</p><p>Batetik Iparraldekoen tradizioa dugu, euskara batua onartu arren maiz euren euskalkietan idazten jarraitu dutelarik. Bai lapurtera-behenafarrera, bai zubereraz, modu batean zein bestean, ezaugarri batzuk gorabehera jarraitu dute idazten eta ez da ohitura horren kontra iritzirik sortu. Ez batuzale amorratuenen aldetik batuaren ordez euren aldaera erregionala erabiltzen dutelako, ezta euskalkien zale itsuenen aldetik, jatorrizko euskalkia bere izaera garbian erabili ordez batutik hartutako osagai batzuk nahasi dituztelako.</p><p>Hegoaldean, ostera, bestelako hots eta kalapita sortu izan da euskalkien erabilera dela eta, maizegi honen erabilera eremua ahozkora mugatu nahirik.</p><p>Aldaera estandarraren aurrean eman diren bi joera eta jokaera desberdin hauek gauza asko adieraz lezaketen arren, eta horretan sartu gabe, gure inguruko lurraldeetan jada gertatu diren joerak errepikatu baino ez dituzte egiten. Hizkuntza berean, lurralde batzuetan aldaera estandarraren eta dialektoen arteko berdintze azkar eta indartsuak ezagutu izan diren bitartean, beste lurralde batzuetan berdintze motel eta lasaiak ezagutu dira.</p><p>Orain arteko berdintze joera hauek planifikatu gabeak izan dira, gertakari horren konszientzia garatu gabea izan delako. Euskararen kasuan bi joera desberdin horien ondorioak bere osotasunean aztertu gabe badiraute ere, Arratian egin den azterketan azaltzen diren emaitzak garbi erakusten dute bateratze indartsuaren ondorioa zein den eta nora garamatzan.</p><p>Arratiako aipatzen ari garen datuak gaiari buruzko lehen ikerketaren datuak badira ere, aurretikoa da, bai Bizkaialdean, ere baita beste batzuetan ere, tokian tokiko Goikoetxeak, Mendebalde Kultur Alkarteko kideak, bere tesian (2003: 60) hizkuntzaren oreka gordetzeko beharko liratekeen aldaerez berba egitean hiru hizkuntza aldaera proposatzen ditu: euskara batua, bizkaiera literarioa eta lekuan lekuko hizkerak edo azpieuskalkiak, "(…) ezen gure kriterioa euskara batutik ahal denik gutxien aldentzea baita" (Idem, 42). Funtsean Auer eta Hinskens-en planteamendua errepikatzen duela iruditzen zait.</p><p>Gaiari dagokion literaturan behin ere ez da aipatzen eskualdeko estandarra. Ba dira, ostera, eskualde-berbetari buruzko aipamenak.</p><p>Gorago esan da eskualde-berbeta edo erregiolektoa dialekto eta hizkerek guztiz ez galtzeko darabilten urrats estrategikoa dela. Aldaera estandarraren erasoari aurre egiteko erabiltzen duten aldaera. Berezko estrategia dela esan daiteke, kasu batzuetan edo dialekto batzuetan garatuago dagoena edo modu zehatzago batean garatzen dena. Alabaina, marko honetako teorizazioak eraiki aurretik sortu dira hizkuntza eta lurralde desberdinetan erregiolektoak. Sortze horrek dialektoetako hiztunen idiosinkrazian txertatuta dagoela pentsaaraztera garamatza, dialektologia tradizionalean aipatzen den dialektoen funtzio bereizle eta bateratzean, hain zuzen ere.</p><p>Eskualde-berbetaren funtzio edo zereginen artean dialektoa aldaera estandarretik babestea eta dialektoa prestigiatzea dela aipatu beharko lirateke. Babestu egiten du aldaera estandarraren aurrean harresi bat eginez. Aldaera estandarreko izpiak horma horretan irradiatzen dira eta aldaera horretan eragiten dute, baina ez dira dialektoetaraino heltzen; eta heltzen direnean ahulago egiten dute.</p><p>Eskualde-berbetaren zeregina ez da bere itzalpean biltzen dituen dialekto tradizionalen ezaugarri guztiei eutsi eta eremuz kanpoko ezaugarririk ez hartzea. Eta ondorioz ezin eska dakioke dialekto tradizionaletan aurki daitezkeen ezaugarri guztiak izatea. Hauek erabiltzen duten estrategian aldaera hibrido bat izango da. Biltzen dituen dialektoen eta estandarraren ezaugarriak dituen aldaera hibridoa.</p><p>Bestalde, dialektoak prestigioa irabazteko bide ere bada. Dialektoa ahozko espresiotik idatzira pasatu edo heltzean prestigioa irabazten du komunitateko eta kanpoko hiztunengan. Ahoz berba egiteko ez eze idazteko ere baliagarria bihurtzen da horrela dialektoa eta honek duen distira eskuratzen du.</p><p>Eskualde-berbeta hau zenbat eta normalizatu edo arautuago izan bere zeregina modu zehatzago eta osoago batean beteko du. Eredu trinkoagoa izatean, osagaien zereginak zehatzagoak izatean eta inbentario gramatikala itxia izatean fidagarritasunean irabazten du hiztunentzat. Aldi berean, aldaera estandarrak zailago izango du bere ezaugarriak txertatzea eredu trinkoki arautu batean, ez arautu batean baino.</p><p>Kontuan izan behar da eskualde-berbeta hau mutur batean dialekto tradizionala eta bestean aldaera estandarra dituen continuum soziolinguistiko baten erdian kokatzen dela (ikus 10a. irudia).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>10a. irudia</head><p>Continuum hau zenbaitek bitan banatzen dute, ondoan ikus daitekeen legez:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>10b. irudia</head><p>Ikuspegi batak zein besteak badu bere arrazonamendua: 10a irudian hizkuntza berean gertatzen diren aldaera desberdinen continuuma genuke; continuum horrek mutur batean dialekto tradizionalak eta bestean aldaera estandarra izango lituzke eta erdian bi aldaera finkatu eta arautuak (eskualde-berbeta eta eskualde-estandarra).</p><p>10b irudian, aldiz, bi continuum marrazten dira: lehena, "a" continuuma, dialekto tradizionalen continuuma agertzen da, zeinen muturrak dialekto tradizionalak eta eskualde-berbeta izango liratekeen; hau da, continuum honek hizkera tradizionalen mundua hartuko luke bere baitan. "b" continuuma aldaera estandarraren aldaerek osatzen dute: mutur batean eskualde-berbeta eta bestean aldaera estandarra izango lituzke.</p><p>Irudi honen arabera, eskualde-berbetak lotuko lituzke bi continuumak, aldi berean, bietako mutur eta bietako "zubi" izango litzatekeelarik.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Eskualde-berbeten sailkapena</head><p>Euskararen lurralde desberdinetan gorpuztuz doazen eskualde-berbeta hauen formatze eta ezaugarriak zehaztea garrantzitsua da ikuspuntu teorikotik. Hasteko, lurralde batzuetan eskualde-berbetaren oinarritzat euskalki literarioak aukeratu badira ere, ikuspuntu teorikotik ez da nahitaezko hala izan dadin; beste era bateko formazioa ere izan dezake. Teorian ondoko abiapuntuak behintzat izan ditzake:</p><p>-Euskalki literarioa; -Eskualde horretako koinea; -Eskualdeko hizkera bat nagusitzea.</p><p>Sailkapen honi kasu eginez euskararen kasuan gorpuztuz doazen eskualde-berbetak honela sailka daitezke. Sailkapen hau behin-behinekoa da eta ez du osoa izateko inolako asmorik; ezagunak diren formak proposatzen den egituran hartuko luketen edo hartzen duten lekua azaltzea baino ez da helburu: -Euskalki literarioan oinarrituz:</p><p>• Bizkairako proposatzen den eskualde-berbeta • Lapurdi-Behe Nafarroan erabiltzen den lapurtera-baxenafarrera • Zuberoan erabiltzen dena -Eskualderako koinea: Deba ibarrean "Badihardugu euskera alkartia"ren ekimenez gorpuztu den eskualde-berbeta. -Eskualdeko hizkera bat nagusitzea: ez da ezagutzen euskararen kasuan.</p><p>Gaitza da jakitea zergatik sortzen diren lurralde batzuetan eskualde-berbetak eta besteetan ez. Hipotesien artean koka daiteke aldaera estandarretik lurralde bateko dialekto tradizionaletara dagoen hizkuntza distantzia handia izatea. Hipotesi honen arabera zenbat eta hizkuntza distantzia handiagoa izan orduan eta aukera gehiago egongo litzateke eskualde-berbeta sortzeko. Lurraldearen historia, tradizioa eta kultura propioa ere kontuan hartzekoa da eskualde-berbetaren sorreran.</p><p>Euskararen kasuan esan daiteke euskara estandarretik urrunen aurkitzen diren aldaera edo euskalkiak izan direla arrangura gehien azaldu dutenak eta nola edo halako formulazioetara heldu eta euren moldea proposatu dutenak.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Eskualde-berbeten ezaugarriak</head><p>Eskualde-berbetek ez dituzte osoki bere eremuan biltzen diren hizkeren edo dialektoen ezaugarri guztiek eta hauek bakarrik hartzen. Gorago aipatu den Suitzako aleman dialektoan gertatu dena adibide paradigmatikoa izan liteke. Aldaera estandarretik oso urrun diren ezaugarriei eusteak kostu handia ekar lezakeenean bitarteko zerbait edo estandarreko ezaugarri bat edo batzuk hartzeak gainerakoei eusteko erraztasunak eman liezazkieke Ikus ditzagun gaur egun eskualde-berbeta legez erabiltzen diren aldaera batzuk, adibide edo ariketa gisa, zein ezaugarri biltzen duten: Bizkaian bizkaiera literarioan oinarrituz gorpuzten ari den "bizkaiera" berriak ezaugarri berriak biltzen dihardu. Hauen inbentario exhaustiboa egiteko asmorik gabe, hona hemen hauetako ezaugarri batzuk. Aurrera joan baino lehen esan behar da kasu batzuetan proposamen bat baino gehiago izan daitekeela:</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>1 .</head><label>1</label><figDesc>Aldaera estandarreranzko konbergentzia oso-osoan, bere egitura fonologiko edo morfologikoan, eman daiteke. Kasu hauetan dialektoa guztiz galtzen edo desagertzen da.1.4.2. Guztiz burutu gabeko konbergentzia. Kasu honetan dialekto eta estandarraren arteko aldaera berri bat sortzen da.Christen-en arabera (1998: 57-58)  Suitzako aleman dialektoan mintzo den gazteak atzizki "berriak" erabiltzen ditu adjektibo atributiboetan nominatibo eta akusatibo singularrean, tradizionalki 'zero' atzizkia izan den lekuan atzizkidun beste forma bat sortuz:Forma zaharra: di alt frau ('andre zaharra') Forma berria: di alt-i frau Atzizki berria itxuraz aldaera estandarretik (di alt-e frau) desberdina izan arren, estandarraren teknika morfologiko berak (atzizkia vs. zero atzizkia) erabiltzen ditu eta dialektoa estandarraren antzekoago egiten du.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Datu , gorago esan den legez, belaunaldi honek ez duelako harreman iraunkorrik izan aldaera estandarrekin. Bertako ezaugarriak ondoen gordetzen dituen herria, datu hauen arabera, Dima da, %92an eusten die eta; eta gutxien gordetzen dituena Igorre (%82). Dimako datuak, beste behin, gainerako herriek erakusten duten joeratik aldendu egiten dira, jasotako erantzun batean ere ez delako aldaera estandarreko formarik jaso. Bitxitzat jotzen da datu hau; batetik berez delako ez-ohikoa, eta bestetik, gainerako herrietako joeratik guztiz aldentzen delako. Arratia ezagutuz ez dirudi herri honek gainerakoek ez duten aparteko ezer duenik hizkera mailari dagokion atxikimenduan; ez da bereziki nabarmentzen herri horretako hiztunen ezaugarrien artean hizkeraz ingurukoak baino kontserbatzaileagoak direnik. Eta ez da uste, gainera, inkestako egoerak baldintzatu duenik, ezta informazio-emaileek halako izaera berezirik dutenik.Heldu eta gazteen arteko desberdintasuna aztertuz belaunaldi batean bertako hizkerari dagokionez zer galdu den eta aldaera estandarra zenbateraino sartu den neurtuko da. Aldaera dialektala Zeanurin belaunaldi batean %6an galdu da (helduek %87an eusten diete eta gazteek %81ean), Areatzan %9an (helduek %84an eta gazteek %75ean), Artean %13an eta Igorren %3an. Dimako datuetan, aldiz, %40an (gehien gordetzen duten helduak eta gutxien gordetzen duten gazteak biltzen dira herri honetako datuetan). Dimako datu hauek salbu, %7,75ean galdu dira belaunaldi batean oinarri dialektaleko datuak Arratian.</figDesc><table><row><cell cols="4">100 hau esanguratsua da</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Bertakoa</cell></row><row><cell>80</cell><cell>81</cell><cell>75</cell><cell></cell><cell>73</cell><cell></cell><cell>79</cell><cell></cell><cell>71</cell><cell></cell><cell></cell><cell>Kanpokoa</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Biak</cell></row><row><cell>60</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>52</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>40</cell><cell></cell></row><row><cell>40 20</cell><cell>15</cell><cell>4</cell><cell>22</cell><cell>3</cell><cell>25</cell><cell>2</cell><cell>19</cell><cell>2</cell><cell>27</cell><cell>2</cell><cell>8</cell></row><row><cell>0</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Zeanuri</cell><cell cols="2">Areatza</cell><cell cols="2">Artea</cell><cell cols="2">Igorre</cell><cell cols="2">Lemoa</cell><cell>Dima</cell><cell></cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>eta Igorre (%24) agertzen dira kopuru berdintsuekin; bestetik, Lemoa eta Dima askoz ere kopuru handiagoekin baina ezaugarri morfosintaktikoak gailen dituztela (%42 eta %44, hurrunez hurren). Hots, datu morfosintaktikoak izango lirateke aldaketaren aintzindariak. Hurbiltze joera Arratian: gazteak hizkuntz arloka Datu morfosintaktikoen ostean lexikoa dugu, Diman izan ezik, herri guztietan oinarri dialektala arinen galtzen den arloa: Zeanurin puntu bateko aldea dago lexikoa eta fonologiaren artean (fonologian %12 eta lexikoan %13), Areatzan 9 puntukoa (fonologian %14 eta lexikoan %23), Artean 10ekoa, Igorren 14koa eta Lemoan 13koa. Dimaz gainerako herrietan lexikoaren eta fonologiaren arteko desberdintasuna antzekoa da. Azken herri honetan fonologia lexikoaren aurretik agertzen da (%36 fonologian eta %34 lexikoan).</figDesc><table><row><cell>3. irudia</cell></row></table><note></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>hizkeren eta euskalkien gainbeheraldia. Eta estandarrarekiko bateratze indartsu eta bortitz horrek ondorioz erreakzio bizia sortu du eremu desberdinetan, azkenaldion modu intuitibo eta isolatuan gehienetan herriz herri, herrietako hizkeraren berpizte indartsua ezagutu delarik. Bat-bateko eta gehienetan guztiz sakondu eta planifikatu gabeko berpizte honek sarri txokokeriak erabili eta indartzea ere ekarri du hainbat eta hainbat lekutan. Erreakzio hori modu pausatu eta sakonagoan bideratu denean euskalkiei prestigioa emateko elkarteen sorrera eragin du eta hizkuntza (euskalkiak eta estandarra) planifikazio baten eskariak gero eta ozenago entzun daitezke. Hizkeren eta euskalkien bilketa eta ikerketak ere erreakzio horren beste zantzu bat bezala hartu litezke. Euskalkien ikerketa modan jarri eta ugari dira zeregin horretan buru-belarri sartu diren ikertzaile eta gainerakoak. Zientzia arlo hau asko ugaldu da azkenaldion tesi zein artikulu gisa egin diren argitalpenekin.Ikerketatik abiatuz hizkuntza planifikazioan ere aurreratu da. Hala, aldaera estandarra eta dialektoaren artean beste aldaera batzuen planteamendua ere egin da, gorago aipatu den legez.Bizkaierarako Mendebalde Kultur Alkarteak eta bestek eraginik, halako erregiolekto edo eskualde-berbeta bat gorpuztuz doa, XVIII. gizalditik zetorren tradizio literariotik abiaturik.</figDesc><table /><note></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">Interesatuak K. Mitxelena (1992) eta J. A. Lakarraren (1986 eta 1992) lanak eskuragarri ditu.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">Diaglosía kontzeptu honela definitzen du Bellmannek: ematen diren bi muturreko hizkuntza aldaeren artean, ezaugarrien kontinuum bat dago, zeinetan, dialektoa, hizkuntza interferentziaren ondorioz, subestandarraren parte izanik, bere ezaugarriak, batez ere ezaugarri nabarienak, galtzen doan. Auer-ek Bellmann-en diaglosia aipatzean honela azaltzen du: gainerako aldaera edo formen kontinuumak guztiz betetzen du estandar eta dialekto tradizionalen arteko espazio estrukturala(1998: 24).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">60 urtez gorakoak aurreko ikerketa batean jasotakoak dira. Adin honetakoei jasotako datuek osotzen dute hizkera hauei dagokien oinarri dialektala. Inkestaren helburua hizkera informala, lagunartekoa aztertzea izan da. Informazio-emaileei bereziki aipatu zaie zehaztasun hau; hau da, eurak egunero kalean, lagunekin, etxean… egiten duten moduan egiteko eskatuz. Jakina da era honetako inkestetan izaten diren arazoak handiak direla; hori dela eta datuok tentuz hartu beharrekoak direla esan behar da.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">Beste xehetasun batzuen artean inkestagilea aldez aurretik ezagutzeak dakartzan ondorioak ere aipatu beharko lirateke, datuak behar den zuhurtziaz hartzeko.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">Azteketa honetan ez dugu "biak" saila kontuan hartuko, datuak ulergarriagoak izan daitezen, beste era batera jokatzea ere bidezkoa den arren.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6">Datu hauetan kontuan izan behar da Lemoan helduak ez direla inkestatuak izan eta Dimako informatzaile gazteenen eragina nabarmena dela.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">Herri honetan gazteen mailan 16 urtekoak baino ez ziren inkestatu, gainerako herrietan 18 urtetik gorakoak (Lemoan bat izan zen 16 urtekoa).</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Tradizioan erabili ez den h letraren erabilera eta oro har euskara baturako Euskaltzaindiak onartutako alfabetoa erabiltzea</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Bizkaieraren eremu, maila eta tradizioan edo tradiziotik sortu ez diren berbak datozen idazkeran erabiltzea proposatzen da: gatazka, eta ez gatazkea; ganga (anatomian eta arkitekturan), eta ez gangea (…)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;gt; -Ea Fenomeno Fonetikoari Muga</forename><surname>Ezartzea</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="volume">40</biblScope>
+			<pubPlace>Goikoetxea</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Ergatibo pluralean &quot;aukera bi onartzen dira: -ak / -ek. Berez -ak da sartalde eta erdiko euskalkietakoa, baina batukoa asko zabaldu da aspaldiko denporetan; gainera, -ek atzizkiaz hobeto bereizten dira Nor eta Nork kasuak</title>
+		<imprint/>
+	</monogr>
+	<note>Labayru 2001: 129</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Mugatu pluralerako aukera bi dagoz: -ai / -ei. -ai da zaharra eta bizkai euskerari berez jagokona, baina aspaldiko urteotan batuko eredutik ez urruntzeko, -ei erabili izan da gehiago. Momentuz, ba, biak ontzat hartuko dira</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Datiboa</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Idem, 131</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Adlatibo amaituan &quot;(…) tradizino idatzian -gino ugari agertu arren, gaur egun ez da zabalkunde handikoa. Holan, bada, onartuagoa eta erdikoagoa dan -raino erabiltea gomendatzen da (…)</title>
+		<imprint/>
+	</monogr>
+	<note>idem, 155</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Burutubako ohiturazko aspektua markatzeko mendebaldeko euskeran -tzen, -ten, -tuten, -etan, -ketan markak zabal dabilz</title>
+		<imprint/>
+	</monogr>
+	<note>Aspektu marka. baina euretatik hiru aintzat hartuko ditugu batez be idatzirako: -ten, -tzen eta -etan (Idem, 238</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">-zino eratorpen atzizki (tradizio literarioan -ziño) eta gainerakoetan ñ-ren ordez n idaztea</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Bizkaialdean eratuz doan eskualde-berbetak tradizio literarioa ukatu gabe, aldaera estandarraren indarra kontuan hartzen du eta honek eskaintzen dituen abantailak bere egiten ditu ergatibo pluraleko atzizkiaren kasuan bezala (absolutibo eta ergatibo pluralak bereizteko), edo aukera zabala izan den lekuan</title>
+		<imprint/>
+	</monogr>
+	<note>aspektu ez burutuaren kasua</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Hala ere aldaera estandarraren eragina heldu zaiela nabaria da. Ikus ditzagun ezaugarri batzuk: 1) &quot;(…) nafarro-lapurtera zabaldu batean hitz egiten die erakasleak eta idazterakoan Batura pasatzen da aditzan, hilabeteen izenetan eta abar…&quot; dio Davantek &quot;Ikasbi&quot;ko sistemaz (1996: 535). Eta Seaskako ikastoletan &quot;joera orokorra da euskalkitik abiatuz horren zabaltzea Batuari buruz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lapurtera-Baxenafarreraren Kasuan Tradizio Literarioa Handiagoa Izan Da Eta Etenik Gabea Euskara Batua Sortu Ondoren Ere</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>idem</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Batuko grafia derabilagu eta hitz berriak Batutik hartzen ditugu&quot; (idem</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Literaturan</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">537</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">tradizio literarioa ez da eten batua sortu ondoren ere. Hala ere geroago eta aldaera estandarraren eragin handiagoa jasaten ari da</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lapurtera-Baxenafarreran</forename><surname>Zuberoan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Legez</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Batuaren eragin nabarmena du gaurko zubererak hiztegian eta grafian, belaunaldi nahiko berrietan bederen</title>
+		<imprint/>
+	</monogr>
+	<note>diosku Davantek (idem, 534</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Horien artean grafiari dagokionez &quot;kontsonante ondoko H gehienak ezabatuz&quot; jokatzen dutela dio (idem</title>
+		<imprint>
+			<biblScope unit="volume">533</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Gai honen inguruan ikertzaileek egindako teorizazioetatik abiatuz euskararen eremuan gertatzen ari dena ulertzeko baliabide gehiago ditugu. Ulertzeko bakarrik ez eze orain artean egin den bideari buruz gogoeta egin eta izan diren akatsak zuzentzeko aukera ere ematen du. Arratian egin den ikerketak argi eta garbi uzten digu aldaera estandarraren eta euskalkien arteko bateratze indartsua ari dela gertatzen eremu eta lurralde batzuetan, behintzat. Hizkuntzaren planifikazioan modu orekatuan jokatzeko ereduak ere aurkeztu dira. Zeren konsziente izanik azken 30 urteetako bideak nora ekarri gaituen egokiera dugulako etorkizuna planifikatzeko. Gorago egin den itauna berriro gogoratuz, zein eredu nahi dugu gure seme-alabek izan dezaten</title>
+	</analytic>
+	<monogr>
+		<title level="m">Ondorioak Gaur egun euskararen hizkeretan zehar zer gertatzen ari den jakiteko ezinbestekotzat jo behar da, gure inguruko hizkeretan jazo denaz eta jazotzen ari denaz hausnarketa egitea</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="194" to="207" />
+		</imprint>
+	</monogr>
+	<note>eman dezagun 40 urte barru? Bibliografia Ammon, U., 1998, &quot;Measuring the Broadness of Dialectal Speech</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Dialect Levelling and the Standard Varieties in Europe</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Auer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">FL XXXII/1-2</title>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="1" to="9" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The Convergence and Divergence of Dialects in Europe. New and not so New Developments in an Old Area</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-&amp;amp; A</forename><surname>Di Luzio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sociolinguística</title>
+		<editor>Mouton de Gruyter, Berlin. -&amp; F. Hinskens</editor>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1" to="30" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+	<note>Variation and Convergence</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Between Base Dialect and Standard Language</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Bellmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">FL XXXII/1-2</title>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="23" to="34" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Convergence and Divergence in the Swiss German Dialects</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Christen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">FL XX-XII/1-2</title>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="53" to="67" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Euskalkien eta euskara batuaren arteko harremana nolakoa den Iparraldean</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J.-L</forename><surname>Davant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskera</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="531" to="570" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Herri-euskararen eremua</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Elexpuru</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskera</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="523" to="552" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Mechanisms of standardization. An investigation of changes in three similar dialects under influence of three different standard languages</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Gerritsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Artikelen van de Eerste Sociolinguïstische Conferentie. Lunteren, November 1991</title>
+		<meeting><address><addrLine>Eburon, Delft</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+	<note>in E. van Hout &amp; E. Huls (arg.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Euskalkia eta hezkuntza. Dakigunetik ez dakigunera euskal diglosia irazian</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Goikoetxea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euskaltzaindia, Iker</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Dialects et standardisation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Haritschelhar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMBB</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">The Ecology of Language, Essays by Einar Huagen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Haugen</surname></persName>
+		</author>
+		<editor>A. S. Dil</editor>
+		<imprint>
+			<date type="published" when="1968" />
+			<biblScope unit="page" from="237" to="54" />
+			<pubPlace>Stanford</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Dialect, language, nation</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Dialect Levelling: A Two-dimensional Process</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Hinskens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">FL XXXII/1-2</title>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="35" to="51" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Nijmegen</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD-dissertation</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Euskera batua eta euskalkiak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Kapanaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Askoren artean</title>
+		<meeting><address><addrLine>Eibarko Udala</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1986" />
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="77" to="90" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">On dialect levelling in Denmark and Sweden</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">&amp;amp; M</forename><surname>Kristensen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Thelander</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">FL XVIII/1-2</title>
+		<imprint>
+			<date type="published" when="1984" />
+			<biblScope unit="page" from="223" to="269" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The Role of Standard Ideology in the Disappearance of the Traditional Danish Dialects</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kristiansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">FL XXXII/1-2</title>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="115" to="144" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Bizkai euskeraren jarraibide liburua. Lehenengo pausuak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Labayru</forename><surname>Ikastegia</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<pubPlace>Labayru, Bilbo</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Bizkaieraren lekua beste euskalkien artean iraganeko garaietan» in Askoren Artean Bizkaieraren lekua gaur</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Lakarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bizkaiera zaharra euskalkien artean</title>
+		<meeting><address><addrLine>Bilbo</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1986" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="15" to="34" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Sociolinguistic Attitudes and Beliefs Towards Dialectal and Standard Varieties, in La Franja Oriental de Aragón (Spain)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Martín Zorraquino</surname></persName>
+		</author>
+		<idno>FL XXXII/1-2</idno>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="131" to="174" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">La fragmentación dialectal: conocimientos y conjeturas</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">;</forename><surname>Mitxelena</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Rel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Vi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1976" />
+			<biblScope unit="page" from="73" to="85" />
+		</imprint>
+	</monogr>
+	<note>orain in Lengua e historia</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Fenómenos de convergencia en la historia de los dialectos vascos</title>
+	</analytic>
+	<monogr>
+		<title level="j">FLV</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="355" to="66" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Euskara batuari Iparraldetik behatuz</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Oihartzabal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Jakin</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="79" to="89" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">«Levelling Phenomena in the Flemish Dialects», FL XXXII/1-2</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Taeldeman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="11" to="22" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Trudgill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dialects in Contact</title>
+		<imprint>
+			<date type="published" when="1986" />
+			<publisher>Blackwell</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The interactions between dialect and standard language, viewed from the standpoint of the Germanic languages</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Van Coetsem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Dialect and Standard Language</title>
+		<editor>J. A. van Leuvensteijn &amp; J. B. Berns</editor>
+		<meeting><address><addrLine>Foris, Dordrecht; North Holland, Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="15" to="70" />
+		</imprint>
+	</monogr>
+	<note>Loan phonology and the two transfer types in language contact</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A J B</forename><surname>Van Leuvensteijn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Berns</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+			<pubPlace>Amsterdam</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Dialect and Standard Language, Noth-Holland</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
