@@ -23,7 +23,7 @@ with open('data/languages_table.csv') as csvfile:
 		?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)='"""+row['wiki_languagecode']+"""')
 			   filter not exists {?equiv_st enpq:P58 ?warning.} # no warning
 			#   filter not exists {?no_sense endp:P12 ?concept.} # no lexeme sense already linked to this
-			   optional {?equiv_st endp:P63 ?sense.}	
+			   optional {?equiv_st enpq:P63 ?sense.}
 		optional {?concept schema:description ?descript_mylang. filter(lang(?descript_mylang)='"""+row['wiki_languagecode']+"""')}		
 		} order by lcase(?equiv_mylang)
 		"""
@@ -35,6 +35,7 @@ with open('data/languages_table.csv') as csvfile:
 			count += 1
 			equiv = concept_binding['equiv_mylang']['value']
 			conceptqid = concept_binding['concept']['value'].replace("https://eneoli.wikibase.cloud/entity/","")
+			sense_to_concept_link = None
 			print(f"\n[{count}] Found validated term: '{equiv}' ({conceptqid})")
 
 			# check if entry with this equiv as lemma exists
@@ -53,10 +54,10 @@ with open('data/languages_table.csv') as csvfile:
 			  optional {?concept endp:P1 ?wd.}
 			  }
 			"""
-			print(query)
+			# print(query)
 			lex_bindings = xwbi.wbi_helpers.execute_sparql_query(query=query)['results']['bindings']
 			lex_bindings2 = lex_bindings
-			print('Found ' + str(len(bindings)) + ' senses in the results for the query for lemmata matching to "'+ equiv +'".\n')
+			print('Found ' + str(len(lex_bindings)) + ' senses in the results for the query for lemmata matching to "'+ equiv +'".\n')
 			time.sleep(0.5)
 
 			existing = []
@@ -71,6 +72,7 @@ with open('data/languages_table.csv') as csvfile:
 				print(f"Going to create a new noun entry for lemma '{equiv}'.")
 				lexeme = xwbi.wbi.lexeme.new(language=row['wikibase_item'], lexical_category="Q20") # noun is default
 				lexeme.lemmas.set(language=row['wiki_languagecode'], value=equiv)
+				lexeme.claims.add(xwbi.Item(prop_nr='P5', value='Q13')) # instance of NeoVoc Lexical Entry
 				concept_to_sense_link = None
 			elif len(existing) == 1: # this is the lexeme
 				print(f"Lexeme {existing[0]} noun entry has lemma '{equiv}'. We'll check that.")
