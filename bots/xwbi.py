@@ -113,6 +113,8 @@ def itemwrite(itemdata, clear=False): # statements = {'append':[],'replace':[]}
 	if 'labels' in itemdata:
 		langstrings = itemdata['labels']
 		for langstring in langstrings:
+			if 'lang' not in langstring and 'language' in langstring:
+				langstring['lang'] = langstring['language']
 			lang = langstring['lang']
 			stringval = langstring['value']
 			#print('Found wikidata label: ',lang,stringval)
@@ -121,14 +123,18 @@ def itemwrite(itemdata, clear=False): # statements = {'append':[],'replace':[]}
 	if 'aliases' in itemdata:
 		langstrings = itemdata['aliases']
 		for langstring in langstrings:
+			if 'lang' not in langstring and 'language' in langstring:
+				langstring['lang'] = langstring['language']
 			lang = langstring['lang']
 			stringval = langstring['value']
 			#print('Found wikidata altlabel: ',lang,stringval)
-			xwbitem.aliases.set(lang,stringval)
+			xwbitem.aliases.set(lang,stringval, action_if_exists=ActionIfExists.REPLACE_ALL)
 	# descriptions
 	if 'descriptions' in itemdata:
 		langstrings = itemdata['descriptions']
 		for langstring in langstrings:
+			if 'lang' not in langstring and 'language' in langstring:
+				langstring['lang'] = langstring['language']
 			lang = langstring['lang']
 			stringval = langstring['value']
 			#print('Found wikidata description: ',lang,stringval)
