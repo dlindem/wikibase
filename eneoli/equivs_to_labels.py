@@ -22,13 +22,13 @@ with open('data/languages_table.csv') as csvfile:
 		?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)='""" + row[
             'wiki_languagecode'] + """')
 			   filter not exists {?equiv_st enpq:P58 ?warning.} # no warning
-		
+
         optional {?concept rdfs:label ?label_mylang. filter(lang(?label_mylang)='""" + row[
-            'wiki_languagecode'] + """')}
+                    'wiki_languagecode'] + """')}
         optional {?concept skos:altLabel ?altlabel_mylang. filter(lang(?altlabel_mylang)='""" + row[
-            'wiki_languagecode'] + """')}
-			 
-			
+                    'wiki_languagecode'] + """')}
+
+
 		} group by ?concept ?equivs ?label_mylang ?altlabels order by lcase(?equiv_mylang)    
 		"""
         bindings = xwbi.wbi_helpers.execute_sparql_query(query=query)['results']['bindings']
@@ -69,7 +69,8 @@ with open('data/languages_table.csv') as csvfile:
                 else:
                     equivs.remove(preflabel)
                     print(f"PrefLabel {preflabel} is OK.")
-                wb_item.aliases.set(language=row['wiki_languagecode'], values=equivs, action_if_exists=xwbi.ActionIfExists.REPLACE_ALL)
+                wb_item.aliases.set(language=row['wiki_languagecode'], values=equivs,
+                                    action_if_exists=xwbi.ActionIfExists.REPLACE_ALL)
                 print(f"Set altLabels to {equivs}.")
                 need_to_write = True
             if need_to_write:
@@ -88,4 +89,3 @@ with open('data/languages_table.csv') as csvfile:
                 time.sleep(1)
             else:
                 print(f"There was no need to change {conceptqid}.")
-
