@@ -533,6 +533,33 @@ def addsense(s, glossdict):
 	# logging.warning('Add sense operation '+s+' ('+lang+') '+val+' failed up to 5 times... skipped.')
 	return False
 
+def editsense(sense_id=None, glossdict={}):
+	global token
+	print(f'Will edit sense with this gloss data: {glossdict}')
+	done = False
+	count = 0
+
+	while count < 5:
+		count += 1
+		try:
+			request = site.post('wbleditsenseelements', senseId=sense_id, data=json.dumps(glossdict), token=token, bot=1)
+			if request['success'] == 1:
+				print(f'Success editing Sense\n{request}')
+				return True
+		except Exception as ex:
+			if 'Invalid CSRF token.' in str(ex):
+				print('Wait a sec. Must get a new CSRF token...')
+				token = get_token()
+
+			else:
+				print('editsense operation failed, will try again...\n'+str(ex))
+				# logging.error('Description set operation '+s+' ('+lang+') '+val+' failed, will try again...', exc_info=True)
+				time.sleep(4)
+	# log.add
+	print ('*** Add sense set operation '+s+' ('+lang+') '+val+' failed up to 5 times... skipped.')
+	# logging.warning('Add sense operation '+s+' ('+lang+') '+val+' failed up to 5 times... skipped.')
+	return False
+
 claimcache = {"item": None, "claims": None}
 #get claims from qid
 def getclaims(s, p):
