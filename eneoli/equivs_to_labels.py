@@ -4,8 +4,8 @@ with open('data/languages_table.csv') as csvfile:
     language_table = csv.DictReader(csvfile, delimiter=",")
     # language_name,iso-639-1,iso-639-3,wiki_languagecode,wikibase_item,wikidata_item
     for row in language_table:
-        if row['iso-639-1'] != "eu":
-            continue
+        # if row['iso-639-1'] != "eu":
+        #     continue
         print(f"\nNow processing language {row['language_name']}...\n")
         query = """
         PREFIX enwb: <https://eneoli.wikibase.cloud/entity/>
@@ -68,7 +68,7 @@ with open('data/languages_table.csv') as csvfile:
                     need_to_write = True
                 else:
                     equivs.remove(preflabel)
-                    print(f"PrefLabel {preflabel} is OK.")
+                    print(f"PrefLabel {preflabel} is OK. Will write to altlabel: {equivs}")
                 wb_item.aliases.set(language=row['wiki_languagecode'], values=equivs,
                                     action_if_exists=xwbi.ActionIfExists.REPLACE_ALL)
                 print(f"Set altLabels to {equivs}.")

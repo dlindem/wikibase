@@ -128,7 +128,7 @@ def itemwrite(itemdata, clear=False): # statements = {'append':[],'replace':[]}
 			lang = langstring['lang']
 			stringval = langstring['value']
 			#print('Found wikidata altlabel: ',lang,stringval)
-			xwbitem.aliases.set(lang,stringval, action_if_exists=ActionIfExists.REPLACE_ALL)
+			xwbitem.aliases.set(lang,stringval) #, action_if_exists=ActionIfExists.REPLACE_ALL)
 	# descriptions
 	if 'descriptions' in itemdata:
 		langstrings = itemdata['descriptions']

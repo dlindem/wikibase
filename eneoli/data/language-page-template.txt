@@ -87,7 +87,7 @@ PREFIX enp: <https://eneoli.wikibase.cloud/prop/>
 PREFIX enps: <https://eneoli.wikibase.cloud/prop/statement/>
 PREFIX enpq: <https://eneoli.wikibase.cloud/prop/qualifier/>
 
-select ?concept ?equiv_mylang ?descript_mylang (iri(concat(str(wd:),?wd)) as ?wikidata) ?label_en ?descript_en ?label_fr ?descript_fr
+?concept ?equiv_mylang ?validator ?descript_mylang ?sense (iri(concat(str(wd:),?wd)) as ?wikidata) ?label_en ?descript_en ?label_fr ?descript_fr
 
 where {
   ?concept endp:P5 enwb:Q12. # instances of "NeoVoc Concept"
