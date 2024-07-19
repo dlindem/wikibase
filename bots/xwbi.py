@@ -5,6 +5,8 @@ from wikibaseintegrator.datatypes.externalid import ExternalID
 from wikibaseintegrator.datatypes.item import Item
 from wikibaseintegrator.datatypes.monolingualtext import MonolingualText
 from wikibaseintegrator.datatypes.time import Time
+from wikibaseintegrator.datatypes.lexeme import Lexeme
+from wikibaseintegrator.datatypes.sense import Sense
 from wikibaseintegrator.datatypes.globecoordinate import GlobeCoordinate
 from wikibaseintegrator.datatypes.url import URL
 from wikibaseintegrator.wbi_config import config as wbi_config
@@ -79,7 +81,9 @@ def packstatements(statements, wbitem=None, qualifiers=False, references=False):
 		elif statement['type'].lower() == "url":
 			packed_statement = URL(value=statement['value'], prop_nr=statement['prop_nr'],qualifiers=packed_qualifiers,references=packed_references)
 		elif statement['type'].lower() == "sense":
-			packed_statement = URL(value=statement['value'], prop_nr=statement['prop_nr'],qualifiers=packed_qualifiers,references=packed_references)
+			packed_statement = Sense(value=statement['value'], prop_nr=statement['prop_nr'],qualifiers=packed_qualifiers,references=packed_references)
+		elif statement['type'].lower() == "lexeme":
+			packed_statement = Lexeme(value=statement['value'], prop_nr=statement['prop_nr'],qualifiers=packed_qualifiers,references=packed_references)
 		if not packed_statement:
 			print('***ERROR: Unknown datatype in '+str(statement))
 		# print(str(packed_statement))
