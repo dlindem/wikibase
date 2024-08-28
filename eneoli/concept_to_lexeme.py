@@ -1,10 +1,10 @@
-import csv, time, sys, xwbi, xwb
+import csv, time, sys, xwbi, xwb, json
 
 with open('data/languages_table.csv') as csvfile:
 	language_table = csv.DictReader(csvfile, delimiter=",")
 	#language_name,iso-639-1,iso-639-3,wiki_languagecode,wikibase_item,wikidata_item
 	for row in language_table:
-		if row['iso-639-1'] != "fr":
+		if row['iso-639-1'] == "de":
 			continue
 		print(f"\nNow processing language {row['language_name']}...\n")
 		query = """
@@ -22,12 +22,13 @@ with open('data/languages_table.csv') as csvfile:
 		
 		?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)='"""+row['wiki_languagecode']+"""')
 			   filter not exists {?equiv_st enpq:P58 ?warning.} # no warning
-			#   filter not exists {?no_sense endp:P12 ?concept.} # no lexeme sense already linked to this
+		#   filter not exists {?no_sense endp:P12 ?concept.} # no lexeme sense already linked to this
 			   optional {?equiv_st enpq:P63 ?sense.}
 		optional {?concept schema:description ?descript_mylang. filter(lang(?descript_mylang)='"""+row['wiki_languagecode']+"""')}		
 		} order by lcase(?equiv_mylang)
 		"""
 		bindings = xwbi.wbi_helpers.execute_sparql_query(query=query)['results']['bindings']
+		# input(json.dumps(bindings, indent=2))
 		print('Found ' + str(len(bindings)) + ' results for the query for validated concepts without lexeme sense linked to them.\n')
 		time.sleep(1)
 		count = 0

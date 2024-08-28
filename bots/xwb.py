@@ -60,55 +60,55 @@ def get_token():
 token = get_token()
 
 # Loads known lwbqid-lexbibUri mappings and lwbqid-Wikidataqid mappins from jsonl-files
-def load_legacyID():
-	legacyID = {}
-	try:
-		with open(config_private.datafolder+'legacymappings.jsonl', encoding="utf-8") as jsonl_file:
-			mappings = jsonl_file.read().split('\n')
-			count = 0
-			for mapping in mappings:
-				count += 1
-				if mapping != "":
-					try:
-						mappingjson = json.loads(mapping)
-						#print(mapping)
-						legacyID[mappingjson['legacyID']] = mappingjson['lwbid']
-					except Exception as ex:
-						print('Found unparsable mapping json in legacymappings.jsonl line ['+str(count)+']: '+mapping)
-						print(str(ex))
-						pass
-	except Exception as ex:
-		print ('Error: legacyID file does not exist. Will start a new one.')
-		print (str(ex))
-	#print(str(legacyID))
-	print('Known LWB Qid loaded.')
-	return legacyID
-legacyID = load_legacyID()
+# def load_legacyID():
+# 	legacyID = {}
+# 	try:
+# 		with open(config_private.datafolder+'legacymappings.jsonl', encoding="utf-8") as jsonl_file:
+# 			mappings = jsonl_file.read().split('\n')
+# 			count = 0
+# 			for mapping in mappings:
+# 				count += 1
+# 				if mapping != "":
+# 					try:
+# 						mappingjson = json.loads(mapping)
+# 						#print(mapping)
+# 						legacyID[mappingjson['legacyID']] = mappingjson['lwbid']
+# 					except Exception as ex:
+# 						print('Found unparsable mapping json in legacymappings.jsonl line ['+str(count)+']: '+mapping)
+# 						print(str(ex))
+# 						pass
+# 	except Exception as ex:
+# 		print ('Error: legacyID file does not exist. Will start a new one.')
+# 		print (str(ex))
+# 	#print(str(legacyID))
+# 	print('Known LWB Qid loaded.')
+# 	return legacyID
+# legacyID = load_legacyID()
 
-def load_wdmappings():
-	wdids = {}
-	try:
-		with open(config_private.datafolder+'lwb_wd.jsonl', encoding="utf-8") as f:
-			mappings = f.read().split('\n')
-			count = 0
-			for mapping in mappings:
-				count += 1
-				if mapping != "":
-					try:
-						mappingjson = json.loads(mapping)
-						#print(mapping)
-						wdids[mappingjson['lwbid']] = mappingjson['wdid']
-					except Exception as ex:
-						print('Found unparsable mapping json in lwb_wd.jsonl line ['+str(count)+']: '+mapping)
-						print(str(ex))
-						pass
-	except Exception as ex:
-		print ('Error: wdmappings file does not exist. Will start a new one.')
-		print (str(ex))
-
-	print('Known LWB-WD item mappings loaded.')
-	return wdids
-wdids = load_wdmappings()
+# def load_wdmappings():
+# 	wdids = {}
+# 	try:
+# 		with open(config_private.datafolder+'lwb_wd.jsonl', encoding="utf-8") as f:
+# 			mappings = f.read().split('\n')
+# 			count = 0
+# 			for mapping in mappings:
+# 				count += 1
+# 				if mapping != "":
+# 					try:
+# 						mappingjson = json.loads(mapping)
+# 						#print(mapping)
+# 						wdids[mappingjson['lwbid']] = mappingjson['wdid']
+# 					except Exception as ex:
+# 						print('Found unparsable mapping json in lwb_wd.jsonl line ['+str(count)+']: '+mapping)
+# 						print(str(ex))
+# 						pass
+# 	except Exception as ex:
+# 		print ('Error: wdmappings file does not exist. Will start a new one.')
+# 		print (str(ex))
+#
+# 	print('Known LWB-WD item mappings loaded.')
+# 	return wdids
+# wdids = load_wdmappings()
 
 # def load_wppageplaces():
 # 	wpplaces = {}
