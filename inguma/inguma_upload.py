@@ -32,7 +32,7 @@ def update_mapping(groupname):
 					txtfile.write(inguma_id.replace(groupname+":","")+'\t'+wikibase_id+'\n')
 	return "Mapping for "+groupname+" updated and saved to file."
 
-def extra(groupname, fieldname, value):
+def extra(groupname=None, fieldname=None, value=None):
 	statements = {'append':[],'replace':[]}
 	if fieldname == "id":
 		statements['replace'].append(iwbiv1.String(value=groupname+':'+str(value).strip(), prop_nr="P49"))
@@ -129,17 +129,17 @@ def extra(groupname, fieldname, value):
 				puredoi = doi.group(0).rstrip()
 				print('Found DOI: '+puredoi+'...')
 				statements['replace'].append(iwbiv1.ExternalID(value=puredoi, prop_nr="P20"))
-				# try:
-				# 	r = opener.open('http://dx.doi.org/'+puredoi)
-				# 	# print(str(r.info()['Link']))
-				# 	pdflink = re.search('<([^\>]+\.pdf)>', str(r.info()['Link']))
-				# 	if pdflink:
-				# 		print('Found PDF link at crossref: '+pdflink.group(1))
-				# 		statements['append'].append(iwbiv1.URL(value=pdflink.group(1), prop_nr="P48", qualifiers=[iwbiv1.ExternalID(prop_nr="P20", value=puredoi)]))
-				# 	else:
-				# 		print('No full text link at crossref.')
-				# except:
-				# 	print('Error querying crossref.')
+				try:
+					r = opener.open('http://dx.doi.org/'+puredoi)
+					# print(str(r.info()['Link']))
+					pdflink = re.search('<([^\>]+\.pdf)>', str(r.info()['Link']))
+					if pdflink:
+						print('Found PDF link at crossref: '+pdflink.group(1))
+						statements['append'].append(iwbiv1.URL(value=pdflink.group(1), prop_nr="P48", qualifiers=[iwbiv1.ExternalID(prop_nr="P20", value=puredoi)]))
+					else:
+						print('No full text link at crossref.')
+				except:
+					print('Error querying crossref.')
 	elif fieldname == "issue": # first number will be "volume", second number "issue" (except for double volumes)
 		volume = None
 		volume_re = re.search('^ ?(\d+)', value)
@@ -169,6 +169,9 @@ def extra(groupname, fieldname, value):
 		url_processed = process_url(value)
 		if url_processed:
 			statements['replace'].append(iwbiv1.URL(value=url_processed, prop_nr=prop))
+
+	elif fieldname == "type":
+		statements['replace'].append(iwbiv1.Item(value=inguma.mappings, prop_nr="P26"))
 
 	return statements
 
@@ -331,8 +334,8 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 
 		# productions: exclude non-allowed production types
 		if groupname == "productions":
-			if inguma.mappings['item:ingumaProdType'][group[entry]['type']] == None:
-				continue
+			if group[entry]['type'] != "introduction" and inguma.mappings['item:ingumaProdType'][group[entry]['type']] == None:
+				continue # type "introduction" is handled through IntroductionSubType
 
 		print('\n['+str(index)+'] Now processing '+groupname+' item with id '+str(entry)+'... '+str(len(group)-index)+' items left.')
 		iwbitem = None
@@ -427,18 +430,19 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 					maptable = inguma.mappings[groupname][key]
 					print(maptable,value)
 					if value in inguma.mappings[maptable]:
-						for mappair in inguma.mappings[maptable][value].split("|"):
-							map = mappair.split('_')
-							#print(str(map))
-							prop = map[0]
-							writevalue = map[1]
-							statements['replace'].append(iwbiv1.Item(value=writevalue, prop_nr=prop))
+						if inguma.mappings[maptable][value]:
+							for mappair in inguma.mappings[maptable][value].split("|"):
+								map = mappair.split('_')
+								#print(str(map))
+								prop = map[0]
+								writevalue = map[1]
+								statements['replace'].append(iwbiv1.Item(value=writevalue, prop_nr=prop))
 					else:
 						print('*** WARNING: Missing '+maptable+' maptable entry: '+str(value))
 
 				# extra treatments
 				elif inguma.mappings[groupname][key].startswith("extra:"):
-					extra_handled = extra(groupname, key, value)
+					extra_handled = extra(groupname=groupname, fieldname=key, value=value)
 					statements['replace'] += extra_handled['replace']
 					statements['append'] += extra_handled['append']
 

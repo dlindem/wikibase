@@ -47,6 +47,7 @@ mappings = {
     "title": "mon:eu:P10",
     "cleanTitle": "str:P12",
     "type": "item:ingumaProdType",
+	"introductionSubtype": "item:ingumaIntroductionSubType",
     "year": "extra:",
     "shu": "item:UDC",
     "url": "extra:",
@@ -81,12 +82,18 @@ mappings = {
 	'phd': "P58_Q13",
 	'article': "P58_Q9",
 	'course': None,
-	'introduction': "P58_Q20", # !! so far, only employed for IkerGazte
+	'introduction': None, # "introduction" type will have something in "introductionSubType"
 	'book': "P58_Q10",
 	'translation': None,
 	'conference': None,
 	'subject': None,
 	'research': None
+},
+"item:ingumaIntroductionSubType": # this is for the mixed "introduction" ProdType
+{
+"aipamena": "P58_Q22", # Review
+"artikulua": "P58_Q21", # Book Section
+"edizio_kritikoa": "P58_Q23"
 },
 "item:ingumaOrgType": # this is translated to class Q6 (org) or class Q7 (journal)
 {
