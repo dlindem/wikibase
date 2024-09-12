@@ -1,11 +1,13 @@
 import csv, time, sys, xwb, xwbi
 
+# This updates sense glosses according to what is found in their corresponding concept's "description" for that language
+
 with open('data/languages_table.csv') as csvfile:
     language_table = csv.DictReader(csvfile, delimiter=",")
     # language_name,iso-639-1,iso-639-3,wiki_languagecode,wikibase_item,wikidata_item
     for row in language_table:
-        if row['iso-639-1'] != "fr":
-            continue
+        # if row['iso-639-1'] != "fr":
+        #     continue
         print(f"\nNow processing language {row['language_name']}...\n")
         query = """
         PREFIX enwb: <https://eneoli.wikibase.cloud/entity/>

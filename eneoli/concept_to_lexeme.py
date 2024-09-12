@@ -1,5 +1,7 @@
 import csv, time, sys, xwbi, xwb, json
 
+# This creates lexical entries for those concept equivalents that have no warning but do have a "validated by" statement
+
 with open('data/languages_table.csv') as csvfile:
 	language_table = csv.DictReader(csvfile, delimiter=",")
 	#language_name,iso-639-1,iso-639-3,wiki_languagecode,wikibase_item,wikidata_item
@@ -22,6 +24,7 @@ with open('data/languages_table.csv') as csvfile:
 		
 		?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)='"""+row['wiki_languagecode']+"""')
 			   filter not exists {?equiv_st enpq:P58 ?warning.} # no warning
+			   ?equiv_st enps:P64 ?validator. # has been validated.
 		#   filter not exists {?no_sense endp:P12 ?concept.} # no lexeme sense already linked to this
 			   optional {?equiv_st enpq:P63 ?sense.}
 		optional {?concept schema:description ?descript_mylang. filter(lang(?descript_mylang)='"""+row['wiki_languagecode']+"""')}		
@@ -83,7 +86,7 @@ with open('data/languages_table.csv') as csvfile:
 					if 'concept' in lex_binding2:
 						existing_conceptlinks[lex_binding2['concept']['value'].replace("https://eneoli.wikibase.cloud/entity/","")] = lex_binding2['sense']['value'].replace("https://eneoli.wikibase.cloud/entity/","")
 				if conceptqid in existing_conceptlinks:
-					print(f"Concept {conceptqid} is already linked to {existing_conceptlinks[conceptqid]}. Finished {conceptqid}.")
+					print(f"Concept {conceptqid} is already linked from sense {existing_conceptlinks[conceptqid]}. Finished {conceptqid}.")
 					sense_to_concept_link = existing_conceptlinks[conceptqid]
 				else:
 					sense_to_concept_link = None
