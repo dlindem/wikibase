@@ -62,5 +62,7 @@ wd:P279 a wikibase:Property ;
 wdrdf:P279 owl:sameAs rdfs:subClassOf; # the triple from where to inference wdrdf:Q220659 rdfs:subClassOf wdrdf:Q1791627
 	a owl:ObjectProperty . # this comes from rdfs ontology
 
-# An external ontology could be uploaded to the wikibase triple store. For EVERY external (non-wikibase-namespace) URI, a wikibase equivalent is created and linked to the original using wikibase:rdfEquiv
+# An external ontology could be uploaded to the wikibase triple store. For EVERY external (non-wikibase-namespace) URI, a wikibase equivalent is created and linked to the original using wikibase:rdfEquiv. That way, wikibase:Statement entities can be build upon the imported triples
+# That means, that also rdfs:label, ontolex:sense or other RDF props re-used in the wikibase Ontology will get their P-numbered equivalent, so that qualifiers and references can also be added to these (which is great and not possible at the moment)
+#
 # If things like rdfs:range, rdfs:domain, owl:inverseOf are imported: How make the system capable of exploit these?
