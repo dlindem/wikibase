@@ -1,0 +1,68 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix wdrdf: <http://www.wikidata.org/rdf/> . # new RDF/OWL namespace. For pure OWL, reduce the whole dataset to everything in this namespace plus other RDF (not Wikibase) namespaces, e.g. rdfs
+
+wd:Q220659 a wikibase:Item ; wikibase:rdfEquiv wdrdf:Q220659 . # 'archaeological artifact'
+wdrdf:Q220659 a owl:Thing . 
+
+wd:Q1791627 a wikibase:Item ; wikibase:rdfEquiv wdrdf:Q1791627 . # 'cultural artifact'
+wdrdf:Q1791627 a owl:Thing . # entities in this namespace are in the OWL world
+
+wd:Q220659 wdt:P279 wd:Q1791627 . # 'archaeological artifact' 'subclass of' 'cultural artifact'
+wdrdf:Q220659 wdrdf:P270 wdrdf:Q1791627 . # 'archaeological artifact' 'subclass of' 'cultural artifact'
+s:q220659-69220ad0-432e-90e9-92c8-6eb39915f09a a wikibase:Statement,
+	ps:P279 wd:Q1791627 ;
+	wdrdf:P279 wdrdf:Q1791627 # by inferencing form the owl:sameAs triples, that is translated to wdrdf:Q220659 rdfs:subClassOf wdrdf:Q1791627
+
+wd:P279 a wikibase:Property ;
+	rdfs:label "subclass of"@en ;
+	skos:prefLabel "subclass of"@en ;
+	schema:name "subclass of"@en ;
+	schema:description "this item is a subclass (subset) of that item; all instances of this item are instances of that item; different from P31 (instance of), e.g.: volcano is a subclass of mountain (and an instance of volcanic landform); K2 is an instance of mountain"@en ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim wdt:P279 ;
+	wikibase:claim p:P279 ;
+	wikibase:statementProperty ps:P279 ;
+	wikibase:statementValue psv:P279 ;
+	wikibase:qualifier pq:P279 ;
+	wikibase:qualifierValue pqv:P279 ;
+	wikibase:reference pr:P279 ;
+	wikibase:referenceValue prv:P279 ;
+	wikibase:novalue wdno:P279 ;
+	wikibase:rdfEquiv wdrdf:P279 . # added to express link between "wikibase world" and "RDF/OWL world"
+
+wdrdf:P279 owl:sameAs rdfs:subClassOf; # the triple from where to inference wdrdf:Q220659 rdfs:subClassOf wdrdf:Q1791627
+	a owl:ObjectProperty . # this comes from rdfs ontology
+
+# An external ontology could be uploaded to the wikibase triple store. For EVERY external (non-wikibase-namespace) URI, a wikibase equivalent is created and linked to the original using wikibase:rdfEquiv. That way, wikibase:Statement entities can be build upon the imported triples
+# That means, that also rdfs:label, ontolex:sense or other RDF props re-used in the wikibase Ontology will get their P-numbered equivalent, so that qualifiers and references can also be added to these (which is great and not possible at the moment)
+#
+# If things like rdfs:range, rdfs:domain, owl:inverseOf are imported: How make the system capable of exploit these?
