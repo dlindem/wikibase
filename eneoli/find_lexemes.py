@@ -25,7 +25,7 @@ for binding in bindings:
         keyword_processor.add_keywords_from_dict(
             {binding['lexical_entry']['value'].replace("https://eneoli.wikibase.cloud/entity/",""): [binding['lemma']['value']]}
         )
-print(f"Fed keyword processor with {len(keyword_processor)} fr lemmata.")
+print(f"Fed keyword processor with {len(keyword_processor)} lemmata.")
 
 zotitems = pyzot.everything(pyzot.items(tag="termfind-test"))
 count = 0

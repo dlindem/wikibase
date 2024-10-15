@@ -15,6 +15,8 @@ def sp_load(iso):
 		return spacy.load('es_core_news_sm') # Spanish
 	if iso == 'fra':
 		return spacy.load('fr_core_news_sm') # French
+	if iso == 'deu':
+		return spacy.load('de_core_news_sm') # German
 
 # lemmatize text and clean it
 def lemmatize_clean(bodytxt, lang="eng"):
