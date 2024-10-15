@@ -6,8 +6,8 @@ with open('data/languages_table.csv') as csvfile:
 	language_table = csv.DictReader(csvfile, delimiter=",")
 	#language_name,iso-639-1,iso-639-3,wiki_languagecode,wikibase_item,wikidata_item
 	for row in language_table:
-		if row['iso-639-1'] == "de":
-			continue
+		# if row['iso-639-1'] != "pt":
+		# 	continue
 		print(f"\nNow processing language {row['language_name']}...\n")
 		query = """
 		PREFIX enwb: <https://eneoli.wikibase.cloud/entity/>
@@ -24,15 +24,16 @@ with open('data/languages_table.csv') as csvfile:
 		
 		?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)='"""+row['wiki_languagecode']+"""')
 			   filter not exists {?equiv_st enpq:P58 ?warning.} # no warning
-			   ?equiv_st enps:P64 ?validator. # has been validated.
-		#   filter not exists {?no_sense endp:P12 ?concept.} # no lexeme sense already linked to this
-			   optional {?equiv_st enpq:P63 ?sense.}
+			   ?equiv_st enpq:P64 ?validator. # has been validated.
+		   filter not exists {?lexeme dct:language enwb:"""+row['wikibase_item']+"""; ontolex:sense ?no_sense.
+		   ?no_sense endp:P12 ?concept.} # from no lexeme sense of that language there is a link to this equivalent
+			#   optional {?equiv_st enpq:P63 ?sense.} # is there a lexeme sense already linked from this concept (for the mylang language)?
 		optional {?concept schema:description ?descript_mylang. filter(lang(?descript_mylang)='"""+row['wiki_languagecode']+"""')}		
 		} order by lcase(?equiv_mylang)
 		"""
 		bindings = xwbi.wbi_helpers.execute_sparql_query(query=query)['results']['bindings']
 		# input(json.dumps(bindings, indent=2))
-		print('Found ' + str(len(bindings)) + ' results for the query for validated concepts without lexeme sense linked to them.\n')
+		print('Found ' + str(len(bindings)) + ' results for the query for validated concept equivalents without lexeme sense linked to them.\n')
 		time.sleep(1)
 		count = 0
 		for concept_binding in bindings:
@@ -51,7 +52,8 @@ with open('data/languages_table.csv') as csvfile:
 			select ?lexical_entry ?sense ?sense_gloss ?concept ?conceptLabel (iri(concat(str(wd:),?wd)) as ?wikidata)
 			
 			where {
-			  ?lexical_entry a ontolex:LexicalEntry; dct:language enwb:"""+row['wikibase_item']+"""; wikibase:lemma '"""+equiv+"""'@"""+row['wiki_languagecode']+"""; wikibase:lexicalCategory enwb:Q20. 
+			  ?lexical_entry a ontolex:LexicalEntry; dct:language enwb:"""+row['wikibase_item']+"""; wikibase:lexicalCategory enwb:Q20; wikibase:lemma ?lemma.
+			  filter (str(?lemma) = '"""+equiv+"""')
 			  optional {?lexical_entry ontolex:sense ?sense.}
 			  optional {?sense endp:P12 ?concept.}
 			  optional {?sense skos:definition ?sense_gloss. filter(lang(?sense_gloss)='"""+row['wiki_languagecode']+"""')}
