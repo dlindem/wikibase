@@ -2,11 +2,13 @@ import csv, time, sys, xwbi, xwb, json
 
 # This creates lexical entries for those concept equivalents that have no warning but do have a "validated by" statement
 
+duplicates = []
 with open('data/languages_table.csv') as csvfile:
 	language_table = csv.DictReader(csvfile, delimiter=",")
 	#language_name,iso-639-1,iso-639-3,wiki_languagecode,wikibase_item,wikidata_item
 	for row in language_table:
-		if row['iso-639-1'] == "de":
+		do_not_check = []
+		if row['iso-639-1'] in do_not_check:
 			continue
 		print(f"\nNow processing language {row['language_name']}...\n")
 		query = """
@@ -24,7 +26,7 @@ with open('data/languages_table.csv') as csvfile:
 		
 		?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)='"""+row['wiki_languagecode']+"""')
 			   filter not exists {?equiv_st enpq:P58 ?warning.} # no warning
-			   ?equiv_st enps:P64 ?validator. # has been validated.
+			   ?equiv_st enpq:P64 ?validator. # has been validated.
 		#   filter not exists {?no_sense endp:P12 ?concept.} # no lexeme sense already linked to this
 			   optional {?equiv_st enpq:P63 ?sense.}
 		optional {?concept schema:description ?descript_mylang. filter(lang(?descript_mylang)='"""+row['wiki_languagecode']+"""')}		
@@ -40,7 +42,7 @@ with open('data/languages_table.csv') as csvfile:
 			equiv = concept_binding['equiv_mylang']['value']
 			conceptqid = concept_binding['concept']['value'].replace("https://eneoli.wikibase.cloud/entity/","")
 			sense_to_concept_link = None
-			print(f"\n[{count}] Found validated term: '{equiv}' ({conceptqid})")
+			print(f"\n[{count}] Found validated term: '{equiv}'@{row['wiki_languagecode']} ({conceptqid})")
 
 			# check if entry with this equiv as lemma exists
 
@@ -64,19 +66,25 @@ with open('data/languages_table.csv') as csvfile:
 			print('Found ' + str(len(lex_bindings)) + ' senses in the results for the query for lemmata matching to "'+ equiv +'".\n')
 			time.sleep(0.5)
 
+			created_lexemes = {}
 			existing = []
 			for lex_binding in lex_bindings:
 				lid = lex_binding['lexical_entry']['value'].replace("https://eneoli.wikibase.cloud/entity/", "")
 				if lid not in existing:
 					existing.append(lid)
 			if len(existing) > 1:
-				print(f'ERROR: There is more than one noun entry for "{equiv}"... Fix that manually.')
-				sys.exit()
-			elif len(existing) == 0: # create new lexeme
-				print(f"Going to create a new noun entry for lemma '{equiv}'.")
-				lexeme = xwbi.wbi.lexeme.new(language=row['wikibase_item'], lexical_category="Q20") # noun is default
-				lexeme.lemmas.set(language=row['wiki_languagecode'], value=equiv)
-				lexeme.claims.add(xwbi.Item(prop_nr='P5', value='Q13')) # instance of NeoVoc Lexical Entry
+				print(f'ERROR: There is more than one noun entry for "{equiv}"... Fix that manually! We skip this equiv in this run of the script.')
+				duplicates.append((f"<https://eneoli.wikibase.cloud/entity/{existing[0]}>",f"<https://eneoli.wikibase.cloud/entity/{existing[1]}>"))
+				continue # skip this equiv in this run
+			elif len(existing) == 0: # check if created in this run; create new lexeme
+				if equiv in created_lexemes:
+					print(f"Re-using an entry created in this run for lemma '{equiv}': {created_lexemes[equiv]}.")
+					lexeme = xwbi.lexeme.get(entity_id=created_lexemes[equiv])
+				else:
+					print(f"Going to create a new noun entry for lemma '{equiv}'.")
+					lexeme = xwbi.wbi.lexeme.new(language=row['wikibase_item'], lexical_category="Q20") # noun is default
+					lexeme.lemmas.set(language=row['wiki_languagecode'], value=equiv)
+					lexeme.claims.add(xwbi.Item(prop_nr='P5', value='Q13')) # instance of NeoVoc Lexical Entry
 				concept_to_sense_link = None
 			elif len(existing) == 1: # this is the lexeme
 				print(f"Lexeme {existing[0]} noun entry has lemma '{equiv}'. We'll check that.")
@@ -109,8 +117,9 @@ with open('data/languages_table.csv') as csvfile:
 				while not done:
 					try:
 						lexeme.write()
+						created_lexemes[equiv] = lexeme.id
 						done = True
-						print(f"Successfully written to {lexeme.id} on ENEOLI Wikibase.")
+						print(f"Successfully written to {lexeme.id} '{equiv}' on ENEOLI Wikibase.")
 					except Exception as ex:
 						if "404 Client Error" in str(ex):
 							print('Got 404 response from wikibase, will wait and try again...')
@@ -138,7 +147,4 @@ with open('data/languages_table.csv') as csvfile:
 			print(f"Will try to qualify {equiv_st} with P63 {sense_to_concept_link}...")
 			xwb.setqualifier(conceptqid, "P57", equiv_st, "P63", sense_to_concept_link, "string")
 
-
-# lexeme = xwbi.wbi.lexeme.get(entity_id="L1")
-#
-# print(lexeme.get_json())
+print(f"\nFinished. The following duplicates were found, that has to be fixed!!\n\n{duplicates}")

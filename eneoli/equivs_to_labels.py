@@ -33,13 +33,16 @@ with open('data/languages_table.csv') as csvfile:
 		"""
         bindings = xwbi.wbi_helpers.execute_sparql_query(query=query)['results']['bindings']
         print('Found ' + str(
-            len(bindings)) + ' results for the query for validated concepts without lexeme sense linked to them.\n')
+            len(bindings)) + ' results for the query concepts without warnings for this language.\n')
         time.sleep(1)
         count = 0
         for concept_binding in bindings:
             count += 1
             equivs = concept_binding['equivs']['value'].split("|")
-            preflabel = concept_binding['label_mylang']['value']
+            if 'label_mylang' in concept_binding:
+                preflabel = concept_binding['label_mylang']['value']
+            else:
+                preflabel = None
             if 'altlabels' in concept_binding:
                 altlabels = concept_binding['altlabels']['value'].split("|")
             else:

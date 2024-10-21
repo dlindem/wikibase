@@ -30,4 +30,7 @@
 # https://en.wikipedia.org/wiki/Strength_training
 # https://en.wikipedia.org/wiki/Social_media
 # https://eu.wikipedia.org/wiki/Jaiak_Euskal_Herrian
+# https://es.wikipedia.org/wiki/Guitarra
+https://en.wikipedia.org/wiki/Tennis
+https://en.wikipedia.org/wiki/Glossary_of_tennis_terms
 

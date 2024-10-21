@@ -6,9 +6,10 @@ import sys
 import euswbi
 import time
 
-tbx_file = "TBX/Telefonia Hiztegia_AD81.tbx"
-hiztegi_item = "Q10544"
-hiztegi_name = "Telefonia"
+tbx_file = "TBX/Eskubaloia_AC26.tbx"
+hiztegi_item = "Q11448"
+hiztegi_name = "Eskubaloia"
+kontzeptu_eskema = "Q11455"
 
 subjectfields = {}
 with open('TBX/subjectfield_mapping.csv', 'r') as csvfile:
@@ -26,9 +27,11 @@ for text in martif.findall("text"):
         count = 0
         for termentry in body.findall("termEntry"):
             count += 1
+            term_id = termentry.attrib['id']
             wbitem = euswbi.wbi.item.new()
             wbitem.claims.add(euswbi.Item(value=hiztegi_item, prop_nr="P17"))
-            wbitem.claims.add(euswbi.String(value=f"{hiztegi_name}_{count}", prop_nr="P15"))
+            wbitem.claims.add(euswbi.Item(value=kontzeptu_eskema, prop_nr="P6"))
+            wbitem.claims.add(euswbi.String(value=f"{hiztegi_name}_{term_id}", prop_nr="P15"))
             setlabellangs = []
 
             # subjectField
@@ -64,8 +67,23 @@ for text in martif.findall("text"):
                             continue # P8 statement for Basque (other langs only labels/aliases/descs)
                         references = [euswbi.Item(value=hiztegi_item, prop_nr="P17")]
                         wbitem.claims.add(euswbi.String(value=term.text, prop_nr="P8", qualifiers=qualifiers, references=references))
-            wbitem.write()
-            print(f"Successfully created {wbitem.id}!")
+            try:
+                wbitem.write()
+                print(f"Successfully created {wbitem.id}!")
+            except Exception as ex:
+                doblete_re = re.search(r'Item \[\[Item:(Q\d+)\|Q\d+\]\] already has label', str(ex))
+                if doblete_re:
+                    doblete = euswbi.wbi.item.get(entity_id=doblete_re.group(1))
+                    doblete.claims.add(euswbi.Item(value=kontzeptu_eskema, prop_nr="P6"))
+                    doblete.claims.add(euswbi.Item(value=hiztegi_item, prop_nr="P17"))
+                    doblete.claims.add(euswbi.String(value=f"{hiztegi_name}_{term_id}", prop_nr="P15"))
+                    doblete.write()
+                    print(f"RE-USED EXISTING ITEM {doblete.id}!")
+                else:
+                    print("Unknown error:",str(ex))
+
+
+
             time.sleep(1)
 
 

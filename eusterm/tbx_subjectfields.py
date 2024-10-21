@@ -7,7 +7,9 @@ import os
 import sys
 import euswbi
 
-tbx_file = "TBX/Telefonia Hiztegia_AD81.tbx"
+tbx_file = "TBX/Eskubaloia_AC26.tbx"
+hiztegi_item = "Q11448"
+hiztegi_name = "Eskubaloia"
 
 subjectfields = []
 
@@ -26,6 +28,7 @@ for text in martif.findall("text"):
                         wbitem = euswbi.wbi.item.new()
                         wbitem.labels.set('eu', descrip.text)
                         wbitem.claims.add(euswbi.Item(value="Q10531", prop_nr="P5")) # instance of UZEI arlo-adierazle
+                        wbitem.claims.add(euswbi.Item(value=hiztegi_item, prop_nr="P17")) # iturburua: Hiztegia
                         wbitem.write()
                         print(f"Successfully created {wbitem.id}!")
                         with open('TBX/subjectfield_mapping.csv', 'a') as csvfile:

@@ -5,7 +5,7 @@ from google import csv2sheet
 # inlink expl # https://de.wikipedia.org/wiki/Marxistische_Wirtschaftstheorie
 # apilink expl # https://de.wikipedia.org/w/api.php?action=parse&prop=text&page=Marxistische_Wirtschaftstheorie&format=json
 
-allowed_lang = ['eu', 'es', 'en', 'fr', 'it', 'de', 'pt', 'ca', 'cs']
+allowed_lang = ['eu', 'es', 'en', 'fr', 'it', 'de']
 
 header_entries = ['"wikidata"', '"wikidatalink"', '"source_page"', '"instance_of"', '"part_of"', '"subclass_of"']
 for lang in allowed_lang:
@@ -52,7 +52,7 @@ for pagelink in pagelinks:
 				if re.search('[0-9]', linkpagetitle): # exclude page titles with numbers (pages describing days, years)
 					continue
 
-				apiurl = 'https://www.wikidata.org/w/api.php?action=wbgetentities&sites='+wlang+'wiki&format=json&titles='+linkpagetitle
+				apiurl = 'https://www.wikidata.org/w/api.php?action=wbgetentities&sites='+wlang+'wiki&format=json&titles='+linkpagetitle.replace(" ","_")
 				print(apiurl)
 				wdjsonsource = requests.get(url=apiurl)
 				wdjson =  wdjsonsource.json()
@@ -67,7 +67,7 @@ for pagelink in pagelinks:
 					countresults += 1
 					if wdid in seenqid:
 						continue
-
+					seenqid.append(wdid)
 					if 'labels' in wdjson['entities'][wdid]:
 						for labellang in wdjson['entities'][wdid]['labels']:
 							result['labels'][labellang] = wdjson['entities'][wdid]['labels'][labellang]['value']

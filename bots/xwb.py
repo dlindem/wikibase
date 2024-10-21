@@ -55,7 +55,7 @@ def get_token():
 	# get token
 	csrfquery = site.api('query', meta='tokens')
 	token = csrfquery['query']['tokens']['csrftoken']
-	print("Got fresh CSRF token for lexbib.elex.is.")
+	print("Got fresh CSRF token for ENEOLI WIKIBASE.")
 	return token
 token = get_token()
 
@@ -957,6 +957,7 @@ def setqualifier(qid, prop, claimid, qualiprop, qualio, dtype):
 				# logging.error('Qualifier set failed for ' + prop + ' (' + qualiprop + ') ' + qualivalue + ': ' + str(ex))
 				time.sleep(2)
 				print('Error: '+str(ex))
+				token = get_token()
 				time.sleep(5)
 
 
