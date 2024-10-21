@@ -21,13 +21,13 @@ print('Found ' + str(len(bindings)) + ' ENEOLI lexical entries.\n')
 time.sleep(1)
 
 for binding in bindings:
-    if binding['lang']['value'] == "fr":
+    if binding['lang']['value'] == "de":
         keyword_processor.add_keywords_from_dict(
             {binding['lexical_entry']['value'].replace("https://eneoli.wikibase.cloud/entity/",""): [binding['lemma']['value']]}
         )
-print(f"Fed keyword processor with {len(keyword_processor)} fr lemmata.")
+print(f"Fed keyword processor with {len(keyword_processor)} lemmata.")
 
-zotitems = pyzot.everything(pyzot.items(tag="termfind-test"))
+zotitems = pyzot.everything(pyzot.items(tag="German"))
 count = 0
 for zotitem in zotitems:
     count += 1
@@ -47,7 +47,8 @@ for zotitem in zotitems:
                 else:
                     text = None
     if not text:
-        input(f"Could not load fulltext JSON for {bibitemqid}. Press Enter.")
+        print(f"Could not load fulltext JSON. Cannot process {zotitem['key']}.")
+        time.sleep(1)
         continue
     keywords = keyword_processor.extract_keywords(text)
     uniqkws = set(keywords)
@@ -68,4 +69,8 @@ for zotitem in zotitems:
     # print(json.dumps(statements, indent=2))
 
     xwbi.itemwrite({'qid': bibitemqid, 'statements': statements})
+    zotitem['data']['tags'].append({"tag": "term-indexed"})
+    pyzot.update_item(zotitem)
+    print(f"Added tag 'term-indexed' to {zotitem['key']}")
+    print(f"Finished processing <https://eneoli.wikibase.cloud/entity/{bibitemqid}>")
 
