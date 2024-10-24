@@ -7,9 +7,9 @@ import os
 import sys
 import euswbi
 
-tbx_file = "TBX/Eskubaloia_AC26.tbx"
-hiztegi_item = "Q11448"
-hiztegi_name = "Eskubaloia"
+tbx_file = "TBX/Hipermerkatuetako_Produktuen_Hiztegia_AD42.tbx"
+hiztegi_item = "Q12665"
+hiztegi_name = "Hipermerkatuko_produktuak"
 
 subjectfields = []
 

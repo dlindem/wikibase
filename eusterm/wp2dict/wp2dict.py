@@ -116,9 +116,11 @@ for pagelink in pagelinks:
 				outfile.write(csvline+"\n")
 	# send to google sheets
 	input('Press ENTER for sending this to google sheets.')
+	print("Wait...")
 	csv2sheet.csv2sheet(title='wp2dict_'+wlang+'_'+pagetitle, csvpath=outfilename)
 
 print('\nFinished.\n')
+
 
 
 

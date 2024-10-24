@@ -6,10 +6,10 @@ import sys
 import euswbi
 import time
 
-tbx_file = "TBX/Eskubaloia_AC26.tbx"
-hiztegi_item = "Q11448"
-hiztegi_name = "Eskubaloia"
-kontzeptu_eskema = "Q11455"
+tbx_file = "TBX/Hipermerkatuetako_Produktuen_Hiztegia_AD42.tbx"
+hiztegi_item = "Q12665"
+hiztegi_name = "Hipermerkatuko_produktuak"
+kontzeptu_eskema = "Q12703"
 
 subjectfields = {}
 with open('TBX/subjectfield_mapping.csv', 'r') as csvfile:

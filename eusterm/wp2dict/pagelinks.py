@@ -31,6 +31,8 @@
 # https://en.wikipedia.org/wiki/Social_media
 # https://eu.wikipedia.org/wiki/Jaiak_Euskal_Herrian
 # https://es.wikipedia.org/wiki/Guitarra
-https://en.wikipedia.org/wiki/Tennis
-https://en.wikipedia.org/wiki/Glossary_of_tennis_terms
-
+# https://en.wikipedia.org/wiki/Tennis
+# https://en.wikipedia.org/wiki/Glossary_of_tennis_terms
+# https://en.wikipedia.org/wiki/Eating_disorder
+# https://es.wikipedia.org/wiki/Trastorno_por_d%C3%A9ficit_de_atenci%C3%B3n_con_hiperactividad
+https://en.wikipedia.org/wiki/Rosa_Luxemburg
