@@ -21,7 +21,7 @@ pyzot = zotero.Zotero(config_private.zotero_group_nr, 'group', config_private.zo
 # } group by ?item_id ?parent_id ?pdf_id ?iso ?description order by ?iso
 
 with open('data/fulltext_items.csv') as file:
-    rows = csv.DictReader(file)
+    rows = csv.DictReader(file, delimiter="\t")
     for row in rows:
 
         parent_id = row['parent_id']

@@ -18,7 +18,7 @@ def get_token():
 	# get token
 	csrfquery = site.api('query', meta='tokens')
 	token = csrfquery['query']['tokens']['csrftoken']
-	print("Got fresh CSRF token for lexbib.elex.is.")
+	print("Got fresh CSRF token for Inguma wikibase.")
 	return token
 token = get_token()
 
@@ -55,6 +55,7 @@ def setqualifier(qid, prop, claimid, qualiprop, qualio, dtype):
 	global token
 	guidfix = re.compile(r'^([QLP]\d+)\-')
 	claimid = re.sub(guidfix, r'\1$', claimid)
+	print(claimid)
 	if dtype == "string" or dtype == "url" or dtype=="externalid":
 		qualivalue = '"'+qualio.replace('"', '\\"')+'"'
 	elif dtype == "item" or dtype =="wikibase-entityid":

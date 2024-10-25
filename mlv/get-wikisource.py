@@ -1,16 +1,20 @@
-import re, json
+import re, json, time
 import urllib.request
 from nltk.tokenize import word_tokenize
 
 # get pdf index from https://eu.wikisource.org/wiki/Azkoitiko_Sermoia?action=raw
 
 project_name = "Larramendi_1737_Azkoitiko_Sermoia"
-
-wikisource_pages = ["Orrialde:Larramendi_1737_Azkoitiko_Sermoia.pdf/1", "Orrialde:Larramendi_1737_Azkoitiko_Sermoia.pdf/2"]
+wikisource_source_name = "Orrialde:Larramendi_1737_Azkoitiko_Sermoia.pdf/"
+wikisource_pages = list(range(22))
+print(f"{wikisource_pages}")
 
 text = ""
 for page in wikisource_pages:
-    req = urllib.request.urlopen(f"http://eu.wikisource.org/wiki/{page}?action=raw")
+    url = f"http://eu.wikisource.org/wiki/{wikisource_source_name}{page+1}?action=raw"
+    req = urllib.request.urlopen(url)
+    print(f"Got page {page+1} from {url}")
+    time.sleep(1.1)
     wikitext = req.read().decode()
     wikitext = re.sub(r"['\[\]]", "", wikitext)
     wikitext = re.sub(r"<[^>]+>", "", wikitext)
