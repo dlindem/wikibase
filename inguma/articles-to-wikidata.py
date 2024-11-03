@@ -119,6 +119,7 @@ with open ('data/inguma_artikuluak_wd.csv') as csvfile:
         print(f"Successfully written to http://www.wikidata.org/entity/{wd_item.id}")
         time.sleep(2)
 
+# TODO: automatic addition of P1 statement to WB article item!!!
 
 # remember to delete the P2093 "creator name" statements from Wikidata items
 

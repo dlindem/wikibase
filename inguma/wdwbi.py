@@ -160,4 +160,4 @@ wbi = WikibaseIntegrator(login=login_instance)
 #
 # 	return iwbitem.id
 #
-print('\niwbi engine loaded.\n')
+print('\nwdwbi engine loaded.\n')

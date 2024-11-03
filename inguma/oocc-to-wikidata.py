@@ -21,6 +21,7 @@ with open ('data/inguma_oocc_wd.csv') as csvfile:
         inguma_references.add(inguma_reference)
 
         if row['oocc_wd'].startswith("Q"): # creator has P1 statement
+            continue # no chek of existing
             print("Will re-use WD item!")
             wd_item = wdwbi.wbi.item.get(entity_id=row['oocc_wd'])
         else:
