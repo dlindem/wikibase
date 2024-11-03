@@ -13,7 +13,7 @@ from wikibaseintegrator.datatypes.time import Time
 from wikibaseintegrator.datatypes.url import URL
 from wikibaseintegrator.models import Reference, References, Form, Sense
 from wikibaseintegrator.wbi_config import config as wbi_config
-# from wikibaseintegrator import wbi_helpers
+from wikibaseintegrator import wbi_helpers
 from wikibaseintegrator.wbi_enums import ActionIfExists, WikibaseSnakType
 from wikibaseintegrator.models.claims import Claims
 

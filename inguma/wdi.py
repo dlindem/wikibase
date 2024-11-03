@@ -1,8 +1,9 @@
 import mwclient, re, json, time
-from config_private import wb_bot_user, wb_bot_pwd
+from config_private import wd_bot_user as wb_bot_user
+from config_private import wd_bot_pwd as wb_bot_pwd
 
 # Inguma wikibase auth for mwclient
-site = mwclient.Site('wikibase.inguma.eus')
+site = mwclient.Site('www.wikidata.org')
 def get_token():
 	global site
 	global wb_bot_pwd
@@ -18,7 +19,7 @@ def get_token():
 	# get token
 	csrfquery = site.api('query', meta='tokens')
 	token = csrfquery['query']['tokens']['csrftoken']
-	print("Got fresh CSRF token for Inguma wikibase.")
+	print("Got fresh CSRF token for Wikidata.")
 	return token
 token = get_token()
 
@@ -66,11 +67,11 @@ def setqualifier(qid, prop, claimid, qualiprop, qualio, dtype):
 		qualivalue = json.dumps({
 		"entity-type":"time",
 		"time": qualio['time'],
-	    "timezone": 0,
-	    "before": 0,
-	    "after": 0,
-	    "precision": qualio['precision'],
-	    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"})
+		"timezone": 0,
+		"before": 0,
+		"after": 0,
+		"precision": qualio['precision'],
+		"calendarmodel": "http://www.wikidata.org/entity/Q1985727"})
 	elif dtype == "monolingualtext":
 		qualivalue = json.dumps(qualio)
 	if qualiprop in ['P65']:
@@ -187,19 +188,22 @@ def removeref(guid=None, reference=None):
 		try:
 			results = site.post('wbremovereferences', statement=guid, references=[reference], token=token, bot=1, summary="Remove obsolete Reference.")
 			if results['success'] == 1:
-				print('Wb remove ref for '+reference+': success.')
+				print(f'Wb remove ref {reference} from claim {guid} success.')
 				done = True
 		except Exception as ex:
 			print('Remove Reference operation failed, will try again...\n'+str(ex))
 			if 'Invalid CSRF token.' in str(ex):
 				print('Wait a sec. Must get a new CSRF token...')
 				token = get_token()
-			if 'invalid-guid' in str(ex):
+			elif 'invalid-guid' in str(ex):
 				print('The guid to remove was not found.')
+				done = True
+			elif 'no-such-reference' in str(ex):
+				print("Reference not found.")
 				done = True
 			else:
 				print(str(ex))
-			time.sleep(4)
+			time.sleep(1)
 
 def removeclaim(guid):
 	global token
@@ -278,4 +282,4 @@ def getclaims(s, p):
 	return (s, {})
 
 
-print('IWB basic client (mwclient) loaded.')
+print('Wikidata basic client (mwclient) loaded.')

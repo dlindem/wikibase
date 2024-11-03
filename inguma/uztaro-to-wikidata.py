@@ -42,11 +42,12 @@ with open ('data/inguma-uztaro-articles.csv') as csvfile:
     for row in csvrows:
         count += 1
         print(f"\n[{count}] {row}")
-        if str(row['update']).startswith("2024-11"):
-            print("Already updated, skipped.")
-            continue
+        # if str(row['wd_upload']).startswith("2024-11"):
+        #     print("Already updated, skipped.")
+        #     continue
         article_wbqid = row['artikulua'].replace("https://wikibase.inguma.eus/entity/","")
         title = row['title']
+        p1guid = row['p1guid'].replace("https://wikibase.inguma.eus/entity/statement/","")
         article_year = row['data'][0:4]
         egileak = json.loads("{"+row['wd_egileak']+"}")
         egileak = dict(sorted(egileak.items()))
@@ -128,9 +129,15 @@ with open ('data/inguma-uztaro-articles.csv') as csvfile:
 
         # other pub metadata
 
-        # OJS page
-        wd_item.claims.add(wdwbi.URL(prop_nr="P973", value=row['ojs_landing'], references=inguma_references), action_if_exists=wdwbi.ActionIfExists.MERGE_REFS_OR_APPEND)
+        ojs_references = wdwbi.References()
+        ojs_reference = wdwbi.Reference()
+        ojs_reference.add(
+            wdwbi.URL(prop_nr="P854", value=row['ojs_landing']))  # OJS landing page
+        ojs_references.add(ojs_reference)
 
+        # OJS page
+        wd_item.claims.add(wdwbi.URL(prop_nr="P973", value=row['ojs_landing'], references=inguma_references), action_if_exists=wdwbi.ActionIfExists.REPLACE_ALL)
+        wd_item.claims.add(wdwbi.URL(prop_nr="P953", value=row['pdf'], references=ojs_references), action_if_exists=wdwbi.ActionIfExists.REPLACE_ALL)  # pdf download link
 
         # date
         wd_item.claims.add(wdwbi.Time(prop_nr="P577", time=f"+{article_year}-01-01T00:00:00Z", precision=9, references=inguma_references),
@@ -142,19 +149,13 @@ with open ('data/inguma-uztaro-articles.csv') as csvfile:
             pages += "-" + row['ep']
         if len(pages) > 0:
             wd_item.claims.add(wdwbi.String(prop_nr="P304", value=pages, references=inguma_references),
-                           action_if_exists=wdwbi.ActionIfExists.REPLACE_ALL)
+                           action_if_exists=wdwbi.ActionIfExists.MERGE_REFS_OR_APPEND)
 
         # zenbakia / isue wdt:P433 match to Inguma "issue" P26
         if len(row['issue']) > 0:
             wd_item.claims.add(wdwbi.String(prop_nr="P433", value=row['issue'], references=inguma_references), action_if_exists=wdwbi.ActionIfExists.MERGE_REFS_OR_APPEND)
 
         # DOI, etc
-
-        ojs_references = wdwbi.References()
-        ojs_reference = wdwbi.Reference()
-        ojs_reference.add(
-            wdwbi.URL(prop_nr="P854", value=row['ojs_landing']))  # OJS landing page
-        ojs_references.add(ojs_reference)
 
         if len(row['doi']) > 0:
             wd_item.claims.add(wdwbi.ExternalID(prop_nr="P356", value=row['doi'].upper(), references=inguma_references), action_if_exists=wdwbi.ActionIfExists.MERGE_REFS_OR_APPEND)  # DOI
@@ -166,13 +167,17 @@ with open ('data/inguma-uztaro-articles.csv') as csvfile:
                            action_if_exists=wdwbi.ActionIfExists.MERGE_REFS_OR_APPEND)  # published in Uztaro
         wd_item.claims.add(wdwbi.Item(prop_nr="P275", value="Q42553662", references=ojs_references),
                            action_if_exists=wdwbi.ActionIfExists.MERGE_REFS_OR_APPEND)  # CC BY-NC-SA 4.0
-        wd_item.claims.add(wdwbi.MonolingualText(prop_nr="P1476", language="eu", text=row['title'], references=inguma_references), action_if_exists=wdwbi.ActionIfExists.MERGE_REFS_OR_APPEND)
+        wd_item.claims.add(wdwbi.MonolingualText(prop_nr="P1476", language="eu", text=row['title'], references=inguma_references),
+                           action_if_exists=wdwbi.ActionIfExists.MERGE_REFS_OR_APPEND)
 
         try:
             wd_item.write()
             print(f"Successfully written to http://www.wikidata.org/entity/{wd_item.id}")
             if not p1link:
                 iwb.stringclaim(article_wbqid, "P1", wd_item.id)
+            if p1link and p1link != wd_item.id:
+                print("Will UPDATE P1!!")
+                iwb.setclaimvalue(p1guid, wd_item.id, "string")
 
         except Exception as ex:
             dup_re = re.search(r'Item \[\[Q\d+\|(Q\d+)\]\] already has label', str(ex))
@@ -181,7 +186,7 @@ with open ('data/inguma-uztaro-articles.csv') as csvfile:
             else:
                 input(str(ex)+ "\n\nPress Enter to skip this item and proceed.")
         time.sleep(2)
-# TODO: automatic addition of P1 statement to WB article item!!!
+
 
 # remember to delete the P2093 "creator name" statements from Wikidata items
 
