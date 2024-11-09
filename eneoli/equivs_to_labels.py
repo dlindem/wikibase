@@ -14,13 +14,14 @@ with open('data/languages_table.csv') as csvfile:
 		PREFIX enps: <https://eneoli.wikibase.cloud/prop/statement/>
 		PREFIX enpq: <https://eneoli.wikibase.cloud/prop/qualifier/>
 
-		select ?concept (group_concat(str(?equiv_mylang);SEPARATOR="|") as ?equivs) ?label_mylang  (group_concat(distinct str(?altlabel_mylang);SEPARATOR="|") as ?altlabels)
+		select ?concept (group_concat(distinct str(?equiv_mylang);SEPARATOR="|") as ?equivs) ?label_mylang  (group_concat(distinct str(?altlabel_mylang);SEPARATOR="|") as ?altlabels)
 
 		where {
 		?concept endp:P5 enwb:Q12. # instances of "NeoVoc Concept"
 
 		?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)='""" + row[
             'wiki_languagecode'] + """')
+            ?equiv_st enpq:P64 ?validator. # has been validated.
 			   filter not exists {?equiv_st enpq:P58 ?warning.} # no warning
 
         optional {?concept rdfs:label ?label_mylang. filter(lang(?label_mylang)='""" + row[
