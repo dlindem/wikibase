@@ -27,7 +27,7 @@ with open('data/languages_table.csv') as csvfile:
 		?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)='"""+row['wiki_languagecode']+"""')
 			   filter not exists {?equiv_st enpq:P58 ?warning.} # no warning
 			   ?equiv_st enpq:P64 ?validator. # has been validated.
-		#   filter not exists {?no_sense endp:P12 ?concept.} # no lexeme sense already linked to this
+		   filter not exists {?no_sense endp:P12 ?concept.} # no lexeme sense already linked to this
 			   optional {?equiv_st enpq:P63 ?sense.}
 		optional {?concept schema:description ?descript_mylang. filter(lang(?descript_mylang)='"""+row['wiki_languagecode']+"""')}		
 		} order by lcase(?equiv_mylang)
