@@ -14,27 +14,29 @@ def get_citations():
     PREFIX ip: <https://wikibase.inguma.eus/prop/>
     PREFIX ips: <https://wikibase.inguma.eus/prop/statement/>
     PREFIX ipq: <https://wikibase.inguma.eus/prop/qualifier/>
-    
-    select ?aipatzen_duena ?wd_cit_iturri (group_concat(distinct ?wd_cit_xede;SEPARATOR=",") as ?wd_cit_xedeak)
-    where {
-      ?oocc_item ip:P89 ?oocc_st.
-      ?oocc_st ips:P89 ?oocc_id.
-      ?oocc_st ipq:P75 ?oocc_text.
-      ?oocc_item idp:P10 ?oocc_title.
-      ?aipatzen_duena idp:P62 [idp:P88* ?oocc_item].
-      ?aipatzen_duena idp:P1 ?wd_cit_iturri. bind(iri(concat(str(wd:),str(?wd_cit_iturri))) as ?wikidata_iturri).
-      ?oocc_item idp:P1 ?wd_cit_xede. bind(iri(concat(str(wd:),str(?wd_cit_xede))) as ?wikidata_xede).
-      filter not exists {
-       SERVICE <https://query.wikidata.org/sparql> {
-               select ?wikidata_iturri ?wikidata_xede where
-                                {?wikidata_iturri p:P2860 [ps:P2860 ?wikidata_xede;
-                                                           prov:wasDerivedFrom [pr:P854 ?aipatzen_duena]
-                                                           ].}
-       } 
-       }
-     SERVICE wikibase:label { bd:serviceParam wikibase:language "en,eu". }
-    }  
-    group by ?aipatzen_duena ?wd_cit_iturri ?wd_cit_xedeak
+        
+    select 
+    ?aipatzen_duena ?wd_cit_iturri (group_concat(distinct ?wd_cit_xede;SEPARATOR=",") as ?wd_cit_xedeak)
+where {
+  ?oocc_item ip:P89 ?oocc_st.
+  ?oocc_st ips:P89 ?oocc_id.
+  ?oocc_st ipq:P75 ?oocc_text.
+  ?oocc_item idp:P10 ?oocc_title.
+  ?oocc_item idp:P1 ?wd_cit_xede.
+  
+  ?aipatzen_duena idp:P62 [idp:P88* ?oocc_item].
+  ?aipatzen_duena idp:P19 ?data; idp:P37 ?aldizkaria; idp:P17 [rdfs:label ?egileaLabel]. filter(lang(?egileaLabel)="eu")
+  ?aipatzen_duena idp:P1 ?wd_cit_iturri. 
+  bind(iri(concat(str(wd:),?wd_cit_iturri)) as ?wd_cit_iturri_item)
+  bind(iri(concat(str(wd:),?wd_cit_xede)) as ?wd_cit_xede_item)
+  filter not exists {
+  SERVICE <https://query.wikidata.org/sparql> {
+           select ?wd_cit_iturri_item ?wd_cit_xede_item where {?wd_cit_iturri_item wdt:P2860 ?wd_cit_xede_item. } }
+  }
+ SERVICE wikibase:label { bd:serviceParam wikibase:language "en,eu". }
+}  
+group by ?aipatzen_duena ?wd_cit_iturri ?wd_cit_xedeak
+
     """
 
     bindings = iwbi.wbi_helpers.execute_sparql_query(query=query)['results']['bindings']
