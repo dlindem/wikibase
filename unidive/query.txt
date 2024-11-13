@@ -1,0 +1,5 @@
+SELECT ?sense (concat(str(?lemma)," → ",?gloss," [",?senseId,"]") as ?label)
+where {?lexeme wikibase:lemma ?lemma; ontolex:sense ?sense. ?sense skos:definition ?gloss.
+      filter(lang(?gloss)="en")
+      bind(strafter(str(?sense), "https://unidive.wikibase.cloud/entity/") as ?senseId)
+      }
