@@ -121,7 +121,40 @@ where {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "@langwikicode,en,fr". }}
   }
 </sparql>
+=== NeoVoc @langname terms and number of occurences in @langname NeoCorpus articles ===
+* This lists the validated @langname terms, and in how many articles they have been found
+<sparql tryit="1">
+#title: NeoVoc lexical entry lemmata, and in how many articles they occur
 
-''This page will be updated automatically, don't edit it (last edited on October 11, 2024).''
+PREFIX enwb: <https://eneoli.wikibase.cloud/entity/>
+PREFIX endp: <https://eneoli.wikibase.cloud/prop/direct/>
+
+select ?lexical_entry ?lemma (count(?bib_item) as ?in_how_many_articles)
+
+where {
+  ?lexical_entry endp:P5 enwb:Q13; wikibase:lemma ?lemma. filter(lang(?lemma)="@langwikicode")
+  ?bib_item endp:P65 ?lexical_entry.
+} group by ?lexical_entry ?lang ?lemma order by desc(?in_how_many_articles)
+</sparql>
+=== NeoCorpus articles in @langname, and NeoVoc terms found in them ===
+* This lists the validated @langname terms, and in how many articles they have been found
+<sparql tryit="1">
+#title: NeoVoc articles in @langname, and terms found in them
+
+PREFIX enwb: <https://eneoli.wikibase.cloud/entity/>
+PREFIX endp: <https://eneoli.wikibase.cloud/prop/direct/>
+
+select ?bib_item ?authors_year ?title (group_concat(?lemma; SEPARATOR="; ") as ?terms)
+
+where {
+  ?bib_item endp:P7 enwb:@wikibase_item; endp:P65 ?lexical_entry.
+  ?bib_item rdfs:label ?title; schema:description ?desc.
+  filter(lang(?title)="en") filter(lang(?desc)="en") bind(replace(?desc, "Publication by ", "") as ?authors_year)
+  ?lexical_entry endp:P5 enwb:Q13; wikibase:lemma ?lemma.
+
+} group by ?bib_item ?authors_year ?title ?terms
+</sparql>
+
+''This page will be updated automatically, don't edit it (last edited on November 5, 2024).''
 
 ''For discussion in the group working on @langname, you may use this page: [[Talk:NeoVoc/language/@langwikicode]].''

@@ -39,7 +39,7 @@ with open('data/languages_table.csv') as csvfile:
 		# print(template)
 
 		pagecreation = site.post('edit', token=token, contentformat='text/x-wiki', contentmodel='wikitext',
-									 bot=True, recreate=True, summary="recreate wiki page using upload_lang_page.py",
+									 bot=True, recreate=True, summary=f"recreate wiki page for {row['language_name']} using upload_lang_page.py",
 									 title=f"NeoVoc/language/{row['wiki_languagecode']}", text=langpage)
 		print(str(pagecreation))
 		time.sleep(0.5)
