@@ -7,9 +7,9 @@ import os
 import sys
 import euswbi
 
-tbx_file = "TBX/Hipermerkatuetako_Produktuen_Hiztegia_AD42.tbx"
-hiztegi_item = "Q12665"
-hiztegi_name = "Hipermerkatuko_produktuak"
+tbx_file = "TBX/Musika Hiztegia_HH64.tbx"
+hiztegi_item = "Q6377"
+hiztegi_name = "Musika"
 
 subjectfields = []
 
