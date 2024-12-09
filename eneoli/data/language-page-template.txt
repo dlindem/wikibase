@@ -121,6 +121,47 @@ where {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "@langwikicode,en,fr". }}
   }
 </sparql>
+=== NeoVoc lexical entries in @langname with @langname synonyms ===
+* This query also displays any lexemes with senses linked to the same concept (synonyms in the same language)
+<sparql tryit="1">
+#title: All NeoVoc @langname lexical entries, including synonyms (@langname lexemes with senses linked to the same concept)
+
+PREFIX enwb: <https://eneoli.wikibase.cloud/entity/>
+PREFIX endp: <https://eneoli.wikibase.cloud/prop/direct/>
+
+select ?lexical_entry ?lemma (group_concat(str(?synonym_lemma);SEPARATOR=", ") as ?synonym_group) ?posLabel ?sense ?sense_gloss ?concept ?conceptLabel
+
+where {
+  ?lexical_entry a ontolex:LexicalEntry; dct:language enwb:@wikibase_item; wikibase:lemma ?lemma; wikibase:lexicalCategory ?pos; ontolex:sense ?sense.
+  optional {?sense endp:P12 ?concept. optional {?sense skos:definition ?sense_gloss.}
+            optional {?synonym a ontolex:LexicalEntry; dct:language enwb:@wikibase_item; wikibase:lemma ?synonym_lemma; ontolex:sense ?synonym_sense. ?synonym_sense endp:P12 ?concept.
+                    }
+           }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "@langwikicode,en,fr". }
+} group by ?lexical_entry ?lemma ?synonym_group ?posLabel ?sense ?sense_gloss ?concept ?conceptLabel
+  order by lcase(?lemma)
+</sparql>
+=== NeoVoc lexical entries in @langname and multilingual equivalents ===
+* This query also displays any lexemes with senses linked to the same concept (equivalents in any language)
+<sparql tryit="1">
+#title: All NeoVoc @langname lexical entries, including equivalents (lexemes with senses linked to the same concept)
+
+PREFIX enwb: <https://eneoli.wikibase.cloud/entity/>
+PREFIX endp: <https://eneoli.wikibase.cloud/prop/direct/>
+
+select ?lexical_entry ?lemma (group_concat(str(?synonym_langstring);SEPARATOR=", ") as ?synonym_group) ?posLabel ?sense ?sense_gloss ?concept ?conceptLabel
+
+where {
+  ?lexical_entry a ontolex:LexicalEntry; dct:language enwb:@wikibase_item; wikibase:lemma ?lemma; wikibase:lexicalCategory ?pos; ontolex:sense ?sense.
+  optional {?sense endp:P12 ?concept. optional {?sense skos:definition ?sense_gloss.}
+            optional {?synonym a ontolex:LexicalEntry; wikibase:lemma ?synonym_lemma; ontolex:sense ?synonym_sense. ?synonym_sense endp:P12 ?concept.
+                   bind(concat(str(?synonym_lemma), " (",lang(?synonym_lemma),")") as ?synonym_langstring)
+                     }
+           }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "@langwikicode,en,fr". }
+} group by ?lexical_entry ?lemma ?synonym_group ?posLabel ?sense ?sense_gloss ?concept ?conceptLabel
+  order by lcase(?lemma)
+</sparql>
 === NeoVoc @langname terms and number of occurences in @langname NeoCorpus articles ===
 * This lists the validated @langname terms, and in how many articles they have been found
 <sparql tryit="1">
