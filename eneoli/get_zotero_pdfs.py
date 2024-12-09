@@ -21,7 +21,7 @@ pyzot = zotero.Zotero(config_private.zotero_group_nr, 'group', config_private.zo
 # } group by ?item_id ?parent_id ?pdf_id ?iso ?description order by ?iso
 
 with open('data/fulltext_items.csv') as file:
-    rows = csv.DictReader(file, delimiter="\t")
+    rows = csv.DictReader(file, delimiter=",")
     for row in rows:
 
         parent_id = row['parent_id']
@@ -35,7 +35,7 @@ with open('data/fulltext_items.csv') as file:
                 zotitem = pyzot.add_tags(zotitem, 'wikibase-export')
                 print(f"Tagged item {parent_id} with 'wikibase-export', there seems to be an orphaned PDF ID qualifier in the zotitem ID statement.")
             else:
-                os.system(f"cp {source}/*.pdf /media/david/FATdisk/ENEOLI/eneoli_fulltext_{bibitem_qid}.pdf")
+                os.system(f"cp {source}/*.pdf /media/david/FATdisk/ENEOLI/eneoli_french_{bibitem_qid}.pdf")
                 print(f"Successfully copied {pdf_id}.")
         except:
             print(f"There is something wrong with {row}...")
