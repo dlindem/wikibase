@@ -8,7 +8,7 @@ overwrite_existing_json = False
 missing_tei_list = []
 
 with open('data/fulltext_items.csv') as file:
-    rows = csv.DictReader(file, delimiter="\t")
+    rows = csv.DictReader(file, delimiter=",")
     for row in rows:
 
         parent_id = row['parent_id']
