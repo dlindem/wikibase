@@ -29,7 +29,7 @@ def lemmatize_clean(bodytxt, lang="eng"):
 		print(f"Loaded spacy model: {sp}")
 	bodylem = ""
 	tokencount = 0
-	for token in sp(bodytxt):
+	for token in sp(bodytxt[0:999999]):
 		tokencount += 1
 		#bodylem += ("%s " % token.lemma_)
 		if len(token.lemma_) > 0:
