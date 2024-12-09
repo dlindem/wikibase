@@ -14,6 +14,7 @@ select ?lexical_entry (lang(?lemma) as ?lang) ?lemma
        
 where { 
   ?lexical_entry endp:P5 enwb:Q13; wikibase:lemma ?lemma.
+ 
 }
 		"""
 bindings = xwbi.wbi_helpers.execute_sparql_query(query=query)['results']['bindings']
@@ -21,13 +22,13 @@ print('Found ' + str(len(bindings)) + ' ENEOLI lexical entries.\n')
 time.sleep(1)
 
 for binding in bindings:
-    if binding['lang']['value'] == "de":
+    if binding['lang']['value'] == "fr":
         keyword_processor.add_keywords_from_dict(
             {binding['lexical_entry']['value'].replace("https://eneoli.wikibase.cloud/entity/",""): [binding['lemma']['value']]}
         )
 print(f"Fed keyword processor with {len(keyword_processor)} lemmata.")
 
-zotitems = pyzot.everything(pyzot.items(tag="German"))
+zotitems = pyzot.everything(pyzot.items(tag="falta"))
 count = 0
 for zotitem in zotitems:
     count += 1
@@ -36,7 +37,7 @@ for zotitem in zotitems:
         if 'enclosure' in child['links']:
             if child['links']['enclosure']['type'] == "application/json":
                 bibitemqid = re.search(r'Q\d+', child['links']['enclosure']['title']).group(0)
-                print(f"\n[{count}] For {bibitemqid}, retrieving fulltext json file: {child['key']}")
+                print(f"\n[{count}/{len(zotitems)}]] For {bibitemqid}, retrieving fulltext json file: {child['key']}")
 
                 fulltext = pyzot.file(child['key'])
                 # print(json.dumps(fulltext, indent=2))
@@ -62,10 +63,19 @@ for zotitem in zotitems:
     print(f"Found lexemes: {found_lexemes}")
 
     statements = []
+    first_statement = True
     for lid in found_lexemes:
-        statements.append({'type': 'lexeme', 'prop_nr': 'P65', 'value': lid, 'qualifiers':[
-            {'type': 'string', 'prop_nr': 'P66', 'value': str(found_lexemes[lid])}
-        ]})
+        if first_statement:
+            statements.append({'type': 'lexeme', 'prop_nr': 'P65', 'value': lid, 'qualifiers': [
+                {'type': 'string', 'prop_nr': 'P66', 'value': str(found_lexemes[lid])}
+            ], 'action': 'replace'})
+            xwbi.itemwrite({'qid': bibitemqid, 'statements': statements})
+            time.sleep(0.2)
+            first_statement = False
+        else:
+            statements.append({'type': 'lexeme', 'prop_nr': 'P65', 'value': lid, 'qualifiers':[
+                {'type': 'string', 'prop_nr': 'P66', 'value': str(found_lexemes[lid])}
+            ], 'action': 'append'})
     # print(json.dumps(statements, indent=2))
 
     xwbi.itemwrite({'qid': bibitemqid, 'statements': statements})
