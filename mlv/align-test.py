@@ -1,17 +1,12 @@
 from collatex import *
 import os
 
-
 collection = 'emakumeen_alde'
 versions = {}
-first = None
 for file in os.listdir('data/'+collection):
     filename = file.replace(".txt" , "")
-    if not first:
-        first = filename
     with open('data/'+collection+'/'+file) as txtfile:
         versions[filename] = txtfile.read()
-
 
 collation = Collation()
 for version in versions:
