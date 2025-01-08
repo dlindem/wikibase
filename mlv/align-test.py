@@ -1,7 +1,6 @@
 from collatex import *
-import json, os, sys
+import os
 
-# from nltk import align
 
 collection = 'emakumeen_alde'
 versions = {}
@@ -13,7 +12,6 @@ for file in os.listdir('data/'+collection):
     with open('data/'+collection+'/'+file) as txtfile:
         versions[filename] = txtfile.read()
 
-# print(f"Start. Length is {len(versions[first])}.")
 
 collation = Collation()
 for version in versions:
