@@ -1,6 +1,9 @@
 import json, csv, time, os, re
 import xwbi
 
+with open ('data/donefiles.txt') as file:
+    donefiles = file.read().split("\n")
+
 with open ('data/gasteizko_kaleak.csv') as file:
     csvrows = csv.DictReader(file, delimiter=",")
     kaleak = {}
@@ -11,6 +14,8 @@ with open ('data/gasteizko_kaleak.csv') as file:
 
 for dir, x, files in os.walk('data/kaleak'):
     for filename in files:
+        if filename in donefiles:
+            continue
         count = 0
         with open(dir+'/'+filename, errors="ignore") as file:
             filerows = file.read().split('\n')
@@ -33,3 +38,5 @@ for dir, x, files in os.walk('data/kaleak'):
                                       ]
                         xwbi.itemwrite({'qid': kalea['entity'], 'statements': statements})
                         time.sleep(1)
+        with open('data/donefiles.txt', 'a') as file:
+            file.write(filename + "\n")
