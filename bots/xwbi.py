@@ -13,7 +13,7 @@ from wikibaseintegrator.wbi_config import config as wbi_config
 from wikibaseintegrator import wbi_helpers
 from wikibaseintegrator.wbi_enums import ActionIfExists, WikibaseSnakType
 from wikibaseintegrator.models.qualifiers import Qualifiers
-from wikibaseintegrator.models import Sense
+from wikibaseintegrator.models import Reference, References, Form, Sense
 import config
 import config_private
 
