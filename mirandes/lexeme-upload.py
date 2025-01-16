@@ -69,9 +69,10 @@ for entry in wikt:
 			senseblock = re.sub(r'\{\{[^\}]+\}\} ?', '', senseblock) # delete wiki templates
 			senseblock = senseblock.replace("[","") # delete xrefs
 			senseblock = senseblock.replace("]","") # delete xrefs
+			senseblock = senseblock.replace("()", "")  # delete empty brackets
 			if senseblock.strip() == '':
 				senseblock = "XXX"
-			print(f"Sense: {senseblock}")
+			print(f"Sense: {senseblock.strip()}")
 			sense = xwbi.Sense()
 			sense.glosses.set(language='pt', value=senseblock.strip())
 			sense.claims.add(ptwiktclaim)

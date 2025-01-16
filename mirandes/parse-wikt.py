@@ -66,7 +66,7 @@ for filename in os.listdir('data/wikt'):
 
             hyphen_re = re.search(r'\{\{?p?r?o?p?a?r?oxítona\|([^=]+)\|\w+=mwl\}\}', entrytext)
             if hyphen_re:
-                lexeme['hyphen'] = hyphen_re.group(1)
+                lexeme['hyphen'] = hyphen_re.group(1).strip()
 
             gender_re = re.search(r'{{([mf])}}', entrytext)
             if gender_re:
