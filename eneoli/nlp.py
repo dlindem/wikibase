@@ -17,6 +17,20 @@ def sp_load(iso):
 		return spacy.load('fr_core_news_sm') # French
 	if iso == 'deu':
 		return spacy.load('de_core_news_sm') # German
+	if iso == 'por':
+		return spacy.load('pt_core_news_sm') # Portuguese
+	if iso == 'ell':
+		return spacy.load('el_core_news_sm') # Greek
+	if iso == 'cat':
+		return spacy.load('ca_core_news_sm') # Catalan
+	if iso == 'hrv':
+		return spacy.load('hr_core_news_sm') # Croatian
+	if iso == 'ron':
+		return spacy.load('ro_core_news_sm') # Romanian
+	if iso == 'ukr':
+		return spacy.load('uk_core_news_sm') # Ukranian
+	if iso == 'lit':
+		return spacy.load('lt_core_news_sm') # German
 
 # lemmatize text and clean it
 def lemmatize_clean(bodytxt, lang="eng"):
