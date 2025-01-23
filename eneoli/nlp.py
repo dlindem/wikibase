@@ -30,7 +30,10 @@ def sp_load(iso):
 	if iso == 'ukr':
 		return spacy.load('uk_core_news_sm') # Ukranian
 	if iso == 'lit':
-		return spacy.load('lt_core_news_sm') # German
+		return spacy.load('lt_core_news_sm') # Lithuanian
+	if iso == 'dan':
+		return spacy.load('da_core_news_sm') # Danish
+	return None
 
 # lemmatize text and clean it
 def lemmatize_clean(bodytxt, lang="eng"):
@@ -40,7 +43,11 @@ def lemmatize_clean(bodytxt, lang="eng"):
 	global sp_lang
 	if sp_lang != lang: # if new lang, load new model (if same lang than before, do not load again)
 		sp = sp_load(lang)
-		print(f"Loaded spacy model: {sp}")
+		if sp:
+			print(f"Loaded spacy model: {sp}")
+		else:
+			sp_lang = None
+			return None
 	bodylem = ""
 	tokencount = 0
 	for token in sp(bodytxt[0:999999]):
