@@ -1,0 +1,2732 @@
+
+<!DOCTYPE html>
+<html lang="eu">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<meta name="description" content="BDB Bertsolaritzaren datu-basea Xenpelar Dokumentazio Zentroak (XDZ) garatu du. 1991ean sortu zuen Bertsozale Elkarteak Xenpelar Dokumentazio Zentroa, bertsolaritzaren ondarea bildu, antolatu eta gizarteratuz, maila guztietako ikerkuntza bultzatzeko helburuarekin. Mota guztietako informazioa eta dokumentuak biltzen dira eta bertsolaritzaren berezko sistema dokumentalaren arabera antolatuta eskaintzen du  zerbitzu publikoa. Bere bilduma eta informazioa behar duen ikertzaile, bertsozale eta hiritar guztien eskura dago.">
+<meta name="DC.Description" content="BDB Bertsolaritzaren datu-basea Xenpelar Dokumentazio Zentroak (XDZ) garatu du. 1991ean sortu zuen Bertsozale Elkarteak Xenpelar Dokumentazio Zentroa, bertsolaritzaren ondarea bildu, antolatu eta gizarteratuz, maila guztietako ikerkuntza bultzatzeko helburuarekin. Mota guztietako informazioa eta dokumentuak biltzen dira eta bertsolaritzaren berezko sistema dokumentalaren arabera antolatuta eskaintzen du  zerbitzu publikoa. Bere bilduma eta informazioa behar duen ikertzaile, bertsozale eta hiritar guztien eskura dago.">
+<meta name="author" content="Xenpelar Dokumentazio Zentroa – Bertsozale Elkartea">
+<meta name="DC.Creator" content="Xenpelar Dokumentazio Zentroa – Bertsozale Elkartea">
+<meta content="eu" name="DC.Language" />
+		
+	  <meta name="robots" content="noindex,nofollow">
+
+	  <link rel="shortcut icon" type="image/x-icon" href="https://bdb.bertsozale.eus/favicon.ico" />
+		<link rel="apple-touch-icon" href="https://bdb.bertsozale.eus/touch_icon.png" />
+
+	    		<title>BDB. Bertsolaritzaren datu-basea</title>
+
+    <!-- jquery-ui-bootstrap custom theme -->
+    <link href="https://bdb.bertsozale.eus/stylesheets/custom-theme/jquery-ui-1.10.0.custom.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="https://bdb.bertsozale.eus/stylesheets/css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://bdb.bertsozale.eus/javascript/dist/jquery.min.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"></script>
+    <script src="https://bdb.bertsozale.eus/javascript/datepicker/ui.datepicker-eu.js"></script>
+	<script src="https://bdb.bertsozale.eus/javascript/jquery-loader/jquery-loader.js" type="text/javascript"></script>
+	<link href="https://bdb.bertsozale.eus/javascript/jquery-loader/style.css" rel="stylesheet">
+	<script src="https://bdb.bertsozale.eus/javascript/audiojs/audiojs/audio.min.js"></script>
+    <link rel="alternate" href="https://bdb.bertsozale.eus/es/web/bilaketa/index?fq%5B%5D=jarduera_facet:%22Bertsolaria%22&start=560" hreflang="es" />
+    <link rel="alternate" href="https://bdb.bertsozale.eus/en/web/bilaketa/index?fq%5B%5D=jarduera_facet:%22Bertsolaria%22&start=560" hreflang="en" />
+    <link rel="alternate" href="https://bdb.bertsozale.eus/fr/web/bilaketa/index?fq%5B%5D=jarduera_facet:%22Bertsolaria%22&start=560" hreflang="fr" />
+           <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23805664-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23805664-2');
+</script>
+
+  </head>
+
+  <body role="document">
+
+        <!-- Fixed navbar -->
+	<div class="container-fluid">
+
+	 <div class="pull-right hizkuntzak">
+			<a class="link-active" href="https://bdb.bertsozale.eus/web/bilaketa/index?fq%5B%5D=jarduera_facet:%22Bertsolaria%22&start=560">Euskara</a>
+			<a  href="https://bdb.bertsozale.eus/en/web/bilaketa/index?fq%5B%5D=jarduera_facet:%22Bertsolaria%22&start=560">English</a>
+			<a  href="https://bdb.bertsozale.eus/fr/web/bilaketa/index?fq%5B%5D=jarduera_facet:%22Bertsolaria%22&start=560">Français</a>
+			<a  href="https://bdb.bertsozale.eus/es/web/bilaketa/index?fq%5B%5D=jarduera_facet:%22Bertsolaria%22&start=560">Español</a>
+		</div>
+	</div>
+
+	<div class="container">
+	<div class="hidden-xs" style="z-index:1000; position:absolute; top:0px">
+	  <a href="https://bdb.bertsozale.eus/"><img alt="XDZ" class="img-thumbnail" width="180" src="https://bdb.bertsozale.eus/images/xenpelar200.jpg"></a>
+	</div>
+	<div class="row">
+	   <div class="col-sm-8 col-sm-offset-2">
+		<h1><a href="https://bdb.bertsozale.eus/">BDB Bertsolaritzaren datu-basea</a></h1>
+	  </div>
+	</div>
+	</div>
+	<div class="container-fluid preburua hidden-xs">
+		<span class="info-orriak pull-right">
+		<a href="https://bdb.bertsozale.eus/info/7-xenpelar-dokumentazio-zentroa">Guri buruz</a>
+		| <a href="https://bdb.bertsozale.eus/info/21-informazio-orokorra-non-gauden">Non gauden</a>
+		| <a href="https://bdb.bertsozale.eus/info/27-informazio-orokorra-zerbitzuak">Zerbitzuak</a>
+		| <a href="https://bdb.bertsozale.eus/web/aurkezpena/informazio_eskaera">Informazio eskaera</a>
+		</span>
+	</div>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				  <span class="sr-only">Toggle navigation</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+				<!-- <a class="navbar-brand" href="https://bdb.bertsozale.eus/"><img src="https://bdb.bertsozale.eus/images/logo-txuria.png" alt="BDB Bertsolaritzaren datu-basea"></a> -->
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				  <ul class="nav navbar-nav navbar-right">
+					<li  ><a href="https://bdb.bertsozale.eus/web/agenda">Agenda</a></li>
+					<li ><a href="https://bdb.bertsozale.eus/web/haitzondo/bilaketa">Biografiak</a></li>
+					<li ><a href="https://bdb.bertsozale.eus/web/doinutegia/index">Doinutegia</a></li>
+					<li ><a href="https://bdb.bertsozale.eus/web/bertsoa/index">Bertsoak</a></li>
+					<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Datu Base gehiago <span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+						  <li><a href="https://bdb.bertsozale.eus/web/grabazioa/index">Grabazioen katalogoa</a></li>
+						  <li><a href="https://bdb.bertsozale.eus/web/liburutegia">Liburutegia</a></li>
+
+						  <li ><a href="https://bdb.bertsozale.eus/web/prentsa/bilaketa/berria">Prentsa</a></li>
+						  <li ><a href="https://bdb.bertsozale.eus/web/aldizkakoa/index">Aldizkako Ekitaldiak</a></li>
+					  </ul>
+					</li>
+					<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mapak <span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+						  <li><a href="https://bdb.bertsozale.eus/web/mapa/bertso-eskolak">Bertso-eskolen mapa</a></li>
+						  <li><a href="https://bdb.bertsozale.eus/web/mapa/bertsolaritza">Bertsolaritzaren mapa</a></li>
+              <li><a href="https://2008-2021.mintzola.eus/eu/kulturartea/mapa">Kulturartea mapa</a></li>
+					  </ul>
+					</li>
+				  </ul>
+			</div>
+	  </div>
+</nav>
+    <div class="container paper-fondoa" role="main">
+
+    <div class="row">
+      <div class="col-sm-12">
+                <h2>Bilaketa orokorra </h2>
+
+
+<form class="" action="" method="get">
+    <div class="form-group">
+    <div class="row">
+      <div class="col-sm-6 col-xs-12">
+        <div class="input-group">
+                <input type="text" class="form-control" name="q" value="">
+                                <div class="input-group-btn ">
+                    <div class="input-group-btn">
+                        <button class="btn btn-block btn-primary" name="bilatu" value="bilatu" type="submit">
+                            <i class="glyphicon glyphicon-search visible-xs" style="line-height: inherit;"></i><span class="hidden-xs">Bilatu</span>
+                        </button>
+                    </div>
+                </div>
+        </div>
+
+      </div>
+      <div class="col-sm-6 col-xs-12">
+              </div>
+
+    </div>
+
+
+                        <input type="hidden" name="fq[]" value="jarduera_facet:&quot;Bertsolaria&quot;" >
+         
+    </div>
+
+</form>
+
+    <a href="?" class="btn btn-default btn-small" title="Bilaketa berria">
+         Bilaketa berria
+      </a>
+    <a href="?" class="btn btn-warning btn-small" title="Kendu">
+          <span class="filter-label">Jarduera</span>:
+          <span class="filter-value">Bertsolaria</span>
+        <i class="fa fa-times fa-inverse"></i>
+      </a>
+
+
+<div id="emaitzak-container">
+<style type="text/css">
+	.isloading-wrapper.isloading-right{margin-left:10px;}
+.isloading-overlay{position:relative;text-align:center;}.isloading-overlay .isloading-wrapper{background:#FFFFFF;-webkit-border-radius:7px;-webkit-background-clip:padding-box;-moz-border-radius:7px;-moz-background-clip:padding;border-radius:7px;background-clip:padding-box;display:inline-block;margin:0 auto;padding:10px 20px;top:10%;z-index:9000;}
+
+/*Glyphicon Spinner*/
+.glyphicon-spin {
+    -animation: spin .9s infinite linear;
+    -webkit-animation: spin2 .9s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+@media (min-width: 768px) {
+  .collapse.dont-collapse-sm {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+  }
+}
+
+.gehiago-lotura{
+    cursor: pointer;
+}
+#filtro-container-toggle{
+    width: 150px;
+}
+
+</style>
+<script type="text/javascript">
+$( function(){
+    $('#filtro-container-toggle').click(function(){
+
+        alert('heee');
+        if($('#filtro-container-toggle').html() == 'Itxi')){
+            $('#filtro-container-toggle').html('Zabaldu');
+        }else{
+            $('#filtro-container-toggle').html('Itxi');
+        };
+    });
+});
+</script>
+
+
+
+<div class="row">
+
+	<div class="col-sm-3">
+		<h3>Bilaketa zehaztu </h3>
+        <div class="visible-xs" style="text-align:center">
+            <button type="button" data-toggle="collapse" data-target="#filtro-container" id="filtro-container-toggle" class="btn btn-default">
+    		  Zabaldu    		</button>
+        </div>
+
+		<form id="filtro-form" class="form-horizontal">
+        <div id="filtro-container" class="collapse dont-collapse-sm">
+                    <label>Mota </label>
+            <ul class="filtroak-list-group">
+                    <li class="filtroak-list-group-item checkbox ">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=mota_facet:%22biografia%22" >Biografiak</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1094</span></label>
+            </li>
+                        </ul>
+                <label>Pertsona </label>
+            <ul class="filtroak-list-group">
+                    <li class="filtroak-list-group-item checkbox ">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Abel+Enbeita%22" >Abel Enbeita</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox ">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Abel+Muniategi%22" >Abel Muniategi</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox ">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Adur+Gorostidi+Urkia%22" >Adur Gorostidi Urkia</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox ">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aetz+Etxart%22" >Aetz Etxart</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox ">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Agin+Laburu%22" >Agin Laburu</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Agurtzane+I%C3%B1urrategi%22" >Agurtzane Iñurrategi</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Agustin++Arrieta+%22Ibergun%22%22" >Agustin  Arrieta "Ibergun"</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Agustin++Arruti+%22Izuela%22%22" >Agustin  Arruti "Izuela"</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Agustin+Unsain%22" >Agustin Unsain</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aimar+Karrika%22" >Aimar Karrika</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aimar+Sorazu%22" >Aimar Sorazu</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ainara+Ieregi%22" >Ainara Ieregi</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ainara+Razkin%22" >Ainara Razkin</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ainhoa+Agirreazaldegi%22" >Ainhoa Agirreazaldegi</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ainhoa+Comas%22" >Ainhoa Comas</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ainhoa+Mujika%22" >Ainhoa Mujika</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aissa+Intxausti%22" >Aissa Intxausti</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitor++Arrizubieta+%22Toko%22%22" >Aitor  Arrizubieta "Toko"</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitor+Aldasoro%22" >Aitor Aldasoro</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitor+Arrutia%22" >Aitor Arrutia</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitor+Basterretxea%22" >Aitor Basterretxea</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitor+Bizkarra%22" >Aitor Bizkarra</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitor+Elexpuru%22" >Aitor Elexpuru</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitor+Esteban%22" >Aitor Esteban</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitor+Etxebarriazarraga%22" >Aitor Etxebarriazarraga</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitor+Irastortza+Arrizurieta%22" >Aitor Irastortza Arrizurieta</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitor+Mendiluze%22" >Aitor Mendiluze</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitor+Ruiz%22" >Aitor Ruiz</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitor+Sarasua%22" >Aitor Sarasua</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitor+Sarriegi%22" >Aitor Sarriegi</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitor+Servier%22" >Aitor Servier</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitor+Ugarte%22" >Aitor Ugarte</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitor+Urbieta+Aizpurua%22" >Aitor Urbieta Aizpurua</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitor+Usandizaga%22" >Aitor Usandizaga</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitziber+Bengoetxea%22" >Aitziber Bengoetxea</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitziber+Perez+De+Karkamo%22" >Aitziber Perez De Karkamo</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aitzol+Barandiaran%22" >Aitzol Barandiaran</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Akilino++Izagirre+%22Zepai%22%22" >Akilino  Izagirre "Zepai"</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Alaia+Martin%22" >Alaia Martin</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Alaitz+Areitio%22" >Alaitz Areitio</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Alaitz+Sarasola%22" >Alaitz Sarasola</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Alazne+Untxalo%22" >Alazne Untxalo</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Alberto++Martinez+%22Beito%22%22" >Alberto  Martinez "Beito"</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Alexandro+Etxeberri+Goienetxe%22" >Alexandro Etxeberri Goienetxe</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Alfonso+Jimenez%22" >Alfonso Jimenez</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Amaia+Agiriano%22" >Amaia Agiriano</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Amaia+Agirre%22" >Amaia Agirre</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Amaia+Altube%22" >Amaia Altube</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Amaia+Elizagoien%22" >Amaia Elizagoien</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Amaia+Iturriotz+Etxaniz%22" >Amaia Iturriotz Etxaniz</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Amaia+Jauregizar%22" >Amaia Jauregizar</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Amaia+Lasaga%22" >Amaia Lasaga</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Amaia+Otsoa%22" >Amaia Otsoa</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Amets+Arzallus%22" >Amets Arzallus</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ana+Picallo%22" >Ana Picallo</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Anastasio++Egia+%22Altza%22%22" >Anastasio  Egia "Altza"</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ander++Fuentes+%22Itturri%22%22" >Ander  Fuentes "Itturri"</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ander+Anakabe%22" >Ander Anakabe</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ander+Baiano%22" >Ander Baiano</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ander+Elorriaga%22" >Ander Elorriaga</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ander+Elortegi%22" >Ander Elortegi</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ander+Ezeiza%22" >Ander Ezeiza</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ander+Gerrikaetxebarria%22" >Ander Gerrikaetxebarria</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ander+Lizarralde+Jimeno%22" >Ander Lizarralde Jimeno</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ander+Oleaga%22" >Ander Oleaga</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ander+Sarriugarte%22" >Ander Sarriugarte</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ander+Solozabal%22" >Ander Solozabal</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ander+Ucelay%22" >Ander Ucelay</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Andere+Arriolabengoa%22" >Andere Arriolabengoa</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Andoni++Mujika+%22Anatx%22%22" >Andoni  Mujika "Anatx"</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Andoni+Ega%C3%B1a%22" >Andoni Egaña</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Andoni+Goitia%22" >Andoni Goitia</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Andoni+Larra%C3%B1aga%22" >Andoni Larrañaga</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Andoni+Murga%22" >Andoni Murga</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Andoni+Otamendi%22" >Andoni Otamendi</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Andoni+Rekondo+Izagirre%22" >Andoni Rekondo Izagirre</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Andres++Narbarte+%22Xalto%22%22" >Andres  Narbarte "Xalto"</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Andres+Astiz+Oderiz%22" >Andres Astiz Oderiz</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ane+Beloki%22" >Ane Beloki</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ane+Labaka+Mayoz%22" >Ane Labaka Mayoz</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ane+Olano%22" >Ane Olano</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ane+Pe%C3%B1agarikano%22" >Ane Peñagarikano</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ane+Zelaia%22" >Ane Zelaia</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Ane+Zuazubiskar+I%C3%B1arra%22" >Ane Zuazubiskar Iñarra</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Aner++%22Euzkitze%22%22" >Aner  "Euzkitze"</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Anertz+Muniategi%22" >Anertz Muniategi</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Anjel+Aldaz%22" >Anjel Aldaz</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Anjel+Korkostegi%22" >Anjel Korkostegi</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Anjel+Larra%C3%B1aga%22" >Anjel Larrañaga</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Anjel+Lujanbio%22" >Anjel Lujanbio</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Anjel+Mari+Pe%C3%B1agarikano%22" >Anjel Mari Peñagarikano</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Anjel+Martikorena%22" >Anjel Martikorena</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Anjel+San+Migel%22" >Anjel San Migel</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Anton+Etxaniz%22" >Anton Etxaniz</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Antonio++Larra+%22Larra%22%22" >Antonio  Larra "Larra"</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Antonio+Aranbarri%22" >Antonio Aranbarri</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Antonio+Bidaola%22" >Antonio Bidaola</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Antonio+Larrarte%22" >Antonio Larrarte</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Antonio+Lizaso%22" >Antonio Lizaso</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=pertsona_facet:%22Piarres+Trounday%22" >Piarres Trounday</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">2</span></label>
+            </li>
+                            <li class="filtroak-list-group-item "><label>
+            <a class="gehiago-lotura">Gehiago...</a>
+            </label></li>
+                </ul>
+                <label>Urtea </label>
+            <ul class="filtroak-list-group">
+                    <li class="filtroak-list-group-item checkbox ">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%222022%22" >2022</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox ">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%222020%22" >2020</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">4</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox ">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%222019%22" >2019</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">5</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox ">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%222018%22" >2018</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">4</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox ">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%222015%22" >2015</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">4</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%222013%22" >2013</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">5</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%222012%22" >2012</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">4</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%222005%22" >2005</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">5</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%222004%22" >2004</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">6</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%222003%22" >2003</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">6</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%222002%22" >2002</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%222001%22" >2001</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">11</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%222000%22" >2000</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">7</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221999%22" >1999</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">22</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221998%22" >1998</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">11</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221997%22" >1997</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">17</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221996%22" >1996</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">26</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221995%22" >1995</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">18</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221994%22" >1994</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">15</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221993%22" >1993</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">21</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221992%22" >1992</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">18</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221991%22" >1991</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">15</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221990%22" >1990</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">13</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221989%22" >1989</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">18</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221988%22" >1988</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">20</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221987%22" >1987</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">16</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221986%22" >1986</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">10</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221985%22" >1985</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">16</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221984%22" >1984</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">16</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221983%22" >1983</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">20</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221982%22" >1982</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">25</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221981%22" >1981</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">25</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221980%22" >1980</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">22</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221979%22" >1979</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">18</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221978%22" >1978</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">18</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221977%22" >1977</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">23</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221976%22" >1976</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">18</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221975%22" >1975</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">16</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221974%22" >1974</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">18</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221973%22" >1973</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">18</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221972%22" >1972</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">9</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221971%22" >1971</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">13</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221970%22" >1970</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">4</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221969%22" >1969</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">6</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221968%22" >1968</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221967%22" >1967</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">14</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221966%22" >1966</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221965%22" >1965</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">5</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221964%22" >1964</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">5</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221963%22" >1963</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">5</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221961%22" >1961</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">5</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221960%22" >1960</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">10</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221959%22" >1959</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221957%22" >1957</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">7</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221956%22" >1956</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">5</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221954%22" >1954</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">10</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221953%22" >1953</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">4</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221952%22" >1952</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">5</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221951%22" >1951</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">5</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221950%22" >1950</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">6</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221949%22" >1949</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">6</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221948%22" >1948</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">10</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221947%22" >1947</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">6</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221946%22" >1946</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">7</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221945%22" >1945</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">11</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221944%22" >1944</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">7</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221943%22" >1943</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">6</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221942%22" >1942</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">4</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221941%22" >1941</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">4</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221940%22" >1940</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">6</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221939%22" >1939</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221937%22" >1937</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221936%22" >1936</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">11</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221935%22" >1935</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">4</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221934%22" >1934</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221933%22" >1933</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">4</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221932%22" >1932</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">10</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221931%22" >1931</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">4</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221930%22" >1930</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">10</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221929%22" >1929</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">5</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221928%22" >1928</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">5</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221926%22" >1926</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">4</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221925%22" >1925</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221924%22" >1924</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">5</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221920%22" >1920</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">4</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221919%22" >1919</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">4</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221913%22" >1913</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">5</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221912%22" >1912</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">7</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221906%22" >1906</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">4</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221905%22" >1905</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">9</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221900%22" >1900</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">5</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221899%22" >1899</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">6</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221894%22" >1894</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">5</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221886%22" >1886</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">4</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221882%22" >1882</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">4</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221874%22" >1874</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">5</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221840%22" >1840</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">3</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221838%22" >1838</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">4</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=urtea_facet:%221800%22" >1800</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">6</span></label>
+            </li>
+                            <li class="filtroak-list-group-item "><label>
+            <a class="gehiago-lotura">Gehiago...</a>
+            </label></li>
+                </ul>
+                <label>Lekua </label>
+            <ul class="filtroak-list-group">
+                    <li class="filtroak-list-group-item checkbox ">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Euskal+Herria%22" >Euskal Herria</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">1068</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox ">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Gipuzkoa%22" >Gipuzkoa</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">512</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox ">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Bizkaia%22" >Bizkaia</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">286</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox ">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Urola+Kosta%22" >Urola Kosta</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">140</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox ">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Nafarroa%22" >Nafarroa</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">133</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Iru%C3%B1eko+Merindadea%22" >Iruñeko Merindadea</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">128</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Araba%22" >Araba</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">116</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Tolosaldea%22" >Tolosaldea</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">83</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Goierri%22" >Goierri</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">76</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Buruntzaldea%22" >Buruntzaldea</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">70</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Oarsoaldea%22" >Oarsoaldea</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">64</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Busturialdea%22" >Busturialdea</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">55</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Bilboaldea%22" >Bilboaldea</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">54</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Debagoiena%22" >Debagoiena</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">54</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Durangaldea%22" >Durangaldea</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">53</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Lea-Artibai%22" >Lea-Artibai</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">53</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Gasteizaldea%22" >Gasteizaldea</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">49</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Lapurdi%22" >Lapurdi</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">49</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Gasteiz%22" >Gasteiz</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">47</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Donostia%22" >Donostia</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">43</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Donostialdea%22" >Donostialdea</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">43</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Debabarrena%22" >Debabarrena</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">40</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Oiartzun%22" >Oiartzun</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">40</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Baxenabarre%22" >Baxenabarre</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">39</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Bilbo%22" >Bilbo</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">38</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Arratia-Nerbioi%22" >Arratia-Nerbioi</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">35</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Zarautz%22" >Zarautz</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">34</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Zuia-Gorbeialdea%22" >Zuia-Gorbeialdea</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">33</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Azpeitia%22" >Azpeitia</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">32</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Bortziriak%22" >Bortziriak</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">32</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Uribe-Kosta%22" >Uribe-Kosta</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">29</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Hernani%22" >Hernani</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">26</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Azkoitia%22" >Azkoitia</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">25</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Errenteria%22" >Errenteria</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">24</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Gernika-Lumo%22" >Gernika-Lumo</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">24</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Iru%C3%B1erria%22" >Iruñerria</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">24</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Baigorri-Ortzaize%22" >Baigorri-Ortzaize</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">22</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Baztan+Ibarra%22" >Baztan Ibarra</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">21</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Lapurdi+Itsasegia%22" >Lapurdi Itsasegia</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">21</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Leitzaldea%22" >Leitzaldea</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">21</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Lesaka%22" >Lesaka</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">21</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Baztan%22" >Baztan</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">20</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Aiaraldea%22" >Aiaraldea</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">19</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Asteasu%22" >Asteasu</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">19</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Uribe-Butroe%22" >Uribe-Butroe</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">19</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Aia%22" >Aia</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">18</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Iru%C3%B1ea%22" >Iruñea</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">18</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Markina-Xemein%22" >Markina-Xemein</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">18</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Getxo%22" >Getxo</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">17</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Muxika%22" >Muxika</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">17</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Aramaio%22" >Aramaio</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">16</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Arabako+Lautada%22" >Arabako Lautada</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">15</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Orio%22" >Orio</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">15</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Durango%22" >Durango</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">14</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Larraunaldea%22" >Larraunaldea</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">14</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Igorre%22" >Igorre</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">13</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Errezil%22" >Errezil</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">12</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Ipar+Amerika%22" >Ipar Amerika</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">12</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Iurreta%22" >Iurreta</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">12</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Ondarroa%22" >Ondarroa</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">12</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Usurbil%22" >Usurbil</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">12</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Aretxabaleta%22" >Aretxabaleta</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">11</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Arrasate%22" >Arrasate</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">11</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Bergara%22" >Bergara</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">11</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Estatu+Batuak%22" >Estatu Batuak</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">11</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Leitza%22" >Leitza</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">11</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Urretxu%22" >Urretxu</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">11</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Andoain%22" >Andoain</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">10</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Bidania-Goiatz%22" >Bidania-Goiatz</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">10</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Elgoibar%22" >Elgoibar</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">10</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Mungia%22" >Mungia</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">10</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Mutriku%22" >Mutriku</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">10</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22O%C3%B1ati%22" >Oñati</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">10</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Tolosa%22" >Tolosa</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">10</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Zornotza%22" >Zornotza</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">10</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Agurain%22" >Agurain</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">9</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Amurrio%22" >Amurrio</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">9</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Beasain%22" >Beasain</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">9</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Ere%C3%B1otzu%22" >Ereñotzu</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">9</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Itziar%22" >Itziar</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">9</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Lapurdi+Erdialdea%22" >Lapurdi Erdialdea</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">9</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Larraun%22" >Larraun</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">9</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Lasarte-Oria%22" >Lasarte-Oria</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">9</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Legazpi%22" >Legazpi</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">9</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Malerreka%22" >Malerreka</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">9</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Zestoa%22" >Zestoa</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">9</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Zuberoa%22" >Zuberoa</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">9</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Algorta%22" >Algorta</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Amasa-Villabona%22" >Amasa-Villabona</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Ataun%22" >Ataun</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Baiona%22" >Baiona</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Bermeo%22" >Bermeo</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Biarritz-Angelu-Baiona%22" >Biarritz-Angelu-Baiona</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Enkarterri%22" >Enkarterri</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Eskoriatza%22" >Eskoriatza</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Hendaia%22" >Hendaia</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Lapurdi+Garaia%22" >Lapurdi Garaia</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Laudio%22" >Laudio</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                    <li class="filtroak-list-group-item checkbox hidden">
+                <label style="width:60%;padding-left:0px;">
+                <a rel="nofollow" href="https://bdb.bertsozale.eus/web/bilaketa/index?&fq%5B%5D=jarduera_facet:%22Bertsolaria%22&fq[]=lekua_facet:%22Lekeitio%22" >Lekeitio</a>
+
+            </label>
+            <label style="float:right;text-align:right"><span class="badge">8</span></label>
+            </li>
+                            <li class="filtroak-list-group-item "><label>
+            <a class="gehiago-lotura">Gehiago...</a>
+            </label></li>
+                </ul>
+    
+        </div>
+		</form>
+	</div>
+
+	<div class="col-sm-9">
+        
+	<h3>Emaitzak: 1094</h3>     
+	<div class="panel panel-default">
+	<div class="panel-body bilaketa-orokorra-emaitzak">
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/3464-endika-legarra" >Endika Legarra</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria    <span class="emaitza_sekzioa">Jaiotza:</span>
+            1996,
+                Iruñea    </span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/1132-moises-jaso" >Moises Jaso</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria</span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/1134-jexux-mari-jauregi-altzo-txiki" >Jexux Mari  Jauregi "Altzo Txiki"</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria    <span class="emaitza_sekzioa">Jaiotza:</span>
+            1961,
+                Zaldibia        <span class="emaitza_sekzioa">Jardun-motak:</span>
+    Antolatzailea, Bertso irakaslea, Epailea</span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/1135-inazio-jauregi" >Inazio Jauregi</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria    <span class="emaitza_sekzioa">Jaiotza:</span>
+            1932,
+                Oikia    </span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/1139-joakin-mari-jauregi-panderi" >Joakin Mari  Jauregi "Panderi"</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria    <span class="emaitza_sekzioa">Jaiotza:</span>
+            1844,
+                Errenteria        <span class="emaitza_sekzioa">Heriotza:</span>
+            1921                , Errenteria    </span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/1142-amaia-jauregizar" >Amaia Jauregizar</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria</span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/1144-alfonso-jimenez" >Alfonso Jimenez</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria    <span class="emaitza_sekzioa">Jaiotza:</span>
+            1974,
+                Tolosa        <span class="emaitza_sekzioa">Jardun-motak:</span>
+    Bertso irakaslea</span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/1147-jose-manuel-artzai-txikia" >Jose Manuel  "Artzai Txikia"</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria</span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/1150-hondarribiko-joxepa" >Hondarribiko Joxepa</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria    <span class="emaitza_sekzioa">Jaiotza:</span>
+            1800,
+                Hondarribia    </span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/1151-juan-mari-juaristi" >Juan Mari Juaristi</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria    <span class="emaitza_sekzioa">Jaiotza:</span>
+            1959,
+                Zarautz        <span class="emaitza_sekzioa">Jardun-motak:</span>
+    Bertso-eskolako eragilea, Epailea, Gai-jartzailea</span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/1152-joxe-mari-atano" >Joxe Mari Atano</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria    <span class="emaitza_sekzioa">Jaiotza:</span>
+            1858,
+                Azkoitia        <span class="emaitza_sekzioa">Heriotza:</span>
+            1940                , Azkoitia    </span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/1153-juan-mari-atano" >Juan Mari Atano</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria    <span class="emaitza_sekzioa">Jaiotza:</span>
+            1866,
+                Azkoitia        <span class="emaitza_sekzioa">Heriotza:</span>
+            1939                , Azkoitia    </span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/1157-justo" >Justo</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria</span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/1158-lino-kalonje" >Lino Kalonje</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria    <span class="emaitza_sekzioa">Jaiotza:</span>
+            1890,
+                Donostia        <span class="emaitza_sekzioa">Heriotza:</span>
+            1960                , Donostia    </span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/3655-manex-etxeto-katxo" >Manex  Etxeto "Katxo"</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria    <span class="emaitza_sekzioa">Jaiotza:</span>
+            1789,
+                Hazparne        <span class="emaitza_sekzioa">Heriotza:</span>
+            1872                , Hazparne    </span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/1163-ibon-karrera" >Ibon Karrera</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria    <span class="emaitza_sekzioa">Jaiotza:</span>
+            1975,
+                Elduain    </span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/1164-pedro-kastrejana" >Pedro Kastrejana</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria</span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/1169-anjel-korkostegi" >Anjel Korkostegi</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria    <span class="emaitza_sekzioa">Jaiotza:</span>
+            1948,
+                Markina-Xemein        <span class="emaitza_sekzioa">Heriotza:</span>
+            1987                , Kalifornia    </span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/1170-jesus-kortabarria-kaxeta" >Jesus  Kortabarria "Kaxeta"</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria    <span class="emaitza_sekzioa">Jaiotza:</span>
+            1952,
+                Antzuola    </span>
+        
+            </div>
+                    <div class="row emaitza">               
+           
+                       
+            
+<h4><a href="https://bdb.bertsozale.eus/web/haitzondo/view/1171-bautista-kortajarena-ondartza" >Bautista  Kortajarena "Ondartza"</a></h4>
+[Biografia]<br>
+<span class="hidden-xs">
+
+Bertsolaria    <span class="emaitza_sekzioa">Jaiotza:</span>
+            1903,
+                Asteasu        <span class="emaitza_sekzioa">Heriotza:</span>
+            1992                , Lasarte    </span>
+        
+            </div>
+                
+    <div style="text-align:center">
+	<!-- <ul class='pagination'>
+                    <li><a class="btn" href="https://bdb.bertsozale.eus/web/bilaketa/index?fq%5B%5D=jarduera_facet:%22Bertsolaria%22&start=540" >Aurrekoa</a></li>
+                    <li><a class="btn" href="https://bdb.bertsozale.eus/web/bilaketa/index?fq%5B%5D=jarduera_facet:%22Bertsolaria%22&start=580" >Hurrengoa</a></li>
+            </ul>
+    <p>Orria: 29 / 55 </p>
+ -->    
+    <ul class="pagination">
+        
+                    <li><a rel="nofollow" class="btn" href="https://bdb.bertsozale.eus/web/bilaketa/index?fq%5B%5D=jarduera_facet:%22Bertsolaria%22&start=0" > Lehenengoa </a></li>
+                            <li><a rel="nofollow" class="btn" href="https://bdb.bertsozale.eus/web/bilaketa/index?fq%5B%5D=jarduera_facet:%22Bertsolaria%22&start=540" > &lt; </a></li>
+                            <li><a rel="nofollow" class="btn" href="https://bdb.bertsozale.eus/web/bilaketa/index?fq%5B%5D=jarduera_facet:%22Bertsolaria%22&start=520" > 27 </a></li>
+                    <li><a rel="nofollow" class="btn" href="https://bdb.bertsozale.eus/web/bilaketa/index?fq%5B%5D=jarduera_facet:%22Bertsolaria%22&start=540" > 28 </a></li>
+                <li class="active"><a class="btn">29</a></li>
+                    <li><a rel="nofollow" class="btn" href="https://bdb.bertsozale.eus/web/bilaketa/index?fq%5B%5D=jarduera_facet:%22Bertsolaria%22&start=580" > 30 </a></li>
+                    <li><a rel="nofollow" class="btn" href="https://bdb.bertsozale.eus/web/bilaketa/index?fq%5B%5D=jarduera_facet:%22Bertsolaria%22&start=600" > 31 </a></li>
+        
+                    <li><a rel="nofollow" class="btn" href="https://bdb.bertsozale.eus/web/bilaketa/index?fq%5B%5D=jarduera_facet:%22Bertsolaria%22&start=580" > &gt; </a></li>
+                            <li><a rel="nofollow" class="btn" href="https://bdb.bertsozale.eus/web/bilaketa/index?fq%5B%5D=jarduera_facet:%22Bertsolaria%22&start=1080" > Azkena </a></li>
+            </ul>
+    </div>
+
+
+	</div>
+	</div> <!-- end panel -->
+
+	</div> <!-- end emaitza zutabea -->
+
+</div>
+
+
+
+<div class="hutsa"></div>
+
+</div>
+
+<script type="text/javascript">
+$( function(){
+        $('.gehiago-lotura').click(function(e){
+            $(this).parent().parent().siblings().removeClass('hidden');
+            $(this).parent().parent().remove();
+        });
+
+        $( document ).on( 'click', '.bs-dropdown-to-select-group .dropdown-menu li', function( event ) {
+		var $target = $( event.currentTarget );
+		$target.closest('.bs-dropdown-to-select-group')
+			.find('[data-bind="bs-drp-sel-value"]').val($target.attr('data-value'))
+			.end()
+			.children('.dropdown-toggle').dropdown('toggle');
+		$target.closest('.bs-dropdown-to-select-group')
+    		.find('[data-bind="bs-drp-sel-label"]').text($target.context.textContent);
+		return false;
+	});
+
+} );
+
+var instance = new Mark(document.getElementById('emaitzak-container'));
+</script>
+        
+              </div>
+    </div>
+
+  </div> <!-- /container -->
+	<div class="container-fluid preburua visible-xs">
+		<span class="info-orriak">
+		<br>
+		<a href="https://bdb.bertsozale.eus/info/7-xenpelar-dokumentazio-zentroa">Guri buruz</a>
+		<hr><a href="https://bdb.bertsozale.eus/info/21-informazio-orokorra-non-gauden">Non gauden</a>
+		<hr><a href="https://bdb.bertsozale.eus/info/27-informazio-orokorra-zerbitzuak">Zerbitzuak</a>
+		<hr><a href="https://bdb.bertsozale.eus/web/aurkezpena/informazio_eskaera">Informazio eskaera</a>
+		<hr><a href="https://bdb.bertsozale.eus/info/11-informazio-orokorra-bilaketa-nola-egin">Bilaketak nola egin</a><br>
+		</span>
+	</div>
+   <footer>
+        <div class="container-fluid">
+  <div class="row clearfix oina">
+    <div class="col-sm-8">
+      <div class="oina1">2007-2025 <a class="oina_link" href="https://bdb.bertsozale.eus/info/7-azalaren-jarraipena-xenpelar-dokumentazio-zentroa">Xenpelar Dokumentazio Zentroa</a> </div>
+      
+      <div class="oina2">
+        <div class="helbide">Subijana Etxea. Kale Nagusia 70. 20150 Villabona
+          <br />
+          T. (+34) 943 69 42 77 / F. (+34) 943 69 30 41 / xenpelar [a bildua] bertsozale.eus /
+          <a class="oina_link" href="https://bdb.bertsozale.eus/info/17-lege-oharra">Lege oharra</a>
+          / <a class="oina_link" href="https://bdb.bertsozale.eus/info/56-pribatutasun-politika">Pribatutasun politika</a>
+          / <a class="oina_link" href="https://bdb.bertsozale.eus/info/57-cookie-politika">Cookie politika</a>
+          / <a class="oina_link" href="https://bdb.bertsozale.eus/info/30-oina-babesle-eta-laguntzaileak">Babesle eta laguntzaileak</a>
+          / 
+            <div id="cookie-button" class="oina_link" style="display: inline-block">
+              <cookie-button></cookie-button>
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+      <h1 class="pull-right"><a href="https://bdb.bertsozale.eus/info/15-idokum">idokum</a></h1>
+    </div>
+  </div>
+  
+  </div>   </footer>
+   <div id="cookie-consent">
+      <cookie-consent locale="eu" token="BuQbfV3zf74sdIXnqgMNIqnf7WHdjd6wqGmPVBaC" link="https://bdb.bertsozale.eus/info/57-cookie-politika"></cookie-consent>
+  </div>
+
+  <script type="text/javascript" src="https://cookie-consent.iametza.eus/js/cookie-consent.js?id=82f13e4adbc7e451b4d9b4f6a840ec2f"></script>
+       <!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://bdb.bertsozale.eus/stylesheets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://bdb.bertsozale.eus/javascript/scriptak.js"></script>
+
+  </body>
+</html>
