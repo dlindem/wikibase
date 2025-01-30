@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbx xmlns:tbx3="urn:iso:std:iso:30042:ed-2" xmlns:min="http://www.tbxinfo.net/ns/min" xmlns:basic="http://www.tbxinfo.net/ns/basic" xmlns:fairterm="http://www.fairterm.org/ns/sample" type="TBX-FAIRterm" style="dct" xml:lang="en">
+  <tbxHeader>
+    <fileDesc>
+      <sourceDesc>
+        <p>TBX file created by the FAIRterm 2.0 application</p>
+      </sourceDesc>
+    </fileDesc>
+  </tbxHeader>
+  <text>
+    <body>
+      <conceptEntry id="112">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-18 14:15:56</date>
+          <basic:responsibility>gloria.visentin@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain>legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept>27</fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>infraction de gravité intermédiaire, caractérisée par une volonté de transgresser une norme sociale et sanctionnée par une amende ou par une peine d’emprisonnement</basic:definition>
+            <basic:externalCrossReference>https://www.vie-publique.fr/fiches/268561-quels-sont-les-differents-types-dinfractions-penales</basic:externalCrossReference>
+            <basic:source>Vie publique</basic:source>
+            <note>De gravité intermédiaire, ce type d'infraction se situe entre les contraventions et les crimes dans le droit pénal français.</note>
+          </descripGrp>
+          <termSec>
+            <term>délit</term>
+            <fairterm:identifier>112_fr_159</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term</basic:termType>
+            <descripGrp>
+              <basic:context>Le tribunal correctionnel est compétent pour assurer la répression des délits. </basic:context>
+              <basic:externalCrossReference>Le tribunal correctionnel est compétent pour assurer la répression des délits. </basic:externalCrossReference>
+              <basic:source>Vie publique</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>délit puni</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>il reato di maggiore gravità, caratterizzato da comportamenti antigiuridici che arrecano un danno ad altri e punito con sanzioni quali la multa, la reclusione o l'ergastolo</basic:definition>
+            <basic:externalCrossReference/>
+            <basic:source>Nozioni di medicina legale</basic:source>
+            <note>La definizione proposta è tratta dal testo "Nozioni di medicina legale", ma è stata rielaborata dall'autrice della scheda terminologica per adattarla a una struttura intensionale. Il delitto è il reato di maggiore gravità nel diritto penale italiano in quanto i crimini non fanno propriamente parte di questa classificazione e sono piuttosto considerati come dei delitti di particolare gravità, efferatezza o vastità.</note>
+          </descripGrp>
+          <termSec>
+            <term>delitto</term>
+            <fairterm:identifier>112_it_634</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term</basic:termType>
+            <descripGrp>
+              <basic:context>Se il delitto è commesso a danno di uno Stato estero o di uno straniero, il colpevole è punito secondo la legge italiana, a richiesta del Ministro della Giustizia (c.p.112, 128 129)</basic:context>
+              <basic:externalCrossReference>Se il delitto è commesso a danno di uno Stato estero o di uno straniero, il colpevole è punito secondo la legge italiana, a richiesta del Ministro della Giustizia (c.p.112, 128 129)</basic:externalCrossReference>
+              <basic:source>Codice penale (Libro I dei reati generali)</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>delitto punito</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="124">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-30 14:52:34</date>
+          <basic:responsibility>gloria.visentin@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept>27</fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>une infraction dont l'élément moral est une faute d'imprudence, de négligence ou de manquement à une obligation de prudence ou de sécurité prévue par la loi ou le règlement</basic:definition>
+            <basic:externalCrossReference>https://www.lagbd.org/Infraction_non_intentionnelle_(fr)</basic:externalCrossReference>
+            <basic:source>La Grande Bibliothèque du Droit</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>infraction involontaire</term>
+            <fairterm:identifier>124_fr_675</fairterm:identifier>
+            <fairterm:usage>admitted term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>La restriction récente du lien de causalité a fortement limité le nombre de personnes pouvant être impliquées dans une infraction involontaire.</basic:context>
+              <basic:externalCrossReference>La restriction récente du lien de causalité a fortement limité le nombre de personnes pouvant être impliquées dans une infraction involontaire.</basic:externalCrossReference>
+              <basic:source>La Grande Bibliothèque du Droit</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>commettre une infraction involontaire</fairterm:collocation>
+            <note/>
+          </termSec>
+          <termSec>
+            <term>infraction non intentionnelle</term>
+            <fairterm:identifier>124_fr_685</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Nous relèverons que cette définition de la culpa, et ainsi la preuve d’un certain seuil de gravité, n’est impérative qu’en matière d’infractions non intentionnelles incriminées dans le Livre 2 du Code pénal.</basic:context>
+              <basic:externalCrossReference>Nous relèverons que cette définition de la culpa, et ainsi la preuve d’un certain seuil de gravité, n’est impérative qu’en matière d’infractions non intentionnelles incriminées dans le Livre 2 du Code pénal.</basic:externalCrossReference>
+              <basic:source>Université de Liège</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>commettre une infraction non intentionnelle</fairterm:collocation>
+            <note/>
+          </termSec>
+          <termSec>
+            <term>infraction fautive</term>
+            <fairterm:identifier>124_fr_839</fairterm:identifier>
+            <fairterm:usage>admitted term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>La peine peut donc se définir comme le blâme tangible adressé à celui qui a commis une infraction fautive, et partant comme la rétribution de cette faute.</basic:context>
+              <basic:externalCrossReference>La peine peut donc se définir comme le blâme tangible adressé à celui qui a commis une infraction fautive, et partant comme la rétribution de cette faute.</basic:externalCrossReference>
+              <basic:source>Université de Genève</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>ommettre une infraction fautive</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>un reato compiuto senza intenzione di causare danno, ma per negligenza, imprudenza o imperizia</basic:definition>
+            <basic:externalCrossReference>https://www.mondoprofessionisti.it/lifestyle/doloso-e-colposo/</basic:externalCrossReference>
+            <basic:source>Mondo Professionisti</basic:source>
+            <note>Articolo43 del Codice penale (Elemento psicologico del reato): è colposo,  o  contro  l'intenzione,  quando  l'evento,  anche  se preveduto, non è  voluto  dall'agente  e  si  verifica  a  causa  di negligenza o imprudenza  o  imperizia,  ovvero  per  inosservanza  di leggi, regolamenti, ordini o discipline. </note>
+          </descripGrp>
+          <termSec>
+            <term>reato colposo</term>
+            <fairterm:identifier>124_it_25</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Un esempio comune di reato colposo è l’incidente stradale causato da guida distratta o eccesso di velocità.</basic:context>
+              <basic:externalCrossReference>Un esempio comune di reato colposo è l’incidente stradale causato da guida distratta o eccesso di velocità.</basic:externalCrossReference>
+              <basic:source>Mondo Professionisti</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>commettere un reato colposo</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="218">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-31 09:22:55</date>
+          <basic:responsibility>gloria.visentin@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>se dit d'une infraction qui, en raison de sa moindre gravité, n'est poursuivie que si la personne directement concernée par l'infraction dépose une plainte auprès des autorités compétentes</basic:definition>
+            <basic:externalCrossReference>https://www.geneve.ch/themes/culture/bibliotheques/interroge/reponses/cas-une-infraction-est-poursuivie-office#:~:text=La%20plainte%20doit%20%C3%AAtre%20d%C3%A9pos%C3%A9e,de%20plainte%20de%20la%20victime.</basic:externalCrossReference>
+            <basic:source>Ville de Genève</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>poursuivi sur plainte</term>
+            <fairterm:identifier>218_fr_574</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>ADJ</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Si la loi ne le précise pas, une infraction est poursuivie d’office.</basic:context>
+              <basic:externalCrossReference>Si la loi ne le précise pas, une infraction est poursuivie d’office.</basic:externalCrossReference>
+              <basic:source>Ville de Genève</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>être poursuivi sur plainte</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>si dice di un reato per il quale l'azione penale può essere avviata esclusivamente a seguito della presentazione di una querela da parte della persona offesa</basic:definition>
+            <basic:externalCrossReference>https://ordinepsicologiabruzzo.it/professione/deontologia-professionale/100-domande-e-risposte-sul-codice-deontologico-degli-psicologi/qual-e-la-differenza-tra-reato-procedibile-d-ufficio-e-a-querela-di-parte.html#:~:text=I%20reati%20a%20procedibilit%C3%A0%20d,una%20querela%20della%20persona%20offesa.</basic:externalCrossReference>
+            <basic:source>Ordine degli psicologi della regione Abruzzo</basic:source>
+            <note>La definizione proposta è tratta dalla pagina web sopraindicata, ma è stata rielaborata dall'autrice della scheda terminologica per adattarla a una struttura intensionale. 
+</note>
+          </descripGrp>
+          <termSec>
+            <term>procedibile a querela</term>
+            <fairterm:identifier>218_it_935</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>ADJ</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Danneggiamento (art. 635 c.p.): viene reso procedibile a querela il danneggiamento nella sola ipotesi prevista dal primo comma (fatto commesso con violenza o minaccia).</basic:context>
+              <basic:externalCrossReference>Danneggiamento (art. 635 c.p.): viene reso procedibile a querela il danneggiamento nella sola ipotesi prevista dal primo comma (fatto commesso con violenza o minaccia).</basic:externalCrossReference>
+              <basic:source>Sistema Penale</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>diventare procedibile a querela</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="222">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-08 08:57:42</date>
+          <basic:responsibility>gloria.visentin@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1211 - civil law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>l'état d'une personne qui se trouve dans l'impossibilité de comprendre la nature de ses actes en raison d'une altération de ses facultés mentales au moment de la réalisation d'un acte juridique</basic:definition>
+            <basic:externalCrossReference>https://shs.hal.science/tel-01201755v1/file/L-inexistence-du-contrat-A-Posez.pdf</basic:externalCrossReference>
+            <basic:source>Archive ouverte HAL SCS</basic:source>
+            <note>La définition proposée est tirée de la page web mentionnée ci-dessus, mais elle a été reformulée par l’auteure de la fiche terminologique afin de l’adapter à une structure intensionnelle.</note>
+          </descripGrp>
+          <termSec>
+            <term>incapacité naturelle</term>
+            <fairterm:identifier>222_fr_834</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>L’incapacité naturelle suppose toujours un état psychologique particulier de l’agent : celui-ci ne se rendant pas compte de ce qu’il fait. </basic:context>
+              <basic:externalCrossReference>L’incapacité naturelle suppose toujours un état psychologique particulier de l’agent : celui-ci ne se rendant pas compte de ce qu’il fait. </basic:externalCrossReference>
+              <basic:source>Archive ouverte HAL SHS</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>déterminer l'incapacité naturelle</fairterm:collocation>
+            <note>calque linguistique</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>una situazione di fatto in cui un soggetto, seppur normalmente capace d’agire, nel momento in cui realizza un atto negoziale si trova, in concreto, in una situazione di incapacità di intendere o di volere, qualsiasi ne siano le ragioni</basic:definition>
+            <basic:externalCrossReference>https://studiolegaledmp.com/2021/05/04/incapacita-naturale/</basic:externalCrossReference>
+            <basic:source>Studio legale DMP</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>incapacità naturale</term>
+            <fairterm:identifier>222_it_274</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Ciò in quanto l’incapacità naturale non risulta ufficialmente dai registri dello stato civile: ragion per cui, si ravvisa la necessità di tutelare i terzi che con tale soggetto vengano in contatto.</basic:context>
+              <basic:externalCrossReference>Ciò in quanto l’incapacità naturale non risulta ufficialmente dai registri dello stato civile: ragion per cui, si ravvisa la necessità di tutelare i terzi che con tale soggetto vengano in contatto.</basic:externalCrossReference>
+              <basic:source>Treccani</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>dimostrare l'incapacità naturale</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="27">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-18 14:13:40</date>
+          <basic:responsibility>gloria.visentin@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain>legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept>112</fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept>63</fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>une action ou un comportement interdit par la loi pénale et passible de ce fait de sanctions prévues par la loi</basic:definition>
+            <basic:externalCrossReference>https://www.insee.fr/fr/metadonnees/definition/c1586</basic:externalCrossReference>
+            <basic:source>Insee</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>infraction</term>
+            <fairterm:identifier>27_fr_516</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term</basic:termType>
+            <descripGrp>
+              <basic:context>C’est à vous et à d’autres qu’il incombe de juger dans quelle mesure cela constitue une infraction au règlement.</basic:context>
+              <basic:externalCrossReference>C’est à vous et à d’autres qu’il incombe de juger dans quelle mesure cela constitue une infraction au règlement.</basic:externalCrossReference>
+              <basic:source>Le Robert</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>constituer une infraction</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>un fatto antigiuridico e colpevole che viola una norma del diritto penale e comporta l'applicazione di una pena proporzionata prevista dalla legge</basic:definition>
+            <basic:externalCrossReference/>
+            <basic:source>Nozioni di medicina legale</basic:source>
+            <note>La definizione proposta è tratta dal testo "Nozioni di medicina legale", ma è stata rielaborata dall'autrice della scheda terminologica per adattarla a una struttura intensionale.</note>
+          </descripGrp>
+          <termSec>
+            <term>reato</term>
+            <fairterm:identifier>27_it_421</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term</basic:termType>
+            <descripGrp>
+              <basic:context>Nessuno può essere punito per un fatto che non sia espressamente preveduto come reato dalla legge né con pene che non siano da essa stabilite (25 Cost.).</basic:context>
+              <basic:externalCrossReference>Nessuno può essere punito per un fatto che non sia espressamente preveduto come reato dalla legge né con pene che non siano da essa stabilite (25 Cost.).</basic:externalCrossReference>
+              <basic:source>Codice penale (Libro I dei reati in generale)</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>commettere un reato</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="278">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-24 14:01:16</date>
+          <basic:responsibility>gloria.visentin@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition/>
+            <basic:externalCrossReference/>
+            <basic:source/>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term/>
+            <fairterm:identifier>278_fr_595</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech/>
+            <basic:grammaticalGender/>
+            <basic:grammaticalNumber/>
+            <basic:termType/>
+            <descripGrp>
+              <basic:context/>
+              <basic:externalCrossReference/>
+              <basic:source/>
+            </descripGrp>
+            <fairterm:register/>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition/>
+            <basic:externalCrossReference/>
+            <basic:source/>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term/>
+            <fairterm:identifier>278_it_354</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech/>
+            <basic:grammaticalGender/>
+            <basic:grammaticalNumber/>
+            <basic:termType/>
+            <descripGrp>
+              <basic:context/>
+              <basic:externalCrossReference/>
+              <basic:source/>
+            </descripGrp>
+            <fairterm:register/>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+          <termSec>
+            <term/>
+            <fairterm:identifier>278_it_714</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech/>
+            <basic:grammaticalGender/>
+            <basic:grammaticalNumber/>
+            <basic:termType/>
+            <descripGrp>
+              <basic:context/>
+              <basic:externalCrossReference/>
+              <basic:source/>
+            </descripGrp>
+            <fairterm:register/>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="29">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-30 10:58:20</date>
+          <basic:responsibility>gloria.visentin@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept>27</fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>une infraction fondée sur le dol général, c’est-à-dire sur la volonté et la conscience d’enfreindre la loi pénale</basic:definition>
+            <basic:externalCrossReference>https://actu.dalloz-etudiant.fr/focus-sur/article/element-intentionnel-consentement-et-drogue/h/b5490c8e3a8d9c911efd0b8d213c19b3.html</basic:externalCrossReference>
+            <basic:source>Dalloz</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>infraction intentionnelle</term>
+            <fairterm:identifier>29_fr_196</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Les infractions intentionnelles se fondent toutes sur le dol général, c’est-à-dire la volonté et la conscience d’enfreindre la loi pénale.</basic:context>
+              <basic:externalCrossReference>Les infractions intentionnelles se fondent toutes sur le dol général, c’est-à-dire la volonté et la conscience d’enfreindre la loi pénale.</basic:externalCrossReference>
+              <basic:source>Dalloz</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>commettre une infraction intentionnelle</fairterm:collocation>
+            <note/>
+          </termSec>
+          <termSec>
+            <term>infraction dolosive</term>
+            <fairterm:identifier>29_fr_357</fairterm:identifier>
+            <fairterm:usage>admitted term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Dans le cas contraire, la sanction pour infraction dolosive peut quand meme etre attenuee.</basic:context>
+              <basic:externalCrossReference>Dans le cas contraire, la sanction pour infraction dolosive peut quand meme etre attenuee.</basic:externalCrossReference>
+              <basic:source>Commission européenne </basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>commettre une infraction dolosive</fairterm:collocation>
+            <note/>
+          </termSec>
+          <termSec>
+            <term>infraction volontaire</term>
+            <fairterm:identifier>29_fr_771</fairterm:identifier>
+            <fairterm:usage>admitted term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>L’infraction de séquestration est une infraction volontaire qui suppose la caractérisation d’un dol général.</basic:context>
+              <basic:externalCrossReference>L’infraction de séquestration est une infraction volontaire qui suppose la caractérisation d’un dol général.</basic:externalCrossReference>
+              <basic:source>Adrien Pujol Avocat &amp; Mediateur</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>constituer une infraction volontaire</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>un reato commesso con l’intenzione di causare un danno o violare la legge</basic:definition>
+            <basic:externalCrossReference>https://www.mondoprofessionisti.it/lifestyle/doloso-e-colposo/</basic:externalCrossReference>
+            <basic:source>Mondo professionisti</basic:source>
+            <note>Articolo 43 del Codice penale (Elemento psicologico del reato): è doloso,  o  secondo  l'intenzione,  quando  l'evento  dannoso  o
+pericoloso, che è il risultato dell'azione od omissione e da cui  la legge fa dipendere l'esistenza del delitto, è dall'agente  preveduto e voluto come conseguenza della propria azione od omissione.</note>
+          </descripGrp>
+          <termSec>
+            <term>reato doloso</term>
+            <fairterm:identifier>29_it_844</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Il dolo è la forma più grave di colpevolezza, nel senso che il reato doloso è quello punito in generale con la pena più grave e consiste nella volontà di cagionare l’evento che costituisce il reato.</basic:context>
+              <basic:externalCrossReference>Il dolo è la forma più grave di colpevolezza, nel senso che il reato doloso è quello punito in generale con la pena più grave e consiste nella volontà di cagionare l’evento che costituisce il reato.</basic:externalCrossReference>
+              <basic:source>Studio legale Ballai</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>rispondere di un reato doloso</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="536">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-30 14:46:17</date>
+          <basic:responsibility>gloria.visentin@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>se dit d'une infraction qui, en raison de sa gravité, est poursuivie automatiquement par les autorités compétentes dès qu'elles en ont connaissance</basic:definition>
+            <basic:externalCrossReference>https://www.geneve.ch/themes/culture/bibliotheques/interroge/reponses/cas-une-infraction-est-poursuivie-office#:~:text=La%20plainte%20doit%20%C3%AAtre%20d%C3%A9pos%C3%A9e,de%20plainte%20de%20la%20victime.</basic:externalCrossReference>
+            <basic:source>Ville de Genève</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>poursuivi d'office</term>
+            <fairterm:identifier>536_fr_542</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>ADJ</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Toute personne ayant connaissance d'une infraction poursuivie d'office peut la dénoncer au Ministère Public ou à la Police.</basic:context>
+              <basic:externalCrossReference>Toute personne ayant connaissance d'une infraction poursuivie d'office peut la dénoncer au Ministère Public ou à la Police.</basic:externalCrossReference>
+              <basic:source>Guide Sociale Romand</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>être poursuivi d'office</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>si dice di un reato quando l'iniziativa dell'azione penale è indipendente dalla volontà della persona offesa</basic:definition>
+            <basic:externalCrossReference>https://ordinepsicologiabruzzo.it/professione/deontologia-professionale/100-domande-e-risposte-sul-codice-deontologico-degli-psicologi/qual-e-la-differenza-tra-reato-procedibile-d-ufficio-e-a-querela-di-parte.html#:~:text=I%20reati%20a%20procedibilit%C3%A0%20d,una%20querela%20della%20persona%20offesa.</basic:externalCrossReference>
+            <basic:source>Ordine degli psicologi della regione Abruzzo</basic:source>
+            <note>La definizione proposta è tratta dalla pagina web sopraindicata, ma è stata rielaborata dall'autrice della scheda terminologica per adattarla a una struttura intensionale. 
+Appresa la notizia del fatto, l’Autorità Giudiziaria è tenuta a procedere autonomamente, senza necessità che la persona offesa sporga querela.</note>
+          </descripGrp>
+          <termSec>
+            <term>procedibile d'ufficio</term>
+            <fairterm:identifier>536_it_508</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>ADJ</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Stalking (art. 612-bis c.p.): il reato è procedibile d’ufficio solo se il fatto è commesso nei confronti di un minore o di una persona con disabilità di cui all’art.3 della Legge 5 febbraio 1992, n.104, nonché quando il fatto è connesso con altro delitto per il quale si procede d’ufficio.</basic:context>
+              <basic:externalCrossReference>Stalking (art. 612-bis c.p.): il reato è procedibile d’ufficio solo se il fatto è commesso nei confronti di un minore o di una persona con disabilità di cui all’art.3 della Legge 5 febbraio 1992, n.104, nonché quando il fatto è connesso con altro delitto per il quale si procede d’ufficio.</basic:externalCrossReference>
+              <basic:source>Deontologia Psicologi</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>essere procedibile d'ufficio</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="55">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-24 14:48:20</date>
+          <basic:responsibility>gloria.visentin@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept>572</fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>la capacité pour une personne de répondre d’une infraction, en supposant sa capacité de discernement ainsi que sa liberté d’agir</basic:definition>
+            <basic:externalCrossReference>https://actu.dalloz-etudiant.fr/a-la-une/article/point-sur-la-responsabilite-penale-des-mineurs/h/ac8518e87534df05e0154dc29920292f.html#:~:text=L'imputabilit%C3%A9%20%C3%A9tant%20la%20capacit%C3%A9,'une%20libert%C3%A9%20d'agir.</basic:externalCrossReference>
+            <basic:source>Dalloz</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>imputabilité</term>
+            <fairterm:identifier>55_fr_568</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term</basic:termType>
+            <descripGrp>
+              <basic:context>Retour sur les règles relatives à l’imputabilité des mineurs et à leur responsabilité pénale, réécrites à la faveur de l’adoption d’un Code de justice pénale des mineurs.</basic:context>
+              <basic:externalCrossReference>Retour sur les règles relatives à l’imputabilité des mineurs et à leur responsabilité pénale, réécrites à la faveur de l’adoption d’un Code de justice pénale des mineurs.</basic:externalCrossReference>
+              <basic:source>Dalloz</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>exclure l'imputabilité</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>l'idoneità di un soggetto a essere sottoposto a procedimento penale e punito per un reato commesso, in quanto dotato della capacità di intendere e di volere al momento del fatto</basic:definition>
+            <basic:externalCrossReference/>
+            <basic:source>Nozioni di medicina legale</basic:source>
+            <note>La definizione proposta è tratta dal testo "Nozioni di medicina legale", ma è stata rielaborata dall'autrice della scheda terminologica per adattarla a una struttura intensionale.</note>
+          </descripGrp>
+          <termSec>
+            <term>imputabilità</term>
+            <fairterm:identifier>55_it_869</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term</basic:termType>
+            <descripGrp>
+              <basic:context>L'art. 90 dispone, poi, che gli stati emotivi e passionali non escludono né diminuiscono l'imputabilità.</basic:context>
+              <basic:externalCrossReference>L'art. 90 dispone, poi, che gli stati emotivi e passionali non escludono né diminuiscono l'imputabilità.</basic:externalCrossReference>
+              <basic:source>Altalex</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>valutare l'imputabilità</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="570">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-02 10:45:34</date>
+          <basic:responsibility>gloria.visentin@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>ensemble de comportements ou de circonstances susceptibles de produire un événement dommageable</basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/dizionario/4335.html#:~:text=Che%20cosa%20significa%20%22Concorso%20di,a%20produrre%20un%20evento%20dannoso. </basic:externalCrossReference>
+            <basic:source>Brocardi</basic:source>
+            <note>La définition proposée est tirée de la page web mentionnée ci-dessus, mais elle a été traduite par l’auteure de la fiche terminologique.</note>
+          </descripGrp>
+          <termSec>
+            <term>concours de causes</term>
+            <fairterm:identifier>570_fr_656</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>En effet, en cas de concours de cause, il est difficile d’attribuer le sinistre à une cause unique. </basic:context>
+              <basic:externalCrossReference>En effet, en cas de concours de cause, il est difficile d’attribuer le sinistre à une cause unique. </basic:externalCrossReference>
+              <basic:source>Centre de Droit Maritime et Océanique</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>cas de concours de causes</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>insieme di condotte o di circostanze che sono idonee a produrre un evento dannoso</basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/dizionario/4335.html#:~:text=Che%20cosa%20significa%20%22Concorso%20di,a%20produrre%20un%20evento%20dannoso. </basic:externalCrossReference>
+            <basic:source>Brocardi</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>concorso di cause</term>
+            <fairterm:identifier>570_it_439</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Tale articolo afferma che il concorso di cause pre-esistenti o simultanee o sopravvenute, anche se indipendenti dall’azione od omissione del colpevole, non esclude il rapporto di causalità fra l’azione od omissione e l’evento.</basic:context>
+              <basic:externalCrossReference>Tale articolo afferma che il concorso di cause pre-esistenti o simultanee o sopravvenute, anche se indipendenti dall’azione od omissione del colpevole, non esclude il rapporto di causalità fra l’azione od omissione e l’evento.</basic:externalCrossReference>
+              <basic:source>Medicina per tutti</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>prevedere il concorso di cause</fairterm:collocation>
+            <note/>
+          </termSec>
+          <termSec>
+            <term>concorso causale</term>
+            <fairterm:identifier>570_it_637</fairterm:identifier>
+            <fairterm:usage>admitted term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>La figura giuridica del concorso causale (o concausa) riveste particolare importanza nell’ambito della responsabilità civile.</basic:context>
+              <basic:externalCrossReference>La figura giuridica del concorso causale (o concausa) riveste particolare importanza nell’ambito della responsabilità civile.</basic:externalCrossReference>
+              <basic:source>Studio Legale Riccio</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>determinare il concorso causale</fairterm:collocation>
+            <note/>
+          </termSec>
+          <termSec>
+            <term>concausalità</term>
+            <fairterm:identifier>570_it_772</fairterm:identifier>
+            <fairterm:usage>admitted term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term</basic:termType>
+            <descripGrp>
+              <basic:context>Concausalità nella morte da esposizione da amianto del lavoratore (Cass. Civ., Sez. III, ord. 5 novembre 2024, n. 28458)</basic:context>
+              <basic:externalCrossReference>Concausalità nella morte da esposizione da amianto del lavoratore (Cass. Civ., Sez. III, ord. 5 novembre 2024, n. 28458)</basic:externalCrossReference>
+              <basic:source>Diritti Fondamentali</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>determinare la concausalità</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="572">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-26 21:51:00</date>
+          <basic:responsibility>gloria.visentin@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept>27</fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept>55</fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>un élément constitutif de l'infraction, faisant référence à l'attitude psychologique de l'auteur vis-à-vis de la commission des faits réprimés par la loi pénale</basic:definition>
+            <basic:externalCrossReference>https://www.dalloz.fr/documentation/Document?id=DZ%2FOASIS%2F000417</basic:externalCrossReference>
+            <basic:source>Dalloz</basic:source>
+            <note>L'élément moral comprend deux éléments: l'imputabilité (les facultés intellectuelles doivent être suffistantes et librement excercées) et la culpabilité pénale (l'agent doit avoir commis une faute intentionnelle ou une faute non intentionnelle).</note>
+          </descripGrp>
+          <termSec>
+            <term>élément moral</term>
+            <fairterm:identifier>572_fr_23</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>L'élément moral n'est donc pas requis en matière de contraventions. </basic:context>
+              <basic:externalCrossReference>L'élément moral n'est donc pas requis en matière de contraventions. </basic:externalCrossReference>
+              <basic:source>Aideauxtd</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>établir l'élément moral</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>un elemento costitutivo del reato, definito come l'insieme dei requisiti per l'imputazione soggettiva del fatto all'agente</basic:definition>
+            <basic:externalCrossReference>https://www.altalex.com/documents/altalexpedia/2017/01/12/colpevolezza#Toc471985891</basic:externalCrossReference>
+            <basic:source>Altalex</basic:source>
+            <note>La colpevolezza indica l'attribuibilità del fatto alla volontà dell'autore. </note>
+          </descripGrp>
+          <termSec>
+            <term>colpevolezza</term>
+            <fairterm:identifier>572_it_897</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term</basic:termType>
+            <descripGrp>
+              <basic:context>Altri ancora sostengono che le cause di giustificazione nulla avrebbero a che fare con la colpevolezza, perché un soggetto può ben realizzare il fatto agendo per legittima difesa o in stato di necessità, pur volendo realizzare l’evento tipico.</basic:context>
+              <basic:externalCrossReference>Altri ancora sostengono che le cause di giustificazione nulla avrebbero a che fare con la colpevolezza, perché un soggetto può ben realizzare il fatto agendo per legittima difesa o in stato di necessità, pur volendo realizzare l’evento tipico.</basic:externalCrossReference>
+              <basic:source>Altalex</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>dimostrare la colpevolezza</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="590">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-08 08:37:20</date>
+          <basic:responsibility>gloria.visentin@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1211 - civil law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>la mesure de protection, sur décision judiciaire ou par déclaration médicale, destinée aux majeurs qui, en raison de l'impossibilité de pourvoir seuls à leurs intérêts du fait de l'altération de leurs facultés mentales ou corporelles, ont besoin d'une protection juridique temporaire ou d'être représentés pour l'accomplissement de certains actes déterminés</basic:definition>
+            <basic:externalCrossReference>https://www.dalloz.fr/documentation/Document?id=DZ%2FOASIS%2F000916</basic:externalCrossReference>
+            <basic:source>Dalloz</basic:source>
+            <note>Figure de référence: mandataire spécial</note>
+          </descripGrp>
+          <termSec>
+            <term>sauvegarde de justice</term>
+            <fairterm:identifier>590_fr_213</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Les actes passés pendant une sauvegarde de justice peuvent être remise en cause s'ils portent préjudice aux intérêts de la personne.</basic:context>
+              <basic:externalCrossReference>Les actes passés pendant une sauvegarde de justice peuvent être remise en cause s'ils portent préjudice aux intérêts de la personne.</basic:externalCrossReference>
+              <basic:source>Adultes Vulnérables</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>mise sous sauvegarde de justice</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>un istituto giuridico al quale possono ricorrere le persone che, per effetto di un’infermità o di una menomazione fisica o psichica, si trovano nell’impossibilità, anche parziale o temporanea, di prendersi cura dei propri interessi</basic:definition>
+            <basic:externalCrossReference>https://www.uslcentro.toscana.it/index.php/dipartimento-servizi-sociali/amministratore-di-sostegno/2112-amministrazione-di-sostegno-ads/41461-cos-e-l-amministrazione-di-sostegno-ads</basic:externalCrossReference>
+            <basic:source>Azienda Usl Toscana centro</basic:source>
+            <note>Figura relativa: amministratore di sostegno</note>
+          </descripGrp>
+          <termSec>
+            <term>amministrazione di sostegno</term>
+            <fairterm:identifier>590_it_323</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Il ricorso per il procedimento per la nomina dell'amministrazione di sostegno è da depositarsi presso la cancelleria della Volontaria Giurisdizione del Tribunale di residenza.</basic:context>
+              <basic:externalCrossReference>Il ricorso per il procedimento per la nomina dell'amministrazione di sostegno è da depositarsi presso la cancelleria della Volontaria Giurisdizione del Tribunale di residenza.</basic:externalCrossReference>
+              <basic:source>Azienda Usl Toscana centro</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>richiedere l'amministrazione di sostegno</fairterm:collocation>
+            <note/>
+          </termSec>
+          <termSec>
+            <term>AdS</term>
+            <fairterm:identifier>590_it_930</fairterm:identifier>
+            <fairterm:usage>admitted term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>acronym</basic:termType>
+            <descripGrp>
+              <basic:context>Ne consegue che l’interdizione deve essere preferita solo nel caso in cui l’ADS si riveli inadeguata alla concreta situazione e all’esigenza di tutela degli interessi della persona debole (Tribunale Aosta, sentenza 3 febbraio 2021, n. 36).</basic:context>
+              <basic:externalCrossReference>Ne consegue che l’interdizione deve essere preferita solo nel caso in cui l’ADS si riveli inadeguata alla concreta situazione e all’esigenza di tutela degli interessi della persona debole (Tribunale Aosta, sentenza 3 febbraio 2021, n. 36).</basic:externalCrossReference>
+              <basic:source>Altalex</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="63">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-31 09:23:23</date>
+          <basic:responsibility>gloria.visentin@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept>27</fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>un élément constitutif de l'infraction, qui indique le rapport de non-conformité entre un fait et le droit et qui exige que l’infraction soit expressément prévue par un texte de loi </basic:definition>
+            <basic:externalCrossReference>https://www.dalloz.fr/documentation/Document?id=CPEN000048&amp;scrll=CPEN000009</basic:externalCrossReference>
+            <basic:source>Code pénal</basic:source>
+            <note>La définition proposée a été créée par l'auteure de la fiche terminologique en s'appuyant sur les principes établis dans l'article 111-3 du Code pénal, qui pose le principe de légalité en stipulant que "nul ne peut être puni pour un crime ou pour un délit dont les éléments ne sont pas définis par la loi, ou pour les contraventions dont les éléments ne sont pas définis par le règlement".</note>
+          </descripGrp>
+          <termSec>
+            <term>élément légal</term>
+            <fairterm:identifier>63_fr_521</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>L’élément légal découle donc du principe de légalité des délits et des peines évoqué ci-dessus.
+</basic:context>
+              <basic:externalCrossReference>L’élément légal découle donc du principe de légalité des délits et des peines évoqué ci-dessus.
+</basic:externalCrossReference>
+              <basic:source>Cabinet ACI</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>un elemento costitutivo del reato, che indica il rapporto di contrasto tra un fatto e il diritto, configurando un comportamento contrario a quanto previsto dalla legge</basic:definition>
+            <basic:externalCrossReference/>
+            <basic:source>Nozioni di medicina legale</basic:source>
+            <note>La definizione proposta è tratta dal testo "Nozioni di medicina legale", ma è stata rielaborata dall'autrice della scheda terminologica per adattarla a una struttura intensionale.</note>
+          </descripGrp>
+          <termSec>
+            <term>antigiuridicità</term>
+            <fairterm:identifier>63_it_600</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term</basic:termType>
+            <descripGrp>
+              <basic:context>In tal senso, l’antigiuridicità è il frutto della qualificazione operata dal diritto penale sul versante oggettivo del fatto di reato.</basic:context>
+              <basic:externalCrossReference>In tal senso, l’antigiuridicità è il frutto della qualificazione operata dal diritto penale sul versante oggettivo del fatto di reato.</basic:externalCrossReference>
+              <basic:source>Diritto e Scienza</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>escludere l'antigiuridicità</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="713">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-02 11:03:28</date>
+          <basic:responsibility>gloria.visentin@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition/>
+            <basic:externalCrossReference/>
+            <basic:source/>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term/>
+            <fairterm:identifier>713_fr_544</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech/>
+            <basic:grammaticalGender/>
+            <basic:grammaticalNumber/>
+            <basic:termType/>
+            <descripGrp>
+              <basic:context/>
+              <basic:externalCrossReference/>
+              <basic:source/>
+            </descripGrp>
+            <fairterm:register/>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition/>
+            <basic:externalCrossReference/>
+            <basic:source/>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term/>
+            <fairterm:identifier>713_it_713</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech/>
+            <basic:grammaticalGender/>
+            <basic:grammaticalNumber/>
+            <basic:termType/>
+            <descripGrp>
+              <basic:context/>
+              <basic:externalCrossReference/>
+              <basic:source/>
+            </descripGrp>
+            <fairterm:register/>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="715">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-18 15:38:50</date>
+          <basic:responsibility>gloria.visentin@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain>legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept>27</fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>infraction de moindre gravité, sanctionnée par une amende ou par des peines privatives ou restrictives de droits</basic:definition>
+            <basic:externalCrossReference>https://www.larousse.fr/dictionnaires/francais/contravention/18695</basic:externalCrossReference>
+            <basic:source>Larousse</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>contravention</term>
+            <fairterm:identifier>715_fr_660</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term</basic:termType>
+            <descripGrp>
+              <basic:context>En matière de contravention, c'est le tribunal de police qui est compétent. </basic:context>
+              <basic:externalCrossReference>En matière de contravention, c'est le tribunal de police qui est compétent. </basic:externalCrossReference>
+              <basic:source>Vie publique</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>commettre une contravention</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>il reato di minore gravità, caratterizzato da comportamenti antigiuridici che ledono gli interessi finanziari dello Stato o violano norme di polizia e punito con sanzioni quali l'ammenda o l'arresto</basic:definition>
+            <basic:externalCrossReference/>
+            <basic:source>Nozioni di medicina legale</basic:source>
+            <note>La definizione proposta è tratta dal testo "Nozioni di medicina legale", ma è stata rielaborata dall'autrice della scheda terminologica per adattarla a una struttura intensionale. </note>
+          </descripGrp>
+          <termSec>
+            <term>contravvenzione</term>
+            <fairterm:identifier>715_it_266</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term</basic:termType>
+            <descripGrp>
+              <basic:context>La maggior parte delle contravvenzioni è frutto della ricezione nel diritto penale dei cosiddetti illeciti di polizia, affidati prima dell’illuminismo alla competenza dell’autorità amministrativa.</basic:context>
+              <basic:externalCrossReference>La maggior parte delle contravvenzioni è frutto della ricezione nel diritto penale dei cosiddetti illeciti di polizia, affidati prima dell’illuminismo alla competenza dell’autorità amministrativa.</basic:externalCrossReference>
+              <basic:source>Treccani</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>contravvenzione procedibile d'ufficio</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="798">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-30 11:12:56</date>
+          <basic:responsibility>gloria.visentin@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept>27</fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>une infraction dans laquelle l'agent accomplit un acte de violence envers autrui mais le résultat dépasse le but recherché</basic:definition>
+            <basic:externalCrossReference>https://ledroitcriminel.fr/dictionnaire/lettre_p/lettre_p_pr.htm</basic:externalCrossReference>
+            <basic:source>Dictionnaire de droit criminel</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>infraction praeter intentionnelle</term>
+            <fairterm:identifier>798_fr_247</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>On parle alors d'infraction praeter intentionnelle : c'est par exemple le cas de coups et blessures volontaires ayant entraîné la mort sans intention de la donner.</basic:context>
+              <basic:externalCrossReference>On parle alors d'infraction praeter intentionnelle : c'est par exemple le cas de coups et blessures volontaires ayant entraîné la mort sans intention de la donner.</basic:externalCrossReference>
+              <basic:source>Cours de droit</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>commettre une infraction praeter intenntionnelle</fairterm:collocation>
+            <note/>
+          </termSec>
+          <termSec>
+            <term>infraction praeter-intentionnelle</term>
+            <fairterm:identifier>798_fr_464</fairterm:identifier>
+            <fairterm:usage>admitted term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>En droit positif français les praticiens parlent improprement d'infraction praeter-intentionnelle lorsque, pour apprécier la culpabilité de l'agent, ils examinent ses "mobiles" et confondent alors le motif, cause de l'action, et le but poursuivi.</basic:context>
+              <basic:externalCrossReference>En droit positif français les praticiens parlent improprement d'infraction praeter-intentionnelle lorsque, pour apprécier la culpabilité de l'agent, ils examinent ses "mobiles" et confondent alors le motif, cause de l'action, et le but poursuivi.</basic:externalCrossReference>
+              <basic:source>Dictionnaire de droit criminel</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>commettre une infraction praeter-intentionnelle</fairterm:collocation>
+            <note>variante orthographique</note>
+          </termSec>
+          <termSec>
+            <term>infraction préterintentionnelle</term>
+            <fairterm:identifier>798_fr_472</fairterm:identifier>
+            <fairterm:usage>obsolete term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context/>
+              <basic:externalCrossReference/>
+              <basic:source/>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>commettre une infraction préterintentionnelle</fairterm:collocation>
+            <note>variante orthographique</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>un reato che si ha quando dall'azione od omissione deriva un evento dannoso o pericoloso più grave di quello voluto dall'agente</basic:definition>
+            <basic:externalCrossReference>https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&amp;art.idGruppo=5&amp;art.flagTipoArticolo=1&amp;art.codiceRedazionale=030U1398&amp;art.idArticolo=43&amp;art.idSottoArticolo=1&amp;art.idSottoArticolo1=10&amp;art.dataPubblicazioneGazzetta=1930-10-26&amp;art.progressivo=0#:~:text=(Elemento%20psicologico%20del%20reato)%20Il,propria%20azione%20od%20omissione%3B%20e'</basic:externalCrossReference>
+            <basic:source>Gazzetta Ufficiale</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>reato preterintenzionale</term>
+            <fairterm:identifier>798_it_502</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Altri autori vedono nell'elemento soggettivo del reato preterintenzionale un caso di dolo misto a colpa; dolo per le percosse, colpa per l’evento della morte (in tal senso in giurisprudenza Cass. 19611/2006, ma in senso completamente contrario Cass. 27161/2013).</basic:context>
+              <basic:externalCrossReference>Altri autori vedono nell'elemento soggettivo del reato preterintenzionale un caso di dolo misto a colpa; dolo per le percosse, colpa per l’evento della morte (in tal senso in giurisprudenza Cass. 19611/2006, ma in senso completamente contrario Cass. 27161/2013).</basic:externalCrossReference>
+              <basic:source>Altalex</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>commettere un reato preterintenzionale</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="880">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-02 10:24:08</date>
+          <basic:responsibility>gloria.visentin@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>le lien de cause à effet entre le fait générateur de responsabilité et le dommage dont il est demandé réparation</basic:definition>
+            <basic:externalCrossReference>https://www.dalloz.fr/documentation/Document?id=DZ%2FOASIS%2F000835</basic:externalCrossReference>
+            <basic:source>Dalloz</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>lien de causalité</term>
+            <fairterm:identifier>880_fr_834</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>la responsabilité du fait des produits défectueux suppose un lien de causalité entre le défaut du produit et le dommage</basic:context>
+              <basic:externalCrossReference>la responsabilité du fait des produits défectueux suppose un lien de causalité entre le défaut du produit et le dommage</basic:externalCrossReference>
+              <basic:source>Fiches Droits</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>démontrer le lien de causalité</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>il rapporto di causa ed effetto che deve sussistere tra l’azione o la condotta e l’evento affinché la condotta stessa sia punibile</basic:definition>
+            <basic:externalCrossReference>https://www.altalex.com/documents/altalexpedia/2016/09/26/causalita-penale</basic:externalCrossReference>
+            <basic:source>Altalex</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>nesso di causalità</term>
+            <fairterm:identifier>880_it_169</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Affinché si abbia il nesso di causalità occorre, quindi, che l'azione dell'uomo sia stata anche solo una delle concause dell'evento, purché tale azione fosse da sola sufficiente a determinarlo.</basic:context>
+              <basic:externalCrossReference>Affinché si abbia il nesso di causalità occorre, quindi, che l'azione dell'uomo sia stata anche solo una delle concause dell'evento, purché tale azione fosse da sola sufficiente a determinarlo.</basic:externalCrossReference>
+              <basic:source>Altalex</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>dimostrare il nesso di causalità</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+    </body>
+  </text>
+</tbx>

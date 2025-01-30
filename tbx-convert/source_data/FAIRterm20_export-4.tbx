@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbx xmlns:tbx3="urn:iso:std:iso:30042:ed-2" xmlns:min="http://www.tbxinfo.net/ns/min" xmlns:basic="http://www.tbxinfo.net/ns/basic" xmlns:fairterm="http://www.fairterm.org/ns/sample" type="TBX-FAIRterm" style="dct" xml:lang="en">
+  <tbxHeader>
+    <fileDesc>
+      <sourceDesc>
+        <p>TBX file created by the FAIRterm 2.0 application</p>
+      </sourceDesc>
+    </fileDesc>
+  </tbxHeader>
+  <text>
+    <body>
+      <conceptEntry id="260">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-04 09:08:52</date>
+          <basic:responsibility>alberto.bardi@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>L’élément matériel de l’infraction, manifestation concrète des faits incriminés, peut se traduire
+
+par la réalisation d’un acte positif (une commission) ou d’un acte négatif (une omission).</basic:definition>
+            <basic:externalCrossReference>https://www.cabinetaci.com/infraction-par-commission-ou-omission/</basic:externalCrossReference>
+            <basic:source>Cabinet ACI</basic:source>
+            <note>La définition ci-dessus prend également en compte non seulement la notion de commission mais aussi celle d'infraction. Il a été décidé de reproduire la définition telle quelle car les deux concepts liés sont utiles pour la définition du concept d'omission. </note>
+          </descripGrp>
+          <termSec>
+            <term>omission</term>
+            <fairterm:identifier>260_fr_457</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>single-word term</basic:termType>
+            <descripGrp>
+              <basic:context>En faveur de la sanction pénale de l'omission, on peut invoquer le fait que l'omission est susceptib</basic:context>
+              <basic:externalCrossReference>En faveur de la sanction pénale de l'omission, on peut invoquer le fait que l'omission est susceptib</basic:externalCrossReference>
+              <basic:source>Cours de droit</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>infraction par o., infraction d'o.</fairterm:collocation>
+            <note>synonyme: "asbstention"</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>E’ opportuno operare una distinzione, non sempre agevole in concreto, tra condotta omissiva e condotta commissiva connotata dall’elemento soggettivo colposo: nella prima, viene violato un divieto in quanto l’agente omette la condotta dovuta( ad esempio nel caso in cui il medico rifiuta di ricoverare il paziente); nella seconda viene, al contrario, violato un comando in quanto l’agente pone in essere una condotta attiva colposa omettendo di adottare quella diligente (ad esempio nel caso in cui il medico adotta una terapia errata e, quindi, omette di somministrare quella corretta ).</basic:definition>
+            <basic:externalCrossReference>https://www.ildirittopericoncorsi.it/leggiarticolon.php?id=1157</basic:externalCrossReference>
+            <basic:source>Il diritto per i concorsi</basic:source>
+            <note>La definizione qui sopra tiene conto non solo del concetto di condotta omissiva ma anche di quello di condotta commissiva. In effetti, i due concetti sono vicini tra loro, dunque è bene definirli tenendo a mente le differenze che intercorrono tra i due. </note>
+          </descripGrp>
+          <termSec>
+            <term>condotta omissiva</term>
+            <fairterm:identifier>260_it_721</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>In tema di responsabilità medica, ai fini dell’accertamento del nesso di causalità è necessario indi</basic:context>
+              <basic:externalCrossReference>In tema di responsabilità medica, ai fini dell’accertamento del nesso di causalità è necessario indi</basic:externalCrossReference>
+              <basic:source>Studio legale Ramelli</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>c.o. colposa</fairterm:collocation>
+            <note>sinonimi: "omissione", "comportamento omissivo"</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="307">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-04 14:43:36</date>
+          <basic:responsibility>alberto.bardi@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>Hérité de l’Ancien régime, le droit de correction a été aboli en 1935. Jusqu’à cette date, le père de famille avait le droit de corriger ses enfants en cas de mécontentement très grave sur leur conduite. Cette vieille tradition était également valable d’un mari sur une femme et même d’un enseignant sur un élève. </basic:definition>
+            <basic:externalCrossReference>https://www.tf1info.fr/education/peut-on-encore-avoir-recours-a-la-correction-parentale-en-france-2300344.html</basic:externalCrossReference>
+            <basic:source>TF1 Info</basic:source>
+            <note>Il s'agit ici de la définition du « droit de correction “ et non de celle de ” moyen de correction » qui, en tout cas, peut être défini comme tout moyen n'excluant pas l'usage de la violence, physique ou morale, à des fins éducatives.</note>
+          </descripGrp>
+          <termSec>
+            <term>moyen de correction</term>
+            <fairterm:identifier>307_fr_375</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Jusqu'en 1935, le Code civil offrait « des moyens de correction » au père – l'autorité parentale n'é</basic:context>
+              <basic:externalCrossReference>Jusqu'en 1935, le Code civil offrait « des moyens de correction » au père – l'autorité parentale n'é</basic:externalCrossReference>
+              <basic:source>Le Point</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>abus des m.d.c., titulaire du droit de correction, </fairterm:collocation>
+            <note/>
+          </termSec>
+          <termSec>
+            <term>--- (term designation) ---</term>
+            <fairterm:identifier>307_fr_715</fairterm:identifier>
+            <fairterm:usage>--- (usage) ---</fairterm:usage>
+            <min:partOfSpeech>--- (pos) ---</min:partOfSpeech>
+            <basic:grammaticalGender>--- (gender) ---</basic:grammaticalGender>
+            <basic:grammaticalNumber>--- (number) ---</basic:grammaticalNumber>
+            <basic:termType>--- (type) ---</basic:termType>
+            <descripGrp>
+              <basic:context>--- (context) ---</basic:context>
+              <basic:externalCrossReference>--- (context) ---</basic:externalCrossReference>
+              <basic:source>--- (source) ---</basic:source>
+            </descripGrp>
+            <fairterm:register>--- (register) ---</fairterm:register>
+            <fairterm:collocation>--- (collocation) ---</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>I concetti di mezzi di correzione e di disciplina hanno subito un'evoluzione storica. Tradizionalmente infatti la dottrina li riconduceva allo ius corrigendi riconosciuto in capo a soggetti in posizioni di autorità che dunque potevano impiegare l'uso della violenza fisica o morale nei confronti di coloro che risultavano essere assoggettati alla loro autorità (si pensi ad esempio al rapporto genitore-figlio). Di conseguenza il reato in esame si considerava configurabile qualora fossero travalicati i limiti di tale violenza. Attualmente invece si nega che possa ricorrere all'uso di mezzi correttivi nell'ambito di alcune relazioni, quindi di abuso può parlarsi solo nei casi di uso improprio o abnorme di mezzi leciti. Qualora dunque vengano usati mezzi illeciti come le percosse, le ingiurie, le minacce verranno ad applicarsi i corrispondenti reati.</basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/codice-penale/libro-secondo/titolo-xi/capo-iv/art571.html</basic:externalCrossReference>
+            <basic:source>Brocardi</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>mezzo di correzione </term>
+            <fairterm:identifier>307_it_700</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>La norma, in particolare, ha la finalità di reprimere la condotta di tutti coloro che, in forza dell</basic:context>
+              <basic:externalCrossReference>La norma, in particolare, ha la finalità di reprimere la condotta di tutti coloro che, in forza dell</basic:externalCrossReference>
+              <basic:source>Altalex</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>abuso dei m.d.c.</fairterm:collocation>
+            <note>sinonimo: "mezzo correttivo", "mezzo di disciplina"</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="322">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-07 10:24:55</date>
+          <basic:responsibility>alberto.bardi@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>12 - LAW</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>Un testament de vie, également appelé directive aux médecins ou directive anticipée, est un document juridiquement contraignant qui énonce vos souhaits en matière de soins médicaux de fin de vie, au cas où vous ne seriez pas en mesure de communiquer vos décisions.</basic:definition>
+            <basic:externalCrossReference>https://bewell.co.th/fr/testament-de-vie-3/#</basic:externalCrossReference>
+            <basic:source>Be Well Medical Center</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>testament de vie</term>
+            <fairterm:identifier>322_fr_905</fairterm:identifier>
+            <fairterm:usage>admitted term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Votre testament biologique constitue un repère précieux pour l’équipe médicale au moment de décider </basic:context>
+              <basic:externalCrossReference>Votre testament biologique constitue un repère précieux pour l’équipe médicale au moment de décider </basic:externalCrossReference>
+              <basic:source>Equipe de santé familiale Plantagenet</basic:source>
+            </descripGrp>
+            <fairterm:register>informel</fairterm:register>
+            <fairterm:collocation>rédiger un t.d.v.</fairterm:collocation>
+            <note>synomyme: "testament de vie"; quasi-synonyme: "directives anticipées". En effet, ce dernier terme appartient au domaine juridique, alors que les deux premiers appartiennent au langage courant. C'est également la raison pour laquelle le terme vedette est considéré comme un simple « admitted term » et non comme un « preferred term » et le registre est considéré informel.</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>Il testamento biologico (detto anche: testamento di vita o dichiarazione anticipata di trattamento) è l'espressione della volontà da parte di una persona (il "testatore"), fornita in condizioni di lucidità mentale, in merito alle terapie che intende o non intende accettare nell'eventualità in cui dovesse trovarsi nella condizione di incapacità di esprimere il proprio diritto di acconsentire o non acconsentire alle cure proposte (cosiddetto "consenso informato") per malattie o lesioni traumatiche cerebrali irreversibili o invalidanti, malattie che costringano a trattamenti permanenti con macchine o sistemi artificiali che impediscano una normale vita di relazione.</basic:definition>
+            <basic:externalCrossReference>https://www.notaio-busani.it/it-IT/testamento-biologico.aspx</basic:externalCrossReference>
+            <basic:source>Busani &amp; partners - The Italian Notaries</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>testamento biologico</term>
+            <fairterm:identifier>322_it_78</fairterm:identifier>
+            <fairterm:usage>admitted term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Cosa fare dopo aver compilato il testamento biologico? 
+Dopo aver compilato il tuo biotestamento hai</basic:context>
+              <basic:externalCrossReference>Cosa fare dopo aver compilato il testamento biologico? 
+Dopo aver compilato il tuo biotestamento hai</basic:externalCrossReference>
+              <basic:source>Associazione Luca Coscioni</basic:source>
+            </descripGrp>
+            <fairterm:register>informale</fairterm:register>
+            <fairterm:collocation>redigere un t.b., depositare un t.b., firmatario del t.b., sottoscrivere un t.b., </fairterm:collocation>
+            <note>sinonimi: "testamento di vita", "biotestamento". Sono, invece, quasi-sinonimi "dichiarazione anticipata di trattamento" e "DAT"; infatti, questi ultimi due termini appartengono al dominio giuridico, mentre i primi due appartengono al linguaggio comune, così come il termine vedetta "testamento biologico". Ecco anche perché il termine vedetta è considerato semplicemente come "admitted term" e non come "preferred term" e il registro è considerato informale. </note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="376">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-04 11:01:19</date>
+          <basic:responsibility>alberto.bardi@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>La non-assistance à personne en danger est le fait de ne pas porter secours à quelqu'un qui est en péril.</basic:definition>
+            <basic:externalCrossReference>https://www.service-public.fr/particuliers/vosdroits/F34551#:~:text=Pour%20qu%27il%20y%20ait%20non-assistance%20%C3%A0%20personne%20en,prison%20%28homicide%20volontaire%20ou%20viol%20par%20exemple%29%20</basic:externalCrossReference>
+            <basic:source>Rèpublique Française</basic:source>
+            <note>Pour qu'il y ait non-assistance à personne en danger, il faut que les éléments suivants soient réunis :
+
+- La personne en danger fait face à un péril grave et imminent, qui menace son intégrité corporelle ou son bien-être moral (détresse)
+- Le témoin a conscience de ce danger
+- Le témoin s'abstient volontairement d'intervenir pour empêcher qu'un crimeInfraction la plus grave punissable par une peine de prison (homicide volontaire ou viol par exemple) ou qu'un délitActe interdit par la loi et puni d'une amende et/ou d'une peine d'emprisonnement inférieure à 10 ans. soit commis contre l'intégrité corporelle de la victime, ou le témoin s'abstient de porter assistance à la victime en détresse ou d'alerter les secours</note>
+          </descripGrp>
+          <termSec>
+            <term>non-assistance à personne en danger</term>
+            <fairterm:identifier>376_fr_37</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Le délit de non assistance à personne en danger est sanctionné par une peine maximale de 5 ans d’emp</basic:context>
+              <basic:externalCrossReference>Le délit de non assistance à personne en danger est sanctionné par une peine maximale de 5 ans d’emp</basic:externalCrossReference>
+              <basic:source>LégaVox</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>délit de n.a.à.p.e.d., délit pénal de n.a.à.p.e.d., sanction de n.a.à.p.e.d., accusation de n.a.à.p.e.d., porter plainte en cas de n.a.à.p.e.d.</fairterm:collocation>
+            <note>hyponyme: "omission de porter secours à personne"</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>Il reato di omissione di soccorso, ritenuto contro la vita e l’incolumità individuale, scatta nel momento in cui un cittadino non compie quell’azione giudicata doverosa nei confronti di chi è in pericolo.</basic:definition>
+            <basic:externalCrossReference>https://www.laleggepertutti.it/508590_omissione-di-soccorso-normativa#Cose_il_reato_di_omissione_di_soccorso</basic:externalCrossReference>
+            <basic:source>La legge per tutti</basic:source>
+            <note>Le definizione qui riportata è quella del concetto di reato di omissione di soccorso perché, in effetti, l'omissione di soccorso è un reato.</note>
+          </descripGrp>
+          <termSec>
+            <term>omissione di soccorso</term>
+            <fairterm:identifier>376_it_605</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>L'omissione di soccorso punisce sia l'omesso soccorso di un soggetto incapace, sia quello di una per</basic:context>
+              <basic:externalCrossReference>L'omissione di soccorso punisce sia l'omesso soccorso di un soggetto incapace, sia quello di una per</basic:externalCrossReference>
+              <basic:source>Brocardi</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>reato di o.d.s., realizzare un'o.d.s., delitto di o.d.s., accusato di o.d.s.</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="47">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-03 15:07:18</date>
+          <basic:responsibility>alberto.bardi@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>2841 - health (28 - SOCIAL QUESTIONS)</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>La compétence fait référence à la capacité d'une personne à témoigner.[1] Un témoin compétent doit être en mesure de témoigner de manière fiable et véridique. Cela signifie spécifiquement que le témoin a :[2]
+
+la capacité d'observer (y compris l'interprétation) ;
+la capacité de se souvenir ; et
+la capacité de communiquer.</basic:definition>
+            <basic:externalCrossReference>https://criminalnotebook.ca/fr/index.php/Comp%C3%A9tence_des_t%C3%A9moins_%C3%A0_t%C3%A9moigner</basic:externalCrossReference>
+            <basic:source>Le carnet de droit pénal</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>compétence à témoigner</term>
+            <fairterm:identifier>47_fr_809</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>La preuve par témoins ou preuve testimoniale, est un mode de preuve des plus anciens puisqu’il remon</basic:context>
+              <basic:externalCrossReference>La preuve par témoins ou preuve testimoniale, est un mode de preuve des plus anciens puisqu’il remon</basic:externalCrossReference>
+              <basic:source>Le droit dans tous ses états</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>exigence de c.à.t., établir la c.à.t., preuve de la c.à.t., contester la c.à.t., </fairterm:collocation>
+            <note>synonymes: "capacité à témoigner", "aptitude à témoigner"</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>L'idoneità a rendere testimonianza implica la capacità di comprensione delle domande e di adeguamento delle risposte, in uno ad una sufficiente memoria circa i fatti oggetto di deposizione ed alla piena coscienza di riferirne con verità e completezza; pertanto non ogni comportamento contraddittorio, ma soltanto una situazione di abnorme mancanza nell'escutendo di ogni consapevolezza in relazione all'ufficio ricoperto determina l'obbligo per il giudice di disporre accertamenti sulla sua idoneità a testimoniare, né questi devono necessariamente avere natura tecnica, ben potendo essere effettuati da parte di soggetti "qualificati".</basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/codice-di-procedura-penale/libro-terzo/titolo-ii/capo-i/art196.html</basic:externalCrossReference>
+            <basic:source>Brocardi</basic:source>
+            <note>differenza con il concetto di capacità di intendere e di volere: L'idoneità a rendere testimonianza è concetto diverso, e di maggior ampiezza, rispetto a quello della capacità di intendere e volere, implicando non soltanto la necessità di determinarsi liberamente e coscientemente, ma anche quella di discernimento critico del contenuto delle domande al fine di adeguarvi coerenti risposte, di capacità di valutazione delle domande di natura suggestiva, di sufficiente capacità mnemonica in ordine ai fatti specifici oggetto della deposizione, di piena coscienza dell'impegno di riferire con verità e completezza i fatti a sua conoscenza. L'obbligo di accertamento della capacità di intendere e di volere non deriva da qualsivoglia comportamento contraddittorio, inattendibile o immemore de teste, ma sussiste soltanto in presenza di una situazione di abnorme mancanza nel testimone di ogni elemento sintomatico della sua assunzione di responsabilità comportamentale in relazione all'ufficio ricoperto.</note>
+          </descripGrp>
+          <termSec>
+            <term>idoneità a rendere testimonianza</term>
+            <fairterm:identifier>47_it_797</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Ma cosa si intende esattamente per “capacità a testimoniare”? Ecco la migliore definizione clinico-f</basic:context>
+              <basic:externalCrossReference>Ma cosa si intende esattamente per “capacità a testimoniare”? Ecco la migliore definizione clinico-f</basic:externalCrossReference>
+              <basic:source>Psicologia giuridica</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>verificare l'i.a.r.t., accertamento dell'i.a.r.t., perizia sull'i.a.r.t., </fairterm:collocation>
+            <note>sinonimi: "idoneità a testimoniare", "capacità di testimoniare", "capacità di rendere testimonianza"</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="491">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-03 15:43:24</date>
+          <basic:responsibility>alberto.bardi@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>Il s’agit d’un comportement qui au re g a r d
+ des règles sociales ont a du mal à être admis et
+ la remise en cause de valeurs va pro d u i re des
+ changements. Les névrosés et les handicapés
+ sont donc exclus de cette définition.
+ La déviance qualifie toute sortes de
+ conduites qui ne sont pas attendues de la
+ part d’un groupe. Ces conduites entraînent
+ soit la réprobation, soit la sanction. </basic:definition>
+            <basic:externalCrossReference>http://sebastien.nogues.free.fr/biblio-virtuelle/DEUG/socio/Deviance.pdf</basic:externalCrossReference>
+            <basic:source>Free Sebastian Nogues</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>déviance</term>
+            <fairterm:identifier>491_fr_683</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>single-word term</basic:termType>
+            <descripGrp>
+              <basic:context>L'entrée dans la déviance n'est pas un acte individuel. C'est un phénomène social fait d'interaction</basic:context>
+              <basic:externalCrossReference>L'entrée dans la déviance n'est pas un acte individuel. C'est un phénomène social fait d'interaction</basic:externalCrossReference>
+              <basic:source>Le livre scolaire</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>forme de d., contribuer à la d., entrée dans la d.</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>La devianza è la condotta di chi viola le regole giuridiche, religiose, morali o sociali della comunità in cui vive. Spesso vengono etichettati come devianti anche i comportamenti diversi da quelli accettati dalla maggioranza. a sociologia della devianza (e del mutamento sociale) si occupa di analizzare e indagare i comportamenti devianti all’interno di una società e di rintracciarne delle cause. Si tratta di una disciplina studiata anche in criminologia e nei curriculum delle lauree in giurisprudenza. Devianza e criminalità, infatti, sono concetti per molti versi legati fra loro. Per questo si parla di sociologia della devianza e della criminalità.</basic:definition>
+            <basic:externalCrossReference>https://viterbo.unicusano.it/studiare-a-viterbo/sociologia-della-devianza/</basic:externalCrossReference>
+            <basic:source>Università Cusano</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>devianza</term>
+            <fairterm:identifier>491_it_655</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>single-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Quindi possiamo dire che la devianza è un concetto relativo che può variare da una società all’altra</basic:context>
+              <basic:externalCrossReference>Quindi possiamo dire che la devianza è un concetto relativo che può variare da una società all’altra</basic:externalCrossReference>
+              <basic:source>Sociologia on web</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>forma di d., prevenzione della d., prevenzione alla d. giovanile</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="565">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-02 20:11:04</date>
+          <basic:responsibility>alberto.bardi@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept>565</fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>La psychiatrie médico-légale est un domaine spécialisé qui combine les principes de la psychiatrie et du droit pour fournir une analyse et une évaluation psychologiques expertes dans des contextes juridiques. Il s'agit d'évaluer l'état mental et le comportement des personnes impliquées dans des affaires judiciaires, telles que les accusés, les victimes ou les témoins.</basic:definition>
+            <basic:externalCrossReference>https://rolecatcher.com/fr/competences/connaissance/sante-et-bien-etre/sante/psychiatrie-medico-legale/</basic:externalCrossReference>
+            <basic:source>Role Catcher</basic:source>
+            <note>La source est un site sur le monde du travail, donc pas le plus apte à extrapoler la définition de psychiatrie légale, mais je pense que la définition est bien faite et complète. </note>
+          </descripGrp>
+          <termSec>
+            <term>psychiatrie légale</term>
+            <fairterm:identifier>565_fr_719</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Inspiré par l'enseignement de l'école de Bicêtre, ce traité est le couronnement de plus de quatre an</basic:context>
+              <basic:externalCrossReference>Inspiré par l'enseignement de l'école de Bicêtre, ce traité est le couronnement de plus de quatre an</basic:externalCrossReference>
+              <basic:source>Santé mentale</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation/>
+            <note>synonyme: "psychiatrie judiciaire"</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>La psichiatria forense è una branca della psichiatria che assiste le persone affette da disturbi mentali che rappresentano un rischio per il pubblico. La disciplina valuta e tratta i criminali nelle carceri, negli ospedali di sicurezza e i membri della comunità affetti da disturbi mentali. La specialità studia inoltre la correlazione tra i disturbi mentali e i comportamenti criminali, e collabora con le agenzie di giustizia penale.</basic:definition>
+            <basic:externalCrossReference>https://www.topdoctors.it/dizionario-medico/psichiatria-forense-trattamento/</basic:externalCrossReference>
+            <basic:source>Top Doctors Italia</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>psichiatria forense</term>
+            <fairterm:identifier>565_it_632</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Ritengo anche prioritario ricordare la sostanziale differenza che esiste tra la 
+psichiatria forense</basic:context>
+              <basic:externalCrossReference>Ritengo anche prioritario ricordare la sostanziale differenza che esiste tra la 
+psichiatria forense</basic:externalCrossReference>
+              <basic:source>Diritto penale e uomo</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>servizio di psichiatria forense</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="600">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-03 16:08:29</date>
+          <basic:responsibility>alberto.bardi@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>L’infraction par commission est une violation qui requiert un acte positif de l’auteur, ayant réalisé
+
+un acte prohibé par la loi. En d’autres termes, cette catégorie d’infraction sanctionne l’accomplissement
+
+d’un acte violant une obligation de ne pas faire.</basic:definition>
+            <basic:externalCrossReference>https://www.cabinetaci.com/infraction-par-commission-ou-omission/#:~:text=Infraction%20par%20commission%20ou%20omission%20sont%20des%20infractions,acte%20positif%20ou%20n%C3%A9gatif%20que%20la%20loi%20interdit.</basic:externalCrossReference>
+            <basic:source>Cabinet ACI</basic:source>
+            <note>La définition ci-dessus est celle de "infraction par commission" au lieu de celle de "commission" parce que la définition de commission est également comprise dans cette définition. </note>
+          </descripGrp>
+          <termSec>
+            <term>commission</term>
+            <fairterm:identifier>600_fr_931</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>single-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Cette distinction a été compliquée par une fraction de la doctrine qui a imaginé une catégorie inter</basic:context>
+              <basic:externalCrossReference>Cette distinction a été compliquée par une fraction de la doctrine qui a imaginé une catégorie inter</basic:externalCrossReference>
+              <basic:source>JurisPedia</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>infraction de c., infraction par c. </fairterm:collocation>
+            <note>On parle aussi d'"infraction d'action"</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>La condotta attiva è quel comportamento umano teso a causare una modifica, un cambiamento nella realtà circostante. Per esempio, nel delitto di furto costituisce condotta attiva l’atto di appropriarsi di beni altrui. </basic:definition>
+            <basic:externalCrossReference>https://edizioni.simone.it/2022/07/20/elemento-oggettivo-reato-diritto-penale/#:~:text=La%20condotta%20attiva%20%C3%A8%20quel%20comportamento%20umano%20teso,condotta%20attiva%20l%E2%80%99atto%20di%20appropriarsi%20di%20beni%20altrui.</basic:externalCrossReference>
+            <basic:source>Edizioni Simone</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>condotta attiva</term>
+            <fairterm:identifier>600_it_173</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>La condotta attiva (o commissiva) prende il nome di azione.  
+Essa consiste in un “movimento del cor</basic:context>
+              <basic:externalCrossReference>La condotta attiva (o commissiva) prende il nome di azione.  
+Essa consiste in un “movimento del cor</basic:externalCrossReference>
+              <basic:source>La giurista online</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>c.a. colposa</fairterm:collocation>
+            <note>sinonimi: "condotta commissiva", "comportamento commissivo"</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="614">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-20 15:14:11</date>
+          <basic:responsibility>alberto.bardi@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>12 - LAW</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>la dénonciation d'une infraction par un professionnel ou toute autre personne.</basic:definition>
+            <basic:externalCrossReference>https://www.legavox.fr/blog/maitre-haddad-sabine/obligation-signalement-devoir-professionnel-citoyen-25518.htm</basic:externalCrossReference>
+            <basic:source>Maître HADDAD Sabine
+
+AVOCATE A LA COUR DE PARIS DEPUIS 25 ANS</basic:source>
+            <note>Le terme « signalement » désigne un concept supérieur au concept désigné par le terme italien « referto », qui n'a pas d'équivalent en français. Pour cette raison, un terme hyperonyme a été choisi pour la traduction. </note>
+          </descripGrp>
+          <termSec>
+            <term>signalement</term>
+            <fairterm:identifier>614_fr_142</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>single-word term</basic:termType>
+            <descripGrp>
+              <basic:context>L’article 226-14 du Code pénal prévoit expressément une dérogation au secret professionnel […] 2° Au</basic:context>
+              <basic:externalCrossReference>L’article 226-14 du Code pénal prévoit expressément une dérogation au secret professionnel […] 2° Au</basic:externalCrossReference>
+              <basic:source>Maître HADDAD Sabine
+
+AVOCATE A LA COUR DE PARIS DEPUIS 25 ANS</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>obligation de s., devoir de s. </fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+          <termSec>
+            <term>--- (term designation) ---</term>
+            <fairterm:identifier>614_fr_783</fairterm:identifier>
+            <fairterm:usage>--- (usage) ---</fairterm:usage>
+            <min:partOfSpeech>--- (pos) ---</min:partOfSpeech>
+            <basic:grammaticalGender>--- (gender) ---</basic:grammaticalGender>
+            <basic:grammaticalNumber>--- (number) ---</basic:grammaticalNumber>
+            <basic:termType>--- (type) ---</basic:termType>
+            <descripGrp>
+              <basic:context>--- (context) ---</basic:context>
+              <basic:externalCrossReference>--- (context) ---</basic:externalCrossReference>
+              <basic:source>--- (source) ---</basic:source>
+            </descripGrp>
+            <fairterm:register>--- (register) ---</fairterm:register>
+            <fairterm:collocation>--- (collocation) ---</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>La segnalazione di reato proveniente dagli esercenti una professione sanitaria che abbiano prestato la loro opera o assistenza in casi che possono configurare un delitto perseguibile di ufficio.
+
+Il referto ha forma scritta e il suo contenuto si riferisce alla persona assistita e all’intervento prestato.</basic:definition>
+            <basic:externalCrossReference>https://www.laleggepertutti.it/codice-penale/art-365-codice-penale-omissione-di-referto</basic:externalCrossReference>
+            <basic:source>Sito web La legge per tutti</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>referto </term>
+            <fairterm:identifier>614_it_43</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Il referto svolge inoltre un ruolo più importante della semplice denuncia, in quanto capace di forni</basic:context>
+              <basic:externalCrossReference>Il referto svolge inoltre un ruolo più importante della semplice denuncia, in quanto capace di forni</basic:externalCrossReference>
+              <basic:source>Brocardi</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>omissione di r, omettere il r., ritardare il r., obbligo di r., obbligo del r., onere di r., mancato r., presentazione del r., trasmissione del r.</fairterm:collocation>
+            <note/>
+          </termSec>
+          <termSec>
+            <term>--- (term designation) ---</term>
+            <fairterm:identifier>614_it_845</fairterm:identifier>
+            <fairterm:usage>--- (usage) ---</fairterm:usage>
+            <min:partOfSpeech>--- (pos) ---</min:partOfSpeech>
+            <basic:grammaticalGender>--- (gender) ---</basic:grammaticalGender>
+            <basic:grammaticalNumber>--- (number) ---</basic:grammaticalNumber>
+            <basic:termType>--- (type) ---</basic:termType>
+            <descripGrp>
+              <basic:context>--- (context) ---</basic:context>
+              <basic:externalCrossReference>--- (context) ---</basic:externalCrossReference>
+              <basic:source>--- (source) ---</basic:source>
+            </descripGrp>
+            <fairterm:register>--- (register) ---</fairterm:register>
+            <fairterm:collocation>--- (collocation) ---</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="617">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-07 09:33:45</date>
+          <basic:responsibility>alberto.bardi@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>12 - LAW</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>--- write definition here ---</basic:definition>
+            <basic:externalCrossReference>--- external cross reference ---</basic:externalCrossReference>
+            <basic:source>--- source ---</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>pubblico ufficiale</term>
+            <fairterm:identifier>617_it_15</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech/>
+            <basic:grammaticalGender/>
+            <basic:grammaticalNumber/>
+            <basic:termType/>
+            <descripGrp>
+              <basic:context>--- (context) ---</basic:context>
+              <basic:externalCrossReference>--- (context) ---</basic:externalCrossReference>
+              <basic:source>--- (source) ---</basic:source>
+            </descripGrp>
+            <fairterm:register>--- (register) ---</fairterm:register>
+            <fairterm:collocation>--- (collocation) ---</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="622">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-07 10:00:01</date>
+          <basic:responsibility>alberto.bardi@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>12 - LAW</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>L’article 2059 du Code civil énonce que « toutes personnes peuvent compromettre sur les droits dont elles ont la libre disposition ». A contrario, l’article 2059 du Code civil délimite une zone d’inarbitrabilité. Les litiges portant sur des droits indisponibles sont inarbitrables. L’article 2059 se rattache à ce qu’il est convenu d’appeler l’ordre public de protection : ici, les intérêts qui sont en cause sont des intérêts privés, des « droits subjectifs », mais il s’agit de droits qui sont garantis par une réglementation impérative, parce qu’on craint que leurs titulaires ne soient pas suffisamment armés pour les défendre eux-mêmes. Il convient de distinguer deux catégories de droits indisponibles : les droits extra-patrimoniaux et les droits protégés temporairement par l’ordre public de protection.</basic:definition>
+            <basic:externalCrossReference>https://www.labase-lextenso.fr/ouvrage/9782306000595-34</basic:externalCrossReference>
+            <basic:source>La Base Lextenso</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>droit indisponible</term>
+            <fairterm:identifier>622_fr_907</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Enfin, un arrêt du 26 mai 1999 a imposé une distinction fondée sur la seule nature des droits litigi</basic:context>
+              <basic:externalCrossReference>Enfin, un arrêt du 26 mai 1999 a imposé une distinction fondée sur la seule nature des droits litigi</basic:externalCrossReference>
+              <basic:source>Dalloz Actualité</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation/>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>Sono disponibili i diritti di cui il titolare può disporre mediante atti di trasferimento, rinuncia, etc. Ad esempio, sono generalmente disponibili tutti i diritti aventi contenuto patrimoniale, economicamente valutabile (come il diritto di proprietà su beni mobili o immobili).
+Sono, invece, indisponibili quei diritti che soddisfano non solo il titolare, ma anche interessi pubblicistici, e che per questo non sono negoziabili. Sono tali i diritti della personalità, gli status familiari (riconoscimento di un figlio, validità di un'adozione, etc.). Anche alcuni diritti a contenuto patrimoniale sono indisponibili per volontà di legge, come il diritto agli alimenti (art.. 433 ss. c.c.).</basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/dizionario/3474.html</basic:externalCrossReference>
+            <basic:source>Brocardi</basic:source>
+            <note>Definizione ulteriore tratta dalla rivista online Lavoro a confronto: I diritti indisponibili della persona sono, in genere, quei diritti che tutelano alcuni valori umani e sociali previsti dalla Costituzione. Tra questi, a titolo di esempio possiamo ricordare i diritti politici (non si può certamente pensare di cedere ad altri l’espressione del proprio diritto di voto), i diritti riguardanti la personalità, come il diritto alla vita, al nome, all’integrità fisica. Non è possibile cedere organi del proprio corpo, salvo per le parti riproducibili e che sono previsti da leggi speciali come reni, sangue, ecc. Inoltre, vi rientrano anche i diritti di natura familiare come il diritto dei figli all’educazione ed al mantenimento. Risulta chiaro e senza alcuna ombra di dubbi che la natura dei predetti diritti rientri tra i diritti indisponibili.</note>
+          </descripGrp>
+          <termSec>
+            <term>diritto indisponibile</term>
+            <fairterm:identifier>622_it_908</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Altro diritto indisponibile è quello riguardante il versamento dei contributi previdenziali ed assis</basic:context>
+              <basic:externalCrossReference>Altro diritto indisponibile è quello riguardante il versamento dei contributi previdenziali ed assis</basic:externalCrossReference>
+              <basic:source>Lavoro a confronto</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>"i d.i. soddisfano", "i d.i. tutelano"</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="660">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-02 20:32:59</date>
+          <basic:responsibility>alberto.bardi@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>L’emprisonnement est une peine privative de liberté, visant à placer la personne condamnée dans un établissement pénitentiaire à l’effet d’y purger sa peine.</basic:definition>
+            <basic:externalCrossReference>https://alter-avocats-bordeaux.fr/quels-sont-les-differents-types-de-peines-en-droit-penal/#:~:text=L%E2%80%99emprisonnement%20est%20une%20peine%20privative%20de%20libert%C3%A9%2C%20visant,assortie%20d%E2%80%99un%20sursis%20simple%20ou%20d%E2%80%99un%20sursis%20probatoire.</basic:externalCrossReference>
+            <basic:source>Alter Avocats</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>peine d'emprisonnement </term>
+            <fairterm:identifier>660_fr_882</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>On entend par courte peine d’emprisonnement toute peine d’une durée inférieure à un an.
+
+
+En France,</basic:context>
+              <basic:externalCrossReference>On entend par courte peine d’emprisonnement toute peine d’une durée inférieure à un an.
+
+
+En France,</basic:externalCrossReference>
+              <basic:source>Les pénalistes en herbe</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>exécution d'une p.d.e., prononcer une p.d.e., prononcé d'une p.d.e.</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>La pena detentiva è la sanzione consistente nella privazione della libertà personale del soggetto riconosciuto colpevole di un reato. Tale sanzione si sconta in appositi istituti, denominati “penitenziari” o, più comunemente, “carceri”.</basic:definition>
+            <basic:externalCrossReference>https://www.laleggepertutti.it/624942_la-pena-detentiva-cose-e-come-funziona</basic:externalCrossReference>
+            <basic:source>La legge per tutti</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>pena detentiva</term>
+            <fairterm:identifier>660_it_864</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Invero, il rischio maggiore in cui si incorre applicando una pena detentiva di breve durata è che es</basic:context>
+              <basic:externalCrossReference>Invero, il rischio maggiore in cui si incorre applicando una pena detentiva di breve durata è che es</basic:externalCrossReference>
+              <basic:source>Pena diritto e procedura</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>applicazione della p.d., infliggere la p.d., sostituzione della p.d.</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="681">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-07 10:50:06</date>
+          <basic:responsibility>alberto.bardi@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>Pour que le délit soit caractérisé, il faut tout d'abord, il doit y avoir une provocation et être en mesure de le montrer et le prouver. La provocation peut être faites par tout moyen, cela peut être un écrit, une image, un geste. Cette provocation doit viser une personne humaine, mais sans forcément être une personne déterminée.
+
+La provocation doit viser une personne déterminée et doit exercer une pression psychologique. Toutefois, la provocation exercée doit avoir pour but de pousser à l'état suicidaire ou le passage à l'acte, le simple fait de conseiller une personne à se suicider ne constitue pas une provocation au suicide.</basic:definition>
+            <basic:externalCrossReference>https://www.alexia.fr/fiche/10798/qu-est-ce-que-la-provocation-au-suicide.htm</basic:externalCrossReference>
+            <basic:source>Alexia</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>provocation au suicide</term>
+            <fairterm:identifier>681_fr_275</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Le fait de provoquer au suicide d'autrui est puni de trois ans d'emprisonnement et de 45 000 euros d</basic:context>
+              <basic:externalCrossReference>Le fait de provoquer au suicide d'autrui est puni de trois ans d'emprisonnement et de 45 000 euros d</basic:externalCrossReference>
+              <basic:source>Lègifrance</basic:source>
+            </descripGrp>
+            <fairterm:register>--- (register) ---</fairterm:register>
+            <fairterm:collocation>délit de p.a.s., infraction de la p.a.s.</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>L’istigazione o aiuto al suicidio consiste nella volontaria determinazione di altri al suicidio o nel volontario rafforzamento dell’altrui proposito di suicidio o, infine, nella volontaria agevolazione nell’esecuzione del suicidio altrui, consumato o almeno tentato con lesione personale grave o gravissima.</basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/codice-penale/libro-secondo/titolo-xii/capo-i/art580.html</basic:externalCrossReference>
+            <basic:source>Brocardi</basic:source>
+            <note>Nel sistema giuridico italiano esiste il reato di "istigazione o aiuto al suicidio".</note>
+          </descripGrp>
+          <termSec>
+            <term>istigazione al suicidio</term>
+            <fairterm:identifier>681_it_757</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Per il gip di Milano il reato di aiuto o istigazione al suicidio che vede indagato Cappato potrebbe </basic:context>
+              <basic:externalCrossReference>Per il gip di Milano il reato di aiuto o istigazione al suicidio che vede indagato Cappato potrebbe </basic:externalCrossReference>
+              <basic:source>il Giornale</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>reato di i.a.s., delitto di i.a.s., commettere i.a.s., denuncia per i.a.s.</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="683">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-04 09:42:13</date>
+          <basic:responsibility>alberto.bardi@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>Dans l'ordre juridique français, le concept désigné en italien par le terme « violenza privata » n'existe pas. Il a donc été décidé de traduire par « délit de contrainte », c'est-à-dire avec une définition concise du concept dans le texte et une note dans la marge pour expliquer la différence entre les systèmes juridiques italien et français. </basic:definition>
+            <basic:externalCrossReference/>
+            <basic:source>--- source ---</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>délit de contrainte</term>
+            <fairterm:identifier>683_fr_165</fairterm:identifier>
+            <fairterm:usage>admitted term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>--- (context) ---</basic:context>
+              <basic:externalCrossReference>--- (context) ---</basic:externalCrossReference>
+              <basic:source>--- (source) ---</basic:source>
+            </descripGrp>
+            <fairterm:register>--- (register) ---</fairterm:register>
+            <fairterm:collocation>--- (collocation) ---</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>La violenza privata è il delitto previsto e punito dall'art. 610 del codice penale che si configura quando un soggetto, con violenza o minaccia, costringe altri a fare, tollerare od omettere qualche cosa.</basic:definition>
+            <basic:externalCrossReference>https://www.studiocataldi.it/guide-diritto-penale/il-reato-di-violenza-privata.asp</basic:externalCrossReference>
+            <basic:source>Studio Cataldi - Il diritto quotidiano</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>violenza privata</term>
+            <fairterm:identifier>683_it_789</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Come per la violenza si ritiene opportuno richiamare una fra le più recenti sentenze della Cassazion</basic:context>
+              <basic:externalCrossReference>Come per la violenza si ritiene opportuno richiamare una fra le più recenti sentenze della Cassazion</basic:externalCrossReference>
+              <basic:source>Consulenza legale Italia</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>reato di v.p., querela per v.p., delitto di v.p., procedibilità del reato di v.p., fattispecie di v.p.</fairterm:collocation>
+            <note>Alcune delle diciture riportate nella sezione "collocation" sono, in verità, dei termini. Si ritiene comunque utile riportarli al fine di offrire un'analisi più ampia del termine. </note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="745">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-07 09:20:19</date>
+          <basic:responsibility>alberto.bardi@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>Personne au service d'une administration publique. On distingue différentes catégories (fonctionnaires, auxiliaires temporaires, agents contractuels).</basic:definition>
+            <basic:externalCrossReference>https://www.chone.notaires.fr/lexique-juridique-et-fiscal-de-bedaride-notaire-d-affaires/mot/agent-public.html</basic:externalCrossReference>
+            <basic:source>Choné &amp; associés notaires</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>agent public</term>
+            <fairterm:identifier>745_fr_858</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>« L'agent public est tenu au secret professionnel dans le respect des articles 226-13 et 226-14 du c</basic:context>
+              <basic:externalCrossReference>« L'agent public est tenu au secret professionnel dans le respect des articles 226-13 et 226-14 du c</basic:externalCrossReference>
+              <basic:source>Ministère de la fonction publique, de la simplification et de la transformation de l'action publique</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation/>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>La definizione di pubblico ufficiale si ricava dall'art. 357 del c.p.. E' tale colui che esercita una funzione legislativa, amministrativa o giudiziaria con o senza rapporto di impiego con lo Stato, temporaneamente o permanentemente (come ad esempio i notai, i segretari comunali, etc.).</basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/dizionario/3153.html</basic:externalCrossReference>
+            <basic:source>Brocardi</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>pubblico ufficiale</term>
+            <fairterm:identifier>745_it_690</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>La qualità di pubblico ufficiale è stata riconosciuta nel tempo a diversi soggetti.
+A titolo esempli</basic:context>
+              <basic:externalCrossReference>La qualità di pubblico ufficiale è stata riconosciuta nel tempo a diversi soggetti.
+A titolo esempli</basic:externalCrossReference>
+              <basic:source>Studio Cataldi</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>resistenza a un p.u., qualità di p.u., qualifica di p.u., oltraggio a p.u.</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="986">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-07 11:18:48</date>
+          <basic:responsibility>alberto.bardi@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>12 - LAW</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>Une mesure relative à la prévention des accidents est une mesure conçue et destinée à garantir la sécurité des lieux de travail et à minimiser l'exposition des travailleurs aux risques et aux blessures liés à l'activité. </basic:definition>
+            <basic:externalCrossReference>https://www.prevention-dromeardeche.fr/sist2607/prevention-et-risques/principes-generaux-de-prevention</basic:externalCrossReference>
+            <basic:source>Prévention Drôme-Ardèche </basic:source>
+            <note>La définition a été élaborée sur la base des informations recueillies auprès de la source susmentionnée. </note>
+          </descripGrp>
+          <termSec>
+            <term>mesure de prévention des risques professionnels</term>
+            <fairterm:identifier>986_fr_515</fairterm:identifier>
+            <fairterm:usage>admitted term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Selon les articles L. 4121-1 et L. 4121-2 du Code du travail, l’employeur a obligation d’assurer la </basic:context>
+              <basic:externalCrossReference>Selon les articles L. 4121-1 et L. 4121-2 du Code du travail, l’employeur a obligation d’assurer la </basic:externalCrossReference>
+              <basic:source>Grope CRC - engagé à vos cotés</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>adopter une m.d.p.d.r.p., violer une m.d.p.d.r.p</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>Una norma antinfortunistica è una misura concepita e atta a garantire luoghi di lavoro sicuri e a ridurre al minimo l'esposizione dei lavoratori a rischi e infortuni connessi all'attività. In Italia, la sicurezza sul lavoro è disciplinata dal Decreto Legislativo 81 del 9 aprile 2008, (D.Lgs. 81/08) noto comunemente come il “Testo Unico in materia di salute e sicurezza sul lavoro.”
+</basic:definition>
+            <basic:externalCrossReference>https://biblus.acca.it/norme-sicurezza-sul-lavoro/#norme-antinfortunistiche-e-di-sicurezza-sul-lavoro</basic:externalCrossReference>
+            <basic:source>BibLus - Informazione e approfondimento tecnico per i professionisti dell'edilizia</basic:source>
+            <note>Si parla anche in maniera estesa di "norma antinfortunistica e di sicurezza sul lavoro". </note>
+          </descripGrp>
+          <termSec>
+            <term>norma di prevenzione antinfortunistica</term>
+            <fairterm:identifier>986_it_428</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>La Nota rimarca anche il fatto che – come riscontrabile nella disamina del caso dei braccianti india</basic:context>
+              <basic:externalCrossReference>La Nota rimarca anche il fatto che – come riscontrabile nella disamina del caso dei braccianti india</basic:externalCrossReference>
+              <basic:source>Punto Sicuro</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>applicazione della n.a., violazione della n.a.</fairterm:collocation>
+            <note>sinonimo: "norma antinfortunistica"</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+    </body>
+  </text>
+</tbx>

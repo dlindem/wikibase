@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbx xmlns:tbx3="urn:iso:std:iso:30042:ed-2" xmlns:min="http://www.tbxinfo.net/ns/min" xmlns:basic="http://www.tbxinfo.net/ns/basic" xmlns:fairterm="http://www.fairterm.org/ns/sample" type="TBX-FAIRterm" style="dct" xml:lang="en">
+  <tbxHeader>
+    <fileDesc>
+      <sourceDesc>
+        <p>TBX file created by the FAIRterm 2.0 application</p>
+      </sourceDesc>
+    </fileDesc>
+  </tbxHeader>
+  <text>
+    <body>
+      <conceptEntry id="117">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-30 09:22:46</date>
+          <basic:responsibility>irene.valentini.1@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>peine complementaire qui peut être prononcée par le juge à la suite d'un crime ou un délit qui prive le condamné de ses droits civiques, civils et de famille</basic:definition>
+            <basic:externalCrossReference>https://www.service-public.fr/particuliers/vosdroits/F1406
+https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006149819</basic:externalCrossReference>
+            <basic:source>Service Public - Peines complémentaires en matière pénale
+Code pénal français - Article 131-26</basic:source>
+            <note>La définition du concept a été rédigée par l'autrice de la fiche terminologique à partir de différentes sources dans le but de la rendre la plus efficace et claire possible.</note>
+          </descripGrp>
+          <termSec>
+            <term>interdiction des droits civiques, civils et de famille</term>
+            <fairterm:identifier>117_fr_167</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>En droit pénal français, l’interdiction des droits civiques, civils et de famille est une peine qui, depuis l’entrée en vigueur du nouveau code pénal en mars 1994, est devenue une peine complémentaire.</basic:context>
+              <basic:externalCrossReference>En droit pénal français, l’interdiction des droits civiques, civils et de famille est une peine qui, depuis l’entrée en vigueur du nouveau code pénal en mars 1994, est devenue une peine complémentaire.</basic:externalCrossReference>
+              <basic:source>Wikipedia - Interdiction des droits civiques, civils et de famille</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation/>
+            <note>Le terme ‘‘interdiction légale’’ en français existe. Toutefois, avec la réforme du code pénal du 1994, la mesure d’interdiction légale qui était prévue à l’article 29, a été abrogée. Pour cela, on a choisi de ne traduire pas avec ce terme, qui n’existe plus dans l’actuel code pénal français. </note>
+          </termSec>
+          <termSec>
+            <term>interdiction légale</term>
+            <fairterm:identifier>117_fr_83</fairterm:identifier>
+            <fairterm:usage>obsolete term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Le nouveau Code pénal, entré en vigueur le 1er mars 1994, a supprimé l'interdiction légale.</basic:context>
+              <basic:externalCrossReference>Le nouveau Code pénal, entré en vigueur le 1er mars 1994, a supprimé l'interdiction légale.</basic:externalCrossReference>
+              <basic:source>LaBase Lextenso - Y-A-T-IL ENCORE DES INTERDITS LÉGAUX ?
+</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation/>
+            <note>Avec la réforme du code pénal du 1994, la mesure d’interdiction légale qui était prévue à l’article 29, a été abrogée. Pour cela, on a choisi de ne traduire pas avec ce terme, qui n’existe plus dans l’actuel code pénal français. </note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>pena accessoria alla condanna all'ergastolo o alla reclusione per un tempo non inferiore a cinque anni che comporta la totale incapacità di agire</basic:definition>
+            <basic:externalCrossReference>https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=3&amp;art.idGruppo=4&amp;art.flagTipoArticolo=1&amp;art.codiceRedazionale=030U1398&amp;art.idArticolo=32&amp;art.idSottoArticolo=1&amp;art.idSottoArticolo1=10&amp;art.dataPubblicazioneGazzetta=1930-10-26&amp;art.progressivo=0
+https://www.brocardi.it/dizionario/4477.html#:~:text=Si%20parla%20di%20interdizione%20giudiziale,tempo%20non%20inferiore%20a%20cinque</basic:externalCrossReference>
+            <basic:source>Codice penale italiano - Articolo 32, Interdizione legale
+Brocardi - Interdetto</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>interdizione legale</term>
+            <fairterm:identifier>117_it_358</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>La finalità dell’interdizione legale è sanzionatoria, in quanto, in ragione della condanna ricevuta, l’ordinamento non ritiene il condannato soggetto meritevole di mantenere la piena capacità di agire, anzi, come vedremo, limita gli atti da lui realizzabili alla sola sfera personale.</basic:context>
+              <basic:externalCrossReference>La finalità dell’interdizione legale è sanzionatoria, in quanto, in ragione della condanna ricevuta, l’ordinamento non ritiene il condannato soggetto meritevole di mantenere la piena capacità di agire, anzi, come vedremo, limita gli atti da lui realizzabili alla sola sfera personale.</basic:externalCrossReference>
+              <basic:source>Officina notarile - Interdizione legale</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="198">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-27 10:47:56</date>
+          <basic:responsibility>irene.valentini.1@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1211 - civil law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>mesure judiciaire qui concerne les personnes avec facultés mentales altérées qui restent autonomes mais qui ont besoin d’être conseillées ou accompagnées dans certains actes de la vie civile</basic:definition>
+            <basic:externalCrossReference>https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006117881/#LEGISCTA000006117881
+https://www.service-public.fr/particuliers/vosdroits/F10424
+https://www.dictionnaire-juridique.com/definition/curatelle.php
+https://fr.wikipedia.org/wiki/Curatelle</basic:externalCrossReference>
+            <basic:source>Code civil français - Section 4 : De la curatelle et de la tutelle (Articles 440 à 476)
+Service public - Tutelle, curatelle, sauvegarde de justice : quelles différences ?
+Dictionnaire juridique par Serge Braudo - Curatelle
+Wikipedia - Curatelle</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>curatelle</term>
+            <fairterm:identifier>198_fr_997</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term</basic:termType>
+            <descripGrp>
+              <basic:context>La mise en curatelle lui permet d'être conseillé et/ou d'être accompagné pour les actes importants (comportant un engagement comme un emprunt, une vente de bien immobilier). </basic:context>
+              <basic:externalCrossReference>La mise en curatelle lui permet d'être conseillé et/ou d'être accompagné pour les actes importants (comportant un engagement comme un emprunt, une vente de bien immobilier). </basic:externalCrossReference>
+              <basic:source>Service public - Curatelle d'une personne majeure</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>mise en curatelle, mettre en curatelle</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>strumento di tutela legale posto a protezione di quelle persone affette da patologie psichiche non gravi, che conservano la capacità di agire ma necessitano di essere assistite nel compimento di atti di natura patrimoniale</basic:definition>
+            <basic:externalCrossReference>https://www.giustizia.it/giustizia/it/mg_3_2_8.page#:~:text=Interdizione%20e%20inabilitazione&amp;text=L'interdizione%20pu%C3%B2%20essere%20chiesta,necessario%20per%20assicurarle%20adeguata%20protezione.
+https://it.wikipedia.org/wiki/Inabilitazione
+https://www.brocardi.it/dizionario/4156.html
+https://tribunale-milano.giustizia.it/it/inabilitazione.page
+https://www.tribunale.verona.giustizia.it/it/Content/Index/30190</basic:externalCrossReference>
+            <basic:source>Ministero della giustizia - Interdizione e inabilitazione
+Brocardi - Inabilitazione
+Tribunale di Milano - Inabilitazione
+Tribunale di Verona - Inabilitazione
+Wikipedia - Inabilitazione</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>inabilitazione</term>
+            <fairterm:identifier>198_it_391</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term</basic:termType>
+            <descripGrp>
+              <basic:context>Se l'interdetto riacquista solo parzialmente la capacità, l'interdizione verrà revocata ed in suo luogo verrà pronunciata l'inabilitazione.</basic:context>
+              <basic:externalCrossReference>Se l'interdetto riacquista solo parzialmente la capacità, l'interdizione verrà revocata ed in suo luogo verrà pronunciata l'inabilitazione.</basic:externalCrossReference>
+              <basic:source>Tribunale di Pordenone - Interdizione e inabilitazione</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>provvedimento di inabilitazione, pronunciare l'inabilitazione, l'inabilitazione produce (...)</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="286">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-28 14:32:17</date>
+          <basic:responsibility>irene.valentini.1@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>2841 - health (28 - SOCIAL QUESTIONS)</min:subjectField>
+        <fairterm:subDomain> mental health</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>forme d'aliénation mentale qui provoque la destruction des facultés intellectuelles et la privation de l'individu du contrôle de ses actes et de leur portée  </basic:definition>
+            <basic:externalCrossReference>https://www.prepa-isp.fr/wp-content/uploads/2018/09/ENM-Annales-P%C3%A9nal-2000.pdf
+https://www.superprof.fr/ressources/droit/droit-tous-niveaux/absence-de-discernement.html</basic:externalCrossReference>
+            <basic:source>Prépa ISP - Trouble mental et droit pénal
+Superprof - Une des causes subjective d'irresponsabilité</basic:source>
+            <note>La définition du concept a été rédigée par l'autrice de la fiche terminologique à partir de différentes sources dans le but de la rendre la plus efficace et claire possible.</note>
+          </descripGrp>
+          <termSec>
+            <term>trouble psychique ou neuropsychique</term>
+            <fairterm:identifier>286_fr_623</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>N'est pas pénalement responsable la personne qui était atteinte, au moment des faits, d'un trouble psychique ou neuropsychique ayant aboli son discernement ou le contrôle de ses actes.</basic:context>
+              <basic:externalCrossReference>N'est pas pénalement responsable la personne qui était atteinte, au moment des faits, d'un trouble psychique ou neuropsychique ayant aboli son discernement ou le contrôle de ses actes.</basic:externalCrossReference>
+              <basic:source>Code pénal français - Des causes d'irresponsabilité ou d'atténuation de la responsabilité (Article 122-1)</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>alterazione grave e perdurante delle facoltà psichiche di un soggetto</basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/dizionario/801.html#:~:text=Che%20cosa%20significa%20%22Abituale%20infermit%C3%A0,facolt%C3%A0%20mentali%20di%20un%20soggetto.
+https://www.dirittoconsenso.it/2022/06/28/linfermita-di-mente-nellordinamento-italiano/</basic:externalCrossReference>
+            <basic:source>Brocardi - Abituale infermità di mente
+Dirittoconsenso - L'infermità di mente nell'ordinamento italiano</basic:source>
+            <note>La definizione del concetto è stata elaborata dall'autrice della scheda terminologica a partire da più fonti specializzate al fine di fornire la definizione il più completa ed efficace possibile.</note>
+          </descripGrp>
+          <termSec>
+            <term>Abituale infermità di mente</term>
+            <fairterm:identifier>286_it_445</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Il maggiore di età e il minore emancipato, in condizioni di abituale infermità di mente, che li rende incapaci di provvedere ai propri interessi, sono interdetti quando ciò è necessario per assicurare la loro adeguata protezione.</basic:context>
+              <basic:externalCrossReference>Il maggiore di età e il minore emancipato, in condizioni di abituale infermità di mente, che li rende incapaci di provvedere ai propri interessi, sono interdetti quando ciò è necessario per assicurare la loro adeguata protezione.</basic:externalCrossReference>
+              <basic:source>Il sole 24 ore - Guida al diritto</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>documentare un'abituale infermità di mente</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="293">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-22 16:26:04</date>
+          <basic:responsibility>irene.valentini.1@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>12 - LAW</min:subjectField>
+        <fairterm:subDomain> legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept>711</fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept>960</fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>branche applicative de la médecine légale qui consiste à constater et évaluer des lésions de victimes, vivantes ou décédées et qui se consacre aux problèmes de droit civil et criminel, plus particulièrement à l'expertise médico-légale</basic:definition>
+            <basic:externalCrossReference>https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8383623/medecine-legale
+https://fr.wikipedia.org/wiki/M%C3%A9decine_l%C3%A9gale#cite_note-:0-1</basic:externalCrossReference>
+            <basic:source>Office québécois de la langue française - Grand dictionnaire terminologique
+Wikipedia</basic:source>
+            <note>La définition du concept a été rédigée par l'autrice de la fiche terminologique à partir de différentes sources dans le but de la rendre la plus efficace et claire possible.</note>
+          </descripGrp>
+          <termSec>
+            <term>médecine légale</term>
+            <fairterm:identifier>293_fr_647</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>La médecine légale est une spécialité médicale dont les actes, financés par le ministère chargé de l</basic:context>
+              <basic:externalCrossReference>La médecine légale est une spécialité médicale dont les actes, financés par le ministère chargé de l</basic:externalCrossReference>
+              <basic:source>Ministère de la santé et de l'accès aux soins</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation/>
+            <note>En français, contrairement à l'italien, le terme utilisé pour désigner le concept de la médecine légale et sa dimension pratique est le même, à savoir ''médecine légale''. En italien, en revanche, il existe le terme ''medicina forense'', qui fait spécifiquement référence à l’aspect pratique de cette discipline.</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>branca applicativa della medicina legale che consiste nella risoluzione di casi concreti  di interesse giudiziario attraverso pratiche di natura medica e scientifica</basic:definition>
+            <basic:externalCrossReference>https://elearning.uniroma1.it/pluginfile.php/862444/mod_resource/content/1/Definizione%2C%20finalita%CC%80%20e%20metodologia%20della%20Medicina%20Legale.pdf#:~:text=Studia%20le%20norme%20etiche%20e,pubblici%20o%20con%20i%20privati.
+
+https://it.wikipedia.org/wiki/Medicina_forense#:~:text=La%20medicina%20forense%20studia%20le,diversi%20agenti%20eziologici%20(eziologia).
+
+https://it.wikipedia.org/wiki/Medicina_legale</basic:externalCrossReference>
+            <basic:source>Lezioni di Medicina Legale, Prof. G.Viel, Dipartimento di Medicina e Chirurgia dell'Università degli studi di Padova
+Lezioni di Medicina Legale, Prof.ssa S. Zaami, Dipartimento di Medicina Legale, Università di Roma La Sapienza
+Wikipedia
+</basic:source>
+            <note>La definizione del concetto è stata elaborata dall'autrice della scheda terminologica attingendo a diverse fonti specializzate con il fine di fornire una definizione completa e precisa.</note>
+          </descripGrp>
+          <termSec>
+            <term>medicina forense</term>
+            <fairterm:identifier>293_it_226</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Carla Bini, biologa e specializzata in medicina forense, si occupa di DNA mitocondriale. “E’ quello </basic:context>
+              <basic:externalCrossReference>Carla Bini, biologa e specializzata in medicina forense, si occupa di DNA mitocondriale. “E’ quello </basic:externalCrossReference>
+              <basic:source>Università degli studi di Bologna - Magazine</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation/>
+            <note>In italiano esiste il termine ''medicina forense'' che designa la branca applicativa della medicina legale. Diversamente, in francese, un termine che verbalizzi questa specifica disciplina pratica non esiste, e viene quindi comunemente utilizzato lo stesso termine che fa riferimento alla disciplina della medicina legale (''médecine légale'').</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="296">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-26 11:07:28</date>
+          <basic:responsibility>irene.valentini.1@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>12 - LAW</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>prérogative juridique attribuée à une personne par le droit objectif pour régir ses rapports en société, dont elle peut se prévaloir dans son propre intérêt </basic:definition>
+            <basic:externalCrossReference>https://jurislogic.fr/dictionnaire-juridique/droit-subjectif-definition/
+https://fr.wikipedia.org/wiki/Droit_subjectif</basic:externalCrossReference>
+            <basic:source>Jurislogic - Dictionnaire juridique
+Wikipedia - Droit subjectif</basic:source>
+            <note>La définition du concept a été rédigée par l'autrice de la fiche terminologique à partir de différentes sources dans le but de la rendre la plus efficace et claire possible.</note>
+          </descripGrp>
+          <termSec>
+            <term>droit subjectif</term>
+            <fairterm:identifier>296_fr_734</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Est notamment un droit subjectif, le droit du propriétaire sur son bien (droit de
+propriété) ou le droit qu’a le créancier –un vendeur par exemple- d’être payé par son débiteur –l’acheteur- (droit de créance).</basic:context>
+              <basic:externalCrossReference>Est notamment un droit subjectif, le droit du propriétaire sur son bien (droit de
+propriété) ou le droit qu’a le créancier –un vendeur par exemple- d’être payé par son débiteur –l’acheteur- (droit de créance).</basic:externalCrossReference>
+              <basic:source>UNIVERSITE DE STRASBOURG - CAPACITE EN DROIT, INTRODUCTION AUX DROITS SUBJECTIFS </basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>potere di agire di un soggetto per il soddisfacimento e la pretesa di un proprio interesse protetto dall'ordinamento giuridico nei confronti di altri soggetti o beni</basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/dizionario/5986.html
+https://www.notaio-busani.it/it-IT/diritto-oggettivo-soggettivo.aspx
+https://www.sardegnaentrate.it/index.php?xsl=1100&amp;s=127269&amp;v=2&amp;c=6929
+https://www.treccani.it/enciclopedia/diritto-soggettivo/
+https://it.wikipedia.org/wiki/Diritto_soggettivo</basic:externalCrossReference>
+            <basic:source>Brocardi - Diritto soggettivo
+Notaio Busani - Diritto oggettivo e diritto soggettivo
+Sardegna entrate - glossario
+Treccani Enciclopedia Online - Diritto soggettivo
+Wikipedia - Diritto soggettivo</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>diritto soggettivo</term>
+            <fairterm:identifier>296_it_974</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Nei giudizi civili o amministrativi vertenti non sulle restituzioni o sul risarcimento del danno, bensì intorno ad un diritto soggettivo o ad un interesse legittimo il cui riconoscimento dipenda dagli stessi fatti materiali oggetto del procedimento penale, la decisione penale ha un'efficacia assai l</basic:context>
+              <basic:externalCrossReference>Nei giudizi civili o amministrativi vertenti non sulle restituzioni o sul risarcimento del danno, bensì intorno ad un diritto soggettivo o ad un interesse legittimo il cui riconoscimento dipenda dagli stessi fatti materiali oggetto del procedimento penale, la decisione penale ha un'efficacia assai l</basic:externalCrossReference>
+              <basic:source>Spiegazione dell'art. 654 Codice di procedura penale</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>acquisire diritto soggettivo, diritto soggettivo assoluto, preteso diritto soggettivo</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-22 14:19:36</date>
+          <basic:responsibility>irene.valentini.1@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>2841 - health (28 - SOCIAL QUESTIONS)</min:subjectField>
+        <fairterm:subDomain> legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition/>
+            <basic:externalCrossReference/>
+            <basic:source/>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>--- (term designation) ---</term>
+            <fairterm:identifier>3_fr_336</fairterm:identifier>
+            <fairterm:usage>--- (usage) ---</fairterm:usage>
+            <min:partOfSpeech>--- (pos) ---</min:partOfSpeech>
+            <basic:grammaticalGender>--- (gender) ---</basic:grammaticalGender>
+            <basic:grammaticalNumber>--- (number) ---</basic:grammaticalNumber>
+            <basic:termType>--- (type) ---</basic:termType>
+            <descripGrp>
+              <basic:context>--- (context) ---</basic:context>
+              <basic:externalCrossReference>--- (context) ---</basic:externalCrossReference>
+              <basic:source>--- (source) ---</basic:source>
+            </descripGrp>
+            <fairterm:register>--- (register) ---</fairterm:register>
+            <fairterm:collocation>--- (collocation) ---</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+          <termSec>
+            <term/>
+            <fairterm:identifier>3_fr_914</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context/>
+              <basic:externalCrossReference/>
+              <basic:source/>
+            </descripGrp>
+            <fairterm:register/>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition/>
+            <basic:externalCrossReference/>
+            <basic:source/>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term/>
+            <fairterm:identifier>3_it_549</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context/>
+              <basic:externalCrossReference/>
+              <basic:source/>
+            </descripGrp>
+            <fairterm:register/>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="351">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-27 08:36:40</date>
+          <basic:responsibility>irene.valentini.1@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1211 - civil law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain/>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>aptitude légale de toute personne à jouir pleinemen de droits généraux</basic:definition>
+            <basic:externalCrossReference>https://www.boursedescredits.com/lexique-definition-capacite-jouissance-623.php
+https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26546263/capacite-de-jouissance</basic:externalCrossReference>
+            <basic:source>Bourse des Crédits - Capacité de jouissance
+Office québécois de la langue française - Grand dictionnaire terminologique</basic:source>
+            <note>La définition du concept a été rédigée par l'autrice de la fiche terminologique à partir de différentes sources dans le but de la rendre la plus efficace et claire possible.</note>
+          </descripGrp>
+          <termSec>
+            <term>capacité de jouissance</term>
+            <fairterm:identifier>351_fr_12</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>La capacité juridique englobe d'une part la capacité d'exercice, et d'une autre part la capacité de jouissance.</basic:context>
+              <basic:externalCrossReference>La capacité juridique englobe d'une part la capacité d'exercice, et d'une autre part la capacité de jouissance.</basic:externalCrossReference>
+              <basic:source>Wikipedia - Capacité juridique en France</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>pleine capacité de jouissance</fairterm:collocation>
+            <note>Ce conept est designé en français par le terme ''capacité de jouissance'', tandis que le terme ''capacité juridique'' est plus général et verbalise le concept de &lt;Qualità giuridica&gt;, qui englobe tant la &lt;Capacité de jouissance&gt;, tant la &lt;Capacité d’exercice&gt;.</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>attitudine di essere titolari di diritti e doveri che la persona fisica acquista dal momento della nascita</basic:definition>
+            <basic:externalCrossReference>https://www.altalex.com/documents/news/2014/02/10/delle-persone-fisiche#art1
+https://www.avvocatocordarocaltanissetta.it/capacita-giuridica-capacita-agire/#:~:text=La%20capacit%C3%A0%20giuridica%20%C3%A8%20l,si%20estingue%20al%20suo%20scioglimento.</basic:externalCrossReference>
+            <basic:source>Codice Civile italiano - art. 1
+Studio legale avv. Lavinia Cordaro - Capacità giuridica e capacità di agire</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>capacità guridica</term>
+            <fairterm:identifier>351_it_321</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Analogamente, la capacità giuridica di un soggetto termina con la sua morte naturale. Per vero, anche la dichiarazione (con sentenza) di morte presunta, ex art. 58 c.c., determina la perdita della capacità giuridica del soggetto, con contestuale apertura della relativa successione.</basic:context>
+              <basic:externalCrossReference>Analogamente, la capacità giuridica di un soggetto termina con la sua morte naturale. Per vero, anche la dichiarazione (con sentenza) di morte presunta, ex art. 58 c.c., determina la perdita della capacità giuridica del soggetto, con contestuale apertura della relativa successione.</basic:externalCrossReference>
+              <basic:source>Il diritto - La capacità giuridica</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>acquistare la capacità giuridica</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="578">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-24 09:00:59</date>
+          <basic:responsibility>irene.valentini.1@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>12 - LAW</min:subjectField>
+        <fairterm:subDomain> philosophy of law</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>ensemble des règles édictées par un État et par les organismes à qui il a accordé le pouvoir de les édicter qui sont  effectivement en vigueur et applicables dans un espace juridique déterminé </basic:definition>
+            <basic:externalCrossReference>https://www.dictionnaire-juridique.com/definition/droit-positif.php
+https://www.toupie.org/Dictionnaire/Droit_positif.htm
+https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26547971/droit-positif</basic:externalCrossReference>
+            <basic:source>Dictionnaire du droit privé par Serge Braudo
+La Toupie - dictionnaire
+Office québécois de la langue française - Grand dictionnaire terminologique</basic:source>
+            <note>La définition du concept a été rédigée par l'autrice de la fiche terminologique à partir de différentes sources dans le but de la rendre la plus efficace et claire possible.</note>
+          </descripGrp>
+          <termSec>
+            <term>droit positif</term>
+            <fairterm:identifier>578_fr_391</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Ainsi, en droit positif, l’article R*1411-5 du code de la défense dispose que « Le chef d’état-major des armées est chargé de faire exécuter les opérations nécessaires à la mise en œuvre des forces nucléaires. Il s’assure de l’exécution de l’ordre d’engagement donné par le Président de la République</basic:context>
+              <basic:externalCrossReference>Ainsi, en droit positif, l’article R*1411-5 du code de la défense dispose que « Le chef d’état-major des armées est chargé de faire exécuter les opérations nécessaires à la mise en œuvre des forces nucléaires. Il s’assure de l’exécution de l’ordre d’engagement donné par le Président de la République</basic:externalCrossReference>
+              <basic:source>Le club des juristes - Chef des armées « honorifique » ? Que dit le droit ?</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>intégrer le droit positif </fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>insieme delle norme scritte, codificate e statuite dall'essere umano vigenti in uno Stato che, insieme, formano l'ordinamento giuridico scritto atto a regolare la vita della società</basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/I/ius-in-civitate-positum.html
+https://www.brocardi.it/I/ius-naturale.html#:~:text=Il%20diritto%20positivo%20(cio%C3%A8%20il,per%20deduzione)%20le%20norme%20particolari.
+https://www.dirittoeconomia.net/diritto/norme_giuridiche/diritto_naturale_diritto_positivo.htm
+https://ripetiamodiritto.com/la-norma-giuridica-diritto-positivo-e-naturale/
+https://www.scholapalatina.it/che-cosa-e-il-diritto-positivo/
+https://it.wikipedia.org/wiki/Diritto_positivo</basic:externalCrossReference>
+            <basic:source>Brocardi - Ius in civitate positum, Brocardi - Ius naturale, Diritto ed economia, Ripetiamo diritto - ripetizioni di diritto e lezioni private, Schola palatina - formazione online, Wikipedia - Diritto poisitivo</basic:source>
+            <note>La definizione del concetto è stata elaborata dall'autrice della scheda terminologica attingendo a diverse fonti specializzate con il fine di fornire una definizione completa e precisa.
+Inoltre, fondamentale per tale concetto sono i semi di significato /vigente/ e /scritto/, che lo differenziano dal concetto &lt;Diritto oggettivo&gt;.</note>
+          </descripGrp>
+          <termSec>
+            <term>diritto positivo</term>
+            <fairterm:identifier>578_it_297</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Il diritto positivo tende a voler regolamentare l’IA e le conseguenze del suo utilizzo nella società, scontrandosi tuttavia con il multiforme, fluido, dinamico[4] e spesso non categorizzabile (in relazione a classiche categorie giuridiche) ed a volte intangibile oggetto di una possibile ma necessari</basic:context>
+              <basic:externalCrossReference>Il diritto positivo tende a voler regolamentare l’IA e le conseguenze del suo utilizzo nella società, scontrandosi tuttavia con il multiforme, fluido, dinamico[4] e spesso non categorizzabile (in relazione a classiche categorie giuridiche) ed a volte intangibile oggetto di una possibile ma necessari</basic:externalCrossReference>
+              <basic:source>Judicium - Il diritto naturale come limite e contenuto dell’intelligenza artificiale. Prime riflessioni sul nuovo Regolamento Europeo “AI Act”.</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>ammettere il diritto positivo</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="711">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-22 18:02:12</date>
+          <basic:responsibility>irene.valentini.1@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>12 - LAW</min:subjectField>
+        <fairterm:subDomain> legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept>293</fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>discipline qui a pour objet d'étude les relations qui existent entre des faits médicaux ou biologiques et des textes législatifs ou réglementaires à l'occasion de certaines instances juridiques</basic:definition>
+            <basic:externalCrossReference>https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-fra.html?lang=fra&amp;i=1&amp;srchtxt=medecine+legale&amp;codom2nd_wet=1#resultrecs</basic:externalCrossReference>
+            <basic:source>Termium PLUS - Medécine légale</basic:source>
+            <note>La définition du concept a été revisée par l'autrice de la fiche terminologique dans le but de la rendre le plus efficace et claire possible.</note>
+          </descripGrp>
+          <termSec>
+            <term>médecine légale</term>
+            <fairterm:identifier>711_fr_467</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>En 2021, cette branche représentait 93 % de l’activité des structures de médecine légale, réalisée en majorité dans les unités médico-judiciaires (UMJ).</basic:context>
+              <basic:externalCrossReference>En 2021, cette branche représentait 93 % de l’activité des structures de médecine légale, réalisée en majorité dans les unités médico-judiciaires (UMJ).</basic:externalCrossReference>
+              <basic:source>Ministère de la santé et de l'accès aux soins - La médecine légale, une spécialité à part entière</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>définir la médecine légale</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>disciplina che si occupa del rapporto tra conoscenze mediche e diritto con l'obiettivo di contribuire all'elaborazione e all'applicazione di precetti giuridici a partire dagli attributi fisici e psichici dell'essere umano</basic:definition>
+            <basic:externalCrossReference>https://elearning.uniroma1.it/pluginfile.php/862444/mod_resource/content/1/Definizione%2C%20finalita%CC%80%20e%20metodologia%20della%20Medicina%20Legale.pdf#:~:text=Studia%20le%20norme%20etiche%20e,pubblici%20o%20con%20i%20privati.</basic:externalCrossReference>
+            <basic:source>Lezioni di Medicina Legale, Prof. G.Viel, Dipartimento di Medicina e Chirurgia dell'Università degli studi di Padova
+Lezioni di Medicina Legale, Prof.ssa S. Zaami, Dipartimento di Medicina Legale, Università di Roma La Sapienza
+M. Dobosz, Principi di Medicina legale e di Biologia forense nelle Scienze per l’Investigazione e la Sicurezza, Aracne editrice, Roma, 2013</basic:source>
+            <note>La definizione del concetto è stata elaborata dall'autrice della scheda terminologica attingendo a diverse fonti specializzate con il fine di fornire una definizione completa e precisa.</note>
+          </descripGrp>
+          <termSec>
+            <term>medicina legale</term>
+            <fairterm:identifier>711_it_210</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>L’attività di medicina legale, le cui prestazioni sono di competenza dei servizi delle Aziende ULSS della Regione del Veneto, ha per oggetto le funzioni previste nell’ambito del livelli essenziali di assistenza (LEA) e quelle previste dalle leggi nazionali e regionali come attività istituzionali, re</basic:context>
+              <basic:externalCrossReference>L’attività di medicina legale, le cui prestazioni sono di competenza dei servizi delle Aziende ULSS della Regione del Veneto, ha per oggetto le funzioni previste nell’ambito del livelli essenziali di assistenza (LEA) e quelle previste dalle leggi nazionali e regionali come attività istituzionali, re</basic:externalCrossReference>
+              <basic:source>Regione del Veneto - Prevenzione - Medicina legale</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="752">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-27 10:04:33</date>
+          <basic:responsibility>irene.valentini.1@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1211 - civil law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>mesure de protection juridique mise en place dans le cas où la personne ne peut pas gérer seule son bien et son patrimoine et elle doit être représentée d'une manière continue dans les actes de la vie civile</basic:definition>
+            <basic:externalCrossReference>https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006117881/#LEGISCTA000006117881
+https://www.service-public.fr/particuliers/vosdroits/F10424</basic:externalCrossReference>
+            <basic:source>Code civil français - Section 4 : De la curatelle et de la tutelle (Articles 440 à 476)
+Service public - Tutelle, curatelle, sauvegarde de justice : quelles différences ?</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>tutelle</term>
+            <fairterm:identifier>752_fr_568</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term</basic:termType>
+            <descripGrp>
+              <basic:context>La tutelle, quant à elle, est une mesure plus protectrice. Elle concerne les personnes qui ont perdu leur autonomie et qui ont besoin d’être représentées dans les actes de la vie civile.</basic:context>
+              <basic:externalCrossReference>La tutelle, quant à elle, est une mesure plus protectrice. Elle concerne les personnes qui ont perdu leur autonomie et qui ont besoin d’être représentées dans les actes de la vie civile.</basic:externalCrossReference>
+              <basic:source>Ministère de la Justice - La tutelle et la curatelle, Mesures de protection des majeurs</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>strumento di protezione messo in atto da sentenza del giudice rivolto a tutelare tutti coloro che, a causa di una condizione di abituale infermità mentale, sono totalmente incapaci di agire o di provvedere ai propri interessi </basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/dizionario/4155.html#:~:text=Che%20cosa%20significa%20%22Interdizione%22%3F,di%20provvedere%20ai%20propri%20interessi.
+https://www.giustizia.it/giustizia/it/mg_3_2_8.page#:~:text=Interdizione%20e%20inabilitazione&amp;text=L'interdizione%20pu%C3%B2%20essere%20chiesta,necessario%20per%20assicurarle%20adeguata%20protezione.
+https://tribunale-vicenza.giustizia.it/it/interdizione.page</basic:externalCrossReference>
+            <basic:source>Brocardi, dizionario giuridico - Interdizione
+Ministero della giustizia - Interdizione e inabilitazione
+Tribunale di Vicenza - Interdizione</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>interdizione</term>
+            <fairterm:identifier>752_it_378</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term</basic:termType>
+            <descripGrp>
+              <basic:context>La pronuncia di interdizione richiede che lo stato di abituale infermità mentale sia idoneo a determinare in capo al soggetto l’assoluta incapacità di provvedere ai propri interessi. </basic:context>
+              <basic:externalCrossReference>La pronuncia di interdizione richiede che lo stato di abituale infermità mentale sia idoneo a determinare in capo al soggetto l’assoluta incapacità di provvedere ai propri interessi. </basic:externalCrossReference>
+              <basic:source>Altalex - Interdizione</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+          <termSec>
+            <term>interdizione giudiziale</term>
+            <fairterm:identifier>752_it_83</fairterm:identifier>
+            <fairterm:usage>admitted term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Il codice civile italiano prevede, agli artt. 414 e ss., l’interdizione “giudiziale” per la persona che si trovi in condizioni di grave infermità fisica o mentale o in generale perché non più in grado di curare i propri interessi. </basic:context>
+              <basic:externalCrossReference>Il codice civile italiano prevede, agli artt. 414 e ss., l’interdizione “giudiziale” per la persona che si trovi in condizioni di grave infermità fisica o mentale o in generale perché non più in grado di curare i propri interessi. </basic:externalCrossReference>
+              <basic:source>Brocardi - Consulenze legali
+relative all'articolo 414 Codice Civile</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation/>
+            <note>Questo termine sottolinea esplicitamente il fatto che la condizione di interdizione ha inizio con la pubblicazione della sentenza del giudice. Si tratta di un termine (pienamente sinonimo di ''interdizione'') e non di una collocazione in quanto, a livello concettuale, si differenzia dall' &lt;Interdizione legale&gt;, condizione non dovuta all'incapacità di agire ma pena accessoria legata alla condanna a reclusione maggiore di 5 anni.</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="790">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-26 10:58:34</date>
+          <basic:responsibility>irene.valentini.1@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>12 - LAW</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>ensemble des règles de conduite générale et abstraite, permanente et obligatoire qui sont destinées à organiser la vie en société et les rapports des hommes entre eux </basic:definition>
+            <basic:externalCrossReference>https://www.toupie.org/Dictionnaire/Droit_objectif.htm
+https://www.collegejuridique.ro/upload/documente/CoursIntroaudroit1P.pdf</basic:externalCrossReference>
+            <basic:source>Collège juridique - Introduction au droit
+La toupie - Dictionnaire</basic:source>
+            <note>La définition du concept a été rédigée par l'autrice de la fiche terminologique à partir de différentes sources dans le but de la rendre la plus efficace et claire possible.</note>
+          </descripGrp>
+          <termSec>
+            <term>droit objectif</term>
+            <fairterm:identifier>790_fr_91</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Mais il s’agit là de la conception classique : le sujet de droit tire du droit objectif des prérogatives individuelles et affirme ainsi son pouvoir personnel exclusif.</basic:context>
+              <basic:externalCrossReference>Mais il s’agit là de la conception classique : le sujet de droit tire du droit objectif des prérogatives individuelles et affirme ainsi son pouvoir personnel exclusif.</basic:externalCrossReference>
+              <basic:source>Le politiste - Le droit objectif et le droit subjectif</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>insieme delle norme giuridiche obiettive e uniformi che disciplinano la condotta degli esseri umani e della vita collettiva</basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/N/norma-agendi.html#:~:text=Il%20diritto%20oggettivo%20%C3%A8%20il,con%20l'espressione%20facultas%20agendi.
+https://www.notaio-busani.it/it-IT/diritto-oggettivo-soggettivo.aspx
+http://www.suntini.it/files/libro_diritto_privato_1_cap.pdf
+https://it.wikipedia.org/wiki/Diritto_oggettivo</basic:externalCrossReference>
+            <basic:source>Brocardi - Norma agendi
+Notaio Busani - Diritto oggettivo e diritto soggettivo
+Wikipedia</basic:source>
+            <note>La definizione del concetto è stata elaborata dall'autrice della scheda terminologica attingendo a diverse fonti specializzate con il fine di fornire una definizione completa e precisa. Si è prestata una particolare attenzione alla differenza con il concetto simile e correlato di &lt;Diritto positivo&gt;.
+&lt;Diritto oggettivo&gt; è il concetto superordinato di &lt;Diritto positivo&gt;, nonostante quest'ultimo rientri nel sottodominio della filosofia del diritto. Il &lt;Diritto positivo&gt;, infatti, sul piano filosofico si distingue dal &lt;Diritto naturale&gt; (inteso come insieme di norme assolute, universale e fondate su principi morali e non dall'essere umano) ed include esclusivamente le norme scritte e in vigore di un ordinamento giuridico. Si rivelano quindi fondamentali i due semi di significato /vigente/ e /scritto/. Il &lt;Diritto oggettivo&gt;, invece, racchiude potenzialmente anche norme non più vigenti, di diritto naturale o consuetudinario. In conclusione si può affermare che il diritto positivo è oggettivo in quanto fa parte delle norme che regolano la vita collettiva, ed al contrario non tutto il diritto oggettivo è positivo. Per provare di questa sottile, eppure effettiva differenza, si può ricorrere ai broccardi (massime giuridiche di derivazione latina). Ai due concetti corrispondono due diverse massime: quello che si riferisce al diritto oggettivo è ''norma agendi'', mentre il diritto positivo è ricondotto a ''ius in civitate positum''.</note>
+          </descripGrp>
+          <termSec>
+            <term>diritto oggettivo</term>
+            <fairterm:identifier>790_it_476</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Nella concezione giusnaturalista il diritto soggettivo precede il diritto oggettivo, esistendo indipendentemente dall'ordinamento giuridico, il quale si limita a riconoscere al singolo un qualcosa che egli già aveva in natura prima di tale qualificazione normativa.</basic:context>
+              <basic:externalCrossReference>Nella concezione giusnaturalista il diritto soggettivo precede il diritto oggettivo, esistendo indipendentemente dall'ordinamento giuridico, il quale si limita a riconoscere al singolo un qualcosa che egli già aveva in natura prima di tale qualificazione normativa.</basic:externalCrossReference>
+              <basic:source>Wikipedia - Diritto soggettivo</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="858">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-20 14:58:57</date>
+          <basic:responsibility>irene.valentini.1@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1211 - civil law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain/>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition/>
+            <basic:externalCrossReference/>
+            <basic:source/>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term/>
+            <fairterm:identifier>858_fr_266</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech/>
+            <basic:grammaticalGender/>
+            <basic:grammaticalNumber/>
+            <basic:termType/>
+            <descripGrp>
+              <basic:context/>
+              <basic:externalCrossReference/>
+              <basic:source/>
+            </descripGrp>
+            <fairterm:register/>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition/>
+            <basic:externalCrossReference/>
+            <basic:source/>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term/>
+            <fairterm:identifier>858_it_924</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech/>
+            <basic:grammaticalGender/>
+            <basic:grammaticalNumber/>
+            <basic:termType/>
+            <descripGrp>
+              <basic:context/>
+              <basic:externalCrossReference/>
+              <basic:source/>
+            </descripGrp>
+            <fairterm:register/>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="886">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-30 10:16:44</date>
+          <basic:responsibility>irene.valentini.1@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>12 - LAW</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>acte présentant un caractère habituel qui permet à l'entreprise de fonctionner au quotidien</basic:definition>
+            <basic:externalCrossReference>https://www.lettredurestructuring.com/mots-lexique/P-1-678-P1-acte-de-gestion-courante/#:~:text=L'acte%20de%20gestion%20courante,entreprise%20de%20fonctionner%20au%20quotidien.
+https://www.lemondedudroit.fr/273-legalnews/affaires/societes/56019-sont-des-actes-de-gestion-courante-les-actes-liees-a-lactivite-commerciale-dune-societe-et-presentant-un-caractere-habituel-.html</basic:externalCrossReference>
+            <basic:source>La lettre du restructuring - Acte de gestion courante
+Le monde du droit - Actes de gestion courante</basic:source>
+            <note>La définition du concept a été rédigée par l'autrice de la fiche terminologique à partir de différentes sources dans le but de la rendre la plus efficace et claire possible.</note>
+          </descripGrp>
+          <termSec>
+            <term>gestion courante</term>
+            <fairterm:identifier>886_fr_141</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>La liste des actes qui sont regardés, pour l'application du présent titre, comme des actes d'administration relatifs à la gestion courante du patrimoine et comme des actes de disposition qui engagent celui-ci de manière durable et substantielle est fixée par décret en Conseil d'Etat.</basic:context>
+              <basic:externalCrossReference>La liste des actes qui sont regardés, pour l'application du présent titre, comme des actes d'administration relatifs à la gestion courante du patrimoine et comme des actes de disposition qui engagent celui-ci de manière durable et substantielle est fixée par décret en Conseil d'Etat.</basic:externalCrossReference>
+              <basic:source>Code civil français - Article 496</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation>acte de gestion courante</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>attività che tende unicamente alla gestione e al miglioramento del patrimonio su cui incide</basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/dizionario/2710.html
+https://dizionari.simone.it/1/ordinaria-amministrazione#:~:text=pubbl.),'instaurazione%20del%20nuovo%20Governo).</basic:externalCrossReference>
+            <basic:source>Brocardi - Atti di ordinaria amministrazione
+Dizionari Simone - Ordinaria amministrazione</basic:source>
+            <note>La definizione del concetto è stata elaborata dall'autrice della scheda terminologica attingendo a diverse fonti specializzate con il fine di fornire una definizione completa e precisa.</note>
+          </descripGrp>
+          <termSec>
+            <term>ordinaria amministrazione</term>
+            <fairterm:identifier>886_it_601</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Nello stesso modo si possono compiere gli altri atti eccedenti l'ordinaria amministrazione, sempre che non risultino pregiudizievoli all'interesse di alcuno dei partecipanti.</basic:context>
+              <basic:externalCrossReference>Nello stesso modo si possono compiere gli altri atti eccedenti l'ordinaria amministrazione, sempre che non risultino pregiudizievoli all'interesse di alcuno dei partecipanti.</basic:externalCrossReference>
+              <basic:source>Codice civile italiano - Articolo 110, Innovazioni e altri atti eccedenti l'ordinaria amministrazione</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>atto di ordinaria amministrazione</fairterm:collocation>
+            <note>Il termine appare spesso preceduto dalla preposizione 'di' secondo la forma di sintagma preposizionale 'di ordinaria amministrazione'</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="921">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-26 11:42:37</date>
+          <basic:responsibility>irene.valentini.1@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1211 - civil law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>aptitude juridique d'une personne phisique acquise à la majorité à faire valoir seule ses droits sans nécessiter de représentation ou d’assistance</basic:definition>
+            <basic:externalCrossReference>https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006118032/2024-12-18/#LEGISCTA000032040794
+https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26546265/capacite-dexercice</basic:externalCrossReference>
+            <basic:source>Code Civil - Paragraphe 1 : La capacité (Articles 1145 à 1152)
+Office québécois de la langue française - Grand dictionnaire terminologique </basic:source>
+            <note>La définition du concept a été rédigée par l'autrice de la fiche terminologique à partir de différentes sources dans le but de la rendre la plus efficace et claire possible.</note>
+          </descripGrp>
+          <termSec>
+            <term>capacité d'exercice</term>
+            <fairterm:identifier>921_fr_878</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Les sujets de droit sont les personnes physiques et les personnes morales. Ils possèdent la personnalité juridique.</basic:context>
+              <basic:externalCrossReference>Les sujets de droit sont les personnes physiques et les personnes morales. Ils possèdent la personnalité juridique.</basic:externalCrossReference>
+              <basic:source>Arrêté du 13 avril 2010 fixant le programme d'économie-droit pour les classes préparatoires au baccalauréat professionnel</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>attitudine del soggetto di maggiore età a compiere atti che incidano nella propria sfera giuridica</basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/codice-civile/libro-primo/titolo-i/
+https://www.brocardi.it/codice-civile/libro-primo/titolo-i/art2.html</basic:externalCrossReference>
+            <basic:source>Codice Civile italiano - Art. 2
+Brocardi - Dispositivo dell'art. 2 Codice Civile</basic:source>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term>capacità di agire</term>
+            <fairterm:identifier>921_it_655</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>La capacità giuridica che si acquista con la nascita, non soffre attenuazioni, e viene riconosciuta in misura uguale a tutte le persone, mentre la capacità di agire può diminuire o essere totalmente perduta durante il corso della vita, nei casi di incapacità parziale o totale d’agire.</basic:context>
+              <basic:externalCrossReference>La capacità giuridica che si acquista con la nascita, non soffre attenuazioni, e viene riconosciuta in misura uguale a tutte le persone, mentre la capacità di agire può diminuire o essere totalmente perduta durante il corso della vita, nei casi di incapacità parziale o totale d’agire.</basic:externalCrossReference>
+              <basic:source>Altalex - La capacità di agire</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation>acquisire la capacità di agire, annullare la capacità di agire</fairterm:collocation>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="951">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-22 17:06:48</date>
+          <basic:responsibility>irene.valentini.1@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1221 - justice (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> legal medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition/>
+            <basic:externalCrossReference/>
+            <basic:source/>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term/>
+            <fairterm:identifier>951_fr_331</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context/>
+              <basic:externalCrossReference/>
+              <basic:source/>
+            </descripGrp>
+            <fairterm:register/>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition/>
+            <basic:externalCrossReference/>
+            <basic:source/>
+            <note/>
+          </descripGrp>
+          <termSec>
+            <term/>
+            <fairterm:identifier>951_it_400</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context/>
+              <basic:externalCrossReference/>
+              <basic:source/>
+            </descripGrp>
+            <fairterm:register/>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="954">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-29 08:22:21</date>
+          <basic:responsibility>irene.valentini.1@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>2841 - health (28 - SOCIAL QUESTIONS)</min:subjectField>
+        <fairterm:subDomain>substance addiction</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>Usage volontaire injustifié, excessif et répété de substances psychoactives qui est susceptible de perturber le fonctionnement au quotidien et d'entraîner des problèmes d'ordre physique, psychologique ou social</basic:definition>
+            <basic:externalCrossReference>https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006196619/2004-08-08
+https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26544606/abus-de-substances-psychoactives</basic:externalCrossReference>
+            <basic:source>Code de la santé publique - Article R5132-97
+Office québécois de la langue française, Grand dictionnaire terminologique - Abus de substances psychoactives</basic:source>
+            <note>La définition du concept a été rédigée par l'autrice de la fiche terminologique à partir de différentes sources dans le but de la rendre la plus efficace et claire possible.</note>
+          </descripGrp>
+          <termSec>
+            <term>abus de substances psychoactives</term>
+            <fairterm:identifier>954_fr_123</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>La pharmacodépendance ou l'abus de substance psychoactive est qualifiée de grave lorsqu'elle aboutit à un risque, soit létal, soit susceptible de mettre la vie en danger ou d'entraîner une invalidité ou une incapacité, de provoquer ou de prolonger une hospitalisation ou de se manifester par une anom</basic:context>
+              <basic:externalCrossReference>La pharmacodépendance ou l'abus de substance psychoactive est qualifiée de grave lorsqu'elle aboutit à un risque, soit létal, soit susceptible de mettre la vie en danger ou d'entraîner une invalidité ou une incapacité, de provoquer ou de prolonger une hospitalisation ou de se manifester par une anom</basic:externalCrossReference>
+              <basic:source>Vidal - Addictovigilance : définition et modalités de déclaration
+</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation/>
+            <note>Le terme ''abus'' a été privilégié par rapport à ''usage'', car il met l'accent sur le caractère de /répétition/ de la consommation de substances, contrairement au caractère /occasionnel/ associé à l'usage. Cette distinction s'appuie sur le document de l'OMS intitulé 'Neurosciences : usage de substances psychoactives et dépendance' (https://www.who.int/docs/default-source/substance-use/neuroscience-f.pdf) qui précise: «L’expression ''usage de substance psychoactive' est employée dans le présent document pour décrire toutes les formes d’autoadministration d’une substance psychoactive. Cette expression a été préférée à celle d’« abus de substance psychoactive » en raison de son caractère plus général qui recouvre tous les niveaux de consommation de substances, qu’elle soit occasionnelle ou durable.».</note>
+          </termSec>
+          <termSec>
+            <term>--- (term designation) ---</term>
+            <fairterm:identifier>954_fr_408</fairterm:identifier>
+            <fairterm:usage>--- (usage) ---</fairterm:usage>
+            <min:partOfSpeech>--- (pos) ---</min:partOfSpeech>
+            <basic:grammaticalGender>--- (gender) ---</basic:grammaticalGender>
+            <basic:grammaticalNumber>--- (number) ---</basic:grammaticalNumber>
+            <basic:termType>--- (type) ---</basic:termType>
+            <descripGrp>
+              <basic:context>--- (context) ---</basic:context>
+              <basic:externalCrossReference>--- (context) ---</basic:externalCrossReference>
+              <basic:source>--- (source) ---</basic:source>
+            </descripGrp>
+            <fairterm:register>--- (register) ---</fairterm:register>
+            <fairterm:collocation>--- (collocation) ---</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>impiego incontrollato e consolidato di sostanze o bevande alcooliche tale da provocare il frequente stato di ubriachezza o l'alterazione della sfera psico-volitiva del soggetto</basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/codice-civile/libro-primo/titolo-xii/capo-ii/art415.html
+https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&amp;art.idGruppo=8&amp;art.flagTipoArticolo=1&amp;art.codiceRedazionale=030U1398&amp;art.idArticolo=94&amp;art.idSottoArticolo=1&amp;art.idSottoArticolo1=10&amp;art.dataPubblicazioneGazzetta=1930-10-26&amp;art.progressivo=0#:~:text=94)-,Art.,in%20stato%20frequente%20di%20ubriachezza.
+https://fondazioneonda.it/ondauploads/2014/11/Leaflet-dipendenze.pdf</basic:externalCrossReference>
+            <basic:source>Codice penale italiano - Art. 94 (Ubriachezza abituale)
+Brocardi - Note del Dispositivo dell'art. 415 Codice Civile (Persone che possono essere inabilitate)
+Fondazione onda - Abuso e dipendenza da alcol e droga: cosa sono, come si evitano, come uscirne</basic:source>
+            <note>La definizione del concetto è stata elaborata dell'autrice della scheda terminologica a partire da più fonti specializzate al fine di fornire la definizione più completa ed efficace possibile.</note>
+          </descripGrp>
+          <termSec>
+            <term>abuso abituale di sostanze</term>
+            <fairterm:identifier>954_it_300</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>La legge prevede anche una condizione di abuso abituale di sostanze che è considerata un’aggravante.</basic:context>
+              <basic:externalCrossReference>La legge prevede anche una condizione di abuso abituale di sostanze che è considerata un’aggravante.</basic:externalCrossReference>
+              <basic:source>Sdroga Brescia - Norme relative a reati e abuso di sostanze</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="960">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-29 13:32:35</date>
+          <basic:responsibility>irene.valentini.1@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>12 - LAW</min:subjectField>
+        <fairterm:subDomain>legal medecine</fairterm:subDomain>
+        <fairterm:genericConcept>293</fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>branche de la psychologie qui étudie les troubles mentaux dans le contexte juridique</basic:definition>
+            <basic:externalCrossReference>https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8383071/psychopathologie
+https://www.royalcollege.ca/content/dam/documents/ibd/forensic-psychiatry/forensic-psychiatry-cbd-competencies-f.pdf
+https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-fra.html?lang=fra&amp;i=1&amp;srchtxt=psychiatrie+legale&amp;codom2nd_wet=1#resultrecs
+https://fr.wikipedia.org/wiki/Psychologie_l%C3%A9gale</basic:externalCrossReference>
+            <basic:source>Office québécois de la langue française - Psychopathologie
+Le Collège royal des médecins et chirurgiens du Canada - Compétences en psychiatrie légale
+Termium PLUS - Psychiatrie légale
+Wikipedia - Psychologie légale</basic:source>
+            <note>La définition du concept a été rédigée par l'autrice de la fiche terminologique à partir de différentes sources dans le but de la rendre la plus efficace et claire possible.</note>
+          </descripGrp>
+          <termSec>
+            <term>psychopathologie légale</term>
+            <fairterm:identifier>960_fr_815</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>L’Unité de Psychopathologie Légale (UPPL) a pour mission de soutenir les thérapeutes et le système de soins dans le traitement des délinquants sexuels [...]</basic:context>
+              <basic:externalCrossReference>L’Unité de Psychopathologie Légale (UPPL) a pour mission de soutenir les thérapeutes et le système de soins dans le traitement des délinquants sexuels [...]</basic:externalCrossReference>
+              <basic:source>UPPL - Unité de Psychopathologie Légale</basic:source>
+            </descripGrp>
+            <fairterm:register>formel</fairterm:register>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>settore disciplinare che studia il rapporto dei fenomeni psicologici e psicopatologici con la norma giuridica</basic:definition>
+            <basic:externalCrossReference>https://dizionario.internazionale.it/parola/psicopatologia-forense
+https://www.medicinapertutti.it/argomento/psicopatologia-forense/
+https://www.treccani.it/vocabolario/psicopatologia/</basic:externalCrossReference>
+            <basic:source>Dizionario Internazionale - Psicopatologia forense
+Medicina per tutti - Psicopatologia forense
+Treccani - Psicopatologia </basic:source>
+            <note>La definizione del concetto è stata elaborata dall'autrice della scheda terminologica a partire da diverse fonti specializzate al fine di fornire la definizione più completa ed efficace possibile.</note>
+          </descripGrp>
+          <termSec>
+            <term>psicopatologia forense</term>
+            <fairterm:identifier>960_it_755</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term</basic:termType>
+            <descripGrp>
+              <basic:context>Il curriculum di Psicopatologia Forense si propone, invece, di affinare le metodiche utili nella ricerca sulla semeiotica psichiatrico-forense in particolare applicabili alla valutazione della capacità decisionale, alla metodologia di svolgimento della perizia psichiatrica e al trattamento psichiatr</basic:context>
+              <basic:externalCrossReference>Il curriculum di Psicopatologia Forense si propone, invece, di affinare le metodiche utili nella ricerca sulla semeiotica psichiatrico-forense in particolare applicabili alla valutazione della capacità decisionale, alla metodologia di svolgimento della perizia psichiatrica e al trattamento psichiatr</basic:externalCrossReference>
+              <basic:source>Università La Sapienza di Roma - Dottorato in PSICOPATOLOGIA E FUNZIONAMENTO MENTALE: METODI DI RICERCA IN AMBITO FORENSE</basic:source>
+            </descripGrp>
+            <fairterm:register>formale</fairterm:register>
+            <fairterm:collocation/>
+            <note/>
+          </termSec>
+          <termSec>
+            <term>--- (term designation) ---</term>
+            <fairterm:identifier>960_it_901</fairterm:identifier>
+            <fairterm:usage>--- (usage) ---</fairterm:usage>
+            <min:partOfSpeech>--- (pos) ---</min:partOfSpeech>
+            <basic:grammaticalGender>--- (gender) ---</basic:grammaticalGender>
+            <basic:grammaticalNumber>--- (number) ---</basic:grammaticalNumber>
+            <basic:termType>--- (type) ---</basic:termType>
+            <descripGrp>
+              <basic:context>--- (context) ---</basic:context>
+              <basic:externalCrossReference>--- (context) ---</basic:externalCrossReference>
+              <basic:source>--- (source) ---</basic:source>
+            </descripGrp>
+            <fairterm:register>--- (register) ---</fairterm:register>
+            <fairterm:collocation>--- (collocation) ---</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+    </body>
+  </text>
+</tbx>

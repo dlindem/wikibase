@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbx xmlns:tbx3="urn:iso:std:iso:30042:ed-2" xmlns:min="http://www.tbxinfo.net/ns/min" xmlns:basic="http://www.tbxinfo.net/ns/basic" xmlns:fairterm="http://www.fairterm.org/ns/sample" type="TBX-FAIRterm" style="dct" xml:lang="en">
+  <tbxHeader>
+    <fileDesc>
+      <sourceDesc>
+        <p>TBX file created by the FAIRterm 2.0 application</p>
+      </sourceDesc>
+    </fileDesc>
+  </tbxHeader>
+  <text>
+    <body>
+      <conceptEntry id="136">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-20 20:45:01</date>
+          <basic:responsibility>teresa.gandolla@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain>forensic medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>L'intoxication fait réference aux effets immédiats et temporaires d’une drogue spécifique. L’intoxication altère le fonctionnement cérébral et le jugement, et peut également altérer l’humeur. En fonction de la drogue, la personne peut présenter une sensation d’excitation ou de bien-être excessif (euphorie), ou peut se sentir plus calme, plus détendue et plus somnolente que d’habitude. 
+</basic:definition>
+            <basic:externalCrossReference>https://www.msdmanuals.com/fr/accueil/troubles-mentaux/troubles-li%C3%A9s-%C3%A0-l%E2%80%99usage-de-substances/troubles-li%C3%A9s-%C3%A0-l%E2%80%99usage-de-substances#Effets-physiologiques-de-l%E2%80%99usage-de-substances_v73503281_fr
+</basic:externalCrossReference>
+            <basic:source>Le Manuel MSD</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>intoxication</term>
+            <fairterm:identifier>136_fr_48</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term;single-word term</basic:termType>
+            <descripGrp>
+              <basic:context>DISPOSITIONS LIMITANT L'IRRESPONSABILITÉ PÉNALE EN CAS DE TROUBLE MENTAL RÉSULTANT D'UNE INTOXICATION VOLONTAIRE AUX SUBSTANCES PSYCHOACTIVES (Articles 1 à 9)</basic:context>
+              <basic:externalCrossReference>DISPOSITIONS LIMITANT L'IRRESPONSABILITÉ PÉNALE EN CAS DE TROUBLE MENTAL RÉSULTANT D'UNE INTOXICATION VOLONTAIRE AUX SUBSTANCES PSYCHOACTIVES (Articles 1 à 9)</basic:externalCrossReference>
+              <basic:source>Légifrance</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>état d'intoxication, intoxication volontaire, intoxication involontaire</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>stato di euforia, acuta, momentanea ed episodica, provocato dall'assunzione di una sostanza stupefacente. A seconda del tipo di sostanza stupefacente o psicotropa assunta, gli effetti dell'intossicazione acuta variano: euforia, disinibizione degli istinti, fuga delle idee, stati di irrequietezza, eccitazione, esaltazione, allucinazioni, ecc., che possono portare il soggetto a manifestare impulsi incontrollabili favorenti comportamenti delittuosi</basic:definition>
+            <basic:externalCrossReference>https://app.sketchengine.eu/#concordance?corpname=user%2Firene.valentini.1%2Fit_corpus_traduzione_specializzata_francese_2&amp;tab=advanced&amp;keyword=stupefazione&amp;attrs=word&amp;viewmode=kwic&amp;attr_allpos=all&amp;refs_up=0&amp;shorten_refs=1&amp;glue=1&amp;gdexcnt=300&amp;show_gdex_scores=0&amp;itemsPerPage=20&amp;structs=s%2Cg&amp;refs=doc&amp;default_attr=lemma&amp;showresults=1&amp;showTBL=0&amp;tbl_template=&amp;gdexconf=&amp;f_tab=basic&amp;f_showrelfrq=1&amp;f_showperc=0&amp;f_showreldens=0&amp;f_showreltt=0&amp;c_customrange=0&amp;t_attr=&amp;t_absfrq=0&amp;t_trimempty=1&amp;t_threshold=5&amp;operations=%5B%7B%22name%22%3A%22iquery%22%2C%22arg%22%3A%22stupefazione%22%2C%22query%22%3A%7B%22queryselector%22%3A%22iqueryrow%22%2C%22iquery%22%3A%22stupefazione%22%7D%2C%22id%22%3A9271%7D%5D</basic:externalCrossReference>
+            <basic:source>Medicina legale.pdf, Sketch Engine Corpus</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>stupefazione</term>
+            <fairterm:identifier>136_it_861</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term;single-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Al pari delle restanti norme che il codice dedica all'uso di sostanze alcoliche e di stupefacenti, si coglie qui una motivazione politico-criminale di repressione di tali fenomeni, ragion per cui, nel caso qui descritto l'ubriachezza e la stupefazione abituali vengono considerate alla stregua di ver</basic:context>
+              <basic:externalCrossReference>Al pari delle restanti norme che il codice dedica all'uso di sostanze alcoliche e di stupefacenti, si coglie qui una motivazione politico-criminale di repressione di tali fenomeni, ragion per cui, nel caso qui descritto l'ubriachezza e la stupefazione abituali vengono considerate alla stregua di ver</basic:externalCrossReference>
+              <basic:source>Brocardi Codice penale</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>stato di stupefazione, stupefazione volontaria, stupefazione abituale, guida in stato di stupefazione</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="148">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-01 23:34:37</date>
+          <basic:responsibility>teresa.gandolla@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> forensic medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>rendre plus petit (une grandeur); (de ce qui n'est pas mesurable) Rendre moins grand, moins fort.; Devenir moins grand, moins considérable</basic:definition>
+            <basic:externalCrossReference>https://dictionnaire.lerobert.com/definition/diminuer</basic:externalCrossReference>
+            <basic:source>Le Robert Dictionnaire</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>diminuer </term>
+            <fairterm:identifier>148_fr_230</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>VERB</min:partOfSpeech>
+            <basic:grammaticalGender/>
+            <basic:grammaticalNumber/>
+            <basic:termType>single-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Les symptômes de la démence peuvent comprendre une amnésie touchant les activités quotidiennes (par ex. : s’habiller, faire sa toilette), des difficultés à effectuer des tâches (par ex. :transactions bancaires, conduite automobile, brossage des dents), des problèmes
+ d’élocution, un mauvais discerne</basic:context>
+              <basic:externalCrossReference>Les symptômes de la démence peuvent comprendre une amnésie touchant les activités quotidiennes (par ex. : s’habiller, faire sa toilette), des difficultés à effectuer des tâches (par ex. :transactions bancaires, conduite automobile, brossage des dents), des problèmes
+ d’élocution, un mauvais discerne</basic:externalCrossReference>
+              <basic:source>Manuel de la pratique clinique en psychologie et psychopathologie</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>diminuer la longuer/la largeur/le prix/les risques/le nombre; diminuer considérablement
+</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>1. tr. Rendere minore; diminuire di quantità; ridurre a meno; 2. intr. (aus. essere) Diminuire di quantità, d’intensità, diventare minore, decrescere, calare</basic:definition>
+            <basic:externalCrossReference>https://www.treccani.it/vocabolario/scemare/</basic:externalCrossReference>
+            <basic:source>Treccani Vocabolario</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>scemare</term>
+            <fairterm:identifier>148_it_958</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>VERB</min:partOfSpeech>
+            <basic:grammaticalGender/>
+            <basic:grammaticalNumber/>
+            <basic:termType>single-word term</basic:termType>
+            <descripGrp>
+              <basic:context> Chi, nel momento in cui ha commesso il fatto, era, per infermità, in tale stato di mente da scemare grandemente, senza escluderla, la capacità d'intendere o di volere(1), risponde del reato commesso; ma la pena è diminuita [95, 108 2, 148, 219; c.p.p. 70, 305, 507](2)</basic:context>
+              <basic:externalCrossReference> Chi, nel momento in cui ha commesso il fatto, era, per infermità, in tale stato di mente da scemare grandemente, senza escluderla, la capacità d'intendere o di volere(1), risponde del reato commesso; ma la pena è diminuita [95, 108 2, 148, 219; c.p.p. 70, 305, 507](2)</basic:externalCrossReference>
+              <basic:source>Brocardi Codice Penale</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>scemare grandemente, scemare di intensità, scemare di quantità</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="169">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-31 05:46:02</date>
+          <basic:responsibility>teresa.gandolla@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> forensic medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>observance (compliance) est la capacité du patient à respecter un protocole thérapeutique. </basic:definition>
+            <basic:externalCrossReference>https://www.msdmanuals.com/fr/professional/pharmacologie-clinique/facteurs-affectant-la-r%C3%A9ponse-aux-m%C3%A9dicaments/observance-du-protocole-m%C3%A9dicamenteux</basic:externalCrossReference>
+            <basic:source>MSD Manuals</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>observance</term>
+            <fairterm:identifier>169_fr_44</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>single-word term</basic:termType>
+            <descripGrp>
+              <basic:context>L’observance aux traitements prescrits pour les maladies chroniques représente un enjeu majeur de santé publique dans le monde. De plus, dans son dernier rapport, l’organisation mondiale de la santé (OMS) soulignait que la mauvaise adhérence aux traitements de longue durée est un problème qui ne fai</basic:context>
+              <basic:externalCrossReference>L’observance aux traitements prescrits pour les maladies chroniques représente un enjeu majeur de santé publique dans le monde. De plus, dans son dernier rapport, l’organisation mondiale de la santé (OMS) soulignait que la mauvaise adhérence aux traitements de longue durée est un problème qui ne fai</basic:externalCrossReference>
+              <basic:source>ScienceDirect</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>observance thérapeutique, défauts d’observance thérapeutique, non-observance non intentionnelle </fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>adesione del malato alle prescrizioni mediche e ai trattamenti in generale previsti nella gestione di una determinata forma morbosa. Esprime anche, in senso lato, la volontà di collaborazione con le varie strutture dell’organizzazione sanitaria nell’iter di un predefinito schema terapeutico </basic:definition>
+            <basic:externalCrossReference>https://www.treccani.it/enciclopedia/compliance_(Dizionario-di-Medicina)/</basic:externalCrossReference>
+            <basic:source>Treccani Enciclopedia</basic:source>
+            <note>Il termine "compliance" è un anglicismo attestato nella lingua italiana in ambito medico.</note>
+          </descripGrp>
+          <termSec>
+            <term>test</term>
+            <fairterm:identifier>169_it_411</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech/>
+            <basic:grammaticalGender/>
+            <basic:grammaticalNumber/>
+            <basic:termType/>
+            <descripGrp>
+              <basic:context>--- (context) ---</basic:context>
+              <basic:externalCrossReference>--- (context) ---</basic:externalCrossReference>
+              <basic:source>--- (source) ---</basic:source>
+            </descripGrp>
+            <fairterm:register>--- (register) ---</fairterm:register>
+            <fairterm:collocation>--- (collocation) ---</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+          <termSec>
+            <term>compliance</term>
+            <fairterm:identifier>169_it_755</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>single-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Non esiste un modo per misurare in maniera precisa e certa il grado di compliance. Dipende molto dai singoli casi.
+L’aderenza alla terapia può essere controllata con metodi soggettivi, tramite ciò che ci dice il paziente stesso, oppure oggettivi, che sono più affidabili perché non si basano sulle se</basic:context>
+              <basic:externalCrossReference>Non esiste un modo per misurare in maniera precisa e certa il grado di compliance. Dipende molto dai singoli casi.
+L’aderenza alla terapia può essere controllata con metodi soggettivi, tramite ciò che ci dice il paziente stesso, oppure oggettivi, che sono più affidabili perché non si basano sulle se</basic:externalCrossReference>
+              <basic:source>Gipo.it, MioDottore</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>grado di compliance, compliance terapeutica, scarsa/cattiva compliance</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="254">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-20 18:14:46</date>
+          <basic:responsibility>teresa.gandolla@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> forensic medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>reconnaître distinctement la nature, la valeur d'une pers. ou d'une chose; reconnaître distinctement ce qui est bon ou mauvais pour la vie morale et spirituelle; distinguer ce qui est bon, permis, de ce qui est mauvais, défendu; p. ext. être moralement responsable de ses actes</basic:definition>
+            <basic:externalCrossReference>https://www.cnrtl.fr/definition/discerner/</basic:externalCrossReference>
+            <basic:source>CNRTL</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>discerner</term>
+            <fairterm:identifier>254_fr_945</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>VERB</min:partOfSpeech>
+            <basic:grammaticalGender/>
+            <basic:grammaticalNumber/>
+            <basic:termType>simple term;single-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Si le patient ne semble pas avoir la capacité de comprendre les enjeux et de faire un choix éclairé,qu’il n’a pas la capacité de discerner ce qui est le mieux pour lui, il est d’autant plus important que les soignants s’interrogent pour respecter l’autonomie du patient avec l’aide de ses proches. </basic:context>
+              <basic:externalCrossReference>Si le patient ne semble pas avoir la capacité de comprendre les enjeux et de faire un choix éclairé,qu’il n’a pas la capacité de discerner ce qui est le mieux pour lui, il est d’autant plus important que les soignants s’interrogent pour respecter l’autonomie du patient avec l’aide de ses proches. </basic:externalCrossReference>
+              <basic:source>Hôpitaux universitaires de Genève (HUG)</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>capacité/incapacité de discerner, discerner correctement</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>(per estensione) non confondere, né volontariamente né involontariamente; sapere individuare, elaborando anche con intelligenza, ciò che è corretto e ciò che è errato, anche il bene e/o il "male"
+</basic:definition>
+            <basic:externalCrossReference>https://sapere.virgilio.it/parole/vocabolario/discernere</basic:externalCrossReference>
+            <basic:source>Virgilio Sapere</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>discernere</term>
+            <fairterm:identifier>254_it_692</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>VERB</min:partOfSpeech>
+            <basic:grammaticalGender/>
+            <basic:grammaticalNumber/>
+            <basic:termType>simple term;single-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Dal punto di vista concettuale, la "capacità di discernimento" del minore, che sopperisce all'età anagrafica allorquando il minore debba essere ascoltato su questioni che lo riguardano, è costituito dalla capacità dello stesso di comprendere cosa sia migliore per lui, operando delle scelte autonome </basic:context>
+              <basic:externalCrossReference>Dal punto di vista concettuale, la "capacità di discernimento" del minore, che sopperisce all'età anagrafica allorquando il minore debba essere ascoltato su questioni che lo riguardano, è costituito dalla capacità dello stesso di comprendere cosa sia migliore per lui, operando delle scelte autonome </basic:externalCrossReference>
+              <basic:source>Brocardi Codice Civile</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>capacità di discernere, in grado di discernere, discernere tra bene e male</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="346">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-29 21:31:35</date>
+          <basic:responsibility>teresa.gandolla@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> forensic medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>la personne qui était atteinte, au moment des faits, d'un trouble psychique ou neuropsychique ayant altéré son discernement ou entravé le contrôle de ses actes demeure punissable. Toutefois, la juridiction tient compte de cette circonstance lorsqu'elle détermine la peine et en fixe le régime</basic:definition>
+            <basic:externalCrossReference>https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029370748</basic:externalCrossReference>
+            <basic:source>Légifrance</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>altération du discernement </term>
+            <fairterm:identifier>346_fr_776</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term;multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>L' article 122-1 du code pénal distingue à cet égard deux cas : les cas d' abolition du discernement, dont le droit prévoit qu'ils doivent se traduire par l'irresponsabilité pénale du commettant, et les cas d' altération du discernement, qui restent punissables mais qui contraignent la juridiction à</basic:context>
+              <basic:externalCrossReference>L' article 122-1 du code pénal distingue à cet égard deux cas : les cas d' abolition du discernement, dont le droit prévoit qu'ils doivent se traduire par l'irresponsabilité pénale du commettant, et les cas d' altération du discernement, qui restent punissables mais qui contraignent la juridiction à</basic:externalCrossReference>
+              <basic:source>Sénat</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>altération substantielle/durable/définitive du discernement </fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>chi, nel momento in cui ha commesso il fatto, era, per infermità, in tale stato di mente da scemare grandemente, senza escluderla, la capacità d'intendere o di volere(1), risponde del reato commesso; ma la pena è diminuita [95, 108 2, 148, 219; c.p.p. 70, 305, 507](2)</basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/codice-penale/libro-primo/titolo-iv/capo-i/art89.html</basic:externalCrossReference>
+            <basic:source>Brocardi Codice penale</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>vizio parziale di mente</term>
+            <fairterm:identifier>346_it_845</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term;multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>La dottrina si è chiesta se il vizio parziale di mente possa dirsi compatibile con alcune circostanze. A tale proposito, sembrerebbe generalmente accettata tale compatibilità con la provocazione (v. 62, n. 2), in base alla considerazione che il seminfermo sarebbe in grado di percepire l'ingiustizia </basic:context>
+              <basic:externalCrossReference>La dottrina si è chiesta se il vizio parziale di mente possa dirsi compatibile con alcune circostanze. A tale proposito, sembrerebbe generalmente accettata tale compatibilità con la provocazione (v. 62, n. 2), in base alla considerazione che il seminfermo sarebbe in grado di percepire l'ingiustizia </basic:externalCrossReference>
+              <basic:source>Brocardi Codice penale</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>in caso di vizio parziale di mente, riconoscere/escludere il vizio parziale di mente, portatore di vizio parziale di mente, vizio parziale di mente socialmente pericolso</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="354">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-31 05:35:37</date>
+          <basic:responsibility>teresa.gandolla@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> forensic medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>capacité d’une personne à se réaliser sur la base de son aptitude à percevoir les situations de manière appropriée et à interagir efficacement avec les autres</basic:definition>
+            <basic:externalCrossReference>https://mapsychologie.net/maturite-psychologique-signes-niveaux-et-criteres/
+</basic:externalCrossReference>
+            <basic:source>Ma Psychologie</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>maturité psychologique</term>
+            <fairterm:identifier>354_fr_979</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term;multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>La maturité psychologique et un processus de développement qui aboutit à un état de réflexion et de plénitude. À tout âge, il est possible de faire preuve de maturité dans son comportement, ses choix, ses pensées ou ses émotions. Très utile dans la vie quotidienne, être mature ou « mûr » permet de m</basic:context>
+              <basic:externalCrossReference>La maturité psychologique et un processus de développement qui aboutit à un état de réflexion et de plénitude. À tout âge, il est possible de faire preuve de maturité dans son comportement, ses choix, ses pensées ou ses émotions. Très utile dans la vie quotidienne, être mature ou « mûr » permet de m</basic:externalCrossReference>
+              <basic:source>Pages Jaunes, Psychothérapie</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>absence de maturité psychologique, maturité psychologique suffisante</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>capacità di gestire il proprio vissuto emotivo in modo sano ed equilibrato, con crescente tolleranza allo stress e alle conseguenze delle proprie e altrui azioni e decisioni</basic:definition>
+            <basic:externalCrossReference>https://online-psicologo.eu/il-concetto-di-maturita-psicologica/</basic:externalCrossReference>
+            <basic:source>Online Psicologo</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>maturità psichica</term>
+            <fairterm:identifier>354_it_250</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term;multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Difatti, mentre l'imputabilità attiene ad un modo di essere della persona riferendosi alla sua maturità psichica e alla sua sanità mentale; la suitas concerne il rapporto tra volere del soggetto- un determinato atto, così da poter verificare se è possibile attribuire o meno un determinato comportame</basic:context>
+              <basic:externalCrossReference>Difatti, mentre l'imputabilità attiene ad un modo di essere della persona riferendosi alla sua maturità psichica e alla sua sanità mentale; la suitas concerne il rapporto tra volere del soggetto- un determinato atto, così da poter verificare se è possibile attribuire o meno un determinato comportame</basic:externalCrossReference>
+              <basic:source>Brocardi Codice penale</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>raggiunta maturità psichica, necessaria maturità psichica, insufficiente maturità psichica</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="432">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-20 14:48:03</date>
+          <basic:responsibility>teresa.gandolla@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> forensic medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>forte probabilité donc de pronostic que présente un individu de commettre une nouvelle infraction empreinte d'une certaine gravité </basic:definition>
+            <basic:externalCrossReference>https://www.academie-medecine.fr/wp-content/uploads/2013/07/ANM-dangerosit%C3%A9-26.09.12docm.pdf</basic:externalCrossReference>
+            <basic:source>Académie nationale de médecine</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>dangerosité criminologique</term>
+            <fairterm:identifier>432_fr_352</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term;multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>La dangerosité criminologique peut donc être entendue comme le risque que présente un individu de commettre une infraction contre les personnes ou contre les biens. Il est important de ne pas associer la dangerosité criminologique à un « état permanent » chez un individu car la dangerosité ne peut ê</basic:context>
+              <basic:externalCrossReference>La dangerosité criminologique peut donc être entendue comme le risque que présente un individu de commettre une infraction contre les personnes ou contre les biens. Il est important de ne pas associer la dangerosité criminologique à un « état permanent » chez un individu car la dangerosité ne peut ê</basic:externalCrossReference>
+              <basic:source>Cairn.info </basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>degré de dangerosité criminologique</fairterm:collocation>
+            <note/>
+          </termSec>
+          <termSec>
+            <term>test</term>
+            <fairterm:identifier>432_fr_846</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech/>
+            <basic:grammaticalGender/>
+            <basic:grammaticalNumber/>
+            <basic:termType/>
+            <descripGrp>
+              <basic:context>test </basic:context>
+              <basic:externalCrossReference>test </basic:externalCrossReference>
+              <basic:source>--- (source) ---</basic:source>
+            </descripGrp>
+            <fairterm:register>--- (register) ---</fairterm:register>
+            <fairterm:collocation>--- (collocation) ---</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>caratteristica eventuale dell’autore del reato, consistente nella probabilità che commetta altri reati, da valutarsi in base alle circostanze indicate nell’art. 133, non permanente in quanto sottoposta a riesame e presupposto per l’operatività delle misure di sicurezza (art. 203).
+Le quattro forme specifiche di pericolosità criminale previste dal codice civile sono: la recidiva, l'abitualità, la professionalità nel reato e la tendenza a delinquere. La prima determina quale effetto principale un aumento della sanzione penale; le altre comportano l'applicazione di una misura di sicurezza.</basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/dizionario/4558.html</basic:externalCrossReference>
+            <basic:source>Brocardi Dizionario</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>pericolosità sociale</term>
+            <fairterm:identifier>432_it_261</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term;multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>La pericolosità sociale del reo, la cui sussistenza è necessaria per l'applicazione di qualsiasi misura di sicurezza, deve essere valutata dal giudice ricorrendo ai criteri di utilizzo del suo potere discrezionale in merito alla determinazione della pena di cui all'art. 133.</basic:context>
+              <basic:externalCrossReference>La pericolosità sociale del reo, la cui sussistenza è necessaria per l'applicazione di qualsiasi misura di sicurezza, deve essere valutata dal giudice ricorrendo ai criteri di utilizzo del suo potere discrezionale in merito alla determinazione della pena di cui all'art. 133.</basic:externalCrossReference>
+              <basic:source>Brocardi Codice penale</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>indice/grado di pericolosità sociale, valutare, neutralizzare la pericolosità sociale</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="640">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-21 16:01:10</date>
+          <basic:responsibility>teresa.gandolla@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> forensic medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>capacité de choisir et d’avoir des choix, plutôt que des contingences de renforcement, motivations, ou toutes autres forces ou pressions, afin d’être le déterminant de ses actions </basic:definition>
+            <basic:externalCrossReference>https://shs.cairn.info/revue-la-nouvelle-revue-education-et-societe-inclusives-2022-2-page-25?lang=fr</basic:externalCrossReference>
+            <basic:source>Cairn Info</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>capacité d'autodétermination</term>
+            <fairterm:identifier>640_fr_938</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term;multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Par exemple, la nonréponse au besoin d'autodétermination peut mener à des troubles de comportement; la reconnaissance du droit à l'autodétermination peut s'exprimer par le désir d'avoir un enfant; la capacité d'autodétermination peut s'observer par le fait de faire des choix; l' objectif d'autodéter</basic:context>
+              <basic:externalCrossReference>Par exemple, la nonréponse au besoin d'autodétermination peut mener à des troubles de comportement; la reconnaissance du droit à l'autodétermination peut s'exprimer par le désir d'avoir un enfant; la capacité d'autodétermination peut s'observer par le fait de faire des choix; l' objectif d'autodéter</basic:externalCrossReference>
+              <basic:source>Université du Québec</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>--- (collocation) ---</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>capacità di un individuo di fare scelte e prendere decisioni che sono allineate con i propri interessi, valori e credenze personali</basic:definition>
+            <basic:externalCrossReference>https://fondazionepatriziopaoletti.org/glossario/autodeterminazione/</basic:externalCrossReference>
+            <basic:source>Fondazione Patrizio Paoletti, Glossario</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>capacità di autodeterminazione</term>
+            <fairterm:identifier>640_it_233</fairterm:identifier>
+            <fairterm:usage>admitted term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term;multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>L’autonomia intesa come la capacità di autodeterminazione comprende, oltre alla possibilità di prendere decisioni in modo indipendente, anche la capacità di controllo del proprio corpo e delle attività della vita quotidiana6. La perdita di controllo può accrescere la sensazione che una vita priva di</basic:context>
+              <basic:externalCrossReference>L’autonomia intesa come la capacità di autodeterminazione comprende, oltre alla possibilità di prendere decisioni in modo indipendente, anche la capacità di controllo del proprio corpo e delle attività della vita quotidiana6. La perdita di controllo può accrescere la sensazione che una vita priva di</basic:externalCrossReference>
+              <basic:source>Rivista italiana di cure palliative</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>capacità di autodeterminazione piena</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+          <termSec>
+            <term>capacità di autodeterminarsi</term>
+            <fairterm:identifier>640_it_342</fairterm:identifier>
+            <fairterm:usage>preferred term</fairterm:usage>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term;multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Entrambe le componenti influenzano le possibilità di autodeterminazione di un individuo all'interno di una comunità di altri soggetti altrettanto autodeterminati: avere sia il diritto sia la capacità di autodeterminarsi, implica l’avere la libertà (o opportunità) di utilizzare le proprie risorse per</basic:context>
+              <basic:externalCrossReference>Entrambe le componenti influenzano le possibilità di autodeterminazione di un individuo all'interno di una comunità di altri soggetti altrettanto autodeterminati: avere sia il diritto sia la capacità di autodeterminarsi, implica l’avere la libertà (o opportunità) di utilizzare le proprie risorse per</basic:externalCrossReference>
+              <basic:source>Università degli Studi di Padova</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>capacità di autodeterminarsi in vista di/in relazione a </fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="710">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-02 02:42:43</date>
+          <basic:responsibility>teresa.gandolla@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> forensic medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>relatif au pronostic </basic:definition>
+            <basic:externalCrossReference>https://dictionnaire.lerobert.com/definition/pronostique</basic:externalCrossReference>
+            <basic:source>Le Robert, Dictionnaire</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>pronostique</term>
+            <fairterm:identifier>710_fr_174</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>ADJ</min:partOfSpeech>
+            <basic:grammaticalGender>Com</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>single-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Le critère de jugement pronostique était la première récurrence d’une tachy-arythmie ventriculaire à 5 ans. Les critères de jugement secondaires comprenaient les traitements en cours, le taux de première réhospitalisation et la mortalité toute cause à 5 ans. Une analyse en Cox (régression), une surv</basic:context>
+              <basic:externalCrossReference>Le critère de jugement pronostique était la première récurrence d’une tachy-arythmie ventriculaire à 5 ans. Les critères de jugement secondaires comprenaient les traitements en cours, le taux de première réhospitalisation et la mortalité toute cause à 5 ans. Une analyse en Cox (régression), une surv</basic:externalCrossReference>
+              <basic:source>Science Direct </basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>jugement pronostique, facteur pronostique, certicitude pronostique, valeur pronostique, exploration pronostique</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>nel linguaggio medico, relativo alla prognosi, che serve alla formulazione della prognosi</basic:definition>
+            <basic:externalCrossReference>https://www.treccani.it/vocabolario/prognostico/</basic:externalCrossReference>
+            <basic:source>Treccani Vocabolario</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>prognostico</term>
+            <fairterm:identifier>710_it_997</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>ADJ</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>single-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Il giudizio prognostico deve essere compiutamente e concretamente motivato, pena il vizio di omessa o apparente motivazione</basic:context>
+              <basic:externalCrossReference>Il giudizio prognostico deve essere compiutamente e concretamente motivato, pena il vizio di omessa o apparente motivazione</basic:externalCrossReference>
+              <basic:source>Diritto e Giustizia</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized </fairterm:register>
+            <fairterm:collocation>giudizio prognostico, elementi prognostici, valutazione prognostica</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="817">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-20 14:39:10</date>
+          <basic:responsibility>teresa.gandolla@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> forensic medicine </fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>faculté de juger sainement, d'apprécier avec netteté et justesse. DROIT. Capacité de distinguer les actes autorisés des actes interdits</basic:definition>
+            <basic:externalCrossReference>https://www.cnrtl.fr/definition/academie9/discernement</basic:externalCrossReference>
+            <basic:source>CNRTL</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>capacité de discernement</term>
+            <fairterm:identifier>817_fr_324</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term;multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Se pose ici la question de l’égalité de traitement des jeunes présentés devant la justice. A partir de quel moment le procureur ou le juge va-t-il investiguer sur la capacité de discernement du jeune mis en cause ? Est-ce la répétition des infractions par un même jeune qui sera le déclencheur ? Est-</basic:context>
+              <basic:externalCrossReference>Se pose ici la question de l’égalité de traitement des jeunes présentés devant la justice. A partir de quel moment le procureur ou le juge va-t-il investiguer sur la capacité de discernement du jeune mis en cause ? Est-ce la répétition des infractions par un même jeune qui sera le déclencheur ? Est-</basic:externalCrossReference>
+              <basic:source>Citoyens et Justice </basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>Capable/incapable de discernement. Avoir, montrer capacité de discernement. Faire preuve de discernement. Agir sans discernement. Manquer de discernement. Altération/Absence du discernement. </fairterm:collocation>
+            <note>Le terme italien n'a pas de terme équivalent exact en français qui fait une distinction 
+entre la faculté de "comprendre" et celle de "vouloir". Cependant, le Code pénal français fait référence au « discernement » et au « contrôle des actes » (Article 122-1 du C. Pén.). Pour la traduction du terme italien, on utilisera donc l’expression « capacité de discernement », puisque le concept de « capacità di intendere e di volere » est inclus dans le concept français de « capacité de discernement ».</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>capacità, sussistente al momento del fatto e rilevante in ordine allo stesso, che si manifesta quale idoneità a rendersi conto della realtà e del valore sociale delle proprie azioni - capacità di intendere - e quale attitudine ad autodeterminarsi sulla base di dati presupposti percettivi, esercitando il controllo su stimoli e reazioni - capacità di volere - (art. 85 del c.p., art. 428 del c.c.)</basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/dizionario/2410.html</basic:externalCrossReference>
+            <basic:source>Brocardi Dizionario </basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>capacità di intendere e di volere</term>
+            <fairterm:identifier>817_it_590</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType/>
+            <descripGrp>
+              <basic:context>Non è imputabile chi, nel momento in cui ha commesso il fatto, era, per infermità(1), in tale stato di mente da escludere la capacità d'intendere o di volere [95, 108 2, 206, 222; c.p.p. 70, 305, 507](2).</basic:context>
+              <basic:externalCrossReference>Non è imputabile chi, nel momento in cui ha commesso il fatto, era, per infermità(1), in tale stato di mente da escludere la capacità d'intendere o di volere [95, 108 2, 206, 222; c.p.p. 70, 305, 507](2).</basic:externalCrossReference>
+              <basic:source>Brocardi codice penale </basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>affermare o escludere la capacità di intendere e di volere, essere capaci/incapaci di intedere e di volere, capacità di intedere e/o di volere, presenza/assenza di capacità di intedere e di volere</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="819">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-30 16:03:21</date>
+          <basic:responsibility>teresa.gandolla@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> forensic medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>la maturité intellectuelle fait référence au niveau d'indépendance dans la prise de décision et le choix d'action dans une situation réelle, en fonction des expériences personnelles, de la pertinence des effets possibles et des comportements généralement acceptables
+</basic:definition>
+            <basic:externalCrossReference>https://brainly.in/question/17930612</basic:externalCrossReference>
+            <basic:source>Brainly</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>maturité intellectuelle</term>
+            <fairterm:identifier>819_fr_677</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term;multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>La maturité intellectuelle s’acquiert avec l’accumulation des connaissances au fur et à mesure de la croissance du matériau cognitif du sujet, entendu que le développement du cortex préfrontal se termine à l’aube des 30 ans. </basic:context>
+              <basic:externalCrossReference>La maturité intellectuelle s’acquiert avec l’accumulation des connaissances au fur et à mesure de la croissance du matériau cognitif du sujet, entendu que le développement du cortex préfrontal se termine à l’aube des 30 ans. </basic:externalCrossReference>
+              <basic:source>Stéphanie Thévenet</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized </fairterm:register>
+            <fairterm:collocation>maturité intellectuelle suffisante, insuffisante </fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>fa riferimento, in senso più generale, al funzionamento cognitivo, tenuto conto della maturità affettiva legata alla maturità sociale, definendola quindi “intelligenza di condotta</basic:definition>
+            <basic:externalCrossReference>https://aipgitalia.org/wp-content/uploads/2010/02/Natali_Silvia_Tesina_AIPG10.pdf</basic:externalCrossReference>
+            <basic:source>Associazione italiana di psicologia giuridica</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>maturità intellettiva</term>
+            <fairterm:identifier>819_it_716</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term;multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Come si può notare, De Francesco (ibidem) esorta l’interprete a distinguere tra le capacità cognitivo-culturali del minorenne e, dall’altro lato, il suo grado di maturità morale, civica e valoriale. Ovverosia, una potenziale maturità intellettiva potrebbe accompagnarsi ad una totale carenza sotto il</basic:context>
+              <basic:externalCrossReference>Come si può notare, De Francesco (ibidem) esorta l’interprete a distinguere tra le capacità cognitivo-culturali del minorenne e, dall’altro lato, il suo grado di maturità morale, civica e valoriale. Ovverosia, una potenziale maturità intellettiva potrebbe accompagnarsi ad una totale carenza sotto il</basic:externalCrossReference>
+              <basic:source>Diritto penale Globalizzazione</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>maturità intellettiva sufficiente/insufficiente, raggiunta maturità intellettiva</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="913">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-02 02:28:36</date>
+          <basic:responsibility>teresa.gandolla@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> forensic medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>qui est relatif à la volonté, à la volition </basic:definition>
+            <basic:externalCrossReference>https://dictionnaire.lerobert.com/definition/volitif</basic:externalCrossReference>
+            <basic:source>Le Robert, Dico en ligne</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>volitive</term>
+            <fairterm:identifier>913_fr_650</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>ADJ</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term;single-word term</basic:termType>
+            <descripGrp>
+              <basic:context>La faculté volitive concerne quant à elle la capacité d’agir conformément à sa volonté. C’est elle qui pose le plus souvent problème pour ce qui est de la distinction entre le normal et le pathologique. En effet, les notions de volonté et de liberté d’action comportent des dimensions philosophiques </basic:context>
+              <basic:externalCrossReference>La faculté volitive concerne quant à elle la capacité d’agir conformément à sa volonté. C’est elle qui pose le plus souvent problème pour ce qui est de la distinction entre le normal et le pathologique. En effet, les notions de volonté et de liberté d’action comportent des dimensions philosophiques </basic:externalCrossReference>
+              <basic:source>Revue médicale suisse</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>faculté volitive, capacité volitive</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>relativo alla volontà</basic:definition>
+            <basic:externalCrossReference>https://dizionari.corriere.it/dizionario_italiano/V/volitivo.shtml</basic:externalCrossReference>
+            <basic:source>Dizionario Corriere</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>volitiva</term>
+            <fairterm:identifier>913_it_902</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>ADJ</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term;single-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Anche in rapporto all’altro aspetto della capacità di volere, deve negarsi che in Marco sussistesse una maturità volitiva adeguata. 
+Infatti Marco era convinto che la madre corresse pericolo di vita e che prima o poi il padre l'avrebbe uccisa, nel corso di una delle solite violente scenate delle qua</basic:context>
+              <basic:externalCrossReference>Anche in rapporto all’altro aspetto della capacità di volere, deve negarsi che in Marco sussistesse una maturità volitiva adeguata. 
+Infatti Marco era convinto che la madre corresse pericolo di vita e che prima o poi il padre l'avrebbe uccisa, nel corso di una delle solite violente scenate delle qua</basic:externalCrossReference>
+              <basic:source>Jstor, Sezione minorenni; sentenza 2 luglio 1980; Pres. ed est. Sammarco; ric. Caruso</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized </fairterm:register>
+            <fairterm:collocation>capacità volitiva, facoltà volitiva, maturità volitiva, sfera volitiva</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="928">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2025-01-01 23:26:02</date>
+          <basic:responsibility>teresa.gandolla@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> forensic medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>processus symbolique, déclarable, intervenant entre un stimulus sensoriel (ou son absence dans une série régulière) et une réponse </basic:definition>
+            <basic:externalCrossReference>https://www-sciencedirect-com.translate.goog/topics/biochemistry-genetics-and-molecular-biology/mental-function?_x_tr_sl=en&amp;_x_tr_tl=fr&amp;_x_tr_hl=fr&amp;_x_tr_pto=rq</basic:externalCrossReference>
+            <basic:source>Science Direct</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>fonctionnement psychique</term>
+            <fairterm:identifier>928_fr_327</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term;multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context> Une autre démarche, que seule la pratique clinique rend possible, est de décrire un fonctionnement psychique dans le contexte d’une « situation établie » (D.W. Winnicott 1945), ou « standard », telle la situation psychanalytique, et adressé à un clinicien. C’est à une telle tentative que je m’étais</basic:context>
+              <basic:externalCrossReference> Une autre démarche, que seule la pratique clinique rend possible, est de décrire un fonctionnement psychique dans le contexte d’une « situation établie » (D.W. Winnicott 1945), ou « standard », telle la situation psychanalytique, et adressé à un clinicien. C’est à une telle tentative que je m’étais</basic:externalCrossReference>
+              <basic:source>Cairn.info</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>fonctionnement psychique du sujet, mauvais fonctionnement psychique</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>rapporto tra le pressioni interne, esercitate dai propri bisogni psicologici ed emotivi, e le sollecitazioni che provengono dall'ambiente</basic:definition>
+            <basic:externalCrossReference>https://www.sfpid.it/funzionamento-psichico/</basic:externalCrossReference>
+            <basic:source>SFPID</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>funzionamento psichico</term>
+            <fairterm:identifier>928_it_967</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Mas</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term;multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context> L’autore concepisce inizialmente il funzionamento psichico come regolato da due principi fondamentali: il “Principio di piacere” (Idem, 1899), secondo cui la nostra psiche mira ad ottenere il piacere, ricercando una gratificazione immediata, ma prima ancora tenta di evitare il dispiacere tramite la</basic:context>
+              <basic:externalCrossReference> L’autore concepisce inizialmente il funzionamento psichico come regolato da due principi fondamentali: il “Principio di piacere” (Idem, 1899), secondo cui la nostra psiche mira ad ottenere il piacere, ricercando una gratificazione immediata, ma prima ancora tenta di evitare il dispiacere tramite la</basic:externalCrossReference>
+              <basic:source>Nuova Didattica</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized </fairterm:register>
+            <fairterm:collocation>funzionamento psichico integro, buon funzionamento psichico, funzionamento psichico del paziente</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="974">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-29 21:40:07</date>
+          <basic:responsibility>teresa.gandolla@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> forensic medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>n'est pas pénalement responsable la personne qui était atteinte, au moment des faits, d'un trouble psychique ou neuropsychique ayant aboli son discernement ou le contrôle de ses actes </basic:definition>
+            <basic:externalCrossReference>https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029370748</basic:externalCrossReference>
+            <basic:source>Légifrance</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>abolition du discernement</term>
+            <fairterm:identifier>974_fr_564</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term;multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>L' article 122-1 du code pénal distingue à cet égard deux cas : les cas d' abolition du discernement, dont le droit prévoit qu'ils doivent se traduire par l'irresponsabilité pénale du commettant, et les cas d' altération du discernement, qui restent punissables mais qui contraignent la juridiction à</basic:context>
+              <basic:externalCrossReference>L' article 122-1 du code pénal distingue à cet égard deux cas : les cas d' abolition du discernement, dont le droit prévoit qu'ils doivent se traduire par l'irresponsabilité pénale du commettant, et les cas d' altération du discernement, qui restent punissables mais qui contraignent la juridiction à</basic:externalCrossReference>
+              <basic:source>Sénat</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>en cas d'abolition du discernement, abolition substantielle/durable/définitive du discernement</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>non è imputabile chi, nel momento in cui ha commesso il fatto, era, per infermità(1), in tale stato di mente da escludere la capacità d'intendere o di volere [95, 108 2, 206, 222; c.p.p. 70, 305, 507](2)</basic:definition>
+            <basic:externalCrossReference>https://www.brocardi.it/codice-penale/libro-primo/titolo-iv/capo-i/art88.html</basic:externalCrossReference>
+            <basic:source>Brocardi Codice Penale</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>vizio totale di mente</term>
+            <fairterm:identifier>974_it_302</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>complex term;multi-word term</basic:termType>
+            <descripGrp>
+              <basic:context>In tema di giudizio d'appello, l'allegazione dell'imputato in ordine alla sussistenza di un vizio totale di mente può essere legittimamente effettuata anche soltanto mediante una memoria difensiva, senza necessità che già sia stata dedotta con i motivi d'impugnazione o con i motivi nuovi, dal moment</basic:context>
+              <basic:externalCrossReference>In tema di giudizio d'appello, l'allegazione dell'imputato in ordine alla sussistenza di un vizio totale di mente può essere legittimamente effettuata anche soltanto mediante una memoria difensiva, senza necessità che già sia stata dedotta con i motivi d'impugnazione o con i motivi nuovi, dal moment</basic:externalCrossReference>
+              <basic:source>Avvocato.it</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>in caso di vizio totale di mente, riconoscere/escludere il vizio totale di mente, portatore di vizio totale di mente, vizio totale di mente socialmente pericoloso</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="991">
+        <transacGrp>
+          <basic:transactionType>origination</basic:transactionType>
+          <date>2024-12-20 20:24:01</date>
+          <basic:responsibility>teresa.gandolla@studenti.unipd.it</basic:responsibility>
+        </transacGrp>
+        <min:subjectField>1216 - criminal law (12 - LAW)</min:subjectField>
+        <fairterm:subDomain> forensic medicine</fairterm:subDomain>
+        <fairterm:genericConcept> </fairterm:genericConcept>
+        <fairterm:specificConcept> </fairterm:specificConcept>
+        <fairterm:comprehensiveConcept> </fairterm:comprehensiveConcept>
+        <fairterm:partitiveConcept> </fairterm:partitiveConcept>
+        <langSec xml:lang="fr">
+          <descripGrp>
+            <basic:definition>état caractérisant une personne dont les facultés mentales sont exaltées et dont l'esprit est troublé par l'absorption d'une quantité importante d'alcool</basic:definition>
+            <basic:externalCrossReference>https://www.linternaute.fr/dictionnaire/fr/definition/ivresse/#definition
+</basic:externalCrossReference>
+            <basic:source>Linternaute</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>ivresse</term>
+            <fairterm:identifier>991_fr_941</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term;single-word term</basic:termType>
+            <descripGrp>
+              <basic:context>Même en l'absence de tout signe d'ivresse manifeste, le fait de conduire un véhicule sous l'empire d'un état alcoolique caractérisé par une concentration d'alcool dans le sang égale ou supérieure à 0,80 gramme par litre ou par une concentration d'alcool dans l'air expiré égale ou supérieure à 0,40 m</basic:context>
+              <basic:externalCrossReference>Même en l'absence de tout signe d'ivresse manifeste, le fait de conduire un véhicule sous l'empire d'un état alcoolique caractérisé par une concentration d'alcool dans le sang égale ou supérieure à 0,80 gramme par litre ou par une concentration d'alcool dans l'air expiré égale ou supérieure à 0,40 m</basic:externalCrossReference>
+              <basic:source>Légifrance</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>état d’ivresse, ivresse accidentelle, ivresse pathologique, ivresse morbide, ivresse publique</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <descripGrp>
+            <basic:definition>temporanea alterazione psichica dovuta all’abuso di bevande alcoliche; il fatto di abusare abitualmente di bevande alcoliche fino a diventare ubriaco</basic:definition>
+            <basic:externalCrossReference>https://www.treccani.it/vocabolario/ubriachezza/</basic:externalCrossReference>
+            <basic:source>Vocabolario Treccani</basic:source>
+            <note>--- notes ---</note>
+          </descripGrp>
+          <termSec>
+            <term>ubriachezza</term>
+            <fairterm:identifier>991_it_115</fairterm:identifier>
+            <fairterm:usage/>
+            <min:partOfSpeech>NOUN</min:partOfSpeech>
+            <basic:grammaticalGender>Fem</basic:grammaticalGender>
+            <basic:grammaticalNumber>Sing</basic:grammaticalNumber>
+            <basic:termType>simple term</basic:termType>
+            <descripGrp>
+              <basic:context>Chiunque, in un luogo pubblico o aperto al pubblico, è colto in stato di manifesta ubriachezza [689-691](1)(2) è punito con la sanzione amministrativa pecuniaria da euro 51 a euro 309.
+La pena è dell'arresto da tre a sei mesi se il fatto è commesso da chi ha già riportato una condanna per delitto no</basic:context>
+              <basic:externalCrossReference>Chiunque, in un luogo pubblico o aperto al pubblico, è colto in stato di manifesta ubriachezza [689-691](1)(2) è punito con la sanzione amministrativa pecuniaria da euro 51 a euro 309.
+La pena è dell'arresto da tre a sei mesi se il fatto è commesso da chi ha già riportato una condanna per delitto no</basic:externalCrossReference>
+              <basic:source>Brocardi Codice Penale</basic:source>
+            </descripGrp>
+            <fairterm:register>specialized</fairterm:register>
+            <fairterm:collocation>stato di ubriachezza, ubriachezza manifesta, ubriachezza molesta, ubriachezza accidentale, ubriachezza preordinata, ubriachezza cronica, ubriachezza abituale, guidare in stato di ubriachezza</fairterm:collocation>
+            <note>--- (notes) ---</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+    </body>
+  </text>
+</tbx>
