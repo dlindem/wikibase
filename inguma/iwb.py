@@ -57,7 +57,7 @@ def setqualifier(qid, prop, claimid, qualiprop, qualio, dtype):
 	global token
 	guidfix = re.compile(r'^([QLP]\d+)\-')
 	claimid = re.sub(guidfix, r'\1$', claimid)
-	print(claimid)
+	# print(claimid)
 	if dtype == "string" or dtype == "url" or dtype=="externalid":
 		qualivalue = '"'+qualio.replace('"', '\\"')+'"'
 	elif dtype == "item" or dtype =="wikibase-entityid":
@@ -73,7 +73,7 @@ def setqualifier(qid, prop, claimid, qualiprop, qualio, dtype):
 	    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"})
 	elif dtype == "monolingualtext":
 		qualivalue = json.dumps(qualio)
-	if qualiprop in ['P65']:
+	if qualiprop in ['P65', 'P93']: # cardinality 1 qualifiers
 		print(f"{qualiprop} is a max1prop as qualifier.")
 		existingclaims = getclaims(qid,prop)
 		#print(str(existingclaims))
@@ -141,7 +141,7 @@ def setqualifier(qid, prop, claimid, qualiprop, qualio, dtype):
 			setqualifier = site.post('wbsetqualifier', token=token, claim=claimid, property=qualiprop, snaktype="value", value=qualivalue, bot=1)
 			# always set!!
 			if setqualifier['success'] == 1:
-				print('Qualifier set ('+qualiprop+') '+qualivalue+': success.')
+				print(f'Qualifier set {qid} ({qualiprop}) {qualivalue}: success.')
 				return True
 		except Exception as ex:
 			if 'The statement has already a qualifier' in str(ex):
