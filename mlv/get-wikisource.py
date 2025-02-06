@@ -9,17 +9,19 @@ wikisource_source_name = "Orrialde:Larramendi_1737_Azkoitiko_Sermoia.pdf/"
 wikisource_pages = list(range(22))
 print(f"{wikisource_pages}")
 
-text = ""
+text = '<span lang="eu">'
 for page in wikisource_pages:
     url = f"http://eu.wikisource.org/wiki/{wikisource_source_name}{page+1}?action=raw"
     req = urllib.request.urlopen(url)
     print(f"Got page {page+1} from {url}")
     time.sleep(1.1)
     wikitext = req.read().decode()
-    wikitext = re.sub(r"['\[\]]", "", wikitext)
+    wikitext = re.sub(r"[\[\]]", "", wikitext)
     wikitext = re.sub(r"<[^>]+>", "", wikitext)
+    wikitext = re.sub(r" ''([^']+)''", r'</span><span lang="la">\1</span><span lang="eu">', wikitext)
     text += wikitext + " "
 
+text += "</span>"
 print(text)
 
 with open('data/LAZK.wikitext', 'w') as file:

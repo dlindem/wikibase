@@ -26,7 +26,10 @@ def lexicon_build(textname=None, doclink=None):
         for paragraph in span_content.split('{{aingura|'):
             if len(paragraph.strip()) == 0:
                 continue
-            actual_aingura = re.search(r'^([^\}]+)\}\}', paragraph).group(1)
+            try:
+                actual_aingura = re.search(r'^([^\}]+)\}\}', paragraph).group(1)
+            except:
+                pass # actual_aingura stays the same
             paragraph = re.sub('  +', ' ',paragraph.replace('\n',' '))
             tokens = word_tokenize(paragraph)
             for token in tokens:
