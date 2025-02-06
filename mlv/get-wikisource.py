@@ -1,4 +1,4 @@
-import re, json, time
+import re, json, time, sys
 import urllib.request
 from nltk.tokenize import word_tokenize
 
@@ -21,7 +21,13 @@ for page in wikisource_pages:
     text += wikitext + " "
 
 print(text)
-text = re.sub(' +', ' ',text.replace('\n',' '))
+
+with open('data/LAZK.wikitext', 'w') as file:
+    file.write(text)
+sys.exit()
+
+
+text = re.sub('  +', ' ',text.replace('\n',' '))
 paragrafoak = re.findall(r"\{\{aingura\|[0-9]+\}\}[^\{]+", text)
 print(str(paragrafoak))
 
