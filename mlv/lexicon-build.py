@@ -8,13 +8,12 @@ def lexicon_build(textname=None, doclink=None):
 
     spans = wikitext.split('<span lang="')
     print("Wikitestua kargatuta. Goiburua hau da:\n"+spans.pop(0))
-    lexicon = {}
+    lexicon = {"eu": {}, "es": {}, "la": {}}
     actual_aingura = ""
     for span in spans:
         lang = span[0:2]
         print(f"Atal honen hizkuntza: {lang}")
-        if lang != "eu":
-            continue
+
         span_content = re.search(rf'{lang}">(.*)</span>', re.sub(r'</ ?br>', ' ', span)).group(1)
         print(span_content)
         # find aingurak
@@ -25,7 +24,7 @@ def lexicon_build(textname=None, doclink=None):
             span_content = "{{aingura|" + actual_aingura + "}}" + span_content
         for paragraph in span_content.split('{{aingura|'):
             if len(paragraph.strip()) == 0:
-                continue
+                continue # aingura is right at the begin
             try:
                 actual_aingura = re.search(r'^([^\}]+)\}\}', paragraph).group(1)
             except:
@@ -36,25 +35,35 @@ def lexicon_build(textname=None, doclink=None):
                 if re.search(r"[^\w]", token) or re.search(r"\d", token):
                     continue
                 aingura_link = doclink + actual_aingura
-                if token.lower() not in lexicon:
-                    lexicon[token.lower()] = [aingura_link]
-                elif aingura_link not in lexicon[token.lower()]:
-                    lexicon[token.lower()].append(aingura_link)
+                context_re = re.compile(r' ?[^\.\}]*'+token+'[^\.\}]*\.?')
+                contexts = re.findall(context_re, paragraph)
+                if len(contexts) == 0:
+                    contexts = [" *** ERROR: Testuingurua ez dut topatu *** "]
+                for context in contexts:
+                    if token.lower() not in lexicon[lang]:
+                        lexicon[lang][token.lower()] = [(aingura_link, context.strip())]
+                    else:
+                        lexicon[lang][token.lower()].append((aingura_link, context.strip()))
     return lexicon
 
-lexicon = {}
+lexicon = {"eu": {}, "es": {}, "la": {}}
 documents = [("HHHT", "https://eu.wikisource.org/wiki/Hiztegi_Hirukoitzeko_hitzaurreko_testuak#"),
              ("LAZK", "https://eu.wikisource.org/wiki/Azkoitiko_Sermoia#")]
 for document, baselink in documents:
     doc_lexicon = lexicon_build(textname=document, doclink=baselink)
     with open(f'data/{document}_lexicon.json', 'w') as file:
         json.dump(doc_lexicon, file, indent=2)
-    for word in doc_lexicon:
-        if word not in lexicon:
-            lexicon[word] = doc_lexicon[word]
-        else:
-            lexicon[word] += doc_lexicon[word]
+    for lang in ["eu", "es", "la"]:
+        for word in doc_lexicon[lang]:
+            if word not in lexicon[lang]:
+                lexicon[lang][word] = doc_lexicon[lang][word]
+            else:
+                lexicon[lang][word] += doc_lexicon[lang][word]
+
+sorted_lexicon = {"eu": dict(sorted(lexicon['eu'].items())),
+                  "es": dict(sorted(lexicon['es'].items())),
+                  "la": dict(sorted(lexicon['la'].items()))}
 
 
 with open('data/Larramendi_lexicon.json', 'w') as file:
-    json.dump(dict(sorted(lexicon.items())), file, indent=2)
+    json.dump(sorted_lexicon, file, indent=2)
