@@ -16,16 +16,18 @@ for page in wikisource_pages:
     print(f"Got page {page+1} from {url}")
     time.sleep(1.1)
     wikitext = req.read().decode()
-    wikitext = re.sub(r"[\[\]]", "", wikitext)
-    wikitext = re.sub(r"<[^>]+>", "", wikitext)
+    # wikitext = re.sub(r"[\[\]]", "", wikitext)
+    # wikitext = re.sub(r"<[^>]+>", "", wikitext)
     wikitext = re.sub(r" ''([^']+)''", r'</span><span lang="la">\1</span><span lang="eu">', wikitext)
+    with open(f'data/Azkoitiko_Sermoia_{page+1}.wikitext', 'w') as txtfile:
+        txtfile.write(wikitext)
     text += wikitext + " "
 
 text += "</span>"
 print(text)
 
-with open('data/LAZK.wikitext', 'w') as file:
-    file.write(text)
+# with open('data/LAZK.wikitext', 'w') as file:
+#     file.write(text)
 sys.exit()
 
 
