@@ -41,9 +41,9 @@ def lexicon_build(textname=None, doclink=None):
                     contexts = [" *** ERROR: Testuingurua ez dut topatu *** "]
                 for context in contexts:
                     if token.lower() not in lexicon[lang]:
-                        lexicon[lang][token.lower()] = [(aingura_link, context.strip())]
+                        lexicon[lang][token.lower()] = [(aingura_link, context.replace("'","").strip())]
                     else:
-                        lexicon[lang][token.lower()].append((aingura_link, context.strip()))
+                        lexicon[lang][token.lower()].append((aingura_link, context.replace("'","").strip()))
     return lexicon
 
 lexicon = {"eu": {}, "es": {}, "la": {}}
@@ -67,3 +67,13 @@ sorted_lexicon = {"eu": dict(sorted(lexicon['eu'].items())),
 
 with open('data/Larramendi_lexicon.json', 'w') as file:
     json.dump(sorted_lexicon, file, indent=2)
+
+header = "testu_hitza\tlemma\tparagrafoa\ttestuingurua\n"
+taulak = {"eu": header, "es": header, "la": header}
+for lang in ["eu", "es", "la"]:
+    for word in lexicon[lang]:
+        for link, context in lexicon[lang][word]:
+            taulak[lang] += f"{word}\t\t{link}\t{context}\n"
+for lang in ["eu", "es", "la"]:
+    with open(f'data/Larramendi_lexicon_{lang}.csv', 'w') as file:
+        file.write(taulak[lang])
