@@ -1,0 +1,112 @@
+element	attribute	attributeValue	liderURI	dtype	values	
+admin	type	annotatedNote	<http://tbx2rdf.lider-project.eu/tbx#annotatedNote>	string		
+admin	type	applicationSubset	<http://tbx2rdf.lider-project.eu/tbx#applicationSubset>	string		
+admin	type	businessUnitSubset	<http://tbx2rdf.lider-project.eu/tbx#businessUnitSubset>	string		
+admin	type	conceptOrigin	<http://tbx2rdf.lider-project.eu/tbx#conceptOrigin>	string		
+admin	type	customerSubset	<http://tbx2rdf.lider-project.eu/tbx#customerSubset>	string		
+admin	type	databaseType	<http://tbx2rdf.lider-project.eu/tbx#databaseType>	string		
+admin	type	domainExpert	<http://tbx2rdf.lider-project.eu/tbx#domainExpert>	string		
+admin	type	elementWorkingStatus	<http://tbx2rdf.lider-project.eu/tbx#elementWorkingStatus>	wikibase-item	starterElement,workingElement,consolidatedElement,archiveElement,importedElement,exportedElement	
+admin	type	entrySource	<http://tbx2rdf.lider-project.eu/tbx#entrySource>	string		
+admin	type	environmentSubset	<http://tbx2rdf.lider-project.eu/tbx#environmentSubset>	string		
+admin	type	indexHeading	<http://tbx2rdf.lider-project.eu/tbx#indexHeading>	string		
+admin	type	keyword	<http://tbx2rdf.lider-project.eu/tbx#keyword>	string		
+admin	type	originatingDatabase	<http://tbx2rdf.lider-project.eu/tbx#originatingDatabase>	string		
+admin	type	originatingInstitution	<http://tbx2rdf.lider-project.eu/tbx#originatingInstitution>	string		
+admin	type	originatingPerson	<http://tbx2rdf.lider-project.eu/tbx#originatingPerson>	string		
+admin	type	productSubset	<http://tbx2rdf.lider-project.eu/tbx#productSubset>	string		
+admin	type	projectSubset	<http://tbx2rdf.lider-project.eu/tbx#projectSubset>	string		
+admin	type	searchTerm	<http://tbx2rdf.lider-project.eu/tbx#searchTerm>	string		
+admin	type	securitySubset	<http://tbx2rdf.lider-project.eu/tbx#securitySubset>	wikibase-item	public,confidential	
+admin	type	sortKey	<http://tbx2rdf.lider-project.eu/tbx#sortKey>	string		
+admin	type	source	<http://tbx2rdf.lider-project.eu/tbx#source>	string		
+admin	type	sourceIdentifier	<http://tbx2rdf.lider-project.eu/tbx#sourceIdentifier>	string		
+admin	type	status		string		
+admin	type	subsetOwner	<http://tbx2rdf.lider-project.eu/tbx#subsetOwner>	string		
+adminNote	type	noteSource	<http://tbx2rdf.lider-project.eu/tbx#noteSource>	string		
+adminNote	type	sourceType	<http://tbx2rdf.lider-project.eu/tbx#sourceType>	wikibase-item	parallelText,backgroundText	
+transacGrp	null	date	<http://www.w3.org/ns/prov#endedAtTime>	time		
+descrip	type	antonymConcept	<http://tbx2rdf.lider-project.eu/tbx#antonymConcept>	wikibase-item		
+descrip	type	associatedConcept	<http://tbx2rdf.lider-project.eu/tbx#associatedConcept>	wikibase-item		
+descrip	type	audio	<http://tbx2rdf.lider-project.eu/tbx#audio>	string		
+descrip	type	broaderConceptGeneric	<http://tbx2rdf.lider-project.eu/tbx#broaderConceptGeneric>	wikibase-item		
+descrip	type	broaderConceptPartitive	<http://tbx2rdf.lider-project.eu/tbx#broaderConceptPartitive>	wikibase-item		
+descrip	type	characteristic	<http://tbx2rdf.lider-project.eu/tbx#characteristic>	string		
+descrip	type	classificationCode	<http://tbx2rdf.lider-project.eu/tbx#classificationCode>	string		
+descrip	type	conceptPosition	<http://tbx2rdf.lider-project.eu/tbx#conceptPosition>	string		
+descrip	type	coordinateConceptGeneric	<http://tbx2rdf.lider-project.eu/tbx#coordinateConceptGeneric>	wikibase-item		
+descrip	type	coordinateConceptPartitive	<http://tbx2rdf.lider-project.eu/tbx#coordinateConceptPartitive>	wikibase-item		
+descrip	type	definition	<http://tbx2rdf.lider-project.eu/tbx#definition>	string		
+descrip	type	example	<http://tbx2rdf.lider-project.eu/tbx#example>	string		
+descrip	type	explanation	<http://tbx2rdf.lider-project.eu/tbx#explanation>	string		
+descrip	type	figure	<http://tbx2rdf.lider-project.eu/tbx#figure>	string		
+descrip	type	hyphenation	<http://tbx2rdf.lider-project.eu/tbx#hyphenation>	string		
+descrip	type	lemma	<http://tbx2rdf.lider-project.eu/tbx#lemma>	string		
+descrip	type	morphologicalElement	<http://tbx2rdf.lider-project.eu/tbx#morphologicalElement>	string		
+descrip	type	otherBinaryData	<http://tbx2rdf.lider-project.eu/tbx#otherBinaryData>	string		
+descrip	type	quantity	<http://tbx2rdf.lider-project.eu/tbx#quantity>	string		
+descrip	type	range	<http://tbx2rdf.lider-project.eu/tbx#range>	string		
+descrip	type	relatedConcept	<http://tbx2rdf.lider-project.eu/tbx#relatedConcept>	wikibase-item		
+descrip	type	relatedConceptBroader	<http://tbx2rdf.lider-project.eu/tbx#relatedConceptBroader>	wikibase-item		
+descrip	type	relatedConceptNarrower	<http://tbx2rdf.lider-project.eu/tbx#relatedConceptNarrower>	wikibase-item		
+descrip	type	reliabilityCode	<http://tbx2rdf.lider-project.eu/tbx#reliabilityCode>	string		
+descrip	type	sampleSentence	<http://tbx2rdf.lider-project.eu/tbx#sampleSentence>	string		
+descrip	type	sequentallyRelatedConcept	<http://tbx2rdf.lider-project.eu/tbx#sequentallyRelatedConcept>	wikibase-item		
+descrip	type	subjectField		string		
+descrip	type	subordinateConceptGeneric	<http://tbx2rdf.lider-project.eu/tbx#subordinateConceptGeneric>	wikibase-item		
+descrip	type	subordinateConceptPartitive	<http://tbx2rdf.lider-project.eu/tbx#subordinateConceptPartitive>	wikibase-item		
+descrip	type	superordinateConceptGeneric	<http://tbx2rdf.lider-project.eu/tbx#superordinateConceptGeneric>	wikibase-item		
+descrip	type	superordinateConceptPartitive	<http://tbx2rdf.lider-project.eu/tbx#superordinateConceptPartitive>	wikibase-item		
+descrip	type	syllabification	<http://tbx2rdf.lider-project.eu/tbx#syllabification>	string		
+descrip	type	table	<http://tbx2rdf.lider-project.eu/tbx#table>	wikibase-item		
+descrip	type	temporallyRelatedConcept	<http://tbx2rdf.lider-project.eu/tbx#temporallyRelatedConcept>	wikibase-item		
+descrip	type	termElement	<http://tbx2rdf.lider-project.eu/tbx#termElement>	string		
+descrip	type	thesaurusDescriptor	<http://tbx2rdf.lider-project.eu/tbx#thesaurusDescriptor>	string		
+descrip	type	unit	<http://tbx2rdf.lider-project.eu/tbx#unit>	string		
+descrip	type	video	<http://tbx2rdf.lider-project.eu/tbx#video>	string		
+descripNote	type	contextType	<http://tbx2rdf.lider-project.eu/tbx#contextType>	wikibase-item		{definingContext,explanatoryContext,associativeContext,linguisticContext,metalinguisticContext,translatedContext}
+descripNote	type	definitionType	<http://tbx2rdf.lider-project.eu/tbx#definitionType>	wikibase-item	intensionalDefinition,extensionalDefinition,partitiveDefinition,translatedDefinition	
+ref	type	crossReference	<http://tbx2rdf.lider-project.eu/tbx#crossReference>	wikibase-item		
+ref	type	see	<http://tbx2rdf.lider-project.eu/tbx#see>	string		
+termNote	directionality	bidirectional	<http://tbx2rdf.lider-project.eu/tbx#bidirectionalTranslation>	wikibase-item		
+termNote	directionality	incommensurate	<http://tbx2rdf.lider-project.eu/tbx#incommensurateTranslation>	wikibase-item		
+termNote	directionality	monodirectional	<http://tbx2rdf.lider-project.eu/tbx#monodirectionalTranslation>	wikibase-item		
+termNote	directionality	undetermined	<http://tbx2rdf.lider-project.eu/tbx#undeterminedTranslation>	wikibase-item		
+termNote	type	abbreviatedFormFor	<http://tbx2rdf.lider-project.eu/tbx#abbreviatedFormFor>	string		
+termNote	type	administrativeStatus	<http://tbx2rdf.lider-project.eu/tbx#administrativeStatus>	wikibase-item	admittedTerm-admn-sts,deprecatedTerm-admn-sts,legalTerm-admn-sts,preferredTerm-admn-sts,regulatedTerm-admn-sts,standardizedTerm-admn-sts,supersededTerm-admn-sts	
+termNote	type	animacy	<http://tbx2rdf.lider-project.eu/tbx#animacy>	wikibase-item	animate,inanimate,otherAnimacy	
+termNote	type	antonymTerm	<http://tbx2rdf.lider-project.eu/tbx#antonymTerm>	string		
+termNote	type	etymology	<http://tbx2rdf.lider-project.eu/tbx#etymology>	string		
+termNote	type	falseFriend	<http://tbx2rdf.lider-project.eu/tbx#falseFriend>	wikibase-item		
+termNote	type	frequency	<http://tbx2rdf.lider-project.eu/tbx#frequency>	wikibase-item	commonlyUsed,infrequentlyUsed,rarelyUsed	
+termNote	type	geographicalUsage	<http://tbx2rdf.lider-project.eu/tbx#geographicalUsage>	string		
+termNote	type	grammaticalGender	<http://tbx2rdf.lider-project.eu/tbx#grammaticalGender>	wikibase-item	masculine,feminine,neuter,otherGender	
+termNote	type	grammaticalNumber	<http://tbx2rdf.lider-project.eu/tbx#grammaticalNumber>	wikibase-item	singular,plural,dual,mass,otherNumber	
+termNote	type	grammaticalValency	<http://tbx2rdf.lider-project.eu/tbx#grammaticalValency>	string		
+termNote	type	homograph	<http://tbx2rdf.lider-project.eu/tbx#homograph>	wikibase-item		
+termNote	type	language-planningQualifier	<http://tbx2rdf.lider-project.eu/tbx#languagePlanningQualifier>	wikibase-item	recommendedTerm,nonstandardizedTerm,proposedTerm,newTerm	
+termNote	type	lionHotkey	<http://tbx2rdf.lider-project.eu/tbx#lionHotkey>	string		
+termNote	type	normativeAuthorization	<http://tbx2rdf.lider-project.eu/tbx#normativeAuthorization>	wikibase-item	standardizedTerm,preferredTerm,admittedTerm,deprecatedTerm,supersededTerm,legalTerm,regulatedTerm	
+termNote	type	partOfSpeech	<http://tbx2rdf.lider-project.eu/tbx#partOfSpeech>	wikibase-item	noun,verb,adjective,adverb,properNoun,other	
+termNote	type	pronunciation	<http://tbx2rdf.lider-project.eu/tbx#pronunciation>	string		
+termNote	type	proprietaryRestriction	<http://tbx2rdf.lider-project.eu/tbx#proprietaryRestriction>	wikibase-item	trademark,serviceMark,tradeName	
+termNote	type	register	<http://tbx2rdf.lider-project.eu/tbx#register>	wikibase-item	colloquialRegister,neutralRegister,technicalRegister,in-houseRegister,bench-levelRegister,slangRegister,vulgarRegister	
+termNote	type	shortFormFor	<http://tbx2rdf.lider-project.eu/tbx#shortFormFor>	wikibase-item		
+termNote	type	temporalQualifier	<http://tbx2rdf.lider-project.eu/tbx#temporalQualifiery>	wikibase-item	archaicTerm,outdatedTerm,obsoleteTerm	
+termNote	type	termLocation	<http://tbx2rdf.lider-project.eu/tbx#termLocation>	string		
+termNote	type	termProvenance	<http://tbx2rdf.lider-project.eu/tbx#termProvenance>	wikibase-item	transdisciplinaryBorrowing,translingualBorrowing,loanTranslation,neologism	
+termNote	type	termStructure	<http://tbx2rdf.lider-project.eu/tbx#termStructure>	string		
+termNote	type	termType	<http://www.lexinfo.net/ontology/2.0/lexinfo#termType>	wikibase-item	abbreviation,acronym,clippedTerm,commonName,entryTerm,equation,formula,fullForm,initialism,internationalism,internationalScientificTerm,logicalExpression,partNumber,phraseologicalUnit,transcribedForm,transliteratedForm,shortForm,shortcut,sku,standardText,string,symbol,synonym,synonymousPhrase,variant	
+termNote	type	timeRestriction	<http://tbx2rdf.lider-project.eu/tbx#timeRestriction>	string		
+termNote	type	transferComment	<http://tbx2rdf.lider-project.eu/tbx#transferComment>	string		
+termNote	type	usageNote	<http://tbx2rdf.lider-project.eu/tbx#usageNote>	string		
+transac	type	transactionType	<http://tbx2rdf.lider-project.eu/tbx#transactionType>	string		
+transacNote	type	responsibility	<http://www.w3.org/ns/prov#wasAssociatedWith>	string		
+transacNote	type	usageCount	<http://tbx2rdf.lider-project.eu/tbx#usaageCount>	string		
+xref	type	corpusTrace	<http://tbx2rdf.lider-project.eu/tbx#corpusTrace>	url		
+xref	type	externalCrossReference	<http://tbx2rdf.lider-project.eu/tbx#externalCrossReference>	url		
+xref	type	xAudio	<http://tbx2rdf.lider-project.eu/tbx#xAudio>	url		
+xref	type	xGraphic	<http://tbx2rdf.lider-project.eu/tbx#xGraphic>	url		
+xref	type	xMathML	<http://tbx2rdf.lider-project.eu/tbx#xMathML>	url		
+xref	type	xSource	<http://tbx2rdf.lider-project.eu/tbx#xSource>	url		
+xref	type	xVideo	<http://tbx2rdf.lider-project.eu/tbx#xVideo>	url		
