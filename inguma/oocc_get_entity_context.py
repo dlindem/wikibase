@@ -22,7 +22,7 @@ import re, csv, sys, time
 import requests, iwb
 
 print("Getting data from Wikibase...")
-r = requests.get("https://wikibase.inguma.eus/query/sparql?format=json&query=%23title%3A%20concepts%20part%20of%20%22OOCC%20%C3%ADndice%20de%20nombres%22%2C%20and%20their%20OOCC%20references%0APREFIX%20iwb%3A%20%3Chttps%3A%2F%2Fwikibase.inguma.eus%2Fentity%2F%3E%0APREFIX%20idp%3A%20%3Chttps%3A%2F%2Fwikibase.inguma.eus%2Fprop%2Fdirect%2F%3E%0APREFIX%20ip%3A%20%3Chttps%3A%2F%2Fwikibase.inguma.eus%2Fprop%2F%3E%0APREFIX%20ips%3A%20%3Chttps%3A%2F%2Fwikibase.inguma.eus%2Fprop%2Fstatement%2F%3E%0APREFIX%20ipq%3A%20%3Chttps%3A%2F%2Fwikibase.inguma.eus%2Fprop%2Fqualifier%2F%3E%0A%0Aselect%20%3Fentity%20(group_concat%20(distinct%20str(%3Flabel)%3BSEPARATOR%3D%22%7C%22)%20as%20%3Flabels)%20%3Faipu%20%3Foocc_item%20%3Foocc_pages%20%3Fref_pages%20%3Fpdf%0Awhere%20%7B%0A%20%20%3Fentity%20idp%3AP32%20iwb%3AQ45164%3B%20rdfs%3Alabel%7Cskos%3AaltLabel%20%3Flabel.%0A%20%20%3Fentity%20ip%3AP92%20%3Faipu.%20%3Faipu%20ips%3AP92%20%3Foocc_item%3B%20ipq%3AP80%20%3Fref_pages.%0A%20%20filter%20not%20exists%20%7B%3Faipu%20ipq%3AP93%20%3Ftext.%7D%0A%20%20%3Foocc_item%20ip%3AP71%20%5Bipq%3AP72%20%3Fpdf%5D%3B%20idp%3AP80%20%3Foocc_pages.%0A%20%7D%20group%20by%20%3Fentity%20%3Flabels%20%3Faipu%20%3Foocc_item%20%3Foocc_pages%20%3Fref_pages%20%3Fpdf%20%0Alimit%201000%20")
+r = requests.get("https://wikibase.inguma.eus/query/sparql?format=json&query=%23title%3A%20concepts%20part%20of%20%22OOCC%20%C3%ADndice%20de%20nombres%22%2C%20and%20their%20OOCC%20references%0APREFIX%20iwb%3A%20%3Chttps%3A%2F%2Fwikibase.inguma.eus%2Fentity%2F%3E%0APREFIX%20idp%3A%20%3Chttps%3A%2F%2Fwikibase.inguma.eus%2Fprop%2Fdirect%2F%3E%0APREFIX%20ip%3A%20%3Chttps%3A%2F%2Fwikibase.inguma.eus%2Fprop%2F%3E%0APREFIX%20ips%3A%20%3Chttps%3A%2F%2Fwikibase.inguma.eus%2Fprop%2Fstatement%2F%3E%0APREFIX%20ipq%3A%20%3Chttps%3A%2F%2Fwikibase.inguma.eus%2Fprop%2Fqualifier%2F%3E%0A%0Aselect%20%3Fentity%20(group_concat%20(distinct%20str(%3Flabel)%3BSEPARATOR%3D%22%7C%22)%20as%20%3Flabels)%20%3Faipu%20%3Foocc_item%20%3Foocc_pages%20%3Fref_pages%20%3Fpdf%0Awhere%20%7B%0A%20%20%3Fentity%20idp%3AP32%20iwb%3AQ45164%3B%20rdfs%3Alabel%7Cskos%3AaltLabel%20%3Flabel.%0A%20%20%3Fentity%20ip%3AP92%20%3Faipu.%20%3Faipu%20ips%3AP92%20%3Foocc_item%3B%20ipq%3AP80%20%3Fref_pages.%0A%20%20filter%20not%20exists%20%7B%3Faipu%20ipq%3AP93%20%3Ftext.%7D%0A%20%20%3Foocc_item%20ip%3AP71%20%5Bipq%3AP72%20%3Fpdf%5D%3B%20idp%3AP80%20%3Foocc_pages.%0A%20%7D%20group%20by%20%3Fentity%20%3Flabels%20%3Faipu%20%3Foocc_item%20%3Foocc_pages%20%3Fref_pages%20%3Fpdf%20%0Alimit%202000%20")
 bindings = r.json()['results']['bindings']
 
 found = 0
@@ -85,7 +85,7 @@ for row in bindings:
             for context in contexts:
                 if count != ref_page or context[:30] in seen_contexts:
                     continue
-                print(f"\n**Context at oocc_page {count}, should be {ref_page}\n{context}")
+                print(f"**Context at oocc_page {count}, should be {ref_page}\n{context}")
                 seen_contexts.append(context[:30])
                 context = context.replace("\n"," ").strip()
                 context = re.sub(r"^\. ?", "", context.replace("· ",". "))
