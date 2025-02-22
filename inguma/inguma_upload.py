@@ -132,7 +132,7 @@ def extra(groupname=None, fieldname=None, value=None):
 				try:
 					r = opener.open('http://dx.doi.org/'+puredoi)
 					# print(str(r.info()['Link']))
-					pdflink = re.search('<([^\>]+\.pdf)>', str(r.info()['Link']))
+					pdflink = re.search('<([^>]+\.pdf)>', str(r.info()['Link']))
 					if pdflink:
 						print('Found PDF link at crossref: '+pdflink.group(1))
 						statements['append'].append(iwbiv1.URL(value=pdflink.group(1), prop_nr="P48", qualifiers=[iwbiv1.ExternalID(prop_nr="P20", value=puredoi)]))
@@ -280,7 +280,8 @@ with open('data/affiliations_qidmapping.csv', 'r', encoding="utf-8") as txtfile:
 def get_affiliations(entry, statements):
 	person_affiliations = inguma.get_person_affiliations(entry)
 	for aff in person_affiliations:
-		statements['replace'].append(iwbiv1.Item(value=affqid[str(aff)], prop_nr="P61"))
+		if str(aff) in affqid:
+			statements['replace'].append(iwbiv1.Item(value=affqid[str(aff)], prop_nr="P61"))
 	return statements
 
 # load organizations
@@ -293,15 +294,16 @@ with open('data/organizations_qidmapping.csv', 'r', encoding="utf-8") as txtfile
 			break
 		orgqid[rowsplit[0]] = rowsplit[1]
 def get_orgs(entryjson, statements):
-	value = orgqid[str(entryjson['organizationId'])]
-	statements['replace'].append(iwbiv1.Item(value=value, prop_nr="P37"))
-	print('Found publisher: '+value)
+	if str(entryjson['organizationId']) != "None":
+		value = orgqid[str(entryjson['organizationId'])]
+		statements['replace'].append(iwbiv1.Item(value=value, prop_nr="P37"))
+		print('Found publisher: '+value)
 	return statements
 
 def update_group(groupname, rewrite=False): # if rewrite=True is passed, existing wikibase items are checked and re-written
 	print('\nWill process group '+groupname+'...\n')
-	# keypress = input('Press 1 for downloading new data from INGUMA, other keys for re-using existing file.')
-	keypress = 0
+	keypress = input('Press 1 for downloading new data from INGUMA, other keys for re-using existing file.')
+	# keypress = 0
 	if keypress == "1":
 		group = inguma.get_ingumagroup(groupname)
 	else:
@@ -351,7 +353,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 				continue # continue: skip existing qid
 
 			iwbitem = iwbiv1.wbi.item.get(entity_id=qidmapping[str(entry)])
-			clear = True # clear = True will delete all existing claims!!
+			clear = False # clear = True will delete all existing claims!!
 
 			#print(str(iwbitem.claims))
 		# else:
@@ -392,7 +394,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 			statements = get_areas(entry, statements) # knowledge area items
 			statements = get_orgs(group[entry], statements) # publisher item
 		if groupname == "persons":
-		 	statements = get_affiliations(entry, statements)
+			statements = get_affiliations(entry, statements)
 
 		# other claims (treated according to inguma.mappings)
 		for key, value in group[entry].items():
