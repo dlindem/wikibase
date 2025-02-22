@@ -73,7 +73,7 @@ def setqualifier(qid, prop, claimid, qualiprop, qualio, dtype):
 	    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"})
 	elif dtype == "monolingualtext":
 		qualivalue = json.dumps(qualio)
-	if qualiprop in ['P65', 'P93']: # cardinality 1 qualifiers
+	if qualiprop in ['P65']: #   , 'P93']: # cardinality 1 qualifiers
 		print(f"{qualiprop} is a max1prop as qualifier.")
 		existingclaims = getclaims(qid,prop)
 		#print(str(existingclaims))
