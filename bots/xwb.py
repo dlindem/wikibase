@@ -852,13 +852,13 @@ def setclaimvalue(guid, value, dtype):
 # set a Qualifier
 def setqualifier(qid, prop, claimid, qualiprop, qualio, dtype):
 	global token
-	print(f"GUID: {claimid}")
+	# print(f"GUID: {claimid}")
 	guidfix_re = re.search(r'^([QLP]\d+)\-(.*)', claimid)
 	if guidfix_re:
 		claimid = guidfix_re.group(1) + '$' + guidfix_re.group(2)
 	# guidfix = re.compile(r'^([QLP]\d+)\-')
 	# claimid = re.sub(guidfix, r'\1$', claimid)
-	print(f"good GUID: {claimid}")
+	# print(f"good GUID: {claimid}")
 	if dtype == "string" or dtype == "url":
 		qualivalue = '"'+qualio.replace('"', '\\"')+'"'
 	elif dtype == "item" or dtype =="wikibase-entityid":
@@ -878,68 +878,68 @@ def setqualifier(qid, prop, claimid, qualiprop, qualio, dtype):
 		qualivalue = json.dumps({
 			"entity-type": "sense",
 			"id": qualio})
-	# if qualiprop in config.card1props:
-	# 	#print('Detected max1prop as qualifier.')
-	# 	existingclaims = getclaims(qid,prop)
-	# 	#print(str(existingclaims))
-	# 	qid = existingclaims[0]
-	# 	existingclaims = existingclaims[1]
-	# 	if prop in existingclaims:
-	# 		for claim in existingclaims[prop]:
-	# 			if claim['id'] != claimid:
-	# 				continue # skip other claims
-	# 			if "qualifiers" in claim:
-	# 				if qualiprop in claim['qualifiers']:
-	# 					existingqualihashes = {}
-	# 					for quali in claim['qualifiers'][qualiprop]:
-	# 						existingqualihash = quali['hash']
-	# 						existingqualivalue = quali['datavalue']['value']
-	# 						if isinstance(existingqualivalue, dict):
-	# 							if "time" in existingqualivalue:
-	# 								existingqualivalue = {"time":existingqualivalue['time'],"precision":existingqualivalue['precision']}
-	# 							if "text" in existingqualivalue and "language" in existingqualivalue:
-	# 								existingqualivalue = json.dumps(existingqualivalue)
-	# 						existingqualihashes[existingqualihash] = existingqualivalue
-	# 					#print('Found an existing '+qualiprop+' type card1 qualifier: '+str(list(existingqualihashes.values())[0]))
-	# 					allhashes = list(existingqualihashes.keys())
-	# 					done = False
-	# 					while (not done):
-	# 						if len(existingqualihashes) > 1:
-	# 							print('Found several qualis, but cardinality is 1; will delete all but the newest.')
-	# 							for delqualihash in allhashes:
-	# 								if delqualihash == allhashes[len(allhashes)-1]: # leave the last one intact
-	# 									print('Will leave intact this quali: '+existingqualihashes[delqualihash])
-	# 									existingqualihash = existingqualihashes[delqualihash]
-	# 								else:
-	# 									removequali(claimid,delqualihash)
-	# 									del existingqualihashes[delqualihash]
-	# 						elif len(existingqualihashes) == 1:
-	# 							done = True
-	#
-	# 					if str(list(existingqualihashes.values())[0]) in qualivalue:
-	# 						print('Found duplicate value for card1 quali. Skipped.')
-	# 						return True
-	# 					if dtype == "time":
-	# 						if list(existingqualihashes.values())[0]['time'] == qualio['time'] and list(existingqualihashes.values())[0]['precision'] == qualio['precision']:
-	# 							#print('Found duplicate value for '+qualiprop+' type time card1 quali. Skipped.')
-	# 							return True
-	#
-	# 					print('New value to be written to existing card1 quali.')
-	# 					try:
-	# 						while True:
-	# 							setqualifier = site.post('wbsetqualifier', token=token, claim=claimid, snakhash=existingqualihash, property=qualiprop, snaktype="value", value=qualivalue, bot=1)
-	# 							# always set!!
-	# 							if setqualifier['success'] == 1:
-	# 								print('Qualifier set ('+qualiprop+') '+qualivalue+': success.')
-	# 								return True
-	# 							print('Qualifier set failed, will try again...')
-	# 							# logging.error('Qualifier set failed for '+prop+' ('+qualiprop+') '+qualivalue+': '+str(ex))
-	# 							time.sleep(3)
-	#
-	# 					except Exception as ex:
-	# 						if 'The statement has already a qualifier' in str(ex):
-	# 							print('The statement already has that object as ('+qualiprop+') qualifier: skipped writing duplicate qualifier')
-	# 							return False
+	if qualiprop in ['P63']:
+		#print('Detected max1prop as qualifier.')
+		existingclaims = getclaims(qid,prop)
+		#print(str(existingclaims))
+		qid = existingclaims[0]
+		existingclaims = existingclaims[1]
+		if prop in existingclaims:
+			for claim in existingclaims[prop]:
+				if claim['id'] != claimid:
+					continue # skip other claims
+				if "qualifiers" in claim:
+					if qualiprop in claim['qualifiers']:
+						existingqualihashes = {}
+						for quali in claim['qualifiers'][qualiprop]:
+							existingqualihash = quali['hash']
+							existingqualivalue = quali['datavalue']['value']
+							if isinstance(existingqualivalue, dict):
+								if "time" in existingqualivalue:
+									existingqualivalue = {"time":existingqualivalue['time'],"precision":existingqualivalue['precision']}
+								if "text" in existingqualivalue and "language" in existingqualivalue:
+									existingqualivalue = json.dumps(existingqualivalue)
+							existingqualihashes[existingqualihash] = existingqualivalue
+						print('Found an existing '+qualiprop+' type card1 qualifier: '+str(list(existingqualihashes.values())[0]))
+						allhashes = list(existingqualihashes.keys())
+						done = False
+						while (not done):
+							if len(existingqualihashes) > 1:
+								print('Found several qualis, but cardinality is 1; will delete all but the newest.')
+								for delqualihash in allhashes:
+									if delqualihash == allhashes[len(allhashes)-1]: # leave the last one intact
+										print('Will leave intact this quali: '+existingqualihashes[delqualihash])
+										existingqualihash = existingqualihashes[delqualihash]
+									else:
+										removequali(claimid,delqualihash)
+										del existingqualihashes[delqualihash]
+							elif len(existingqualihashes) == 1:
+								done = True
+
+						if str(list(existingqualihashes.values())[0]) in qualivalue:
+							print('Found duplicate value for card1 quali. Skipped.')
+							return True
+						if dtype == "time":
+							if list(existingqualihashes.values())[0]['time'] == qualio['time'] and list(existingqualihashes.values())[0]['precision'] == qualio['precision']:
+								#print('Found duplicate value for '+qualiprop+' type time card1 quali. Skipped.')
+								return True
+
+						print('New value to be written to existing card1 quali.')
+						try:
+							while True:
+								setqualifier = site.post('wbsetqualifier', token=token, claim=claimid, snakhash=existingqualihash, property=qualiprop, snaktype="value", value=qualivalue, bot=1)
+								# always set!!
+								if setqualifier['success'] == 1:
+									print('Qualifier set ('+qualiprop+') '+qualivalue+': success.')
+									return True
+								print('Qualifier set failed, will try again...')
+								# logging.error('Qualifier set failed for '+prop+' ('+qualiprop+') '+qualivalue+': '+str(ex))
+								time.sleep(3)
+
+						except Exception as ex:
+							if 'The statement has already a qualifier' in str(ex):
+								print('The statement already has that object as ('+qualiprop+') qualifier: skipped writing duplicate qualifier')
+								return False
 	# not a max1quali >> write new quali in case value is different to existing value
 	while True:
 		try:

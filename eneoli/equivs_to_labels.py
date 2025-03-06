@@ -72,7 +72,7 @@ with open('data/languages_table.csv') as csvfile:
                     need_to_write = True
                 else:
                     equivs.remove(preflabel)
-                    print(f"PrefLabel {preflabel} is OK. Will write to altlabel: {equivs}")
+                    print(f"PrefLabel '{preflabel}' is OK. Will write to altlabel: {equivs}")
                 wb_item.aliases.set(language=row['wiki_languagecode'], values=equivs,
                                     action_if_exists=xwbi.ActionIfExists.REPLACE_ALL)
                 print(f"Set altLabels to {equivs}.")
