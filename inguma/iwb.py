@@ -53,7 +53,27 @@ def setclaimvalue(guid, value, dtype):
 				print('Claim update failed... Will try again. Result was: '+str(results))
 				time.sleep(4)
 
-def setqualifier(qid, prop, claimid, qualiprop, qualio, dtype):
+#remove qualifier
+def removequali(guid, hash):
+	global token
+	done = False
+	while (not done):
+		try:
+			results = site.post('wbremovequalifiers', claim=guid, qualifiers=hash, token=token)
+			if results['success'] == 1:
+				print('Wb remove qualifier success.')
+				done = True
+		except Exception as ex:
+			print('Removequalifier operation failed, will try again...\n'+str(ex))
+			if 'Invalid CSRF token.' in str(ex):
+				print('Wait a sec. Must get a new CSRF token...')
+				token = get_token()
+			if 'no-such-qualifier' in str(ex):
+				print('The qualifier to remove was not found.')
+				done = True
+			time.sleep(4)
+
+def setqualifier(qid, prop, claimid, qualiprop, qualio, dtype, replaceall=False):
 	global token
 	guidfix = re.compile(r'^([QLP]\d+)\-')
 	claimid = re.sub(guidfix, r'\1$', claimid)
@@ -73,8 +93,8 @@ def setqualifier(qid, prop, claimid, qualiprop, qualio, dtype):
 	    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"})
 	elif dtype == "monolingualtext":
 		qualivalue = json.dumps(qualio)
-	if qualiprop in ['P65', 'P93']: # cardinality 1 qualifiers
-		print(f"{qualiprop} is a max1prop as qualifier.")
+	if qualiprop in ['P65', 'P93'] and replaceall: # cardinality 1 qualifiers
+		print(f"{qualiprop} is a max1prop as qualifier. Will go through max1prop loop.")
 		existingclaims = getclaims(qid,prop)
 		#print(str(existingclaims))
 		qid = existingclaims[0]
@@ -111,7 +131,7 @@ def setqualifier(qid, prop, claimid, qualiprop, qualio, dtype):
 							elif len(existingqualihashes) == 1:
 								done = True
 
-						if str(list(existingqualihashes.values())[0]) in qualivalue:
+						if qualivalue in str(list(existingqualihashes.values())[0]):
 							print('Found duplicate value for card1 quali. Skipped.')
 							return True
 						if dtype == "time":
