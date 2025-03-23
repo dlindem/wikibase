@@ -78,7 +78,7 @@ for row in bindings:
             contexts = []
             seen_shortnames = []
             for entity_name in entity_names:
-                entity_short = re.sub(" .*", "", entity_name)
+                entity_short = re.sub(r",? .*", "", entity_name)
                 if entity_name not in seen_shortnames:
                     seen_shortnames.append(entity_name)
                     label_contexts = re.findall(rf'[\.;\?\d\n]\)?,? ?([^\.;\n]*{entity_short}\.?[^;\.\n]*[;\.\n])', page)
