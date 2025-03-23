@@ -37,8 +37,8 @@ fulltext_items = r.json()['results']['bindings']
 for row in fulltext_items:
     parent_id = row['parent_id']['value']
     pdf_id = row['pdf_id']['value']
-    txt = row['txt_id']['value']
-    json_id = row['json_id']['value']
+    # txt = row['txt_id']['value']
+    # json_id = row['json_id']['value']
 
     bibitem_qid = row['item_id']['value']
     lang_iso = row['iso']['value']
