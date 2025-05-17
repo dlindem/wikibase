@@ -69,8 +69,10 @@ fulltext_items = r.json()['results']['bindings']
 count = 0
 for row in fulltext_items:
     count += 1
-    if count < 804:
+    bibitem_qid = row['item_id']['value']
+    if bibitem_qid != "Q2441":
         continue
+
     print(f"\n[{count} of {len(fulltext_items)}]")
     parent_id = row['parent_id']['value']
     try:
@@ -81,7 +83,6 @@ for row in fulltext_items:
         time.sleep(2)
         continue
 
-    bibitem_qid = row['item_id']['value']
     zot_st = row['zot_statement']['value']
     lang_iso = row['iso']['value']
     desctext = re.sub(r'[^\w\-_]', '' ,row['description']['value'].strip().replace(" ","_"))
@@ -107,9 +108,9 @@ for row in fulltext_items:
     if not wb_data['.json'] or (wb_data['.json'] and wb_data['.json'] != control['.json']):
         wb_data['.json'] = control['.json']
         wb_data['write'] = True
-    elif control['.json'] and not overwrite_existing_json and os.path.isfile(ske_filename):
-        print('Will skip item with existing full text json file and existing SkE text file.')
-        continue
+    # elif control['.json'] and not overwrite_existing_json and os.path.isfile(ske_filename):
+    #     print('Will skip item with existing full text json file and existing SkE text file.')
+    #     continue
 
     if control['.json'] and overwrite_existing_json:
         try:
@@ -146,8 +147,8 @@ for row in fulltext_items:
         elif not os.path.isfile(xmlfile):
             print(f"Did not find {xmlfile}.")
             missing_tei_list.append(bibitem_qid)
-            zotitem = pyzot.add_tags(zotitem, 'failed_TEI')
-            print(f"Added 'failed_TEI' tag to {parent_id} ({bibitem_qid}).")
+            zotitem = pyzot.add_tags(zotitem, 'failed_fulltext_processing')
+            print(f"Added 'failed_fulltext_processing' tag to {parent_id} ({bibitem_qid}).")
             if not control['.txt']:
                 continue
         elif os.path.isfile(xmlfile):
@@ -156,8 +157,8 @@ for row in fulltext_items:
                 print(f"Success attaching {xmlfile} to Zotero {parent_id}...")
             teijson = nlp.getgrobidabstractbody(xmlfile)
 
-
-    if not os.path.exists(ske_filename):
+    rebuild_ske = True
+    if not os.path.exists(ske_filename) or rebuild_ske:
         if control['.txt']:
             with open(ske_filename, 'w') as txtfile:
                 txtfile.write(bodytxt)

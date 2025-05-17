@@ -51,10 +51,15 @@ for row in fulltext_items:
         else:
             target = f"/media/david/FATdisk/ENEOLI/eneoli_fulltext_{bibitem_qid}.pdf"
             if os.path.exists(target):
-                print(f"Item {pdf_id} is already in target folder.")
+                # print(f"Item {pdf_id} is already in target folder.")
+                pass
             else:
                 os.system(f"cp {source}/*.pdf {target}")
                 print(f"Successfully copied {pdf_id}.")
+        if not os.path.exists(f"/media/david/FATdisk/ENEOLI/eneoli_fulltext_{bibitem_qid}.tei.xml"):
+            print(f"{bibitem_qid} has no TEI version. Will copy PDF to 'unprocessed_PDF' folder.")
+            target = f"/media/david/FATdisk/ENEOLI/unprocessed_PDF/eneoli_fulltext_{bibitem_qid}.pdf"
+            os.system(f"cp {source}/*.pdf {target}")
     except:
         print(f"There is something wrong with {row}...")
 
