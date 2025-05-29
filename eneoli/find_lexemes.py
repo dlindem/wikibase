@@ -65,9 +65,12 @@ def find_lexemes_for_lang(wikilang=None, isolang=None):
                 if 'type' in child['links']['enclosure']:
                     if child['links']['enclosure']['type'] == "application/json":
                         bibitemqid = re.search(r'Q\d+', child['links']['enclosure']['title']).group(0)
-                        print(f"\n[{count}/{len(bibitems)}]] For {bibitemqid}, retrieving fulltext json file: {child['key']}")
-
-                        fulltext = pyzot.file(child['key'])
+                        print(f"\n[{count}/{len(bibitems)}, {wikilang}] For {bibitemqid}, retrieving fulltext json file: {child['key']}")
+                        try:
+                            fulltext = pyzot.file(child['key'])
+                        except:
+                            print(f"Error retrieving Zotero full text file, skipped.")
+                            continue
                         # print(json.dumps(fulltext, indent=2))
                         if 'lemmatized' in fulltext:
                             text = fulltext['lemmatized']
@@ -97,6 +100,7 @@ def find_lexemes_for_lang(wikilang=None, isolang=None):
                 statements.append({'type': 'lexeme', 'prop_nr': 'P65', 'value': lid, 'qualifiers': [
                     {'type': 'string', 'prop_nr': 'P66', 'value': str(found_lexemes[lid])}
                 ], 'action': 'replace'})
+                print(f"Writing first statement...", end=" ")
                 xwbi.itemwrite({'qid': bibitemqid, 'statements': statements})
                 time.sleep(0.2)
                 first_statement = False
@@ -105,9 +109,12 @@ def find_lexemes_for_lang(wikilang=None, isolang=None):
                     {'type': 'string', 'prop_nr': 'P66', 'value': str(found_lexemes[lid])}
                 ], 'action': 'append'})
         # print(json.dumps(statements, indent=2))
-
+        print(f"Writing additional statements...", end=" ")
         xwbi.itemwrite({'qid': bibitemqid, 'statements': statements})
-        zotitem['data']['tags'].append({"tag": "term-indexed"})
+        if len(found_lexemes) > 0:
+            zotitem['data']['tags'].append({"tag": "term-indexed"})
+        else:
+            zotitem['data']['tags'].append({"tag": "failed_fulltext_processing"})
         pyzot.update_item(zotitem)
         print(f"Added tag 'term-indexed' to {zotitem['key']}")
         print(f"Finished processing <https://eneoli.wikibase.cloud/entity/{bibitemqid}>")
@@ -115,11 +122,11 @@ def find_lexemes_for_lang(wikilang=None, isolang=None):
     print(f"\nFinished processing language {wikilang}.\n")
 
 langs = {
-         "ca": "cat",
-         "da": "dan",
-         "de": "deu",
-         "el": "ell",
-         "en": "eng",
+         # "ca": "cat",
+         # "da": "dan",
+        # "de": "deu",
+       #  "el": "ell",
+      #   "en": "eng",
          "fr": "fra",
          "hr": "hrv",
          "it": "ita",

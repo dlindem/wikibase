@@ -13,7 +13,7 @@ import unidecode
 import logging
 # import romanize3
 # hebrewdict = romanize3.__dict__['heb']
-from wikidataintegrator import wdi_core, wdi_login
+# from wikidataintegrator import wdi_core, wdi_login
 # import os
 # import sys
 # sys.path.insert(1, os.path.realpath(os.path.pardir))
@@ -26,19 +26,19 @@ card1props = config.card1props
 # Logging config
 # logging.basicConfig(filename=config_private.datafolder+'logs/lwb.log', filemode='a', format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%d-%m-%y %H:%M:%S')
 
-#WDI setup
-def wdi_setup():
-	global wdilogin
-	global lwbEngine
-	mediawiki_api_url = "https://lexbib.elex.is/w/api.php" # <- change to applicable wikibase
-	sparql_endpoint_url = "https://lexbib.elex.is/query/sparql"  # <- change to applicable wikibase
-	wdilogin = wdi_login.WDLogin(config_private.wb_bot_user, config_private.wb_bot_pwd, mediawiki_api_url=mediawiki_api_url)
-	lwbEngine = wdi_core.WDItemEngine.wikibase_item_engine_factory(mediawiki_api_url, sparql_endpoint_url)
-	print('Logged into WDI. (old LWB.py)...')
-	return True
-wdisetup = None # If WDI is needed, login is done.
+# #WDI setup
+# def wdi_setup():
+# 	global wdilogin
+# 	global lwbEngine
+# 	mediawiki_api_url = "https://lexbib.elex.is/w/api.php" # <- change to applicable wikibase
+# 	sparql_endpoint_url = "https://lexbib.elex.is/query/sparql"  # <- change to applicable wikibase
+# 	wdilogin = wdi_login.WDLogin(config_private.wb_bot_user, config_private.wb_bot_pwd, mediawiki_api_url=mediawiki_api_url)
+# 	lwbEngine = wdi_core.WDItemEngine.wikibase_item_engine_factory(mediawiki_api_url, sparql_endpoint_url)
+# 	print('Logged into WDI. (old LWB.py)...')
+# 	return True
+# wdisetup = None # If WDI is needed, login is done.
 
-# LexBib wikibase OAuth for mwclient
+# Wikibase OAuth for mwclient
 
 site = mwclient.Site(config.wikibase_url.replace("https://",""))
 def get_token():
@@ -55,7 +55,7 @@ def get_token():
 	# get token
 	csrfquery = site.api('query', meta='tokens')
 	token = csrfquery['query']['tokens']['csrftoken']
-	print("Got fresh CSRF token for ENEOLI WIKIBASE.")
+	print(f"Got fresh CSRF token for {config.wikibase_name}.")
 	return token
 token = get_token()
 
