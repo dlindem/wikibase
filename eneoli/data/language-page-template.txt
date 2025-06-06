@@ -40,9 +40,9 @@ PREFIX enpq: <https://eneoli.wikibase.cloud/prop/qualifier/>
 select ?concept ?equiv_mylang ?warning ?descript_mylang (iri(concat(str(wd:),?wd)) as ?wikidata) ?label_en ?descript_en ?label_fr ?descript_fr
 
 where {
-  ?concept endp:P5 enwb:Q12. # instances of "NeoVoc Concept"
+  ?concept endp:P82 enwb:Q12. # part of NeoVoc collection
   optional {?concept endp:P1 ?wd.}
-  optional {?concept rdfs:label ?label_en. filter(lang(?label_en)="en")}
+  ?concept rdfs:label ?label_en. filter(lang(?label_en)="en")
   optional {?concept rdfs:label ?label_fr. filter(lang(?label_fr)="fr")}
   optional {?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)="@langwikicode")
            optional {?equiv_st enpq:P58 ?warning.}}
@@ -65,9 +65,9 @@ PREFIX enpq: <https://eneoli.wikibase.cloud/prop/qualifier/>
 select ?concept ?equiv_mylang ?warning ?descript_mylang (iri(concat(str(wd:),?wd)) as ?wikidata) ?label_en ?descript_en ?label_fr ?descript_fr
 
 where {
-  ?concept endp:P5 enwb:Q12. # instances of "NeoVoc Concept"
+  ?concept endp:P82 enwb:Q12. # part of NeoVoc collection
   optional {?concept endp:P1 ?wd.}
-  optional {?concept rdfs:label ?label_en. filter(lang(?label_en)="en")}
+  ?concept rdfs:label ?label_en. filter(lang(?label_en)="en")
   optional {?concept rdfs:label ?label_fr. filter(lang(?label_fr)="fr")}
   ?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)="@langwikicode")
            ?equiv_st enpq:P58 ?warning.
@@ -91,10 +91,10 @@ select
 ?concept ?equiv_mylang ?validator ?descript_mylang ?sense (iri(concat(str(wd:),?wd)) as ?wikidata) ?label_en ?descript_en ?label_fr ?descript_fr
 
 where {
-  ?concept endp:P5 enwb:Q12. # instances of "NeoVoc Concept"
+  ?concept endp:P82 enwb:Q12. # part of NeoVoc collection
   optional {?concept endp:P1 ?wd.}
-  optional {?concept rdfs:label ?label_en. filter(lang(?label_en)="en")}
-  optional {?concept rdfs:label ?label_fr. filter(lang(?label_fr)="fr")}
+  ?concept rdfs:label ?label_en. filter(lang(?label_en)="en")
+    optional {?concept rdfs:label ?label_fr. filter(lang(?label_fr)="fr")}
   ?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)="@langwikicode")
            ?equiv_st enpq:P64 [rdfs:label ?validator]. filter(lang(?validator)="en") # This restricts to equivalents that have the "validated by" qualifier
            optional {?equiv_st enpq:P63 ?sense.}
@@ -115,7 +115,7 @@ PREFIX endp: <https://eneoli.wikibase.cloud/prop/direct/>
 select ?lexical_entry ?lemma ?posLabel ?sense ?sense_gloss ?concept ?conceptLabel (iri(concat(str(wd:),?wd)) as ?wikidata)
 
 where {
-  ?lexical_entry a ontolex:LexicalEntry; dct:language enwb:@wikibase_item; wikibase:lemma ?lemma; wikibase:lexicalCategory ?pos; ontolex:sense ?sense.
+  ?lexical_entry endp:P82 enwb:Q12; dct:language enwb:@wikibase_item; wikibase:lemma ?lemma; wikibase:lexicalCategory ?pos; ontolex:sense ?sense.
   optional {?sense endp:P12 ?concept. optional {?sense skos:definition ?sense_gloss.}
   optional {?concept endp:P1 ?wd.}
   SERVICE wikibase:label { bd:serviceParam wikibase:language "@langwikicode,en,fr". }}
@@ -132,9 +132,9 @@ PREFIX endp: <https://eneoli.wikibase.cloud/prop/direct/>
 select ?lexical_entry ?lemma (group_concat(str(?synonym_lemma);SEPARATOR=", ") as ?synonym_group) ?posLabel ?sense ?sense_gloss ?concept ?conceptLabel
 
 where {
-  ?lexical_entry a ontolex:LexicalEntry; dct:language enwb:@wikibase_item; wikibase:lemma ?lemma; wikibase:lexicalCategory ?pos; ontolex:sense ?sense.
+  ?lexical_entry endp:P82 enwb:Q12; dct:language enwb:@wikibase_item; wikibase:lemma ?lemma; wikibase:lexicalCategory ?pos; ontolex:sense ?sense.
   optional {?sense endp:P12 ?concept. optional {?sense skos:definition ?sense_gloss.}
-            optional {?synonym a ontolex:LexicalEntry; dct:language enwb:@wikibase_item; wikibase:lemma ?synonym_lemma; ontolex:sense ?synonym_sense. ?synonym_sense endp:P12 ?concept.
+            optional {?synonym endp:P82 enwb:Q12; dct:language enwb:@wikibase_item; wikibase:lemma ?synonym_lemma; ontolex:sense ?synonym_sense. ?synonym_sense endp:P12 ?concept.
                     }
            }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "@langwikicode,en,fr". }
@@ -152,9 +152,9 @@ PREFIX endp: <https://eneoli.wikibase.cloud/prop/direct/>
 select ?lexical_entry ?lemma (group_concat(str(?synonym_langstring);SEPARATOR=", ") as ?synonym_group) ?posLabel ?sense ?sense_gloss ?concept ?conceptLabel
 
 where {
-  ?lexical_entry a ontolex:LexicalEntry; dct:language enwb:@wikibase_item; wikibase:lemma ?lemma; wikibase:lexicalCategory ?pos; ontolex:sense ?sense.
+  ?lexical_entry endp:P82 enwb:Q12; dct:language enwb:@wikibase_item; wikibase:lemma ?lemma; wikibase:lexicalCategory ?pos; ontolex:sense ?sense.
   optional {?sense endp:P12 ?concept. optional {?sense skos:definition ?sense_gloss.}
-            optional {?synonym a ontolex:LexicalEntry; wikibase:lemma ?synonym_lemma; ontolex:sense ?synonym_sense. ?synonym_sense endp:P12 ?concept.
+            optional {?synonym endp:P82 enwb:Q12; wikibase:lemma ?synonym_lemma; ontolex:sense ?synonym_sense. ?synonym_sense endp:P12 ?concept.
                    bind(concat(str(?synonym_lemma), " (",lang(?synonym_lemma),")") as ?synonym_langstring)
                      }
            }
@@ -173,7 +173,7 @@ PREFIX endp: <https://eneoli.wikibase.cloud/prop/direct/>
 select ?lexical_entry ?lemma (count(?bib_item) as ?in_how_many_articles)
 
 where {
-  ?lexical_entry endp:P5 enwb:Q13; wikibase:lemma ?lemma. filter(lang(?lemma)="@langwikicode")
+  ?lexical_entry endp:P82 enwb:Q12; wikibase:lemma ?lemma. filter(lang(?lemma)="@langwikicode")
   ?bib_item endp:P65 ?lexical_entry.
 } group by ?lexical_entry ?lang ?lemma order by desc(?in_how_many_articles)
 </sparql>
@@ -191,7 +191,7 @@ where {
   ?bib_item endp:P7 enwb:@wikibase_item; endp:P65 ?lexical_entry.
   ?bib_item rdfs:label ?title; schema:description ?desc.
   filter(lang(?title)="en") filter(lang(?desc)="en") bind(replace(?desc, "Publication by ", "") as ?authors_year)
-  ?lexical_entry endp:P5 enwb:Q13; wikibase:lemma ?lemma.
+  ?lexical_entry endp:P82 enwb:Q12; wikibase:lemma ?lemma.
 
 } group by ?bib_item ?authors_year ?title ?terms
 </sparql>

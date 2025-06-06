@@ -14,10 +14,10 @@ with open('data/languages_table.csv') as csvfile:
 		PREFIX enps: <https://eneoli.wikibase.cloud/prop/statement/>
 		PREFIX enpq: <https://eneoli.wikibase.cloud/prop/qualifier/>
 
-		select ?concept (group_concat(distinct str(?equiv_mylang);SEPARATOR="|") as ?equivs) ?label_mylang  (group_concat(distinct str(?altlabel_mylang);SEPARATOR="|") as ?altlabels)
+		select distinct ?concept (group_concat(distinct str(?equiv_mylang);SEPARATOR="|") as ?equivs) ?label_mylang  (group_concat(distinct str(?altlabel_mylang);SEPARATOR="|") as ?altlabels)
 
 		where {
-		?concept endp:P5 enwb:Q12. # instances of "NeoVoc Concept"
+		?concept endp:P82 []. # concepts of some collection.
 
 		?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)='""" + row[
             'wiki_languagecode'] + """')
