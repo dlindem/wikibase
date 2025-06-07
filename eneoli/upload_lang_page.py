@@ -28,8 +28,8 @@ with open('data/languages_table.csv') as csvfile:
 	#language_name,iso-639-1,iso-639-3,wiki_languagecode,wikibase_item,wikidata_item
 	indextext = "Access from here the page for your working language:\n\n"
 	for row in language_table:
-		if row['wiki_languagecode'] != "is":
-			continue
+		# if row['wiki_languagecode'] != "is":
+		# 	continue
 		langpage = template
 		rowdata = {'langname' : row['language_name'], 'langwikicode': row['wiki_languagecode'], 'wikibase_item': row['wikibase_item']}
 		print(rowdata)
