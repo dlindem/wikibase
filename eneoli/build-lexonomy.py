@@ -18,11 +18,11 @@ mapping = {
 
 root = xml.Element('dictionary')
 
-with open('lexonomy_data/datasheet.csv') as file:
+with open('data/lexonomy_data/datasheet4lexonomy.csv') as file:
     rows = csv.DictReader(file, delimiter="\t")
 
     for row in rows:
-        time.sleep(0.5)
+        # time.sleep(0.5)
         print(f"\nNow processing row: {row}")
         entry = xml.Element('entry')
         root.append(entry)
@@ -34,7 +34,7 @@ with open('lexonomy_data/datasheet.csv') as file:
 
         # attestations
         for att_nr in [1, 2, 3]:
-            if len(row[f"attestation {att_nr}"]) > 1:
+            if len(row[f"attestation {att_nr} text"]) > 1:
                 att = xml.SubElement(entry, 'attestation')
                 text = xml.SubElement(att, 'text')
                 text.text = row[f"attestation {att_nr} text"].strip()
@@ -47,7 +47,7 @@ with open('lexonomy_data/datasheet.csv') as file:
 
 reparsed = minidom.parseString(xml.tostring(root, 'utf-8')).toprettyxml(indent="\t")
 print(str(reparsed))
-outfile = 'lexonomy_data/dictionary.xml'
+outfile = 'data/lexonomy_data/dictionary.xml'
 with open(outfile, "w", encoding="utf-8") as file:
     file.write(reparsed)
 print('\n\nWritten to ' + outfile)
