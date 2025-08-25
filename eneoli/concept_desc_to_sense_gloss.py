@@ -16,7 +16,7 @@ with open('data/languages_table.csv') as csvfile:
         select ?lexical_entry (lang(?lemma) as ?lang) ?lemma ?sense ?sense_gloss ?concept ?concept_desc
                
         where { 
-          ?lexical_entry endp:P5 enwb:Q13; wikibase:lemma ?lemma; ontolex:sense ?sense.
+          ?lexical_entry endp:P82 ?collection; wikibase:lemma ?lemma; ontolex:sense ?sense.
           ?sense skos:definition ?sense_gloss. filter(lang(?sense_gloss)='""" + row['wiki_languagecode'] + """')
           ?sense endp:P12 ?concept.
           ?concept schema:description ?concept_desc. filter(lang(?concept_desc)='""" + row['wiki_languagecode'] + """')

@@ -18,11 +18,12 @@ with open('data/languages_table.csv') as csvfile:
 		PREFIX enps: <https://eneoli.wikibase.cloud/prop/statement/>
 		PREFIX enpq: <https://eneoli.wikibase.cloud/prop/qualifier/>
 		
-		select distinct ?concept ?termpos ?equiv_st ?equiv_mylang ?descript_mylang (iri(concat(str(wd:),?wd)) as ?wikidata) ?sense
+		select distinct ?concept ?collection ?termpos ?equiv_st ?equiv_mylang ?descript_mylang (iri(concat(str(wd:),?wd)) as ?wikidata) ?sense
 		
 		where {
 		# ?concept endp:P5 enwb:Q12. # instances of "NeoVoc Concept"
-		?concept endp:P82 enwb:Q51. # part of "Gender" collection
+		# ?concept endp:P82 enwb:Q51. # part of "Gender" collection
+		?concept endp:P82 ?collection. # part of any collection
 		optional {?concept endp:P1 ?wd.}
 		optional {?concept endp:P92 ?termpos.}
 		?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)='"""+row['wiki_languagecode']+"""')
@@ -41,7 +42,11 @@ with open('data/languages_table.csv') as csvfile:
 		for concept_binding in bindings:
 			count += 1
 			equiv = concept_binding['equiv_mylang']['value']
+			collectionqid = concept_binding['collection']['value'].replace("https://eneoli.wikibase.cloud/entity/","")
 			conceptqid = concept_binding['concept']['value'].replace("https://eneoli.wikibase.cloud/entity/","")
+			if conceptqid.startswith("L"): # somebody added an equivalent to a lexeme, not a concept
+				input(f"https//eneoli.wikibase.cloud/entity/{conceptqid} is a lexeme, not a concept. Enter to resume.\n")
+				continue
 			sense_to_concept_link = None
 			if 'termpos' in concept_binding:
 				termpos = concept_binding['termpos']['value'].replace("https://eneoli.wikibase.cloud/entity/","")
@@ -58,14 +63,14 @@ with open('data/languages_table.csv') as csvfile:
 			select ?lexical_entry ?sense ?sense_gloss ?concept ?conceptLabel (iri(concat(str(wd:),?wd)) as ?wikidata)
 			
 			where {
-			  ?lexical_entry endp:P82 enwb:Q51; dct:language enwb:"""+row['wikibase_item']+"""; wikibase:lemma '"""+equiv+"""'@"""+row['wiki_languagecode']+"""; wikibase:lexicalCategory enwb:"""+termpos+""". 
+			  ?lexical_entry endp:P82 ?collection; dct:language enwb:"""+row['wikibase_item']+"""; wikibase:lemma """+'"'+equiv+'"@'+row['wiki_languagecode']+"""; wikibase:lexicalCategory enwb:"""+termpos+""". 
 			  ?lexical_entry ontolex:sense ?sense.
 			  optional {?sense endp:P12 ?concept.}
 			  optional {?sense skos:definition ?sense_gloss. filter(lang(?sense_gloss)='"""+row['wiki_languagecode']+"""')}
 			  optional {?concept endp:P1 ?wd.}
 			  }
 			"""
-			# print(query)
+			#print(query)
 			lex_bindings = xwbi.wbi_helpers.execute_sparql_query(query=query)['results']['bindings']
 			lex_bindings2 = lex_bindings
 			print('Found ' + str(len(lex_bindings)) + ' senses in the results for the query for lemmata matching to "'+ equiv +'".\n')
@@ -86,10 +91,10 @@ with open('data/languages_table.csv') as csvfile:
 					print(f"Re-using an entry created in this run for lemma '{equiv}': {created_lexemes[equiv]}.")
 					lexeme = xwbi.lexeme.get(entity_id=created_lexemes[equiv])
 				else:
-					print(f"Going to create a new {termpos} entry for lemma '{equiv}'.")
+					print(f"Going to create a new {collectionqid} collection (POS={termpos}) entry for lemma '{equiv}'.")
 					lexeme = xwbi.wbi.lexeme.new(language=row['wikibase_item'], lexical_category=termpos)
 					lexeme.lemmas.set(language=row['wiki_languagecode'], value=equiv)
-					lexeme.claims.add(xwbi.Item(prop_nr='P82', value='Q51')) # part of "Gender" collection
+					lexeme.claims.add(xwbi.Item(prop_nr='P82', value=collectionqid)) # part of same collection as concept
 				concept_to_sense_link = None
 			elif len(existing) == 1: # this is the lexeme
 				print(f"Lexeme {existing[0]} {termpos} entry has lemma '{equiv}'. We'll check that.")
