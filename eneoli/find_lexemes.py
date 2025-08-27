@@ -3,7 +3,7 @@ import config_private
 import xwbi
 from flashtext import KeywordProcessor
 
-print("Will get Zotero items...")
+print("Will get Zotero items... This will take a while...")
 from pyzotero import zotero
 pyzot = zotero.Zotero(config_private.zotero_group_nr, 'group', config_private.zotero_api_key)
 zotitems = pyzot.everything(pyzot.items(tag="processed_fulltext"))
@@ -16,8 +16,8 @@ PREFIX endp: <https://eneoli.wikibase.cloud/prop/direct/>
 select ?lexical_entry (lang(?lemma) as ?lang) ?lemma 
        
 where { 
-  ?lexical_entry endp:P5 enwb:Q13; wikibase:lemma ?lemma.
- 
+  ?lexical_entry endp:P82 enwb:Q12; wikibase:lemma ?lemma.
+ # lexical entries part of "NeoVoc" collection
 }
 		"""
 lexicon = xwbi.wbi_helpers.execute_sparql_query(query=query)['results']['bindings']
@@ -109,7 +109,7 @@ def find_lexemes_for_lang(wikilang=None, isolang=None):
                     {'type': 'string', 'prop_nr': 'P66', 'value': str(found_lexemes[lid])}
                 ], 'action': 'append'})
         # print(json.dumps(statements, indent=2))
-        print(f"Writing additional statements...", end=" ")
+        print(f"Writing remaining statements...", end=" ")
         xwbi.itemwrite({'qid': bibitemqid, 'statements': statements})
         if len(found_lexemes) > 0:
             zotitem['data']['tags'].append({"tag": "term-indexed"})
@@ -126,16 +126,17 @@ langs = {
          # "da": "dan",
         # "de": "deu",
        #  "el": "ell",
-      #   "en": "eng",
-         "fr": "fra",
-         "hr": "hrv",
-         "it": "ita",
-         "lt": "lit",
-         "nl": "nld",
-         "pt": "por",
-         "uk": "ukr",
-         "sv": "slv",
-         "es": "spa"}
+       #  "en": "eng",
+         "fr": "fra"
+      #    "hr": "hrv",
+      #    "it": "ita",
+      #    "lt": "lit",
+      #    "nl": "nld",
+      #    "pt": "por",
+      #    "uk": "ukr",
+      #    "sv": "slv",
+      #    "es": "spa"
+       }
 
 for lang in langs:
     find_lexemes_for_lang(wikilang = lang, isolang = langs[lang])
