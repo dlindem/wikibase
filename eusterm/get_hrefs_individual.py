@@ -1,6 +1,7 @@
 import re, json, os
 
 anotazioak = {}
+anotazioak['wikidata_all'] = []
 
 files = os.listdir('html_hrefs/html')
 for filename in files:
@@ -12,7 +13,6 @@ for filename in files:
         content = file.read()
 
     links = re.findall(r'<a href="([^"]+)"', content)
-
     print(links)
 
     anotazioak[participant] = {"wikidata": [], "euskalterm": [], "other": []}
@@ -20,6 +20,8 @@ for filename in files:
         if "www.wikidata.org" in link:
             qid_re = re.search(r'/(Q[0-9]+)', link)
             if qid_re:
+                if qid_re.group(1) not in anotazioak['wikidata_all']:
+                    anotazioak['wikidata_all'].append(qid_re.group(1))
                 if qid_re.group(1) not in anotazioak[participant]["wikidata"]:
                     anotazioak[participant]["wikidata"].append(qid_re.group(1))
         elif "Euskalterm" in link:
