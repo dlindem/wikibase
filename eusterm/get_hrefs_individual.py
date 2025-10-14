@@ -33,3 +33,5 @@ for filename in files:
 
 with open('html_hrefs/erauzitakoak_ikasleka.json', 'w') as file:
     json.dump(anotazioak, file, indent=2)
+with open('html_hrefs/wikidata_qid.txt', 'w') as file:
+    file.write("\n".join(anotazioak['wikidata_all']))
