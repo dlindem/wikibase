@@ -36,4 +36,12 @@
 # https://en.wikipedia.org/wiki/Eating_disorder
 # https://es.wikipedia.org/wiki/Trastorno_por_d%C3%A9ficit_de_atenci%C3%B3n_con_hiperactividad
 # https://en.wikipedia.org/wiki/Rosa_Luxemburg
-https://en.wikipedia.org/wiki/Association_football
+# https://en.wikipedia.org/wiki/Association_football
+# https://es.wikipedia.org/wiki/Tarot_(adivinación)
+# https://es.wikipedia.org/wiki/Tarot_(adivinaci%C3%B3n)
+# https://en.wikipedia.org/wiki/Tarot
+# https://es.wikipedia.org/wiki/Mitolog%C3%ADa_griega
+# https://en.wikipedia.org/wiki/Glossary_of_motion_picture_terms
+# https://en.wikipedia.org/wiki/Category:Climbing_techniques
+https://en.wikipedia.org/wiki/Glossary_of_climbing_terms
+https://en.wikipedia.org/wiki/Climbing_(disambiguation)

@@ -28,10 +28,16 @@ for pagelink in pagelinks:
 	if os.path.isfile(outfilename):
 		print('This Wikipedia page has been processed before.')
 	else:
+		headers = {
+			'User-Agent': 'Wikidata user DL2204 python script'
+		}
 		gettexturl = 'https://'+wlang+'.wikipedia.org/w/api.php?action=parse&prop=text&page='+pagetitle+'&format=json'
-		pagetext = requests.get(url=gettexturl).json()['parse']['text']['*']
+		print(gettexturl)
+		r = requests.get(url=gettexturl, headers=headers)
+		print(r)
+		pagetext = r.json()['parse']['text']['*']
 		print(pagetext)
-		pagejson = requests.get(url='https://www.wikidata.org/w/api.php?action=wbgetentities&sites='+wlang+'wiki&format=json&titles='+pagetitle).json()
+		pagejson = requests.get(url='https://www.wikidata.org/w/api.php?action=wbgetentities&sites='+wlang+'wiki&format=json&titles='+pagetitle, headers=headers).json()
 		pageqid = list(pagejson['entities'].keys())[0]
 		# print(str(pageqid))
 		# time.sleep(10)
@@ -54,7 +60,7 @@ for pagelink in pagelinks:
 
 				apiurl = 'https://www.wikidata.org/w/api.php?action=wbgetentities&sites='+wlang+'wiki&format=json&titles='+linkpagetitle.replace(" ","_")
 				print(apiurl)
-				wdjsonsource = requests.get(url=apiurl)
+				wdjsonsource = requests.get(url=apiurl, headers=headers)
 				wdjson =  wdjsonsource.json()
 				# with open('entity.json', 'w') as jsonfile:
 				#	 json.dump(wdjson, jsonfile, indent=2)
