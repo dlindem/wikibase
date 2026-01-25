@@ -330,9 +330,12 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 	for entry in group:
 		index +=1
 
-		# for bridging aborted runs
-		# if index < 40075:
+		# # for bridging aborted runs
+		# if index < 3802:
 		# 	continue
+
+		if group[entry]['id'] not in [7076, 5562, 5500, 803, 798, 138, 100, 93]:
+			continue
 
 		# productions: exclude non-allowed production types
 		if groupname == "productions":
@@ -372,7 +375,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 			print('This '+groupname+' id is not known; new item created.')
 			clear = False
 
-		# claims
+		# claims dictionary
 		statements = {'append':[],'replace':[]}
 
 		# item labels
@@ -428,6 +431,14 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 					prop = inguma.mappings[groupname][key].split(':')[2]
 					statements['replace'].append(iwbiv1.MonolingualText(text=writevalue, language=lang, prop_nr=prop))
 
+				elif inguma.mappings[groupname][key].startswith("year:"):  # point in time with precision "year"
+					prop = inguma.mappings[groupname][key].split(':')[1]
+					statements['replace'].append(iwbiv1.Time(time=f"+{writevalue}-01-01T00:00:00Z", precision=9, prop_nr=prop))
+
+				elif inguma.mappings[groupname][key].startswith("day:"):  # point in time with precision "day"
+					prop = inguma.mappings[groupname][key].split(':')[1]
+					statements['replace'].append(iwbiv1.Time(time=f"+{writevalue[:10]}T00:00:00Z", precision=11, prop_nr=prop))
+
 				elif inguma.mappings[groupname][key].startswith("item:"):
 					maptable = inguma.mappings[groupname][key]
 					print(maptable,value)
@@ -456,7 +467,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 		#except Exception as ex:
 			#print('Error: ',str(ex))
 
-		print('Finished writing entry with id '+str(entry)+'\n')
+		print(f'Finished writing entry with id {entry} to https://wikibase.inguma.eus/entity/{qid}')
 
 
 	print('Finished processing '+groupname+'.')
