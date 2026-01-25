@@ -1,0 +1,93 @@
+= Task 3.6: Work page for @langname =
+This page provides access to the @langname data in the Gender glossary. Use the queries below to see concept entries with @langname equivalents and short definitions, and @langname lexical entries. In all languages, lexical entries are automatically created for those equivalents that have a "validated by" qualifier. The linguistic description of a neologism will be part of the lexical entry.
+
+== Concept entries ==
+The following query lists concepts with validated equivalents and short glosses in English, Spanish, and @langname.
+<sparql tryit="1">
+#title: "Gender" concepts, equivalents in English, Spanish and @langname, and short glosses in the three languages
+
+PREFIX enwb: <https://eneoli.wikibase.cloud/entity/>
+PREFIX endp: <https://eneoli.wikibase.cloud/prop/direct/>
+PREFIX enp: <https://eneoli.wikibase.cloud/prop/>
+PREFIX enps: <https://eneoli.wikibase.cloud/prop/statement/>
+PREFIX enpq: <https://eneoli.wikibase.cloud/prop/qualifier/> 
+
+select distinct ?concept ?termposLabel ?wikidata 
+(group_concat(distinct ?equiv_en;SEPARATOR="; ") as ?equivs_en) ?desc_en 
+(group_concat(distinct ?equiv_es;SEPARATOR="; ") as ?equivs_es) ?desc_es 
+(group_concat(distinct ?equiv_mylang;SEPARATOR="; ") as ?equivs_mylang)
+(group_concat(distinct ?validatorname;SEPARATOR="; ") as ?validators) ?desc_mylang
+       
+where {   
+  ?concept endp:P82 enwb:Q51. # Concepts of the "gender" collection
+  ?concept schema:description ?desc_en. filter(lang(?desc_en)="en")
+        optional {?concept enp:P57 [enpq:P64 []; enps:P57 ?equiv_en]. filter(lang(?equiv_en)="en")}
+		optional {?concept enp:P57 [enpq:P64 []; enps:P57 ?equiv_es]. filter(lang(?equiv_es)="es")}
+        optional {?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)="@langwikicode")
+                  optional {?equiv_st enpq:P64 ?validator. 
+                 ?validator rdfs:label ?validatorname. filter(lang(?validatorname)="en")}}
+  optional {?concept schema:description ?desc_es. filter(lang(?desc_es)="es")}
+  optional {?concept schema:description ?desc_mylang. filter(lang(?desc_mylang)="@langwikicode")}
+               
+  optional {?concept endp:P1 ?wd. bind (iri(concat(str(wd:),?wd)) as ?wikidata)}
+  optional {?concept endp:P92 ?termpos.}
+  
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+} group by ?concept ?termposLabel ?wikidata ?equivs_en ?desc_en ?equivs_es ?desc_es ?equiv_mylang ?validators ?desc_mylang
+order by lcase(?equiv_en)
+</sparql>
+
+=== Concept entries with equivalents that still have warnings ===
+The following query lists concepts with unvalidated equivalents imported from Wikidata, or marked for some other reason using the "warning" qualifier on an equivalent.
+<sparql tryit="1">
+#title: Gender concepts with warnings on @langname labels.
+
+PREFIX enwb: <https://eneoli.wikibase.cloud/entity/>
+PREFIX endp: <https://eneoli.wikibase.cloud/prop/direct/>
+PREFIX enp: <https://eneoli.wikibase.cloud/prop/>
+PREFIX enps: <https://eneoli.wikibase.cloud/prop/statement/>
+PREFIX enpq: <https://eneoli.wikibase.cloud/prop/qualifier/>
+
+select ?concept ?equiv_mylang ?warning ?descript_mylang (iri(concat(str(wd:),?wd)) as ?wikidata) ?label_en ?descript_en ?label_es ?descript_es
+
+where {
+  ?concept endp:P82 enwb:Q51. # part of Gender collection
+  optional {?concept endp:P1 ?wd.}
+  ?concept rdfs:label ?label_en. filter(lang(?label_en)="en")
+  optional {?concept rdfs:label ?label_es. filter(lang(?label_es)="es")}
+  ?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)="@langwikicode")
+           ?equiv_st enpq:P58 ?warning.
+  optional {?concept schema:description ?descript_en. filter(lang(?descript_en)="en")}
+  optional {?concept schema:description ?descript_es. filter(lang(?descript_es)="es")}
+  optional {?concept schema:description ?descript_mylang. filter(lang(?descript_mylang)="@langwikicode")}
+
+} order by lcase(?equiv_mylang)
+</sparql>
+
+== Lexical entries ==
+The following query lists @langname lexical entries and some descriptions. Lexical entries have been produced automatically from ''validated'' @langname equivalents given in [[#Concept_Entries|concept entries]].
+<sparql tryit="1">
+#title: "Gender" lexical entries in @langname language
+PREFIX enwb: <https://eneoli.wikibase.cloud/entity/>
+PREFIX endp: <https://eneoli.wikibase.cloud/prop/direct/>
+PREFIX enp: <https://eneoli.wikibase.cloud/prop/>
+PREFIX enps: <https://eneoli.wikibase.cloud/prop/statement/>
+PREFIX enpq: <https://eneoli.wikibase.cloud/prop/qualifier/>
+PREFIX enpr: <https://eneoli.wikibase.cloud/prop/reference/>
+
+select distinct ?lexical_entry ?lemma (lang(?lemma) as ?langcode) ?posLabel ?processTypeLabel ?neologismTypeLabel (count(?sense) as ?senses) (count(?attestation) as ?attestations)
+
+where { 
+  ?lexical_entry endp:P82 enwb:Q51. # Entries in the Task 3.6 "Gender" collection
+  ?lexical_entry wikibase:lemma ?lemma; dct:language enwb:@wikibase_item; ontolex:sense ?sense; wikibase:lexicalCategory ?pos.
+  
+  optional {?lexical_entry endp:P84 ?neologismType.}
+  optional {?lexical_entry endp:P83 ?processType.}
+  optional {?lexical_entry endp:P94 ?attestation.}
+  
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+} group by ?lexical_entry ?lemma ?posLabel ?processTypeLabel ?neologismTypeLabel ?senses ?attestations
+order by lcase(?lemma)
+</sparql>
+
+~~~~
