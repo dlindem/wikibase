@@ -18,21 +18,14 @@ from wikibaseintegrator.wbi_enums import ActionIfExists, WikibaseSnakType
 from wikibaseintegrator.models.claims import Claims
 
 # setup wbi for own wikibase
-wbi_config['MEDIAWIKI_API_URL'] = 'https://www.wikidata.org/w/api.php'
-wbi_config['SPARQL_ENDPOINT_URL'] = 'https://www.wikidata.org/sparql'
-wbi_config['WIKIBASE_URL'] = 'https://www.wikidata.org'
+# wbi_config['MEDIAWIKI_API_URL'] = 'https://www.wikidata.org/w/api.php'
+# wbi_config['SPARQL_ENDPOINT_URL'] = 'https://www.wikidata.org/sparql'
+# wbi_config['WIKIBASE_URL'] = 'http://www.wikidata.org'
 
 login_instance = wbi_login.Login(user=wd_user, password=wd_pwd)
 wdi = WikibaseIntegrator(login=login_instance)
 
 sparql_prefixes = """
-PREFIX clbwb: <https://www.wikidata.org/entity/>
-PREFIX clbdp: <https://www.wikidata.org/prop/direct/>
-PREFIX clbp: <https://www.wikidata.org/prop/>
-PREFIX clbps: <https://www.wikidata.org/prop/statement/>
-PREFIX clbpq: <https://www.wikidata.org/prop/qualifier/>
-PREFIX clbpr: <https://www.wikidata.org/prop/reference/>
-PREFIX clbno: <https://www.wikidata.org/prop/novalue/>
 """
 
 
