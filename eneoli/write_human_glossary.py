@@ -21,6 +21,16 @@ def get_token():
 	return token
 token = get_token()
 
+def write_page(pagename = None, pagetext = ""):
+    pagetext += "\n\n----\n<small>This page was created [https://github.com/dlindem/wikibase/blob/main/eneoli/write_human_glossary.py automatically]. ~~~~</small>"
+    pagecreation = site.post('edit', token=token, contentformat='text/x-wiki', contentmodel='wikitext',
+                             bot=True, recreate=True,
+                             summary=f"recreate wiki page using write_human_glossary.py",
+                             title=pagename, text=pagetext)
+    print(str(pagecreation))
+    time.sleep(1.1)
+
+
 query = """#title: Export for Task 1.4
 
 PREFIX enwb: <https://eneoli.wikibase.cloud/entity/>
@@ -40,7 +50,7 @@ select (strafter(str(?concept),str(enwb:)) as ?concept_id) ?concept_label ?wd
 (group_concat(distinct concat(str(YEAR(?date)),"@",strafter(str(?bib_item),str(enwb:)),"@",str(?bib_desc),"@",?bib_title,"@",?freq);SEPARATOR="|") as ?attestations) 
 (group_concat(distinct concat(strafter(str(?homograph_sense),str(enwb:)),"@",str(?homograph_gloss));SEPARATOR="|") as ?homographs)
 
-where { values ?concept {enwb:Q1308 enwb:Q1083}
+where { values ?concept {enwb:Q1308 enwb:Q1083 enwb:Q1089 enwb:Q1095 enwb:Q1093 enwb:Q1092}
   ?concept endp:P82 enwb:Q12; rdfs:label ?concept_label. filter(lang(?concept_label)="en") # part of NeoVoc collection
   optional {?concept endp:P1 ?wd.}
   optional {?concept endp:P4 ?broad. ?broad rdfs:label ?broad_label. filter(lang(?broad_label)="en")}
@@ -74,10 +84,12 @@ concepts_text = {}
 for binding in bindings:
     count += 1
     if binding['concept_id']['value'] != active_concept:
+        if active_concept:
+            write_page(pagename=f"NeoVoc/concepts/{active_concept}", pagetext=entrytext)
         active_concept = binding['concept_id']['value']
         print(f"[{count}] Now processing concept {active_concept}")
 
-        entrytext = f"=Concept entry [[Item:{active_concept}]{active_concept}]] '{binding['concept_label']['value']}'="
+        entrytext = f"'''Human readable entry for concept [[Item:{active_concept}|{active_concept}]], ''{binding['concept_label']['value']}'''''"
         if 'broaders' in binding:
             for broad_group in binding['broaders']['value'].split('|'):
                 broad_pair = broad_group.split('@')
@@ -99,7 +111,7 @@ for binding in bindings:
         active_language = False
     if active_language != binding['language_code']['value']:
         active_language = binding['language_code']['value']
-        entrytext += f"\n=={binding['language_name']['value']}=="
+        entrytext += f"\n={binding['language_name']['value']}="
         if 'long_def' in binding:
             entrytext += f"\n* Definition: ''{binding['long_def']['value']}''"
             for source in binding['def_sources']['value'].split("|"):
@@ -118,7 +130,7 @@ for binding in bindings:
             for hom_group in binding['homographs']['value'].split('|'):
                 hom_pair = hom_group.split('@')
                 sense_url = f"Lexeme:{re.sub(r'\-', '#', hom_pair[0])}"
-                entrytext += f"\n* Homograph term: [[{sense_url}|{lemma}]]: ''{hom_pair[1]}''"
+                entrytext += f"\n* Homograph term: [[{sense_url}|{lemma}]] — ''{hom_pair[1]}''"
 
         if 'attestations' not in binding:
             continue
@@ -129,21 +141,23 @@ for binding in bindings:
         attestations = dict(sorted(attestations.items()))
         entrytext += f"\n=== Attestations since {next(iter(attestations))} ==="
         if 'homographs' in binding:
-            entrytext += "Attestations may apply to any of the homograph terms."
+            entrytext += "\nAttestations may apply to any of the homograph terms."
         for year, text in attestations.items():
             entrytext += text
 
 
-    entrytext += "This page was created [https://github.automatically] ~~~~"
+
 
     concepts_text[active_concept] = entrytext
 
-    pagecreation = site.post('edit', token=token, contentformat='text/x-wiki', contentmodel='wikitext',
-                             bot=True, recreate=True,
-                             summary=f"recreate wiki page for NeoVoc concept {active_concept} using write_human_glossary.py",
-                             title=f"NeoVoc/concepts/{active_concept}", text=entrytext)
-    print(str(pagecreation))
-    time.sleep(0.5)
+write_page(pagename=f"NeoVoc/concepts/{active_concept}", pagetext=entrytext)
+
+overview_pagetext = "=NeoVoc Glossary concept pages="
+for concept, text in concepts_text.items():
+    overview_pagetext += f"\n* [[NeoVoc/concepts/{concept}|{concept}]]: {re.search(r'(^[^\n]+)',text).group(1)}"
+write_page(pagename="NeoVoc/concepts/all", pagetext=overview_pagetext)
+
+
 
 with open('data/concepts_text.json', 'w') as outfile:
     json.dump(concepts_text, outfile)
