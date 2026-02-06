@@ -17,8 +17,8 @@ import cyrtranslit
 # 		wikilangs_to_write.append(row['wiki_languagecode'])
 # 	working_wikilangs.append("sr")
 # 	print(f"Working languages: {working_wikilangs}")
-working_wikilangs = ['is']
-wikilangs_to_write = ['is']
+working_wikilangs = ['sk']
+wikilangs_to_write = ['sk']
 
 # get ENEOLI concepts
 
@@ -27,24 +27,21 @@ PREFIX endp: <https://eneoli.wikibase.cloud/prop/direct/>
 
 select ?concept (group_concat(distinct ?equiv_lang) as ?existing_equivlangs) (group_concat(distinct ?desc_lang) as ?existing_desclangs) ?wd ?wd_labels ?wd_descs
 where { 
-  ?concept endp:P5 enwb:Q12. # instances of "NeoVoc Concept"
+  ?concept endp:P82 enwb:Q12; rdfs:label []. # Q-items in collection "NeoVoc"
   ?concept endp:P1 ?wd. bind (iri(concat(str(wd:),?wd)) as ?wikidata)
-  optional {?concept endp:P57 ?equiv. bind(lang(?equiv) as ?equiv_lang)}
-  optional {?concept schema:description ?desc. bind(lang(?desc) as ?desc_lang)}
+  # optional {?concept endp:P57 ?equiv. bind(lang(?equiv) as ?equiv_lang)}
+  # optional {?concept schema:description ?desc. bind(lang(?desc) as ?desc_lang)}
   SERVICE <https://query.wikidata.org/sparql> {
-		   select ?wikidata (group_concat(concat('{"lang":"',?wd_label_lang,'", "value":"',?wd_label,'"}'); SEPARATOR = ', ') as ?wd_labels)
+		   select ?wikidata (group_concat(concat('{"lang":"',?wd_label_lang,'", "value":"',?wd_label,'"}'); SEPARATOR = ', ') as ?wd_labels) (group_concat(concat('{"lang":"',?wd_desc_lang,'", "value":"',?wd_desc,'"}'); SEPARATOR = ', ') as ?wd_descs)
 				  where { ?wikidata rdfs:label ?wd_lab. bind(lang(?wd_lab) as ?wd_label_lang) bind(replace(?wd_lab,'"',"'") as ?wd_label)
-						 } group by ?wikidata ?wd_labels }
-  SERVICE <https://query.wikidata.org/sparql> {
-		   select ?wikidata (group_concat(concat('{"lang":"',?wd_desc_lang,'", "value":"',?wd_desc,'"}'); SEPARATOR = ', ') as ?wd_descs)
-				  where { ?wikidata schema:description ?wd_des. bind(lang(?wd_des) as ?wd_desc_lang) bind(replace(?wd_des,'"',"'") as ?wd_desc)
-						 } group by ?wikidata ?wd_descs }
+                          optional {?wikidata schema:description ?wd_des. bind(lang(?wd_des) as ?wd_desc_lang) bind(replace(?wd_des,'"',"'") as ?wd_desc)}
+						 } group by ?wikidata ?wd_labels ?wd_descs }
 } group by ?concept ?existing_equivlangs ?existing_desclangs ?wd ?wd_labels ?wd_descs
   
   
   """
 
-bindings = xwbi.wbi_helpers.execute_sparql_query(query=query)['results']['bindings']
+bindings = xwbi.wbi_helpers.execute_sparql_query(query=query, user_agent="User:DavidL python script wikibaseintegrator")['results']['bindings']
 print('Found ' + str(len(bindings)) + ' results for the query for ENEOLI concepts aligned to Wikidata.\n')
 time.sleep(1)
 count = 0
