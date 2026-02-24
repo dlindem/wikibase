@@ -114,35 +114,36 @@ for binding in bindings:
         entrytext += f"\n={binding['language_name']['value']}="
         if 'long_def' in binding:
             entrytext += f"\n* Definition: ''{binding['long_def']['value']}''"
-            for source in binding['def_sources']['value'].split("|"):
-                if source.startswith("Q"):
-                    entrytext += f"\n** Source: [[Item:{source}|{source}]."
+            if 'def_sources' in binding:
+                for source in binding['def_sources']['value'].split("|"):
+                    if source.startswith("Q"):
+                        entrytext += f"\n** Source: [[Item:{source}|{source}]]."
         if 'gloss' in binding:
             entrytext += f"\n* Gloss: {binding['gloss']['value']}"
 
-        lemma = binding['lemma']['value']
-        sense_id = binding['sense_id']['value']
-        sense_url = f"Lexeme:{re.sub(r'\-','#', sense_id)}"
-        entrytext += f"\n== ''[[{sense_url}|{lemma}]]'' =="
-        entrytext += f"\n* lexical category: ''{binding['pos']['value']}''"
+    lemma = binding['lemma']['value']
+    sense_id = binding['sense_id']['value']
+    sense_url = f"Lexeme:{re.sub(r'\-','#', sense_id)}"
+    entrytext += f"\n== ''[[{sense_url}|{lemma}]]'' =="
+    entrytext += f"\n* lexical category: ''{binding['pos']['value']}''"
 
-        if 'homographs' in binding:
-            for hom_group in binding['homographs']['value'].split('|'):
-                hom_pair = hom_group.split('@')
-                sense_url = f"Lexeme:{re.sub(r'\-', '#', hom_pair[0])}"
-                entrytext += f"\n* Homograph term: [[{sense_url}|{lemma}]] — ''{hom_pair[1]}''"
+    if 'homographs' in binding:
+        for hom_group in binding['homographs']['value'].split('|'):
+            hom_pair = hom_group.split('@')
+            sense_url = f"Lexeme:{re.sub(r'\-', '#', hom_pair[0])}"
+            entrytext += f"\n* Homograph term: [[{sense_url}|{lemma}]] — ''{hom_pair[1]}''"
 
-        if 'attestations' not in binding:
-            continue
-        attestations = {}
-        for att in binding['attestations']['value'].split("|"):
-            att_group = att.split("@")
-            attestations[int(att_group[0])] = f"\n* [[Item:{att_group[1]}|{att_group[2].replace("Publication by ","")}]]: ''{att_group[3]}'' <small>({att_group[4]} occurrences)</small>"
-        attestations = dict(sorted(attestations.items()))
-        entrytext += f"\n=== Attestations since {next(iter(attestations))} ==="
-        if 'homographs' in binding:
-            entrytext += "\nAttestations may apply to any of the homograph terms."
-        for year, text in attestations.items():
+    if 'attestations' not in binding:
+        continue
+    attestations = {}
+    for att in binding['attestations']['value'].split("|"):
+        att_group = att.split("@")
+        attestations[int(att_group[0])] = f"\n* [[Item:{att_group[1]}|{att_group[2].replace("Publication by ","")}]]: ''{att_group[3]}'' <small>({att_group[4]} occurrences)</small>"
+    attestations = dict(sorted(attestations.items()))
+    entrytext += f"\n=== Attestations since {next(iter(attestations))} ==="
+    if 'homographs' in binding:
+        entrytext += "\nAttestations may apply to any of the homograph terms."
+    for year, text in attestations.items():
             entrytext += text
 
 
