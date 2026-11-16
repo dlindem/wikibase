@@ -80,7 +80,7 @@ for text in martif.findall("text"):
                     doblete.write()
                     print(f"RE-USED EXISTING ITEM {doblete.id}!")
                 else:
-                    print("Unknown error:",str(ex))
+                    input("Unknown error (press enter for skip and continue):",str(ex))
 
 
 

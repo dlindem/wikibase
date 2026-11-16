@@ -43,5 +43,16 @@
 # https://es.wikipedia.org/wiki/Mitolog%C3%ADa_griega
 # https://en.wikipedia.org/wiki/Glossary_of_motion_picture_terms
 # https://en.wikipedia.org/wiki/Category:Climbing_techniques
-https://en.wikipedia.org/wiki/Glossary_of_climbing_terms
-https://en.wikipedia.org/wiki/Climbing_(disambiguation)
+# https://en.wikipedia.org/wiki/Glossary_of_climbing_terms
+# https://en.wikipedia.org/wiki/Climbing_(disambiguation)
+# https://en.wikipedia.org/wiki/List_of_academic_databases_and_search_engines
+# https://en.wikipedia.org/wiki/Astronomy
+# https://en.wikipedia.org/wiki/Cat
+# https://es.wikipedia.org/wiki/Avi%C3%B3n
+# https://en.wikipedia.org/wiki/Outline_of_food_preparation
+# https://es.wikipedia.org/wiki/Felis_catus
+# https://en.wikipedia.org/wiki/Sexual_intercourse
+# https://en.wikipedia.org/wiki/Gothic_art
+# https://es.wikipedia.org/wiki/Arte_g%C3%B3tico
+# https://es.wikipedia.org/wiki/Arquitectura_g%C3%B3tica
+https://en.wikipedia.org/wiki/List_of_cooking_techniques

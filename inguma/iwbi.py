@@ -16,6 +16,7 @@ from wikibaseintegrator.wbi_config import config as wbi_config
 from wikibaseintegrator import wbi_helpers
 from wikibaseintegrator.wbi_enums import ActionIfExists, WikibaseSnakType
 from wikibaseintegrator.models.claims import Claims
+from wikibaseintegrator.models import Reference, References
 
 # setup wbi for own wikibase
 wbi_config['MEDIAWIKI_API_URL'] = 'https://wikibase.inguma.eus/w/api.php'

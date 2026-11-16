@@ -37,20 +37,23 @@ PREFIX enp: <https://eneoli.wikibase.cloud/prop/>
 PREFIX enps: <https://eneoli.wikibase.cloud/prop/statement/>
 PREFIX enpq: <https://eneoli.wikibase.cloud/prop/qualifier/>
 
-select ?concept ?equiv_mylang ?warning ?descript_mylang (iri(concat(str(wd:),?wd)) as ?wikidata) ?label_en ?descript_en ?label_fr ?descript_fr
+select ?concept ?warning (group_concat(distinct ?validator;SEPARATOR=", ") as ?validators) ?equiv_mylang ?descript_mylang ?label_en ?descript_en ?label_fr ?descript_fr (iri(concat(str(wd:),?wd)) as ?wikidata)
 
 where {
   ?concept endp:P82 enwb:Q12. # part of NeoVoc collection
+  filter not exists {?concept dct:language [].} # exclude lexemes
   optional {?concept endp:P1 ?wd.}
-  ?concept rdfs:label ?label_en. filter(lang(?label_en)="en")
+  optional {?concept rdfs:label ?label_en. filter(lang(?label_en)="en")}
   optional {?concept rdfs:label ?label_fr. filter(lang(?label_fr)="fr")}
   optional {?concept enp:P57 ?equiv_st. ?equiv_st enps:P57 ?equiv_mylang. filter(lang(?equiv_mylang)="@langwikicode")
-           optional {?equiv_st enpq:P58 ?warning.}}
+           optional {?equiv_st enpq:P58 ?warning.}
+           optional {?equiv_st enpq:P64 [rdfs:label ?validator]. filter(lang(?validator)="en")}}
   optional {?concept schema:description ?descript_en. filter(lang(?descript_en)="en")}
   optional {?concept schema:description ?descript_fr. filter(lang(?descript_fr)="fr")}
   optional {?concept schema:description ?descript_mylang. filter(lang(?descript_mylang)="@langwikicode")}
 
-} order by lcase(?equiv_mylang)
+} group by ?concept ?warning ?validators ?equiv_mylang ?descript_mylang ?label_en ?descript_en ?label_fr ?descript_fr ?wd
+order by lcase(?equiv_mylang)
 </sparql>
 === NeoVoc entries with equivalents for @langname that still have warnings ===
 <sparql tryit="1">

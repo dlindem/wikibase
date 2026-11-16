@@ -9,7 +9,7 @@ print('Will run functions selected (uncommented) in the script.\n')
 # print(inguma_upload.update_mapping('affiliations'))
 # print(inguma_upload.update_mapping('knowledge-areas'))
 # print(inguma_upload.update_mapping('organizations'))
-#
+# #
 # print('All selected qidmapping files updated.')
 #
 # # The following functions upload the inguma sql groups
@@ -18,16 +18,16 @@ print('Will run functions selected (uncommented) in the script.\n')
 # print(inguma_upload.update_group('affiliations'))
 # print(inguma_upload.update_group('knowledge-areas'))
 # print(inguma_upload.update_group('organizations'))
-print(inguma_upload.update_group('persons', rewrite = True))
+print(inguma_upload.update_group('persons', rewrite = False))
 
-# print(inguma_upload.update_group('productions')) #, rewrite = True))
+print(inguma_upload.update_group('productions')) #, rewrite = True))
 
 print('All selected groups uplodaded.')
 
-# # The following only updates the inguma sql local caché, and does not upload
+# # The following only updates the inguma sql local json copy, and does not upload
 #
 # groups_to_get = ['persons', 'affiliations', 'knowledge-areas', 'organizations']
-# # groups_to_get = ['productions']
+# groups_to_get = ['productions']
 # for group in groups_to_get:
 # 	content = inguma.get_ingumagroup(group)
 # 	if content:

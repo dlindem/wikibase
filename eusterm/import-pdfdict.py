@@ -1,21 +1,19 @@
 import euswbi
 import json, re, time, sys
-eginda = """336
-337
-338
-339
-340
-"""
+eginda = """"""
 eginlist = eginda.split('\n')
 
-arloa = "sare_sozialak"
-schemeqid = "Q5964"
-refqid = "Q7631" # UZEI dict.
+arloa = "feminismoa_berdintasuna"
+schemeqid = "Q51314"
+refqid = "Q6746" # UZEI dict.
 
 # load items to import
-with open('pdf2dict/sare_sozialak.json', 'r') as jsonfile:
+with open('pdf2dict/feminismoa_berdintasuna.json', 'r') as jsonfile:
 	source = json.load(jsonfile)
+	count = 0
 	for entry in source:
+		count += 1
+		print(f"\nNow processing: {count} of {len(source)}.")
 		# if int(entry['id']) < 306:
 		# 	continue
 		itemdata = {'qid':False, 'statements':[], 'labels':[], 'aliases':[], 'descriptions':[]}
@@ -32,13 +30,13 @@ with open('pdf2dict/sare_sozialak.json', 'r') as jsonfile:
 		itemdata['labels'].append({'lang':'eu', 'value':entry['eusterm']})
 		itemdata['statements'].append({'type':'string', 'prop_nr':'P8', 'value':entry['eusterm'],
 		'references':[{'type':'item','prop_nr':'P17','value':refqid}],
-		'qualifiers':[{'type':'string','prop_nr':'P18','value':entry['eustermqual']}]})
+		'qualifiers':[{'type':'string','prop_nr':'P18','value':entry['qual']}]})
 		# aliases
 		for sin in entry['sins']:
 			itemdata['aliases'].append({'lang':'eu', 'value':sin['sin']})
 			itemdata['statements'].append({'type':'string', 'prop_nr':'P8', 'value':entry['eusterm'],
 			'references':[{'type':'item','prop_nr':'P17','value':refqid}],
-			'qualifiers':[{'type':'string','prop_nr':'P18','value':entry['eustermqual']}]})
+			'qualifiers':[{'type':'string','prop_nr':'P18','value':entry['qual']}]})
 
 		if len(entry['eusdef']) > 1:
 			itemdata['statements'].append({'type':'string', 'prop_nr':'P13', 'value':entry['eusdef'], 'references':[{'type':'item','prop_nr':'P17','value':refqid}]})
@@ -49,9 +47,10 @@ with open('pdf2dict/sare_sozialak.json', 'r') as jsonfile:
 				itemdata['labels'].append({'lang':lang, 'value':langentry.pop(0)})
 				for alias in langentry:
 					itemdata['aliases'].append({'lang':lang, 'value':alias})
-		for lang in langs:
-			langdefentry = entry[lang+'def']
-			if langdefentry != "":
-				itemdata['descriptions'].append({'lang':lang, 'value':langdefentry})
+		# for lang in langs:
+		# 	langdefentry = entry[lang+'def']
+		# 	if langdefentry != "":
+		# 		itemdata['descriptions'].append({'lang':lang, 'value':langdefentry})
 
 		euswbi.itemwrite(itemdata)
+		time.sleep(.5)

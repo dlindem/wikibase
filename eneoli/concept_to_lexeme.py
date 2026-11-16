@@ -7,9 +7,9 @@ with open('data/languages_table.csv') as csvfile:
 	language_table = csv.DictReader(csvfile, delimiter=",")
 	#language_name,iso-639-1,iso-639-3,wiki_languagecode,wikibase_item,wikidata_item
 	for row in language_table:
-		do_not_check = []
-		if row['iso-639-1'] in do_not_check:
-			continue
+		# do_check = ['sr']
+		# if row['iso-639-1'] not in do_check:
+		# 	continue
 		print(f"\nNow processing language {row['language_name']}...\n")
 		query = """
 		PREFIX enwb: <https://eneoli.wikibase.cloud/entity/>

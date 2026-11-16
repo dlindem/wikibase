@@ -517,7 +517,7 @@ def addsense(s, glossdict):
 		try:
 			request = site.post('wbladdsense', lexemeId=s, data=json.dumps(glossdict), token=token, bot=1)
 			if request['success'] == 1:
-				print(f'Success creating Sense\n{request}')
+				# print(f'Success creating Sense\n{request}')
 				return True
 		except Exception as ex:
 			if 'Invalid CSRF token.' in str(ex):
@@ -544,7 +544,7 @@ def editsense(sense_id=None, glossdict={}):
 		try:
 			request = site.post('wbleditsenseelements', senseId=sense_id, data=json.dumps(glossdict), token=token, bot=1)
 			if request['success'] == 1:
-				print(f'Success editing Sense\n{request}')
+				# print(f'Success editing Sense\n{request}')
 				return True
 		except Exception as ex:
 			if 'Invalid CSRF token.' in str(ex):
@@ -742,10 +742,11 @@ def updateclaim(s, p, o, dtype): # for novalue: o="novalue", dtype="novalue"
 					print('Found Novalue, but no P38 "source string" quali.')
 
 			if foundo in foundobjs: # and foundo['language'] != "he":
-				print('Will remove a duplicate claim: '+guid,str(foundo))
-				results = site.post('wbremoveclaims', claim=guid, token=token)
-				if results['success'] == 1:
-					print('Wb remove duplicate claim for '+s+' ('+p+') '+str(foundo)+': success.')
+				# print('Will remove a duplicate claim: '+guid,str(foundo))
+				# results = site.post('wbremoveclaims', claim=guid, token=token)
+				# if results['success'] == 1:
+				# 	print('Wb remove duplicate claim for '+s+' ('+p+') '+str(foundo)+': success.')
+				continue
 			elif foundo != "novalue": # novalue statements without P38 qualifier are always written
 				if dtype == "monolingualtext" and p in card1props:
 					if o['language'] == foundo['language']:
@@ -770,7 +771,9 @@ def updateclaim(s, p, o, dtype): # for novalue: o="novalue", dtype="novalue"
 							foundobjs.remove(foundo)
 					elif not returnvalue:
 						print('('+p+') is a max 1 prop. Will write statement.')
-						while True:
+						attempts = 0
+						while attempts < 3:
+							attempts += 1
 							try:
 								results = site.post('wbsetclaimvalue', token=token, claim=guid, snaktype="value", value=value)
 								if results['success'] == 1:
@@ -784,7 +787,7 @@ def updateclaim(s, p, o, dtype): # for novalue: o="novalue", dtype="novalue"
 									token = get_token()
 								else:
 									print('Claim update failed... Will try again.')
-									time.sleep(4)
+									time.sleep(3)
 
 	if returnvalue: # means statement needs not to be written, returns guid of existing claim
 		return returnvalue
@@ -825,7 +828,8 @@ def updateclaim(s, p, o, dtype): # for novalue: o="novalue", dtype="novalue"
 # set a claim value
 def setclaimvalue(guid, value, dtype):
 	global token
-	guidfix = re.compile(r'^(Q\d+)\-')
+
+	guidfix = re.compile(r'^([LQ]\d+\-?S?\d*)\-')
 	guid = re.sub(guidfix, r'\1$', guid)
 	print('Will now set value "'+value+'" to guid '+guid)
 	if dtype == "item" or dtype =="wikibase-entityid":
@@ -833,7 +837,9 @@ def setclaimvalue(guid, value, dtype):
 	else:
 		print('This item type is still not implemented in "lwb.setclaimvalue": '+dtype)
 		sys.exit()
-	while True:
+	attempts = 0
+	while attempts < 3:
+		attempts += 1
 		try:
 			results = site.post('wbsetclaimvalue', token=token, claim=guid, snaktype="value", value=value)
 
@@ -847,7 +853,6 @@ def setclaimvalue(guid, value, dtype):
 			else:
 				print('Claim update failed... Will try again.')
 				time.sleep(4)
-
 
 # set a Qualifier
 def setqualifier(qid, prop, claimid, qualiprop, qualio, dtype):

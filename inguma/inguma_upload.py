@@ -38,16 +38,19 @@ def extra(groupname=None, fieldname=None, value=None):
 		statements['replace'].append(iwbiv1.String(value=groupname+':'+str(value).strip(), prop_nr="P49"))
 	elif fieldname == "address":
 		value = value.strip().replace("\t","")
-		r = requests.get('https://nominatim.openstreetmap.org/search?q="'+value+'"&format=json')
-		#print(str(r.json()))
-		if len(r.json()) > 0:
-			lat = r.json()[0]['lat']
-			lon = r.json()[0]['lon']
-			print('Got as first OSM result these coords:',str(lat),str(lon))
-			references = [[iwbiv1.String(value=value, prop_nr="P55")]]
-			statements['replace'].append(iwbiv1.GlobeCoordinate(prop_nr = "P57", latitude = float(lat), longitude = float(lon), references=references))
-		else:
-			print('Did not find coords on OSM for this address literal.')
+		try:
+			r = requests.get('https://nominatim.openstreetmap.org/search?q="'+value+'"&format=json')
+			#print(str(r.json()))
+			if len(r.json()) > 0:
+				lat = r.json()[0]['lat']
+				lon = r.json()[0]['lon']
+				print('Got as first OSM result these coords:',str(lat),str(lon))
+				references = [[iwbiv1.String(value=value, prop_nr="P55")]]
+				statements['replace'].append(iwbiv1.GlobeCoordinate(prop_nr = "P57", latitude = float(lat), longitude = float(lon), references=references))
+			else:
+				print('Did not find coords on OSM for this address literal.')
+		except:
+			print('Failed to requests coords on OSM for this address literal.')
 		statements['replace'].append(iwbiv1.String(value=value, prop_nr="P55")) # address literal
 	elif fieldname == "secondSurname":
 		value = value.strip().replace("\t","")
@@ -309,6 +312,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 	else:
 		with open('content/'+groupname+'.json', 'r') as jsonfile:
 			group = json.load(jsonfile)
+			print(f"Loaded {len(group)} items for group {groupname}")
 
 	groupmappingfile = Path('data/'+groupname+'_qidmapping.csv')
 	groupmappingfile.touch(exist_ok=True) # if file does not exist
@@ -334,8 +338,8 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 		# if index < 3802:
 		# 	continue
 
-		if group[entry]['id'] not in [7076, 5562, 5500, 803, 798, 138, 100, 93]:
-			continue
+		# if group[entry]['id'] not in [7076, 5562, 5500, 803, 798, 138, 100, 93]:
+		# 	continue
 
 		# productions: exclude non-allowed production types
 		if groupname == "productions":
@@ -463,7 +467,7 @@ def update_group(groupname, rewrite=False): # if rewrite=True is passed, existin
 		if entry not in qidmapping and qid:
 			with open(groupmappingfile, 'a', encoding="utf-8") as txtfile:
 				txtfile.write(str(entry)+'\t'+qid+'\n')
-		time.sleep(0.2)
+		time.sleep(0.5)
 		#except Exception as ex:
 			#print('Error: ',str(ex))
 

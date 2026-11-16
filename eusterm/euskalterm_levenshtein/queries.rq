@@ -1,0 +1,42 @@
+# get basque terms
+
+PREFIX euswb: <https://eusterm.wikibase.cloud/entity/>
+PREFIX eusdp: <https://eusterm.wikibase.cloud/prop/direct/>
+PREFIX eusp: <https://eusterm.wikibase.cloud/prop/>
+PREFIX eusps: <https://eusterm.wikibase.cloud/prop/statement/>
+PREFIX euspq: <https://eusterm.wikibase.cloud/prop/qualifier/>
+PREFIX euspr: <https://eusterm.wikibase.cloud/prop/reference/>
+
+select ?concept ?hizt ?hiztegia
+?eu_term_st ?eu_term
+
+
+where {
+  ?hizt eusdp:P5 euswb:Q20876; rdfs:label ?hiztegia. # Hiztegi guztiak
+  filter(lang(?hiztegia)="eu")
+  ?concept eusdp:P17 ?hizt.
+  ?concept eusp:P8 ?eu_term_st. ?eu_term_st eusps:P8 ?eu_term.
+
+ }
+
+ * get terms in other languages
+
+ PREFIX euswb: <https://eusterm.wikibase.cloud/entity/>
+PREFIX eusdp: <https://eusterm.wikibase.cloud/prop/direct/>
+PREFIX eusp: <https://eusterm.wikibase.cloud/prop/>
+PREFIX eusps: <https://eusterm.wikibase.cloud/prop/statement/>
+PREFIX euspq: <https://eusterm.wikibase.cloud/prop/qualifier/>
+PREFIX euspr: <https://eusterm.wikibase.cloud/prop/reference/>
+
+select ?concept ?hizt ?hiztegia ?term_st ?lang ?term
+
+
+where {
+  ?hizt eusdp:P5 euswb:Q20876; rdfs:label ?hiztegia. # Hiztegi guztiak
+  filter(lang(?hiztegia)="eu")
+  ?concept eusdp:P17 ?hizt.
+  ?concept eusp:P184 ?term_st. ?term_st eusps:P184 ?val.
+  bind(lang(?val) as ?lang) bind(str(?val) as ?term)
+
+
+ }
